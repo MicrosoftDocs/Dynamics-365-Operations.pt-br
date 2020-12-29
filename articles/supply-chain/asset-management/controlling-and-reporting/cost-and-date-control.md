@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 18373ff16b63ea61a3a4bc38ee7fa0b5e33154b5
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889664"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422081"
 ---
 # <a name="cost-and-date-control"></a>Controle de custo e data
 
@@ -59,7 +59,7 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 8. Para limitar a pesquisa, você poderá selecionar ativos específicos/locais funcionais/ordens de trabalho na Guia Rápida **Registros a serem incluídos**.
 
-9. Clique em **OK**para iniciar o cálculo.
+9. Clique em **OK** para iniciar o cálculo.
 
     A figura abaixo mostra um exemplo da caixa de diálogo **Controle de custos de ativos**.
 

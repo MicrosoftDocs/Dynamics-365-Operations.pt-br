@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2505f5f334c3f86959023812880e956f0ebaac09
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889832"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422290"
 ---
 # <a name="asset-management-parameters"></a>Parâmetros de gerenciamento de ativos
 
@@ -48,11 +48,11 @@ Link **Ativos**
 - No campo **Modelo**, selecione o modelo de previsão usado em previsões de tipo de trabalho e ordem de serviço.  
 
 
-Link**Ordens de serviço**
+Link **Ordens de serviço**
 
 - **Tipo de ordem de serviço padrão** define as configurações padrão ao criar uma ordem de serviço.  
 - **Tipo de ordem de serviço preventiva** define o tipo de ordem de serviço usado ao criar ordens de serviço a partir dos planos de manutenção. Se este campo estiver em branco, será usado o tipo da ordem de serviço no campo **Tipo de ordem de serviço padrão**.  
-- No campo **Máscara da ordem de serviço relacionada**, você define o número máximo de ordens de serviço que podem ser relacionadas a uma ordem de serviço. Por exemplo, ## permite ter até 99 ordens de serviço relacionadas. Se você definir uma máscara conforme descrito aqui, as ordens de serviço relacionadas estarão numeradas [ID de ordem de serviço à qual uma ordem de serviço está relacionada]-01, -02, -03 etc. Se você não definir uma máscara neste campo, a ordem de serviço relacionada obterá a próxima ID sequencial da ordem de serviço.  
+- No campo **Máscara da ordem de serviço relacionada**, você define o número máximo de ordens de serviço que podem ser relacionadas a uma ordem de serviço. Por exemplo, ## permite ter até 99 ordens de serviço relacionadas. Se você definir uma máscara conforme descrito aqui, as ordens de serviço relacionadas estarão numeradas [ID de ordem de serviço à qual uma ordem de serviço está relacionada] -01, -02, -03 etc. Se você não definir uma máscara neste campo, a ordem de serviço relacionada obterá a próxima ID sequencial da ordem de serviço.  
 - Selecione **Sim** de **Copiar falhas** para copiar as falhas registradas automaticamente em ordens de serviço relacionadas a solicitações de manutenção. 
 - No campo **Nível**, defina o nível de local funcional que é automaticamente inserido em uma ordem de serviço se todos os trabalhos de ordem de serviço relacionadas estiverem relacionadas ao mesmo local funcional. Se nem todos os trabalhos de ordem de serviço estiverem relacionados ao mesmo local funcional no nível definido, o campo **Local funcional** ficará em branco na ordem de serviço. Por exemplo, se você inserir o número "1" neste campo, que é o nível superior de uma estrutura de local funcional. Se você inserir o número "0" neste campo, significa que não definiu um nível de local funcional específico. Mas todos os trabalhos de ordem de serviço em uma ordem de serviço devem estar relacionados ao mesmo local funcional para que esse local funcional seja adicionado à ordem de serviço.  
 - Diários usados para lançar consumo em uma ordem de serviço podem ser selecionados na Guia Rápida **Geral** nos campos **Hora**, **Item** e **Despesa**.  
@@ -68,7 +68,7 @@ Link**Ordens de serviço**
 - Na Guia Rápida **Categoria**, as categorias padrão relativas ao consumo em ordens de serviço podem ser definidas.  
 
 
-Link**Agendamento da ordem de serviço**
+Link **Agendamento da ordem de serviço**
 
 - **Limite de tempo de agenda** define o período em dias, calculado da data de início esperada da ordem de serviço, em que trabalhos de ordem de serviço são planejados.  
 - O **Plano mestre** se refere a recursos no módulo **Administração da organização**. Se você selecionar um plano mestre neste campo, poderá ver as reservas de capacidade relacionadas a ordens de serviço em **Reservas de capacidade** (**Administração de organização** > **Recursos** > **Recursos** > selecionar recurso > guia **Recurso** > botão **Reservas de capacidade**). Se você deixar este campo em branco, poderá ver a capacidade máxima relacionada a ordens de serviço em **Capacidade máxima** (**Administração da organização** \> **Recursos** \> **Recursos** \> selecionar recurso \> guia **Recurso** \> botão **Capacidade máxima**).  

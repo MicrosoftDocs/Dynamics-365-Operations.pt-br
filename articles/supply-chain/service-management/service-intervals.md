@@ -19,11 +19,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1027a6a1ddb1057ba039382d394522d6f9538a90
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979127"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422271"
 ---
 # <a name="service-intervals"></a>Intervalos de serviço
 
@@ -88,7 +88,7 @@ Como não há agrupamento na ordem de serviço (definido pela opção **Por cont
 
 ### <a name="service-orders-created"></a>Ordens de serviço criadas
 
-Três linhas de ordem de serviço foram criadas nesse intervalo de tempo que você especificou na caixa de diálogo **Criar ordens de serviço**. Você pode visualizar as linhas da ordem de serviço na página **Contratos de serviço** (**Painel de Ação** \> guia **Entregar** \>botão**Exibir** ).
+Três linhas de ordem de serviço foram criadas nesse intervalo de tempo que você especificou na caixa de diálogo **Criar ordens de serviço**. Você pode visualizar as linhas da ordem de serviço na página **Contratos de serviço** (**Painel de Ação** \> guia **Entregar** \>botão **Exibir** ).
 
 ## <a name="related-topics"></a>Tópicos relacionados
 

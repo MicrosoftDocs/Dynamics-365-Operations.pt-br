@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5015955338a4cbc2b51585d6297756f20dccee8b
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422301"
 ---
 # <a name="calculate-capacity-load"></a>Calcular a capacidade máxima
 
@@ -52,7 +52,7 @@ Isso é útil para obter uma visão geral da capacidade máxima esperada por um 
     
     Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas do agendamento de manutenção e todas as ordens de serviço em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-6. Clique em **OK**para iniciar o cálculo.
+6. Clique em **OK** para iniciar o cálculo.
 
 7. Nos grupos **Agrupar por...**, clique nos botões relevantes para mostrar o nível de detalhe necessário do cálculo. Na captura de tela abaixo, os botões **Agrupar por** são realçados em azul. Clique em um botão para ativá-los ou desativá-los.
 

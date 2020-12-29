@@ -20,11 +20,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c3865bfc3b66c018f836e21bbddf658de0351e57
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3211367"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422027"
 ---
 # <a name="operations-scheduling-options"></a>Opções de plano de operações
 
@@ -97,7 +97,7 @@ Quando as referências dependem das ordens de produção, elas também são conh
 
 ### <a name="synchronize-references"></a>Sincronizar referências
 
-Você pode sincronizar as referências com a ordem de produção. Se essa opção for selecionada, as datas das subproduções serão movidas e alinhadas quando forem feitas alterações na agenda da ordem de produção. Se uma ordem de produção tiver uma ou mais subproduções, talvez você queira agendar as subproduções junto com a produção principal. Nesse caso, a produção principal não poderá ser iniciada até que as subproduções relacionadas não sejam concluídas. Portanto, marque esta caixa de seleção se o agendamento de subproduções deve ser baseado nas horas inicial e final da produção principal. Você poderá marcar esta caixa de seleção somente se a caixa de seleção**Referências de plano** também estiver marcada.
+Você pode sincronizar as referências com a ordem de produção. Se essa opção for selecionada, as datas das subproduções serão movidas e alinhadas quando forem feitas alterações na agenda da ordem de produção. Se uma ordem de produção tiver uma ou mais subproduções, talvez você queira agendar as subproduções junto com a produção principal. Nesse caso, a produção principal não poderá ser iniciada até que as subproduções relacionadas não sejam concluídas. Portanto, marque esta caixa de seleção se o agendamento de subproduções deve ser baseado nas horas inicial e final da produção principal. Você poderá marcar esta caixa de seleção somente se a caixa de seleção **Referências de plano** também estiver marcada.
 
 ## <a name="cancellation"></a>Cancelamento
 ### <a name="cancel-queue-time"></a>Cancelar tempo de espera

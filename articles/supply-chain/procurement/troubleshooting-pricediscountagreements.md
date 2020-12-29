@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b4349eeba285492202b5df8481b277a06708a4c8
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018204"
+ms.locfileid: "4422607"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Solucionar problemas de preços, descontos, contratos e descontos
 
@@ -48,7 +48,7 @@ A mensagem é o prompt de avaliação do contrato comercial (TAE). Para obter um
 
 O seguinte procedimento mostra uma forma de reproduzir o problema.
 
-1. Na página **Parâmetros de compras** , na guia **Entrega** , certifique-se de que a opção **Gerar encargos no recibo do produto** está definida como *Sim*.
+1. Na página **Parâmetros de compras**, na guia **Entrega**, certifique-se de que a opção **Gerar encargos no recibo do produto** está definida como *Sim*.
 1. Crie uma ordem de compra que inclui encargos.
 1. Confirme uma ordem de compra.
 1. Receba a ordem de compra.

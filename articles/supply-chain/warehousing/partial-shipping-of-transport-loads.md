@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: e92a15cf4e2694eba1804184a02a7fd13159799e
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3215645"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422065"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>Remessa parcial de uma carga de transporte
 
@@ -55,7 +55,7 @@ A configuração de remessa parcial de cargas consistem nos dois procedimentos a
 É necessário criar um novo item de menu que permite que as cargas de transporte sejam carregadas. Uma carga de transporte permite o agrupamento de linhas de trabalho de uma carga ou de várias cargas. Tudo que é adicionado à carga de transporte pode ser enviado por um scanner móvel.
 
 1. Selecione **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
-2. Selecione **Novo**e, depois, no campo **Modo** , selecione **Trabalho**.
+2. Selecione **Novo** e, depois, no campo **Modo** , selecione **Trabalho**.
 3. Defina a opção **Usar trabalho existente** para **Sim**.
 4. Na guia **Geral**, no campo **Direcionado por**, selecione **Carga de transporte**.
 5. Para habilitar a confirmação de remessa em um scanner móvel, no campo **Tipo de confirmação de remessa permitido** , selecione **Carga de transporte**.

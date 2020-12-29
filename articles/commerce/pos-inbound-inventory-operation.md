@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: 89021a85c2b215695d7cc25215c049205f71956d
-ms.sourcegitcommit: 6e0d6d291d4881b16a677373f712a235e129b632
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/08/2020
-ms.locfileid: "3971488"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410216"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no POS
 
@@ -212,7 +212,7 @@ Depois que as informações de cabeçalho são criadas, você pode adicionar pro
 
 Depois que as linhas forem inseridas na ordem de transferência de entrada, selecione **Salvar** para salvar as alterações de documento localmente ou **Enviar solicitação** para enviar os detalhes da ordem para a Sede do Commerce para processamento adicional. Se você selecionar **Salvar**, o documento de rascunho será armazenado no banco de dados do canal e o depósito de saída não poderá executar o documento até ter sido processado com êxito por **Solicitação de envio**. Selecione **Salvar** somente se não estiver pronto para confirmar a solicitação para o processamento da sede do Commerce.
 
-Se um documento for salvo localmente, ele poderá ser encontrado na guia **Rascunhos** da lista de documentos **Operação de entrada**. Enquanto um documento está em um status**Rascunho**, você pode editá-lo selecionando **Editar**. Você pode atualizar, adicionar ou excluir linhas conforme necessário. Também é possível excluir o documento inteiro durante o status **Rascunho**, selecionando **Excluir** na guia **Rascunhos**.
+Se um documento for salvo localmente, ele poderá ser encontrado na guia **Rascunhos** da lista de documentos **Operação de entrada**. Enquanto um documento está em um status **Rascunho**, você pode editá-lo selecionando **Editar**. Você pode atualizar, adicionar ou excluir linhas conforme necessário. Também é possível excluir o documento inteiro durante o status **Rascunho**, selecionando **Excluir** na guia **Rascunhos**.
 
 Depois que o documento de rascunho for enviado com êxito para a sede do Commerce, ele aparecerá na guia **Ativo** e terá o status **Solicitado**. Nesse momento, os usuários no repositório ou depósito de entrada não poderão mais editar o documento da ordem de transferência de entrada solicitado. Somente os usuários no depósito de saída podem editar o documento selecionando **Operação de saída** no aplicativo do POS. O bloqueio de edição garante que nenhum conflito ocorra porque um solicitante de entrada altera a ordem de transferência ao mesmo tempo em que o remetente de saída está selecionando e enviando ativamente a ordem. Se forem necessárias alterações do armazenamento de entrada ou depósito depois que a ordem de transferência for enviada, o remetente de saída deverá ser contatado e solicitado a inserir as alterações.
 

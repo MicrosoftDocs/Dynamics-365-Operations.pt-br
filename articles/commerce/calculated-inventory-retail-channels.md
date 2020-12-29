@@ -18,11 +18,11 @@ ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: de4ee98198f441b8f42a8a55aa5ff1015f485234
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975983"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410176"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular a disponibilidade de estoque em canais de varejo
 

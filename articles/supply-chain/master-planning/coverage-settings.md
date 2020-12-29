@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b1134f734f1025151a56b2a72266a6baa5763ba4
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982711"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422429"
 ---
 # <a name="coverage-settings"></a>​Configurações de cobertura​
 
@@ -40,7 +40,7 @@ Você pode especificar as configurações de cobertura de várias formas:
 
 - Especificar configurações de cobertura para um produto.
 
-    Você pode criar configurações de cobertura para um produto específico. Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Selecione o produto e, no Painel de Ação, na guia **Plano**, no grupo **Cobertura**, selecione **Cobertura de item** para abrir a página **Cobertura de item**. Se o produto já estiver vinculado a um grupo de cobertura, você poderá substituir as configurações do grupo de cobertura usando o campo **Substituir**. As configurações de cobertura na página**Cobertura de item** têm precedência sobre as configurações da página **Grupo de cobertura**.
+    Você pode criar configurações de cobertura para um produto específico. Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Selecione o produto e, no Painel de Ação, na guia **Plano**, no grupo **Cobertura**, selecione **Cobertura de item** para abrir a página **Cobertura de item**. Se o produto já estiver vinculado a um grupo de cobertura, você poderá substituir as configurações do grupo de cobertura usando o campo **Substituir**. As configurações de cobertura na página **Cobertura de item** têm precedência sobre as configurações da página **Grupo de cobertura**.
 
 - Especificar as configurações de cobertura para um produto usando um assistente.
 

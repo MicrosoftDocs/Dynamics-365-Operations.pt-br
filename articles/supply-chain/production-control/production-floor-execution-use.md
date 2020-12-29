@@ -16,18 +16,18 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 40c6794fdf25da44a75aba4a502a89966c0ec4d0
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012452"
+ms.locfileid: "4422493"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-A interface de execução de piso de produção é otimizada para interação por toque. Seu design oferece um contraste visual que atende aos requisitos de acessibilidade para ambientes de chão de fábrica. Ele oferece todos os mesmos recursos funcionais do que o dispositivo de ficha de trabalho. No entanto, ele também permite que vários trabalhos sejam iniciados em paralelo de uma lista de trabalhos. (Esse recurso também é conhecido como *agrupamento de trabalhos* ). Além disso, de uma lista de trabalhos, os funcionários podem abrir um guia criado no Guia do Microsoft Dynamics 365. Dessa forma, eles podem obter instruções visuais em um HoloLens.
+A interface de execução de piso de produção é otimizada para interação por toque. Seu design oferece um contraste visual que atende aos requisitos de acessibilidade para ambientes de chão de fábrica. Ele oferece todos os mesmos recursos funcionais do que o dispositivo de ficha de trabalho. No entanto, ele também permite que vários trabalhos sejam iniciados em paralelo de uma lista de trabalhos. (Esse recurso também é conhecido como *agrupamento de trabalhos*). Além disso, de uma lista de trabalhos, os funcionários podem abrir um guia criado no Guia do Microsoft Dynamics 365. Dessa forma, eles podem obter instruções visuais em um HoloLens.
 
 ## <a name="sign-in-to-the-production-floor-execution-interface-as-a-worker"></a>Entrar na interface de execução de piso de produção como um trabalhador
 
@@ -41,7 +41,7 @@ As seções restantes deste tópico descrevem como os funcionários interagem co
 
 ## <a name="all-jobs-tab"></a>Guia Todos os trabalhos
 
-A guia **Todos os trabalhos** fornece uma lista de trabalhos que mostra todos os trabalhos de produção com o status *Não iniciado* , *Parado* ou *Iniciado*.
+A guia **Todos os trabalhos** fornece uma lista de trabalhos que mostra todos os trabalhos de produção com o status *Não iniciado*, *Parado* ou *Iniciado*.
 
 ![Guia Todos os trabalhos](media/pfei-all-jobs-tab.png "Guia Todos os trabalhos")
 
@@ -81,17 +81,17 @@ Os trabalhadores iniciam um trabalho de produção selecionando um trabalho na g
 
 Os trabalhadores usam a caixa de diálogo **Iniciar trabalho** para confirmar a quantidade de produção e, em seguida, iniciar o trabalho. Os trabalhadores podem ajustar a quantidade selecionando o campo **Quantidade** e usando o teclado numérico que aparece. Em seguida, os trabalhadores selecionam **Iniciar** para iniciar o trabalho. A caixa de diálogo **Iniciar trabalho** é fechada e o trabalho é adicionado à guia **Trabalhos ativos**.
 
-Os trabalhadores podem iniciar um trabalho que esteja em qualquer status. Quando um trabalhador inicia um trabalho com o status *Não iniciado* , o campo **Quantidade** na caixa de diálogo **Iniciar trabalho** inicialmente mostra a quantidade total. Quando um trabalhador inicia um trabalho com o status *Iniciado* ou *Parado* , o campo **Quantidade** mostra a quantidade restante.
+Os trabalhadores podem iniciar um trabalho que esteja em qualquer status. Quando um trabalhador inicia um trabalho com o status *Não iniciado*, o campo **Quantidade** na caixa de diálogo **Iniciar trabalho** inicialmente mostra a quantidade total. Quando um trabalhador inicia um trabalho com o status *Iniciado* ou *Parado*, o campo **Quantidade** mostra a quantidade restante.
 
 ## <a name="reporting-good-quantities"></a>Como relatar quantidades de mercadorias
 
-Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar as quantidades de mercadorias que foram produzidas selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Progresso do relatório**. Em seguida, na caixa de diálogo **Progresso do relatório** , o trabalhador insere a quantidade de mercadorias usando o teclado numérico. A quantidade está em branco por padrão. Depois que uma quantidade for inserida, o trabalhador poderá atualizar o status do trabalho para *Em andamento* , *Parado* ou *Concluído*.
+Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar as quantidades de mercadorias que foram produzidas selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Progresso do relatório**. Em seguida, na caixa de diálogo **Progresso do relatório**, o trabalhador insere a quantidade de mercadorias usando o teclado numérico. A quantidade está em branco por padrão. Depois que uma quantidade for inserida, o trabalhador poderá atualizar o status do trabalho para *Em andamento*, *Parado* ou *Concluído*.
 
 ![Caixa de diálogo Progresso do relatório](media/pfei-report-progress-dialog.png "Caixa de diálogo Progresso do relatório")
 
 ## <a name="reporting-scrap"></a>Como relatar sucata
 
-Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar a sucata selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Relatar sucata**. Em seguida, na caixa de diálogo **Relatar sucata** , o trabalhador insere a quantidade de sucata usando o teclado numérico. O trabalhador também seleciona um motivo ( *Nenhum* , *Máquina* , *Operador* ou *Material* ).
+Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar a sucata selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Relatar sucata**. Em seguida, na caixa de diálogo **Relatar sucata**, o trabalhador insere a quantidade de sucata usando o teclado numérico. O trabalhador também seleciona um motivo (*Nenhum*, *Máquina*, *Operador* ou *Material*).
 
 ![Caixa de diálogo Relatar sucata](media/pfei-report-scrap-dialog.png "Caixa de diálogo Relatar sucata")
 
@@ -111,7 +111,7 @@ O trabalhador seleciona os dois trabalhos na guia **Todos os trabalhos** e depoi
 
 ### <a name="scenario-2-a-worker-who-has-two-active-jobs-that-are-in-progress-wants-to-start-a-third-job-and-work-on-it-in-parallel-with-the-other-two"></a>Cenário 2: um trabalhador com dois trabalhos ativos que estão em andamento quer iniciar um terceiro trabalho e trabalhar nele em paralelo com os outros dois
 
-O trabalhador seleciona o terceiro trabalho na guia **Todos os trabalhos** e depois seleciona **Agrupar**. Na caixa de diálogo **Agrupar** , o trabalhador pode ajustar a quantidade para iniciar. O trabalhador então confirma a caixa de diálogo selecionando **Agrupar**.
+O trabalhador seleciona o terceiro trabalho na guia **Todos os trabalhos** e depois seleciona **Agrupar**. Na caixa de diálogo **Agrupar**, o trabalhador pode ajustar a quantidade para iniciar. O trabalhador então confirma a caixa de diálogo selecionando **Agrupar**.
 
 ## <a name="working-on-indirect-activities"></a>Como trabalhar em atividades indiretas
 
@@ -119,8 +119,8 @@ As atividades indiretas são atividades que não estão diretamente relacionadas
 
 Por exemplo, Shannon, uma funcionária de chão de fábrica na Contoso, deseja participar de uma reunião da empresa, e as reuniões são consideradas uma atividade indireta. Um dos dois cenários a seguir se aplica:
 
-- **Shannon está trabalhando em um ou mais trabalhos ativos.** Shannon seleciona **Atividade** , identifica a atividade (reunião) e confirma sua seleção. Será exibida uma mensagem informando que ela tem trabalhos em andamento. Após a mensagem, Shannon poderá optar por concluir ou parar os trabalhos em que ela está trabalhando antes de ir para a reunião.
-- **Shannon não tem trabalhos ativos.** Shannon seleciona **Atividade** , identifica a atividade (reunião) e confirma sua seleção. Agora, ela está registrada como estando na reunião.
+- **Shannon está trabalhando em um ou mais trabalhos ativos.** Shannon seleciona **Atividade**, identifica a atividade (reunião) e confirma sua seleção. Será exibida uma mensagem informando que ela tem trabalhos em andamento. Após a mensagem, Shannon poderá optar por concluir ou parar os trabalhos em que ela está trabalhando antes de ir para a reunião.
+- **Shannon não tem trabalhos ativos.** Shannon seleciona **Atividade**, identifica a atividade (reunião) e confirma sua seleção. Agora, ela está registrada como estando na reunião.
 
 Em ambos os cenários, depois de Shannon confirmar a seleção, ela vai para a página de entrada ou uma página que aguardará que ela confirme que retornou de sua atividade indireta. A página mostrada dependerá da configuração da interface de execução de piso de produção. (Para obter mais informações, consulte [Configurar a interface de execução de piso de produção](production-floor-execution-configure.md)).
 

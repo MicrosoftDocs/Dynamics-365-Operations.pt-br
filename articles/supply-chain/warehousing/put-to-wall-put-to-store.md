@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 12501b90e4b31ec11e3c59784ace9fd9a8b7d934
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017819"
+ms.locfileid: "4422518"
 ---
 # <a name="put-to-wall---put-to-store"></a>Colocar no mural - colocar na loja
 
@@ -35,12 +35,12 @@ Essa funcionalidade de depósito também é conhecida por outros nomes, como put
 
 ## <a name="turn-on-the-outbound-sorting-feature"></a>Ativar o recurso Classificação de saída
 
-Para que você possa usar a funcionalidade *Colocar no mural - colocar na loja* , o recurso *Classificação de saída* deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Para que você possa usar a funcionalidade *Colocar no mural - colocar na loja*, o recurso *Classificação de saída* deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *classificação de saída*
 
-O recurso *Classificação de saída* pode ser usado junto com o recurso *Código da etapa da onda em toda a organização* se estiver ativado. Você também deve ativar esse recurso se for usar códigos predefinidos configurados nos códigos da etapa da onda. No espaço de trabalho **Gerenciamento de recursos** , este recurso está listado da seguinte forma:
+O recurso *Classificação de saída* pode ser usado junto com o recurso *Código da etapa da onda em toda a organização* se estiver ativado. Você também deve ativar esse recurso se for usar códigos predefinidos configurados nos códigos da etapa da onda. No espaço de trabalho **Gerenciamento de recursos**, este recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Código da etapa da onda em toda a organização*
@@ -63,7 +63,7 @@ Para esta demonstração, são usados os dados da Contoso e o depósito *62* com
 ### <a name="warehouse-management-parameters"></a>Parâmetros de gerenciamento de depósito
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
-1. Na guia **Geral** , na FastTab **Tipos de localização** , no campo **Tipo de localização de classificação** , insira *CLASSIFICAR*.
+1. Na guia **Geral**, na FastTab **Tipos de localização**, no campo **Tipo de localização de classificação**, insira *CLASSIFICAR*.
 1. Selecione **Salvar**.
 
 ### <a name="location-profile"></a>Perfil de localização
@@ -75,7 +75,7 @@ Para esta demonstração, são usados os dados da Contoso e o depósito *62* com
     - **ID do perfil de localização:** *Classificar*
     - **Nome:** *Classificar*
 
-1. Na FastTab **Geral** , defina os seguintes valores:
+1. Na FastTab **Geral**, defina os seguintes valores:
 
     - **Formato de localização:** *EMBALAR*
     - **Tipo de localização:** *CLASSIFICAR*
@@ -113,7 +113,7 @@ Para esta demonstração, são usados os dados da Contoso e o depósito *62* com
 
 ### <a name="wave-step-codes"></a>Códigos da etapa da onda
 
-Se você ativou o recurso *Código da etapa da onda em toda a organização* , configure o código a seguir.
+Se você ativou o recurso *Código da etapa da onda em toda a organização*, configure o código a seguir.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda**.
 1. No Painel de Ação, selecione **Novo** e, depois, defina os seguintes valores:
@@ -144,7 +144,7 @@ O modelo de classificação controla se as posições de classificação são cr
     - **Depósito:** *62*
     - **Localização:** *Classificar*
 
-1. Na FastTab **Geral** , defina os seguintes valores:
+1. Na FastTab **Geral**, defina os seguintes valores:
 
     - **Verificação de classificação:** *Verificação da posição*
 
@@ -156,7 +156,7 @@ O modelo de classificação controla se as posições de classificação são cr
 
     - **Criar trabalho no fechamento da posição:** *Sim*
 
-        Se esta opção for definida como *Sim* , quando a posição for fechada, será criado um trabalho para mover o estoque para a localização da remessa final. Se ela for definida como *Não* , o estoque será separado imediatamente para a ordem quando a posição for fechada.
+        Se esta opção for definida como *Sim*, quando a posição for fechada, será criado um trabalho para mover o estoque para a localização da remessa final. Se ela for definida como *Não*, o estoque será separado imediatamente para a ordem quando a posição for fechada.
 
     - **Atribuição da posição:** *Manual*
 
@@ -178,7 +178,7 @@ O modelo de classificação controla se as posições de classificação são cr
 
     - **Posição de classificação de fechamento automático:** *Sim*
 
-        Se essa opção for definida como *Sim* , a posição de classificação será fechada automaticamente quando todo o trabalho recebido na posição for concluído.
+        Se essa opção for definida como *Sim*, a posição de classificação será fechada automaticamente quando todo o trabalho recebido na posição for concluído.
 
     - **Número de posições de classificação:** *3*
 
@@ -190,14 +190,14 @@ O modelo de classificação controla se as posições de classificação são cr
 
     - **Posição de classificação com embalagem automática:** *Sim*
 
-        Se esta opção for definida como *Sim* , o estoque na posição de classificação será embalado em um contêiner quando a posição for fechada.
+        Se esta opção for definida como *Sim*, o estoque na posição de classificação será embalado em um contêiner quando a posição for fechada.
 
     - **ID do perfil de embalagem:** *Classificar*
 
         O campo define o perfil de embalagem que será usado quando a posição de classificação for embalada em um contêiner.
 
 1. No Painel de Ação, selecione **Editar consulta** para especificar os critérios usados para esse modelo de classificação.
-1. Na caixa de diálogo de consulta, na guia **Classificação** , selecione **Novo** para adicionar uma linha e defina os seguintes valores:
+1. Na caixa de diálogo de consulta, na guia **Classificação**, selecione **Novo** para adicionar uma linha e defina os seguintes valores:
 
     - **Tabela:** *Detalhes da carga*
     - **Tabela derivada:** *Detalhes da carga*
@@ -228,19 +228,19 @@ O modelo de classificação controla se as posições de classificação são cr
 Edite o modelo de onda usado para classificação de demanda da onda.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
-1. No campo **Tipo de modelo de onda** , selecione *Remessa*.
+1. No campo **Tipo de modelo de onda**, selecione *Remessa*.
 1. Selecione o modelo **Padrão de remessa 62** existente.
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Geral** , faça as seguintes alterações:
+1. Na FastTab **Geral**, faça as seguintes alterações:
 
     - Defina a opção **Processar onda na liberação para o depósito** como *Não*.
     - Defina a opção **Atribuir às ondas abertas** como *Sim*.
 
-1. Na FastTab **Métodos** , configure o método de **classificação** :
+1. Na FastTab **Métodos**, configure o método de **classificação**:
 
-    1. Na grade **Métodos Restantes** , selecione **classificação**.
+    1. Na grade **Métodos Restantes**, selecione **classificação**.
     2. Selecione o botão de seta para a direita para mover **classificação** para a grade **Métodos Selecionados**.
-    3. Na grade **Métodos Selecionados** , selecione **classificação**.
+    3. Na grade **Métodos Selecionados**, selecione **classificação**.
     4. Defina o campo **Código da etapa da onda** como *Classificar*.
 
 1. Selecione **Salvar**.
@@ -256,7 +256,7 @@ Edite o modelo de onda usado para classificação de demanda da onda.
     - **Modo:** *Indireto*
     - **Usar trabalho existente:** *Não*
 
-1. Na FastTab **Geral** , defina os seguintes valores:
+1. Na FastTab **Geral**, defina os seguintes valores:
 
     - **Código de atividade:** *Classificação de saída*
     - **Usar guia de processo:** *Sim* (valor padrão)
@@ -269,7 +269,7 @@ Edite o modelo de onda usado para classificação de demanda da onda.
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Na lista de menus, selecione **Saída**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na grade **Menus e Itens de Menu Disponíveis** , localize e selecione o item de menu **Classificar** que você acabou de criar.
+1. Na grade **Menus e Itens de Menu Disponíveis**, localize e selecione o item de menu **Classificar** que você acabou de criar.
 1. Selecione o botão de seta para a direita para mover **Classificar** para a grade **Estrutura de Menu**. Dessa forma, você adiciona o item de menu ao menu **Saída**.
 1. Selecione **Salvar**.
 
@@ -278,14 +278,14 @@ Edite o modelo de onda usado para classificação de demanda da onda.
 Você deve criar diretivas de localização para orientar o trabalho criado depois que a classificação for concluída.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
-1. No campo **Tipo de ordem de trabalho** , selecione *Separação do estoque classificado*.
+1. No campo **Tipo de ordem de trabalho**, selecione *Separação do estoque classificado*.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
 
     - **Sequência:** *1*
     - **Nome:** *Colocar em Baydoor*
 
-1. Na FastTab **Diretivas de localização** , defina os seguintes valores:
+1. Na FastTab **Diretivas de localização**, defina os seguintes valores:
 
     - **Tipo de trabalho:** *Colocar*
     - **Local:** *6*
@@ -294,21 +294,21 @@ Você deve criar diretivas de localização para orientar o trabalho criado depo
     - **Várias SKUs:** *Não*
 
 1. Selecione **Salvar** para disponibilizar a FastTab **Linhas**.
-1. Na FastTab **Linhas** , selecione **Novo** e defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
+1. Na FastTab **Linhas**, selecione **Novo** e defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
 
     - **Número de sequência:** *1*
     - **Quantidade inicial:** *0*
     - **Quantidade final:** *1000000*
 
 1. Selecione **Salvar** para disponibilizar a FastTab **Ações de Diretiva de Localização**.
-1. Na FastTab **Ações de Diretiva de Localização** , selecione **Novo** e defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
+1. Na FastTab **Ações de Diretiva de Localização**, selecione **Novo** e defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
 
     - **Número de sequência:** *1*
     - **Nome:** *Porta da baía*
 
 1. Selecione **Salvar** para disponibilizar o botão **Editar consulta** na FastTab **Ações de Diretiva de Localização**.
-1. Na FastTab **Ações de Diretiva de Localização** , selecione **Editar consulta**.
-1. Na caixa de diálogo de consulta, na guia **Intervalo** , localize a linha na qual o campo **Campo** está definido como *Local*. Defina o campo **Critérios** dessa linha como *Baydoor*.
+1. Na FastTab **Ações de Diretiva de Localização**, selecione **Editar consulta**.
+1. Na caixa de diálogo de consulta, na guia **Intervalo**, localize a linha na qual o campo **Campo** está definido como *Local*. Defina o campo **Critérios** dessa linha como *Baydoor*.
 1. Selecione **OK** para confirmar a edição.
 
 ### <a name="work-classes"></a>Classes de trabalho
@@ -326,30 +326,30 @@ Você deve criar diretivas de localização para orientar o trabalho criado depo
 ### <a name="work-templates"></a>Modelos do trabalho
 
 1. Vá para **Gerenciamento de depósito \> Trabalho \> Modelos de trabalho**.
-1. No campo **Tipo de ordem de trabalho** , selecione *Ordens de compra*.
+1. No campo **Tipo de ordem de trabalho**, selecione *Ordens de compra*.
 1. Na grade, selecione o modelo de trabalho **62 Separar para embalar**.
 1. No Painel de Ação, selecione **Quebras de cabeçalho de trabalho**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na linha em que o campo **Nome do campo** está definido como *ID da Remessa* , desmarque a caixa de seleção **Agrupar por este campo**.
+1. Na linha em que o campo **Nome do campo** está definido como *ID da Remessa*, desmarque a caixa de seleção **Agrupar por este campo**.
 1. Selecione **Salvar** e feche a caixa de diálogo **Quebras de cabeçalho de trabalho**.
-1. No campo **Tipo de ordem de trabalho** , selecione *Separação do estoque classificado*.
+1. No campo **Tipo de ordem de trabalho**, selecione *Separação do estoque classificado*.
 1. Selecione **Novo** para criar um modelo de trabalho.
-1. Na seção **Visão geral** , defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
+1. Na seção **Visão geral**, defina os valores a seguir. Aceite os valores padrão para todos os demais campos.
 
     - **Modelo de trabalho:** *Separação classificada*
     - **Descrição do modelo de trabalho:** *Separação classificada*
 
 1. Selecione **Salvar** para disponibilizar a seção **Detalhes do Modelo de Trabalho**.
-1. Na seção **Detalhes do Modelo de Trabalho** , você criará duas linhas. Selecione **Novo** e defina os seguintes valores para a linha 1:
+1. Na seção **Detalhes do Modelo de Trabalho**, você criará duas linhas. Selecione **Novo** e defina os seguintes valores para a linha 1:
 
     - **Tipo de trabalho:** *Separar*
-    - **Obrigatório:** selecionado (= *Sim* )
+    - **Obrigatório:** selecionado (= *Sim*)
     - **ID da classe de trabalho:** *Classificação*
 
 1. Selecione **Novo** novamente e defina os seguintes valores para a linha 2:
 
     - **Tipo de trabalho:** *Colocar*
-    - **Obrigatório:** selecionado (= *Sim* )
+    - **Obrigatório:** selecionado (= *Sim*)
     - **ID da classe de trabalho:** *Classificação*
 
 1. Selecione **Salvar**.
@@ -368,7 +368,7 @@ Antes de criar as ordens de venda e remessas, certifique-se de que os locais de 
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda para a ordem 1.
-1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
     - **Cliente:** *US-001*
     - **Depósito:** *62*
@@ -386,12 +386,12 @@ Antes de criar as ordens de venda e remessas, certifique-se de que os locais de 
 
 1. Repita as seguintes etapas para cada linha de venda na ordem a fim de reservar estoque para ela:
 
-    1. Na FastTab **Linhas da ordem de venda** , no menu **Estoque** , selecione **Reserva**.
-    1. Na página **Reserva** , selecione **Reservar lote** e feche a página.
+    1. Na FastTab **Linhas da ordem de venda**, no menu **Estoque**, selecione **Reserva**.
+    1. Na página **Reserva**, selecione **Reservar lote** e feche a página.
     1. Selecione **Salvar**.
 
 1. Selecione **Novo** para criar uma ordem de venda para a ordem 2.
-1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
     - **Cliente:** *US-004*
     - **Depósito:** *62*
@@ -409,12 +409,12 @@ Antes de criar as ordens de venda e remessas, certifique-se de que os locais de 
 
 1. Repita as seguintes etapas para cada linha de venda na ordem a fim de reservar estoque para ela:
 
-    1. Na FastTab **Linhas da ordem de venda** , no menu **Estoque** , selecione **Reserva**.
-    1. Na página **Reserva** , selecione **Reservar lote** e feche a página.
+    1. Na FastTab **Linhas da ordem de venda**, no menu **Estoque**, selecione **Reserva**.
+    1. Na página **Reserva**, selecione **Reservar lote** e feche a página.
     1. Selecione **Salvar**.
 
 1. Selecione **Novo** para criar uma ordem de venda para a ordem 3.
-1. Na caixa de diálogo **Criar ordem de venda** , defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
     - **Cliente:** *US-007*
     - **Depósito:** *62*
@@ -427,15 +427,15 @@ Antes de criar as ordens de venda e remessas, certifique-se de que os locais de 
 
 1. Siga estas etapas para reservar o estoque para a linha de venda:
 
-    1. Na FastTab **Linhas da ordem de venda** , no menu **Estoque** , selecione **Reserva**.
-    1. Na página **Reserva** , selecione **Reservar lote** e feche a página.
+    1. Na FastTab **Linhas da ordem de venda**, no menu **Estoque**, selecione **Reserva**.
+    1. Na página **Reserva**, selecione **Reservar lote** e feche a página.
     1. Selecione **Salvar**.
 
 Execute o procedimento a seguir para liberar cada ordem de venda para o depósito. Serão criadas três remessas diferentes. Em seguida, você adicionará todas as três remessas a uma nova onda.
 
 1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Na grade, selecione a primeira ordem de venda que você criou.
-1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
 
     Você recebe uma mensagem informativa que mostra a ID da onda e a ID da remessa que foram criadas.
 
@@ -449,10 +449,10 @@ Execute o procedimento a seguir para liberar cada ordem de venda para o depósit
 
     Durante o processamento da onda, o método de classificação usará o modelo de classificação para atribuir o estoque a posições de classificação. Quando o processamento da onda for concluído, você receberá uma mensagem informativa indicando que a onda foi lançada e o trabalho foi criado.
 
-1. No Painel de Ação, na guia **Onda** , no grupo **Informações relacionadas** , selecione **Trabalho** para ver o trabalho que foi criado. Anote a ID do trabalho.
+1. No Painel de Ação, na guia **Onda**, no grupo **Informações relacionadas**, selecione **Trabalho** para ver o trabalho que foi criado. Anote a ID do trabalho.
 1. Vá para **Gerenciamento de depósito \> Remessa e transporte em contêineres \> Atribuições de posição de classificação de saída**.
 1. Na coluna esquerda, você pode ver a posição de classificação de saída criada para cada remessa.
-1. Na FastTab **Classificar critérios de posição** , você pode ver a ID da remessa dessa posição.
+1. Na FastTab **Classificar critérios de posição**, você pode ver a ID da remessa dessa posição.
 
 Uma ID de trabalho foi criada para trazer estoque dos locais de separação para a localização de classificação. Para concluir o trabalho, você precisará da ID de trabalho criada durante o processamento da onda.
 
@@ -460,13 +460,13 @@ Uma ID de trabalho foi criada para trazer estoque dos locais de separação para
 
 1. Entre no aplicativo móvel como um trabalhador do depósito *62*.
 1. No menu principal, selecione **Saída**.
-1. No menu **Saída** , selecione **Separação de Venda**.
+1. No menu **Saída**, selecione **Separação de Venda**.
 1. Selecione o campo **ID** e insira a ID de trabalho do processamento da onda.
 1. Confirme a entrada.
 
     Em seguida, você deverá inserir uma placa de licença de destino (LP). Observe que a linha 1 da ordem de venda 1 é o que deve ser separado e adicionado à placa de licença de destino. O número do item, a quantidade, a descrição do item e o local de separação são mostrados.
 
-1. No campo **LP de destino** , insira um número de placa de licença.
+1. No campo **LP de destino**, insira um número de placa de licença.
 
     Você separará todas as linhas criadas da onda processada para a mesma placa de licença de destino.
 
@@ -489,12 +489,12 @@ Agora que todo o estoque foi colocado na localização de classificação, ele d
 
 1. Entre no aplicativo móvel.
 1. No menu principal, selecione **Saída**.
-1. No menu **Saída** , selecione **Classificar** para começar a classificar os itens.
-1. No campo **LP/CON** , insira a placa de licença de destino do trabalho da ordem de venda separada.
+1. No menu **Saída**, selecione **Classificar** para começar a classificar os itens.
+1. No campo **LP/CON**, insira a placa de licença de destino do trabalho da ordem de venda separada.
 1. Confirme a entrada.
 1. Insira o número do item a ser classificado primeiro.
 1. O sistema determina a primeira posição de classificação que deve ser mostrada. Confirme a posição de classificação.
-1. Você deverá atribuir uma placa de licença à posição de classificação. Selecione o campo **LP** , insira um número de placa de licença e confirme a entrada.
+1. Você deverá atribuir uma placa de licença à posição de classificação. Selecione o campo **LP**, insira um número de placa de licença e confirme a entrada.
 
     Como a posição de classificação está relacionada à ID da remessa, você classificará os itens separados em uma chapa de licença que seja específica da remessa e da ordem de venda de saída.
 
@@ -514,7 +514,7 @@ Agora que todo o estoque foi colocado na localização de classificação, ele d
     - Se as posições forem fechadas automaticamente, selecione **Mostrar fechado** para mostrar as posições fechadas.
     - As transações de posição de classificação são mostradas. O item e a quantidade processados por meio da posição são exibidos.
 
-    Ao configurar o modelo de classificação de saída, você define a opção **Posição de classificação de fechamento automático** como *Sim*. Portanto, a posição é fechada automaticamente depois que o último estoque previsto é colocado nela. As posições de classificação têm o status **Fechado** , e foi criado um trabalho para mover o estoque classificado para o local *Baydoor*.
+    Ao configurar o modelo de classificação de saída, você define a opção **Posição de classificação de fechamento automático** como *Sim*. Portanto, a posição é fechada automaticamente depois que o último estoque previsto é colocado nela. As posições de classificação têm o status **Fechado**, e foi criado um trabalho para mover o estoque classificado para o local *Baydoor*.
 
 1. Conclua o trabalho de separação do estoque classificado para mover o estoque para o local da remessa. Quando o estoque estiver pronto, confirme-o para a remessa.
 
@@ -523,7 +523,7 @@ Agora que todo o estoque foi colocado na localização de classificação, ele d
 
 ### <a name="manually-close-a-position-optional"></a>Fechar uma posição manualmente (opcional)
 
-Se as posições de classificação tiverem que ser fechadas manualmente, a opção **Posição de classificação de fechamento automático** do modelo de classificação de saída deverá ser definida como *Não* e o fechamento deverá ser feito antes que o estoque possa ser movido para a área da porta de compartimento. As posições podem ser fechadas de várias maneiras:
+Se as posições de classificação tiverem que ser fechadas manualmente, a opção **Posição de classificação de fechamento automático** do modelo de classificação de saída deverá ser definida como *Não* e o fechamento deverá ser feito antes que o estoque possa ser movido para a área da porta da baía. As posições podem ser fechadas de várias maneiras:
 
 - Por meio do aplicativo de depósito:
 

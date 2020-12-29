@@ -20,11 +20,11 @@ ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
 ms.openlocfilehash: dfc49e3c3132fe2687ea71e5da75fe31753d57f9
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021668"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410182"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>Restringir métodos de pagamento para devoluções sem recibos
 

@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 51f7d6b0402ebbed417554978fc8d927f6b9c606
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207200"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422456"
 ---
 # <a name="set-up-consignment"></a>Configurando consignação
 
@@ -44,7 +44,7 @@ Itens que estejam prestes a ser usado nos processos de consignação devem ser a
 [![tracking-dimension-group](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diário de alteração de propriedade de estoque
-O diário **Alteração de propriedade de estoque**é usado para registrar a transferência de posse de estoque consignado do fornecedor para a entidade legal que o está consumindo. Como qualquer diário de estoque, deve ser identificado com um nome de diário de estoque. Esses nomes são criados na página **Nomes de diário de estoque**, e o **Tipo de diário** deve ser definido como **Alteração de propriedade**.
+O diário **Alteração de propriedade de estoque** é usado para registrar a transferência de posse de estoque consignado do fornecedor para a entidade legal que o está consumindo. Como qualquer diário de estoque, deve ser identificado com um nome de diário de estoque. Esses nomes são criados na página **Nomes de diário de estoque**, e o **Tipo de diário** deve ser definido como **Alteração de propriedade**.
 
 [![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 

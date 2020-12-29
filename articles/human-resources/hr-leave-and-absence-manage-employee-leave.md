@@ -1,9 +1,9 @@
 ---
 title: Gerenciar licença de funcionário
-description: Definir parâmetros de recursos humanos para licença e ausência no Dynamics 365 Human Resources.
+description: Gerenciar licença de funcionário no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 04/30/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4c45d2c57d89929ac9c423ab58aee4cbfa213509
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 627c8959b1845fbad761a85bdca7dc93bfc6a105
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712112"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4417372"
 ---
 # <a name="manage-employee-leave"></a>Gerenciar licença de funcionário
 
@@ -44,6 +44,13 @@ Você pode gerenciar o tipo de licença de um funcionário. Isso inclui o vencim
 6. Opcionalmente, você pode selecionar uma **Data**. 
 
 Você pode incluir um código de motivo e um comentário ao ajustar o saldo de licenças de um funcionário. 
+
+>[!IMPORTANT]
+>A exibição de informações adicionais sobre saldos de licença está na versão prévia. Você precisará habilitá-la no ambiente **Área restrita**. Para obter mais informações sobre as versões prévias do recurso, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br>
+>Ao passar o mouse sobre qualquer saldo de licença, você verá:<br>
+>- **Disponível**: total deste ano - considere este ano
+>- **Total deste ano**: todas as competências, ajustes e postergações para o ano
+>- **Obtido este ano**: todas as folgas aprovadas
 
 ## <a name="see-also"></a>Consulte também
 

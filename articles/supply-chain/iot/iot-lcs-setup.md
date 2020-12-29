@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014926"
+ms.locfileid: "4422495"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instale o suplemento de Inteligência de IoT no LCS
 
@@ -35,8 +35,8 @@ Este tópico explica como instalar o suplemento de Inteligência de IoT no Micro
 1. Abra o LCS e vá para o seu ambiente do Microsoft Dynamics 365 Supply Chain Management.
 2. Role até a seção **Suplementos de ambiente**.
 3. Selecione **Instalar um novo suplemento** para mostrar a lista de suplementos que foram habilitados para o ambiente.
-4. Na caixa de diálogo **Selecionar um suplemento para instalar** , selecione a **Inteligência de IoT**.
-5. Na caixa de diálogo **Configuração do suplemento** , forneça os detalhes do seu Hub IoT e do cache de Redis. Você pode encontrar os valores necessários no cofre de chaves criado em [Criar recursos do Azure](iot-azure-setup.md).
+4. Na caixa de diálogo **Selecionar um suplemento para instalar**, selecione a **Inteligência de IoT**.
+5. Na caixa de diálogo **Configuração do suplemento**, forneça os detalhes do seu Hub IoT e do cache de Redis. Você pode encontrar os valores necessários no cofre de chaves criado em [Criar recursos do Azure](iot-azure-setup.md).
 
     + **ID do locatário** – No portal do Azure, acesse o cofre de chaves, e no painel à esquerda, selecione **Visão geral** e copie o valor **ID do diretório**. Cole esse valor na **Suplemento de configuração**.
     + **URI do cofre de chaves de ponto de extremidade compatível com Hub de eventos IoT** – Vá para o cofre de chaves e, no painel de navegação à esquerda, selecione **Visão geral** e copie o valor **Nome DNS**. Cole esse valor na **Suplemento de configuração**.

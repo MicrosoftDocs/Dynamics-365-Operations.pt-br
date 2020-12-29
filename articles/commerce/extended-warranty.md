@@ -19,11 +19,11 @@ ms.author: sijoshi
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: a875343d9b93f5ebf2c2992fba8b2f182310461e
-ms.sourcegitcommit: 4a981ee4be6d7e6c0e55541535d386bce2565cba
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/27/2020
-ms.locfileid: "3621184"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410080"
 ---
 # <a name="create-and-configure-extended-warranties"></a>Criar e configurar garantias estendidas
 
@@ -79,7 +79,7 @@ Para criar um item de garantia no Commerce, siga estas etapas:
 
     | Nome do campo | Alíquota | descrição |
     |------------|-------|-------------|
-    | Unidade de tempo | **Dia(s)**, **Semana(s)**, **Mês(e)s**ou **Ano(s)** | Esse campo especifica a unidade de tempo usada para a garantia. |
+    | Unidade de tempo | **Dia(s)**, **Semana(s)**, **Mês(e)s** ou **Ano(s)** | Esse campo especifica a unidade de tempo usada para a garantia. |
     | Período | Um valor inteiro positivo | Este campo especifica a duração da garantia na unidade de tempo selecionada. |
 
     Por exemplo, para uma garantia de dois anos, defina o campo **Unidade de tempo** como **Ano(s)** e o campo **Duração** como **2**. Como alternativa, defina o campo **Unidade de tempo** como **Mês(es)** e o campo **Duração** como **24**, conforme mostrado na ilustração a seguir.
@@ -215,7 +215,7 @@ A tabela a seguir descreve as propriedades da política de garantia e seus valor
 | WarrantyEffectiveDate | Uma data | A data de início efetiva da política de garantia |
 | WarrantyExpirationDate | Uma data | A data de vencimento da política de garantia |
 | CustAccount | Uma cadeia de caracteres (máximo de 20 caracteres) | O número da conta do cliente |
-| Status | **Criado**, **Anulado**, **Em vigor**ou **Expirado** | O status da política de garantia |
+| Status | **Criado**, **Anulado**, **Em vigor** ou **Expirado** | O status da política de garantia |
 | Anotações | Uma cadeia de caracteres (um máximo de 255 caracteres) | Observações sobre a política de garantia, como termos e condições |
 
 ## <a name="frequently-asked-questions-faq"></a>Perguntas frequentes

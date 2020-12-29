@@ -18,11 +18,11 @@ ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f31dfa1fdbb3732610748abe4a9de851033f2b89
-ms.sourcegitcommit: 7a1d01122790b904e2d96a7ea9f1d003392358a6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "3269880"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410207"
 ---
 # <a name="work-with-preset-layouts"></a>Trabalhar com layouts predefinidos
 

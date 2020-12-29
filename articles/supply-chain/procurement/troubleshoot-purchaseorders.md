@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018551"
+ms.locfileid: "4422606"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Solucionar problemas de ordens de compra
 
@@ -34,7 +34,7 @@ Este tópico descreve como corrigir problemas que podem ocorrer ao trabalhar com
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho* , vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="when-purchase-orders-are-imported-through-data-management-purchase-order-line-numbers-dont-follow-the-increment-that-defined-in-system-parameters"></a>Quando as ordens de compra são importadas por meio do gerenciamento de dados, os números de linha da ordem de compra não seguem o incremento definido nos parâmetros do sistema.
 
@@ -58,7 +58,7 @@ Esse comportamento é por design. Os valores padrão para o grupo de impostos, d
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho* , vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="one-or-more-accounting-distributions-are-either-over-distributed-or-under-distributed"></a>Uma ou mais distribuições contábeis são superdistribuídas ou subdistribuídas.
 
@@ -70,7 +70,7 @@ Você recebe o seguinte erro: "Uma ou mais distribuições contábeis são super
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho* , vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="can-i-show-only-purchase-orders-that-i-created"></a>É possível mostrar somente as ordens de compra que criei?
 
@@ -118,7 +118,7 @@ Esse comportamento é por design. Nas ordens de compra, o produto sempre é most
 
 ### <a name="issue-description"></a>Descrição do problema
 
-Um produto tem um fornecedor aprovado que tem, por exemplo, uma data de efetivação de 11 de janeiro de 2018 ( *11/01/2018* ) e uma data de vencimento *Nunca*. Se você tentar alterar a data de efetivação para 10 de janeiro de 2018 ( *10/01/2018* ) ou 12 de janeiro, 2018 ( *12/01/2018* ), receberá o seguinte erro:
+Um produto tem um fornecedor aprovado que tem, por exemplo, uma data de efetivação de 11 de janeiro de 2018 (*11/01/2018*) e uma data de vencimento *Nunca*. Se você tentar alterar a data de efetivação para 10 de janeiro de 2018 (*10/01/2018*) ou 12 de janeiro, 2018 (*12/01/2018*), receberá o seguinte erro:
 
 > Não é possível criar um registro na lista de fornecedores Aprovados (PdsApproveVendorList). O valor de 'Vencimento' precisa ser maior ou igual ao valor de 'Efetivo'.
 
@@ -130,7 +130,7 @@ Você só pode estender o período para o qual o fornecedor foi aprovado. As seg
 - Para alterar a data de vencimento para que seja posterior a qualquer um dos períodos existentes, a data de efetivação deve ser posterior à data de vencimento mais recente em qualquer registro existente.
 - Para reduzir o período geral para o qual o fornecedor foi aprovado, você deve excluir ou modificar os registros existentes. Como alternativa, você pode usar o alternador **truncar** durante a importação. Esta opção exclui todos os registros existentes na tabela para fornecedores aprovados por item.
 
-Para o cenário de exemplo descrito na descrição do problema, em que um registro tem uma data de efetivação de *11/01/2018* e uma data de expiração *Nunca* , você pode importar um novo registro que tenha uma data de efetivação de *10/01/2018* e uma data de expiração *Nunca*. No entanto, não é possível reduzir o período para que a data de efetivação seja atualizada para *12/01/2018* por meio do gerenciamento de dados. Você deve fazer essa alteração por meio da interface do usuário.
+Para o cenário de exemplo descrito na descrição do problema, em que um registro tem uma data de efetivação de *11/01/2018* e uma data de expiração *Nunca*, você pode importar um novo registro que tenha uma data de efetivação de *10/01/2018* e uma data de expiração *Nunca*. No entanto, não é possível reduzir o período para que a data de efetivação seja atualizada para *12/01/2018* por meio do gerenciamento de dados. Você deve fazer essa alteração por meio da interface do usuário.
 
 ## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Depois de alterar o endereço de entrega em um cabeçalho de ordem de compra, o nome da entrega não é sincronizado.
 

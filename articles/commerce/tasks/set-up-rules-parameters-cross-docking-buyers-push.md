@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 9bccd92946783628dce37c3fd018e4dd927efd49
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141122"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410219"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
 

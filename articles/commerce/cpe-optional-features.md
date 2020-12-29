@@ -18,11 +18,11 @@ ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 6f7ba7e6de3791720458b509059f008423c73a82
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599811"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410084"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -76,7 +76,7 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 
 1. Entre na sede do Commerce.
 1. Use o menu à esquerda para acessar **Módulos \> Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros de email**.
-1. Na guia **Configurações de SMTP**, no campo**Servidor de email de saída**, insira o FQDN ou o endereço IP do servidor SMTP ou serviço de email.
+1. Na guia **Configurações de SMTP**, no campo **Servidor de email de saída**, insira o FQDN ou o endereço IP do servidor SMTP ou serviço de email.
 1. No campo **Número da porta SMTP**, insira o número da porta. (Se você não estiver usando Secure Sockets Layer \[SSL\], o número da porta padrão é **25**.)
 1. Se a autenticação for necessária, insira os valores nos campos **Nome de usuário** e **Senha**.
 1. Selecione **Salvar**.
@@ -120,7 +120,7 @@ Você pode desejar personalizar os modelos de email para que eles usem imagens d
     1. Selecione o modelo na lista.
     1. Em **Conteúdo da mensagem de email**, selecione a versão do idioma apropriado na lista. (O idioma padrão é **en-us**.)
     1. Em **Conteúdo da mensagem de email**, selecione **Editar**. O painel **Carregar modelo de email** é exibido.
-    1. Selecione **Procurar**e localize o arquivo HTML que tem o conteúdo personalizado.
+    1. Selecione **Procurar** e localize o arquivo HTML que tem o conteúdo personalizado.
     1. Selecione **Carregar**. O modelo será carregado no sistema e a visualização será mostrada.
     1. Selecione **OK**.
     1. Opcional: personalize a propriedade **Assunto** do modelo.

@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 62dabaa2610341cc8ad8e85812a317ac3123fcb1
-ms.sourcegitcommit: 5175e3fae432016246244cf70fe05465f43de88c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "3599787"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410086"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -46,7 +46,7 @@ Os cenários de BOPIS que envolvem um pagamento em cartão de crédito exigem um
 2. Selecione registrar **SANFRAN-5** e, depois, **Editar**.
 3. Altere o valor do campo **Perfil do hardware** de **HW002** para **HW001** e selecione **Salvar**.
 4. Para sincronizar as alterações, vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
-5. Selecione a agenda de distribuição**1090** e selecione **Executar agora** no Painel de Ações.
+5. Selecione a agenda de distribuição **1090** e selecione **Executar agora** no Painel de Ações.
 6. Selecione **Sim** e depois **OK** para iniciar a sincronização de dados. 
 
 ### <a name="install-modern-pos"></a>Instalar o PDV Moderno

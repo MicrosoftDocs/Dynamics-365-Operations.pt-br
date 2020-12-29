@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 9723b5ff40c84677316d71e185cf862556b32cf9
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "3741477"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417270"
 ---
 # <a name="configure-life-event-types"></a>Configurar tipos de eventos de vida
 
@@ -79,7 +79,7 @@ Você pode escolher entre os seguintes eventos de vida ao criar um tipo de event
 | **Suporte ordenado por tribunal** | Trabalhador > Perfil > Informações pessoais > Contatos pessoais > Dependente > Suporte ordenado pelo tribunal (QMSCO/QDRO) e datas de efetivação | Não dispara atualizações automáticas. Isso não afeta a qualificação; registra um evento de vida. |
 | **Falecimento** | Trabalhador > Perfil > Informações pessoais > Data de falecimento | Uma data de falecimento é inserida |
 | **Evidência de seguro** | <ul><li>Trabalhador > Trabalhador > Versões > Histórico de emprego > Gerenciador de datas > Detalhes do benefício</li><li> Trabalhador > Emprego > Detalhes do benefício > Data de verificação</li></ul> | <ul><li>Um trabalhador insere uma data de verificação</li><li>Um trabalhador define o campo EvidenceOfInsurability como **Sim**</li></ul> |
-| **Beneficiário** | Trabalhador > Perfil > Informações pessoais > Contatos pessoais | Um contato pessoal é adicionado e as caixas **Beneficiário** e **Data de efetivação** são preenchidas. O contato pessoal deve ser do tipo **Criança**, **Cônjuge**, **DomesticPartner**, **Irmão**, **FamilyContact**, **OtherContact**, **Pai**, **BeneficiaryEstate**, **BeneficiaryOrg**ou **BeneficiaryTrust**. |
+| **Beneficiário** | Trabalhador > Perfil > Informações pessoais > Contatos pessoais | Um contato pessoal é adicionado e as caixas **Beneficiário** e **Data de efetivação** são preenchidas. O contato pessoal deve ser do tipo **Criança**, **Cônjuge**, **DomesticPartner**, **Irmão**, **FamilyContact**, **OtherContact**, **Pai**, **BeneficiaryEstate**, **BeneficiaryOrg** ou **BeneficiaryTrust**. |
 | **Medicare do Funcionário** | Trabalhador > Trabalhador > Versões > Histórico de emprego > Gerenciador de datas > Detalhes do benefício | <ul><li>**EhrMedicareEligibilityDate** alterado</li><li>**MedicareEligibile** é definido como **Sim**</li></ul> |
 | **Data de nascimento** | Trabalhador > Perfil > Informações pessoais > Contatos pessoais > Detalhes do dependente > Data de nascimento | Uma data de nascimento é adicionada ou atualizada (não após o processamento da alteração do evento de vida). Exemplo: se as **Opções de qualificação para o contato pessoal** de uma criança estiverem definidas como idade: 26 em Instalação > Benefícios > Opções de qualificação para contato pessoal e se o processamento de alteração de evento da vida do pessoal de RH for executado qualquer dia depois que o dependente fizer 26 anos de idade, uma mensagem será exibida alertando que o dependente não está mais qualificado para cobertura. |
 | **Alteração da qualificação para trabalhador (não específica dos EUA)** | <ul><li>Trabalhador > Emprego</li><li>Trabalhador > Trabalhador > Versões > Histórico de emprego</li></ul> | <ul><li>Tipo de funcionário, categoria de emprego ou os cinco campos de qualificação definidos pelo usuário mudam</li><li>Alterações em **HcmEmploymentDetail.EhrEmploymentType** (processadas somente ara registros de detalhes de emprego *alterados*, não processadas para *novos* registros de emprego, como recontratação e demissão)</li></ul> |

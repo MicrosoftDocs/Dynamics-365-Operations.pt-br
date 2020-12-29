@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: bf2beef30ba1cf6877325e686b76de5dc8d3ba55
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017221"
+ms.locfileid: "4422528"
 ---
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
@@ -46,7 +46,7 @@ Para uma demonstração rápida de como liberar a BOM e as linhas de fórmula pa
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Liberando as linhas da BOM e da fórmula usando um trabalho em lotes
 
-Os trabalhos em lotes da **Liberação automática das linhas da BOM e da fórmula** são feitos por meio das linhas da BOM e da fórmula selecionadas que têm uma quantidade restante para liberar. Os trabalhos consideram somente ordens que têm um status **Liberado** , **Iniciado** ou **Informado como concluído**. Se uma linha da BOM ou da fórmula tiver uma quantidade restante para liberar, o trabalho libera a quantidade que pode ser coberta pela quantidade que já foi reservada fisicamente e a quantidade que está disponível fisicamente.
+Os trabalhos em lotes da **Liberação automática das linhas da BOM e da fórmula** são feitos por meio das linhas da BOM e da fórmula selecionadas que têm uma quantidade restante para liberar. Os trabalhos consideram somente ordens que têm um status **Liberado**, **Iniciado** ou **Informado como concluído**. Se uma linha da BOM ou da fórmula tiver uma quantidade restante para liberar, o trabalho libera a quantidade que pode ser coberta pela quantidade que já foi reservada fisicamente e a quantidade que está disponível fisicamente.
 
 ### <a name="example-of-a-batch-job-release"></a>Exemplo de uma liberação de trabalho em lote
 
@@ -60,7 +60,7 @@ Os trabalhos em lotes da **Liberação automática das linhas da BOM e da fórmu
 
 ### <a name="batch-job-setup"></a>Configuração de trabalho em lotes
 
-Na consulta do trabalho em lotes **Liberação automática das linhas da BOM e da fórmula** , você pode configurar um critério de filtragem para especificar quantos dias depois o trabalho deve procurar por linhas que têm quantidades não liberadas. Na consulta do trabalho, no campo **Data da matéria-prima** , use a função **(LessThanDate())** como um critério de filtragem.
+Na consulta do trabalho em lotes **Liberação automática das linhas da BOM e da fórmula**, você pode configurar um critério de filtragem para especificar quantos dias depois o trabalho deve procurar por linhas que têm quantidades não liberadas. Na consulta do trabalho, no campo **Data da matéria-prima**, use a função **(LessThanDate())** como um critério de filtragem.
 
 A ilustração a seguir mostra uma ordem de produção que tem dois trabalhos, 10 e 20, que abrange a montagem e embalagem da ordem de produção. Cada trabalho é configurado para consumir uma quantidade de material. Nesta ilustração, o limite de tempo de liberação que é indicada pela seta verde abaixo da linha do tempo é igual ao número de dias que foi especificado no critério **(LessThanDate())**. Por exemplo, **(LessThanDate (2))** indica que o trabalho deverá procurar quantidades não liberadas somente dentro de um limite de tempo de dois dias.
 
@@ -68,7 +68,7 @@ A ilustração a seguir mostra uma ordem de produção que tem dois trabalhos, 1
 
 ## <a name="releasing-material-per-operation-number-or-in-proportion-to-the-amount-of-finished-goods"></a>Liberando material por número de operação ou em relação ao valor de mercadorias acabadas
 
-Se você liberar materiais usando a definição do parâmetro **Na liberação da ordem de produção** , quando você faz a liberação manual, você tem duas opções para controlar a liberação do material:
+Se você liberar materiais usando a definição do parâmetro **Na liberação da ordem de produção**, quando você faz a liberação manual, você tem duas opções para controlar a liberação do material:
 
 - Liberar material por número de operação.
 - Liberar material em relação ao valor de mercadorias acabadas.
@@ -77,7 +77,7 @@ Se você liberar materiais usando a definição do parâmetro **Na liberação d
 
 Para controlar as operações nas quais o material deve ser liberado, use a página **Liberar para o depósito**.
 
-- Selecione **Controle de produção** \> **Ordens de produção** \> **Todas as ordens de produção** , selecione uma ordem de produção e na guia **Depósito** , selecione **Liberar para o depósito**. Depois use os campos **Da Oper. N°** e **Para Oper. N°** para especificar a faixa de números da operação.
+- Selecione **Controle de produção** \> **Ordens de produção** \> **Todas as ordens de produção**, selecione uma ordem de produção e na guia **Depósito**, selecione **Liberar para o depósito**. Depois use os campos **Da Oper. N°** e **Para Oper. N°** para especificar a faixa de números da operação.
 
 A ilustração a seguir mostra uma ordem de produção que tem duas operações, 10 e 20. Neste exemplo, se você limitar a liberação para operação 10, somente o material M9203 será liberado.
 
@@ -89,11 +89,11 @@ Para obter uma demonstração rápida de como liberar o material de acordo com a
 
 Você pode liberar a matéria-prima para uma quantidade parcial de mercadorias concluídas ou em uma unidade específica.
 
-- Para liberar a matéria-prima para uma quantidade parcial de mercadorias acabadas, selecione **Controle de produção** \> **Ordens de produção** \> **Todas as ordens de produção** , selecione uma ordem de produção e na guia **Depósito** , selecione **Liberar para depósito**. Insira a quantidade no campo **Quantidade**.
+- Para liberar a matéria-prima para uma quantidade parcial de mercadorias acabadas, selecione **Controle de produção** \> **Ordens de produção** \> **Todas as ordens de produção**, selecione uma ordem de produção e na guia **Depósito**, selecione **Liberar para depósito**. Insira a quantidade no campo **Quantidade**.
 
     Por exemplo, uma ordem de produção é criada e planejada para 1,000 peças (pcs.). O supervisor do chão de fábrica está planejando a produção de 100 peças para o próximo turno e quer liberar materiais somente para esse turno. Neste caso, o supervisor pode usar o campo **Quantidade** para liberar os materiais de 100 peças isso está planejado para próximo turno.
 
-- Para liberar matéria-prima em uma unidade específica, selecione **Controle de produção** \> **Ordens de produção** \> **Todas as ordens de produção** , selecione uma ordem de produção e na guia **Depósito** , selecione **Liberar para depósito**. Use o campo **Unidade** para selecionar a unidade de mercadoria acabada na qual será liberado o material.
+- Para liberar matéria-prima em uma unidade específica, selecione **Controle de produção** \> **Ordens de produção** \> **Todas as ordens de produção**, selecione uma ordem de produção e na guia **Depósito**, selecione **Liberar para depósito**. Use o campo **Unidade** para selecionar a unidade de mercadoria acabada na qual será liberado o material.
 
     As unidades disponíveis estão definidas no ID do grupo de sequências da unidade da mercadoria acabada.
 

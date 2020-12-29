@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 095ff2697a7cc8486afc6e77fd7d06f761e74e75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888896"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422286"
 ---
 # <a name="schedule-work-orders"></a>Agendar ordens de serviço
 
@@ -61,7 +61,7 @@ Somente ordens de serviço com um estado de ciclo de vida da ordem de serviço q
 
 ![Figura 1](media/03-work-order-scheduling.png)
 
-O tipo de ordem de serviço relacionado a ordens de serviço pode configurar o plano para um funcionário de manutenção (botão de alternância**Gerenciamento de ativos** > **Configuração** > **Ordens de serviço** > **Tipos de ordem de serviço** > **Um funcionário de manutenção** definido como "Sim"). Isso significa que se o tipo de ordem de serviço é usado em uma ordem de serviço, o botão de alternância **Um funcionário de manutenção** é definido automaticamente como "Sim" automaticamente na página de detalhes **Todas as ordens de serviço** > **Cabeçalho** > exibir Guia Rápida **Agendar**. Durante o planejamento de ordem de serviço, todos os trabalhos de ordem de serviço criados na ordem de serviço serão agendados subsequentemente ao mesmo funcionário de manutenção. Se necessário, você pode editar a seleção no botão de alternância **Um funcionário de manutenção** em **Todas as ordens de serviço** para permitir o agendamento de vários trabalhadores ou de um trabalhador nos trabalhos da ordem de serviço.
+O tipo de ordem de serviço relacionado a ordens de serviço pode configurar o plano para um funcionário de manutenção (botão de alternância **Gerenciamento de ativos** > **Configuração** > **Ordens de serviço** > **Tipos de ordem de serviço** > **Um funcionário de manutenção** definido como "Sim"). Isso significa que se o tipo de ordem de serviço é usado em uma ordem de serviço, o botão de alternância **Um funcionário de manutenção** é definido automaticamente como "Sim" automaticamente na página de detalhes **Todas as ordens de serviço** > **Cabeçalho** > exibir Guia Rápida **Agendar**. Durante o planejamento de ordem de serviço, todos os trabalhos de ordem de serviço criados na ordem de serviço serão agendados subsequentemente ao mesmo funcionário de manutenção. Se necessário, você pode editar a seleção no botão de alternância **Um funcionário de manutenção** em **Todas as ordens de serviço** para permitir o agendamento de vários trabalhadores ou de um trabalhador nos trabalhos da ordem de serviço.
 
 O processo de planejamento no Gerenciamento de Ativos inclui vários fatores no cálculo do agendamento:
 
@@ -88,7 +88,7 @@ Nos exemplos abaixo, a contagem de gravidade é de "2" e as pontuações de nív
 | WO-00010817   | Dois dias a partir de hoje   | 2                      | 20              | (-2 \* 10) + (2 \* 2) + 5 / 20     | \- 15.75   |
 | WO-00010818   | Dois dias a partir de hoje   | 3                      | 5               | (-2 \* 10) + (2 \* 3) + 5 / 5      | \- 13      |
 
-As ordens de serviço serão agendadas na ordem a seguir: WO-000108**16**, WO-000108**18**, WO-000108**17**.
+As ordens de serviço serão agendadas na ordem a seguir: WO-000108 **16**, WO-000108 **18**, WO-000108 **17**.
 
 **Exemplo 2:**
 
@@ -98,7 +98,7 @@ As ordens de serviço serão agendadas na ordem a seguir: WO-000108**16**, WO-00
 | WO-00010817   | Dois dias a partir de hoje   | 2                      | 20                  | (-2 \* 10) + (2 \* 2) + 100 / 20 | \- 11    |
 | WO-00010818   | Dois dias a partir de hoje   | 3                      | 5                   | (-2 \* 10) + (2 \* 3) + 100 / 5  | 6        |
 
-Se a pontuação de nível de serviço é aumentada para '100' em vez de '5', a ordem de agendamento será: WO-000108**18**, WO-000108**16**, WO-000108**17**.
+Se a pontuação de nível de serviço é aumentada para '100' em vez de '5', a ordem de agendamento será: WO-000108 **18**, WO-000108 **16**, WO-000108 **17**.
 
 As pontuações de classificação relacionadas para calcular quais funcionários de trabalho devem trabalhar nas ordens de serviço são todas definidas como números, que são adicionadas para cada cálculo de ordem de manutenção durante agendamento da ordem de serviço. O funcionário de manutenção com a pontuação mais alta é selecionada na ordem de trabalho. Aqui está uma descrição resumida das pontuações de funcionário de manutenção:
 

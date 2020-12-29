@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: 82a8795360f453cdee19fa6e9e376a42e8276849
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022066"
+ms.locfileid: "4410319"
 ---
 # <a name="social-share-module"></a>Módulo de compartilhamento social
 
@@ -53,7 +53,7 @@ A ilustração a seguir destaca um exemplo de módulo de compartilhamento social
 ## <a name="social-share-item-module-properties"></a>Propriedades do módulo do item de compartilhamento social
 | Nome da propriedade             | Alíquota                 | descrição |
 |---------------------------|-----------------------|-------------|
-| Mídia social              | **Facebook** , **Twitter** , **Pinterest** , **LinkedIn** , **Email** | Um menu suspenso com uma lista de plataformas de mídia social. |
+| Mídia social              | **Facebook**, **Twitter**, **Pinterest**, **LinkedIn**, **Email** | Um menu suspenso com uma lista de plataformas de mídia social. |
 | Ícone |Imagem    | Esta será a imagem que será exibida para a respectiva mídia social. Como prática recomendada, consulte o SDK da plataforma de mídia social para obter a imagem recomendada a ser usada para cada plataforma. |
 
 ## <a name="add-a-social-share-module-to-a-buy-box-module"></a>Adicionar um módulo de compartilhamento social a um módulo de caixa de compra
@@ -61,16 +61,16 @@ A ilustração a seguir destaca um exemplo de módulo de compartilhamento social
 Para adicionar um módulo de compartilhamento social a um módulo de caixa de compra, execute as seguintes etapas.
 
 1. No site Fabrikam, selecione **Páginas** e depois selecione a página **DefaultPDP** para abrir a página de detalhes do produto. 
-1. No slot **Caixa de compra (obrigatório)** , selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Compartilhamento Social** e, depois, **OK**.
-1. No slot **Compartilhamento Social** , selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Compartilhamento Social** e, depois, **OK**.
-1. No painel de propriedades do módulo **Compartilhamento Social** , em **Orientação** , selecione **Horizontal**. Adicione uma legenda conforme necessário.
-1. No slot **Compartilhamento Social** , selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Item de Compartilhamento Social** e, depois, **OK**.
-1. No painel de propriedades do módulo **Item de Compartilhamento Social** , em **Mídia Social** , selecione **Facebook**.
-1. No painel de propriedades do módulo Item de **Item de Compartilhamento Social** , em **Ícone** , selecione **+ Adicionar imagem**.
-1. Na caixa de diálogo **Seletor de mídia** , selecione a imagem do logotipo do Facebook e selecione **OK**. Se não houver uma imagem de logotipo do Facebook, selecione **Carregar novo item de mídia** para carregar uma imagem.
+1. No slot **Caixa de compra (obrigatório)**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Compartilhamento Social** e, depois, **OK**.
+1. No slot **Compartilhamento Social**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Compartilhamento Social** e, depois, **OK**.
+1. No painel de propriedades do módulo **Compartilhamento Social**, em **Orientação**, selecione **Horizontal**. Adicione uma legenda conforme necessário.
+1. No slot **Compartilhamento Social**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Item de Compartilhamento Social** e, depois, **OK**.
+1. No painel de propriedades do módulo **Item de Compartilhamento Social**, em **Mídia Social**, selecione **Facebook**.
+1. No painel de propriedades do módulo Item de **Item de Compartilhamento Social**, em **Ícone**, selecione **+ Adicionar imagem**.
+1. Na caixa de diálogo **Seletor de mídia**, selecione a imagem do logotipo do Facebook e selecione **OK**. Se não houver uma imagem de logotipo do Facebook, selecione **Carregar novo item de mídia** para carregar uma imagem.
 1. Adicione e configure módulos adicionais de **Item de Compartilhamento Social** conforme necessário.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página. A página exibirá o módulo de compartilhamento social.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.

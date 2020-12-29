@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: b6e96f2f6b324ffe44e8684d9bd2a42fb52d0aed
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889256"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422238"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida da ordem de serviço
 
@@ -79,8 +79,8 @@ A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Ag
     > [!NOTE]
     > Para encontrar o número da atividade do projeto relacionada a um trabalho da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço e selecione o trabalho da ordem de serviço. O número da atividade é exibido no campo **Número da atividade** na seção **Projeto** na guia **Geral** da Guia Rápida **Detalhes da linha**.
 
-11. Na seção **Previsão**, defina a opção **Copiar previsão de horas**, **Copiar previsão de item**e/ou **Copiar previsão de despesas** como **Sim** se as previsões do projeto da ordem de serviço devem ser copiadas automaticamente nos diários de ordens de serviço quando a ordem de serviço estiver neste estado de ciclo de vida.
-12. Na seção **Agenda**, defina uma das opções como **Sim** se o status da agenda para os trabalhos da ordem de serviço for atualizado quando a ordem de serviço estiver neste estado de ciclo de vida. Para obter descrições das opções **Pronto**, **Iniciar**, **Encerrar**e **Excluir linhas da agenda**, consulte a tabela anterior deste tópico.
+11. Na seção **Previsão**, defina a opção **Copiar previsão de horas**, **Copiar previsão de item** e/ou **Copiar previsão de despesas** como **Sim** se as previsões do projeto da ordem de serviço devem ser copiadas automaticamente nos diários de ordens de serviço quando a ordem de serviço estiver neste estado de ciclo de vida.
+12. Na seção **Agenda**, defina uma das opções como **Sim** se o status da agenda para os trabalhos da ordem de serviço for atualizado quando a ordem de serviço estiver neste estado de ciclo de vida. Para obter descrições das opções **Pronto**, **Iniciar**, **Encerrar** e **Excluir linhas da agenda**, consulte a tabela anterior deste tópico.
 
     > [!NOTE]
     > Para exibir linhas da agenda que estão relacionadas a trabalhos da ordem de serviço, selecione **Gerenciamento de ativos**\> **Comum**\> **Ordens de serviço**\> **Todas as ordens de serviço**, **Ordens de serviço ativas** ou **Minhas ordens de serviço ativas**. Abra a ordem de serviço, selecione o trabalho da ordem de serviço na Guia Rápida **Trabalhos da ordem de serviço** e exiba as informações relacionadas na Guia Rápida **Detalhes da linha**. O campo **Status** na guia **Agenda** mostra o status do trabalho da ordem de serviço. O campo **Status** pode ser definido como os seguintes valores: **Agendado**, **Pronto**, **Iniciado**, **Parado** e **Encerrado**.

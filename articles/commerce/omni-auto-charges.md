@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 2d463bf01659aeb6599023ce46da0c604f8eeff0
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107366"
+ms.locfileid: "4410339"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
@@ -38,13 +38,13 @@ Em versões anteriores à versão 10.0 do Retail, as configurações de [encargo
 
 Ao usar versões anteriores à versão 10.0, um usuário do PDV deverá inserir manualmente qualquer taxa de remessa durante a criação de uma transação PDV "remeter tudo" ou "remeter selecionado". Quando os recursos de encargos diversos do aplicativo forem utilizados considerando como os encargos são gravados na ordem, um cálculo sistemático é fornecido – o cálculo considera a entrada de usuário para determinar o valor de encargos. Os encargos só podem ser adicionados como encargos únicos relacionados à "remessa" e não podem ser editados ou alterados facilmente no PDV, após serem criados.
 
-O uso de solicitações manuais para adicionar encargos de remessa ainda está disponível nas versões 10.0 e posterior. Se uma organização não habilitar o parâmetro **Encargos Automáticos Avançados** , o PDV solicita que a entrada manual de encargos permaneça igual.
+O uso de solicitações manuais para adicionar encargos de remessa ainda está disponível nas versões 10.0 e posterior. Se uma organização não habilitar o parâmetro **Encargos Automáticos Avançados**, o PDV solicita que a entrada manual de encargos permaneça igual.
 
 Com o recurso avançado de encargos automáticos, os usuários do PDV podem ter cálculos sistemáticos para quaisquer encargos diversos definidos com base nas tabelas de configuração de encargos automáticos. Além disso, os usuários terão a capacidade de adicionar ou editar um número ilimitado de encargos e taxas para qualquer transação de vendas de PDV em nível de cabeçalho ou linha (para cash and carry ou ordem do cliente).
 
 ## <a name="enabling-advanced-auto-charges"></a>Como habilitar encargos automáticos avançados
 
-Na página **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce** , vá para a guia **Ordens do cliente**. Na guia rápida **Encargos** , defina **Usar Encargos Automáticos Avançados** como **Sim**.
+Na página **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**, vá para a guia **Ordens do cliente**. Na guia rápida **Encargos**, defina **Usar Encargos Automáticos Avançados** como **Sim**.
 
 ![Parâmetro de Encargos automáticos avançados](media/advancedchargesparameter.png)
 
@@ -87,7 +87,7 @@ Vá para **Contas a receber \> Configuração de encargos \> Encargos automátic
 
 Configurar dois encargos automáticos em nível de cabeçalho diferentes. Configure um para "Modo terrestre" e outro para "Modo aéreo" de entrega. Para este cenário, configure-s para serem usados para "Todos os clientes".
 
-Para os encargos de entrega terrestre, na seção de linhas da página **Encargos automáticos** , defina um encargo que será aplicado para ordens entre US$ 0,01 e US$ 100 como US$ 10,00. Crie outra linha de encargos para indicar que ordens acima de US$ 100,01 não terão encargos.
+Para os encargos de entrega terrestre, na seção de linhas da página **Encargos automáticos**, defina um encargo que será aplicado para ordens entre US$ 0,01 e US$ 100 como US$ 10,00. Crie outra linha de encargos para indicar que ordens acima de US$ 100,01 não terão encargos.
 
 ![Exemplo de duas tabelas de encargos automáticos](media/headerchargesexample.png)
 
@@ -149,9 +149,9 @@ A operação **Adicionar encargos de cabeçalho** deve ser definida no [Layout d
 
 #### <a name="sales-processing-of-manual-header-charges"></a>Processamento de vendas de encargos de cabeçalho manual
 
-Para executar o cenário no aplicativo do PDV, o usuário do PDV criará a transação de venda como de costume, adicionando os produto e as outras configurações à venda. Antes de coletar o pagamento, o usuário deve executar a operação **Adicionar encargos de cabeçalho** , que solicitará que o usuário selecione um código de encargos e informe o valor dos encargos. Depois que o usuário concluir o processo, o encargo será adicionado à ordem de venda como um encargo em nível de cabeçalho.
+Para executar o cenário no aplicativo do PDV, o usuário do PDV criará a transação de venda como de costume, adicionando os produto e as outras configurações à venda. Antes de coletar o pagamento, o usuário deve executar a operação **Adicionar encargos de cabeçalho**, que solicitará que o usuário selecione um código de encargos e informe o valor dos encargos. Depois que o usuário concluir o processo, o encargo será adicionado à ordem de venda como um encargo em nível de cabeçalho.
 
-Esse processo pode ser aplicado no call center usando o recurso existente **Encargos** localizado na guia **Venda** na barra de ferramentas. Na página **Manter encargos** , o usuário pode adicionar uma nova linha de encargos ao cabeçalho da ordem.
+Esse processo pode ser aplicado no call center usando o recurso existente **Encargos** localizado na guia **Venda** na barra de ferramentas. Na página **Manter encargos**, o usuário pode adicionar uma nova linha de encargos ao cabeçalho da ordem.
 
 ### <a name="manual-line-charges-example"></a>Exemplo de encargos de linha manual
 
@@ -189,7 +189,7 @@ Se os códigos do motivo forem capturados para encargos substituídos, um novo r
 
 ### <a name="refunding-charges-on-a-pos-return-transaction"></a>Reembolso de encargos em uma transação de devolução de PDV
 
-Se o parâmetro **Usar encargos automáticos avançados** estiver definido como **Sim** , o parâmetro do Commerce existente **Reembolsar encargos de remessa** não será mais aplicável. Para indicar que os encargos devem ser sistematicamente reembolsados a um cliente ao usar os encargos avançados, certifique-se de que o código de encargos diversos foi configurado como **Reembolsável** na página de configuração **Código de encargos** . Verifique se as configurações foram sincronizadas nos bancos de dados do canal do Commerce através do processamento da agenda de distribuição.
+Se o parâmetro **Usar encargos automáticos avançados** estiver definido como **Sim**, o parâmetro do Commerce existente **Reembolsar encargos de remessa** não será mais aplicável. Para indicar que os encargos devem ser sistematicamente reembolsados a um cliente ao usar os encargos avançados, certifique-se de que o código de encargos diversos foi configurado como **Reembolsável** na página de configuração **Código de encargos** . Verifique se as configurações foram sincronizadas nos bancos de dados do canal do Commerce através do processamento da agenda de distribuição.
 
 ### <a name="refunding-charges-on-a-return-order-transaction"></a>Reembolso de encargos em uma transação de ordem de devolução
 

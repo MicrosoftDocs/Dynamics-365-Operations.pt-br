@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015058"
+ms.locfileid: "4422496"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Melhorar o desempenho do mecanismo de agendamento
 
@@ -180,7 +180,7 @@ O agente de resolução de restrições não está ciente das especificações d
 
 Uma grande parte das restrições (internas) no mecanismo controla o horário de trabalho e a capacidade de um recurso. Basicamente, a tarefa é percorrer os slots de horário de trabalho para um recurso de um determinado ponto em uma determinada direção e localizar um intervalo longo o suficiente no qual a capacidade necessária de trabalho (tempo) pode ser ajustada.
 
-Para isso, o mecanismo precisa saber os horários de trabalho de um recurso. Ao contrário dos dados do modelo principal, os horários de trabalho são *carregados lentamente* , o que significa que eles são carregados no mecanismo, conforme necessário. O motivo dessa abordagem é que, em geral, há horários de trabalho no Supply Chain Management de um calendário para um período muito longo, e geralmente há muitos calendários, portanto, os dados seriam muito grandes para serem pré-carregados.
+Para isso, o mecanismo precisa saber os horários de trabalho de um recurso. Ao contrário dos dados do modelo principal, os horários de trabalho são *carregados lentamente*, o que significa que eles são carregados no mecanismo, conforme necessário. O motivo dessa abordagem é que, em geral, há horários de trabalho no Supply Chain Management de um calendário para um período muito longo, e geralmente há muitos calendários, portanto, os dados seriam muito grandes para serem pré-carregados.
 
 As informações do calendário são solicitadas pelo mecanismo em partes, invocando o método da classe X++ `WrkCtrSchedulingInteropDataProvider.getWorkingTimes`. A solicitação é para uma ID de calendário específica em um intervalo de tempo específico. Dependendo do estado do cache do servidor no Supply Chain Management, cada uma dessas solicitações pode resultar em várias chamadas de banco de dados, o que leva muito tempo (em relação ao tempo computacional em si). Além disso, se o calendário contém definições de horário de trabalho muito elaboradas com muitos intervalos de tempo de trabalho por dia, isso aumenta o tempo necessário para o carregamento.
 
@@ -188,7 +188,7 @@ Quando os dados de horário de trabalho são carregados no mecanismo de agendame
 
 ### <a name="finite-capacity"></a>Capacidade finita
 
-Ao usar a capacidade finita, os slots de horário de trabalho do calendário são divididos e reduzidos com base nas reservas de capacidade existentes. Essas reservas também são buscadas por meio da mesma classe `WrkCtrSchedulingInteropDataProvider` que os calendários, mas, em vez disso, usam o método `getCapacityReservations`. Ao agendar durante o planejamento mestre, as reservas para o plano mestre específico são consideradas e, se habilitadas na página **Parâmetros do planejamento mestre** , as reservas das ordens de produção confirmadas também serão incluídas. Da mesma forma, ao agendar uma ordem de produção, também é uma opção incluir reservas de ordens planejadas existentes, embora isso não seja tão comum quanto o contrário.
+Ao usar a capacidade finita, os slots de horário de trabalho do calendário são divididos e reduzidos com base nas reservas de capacidade existentes. Essas reservas também são buscadas por meio da mesma classe `WrkCtrSchedulingInteropDataProvider` que os calendários, mas, em vez disso, usam o método `getCapacityReservations`. Ao agendar durante o planejamento mestre, as reservas para o plano mestre específico são consideradas e, se habilitadas na página **Parâmetros do planejamento mestre**, as reservas das ordens de produção confirmadas também serão incluídas. Da mesma forma, ao agendar uma ordem de produção, também é uma opção incluir reservas de ordens planejadas existentes, embora isso não seja tão comum quanto o contrário.
 
 O uso da capacidade finita causará demora no agendamento devido a vários motivos:
 
@@ -305,7 +305,7 @@ O uso da capacidade finita exige que o mecanismo carregue as informações de ca
 
 ### <a name="setting-hard-links"></a>Configurar links rígidos
 
-O tipo de link padrão do roteiro é *flexível* , o que significa que um intervalo de tempo é permitido entre a hora de término de uma operação e o início da próxima. Isso pode ter o efeito indesejado de que, se os materiais ou a capacidade não estiverem disponíveis para uma das operações por um período muito longo, a produção poderá ficar ociosa por muito tempo, o que significa um possível aumento do trabalho em andamento. Isso não ocorrerá com links rígidos porque o término e o início devem alinhar-se perfeitamente. Mas a definição de links rígidos dificulta o problema de agendamento porque interseções de capacidade e horário de trabalho devem ser calculadas para os dois recursos das operações. Se também houver operações paralelas envolvidas, isso adicionará um período computacional significativo. Se os recursos das duas operações tiverem calendários diferentes que não se sobrepõem, o problema não poderá ser resolvido.
+O tipo de link padrão do roteiro é *flexível*, o que significa que um intervalo de tempo é permitido entre a hora de término de uma operação e o início da próxima. Isso pode ter o efeito indesejado de que, se os materiais ou a capacidade não estiverem disponíveis para uma das operações por um período muito longo, a produção poderá ficar ociosa por muito tempo, o que significa um possível aumento do trabalho em andamento. Isso não ocorrerá com links rígidos porque o término e o início devem alinhar-se perfeitamente. Mas a definição de links rígidos dificulta o problema de agendamento porque interseções de capacidade e horário de trabalho devem ser calculadas para os dois recursos das operações. Se também houver operações paralelas envolvidas, isso adicionará um período computacional significativo. Se os recursos das duas operações tiverem calendários diferentes que não se sobrepõem, o problema não poderá ser resolvido.
 
 Recomendamos o uso de links rígidos somente quando necessários, e considere com cuidado se é necessário para cada operação do roteiro.
 
@@ -321,7 +321,7 @@ Como o mecanismo funciona examinando os intervalos de tempo individualmente para
 
 ### <a name="large-or-none-scheduling-timeouts"></a>Tempos limite de agendamento longos (ou nenhum)
 
-O desempenho do mecanismo de agendamento pode ser otimizado usando parâmetros encontrados na página **Parâmetros de agendamento**. As configurações **Tempo limite de agendamento habilitado** e **Tempo limite de otimização de agendamento habilitado** sempre devem estar definidas como **Sim**. Se forem definidas como **Não** , o agendamento poderá ser executado infinitamente se um roteiro inviável com muitas opções tiver sido criado.
+O desempenho do mecanismo de agendamento pode ser otimizado usando parâmetros encontrados na página **Parâmetros de agendamento**. As configurações **Tempo limite de agendamento habilitado** e **Tempo limite de otimização de agendamento habilitado** sempre devem estar definidas como **Sim**. Se forem definidas como **Não**, o agendamento poderá ser executado infinitamente se um roteiro inviável com muitas opções tiver sido criado.
 
 O valor para **Tempo máximo de agendamento por sequência** controla o número de segundos que podem, no máximo, ser gastos na tentativa de encontrar uma solução para uma única sequência (na maioria dos casos, uma sequência corresponde a uma única ordem). O valor a ser usado aqui depende muito da complexidade do roteiro e das configurações, como a capacidade finita. No máximo, cerca de 30 segundos é um bom ponto de partida.
 

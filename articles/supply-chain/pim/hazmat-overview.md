@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: 34c0a19308bb5159faa9a4ab06bf65e58da0deb1
-ms.sourcegitcommit: 5bb36b74935ffe140367fd6ecf956b4857ad12e5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3802740"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421936"
 ---
 # <a name="hazardous-materials-overview"></a>Visão geral de materiais perigosos
 

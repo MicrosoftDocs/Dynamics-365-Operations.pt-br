@@ -17,11 +17,11 @@ ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: 33e5ccc454191e27e33835a05094b823ec54e891
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017382"
+ms.locfileid: "4422599"
 ---
 # <a name="inventory-on-hand-list"></a>Lista de estoque disponível
 
@@ -39,7 +39,7 @@ Use as seguintes ferramentas para localizar o conjunto de produtos que você est
 
 - No painel de ações, selecione [**Dimensões**](#dimensions) para abrir uma caixa de diálogo na qual é possível adicionar ou remover colunas que são mostradas na grade **disponível**.
 - No painel [**Filtros**](#filters-pane), insira valores para campos específicos para mostrar somente os registros que correspondam a esses valores. Observe que os filtros definidos aqui se aplicam a tabelas de origem que podem ser agregadas posteriormente, de acordo com as dimensões que você selecionou para serem mostradas. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
-- No painel **Filtros** , selecione **Aplicar** para gerar a lista de estoque disponível correspondente na grade **Disponível**.
+- No painel **Filtros**, selecione **Aplicar** para gerar a lista de estoque disponível correspondente na grade **Disponível**.
 - Na grade **Disponível** selecione qualquer cabeçalho de coluna para classificar ou filtrar por valores nessa coluna. Um filtro rápido na parte superior da grade fornece opções de filtragem adicionais. Esses filtros se aplicam aos resultados, não às tabelas de origem. Para obter informações sobre como esse comportamento pode afetar os resultados, consulte os [exemplos](#examples) posteriormente neste tópico.
 
 Para cada item correspondente, a grade **Disponível** fornece as seguintes colunas de informações de estoque.
@@ -53,15 +53,15 @@ Para cada item correspondente, a grade **Disponível** fornece as seguintes colu
 | Total encomendado | A quantidade total incluída nas ordens de entrada ou que tem uma quantidade positiva em vários diários de estoque. |
 | Em ordem | A quantidade total incluída nas ordens de saída ou que tem uma quantidade negativa em vários diários de estoque. |
 | Ordem reservada | A quantidade total que está reservada em recebimentos encomendados. O valor neste campo representa a quantidade total de itens em transações de saída que têm um status de _Reservado encomendado_. Os itens que são reservados como encomendados não estão fisicamente disponíveis no estoque. Portanto, não podem ser diretamente separados e entregues. |
-| Disponível para reserva | A quantidade total de estoque disponível de um item que pode ser reservada.<p>**Observação:** se a caixa de seleção **Reservar itens encomendados** estiver marcada na página **Parâmetros de gerenciamento de estoque e depósito** , o valor neste campo incluirá os recebimentos esperados. Se a caixa de seleção estiver desmarcada, o valor excluirá os recebimentos esperados.</p> |
+| Disponível para reserva | A quantidade total de estoque disponível de um item que pode ser reservada.<p>**Observação:** se a caixa de seleção **Reservar itens encomendados** estiver marcada na página **Parâmetros de gerenciamento de estoque e depósito**, o valor neste campo incluirá os recebimentos esperados. Se a caixa de seleção estiver desmarcada, o valor excluirá os recebimentos esperados.</p> |
 | Total disponível | A quantidade total disponível.<p>**Total disponível** é um campo calculado. O valor é igual ao **Valor físico** somado ao valor **Total encomendado** menos o valor **Na ordem**.</p> |
 
 ## <a name="apply-filters-to-find-the-records-that-youre-looking-for"></a><a name="filters-pane"></a>Aplicar filtros para localizar os registros que você está procurando
 
 Use o painel **Filtros** para filtrar a lista de estoque disponível para que ela inclua somente registros nos quais os valores de campo correspondam aos critérios de filtragem. Para definir um filtro, siga estas etapas.
 
-1. No painel **Filtros** , localize o campo que você deseja filtrar.
-2. No campo abaixo do nome do campo de destino, selecione um operador lógico (por exemplo, *começa com* , *igual a* ou *maior que* ).
+1. No painel **Filtros**, localize o campo que você deseja filtrar.
+2. No campo abaixo do nome do campo de destino, selecione um operador lógico (por exemplo, *começa com*, *igual a* ou *maior que*).
 3. Informe ou selecione o valor para consultar.
 
 > [!IMPORTANT]
@@ -73,7 +73,7 @@ Use o painel **Filtros** para filtrar a lista de estoque disponível para que el
 
 Você pode modificar o conjunto de filtros disponíveis no painel **Filtros** seguindo essas etapas.
 
-- Para remover um filtro do painel, selecione o botão **Fechar** ( **X** ).
+- Para remover um filtro do painel, selecione o botão **Fechar** (**X**).
 - Para adicionar um filtro, selecione **Adicionar** na parte superior do painel **Filtros**. A caixa de diálogo **Adicionar campos de filtro** que aparece mostra uma lista dos campos disponíveis. Ela também mostra informações sobre o tipo de dados e a tabela para cada campo. Use os cabeçalhos de coluna para filtrar e classificar a lista, conforme necessário, e marque a caixa de seleção para cada campo que você deseja adicionar ao painel **filtros**. Quando terminar, selecione **Inserir** para aplicar as alterações.
 
 ## <a name="select-which-dimensions-to-show"></a><a name="dimensions"></a>Selecionar quais dimensões serão mostradas
@@ -87,7 +87,7 @@ Para personalizar a seleção de dimensões de estoque mostradas, siga estas eta
     A caixa de diálogo **Exibição da dimensão** que aparece mostra cada dimensão.
 
 2. Marque a caixa de seleção correspondente a cada dimensão que você deseja incluir na grade.
-3. Se você deseja que a seleção seja usada por padrão na próxima vez que abrir a página **Listagem disponível** , defina a opção **Salvar configuração** como **Sim**. Se você definir esta opção como **Não** , a seleção será usada somente durante a sessão atual. Portanto, na próxima vez em que você abrir a página, a seleção padrão atual será usada.
+3. Se você deseja que a seleção seja usada por padrão na próxima vez que abrir a página **Listagem disponível**, defina a opção **Salvar configuração** como **Sim**. Se você definir esta opção como **Não**, a seleção será usada somente durante a sessão atual. Portanto, na próxima vez em que você abrir a página, a seleção padrão atual será usada.
 4. Selecione **OK** para fechar a caixa de diálogo e aplicar as alterações.
 
 ## <a name="filter-on-the-output-of-the-inventory-on-hand-list"></a><a name="grid-filters"></a>Filtrar na saída da lista de estoque disponível
@@ -115,7 +115,7 @@ A página **Listagem disponível** é configurada para mostrar as seguintes dime
 - Site
 - Depósito
 
-No painel **Filtros** , os seguintes critérios de filtragem são configurados:
+No painel **Filtros**, os seguintes critérios de filtragem são configurados:
 
 - **Número do Item** \| **é exatamente** \| _IA0001_
 - **Físico Disponível** \| **menor ou igual a** \| _1_
@@ -134,7 +134,7 @@ A página **Listagem disponível** é configurada para mostrar as seguintes dime
 - Nº de itens
 - Site
 
-No painel **Filtros** , os seguintes critérios de filtragem são configurados:
+No painel **Filtros**, os seguintes critérios de filtragem são configurados:
 
 - **Número do Item** \| **é exatamente** \| _IA0001_
 - **Físico Disponível** \| **menor ou igual a** \| _1_
@@ -145,4 +145,4 @@ Esta é a saída resultante.
 |---|---|---|---|
 | IA0001 | 1 | 2 | 2 |
 
-Observe que as configurações no painel **Filtros** se aplicam à tabela de estoque detalhada (não agregada) que é mostrada no início desta seção. Portanto, o critério **Disponível Físico** \| **menor ou igual a** \| _1_ localiza duas linhas dessa tabela (a primeira e terceira linhas, cada uma mostra um valor **Físico Disponível** de _1_ ). No entanto, nesse cenário, a página **Lista disponível** não é configurada para mostrar a dimensão do **Depósito**. Portanto, ela agrega as duas linhas originais em uma única linha resultante, porque ambas as linhas têm valores idênticos em todas as dimensões que são mostradas. Essa linha parece violar o critério de filtragem, porque o valor **Físico Disponível** é mostrado como _2_. No entanto, o resultado está correto, pois as configurações no painel **Filtros** se aplicam à tabela de origem, não à tabela agregada que é mostrada na página **Lista disponível**.
+Observe que as configurações no painel **Filtros** se aplicam à tabela de estoque detalhada (não agregada) que é mostrada no início desta seção. Portanto, o critério **Disponível Físico** \| **menor ou igual a** \| _1_ localiza duas linhas dessa tabela (a primeira e terceira linhas, cada uma mostra um valor **Físico Disponível** de _1_). No entanto, nesse cenário, a página **Lista disponível** não é configurada para mostrar a dimensão do **Depósito**. Portanto, ela agrega as duas linhas originais em uma única linha resultante, porque ambas as linhas têm valores idênticos em todas as dimensões que são mostradas. Essa linha parece violar o critério de filtragem, porque o valor **Físico Disponível** é mostrado como _2_. No entanto, o resultado está correto, pois as configurações no painel **Filtros** se aplicam à tabela de origem, não à tabela agregada que é mostrada na página **Lista disponível**.

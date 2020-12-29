@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2e845b05d77701191a267de45354c3da25bd7699
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979493"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422229"
 ---
 # <a name="bom-designer-functionality"></a>Funcionalidade de designer de BOM
 
@@ -96,7 +96,7 @@ O filtro aplicado para que a BOM e o roteiro sejam exibidos no cabeçalho do Des
 Quando você usa o Designer de BOM para revisar ou editar BOMs que consistem em um ou mais níveis de fantasmas, o roteiro associado ao item superior normalmente se estende pela hierarquia completa da BOM. Para simplificar a visão geral, você pode bloquear o roteiro de nível superior na exibição ao clicar em **Exibir** &gt; **Bloquear roteiro**. Para desbloquear o roteiro, clique em **Exibir** &gt; **Desbloquear roteiro**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Adicionar e editar BOMs e linhas de BOM
-Use as funções **Linhas de BOM**ou **BOM** para alterar as linhas de BOM ou a BOM. Quando você seleciona um nó na árvore, o tipo de nó determina as funções disponíveis.
+Use as funções **Linhas de BOM** ou **BOM** para alterar as linhas de BOM ou a BOM. Quando você seleciona um nó na árvore, o tipo de nó determina as funções disponíveis.
 
 | Função                            | descrição                                                                                               | Tipo de nó e condições                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

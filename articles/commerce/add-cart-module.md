@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39026ec56ebf25342410330f2ba3e2e7773dfd6a
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055418"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410346"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
@@ -50,9 +50,9 @@ A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrik
 
 | Propriedade | Valores | descrição |
 |----------------|--------|-------------|
-| Cabeçalho | Texto do cabeçalho e uma tag do cabeçalho ( **H1** , **H2** , **H3** , **H4** , **H5** ou **H6** ) | Um título para o carrinho, como "Sacola de compras" ou "Itens em seu carrinho". |
-| Mostrar erros de estoque insuficiente | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True** , a página do carrinho mostrará erros relacionados ao estoque. Recomendamos definir esta propriedade como **True** se as verificações de estoque forem aplicadas no site. |
-| Mostrar encargos de remessa para itens de linha | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True** , os itens de linha do carrinho mostrarão os encargos de remessa, se essas informações estiverem disponíveis. Este recurso não é compatível com o tema Fabrikam, pois os usuários selecionam a remessa somente no fluxo de finalização da compra. No entanto, esse recurso pode ser ativado em outros fluxos de trabalho, se aplicável. |
+| Cabeçalho | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título para o carrinho, como "Sacola de compras" ou "Itens em seu carrinho". |
+| Mostrar erros de estoque insuficiente | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, a página do carrinho mostrará erros relacionados ao estoque. Recomendamos definir esta propriedade como **True** se as verificações de estoque forem aplicadas no site. |
+| Mostrar encargos de remessa para itens de linha | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, os itens de linha do carrinho mostrarão os encargos de remessa, se essas informações estiverem disponíveis. Este recurso não é compatível com o tema Fabrikam, pois os usuários selecionam a remessa somente no fluxo de finalização da compra. No entanto, esse recurso pode ser ativado em outros fluxos de trabalho, se aplicável. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Módulos que podem ser usados em um módulo de carrinho
 
@@ -61,7 +61,7 @@ A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrik
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
-As seguintes configurações de módulo de carrinho podem ser definidas em **Configurações de Site \> Extensões** :
+As seguintes configurações de módulo de carrinho podem ser definidas em **Configurações de Site \> Extensões**:
 
 - **Quantidade máxima** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
 - **Estoque** – para obter informações sobre como aplicar configurações de estoque, consulte [Aplicar configurações de estoque](inventory-settings.md).
@@ -79,20 +79,20 @@ O módulo de carrinho recupera informações do produto usando as APIs de Commer
 Para adicionar um módulo de carrinho a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento** , selecione o módulo **Carrinho**.
-1. Em **Nome do fragmento** , digite o nome **Fragmento de carrinho** e selecione **OK**.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Carrinho**.
+1. Em **Nome do fragmento**, digite o nome **Fragmento de carrinho** e selecione **OK**.
 1. Selecione o slot **Carrinho**.
 1. No painel de propriedades à direita, selecione o símbolo de lápis, digite o texto do título no campo e, em seguida, selecione o símbolo de marca de seleção.
-1. No slot **Carrinho** , selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Seletor de loja** e, depois, **OK**.
-1. Selecione **Salvar** , **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
+1. No slot **Carrinho**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
-1. Na caixa de diálogo **Novo Modelo** , em **Nome do modelo** , insira um nome para o modelo.
-1. Na árvore de estrutura de tópicos, selecione o slot **Corpo** , as reticências ( **...** ) e, em seguida, selecione **Adicionar fragmento**.
-1. Na caixa de diálogo **Selecionar fragmento** , selecione o fragmento **Fragmento de carrinho** e, em seguida, selecione **OK**.
-1. Selecione **Salvar** , **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira um nome para o modelo.
+1. Na árvore de estrutura de tópicos, selecione o slot **Corpo**, as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de carrinho** e, em seguida, selecione **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
-1. Na caixa de diálogo **Escolher um modelo** , selecione o modelo que você criou, insira um nome de página e selecione **OK**.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo que você criou, insira um nome de página e selecione **OK**.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -104,9 +104,11 @@ Para adicionar um módulo de carrinho a uma nova página e definir as propriedad
 
 [Módulo de pagamento](payment-module.md)
 
-[Módulo do endereço de remessa](ship-address-module.md)
+[Módulo de endereço de remessa](ship-address-module.md)
 
 [Módulo de opções de entrega](delivery-options-module.md)
+
+[Módulo de informações sobre retirada](pickup-info-module.md)
 
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 

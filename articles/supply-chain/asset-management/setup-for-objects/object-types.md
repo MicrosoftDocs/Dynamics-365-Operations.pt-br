@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5a5db915c94cf9a454dc39e9174b3282a3f6bb75
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889472"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422090"
 ---
 # <a name="asset-types"></a>Tipos de ativo
 

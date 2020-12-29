@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 91c5b2e70ee083bf2741e245f1ca840ab939ad3f
-ms.sourcegitcommit: 8a2127c5af6cdbda30ccc1f9bef9bd4ab61e9e50
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2020
-ms.locfileid: "3382966"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422216"
 ---
 # <a name="maintenance-schedule-cost"></a>Custo do agendamento de manutenção
 
@@ -44,7 +44,7 @@ No Gerenciamento de Ativos você pode calcular os custos de orçamento nas linha
 
 4. Se quiser fazer um cálculo para ativos específicos, clique em **Filtro** na Guia Rápida **Registros a serem incluídos** e selecione os ativos relevantes. Se necessário, você também pode especificar uma data de **Início esperado** para o cálculo de custo ou selecionar um **Status** diferente para o cálculo de custo.
 
-5. Clique em **OK**para iniciar o cálculo de custo.
+5. Clique em **OK** para iniciar o cálculo de custo.
 
 6. Na guia **Custo de agendamento de manutenção** > nos grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para mostrar o nível de detalhe necessário do cálculo de custo. Os botões do grupo do Painel de Ações selecionado estão destacados. Clique em um botão para ativá-los ou desativá-los.
 

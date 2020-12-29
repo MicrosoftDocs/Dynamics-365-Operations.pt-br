@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: da4250b281438c29c82150af8db9cb8cca41c6c9
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429557"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417347"
 ---
 # <a name="design-questionnaires"></a>Criar questionários
 
@@ -91,7 +91,7 @@ Os códigos de sequência numérica que são usados para organizar perguntas e r
 É preciso definir todos os parâmetros antes de começar a criar seus dados. Você pode alterar as configurações de parâmetros de questionário a qualquer momento.
 
 ## <a name="questionnaire-components"></a>Componentes do questionário
-Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si. Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
+Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si.  Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
 
 [![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 

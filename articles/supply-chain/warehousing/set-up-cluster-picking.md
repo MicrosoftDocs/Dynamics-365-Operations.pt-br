@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017566"
+ms.locfileid: "4422601"
 ---
 # <a name="set-up-cluster-picking"></a>Configurar separação de cluster
 
@@ -58,13 +58,13 @@ Para configurar um perfil de cluster, siga estas etapas:
 
 1. Clique em **Novo** para criar um novo perfil.
 
-1. Clique em **Criar cluster** e, em **Classificação de cluster** , clique em **Novo** para configurar os critérios de classificação para o cluster. Os critérios de classificação controlam a ordem na qual o trabalhador realizará o trabalho de separação. É possível adicionar quantos critérios forem necessários.
+1. Clique em **Criar cluster** e, em **Classificação de cluster**, clique em **Novo** para configurar os critérios de classificação para o cluster. Os critérios de classificação controlam a ordem na qual o trabalhador realizará o trabalho de separação. É possível adicionar quantos critérios forem necessários.
 
-1. No campo **Número de sequência** , insira um número para definir a ordem na qual os critérios de classificação são processados.
+1. No campo **Número de sequência**, insira um número para definir a ordem na qual os critérios de classificação são processados.
 
-1. No campo **Nome do campo** , selecione o campo que determinará a classificação. Por exemplo, se você selecionar o campo **WMSLocationId** , o trabalho será classificado por local.
+1. No campo **Nome do campo**, selecione o campo que determinará a classificação. Por exemplo, se você selecionar o campo **WMSLocationId**, o trabalho será classificado por local.
 
-1. No campo **Classificação** , selecione uma das seguintes opções.
+1. No campo **Classificação**, selecione uma das seguintes opções.
 
 | **Opção**     | **Descrição**                                                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

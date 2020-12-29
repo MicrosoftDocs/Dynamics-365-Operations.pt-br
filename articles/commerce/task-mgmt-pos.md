@@ -17,11 +17,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: cc685fcd584fe2ab5cd9282e8fbefbd284d5b2a2
-ms.sourcegitcommit: 80cbb7d22267aa6a0ae0568d0063fb95556958a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036777"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410251"
 ---
 # <a name="task-management-in-pos"></a>Gerenciamento de tarefas em PDV
 

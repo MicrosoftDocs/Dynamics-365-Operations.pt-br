@@ -17,11 +17,11 @@ ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
 ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 80cbb7d22267aa6a0ae0568d0063fb95556958a5
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "3036800"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410255"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Atribuir listas de tarefas a lojas ou funcionários
 

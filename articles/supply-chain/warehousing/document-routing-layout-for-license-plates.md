@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
 ms.openlocfilehash: 8c96aef5d66ed8f8c44d74eee9b60f0a7d38a46d
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017704"
+ms.locfileid: "4422520"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout de roteiro de documentos para etiquetas de placa de licença
 
@@ -63,10 +63,10 @@ $FieldName:FormatString$
 
 Aqui está uma explicação deste formato:
 
-- `FieldName` é o nome do campo de dados (por exemplo **Qtd.** ).
+- `FieldName` é o nome do campo de dados (por exemplo **Qtd.**).
 - `FormatString` define como os dados devem ser impressos.
 
-Os exemplos a seguir mostram como é possível personalizar o campo ( **Qtd.** ) de quantidade de trabalho:
+Os exemplos a seguir mostram como é possível personalizar o campo (**Qtd.**) de quantidade de trabalho:
 
 - Para mostrar sempre quatro dígitos (usando zeros como espaços reservados), use `$Qty:0000$`. Por exemplo, se a quantidade for 10, o rótulo mostrará "0010".
 - Para mostrar sempre duas casas decimais, use `$Qty:0.00$`. Por exemplo, se a quantidade for 10, o rótulo mostrará "10,00".

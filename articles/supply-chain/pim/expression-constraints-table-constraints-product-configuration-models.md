@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be9d9ae48d21db077928ba7bd5615fea47ea5181
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979819"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422381"
 ---
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restrições de expressão e restrições de tabela nos modelos de configuração do produto
 
@@ -110,7 +110,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="odd">
 <td>Implies</td>
 <td>Isso ocorre se a primeira condição for falsa, a segunda condição for verdadeira ou ambos.</td>
-<td>Implies[a, b], infixo: a -: b</td>
+<td>Implies[a, b], infix: a -: b</td>
 <td><ul>
 <li><strong>Operador:</strong> Implies[x != 0, y &gt;= 0]</li>
 <li><strong>Notação de infixo:</strong> x != 0 -: y &gt;= 0</li>
@@ -119,7 +119,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="even">
 <td>E</td>
 <td>Isso ocorre apenas se todas as condições forem verdadeiras. If the number of conditions is 0 (zero), ele produzirá <strong>Verdadeiro</strong>.</td>
-<td>And[args], infixo: a &amp; b &amp; ... &amp; z</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
 <li><strong>Operador:</strong> And[x == 2, y &lt;= 2]</li>
 <li><strong>Notação de infixo:</strong> x == 2 &amp; y &lt;= 2</li>
@@ -128,7 +128,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="odd">
 <td>Ou</td>
 <td>Isso será verdadeiro se qualquer condição for verdadeira. Se o número de condições for 0, ele produzirá <strong>Falso</strong>.</td>
-<td>Or[args], infixo: a | b | ... | z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
 <li><strong>Operador:</strong> Or[x == 2, y &lt;= 2]</li>
 <li><strong>Notação de infixo:</strong> x == 2 | y &lt;= 2</li>
@@ -137,7 +137,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="even">
 <td>Mais</td>
 <td>Isso soma as condições. Se o número de condições for 0, ele produzirá <strong>0</strong>.</td>
-<td>Plus[args], infixo: a + b + ... + z</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>Operador:</strong> Plus[x, y, 2] == z</li>
 <li><strong>Notação de infixo:</strong> x + y + 2 == z</li>
@@ -146,7 +146,7 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <tr class="odd">
 <td>Menos</td>
 <td>Isso nega o argumento. Deve ter exatamente uma condição.</td>
-<td>Minus[expr], infixo: -expr</td>
+<td>Minus[expr], infix: -expr</td>
 <td><ul>
 <li><strong>Operador:</strong> Minus[x] == y</li>
 <li><strong>Notação de infixo:</strong> -x == y</li>
@@ -159,39 +159,39 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 <td><strong>Operador:</strong> Abs[x]</td>
 </tr>
 <tr class="odd">
-<td>Horas</td>
+<td>Tempos</td>
 <td>Leva o produto das condições. Se o número de condições for 0, ele produzirá <strong>1</strong>.</td>
-<td>Times[args], infixo: a * b * ... * z</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>Operador:</strong> Times[x, y, 2] == z</li>
 <li><strong>Notação de infixo:</strong> x * y * 2 == z</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Energia</td>
-<td>Leva um exponencial. Ele aplica a exponenciação da direita para a esquerda. (Ou seja, é associativo à direita). Consequentemente, <strong>Power[a, b, c]</strong> é equivalente a <strong>Power[a, Power[b, c]]</strong>. <strong>Potência</strong> pode ser usada somente se o expoente for uma constante positiva.</td>
-<td>Power[args], infixo: a ^ b ^ ... ^ z</td>
+<td>Potência</td>
+<td>Leva um exponencial. Ele aplica a exponenciação da direita para a esquerda. (Ou seja, ele é associativo à direita.) Então, <strong>Power[a, b, c]</strong> equivale a <strong>Power[a, Power[b, c]]</strong>. <strong>Potência</strong> pode ser usada somente se o expoente for uma constante positiva.</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>Operador:</strong> Power[x, 2] == y</li>
 <li><strong>Notação de infixo:</strong> x ^ 2 == y</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Máx.</td>
+<td>Máx</td>
 <td>Isso gera a condição a maior. Se o número de condições for 0, ele produzirá <strong>Infinito</strong>.</td>
 <td>Max[args]</td>
 <td><strong>Operador:</strong> Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
-<td>Mín.</td>
+<td>Min.</td>
 <td>Isso gera a condição menor. Se o número de condições for 0, ele produzirá <strong>Infinito</strong>.</td>
 <td>Min[args]</td>
 <td><strong>Operador:</strong> Min[x, y, 2] == z</td>
 </tr>
 <tr class="odd">
-<td>Não</td>
+<td>Not</td>
 <td>Isso gera a inversão lógica da condição. Deve ter exatamente uma condição.</td>
-<td>Not[expr], infixo: !expr</td>
+<td>Not[expr], infix: !expr</td>
 <td><ul>
 <li><strong>Operador:</strong> Not[x] &amp; Not[y == 3]</li>
 <li><strong>Notação de infixo:</strong> !x!(y == 3)</li>

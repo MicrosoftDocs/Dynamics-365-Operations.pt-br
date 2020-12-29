@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: dcc155a7fe5ca16e7543bf5917dbedadef987b62
-ms.sourcegitcommit: 175f9394021322c685c5b37317c2f649c81a731a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "3826709"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422269"
 ---
 # <a name="production-order-cost-analysis"></a>Análise de custo da ordem de produção
 
@@ -49,7 +49,7 @@ O diagrama a seguir mostra as quatro variações consideradas para a diferença 
 Você poderá analisar as variações de produção usando a página **Variação** ou o relatório **Variação de produção**. Use as opções de exibição para exibir as variações detalhadas por item e por recurso de operações ou por grupo de custos. A política de divisão de custos nos parâmetros de estoque determina se as variações serão monitoradas por grupo de custos. Você também pode usar as opções de exibição **única**, **multi** e **total** para exibir variações resumidas. As informações sobre as variações detalhadas podem ajudar a compreender a origem de cada variação. Para prever as variações antes de finalizar uma ordem de produção, analise as informações detalhadas fornecidas no relatório **Estimativas de custo e avaliações de custo**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Análise de custo para ordens de produção atuais
-Relatórios separados fornecem informações sobre cada tipo de transação. Use esses relatórios para analisar custos para atividades de produção relatadas. As informações são exibidas somente para ordens de produção atuais com o status **Iniciada** ou**Relatada como concluída**.
+Relatórios separados fornecem informações sobre cada tipo de transação. Use esses relatórios para analisar custos para atividades de produção relatadas. As informações são exibidas somente para ordens de produção atuais com o status **Iniciada** ou **Relatada como concluída**.
 
 -   **Materiais em andamento**− esse relatório lista as transações de lista de separação relatadas contra as ordens de produção atuais a partir da data de transação especificada. O relatório indica a quantidade de um componente emitida e o valor de custo para cada transação. Use os critérios de seleção de um único item do componente. Por exemplo, você pode imprimir informações sobre a quantidade emitida do componente contra as ordens de produção aplicáveis. A quantidade emitida não é atualizada pelas quantidades relatadas como concluídas para o item principal. Portanto, a quantidade real de matérias-primas em processamento poderá ser exagerada.
 -   **Trabalho em andamento**− esse relatório lista as transações de roteiro (ou transações de trabalho) relatadas contra as ordens de produção atuais a partir da data de transação especificada. O relatório indica as horas, o valor e a quantidade (quantidade sem erros e quantidade com erros) relatados para cada transação. Também inclui informações como o número da operação, a ID da operação e o recurso de operações. Adicionalmente, esse relatório mostra o valor e o tempo totais de todas as transações em relação à ordem de produção e a quantidade relatada como concluída.

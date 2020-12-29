@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 0d2f4e86b5dec84d4a24db6a4f9f9f16f6a765bd
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889185"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422077"
 ---
 # <a name="work-hour-control"></a>Controle de horas de trabalho
 
@@ -57,7 +57,7 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 8. Para limitar a pesquisa, você poderá selecionar ativos específicos/locais funcionais/ordens de trabalho na Guia Rápida **Registros a serem incluídos**.
 
-9. Clique em **OK**para iniciar o cálculo.
+9. Clique em **OK** para iniciar o cálculo.
 
 10. Na página **Controle de hora de ativo**, clique nos botões de **Agrupar por** para mostrar o nível de detalhe necessário do cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 

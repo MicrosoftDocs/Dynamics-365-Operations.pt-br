@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 206d6d6769d1dedcbfefa589fd72903e65a25ba6
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018781"
+ms.locfileid: "4422502"
 ---
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
@@ -63,14 +63,14 @@ Você pode verificar os detalhes sobre o status da transação de estoque de pro
 
 Uma linha de OC está sendo usada para devolver um produto ao fornecedor que terá uma quantidade negativa. Você pode selecionar um lote específico para retornar usando a ação **Reserva**.  
 
-Às vezes, convém dividir a quantidade que foi encomendada, para que diferentes partes sejam entregues em datas diferentes. Você pode configurar essas entregas usando a ação **Agenda de entrega** , que está disponível no menu **Linha da ordem de compra** na exibição de **Linhas**.  
+Às vezes, convém dividir a quantidade que foi encomendada, para que diferentes partes sejam entregues em datas diferentes. Você pode configurar essas entregas usando a ação **Agenda de entrega**, que está disponível no menu **Linha da ordem de compra** na exibição de **Linhas**.  
 
 Encargos podem ser adicionados automaticamente à linhas da PO, se encargos automáticos foram configurados para o fornecedor ou grupo de encargos do fornecedor, e para o item ou grupo de encargos do item. No entanto, geralmente, encargos são adicionados manualmente no nível da linha da ordem. Para adicionar um encargo, abra a página **Manter encargos** usando a ação **Manter encargos** sobre o menu **Finanças** na exibição **Linhas**. A vantagem de adicionar encargos diretamente no nível da linha da ordem é que o encargo pode ser alocado como um custo de estoque. Para definir os códigos de encargo ao custo do produto de conta, use a opção de débito **Item**. Esses tipos de encargos devem ser alocados do cabeçalho da ordem de compra para as linhas antes que a ordem possa ser confirmada. Por exemplo, você talvez queira alocar encargos com base na quantidade em cada linha. A categoria de custo também afeta como os encargos serão contabilizados. Por exemplo, encargos fixos especificam um valor fixo e porcentagem de encargos calculados como uma porcentagem do valor líquido para a linha da ordem. POs podem ser atribuídos a uma carga e a carga pode incluir uma estimativa da despesa esperada para o custo de transporte. Você pode alocar essa despesa de carga antes das linhas de ordem de compra.
 
 ## <a name="purchase-order-actions"></a>Ações da ordem de compra
 Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](../../fin-and-ops/get-started/action-search.md) para localizar o item de menu relevantes.  
 
-Você pode configurar produtos na ordem para que eles tenham itens suplementares. Itens suplementares são produtos que devem ou podem ser comprados em conjunto com outros produtos. Produtos suplementares podem ser adicionados gratuitamente como os que acompanham os produtos ou você poderá optar por adicioná-los à ordem ou não. Você pode revisar os itens suplementares após cada linha de ordem adicionada. No entanto, você provavelmente achará mais conveniente revisar e adicionar itens suplementares relevantes para todas as linhas da ordem, usando a página **Itens suplementares** , que pode ser aberta no painel de ação.  
+Você pode configurar produtos na ordem para que eles tenham itens suplementares. Itens suplementares são produtos que devem ou podem ser comprados em conjunto com outros produtos. Produtos suplementares podem ser adicionados gratuitamente como os que acompanham os produtos ou você poderá optar por adicioná-los à ordem ou não. Você pode revisar os itens suplementares após cada linha de ordem adicionada. No entanto, você provavelmente achará mais conveniente revisar e adicionar itens suplementares relevantes para todas as linhas da ordem, usando a página **Itens suplementares**, que pode ser aberta no painel de ação.  
 
 Descontos em geral são adicionados às linhas conforme eles são criados. No entanto, alguns descontos se aplicam a toda a ordem:
 

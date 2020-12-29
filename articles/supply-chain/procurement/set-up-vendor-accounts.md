@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cc5229918c89657f3108e1c2314dff8251eae93d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018066"
+ms.locfileid: "4422559"
 ---
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
@@ -42,7 +42,7 @@ Ao criar uma conta de fornecedor, insira informações sobre o fornecedor. Essas
 -   Configurar informações sobre imposto, entrega, fatura e pagamento para o fornecedor. Por padrão, essas configurações são copiadas em novos documentos que você cria para o fornecedor.
 -   Configurar as dimensões financeiras padrão usadas para lançar transações automaticamente com o fornecedor nas contas financeiras.
 
-Para agilizar o processo de criação de contas de fornecedor, você pode criar modelos. Para criar um modelo, na página **Fornecedor** , no painel de ação, clique em **Opções** &gt; **Informações sobre registro**. Em seguida, clique em **Modelo de contas da empresa**. Os modelos de contas da empresa são compartilhados com outros usuários.  
+Para agilizar o processo de criação de contas de fornecedor, você pode criar modelos. Para criar um modelo, na página **Fornecedor**, no painel de ação, clique em **Opções** &gt; **Informações sobre registro**. Em seguida, clique em **Modelo de contas da empresa**. Os modelos de contas da empresa são compartilhados com outros usuários.  
 
 Você também pode criar um modelo de usuário para seu próprio uso. Você não pode excluir um fornecedor associado com outros registros, como contatos ou produto.
 
@@ -58,7 +58,7 @@ Para cada fornecedor, você pode definir vários endereços, sendo cada um deles
 ## <a name="vendor-contacts"></a>Contatos de fornecedor
 Você pode armazenar os contatos de um fornecedor. Esses contatos poderão, então, ser usados em documentos como ordens de compra ou RFQs (solicitações de cotação).  
 
-Para adicionar contatos a um fornecedor, na página **Todos os fornecedores** , na guia **Fornecedor** , no grupo **Configurar** , clique em **Contatos** &gt; **Adicionar contatos**.  
+Para adicionar contatos a um fornecedor, na página **Todos os fornecedores**, na guia **Fornecedor**, no grupo **Configurar**, clique em **Contatos** &gt; **Adicionar contatos**.  
 
 Você pode criar contatos de fornecedor a partir do zero. Se desejar, você pode copiar detalhes de outra pessoa que já esteja registrada no Supply Chain Management e editar as informações conforme necessário.  
 
@@ -75,7 +75,7 @@ Se várias entidades legais na organização fizerem negócios com o mesmo forne
 
 Para mesclar IDs de participantes, sigas as etapas a seguir.
 
-1.  Na página **Catálogo de endereços global** , selecione os registros de catálogo de endereços que representam o fornecedor em cada entidade legal a ser incluída no mapeamento.
+1.  Na página **Catálogo de endereços global**, selecione os registros de catálogo de endereços que representam o fornecedor em cada entidade legal a ser incluída no mapeamento.
 2.  No Painel de Ações, clique em **Mesclar registros**.
 
 ## <a name="agreements"></a>Contratos
@@ -93,11 +93,11 @@ Você pode colocar um fornecedor em espera em vários tipos de transação. As o
 
 Quando você colocar um fornecedor em espera, também poderá especificar um motivo e uma data em que o status de suspensão será encerrado. Se você não inserir uma data final, o status de suspensão do fornecedor terá duração indeterminada.
 
-Você pode atualizar em massa o status Em espera **Tudo** para os fornecedores com base nos critérios selecionados na página **Desativação de fornecedor** , e atribuir um motivo pelo qual o fornecedor está Em espera.
+Você pode atualizar em massa o status Em espera **Tudo** para os fornecedores com base nos critérios selecionados na página **Desativação de fornecedor**, e atribuir um motivo pelo qual o fornecedor está Em espera.
 
 Os seguintes critérios são usados para incluir fornecedores que foram desativados em um período, para incluir ou excluir fornecedores que são funcionários, e para excluir os fornecedores em um período de carência antes da próxima suspensão.
 
-- Com base no número de dias inserido no campo **No período de atividade** na página **Desativação de fornecedor** , o aplicativo calcula a última data em que o fornecedor pode ter qualquer atividade seja considerada inativa. Ou seja, a data atual menos o número de dias inserido. Se houver uma ou mais faturas existentes para o fornecedor onde a data é posterior à última data calculada, o fornecedor será excluído da desativação. Isto também será validado se o fornecedor tiver pagamentos após essa data, requisições de compra em aberto, ordens de compra abertas, solicitações de cotações ou respostas.
+- Com base no número de dias inserido no campo **No período de atividade** na página **Desativação de fornecedor**, o aplicativo calcula a última data em que o fornecedor pode ter qualquer atividade seja considerada inativa. Ou seja, a data atual menos o número de dias inserido. Se houver uma ou mais faturas existentes para o fornecedor onde a data é posterior à última data calculada, o fornecedor será excluído da desativação. Isto também será validado se o fornecedor tiver pagamentos após essa data, requisições de compra em aberto, ordens de compra abertas, solicitações de cotações ou respostas.
 - O número de dias no campo **Período de carência antes da próxima suspensão** é usado para calcular a última data de carência. Ou seja, a data atual menos os dias inseridos. Isso só se aplica aos fornecedores que foram desativados anteriormente. No caso de uma desativação anterior, o aplicativo verifica o histórico de outras ocorrências de desativação para o fornecedor e verifica se última desativação ocorreu antes da última data de carência. Se isso ocorrer, o fornecedor será incluído no processo de desativação.
 - O parâmetro **Incluir funcionários** refere-se aos fornecedores que estão vinculados a um funcionário. É possível definir se você deseja incluir tais funcionários.
 
@@ -114,7 +114,7 @@ Se você precisar fazer pagamentos para uma conta bancária de fornecedor, poder
 ## <a name="ledger-accounts"></a>Contas contábeis
 Você pode especificar as contas padrão que aparecerão automaticamente nos diários de fatura do fornecedor especificado. Essa funcionalidade poderá ser útil se você normalmente pagar pelos mesmos tipos de itens ou serviços dos mesmos fornecedores ao longo do tempo. Ao especificar uma conta padrão, você poderá inserir entradas no diário de fatura com rapidez e eficiência. As contas padrão que você especificar não são usadas para ordens de compra, ou para faturas de fornecedor inseridas na página **Fatura de fornecedor**.  
 
-Selecione contas padrão na página **Configuração de conta padrão** , que você pode abrir na guia **Fatura** no registro de fornecedor. As contas selecionadas aqui aparecem na lista de contas filtrada para a conta de fornecedor quando você insere uma entrada de diário. Você pode definir uma das contas como conta padrão.
+Selecione contas padrão na página **Configuração de conta padrão**, que você pode abrir na guia **Fatura** no registro de fornecedor. As contas selecionadas aqui aparecem na lista de contas filtrada para a conta de fornecedor quando você insere uma entrada de diário. Você pode definir uma das contas como conta padrão.
 
 
 

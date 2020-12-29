@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
 ms.openlocfilehash: 8dbaddf0165f36db07378e817639fd8b17a4a96f
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428888"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417217"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Criar departamentos e incluí-los na hierarquia de departamentos
 
@@ -47,7 +47,7 @@ Para adicionar um departamento à hierarquia de departamentos, siga estas etapas
 
 1.  Clique em **Recursos Humanos** &gt; **Departamentos** &gt; **Hierarquia de departamentos**.
 2.  Clique em **Editar** e selecione a organização em que o departamento deve estar.
-3.  Clique em**Inserir** e selecione **Departamento** na lista.
+3.  Clique em **Inserir** e selecione **Departamento** na lista.
 4.  Na lista de departamentos exibido, selecione o departamento a ser adicionado à hierarquia.
 5.  Salve as alterações. Você receberá uma mensagem informando que uma versão de rascunho da hierarquia foi criada.
 6.  Quando você estiver pronto, clique em **Publicar** no designer da hierarquia. Você pode inserir uma data efetiva que indique quando a hierarquia deve ser publicada. Por exemplo, para adicionar um novo departamento no início do próximo ano civil, defina a data efetiva para 1º de janeiro do novo ano civil. As alterações na hierarquia entrarão em vigor nessa data.

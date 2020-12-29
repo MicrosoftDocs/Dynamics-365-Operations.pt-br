@@ -18,11 +18,11 @@ ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: b221bfede5d1db8d7970e1efede85e8dba7fe017
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124373"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410069"
 ---
 # <a name="set-up-the-fiscal-integration-for-commerce-channels"></a>Configurar a integração fiscal para canais do Commerce
 

@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: f1a565917ab7a048d4d455bc0a0fbd9316237aeb
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097107"
+ms.locfileid: "4410327"
 ---
 # <a name="preview-and-publish-an-experiment"></a>Visualizar e publicar um experimento
 

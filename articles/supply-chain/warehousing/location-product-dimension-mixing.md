@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
 ms.openlocfilehash: 73519f3fe79d3d7d917d3044255f735640b8ccfd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017150"
+ms.locfileid: "4422506"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinação de dimensões do produto de localização
 
@@ -45,19 +45,19 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização, selecione **MASSA**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Geral** , defina a opção **Habilitar a combinação específica de dimensões do produto de localização** como *Sim*.
+1. Na FastTab **Geral**, defina a opção **Habilitar a combinação específica de dimensões do produto de localização** como *Sim*.
 
     > [!NOTE]
     > Você só poderá definir essa opção como *Sim* se a opção **Permitir itens mistos** estiver definida como *Não*.
 
-1. Na FastTab **Combinação de dimensões do produto permitida** , defina a opção **Tamanho** como *Sim*. No cenário descrito neste tópico, a combinação pode ser feita somente para produtos com dimensões de **Tamanho** diferentes. No entanto, outras opções também estão disponíveis.
+1. Na FastTab **Combinação de dimensões do produto permitida**, defina a opção **Tamanho** como *Sim*. No cenário descrito neste tópico, a combinação pode ser feita somente para produtos com dimensões de **Tamanho** diferentes. No entanto, outras opções também estão disponíveis.
 1. Selecione **Salvar**.
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Criar um novo produto mestre e grades de produtos
 
 1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
 1. No Painel de Ação, selecione **Novo** para criar um produto mestre.
-1. Na caixa de diálogo **Novo produto** , defina os seguintes valores:
+1. Na caixa de diálogo **Novo produto**, defina os seguintes valores:
 
     - **Tipo de produto:** *Item*
     - **Subtipo de produto:** *Produto mestre*
@@ -67,7 +67,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
     - **Tecnologia de configuração:** *Grade predefinida*
 
 1. Selecione **OK**.
-1. Na página **Detalhes do produto** , na FastTab **Geral** , defina os seguintes valores:
+1. Na página **Detalhes do produto**, na FastTab **Geral**, defina os seguintes valores:
 
     - **Gerar grades automaticamente:** *Sim*
     - **Grupo de tamanhos:** *CASUALDHIR*
@@ -79,10 +79,10 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 ### <a name="release-products-to-the-usmf-company"></a>Liberar produtos para a empresa USMF
 
 1. No Painel de Ação, selecione **Liberar produtos**.
-1. Na página **Selecionar produtos para liberação** , confirme que o produto de número *B0001* está na lista e, em seguida, selecione **Avançar**.
+1. Na página **Selecionar produtos para liberação**, confirme que o produto de número *B0001* está na lista e, em seguida, selecione **Avançar**.
 1. Selecione **Avançar** para confirmar as grades de produtos a serem liberadas.
-1. Na página **Selecionar empresas para as quais os produtos serão liberados** , selecione *USMF* e, em seguida, selecione **Avançar** para confirmar a seleção.
-1. Na página **Confirmar seleção** , selecione **Concluir** para concluir a liberação.
+1. Na página **Selecionar empresas para as quais os produtos serão liberados**, selecione *USMF* e, em seguida, selecione **Avançar** para confirmar a seleção.
+1. Na página **Confirmar seleção**, selecione **Concluir** para concluir a liberação.
 
     Você receberá uma mensagem "Operação concluída".
 
@@ -92,29 +92,29 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** para concluir a criação do produto liberado.
 1. Localize e selecione o item de número *B0001* para abrir a página **Detalhes do produto liberado**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Geral** , verifique se o campo **Grupo de modelo do item** está definido como *PEPS*.
-1. No Painel de Ação, na guia **Produto** , no grupo **Configuração** , selecione **Grupos de dimensões**.
+1. Na FastTab **Geral**, verifique se o campo **Grupo de modelo do item** está definido como *PEPS*.
+1. No Painel de Ação, na guia **Produto**, no grupo **Configuração**, selecione **Grupos de dimensões**.
 1. Defina os seguintes valores:
 
     - **Grupo de dimensões de armazenamento:** *Ware*
     - **Grupo de dimensões de rastreamento:** *Nenhum*
 
 1. Selecione **OK**.
-1. No Painel de Ação, na guia **Produto** , no grupo **Configuração** , selecione **Hierarquia de reservas**.
+1. No Painel de Ação, na guia **Produto**, no grupo **Configuração**, selecione **Hierarquia de reservas**.
 1. Defina o campo **Hierarquia de reservas** como *Padrão* e, em seguida, selecione **OK**.
-1. Na FastTab **Geral** , na seção **Administração** , observe que suas seleções foram atualizadas.
-1. Na FastTab **Compra** , no campo **Preço** , insira *10*.
-1. Na FastTab **Gerenciar custos** , no campo **Grupo de itens** , insira *Áudio*.
-1. Na FastTab **Compra** , no campo **Preço** , insira *10*.
-1. Na FastTab **Depósito** , no campo **ID do grupo de sequências de unidade** , insira *ea*.
+1. Na FastTab **Geral**, na seção **Administração**, observe que suas seleções foram atualizadas.
+1. Na FastTab **Compra**, no campo **Preço**, insira *10*.
+1. Na FastTab **Gerenciar custos**, no campo **Grupo de itens**, insira *Áudio*.
+1. Na FastTab **Compra**, no campo **Preço**, insira *10*.
+1. Na FastTab **Depósito**, no campo **ID do grupo de sequências de unidade**, insira *ea*.
 1. Selecione **Salvar**.
 
 ### <a name="create-a-location-directive"></a>Criar uma diretiva de localização
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
-1. No painel esquerdo, no campo **Tipo de ordem de serviço** , selecione *Ordens de compra*.
+1. No painel esquerdo, no campo **Tipo de ordem de serviço**, selecione *Ordens de compra*.
 1. Na lista, selecione a diretiva de localização chamada *24 PO Direct*.
-1. Na FastTab **Ações de Diretiva de Localização** , selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Ações de Diretiva de Localização**, selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Número de sequência:** *1*
@@ -128,7 +128,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
     - **Estratégia:** *Nenhuma*
 
 1. Com a nova linha ainda selecionada, selecione **Editar consulta** acima da grade.
-1. Na caixa de diálogo de consulta, na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à grade.
+1. Na caixa de diálogo de consulta, na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Tabela:** *Localizações*
@@ -137,10 +137,10 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
     - **Critérios:** *MASSA*
 
 1. Selecione **OK**.
-1. Na página **Diretivas de localização** , no Painel de Ação, selecione **Salvar**.
+1. Na página **Diretivas de localização**, no Painel de Ação, selecione **Salvar**.
 
 > [!NOTE]
-> No campo **Estratégia** da FastTab **Ações de Diretiva de Localização** , se você usar a estratégia de localização *Consolidar* , a configuração da FastTab **Combinação de dimensões do produto permitida** nos **Perfis de localização** será substituída, e os itens serão colocados no mesmo local, mesmo que esse comportamento não seja permitido pela configuração.
+> No campo **Estratégia** da FastTab **Ações de Diretiva de Localização**, se você usar a estratégia de localização *Consolidar*, a configuração da FastTab **Combinação de dimensões do produto permitida** nos **Perfis de localização** será substituída, e os itens serão colocados no mesmo local, mesmo que esse comportamento não seja permitido pela configuração.
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
@@ -153,7 +153,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
     - **Modo:** *Trabalho*
     - **Usar trabalho existente:** *Não*
 
-1. Na FastTab **Geral** , defina os seguintes valores:
+1. Na FastTab **Geral**, defina os seguintes valores:
 
     - **Processo de criação de trabalho:** *Recebimento e armazenamento da linha da ordem de compra*
     - **Gerar placa de licença:** *Sim*
@@ -165,7 +165,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Na lista de menus, selecione **Entrada**.
 1. No Painel de Ações, selecione **Editar**.
-1. Na lista **Menus e Itens de Menu Disponíveis** , localize e selecione o item de menu **Recebimento da linha da OC**.
+1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione o item de menu **Recebimento da linha da OC**.
 1. Selecione o botão de seta para a direita a fim de mover o item de menu **Recebimento da linha da OC** para a lista **Estrutura de Menu**. Dessa forma, você adiciona o novo item de menu ao menu selecionado.
 1. Selecione **Salvar**.
 
@@ -177,11 +177,11 @@ Antes de começar, verifique se há locais vazios no depósito *24* que usem o p
 
 ### <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
-Você criará uma ordem de compra com três linhas: duas linhas para o mesmo número de produto, mas diferentes grades de **Tamanho** , e uma terceira linha para um produto diferente que não tem grades.
+Você criará uma ordem de compra com três linhas: duas linhas para o mesmo número de produto, mas diferentes grades de **Tamanho**, e uma terceira linha para um produto diferente que não tem grades.
 
 1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
-1. Na caixa de diálogo **Criar ordem de compra** , defina os seguintes valores:
+1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
 
     - **Conta do fornecedor:** *1001*
     - **Depósito:** *24*
@@ -216,7 +216,7 @@ Você criará uma ordem de compra com três linhas: duas linhas para o mesmo nú
 1. Confirme a entrada selecionando o botão de confirmação ( ✔ ) na parte inferior da página.
 1. Insira o número da linha da ordem de compra que está sendo recebida. Selecione o campo **LINENUM** e use o teclado numérico para inserir *1*.
 1. Confirme a entrada.
-1. Insira a quantidade a ser recebida. Selecione o botão de sinal de adição ( **+** ) duas vezes para aumentar o valor no campo **Qtd.** para *2*.
+1. Insira a quantidade a ser recebida. Selecione o botão de sinal de adição (**+**) duas vezes para aumentar o valor no campo **Qtd.** para *2*.
 1. Registre a entrada selecionando o botão ( ✔ ) na parte inferior da página e, em seguida, confirme a entrada selecionando o botão ( ✔ ) novamente.
 1. Veja as informações na página **Ordens de compra: colocar**. Essa página mostra o trabalho criado para o armazenamento (Trabalho 1).
 
@@ -238,4 +238,4 @@ Você criará uma ordem de compra com três linhas: duas linhas para o mesmo nú
 1. Selecione o botão Menu na parte superior da página (às vezes chamado de hambúrguer ou botão de hambúrguer) e, em seguida, selecione **Cancelar** para sair do **Recebimento da Linha da OC**.
 
 > [!TIP]
-> Você pode repetir esse cenário, mas desta vez, defina **Tamanho** - *Não* na FastTab **Permitir combinação de dimensões do produto** nos **Perfis de localização** *MASSA* , para que nenhuma dimensão do produto seja combinada. Nesse caso, quando você receber a ordem de compra, cada grade de produto será colocada em um novo local.
+> Você pode repetir esse cenário, mas desta vez, defina **Tamanho** - *Não* na FastTab **Permitir combinação de dimensões do produto** nos **Perfis de localização** *MASSA*, para que nenhuma dimensão do produto seja combinada. Nesse caso, quando você receber a ordem de compra, cada grade de produto será colocada em um novo local.

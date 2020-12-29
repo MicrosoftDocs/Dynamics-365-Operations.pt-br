@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fed3de8741b375cf4992578db3e57d6e5a35a93
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980619"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422239"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data UEPS com marcação e valor físico
 
@@ -39,7 +39,7 @@ Recomendamos um fechamento de estoque periódico quando o modelo de estoque Data
 Os exemplos a seguir mostram o efeito de usar a Data UEPS nas três configurações:
 
 -   Data UEPS sem a opção **Incluir valor físico**
--   Data UEPS com a opção**Incluir valor físico**
+-   Data UEPS com a opção **Incluir valor físico**
 -   Data UEPS com marcação
 
 ## <a name="lifo-date-without-the-include-physical-value-option"></a>Data UEPS sem a opção Incluir valor físico

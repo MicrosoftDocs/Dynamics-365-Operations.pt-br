@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 31cb26479ccb74dfb58fd5590cd60d7b7c64c292
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018505"
+ms.locfileid: "4422598"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar ordens como entregas diretas
 
@@ -33,7 +33,7 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
 1. Vá para **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. Insira ou selecione um valor no campo **Conta de cliente** e então selecione **OK**
-4. Insira ou selecione valores nos campos **Número do item** e **Site** , então selecione **Salvar**.
+4. Insira ou selecione valores nos campos **Número do item** e **Site**, então selecione **Salvar**.
 5. No Painel de ação, selecione **Ordem de venda** e então **Entrega direta**. A página Criar entrega lista todas as linhas da ordem de venda abertas como copiadas da ordem de venda. Você pode revisar os detalhes da ordem e, se necessário, pode modificar detalhes, como quantidade de compra e condições de preço de compra, antes de criar a entrega direta.  
 6. Selecione **Sim** no campo **Incluir tudo**.
     - Se quiser gerar uma entrega direta só para um subconjunto de linhas da ordem de venda, selecione-as individualmente.  
@@ -57,7 +57,7 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
 17. Selecione **OK**.
 18. No Painel de Ação, selecione **Receber**.
 19. Selecione **Recebimento de produtos**.
-20. No campo **Recebimento de produtos** , digite um valor.
+20. No campo **Recebimento de produtos**, digite um valor.
 21. Selecione **OK**.
 22. No Painel de Ação, selecione **Geral**.
 23. Selecione **Ordens relacionadas** e realce o registro desejado.
@@ -72,7 +72,7 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
 2. Selecione **Novo**.
 3. Insira ou selecione um valor no campo **Conta de cliente** e então selecione **OK**.
 4. Insira ou selecione um valor nos campos **Número do item** e **site**.
-5. Expanda a seção **Detalhes da linha** , então selecione a guia **Entrega**. Em vez de criar uma entrega direta como parte do processamento de ordem de venda como no procedimento anterior, você poderá delegar essa tarefa a um profissional de compra. Para incluir a linha da ordem de venda no processo de manuseio de entrega direta, você deve marcar a linha para a entrega direta.  
+5. Expanda a seção **Detalhes da linha**, então selecione a guia **Entrega**. Em vez de criar uma entrega direta como parte do processamento de ordem de venda como no procedimento anterior, você poderá delegar essa tarefa a um profissional de compra. Para incluir a linha da ordem de venda no processo de manuseio de entrega direta, você deve marcar a linha para a entrega direta.  
 6. Selecione **Sim** no campo **Entrega direta**.
     - Se o item já foi configurado para a entrega direta por padrão, o campo será automaticamente definido como Sim na entrada da linha da ordem. Você pode configurar um item da entrega direta no mestre do produto Liberado, definindo a opção de Entrega direta como Sim e selecionando um depósito de Entrega direta padrão.  
     - Como a ordem de compra ainda não foi criada, o status de Entrega direta é definido como "Para ter entrega direta".   

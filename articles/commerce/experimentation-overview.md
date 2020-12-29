@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 85eb7a661cc66c42699797cca4fa6820941de7c0
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4097130"
+ms.locfileid: "4410328"
 ---
 # <a name="experimentation-in-dynamics-365-commerce"></a>Experimentação no Dynamics 365 Commerce
 Use a experimentação no Dynamics 365 Commerce para validar hipóteses sobre a efetividade das suas páginas de comércio eletrônico e tome decisões com a confiança controlada por dados. O Commerce oferece suporte a testes A/B em páginas, módulos e fragmentos e permite que você meça o impacto das alterações propostas no seu site.

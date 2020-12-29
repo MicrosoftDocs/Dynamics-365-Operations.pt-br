@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 68132a78921e0a38c61c85bcc2b89dca3c25b04e
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107198"
+ms.locfileid: "4410338"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
@@ -64,7 +64,7 @@ Se várias linhas forem selecionadas, o menu suspenso de detalhes da linha da or
 
 ## <a name="pending-order-lines"></a>Linhas de ordem pendentes
 
-O atendimento unificado da ordem inclui a capacidade de aceitar as ordens manualmente. Por padrão, as ordens para atendimento na loja já foram aceitas. Porém, se os processos comerciais indicam que o trabalhador em nível de loja deve aceitar as ordens, a aceitação manual pode ser ativada em nível de loja de varejo. Para habilitar a aceitação da ordem, vá para **Varejo e Comércio** \> **Canais** \> **Lojas** \> **Todas as lojas**. Abra a loja desejada e na guia **Geral** , localize o subcabeçalho **Atendimento da ordem**. Este subcabeçalho tem uma opção **Aceitação manual** definida como **Não** , por padrão. Definindo esta opção como **Sim** e sincronizando as alterações para o banco de dados do canal, as linhas de ordem podem passar pelo processo de aceitação.
+O atendimento unificado da ordem inclui a capacidade de aceitar as ordens manualmente. Por padrão, as ordens para atendimento na loja já foram aceitas. Porém, se os processos comerciais indicam que o trabalhador em nível de loja deve aceitar as ordens, a aceitação manual pode ser ativada em nível de loja de varejo. Para habilitar a aceitação da ordem, vá para **Varejo e Comércio** \> **Canais** \> **Lojas** \> **Todas as lojas**. Abra a loja desejada e na guia **Geral**, localize o subcabeçalho **Atendimento da ordem**. Este subcabeçalho tem uma opção **Aceitação manual** definida como **Não**, por padrão. Definindo esta opção como **Sim** e sincronizando as alterações para o banco de dados do canal, as linhas de ordem podem passar pelo processo de aceitação.
 
 Os trabalhadores com a permissão **Permitir ordem de aceitação** podem abrir o atendimento da ordem e selecionar linhas para aceitação. Depois que as linhas forem aceitas, as alterações de status de **Pendente** para **Aceitas** e o restante do processo de atendimento de ordem podem continuar. Quando a **Aceitação manual** for ativada, as ordens não serão processadas enquanto não forem aceitas.
 
@@ -111,7 +111,7 @@ Quando as ordens são processadas ao longo do tempo, as quantidades parciais pod
 
 Se uma linha de ordem for separada por engano, o processo para desfazer a separação deve ser executado na linha da ordem no back-office. Atualmente não há nenhuma ação para desfazer separação com suporte no ponto de venda.
 
-As linhas de ordens diferentes podem ser selecionadas e marcadas como **Separação** , impressas na mesma a lista de separação ou marcadas como **Separadas**.
+As linhas de ordens diferentes podem ser selecionadas e marcadas como **Separação**, impressas na mesma a lista de separação ou marcadas como **Separadas**.
 
 ### <a name="pack"></a>Pacote
 
@@ -180,7 +180,7 @@ As linhas ou linhas parciais podem ser rejeitadas. Isso permite que elas sejam r
 - **Status resultante:** Rejeitado
 - **Status resultante do back office:** sem alterações
 
-As linhas de ordem rejeitadas podem ser exibidas no espaço de trabalho **Consulta e processamento de ordem de venda**. Desmarque o filtro da pessoa no espaço de trabalho para exibir todas as linhas de ordens rejeitadas pelas lojas. A guia **Linhas de ordem rejeitadas** na seção **Ordens e favoritos** exibe os detalhes da linha de ordem. Além disso, os usuários podem clicar no botão **Linhas de ordem rejeitadas** na seção **Resumo** para navegar para uma exibição de ordem de venda. Serão mostradas todas as ordens que têm uma ou mais linhas de ordem rejeitadas. Se o Gerenciamento de Ordem Distribuída (DOM) for ativado, então essas ordens rejeitadas serão reatribuídas automaticamente para as lojas apropriadas para atendimento, porém essas linhas de ordem também podem ser reatribuídas manualmente. Para fazer isso, selecione a linha que mostra o **Status de atendimento** como **Rejeitado** e altere o local/depósito, quando necessário. Clique no menu suspenso **Atualizar linha** e em **Redefinir status de atendimento** para alterar o status de atendimento de **Rejeitada** para **Aceita** ou **Pendente** , dependendo da configuração de atendimento da ordem. Depois que o status de atendimento for redefinido, então os trabalhadores da loja poderão exibir as linhas da ordem no PDV.
+As linhas de ordem rejeitadas podem ser exibidas no espaço de trabalho **Consulta e processamento de ordem de venda**. Desmarque o filtro da pessoa no espaço de trabalho para exibir todas as linhas de ordens rejeitadas pelas lojas. A guia **Linhas de ordem rejeitadas** na seção **Ordens e favoritos** exibe os detalhes da linha de ordem. Além disso, os usuários podem clicar no botão **Linhas de ordem rejeitadas** na seção **Resumo** para navegar para uma exibição de ordem de venda. Serão mostradas todas as ordens que têm uma ou mais linhas de ordem rejeitadas. Se o Gerenciamento de Ordem Distribuída (DOM) for ativado, então essas ordens rejeitadas serão reatribuídas automaticamente para as lojas apropriadas para atendimento, porém essas linhas de ordem também podem ser reatribuídas manualmente. Para fazer isso, selecione a linha que mostra o **Status de atendimento** como **Rejeitado** e altere o local/depósito, quando necessário. Clique no menu suspenso **Atualizar linha** e em **Redefinir status de atendimento** para alterar o status de atendimento de **Rejeitada** para **Aceita** ou **Pendente**, dependendo da configuração de atendimento da ordem. Depois que o status de atendimento for redefinido, então os trabalhadores da loja poderão exibir as linhas da ordem no PDV.
 
 ## <a name="line-quantity-tracking"></a>Rastreamento de quantidade de linhas
 
@@ -192,7 +192,7 @@ Continuando com o exemplo anterior, se 200 placas foram marcadas como embaladas 
 
 ## <a name="line-statuses"></a>Status da linha
 
-As linhas de ordem no ponto de venda têm vários status para mostrar o status da linha de ordem. O status no ponto de venda e no back-office não são correspondentes em todos os casos. O status da linha de ordem pode ser visto através do ponto de venda usando as operações de atendimento da ordem. No back-office, as linhas de ordem podem ser visualizadas nos detalhes da ordem. Os detalhes da ordem podem ser acessados em **Varejo e Comércio** \> **Clientes** \> **Todas as ordens do cliente**. Selecione o **ID da ordem** para exibir detalhes da ordem. Nos detalhes da ordem, selecione a guia **Ordem de venda** , depois **Status detalhado** no subcabeçalho **Exibir**.
+As linhas de ordem no ponto de venda têm vários status para mostrar o status da linha de ordem. O status no ponto de venda e no back-office não são correspondentes em todos os casos. O status da linha de ordem pode ser visto através do ponto de venda usando as operações de atendimento da ordem. No back-office, as linhas de ordem podem ser visualizadas nos detalhes da ordem. Os detalhes da ordem podem ser acessados em **Varejo e Comércio** \> **Clientes** \> **Todas as ordens do cliente**. Selecione o **ID da ordem** para exibir detalhes da ordem. Nos detalhes da ordem, selecione a guia **Ordem de venda**, depois **Status detalhado** no subcabeçalho **Exibir**.
 
 - **Pendente** – As linhas de ordem que foram atribuídas a uma loja, mas ainda não foram aceitas têm o status **Pendente** quando exibidas no ponto de venda. A aceitação de linhas pendentes no ponto de venda terão o status **Processamento de ordens** no back-office.
 - **Aceitas** – As linhas de ordem que foram aceitas manualmente ou automaticamente terão o status **Aceitas** quando exibidas no ponto de venda. As linhas com o status **Aceitas** serão mostradas como **Processamento da ordem** no back-office.
@@ -204,7 +204,7 @@ As linhas de ordem no ponto de venda têm vários status para mostrar o status d
 
 ## <a name="order-fulfillment-filtering"></a>Filtragem de atendimento da ordem
 
-O atendimento da ordem no ponto de venda inclui filtragem para ajudar o usuário a localizar facilmente o que ele precisa. Os filtros podem ser alterados no painel de ações na parte inferior da tela de **Ponto de venda**. Por padrão, o filtro **Tipo de entrega** é aplicado, com base em como a operação é configurada. Se a operação for configurada com o parâmetro **Todas as ordens** , então esse filtro será aplicado ao acessar o atendimento da ordem. O mesmo se aplica para os parâmetros **Retirada da loja** e **Remessa da loja**. Outros filtros que podem ser aplicados para a exibição de atendimento da ordem incluem:
+O atendimento da ordem no ponto de venda inclui filtragem para ajudar o usuário a localizar facilmente o que ele precisa. Os filtros podem ser alterados no painel de ações na parte inferior da tela de **Ponto de venda**. Por padrão, o filtro **Tipo de entrega** é aplicado, com base em como a operação é configurada. Se a operação for configurada com o parâmetro **Todas as ordens**, então esse filtro será aplicado ao acessar o atendimento da ordem. O mesmo se aplica para os parâmetros **Retirada da loja** e **Remessa da loja**. Outros filtros que podem ser aplicados para a exibição de atendimento da ordem incluem:
 
 - Número do cliente
 - Nome do Cliente

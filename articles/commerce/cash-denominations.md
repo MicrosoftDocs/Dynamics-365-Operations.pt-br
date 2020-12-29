@@ -20,11 +20,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: a34ae8084c0ad55221f4ab93eb8c6481fa8c4771
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021576"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410157"
 ---
 # <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>Configurar denominações de pagamento à vista para o PDV (ponto de venda)
 

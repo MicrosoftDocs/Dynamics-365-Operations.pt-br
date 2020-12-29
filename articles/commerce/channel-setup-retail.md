@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: a9291dddf7d4dc080b6eb1ec60702de32a761f45
-ms.sourcegitcommit: 141e0239b6310ab4a6a775bc0997120c31634f79
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "3113819"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410151"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurar um canal de varejo
 
@@ -100,7 +100,7 @@ A imagem a seguir mostra um exemplo de método de pagamento à vista.
 ### <a name="set-up-cash-declaration"></a>Configurar a declaração de valores em caixa
 
 1. No painel de ação, selecione a guia **Configurar** e, depois, **Declaração de valores em caixa**.
-1. No painel de ação, selecione **Novo**e crie todas as denominações aplicáveis de **Moeda** e **Nota**.
+1. No painel de ação, selecione **Novo** e crie todas as denominações aplicáveis de **Moeda** e **Nota**.
 
 A imagem a seguir mostra um exemplo de declaração de valores em caixa.
 

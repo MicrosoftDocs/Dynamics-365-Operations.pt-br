@@ -18,11 +18,11 @@ ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: f1525610fb16edd5ff9ccefe0194f6f27b797b62
-ms.sourcegitcommit: b063bf3a52f19baa11ddba31ef9313d58a0f610e
+ms.sourcegitcommit: 1a12b42cc17f004a981c716aed3da6cf538475a5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4019555"
+ms.locfileid: "4410317"
 ---
 # <a name="work-with-fragments"></a>Trabalhar com fragmentos 
 
@@ -62,9 +62,9 @@ Para converter um módulo configurado anteriormente a um fragmento reutilizável
 
 1. Abra uma página ou modelo que contém o módulo que você deseja converter em um fragmento.
 1. No painel de estrutura de tópicos à esquerda ou diretamente no construtor de página visual, selecione o módulo configurado anteriormente.
-1. Selecione as reticências ( **...** ) ao lado do nome do módulo no painel de estrutura de tópicos ou na barra de ferramentas do módulo selecionado no construtor de página visual. 
+1. Selecione as reticências (**...**) ao lado do nome do módulo no painel de estrutura de tópicos ou na barra de ferramentas do módulo selecionado no construtor de página visual. 
 1. Selecione **Compartilhar como fragmento**. 
-1. Na caixa de diálogo **Salvar como fragmento** , insira um nome para o fragmento.
+1. Na caixa de diálogo **Salvar como fragmento**, insira um nome para o fragmento.
 1. Selecione **OK** para salvar a configuração do módulo como um fragmento que possa ser adicionado a outras páginas.
 <!-- The following image shows how to save a module configuration as a fragment.-->
 <!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
@@ -91,14 +91,14 @@ Os procedimentos a seguir descrevem como adicionar, remover e edite fragmentos.
 Para adicionar um fragmento a uma página no construtor de sites do Commerce, siga estas etapas.
 
 1. No painel de estrutura de tópicos à esquerda ou diretamente no construtor de página visual, selecione um contêiner ou slot ao qual os módulos filho possam ser adicionados.
-1. Selecione as reticências ( **...** ) ao lado do nome do contêiner ou slot.  Como alternativa, se usar o construtor de página visual, selecione o símbolo de adição ( **+** ).  
+1. Selecione as reticências (**...**) ao lado do nome do contêiner ou slot.  Como alternativa, se usar o construtor de página visual, selecione o símbolo de adição (**+**).  
 1. Selecione **Adicionar fragmento**.
     <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Se o contêiner ou slot não suportar novos módulos filhos, a opção **Adicionar fragmento** não ficará disponível.
     
-1. Na caixa de diálogo **Selecionar fragmento** , procure e selecione um fragmento a ser adicionado. Se nenhum fragmento disponível estiver listado, você poderá primeiro criar um fragmento a partir de um tipo de módulo suportado pelo contêiner ou slot selecionado.
+1. Na caixa de diálogo **Selecionar fragmento**, procure e selecione um fragmento a ser adicionado. Se nenhum fragmento disponível estiver listado, você poderá primeiro criar um fragmento a partir de um tipo de módulo suportado pelo contêiner ou slot selecionado.
 1. Selecione o fragmento desejado para adicionar ao contêiner ou ao slot na sua página.
 <!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
 
@@ -109,7 +109,7 @@ Para adicionar um fragmento a uma página no construtor de sites do Commerce, si
 
 Para remover um fragmento de um slot ou contêiner em uma página no construtor de sites do Commerce, siga estas etapas.
 
-1. No painel de estrutura de tópicos à esquerda, selecione as reticências ( **...** ) ao lado do nome do fragmento a ser removido e, depois, selecione o símbolo de lixeira.  Como alternativa, você pode selecionar o fragmento no construtor de página visual e selecionar o símbolo de lixeira na barra de ferramentas do fragmento.
+1. No painel de estrutura de tópicos à esquerda, selecione as reticências (**...**) ao lado do nome do fragmento a ser removido e, depois, selecione o símbolo de lixeira.  Como alternativa, você pode selecionar o fragmento no construtor de página visual e selecionar o símbolo de lixeira na barra de ferramentas do fragmento.
 1. Quando for solicitado para confirmar se você deseja remover o fragmento, selecione **OK**.
 
 > [!NOTE]
@@ -122,7 +122,7 @@ Para editar fragmentos, você deve usar a interface de usuário do editor de fra
 Para editar um novo fragmento no construtor de sites do Commerce, siga estas etapas.
 
 1. No painel de navegação à esquerda, selecione **Fragmentos**.
-1. Em **Fragmentos** , selecione o fragmento para editar.
+1. Em **Fragmentos**, selecione o fragmento para editar.
 1. Edite as propriedades e a estrutura do módulo do fragmento, conforme necessário. O processo se assemelha ao processo de edição dos módulos que são editados na visualização do editor de páginas.
 
 Você também pode editar um fragmento selecionando-o em uma página, em um modelo ou em um fragmento pai e, em seguida, selecionando **Editar Fragmento** no painel propriedades à direita.

@@ -17,12 +17,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b7d28e041b8adc828a2447ab09a0c1d28cc2aec0
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa6b98bb41c0845cfa3ab36767f304ad70f46399
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4021996"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410353"
 ---
 # <a name="gift-card-module"></a>Módulo do vale-presente
 
@@ -51,7 +51,7 @@ A imagem a seguir mostra um exemplo de um módulo de cartão-presente em uma pá
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
-- **Mostrar campos adicionais** - Essa propriedade define quais campos devem ser exibidos para cartões-presente além do número do cartão-presente, que é sempre exibido por padrão. Por exemplo, alguns cartões-presente suportam a exibição de um PIN (número de identificação pessoal) e outros suportam a exibição de um PIN e uma data de validade. Como alternativa, essa propriedade pode ser definida como "Nenhum", que exibiria somente o número do cartão-presente e nenhum outro campo.
+- **Mostrar campos adicionais**- Essa propriedade define quais campos devem ser exibidos para cartões-presente além do número do cartão-presente, que é sempre exibido por padrão. Por exemplo, alguns cartões-presente suportam a exibição de um PIN (número de identificação pessoal) e outros suportam a exibição de um PIN e uma data de validade. Como alternativa, essa propriedade pode ser definida como "Nenhum", que exibiria somente o número do cartão-presente e nenhum outro campo.
 
 Valores com suporte:
 -   PIN
@@ -61,7 +61,7 @@ Valores com suporte:
 
 ## <a name="site-settings-for-gift-card-modules"></a>Configurações do site para módulos de cartão-presente
 
-No construtor de sites do Commerce em **Configurações de site \> Extensões** , há uma configuração de módulo de cartão-presente chamada **Tipo de cartão-presente compatível**. Esta configuração oferece suporte a três valores:
+No construtor de sites do Commerce em **Configurações de site \> Extensões**, há uma configuração de módulo de cartão-presente chamada **Tipo de cartão-presente compatível**. Esta configuração oferece suporte a três valores:
 - **Cartão-presente do Dynamics 365** - Quando essa configuração é aplicada, o módulo do cartão-presente só permite o resgate dos cartões-presente do Dynamics 365. Essa configuração só tem suporte para usuários conectados no site de comércio eletrônico.
 - **Cartões-presente SVS e Givex** - Quando essa configuração é aplicada, o módulo do cartão-presente só permite o resgate dos cartões-presente Givex e SVS. Essa configuração tem suporte para usuários conectados e anônimos no site de comércio eletrônico.
 - **Cartões-presente Dynamics 365, SVS e Givex** - Quando essa configuração é aplicada, o módulo do cartão-presente só permite o resgate dos cartões-presente Dynamics 365, Givex e SVS. Essa configuração só tem suporte para usuários conectados no site de comércio eletrônico.
@@ -83,9 +83,11 @@ Para obter instruções sobre como adicionar um módulo de cartão-presente a um
 
 [Módulo de pagamento](payment-module.md)
 
-[Módulo do endereço de remessa](ship-address-module.md)
+[Módulo de endereço de remessa](ship-address-module.md)
 
 [Módulo de opções de entrega](delivery-options-module.md)
+
+[Módulo de informações sobre retirada](pickup-info-module.md)
 
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 

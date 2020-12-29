@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0cc44592bd60e89f1dc67114098d701d8965e4fe
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212540"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422059"
 ---
 # <a name="production-feedback"></a>Comentários sobre a produção
 
@@ -32,7 +32,7 @@ ms.locfileid: "3212540"
 
 Este artigo oferece informações sobre os comentários de produção, que oferece comentários de trabalhadores sobre trabalhos de produção. O artigo inclui informações sobre as diversas maneiras como os comentários de produção podem ser atualizados.
 
-Comentários sobre a produção fornecem aos trabalhadores comentários sobre trabalhos de produção. Registra consumo de material e tempo nas ordens de produção, quantidades e status da operação e erros que fazem um trabalho ou operação falhar. Os comentários de produção poderão ser atualizados em diários relacionados a ordens de produção. Os diários **ficha de trabalho de produção** e o **cartão de roteiro de produção** são usados para tempo e quantidades por trabalho ou operação. Para relatar sobre o último trabalho ou a última operação, as quantidades no produto acabado podem ser reportadas como concluídas. Os comentários sobre produção também podem ser atualizados nas páginas **Terminal de ficha de trabalho** e **Dispositivo de ficha de trabalho**. Essas páginas permitem que os comentários sobre produção sejam atualizados no chão de fábrica e façam parte da funcionalidade de execução de fabricação no módulo **Controle de produção**. A página**Terminal de ficha de trabalho** tem uma interface do usuário configurável que mostra uma lista de trabalhos liberados em uma ordem priorizada para uma área de trabalho selecionada. Também oferece opções avançadas, como agrupamento de trabalhos e trabalho da equipe. A página **Dispositivo de ficha de trabalho** tem uma interface do usuário otimizada por toque. Os comentários de produção em ambas as páginas são atualizados com o uso de diários de produção.
+Comentários sobre a produção fornecem aos trabalhadores comentários sobre trabalhos de produção. Registra consumo de material e tempo nas ordens de produção, quantidades e status da operação e erros que fazem um trabalho ou operação falhar. Os comentários de produção poderão ser atualizados em diários relacionados a ordens de produção. Os diários **ficha de trabalho de produção** e o **cartão de roteiro de produção** são usados para tempo e quantidades por trabalho ou operação. Para relatar sobre o último trabalho ou a última operação, as quantidades no produto acabado podem ser reportadas como concluídas. Os comentários sobre produção também podem ser atualizados nas páginas **Terminal de ficha de trabalho** e **Dispositivo de ficha de trabalho**. Essas páginas permitem que os comentários sobre produção sejam atualizados no chão de fábrica e façam parte da funcionalidade de execução de fabricação no módulo **Controle de produção**. A página **Terminal de ficha de trabalho** tem uma interface do usuário configurável que mostra uma lista de trabalhos liberados em uma ordem priorizada para uma área de trabalho selecionada. Também oferece opções avançadas, como agrupamento de trabalhos e trabalho da equipe. A página **Dispositivo de ficha de trabalho** tem uma interface do usuário otimizada por toque. Os comentários de produção em ambas as páginas são atualizados com o uso de diários de produção.
 
 
 

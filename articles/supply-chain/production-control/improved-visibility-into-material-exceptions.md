@@ -18,23 +18,23 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0c17997d9dd04559fb7022fe39bb2b961c1cfc4a
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016576"
+ms.locfileid: "4422530"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidade de exceções materiais
 
 [!include [banner](../includes/banner.md)]
 
-No espaço de trabalho **Gerenciamento de piso de produção** , três blocos fornecem melhor visibilidade de exceções para matérias-primas para ordens de produção e ordens de lote:
+No espaço de trabalho **Gerenciamento de piso de produção**, três blocos fornecem melhor visibilidade de exceções para matérias-primas para ordens de produção e ordens de lote:
 
 - Linhas de material não liberado que precisam de atenção
 - Ondas não processadas que precisam de atenção
 - Abrir trabalho de depósito que precisa de atenção
 
-Para todos os três blocos, a data da matéria-prima das linhas da BOM (lista de materiais) e das linhas da fórmula é comparada com a data do espaço de trabalho e também com os filtros da **Unidade de produção** , **Grupo de recursos** e **Recurso** que são definidos no menu **Configurar meu espaço de trabalho**. Por padrão, a data do espaço de trabalho é definida como a data atual, mas você pode ajustá-la.
+Para todos os três blocos, a data da matéria-prima das linhas da BOM (lista de materiais) e das linhas da fórmula é comparada com a data do espaço de trabalho e também com os filtros da **Unidade de produção**, **Grupo de recursos** e **Recurso** que são definidos no menu **Configurar meu espaço de trabalho**. Por padrão, a data do espaço de trabalho é definida como a data atual, mas você pode ajustá-la.
 
 Uma linha da BOM ou linha da fórmula não liberada requer atenção, se a data da matéria-prima da linha for igual ou anterior à data do espaço de trabalho e se atender aos critérios definidos pelos filtros no espaço de trabalho.
 
@@ -60,10 +60,10 @@ Quando você seleciona o bloco, a página **Liberar para o depósito** é aberta
 
 Quando uma BOM ou fórmula é liberada, ela é adicionada a uma nova onda de produção ou a uma onda aberta existente, dependendo da configuração de modelo da onda de produção. Através da configuração de modelo da onda, você também pode configurar uma onda, de forma que seja processada automaticamente quando uma linha de BOM ou fórmula é liberada. Quando a onda é processada, o trabalho de depósito para a separação de matéria-prima é gerada. Se o modelo da onda for configurado, de forma que as ondas não sejam processadas no momento de liberação, a onda permanecerá em um estado não processado. O bloco **Ondas não processadas que precisam de atenção** mostrará o número de Linhas de BOM e fórmula que foi liberado para o depósito nas ondas processadas, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 
-Quando o bloco for selecionado, a página **Todas as ondas de produção** será aberta. Essa página é filtrada pelo número de ondas abertas que contêm linhas de onda das linhas de BOM e fórmula liberadas que atendem aos critérios do bloco. Na página **Todas as ondas de produção** , você pode processar manualmente a onda.
+Quando o bloco for selecionado, a página **Todas as ondas de produção** será aberta. Essa página é filtrada pelo número de ondas abertas que contêm linhas de onda das linhas de BOM e fórmula liberadas que atendem aos critérios do bloco. Na página **Todas as ondas de produção**, você pode processar manualmente a onda.
 
 ## <a name="open-warehouse-work-needing-attention"></a>Abrir trabalho de depósito que precisa de atenção
 
 O bloco **Abrir trabalho de depósito que precisa de atenção** mostrará o número de Linhas de BOM e fórmula liberadas para o depósito, que têm trabalho não processado, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 
-Quando o bloco for selecionado, a página **Todos os trabalhos** será aberta. Essa página é filtrada pelo número de cabeçalhos de trabalho que contêm linhas de trabalho das linhas de BOM e fórmula que atendem aos critérios do bloco. Na página **Todos os trabalhos** , você pode processar manualmente o trabalho.
+Quando o bloco for selecionado, a página **Todos os trabalhos** será aberta. Essa página é filtrada pelo número de cabeçalhos de trabalho que contêm linhas de trabalho das linhas de BOM e fórmula que atendem aos critérios do bloco. Na página **Todos os trabalhos**, você pode processar manualmente o trabalho.

@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: aff3bee942f3443eb604311d1d804b66421e332d
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021626"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410267"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurar e gerenciar imagens para Modern POS (MPOS)
 
@@ -34,7 +34,7 @@ Este artigo explica as etapas envolvidas na configuração e no gerenciamento de
 
 ## <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Configuração da URL de base da mídia e definição de modelos de mídia para configurar o formato de URLs de imagem
 
-As imagens que aparecem no Modern POS (MPOS) devem ser hospedadas externamente, fora do Commerce. Em geral, elas são hospedadas em um sistema de gerenciamento de conteúdo, em uma rede de entrega de conteúdo CDN) ou em um servidor de mídia. O MPOS pesquisa e exibe as imagens das entidades apropriadas, como produtos e catálogos, acessando a URL de destino. Para obter essas imagens hospedadas externamente, o MPOS requer o formato de URL correto para as imagens. Você pode configurar o formato de URL exigido para as imagens configurando o valor **URL base da mídia** no perfil do canal e usando a funcionalidade **Definir modelo de mídia** para cada entidade. Também é possível substituir o formato padrão da URL para um subconjunto de entidades usando a funcionalidade **Editar no Excel**.
+As imagens que aparecem no Modern POS (MPOS) devem ser hospedadas externamente, fora do Commerce. Em geral, elas são hospedadas em um sistema de gerenciamento de conteúdo, em uma rede de entrega de conteúdo (CDN) ou em um servidor de mídia. O MPOS pesquisa e exibe as imagens das entidades apropriadas, como produtos e catálogos, acessando a URL de destino. Para obter essas imagens hospedadas externamente, o MPOS requer o formato de URL correto para as imagens. Você pode configurar o formato de URL exigido para as imagens configurando o valor **URL base da mídia** no perfil do canal e usando a funcionalidade **Definir modelo de mídia** para cada entidade. Também é possível substituir o formato padrão da URL para um subconjunto de entidades usando a funcionalidade **Editar no Excel**.
 
 > [!IMPORTANT]
 > Na versão atual do Commerce, você não pode mais configurar o formato da URL usando o atributo XML **Imagem** para MPOS no grupo de atributos **Padrão** para entidades. Se você estiver familiarizado com o Microsoft Dynamics AX 2012 R3 e estiver usando a versão atual do Commerce, procure sempre usar a nova funcionalidade **Definir modelo de mídia** para configurar imagens. Não use nem modifique o atributo **Imagem** no grupo de atributos **Padrão** para qualquer entidade, incluindo produtos. As alterações feitas diretamente no grupo de atributos **Padrão** para imagens não serão refletidas. Esta opção será desabilitada em uma versão futura.

@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889066"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422165"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
 
@@ -41,7 +41,7 @@ O ofício do trabalho de manutenção fornece informações sobre ofícios profi
 
 Para cada tipo de trabalho de manutenção podem ser criadas variações da configuração do tipo de trabalho de manutenção. Por exemplo, se você tiver um tipo de trabalho de manutenção denominado **Serviço**, você poderá criar as seguintes variações para esse tipo de trabalho de manutenção: **Caminhões 30.000 km**, **Carros 30.000 km** e **Vans 30.000 km**.
 
-As categorias do tipo de trabalho de manutenção são usadas para coletar um grupo de tipos de trabalho de manutenção para finalidades gerais. Exemplos de categorias do tipo de trabalho de manutenção, podem incluir **Calibração**, **Inspeção**, **Revisão**e **Instrumentação**.
+As categorias do tipo de trabalho de manutenção são usadas para coletar um grupo de tipos de trabalho de manutenção para finalidades gerais. Exemplos de categorias do tipo de trabalho de manutenção, podem incluir **Calibração**, **Inspeção**, **Revisão** e **Instrumentação**.
 
 Modelos de lista de verificação de manutenção e variáveis da lista de verificação de manutenção são usados para configurar listas de verificação de manutenção. As listas de verificação de manutenção são configuradas em tipos de trabalho de manutenção e usadas em ordens de serviço.
 

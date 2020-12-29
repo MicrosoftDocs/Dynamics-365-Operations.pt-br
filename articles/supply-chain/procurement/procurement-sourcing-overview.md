@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a7de9430ddcc2499627bacfa01b4dc7fd5546a4d
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018873"
+ms.locfileid: "4422510"
 ---
 # <a name="procurement-and-sourcing-overview"></a>Visão geral de Compras
 
@@ -35,13 +35,13 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 
 ## <a name="identifying-a-need-for-product-and-services"></a>Identificando a necessidade de produtos e serviços
 
-A necessidade de produtos ou serviços pode ser decorrente de *requisições* , por exemplo, quando um funcionário requer um produto. Os *catálogos de produtos* podem ser configurados para orientar a seleção de produtos disponíveis, ou podem ser feitas solicitações de produtos que ainda não estão disponíveis no catálogo, permitindo ao departamento de compras considerar como o produto pode ser fornecido.  
+A necessidade de produtos ou serviços pode ser decorrente de *requisições*, por exemplo, quando um funcionário requer um produto. Os *catálogos de produtos* podem ser configurados para orientar a seleção de produtos disponíveis, ou podem ser feitas solicitações de produtos que ainda não estão disponíveis no catálogo, permitindo ao departamento de compras considerar como o produto pode ser fornecido.  
 
 Os *limites de gastos* podem ser utilizados para restringir os gastos da requisição e o *fluxo de trabalho de compras* inclui a opção de exigir aprovação antes que ocorra um pedido. Também é possível especificar a alocação de fundos de orçamento, se necessário.  
 
 O departamento de aquisição identifica fornecedores para produtos e serviços necessários, e isso pode envolver o envio de uma *solicitação de cotação* a vários fornecedores potenciais. É possível compartilhar as especificações do produto que está sendo solicitado, e os fornecedores potenciais podem verificar se são capazes de fornecer um produto em conformidade com as especificações. Os fornecedores fazem as ofertas, que são analisadas pelo departamento de compras antes que eles escolham de qual fornecedor desejam comprar.  
 
-As ordens de compra incluem uma opção para enviar uma *consulta de compra* ao fornecedor como uma alternativa para um processo de solicitação de cotação mais abrangente. A consulta de compra pode ser usada para estabelecer condições como preços, descontos e data de entrega do pedido. Se os fornecedores forem configurados para usar o portal do **Fornecedor** , a funcionalidade de consulta de compra será desabilitada. Em vez disso, a ordem é compartilhada no portal do **Fornecedor** e, quando uma *solicitação de confirmação* é enviada, o fornecedor pode confirmar diretamente o pedido.  
+As ordens de compra incluem uma opção para enviar uma *consulta de compra* ao fornecedor como uma alternativa para um processo de solicitação de cotação mais abrangente. A consulta de compra pode ser usada para estabelecer condições como preços, descontos e data de entrega do pedido. Se os fornecedores forem configurados para usar o portal do **Fornecedor**, a funcionalidade de consulta de compra será desabilitada. Em vez disso, a ordem é compartilhada no portal do **Fornecedor** e, quando uma *solicitação de confirmação* é enviada, o fornecedor pode confirmar diretamente o pedido.  
 
 Os *catálogos do fornecedor* podem ser usados para coletar informações sobre a variedade de produtos que os fornecedores podem prover. Os fornecedores podem publicar seus próprios catálogos, tornando-os mais fácil de serem atualizados. É possível anexar uma *lista de fornecedores aprovados* a um produto. Isso pode ajudar a orientar a seleção de fornecedores quando novas ordens de compra forem abertas e evitar o uso de fornecedores não desejados.
 
@@ -66,7 +66,7 @@ Os preços e descontos incluem informações sobre preços, descontos e as condi
 
 ### <a name="delivery-options"></a>Opções de entrega
 
-Há opções diferentes para o processo de entrega associado a uma ordem de compra. Os produtos encomendados podem ser divididos em agendas de *entrega* , em que as partes da quantidade encomendada podem ser planejadas para entrega em datas diferentes. A entrega também pode incluir *entrega direta* iniciada a partir de uma ordem de venda, o que automatiza a geração da guia de remessa na ordem de venda ao mesmo tempo em que o recebimento de produtos é registrado na ordem de compra. As ordens de compra também podem ser parte de uma cadeia de *ordem intercompanhia* , também conhecida como ordens de compra intercompanhia, em que os produtos são solicitados a partir de uma ordem de venda intercompanhia correspondente. Nesse caso, algumas etapas são automatizadas entre as duas ordens intercompanhia relacionadas.
+Há opções diferentes para o processo de entrega associado a uma ordem de compra. Os produtos encomendados podem ser divididos em agendas de *entrega*, em que as partes da quantidade encomendada podem ser planejadas para entrega em datas diferentes. A entrega também pode incluir *entrega direta* iniciada a partir de uma ordem de venda, o que automatiza a geração da guia de remessa na ordem de venda ao mesmo tempo em que o recebimento de produtos é registrado na ordem de compra. As ordens de compra também podem ser parte de uma cadeia de *ordem intercompanhia*, também conhecida como ordens de compra intercompanhia, em que os produtos são solicitados a partir de uma ordem de venda intercompanhia correspondente. Nesse caso, algumas etapas são automatizadas entre as duas ordens intercompanhia relacionadas.
 
 ### <a name="supplementary-items"></a>Itens suplementares
 
@@ -84,7 +84,7 @@ Algumas ordens de compra incluem produtos que são serviços ou outros produtos 
 
 O recebimento de produtos pode resultar em consumo automático para uma finalidade específica. Isso inclui consumo implícito com entrega direta, consumo para um projeto ou contabilização do produto como um ativo fixo.  
 
-Quando as *faturas do fornecedor* chegam do fornecedor, elas podem ser registradas primeiramente no *registro de fatura* , independentemente da ordem de compra, e depois ser aprovadas como um registro com base na ordem de compra. O registro da fatura do fornecedor com a ordem de compra inclui a correspondência do recebimento de produto com a fatura.  
+Quando as *faturas do fornecedor* chegam do fornecedor, elas podem ser registradas primeiramente no *registro de fatura*, independentemente da ordem de compra, e depois ser aprovadas como um registro com base na ordem de compra. O registro da fatura do fornecedor com a ordem de compra inclui a correspondência do recebimento de produto com a fatura.  
 
 As *distribuições contábeis* podem ser especificadas na ordem de compra para descrever como a contabilidade deverá ser feita no razão e também podem definir como a alocação de fundos de orçamento será obtida quando for incluída na configuração.  
 

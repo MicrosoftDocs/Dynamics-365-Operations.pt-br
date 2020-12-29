@@ -16,11 +16,11 @@ ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: 9dd2d38e76d4d93171315ec319e6ce7d51d4e6c7
+ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4012454"
+ms.locfileid: "4422492"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
@@ -33,7 +33,7 @@ A interface de execução de piso de produção é configurada para todos os dis
 
 Para definir a configuração e os filtros de trabalho para um dispositivo, entre na página **Execução de piso de produção** usando uma conta com uma função de segurança que inclua o direito *Manter supervisor de tempo*. (Entre as funções de segurança prontas para uso, somente o *Supervisor de chão de fábrica* tem esse direito). Em seguida, siga estas etapas.
 
-1. Vá para o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter de supervisor de tempo* ).
+1. Vá para o dispositivo que deseja configurar e entre no Microsoft Dynamics 365 Supply Chain Management como um supervisor de chão de fábrica. (Use uma conta que inclua o direito *Manter de supervisor de tempo*).
 1. Verifique se há uma configuração disponível para o dispositivo que você está configurando. Se não houver nenhuma configuração, uma configuração padrão será fornecida. Para obter mais informações sobre como definir uma configuração, consulte [Configurar a interface de execução de piso de produção](production-floor-execution-configure.md).
 1. Vá para **Controle de produção \> Execução de fabricação \> Execução de piso de produção**.
 
@@ -62,7 +62,7 @@ Para permitir que um trabalhador substitua os filtros de trabalho padrão que fo
 
 1. Vá para **Hora e atendimento \> Configuração \> Tempo de registro dos trabalhadores**.
 1. Selecione um trabalhador na lista para abrir a página **Trabalhadores com registro de tempo** desse trabalhador.
-1. Na guia **Registro de tempo** , defina a opção **Definir filtros** como *Sim*.
+1. Na guia **Registro de tempo**, defina a opção **Definir filtros** como *Sim*.
 
 ## <a name="run-the-interface-in-full-screen-mode"></a>Executar a interface no modo de tela inteira
 

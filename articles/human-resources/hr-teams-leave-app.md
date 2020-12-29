@@ -3,7 +3,7 @@ title: Gerenciar solicitações de licença no Teams
 description: Este tópico mostra como solicitar licenças no aplicativo do Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
 manager: AnnBe
-ms.date: 09/30/2020
+ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c6856e417ee47f8f582f797c5bcedcff23a1432f
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
+ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3929984"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "4417370"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
 [!include [banner](includes/preview-feature.md)]
 
-O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite solicitar folgas rapidamente, além de visualizar as informações de saldo de folgas no Microsoft Teams. Você pode interagir com um bot para solicitar informações e iniciar uma solicitação de licença. A guia **Folga** fornece informações mais detalhadas. Além disso, você pode enviar às pessoas informações sobre suas próximas folgas em equipes e bate-papos fora do aplicativo Human Resources.
+O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite solicitar folgas rapidamente, além de visualizar as informações de saldo de folgas no Microsoft Teams. Você pode interagir com um bot para solicitar informações e iniciar uma solicitação de licença. A guia **Folga** fornece informações mais detalhadas. Você também pode enviar às pessoas informações sobre as próximas folgas em equipes e chats fora do aplicativo Human Resources.
 
 ## <a name="install-the-app"></a>Instalar o aplicativo
 
@@ -182,11 +182,25 @@ Se não conseguir entrar no aplicativo, é possível que a conta que você estej
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erro ao aprovar solicitações de licença no aplicativo do Human Resources no Teams
 
-Se você receber um erro ao tentar aprovar solicitações de licença no aplicativo do Teams, execute as seguintes etapas de solução de problemas:
+Se você receber um erro ao tentar aprovar solicitações de licença no aplicativo do Teams, siga estas etapas de solução de problemas:
 
 1. Verifique se a conta que você está usando para entrar no Microsoft Teams é a mesma que usa para acessar o Dynamics 365 Human Resources.
 
 2. Verifique se você é um aprovador válido para a solicitação ao verificar as configurações do fluxo de trabalho para a aprovação de licenças. Para obter mais informações sobre fluxos de trabalho de solicitações de licença, consulte [Criar um fluxo de trabalho de solicitações de licença](hr-leave-and-absence-workflow.md).
+
+## <a name="known-accessibility-issues"></a>Problemas de acessibilidade conhecidos
+
+O aplicativo Human Resources no Teams tem as questões de acessibilidade a seguir que estamos trabalhando para corrigir em versões futuras.
+
+| Problema | Solução ou explicação |
+| --- | --- |
+| O zoom para 400% da área de trabalho oculta alguns dos botões de ação da exibição. | É recomendável usar uma lupa até que possamos dar suporte a esse nível de zoom. |
+| Na guia **Folga**, o VoiceOver anuncia uma ação de botão enquanto lê o cabeçalho para a grade de folgas. | O cabeçalho e os elementos na grade são agrupados por ano e são recolhíveis. O VoiceOver interpreta isso como um item acionável, mas não é. |
+| Se você passar o dedo enquanto um pop-up ou um menu estiver aberto, o VoiceOver ignorará a leitura do popup ou do conteúdo do menu. | Explore o conteúdo deslizando o dedo. |
+| Na guia **Folga**, há um gesto de passar o dedo adicional ao navegar até o **Código de motivo** em uma nova solicitação. | Não há controle oculto para que a navegação de deslizar o dedo esteja tentando acessar. |
+| Na guia **Folga**, se você passar o dedo enquanto o calendário estiver aberto, terminará fora de controle, e não na parte superior em uma nova solicitação ou ao editar uma solicitação. | Quando você atingir **Acessar hoje**, considere isso como o final do controle e o deslize o dedo na direção inversa para voltar ao início. |
+| O VoiceOver não lê os rótulos para datas. | As datas encontradas em pares são sempre **Data de início** e **Data de término**. |
+| Na guia **Chat**, o foco recai sobre a parte superior quando você insere uma data usando a ferramenta de assistência ou a navegação por teclado. | Pressione a tecla Tab até acessar a área de entrada novamente. |
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
 

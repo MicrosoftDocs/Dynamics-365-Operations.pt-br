@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4e8f5c23f82e96145f411ec993f766a90137b5b8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015955"
+ms.locfileid: "4422538"
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>Configurar realocação de item de pouca seleção
 
@@ -43,21 +43,21 @@ O processo de realocação é controlado por uma **Exceção de trabalho** e usa
 
 A empresa de dados de demonstração USMF foi usada para criar este procedimento.
 
-1. No **Painel de navegação** , acesse **Gerenciamento de depósito > Configuração > Trabalho > Exceções de trabalho**.
+1. No **Painel de navegação**, acesse **Gerenciamento de depósito > Configuração > Trabalho > Exceções de trabalho**.
 2. Clique em **Novo** 
-3. No campo **Código de exceção do trabalho** , digite um valor. Isso será o título dessa exceção. Por exemplo, manual de separação insuficiente.
-4. No campo **Descrição** , digite um valor. Isso será uma breve descrição do uso dessa exceção. Por exemplo, Separação insuficiente - item não disponível.
-5. No campo do tipo de **Exceção** , selecione **Separação insuficiente**.
+3. No campo **Código de exceção do trabalho**, digite um valor. Isso será o título dessa exceção. Por exemplo, manual de separação insuficiente.
+4. No campo **Descrição**, digite um valor. Isso será uma breve descrição do uso dessa exceção. Por exemplo, Separação insuficiente - item não disponível.
+5. No campo do tipo de **Exceção**, selecione **Separação insuficiente**.
 6. Marque a caixa de seleção **Ajustar estoque**. Se marcada, o estoque será automaticamente ajustado para 0 no local de separação insuficiente.
-7. No campo **Código de tipo de ajuste padrão** , insira ou selecione um valor. Por exemplo, na USMF, você pode selecionar **Remover Res Adj Out**. Cada Código de tipo de ajuste contém quatro características: nome, descrição, nome do diário de estoque e **Remover reservas**. Se **Remover reservas** estiver habilitado, as reservas da linha de ordem de separação insuficiente serão removidas.  
-8. No campo **Realocação de item** , selecione um valor, como Manual. Se você selecionar Manual, ou Automática e Manual, o trabalhador do depósito precisará estar habilitado para usar a realocação manual.
+7. No campo **Código de tipo de ajuste padrão**, insira ou selecione um valor. Por exemplo, na USMF, você pode selecionar **Remover Res Adj Out**. Cada Código de tipo de ajuste contém quatro características: nome, descrição, nome do diário de estoque e **Remover reservas**. Se **Remover reservas** estiver habilitado, as reservas da linha de ordem de separação insuficiente serão removidas.  
+8. No campo **Realocação de item**, selecione um valor, como Manual. Se você selecionar Manual, ou Automática e Manual, o trabalhador do depósito precisará estar habilitado para usar a realocação manual.
 
 ## <a name="set-up-a-worker-to-use-manual-item-reallocation"></a>Configurar um trabalhador para usar a realocação de item manual
 
 A empresa de dados de demonstração USMF foi usada para criar este procedimento.
 
 1. Feche a página.
-2. No **Painel de navegação** , acesse **Gerenciamento de depósito > Configuração > Trabalhador**.
+2. No **Painel de navegação**, acesse **Gerenciamento de depósito > Configuração > Trabalhador**.
 3. Clique em **Editar**.
 4. Na lista, selecione o trabalhador. Por exemplo, Julia Funderburk.
 5. Expanda a FastTab **Usuários**.

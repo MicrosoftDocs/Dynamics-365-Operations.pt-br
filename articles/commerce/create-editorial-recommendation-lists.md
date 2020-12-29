@@ -20,11 +20,11 @@ ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9826785700dcc1a35e6199b7aeff4e06b6d9da39
-ms.sourcegitcommit: 8905d7a7a010e451c5435086480f66650ec54926
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2020
-ms.locfileid: "3665048"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410191"
 ---
 # <a name="manually-create-curated-recommendations"></a>Criar manualmente recomendações selecionadas
 
@@ -42,7 +42,7 @@ Para criar uma lista de recomendação de produto curada, siga estas etapas.
 1. Selecione **Novo**.
 1. No campo **ID da lista**, insira um valor.
 1. No campo **Nome da lista**, insira um valor.
-    - O **Nome de lista**é o título da lista que aparecerá na seção de listas curadas do módulo **Coleção de produto**.
+    - O **Nome de lista** é o título da lista que aparecerá na seção de listas curadas do módulo **Coleção de produto**.
 1. Para adicionar produtos à lista, selecione **Adicionar produtos**.
 1. Para alterar a ordem de produtos na lista, insira um valor na coluna **Ordem de exibição**.
     - Se dois produtos têm o mesmo valor de ordem de exibição, então a ordem final desses dois resultados pode ser diferente do back office.

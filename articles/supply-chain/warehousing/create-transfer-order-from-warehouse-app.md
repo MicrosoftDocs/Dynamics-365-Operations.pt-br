@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
 ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 286786445f72db20e993d37a63df0b886f8f5e99
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3988363"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421966"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 

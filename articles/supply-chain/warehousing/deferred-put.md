@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: cc8321c55bc867db065af0cddf356fb497a956e8
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016692"
+ms.locfileid: "4422521"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Processamento adiado de trabalho de depósito
 
@@ -44,7 +44,7 @@ Políticas são configuradas na página **Políticas de processamento de trabalh
 | Nome da política de processamento de trabalhos     | O nome da política de processamento de trabalho. |
 | Tipo de ordem de serviço                 | O tipo de ordem de serviço ao qual a política se aplica. |
 | Operação                       | A operação que é processada usando a política. |
-| Método de processamento de trabalho          | O método que é usado para processar a linha de trabalho. Se o método for definido como **Imediato** , o comportamento será parecido com o de quando nenhuma política de processamento de trabalho é usada para processar a linha. Se o método for definido como **Adiado** , o processamento adiado que utiliza a estrutura de lotes será usado. |
+| Método de processamento de trabalho          | O método que é usado para processar a linha de trabalho. Se o método for definido como **Imediato**, o comportamento será parecido com o de quando nenhuma política de processamento de trabalho é usada para processar a linha. Se o método for definido como **Adiado**, o processamento adiado que utiliza a estrutura de lotes será usado. |
 | Limite de processamento adiado   | Um valor **0** (zero) indica que não há limite. Nesse caso, o processamento adiado será usado se puder ser usado. Se o cálculo de limite específico estiver abaixo do limite, o método imediato será usado. Caso contrário, o método adiado será usado se puder ser usado. Para vendas e trabalho relacionado a transferências, o limite é calculado como o número de linhas de carga da origem associadas que estão sendo processados para o trabalho. Para trabalhos de reabastecimento, o limite será calculado como o número de linhas de trabalho que estão sendo reabastecidas pelo trabalho. Por exemplo, ao definir um limite de **5** para venda, os trabalhos menores com menos de cinco linhas de carga de origem inicial não usarão o processamento adiado, mas trabalhos maiores o usarão. O limite terá um efeito apenas se o método de processamento do trabalho estiver definido como **Adiado**. |
 | Grupo de lote de processamento adiado |O grupo de lotes usado para processamento. |
 
@@ -68,7 +68,7 @@ Por padrão, as tarefas **Concluídas** são mostradas.
 Veja aqui uma explicação dos possíveis status:
 
 - **Espera** – O trabalho em lotes relacionado está aguardando o processamento no servidor de lote.
-- **Com falha** – O processamento falhou. A tarefa pode ser reprocessada usando a ação **Processo adiado colocado** , ou pode ser cancelada usando a ação **Cancelamento adiado colocado**.
+- **Com falha** – O processamento falhou. A tarefa pode ser reprocessada usando a ação **Processo adiado colocado**, ou pode ser cancelada usando a ação **Cancelamento adiado colocado**.
 - **Concluído** – O trabalho foi concluído.
 
 ## <a name="impact-on-closed-work-dates"></a>Impacto em datas de trabalho fechado

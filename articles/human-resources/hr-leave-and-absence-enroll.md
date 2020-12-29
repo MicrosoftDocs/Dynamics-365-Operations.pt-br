@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 3407acc164aab1bd1afb2429fc5a221edd0a2493
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429027"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417338"
 ---
 # <a name="assign-workers-to-a-leave-plan"></a>Atribuir trabalhadores a um plano de licença
 

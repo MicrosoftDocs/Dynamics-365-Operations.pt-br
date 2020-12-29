@@ -18,11 +18,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 34067902f05546b5c420feca633f77f16033ed2c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983883"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422167"
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Relatar o progresso em um dispositivo de trabalho móvel
 

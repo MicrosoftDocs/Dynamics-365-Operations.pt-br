@@ -18,11 +18,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
 ms.openlocfilehash: 3ebc8b4ebd3720815cdaaab708fbfdd8302cbea1
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817745"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410296"
 ---
 # <a name="home-page-overview"></a>Visão geral da home page
 
@@ -57,7 +57,7 @@ A seção principal da página inicial pode destacar produtos, categorias ou pro
 - **Bloco** – Um layout de bloco de um módulo de bloco de conteúdo é usado para apresentar vários produtos ou categoria de produtos usando uma combinação de imagens e de texto em um layout com várias colunas. Na ilustração de uma home page exibida anteriormente neste tópico, layout de bloco é usado para a renderização de três colunas dos itens **Compras Femininas**, **Compras Masculinas** e **Compra de Acessórios**.
 - **Player de vídeo** – Um módulo de player de vídeo pode ser usado para mostrar o conteúdo de vídeo na home page. A ilustração de uma home page que apareceu anteriormente neste tópico tem um módulo de player de vídeo.
 - **Bloco de texto** – Um bloco de conteúdo sofisticado pode ser usado para mostrar o conteúdo do texto na home page com um layout de uma única coluna ou várias colunas.
-- **Recomendações de produto** – Os módulos de recomendações de produto são usados para exibir listas como, **Novo**, **Mais Populares**e **Mais Vendidos** na home page. Essas listas mostram produtos com base nas tendências de compras e podem ser geradas por algoritmo ou selecionadas manualmente. Elas ajudam os clientes a descobrirem rapidamente os principais produtos e, em seguida, continuarem comprando.
+- **Recomendações de produto** – Os módulos de recomendações de produto são usados para exibir listas como, **Novo**, **Mais Populares** e **Mais Vendidos** na home page. Essas listas mostram produtos com base nas tendências de compras e podem ser geradas por algoritmo ou selecionadas manualmente. Elas ajudam os clientes a descobrirem rapidamente os principais produtos e, em seguida, continuarem comprando.
 
     A ilustração a seguir mostra um exemplo de módulos de recomendações de produto em uma home page.
 

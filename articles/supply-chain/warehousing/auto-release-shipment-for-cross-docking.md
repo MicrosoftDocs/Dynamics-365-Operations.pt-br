@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983970"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4421982"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
@@ -46,7 +46,7 @@ Essa funcionalidade de distribuição integrada tem duas vantagens:
 | Item | O item deve ser habilitado para os processos de gerenciamento de depósito.<p>**Observação:** os itens habilitados para peso variável não podem ser incluídos nos processos de distribuição integrada.</p> |
 | Depósito | O depósito deve ser habilitado para os processos de gerenciamento de depósito. |
 | Modelos de distribuição integrada | Pelo menos um método de distribuição integrada que use a política de liberação de demanda **No recebimento do fornecimento** deve ser configurado para um depósito específico. |
-| Classe de trabalho | Uma ID da classe de trabalho de distribuição integrada deve ser criada para o tipo de ordem de serviço**Distribuição integrada**. |
+| Classe de trabalho | Uma ID da classe de trabalho de distribuição integrada deve ser criada para o tipo de ordem de serviço **Distribuição integrada**. |
 | Modelos do trabalho | Os modelos de tipo de ordem de serviço **Distribuição integrada** são necessários para criar a separação de distribuição integrada e o trabalho de colocação. |
 | Diretivas de localização | As diretivas da localização do tipo de ordem de serviço **Distribuição integrada** são necessárias para orientar o trabalho de colocação nos locais onde as quantidades de ordens de venda serão embaladas e enviadas. |
 | Marcação entre uma ordem da demanda e uma ordem de produção | O sistema de depósito só poderá acionar a liberação automática da remessa de ordem de saída e criar o trabalho de distribuição integrada desde o local de saída na ação relatada como concluída se as ordens de venda e as ordens de transferência estiverem reservadas e marcadas em uma ordem de produção. |

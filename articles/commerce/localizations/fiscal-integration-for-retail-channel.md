@@ -18,11 +18,11 @@ ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
-ms.sourcegitcommit: 52ba8d3e6af72df5dab6c04b9684a61454d353ad
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3403206"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410283"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visão geral da integração fiscal dos canais do Commerce
 
@@ -111,7 +111,7 @@ Se houver falha na verificação de integridade, o PDV exibirá a caixa de diál
 
 Quando o registro fiscal de um evento ou uma transação é bem-sucedido, uma transação fiscal é criada no banco de dados do canal e vinculada ao evento ou à transação original. Da mesma forma, se a opção **Ignorar** ou **Marcar como registrado** for selecionada para um registro fiscal com falha, essas informações serão armazenadas em uma transação fiscal. Uma transação fiscal armazena a resposta fiscal do serviço ou dispositivo fiscal. Se o processo de registro fiscal consistir em várias etapas, uma transação fiscal será criada para cada etapa do processo que resultou em um registro com êxito ou falha.
 
-As transações fiscais são transferidas para o Headquarters pelo *trabalho P*com as transações. Na FastTab **Transações fiscais** da página **Transações da loja**, você pode ver as transações fiscais vinculadas às transações.
+As transações fiscais são transferidas para o Headquarters pelo *trabalho P* com as transações. Na FastTab **Transações fiscais** da página **Transações da loja**, você pode ver as transações fiscais vinculadas às transações.
 
 Uma transação fiscal armazena os seguintes detalhes:
 

@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ae7c43516fc90224439f6f7cfd5fd0a6058e8b39
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018413"
+ms.locfileid: "4422612"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Inserir e comparar lances RFQ e contratos de prêmio
 
@@ -36,7 +36,7 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 ## <a name="enter-a-reply-as-a-vendor"></a>Inserir uma resposta como um fornecedor
 
 1. No painel, selecione **Lances de fornecedor**.
-2. Na lista **Novos convites de lances** , encontre uma RFQ que acabou de ser enviada. Selecione a RFQ para revisar o que foi solicitado.
+2. Na lista **Novos convites de lances**, encontre uma RFQ que acabou de ser enviada. Selecione a RFQ para revisar o que foi solicitado.
 3. Selecione **Anexos de RFQ** para revisar todos os anexos que foram adicionados.
 4. Selecione **Lance** para tornar os campos editáveis. Observe que o campo **Andamento do lance** está definido como **Fornecedor está atualizando**.
 5. No cabeçalho e nas linhas, insira os valores da resposta do lance.
@@ -52,7 +52,7 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Inserir a resposta de um fornecedor como profissional de compras
 
-1. Certifique-se de que a permissão para editar os lances de fornecedores esteja configurada. Vá para **Compras e fornecimento \> Configuração \> Parâmetros de compras**. Na guia **Solicitação de cotação** , defina a opção **O comprador pode editar o lance de fornecedores** como **Sim**.
+1. Certifique-se de que a permissão para editar os lances de fornecedores esteja configurada. Vá para **Compras e fornecimento \> Configuração \> Parâmetros de compras**. Na guia **Solicitação de cotação**, defina a opção **O comprador pode editar o lance de fornecedores** como **Sim**.
 2. Vá para **Aquisição e fornecimento \> Solicitações de cotação \> Todas as solicitações de cotação**.
 3. Selecione uma RFQ com um status **Enviado** e depois o link no campo **Caso de solicitação de cotação**.
 4. Selecione **Gerenciar respostas**. A página que aparece mostra uma RFQ para cada fornecedor que foi convidado para o lance.
@@ -62,11 +62,11 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="score-the-bids"></a>Marcar os lances
 
-1. Na página **Todas as solicitações de cotação** , selecione o caso de RFQ para o qual deseja pontuar as respostas.
+1. Na página **Todas as solicitações de cotação**, selecione o caso de RFQ para o qual deseja pontuar as respostas.
 2. Selecione **Gerenciar respostas**.
 3. Selecione a resposta a ser pontuada.
 4. Selecione **Cabeçalho** para que você possa visualizar a pontuação do lance.
-5. Na Guia Rápida **Pontuação do lance** , insira um número no campo **Pontuação** para um dos critérios de marcação. Se você passar o mouse sobre um critério de pontuação, uma dica de ferramenta mostrará o intervalo em que a pontuação deve estar. Nesta demonstração, você pode inserir um número entre 1 e 5 para qualquer um dos critérios de pontuação.  
+5. Na Guia Rápida **Pontuação do lance**, insira um número no campo **Pontuação** para um dos critérios de marcação. Se você passar o mouse sobre um critério de pontuação, uma dica de ferramenta mostrará o intervalo em que a pontuação deve estar. Nesta demonstração, você pode inserir um número entre 1 e 5 para qualquer um dos critérios de pontuação.  
 6. Repita a etapa 5 para outro critério de pontuação.
 7. Se o caso de RFQ tiver um questionário que foi enviado aos fornecedores, você poderá inserir as respostas do fornecedor na Guia Rápida **Questionários**.
 8. Feche a página.
@@ -74,14 +74,14 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="compare-the-replies"></a>Comparar as respostas
 
-1. No Painel de ações, na guia **Geral** , selecione **Comparar respostas**.
-2. No campo **Classificação** , insira um número.  
+1. No Painel de ações, na guia **Geral**, selecione **Comparar respostas**.
+2. No campo **Classificação**, insira um número.  
     - Esta página mostra os lances, juntamente com as informações de cabeçalho e linha, e também a pontuação total no nível do cabeçalho. Você pode comparar as linhas classificando a grade de forma que as linhas comparáveis sejam próximas uma da outra. As seguintes informações também estão incluídas:
     - **Quantidade** – A quantidade que o fornecedor cotou. Essa quantidade pode não ser igual à quantidade especificada na RFQ.
     - **Valor líquido** – O preço que o fornecedor cotou para os itens na linha, menos os descontos.
     - **Desvio** – O número de dias em que a data de entrega no cabeçalho ou na linha do lance difere da data de entrega solicitada no cabeçalho ou na linha da RFQ. Você só pode inserir uma classificação para cada lance.  
 3. Selecione a linha do cabeçalho do outro lance que deseja pontuar.
-4. No campo **Classificação** , insira um número.
+4. No campo **Classificação**, insira um número.
 5. Selecione **Salvar**.
 
 ## <a name="reject-a-bid"></a>Rejeitar uma oferta
@@ -91,19 +91,19 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
     - Se você marcar a caixa de seleção **Marcar** no cabeçalho do lance, todas as linhas também serão marcadas. Para rejeitar ou aceitar apenas algumas das linhas do lance, você pode marcar apenas essas linhas. Além disso, você pode aceitar o lance de um fornecedor para algumas linhas de uma RFQ e atribuir outras linhas de RFQ a um fornecedor diferente. No entanto, você deve fazer um lance por vez.  
     - Se as linhas alternativas estiverem presentes, você poderá aceitar a linha de oferta original ou sua alternativa, mas não ambas.  
 3. Selecione **Rejeitar**.
-4. Selecione **Parâmetros** e, no campo **Motivo da rejeição** , insira ou selecione o motivo de rejeição do lance. O motivo é armazenado na resposta.  
+4. Selecione **Parâmetros** e, no campo **Motivo da rejeição**, insira ou selecione o motivo de rejeição do lance. O motivo é armazenado na resposta.  
 5. Selecione **OK**.
 6. Selecione **OK**.
 
 ## <a name="accept-a-bid"></a>Aceitar uma oferta
 
-1. Selecione o lance a ser aceito e depois selecione o link no campo **Solicitação de cotação**. Se estiver na página **Comparar respostas de solicitação de cotação** , o lance em destaque com foco é o lance que o sistema considerará durante a ação Aceitar. Você pode aceitar linhas de apenas um lance por vez.  
+1. Selecione o lance a ser aceito e depois selecione o link no campo **Solicitação de cotação**. Se estiver na página **Comparar respostas de solicitação de cotação**, o lance em destaque com foco é o lance que o sistema considerará durante a ação Aceitar. Você pode aceitar linhas de apenas um lance por vez.  
 2. No Painel de Ação, selecione **Responder**.
 3. Selecione **Aceitar**. Se você marcou apenas linhas específicas, a ação Aceitar incluirá apenas essas linhas. Se deseja aceitar todas as linhas do lance, você não precisará marcar as linhas.  
-4. Selecione **Parâmetros** e, no campo **Motivo da aceitação** , insira ou selecione o motivo de aceitação do lance. O motivo é armazenado no lance.  
+4. Selecione **Parâmetros** e, no campo **Motivo da aceitação**, insira ou selecione o motivo de aceitação do lance. O motivo é armazenado no lance.  
 5. Selecione **OK**.
-6. Selecione **OK**. Ao selecionar **OK** , uma ordem de compra é gerada com base nas linhas incluídas na aceitação da RFQ. Se houver outros lances que não tenham sido processados (aceitos, rejeitados ou retornados), o sistema solicitará que você os rejeite.  
+6. Selecione **OK**. Ao selecionar **OK**, uma ordem de compra é gerada com base nas linhas incluídas na aceitação da RFQ. Se houver outros lances que não tenham sido processados (aceitos, rejeitados ou retornados), o sistema solicitará que você os rejeite.  
 
 ## <a name="view-the-purchase-order-that-is-generated"></a>Ver a ordem de compra gerada
 
-No Painel de ações, na guia **Geral** , selecione **Ordem de compra**. A página que aparece mostra a ordem de compra que foi gerada quando você aceitou o lance.
+No Painel de ações, na guia **Geral**, selecione **Ordem de compra**. A página que aparece mostra a ordem de compra que foi gerada quando você aceitou o lance.

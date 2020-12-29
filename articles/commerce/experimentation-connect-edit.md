@@ -19,11 +19,11 @@ ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
 ms.openlocfilehash: 030640ba8907ae52c198ac96ad2c243b533d8c53
-ms.sourcegitcommit: 7592c2dec0428d56843ab395d2a52c89f77f99b5
+ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096958"
+ms.locfileid: "4410329"
 ---
 # <a name="connect-an-experiment-and-edit-variations"></a>Conectar um experimento e editar variações
 
@@ -60,13 +60,13 @@ Para conectar seu experimento, você iniciará o assistente **Conectar experimen
 
 Para começar a conectar sua experiência no construtor de sites do Commerce, siga estas etapas.
 
-1. Para iniciar o assistente **Conectar experimento** , selecione **Experimentos** no painel de navegação esquerdo e selecione **Conectar**. Como alternativa, você pode acessar o assistente de uma página ou o editor de fragmentos editando-o e selecionando **Conectar experimento** na barra de comandos.
+1. Para iniciar o assistente **Conectar experimento**, selecione **Experimentos** no painel de navegação esquerdo e selecione **Conectar**. Como alternativa, você pode acessar o assistente de uma página ou o editor de fragmentos editando-o e selecionando **Conectar experimento** na barra de comandos.
 
     > [!NOTE]
     > Uma página pode ser conectada somente a um experimento de cada vez. Para conectar uma página a um experimento diferente, primeiro exclua o experimento ao qual a página está conectada no momento.
 
 1. Escolha a página ou o fragmento em que você deseja executar o experimento.
-1. Defina o escopo de experimentação como **parcial** ou **inteiro** , com base na opção feita na seção [Determinar o escopo do seu experimento](#determine-the-scope-of-your-experiment) acima.
+1. Defina o escopo de experimentação como **parcial** ou **inteiro**, com base na opção feita na seção [Determinar o escopo do seu experimento](#determine-the-scope-of-your-experiment) acima.
     > [!NOTE]
     > O sinalizador de recursos **Experimento em páginas ou fragmentos** deverá estar habilitado se você quiser experimentar em uma página inteira ou fragmento. Consulte o tópico [Experimentação no Dynamics 365 Commerce](experimentation-overview.md) para obter mais informações.
     
@@ -84,7 +84,7 @@ Siga estas etapas se você tiver definido o escopo do seu experimento como **par
 1. Selecione o módulo a ser experimentado, selecione as reticências (...) e, em seguida, selecione **Adicionar ao experimento**.
 
 ### <a name="edit-variations-for-experiments-with-entire-scope"></a>Editar variações de experimentos com escopo inteiro
-Se você tiver definido o escopo do seu experimento como **inteiro** no assistente **Conectar experimento** , na exibição do editor, use o menu suspenso de variações abaixo da barra de comandos para editar cada variação com base na hipótese original. 
+Se você tiver definido o escopo do seu experimento como **inteiro** no assistente **Conectar experimento**, na exibição do editor, use o menu suspenso de variações abaixo da barra de comandos para editar cada variação com base na hipótese original. 
 
 > [!NOTE]
 > Em qualquer um dos casos, também poderá ser necessário estabelecer um controle ou uma variação de base, deixando uma das variações inalteradas.

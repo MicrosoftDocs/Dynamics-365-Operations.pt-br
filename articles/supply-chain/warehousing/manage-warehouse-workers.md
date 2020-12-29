@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2156b5de6abc3751cae1822b3825acbbd0b9a712
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017067"
+ms.locfileid: "4422500"
 ---
 # <a name="manage-warehouse-workers"></a>Gerenciar trabalhadores de depósito
 
@@ -33,7 +33,7 @@ Este artigo descreve como você pode usar o aplicativo de depósito para ajudar 
 
 Se você estiver usando a funcionalidade no Gerenciamento de depósito, todas as operações do trabalhador do depósito serão referenciadas como *trabalho*. Trabalhos como separação, movimentação e contagem de estoque disponível são registrados por meio de dispositivos móveis. Para que um trabalhador do depósito possa executar um trabalho, ele deve estar associado a um trabalhador do departamento de recursos humanos. Cada conta de **Trabalhador** pode ter vários usuários de trabalho de depósito associados a ela. Esses usuários podem trabalhar em depósitos diferentes e podem ter diferentes níveis de acesso aos vários menus de dispositivos móveis. Considere os usuários de trabalho de depósito como vários logons do trabalhador selecionado. Cada usuário de trabalho tem um depósito padrão; e os fluxos de trabalho específicos são expostos pelos itens de menus que estão disponíveis para esse usuário de trabalho. 
 
-Para criar um novo usuário de trabalho, na página **Trabalhadores** , na guia **Geral** , na seção **Depósitos** , clique em **Trabalhador**. Você deve especificar uma ID de usuário, um nome de usuário, um depósito padrão e um nome de menu. Esse menu é carregado quando o usuário entra no Portal de Dispositivos Móveis de Depósito e permite que você defina a quais itens de menu o usuário terá acesso. 
+Para criar um novo usuário de trabalho, na página **Trabalhadores**, na guia **Geral**, na seção **Depósitos**, clique em **Trabalhador**. Você deve especificar uma ID de usuário, um nome de usuário, um depósito padrão e um nome de menu. Esse menu é carregado quando o usuário entra no Portal de Dispositivos Móveis de Depósito e permite que você defina a quais itens de menu o usuário terá acesso. 
 
 Como parte da configuração de cada usuário de trabalho, você também pode definir fluxos de trabalho de processo específicos. Por exemplo, você pode usar o campo **É um supervisor de contagem cíclica** para especificar se o usuário pode processar ajustes em discrepâncias de contagem cíclica durante uma operação de contagem ou se esses ajustes devem ser analisados primeiro por outra pessoa.
 
@@ -45,7 +45,7 @@ Para habilitar os padrões de mão de obra que você definiu, selecione a opçã
 ## <a name="monitoring-and-controlling-warehouse-work"></a>Monitorando e controlando o trabalho de depósito
 A página **Todos os trabalhos** permite monitorar e manter todos os trabalhos planejados, em andamento e concluídos. Nessa página, você pode atualizar vários processos, como atribuições de usuário do trabalho de depósito e prioridade de trabalho. Você também pode fazer uma busca minuciosa nos detalhes relacionados ao cabeçalho de trabalho e às linhas do trabalho, para ter uma noção melhor dos processos de trabalho previstos ou concluídos. 
 
-Se você habilitar a opção **Padrões de mão de obra** , verá o tempo estimado calculado para o trabalho. Em seguida, quando o trabalho for processado, o tempo real também será exibido para cada operação de trabalho. Dessa forma, você pode comparar os cálculos de tempo estimado com o tempo real. 
+Se você habilitar a opção **Padrões de mão de obra**, verá o tempo estimado calculado para o trabalho. Em seguida, quando o trabalho for processado, o tempo real também será exibido para cada operação de trabalho. Dessa forma, você pode comparar os cálculos de tempo estimado com o tempo real. 
 
 Além disso, você pode usar o tempo estimado nas regras para dividir automaticamente o trabalho durante a criação do trabalho. Dessa forma, você pode equilibrar a carga de trabalho com base no tempo esperado para concluir as tarefas. 
 

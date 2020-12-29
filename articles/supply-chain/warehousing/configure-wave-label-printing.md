@@ -4,7 +4,7 @@ description: Este tópico descreve a impressão de etiquetas de onda e explica c
 author: GarmMSFT
 manager: PJacobse
 ms.date: 05/01/2020
-ms.topic: configure-wave-label-printing
+ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 1f51ed9f05caede3d4f320ddb6b705e67df9aa1f
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6314fd25d8d8a0013984d484f57a832c26f82b5a
+ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016945"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "4422624"
 ---
 # <a name="set-up-and-use-wave-label-printing"></a>Configurar e usar a impressão de etiquetas de onda
 
@@ -56,7 +56,7 @@ Esses aprimoramentos tornam mais eficiente a etiquetagem de caixas antes da pale
 
 ## <a name="turn-on-the-wave-label-printing-feature"></a>Ativar o recurso Impressão de etiquetas de onda
 
-Para que você possa usar o recurso *Impressão de etiquetas de onda* , ele deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Para que você possa usar o recurso *Impressão de etiquetas de onda*, ele deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Impressão de etiquetas de onda*
@@ -84,8 +84,8 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Selecione um modelo, como **Padrão de Remessa 62**.
-1. Na FastTab **Métodos** , mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
-1. Na coluna **Métodos selecionados** , selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
+1. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
+1. Na coluna **Métodos selecionados**, selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Criar um layout de etiqueta de onda
 
@@ -123,7 +123,7 @@ O layout de etiqueta controla quais informações são impressas na etiqueta e c
 
 1. Feche a página.
 1. No Painel de Ações, selecione **Editar consulta**.
-1. Na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
@@ -132,9 +132,9 @@ O layout de etiqueta controla quais informações são impressas na etiqueta e c
 
     Esta consulta garante que somente as linhas de trabalho de separação serão impressas na etiqueta, não as linhas de trabalho de colocação.
 
-1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções** , selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela.
+1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções**, selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela.
 1. Feche a caixa de diálogo do editor de consultas.
-1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho** , **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho** , no campo **Cabeçalho da etiqueta** , insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
+1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho**, **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho**, no campo **Cabeçalho da etiqueta**, insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -174,7 +174,7 @@ O layout de etiqueta controla quais informações são impressas na etiqueta e c
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Na **Seção do corpo** , no campo **Corpo da etiqueta** , insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Corpo da etiqueta**, insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -193,7 +193,7 @@ O layout de etiqueta controla quais informações são impressas na etiqueta e c
     </Row>
     ```
 
-1. Na **Seção do corpo** , no campo **Rodapé da etiqueta** , insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Rodapé da etiqueta**, insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -220,7 +220,7 @@ Em seguida, configure o grupo de sequências de unidade para o tipo de etiqueta 
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Grupos de sequências de unidade**.
 1. Selecione o grupo **Ea Caixa PL**.
-1. Para a linha **Caixa** , defina o campo **Tipo de nível de onda** como *Caixa*.
+1. Para a linha **Caixa**, defina o campo **Tipo de nível de onda** como *Caixa*.
 
 ### <a name="create-a-wave-label-template"></a>Criar um modelo de etiqueta de onda
 
@@ -234,15 +234,15 @@ Em seguida, crie o modelo de etiqueta de onda para o tipo de etiqueta de onda.
     - **Código da etapa da onda:** *PrintLabel*
     - **Depósito:** *62*
 
-1. Na FastTab **Geral** , defina o campo **Tipo de etiqueta de onda** como *Caixa*.
-1. Na FastTab **Detalhes do modelo de etiqueta de onda** , adicione uma nova linha com as seguintes configurações:
+1. Na FastTab **Geral**, defina o campo **Tipo de etiqueta de onda** como *Caixa*.
+1. Na FastTab **Detalhes do modelo de etiqueta de onda**, adicione uma nova linha com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Caixa*
     - **Nome da impressora:** Selecione uma impressora ZPL apropriada.
     - **Executar consulta:** *Sim* (esta configuração é opcional, mas recomendável para um desempenho ideal.)
 
 1. No Painel de ações, selecione **Salvar**.
-1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda** , selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda**, selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Remessas*
     - **Tabela derivada:** *Remessas*
@@ -252,7 +252,7 @@ Em seguida, crie o modelo de etiqueta de onda para o tipo de etiqueta de onda.
     Quando terminar, selecione **OK** para fechar a caixa de diálogo do editor de consultas.
 
 1. No Painel de Ação, selecione **Editar consulta** para abrir a caixa de diálogo do editor de consultas para todo o modelo de etiqueta.
-1. Na caixa de diálogo do editor de consultas, na guia **Classificação** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Classificação**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
@@ -262,7 +262,7 @@ Em seguida, crie o modelo de etiqueta de onda para o tipo de etiqueta de onda.
 1. Selecione **OK** para fechar a caixa de diálogo do editor de consultas.
 1. Uma caixa de mensagem solicitará que você confirme a operação de redefinição do agrupamento. Selecione **Sim** para continuar.
 1. No Painel de Ação, selecione **Grupo de modelos de etiqueta de onda**.
-1. Na caixa de diálogo **Grupo de modelos de etiqueta de onda** , selecione a linha na qual o campo **Nome do campo de referência** está definido como *ID da linha de carga de referência* e, em seguida, marque a caixa de seleção **ID de criação da etiqueta** para essa linha.
+1. Na caixa de diálogo **Grupo de modelos de etiqueta de onda**, selecione a linha na qual o campo **Nome do campo de referência** está definido como *ID da linha de carga de referência* e, em seguida, marque a caixa de seleção **ID de criação da etiqueta** para essa linha.
 
     > [!NOTE]
     > Essa configuração criará uma sequência de etiquetas ("Caixa 1 de X") por linha de carga ao longo da onda, independentemente da configuração do agrupamento de trabalho. Essa sequência de etiquetas pode ser impressa no layout de etiqueta.
@@ -296,10 +296,10 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
     > [!NOTE]
     > Os itens e as quantidades fornecidos aqui são apenas exemplos. Eles devem usar o grupo de sequências de unidade definido anteriormente, conversões de unidade apropriadas de *ea* para *Caixa* para *PL* devem ser definidas para eles, e eles devem ter estoque no depósito *62*. Para obter mais informações, consulte [Políticas de unidade de medida e estoque](unit-measure-stocking-policies.md).
 
-1. Selecione a linha 1 da ordem de venda. Em seguida, na seção **Linha da ordem de venda** , no menu **Estoque** , selecione **Reservas**.
-1. Na página **Reserva** , no Painel de Ação, selecione **Reservar lote** e, em seguida, feche a página.
+1. Selecione a linha 1 da ordem de venda. Em seguida, na seção **Linha da ordem de venda**, no menu **Estoque**, selecione **Reservas**.
+1. Na página **Reserva**, no Painel de Ação, selecione **Reservar lote** e, em seguida, feche a página.
 1. Repita as etapas 4 e 5 para a linha 2 da ordem de venda.
-1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
 
     Os seguintes eventos ocorrem:
 
@@ -307,7 +307,7 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
     - Etiquetas de onda são geradas e impressas. O número de etiquetas será igual ao número de caixas (neste exemplo, 376 etiquetas Caixa para a linha 1 e 322 etiquetas Caixa para a linha 2).
     - Uma nova ID de conhecimento de embarque é gerada para as remessas. Se você configurou as extensões de sequência numérica, as IDs de etiqueta de onda seguirão o formato numérico de **SSCC-18**. 
 
-Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir. No Painel de Ações de cada página, na guia **Remessas** , no grupo **Informações relacionadas** , selecione **Etiquetas de onda**.
+Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir. No Painel de Ações de cada página, na guia **Remessas**, no grupo **Informações relacionadas**, selecione **Etiquetas de onda**.
 
 - Todas as remessas \> Detalhes da remessa
 - Todas as cargas \> Detalhes da carga
@@ -345,8 +345,8 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Selecione um modelo, como **Transporte em Contêineres 63**.
-1. Na FastTab **Métodos** , mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
-1. Na coluna **Métodos selecionados** , selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
+1. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
+1. Na coluna **Métodos selecionados**, selecione o método **Impressão de etiquetas de onda** e defina seu campo **Código da etapa da onda** como *PrintLabel*. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 
 ### <a name="create-a-wave-label-layout"></a>Criar um layout de etiqueta de onda
 
@@ -382,16 +382,16 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
 
 1. Feche a página.
 1. No Painel de Ações, selecione **Editar consulta**.
-1. Na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
     - **Campo:** *Tipo de trabalho*
     - **Critérios:** *Separação*
 
-1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções** , selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela.
+1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções**, selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela.
 1. Feche a caixa de diálogo do editor de consultas.
-1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho** , **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho** , no campo **Cabeçalho da etiqueta** , insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
+1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho**, **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho**, no campo **Cabeçalho da etiqueta**, insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -402,7 +402,7 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Na **Seção do corpo** , no campo **Corpo da etiqueta** , insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Corpo da etiqueta**, insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     <Row name="WorkLine">
@@ -416,7 +416,7 @@ Os modelos de onda permitem vincular instâncias específicas de métodos de ond
     </Row>
     ```
 
-1. Na **Seção do corpo** , no campo **Rodapé da etiqueta** , insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Rodapé da etiqueta**, insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -437,14 +437,14 @@ Sua etiqueta agora está pronta para uso.
     - **Código da etapa da onda:** *PrintLabel*
     - **Depósito:** *63*
 
-1. Na FastTab **Detalhes do modelo de etiqueta de onda** , adicione uma linha com as seguintes configurações:
+1. Na FastTab **Detalhes do modelo de etiqueta de onda**, adicione uma linha com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Contêiner*
     - **Nome da impressora:** Selecione uma impressora ZPL apropriada.
     - **Executar consulta:** *Sim* (esta configuração é opcional, mas recomendável para um desempenho ideal.)
 
 1. No Painel de ações, selecione **Salvar**.
-1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda** , selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda**, selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Remessas*
     - **Tabela derivada:** *Remessas*
@@ -495,10 +495,10 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
     > [!NOTE]
     > Os itens e as quantidades fornecidos aqui são apenas exemplos. Eles devem ter estoque no depósito especificado.
 
-1. Selecione a linha 1 da ordem de venda. Em seguida, na seção **Linha da ordem de venda** , no menu **Estoque** , selecione **Reservas**.
-1. Na página **Reserva** , no Painel de Ação, selecione **Reservar lote** e, em seguida, feche a página.
+1. Selecione a linha 1 da ordem de venda. Em seguida, na seção **Linha da ordem de venda**, no menu **Estoque**, selecione **Reservas**.
+1. Na página **Reserva**, no Painel de Ação, selecione **Reservar lote** e, em seguida, feche a página.
 1. Repita as etapas 4 e 5 para cada linha da ordem de venda adicional.
-1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
 
     Os seguintes eventos ocorrem:
 
@@ -527,16 +527,16 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
 1. Confirme se **waveLabelPrinting** está na lista. Se não estiver, selecione **Regenerar métodos** no Painel de Ação para adicioná-lo.
-1. Para o método **waveLabelPrinting** , marque a caixa de seleção **Tornar o método repetível**.
+1. Para o método **waveLabelPrinting**, marque a caixa de seleção **Tornar o método repetível**.
 
 ### <a name="set-up-a-wave-template"></a>Configurar um modelo de onda
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 2. Selecione um modelo, como **Padrão de Remessa 62**.
-3. Na FastTab **Métodos** , mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
-4. Na coluna **Métodos selecionados** , atribua um valor de **Código da etapa da onda** , como *Caixa* , ao método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
+3. Na FastTab **Métodos**, mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados**.
+4. Na coluna **Métodos selecionados**, atribua um valor de **Código da etapa da onda**, como *Caixa*, ao método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 5. Mova o método **Impressão de etiquetas de onda** para a coluna **Métodos selecionados** novamente.
-6. Na coluna **Métodos selecionados** , atribua um valor diferente de **Código da etapa da onda** , como *Palete* , ao segundo método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
+6. Na coluna **Métodos selecionados**, atribua um valor diferente de **Código da etapa da onda**, como *Palete*, ao segundo método **Impressão de etiquetas de onda**. Para obter mais informações sobre códigos da etapa da onda, consulte [Códigos da etapa da onda](wave-step-codes.md).
 
 ### <a name="create-three-wave-label-layouts"></a>Criar três layouts de etiqueta de onda
 
@@ -572,7 +572,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 1. Feche a página.
 1. No Painel de Ações, selecione **Editar consulta**.
-1. Na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
@@ -581,9 +581,9 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
     Esta consulta garante que somente as linhas de trabalho de separação serão impressas na etiqueta, não as linhas de trabalho de colocação.
 
-1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções** , selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela. 
+1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções**, selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela. 
 1. Feche a caixa de diálogo do editor de consultas.
-1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho** , **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho** , no campo **Cabeçalho da etiqueta** , insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
+1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho**, **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho**, no campo **Cabeçalho da etiqueta**, insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
 
 
     ```plaintext
@@ -624,7 +624,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     ^FT105,371^A0N,28,28^FB130,1,0,C^FH\^FD(420)39021^FS
     ```
 
-1. Na **Seção do corpo** , no campo **Corpo da etiqueta** , insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Corpo da etiqueta**, insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -643,7 +643,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     </Row>
     ```
 
-1. Na **Seção do corpo** , no campo **Rodapé da etiqueta** , insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Rodapé da etiqueta**, insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -684,7 +684,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 1. Feche a página.
 1. No Painel de Ações, selecione **Editar consulta**.
-1. Na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
@@ -693,9 +693,9 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
     Esta consulta garante que somente as linhas de trabalho de separação serão impressas na etiqueta, não as linhas de trabalho de colocação.
 
-1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções** , selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela.
+1. Se você quiser imprimir a ID do conhecimento de embarque, na guia **Junções**, selecione a tabela **Linhas de trabalho** e junte a tabela **Remessas** a ela.
 1. Feche a caixa de diálogo do editor de consultas.
-1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho** , **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho** , no campo **Cabeçalho da etiqueta** , insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
+1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho**, **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho**, no campo **Cabeçalho da etiqueta**, insira o código para o cabeçalho obrigatório. Por exemplo, se você estiver usando impressoras Zebra, poderá usar o código a seguir.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -706,7 +706,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     ^FO0,150 ^AT ^FD$WHSShipmentTable.BillOfLadingId$ ^FS
     ```
 
-1. Na **Seção do corpo** , no campo **Corpo da etiqueta** , insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Corpo da etiqueta**, insira o código ZPL para o corpo obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     <Row name="WaveLabel">
@@ -717,7 +717,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     </Row>
     ```
 
-1. Na **Seção do corpo** , no campo **Rodapé da etiqueta** , insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
+1. Na **Seção do corpo**, no campo **Rodapé da etiqueta**, insira o código ZPL para o rodapé obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     ^PQ1^XZ
@@ -733,7 +733,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     - **Descrição:** *Etiqueta de intervalo*
 
 1. No Painel de ações, selecione **Salvar**.
-1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho** , **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho** , no campo **Cabeçalho da etiqueta** , insira o código ZPL para o cabeçalho obrigatório. Veja aqui um exemplo.
+1. A FastTab **Layout do texto da impressora** tem três seções nas quais é possível escrever código da impressora: **Seção do cabeçalho**, **Seção do corpo** e **Seção do rodapé**. Na **Seção do cabeçalho**, no campo **Cabeçalho da etiqueta**, insira o código ZPL para o cabeçalho obrigatório. Veja aqui um exemplo.
 
     ```plaintext
     CT~~CD,~CC^~CT~
@@ -770,8 +770,8 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Grupos de sequências de unidade**.
 1. Selecione ou crie um grupo **Ea Caixa PL**.
-1. Para a linha **Caixa** , defina o campo **Tipo de nível de onda** como *Caixa*.
-1. Para a linha **PL** , defina o campo **Tipo de nível de onda** como *Palete*.
+1. Para a linha **Caixa**, defina o campo **Tipo de nível de onda** como *Caixa*.
+1. Para a linha **PL**, defina o campo **Tipo de nível de onda** como *Palete*.
 
 ### <a name="create-wave-label-templates"></a>Criar modelos de etiqueta de onda
 
@@ -783,15 +783,15 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     - **Código da etapa da onda:** *Caixa*
     - **Depósito:** *62*
 
-1. Na FastTab **Geral** , no campo **Tipo de etiqueta de onda** , selecione um valor, como *Caixa*.
-1. Na FastTab **Detalhes do modelo de etiqueta de onda** , adicione uma linha com as seguintes configurações:
+1. Na FastTab **Geral**, no campo **Tipo de etiqueta de onda**, selecione um valor, como *Caixa*.
+1. Na FastTab **Detalhes do modelo de etiqueta de onda**, adicione uma linha com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Caixa*
     - **Nome da impressora:** Selecione uma impressora ZPL apropriada.
     - **Executar consulta:** *Sim* (esta configuração é opcional, mas recomendável para um desempenho ideal.)
 
 1. No Painel de ações, selecione **Salvar**.
-1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda** , selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda**, selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Remessas*
     - **Tabela derivada:** *Remessas*
@@ -801,7 +801,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     Quando terminar, selecione **OK** para fechar a caixa de diálogo do editor de consultas.
 
 1. No Painel de Ação, selecione **Editar consulta** para abrir a caixa de diálogo do editor de consultas para todo o modelo de etiqueta.
-1. Na caixa de diálogo do editor de consultas, na guia **Classificação** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Classificação**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
@@ -818,13 +818,13 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 1. Selecione **OK** para fechar a caixa de diálogo do editor de consultas.
 1. Uma caixa de mensagem solicitará que você confirme a operação de redefinição do agrupamento. Selecione **Sim** para continuar.
 1. No Painel de Ação, selecione **Grupo de modelos de etiqueta de onda**.
-1. Na caixa de diálogo **Grupo de modelos de etiqueta de onda** , para a linha na qual o campo **Nome do campo de referência** está definido como *ID da Remessa* , defina os seguintes valores:
+1. Na caixa de diálogo **Grupo de modelos de etiqueta de onda**, para a linha na qual o campo **Nome do campo de referência** está definido como *ID da Remessa*, defina os seguintes valores:
 
     - **Imprimir etiqueta de intervalo:** Marque esta caixa de seleção.
     - **ID do layout da etiqueta:** Selecione uma etiqueta de intervalo. (Por exemplo, selecione o layout da etiqueta *Intervalo* criado anteriormente neste cenário.)
     - **Nome da impressora:** Selecione a impressora para a etiqueta de intervalo. (Normalmente, para dividir os rolos de etiquetas, você deve selecionar a mesma impressora selecionada na FastTab **Detalhes do modelo de etiqueta de onda**. No entanto, outros cenários são possíveis.)
 
-1. Para a linha na qual o campo **Nome do campo de referência** está definido como *ID da linha de carga de referência* , marque a caixa de seleção **ID de criação da etiqueta**.
+1. Para a linha na qual o campo **Nome do campo de referência** está definido como *ID da linha de carga de referência*, marque a caixa de seleção **ID de criação da etiqueta**.
 
     > [!NOTE]
     > Essa configuração criará uma sequência de etiquetas ("Caixa 1 de X") por linha de carga ao longo da onda, independentemente da configuração do agrupamento de trabalho. Essa sequência de etiquetas pode ser impressa em um layout de etiqueta. Além disso, etiquetas de remessas diferentes serão separadas pela etiqueta de intervalo selecionada.
@@ -837,15 +837,15 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     - **Código da etapa da onda:** *Palete*
     - **Depósito:** *62*
 
-1. Na FastTab **Geral** , no campo **Tipo de etiqueta de onda** , selecione um valor, como *Palete*.
-1. Na FastTab **Detalhes do modelo de etiqueta de onda** , adicione uma linha com as seguintes configurações:
+1. Na FastTab **Geral**, no campo **Tipo de etiqueta de onda**, selecione um valor, como *Palete*.
+1. Na FastTab **Detalhes do modelo de etiqueta de onda**, adicione uma linha com as seguintes configurações:
 
     - **ID do layout da etiqueta:** *Palete*
     - **Nome da impressora:** Selecione uma impressora ZPL apropriada.
     - **Executar consulta:** *Sim* (esta configuração é opcional, mas recomendável para um desempenho ideal.)
 
 1. No Painel de ações, selecione **Salvar**.
-1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda** , selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo** , adicione uma linha com as seguintes configurações:
+1. Opcional: se estiver configurando um design de etiqueta específico do cliente, você deve criar uma consulta para localizar a conta do cliente. Na FastTab **Detalhes do modelo de etiqueta de onda**, selecione **Editar consulta**. Em seguida, na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Remessas*
     - **Tabela derivada:** *Remessas*
@@ -855,7 +855,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
     Quando terminar, selecione **OK** para fechar a caixa de diálogo do editor de consultas. 
 
 1. No Painel de Ação, selecione **Editar consulta** para abrir a caixa de diálogo do editor de consultas para todo o modelo de etiqueta.
-1. Na caixa de diálogo do editor de consultas, na guia **Classificação** , adicione uma linha com as seguintes configurações:
+1. Na caixa de diálogo do editor de consultas, na guia **Classificação**, adicione uma linha com as seguintes configurações:
 
     - **Tabela:** *Linhas de trabalho*
     - **Tabela derivada:** *Linhas de trabalho*
@@ -872,13 +872,13 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 1. Selecione **OK** para fechar a caixa de diálogo do editor de consultas.
 1. Uma caixa de mensagem solicitará que você confirme a operação de redefinição do agrupamento. Selecione **Sim** para continuar.
 1. No Painel de Ação, selecione **Grupo de modelos de etiqueta de onda**.
-1. Na caixa de diálogo **Grupo de modelos de etiqueta de onda** , para a linha na qual o campo **Nome do campo de referência** está definido como *ID da Remessa* , defina os seguintes valores:
+1. Na caixa de diálogo **Grupo de modelos de etiqueta de onda**, para a linha na qual o campo **Nome do campo de referência** está definido como *ID da Remessa*, defina os seguintes valores:
 
     - **Imprimir etiqueta de intervalo:** Marque esta caixa de seleção.
     - **ID do layout da etiqueta:** Selecione uma etiqueta de intervalo. (Por exemplo, selecione o layout da etiqueta *Intervalo* criado anteriormente neste cenário.)
     - **Nome da impressora:** Selecione a impressora para a etiqueta de intervalo. (Normalmente, para dividir os rolos de etiquetas, você deve selecionar a mesma impressora selecionada na FastTab **Detalhes do modelo de etiqueta de onda**. No entanto, outros cenários são possíveis.)
 
-1. Para a linha na qual o campo **Nome do campo de referência** está definido como *ID da linha de carga de referência* , marque a caixa de seleção **ID de criação da etiqueta**.
+1. Para a linha na qual o campo **Nome do campo de referência** está definido como *ID da linha de carga de referência*, marque a caixa de seleção **ID de criação da etiqueta**.
 
     > [!NOTE]
     > Essa configuração criará uma sequência de etiquetas ("Caixa 1 de X") por linha de carga ao longo da onda, independentemente da configuração do agrupamento de trabalho. Essa sequência de etiquetas pode ser impressa em um layout de etiqueta. Além disso, etiquetas de remessas diferentes serão separadas pela etiqueta de intervalo selecionada.
@@ -912,10 +912,10 @@ As extensões de sequência numérica controlam a conformidade com o GS1 de sequ
     > [!NOTE]
     > Os itens e as quantidades fornecidos aqui são apenas exemplos. Eles devem usar o grupo de sequências de unidade definido anteriormente, conversões de unidade apropriadas de *ea* para *Caixa* para *PL* devem ser definidas para eles, e eles devem ter estoque no depósito *62*. Para obter mais informações, consulte [Políticas de unidade de medida e estoque](unit-measure-stocking-policies.md).
 
-1. Selecione a linha 1 da ordem de venda. Em seguida, na seção **Linha da ordem de venda** , no menu **Estoque** , selecione **Reservas**.
-1. Na página **Reserva** , no Painel de Ação, selecione **Reservar lote** e, em seguida, feche a página.
+1. Selecione a linha 1 da ordem de venda. Em seguida, na seção **Linha da ordem de venda**, no menu **Estoque**, selecione **Reservas**.
+1. Na página **Reserva**, no Painel de Ação, selecione **Reservar lote** e, em seguida, feche a página.
 1. Repita as etapas 4 e 5 para a linha 2 da ordem de venda.
-1. No Painel de Ações, na guia **Depósito** , selecione **Liberar para o depósito**.
+1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
 
     Os seguintes eventos ocorrem: 
 

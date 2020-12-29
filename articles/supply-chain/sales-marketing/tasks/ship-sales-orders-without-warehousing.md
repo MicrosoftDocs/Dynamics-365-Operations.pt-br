@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b6b1dbb4d53785c226f7c9d40339d9dd19f47152
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984145"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422460"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar ordens de venda sem armazenamento
 

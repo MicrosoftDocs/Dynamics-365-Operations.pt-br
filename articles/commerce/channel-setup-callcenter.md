@@ -18,11 +18,11 @@ ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
 ms.openlocfilehash: 3f8c47c00b920dae01213d1d241ac8ee6a18d4e3
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.sourcegitcommit: 4c6d31f3ebd88212d3d1497a4bba9c64c5300444
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107175"
+ms.locfileid: "4410341"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar um canal de call center
 
@@ -44,11 +44,11 @@ Para criar e configurar um novo canal de call center, siga estas etapas.
 
 1. No painel de navegação, acesse **Varejo e Comércio \> Canais \> Call centers \> Todos os call centers**.
 1. No painel de ação, selecione **Novo**.
-1. No campo **Nome** , forneça um nome para o novo canal.
+1. No campo **Nome**, forneça um nome para o novo canal.
 1. Selecione a **Entidade legal** apropriada na lista suspensa.
 1. Selecione a localização de **Depósito** apropriada na lista suspensa. Esse local será usado como padrão nas ordens de venda criadas para esse canal de call center, a menos que outros padrões tenham sido definidos no nível do cliente ou do item.
-1. No campo **Cliente padrão** , forneça um cliente padrão válido. Esses dados são usados para auxiliar no preenchimento automático de padrões quando novos registros de clientes são criados. Ao criar ordens de call center, não é aconselhável criar ordens para o cliente padrão.
-1. No campo **Perfil de notificação por email** , forneça um perfil de notificação por email válido. À medida que as ordens de call center são criadas e processadas, o perfil de notificação por email é usado para acionar alertas automáticos por email aos clientes com informações sobre o status da ordem.
+1. No campo **Cliente padrão**, forneça um cliente padrão válido. Esses dados são usados para auxiliar no preenchimento automático de padrões quando novos registros de clientes são criados. Ao criar ordens de call center, não é aconselhável criar ordens para o cliente padrão.
+1. No campo **Perfil de notificação por email**, forneça um perfil de notificação por email válido. À medida que as ordens de call center são criadas e processadas, o perfil de notificação por email é usado para acionar alertas automáticos por email aos clientes com informações sobre o status da ordem.
 1. Forneça um código informativo de **Substituição de preço**. Talvez você precise criar um código informativo para isso primeiro. Esse código de informações fornece o conjunto de códigos de motivo que o usuário será solicitado a escolher ao usar a funcionalidade de substituição de preço em uma ordem de call center.
 1. Forneça um código informativo de **Código de bloqueio**. Talvez você precise criar um código informativo para isso primeiro. Esse código de informações fornece o conjunto de códigos de motivo opcionais que o usuário será solicitado a escolher ao fazer uma ordem em espera.
 1. Forneça um código informativo de **Crédito**. Talvez você precise criar um código informativo para isso primeiro. Esse código de informações fornece o conjunto de códigos de motivo que o usuário pode escolher ao usar a funcionalidade de crédito de ordem do call center para fornecer reembolsos diversos ao cliente por motivos de atendimento ao cliente.
@@ -94,7 +94,7 @@ Para alterar ou adicionar um modo de entrega a ser associado ao canal de call ce
 
 1. No formulário de modos de entrega de call center, selecione **Gerenciar modos de entrega**
 1. No painel de ação, selecione **Novo** para criar um novo modo de entrega ou selecione um modo existente.
-1. Na seção **Canais de varejo** , clique em **Adicionar linha** para adicionar o canal de call center. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
+1. Na seção **Canais de varejo**, clique em **Adicionar linha** para adicionar o canal de call center. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
 1. Verifique se o modo de entrega foi configurado com os dados na FastTab **Produtos** e FastTab **Endereços**. Se nenhum produto ou endereço de entrega for válido para o modo de entrega, a escolha durante a entrada de ordem resultará em erros.
 1. Após a alteração das configurações do modo de entrega de call center, o trabalho **Processar modos de entrega** deve ser executado para explodir a matriz de alterações. Esse trabalho pode ser encontrado em **Varejo e Comércio \> TI de Varejo e Comércio \> Processar modos de entrega**.
 

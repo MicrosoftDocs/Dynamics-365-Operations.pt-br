@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: a983fde8ba393ab25f2b330014e04a1379f0e4d0
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3008051"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417230"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otimizar o desempenho com tarefas automáticas de limpeza
 

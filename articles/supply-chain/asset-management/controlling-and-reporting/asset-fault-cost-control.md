@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 93bd6fb320822f17af5725e227936df623f8d0be
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889160"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422082"
 ---
 # <a name="asset-fault-cost-control"></a>Controle de custo de falhas de ativos
 
@@ -47,7 +47,7 @@ No Gerenciamento de Ativos, é possível calcular os custos nos registros de fal
 
 6. Para limitar a pesquisa, você poderá selecionar ativos específicos, datas de falha e causas de falha na Guia Rápida **Registros a serem incluídos**.
 
-7. Clique em **OK**para iniciar o cálculo.
+7. Clique em **OK** para iniciar o cálculo.
 
 8. Clique nos botões **Agrupar por** para mostrar o nível de detalhes necessário para o cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 

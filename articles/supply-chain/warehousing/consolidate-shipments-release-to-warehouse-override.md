@@ -17,11 +17,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 96f994e9f3440721105545f96d7d8475fcab2b6b
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016784"
+ms.locfileid: "4422524"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden-from-the-release-to-warehouse-page"></a>Consolidar remessas quando a política de consolidação de remessa for substituída da página Liberar para depósito
 
@@ -64,7 +64,7 @@ Siga estas etapas para substituir a política de consolidação de remessa duran
 1. Selecione **Liberar para depósito**.
 1. Selecione a segunda e a terceira ordens de venda criadas para esse cenário.
 1. Selecione **Adicionar** para adicionar as linhas à liberação para o depósito. Observe que a política *padrão* é aplicada no painel inferior.
-1. Selecione a segunda linha e, em seguida, no campo **Selecionar nova política de consolidação de remessa** , selecione a política *CustomerOrderNo*.
+1. Selecione a segunda linha e, em seguida, no campo **Selecionar nova política de consolidação de remessa**, selecione a política *CustomerOrderNo*.
 1. Selecione **Liberar para depósito** para as duas linhas.
 
 ## <a name="verify-the-shipments"></a>Verifique as remessas
@@ -78,7 +78,7 @@ Siga estas etapas para revisar as remessas que foram criadas.
 
 1. Acesse **Gerenciamento de depósito \> Remessas \> Todas as remessas**.
 1. Localize e selecione a remessa necessária.
-1. No campo **Política de consolidação de remessa** , revise a política de consolidação usada quando a remessa foi criada.
+1. No campo **Política de consolidação de remessa**, revise a política de consolidação usada quando a remessa foi criada.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

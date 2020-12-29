@@ -19,11 +19,11 @@ ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 86f0964b6d929d0434a8bf04aaefc173bee21c6f
-ms.sourcegitcommit: 361050bed5e0feabd370d225ec70784fc1933258
+ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/15/2020
-ms.locfileid: "4013195"
+ms.locfileid: "4410313"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Verificação de integridade para serviços e periféricos PDV
 

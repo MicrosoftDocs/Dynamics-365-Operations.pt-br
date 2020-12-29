@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 9332e45f7213ed815e4417969b617256778598db
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017796"
+ms.locfileid: "4422592"
 ---
 # <a name="wave-step-codes"></a>Códigos da etapa da onda
 
@@ -59,7 +59,7 @@ Durante a habilitação, serão feitas validações durante a atualização de d
 
 Depois de resolver os conflitos identificados durante validações, você pode tentar habilitar o recurso.
 
-Quando o recurso for habilitado, a página **Códigos da etapa da onda** ( **Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda** ) ficará disponível. Esta página lista os códigos da etapa da onda que foram atualizados quando o recurso Código de Etapa de Onda para Toda a Organização for habilitado.
+Quando o recurso for habilitado, a página **Códigos da etapa da onda** (**Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda**) ficará disponível. Esta página lista os códigos da etapa da onda que foram atualizados quando o recurso Código de Etapa de Onda para Toda a Organização for habilitado.
 
 ### <a name="create-new-wave-step-codes"></a>Criar novos códigos da etapa da onda
 
@@ -89,7 +89,7 @@ O procedimento a seguir ajuda a garantir que o método de reabastecimento criado
 2. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento** e crie o modelos de reabastecimento.
 3. No modelo de reabastecimento, selecione o código da etapa da onda criada para o tipo **Reabastecimento**.
 4. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos da onda** e selecione o modelo da onda que você deseja usar.
-5. No modelo, na guia rápida **Métodos** , selecione o método **Reabastecimento**.
-6. No campo **Código da etapa da onda** , selecione o código da etapa da onda selecionada no modelo de reabastecimento.
+5. No modelo, na guia rápida **Métodos**, selecione o método **Reabastecimento**.
+6. No campo **Código da etapa da onda**, selecione o código da etapa da onda selecionada no modelo de reabastecimento.
 
 Essas etapas são executadas para cada entidade legal.

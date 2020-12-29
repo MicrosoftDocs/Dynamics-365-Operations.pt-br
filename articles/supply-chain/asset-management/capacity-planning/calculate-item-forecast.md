@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: f8f38ac7bfb270f648cd561da50ee5477721ab47
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888704"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422300"
 ---
 # <a name="calculate-item-forecast"></a>Calcular previsão de itens
 
@@ -53,7 +53,7 @@ Isso é útil se você deseja obter uma visão geral do consumo esperado de iten
   
       Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas do agendamento de manutenção e todas as ordens de serviço em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-6. Clique em **OK**para iniciar o cálculo.
+6. Clique em **OK** para iniciar o cálculo.
 
 7. Nos grupos **Agrupar por...**, clique nos botões relevantes para mostrar o nível de detalhe necessário do cálculo. Na captura de tela abaixo, os botões **Agrupar por** são realçados em azul. Clique em um botão para ativá-los ou desativá-los.
 

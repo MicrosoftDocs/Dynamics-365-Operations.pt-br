@@ -16,11 +16,11 @@ ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
 ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 3feccc9facb33e3dee18f04e202f7b20785df0a8
+ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/13/2020
-ms.locfileid: "3998867"
+ms.locfileid: "4422483"
 ---
 # <a name="automatic-allocation-of-charges"></a>Alocação automática de encargos
 
@@ -49,12 +49,12 @@ Para alocar encargos, você deve primeiro definir os códigos de encargos.
     - **Valor máximo** — insira o valor máximo permitido para o código de encargos. Esse campo é usado para validar encargos para faturas de fornecedor. Ele está disponível somente para ordens de compra.
 
         > [!NOTE]
-        > Para ativar a funcionalidade de validação de encargos para ordens de compra, acesse **Contas a pagar \> Configurar \> Parâmetros de contas a pagar**. Na FastTab **Validação de fatura** , na seção **Validação de fatura** , defina a opção **Habilitar validação da conciliação de faturas** como *Sim*.
+        > Para ativar a funcionalidade de validação de encargos para ordens de compra, acesse **Contas a pagar \> Configurar \> Parâmetros de contas a pagar**. Na FastTab **Validação de fatura**, na seção **Validação de fatura**, defina a opção **Habilitar validação da conciliação de faturas** como *Sim*.
 
 1. A FastTab **Lançamento** inclui as seções **Débito** e **Crédito**. Defina os campos a seguir, dependendo do razão no qual você deseja lançar os encargos:
 
-    - **Tipo** – selecione o tipo de conta na qual você está fazendo o lançamento ( *Razão* , *Cliente* ou *Item* ).
-    - **Lançamento** — selecione o tipo de lançamento a ser criado (como *Taxa do agente* ou *Liquidações de cliente* ).
+    - **Tipo** – selecione o tipo de conta na qual você está fazendo o lançamento (*Razão*, *Cliente* ou *Item*).
+    - **Lançamento** — selecione o tipo de lançamento a ser criado (como *Taxa do agente* ou *Liquidações de cliente*).
     - **Conta** — selecione a conta na qual lançar o encargo.
 
 1. No Painel de ações, selecione **Salvar**.
@@ -75,7 +75,7 @@ Para criar grupos de encargos para ordens de compra, siga estas etapas:
 
 1. No Painel de ações, selecione **Salvar**.
 1. Acesse **Contas a pagar \> Fornecedores \> Todos os fornecedores** e abra um fornecedor existente ou crie um fornecedor.
-1. Na FastTab **Padrões da ordem de compra** , na seção **Ordem de compra** , defina o campo **Grupo de encargos** como o grupo de encargos que você acabou de criar.
+1. Na FastTab **Padrões da ordem de compra**, na seção **Ordem de compra**, defina o campo **Grupo de encargos** como o grupo de encargos que você acabou de criar.
 
 ### <a name="charge-groups-for-sales-orders"></a>Grupos de encargos para a ordens de venda
 
@@ -89,7 +89,7 @@ Para criar grupos de encargos para ordens de venda, siga estas etapas:
 
 1. No Painel de ações, selecione **Salvar**.
 1. Acesse **Contas a receber \> Clientes \> Todos os clientes** e abra um cliente existente ou crie um cliente.
-1. Na FastTab **Padrões da ordem de compra** , na seção **Ordem de venda** , defina o campo **Grupo de encargos** como o grupo de encargos que você acabou de criar.
+1. Na FastTab **Padrões da ordem de compra**, na seção **Ordem de venda**, defina o campo **Grupo de encargos** como o grupo de encargos que você acabou de criar.
 
 ## <a name="define-auto-charges"></a>Definir encargos automáticos
 
@@ -100,34 +100,34 @@ Depois que os códigos de encargos forem configurados, siga estas etapas para de
     - Para ordens de compra: acesse **Compras e fornecimento \> Configurar \> Encargos \> Encargos automáticos**.
     - Para ordens de venda: acesse **Contas a receber \> Configurar \> Configuração de encargos \> Encargos automáticos**.
 
-1. No painel de lista, no campo **Nível** , selecione o nível ao qual o encargo automático se aplica:
+1. No painel de lista, no campo **Nível**, selecione o nível ao qual o encargo automático se aplica:
 
     - *Principal* — aplique encargos ao cabeçalho da ordem.
     - *Linha* — aplique encargos às linhas da ordem.
 
 1. Selecione um encargo automático existente para editá-lo ou selecione **Novo** para definir um novo encargo automático.
-1. Na lista **Código da conta** , selecione um dos seguintes valores para especificar o escopo das contas que serão afetadas:
+1. Na lista **Código da conta**, selecione um dos seguintes valores para especificar o escopo das contas que serão afetadas:
 
     - *Tabela* — atribui encargos a um cliente ou fornecedor específico.
     - *Grupo* — atribui encargos a um grupo de encargos diversos.
     - *Todos* — atribui encargos a todos os clientes ou fornecedores.
 
-1. No campo **Relação de cliente** ou **Relação de fornecedor** , selecione um cliente ou fornecedor específico que você definiu no campo **Código da conta** como *Tabela*. Se você definiu o **Código da conta** como *Grupo* , selecione um grupo de encargos de cliente ou de fornecedor.
-1. No campo **Código do item** , selecione um dos seguintes valores para especificar o escopo dos itens que serão afetados: Você só poderá selecionar um código de item ao definir encargos automáticos no nível de linha.
+1. No campo **Relação de cliente** ou **Relação de fornecedor**, selecione um cliente ou fornecedor específico que você definiu no campo **Código da conta** como *Tabela*. Se você definiu o **Código da conta** como *Grupo*, selecione um grupo de encargos de cliente ou de fornecedor.
+1. No campo **Código do item**, selecione um dos seguintes valores para especificar o escopo dos itens que serão afetados: Você só poderá selecionar um código de item ao definir encargos automáticos no nível de linha.
 
     - *Tabela* — atribua encargos a um item específico.
     - *Grupo* — atribua encargos a um grupo de encargos de item.
     - *Todos* – atribua encargos a todos os itens.
 
-1. No campo **Relação de itens** , selecione um item específico se você definiu o campo **Código do item** como *Tabela*. Se você definiu o campo **Código do item** como *Grupo* , selecione um grupo de encargos de item.
-1. **Somente para ordens de venda:** no campo **Código do modo de entrega** , selecione um dos seguintes valores para especificar o escopo dos modos de entrega que serão afetados:
+1. No campo **Relação de itens**, selecione um item específico se você definiu o campo **Código do item** como *Tabela*. Se você definiu o campo **Código do item** como *Grupo*, selecione um grupo de encargos de item.
+1. **Somente para ordens de venda:** no campo **Código do modo de entrega**, selecione um dos seguintes valores para especificar o escopo dos modos de entrega que serão afetados:
 
     - *Tabela* — atribui encargos a um modo de entrega específico.
     - *Grupo* — atribui encargos a um modo de grupo de entregas.
     - *Todos* — atribui encargos a todos os modos de entrega.
 
-1. **Somente para ordens de venda:** no campo **Relação de modo de entrega** , selecione um modo de entrega específico se você definiu o campo **Código do modo de entrega** como *Tabela*. Se você definiu o campo **Código do modo de entrega** como *Grupo* , selecione um modo de grupo de entregas.
-1. Na FastTab **Linhas** , defina os encargos e as taxas de encargos que serão usados quando o encargo automático atual for aplicado. Você pode usar a barra de ferramentas nessa FastTab para adicionar quantas linhas forem necessárias. Em cada linha, defina os seguintes campos:
+1. **Somente para ordens de venda:** no campo **Relação de modo de entrega**, selecione um modo de entrega específico se você definiu o campo **Código do modo de entrega** como *Tabela*. Se você definiu o campo **Código do modo de entrega** como *Grupo*, selecione um modo de grupo de entregas.
+1. Na FastTab **Linhas**, defina os encargos e as taxas de encargos que serão usados quando o encargo automático atual for aplicado. Você pode usar a barra de ferramentas nessa FastTab para adicionar quantas linhas forem necessárias. Em cada linha, defina os seguintes campos:
 
     - **Moeda** — selecione a moeda que deve ser usada para calcular o encargo.
     - **Código de encargos** — selecione o código do encargo.
@@ -156,10 +156,10 @@ O procedimento a seguir mostra como alocar encargos no nível de cabeçalho a um
 1. Abra a ordem de compra ou a ordem de encargos.
 1. No Painel de Ações, siga uma destas etapas:
 
-    - Para ordens de compra: na guia **Compra** , no grupo **Encargos** , selecione **Alocar encargos**.
-    - Para ordens de venda: na guia **Venda** , no grupo **Encargos** , selecione **Alocar encargos**.
+    - Para ordens de compra: na guia **Compra**, no grupo **Encargos**, selecione **Alocar encargos**.
+    - Para ordens de venda: na guia **Venda**, no grupo **Encargos**, selecione **Alocar encargos**.
 
-1. Na caixa de diálogo **Alocar encargos às linhas da ordem** , defina os seguintes campos:
+1. Na caixa de diálogo **Alocar encargos às linhas da ordem**, defina os seguintes campos:
 
     - **Alocação de encargos** — selecione um dos valores a seguir para especificar como os encargos devem ser alocados:
 
@@ -171,9 +171,9 @@ O procedimento a seguir mostra como alocar encargos no nível de cabeçalho a um
     - **Alocar tudo** — marque essa caixa de seleção para alocar os encargos às linhas da ordem, mesmo que o código de encargos tenha um tipo de débito diferente de *Item*.
     - **Recebido** — marque essa caixa de seleção para alocar encargos somente às linhas da ordem recebidas.
     - **Em estoque** — marque essa caixa de seleção para alocar encargos somente para as linhas da ordem armazenadas em estoque.
-    - **Mostrar seleções e limpar linhas específicas** — marque essa caixa de seleção para excluir linhas específicas dessa alocação. Quando você marca essa caixa de seleção, a grade **Escolher as linhas que serão excluídas da alocação** será aberta. Essa grade inclui somente as linhas que correspondem aos critérios definidos pelas configurações de **Alocar encargos às linhas** e **Em estoque**. Por exemplo, se você definir o campo **Alocar encargos às linhas** como *Linhas positivas* e marcar a caixa de seleção **Em estoque** , somente as linhas positivas e em estoque serão exibidas na grade. Além disso, a grade filtrará automaticamente as linhas nas quais a quantidade total já foi recebida. Enquanto a grade estiver aberta, desmarque a caixa de seleção **Incluir** para cada linha que deva ser excluída da alocação. 
+    - **Mostrar seleções e limpar linhas específicas** — marque essa caixa de seleção para excluir linhas específicas dessa alocação. Quando você marca essa caixa de seleção, a grade **Escolher as linhas que serão excluídas da alocação** será aberta. Essa grade inclui somente as linhas que correspondem aos critérios definidos pelas configurações de **Alocar encargos às linhas** e **Em estoque**. Por exemplo, se você definir o campo **Alocar encargos às linhas** como *Linhas positivas* e marcar a caixa de seleção **Em estoque**, somente as linhas positivas e em estoque serão exibidas na grade. Além disso, a grade filtrará automaticamente as linhas nas quais a quantidade total já foi recebida. Enquanto a grade estiver aberta, desmarque a caixa de seleção **Incluir** para cada linha que deva ser excluída da alocação. 
 
         > [!IMPORTANT]
-        > Ao trabalhar com a grade **Escolher as linhas que serão excluídas da alocação** , certifique-se de deixar a grade aberta até selecionar **Alocar**. Se você fechar a grade antes de selecionar **Alocar** , as configurações na grade serão perdidas. Portanto, os encargos serão alocados com base nos critérios definidos anteriormente.
+        > Ao trabalhar com a grade **Escolher as linhas que serão excluídas da alocação**, certifique-se de deixar a grade aberta até selecionar **Alocar**. Se você fechar a grade antes de selecionar **Alocar**, as configurações na grade serão perdidas. Portanto, os encargos serão alocados com base nos critérios definidos anteriormente.
 
 1. Selecione **Alocar** para aplicar suas configurações e fechar a caixa de diálogo.

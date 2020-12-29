@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d3701046487e1c2004cea57aa3fe244133634854
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 935e1a550160515e2c325c39eab86be3b9fa5394
+ms.sourcegitcommit: d82f319cf7dd26c93a3fd342de4fd537272fa8d2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014877"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4410345"
 ---
 # <a name="demo-data-screen-layouts-in-modern-pos-mpos-and-cloud-pos"></a>Layouts de tela de dados de demonstração no Modern POS (MPOS) e no PDV em Nuvem
 
@@ -64,6 +64,7 @@ As IDs do layout de tela podem ter no máximo 10 caracteres. A ID é uma cadeia 
 |----------------|--------------------------------------------------------------------------------------------|
 | 3              | A versão base que dá suporte a vários tamanhos de tela para vários dispositivos e taxas de proporção |
 | 3.1            | A versão base que tem suporte adicional para o painel **Produtos recomendados**        |
+| 4              | A versão estendida do layout atualizado da Fabrikam estendida                                  |
 
 ### <a name="persona"></a>Persona
 
@@ -75,9 +76,9 @@ As IDs do layout de tela podem ter no máximo 10 caracteres. A ID é uma cadeia 
 
 ### <a name="example-layout"></a>Layout de exemplo
 
-Aqui está um exemplo de uma ID do layout da tela da empresa Fabrikam, versão 3 do layout, e persona do gerente de loja:
+Aqui está um exemplo de uma ID do layout da tela da empresa Fabrikam, versão 4 do layout, e persona do gerente de loja:
 
-F3MGR
+F4MGR
 
 A ilustração a seguir mostra um exemplo da tela de boas-vindas de um gerente de loja da Fabrikam.
 
@@ -103,6 +104,7 @@ A tabela a seguir mostra os tamanhos de layout fornecidos para resoluções de t
 | Completo\*      | 1280 × 720 | 16:9         | Tablets                 |
 | Completo        | 1366 × 768 | 16:9         | Tablets, telas maiores |
 | Completo        | 1440 × 960 | 3:2          | Tablets, telas maiores |
+| Completo\*      | 1536 × 864 | 16:9         | Tablets, telas maiores |
 
 \* Esses tamanhos de layout adicionais estão disponíveis apenas nos layouts da Adventure Works e da Fabrikam.
 
@@ -120,7 +122,7 @@ Cada empresa fictícia é direcionada a um segmento de varejo diferente, e inclu
 | Empresa         | Local | Segmento        | Destaque | Tema |
 |-----------------|----------|----------------|--------|-------|
 | Adventure Works | Seattle  | Mercadorias esportivas | Azul   | Escuro  |
-| Fabrikam        | Houston  | Moda        | Verde  | Claro |
+| Fabrikam        | São Francisco  | Moda        | Verde  | Claro |
 | Contoso         | Boston   | Eletrônicos    | Vermelho    | Escuro  |
 
 > [!NOTE]
@@ -153,7 +155,7 @@ Os usuários receberam os vários layouts de tela. Usando esta tabela, você dev
 | Adventure Works | A3MGR            | Gerente da loja | 000154, 000137, 000073 |
 | Adventure Works | A3CSH            | Caixa       | 000150, 000175, 000165 |
 | Adventure Works | A3STK            | Almoxarife   | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Gerente da loja | 000160, 000168, 000163 |
+| Fabrikam        | F4MGR            | Gerente da loja | 000160, 000713         |
 | Fabrikam        | F3CSH            | Caixa       | 000161, 000113, 000114 |
 | Fabrikam        | F3STK            | Almoxarife   | 000164, 000112, 000123 |
 | Contoso         | C3MGR            | Gerente da loja | 000100, 000111         |

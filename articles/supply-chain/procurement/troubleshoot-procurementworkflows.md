@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: cdedc45b8f057310801f134104156a732fb58d86
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018528"
+ms.locfileid: "4422609"
 ---
 # <a name="troubleshoot-procurement-and-sourcing-workflows"></a>Solucionar problemas de fluxos de trabalho de compras e fornecimento
 
@@ -32,7 +32,7 @@ Este tópico descreve como corrigir problemas que podem ocorrer ao trabalhar com
 
 ## <a name="error-when-re-submitting-a-purchase-order-to-the-workflow-after-a-change-changes-to-purchase-order-x-are-allowed-only-in-a-draft-state-when-change-management-is-activated"></a>Erro ao enviar novamente uma ordem de compra para o fluxo de trabalho após uma alteração: "As alterações na ordem de compra X são permitidas somente em um estado de rascunho quando o gerenciamento de alterações é ativado"
 
-Esse problema ocorre apenas se a ordem de compra estiver em um estado *Confirmado* antes da solicitação de alterações. Se você solicitar alterações enquanto a ordem de compra estiver em um estado *Aprovado* , o fluxo de trabalho poderá ser processado com êxito.
+Esse problema ocorre apenas se a ordem de compra estiver em um estado *Confirmado* antes da solicitação de alterações. Se você solicitar alterações enquanto a ordem de compra estiver em um estado *Aprovado*, o fluxo de trabalho poderá ser processado com êxito.
 
 ### <a name="error-description"></a>Descrição do erro
 
@@ -48,7 +48,7 @@ SysWorkflowQueue-resume
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho* , vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 O problema será corrigido através [deste artigo da Base de Dados de Conhecimento (KB) da Microsoft](https://msdyneng.visualstudio.com/FinOps/_workitems/edit/467138).
 
@@ -56,7 +56,7 @@ O problema será corrigido através [deste artigo da Base de Dados de Conhecimen
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho* , vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="if-a-delivery-remainder-is-canceled-on-a-purchase-order-where-change-management-is-turned-on-the-purchase-order-goes-to-a-confirmed-state"></a>Se um resto da entrega for cancelado em uma ordem de compra na qual o gerenciamento de alterações está ativado, a ordem de compra vai para um estado Confirmado.
 
@@ -74,7 +74,7 @@ Se isso deve ser refletido na confirmação da ordem de compra, a quantidade dev
 
 ### <a name="issue-description"></a>Descrição do problema
 
-Depois de cancelar as ordens de compra que estavam em um estado *Confirmado* , as ordens de compra canceladas ainda aparecem na lista de ordens de compra de rascunho no espaço de trabalho **Preparação da ordem de compra**.
+Depois de cancelar as ordens de compra que estavam em um estado *Confirmado*, as ordens de compra canceladas ainda aparecem na lista de ordens de compra de rascunho no espaço de trabalho **Preparação da ordem de compra**.
 
 ### <a name="issue-resolution"></a>Resolução do problema
 

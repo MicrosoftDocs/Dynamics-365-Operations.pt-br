@@ -2,8 +2,8 @@
 title: Criar um calendário de equipe
 description: Exibir e criar calendários de equipe no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 10/7/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd9a2a928e1f528065a00fecfb19a08edef86bf8
-ms.sourcegitcommit: 6a89816f94c8cdcae6e56fa89843eb99c28b21fa
+ms.openlocfilehash: 2ec767a868d5c76b57465c451b8cc893b8b0a56b
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968989"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4417371"
 ---
 # <a name="view-team-and-company-calendars"></a>Exibir calendários da equipe e da empresa
 
@@ -64,6 +64,11 @@ Os calendários agora contêm filtros e opções adicionais. Todos os calendári
 A configuração de calendário em parâmetros de licença e ausência determinará as opções de exibição disponíveis.
 
 Também é possível filtrar calendários por gerente ou departamento. A atribuição de posição principal determina os funcionários exibidos quando esses filtros são definidos. 
+
+>[!IMPORTANT]
+>A exibição de licenças e ausências em empresas está no momento em versão prévia. Você precisará habilitá-la no ambiente **Área restrita**. Para obter mais informações sobre as versões prévias do recurso, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br><br>
+>Em seguida, você deve habilitar o recurso em **Parâmetros compartilhados de recursos humanos** para exibir o filtro da entidade legal em calendários. Para obter mais informações, consulte [Configurar parâmetros de licença e ausência](hr-leave-and-absence-parameters.md).<br><br>
+>Você pode filtrar o calendário por entidade legal. Se você deseja ver todos os funcionários independentemente da entidade legal, desmarque a caixa de filtro e selecione Inserir. 
 
 Para obter informações sobre configurações de calendário, consulte [Configurar parâmetros de calendário](hr-leave-and-absence-parameters.md?configure-calendar-parameters).
 
