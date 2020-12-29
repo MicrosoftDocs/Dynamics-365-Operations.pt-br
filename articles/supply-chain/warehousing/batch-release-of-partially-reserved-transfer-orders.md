@@ -18,11 +18,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7807ae109a4a708f3530112feed1a4fb210a30ef
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016277"
+ms.locfileid: "4422546"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Versão do lote de ordens de transferência parcialmente reservadas
 
@@ -47,7 +47,7 @@ As políticas de atendimento para ordens de venda e ordens de transferência sã
 
 -   Para criar políticas de atendimento para ordens de transferência e ordens de venda, clique em **Gerenciamento de depósito** \> **Configuração** \> **Liberar para o depósito** \> **Política de atendimento** e, em seguida, crie uma política de atendimento inserindo um nome e uma descrição.
 
--   Para especificar uma taxa de atendimento, um tipo de valor e a mensagem que é mostrada, se a política de atendimento for violada, clique em **Gerenciamento de depósito** \> **Configurar** \> **Liberar para o depósito** \> **Política de atendimento** e, em seguida, defina os campos **Taxa de atendimento** , **Tipo de valor** e **Mensagem de violação de atendimento**.
+-   Para especificar uma taxa de atendimento, um tipo de valor e a mensagem que é mostrada, se a política de atendimento for violada, clique em **Gerenciamento de depósito** \> **Configurar** \> **Liberar para o depósito** \> **Política de atendimento** e, em seguida, defina os campos **Taxa de atendimento**, **Tipo de valor** e **Mensagem de violação de atendimento**.
 
 ### <a name="set-the-fulfillment-policies-for-transfer-orders-and-sales-orders"></a>Defina as políticas de atendimento para ordens de venda e ordens de transferência
 

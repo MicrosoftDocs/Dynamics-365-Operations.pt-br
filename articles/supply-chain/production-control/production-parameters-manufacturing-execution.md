@@ -20,11 +20,11 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: e4d459fb516cca3825c0a1871797f83df4c1a7c6
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3212517"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422104"
 ---
 # <a name="production-parameters-in-manufacturing-execution"></a>Parâmetros de produção em Execução de fabricação
 

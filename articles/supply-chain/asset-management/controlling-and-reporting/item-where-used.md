@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: bc78568e314c7cf83848ed2c39f9613d6ed638ba
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889616"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422080"
 ---
 # <a name="item-where-used"></a>Item onde é usado
 
@@ -59,7 +59,7 @@ Você pode criar um cálculo para que um item específico obtenha uma visão ger
 
 4. Na seção **Incluir**, selecione "Sim" nos botões de alternância que você deseja incluir no cálculo.
 
-5. Clique em **OK**para iniciar o cálculo.
+5. Clique em **OK** para iniciar o cálculo.
 
 6. Na guia **Item onde usado**, selecione os botões **Agrupar por** para mostrar o nível de detalhe necessário do cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 

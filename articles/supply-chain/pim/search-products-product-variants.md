@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 532f437bee490743847cf5617579c579f9202b71
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018321"
+ms.locfileid: "4422588"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Procurar produtos e grades de produtos durante uma entrada de ordem
 
@@ -44,7 +44,7 @@ Ao procurar produtos ou grades de produtos, é importante entender como o recurs
 
 ### <a name="examples"></a>Exemplos
 
-Os seguintes exemplos usam produtos e grades de produtos para ilustrar como a pesquisa é tratada em vários cenários. **Pré-requisito:** em **Vendas e marketing &gt; Configuração &gt; Pesquisa &gt; Parâmetros de pesquisa &gt; Tipo de pesquisa** , selecione a opção **Correspondência total**.
+Os seguintes exemplos usam produtos e grades de produtos para ilustrar como a pesquisa é tratada em vários cenários. **Pré-requisito:** em **Vendas e marketing &gt; Configuração &gt; Pesquisa &gt; Parâmetros de pesquisa &gt; Tipo de pesquisa**, selecione a opção **Correspondência total**.
 
 | Tipo de Produto     | Nome do produto    | Exibir número do produto | Nº de itens | Configuração |
 |------------------|-----------------|------------------------|-------------|---------------|
@@ -52,7 +52,7 @@ Os seguintes exemplos usam produtos e grades de produtos para ilustrar como a pe
 | Grade de produto  | Alto-falante ativo  | D0010:::Black:         | D0010       | 000005        |
 | Grade de produto  | Alto-falante ativo  | D0010:::White:         | D0010       | Branco         |
 
-Ao digitar "fala" no campo **Número de item** , você obterá todos os produtos acima como resultado da pesquisa. Ao digitar "preto" no campo **Número de item** , você obterá o segundo produto como resultado, porque ele tem o texto "preto" no número de produto de exibição. Esses dois exemplos mostram que a pesquisa não está apenas no início do campo; uma correspondência ocorrerá mesmo que o texto da pesquisa se encontre no meio de uma cadeia de caracteres de texto no registro correspondente.  
+Ao digitar "fala" no campo **Número de item**, você obterá todos os produtos acima como resultado da pesquisa. Ao digitar "preto" no campo **Número de item**, você obterá o segundo produto como resultado, porque ele tem o texto "preto" no número de produto de exibição. Esses dois exemplos mostram que a pesquisa não está apenas no início do campo; uma correspondência ocorrerá mesmo que o texto da pesquisa se encontre no meio de uma cadeia de caracteres de texto no registro correspondente.  
 
 Ao digitar "05", você obterá apenas a segunda grade de produto como resultado, porque ela tem "05" na configuração. Isso mostra que a pesquisa está em todos os campos habilitados na página **Critérios de pesquisa**.  
 
@@ -65,7 +65,7 @@ Antes de poder usar o recurso de pesquisa de produto e grade de produto, siga et
 
 ### <a name="step-1include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1ª etapa: inclua todos identificadores e dimensões relevantes de produto e grade de produto nos critérios de pesquisa
 
-Os exemplos de identificadores e dimensões de produto e grade de produto pelos quais você pode realizar uma pesquisa são  **nome de produto, número de item** , **número de produto de exibição, configuração, cor, tamanho, estilo, nome de pesquisa etc**.  
+Os exemplos de identificadores e dimensões de produto e grade de produto pelos quais você pode realizar uma pesquisa são  **nome de produto, número de item**, **número de produto de exibição, configuração, cor, tamanho, estilo, nome de pesquisa etc**.  
 
 Vá para a página **Vendas e marketing &gt; Configuração &gt; Pesquisa &gt; Critérios de pesquisa**. A página **Critérios de pesquisa** permite definir os critérios para pesquisa de cliente, cliente potencial e produto. Não deixe de filtrar a página usando critérios de pesquisa de produto. Você pode fazê-lo alternando para **Produto** no menu da página.  
 
@@ -73,7 +73,7 @@ Para adicionar o número do produto de exibição aos critérios de pesquisa, cl
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2ª etapa: preencha o tabela de banco de dados que é usada na pesquisa de produto
 
-Na página **Critérios de pesquisa** , clique no botão **Atualizar dados de pesquisa**. Na caixa de diálogo **Atualizar dados de pesquisa** , verifique se a  **Origem** está definida como **Produto** e depois clique em **OK**. O sistema agregará em uma tabela todos os critérios de pesquisa selecionados especificados na etapa 1. Se você tem um monte de produtos e variantes do produto, esta operação pode ser bastante longa e você pode receber um aviso. Recomendamos que você programe o preenchimento da tabela de pesquisa no servidor de lote no momento em que o servidor não estiver muito ocupado.  
+Na página **Critérios de pesquisa**, clique no botão **Atualizar dados de pesquisa**. Na caixa de diálogo **Atualizar dados de pesquisa**, verifique se a  **Origem** está definida como **Produto** e depois clique em **OK**. O sistema agregará em uma tabela todos os critérios de pesquisa selecionados especificados na etapa 1. Se você tem um monte de produtos e variantes do produto, esta operação pode ser bastante longa e você pode receber um aviso. Recomendamos que você programe o preenchimento da tabela de pesquisa no servidor de lote no momento em que o servidor não estiver muito ocupado.  
 
 Até que a tabela seja preenchida, a pesquisa de produto não fornecerá os resultados corretos. Se não obtiver qualquer resultado de pesquisa, verifique se essa tabela está preenchida.  
 
@@ -83,7 +83,7 @@ A tabela só precisa ser preenchida quando os critérios de pesquisa são modifi
 
 Você pode habilitar essa funcionalidade acessando **Vendas e marketing &gt; Configuração &gt; Pesquisa &gt; Parâmetros de pesquisa** e configurando **Habilitar pesquisa para pesquisa** como **Sim** na guia **Geral**.  
 
-No caso da entrada de linha de ordem de venda, o comportamento padrão é abrir a página **Pesquisa de produtos** quando você começa a digitar no campo **Número de item** e depois pressiona a tecla **Tab**. A página **Pesquisa de produtos** altera o contexto durante a criação da linha de ordem e pode ser considerada desnecessariamente intrusiva. Se desejar obter os resultados de pesquisa em uma busca e não perder o contexto durante a entrada da linha de ordem, você pode usar a busca por pesquisa em vez disso. Se procurar um produto ou grade de produto, mas não selecionar qualquer coisa na pesquisa e pressionar a tecla **Tab** , a página **Pesquisa de produtos** será exibida.
+No caso da entrada de linha de ordem de venda, o comportamento padrão é abrir a página **Pesquisa de produtos** quando você começa a digitar no campo **Número de item** e depois pressiona a tecla **Tab**. A página **Pesquisa de produtos** altera o contexto durante a criação da linha de ordem e pode ser considerada desnecessariamente intrusiva. Se desejar obter os resultados de pesquisa em uma busca e não perder o contexto durante a entrada da linha de ordem, você pode usar a busca por pesquisa em vez disso. Se procurar um produto ou grade de produto, mas não selecionar qualquer coisa na pesquisa e pressionar a tecla **Tab**, a página **Pesquisa de produtos** será exibida.
 
 
 

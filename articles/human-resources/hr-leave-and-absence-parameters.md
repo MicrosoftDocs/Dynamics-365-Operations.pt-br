@@ -2,8 +2,8 @@
 title: Configurar parâmetros de licença e ausência
 description: Definir parâmetros de recursos humanos para licença e ausência no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
-ms.date: 08/20/2020
+manager: tfehr
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 196c3901b5bc19f73b882bac7d3361e5bcc37e07
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: e1b2de94f9d9ac1ada16b6ef0e7628edbc9d683f
+ms.sourcegitcommit: ffb5998e611b83c2e4f98323f39e3e8f6419c652
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3712367"
+ms.lasthandoff: 11/02/2020
+ms.locfileid: "4417373"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parâmetros de licença e ausência
 
@@ -47,6 +47,19 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 5. Na guia **Autoatendimento para funcionários**, indique se os gerentes podem inserir solicitações de licença e ausência em nome de seus funcionários.
 
 7. Selecione **Salvar**.
+
+>[!IMPORTANT]
+>A exibição de licenças e ausências em empresas está no momento em versão prévia. Você precisará habilitá-la no ambiente **Área restrita** para exibir a opção de licença e ausência. Para obter mais informações sobre as versões prévias do recurso, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+
+## <a name="view-and-change-human-resources-shared-parameters"></a>Exibir e alterar parâmetros compartilhados de recursos humanos
+
+1. Na página **Gerenciamento de pessoal**, selecione a guia **Links**.
+
+2. Em **Configuração**, selecione **Parâmetros compartilhados de recursos humanos**.
+
+3. Na guia **Acesso avançado**, selecione **Sim** para **Habilitar a exibição de licença entre empresas** para permitir que a licença seja exibida entre empresas.
+
+4. Selecione **Salvar**.
 
 ## <a name="view-and-change-leave-and-absence-parameters"></a>Exibir e alterar parâmetros de licença e ausência
 

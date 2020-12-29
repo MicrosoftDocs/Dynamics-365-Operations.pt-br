@@ -19,11 +19,11 @@ ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 59d7274c3b40e78209d90960c4514321b736876a
-ms.sourcegitcommit: d66fd72342931fad25a696b251c05781280d36c4
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4011401"
+ms.locfileid: "4417359"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparar-se para a ativação do Human Resources
 
@@ -55,7 +55,7 @@ A tabela a seguir lista todas as etapas do processo, a duração esperada e quem
 
 Um importante marco em cada projeto de implementação é a transferência para o ambiente de produção. 
 
-Para ajudar a garantir que o ambiente de produção seja usado para operações de ativação, a Microsoft provisiona a instância de produção somente quando a implementação está se aproximando da fase **Operar** , depois que as atividades necessárias da metodologia do LCS são concluídas. Para obter mais informações sobre os ambientes na sua assinatura, consulte o  [Guia de Licenciamento do Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
+Para ajudar a garantir que o ambiente de produção seja usado para operações de ativação, a Microsoft provisiona a instância de produção somente quando a implementação está se aproximando da fase **Operar**, depois que as atividades necessárias da metodologia do LCS são concluídas. Para obter mais informações sobre os ambientes na sua assinatura, consulte o  [Guia de Licenciamento do Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544). 
 
 Os clientes deverão concluir as fases **Análise** , **Projetar e Desenvolver** e **Testar** na metodologia do LCS antes que o botão  **Configurar** para solicitar o ambiente de produção fique disponível. Para concluir uma fase no LCS, primeiro você deverá concluir todas as etapas necessárias nessa fase. Quando todas as etapas de uma fase forem concluídas, você poderá concluir a fase inteira. Você sempre poderá reabrir uma fase posteriormente se precisar fazer alterações. Para obter mais informações, consulte  [Lifecycle Services (LCS) para clientes de aplicativos do Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-works-lcs). 
 

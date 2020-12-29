@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8439b88ccda3f72e5a9b918c6c89bd406599b516
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 28d58caba71ea98ccf163e756e879587aa254bb3
+ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818217"
+ms.lasthandoff: 11/07/2020
+ms.locfileid: "4410347"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
@@ -118,10 +118,12 @@ Para adicionar um módulo de finalização da compra a uma nova página e defini
 
 [Módulo de pagamento](payment-module.md)
 
-[Módulo do endereço de remessa](ship-address-module.md)
+[Módulo de endereço de remessa](ship-address-module.md)
 
 [Módulo de opções de entrega](delivery-options-module.md)
 
+[Módulo de informações sobre retirada](pickup-info-module.md)
+
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
-[Módulo de vale-presente](add-giftcard.md)
+[Módulo de cartão-presente](add-giftcard.md)

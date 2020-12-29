@@ -20,11 +20,11 @@ ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f9882ae895de926e0da3579ab65a988f2b97f7be
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021677"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410178"
 ---
 # <a name="install-the-pos-layout-designer"></a>Instalar o designer de layout do PDV
 
@@ -58,7 +58,7 @@ O design gráfico da interface do MPOS ou PDV em Nuvem é controlado pelo layout
 
     **Solução:** No Internet Explorer, adicione a URL do Commerce aos seus sites confiáveis. Clique em **Configurações** &gt; **Opções** &gt; **Segurança** &gt; **Sites confiáveis** &gt; **Sites** &gt; **Adicionar**.
 
-**Problema conhecido:** O designer não funciona corretamente em navegadores Google Chrome e Mozilla Firefox. Estamos trabalhando para solucionar o problema.
+**Problema conhecido**: o designer não funciona corretamente em navegadores Google Chrome e Mozilla Firefox. Estamos trabalhando para solucionar o problema.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

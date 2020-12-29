@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
 ms.openlocfilehash: 88a6d89bf98ea145bbb6a4eb8f4e052e5f4088e5
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3429925"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417307"
 ---
 # <a name="create-plan-types"></a>Criar tipos de plano
 
@@ -49,7 +49,7 @@ Um tipo de plano pode definir opções de cobertura. As opções de cobertura s�
    | **Inscrição simultânea** | Especifica se um funcionário pode se inscrever em vários planos de benefícios do mesmo tipo de plano ou somente um plano de benefício por tipo de plano. |
    | **Tipo de contato** | Especifica a função do contato pessoal. Os valores são em branco, dependente e beneficiário. Você poderá deixar o **Tipo de contato** em branco se o tipo de plano não exigir um dependente ou beneficiário com base na opção de cobertura. |
 
-4. Para configurar opções de evento de vida, selecione **Ações**e **Opções de evento de vida**. Especifique valores para os seguintes campos:
+4. Para configurar opções de evento de vida, selecione **Ações** e **Opções de evento de vida**. Especifique valores para os seguintes campos:
 
    | Campo | Descrição |
    | --- | --- |

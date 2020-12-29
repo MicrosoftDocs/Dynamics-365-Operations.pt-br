@@ -20,11 +20,11 @@ ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fb0472a0d2ac9b552cd16e4d6bf516a876ea4a0e
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981502"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422024"
 ---
 # <a name="moving-average"></a>Média de movimentos
 
@@ -141,7 +141,7 @@ Se a nova quantidade disponível for positiva após a transação, a transação
 
 ## <a name="inventory-value-report"></a>Relatório de valor de estoque
 
-Neste exemplo de média móvel, o relatório de valor de estoque é impresso para oferecer suporte ao cálculo atual da média móvel para um produto. O relatório Valor do estoque pode imprimir as transações em ordem cronológica, junto com o custo para oferecer suporte ao cálculo do custo de média móvel de um produto. O relatório exibe o custo de média móvel para o produto. Na caixa de diálogo **Relatórios de valor de estoque**, um Intervalo de datas permite que você selecione a **Hora da transação** ou a **Data de lançamento** no qual o relatório será classificado. A opção **Data de lançamento** é como o relatório é impresso tradicionalmente. A opção **Hora da transação** é a data real em que a transação é relatada e o custo de média móvel do produto é atualizado. É possível imprimir o relatório Valor do estoque usando a opção**Classificação de tempo da transação** se quiser ver o cálculo de custo de média móvel ao longo do tempo. A tabela a seguir exibe as transações do produto para o qual o relatório é impresso quando a opção **Classificação de tempo da transação** for usada.
+Neste exemplo de média móvel, o relatório de valor de estoque é impresso para oferecer suporte ao cálculo atual da média móvel para um produto. O relatório Valor do estoque pode imprimir as transações em ordem cronológica, junto com o custo para oferecer suporte ao cálculo do custo de média móvel de um produto. O relatório exibe o custo de média móvel para o produto. Na caixa de diálogo **Relatórios de valor de estoque**, um Intervalo de datas permite que você selecione a **Hora da transação** ou a **Data de lançamento** no qual o relatório será classificado. A opção **Data de lançamento** é como o relatório é impresso tradicionalmente. A opção **Hora da transação** é a data real em que a transação é relatada e o custo de média móvel do produto é atualizado. É possível imprimir o relatório Valor do estoque usando a opção **Classificação de tempo da transação** se quiser ver o cálculo de custo de média móvel ao longo do tempo. A tabela a seguir exibe as transações do produto para o qual o relatório é impresso quando a opção **Classificação de tempo da transação** for usada.
 
 | Hora da transação | Data         | Tipo de transação           | A quantidade | Valor | Custo médio da unidade |
 |------------------|--------------|----------------------------|----------|--------|-------------------|

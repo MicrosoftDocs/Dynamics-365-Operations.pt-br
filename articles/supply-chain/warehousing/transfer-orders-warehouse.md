@@ -17,11 +17,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: e482567eb92b9ab891d41d82d10cbb87f9b7fb01
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017474"
+ms.locfileid: "4422565"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Configurar depósitos para ordens de transferência 
 
@@ -33,9 +33,9 @@ Você pode usar níveis de depósito para criar uma hierarquia que ofereça supo
 
 2.  Selecione o depósito que desejar reabastecer.
 
-3.  Na FastTab **Planejamento mestre** , marque a caixa de seleção **Reabastecimento**.
+3.  Na FastTab **Planejamento mestre**, marque a caixa de seleção **Reabastecimento**.
 
-4.  No campo **Depósito principal** , selecione o depósito que deseja atribuir como o depósito de reabastecimento. O agendamento do planejamento mestre calculará uma solicitação de transferência para o depósito selecionado e gerará uma ordem de transferência planejada a partir do **Depósito principal** atribuído.
+4.  No campo **Depósito principal**, selecione o depósito que deseja atribuir como o depósito de reabastecimento. O agendamento do planejamento mestre calculará uma solicitação de transferência para o depósito selecionado e gerará uma ordem de transferência planejada a partir do **Depósito principal** atribuído.
    
     > [!NOTE]
     > <P>Se você desmarcar a caixa de seleção <STRONG>Reabastecimento</STRONG>, o depósito selecionado será atribuído a um nível de depósito em relação ao <STRONG>Depósito principal</STRONG>, mas o <STRONG>Depósito principal</STRONG> não está configurado como um depósito de reabastecimento.</P>
@@ -50,6 +50,6 @@ Você pode usar níveis de depósito para criar uma hierarquia que ofereça supo
 
 Você também deve configurar o prazo de entrega de transporte entre os depósitos na página **Dias de transporte** . 
 1. Vá para **Gerenciamento de estoque > Configuração > Distribuição > Dias de transporte**.
-2. No campo **Ponto de recebimento** , selecione **depósito**.
-3. Selecione **Depósito da remessa** , **Depósito de recebimento** e **Dias de transporte**. 
+2. No campo **Ponto de recebimento**, selecione **depósito**.
+3. Selecione **Depósito da remessa**, **Depósito de recebimento** e **Dias de transporte**. 
 4. (Opcional) você também pode definir o tempo de transporte, dependendo do modo de entrega, na guia **Dias de transporte por modo de entrega** .

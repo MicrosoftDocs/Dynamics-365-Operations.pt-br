@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 43389db93032ec29adb805f86ae04a686803176f
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889568"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422079"
 ---
 # <a name="maintenance-status"></a>Status de manutenção
 
@@ -45,7 +45,7 @@ No Gerenciamento de Ativos, você pode fazer um cálculo para obter uma visão g
   
   Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de manutenção em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-4. Clique em **OK**para iniciar o cálculo.
+4. Clique em **OK** para iniciar o cálculo.
 
 5. Clique nos botões **Agrupar por** para mostrar o nível de detalhes necessário para o cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 

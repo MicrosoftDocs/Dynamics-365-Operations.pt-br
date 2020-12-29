@@ -18,11 +18,11 @@ ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014903"
+ms.locfileid: "4422497"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurar recursos do Azure para Inteligência de IoT
 
@@ -41,7 +41,7 @@ Para verificar se a ID do aplicativo para o aplicativo interno de microsserviço
 1. Entre no portal do Azure em <https://portal.azure.com>.
 2. Acesse **Azure Active Directory**.
 3. Vá para **Aplicativos corporativos**.
-4. No campo **Tipo de aplicativo** , selecione **Aplicativos da Microsoft**.
+4. No campo **Tipo de aplicativo**, selecione **Aplicativos da Microsoft**.
 5. No campo de pesquisa, insira os **microsserviços do Microsoft Dynamics ERP**.
 6. Verifique se **microsserviços do Microsoft Dynamics ERP** estão na lista. Outros aplicativos têm nomes semelhantes. Portanto, certifique se você encontrou a aplicação correta. A ID do aplicativo é **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
 
@@ -61,8 +61,8 @@ Para criar um recurso de cofre de chaves, siga estas etapas.
 
 1. No portal do Azure, crie ou acesse um grupo de recursos.
 2. Selecione **Adicionar**.
-3. Na página **Novo** , no campo de pesquisa, insira o **Cofre de chaves**. Depois, selecione **Criar**.
-4. Na página **Criar cofre de chaves** , no campo **Nome do cofre de chaves** , insira um nome.
+3. Na página **Novo**, no campo de pesquisa, insira o **Cofre de chaves**. Depois, selecione **Criar**.
+4. Na página **Criar cofre de chaves**, no campo **Nome do cofre de chaves**, insira um nome.
 5. Revise os valores padrão e selecione **Revisar + Criar**.
 6. Selecione **Criar**.
 
@@ -74,8 +74,8 @@ Para criar um recurso de Hub IoT, siga estas etapas.
 
 1. Crie ou vá para um grupo de recursos.
 2. Selecione **Adicionar**.
-3. Na página **Novo** , no campo de pesquisa, insira o **Hub Iot**. Depois, selecione **Criar**.
-4. No campo **Nome de Hub IoT** , insira um nome.
+3. Na página **Novo**, no campo de pesquisa, insira o **Hub Iot**. Depois, selecione **Criar**.
+4. No campo **Nome de Hub IoT**, insira um nome.
 5. Revise os valores padrão e selecione **Revisar + Criar**.
 6. Selecione **Criar**.
 
@@ -90,8 +90,8 @@ Para criar um recurso de cache Redis, siga estas etapas.
 
 1. Crie ou vá para um grupo de recursos.
 2. Selecione **Adicionar**.
-3. Na página **Novo** , no campo de pesquisa, insira **Cache do Azure para Redis**. Depois, selecione **Criar**.
-4. No campo **Nome do DNS** , insira um nome.
+3. Na página **Novo**, no campo de pesquisa, insira **Cache do Azure para Redis**. Depois, selecione **Criar**.
+4. No campo **Nome do DNS**, insira um nome.
 5. Revise os valores padrão e selecione **Criar**.
 
 O cache Redis é criado em segundo plano.
@@ -109,7 +109,7 @@ Para configurar o Hub IoT, siga estas etapas.
 
 1. Em seus recursos, selecione o recurso de Hub IoT.
 2. No painel de navegação esquerdo, selecione **Empresas internas**.
-3. Em **Grupos de consumidores** , cole os seguintes grupos de consumidores. Esses grupos de consumidores correspondem aos cenários de retirada da caixa.
+3. Em **Grupos de consumidores**, cole os seguintes grupos de consumidores. Esses grupos de consumidores correspondem aos cenários de retirada da caixa.
 
     + microsoft.dynamics.iotintelligence-1
     + microsoft.dynamics.iotintelligence-2
@@ -122,9 +122,9 @@ Para configurar o cofre de chaves, siga estas etapas.
 1. Em seus recursos, selecione o recurso de cofre de chaves.
 2. No painel de navegação esquerdo, selecione **Políticas de acesso**.
 3. Selecione **Adicionar uma política de acesso**.
-4. Na página **Adicionar política de acesso** , no campo **Permissões secretas** , selecione **Obter** e **Lista**.
+4. Na página **Adicionar política de acesso**, no campo **Permissões secretas**, selecione **Obter** e **Lista**.
 5. Clique em **Selecionar principal**.
-6. Na caixa de diálogo **Principal** , busque por e selecione **Microsserviços do Microsoft Dynamics ERP**. Depois selecione **Selecionar**.
+6. Na caixa de diálogo **Principal**, busque por e selecione **Microsserviços do Microsoft Dynamics ERP**. Depois selecione **Selecionar**.
 7. Selecione **Adicionar**.
 8. Selecione **Salvar**.
 
@@ -140,8 +140,8 @@ Para salvar o segredo da cadeia de conexão do Hub IoT, siga estas etapas.
 4. Vá para o recurso de cofre de chaves.
 5. No painel de navegação à esquerda, selecione **Segredos**.
 6. Selecione **Gerar/Importar**.
-7. No campo **Nome** , insira um nome.
-8. No campo **Valor** , cole o valor da empresa que você copiou anteriormente.
+7. No campo **Nome**, insira um nome.
+8. No campo **Valor**, cole o valor da empresa que você copiou anteriormente.
 9. Selecione **Criar**.
 
 ### <a name="save-the-redis-cache-connection-string-secret"></a>Salvar o segredo da cadeia de conexão do cache Redis
@@ -154,8 +154,8 @@ Para salvar o segredo da cadeia de conexão do cache Redis, siga estas etapas.
 4. Vá para o recurso de cofre de chaves.
 5. No painel de navegação à esquerda, selecione **Segredos**.
 6. Selecione **Gerar/Importar**.
-7. No campo **Nome** , insira um nome.
-8. No campo **Valor** , cole a cadeia de conexão que você copiou anteriormente.
+7. No campo **Nome**, insira um nome.
+8. No campo **Valor**, cole a cadeia de conexão que você copiou anteriormente.
 9. Selecione **Criar**.
 
 > [!NOTE]

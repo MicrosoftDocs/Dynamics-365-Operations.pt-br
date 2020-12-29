@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 617fca55226e216197c385c88a9d7a8e3de03b03
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889976"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422215"
 ---
 # <a name="maintenance-downtime-activities"></a>Atividades de tempo de inatividade de manutenção
 
@@ -73,7 +73,7 @@ A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades
 
 9. Na caixa de diálogo **Calcular a capacidade máxima**, edite as horas inicial e final, se necessário, e selecione se você quer incluir ordens de serviço e agendamentos de manutenção no cálculo. Você pode usar o campo **Nível** para indicar o nível de detalhes que você deseja que o cálculo de capacidade máxima tenha em relação aos locais funcionais. Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de local funcional de vários níveis, todos os ativos do local funcional, selecionados na atividade do tempo de inatividade de manutenção serão mostrados em nível superior, e portanto, as horas em uma linha podem ser adicionadas de locais funcionais localizados em nível inferior. Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas da capacidade máxima em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-10. Clique em **OK**para iniciar o cálculo. O número total de horas é mostrado na visão geral **Capacidade máxima**. Na guia **Capacidade máxima** > grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de horas previstas. A ilustração a seguir mostra os resultados de um cálculo de **Capacidade máxima**.
+10. Clique em **OK** para iniciar o cálculo. O número total de horas é mostrado na visão geral **Capacidade máxima**. Na guia **Capacidade máxima** > grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de horas previstas. A ilustração a seguir mostra os resultados de um cálculo de **Capacidade máxima**.
 
 ![Figura 3](media/21-preventive-maintenance.png)
 
@@ -90,7 +90,7 @@ A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades
 
 15. Na caixa de diálogo **Calcular previsão do item**, edite as horas inicial e final, se necessário, selecione se você quer incluir ordens de serviço e agendamentos de manutenção no cálculo. Você pode usar o campo **Nível** para indicar o nível de detalhes que você deseja que o cálculo de capacidade máxima tenha em relação aos locais funcionais. Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de local funcional de vários níveis, todos os ativos do local funcional, selecionados na atividade do tempo de inatividade de manutenção serão mostrados em nível superior, e portanto, as horas em uma linha podem ser adicionadas de locais funcionais localizados em nível inferior. Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas da capacidade máxima em todos os níveis do local funcional ao qual elas estão relacionadas.
 
-16. Clique em **OK**para iniciar o cálculo. O número total de previsões do item é mostrado na visão geral **Previsão do item**. Na guia **Previsão de itens** > grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de itens previstos. A ilustração a seguir mostra os resultados de um cálculo de **Previsão de itens**.
+16. Clique em **OK** para iniciar o cálculo. O número total de previsões do item é mostrado na visão geral **Previsão do item**. Na guia **Previsão de itens** > grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de itens previstos. A ilustração a seguir mostra os resultados de um cálculo de **Previsão de itens**.
 
 ![Figura 4](media/22-preventive-maintenance.png)
 

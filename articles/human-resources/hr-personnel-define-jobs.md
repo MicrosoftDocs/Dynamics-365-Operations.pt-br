@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 47a81d5c872b49b2395ed687855798fe04772b7e
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3428653"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4417303"
 ---
 # <a name="define-new-jobs"></a>Definir novos trabalhos
 
@@ -57,7 +57,7 @@ Essa tarefa se concentra na criação de um novo trabalho. Será concluída usan
 21. Na lista, localize e selecione o PDV desejado.
 22. Na lista, clique no link na linha selecionada.
 23. Alternar a expansão da seção Habilidades.
-    * Observe que os campos nas habilidades, os certificados e a formação educacional FastTabs estão em branco. Depois de copiar informações de um modelo de trabalho, as informações nos campos será inserida em uma única etapa.   
+    * Observe que os campos nas habilidades, os certificados e a formação educacional FastTabs estão em branco. Depois de copiar informações de um modelo de trabalho, as informações nos campos será inserida em uma única etapa.   
 24. Clique em Salvar.
 25. Clique em Copiar de.
 26. Clique em Copiar do modelo.

@@ -19,11 +19,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 17b8504b2aecbe375fe178eac76da9c30c9b12bd
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015978"
+ms.locfileid: "4422522"
 ---
 # <a name="cycle-counting"></a>Contagem cíclica
 
@@ -110,7 +110,7 @@ O trabalho de contagem cíclica pode ser criado quando o número de itens cai ab
 Você pode agendar planos de contagem cíclica para criar um trabalho de contagem cíclica de forma imediata ou periódica. Ao configurar planos de contagem cíclica, você pode controlar o pool de trabalho para o qual o trabalho de contagem cíclica é criado, o número máximo de contagens de ciclos criados para itens em locais diferentes e o número de dias antes que um local de depósito seja contado novamente. Por exemplo, um item estará disponível em três locais no depósito, e o número máximo de contagens do ciclo é definido como **2**. Nesse caso, quando você executa o plano de contagem cíclica, duas contagens cíclicas são criadas para os dois locais onde o item está presente. Como outro exemplo, você define o número de dias entre as contagens cíclicas como **5**. Nesse caso, o trabalho de contagem cíclica é criado a cada cinco dias. No entanto, se o trabalho de contagem cíclica for processado no dia três, o trabalho seguinte de contagem cíclica será criado cinco dias após a última contagem cíclica tiver sido processada, no dia oito.
 
 ## <a name="create-cycle-counting-work-manually"></a>Criar o trabalho de contagem cíclica manualmente
-Para criar manualmente o trabalho de contagem cíclica, você poderá usar a página **Trabalho de contagem cíclica por item** ou a **Trabalho de contagem cíclica por local**. Você pode especificar o número máximo de contagens cíclicas a serem criadas. Por exemplo, se o gerente de depósito especificar um valor **5** , o trabalho de contagem cíclica será criado para cinco locais mesmo que o item esteja presente em 10 locais. Você também pode selecionar uma ID de grupo de trabalho à qual as IDs de trabalho de contagem cíclica criadas são atribuídas. Quando uma ID de grupo de trabalho é processada para a contagem cíclica, as IDs de trabalho de contagem cíclicas atribuídas ao grupo de trabalho são processadas como um grupo.
+Para criar manualmente o trabalho de contagem cíclica, você poderá usar a página **Trabalho de contagem cíclica por item** ou a **Trabalho de contagem cíclica por local**. Você pode especificar o número máximo de contagens cíclicas a serem criadas. Por exemplo, se o gerente de depósito especificar um valor **5**, o trabalho de contagem cíclica será criado para cinco locais mesmo que o item esteja presente em 10 locais. Você também pode selecionar uma ID de grupo de trabalho à qual as IDs de trabalho de contagem cíclica criadas são atribuídas. Quando uma ID de grupo de trabalho é processada para a contagem cíclica, as IDs de trabalho de contagem cíclicas atribuídas ao grupo de trabalho são processadas como um grupo.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Executar uma contagem cíclica usando um dispositivo móvel
 Há vários métodos para processar o trabalho de contagem cíclica usando o Supply Chain Management em um dispositivo móvel:
@@ -124,7 +124,7 @@ O exemplo a seguir mostra como você pode executar a contagem cíclica de ponto 
 
 1.  No dispositivo móvel, selecione o item de menu para processar o trabalho de contagem cíclica de ponto.
 2.  Registre o local para o qual será executada a contagem cíclica de ponto.
-3.  Registre e confirme o número do item e a quantidade contada do item. **Observação:** o status do trabalho de contagem cíclica é atualizado para **Revisão pendente** ou **Fechado** na página **Todos os trabalhos** , dependendo dos parâmetros definidos na página **Trabalhador**.
+3.  Registre e confirme o número do item e a quantidade contada do item. **Observação:** o status do trabalho de contagem cíclica é atualizado para **Revisão pendente** ou **Fechado** na página **Todos os trabalhos**, dependendo dos parâmetros definidos na página **Trabalhador**.
 4.  Opcional: repita a etapa 3 para os outros itens no local e confirme se não há itens adicionais disponíveis para a contagem.
 
 ## <a name="resolve-cycle-counting-differences"></a>Resolver diferenças de contagem cíclica

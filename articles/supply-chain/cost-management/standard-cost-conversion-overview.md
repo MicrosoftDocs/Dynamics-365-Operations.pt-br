@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e9874d3b44a687a60ea1fd26889af3d1b644f86a
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3214380"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422263"
 ---
 # <a name="standard-cost-conversion-overview"></a>Visão geral da conversão em custo padrão
 
@@ -60,13 +60,13 @@ A nova versão de avaliação de custo é dedicada ao registro de conversão, co
 As informações de custo de item na versão do custo dedicada só podem ser mantidas na página **Conversões de custo padrão**. Você não pode usar a página **Configuração da versão de avaliação de custo** ou a página **Manutenção de versão de avaliação de custo** para calcular custos para a versão de avaliação de custo durante a conversão. No entanto, você pode usar essas páginas para manter a versão de avaliação de custo dedicada depois de concluir o processo de conversão.
 
 ## <a name="3-identify-the-items-to-convert-to-standard-cost"></a>3. Identificar os itens a serem convertidos em custo padrão
-Use a página**Conversões de custo padrão** para identificar os itens individuais que devem ser convertidos em custo padrão. Você pode adicionar vários itens usando a página **Adicionar itens à conversão de custo padrão**. Em geral, você deve incluir todos os itens fabricados em um único registro de conversão para ajudar a garantir que os custos sejam calculados corretamente.
+Use a página **Conversões de custo padrão** para identificar os itens individuais que devem ser convertidos em custo padrão. Você pode adicionar vários itens usando a página **Adicionar itens à conversão de custo padrão**. Em geral, você deve incluir todos os itens fabricados em um único registro de conversão para ajudar a garantir que os custos sejam calculados corretamente.
 
 ## <a name="4-enter-or-calculate-the-pending-standard-cost-for-each-item-that-is-being-converted"></a>4. Inserir ou calcular o custo padrão pendente para cada item que está sendo convertido
 Use a página **Preço de item** para inserir custos padrão pendentes na versão do custo dedicada para itens comprados e transferidos. Os registros de custos são específicos ao site e os custos pendentes de um item devem ser inseridos para cada site. Use a página **Preço de item** para calcular os custos padrão pendentes para itens fabricados. Os custos pendentes de um item fabricado devem ser calculados para cada site de fabricação, a menos que o site represente um site de transferência. Nesse caso, os custos pendentes devem ser inseridos manualmente. Alguns itens podem ter as dimensões do produto de cor, tamanho ou configuração. Na página **Conversões de custo padrão**, a caixa de seleção **Usar preço de custo por variante** mostra o custo padrão para cada combinação de dimensões do produto. Quando essa caixa de seleção é desmarcada, você deve inserir um custo pendente para o item.
 
 ## <a name="5-check-and-resolve-any-issues-for-the-items-that-are-being-converted"></a>5. Verificar e resolver os problemas dos itens que estão sendo convertidos
-Use o relatório**Verificações da conversão de custo padrão** para identificar os problemas dos itens que estão sendo convertidos. Se um item não tiver problemas, o status dele no registro de conversão será alterado para **Verificado**. Se um item tiver problemas, você deverá resolver os problemas e então executar o relatório novamente até que o status do item seja alterado para **Verificado**. Se você não conseguir resolver os problemas de um item rapidamente, terá a opção de excluir o item do registro de conversão e convertê-lo posteriormente.
+Use o relatório **Verificações da conversão de custo padrão** para identificar os problemas dos itens que estão sendo convertidos. Se um item não tiver problemas, o status dele no registro de conversão será alterado para **Verificado**. Se um item tiver problemas, você deverá resolver os problemas e então executar o relatório novamente até que o status do item seja alterado para **Verificado**. Se você não conseguir resolver os problemas de um item rapidamente, terá a opção de excluir o item do registro de conversão e convertê-lo posteriormente.
 
 ## <a name="6-change-the-status-of-the-conversion-record-to-ready"></a>6. Altere o status do registro de conversão para Pronto.
 Quando o status do registro de conversão for alterado para **Pronto**, o sistema realizará uma verificação final antes de executar uma conversão de custo padrão. O status só será alterado para **Pronto** quando as condições a seguir forem atendidas:

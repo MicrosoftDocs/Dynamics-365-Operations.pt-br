@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 37da9d59e4e9cf84238f6798a1aa7de72ff91f02
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3888815"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422076"
 ---
 # <a name="create-functional-locations"></a>Criar locais funcionais
 
@@ -80,7 +80,7 @@ Consulte [Instalar ativos em locais funcionais](../functional-locations/install-
 
 ## <a name="asset-attribute-requirements"></a>Requisitos de atributos do ativo
 
-Nesta Guia Rápida, você pode adicionar requisitos específicos de atributos para os ativos que você instala no local funcional. Esses requisitos são meramente informativos. Eles não impedem que você instale ativos com outros requisitos de atributos. Selecione **Adicionar linha** e o tipo de atributo. Após inserir o **Valor**relevante, selecione um limite no campo **Critérios de limite** e salve o registro.
+Nesta Guia Rápida, você pode adicionar requisitos específicos de atributos para os ativos que você instala no local funcional. Esses requisitos são meramente informativos. Eles não impedem que você instale ativos com outros requisitos de atributos. Selecione **Adicionar linha** e o tipo de atributo. Após inserir o **Valor** relevante, selecione um limite no campo **Critérios de limite** e salve o registro.
 
 ## <a name="maintenance-plans-and-maintenance-rounds"></a>Planos de manutenção e rounds de manutenção
 

@@ -20,11 +20,11 @@ ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: a89effb686d60dde9d11f99be51d4101897ad4ea
-ms.sourcegitcommit: e3f4dd2257a3255c2982f4fc7b72a1121275b88a
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4018620"
+ms.locfileid: "4422608"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Solucionar problemas de recebimentos e faturamento de produtos
 
@@ -38,7 +38,7 @@ Uma quantidade será obrigatória se você quiser lançar faturas. Portanto, se 
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho* , vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Não consigo consolidar vários recebimentos de produtos em uma única ordem de compra.
 
@@ -58,7 +58,7 @@ Se um recebimento de produtos for cancelado, o sistema permitirá que as transa�
 
 O seguinte procedimento mostra uma forma de reproduzir o problema.
 
-1. Na página **Parâmetros de contas a pagar** , na guia **Geral** , verifique se a opção **Lançar o recebimento de produtos no razão** está definida como *Sim*.
+1. Na página **Parâmetros de contas a pagar**, na guia **Geral**, verifique se a opção **Lançar o recebimento de produtos no razão** está definida como *Sim*.
 1. Crie uma ordem de compra e adicione uma linha de ordem que tenha uma quantidade de *1.000* para um produto.
 1. Confirme uma ordem de compra.
 1. Lance o recebimento de produtos e verifique os comprovantes.
@@ -74,7 +74,7 @@ As transações podem ser lançadas nas contas contábeis suspensas quando os re
 
 Se a opção **Acumular passivo no recebimento de produtos** estiver definida como *Não* para o grupo de modelos de item, não ocorrerá lançamentos na contabilidade. No entanto, um evento físico será registrado para a finalidade de contabilização em um diário-razão e esse evento exigirá um número de comprovante. Esse número de comprovante é o número de comprovante referido nas transações de estoque.
 
-Recomendamos definir a opção **Acumular passivo no recebimento de produtos** como *Sim* , conforme descrito na seguinte postagem no blog: [Lançar encargos diversos no momento do recebimento do produto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
+Recomendamos definir a opção **Acumular passivo no recebimento de produtos** como *Sim*, conforme descrito na seguinte postagem no blog: [Lançar encargos diversos no momento do recebimento do produto](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/11/11/post-misc-charges-at-time-of-product-receipt/).
 
 ## <a name="the-post-to-charge-account-in-ledger-setting-isnt-turned-on"></a>A configuração Lançar na conta de encargos não está ativada.
 
@@ -87,11 +87,11 @@ Esse problema ocorre quando uma ordem de compra é faturada, se a opção **Lan�
 O seguinte procedimento mostra uma forma de reproduzir o problema.
 
 1. Acesse **Contas a pagar \> Configuração \> Parâmetros de contas a pagar**.
-1. Na guia **Fatura** , configure a opção **Lançar na conta de encargos do razão** como *Sim*.
+1. Na guia **Fatura**, configure a opção **Lançar na conta de encargos do razão** como *Sim*.
 1. Vá para **Gerenciamento de estoque \> Configurar \> Lançamento \> Lançamento**.
-1. Na guia **Ordem de compra** , certifique-se de ter excluído todas as linhas nas despesas de compra do produto.
+1. Na guia **Ordem de compra**, certifique-se de ter excluído todas as linhas nas despesas de compra do produto.
 1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
-1. Criar uma ordem de compra. No campo **Conta de fornecedor** , selecione *1001 Suprimentos de Escritórios Acme*.
+1. Criar uma ordem de compra. No campo **Conta de fornecedor**, selecione *1001 Suprimentos de Escritórios Acme*.
 1. Adicione uma linha da ordem de compra com as seguintes configurações:
 
     - **Nº do item:** *Projetor Laser D0011*
@@ -99,11 +99,11 @@ O seguinte procedimento mostra uma forma de reproduzir o problema.
     - **Depósito:** *11*
     - **Quantidade:** *4*
 
-1. No Painel de Ação, na guia **Compra** , no grupo **Ação** , selecione **Confirmar**.
-1. No Painel de Ação, na guia **Receber** , no grupo **Gerar** , selecione **Recebimento de produtos**.
-1. Na caixa de diálogo **Lançamento de recebimento de produtos** , no campo **Recebimento de produtos** , insira um número arbitrário e selecione **OK**.
-1. No Painel de Ação, na guia **Fatura** , no grupo **Gerar** , selecione **Fatura**.
-1. No campo **Número** , insira um número arbitrário como o número da fatura.
+1. No Painel de Ação, na guia **Compra**, no grupo **Ação**, selecione **Confirmar**.
+1. No Painel de Ação, na guia **Receber**, no grupo **Gerar**, selecione **Recebimento de produtos**.
+1. Na caixa de diálogo **Lançamento de recebimento de produtos**, no campo **Recebimento de produtos**, insira um número arbitrário e selecione **OK**.
+1. No Painel de Ação, na guia **Fatura**, no grupo **Gerar**, selecione **Fatura**.
+1. No campo **Número**, insira um número arbitrário como o número da fatura.
 1. Atualizar o status de conciliação e lançar.
 1. Observe que agora você recebe o seguinte erro ao gerar uma fatura de uma ordem de compra: "O número da conta para o tipo de transação Despesas de compra para o produto não existe."
 

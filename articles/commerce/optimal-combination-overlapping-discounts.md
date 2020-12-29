@@ -20,11 +20,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021670"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4410201"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar a combinação ideal de sobreposição de descontos
 

@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c6e70a40b15bf08d88958cbf3ee3e82ed63e7a48
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201723"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422162"
 ---
 # <a name="include-physical-value"></a>Incluir valor físico
 
@@ -45,7 +45,7 @@ A caixa de seleção tem efeitos ligeiramente diferentes, dependendo do modelo d
 -   Se você não marcar a caixa de seleção **Incluir valor físico** ao usar esses modelos de estoque, o fechamento de estoque liquidará somente para transações atualizadas financeiramente.
 -   Ao usar a média ponderada ou o modelo de estoque de data da média ponderada, o fechamento de estoque liquidará somente transações atualizadas financeiramente, independentemente de você marcar a caixa de seleção **Incluir valor físico**.
 
-**Exemplo 1** Você marcou a caixa de seleção**Incluir valor físico** e recebe as seguintes ordens de compra:
+**Exemplo 1** Você marcou a caixa de seleção **Incluir valor físico** e recebe as seguintes ordens de compra:
 
 -   Uma ordem de compra para uma quantidade 2 e um preço de custo de BRL 10,00 que foi atualizado na guia de remessa.
 -   Uma ordem de compra para uma quantidade 3 e um preço de custo de BRL 12,00 que foi atualizado na fatura.

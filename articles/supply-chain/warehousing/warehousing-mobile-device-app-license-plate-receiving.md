@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
 ms.openlocfilehash: 0d6894c0adb5671818e976dbb5116ecb947025d2
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016553"
+ms.locfileid: "4422566"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-app"></a>Recebimento da placa de licença por meio do aplicativo de depósito
 
@@ -31,7 +31,7 @@ Este tópico explica como configurar o aplicativo de depósito para oferecer sup
 
 Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema automaticamente cria um ASN quando os processos de gerenciamento do depósito forem usados para remeter uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
 
-Os dados do ASN são vinculados a cargas e remessas por meio de *estruturas de embalagem* , nas quais os paletes (placas de licença pai) podem conter caixas (placas de licença aninhadas).
+Os dados do ASN são vinculados a cargas e remessas por meio de *estruturas de embalagem*, nas quais os paletes (placas de licença pai) podem conter caixas (placas de licença aninhadas).
 
 > [!NOTE]
 > Para reduzir o número de transações de estoque quando estruturas de embalagem com placas de licença aninhadas forem usadas, o sistema registra o estoque físico disponível na placa de licença pai. Para acionar a movimentação do estoque físico disponível da placa de licença pai para as placas de licença aninhadas, com base nos dados de estrutura de embalagem, o dispositivo móvel deve fornecer um item de menu baseado no processo de criação de trabalho *Empacotar em placas de licença aninhadas*.
@@ -42,15 +42,15 @@ Quando um trabalhador digitaliza uma ID da placa de licença recebida, o sistema
 
 ## <a name="work-policies"></a>Políticas de trabalho
 
-Como ocorre com (por exemplo) o processo de item de menu de dispositivo móvel *Relatar como concluído* , o processo de recebimento da placa de licença oferece suporte a vários fluxos de trabalho com base na configuração definida.
+Como ocorre com (por exemplo) o processo de item de menu de dispositivo móvel *Relatar como concluído*, o processo de recebimento da placa de licença oferece suporte a vários fluxos de trabalho com base na configuração definida.
 
 ### <a name="work-policies-with-work-creation"></a>Políticas de trabalho com criação de trabalho
 
-Quando você registra itens de entrada usando uma política de trabalho que cria trabalho, o sistema gera e salva registros de trabalho armazenados para cada registro. Se você usar o processo de trabalho *Recebimento e armazenamento de placa de licença* , então o registro e o armazenamento serão tratados como uma única operação usando um único item de menu de dispositivo móvel. Se você usar o processo *Recebimento da placa de licença* , os processos de recebimento e de armazenamento são tratados como duas operações de depósito diferentes, cada uma com seu próprio item de menu de dispositivo móvel.
+Quando você registra itens de entrada usando uma política de trabalho que cria trabalho, o sistema gera e salva registros de trabalho armazenados para cada registro. Se você usar o processo de trabalho *Recebimento e armazenamento de placa de licença*, então o registro e o armazenamento serão tratados como uma única operação usando um único item de menu de dispositivo móvel. Se você usar o processo *Recebimento da placa de licença*, os processos de recebimento e de armazenamento são tratados como duas operações de depósito diferentes, cada uma com seu próprio item de menu de dispositivo móvel.
 
 ### <a name="work-policies-without-work-creation"></a>Políticas de trabalho sem criação de trabalho
 
-Você pode usar o processo de recebimento da placa de licença sem criar trabalho. Se você definir políticas de trabalho que tenham um tipo de ordem de trabalho de *Recebimento de transferência* e/ou *Ordens de compra* , e usar o processo para *Recebimento de placa de licença (e armazenamento)* , os dois processos do Warehouse Mobile App não criarão trabalhos. Em vez disso, eles apenas registram o estoque físico de entrada na placa de licença na doca de recebimento de entrada.
+Você pode usar o processo de recebimento da placa de licença sem criar trabalho. Se você definir políticas de trabalho que tenham um tipo de ordem de trabalho de *Recebimento de transferência* e/ou *Ordens de compra*, e usar o processo para *Recebimento de placa de licença (e armazenamento)*, os dois processos do Warehouse Mobile App não criarão trabalhos. Em vez disso, eles apenas registram o estoque físico de entrada na placa de licença na doca de recebimento de entrada.
 
 - *Recebimento da placa de licença*
 - *Recebimento e armazenamento da placa de licença*
@@ -67,7 +67,7 @@ Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o r
 
 ## <a name="add-mobile-device-menu-items-for-each-receiving-location-in-a-warehouse"></a>Adicionar itens de menu de dispositivo móvel para cada local de recebimento em um depósito
 
-O recurso *Aprimoramentos de recebimento de placa de licença* permite que você receba em qualquer local de um depósito adicionando itens de menu de recebimento de placa de licença específico do local (e armazene) ao Warehouse Mobile App. Anteriormente, o sistema tem suporte para receber somente no local padrão definido para cada depósito. No entanto, quando esse recurso está ativado, os itens de menu do dispositivo móvel para recebimento de placa de licença (e armazenado) agora fornecem a opção **Usar dados padrão** , que permite selecionar um local "para" personalizado para cada item de menu. (Esta opção já estava disponível para alguns outros tipos de itens de menu.)
+O recurso *Aprimoramentos de recebimento de placa de licença* permite que você receba em qualquer local de um depósito adicionando itens de menu de recebimento de placa de licença específico do local (e armazene) ao Warehouse Mobile App. Anteriormente, o sistema tem suporte para receber somente no local padrão definido para cada depósito. No entanto, quando esse recurso está ativado, os itens de menu do dispositivo móvel para recebimento de placa de licença (e armazenado) agora fornecem a opção **Usar dados padrão**, que permite selecionar um local "para" personalizado para cada item de menu. (Esta opção já estava disponível para alguns outros tipos de itens de menu.)
 
 Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o recurso *Aprimoramentos de recebimento de placa de licença* no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
@@ -93,7 +93,7 @@ Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o r
 Para gerenciar a funcionalidade quando esse recurso estiver disponível, siga estas etapas.
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
-1. Na guia **Geral** no FastTab **Placas de licença** , defina o campo **Política da placa de licença do depósito de trânsito** com um dos seguintes valores:
+1. Na guia **Geral** no FastTab **Placas de licença**, defina o campo **Política da placa de licença do depósito de trânsito** com um dos seguintes valores:
 
     - **Permitir reutilização de placa de licença não rastreada** – O sistema funciona da mesma forma quando o recurso *Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino* não está disponível. Esse valor é a configuração padrão quando você ativa o recurso pela primeira vez.
     - **Impedir a reutilização de placa de licença não rastreada** – Somente as atualizações disponíveis relacionadas a uma placa de licença remetida serão permitidas no depósito de destino até que a ordem de transferência tenha sido recebida.
@@ -102,6 +102,6 @@ Para gerenciar a funcionalidade quando esse recurso estiver disponível, siga es
 
 Para obter mais informações sobre itens do menu do dispositivo móvel, consulte [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md).
 
-Para obter mais informações sobre o cenário de produção de *Relatar como concluído* , consulte a [Visão geral de políticas de trabalho de depósito](warehouse-work-policies.md).
+Para obter mais informações sobre o cenário de produção de *Relatar como concluído*, consulte a [Visão geral de políticas de trabalho de depósito](warehouse-work-policies.md).
 
 Para obter mais informações sobre o gerenciamento de carga de entrada, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](inbound-load-handling.md).

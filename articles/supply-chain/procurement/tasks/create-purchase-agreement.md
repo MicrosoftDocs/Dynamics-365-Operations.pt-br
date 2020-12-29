@@ -17,11 +17,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1edfd4e56910376d0596eec5eff2af888f7dc98d
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3207729"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422126"
 ---
 # <a name="create-a-purchase-agreement"></a>Criar um contrato de compra
 
@@ -35,7 +35,7 @@ Neste tópico, você entenderá como criar um contrato de compra. Isso seria fei
 2. Clique em **Novo**.
 3. No campo **Conta do fornecedor**, selecione o menu suspenso e selecione a linha do registro desejado.
 4. No campo **Classificação de contrato de compra**, selecione o menu suspenso e selecione a linha do registro desejado.
-5. Expanda a Guia Rápida**Geral**.
+5. Expanda a Guia Rápida **Geral**.
 6. No campo **Data de validade**, insira uma data.
 
     - Essa data de vencimento será o padrão para todas as linhas de compromisso e irá determinar por quanto tempo cada compromisso específico é válido.  

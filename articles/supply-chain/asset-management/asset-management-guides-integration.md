@@ -16,11 +16,11 @@ ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
 ms.openlocfilehash: f9ee7f1af8e88f56589c84bfaa063ea005aa353a
-ms.sourcegitcommit: 88b4a9d19d16b0ef6543adf7c378a08bf0e07b3a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "3311772"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422012"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrar Dynamics 365 Supply Chain Management (Gerenciamento de ativos) com Dynamics 365 Guides
 
@@ -33,7 +33,7 @@ Para poder anexar guias a ordens de trabalho de gerenciamento de ativos, você d
 - [Configurar o Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) versão 10.0.9 ou posterior.
 - [Ative a gravação dupla para aplicativos de Supply Chain Management](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Ative a versão de pré-lançamento](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) para o recurso **MRGuidesFeature**. (Para ambientes de produção, você deve primeiro enviar um tíquete de suporte para que seu locatário seja adicionado ao grupo de versão de pré-lançamento.)
-- [Ative as seguintes chaves de configuração ](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) na página **Configuração de licenças**:
+- [Ative as seguintes chaves de configuração](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) na página **Configuração de licenças**:
 
     - Gerenciamento de ativos \> Realidade combinada de gerenciamento de ativos
     - Realidade combinada \> Guia de realidade combinada

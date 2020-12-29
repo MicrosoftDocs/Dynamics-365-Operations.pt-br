@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 3ebbb1016bafed8ad9fb998fc76152e215c08c3e
-ms.sourcegitcommit: c986d5234b81d31cc6d054298be6f6ec92c1754c
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3889520"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4422083"
 ---
 # <a name="asset-kpis"></a>KPIs do ativo
 
@@ -39,7 +39,7 @@ No Gerenciamento de Ativos, é possível calcular vários KPIs (indicadores chav
 
 3. Na Guia Rápida **Registros a serem incluídos**, você pode selecionar ativos e tipos de ativos específicos a serem incluídos no cálculo, se necessário.
 
-4. Clique em **OK**para iniciar o cálculo.
+4. Clique em **OK** para iniciar o cálculo.
 
 5. Na Guia Rápida **Visão Geral**, os resultados do cálculo são exibidos na exibição de grade. Cada ativo é exibido em uma linha separada.
 

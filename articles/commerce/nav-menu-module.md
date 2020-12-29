@@ -19,11 +19,11 @@ ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
 ms.openlocfilehash: b0e8168ca9ec9ca68011650a73cc09983deca645
-ms.sourcegitcommit: 765056b5dc1d0a8c27e56ff2cbd310ad3349ff09
+ms.sourcegitcommit: eee3523be26369aecdb36c0143a6ee3dab4b7966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/20/2020
-ms.locfileid: "4055728"
+ms.locfileid: "4410325"
 ---
 # <a name="navigation-menu-module"></a>Módulo do menu de navegação
 
@@ -44,12 +44,12 @@ A ilustração a seguir mostra um exemplo de um menu de navegação para o site 
 
 | Nome da propriedade             | Alíquota                 | descrição |
 |---------------------------|-----------------------|-------------|
-| Origem                  | **Varejo** , **Criação manual** , **Varejo e criação manual** | O valor **Varejo** permite que a hierarquia de navegação de canal da matriz do Commerce seja exibida no menu de navegação. O valor **Criação manual** permite que os itens de menu estático sejam organizados. O valor **Criação manual e de varejo** permite uma combinação de ambos. |
+| Origem                  | **Varejo**, **Criação manual**, **Varejo e criação manual** | O valor **Varejo** permite que a hierarquia de navegação de canal da matriz do Commerce seja exibida no menu de navegação. O valor **Criação manual** permite que os itens de menu estático sejam organizados. O valor **Criação manual e de varejo** permite uma combinação de ambos. |
 | Mostrar imagens da categoria | **Verdadeiro** ou **Falso**    | Quando habilitada, essa propriedade exibe imagens de categoria no menu de navegação, conforme definido na matriz do Commerce para cada categoria. Adicionado ao Commerce Release 10.0.14. |
 | Habilitar menu de navegação de vários níveis | **Verdadeiro** ou **Falso** | Quando esta propriedade estiver habilitada, o menu de navegação poderá mostrar vários níveis da hierarquia de navegação. Esse recurso só está disponível na versão 10.0.15 do Dynamics 365 Commerce. |
 | Número de níveis | inteiro | Essa propriedade define os números de níveis que deverão ser mostrados se a propriedade **Habilitar menu de navegação de vários níveis** estiver definida como **Verdadeira**. |
 | Item de menu estático| Matriz de valores| Os itens de menu estático que associam um nome de item de menu a um link para uma página de site estática. Você pode criar itens de menu abaixo de outros itens de menu. Por padrão, os menus estáticos aparecem no nível raiz e serão acrescentados à hierarquia de navegação de canal, caso exista. |
-| Mostrar menu raiz | **Verdadeiro** ou **Falso** | Quando essa propriedade estiver habilitada, o menu de navegação poderá ser definido em uma raiz personalizada (por exemplo, **Compre agora** ). Esse recurso só está disponível na versão 10.0.15 do Dynamics 365 Commerce. |
+| Mostrar menu raiz | **Verdadeiro** ou **Falso** | Quando essa propriedade estiver habilitada, o menu de navegação poderá ser definido em uma raiz personalizada (por exemplo, **Compre agora**). Esse recurso só está disponível na versão 10.0.15 do Dynamics 365 Commerce. |
 | Menu raiz | cadeia de caracteres | Essa propriedade pode ser usada para definir texto para uma raiz personalizada se a propriedade **Mostrar menu raiz** estiver definida como **Verdadeira**. |
 
 A ilustração a seguir mostra um exemplo de uma imagem de categoria exibida no menu de navegação do site da Fabrikam.
