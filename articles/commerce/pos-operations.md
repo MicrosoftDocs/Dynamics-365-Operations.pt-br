@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24ef0ad8528d1d094f59736b7a36fd77f57fb227
-ms.sourcegitcommit: 161e85eb0a6b772b60ba8b2578a3de149ce5bfd7
+ms.openlocfilehash: 7dc9f85bf90e6ddf9badf656eb136e28a71b036f
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "3081330"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594104"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -197,6 +197,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 500 | Anular transação | Anular a transação atual. | Sim | Sim | Não | Sim | Não |
 | 916 | Windows workflow foundation | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 924 | Leitura X de cartões bancários | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Sim |
+| 311 | Remover descontos do sistema de transações | Remova todos os descontos aplicados pelo sistema, incluindo descontos baseados em cupom, da transação. Isso não remove descontos manuais. | Sim | Sim | Sim | Sim | Não |
+| 312 | Reaplicar descontos do sistema | Reaplique os descontos do sistema na transação, caso tenham sido removidos usando a operação **Remover descontos do sistema da transação**. | Sim | Sim | Sim | Sim | Não |
 
 \* A operação está disponível apenas em modo offline quando uma ordem ou uma cotação de venda de clientes está sendo criada, e somente se a criação offline de ordens e cotações de venda do cliente está configurada no perfil de funcionalidade do PDV. A operação não pode ser realizada quando as ordens são criadas usando o serviço em tempo real, ou quando as ordens são canceladas ou editadas.
 

@@ -1,5 +1,5 @@
 ---
-title: Associar um site de comércio online com um canal online
+title: Associar um site do Dynamics 365 Commerce a um canal online
 description: Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a um ou mais armazenamentos online.
 author: bicyclingfool
 manager: AnnBe
@@ -18,31 +18,30 @@ ms.search.region: global
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b7c393ec2f716c7057a77d0f3c3c1a9f79ee8c68
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: b6ae02d34499275fa303358f7dae4d3835d438e1
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975359"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517321"
 ---
-# <a name="associate-an-e-commerce-site-with-an-online-channel"></a>Associar um site de comércio online com um canal online
+# <a name="associate-a-dynamics-365-commerce-site-with-an-online-channel"></a>Associar um site do Dynamics 365 Commerce a um canal online
 
 [!include [banner](includes/banner.md)]
 
-
 Este tópico explica como associar seu site do Microsoft Dynamics 365 Commerce a um ou mais armazenamentos online. 
 
-Depois que você provisionou o comércio online usando o portal do Microsoft Dynamics Lifecycle Services (LCS), você está pronto para estabelecer seu primeiro site de comércio online. Como parte da criação inicial do site, você associa o site a um armazenamento online criado anteriormente. Esta etapa associa o site a um canal online e permite que o site mostre a hierarquia de navegação, produtos, categorias, preços, opções de envio e tudo mais que você definiu no armazenamento online.
+Após provisionar o ambiente de comércio eletrônico do Dynamics 365 Commerce usando o portal do Microsoft Dynamics Lifecycle Services (LCS), você estará pronto para estabelecer seu primeiro site de comércio eletrônico. Como parte da criação inicial do site, você associa o site a um armazenamento online criado anteriormente. Esta etapa associa o site a um canal online e permite que o site mostre a hierarquia de navegação, produtos, categorias, preços, opções de envio e tudo mais que você definiu no armazenamento online.
 
-Para estabelecer um novo site e associar um armazenamento online a ele, em LCS, selecione o link do ambiente de criação do site. Em seguida, na página do ambiente de criação local, selecione **Novo site**. Na caixa de diálogo **Novo site**, você deve fornecer as informações básicas sobre o site. Para uma explicação completa das informações que você deve fornecer, consulte [Criar um novo site comercial online](create-ecommerce-site.md).
+Para estabelecer um novo site e associar um armazenamento online a ele, em LCS, selecione o link do ambiente de criação do site. Em seguida, na página do ambiente de criação local, selecione **Novo site**. Na caixa de diálogo **Novo site**, você deve fornecer as informações básicas sobre o site. Para uma explicação completa das informações que você deve fornecer, consulte [Criar um novo site comércio eletrônico](create-ecommerce-site.md).
 
 Depois que o site for criado, você pode verificar se está associado ao repositório online selecionando a guia **Produtos**. Você deve verificar a classificação do produto que foi atribuída à loja online. Você também pode usar o campo suspenso na parte superior esquerda da página para acessar os produtos por categoria.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
-[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+[Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 

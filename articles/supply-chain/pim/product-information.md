@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c9ff3d0c7eabe2670c4818173d88c3ab5da7ff0
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: 97e1712e38247c996af11bef051a5b1d9239f0c3
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4015120"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527377"
 ---
 # <a name="product-information-overview"></a>Visão geral das informações do produto
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico fornece informações sobre o gerenciamento de informações do produto. O gerenciamento de informações do produto funciona com uma definição, categorização e identificação de produtos compartilhados em todas as entidades legais, bem como configurações específicas de um produto, para se adequar aos processos de negócios. 
 
@@ -72,7 +74,7 @@ Um produto mestre está associado a um grupo de dimensões do produto e a uma te
 Você pode escolher entre três tecnologias de configuração:
 
 - As variantes predefinidas são definidas por dimensões de produto predefinidas. A definição variante inclui a definição de uma combinação de dimensões válida específica, como cor, estilo e tamanho. Cada combinação produz uma variante de produto distinta.
-- A configuração baseada em dimensão geralmente é usada em cenários de fabricação e permite que você use a dimensão de configuração na definição de contas de materiais (BOMs). Depois que uma configuração específica é selecionada, o sistema usa o subconjunto de linhas BOM que são válidas para essa configuração para planejamento e produção. O conceito é conhecido como *BOM global* , pois uma BOM compartilhada é usada para todas as configurações de um produto.
+- A configuração baseada em dimensão geralmente é usada em cenários de fabricação e permite que você use a dimensão de configuração na definição de contas de materiais (BOMs). Depois que uma configuração específica é selecionada, o sistema usa o subconjunto de linhas BOM que são válidas para essa configuração para planejamento e produção. O conceito é conhecido como *BOM global*, pois uma BOM compartilhada é usada para todas as configurações de um produto.
 - A configuração baseada em restrições usa um modelo de configuração do produto para descrever todos os atributos e componentes possíveis que são necessários para descrever todas as variantes possíveis de um produto em um único modelo. As restrições de combinações de atributos podem ser descritas através de expressões regulares ou restrições baseadas em tabelas. Os modelos e configuradores de configuração tornam-se mais importantes no gerenciamento de informações do produto e são usados ​​em todas as indústrias.
 
 Ao planejar a implementação do Supply Chain Management, é muito importante que você escolha a tecnologia de configuração correta para um processo comercial. Um produto não pode ser convertido de um modelo para outro após a implementação.
@@ -89,7 +91,7 @@ Os produtos que são lançados para uma entidade legal específica são conhecid
 
 Você pode definir a área de trabalho **Manutenção do produto liberado** no item de menu **Configurar minha área de trabalho**. Selecione uma hierarquia de categorias e uma categoria para filtrar a área de trabalho. Para ajustar os dados relevantes de produto na área de trabalho, você também pode definir, em dias, os limites de tempo para **Produtos lançados recentemente** e **Produtos liberados interrompidos**.
 
-A área de trabalho consiste em um resumo dos blocos e duas listas. A lista **Casos abertas** mostra casos de alteração de produto que possuem produtos na hierarquia de categoria de produto selecionada que não estão completos e fechados. A lista **Liberado recentemente** mostra produtos que foram liberados dentro da barreira de tempo configurada na configuração do espaço de trabalho. Para cada item da lista, a validação é executada e o status da validação é exibido. Esse status pode indicar que as configurações necessárias para a entidade legal não foram concluídas. Da lista, você pode acessar as páginas **Detalhes do produto liberado** , **Manutenção de atributos do produto** , **Manutenção da categoria de produtos** , **Configurações de ordem padrão** , e **Traduções de texto** para concluir a configuração necessária de produto.
+A área de trabalho consiste em um resumo dos blocos e duas listas. A lista **Casos abertas** mostra casos de alteração de produto que possuem produtos na hierarquia de categoria de produto selecionada que não estão completos e fechados. A lista **Liberado recentemente** mostra produtos que foram liberados dentro da barreira de tempo configurada na configuração do espaço de trabalho. Para cada item da lista, a validação é executada e o status da validação é exibido. Esse status pode indicar que as configurações necessárias para a entidade legal não foram concluídas. Da lista, você pode acessar as páginas **Detalhes do produto liberado**, **Manutenção de atributos do produto**, **Manutenção da categoria de produtos**, **Configurações de ordem padrão**, e **Traduções de texto** para concluir a configuração necessária de produto.
 
 ### <a name="manually-creating-a-new-released-product"></a>Criando manualmente um novo produto lançado
 

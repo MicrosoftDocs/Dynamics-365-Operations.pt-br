@@ -18,21 +18,23 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-06
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e46000414436b5a2fa211428dcd10131b9d588c1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 462b87a655e3e4017cffd2ba41cb6d1f18de3e50
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897686"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529153"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-6-2018"></a>Novidades ou alterações no Dynamics 365 Talent - Core HR (6 de dezembro de 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Compilação 8.1.2071**
 
 Este tópico descreve os recursos novos ou alterados no Core HR.
 
 
-## <a name="platform-update-22-for-finance-and-operations"></a>Atualização de plataforma 22 do Finance and Operations
+## <a name="platform-update-22-for-finance-and-operations"></a>Atualização de plataforma 22 para o Finance and Operations
 
 ### <a name="export-up-to-1-million-rows-to-excel"></a>Exportar até 1 milhão de linhas para o Excel
 
@@ -40,7 +42,7 @@ O recurso Exportar para o Excel agora pode ser configurado para permitir que os 
 
 ### <a name="restyled-personalization-toolbar"></a>Barra de ferramentas de personalização reformulada
 
-A barra de ferramentas de personalização foi reformulada na atualização de plataforma 22 do Finance and Operations para ajudar os usuários a personalizar mais facilmente suas próprias experiências no Talent. Foram feitas as seguintes alterações: 
+A barra de ferramentas de personalização foi reformulada na Platform update 22 para o Finance and Operations para ajudar os usuários a personalizar mais facilmente suas próprias experiências no Talent. Foram feitas as seguintes alterações: 
 
 -  O nome de cada ferramenta de personalização agora é exibido juntamente com um ícone, o que ajuda os usuários a reconhecer com rapidez a ferramenta que desejam usar.
 -  A descrição de como usar a ferramenta atual agora também é exibida, o que ajuda os usuários a entender como fazer as personalizações necessárias.  
@@ -48,13 +50,13 @@ A barra de ferramentas de personalização foi reformulada na atualização de p
 
 ### <a name="optimized-is-one-of-filtering-experience"></a>Experiência de filtragem "é um de" otimizada
 
-O operador de filtragem "é um de" está disponível para a maioria dos campos ao usar o Painel de Filtragem e as listas suspensas do cabeçalho da grade. Esse operador permite que o usuário filtre um campo com base em diversos valores. Uma experiência nova e aprimorada do operador "é um de" está disponível na atualização de plataforma 22 do Finance and Operations. Para saber mais, consulte [Experiência de filtragem "é um de" otimizada](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
+O operador de filtragem "é um de" está disponível para a maioria dos campos ao usar o Painel de Filtragem e as listas suspensas do cabeçalho da grade. Esse operador permite que o usuário filtre um campo com base em diversos valores. Uma experiência nova e aprimorada do operador "é um de" está disponível na Platform update 22 para o Finance and Operations. Para saber mais, consulte [Experiência de filtragem "é um de" otimizada](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering).
 
 ### <a name="paste-lists-from-excel-into-filter-fields-with-the-is-one-of-operator"></a>Colar listas do Excel em campos de filtragem com o operador "é um de"
 
 Para algumas tarefas, os usuários podem ter uma lista de valores no Excel que gostariam de usar para filtrar dados no Talent. Por exemplo, um usuário de Recursos Humanos pode ter identificado um conjunto de funcionários em um relatório que necessita de pesquisa adicional no sistema e seria ideal para ele poder copiar diretamente do Excel em um campo de filtro no Talent.
 
-A partir da atualização de plataforma 22 do Finance and Operations, o operador "é um de" no Painel de filtragem e a filtragem de colunas da grade agora reconhece listas copiadas do Excel de modo que elas possam ser coladas diretamente em um campo de filtro. Isso inclui um conjunto de valores copiados das diferentes linhas e colunas no Excel. Para saber mais sobre este recurso, consulte [Colar listas do Excel em campos de filtragem com o operador "é um de"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
+A partir da Platform update 22 para o Finance and Operations, o operador "é um de" no Painel de filtragem e a filtragem de colunas da grade agora reconhece listas copiadas do Excel de modo que elas possam ser coladas diretamente em um campo de filtro. Isso inclui um conjunto de valores copiados das diferentes linhas e colunas no Excel. Para saber mais sobre este recurso, consulte [Colar listas do Excel em campos de filtragem com o operador "é um de"](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/paste-filter-lists-from-excel).
 
 ## <a name="in-preview"></a>Em visualização
 

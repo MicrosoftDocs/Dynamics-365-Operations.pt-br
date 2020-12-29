@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f542bb12910e3a4884c38a2fb24831c42a545908
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 3b4d6369ab567879e23e1f132265aaff45c8ce47
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431259"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527901"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](https://docs.microsoft.com/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
 

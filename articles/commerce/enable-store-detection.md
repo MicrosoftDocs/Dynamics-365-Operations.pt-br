@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4d3a423bf64900e547a23f2e5eeb90aa679ec5d1
-ms.sourcegitcommit: adf196c51e2b6f532d99c177b4c6778cea8a2efc
+ms.openlocfilehash: f87d29a8cffb70e4dea211cea7538e5e4c85295c
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2020
-ms.locfileid: "3533381"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517297"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar detecção de lojas com base na localização
 
@@ -50,13 +50,13 @@ Para ativar a detecção de loja baseada em local no Comércio, siga estas etapa
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
-[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+[Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
-[Associar um site online a um canal](associate-site-online-store.md)
+[Associar um site do Dynamics 365 Commerce a um canal online](associate-site-online-store.md)
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 

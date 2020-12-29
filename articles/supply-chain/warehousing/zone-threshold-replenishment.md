@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable
+ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e13b5fd895fca7f8fe77809348d63ed8867dea9e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.openlocfilehash: 6f4ddd03ec16ac43b007b904eb688563735e0941
+ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4017313"
+ms.lasthandoff: 12/01/2020
+ms.locfileid: "4654163"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimento de limite de zona
 
@@ -41,7 +41,7 @@ Diferentemente do reabastecimento mín./máx. baseado em local, o reabasteciment
 
 ## <a name="turn-on-the-zone-threshold-replenishment-feature"></a>Ativar o recurso Reabastecimento de limite de zona
 
-Para que você possa usar o recurso *Reabastecimento de limite de zona* , ele deverá estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos** , o recurso está listado da seguinte forma:
+Para que você possa usar o recurso *Reabastecimento de limite de zona*, ele deverá estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso** *Reabastecimento de limite de zona*
@@ -95,14 +95,14 @@ Este exemplo mostra como preparar um modelo de reabastecimento. Se pretende trab
     - **Tipo de reabastecimento:** _Mínimo ou máximo_
 
 1. Selecione **Salvar**.
-1. Enquanto a nova linha ainda estiver selecionada na grade **Visão geral** , selecione **Novo** acima da grade **Detalhes do Modelo de Reabastecimento** para adicionar uma linha associada ao modelo de reabastecimento *Reabastecimento mín./máx. de zona* que você acabou de criar.
+1. Enquanto a nova linha ainda estiver selecionada na grade **Visão geral**, selecione **Novo** acima da grade **Detalhes do Modelo de Reabastecimento** para adicionar uma linha associada ao modelo de reabastecimento *Reabastecimento mín./máx. de zona* que você acabou de criar.
 1. Na nova linha, defina os seguintes valores:
 
     - **Número de sequência:** Insira _1_.
     - **Descrição:** Insira _Seleção de reabastecimento de zona_.
     - **Unidade de reabastecimento:** Selecione _ea_.
     - **Tipo de solicitação:** Deixe este campo em branco.
-    - **Código de diretiva:** Este campo vincula o modelo de reabastecimento a uma diretiva de localização. Selecione o código de diretiva de dados de demonstração criado anteriormente ( _Reabastecimento_ ).
+    - **Código de diretiva:** Este campo vincula o modelo de reabastecimento a uma diretiva de localização. Selecione o código de diretiva de dados de demonstração criado anteriormente (_Reabastecimento_).
     - **Modelo de trabalho:** Deixar este campo em branco.
     - **Quantidade mínima:** Este campo define a quantidade na qual o reabastecimento será disparado. Insira _50_.
     - **Quantidade máxima:** Este campo define a quantidade máxima de um item que pode estar presente em uma zona. O trabalho de reabastecimento gerado vai aumentar o estoque para essa quantidade. Insira _150_.
@@ -115,7 +115,7 @@ Este exemplo mostra como preparar um modelo de reabastecimento. Se pretende trab
     - **Depósito:** Selecione _61_.
 
 1. Selecione **Selecionar produtos** acima da grade **Detalhes do Modelo de Reabastecimento**.
-1. Na caixa de diálogo **Consulta do produto** , na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à grade.
+1. Na caixa de diálogo **Consulta do produto**, na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tabela:** _Itens_
@@ -125,7 +125,7 @@ Este exemplo mostra como preparar um modelo de reabastecimento. Se pretende trab
 
 1. Selecione **OK** para salvar sua consulta e fechar a caixa de diálogo.
 1. Selecione **Selecionar zonas para reabastecimento** acima da grade **Detalhes do Modelo de Reabastecimento**.
-1. Na caixa de diálogo **Consulta de zona** , na guia **Intervalo** , adicione uma linha à grade.
+1. Na caixa de diálogo **Consulta de zona**, na guia **Intervalo**, adicione uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tabela:** _Zona de depósito_
@@ -166,7 +166,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
     - **Várias SKUs:** defina esta opção como _Não_.
 
 1. Selecione **Salvar** para criar uma diretiva com as configurações que você definiu até o momento.
-1. Na FastTab **Linhas** , selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Linhas**, selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Número de sequência:** Insira _1_.
@@ -180,7 +180,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
     - **Permitir divisão:** marque esta caixa de seleção.
 
 1. Selecione **Salvar** para salvar a nova linha.
-1. Embora a nova linha ainda esteja selecionada na grade **Linhas** , selecione **Nova** na FastTab **Ações de Diretiva de Localização** para adicionar uma linha à grade.
+1. Embora a nova linha ainda esteja selecionada na grade **Linhas**, selecione **Nova** na FastTab **Ações de Diretiva de Localização** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Número de sequência:** Insira _1_.
@@ -192,7 +192,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
 
 1. Selecione **Salvar** para salvar a nova ação.
 1. Com a nova ação ainda selecionada, selecione **Editar consulta** acima da grade **Ações de Diretiva de Localização**.
-1. Uma caixa de diálogo de consulta é exibida, na qual você pode selecionar os locais a serem reabastecidos. Na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à grade.
+1. Uma caixa de diálogo de consulta é exibida, na qual você pode selecionar os locais a serem reabastecidos. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tabela:** _Localizações_
@@ -205,7 +205,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
 
 ##### <a name="create-a-replenishment-put-directive"></a>Criar uma diretiva de colocação de reabastecimento
 
-1. Na página **Diretivas de localização** , no painel esquerdo, verifique se o campo **Tipo de ordem de serviço** ainda está definido como _Reabastecimento_.
+1. Na página **Diretivas de localização**, no painel esquerdo, verifique se o campo **Tipo de ordem de serviço** ainda está definido como _Reabastecimento_.
 1. No Painel de Ações, selecione **Novo** para criar outra nova diretiva.
 1. Defina os seguintes valores:
 
@@ -218,7 +218,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
     - **Várias SKUs:** defina esta opção como _Não_.
 
 1. Selecione **Salvar** para criar uma diretiva com as configurações que você definiu até o momento.
-1. Na FastTab **Linhas** , selecione **Novo** para adicionar uma linha à grade.
+1. Na FastTab **Linhas**, selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir:
 
     - **Número de sequência:** Insira _1_.
@@ -232,7 +232,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
     - **Permitir divisão:** marque esta caixa de seleção.
 
 1. Selecione **Salvar** para salvar a nova linha.
-1. Embora a nova linha ainda esteja selecionada na grade **Linhas** , selecione **Nova** na FastTab **Ações de Diretiva de Localização** para adicionar uma linha à grade.
+1. Embora a nova linha ainda esteja selecionada na grade **Linhas**, selecione **Nova** na FastTab **Ações de Diretiva de Localização** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Número de sequência:** Insira _1_.
@@ -244,7 +244,7 @@ Para preparar dados de demonstração de forma que possam ser usados no cenário
 
 1. Selecione **Salvar** para salvar a nova ação.
 1. Com a nova ação ainda selecionada, selecione **Editar consulta** acima da grade **Ações de Diretiva de Localização**.
-1. Uma caixa de diálogo de consulta é exibida, na qual você pode selecionar a zona a ser reabastecida. Essa zona deve ser a mesma zona especificada no modelo de reabastecimento. Na guia **Intervalo** , selecione **Adicionar** para adicionar uma linha à grade.
+1. Uma caixa de diálogo de consulta é exibida, na qual você pode selecionar a zona a ser reabastecida. Essa zona deve ser a mesma zona especificada no modelo de reabastecimento. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes valores:
 
     - **Tabela:** _Localizações_
@@ -269,21 +269,21 @@ Para trabalhar no cenário usando os registros e valores de exemplo especificado
 
 #### <a name="prepare-additional-sample-data"></a>Preparar dados de exemplo adicionais
 
-Depois de selecionar a entidade legal **USMF** , inclua os dados de exemplo adicionais necessários, conforme descrito na seção [Configurar reabastecimento baseado em zona](#setup) abordada antes neste tópico.
+Depois de selecionar a entidade legal **USMF**, inclua os dados de exemplo adicionais necessários, conforme descrito na seção [Configurar reabastecimento baseado em zona](#setup) abordada antes neste tópico.
 
 #### <a name="check-your-on-hand-inventory"></a>Verifique seu estoque disponível
 
 Siga estas etapas para verificar se o sistema inclui estoque suficiente para dar suporte ao cenário de exemplo.
 
-1. Verifique se há estoque disponível para o item *A0001* em dois locais diferentes na zona de separação ( *CHÃO* ) especificada no modelo de reabastecimento. No entanto, o estoque total deve ser menor que a quantidade mínima necessária ( *50* ) que é especificada no modelo de reabastecimento. Dessa forma, você pode simular como o cálculo ocorre para a zona inteira e não apenas para um único local. **Use qualquer um dos processos de depósito para ajustar o estoque, conforme necessário.**
-1. Verifique se há estoque suficiente para o item *A0001* em um local de massa especificado na diretiva de localização de seleção de zona na qual o trabalho de reabastecimento deve separar os itens da ID de zona *MASSA*. O estoque total deve ser superior à quantidade máxima necessária ( *150* ) que é especificada no modelo de reabastecimento.
+1. Verifique se há estoque disponível para o item *A0001* em dois locais diferentes na zona de separação (*CHÃO*) especificada no modelo de reabastecimento. No entanto, o estoque total deve ser menor que a quantidade mínima necessária (*50*) que é especificada no modelo de reabastecimento. Dessa forma, você pode simular como o cálculo ocorre para a zona inteira e não apenas para um único local. **Use qualquer um dos processos de depósito para ajustar o estoque, conforme necessário.**
+1. Verifique se há estoque suficiente para o item *A0001* em um local de massa especificado na diretiva de localização de seleção de zona na qual o trabalho de reabastecimento deve separar os itens da ID de zona *MASSA*. O estoque total deve ser superior à quantidade máxima necessária (*150*) que é especificada no modelo de reabastecimento.
 1. Opcional, mas recomendado: siga estas etapas para criar um diário de ajuste de estoque:
 
     1. Vá para **Gerenciamento de estoque \> Entradas de diário \> Itens \> Ajuste de estoque**.
     1. Selecione **Novo**.
-    1. Na caixa de diálogo **Criar diário de estoque** , no campo **Depósito** , selecione *61*.
+    1. Na caixa de diálogo **Criar diário de estoque**, no campo **Depósito**, selecione *61*.
     1. Selecione **OK**.
-    1. Na FastTab **Linhas do diário** , use o botão **Novo** para adicionar três linhas à grade e defina os valores a seguir. Ao concluir a configuração de cada linha, selecione **Salvar**.
+    1. Na FastTab **Linhas do diário**, use o botão **Novo** para adicionar três linhas à grade e defina os valores a seguir. Ao concluir a configuração de cada linha, selecione **Salvar**.
 
         - **Linha 1:**
 
@@ -320,8 +320,8 @@ Siga estas etapas para verificar se o sistema inclui estoque suficiente para dar
 Quando todos os dados de exemplo de pré-requisito estiverem ativos, você poderá disparar o reabastecimento seguindo essas etapas.
 
 1. Vá para **Gerenciamento de depósito \> Reabastecimento \> Reabastecimentos**.
-1. Na caixa de diálogo **Reabastecimento** , na FastTab **Registros a serem incluídos** , selecione **Filtrar**.
-1. Na caixa de diálogo **Consulta** , na guia **Intervalo** , edite a linha da tabela padrão da seguinte maneira:
+1. Na caixa de diálogo **Reabastecimento**, na FastTab **Registros a serem incluídos**, selecione **Filtrar**.
+1. Na caixa de diálogo **Consulta**, na guia **Intervalo**, edite a linha da tabela padrão da seguinte maneira:
 
     - **Tabela:** selecione _Modelos de reabastecimento_.
     - **Tabela derivada:** selecione _Modelos de reabastecimento_.

@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: d7c4a8174007384370ae320b3874e104c04b71a5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.openlocfilehash: 5bcdb50475fb341a538211cb122eb7c13067d86a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124695"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527209"
 ---
 # <a name="provision-talent"></a>Provisionar o Talent
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Talent. Este tópico pressupõe que você adquiriu o Talent por meio do Provedor de Soluções na Nuvem ou do contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Talent e não puder concluir as etapas deste tópico, entre em contato com o Suporte.
 

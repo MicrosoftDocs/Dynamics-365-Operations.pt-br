@@ -3,7 +3,7 @@ title: Contratar candidatos com o LinkedIn Recruiter no Attract
 description: Use a integração com o LinkedIn fornecida pelo Microsoft Dynamics 365 Talent - Attract para contratar candidatos a trabalho por meio do LinkedIn Recruiter.
 author: andreabichsel
 manager: AnnBe
-ms.date: 07/08/2019
+ms.date: 08/31/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e05b902d745c26c08d1bac133991f51fd58c3e93
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.openlocfilehash: 96e4660c4958bf5f2a0910bfad770e1e713f800f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2833037"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528260"
 ---
 # <a name="source-candidates-with-linkedin-recruiter-in-attract"></a>Contratar candidatos com o LinkedIn Recruiter no Attract
 
@@ -34,6 +34,9 @@ O LinkedIn e a maior rede profissional online do mundo, dando a você acesso aos
 
 Se você não tiver esse recurso, contate seu administrador. Antes que possa aproveitar ao máximo o LinkedIn Recruiter por meio do Attract, seu administrador deve [configurar a integração com o LinkedIn](./attract-admin-linkedin.md). Você poderá então configurar sua conexão com o LinkedIn Recruiter e começar a encontrar candidatos.
 
+>[!IMPORTANT]
+>A partir de 1º de julho de 2020, o LinkedIn não oferece mais suporte ao Internet Explorer 11. Os usuários ainda podem acessar o LinkedIn com o Internet Explorer 11, mas serão solicitados a atualizar ou usar um navegador diferente. Para obter mais informações, consulte [Navegadores da Internet com suporte para o LinkedIn](https://www.linkedin.com/help/linkedin/answer/4135/supported-internet-browsers-for-linkedin).
+
 ## <a name="set-up-your-connection-with-linkedin-recruiter"></a>Configurar sua conexão com o LinkedIn Recruiter
 
 Antes de começar a trabalhar com o LinkedIn Recruiter pelo Attract, você deverá configurar sua conexão com o LinkedIn Recruiter. Para esta etapa, suas credenciais do LinkedIn Recruiter serão necessárias.
@@ -42,19 +45,35 @@ Antes de começar a trabalhar com o LinkedIn Recruiter pelo Attract, você dever
 2. Selecione **Configurações do usuário**.
 3. Na guia **Conexões**, selecione **Conectar** ao lado de **LinkedIn**. Siga as instruções fornecidas pelo LinkedIn.
 
-    ![[Configurar a conexão ao LinkedIn Recruiter por meio do Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
+    ![[Configurar conexão para o LinkedIn Recruiter com o Attract](./media/attract-set-up-linkedin-recruiter-connection.png)](./media/attract-set-up-linkedin-recruiter-connection.png)
 
 ## <a name="view-linkedin-candidates-in-attract"></a>Exibir candidatos do LinkedIn no Attract
 
 Depois que estiver conectado ao LinkedIn Recruiter, você poderá exibir perfis do LinkedIn de candidatos no Attract.
 
+>[!NOTE]
+>Se você tiver uma função de Recrutador atribuída a você, poderá ver as informações completas dos candidatos.<br><br>
+>Se você tiver uma função de Gerente de Contratação ou nenhuma função atribuída a você, saia do LinkedIn ou do LinkedIn Recruiter antes de navegar para a guia LinkedIn de um candidato no Attract. Você poderá ver os dados básicos do perfil público do candidato, como nome e sobrenome.
+
 1. No Attract, selecione **Trabalhos** ou **Grupos de talentos** à esquerda e, em seguida, selecione um candidato.
 
     ![[Exibir candidatos do LinkedIn no Attract](./media/attract-view-linkedin-candidates.png)](./media/attract-view-linkedin-candidates.png)
 
-2. O perfil do candidato, selecione a guia **LinkedIn**. Você poderá exibir o perfil do candidato, juntamente com o histórico do InMail e o histórico de observações do LinkedIn.
+2. O perfil do candidato, selecione a guia **LinkedIn**. Você poderá exibir o perfil do candidato e o histórico do InMail.
 
-Aqui, é possível salvar o candidato em um projeto do LinkedIn Recruiter, enviar inMail ou usar a opção Atualizar-me para definir um alerta no LinkedIn Recruiter.
+   ![Exibir informações do LinkedIn de um candidato](./media/attract-candidate-linkedin-tab.png)
+
+De lá, você poderá executar as seguintes ações:
+
+- Selecione a guia **Atividades de recrutamento** para exibir:
+   
+   - Notas do recrutador (públicas e particulares). Por padrão, as anotações são particulares e visíveis somente para o proprietário das anotações.
+   - Atividade do InMail (mas não o conteúdo do InMail). Role até a parte inferior da página para exibir a troca do InMail com o cliente potencial e exibir outros usuários na organização que estão interagindo com o cliente potencial.
+   - Atividade de rejeição de candidato
+
+- Selecione **Enviar InMail** para enviar o InMail sem sair do Attract.
+
+- Selecione **Salvar em um trabalho** para salvar o trabalho sem sair do Attract.
 
 > [!NOTE]
 > O perfil do LinkedIn de um candidato será exibido no Attract quando as informações do Attract do candidato corresponderem às informações do LinkedIn. Veja as regras de correspondência que são usadas:
@@ -87,7 +106,7 @@ No LinkedIn Recruiter, você poderá rastrear se um candidato se candidatou a ou
     - **Comentários da entrevista** — veja os comentários que os entrevistadores enviaram no Attract.
     - **Observações** — veja as observações que foram inseridas para o candidato no Attract.
 
-    ![[Exibir informações do Attract por meio do LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
+    ![[Exibir informações do Attract no LinkedIn Recruiter](./media/attract-view-information-from-linkedin-recruiter.png)](./media/attract-view-information-from-linkedin-recruiter.png)
 
 > [!NOTE]
 > Os dados do candidato e da solicitação de emprego não serão sincronizados no LinkedIn Recruiter se o candidato não passar do estágio de Colaborador potencial.

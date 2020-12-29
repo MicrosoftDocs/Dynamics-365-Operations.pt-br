@@ -15,18 +15,18 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 41944fb7819b5527f6bc023a60acd9450d9e43c2
-ms.sourcegitcommit: 25909c6ad3616e4f75a2fe006057dda18d7cc856
+ms.openlocfilehash: 42b11ff16757d633b868dfdf248341193a44378f
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "3974829"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665289"
 ---
 # <a name="recall-order-operation-in-pos"></a>Cancelar operação de ordem no PDV
 
 [!include [banner](includes/banner.md)]
 
-A operação Cancelar ordens no ponto de venda do Commerce (PDV) oferece recursos atualizados de pesquisa e filtragem de ordens e informações específicas sobre a ordem. Este recurso está disponível nas versões 10.0.15 e posterior do Commerce.
+A operação **Cancelar ordem** no ponto de venda (PDV) do Commerce oferece recursos atualizados de pesquisa e filtragem de ordens e informações específicas da ordem. Este recurso está disponível nas versões 10.0.15 e posterior do Commerce.
 
 Para habilitar essa funcionalidade, ative a **Operação Cancelar ordem aprimorada no PDV** no espaço de trabalho **Gerenciamento de recursos** do Commerce Headquarters. Depois de habilitar o recurso, será recomendável atualizar os [layouts de tela](pos-screen-layouts.md) no PDV para aproveitar alguns dos recursos alterados.
 

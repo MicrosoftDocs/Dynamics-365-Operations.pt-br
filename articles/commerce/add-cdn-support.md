@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 662d26c0157377977bd1031cd7bb13a8e692f37e
-ms.sourcegitcommit: 078befcd7f3531073ab2c08b365bcf132d6477b0
+ms.openlocfilehash: 0e888fca4a5401f1df6e61b10358489846ad4b0e
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "3646030"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517199"
 ---
 # <a name="add-support-for-a-content-delivery-network-cdn"></a>Adicionar suporte para uma rede de entrega de conteúdo (CDN)
 
@@ -31,11 +31,11 @@ ms.locfileid: "3646030"
 
 Este tópico descreve como adicionar uma rede de entrega de conteúdo (CDN) ao ambiente do Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Ao configurar um ambiente de comércio eletrônico no Dynamics 365 Commerce, você pode configurá-lo para funcionar com o serviço de CDN. 
 
-Seu domínio personalizado pode ser habilitado durante o processo de provisionamento para o seu ambiente de comércio eletrônico. Como alternativa, você pode usar uma solicitação de serviço para configurá-la após a conclusão do processo de provisionamento. O processo de provisionamento para o ambiente de comércio eletrônico gera um nome de host associado ao ambiente. Este nome de host tem o seguinte formato, no qual \<*e-commerce-tenant-name*\> é o nome de seu ambiente:
+Seu domínio personalizado pode ser habilitado durante o processo de provisionamento para o ambiente de comércio eletrônico. Como alternativa, você pode usar uma solicitação de serviço para configurá-la após a conclusão do processo de provisionamento. O processo de provisionamento para o ambiente de comércio eletrônico gera um nome de host associado ao ambiente. Este nome de host tem o seguinte formato, no qual \<*e-commerce-tenant-name*\> é o nome de seu ambiente:
 
 &lt;e-commerce-tenant-name&gt;.commerce.dynamics.com
 
@@ -97,8 +97,8 @@ Para configurar uma regra de roteamento no Azure Front Door Service, siga estas 
 1. No campo **Nome**, digite **padrão**.
 1. No campo **Protocolo aceito**, selecione **HTTP e HTTPS**.
 1. No campo **Hosts de front-end**, insira **dynamics-ecom-tenant-name.azurefd.net**.
-1. Em **Padrões para correspondência**, no campo superior, insira **/\***.
-1. Em **Detalhes do roteiro**, defina a opção **Tipo de roteiro** como **Encaminhar**.
+1. Em **Padrões para correspondência**, no campo superior, insira **/\** _.
+1. Em **Detalhes do Roteiro**, defina a opção **Tipo de roteiro** como **Avançar**.
 1. No campo **Pool de back-end**, selecione **ecom-backend**.
 1. No grupo de campos **Protocolo de encaminhamento**, selecione a opção **Solicitação de correspondência**. 
 1. Defina a opção **Reescrita de URL** como **Desabilitada**.
@@ -110,8 +110,8 @@ Para configurar uma regra de cache no Azure Front Door Service, siga estas etapa
 1. No campo **Nome**, digite **estática**.
 1. No campo **Protocolo aceito**, selecione **HTTP e HTTPS**.
 1. No campo **Hosts de front-end**, insira **dynamics-ecom-tenant-name.azurefd.net**.
-1. Em **Padrões para correspondência**, no campo superior, **/\_msdyn365/\_scnr/\***.
-1. Em **Detalhes do roteiro**, defina a opção **Tipo de roteiro** como **Encaminhar**.
+1. Em **Padrões para correspondência**, no campo superior, **/\_msdyn365/\_scnr/\** _.
+1. Em **Detalhes do Roteiro**, defina a opção **Tipo de roteiro** como **Avançar**.
 1. No campo **Pool de back-end**, selecione **ecom-backend**.
 1. No grupo de campos **Protocolo de encaminhamento**, selecione a opção **Solicitação de correspondência**.
 1. Defina a opção **Reescrita de URL** como **Desabilitada**.
@@ -144,13 +144,13 @@ Agora sua CDN deve estar configurada corretamente para poder ser usada com o sit
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
-[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+[Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
-[Associar um site online a um canal](associate-site-online-store.md)
+[Associar um site do Dynamics 365 Commerce a um canal online](associate-site-online-store.md)
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 

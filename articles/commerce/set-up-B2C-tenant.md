@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1910563865a21dab3345a82711ead9b9e57b92fa
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: af2ec75328b6377c5d92656d011d21576417a63f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980955"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517371"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
@@ -345,19 +345,19 @@ Uma conta de administrador ideal secundária pode ser adicionada à seção **Us
 
 [Configurar seu nome de domínio](configure-your-domain-name.md)
 
-[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+[Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
-[Associar um site online a um canal](associate-site-online-store.md)
+[Associar um site do Dynamics 365 Commerce a um canal online](associate-site-online-store.md)
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 
-[Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)
+[Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)Associar um site do Dynamics 365 Commerce a um canal online
 
 [Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
 
-[Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
+[Configurar vários locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
 

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: beb705852be99ce817997d7017c41a0159f75419
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fa9d42c20540f2ee2240cc4f2b180140c3f9a628
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022020"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517079"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -68,14 +68,14 @@ Os temas podem ser usados para remover ou alterar a ordem das propriedades do pr
 
 ## <a name="buy-box-module-settings"></a>Configurações do módulo de caixa de compra
 
-As seguintes configurações de módulo de caixa de compra podem ser definidas em **Configurações de Site \> Extensões** :
+As seguintes configurações de módulo de caixa de compra podem ser definidas em **Configurações de Site \> Extensões**:
 
 - **Limite de quantidade de linha de carrinho** – Esta propriedade é usada para especificar o número máximo de cada item que pode ser adicionado ao carrinho. Por exemplo, um varejista pode decidir que apenas 10 de cada produto podem ser vendidos em uma única transação.
 - **Estoque** – para obter informações sobre como aplicar configurações de estoque, consulte [Aplicar configurações de estoque](inventory-settings.md).
-- **Adicionar ao carrinho** – esta propriedade é usada para especificar o comportamento depois que um item é adicionado ao carrinho. Os valores possíveis são **Navegar até o carrinho** , **Não navegar até o carrinho** e **Mostrar notificações**. Quando o valor for definido como **Navegar até o carrinho** , os usuários serão enviados para a página do carrinho depois que adicionarem um item. Quando o valor for definido como **Não navegar até o carrinho** , os usuários não serão enviados para a página do carrinho depois que adicionarem um item. Quando o valor for definido como **Mostrar notificações** , os usuários receberão uma notificação de confirmação e poderão continuar a procurar na página detalhes do produto. 
+- **Adicionar produto ao carrinho** – esta propriedade é usada para especificar o comportamento depois que um item é adicionado ao carrinho. Os valores possíveis são **Navegar até página do carrinho**, **Não navegar até página do carrinho** e **Mostrar notificação**. Quando o valor for definido como **Navegar até página do carrinho**, os usuários serão enviados para a página do carrinho após adicionarem um item. Quando o valor for definido como **Não navegar até página do carrinho**, os usuários não serão enviados para a página do carrinho após adicionarem um item. Quando o valor for definido como **Mostrar notificação**, os usuários receberão uma notificação de confirmação e poderão continuar a procurar na página detalhes do produto. 
 
 > [!IMPORTANT]
-> As configurações de **Adicionar ao carrinho** do site estão disponíveis na versão 10.0.11 do Dynamics 365 Commerce. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
+> As configurações de **Adicionar produto ao carrinho** do site estão disponíveis na versão 10.0.11 do Dynamics 365 Commerce. Se estiver atualizando de uma versão mais antiga do Dynamics 365 Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções sobre como atualizar o arquivo appsettings.json, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file). 
 
 A imagem a seguir mostra um exemplo de notificação de confirmação "adicionado ao carrinho" no site da Fabrikam.
 
@@ -90,26 +90,26 @@ O módulo de caixa de compra recupera informações do produto usando as interfa
 Para adicionar um módulo de caixa de compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
 1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
-1. Na caixa de diálogo **Novo fragmento** , selecione o módulo **Caixa de compra**.
-1. Em **Nome do fragmento** , digite o nome **Fragmento de caixa de compra** e selecione **OK**.
-1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Galeria de mídia** e, depois, **OK**.
-1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Seletor de loja** e, depois, **OK**.
-1. Selecione **Salvar** , **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
+1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Caixa de compra**.
+1. Em **Nome do fragmento**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
+1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Galeria de mídia** e, depois, **OK**.
+1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
-1. Na caixa de diálogo **Novo Modelo** , em **Nome do modelo** , insira **Modelo PDP** e selecione **OK**.
-1. No slot **Corpo** , selecione as reticências ( **...** ) e, depois, **Adicionar Módulo**.
-1. Na caixa de diálogo **Adicionar Módulo** , selecione o módulo **Página Padrão** e, depois, **OK**.
-1. No slot **Principal** da página padrão, selecione as reticências ( **...** ) e, em seguida, selecione **Adicionar fragmento**.
-1. Na caixa de diálogo **Selecionar fragmento** , selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
-1. Selecione **Salvar** , **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo PDP** e selecione **OK**.
+1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
+1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
-1. Na caixa de diálogo **Escolher um modelo** , selecione o modelo **Modelo de PDP**. Em **Nome da página** , insira **Página PDP** e selecione **OK**.
-1. No slot **Principal** da nova página, selecione as reticências ( **...** ) e, em seguida, selecione **Adicionar fragmento**.
-1. Na caixa de diálogo **Selecionar fragmento** , selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
+1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de PDP**. Em **Nome da página**, insira **Página PDP** e selecione **OK**.
+1. No slot **Principal** da nova página, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
+1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
 1. Salve e exiba a página. Adicione o parâmetro da sequência de caracteres da consulta **?productid=&lt;product id&gt;** à URL da página de exibição. Dessa forma, o contexto do produto é usado para carregar e renderizar a página de exibição.
-1. Selecione **Salvar** , **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. Uma caixa de compra deve aparecer na página de detalhes do produto.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo. Uma caixa de compra deve aparecer na página de detalhes do produto.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

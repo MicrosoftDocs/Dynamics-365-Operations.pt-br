@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d2cbc67a186a76647a4f7ddc7942b15d3e469ece
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: af6aedb6c0112822155c6d855909578a927d1c2c
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817197"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665411"
 ---
 # <a name="map-module"></a>Módulo do mapa
 
@@ -58,7 +58,7 @@ A imagem a seguir mostra um exemplo de um módulo de mapa que é usado em uma p�
 
 ## <a name="add-allowed-mapping-urls-to-a-sites-content-security-policy-directives"></a>Adicionar URLs de mapeamento permitido a diretivas de diretiva de segurança de conteúdo de um site
 
-Para que o módulo mapas interaja com o Bing Maps, você deve garantir que as seguintes URLs de mapeamento são permitidas (também conhecidas como "lista de permissões"), conforme a política de segurança de conteúdo (CSP) do site. Essa configuração é executada na criação de site do Commerce, adicionando as URLs permitidas às várias diretivas da CSP do site (por exemplo, **img-src**). Para obter mais informações, consulte [Política de segurança de conteúdo](manage-csp.md). 
+Para que o módulo de mapas interaja com o Bing Mapas, você deve garantir que as seguintes URLs de mapeamento sejam permitidas conforme a política de segurança de conteúdo (CSP) do site. Essa configuração é executada na criação de site do Commerce, adicionando as URLs permitidas às várias diretivas da CSP do site (por exemplo, **img-src**). Para obter mais informações, consulte [Política de segurança de conteúdo](manage-csp.md). 
 
 - Para a diretiva **connect-src**, adicione **&#42;.bing.com**.
 - Para a diretiva **img-src**, adicione **&#42;.virtualearth.net**.

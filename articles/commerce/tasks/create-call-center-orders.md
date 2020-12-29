@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dce2fdd9d91c2bd867f0455573733aefb0796fa7
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: c875eaa85d9da997b75b296ad9ace99ae1e91798
+ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107343"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4594227"
 ---
 # <a name="create-call-center-orders"></a>Criar ordens de call center
 
@@ -31,7 +31,7 @@ ms.locfileid: "4107343"
 Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesquisar por um produto e coletar os pagamentos do cliente. Este procedimento usa a empresa de dados de demonstração USRT e destina-se ao funcionário de ordens de venda. Pré-requisitos: O usuário que conclui o procedimento é configurado como usuário do call center e o catálogo semestral da Fabrikam é publicado com pelo menos um código fonte nele.
 
 1. Vá para **Retail e Commerce \> Clientes \> Customer service**.
-2. Para **Texto da Pesquisa** , insira os critérios de pesquisa para pesquisar o cliente.
+2. Para **Texto da Pesquisa**, insira os critérios de pesquisa para pesquisar o cliente.
     * Para este procedimento de exemplo, insira "Karen" e selecione **Tab**.  
 3. Selecione Pesquisar.
     * Uma vez que há somente uma cliente chamada "Karen" nos dados de demonstração, o resultado será automaticamente selecionado.  
@@ -40,7 +40,7 @@ Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesqu
 6. Selecione o código fonte para o catálogo.
     * Se não houver nenhum código fonte ativo, você poderá ignorar esta etapa.  
 7. Selecione **Adicionar linha**.
-8. Para **Número do item** , insira o termo de pesquisa do item.
+8. Para **Número do item**, insira o termo de pesquisa do item.
     * Para este procedimento de exemplo, insira um número de item parcial de '8111' e pressione tab. Essa ação fará surgir a janela de pesquisa de itens.  
 9. Selecione o produto a ser adicionado à ordem de venda.
 10. Insira a quantidade de vendas.
@@ -55,4 +55,10 @@ Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesqu
     * Para este procedimento, insira um valor igual ao saldo da ordem que pode ser visto na página Resumo da ordem de venda, à esquerda do campo de valor. Essa ação permitirá que você conclua a ordem como totalmente paga.  
 17. Selecione **OK**.
 18. Selecione **Enviar**.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Personalizar emails transacionais por modo de entrega](../customize-email-delivery-mode.md)
+
+[Alterar modo de entrega no PDV](../pos-change-delivery-mode.md)
 

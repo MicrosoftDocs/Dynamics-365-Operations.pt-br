@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: d0fdc9f056ea494cf52e8483b901070dae0bcd29
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: afa1044c8adc9566149e20ade57e771b50d9c53f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897663"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529129"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-february-27-2019"></a>Novidades ou alterações no Dynamics 365 Talent (27 de fevereiro de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 
@@ -75,7 +77,7 @@ Esta versão inclui outras correções de bug menores.
 
 Em muitas organizações, gerentes de compensação e benefícios podem ter acesso apenas a registros de compensação específica. Esses registros podem ser para funcionários executivos ou regionais. Essa alteração permitirá que os Recursos Humanos (RH) gerenciem e mantenham os planos de compensação para populações de funcionário diferentes na organização. Funções de segurança que podem ser atribuídas a planos fixos e variáveis determinam o acesso a esses planos e os dados de funcionário relacionado a eles (por exemplo, informações de salário e registros de bônus). Apenas as funções com acesso especificado poderão processar compensação para esses funcionários.
 
-### <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 do Finance and Operations
+### <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 para o Finance and Operations
 
 Para obter mais informações sobre atualização de plataforma 24 do Microsoft Dynamics 365 Finance and Operations (março de 2019), consulte [Visualização de recursos na Atualização de plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
 
@@ -98,19 +100,19 @@ Para atualizar o seu modelo existente, rastreie essas etapas.
 
     - **Cargos a cargos de trabalho:** Remova esse mapeamento.
     - **Atribuição de trabalho pai dos cargos a cargos de trabalho:** Remova esse mapeamento.
-    - **Cargos de Trabalho a Posição Base:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service à entidade **Posição Base** do Finance and Operations. Mova-o para a posição 7 na sequência.
+    - **Cargos de Trabalho a Posição Base:** adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service à entidade **Posição Base** do Finance and Operations. Mova-o para a posição 7 na sequência.
 
         [![Cargos de trabalho a mapeamento de cargo base](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **Cargos de Trabalho a Detalhes da Posição:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service para a entidade **Detalhes da Posição** do Finance and Operations. Mova-o para a posição 8 na sequência.
+    - **Cargos de trabalho a detalhes de cargo:** adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service à entidade **Detalhes da Posição** do Finance and Operations. Mova-o para a posição 8 na sequência.
 
         [![Detalhes de cargos de trabalho a mapeamento de cargo](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **Cargos de Trabalho a Durações da Posição:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service para a entidade **Durações da Posição** do Finance and Operations.
+    - **Cargos de trabalho a durações de cargo:** adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service à entidade **Durações da Posição** do Finance and Operations.
 
         [![Duração de cargos de trabalho a mapeamento de cargo](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **Cargos de Trabalho a Hierarquias do Cargo:** Adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service para a entidade **Hierarquias do Cargo** do Finance and Operations. Selecione **Consulta avançada** para deixar sua consulta avançada disponível para seu projeto.
+    - **Cargos de trabalho a hierarquias de cargo:** adicione um novo mapeamento da entidade **Cargos de Trabalho** do Common Data Service à entidade **Hierarquias de cargo** do Finance and Operations. Selecione **Consulta avançada** para deixar sua consulta avançada disponível para seu projeto.
 
        [![Botão de consulta avançada](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 
@@ -131,7 +133,7 @@ Para atualizar o seu modelo existente, rastreie essas etapas.
         [![Adicionar comando de coluna condicional](./media/Add-column.png)](./media/Add-column.png)
 
     6. Na caixa de diálogo **Adicionar coluna condicional**, insira **HIERARCHYTYPENAME** como o nome da nova coluna.
-    7. Na parte **Se** da condição, selecione qualquer campo, use **igual a** como o relacionamento e insira qualquer valor. Nas partes ***Então** e **Caso contrário** da condição, especifique qual deve ser o valor padrão. Nesse caso, insira **Linha** em ambas as partes.
+    7. Na parte **Se** da condição, selecione qualquer campo, use **igual a** como o relacionamento e insira qualquer valor. Nas partes **_Então_* e **Caso contrário** da condição, especifique qual deve ser o valor padrão. Nesse caso, insira **Linha** em ambas as partes.
 
         [![Adicionar caixa de diálogo da coluna condicional](./media/Add-conditional-column.png)](./media/Add-conditional-column.png)
 

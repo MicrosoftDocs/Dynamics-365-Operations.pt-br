@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: ad677d1c36ac5159111afdcb5c31aed215d7b0a1
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 9887d22a513e820c35c51b6c702e2d9d34ab1214
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897732"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529747"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-december-14-2018"></a>Novidades ou alterações no Dynamics 365 Talent - Core HR (14 de dezembro de 2018)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 **Compilação 8.1.2085**
 
@@ -137,11 +139,11 @@ A tarefa Trabalhadores para o Trabalho necessita dos seguintes mapeamentos atual
 
 A transformação do campo Sexo também deve ser atualizada. Selecione o tipo de mapa **fn** (função) para o Sexo e atualize os seguintes mapeamentos de valor.
 
-| Valor do Common Data Service                   | Valor do Finance and Operations                     |
+| Valor de Common Data Service                   | Valor de Finance and Operations                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | Masculino                                             |
 | 75440001                    | Feminino                                           |
-| 75440002                    | Nenhum                                             | 
+| 75440002                    | Nenhuma                                             | 
 | 75440003                    | Não especificado                                      |
 
 Os mapeamentos atualizados devem ser semelhantes às imagens a seguir.

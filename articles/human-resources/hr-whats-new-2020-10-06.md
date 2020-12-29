@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ca2fbbf3ffbcc7c9c32490f3733b8a94731170e
-ms.sourcegitcommit: 69075e001d1fb4ef69282667052cd8d082273094
+ms.openlocfilehash: fe01a2b82b72bf38bb537ed7b2bf5560235817d9
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022206"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529819"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-6-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (6 de outubro de 2020)
 
-Este tópico descreve recursos novos, alterados ou que serão lançados em breve no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agendamento, consulte [Processo de atualização](hr-admin-setup-update-process.md).
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
 Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
 
@@ -45,7 +47,7 @@ O seguinte recurso está geralmente disponível nesta versão.
 
 ### <a name="bug-fixes"></a>Correções de bug
 
-As correções de bug a seguir estão incluídas nessa versão.
+As seguintes correções de bug estão incluídas nessa versão.
 
 >[!NOTE]
 > Nosso objetivo é obter essas informações para você o mais rápido possível. Este tópico poderá ser atualizado para incluir correções de bugs feitas no build após a publicação inicial deste tópico.
@@ -54,9 +56,9 @@ As correções de bug a seguir estão incluídas nessa versão.
 | --- | --- | --- |
 | 448806 | **Tipo de Identificação Padrão** é exportado como **RecID** nos parâmetros do HCM | Essa alteração na entidade de parâmetros do Human Resources adiciona uma coluna adicional que exibe o **Tipo de Identificação Padrão**. |
 | 492923 | Os registros de tarefas não estão sendo salvos no Lifecycle Services (LCS) | Agora, as gravações de tarefas podem ser salvas no LCS. |
-| 429950 | A remuneração fixa não expira corretamente ao alterar a posição | Ao alterar a posição de um trabalhador na página **Transferir Trabalhador** , a data de remuneração final foi definida em um dia antes do término da posição. A data de término de remuneração agora é igual à data de término da posição. |
-| 467214 | **Análise salarial** só será exibida se **Nome de conversão da taxa de pagamento** estiver definido como **Anual** | As taxas de pagamento de assalariado com um nome diferente de **Anual** não eram mostradas na Análise de Remuneração. Com essa atualização, a Análise de Remuneração usa agora todas as conversões de taxa de pagamento. Ao executar os relatórios por **Por hora** ou **Salário** , qualquer conversão de taxa de pagamento que use um período diferente de por hora será incluída no filtro **Salário** . Somente as taxas de pagamento com um período **Por hora** são incluídas no filtro **Por hora** . |
-| 482464 | Ao exibir **Revisões** , a exibição **Detalhes** não é alterada para a exibição de grade após a aplicação de um filtro | Depois de aplicar um filtro, a grade de revisões é exibida conforme o esperado. |
+| 429950 | A remuneração fixa não expira corretamente ao alterar a posição | Ao alterar a posição de um trabalhador na página **Transferir Trabalhador**, a data de remuneração final foi definida em um dia antes do término da posição. A data de término de remuneração agora é igual à data de término da posição. |
+| 467214 | **Análise salarial** só será exibida se **Nome de conversão da taxa de pagamento** estiver definido como **Anual** | As taxas de pagamento de assalariado com um nome diferente de **Anual** não eram mostradas na Análise de Remuneração. Com essa atualização, a Análise de Remuneração usa agora todas as conversões de taxa de pagamento. Ao executar os relatórios por **Por hora** ou **Salário**, qualquer conversão de taxa de pagamento que use um período diferente de por hora será incluída no filtro **Salário** . Somente as taxas de pagamento com um período **Por hora** são incluídas no filtro **Por hora** . |
+| 482464 | Ao exibir **Revisões**, a exibição **Detalhes** não é alterada para a exibição de grade após a aplicação de um filtro | Depois de aplicar um filtro, a grade de revisões é exibida conforme o esperado. |
 | 483184 | O Human Resources não gera acúmulos de licenças quando você seleciona **Base da camada** como a **Data de início ajustada** em **Registro da licença** |A **Data de início ajustada** é preenchida e usada durante a geração de acúmulos de licenças.  |
 | 509731 | A solicitação de folga para futuro trabalhador demitido causará um problema se ele solicitar uma folga após a data de demissão | As solicitações de folga agora podem ser enviadas para funcionários com uma data de demissão futura, desde que a solicitação seja anterior à data de demissão. |
 | 510716 | A Análise de Remuneração inclui os funcionários homens e mulheres em **Média de pagamentos por hora para homens** | Na Análise de Remuneração, a **Média de pagamentos por hora para homens** na **Análise Demográfica de Remuneração** incluía a média de pagamentos para mulheres. Agora ele inclui apenas homens. |
@@ -77,11 +79,11 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 
 Estes recursos novos estão agendados para versões futuras:
 
-- **Entidades de lista de verificação incluídas no Common Data Service** : entidades de lista de verificação para Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
+- **Entidades de lista de verificação incluídas no Common Data Service**: entidades de lista de verificação para Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
 
-- **Códigos de motivo de gerenciamento de benefícios** : os códigos de motivo de gerenciamento de benefícios serão em breve combinados com os códigos de motivo existentes no Human Resources. Se você tiver criado códigos de motivo no gerenciamento de benefícios com mais de 15 caracteres, deverá alterar o nome do código de motivo no formulário **Códigos de motivo** de gerenciamento de benefícios para 15 caracteres ou menos. Depois de atualizar o nome, o código de motivo aparecerá no formulário de código de motivo existente em Gerenciamento de pessoal. Esta alteração estará disponível no futuro e não afetará a funcionalidade existente.
+- **Códigos de motivo de gerenciamento de benefícios**: os códigos de motivo de gerenciamento de benefícios serão em breve combinados com os códigos de motivo existentes no Human Resources. Se você tiver criado códigos de motivo no gerenciamento de benefícios com mais de 15 caracteres, deverá alterar o nome do código de motivo no formulário **Códigos de motivo** de gerenciamento de benefícios para 15 caracteres ou menos. Depois de atualizar o nome, o código de motivo aparecerá no formulário de código de motivo existente em Gerenciamento de pessoal. Esta alteração estará disponível no futuro e não afetará a funcionalidade existente.
 
-- **Links personalizados em Autoatendimento para gerentes** : para oferecer suporte a gerentes, estamos expandindo recursos no Autoatendimento para gerentes. Estamos adicionando a capacidade de adicionar links personalizados à guia **Minha equipe**. Esse recurso é semelhante ao recurso de links personalizados na guia **Minhas informações** do autoatendimento para funcionários. Para obter mais informações, consulte [Links personalizados no autoatendimento para funcionários](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
+- **Links personalizados em Autoatendimento para gerentes**: para oferecer suporte a gerentes, estamos expandindo recursos no Autoatendimento para gerentes. Estamos adicionando a capacidade de adicionar links personalizados à guia **Minha equipe**. Esse recurso é semelhante ao recurso de links personalizados na guia **Minhas informações** do autoatendimento para funcionários. Para obter mais informações, consulte [Links personalizados no autoatendimento para gerentes](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service).
 
 Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2019 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/).
 

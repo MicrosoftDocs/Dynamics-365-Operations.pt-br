@@ -3,7 +3,7 @@ title: Ajustes de preço e descontos
 description: Este artigo oferece informações sobre ajustes de preço e descontos no Dynamics 365 Commerce.
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dfaacfa7681258e3b2273083017c0c398d566651
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 0c2adaa5cd935d5b593bfbb3215d3466fcafab7b
+ms.sourcegitcommit: 1d74636bf9db5fb33e998322899504b709b4f89f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3021658"
+ms.lasthandoff: 11/19/2020
+ms.locfileid: "4584306"
 ---
 # <a name="price-adjustments-and-discounts"></a>Ajustes de preço e descontos
 
@@ -41,11 +41,13 @@ Os ajustes de preço e os descontos podem ser aplicados a produtos, a variantes 
 
 ## <a name="types-of-discounts"></a>Tipos de descontos
 
-Há quatro tipos de descontos:
+Há muitos tipos de descontos:
 
 - **Desconto simples** – Uma única porcentagem ou valor.
 - **Desconto por quantidade** – Um desconto que é aplicado quando dois ou mais produtos são comprados.
 - **Desconto da compra combinada** – Um desconto que é aplicado quando uma combinação específica de produtos é comprada.
 - **Desconto de limite** – Um desconto que é aplicado quando o total da transação for maior do que um valor especificado.
+- **Desconto com base no meio de pagamento** – Um desconto aplicado quando o total da transação é maior do que um valor especificado e um tipo de pagamento específico (por exemplo, dinheiro, cartão de crédito ou de débito) é usado para o pagamento.
+- **Desconto de remessa** – Um desconto aplicado quando o total da transação é maior do que um valor especificado e um modo de entrega específico (por exemplo, remessa em dois dias ou remessa em 24h) é usado na ordem.
 
 Os ajustes de preço e descontos podem ser associados aos grupos de preços. Os grupos de preços podem ser associados aos canais, aos catálogos, às afiliações e aos programas de fidelidade.

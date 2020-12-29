@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1f92b31e870cbb4d3cc04870273693bed1378c5e
-ms.sourcegitcommit: 8028fbc5b9585e87d3331ea02577ff82ede090af
+ms.openlocfilehash: c54a3e9471fdeb56f27fe7c567c7cd7f0b7fd218
+ms.sourcegitcommit: 2ef23dcd4e42362186b9951e675010d97d55c6bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3817697"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4556420"
 ---
 # <a name="select-a-site-theme"></a>Selecionar um tema de site
 
@@ -32,7 +32,7 @@ Este tópico descreve como configurar ou alterar um tema do site no Microsoft Dy
 
 ## <a name="overview"></a>Visão geral
 
-O layout e o estilo de um site (por exemplo, fontes, tamanhos e cores) são definidos pelo tema que você seleciona e aplica ao site. Um tema é criado e implantado por um desenvolvedor em sua empresa. Para obter uma visão geral dos temas, consulte [Visão geral de Temas](http://). Para obter mais informações sobre como criar e implantar os temas, consulte [Criar um novo tema](http://).
+O layout e o estilo de um site (por exemplo, fontes, tamanhos e cores) são definidos pelo tema que você seleciona e aplica ao site. Um tema é criado e implantado por um desenvolvedor em sua empresa. Para obter uma visão geral dos temas, consulte [Visão geral de Temas](e-commerce-extensibility/theming.md). Para obter mais informações sobre como criar e implantar os temas, consulte [Criar um novo tema](e-commerce-extensibility/create-theme.md).
 
 Por padrão, quando você cria um site pela primeira vez, ele usa um tema chamado **Fabrikam**. Este tema padrão é fornecido como parte da biblioteca de módulos do Comércio. Depois que tiver implantado temas adicionais para seu site, você pode configurar o site de forma que use um deles.
 
@@ -63,3 +63,8 @@ Para selecionar o tema que é aplicado ao seu site, siga estas etapas.
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
+
+[Visão geral de temas](e-commerce-extensibility/theming.md)
+
+[Criar um tema](e-commerce-extensibility/create-theme.md)
+

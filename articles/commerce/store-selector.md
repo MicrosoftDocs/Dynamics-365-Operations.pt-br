@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4438e46d4653a0cd2060092695f08613cd696f4e
-ms.sourcegitcommit: 97ceb24f191161ca601e0889a539df665834ac3b
+ms.openlocfilehash: 5400a2e743a78124dca4bf9be3ccaf7870ea8b7d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "3818241"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665263"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
@@ -47,7 +47,7 @@ O módulo de seletor de loja permite que os usuários insiram um local (cidade, 
 
 O módulo de seletor de loja é integrado às [interfaces de programação de aplicativo (APIs) REST do Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) para usar os recursos de Geocodificação e Sugestão Automática do Bing. Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados na Sede do Commerce. A API de Geocodificação é usada para converter um local em valores de latitude e longitude. A integração com a API de Sugestão Automática é usada para mostrar sugestões de pesquisa quando os usuários inserem locais no campo de pesquisa.
 
-Para a API REST da Sugestão Automática, é necessário garantir que as seguintes URLs sejam permitidas (ou seja, incluídas na lista de permissões) de acordo com a política de segurança de conteúdo (CSP) do site. Essa configuração é executada na criação de site do Commerce, adicionando as URLs permitidas às várias diretivas da CSP do site (por exemplo, **img-src**). Para obter mais informações, consulte [Política de segurança de conteúdo](manage-csp.md). 
+Para a API REST da Sugestão Automática, é necessário garantir que as seguintes URLs sejam permitidas de acordo com a política de segurança de conteúdo (CSP) do site. Essa configuração é executada na criação de site do Commerce, adicionando as URLs permitidas às várias diretivas da CSP do site (por exemplo, **img-src**). Para obter mais informações, consulte [Política de segurança de conteúdo](manage-csp.md). 
 
 - Para a diretiva **connect-src**, adicione **&#42;.bing.com**.
 - Para a diretiva **img-src**, adicione **&#42;.virtualearth.net**.
@@ -65,6 +65,9 @@ Para que esse cenário funcione, os produtos devem ser configurados para usar o 
 A imagem a seguir mostra um exemplo de um módulo de seletor de loja usado em uma PDP.
 
 ![Exemplo de um módulo de seletor de loja usado em um PDP](./media/BOPIS.PNG)
+
+> [!NOTE]
+> Na versão 10.0.16 ou posterior, um novo recurso pode ser habilitado, permitindo que uma organização defina vários modos de separação de opções de entrega para os clientes.  Se esse recurso estiver habilitado, o seletor de loja e outros módulos de comércio eletrônico serão aprimorados para permitir que o comprador escolha entre as opções de entrega de separação potencialmente múltiplas, se configurado.  Para saber mais sobre esse recurso, consulte [esta documentação](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
 
 ## <a name="find-stores-mode"></a>Modo Localizar lojas
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5c66d8695ee0ff41e81c699a5d5a37075470059
-ms.sourcegitcommit: 776758a0ff95c3c7398986095104d1d2b9814514
+ms.openlocfilehash: 513fc3b35f0b6a7f5d9703d2b5eb4109289a189a
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/24/2020
-ms.locfileid: "4107527"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529973"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-october-22-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources 22 de outubro de 2020
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
@@ -55,11 +57,11 @@ As seguintes correções de bug estão incluídas nessa versão.
 | Número do problema| Problema  | descrição|
 | --- | --- | --- |
 | 437922 | A importação de horas de FMLA usando a entidade DMF resulta em um erro somente leitura. | O uso da entidade Horas de FMLA para importar horas associadas a um caso de FMLA falhou. Adicionamos lógica para garantir que as horas importadas não ultrapassem as horas restantes para o caso. |
-| 512019 | Valor incorreto de **Último postergar**. | Na página **Folga** , a alteração de **A partir da data** para o primeiro dia do próximo período fiscal exibiu um valor de **Último postergar** para o tipo **Licença anual**. Agora ele exibe o valor correto. |
+| 512019 | Valor incorreto de **Último postergar**. | Na página **Folga**, a alteração de **A partir da data** para o primeiro dia do próximo período fiscal exibiu um valor de **Último postergar** para o tipo **Licença anual**. Agora ele exibe o valor correto. |
 | 458639 | A entidade **Contatos do trabalhador** não dá suporte ao modo de controle de alterações. | Atualizamos a entidade **Contatos do trabalhador** para que você possa usá-la em cenários de BYOD (traga seu próprio banco de dados).|
 | 505347 | Os gerentes de treinamento podem enviar uma solicitação de licença para um funcionário quando o recurso Trabalhador simplificado tiver sido habilitado. | Funções que não sejam Assistente de RH e Gerente de RH não têm permissão para enviar solicitações de folga para funcionários. |
 | 513490 | Log de gerenciamento de benefícios: adicionar log de planos sem opções de cobertura. | Habilitamos o log de resultados para o **Plano sem opções de cobertura**. Agora, eles são exibidos na tabela **Resultados do processo** e são classificados corretamente para serem exibidos na parte superior. |
-| 517021 | Não é possível selecionar vários planos com o mesmo código de **Tipo de plano** se o **Tipo de plano** tiver um registro por tipo. | Alteramos as restrições para a seleção de planos em que apenas um registro é permitido. As restrições agora estão no nível de **Código de tipo de plano** , em vez de **Tipo de plano**. Essa alteração permite planos como HSA e FSA, que são os dois tipos, mas você pode fornecer a eles um **Código de tipo de plano** separado. Dessa forma, você pode selecionar ambos para o mesmo período de inscrição. |
+| 517021 | Não é possível selecionar vários planos com o mesmo código de **Tipo de plano** se o **Tipo de plano** tiver um registro por tipo. | Alteramos as restrições para a seleção de planos em que apenas um registro é permitido. As restrições agora estão no nível de **Código de tipo de plano**, em vez de **Tipo de plano**. Essa alteração permite planos como HSA e FSA, que são os dois tipos, mas você pode fornecer a eles um **Código de tipo de plano** separado. Dessa forma, você pode selecionar ambos para o mesmo período de inscrição. |
 | 444791 | Não é possível exibir a remuneração no Autoatendimento para funcionários quando **Restringir acesso** está ativado no Plano de remuneração. | No cartão **Remuneração** do Autoatendimento para funcionários, o valor de remuneração atual e o percentual de aumento exibiam "0" se o funcionário tivesse sido inscrito em um plano com **Acesso restrito** ativado e atribuído a funções específicas. Resolvemos esse problema para que o funcionário e o gerente sempre possam ver detalhes de remuneração por conta própria e ver a de seus subordinados diretos. |
 | 457542 | Atualizar detalhes do curso depois que o curso é fechado também não atualiza as mesmas informações para o funcionário que fez o curso. | As informações do funcionário agora são atualizadas corretamente quando você altera os detalhes do curso depois que um curso é fechado e reaberto. |
 | 515342 | Não é possível inserir dados por meio de **CDSLeaveRequestDetailEntity**. A empresa não é encontrada ou não existe. | Agora você pode usar **CDSLeaveRequestDetailEntity** para inserir dados. |

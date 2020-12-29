@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e969a4bc4346d05abd99022868dae3a1d78fe50
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ae3192bcf5128c09279017e3d5e8be8f42ec6975
+ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979418"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4666761"
 ---
 # <a name="order-promising"></a>Promessa de ordem
 
@@ -37,6 +37,12 @@ A promessa da ordem calcula as datas de entrega e recebimento mais próximas, e 
 -   **ATP (disponível para promessa)** – ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente em uma data específica. O cálculo de ATP inclui o estoque não confirmado, prazos de entrega, recebimentos planejados, e saídas.
 -   **Margem de saída + ATP**– A data de remessa é igual a data de ATP mais a margem de saída do item. A margem de saída é o tempo necessário para preparar os itens para remessa.
 -   **CTP (capacidade de comprometimento)**– A disponibilidade é calculada com o detalhamento.
+
+> [!NOTE]
+> Quando uma ordem de venda for atualizada, as informações de promessa da ordem serão atualizadas somente se a data de promessa da ordem existente não puder ser atendida, conforme ilustrado nos exemplos a seguir:
+> 
+> - **Exemplo 1**: a data de promessa da ordem atual é 20 de julho mas, devido à quantidade crescente, você não poderá entregar até 25 de julho. Como a data atual não pode mais ser atendida, a promessa da ordem é disparada.
+> -  **Exemplo 2**: a data de promessa da ordem atual é 20 de julho mas, devido à quantidade reduzida, agora é possível entregar em 15 de julho. No entanto, como a data atual ainda pode ser preenchida, a promessa da ordem não é disparada e 20 de julho permanece a data de promessa da ordem.
 
 ## <a name="atp-calculations"></a>Cálculos de ATP
 A quantidade de ATP é calculada usando o método “ATP cumulativo com look-ahead”. A principal vantagem desse cálculo de ATP é que ele pode lidar com casos nos quais a soma de saídas entre recebimentos é maior do que o último recebimento (por exemplo, quando se faz necessário usar uma quantidade de um recebimento anterior para atender a uma necessidade). O método de cálculo “ATP cumulativo com look-ahead” inclui todas as saídas até que a quantidade cumulativa para receber exceda a quantidade cumulativa para emissão. Sendo assim, esse método de cálculo de ATP avalia se qualquer quantidade de um período anterior pode ser usada em um período posterior.  

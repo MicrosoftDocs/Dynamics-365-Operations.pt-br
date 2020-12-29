@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-11-19
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 88ed678cdd37b4bd3d1a7ae92b505b2cfdea4fc8
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: aa984a01e9da30e6da07516fa2986833366a882b
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2896718"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527135"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-november-19-2019"></a>Novidades ou alterações no Dynamics 365 Talent (19 de novembro de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este artigo descreve os recursos novos ou alterados no Dynamics 365 Talent.
 
@@ -41,7 +43,7 @@ Esta versão inclui correções de bug menores para o Dynamics 365 Talent: Onboa
 
 As alterações descritas nesta seção aplicam-se ao número da compilação 8.1.2621. Os números em parênteses em alguns cabeçalhos referem-se aos números de suporte no Microsoft Dynamics Lifecycle Services (LCS).
 
-### <a name="platform-update-31-for-finance-and-operations-apps"></a>Atualização de plataforma 31 para aplicativos do Finance and Operations
+### <a name="platform-update-31-for-finance-and-operations-apps"></a>Atualização de plataforma 31 para os aplicativos do Finance and Operations
 
 Para obter mais informações, consulte [Versões prévias de recurso na Atualização de plataforma 31 para aplicativos do Finance and Operations (janeiro de 2020)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/get-started/whats-new-platform-update-31).
 

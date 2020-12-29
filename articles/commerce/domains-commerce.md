@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 84becee12363ca38951ff13073d87d1b1f14b616
-ms.sourcegitcommit: a47a4652a29fdb567a8ba67c4f914a8698e8c48c
+ms.openlocfilehash: cb2b003168d32d05387bd45796d313736b11a41f
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "3764992"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517346"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -34,7 +34,7 @@ Os domínios são endereços da Web usados para navegar até sites do Dynamics 3
 
 ## <a name="provisioning-and-supported-host-names"></a>Provisionamento e nomes de host com suporte
 
-Ao provisionar um ambiente de comércio eletrônico no [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), a caixa **Nomes de host com suporte** na tela de provisionamento de comércio eletrônico é usada para inserir domínios que serão associados ao ambiente implantado do Commerce. Esses domínios serão os nomes DNS (Servidor de Nomes de Domínio) voltados para o cliente nos quais os sites de comércio eletrônico serão hospedados. A inserção de um domínio nessa fase não começa a desviar o tráfego do domínio para o Dynamics 365 Commerce. O tráfego de um domínio só será encaminhado para o ponto de extremidade do Commerce quando o registro CNAME do DNS for atualizado para usar esse ponto de extremidade com o domínio.
+Ao provisionar um ambiente de comércio eletrônico no [Microsoft Dynamics Lifecycle Services (LCS)](https://lcs.dynamics.com/), a caixa **Nomes de host com suporte** na tela de provisionamento de comércio eletrônico é usada para inserir domínios que serão associados ao ambiente implantado do Commerce. Esses domínios serão os nomes DNS (Servidor de Nomes de Domínio) voltados para o cliente em que sites de comércio eletrônico serão hospedados. A inserção de um domínio nessa fase não começa a desviar o tráfego do domínio para o Dynamics 365 Commerce. O tráfego de um domínio só será encaminhado para o ponto de extremidade do Commerce quando o registro CNAME do DNS for atualizado para usar esse ponto de extremidade com o domínio.
 
 > [!NOTE]
 > Vários domínios podem ser inseridos na caixa **Nomes de host com suporte** separando-os com ponto-e-vírgula.
@@ -47,13 +47,13 @@ Você pode criar uma solicitação de serviço para adicionar outros domínios a
 
 ## <a name="commerce-generated-urls"></a>URLs geradas pelo Commerce
 
-Ao provisionar um ambiente de comércio eletrônico, o Commerce gerará uma URL que será o endereço funcional do ambiente. Essa URL é referenciada no link do site de comércio eletrônico mostrado no LCS depois que o ambiente é provisionado. Uma URL gerada pelo Commerce está no formato `https://<e-Commerce tenant name>.commerce.dynamics.com`, no qual o nome do locatário de comércio eletrônico é o nome inserido no LCS para o ambiente do Commerce.
+Ao provisionar um ambiente de comércio eletrônico do Dynamics 365 Commerce, o Commerce gerará uma URL que será o endereço funcional do ambiente. Essa URL é referenciada no link do site de comércio eletrônico mostrado no LCS depois que o ambiente é provisionado. Uma URL gerada pelo Commerce está no formato `https://<e-commerce tenant name>.commerce.dynamics.com`, em que o nome do locatário de comércio eletrônico é o nome inserido no LCS para o ambiente do Commerce.
 
 Você também pode usar nomes de host de sites de produção em um ambiente de área restrita. Essa opção é ideal para copiar um site de um ambiente de área restrita para produção.
 
 ## <a name="site-setup"></a>Configuração do site
 
-Após o provisionamento do seu ambiente de comércio eletrônico, você deve configurar seu site no construtor de sites do Commerce para associá-lo à URL funcional.
+Após o provisionamento do ambiente de comércio eletrônico, você deve configurar o site no construtor de sites do Commerce para associá-lo à URL funcional.
 
 Ao configurar um site pela primeira vez no construtor de sites, a caixa de diálogo **Configurar seu Site** será exibida.
 
@@ -68,7 +68,7 @@ A caixa **Caminho** pode ser deixada em branco ou outra cadeia de caracteres de 
 > [!NOTE]
 > O caminho também é conhecido como o **Caminho de correspondência** ao adicionar um canal na seção de configuração **Configurações do Site \> Canais** do construtor de sites.
 
-Por exemplo, se você tiver um site no construtor de sites chamado "fabrikam" em um locatário de comércio eletrônico chamado "xyz" e configurar o site com um caminho em branco, poderá acessar o conteúdo do site publicado em um navegador da Web indo diretamente para a URL base gerada pelo Commerce:
+Por exemplo, se você tiver um site no construtor de sites chamado "fabrikam" em um locatário de comércio eletrônico chamado "xyz" e configurar o site com um caminho em branco, poderá acessar o conteúdo do site publicado em um navegador da Web acessando diretamente a URL base gerada pelo Commerce:
 
 `https://xyz.commerce.dynamics.com`
 
@@ -102,9 +102,9 @@ Quando uma cadeia de caracteres de consulta de domínio não é fornecida em um 
 
 ## <a name="traffic-forwarding-in-production"></a>Encaminhamento de tráfego na produção
 
-Você pode simular vários domínios usando parâmetros de cadeias de caracteres de consulta de domínio no próprio ponto de extremidade commerce.dynamics.com. No entanto, quando você precisar ficar ativo na produção, deverá encaminhar o tráfego do seu domínio personalizado para o ponto de extremidade `<e-Commerce tenant name>.commerce.dynamics.com`.
+Você pode simular vários domínios usando parâmetros de cadeias de caracteres de consulta de domínio no próprio ponto de extremidade commerce.dynamics.com. No entanto, quando você precisar ficar ativo na produção, deverá encaminhar o tráfego do seu domínio personalizado para o ponto de extremidade `<e-commerce tenant name>.commerce.dynamics.com`.
 
-O ponto de extremidade `<e-Commerce tenant name>.commerce.dynamics.com` não oferece suporte a protocolos SSL de domínios personalizados, portanto, você deve configurar esses domínios usando um serviço de front door ou uma CDN (rede de distribuição de conteúdo). 
+O ponto de extremidade `<e-commerce tenant name>.commerce.dynamics.com` não oferece suporte a protocolos SSL de domínios personalizados, portanto, você deve configurar esses domínios usando um serviço de front door ou uma CDN (rede de distribuição de conteúdo). 
 
 Para configurar domínios personalizados usando um serviço de front door ou uma CDN, você tem duas opções:
 
@@ -115,7 +115,7 @@ Para obter informações sobre como configurar um serviço de CDN diretamente, c
 
 Para usar a instância do Azure Front Door fornecida pelo Commerce, você deve criar uma solicitação de serviço para obter assistência de configuração da CDN da equipe de integração do Commerce. 
 
-- Você precisará fornecer o nome da sua empresa, o domínio de produção, a ID do ambiente e o nome do locatário de produção de comércio eletrônico. 
+- Você precisará fornecer o nome da empresa, o domínio de produção, a ID do ambiente e o nome do locatário de produção de comércio eletrônico. 
 - Você precisará confirmar se esse é um domínio existente (usado para um site ativo no momento) ou um novo domínio. 
 - Para um novo domínio, a verificação de domínio e o certificado SSL podem ser obtidos em uma única etapa. 
 - Para um domínio que atende a um site existente, há um processo de várias etapas necessário para estabelecer a verificação de domínio e o certificado SSL. Esse processo tem um contrato de nível de serviço (SLA) de 7 dias úteis para um domínio entrar no ar, pois ele inclui várias etapas sequenciais.
@@ -152,13 +152,13 @@ A instância do Azure Front Door fornecida pelo Commerce não oferece suporte a 
 
   ## <a name="additional-resources"></a>Recursos adicionais
 
-  [Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+  [Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
   [Configurar um canal da loja online](online-stores.md)
 
   [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
-  [Associar um site online a um canal](associate-site-online-store.md)
+  [Associar um site do Dynamics 365 Commerce a um canal online](associate-site-online-store.md)
 
   [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 

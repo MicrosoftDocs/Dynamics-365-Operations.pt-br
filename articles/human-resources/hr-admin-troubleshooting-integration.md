@@ -17,16 +17,28 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0a3389d6ce5f1985f7515e777a2bafae4eae5f0c
-ms.sourcegitcommit: ba340f836e472f13f263dec46a49847c788fca44
+ms.openlocfilehash: 6a94c1269cd81ecdcbdff018ec4a8f90be36f0f3
+ms.sourcegitcommit: 6aa8d6aa8276611967fb6fab44715950de49f6af
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2020
-ms.locfileid: "3431098"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4589054"
 ---
 # <a name="integration-with-finance-faq"></a>Integração com Perguntas frequentes do Finance
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 Esse tópico responde perguntas comuns associadas a quais dados são sincronizados quando o Dynamics 365 Human Resources é integrado ao Dynamics 365 Finance.
+
+## <a name="can-i-edit-the-dynamics-365-talent-application-user-in-power-apps"></a>É possível editar o usuário do aplicativo Dynamics 365 Talent no Power Apps?
+
+Nº Se você editar o usuário do aplicativo Talent, a integração entre o Human Resources e o Common Data Service poderá falhar. A tabela a seguir mostra as configurações padrão para o usuário do aplicativo Talent.
+
+| Nome Completo | ID do Aplicativo | ID do Objeto do Azure AD | URI de ID do Aplicativo |
+| --- | --- | --- | --- |
+| Dynamics 365 for Talent | f9be0c49-aa22-4ec6-911a-c5da515226ff | 27fd8129-4b3c-43f7-b1bf-47495d3a049b | f9be0c49-aa22-4ec6-911a-c5da515226ff |
+
+![Configurações padrão para usuários de aplicativos do Talent](media/DynamicsApplicationUser.png)
 
 ## <a name="is-all-data-synchronized-or-just-some-data-entities"></a>Todos os dados são sincronizados ou apenas algumas entidades de dados?
 

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d0b14e0c662af74464768b66c1c86d03d2944014
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: da27e3ed0a0e50126590609d09575befe17a7aa2
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976007"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517105"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar vários locatários B2C em um ambiente do Commerce
 
@@ -114,11 +114,11 @@ Seu novo locatário B2C do Azure AD agora deve aparecer na lista em **Gerenciar 
 
 [Configurar seu nome de domínio](configure-your-domain-name.md)
 
-[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+[Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
-[Associar um site online a um canal](associate-site-online-store.md)
+[Associar um site do Dynamics 365 Commerce a um canal online](associate-site-online-store.md)
 
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 

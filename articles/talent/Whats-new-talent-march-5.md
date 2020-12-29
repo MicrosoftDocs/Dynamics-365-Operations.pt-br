@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 855eafaca88d180997cf5a68c7f0fe975c177f88
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 115d7cd3d71eaddce2434cb1939c503d36bccdf8
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2898910"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4527281"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-5-2019"></a>Novidades ou alterações no Dynamics 365 Talent (5 de março de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve os recursos novos ou alterados no Talent.
 
@@ -76,5 +78,5 @@ Os prazos finais para atualizar para o Common Data Service se aproximam rapidame
 ###  <a name="advanced-compensation-security-fixed-and-variable"></a>Segurança de compensação avançada (fixa e variável)
 Em muitas organizações, gerentes de compensação e benefícios só podem acessar certos registros de compensação, como registros de funcionários executivos ou regionais. Com esta alteração, você pode gerenciar e manter os planos de compensação para populações de funcionário diferentes na organização. Planos fixos e variáveis podem receber funções de segurança, que determinarão o acesso de planos e os dados de funcionário relacionados aos planos, como salário ou registros de bônus. Apenas as funções com acesso determinado poderão processar compensação para esses funcionários.
 
-###  <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 do Finance and Operations
-Para obter detalhes adicionais sobre a Atualização de plataforma 24 do Finance and Operations, consulte [Novidades ou alterações na Atualização de plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).
+###  <a name="platform-update-24-for-finance-and-operations"></a>Atualização de plataforma 24 para o Finance and Operations
+Para obter detalhes adicionais sobre a atualização da Plataforma 24 do Finance and Operations, consulte [Novidades ou alterações na atualização da Plataforma 24 do Finance and Operations (março de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-24).

@@ -1,9 +1,9 @@
 ---
-title: Criar diretivas de localização
-description: Este tópico explica como criar diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque.
+title: Trabalhar com diretivas de localização
+description: Este tópico descreve como trabalhar com diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque.
 author: Mirzaab
 manager: tfehr
-ms.date: 07/28/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,20 +14,20 @@ ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2020-07-28
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 4f634b7f526fd198b394af6d3870c43ee560813e
-ms.sourcegitcommit: a36a4f9915ae3eb36bf8220111cf1486387713d9
+ms.search.validFrom: 2020-11-13
+ms.dyn365.ops.version: Release 10.0.15
+ms.openlocfilehash: f56257fd3f2f681bbd514843d8ddafa2395648d3
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4016761"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517467"
 ---
-# <a name="create-location-directives"></a>Criar diretivas de localização
+# <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque. Por exemplo, para uma transação de ordem de venda, uma diretiva de localização determina onde os itens serão separados e onde os itens separados serão colocados.
+As diretivas de localização são regras que ajudam a identificar locais de separação e armazenamento para a movimentação do estoque. Por exemplo, em uma transação de ordem de venda, uma diretiva de localização determina onde os itens serão separados e onde os itens separados serão armazenados. As diretivas de localização consistem em um cabeçalho e linhas associadas. Elas são criadas para *tipos de ordem de serviço* específicos.
 
 > [!NOTE]
 > Este tópico se aplica aos recursos do módulo **Gerenciamento de depósito**. Não se aplica aos recursos do módulo de [Gerenciamento de estoque](../inventory/inventory-home-page.md).
@@ -43,83 +43,218 @@ Este tópico explica como criar diretivas de localização. As diretivas de loca
 
 Antes de criar uma diretiva de localização, siga estas etapas para verificar se os pré-requisitos estão em vigor.
 
+1. Verifique se a chave de licença necessária está ativada. Vá para **Configuração do sistema \> Configuração \> Configuração de licença**, expanda a chave de licença **Comercial** e selecione a chave de configuração **Gerenciamento de Depósito e Transporte**. Observe que o acesso administrativo é necessário para esta etapa.
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Criar um depósito.
-1. Na FastTab **Depósito** , defina a opção **Usar processos de gerenciamento de depósito** como *Sim*.
+1. Na FastTab **Depósito**, defina a opção **Usar processos de gerenciamento de depósito** como *Sim*.
 1. Criar localizações, tipos de localização, perfis de localização e formatos da localização. Para obter mais informações, consulte [Configurar localizações em um depósito habilitado para WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
 1. Criar sites, zonas e grupos de zonas. Para obter mais informações, consulte [Configuração do depósito](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) e [Configurar localizações em um depósito habilitado para WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
 
-## <a name="setup"></a>Configurar
+## <a name="work-order-types-for-location-directives"></a>Tipos de ordem de serviço para diretivas de localização
 
-### <a name="create-location-directives"></a>Criar diretivas de localização
+Muitos dos campos que podem ser definidos para diretivas de localização são comuns a todos os tipos de ordem de serviço. No entanto, outros campos são específicos de determinados tipos de ordem de serviço.
 
-Para criar uma diretiva de localização, siga estas etapas.
+![Tipos de ordem de serviço de diretivas de localização](media/Location_Directives_Work_Order_Types.png "Tipos de ordem de serviço de diretivas de localização")
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
-1. No painel de lista, defina o campo **Tipo de ordem de serviço** como o tipo de transação de estoque para o qual está criando uma diretiva de localização.
-1. No Painel de Ações, selecione **Novo** para criar uma diretiva de localização.
-1. Para a nova diretiva de localização, defina os campos conforme descrito na seguinte tabela.
+> [!NOTE]
+> Dois tipos de ordem de serviço, *Trabalho cancelado* e *Contagem cíclica*, são usados somente pelo sistema. Não é possível criar diretivas de localização para esses tipos de ordem de serviço.
 
-    | Campo | descrição |
-    |---|---|
-    | Número de seqüência | Insira um número inteiro que indique a posição da sequência da diretiva de localização. As posições da sequência determinam quando cada diretiva de localização será processada para o tipo de ordem de serviço selecionado. |
-    | Nome | Digite um nome para a diretiva de localização. | 
-    | Tipo de trabalho | Selecione o tipo de trabalho que deve ser executado. A lista de valores depende do tipo de transação de estoque que você selecionou no campo **Tipo de ordem de serviço**. Os valores a seguir podem estar disponíveis:<ul><li>**Colocar** – a diretiva de localização tentará encontrar a melhor solução para colocar ou localizar o estoque que entra no sistema por meio de recebimento, produção ou ajustes de estoque. A diretiva de localização também é usada para definir o local de colocação no estágio ou o local da remessa do baydoor final no fluxo de saída.</li><li>**Separação** – a diretiva de localização tentará encontrar os melhores locais para reservar estoque fisicamente (criar trabalho). A separação pode ser concluída (ou seja, a linha de trabalho de separação pode ser fechada), mesmo se o trabalho não for concluído. O usuário pode concluir a separação física. No sistema, essa ação é uma etapa de separação. Em seguida, o usuário poderá cancelar de um dispositivo móvel e concluir o trabalho (por exemplo, colocação) depois. Porém, o cabeçalho de trabalho é fechado pela primeira vez quando a colocação final é concluída.</li><li>**Contagem** , **Ajustes** , **Personalização** , **Alteração de status de estoque** , **Criação da placa de licença** , **Impressão** , **Alteração de status** , **Empacotar em placas de licença aninhadas** – esses valores não podem ser usados em configurações de diretivas de localização.</li></ul> |
-    | Site | Selecione o site em que o trabalho deve ser concluído. |
-    | Depósito | Selecione a localização do depósito em que o trabalho deve ser concluído. |
-    | Código de diretiva | Selecione um código de diretiva para orientar a seleção de diretivas de localização que estão relacionadas às linhas de colocação do modelo de trabalho em que este código é atribuído. Na página **Código de diretiva** , é possível criar códigos que podem ser usados para conectar um modelo de trabalho a uma diretiva de localização. Também é possível usar essa página para estabelecer o link entre qualquer linha de modelo de trabalho e diretiva de localização (como localização de fase ou baydoor). Para obter mais informações sobre como configurar um código de diretiva com um modelo de trabalho, consulte [Controlar o trabalho do depósito usando modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md).<p>Se um código de diretiva estiver definido, o trabalho deve ser gerado, o sistema pesquisará diretivas de localização por código de diretiva e não por sequência. Dessa forma, você pode ser mais específico sobre o modelo do local usado para uma etapa específica em um modelo de trabalho, como a etapa de preparação de materiais.</p> |
-    | Código de disposição | Selecione um código de disposição para redirecionar o armazenamento dos itens recebidos em um local. (Para obter mais informações, consulte [Configurar códigos de disposições](tasks/set-up-dispositions-codes.md).) Este campo está disponível somente quando o campo **Tipo de ordem de serviço** estiver definido como *Ordens de compra* , *Ordens de devolução* ou *Armazenamento de mercadorias acabadas*. |
-    | Várias SKUs | Defina esta opção como *Sim* para usar várias unidades de manutenção de estoque (SKUs) em um local. Por exemplo, esta opção deve ser definida como *Sim* para o baydoor.<p>Se a opção **Várias SKUs** estiver definida como *Sim* , o local da colocação será especificado no trabalho (conforme esperado). No entanto, o local de colocação poderá manipular a colocação de vários itens somente se o trabalho incluir SKUs diferentes que devem ser separadas e colocadas, não se o trabalho incluir somente uma SKU que deve ser colocada.</p><p>Se a opção **Várias SKUs** estiver definida como *Não* , o local de colocação será especificado somente se a colocação tiver apenas um tipo de SKU.</p><p>Para usar ambas abordagens, é necessário especificar duas linhas com a mesma estrutura e configuração, mas defina a opção **Várias SKUs** como *Sim* para uma das linhas, e *Não* para outra. Em outras palavras, é necessário ter duas diretivas de localização idênticas para operações de colocação, mesmo que não precise diferenciar entre várias SKUs e SKUs únicas na ID de trabalho. Também é necessário definir uma diretiva de localização para a separação, se você tiver uma ordem com mais de um item.</p><p>**Observação:** se você definir a opção **Várias SKUs** como *Sim* para uma diretiva de localização do tipo de trabalho *Colocação* , o sistema sempre selecionará a primeira linha da diretiva de localização, independentemente de outras restrições criadas nas linhas.</p> |
+As tabelas nas subseções a seguir listam os campos de tipo de ordem comum e de trabalho, que estão disponíveis quando você configura uma diretiva de localização.
 
-1. Opcional: no Painel de Ações, selecione **Editar consulta** para selecionar os locais ou para especificar algumas restrições que se apliquem quando você selecionar uma diretiva de localização específica.
-1. Na FastTab **Linhas** , crie uma ou mais linhas para especificar unidades e para atender ou reservar a quantidade em um depósito.
-1. Em cada linha nova, defina os campos conforme descrito na seguinte tabela.
+### <a name="fields-that-are-common-to-all-work-order-types"></a>Campos comuns a todos os tipos de ordem de serviço
 
-    | Campo | descrição |
-    |---|---|
-    | Número de seqüência | Insira um número inteiro que indique a posição da sequência da diretiva de localização. As posições da sequência determinam quando cada diretiva de localização é processada para o tipo de trabalho selecionado. |
-    | Da quantidade | Especifique o intervalo de quantidade inicial para quando a sequência de grade intermediária deve ser selecionada. Especifique a quantidade na unidade de medida selecionada no campo **Unidade**. |
-    | Quantidade final | Especifique o intervalo de quantidade final para quando a sequência de grade intermediária deve ser selecionada. Especifique a quantidade na unidade de medida selecionada no campo **Unidade**. |
-    | Unidade | Selecione a unidade de medida dos itens.<p>É possível especificar uma quantidade mínima e uma quantidade máxima à qual a diretiva deve ser aplicada. Também é possível especificar se a diretiva deve ser usada para uma unidade de estoque específica. O campo **Unidade** na linha é usado somente para avaliação de quantidade.</p><p>Para determinar se uma linha de diretiva de localização é aplicável, o sistema avalia quantidades usando o valor de **Unidade** especificado na linha. Sempre que uma linha de diretiva de localização for acessada, o sistema tentará converter a unidade de demanda em uma unidade especificada na linha. Se a conversão da unidade não existir, o sistema avançará para a próxima linha.</p> |
-    | Localizar quantidade | Este campo é válido somente ao tentar colocar ou localizar a quantidade no depósito. Em outras palavras, é válido apenas para o trabalho de *Colocação*. Selecione o método usado para avaliar se a quantidade está dentro do intervalo definido nos campos **Da quantidade** e **Até a quantidade**. Se a diretiva do local se destinar a uma transação de entrada, selecione uma destas opções:<ul><li>**Quantidade da placa de licença** – para avaliar se a quantidade está dentro dos intervalos de quantidade desejada, use a quantidade na placa de licença que está sendo recebida.</li><li>**Quantidade unitizada** – para avaliar se a quantidade está dentro dos intervalos de quantidade desejada, use a quantidade que está sendo unitizada durante a transação. Por exemplo, em um depósito, se puder receber uma quantidade de 1000 e dividi-la em 10 placas, cada uma delas com uma quantidade de 100, você poderá usar uma quantidade de 1000 itens, em vez de 100 placas de licença.</li><li>**Quantidade pendente** – para avaliar se a quantidade está dentro dos intervalos de quantidade desejada, use a quantidade restante a ser recebida na linha da ordem de compra que está sendo registrada no momento.</li><li>**Quantidade Esperada** – para avaliar se a quantidade está dentro dos intervalos de quantidade desejada, use a quantidade total da linha da ordem de compra, independentemente da quantidade que já foi recebida.</li></ul> |
+A tabela a seguir lista os campos que são comuns a todos os tipos de ordem de serviço.
 
-1. Opcional: na FastTab **Linhas** , é possível definir os campos adicionais a seguir.
+| FastTab | Campo |
+|---|---|
+| Diretivas de localização | Tipo de trabalho |
+| Diretivas de localização | Site |
+| Diretivas de localização | Depósito |
+| Diretivas de localização | Código de diretiva |
+| Diretivas de localização | Várias SKUs |
+| Linhas | Número de seqüência |
+| Linhas | Da quantidade |
+| Linhas | Quantidade final |
+| Linhas | Unidade |
+| Linhas | Localizar quantidade |
+| Linhas | Restringir por unidade |
+| Linhas | Arredondar para a unidade |
+| Linhas | Localizar quantidade da embalagem |
+| Linhas | Permitir divisão |
+| Ações de Diretiva de Localização | Número de seqüência |
+| Ações de Diretiva de Localização | Organização |
+| Ações de Diretiva de Localização | Uso de localização fixa |
+| Ações de Diretiva de Localização | Permitir estoque negativo |
+| Ações de Diretiva de Localização | Lote habilitado |
+| Ações de Diretiva de Localização | Estratégia |
 
-    | Campo | descrição |
-    |---|---|
-    | Restringir por unidade | Marque esta caixa de seleção para restringir as unidades de medida consideradas critérios de seleção válidos para as linhas de diretiva de localização. Quando as unidades de medida forem especificadas, somente os itens nos quais a unidade corresponde a pelo menos uma unidade definida para o grupo de sequências de unidades serão considerados como válidos para a seleção de linhas.<p>Por exemplo, a unidade está restrita a paletes e o item está associado a um grupo de sequências de unidades que inclui a unidade *paletes*. Nesse caso, os itens serão considerados como uma opção válida para a diretiva de localização.</p><p>No entanto, a caixa de seleção **Restringir por unidade** não controla a unidade ou as unidades aplicadas nas linhas de trabalho. A restrição de unidade é aplicável somente às unidades disponibilizadas por meio do grupo de sequências de unidades.</p><p>Por exemplo, um item está associado a um grupo de sequências de unidades que inclui as unidades *paletes* e *peças*. A unidade de medida foi definida, onde 1 palete = 100 peças, e a diretiva de localização usa a funcionalidade **Restringir por unidade** somente para paletes. Além disso, um modelo de trabalho foi definido para limitar a criação do cabeçalho de trabalho para 50 peças. Nesse caso, serão criadas linhas de trabalho de 50 peças.</p><p>Para especificar a unidade de medida para restrição, siga estas etapas</p><ol><li>Na FastTab **Linhas** , selecione **Restringir por unidade**. Este botão é disponibilizado somente após marcar a caixa de seleção **Restringir por unidade** na linha e selecionar **Salvar**.</li><li>No campo **Unidade** , selecione a unidade de medida para restringir os processos de separação e armazenamento.</li></ol> |
-    | Arredondar para a unidade | Selecione esta opção para indicar se a separação de matéria-prima deve ser arredondada até um múltiplo da unidade de manuseio de material especificada no campo **Restringir por unidade**. Esse campo se aplica somente à separação de matéria-prima e às diretivas de localização do tipo *Separação*. |
-    | Localizar quantidade da embalagem | Marque esta caixa de seleção se a quantidade de unidades de embalagem for especificada na página **Ordem de venda**. Se você marcar essa caixa de seleção, somente os locais com essa quantidade da unidade de embalagem serão selecionadas. |
-    | Permitir divisão | Marque esta caixa de seleção para dividir a quantidade por vários locais. |
-    | Modelo de reabastecimento imediato | Crie uma conexão a um modelo de reabastecimento para que o reabastecimento seja iniciado imediatamente se os itens não forem atribuídos. Se você deixar esse campo em branco, o reabastecimento do item não será iniciado até que todas as linhas da diretiva de localização sejam processadas.<p>Este campo está disponível somente nos tipos de ordem de serviço selecionados em que o reabastecimento é permitido, como *Ordens de venda* e *Separação de matéria-prima*.</p> |
+### <a name="fields-that-are-specific-to-work-order-types"></a><a name="fields-specific-types"></a>Campos específicos de tipos de ordem de serviço
 
-1. No FastTab **Ações de diretiva de localização** , selecione **Novo** para selecionar o local ou o intervalo de locais.
-1. O campo **Número de sequência** exibe a sequência em que a diretiva de localização será processada para o tipo de trabalho selecionado. Você pode modificar a sequência. No entanto, tenha cuidado com números de sequência para ações de diretiva de localização, pois elas serão sempre executadas nessa sequência.
-1. No campo **Nome** , insira o nome da ação da diretiva de localização. Seja específico, para que fique claro qual é a ação.
-1. Opcional: selecione **Editar consulta** para modificar os locais de depósito e outros critérios.
-1. Opcional: é possível definir os campos adicionais a seguir para uma diretiva de localização.
+A tabela a seguir lista os campos que são específicos de tipos de ordem de serviço em particular.
 
-    | Campo | descrição |
-    |---|---|
-    | Uso de localização fixa | Selecione quais locais a diretiva de localização deve considerar:<ul><li>**Localizações fixas e não fixas** – A diretiva de localização considerará todas as localizações.</li><li>**Somente localizações fixas para o produto** – A diretiva de localização considerará somente as localizações fixas dos produtos.</li><li>**Somente localizações fixas para a variante do produto** – A diretiva de localização considerará somente as localizações fixas das variantes do produto.</li></ul> |
-    | Permitir estoque negativo | Marque esta caixa de seleção para permitir estoque negativo na localização de depósito especificada. |
-    | Lote habilitado | Marque esta caixa de seleção para usar estratégias de lote para os itens habilitados para lotes. Se esta caixa de seleção for marcada e o campo **Estratégia** for definido como *Nenhum* , o sistema avançará para a próxima linha de ação. |
-    | Estratégia | Selecione a estratégia que a diretiva de localização deve usar:<ul><li>**Nenhum** – nenhuma estratégia será usada.</li><li>**Fazer a correspondência da quantidade da embalagem** – esta estratégia verifica se um local de separação tem a quantidade de embalagem especificada. Esta estratégia é válida somente quando o campo **Tipo de trabalho** for definido como *Separação*.</li><li>**Consolidar** – esta estratégia consolida itens em um local específico quando itens semelhantes já estiverem disponíveis. Esta estratégia é válida somente quando o campo **Tipo de trabalho** for definido como *Colocação*. Em uma configuração típica para colocação, o sistema tenta consolidar na primeira linha de ação e, na segunda linha de ação, ele tenta executar a colocação sem a consolidação. A consolidação de mercadorias torna a separação posterior mais eficiente.</li><li>**Reserva de lotes FEFO** – esta estratégia é usada quando o estoque é localizado usando uma data de vencimento do lote e é alocado para reserva de lotes. A estratégia de reserva de lotes de primeiro a vencer, primeiro a sair (FEFO) também é usada quando o estoque é encontrado por meio de uma data de validade do lote além da data de vencimento. Você só pode usar essa estratégia para itens habilitados para lote. Esta estratégia é válida somente quando o campo **Tipo de trabalho** for definido como *Separação*. Ao selecionar essa estratégia, você substitui qualquer classificação de números de lote aplicada.</li><li>**Arredondar até a LP completa** – esta estratégia arredonda para cima a quantidade de estoque para corresponder à quantidade de placa de licença que é atribuída aos itens que devem ser separados. Esta estratégia pode ser usada somente para o tipo de reabastecimento de diretivas de localização e somente quando o campo **Tipo de trabalho** for definido como *Separação*.</li><li>**Local vazio sem trabalho de entrada** – esta estratégia é usada para detectar locais vazios. O local será considerado vazio se não houver estoque físico e nenhum trabalho de entrada esperado. Esta estratégia é válida somente quando o campo **Tipo de trabalho** for definido como *Colocação*.</li></ul> |
+| FastTab | Campo | Tipo de ordem de serviço |
+|---|---|---|
+| Diretivas de localização | Localizar por | Ordens de Compra |
+| Diretivas de localização | Código de disposição aplicável | Ordens de Compra |
+| Diretivas de localização | Código de disposição | Ordens de Compra |
+| Diretivas de localização | Código de disposição aplicável | Armazenamento de mercadorias acabadas |
+| Diretivas de localização | Código de disposição | Armazenamento de mercadorias acabadas |
+| Diretivas de localização | Código de disposição aplicável | Ordens de Devolução |
+| Diretivas de localização | Código de disposição | Ordens de Devolução |
+| Diretivas de localização | Código de disposição aplicável | Armazenamento kanban |
+| Diretivas de localização | Código de disposição aplicável | Separação kanban |
+| Linhas | Modelo de reabastecimento imediato | Ordens de Venda |
+| Linhas | Modelo de reabastecimento imediato | Separação de matéria-prima |
+| Linhas | Modelo de reabastecimento imediato | Transferir saída |
+| Linhas | Modelo de reabastecimento imediato | Separação kanban |
 
-## <a name="example-of-the-use-of-location-directives"></a>Exemplo do uso de diretivas de localização
+## <a name="open-the-location-directives-page"></a>Abrir a página Diretivas de localização
+
+Para abrir a página **Diretivas de localização**, vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+
+A partir daí, você pode exibir, criar e editar diretivas de localização usando os comandos no Painel de Ações. Consulte as seções restantes deste tópico para obter informações sobre como usar todos os campos disponíveis na página.
+
+## <a name="action-pane"></a>Painel de Ação
+
+O Painel de Ações na página **Diretivas de localização** contém botões que podem ser usados para criar, editar e excluir diretivas (**Editar**, **Novo** e **Excluir**). Ele também contém os seguintes botões que permitem ajustar a sequência em que a diretiva de localização é processada e configurar uma consulta que define os critérios para a aplicação da diretiva de localização:
+
+- **Mover para cima** – mova a diretiva de localização selecionada para cima na sequência. Por exemplo, você pode movê-la da sequência número 4 para a sequência número 3.
+- **Mover para baixo** – mova a diretiva de localização selecionada para baixo na sequência. Por exemplo, você pode movê-la da sequência número 4 para a sequência número 5.
+- **Editar consulta** – abra uma caixa de diálogo na qual você possa definir as condições em que a diretiva de localização selecionada deve ser processada. Por exemplo, talvez você deseje que ele seja aplicado somente a um depósito específico.
+
+## <a name="location-directives-header"></a>Cabeçalho de diretivas de localização
+
+O cabeçalho da diretiva de localização inclui os seguintes campos para o número de sequência e nome descritivo da diretiva de localização:
+
+- **Número de sequência** – este campo indica a sequência à qual o sistema tenta aplicar cada diretiva de localização para o tipo de ordem de serviço selecionada. Os números baixos são aplicados primeiro. Você pode alterar a sequência usando os botões **Mover para cima** e **Mover para baixo** no Painel de Ações.
+- **Nome** – insira um nome descritivo para a diretiva de localização. Esse nome deve ajudar a identificar a finalidade geral da diretiva. Por exemplo, insira *Separação da ordem de venda no depósito 24*.
+
+## <a name="location-directives-fasttab"></a>FastTab de diretivas de localização
+
+Os campos na FastTab **Diretivas de localização** são específicos do tipo de ordem de serviço selecionado no campo **Tipo de ordem de serviço** no painel de lista.
+
+- **Tipo de trabalho** – selecione o tipo de trabalho que deve ser executado. Os valores disponíveis dependem do tipo de transação de estoque selecionado no campo **Tipo de ordem de serviço**. Selecione um dos seguintes valores:
+
+    - **Armazenamento** – a diretiva de localização tentará encontrar a localização ideal para armazenar ou localizar o estoque que entra no sistema com recebimento, produção ou ajustes de estoque. Ela também pode ser usada para definir o armazenamento no local de espera ou no local de remessa da porta da baía.
+    - **Separação** – a diretiva de localização tentará encontrar os locais ideais para reservar estoque fisicamente (ou seja, criar trabalho). A separação poderá ser concluída (ou seja, a linha de trabalho de separação pode ser fechada), mesmo se o trabalho não for concluído. O usuário pode concluir a separação física. No sistema, essa ação é uma etapa de separação. O usuário pode cancelar o dispositivo móvel e concluir o trabalho depois. Porém, o cabeçalho de trabalho é fechado pela primeira vez quando a colocação final é concluída.
+
+    > [!IMPORTANT]
+    > Os outros valores no campo **Tipo de trabalho** não são relevantes para diretivas de localização. Elas aparecem apenas porque o campo não está filtrado para corresponder ao tipo de ordem de serviço selecionado.
+
+- **Site** – este campo é obrigatório porque a diretiva do localização deve ser capaz de determinar o site e o depósito válido.
+- **Depósito** – este campo é obrigatório porque a diretiva do localização deve ser capaz de determinar o site e o depósito válido.
+- **Código de diretiva** – selecione o código de diretiva para associar a um modelo de trabalho ou a um modelo de reabastecimento. Na página **Código de diretiva**, é possível criar códigos que podem ser usados para conectar modelos de trabalho ou modelos de reabastecimento a diretivas de localização. Também é possível usar códigos de diretiva para estabelecer um vínculo entre qualquer linha de modelo de trabalho e uma diretiva de localização (como local de espera ou porta da baía).
+
+    > [!TIP]
+    > Se um código de diretiva estiver definido, o sistema não pesquisará diretivas de localização por número de sequência quando o trabalho precisar ser gerado. Ele pesquisará por código de diretiva. Dessa forma, você pode ser mais específico sobre o modelo de localização usado para uma etapa específica em um modelo de trabalho, como a etapa de preparo de materiais.
+
+- **Várias SKUs** – defina esta opção como *Sim* para habilitar várias unidades de manutenção de estoque (SKUs) a serem usadas em um local. Por exemplo, várias SKUs devem ser habilitadas para o local da porta da baía. Se você habilitar várias SKUs, o local de armazenamento será especificado no trabalho, conforme esperado. No entanto, o local de armazenamento poderá tratar somente um armazenamento de vários itens (se o trabalho incluir diferentes SKUs que devam ser separadas e armazenadas). Não será possível tratar um armazenamento com um única SKU. Se você definir esta opção como *Não*, seu local de armazenamento só será especificado se o armazenamento tiver apenas um tipo de SKU.
+
+    > [!IMPORTANT]
+    > Para poder fazer a instalação de vários itens e de uma única SKU, você deve especificar duas linhas com a mesma estrutura e configuração, mas deve definir a opção **Várias SKUs** como *Sim* para uma linha e *Não* para a outra. Portanto, para operações de armazenamento, é necessário ter duas diretivas de localização idênticas, mesmo que não precise diferenciar SKUs únicas e várias SKUs em uma ID de trabalho. Geralmente, se você não configurar essas duas diretivas de localização, os locais de processos comerciais inesperados serão obtidos da diretiva de localização aplicada. Você deverá usar uma configuração semelhante para diretivas de localização que tenham um **Tipo de trabalho** de *separação*, caso você precise processar ordens que incluam várias SKUs.
+
+    Use a opção **Várias SKUs** para linhas de trabalho que tratam mais de um número de item. (O número do item ficará em branco nos detalhes do trabalho e será mostrado como **Múltiplo** nas páginas de processamento no aplicativo de depósito.)
+
+    Em um cenário de exemplo típico, um modelo de trabalho é configurado de forma que tenha mais de um par separação/armazenamento. Nesse caso, talvez você queira procurar um local de preparo específico a ser usado em linhas com um **Tipo de trabalho** de *Armazenamento*.
+
+    > [!NOTE]
+    > Se a opção **Várias SKUs** for definida como *Sim*, você não poderá selecionar **Editar consulta** no Painel de Ações, pois a consulta não poderá ser avaliada no nível do item quando houver vários itens. Para garantir que a diretiva de localização desejada esteja selecionada, use o campo **Código de diretiva** para orientar a seleção da diretiva de localização relacionada às linhas em que o código de diretiva está atribuído no modelo de trabalho.
+
+    A menos que você sempre trabalhe com operações de item único ou de itens mistos, é importante definir duas diretivas de localização para o tipo de trabalho *Armazenamento*: uma em que a opção **Várias SKUs** esteja definida como *Sim* e outra em que esteja definida como *Não*.
+
+- **Código de disposição aplicável** – especifique se o código de disposição da diretiva de localização deve corresponder ao código de disposição que é aplicado quando o item é recebido ou se a diretiva de localização pode ser selecionada com base em qualquer código de disposição. Se você selecionar *Correspondência exata* e o campo **Código de disposição** estiver em branco, somente os códigos de disposição em branco serão considerados para essa diretiva de localização.
+
+    > [!NOTE]
+    > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types), citados antes neste tópico.
+
+- **Localizar por** – especifique se a quantidade de armazenamento deve ser a quantidade total na placa de licença ou se deve ser item por item. Use este campo para ajudar a garantir que todo o conteúdo de uma placa de licença seja armazenado em um local e que o sistema não sugira que você divida o conteúdo em vários locais para o **ASN** (recebimento de placa de licença) e os processos de recebimento **Placa de licença mista** e **Cluster**. (O processo de recebimento de **Cluster** exige que o recurso *Armazenamento de cluster* esteja ativado.) O comportamento da consulta de diretiva de localização, as linhas e as ações da diretiva de localização variam de acordo com o valor selecionado. A FastTab **Linhas** é usada apenas quando **Localizar por** está definido como *Item*.
+
+    > [!NOTE]
+    > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types).
+
+- **Código de disposição** – este campo é usado para diretivas de localização que têm um tipo de ordem de serviço de *Ordens de compra*, *Armazenamento de mercadorias acabadas* ou *Ordens de devolução* e um tipo de trabalho *Armazenamento*. Use-o para orientar o fluxo a fim de usar uma diretiva de localização específica, dependendo do código de disposição que um trabalhador selecionou no aplicativo de depósito. Por exemplo, você pode direcionar as mercadorias devolvidas para um local de inspeção antes da devolução para o estoque. Um código de disposição pode ser vinculado a um status de estoque. Dessa forma, ele pode ser usado para alterar o status do estoque como parte de um processo de recebimento. Por exemplo, você tem um código de disposição, *QA*, que define o status do estoque como *QA*. Você poderá ter uma diretiva de localização separada para mover esse estoque para um local de quarentena.
+
+    > [!NOTE]
+    > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types).
+
+## <a name="lines-fasttab"></a>FastTab Linhas
+
+Use a FastTab **Linhas** para estabelecer condições para aplicar as ações relacionadas especificadas na FastTab **Ações da diretiva de localização**. Para cada linha, você pode especificar a quantidade mínima e a quantidade máxima às quais as ações devem ser aplicadas. Também é possível especificar se as ações devem ser aplicadas a uma unidade de estoque específica.
+
+- **Número de sequência** – insira a sequência em que a linha de diretiva de localização deve ser processada para o tipo de trabalho selecionado. Você pode alterar a sequência necessária usando os botões **Mover para cima** e **Mover para baixo** na barra de ferramentas.
+- **Quantidade inicial** – especifique o início do intervalo de quantidades ao qual a linha se aplica. Especifique a quantidade na unidade de medida selecionada no campo **Unidade**.
+- **Quantidade final** – especifique o final do intervalo de quantidades ao qual a linha se aplica. Especifique a quantidade na unidade de medida selecionada no campo **Unidade**.
+- **Unidade** – selecione a unidade de medida dos itens. Você pode especificar uma quantidade mínima e máxima ao qual a diretiva deve ser aplicada; você pode especificar ainda que a diretiva se refere a uma unidade específica do estoque. O campo **Unidade** é usado *somente* para avaliação de quantidade. Para determinar se a linha de diretiva de localização é aplicável a todos, o sistema usa a quantidade na unidade especificada nessa linha. Sempre que uma linha de diretiva de localização for atingida, o sistema tentará converter a unidade de demanda em uma unidade especificada na linha. Se não existir a conversão da unidade de medida, o sistema passará para a próxima linha.
+- **Localizar quantidade** – este campo é usado somente durante as tentativas de armazenar ou localizar itens no depósito. (Portanto, ele se aplica somente quando o campo **Tipo de trabalho** é definido como *Armazenamento*). Selecione um dos valores a seguir para especificar a quantidade que é usada para avaliar se uma quantidade está no intervalo de **Quantidade inicial** até **Quantidade final**.
+
+    - **Quantidade da placa de licença** – use a quantidade na placa de licença que está sendo recebida.
+    - **Quantidade unitária** – use a quantidade usada durante a transação. Por exemplo, você recebe uma quantidade de 1.000 em um depósito e a divide em 10 placas de licença, cada uma com uma quantidade de 100. Nesse caso, você pode usar uma quantidade de 1.000 itens em vez da quantidade da placa de licença de 100.
+    - **Quantidade pendente** – use a quantidade que ainda deve ser recebida na linha da ordem de compra que está sendo processada.
+    - **Quantidade esperada** – use a quantidade total da linha da ordem de compra, independentemente do que já foi recebido.
+
+- **Restringir por unidade** – esta caixa de seleção permite que você crie a linha de diretiva de localização específica para uma unidade de medida ou várias unidades de medida. Marque-a para restringir as unidades de medida consideradas critérios de seleção válidos para as linhas de diretiva de localização. Essa funcionalidade funciona somente para diretivas de localização em que o campo **Tipo de trabalho** está definido como *Separação*.
+
+    Por exemplo, ao reservar quantidades, você deseja reservar paletes somente de um conjunto específico de locais. Nesse caso, as linhas restringirão essa sequência a paletes de tal forma que qualquer quantidade menor do que um palete não será selecionada para a diretiva de localização.
+
+    Note que a caixa de seleção **Restringir por unidade** não controla a unidade ou as unidades aplicadas nas linhas de trabalho. A restrição de unidade é aplicável somente às unidades disponibilizadas por meio do grupo de sequências de unidades. Por exemplo, um item está associado a um grupo de sequências de unidades que inclui a unidade *paletes* e as unidades *peças*. A unidade de medida foi definida, onde 1 palete = 100 peças e a diretiva de localização usa a funcionalidade **Restringir por unidade** somente para paletes. Além disso, um modelo de trabalho foi definido para limitar a criação do cabeçalho de trabalho para 50 peças. Nesse caso, serão criadas linhas de trabalho de 50 peças. Para especificar a unidade de medida para restrição, siga estas etapas:
+
+    1. Na FastTab **Linhas**, selecione **Restringir por unidade** na barra de ferramentas. (Este botão é disponibilizado somente após marcar a caixa de seleção **Restringir por unidade** na linha e selecionar **Salvar**.)
+    1. Na página **Restringir por unidades**, no campo **Unidade**, selecione a unidade de medida que você deseja restringir para os processos de separação e armazenamento.
+
+- **Arredondar para unidade** – este campo funciona junto com a caixa de seleção **Restringir por unidade**. Por exemplo, se **Restringir por unidade** e **Arredondar para a unidade** forem selecionados na linha de diretiva de localização, o trabalho gerado da diretiva de separação de material bruto deverá ser arredondada para um múltiplo de uma unidade de manuseio de material especificada na página **Restringir por unidade**.
+
+    > [!NOTE]
+    > Essa configuração de **Arredondar para a unidade** funciona somente para o tipo de ordem de serviço *Separação de matéria-prima* e somente para diretivas de localização em que o campo **Tipo de trabalho** está definido como *Separação*.
+
+- **Localizar Quantidade da Embalagem** – se você especificar uma quantidade de embalagem em uma ordem de venda, ordem de transferência ou ordem de produção, esta caixa de seleção permitirá que você restrinja o sistema de forma que possa selecionar somente locais que tenham pelo menos essa quantidade de embalagem.
+
+    > [!NOTE]
+    > Essa funcionalidade só funciona com diretivas de localização do tipo *Separação*.
+
+- **Permitir Divisão** – especifique se a diretiva do localização pode dividir a quantidade que está sendo recebida ou reservada em várias localizações de depósitos, ou se a quantidade inteira deve estar localizada em um único local ou ser reservada de um único local para criar trabalho.
+- **Modelo de abastecimento imediato** – use este campo para criar uma conexão com um modelo de alocados. Se você deixar esse campo em branco, o reabastecimento do item não será iniciado até que todas as linhas da diretiva de localização sejam processadas.
+
+    > [!NOTE]
+    > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types).
+
+## <a name="location-directive-actions-fasttab"></a>FastTab de ações de diretivas de localização
+
+Você pode definir várias ações de diretiva de localização para cada linha. Mais uma vez, um número sequencial é usado para determinar a ordem em que as ações serão avaliadas. Nesse nível, você pode configurar uma consulta para definir como o melhor local no depósito é encontrado. Você também pode usar valores de **estratégia** predefinidos para encontrar um local ideal.
+
+- **Número de sequência** - este campo mostra a sequência em que as ações são processadas para o tipo de trabalho selecionado. Você pode alterar a sequência usando os botões **Mover para cima** e **Mover para baixo** na barra de ferramentas.
+- **Nome** – insira o nome da ação da diretiva de localização. Seja específico para que a ação executada seja clara pelo nome.
+- **Uso de local fixo** – especifica quais locais a diretiva de localização deve considerar. Selecione um dos seguintes valores:
+
+    - **Localizações fixas e não fixas** – A diretiva de localização considerará todas as localizações.
+    - **Somente localizações fixas para o produto** – A diretiva de localização considerará somente as localizações fixas dos produtos.
+    - **Somente localizações fixas para a variante do produto** – A diretiva de localização considerará somente as localizações fixas das variantes do produto.
+
+- **Permitir estoque negativo** – marque esta caixa de seleção para permitir estoque negativo na localização de depósito especificada em diretivas de localização.
+- **Lote Habilitado** – marque esta caixa de seleção para usar estratégias de lote para os itens habilitados para lotes. É importante que você marque esta caixa de seleção para processos que usam diretivas de localização para encontrar locais para separar itens rastreados por número de lote. Dessa forma, é incluída a pesquisa de localizações que mantêm itens rastreados por número de lote. Se esta caixa de seleção for marcada e o campo **Estratégia** for definido como *Nenhum*, o sistema avançará para a próxima linha de ação.
+- **Estratégia** – para definir de forma mais fácil e rápida as ações associadas a cada linha de diretiva da localização, você pode selecionar uma das seguintes estratégias predefinidas:
+
+    - **Nenhum** – nenhuma estratégia será usada.
+    - **Fazer a correspondência da quantidade da embalagem** – esta estratégia verifica se um local de separação tem a quantidade de embalagem especificada. Esta estratégia é válida somente quando o campo **Tipo de trabalho** for definido como *Separação*.
+    - **Consolidar** – esta estratégia consolida itens em um local específico quando itens semelhantes já estiverem disponíveis. Esta estratégia é válida somente quando o campo **Tipo de trabalho** for definido como *Armazenamento*. Uma configuração típica de armazenamento tenta se consolidar na primeira linha de ação e, na segunda linha, tenta armazenar sem consolidação. A consolidação de mercadorias torna a separação posterior mais eficiente.
+    - **Reserva de lotes FEFO** – essa estratégia usa as reservas de lotes de primeira a vencer, primeiro a sair (FEFO). Use-a quando o estoque for localizado usando uma data de vencimento do lote e for alocado para reserva de lotes. Você só pode usar essa estratégia para itens habilitados para lote. Ela será válida somente quando o campo **Tipo de trabalho** for definido como *Separação*.
+    - **Arredonde para o lote completo de LP e FEFO** – essa estratégia combina os elementos das estratégias *Reserva de lotes FEFO* e *Arredondar até a LP completa*. Ele só é válido para itens habilitados para lotes e diretivas de localização que têm um tipo de trabalho de *Separação*. A linha deve ser habilitada para lotes a fim de usar a estratégia *Reserva de lotes FEFO*. A estratégia *Arredondar até a LP completa* pode ser usada somente para reabastecimento. Se essa estratégia for configurada junto com um limite de estoque de localização, ela poderá fazer com que o local de trabalho de armazenamento selecionado fique sobrecarregado e os limites de estoque sejam ignorados.
+    - **Arredondar até a LP completa** – esta estratégia é usada para arredondar para cima a quantidade de estoque para corresponder à quantidade de placa de licença que é atribuída aos itens que devem ser separados. Você só pode usar essa estratégia para diretivas de localização de reabastecimento do tipo *Separação*. Se essa estratégia for configurada junto com um limite de estoque de localização, ela poderá fazer com que o local de trabalho de armazenamento selecionado fique sobrecarregado e os limites de estoque sejam ignorados.
+    - **Placa de licença guiada** – Use esta estratégia quando você liberar a ordem para o depósito para criar o trabalho de separação e armazenamento. Você pode usar essa abordagem para várias placas de licença. Esta estratégia tentará reservar e criar um trabalho de separação em relação aos locais que mantêm as placas de licença solicitadas que foram associadas às linhas da ordem de transferência. No entanto, se essas ações não puderem ser concluídas, mas você ainda desejar criar um trabalho de separação, retorne a outra estratégia para as ações de diretiva de localização. De acordo com as necessidades de processo comercial, talvez você também queira pesquisar o estoque em outra área do depósito.
+    - **Local vazio sem trabalho de entrada** – use esta estratégia para detectar locais vazios. O local será considerado vazio se não houver estoque físico e nenhum trabalho de entrada esperado. Você só pode usar essa estratégia para diretivas de localização com um tipo de trabalho de *Separação*.
+    - **Classificação por vencimento local FIFO** – Use a estratégia FIFO (primeiro a entrar, primeiro a sair) para enviar itens rastreados por lote e itens não rastreados por lote, com base na data em que o estoque deu entrada no depósito. Esse recurso pode ser especialmente útil para estoque não rastreado por lote, no qual nenhuma data de vencimento está disponível para uso para classificação. A estratégia FIFO encontra o local que contém a data de classificação por vencimento mais antiga e aloca a separação com base nessa data.
+    - **Classificação por vencimento local LIFO** – Use a estratégia LIFO (último a entrar, último a sair) para enviar itens rastreados por lote e itens não rastreados por lote, com base na data em que o estoque deu entrada no depósito. Esse recurso pode ser especialmente útil para estoque não rastreado por lote, no qual nenhuma data de vencimento está disponível para uso para classificação. A estratégia LIFO encontra o local que contém a data de classificação por vencimento mais recente e aloca a separação com base nessa data.
+
+## <a name="example-using-location-directives"></a>Exemplo: uso de diretivas de localização
 
 Neste exemplo, consideraremos um processo de ordem de compra em que a diretiva de localização deve encontrar capacidade livre em um depósito para itens do estoque que acabaram de ser registrados na doca de recebimento. Primeiro, você precisa localizar a capacidade livre no depósito, consolidando o estoque disponível existente. Se a consolidação não for possível, você precisará encontrar um local vazio.
 
-Nesse cenário, você deve definir duas ações de diretiva de localização. A primeira ação na sequência deve usar a estratégia **Consolidar** e a segunda deve usar a estratégia **Local vazio sem trabalho de entrada**. A menos que você defina uma terceira ação para lidar com um cenário de estouro de capacidade, dois resultados serão possíveis quando não houver mais capacidade no depósito: o trabalho pode ser criado mesmo que nenhum local seja definido ou o processo de criação de trabalho pode falhar. O resultado é determinado pela configuração na página **Falhas na diretiva de localização** , na qual você pode decidir se selecionará a opção **Parar de trabalhar em falha de diretiva de localização** para cada tipo de ordem de trabalho.
+Nesse cenário, você deve definir duas ações de diretiva de localização. A primeira ação na sequência deve usar a estratégia *Consolidar* e a segunda deve usar a estratégia *Local vazio sem trabalho de entrada*. A menos que você defina uma terceira ação para lidar com um cenário de estouro de capacidade, dois resultados serão possíveis quando não houver mais capacidade no depósito: o trabalho pode ser criado mesmo que nenhum local seja definido ou o processo de criação de trabalho pode falhar. O resultado é determinado pela configuração na página **Falhas na diretiva de localização**, na qual você pode decidir se selecionará a opção **Parar de trabalhar em falha de diretiva de localização** para cada tipo de ordem de serviço.
 
 ## <a name="next-step"></a>Próxima etapa
 
 Depois de criar diretivas da localização, você pode associar cada código de diretiva a um código do modelo de trabalho para a criação de trabalho. Para obter mais informações, consulte [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
 
-## <a name="technical-information-for-system-admins"></a>Informações técnicas para administradores de sistemas
+## <a name="additional-resources"></a>Recursos adicionais
 
-Se você não tiver acesso às páginas que são usadas para concluir essa tarefa, entre em contato com o administrador do sistema e forneça as informações que são mostradas na tabela a seguir.
-
-| Categoria | Pré-requisito |
-|---|---|
-| Chaves de configuração | Vá para **Administração de sistema \> Configurar \> Configuração de licença**. Expanda a chave de licença de **Comércio** e selecione a chave de configuração **gerenciamento de Depósito e Transporte**. |
+- Vídeo: [Detalhamento da configuração de gerenciamento de depósito](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
+- Tópico de ajuda: [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md)

@@ -17,12 +17,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1f7a779d69bf49d3416de3e92d4414cfabf358eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: ad87594b9c20d0c2b53e8d4e7c1170a78babe74b
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3983614"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517443"
 ---
 # <a name="manage-robotstxt-files"></a>Gerenciar arquivos robots.txt
 
@@ -88,17 +88,17 @@ Para excluir um arquivo robots. txt no Commerce, siga estas etapas.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configure seu nome de domínio](configure-your-domain-name.md)
+[Configurar seu nome de domínio](configure-your-domain-name.md)
 
-[Implantar um novo site de comércio eletrônico](deploy-ecommerce-site.md)
+[Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md)
 
 [Criar um site de comércio eletrônico](create-ecommerce-site.md)
 
-[Associar um site online a um canal](associate-site-online-store.md)
+[Associar um site do Dynamics 365 Commerce a um canal online](associate-site-online-store.md)
 
 [Carregar redirecionamentos de URL em massa](upload-bulk-redirects.md)
 
-[Configurar um locatário B2C do Commerce](set-up-B2C-tenant.md)
+[Configurar um locatário de B2C no Commerce](set-up-B2C-tenant.md)
 
 [Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
 

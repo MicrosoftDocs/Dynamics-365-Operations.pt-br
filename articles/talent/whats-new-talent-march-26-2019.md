@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-26
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: a9cd6fda0e6e0405163184327f954b66eb8c7612
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: 17eae6c2aa2a1305b1d6f403c595c022f71da48f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897548"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4529081"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-26-2019"></a>Novidades ou alterações no Dynamics 365 Talent (26 de março de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Talent.
 
@@ -91,7 +93,7 @@ As organizações podem exigir códigos de motivo que devem ser definidos para t
 Em muitas organizações, gerentes de remuneração e benefícios só podem ter acesso a alguns tipos de registro de remuneração. Esses registros podem ser para funcionários executivos ou regionais. Com esta alteração, o RH pode gerenciar e manter os planos de remuneração para grupos de funcionários diferentes na organização. Você pode atribuir funções de segurança para planos fixos e variáveis que determinem o acesso a planos e dados de funcionário relacionados aos planos, como registros de bônus ou salário. Apenas as funções com permissão de acesso podem processar a remuneração para esses funcionários.
 
 ###  <a name="email-support-for-alerts"></a>Suporte de email para alertas
-Com a Atualização de plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento. 
+Com a atualização de Plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que expedem automaticamente notificações por email a contatos quando disparadas por um evento. 
 
 ### <a name="duplicate-employee-checks-user-interface-changes"></a>Verificações de funcionários duplicados: alterações da interface de usuário
 Com esta alteração, as duplicatas são detectadas conforme você digita nos campos de nome, e um status exibe o número de duplicatas localizado. Você pode selecionar o link fornecido para abrir uma nova página a fim de avaliar se deve usar ou não a correspondência detectada. Para evitar a interrupção de entrada de dados, os formulários das duplicatas não são abertos automaticamente.

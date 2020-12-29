@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2020-02-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5e9e1f05de682b4fe29ec23f06099b2968ebe3df
-ms.sourcegitcommit: 2bcacef1e010c312f019dbf9740ce87d627848a7
+ms.openlocfilehash: 002b1b8b86c4fb40f46c239669cd5dfead251bfe
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "3711979"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4526969"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-18-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (18 de fevereiro de 2020)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este artigo descreve os recursos novos ou alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.2903. Os números entre parênteses em alguns títulos referem-se aos números de suporte do LCS para referência.
 

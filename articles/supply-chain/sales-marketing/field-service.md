@@ -19,16 +19,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 041044cf6b5a5de2091a4b61d98b7d07445e43ef
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: 18eef310470cafd9d59bb1c848bbaeb8bf5b9fa1
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3209113"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528890"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visão geral da integração com o Microsoft Dynamics 365 Field Service
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 O Supply Chain Management permite a sincronização de processos de negócios entre o Dynamics 365 Supply Chain Management e o Dynamics 365 Field Service. Os cenários de integração são configurados usando modelos extensíveis do Integrador de dados e o Common Data Service para permitir a sincronização dos processos de negócios.
 Os modelos padrão podem ser usados para criar projetos de integração personalizados, em que o padrão adicional e os campos e as entidades personalizados podem ser mapeados para ajustar a integração e para atender a necessidades de negócios específicas. 
@@ -63,7 +65,7 @@ A funcionalidade adicional nesta segunda fase está centrada em fornecer aos té
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>O segunda fase da integração entre o Field Service e o Supply Chain Management permite a sincronização com os seguintes modelos:
 - Depósitos (Supply Chain Management para Field Service) - Depósitos do Supply Chain Management para o Field Service [Consulta Avançada] 
-- Estoque de Produtos (Supply Chain Management para Field Service) - Informações de nível de estoque do Supply Chain Management para o Field Service [Consulta Avançada] 
+- Estoque de Produtos (Supply Chain Management para Field Service) - Informações de nível de estoque do Supply Chain Management para Field Service [Consulta Avançada] 
 - Ajuste de Estoque (Field Service para Supply Chain Management) - Ajustes de estoque do Field Service para o Supply Chain Management [Consulta Avançada] 
 - Transferências de Estoque (Field Service para Supply Chain Management) - Transferências de estoque do Field Service para o Supply Chain Management [Consulta Avançada] 
 - Projetos (Supply Chain Management para Field Service) - Lista de projetos do Supply Chain Management para o Field Service 

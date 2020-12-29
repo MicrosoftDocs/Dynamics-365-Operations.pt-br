@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-07-16
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6dce39bc529bf6dd6079ed900af12510c0773f9a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.openlocfilehash: cd7f288e5c1015f4266db527adfcd62a5dbbc95f
+ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899073"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4528090"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-july-16-2019"></a>Novidades ou alterações no Dynamics 365 Talent (16 de julho de 2019)
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Talent.
 
