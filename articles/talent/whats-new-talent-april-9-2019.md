@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-04-09
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 0a4d4de6cf28e24d1265395d6440df85edf71a0d
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2897847"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460384"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-april-9-2019"></a>Novidades ou alterações no Dynamics 365 Talent (9 de abril de 2019)
 
@@ -89,4 +89,4 @@ Monitorar as folgas dos funcionários e entender como elas são calculadas não 
 Com esta alteração, as duplicatas são detectadas conforme você digita nos campos de nome, e um status exibe o número de duplicatas localizado. Você pode selecionar o link fornecido para abrir uma nova página a fim de avaliar se deve usar ou não a correspondência detectada. Para evitar a interrupção da entrada de dados, as duplicatas não são abertas automaticamente.
 
 ###  <a name="email-support-for-alerts"></a>Suporte de email para alertas
-Com a atualização de plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento. 
+Com a atualização de Plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando disparadas por um evento. 

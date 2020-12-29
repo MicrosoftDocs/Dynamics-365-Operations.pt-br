@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-12-17
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 9af1c61f446f04f1f22cddf3f12dece517446701
-ms.sourcegitcommit: 724b72412861d342c138a7935319da700b63c234
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2921187"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460281"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-december-17-2019"></a>Novidades ou alterações no Dynamics 365 Talent (17 de dezembro de 2019)
 
@@ -43,7 +43,7 @@ As alterações descritas nesta seção aplicam-se ao número da compilação 8.
 
 ### <a name="print-performance-reviews"></a>Imprima avaliações de desempenho
 
-A impressão da avaliação de desempenho já está disponível em todos os ambientes. Para habilitar esta funcionalidade, use o espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Para obter mais informações sobre como imprimir avaliações de desempenho, consulte [[Avaliações de desempenho](https://docs.microsoft.com/dynamics365/talent/performance-management-overview#performance-reviews)
+A impressão da avaliação de desempenho já está disponível em todos os ambientes. Para habilitar esta funcionalidade, use o espaço de trabalho **Gerenciamento de recursos**. Para obter mais informações sobre o Gerenciamento de recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview). Para obter mais informações sobre como imprimir avaliações de desempenho, consulte [Avaliações de desempenho](https://docs.microsoft.com/dynamics365/talent/performance-management-overview#performance-reviews)
 
 ### <a name="retired-position-with-direct-reports-floats-in-org-diagram-as-an-open-position-385436"></a>Posição desativada com "flutuações" de relatórios diretos em um diagrama organizacional como uma posição aberta (385436)
 

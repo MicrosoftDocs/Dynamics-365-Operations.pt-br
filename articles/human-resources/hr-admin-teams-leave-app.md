@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51f04e553da822c4e09d31bcd72c71b674ad1f1b
-ms.sourcegitcommit: b6ab46f6e5ce60e2c3d70a348827eaf60c84cae2
+ms.openlocfilehash: e714be06984f399235f0799ef077a92deae64d9e
+ms.sourcegitcommit: b0aa724a18ab1fbb5a62925f048c54b2c676ebf4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3930008"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4476068"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
@@ -86,7 +86,6 @@ Depois de habilitar notificações para o aplicativo Human Resources Team, você
 
 | Problema | Status |
 | --- | --- |
-| O rolamento horizontal não funciona em telefones Android | O rolamento horizontal não é um problema em dispositivos iOS ou de desktop. Estamos trabalhando em uma correção para o Android. |
 | O saldo exibido ao enviar folga para uma data futura está incorreto. | A previsão ainda não está disponível. O saldo é exibido para a data atual. |
 | Não é possível cancelar uma solicitação **Em revisão**. | Atualmente, essa funcionalidade não tem suporte e será adicionada em uma versão futura. |
 | As informações de saldo são calculadas a partir de hoje. | O sistema atualmente não exibe os saldos a partir do período de acúmulo, mesmo se estiver configurado nos parâmetros de Licença e ausência. |

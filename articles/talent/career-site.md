@@ -19,11 +19,11 @@ ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.openlocfilehash: d4a1e7c19ccec6ae32e46ec7d58604b162418953
-ms.sourcegitcommit: 9cc6a011bfdd1b0fe505760b6bf429eb6c65862a
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "2832945"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460293"
 ---
 # <a name="set-up-your-career-site-in-attract"></a>Configurar seu site de carreiras no Attract
 
@@ -62,7 +62,7 @@ A lista a seguir contém as URLs do site de carreiras comumente usadas e como ac
 
 -   **URL da página inicial do site de carreira** - Para visualizar a URL da página inicial do site de carreira, entre no Attract como administrador, selecione **Centro de administração** no menu **Configurações** e selecione a guia **Gerenciamento do site de carreiras**.
 
--   **URL da solicitação de lançamento de trabalho individual** - Ao [postar um trabalho externo](Creating-jobs-Attract.md#postings) pela primeira vez, você pode copiar o link **Solicitar** do Attract. A URL para esse link estará neste formato: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
+-   **URL da solicitação de lançamento de trabalho individual** - Ao [postar um trabalho externo](Creating-jobs-Attract.md#postings) pela primeira vez, você pode copiar o link **Solicitar** do Attract. A URL para esse link estará no seguinte formato: [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>/apply](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e/apply)
 
 -   **URL de lançamento de trabalho individual** - A URL de lançamento de trabalho é uma subsequência da URL de solicitação. Ela consiste em tudo até o número de trabalho. Assim, para a URL de solicitação precedente, a URL de lançamento de trabalho é [https://jobs.talent.dynamics.com/jobs/\<company_name\>/\<environment_number\>/\<job_number\>](https://jobs.talent.dynamics.com/jobs/%3ccompany_name%3e/%3cenvironment_number%3e/%3cjob_number%3e)
 

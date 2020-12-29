@@ -20,11 +20,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-06-04
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: e641e3f0d1873d91be1a1dc9bc22eb734a2b21d5
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124718"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460299"
 ---
 # <a name="configure-email-settings-in-attract"></a>Definir as configurações de email no Attract
 

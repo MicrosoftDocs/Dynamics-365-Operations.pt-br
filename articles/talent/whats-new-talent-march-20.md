@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: a7a44e1c9d8dcb4b2cc81a682a044d26cdc1149e
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812686"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460318"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent-march-20-2019"></a>Novidades ou alterações no Dynamics 365 Talent (20 de março de 2019)
 
@@ -80,7 +80,7 @@ Foram feitas alterações para corrigir um problema ao editar-se a sequência de
 Em muitas organizações, os gerentes de remuneração e benefícios só podem ter acesso a alguns tipos de registro de remuneração. Esses registros podem ser para funcionários executivos ou regionais. Com esta alteração, o RH pode gerenciar e manter os planos de remuneração para grupos de funcionários diferentes na organização. Você pode atribuir funções de segurança para planos fixos e variáveis que determinem o acesso a planos e dados de funcionário relacionados aos planos, como registros de bônus ou salário. Apenas as funções com o acesso permitido podem processar a remuneração desses funcionários.
 
 ###  <a name="email-support-for-alerts"></a>Suporte de email para alertas
-Com a Atualização de plataforma 24 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando notificações são disparadas por um evento.
+Com a atualização de Plataforma 24 do Finance and Operations, os usuários podem criar regras de alerta que expedem automaticamente notificações por email a contatos quando disparadas por um evento.
 
 ### <a name="duplicate-employee-check-interface-changes"></a>Verificações de funcionários duplicados: alterações da interface
 Com esta alteração, as duplicatas são detectadas conforme você digita nos campos de nome, e um status exibe o número de duplicatas localizado. Você pode selecionar o link fornecido para abrir uma nova página a fim de avaliar se deve usar ou não a correspondência detectada. As duplicatas não são abertas automaticamente para evitar a interrupção da entrada de dados.

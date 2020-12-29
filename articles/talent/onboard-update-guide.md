@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-06-21
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 071aa79ea75e9a94187dd74dabab940e2cce0f92
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: 6175061456a03228043ea13767845cf4b54d6b2e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551947"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460376"
 ---
-# <a name="update-onboarding-guides-in-dynamics-365-talent---onboard"></a>Atualizar guias de integração no Dynamics 365 Talent - Onboard
+# <a name="update-onboarding-guides"></a>Atualizar guias de integração
 
 [!include [banner](includes/banner.md)]
 
@@ -38,7 +38,7 @@ Se tiver que fazer alterações nos guias de integração no Microsoft Dynamics 
 2. Selecionar o guia que deseja editar.
 3. Faça todas as alterações desejadas e selecione o botão **Salvar** (o símbolo de disco).
 
-    ![[Salvando alterações em um guia de integração](./media/onboard-save.png)](./media/onboard-save.png)
+    ![[Salvar alterações em um guia de integração](./media/onboard-save.png)](./media/onboard-save.png)
 
 O Onboard enviará ao novo contratado um e-mail que indica quais foram as alterações. Para fácil identificação, uma etiqueta **Novo** aparecerá próxima a cada alteração.
 
@@ -49,6 +49,6 @@ O Onboard enviará ao novo contratado um e-mail que indica quais foram as altera
 3. Faça todas as alterações desejadas e selecione o botão **Salvar** (o símbolo de disco).
 4. Para enviar as alterações para todos os guias baseados no modelo, selecione **Enviar estas alterações**.
 
-    ![[Enviando as alterações de um modelo de integração para todos os guias criados com base nele](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
+    ![[Enviar as alterações de um modelo de integração para todos os guias criados com base nele](./media/onboard-push-changes.png)](./media/onboard-push-changes.png)
 
 As alterações serão visíveis para novas contratações que abrem os guias de integração. Porém, o Onboard não enviará alertas de email para novas contratações para que elas saibam que o guia de integração foi alterado. Para fácil identificação, uma etiqueta **Novo** aparecerá próxima a cada alteração. 

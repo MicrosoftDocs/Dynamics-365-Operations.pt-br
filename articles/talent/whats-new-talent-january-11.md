@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-01-11
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d49a4aca368e3de10ae37b56c6d286d78f7f369a
-ms.sourcegitcommit: 871707a3fd236da693a3d51f401eb0cb9d4bae39
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "2899165"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4460348"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-talent---core-hr-january-11-2019"></a>Novidades ou alterações no Dynamics 365 Talent - Core HR (11 de janeiro de 2019)
 
@@ -45,7 +45,7 @@ Os saldos de licença exibirão o saldo atual dos funcionários. Os saldos futur
 Foi adicionada navegação para exibir os saldos previstos nas seguintes áreas:
   - Cartão **Folga** no espaço de trabalho **Autoatendimento para funcionários** .
   - Cartão **Licença e ausência** no espaço de trabalho **Autoatendimento para gerentes** .
-  - Página**Licença e ausência** no espaço de trabalho **Pessoas** .
+  - Página **Licença e ausência** no espaço de trabalho **Pessoas** .
 
 ### <a name="allow-decimals-for-variable-compensation-plans-cash-plans"></a>Permita decimais nos Planos de remuneração variável (planos de caixa)
 Os prêmios e planos variáveis em dinheiro têm agora flexibilidade adicional para montantes e substituições de montantes com valores decimais.

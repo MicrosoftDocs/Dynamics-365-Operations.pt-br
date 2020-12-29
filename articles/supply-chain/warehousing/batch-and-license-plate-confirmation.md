@@ -1,9 +1,9 @@
 ---
 title: Confirmação de lote e placa de licença
-description: Este tópico descreve como configurar e aplicar a confirmação de lote e placa de licença de um dispositivo móvel.
+description: Este tópico descreve como configurar e aplicar a confirmação de lote e placa de licença em um dispositivo móvel.
 author: Mirzaab
 manager: tfehr
-ms.date: 05/26/2017
+ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,28 +17,34 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 020d33bfb7e23df7898414f5becf96d31307f2fa
-ms.sourcegitcommit: 4f9912439ff78acf0c754d5bff972c4b85763093
+ms.openlocfilehash: a953b677b1188750241772d7ae966a1dba77b92e
+ms.sourcegitcommit: 9f32389715b226c11e74c53547527e0a8b51e300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201309"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4514293"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Confirmação de lote e placa de licença
 
 [!include [banner](../includes/banner.md)]
 
-A confirmação do lote permite que você confirme se o lote correto está sendo separado do dispositivo móvel. Na separação inicial do trabalho somente para itens acima do lote, no qual o lote acima indica que o lote é maior que a localização na hierarquia de pesquisa, você deve verificar se o lote escolhido corresponde ao lote da linha de trabalho. 
+A confirmação do lote permite que você confirme se o lote correto está sendo separado do dispositivo móvel. Na seleção inicial do trabalho somente para lotes com itens acima, no qual o lote acima indica que o lote supera a localização na hierarquia de pesquisa, você deve verificar se o lote escolhido corresponde ao lote da linha de trabalho.
 
-A confirmação da placa de licença permite que você confirme se a placa de licença correta está sendo selecionada do dispositivo móvel. Ao escolher o trabalho de uma localização de fase, você deve verificar se a placa de licença que foi selecionada corresponde à placa de licença associada ao trabalho. Se o trabalho for iniciado pela verificação de uma placa de licença, a etapa de confirmação será ignorada.
+A confirmação da placa de licença permite que você confirme se a placa de licença correta está sendo selecionada no dispositivo móvel. Ao escolher o trabalho de um local de espera, você deve verificar se a placa de licença selecionada corresponde à placa de licença associada ao trabalho. Se o trabalho for iniciado pela verificação de uma placa de licença, a etapa de confirmação será ignorada.
 
 ## <a name="where-it-applies"></a>Aplica-se a
+
 A confirmação aplica-se nos seguintes cenários:
 
 - A confirmação de lote aplica-se às seleções iniciais de trabalho dos itens acima do lote.
-- A confirmação de placa de licença se aplica a separações de locais de fase.
+- A confirmação de placa de licença se aplica a separações nos locais de espera.
+
+> [!IMPORTANT]
+> O reabastecimento não tem suporte para a confirmação da placa de licença. Ao executar o trabalho de reabastecimento, nenhuma etapa de confirmação da placa de licença é criada.
 
 ## <a name="set-up-batch-and-license-plate-confirmation"></a>Configurar confirmação de lote e placa de licença
-Você pode configurar a confirmação de lote e de placa de licença dos itens de menu de dispositivo móvel.  
-1.  Dos itens de menu de dispositivo móvel, insira a configuração de confirmação de trabalho.  
-2.  Selecione a opção para o lote ou a confirmação da placa de licença. As duas opções disponíveis para as separações por tipo de trabalho que não têm uma confirmação automática ativada.  
+
+Você pode configurar a confirmação de lote e de placa de licença dos itens de menu de dispositivo móvel.
+
+1. Dos itens de menu de dispositivo móvel, insira a configuração de confirmação de trabalho.  
+1. Selecione a opção para o lote ou a confirmação da placa de licença. As duas opções disponíveis para as separações por tipo de trabalho que não têm uma confirmação automática ativada.  
