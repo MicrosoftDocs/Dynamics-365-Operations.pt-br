@@ -10,19 +10,18 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 96ae5f33b1ab5fda98da4fc48b1fb883ca4d54b8
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 4706432234437d2dc7943fb194cd01004ab7e6b7
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3024469"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687502"
 ---
 # <a name="create-and-update-store-hours"></a>Criar e atualizar os horários das lojas
 
@@ -61,7 +60,7 @@ Siga estas etapas para configurar os horários das lojas.
 
     ![Escolha a caixa de diálogo dos nós da organização](../dev-itpro/media/Storehours2.png "Escolha a caixa de diálogo dos nós da organização")
 
-5. Na página **Agendamento de distribuição**, execute os trabalhos**1070** e **1090** para deixar o horário de funcionamento disponível na POS.
+5. Na página **Agendamento de distribuição**, execute os trabalhos **1070** e **1090** para deixar o horário de funcionamento disponível na POS.
 
 ## <a name="add-store-hours-to-printed-receipts"></a>Adicionar horários de funcionamento a recibos impressos
 
