@@ -16,11 +16,11 @@ ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.openlocfilehash: 821e166a4bcfa98a6655371d648800a92c9e5d13
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249154"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408437"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 

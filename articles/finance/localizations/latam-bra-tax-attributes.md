@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 17de9583989eed4ba7e2d2c55a538a6920fc6efc
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2175187"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408423"
 ---
 # <a name="tax-attributes-for-brazil"></a>Atributos de impostos do Brasil
 
@@ -44,7 +44,7 @@ Os seguintes campos na página **Cliente** são necessários para a entidade leg
 
 | Campo                                                                   | descrição                                                                                                                                                                                                       |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CNPJ                                                                | O número de inscrição de contribuinte ou CNPJ (Cadastro Nacional da Pessoa Jurídica/CPF (Cadastro de Pessoas Físicas) do fornecedor.                                                                         |
+| CNPJ                                                                | O número de inscrição de contribuinte ou (CNPJ) Cadastro Nacional da Pessoa Jurídica/CPF (Cadastro de Pessoas Físicas) do fornecedor.                                                                         |
 | IE                                                                      | O número de inscrição do estado ou IE (Inscrição Estadual) da entidade legal.                                                                                                                                   |
 | CCM                                                                     | O número de registro municipal ou CCM (Cadastro de Contribuinte Mobiliário) da entidade legal.                                                                                                             |
 | NIT                                                                     | O número de identificação do trabalhador.                                                                                                                                                                                 |

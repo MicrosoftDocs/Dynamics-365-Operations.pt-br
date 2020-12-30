@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: 5b2fb132773e0fc4d8a9b6aeff64dde87b147534
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003771"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408457"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 
@@ -287,7 +287,7 @@ Vá para **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fis
 -  **Descrição da subapuração de imposto** – Insira uma descrição da subapuração de imposto que é informada no campo **03 DESCR_COMPL_OUT_APUR** do registro 1900.
 -  **Nome do diário para ajuste de restituição/complemento** – Selecione o diário usado para criar e lançar a apuração de imposto de compensação e restituição.
 -  **Crédito de notas fiscais de entrada** – Selecione o código de ajuste relacionado para este tipo de ajuste.
--  a**Débito de notas fiscais de saída** – Selecione o código de ajuste relacionado a este tipo de ajuste.
+-  a **Débito de notas fiscais de saída** – Selecione o código de ajuste relacionado a este tipo de ajuste.
 -  **Empresa de varejo** – Define esta opção como **Sim** se a atividade comercial principal nesse estado for de varejo. Caso contrário, defina a opção como **Não**.
 -  **Estorno de crédito** – Selecione o código de ajuste relacionado a este tipo de ajuste.
 -  **Crédito de estoque** – Selecione o código de ajuste relacionado a este tipo de ajuste.

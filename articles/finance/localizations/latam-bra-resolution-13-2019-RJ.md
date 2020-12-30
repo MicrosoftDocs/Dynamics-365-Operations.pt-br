@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7
 ms.openlocfilehash: 3a3d3b9eb35d380ec26ae38f761ddf4688c96cf1
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979620"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408438"
 ---
 # <a name="sped-fiscal-resolution-132019-rj"></a>Resolução do SPED fiscal 13/2019 RJ
 
@@ -215,13 +215,13 @@ Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED F
 
 \|E115\|RJ821231\|0\|\|
 
-\|C197\|RJ40080001\|RJ821231\|codigoitem\|0.00\|0.00\|\<Tax amount\>\|0.00\|
+\|C197\|RJ40080001\|RJ821231\|codigoitem\|0,00\|0,00\|\<Tax amount\>\|0,00\|
 
 Veja alguns exemplos de transações de ajuste criadas automaticamente no SPED Fiscal para um destinatário:
 
 \|E115\|RJ821231\|0\|\|
 
-\|C197\|RJ10080002\|RJ821231\|codigoitem\|0.00\|0.00\|\<Tax amount\>\|0.00\|
+\|C197\|RJ10080002\|RJ821231\|codigoitem\|0,00\|0,00\|\<Tax amount\>\|0,00\|
 
 ## <a name="setup"></a>Configurar
 

@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 21fbf5f0e41300d62b177f08fd1a5c895859dacd
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3139123"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408478"
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a>Impostos brasileiros nas cotações de venda
 

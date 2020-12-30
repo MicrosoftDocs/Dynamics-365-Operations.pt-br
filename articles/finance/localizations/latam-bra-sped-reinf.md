@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3368b40169aef55d0818a04dc317359ff949742f
-ms.sourcegitcommit: 81a647904dd305c4be2e4b683689f128548a872d
+ms.openlocfilehash: 399e30597628c91ccb4d896b899f6152a12caffd
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "3003892"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4408499"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 
@@ -446,7 +446,7 @@ Se, por algum motivo, o contribuinte quiser cancelar/excluir um evento aceito, s
 
 O evento R-1070 é usado para relatar informações sobre os processos legais e administrativos ao sistema da autoridade fiscal.
 
-Os processos legais e administrativos podem ser iniciados pelo contribuinte ou pelo trabalhador quando valores da previdência social forem contestados. Os procedimentos (judiciais ou administrativos) são realizados pelo tribunal. Após o juiz chegar a um veredito, ele tem o poder de suspender (ou não) os valores que foram retidos.
+Os processos legais e administrativos podem ser iniciados pelo contribuinte ou pelo trabalhador quando valores da previdência social forem contestados. Os procedimentos (judiciais ou administrativos) são realizados pelo tribunal. Após o juiz chegar a um veredito, ele terá o poder de suspender (ou não) os valores que foram retidos.
 
 A finalidade desse evento é comunicar a existência de procedimentos desse tipo ao banco de dados do SPED-Reinf. Depois que os procedimentos recebem a decisão final do tribunal que suspende a elegibilidade da retenção de valores, o evento se refere a essa decisão para explicar por que os valores foram relatados como suspensos nos eventos periódicos.
 

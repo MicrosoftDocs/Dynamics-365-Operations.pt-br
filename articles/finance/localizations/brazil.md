@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: f7f98afe9968bf282eee6f7cbfc8836efc7d354d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3981880"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408428"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 

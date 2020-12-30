@@ -16,11 +16,11 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 9304967a30926569f774c383c4318f2a6f95770d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979621"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408443"
 ---
 # <a name="process-electronic-payment-remittances"></a>Processar remessas de pagamento eletrônico
 

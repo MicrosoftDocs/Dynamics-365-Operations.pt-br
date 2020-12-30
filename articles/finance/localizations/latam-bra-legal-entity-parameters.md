@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: e88eda1464a6997964be3e1382650a1f9d60cb3b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2183888"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408445"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
@@ -54,7 +54,7 @@ Um estabelecimento fiscal é uma localização de uma entidade legal, como subsi
 
 | Campo        | descrição                                                                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **CNPJ/CPF** | Insira o número de inscrição de contribuinte ou CNPJ (Cadastro Nacional da Pessoa Jurídica/CPF (Cadastro de Pessoas Físicas) da entidade legal.    |
+| **CNPJ/CPF** | Insira o número de inscrição de contribuinte ou (CNPJ) Cadastro Nacional da Pessoa Jurídica/CPF (Cadastro de Pessoas Físicas) da entidade legal.    |
 | **CCM**      | Insira o número de registro municipal ou CCM (Cadastro de Contribuinte Mobiliário) da entidade legal.                                       |
 | **IE**       | Insira o número de inscrição do estado ou IE (Inscrição Estadual) da entidade legal.                                                             |
 | **CNAE**     | Insira o código de classificação nacional ou CNAE (Classificação Nacional de Atividades Econômicas), da atividade econômica da entidade legal. |
@@ -225,7 +225,7 @@ Configurar texto padrão e tipos de produto e documento, das notas fiscais que s
 <td>Selecione a ID do tipo de documento padrão para textos das notas fiscais. É possível selecionar um tipo de documento que não é atribuído ao texto de nota fiscal que está associado a uma nota fiscal. <strong>Observação:</strong> Se um texto da nota fiscal estiver associado a um documento fiscal, não será possível modificar o tipo de documento.</td>
 </tr>
 <tr class="odd">
-<td><strong>Item </strong></td>
+<td><strong>Item</strong></td>
 <td>Selecione a ID de item usada para criar notas fiscais de transferência ou apropriação de imposto.</td>
 </tr>
 <tr class="even">

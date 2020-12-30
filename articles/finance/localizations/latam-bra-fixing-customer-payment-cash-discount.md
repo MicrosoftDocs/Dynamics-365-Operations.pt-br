@@ -19,11 +19,11 @@ ms.author: sndray
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.5
 ms.openlocfilehash: e192b4829511bdecdb34d4315bce5710957f8ef2
-ms.sourcegitcommit: 9f65743d7fac2faea5b36a225be15b2783509182
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "2651480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408451"
 ---
 # <a name="enable-customer-payments-and-cash-discounts"></a>Habilitar pagamentos de clientes e descontos à vista
 

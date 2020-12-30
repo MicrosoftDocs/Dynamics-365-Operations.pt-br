@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 0ae6de1caabf16e7e39fed65254220f685cefd8d
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3980679"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408462"
 ---
 # <a name="transfer-orders-brazil"></a>Ordens de transferência (Brasil)
 
