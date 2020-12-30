@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bceeaf99437f6ef66bd3b4e1710b469c262e693e
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 65ee884fb22c1a38e2d3022085fed7e3e6077d1f
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022534"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644528"
 ---
 # <a name="reimburse-customers"></a>Reembolsar clientes
 
@@ -33,22 +33,19 @@ Este artigo explica como criar transações de reembolso para um grupo de client
 
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes de começar.
 
-| Pré-requisito                                                            | Descrição                                                                                                                                                                                 |
-|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Especificar o valor mínimo de reembolso para a entidade legal.          | Na página **Parâmetros de contas a receber** , na área **Geral** no campo **Reembolso mínimo** , insira o valor mínimo que pode ser reembolsado para pagamentos do cliente. |
-| Opcional: Adicionar uma conta de fornecedor para cada cliente que pode ser reembolsado. | Na página **Clientes** , na Guia Rápida **Detalhes diversos** , no campo **Conta do fornecedor** , selecione a conta do fornecedor para o cliente.                                           |
+| Pré-requisito                                                            | Descrição |
+|-------------------------------------------------------------------------|-------------|
+| Especificar o valor mínimo de reembolso para a entidade legal.          | Na página **Parâmetros de contas a receber**, na área **Geral** no campo **Reembolso mínimo**, insira o valor mínimo que pode ser reembolsado para pagamentos do cliente. |
+| Opcional: Adicionar uma conta de fornecedor para cada cliente que pode ser reembolsado. | Na página **Clientes**, na Guia Rápida **Detalhes diversos**, no campo **Conta do fornecedor**, selecione a conta do fornecedor para o cliente. |
 
 Ao criar transações de reembolso, uma fatura de fornecedor é criada para o valor do saldo de crédito. O processo de reembolso remove o saldo de crédito para a conta de cliente e cria um saldo devedor para a conta do fornecedor que corresponde ao cliente.
 
-1.  Em Contas a receber, execute o processo **Reembolso**.
-2.  Siga uma destas etapas:
-    -   Para reembolsar contas específicas de clientes, clique em **Selecionar** e especifique as contas do cliente na consulta.
-    -   Para reembolsar todas as contas de clientes, clique em **OK**.
+1. Em Contas a receber, execute o processo de **Reembolso** (**Contas a receber \> Tarefas periódicas \> Reembolso**).
+2. Para agrupar todas as transações, independentemente das dimensões do razão, defina a opção **Resumir cliente** como **Sim**. Para agrupar somente transações que tenham dimensões contábeis semelhantes, defina a opção como **Não**.
+3. Selecione **Incluir clientes com transações de débito pendentes** para selecionar clientes que tenham valores de débito não liquidados.
+4. Para reembolsar contas de cliente específicas, na Guia Rápida **Registros a incluir**, selecione **Filtrar** e especifique as contas de cliente na consulta.
 
     Os valores de crédito são transferidos para as contas de fornecedor dos clientes e processados como pagamentos normais. Se um cliente não tiver uma conta de fornecedor, uma conta de fornecedor ocasional será criada automaticamente para o cliente.
-3.  Para visualizar as transações do reembolso que foram criados, use a página **Reembolso**.
-4.  Em Contas a pagar, crie um pagamento para as faturas de fornecedor que foram criadas pelo processo de reembolso.
 
-
-
-
+5. Para exibir as transações de reembolso criadas, use o relatório **Reembolso** (**Contas a Receber \> Consultas e relatórios \> relatório Reembolso**).
+6. Em Contas a pagar, crie um pagamento para as faturas de fornecedor que foram criadas pelo processo de reembolso. Para obter informações sobre como pagar fornecedores, consulte [Visão geral de pagamentos do fornecedor](../accounts-payable/Vendor-payments-workspace.md).

@@ -3,7 +3,7 @@ title: Visão geral de processos automatizados de faturas de fornecedor
 description: Este tópico descreve o recurso para automatizar o processamento de faturas de fornecedores e os benefícios do uso de um processo automatizado.
 author: abruer
 manager: AnnBe
-ms.date: 10/16/2020
+ms.date: 11/06/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ec3598ebd158cc23ac7c02d7e33557141d5901bc
-ms.sourcegitcommit: 9e7ceb5604472f3088f611aa0360bd6a716db32b
+ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4022487"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665313"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visão geral de processos automatizados de faturas de fornecedor
 
@@ -39,8 +39,9 @@ Os processos de automação podem ser usados para executar estas tarefas:
 - Enviar automaticamente faturas importadas para o sistema de fluxo de trabalho.
 - Conciliar recebimentos de produtos a linhas da fatura de fornecedor pendentes.
 - Simular o lançamento antes que uma fatura de fornecedor seja lançada.
-- Exiba de forma rápida e eficiente o histórico do fluxo de trabalho.
+- Exiba de forma rápida e eficiente o histórico de automação do fluxo de trabalho.
 - Exiba e analise os resultados da automação do processamento de faturas de fornecedores.
+- Retomar o processamento automatizado para várias faturas.
 
 ## <a name="vendor-invoice-automation--submit-imported-vendor-invoices-to-the-workflow-system"></a>Automação de fatura de fornecedor – envie faturas de fornecedor importadas para o sistema de fluxo de trabalho
 
@@ -58,10 +59,13 @@ O sistema pode conciliar automaticamente os recebimentos de produtos lançados c
 
 A simulação de lançamento completa as etapas de validação feitas durante o processo de lançamento para faturas de fornecedor, mas nenhuma conta é atualizada. Para executar o processo, você pode selecionar uma única fatura ou várias faturas na página **Faturas de fornecedor pendentes**.
 
-## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-historical-information-for-vendor-invoices"></a>Automação de fatura de fornecedor – experiência avançada para exibir informações históricas do fluxo de trabalho para faturas de fornecedor
+## <a name="vendor-invoice-automation--enhanced-experience-for-viewing-workflow-and-automation-historical-information-for-vendor-invoices"></a>Automação de fatura de fornecedor – experiência avançada para exibir informações históricas de automação e do fluxo de trabalho para faturas de fornecedor
 
-É fornecida uma exibição de fácil leitura do histórico do fluxo de trabalho da fatura do fornecedor. O histórico do fluxo de trabalho da fatura do fornecedor pode ser acessado diretamente da fatura do fornecedor. Portanto, são necessários menos cliques para encontrar essas informações.
+É fornecida uma exibição de fácil leitura do histórico do fluxo de trabalho da fatura do fornecedor. O histórico do fluxo de trabalho da fatura do fornecedor pode ser acessado diretamente da fatura do fornecedor. Portanto, são necessários menos cliques para encontrar essas informações. Se a sua organização tiver ativado a capacidade de enviar automaticamente faturas de fornecedor importadas para o fluxo de trabalho, o histórico de automação será fornecido para as faturas importadas. O histórico de automação ajuda a identificar a etapa do processo atual, bem como as etapas que já foram concluídas. Quando uma etapa não é bem-sucedida, o sistema fornece informações detalhadas para ajudá-lo a compreender o motivo da falha.
 
 ## <a name="vendor-invoice-automation--analytics-and-metrics"></a>Automação de fatura de fornecedor – análises e métricas
 
 O espaço de trabalho **Entrada da fatura de fornecedor** permite que você se concentre nas faturas de fornecedor que não tiveram êxito no processo automatizado. Os blocos no espaço de trabalho listam informações sobre faturas de fornecedor que não foram enviadas com êxito para o sistema de fluxo, importadas ou conciliadas com recebimentos de produtos. As métricas do Microsoft Power BI também são fornecidas para oferecer aos gerentes de Contas a pagar informações sobre a eficiência da automação de faturas de fornecedores.
+
+## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automação de faturas de fornecedores-retomar processamento de automação para várias faturas
+Quando uma fatura importada não for enviada com êxito para o fluxo de trabalho por meio do processo automatizado, o sistema a removerá do processamento automatizado adicional. Um auxiliar de contas a pagar pode revisar e editar a fatura antes que o processo automatizado a reenvie para o fluxo de trabalho. Quando uma razão de falha pode ser resolvida pela mesma correção para várias faturas, você pode reiniciar o processo automatizado na página **Retomar o processamento automatizado para várias faturas**. 

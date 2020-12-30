@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: a1e3305bff99fa39240176ac9fc7aaee84b98e6c
-ms.sourcegitcommit: be51e892003778e71b67fb409a8e16965c89b5ac
+ms.openlocfilehash: 2b4e6b42326ecbd07efe006afb23931849f5cf58
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "3618402"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440572"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propostas de pagamento de fornecedor
 
@@ -128,7 +128,7 @@ Depois que um pagamento for excluído, as faturas serão abertas novamente para 
 
 ## <a name="edit-a-vendor-payment-proposal-automation"></a>Editar uma automação de proposta de pagamento de fornecedor
 
-A estrutura de automação de processos permite editar o pagamento, a série e as ocorrências criadas para a proposta de pagamento. A série pode ser editada na página **Automação de processo** ou na exibição semanal de automação de processo. Por exemplo, se o gerente de AP decidir gerar todas as verificações para fornecedores nacionais na quarta-feira em vez de segunda-feira, ele poderá encontrar uma ocorrência na exibição semanal e selecionar **Exibir/editar – série**. Se você editar uma série, o sistema solicitará que especifique se a alteração deve ser feita em todas as ocorrências existentes ou somente em novas ocorrências. As ocorrências históricas que já têm o status **Concluído** ou que foram concluídas com status **Erro** não serão alteradas.
+A estrutura de automação de processos permite editar o pagamento, a série e as ocorrências criadas para a proposta de pagamento. A série pode ser editada na página **Automação de processo** ou na exibição semanal de automação de processo. Por exemplo, se o gerente de AP decidir gerar todas as verificações para fornecedores nacionais na quarta-feira em vez de segunda-feira, ele poderá encontrar uma ocorrência na exibição semanal e selecionar **Exibir/Editar – Série**. Se você editar uma série, o sistema solicitará que especifique se a alteração deve ser feita em todas as ocorrências existentes ou somente em novas ocorrências. As ocorrências históricas que já têm o status **Concluído** ou que foram concluídas com status **Erro** não serão alteradas.
 
 Você também pode adicionar uma nova ocorrência ou alterar uma ocorrência existente. Por exemplo, a próxima ocorrência da proposta de pagamento está agendada para execução na quarta-feira, 1º de janeiro, mas essa data é um feriado. Você pode alterar a ocorrência na exibição semanal de automação de processo ou na página **Automação de processo**. Uma página aberta que mostra os detalhes da agenda e os critérios de proposta de pagamento. Aqui, você pode editar a data e a hora agendadas. Também é possível editar os critérios da proposta de pagamento caso sejam necessárias alterações. Por exemplo, se você alterar a data agendada da ocorrência do pagamento de 1º de Janeiro para 2 de Janeiro, talvez também queira alterar as datas relativas da data "até".
 

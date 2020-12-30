@@ -3,7 +3,7 @@ title: Atualizações regulatórias
 description: Este tópico fornece uma lista de atualizações regulatórias planejadas e liberadas para o Microsoft Dynamics 365 Finance.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 07/14/2020
+ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 4fd099116a342780961079c600368d81b30ec4c5
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 46e9b3c3d47207715d0eee689913073d363f3af3
+ms.sourcegitcommit: 4bf5ae2f2f144a28e431ed574c7e8438dc5935de
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985934"
+ms.lasthandoff: 11/13/2020
+ms.locfileid: "4517491"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Leia [Política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332) para obter mais informações. 
+Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Para obter mais informações, leia a [política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
 Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os [Planos de versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
 
@@ -40,52 +40,46 @@ Atualizações regulatórias que são liberadas como parte da atualização mens
 
 Para obter informações sobre os planos de atualizações regulatórias mais recentes, consulte a tabela a seguir.   
 
-|País/Região|Data de lançamento planejada|Versão de lançamento|Atualização regulatória|
+|País/Região|Data da liberação|Versão de lançamento|Atualização regulatória|
 |--------------------|---------------|-------|-------|
 |      Áustria         |   2020 de setembro      | 10.0.15      |   O formato de declaração de IVA U30 foi atualizado para relatórios de 2020   |
-|      Bahrein         |   Julho de 2020      | 10.0.12      |   Encargos revertidos   |
-|      Bahrein         |   Julho de 2020      | 10.0.12      |   Prazo final de emissão da fatura (GCC)   |
-|      Bahrein         |   Julho de 2020      | 10.0.12      |   Declaração de IVA para Bahrein   |
-|      Bahrein         |   Julho de 2020      | 10.0.12      |   Faturas de venda para Bahrein   |
-|      Brasil         |   Agosto de 2020      | 10.0.14, 10.0.13, 10.0.12      |   PR da declaração ADRCST   |
-|      Brasil         |   2020 de março      | 10.0.11      |   Layout 8 de SPED ECD   |
-|      Brasil         |   2020 de abril      | 10.0.11      |   Nota técnica de NT2019.001 v1.40   |
-|      Brasil         |   Maio de 2020      | 10.0.12, 10.0.11HF      |   Instrução do ICMS-ST de ADCR para o estado do Paraná   |
-|      Brasil         |   Julho de 2020 — maio de 2020      | 10.0.13, 10.0.12, 10.0.11      |   Layout 6 de SPED ECF   |
-|      Brasil         |   Julho de 2020      | 10.0.13, 10.0.12HF      |   SPED Fiscal — Registro C176 — Estado do RS   |
+|      Bahrein         |   2020 de junho      | 10.0.13      |   Prazo final de emissão da fatura (GCC)   |
+|      Bahrein         |   2020 de setembro      | 10.0.13      |   Fatura de projeto para o Bahrein   |
+|      Bahrein         |   2020 de junho      | 10.0.13      |   Declaração de IVA para o Bahrein - Habilitar descrição da transação   |   
+|      Brasil         |   Agosto de 2020      | 10.0.14, 10.0.13      |   PR da declaração ADRCST   |
+|      Brasil         |   Maio de 2020      | 10.0.13      |   Layout 6 de SPED ECF   |
+|      Brasil         |   Julho de 2020      | 10.0.13      |   SPED Fiscal — Registro C176 — Estado do RS   |
+|      Brasil         |   2020 de outubro      | 10.0.16, 10.0.15HF, 10.0.14HF, 10.0.13HF      |   NF-e NT 2019.001 v 1,51 - adoção das regras de validação no Código de benefício pelo Distrito Federal   |
+|      Brasil         |   2020 de outubro      | 10.0.16      |   SPED Fiscal - Layout 015   |
+|      Brasil         |   Novembro de 2020      | 10.0.15HF      |   Atualização C176 do registro SPED Fiscal ICMS/IPI para o estado do RS   |
+|      Brasil         |   2020 de outubro      | 10.0.16      |   Declaração DRCST SC - SEF 262/2020   |
+|      Brasil         |   2020 de outubro      | 10.0.16      |   Registro C176 do SPED Fiscal ICMS/IPI   |
 |      República Tcheca      |   Julho de 2020      | 10.0.13      |   Alterações do demonstrativo de controle de IVA no esquema XML (listagem de faturas)   |
 |      República Tcheca         |   Julho de 2020      | 10.0.13      |   Declaração de IVA em XML, visualização da declaração de IVA no Excel e formatos XML do demonstrativo de controle de IVA com base no modelo de declaração de Imposto   |
-|      Estônia         |   Maio de 2020       | 10.0.11      |   Faturamento eletrônico na Estônia: exportação de faturas de clientes na versão 1.2 no formato específico de estoniano.  |
 |      Europa        |   Agosto de 2020       | 10.0.14      |   Transferir ID do IVA do Parceiro para o Intrastat  |
 |      Finlândia         |   Julho de 2020       | 10.0.13      |   Suporte de faturas eletrônicas para a Finlândia  |
-|      Alemanha         |   Maio de 2020       | 10.0.12      |   Alemanha - varejo - requisitos de caixa registradora    |
-|      Hungria         |   2020 de março       | 10.0.11     |   Sistema de faturamento online v.2.0 no Finance and Operations    |
-|      Índia         |   Agosto de 2020, julho de 2020      | 10.0.3, 10.0.12HF      |   TCS nas Vendas de Mercadorias de acordo com a seção 206C (1H) – Limite de acordo com o acúmulo de transações baseado em PAN.  |
-|      Índia         |   Agosto de 2020, junho de 2020      | 10.0.13, 10.0.12HF      |   Nota de crédito/débito relacionada à fatura de exportação  |
-|      Índia         |   Agosto de 2020      | 10.0.13, 10.0.12HF, 10.0.11HF      |   Fatura eletrônica em GST  |
-|      Índia         |   Maio de 2020      | 10.0.13, 10.0.12      |   Novo formato de retorno de GSTR-1 e GSTR-2  |
+|      Índia         |   Julho de 2020      | 10.0.13      |   TCS nas Vendas de Mercadorias de acordo com a seção 206C (1H) – Limite de acordo com o acúmulo de transações baseado em PAN.  |
+|      Índia         |   Agosto de 2020, junho de 2020      | 10.0.13      |   Nota de crédito/débito relacionada à fatura de exportação  |
+|      Índia         |   Agosto de 2020      | 10.0.13      |   Fatura eletrônica em GST  |
 |      Índia         |   Julho de 2020      | 10.0.13      |   Nova ferramenta offline GSTR (ANX-1 e ANX-2) (versão Beta)  |
-|      Índia         |   Maio de 2020      | 10.0.12      |   Melhorias no preço unitário e no manuseio de preço de custo em Ordens de transferência de estoque  |
-|      Índia         |   Maio de 2020      | 10.0.12      |   Aplicabilidade da mesma taxa tributária na transferência de estoque no momento da remessa e do recebimento (incluindo recebimento parcial)  |
-|      Itália         |   Maio de 2020      | 10.0.12, 10.0.11      |   Alteração de formato do modelo 770/2019 |
-|      Itália         |   Julho de 2020      | 10.0.13, 10.0.12HF      |   Alterações no formato das faturas eletrônicas italianas — FatturaPA |
-|      Kuwait         |   Julho de 2020      | 10.0.12      |   Encargos revertidos |
+|      Índia         |   2020 de outubro      | 10.0.14HF, 10.0.13HF      |   Nota fiscal eletrônica sob GST na ordem de transferência de estoque para a Índia|
+|      Índia         |   2020 de outubro      | 10.0.14HF, 10.0.13HF      |   Nota fiscal eletrônica sob GST para a Índia com vários registros GSTIN|
+|      Índia         |   2020 de setembro      | 10.0.13HF      |   Taxa de imposto retido na fonte em 3/5 casas decimais|
+|      Índia         |   2020 de setembro      | 10.0.14HF      |   Grupo de sequências numéricas: "GSTNSG", tipo de transação: "Fatura GST" a ser configurada para o grupo de sequências numéricas de referência GST de informações sobre impostos "0073"|
+|      Itália         |   Julho de 2020      | 10.0.13      |   Alterações no formato das faturas eletrônicas italianas — FatturaPA |
 |      Malásia         |   Julho de 2020      | 10.0.13      |   Relatório SST |
-|      México         |   2020 de setembro      | 10.0.13HF, 10.0.12HF, 10.0.11HF      |   Localização do esquema de URL CFDI com base no documento Anexo 20 |
-|      Noruega          |   Maio de 2020   | 10.0.12     |   Novo design do relatório SAF-T: saldos iniciais por tipo de transação "operacional" e informações de Impostos na moeda do Código de imposto em Finanças (versão 10) |
-|      Noruega          |   Maio de 2020   | 10.0.12     |   Alteração do diálogo de relatório SAF-T: para permitir a seleção de pessoas de Contato entre empresas |
-|      Noruega          |   Maio de 2020   | 10.0.12     |   Declarações de espaço de nome SAF-T em cada linha, em vez de somente no cabeçalho |
-|      Omã         |   Julho de 2020      | 10.0.12H      |   Encargos revertidos |
+|      México         |   2020 de setembro      | 10.0.13HF      |   Localização do esquema de URL CFDI com base no documento Anexo 20 |
+|      Países Baixos         |   2020 de outubro      | 10.0.16     |   O formato Intrastat será atualizado a partir de 2021 |
+|      Noruega         |   Agosto de 2020      | 10.0.14     |   SAF-T - o nível de agrupamento de transações por "Comprovante" deve ser informado no nível do elemento "Transação", em vez de "Diário" |
 |      Polônia          |   2020 de setembro     | 10.0.14     |   Polônia: JPK-V7M (VDEK) formato do Excel – para substituir o relatório SSRS  |
-|      Polônia          |   Maio de 2020     | 10.0.11     |   Dividir o valor da diferença cambial realizada de contas a pagar/contas a receber do valor líquido da fatura e valor do IVA  |
-|      Polônia          |   Maio de 2020     | 10.0.11     |   Livros contábeis SAF – Aprimoramentos na filtragem dos níveis de lançamento |
-|      Polônia          |   2020 de março     | 10.0.11     |   Pacote complementado I do JPK_VDEK |
-|      Polônia          |   Maio de 2020     | 10.0.12     |   Pacote complementado II do JPK_VDEK |
-|      Polônia          |   2020 de março     | 10.0.11     |   Nota de crédito parcial para ordem de venda com fatura antecipada |
-|      Polônia          |   Julho de 2020     | 10.0.13     |   Aprimoramentos de pagamento dividido obrigatório |
-|      Catar         |   Julho de 2020      | 10.0.12H      |   Encargos revertidos |
+|      Polônia          |   Julho de 2020     | 10.0.15, 10.0.14HF, 10.0.13     |   Aprimoramentos de pagamento dividido voluntariamente |
+|      Polônia          |   2020 de outubro     | 10.0.13HF     |   Aprimoramentos de pagamento dividido obrigatório |
+|      Polônia          |   Novembro de 2020     | 10.0.16, 10.0.15, 10.0.14, 10.0.13     |   JPK-V7M (VDEK) - tipo de documento de venda FP e RO para transações do Retail |
+|      Polônia          |   2020 de setembro     | 10.0.15     |   Polônia: JPK-V7M (VDEK) - desbloqueie a possibilidade de executar a geração de relatórios por partes |
+|      Polônia          |   2020 de outubro     | 10.0.16     |   Relatório JPK-V7M (VDEK) - tomada de parâmetro "Pagamento dividido voluntariamente" |
 |      Rússia          |   Agosto de 2020     | 10.0.14    |   O formato do relatório de contabilidade mudará a partir do ano 2020  |
 |      Rússia          |   Julho de 2020     | 10.0.13    |   Cálculo da depreciação na base do Custo de aquisição e nos principais reparos com a aplicação do Bônus de depreciação na Contabilização de imposto  |
+|      Rússia          |   Novembro de 2020     | 10.0.16    |   O formato da declaração de IVA foi atualizado para a versão 5.07 a partir do relatório do T4 2020|
 
 
 

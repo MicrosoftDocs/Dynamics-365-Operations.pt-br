@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d647dc41eb18d25101e66d3030327fc55b55a4d5
-ms.sourcegitcommit: 2460d0da812c45fce67a061386db52e0ae46b0f3
+ms.openlocfilehash: 6f96da7f7f5374fb34e317c416238a48c3fe7d05
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "2250319"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440576"
 ---
 # <a name="financial-period-close-workspace"></a>Espaço de trabalho de fechamento do período financeiro
 
@@ -68,7 +68,7 @@ Para poder usar o espaço de trabalho **Fechamento do período financeiro**, voc
 
 Na guia **Recursos** você define as pessoas que estão envolvidas nos processos de fechamento. Os funcionários responsáveis por uma tarefa de fechamento devem ser atribuídos aqui. Você também deve especificar a exibição do funcionário do espaço de trabalho. As opções a seguir estão disponíveis:
 
--   **Somente tarefas atribuídas** – O usuário verá apenas as tarefas atribuídas a você ou a ele.
+-   **Somente tarefas atribuídas** – o usuário verá apenas as tarefas atribuídas a ele.
 -   **Todas as tarefas e status** – O usuário verá todas as tarefas de fechamento e o status do processo total.
 
 Os usuários que têm permissão para exibir somente suas tarefas atribuídas tarefas não poderão adicionar à lista de tarefas, editar tarefas ou remover tarefas da lista de tarefas.

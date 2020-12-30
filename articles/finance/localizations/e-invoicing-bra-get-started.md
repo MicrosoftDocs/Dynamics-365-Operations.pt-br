@@ -19,11 +19,11 @@ ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
 ms.openlocfilehash: fb3ec2d60875d7a0747d64b397aafaa0a3d26348
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039860"
+ms.locfileid: "4440532"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-brazil"></a>Introdução ao complemento de faturamento eletrônico para o Brasil 
 
@@ -57,8 +57,8 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 ## <a name="import-the-e-invoicing-feature"></a>Importar o recurso de faturamento eletrônico
 
 1. Entrar em sua conta do RCS
-2. No espaço de trabalho **Recursos de globalização** , na seção **Recursos** , selecione o bloco **Faturamento eletrônico**.
-3. Na página **Recursos de faturamento eletrônico** , selecione **Importar** para importar um recurso de faturamento eletrônico de NF-e do repositório Global.
+2. No espaço de trabalho **Recursos de globalização**, na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
+3. Na página **Recursos de faturamento eletrônico**, selecione **Importar** para importar um recurso de faturamento eletrônico de NF-e do repositório Global.
 
     ![Botão Importar](media/e-Invoicing-services-get-started-BRA-Select-Import-e-Invoicing-feature.png)
 
@@ -68,13 +68,13 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 
 ### <a name="create-a-new-version-of-the-nf-e-fiscal-document-feature"></a>Criar uma versão do recurso de NF-e
 
-- Na página **Recursos de faturamento eletrônico** , na guia **Versões** , selecione **Novo**.
+- Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione **Novo**.
 
 ![Adicionar uma nova versão do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-BRA-Select-New-e-Invoicing-feature-version.png)
 
 ### <a name="update-the-configuration-version"></a>Atualizar a versão de configuração
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , selecione **Adicionar** ou **Excluir** para gerenciar as versões de configuração (configurações do formato de arquivo ER).
+1. Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** ou **Excluir** para gerenciar as versões de configuração (configurações do formato de arquivo ER).
 
     ![Gerenciar configurações do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-configurations.png)
 
@@ -89,7 +89,7 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 
         - Formato de exportação de cancelamento da NF-e
 
-2. Na lista, selecione uma versão de configuração e, em seguida, selecione **Editar** ou **Exibir** para abrir a página **Designer de formato** , na qual você pode editar ou exibir a configuração.
+2. Na lista, selecione uma versão de configuração e, em seguida, selecione **Editar** ou **Exibir** para abrir a página **Designer de formato**, na qual você pode editar ou exibir a configuração.
 
     ![Abrir a página Designer de formato](media/e-Invoicing-services-get-started-BRA-Configuration-ER-fomat-designer.png)
 
@@ -99,7 +99,7 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 
 ### <a name="manage-the-e-invoicing-feature-setups"></a>Gerenciar as configurações do recurso de faturamento eletrônico
 
-- Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , selecione **Adicionar** ou **Excluir** para gerenciar as configurações do recurso de faturamento eletrônico (ou seja, eventos de NF-e).
+- Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** ou **Excluir** para gerenciar as configurações do recurso de faturamento eletrônico (ou seja, eventos de NF-e).
 
 ![Gerenciar as configurações do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-BRA-Manage-e-Invoicing-feature-setup.png)
 
@@ -111,12 +111,12 @@ Para enviar o cancelamento de NF-e, é necessário configurar o recurso **Cancel
 
 #### <a name="configure-the-submit-feature-setup"></a>Definir a configuração do recurso Enviar
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , na coluna **Configuração do recurso** , selecione **Enviar**.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, na coluna **Configuração do recurso**, selecione **Enviar**.
 2. Selecione **Editar**.
 
     ![Editar configuração do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-BRA-Edit-e-Invoicing-feature-setup.png)
 
-3. Na página **Configuração de versão do recurso** , selecione a guia **Ações** para gerenciar a lista de ações.
+3. Na página **Configuração de versão do recurso**, selecione a guia **Ações** para gerenciar a lista de ações.
 
     ![Guia Ações](media/e-Invoicing-services-get-started-BRA-Select-Actions.png)
 
@@ -135,16 +135,16 @@ Para enviar o cancelamento de NF-e, é necessário configurar o recurso **Cancel
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>Configurar a URL para os serviços Web da SEFAZ 
 
-1. Na página **Configuração de versão do recurso** , na guia **Ações** , na Guia Rápida **Ações** , selecione **Chamar serviço da SEFAZ do Brasil** (ID da ação **3** ).
-2. Na Guia Rápida **Parâmetros** , no campo **Parâmetro de endereço de URL** , insira a URL do serviço Web da SEFAZ para o envio de NF-e.
-3. Na Guia Rápida **Ações** , selecione **Chamar serviço da SEFAZ do Brasil** (ID da ação **7** ).
-4. Na Guia Rápida **Parâmetros** , no campo **Parâmetro de endereço de URL** , insira a URL do serviço Web da SEFAZ para o envio de NF-e.
+1. Na página **Configuração de versão do recurso**, na guia **Ações**, na Guia Rápida **Ações**, selecione **Chamar serviço da SEFAZ do Brasil** (ID da ação **3**).
+2. Na Guia Rápida **Parâmetros**, no campo **Parâmetro de endereço de URL**, insira a URL do serviço Web da SEFAZ para o envio de NF-e.
+3. Na Guia Rápida **Ações**, selecione **Chamar serviço da SEFAZ do Brasil** (ID da ação **7**).
+4. Na Guia Rápida **Parâmetros**, no campo **Parâmetro de endereço de URL**, insira a URL do serviço Web da SEFAZ para o envio de NF-e.
 
 #### <a name="configure-the-cancellation-feature-setup"></a>Definir a configuração do recurso Cancelamento
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , na coluna **Configuração do recurso** , selecione **Cancelamento**.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, na coluna **Configuração do recurso**, selecione **Cancelamento**.
 2. Selecione **Editar**.
-3. Na página **Configuração de versão do recurso** , selecione a guia **Ações** para gerenciar a lista de ações.
+3. Na página **Configuração de versão do recurso**, selecione a guia **Ações** para gerenciar a lista de ações.
 4. Revise as ações necessárias para solicitar o cancelamento de uma NF-e aprovada.
 
     | ID de ação | Nome da ação                  | Descrição da ação                                               |
@@ -156,26 +156,26 @@ Para enviar o cancelamento de NF-e, é necessário configurar o recurso **Cancel
 
 #### <a name="set-up-the-url-for-sefaz-web-services"></a>Configurar a URL para os serviços Web da SEFAZ
 
-1. Na página **Configuração de versão do recurso** , na guia **Ações** , na Guia Rápida **Ações** , selecione **Chamar serviço da SEFAZ do Brasil** (ID da ação **3** ).
-2. Na Guia Rápida **Parâmetros** , no campo **Parâmetro de endereço de URL** , insira a URL do serviço Web da SEFAZ para o cancelamento de uma NF-e aprovada.
+1. Na página **Configuração de versão do recurso**, na guia **Ações**, na Guia Rápida **Ações**, selecione **Chamar serviço da SEFAZ do Brasil** (ID da ação **3**).
+2. Na Guia Rápida **Parâmetros**, no campo **Parâmetro de endereço de URL**, insira a URL do serviço Web da SEFAZ para o cancelamento de uma NF-e aprovada.
 
 ### <a name="make-an-e-invoicing-environment-available-and-assign-a-draft-version"></a>Disponibilizar um ambiente de faturamento eletrônico e atribuir uma versão de rascunho
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Ambientes** , selecione **Habilitar**.
-2. No campo **Ambiente** , selecione o ambiente.
-3. No campo **Efetivo a partir de** , selecione a data em que o ambiente deve entrar em vigor.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Ambientes**, selecione **Habilitar**.
+2. No campo **Ambiente**, selecione o ambiente.
+3. No campo **Efetivo a partir de**, selecione a data em que o ambiente deve entrar em vigor.
 4. Selecione **Habilitar**.
 
 ![Habilitar um ambiente de faturamento eletrônico](media/e-Invoicing-services-get-started-BRA-Enable-e-Invoicing-environment.png)
 
 ### <a name="change-the-status-to-completed"></a>Alterar o status para Concluído
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Versões** , selecione a versão do recurso de faturamento eletrônico que tem o status **Rascunho**.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione a versão do recurso de faturamento eletrônico que tem o status **Rascunho**.
 2. Selecione **Alterar status \> Concluir**.
 
 ### <a name="change-the-status-to-publish"></a>Alterar o status para Publicar
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Versões** , selecione a versão do recurso de faturamento eletrônico que tem o status **Concluído**.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione a versão do recurso de faturamento eletrônico que tem o status **Concluído**.
 2. Selecione **Alterar status \> Publicar**.
 
 ![Publicando o recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-BRA-Publish-e-Invoicing-feature.png)
@@ -191,34 +191,34 @@ Durante a configuração, você concluirá estas tarefas:
 ### <a name="turn-on-the-nf-e-federal-feature-for-brazil"></a>Ativar o recurso de NF-e Federal para o Brasil
 
 1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
-2. Na guia **Recursos** , marque a caixa de seleção **Habilitar** na linha para a referência do recurso **BR00053**.
+2. Na guia **Recursos**, marque a caixa de seleção **Habilitar** na linha para a referência do recurso **BR00053**.
 
 ### <a name="import-the-er-data-model-mapping-required-for-nf-e-fiscal-documents"></a>Importar o mapeamento do modelo de dados de RE necessário para as NF-e
 
 1. Entre no Finance.
-2. No espaço de trabalho **Relatório eletrônico** , na seção **Provedores de configuração** , selecione o bloco **Microsoft**. Verifique se este provedor de configuração está definido como **Ativo**. Para obter informações sobre como definir um provedor como **Ativo** , consulte [Criar provedores de configuração e marcá-los como ativos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. No espaço de trabalho **Relatório eletrônico**, na seção **Provedores de configuração**, selecione o bloco **Microsoft**. Verifique se este provedor de configuração está definido como **Ativo**. Para obter informações sobre como definir um provedor como **Ativo**, consulte [Criar provedores de configuração e marcá-los como ativos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Selecione **Repositórios**.
 4. Selecione **Recurso global \> Abrir**.
 5. Importe as configurações de **Mapeamento de notas fiscais**.
 
 ### <a name="import-er-configurations-and-set-up-the-response-types-for-fiscal-documents"></a>Importar configurações de RE e configurar os tipos de resposta para notas fiscais
 
-1. No espaço de trabalho **Relatório eletrônico** , na seção **Provedores de configuração** , selecione o bloco **Microsoft**.
+1. No espaço de trabalho **Relatório eletrônico**, na seção **Provedores de configuração**, selecione o bloco **Microsoft**.
 2. Selecione **Repositórios**.
 3. Selecione **Recurso global \> Abrir**.
-4. Importe a **Importação de log de erros da NF-e (BR)** , o **formato de importação dos dados de resposta da NF-e (Br)** e a **Importação da mensagem de resposta da NF-e (BR)**.
+4. Importe a **Importação de log de erros da NF-e (BR)**, o **formato de importação dos dados de resposta da NF-e (Br)** e a **Importação da mensagem de resposta da NF-e (BR)**.
 5. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
-6. Na guia **Documento eletrônico** , selecione **Adicionar**.
-6. No campo **Nome da tabela** , insira o **Cabeçalho da nota fiscal**.
-7. No campo **Contexto do documento** , selecione **Modelo de contexto da nota fiscal do cliente – Contexto da nota fiscal**.
+6. Na guia **Documento eletrônico**, selecione **Adicionar**.
+6. No campo **Nome da tabela**, insira o **Cabeçalho da nota fiscal**.
+7. No campo **Contexto do documento**, selecione **Modelo de contexto da nota fiscal do cliente – Contexto da nota fiscal**.
 8. Selecione **Tipos de resposta**.
-9. Selecione **Novo** e, no campo **Tipo de resposta** , selecione **Resposta**.
-10. No campo **Status de envio** , selecione **Pendente**.
-11. No campo **Mapeamento de modelos** , selecione **Formato de importação de mensagem de resposta – mapeamento de modelo da mensagem de resposta**.
+9. Selecione **Novo** e, no campo **Tipo de resposta**, selecione **Resposta**.
+10. No campo **Status de envio**, selecione **Pendente**.
+11. No campo **Mapeamento de modelos**, selecione **Formato de importação de mensagem de resposta – mapeamento de modelo da mensagem de resposta**.
 12. Selecione **Salvar**.
-13. Selecione **Novo** e, no campo **Tipo de resposta** , insira **ResponseData**.
-14. No campo **Status de envio** , selecione **Pendente**.
-15. No campo **Mapeamento de modelos** , selecione **Formato de importação dos dados de resposta da NF-e – Importação dos dados de resposta**.
+13. Selecione **Novo** e, no campo **Tipo de resposta**, insira **ResponseData**.
+14. No campo **Status de envio**, selecione **Pendente**.
+15. No campo **Mapeamento de modelos**, selecione **Formato de importação dos dados de resposta da NF-e – Importação dos dados de resposta**.
 16. Selecione **Salvar**.
 
 ## <a name="electronic-invoice-processing"></a>Processamento de fatura eletrônica
@@ -231,19 +231,19 @@ Durante o processamento no Finance, você concluirá estas tarefas:
 
 ### <a name="submit-nf-e-fiscal-documents-for-sefaz-authorization"></a>Enviar NF-e para autorização da SEFAZ 
 
-Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , o processo antigo de envio de NF-e para autorização ( **Processo de exportação/importação de NF-e** ) não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
+Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, o processo antigo de envio de NF-e para autorização (**Processo de exportação/importação de NF-e**) não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
 
 > [!NOTE]
 > Antes de continuar, verifique se você tem um ou mais modelos 55 de notas fiscais do cliente que foram emitidos pelo estabelecimento fiscal do cliente. A direção dessas notas fiscais deve ser definida como **Saída** e o status deve ser **Criado**. Para obter mais informações, consulte [Emitir nota fiscal do cliente (Brasil)](https://docs.microsoft.com/dynamics365/finance/localizations/tasks/br-00038-issuing-customer-fiscal-document).
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, sempre defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.
-3. Na Guia Rápida **Registros a serem incluídos** , selecione **Filtrar** para abrir a caixa de diálogo **Consulta** , na qual você pode criar uma consulta para selecionar documentos para envio.
-4. Na guia **Intervalo** , selecione **Adicionar**.
-5. No campo **Tabela** , selecione **Cabeçalho da nota fiscal**.
-6. No campo **Tabela derivada** , selecione **Cabeçalho da nota fiscal**.
-6. No campo **Campo** , selecione **Número**.
-7. No campo **Critérios** , insira o número da nota fiscal que deve ser enviada.
+3. Na Guia Rápida **Registros a serem incluídos**, selecione **Filtrar** para abrir a caixa de diálogo **Consulta**, na qual você pode criar uma consulta para selecionar documentos para envio.
+4. Na guia **Intervalo**, selecione **Adicionar**.
+5. No campo **Tabela**, selecione **Cabeçalho da nota fiscal**.
+6. No campo **Tabela derivada**, selecione **Cabeçalho da nota fiscal**.
+6. No campo **Campo**, selecione **Número**.
+7. No campo **Critérios**, insira o número da nota fiscal que deve ser enviada.
 8. Selecione **OK** para fechar a caixa de diálogo **Consulta**.
 8. Selecione **OK** para enviar os documentos selecionados.
 
@@ -252,10 +252,10 @@ Depois que você ativar o recurso **Integração do complemento de faturamento e
 
 ### <a name="view-all-submission-logs"></a>Exibir todos os logs de envio
 
-Depois que ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , uma nova página será disponibilizar que permitirá acompanhar o processo de envio do documento. Você pode usar esta página para exibir os logs de envio para todos os documentos enviados.
+Depois que ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, uma nova página será disponibilizar que permitirá acompanhar o processo de envio do documento. Você pode usar esta página para exibir os logs de envio para todos os documentos enviados.
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
-2. No campo **Tipo de documento** , selecione **Cabeçalho da nota fiscal** para filtrar somente notas fiscais.
+2. No campo **Tipo de documento**, selecione **Cabeçalho da nota fiscal** para filtrar somente notas fiscais.
 3. No Painel de Ações, selecione **Consultas \> Detalhes de envio** para exibir os detalhes dos logs de execução de envio.
 
 ![Exibir os detalhes do log de envio](media/e-Invoicing-services-get-started-BRA-View-Submission-log-details.png)
@@ -265,17 +265,17 @@ Depois que ativar o recurso **Integração do complemento de faturamento eletrô
 
 ### <a name="view-submission-logs-through-the-fiscal-document-page"></a>Exibir logs de envio pela página da nota fiscal
 
-Depois que ativar o recurso **Integração do suplemento de faturamento eletrônico configurável** , você também poderá exibir os logs de envio por meio da página da nota fiscal.
+Depois que ativar o recurso **Integração do suplemento de faturamento eletrônico configurável**, você também poderá exibir os logs de envio por meio da página da nota fiscal.
 
 1. Acesse **Contabilidade \> Consultas e relatórios \> Notas fiscais \> Todas as notas fiscais**.
 2. Selecione uma nota fiscal que tenha sido enviada anteriormente por meio do complemento de faturamento eletrônico.
-3. No Painel de Ações, na guia **NF-e Federal** , selecione **Registro de documento eletrônico**.
+3. No Painel de Ações, na guia **NF-e Federal**, selecione **Registro de documento eletrônico**.
 
 ![Exibindo logs de envio pela página da nota fiscal](media/e-Invoicing-services-get-started-BRA-View-Submission-log-from-Fiscal-document-viewer.png)
 
 ### <a name="submit-approved-nf-e-fiscal-documents-for-sefaz-cancellation"></a>Enviar NF-e aprovada para cancelamento da SEFAZ
 
-Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , o processo antigo de cancelamento de NF-e não poderá mais ser usado. Ele é substituído por um novo processo de cancelamento incorporado na página **Registro de envio de documentos eletrônicos**.
+Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, o processo antigo de cancelamento de NF-e não poderá mais ser usado. Ele é substituído por um novo processo de cancelamento incorporado na página **Registro de envio de documentos eletrônicos**.
 
 > [!NOTE]
 > Verifique se você executou o cancelamento da nota fiscal do cliente para uma NF-e aprovada. Para obter mais informações, consulte [Cancelar nota fiscal do cliente (Brasil)](https://docs.microsoft.com/dynamics365/finance/localizations/latam-bra-cancel-customer-fiscal-documents).
@@ -287,7 +287,7 @@ Depois que você ativar o recurso **Integração do complemento de faturamento e
 ### <a name="view-cancellation-submission-logs"></a>Exibir logs de envio de cancelamento
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
-2. No campo **Tipo de documento** , selecione **Cabeçalho da nota fiscal** para filtrar somente notas fiscais.
+2. No campo **Tipo de documento**, selecione **Cabeçalho da nota fiscal** para filtrar somente notas fiscais.
 3. Selecione a nota fiscal e, no painel de Ações, selecione **Consultas \> Envio relacionado**.
 
     Os envios relacionados são envios que estão relacionados a um envio principal que foi feito primeiro. Por exemplo, o envio que autoriza uma NF-e específica é o envio principal. O envio que solicita o cancelamento da mesma NF-e na SEFAZ é um envio relacionado. Ele existe somente porque está solicitando o cancelamento do trabalho realizado por outro envio.
@@ -301,7 +301,7 @@ Depois que você ativar o recurso **Integração do complemento de faturamento e
     ![Exibir os detalhes do log de envio de cancelamento](media/e-Invoicing-services-get-started-BRA-View-Cancellation-Submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
-Habilitar o recurso BR-00053 (NF-e Federal) pode exigir o envio de dados limitados, que inclui a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar o recurso BR-00053 (NF-e Federal) navegando até **Administração da organização \> Configurar \> Parâmetros do documento eletrônico**. Selecione a guia **Recursos** , selecione a linha que contém o recurso BR-00053 e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade na documentação de recursos específicos do país para obter mais informações.
+Habilitar o recurso BR-00053 (NF-e Federal) pode exigir o envio de dados limitados, que inclui a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar o recurso BR-00053 (NF-e Federal) navegando até **Administração da organização \> Configurar \> Parâmetros do documento eletrônico**. Selecione a guia **Recursos**, selecione a linha que contém o recurso BR-00053 e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade na documentação de recursos específicos do país para obter mais informações.
 
 
 ## <a name="additional-resources"></a>Recursos adicionais

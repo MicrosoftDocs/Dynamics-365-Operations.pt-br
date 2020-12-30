@@ -1,6 +1,6 @@
 ---
 title: Visão geral de impostos do Brasil
-description: O Microsoft Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.
+description: O Microsoft Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto.
 author: sndray
 manager: AnnBe
 ms.date: 07/25/2019
@@ -16,27 +16,46 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a203dd121536e687be3926d32efa47be7804b153
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: b81603a8226ec48af2f421825579fe6147dd3f92
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772833"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665496"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 
 [!include [banner](../includes/banner.md)]
 
-O Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto sobre vendas. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.
+O Dynamics 365 Finance calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto sobre vendas. Você pode configurar e calcular impostos para: 
 
-Você pode configurar códigos de tributação para Imposto sobre Circulação de Mercadorias e Serviços (ICMS), Imposto sobre Produtos Industrializados (IPI), Programa de Integracao Social (PIS) e Contribuição para Financiamento da Seguridade Social (COFINS) Os códigos de tributação são usados para o relatório fiscal e a geração de documentos eletrônicos fiscais (NF-e). Também é possível configurar códigos de tributação em outros tipos de imposto. Ao configurar um código de tributação para um tipo de imposto, você atribui um valor fiscal para indicar o tipo de tratamento que se aplica aos impostos, como tributáveis, não tributáveis ou isentos, ou tributáveis sem crédito. Quando um código de tributação não é configurado para um tipo de imposto, configure o valor fiscal selecionando as opções **Sem crédito de imposto** e **Isento** nas páginas **Grupos de impostos** e **Grupos de impostos do item**. Os impostos de vendas são calculados e salvos na página **Imposto lançado**. É possível especificar um código de tributação padrão para o código do imposto no campo **Código de tributação** na página **Códigos de imposto**. Também é possível especificar o código de tributação para um código de imposto quando você anexa o código de impostos ao seguinte:
--   Um grupo de impostos e o código do imposto é isento.
--   Um grupo de impostos do item.
+   - Vendas
+   - Compras
+   - Transferir entre estabelecimentos fiscais 
+   - Entrega de itens a um terceiro
+   - Recebimento de itens de um terceiro
 
-Ao criar e lançar transações de impostos de ordens de venda, ordens de compra, faturas de texto livre, ou de propostas de fatura de projeto, os impostos serão calculados com base no valor fiscal dos códigos de tributação que estão selecionados no campo no campo **Valor fiscal** na página **Código de tributação**, ou o valor fiscal é determinado com base nas opções **Sem crédito de imposto** e **Isento** nas páginas **Grupos de impostos** e **Grupos de impostos do item**. Os valores de base e de imposto são exibidos nas páginas **Imposto lançado** e **Transações temporárias de imposto**, como segue:
--   Para transações com códigos de tributação que possuem um valor **1. com crédito/débito fiscal**, ou grupos de impostos do item para os quais a opção **Sem crédito** **de imposto** não estiver marcada, o valor do imposto é calculado para ser igual ao valor base tributável. O valor do imposto é calculado de acordo com a taxa de imposto, e é atualizado no campo **Valor real do imposto**.
--   Para transações com códigos de tributação que têm um valor fiscal **2. sem crédito/débito** **(isento ou não tributável)**, ou grupos de imposto ou grupos de impostos do item para os quais a opção **Isento** é selecionada, o valor base de isenção é igual ao valor da transação e nenhum valor de imposto é calculado.
--   Para transações com códigos de tributação que possuem um valor fiscal de **3. sem crédito/débito (outros)** ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** estiver marcada, o outro valor base é igual ao valor da transação. O valor do imposto é calculado de acordo com a taxa de imposto, e é atualizado no campo **Outro valor de imposto**.
+Você pode configurar códigos de tributação para os seguintes impostos:
+
+   - Imposto sobre Circulação de Mercadorias e Serviços (ICMS)
+   - Imposto sobre Produtos Industrializados (IPI)
+   - Programa de Integração Social (PIS)
+   - Contribuição para Financiamento da Seguridade Social (COFINS) 
+
+Os códigos de tributação são usados para o relatório fiscal e a geração de documentos eletrônicos fiscais (NF-e). Você pode configurar códigos de tributação em outros tipos de imposto. Ao configurar um código de tributação para um tipo de imposto, você atribui um valor fiscal para indicar o tipo de tratamento que se aplica aos impostos. Os tipos de tratamento incluem tributável, não tributável ou isento, ou tributável sem crédito. Quando um tipo de imposto não tiver um código de tributação, selecione **Sem crédito de imposto** e **Isento** nas páginas **Grupos de impostos** e **Grupos de impostos do item** para configurar o valor fiscal. Os impostos de vendas são calculados e salvos na página **Imposto lançado**. Especifique o código de tributação padrão para um código do imposto no campo **Código de tributação** na página **Códigos de imposto**. Também é possível especificar o código de tributação para um código de imposto quando você anexa o código de imposto:
+-   Um grupo de impostos com um código do imposto isento
+-   Um grupo de impostos do item
+
+Quando você cria e lança transações de impostos de ordens de venda, ordens de compra, faturas de texto livre ou propostas de fatura de projeto, os impostos são calculados com base em um dos seguintes valores fiscais:
+
+   - O valor fiscal dos códigos de tributação selecionados no campo **Valor fiscal** na página **Código de tributação**
+   - O valor fiscal determinado com base nas opções **Sem crédito de imposto** e **Isento** nas páginas **Grupos de impostos** e **Grupos de impostos do item**. 
+
+Os valores de base e de imposto são exibidos nas páginas **Imposto lançado** e **Transações temporárias de imposto**, como segue:
+
+   - Para transações com códigos de tributação com um valor **1. com crédito/débito fiscal**, ou grupos de impostos do item para os quais a opção **Sem crédito** **de imposto** não estiver selecionada, o valor do imposto será calculado para ser igual ao valor base tributável. O valor do imposto é calculado de acordo com a taxa de imposto, e é atualizado no campo **Valor real do imposto**.
+   - Para transações com códigos de tributação que têm um valor fiscal **2. sem crédito/débito** **(isento ou não tributável)**, ou grupos de imposto ou grupos de impostos do item para os quais a opção **Isento** é selecionada, o valor base de isenção é igual ao valor da transação e nenhum valor de imposto é calculado.
+   - Para transações com códigos de tributação que possuem um valor fiscal de **3. sem crédito/débito (outros)** ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** estiver marcada, o outro valor base é igual ao valor da transação. O valor do imposto é calculado de acordo com a taxa de imposto, e é atualizado no campo **Outro valor de imposto**.
 
 ## <a name="brazilian-tax-types"></a>Tipos de impostos brasileiros
 Os seguintes tipos de imposto estão disponíveis na configuração de código de imposto.
@@ -75,7 +94,7 @@ Para o valor de uma transação de base de R$ 1.000,00, uma taxa de imposto de 1
 | 2. Sem Crédito/Débito (Isento ou Não Tributável) |               |                         | R$ 1.000,00       |                   |                  |
 | 3. sem crédito/débito (outros)                 |               |                         | R$ 400,00         | R$ 600,00        | R$ 108,00       |
 
-Para transações de venda com códigos de tributação que têm um valor fiscal **1. com crédito/débito**, ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** não estiver marcada, o valor do imposto real é lançado em contas principais para as quais **Imposto** e **Despesas com imposto** são selecionados no campo **Tipo de lançamento** na página **Contas para transações automáticas**. Para transações de compra com códigos de tributação que têm um valor fiscal **1. com crédito/débito**, ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** não estiver marcada, o valor do imposto real é lançado em contas principais para as quais **Imposto** é selecionado no campo **Tipo de lançamento** na página **Contas para transações automáticas**.
+Para transações de venda com códigos de tributação com um valor fiscal **1. com crédito/débito**, ou grupos de impostos do item para os quais a opção **Sem crédito de imposto** não está selecionada, o valor do imposto real será lançado em contas principais onde **Imposto** e **Despesa com imposto** estão selecionados na página **Contas para transações automáticas**. Para transações de compra com códigos de tributação que têm um valor fiscal **1. com crédito/débito**, ou grupos de impostos do item onde **Sem crédito de imposto** não está selecionada, o valor do imposto real será lançado em contas principais onde **Imposto** está selecionado no campo **Tipo de lançamento** na página **Contas para transações automáticas**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 -   [Atributos de impostos do Brasil](latam-bra-tax-attributes.md)

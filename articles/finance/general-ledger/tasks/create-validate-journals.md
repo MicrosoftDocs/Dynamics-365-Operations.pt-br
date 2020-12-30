@@ -1,6 +1,6 @@
 ---
 title: Criar e validar diários
-description: Este guia de tarefas cria e valida diários e linhas de diário.
+description: Este procedimento cria e valida diários e linhas de diário.
 author: ryansandness
 manager: AnnBe
 ms.date: 08/29/2018
@@ -16,32 +16,30 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 212227afb21ac1a20d29c33b40f6c44561da14fe
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 8ac70a6fd52a47e5edbdd21145a47c925256fa71
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3144344"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4646302"
 ---
 # <a name="create-and-validate-journals"></a>Criar e validar diários
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefas cria e valida diários e linhas de diário. Estas tarefas usam a empresa de demonstração USMF.  
+Este procedimento cria e valida diários e linhas de diário. Você pode testar este procedimento usando a empresa de demonstração USMF.  
 
-
-
-1. Ir para Contabilidade > Entradas de diários > Diários gerais.
-2. Clique em Novo.
-3. No campo Nome, clique no botão suspenso para abrir a pesquisa.
+1. Vá para **Contabilidade > Entradas de diários > Diários gerais**.
+2. Clique em **Novo**.
+3. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.
-5. Clique em Linhas.
-6. No campo Conta, insira uma conta apropriada com base no tipo de conta.
-7. No campo Descrição, digite um valor.
-8. Insira um valor para a conta tanto em débito quanto em crédito. Esta tarefa assume um valor de débito.
-9. No campo Contrapartida, insira uma conta apropriada com base no tipo de contrapartida.
-10. Clique em Validar.
-11. Clique em Validar.
-12. Clique em Lançar.
-13. Clique em Comprovante.
+5. Clique em **Linhas**.
+6. No campo **Conta**, insira uma conta apropriada com base no tipo de conta.
+7. No campo **Descrição**, digite um valor.
+8. Insira um valor para a conta como **Débito** ou como **Crédito**. 
+9. No campo **Contrapartida**, insira uma conta apropriada com base no tipo de contrapartida.
+10. Clique em **Validar**.
+11. Clique em **Validar**.
+12. Clique em **Enviar**.
+13. Clique em **Comprovante**.
 

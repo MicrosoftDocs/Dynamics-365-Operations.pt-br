@@ -1,7 +1,7 @@
 ---
 title: Criar um ativo fixo
 description: Este tópico explica como criar um novo registro de ativo fixo na página de listagem Ativo fixo.
-author: saraschi2
+author: moaamer
 manager: AnnBe
 ms.date: 07/01/2019
 ms.topic: business-process
@@ -13,15 +13,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b7d65a047251fa036242fb456725bc8cba957b9
-ms.sourcegitcommit: 51e626675b0130fa32a84ce2d9119b68ea928018
+ms.openlocfilehash: 481bdb55b813dad5366f382ae35d8345b0e67d9f
+ms.sourcegitcommit: a9efbd69f2670fd6ba0ad0babf304fc206d01249
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4000234"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "4440579"
 ---
 # <a name="create-a-fixed-asset"></a>Criar um ativo fixo
 
@@ -34,12 +34,12 @@ O sistema atribui o número do ativo, com base na sequência numérica atribuíd
 Para criar manualmente um registro de ativo, siga estas etapas.
 
 1. Vá para **Painel de Navegação \> Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
-2. No **Painel de ação** , selecione **Novo**.
-3. No campo **Grupo de ativo fixo** , insira ou selecione um valor. O campo **Número** será padrão se você tiver habilitado a **funcionalidade de ativos fixos Autonumber** nos **parâmetros de ativos fixos** e no **grupo de ativos fixos**. Se não, você deve inserir um número exclusivo para identificar o ativo fixo.
-4. No campo **Nome** , insira um valor. Insira informações adicionais que sua empresa precisa para este ativo.
-5. No **Painel de ação** , selecione **Registros**.
-6. No campo **Data de aquisição** , insira uma data.
-7. No campo **Preço de aquisição** , insira um número.
+2. No **Painel de ação**, selecione **Novo**.
+3. No campo **Grupo de ativo fixo**, insira ou selecione um valor. O campo **Número** será padrão se você tiver habilitado a **funcionalidade de ativos fixos Autonumber** nos **parâmetros de ativos fixos** e no **grupo de ativos fixos**. Se não, você deve inserir um número exclusivo para identificar o ativo fixo.
+4. No campo **Nome**, insira um valor. Insira informações adicionais que sua empresa precisa para este ativo.
+5. No **Painel de ação**, selecione **Registros**.
+6. No campo **Data de aquisição**, insira uma data.
+7. No campo **Preço de aquisição**, insira um número.
 
     - Insira informações adicionais que sua empresa precisa para este registro.
     - Insira informações adicionais que sua empresa precisa para os registros restantes.
@@ -49,3 +49,9 @@ Para criar manualmente um registro de ativo, siga estas etapas.
 Também é possível importar ativos fixos usando o suplemento do Excel ou executando um trabalho de importação do espaço de trabalho **Gerenciamento de dados**. Antes de executar a importação, insira os valores dos campos obrigatórios no modelo.
 
 Se você não tiver definido o número do ativo fixo no modelo do suplemento do Excel ou no Gerenciamento de dados, o sistema cria um número de ativo fixo para cada ativo importado e incrementa automaticamente a sequência numérica para cada um. No entanto, se você importar ativos e definir números de ativos no modelo, o sistema **não** incrementará automaticamente a sequência numérica. Nesse caso, um administrador pode ter que atualizar manualmente a sequência numérica. Se você tiver definido o número do ativo fixo no modelo do suplemento do Excel, o sistema usará o número do ativo fixo definido e incrementará a sequência numérica.
+
+> [!NOTE]                                                                                                         
+> Depois de lançar a depreciação, os campos **Colocado em serviço** e **Data de execução da depreciação** ficarão bloqueados na página **Registro**. Além disso, nenhum campo será atualizado a partir da entidade de dados.
+
+> [!WARNING]
+> O registro de ativo fixo não será excluído se as transações forem lançadas no registro associado ou se o ativo fixo recém-criado for inserido em uma linha do diário, mas não lançado. 

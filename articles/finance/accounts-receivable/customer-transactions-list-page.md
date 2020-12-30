@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 28669014b4998de6ae13ec7dbc4c704a14aff6e2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 948f83d56e560cc21205294c15de4b2097d2ad2e
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975331"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440570"
 ---
 # <a name="customer-transactions-list-page"></a>Página da lista de transações de cliente
 
@@ -39,7 +39,7 @@ O botão **Exibir liquidações** no Painel de Ação fornece acesso rápido ao 
 
 4. Na caixa de diálogo, você pode executar várias tarefas. Selecione um ou mais comprovantes e, em seguida, selecione um dos seguintes botões:
 
-    - **Exibição relacionada** – mostre todas as transações de diário de pagamento e transações de diário geral do cliente que foram criadas nos diários em que foram criados os documentos exibidos na lista. Por exemplo, se um pagamento for mostrado, serão mostrados todos os pagamentos no diário de pagamento no qual ele foi criado. Se uma nota fiscal ou um pagamento forem mostrados e se eles foram criados em um diário geral, serão mostrados todos os documentos no diário geral em que eles foram criados. Todas as liquidações relacionadas à lista de documentos também são exibidas. Quando você exibe os pagamentos relacionados, o rótulo desse botão é alterado para **Exibir liquidações**. Selecione **Exibir liquidações** para mostrar apenas as transações que foram exibidas quando você abriu a caixa de diálogo **Exibir liquidações**.
+    - **Ver relacionados** – Mostra todas as transações de diário de pagamento e transações de diário geral do cliente que foram criadas nos diários em que foram criados os documentos exibidos na lista. Por exemplo, se um pagamento for mostrado, serão mostrados todos os pagamentos no diário de pagamento no qual ele foi criado. Se uma nota fiscal ou um pagamento forem mostrados e se eles foram criados em um diário geral, serão mostrados todos os documentos no diário geral em que eles foram criados. Todas as liquidações relacionadas à lista de documentos também são exibidas. Quando você exibe os pagamentos relacionados, o rótulo desse botão é alterado para **Exibir liquidações**. Selecione **Exibir liquidações** para mostrar apenas as transações que foram exibidas quando você abriu a caixa de diálogo **Exibir liquidações**.
     - **Exibir histórico** – Exibe o histórico de liquidação dos comprovantes. Selecione **Fechar** para fechar a caixa de diálogo.
     - **Exibir contabilidade** – Mostra todos os comprovantes relacionados aos documentos selecionados. Selecione **Fechar** para fechar a caixa de diálogo.
     - **Exportar** – exporte os comprovantes selecionados para o Microsoft Excel.

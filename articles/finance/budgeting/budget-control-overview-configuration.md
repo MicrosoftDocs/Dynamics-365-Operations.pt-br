@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 464fd211eb5417265f8c737b23456769137a7c13
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 670e6be595fb891408b1b0804c68a41650b0da0b
+ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772665"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4440569"
 ---
 # <a name="budget-control-overview"></a>​Visão geral de controle de orçamento ​
 
@@ -103,7 +103,7 @@ Em seguida, na guia **Definir regras de controle de orçamento**, você deve cri
 
 ### <a name="select-main-accounts"></a>Selecionar contas principais
 
-Se **Conta principal** não estiver selecionada como uma dimensão de controles de orçamento na página **Definir parâmetros** , mas as  despesas específicas são gerenciadas, você pode selecionar essas despesas na guia **Selecionar contas principais**. Se a **Conta principal** for selecionada como uma dimensão de controles de orçamento, nenhuma entrada é necessária.  
+Se **Conta principal** não estiver selecionada como uma dimensão de controles de orçamento na página **Definir parâmetros** , mas as despesas específicas são gerenciadas, você pode selecionar essas despesas na guia **Selecionar contas principais**. Se a **Conta principal** for selecionada como uma dimensão de controles de orçamento, nenhuma entrada é necessária.  
 
 ### <a name="define-budget-groups"></a>Definir os grupos orçamentários
 
@@ -126,4 +126,4 @@ Depois que o controle de orçamento é ativado, os usuários recebem o aviso do 
 
 Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento** exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
 
-Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se a gerente de orçamento tem permissões de orçamento excedido configuradas, ela pode confirmar a ordem de compra diretamente no espaço de trabalho.    
+Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se o gerente de orçamento tiver permissões de orçamento configuradas, as ordens de compra podem ser confirmadas diretamente no espaço de trabalho.    

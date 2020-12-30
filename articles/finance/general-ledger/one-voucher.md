@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
 ms.openlocfilehash: 68ec3cb028462865e914cbcb25ff28dbaf9a4f01
-ms.sourcegitcommit: 12b9d6f2dd24e52e46487748c848864909af6967
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "3058008"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440406"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -127,7 +127,7 @@ As seguintes transações de ativo fixo também criam várias transações dentr
 > [!Note]
 > Quando estiver inserindo transações, verifique se todas as transações se aplicam ao mesmo ativo fixo. O comprovante não será lançado se incluir mais de um ativo fixo, mesmo se o campo **Novo Comprovante** tiver sido definido como Apenas um número de comprovante na página **Nomes de diários** em Contabilidade. Se você incluir mais de um ativo fixo no comprovante, a mensagem **Só pode haver uma transação de ativo fixo por comprovante** será exibida e você não poderá lançar o comprovante.  
 
-### <a name="bills-of-exchange-and-promissory-notes"></a> Notas promissórias e letras de câmbio
+### <a name="bills-of-exchange-and-promissory-notes"></a>Notas promissórias e letras de câmbio
 Letras de câmbio e notas promissórias requerem que Um comprovante seja usado, porque as transações movem o saldo do cliente e do fornecedor de um Contas a receber/Contas a pagar contáveis a outro, com base no estado do pagamento.
 
 ## <a name="scenarios-that-dont-require-one-voucher"></a>Cenários que não exigem Um comprovante único

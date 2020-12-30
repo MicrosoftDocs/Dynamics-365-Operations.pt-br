@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 798e26badfd2a1f44891ea92f277de327fbed9c7
-ms.sourcegitcommit: d61c43b6bc04bb8786aa3c47932be0ccd84ebaeb
+ms.sourcegitcommit: b40d6ce45aeb07724fc41d1a41923970b007fbcf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4006204"
+ms.locfileid: "4440517"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira da Contabilidade
 
@@ -41,15 +41,15 @@ Quando você executa o processo de reavaliação, o saldo em cada conta principa
 ## <a name="prepare-to-run-foreign-currency-revaluation"></a>Preparação para executar a reavaliação de moeda estrangeira
 Para executar o processo de reavaliação, é necessária uma configuração adicional.
 
--   Na página **Conta principal** :
+-   Na página **Conta principal**:
 -   Se a conta principal tiver de ser reavaliada na Contabilidade, selecione **Reavaliação de moeda estrangeira**. Se a conta for principal reavaliada (como a de AR e se o MESMO reavaliado em razão), desmarque esta opção.
 -   Se a conta principal estiver marcado para reavaliação, entre em **Tipo de taxa de câmbio**. Este tipo de taxa de câmbio será usado reavaliando a conta principal. Um campo, **Tipo de taxa de câmbio de relatório financeiro** separado, disponíveis para relatórios financeiros. Os dois campos não são mantidos na sincronização, permitindo tipos de taxa de câmbio diferente ser usado para a reavaliação e o relatório financeiro.
 
--   Na página **Razão** :
+-   Na página **Razão**:
 -   Especifique **Tipo de taxa de câmbio**. Se o tipo de taxa de câmbio não for definido na conta principal, este tipo de taxa de câmbio será usado na reavaliação de moeda estrangeira.
 -   Especifique o lucro realizado, a perda realizada, o lucro não realizado e a perda não realizada para a reavaliação de moeda. As contas de lucros realizados e perdas realizadas são usadas em transações liquidadas AR e AP, e as contas de lucro não realizado e de perda não realizada são usadas em transações abertas e contas principais de contabilidade.
 
--   Na página **Contas de reavaliação de moeda** :
+-   Na página **Contas de reavaliação de moeda**:
 -   A reavaliação de moeda diferente selecionar para cada moeda e empresa. Se nenhuma conta for definida, as contas da página **Razão** serão usadas.
 
 ## <a name="process-foreign-currency-revaluation"></a>Processar uma reavaliação de moeda estrangeira

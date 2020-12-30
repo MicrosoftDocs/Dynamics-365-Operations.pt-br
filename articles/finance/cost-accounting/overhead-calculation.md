@@ -20,11 +20,11 @@ ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 923e6e38a664e17ec3349d839c4b77ec903c5dc2
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3976466"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440461"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
@@ -277,7 +277,7 @@ Os custos fixos devem ser distribuídos igualmente a objetos de custo individuai
 <tr>
 <td>CC001</td>
 <td>RH</td>
-<td>(1.000 &gt; 0.00)</td>
+<td>(1.000 &gt; 0,00)</td>
 <td>1</td>
 <td>(1 ÷ 2) × 1.000,00</td>
 <td>500,00</td>
@@ -1354,10 +1354,10 @@ Na contabilidade financeira, um custo de 10,000.00 para a eletricidade é lança
 <tbody>
 <tr>
 <td colspan="2">10001 Eletricidade</td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
+<td style="text-align: right;"><strong>0,00</strong></td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"><strong>30.00</strong></td>
 <td style="text-align: right;"><strong>10.00</strong></td>

@@ -1,7 +1,7 @@
 ---
 title: Lançar transações de ativo fixo em níveis de lançamento
 description: Este artigo oferece uma visão geral da funcionalidade de nível de lançamento para transações de ativo fixo.
-author: ShylaThompson
+author: moaamer
 manager: AnnBe
 ms.date: 04/25/2017
 ms.topic: article
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 3001
 ms.assetid: 7dabde57-0843-47c3-85ef-f36b6f472e30
 ms.search.region: Global
-ms.author: saraschi
+ms.author: moaamer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bc8c4f4f41ed39447ae441dd8e01cfcf80c939b5
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: a80e4d1a081b5bd8c58238b0f154f8fbdc660ccb
+ms.sourcegitcommit: f80819c67c0a7475315fc68ce1cb568831e2c0e7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770703"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "4493663"
 ---
 # <a name="post-fixed-asset-transactions-to-posting-layers"></a>Lançar transações de ativo fixo em níveis de lançamento
 
@@ -39,8 +39,11 @@ Fixo diários de ativos são definidos usando a página Nomes de diários em Con
 
 É possível designar contas contábeis para transações de ativo fixo na página Perfis de lançamentos de ativo fixo. Para cada perfil de postagem, selecione o tipo de transação e o registro relevantes, e designar as contas contábeis. Configurar uma registradora de postagem de perfil para cada registro que será lançada na contabilidade.
 
+O ativo fixo pode ser inserido em documentos que só dão suporte ao nível de lançamento **Atual**, como **Ordem de compra**, **Fatura de fornecedor pendente**, **Ordem de venda** ou **Fatura de texto livre**. Ao selecionar uma ID de ativo fixo em qualquer um desses documentos, o registro de ativos é filtrado para o registro com o nível de lançamento **Atual** e será preenchido automaticamente durante o lançamento quando o sistema validar que o nível de lançamento do ativo fixo é **Atual**. Se essa validação não puder ser concluída, o processo de lançamento será interrompido. 
+
 > [!NOTE] 
-> O uso de registros derivados permite que você lance, ao mesmo tempo, as transações em diferentes níveis de lançamento. Você cria as transações do registro primário em um diário com o nível de lançamento correspondente ao nível de lançamento do registro. Durante o lançamento, as transações do registro derivado serão lançadas em seus respectivos níveis de lançamento.
+> O uso de registros derivados permite que você lance, ao mesmo tempo, as transações em diferentes níveis de lançamento. As transações do registro primário são criadas em um diário ou documento de origem onde o nível de lançamento corresponda ao nível de lançamento do registro. Durante o lançamento, as transações do registro derivado serão lançadas em seus respectivos níveis de lançamento. 
+
 
 Para obter mais informações, consulte [Registros derivados](derived-books.md) e [Lançar com registros de depreciações derivados](post-derived-value-models.md).
 

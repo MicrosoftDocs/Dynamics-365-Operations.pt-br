@@ -1,6 +1,6 @@
 ---
 title: Certificados de NF-e
-description: Este tópico fornece informações sobre certificados de NF-e para Microsoft Dynamics 365 Finance. Isso inclui informações sobre a solução que você deve usar para a autoridade fiscal de cada estado.
+description: Este tópico fornece informações sobre certificados de NF-e para o Microsoft Dynamics 365 Finance e a solução que você deve usar para cada autoridade fiscal estadual.
 author: sndray
 manager: AnnBe
 ms.date: 01/31/2018
@@ -16,32 +16,42 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7eb11a48e5e1ae2680cd1a9ea072c7a54efaa7a0
-ms.sourcegitcommit: 75db3b75d35d27034f9b56e7119c9d0cb7666830
+ms.openlocfilehash: bf1a472646637d41f5b19ff8cce459a4ea6e2e35
+ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "2551133"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665485"
 ---
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
 [!include [banner](../includes/banner.md)]
 
 Na localização brasileira, você deve gerar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre duas partes.
-A nota fiscal de NF-e deve ser assinada e transmitida à autoridade fiscal do estado usando um certificado de cliente que é emitido por uma autoridade de certificação (CA) brasileira.
+O documento fiscal NF-e deve ser assinado e transmitido à autoridade fiscal do estado usando um certificado de cliente que é emitido por uma autoridade de certificação (CA) brasileira.
 Antes de gerar uma NF-e, você deve concluir as seguintes tarefas:
 - Configurar serviços Web, códigos de rejeição e esquemas.
-- Para cada estabelecimento fiscal, configure o certificado de cliente, um ambiente, uma versão de NF-e, uma autoridade, um modelo, uma validação de esquema e um modo de contingência para NF-e. Além disso, você deve configurar a impressão automática do Documento Auxiliar da Nota Fiscal Eletrônica (DANFE), de forma que o DANFE seja impresso automaticamente após a aprovação da NF-e.
+- Para cada estabelecimento fiscal, configure:
+
+    - O certificado do cliente
+    - Um ambiente
+    - Uma versão da NF-e
+    - Uma autoridade
+    - Um modelo
+    - Validação de esquema
+    - Um modo de contingência para NF-e
+    
+- Configure a impressão automática do Documento auxiliar da Nota fiscal eletrônica (DANFE), de forma que o DANFE seja impresso automaticamente após a aprovação da NF-e.
 - Configure os serviços da Web relacionados a uma autoridade fiscal.
 - Configurar um tipo de documento fiscal para NF-e.
 
 ## <a name="set-up-certificates"></a>Configurar certificados
-O processo usado para instalar certificados varia, dependendo do estado onde a nota fiscal de NF-e é emitida. Você deve usar o processo de instalação de certificado correto para que o Dynamics 365 Finance possa se conectar aos serviços Web do estado.
+O processo usado para instalar certificados varia, dependendo do estado onde a nota fiscal de NF-e é emitida. Use o processo de instalação de certificado correto para que o Dynamics 365 Finance possa se conectar aos serviços Web do estado.
 
 O governo brasileiro atualizou a autoridade de certificação (CA) raiz usada para emitir o certificado necessário para estabelecer uma conexão de protocolo SSL (Secure Sockets Layer) no servidor. A versão atual da AC Raiz é a v5. Por padrão, a versão anterior (AC Raiz v2) é implantada no Microsoft Windows.
 
 ## <a name="solutions"></a>Soluções
-- Instalar manualmente a AC Raiz v5 – o certificado raiz deve ser instalado na loja Autoridades de certificação raiz confiáveis. Embora o governo brasileiro tenha criado um novo certificado raiz (v5), a Segurança do Windows ainda não adicionou esse certificado à loja Autoridades de certificação raiz confiáveis. Portanto, você deve abrir um incidente no Suporte do Windows e, em seguida, instalar manualmente o certificado. Você pode usar essa solução alternativa até que o grupo de Segurança do Windows chegue a um acordo com o governo brasileiro.
+- Instalar manualmente a AC Raiz v5 – o certificado raiz deve ser instalado na loja Autoridades de certificação raiz confiáveis. Embora o governo brasileiro tenha criado um novo certificado raiz (v5), a Segurança do Windows ainda não adicionou esse certificado à loja Autoridades de certificação raiz confiáveis. Isso significa que você deverá abrir um incidente no Suporte do Windows e, em seguida, instalar manualmente o certificado. Você pode usar essa solução alternativa até que o grupo de Segurança do Windows chegue a um acordo com o governo brasileiro.
 - Instalar o proxy de NF-e em uma VM local – as autoridades fiscais dos estados do Ceará (CE), de Goiás (GO) e de Pernambuco (PE) não habilitaram o protocolo mais seguro e padrão de mercado, Transport Layer Security (TLS) 1.2, em seus servidores Web. No entanto, as máquinas virtuais (VMs) do Windows usadas para executar o Finance seguem a política de segurança da Microsoft e permitem apenas conexões que usam TLS 1.2. Portanto, o sistema não pode conectar-se diretamente a esses serviços Web. Para expedir comunicações a esses três estados, os clientes devem instalar um serviço Web de proxy em uma VM do Windows local em sua assinatura do Microsoft Azure.
 
 Certificados brasileiros devem ser instalados por meio do Azure Key Vault. O Key Vault permite armazenar chaves de criptografia, certificados e segredos (como chaves de autenticação, chaves da conta de armazenamento, chaves de criptografia de dados, arquivos .pxf e senhas) usando chaves protegidas por módulos de segurança de hardware (HSMs).

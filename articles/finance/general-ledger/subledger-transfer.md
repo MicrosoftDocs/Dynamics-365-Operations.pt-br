@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1ae10f406148e213fd0272d1387f15606233be27
-ms.sourcegitcommit: 9168621ca9b5061c65f3e05dbc5918b6a11d53d5
+ms.openlocfilehash: 7addb1f26a33db84d947e6fede876be648d2c654
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "3000438"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4645161"
 ---
 # <a name="subledger-transfer-to-the-general-ledger"></a>Transferir razão auxiliar para a Contabilidade
 
@@ -31,7 +31,7 @@ ms.locfileid: "3000438"
 
 Este tópico descreve os recursos no Microsoft Dynamics 365 Finance que estão relacionados às regras de transferência em lotes das entradas no diário-razão auxiliar.
 
-Na versão 8.1, as alterações foram feitas para permitir a transferência de regras, o que substituiu a opção Síncrona. Para obter mais informações, consulte [Recursos removidos ou substituídos do Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
+Na versão 8.1, as alterações foram feitas para permitir a transferência de regras, o que substituiu a opção **Síncrona**. Para obter mais informações, consulte [Recursos removidos ou substituídos do Finance and Operations](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/finance/toc.json#finance-and-operations-81-with-platform-update-20).
 
 As opções a seguir estão disponíveis para transferir lotes do razão auxiliar. 
 

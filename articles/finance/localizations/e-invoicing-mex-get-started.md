@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a30f5a9b585c826222108563ea10ac4194ee441c
-ms.sourcegitcommit: d6250ee5ced43be39e789324a895fd1c07178935
+ms.openlocfilehash: 6d15a79a359b3c708b2b33893d700377a57c3eb7
+ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4039813"
+ms.lasthandoff: 11/11/2020
+ms.locfileid: "4512225"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Introdução ao complemento de faturamento eletrônico para o México
 
@@ -53,8 +53,8 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 ## <a name="import-the-e-invoicing-feature"></a>Importar o recurso de faturamento eletrônico
 
 1. Entre em sua conta do RCS.
-2. No espaço de trabalho **Recursos de globalização** , na seção **Recursos** , selecione o bloco **Faturamento eletrônico**.
-3. Na página **Recursos de faturamento eletrônico** , selecione **Importar** para importar o recurso **Faturas de CFDI (MX)** do Repositório global.
+2. No espaço de trabalho **Recursos de globalização**, na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
+3. Na página **Recursos de faturamento eletrônico**, selecione **Importar** para importar o recurso **Faturas de CFDI (MX)** do Repositório global.
 
     > [!NOTE]
     > Se o recurso não for exibido na lista, selecione **Sincronizar** e repita a etapa 3.
@@ -67,13 +67,13 @@ Quando você importa o recurso **Faturas de CFDI (MX)** do Repositório global, 
 
 Você poderá criar uma nova versão se, por exemplo, as URLs precisarem ser atualizadas. Para obter mais informações, consulte [Faturamento eletrônico CFDI](tasks/mx-00010-e-invoicing-cfdi.md).
 
-- Na página **Recursos de faturamento eletrônico** , na guia **Versões** , selecione **Novo**.
+- Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione **Novo**.
 
 ![Adicionar uma nova versão do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-MEX-Select-New-e-Invoicing-feature.png)
 
 ### <a name="update-the-configuration-version"></a>Atualizar a versão de configuração
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , selecione **Adicionar** ou **Excluir** para gerenciar as versões de configuração (configurações do formato de arquivo ER).
+1. Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** ou **Excluir** para gerenciar as versões de configuração (configurações do formato de arquivo ER).
 
     ![Gerenciar configurações do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Configurations.png)
 
@@ -85,7 +85,7 @@ Você poderá criar uma nova versão se, por exemplo, as URLs precisarem ser atu
     - Solicitação de cancelamento de CFDI (MX) (BusinessDocumentService)
     - Fatura de CFDI (BusinessDocumentService)
 
-2. Na lista, selecione uma versão de configuração e, em seguida, selecione **Editar** ou **Exibir** para abrir a página **Designer de formato** , na qual você pode editar ou exibir a configuração.
+2. Na lista, selecione uma versão de configuração e, em seguida, selecione **Editar** ou **Exibir** para abrir a página **Designer de formato**, na qual você pode editar ou exibir a configuração.
 
     ![Abrir a página Designer de formato](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
@@ -95,7 +95,7 @@ Você poderá criar uma nova versão se, por exemplo, as URLs precisarem ser atu
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Gerenciar as configurações do recurso de faturamento eletrônico
 
-- Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , selecione **Adicionar** , **Excluir** ou **Editar** para gerenciar as configurações do recurso de faturamento eletrônico.
+- Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar**, **Excluir** ou **Editar** para gerenciar as configurações do recurso de faturamento eletrônico.
 
 ![Gerenciar as configurações do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-MEX-Manage-e-Invoicing-feature-Setup.png)
 
@@ -105,12 +105,12 @@ Para enviar o cancelamento da fatura de CFDI, são necessárias as configuraçõ
 
 ### <a name="configure-the-sales-invoice-feature-setup"></a>Definir a configuração do recurso de fatura de venda
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Configurações** , na coluna **Configuração do recurso** , selecione **Fatura de venda**.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, na coluna **Configuração do recurso**, selecione **Fatura de venda**.
 2. Selecione **Editar** para configurar as ações, regras de aplicabilidade e variáveis.
 
     ![Editar a configuração do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-MEX-Edit-e-Invoicing-feature-setup.png)
 
-3. Na página **Configuração de versão do recurso** , selecione a guia **Ações** para gerenciar a lista de ações. As ações definem uma lista de operações que devem ser executadas na ordem sequencial para realizar a execução total do evento.
+3. Na página **Configuração de versão do recurso**, selecione a guia **Ações** para gerenciar a lista de ações. As ações definem uma lista de operações que devem ser executadas na ordem sequencial para realizar a execução total do evento.
 
     ![Guia Ações](media/e-Invoicing-services-get-started-MEX-Select-Actions.png)
 
@@ -123,33 +123,33 @@ Para enviar o cancelamento da fatura de CFDI, são necessárias as configuraçõ
 
 ### <a name="set-up-the-url-for-mexican-pac-web-services"></a>Configurar a URL para serviços Web da PAC mexicana 
 
-1. Na página **Configuração de versão do recurso** , na guia **Ações** , na Guia Rápida **Ações** , selecione **Chamar serviço da PAC mexicana**.
-2. Na Guia Rápida **Parâmetros** , no campo **Endereço da URL** , insira a URL do serviço Web para envio da fatura de CFDI.
+1. Na página **Configuração de versão do recurso**, na guia **Ações**, na Guia Rápida **Ações**, selecione **Chamar serviço da PAC mexicana**.
+2. Na Guia Rápida **Parâmetros**, no campo **Endereço da URL**, insira a URL do serviço Web para envio da fatura de CFDI.
 
 > [!NOTE]
 > Use as mesmas etapas para atualizar a URL para a ação **Chamar serviço da PAC mexicana** para as configurações de recurso **Cancelar** e **Solicitação de cancelamento**.
 
 ## <a name="assign-the-draft-version-to-an-e-invoicing-environment"></a>Atribuir a versão de rascunho a um ambiente de faturamento eletrônico
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Ambientes** , selecione **Habilitar**.
-2. No campo **Ambiente** , selecione o ambiente.
-3. No campo **Efetivo a partir de** , selecione a data em que o ambiente deve entrar em vigor.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Ambientes**, selecione **Habilitar**.
+2. No campo **Ambiente**, selecione o ambiente.
+3. No campo **Efetivo a partir de**, selecione a data em que o ambiente deve entrar em vigor.
 3. Selecione **Habilitar**.
 
 ![Habilitar um ambiente de faturamento eletrônico](media/e-Invoicing-services-get-started-MEX-Enable-e-Invoicing-Environment.png)
 
 ## <a name="change-the-version-status-to-completed"></a>Alterar o status da versão para Concluído
 
-1. Na página **Recursos de faturamento eletrônico** , na guia **Versões** , selecione a versão do recurso de faturamento eletrônico que tem o status **Rascunho**.
+1. Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione a versão do recurso de faturamento eletrônico que tem o status **Rascunho**.
 2. Selecione **Alterar status \> Concluir**.
 
 ## <a name="change-the-version-status-to-published"></a>Alterar o status da versão para Publicado
 
-- Na página **Recursos de faturamento eletrônico** , na guia **Versões** , selecione **Alterar status \> Publicar**.
+- Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione **Alterar status \> Publicar**.
 
 ## <a name="publish-the-e-invoicing-feature"></a>Publicar o recurso de faturamento eletrônico
 
-1. Na página **Recursos de faturamento eletrônico** , selecione a guia **Versões** para gerenciar o status do recurso **Faturas de CFDI (MX)**.
+1. Na página **Recursos de faturamento eletrônico**, selecione a guia **Versões** para gerenciar o status do recurso **Faturas de CFDI (MX)**.
 2. Selecione **Alterar status** para alterar o status do recurso.
 
 ![Alterar o status do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-MEX-Change-status-of-e-Invoicing-feature.png)
@@ -164,15 +164,15 @@ Para configurar o complemento de faturamento eletrônico no Finance, você execu
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Importar o modelo de dados ER, o mapeamento do modelo de dados ER e as configurações de contexto para faturas de CFDI
 
 1. Entre no Finance.
-2. No espaço de trabalho **Relatório eletrônico** , na seção **Provedores de configuração** , selecione o título **Microsoft**. Verifique se este provedor de configuração está definido como **Ativo**. Para obter informações sobre como definir um provedor como **Ativo** , consulte [Criar provedores de configuração e marcá-los como ativos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. No espaço de trabalho **Relatório eletrônico**, na seção **Provedores de configuração**, selecione o título **Microsoft**. Verifique se este provedor de configuração está definido como **Ativo**. Para obter informações sobre como definir um provedor como **Ativo**, consulte [Criar provedores de configuração e marcá-los como ativos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
 3. Selecione **Repositórios**.
 4. Selecione **Recurso global \> Abrir**.
-5. Importar **Modelo de fatura** , **Mapeamento de modelo de fatura** , **Formato de fatura de CFDI (MX)** , **Formato de solicitação de cancelamento de fatura de CFDI (MX)** e **Formato de cancelamento de fatura de CFDI (MX)**.
+5. Importar **Modelo de fatura**, **Mapeamento de modelo de fatura**, **Formato de fatura de CFDI (MX)**, **Formato de solicitação de cancelamento de fatura de CFDI (MX)** e **Formato de cancelamento de fatura de CFDI (MX)**.
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>Ativar o recurso de processamento de faturas de CFDI
 
 1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
-2. Na guia **Recursos** , marque a caixa de seleção **Habilitar** nas linhas para referências do recurso **MX-00010** e **MX-00016**.
+2. Na guia **Recursos**, marque a caixa de seleção **Habilitar** nas linhas para referências do recurso **MX-00010** e **MX-00016**.
 
 ![Ativar os recursos de processamento de faturas de CFDI](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
 
@@ -180,29 +180,29 @@ Para configurar o complemento de faturamento eletrônico no Finance, você execu
 
 #### <a name="import-er-configurations"></a>Importar configurações de ER
 
-1. No espaço de trabalho **Relatório eletrônico** , na seção **Provedores de configuração** , selecione o título **Microsoft**.
+1. No espaço de trabalho **Relatório eletrônico**, na seção **Provedores de configuração**, selecione o título **Microsoft**.
 3. Selecione **Repositórios**.
 4. Selecione **Recurso global \> Abrir**.
-5. Importar **Modelo de mensagem de resposta** , **Importação de log de erros de CFDI (MX)** , **Importação de log de erros (MX)** e **Importação de mensagens de resposta de CFDI (MX)**.
+5. Importe **Modelo de mensagem de resposta**, **Importação de log de erros de CFDI (MX)**, **Importação de log de erros (MX)**.
 
 #### <a name="set-up-the-response-types"></a>Configurar os tipos de resposta
 
 1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
-2. Na guia **Documento eletrônico** , selecione **Adicionar**.
-3. Insira o diário de faturas do cliente e, em seguida, no campo **Nome da tabela** , selecione a fatura do projeto.
+2. Na guia **Documento eletrônico**, selecione **Adicionar**.
+3. Insira o diário de faturas do cliente e, em seguida, no campo **Nome da tabela**, selecione a fatura do projeto.
 4. Para cada tabela, defina um contexto de documento relacionado:
 
-    - Para **Diário de faturas de clientes** , insira **Contexto de fatura de cliente**.
-    - Para **Fatura de projeto** , insira **Contexto de fatura de projeto**.
+    - Para **Diário de faturas de clientes**, insira **Contexto de fatura de cliente**.
+    - Para **Fatura de projeto**, insira **Contexto de fatura de projeto**.
 
 4. Selecione **Tipos de resposta** para configurar os tipos de resposta que podem ser retornados do complemento de faturamento eletrônico e incluídos em um diário de faturas de clientes ou em uma fatura de projeto.
-5. Selecione **Novo** e, no campo **Tipo de resposta** , selecione **Resposta**.
-6. No campo **Status de envio** , selecione **Pendente**.
-7. No campo **Mapeamento de modelos** , selecione **Formato de importação de mensagem de resposta – mapeamento de modelo da mensagem de resposta**.
+5. Selecione **Novo** e, no campo **Tipo de resposta**, selecione **Resposta**.
+6. No campo **Status de envio**, selecione **Pendente**.
+7. No campo **Mapeamento de modelos**, selecione **Formato de importação de mensagem de resposta – mapeamento de modelo da mensagem de resposta**.
 8. Selecione **Salvar**.
-9. Selecione **Novo** e, no campo **Tipo de resposta** , selecione **ResponseData**.
-10. No campo **Status de envio** , selecione **Pendente**.
-11. No campo **Mapeamento de modelos** , selecione **Formato de importação de dados de resposta de CFDI (detalhes) – importação dos dados de resposta**.
+9. Selecione **Novo** e, no campo **Tipo de resposta**, selecione **ResponseData**.
+10. No campo **Status de envio**, selecione **Pendente**.
+11. No campo **Mapeamento de modelos**, selecione **Formato de importação de dados de resposta de CFDI (detalhes) – importação dos dados de resposta**.
 12. Selecione **Salvar**.
 
 ## <a name="process-electronic-invoices-in-finance"></a>Processar faturas eletrônicas no Finance 
@@ -215,14 +215,14 @@ Durante o processamento de faturas de CFDI no Finance por meio do complemento do
 
 ### <a name="submit-cfdi-invoices"></a>Enviar faturas de CFDI
 
-Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , o processo **Exportar/Importar fatura eletrônica** ( **Contas a receber \> Faturas \> Faturas eletrônicas** ) para enviar faturas de CFDI não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
+Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, o processo **Exportar/Importar fatura eletrônica** (**Contas a receber \> Faturas \> Faturas eletrônicas**) para enviar faturas de CFDI não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
 
 > [!NOTE]
-> Antes de usar o novo processo **Enviar documentos eletrônicos** , verifique se a configuração necessária para faturas eletrônicas mexicanas foi concluída. Para obter mais informações, consulte [Layout do CFDI versão 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Antes de usar o novo processo **Enviar documentos eletrônicos**, verifique se a configuração necessária para faturas eletrônicas mexicanas foi concluída. Para obter mais informações, consulte [Layout do CFDI versão 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, sempre defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.
-3. Na Guia Rápida **Registros a serem incluídos** , selecione **Filtrar** para abrir a caixa de diálogo **Consulta** , na qual você pode criar uma consulta para selecionar documentos para envio.
+3. Na Guia Rápida **Registros a serem incluídos**, selecione **Filtrar** para abrir a caixa de diálogo **Consulta**, na qual você pode criar uma consulta para selecionar documentos para envio.
 
 ![Enviar um documento de CFDI](media/e-Invoicing-services-get-started-MEX-Submit-CFDI-document.png)
 
@@ -235,10 +235,10 @@ Você pode exibir os logs de envio para todos os documentos enviados ou apenas p
 
 #### <a name="view-all-submission-logs"></a>Exibir todos os logs de envio
 
-Depois que ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , uma nova página será disponibilizar que permitirá acompanhar o processo de envio do documento. Você pode usar esta página para exibir os logs de envio para todos os documentos enviados.
+Depois que ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, uma nova página será disponibilizar que permitirá acompanhar o processo de envio do documento. Você pode usar esta página para exibir os logs de envio para todos os documentos enviados.
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
-2. No campo **Tipo de documento** , selecione **Diário de faturas de clientes** para filtrar os documentos eletrônicos necessários.
+2. No campo **Tipo de documento**, selecione **Diário de faturas de clientes** para filtrar os documentos eletrônicos necessários.
 
     ![Selecionar um tipo de documento para exibir os logs de envio](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
 
@@ -256,23 +256,23 @@ Quando a fatura de CFDI enviada é autorizada, o status é atualizado para **Apr
 
 #### <a name="view-submission-logs-from-cfdi-invoices"></a>Exibir logs de envio de faturas de CFDI
 
-Depois que ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , você também poderá exibir os logs de envio de faturas de CFDI.
+Depois que ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, você também poderá exibir os logs de envio de faturas de CFDI.
 
 1. Vá para **Contas a receber \> Consultas e relatórios \> CFDI (faturas eletrônicas)**.
 2. Selecione uma fatura de CFDI que foi enviada após a ativação do recurso **Integração do complemento de faturamento eletrônico configurável**.
-3. No Painel de Ações, na guia **Histórico** , selecione **Registro de documento eletrônico**.
+3. No Painel de Ações, na guia **Histórico**, selecione **Registro de documento eletrônico**.
 
 ![Exibir logs de envio de faturas de CFDI](media/e-Invoicing-services-get-started-MEX-View-submission-log-from-CFDI-invoice.png)
 
 > [!NOTE]
-> Para faturas de CFDI enviadas antes da ativação do recurso **Integração de complemento de faturamento eletrônico configurável** , o botão **Histórico** está disponível. O botão **Histórico** não está disponível para faturas de CFDI enviadas após a ativação do recurso **Integração de complemento de faturamento eletrônico configurável**.
+> Para faturas de CFDI enviadas antes da ativação do recurso **Integração de complemento de faturamento eletrônico configurável**, o botão **Histórico** está disponível. O botão **Histórico** não está disponível para faturas de CFDI enviadas após a ativação do recurso **Integração de complemento de faturamento eletrônico configurável**.
 
 ### <a name="submit-cancellation-of-cfdi-invoices"></a>Enviar cancelamento de faturas de CFDI
 
-Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável** , o processo antigo de cancelamento de faturas de CFDI não poderá mais ser usado. Ele é substituído por um novo processo de cancelamento incorporado na página **Registro de envio de documentos eletrônicos**.
+Depois que você ativar o recurso **Integração do complemento de faturamento eletrônico configurável**, o processo antigo de cancelamento de faturas de CFDI não poderá mais ser usado. Ele é substituído por um novo processo de cancelamento incorporado na página **Registro de envio de documentos eletrônicos**.
 
 1. Vá para **Contas a receber \> Consultas e relatórios \> CFDI (faturas eletrônicas)**.
-2. Se a fatura de CFDI tiver um status **Aprovado** , selecione **Funções \> Cancelar CFDI**.
+2. Se a fatura de CFDI tiver um status **Aprovado**, selecione **Funções \> Cancelar CFDI**.
 3. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
 4. Selecione a fatura de CFDI e selecione **Funções \> Enviar envios relacionados**.
 5. Insira uma descrição do envio relacionado e selecione **OK**.
@@ -280,7 +280,7 @@ Depois que você ativar o recurso **Integração do complemento de faturamento e
 #### <a name="view-cancellation-submission-logs"></a>Exibir logs de envio de cancelamento
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
-2. No campo **Tipo de documento** , selecione **Diário de faturas de clientes** para filtrar apenas por documentos do diário de faturas do cliente.
+2. No campo **Tipo de documento**, selecione **Diário de faturas de clientes** para filtrar apenas por documentos do diário de faturas do cliente.
 3. Selecione a fatura de CFDI e, no Painel de Ações, selecione **Consultas \> Envio relacionado**.
 
     A página **Envios relacionados** mostra todas os envios relacionados e o status do envio de determinada fatura de CFDI. Na ilustração a seguir, a primeira linha representa o envio que solicitou aprovação da fatura de CFDI. A segunda linha representa o envio que cancelou essa fatura de CFDI.
@@ -292,7 +292,7 @@ Depois que você ativar o recurso **Integração do complemento de faturamento e
     ![Exibir os detalhes do log de envio de cancelamento](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
-Habilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI) pode exigir o envio de dados limitados, que inclui a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI) navegando para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**. Selecione a guia **Recursos** , selecione as linhas que contêm os recursos MX-00010 e MX-00016 e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
+Habilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI) pode exigir o envio de dados limitados, que inclui a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI) navegando para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**. Selecione a guia **Recursos**, selecione as linhas que contêm os recursos MX-00010 e MX-00016 e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

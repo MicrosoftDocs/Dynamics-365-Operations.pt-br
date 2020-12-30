@@ -16,17 +16,17 @@ ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1c676de9c5df78c788d5ed91bbe8d17bd8a2f969
-ms.sourcegitcommit: 47166b3e10097cc2754e0c8459f62dcdeef27053
+ms.openlocfilehash: 0757821a954eb4571fdb6bda4aa0d30bd6fe4a9d
+ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/12/2020
-ms.locfileid: "3991441"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4665212"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
 [!include[banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
+
 
 Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico para o Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil (no escopo da [Localização Brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy)).
 

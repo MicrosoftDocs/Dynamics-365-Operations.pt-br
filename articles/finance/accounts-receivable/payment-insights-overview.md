@@ -1,6 +1,6 @@
 ---
 title: Insights de pagamento de cliente (Visualização)
-description: Este tópico descreve o recurso de insights de pagamento que ajuda a melhorar a compreensão das práticas típicas de pagamento dos clientes específicos e pode identificar condições que justifiquem iniciar processos de cobrança mais cedo do que você fazia.
+description: Este tópico descreve o recurso de insights de pagamento que ajuda a melhorar a compreensão das práticas de pagamento típicas de clientes individuais. O recurso pode ajudá-lo a identificar as circunstâncias que justificam o início de processos de cobrança antes que você tenha feito o contrário.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 11/06/2019
@@ -18,23 +18,23 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: f9f1e4ae4270380c88069723e768fd44ecf8c113
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f151942555ac503338f0fd44aa8779e3c2970fb1
+ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2773898"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4644624"
 ---
 # <a name="customer-payment-insights-preview"></a>Insights de pagamento de cliente (Visualização)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico descreve o recurso de insights de pagamento que ajuda a melhorar a compreensão das práticas típicas de pagamento dos clientes específicos e que pode identificar condições que justifiquem iniciar processos de cobrança mais cedo do que talvez você fizesse. 
+Este tópico descreve o recurso de insights de pagamento que ajuda a melhorar a compreensão das práticas de pagamento típicas de clientes individuais. O recurso pode ajudá-lo a identificar as circunstâncias que justificam o início de processos de cobrança antes que você tenha feito o contrário. 
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
-As organizações geralmente acham difícil prever quando os clientes pagarão suas faturas. A falta de insight resulta em previsões de fluxo de caixa menos precisas, processos de cobrança que começam muito tarde e ordens liberadas para clientes que podem não cumprir seus pagamentos. O Insights de pagamento de cliente (versão prévia) ajuda as organizações a prever quando uma fatura de cliente será paga, ajudando a organização a criar estratégias de cobrança que aumentam a probabilidade de pagamento no prazo. 
+Pode ser difícil prever quando os clientes pagarão suas faturas. A falta de insight resulta em previsões de fluxo de caixa menos precisas, processos de cobrança que começam muito tarde e ordens liberadas para clientes que podem não cumprir seus pagamentos. Insights de pagamento de cliente (versão preliminar) ajudam as organizações a prever quando uma fatura de cliente será paga. Essas informações podem ajudar as organizações a criar estratégias de cobranças que aumentem a probabilidade de serem pagas no prazo. 
 
 ## <a name="predictions"></a>Previsões
 
@@ -42,13 +42,13 @@ As previsões de pagamento permitirão que as organizações melhorem seus proce
 
 Usando um modelo de aprendizado de máquina, que aproveita as faturas históricas, os pagamentos e os dados do cliente, o Insights de pagamento de cliente (versão prévia) prevê com maior precisão quando um cliente pagará uma fatura pendente.
 
-Para cada fatura em aberto, o Insights de pagamento de cliente (versão prévia) prevê três probabilidades de pagamento:
+Para cada fatura em aberto, o Insights de pagamento de cliente (versão preliminar) pode prever três probabilidades de pagamento:
 
 -   Probabilidade de o pagamento ser feito no prazo 
 -   Probabilidade de o pagamento ser feito com atraso
 -   Probabilidade de o pagamento ser feito com muito atraso
 
-Para ajudar as Organizações a entender o valor total de pagamento que elas podem esperar de um cliente em um dos três buckets, No prazo, Atrasado e Muito atrasado, o Insights de pagamento de cliente (versão prévia) também oferece uma exibição agregada de pagamentos esperados.
+Insights de pagamento de cliente (versão preliminar) também fornece uma exibição agregada dos pagamentos esperados, o que pode ajudar as organizações a compreender o valor total do pagamento que podem esperar de um cliente em um dos três buckets, No prazo, Atrasado e Muito atrasado.
 
 [![Exibição agregada de previsões de pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
@@ -66,7 +66,7 @@ O desenvolvimento e a implantação de uma solução de IA são difíceis. É ne
 
 ## <a name="how-to-get-customer-payment-insights-preview"></a>Como obter o Insights de pagamento de cliente (versão prévia)
 
-Envie um email para [Insights de pagamento de cliente (versão prévia)](mailto:fiap@microsoft.com) se estiver interessado em experimentar o Insights de pagamento de cliente (versão prévia).
+Envie um email para [Insights de pagamento de cliente (versão preliminar)](mailto:fiap@microsoft.com) se estiver interessado em experimentar o Insights de pagamento de cliente (versão preliminar).
 
 ## <a name="privacy-notice"></a>Aviso de Privacidade
 

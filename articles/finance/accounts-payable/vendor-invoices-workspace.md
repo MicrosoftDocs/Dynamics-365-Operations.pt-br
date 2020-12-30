@@ -18,11 +18,11 @@ ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
 ms.openlocfilehash: a4ba676d9b6df69cf0a91862bcc4d2837b7cb69e
-ms.sourcegitcommit: afc43699c0edc4ff2be310cb37add2ab586b64c0
+ms.sourcegitcommit: 0efa93f11847a2b75d13cd0a49e716c76130ec44
 ms.translationtype: HT
 ms.contentlocale: pt-BR
 ms.lasthandoff: 10/14/2020
-ms.locfileid: "4000786"
+ms.locfileid: "4440510"
 ---
 # <a name="vendor-invoice-entry-workspace"></a>Workspace de entrada de fatura de fornecedor
 
@@ -39,7 +39,7 @@ O workspace **Entrada de fatura de fornecedor** mostra informações relacionada
 
 Você deve concluir essa configuração antes que os dados possam ser mostrado em visualizações do Power BI no workspace **Entrada de fatura de fornecedor**.
 
-1. No workspace **Gerenciamento de recursos** , filtre a lista para localizar o recurso **Automação de fatura de fornecedor**.
+1. No workspace **Gerenciamento de recursos**, filtre a lista para localizar o recurso **Automação de fatura de fornecedor**.
 3. Selecione **Habilitar agora**.
 4. Para garantir que as faturas possam ser processadas do início ao fim sem exigir intervenção manual, configure um fluxo de trabalho de fatura de fornecedor. Para configurar um fluxo de trabalho, vá **Contas apagar \> Configurar \> Fluxos de trabalho de contas a pagar**.
 5. Acesse **Contas a pagar \> Configurar \> Parâmetros de contas a pagar** e selecione a guia **Automação de fatura de fornecedor**. Para obter mais informações, consulte [Configurar opções para automação de fatura de fornecedor](vnd-invoice-set-up-options.md).
@@ -57,7 +57,7 @@ Para exibir as informações mostradas no workspace, você deve ter a função d
 
 ### <a name="company-selection"></a>Seleção da empresa
 
-Quando o recurso **Automatizar faturas de fornecedor** é ativado, um campo **Empresa** aparece na parte superior do workspace. A seleção no campo **Empresa** afeta todas as informações exibidas no workspace. Por padrão, o modo de exibição mostra informações da empresa na qual você fez login. Ao selecionar uma empresa diferente no campo **Empresa** , você poderá mostrar informações daquela empresa no workspace. Em seguida, você poderá selecionar um bloco no workspace para ir para a página relacionada na empresa selecionada.
+Quando o recurso **Automatizar faturas de fornecedor** é ativado, um campo **Empresa** aparece na parte superior do workspace. A seleção no campo **Empresa** afeta todas as informações exibidas no workspace. Por padrão, o modo de exibição mostra informações da empresa na qual você fez login. Ao selecionar uma empresa diferente no campo **Empresa**, você poderá mostrar informações daquela empresa no workspace. Em seguida, você poderá selecionar um bloco no workspace para ir para a página relacionada na empresa selecionada.
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
@@ -70,9 +70,9 @@ Os blocos na seção **Resumo de faturas pendentes** do modo de exibição **Meu
 
 (Esses quatro blocos exigem que o recurso Automação de fatura de fornecedor seja ativado no Gerenciamento de recursos.)
 
-Para usar o bloco **Recuperar faturas de fornecedor** , o recurso deve estar ativado nos Parâmetros de contas a pagar. Acesse **Contas a pagar \> Parâmetros de contas a pagar** e na guia **Fatura** , defina a opção **Permitir recuperação de fatura de fornecedor** como **Sim**.
+Para usar o bloco **Recuperar faturas de fornecedor**, o recurso deve estar ativado nos Parâmetros de contas a pagar. Acesse **Contas a pagar \> Parâmetros de contas a pagar** e na guia **Fatura**, defina a opção **Permitir recuperação de fatura de fornecedor** como **Sim**.
 
-Quando o recurso estiver ativado, você também terá três blocos agrupados no workspace em uma seção chamada **Diários**. Os blocos são denominados **Diários** , **Diários - Atribuídos a mim** e **Grupo de faturas**. 
+Quando o recurso estiver ativado, você também terá três blocos agrupados no workspace em uma seção chamada **Diários**. Os blocos são denominados **Diários**, **Diários - Atribuídos a mim** e **Grupo de faturas**. 
 
 As informações na seção **Resumo de faturas pendentes** é para a empresa definida como a empresa padrão à qual você se conecta.
 
@@ -86,7 +86,7 @@ Para criar um novo registro de fatura, selecione **Novo** e, em seguida, selecio
 - Registro de fatura
 - Aprovação da fatura
 
-Observe que o registro criado se baseia no filtro da empresa, não na empresa na qual você está conectado. Por exemplo, você está conectado à empresa **UMSF** , mas o filtro da empresa está definido como **GBSI**. Nesse caso, quando você seleciona **Novo** e seleciona um tipo de registro na lista, o registro é criado na empresa GBSI.
+Observe que o registro criado se baseia no filtro da empresa, não na empresa na qual você está conectado. Por exemplo, você está conectado à empresa **UMSF**, mas o filtro da empresa está definido como **GBSI**. Nesse caso, quando você seleciona **Novo** e seleciona um tipo de registro na lista, o registro é criado na empresa GBSI.
 
 ### <a name="documents-not-invoiced-grids"></a>Grades de documentos não faturados
 
@@ -98,15 +98,15 @@ A grade **Recebimentos de produto** mostra transações de recebimento de produt
 
 A grade **Faturas de fornecedores pendentes** mostra todas as faturas de fornecedor que não foram enviadas ao sistema de fluxo de trabalho. Você pode usar o campo **Pesquisar** e/ou o filtro da empresa para procurar uma fatura de fornecedor específica. Você pode usar o botão **Editar** para editar uma transação que apareça na grade.
 
-Na grade **Localizar ordem de compra** , você pode usar o campo **Pesquisar** para procurar uma ordem de compra específica.
+Na grade **Localizar ordem de compra**, você pode usar o campo **Pesquisar** para procurar uma ordem de compra específica.
 
 ### <a name="related-information"></a>Informações Relacionadas
 
-Você pode exibir informações sobre faturas lançadas usando os links no lado direito do workspace. Esses links incluem **Faturas de fornecedor em aberto** , **Diário de faturas** e **Detalhes de histórico e conciliação de faturas**. Na seção **Fornecedores** , você pode acessar uma lista filtrada que mostra todos os fornecedores que estão em espera ou pode usar o link **Todos os fornecedores**. Os links **Todas as ordens de compra** e **Pagamentos antecipados em aberto** também estão disponíveis.
+Você pode exibir informações sobre faturas lançadas usando os links no lado direito do workspace. Esses links incluem **Faturas de fornecedor em aberto**, **Diário de faturas** e **Detalhes de histórico e conciliação de faturas**. Na seção **Fornecedores**, você pode acessar uma lista filtrada que mostra todos os fornecedores que estão em espera ou pode usar o link **Todos os fornecedores**. Os links **Todas as ordens de compra** e **Pagamentos antecipados em aberto** também estão disponíveis.
 
 ### <a name="analytics--all-companies-page"></a>Página Análise – Todas as empresas
 
-Quando a opção **Enviar automaticamente faturas importadas para o fluxo de trabalho** está definida como **Sim** na página **Parâmetros de contas a pagar** , você pode ver as análises de automação. A página **Análise – Todas as empresas** fornece métricas importantes, como faturas de fornecedor que estão sendo aprovadas por aprovador e por empresa. Essa página contém cinco páginas de relatório. Uma página fornece uma visão geral, e as outras páginas fornecem detalhes sobre métricas de Automação de contas a pagar.
+Quando a opção **Enviar automaticamente faturas importadas para o fluxo de trabalho** está definida como **Sim** na página **Parâmetros de contas a pagar**, você pode ver as análises de automação. A página **Análise – Todas as empresas** fornece métricas importantes, como faturas de fornecedor que estão sendo aprovadas por aprovador e por empresa. Essa página contém cinco páginas de relatório. Uma página fornece uma visão geral, e as outras páginas fornecem detalhes sobre métricas de Automação de contas a pagar.
 
 A tabela a seguir mostra as visualizações disponíveis em cada página de relatório.
 

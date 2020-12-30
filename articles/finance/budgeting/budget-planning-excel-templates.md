@@ -19,11 +19,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 471c719a8e6de0ebe6fcdad0ae222453db841c87
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772090"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440477"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
@@ -67,7 +67,7 @@ Na guia **Design**, clique nos campos **Adicionar** e, em seguida, selecione **B
 
 Aponte o cursor para o local desejado no arquivo do Excel. Clique em **Adicionar etiqueta** para adicionar a etiqueta do campo ao local selecionado. Selecione **Adicionar Valor** para adicionar o campo de valor ao local selecionado. Clique em **Concluído** para fechar o designer.
 
-## <a name="select-add-valuemediabpt7pngmediabpt7png"></a>[![Selecione Adicionar Valor](./media/bpt7.png)](./media/bpt7.png)
+## <a name="select-add-valuemediabpt7png"></a>[![Selecione Adicionar Valor](./media/bpt7.png)](./media/bpt7.png)
 
 <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Adicionar uma coluna calculada à tabela do modelo de documento de plano de orçamento
 --------------------------------------------------------------
@@ -83,7 +83,7 @@ O grupo de campos selecionado exibe a coluna que está disponível no modelo. Cl
 [![Adicione e insira a coluna](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela vinculada do Finance and Operations geralmente será nomeada como "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
+> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela limitada do Finance and Operations normalmente será denominada "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
 
 Repita essas etapas para inserir a coluna **Ajuste**. Use a fórmula = AxTable1\[Total da solicitações\]\*$I$1 para essa coluna. Isso usará o valor na célula I1 e multiplicará os valores na coluna **Total de solicitações** para calcular os valores de ajuste.
 
@@ -120,7 +120,7 @@ Recomendamos o bloqueio do modelo para impedir que usuários o fechem. Para ativ
 
 Clique na seta para obter um menu adicional. Selecione **Bloqueio**.
 
-### <a name="select-lockmediabpt16-1024x614pngmediabpt16png"></a>[![Selecione Bloqueio](./media/bpt16-1024x614.png)](./media/bpt16.png)
+### <a name="select-lockmediabpt16png"></a>[![Selecione Bloqueio](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
 ### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>Posso usar outros recursos do Excel, como formatação de células, formatação condicional e gráficos com meus modelos de plano de orçamento?
 
