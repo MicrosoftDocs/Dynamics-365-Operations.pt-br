@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 396332e20f2d66ff682f2545afaf6dcecabb58a8
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979057"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408435"
 ---
 # <a name="set-up-create-and-manage-absorption-costs"></a>Configurar, criar e gerenciar custos de absorção 
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a71d0931445f3501f1b74f26c5eef583ab598b3c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188892"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440248"
 ---
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final posterior à data do desconto
 
@@ -98,7 +98,7 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 | Desconto à vista obtido          | 3,00      |
 | Valor do desconto à vista a ser obtido | 7:00      |
 
-Arnie altera o valor no campo**Usar desconto à vista** novamente para **Normal**, porque não permitirá que o cliente obtenha o desconto restante de 7,00. Então, Arnie lança o pagamento. Quando Arnie abre a página**Transações do cliente**, ele vê que a fatura tem um saldo de 0,00. Ele também vê que há dois pagamentos. Um pagamento é de 297,00 e tem um desconto à vista de 3,00, e o outro pagamento é de 700,00.
+Arnie altera o valor no campo **Usar desconto à vista** novamente para **Normal**, porque não permitirá que o cliente obtenha o desconto restante de 7,00. Então, Arnie lança o pagamento. Quando Arnie abre a página **Transações do cliente**, ele vê que a fatura tem um saldo de 0,00. Ele também vê que há dois pagamentos. Um pagamento é de 297,00 e tem um desconto à vista de 3,00, e o outro pagamento é de 700,00.
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

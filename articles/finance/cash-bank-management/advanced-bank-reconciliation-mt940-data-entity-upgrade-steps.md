@@ -18,11 +18,11 @@ ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 65970cdac114b72363d2fbbc08766c99ace00b88
-ms.sourcegitcommit: 74b10104338222a945684d841d60ab4b8e570168
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3899364"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440291"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importação MT940 de reconciliação bancária avançada – Atualização de entidade de dados composta
 
@@ -55,7 +55,7 @@ Siga as etapas abaixo para adicionar a entidade de extrato bancário para oferec
             3.  Baixar arquivo de dados = nova versão de SampleBankCompositeEntity.xml.
             4.  Clique em **Sim** para substituir o arquivo existente.
             5.  Clique em **Sim** para gerar um novo mapeamento.
-            6.  Verifique se S**equenceNumber** está mapeado.
+            6.  Verifique se S **equenceNumber** está mapeado.
                 -   Clique **Mapa de exibição** sobre a entidade do extrato.
                 -   Verifique se **SequenceNumber** está mapeado de origem para se preparar.
 

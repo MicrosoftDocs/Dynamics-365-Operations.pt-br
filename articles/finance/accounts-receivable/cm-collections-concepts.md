@@ -16,11 +16,11 @@ ms.author: kweekley
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8bee320beb411a5ee0829a0e3170de0c7f293172
-ms.sourcegitcommit: 1d5a4f70a931e78b06811add97c1962e8d93689b
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "3124222"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440317"
 ---
 # <a name="collections-management-key-concepts"></a>Principais conceitos de gerenciamento de cobranças
 

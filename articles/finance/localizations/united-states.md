@@ -17,11 +17,11 @@ ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c09dd5eff5e97a56465c0e70958dbf726d8a1e01
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3984648"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408490"
 ---
 # <a name="united-states"></a>Estados Unidos 
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 923ab0305ac75c1156984c7a6d051f036479a16d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176480"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440195"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidar um pagamento parcial de fornecedor com descontos em notas de crédito de fornecedor
 
@@ -58,7 +58,7 @@ Alice clica em **Lançar**. Ela então analisa a liquidação concluída. Alice 
 | Selecionado e destacado | Normal            | Inv-10070 | 3050    | 29/6/2015 | 29/7/2015 | 10070    | -1.000,00                      | USD      | -200,00          |
 | Selecionado                 | Normal            | CR-10070  | 3050    | 2/7/2015  | 29/7/2015 | CR-10070 | 200,00                         | USD      | 198,00           |
 
-Alice pode examinar as transações de fornecedor na página **Transações de fornecedor** ao selecionar um fornecedor na página **Todos os fornecedores**e, no Painel de Ação, clique em **Transações**. Nessa página, Alice vê que a fatura tem um saldo de -800,00. Ela também vê uma nota de crédito de 198,00 e um desconto de 2,00.
+Alice pode examinar as transações de fornecedor na página **Transações de fornecedor** ao selecionar um fornecedor na página **Todos os fornecedores** e, no Painel de Ação, clique em **Transações**. Nessa página, Alice vê que a fatura tem um saldo de -800,00. Ela também vê uma nota de crédito de 198,00 e um desconto de 2,00.
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

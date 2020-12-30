@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36144474defc4849a112a180247f37796de00a27
-ms.sourcegitcommit: 1eaa3451275fe4223d4d25b37aaa1cd2b183e803
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "2667451"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440362"
 ---
 # <a name="budgeting-overview"></a>Visão geral de orçamento 
 

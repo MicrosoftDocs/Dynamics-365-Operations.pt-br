@@ -19,11 +19,11 @@ ms.author: roschlom
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
 ms.openlocfilehash: 371cc2efa64916698da8e4230825c3c949920698
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3975235"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440290"
 ---
 # <a name="dispose-of-a-fixed-asset-as-scrap"></a>Descartar um ativo fixo como sucata
 

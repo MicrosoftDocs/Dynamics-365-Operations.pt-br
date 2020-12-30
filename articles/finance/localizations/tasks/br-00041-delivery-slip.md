@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3496fd5a4d909ab52836c6c084248eb3a4df3159
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143498"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408482"
 ---
 # <a name="delivery-slips-brazil"></a>Guias de entrega (Brasil)
 

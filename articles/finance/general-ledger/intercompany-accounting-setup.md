@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7c3bca9d0a7c37716f2334b36d8a948908f52293
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176367"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440401"
 ---
 # <a name="intercompany-accounting-setup"></a>Configuração de contabilidade intercompanhia
 
@@ -42,7 +42,7 @@ Em seguida, você deve definir um nome do diário. Defina o campo **Tipo de diá
 ## <a name="define-intercompany-accounting-setup"></a>Definição de configuração de contabilidade intercompanhia
 A página **Contabilidade intercompanhia** é usada para criar os pares de entidades legais que podem realizar transações entre si. A configuração de contabilidade intercompanhia for compartilhada, para que a configuração fique visível em de todas as entidades legais. Ao criar um novo par de entidade legal, certifique-se de qual entidade legal é definida como empresa de origem e empresa de destino. Ao inserir transações intercompanhia, a transação determina qual entidade legal está iniciando ou originando a transação. Por exemplo, a contabilidade intercompanhia é configurada para USMF (origem) e USSI (destino). Se um usuário estiver ativo no USSI e inserir uma transação intercompanhia com USMF, a transação não será lançada porque a contabilidade intercompanhia somente é definida para USMF sendo o originador. Se uma empresa puder originar uma transação, será preciso criar um segundo par de entidade legal da instalação recíproca. 
 
-Selecione a **Conta de débito (Devido por)** e **Conta de crédito (Devido para** para a entidade legal de origem e de destino. Defina qual **Nome de diário** será usado quando a transação for criada na empresa de destino. O diário da empresa de origem é conhecido, pois foi selecionado pelo usuário ao criar a transação intercompanhia. 
+Selecione a **Conta de débito (Devido por)** e **Conta de crédito (Devido para)** para a entidade legal de origem e de destino. Defina qual **Nome de diário** será usado quando a transação for criada na empresa de destino. O diário da empresa de origem é conhecido, pois foi selecionado pelo usuário ao criar a transação intercompanhia. 
 
 Por fim, selecione qual entidade legal receberá os valores contábeis para suporte, como o desconto à vista ou ganhos/perdas realizados para pagamentos centralizados. 
 

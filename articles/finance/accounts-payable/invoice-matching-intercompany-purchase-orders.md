@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: aaa4a08f65e4a3452782cf2b928464dff27ed59b
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2189651"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440179"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliação de faturas e ordens de compra intercompanhia
 

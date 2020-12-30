@@ -16,11 +16,11 @@ ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
 ms.openlocfilehash: f986fb232f1aee3a5c4ce7876739d211afc567eb
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3979055"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408431"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 

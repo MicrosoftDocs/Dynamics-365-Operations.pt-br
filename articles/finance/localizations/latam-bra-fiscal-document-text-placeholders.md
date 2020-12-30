@@ -17,11 +17,11 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f01352cdc63ff94761532c14fb8cdedd44f8632e
-ms.sourcegitcommit: 9ab68a85d0e842bf641e8c30eaddb201652084de
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "3695760"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4408454"
 ---
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 

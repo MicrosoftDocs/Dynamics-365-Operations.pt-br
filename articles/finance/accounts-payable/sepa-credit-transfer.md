@@ -19,11 +19,11 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f0fc01508bd206f750a4101521cd9dff7b647656
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176483"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440300"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
 
@@ -91,7 +91,7 @@ A lista de parâmetros específicos depende do formato de transferência de cré
 <td>Formato</td>
 <td>Selecione o formato das informações de remessa, dependendo das necessidades do país/região ou banco:
 <ul>
-<li><strong>Strd</strong> – Selecione esta opção para usar o formato estruturado quando uma linha de pagamento é liquidada com uma fatura. Esta opção não estará disponível para os formatos de exportação específicos de país/região para França, Alemanha ou Holanda.</li>
+<li><strong>Strd</strong> – Selecione esta opção para usar o formato estruturado quando uma linha de pagamento é liquidada com uma fatura. Esta opção não estará disponível para os formatos de exportação específicos de país/região para França, Alemanha ou "Países Baixos" Netherlands.</li>
 <li><strong>Ustrd</strong> – Selecione esta opção para usar o formato não estruturado quando o pagamento for liquidado com diversas faturas. Os números de fatura para as faturas liquidadas são concatenados e usados como informação de remessa. Em conformidade com diretrizes de ISO 20022, as informações de remessa não estruturada são limitadas a 140 caracteres.</li>
 </ul></td>
 </tr>

@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7b7b9b240156263b4dc1bc308a7f4457380a27f3
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2176392"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440383"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Depreciação de vida útil linear
 
@@ -102,7 +102,7 @@ A vida útil do ajuste de aquisição é igual a do ativo fixo e começa no mome
 | Ano 5 | 14.000 / 5 = 2.800                        | 4.600 - 2.800 = 1.800                 |
 | Ano 6 | Restante 800\*                           | 1.800 – 800 = 1.000                   |
 
-\**Como o valor restante é menor que o valor de depreciação, somente o valor restante menos o valor residual será obtido.
+\*Como o valor restante é menor que o valor de depreciação, somente o valor restante menos o valor residual será obtido.
 
 
 

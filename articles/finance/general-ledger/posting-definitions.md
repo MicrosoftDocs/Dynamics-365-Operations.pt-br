@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 22a7b0acae02738e4f14905edb13fac1da0d0213
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2770588"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440374"
 ---
 # <a name="posting-definitions"></a>Definições de lançamento
 
@@ -32,7 +32,7 @@ ms.locfileid: "2770588"
 Este artigo fornece informações sobre definições de lançamento, e como definir e vinculá-las.
 Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis. Você pode exibir os documentos e os tipos de lançamento com suporte na página **Definições de lançamento de transação**. 
 
-Para começar a usar definições de lançamento, selecione a opção**Usar definições de lançamento** na página **Parâmetros de contabilidade**. Mesmo quando você usa definições de lançamento, ainda deve definir perfis de lançamento para as entradas de origem e os tipos de lançamento e os documentos sem suporte. 
+Para começar a usar definições de lançamento, selecione a opção **Usar definições de lançamento** na página **Parâmetros de contabilidade**. Mesmo quando você usa definições de lançamento, ainda deve definir perfis de lançamento para as entradas de origem e os tipos de lançamento e os documentos sem suporte. 
 
 Você deve usar definições de lançamento para habilitar a contabilidade de ônus para ordens de compra e a contabilidade de pré-ônus para requisições de compra.
 

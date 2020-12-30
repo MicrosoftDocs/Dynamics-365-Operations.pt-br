@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6f08750c369475f9d8be3c723aaf4eb6cf36eb7c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2187259"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440288"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opções de transação de ativo fixo
 
@@ -40,7 +40,7 @@ Você pode inserir transações de ativos fixos na página Comprovante de diári
 Você pode inserir transações de ativos fixos na página Fatura de texto livre.  Na página Fatura de texto livre, na grade de linhas Fatura, selecione um item de linha. Clique a Guia Rápida Detalhes da linha. Insira o número do ativo fixo e o registro para a transação de alienação. Na fatura de texto livre, o tipo de transação de ativo fixo é sempre Descarte - venda.
 
 ## <a name="procurement-and-sourcing"></a>Compras
-Você pode inserir transações de ativos fixos na página Ordem de compra. ) Insira as informações necessárias para criar uma ordem de compra, clique em e em OK. Na página Ordem de compra, clique na Guia Rápida Detalhes da linha. Em, no guia Ativos fixos, insira as informações sobre o ativo fixo. 
+Você pode inserir transações de ativos fixos na página Ordem de compra. Insira as informações necessárias para criar uma ordem de compra, clique em e em OK. Na página Ordem de compra, clique na Guia Rápida Detalhes da linha. Em, no guia Ativos fixos, insira as informações sobre o ativo fixo. 
 
 Para lançar uma transação de aquisição para um ativo fixo existente o ativo, especifique o número do ativo fixo, se o registro, e o tipo de transação. O ativo fixo não pode ser lançado se algumas informações está ausente. Para lançar uma transação de aquisição para um novo ativo fixo, selecione a opção Novo ativo fixo? e, em seguida, selecione o grupo de ativos fixos ao qual o novo ativo será atribuído. Nenhum dos campos de ativos fixos para uma linha estará disponível se o item estiver em um grupo de modelos de estoque que usa um modelo de estoque de custo padrão. Além disso, as opções definidas na página Parâmetros de ativos fixos determinam se você poderá lançar transações de aquisição os módulos de compra. 
 

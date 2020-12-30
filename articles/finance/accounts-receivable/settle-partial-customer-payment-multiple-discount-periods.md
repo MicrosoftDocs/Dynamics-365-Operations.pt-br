@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6f4d5178aeb3294fd3b40815bb294a7f2ff08b71
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2188915"
+ms.lasthandoff: 10/13/2020
+ms.locfileid: "4440247"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de cliente com vários períodos de desconto
 
@@ -42,7 +42,7 @@ Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 403
 | 9/7/2015           | 10.00                | 990,00                         |
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
-Alberto pode exibir esta transação na página**Transações do cliente**.
+Alberto pode exibir esta transação na página **Transações do cliente**.
 
 | Comprovante   | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo  | Moeda |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -55,7 +55,7 @@ Em 28 de junho, o Cliente 4031 faz um pagamento parcial de 294,00. Como 28 de ju
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | Selecionada | Normal            | FTI-10030 | 4031    | 25/6/2015 | 25/7/2015 | 10030   | 1.000,00                       | USD      | 294,00           |
 
-As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. Se você não alterar o valor da opção **Valor para liquidar** para **294,00**, os valores da opção **Valor de desconto à vista** que aparecem serão diferentes. No entanto, 6,00 serão obtidos como o desconto à vista quando o pagamento for lançado, pois a liquidação é ajustada automaticamente ao **Valor para liquidar**para você.
+As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. Se você não alterar o valor da opção **Valor para liquidar** para **294,00**, os valores da opção **Valor de desconto à vista** que aparecem serão diferentes. No entanto, 6,00 serão obtidos como o desconto à vista quando o pagamento for lançado, pois a liquidação é ajustada automaticamente ao **Valor para liquidar** para você.
 
 |                              |           |
 |------------------------------|-----------|
