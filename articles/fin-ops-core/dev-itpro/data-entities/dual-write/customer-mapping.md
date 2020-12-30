@@ -1,6 +1,6 @@
 ---
 title: Cliente mestre integrado
-description: Este tópico descreve a integração de dados de cliente entre o Finance and Operations e o Common Data Service.
+description: Este tópico descreve a integração de dados de cliente entre o Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,19 +18,21 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 36716c302d86bc5715798bf4cf4899f666d0872c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 801538e320ca78b0cc55bb4e4b8a80d38b9b48d6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997445"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685630"
 ---
 # <a name="integrated-customer-master"></a>Cliente mestre integrado
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365. Por exemplo, um registro de cliente pode se originar durante a atividade de vendas no Dynamics 365 Sales (um aplicativo baseado em modelo no Dynamics 365) ou um registro pode se originar por meio da atividade de varejo no Dynamics 365 Commerce (um aplicativo Finance and Operations). Não importa onde os dados do cliente se originam, eles são integrados em segundo plano. O cliente mestre integrado oferece a flexibilidade para os dados principais do cliente em qualquer aplicativo Dynamics 365 e fornece uma visão abrangente do cliente no pacote de aplicativos do Dynamics 365.
+
+Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365. Por exemplo, uma linha de cliente pode se originar durante a atividade de vendas no Dynamics 365 Sales (um aplicativo baseado em modelo no Dynamics 365) ou uma linha pode se originar por meio da atividade de varejo no Dynamics 365 Commerce (um aplicativo Finance and Operations). Não importa onde os dados do cliente se originam, eles são integrados em segundo plano. O cliente mestre integrado oferece a flexibilidade para os dados principais do cliente em qualquer aplicativo Dynamics 365 e fornece uma visão abrangente do cliente no pacote de aplicativos do Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Fluxo de dados do cliente
 
@@ -38,17 +40,17 @@ Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365
 
 ![Fluxo de dados do cliente](media/dual-write-customer-data-flow.png)
 
-Os clientes podem ser classificados amplamente em dois tipos: clientes comerciais/organizacionais e clientes/usuários finais. Esses dois tipos de cliente são armazenados e processados de maneiras diferentes no Finance and Operations e no Common Data Service.
+Os clientes podem ser classificados amplamente em dois tipos: clientes comerciais/organizacionais e clientes/usuários finais. Esses dois tipos de cliente são armazenados e processados de maneiras diferentes no Finance and Operations e no Dataverse.
 
-No Finance and Operations, os clientes comerciais/organizacionais e os consumidores/usuários finais são dominados em uma única tabela chamada **CustTable** (CustCustomerV3Entity) e classificados com base no atributo **Tipo**. (Se **Tipo** estiver definido como **Organização** , o cliente será um cliente comercial/organizacional. Se **Tipo** estiver definido como **Pessoa** , o cliente terá um cliente/usuário final.) As informações da pessoa de contato principal é manipulada através da entidade SMMContactPersonEntity.
+No Finance and Operations, os clientes comerciais/organizacionais e os consumidores/usuários finais são dominados em uma única tabela chamada **CustTable** (CustCustomerV3Entity) e classificados com base no atributo **Tipo**. (Se **Tipo** estiver definido como **Organização**, o cliente será um cliente comercial/organizacional. Se **Tipo** estiver definido como **Pessoa**, o cliente terá um cliente/usuário final.) As informações da pessoa de contato principal é manipulada através da entidade SMMContactPersonEntity.
 
-No Common Data Service, clientes comerciais/organizacionais são dominados na entidade Conta e identificados como clientes quando o atributo **RelationshipType** é definido como **Cliente**. Os clientes/usuários finais e a pessoa de contato são representados pela entidade Contato. Para fornecer uma separação clara entre um consumidor/usuário final e uma pessoa de contato, a entidade **Contato** tem um sinalizador booliano denominado **Comercializável**. Quando **Comercializável** for **Verdadeiro** , o contato será um cliente/usuário final; as cotações e ordens podem ser criadas para esse contato. Quando **Comercializável** for **Falso** , o contato será apenas uma pessoa de contato principal de um cliente.
+No Dataverse, clientes comerciais/organizacionais são dominados na entidade Conta e identificados como clientes quando o atributo **RelationshipType** é definido como **Cliente**. Os clientes/usuários finais e a pessoa de contato são representados pela entidade Contato. Para fornecer uma separação clara entre um consumidor/usuário final e uma pessoa de contato, a entidade **Contato** tem um sinalizador booliano denominado **Comercializável**. Quando **Comercializável** for **Verdadeiro**, o contato será um cliente/usuário final; as cotações e ordens podem ser criadas para esse contato. Quando **Comercializável** for **Falso**, o contato será apenas uma pessoa de contato principal de um cliente.
 
 Quando um contato não comercializável participar de uma cotação ou processo de ordem, **Comercializável** será definido como **Verdadeiro** para sinalizar o contato como contato comercializável. Um contato que tornou-se um contato comercializável permanece um contato comercializável.
 
 ## <a name="templates"></a>Modelos
 
-Os dados do cliente incluem todas as informações sobre ele, como o grupo de clientes, os endereços, as informações de contato, o perfil do pagamento, o perfil da fatura e o status de fidelidade. Um conjunto de mapas de entidades funcionam juntos durante a interação de dados do cliente, conforme mostrado na tabela a seguir.
+Os dados do cliente incluem todas as informações sobre ele, como o grupo de clientes, os endereços, as informações de contato, o perfil do pagamento, o perfil da fatura e o status de fidelidade. Diversos mapas de tabelas trabalham juntos durante a interação de dados do cliente, conforme mostrado na tabela a seguir.
 
 Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365         | Descrição
 ----------------------------|---------------------------------|------------

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6132d48f276b27797e86fbcde11746b7e4da7d3b
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 7dfa8fcb3525876da66659fe3bd8bbe3b81a37a3
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142446"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684538"
 ---
 # <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificar formatos para gerar documentos com dados de aplicativo
 
@@ -80,8 +79,8 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 38. Clique em OK.
 39. Na árvore, selecione 'Arquivo\Declaração\Dados\Item'.
 40. Clique em Adicionar Item.
-41. No campo Nome, digite 'Id reg. mercadoria'.
-    * Id reg de mercadoria  
+41. No campo Nome, digite "ID reg. mercadoria".
+    * ID reg de mercadoria  
 42. No campo Tipo de dados, selecione 'Int64'.
 43. Clique em OK.
 44. Clique na aba Mapeamento.
@@ -89,22 +88,23 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 46. Clique em Associar.
 47. Na árvore, expanda 'modelo'.
 48. Na árvore, expanda 'modelo\Transações'.
-49. Na árvore, selecione 'Arquivo\Declaração\Dados\Item = model.Transactions\Id reg. mercadoria'.
-50. Na árvore, selecione 'modelo\Transações\Id reg. mercadoria'.
+49. Na árvore, selecione "Arquivo\Declaração\Dados\Item = model.Transactions\ID reg. mercadoria".
+50. Na árvore, selecione "modelo\Transações\ID reg. mercadoria".
 51. Clique em Associar.
 52. Clique em Salvar.
 
 ## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificar o formato para memorizar detalhes de relatório
+
 1. Clique em Mapear formato para modelo.
 2. Clique em Novo.
 3. No campo Definição, insira ou selecione o item raiz "Para atualização de dados do aplicativo".
-    * Para atualização de dados do aplicativo  
+    * Para atualização de dados do aplicativo.
 4. No campo Nome, digite "Mapeamento de dados de atualização".
     * Mapeamento para atualizar dados  
 5. Clique em Salvar.
-    * Este mapeamento define como os detalhes do relatório Intrastat são reunidos no modelo de dados, a estrutura especificada pelo item raiz selecionado "Para atualização de dados do aplicativo". Esses detalhes, o mapeamento de modelo com o mesmo item raiz "Para atualização de dados do aplicativo", e a direção e "Para destino" serão usados para a atualização de dados do aplicativo. A atualização de dados do aplicativo é iniciada imediatamente após o relatório Intrastat de saída ser gerado. Observe que a atualização de dados do aplicativo pode ser ignorada no tempo de execução, mas o modelo de dados deve estar vazio (contendo a lista de registros vazia).   
+    * Este mapeamento define como os detalhes do relatório Intrastat são reunidos no modelo de dados, a estrutura especificada pelo item raiz selecionado "Para atualização de dados do aplicativo". Esses detalhes, o mapeamento de modelo com o mesmo item raiz "Para atualização de dados do aplicativo", e a direção e "Para destino" serão usados para a atualização de dados do aplicativo. A atualização de dados do aplicativo é iniciada imediatamente após o relatório Intrastat de saída ser gerado. A atualização de dados do aplicativo pode ser ignorada no tempo de execução, mas o modelo de dados deve estar vazio (contendo a lista de registros vazia).
 6. Clique em Designer.
-    * Observe que o formato de relatório Intrastat de saída será adicionada, por padrão, como uma origem de dados para este mapeamento de modelo.  
+    * O formato de relatório Intrastat de saída será adicionada, por padrão, como uma origem de dados para este mapeamento de modelo.  
     * Associe os elementos do relatório criado (apresentado como a fonte de dados) aos elementos do modelo de dados, que é filtrado com base no item raiz do modelo selecionado.  
 7. Na árvore, expanda 'Archive header'.
 8. Na árvore, expanda 'Cabeçalho do arquivo morto\Arquivar linhas'.
@@ -120,8 +120,8 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 18. Clique em Adicionar função.
 19. Na árvore, expanda 'format'.
 20. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)'.
-21. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)'.
-22. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.
+21. Na árvore, expanda `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
+22. Na árvore, selecione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 23. Clique em Adicionar fonte de dados.
 24. No campo Fórmula, insira 'COUNT(format.Declaration.Data.Item)'.
     * CONTAGEM (formato.Declaração.Dados.Item)  
@@ -130,23 +130,22 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 27. Na árvore, selecione 'Cabeçalho do arquivo morto\Nome do arquivo'.
 28. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Nome do arquivo: Cadeia de caracteres do item (Nome do arquivo)'.
 29. Clique em Associar.
-30. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Dim4: Elemento XML 1..1 (Item)\número: Cadeia de caracteres(número)'.
+30. Na árvore, selecione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)`.
 31. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Número do Item'.
 32. Clique em Associar.
-33. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Data: Elemento XML 1..* (Data)\Item: Elemento XML 0..* (Item)\Dim3: Elemento XML 1..1 (Valor)\valor: Numérico Real(valor)'.
+33. Na árvore, selecione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)`.
 34. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Valor'.
 35. Clique em Associar.
-36. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Id reg de mercadoria: Item Int64(Id reg. mercadoria)'.
-37. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Id reg. mercadoria'.
+36. Na árvore, selecione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec ID: Item Int64(Commodity rec ID)`.
+37. Na árvore, selecione "Cabeçalho do arquivo morto\Arquivar linhas\ID reg. mercadoria".
 38. Clique em Associar.
 39. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas'.
-40. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.
+40. Na árvore, selecione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)`.
 41. Clique em Associar.
 42. Na árvore, selecione 'Cabeçalho do arquivo-morto'.
-43. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)'.
+43. Na árvore, selecione `format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)`.
 44. Clique em Associar.
 45. Clique em Salvar.
 46. Feche a página.
 47. Feche a página.
 48. Feche a página.
-

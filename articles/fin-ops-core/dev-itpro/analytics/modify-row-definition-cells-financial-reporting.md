@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 318c6edc03153e02c2c4f23b07f33e8d6ebe9737
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 92d03f08fc5e34402f10068ed770b1f724cfd3a8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2182982"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685850"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
@@ -107,7 +106,7 @@ A célula **Código de Formato** oferece uma seleção de opções pré-formatad
     |-------------------------------|-----------------------------------|--------|
     | (Nenhuma)                        |                                   | Desmarca a célula **Código de Formato**. |
     | TOT                           | Total                             | Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os totais contêm operadores simples, como **+** ou **-**. |
-    | CAL                           | Cálculo                       | Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os cálculos contêm operadores complexos, como as instruções **+**, **-**, **\***, **/** e **IF/THEN/ELSE**. |
+    | CAL                           | Cálculo                       | Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os cálculos contêm operadores complexos, como as instruções **+**, **-**, **\**_, _*/** e **IF/THEN/ELSE**. |
     | DES                           | descrição                       | Identifica uma linha de título ou uma linha em branco em um relatório. |
     | LFT RGT CEN                   | Esquerdo Direito Centro                 | Alinha o texto da descrição da linha na página do relatório, independente da posição do texto na definição da coluna. |
     | CBR                           | Alterar linha de base                   | Identifica uma linha que define a linha de base para cálculos da coluna. |
@@ -175,7 +174,7 @@ Na coluna **Código de Formato** em uma definição de linha, os códigos de for
 
 ### <a name="example-of-preventing-printing-of-rows"></a>Exemplo de prevenção de impressão de linhas
 
-No exemplo a seguir, Phyllis quer impedir a impressão do título e sublinhados da linha **Caixa Total** do seu relatório porque não houve atividade nas contas de caixa. Então, na linha 220 (que, como indicado pelo código de formato **---**, é uma linha de formatação), na célula **Fórmulas/Linhas/Unidades Relacionadas**, ela insere **250**, que é o código de linha da linha de valor que ela deseja suprimir.
+No exemplo a seguir, um usuário quer impedir a impressão do título e sublinhados da linha **Caixa Total** do seu relatório porque não houve atividade nas contas de caixa. Então, na linha 220 (que, como indicado pelo código de formato **---**, é uma linha de formatação), na célula **Fórmulas/Linhas/Unidades Relacionadas**, o usuário insere **250**, que é o código de linha da linha de valor que o usuário deseja suprimir.
 
 [![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
@@ -327,7 +326,7 @@ O tipo deve representar o valor positivo e, em seguida, o valor negativo. Em ger
 | 0;(0);-                        | 1235       | 1235         | -       |
 | \#,\#\#\#;(\#,\#\#\#);""       | 1.235      | (1.235)      | (Em branco) |
 | \#,\#\#0,00;(\#,\#\#0,00);zero | 1.234,56   | (1.234,56)   | zero    |
-| 0.00%;(0.00%)                  | 123456,00% | (123456,00%) | 0.00%   |
+| 0,00%;(0,00%)                  | 123456,00% | (123456,00%) | 0,00%   |
 
 ## <a name="specify-a-normal-balance-cell"></a>Especificar uma célula de Saldo normal
 A célula **Saldo Normal** em uma definição de linha controla o sinal dos valores em uma linha. Para reverter o sinal de uma linha, ou se o saldo normal de uma conta for um crédito, insira um **C** na célula **Saldo Normal** dessa linha. O criador de relatório reverte o sinal em todas as contas de saldo de crédito nessa linha. Quando o designer de relatórios converte essas contas, ele remove a característica de débito/crédito de todos os valores e torna a totalização simples. Por exemplo, para calcular o rendimento líquido, você subtrai as despesas da renda. Normalmente, as linhas calculadas e totalizadas não são afetadas por um código **C**. No entanto, o controle de impressão **XCR** na definição de coluna reverte o sinal de qualquer linha contendo um **C** na coluna **Saldo Normal**. Essa formatação é especialmente importante quando você deseja mostrar todas as variações desfavoráveis como valores negativos. Se um número totalizado ou calculado tiver um sinal errado, insira um **C** na célula **Saldo Normal** para a linha para reverter o sinal.
@@ -402,7 +401,7 @@ A célula **Link para Dimensões Financeiras** contém links para os dados finan
 2. Clique duas vezes na coluna **Vincular a dimensões financeiras**.
 3. Na caixa de diálogo **Dimensões**, clique duas vezes na célula no nome da dimensão.
 4. Na caixa de diálogo da dimensão, selecione **Individual ou intervalo**.
-5. No campo **De**, insira a dimensão inicial ou clique em ![Procurar](media/browse.gif "Procurar") para procurar por dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
+5. No campo **De**, insira a dimensão inicial ou clique em ![Procurar](media/browse.gif "Procurar") para procurar as dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
 6. Clique em **OK** para fechar a caixa de diálogo para a dimensão. A caixa de diálogo **Dimensões** exibe a dimensão ou o intervalo atualizado.
 7. Clique em **OK** para fechar a caixa de diálogo **Dimensões**.
 
@@ -416,7 +415,7 @@ Por padrão, o designer de relatórios não imprime linhas sem um saldo correspo
 3. No menu **Arquivo**, clique em **Salvar** para salvar as alterações.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Use caracteres curinga e variações em uma definição de linha
-Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, você pode colocar um caractere curinga (? ou \*) em uma posição de um segmento. O Criador de relatórios extrai todos os valores das posições definidas sem considerar os caracteres curinga. Por exemplo, a definição de linha contém somente valores de segmento natural, e os segmentos naturais têm quatro caracteres. Inserindo **6???** em uma linha, você instrui o desenvolvedor de relatório para incluir todas as contas que têm um valor de segmento natural que inicia com 6. Se você inserir **6\***, os mesmos resultados são devolvidos, mas os resultados também incluem valores de largura variável como **60** e **600000**. O designer de relatórios substitui cada caractere curinga (?) pelo intervalo completo dos valores possíveis, que incluem letras e caracteres especiais. Por exemplo, no intervalo de **12?0** até **12?4**, o caractere curinga em **12?0** é substituído pelo menor valor no conjunto de caracteres, e o caractere curinga em **12?4** é substituído pelo maior valor no conjunto de caracteres.
+Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, você pode colocar um caractere curinga (? ou \*) em uma posição de um segmento. O Criador de relatórios extrai todos os valores das posições definidas sem considerar os caracteres curinga. Por exemplo, a definição de linha contém somente valores de segmento natural, e os segmentos naturais têm quatro caracteres. Inserindo **6???** em uma linha, você instrui o desenvolvedor de relatório para incluir todas as contas que têm um valor de segmento natural que inicia com 6. Se você inserir **6\**_, os mesmos resultados são devolvidos, mas os resultados também incluem valores de largura variável como _* 60** e **600000**. O designer de relatórios substitui cada caractere curinga (?) pelo intervalo completo dos valores possíveis, que incluem letras e caracteres especiais. Por exemplo, no intervalo de **12?0** até **12?4**, o caractere curinga em **12?0** é substituído pelo menor valor no conjunto de caracteres, e o caractere curinga em **12?4** é substituído pelo maior valor no conjunto de caracteres.
 
 > [!NOTE]
 > Você deve evitar usar caracteres curinga para as contas inicial e final nos intervalos. Se você usar caracteres curingas na conta inicial ou final, resultados inesperados poderão ser recebidos.

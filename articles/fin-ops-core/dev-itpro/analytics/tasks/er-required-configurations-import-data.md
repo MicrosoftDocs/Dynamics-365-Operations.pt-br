@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 33d3f3773fdba4b704deeca48874b10958e2ea4e
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143306"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684267"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
@@ -98,11 +97,11 @@ As etapas nesta subtarefa mostram como uma nova configuração de formato pode s
 
     Observe que o formato criado será apresentado aqui como um componente de fonte de dados.  
 
-6. Na árvore, expanda 'formato: Registro\*liquidação: Elemento XML 1..1 (liquidação): Registro'.
-7. Na árvore, expanda 'formato: Registro\*liquidação: Elemento XML 1..1 (liquidação): Registro\transação: Elemento XML 0..* (transação): Lista de registros'.
-8. Na árvore, expanda 'formato: Registro\*liquidação: Elemento XML 1..1 (liquidação): Registro\transação: Elemento XML 0..* (transação): Lista de registros\*fornecedor: Elemento XML 1..1 (fornecedor): Registro'.
-9. Na árvore, expanda 'formato: Registro\*liquidação: Elemento XML 1..1 (liquidação): Registro\transação: Elemento XML 0..* (transação): Lista de registros\país: Elemento XML 0..1 (país): Registro'.
-10. Na árvore, selecione 'formato: Registro\*liquidação: Elemento XML 1..1 (liquidação): Registro\transação: Elemento XML 0..* (transação): Lista de registros\*fornecedor: Elemento XML 1..1 (fornecedor): Registro'.
+6. Na árvore, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record`.
+7. Na árvore, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list`.
+8. Na árvore, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
+9. Na árvore, expanda `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record`.
+10. Na árvore, selecione `format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record`.
 
     Observe que a apresentação de elementos obrigatórios e opcionais de formato é diferente no componente da fonte de dados do "formato" predefinido.  
 11. Na árvore, expanda "Transações: Lista de registros = format.settlement.'$enumerated''.
@@ -237,7 +236,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 19. Feche a página.
 20. Clique em Editar.
 
-    Se você instalou o hotfix "KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do Dynamics 365 Finance" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), execute a próxima etapa "Ativar o sinalizador 'Padrão do mapeamento de modelo'" para a configuração de formato inserida. Caso contrário, ignore a próxima etapa.  
+    Se você instalou o hotfix "KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do Dynamics 365 Finance" ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), execute a próxima etapa "Ativar o sinalizador 'Padrão do mapeamento de modelo'" para a configuração de formato inserida. Caso contrário, ignore a próxima etapa.  
 
 21. Selecione Sim no campo Padrão do mapeamento de modelo.
 22. Na árvore, selecione "Modelo de pagamento 1099".
@@ -245,7 +244,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 24. Clique em Mapear modelo para fonte de dados.
 25. Clique em Executar.
 
-    Se você instalou o hotfix KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871), selecione o mapeamento de modelos preferencial no campo de pesquisa. Se você não tiver instalado o hotfix ainda, vá para a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
+    Se você instalou o hotfix KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), selecione o mapeamento de modelos preferencial no campo de pesquisa. Se você não tiver instalado o hotfix ainda, vá para a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
     
     Se você não tiver instalado o hotfix, o KB 4012871, observe que a caixa de diálogo contém uma pergunta de mapeamento do modelo adicional que é usada para analisar o arquivo que você está importando. Em seguida, os dados são transferidos da caixa de diálogo para o modelo de dados. Atualmente, você pode escolher qual mapeamento de formato deve ser usado, dependendo do tipo de arquivo que você pretende importar.  
     

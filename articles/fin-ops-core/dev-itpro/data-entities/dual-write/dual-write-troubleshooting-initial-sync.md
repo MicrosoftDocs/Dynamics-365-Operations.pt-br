@@ -18,25 +18,27 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 4d0ca1fb4b7a4964194516544686b6bb7d26e76c
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997317"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683543"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante a sincronização inicial
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Common Data Service. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem acontecer durante a sincronização inicial.
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem acontecer durante a sincronização inicial.
 
 > [!IMPORTANT]
 > Alguns dos problemas que este tópico aborda podem exigir a função de administrador do sistema ou as credenciais de administrador do locatário Microsoft Azure Active Directory (Azure AD). A seção para cada problema explica se uma função ou credenciais específicas são necessárias.
 
 ## <a name="check-for-initial-synchronization-errors-in-a-finance-and-operations-app"></a>Verificar erros de sincronização inicial em um aplicativo do Finance and Operations
 
-Depois de habilitar os modelos de mapeamento, o status dos mapas deve estar em **Execução**. Se o status **Não estiver em execução** , ocorrerão erros durante a sincronização inicial. Para exibir os erros, selecione a guia **Detalhes de sincronização inicial** na página **Gravação dupla**.
+Depois de habilitar os modelos de mapeamento, o status dos mapas deve estar em **Execução**. Se o status **Não estiver em execução**, ocorrerão erros durante a sincronização inicial. Para exibir os erros, selecione a guia **Detalhes de sincronização inicial** na página **Gravação dupla**.
 
 ![Erro na guia Detalhes da sincronização inicial](media/initial_sync_status.png)
 
@@ -72,7 +74,7 @@ Se esse erro ocorrer consistentemente e você não puder concluir a sincronizaç
 
 1. Faça login na máquina virtual (VM) para o aplicativo Finance and Operations.
 2. Abra o console de gerenciamento da Microsoft.
-3. No painel **Serviços** , verifique se o serviço de estrutura de importação/exportação de dados do Microsoft Dynamics 365 está em execução. Reinicie-o se ele tiver sido interrompido, pois a sincronização inicial requer essa ação.
+3. No painel **Serviços**, verifique se o serviço de estrutura de importação/exportação de dados do Microsoft Dynamics 365 está em execução. Reinicie-o se ele tiver sido interrompido, pois a sincronização inicial requer essa ação.
 
 ## <a name="initial-synchronization-error-403-forbidden"></a>Erro de sincronização inicial: 403 Proibido
 
@@ -83,7 +85,7 @@ A seguinte mensagem de erro pode ser exibida durante sincronização inicial:
 Para corrigir o problema, siga estas etapas.
 
 1. Entrar no aplicativo Finance and Operations.
-2. Na página **aplicativo do Azure Active Directory** , exclua o cliente **DtAppID** e, em seguida, adicione-o novamente.
+2. Na página **aplicativo do Azure Active Directory**, exclua o cliente **DtAppID** e, em seguida, adicione-o novamente.
 
 ![Cliente DtAppID na lista de aplicativos do Azure AD](media/aad_applications.png)
 
@@ -91,12 +93,12 @@ Para corrigir o problema, siga estas etapas.
 
 Você poderá receber mensagens de erro se um dos seus mapeamentos tiver autorreferências ou referências circulares: Os erros são classificados nestas categorias:
 
-- [Erros em Fornecedores V2 para mapeamento de entidade msdyn_vendors](#error-vendor-map)
-- [Erros no mapeamento de Clientes V3 para a entidade Contas](#error-customer-map)
+- [Erros em Fornecedores V2 para mapeamento de tabela msdyn_vendors](#error-vendor-map)
+- [Erros no mapeamento de Clientes V3 para a tabela Contas](#error-customer-map)
 
-## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-entity-mapping"></a><a id="error-vendor-map"></a>Resolver erros em Fornecedores V2 para mapeamento de entidade msdyn_vendors
+## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Resolver erros em Fornecedores V2 para mapeamento de tabela msdyn_vendors
 
-Você poderá encontrar erros de sincronização inicial para p mapeamento de **Fornecedores V2** para **msdyn\_vendors** se as entidades tiverem registros existentes com valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Esses erros ocorrem porque **InvoiceVendorAccountNumber** é um campo de auto-referência e **PrimaryContactPersonId** é uma referência circular no mapeamento do fornecedor.
+Você poderá encontrar erros de sincronização inicial para o mapeamento de **Fornecedores V2** para **msdyn\_vendors** se as tabelas tiverem linhas existentes com valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Esses erros ocorrem porque **InvoiceVendorAccountNumber** é um campo de auto-referência e **PrimaryContactPersonId** é uma referência circular no mapeamento do fornecedor.
 
 As mensagens de erro recebidas terão o seguinte formulário.
 
@@ -107,11 +109,11 @@ Eis alguns exemplos:
 - *Não foi possível resolver a GUID do campo: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. A pesquisa não foi encontrada: 000056. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Não foi possível resolver a GUID do campo: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. A pesquisa não foi encontrada: V24-1. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Se algum registro na entidade fornecedor tiver valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** , siga estas etapas para concluir a sincronização inicial.
+Se alguma linha na entidade fornecedor tiver valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, siga estas etapas para concluir a sincronização inicial.
 
 1. No aplicativo Finance and Operations, exclua os campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** do mapeamento e depois salve o mapeamento.
 
-    1. Na página de mapeamento de gravação dupla para **Fornecedores V2 (msdyn\_vendors)** , na guia **Mapeamentos de entidade** , no filtro esquerdo, selecione **Finance and Operations apps.Vendors V2**. No filtro direito, selecione **Sales.Vendor**.
+    1. Na página de mapeamento de gravação dupla para **Fornecedores V2 (msdyn\_vendors)**, na guia **Mapeamentos de tabela**, no filtro esquerdo, selecione **Finance and Operations apps.Vendors V2**. No filtro direito, selecione **Sales.Vendor**.
     2. Procure **primarycontactperson** para encontrar o campo de origem **PrimaryContactPersonId**.
     3. Selecione **Ações** e depois **Excluir**.
 
@@ -125,7 +127,7 @@ Se algum registro na entidade fornecedor tiver valores nos campos **PrimaryConta
 
 2. Desative o controle de alterações para a entidade **Fornecedor V2**.
 
-    1. No espaço de trabalho **Gerenciamento de dados** , selecione o bloco **Entidades de dados**.
+    1. No espaço de trabalho **Gerenciamento de dados**, selecione o bloco **Tabelas de dados**.
     2. Selecione a entidade **Fornecedores V2**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
@@ -136,14 +138,14 @@ Se algum registro na entidade fornecedor tiver valores nos campos **PrimaryConta
         ![Selecionando Desabilitar Controle de Alterações](media/selfref_tracking.png)
 
 3. Execute a sincronização inicial para mapeamento do **Fornecedor V2 (msdyn\_vendors)**. A sincronização inicial deve ser executada com êxito, sem erros.
-4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**. Você deverá sincronizar este mapeamento se desejar sincronizar o campo de contato principal na entidade fornecedores, pois a sincronização inicial também precisa ser feita para os registros de contatos.
+4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**. Você deverá sincronizar este mapeamento se desejar sincronizar o campo de contato principal na entidade fornecedores, pois a sincronização inicial também precisa ser feita para as linhas de contatos.
 5. Adicione os campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** novamente ao mapeamento **Fornecedores V2 (msdyn\_vendors)** e salve o mapeamento.
-6. Execute a sincronização inicial novamente para o mapeamento do **Fornecedor V2 (msdyn\_vendors)**. Como o controle de alterações está desabilitado, todos os registros serão sincronizados.
+6. Execute a sincronização inicial novamente para o mapeamento do **Fornecedor V2 (msdyn\_vendors)**. Como o controle de alterações está desabilitado, todas as linhas serão sincronizadas.
 7. Ative o controle de alterações novamente para a entidade **Fornecedor V2**.
 
-## <a name="resolve-errors-in-the-customers-v3toaccounts-entity-mapping"></a><a id="error-customer-map"></a>Resolver erros no mapeamento de Clientes V3 para a entidade Contas
+## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Resolver erros no mapeamento de Clientes V3 para a tabela Contas
 
-Você poderá encontrar erros de sincronização inicial para o mapeamento de **Clientes V3** para **Contas** se as entidades tiverem registros existentes com valores nos campos **ContactPersonID** e **InvoiceAccount**. Esses erros ocorrem porque **InvoiceAccount** é um campo de autorreferência e **ContactPersonID** é uma referência circular no mapeamento do fornecedor.
+Você poderá encontrar erros de sincronização inicial para o mapeamento de **Clientes V3** para **Contas** se as tabelas tiverem linhas existentes com valores nos campos **ContactPersonID** e **InvoiceAccount**. Esses erros ocorrem porque **InvoiceAccount** é um campo de autorreferência e **ContactPersonID** é uma referência circular no mapeamento do fornecedor.
 
 As mensagens de erro recebidas terão o seguinte formulário.
 
@@ -154,11 +156,11 @@ Eis alguns exemplos:
 - *Não foi possível resolver a GUID do campo: primarycontactid.msdyn\_contactpersonid. A pesquisa não foi encontrada: 000056. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Não foi possível resolver a GUID do campo: msdyn\_billingaccount.accountnumber. A pesquisa não foi encontrada: 1206-1. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID** e **InvoiceAccount** , siga estas etapas para concluir a sincronização inicial. Você pode usar essa abordagem para qualquer entidade pronta para uso, como **Contas** e **Contatos**.
+Se alguma linha na entidade cliente tiver valores nos campos **ContactPersonID** e **InvoiceAccount**, siga estas etapas para concluir a sincronização inicial. Você pode usar essa abordagem para qualquer tabela pronta para uso, como **Contas** e **Contatos**.
 
 1. No aplicativo Finance and Operations, exclua os campos **ContactPersonID** e **InvoiceAccount** do mapeamento **Clientes V3 (contas)** e salve o mapeamento.
 
-    1. Na página de mapeamento de gravação dupla para **Clientes V3 (contas)** , na guia **Mapeamentos de entidade** , no filtro esquerdo, selecione **Finance and Operations app.Customers V3**. No filtro direito, selecione **Common Data Service.Account**.
+    1. Na página de mapeamento de gravação dupla para **Clientes V3 (contas)**, na guia **Mapeamentos de tabela**, no filtro esquerdo, selecione **Finance and Operations app.Customers V3**. No filtro direito, selecione **Dataverse.Account**.
     2. Procure **contactperson** para encontrar o campo de origem **ContactPersonID**.
     3. Selecione **Ações** e depois **Excluir**.
 
@@ -172,7 +174,7 @@ Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID
 
 2. Desative o controle de alterações para a entidade **Clientes V3**.
 
-    1. No espaço de trabalho **Gerenciamento de dados** , selecione o bloco **Entidades de dados**.
+    1. No espaço de trabalho **Gerenciamento de dados**, selecione o bloco **Tabelas de dados**.
     2. Selecione a entidade **Clientes V3**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
@@ -186,26 +188,26 @@ Se algum registro na entidade cliente tiver valores nos campos **ContactPersonID
 4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**.
 
     > [!NOTE]
-    > Há dois mapas com o mesmo nome. Certifique-se de selecionar o mapa que tenha a seguinte descrição na guia **Detalhes** : **Gravação dupla para sincronização entre Contatos FO.CDS do Fornecedor V2 para CDS.Contacts. Exige novo pacote \[Dynamics365SupplyChainExtended\].**
+    > Há dois mapas com o mesmo nome. Certifique-se de selecionar o mapa que tenha a seguinte descrição na guia **Detalhes**: **Gravação dupla para sincronização entre Contatos FO.CDS do Fornecedor V2 para CDS.Contacts. Exige novo pacote \[Dynamics365SupplyChainExtended\].**
 
 5. Adicione os campos **InvoiceAccount** e **ContactPersonId** novamente no mapeamento **Clientes V3 (contas)** e depois salve o mapeamento. Os campos **InvoiceAccount** e **ContactPersonId** agora fazem parte do modo de sincronização ao vivo novamente. Na próxima etapa, você executará a sincronização inicial desses campos.
-6. Execute a sincronização inicial novamente para o mapeamento de **Clientes V3 (contas)**. Como o controle de alterações está desabilitado, os dados de **InvoiceAccount** e **ContactPersonId** serão sincronizados do aplicativo Finance and Operations para o Common Data Service.
-7. Para sincronizar os dados de **InvoiceAccount** e **ContactPersonId** do Common Data Service para o Finance and Operations, você deve usar um projeto de integração de dados.
+6. Execute a sincronização inicial novamente para o mapeamento de **Clientes V3 (contas)**. Como o controle de alterações está desabilitado, os dados de **InvoiceAccount** e **ContactPersonId** serão sincronizados do aplicativo Finance and Operations para o Dataverse.
+7. Para sincronizar os dados de **InvoiceAccount** e **ContactPersonId** do Dataverse para o Finance and Operations, você deve usar um projeto de integração de dados.
 
-    1. No Power Apps, crie um projeto de integração de dados entre as entidades **Sales.Account** e **Finance and Operations apps.Customers V3**. A direção de dados deve ser do Common Data Service para o aplicativo do Finance and Operations. Como **InvoiceAccount** é um novo atributo na gravação dupla, talvez você queira ignorar a sincronização inicial desse atributo. Para obter mais informações, consulte [Integrar dados no Common Data Service](https://docs.microsoft.com/power-platform/admin/data-integrator).
+    1. No Power Apps, crie um projeto de integração de dados entre as tabelas **Sales.Account** e **Finance and Operations apps.Customers V3**. A direção de dados deve ser do Dataverse para o aplicativo do Finance and Operations. Como **InvoiceAccount** é um novo atributo na gravação dupla, talvez você queira ignorar a sincronização inicial desse atributo. Para obter mais informações, consulte [Integrar dados no Dataverse](https://docs.microsoft.com/power-platform/admin/data-integrator).
 
         A ilustração a seguir mostra um projeto que atualiza **CustomerAccount** e **ContactPersonId**.
 
         ![Projeto de integração de dados para atualizar CustomerAccount e ContactPersonId](media/cust_selfref6.png)
 
-    2. Adicione os critérios da empresa no filtro do Common Data Service, para que somente os registros que correspondem aos critérios do filtro sejam atualizados no aplicativo do Finance and Operations. Para adicionar um filtro, selecione o botão de filtro. Em seguida, na caixa de diálogo **Editar consulta** , você pode adicionar uma consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**. 
+    2. Adicione os critérios da empresa no filtro do Dataverse, para que somente as linhas que correspondem aos critérios do filtro sejam atualizadas no aplicativo do Finance and Operations. Para adicionar um filtro, selecione o botão de filtro. Em seguida, na caixa de diálogo **Editar consulta**, você pode adicionar uma consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**. 
 
         > [NOTA] Se o botão de filtro não estiver presente, crie um tíquete de suporte para solicitar que a equipe de integração de dados habilite a capacidade de filtro no seu locatário.
 
-        Se você não inserir uma consulta de filtro para **\_msdyn\_company\_value** , todos os registros serão sincronizados.
+        Se você não inserir uma consulta de filtro para **\_msdyn\_company\_value**, todas os linhas serão sincronizados.
 
         ![Adicionando uma consulta de filtro](media/cust_selfref7.png)
 
-    A sincronização inicial dos registros está concluída.
+    A sincronização inicial das linhas está concluída.
 
 8. No aplicativo do Finance and Operations, habilite o controle de alterações novamente para a entidade **Clientes V3**.

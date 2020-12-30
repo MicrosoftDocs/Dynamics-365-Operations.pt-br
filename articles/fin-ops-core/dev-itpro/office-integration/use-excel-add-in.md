@@ -10,35 +10,34 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 210231bb442928674b490d83f50bf787d7bfa60c
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181004"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688458"
 ---
 # <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Abrir os dados da entidade no Excel e atualizá-los usando o suplemento do Excel
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como abrir dados da entidade no Microsoft Excel e, então, visualizar, atualizar e editar os dados usando o suplemento do Office do Microsoft Dynamics for Excel. Para abrir os dados da entidade, você pode iniciar pelo Excel ou pelo Finance and Operations.
+Este tópico explica como abrir dados da entidade no Microsoft Excel e, então, visualizar, atualizar e editar os dados usando o suplemento do Office do Microsoft Dynamics for Excel. Para abrir os dados da entidade, você pode iniciar o Excel ou o Finance and Operations.
 
 Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Excel. Esse suplemento requer o Microsoft Excel 2016.
 
 > [!NOTE]
-> Se o seu inquilino do Microsoft Azure Active Directory (Azure AD) está configurado para usar o Active Directory Federation Services (AD FS), você deve garantir que a atualização de maio de 2016 do Office tenha sido aplicada, para que o suplemento do Excel consiga realizar seu login corretamente.
+> Se o seu locatário do Microsoft Azure Active Directory (Azure AD) estiver configurado para usar o Active Directory Federation Services (AD FS), você deverá garantir que a atualização de maio de 2016 para o Office tenha sido aplicada para que o suplemento do Excel consiga realizar seu logon corretamente.
 
 Para saber mais sobre o uso do suplemento do Excel, assista ao vídeo curto [Criar um modelo do Excel para padrões de cabeçalho e de linha no Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Abrir dados da entidade no Excel ao iniciar do Finance and Operations
-1. Em uma página no Finance and Operations, selecione **Abrir no Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Abrir dados da entidade no Excel ao iniciar pelo Finance and Operations
+1. Em uma página do Finance and Operations, selecione **Abrir no Microsoft Office**.
 
     Se a fonte de dados raiz (tabela) da página for a mesma que a fonte de dados raiz de qualquer entidade, opções **Abrir no Excel** padrões são geradas para a página. Opções **Abrir no Excel** podem ser encontradas em páginas frequentemente usadas, como **Todos os fornecedores** e **Todos os clientes**.
  
@@ -123,4 +122,4 @@ Existem alguns problemas que podem ser resolvidos através de algumas etapas sim
 
 - **O botão Carregar applets aparece** – Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
 - **Você recebe uma mensagem "Proibido"** – Se receber uma mensagem "Proibido" enquanto o suplemento do Excel estiver carregando metadados, a conta conectada no suplemento não terá permissão para usar o serviço, a instância ou o banco de dados escolhido. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
-- **Uma página da Web em branco aparece no Excel** – Se uma página da Web em branco for aberta durante o processo de logon, a conta exigirá AD FS, mas a versão do Excel que estiver executando o suplemento do Excel não será recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](https://technet.microsoft.com/library/jj219422.aspx) para [mover do canal diferido para o canal atual](https://technet.microsoft.com/library/mt455210.aspx).
+- **Uma página da Web em branco aparece no Excel** – se uma página da Web em branco for aberta durante o processo de logon, a conta exigirá AD FS, mas a versão do Excel que estiver executando o suplemento do Excel não será recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](https://technet.microsoft.com/library/jj219422.aspx) para [mover do canal diferido para o canal atual](https://technet.microsoft.com/library/mt455210.aspx).

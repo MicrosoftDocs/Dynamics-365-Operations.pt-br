@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 6bb16ada206434c0588ed6c140a49b6a5d94d7ed
-ms.sourcegitcommit: a3fbcd63f10f204350a058a124ba80abeb34309e
+ms.openlocfilehash: 8ae024c2d791e1219c7383dc95283219a9300eac
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "2564158"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682664"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
@@ -76,7 +75,7 @@ Para criar uma definição de árvore de relatório, siga estas etapas.
     | Incluir/Posição do caractere       | Lista as dimensões que são definidas nos dados financeiros e mostra o número de caracteres no maior valor definido para cada dimensão. Marque uma caixa de seleção de uma dimensão para incluir essa dimensão na hierarquia de árvore de relatório. |
     | Hierarquia e intervalos de segmento     | A seção mostra a hierarquia de dimensão. Você pode mover as dimensões na lista para alterar a ordem de relatório. Especifique um intervalo de valores em cada dimensão nos campos **Da Dimensão** e **Para Dimensão**. Se você não especificar um intervalo, todos os valores de dimensão são inseridos na árvore de relatório.<blockquote>[!NOTE] Se você estiver usando mais de uma dimensão, apenas as combinações de dimensão que foram lançadas serão retornadas nos resultados.</blockquote> |
 
-    Uma captura de tela que mostra um exemplo da caixa de diálogo **Inserir relatório unidades de dimensões**, consulte a seção "Exemplo das unidades de emissão de relatórios de inserção na caixa de diálogo de dimensões" posteriormente neste artigo.
+    Uma captura de tela que mostra um exemplo da caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, consulte a seção "Exemplo de caixa de diálogo Inserir Unidades de Relatório de Dimensões" posteriormente neste artigo.
 
 5. Para criar segmentos adicionais (como a quebra de um segmento em dois segmentos mais curtos), clique no local correto em um campo **Posição do caractere** e clique em **Dividir Segmentos**.
 6. Para mesclar dois segmentos em um segmento, clique em uma das caixas de segmento para mesclar os segmentos e, depois, em **Combinar Segmentos**.
@@ -86,7 +85,7 @@ Para criar uma definição de árvore de relatório, siga estas etapas.
     1. No campo **Da Dimensão** dessa dimensão, digite o primeiro valor no intervalo.
     2. No campo **Da dimensão**, insira o último valor no intervalo.
 
-9. Para cada dimensão na área **Hierarquia e intervalos de segmento**, repita a etapa 7 a 8.
+9. Repita as etapas 7 a 8 para cada dimensão na área **Hierarquia e intervalos de segmento**.
 10. Ao concluir a definição de como as unidades de relatório são trazidas para a nova árvore de relatório, clique em **OK**.
 11. Clique em **Arquivo** &gt; **Salvar** para salvar a árvore de relatório. Insira um nome exclusivo e uma descrição da árvore de relatório. Clique em **OK**.
 
@@ -98,7 +97,7 @@ Para criar uma definição de árvore de relatório, siga estas etapas.
 
 ### <a name="roll-up-data-in-a-reporting-tree"></a>Acumular dados em uma árvore de relatório
 
-Quando você usa uma árvore de relatório, você pode agregar valores de unidades de relatório filho no nível da unidade de relatório pai. Essa agregação é conhecida como acúmulo de dados. As seguintes regras são usadas para acumular valores para unidades pai em uma árvore do relatório:
+Quando usa uma árvore de relatório, você pode agregar valores de unidades de relatório filho no nível da unidade de relatório pai. Essa agregação é conhecida como acúmulo de dados. As seguintes regras são usadas para acumular valores para unidades pai em uma árvore do relatório:
 
 - Na árvore de relatório, as unidades filho devem conter dimensões, a menos que a árvore de relatório seja uma árvore de nível único. As unidades pai em geral não contêm dimensões em uma árvore de relatório.
 
@@ -106,7 +105,7 @@ Quando você usa uma árvore de relatório, você pode agregar valores de unidad
     > Especificar dimensões para unidades filho e unidades pai pode causar a duplicação de dados no relatório.
 
 - As unidades de relatório que contêm dimensões na árvore de relatório correspondem às dimensões que são usadas nas definições de linha e coluna. A combinação de dimensões determina os valores retornados para essa unidade. Por exemplo, no exemplo 2 posteriormente neste artigo, as linhas 6 e 7 devolvem valores apenas para departamentos 00 e 01, respectivamente.
-- Os valores das unidades de relatório pai que não contêm dimensões na árvore do relatório são determinados a partir do relatório de unidade filho e acumulam o valor para a unidade pai especificada. Por exemplo, se a unidade pai (consulte Contoso EUA no exemplo 2 dos exemplos de acúmulo de dados) tem duas unidades filho (022 e 023) e não contém dimensões, um relatório é gerado para cada filho e o pai. O total de pai é a soma dos dois valores filho.
+- Os valores das unidades de relatório pai que não contêm dimensões na árvore do relatório são determinados a partir do relatório de unidade filho e acumulam o valor para a unidade pai especificada. Por exemplo, se a unidade pai (consulte Contoso EUA no exemplo 2 dos exemplos de acúmulo de dados) tiver duas unidades filhos (022 e 023) e não contiver dimensões, será gerado um relatório para cada filho e o pai. O total de pai é a soma dos dois valores filho.
 
 ### <a name="manage-reporting-units"></a>Gerenciar unidades de relatório
 
@@ -165,9 +164,9 @@ Você pode impedir que certos usuários e grupos acessem uma unidade de relatór
 3. Na caixa de diálogo **Segurança de Unidade**, selecione um nome e clique em **Remover**.
 4. Clique em **OK**.
 
-### <a name="link-toreports"></a>Link para relatórios
+### <a name="link-to-reports"></a>Link para relatórios
 
-Depois de criar uma coluna **relatório** na definição de linha e especificar o relatório a ser incluído no relatório, você deve atualizar a hierarquia organizacional com a coluna vinculada e as informações sobre o relatório. Um relatório pode ser importado para qualquer unidade na árvore de relatório.
+Após criar uma coluna **relatório** na definição de linha e especificar o relatório para incluir no relatório, você deverá atualizar a árvore de relatório com a coluna vinculada e as informações sobre o relatório. Um relatório pode ser importado para qualquer unidade na árvore de relatório.
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>Identificar o relatório em uma árvore de relatório
 

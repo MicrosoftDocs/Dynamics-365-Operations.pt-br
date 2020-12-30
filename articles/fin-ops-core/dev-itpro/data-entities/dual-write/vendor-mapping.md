@@ -1,6 +1,6 @@
 ---
 title: Fornecedor mestre integrado
-description: Este tópico descreve a integração de dados do fornecedor entre os aplicativos Finance and Operations e o Common Data Service.
+description: Este tópico descreve a integração de dados do fornecedor entre os aplicativos Finance and Operations e o Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 07/15/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5c4cc92fd7809f4016d8421c98f41a85fcfedc7b
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 636bc57b5ef09d605744f4857fd5fbefceac4875
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997638"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685476"
 ---
 # <a name="integrated-vendor-master"></a>Fornecedor mestre integrado
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -37,11 +39,11 @@ Nas duas abordagens, os dados do fornecedor são integrados entre os portais do 
 
 ## <a name="vendor-data-flow"></a>Fluxo de dados do fornecedor
 
-Se não desejar armazenar dados do fornecedor na entidade **Conta/Contato** no Common Data Service, você poderá usar o novo design de fornecedor.
+Se não desejar armazenar dados do fornecedor na entidade **Conta/Contato** no Dataverse, você poderá usar o novo design de fornecedor.
 
 ![Fluxo de dados do fornecedor](media/dual-write-vendor-data-flow.png)
 
-Se você quiser continuar armazenando dados do fornecedor na entidade **Conta/Contato** , poderá usar o design de fornecedor estendido. Para usar o design de fornecedor estendido, você deverá configurar os fluxos de trabalho do fornecedor no pacote da solução de gravação dupla. Para obter mais informações, consulte [Alternar entre designs de fornecedor](vendor-switch.md).
+Se você quiser continuar armazenando dados do fornecedor na entidade **Conta/Contato**, poderá usar o design de fornecedor estendido. Para usar o design de fornecedor estendido, você deverá configurar os fluxos de trabalho do fornecedor no pacote da solução de gravação dupla. Para obter mais informações, consulte [Alternar entre designs de fornecedor](vendor-switch.md).
 
 ![Fluxo de dados estendidos do fornecedor](media/dual-write-vendor-detail.jpg)
 
@@ -50,12 +52,12 @@ Se você quiser continuar armazenando dados do fornecedor na entidade **Conta/Co
 
 ## <a name="templates"></a>Modelos
 
-Os dados do fornecedor incluem todas as informações sobre ele, como o grupo de fornecedores, os endereços, as informações de contato, o perfil do pagamento e o perfil da fatura. Um conjunto de mapas de entidades funcionam juntos durante a interação de dados dos fornecedores, conforme mostrado na tabela a seguir.
+Os dados do fornecedor incluem todas as informações sobre ele, como o grupo de fornecedores, os endereços, as informações de contato, o perfil do pagamento e o perfil da fatura. Um conjunto de mapas de tabelas funcionam juntos durante a interação de dados dos fornecedores, conforme mostrado na tabela a seguir.
 
 Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365     | Descrição
 ----------------------------|-----------------------------|------------
 Fornecedor V2                   | Conta                     | As empresas que usam a entidade Conta para armazenar informações do fornecedor podem continuar a usá-la da mesma maneira. Elas também podem aproveitar a funcionalidade explícita de fornecedor que será disponibilizada com a integração de aplicativos do Finance and Operations.
-Fornecedor V2                   | Msdyn\_vendors              | As empresas que usam uma solução personalizada para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Common Data Service com a integração de aplicativos do Finance and Operations. 
+Fornecedor V2                   | Msdyn\_vendors              | As empresas que usam uma solução personalizada para fornecedores podem aproveitar o conceito de fornecedor pronto para uso que está sendo apresentado no Dataverse com a integração de aplicativos do Finance and Operations. 
 Grupos de fornecedores               | msdyn\_vendorgroups         | Este modelo sincroniza informações do grupo de fornecedores.
 Método de pagamento do fornecedor       | msdyn\_vendorpaymentmethods | Este modelo sincroniza informações sobre o método de pagamento dos fornecedores.
 Contatos do CDS V2             | contatos                    | O modelo [contatos](customer-mapping.md#cds-contacts-v2-to-contacts) sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores.

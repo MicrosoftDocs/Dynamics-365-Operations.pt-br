@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: 668ab28297ee7baf8f28cbbaf179d13cb5151dc4
-ms.sourcegitcommit: 248369a0da5f2b2a1399f6adab81f9e82df831a1
+ms.openlocfilehash: 0d7df12026d6d668b1f48a48cd12bf4b12e0f94e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "3332313"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686407"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar as fontes de dados JOIN para obter dados de várias tabelas de aplicativos nos mapeamentos do modelo de relatório eletrônico (ER)
 
@@ -31,14 +30,14 @@ ms.locfileid: "3332313"
 
 Ao configurar mapeamentos ou formatos de modelo de relatório eletrônico (ER), é possível [adicionar](#review) fontes de dados exigidas do tipo **Join**. No momento da criação, uma fonte de dados **Join** é configurada como um conjunto de várias fontes de dados, com cada uma retornando uma lista de registros. Em todas as fontes de dados, com exceção da primeira, é necessário definir as condições necessárias para inclusão dos registros das fontes de dados atuais e anteriores. Durante a execução, uma fonte de dados configurada do tipo **Join** [retornará](#executeERformat) uma única lista incluída de registros contendo campos dos registros de fontes de dados aninhadas.
 
-Atualmente, há suporte para o seguinte tipo de junções:
+Atualmente, há suporte para os seguintes tipos de junções:
 
 - Junção externa (esquerda):
     - Inclua todos os registros da primeira fonte de dados (mais à esquerda) e, em seguida, qualquer correspondência de acordo com os registros de condições configurados da segunda fonte de dados (mais à direita).
 - Junção externa (direita):
     - Inclua apenas registros da primeira fonte de dados (mais à esquerda) e apenas registros da segunda fonte de dados (mais à direita) que correspondam entre si de acordo com as condições configuradas.
 
-Na fonte de dados **Join** configurada, quando todas as fontes de dados são do tipo **Registros de tabela**, a execução da fonte de dados Join pode ser [realizada no nível do banco de dados](#analyze) usando uma única instrução SQL. Isso reduz o número de chamadas de banco de dados, o que melhora o desempenho do mapeamento do modelo. Caso contrário, a execução da fonte de dados **Join** é executada na memória.
+Na fonte de dados **Join** configurada, quando todas as fontes de dados são do tipo **Registros de tabela**, a execução da fonte de dados Join pode ser [realizada no nível do banco de dados](#analyze) usando uma única instrução SQL. Essa instrução reduz o número de chamadas de banco de dados, o que melhora o desempenho do mapeamento do modelo. Caso contrário, a execução da fonte de dados **Join** é executada na memória.
 
 > [!NOTE]
 > Ainda não há suporte para o uso da função **VALUEIN** em expressões de ER que especificam condições para inclusão de registros em fontes de dados do tipo Join. Visite a página [Designer de fórmulas em relatórios eletrônicos](general-electronic-reporting-formula-designer.md) para obter mais detalhes sobre essa função.
@@ -79,7 +78,7 @@ Com antecedência, também é preciso fazer download no [Microsoft Download Cent
 
 1. Acesse o Finance ou o RCS na primeira sessão do seu navegador da Web.
 2. Ir para **Administração da organização \> Espaços de trabalho \> Relatório eletrônico**.
-3. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o provedor de configuração para a empresa de exemplo Litware, Inc. (http://www.litware.com) está listado e marcado como **Ativo**. Caso não veja este provedor de configuração, siga as etapas do procedimento [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
+3. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o provedor de configuração para a empresa de exemplo [Litware, Inc.](http://www.litware.com) está listado e marcado como **Ativo**. Caso não veja este provedor de configuração, siga as etapas do procedimento [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![Espaço de trabalho de relatório eletrônico](./media/GER-JoinDS-ActiveProvider.PNG)
 
@@ -96,20 +95,21 @@ Com antecedência, também é preciso fazer download no [Microsoft Download Cent
     2. Selecione **Carregar do arquivo XML**.
     3. Selecione **Procurar** para encontrar o arquivo **Mapeamento para conhecer fontes de dados JOIN.versão.1.1.xml**.
     4. Selecione **OK**.
-4.  Importe o arquivo de configuração do formato de ER.
+4. Importe o arquivo de configuração do formato de ER.
     1. Selecione **Taxa de câmbio**.
     2. Selecione **Carregar do arquivo XML**.
     3. Selecione **Procurar** para encontrar o arquivo **Formato para conhecer fontes de dados JOIN.versão.1.1.xml**.
     4. Selecione **OK**.
-5.  Na árvore de configurações, expanda o item **Modelo para conhecer fontes de dados JOIN**, bem como outros itens de modelo (quando disponíveis).
-6.  Observe a lista de configurações de ER na árvore e os detalhes da versão na guia rápida **Versões**. Tais informações serão usadas como fonte de dados no seu relatório de exemplo.
+5. Na árvore de configurações, expanda o item **Modelo para conhecer fontes de dados JOIN**, bem como outros itens de modelo (quando disponíveis).
+6. Observe a lista de configurações de ER na árvore e os detalhes da versão na guia rápida **Versões**. Tais informações serão usadas como fonte de dados no seu relatório de exemplo.
 
     ![Página de configurações de relatórios eletrônicos](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
 ### <a name="turn-on-execution-trace-options"></a>Ativar opções de rastreamento de execução
-1.  Selecione **CONFIGURAÇÕES**.
-2.  Selecione **Parâmetros de usuário**.
-3.  Defina os parâmetros de rastreamento de execução, conforme mostrado na captura de tela abaixo.
+
+1. Selecione **CONFIGURAÇÕES**.
+2. Selecione **Parâmetros de usuário**.
+3. Defina os parâmetros de rastreamento de execução, conforme mostrado na captura de tela abaixo.
 
     ![Página de parâmetros do usuário de relatórios eletrônicos](./media/GER-JoinDS-Parameters.PNG)
 
@@ -119,11 +119,11 @@ Com antecedência, também é preciso fazer download no [Microsoft Download Cent
 
 Revise as configurações do componente de mapeamento do modelo de ER. O componente está configurado para acessar informações sobre versões de configurações de ER, detalhes de configurações e provedores de configuração sem usar fontes de dados do tipo **Join**.
 
-1.  Selecione a configuração **Mapeamento para conhecer fontes de dados JOIN**.
-2.  Selecione **Designer** para abrir a lista de mapeamentos.
-3.  Selecione **Designer** para revisar os detalhes do mapeamento. 
-4.  Selecione **Mostrar detalhes**.
-5.  Na árvore de configurações, expanda os itens do modelo de dados **Set1** e **Set1.Details**:
+1. Selecione a configuração **Mapeamento para conhecer fontes de dados JOIN**.
+2. Selecione **Designer** para abrir a lista de mapeamentos.
+3. Selecione **Designer** para revisar os detalhes do mapeamento.
+4. Selecione **Mostrar detalhes**.
+5. Na árvore de configurações, expanda os itens do modelo de dados **Set1** e **Set1.Details**:
 
     1. A associação de **Details: Record list = Versions** indica que o item **Set1.Details** está vinculado à fonte de dados **Versões** retornando registros da tabela **ERSolutionVersionTable**. Cada registro desta tabela representa uma única versão de uma configuração de ER. O conteúdo desta tabela é apresentado na guia rápida **Versões** da página **Configurações**.
     2. A associação de **ConfigurationVersion: String = @.PublicVersionNumber** significa que o valor da versão pública da versão de cada configuração de ER é retirado do campo **PublicVersionNumber** da tabela **ERSolutionVersionTable** e colocado no item **ConfigurationVersion**.
@@ -132,19 +132,19 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set1Review.PNG)
 
-6.  Na árvore de configurações, expanda o item do modelo de dados **Set1.Summary**:
+6. Na árvore de configurações, expanda o item do modelo de dados **Set1.Summary**:
 
     1. A associação de **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indica que o item **Set1.Summary.VersionsNumber** está vinculado ao campo de agregação **VersionsNumber** da fonte de dados **VersionsSummary** do tipo **GroupBy** que foi configurado para retornar o número de registros da tabela **ERSolutionVersionTable** por meio da fonte de dados **Versões**.
 
     ![Página de parâmetros da fonte de dados GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
-7.  Feche a página.
+7. Feche a página.
 
 ### <a name="review-er-model-mapping-part-2"></a><a name="review"></a> Revisar o mapeamento do modelo de ER (parte 2)
 
 Revise as configurações do componente de mapeamento do modelo de ER. O componente está configurado para acessar informações sobre versões de configurações de ER, detalhes de configurações e provedores de configuração com o uso de fonte de dados do tipo **Join**.
 
-1.  Na árvore de configurações, expanda os itens do modelo de dados **Set2** e **Set2.Details**. Observe que a associação de **Details: Record list = Details** indica que o item **Set2.Details** está vinculado à fonte de dados **Detalhes** configurada como a fonte de dados do tipo **Join**.
+1. Na árvore de configurações, expanda os itens do modelo de dados **Set2** e **Set2.Details**. A associação de **Details: Record list = Details** indica que o item **Set2.Details** está vinculado à fonte de dados **Detalhes** configurada como a fonte de dados do tipo **Join**.
 
     ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set2Review.PNG)
 
@@ -152,16 +152,16 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-AddJoinDS.PNG)
 
-2.  Selecione a fonte de dados **Detalhes**.
-3.  Selecione **Editar** no painel **Fontes de dados**.
-4.  Selecione **Editar junção**.
-5.  Selecione **Mostrar detalhes**.
+2. Selecione a fonte de dados **Detalhes**.
+3. Selecione **Editar** no painel **Fontes de dados**.
+4. Selecione **Editar junção**.
+5. Selecione **Mostrar detalhes**.
 
     ![Página de parâmetros da fonte de dados JOIN](./media/GER-JoinDS-JoinDSEditor.PNG)
 
-    Esta página é usada para criar a fonte de dados necessária do **tipo Join**. No tempo de execução, essa fonte de dados criará uma única lista incluída de registros das fontes de dados na grade**Lista incluída**. A junção de registros começará na fonte de dados **ConfigurationProviders** que está na grade como a primeira (para ela, a coluna **Tipo** está em branco). Os registros de todas as outras fontes de dados serão incluídos, consequentemente, nos registros da fonte de dados original, com base em sua ordem nessa grade. Toda fonte de dados de junção deve ser configurada como uma fonte de dados aninhada em uma fonte de dados de destino (a fonte de dados **1Versions** está aninhada em **1Configurations**; a fonte de dados **1Configurations** está aninhada em **ConfigurationProviders**). Cada fonte de dados configurada deve conter as condições para a junção. Na fonte de dados do **Join**específico, as seguintes junções são definidas:
+    Esta página é usada para criar a fonte de dados necessária do **tipo Join**. No tempo de execução, essa fonte de dados criará uma única lista incluída de registros das fontes de dados na grade **Lista incluída**. A junção de registros começará na fonte de dados **ConfigurationProviders** que está na grade como a primeira (para ela, a coluna **Tipo** está em branco). Os registros de todas as outras fontes de dados serão incluídos, consequentemente, nos registros da fonte de dados original, com base em sua ordem nessa grade. Toda fonte de dados de junção deve ser configurada como uma fonte de dados aninhada em uma fonte de dados de destino (a fonte de dados `1Versions` está aninhada em um; a fonte de dados `1Configurations` está aninhada em **ConfigurationProviders** um). Cada fonte de dados configurada deve conter as condições para a junção. Na fonte de dados do **Join** específico, as seguintes junções são definidas:
 
-    - Cada registro da fonte de dados **ConfigurationProviders** (referido na tabela **ERVendorTable**) é associado apenas a registros de **1Configurations** (referidos na tabela **ERSolutionTable**) com o mesmo valor nos campos **SolutionVendor** e **RecId**. O tipo **Junção interna** é usado para essa associação, bem como as condições a seguir para registros correspondentes: 
+    - Cada registro da fonte de dados **ConfigurationProviders** (referido na tabela **ERVendorTable**) é associado apenas a registros de **1Configurations** (referidos na tabela **ERSolutionTable**) com o mesmo valor nos campos **SolutionVendor** e **RecId**. O tipo **Junção interna** é usado para essa associação, bem como as condições a seguir para registros correspondentes:
 
     FILTER (Configurations, Configurations.SolutionVendor = ConfigurationProviders.RecId)
 
@@ -171,32 +171,32 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     - A opção **Executar** está configurada como **Consulta**, ou seja, essa fonte de dados de junção será executada em tempo de execução no nível do banco de dados como uma chamada SQL direta.
 
-    Observe que, para incluir registros de fontes de dados que representam tabelas de aplicativos, é possível especificar condições de junção usando pares de campos diferentes daqueles que descrevem as relações existentes na AOT entre essas tabelas. Esse tipo de junção também pode ser configurado para ser executado no nível do banco de dados.
+    Para incluir registros de fontes de dados que representam tabelas de aplicativos, é possível especificar condições de junção usando pares de campos diferentes daqueles que descrevem as relações existentes na AOT entre essas tabelas. Esse tipo de junção também pode ser configurado para ser executado no nível do banco de dados.
 
-6.  Feche a página.
-7.  Selecione **Cancelar**.
-8.  Na árvore de configurações, expanda o item do modelo de dados **Set2.Summary**:
+6. Feche a página.
+7. Selecione **Cancelar**.
+8. Na árvore de configurações, expanda o item do modelo de dados **Set2.Summary**:
 
     - A associação de **VersionsNumber: Integer = DetailsSummary.aggregated.VersionsNumber** indica que o item **Set2.Summary.VersionsNumber** está vinculado ao campo de agregação **VersionsNumber** da fonte de dados **DetailsSummary** do tipo **GroupBy** que foi configurado para retornar o número de registros incluídos da fonte de dados **Detalhes** do tipo **Join**.
-    - Observe que a opção de local **Execução** está configurada como **Consulta**, ou seja, essa fonte de dados **GroupBy** será executada em tempo de execução como uma chamada SQL direta no nível do banco de dados. Isso é possível porque a fonte de dados base **Detalhes** do tipo **Join** está configurada como executada no nível do banco de dados.
+    - A opção de local **Execução** está configurada como **Consulta**, ou seja, essa fonte de dados **GroupBy** será executada em tempo de execução como uma chamada SQL direta no nível do banco de dados. Esse comportamento é possível porque a fonte de dados base **Detalhes** do tipo **Join** está configurada como executada no nível do banco de dados.
 
     ![Página de parâmetros da fonte de dados GROUPBY](./media/GER-JoinDS-Set2GroupByReview.PNG)
 
-9.  Feche a página.
+9. Feche a página.
 10. Selecione **Cancelar**.
 
 ### <a name="execute-er-format"></a><a name="executeERformat"></a> Executar formato de ER
 
-1.  Acesse o Finance ou o RCS na segunda sessão do seu navegador da Web, usando as mesmas credenciais e empresa da primeira sessão.
-2.  Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
-3.  Expanda a configuração **Modelo para conhecer fontes de dados JOIN**.
-4.  Selecione a configuração **Formato para conhecer fontes de dados JOIN**.
-5.  Selecione **Designer**.
-6.  Selecione **Mostrar detalhes**.
-7.  Selecione **Mapeamento**.
-8.  Selecione **Expandir/Recolher**.
+1. Acesse o Finance ou o RCS na segunda sessão do seu navegador da Web, usando as mesmas credenciais e empresa da primeira sessão.
+2. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+3. Expanda a configuração **Modelo para conhecer fontes de dados JOIN**.
+4. Selecione a configuração **Formato para conhecer fontes de dados JOIN**.
+5. Selecione **Designer**.
+6. Selecione **Mostrar detalhes**.
+7. Selecione **Mapeamento**.
+8. Selecione **Expandir/Recolher**.
 
-    Observe que esse formato foi criado para preencher um arquivo de texto gerado com uma nova linha para todas as versões de uma configuração de ER (sequência **Versão**). Cada linha gerada conterá o nome de um provedor de configuração que possui a configuração atual, o nome da configuração e a versão da configuração separados por ponto e vírgula. A linha final do arquivo gerado conterá o número de versões descobertas das configurações de ER (sequência **Resumo**).
+    Esse formato foi criado para preencher um arquivo de texto gerado com uma nova linha para todas as versões de uma configuração de ER (sequência **Versão**). Cada linha gerada conterá o nome de um provedor de configuração que possui a configuração atual, o nome da configuração e a versão da configuração separados por ponto e vírgula. A linha final do arquivo gerado conterá o número de versões descobertas das configurações de ER (sequência **Resumo**).
 
     ![Página de designer de formato de ER](./media/GER-JoinDS-FormatReview.PNG)
 
@@ -207,7 +207,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     ![Página de designer de formato de ER](./media/GER-JoinDS-FormatMappingReview.PNG)
 
-9.  Selecione **Executar**.
+9. Selecione **Executar**.
 10. Na página de diálogo, selecione **Não** no campo **Usar fontes de dados JOIN**.
 11. Selecione **OK**.
 12. Revise o arquivo gerado.
@@ -216,38 +216,38 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
 #### <a name="analyze-er-format-execution-trace"></a>Analisar rastreio de execução do formato de ER
 
-1.  Na primeira sessão do Finance ou RCS, selecione **Designer**.
-2.  Selecione **Rastreamento de desempenho**.
-3.  Na grade **Rastreamento de desempenho**, selecione o registro mais superior do rastreamento de execução mais recente de um formato de ER em que foi usado o componente de mapeamento do modelo atual.
-4.  Selecione **OK**.
+1. Na primeira sessão do Finance ou RCS, selecione **Designer**.
+2. Selecione **Rastreamento de desempenho**.
+3. Na grade **Rastreamento de desempenho**, selecione o registro mais superior do rastreamento de execução mais recente de um formato de ER em que foi usado o componente de mapeamento do modelo atual.
+4. Selecione **OK**.
 
-    Observe que as estatísticas de execução informam sobre chamadas duplicadas para tabelas de aplicativos:
+    As estatísticas de execução informam sobre chamadas duplicadas para tabelas de aplicativos:
 
     - **ERSolutionTable** foi chamado na mesma proporção de vezes em que houve registros de versão de configuração na tabela **ERSolutionVersionTable**, enquanto o número dessas chamadas pode ser reduzido em vários momentos para melhorar o desempenho.
     - **ERVendorTable** foi chamado duas vezes para cada registro de versão de configuração que foi descoberto na tabela **ERSolutionVersionTable**, enquanto o número dessas chamadas também pôde ser reduzido.
 
     ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set1Run2.PNG)
 
-5.  Feche a página.
+5. Feche a página.
 
 ### <a name="execute-er-format"></a>Executar formato de ER
 
-1.  Alterne para a guia do navegador da Web com a segunda sessão do Finance ou RCS.
-2.  Selecione **Executar**.
-3.  Na página de diálogo, selecione **Sim** no campo **Usar fontes de dados JOIN**.
-4.  Selecione **OK**.
-5.  Revise o arquivo gerado.
+1. Alterne para a guia do navegador da Web com a segunda sessão do Finance ou RCS.
+2. Selecione **Executar**.
+3. Na página de diálogo, selecione **Sim** no campo **Usar fontes de dados JOIN**.
+4. Selecione **OK**.
+5. Revise o arquivo gerado.
 
     ![Página de diálogo do usuário de ER](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analisar rastreio de execução do formato de ER
 
-1.  Na primeira sessão do Finance ou RCS, selecione **Designer**.
-2.  Selecione **Rastreamento de desempenho**.
-3.  Na grade **Rastreamento de desempenho**, selecione o registro mais superior representando o rastreamento de execução mais recente de um formato de ER em que foi usado o componente de mapeamento do modelo atual.
-4.  Selecione **OK**.
+1. Na primeira sessão do Finance ou RCS, selecione **Designer**.
+2. Selecione **Rastreamento de desempenho**.
+3. Na grade **Rastreamento de desempenho**, selecione o registro mais superior representando o rastreamento de execução mais recente de um formato de ER em que foi usado o componente de mapeamento do modelo atual.
+4. Selecione **OK**.
 
-    Observe que as estatísticas de execução informam sobre o seguinte:
+    As estatísticas o informam sobre o seguinte:
 
     - O banco de dados do aplicativo foi chamado uma vez para obter registros das tabelas **ERVendorTable**, **ERSolutionTable** e **ERSolutionVersionTable** para acessar os campos obrigatórios.
 
@@ -289,4 +289,3 @@ Quando a fonte de dados configurada é executada enquanto a execução de ER é 
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Rastrear a execução do formato ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
-

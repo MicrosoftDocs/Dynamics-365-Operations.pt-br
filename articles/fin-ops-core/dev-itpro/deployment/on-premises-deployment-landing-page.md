@@ -3,26 +3,25 @@ title: Home page Implantação local
 description: Este tópico fornece informações e vincula a conteúdo sobre implantações locais.
 author: sericks007
 manager: AnnBe
-ms.date: 05/11/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 90285c8f2e0e86e04c8f2ac401c324c888740e99
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 54d236b7bca3e4529d5fff3ef71a2679b785a1a5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367049"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679335"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page Implantação local
 
@@ -67,10 +66,9 @@ Você pode implantar o Dynamics 365 Finance + Operations (local). Quando você e
 
 ## <a name="other-resources"></a>Outros recursos
 - [Solucionar problemas de implantações locais](troubleshoot-on-prem.md)
-- [Scripts para resolução de problemas em ambientes internos de locais](onprem-tsg-implementations.md)
+- [Scripts para resolver problemas em ambientes locais](onprem-tsg-implementations.md)
 - [Rotação de certificados](certificate-rotation-on-prem.md)
 - [Diagnósticos locais](on-premises-diagnostics.md)
-- [Recursos não implementados em implantações locais](../../fin-ops/get-started/features-not-implemented-on-prem.md)
 - [Recursos removidos ou preteridos de Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Política de ciclo de vida do software e versões locais](../migration-upgrade/on-prem-version-update-policy.md)
  

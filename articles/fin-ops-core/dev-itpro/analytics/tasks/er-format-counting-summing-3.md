@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner, ERDataSourceAddDropDialog, ERExpressionDesignerFormula, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8a4965c07c5a084b21da40667747db36530284c
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: b26a7f50a2237e0d3d756f8eebf2e4cd81f24683
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3141939"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684658"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-3---use-computations-to-make-the-output"></a>ER Configurar o formato para fazer contagem e soma (Parte 3 - Usar cálculos para criar a saída)
 
@@ -127,7 +126,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 73. Clique em Editar fórmula.
     * Crie saídas que serão o total do valor da fatura para cada bloco apresentado neste relatório.  
 74. No campo Fórmula, insira '"Soma do valor faturado: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))'.
-    * "Soma do valor faturado: " & TEXT(SUMIFS (SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))  
+    * "Soma do valor faturado: " & TEXT(SUMIFS('$InvName', '$BlockName', '$BlocksList'.Value, '$RecName', "*"))  
 75. Clique em Salvar.
 76. Feche a página.
 77. Clique em Salvar.

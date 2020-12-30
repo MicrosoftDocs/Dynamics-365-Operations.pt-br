@@ -1,6 +1,6 @@
 ---
-title: Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Common Data Service
-description: Este tópico explica como você pode determinar se a gravação dupla está configurada em aplicativos Finance and Operations e em Common Data Service.
+title: Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Dataverse
+description: Este tópico explica como você pode determinar se a gravação dupla está configurada em aplicativos Finance and Operations e em Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,41 +18,43 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2ddac76871a3ac574a1edcb5446be6c64e5e4682
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997221"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685530"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-common-data-service"></a>Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Common Data Service
+# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
-Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Common Data Service. Especificamente, ele explica como você pode determinar se a gravação dupla está configurada em aplicativos Finance and Operations e em Common Data Service.
+
+Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele explica como você pode determinar se a gravação dupla está configurada em aplicativos Finance and Operations e em Dataverse.
 
 ## <a name="verify-that-dual-write-is-configured-in-a-finance-and-operations-app"></a>Verifique se a gravação dupla está configurada em um aplicativo Finance and Operations
 
-Para determinar se os erros que você vê ao tentar salvar registros para atualização são provenientes de duas gravações, verifique primeiro se a gravação dupla está configurada.
+Para determinar se os erros que você vê ao tentar salvar linhas para atualização são provenientes de duas gravações, verifique primeiro se a gravação dupla está configurada.
 
-+ Se você tiver privilégios de administrador no aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**. Se os detalhes dos ambientes vinculados e a lista de mapas de entidade que estão sendo executados são exibidos, a gravação dupla é configurada.
++ Se você tiver privilégios de administrador no aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**. Se os detalhes dos ambientes vinculados e a lista de mapas de tabela que estão sendo executados são exibidos, a gravação dupla é configurada.
 
     ![Verificando a conexão do aplicativo Finance and Operations quando você tem privilégios administrativos](media/verify_fin_ops_1.png)
 
-+ Se você não tiver privilégios de administrador, receberá uma mensagem de erro *Não é possível gravar dados na entidade \<entity name\>*. No exemplo da ilustração a seguir, não é possível criar um registro de cliente no aplicativo Finance and Operations, porque a gravação dupla está configurada, mas o grupo de clientes e os dados de referência das condições de pagamento não existem no Common Data Service.
++ Se você não tiver privilégios de administrador, receberá uma mensagem de erro *Não é possível gravar dados na entidade \<entity name\>*. No exemplo da ilustração a seguir, não é possível criar uma linha de cliente no aplicativo Finance and Operations, porque a gravação dupla está configurada, mas o grupo de clientes e os dados de referência das condições de pagamento não existem no Dataverse.
 
     ![Verificando a conexão do aplicativo Finance and Operations quando você não tem privilégios administrativos](media/verify_fin_ops_2.png)
 
 Para obter informações sobre como corrigir problemas ao criar dados em aplicativos Finance and Operations, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
 
-## <a name="verify-that-dual-write-is-configured-in-common-data-service"></a>Verifique se a gravação dupla está configurada em Common Data Service
+## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Verifique se a gravação dupla está configurada em Dataverse
 
-Ao criar dados, se você vir o campo **Empresa** em páginas no Common Data Service, a gravação dupla é configurada.
+Ao criar dados, se você vir o campo **Empresa** em páginas no Dataverse, a gravação dupla é configurada.
 
-![Verificando a conexão Common Data Service](media/verify_cds.png)
+![Verificando a conexão Dataverse](media/verify_cds.png)
 
-Para obter informações sobre como corrigir problemas ao criar dados em Common Data Service, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
+Para obter informações sobre como corrigir problemas ao criar dados em Dataverse, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
 
-Para obter informações sobre como exibir detalhes de erro se você encontrar algum erro ao criar dados no Common Data Service, consulte [Habilitar e exibir o log de rastreamento de plug-in no Common Data Service para exibir os detalhes de erro ](dual-write-troubleshooting.md#enable-and-view-the-plug-in-trace-log-in-common-data-service-to-view-error-details).
+Para obter informações sobre como exibir detalhes de erro se você encontrar algum erro ao criar dados no Dataverse, consulte [Habilitar e exibir o log de rastreamento de plug-in no Dataverse para exibir os detalhes de erro ](dual-write-troubleshooting.md#enable-view-trace).

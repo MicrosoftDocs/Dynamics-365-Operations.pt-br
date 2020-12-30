@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 8747df5513cab16ee3b609f405740e660753e086
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: fb43be5e57758664c5e17e48db5b9c38630b2ded
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2812523"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694980"
 ---
 # <a name="new-or-updated-task-guides-august-2016"></a>Guias de tarefas novos ou atualizados (agosto de 2016)
 
@@ -32,7 +31,7 @@ Este tópico lista as Guias de tarefas novas ou atualizadas que foram lançadas 
 
 ## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>As Guias de tarefas na Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) para Microsoft Dynamics AX
 
-A Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) contém as Guias de tarefas que devem ser usadas para Ajuda com a atualização 2 (agosto de 2016) da plataforma do Microsoft Dynamics AX, a atualização do aplicativo Dynamics AX de maio de 2016 e a versão do Microsoft Dynamics AX de fevereiro de 2016. Para obter mais informações sobre essas versões, consulte [Novidades ou alterações na home page do Finance and Operations](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema da Ajuda à uma biblioteca de Guia de tarefas, consulte [Sistema da Ajuda](help-overview.md).
+A Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) contém as Guias de tarefas que devem ser usadas para Ajuda com a atualização 2 (agosto de 2016) da plataforma do Microsoft Dynamics AX, a atualização do aplicativo Dynamics AX de maio de 2016 e a versão do Microsoft Dynamics AX de fevereiro de 2016. Para mais informações sobre essas versões, consulte a [home page Novidades ou alterações do Finance and Operations](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema da Ajuda à uma biblioteca de Guia de tarefas, consulte [Sistema da Ajuda](help-overview.md).
 
 ### <a name="data-access"></a>Acesso a dados
 

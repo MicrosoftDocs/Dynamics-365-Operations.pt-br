@@ -1,28 +1,27 @@
 ---
 title: Inserir saldos iniciais de folha de pagamento
 description: Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos. Essas informações são importantes para que os Parceiros migrem ou transfiram dados de outro sistema para uma nova implementação de folha de pagamento.
-author: kherr75
+author: andreabichsel
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4bb8f565f5bf5630a7c5f8602b96e569692bc7c
-ms.sourcegitcommit: 40163705a134c9874fd33be80c7ae59ccce22c21
+ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "3005669"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693393"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
 

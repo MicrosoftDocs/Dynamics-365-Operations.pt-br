@@ -18,33 +18,35 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 7e1f70d95f29dc154044f09c6020300a8e4f8987
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997469"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683715"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Você pode aumentar o número de casas decimais com suporte para os valores de moeda para um máximo de 10. O limite padrão é quatro casas decimais. Ao aumentar o número de casas decimais, você ajuda a prevenir a perda de dados usando a gravação dupla para sincronizar dados. O aumento no número de casas decimais é uma alteração de adesão. Para implementá-la, é necessário solicitar assistência da Microsoft.
 
 O processo de alterar o número de casas decimais tem duas etapas:
 
 1. Solicite a migração da Microsoft.
-2. Altere o número de casas decimais no Common Data Service.
+2. Altere o número de casas decimais no Dataverse.
 
-O aplicativo Finance and Operations e o Common Data Service devem oferecer suporte ao mesmo número de casas decimais nos valores de moeda. Caso contrário, pode haver perda de dados quando essas informações forem sincronizadas entre aplicativos. O processo de migração reconfigura a maneira como os valores de moeda e da taxa de câmbio são armazenados, mas não altera nenhum dado. Após a conclusão da migração, é possível aumentar o número de casas decimais para códigos de moeda e preços, e os dados que os usuários inserem e visualizam poderão ter maior precisão decimal.
+O aplicativo Finance and Operations e o Dataverse devem oferecer suporte ao mesmo número de casas decimais nos valores de moeda. Caso contrário, pode haver perda de dados quando essas informações forem sincronizadas entre aplicativos. O processo de migração reconfigura a maneira como os valores de moeda e da taxa de câmbio são armazenados, mas não altera nenhum dado. Após a conclusão da migração, é possível aumentar o número de casas decimais para códigos de moeda e preços, e os dados que os usuários inserem e visualizam poderão ter maior precisão decimal.
 
 A migração é opcional. Se você puder se beneficiar com o suporte para mais casas decimais, recomendamos que considere a migração. As organizações que não exigem valores com mais de quatro casas decimais não precisam migrar.
 
 ## <a name="requesting-migration-from-microsoft"></a>Solicitando a migração da Microsoft
 
-O armazenamento para campos de moeda existentes no Common Data Service não pode oferecer suporte para mais de quatro casas decimais. Portanto, durante o processo de migração, os valores de moeda são copiados para novos campos internos no banco de dados. Esse processo ocorre continuamente até que todos os dados tenham sido migrados. Internamente, no final da migração, os novos tipos de armazenamento substituem os tipos de armazenamento antigos, mas os valores dos dados permanecem inalterados. Os campos de moeda podem oferecer suporte para até 10 casas decimais. Durante o processo de migração, o Common Data Service pode continuar sendo usado sem interrupção.
+O armazenamento para campos de moeda existentes no Dataverse não pode oferecer suporte para mais de quatro casas decimais. Portanto, durante o processo de migração, os valores de moeda são copiados para novos campos internos no banco de dados. Esse processo ocorre continuamente até que todos os dados tenham sido migrados. Internamente, no final da migração, os novos tipos de armazenamento substituem os tipos de armazenamento antigos, mas os valores dos dados permanecem inalterados. Os campos de moeda podem oferecer suporte para até 10 casas decimais. Durante o processo de migração, o Dataverse pode continuar sendo usado sem interrupção.
 
-Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo Finance and Operations e no Common Data Service.
+Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo Finance and Operations e no Dataverse.
 
 A migração não altera os dados. Depois que os campos de moeda e taxa de câmbio forem convertidos, os administradores podem configurar o sistema para usar até 10 casas decimais para campos de moeda ao especificar o número de casas decimais para cada moeda da transação e para preços.
 
@@ -61,12 +63,12 @@ Ao solicitar uma migração, esteja ciente dos seguintes detalhes e estabeleça 
 
 + O tempo necessário para migrar os dados depende da quantidade de dados no sistema. A migração de bancos de dados grandes pode demorar vários dias.
 + O tamanho do banco de dados aumenta temporariamente enquanto a migração está sendo executada, pois é necessário espaço adicional para os índices. A maior parte do espaço adicional é liberada quando a migração é concluída.
-+ Durante o processo de migração, se ocorrerem erros que impedem a conclusão da migração, o sistema gera alertas para o Suporte da Microsoft, para que a equipe de Suporte possa intervir. No entanto, mesmo se ocorrer erros durante a migração, o Common Data Service permanecerá totalmente disponível para uso regular.
++ Durante o processo de migração, se ocorrerem erros que impedem a conclusão da migração, o sistema gera alertas para o Suporte da Microsoft, para que a equipe de Suporte possa intervir. No entanto, mesmo se ocorrer erros durante a migração, o Dataverse permanecerá totalmente disponível para uso regular.
 + O processo de migração é irreversível.
 
 ## <a name="changing-the-number-of-decimal-places"></a>Alterar o número de casas decimais
 
-Depois que a migração for concluída, o Common Data Service pode armazenar números com mais casas decimais. Os administradores podem escolher quantas casas decimais são usadas para códigos de moeda específicos e para preços. Os usuários do Microsoft Power Apps, Power BI e Power Automate podem exibir e usar números com mais casas decimais.
+Depois que a migração for concluída, o Dataverse pode armazenar números com mais casas decimais. Os administradores podem escolher quantas casas decimais são usadas para códigos de moeda específicos e para preços. Os usuários do Microsoft Power Apps, Power BI e Power Automate podem exibir e usar números com mais casas decimais.
 
 Para fazer essa alteração, atualize as seguintes configurações no Power Apps:
 
@@ -80,16 +82,16 @@ Estas são algumas limitações:
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Configurações do Sistema: Precisão da moeda para precificação
 
-Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral** , altere o valor do campo **Defina o número de decimais da moeda que será usada para precificação em todo o sistema** , conforme mostrado na ilustração a seguir.
+Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral**, altere o valor do campo **Defina o número de decimais da moeda que será usada para precificação em todo o sistema**, conforme mostrado na ilustração a seguir.
 
 ![Configurações do sistema para moeda](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gerenciamento de Negócios: Moedas
 
-Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios** , selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina o campo **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
+Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios**, selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina o campo **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
 
 ![Configurações de moeda para uma localidade específica](media/specific-currency.png)
 
-### <a name="entities-currency-field"></a>Entidades: Campo Moeda
+### <a name="tables-currency-field"></a>tabelas: campo Moeda
 
 O número de casas decimais que podem ser configuradas para campos de moeda específicos é limitado a quatro.

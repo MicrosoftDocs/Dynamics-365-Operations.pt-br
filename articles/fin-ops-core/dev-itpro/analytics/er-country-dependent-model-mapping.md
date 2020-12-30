@@ -1,6 +1,6 @@
 ---
 title: Configurar mapeamentos de modelo de ER dependente do contexto do país
-description: Este tópico explica como você pode configurar os mapeamentos modelo de ER de forma que dependam do contexto  de país/região da entidade legal que controla seu uso.
+description: Este tópico explica como você pode configurar os mapeamentos modelo de ER de forma que dependam do contexto de país/região da entidade legal que controla seu uso.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/11/2019
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: 6c4b18a3cf2ba313756d5f761ef1beb2c3015516
-ms.sourcegitcommit: 56add4c49c35c65a75fa2ca5234927e7f7cd66ef
+ms.openlocfilehash: a9035f128a1db4bcd126f09c0fe30c1857fa884a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "2781136"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680866"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar mapeamentos de modelo de ER dependente do contexto do país
 
@@ -202,7 +201,7 @@ Na tabela, um sinal de adição (+) indica a presença de uma configuração de 
 
 Observe que um novo registro foi adicionado ao log de depuração de ER para o formato de ER executado. Como o campo **Nível** deste registro foi definido como **Informações**, o registro é informativo. Como o campo Formatar componente foi definido como **Configuração de mapeamento**, o registro informa sobre um mapeamento do modelo que foi usado durante a execução do formato de ER **Formato para aprender mapeamentos** (selecionado no campo **Nome da configuração**). O conteúdo do campo **Texto gerado** informa que o componente de mapeamento **Mapeamento (FR)** que reside na configuração **Mapeamento (FR)** foi usado para executar esse relatório.
 
-## <a name="appendix1"></a> Apêndice 1
+## <a name="appendix-1"></a><a name="appendix1"></a> Apêndice 1
 
 ### <a name="configure-a-sample-data-model"></a>Configurar um modelo de dados de exemplo
 
@@ -343,7 +342,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 4.  Selecione **Salvar**.
 5.  Feche a página.
 
-## <a name="appendix2"></a> Apêndice 2
+## <a name="appendix-2"></a><a name="appendix2"></a> Apêndice 2
 
 ### <a name="configure-a-sample-model-mapping-for-general-customization"></a>Configurar um mapeamento do modelo de exemplo para personalização geral
 
@@ -403,7 +402,7 @@ Observe que a versão de rascunho 1 dessa configuração de ER está pronta para
 
 Observe que a configuração criada será salva como a versão 1 concluída.
 
-## <a name="appendix3"></a> Apêndice 3
+## <a name="appendix-3"></a><a name="appendix3"></a> Apêndice 3
 
 ### <a name="configure-a-sample-model-mapping-for-countryregion-specific-customization"></a>Configurar um mapeamento do modelo de exemplo para personalização específica do país/região
 

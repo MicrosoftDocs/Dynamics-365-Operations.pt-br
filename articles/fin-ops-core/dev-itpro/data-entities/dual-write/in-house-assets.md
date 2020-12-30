@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 0e87a3d645c19fab3bb0560ba5114d193e2d0be7
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: ebc9c1fbb7c0738af13b2a16aafeeb03fa6aaed0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997161"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683996"
 ---
 # <a name="in-house-assets-for-servicing"></a>Ativos internos para manutenção
 
@@ -37,7 +37,7 @@ Para obter mais informações, consulte [Integras Dynamics 365 Field Service e S
 
 ## <a name="templates"></a>Modelos
 
-Ativos internos incluem um conjunto de mapas de entidades centrais que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
+Ativos internos incluem um conjunto de mapas de tabelas centrais que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
 | Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
 |-----------------------------|-----------------------------------|-------------|

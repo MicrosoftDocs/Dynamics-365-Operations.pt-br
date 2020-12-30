@@ -3,24 +3,23 @@ title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 04/21/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b25edf9fe09c130ea3d55b11f2698b29c7a39a8b
-ms.sourcegitcommit: e9fadf6f6dafdcefaff8e23eaa3c85f53437db3f
+ms.openlocfilehash: 3af49d9355f37e0016f491ed37050f75bbc65d72
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "3278889"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684051"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -130,7 +129,7 @@ Um trabalho pode ser protegido por funções, usuários e por entidade legal sim
 Você pode executar um trabalho uma vez, selecionando o botão **Importar** ou **Exportar** após definir o trabalho. Para configurar um trabalho recorrente, selecione **Criar trabalho de dados recorrente**.
 
 > [!NOTE]
-> Um trabalho de importação ou exportação pode ser executado de forma assíncrona selecionando o botão **Importar** ou **Exportar**. A execução assíncrona usa a estrutura assíncrona, que é diferente da estrutura de lotes. No entanto, como a estrutura em lote, a estrutura assíncrona também pode sofrer limitação e, como resultado, o trabalho pode não ser executado imediatamente. Os trabalhos também podem ser executados de forma síncrona selecionando **Importar agora** ou **Exportar agora**. Isso inicia o trabalho imediatamente e é útil se a forma assíncrona ou um lote não for iniciada por limitação. Os trabalhos também podem ser executados em lote escolhendo a opção **Executar em lotes**. Como os recursos em lote estão sujeitos a limitação, o trabalho em lotes pode não ser iniciado imediatamente. A opção assíncrona é útil quando os usuários interagem diretamente com a interface do usuário e não são usuários experientes para entender o agendamento em lote. Usar um lote será uma opção alternativa se grandes volumes precisarem ser importados ou exportados. Os trabalhos em lotes podem ser programadas para serem executadas em um grupo de lotes específico, o que permite mais controle de uma perspectiva de balanceamento de carga. Se as formas assíncrona e em lote estiverem sofrendo limitação por alta utilização de recursos no sistema, como uma solução imediata, a versão síncrona de importação/exportação pode ser usada. A opção síncrona iniciará imediatamente e bloqueará a interface do usuário porque está sendo executada de forma síncrona. A janela do navegador deve permanecer aberta quando a operação síncrona estiver em andamento.
+> Um trabalho de importação ou exportação pode ser executado selecionando o botão **Importar** ou **Exportar**. Isso agendará um trabalho em lotes para ser executado apenas uma vez. O trabalho pode não ser executado imediatamente se o serviço de lote estiver limitado devido à carga no serviço de lote. Os trabalhos também podem ser executados de forma síncrona selecionando **Importar agora** ou **Exportar agora**. Isso inicia o trabalho imediatamente e é útil se o lote não for iniciado por limitação. Os trabalhos também podem ser programados para execução posterior. Isso pode ser feito escolhendo a opção **Executar em lote**. Como os recursos em lote estão sujeitos a limitação, o trabalho em lotes pode não ser iniciado imediatamente. O uso de um lote é a opção recomendada porque também ajudará com grandes volumes de dados que precisam ser importados ou exportados. Os trabalhos em lotes podem ser programadas para serem executadas em um grupo de lotes específico, o que permite mais controle de uma perspectiva de balanceamento de carga.
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>Validar se o trabalho foi executado conforme esperado
 O histórico de trabalho está disponível para solução de problemas e investigação sobre trabalhos de importação e exportação. As execuções do histórico do trabalho são organizadas por intervalos de tempo.
@@ -195,7 +194,7 @@ A funcionalidade de limpeza de histórico de trabalho no gerenciamento de dados 
 
 -   DMFDEFINITIONGROUPEXECUTION
 
-A funcionalidade deve ser habilitada no gerenciamento de recursos e pode ser acessada em **Gerenciamento de dados \> Limpeza de histórico de trabalho**.
+O recurso **Limpar histórico de execução** deve ser habilitada no gerenciamento de recursos e pode ser acessada em **Gerenciamento de dados \> Limpar histórico de trabalho**.
 
 ### <a name="scheduling-parameters"></a>Agendamento de parâmetros
 
@@ -211,3 +210,36 @@ Ao agendar o processo de limpeza, os parâmetros a seguir devem ser especificado
 
 > [!NOTE]
 > Se os registros nas tabelas de preparo não forem completamente limpos, verifique se o trabalho de limpeza está programado para ser executado em recorrência. Conforme explicado acima, em qualquer execução de limpeza, o trabalho limpará apenas o maior número possível de IDs de execução dentro das horas máximas fornecidas. Para continuar a limpeza de todos os registros de preparo restantes, o trabalho deve ser agendado para ser executado periodicamente.
+
+## <a name="job-history-clean-up-and-archival-available-for-preview-in-platform-update-39-or-version-10015"></a>Limpeza e arquivamento de histórico de trabalho (disponível para visualização na atualização de plataforma 39 ou versão 10.0.15)
+A funcionalidade de limpeza e arquivamento do histórico de trabalho substitui as versões anteriores da funcionalidade de limpeza. Esta seção explicará esses novos recursos.
+
+Uma das principais alterações feitas na funcionalidade de limpeza é o uso do trabalho em lotes do sistema para limpar o histórico. O uso do trabalho em lotes do sistema permite que aplicativos do Finance and Operations agendem e executem automaticamente o trabalho em lote de limpeza assim que o sistema estiver pronto. Não é mais necessário agendar o trabalho em lotes manualmente. Neste modo de execução padrão, o trabalho em lotes será executado de hora em hora a partir da meia-noite e manterá o histórico de execução dos 7 dias mais recentes. O histórico removido é arquivado para recuperação futura.
+
+> [!NOTE]
+> Como essa funcionalidade está na versão prévia, o trabalho em lotes do sistema não excluirá nenhum histórico de execução até que seja habilitado por meio da versão piloto DMFEnableExecutionHistoryCleanupSystemJob. Quando o recurso estiver amplamente disponível em uma versão futura, essa versão piloto não será necessária e o trabalho em lotes do sistema começará a ser limpo e arquivado depois que o sistema estiver pronto, com base no agendamento definido, conforme explicado acima. 
+
+> [!NOTE]
+> Em uma versão futura, as versões anteriores da funcionalidade de limpeza serão removidas dos aplicativos Finance and Operations.
+
+A segunda alteração no processo de limpeza é o arquivamento do histórico de execução removido. O trabalho de limpeza arquivará os registros excluídos no armazenamento de blobs que o DIXF usa para integrações normais. O item arquivado estará no formato de pacote DIXF e ficará disponível por 7 dias no blob durante os quais ele pode ser baixado. A longevidade padrão de 7 dias do item arquivado pode ser alterada para um máximo de 90 dias nos parâmetros.
+
+### <a name="changing-the-default-settings"></a>Alterar as configurações padrão
+No momento, essa funcionalidade está na versão prévia e deve ser explicitamente ativada habilitando a versão piloto DMFEnableExecutionHistoryCleanupSystemJob. O recurso de limpeza de preparo também deve ser ativado no gerenciamento de recursos.
+
+Para alterar a configuração padrão para a longevidade do item arquivado, vá para o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Defina **Dias para reter o pacote em blob** como um valor entre 7 e 90 (inclusos). Isso entrará em vigor nos arquivos criados depois que essa alteração tiver sido feita.
+
+### <a name="downloading-the-archived-package"></a>Baixar o pacote arquivado
+No momento, essa funcionalidade está na versão prévia e deve ser explicitamente ativada habilitando a versão piloto DMFEnableExecutionHistoryCleanupSystemJob. O recurso de limpeza de preparo também deve ser ativado no gerenciamento de recursos.
+
+Para baixar o histórico de execução arquivado, vá para o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Selecione **Histórico de backup de pacote** para abrir o formulário histórico. Este formulário mostra a lista de todos os pacotes arquivados. É possível selecionar e baixar um arquivo morto ao selecionar o **Baixar pacote**. O pacote baixado estará no formato de pacote DIXF e contém os seguintes arquivos:
+
+-   O arquivo da tabela de preparo da entidade
+-   DMFDEFINITIONGROUPEXECUTION
+-   DMFDEFINITIONGROUPEXECUTIONHISTORY
+-   DMFEXECUTION
+-   DMFSTAGINGEXECUTIONERRORS
+-   DMFSTAGINGLOG
+-   DMFSTAGINGLOGDETAILS
+-   DMFSTAGINGVALIDATIONLOG
+

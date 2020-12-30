@@ -1,7 +1,7 @@
 ---
 title: Criar novos usuários
 description: Os usuários são funcionários internos da sua organização, ou clientes e fornecedores externos, que precisam de acesso ao sistema para realizar seus trabalhos.
-author: maertenm
+author: peakerbl
 manager: AnnBe
 ms.date: 06/08/2020
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sericks
+ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e84130ff2b1cf83b7d2b95eefc72175dc57743c
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 6f861b7493d039b332358be7df7d0198cbadcb7a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3982493"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679831"
 ---
 # <a name="create-new-users"></a>Criar novos usuários
 

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cc7de1473ed6ec9b93bd880b47b0c25ec5a7262
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 214a36a1284756e47aa1d28af99234657f1861c0
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2185189"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688274"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
 
@@ -161,7 +160,7 @@ A formatação que é especificada na definição de coluna substitui a formata�
 
 1. No Report Designer, abra a definição de linha a ser modificada.
 2. Selecione as células para formatar. Para selecionar várias células, mantenha pressionada a tecla CTRL enquanto seleciona a célula.
-3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar recuo** ![Aumentar recuo](media/indent.gif "Aumentar recuo") na barra de ferramentas.
+3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar Recuo** ![Aumentar Recuo](media/indent.gif "Aumentar Recuo") na barra de ferramentas.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajuste colunas ao criar relatórios
 

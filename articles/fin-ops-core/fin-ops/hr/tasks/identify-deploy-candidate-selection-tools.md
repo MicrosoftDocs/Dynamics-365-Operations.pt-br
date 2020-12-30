@@ -3,7 +3,7 @@ title: Identificar e implantar ferramentas de seleção de candidato
 description: Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades.
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 11/20/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d8a05ad7f100e6c54ccf1ecf7b76509cf44dbb8
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: f4e7ed6feaa1b5b27fcfc0ec99a2d75415fe7d6a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143940"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693055"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implantar ferramentas de seleção de candidato
 
@@ -39,17 +38,17 @@ Localizar um grupo de candidatos qualificado para preencher vagas pode ser difí
 7. Clique em Trabalho.
 8. No campo Trabalho, insira ou selecione um valor.
 9. Clique em OK.
-10. Expanda a guia rápida do intervalo, e adicione outras informações, como o departamento.
-11. Expanda a guia dos certificados rapidamente para exibir ou editar os certificados.
-12. Expanda a guia Habilidades rapidamente para exibir ou editar as habilidades.
-13. Expanda a guia rápida de Educação para exibir ou editar os critérios de formação educacional.
+10. Expanda a Guia Rápida Intervalo, e adicione outras informações, como o departamento.
+11. Expanda a Guia Rápida Certificados rapidamente para exibir ou editar os certificados.
+12. Expanda a Guia Rápida Habilidades para exibir ou editar as habilidades.
+13. Expanda a Guia Rápida Educação para exibir ou editar os critérios de formação educacional.
 14. Clique em Executar.
 15. Clique em OK.
 16. Clique em Resultado.
 17. Clique em Resultado.
 18. Clique em Continuar.
 19. Clique em Certificados.
-    * Você pode se aprofundar mais sobre cada pessoa listada e ver detalhes referentes a formação educacional, as habilidades, experiência profissional, etc.  
+    * Você pode se aprofundar mais sobre cada pessoa listada e ver detalhes referentes à formação educacional, às habilidades e à experiência profissional.  
 20. Feche a página.
 21. Feche a página.
 22. Selecione o resultado novamente.

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 195703
 ms.assetid: cd5554a4-210c-4c20-a7d3-4b1563c2b5df
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7a953d4e781db42834f0bc8daf80040c39ea5b5c
-ms.sourcegitcommit: e55efd2f62bf60f678108c09ad4701a76b20cc68
+ms.openlocfilehash: 957246ac9a758de9f420b9c672520dcb07c43a69
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "3698110"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693945"
 ---
 # <a name="configure-conditional-decisions-in-a-workflow"></a>Configurar decisões condicionais em um fluxo de trabalho
 
@@ -30,7 +29,7 @@ ms.locfileid: "3698110"
 
 Use os procedimentos a seguir para configurar as propriedades da decisão condicional.
 
-Uma decisão condicional é um ponto em que um fluxo de trabalho se divide em duas ramificações. Para configurar uma decisão condicional, no editor de fluxo de trabalho, clique com o botão direito do mouse na decisão condicional e, em seguida, em **Propriedades** para abrir o formulário**Propriedades**.
+Uma decisão condicional é um ponto em que um fluxo de trabalho se divide em duas ramificações. Para configurar uma decisão condicional, no editor de fluxo de trabalho, clique com o botão direito do mouse na decisão condicional e, em seguida, em **Propriedades** para abrir o formulário **Propriedades**.
 
 ## <a name="name-a-decision"></a>Nomeie uma decisão
 

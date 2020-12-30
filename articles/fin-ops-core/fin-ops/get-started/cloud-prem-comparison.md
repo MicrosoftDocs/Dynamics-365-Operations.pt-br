@@ -3,26 +3,25 @@ title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
 manager: AnnBe
-ms.date: 10/04/2020
+ms.date: 12/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: fd73dd649e7c10916835fbb4573dd2e65bbdb39c
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 5b49dc6d5170af6fecc537a9a9130900e08bb26a
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040090"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694558"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -167,9 +166,12 @@ Para ver uma lista de recursos disponíveis em implantações locais, consulte [
 | Compatibilidade de plataforma     |                                           | Sim       | Sim             |
 | Atendimento                  |                                           | Sim       | Sim             |
 |                            | Ambientes de atendimento                    | Sim       | Não              |
-| Trace Parser e PerfTimer |                                           | Sim       | Não              |
+| Trace Parser               |                                           | Sim       | Sim             |
+| PerfTimer                  |                                           | Sim       | Sim\*           |
 | Atualizar                    |                                           | Sim       | Sim             |
 |                            | Atualizar                                   | Sim       | Não              |
 |                            | Atualização e suporte para versões anteriores | Sim       | Não              |
 | Desenvolvimento no Visual Studio  |                                           | Sim       | Sim             |
+
+\* Em ambientes locais, o PerfTimer mostra somente os resultados do cliente.
 

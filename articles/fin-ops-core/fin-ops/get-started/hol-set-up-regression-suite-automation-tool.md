@@ -11,18 +11,17 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: 21761, NotInToc
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: f5670f6a580249491ad16ae46470160545bb8f91
-ms.sourcegitcommit: 4fdee254649a751d46632fb4d0d48698e112fa72
+ms.openlocfilehash: 4757d506239e309dcbc3e181469b17e3286cc111
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3248704"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695106"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Tutorial Configurar e instalar a Regression Suite Automation Tool
 Este tópico é um tutorial que o ajuda a configurar e iniciar a RSAT e as ferramentas associadas usando a RSAT. 
@@ -387,7 +386,7 @@ Para habilitar a autenticação, você deve gerar e instalar um certificado no m
 
     ![AOSService na lista de sites](./media/setup_rsa_tool_49.png)
 
-3. Clique com o botão direito do mouse em **Explorar** para abrir a pasta **\<Unidade\>: \\AosService\\WebRoot**. Localize o arquivo **wif.config**.
+3. Clique com o botão direito do mouse em **Explorar** para abrir a pasta **\<Drive\>: \\AosService\\WebRoot**. Localize o arquivo **wif.config**.
 
     ![Arquivo Wif.config na pasta Webroot](./media/setup_rsa_tool_50.png)
 
@@ -407,7 +406,7 @@ Para habilitar a autenticação, você deve gerar e instalar um certificado no m
     ```
 
     > [!NOTE]
-    > Se vários usuários estiverem usando o mesmo aplicativo, cada usuário deverá gerar impressões digitais separadas e cada uma dessas impressões deverá ser adicionada à seção **\<chaves\>**.
+    > Se vários usuários estiverem usando o mesmo aplicativo, cada usuário deverá gerar impressões digitais separadas e cada uma dessas impressões deverá ser adicionada à seção **\<keys\>**.
 
 5. Se houver mais de um computador AOS, repita as etapas 3 a 4 para cada computador adicional.
 
@@ -501,7 +500,7 @@ Em versões anteriores do RSAT, você teve que instalar o Selenium e os drivers 
     - **Token de Acesso** – Insira o token de acesso que permite que a ferramenta conecte-se ao Azure DevOps. Use o token de acesso pessoal criado anteriormente neste tutorial. Para obter mais informações, consulte [Autenticar acesso com tokens de acesso pessoal](https://www.visualstudio.com/docs/setup-admin/team-services/use-personal-access-tokens-to-authenticate).
     - **Nome do Projeto** – Selecione o nome do seu projeto do Azure DevOps .
     - **Plano de Teste** – Selecione o plano de teste do Azure DevOps que contém os casos de teste. Para obter mais informações, consulte [Criar planos de teste e conjuntos de teste](https://www.visualstudio.com/docs/test/manual-exploratory-testing/getting-started/create-a-test-plan). Após selecionar um plano de teste, selecione **Conexão de Teste** para testar sua conexão ao Azure DevOps.
-    - **Nome do host** – Insira o nome do host do ambiente de teste, como **\<myaos\>.cloudax.dynamics.com**. Não inclua o prefixo **https://** ou **http://**.
+    - **Nome do host** – insira o nome do host do ambiente de teste, como **\<myaos\>.cloudax.dynamics.com**. Não inclua o prefixo **https://** ou **http://**.
     - **Nome do host do SOAP** – Insira o nome do host do SOAP do ambiente de teste. Geralmente, o nome do host do SOAP é igual ao nome do host, mas tem um sufixo **soap** . Veja um exemplo: **\<myaos\>soap.cloudax.dynamics.com**. Não inclua o prefixo **https://** ou **http://**.
 
         > [!NOTE]
@@ -563,7 +562,7 @@ Em versões anteriores do RSAT, você teve que instalar o Selenium e os drivers 
 
     ![Resolução da área de trabalho definida como 100%](./media/setup_rsa_tool_68.png)
 
-6. Se os drivers do navegador não estiverem instalados no sistema, você receberá uma mensagem de aviso que informará, "Esta operação requer o driver do \<nome do navegador\>. Deseja baixá-lo e instalá-lo automaticamente?" Selecione **Sim**.
+6. Se os drivers do navegador não estiverem instalados no sistema, você receberá uma mensagem de aviso que informará, "Esta operação requer o driver do \<browser name\>. Deseja baixá-lo e instalá-lo automaticamente?" Selecione **Sim**.
 
     ![Mensagem de aviso do Internet Explorer](./media/setup_rsa_tool_69.png)
 
@@ -669,7 +668,7 @@ Nesta seção, você criará uma variável salva no primeiro caso de teste, cria
 
     ![Botão Editar Gravação](./media/setup_rsa_tool_85.png)
 
-4. Selecione**Abrir do Lifecycle Services**.
+4. Selecione **Abrir do Lifecycle Services**.
 
     ![Botão Abrir do Lifecycle Services](./media/setup_rsa_tool_86.png)
 

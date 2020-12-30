@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: b21d468d672277be14877b93e291e9833659c54a
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997390"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4683638"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -62,9 +62,9 @@ Por exemplo, a sequência numérica em Supply Chain Management é **1, 2, 3, 4, 
 
 As cotações de venda podem ser criadas em Vendas ou em Supply Chain Management. Se você criar uma cotação em Vendas, ela será sincronizada com Supply Chain Management em tempo real. Da mesma forma, se você criar uma cotação em Supply Chain Management, ele é sincronizada em Vendas em tempo real. Observe os seguintes pontos:
 
-+ Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. Os campos **Desconto** , **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, os campos **Preço** , **Desconto** , **Encargo** e **Imposto** são mantidos e tratados pelo Supply Chain Management.
-+ Os campos **% de Desconto** , **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são campos apenas leitura.
-+ Os campos **Condições de frete** , **Condições de entrega** , **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
++ Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. Os campos **Desconto**, **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidos e tratados pelo Supply Chain Management.
++ Os campos **% de Desconto**, **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são campos apenas leitura.
++ Os campos **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
 
 Se você também estiver usando a solução do Field Service, certifique-se de reabilitar o parâmetro **Criação Rápida de Linha de Cotação**. Habilitar novamente o parâmetro permite que você continue criando linhas de cotação usando a função de criação rápida.
 1. Navegue até o aplicativo Dynamics 365 Sales.
@@ -98,7 +98,7 @@ Se você sincronizar de Supply Chain Management às Vendas, obterá o seguinte r
 
 ## <a name="dual-write-solution-for-sales"></a>Solução de gravação dupla para Vendas
 
-Novos campos foram adicionados à entidade **Ordem** e são exibidos na página. A maioria desses campos aparece na guia **Integração** em Vendas. Para saber mais sobre como os campos de status são mapeados, consulte o tópico da documentação para [Configurar o mapeamento para campos de status da ordem de venda](https://review.docs.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/sales-status-map?branch=robin-dw-status-map)
+Novos campos foram adicionados à entidade **Ordem** e são exibidos na página. A maioria desses campos aparece na guia **Integração** em Vendas. Para saber mais sobre como os campos de status são mapeados, consulte [Configurar o mapeamento para campos de status da ordem de venda](sales-status-map.md).
 
 + Os botões **Criar fatura** e **Cancelar pedido** na página **Ordem de venda** estão ocultos em Vendas.
 + O valor de **Status da ordem de venda** permanecerá **Ativo** para ajudar a garantir que as alterações no Supply Chain Management possam fluir para a ordem de venda em Vendas. Para controlar este comportamento, defina o padrão do valor **Statecode \[Status\]** para **Ativo**.
@@ -110,11 +110,11 @@ As faturas de vendas são criadas no Supply Chain Management e sincronizadas no 
 + Um campo **Número de fatura** foi adicionado à entidade **Fatura** e aparece na página.
 + O botão **Criar fatura** na página **Ordem de venda** é ocultado, pois as faturas serão criadas no Supply Chain Management e sincronizadas com o Sales. A página **Fatura** não pode ser editada, pois as faturas serão sincronizadas do Supply Chain Management.
 + O valor do **Status da ordem de venda** é alterado automaticamente para **Faturado** quando a fatura relacionada do Supply Chain Management é sincronizada com o Sales. Além disso, o proprietário da ordem de venda da qual a fatura foi criada é atribuído como o proprietário da fatura. Portanto, o proprietário da ordem de venda pode exibir a fatura.
-+ Os campos **Condições de frete** , **Condições de entrega** e **Método de remessa** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
++ Os campos **Condições de frete**, **Condições de entrega** e **Método de remessa** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
 
 ## <a name="templates"></a>Modelos
 
-Cliente potencial com pagamento à vista inclui um conjunto de mapas de entidades centrais que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
+O item Do cliente potencial ao pagamento à vista inclui um conjunto de mapas de entidades centrais que trabalham juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
 | Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
 |-----------------------------|-----------------------------------|-------------|
@@ -126,7 +126,7 @@ Cliente potencial com pagamento à vista inclui um conjunto de mapas de entidade
 | Cabeçalho de cotação de venda CDS  | cotações                            |             |
 | Linhas de cotação de venda do CDS   | quotedetails                      |             |
 
-Estes são os mapas de entidade principal relacionados para cliente potencial com pagamento à vista:
+Estes são os mapas de tabelas principais relacionados para o item Do cliente potencial ao pagamento à vista:
 
 + [Clientes V3 para contas](customer-mapping.md#customers-v3-to-accounts)
 + [Contatos V2 do CDS para contatos](customer-mapping.md#cds-contacts-v2-to-contacts)

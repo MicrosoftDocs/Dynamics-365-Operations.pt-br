@@ -15,27 +15,27 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b1daa72002602d6e26320e2f55e04bebf7e2a19
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 0a0f1d5802d99e73129da637a8d55e483ed322e6
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137968"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668970"
 ---
 # <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a>Configurar códigos de ajuste para impostos IPI (Brasil)
 
 [!include [banner](../../includes/banner.md)]
 
-Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI). Esta tarefa usa a empresa de demonstração BRMF.
+Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI). Este procedimento usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de IPI.
-2. Clique em Novo.
-3. No campo Código de ajuste, digite um valor.
-4. No campo Descrição, digite um valor.
-5. Selecione Sim no campo É código de ajuste de estorno? .
-6. No campo Válido a Partir da Data, insira uma data.
-7. Expandir a seção Pagamento.
-8. Expanda a seção Lançamento.
-9. Clique em Salvar.
+1. Vá para **Livros fiscais** > **Configuração** > **Códigos de ajuste de imposto** > **Tabela de códigos de ajuste de IPI**.
+2. Selecione **Novo**.
+3. No campo **Código de ajuste**, digite um valor.
+4. No campo **Descrição**, digite um valor.
+5. Selecione **Sim** no campo **É código de ajuste de estorno?**.
+6. No campo **Válido a Partir da Data**, informe uma data.
+7. Expanda a seção **Pagamento**.
+8. Expanda a seção **Lançamento**.
+9. Selecione **Salvar**.
 10. Feche a página.
 

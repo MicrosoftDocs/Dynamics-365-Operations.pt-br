@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 27a6745be62185b23a7e81c9aed78879e36b3a9d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 97468be0bdea679ca7a52c5cef9c1e10950736e8
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181717"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682712"
 ---
 # <a name="financial-report-components"></a>Componentes de relatórios financeiros
 
@@ -81,7 +80,7 @@ Você pode exibir todos os blocos de construção atribuídos a um grupo de bloc
 
 ### <a name="export-a-building-block-group"></a>Exportar um grupo de bloco de construção
 
-É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de criação exportado como backup. Você também pode copiar os dados exportados entre as instalações. O designer de relatórios tem os estilos de fonte referenciados e os conjuntos de dimensões junto com o grupo de blocos de criação.
+É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de criação exportado como backup. Você também pode copiar os dados exportados entre as instalações. O designer de relatórios tem os estilos de fonte referenciados e os conjuntos de dimensões junto com o grupo de blocos de criação.
 
 1. No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
 2. Na caixa de diálogo **Grupos de Blocos de Construção**, selecione o grupo de bloco de construção a ser exportado e clique em **Exportar**.

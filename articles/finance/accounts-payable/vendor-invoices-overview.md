@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cb797af1ae14ebbb420a1b4a1591202c42bd8824
-ms.sourcegitcommit: ff6dde637d2f5d2bd18a582eb41573d4c69acdd6
+ms.openlocfilehash: d51a5ff2dca764a534ea4bf92c30bcf0bf0a5dad
+ms.sourcegitcommit: 51cd470ee885d12f7d51c66201b092aaa16dfaa6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "3249109"
+ms.lasthandoff: 12/09/2020
+ms.locfileid: "4701667"
 ---
 # <a name="vendor-invoices-overview"></a>​Visão geral de faturas de fornecedor​
 
@@ -112,15 +112,18 @@ Você pode acessar a página **Recuperar faturas de fornecedor** somente se o di
 
 ## <a name="resetting-the-workflow-status-for-vendor-invoices-from-unrecoverable-to-draft"></a>Redefinição do status do fluxo de trabalho para faturas de fornecedor de Irrecuperável para Rascunho
 
-Uma instância de fluxo de trabalho que foi interrompida por causa de um erro irrecuperável terá um status de fluxo de trabalho de **Irrecuperável**. Quando o status de um fluxo de trabalho de fatura de fornecedor for **Irrecuperável**, você poderá redefini-lo como **Rascunho** ao selecionar **Cancelar**. Você pode editar a fatura do fornecedor. Esse recurso estará disponível se o parâmetro **Redefinir o status de rascunho para o fluxo de trabalho de fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
+Uma instância de fluxo de trabalho que foi interrompida por causa de um erro irrecuperável terá um status de fluxo de trabalho de **Irrecuperável**. Quando o status de um fluxo de trabalho de fatura de fornecedor for **Irrecuperável**, você poderá redefini-lo como **Rascunho** ao selecionar **Cancelar**. Você pode editar a fatura do fornecedor. Esse recurso estará disponível se o parâmetro **Redefinindo o status do fluxo de trabalho para faturas de fornecedor de Irrecuperável para Rascunho** na página **Gerenciamento de recursos** estiver ativado.
 
 Você pode usar a página **Histórico do fluxo de trabalho** para redefinir o status do fluxo de trabalho como **Rascunho**. Você pode abrir essa página desde **Fatura de fornecedor** ou da navegação **Comum > Consultas > Fluxo de trabalho**. Para redefinir o status de fluxo de trabalho como **Rascunho**, selecione **Cancelar**. Você também pode redefinir o status de fluxo de trabalho como Rascunho ao selecionar a ação **Cancelar** na página **Fatura de fornecedor** ou **Faturas de fornecedor pendentes**. Depois que o status do fluxo de trabalho é redefinido como **Rascunho**, ele fica disponível para edição na página **Fatura de fornecedor**.
+
+## <a name="viewing-the-invoice-total-on-the-pending-vendor-invoices-page"></a>Exibição do total da fatura na página Faturas de fornecedor pendentes
+Você pode exibir o total da fatura na página **Faturas de fornecedor pendentes** ao habilitar o parâmetro **Exibir total da fatura em faturas de fornecedor pendentes** na página **Parâmetros de contas a pagar**. 
 
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Configurar políticas de fatura de fornecedor](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
+- [Configurar políticas de fatura de fornecedores](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md)
 - [Dados principais de nota fiscal no sistema AP usando a nota fiscal de fornecedor](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 - [Dados-chave de fatura em contas a pagar usando um diário de aprovações](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 - [Dados-chave de fatura no sistema de AP usando grupo de faturas](tasks/key-invoice-data-into-ap-system-invoice-pool.md)

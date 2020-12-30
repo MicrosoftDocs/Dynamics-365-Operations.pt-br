@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c682ed96e47c718d3a9af1eb10aada75c59d3156
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: e8b688cb1e4589eb076015d01dc4f0f0db14787e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181832"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688308"
 ---
 # <a name="generate-financial-reports"></a>Gerar relatórios financeiros
 
@@ -98,7 +97,7 @@ Para excluir um agendamento de relatório, você deve ser proprietário do agend
 
 Se você não inserir credenciais necessárias para todas as empresas incluídas nos relatórios, receberá a seguinte mensagem ao salvar o agendamento de relatório: “Você deve inserir suas credenciais para as empresas contidas neste agendamento de relatório. Selecione o botão de Permissões para inserir suas credenciais”.
 
-Por exemplo, Phyllis entra na empresa A usando seu logon e senha. Ela cria uma agenda para um relatório que usa uma definição de árvore de relatório para coletar dados de várias empresas. Quando essa agenda do relatório é salva, é solicitado que Phyllis insira credenciais para outras empresas que são especificadas na definição de hierarquia organizacional. Quando suas credenciais expiram, os relatórios afetados no agendamento de relatório não são gerados até que as credenciais sejam atualizadas. Uma mensagem é exibida na fila de relatórios para indicar que as permissões devem ser atualizadas. O agendamento de relatório falha quando um destes cenários ocorre (porque eles exigem credenciais):
+Por exemplo, um usuário entra na Empresa A usando seu logon e senha. O usuário cria uma agenda para um relatório que usa uma definição de árvore de relatório para coletar dados de várias empresas. Quando essa agenda do relatório é salva, é solicitado que o usuário insira credenciais para outras empresas que são especificadas na definição de hierarquia organizacional. Quando suas credenciais expiram, os relatórios afetados no agendamento de relatório não são gerados até que as credenciais sejam atualizadas. Uma mensagem é exibida na fila de relatórios para indicar que as permissões devem ser atualizadas. O agendamento de relatório falha quando um destes cenários ocorre (porque eles exigem credenciais):
 
 - Uma nova empresa foi adicionada a uma árvore de relatório para um relatório individual.
 - Um relatório em um grupo de relatórios foi alterado.

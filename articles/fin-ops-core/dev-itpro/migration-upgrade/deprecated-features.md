@@ -10,23 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1d14003ff7595ceaa78b42f69cf1927fbd8157d
-ms.sourcegitcommit: 1329b3b98854422c4c3773ede44a5cefa7d07085
+ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4040113"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679947"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!IMPORTANT]
 > Este tópico não é mais atualizado. Para ver uma lista atual de recursos que foram removidos ou descontinuados dos aplicativos do Finance and Operations, pesquise o conteúdo **"Recursos removidos ou obsoletos"** relacionado ao aplicativo que você está usando.
@@ -79,7 +80,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Estamos desativando o método **setUtcString()** , pois há um método de substituição melhor disponível. |
+| **Motivo para a reprovação/remoção** | Estamos desativando o método **setUtcString()**, pois há um método de substituição melhor disponível. |
 | **Substituída por outro recurso?**   | Sim |
 | **Áreas afetadas do produto**         | Plataforma |
 | **Opção de implantação**              | Todas |
@@ -185,7 +186,7 @@ Suporte à criação de ordens de venda baseadas no projeto em que o contrato de
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A funcionalidade será sempre habilitada depois que o parâmetro for removido. |
 | **Substituída por outro recurso?**   | Nº A funcionalidade para dar suporte a ordens de venda baseadas no projeto com várias fontes de financiamento estará sempre habilitada.   |
-| **Áreas afetadas do produto**         |O parâmetro **Permitir ordens de venda para projetos com várias fontes de financiamento** será removido. Os seguintes métodos serão modificados quando o parâmetro for removido: método **ctrlSalesOrderTable** na classe **ProjStatusType** , método **validar** para o campo **ProjId** e o método de **execução** no formulário **SalescreateOrder**. Os seguintes métodos serão substituídos quando o parâmetro for removido: **IsSalesOrderAllowedForMultipleFundingSources** no arquivo da tabela **ProjTable** , o método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** no arquivo da tabela **ProjTable** , o campo de dados **AllowSalesOrdersForMultipleFundingSources** no formulário **ProjParameters** e nos arquivos **ProjParameterEntity** , o método privado **IsAssociatedToMultipleFundingSourcesContract** no arquivo da tabela **ProjTable**. |
+| **Áreas afetadas do produto**         |O parâmetro **Permitir ordens de venda para projetos com várias fontes de financiamento** será removido. Os seguintes métodos serão modificados quando o parâmetro for removido: método **ctrlSalesOrderTable** na classe **ProjStatusType**, método **validar** para o campo **ProjId** e o método de **execução** no formulário **SalescreateOrder**. Os seguintes métodos serão substituídos quando o parâmetro for removido: **IsSalesOrderAllowedForMultipleFundingSources** no arquivo da tabela **ProjTable**, o método **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** no arquivo da tabela **ProjTable**, o campo de dados **AllowSalesOrdersForMultipleFundingSources** no formulário **ProjParameters** e nos arquivos **ProjParameterEntity**, o método privado **IsAssociatedToMultipleFundingSourcesContract** no arquivo da tabela **ProjTable**. |
 | **Opção de implantação**              | Todas  |
 | **Status**                         | A substituição está planejada para a liberação da onda de abril de 2020. |
 
@@ -266,7 +267,7 @@ Os principais indicadores de desempenho (KPIs) incorporados podem ser modelados 
 
 | &nbsp;  |&nbsp;  |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | É possível que as definições de metadados de tabela tenham grupos de campos contendo referências de campo inválidas. Se implantada, ela pode causar falhas de tempo de execução no Financial Reporting e no SQL Server Reporting Services (SSRS). Esse problema é atualmente classificado como um *aviso do compilador* em vez de um *erro* , ou seja, a implantação e a criação de pacote implantável podem continuar sem corrigir o problema. Para corrigir esse problema:<br><br>1. Remova a referência de campo inválida da definição do grupo de campos da tabela.<br><br>2. Recompile.<br><br>3. Certifique-se de que qualquer aviso ou erro seja tratado. |
+| **Motivo para a reprovação/remoção** | É possível que as definições de metadados de tabela tenham grupos de campos contendo referências de campo inválidas. Se implantada, ela pode causar falhas de tempo de execução no Financial Reporting e no SQL Server Reporting Services (SSRS). Esse problema é atualmente classificado como um *aviso do compilador* em vez de um *erro*, ou seja, a implantação e a criação de pacote implantável podem continuar sem corrigir o problema. Para corrigir esse problema:<br><br>1. Remova a referência de campo inválida da definição do grupo de campos da tabela.<br><br>2. Recompile.<br><br>3. Certifique-se de que qualquer aviso ou erro seja tratado. |
 | **Substituída por outro recurso?**   | Esse aviso será substituído por um erro de compilação no futuro. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
@@ -374,12 +375,12 @@ Esses dois relatórios não têm mais suporte no Finance and Operations. Em vez 
 | **Status**                       | Preterido: Os itens de menu de dois relatórios foram removidos na versão 7.3. Porém, o código dos relatórios permanece no produto. O plano é remover o código em uma versão futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Pacotes de conteúdo do Power BI disponíveis no AppSource
-Os pacotes de conteúdo de **Gerenciamento de custos** , **Desempenho financeiro** e **Retail Channel Performance** , disponíveis no site do [Microsoft AppSource](https://appsource.microsoft.com), foram substituídos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
+Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Retail Channel Performance**, disponíveis no site do [Microsoft AppSource](https://appsource.microsoft.com), foram substituídos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Atualizações do produto no Microsoft Power BI. |
-| **Substituída por outro recurso?**   | Os pacotes de conteúdo de **Gerenciamento de custos** , **Desempenho financeiro** e **Retail Channel Performance** , disponíveis no site do [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações de solução no nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI incorporado em espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Substituída por outro recurso?**   | Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Retail Channel Performance**, disponíveis no site do [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações de solução no nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI incorporado em espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas afetadas do produto**         | Gerenciamento de custo, Finanças e Varejo                                                                                               |
 | **Opção de implantação**              | Somente nuvem (não há mais suporte para a integração com o PowerBI.com nas implantações locais).                                                                                                            |
 | **Status**                         | Preterido: O período determinado de destino para a remoção de funcionalidade é T2 de 2018.    |
@@ -712,7 +713,7 @@ Informações da Folha de Pagamento em Recursos Humanos
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Essa funcionalidade foi substituída pelas páginas de folha de pagamento e Recursos humanos central.  |
-| **Substituída por outro recurso?**   | **Benefícios** , **Ganhos** e outras páginas relacionadas que estavam anteriormente na Folha de Pagamento dos EUA agora fazem parte da configuração de Recursos humanos central para ajudar a suportar o processamento da folha de pagamento externa. Essa funcionalidade é acessada usando a chave de configuração **Recursos Humanos 1** \> **Folha de Pagamento**. |
+| **Substituída por outro recurso?**   | **Benefícios**, **Ganhos** e outras páginas relacionadas que estavam anteriormente na Folha de Pagamento dos EUA agora fazem parte da configuração de Recursos humanos central para ajudar a suportar o processamento da folha de pagamento externa. Essa funcionalidade é acessada usando a chave de configuração **Recursos Humanos 1** \> **Folha de Pagamento**. |
 | **Áreas afetadas do produto**         | Recursos Humanos, Folha de Pagamento   |
 | **Status**                         | Removido a partir do Dynamics 365 for Operations versão 1611.    |
 
@@ -1157,7 +1158,7 @@ A geração de pré-registros não poderá ser feita usando um lote, mas poderá
 
 ### <a name="gl-ssrs-reports"></a>Relatórios GL SSRS
 
-Os relatórios que incluem os seguintes itens de menu foram removidos: **Balancete de resumo** , **Balancete detalhado** , **Plano de contas** , **Trilha de auditoria** , **Saldos** e **Lista de saldos**.
+Os relatórios que incluem os seguintes itens de menu foram removidos: **Balancete de resumo**, **Balancete detalhado**, **Plano de contas**, **Trilha de auditoria**, **Saldos** e **Lista de saldos**.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
@@ -1359,7 +1360,7 @@ O aplicativo para tablet com Windows 8 fornece a funcionalidade da entrada e a a
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Baixa utilização |
-| **Substituída por outro recurso?**   | Não, mas a página **Relação de perfil** , que é aberta na página **Grupos de perfil** , suporta o mesmo cenário empresarial que a página obsoleta **Planejador de trabalho**. |
+| **Substituída por outro recurso?**   | Não, mas a página **Relação de perfil**, que é aberta na página **Grupos de perfil**, suporta o mesmo cenário empresarial que a página obsoleta **Planejador de trabalho**. |
 | **Áreas afetadas do produto**         | Horário e presença     |
 | **Status**                         | O código não foi removido. Entretanto, o formulário, JmgWorkPlanner, não foi migrado.    |
 

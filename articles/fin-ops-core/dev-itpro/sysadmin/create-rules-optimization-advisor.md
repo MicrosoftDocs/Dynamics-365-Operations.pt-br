@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8c4f5eff01ab20ce9de2a30b27b163df8cf83e02
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 7052aeb4154cefe30a1935dfdca53085a035deb6
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3985210"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4687602"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Criar regras para o Optimization advisor
 
@@ -195,7 +194,7 @@ class ScanNewRulesJob
 
 A regra será exibida no formulário **Regra validação de diagnóstico**, disponível em **Administração do sistema** > **Tarefas periódicas** > **Manter regra validação de diagnóstico**. Para avaliá-la, vá para **Administração do sistema** > **Tarefas periódicas** > **Agendar regra validação de diagnóstico**, selecione a frequência da regra, como **Diariamente**. Clique em **OK**. Vá para **Administração do sistema** > **Optimization advisor** para exibir a nova oportunidade. 
 
-Veja a seguir o exemplo de um trecho de código com o esqueleto de uma regra incluindo todos os métodos e atributos necessários. Ele ajuda você a começar a gravar novas regras. Os rótulos e itens do menu de ação usados no exemplo são somente para fins de demonstração.
+Veja a seguir o exemplo de um trecho de código com o esqueleto de uma regra incluindo todos os métodos e atributos necessários. Ele ajuda você a começar a gravar novas regras. Os rótulos e itens do menu de ação usados no exemplo são somente para fins de demonstração.
 
 ```xpp
 [DiagnosticsRuleAttribute]

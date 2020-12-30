@@ -3,25 +3,24 @@ title: Antes de comprar
 description: Orientações passo a passo que você poderá usar quando estiver considerando a compra do Dynamics 365 Finance, Dynamics 365 Supply Chain Management ou Dynamics 365 Commerce.
 author: ShellyBakke
 manager: AnnBe
-ms.date: 02/05/2020
+ms.date: 11/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
 ms.author: smiller
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 4619a359a352d702526c576d97b666439d71ed96
-ms.sourcegitcommit: 6aceca43c53c4dde46954c0b6b855d488eb44ed2
+ms.openlocfilehash: adbc9d0bc4632c661b40001a54685192b9ae2d23
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "3027715"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694127"
 ---
 # <a name="before-you-buy"></a>Antes de comprar
 
@@ -41,7 +40,7 @@ As seguintes considerações devem ser executadas quando você escolhe locais co
 
 - Necessidades regulatórias e de conformidade que não estão disponíveis nas certificações em nuvem.
 - Processo de negócios desconectado com conectividade de internet intermitente necessária para acessar o Microsoft Dynamics Lifecycle Services (LCS) para o gerenciamento do ciclo de vida do aplicativo.
-- [Recursos não implementados em implantações locais](features-not-implemented-on-prem.md).
+- [Comparação de recursos de nuvem e locais](cloud-prem-comparison.md).
 - [Requisitos do sistema para implantações locais](system-requirements-on-prem.md).
 
 > [!IMPORTANT]

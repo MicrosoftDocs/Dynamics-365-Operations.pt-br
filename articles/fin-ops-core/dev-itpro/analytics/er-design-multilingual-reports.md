@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERModelMappingDesigner, EROperationDesigner, ERExpressionDesignerFormula
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26a912aa2002f1d60dd650248bd3c68e45e68596
-ms.sourcegitcommit: 9857d5cbdc0ab2fc9db049ac5ad118fc2b29bedc
+ms.openlocfilehash: 7934f36877247460ec843201a08d4670456889f9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/14/2020
-ms.locfileid: "3810658"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679693"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
@@ -78,7 +77,7 @@ Ao configurar um modelo de dados de ER, você poderá adicionar etiquetas de ER 
 
 Quando um modelo de dados de ER é configurado dessa forma, seu conteúdo será apresentado aos usuários do designer de modelos de dados de ER no idioma preferencial de cada usuário. Portanto, a manutenção do modelo é simplificada. As ilustrações a seguir mostram como essa funcionalidade funciona para usuários que têm DE-AT e JA definidos como seu idioma preferido.
 
-![Layout do designer de modelos de dados de ER para um usuário com DE-AT definido como seu idioma preferencial](./media/er-multilingual-labels-refer-de.png)
+![Layout do designer de modelos de dados de ER para um usuário com DE-AT definido como o idioma preferencial](./media/er-multilingual-labels-refer-de.png)
 
 ![Layout do designer de modelos de dados de ER para um usuário com JA definido como seu idioma preferencial](./media/er-multilingual-labels-refer-ja.png)
 
@@ -86,7 +85,7 @@ Quando um modelo de dados de ER é configurado dessa forma, seu conteúdo será 
 
 Como o mapeamento do modelo de ER se baseia em um modelo de dados de ER, as etiquetas dos elementos do modelo de dados referenciados são exibidas no idioma preferencial do usuário no designer de mapeamento do modelo. A ilustração a seguir mostra como o significado do campo **PurchaseOrder** é explicado no mapeamento do modelo editável usando a etiqueta do atributo **Descrição** que foi adicionado ao modelo de dados configurado. Observe que essa etiqueta é apresentada no idioma preferencial do usuário (DE-AT, neste exemplo).
 
-![Layout do designer de mapeamento de modelo de ER para um usuário com DE-AT definido como seu idioma preferencial](./media/er-multilingual-labels-show-mapping.png)
+![Layout do designer de mapeamento de modelo de ER para um usuário com DE-AT definido como o idioma preferencial](./media/er-multilingual-labels-show-mapping.png)
 
 Quando o atributo **Etiqueta** da fonte de dados **Parâmetro de entrada do usuário** é configurado como vinculado a uma etiqueta de ER, o campo de parâmetro correspondente a essa fonte de dados é apresentado na caixa de diálogo do usuário em runtime para os usuários no idioma preferencial.
 

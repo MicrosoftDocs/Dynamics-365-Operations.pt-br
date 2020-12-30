@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f3e8e5f6676c26b8d604ed950470463f04c0473
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 8b347a7209ee543f6bd687c2864203eb632d6a4a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3743870"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688404"
 ---
 # <a name="format-er-function"></a>Função de ER FORMAT
 
 [!include [banner](../includes/banner.md)]
 
-A função `FORMAT` retorna a cadeia de caracteres especificada como um valor de *Cadeia de caracteres* após ela ser formatada, substituindo todas as ocorrências de **%N** pelo *N*º argumento.
+A função `FORMAT` retorna a cadeia de caracteres especificada como um valor de *Cadeia de caracteres* após ela ser formatada, substituindo todas as ocorrências de **%N** pelo *N* º argumento.
 
 ## <a name="syntax"></a>Sintaxe
 
@@ -49,7 +48,7 @@ O primeiro argumento, que é usado para substituir as ocorrências de **%1**. Es
 
 `argument N`: *Cadeia de caracteres*
 
-O *N*º argumento, que é usado para substituir as ocorrências de **%2**, **%3** etc. Esses argumentos adicionais são opcionais.
+O *N* º argumento, que é usado para substituir as ocorrências de **%2**, **%3** etc. Esses argumentos adicionais são opcionais.
 
 ## <a name="return-values"></a>Valores de retorno
 

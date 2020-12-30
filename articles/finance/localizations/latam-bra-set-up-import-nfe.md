@@ -16,18 +16,18 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: ''
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 83767ef31d9761b266cbfa9cfedca4a7c7502b09
-ms.sourcegitcommit: 708ca25687a4e48271cdcd6d2d22d99fb94cf140
+ms.openlocfilehash: 943162d4119e46d7f635bc08bfc9332b45598ea8
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/10/2020
-ms.locfileid: "3978192"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668964"
 ---
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 
 [!include [banner](../includes/banner.md)]
 
-Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa. O fornecedor deve enviar esses emails como anexos durante o período no qual as mercadorias adquiridas estão em trânsito.
+Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de emails enviados por um fornecedor. O fornecedor deve enviar esses emails como anexos durante o período no qual as mercadorias adquiridas estão em trânsito.
 
 Os seguintes pré-requisitos devem ser atendidos antes de você começar: 
  - Configurar estabelecimentos fiscais na entidade legal. 
@@ -35,7 +35,7 @@ Os seguintes pré-requisitos devem ser atendidos antes de você começar:
  - Configurar parâmetros de NF-e para estabelecimentos fiscais.
 
 ## <a name="set-up-email-accounts-to-import-xml-files-and-danfe-for-nf-e"></a>Configurar contas de e-mail para importar arquivos XML e DANFE para a NF-e
-- Na página **Configurar contas de email**, clique em **Novo** e insira os detalhes da conta.
+- Na página **Configurar contas de email**, selecione **Novo** e insira os detalhes da conta.
    - **Endereço do servidor** - Insira o endereço do servidor POP3 para a conta de email.
    - **Porta** - Insira o número da porta a ser usado para o servidor de e-mail.
    - **SSL Necessário** - Marque esta opção para indicar que o servidor requer uma conexão criptografada de (SSL) Secure Socket Layer.
@@ -53,13 +53,13 @@ Os arquivos XML e DANFE importados podem ser exibidos na página **Documentos XM
 > [!NOTE] 
 > O nome do emissor da Nota fiscal Eletrônica (NF-e) foi deixado em branco quando a ID de registro de impostos (CNPJ) não pode ser encontrada como um atributo de um fornecedor na página **Todos os fornecedores**.
 
-- Para uma Nota fiscal Eletrônica (NF-e) selecionada, clique em **Documento XML** para exibir o documento XML.
-- Para uma Nota Fiscal Eletrônica (NF-e) selecionada, clique em **DANFE** para exibir o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).
-- Para uma Nota fiscal Eletrônica selecionada (NF-e), clique em **Consultar status** para consultar o status da NF-e na SEFAZ usando a chave de acesso.
+- Para uma Nota Fiscal Eletrônica (NF-e) selecionada, escolha **Documento XML** para exibir o documento XML.
+- Para uma Nota Fiscal Eletrônica (NF-e) selecionada, escolha **DANFE** para exibir o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).
+- Para uma Nota fiscal Eletrônica selecionada (NF-e), escolha **Consultar status** para exibir o status da NF-e na SEFAZ usando a chave de status.
   > [!NOTE] 
   > O status, a data, e as horas da consulta são atualizados no Status da SEFAZ e data e hora da última consulta.
 
 ## <a name="inquire-about-the-status-of-nf-e-access-keys-at-the-sefaz"></a>Pesquisa sobre o status das teclas de acesso de NF-e no SEFAZ
 1. Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.
-2. No campo **Intervalo mínimo entre as consultas**, insira o intervalo mínimo entre as consultas em minutos da chave de acesso de NF-e recebida na SEFAZ.
+2. No campo **Intervalo mínimo entre as consultas**, insira o intervalo mínimo em minutos entre as consultas da chave de acesso de NF-e recebida na SEFAZ.
 3. Se necessário, insira os parâmetros de processamento em lotes, as recorrências e a agenda.

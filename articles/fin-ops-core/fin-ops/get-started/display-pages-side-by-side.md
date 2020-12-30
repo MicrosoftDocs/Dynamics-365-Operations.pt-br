@@ -3,42 +3,41 @@ title: Mostrar páginas lado a lado usando o recurso Abrir em nova janela
 description: Este artigo explica como exibir páginas lado a lado.
 author: aneesmsft
 manager: AnnBe
-ms.date: 09/20/2019
+ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations
 ms.custom: 17611
 ms.assetid: fc589d76-3927-4486-ab83-e86b9b47ba2c
 ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7144f26c0977fbc420b804728151262b2f166bc0
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 5b770fe44e4e12c515ca53def697fa345ce3eba3
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2180682"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4694436"
 ---
-# <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>Mostrar páginas lado a lado usando o recurso Abrir em nova janela
+# <a name="show-pages-side-by-side-using-the-open-in-new-window-feature"></a>Mostrar páginas lado a lado usando o recurso Abrir em nova janela
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo explica como exibir páginas lado a lado.
 
-Você pode optar por exibir várias páginas lado a lado para concluir tarefas rapidamente. Como um exemplo, você pode desejar validar ou inserir linhas em mais de um diário. Normalmente, para fazer isso você precisaria voltar e avançar entre a página que exige uma lista de diários, e a página que exige as linhas para um determinado diário. No entanto, o recurso **Abrir em nova janela**, permite exibir essas páginas lado a lado de forma que você possa executar suas tarefas rapidamente.
+Você pode optar por exibir várias páginas lado a lado para concluir tarefas rapidamente. Como um exemplo, você pode desejar validar ou inserir linhas em mais de um diário. Normalmente, para validar ou inserir linhas em mais de um diário, você precisaria voltar e avançar entre a página que exige uma lista de diários, e a página que exige as linhas para um determinado diário. No entanto, o recurso **Abrir em nova janela**, permite exibir essas páginas lado a lado de forma que você possa executar suas tarefas rapidamente.
 
 Continuando com o exemplo acima, ao exibir as linhas, você pode clicar no ícone **Abrir em nova janela**.
 
-[![open-in-new-window-icon](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)
+[![Clique no ícone Abrir em nova janela.](./media/open-in-new-window-icon.png)](./media/open-in-new-window-icon.png)
 
 Clique no ícone **Abrir em nova janela** para abrir a página de linhas em um novo navegador pop-up e, em seguida, navegue no histórico do navegador original até a página que exibiu a lista de diários. Em seguida, você pode exibir ambas as páginas lado a lado. Ao terminar de exibir um diário, você pode alterar o diário selecionado na página de listagem de diário, e a página de linhas na janela pop-up exibirá automaticamente as linhas do diário recentemente selecionado.
 
-[![pages-show-side-by-side](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)
+[![Você pode exibir ambas as páginas lado a lado.](./media/pages-show-side-by-side.png)](./media/pages-show-side-by-side.png)
 
 A vinculação dinâmica e a atualização acontecem devido às relações que existem entre os dados que são subjacentes a essas páginas. Se o sistema não estiver ciente da relação entre os dados, a janela pop-up não atualizará automaticamente em resposta a uma alteração na janela da qual ela se originou.
 
@@ -48,4 +47,4 @@ Antes de usar o recurso **Abrir em nova janela**, é necessário configurar o bl
 
 O recurso **Abrir em nova janela** estará disponível apenas quando houver mais de uma página aberta na janela. Além disso, a janela pop-up será fechada automaticamente quando não houver mais páginas abertas (ou seja, quando a última página nessa janela estiver fechada.) O sistema também fecha as páginas abertas quando você navega para uma área diferente no aplicativo. Portanto, se você tem janelas pop-up abertas e navega para uma área diferente no aplicativo, as janelas pop-up são fechadas automaticamente porque as páginas nas janelas foram fechadas pelo sistema.
 
-A barra superior nas janelas pop-up exibe informações sobre a empresa na qual a página foi aberta e é somente leitura. As janelas pop-up também dependem da janela principal do navegador. Se a janela principal for fechada ou atualizada, todos janela pop-up em aberto se tornarão somente leitura. Isso significa que você ainda pode exibir as informações nas janelas, mas você não poderá interagir com elas.
+A barra superior nas janelas pop-up exibe informações sobre a empresa na qual a página foi aberta e é somente leitura. As janelas pop-up também dependem da janela principal do navegador. Se a janela principal for fechada ou atualizada, todos janela pop-up em aberto se tornarão somente leitura. Se isso acontecer, você ainda poderá exibir as informações nas janelas, mas você não poderá interagir com elas.

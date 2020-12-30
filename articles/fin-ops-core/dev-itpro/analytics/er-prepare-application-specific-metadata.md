@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 89d36c305bc9210f7906cd4288e33e5028baecdb
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: f15b78d3ed5b4df47540f9f89cc69c0b535a7241
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771251"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4680185"
 ---
 # <a name="prepare-application-specific-metadata-for-rcs-and-er"></a>Prepare metadados específicos do aplicativo para RCS e ER
 
@@ -221,7 +220,7 @@ Se você já tiver concluído o procedimento [Acessar metadados do aplicativo us
 
 1. Vá para **Todos os espaços de trabalho \> Relatório eletrônico**.
 2. Selecione **Aplicativos conectados**.
-3. Verifique se o aplicativo configurado baseia-se no Microsoft Azure e se está geralmente acessível para usuários no RCS. O usuário do RCS atual precisa ter acesso ao aplicativo configurado. Para isso, ele deve estar registrado como um usuário desse aplicativo em uma função que lhe conceda privilégios para acessar metadados do aplicativo.
+3. Verifique se o aplicativo configurado baseia-se no Microsoft Azure e se está geralmente acessível para usuários no RCS. O usuário do RCS atual precisa ter acesso ao aplicativo configurado. Para isso, ele deve estar registrado como um usuário desse aplicativo em uma função que conceda privilégios a ele para acessar metadados do aplicativo.
 4. Selecione **Novo**.
 5. No campo **Nome**, digite **MyConnectedApp** como o nome do aplicativo associado.
 6. No campo **Aplicativo**, especifique a URL do aplicativo.

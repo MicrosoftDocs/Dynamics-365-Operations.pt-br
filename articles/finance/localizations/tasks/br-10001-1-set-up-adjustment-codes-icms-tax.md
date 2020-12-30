@@ -15,34 +15,30 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b38365a608b1f93cb3a2826e37cfb4bff80847
-ms.sourcegitcommit: c69926b4285cb2ec2d9ce1ad72d1cb852024dd5e
+ms.openlocfilehash: 6875fc935a2b724cdeb1e1fc965a55c7497e08a7
+ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3137971"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "4668962"
 ---
 # <a name="set-up-adjustment-codes-for-icms-tax-brazil"></a>Configurar códigos de ajuste para imposto ICMS (Brasil)
 
 [!include [banner](../../includes/banner.md)]
 
-No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais. Esses ajustes podem ocorrer devido ao diferimento, à suspensão diferencial de taxas de impostos, à antecipação, e a outras situações de exceção em impostos ICMS, e isso requer um código de ajuste. Utilize esse procedimento para configurar códigos de ajuste. Este registro usa a empresa de dados de demonstração BRMF.
+No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais. Esses ajustes pode ocorrer devidos a um adiamento, suspensão, diferencial de alíquotas, antecipação, e outras situações de exceção do imposto ICMS. Os ajustes exigem um código de ajuste. Utilize esse procedimento para configurar códigos de ajuste. Este tópico usa a empresa de demonstração BRMF.
 
-1. Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de ICMS, ICMS-ST e ICMS-DIF.
-2. Clique em Novo.
-3. No campo Identificação, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Estado, insira ou selecione um valor.
-6. No campo Código de ocorrência, digite um valor.
-7. No campo Código de ocorrência, digite um valor.
-8. No campo Válido a Partir da Data, insira uma data.
-9. Expandir a seção Pagamento.
-10. Expanda a seção Lançamento.
-11. Clique em Novo.
-12. Na lista, marque a linha selecionada.
-13. No campo Contas da empresa, insira ou selecione um valor.
-14. No campo Código de impostos sobre vendas, insira ou selecione um valor.
-15. No campo Conta principal, especifique os valores desejados.
-16. Clique em Salvar.
-17. Feche a página.
+1. Vá para **Livros fiscais** > **Configuração** > **Códigos de ajuste de imposto** > **Códigos de ajuste de ICMS, ICMS-ST e ICMS-DIF**.
+2. Selecione **Novo** e no campo **Identificação**, digite um valor.
+3. No campo **Descrição**, digite um valor.
+4. No campo **Estado**, informe ou selecione um valor.
+5. No campo **Código de ocorrência**, digite um valor.
+6. No campo **Código de ocorrência**, digite um valor.
+7. No campo **Válido a Partir da Data**, informe uma data.
+8. Expanda a seção **Pagamento**, expanda a seção **Lançamento** e selecione **Novo**.
+9. Na lista, marque a linha selecionada.
+10. No campo **Contas da empresa**, informe ou selecione um valor.
+11. No campo **Código do imposto** informe ou selecione um valor.
+12. No campo **Conta principal**, especifique os valores desejados.
+13. Selecione **Salvar** e feche a página.
 

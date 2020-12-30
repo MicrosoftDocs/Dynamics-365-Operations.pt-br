@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: tfehr
-ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 28118eddd2f85df5f9daa2c5a6c3cb00957909db
-ms.sourcegitcommit: 89022f39502b19c24c0997ae3a01a64b93280f42
+ms.openlocfilehash: 2c84a5f346bae440fb7a0ec6b2c3b813a30e8edd
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "3367329"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4695130"
 ---
 # <a name="help-system"></a>Sistema de ajuda
 
@@ -49,7 +48,7 @@ O site docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.micros
 
 Você pode localizar conteúdo em docs.microsoft.com usando qualquer mecanismo de pesquisa. Para obter os melhores resultados, é recomendável usar uma pesquisa de sites, como o **"termo de pesquisa" dynamics 365 site:docs.microsoft.com**.
 
-### <a name="get-notified-about-changes-through-an-rss-feed"></a>Ser notificado sobre alterações por meio de um RSS feed
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Ser notificado sobre alterações por meio de um RSS feed
 
 Para inscrever-se em um RSS feed de todas as atualizações no conteúdo em docs.microsoft.com, use o seguinte link:
 
@@ -68,7 +67,7 @@ Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentár
 > [!NOTE]
 > Se você deseja enviar comentários sobre a documentação, entre usando uma conta GitHub. Para obter mais informações, consulte [Configuração e gerenciamento do perfil de GitHub](https://help.github.com/github/setting-up-and-managing-your-github-profile).
 
-### <a name="contribute-to-the-documentation"></a>Colabore com a documentação
+## <a name="contribute-to-the-documentation"></a>Colabore com a documentação
 
 Você pode colaborar e fazer edições na documentação. Para começar, selecione o botão **Editar** (símbolo de lápis) em um tópico. O vídeo a seguir mostra como você pode colaborar com a nossa documentação.
 

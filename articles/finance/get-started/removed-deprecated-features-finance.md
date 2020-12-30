@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos do Dynamics 365 Finance
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
 author: roschlom
 manager: AnnBe
-ms.date: 03/13/2020
+ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aebce032d7d780b296ba74fea4467425a3cbe1a7
-ms.sourcegitcommit: 4e9b3746790355f9f72bbfddc099c4065a49ad63
+ms.openlocfilehash: a406db6d78302fa05596a58fffb7464222d4bfea
+ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "3175099"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689485"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -35,6 +35,40 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10016-release"></a>Recursos removidos ou substituídos na versão 10.0.16 do Finance
+
+### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>O formato de relatório eletrônico "Formato de exportação da transação do razão (BE)" e o respectivo modelo "Exportação de transações do razão (BE)" para a Bélgica
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído pelo novo formato ER, no modelo "Arquivo de Auditoria Padrão (SAF-T)".  |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: até 1º de dezembro de 2021, planejamos não oferecer mais suporte ao formato de Relatório eletrônico (ER) "Formato de exportação de transações do razão (BE)" e seu respectivo modelo "Exportação de transação do razão (BE)". Um novo formato "Exportação de dados da contabilidade (BE)", em conjunto com "Mapeamento de modelos de dados da contabilidade", é introduzido no modelo "Arquivo de Auditoria Padrão (SAF-T)". |
+
+### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Relatório "IVA 100" para o Reino Unido no formato SSRS
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído pelo novo formato ER - o formato "Declaração de IVA Excel (UK)" em "Modelo de declaração de impostos".  |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: até 1º de dezembro de 2021, planejamos não oferecer mais suporte ao "relatório IVA 100" no formato SSRS. Um novo formato "Declaração de IVA Excel (UK)" no "Modelo de declaração de imposto" foi introduzido no [recurso IVA MTD](../localizations/emea-gbr-mtd-vat-integration.md). |
+
+## <a name="features-removed-or-deprecated-in-the-finance-10015-release"></a>Recursos removidos ou substituídos na versão 10.0.15 do Finance
+
+### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
+| **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
+| **Áreas afetadas do produto**         | Todos os produtos do Dynamics 365 |
+| **Opção de implantação**              | Todas|
+| **Status**                         | Preterido. O Internet Explorer 11 não terá suporte depois de agosto de 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10012-release"></a>Recursos removidos ou substituídos na versão 10.0.12 do Finance
 

@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 961e6a167d4fe48c96bffcff1e54acde0ad5d805
-ms.sourcegitcommit: 0a741b131ed71f6345d4219a47cf5f71fec6744b
+ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3997415"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4685604"
 ---
 # <a name="dual-write-overview"></a>Visão geral de gravação dupla
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ ms.locfileid: "3997415"
 
 A gravação dupla é uma infraestrutura pronta para uso que fornece interação quase em tempo real entre aplicativos do Customer Engagement e aplicativos do Finance and Operations. Quando dados sobre clientes, produtos, pessoas e operações fluem além dos limites dos aplicativos, todos os departamentos de uma organização são capacitados.
 
-A gravação dupla fornece integração bidirecional extremamente interligada entre aplicativos do Finance and Operations e Common Data Service. Qualquer alteração de dados nos aplicativos do Finance and Operations causa gravações no Common Data Service e qualquer alteração de dados no Common Data Service causa gravações nos aplicativos do Finance and Operations. Esse fluxo de dados automatizado fornece uma experiência de usuário integrada nos aplicativos.
+A gravação dupla fornece integração bidirecional extremamente interligada entre aplicativos do Finance and Operations e Dataverse. Qualquer alteração de dados nos aplicativos do Finance and Operations causa gravações no Dataverse e qualquer alteração de dados no Dataverse causa gravações nos aplicativos do Finance and Operations. Esse fluxo de dados automatizado fornece uma experiência de usuário integrada nos aplicativos.
 
 ![Relação de dados entre aplicativos](media/dual-write-overview.jpg)
 
@@ -52,7 +54,7 @@ A infraestrutura de gravação dupla é extensível e confiável e inclui os seg
 + Capacidade de configurar alertas e limites personalizados e assinar notificações
 + Interface de usuário (UI) intuitiva para filtragem e transformações
 + Capacidade de definir e exibir dependências e relacionamentos da entidade
-+ Extensibilidade para mapas e entidades padrão e personalizadas
++ Extensibilidade para mapas e tabelas padrão e personalizadas
 + Gerenciamento confiável do ciclo de vida de aplicativos
 + Experiência de configuração pronta para uso para novos clientes
 
@@ -85,23 +87,23 @@ A gravação dupla cria um mapeamento entre conceitos em aplicativos do Finance 
 A gravação dupla fornece integração de dados nos aplicativos do Microsoft Dynamics 365. Essa estrutura robusta vincula ambientes e permite que diferentes aplicativos comerciais trabalhem juntos. Aqui estão os principais motivos pelos quais você deve usar a gravação dupla:
 
 + A gravação dupla fornece integração bidirecional e extremamente interligada, em tempo quase real e bidirecional entre aplicativos do Finance and Operations e aplicativos baseados em modelo no Dynamics 365. Essa integração convertem o Microsoft Dynamics 365 no principal espaço para todas as suas soluções empresariais. Os clientes que usam o Dynamics 365 Finance e o Dynamics 365 Supply Chain Management, mas que usam soluções que não são da Microsoft para gerenciamento de relacionamento com o cliente (CRM), estão migrando para o Dynamics 365 para obter suporte para gravação dupla.
-+ Os dados de clientes, produtos, operações, projetos e a Internet das Coisas (IoT) fluem automaticamente para o Common Data Service por meio de gravação dupla. Essa conexão é útil para empresas interessadas em expansões do Power Platform.
++ Os dados de clientes, produtos, operações, projetos e a Internet das Coisas (IoT) fluem automaticamente para o Dataverse por meio de gravação dupla. Essa conexão é útil para empresas interessadas em expansões do Power Platform.
 + A infraestrutura de gravação dupla segue o princípio sem codificação/com pouca codificação. É necessário um esforço mínimo de engenharia para estender os mapas tabela a tabela padrão e incluir mapas personalizados.
 + A gravação dupla é compatível com os modos online e offline. A Microsoft é a única empresa que oferece suporte aos modos online e offline.
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>O que significa a gravação dupla para desenvolvedores e arquitetos de aplicativos do Customer Engagement?
 
-A gravação dupla automatiza o fluxo de dados entre aplicativos do Finance and Operations e aplicativos do Customer Engagement. A gravação dupla consiste em duas soluções AppSource instaladas no Common Data Service. As soluções expandem o esquema da entidade, os plugins e os fluxos de trabalho no Common Data Service para que possam ser escalados para o tamanho do ERP. Para uma implementação bem-sucedida, os desenvolvedores e arquitetos de aplicativos do Customer Engagement devem compreender essas alterações e colaborar com as contrapartes em aplicativos do Finance and Operations.
+A gravação dupla automatiza o fluxo de dados entre aplicativos do Finance and Operations e aplicativos do Customer Engagement. A gravação dupla consiste em duas soluções AppSource instaladas no Dataverse. As soluções expandem o esquema da entidade, os plugins e os fluxos de trabalho no Dataverse para que possam ser escalados para o tamanho do ERP. Para uma implementação bem-sucedida, os desenvolvedores e arquitetos de aplicativos do Customer Engagement devem compreender essas alterações e colaborar com as contrapartes em aplicativos do Finance and Operations.
 
-Para criar paridade com aplicativos do Finance and Operations, a gravação dupla faz algumas alterações cruciais no esquema do Common Data Service. Se você entender o plano, poderá evitar retrabalho de design e desenvolvimento no futuro.
+Para criar paridade com aplicativos do Finance and Operations, a gravação dupla faz algumas alterações cruciais no esquema do Dataverse. Se você entender o plano, poderá evitar retrabalho de design e desenvolvimento no futuro.
 
-+ Quando o pacote de gravação dupla do AppSource for instalado, o Common Data Service terá novos conceitos, como empresa e participante. Esses conceitos ajudam aplicativos criados no Common Data Service, incluindo Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service e Dynamics 365 Field Service, a interagir perfeitamente com aplicativos do Finance and Operations.
++ Quando o pacote de gravação dupla do AppSource for instalado, o Dataverse terá novos conceitos, como empresa e participante. Esses conceitos ajudam aplicativos criados no Dataverse, incluindo Dynamics 365 Sales, Dynamics 365 Marketing, Dynamics 365 Customer Service e Dynamics 365 Field Service, a interagir perfeitamente com aplicativos do Finance and Operations.
 
 + Atividades e notas são unificadas e expandidas para suportar C1s (usuários do sistema) e C2s (clientes do sistema).
 
-+ Para evitar a perda de dados durante a transmissão de moeda entre aplicativos do Finance and Operations e o Common Data Service, você poderá estender o número de casas decimais no tipo de dados de moeda de aplicativos do Customer Engagement. O recurso converte automaticamente os registros existentes no novo estado estendido na camada de metadados. Durante esse processo, o valor da moeda é convertido em dados decimais em vez de dados monetários, e o valor da moeda oferece suporte a 10 casas decimais. Este recurso é opcional e apenas organizações que requeiram acima de 4 casas decimais de precisão deverão aceitá-lo. Para obter mais informações, consulte [Migração de tipo de dados de moeda para gravação dupla](currrency-decimal-places.md).
++ Para evitar a perda de dados durante a transmissão de moeda entre aplicativos do Finance and Operations e o Dataverse, você poderá estender o número de casas decimais no tipo de dados de moeda de aplicativos do Customer Engagement. O recurso converte automaticamente as linhas existentes no novo estado estendido na camada de metadados. Durante esse processo, o valor da moeda é convertido em dados decimais em vez de dados monetários, e o valor da moeda oferece suporte a 10 casas decimais. Este recurso é opcional e apenas organizações que requeiram acima de 4 casas decimais de precisão deverão aceitá-lo. Para obter mais informações, consulte [Migração de tipo de dados de moeda para gravação dupla](currrency-decimal-places.md).
 
-+ [Efetividade de data](../../dev-tools/date-effectivity.md) será adicionada ao Common Data Service. Ela dará suporte a dados passados, presentes e futuros na mesma entidade.
++ [Efetividade de data](../../dev-tools/date-effectivity.md) será adicionada ao Dataverse. Ela dará suporte a dados passados, presentes e futuros na mesma entidade.
 
 + As [conversões de unidades](../../../../supply-chain/pim/tasks/manage-unit-measure.md) de produto têm suporte para produtos, cotações, ordens e faturas.
 

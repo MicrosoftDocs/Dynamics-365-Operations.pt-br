@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6324b244195e9626e259e42eef9512e64cde86
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 78dcdbd83dc717104d437662f7f451c9ecb714cf
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3143089"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4684370"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>Gerar relatórios em formato do Office com imagens incorporadas
 
@@ -40,14 +39,14 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
     * Execute o formato para fins de teste.  
 6. Selecione Sim no campo Formato de cheque negociável.
 7. Clique em OK.
-    * Revise a saída criada. Observe que o logotipo da empresa é mostrado no relatório, bem como a assinatura da pessoa autorizada. A imagem de assinatura é obtida do campo do tipo de dados "Contêiner" do registro de layout de cheque que é associado à conta bancária selecionada.  
+    * Revise a saída criada. O logotipo da empresa é mostrado no relatório, bem como a assinatura da pessoa autorizada. A imagem de assinatura é obtida do campo do tipo de dados "Contêiner" do registro de layout de cheque que é associado à conta bancária selecionada.  
 8. Expanda a seção Cópias.
 9. Clique em Editar.
 10. No campo Marca d'água, insira "Imprimir marca d'água como Nula".
     * Modificar a configuração do layout de marca d'água para exibir o texto de marca d'água ao gerar o documento de um elemento do Excel.  
 11. Clique em Imprimir teste.
 12. Clique em OK.
-    * Revise a saída criada. Observe que a marca-d'água é mostrada no relatório criado, de acordo a opção de seleção.  
+    * Revise a saída criada. A marca-d'água é mostrada no relatório criado, de acordo a opção de seleção.  
 13. Feche a página.
 14. No Painel de Ação, clique em Gerenciar pagamentos.
 15. Clique em Cheques.
@@ -56,7 +55,7 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 18. Na lista, marque todas as linhas.
 19. Clique em Imprimir cópia de cheque.
     * Execute o formato para reimprimir os cheques selecionados.  
-    * Revise a saída criada. Observe que os cheques selecionados foram reimpressos. O logotipo e os rótulos empresariais não são impressos de saída, já que são apresentados no formulário pré-impresso.  
+    * Revise a saída criada. Os cheques selecionados foram reimpressos. O logotipo e os rótulos empresariais não são impressos de saída, já que são apresentados no formulário pré-impresso.  
 
 ## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modifique mapeamento do modelo de dados importados
 1. Feche a página.
@@ -91,7 +90,7 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 4. Clique em Verificar.
 5. Clique em Imprimir teste.
 6. Clique em OK.
-    * Revise a saída criada. Observe que a imagem do anexo de Gerenciamento de documentos é exibida como a assinatura de uma pessoa autorizada.  
+    * Revise a saída criada. A imagem do anexo de Gerenciamento de documentos é exibida como a assinatura de uma pessoa autorizada.  
 
 ## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Use o documento do Word MS como um modelo no formato importado
 1. Feche a página.
@@ -118,5 +117,5 @@ Neste exemplo, você usará as configurações de ER criadas para a empresa exem
 21. Clique em Verificar.
 22. Clique em Imprimir teste.
 23. Clique em OK.
-    * Revise a saída criada. Observe que a saída foi gerada como um documento do MS Word com imagens incorporadas apresentando o logotipo da empresa, a assinatura de uma pessoa autorizada e o texto selecionado da marca d'água.  
+    * Revise a saída criada. A saída foi gerada como um documento do Word com imagens incorporadas apresentando o logotipo da empresa, a assinatura de uma pessoa autorizada e o texto selecionado da marca d'água.  
 

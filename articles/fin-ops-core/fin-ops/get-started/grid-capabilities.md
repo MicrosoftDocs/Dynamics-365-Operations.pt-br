@@ -3,7 +3,7 @@ title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 11/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,21 +11,21 @@ ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 1f1c27444b38360072beb5277c445161983a2480
-ms.sourcegitcommit: 28a771d81322e72d88db63a20ff360de084a6087
+ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "3835077"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693765"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 O novo controle de grade fornece vários recursos úteis e eficientes que podem ser usados para melhorar a produtividade do usuário, construir exibições mais interessantes dos dados e obter insights significativos sobre seus dados. Este artigo abordará os seguintes recursos: 
 
@@ -95,21 +95,23 @@ Como um acelerador de produtividade, os usuários podem inserir fórmulas matem�
 Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais informações sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Agrupando de dados tabulares
-[!include [preview banner](../includes/preview-banner.md)]
+Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento em grades**, que está disponível para o público em geral na versão 10.0.16/Atualização da plataforma 40 e depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos do Finance and Operations. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
 
-Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento (versão prévia) em grandes**, que depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos do Finance and Operations. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
-
-Para usar esse recurso, clique com o botão direito do mouse na coluna a ser agrupada e selecione **Agrupar por esta coluna**. Essa ação classificará os dados pela coluna selecionada, adicionará nova **Agrupar por coluna** ao início da grade e inserirá "linhas do cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo: 
+Para usar esse recurso, clique com o botão direito do mouse na coluna a ser agrupada e selecione **Agrupar por esta coluna**. Essa ação classificará os dados pela coluna selecionada, adicionará nova coluna **Agrupar por** ao início da grade e inserirá "linhas de cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo: 
 -  Valor de dados para o grupo 
--  Nome da coluna (Essas informações serão especialmente úteis depois que vários níveis de agrupamento forem compatíveis.)  
+-  Nome da coluna (essas informações são especialmente úteis quando você tem vários níveis de agrupamento)  
 -  Número de linhas de dados neste grupo
 -  Subtotais de qualquer coluna configurada para mostrar totais
 
 Com [Exibições salvas](saved-views.md) habilitadas, esse agrupamento pode ser salvo por personalização como parte de uma exibição para acesso rápido na próxima vez que você visitar a página.  
 
-Se você selecionar **Agrupar por esta coluna** em uma coluna diferente, o agrupamento original será substituído, pois só há suporte a um nível de agrupamento a parir da versão 10.0.9/Platform update 33.
+### <a name="multiple-levels-of-grouping"></a>Vários níveis de agrupamento
+Depois de agrupar os dados por uma única coluna, você poderá agrupar os dados por uma coluna diferente selecionando **Agrupar por esta coluna** na coluna desejada. Esse processo pode ser repetido até que você tenha cinco níveis aninhados de agrupamento, que é a profundidade máxima compatível. Neste ponto, você não poderá mais agrupar por colunas adicionais.  
 
-Para desfazer o agrupamento em uma grade, clique com o botão direito do mouse na coluna de agrupamento e selecione **Desagrupar**.  
+A qualquer momento, você poderá remover o agrupamento em qualquer coluna clicando com o botão direito do mouse nessa coluna e selecionando **Desagrupar**. Você também pode remover o agrupamento de todas as colunas selecionando **Opções de grade** e **Desagrupar tudo**.   
+
+Observe, antes da versão 10.0.16/Atualização da plataforma 40, só havia suporte para um nível de agrupamento. Nessas versões, se os dados forem agrupados e você selecionar **Agrupar por esta coluna** para uma coluna diferente, o agrupamento original será substituído.  
+
 
 ### <a name="expanding-and-collapsing-groups"></a>Como expandir e recolher grupos
 O agrupamento inicial de dados terá todos os grupos expandidos. Você pode criar exibições resumidas dos dados recolhendo grupos individuais ou pode usar a expansão e o recolhimento de grupos para auxiliar na navegação pelos dados. Para expandir ou recolher um grupo, selecione o botão de divisa (>) na linha de cabeçalho de grupo correspondente. Observe que o estado de expandir/recolher de grupos individuais **não** é salvo na personalização.
@@ -165,10 +167,26 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
     -  Existe uma lista de placas agrupadas na página.
     -  Uma coluna de grade com um controle extensível sem reação.
 
-    Quando um usuário encontra primeiro uma dessas situações, uma mensagem será exibida sobre a atualização da página. Depois que esta mensagem for exibida, a página continuará a utilizar a grade existente para todos os usuários até a próxima atualização da versão do produto. Uma melhor manipulação desses cenários, de forma que a nova grade possa ser utilizada, será considerada para uma atualização futura.     
+    Quando um usuário encontra primeiro uma dessas situações, uma mensagem será exibida sobre a atualização da página. Depois que esta mensagem for exibida, a página continuará a utilizar a grade existente para todos os usuários até a próxima atualização da versão do produto. Uma melhor manipulação desses cenários, de forma que a nova grade possa ser utilizada, será considerada para uma atualização futura.    
+    
+-  [KB 4582758] Os registros ficam borrados quando você altera o zoom de 100 para qualquer outro percentual
+    
+### <a name="fixed-as-part-of-10015"></a>Corrigido como parte do 10.0.15    
+
+-  [KB 4582723] Opções de exibição que não aparecem quando executadas posteriormente no ciclo de vida do formulário
+
+### <a name="fixed-as-part-of-10014"></a>Corrigido como parte do 10.0.14
+
+-  (Atualização de qualidade) [KB 4584752] Erro de cliente inesperado na página Propostas de fatura de projeto
 
 ### <a name="fixed-as-part-of-10013"></a>Corrigido como parte do 10.0.13
 
+-  (Atualização de qualidade) [KB 4583880] Os testes da Regression Suite Automation Tool (RSAT) falham na ação OpenLookup com "Não é possível ler a propriedade RowIndex de indefinido"
+-  (Atualização de qualidade) [KB 4583847] Erro de cliente inesperado ao navegar pelas pesquisas 
+-  (Atualização de qualidade) [Bug 471777] Não é possível selecionar campos em uma grade para editar ou criar um aplicativo móvel
+-  [Bug 474851] Hiperlinks nos controles do grupo de referência não funcionam 
+-  [Bug 474848] Visualizações aperfeiçoadas com grades não são exibidas
+-  [KB 4582726] A propriedade RotateSign não está sendo respeitada  
 -  [Bug 470173] Caixas de seleção em linhas inativas são alternadas quando se clica no espaço em branco na célula
 -  [Bug 474848] Visualizações aperfeiçoadas com grades não são exibidas
 -  [Bug 474851] Hiperlinks nos controles do grupo de referência não funcionam 
@@ -176,6 +194,7 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
 -  [KB 4569441] Problemas com a renderização de listas de cartões de várias colunas, dicas de ferramentas em imagens e opções de exibição em alguns campos
 -  [KB 4575279] Nem todas as linhas marcadas são excluídas no diário geral
 -  [KB 4575233] As opções de exibição não são restauradas após a movimentação para outra linha
+-  [Bug 477884] As pesquisas retornam valor ou registro incorreto se o novo controle de grade estiver ativado
 -  [KB 4571095] O lançamento de recebimento de produtos ocorre quando você pressiona acidentalmente Enter (manipulação correta da ação padrão de uma página)
 -  [KB 4575437] Pesquisas com controles editáveis são fechadas inesperadamente
 -  [KB 4569418] Linha duplicada criada no formulário agenda de entrega
@@ -225,7 +244,7 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
 - [KB 4558383] Controles fora da grade não são atualizados após o último registro ser excluído.
 - [KB 4558587] Os grupos de referência que possuem caixas de combinação para campos de substituição não mostram valores.
 - [KB 4562143] Os campos não são atualizados depois que um processamento de alteração/grade de linha fica preso após a exclusão da linha.
-- [KB 4562645] Uma exceção ocorre quando uma pesquisa é aberta enquanto os testes de ferramentas de administração de servidor remoto (RSAT) estão em execução.
+- [KB 4562645] Uma exceção ocorre quando uma pesquisa é aberta enquanto os testes da Regression Suite Automation Tool (RSAT) estão em execução.
 
 ### <a name="fixed-as-part-of-10010"></a>Corrigido como parte do 10.0.10
 

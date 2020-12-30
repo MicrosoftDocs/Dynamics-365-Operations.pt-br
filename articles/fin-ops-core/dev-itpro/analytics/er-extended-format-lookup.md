@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERWorkspace
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 28bdd02c25db27536a489f9e8ab2a91a5ca0f09c
-ms.sourcegitcommit: b92c3e1b3403d0455fc4e0bf9132d6bc0d7aba5e
+ms.openlocfilehash: f7c6cb99a6c5cc6fb92ce52041296af2d0c6722e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3138851"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679477"
 ---
 # <a name="allow-users-to-set-up-an-er-format-reference-inquiring-a-format-from-the-global-repository"></a>Permitir que os usuários configurem uma referência de formato de ER consultando um formato no Repositório global
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar a estrutura de ER [(Relatório eletrônico)](general-electronic-reporting.md) a fim de configurar [formatos](general-electronic-reporting.md#FormatComponentOutbound) para documentos de saída de acordo com os requisitos legais de diversos países/regiões. Também é possível usar a estrutura de ER a fim de configurar [formatos](general-electronic-reporting.md#FormatComponentInbound) para analisar documentos de entrada e usar as informações desses documentos para acrescentar ou atualizar dados de aplicativo. Cada um desses formatos pode ser usado na instância do seu Dynamics 365 Finance para manipular documentos comerciais de entrada ou saída como parte de um determinado processo de negócios. 
+Você pode usar a estrutura de ER [(Relatório eletrônico)](general-electronic-reporting.md) a fim de configurar [formatos](general-electronic-reporting.md#FormatComponentOutbound) para documentos de saída de acordo com os requisitos legais de diversos países/regiões. Também é possível usar a estrutura de ER a fim de configurar [formatos](general-electronic-reporting.md#FormatComponentInbound) para analisar documentos de entrada e usar as informações desses documentos para acrescentar ou atualizar dados de aplicativo. Cada um desses formatos pode ser usado na instância do seu Dynamics 365 Finance para manipular documentos comerciais de entrada ou saída como parte de um determinado processo de negócios.
 
 Normalmente, você deve especificar o formato ER que deve ser usado em um determinado processo de negócios. Para isso, selecione um único formato de ER em um campo de pesquisa configurado como parte dos parâmetros específicos do processo de negócios. Esses campos de pesquisa geralmente são implementados usando a API apropriada da estrutura de ER. Para obter mais informações, consulte [API da estrutura de ER – código para exibir uma pesquisa de mapeamento de formato](er-apis-app73.md#code-to-display-a-format-mapping-lookup).
 
@@ -55,13 +54,13 @@ Quando você seleciona um formato de ER na FastTab **Importar do Repositório gl
 
 [![Página Parâmetros de comércio exterior](./media/ER-ExtLookup-FormatImport.png)](./media/ER-ExtLookup-FormatImport.png)
 
-Assim, se a importação for concluída com êxito, a referência para o formato de ER importada será armazenada nesse campo de pesquisa. Observe que ao acessar o GR pela primeira vez, você precisará seguir o link fornecido para inscrever-se no RCS [(Regulatory Configuration Service)](https://aka.ms/rcs) que é usado para gerenciar o acesso ao armazenamento do GR.
+Assim, se a importação for concluída com êxito, a referência para o formato de ER importada será armazenada nesse campo de pesquisa. Ao acessar o GR pela primeira vez, você precisará seguir o link fornecido para inscrever-se no RCS [(Regulatory Configuration Service)](https://aka.ms/rcs) que é usado para gerenciar o acesso ao armazenamento do GR.
 
 [![Página Parâmetros de comércio exterior](./media/ER-ExtLookup-RepoSignUp.png)](./media/ER-ExtLookup-RepoSignUp.png)
 
 Por padrão, a FastTab **Importar do Repositório global** apresenta a lista de formatos de ER do armazenamento temporário que é criada automaticamente com base no conteúdo do GR para melhorias de desempenho. Isso ocorre quando a FastTab **Importar do Repositório global** é aberta pela primeira vez, o que pode demorar alguns segundos.
 
-Se você não visualizar o formato obrigatório de ER na FastTab **Importar do Repositório global**, mas tiver certeza de que esse formato de ER está armazenado no GR, selecione a opção **Sincronizar**. Isso atualizará o armazenamento temporário e o sincronizará com o conteúdo atual do GR.
+Se você não visualizar o formato obrigatório de ER na FastTab **Importar do Repositório global**, mas tiver certeza de que esse formato de ER está armazenado no GR, selecione a opção **Sincronizar**. Essa opção atualizará o armazenamento temporário e o sincronizará com o conteúdo atual do GR.
 
 ## <a name="feature-activation"></a>Ativação de recurso
 

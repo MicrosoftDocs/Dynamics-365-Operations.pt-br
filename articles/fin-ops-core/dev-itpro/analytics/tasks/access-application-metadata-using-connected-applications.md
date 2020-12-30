@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28b8346b916729669af42ca47fe9a882e7a77bd0
-ms.sourcegitcommit: 57e1dafa186fec77ddd8ba9425d238e36e0f0998
+ms.openlocfilehash: 751ac21dc056373e1cd89a5149bf38789134e0cc
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "3142191"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682132"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acessar metadados do aplicativo usando aplicativos conectados
 
@@ -54,7 +53,7 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 2. Feche a página. 
 3. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
 4. Clique em **Aplicativos conectados**. 
-5. Verifique se o aplicativo configurado é baseado em Azure e está disponível para o usuário do RCS atual. Também é necessário que o usuário do RCS atual tenha acesso ao aplicativo selecionado e esteja registrado como um usuário desse aplicativo com uma função que lhe concede privilégios para acessar metadados do aplicativo. 
+5. Verifique se o aplicativo configurado é baseado em Azure e está disponível para o usuário do RCS atual. Também é necessário que o usuário do RCS atual tenha acesso ao aplicativo selecionado e esteja registrado como um usuário desse aplicativo com uma função que lhes concede privilégios para acessar metadados do aplicativo. 
 6. Clique em **Novo**. 
 7. No campo **Nome**, digite 'MyConnectedApp'. 
 8. No campo **Aplicativo**, digite 'https:// mycompany.operations.dynamics.com'. 

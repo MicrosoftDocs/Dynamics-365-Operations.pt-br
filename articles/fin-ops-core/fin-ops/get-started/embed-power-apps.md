@@ -3,7 +3,7 @@ title: Inserir aplicativos de tela do Power Apps
 description: Este tópico explica como inserir aplicativos de tela do Microsoft Power Apps no cliente para aumentar a funcionalidade do produto.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 11/03/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FormRunConfigurationAddPAControl, FormRunConfigurationEditPAControl
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: e57e4567a80aa9f9ba5ac434b0d71204460e164f
-ms.sourcegitcommit: 71ec2f48185b8104ca52ff70df52263ce5f87f26
+ms.openlocfilehash: ba3b736aeae8540349309ddd82bd431720b9701c
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/25/2020
-ms.locfileid: "3893098"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693474"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Inserir aplicativos de tela do Power Apps
 
@@ -57,7 +56,7 @@ O procedimento a seguir mostra como inserir um aplicativo de tela do Power Apps 
 3. Configurar o aplicativo inserido:
 
     - O campo **Nome** indica o texto mostrado para o botão ou a guia que conterá o aplicativo inserido. Muitas vezes, convém repetir o nome do aplicativo neste campo.
-    - O campo **ID do Aplicativo** indica o identificador global exclusivo (GUID) para o aplicativo de tela que você deseja inserir. Para recuperar este valor, localize o aplicativo no [web.powerapps.com](https://web.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
+    - O campo **ID do Aplicativo** indica o identificador global exclusivo (GUID) para o aplicativo de tela que você deseja inserir. Para recuperar este valor, localize o aplicativo no [make.powerapps.com](https://make.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
     - Para **Dados de contexto para o aplicativo**, você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Consulte a seção posterior neste tópico chamada [Criando um aplicativo que utiliza os dados enviados de aplicativos do Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps) para obter detalhes sobre como o aplicativo pode acessar os dados enviados de aplicativos do Finance and Operations.
     - Selecione o **Tamanho do aplicativo** que corresponde ao tipo de aplicativo que você está inserindo. Selecione **Fino** para aplicativos criados para dispositivos móveis e **Largo** para aplicativos criados para tablets. Isso garantirá que uma quantidade suficiente de espaço seja alocada para o aplicativo inserido.
     - A guia rápida **Entidades legais** fornece a capacidade de escolher para quais entidades legais o aplicativo está disponível. O padrão é tornar o aplicativo acessível para todas as entidades legais. Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver desabilitado. 

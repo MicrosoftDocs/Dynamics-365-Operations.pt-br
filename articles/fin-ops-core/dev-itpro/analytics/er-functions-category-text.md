@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd4dd7e9a3e1aa448adea5abd0c21b8133f34e3b
-ms.sourcegitcommit: fb8ad8e2b142441a6530b364f3258bbcc0c724d2
+ms.openlocfilehash: 228620afc81e154eced572f3b6024d6836d00d66
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "3201080"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686018"
 ---
 # <a name="list-of-er-functions-of-the-text-category"></a>Lista de funções ER na categoria de texto
 
@@ -37,7 +36,7 @@ As funções de texto de relatório eletrônico (ER) podem ser usadas para reali
 |----------|-------------|
 | [Char](er-functions-text-char.md) | Essa função retorna um valor de *Cadeia de caracteres* que apresenta um caractere único referenciado pelo número Unicode especificado. |
 | [Concatenar](er-functions-text-concatenate.md) | Essa função retorna todas as cadeias de caracteres de texto especificadas como um valor de *Cadeia de caracteres* depois que elas são unidas em uma cadeias de caracteres. |
-| [Formato](er-functions-text-format.md) | Essa função retorna a cadeia de caracteres especificada como um valor de *Cadeia de caracteres* após ela ser formatada, substituindo todas as ocorrências de **%N** pelo *N*º argumento. |
+| [Formato](er-functions-text-format.md) | Essa função retorna a cadeia de caracteres especificada como um valor de *Cadeia de caracteres* após ela ser formatada, substituindo todas as ocorrências de **%N** pelo *N* º argumento. |
 | [GetEnumValueByName](er-functions-text-getenumvaluebyname.md) | Essa função procura um valor de *Enum.* específico na fonte de dados de enumeração especificada usando o nome de enumeração especificado como um valor de *Cadeia de caracteres*. Se o valor *Enum.* for encontrado, a função o retornará. |
 | [GuidValue](er-functions-text-guidvalue.md) | Essa função converte a entrada especificada do tipo *Cadeia de caracteres* em um item de dados do tipo *GUID*. |
 | [JsonValue](er-functions-text-jsonvalue.md) | Essa função analisa os dados no formato JSON (JavaScript Object Notation) que são acessados no caminho especificado e extrai um valor escalar baseado na ID especificada. Em seguida, ela retorna o valor escalar extraído como um valor de *Cadeia de caracteres*. |

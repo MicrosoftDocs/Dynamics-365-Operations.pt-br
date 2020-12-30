@@ -3,7 +3,7 @@ title: Tipo de destino de ER do arquivo
 description: Este tópico fornece informações sobre como configurar um destino de arquivo para cada componente de PASTA ou ARQUIVO de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
 author: NickSelin
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,25 +11,24 @@ ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8797a68507a5116c6adbf1f2d805838fa507958c
-ms.sourcegitcommit: 445f6d8d0df9f2cbac97e85e3ec3ed8b7d18d3a2
+ms.openlocfilehash: 3dee7ec614ec1372feaa1150f5e4ebb14c32f60e
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "3745576"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4679669"
 ---
-# <a name="archive-destination"></a>Local do arquivo morto
+# <a name="archive-er-destination-type"></a>Tipo de destino de ER do arquivo
 
 [!include [banner](../includes/banner.md)]
 
-Você pode configurar um destino de arquivo para cada componente de PASTA ou ARQUIVO de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída. Com base na configuração de destino, um documento gerado é armazenado como um anexo de um registro da lista de trabalhos do ER.
+Você pode configurar um destino de arquivo para cada componente de **Pasta** ou **Arquivo** de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída. Com base na configuração de destino, um documento gerado é armazenado como um anexo de um registro da lista de trabalhos do ER. Para exibir os resultados, vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
 
 Você pode usar essa opção para enviar o documento gerado para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os [tipos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) de documento em **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
@@ -49,6 +48,9 @@ Você pode salvar um arquivo em uma pasta designada do SharePoint. Para definir 
 ## <a name="azure-storage"></a>Armazenamento do Azure
 
 Quando o local do tipo de documento é definido como **Armazenamento do Azure**, você pode salvar um arquivo no Armazenamento do Azure.
+
+> [!NOTE] 
+> A estrutura ER armazena arquivos permanentemente no armazenamento de blob do Azure, ao contrário da estrutura de gerenciamento de dados, que aplica a política de retenção de sete dias para documentos que devem ser processados. Para obter mais informações, consulte [API para obter status da mensagem](../data-entities/recurring-integrations.md#api-for-getting-message-status) e [verificar API de status](../data-entities/data-management-api.md#status-check-api). Os arquivos relacionados a ER serão armazenados no armazenamento de blob do Azure como anexos de registros da tabela de aplicativos desde que sejam necessários. Um único arquivo será excluído do armazenamento de blob do Azure juntamente com o registro da tabela de aplicativos ao qual esse arquivo foi anexado.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

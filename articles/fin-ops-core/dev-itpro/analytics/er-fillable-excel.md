@@ -3,7 +3,7 @@ title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico fornece informações sobre como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
 manager: AnnBe
-ms.date: 05/14/2020
+ms.date: 11/02/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e889b08f10c5d0c95fed7c9e422340706bdd154a
-ms.sourcegitcommit: 67ce81c57194afb26a04ae4c0b7509e0efa32afc
+ms.openlocfilehash: d5733e40c67f9c97b04f126f7c3cfea9d4f8f5b5
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "3375804"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686529"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -165,6 +164,17 @@ Quando você valida um formato ER editável, uma verificação de consistência 
 
 ![Mensagem de erro de validação](./media/er-excel-format-validate.png)
 
+## <a name="control-the-calculation-of-excel-formulas"></a>Controlar o cálculo de fórmulas do Excel
+
+Quando um documento de saída é gerado em um formato de pasta de trabalho do Microsoft Excel, algumas células deste documento podem conter fórmulas do Excel. Quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura eletrônica de relatórios** estiver habilitado, você pode controlar quando as fórmulas são calculadas alterando o valor do [parâmetro](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows)**Opções de cálculo** no modelo do Excel que está sendo usado:
+
+- Selecione **Automático** para recalcular todas as fórmulas dependentes toda vez que um documento gerado for acrescentado por novos intervalos, células etc.
+    >[!NOTE]
+    > Isso pode causar um problema de desempenho para os modelos do Excel que contêm várias fórmulas relacionadas.
+- Selecione **Manual** para evitar o recálculo de fórmulas quando um documento é gerado.
+    >[!NOTE]
+    > O recálculo da fórmula é forçado manualmente quando um documento gerado é aberto para visualização usando o Excel.
+    > Não use esta opção se você configurar um destino ER que suponha o uso de um documento gerado sem sua visualização no Excel (conversão em PDF, email, etc.) como o documento gerado pode não conter valores nas células que contêm fórmulas.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

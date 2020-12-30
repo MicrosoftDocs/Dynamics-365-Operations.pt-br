@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 106233
 ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 596a067611ac4477f4469dbbc370c971e0f7a35d
-ms.sourcegitcommit: 3ba95d50b8262fa0f43d4faad76adac4d05eb3ea
+ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "2181763"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4682762"
 ---
 # <a name="financial-insights"></a>Insights financeiros
 
@@ -81,14 +80,14 @@ Você pode definir um lote recorrente para atualizar regularmente os dados nas e
 ## <a name="security"></a>Segurança
 No momento, os dados nos relatórios incorporados do Power BI não podem ser limitados às entidades legais às quais o usuário tem acesso. Por isso os relatórios incorporados do Power BI são controlados por meio de direitos na configuração de segurança. Os direitos definidos permitem acesso a dados de todas as entidades legais ou somente à empresa ativa. A tabela a seguir mostra os direitos que existem e as funções às quais eles estão atribuídos. Os direitos podem ser removidos ou atribuídos a diferentes funções, com base nos requisitos de sua organização.
 
-| Direitos                                    | Funções | Descrição |
+| Obrigação                                    | Funções | descrição |
 |-----------------------------------------|-------|------------|
 | Exibir espaço de trabalho de Visão geral do CFO             | Diretor financeiro | Esta obrigação fornece acesso ao espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 | Exibir insights financeiros da empresa atual | <ul><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Auditor</li><li>Gerente de orçamentos</li><li>Diretor executivo</li><li>Diretor financeiro</li><li>Controlador financeiro</li></ul> | Esta obrigação fornece acesso aos Insights financeiros. Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais. |
 | Exibir insights financeiros interempresariais   | No Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3, esse direito não é atribuído a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 
 
-## <a name="financial-reporting-vs-finanical-insights"></a>Relatório financeiro em comparação com Insights financeiros
+## <a name="financial-reporting-vs-financial-insights"></a>Financial Reporting versus Financial Insights
 Embora os **Insights financeiros** contenham demonstrativos financeiros, eles não são substituem os Relatórios financeiros no aplicativo. Os demonstrativos financeiros padrão nos **Insights financeiros** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
 
 O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
@@ -131,9 +130,9 @@ Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. 
 - **Filtros de nível visual** – Esses filtros são aplicados somente ao elemento visual selecionado. Esses filtros são aplicados na parte superior dos filtros em nível de página.
 - **Filtro de análise** – Este filtro é aplicado de um elemento visual de "origem" que é aplicado ao elemento visual atual quando você analisar o elemento visual em relação ao elemento visual atual.
 
-![Filtrar](./media/filter.png)
+![Opções de filtro](./media/filter.png)
 
-Para remover um valor de filtro específico, selecione o símbolo de borracha próximo a ele. Não remova um filtro selecionando o X. Se você selecionar o X, o campo que está filtrando será removido como uma opção do filtro. Se você remover acidentalmente um campo do filtro, feche o espaço de trabalho e depois reabra-o. As configurações padrão de filtros serão reaplicadas.
+Para remover um valor de filtro específico, selecione o símbolo de borracha próximo a ele. Não remova um filtro selecionando o X. Se você selecionar o X, o campo que está filtrando será removido como uma opção do filtro. Se você remover acidentalmente um campo do filtro, feche o espaço de trabalho e depois o reabra. As configurações padrão de filtros serão reaplicadas.
 
 Por padrão, quando você abrir os espaços de trabalho pela primeira vez, a entidade legal ativa será usada como o filtro em nível de relatório. Dependendo da sua segurança, usuários conseguirão adicionar outras entidades legais ou alterar a entidade legal padrão que é selecionada no filtro.
 
@@ -176,25 +175,25 @@ Há vários níveis de análise disponíveis no Power BI. Cada nível tem um nom
 
 Na ilustração a seguir, o demonstrativo **Balancete** é recolhido para o nível mais alto da hierarquia de linha, o tipo de conta principal.
 
-![Balanço ou Balancete](./media/trial-balance.png)
+![Demonstrativo de balancete](./media/trial-balance.png)
 
 Para exibir o próximo nível da hierarquia, as categorias de conta principal, você pode definir o campo **Detalhar** para **Linhas** e selecionar o botão **Expandir** (o terceiro botão após o campo Detalhar). Agora você verá todas as categorias contábeis principais expandidas. No momento, o Power BI não permite expandir somente uma linha ou coluna, mas ver todas as outras linhas ou colunas.
 
-![Balanço ou Balancete](./media/trial-balance2.png)
+![Detalhamento do balancete nas linhas](./media/trial-balance2.png)
 
 Para expandir as contas principais para todas as linhas, você pode usar novamente o botão **Expandir**. Porém, para fazer busca detalhada nas contas principais para somente uma linha, primeiro selecione o botão **Busca detalhada** (a seta curva para baixo no lado direito da janela) e, em seguida, selecione a linha para fazer a busca detalhada. A ilustração a seguir mostra o resultado quando a linha **Vendas** for selecionada depois que o botão **Detalhar** for selecionado.
 
-![Balanço ou Balancete](./media/trial-balance3.png)
+![Botão Expansão do balancete](./media/trial-balance3.png)
 
 Depois de fazer busca detalhada em uma única linha, vários cliques são necessários para retornar ao balancete completo. O botão **Fazer drill up** (o primeiro botão depois do campo **Detalhar**) faz drill up somente no contexto da categoria de **Vendas**, conforme mostrado na ilustração a seguir.
 
-![Balanço ou Balancete](./media/trial-balance4.png)
+![Botão Drill up de balancete](./media/trial-balance4.png)
 
 Você pode continuar usando o botão **Fazer drill up** para retornar ao mais alto nível de resumo das linhas.
 
 O Power BI também tem um botão que permite ir para o próximo nível na hierarquia (o segundo botão após o campo **Detalhar**). O efeito deste botão difere do efeito do botão **Expandir** (o terceiro botão após o campo **Detalhar**), que é usado para expandir a hierarquia. Quando você expande a hierarquia, ela é mantida no relatório. Por exemplo, como mostrado anteriormente, se expandir o tipo de conta principal, você ainda verá o tipo de conta principal no relatório. Porém, quando você avançar para o próximo nível da hierarquia, o relatório não mostrará mais o pai na hierarquia, conforme mostrado na seguinte ilustração.
 
-![Balanço ou Balancete](./media/trial-balance5.png)
+![Botão Reversão de balancete](./media/trial-balance5.png)
 
 Para ver os detalhes da transação além dos saldos resumidos, você pode selecionar alguns valores para reverter no Financial and Operations.
 
@@ -245,6 +244,6 @@ O Power BI não tem uma opção para ocultar e mostrar linhas vazias. Se uma lin
 
 As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Visão geral de CFO** ou **Insights financeiros** em um ambiente de produção. Em vez disso, elas são úteis para caixas de desenvolvimento e se você quiser incorporar seus relatórios do Power BI.
 
-- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
+- [Como acessar espaços de trabalho analíticos e relatórios em um ambiente de 1 caixa](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
-- <https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
+- [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)

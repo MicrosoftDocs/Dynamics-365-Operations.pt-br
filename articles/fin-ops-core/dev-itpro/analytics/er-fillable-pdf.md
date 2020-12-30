@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 96426ce54ec1b37c6751d990503d95960c2913df
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: de31469e79addfb82b3b57e647ff82e4d254881a
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2771297"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4688116"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Criar configurações de ER a serem preenchidas em modelos de PDF
 
@@ -201,7 +200,7 @@ Em seguida, importe o exemplo de formato ER que você baixou anteriormente para 
 
 ### <a name="format-layout"></a>Formato de layout
 
-1. Na página **Configurações**, na árvore, selecione**Módulo intrastat \> Relatório intrastat (PDF)**.
+1. Na página **Configurações**, na árvore, selecione **Módulo intrastat \> Relatório intrastat (PDF)**.
 2. Selecione **Designer**.
 3. Selecione **Mostrar detalhes**.
 4. Na árvore, expanda **Saída: Fusão de PDFs**.
@@ -282,7 +281,7 @@ Em seguida, você carregará o exemplo de formato ER **Intrastat (importar do Ex
 
 ### <a name="run-the-format-configuration"></a>Executar a configuração de formato
 
-1. Na página **Configurações**, na árvore, selecione**Módulo intrastat \> Relatório intrastat (PDF)**.
+1. Na página **Configurações**, na árvore, selecione **Módulo intrastat \> Relatório intrastat (PDF)**.
 2. Selecione **Executar**.
 3. Selecione **Procurar**. Navegue e selecione o arquivo **Exemplo de dados do intrastat.xlsx** que você baixou anteriormente como um pré-requisito.
 4. Selecione **OK**.

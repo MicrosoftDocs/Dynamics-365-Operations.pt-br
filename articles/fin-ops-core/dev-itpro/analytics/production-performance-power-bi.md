@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0dc71f819f132b91fe153f83089eab24fa33173a
-ms.sourcegitcommit: fbc106af09bdadb860677f590464fb93223cbf65
+ms.openlocfilehash: 661617ea7e51ac5cacdd5a08ee52f6a6e43b44be
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "2772479"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4686677"
 ---
 # <a name="production-performance-power-bi-content"></a>Conteúdo de desempenho da produção do Power BI
 
@@ -66,7 +65,7 @@ Os seguintes dados são usados para as páginas de relatório no conteúdo do Po
 
 A tabela a seguir mostra as principais medidas agregadas que são usadas como base do conteúdo do Power BI.
 
-| Entidade                   | Principais medidas agregadas  | Fonte de dados para os aplicativos do Finance and Operations | Campo              |
+| Entidade                   | Principais medidas agregadas  | Fonte de dados para aplicativos do Finance and Operations | Campo              |
 |--------------------------|-----------------------------|----------------------------------------|--------------------|
 | CostCalculation          | CostAmount                  | ProdCalcTransExpanded                  | CostAmount         |
 | CostCalculation          | CostMarkup                  | ProdCalcTransExpanded                  | CostMarkup         |

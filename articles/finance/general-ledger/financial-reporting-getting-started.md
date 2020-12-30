@@ -3,7 +3,7 @@ title: Visão geral dos relatórios financeiros
 description: Este tópico descreve onde acessar relatórios financeiros no Microsoft Dynamics 365 Finance e como usar os recursos de relatório financeiro.
 author: aprilolson
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd87983ce062bd1fa57e97628986cadced9971ab
-ms.sourcegitcommit: 374298f0816b57c95c0c3e3fd7e852399e1d8696
+ms.openlocfilehash: 88436b4a5d6be4172e15fa4a9dadc34696417fb9
+ms.sourcegitcommit: eec96c64f44d1b4877d49ee15665a774019d42d7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "3999540"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672435"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução ao Financial Reporting 
 
@@ -114,22 +114,22 @@ Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada rel
 | Balanço e Demonstrativo de Renda Lado a Lado - Padrão | Exibir a posição financeira e a lucratividade da organização para o ano lado a lado.                                                                                                                                                                                                                              |
 | Fluxo de Caixa – Padrão                                       | Obter uma ideia do dinheiro que está entrando e saindo da organização.                                                                                                                                                                                                                                   |
 | Revisão JE e TB Detalhada – Padrão                      | Exibir o saldo de abertura e as informações de atividade para todas as contas.                                                                                                                                                                                                                                                      |
-| Balancete Detalhado - Padrão                         | Exibir informações de saldo para todas as contas que possuem saldos de crédito e débito, e a rede desses saldos, juntamente com a data da transação, comprovante, e descrição do diário.                                                                                                                                  |
+| [Balancete Detalhado - Padrão](trial-balance-financial-reports.md)| Exibir informações de saldo para todas as contas que possuem saldos de crédito e débito, e a rede desses saldos, juntamente com a data da transação, comprovante, e descrição do diário.                                                                                                                                  |
 | Tendência Trimestral de Três Anos de Despesas – Padrão             | Obter uma ideia das despesas dos últimos 12 trimestres dos três anos anteriores.                                                                                                                                                                                                                                   |
 | Revisão JE e TB das Legendas Financeiras – Padrão            | Obter uma visão geral dos saldos e da atividade do ativo, responsabilidade, capital próprio do proprietário, receita, despesa, lucro, ou legendas financeiras de perdas.                                                                                                                                                                           |
-| Demonstrativo de renda – Padrão                                | Exibir a lucratividade da organização para o período atual e o ano até o momento.                                                                                                                                                                                                                                   |
+| [Demonstrativo de renda – Padrão](income-statement-financial-report.md)| Exibir a lucratividade da organização para o período atual e o ano até o momento.                                                                                                                                                                                                                                   |
 | Lista de Transações do Razão – Padrão                        | Exibir informações de saldo detalhadas para todas as contas. Este relatório mostra os saldos de crédito e débito, juntamente com as informações de transação adicionais, como a data da transação, número do diário, comprovante, tipo de lançamento, e número de rastreamento.                                                                            |
 | Taxas – Padrão                                          | Exibir a solvência, lucratividade, e taxas de eficiência da organização para o ano.                                                                                                                                                                                                                           |
 | Despesas de Rolagem de 12 Meses – Padrão                       | Obter uma ideia das despesas para cada um dos últimos 12 meses. Esses 12 meses podem abranger mais do que um ano fiscal.                                                                                                                                                                                                       |
 | Demonstrativo de Renda do Trimestre de Rolagem – Padrão               | Exibir a lucratividade da organização trimestralmente para o ano passado e também para o ano até o momento.                                                                                                                                                                                                                   |
 | Balanço Lado a Lado – Padrão                      | Exibir a posição financeira da organização para o ano. Este relatório mostra os ativos e o passivo, e o capital próprio de acionistas lado a lado.                                                                                                                                                                                |
-| Resumo do Balancete – Padrão                          | Exibir informações sobre saldo para todas as contas que têm saldos de abertura e de fechamento, e saldos de débito e crédito com a diferença líquida.                                                                                                                                                                  |
-| Resumo do Balancete Ano a Ano – Padrão           | Exibir informações sobre saldo para todas as contas que têm saldos de abertura e de fechamento, e saldos de débito e crédito junto com a diferença líquida para o ano atual e o ano passado.                                                                                                                           |
+| [Resumo do Balancete – Padrão](trial-balance-financial-reports.md)| Exibir informações sobre saldo para todas as contas que têm saldos de abertura e de fechamento, e saldos de débito e crédito com a diferença líquida.                                                                                                                                                                  |
+| [Resumo do Balancete Ano a Ano – Padrão](trial-balance-financial-reports.md)| Exibir informações sobre saldo para todas as contas que têm saldos de abertura e de fechamento, e saldos de débito e crédito junto com a diferença líquida para o ano atual e o ano passado.                                                                                                                           |
 | Vendas e Descontos Semanais - Padrão                     | Obter uma ideia das vendas e descontos para cada semana em um mês. Esse relatório inclui um total de quatro semanas.                                                                                                                                                                                                              |
 | Fundos de Orçamento Disponíveis - Padrão                         | Exibir uma comparação detalhada de orçamento revisado, despesas efetivas, reservas de orçamento e dos fundos de orçamento disponíveis para todas as contas                                                                                                                                                                                  |
 
 ## <a name="opening-financial-reports"></a>Abrindo relatórios financeiros
-Quando você seleciona o menu **Relatórios financeiros** , é exibida a lista de relatórios financeiros padrão da empresa. É possível abrir ou modificar um relatório. Para abrir um dos relatórios padrão, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2019, o relatório é gerado para 31 de julho de 2019. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
+Quando você seleciona o menu **Relatórios financeiros**, é exibida a lista de relatórios financeiros padrão da empresa. É possível abrir ou modificar um relatório. Para abrir um dos relatórios padrão, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2019, o relatório é gerado para 31 de julho de 2019. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Criando e modificando relatórios financeiros
 Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro selecionando **Novo** no Painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Dynamics 365 Finance. 
@@ -145,11 +145,12 @@ Existem alguns problemas comuns que podem causar transtornos quando você abre o
 
 Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo** ou **Editar**.
 
-* No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança** , clique em Sites Confiáveis e selecione **Sites**. Em **Adicionar este site à zona** , insira "\*\.dynamics.com" (sem aspas) e selecione **Adicionar**. 
+* No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**, clique em Sites Confiáveis e selecione **Sites**. Em **Adicionar este site à zona**, insira "\*\.dynamics.com" (sem aspas) e selecione **Adicionar**. 
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**. Selecione Sites Confiáveis. Na área Nível de segurança desta zona, mude a opção para **Médio-baixo**.
 * Desabilite o bloqueador de pop-up no navegador.
 * As estações de trabalho devem instalar o Microsoft .NET Framework 4.6.2 ou posterior. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Se você usa o Microsoft Edge com o navegador Chrome, deverá instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo. 
+* Se você estiver usando o navegador Chrome, deverá instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo incógnito do Chrome, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Para obter mais informações sobre a Extensão ClickOnce do Chrome, consulte [Requisitos de sistema para implantações na nuvem](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Se você estiver usando o Microsoft Edge com um navegador Chrome, não será necessário instalar uma extensão ClickOnce para o Edge Chromium. No entanto, você deve habilitar a opção ClickOnce a fim de baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo.
      1. Abra um novo navegador no Microsoft Edge.
      2. Insira **edge://flags** e selecione **Enter**.
      3. Procure a opção de **Suporte do ClickOnce** ou use este link direto: **edge://flags/#edge-click-once**.

@@ -1,6 +1,6 @@
 ---
 title: Razão integrado
-description: Este tópico descreve a integração de dados do razão entre o Finance and Operations e outros aplicativos do Dynamics 365 usando o Common Data Service.
+description: Este tópico descreve a integração de dados do razão entre o Finance and Operations e outros aplicativos do Dynamics 365 usando o Dataverse.
 author: robinarh
 manager: AnnBe
 ms.date: 09/06/2019
@@ -18,16 +18,18 @@ ms.search.industry: ''
 ms.author: rhaertle
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 7f5435a97776b817a4b99887cbab8283de25b692
-ms.sourcegitcommit: 49f3011b8a6d8cdd038e153d8cb3cf773be25ae4
+ms.openlocfilehash: f794d8306a3a752d811d7d84c0ed5f739f423cad
+ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4014849"
+ms.lasthandoff: 12/05/2020
+ms.locfileid: "4681633"
 ---
 # <a name="integrated-ledger"></a>Razão integrado
 
 [!include [banner](../../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 
 
@@ -35,7 +37,7 @@ Em um aplicativo de negócios, os dados do razão definem a configuração princ
 
 ## <a name="templates"></a>Modelos
 
-Os dados do razão incluem um conjunto de mapas de entidades financeiras centrais que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
+Os dados do razão incluem um conjunto de mapas de tabelas financeiras centrais que funcionam juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
 Aplicativos Finance and Operations      | Aplicativo controlado por modelos no Dynamics 365 | descrição
 ---------------------------------|----------------------------------|------------

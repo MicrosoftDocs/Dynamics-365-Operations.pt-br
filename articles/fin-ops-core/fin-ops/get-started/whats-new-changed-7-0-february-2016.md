@@ -11,19 +11,18 @@ ms.technology: ''
 ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations
 ms.custom: 91243
 ms.assetid: 515bc6e7-a85d-4995-95c6-6cab6c8aa0f9
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 54f07e7037f818862db4a44f9ad3e3fe8545f6f9
-ms.sourcegitcommit: 57bc7e17682e2edb5e1766496b7a22f4621819dd
+ms.openlocfilehash: 5d72eaa28cfe3d114d2ab48cb1e477074a8bf739
+ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "2811473"
+ms.lasthandoff: 12/08/2020
+ms.locfileid: "4693249"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novidades ou alterações no Dynamics AX 7.0 (fevereiro de 2016)
 
@@ -541,7 +540,7 @@ u<td>Códigos de mercadoria Intrastat é uma lista separada. Embora exista uma h
 | O que você pode fazer? | Dynamics AX 2012 |
 |------------------|------------------|
 | Realize uma verificação da disponibilidade de material para ordens de produção em uma página separada que é aberta no espaço de trabalho **Gerenciamento de chão de fábrica**. | Não disponível |
-| Inicie e relate o progresso em trabalhos de produção usando a nova página **Dispositivo de ficha de trabalho**. | O formulário **Registro de trabalho**é voltado principalmente a grandes telas de terminal, e a interface do usuário costuma ser acessada por cliques de mouse. |
+| Inicie e relate o progresso em trabalhos de produção usando a nova página **Dispositivo de ficha de trabalho**. | O formulário **Registro de trabalho** é voltado principalmente a grandes telas de terminal, e a interface do usuário costuma ser acessada por cliques de mouse. |
 
 ## <a name="master-planning-and-forecasting"></a>Planejamento e previsão mestre
 
@@ -839,7 +838,7 @@ O varejo oferece experiências móveis imersivas em qualquer lugar, a qualquer m
 <ul>
 <li>Ativação do dispositivo usando AAD</li>
 <li>Design de layout responsivo</li>
-<li>Suporte para os navegadores Edge, Internet Explorer e Chrome.</li>
+<li>Suporte para os navegadores Microsoft Edge, Internet Explorer e Chrome.</li>
 </ul></td>
 <td>Fornece um aplicativo da Web de PDV que apresenta funcionalidade compatível com o MPOS e que pode ser usado em plataformas e navegadores sem custo de implantação.</td>
 </tr>
@@ -1031,6 +1030,6 @@ Não foram adicionados novos recursos.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Novidades ou alterações na home page do Finance and Operations](whats-new-changed.md)
+[Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
 
 [Novos guias de tarefas (fevereiro de 2016)](new-task-guides-available-february-2016.md)
