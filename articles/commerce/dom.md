@@ -3,14 +3,13 @@ title: Gerenciamento de ordem distribuído (DOM)
 description: Este tópico descreve a funcionalidade Gerenciamento de ordem distribuído (DOM) do Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 01/08/2021
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3a83bd6e997110d107bac836abf237f99db78d99
-ms.sourcegitcommit: d77e902b1ab436e5ff3e78c496f5a70ef38e737c
+ms.openlocfilehash: 367eaebfdd59d15040bfd4824b0b6f4621cb7147
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4458481"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5114697"
 ---
 # <a name="distributed-order-management-dom"></a>Gerenciamento de ordem distribuído (DOM)
 
@@ -49,8 +48,12 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
     - **Habilite o gerenciamento de ordem distribuído** – Defina esta opção como **Sim**.
     - **Confirmar o uso do Bing Mapas para DOM** – Defina esta opção como **Sim**.
 
+
         > [!NOTE]
         > Você poderá definir esta opção como **Sim** somente se a opção **Habilitar Bing Mapas** na guia **Bing Mapas** da página **Parâmetros compartilhados de comércio** (**Retail e Commerce \> Configuração de sedes \> Parâmetros \> Parâmetros compartilhados do Commerce**) também estiver configurada como **Sim** e se uma chave válida for inserida no campo **Chave do Bing Mapas**.
+        >
+        > No portal [Centro de Desenvolvedores do Bing Mapas](https://www.bingmapsportal.com/), você pode restringir o acesso nas chaves de API do Bing Mapas a um conjunto de domínios especificados. Com este recurso, os clientes podem definir um conjunto estrito de valores de referenciais ou intervalos de endereços IP para os quais a chave será validada. As solicitações originadas na sua lista de permissões serão processadas normalmente, enquanto as solicitações de fora da lista retornarão uma resposta de acesso negado. A adição da segurança de domínio à chave da API é opcional e as chaves não alteradas continuarão funcionando. A lista de permissões para uma chave é independente de todas as outras chaves, permitindo que você tenha regras distintas para cada uma delas. O Gerenciamento de Ordem Distribuído não é compatível com a configuração de propriedades referidas pelo domínio.
+
 
     - **Período de retenção em dias** – Especifique por quanto tempo os planos de atendimento que as execuções do DOM geram são mantidos no sistema. O trabalho em lotes da **configuração de trabalho de exclusão de dados de atendimento do DOM** excluirá qualquer plano de atendimento que tenha excedido o número de dias especificado aqui.
     - **Período de rejeição (em dias)** – Especifique quanto tempo deve passar para que uma linha da ordem rejeitada possa ser atribuída ao mesmo local.
@@ -62,14 +65,15 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
     - **Tipo de agente de resolução** – Selecione um valor. Dois tipos de agentes da resolução foram liberados com o Commerce: **Agente de Resolução de Produção** e **Agente de Resolução Simplificado**. Para todos os computadores que executarão o DOM (ou seja, todos os servidores que fazem parte do grupo DOMBatch), o **Agente de Resolução de Produção** deve estar selecionado. O Agente de Resolução de Produção exige a chave de licença especial que, por padrão, é licenciada e implantada em ambientes de produção. Para ambientes de não produção, essa chave de licença deve ser implantada manualmente. Para implantar manualmente a chave de licença, siga estas etapas:
 
         1. No Microsoft Dynamics Lifecycle Services, abra a Biblioteca de ativos compartilhados, selecione **Modelo** como o tipo de ativo e baixe o arquivo **Licença do DOM**.
-        2. Inicie o Gerenciador dos Serviços de Informações da Internet (IIS) da Microsoft, clique com o botão direito do mouse no **Site de Serviço do AOS** e selecione **Explorar**. Uma janela do Windows Explorer será aberta em **\<AOS service root\>\\webroot**. Anote o caminho da \<AOS Service root\>, porque ele será usado na próxima etapa.
-        3. Copie o arquivo de configuração no diretório **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
-        4. Acesse o cliente do Headquarters e abra a página **Parâmetros do DOM**. Na guia **Agente de Resolução**, no campo **Tipo de Agente de Resolução**, selecione **Agente de Resolução de Produção** e confirme que nenhuma mensagem de erro aparecerá.
+        1. Inicie o Gerenciador dos Serviços de Informações da Internet (IIS) da Microsoft, clique com o botão direito do mouse no **Site de Serviço do AOS** e selecione **Explorar**. Uma janela do Windows Explorer será aberta em **\<AOS service root\>\\webroot**. Anote o caminho da \<AOS Service root\>, porque ele será usado na próxima etapa.
+        1. Copie o arquivo de configuração no diretório **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin**.
+        1. Acesse o cliente do Headquarters e abra a página **Parâmetros do DOM**. Na guia **Agente de Resolução**, no campo **Tipo de Agente de Resolução**, selecione **Agente de Resolução de Produção** e confirme que nenhuma mensagem de erro aparecerá.
+
 
         > [!NOTE]
         > O Agente de Resolução Simplificado é fornecido para que os varejistas possam experimentar o recurso DOM sem precisarem implantar a licença especial. As organizações não devem usar o Agente de Resolução Simplificado em ambientes de produção.
         >
-        > Embora o Agente de Resolução Simplificado forneça o mesmo conjunto de recursos que o Agente de Resolução de Produção, há restrições a respeito do desempenho (o número de ordens e linhas de ordem que podem ser processadas em uma execução) e da convergência de resultados (um lote de ordens pode não produzir os melhores resultados em alguns cenários).
+        > O Agente de Resolução de Produção melhora o desempenho (como o número de ordens e linhas de ordem que podem ser processadas em uma execução) e da convergência de resultados (já que um lote de ordens pode não produzir os melhores resultados em alguns cenários). Algumas regras, como a regra de **Ordens parciais** e a de **Número máximo de localizações**, exigem o Agente de Resolução de Produção.
      
 6. Volte para **Retail e Commerce \> Gerenciamento de ordem distribuído \> Configuração \> Parâmetros de DOM**.
 7. Na guia **Sequências numéricas**, atribua as sequências numéricas necessárias às várias entidades de DOM.
@@ -121,7 +125,7 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
         \* Se a opção **Atender ordens parciais** estiver definida como **Não**, a opção **Atender linhas parciais** será sempre considerada definida como **Não**, independentemente de como foi definida de fato.
 
         > [!NOTE]
-        > Na versão de 10.0.5 do Retail, o parâmetro **Atender a ordem somente de um local** foi alterado para **Máximo de locais de atendimento**. Em vez de permitir que um usuário configure se as ordens podem ser atendidas somente de um local ou ser atendidas do máximo de locais possível, os usuários agora podem especificar se o atendimento pode ser de um conjunto de locais definido (até 5) ou do máximo de locais possível. Isso proporciona mais flexibilidade em termos de a partir de quantos locais a ordem pode ser atendida.
+        > Na versão de 10.0.5 do Retail, o parâmetro **Atender a ordem somente de um local** foi alterado para **Máximo de locais de atendimento**. Em vez de permitir que um usuário configure se as ordens podem ser atendidas somente de um local ou ser atendidas do máximo de locais possível, os usuários agora podem especificar se o atendimento pode ser de um conjunto de locais definido (até 5) ou do máximo de locais possível. Isso proporciona mais flexibilidade em termos de a partir de quantos locais a ordem pode ser atendida. Esta regra só funciona com o Agente de Resolução de Produção. 
 
    - **Regra de local de atendimento offline** – Esta regra permite que as organizações especifiquem um local ou grupo de locais como offline ou indisponível para o DOM, para que as ordens não possam ser atribuídas a esses locais para atendimento.
     - **Regra de máximo de rejeições** – Esta regra permite que as organizações definam um limite para rejeições. Quando o limite é atingido, o processador do DOM marca uma ordem ou uma linha da ordem como uma exceção, e a exclui do processamento futuro.
@@ -158,13 +162,13 @@ A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um siste
     7. Na FastTab **Regras**, selecione **Adicionar** e depois selecione a regra para vincular ao perfil.
     8. Repita as duas etapas anteriores até que todas as regras necessárias sejam associadas ao perfil.
     9. Selecione **Salvar**.
-    10. No Painel de ações, na guia **Configuração**, selecione **Modos de entrega**.
+    10. No Painel de Ações, na guia **Configuração**, selecione **Modos de entrega**.
     11. Na página **Modos de entrega**, selecione **Novo**.
     12. No campo **Empresa**, selecione a entidade legal. A lista de empresas está limitada às entidades legais que você adicionou anteriormente.
     13. No campo **Modo de entrega**, selecione o modo de entrega para associar a este perfil. Um modo de entrega não pode ser associado a vários perfis ativos.
     14. Repita as duas etapas anteriores até que todos os modos de entrega necessários sejam associados ao perfil.
     15. Feche a página **Modos de entrega**.
-    16. No Painel de ações, na guia **Configuração**, selecione **Origens de ordem de venda**.
+    16. No Painel de Ações, na guia **Configuração**, selecione **Origens de ordem de venda**.
     17. Na página **Origens de venda** , selecione **Novo**.
     18. No campo **Empresa**, selecione a entidade legal. A lista de empresas está limitada às entidades legais que você adicionou anteriormente.
     19. No campo **Origem de venda**, selecione a origem de venda para associar a este perfil. Uma origem de venda não pode ser associada a vários perfis ativos.

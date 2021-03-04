@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9fe8fde32549568812a724311781d3515ef7036c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b65fe3968698da1c5b76cf2d0ef706f3f1ec4bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458473"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5114689"
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Configurar cenários de pagamentos de fatura
 
@@ -36,7 +35,7 @@ A funcionalidade Pagar fatura no Dynamics 365 Commerce foi expandida para oferec
 
 Para habilitar esses cenários, o perfil de funcionalidade para lojas deve ser configurado conforme definido abaixo.
 
-1. Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil vinculado às lojas nas quais deseja fazer as alterações.
+1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil vinculado às lojas nas quais deseja fazer as alterações.
 2. Na guia **Funções**, configure os parâmetros a seguir conforme necessário.
 
     - **Fatura de ordem de venda** – Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas baseadas em ordem de venda em uma única transação de PDV.

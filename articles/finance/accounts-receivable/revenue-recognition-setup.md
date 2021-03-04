@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 73acfc92777b8fe07b89bea782e13213d38000cd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b90c98628fef2006addb64a6b880ab4020edb8cd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5114706"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
@@ -30,6 +29,8 @@ Um novo módulo **Reconhecimento de receita** foi adicionado e inclui itens de m
 
 > [!NOTE]
 > O recurso Reconhecimento de receita não pode ser ativado por meio do Gerenciamento de recursos. No momento, você deve usar as chaves de configuração para ativá-lo.
+
+> O reconhecimento de receita, incluindo a funcionalidade de pacote, não é compatível com o uso em canais do Commerce (comércio eletrônico, PDV, call center). Os itens configurados com reconhecimento de receita não devem ser adicionados a ordens ou transações criadas em canais do Commerce.
 
 O módulo **Reconhecimento de receita** apresenta as seguintes opções de configuração:
 
@@ -138,7 +139,7 @@ Os grupos de itens e os produtos liberados podem ser configurados usando-se o m�
     - **Tolerância máxima** — Insira a porcentagem acima do preço médio selecionado que é permitida.
     - **Tolerância mínima** — Insira a porcentagem abaixo do preço médio selecionado que é permitida.
 
-Depois de concluir a configuração das definições para produtos liberados, você deve definir manualmente o preço de receita inserindo o preço justo ou preço médio (se estiver usando o método de preço médio) da página **Preços de receita** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no Painel de Ação, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Preços de receita**).
+Depois de concluir a configuração das definições para produtos liberados, você deve definir manualmente o preço de receita inserindo o preço justo ou preço médio (se estiver usando o método de preço médio) da página **Preços de receita** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no Painel de Ações, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Preços de receita**).
 
 [![Preços de receita](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
@@ -151,7 +152,7 @@ O preço de receita definido manualmente nessa página é usado para determinar 
 - **Preço de alocação da receita** — Dependendo do valor selecionado no campo **Valor ou percentual de lista**, insira um valor ou um percentual para representar o preço da receita que é usado para alocar a receita nos elementos na ordem de venda.
 - **De** e **Até** — Insira o intervalo de datas para o qual o preço da receita está ativo. Esses campos são opcionais.
 
-Se a opção **Habilitar o método de alocação de desconto** na opção **Parâmetros de contabilidade** estiver definida como **Sim**, e se o campo **Tipo de receita** do produto liberado estiver definido como **Suporte pós-contrato**, especifique também os itens que estão recebendo suporte do produto liberado. Essa configuração é feita na página **Base de configuração** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no painel de ação, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Base de configuração**).
+Se a opção **Habilitar o método de alocação de desconto** na opção **Parâmetros de contabilidade** estiver definida como **Sim**, e se o campo **Tipo de receita** do produto liberado estiver definido como **Suporte pós-contrato**, especifique também os itens que estão recebendo suporte do produto liberado. Essa configuração é feita na página **Base de configuração** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no Painel de Ações, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Base de configuração**).
 
 Na página **Base de configuração**, adicione um registro para cada grupo de itens compatível com o item. Quando a alocação de receita ocorrer, o preço de receita será distribuído entre as partes essenciais e não essenciais para o item PCS.
 
@@ -180,7 +181,7 @@ Ao configurar um item do pacote, é necessário configurar dois campos na págin
 - Na FastTab **Engenharia**, no campo **Tipo de produção**, o item deve ser configurado como um item de BOM.
 - Na FastTab **Geral**, no campo **Pacote**, o item deve ser marcado como um item do pacote.
 
-Os componentes devem ser atribuídos ao item principal do pacote/BOM na página **Versões de BOM** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque e produto \> Produtos liberados** e, depois, no Painel de Ação, na guia **Engenharia**, no grupo **BOM**, selecione **Versões de BOM**). Para obter mais informações, consulte a documentação de configuração de BOMs.
+Os componentes devem ser atribuídos ao item principal do pacote/BOM na página **Versões de BOM** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque e produto \> Produtos liberados** e, depois, no Painel de Ações, na guia **Engenharia**, no grupo **BOM**, selecione **Versões de BOM**). Para obter mais informações, consulte a documentação de configuração de BOMs.
 
 [![Produtos liberados, agendas de BOM](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 

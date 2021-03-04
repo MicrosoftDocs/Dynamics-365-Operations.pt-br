@@ -5,6 +5,10 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 28 de janeiro de 2021
+          href: hr-whats-new-2021-01-28.md
+        - name: 21 de janeiro de 2021
+          href: hr-whats-new-2021-01-21.md
         - name: 2 de dezembro de 2020
           href: hr-whats-new-2020-12-02.md
         - name: 22 de outubro de 2020
@@ -79,12 +83,16 @@
           items:
             - name: Escolher uma tecnologia de integração de dados
               href: hr-admin-integration-choose-technology.md
-            - name: Configurar integração do Common Data Service
+            - name: Perguntas frequentes sobre limitação
+              href: hr-admin-integration-throttling-faq.md
+            - name: Configurar integração do Dataverse
               href: hr-admin-integration-common-data-service.md
-            - name: Entidades do Common Data Service
+            - name: Tabelas do Dataverse
               href: hr-developer-entities.md
-            - name: Configurar entidades virtuais do Common Data Service
+            - name: Configurar entidades virtuais do Dataverse
               href: hr-admin-integration-common-data-service-virtual-entities.md
+            - name: Perguntas frequentes sobre entidades virtuais do Human Resources
+              href: hr-admin-virtual-entity-faq.md
             - name: Configurar a integração com o Finance
               href: hr-admin-integration-finance.md
             - name: Configurar a integração com o Dayforce
@@ -275,11 +283,11 @@
               href: hr-admin-troubleshooting-integration.md
     - name: Guia do desenvolvedor
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: hr-developer-overview.md
         - name: Estender com o Power Apps e o Power Automate
           href: hr-developer-power-apps.md
-        - name: Entidades do Common Data Service
+        - name: Tabelas do Dataverse
           href: hr-developer-entities.md
         - name: Campos personalizados
           href: hr-developer-custom-fields.md
@@ -287,7 +295,7 @@
           items:
             - name: Escolher uma tecnologia de integração de dados
               href: hr-admin-integration-choose-technology.md
-            - name: Configurar integração do Common Data Service
+            - name: Configurar integração do Dataverse
               href: hr-admin-integration-common-data-service.md
             - name: Configurar a integração com o Finance
               href: hr-admin-integration-finance.md
@@ -317,9 +325,95 @@
                       href: hr-developer-api-myleaverequests-overview.md
                     - name: Enviar uma solicitação de licença para o fluxo de trabalho
                       href: hr-developer-api-myleaverequests-submit.md
-    - name: Guia do usuário
+        - name: API de integração com ATS
+          items:
+            - name: Introdução
+              href: hr-admin-integration-ats-api-introduction.md
+            - name: Solicitação de recrutamento e entidades relacionadas
+              items:
+                - name: Solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request.md
+                - name: Instruções sobre solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-education.md
+                - name: Localização da solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-location.md
+                - name: Posição da solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-position.md
+                - name: Habilidade de solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-skill.md
+                - name: Consulta de exemplo de solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-example-query.md
+            - name: Conjuntos de opções de solicitação de recrutamento
+              items:
+                - name: Status de isenção de trabalho
+                  href: hr-admin-integration-ats-api-job-exempt-status.md
+                - name: Status da posição da solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-position-status.md
+                - name: Status da solicitação de recrutamento
+                  href: hr-admin-integration-ats-api-recruiting-request-status.md
+                - name: Categoria de trabalho regulatório
+                  href: hr-admin-integration-ats-api-regulatory-job-category.md
+            - name: Candidato para contratação e entidades relacionadas
+              items:
+                - name: Candidatos para contratação
+                  href: hr-admin-integration-ats-api-candidate-to-hire.md
+                - name: Tipo de certificado
+                  href: hr-admin-integration-ats-api-certificate-type.md
+                - name: Contato do participante
+                  href: hr-admin-integration-ats-api-party-contact.md
+                - name: Pessoa
+                  href: hr-admin-integration-ats-api-person.md
+                - name: Endereço da pessoa
+                  href: hr-admin-integration-ats-api-person-address.md
+                - name: Certificado da pessoa
+                  href: hr-admin-integration-ats-api-person-certificate.md
+                - name: Educação da pessoa
+                  href: hr-admin-integration-ats-api-person-education.md
+                - name: Número de identificação da pessoa
+                  href: hr-admin-integration-ats-api-person-identification-number.md
+                - name: Experiência profissional da pessoa
+                  href: hr-admin-integration-ats-api-person-professional-experience.md
+                - name: Triagem da pessoa
+                  href: hr-admin-integration-ats-api-person-screening.md
+                - name: Habilidade da pessoa
+                  href: hr-admin-integration-ats-api-person-skill.md
+                - name: Nível de avaliação
+                  href: hr-admin-integration-ats-api-rating-level.md
+                - name: Tipos de triagem
+                  href: hr-admin-integration-ats-api-screening-types.md
+                - name: Consulta de exemplo para Candidato para contratação
+                  href: hr-admin-integration-ats-api-candidate-to-hire-example-query.md
+            - name: Conjuntos de opções de candidatos
+              items:
+                - name: Resultado da integração do candidato
+                  href: hr-admin-integration-ats-api-applicant-integration-result.md
+                - name: Em branco Sim Não
+                  href: hr-admin-integration-ats-api-blank-yes-no.md
+                - name: Status de conclusão
+                  href: hr-admin-integration-ats-api-completion-status.md
+                - name: Tipo de contato
+                  href: hr-admin-integration-ats-api-contact-type.md
+                - name: Base de crédito de educação
+                  href: hr-admin-integration-ats-api-education-credit-basis.md
+                - name: Sexo
+                  href: hr-admin-integration-ats-api-gender.md
+                - name: Estado civil
+                  href: hr-admin-integration-ats-api-marital-status.md
+                - name: Meses do ano
+                  href: hr-admin-integration-ats-api-months-of-year.md
+                - name: Não Sim
+                  href: hr-admin-integration-ats-api-no-yes.md
+                - name: Unidade de período
+                  href: hr-admin-integration-ats-api-period-unit.md
+                - name: Frequência de triagem
+                  href: hr-admin-integration-ats-api-screening-frequency.md
+                - name: Frequência de triagem gerada de
+                  href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
+                - name: Tipo de nível de habilidade
+                  href: hr-admin-integration-ats-api-skill-level-type.md
+    - name: Guia do Usuário
       items:
-        - name: Visão geral
+        - name: Visão Geral
           href: hr-hrpro-overview.md
         - name: Configurar o Human Resources
           items:
@@ -439,12 +533,6 @@
                   href: ../fin-ops-core/fin-ops/get-started/alerts-managing.md?toc=/dynamics365/human-resources/toc.json
                 - name: Notificações de alerta do cliente por email
                   href: ../fin-ops-core/fin-ops/get-started/alert-email-notifications.md?toc=/dynamics365/human-resources/toc.json
-            - name: Assinaturas eletrônicas
-              items:
-                - name: Visão geral de assinaturas eletrônicas
-                  href: ../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md?toc=/dynamics365/human-resources/toc.json
-                - name: Configurar assinaturas eletrônicas
-                  href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-electronic-signatures.md?toc=/dynamics365/human-resources/toc.json
             - name: Gerenciamento de casos
               items:
                 - name: Visão geral do gerenciamento de casos
@@ -591,6 +679,8 @@
                       href: hr-benefits-process-life-event-eligibility.md
                     - name: Processar alterações de taxa
                       href: hr-benefits-process-rate-changes.md
+                - name: Relatório ACA
+                  href: hr-benefits-management-aca-reports.md
             - name: Definir e gerenciar um programa de benefícios
               href: hr-benefits-manage-program.md
             - name: Políticas de qualificação para benefícios

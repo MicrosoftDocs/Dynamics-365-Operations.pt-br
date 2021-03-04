@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: ace1d00ec25a57b26b1858369c32d9134a380977
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e70f2e6b3694002a11a831ac14039ccbee273a51
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458458"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115911"
 ---
 # <a name="recognize-deferred-revenue"></a>Reconhecer receita adiada
 
@@ -39,7 +38,7 @@ Há duas maneiras de acessar os detalhes da agenda de reconhecimento de receita.
 - Você pode abrir a agenda de reconhecimento de receita diretamente de uma ordem de venda faturada. Nesse caso, as informações na agenda de receita são filtradas para mostrar apenas os detalhes da ordem de venda selecionada. Essa abordagem é útil quando estiver validando detalhes da agenda para uma ordem de venda.
 - Você pode abrir a agenda de reconhecimento de receita na página **Reconhecimento de receita \> Tarefas periódicas**. Essa abordagem geralmente é usada quando a receita é reconhecida no final de um período. Ao abrir a página pela primeira vez, nenhuma informação é mostrada. Use os filtros anteriores de grade para definir critérios para os detalhes da agenda que devem ser mostrados. Você pode filtrar as datas da fatura inserindo um intervalo de datas, uma ordem de venda, um cliente, uma ID do projeto ou um estado.
 
-[![Página de agendas de receita](./media/revenue-recognition-rev-revenue-schedules.png)](./media/revenue-recognition-rev-revenue-schedules.png)
+[![Ilustração da página Agendas de receita](./media/revenue-recognition-schedule-page.png)](./media/revenue-recognition-schedule-page.png)
 
 A FastTab **Dimensão financeira** abaixo da grade mostra as dimensões financeiras da linha da ordem de venda. As dimensões foram consideradas durante o lançamento da receita diferida. Também são considerados quando a receita é reconhecida. Os valores de dimensão usados dependem da estrutura de conta que é atribuída às contas principais de receita e receita adiada.
 

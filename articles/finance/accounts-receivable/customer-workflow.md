@@ -1,6 +1,6 @@
 ---
 title: Fluxo de trabalho de cliente
-description: Este tópico fornece informações sobre o fluxo de trabalho do cliente. Você altera campos específicos de um cliente e envia essas alterações para aprovação usando o fluxo de trabalho antes que elas sejam adicionadas ao cliente.
+description: Este tópico fornece informações sobre o fluxo de trabalho de cliente. Você altera campos específicos de um cliente e envia essas alterações para aprovação usando o fluxo de trabalho antes que elas sejam adicionadas ao cliente.
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 5998a492e12cb93aeec029c6e56f811f8b90055a
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: a74b8ed226c4e13c8684fe86d4dca7236a84040e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4458484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5114719"
 ---
 # <a name="customer-workflow"></a>Fluxo de trabalho de cliente
 
@@ -53,7 +52,7 @@ Quando alterar um campo que está habilitado para o fluxo de trabalho, a página
 
 Cada vez que um campo que está habilitado para o fluxo de trabalho for alterado, o campo será adicionado à lista de alterações propostas. Para rejeitar o valor proposto para um campo, use o botão **Descartar** ao lado do campo na lista. Para rejeitar todas as alterações, use o botão **Descartar todas as alterações** na parte inferior da página. Selecione **OK** para fechar a página.
 
-Após haver pelo menos uma alteração proposta, dois menus adicionais aparecerão no Painel de Ação: **Alterações propostas** e **Fluxo de trabalho**.
+Após haver pelo menos uma alteração proposta, dois menus adicionais aparecerão no Painel de Ações: **Alterações propostas** e **Fluxo de trabalho**.
 
 1. Selecione **Alterações propostas** para abrir a página **Alterações propostas** e revisar as alterações.
 2. Selecione **Fluxo de trabalho \> Enviar** para enviar as alterações para o fluxo de trabalho.

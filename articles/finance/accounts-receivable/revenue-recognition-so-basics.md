@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 6e2eafc6785aaf9bc7421bc80c90fa4a7f98a2d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6212ecbf1883405d7ca8cb1dba752b778e4d901c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458431"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5114705"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconhecimento de receita em ordens de venda
 
@@ -56,7 +55,7 @@ Há dois conceitos para o reconhecimento de receita:
 
 ## <a name="confirm-the-sales-order"></a>Confirmar a ordem de venda
 
-Para exibir detalhes sobre o preço da receita e a agenda de receita, use os botões no grupo **Reconhecimento de receita** na guia **Gerenciar** no Painel de Ação da ordem de venda. Como a ordem de venda não foi confirmada nesse momento, os botões usados para o reconhecimento de receita não estão disponíveis. Esses botões ficam disponíveis ou indisponíveis conforme a ordem de venda avança os estágios que levam até a conclusão.
+Para exibir detalhes sobre o preço da receita e a agenda de receita, use os botões no grupo **Reconhecimento de receita** na guia **Gerenciar** no Painel de Ações da ordem de venda. Como a ordem de venda não foi confirmada nesse momento, os botões usados para o reconhecimento de receita não estão disponíveis. Esses botões ficam disponíveis ou indisponíveis conforme a ordem de venda avança os estágios que levam até a conclusão.
 
 [![Cabeçalho de ordem de venda](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 

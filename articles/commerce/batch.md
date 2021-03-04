@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ecff18f0a34d22ef359f473fa6aaaff16c811bb6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ef946df30c68373b83660fce98b472dc94b42719
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458444"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5114701"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Manuseio aprimorado de itens de lote rastreados
 
@@ -37,9 +36,9 @@ Se os números de lote válidos estiverem disponíveis para os produtos, eles se
 
 Os aprimoramentos feitos no Retail versão 10.0.4 e posterior ajudam a garantir que, quando o estoque negativo for ativado para itens de lote rastreados, o faturamento da ordem do cliente e o faturamento da ordem venda por meio do lançamento de demonstrativo não serão bloqueados para esses itens se o estoque for 0 (zero) ou se um número de lote não estiver disponível. A nova funcionalidade usa uma ID de lote padrão para as linhas de venda quando os números de lotes não estão disponíveis.
 
-Para definir a ID padrão do lote usada para ordens de cliente, na página **Parâmetros de comércio**, na guia **Ordens do cliente**, na FastTab **Ordem**, defina o campo **ID de lote padrão**.
+Para definir a ID padrão do lote usada para ordens de cliente, na página **Parâmetros do Commerce**, na guia **Ordens do cliente**, na FastTab **Ordem**, defina o campo **ID de lote padrão**.
 
-Para definir a ID de lote padrão usada para o faturamento da ordem de venda por meio do lançamento de demonstrativo, na página **Parâmetros de comércio**, na guia **Lançamento**, na FastTab **Atualização de estoque**, defina o campo **ID de lote padrão**.
+Para definir a ID de lote padrão usada para o faturamento da ordem de venda por meio do lançamento de demonstrativo, na página **Parâmetros do Commerce**, na guia **Lançamento**, na FastTab **Atualização de estoque**, defina o campo **ID de lote padrão**.
 
 > [!NOTE]
 > Esta funcionalidade ficará disponível somente quando o armazenamento avançado for ativado para os depósitos e o itens de específicos da loja. Em uma versão posterior, a funcionalidade também terá suporte para cenários em que o gerenciamento de armazenamento não é usado.
