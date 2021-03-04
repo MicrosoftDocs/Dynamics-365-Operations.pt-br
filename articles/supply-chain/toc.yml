@@ -72,12 +72,12 @@
                   items:
                     - name: Novidades ou alterações na home page do Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.17 (abril de 2021)
+                      href: get-started/whats-new-scm-10-0-17.md
                     - name: Supply Chain Management 10.0.16 (fevereiro de 2021)
                       href: get-started/whats-new-scm-10-0-16.md
                     - name: Supply Chain Management 10.0.15 (janeiro de 2021)
                       href: get-started/whats-new-scm-10-0-15.md
-                    - name: Supply Chain Management 10.0.14 (novembro de 2020)
-                      href: get-started/whats-new-scm-10-0-14.md
                 - name: Recursos removidos ou obsoletos
                   items:
                     - name: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
@@ -154,6 +154,8 @@
                   href: ../fin-ops-core/fin-ops/get-started/personalize-user-experience.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Exibições salvas
                   href: ../fin-ops-core/fin-ops/get-started/saved-views.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Exibições padrão salvas do Supply Chain Management
+                  href: get-started/saved-views-scm.md
                 - name: Recursos de grade
                   href: ../fin-ops-core/fin-ops/get-started/grid-capabilities.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Criar e trabalhar com campos personalizados
@@ -174,8 +176,8 @@
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/implementation-lifecycle.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Arquitetura para aplicativos do Finance and Operations
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/architecture-overview.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Microsoft FastTrack for Finance and Operations
-                  href: ../fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Microsoft FastTrack
+                  href: 'https://docs.microsoft.com/dynamics365/fasttrack/'
                 - name: Integrar um projeto de implementação
                   href: ../fin-ops-core/fin-ops/imp-lifecycle/onboard.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Planejamento de ambiente
@@ -224,6 +226,8 @@
               href: cloud-edge/cloud-edge-workload-manufacturing.md
             - name: Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
               href: cloud-edge/cloud-edge-workload-warehousing.md
+            - name: Pedidos de depósito para unidades de escala de nuvem e borda
+              href: cloud-edge/cloud-edge-warehouse-order.md
         - name: Gerenciamento de ativos
           items:
             - name: Visão geral do gerenciamento de ativos
@@ -363,6 +367,8 @@
               items:
                 - name: 'Previsões, ordens de serviço e projetos'
                   href: asset-management/integration-to-project-management-and-accounting/forecasts-work-orders-and-projects.md
+                - name: Faturamento de manutenção de ativos de propriedade do cliente
+                  href: asset-management/integration-to-project-management-and-accounting/customer-billing.md
             - name: Integrar gerenciamento de ativos com ativos fixos
               href: asset-management/integration-to-fixed-assets/fixed-asset-integration.md
             - name: Manutenção preventiva e reativa
@@ -439,10 +445,14 @@
                   href: asset-management/controlling-and-reporting/item-where-used.md
                 - name: Status de manutenção
                   href: asset-management/controlling-and-reporting/maintenance-status.md
+            - name: Gerenciamento de ativos do dispositivo móvel
+              items:
+                - name: Configurar o espaço de trabalho móvel de gerenciamento de ativos
+                  href: asset-management/set-up-asset-management-mobile.md
+                - name: Usar o espaço de trabalho móvel de gerenciamento de ativos
+                  href: asset-management/asset-management-mobile-workspace.md
             - name: Integrar gerenciamento de ativos com o Dynamics 365 Guides
               href: asset-management/asset-management-guides-integration.md
-            - name: Espaço de trabalho móvel de gerenciamento de ativos
-              href: asset-management/asset-management-mobile-workspace.md
         - name: Gerenciamento de dados
           items:
             - name: Entidades de destino
@@ -1005,7 +1015,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-intvalue.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Tipo: NumberValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-numbervalue.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: 'Tipo: Valor'
+                        - name: 'Tipo: Value'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-conversion-value.md?toc=/dynamics365/supply-chain/toc.json
                         - name: 'Data e Hora: DateTimeValue'
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-datetime-datetimevalue.md?toc=/dynamics365/supply-chain/toc.json
@@ -1317,8 +1327,10 @@
                   href: inventory/tasks/correct-inventory-tracking-information.md
                 - name: Registrar o número de série no processo de venda
                   href: sales-marketing/register-serial-numbers-sales-process.md
-                - name: ​Espaço de trabalho móvel de estoque disponível​
+                - name: Espaço de trabalho móvel de estoque disponível
                   href: inventory/inventory-on-hand-mobile-workspace.md
+                - name: Solucionar problemas de operações de estoque
+                  href: inventory/troubleshoot-inventory-operations.md
             - name: Processo de saída
               items:
                 - name: Visão geral do processo de saída
@@ -1377,12 +1389,18 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Margens de segurança
                   href: master-planning/planning-optimization/safety-margins.md
+                - name: Requisições de compras
+                  href: master-planning/planning-optimization/purchase-requisitions.md
+                - name: Planejamento de produção
+                  href: master-planning/planning-optimization/production-planning.md
                 - name: Marca de estoque com Otimização do Planejamento
                   href: master-planning/planning-optimization/marking.md
                 - name: Planejamento intercompanhia
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Exclua produtos com determinados estados de ciclo de vida do produto
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Limites de tempo de cobertura
+                  href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Aprovar ordens planejadas
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Confirmação automática com a Otimização do Planejamento
@@ -1905,10 +1923,12 @@
                   href: production-control/default-order-settings.md
                 - name: Listas de materiais e fórmulas
                   href: production-control/bill-of-material-bom.md
-                - name: ​Usar o designer de BOM​
+                - name: Usar o designer de BOM
                   href: production-control/bom-designer-functionality.md
-                - name: ​Usar o designer de fórmulas​
+                - name: Usar o designer de fórmulas
                   href: production-control/formula-designer.md
+                - name: Substituir o princípio padrão de reserva de materiais em produção
+                  href: production-control/override-default-reservation-principle.md
                 - name: Adicionar produtos de variante a ordens de compra usando pesos de variante
                   href: pim/tasks/add-variant-products-purchase-order-variant-weights.md
                 - name: Criar uma ordem de venda para um produto configurável
@@ -2027,6 +2047,8 @@
                       href: production-control/bill-of-material-bom.md
                     - name: Funcionalidade de designer de BOM
                       href: production-control/bom-designer-functionality.md
+                    - name: Substituir o princípio padrão de reserva de materiais em produção
+                      href: production-control/override-default-reservation-principle.md
                     - name: Itens fantasma
                       href: production-control/phantom-items.md
                     - name: Cálculos de BOM
@@ -2757,6 +2779,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Separação de cluster direcionada pelo sistema
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Definir dimensões diferentes para embalagem e armazenamento
+                      href: warehousing/packing-vs-storage-dimensions.md
                     - name: Configurar transporte em contêineres
                       href: warehousing/tasks/set-up-containerization.md
                     - name: Confirmação de lote e placa de licença
@@ -2823,6 +2847,8 @@
                       href: warehousing/wave-template-grouping.md
                     - name: Reimprimir e anular etiquetas de ciclo
                       href: warehousing/reprint-and-void-wave-labels.md
+                    - name: Remessa de mercadorias pequenas
+                      href: warehousing/small-parcel-shipping.md
                     - name: Solucionar problemas de criação de carga e remessas
                       href: warehousing/troubleshoot-warehouse-loads-shipments.md
                 - name: Políticas de consolidação da remessa
@@ -2915,12 +2941,16 @@
                       href: warehousing/control-warehouse-location-directives.md
                     - name: Trabalhar com diretivas de localização
                       href: warehousing/create-location-directive.md
+                    - name: Configurar filtros de produto para transações de depósito
+                      href: warehousing/filters-and-filter-codes.md
                     - name: Limites de estoque de localização
                       href: warehousing/location-stocking-limits.md
                     - name: Códigos da etapa da ciclo
                       href: warehousing/wave-step-codes.md
                     - name: Configurar processamento da ciclo
                       href: warehousing/tasks/configure-wave-processing.md
+                    - name: Agendar criação de trabalho durante o ciclo
+                      href: warehousing/configure-wave-schedule-work-creation.md
                     - name: Configurar e usar impressão de etiqueta de ciclo
                       href: warehousing/configure-wave-label-printing.md
                     - name: Atualização automática de remessas
@@ -2955,6 +2985,8 @@
                       href: warehousing/troubleshoot-warehouse-configuration.md
                 - name: Instalar e configurar o aplicativo de depósito
                   items:
+                    - name: Instalar e conectar o aplicativo móvel do Gerenciamento de Depósito
+                      href: warehousing/install-configure-warehouse-management-app.md
                     - name: Instalar e conectar o aplicativo de depósito
                       href: warehousing/install-configure-warehousing-app.md
                     - name: Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
