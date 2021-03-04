@@ -121,3 +121,6 @@ Clique em **Configuração** para personalizar as informações mostradas no mod
 |     BOM     | Use as caixas de seleção para marcar os critérios mostrados na estrutura de árvore. O designer de fórmulas mostra os critérios selecionados na parte inferior das duas guias. |
 |    Roteiro    |                                           Use as caixas de seleção para marcar os critérios mostrados nos roteiros.                                           |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

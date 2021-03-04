@@ -96,3 +96,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 7. Clique em OK.
     * Revise a saída gerada. Observe que, além da mensagem da fatura em formato XML, um único arquivo foi criado para cada anexo. Os arquivos anexos são preenchidos com as saídas compactadas em formato binário.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

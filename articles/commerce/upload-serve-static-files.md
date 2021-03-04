@@ -107,3 +107,6 @@ Para alterar o caminho do URL, siga estas etapas:
 [Cortar imagens](dam-crop-images.md)
 
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

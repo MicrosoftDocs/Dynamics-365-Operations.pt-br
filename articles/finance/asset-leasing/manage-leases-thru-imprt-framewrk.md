@@ -83,3 +83,6 @@ Se estiver usando a estrutura de importação de arrendamento para atualizar arr
 
 1. Acesse **Arrendamento de ativos \> Estrutura de importação de arrendamento \> Configuração \> Atualização de seleção de campo**.
 2. Na página exibida, selecione os campos a serem atualizados e, em seguida, selecione a seta verde para movê-los para a lista **Campos selecionados**. Somente os campos na lista de **Campos selecionados** podem ser atualizados com o uso do pacote de importação de arrendamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

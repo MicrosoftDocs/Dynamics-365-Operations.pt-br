@@ -62,3 +62,6 @@ Criar e enviar a lista de vendas da UE
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

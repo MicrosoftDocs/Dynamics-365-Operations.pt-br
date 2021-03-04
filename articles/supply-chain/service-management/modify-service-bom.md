@@ -72,3 +72,6 @@ Você pode registrar o histórico de um elemento em uma BOM de serviço. Sempre 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

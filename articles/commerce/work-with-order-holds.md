@@ -103,3 +103,6 @@ Se os usuários quiserem liberar um bloqueio, mas fazer alterações adicionais 
 ## <a name="reporting-options"></a>Opções de relatório
 
 Vá para **Varejo e Comércio** \> **Consultas e relatórios** \> **Relatórios de call center** \> **Relatório de bloqueios de ordem** para executar um relatório sobre os bloqueios de ordem por intervalo de datas, código de bloqueio ou outros critérios relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

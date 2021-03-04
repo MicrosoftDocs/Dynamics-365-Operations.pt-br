@@ -68,3 +68,6 @@ Use este procedimento para criar uma cotação de venda que usa impostos brasile
 35. Feche a página.
 36. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

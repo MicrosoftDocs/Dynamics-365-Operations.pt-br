@@ -62,3 +62,6 @@ No Retail versão 10.0.3 e posterior, os seguintes recursos relacionados a trans
 - Durante a reconciliação, se a transação selecionada não for equilibrada, o usuário deve inserir uma descrição do motivo da reconciliação desbalanceada. Os usuários podem selecionar uma única transação e reconciliá-la com a descrição do motivo relevante, conforme necessário.
 - Os usuários podem continuar a reconciliar e desestruturar as transações até que a mudança seja encerrada. Depois que um turno é fechado, as transações não podem ser reconciliadas.
 - Quando um usuário escolhe fechar um turno, o Commerce valida que não há transações de gerenciamento de pagamento à vista não reconciliadas no turno. Os usuários não podem fechar um turno se houver transações não reconciliadas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

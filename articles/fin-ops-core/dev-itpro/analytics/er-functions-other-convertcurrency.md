@@ -71,3 +71,6 @@ O valor numérico resultante.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Outras funções (específicas de domínio comercial)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

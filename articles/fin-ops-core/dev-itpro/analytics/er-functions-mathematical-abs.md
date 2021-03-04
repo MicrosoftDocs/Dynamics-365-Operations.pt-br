@@ -55,3 +55,6 @@ O valor numérico resultante.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções matemáticas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

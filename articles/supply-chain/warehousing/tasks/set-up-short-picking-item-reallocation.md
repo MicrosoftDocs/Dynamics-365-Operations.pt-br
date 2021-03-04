@@ -64,3 +64,6 @@ A empresa de dados de demonstração USMF foi usada para criar este procedimento
 6. Na lista, selecione uma **ID de Usuário**. Por exemplo, 24.
 7. Expanda a FastTab **Trabalho**.
 8. Selecione **Sim** no campo **Permitir realocação manual de itens**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

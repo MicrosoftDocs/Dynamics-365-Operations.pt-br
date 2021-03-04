@@ -37,3 +37,6 @@ Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo
 7. No campo Nota fiscal, insira ou selecione um valor.
 8. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

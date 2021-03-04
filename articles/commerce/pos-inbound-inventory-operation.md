@@ -221,3 +221,6 @@ Depois que o documento for definido com o status **Solicitado**, ele ficará vis
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Operação de estoque de saída no POS](pos-outbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

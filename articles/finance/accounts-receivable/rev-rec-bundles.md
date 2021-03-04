@@ -110,3 +110,6 @@ O diário de faturas criado após o lançamento não inclui o item pai do pacote
 É importante que o diário de faturas não inclua o item pai do pacote, pois todos os processos executados após o lançamento da fatura baseiam-se nesse diário de faturas. Por exemplo, se você criar uma nota de crédito na guia **Venda** no Painel de Ações, ela incluirá os itens de componente, mas não o item pai.
 
 [![Nota de crédito que mostra os itens de componente, mas não o item pai](./media/bundle-09.png)](./media/bundle-09.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

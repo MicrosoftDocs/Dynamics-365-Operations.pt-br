@@ -57,3 +57,6 @@ Este tópico explica como criar um contrato de venda que compromete um de seus c
 11. Selecione **OK**.
 12. Feche a página. O contrato agora está em vigor. Você pode começar a vincular as ordens do cliente ao contrato para deslocar em relação ao destino comprometido.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

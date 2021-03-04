@@ -87,3 +87,6 @@ Para adicionar um módulo de acordeão a uma página perguntas frequentes e defi
 [Módulo de guia](add-tab.md)
 
 [Módulo de bloco de texto](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

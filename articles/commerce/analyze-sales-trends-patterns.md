@@ -43,3 +43,6 @@ Os usuários também podem estudar as tendências e os padrões de vendas por ho
 - Espaço de trabalho **Gerenciamento de loja** &gt; **Varejo e Comércio** &gt; **Canais** &gt; **Gerenciamento de loja** &gt; **Relatórios** &gt; **Relatório de vendas de canal por hora**
 - Espaço de trabalho **Finanças da loja** &gt; **Varejo e Comércio** &gt; **Canais** &gt; **Finanças da loja** &gt; **Relatórios** &gt; **Relatório de vendas de canal por hora**
 - Seção **Consultas e relatórios** &gt; **Varejo e Comércio** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de vendas de canal por hora**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -137,3 +137,6 @@ O Dynamics 365 Finance não imprime o formulário 1096 Resumo e transmissão anu
 Um novo recurso para o setor público, **Atualização de informações 1099 por conta principal**, foi adicionado. Ele pode ser habilitado no espaço de trabalho **Gerenciamento de recursos**. Este recurso permite associar os valores do 1099 de um fornecedor pela conta principal na distribuição contábil, em vez da conta padrão no registro do fornecedor.
 
 Para obter mais informações, consulte [Configurar fornecedores para relatório 1099](../localizations/noam-usa-set-up-vndrs-1099-rprtg.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

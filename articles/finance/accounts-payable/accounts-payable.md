@@ -144,3 +144,6 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

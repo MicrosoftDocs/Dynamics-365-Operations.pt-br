@@ -150,3 +150,6 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 17. No campo **Conta bancária**, digite `GBSI OPER`.
 18. Selecione **OK** e **OK** novamente. Revise a planilha criada, incluindo detalhes de linhas de pagamento além do total para cada código de moeda usado na mensagem de pagamento.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

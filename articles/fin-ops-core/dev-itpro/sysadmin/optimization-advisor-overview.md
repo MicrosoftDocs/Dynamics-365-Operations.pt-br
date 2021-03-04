@@ -94,3 +94,6 @@ Para desativar a avaliação de regras específicas, selecione a oportunidade qu
 [Criar regras para o Supervisor de otimização](./create-rules-optimization-advisor.md)
 
 [Assistente de otimização no Dynamics 365 for Finance and Operations (Vídeo)](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

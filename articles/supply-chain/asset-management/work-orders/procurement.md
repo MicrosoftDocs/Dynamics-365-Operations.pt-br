@@ -100,3 +100,6 @@ A ilustração abaixo mostra um exemplo da página **Ordem de compra**, com enfo
 
 Da mesma forma, para visualizar ou inserir o número da atividade relacionada à linha da requisição de compra da ordem de serviço, na página de listagem **Requisição de compra da ordem de serviço**, selecione o registro de requisição de compra e, na coluna **Requisição de compra**, selecione o link para a requisição de compra. Você pode localizar o campo **Número da atividade** na guia **Projeto** na Guia Rápida **Detalhes da linha**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

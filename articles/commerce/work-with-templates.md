@@ -150,3 +150,6 @@ Depois que você visualizou alterações no modelo, siga uma dessas etapas para 
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Trabalhar com layouts predefinidos](work-with-layouts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

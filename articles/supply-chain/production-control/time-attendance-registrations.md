@@ -119,3 +119,6 @@ Os trabalhadores com tarefas de trabalho não requerem comentário imediato, com
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

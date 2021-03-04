@@ -101,3 +101,6 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 7. Selecione **Salvar**.
 8. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

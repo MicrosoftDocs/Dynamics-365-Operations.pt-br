@@ -303,3 +303,6 @@ No entanto, quando você usa a fonte de dado **Código de Barras** para produzir
 - [Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
 - [Linguagem da fórmula de relatório eletrônico](er-formula-language.md)
 - [Função NUMBERFORMAT](er-functions-text-numberformat.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

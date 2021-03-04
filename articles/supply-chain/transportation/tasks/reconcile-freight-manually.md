@@ -61,3 +61,6 @@ Quando você reconciliar uma nota fiscal da transportadora e uma conta de frete,
 5. Clique para seguir o link no campo Número de referência do diário.
 6. Clique em Linhas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Use este tópico para habilitar processos de gerenciamento de não conformidade.
 4. No campo **Descrição**, digite um valor.
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

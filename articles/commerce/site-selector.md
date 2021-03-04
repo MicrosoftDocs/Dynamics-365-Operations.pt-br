@@ -64,3 +64,6 @@ O módulo de seletor de sites pode ser adicionado ao [módulo Cabeçalho](author
 [Módulo de trilha de navegação](add-breadcrumb.md)
 
 [Módulos de menu de navegação](nav-menu-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Você define o escopo da regra na política. Por exemplo, se você criar um tipo
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

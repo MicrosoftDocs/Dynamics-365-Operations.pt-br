@@ -68,3 +68,6 @@ Você pode selecionar qualquer trabalhador como um técnico preferido para um co
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

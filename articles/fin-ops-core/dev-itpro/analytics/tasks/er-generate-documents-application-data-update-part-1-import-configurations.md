@@ -75,3 +75,6 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
     * Examine a estrutura do formato usado para gerar o relatório intrastat. Observe que ele foi criado para gerar um arquivo XML preenchendo dados do modelo de dados, que está baseado no item raiz "Para documento de saída". Verifique se o nome do arquivo gerado está definido no formulário da caixa de diálogo do usuário (a fonte de dados "fn" é usada para isso).   
 30. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

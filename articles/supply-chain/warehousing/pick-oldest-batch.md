@@ -41,3 +41,6 @@ Para itens definidos de modo a usar o trabalho existente, **Escolher lote mais a
 **Avisar** e **Forçar**: Uma lista de lote(s) com a data de vencimento mais antiga será exibida acima do controle de lote quando o trabalhador selecionar um lote. Se a localização for controlada por placa de licença, uma lista de placas de licença com o lote mais antigo será exibida acima do controle de placa de licença. 
 -   **Avisar**: Se um trabalhador escolher uma placa de licença ou um lote que não esteja na lista exibida, o controle será cancelado e um aviso de que há um lote mais antigo a selecionar será exibido. Para poder continuar o trabalho, o trabalhador pode selecionar novamente a mesma placa de licença ou lote.  
 -   **Forçar**: os trabalhadores continuarão a receber a mensagem informando que há um lote mais antigo a escolher.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

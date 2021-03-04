@@ -116,3 +116,6 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [Visão geral de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portal de localização do Microsoft Dynamics: relatório da Austrália (exige uma conta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/brazil.html)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

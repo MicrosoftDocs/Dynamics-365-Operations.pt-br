@@ -77,3 +77,6 @@ As diretivas de localização determinam *onde* itens devem ser coletados e *ond
 
 - Vídeo: [Detalhamento da configuração de gerenciamento de depósito](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Tópico de ajuda [Criar diretivas de localização](create-location-directive.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

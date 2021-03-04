@@ -83,3 +83,6 @@ A fatura do fornecedor permanecerá em um estado pendente até que a fatura de f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

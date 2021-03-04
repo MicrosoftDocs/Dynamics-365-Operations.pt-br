@@ -46,3 +46,6 @@ Você pode agendar eventos de vida futuros no Dynamics 365 Human Resources.
    | Linha | O número da linha do evento de vida futuro. |
 
 4. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

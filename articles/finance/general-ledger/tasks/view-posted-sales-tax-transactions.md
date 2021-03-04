@@ -49,3 +49,6 @@ Este tópico descreve alguns maneiras de exibir transações de impostos sobre v
 2. No Painel de Ação, selecione **Códigos de imposto**.
 3. Selecione **Imposto lançado**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

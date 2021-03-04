@@ -49,3 +49,6 @@ Este procedimento mostra configurações da loja de Varejo que afetam como as in
 17. Selecione "Sim" em **Método Dividir por Demonstrativo** para obter instruções criadas para cada método do demonstrativo definido. Essa ação poderá ser útil se o desempenho de lançamentos precisar ser aprimorado para armazenamentos com volumes altos de transação, já que criará vários demonstrativos menores que poderão ser processados em paralelo.  
 18. Na Guia Rápida **Geral**, no campo **Cliente padrão**, você pode selecionar a conta de cliente a ser usada para vendas para clientes sem hora marcada.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

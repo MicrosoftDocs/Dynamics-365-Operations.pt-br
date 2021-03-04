@@ -54,3 +54,6 @@ Você também pode inserir uma mensagem de confirmação que será exibida quand
 4.  Abra a guia **País/regiões** para selecionar o país/região em que a configuração será usada.
 5.  Conclua a configuração seguindo as diretrizes para a configuração padrão.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

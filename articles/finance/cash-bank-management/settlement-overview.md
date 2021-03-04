@@ -78,3 +78,6 @@ Ao tentar liquidar uma transação, você pode observar um símbolo que indica q
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Liquidar pendências](settle-remainder.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

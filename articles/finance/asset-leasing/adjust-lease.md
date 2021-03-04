@@ -82,3 +82,6 @@ Se um arrendamento tiver sido modificado, você poderá exibir as diferentes ver
 
 2. Para exibir agendas históricas, abra o arrendamento modificado na página **Resumo do arrendamento**, selecione o livro desejado e, no Painel de Ação, selecione **Histórico de versão do livro**.
 3. Na página **Versão do registro**, selecione a versão desejada e a agenda desejada a ser exibida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

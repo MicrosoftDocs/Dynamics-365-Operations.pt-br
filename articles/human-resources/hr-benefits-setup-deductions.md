@@ -52,3 +52,6 @@ Use deduções no Microsoft Dynamics 365 Human Resources para determinar, se hou
 4. Para controlar e manter alterações na configuração das taxas de benefício, selecione **Ações** e **Manter versões**.
 
 5. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

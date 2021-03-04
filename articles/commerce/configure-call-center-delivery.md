@@ -95,3 +95,6 @@ Você também pode vincular um código de expedição a qualquer modo de entrega
 Por exemplo, para ordens que serão enviadas pelo ar no dia seguinte, a separação deverá ser feita no depósito às 13h todos os dias. Neste caso, um código de expedição pode ser criado, e o código pode ser vinculado no dia seguinte ao modo de entrega que é configurado no sistema. Quando o depósito criar sua onda de separação, o código de expedição apropriado no campo **Expedir** pode ser usado como filtro, de forma que a separação seja executada somente para ordens que tenham os modos de entrega vinculados ao código.
 
 Além disso, quando uma ordem de call center é inserida, um código de expedição pode ser aplicado manualmente ao cabeçalho de ordem de venda ou linha de ordem de venda individual. Novamente, o código pode ser usado para fins de classificação ou relatório. Às vezes, uma ordem deve ser tratada cuidadosamente devido a uma emissão de serviço do cliente. Neste caso, um código de expedição específico pode ser aplicado ao cabeçalho ou a linhas de ordem para ajudar a identificar e priorizar a ordem durante o processo de atendimento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

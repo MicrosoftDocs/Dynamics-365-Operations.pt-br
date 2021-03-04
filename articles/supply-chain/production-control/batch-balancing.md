@@ -193,3 +193,6 @@ Há uma exceção à regra de que as ordens de lote são aplicáveis ao balancea
 Se uma fórmula contiver um princípio ativo para um produto habilitado para os processos de gerenciamento de depósito, mas o Número de lote estiver abaixo da Localização na hierarquia de reservas, a ordem de lote não será aplicável ao balanceamento de lote.
 
 Uma ordem de lote não aplicável ao balanceamento de lote passa pelo ciclo de processo normal para ordens de lote.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

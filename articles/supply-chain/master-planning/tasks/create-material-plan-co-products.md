@@ -111,3 +111,6 @@ O planejador de produção planeja os requisitos de materiais para itens que sã
 19. Selecione Não no campo Desabilitar todos os processos de planejamento.
 20. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

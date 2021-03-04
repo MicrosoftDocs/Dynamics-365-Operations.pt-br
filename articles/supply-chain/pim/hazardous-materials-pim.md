@@ -61,3 +61,6 @@ Para começar a configurar essas informações, crie uma regulamentação que po
 ## <a name="warehouse-management"></a>Gerenciamento de depósito
 
 Quando uma remessa é preparada, vários relatórios novos podem ser impressos. Esses relatórios usam as informações configuradas no Gerenciamento de informações sobre produtos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

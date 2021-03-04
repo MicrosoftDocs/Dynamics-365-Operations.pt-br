@@ -41,3 +41,6 @@ Este tópico explica como criar um esquema de competência. Esta tarefa usa a em
 10. No campo **Número de ocorrências por período**, insira um número.
 11. No campo **Lançar transações**, selecione quando as transações devem ser lançadas, como **Mensalmente**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

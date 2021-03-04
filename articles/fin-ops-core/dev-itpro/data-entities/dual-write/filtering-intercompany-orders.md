@@ -65,3 +65,6 @@ Cada uma das entidades Common Data Service padrão é estendida com referências
 7. Depois de ter estendido a entidade **Cotações**, aplique um filtro com `CUSTGROUP !=  "<company>"` como a sequência de caracteres de consulta.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Cabeçalho da cotação de venda, editar consulta":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

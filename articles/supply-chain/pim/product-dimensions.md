@@ -146,3 +146,6 @@ A dimensão da versão funciona como as outras dimensões do produto. No entanto
 
 > [!IMPORTANT]
 > Se você ativar e usar a dimensão de versão, algumas soluções que fazem referência a dimensões de estoque poderão parar de funcionar conforme esperado. Para confirmar e corrigir esses problemas, fale com o fornecedor de software independente (ISV) para obter as soluções afetadas. Para obter mais informações, consulte [Habilitar a dimensão da versão](#enable-version-dim).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

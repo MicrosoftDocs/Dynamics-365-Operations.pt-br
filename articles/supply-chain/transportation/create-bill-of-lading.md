@@ -43,3 +43,6 @@ Se houver mais de uma remessa na carga, você poderá gerar um conhecimento de e
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

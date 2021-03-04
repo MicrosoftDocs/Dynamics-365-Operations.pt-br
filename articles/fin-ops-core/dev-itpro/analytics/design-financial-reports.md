@@ -197,3 +197,6 @@ Neste exercício, você criará um relatório. O relatório é um demonstrativo 
 [Exibir relatórios financeiros](../../../finance/general-ledger/view-financial-reports.md)
 
 [Blog do Dynamics 365 Finance](https://community.dynamics.com/365/financeandoperations/b/dynamics-365-finance-blog)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

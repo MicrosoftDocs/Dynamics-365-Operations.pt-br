@@ -49,3 +49,6 @@ Para vincular uma sequência numérica a uma transportadora, faça o seguinte:
 1. Selecione **Editar**.
 1. Na FastTab **Visão geral**, selecione uma opção no campo **Sequência numérica progressiva**.
 1. Feche a página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Os bens vendidos pela sua organização podem vir em grades diferenciadas por di
     A página **Totais** exibe detalhes sobre a ordem inteira. Isso inclui o valor do subtotal, que é a soma de todos os descontos de linha dos valores líquidos ajustados para os descontos eventuais de linha, o valor total da nota fiscal, que é um valor de subtotal ajustado para desconto, encargos diversos, impostos sobre vendas e eventuais nível de fórmula, situação de limite de crédito do cliente, etc. O valor da nota fiscal é o valor que aparecerá no documento da nota fiscal do cliente.  
     
 3. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

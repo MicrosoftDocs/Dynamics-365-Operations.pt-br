@@ -118,3 +118,6 @@ Selecione contas padrão na página **Configuração de conta padrão**, que voc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

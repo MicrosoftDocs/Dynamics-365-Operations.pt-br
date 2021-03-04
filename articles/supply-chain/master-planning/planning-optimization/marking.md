@@ -49,3 +49,6 @@ Quando você confirma uma ordem planejada, a caixa de diálogo **Confirmação**
 - **Não** – Nenhuma marcação de estoque é aplicada.
 - **Padrão** – A marcação de estoque é atualizada de acordo com a vinculação. Uma ordem de necessidade (demanda) é marcada em relação a uma ordem de atendimento (fornecimento). Se alguma quantidade permanecer na ordem de atendimento, ela não será marcada, e as informações de referência serão deixadas em branco. Por exemplo, se uma ordem de venda para 100 ea for vinculada a uma ordem de compra para 150 ea, as informações de referência serão atribuídas somente à ordem de venda.
 - **Estendido** – Tanto a ordem de necessidade (demanda) quanto a de atendimento (fornecimento) são marcadas, independentemente de qualquer quantidade restante na ordem de atendimento. Por exemplo, se uma ordem de venda para 100 ea for vinculada a uma ordem de compra para 150 ea, as informações de referência serão atribuídas à ordem de venda e à ordem de compra.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

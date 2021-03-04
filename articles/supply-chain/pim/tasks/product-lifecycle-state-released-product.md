@@ -37,3 +37,6 @@ Este procedimento mostra como atribuir um estado do ciclo de vida do produto a u
 5. No campo Estado do ciclo de vida do produto, insira ou selecione um valor.
 6. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

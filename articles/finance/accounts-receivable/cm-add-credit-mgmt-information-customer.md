@@ -102,3 +102,6 @@ Você pode criar apólices de seguro e garantias na página **Todos os clientes*
     Nesse caso, o limite de crédito efetivo é 125.000 (= A + \[B × C\]).
     
     No entanto, se você marcar a caixa de seleção **Incluído na exposição**, o valor de **Atualizar limite de crédito** de 50.000 (= 50,00 por cento de 100.000) será removido e o valor da exposição será 75.000 (= A + \[B x C\] – B).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

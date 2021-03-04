@@ -61,3 +61,6 @@ Os seguintes dados estarão disponíveis com o processo de auditoria.
 |Histórico da solicitação de emprego | Solicitação de emprego (msdyn_JobapplicatonId)<br></br>Status (msdyn_status) <br></br>Razão do status (msdyn_statusreason) <br></br>Motivo de rejeição (msdyn_rejectionreason) |
 | Histórico de abertura de emprego | Oportunidade de emprego (msdyn_JobopeningId) <br></br>Status (msdyn_jobopeningstatus) <br></br>Razão do status (msdyn_jobopeningstatusreason) |
 | Histórico do candidato | Candidato (msdyn_CandidateId) |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

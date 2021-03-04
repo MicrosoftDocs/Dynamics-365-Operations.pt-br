@@ -72,3 +72,6 @@ A ilustração a seguir mostra o formato o resultado quando o formato criado é 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -156,3 +156,6 @@ Quando você executa uma análise de conta ausente, os atalhos de teclado a segu
 [Relatórios financeiros](financial-reporting-intro.md)
 
 [Interface do Report Designer](report-designer-interface.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

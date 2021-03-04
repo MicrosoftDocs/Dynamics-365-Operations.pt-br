@@ -87,3 +87,6 @@ Depois de concluir as etapas na seção [Definir descrições padrão](#set-up-d
 2. No campo **Tabela de referência**, selecione a tabela de banco de dados da qual os dados de parâmetros serão adicionados à descrição.
 3. No campo **Tabela de referência**, selecione o campo do qual os dados de parâmetros serão adicionados à descrição.
 4. Repita as etapas 1 a 3 para adicionar mais parâmetros.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

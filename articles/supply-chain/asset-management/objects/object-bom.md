@@ -84,3 +84,6 @@ Você pode as linhas de item para ativos manualmente.
 5. Se item tiver um vencimento, no campo **Vencimento**, insira uma data de término.
 6. No campo **Nº do item**, selecione o item. O nome é inserido automaticamente no campo **Nome do produto**.
 7. No campo **Quantidade**, insira a quantidade usada. O campo **Unidade** será atualizado automaticamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

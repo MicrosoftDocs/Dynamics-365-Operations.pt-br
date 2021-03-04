@@ -114,3 +114,6 @@ Os tópicos a seguir passam por vários cenários de reconhecimento de receita:
 - [Realocação de reconhecimento de receita — cenário 2](rev-rec-reallocation-scenario-2.md) — duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada.
 - [Realocação de reconhecimento de receita — cenário 3](rev-rec-reallocation-scenario-3.md) — uma nova linha é adicionada a uma ordem de venda faturada existente.
 - [Realocação de reconhecimento de receita — cenário 4](rev-rec-reallocation-scenario-4.md) — uma linha é removida de uma ordem de venda existente faturada parcialmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

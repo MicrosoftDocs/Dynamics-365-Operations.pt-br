@@ -94,3 +94,6 @@ Você deve especificar a categoria de engenharia à qual o produto pertence. A c
 Você pode usar a pesquisa de atributos de engenharia para encontrar produtos pesquisando valores de atributos de engenharia. Portanto, você pode encontrar facilmente produtos de engenharia com base nas características deles. Você pode pesquisar nos produtos que pertencem a uma categoria de produto de engenharia ou pode pesquisar em todos os produtos de engenharia.
 
 A pesquisa está disponível nas páginas de dados do produto mestre e em itens transacionais no sistema, como ordens de venda. Para um item transacional, você pode usar a página **Pesquisa de atributo de engenharia** para procurar um produto. Em seguida, você poderá usar o botão **Adicionar como nova linha** para adicionar o produto às linhas da ordem de venda. Os produtos nos resultados da pesquisa também podem ser adicionados diretamente à ordem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

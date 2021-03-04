@@ -74,3 +74,6 @@ Use o procedimento a seguir para configurar parâmetros de email para enviar aut
 43. Clique em Salvar.
 44. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

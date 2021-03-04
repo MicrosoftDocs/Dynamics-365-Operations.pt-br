@@ -93,3 +93,6 @@ As ordens de compra faturadas registrarão o passivo na conta do fornecedor em c
 ## <a name="vendor-performance"></a>Desempenho do fornecedor
 
 O suporte ao desempenho e à revisão da compra é feito por meio de *relatórios de aquisição e contas a pagar,* que inclui a análise de gastos e a análise de desempenho do fornecedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Este procedimento mostra como aprovar fornecedores de produto específico. Isso 
 31. Feche a página.
 32. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -80,3 +80,6 @@ Caso esteja tendo problemas para lançar trabalhos no LinkedIn, consulte [Soluci
 [Fornecer candidatos com o LinkedIn Recruiter](./attract-linkedin-recruiter.md)
 
 [Solucionar problemas de integração com o LinkedIn](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

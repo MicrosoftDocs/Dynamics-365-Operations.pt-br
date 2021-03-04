@@ -91,3 +91,6 @@ Use a função **Instalar ativo** para instalar uma estrutura de ativos em um lo
 4. No campo **Local funcional**, selecione o novo local.
 5. Por padrão, o campo **Efetivação** é definido como a data e hora atuais. Entretanto, você pode selecionar data e hora diferentes a partir das quais a instalação na estrutura de ativos será válida.
 6. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ A menos que haja um requisito de regulamentação para usar sequências numéric
 No caso de uma falha de energia, de um erro de aplicativo ou de outra falha inesperada, o sistema não pode reciclar números automaticamente para sequências numéricas contínuas. Você pode executar o processo de limpeza de forma manual ou automática para recuperar os números perdidos.
 
 Considere cuidadosamente o uso do servidor ao planejar o processo de limpeza. Recomendamos que você execute a limpeza como um trabalho em lotes fora do horário de pico.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

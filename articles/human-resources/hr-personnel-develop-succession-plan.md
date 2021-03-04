@@ -60,3 +60,6 @@ Conforme sua organização cresce, e você considera o planejamento de sucessão
 28. Clique em Relatório.
     * O relatório listará os melhores resultados na parte superior do relatório.  Você pode ver se há um elemento do intervalo listado.  Esta é a diferença entre o nível que foi listado no mapeamento de habilidades e o nível de habilidade que é atribuído à pessoa.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Você pode exportar listas de funcionários que foram geradas usando qualquer um
 Caso seja necessário relatar pessoas cobertas porque, como empregador, você fornece cobertura auto-segurada, você também pode exibir todos os dependentes cobertos por planos de benefícios que foram marcadas como **Pode ser relatado segundo a ACA**, selecionando a ação de cobertura Exibir Dependente na faixa do painel de ação.
 
 **Observação:** Somente benefícios cujo plano foi marcado como **Pode ser relatado segundo a ACA** serão exibidos na janela de consulta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

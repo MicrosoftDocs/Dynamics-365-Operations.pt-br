@@ -67,3 +67,6 @@ Depois que as faturas recorrentes são lançadas, você pode imprimir as faturas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

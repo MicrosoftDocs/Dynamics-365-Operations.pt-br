@@ -78,3 +78,6 @@ Acessar o Designer de BOM usando uma relação de objeto de serviço
 
 Se você criar ordens de serviço automaticamente para um contrato de serviço, as relações de objeto de serviço no contrato também estarão nas ordens de serviço criadas.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

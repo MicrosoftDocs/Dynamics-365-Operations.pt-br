@@ -71,3 +71,6 @@ A funcionalidade Cancelar reconciliação de extrato bancário permite cancelar 
 As reconciliações de extrato bancário só podem ser canceladas na ordem cronológica em que foram inseridas. Quando a reconciliação de extrato bancário for cancelada, as novas transações e correções serão revertidas e todas as outras transações serão marcadas como não reconciliadas.
  
 Para cancelar a reconciliação de extrato bancário, selecione o extrato bancário e selecione **Extrato bancário > Cancelar reconciliação bancária**. Na página **Cancelar reconciliação bancária**, forneça **Código de motivo**, **Comentário do motivo** e **Data de cancelamento**. Selecione **OK** para iniciar o cancelamento. Observe, a data de cancelamento do extrato bancário deve ser na data do extrato bancário ou posterior a ela. Após o cancelamento da reconciliação de extrato bancário, o campo **Data de cancelamento** para o extrato bancário será atualizado com a **Data de cancelamento** fornecida. Selecione o botão **Transações** para exibir as transações para as quais a reconciliação foi cancelada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

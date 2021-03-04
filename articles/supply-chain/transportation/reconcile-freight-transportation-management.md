@@ -47,3 +47,6 @@ Para usar a reconciliação automática, você deve especificar a agenda de reco
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

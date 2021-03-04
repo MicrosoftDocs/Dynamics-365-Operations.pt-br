@@ -117,3 +117,6 @@ A tabela a seguir mostra as visualizações disponíveis em cada página de rela
 | Faturas com falha de importação | <ul><li>Faturas com falha de importação</li><li>Faturas com falha de importação por empresa</li></ul> |
 | Motivos da falha de automação | <ul><li>Faturas com falha</li><li>Faturas com falha por empresa</li><li>Faturas com falha por grupo de fornecedores</li></ul> |
 | Status do fluxo de trabalho                | <ul><li>Faturas no fluxo de trabalho</li><li>Instâncias de fluxo de trabalho de fatura de fornecedor</li><li>Atribuição por aprovador</li><li>Fluxo de trabalho de fatura de fornecedor por empresa</li><li>Média de dias no fluxo de trabalho por aprovador</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

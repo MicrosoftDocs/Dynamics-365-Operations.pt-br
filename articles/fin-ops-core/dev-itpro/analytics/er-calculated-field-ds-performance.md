@@ -300,3 +300,6 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 - [Suporte a chamadas parametrizadas de fontes de dados de ER do tipo Campo calculado](er-calculated-field-type.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

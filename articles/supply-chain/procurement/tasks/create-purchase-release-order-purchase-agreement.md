@@ -59,3 +59,6 @@ Este procedimento mostra como utilizar um contrato de compra quando você cria u
 3. Feche a página.
 4. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

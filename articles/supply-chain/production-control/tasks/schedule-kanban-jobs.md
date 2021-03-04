@@ -62,3 +62,6 @@ Esse procedimento se concentra em trabalhos kanban do processo de agendamento pa
     * Observe que os trabalhos são adicionados ao período desejado.  
     * Na seção Capacidade do período, você pode ver o carregamento para cada período. O campo Consumo mostra o consumo programado neste período. Se o consumo agendado for maior que a capacidade disponível neste período, o consumo selecionado será sobrecarregado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

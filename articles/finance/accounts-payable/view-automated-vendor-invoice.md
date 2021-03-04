@@ -38,3 +38,6 @@ Se uma fatura importada estiver sujeita ao processo de envio para o fluxo de tra
 - **Pausado** – os processos automatizados definidos na página **Parâmetros de contas a pagar** foram executados, mas pelo menos uma etapa no processo falhou. O status **Pausado** também é aplicado se o campo **Incluir no processamento automatizado** estiver definido como **Não**. Você pode exibir as falhas selecionando o botão **Exibir resultados mais recentes**.
 - **No fluxo de trabalho** – a fatura importada foi enviada para o sistema de fluxo de trabalho, seja pelo processo de envio para fluxo de trabalho automatizado ou manualmente.
 - **Fluxo de trabalho concluído** – o processo de fluxo de trabalho foi concluído para a fatura importada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

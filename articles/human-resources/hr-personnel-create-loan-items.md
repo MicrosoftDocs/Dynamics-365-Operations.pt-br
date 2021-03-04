@@ -59,3 +59,6 @@ Os itens de empréstimo são registros que ajudam a manter o controle dos itens 
 14. Clique em OK.
 15. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

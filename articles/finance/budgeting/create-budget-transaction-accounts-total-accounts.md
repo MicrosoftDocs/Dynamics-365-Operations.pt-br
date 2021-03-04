@@ -46,3 +46,6 @@ Portanto, você pode criar orçamentos separados para as contas de transação m
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Você pode definir uma ordem de produção como **Informar como concluída** por
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

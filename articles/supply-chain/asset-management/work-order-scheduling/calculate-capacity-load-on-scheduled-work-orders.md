@@ -58,3 +58,6 @@ Se você selecionar os tipos de carga **Capacidade** ou **Pendente** para o cál
 
 Para obter informações sobre como calcular a capacidade máxima nas linhas de agendamento de manutenção e ordens de serviço não agendadas, consulte [Calcular a capacidade máxima](../capacity-planning/calculate-capacity-load.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

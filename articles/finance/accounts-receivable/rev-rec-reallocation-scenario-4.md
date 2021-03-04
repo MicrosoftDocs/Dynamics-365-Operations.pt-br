@@ -77,3 +77,6 @@ Ao selecionar **Comprovante**, o diário de faturas mostra a entrada contábil o
 Em seguida, abra a página **Todos s clientes** (**Contas a receber \> Clientes \> Todos os clientes**), selecione o cliente **US\_SI\_0003** e depois **Transações**. A página **Transações do cliente** mostra somente a fatura original (000008), junto com a entrada contábil original. Como a opção **Lançar correções da fatura em Contas a receber** está definida como **Não** na página **Parâmetros da contabilidade**, somente a Contabilidade será atualizada. Portanto, as entradas de estorno e contábeis atualizadas não são mostradas. Observe que as transações de ajuste de receita criadas no [cenário 3](rev-rec-reallocation-scenario-3.md) são mostradas.
 
 [![Entrada contábil original na página Transações do cliente](./media/47_rev-rec-scenarios.png)](./media/47_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Para solicitar que as funções de segurança sejam modificadas para um usuário
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

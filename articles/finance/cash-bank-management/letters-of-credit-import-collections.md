@@ -54,3 +54,6 @@ Uma coleção de importação garante o vendedor será pago quando o comprador r
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

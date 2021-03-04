@@ -122,3 +122,6 @@ April lança o pagamento. Quando ela abre a página **Transações do fornecedor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

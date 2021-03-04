@@ -56,3 +56,6 @@ Se uma ordem de trabalho tiver de ser agenda em uma data *e* hora específicas, 
 >[!NOTE]
 >Para agendar um funcionário de manutenção para a ordem de serviço, o funcionário de manutenção deve estar disponível na data e hora de início esperada. A disponibilidade do trabalhador é configurada em [calendário do trabalhador](../work-order-scheduling/maintenance-worker-calendar-and-scheduling.md). 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

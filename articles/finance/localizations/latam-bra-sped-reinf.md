@@ -697,3 +697,6 @@ Depois que os eventos periódicos R-2010, R-2010 e R-2060 forem fechados por mei
 11. Selecione **OK** para confirmar a ação.
 
 12. O tipo de item de mensagem **Evento de fechamento** é atualizado e o status do item de mensagem é atualizado para **Aceito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

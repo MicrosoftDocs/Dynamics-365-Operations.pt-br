@@ -153,3 +153,6 @@ Uma restrição de tabela definida pelo sistema representa um mapeamento entre u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Este procedimento mostra como criar uma dimensão financeira de canal de comérc
 24. Na lista, clique no link na linha selecionada.
 25. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

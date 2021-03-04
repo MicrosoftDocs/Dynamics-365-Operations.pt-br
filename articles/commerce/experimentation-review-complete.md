@@ -61,3 +61,6 @@ Para excluir um experimento no construtor de sites do Commerce, siga estas etapa
 
 ## <a name="previous-step"></a>Etapa anterior
 [Executar e monitorar um experimento](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

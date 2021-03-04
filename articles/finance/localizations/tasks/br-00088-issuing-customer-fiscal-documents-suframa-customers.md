@@ -50,3 +50,6 @@ Use esse procedimento para configurar isenções de impostos para a região da S
 18. Clique em Salvar.
 19. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

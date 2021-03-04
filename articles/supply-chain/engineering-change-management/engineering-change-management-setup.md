@@ -91,3 +91,6 @@ Em cada conjunto de regras, defina o seguinte campo:
 - **Gravidade** – selecione o nível de gravidade para estabelecer regras. Use a página **Gravidades de alterações de engenharia** para criar e nomear os níveis. (Para obter mais informações, consulte a seção anterior).
 
 Use os botões da FastTab **Regras** para adicionar ou remover uma regra para a configuração de gravidade atual. Cada regra tem um campo **Regra** e um campo **Nome**. As regras são estabelecidas pelo sistema e indicam os tipos de alterações que um produto pode ter. O nome indica o tipo de alteração.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

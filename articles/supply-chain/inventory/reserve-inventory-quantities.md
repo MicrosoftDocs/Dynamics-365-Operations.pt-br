@@ -83,3 +83,6 @@ Há duas opções relacionadas a reservas na página **Parâmetros de gerenciame
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>Políticas de reserva de estoque na página Parâmetros de produção
 
 O valor do campo **Reserva** na guia **Geral** da página **Parâmetros de produção** determina o ponto padrão no processo de produção em que o estoque deve ser reservado. Por exemplo, o estoque poderá ser reservado quando o trabalho for programado ou quando o trabalho começar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

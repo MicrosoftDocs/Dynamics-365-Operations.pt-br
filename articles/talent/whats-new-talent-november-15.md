@@ -54,3 +54,6 @@ Com essa alteração, navegação aos detalhes dos itens de trabalho individual 
 
 - **Erro**: Ao adicionar um novo anexo a um trabalhador, os botões **Novo** e **Editar** são esmaecidos. 
 - **Solução alternativa:** Antes de abrir a página do anexo, garante que os caixas de dados na página **Trabalhador** estejam fechadas. Se os Quadros de Fatos estiverem fechados quando a página **Trabalhador** for carregada, os botões Anexos serão habilitados. (Esse problema será corrigido na próxima atualização de plataforma.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

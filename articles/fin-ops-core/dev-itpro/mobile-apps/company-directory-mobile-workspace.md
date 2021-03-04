@@ -89,3 +89,6 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 1.  No aplicativo móvel, selecione o espaço de trabalho **Diretório da empresa**.
 2.  No campo **Pesquisar**, insira nome, sobrenome, título ou departamento de um funcionário para iniciar a pesquisa.
 3.  Selecione um funcionário. A página **Perfil do funcionário** será exibida. Informações nesta página incluem nome, sobrenome, título e o departamento do funcionário.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

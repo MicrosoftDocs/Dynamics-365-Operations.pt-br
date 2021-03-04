@@ -57,3 +57,6 @@ Quando o local do tipo de documento é definido como **Armazenamento do Azure**,
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 - [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

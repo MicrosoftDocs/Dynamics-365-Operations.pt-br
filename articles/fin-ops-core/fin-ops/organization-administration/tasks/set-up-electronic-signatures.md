@@ -77,3 +77,6 @@ Utilize esse procedimento para configurar assinaturas eletrônicas. Uma assinatu
 10. Clique em Salvar.
 11. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

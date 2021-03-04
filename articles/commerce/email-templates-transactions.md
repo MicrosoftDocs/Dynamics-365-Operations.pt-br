@@ -203,3 +203,6 @@ Para obter mais informações sobre como configurar emails no Dynamics 365 Comme
 [Configurar recebimentos de email](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts)
 
 [Enviar recibos por email do Modern POS ](email-receipts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

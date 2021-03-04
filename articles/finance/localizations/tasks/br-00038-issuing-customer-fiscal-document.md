@@ -61,3 +61,6 @@ ms.locfileid: "4408483"
 30. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 31. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

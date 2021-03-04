@@ -350,3 +350,6 @@ Siga estas etapas caso a decisão deva ser tomada em um horário específico.
     - **Anos** – Selecione o dia, a semana e o mês até quando a decisão deve ser tomada. Por exemplo, você talvez queira que a decisão seja tomada até a sexta-feira da terceira semana de dezembro.
 
 4. Se o limite de tempo for excedido, o sistema tomará a decisão. Na lista **Ação**, selecione a opção que o sistema deve selecionar.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

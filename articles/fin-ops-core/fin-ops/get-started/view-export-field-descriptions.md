@@ -107,3 +107,6 @@ Para obter informações sobre as várias maneiras de filtrar a lista de página
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Personalizar descrições de campos](../../dev-itpro/user-interface/customize-field-help.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

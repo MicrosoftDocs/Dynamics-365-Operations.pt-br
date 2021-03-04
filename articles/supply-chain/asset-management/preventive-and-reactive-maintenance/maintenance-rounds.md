@@ -117,3 +117,6 @@ As duas ilustrações a seguir mostram um trabalho de agendamento na caixa de di
 - Você pode configurar um trabalho em lotes na Guia Rápida **Executar em segundo plano** para agendar rounds em intervalos regulares.  
 - Se um round for incluído em vários grupos da ordem de serviço (consulte [Grupos da ordem de serviço](../work-orders/work-order-pools.md)), um registro será mostrado para cada grupo em **Abrir grupos de agendamento de manutenção**. Isso é feito para otimizar as opções de filtragem para grupos de ordens de serviço.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

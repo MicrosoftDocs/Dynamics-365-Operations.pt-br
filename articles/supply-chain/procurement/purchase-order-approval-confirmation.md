@@ -99,3 +99,6 @@ Se uma OC no gerenciamento de alterações, todas as mudanças, como o cancelame
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

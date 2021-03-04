@@ -140,3 +140,6 @@ A onda é processada e cria o trabalho para as quantidades reservadas nas linhas
 Se uma remessa tem o status **Na Onda** ou superior, as atualizações de quantidade em uma linha da ordem de venda não se refletem nem são confirmadas em uma linha de carga associada à remessa. As alterações de quantidade em uma linha de carga devem ser feitas diretamente na linha de carga.
 
 A validação é realizada depois que o trabalho para a linha de carga é criado e uma reserva é feita. Uma redução da quantidade na linha da ordem de venda é então confirmada na reserva de linha de trabalho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

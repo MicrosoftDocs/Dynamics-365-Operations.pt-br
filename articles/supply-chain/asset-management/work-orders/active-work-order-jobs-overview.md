@@ -43,3 +43,6 @@ A ilustração a seguir mostra um exemplo da página de listagem **Trabalhos de 
 
 Para obter uma breve descrição dos botões na página de listagem **Trabalhos de manutenção da ordem de serviço ativos**, consulte [Introdução às ordens de serviço](../work-orders/introduction-to-work-orders.md) em que botões idênticos são descritos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

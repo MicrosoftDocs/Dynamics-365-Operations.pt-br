@@ -68,3 +68,6 @@ Se você estiver planejando confirmar várias ordens ao mesmo tempo, a paraleliz
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

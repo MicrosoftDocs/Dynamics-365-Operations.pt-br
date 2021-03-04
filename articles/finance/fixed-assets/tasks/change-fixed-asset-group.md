@@ -46,3 +46,6 @@ Este guia usa a empresa de demonstração USMF.
 6. Clique em OK.
 7. Clique em Sim.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ Um dos grandes recursos do Power BI é a forma como todos os recursos visuais de
 ## <a name="export-to-excel"></a>Exportar para o Excel
 
 Para visualizar os dados do relatório no Excel, você pode clicar no menu de opções (três pontos) em um visual e selecionar **Exportar dados subjacentes**. Os dados exportados serão exportados como filtrados, respeitando as permissões do usuário no Attract. Para obter mais informações, consulte [Exportar dados de visualizações](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

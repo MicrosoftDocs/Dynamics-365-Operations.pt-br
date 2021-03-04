@@ -87,3 +87,6 @@ O Supply Chain Management fornece uma estratégia de criação de carga chamada 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

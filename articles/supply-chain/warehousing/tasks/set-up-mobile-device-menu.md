@@ -69,3 +69,6 @@ Este tópico mostra como estabelecer um item de menu do dispositivo móvel. Nest
 5. Selecione a seta que aponta para a direita.
 6. Selecione **Salvar**.
 7. Feche a página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

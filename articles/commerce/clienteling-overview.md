@@ -124,3 +124,6 @@ Siga estas etapas para configurar a integração.
     4. Você pode ter vários ambientes no Customer Insights, como o de teste e o de produção. No campo **ID da instância de ambiente**, insira o ambiente apropriado.
     5. No campo **ID de cliente alternativo**, informe a propriedade no Customer Insights que está mapeada para o número da conta do cliente. (No Commerce, o número da conta do cliente é a ID do cliente.)
     6. As três propriedades restantes são as medidas que serão exibidas no cartão do cliente no registro de clientes. É possível selecionar até três medidas a serem exibidas no cartão do cliente. (No entanto, você não precisa selecionar nenhuma medida.) Conforme dissemos anteriormente, o sistema mostra esses valores primeiro e, depois, mostra os valores do grupo de atributos do registro de clientes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

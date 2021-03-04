@@ -106,3 +106,6 @@ Há muitos tópicos sobre gerenciamento da cadeia de suprimentos e de fabricaç�
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
 Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Supply Chain Management no Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

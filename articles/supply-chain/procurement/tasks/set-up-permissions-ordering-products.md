@@ -45,3 +45,6 @@ Este tópico explica como conceder a trabalhadores a permissão para preparar re
 2. Use o filtro rápido para encontrar o trabalhador que você apenas adicionou como o solicitador.
 3. Selecione o solicitante. A lista do preparador mostra as pessoas que têm a permissão para pedir artigos em nome do solicitador que é selecionado no painel à esquerda.  Você pode adicionar preparadores adicionais aqui. Esta exibição também permite que a permissão do solicitante crie requisições em entidades legais e unidades operacionais que não são a pessoa da entidade legal primária ou unidade operacional.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

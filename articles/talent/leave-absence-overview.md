@@ -66,3 +66,6 @@ O gerenciamento de licenças e ausências fornece os seguintes recursos:
 - **Envie solicitações de folga.**
 
     Os funcionários podem enviar solicitações de folga em relação às horas disponíveis. As solicitações podem ser simples de um único dia ou de vários dias, que incluem vários tipos de licença e de ausência. Se não houver um fluxo de trabalho habilitado, as solicitações serão aprovadas automaticamente. Se houver um fluxo de trabalho habilitado, a aprovação pode ser automática ou pode exigir aprovação, dependendo da configuração do fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

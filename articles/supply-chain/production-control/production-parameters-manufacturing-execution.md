@@ -154,3 +154,6 @@ Você pode usar as seguintes configurações se os materiais sempre devem ser de
 | Relatório de conclusão |   Consumo automático de BOM    | <strong>Nunca</strong>  |
 | Relatório de conclusão | Atualizar relatório concluído online | <strong>Status</strong> |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

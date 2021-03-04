@@ -88,3 +88,6 @@ Veja aqui algumas etapas que podem ser executadas para identificar as contas e a
 2.  Exporte o relatório para o Excel
 
 Agora, você poderá copiar os dados do relatório do Excel de FR e para o relatório Balancete do D365 e comparar as colunas "Saldo de fechamento".
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

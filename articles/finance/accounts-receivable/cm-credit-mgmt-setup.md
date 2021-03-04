@@ -79,3 +79,6 @@ Várias estatísticas de gerenciamento de crédito são incluídas no Quadro de 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Sequências numéricas e parâmetros compartilhados de sequência numérica
 
 Uma ID de diário é necessária para processar ajustes de limite de crédito. Você deve adicionar o número do ajuste de limite de crédito que deve ser usado para gerar a ID do diário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

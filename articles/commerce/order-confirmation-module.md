@@ -87,3 +87,6 @@ Para adicionar um módulo de confirmação da ordem a uma nova página e definir
 [Módulo de informações sobre retirada](pickup-info-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

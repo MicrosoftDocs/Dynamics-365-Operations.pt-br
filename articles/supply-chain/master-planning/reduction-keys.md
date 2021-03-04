@@ -227,3 +227,6 @@ Quando você seleciona **Transações - chave de redução** ou **Transações -
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de planos mestres](master-plans.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

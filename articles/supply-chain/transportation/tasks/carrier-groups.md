@@ -38,3 +38,6 @@ Quando existem várias operadoras e serviços de operadoras para o mesmo segment
 1. No campo **Nome**, insira um nome descritivo para o grupo.
 1. Na FastTab **Detalhes**, adicione uma linha e selecione uma operadora de remessa e um serviço de operadora para ela. Repita essa etapa até adicionar todas as operadoras necessárias para o grupo.
 1. Feche a página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

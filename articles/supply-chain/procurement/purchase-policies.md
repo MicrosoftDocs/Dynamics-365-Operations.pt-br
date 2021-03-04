@@ -151,3 +151,6 @@ A regra de consolidação de criação e a demanda de ordem de compra define as 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

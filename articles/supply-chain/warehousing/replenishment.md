@@ -79,3 +79,6 @@ Em vez de ter que somar a demanda no final de um processo de alocação e fazer 
 |   Diretivas de localização   |                                                       Diretivas de localização são necessárias para orientar o trabalho para os locais onde o reabastecimento é necessário e para os locais de onde o estoque é originário.                                                        |
 |     Modelos do trabalho      |                                                   Modelos de trabalho do tipo <strong>Reabastecimento</strong> são necessários para criar o trabalho de reabastecimento para que o estoque possa ser movido para os locais desejados.                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

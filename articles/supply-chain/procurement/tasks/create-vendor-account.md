@@ -59,3 +59,6 @@ Este procedimento mostra como criar uma conta de fornecedor, e adicionar um ende
 7. Feche a página.
 8. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

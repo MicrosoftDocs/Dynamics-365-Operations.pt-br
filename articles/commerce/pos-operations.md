@@ -209,3 +209,6 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 § Quando o PDV está offline, apenas as transações no banco de dados offline atual podem ser chamadas para devolução.
 
 \*\* Quando o PDV está offline, apenas as transações no banco de dados de canal offline atual são mostradas no diário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

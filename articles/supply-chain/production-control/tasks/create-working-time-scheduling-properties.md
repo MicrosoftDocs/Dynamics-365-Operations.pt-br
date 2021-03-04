@@ -44,3 +44,6 @@ As propriedades de programação de horário de trabalho são usadas para catego
 3. No campo Valor, digite um valor.
 4. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

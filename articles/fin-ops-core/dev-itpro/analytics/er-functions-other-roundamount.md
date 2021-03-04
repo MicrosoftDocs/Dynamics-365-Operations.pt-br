@@ -91,3 +91,6 @@ Se o parâmetro **model.RoundOff** estiver definido como **RoundOffType.RoundUp*
 [Outras funções (específicas de domínio comercial)](er-functions-category-other.md)
 
 [Funções matemáticas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

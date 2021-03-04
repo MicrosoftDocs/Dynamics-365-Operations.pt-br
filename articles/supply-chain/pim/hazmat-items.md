@@ -221,3 +221,6 @@ Para realizar a verificação de compatibilidade, siga estas etapas.
 1. No Painel de Ações, na guia **Cargas**, no grupo **Ações**, selecione **Verificação de compatibilidade**.
 
 Você recebe uma mensagem informando sobre os resultados da verificação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

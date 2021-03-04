@@ -78,3 +78,6 @@ Siga essas etapas para adicionar horas de funcionamento aos recibos de POS impre
 Recibos de POS agora incluem as horas de funcionamento. Se algum feriado foi incluído no modelo, eles são exibidos no recibo.
 
 ![Exemplo de recibo](../dev-itpro/media/Storehours3.png "Exemplo de recibo")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

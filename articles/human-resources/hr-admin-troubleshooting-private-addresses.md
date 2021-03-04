@@ -39,3 +39,6 @@ Para solucionar o problema, o cliente deve rastrear essas etapas para a função
 3. Selecione **Salvar**.
 
 ![Página de parâmetros do catálogo de endereços global](media/GAD-parameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

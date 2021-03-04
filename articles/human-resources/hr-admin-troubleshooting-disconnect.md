@@ -52,3 +52,6 @@ O Microsoft Dynamics 365 Human Resources desconecta os usuários quando duas ses
 Verifique se somente um ambiente está aberto em vez de um navegador de tipo determinado. Os usuários podem abrir mais sessões no mesmo ambiente (ou seja, várias guias no navegador.)
 
 Os usuários que desejam pular entre dois ambientes ao mesmo tempo devem abrir cada ambiente em um tipo de navegador diferente. (Por exemplo, o usuário A pode exibir o ambiente 1 no Chrome e o ambiente 2 no Microsoft Edge.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

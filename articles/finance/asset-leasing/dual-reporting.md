@@ -523,3 +523,6 @@ Depois que todas essas entradas de diário forem criadas e lançadas, você ver�
 | 11         | Depreciação Acumulada |                                                   |                                                   |                                                   | 0\,00                   |   |                                                 |                                                |                                                |                                                | \-949\,75                                      | \-949\,75                               |
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Contudo, se você usar um item que tem uma hierarquia de reserva de "lote abaixo
 Esse comportamento é por design. Se você colocar uma dimensão acima da dimensão **Local** na hierarquia de reserva, ela deve ser especificada antes da liberação para o depósito. A Microsoft avaliou esse problema e determinou que é uma limitação do recurso durante as liberações para o depósito da bancada de planejamento de carga. Quantidades parciais não podem ser liberadas se uma ou mais dimensões acima de **Local** não forem especificadas.
 
 Para obter mais informações, consulte [Política de reserva de dimensão no nível de depósito flexível](flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

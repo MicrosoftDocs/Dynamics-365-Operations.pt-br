@@ -309,3 +309,6 @@ Para aprender a usar o formato de ER configurado **Formato para saber como pesqu
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Configurar os parâmetros de um formato de ER por entidade legal](er-app-specific-parameters-set-up.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

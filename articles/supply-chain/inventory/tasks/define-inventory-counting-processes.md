@@ -85,3 +85,6 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 5. No menu suspenso do campo **Grupo de contagem**, selecione um grupo de contagem. Você pode selecionar um grupo específico de contagem que será aplicado ao item no depósito específico selecionado. Quando a contagem é feita naquele depósito, essa diretiva de contagem substituirá a diretiva geral do item.  
 6. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

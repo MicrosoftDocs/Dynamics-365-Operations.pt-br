@@ -37,3 +37,6 @@ Para configurar um trabalho em lotes ou para processar faturas de pagamento, dep
 > Transações subsequentes, como agendamentos de amortização de passivos, pagamentos, depreciação e despesas, serão lançadas somente depois que o reconhecimento inicial dos arrendamentos correspondentes for lançado.
 >
 > As entradas de diário são criadas, mas não serão lançadas até que você selecione o comando **Executar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

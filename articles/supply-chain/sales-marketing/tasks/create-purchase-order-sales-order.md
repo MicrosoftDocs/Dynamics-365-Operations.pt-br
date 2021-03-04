@@ -69,3 +69,6 @@ Este procedimento mostra como criar uma ordem de compra que é baseada em uma or
     - O **Lote de referência** garante que os custos da compra atual sejam cobrados na ordem de venda anexada.  
     - Você pode navegar até a ordem de venda de origem abrindo o link no campo **Número de referência**.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

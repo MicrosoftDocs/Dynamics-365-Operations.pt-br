@@ -124,3 +124,6 @@ A ilustração a seguir mostra um exemplo de um mapeamento de modelo na Integra�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

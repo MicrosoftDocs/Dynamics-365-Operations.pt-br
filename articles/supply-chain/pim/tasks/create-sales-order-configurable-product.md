@@ -53,3 +53,6 @@ Esse procedimento aborda a aplicação de um modelo de configuração a um produ
 
 ## <a name="select-the-product-configuration"></a>Selecione a configuração do produto
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

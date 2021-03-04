@@ -100,3 +100,6 @@ Após habilitar recomendações de produto, é preciso adicionar o painel de rec
 [Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
 
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

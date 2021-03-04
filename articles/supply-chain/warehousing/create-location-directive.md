@@ -258,3 +258,6 @@ Depois de criar diretivas da localização, você pode associar cada código de 
 
 - Vídeo: [Detalhamento da configuração de gerenciamento de depósito](https://community.dynamics.com/365/b/techtalks/posts/warehouse-management-configuration-deep-dive-october-14-2020)
 - Tópico de ajuda: [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](control-warehouse-location-directives.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

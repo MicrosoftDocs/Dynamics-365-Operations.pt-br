@@ -72,3 +72,6 @@ Neste tópico, você entenderá como criar um contrato de compra. Isso seria fei
 5. Selecione **Confirmações de contrato de compra**. A opção **Visualizar/Imprimir** permite que você gere um documento para o contrato de compra, o qual você poderá imprimir ou enviar ao fornecedor. Se você atualizar o contrato mais tarde e o reconfirmá-lo, ambas as versões serão exibidas aqui.  
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

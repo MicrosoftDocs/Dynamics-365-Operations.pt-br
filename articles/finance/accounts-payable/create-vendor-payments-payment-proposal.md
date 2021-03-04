@@ -123,3 +123,6 @@ Você pode definir um padrão que debita a conta de pagamento por método de ind
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Este procedimento mostra como liberar um produto mestre, que será usado nas con
 7. Clique em Avançar.
 8. Clique em Finish (Concluir).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -155,3 +155,6 @@ Selecione a empresa que é a origem de dados consolidados e escolha a regra que 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

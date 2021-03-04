@@ -69,3 +69,6 @@ Os dados do aplicativo são usados para preencher os relatórios no pacote de co
 | Workforce\_WorkerName             | Nome, sobrenome e nome completo                                                                       | |
 | Workforce\_WorkerTitle            | Título e data de tempo de serviço                                                                                   | |
 | Workorce\_WorkerTrend             | Trabalhadores com o tempo, número de funcionários, empresa e posição                                                        | Workforce\_Company, Workforce\_Compensation, Workforce\_GeographicLocation, Workforce\_Performance, Workforce\_WorkerName, Workforce\_ReportsToWorkerName, Workforce\_CalendarOffset, Workforces\_Date, Workforce\_WorkerTitle, Workforce\_Demographics, Workforce\_Employment, Workforce\_Job |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

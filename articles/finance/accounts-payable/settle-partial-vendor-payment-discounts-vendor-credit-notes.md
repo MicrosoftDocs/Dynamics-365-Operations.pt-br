@@ -71,3 +71,6 @@ Alice pode examinar as transações de fornecedor na página **Transações de f
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

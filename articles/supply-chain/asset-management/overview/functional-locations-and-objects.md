@@ -58,3 +58,6 @@ A maneira que você cria a hierarquia de locais funcionais depende de requisitos
 A figura a seguir mostra um exemplo de locais funcionais baseados em clientes.
 
 ![Diagrama mostrando locais funcionais com base em clientes](media/04-overview-image.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

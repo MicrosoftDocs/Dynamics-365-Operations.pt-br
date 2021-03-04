@@ -98,3 +98,6 @@ Este tópico explica como importar versões atualizadas de configurações de ER
 
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Baixar configurações ER do repositório global de serviço de configuração](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Este procedimento é centrado sobre a instalação necessária para criar uma re
 5. Expanda a seção kanbans.
     * Observe que um kanban foi criado para transferir o material necessário para o depósito 12.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

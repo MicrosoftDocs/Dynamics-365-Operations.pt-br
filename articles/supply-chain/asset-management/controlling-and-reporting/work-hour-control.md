@@ -74,3 +74,6 @@ A captura de tela abaixo mostra um exemplo de cálculo de **Controle de hora de 
 Outra maneira de fazer um cálculo de uma hora é selecionar vários ativos em **Todos os ativos** ou **Ativos válidos**. Em seguida, clique no botão **Controle de horas** na Guia Rápida **Geral**. Os ativos selecionados são inseridos automaticamente no campo **Ativo** na Guia Rápida **Registros a incluir**. Clique em **OK** na caixa de diálogo **Controle de horas de ativo** e o cálculo para os ativos selecionados é exibido. O mesmo procedimento pode ser feito para locais funcionais em **Todos os locais funcionais** ou **Locais funcionais ativos**, e para ordens de serviço **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

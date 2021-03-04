@@ -62,3 +62,6 @@ Se um ativo tiver subativos relacionados, você só poderá excluí-lo se nenhum
 
 > [!NOTE]
 > Se você não conseguir excluir um ativo usando este procedimento, outra maneira de excluir é configurar um estado do ciclo de vida do ativo pra essa finalidade. Por exemplo, é possível configurar um estado do ciclo de vida **Sucateado** ou **Excluído** na página **Estados do ciclo de vida do ativo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Este procedimento tem como foco a configuração necessária para criar uma regr
 2. Clique em Exibir árvore de vinculação.
     * Note que um kanban com a mesma quantidade como a linha de vendas é criado. Você também pode ver as questões materiais necessárias para produzir L0050. Esta é a última etapa do procedimento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

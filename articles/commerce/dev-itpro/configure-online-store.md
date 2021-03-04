@@ -62,3 +62,6 @@ Os tópicos listados na tabela a seguir ajudam a configurar os componentes do Co
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

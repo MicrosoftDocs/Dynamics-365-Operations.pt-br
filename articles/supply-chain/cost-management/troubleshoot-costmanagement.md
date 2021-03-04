@@ -62,3 +62,6 @@ Lembre-se de executar um fechamento de estoque a partir da data %3 (31-01-2019) 
 ## <a name="inventory-aging-report-discrepancies"></a>Discrepâncias no relatório de classificação por vencimento do estoque
 
 O **Relatório de classificação por vencimento do estoque** mostra diferentes valores quando exibidos em diferentes dimensões de armazenamento (como local ou depósito). Para obter mais informações sobre a lógica de relatório, consulte [Exemplos de relatório de classificação por vencimento do estoque e lógica](inventory-aging-report.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

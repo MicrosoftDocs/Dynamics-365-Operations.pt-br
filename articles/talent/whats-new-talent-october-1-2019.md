@@ -84,3 +84,6 @@ Na versão desta semana, a descrição será exibida ao selecionar o trabalho na
 ### <a name="print-performance-reviews"></a>Imprima avaliações de desempenho
 
 Funcionários, gerentes e profissionais de RH poderão imprimir a avaliação de desempenho de um funcionário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

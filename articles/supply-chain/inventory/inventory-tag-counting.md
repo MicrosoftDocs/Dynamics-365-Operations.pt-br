@@ -36,3 +36,6 @@ Ao criar linhas na página **Contagem de etiquetas**, você coloca um número de
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Contagem cíclica](../warehousing/cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

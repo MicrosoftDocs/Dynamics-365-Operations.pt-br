@@ -44,3 +44,6 @@ As funções de registro de relatório eletrônico (ER) podem ser usadas para ex
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Linguagem da fórmula de relatório eletrônico](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

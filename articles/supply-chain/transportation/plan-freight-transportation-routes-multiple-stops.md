@@ -53,3 +53,6 @@ A Bancada de trabalho de criação de carga utiliza os endereços de clientes e 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Esse procedimento mostra como obter o estoque disponível atualizado manualmente
 25. Feche a página.
 26. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

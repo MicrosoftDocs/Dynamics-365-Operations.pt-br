@@ -57,3 +57,6 @@ Conclua as etapas a seguir para solucionar problemas com modelos ER que não pod
 Um problema semelhante pode ocorrer se você migrar sua instância do aplicativo para outro local que foi usado como um destino de migração mais de uma vez e para o qual o armazenamento de Blob já contém arquivos de modelo ER.
 
 Como você pode ter várias configurações de formato de ER, esse processo pode ser demorado. Portanto, o uso do recurso [Armazenamento de backup do modelo ER](er-backup-storage-templates.md) para recuperar automaticamente os modelos com referências quebradas é preferível.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

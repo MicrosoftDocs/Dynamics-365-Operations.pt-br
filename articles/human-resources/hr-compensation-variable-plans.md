@@ -99,3 +99,6 @@ Você pode usar a guia **Substituições** para substituir os valores específic
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

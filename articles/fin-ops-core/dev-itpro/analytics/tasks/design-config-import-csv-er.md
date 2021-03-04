@@ -124,3 +124,6 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo 1099entries
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que todas as 7 linhas do arquivo CSV importado foram processadas. A linha 1 dos títulos de campos foi ignorada, 4 transações foram devidamente analisadas e 2 transações foram reconhecidas como inválidas.
 3. Feche a página.
 4. Feche a página.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

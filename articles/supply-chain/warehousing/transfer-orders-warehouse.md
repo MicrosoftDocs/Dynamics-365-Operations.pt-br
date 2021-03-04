@@ -53,3 +53,6 @@ Você também deve configurar o prazo de entrega de transporte entre os depósit
 2. No campo **Ponto de recebimento**, selecione **depósito**.
 3. Selecione **Depósito da remessa**, **Depósito de recebimento** e **Dias de transporte**. 
 4. (Opcional) você também pode definir o tempo de transporte, dependendo do modo de entrega, na guia **Dias de transporte por modo de entrega** .
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

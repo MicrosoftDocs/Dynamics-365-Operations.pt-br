@@ -45,3 +45,6 @@ Na página **Gravação dupla**, você pode receber uma mensagem de erro parecid
 *A entidade com um nome "msdyn\_dualwriteentitymap" with namemapping="Logical" não foi encontrada no MetadataCache.*
 
 Para corrigir o problema, verifique se a solução principal de gravação dupla está instalada no Dataverse. A solução principal de gravação dupla é um pré-requisito para o reconhecimento da solução.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

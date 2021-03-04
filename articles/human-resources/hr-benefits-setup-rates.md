@@ -93,3 +93,6 @@ Você também pode usar camadas duplas. Se você selecionar **Camada dupla** par
    | **Taxa de fumantes para o crédito flexível** | O número de créditos flexíveis dos custos de benefício, com base no cálculo definido para o nível de camada para fumantes. |
 
 5. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

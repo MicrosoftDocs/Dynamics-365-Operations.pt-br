@@ -155,3 +155,6 @@ Neste exemplo de média móvel, o relatório de valor de estoque é impresso par
 
 > [!NOTE]
 > Não é possível reconciliar a contabilidade com o estoque usando a opção **Classificação de tempo da transação**. O relatório deve ser impresso usando a opção **Data de lançamento**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

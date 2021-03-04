@@ -48,3 +48,6 @@ Quando um kanban é esvaziado por engano ou um kanban recebido precisa ser esvaz
 2. Na lista, marque a linha selecionada.
     * Observe que o status da unidade de manuseio é esvaziado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

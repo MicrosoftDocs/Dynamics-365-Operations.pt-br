@@ -100,3 +100,6 @@ A ilustração a seguir mostra o resultado quando o formato ajustado é executad
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

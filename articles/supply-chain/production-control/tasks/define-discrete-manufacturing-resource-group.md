@@ -58,3 +58,6 @@ Um grupo de recursos é um conjunto de recursos de operações que geralmente co
 6. Na lista, localize e selecione o PDV desejado.
 7. Na lista, clique no link na linha selecionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

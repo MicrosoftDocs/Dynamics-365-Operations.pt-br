@@ -62,3 +62,6 @@ Os dados a seguir são utilizados para preencher os relatórios no conteúdo de 
 | Cargo         | Posição, título e tempo completo equivalente (FTE)                  | Agenda do curso, participantes do curso |
 | Nome do Funcionário    | Nome, sobrenome e nome completo                             | Participantes do curso |
 | Cargo do funcionário   | Título e data de tempo de serviço                                         | Participantes do curso |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

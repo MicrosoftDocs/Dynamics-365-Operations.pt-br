@@ -81,3 +81,6 @@ Esses exemplos mostram como é possível criar diferentes tipos de condições d
 [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)<br>
 [Gerenciar políticas de compra e venda de licenças](hr-leave-and-absence-manage-buy-and-sell-leave-policies.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

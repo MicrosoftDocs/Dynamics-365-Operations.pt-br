@@ -76,3 +76,6 @@ Os exemplos descritos aqui mostrar que todos os registros de contados feitos em 
 
 ![Figura 4](media/12-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

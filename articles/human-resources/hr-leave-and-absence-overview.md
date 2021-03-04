@@ -54,3 +54,6 @@ Seus funcionários podem enviar solicitações de folga e você pode gerenciá-l
 [Solicitar folga](hr-employee-self-service-request-time-off.md)
 [Gerenciar solicitações de licença e ausência](hr-employee-self-service-manage-requests.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -85,3 +85,6 @@ Para usar o serviço integrado do [Microsoft Accessibility Insights](https://acc
 [Enriquecer uma página de produto](enrich-product-page.md)
 
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

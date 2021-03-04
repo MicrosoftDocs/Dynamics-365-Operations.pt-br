@@ -58,3 +58,6 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 14. Na lista, clique no link na linha selecionada.
 15. Esta página permite exibir os funcionários que foram inscritos no benefício, bem como alguns funcionários que não foram inscritos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

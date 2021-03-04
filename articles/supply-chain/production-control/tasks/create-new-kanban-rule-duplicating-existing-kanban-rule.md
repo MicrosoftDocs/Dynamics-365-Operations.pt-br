@@ -44,3 +44,6 @@ Este procedimento tem como foco a criação de uma duplicata de uma regra kanban
 3. Clique em OK.
     * Note que uma duplicata da regra kanban 000017 é criada.    
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

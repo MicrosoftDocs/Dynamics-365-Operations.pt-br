@@ -41,3 +41,6 @@ Para criar e lançar a entrada do diário de reclassificação de passivos de cu
 4. Ative o parâmetro **Lançar**. Como alternativa, se a entrada tiver de ser criada mas não lançada, deixe esse parâmetro desativado.
 5. Ative o parâmetro **Visualizar antes do lançamento** para exibir a entrada antes que ela seja lançada.
 6. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

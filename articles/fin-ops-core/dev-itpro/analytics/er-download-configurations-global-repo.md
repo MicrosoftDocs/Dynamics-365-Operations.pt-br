@@ -90,3 +90,6 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

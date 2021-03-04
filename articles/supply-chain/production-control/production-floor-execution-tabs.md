@@ -79,3 +79,6 @@ Depois de criar todas as guias necessárias, você pode associá-las a uma confi
 1. Continue adicionando outras guias, conforme necessário.
 
 1. Use os botões **Mover para cima** e **Mover para baixo** na barra de ferramentas para organizar as guias, conforme necessário. As guias serão exibidas da esquerda para a direita na ordem mostrada na captura de tela acima (a guia na parte superior é mostrada à esquerda).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Os dados de aplicativos são usados para preencher os relatórios no pacote de c
 | Training\_Position        | Posição, título e tempo completo equivalente (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Nome, sobrenome e nome completo                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Título e data de tempo de serviço                                         | Training\_CourseAttendees |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

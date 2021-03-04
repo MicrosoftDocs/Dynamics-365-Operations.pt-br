@@ -50,3 +50,6 @@ Depois de configurar um programa de continuidade conforme descrito acima, você 
 - **Estender linhas da continuidade** (se necessário) – Estenda o número de vezes em que um evento de continuidade possa ser repetido. A repetição de remessas poderá se estender além de limite foi definido no campo **Limite da repetição de continuidade** nos parâmetros de call center.
 - **Executar uma atualização de continuidade** (se necessário) – Sincronize alterações entre o programa de continuidade e as ordens de venda pai de continuidade.
 - **Fechar linhas e ordens pai de continuidade** – Fecha as ordens de continuidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

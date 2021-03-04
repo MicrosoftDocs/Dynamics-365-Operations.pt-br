@@ -139,3 +139,6 @@ Depois que você criar os estados de ciclo de vida da ordem de serviço que são
 9. Salve o modelo de ciclo de vida da ordem de serviço.
 
 ![Página de modelos de ciclo de vida da ordem de serviço](media/15-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -154,3 +154,6 @@ Os associados da loja devem selecionar uma estação de hardware somente uma vez
 - [Configurar o aplicativo POS hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
 - [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Visão geral de suporte de periféricos de rede](https://go.microsoft.com/fwlink/?linkid=2129965)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

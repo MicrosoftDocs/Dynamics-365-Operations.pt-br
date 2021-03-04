@@ -43,3 +43,6 @@ Os calendários descrevem a capacidade e os horários de trabalho dos recursos d
 12. Selecione **OK**.
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

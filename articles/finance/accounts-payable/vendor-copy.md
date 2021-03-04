@@ -64,3 +64,6 @@ Você também pode copiar fornecedores usando o recurso de pesquisa do número d
 
 1. A opção **Copiar fornecedor** é exibida. Por padrão, essa opção é definida como **Não**. Para copiar o fornecedor para a entidade legal atual, defina-a como **Sim**.
 2. Escolha **Selecionar**. O fornecedor foi criado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -130,3 +130,6 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 3. Clique em **Procurar** e selecione o arquivo **IncomingDocumentToLearnHowToHandleOptionalAttributes.xml**.
 4. Clique em **OK**.
 5. Revise o arquivo gerado. Note que o mesmo arquivo foi importado, já que o design do formato agora considera o atributo 'id' para o elemento 'document' como opcional.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

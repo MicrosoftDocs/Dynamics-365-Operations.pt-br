@@ -164,3 +164,6 @@ Para todos os problemas gerais, é necessário sempre consultar o PDV Moderno ou
 [Salvando meios de pagamento online com o conector Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector-listpi)
 
 [Visão geral de pagamentos de omnicanal](https://docs.microsoft.com/dynamics365/commerce/omni-channel-payments)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

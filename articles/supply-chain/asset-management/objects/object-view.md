@@ -48,3 +48,6 @@ ID de local funcional/ID de local funcional (se houver mais de um local funciona
 Se tiver selecionado um ativo na exibição de árvore, você poderá selecionar **Solicitações ativos** ou **Ordens de serviço ativas** para exibir as solicitações de manutenção ou ordens de serviço relacionadas ao ativo. Você também pode selecionar **Abrir** \> **Localização funcional**, **Ativo** ou **BOM de ativos** para abrir a exibição relacionada.
 
 A opção **Locais funcionais de ativo** que você pode selecionar no campo **Exibir** também está disponível em uma pesquisa de ativos onde você pode selecionar um ativo. O modo de exibição de árvore é mostrado em uma guia **Exibição de ativos**, por exemplo, onde você [cria um ativo](../objects/create-an-object.md), cria uma solicitação de manutenção ou cria uma ordem de serviço.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

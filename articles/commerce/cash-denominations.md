@@ -52,3 +52,6 @@ Ao pagar em dinheiro no PDV, o usuário pode usar as denominações de nota para
 
 - **Maior ou igual ao valor devido** – Por padrão, o PDV só mostrará as denominações de notas maiores do que o valor devido, permitindo o pagamento com um toque. Por exemplo, se o valor devido fosse de US$ 7,50, o PDV mostraria as seguintes denominações: US$ 10, US$ 20, US$ 50 e US$ 100. Ao tocar em qualquer um desses valores, o pagamento será feito automaticamente para esse valor. As notas de US$ 1 e US$ 5 não são mostradas, pois esses valores são menores que o valor devido.
 - **Todas as denominações** – Selecione esta opção para sempre mostrar todas as denominações de notas em PDV, seja qual for o valor devido. Isso significa que o usuário poderá usar uma combinação de notas para atingir o valor devido. Por exemplo, se o valor devido for US$ 25,00, o usuário poderá usar notas de US$ 20 e US$ 5 para concluir a venda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Este procedimento mostra como registrar itens usando o diário de entrada de ite
 2. Clique em Recebimento de produtos.
 3. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

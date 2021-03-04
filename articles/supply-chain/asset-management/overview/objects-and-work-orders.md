@@ -55,3 +55,6 @@ Várias etapas devem ser concluídas quando você deseja agendar e executar um t
 
 > [!NOTE]
 > Geralmente, quando você trabalha no Dynamics 365 Supply Chain Management e no módulo **Asset Management**, seleciona **Novo** para criar um novo registro, seleciona **Editar** para atualizar um registro existente e seleciona **Salvar** para salvar dados novos ou editados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

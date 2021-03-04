@@ -81,3 +81,6 @@ Este tópico descreve como automatizar o transporte de cargas em contêineres no
 11. No campo **Seleção de Campo**, insira ou selecione um valor.
 12. Selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Para habilitar o gerenciamento de não conformidade, siga estas etapas:
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [Configurar pré-requisitos do gerenciamento de não conformidade](tasks/set-up-prerequisites-nonconformance-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

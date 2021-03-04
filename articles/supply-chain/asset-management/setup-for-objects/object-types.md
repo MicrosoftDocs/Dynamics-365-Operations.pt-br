@@ -97,3 +97,6 @@ Na página **Peças sobressalentes**, você também pode criar novas peças sobr
 
 Para ver se a peça sobressalente na linha selecionada será usada em qualquer outro lugar do Asset Management (por exemplo, em relação a ativos e ordens de serviço), selecione a linha da peça sobressalente e selecione **Item onde usado** para abrir a página **Item onde usado**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

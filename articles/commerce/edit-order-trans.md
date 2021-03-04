@@ -90,3 +90,6 @@ Por padrão, após as ordens serem sincronizadas com sucesso, elas são colocada
 [Criar uma pasta de trabalho do Excel para editar transações de varejo](create-excel-edit.md)
 
 [Adicionar campos a uma pasta de trabalho do Excel para editar transações de varejo](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

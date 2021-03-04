@@ -183,3 +183,6 @@ Um processo de aprovação consiste em etapas de aprovação. Conclua o procedim
 1. No editor de fluxo de trabalho, clique duas vezes no processo de aprovação. O editor de fluxo de trabalho exibe as etapas do processo de aprovação.
 2. Para adicionar uma etapa de aprovação, arraste-a da área **Elementos de fluxo de trabalho** para a tela.
 3. Para configurar uma etapa de aprovação, consulte [Configurar etapas de aprovação em um fluxo de trabalho](configure-approval-step-workflow.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

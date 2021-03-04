@@ -56,3 +56,6 @@ As alterações desta semana corrigem um problema no qual não era possível ger
 ### <a name="current-balance-report-in-leave-pbi-doubles-employee-balance-385581"></a>O relatório de saldo atual no PBI dobra o saldo do funcionário (385581)
 
 Esta alteração corrige o relatório de saldo atual neste cenário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

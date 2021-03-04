@@ -145,3 +145,6 @@ Quando você gera o relatório, os seguintes parâmetros padrão serão exibidos
 </tbody>
 </table>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

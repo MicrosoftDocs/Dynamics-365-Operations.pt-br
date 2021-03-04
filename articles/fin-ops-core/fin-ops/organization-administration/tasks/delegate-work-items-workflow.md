@@ -60,3 +60,6 @@ Se pretende se ausentar do escritório ou ficar indisponível para executar aç�
 8. No campo **Data/hora final**, insira uma data e hora.
 9. Marque a caixa de seleção **Habilitado** para ativar a regra de delegação. 
 10. No campo **Comentário**, insira um comentário que explique o motivo de você estar delegando os itens de trabalho.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

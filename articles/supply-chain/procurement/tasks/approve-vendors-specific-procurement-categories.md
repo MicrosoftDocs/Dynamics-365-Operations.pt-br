@@ -44,3 +44,6 @@ Este tópico explica como aprovar fornecedores para categorias específicas de c
 13. Selecione **Não** no campo **Fornecedores herdados da categoria principal:**.
 14. Selecione **Sim** no campo **Fornecedores herdados da categoria principal:**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

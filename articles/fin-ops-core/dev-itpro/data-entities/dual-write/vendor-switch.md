@@ -78,3 +78,6 @@ Para criar processos de fluxo de trabalho usando os modelos de processo de fluxo
 4. Crie um processo de fluxo de trabalho para a entidade **Contato** e selecione o modelo de processo de fluxo de trabalho **Atualizar Fornecedores do tipo Pessoa na Tabela Fornecedores**.
 5. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. Para configurar um fluxo de trabalho como um fluxo de trabalho em segundo plano, selecione **Converter para fluxo de trabalho em segundo plano**.
 6. Ative os fluxos de trabalho que você criou nas tabelas **Contato** e **Fornecedor** para começar a usar a entidade **Contato** para armazenar informações de fornecedores do tipo **Pessoa**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

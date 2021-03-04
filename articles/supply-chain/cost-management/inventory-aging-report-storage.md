@@ -57,3 +57,6 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
     > O formulário não incluirá os subtotais definidos no layout de relatório.
 
 A entidade de dados **Relatório de classificação por vencimento de estoque** permite exportar as saídas de um relatório **Armazenamento de relatório de classificação por vencimento do estoque** por meio da aplicação de um filtro para o campo **Identificador do processo – Nome** a qualquer formato que dê suporte ao Gerenciamento de dados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

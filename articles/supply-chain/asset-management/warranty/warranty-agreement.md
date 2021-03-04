@@ -55,3 +55,6 @@ Um contrato da garantia pode incluir diversas linhas de contrato para cobrir a g
     4. No campo **Porcentagem**, insira a porcentagem de cobertura para a linha de garantia. O percentual indica quanto é coberto por sua empresa.
 
 ![Página de garantia](media/01-warranty.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

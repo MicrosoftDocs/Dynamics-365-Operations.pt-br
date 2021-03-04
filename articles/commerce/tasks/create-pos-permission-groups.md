@@ -48,3 +48,6 @@ Este tópico explica como criar um grupo de permissões de PDV. A empresa de dad
 16. No campo grupo de permissões de PDV, insira ou selecione um valor. Todos os trabalhadores em posições para esse trabalho usarão estas configurações de grupo de permissões de PDV a menos que as permissões de PDV dos trabalhadores tenham sido substituídas em suas posições.  
 17. Selecione **Salvar**. Depois que as alterações forem salvas, será necessário executar a agenda de distribuição da equipe para enviar as alterações aos canais.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

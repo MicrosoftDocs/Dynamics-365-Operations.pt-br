@@ -44,3 +44,6 @@ Após identificar uma discrepância, talvez você precise contatar o fornecedor 
 Para saber mais, consulte [Pesquisar/Resolver exceções](tasks/research-resolve-exceptions.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ O sistema determina qual ramificação é usada para avaliar o documento enviado
     2. Selecione um registro na área **Validar condição** do formulário.
     3. Clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas.
     4. Clique em **OK** ou em **Cancelar** para retornar ao formulário **Propriedades**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

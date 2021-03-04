@@ -68,3 +68,6 @@ Os registros de preço de compra de itens também são usados para informações
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

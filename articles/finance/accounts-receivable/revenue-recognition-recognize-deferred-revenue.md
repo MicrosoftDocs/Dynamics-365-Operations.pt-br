@@ -108,3 +108,6 @@ As alterações de contrato têm os seguintes efeitos nos detalhes da agenda de 
 - Se a receita tiver sido reconhecida para o produto, algumas receitas terão sido reconhecidas incorretamente, pois o reconhecimento se baseava na agenda de receita incorreta. Essas linhas devem ser revertidas e reconhecidas novamente, com base na nova agenda. Nesse cenário, as novas linhas da agenda de receita são criadas com valores negativos na data de reconhecimento original. Em seguida, novas linhas são criadas para reconhecer os valores com base na nova agenda de receita. Por exemplo, em 8 de agosto de 2019 você reconheceu a receita de US$ 10,53. Em 8 de setembro de 2019 você reconheceu a receita de US$ 13,16. Portanto, duas novas linhas são criadas nas mesmas datas. Uma linha é para -US$ 10,53 e a outra é para -US$ 13,16. São criadas 24 linhas novas e a receita diferida total de US$ 160,61 é alocada nelas. Você pode lançar linhas do estorno ao executar o processo **Criar diário** .
 
 [![Agenda de reconhecimento de receita](./media/revenue-recognition-rev-recog-schedule-03.png)](./media/revenue-recognition-rev-recog-schedule-03.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

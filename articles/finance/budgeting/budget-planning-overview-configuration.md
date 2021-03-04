@@ -205,3 +205,6 @@ Você também pode usar o menu **Ações** para criar um processo, copiando um p
 Outro comando útil no menu **Ações** é **Visualizar processo do orçamento**. Este comando exibe graficamente os planos de orçamento em um processo, junto com os dados relevantes, como o status do fluxo de trabalho dos planos, resumos pelo valor e por unidade, e navegação de único clique para os planos do orçamento.
 
 [![Status de processo de planejamento de orçamento](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

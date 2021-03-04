@@ -54,3 +54,6 @@ Este procedimento mostra como funciona o processo de qualificação para benefí
 25. Abra o filtro da coluna Status.
 26. Classificar de A para Z
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

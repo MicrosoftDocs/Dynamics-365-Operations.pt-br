@@ -85,3 +85,6 @@ O estoque que ainda não foi reservado é reservado durante a geração da lista
 Assim que todas as linhas de separação forem separadas na página **Registro de lista de separação**, a remessa associada será concluída. O processo para guias de remessa de ordem de venda pode ser inicializado com base em estoque separado.
 
 [![Atualizar remessas de saída](./media/outbound-shipments.png)](./media/outbound-shipments.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ O diagrama a seguir exibe os componentes básicos que ajudam a suportar operaç�
 [![componentes de serviço para impressão de rede\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 Observe que uma única impressora pode ser registrada em vários Agentes de Roteamento de Documentos. Para resolver as preferências de impressora, o serviço hospedado usa o caminho de rede que identifica exclusivamente cada impressora de rede. Como consequência, mesmo quando uma impressora é registrada por vários clientes, ela é exibida como uma seleção única na lista de impressoras disponíveis nos aplicativos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

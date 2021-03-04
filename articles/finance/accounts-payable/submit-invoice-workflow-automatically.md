@@ -54,3 +54,6 @@ Uma linha da fatura será excluída do processamento automatizado, se qualquer u
 - O valor **Status de conciliação automática de recibo** da linha da fatura for **Com falha**.
 - A fatura está sendo usada.
 - A fatura está no sistema de fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

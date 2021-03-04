@@ -514,3 +514,6 @@ Para começar a usar a nova funcionalidade da versão 3.3 do formato **BACS (Rei
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Baixar configurações de ER do Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
 - [Baixar configurações de ER do repositório global de serviço de configuração](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

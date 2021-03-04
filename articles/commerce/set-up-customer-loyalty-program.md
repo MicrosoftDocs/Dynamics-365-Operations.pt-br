@@ -151,3 +151,6 @@ Adicionalmente, os varejistas podem definir o limite máximo de pontos de recomp
 
     > [!NOTE]
     > Diferentemente de outros descontos periódicos, como descontos por quantidade, simples, de compra combinada e de limite, o desconto de remessa não cria linhas, em vez disso, edita o encargo de remessa diretamente e anexa o nome do desconto na descrição do encargo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

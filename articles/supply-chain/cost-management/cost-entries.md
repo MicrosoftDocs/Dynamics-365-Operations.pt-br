@@ -72,3 +72,6 @@ A página **Entradas de custo** permite a filtragem por ID de documento e data d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

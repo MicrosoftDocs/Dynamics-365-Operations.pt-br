@@ -45,3 +45,6 @@ Este artigo mostra como configurar tipos de contatos pessoais para usar em benef
    | **Classificar por vencimento** | A idade máxima de um contato pessoal qualificado para o plano de benefícios. Esse campo estará ativo apenas se você selecionar um relacionamento. Essa idade é comparada com a idade calculada do contato pessoal. A idade calculada é: (data de cobertura – data de nascimento do contato pessoal/365). Esse número é sempre um inteiro. |
 
 4. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

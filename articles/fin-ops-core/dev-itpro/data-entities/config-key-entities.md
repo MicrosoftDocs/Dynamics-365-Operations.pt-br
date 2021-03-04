@@ -94,3 +94,6 @@ Usando os metadados da chave de configuração criados durante a lista de atuali
 A qualquer momento que você atualizar as chaves de configuração na entidade, tabela ou nível de campo, a lista de entidades na estrutura de gerenciamento de dados deve ser atualizada. Este procedimento garante que a estrutura selecionará as definições de chave de configuração mais recentes. Até a lista de entidades ser atualizada, a seguinte advertência será mostrada na página de listagem da entidade. As alterações da chave de configuração atualizadas terão efeito imediatamente após a lista de entidades ser atualizada. Recomendamos que você valide os projetos e trabalhos de dados existentes para certificar-se de que eles funcionam como esperado, depois que as alterações das chaves de configuração entrarem em vigor.
 
 ![Campos de destino](./media/Target_fields_3.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

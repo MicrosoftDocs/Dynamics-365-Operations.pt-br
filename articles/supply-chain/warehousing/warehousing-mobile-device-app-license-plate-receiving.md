@@ -105,3 +105,6 @@ Para obter mais informações sobre itens do menu do dispositivo móvel, consult
 Para obter mais informações sobre o cenário de produção de *Relatar como concluído*, consulte a [Visão geral de políticas de trabalho de depósito](warehouse-work-policies.md).
 
 Para obter mais informações sobre o gerenciamento de carga de entrada, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ Nesta avaliação, você pode usar o relatório predefinido de **Melhores produt
 - Espaço de trabalho **Gerenciamento de loja** &gt; **Varejo e Comércio** &gt; **Canais** &gt; **Gerenciamento de loja** &gt; **Relatórios** &gt; **Relatório de principais produtos**
 - Área de trabalho **Gerenciamento de categorias e produto** &gt; **Retail e Commerce** &gt; **Canais** &gt; **Gerenciamento de loja** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
 - Seção **Consultas e relatórios** &gt; **Varejo e Comércio** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de principais produtos**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

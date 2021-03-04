@@ -115,3 +115,6 @@ A tabela a seguir fornece mais informações sobre ações adicionais disponíve
 | Disponibilidade         | Mostra as informações de ATP para a combinação de grade selecionada para o local selecionado. |
 | Mostrar todos os locais   | Alterne para as informações de exibição padrão de pesquisa de estoque e de disponibilidade de estoque de destaque para a grade de item em todas as lojas no grupo de localizador de loja e, também em centros de distribuição do tipo **Padrão/padrão**. |
 | Exibir detalhes do produto | Redirecionar o usuário para a página **Detalhes do produto** do produto mestre associado. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ Ao gerar pagamentos, o arquivo de pagamento é gerado, e será solicitado que vo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

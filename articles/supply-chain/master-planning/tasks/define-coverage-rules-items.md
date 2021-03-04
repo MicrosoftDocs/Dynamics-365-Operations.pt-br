@@ -102,3 +102,6 @@ A empresa de dados demo usada para criar este procedimento é USMF. Este procedi
 11. No campo **Tempo de compra**, insira '5'.
 12. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

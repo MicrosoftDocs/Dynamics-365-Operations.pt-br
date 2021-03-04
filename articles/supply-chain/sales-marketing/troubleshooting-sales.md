@@ -111,3 +111,6 @@ O Supply Chain Management não oferece suporte no momento ao cálculo de comiss�
 O item de pacote não está disponível para a ordem de compra porque, se você examinar as linhas de ordem de venda para o item de pacote, verá que a quantidade é *0* (zero) e o status é *Cancelado*. Esse comportamento é por design. A ordem de venda compra somente os componentes do item de pacote. Ele não compra o próprio item do pacote.
 
 Se você precisar comprar um pacote, considere se você tem de marcá-lo como item de pacote porque essa funcionalidade é realmente criada para cenários de reconhecimento de receita. Para obter mais informações sobre itens do pacote, consulte [Pacotes](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

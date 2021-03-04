@@ -46,3 +46,6 @@ Este procedimento mostra como é possível ampliar um benefício ou expirar, e g
 15. Clique em Benefícios.
 16. Na lista, localize o benefício e selecione o registro. Anote a nova data de término da cobertura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

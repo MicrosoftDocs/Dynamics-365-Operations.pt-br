@@ -44,3 +44,6 @@ Esse item foi configurado com o modelo de estoque PEPS (primeiro a entrar, prime
 -   5 de fevereiro: uma quantidade igual a 1 a um custo de R$ 13,00
 
 Para definir o custo desses dois itens como BRL 15,00, use a opção de ajuste disponível para ajustar as quantidades disponíveis em aberto no último período de fechamento de estoque. **Observação:** a data de lançamento da transação de ajuste disponível será a data do último fechamento de estoque. Essa data não pode ser modificada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ A caixa de diálogo retorna as informações sobre ATP do Supply Chain Managemen
 - Quantidade recebida
 - Quantidade emitida
 - Quantidade disponível
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

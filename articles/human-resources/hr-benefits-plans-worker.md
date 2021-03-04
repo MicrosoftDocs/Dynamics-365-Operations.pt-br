@@ -49,3 +49,6 @@ ms.locfileid: "4417235"
    | Planos | A guia rápida Planos contém os planos que atendem aos critérios de filtro especificados. As opções de configuração relevantes definidas pela equipe de RH e as seleções de inscrição escolhidas pelos funcionários estão incluídas em cada linha. O campo Qualificado especifica se há um conflito de validação com a seleção do plano. |
 
 4. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

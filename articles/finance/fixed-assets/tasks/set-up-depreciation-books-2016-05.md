@@ -55,3 +55,6 @@ Este procedimento explica o processo de criação de um registro de depreciaçõ
 6. No campo Vida útil, insira um número.
     * Observe que o valor do campo de períodos de depreciação será calculado depois de definir a vida útil.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

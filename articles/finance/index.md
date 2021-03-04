@@ -73,3 +73,6 @@ As regulamentações do país/região afetam a configuração dos impostos e out
 
 A funcionalidade de Supply Chain Management aborda partes do processo de compra ao pagamento que inclui a requisição, o pedido, o recebimento, o faturamento e o pagamento dos bens e serviços que sua organização comprar. Consulte a [home page do Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) para obter informações sobre os recursos para gerenciar as compras, o estoque e a fabricação. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

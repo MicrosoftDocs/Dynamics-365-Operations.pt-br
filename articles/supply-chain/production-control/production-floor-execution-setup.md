@@ -80,3 +80,6 @@ A parte superior da ilustração a seguir mostra como a interface é exibida por
 Por padrão, a interface de execução de piso de produção se desconecta automaticamente se ninguém usá-la em 12 horas. Um usuário do Supply Chain Management deverá entrar novamente. No entanto, você pode estender o tempo limite para até 90 dias.
 
 Para estender o limite de tempo, entre no Supply Chain Management e vá para **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

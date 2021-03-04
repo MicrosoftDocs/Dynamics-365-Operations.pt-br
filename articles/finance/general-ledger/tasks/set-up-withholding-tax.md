@@ -49,3 +49,6 @@ Este tópico explica como configurar o imposto retido na fonte. O *imposto retid
 18. Selecione **Salvar**.
 19. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

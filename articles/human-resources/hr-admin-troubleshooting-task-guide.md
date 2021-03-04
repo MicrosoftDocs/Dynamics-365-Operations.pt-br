@@ -63,3 +63,6 @@ Rastrear essas etapas para repetir uma guia de tarefas do LCS.
 2. Selecione **Abrir a partir do LCS**.
 3. Selecione a biblioteca e o nó de BPM que têm a guia da tarefa salva.
 4. Abrir a guia de tarefas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Este tópico explica como identificar e resolver conflitos na diferenciação de
 1. Vá para **Painel de navegação > Módulos > Administração do sistema > Segurança > Diferenciação de direitos > Regras da diferenciação de direitos**. Selecione uma regra.  
 2. Selecione **Validar direitos e funções**. Se qualquer função existente viola a regra selecionada, será exibida uma mensagem que contém o nome da função e os nomes dos direitos em conflito. O administrador deve indicar a redução risco de segurança ou alterar a função de forma que não viole as regras da diferenciação de direitos. Se nenhuma função viola a regra selecionada, uma mensagem indica que todas as funções estão em conformidade.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Este procedimento mostra como criar um item de menu de dispositivo móvel para t
 5. No campo Modo, selecione 'Indireto'.
 6. No campo Código da atividade, selecione "Consolidar placas de licença".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

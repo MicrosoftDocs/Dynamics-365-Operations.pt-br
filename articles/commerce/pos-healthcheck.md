@@ -83,3 +83,6 @@ As verificações de integridade personalizadas também podem ser criadas para t
 ## <a name="related-articles"></a>Artigos relacionados
 
 [Disparadores e impressão do Modern POS (MPOS)](dev-itpro/pos-trigger-printing.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

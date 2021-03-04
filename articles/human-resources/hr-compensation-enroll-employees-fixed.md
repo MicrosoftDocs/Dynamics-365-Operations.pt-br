@@ -39,3 +39,6 @@ A remuneração ou gerente pode atribuir benefícios de funcionários a planos d
     * Se o plano de remuneração fixa é um plano de etapa, selecione a etapa que contém a taxa de pagamento correta para o funcionário. Se o plano de remuneração fixado é um plano de grade ou faixa, insira a taxa de pagamento correta para o funcionário. A taxa de pagamento será validada nas configurações de tolerância para o plano, e os pontos de referência mínimo e máximo para o nível de remuneração de trabalho.  
 8. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

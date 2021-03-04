@@ -46,3 +46,6 @@ Este procedimento mostra como finalizar uma ordem de produção. A empresa de da
 1. No Painel de Ação, clique em Gerenciar custos.
 2. Clique em Visualizar comparação de custo.
     * Após a finalização da ordem de produção, é possível comparar o preço de custo estimado com o preço de custo realizado para obter uma visão geral das variações de produção.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

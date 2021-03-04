@@ -65,3 +65,6 @@ O procedimento a seguir descreve a relação entre ativos, ordens de serviço, p
 
 7. Para exibir uma visão geral dos projetos associados a um ativo fixo, selecione **Ativos fixos** > **Ativos fixos** > **Ativos fixos** e, em seguida, no campo **Número do ativo fixo**, selecione o link do ativo fixo para abrir a exibição de detalhes. Expanda o painel **Informações relacionadas** do lado direito da página e selecione a Guia Rápida **Projetos associados**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

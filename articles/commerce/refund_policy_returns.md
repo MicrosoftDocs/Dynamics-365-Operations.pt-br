@@ -104,3 +104,6 @@ Siga as etapas em um dos exemplos a seguir para exibir os tipos de meio de pagam
 
 
 ![Lista de métodos de pagamento](media/Return-policy-page5.PNG "Tipos de reembolso não permitidos")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

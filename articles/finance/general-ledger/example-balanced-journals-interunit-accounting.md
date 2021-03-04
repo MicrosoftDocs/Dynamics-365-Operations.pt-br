@@ -55,3 +55,6 @@ No entanto, as seguintes entradas contábeis são criadas automaticamente para c
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

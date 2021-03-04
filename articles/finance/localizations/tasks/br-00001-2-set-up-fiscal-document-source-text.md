@@ -49,3 +49,6 @@ Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fa
 19. Clique em Salvar.
 20. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

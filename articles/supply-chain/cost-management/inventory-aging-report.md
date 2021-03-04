@@ -365,3 +365,6 @@ O novo relatório se assemelhará ao seguinte exemplo.
 </tr>
 </tfoot>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

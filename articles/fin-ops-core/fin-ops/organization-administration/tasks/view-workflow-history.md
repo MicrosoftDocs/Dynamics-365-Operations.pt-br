@@ -46,3 +46,6 @@ Este tópico descreve as etapas para exibir o status de um documento que foi env
     - O botão **Reatribuir** abre uma caixa de diálogo na qual é possível reatribuir um item de trabalho a outro usuário.  
     - Certifique-se de que a seção **Detalhes do rastreamento** está expandida. Nesta seção você pode exibir o histórico de fluxo de trabalho do documento selecionado.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

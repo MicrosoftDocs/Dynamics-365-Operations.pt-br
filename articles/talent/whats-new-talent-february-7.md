@@ -58,3 +58,6 @@ Ao alterar o trabalho em uma posição, **Família de trabalho** agora será pad
 
 ### <a name="performance-improvements-when-rendering-workspaces"></a>Melhorias de desempenho ao renderizar espaços de trabalho
 Guias de análise em espaços de trabalho agora carregarão ao acessar essas páginas. Um indicador será exibido durante a renderização inicial da página no canto superior esquerdo da página.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -294,3 +294,6 @@ Saldo previsto (30) = valor da competência (10 × 1) + saldo atual (40) – aju
 |---------------------|-------------------|-----------------|------------|----------------|-----------------|---------|
 | Jeannette Nicholson | 0,00              | 1/6/2018        | 1/6/2018   | 1.00           | 1/9/2018        | 3,00    |
 | Jay Norman          | 0,00              | 15/6/2018       | 15/6/2018  | 1.00           | 1/9/2018        | 2.00    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

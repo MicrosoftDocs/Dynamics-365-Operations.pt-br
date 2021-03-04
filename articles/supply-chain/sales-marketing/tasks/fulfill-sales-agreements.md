@@ -90,3 +90,6 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
 23. Clique em Contrato de venda anexado.
 24. Clique na guia Atendimento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

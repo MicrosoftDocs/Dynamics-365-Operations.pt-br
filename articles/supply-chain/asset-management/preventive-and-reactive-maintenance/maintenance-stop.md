@@ -97,3 +97,6 @@ A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades
 - Você pode copiar ativos de uma atividade do tempo de inatividade de manutenção para outra. Em **Todas atividades do tempo de inatividade de manutenção**, selecione o botão **Copiar atividades do tempo de inatividade de manutenção** e faça suas seleções nos campos **Atividades iniciais do tempo de inatividade de manutenção** e **Atividades finais do tempo de inatividade de manutenção** e clique em **OK**.
 - Em **Todas atividades do tempo de inatividade de manutenção**, clique no botão **Linhas de agendamento de manutenção** ou no botão **Ordens de serviço ativas** para abrir as listas relacionadas e exibi-las na atividade do tempo de inatividade de manutenção.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

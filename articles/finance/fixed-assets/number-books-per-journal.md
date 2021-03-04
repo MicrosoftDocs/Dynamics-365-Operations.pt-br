@@ -47,3 +47,6 @@ O trabalho de processamento em lotes exclui os registros fechados. Por exemplo, 
 O limite no número de registros será aplicado se as IDs de ativo duplicadas não existirem no mesmo diário. No entanto, se a ID do ativo for igual à ID do registro, o número de registros por diário poderá ser excedido para manter a ID do ativo no mesmo diário.
 
 Por exemplo, há 5.001 IDs de ativo fixo, três registros estão associados a cada ID de ativo fixo e cada registro de ativo é lançado no mesmo nível de lançamento. A depreciação é executada por três meses consecutivos, sem recapitulação. O diário de depreciação será criado por meio de um trabalho em lotes, e o sistema criará sete diários com 667 IDs de ativo fixo e três registros para cada ID de ativo fixo. O resultado será 2.001 registros. Portanto, em três meses, haverá 6.003 linhas do diário para manter as mesmas IDs de ativo no mesmo diário. O sistema também criará um diário com 332 IDs de ativo fixo e três registros para cada ID de ativo fixo. Em três meses, haverá 2.988 linhas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

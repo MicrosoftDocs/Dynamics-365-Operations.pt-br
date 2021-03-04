@@ -45,3 +45,6 @@ Antes de usar esse procedimento, certifique-se de que pelo menos o fluxo de trab
 
 8. Para interromper um fluxo de trabalho, na página **Histórico do fluxo de trabalho**, selecione **Recuperar**. Na caixa de diálogo mostrada, insira um comentário e selecione **OK**.
 9. Para desativar um fluxo de trabalho ou ativar um fluxo de trabalho criado anteriormente, acesse **Arrendamento de ativo \> Configuração \> Fluxo de trabalho de arrendamento**. Em seguida, na página **Fluxo de trabalho de arrendamento**, selecione **Fluxo de trabalho \> Versões**. Para tornar um fluxo de trabalho atual inativo, selecione o arrendamento ativo na caixa de diálogo da versão do arrendamento e, em seguida, selecione **Tornar inativo**. Para ativar um fluxo de trabalho existente, selecione o fluxo de trabalho e selecione **Tornar ativo**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

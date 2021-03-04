@@ -34,3 +34,6 @@ Siga estas etapas quando fizer o upgrade para o Microsoft Dynamics 365 for Opera
 1.  Antes de atualizar para o Finance and Operations, execute os processos de reavaliação de moeda estrangeira para Contas a receber e Contas a pagar. Defina o campo **Método** para **Data da fatura**. É criada uma transação de reavaliação que reverte a última reavaliação de moeda estrangeira. Portanto, as transações em aberto são avaliadas em sua moeda de contabilização original.
 2.  Atualize para a versão 1611.
 3.  Execute novamente os processos de reavaliação de contas a receber e contas a pagar. Agora, defina o campo **Método** para **Padrão**. É criada uma nova transação de reavaliação baseada nas taxas de câmbio atuais. Essa transação registra o ganho/perda não realizado e a conta de razão contábil correta.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

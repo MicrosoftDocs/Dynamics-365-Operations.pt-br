@@ -65,3 +65,6 @@ Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes
     * As agências de informações são as agências ao qual o incidente precisa ser informado. Marque a caixa de seleção padrão para a agência que é a agência padrão para relatar lesão e doença.  
 23. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

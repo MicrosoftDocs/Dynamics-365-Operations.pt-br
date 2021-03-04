@@ -193,3 +193,6 @@ O reconhecimento de receita pode ser usado para ordens de venda criadas com um p
 
 - **Receita faturada diferida** (em **Contas de receita**) — Insira a conta principal do preço da receita que é lançado na receita adiada (em vez da receita). O preço da receita é adiado se a linha da ordem de venda tiver uma agenda de receita.
 - **Custo adiado** (em **Contas de custo**) — Insira a conta principal para o valor do custo dos produtos vendidos para lançar os custo dos produtos vendidos adiados se a receita também for adiada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

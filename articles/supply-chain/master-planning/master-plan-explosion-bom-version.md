@@ -48,3 +48,6 @@ A ilustração a seguir mostra como ocorre o processo de detalhamento da demanda
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

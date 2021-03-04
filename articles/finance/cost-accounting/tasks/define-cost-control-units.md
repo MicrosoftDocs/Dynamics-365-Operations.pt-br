@@ -41,3 +41,6 @@ Este procedimento mostra como definir unidades de controle de custo no razão da
 10. No campo Dimensão, insira ou selecione um valor.
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

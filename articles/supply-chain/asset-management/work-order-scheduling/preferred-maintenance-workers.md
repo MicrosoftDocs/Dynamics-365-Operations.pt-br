@@ -68,3 +68,6 @@ Você também pode configurar funcionários de manutenção *responsáveis*, que
 
 Durante o agendamento da ordem de serviço, diferentes pontuações são calculadas para determinar quais funcionários devem concluir os trabalhos relacionados a uma ordem de serviço (aquelas pontuações são configuradas no link **parâmetros do Gerenciamento de ativos** > **agendamento da Ordem de serviço**). Se dois ou mais funcionários de manutenção preferenciais ou funcionários de manutenção responsáveis obtiverem a mesma pontuação durante o agendamento da ordem de serviço, um funcionário é selecionado aleatoriamente. Caso contrário, é sempre o funcionário com a pontuação mais alta que é alocado para concluir uma ordem de serviço.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

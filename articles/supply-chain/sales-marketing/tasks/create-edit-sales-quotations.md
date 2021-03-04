@@ -70,3 +70,6 @@ Este procedimento demonstrativos como criar e atualizar uma cotação de venda. 
 13. Clique em **Ordens de venda**.
 14. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

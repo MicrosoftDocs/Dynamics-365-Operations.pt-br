@@ -52,3 +52,6 @@ Quando você agendar trabalhos de manutenção preventiva, a próxima etapa é c
 
 5. Clique em **OK**. Uma ou mais ordens de serviço são criadas.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

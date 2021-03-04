@@ -70,3 +70,6 @@ Depois que uma nota fiscal for lançada, o usuário poderá ver as informações
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

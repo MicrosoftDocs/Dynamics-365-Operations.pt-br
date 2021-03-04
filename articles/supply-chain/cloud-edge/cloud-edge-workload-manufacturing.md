@@ -110,3 +110,6 @@ Para revisar o histórico de trabalhos de fabricação que foram processados em 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Trabalho Hub de fabricação para processador de mensagens da unidade de escala
 
 O trabalho _Hub de fabricação para processador de mensagens da unidade de escala_ processa dados do hub para a unidade de escala. Esse trabalho é iniciado automaticamente quando a carga de trabalho de execução de fabricação é implantada. No entanto, você pode executá-lo manualmente a qualquer momento, acessando **Controle de produção \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office \> Hub de fabricação para processador de mensagens da unidade de escala**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

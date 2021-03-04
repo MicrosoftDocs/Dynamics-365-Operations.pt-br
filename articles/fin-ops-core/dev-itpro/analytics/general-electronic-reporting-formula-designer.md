@@ -164,3 +164,6 @@ Algumas fórmulas não podem ser testadas no momento do design. Por exemplo, uma
 
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Linguagem da fórmula de relatório eletrônico](er-formula-language.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

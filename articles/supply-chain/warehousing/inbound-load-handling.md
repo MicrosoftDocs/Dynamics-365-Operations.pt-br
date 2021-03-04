@@ -478,3 +478,6 @@ Nesse cenário, o auxiliar de recebimento registrará na entrada uma quantidade 
     - **Qtd.** – Insira _7_, que é a quantidade restante que o fornecedor está autorizado a entregar como parte da quantidade total da ordem de compra de 12 (onde 10 é a quantidade original da ordem e 2 é a quantidade permitida de entrega excedente de 20%). Lembre-se de que 5 pcs já foram registradas na primeira carga.
 
 A segunda carga agora foi atualizada com a quantidade de 7 e pode ser atualizada como produto recebido com base nessa quantidade.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

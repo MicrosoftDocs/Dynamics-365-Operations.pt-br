@@ -111,3 +111,6 @@ Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobran
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

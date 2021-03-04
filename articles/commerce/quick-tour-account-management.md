@@ -96,3 +96,6 @@ Para obter mais informações sobre os módulos de gerenciamento de contas e com
 
 [Visão geral das páginas de carrinho e de finalização da compra](quick-tour-cart-checkout.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

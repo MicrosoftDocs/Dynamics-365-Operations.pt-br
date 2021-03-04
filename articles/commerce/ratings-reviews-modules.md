@@ -100,3 +100,6 @@ O módulo de lista de avaliações de produto inclui um slot onde você pode adi
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

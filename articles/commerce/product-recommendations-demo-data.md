@@ -90,3 +90,6 @@ A extensão contém um arquivo de dados chamado 'RecoMockDataset.csv', que permi
 [Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

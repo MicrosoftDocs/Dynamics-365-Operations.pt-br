@@ -69,3 +69,6 @@ Esta página fornece links para documentação relevante relacionada à instala�
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidade
 
 [Configurar programas de continuidade para call centers](set-up-continuity-program.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

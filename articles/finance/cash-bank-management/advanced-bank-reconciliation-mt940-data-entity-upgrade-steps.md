@@ -64,3 +64,6 @@ Siga as etapas abaixo para adicionar a entidade de extrato bancário para oferec
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Você deseja criar um intervalo de serviços de 10 dias.
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Intervalos de serviço](service-intervals.md)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

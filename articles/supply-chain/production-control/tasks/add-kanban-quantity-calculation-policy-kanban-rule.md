@@ -63,3 +63,6 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 8. Na lista, clique no link na linha selecionada.
     * Selecione a política Speaker2016 que você acabou de criar na subtarefa anterior.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

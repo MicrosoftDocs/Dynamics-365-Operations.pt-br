@@ -43,3 +43,6 @@ Os grupos de contratos de serviço são úteis para classificar e filtrar contra
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Visão geral de contrato de serviço](service-agreement-groups.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

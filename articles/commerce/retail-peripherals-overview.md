@@ -837,3 +837,6 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 [Simulador periférico para Commerce](dev-itpro/retail-peripheral-simulator.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

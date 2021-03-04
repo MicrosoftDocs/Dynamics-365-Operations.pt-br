@@ -67,3 +67,6 @@ Você pode inserir uma transação CIAP de duas maneiras: lançar um documento f
 37. Feche a página.
 38. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 [Configurar recursos bancários e perfis de lançamento para cartas de garantia](tasks/set-up-bank-facilities-posting-profiles.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

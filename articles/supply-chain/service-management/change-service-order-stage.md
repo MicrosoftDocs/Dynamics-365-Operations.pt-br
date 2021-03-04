@@ -41,3 +41,6 @@ Siga estas etapas para passar uma ordem de serviço para a próxima fase no flux
 4.  No formulário **Alterar fase de serviço**, selecione a fase apropriada.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

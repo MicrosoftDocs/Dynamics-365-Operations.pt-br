@@ -81,3 +81,6 @@ A ordem de venda é faturada novamente para o item adicionado. A fatura total ap
 [![Página de transações de comprovante com a entrada contábil lançada](./media/36_rev-rec-scenarios.png)](./media/36_rev-rec-scenarios.png)
 
 Como a soma da receita e a venda é maior que US$ 319,50, a diferença é lançada em US$ 14,48. Esse valor compensa o saldo da conta de compensação da receita da fatura parcial. Esse saldo é atualizado na nova entrada contábil lançada após a realocação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

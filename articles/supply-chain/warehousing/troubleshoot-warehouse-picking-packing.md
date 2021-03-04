@@ -110,3 +110,6 @@ Quando você usa o processo *Separação de cluster direcionada pelo sistema*, s
 ### <a name="issue-resolution"></a>Resolução do problema
 
 Para corrigir esse problema, edite o perfil do cluster e defina a opção **Ativar posições** como *Não*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

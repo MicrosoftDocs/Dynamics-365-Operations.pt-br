@@ -42,3 +42,6 @@ Após atualizar a convenção de depreciação para ativos, você poderá proces
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Como o Dynamics 365 Commerce oferece suporte de visualizações autenticadas "vo
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
 
 [Gerenciar a política de segurança de conteúdo (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

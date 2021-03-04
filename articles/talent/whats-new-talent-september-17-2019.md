@@ -59,3 +59,6 @@ Nesta versão, o campo de família de trabalho foi adicionado à página **Geren
 Esta funcionalidade agora está disponível em ambientes de área restrita. Para ativar este recurso, navegue até **Administração do sistema > Links > Configuração > Parâmetros do sistema > Recursos de visualização**. Selecione **Formulário e a navegação aprimorados do Trabalhador**. Isso habilitará estas alterações para todos os usuários. Você pode desativar esta opção a qualquer momento.
 
 Para obter mais informações, consulte [Entrada e navegação simplificada de funcionário](./streamlined-employee-entry.md). Para ver as alterações, assista ao vídeo [Visão geral da onda 2 da versão 2019 do Dynamics 365 for Talent](https://aka.ms/ROGT19RW2ROV).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

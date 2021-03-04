@@ -71,3 +71,6 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

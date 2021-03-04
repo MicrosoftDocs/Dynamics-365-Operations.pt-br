@@ -41,3 +41,6 @@ Este tópico explica como alienar um ativo fixo usando a fatura de texto livre.
 10. Digite ou selecione um valor no campo **Ativo fixo**.
 11. Selecione **Lançar**. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

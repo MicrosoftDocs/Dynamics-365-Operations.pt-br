@@ -52,3 +52,6 @@ Para obter mais informações sobre os estados de ciclo de vida da ordem de serv
 8. Selecione **Salvar**.
 
 ![Tipos de ordem de serviço](media/16-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

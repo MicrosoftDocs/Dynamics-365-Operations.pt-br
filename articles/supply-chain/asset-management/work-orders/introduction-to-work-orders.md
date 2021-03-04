@@ -119,3 +119,6 @@ Os botões no grupo **Projeto** na guia **Ordem de serviço** do Painel de Açã
 >[!NOTE]
 >Para incluir previsões criadas em uma ordem de serviço ao executar o agendamento do planejamento mestre, use o modelo de previsão selecionado na página **Parâmetros de gerenciamento de ativos**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

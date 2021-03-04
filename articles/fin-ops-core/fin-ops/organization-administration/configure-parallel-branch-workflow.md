@@ -50,3 +50,6 @@ Siga estas etapas para criar e configurar os elementos da ramificação paralela
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de criação de fluxos de trabalho](create-workflow.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

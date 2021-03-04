@@ -65,3 +65,6 @@ Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento.
     * O status Iniciado significa que o projeto está pronto para receber solicitações de emprego.  
 33. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

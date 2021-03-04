@@ -60,3 +60,6 @@ Uma nova opção permitirá que gerentes exibam o desempenho de seus relatórios
 ### <a name="platform-update-29-for-finance-and-operations"></a>Atualização de plataforma 29 para o Finance and Operations
 
 Para obter mais detalhes sobre a Atualização de plataforma 29 para o Finance and Operations, consulte [Recursos de visualização na atualização de plataforma 29 do Dynamics 365 Finance and Operations (outubro de 2019)](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/whats-new-platform-update-29).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Os botões no Painel de Ação estão organizados em guias. A tabela a seguir de
 | Enviar ativo de empréstimo                  | Selecione um ativo de empréstimo que deve ser uma substituição temporária para o ativo selecionado na solicitação de manutenção selecionada. |
 | Devolver o ativo de empréstimo                | Registre o ativo de empréstimo como devolvido. |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

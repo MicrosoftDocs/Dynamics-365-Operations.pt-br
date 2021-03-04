@@ -44,3 +44,6 @@ Siga estas etapas para atribuir aos usuários as funções usadas em Arrendament
 1. Vá para **Administração do sistema \> Segurança \> Atribuir usuários a funções**.
 2. Selecione a função **Manter arrendamento**, **Auxiliar de arrendamento** ou **Exibir arrendamento** e depois selecione **Atribuir/excluir usuários manualmente**.
 3. Selecione o usuário a ser atribuído à função e selecione **Atribuir à função**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -173,3 +173,6 @@ Na página **Grupos de ativos fixos**, você pode configurar um grupo de ativos 
 > Os campos para as etapas 8, 9 e 10 não estão disponíveis quando a versão 3.0 for selecionada. Essas informações foram alteradas e incluídas na configuração da organização fiscal.
 
 Na página **Detalhes do contador**, você pode configurar informações de contador para a escrituração de imposto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

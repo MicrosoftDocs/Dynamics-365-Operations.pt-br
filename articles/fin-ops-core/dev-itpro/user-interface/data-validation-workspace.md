@@ -57,3 +57,6 @@ Antes de usar o espaço de trabalho **Lista de verificação de validação de d
 Use áreas de tarefas para agrupar tarefas de validação de dados em áreas lógicas de propriedade na sua organização. Por exemplo, contas a pagar, contas a receber, ou contabilidade podem ser usadas como áreas de tarefa.
 
 O **Nome do item de menu** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de validação de dados para executar o relatório **Classificação por vencimento de contas a pagar** para contas a pagar pode ser vinculada à página **Relatório de classificação por vencimento de contas a pagar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

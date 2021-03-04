@@ -59,3 +59,6 @@ Depois de inserir as alterações de custo simuladas, calcule os custos para os 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

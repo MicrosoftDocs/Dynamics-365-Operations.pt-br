@@ -58,3 +58,6 @@ Use as etapas a seguir para reatribuir uma atividade a outro trabalhador:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Para ingressar no programa de fidelidade, uma página de marketing pode ser cria
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

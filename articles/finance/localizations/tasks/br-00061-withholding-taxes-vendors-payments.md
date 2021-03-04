@@ -93,3 +93,6 @@ Você pode usar a página Comprovante de diário para inserir e lançar pagament
 62. Feche a página.
 63. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

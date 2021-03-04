@@ -69,3 +69,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 11. Clique em OK.
     * Revise a saída gerada. Observe que um único nó XML foi criado para cada anexo. O conteúdo do anexo é preenchido na saída do XML no formato de texto MIME (base64).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

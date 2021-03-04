@@ -53,3 +53,6 @@ Este procedimento orienta nas etapas para criar e processar uma compra centraliz
 19. Clique em Criar ordem.
 20. Clique em Sim.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

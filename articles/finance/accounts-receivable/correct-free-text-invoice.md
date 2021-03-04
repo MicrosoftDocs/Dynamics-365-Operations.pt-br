@@ -51,3 +51,6 @@ Você pode identificar faturas de correção e cancelamento de duas maneiras:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

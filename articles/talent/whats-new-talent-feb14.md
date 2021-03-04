@@ -52,3 +52,6 @@ Uma alteração foi feita para deixar padrão o código "Motivo da demissão" ao
 
 ### <a name="new-entity-created-for-job-compensation-levels"></a>Nova entidade criada para níveis de remuneração de trabalho
 Uma nova entidade de estrutura de gerenciamento de dados (DMF) foi criada. A entidade ajuda na criação e atualiza para níveis de compensação, valores de mercado e informações de pesquisa para cada trabalho definido no sistema.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

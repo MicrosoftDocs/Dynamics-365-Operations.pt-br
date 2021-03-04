@@ -48,3 +48,6 @@ Use este procedimento para gerenciar a fonte de dados da contabilidade para um r
 14. No campo Nível de lançamento, selecione Atual.
 15. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

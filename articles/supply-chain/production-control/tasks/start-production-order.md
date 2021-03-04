@@ -71,3 +71,6 @@ Esse procedimento mostra como iniciar uma ordem de produção no chão de fábri
 7. Clique em Lançar.
 8. Clique em OK.
     * No diário de cartão de roteiro, é registrado o tempo gasto em operações individuais. A quantidade de erros e acertos também pode ser informada.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

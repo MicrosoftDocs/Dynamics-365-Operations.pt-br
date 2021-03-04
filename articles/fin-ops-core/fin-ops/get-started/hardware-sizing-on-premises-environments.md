@@ -141,3 +141,6 @@ O serviço Orchestrator é o serviço que gerencia sua implantação e a comunic
 ## <a name="virtualization-and-oversubscription"></a>Virtualização e excesso de subscrição
 
 Os serviços de missão crítica como o AOS devem ser hospedados em Hosts virtuais com recursos dedicados - núcleos, memória e disco.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

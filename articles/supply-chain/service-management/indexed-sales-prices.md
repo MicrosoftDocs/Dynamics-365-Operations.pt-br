@@ -43,3 +43,6 @@ Por exemplo, se o preço base for EUR 1.000 e o índice for 110, o preço de ven
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

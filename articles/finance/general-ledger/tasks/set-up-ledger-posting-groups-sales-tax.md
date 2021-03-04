@@ -42,3 +42,6 @@ Os impostos são calculados e lançados nas contas principais que são especific
 11. No campo **Desconto de caso de cliente**, selecione a conta principal para lançar o desconto à vista para os **Códigos de impostos sobre vendas** associados a esse grupo de **Lançamentos contábeis**. Isso é opcional e se nenhuma conta for inserida, a conta principal nos **Códigos de desconto à vista** será usada. Pode ser útil usar contas diferentes para o grupo de **Lançamentos contábeis** se usar os impostos sobre vendas que podem ser revertidos na opção de desconto à vista em grupos de **Impostos sobre vendas**.  
 12. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

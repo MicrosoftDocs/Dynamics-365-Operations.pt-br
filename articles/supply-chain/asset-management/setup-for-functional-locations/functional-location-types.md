@@ -67,3 +67,6 @@ O tipo de local funcional padrão a ser usado somente em um local funcional padr
 
 >[!NOTE] 
 >Na Guia Rápida **Geral**, você pode obter uma visão geral do número de tipos de ativos, planos de manutenção, requisitos de atributos de ativo, tipos permitidos, atributos e locais funcionais configurados no tipo de local funcional. O campo **Locais funcionais** mostra o número de locais funcionais que usam o tipo de local funcional. Você pode usar o botão **Copiar** para copiar configurações de um tipo de local funcional para o tipo de local funcional selecionado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

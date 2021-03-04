@@ -227,3 +227,5 @@ Se necessário, você poderá ignorar um candidato após contratá-lo. Por exemp
 [Configurar entidades virtuais do Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizar sua força de trabalho](hr-personnel-departments-jobs-positions.md)<br>
 [Configurar os componentes de um trabalho](hr-personnel-jobs.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

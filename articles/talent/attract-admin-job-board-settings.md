@@ -51,3 +51,6 @@ Você quer divulgar posições em aberto para o maior número possível de candi
 
 > [!NOTE]
 > A Microsoft e o Attract não estão envolvidos na criação e na manutenção desses valores. É sua responsabilidade mantê-los atualizados no Attract e trabalhar com o Broadbean para resolver quaisquer problemas que envolvam suas credenciais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

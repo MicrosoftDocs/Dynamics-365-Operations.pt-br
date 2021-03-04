@@ -81,3 +81,6 @@ Um recurso de operações executa as atividades de um projeto ou um processo de 
 4. No campo Local de entrada, insira ou selecione um valor.
     * Especifique o local no depósito de onde o recurso de operações está consumindo materiais.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

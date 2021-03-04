@@ -84,3 +84,6 @@ Depois de concluir a configuração do canal call center e de definir os usuári
 > [!NOTE]
 > Para usar a funcionalidade do centro de chamada, a chave da configuração deve ser habilitada para **Diversos endereços de remessa**. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido à funcionalidade do centro de chamada que executa várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

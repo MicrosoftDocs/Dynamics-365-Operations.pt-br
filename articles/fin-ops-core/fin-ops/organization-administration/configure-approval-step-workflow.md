@@ -276,3 +276,6 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
 
 5. Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
 6. Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

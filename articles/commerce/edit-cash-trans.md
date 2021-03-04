@@ -120,3 +120,6 @@ Para editar em massa transações que não estão vinculadas a um demonstrativo 
 [Criar uma pasta de trabalho do Excel para editar transações de varejo](create-excel-edit.md)
 
 [Adicionar campos a uma pasta de trabalho do Excel para editar transações de varejo](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ Este procedimento usa a empresa USMF.
 3. Na lista, localize e selecione o PDV desejado.
 4. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

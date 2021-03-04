@@ -51,3 +51,6 @@ Os códigos de juros podem ser configurados para calcular os valores diferentes 
 21. Insira a porcentagem de juros por mês que será usada para calcular os juros a partir do mês 7. Para este exemplo, será 2,5.
 22. Clique em Fechar para finalizar a configuração.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

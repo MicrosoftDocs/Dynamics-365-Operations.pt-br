@@ -83,3 +83,6 @@ Para linhas de ordem com retirada na loja ou retirada em frente à loja especifi
 
 [Cálculo da isenção de imposto](tax-exempt-price-inclusive.md) 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

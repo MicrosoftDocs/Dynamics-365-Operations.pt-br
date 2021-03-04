@@ -55,3 +55,6 @@ Se você não tiver definido o número do ativo fixo no modelo do suplemento do 
 
 > [!WARNING]
 > O registro de ativo fixo não será excluído se as transações forem lançadas no registro associado ou se o ativo fixo recém-criado for inserido em uma linha do diário, mas não lançado. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

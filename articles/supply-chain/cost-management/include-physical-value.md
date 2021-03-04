@@ -60,3 +60,6 @@ Quando uma ordem de venda é lançada, o valor de custo lançado é de BRL 10,00
 
 > [!NOTE]
 > Para comparação, se você marcar a caixa de seleção **Incluir valor físico** para esse item, quando uma ordem de venda for lançada, o valor de custo lançado será de BRL 12,00.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

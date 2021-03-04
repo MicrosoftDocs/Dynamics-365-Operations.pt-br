@@ -380,3 +380,6 @@ Portanto, como observou, o funcionamento de qualquer formato de ER pode ser aval
 - [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md)
 - [ER Atualize seu formato adotando uma nova versão com base nesse formato](tasks/er-upgrade-format.md)
 - [Importação ER de uma configuração do Lifecycle Services](tasks/er-import-configuration-lifecycle-services.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

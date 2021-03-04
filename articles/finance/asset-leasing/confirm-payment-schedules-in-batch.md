@@ -42,3 +42,6 @@ Para confirmar vários planos de pagamento, siga estas etapas.
     - Para confirmar todos os registros, ative o parâmetro **Para todos os registros**.
 
 As informações dos registros recém confirmados são mostradas na página **Registros confirmados**. Depois que os planos de pagamento são confirmados, as entradas iniciais do diário de reconhecimento podem ser lançadas com base nos arrendamentos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

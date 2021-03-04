@@ -66,3 +66,6 @@ Para adicionar um módulo de ícone de carrinho, consulte [Módulo de cabeçalho
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Configuração de execução agendada, que é relacionada a ordens de serviço, 
 6. Selecione **Salvar**.
 
 ![Execução agendada](media/20-setup-for-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

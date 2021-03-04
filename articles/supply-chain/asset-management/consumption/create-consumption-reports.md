@@ -78,3 +78,6 @@ Após o cancelamento do consumo nas ordens de serviço, é possível imprimir um
 >[!NOTE]
 >Você também pode gerar um [relatório de ordem de serviço](../work-orders/work-order-report.md), que contém mais detalhes sobre a ordem de serviço.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

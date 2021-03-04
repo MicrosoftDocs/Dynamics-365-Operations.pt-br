@@ -69,3 +69,6 @@ Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Voc
 38. Feche a página.
 39. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

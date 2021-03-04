@@ -37,3 +37,6 @@ Este procedimento orienta como baixar uma estação de hardware predefinida. A e
 5. Na lista, localize e selecione o PDV desejado.
 6. Clique em Baixar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

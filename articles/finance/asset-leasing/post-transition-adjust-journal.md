@@ -47,3 +47,6 @@ Para lançar um ajuste de transição em conformidade com os novos padrões cont
 
 5. Para exibir a entrada de diário, selecione **Diários de arrendamento de ativo**.
 6. Selecione o novo diário e depois **Lançar**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

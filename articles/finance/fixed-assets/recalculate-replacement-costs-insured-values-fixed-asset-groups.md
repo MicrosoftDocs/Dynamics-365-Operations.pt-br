@@ -78,3 +78,6 @@ No dia seguinte, seu gerente informa que os computadores diminuíram em 8 por ce
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

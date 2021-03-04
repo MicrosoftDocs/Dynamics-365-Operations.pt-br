@@ -54,3 +54,6 @@ Este tópico explica como configurar garantias em ativos e tipos de ativos no Ge
 
 > [!NOTE]
 > Quando você cria uma ordem de serviço para um ativo que está incluído na garantia de um fornecedor, se a ordem de serviço tiver uma data de início esperada durante o período de garantia, você receberá uma notificação sobre o acordo da garantia. Então, você pode cancelar a ordem de serviço, conforme necessário.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

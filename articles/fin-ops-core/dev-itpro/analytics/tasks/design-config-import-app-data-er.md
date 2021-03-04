@@ -113,3 +113,6 @@ Você executará o mapeamento de modelo criado para fins de teste para ver como 
     * Selecione Procurar e selecione o arquivo Response4.xml.
 16. Selecione OK.
     * Revise a saída gerada. O tipo de resposta agora foi corretamente reconhecido como igual para o arquivo Response1.xml.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

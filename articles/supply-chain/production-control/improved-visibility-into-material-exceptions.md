@@ -67,3 +67,6 @@ Quando o bloco for selecionado, a página **Todas as ondas de produção** será
 O bloco **Abrir trabalho de depósito que precisa de atenção** mostrará o número de Linhas de BOM e fórmula liberadas para o depósito, que têm trabalho não processado, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 
 Quando o bloco for selecionado, a página **Todos os trabalhos** será aberta. Essa página é filtrada pelo número de cabeçalhos de trabalho que contêm linhas de trabalho das linhas de BOM e fórmula que atendem aos critérios do bloco. Na página **Todos os trabalhos**, você pode processar manualmente o trabalho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ Este tópico explica como criar uma previsão dos resultados e descreve a finali
 34. Selecione a guia **Revisão**. Como revisão se move com o status, o funcionário e gerente podem adicionar comentários ou para cada meta competência.  
 35. Selecione a guia **Aprovações**. O trabalhador e o gerente podem aprovar a revisão. Quando todos os prazos de conexão exigidos for concluído, o status será alterado para **Concluído** e não poderá mais alteração ser feita.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

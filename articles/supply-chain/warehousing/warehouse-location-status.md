@@ -169,3 +169,6 @@ O cenário de exemplo requer que você prepare dois perfis de local.
 
 > [!NOTE]
 > Os campos de localização são atualizados somente por transações de depósito. Se você mover o estoque usando um diário ou outros processos não-WHS, os campos não serão atualizados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ O espaço de trabalho **Monitoramento do trabalho de saída** apresenta dois blo
 ## <a name="deleting-completed-tasks"></a>Excluindo tarefas concluídas
 
 Você pode excluir tarefas de processamento colocado adiado que foram concluídas, selecionando-as e excluindo-as na página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

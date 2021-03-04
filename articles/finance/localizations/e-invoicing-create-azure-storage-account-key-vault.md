@@ -91,3 +91,6 @@ Neste tópico, você executará duas etapas principais:
 9. Na caixa de diálogo **Principal**, selecione o principal, adicionando o **Complemento de faturamento eletrônico**.
 10. Selecione **Adicionar** e, em seguida, **Salvar alterações do Key Vault**.
 11. Na página **Visão geral**, copie o valor **Nome do DNS** para o cofre de chaves. Esse valor será usado durante a configuração do serviço no RCS e será referenciado como o *URI do cofre de chaves*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

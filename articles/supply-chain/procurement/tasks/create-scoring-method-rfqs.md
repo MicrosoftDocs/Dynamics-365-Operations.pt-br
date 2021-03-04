@@ -47,3 +47,6 @@ Este procedimento mostra como criar um método de avaliação. Um método de ava
 14. No campo Variar de, insira um número.
 15. No campo Variar a, insira um número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

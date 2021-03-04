@@ -94,3 +94,6 @@ Um trabalho em lotes limpa periodicamente entradas na tabela de referências par
 1. No Painel de Ação, selecione **Limpar configurações de cliente**.
 1. Na caixa de diálogo **Limpar configuração do cliente**, defina o campo **Número de dias** como o número de dias de inatividade (antes de hoje) a ser considerado. Você removerá todas as configurações e os registros de entrada dos dispositivos que não estavam ativos durante esse tempo.
 1. Selecione **OK** para limpar as configurações relevantes, com base na configuração de **Número de dias**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

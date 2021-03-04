@@ -211,3 +211,6 @@ Se alguma linha na entidade cliente tiver valores nos campos **ContactPersonID**
     A sincronização inicial das linhas está concluída.
 
 8. No aplicativo do Finance and Operations, habilite o controle de alterações novamente para a entidade **Clientes V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

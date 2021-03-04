@@ -53,3 +53,6 @@ Se, por alguma razão, você precisar modificar suas variações, siga as etapas
 
 ## <a name="next-step"></a>Próxima etapa
 [Promover uma variação e concluir um experimento](experimentation-review-complete.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

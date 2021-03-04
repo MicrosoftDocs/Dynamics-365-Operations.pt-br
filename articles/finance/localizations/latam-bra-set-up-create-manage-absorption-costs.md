@@ -110,3 +110,6 @@ Use este procedimento para cancelar os custos absorvidos que não são lançados
 2.  No campo **Mês/ano para cancelar**, selecione o mês e ano nos quais os custos absorvidos serão cancelados.
 
 3.  Clique em **OK** para cancelar os custos absorvidos para o mês e o ano selecionados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

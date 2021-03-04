@@ -50,3 +50,6 @@ Configurar modelos de texto da nota fiscal
 19. Clique em Salvar.
 20. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

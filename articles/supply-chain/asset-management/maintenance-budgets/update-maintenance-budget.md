@@ -75,3 +75,6 @@ Na página **Linhas de orçamento de serviço**, você poderá adicionar manualm
 
 - Você sabe que a restauração de alguns ativos está atualmente na fase de planejamento, mas trabalhos relacionados não foram criados no Gerenciamento de ativos. Entretanto, você deseja que custos de orçamento para esses trabalhos sejam incluídos no orçamento de manutenção.
 - Novos ativos ou tipos de ativos foram criados já que você realizou o orçamento de manutenção, mas planos de manutenção não foram configurados para esses ativos ou tipos de ativos. Entretanto, você deseja que custos de orçamento para esses tipos de ativos sejam incluídos no orçamento de manutenção.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

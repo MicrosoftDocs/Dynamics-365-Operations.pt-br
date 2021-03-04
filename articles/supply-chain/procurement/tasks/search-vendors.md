@@ -39,3 +39,6 @@ Aprenda como pesquisar fornecedores com base em critérios específicos. Este ex
 6. No campo País/Região, digite um valor.
 7. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

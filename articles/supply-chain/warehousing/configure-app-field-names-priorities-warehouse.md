@@ -144,3 +144,6 @@ Os metadados restantes, como Local, não serão exibidos na página de tarefas, 
 --------
 
 [Visão geral da instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

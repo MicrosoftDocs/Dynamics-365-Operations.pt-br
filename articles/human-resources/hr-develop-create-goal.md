@@ -58,3 +58,6 @@ Você pode criar metas, adicionar atividades a meta, rastrear, medições e vinc
     * Há frequentemente várias metas que são as mesmas ou semelhantes para os membros da equipe ou todos funcionários.     Seu administrador ou gerente de horas podem criar grupos de metas que contêm um ou mais modelos de meta. Você pode adicionar um meta de um grupo de meta, e em altere-o para corresponder as linhas de tempo.  
     * Quando você cria uma revisão, você pode adicionar a meta a revisão. Consulte o guia de tarefa para revisões para verificar como você pode adicionar suas revisões a meta.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

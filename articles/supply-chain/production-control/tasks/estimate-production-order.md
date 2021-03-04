@@ -42,3 +42,6 @@ Você pode realizar esse procedimento usando a empresa de dados de demonstraçã
 1. No Painel de Ação, clique em Gerenciar custos.
 2. Clique em Exibir detalhes do cálculo.
     * Esta página exibe a divisão de custo. Por exemplo, você pode exibir o preço de custo total por unidade para o produto finalizado na primeira linha. As linhas subsequentes contêm custos de acordo com a lista de materiais, o roteiro de produção e os custos indiretos.  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

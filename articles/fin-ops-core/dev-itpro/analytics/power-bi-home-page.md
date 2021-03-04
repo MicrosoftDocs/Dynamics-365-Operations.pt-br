@@ -65,3 +65,6 @@ As soluções de PowerBI.com a seguir estão disponíveis em [Microsoft AppSourc
 - Gerenciamento de custo
 - [Desempenho financeiro](financial-performance-power-bi-content-pack.md)
 - [Desempenho do canal de varejo ](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ Quando o espaço de trabalho **Autoatendimento para funcionários** é seleciona
 
 ### <a name="termination-reason-code-updates-position-assignment-record"></a>O código de motivo da demissão atualiza o registro de atribuição de posição
 O código de motivo da demissão atualizará agora a atribuição de posição ao demitir um funcionário e ao encerrar a posição. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

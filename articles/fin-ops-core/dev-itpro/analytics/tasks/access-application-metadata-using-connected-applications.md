@@ -113,3 +113,6 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 11. Feche a página. 
 
 Quando você precisar avaliar esse mapeamento de modelo usando metadados de um aplicativo de versão diferente, registre outro aplicativo conectado, atribua-o a este mapeamento de modelo e valide-o em relação aos novos metadados.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

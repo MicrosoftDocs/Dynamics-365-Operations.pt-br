@@ -40,3 +40,6 @@ Para poder oferecer produtos para revenda em seus canais de comércio, você pre
 4. **Adicione produtos a classificações.** Uma classificação representa um conjunto de produtos que você oferece em seus canais. Você pode definir uma ou várias classificações, e cada produto pode ser atribuído a uma ou várias classificações. Para atribuir produtos a canais de varejo, atribua as classificações a esses canais. Ao criar um sortimento, você pode adicionar produtos que ainda não foram liberados para uma entidade legal. No entanto, você deve liberar os produtos para uma entidade legal para que eles possam ser disponibilizados nos canais.
 5. **Adicione produtos às hierarquias de navegação.** Antes que os produtos possam ser procurados online ou no ponto de venda (POS), eles devem ser categorizados em uma hierarquia de navegação do Commerce.
 6. **Adicionar produtos em catálogos.** Embora essa etapa seja opcional para o PDV, os armazenamentos online exigem que os produtos sejam incluídos em pelo menos um catálogo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

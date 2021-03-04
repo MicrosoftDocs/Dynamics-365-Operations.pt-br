@@ -71,3 +71,6 @@ O recurso Escalonável estará disponível somente se todos os componentes do it
 
 ## <a name="use-step-consumption"></a>Usar consumo em etapas
 O consumo em etapas elimina a necessidade de inserir uma quantidade na guia **Linha da fórmula** de um ingrediente. Em vez de isso, o consumo da etapa é configurado para ter um valor **Da série** e **Quantidade**. As informações do registro de Consumo da etapa por série que atendem à quantidade na ordem do lote são selecionadas. O consumo da etapa é útil quando a taxa de consumo não é linear em relação ao tamanho da ordem de lote, e somente aumenta a necessidade quando um determinado limite de quantidade é atingido. Para habilitar esse recurso para uma nova fórmula, no grupo **Cálculo de consumo**, altere a configuração da fórmula para o ingrediente aplicável de  **Padrão** para **Etapa**. Você especifica esse método de consumo na guia **Configuração** da página **Linha da fórmula**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -42,3 +42,5 @@ Para cada organização que ofereça benefícios, você deve definir configuraç
    | **Endereço de email padrão do remetente** | O endereço de email a ser usado quando enviar o email de confirmação. |
 
 3. Selecione **Salvar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

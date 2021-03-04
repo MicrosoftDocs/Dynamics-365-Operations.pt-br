@@ -59,3 +59,6 @@ A fonte de dados **JsonField** contém os seguintes dados no formato JSON: **{"B
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

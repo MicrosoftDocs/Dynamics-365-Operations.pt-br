@@ -153,3 +153,6 @@ Esta guia destaca o impacto da alternativa de entrega selecionada. Se você clic
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

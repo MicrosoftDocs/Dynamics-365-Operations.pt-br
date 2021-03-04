@@ -45,3 +45,6 @@ Ao reservar estoque para um produto em uma linha da ordem de venda configurada p
 - O lote não tem dias restantes de validade suficientes com base na data de vencimento e na data de validade, mais os dias comercializáveis do cliente.
 
 Para itens associados a um grupo de dimensões de armazenamento com **Usar processos de gerenciamento de depósito** habilitado, é possível reservar números de lote específicos usando uma hierarquia de reserva com a dimensão de estoque de número de lote definida acima da dimensão de localização. A página **Reserva de lote** para linhas de ordem de venda e transferência também permite selecionar e reservar várias linhas com base nos números de lote disponíveis. Para obter mais informações sobre o que fazer se você estiver usando uma hierarquia de reserva que tenha a dimensão do número do lote abaixo do local, consulte [Política flexível de reserva de dimensão no nível de depósito](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

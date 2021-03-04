@@ -65,3 +65,6 @@ Relatórios separados fornecem informações sobre cada tipo de transação. Use
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

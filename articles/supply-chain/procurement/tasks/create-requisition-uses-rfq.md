@@ -99,3 +99,6 @@ A tarefa seguinte é criar um RFQ para obter ofertas dos vendedores para o produ
 8. Selecione a página.
 9. Selecione Concluído.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

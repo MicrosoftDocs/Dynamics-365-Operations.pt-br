@@ -239,3 +239,6 @@ Uma garantia é um serviço que é fornecido para um produto exclusivo específi
 [Configurar sortimentos](set-up-assortments.md)
 
 [Visão geral de sequências numéricas](../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -159,3 +159,6 @@ Você pode fornecer uma descrição do plano para ajudar os funcionários com su
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
 2. Selecione **Programas de crédito flexível**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

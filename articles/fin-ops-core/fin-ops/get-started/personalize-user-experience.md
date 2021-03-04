@@ -195,3 +195,6 @@ Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-vi
 Quando você personalizar a configuração de dimensões de estoque em uma página, considere as configurações que foram criadas usando a opção **Dimensões de exibição**. Por exemplo, você usou a personalização para ocultar uma coluna para a dimensão de estoque do número de lote, mas a coluna aparecerá na próxima vez que a página for aberta. Esse comportamento ocorre porque as configurações **Exibição de dimensão** controlam as colunas de dimensão do estoque que são exibidas. As configurações de **Exibição de dimensão** se aplicam a todas as páginas e substituem qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais.
 
 Portanto, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote apareça na página, limpe essa dimensão como parte da opção **Exibir dimensões** dessa página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

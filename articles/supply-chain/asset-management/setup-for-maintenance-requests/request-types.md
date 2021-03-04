@@ -45,3 +45,6 @@ Um tipo do solicitação de manutenção define a afiliação ao grupo de estado
 A ilustração a seguir mostra um exemplo da página **Tipos de solicitação de manutenção**.
 
 ![Página de tipos de solicitação de manutenção](media/07-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

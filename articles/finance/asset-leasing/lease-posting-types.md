@@ -154,3 +154,6 @@ A conta selecionada para cada tipo de despesa é debitada quando um pagamento pa
 
 > [!NOTE]
 > A contrapartida é selecionada no nível do arrendamento nas linhas da agenda de pagamento de custo de execução. Essa contrapartida pode ser associada ao fornecedor ou a uma conta contábil.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

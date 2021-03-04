@@ -54,3 +54,6 @@ Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instânci
     - **Reter**: definir o trabalho em lotes como **reter** para que seja retido do agendador de trabalho em lotes. Equivalente a *parar*.
     - **Aguardar**: definir o trabalho em lotes como **aguardar** para que aguarde para ser retirado pelo agendador de trabalho em lotes. Equivalente a *ir*.
 5. Clique em **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

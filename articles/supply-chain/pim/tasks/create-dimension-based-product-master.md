@@ -42,3 +42,6 @@ Este procedimento mostra como criar um novo produto mestre com a tecnologia de c
     * Selecione a tecnologia de configuração baseada em dimensão.  
 9. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

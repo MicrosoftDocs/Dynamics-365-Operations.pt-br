@@ -276,3 +276,6 @@ Neste cenário, a separação de cluster foi concluída e o usuário é direcion
     Você recebe uma mensagem "Cluster Concluído".
 
 Agora você pode usar o item de menu **Separação de Venda** para separar a quantidade restante. Em seguida, você pode usar o item de menu **Carregamento de venda** para mover os itens do local de preparo para a doca de carga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

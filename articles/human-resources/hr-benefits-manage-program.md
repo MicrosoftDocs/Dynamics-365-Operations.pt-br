@@ -64,3 +64,6 @@ Após criar os benefícios oferecidos por sua empresa e determinar a qualificaç
 Da mesma forma, a extensão do benefício em massa permite que você estenda a data de vencimento de um benefício e de inscrições de trabalhadores para esse benefício, caso você opte por oferecer um benefício por mais tempo do que planejado originalmente.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

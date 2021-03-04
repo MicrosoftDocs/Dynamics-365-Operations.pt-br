@@ -75,3 +75,6 @@ Os novos campos, **Responsável pela retenção do ICMS-ST**, **Modo de pagament
 
 > [!NOTE]
 > Durante o recebimento de uma nota fiscal, quando o ICMS-ST é tributável usando o código de tributação 10, apesar de estarem inseridas no campo **Responsável pela retenção do ICMS-ST**, as informações financeiras e de avaliação de custo não são incluídas no escopo da localização.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

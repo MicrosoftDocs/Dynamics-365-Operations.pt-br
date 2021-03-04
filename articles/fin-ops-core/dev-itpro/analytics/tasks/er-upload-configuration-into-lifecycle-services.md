@@ -145,3 +145,6 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
     A configuração do ER que você carregou deve ser listada.
 
     Observe que a configuração do LCS carregado poderá ser importada para outra instância se os provedores tiverem acesso a esse projeto do LCS.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

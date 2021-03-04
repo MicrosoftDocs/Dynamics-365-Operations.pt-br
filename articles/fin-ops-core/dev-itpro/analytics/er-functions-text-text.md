@@ -59,3 +59,6 @@ Se a localidade do servidor da instância do Microsoft Dynamics 365 Finance for 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

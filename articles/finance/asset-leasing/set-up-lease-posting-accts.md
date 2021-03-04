@@ -84,3 +84,6 @@ Para atribuir contas aos registros e grupos de arrendamentos que foram criados, 
     > [!NOTE]
     > A conta mercantil ou operacional selecionada será debitada quando a fatura da despesa agendada for lançada.
     > **Contrapartida de despesa de arrendamento** será usado como tipo de lançamento para transações de custos de execução, mas lance na **Contrapartida** definida nas **Linhas da agenda de pagamento de custos de execução** no formulário de detalhes do arrendamento ou de registro do arrendamento.   
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

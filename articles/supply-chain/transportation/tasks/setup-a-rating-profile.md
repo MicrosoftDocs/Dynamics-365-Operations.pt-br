@@ -61,3 +61,6 @@ Na página **Perfis de classificação**, você pode revisar todos os perfis de 
 
 > [!NOTE]
 > Os perfis criados na página **Transportadoras** também são exibidos na página **Perfis de classificação**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

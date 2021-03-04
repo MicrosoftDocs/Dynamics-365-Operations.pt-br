@@ -43,3 +43,6 @@ A tabela a seguir mostra o conteúdo do Power BI de onde os relatórios são cop
 | [Vendas e lucratividade](sales-profitability-performance-content-pack.md) | <ul><li>Receita por região</li><li>10 melhores clientes por receita</li><li>10 melhores produtos por receita</li></ul> |
 | [Gerenciamento de crédito e cobranças](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Cliente em atraso</li><li>Clientes acima do limite de crédito</li><li>Saldos antigos</li></ul> |
 | [Análise de gastos em compras](../../../finance/accounts-receivable/credit-collections-power-bi.md) | <ul><li>Compras por mês/dia</li><li>10 principais fornecedores por compras</li><li>10 principais produtos por compras</li></ul> |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

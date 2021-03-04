@@ -73,3 +73,6 @@ Ao lançar as linhas de pagamento aprovadas, as três linhas de pagamento são l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

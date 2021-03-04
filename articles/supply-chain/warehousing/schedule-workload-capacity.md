@@ -80,3 +80,6 @@ Se essas informações não forem especificadas corretamente, uma mensagem será
 3. No campo **Tipo da ordem**, selecione **Confirmado e planejado**, **Planejado** ou **Confirmado** para indicar o tipo do projeto no relatório.
 4. No campo **Tipo de carga**, selecione um tipo de carga para especificar se a capacidade de carga de trabalho deve ser projetada por volume ou peso.
 5. No campo **Capacidade de carga de trabalho**, selecione uma configuração de capacidade de carga de trabalho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

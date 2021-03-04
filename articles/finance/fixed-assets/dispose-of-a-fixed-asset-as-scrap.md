@@ -82,3 +82,6 @@ A ilustração a seguir mostra o saldo de ativos fixos.
 A ilustração a seguir mostra o comprovante que é lançado.
 
 [![Valor líquido contábil](./media/Fixed_asset_Disposal_scrap_scenario_6.png)](./media/Fixed_asset_Disposal_scrap_scenario_6.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

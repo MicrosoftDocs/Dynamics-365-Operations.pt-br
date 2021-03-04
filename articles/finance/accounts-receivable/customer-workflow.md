@@ -60,3 +60,6 @@ Após haver pelo menos uma alteração proposta, dois menus adicionais aparecer�
     O status na página foi alterado para **Alterações com aprovação pendente**.
 
 O fluxo de trabalho segue o processo de fluxo de trabalho padrão no aplicativo. O aprovador é direcionado à página **Cliente**, na qual é possível revisar as alterações na página **Alterações propostas** e, em seguida, selecionar **Fluxo de trabalho \> Aprovar** para aprovar o fluxo de trabalho. Depois que todas as aprovações forem concluídas, os campos serão atualizados com os valores que você propôs.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

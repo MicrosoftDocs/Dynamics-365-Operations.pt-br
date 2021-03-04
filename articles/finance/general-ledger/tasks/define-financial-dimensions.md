@@ -55,3 +55,6 @@ Este guia de tarefas demonstra como adicionar uma dimensão financeira apoiada p
 9. No campo **Valor da dimensão**, digite um nome para descrever o valor da dimensão financeira.
 10. No campo **Descrição**, digite uma descrição que defina seu valor de dimensão financeira.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

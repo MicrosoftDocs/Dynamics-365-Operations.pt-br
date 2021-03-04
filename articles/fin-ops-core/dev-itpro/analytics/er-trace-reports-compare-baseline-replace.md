@@ -207,3 +207,6 @@ Para importar configurações de linha base de um arquivo XML armazenado no Micr
 
 - [Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base](er-trace-reports-compare-baseline.md)
 - [Recursos do Gravador de tarefas](../user-interface/task-recorder.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

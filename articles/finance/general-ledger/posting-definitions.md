@@ -62,3 +62,6 @@ As seguintes limitações se aplicam quando você cria links em definições de 
 Para obter mais informações, consulte [Exemplos de definição de lançamento](example-posting-definitions.md). 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

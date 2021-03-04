@@ -52,3 +52,6 @@ A captura de tela abaixo mostra um exemplo da página **Trabalhos de manutençã
 
 ![Figura 1](media/07-work-order-scheduling.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

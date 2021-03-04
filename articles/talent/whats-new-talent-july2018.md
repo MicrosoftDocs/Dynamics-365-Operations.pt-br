@@ -57,3 +57,6 @@ Títulos foram expandidos nesta atualização. Atualmente, o campo tem 65 caract
 ## <a name="benefit-enrollment-status-report"></a>Relatório de status de inscrição em benefício
 
 O relatório interno sobre inscrição aberta para benefícios ajuda a entender facilmente onde seus funcionários estão no processo de inscrição aberta. Você pode saber quantos funcionários concluíram o processo, estão concluindo e não o iniciaram. Além disso, você pode visualizar rapidamente qualquer problema que ocorra durante a inscrição do funcionário e um registro completo de todos os envios do funcionário. Portanto, é possível verificar e auditar facilmente os envios do funcionário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

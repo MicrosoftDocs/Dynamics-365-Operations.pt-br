@@ -98,3 +98,6 @@ Para carregar um arquivo no assistente para criação de sites do Commerce, siga
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

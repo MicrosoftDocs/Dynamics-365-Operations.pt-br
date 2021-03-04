@@ -255,3 +255,6 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 [Atalhos de teclado para a análise de conta ausente](../../../finance/general-ledger/financial-reporting-keyboard-shortcuts.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

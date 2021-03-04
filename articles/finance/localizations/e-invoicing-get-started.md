@@ -344,3 +344,6 @@ Os resultados mostrados no log de envio dependem de como o recurso de faturament
 - [Introdução ao complemento de faturamento eletrônico para o México](e-invoicing-mex-get-started.md)
 - [Introdução ao complemento de faturamento eletrônico para a Itália](e-invoicing-ita-get-started.md)
 - [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

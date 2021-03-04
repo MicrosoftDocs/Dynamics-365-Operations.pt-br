@@ -50,3 +50,6 @@ Para fornecer uma melhor visibilidade dos vários valores do carrinho, três nov
 - **Depósito aplicado** – O valor de depósito aplicado em uma transação quando o usuário faz uma retirada por ordem de cliente. Se não houver sobreposição de depósito, e um depósito de 10% estiver configurado, o valor neste campo será de 90% do valor total da ordem do cliente.
 - **Executar valor** – O valor total das linhas em que o modo de entrega foi definido como **Executar** quando a ordem de cliente foi criada ou editada, ou durante uma troca da ordem de cliente. O valor neste campo inclui impostos e encargos.
 - **Valor da devolução** – O valor total das linhas que têm quantidades negativas durante a troca da ordem do cliente. O valor neste campo inclui impostos e encargos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

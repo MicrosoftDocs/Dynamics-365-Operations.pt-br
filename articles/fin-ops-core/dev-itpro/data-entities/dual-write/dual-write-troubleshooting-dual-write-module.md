@@ -87,3 +87,6 @@ A correção desse erro depende da causa do erro:
 
 + Se o mapeamento tiver mapeamentos dependentes, certifique-se de habilitar os mapeamentos dependentes deste mapeamento de tabela.
 + O mapeamento pode estar ter campos de origem ou de destino ausentes. Se um campo no aplicativo Finance and Operations estiver ausente, siga as etapas na seção [Problemas de campos de entidade ausentes nos mapas](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Se um campo no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que os campos sejam automaticamente preenchidos no mapeamento.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

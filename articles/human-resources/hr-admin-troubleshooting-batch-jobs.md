@@ -65,3 +65,6 @@ Os trabalhos em lotes a seguir devem ser executados à noite ou depois do expedi
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Otimizar o desempenho com tarefas de limpeza automática](hr-admin-troubleshooting-batch-history.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

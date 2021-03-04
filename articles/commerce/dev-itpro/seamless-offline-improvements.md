@@ -56,3 +56,6 @@ Os parâmetros comerciais são normalmente armazenados em cache. Portanto, depoi
 
 - [Funcionalidade de ponto de venda (PDV) offline](https://docs.microsoft.com/dynamics365/retail/pos-offline-functionality)
 - [Operações de ponto de venda (PDV) online e offline](https://docs.microsoft.com/dynamics365/retail/pos-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ A depreciação de ativo fixo pode ser executada nas entidades legais em uma ún
 5. Clique em Criar diário.
 6. Ir para Ativos fixos > Entradas de diário > Diário de ativos fixos.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

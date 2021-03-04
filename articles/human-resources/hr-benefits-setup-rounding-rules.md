@@ -36,3 +36,6 @@ Você pode configurar regras de arredondamento no Dynamics 365 Human Resources p
 3. Especifique valores para **Arredondar para o mais próximo**, **Cenário** e **Formulário de arredondamento**.
 
 4. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Este procedimento mostra como calcular o custo de um produto finalizado usando d
 11. Feche a página.
 12. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

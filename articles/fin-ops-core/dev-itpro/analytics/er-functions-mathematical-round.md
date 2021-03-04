@@ -75,3 +75,6 @@ Se o valor do argumento `decimals` for menor do que 0 (zero), o número especifi
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções matemáticas](er-functions-category-mathematical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

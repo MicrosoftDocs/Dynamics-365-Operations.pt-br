@@ -65,3 +65,6 @@ Esta lista é para que você possa considerar essas remoções e reprovações c
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

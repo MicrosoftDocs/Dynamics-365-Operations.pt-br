@@ -69,3 +69,6 @@ A [gravação dupla](https://docs.microsoft.com/powerapps/maker/portals/overview
 ![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")
 
 O portal do cliente atua como um ponto de partida para organizações que desejam usar portais do Power Apps para criar um site externamente que use dados da instalação do Supply Chain Management. Ele ajuda as organizações a conectar gravação dupla, Supply Chain Management e portais do Power Apps.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -230,3 +230,6 @@ Também é possível confirmar que as relações de transação foram atualizada
 - A opção **Dividir quantidade para nova carga** também funciona quando alguns dos cabeçalhos de trabalho restantes têm o status *Em andamento*. Portanto, você ainda poderá usar a funcionalidade mesmo se os trabalhadores já estiverem executando as ordens de separação.
 - Se você selecionar **Cancelar quantidade não atendida** enquanto houver trabalho restante com o status *Aberto* ou *Em andamento*, a seguinte mensagem de erro será exibida: "Não é possível cancelar quantidade pendente para carga. Existe trabalho para a carga."
 - Se você selecionar **Cancelar quantidade não atendida** quando não houver trabalho restante, mas houver linhas de carga não liberadas na carga, receberá a seguinte mensagem de erro: "Não foi possível confirmar a remessa da carga porque a quantidade do item excede a porcentagem definida para entrega insuficiente." Para evitar o erro, você pode definir a porcentagem de **Entrega insuficiente** na linha de carga não liberada como 100%. As linhas não liberadas não serão movidas para uma nova carga, mas a carga atual será confirmada com entrega insuficiente. Nesse caso, não será possível liberar a ordem original novamente. Por isso você terá que processá-la de outra forma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

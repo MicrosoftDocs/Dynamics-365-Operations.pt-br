@@ -90,3 +90,6 @@ Com esta alteração, as duplicatas são detectadas conforme você digita nos ca
 
 ###  <a name="email-support-for-alerts"></a>Suporte de email para alertas
 Com a atualização de Plataforma 25 do Finance and Operations, os usuários podem criar regras de alerta que enviem automaticamente notificações por email a contatos quando disparadas por um evento. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

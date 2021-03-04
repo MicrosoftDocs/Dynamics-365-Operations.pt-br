@@ -59,3 +59,6 @@ Este procedimento mostra como criar contratos comerciais de preço de vendas usa
 24. Clique na guia Regras de preço de categoria.
     * As regras de definição de preços específicas da categoria do canal serão mostradas nesta lista.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

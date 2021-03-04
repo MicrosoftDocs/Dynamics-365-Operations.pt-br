@@ -39,3 +39,6 @@ Os seguintes cenários explicam o processo de consolidação de remessa que usa 
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

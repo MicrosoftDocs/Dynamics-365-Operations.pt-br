@@ -51,3 +51,6 @@ Há muitos tipos de descontos:
 - **Desconto de remessa** – Um desconto aplicado quando o total da transação é maior do que um valor especificado e um modo de entrega específico (por exemplo, remessa em dois dias ou remessa em 24h) é usado na ordem.
 
 Os ajustes de preço e descontos podem ser associados aos grupos de preços. Os grupos de preços podem ser associados aos canais, aos catálogos, às afiliações e aos programas de fidelidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

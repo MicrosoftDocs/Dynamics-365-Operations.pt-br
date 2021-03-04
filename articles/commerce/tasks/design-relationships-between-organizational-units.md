@@ -63,3 +63,6 @@ Este procedimento mostra como criar a relação entre unidades organizacionais. 
 29. Clique em Publicar.
 30. Clique em Fechar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

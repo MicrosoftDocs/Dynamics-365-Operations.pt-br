@@ -84,3 +84,6 @@ A tabela a seguir descreve as guias em uma definição de relatório e como as i
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

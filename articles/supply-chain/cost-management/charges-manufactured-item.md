@@ -40,3 +40,6 @@ Os encargos de um item fabricado são sempre incluídos no custo unitário do it
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

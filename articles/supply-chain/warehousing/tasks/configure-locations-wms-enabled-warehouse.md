@@ -175,3 +175,6 @@ Este guia mostra como definir a configuração da localização para um novo dep
 6. Na lista, clique no link na linha selecionada.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

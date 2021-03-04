@@ -72,3 +72,6 @@ Você pode implantar o Dynamics 365 Finance + Operations (local). Quando você e
 - [Recursos removidos ou preteridos de Finance and Operations](../migration-upgrade/deprecated-features.md)
 - [Política de ciclo de vida do software e versões locais](../migration-upgrade/on-prem-version-update-policy.md)
  
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

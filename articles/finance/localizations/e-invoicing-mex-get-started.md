@@ -299,3 +299,6 @@ Habilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI
 - [Visão geral do complemento de faturamento eletrônico](e-invoicing-service-overview.md)
 - [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md)
 - [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

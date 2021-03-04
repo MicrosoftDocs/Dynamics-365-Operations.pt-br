@@ -71,3 +71,6 @@ Essa tarefa se concentra na criação de um novo trabalho. Será concluída usan
 33. Alternar a expansão da seção Educação.
 34. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

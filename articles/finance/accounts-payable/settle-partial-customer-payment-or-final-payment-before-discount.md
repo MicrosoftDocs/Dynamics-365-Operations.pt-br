@@ -149,3 +149,6 @@ Alberto lança esse diário e analisa e as transações do cliente na página **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

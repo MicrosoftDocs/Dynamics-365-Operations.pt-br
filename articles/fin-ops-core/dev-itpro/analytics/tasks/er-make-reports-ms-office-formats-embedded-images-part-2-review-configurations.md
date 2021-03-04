@@ -91,3 +91,6 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * Alguns rótulos que são apresentados no formulário pré-impresso do cheque serão incluídos no relatório quando ele for criado para fins de teste. Entretanto, esses rótulos não serão impressos durante a impressão real porque o formulário pré-impresso já os inclui.  
 15. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

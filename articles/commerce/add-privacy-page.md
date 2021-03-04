@@ -109,3 +109,6 @@ Agora, o fragmento pode ser referenciado no modelo para outras páginas do site.
 [Compatível com cookies](cookie-compliance.md)
 
 [Substitua os IDs de usuário associados às alterações de conteúdo controladas](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

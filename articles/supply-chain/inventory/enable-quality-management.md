@@ -504,3 +504,6 @@ Na produção, se você definir o campo **Tipo de evento** como **Relatar como c
 [​Gerenciamento de não conformidade​](enable-nonconformance-management.md)
 
 [Gestão de qualidade para processos de depósito](quality-management-for-warehouses-processes.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ Você criará nossa própria configuração do Modelo de fatura de cliente deriv
 3. No campo Nome, digite 'Modelo de fatura de cliente (personalizada)'.
 4. Clique em Criar configuração.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

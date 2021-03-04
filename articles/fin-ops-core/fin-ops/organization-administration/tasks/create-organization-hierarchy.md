@@ -48,3 +48,6 @@ A empresa de dados demo usada para criar este procedimento é USMF.
     - Adicione organizações, conforme necessário.  
     - Para adicionar uma organização, clique em **Editar** e **Inserir** para adicionar a organização. Ao terminar de fazer alterações, você pode **salvar** um rascunho e/ou **publicar** as alterações.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ O usuário não pode personalizar os relatórios do Microsoft Power BI integrado
 **Solução de longo prazo**
 
 Opções adicionais do Power BI estarão disponíveis e mais dados e entidades farão parte do Common Data Service.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

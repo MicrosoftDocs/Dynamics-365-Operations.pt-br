@@ -95,3 +95,6 @@ Ao usar fontes externas, como o DMF, para exibir ou criar dados, é importante s
 
 [Dados de data e hora](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones)<br></br>
 [Fusos horários de preferência do usuário](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-users-preferred-time-zone) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

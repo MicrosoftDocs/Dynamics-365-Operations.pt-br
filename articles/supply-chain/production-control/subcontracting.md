@@ -303,3 +303,6 @@ Uma ordem de produção de 10 peças é criada para o produto D8100, “Gabinete
     ![Gráficos de comparação de custo](./media/subcontract35_cost-comparison-charts.png)
 
 Não há configuração nos dados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

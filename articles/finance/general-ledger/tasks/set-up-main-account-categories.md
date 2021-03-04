@@ -42,3 +42,6 @@ Este tópico explica como configurar as categorias da conta principal. Categoria
 3. Marque ou desmarque a opção **Vinculada** para escolher as contas principais.
 4. Selecione **OK**.
 5. Selecione **Sim**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

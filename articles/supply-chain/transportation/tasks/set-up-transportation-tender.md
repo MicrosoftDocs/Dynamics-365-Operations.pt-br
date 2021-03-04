@@ -48,3 +48,6 @@ Este procedimento mostra como configurar um meio de pagamento do transporte. Nor
 7. Clique em Enviar.
 8. Selecione uma rota.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Você pode alterar os status de estoque usando a página **Disponibilidade por l
 > - Na página **Disponibilidade por localização**, agrupar linhas com base nas dimensões mostradas usando o botão **Exibir dimensões** e alterar o status das linhas selecionadas.
 > - Na página **Disponibilidade por localização**, selecionar vários registros e, em seguida, usar o botão **Alteração de status do estoque** para alterar todos eles de uma só vez.
 > - Na tarefa periódica **Alteração de status do estoque**, filtrar por dimensões de rastreamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

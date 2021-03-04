@@ -140,3 +140,6 @@ Você pode gerar o relatório **Remetido aos clientes** para identificar o valor
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Posso monitorar coprodutos e subprodutos?
 Você pode rastrear coprodutos, mas não é possível rastrear um subproduto porque as dimensões de rastreamento normalmente não são atribuídas por produtos. Quando você rastreia um item, os detalhes do rastreamento incluem todos os coprodutos relacionados. Um nó que contém um coproduto inclui a palavra "coproduto" nos detalhes. Você também pode exibir detalhes sobre um coproduto selecionando o nó nos detalhes de rastreamento e então clicando na Guia Rápida **Produção**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

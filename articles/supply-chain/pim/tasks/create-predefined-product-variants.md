@@ -72,3 +72,6 @@ Este procedimento mostra como criar variantes de produto para um produto mestre 
     * Você pode gerar descrições de todas as grades com base na combinação de valores de dimensão de produto. As descrições são opcionais.  
 5. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

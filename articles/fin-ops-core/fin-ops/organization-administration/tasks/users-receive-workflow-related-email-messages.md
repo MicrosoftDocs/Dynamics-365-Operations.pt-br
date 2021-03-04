@@ -41,3 +41,6 @@ Você pode configurar o sistema para enviar mensagens de email para os usuários
 
 > [!NOTE]
 > Os modelos de email do fluxo de trabalho serão originados de modelos de email do sistema ou modelos de email da organização, dependendo de o fluxo de trabalho ser um fluxo de trabalho no nível do sistema (não específico da empresa) ou no nível organizacional (específico da empresa).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

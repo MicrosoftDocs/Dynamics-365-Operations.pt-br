@@ -63,3 +63,6 @@ O gráfico a seguir ilustra como o planejamento mestre ocorre. Os parâmetros re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

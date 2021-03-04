@@ -91,3 +91,6 @@ Se você habilitou o recurso **Pesquisa estendida das configurações de formato
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [API da estrutura de ER (Relatório eletrônico)](er-apis-app73.md)
 - [Gerenciar o ciclo de vida das configurações de ER (Relatório eletrônico)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

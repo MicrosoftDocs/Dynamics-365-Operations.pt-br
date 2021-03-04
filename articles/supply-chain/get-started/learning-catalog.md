@@ -187,3 +187,6 @@ Encontre o treinamento online correto, nos workshops de pessoas e eventos para s
 
     :::column-end:::
 :::row-end:::
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

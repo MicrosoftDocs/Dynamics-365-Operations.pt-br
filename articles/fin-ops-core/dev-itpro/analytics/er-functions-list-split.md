@@ -85,3 +85,6 @@ Se o argumento `input` estiver vazio, uma nova lista vazia será retornada. Se o
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

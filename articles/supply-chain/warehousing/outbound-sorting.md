@@ -667,3 +667,6 @@ Você deve concluir o trabalho de separação do estoque classificado. Quando el
     O trabalho foi concluído.
 
 Desse ponto para a frente, todos os demais processos de depósito se aplicam.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

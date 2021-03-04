@@ -51,3 +51,6 @@ Cada regra de alocação possui quatro componentes: geral, origem, destino e com
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ O valor de texto resultante.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -117,3 +117,6 @@ Esses dois diários de estoque suportam somente o cenário *Inicializar estoque*
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Entidades de dados](../../dev-itpro/data-entities/data-entities.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

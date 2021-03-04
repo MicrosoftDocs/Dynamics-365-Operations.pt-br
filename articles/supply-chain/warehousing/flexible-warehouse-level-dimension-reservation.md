@@ -854,3 +854,6 @@ As tabelas a seguir fornecem uma visão geral que mostra como o sistema manipula
     - Ordens de transferência e separação de matéria-prima
 
 - A regra de consolidação de contêineres para empacotamento por unidade de diretiva tem limitações. Para as reservas confirmadas na ordem, é recomendável não usar os modelos de compilação de contêiner em que o campo **Empacotar por unidade de diretiva** esteja habilitado. No design atual, as diretivas de local não são usadas quando o trabalho de depósito é criado. Portanto, somente a menor unidade no grupo de sequências de unidades (a unidade de estoque) é aplicada durante a etapa da onda de transporte em contêineres.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Esse procedimento o orientará no processo de criação e lançamento de um diá
 5. Feche o formulário.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -309,3 +309,6 @@ Habilitar o recurso BR-00053 (NF-e Federal) pode exigir o envio de dados limitad
 - [Visão geral do complemento de faturamento eletrônico](e-invoicing-service-overview.md)
 - [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md)
 - [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

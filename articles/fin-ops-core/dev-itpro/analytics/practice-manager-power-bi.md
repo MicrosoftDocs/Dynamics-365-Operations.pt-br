@@ -117,3 +117,6 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Principal medida agregada       | Campo               | descrição |
 |---------------------------------|---------------------|-------------|
 | Custo planejado de atividade concluído | Sum(TotalCostPrice) | Total de preço de custo em estimativas para todos os tipos de transação de projeto com tarefas concluídas. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

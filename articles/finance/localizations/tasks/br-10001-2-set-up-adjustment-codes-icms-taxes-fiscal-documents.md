@@ -51,3 +51,6 @@ Quando o arquivo fiscal SPED é gerado, o registro C197 inclui informações sob
 19. Clique em Salvar.
 20. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

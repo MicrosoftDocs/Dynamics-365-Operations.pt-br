@@ -44,3 +44,6 @@ Este tópico explica como um usuário atribuído à função de Administrador do
 2. Selecione **Definir como ativo**.
 
 ![Página de espaço de trabalho de relatório eletrônico](../media/GER-Task-ActiveProvider-1.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

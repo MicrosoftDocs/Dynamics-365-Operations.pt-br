@@ -63,3 +63,6 @@ Um tipo de plano pode definir opções de cobertura. As opções de cobertura s�
    | **Janela do relatório** | Especifica a janela do relatório, em dias, do evento de vida. **Observação**: se você não inserir um valor, o sistema assumirá que a janela de relatório é zero e não processará o evento de vida. |
 
 5. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

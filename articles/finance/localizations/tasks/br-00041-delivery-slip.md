@@ -71,3 +71,6 @@ Você pode lançar uma guia de entrega para uma ordem de venda com várias linha
 34. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 35. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

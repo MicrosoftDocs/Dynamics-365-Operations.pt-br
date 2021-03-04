@@ -60,3 +60,6 @@ O valor de registro resultante.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de registro](er-functions-category-record.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

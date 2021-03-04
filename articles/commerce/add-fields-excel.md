@@ -55,3 +55,6 @@ O novo campo e seus dados devem agora estar disponíveis para edição no Excel.
 [Editar dimensões financeiras para transações de varejo](edit-financial-dim.md)
 
 [Criar uma pasta de trabalho do Excel para editar transações de varejo](create-excel-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Este procedimento mostra a você como criar um novo registro de ativos fixos e a
     * Observe que os períodos de depreciação são calculados depois de definir a vida útil.  
     * Você pode definir a convenção de depreciação conforme necessário para fins tributários.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

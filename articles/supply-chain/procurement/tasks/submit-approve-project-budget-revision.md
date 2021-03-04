@@ -46,3 +46,6 @@ Essa tarefa usa o conjunto de dados de SSI.
 12. No campo Comentário, digite um valor.
 13. Clique em Enviar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

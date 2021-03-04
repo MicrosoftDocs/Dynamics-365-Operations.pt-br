@@ -49,3 +49,6 @@ Ao atualizar uma guia de remessa de um item devolvido que é de um contrato de v
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

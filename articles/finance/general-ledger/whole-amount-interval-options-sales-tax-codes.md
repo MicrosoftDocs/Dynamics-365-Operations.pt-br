@@ -90,3 +90,6 @@ Para obter mais informações, consulte [Taxas de imposto baseadas nos métodos 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

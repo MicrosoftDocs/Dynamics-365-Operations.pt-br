@@ -61,3 +61,6 @@ Este procedimento mostra como manter manualmente as informações sobre os candi
 6. Clique em Salvar.
     * Após salvar a solicitação de emprego, você pode anexar documentos, inclusive a experiência do candidato, os prêmios e a carta de apresentação.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

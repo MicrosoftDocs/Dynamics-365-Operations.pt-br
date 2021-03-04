@@ -102,3 +102,6 @@ Este procedimento mostra como configurar uma nomenclatura de número de produto 
 43. Feche a página.
 44. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

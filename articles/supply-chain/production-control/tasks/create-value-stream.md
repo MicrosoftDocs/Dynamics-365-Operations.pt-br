@@ -49,3 +49,6 @@ Fluxos de produção são unidades operacionais que agrupam um ou vários fluxos
 2. Feche a página.
 3. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

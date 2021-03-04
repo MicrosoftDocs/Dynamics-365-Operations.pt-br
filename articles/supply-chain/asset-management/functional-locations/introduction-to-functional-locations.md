@@ -83,3 +83,6 @@ Os botões no Painel de Ação estão organizados em guias. A tabela a seguir de
 | Falhas                              | Abra a página **Falhas de ativos**, em que você pode exibir uma lista de registros de falhas de ativos que estão relacionados ao local funcional selecionado. |
 | Atualizar o estado do local funcional    | Atualize o estado do local funcional selecionado.                                                                                        |
 | Log de estados de ciclo de vida                 | Exiba um log que mostre os estados do local funcional selecionado.                                                                        |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

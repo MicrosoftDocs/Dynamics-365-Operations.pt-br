@@ -91,3 +91,6 @@ A guia **Cargos**, na página principal do trabalhador, fornece uma visão compl
 
 [![Cargos](./media/Worker-position-history.png)](./media/Worker-position-history.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

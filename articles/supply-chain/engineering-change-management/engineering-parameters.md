@@ -57,3 +57,6 @@ A tabela a seguir descreve os campos disponíveis na guia **Gerenciamento de alt
 | Regra de severidade | Selecione como a gravidade de uma ordem de alteração de engenharia deve ser estabelecida. Selecione *Manual* se for esperado que o usuário insira um valor no campo **Gravidade**. Selecione *Calcular* para que o sistema calcule o valor do campo **Gravidade** ao selecionar **Calcular gravidade** no Painel de Ações da ordem de alteração de engenharia. Nesse caso, o sistema usará as regras de gravidade definidas na página **Conjunto de regras de gravidade**. Selecione *Calcular automaticamente* para que o valor do campo **Gravidade** seja calculado automaticamente e preenchido de acordo com os conjuntos de regras de gravidade. |
 | Lançar produtos afetados novamente | Este campo é aplicável quando você libera de novo produtos por meio de uma ordem de alteração de engenharia. Você pode selecionar se todos os produtos ou somente os produtos afetados devem ser propostos na caixa de diálogo **Liberações**. |
 | Níveis da BOM a liberar | A profundidade do nível de BOM a ser liberado. Se a BOM tiver mais níveis (ou seja, se for mais profunda) que o valor especificado aqui, somente os níveis até o valor especificado serão liberados. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

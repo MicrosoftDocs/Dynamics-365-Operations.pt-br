@@ -78,3 +78,6 @@ Para criar e configurar uma pasta de trabalho do Excel para que você possa edit
 [Editar dimensões financeiras para transações de varejo](edit-financial-dim.md)
 
 [Adicionar campos a uma pasta de trabalho do Excel para editar transações de varejo](add-fields-excel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

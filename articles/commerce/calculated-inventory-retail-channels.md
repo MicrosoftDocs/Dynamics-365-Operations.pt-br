@@ -114,3 +114,6 @@ Recomendamos não executar esses trabalhos em lote com muita frequência (em int
 > Por razões de desempenho, quando os cálculos de disponibilidade de estoque de canal são usados para fazer uma solicitação de disponibilidade de estoque usando a API de comércio eletrônico ou a nova lógica de estoque do canal de PDV, o cálculo usa um cache para determinar se já passou tempo suficiente para justificar a execução da lógica de cálculo novamente. O cache padrão é definido como 60 segundos. Por exemplo, você ativou o cálculo do canal da sua loja e exibiu o estoque disponível de um produto na página **Pesquisa de estoque**. Se uma unidade do produto for vendida, a página **Pesquisa de estoque** não mostrará o estoque reduzido até que o cache tenha sido limpo. Depois que os usuários lançam transações no PDV, eles devem esperar 60 segundos antes de verificar se o estoque disponível foi reduzido.
 
 Se o seu cenário comercial exigir um tempo de cache menor, entre em contato com o representante de suporte do produto para obter ajuda.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

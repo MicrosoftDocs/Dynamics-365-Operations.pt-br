@@ -62,3 +62,6 @@ A lista de resultados de pesquisa é limitada a 10 itens. Se você não encontra
 ## <a name="development"></a>Desenvolvimento
 
 De uma perspectiva de desenvolvimento, é muito fácil tirar proveito do recurso de pesquisa de navegação, porque não há praticamente nenhum atraso entre a implantação dos itens de menu e a capacidade aparecer nos resultados da pesquisa. À medida que os itens de menu são vinculados ao painel de navegação ou painel de controle, eles se tornam automaticamente pesquisáveis.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

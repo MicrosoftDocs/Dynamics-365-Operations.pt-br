@@ -47,3 +47,6 @@ Você pode usar códigos de barras para comprar e vender produtos, rastrear vari
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Configurar máscaras de código de barras](set-up-bar-code-masks.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

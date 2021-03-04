@@ -90,3 +90,6 @@ A segunda ordem de venda já está faturada. A fatura total apresentada ao clien
 [![Página de transações de comprovante com a entrada contábil lançada](./media/24_rev-rec-scenarios.png)](./media/24_rev-rec-scenarios.png)
 
 Como a soma da receita e a venda é maior que US$ 1.170,44, a diferença é lançada em -US$ 130,17. Esse valor compensa o saldo da conta de compensação da receita da fatura parcial. Esse saldo é lançado na nova entrada contábil após a realocação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

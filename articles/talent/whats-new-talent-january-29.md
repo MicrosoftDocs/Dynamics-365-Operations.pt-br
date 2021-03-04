@@ -41,3 +41,6 @@ Novas opções foram adicionadas à licença e ausência (parâmetros **Recursos
 
 ### <a name="worker-hire-actions-are-stuck-in-workflow-complete-state"></a>As ações de contratação de trabalhadores estão com status "Fluxo de trabalho concluído"
 As alterações foram feitas para corrigir um problema em que um pequeno número de fluxos de trabalho foram concluídos com um status "Fluxo de trabalho concluído". Novos fluxos de trabalho deverão agora mudar para um status "Concluído" quando o fluxo de trabalho for concluído. Os fluxos de trabalho com um status concluído serão modificados para um status de erro para permitir a atualização ou remoção se necessário. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

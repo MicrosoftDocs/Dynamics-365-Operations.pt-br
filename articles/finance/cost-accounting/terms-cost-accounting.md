@@ -205,3 +205,6 @@ Demonstrativos são exibições para os gerentes responsáveis pelo controle de 
 As versões são usadas para simular, exibir e comparar vários resultados. Por padrão, todos os custos reais são exibidos em uma versão base que é conhecida como *real*. No tocante a orçamentos e cálculos, é possível trabalhar com quantas versões forem necessárias. Por exemplo, você pode importar dados orçamentários para uma versão original e depois revisar o orçamento em uma versão revisada. Para cálculos, você pode criar várias versões. Nessas versões, é possível criar os cálculos usando diferentes regras de cálculo que serão aplicadas na alocação de custos.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Quando é usado o lançamento de demonstrativo com base em um fluxo constante, p
 Os detalhes da reconciliação financeira de um turno são sincronizados com o Commerce Headquarters usando o trabalho P.
 
 As demonstrativos financeiros de varejo no Commerce Headquarters não calculam os totais para mostrar os detalhes nas linhas dos demonstrativos. Em vez disso, os valores finalizados no cliente de PDV são usados para criar e lançar demonstrativos financeiros de varejo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

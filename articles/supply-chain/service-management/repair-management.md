@@ -113,3 +113,6 @@ Quando um problema de reparo é resolvido, você pode fechar a linha de reparo. 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -142,3 +142,6 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 4.  Selecione o cliente.
 5.  Selecione **Informações de contato** ou **Ordens de venda**. Se selecionar **Ordens de venda**, será mostrada uma lista de ordens de venda do cliente.
 6.  Selecione **Ordem de venda**. Agora você pode exibir informações sobre linhas de ordens de vendas, informações sobre remessas, informações de contato do cliente e informações do tomador da ordem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

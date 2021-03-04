@@ -75,3 +75,6 @@ Você pode reverter um pagamento feito por engano.
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>Atualizar a lista de contas que são incluídas na lista de transações
 
 Selecione **Contas contábeis de pagamento** para abrir uma caixa de diálogo onde você pode editar as contas que são incluídas na lista de transações. Selecione **Novo** para adicionar novas contas à lista. Esta lista é usada para filtrar a lista de transações que aparecem na página **Liquidações do razão**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

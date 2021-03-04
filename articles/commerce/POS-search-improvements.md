@@ -118,3 +118,6 @@ Na próxima versão do Commerce, os varejistas poderão definir o modo de pesqui
 
 Para ajudar a evitar problemas inesperados de desempenho, essa configuração está oculta por trás do sinalizador de liberação de versões de pré-lançamento denominada **CUSTOMERSEARCH_ENABLE_DEFAULTSEARCH_FLIGHTING**. Assim, para mostrar a configuração de **Modo de pesquisa de cliente padrão** na interface de usuário, o varejista deve criar um tíquete de suporte para o teste de aceitação de usuário (UAT) e ambientes de produção. Depois do tíquete ser recebido, a equipe da engenharia trabalhará com o varejista para garantir que ele faça testes nos ambientes de não produção para avaliar o desempenho e a implementação de otimizações necessárias.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

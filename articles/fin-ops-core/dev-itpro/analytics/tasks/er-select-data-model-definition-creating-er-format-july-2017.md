@@ -98,3 +98,6 @@ Esse procedimento é destinado a usuários com a função de Administrador do si
     * Observe que agora um só item raiz está disponível para mapear fontes de dados do aplicativo. Quando pelo menos um mapeamento de modelo foi introduzido, somente os itens raiz de modelo que são mapeados para fontes de dados do aplicativo poderão ser selecionados como uma definição modelo, quando o formato de ER for adicionado.   
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

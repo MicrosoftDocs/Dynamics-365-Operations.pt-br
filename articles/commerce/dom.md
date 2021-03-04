@@ -256,3 +256,6 @@ Veja aqui alguns aspectos a serem considerados ao usar o recurso do DOM:
 - Atualmente, o DOM examina apenas ordens criadas em canais de comércio. As ordens de venda serão identificadas como ordens de venda quando a opção **Venda do Commerce** for definida como **Sim**.
 - A Microsoft não testou o DOM com recursos avançados de gerenciamento de depósito. Clientes e parceiros devem ser cuidadosos para determinar se o DOM é compatível com os recursos e os processos avançados de gerenciamento de depósito que são relevantes para eles.
 - O DOM está disponível apenas na versão da nuvem do Commerce. Não é compatível com implantações locais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -160,3 +160,6 @@ Para esse cenário, você deve criar e lançar uma nota fiscal de importação d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

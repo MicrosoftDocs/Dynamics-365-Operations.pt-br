@@ -37,3 +37,6 @@ Os dados financeiros e tributários são integrados com os seguintes mapeamentos
 
 + [Razão integrado](ledger-mapping.md)
 + [Mestre de imposto integrado](tax-mapping.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

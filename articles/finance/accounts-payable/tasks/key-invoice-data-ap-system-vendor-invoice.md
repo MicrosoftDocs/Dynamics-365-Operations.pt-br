@@ -73,3 +73,6 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 19. Clique em **Enviar**.
 20. Feche o formulário. Observe que a ordem de compra não está mais listada como recebida, mas como não faturada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

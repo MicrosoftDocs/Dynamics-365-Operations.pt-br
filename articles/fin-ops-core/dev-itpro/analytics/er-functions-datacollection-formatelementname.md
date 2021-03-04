@@ -53,3 +53,6 @@ Para obter informações sobre como usar esta função, consulte o guia de taref
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de coleta de dados](er-functions-category-data-collection.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

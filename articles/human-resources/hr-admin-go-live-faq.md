@@ -99,3 +99,6 @@ Para relatar uma interrupção de Produção, siga o processo descrito em  [In
  ## <a name="see-also"></a>Consulte também
 
  [Preparar para a ativação](hr-admin-go-live-prepare.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

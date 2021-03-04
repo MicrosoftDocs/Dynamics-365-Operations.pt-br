@@ -64,3 +64,6 @@ O trabalho para a separação de matéria-prima é gerado durante a liberação.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

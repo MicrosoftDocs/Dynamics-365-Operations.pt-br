@@ -58,3 +58,6 @@ Quando você tem os recursos operacionais do tipo **Recursos humanos** que estã
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

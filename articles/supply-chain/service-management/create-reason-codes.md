@@ -41,3 +41,6 @@ Quando for solicitado que você forneça um código de motivo para atualizar uma
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

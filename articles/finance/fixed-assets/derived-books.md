@@ -48,3 +48,6 @@ Para obter mais informações, consulte [Lançar com registros de derivados](pos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

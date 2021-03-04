@@ -80,3 +80,6 @@ Adicionamos informações de metadados sobre a tabela de registros Intrastat.
 3.    Clique em **OK**. 
     
 A configuração de metadados de ER criada foi salva como um arquivo XML que pode ser importado para o RCS e usado como a fonte de informações sobre metadados para o domínio comercial de comércio exterior. Com base nessas informações, podemos especificar o mapeamento entre metadados de aplicativos e o modelo de dados do ER.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

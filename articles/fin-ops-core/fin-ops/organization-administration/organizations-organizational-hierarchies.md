@@ -67,3 +67,6 @@ Configure as hierarquias organizacionais para exibir e fazer relatório da empre
 A cada hierarquia é atribuída uma finalidade. A finalidade de uma hierarquia determina os tipos de organizações que podem ser incluídos na hierarquia. A finalidade também define os cenários de aplicativo nos quais a hierarquia pode ser usada.
 
 As organizações em uma hierarquia podem compartilhar parâmetros, políticas e transações. Uma organização pode herdar ou substituir os parâmetros de sua organização primária. No entanto, os dados mestres compartilhados, como produtos e catálogos de endereços, aplicam-se à organização inteira e não podem ser substituídos para organizações individuais. A criação de organizações e hierarquias exigem planejamento cuidadoso. Para obter mais informações, consulte [Planejar sua hierarquia organizacional](plan-organizational-hierarchy.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

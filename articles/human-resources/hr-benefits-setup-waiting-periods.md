@@ -45,3 +45,6 @@ No Microsoft Dynamics 365 Human Resources, os dias de espera estabelecem uma eta
    | **Dia de espera** | Selecione o dia de espera a ser usado para calcular a data de espera. |
 
 4. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

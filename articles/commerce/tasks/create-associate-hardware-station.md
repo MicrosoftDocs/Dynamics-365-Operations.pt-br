@@ -58,3 +58,6 @@ Este procedimento orienta como criar uma nova estação de hardware. Um novo per
 23. No campo ID do terminal de TEF, digite um valor.
 24. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

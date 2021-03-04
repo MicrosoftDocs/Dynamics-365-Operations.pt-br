@@ -38,3 +38,6 @@ Uma razão de contabilização de custos representa a unidade de relatório gera
 8. No campo Dimensão, insira ou selecione um valor.
 9. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

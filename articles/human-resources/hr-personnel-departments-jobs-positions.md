@@ -165,3 +165,6 @@ Você pode modificar as informações mencionadas na tabela anterior para um car
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

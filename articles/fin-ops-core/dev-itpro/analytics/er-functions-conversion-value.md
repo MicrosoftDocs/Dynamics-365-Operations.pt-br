@@ -63,3 +63,6 @@ As vírgulas e os caracteres de ponto (.) são considerados separadores decimais
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de conversão de tipo](er-functions-category-type-conversion.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

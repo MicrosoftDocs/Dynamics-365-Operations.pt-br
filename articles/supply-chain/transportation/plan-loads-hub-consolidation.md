@@ -39,3 +39,6 @@ Antes de usar a consolidação de hub, você deve habilitar a opção **Planejam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Use este procedimento para criar transações não fiscais de documentos que ser
 33. Clique em Sincronizar.
 34. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

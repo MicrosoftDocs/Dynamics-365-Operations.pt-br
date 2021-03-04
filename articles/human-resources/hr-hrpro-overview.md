@@ -128,3 +128,6 @@ O Guia do usuário do Dynamics 365 Human Resources fornece instruções sobre co
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

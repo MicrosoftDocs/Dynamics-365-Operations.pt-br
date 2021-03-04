@@ -55,3 +55,6 @@ A expressão `FIRSTORNULL(SPLIT("",1)).Value` retorna uma cadeia de caracteres v
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

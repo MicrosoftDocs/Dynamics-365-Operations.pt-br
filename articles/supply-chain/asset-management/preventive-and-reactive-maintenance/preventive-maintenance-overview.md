@@ -39,3 +39,6 @@ A ilustração a seguir fornece uma visão geral do fluxo de trabalho, desde a c
 
 ![Figura 1](media/01-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

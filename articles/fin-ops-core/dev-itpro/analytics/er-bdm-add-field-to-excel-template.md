@@ -169,3 +169,6 @@ O modelo modificado é usado para gerar o relatório de fatura de texto livre pa
 [Visão geral de gerenciamento de documentos comerciais](er-business-document-management.md)
 
 [Criar uma configuração para gerar relatórios no formato OPENXML](tasks/er-design-reports-openxml-2016-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

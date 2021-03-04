@@ -41,3 +41,6 @@ O gerente de remuneração e os benefícios podem inserir funcionários em plano
 8. Ative a expansão da seção Substituições organizacional.
     * Se o desempenho do funcionário deve ser levado em consideração, no desempenho de departamentos diferentes ou em um departamento diferente daquele atribuído a posição de um funcionário, o departamento pode ser substituído. A porcentagem da coluna deve totalizar 100.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

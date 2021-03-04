@@ -41,3 +41,6 @@ O Dynamics 365 Human Resources usa códigos de camada com taxas de benefício pa
    | **Descrição** | Uma descrição do código de camada de benefício. |
 
 4. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

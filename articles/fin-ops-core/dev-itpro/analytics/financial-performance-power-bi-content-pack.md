@@ -88,3 +88,6 @@ As entidades a seguir foram usadas como base da solução **Desempenho financeir
 - ChartofAccounts
 
 Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais no painel e nos relatórios, você pode modificar a [pasta de trabalho do Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

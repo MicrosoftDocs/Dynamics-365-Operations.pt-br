@@ -110,3 +110,6 @@ O seguinte procedimento mostra uma forma de reproduzir o problema.
 ### <a name="issue-resolution"></a>Resolução do problema
 
 Isso depende das configurações de parâmetro para faturas e grupos de faturas. Para obter mais informações, consulte a seguinte postagem no blog: [Contabilização de encargo de compra e variação de estoque](https://cloudblogs.microsoft.com/dynamics365/no-audience/2014/12/15/accounting-for-purchase-charge-and-stock-variation/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

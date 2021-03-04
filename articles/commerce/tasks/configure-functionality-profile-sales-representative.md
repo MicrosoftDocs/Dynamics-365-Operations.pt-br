@@ -37,3 +37,6 @@ Este procedimento demonstra como definir as configurações de perfil de funcion
 4. No campo Solicitar representante de vendas, selecione uma opção.
 5. Selecione Sim no campo Requer representante de vendas.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

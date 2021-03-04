@@ -107,3 +107,6 @@ Para redirecionar uma URL a uma URL diferente, siga essas etapas.
 [Configure seu nome de domínio](configure-your-domain-name.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

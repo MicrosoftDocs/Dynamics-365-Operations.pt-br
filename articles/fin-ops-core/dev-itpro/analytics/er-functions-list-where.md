@@ -69,3 +69,6 @@ Se você inserir a fonte de dados **DS** do tipo *Campo calculado* e ela contive
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

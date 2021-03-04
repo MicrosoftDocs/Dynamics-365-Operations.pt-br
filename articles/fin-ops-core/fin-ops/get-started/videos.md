@@ -167,3 +167,6 @@ No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJG
 [FastTrack para conversas sobre tecnologia](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focam em fornecer melhores práticas e tecnologia avançada, que fornece aos clientes e parceiros conhecimento detalhado específico das áreas citadas.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

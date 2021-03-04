@@ -207,3 +207,6 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Cliente potencial ao pagamento à vista](prospect-to-cash.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

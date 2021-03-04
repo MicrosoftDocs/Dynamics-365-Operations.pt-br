@@ -38,3 +38,6 @@ As perguntas abertas permitem que os respondentes forneçam suas próprias respo
     * Um tipo de entrada ou de nota de texto é usado para uma pergunta em aberto.  
 6. No campo Texto, digite sua pergunta.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

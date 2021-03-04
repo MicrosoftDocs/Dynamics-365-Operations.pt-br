@@ -541,3 +541,6 @@ Se as posições de classificação tiverem que ser fechadas manualmente, a opç
 
 > [!IMPORTANT]
 > Depois que o trabalho de movimentação tiver sido criado com base na localização de classificação, você não deverá cancelá-lo. Caso contrário, a posição e os contêineres nela serão excluídos do sistema e ficarão indisponíveis para processamento adicional. O estoque também será removido.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

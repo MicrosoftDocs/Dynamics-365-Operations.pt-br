@@ -133,3 +133,6 @@ Siga estas etapas para criar uma lista de sugestões para correção e reparo qu
 
 > [!NOTE]
 > Você pode alterar os nomes dos sintomas, áreas, tipos, causas e soluções de suas falhas, conforme necessário. As alterações de nome são refletidas automaticamente nos registros de falha relacionados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

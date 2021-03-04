@@ -140,3 +140,6 @@ O usuário que assina a certificação deve inserir manualmente o número de pá
 ### <a name="page-numbers"></a>Números de página
 
 Página atual e número de páginas impressas na parte inferior do documento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

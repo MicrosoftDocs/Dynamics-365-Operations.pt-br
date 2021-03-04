@@ -58,3 +58,6 @@ O relatório **Lista de solicitações de serviço** mostra uma lista com todas 
 A ilustração a seguir mostra um exemplo do relatório **Lista de solicitações de manutenção** para todas as solicitações de manutenção ativas.
 
 ![Relatório Lista de solicitações de manutenção](media/10-manage-maintenance-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

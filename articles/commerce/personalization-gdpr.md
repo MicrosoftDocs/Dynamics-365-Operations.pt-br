@@ -104,3 +104,6 @@ O exemplo a seguir mostra como um varejista pode realizar essa tarefa.
 [Criar recomendações com dados de demonstração](product-recommendations-demo-data.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

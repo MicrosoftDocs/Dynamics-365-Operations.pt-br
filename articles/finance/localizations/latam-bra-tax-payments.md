@@ -164,3 +164,6 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Calcular juros e multas em pagamentos de clientes](tasks/br-00066-2-calculate-interest-fines-customer-payments.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

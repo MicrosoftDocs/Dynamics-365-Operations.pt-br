@@ -254,3 +254,6 @@ Não é possível usar palavras-chave reservadas como nomes de atributos, compon
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

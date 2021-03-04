@@ -45,3 +45,6 @@ Este relatório apresenta um instantâneo dos seguintes resumos como parte do de
 - Resumo do imposto
 - Resumo de substituições de preço
 - Resumo de descontos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

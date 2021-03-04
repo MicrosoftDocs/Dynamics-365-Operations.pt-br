@@ -144,3 +144,6 @@ Com tantas tecnologias de integração diferentes disponíveis, a decisão sobre
 <sup>2</sup>A Microsoft está investindo fortemente na cobertura de dados crescente para entidades do Common Data Service. Recomendamos o uso de Common Data Service quando a cobertura estiver disponível. No momento, a cobertura de dados do Common Data Service é baixa com relação às entidades habilitadas para OData e DMF.
 
 <sup>3</sup>O banco de dados SQL pode ser acessado de modo programático.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

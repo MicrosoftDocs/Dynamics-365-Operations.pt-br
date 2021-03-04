@@ -60,3 +60,6 @@ Observe a propriedade **UserType** no usuário. Se o **UserType** estiver em bra
 ```
 PS C:\>Set-AzureADUser -ObjectId "testUpn@tenant.com" -UserType Member
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Essa tarefa mostrará como criar elementos de benefício que será usado ao cria
 6. No campo Efetivo, insira uma data e hora.
 7. Clique em Criar benefício.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

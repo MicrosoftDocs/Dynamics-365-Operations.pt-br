@@ -50,3 +50,6 @@ O diário **Alteração de propriedade de estoque** é usado para registrar a tr
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboração de fornecedor em processos de consignação
 Se os fornecedores serão usando a interface de colaboração de fornecedor, pode usar isso para monitorar o consumo de estoque no site. Para obter mais informações sobre como configurar fornecedores para usar a colaboração do fornecedor, consulte [Segurança do usuário no portal de fornecedor](../procurement/configure-security-vendor-portal-users.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

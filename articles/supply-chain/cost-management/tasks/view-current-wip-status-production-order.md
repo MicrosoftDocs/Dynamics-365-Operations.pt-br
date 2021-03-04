@@ -38,3 +38,6 @@ Esse procedimento mostra como exibir o demonstrativo WIP em uma ordem de produç
 6. No campo Data inicial, defina a data como '01-12-2012'.
 7. No campo Data final, defina a data como '31-12-2012'.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

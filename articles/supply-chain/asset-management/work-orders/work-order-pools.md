@@ -109,3 +109,6 @@ Conforme descrito na seção anterior, você poderá adicionar ordens de serviç
 
 Para remover uma ordem de serviço de um grupo de ordens de serviço, repita essas etapas, mas selecione **Remover** na etapa 3.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

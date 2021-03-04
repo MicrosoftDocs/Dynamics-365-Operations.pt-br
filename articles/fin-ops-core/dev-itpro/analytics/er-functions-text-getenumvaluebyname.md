@@ -117,3 +117,6 @@ Se você planeja usar essa abordagem para uma grande quantidade de dados transac
 [Função de ER FIRSTORNULL](er-functions-list-firstornull.md)
 
 [Função de ER WHERE](er-functions-list-where.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

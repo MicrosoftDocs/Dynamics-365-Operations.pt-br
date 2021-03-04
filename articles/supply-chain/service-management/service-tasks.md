@@ -90,3 +90,6 @@ Quando você cria ordens de serviço automaticamente, pode usar tarefas de servi
 2. Na guia **Configuração**, selecione **Por tarefa de serviço** no campo **Combinar ordens de serviço**.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

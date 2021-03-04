@@ -43,3 +43,6 @@ Você deve selecionar **Diferença de valor de taxa indexada** ou **Valor de tax
 
 - Selecione o método **Diferença de valor de taxa indexada** para calcular um novo pagamento de arrendamento, com base na diferença entre a taxa indexada na data de início e a taxa indexada mais recente. A taxa indexada é definida no campo **Taxa indexada (%)**.
 - Selecione o método **Valor de taxa indexada** para calcular o pagamento do arrendamento usando a porcentagem especificada no campo **Taxa indexada (%)**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

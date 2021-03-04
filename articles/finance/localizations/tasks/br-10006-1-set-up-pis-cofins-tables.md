@@ -46,3 +46,6 @@ Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as
 14. Clique em Salvar.
 15. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Este procedimento mostra como é possível adicionar uma nova expressão de rest
 4. Clique em Fechar.
 5. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

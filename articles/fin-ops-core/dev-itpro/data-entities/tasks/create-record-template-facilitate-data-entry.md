@@ -43,3 +43,6 @@ Este tópico demonstra como criar um modelo de registro para que os valores de c
 13. Selecione **OK**.
 14. Selecione **Fechar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

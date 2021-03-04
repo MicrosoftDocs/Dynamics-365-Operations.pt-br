@@ -135,3 +135,6 @@ A ilustração a seguir mostra um exemplo de classificações do produto em cana
 [Gerenciar classificações e opiniões](manage-reviews.md)
 
 [Configurar classificações e opiniões](configure-ratings-reviews.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

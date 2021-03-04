@@ -67,3 +67,6 @@ Como a empresa de engenharia tem os dados relevantes de engenharia, ela controla
 
     - Quando esses documentos são liberados para outras entidades legais, os documentos são protegidos contra remoção pela empresa operacional.
     - Outras entidades legais podem adicionar documentos locais, totalmente novos. A empresa operacional é proprietária e mantém esses documentos locais.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

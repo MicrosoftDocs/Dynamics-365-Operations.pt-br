@@ -301,3 +301,6 @@ A separação clara entre **Alocação de custo** e **Políticas de acúmulo de 
 -  [Dimensões do elemento de custo](cost-elements.md)
 -  [Hierarquia de dimensões](dimension-hierarchy.md)
 -  [Cálculo de custos indiretos](overhead-calculation.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

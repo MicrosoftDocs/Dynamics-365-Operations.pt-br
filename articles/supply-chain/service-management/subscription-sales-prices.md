@@ -380,3 +380,6 @@ Na primeira transação da subscrição 00020\_135, o preço de venda de EUR 550
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

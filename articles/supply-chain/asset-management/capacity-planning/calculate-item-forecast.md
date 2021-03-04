@@ -60,3 +60,6 @@ Isso é útil se você deseja obter uma visão geral do consumo esperado de iten
 8. Clique no botão **Exibir dimensões** se desejar ver as dimensões do produto, armazenamento ou rastreamento relacionadas aos itens. Marque as caixas de seleção relevantes e clique em **OK**.
 
 ![Figura 1](media/02-capacity-planning.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Estou usando a versão 10.0.16 ou posteriores e recebi a seguinte mensagem de er
 > Preencha o seguinte questionário para começar e, se for o caso, solicitar uma exceção da migração para a Otimização de Planejamento.
 
 **Resposta:** Não, o planejamento mestre não está bloqueado. A execução do planejamento mestre foi concluída com êxito e você pode usar o resultado como de costume. No entanto, para evitar o recebimento dessa mensagem de erro durante futuras execuções do planejamento mestre, você deve migrar para a Otimização de Planejamento imediatamente ou solicitar uma exceção usando o link na mensagem de erro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Use este procedimento para configurar um modelo que representa objetos no local 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

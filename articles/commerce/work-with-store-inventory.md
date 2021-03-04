@@ -69,3 +69,6 @@ Contagens de estoque podem ser agendadas ou não agendadas. As contagens de esto
 ## <a name="inventory-lookup"></a>Pesquisa de estoque
 
 A quantidade de produtos atualmente disponível para várias lojas e depósitos pode ser exibida na página de pesquisa **Estoque**. Além da quantidade atual disponível, as quantidades futuras disponíveis para promessa (ATP) podem ser exibidas para cada loja. Selecione a loja para exibir as quantidades de ATP e, em seguida, selecione **Mostrar disponibilidade da loja**. Para obter informações sobre as opções de configuração disponíveis, consulte [Calcular a disponibilidade de estoque para canais de varejo](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

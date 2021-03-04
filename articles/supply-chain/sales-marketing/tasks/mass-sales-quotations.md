@@ -101,3 +101,6 @@ Este procedimento demonstra como criar cotações de forma eficiente que oferece
 11. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
     * Verifique se as cotações foram criadas para todos os clientes especificados na rotina de atualização em massa, conforme baseado no modelo selecionado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

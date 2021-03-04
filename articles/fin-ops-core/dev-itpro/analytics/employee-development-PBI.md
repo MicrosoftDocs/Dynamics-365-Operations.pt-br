@@ -68,3 +68,6 @@ Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no paine
 | Análise de habilidades do funcionário  | Certificado, nível, data do nível e habilidade                                                                    | Nome do funcionário, Habilidade |
 | Desempenho              | Classificação, descrição e modelo de classificação                                                                      | Funcionário atual, Posição atual, Evolução do funcionário, Habilidade preferencial no trabalho, Atribuição da última posição, Tendência da posição, Funcionário demitido |
 | Habilidade                    | Habilidade, tipo de habilidade e classificação                                                                              | Análise de habilidades do funcionário, Habilidade preferencial no trabalho |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

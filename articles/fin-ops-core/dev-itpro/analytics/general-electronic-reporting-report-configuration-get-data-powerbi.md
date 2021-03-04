@@ -196,3 +196,6 @@ Configure a integração com o Power BI. Para saber mais, consulte [Configurar a
 [Destinos de relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

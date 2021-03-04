@@ -98,3 +98,6 @@ Agora, você pode atribuir um funcionário a um plano de remuneração fixa. Abr
 
 O sistema verifica se o valor de remuneração especificado para um plano de remuneração do tipo de classificação ou da faixa está dentro dos pontos de referência mínimo e máximo para o nível de remuneração no trabalho do funcionário. Se o valor de remuneração estiver fora do intervalo permitido, um aviso ou uma mensagem de erro serão exibidas, dependendo do nível de tolerância que é definido no plano de remuneração fixa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

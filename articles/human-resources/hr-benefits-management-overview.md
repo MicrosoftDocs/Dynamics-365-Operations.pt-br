@@ -97,3 +97,6 @@ Esses artigos mostram como criar planos de benefícios, incluindo pacotes e prog
 - [Processar qualificação para eventos de vida](hr-benefits-process-life-event-eligibility.md)
 - [Processar alterações de taxa](hr-benefits-process-rate-changes.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Além disso, se o campo **Data inicial** do período de redução for igual a 21
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

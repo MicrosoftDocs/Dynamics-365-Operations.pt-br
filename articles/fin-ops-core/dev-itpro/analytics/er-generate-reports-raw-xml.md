@@ -37,3 +37,6 @@ Você pode usar o novo elemento de formato **XML BRUTO** para criar formatos os 
 > Saiba que a estrutura não é controlada se o conteúdo XML colocado para o documento gerado usando o elemento do formato **RAW XML** estiver correto.
 
 Para saber mais sobre este recurso, execute os guias de tarefas **ER - Usar dados XML brutos para gerar relatórios XML (Parte 1: Criar modelo de dados)** e **ER - Usar dados XML brutos para gerar relatórios XML (Parte 2: Criar e executar relatório)** que fazem parte do processo empresarial **7.5.4.3 Adquirir/Desenvolver componentes de serviço/solução de TI (10677)** e podem ser baixadas no [Centro de Download da Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Esses guias de tarefas o conduzem pelo processo de configuração de um formato de ER para inserir dados de XML brutos em arquivos gerados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

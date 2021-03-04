@@ -87,3 +87,6 @@ Para exportar um relatório financeiro, no Painel de Ação, clique em **Exporta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

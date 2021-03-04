@@ -192,3 +192,6 @@ O status do trabalho selecionado e o status de todos os trabalhos vinculados par
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

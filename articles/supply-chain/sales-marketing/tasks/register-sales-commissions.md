@@ -71,3 +71,6 @@ Anote os números de cliente e item que você escolheu para o processo de comiss
 3. Feche a página.
 4. Selecione **Comprovante**. Você pode revisar as transações do comprovante quanto aos valores de comissão que foram lançados na despesa de comissão predefinida e nas contas de comissão a pagar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

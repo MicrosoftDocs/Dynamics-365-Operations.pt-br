@@ -61,3 +61,6 @@ Além dos relatórios financeiros, você pode usar os relatórios do razão a se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

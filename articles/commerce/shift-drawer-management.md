@@ -158,3 +158,6 @@ Vá para **Retail e Commerce \> Canais \> Lojas \> Todas as lojas de varejo \> D
 Essa configuração ajuda a garantir que os demonstrativos do back office incluam as mesmas transações que os turnos no PDV, e que os dados sejam resumidos por esse turno.
 
 Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

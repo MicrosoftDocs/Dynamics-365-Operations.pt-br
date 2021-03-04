@@ -53,3 +53,6 @@ Você pode criar uma apuração de imposto para o ICMS de um período de escritu
 23. Feche a página.
 24. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

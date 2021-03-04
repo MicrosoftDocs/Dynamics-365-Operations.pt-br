@@ -105,3 +105,6 @@ Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado d
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Outras funções (específicas de domínio comercial)](er-functions-category-other.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

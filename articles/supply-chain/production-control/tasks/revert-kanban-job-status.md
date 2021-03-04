@@ -55,3 +55,6 @@ Esse procedimento se concentra em reverter um status incorreto do trabalho kanba
     * Selecione o mesmo trabalho.  
     * Observe que o status do trabalho para o trabalho kanban será revertido para Planejado, que é indicado por um ícone kanban vazio.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

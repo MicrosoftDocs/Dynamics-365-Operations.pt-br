@@ -43,3 +43,6 @@ Este procedimento mostra como usar a colaboração de fornecedor para ver as inf
 1. Vá para Colaboração do fornecedor > Estoque de consignação > Estoque de consignação disponível.
     * Disponível a página de remessa de estoque mostra o estoque que você possui em depósito de cliente. Você pode mostrar dimensões adicionais, como o site e o depósito, clique na guia dimensões de exibição.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

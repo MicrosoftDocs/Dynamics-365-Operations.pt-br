@@ -59,3 +59,6 @@ Esta guia ajudará a configurar uma definição do período de classificação p
 2. Selecione um cliente com um saldo.
 3. Expanda a área da caixa de dados **Classificação por vencimento** para exibir os saldos classificados por vencimento. A definição do período de classificação por vencimento da caixa de fatos são tiradas da definição do período de classificação por vencimento padrão especificado nos parâmetros. Você pode alterá-la usando o menu Coletar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

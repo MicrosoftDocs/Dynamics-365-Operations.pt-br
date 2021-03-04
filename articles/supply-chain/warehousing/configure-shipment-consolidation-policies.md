@@ -354,3 +354,6 @@ Os cenários a seguir ilustram como você pode usar as políticas de consolidaç
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

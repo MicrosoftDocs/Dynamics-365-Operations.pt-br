@@ -49,3 +49,6 @@ Este procedimento mostra como liquidar transações entre contas contábeis e ca
 7. Clique em Liquidações do razão.
 8. Na lista, marque a linha selecionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

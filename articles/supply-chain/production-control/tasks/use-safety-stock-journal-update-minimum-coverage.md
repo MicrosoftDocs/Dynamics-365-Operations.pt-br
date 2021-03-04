@@ -66,3 +66,6 @@ Este procedimento mostra como calcular propostas de cobertura mínima baseadas e
 5. No **Painel de Ação**, clique em Plano.
 6. Clique em **Cobertura de item**. Observe que a **Quantidade mínima** foi atualizada com a nova quantidade mínima do diário de estoque de segurança.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -108,3 +108,6 @@ A tabela a seguir lista exemplos das definições de layout técnico de arquivos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

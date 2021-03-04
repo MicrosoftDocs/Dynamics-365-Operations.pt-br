@@ -361,3 +361,6 @@ Siga estas etapas para gerenciar o ciclo de vida do recurso Complemento de fatur
 
     > [!NOTE]
     > Quando você seleciona **Sim**, o status das versões da configuração é alterado automaticamente de **Concluído** para **Compartilhado**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

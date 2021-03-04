@@ -83,3 +83,6 @@ Este procedimento explica como modificar uma configuração de formato de relat�
 ## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>Use a versão de rascunho alterada do formato de ER para processamento do diário de pagamento
 
 Revise a planilha criada, incluindo novos detalhes de linhas de pagamento – data de pagamento.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

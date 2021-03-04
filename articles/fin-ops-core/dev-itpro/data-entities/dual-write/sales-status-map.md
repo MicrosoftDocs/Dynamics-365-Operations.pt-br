@@ -150,3 +150,6 @@ Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
     ![Alterar o valor do campo Modo de usuário de integração](media/sales-map-user-mode-yes.png)
 
 Suas ordens de venda agora estão mapeadas.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

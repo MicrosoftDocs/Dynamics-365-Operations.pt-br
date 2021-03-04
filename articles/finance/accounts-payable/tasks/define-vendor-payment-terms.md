@@ -47,3 +47,6 @@ Este tópico explica como configurar condições de pagamento para faturas de fo
 16. Insira a conta principal na qual o desconto à vista será lançado para faturas de clientes. Depois, insira a conta principal na qual o desconto à vista será lançado para faturas de fornecedor. Se **Contas de contrapartida de desconto** estiver definida como **Usar conta principal para desconto do fornecedor**, a conta principal será usada. Se a opção estiver definida como **Contas nas linhas de fatura**, o desconto à vista será lançado nas contas de ativo/despesas nas linhas da fatura.  
 17. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

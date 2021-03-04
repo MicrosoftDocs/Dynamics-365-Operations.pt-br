@@ -200,3 +200,6 @@ Para obter uma visão geral mais analítica das várias medidas de desempenho pa
 
 Para obter uma visão geral mais analítica das várias medidas de desempenho para a promoção, você pode usar a exibição Análise. Para acessar a exibição Análise, clique em **Vendas e marketing** \> **Incentivos comerciais** \> **Contratos de bonificação comercial**. No Painel de Ação, clique em **Análise**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

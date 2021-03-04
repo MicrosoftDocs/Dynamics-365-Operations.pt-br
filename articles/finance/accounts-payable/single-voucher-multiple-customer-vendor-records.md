@@ -233,3 +233,6 @@ Para evitar problemas indesejados com futuros pagamentos para esta transação, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

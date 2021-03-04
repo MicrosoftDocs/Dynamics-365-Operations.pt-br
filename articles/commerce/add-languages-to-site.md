@@ -176,3 +176,6 @@ O idioma que você adicionou agora estará disponível para que você possa conf
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

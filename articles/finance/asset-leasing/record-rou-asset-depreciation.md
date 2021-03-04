@@ -86,3 +86,6 @@ De acordo com o Padrão Internacional de Relatórios Financeiros 16 (IFRS 16) e 
 | 1                                    | 22.889,87 ÷ 24 = 953,74                 |
 | 2                                    | 22.889,87 ÷ 24 = 953,74                 |
 | 3                                    | 22.889,87 ÷ 24 = 953,74                 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

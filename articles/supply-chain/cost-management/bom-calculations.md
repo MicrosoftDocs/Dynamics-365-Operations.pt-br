@@ -95,3 +95,6 @@ Um cálculo de BOM específico a uma ordem representa uma variação de um cálc
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

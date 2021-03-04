@@ -118,3 +118,6 @@ Se os conectores de pagamento Adyen e PayPal forem necessários, adicione os doi
 [Conector de Pagamento do Dynamics 365 para PayPal](paypal.md)
 
 [Autenticação de Cliente Forte usando o Adyen](adyen_redirect.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

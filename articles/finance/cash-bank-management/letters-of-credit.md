@@ -53,3 +53,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 [Criar um contrato de recursos bancários para uma carta de crédito](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

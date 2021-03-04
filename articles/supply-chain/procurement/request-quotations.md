@@ -247,3 +247,6 @@ No exemplo abaixo, você pode ver o status mais alto e o mais baixo do caso de R
 | Aceite uma das ofertas. (ou pelo menos uma linha) |                          Recebido                           |                           Aceita                           |                    Recebido                    |                    Aceita                     |                   Recebido                   |                   Aceita                    |
 |           Rejeite todos os outros lances.           |                          Rejeitada                           |                           Aceita                           |                    Rejeitada                    |                    Aceita                     |                   Rejeitada                   |                   Aceito                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

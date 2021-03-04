@@ -143,3 +143,6 @@ As seguintes ilustrações mostram um exemplo de um mapeamento de modelos no int
 
 [Prospect to cash](prospect-to-cash.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

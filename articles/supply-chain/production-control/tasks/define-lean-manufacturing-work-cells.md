@@ -100,3 +100,6 @@ Uma célula de trabalho é um formulário específico dos grupos de recursos que
 ## <a name="save"></a>Salvar
 1. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

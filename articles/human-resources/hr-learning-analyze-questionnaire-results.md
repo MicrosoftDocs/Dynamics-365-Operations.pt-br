@@ -69,3 +69,6 @@ As estatísticas do questionário podem ser usadas para calcular média, totais 
 2. Clique em Resultado.
 3. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

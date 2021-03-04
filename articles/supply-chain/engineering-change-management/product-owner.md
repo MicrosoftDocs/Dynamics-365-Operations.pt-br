@@ -61,3 +61,6 @@ Por exemplo, o produto X é atribuído ao grupo de proprietários de produtos *P
 ## <a name="product-owners-and-approvals"></a>Proprietários e aprovações de produtos
 
 Como os proprietários de produtos sabem se as alterações de engenharia específicas se beneficiarão com seus produtos, geralmente faz sentido incluí-las como parte do processo de aprovação no gerenciamento de alterações de engenharia. Você pode implementar essa abordagem configurando os proprietários de produtos como provedores de participantes nos fluxos de trabalho que são usados para o gerenciamento de alterações de engenharia. O sistema atribuirá tarefas de aprovação nos fluxos de trabalho com base nos produtos que estão nas solicitações de alteração de engenharia e nas ordens de alteração de engenharia. Para obter mais informações, consulte [Gerenciar alterações de produtos de engenharia](engineering-change-management.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

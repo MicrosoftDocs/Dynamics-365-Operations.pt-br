@@ -81,3 +81,6 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="warehouses-supply-chain-management-to-field-service-warehouse"></a>Depósitos (Supply Chain Management para Field Service): Depósito
 
 [![Mapeamento de modelo na Integração de dados](./media/Warehouse1.png)](./media/Warehouse1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

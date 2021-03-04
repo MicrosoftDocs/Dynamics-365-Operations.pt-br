@@ -81,3 +81,6 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "Cri
 25. Clique em OK.
     * Analisar o arquivo de pagamento criada no formato XML. Compare-o com o layout de documento criado e defina atributos da transação de pagamento.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

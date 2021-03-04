@@ -57,3 +57,6 @@ Após criar o catálogo de endereços global, você pode criar catálogos de end
 **Decisão:**
 
 - Quantos catálogos de endereços adicionais serão criados?
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

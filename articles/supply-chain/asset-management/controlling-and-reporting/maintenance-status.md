@@ -68,3 +68,6 @@ Na captura de tela abaixo, foram adicionadas informações sobre locais funciona
 
 ![Exemplo de carga de trabalho mensal com locais funcionais](media/14-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -65,3 +65,6 @@ Nos argumentos de funções lógicas, você pode usar referências de fontes de 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções lógicas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

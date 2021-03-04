@@ -56,3 +56,6 @@ Perguntas condicionais permitem que você especifique qual será a próxima perg
 10. Na árvore, selecione 'Perguntas\Eu sou bem pago pelo trabalho que faço.'.
     * Observe que a árvore de pergunta atualizou para mostrar a dependência.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

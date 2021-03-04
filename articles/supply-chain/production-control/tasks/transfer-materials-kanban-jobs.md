@@ -66,3 +66,6 @@ Esse procedimento se concentra na execução de um trabalho kanban de retirada p
 2. Clique em Concluir.
     * Isso irá concluir a transferência de ambos os trabalhos.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

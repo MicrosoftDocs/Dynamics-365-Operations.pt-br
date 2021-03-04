@@ -142,3 +142,6 @@ Para adicionar um módulo de reprodução de contêiner a uma nova página e def
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

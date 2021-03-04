@@ -53,3 +53,6 @@ No espaço de trabalho **Gerenciamento de dados**, você pode ter uma visão ger
 
     ![Figura 3](media/03-data-management.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

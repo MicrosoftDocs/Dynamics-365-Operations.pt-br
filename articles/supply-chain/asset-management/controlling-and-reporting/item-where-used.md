@@ -71,3 +71,6 @@ Na captura de tela abaixo, você verá um exemplo de um cálculo de item onde us
 
 ![Exemplo de item onde cálculo usado](media/12-controlling-and-reporting.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

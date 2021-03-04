@@ -45,3 +45,6 @@ Para definir a ID de lote padrão usada para o faturamento da ordem de venda por
 
 > [!NOTE]
 > O suporte ao manuseio aprimorado de itens de lote rastreados durante o lançamento de demonstrativo a cenários de gerenciamento de depósito não avançado foi apresentado no Retail versão 10.0.5.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

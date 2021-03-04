@@ -48,3 +48,6 @@ Processe alterações na taxa de benefícios no Microsoft Dynamics 365 Human Res
    4. Selecione **OK**. O processo será executado com os parâmetros definidos por você.
 
 4. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

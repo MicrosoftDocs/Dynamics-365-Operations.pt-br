@@ -238,3 +238,6 @@ O registro G140 é gerado para identificar a nota fiscal das operações CIAP. O
 | 7      | VL\_ICMS\_ST\_APLICADO  | O valor do ICMS-ST da nota fiscal de entrada. Esse valor vem da coluna **ICMS-ST** da apuração do CIAP. |
 | 8      | VL\_ICMS\_FRT\_APLICADO | O valor do ICMS da nota fiscal de entrada. Esse valor vem da coluna **ICMS no frete** da apuração do CIAP. |
 | 9      | VL\_ICMS\_DIF\_APLICADO | O valor do ICMS-DIF da nota fiscal de entrada. Esse valor vem da coluna **ICMS-DIF** da apuração do CIAP. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -89,3 +89,6 @@ Todas as entradas de diário criadas no arrendamento de ativos estão contidas n
 
 > [!NOTE]
 > O diário de arrendamento de ativo não pode ser criado manualmente. Ele é criado automaticamente quando as agendas de arrendamento são criadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

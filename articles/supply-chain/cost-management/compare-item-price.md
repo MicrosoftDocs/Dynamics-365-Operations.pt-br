@@ -121,3 +121,6 @@ Veja a seguir um exemplo de como exportar um **Relatório de comparação de arm
 1. É aberta a página **Resumo de execução** na qual você pode ver o status do seu trabalho de exportação e uma lista de entidades que foram exportadas. Selecione a entidade **Comparar preços de item** listada na área **Status de processamento da entidade** e, em seguida, selecione **Baixar arquivo** para baixar os dados exportados dessa entidade.
 
 Para obter mais informações sobre como usar o gerenciamento de dados para exportar dados, consulte [Visão geral de trabalhos de importação e exportação de dados](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

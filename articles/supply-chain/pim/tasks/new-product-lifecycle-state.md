@@ -35,3 +35,6 @@ Este procedimento mostra como criar um novo estado do ciclo de vida do produto. 
 3. No campo Estado, digite um valor.
 4. No campo Descrição, digite um valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

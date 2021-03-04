@@ -51,3 +51,6 @@ Este procedimento demonstra como converter reembolsos de cliente aprovados e pro
     * Observe que uma transação para valor negativo, representando o valor total do reembolso, sem referência de fatura foi adicionada ao saldo do cliente.   
 15. Clique em Cancelar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

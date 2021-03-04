@@ -281,3 +281,6 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 6. No campo **Conta bancária**, selecione **DEMF OPER**.
 7. Na caixa de diálogo **Gerar pagamentos**, selecione **OK**.
 8. Na caixa de diálogo **Parâmetros de relatório eletrônico**, selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

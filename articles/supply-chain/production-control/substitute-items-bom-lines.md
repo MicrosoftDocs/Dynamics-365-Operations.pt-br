@@ -49,3 +49,6 @@ Considere o cenário a seguir: uma placa de metal é necessária para uma opera�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

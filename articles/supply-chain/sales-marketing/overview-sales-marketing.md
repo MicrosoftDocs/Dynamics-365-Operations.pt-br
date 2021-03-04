@@ -125,3 +125,6 @@ Uma nota fiscal pro forma é uma nota fiscal preparada como uma previsão dos va
 #### <a name="blogs"></a>Blogs
 
 Você pode localizar uma visão geral de um processo de venda no post [Como as vendas funcionam no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

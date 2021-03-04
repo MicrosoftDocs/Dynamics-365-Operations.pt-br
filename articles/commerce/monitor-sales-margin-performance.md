@@ -49,3 +49,6 @@ Além disso, dois relatórios exclusivos que aproveitam a estruturação da grad
 - Espaço de trabalho **Gerenciamento de categorias e produtos** &gt; **Varejo e Comércio** &gt; **Produto e categorias** &gt; **Gerenciamento de loja** &gt; **Relatórios**
 - Espaço de trabalho **Gerenciamento de preços e descontos** &gt; **Varejo e Comércio** &gt; **Preços e descontos** &gt; **Gerenciamento de loja** &gt; **Relatórios**
 - Seção **Consultas e relatórios** &gt; **Varejo e Comércio** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

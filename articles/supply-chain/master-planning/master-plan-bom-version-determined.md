@@ -44,3 +44,6 @@ Uma versão da BOM válida, específica a um site ou geral, deve preencher os cr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

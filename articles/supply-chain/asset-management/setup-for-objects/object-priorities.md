@@ -53,3 +53,6 @@ Para obter mais informações sobre a instalação relacionadas ao cálculo de p
 
 > [!NOTE]
 > Se você alterar um registro de nível de serviço de ativo na página **Níveis de serviço de ativo** depois de já tê-lo usado em uma ordem de serviço, o nível de serviço em solicitações de manutenção e ordens de serviço não será atualizado de forma correspondente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

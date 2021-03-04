@@ -69,3 +69,6 @@ Se o valor do argumento `starting position` exceder o tamanho da cadeia de carac
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de texto](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

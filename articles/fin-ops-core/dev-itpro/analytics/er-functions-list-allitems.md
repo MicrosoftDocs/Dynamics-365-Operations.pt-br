@@ -65,3 +65,6 @@ Se você inserir **Forn.** como a fonte de dados do tipo *Lista de registros* qu
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

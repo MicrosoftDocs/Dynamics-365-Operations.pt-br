@@ -45,3 +45,6 @@ Este procedimento mostra como criar novos nós em uma hierarquia de categorias d
 4. Selecione os produtos que você deseja adicionar à categoria de compras.
 5. Selecione a seta para adicionar os produtos à tabela **Selecionados**.
 6. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

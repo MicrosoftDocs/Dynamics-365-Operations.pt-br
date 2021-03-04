@@ -173,3 +173,6 @@ Para configurar um módulo de contêiner em uma página, siga estas etapas.
 
 [Trabalhar com grupos de publicações](publish-groups.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

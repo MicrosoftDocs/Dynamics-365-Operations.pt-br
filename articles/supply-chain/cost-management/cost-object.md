@@ -82,3 +82,6 @@ A tabela a seguir mostra o que é um objeto de custo e o que é um objeto de est
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

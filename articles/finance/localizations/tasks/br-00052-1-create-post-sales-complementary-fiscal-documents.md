@@ -43,3 +43,6 @@ Use este procedimento para criar uma nota fiscal complementar de vendas para aju
 12. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 13. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

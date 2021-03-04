@@ -139,3 +139,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 83. Clique em Salvar.
 84. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

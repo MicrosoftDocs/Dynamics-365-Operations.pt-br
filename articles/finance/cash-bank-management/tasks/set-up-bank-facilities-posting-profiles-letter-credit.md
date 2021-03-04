@@ -74,3 +74,6 @@ Essas tarefas usam a empresa de demonstração 'USMF'.
     * Esta conta é debitada quando a margem de abertura é lançada e creditada quando o pagamento é lançado.  
 9. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

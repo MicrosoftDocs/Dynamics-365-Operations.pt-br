@@ -44,3 +44,6 @@ Para habilitar o relatório de preço, o parâmetro **Habilitar o relatório de 
 | Exibir produtos com alterações de preço | Definir isso como **Sim** mostrará os preços apenas para as datas em que o preço foi alterado. O preço de *um dia antes* da **data inicial** selecionada sempre será exibido, para que o gerente da loja possa identificar facilmente os produtos que não alteraram os preços durante toda a duração selecionada e também pode exibir o preço atual. |
 
 Depois que o relatório é gerado, o arquivo do Excel pode ser baixado para qualquer necessidade adicional de filtragem. O relatório de preços também pode ser usado para verificar os preços históricos de produtos para datas passadas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

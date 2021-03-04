@@ -49,3 +49,6 @@ Este procedimento mostra como criar uma provisão para depreciação especial e 
     * O padrão para a porcentagem ou o valor vem da configuração de provisão para depreciação especial.  
 8. No campo Prioridade, insira um número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

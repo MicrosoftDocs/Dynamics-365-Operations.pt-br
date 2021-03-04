@@ -110,3 +110,6 @@ Quando o recurso materiais perigosos está ativado no sistema, o relatório de *
 ## <a name="packing-list-report"></a>Relatório de lista de remessa
 
 Quando o recurso materiais perigosos está ativado no sistema, as listas de remessa incluem informações adicionais relacionadas ao texto impresso da remessa de um item. Esse relatório está disponível na página **Todas as cargas**, como de costume.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

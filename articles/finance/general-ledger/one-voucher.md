@@ -186,3 +186,6 @@ Se uma correção tiver que ser feita na conta contábil do contas a receber ou 
 ### <a name="the-system-allows-it"></a>“O sistema permite isso”
 
 Geralmente as organizações usam a funcionalidade Um comprovante único meramente porque o sistema permite que elas utilize, sem entender as implicações.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -208,3 +208,6 @@ O cenário a seguir usa o aplicativo de depósito em um dispositivo móvel para 
 
     > [!NOTE]
    > O sistema cria uma ID de trabalho para cada movimento a ser concluído. Se você especificar um local que já contém estoque, somente uma ID de trabalho será criada. Se especificar um novo local, duas IDs de trabalho serão criadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

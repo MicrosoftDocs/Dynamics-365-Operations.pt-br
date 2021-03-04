@@ -54,3 +54,6 @@ Para obter informações sobre como executar tarefas específicas em uma quadro 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

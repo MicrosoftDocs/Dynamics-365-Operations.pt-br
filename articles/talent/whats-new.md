@@ -33,3 +33,6 @@ A cada semana saem novas versões do Talent. Essas versões são listadas no sum
 
 O sumário continuará a ser atualizado a cada semana, portanto fique atento para localizar todos os novo recursos e alterações das últimas versões do Talent.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

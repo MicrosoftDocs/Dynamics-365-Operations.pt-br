@@ -64,3 +64,6 @@ Agende uma tarefa automática limpar o histórico de trabalhos em lotes. Recomen
 
 8. Altere quaisquer outros parâmetros em **Executar em segundo plano** conforme necessário e selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

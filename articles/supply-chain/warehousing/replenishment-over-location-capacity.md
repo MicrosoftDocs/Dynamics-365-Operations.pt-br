@@ -408,3 +408,6 @@ Agora, você pode separar a ordem de venda 2. Ele se tornou desbloqueada quando 
 - Se desejar, você poderá substituir manualmente a disponibilidade de trabalho de reabastecimento para cada cabeçalho de trabalho da página **Detalhes do trabalho**.
 - Quando o sistema define a disponibilidade do trabalho de reabastecimento, ele considera qualquer estoque que já esteja no local antes da conclusão de qualquer trabalho
 - Cada item de trabalho da ordem de venda é vinculado a um trabalho de reabastecimento específico. Não há funcionalidade de disponibilidade de trabalho de vendas correspondente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Este procedimento orienta na criação de contratos comerciais de preço de vend
 38. No **Painel de Ações**, clique em Vender.
 39. Clique em **Preço de venda**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

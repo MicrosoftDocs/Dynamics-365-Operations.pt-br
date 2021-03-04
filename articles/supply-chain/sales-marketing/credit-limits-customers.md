@@ -138,3 +138,6 @@ Use o formulário **Clientes** para especificar o valor do limite de crédito de
 1.  Clique em **Vendas e marketing** \> **Comum** \> **Ordens de venda** \> **Todas as ordens de venda**. Clique duas vezes em uma ordem de venda.
 
 2.  No formulário **Ordem de venda** , no painel de ação, na guia **Gerenciar** , clique em **Verificar limite de crédito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

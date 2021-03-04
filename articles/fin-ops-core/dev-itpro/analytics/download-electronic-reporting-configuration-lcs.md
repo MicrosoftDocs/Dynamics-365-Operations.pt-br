@@ -76,3 +76,6 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Baixar configurações ER do repositório global de serviço de configuração](er-download-configurations-global-repo.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Um módulo de opções de entrega pode ser adicionado somente a um módulo de fi
 [Ratear encargos do cabeçalho para coincidir com linhas de vendas](pro-rate-charges-matching-lines.md)
 
 [Configurar os modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

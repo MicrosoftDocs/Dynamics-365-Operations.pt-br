@@ -173,3 +173,6 @@ Problema 3: Você conseguirá passar pela página de entrada no Designer de Rela
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Exibir relatórios financeiros](view-financial-reports.md)
 - [Definições da árvore de relatórios em relatórios financeiros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-tree-definitions.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -90,3 +90,6 @@ A figura abaixo mostra uma captura de tela de um cálculo de KPI para quatro ati
 - Você pode selecionar vários ativos em **Todos os ativos** e clicar no botão **KPIs do ativo** na guia **General**. Em seguida, clique em **OK** na caixa de diálogo **Calcular KPIs de ativo** para calcular KPIs para os ativos selecionados.  
 - Os resultados de um cálculo de KPI podem ou não incluir [registros de tempo de inatividade de manutenção](../work-orders/maintenance-downtime.md), dependendo da configuração e do uso dos códigos de motivo de tempo de inatividade de manutenção. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

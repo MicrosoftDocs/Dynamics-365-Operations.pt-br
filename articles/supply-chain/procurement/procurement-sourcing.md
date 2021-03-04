@@ -104,3 +104,6 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

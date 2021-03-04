@@ -59,3 +59,6 @@ Também é possível criar um orçamento de manutenção, copiando um orçamento
 
 > [!NOTE]
 > O orçamento de manutenção calcula apenas os custos com base nas linhas de agendamento de manutenção. Para calcular custos reais para o mesmo período, você pode fazer esse cálculo na página **Controle de custos de ativos**. 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

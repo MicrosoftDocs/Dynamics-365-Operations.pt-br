@@ -210,3 +210,6 @@ Conforme descrito anteriormente neste tópico, os atributos **Etiqueta** e **Des
 
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 - [Funções do Relatório eletrônico](er-formula-language.md#functions)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

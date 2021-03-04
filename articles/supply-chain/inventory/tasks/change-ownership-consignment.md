@@ -55,3 +55,6 @@ Este procedimento mostra como alterar o proprietário de estoque de remessa do f
 2. Clique em OK.
 3. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Além de verificar a hora inicial e o status de trabalhos, você pode exibir o l
 [Aplicar filtros a um plano](plan-filters.md)
 
 [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

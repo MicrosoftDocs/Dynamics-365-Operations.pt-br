@@ -123,3 +123,6 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 
 > [!NOTE]
 > O mesmo arquivo foi importado, já que o design do formato agora considera o atributo "id" para o elemento "document", como opcional.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

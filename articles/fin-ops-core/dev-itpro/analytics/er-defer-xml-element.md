@@ -243,3 +243,6 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 - [Configurar o formato para contagem e soma](./tasks/er-format-counting-summing-1.md)
 - [Rastrear a execução do formato ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 - [Adiar a execução de elementos de sequência nos formatos de ER](er-defer-sequence-element.md#Example)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

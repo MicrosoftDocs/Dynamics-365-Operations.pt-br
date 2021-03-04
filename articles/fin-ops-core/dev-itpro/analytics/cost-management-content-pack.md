@@ -207,3 +207,6 @@ As principais dimensões a seguir são usadas como filtros para dividir as medid
 | Entidades legais                                          | Nomes de entidade legal                              |
 | Calendários fiscais                                        | Calendário fiscal, Ano, Trimestre, Período, Mês   |
 | Site                                                    | ID, Nome, Endereço, Estado, País               |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos ca
 21. Na lista, clique no link na linha selecionada.
 22. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

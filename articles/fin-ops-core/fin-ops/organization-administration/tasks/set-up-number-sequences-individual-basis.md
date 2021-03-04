@@ -40,3 +40,6 @@ Este tópico explica como configurar sequências numéricas individualmente. Seq
 8. Expanda a seção **Geral**. Na Guia Rápida Geral, especifique se a sequência numérica é manual e se é contínua ou não contínua. Além disso, insira os números mais baixos e mais altos que podem ser usados na sequência numérica. Não recomendamos alterar uma sequência numérica não contínua a uma sequência numérica contínua. A sequência numérica não será verdadeiramente contínua. Essa alteração também pode causar violações de chave duplicada no banco de dados. Além disso, as sequências numéricas contínuas têm um efeito maior no desempenho.   
 9. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ O Microsoft Dynamics 365 Finance inclui um formato de exemplo no qual o cheque e
 - Ao gerar pagamentos para a conta bancária configurada no diário de pagamento, os cheques serão impressos com o formato especificado.
 
 Para obter mais informações, consulte [Modificar um formato de relatório eletrônico](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

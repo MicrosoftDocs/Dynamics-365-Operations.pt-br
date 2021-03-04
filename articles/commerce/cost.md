@@ -171,3 +171,6 @@ Você deve configurar os seguintes campos para essa combinação:
 
 > [!IMPORTANT]
 > Para que o GOD considere esses custos quando for executado, você deverá adicionar o fator de custo ao perfil de atendimento relevante.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

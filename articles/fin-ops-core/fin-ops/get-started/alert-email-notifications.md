@@ -50,3 +50,6 @@ O serviço envia notificações por email usando modelos predefinidos de email q
 A imagem a seguir mostra a estrutura das notificações de alerta quando elas são recebidas por email.
 
 [![Notificações de alerta baseadas em modelo para a criação de registros, alterações de campo e exclusão de modelos](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

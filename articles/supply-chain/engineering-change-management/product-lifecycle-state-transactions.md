@@ -76,3 +76,6 @@ Os campos a seguir estão disponíveis para cada processo listado na Guia rápid
 | Apólice | Selecione um dos seguintes valores para controlar se e como o processo atual será permitido para produtos que estão neste estado do ciclo de vida:<ul><li>**Habilitado** – O processo comercial é permitido.</li><li>**Bloqueado** – O processo não é permitido. Se um usuário tentar usar o processo em um produto que esteja neste estado do ciclo de vida, o sistema bloqueará a tentativa e mostrará um erro. Por exemplo, você pode bloquear a compra de produtos de fim de vida útil.</li><li>**Habilitado com aviso** – O processo é permitido, mas um aviso será exibido. Por exemplo, você pode querer que um produto protótipo seja colocado em uma ordem de produção criada pelo departamento de pesquisa e desenvolvimento. No entanto, outros departamentos devem estar cientes de que ainda não devem produzir o produto.</li></ul> |
 
 Se você estiver adicionando mais regras de estado do ciclo de vida como uma personalização, poderá exibir essas regras na interface do usuário, selecionando **Atualizar processos** no painel superior. O botão **Atualizar processos** está disponível somente para administradores.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Você pode imprimir os pesos do material de embalagem na fatura e indicar quem e
 
 1. Vá para **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
 1. Na guia **Atualizações**, na Guia Rápida **Nota fiscal**, defina a opção **imprimir peso do material de embalagem** como **Sim**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

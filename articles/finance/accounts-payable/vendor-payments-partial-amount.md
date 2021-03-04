@@ -54,3 +54,6 @@ Você pode fazer um pagamento parcial em que o valor a ser liquidado é muito pe
 
 
 Para saber mais, consulte [Visão geral de pagamentos a fornecedores](../cash-bank-management/tasks/vendor-payment-overview.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

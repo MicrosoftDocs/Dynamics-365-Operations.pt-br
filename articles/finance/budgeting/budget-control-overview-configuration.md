@@ -127,3 +127,6 @@ Depois que o controle de orçamento é ativado, os usuários recebem o aviso do 
 Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento** exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
 
 Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se o gerente de orçamento tiver permissões de orçamento configuradas, as ordens de compra podem ser confirmadas diretamente no espaço de trabalho.    
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Você também pode configurar opções relacionadas à experiência do candidato
 Também é possível definir e impor uma data de vencimento para as ofertas. Se você definir a opção **Requer uma data de vencimento para todas as ofertas** como **Sim**, a oferta expirará após o número de horas ou de dias especificado.
 
 Para obter mais informações sobre o gerenciamento de ofertas, consulte [Configurar o gerenciamento de ofertas](./offer-setup.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

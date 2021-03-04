@@ -50,3 +50,6 @@ Além disso, você deverá concluir o guia de tarefas [ER Criar as configuraçõ
 | Cargo                  | Nome do arquivo |
 |------------------------|-----------|
 | Configuração de modelo ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=874111) |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -75,3 +75,6 @@ Se você tiver habilitado o recurso de visualização de correções de feriados
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

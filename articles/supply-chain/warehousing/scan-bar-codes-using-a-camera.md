@@ -55,3 +55,6 @@ Na página da câmera, ao clicar no botão Câmera, ele terá aparência esmaeci
 
 Ao apontar a câmera para um código de barras, mantenha o código de barras alinhado dentro dos colchetes para obter o melhor resultado. Quando um código de barras for digitalizado com êxito, o resultado será processado, e você será levado à próxima etapa. Se a etapa seguinte tiver outro campo de entrada com o modo de entrada preferido definido como Digitalização, a página da câmera será iniciada novamente. Se a etapa seguinte não for um campo de digitalização, a página da câmera não será iniciada.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ O exemplo a seguir mostra como é possível obter a lista de números de conta d
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

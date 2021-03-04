@@ -245,3 +245,6 @@ Na carga de trabalho em unidades de escala, você pode gerenciar estes dois trab
 
 - Processar registros de tabela do ciclo
 - Processar eventos de transferência de controle de execução do ciclo
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

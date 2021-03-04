@@ -205,3 +205,6 @@ O designer de grade de botões permite que você configure grades de botões que
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Instalar o designer de layout do Retail POS (ponto de venda)](install-pos-layout-designer.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

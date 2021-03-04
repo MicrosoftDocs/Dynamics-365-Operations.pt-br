@@ -84,3 +84,6 @@ Em ambos os esquemas de Débito Direto da SEPA, os clientes têm determinados di
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

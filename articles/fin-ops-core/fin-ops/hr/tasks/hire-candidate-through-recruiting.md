@@ -45,3 +45,6 @@ Este procedimento permite que um recruta contrate um candidato que envia uma sol
 15. Expandir ou recolher a seção Informações de contato.
 16. Expandir ou recolher a seção Informações pessoais.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Este é o quarto dos cinco procedimentos que demonstram o processo de pagamento 
 8. Clique em OK.
 9. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

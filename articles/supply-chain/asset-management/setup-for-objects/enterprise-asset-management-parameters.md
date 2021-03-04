@@ -107,3 +107,6 @@ Selecione os tipos de documentos que devem estar disponíveis para imprimir anex
 Link **Sequências numéricas**
 
 Selecione as sequências numéricas necessárias nesta seção. Há duas sequências numéricas para ativos: uma para ativos criados manualmente e outra para ativos criados por meio de ativos pendentes.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

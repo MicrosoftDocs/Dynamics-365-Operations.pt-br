@@ -88,3 +88,6 @@ Para saber mais, consulte [Fechar a contabilidade no fim do período](close-gene
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

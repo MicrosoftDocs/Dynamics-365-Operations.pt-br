@@ -130,3 +130,6 @@ Você também pode criar e usar tabelas e gráficos dinâmicos para mais agrupam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

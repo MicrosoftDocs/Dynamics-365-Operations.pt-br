@@ -162,3 +162,6 @@ Várias entidades de dados foram adicionadas para permitir a rápida implementa�
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

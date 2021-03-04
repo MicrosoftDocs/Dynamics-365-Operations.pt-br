@@ -142,3 +142,6 @@ Conforme mostram os resultados, os dois modelos têm uma pontuação de acuráci
 
 #### <a name="privacy-notice"></a>Aviso de privacidade
 As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

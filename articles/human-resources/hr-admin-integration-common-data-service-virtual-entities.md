@@ -216,3 +216,6 @@ O painel deslizante exibe os resultados da execução mais recente para o proces
 [Criar e editar entidades virtuais que contenham dados de uma fonte de dados externa](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-virtual-entities)<br>
 [O que são os portais do Power Apps?](https://docs.microsoft.com/powerapps/maker/portals/overview)<br>
 [Visão geral da criação de aplicativos no Power Apps](https://docs.microsoft.com/powerapps/maker/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

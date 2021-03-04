@@ -96,3 +96,6 @@ A tabela a seguir mostra quais ordens de venda os usuários em cada função da 
 
 > [!NOTE]
 > Embora os Sam e Jane sejam contatos que trabalham para o cliente X, eles podem ver somente os pedidos feitos por eles mesmos e nada mais. Embora May possa ter uma ordem no sistema, ela não pode ver essa ordem no portal do cliente, pois ela é um usuário não autorizado. (Além disso, ela deve ter feito o pedido por um canal diferente do portal do cliente.)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

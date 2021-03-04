@@ -69,3 +69,6 @@ Se o primeiro e o segundo valor forem valores do tipo de dados *Contêiner (regi
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções lógicas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

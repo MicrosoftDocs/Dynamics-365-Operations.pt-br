@@ -89,3 +89,6 @@ Para adicionar um módulo de bloco de texto a uma nova página e definir as prop
 
 [Módulo de reprodutor de vídeo](add-video-player.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

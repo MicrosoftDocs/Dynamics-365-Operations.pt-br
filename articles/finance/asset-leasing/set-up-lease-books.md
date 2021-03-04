@@ -53,3 +53,6 @@ Para criar um registro de arrendamento, siga estas etapas.
     | Limite de curto prazo                     | Digite o número de meses a ser usado como limite para arrendamentos de curto prazo. Se o prazo do arrendamento for menor ou igual ao número de meses inseridos aqui, o sistema classificará a concessão como um arrendamento de curto prazo e o tratamento do arrendamento diferido será aplicado. |
     | Limite de valor baixo                      | Insira um valor a ser usado como limite para arrendamentos de baixo valor. Se o valor justo do ativo for menor ou igual ao valor inserido aqui, o sistema classificará o arrendamento como um arrendamento de baixo valor, e o tratamento do arrendamento diferido será aplicado. |
     | Pagar ao fornecedor                            | Defina essa opção como **Sim** para permitir que os pagamentos de arrendamento sejam lançados, como uma fatura, na conta de fornecedor especificada em cada arrendamento. Quando um pagamento de arrendamento for lançado, a conta do fornecedor será creditada. Se essa opção for definida como **Não**, a conta especificada para o tipo de lançamento de **Pagamento de arrendamento** na página **Parâmetros de lançamento de arrendamento** será creditada. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

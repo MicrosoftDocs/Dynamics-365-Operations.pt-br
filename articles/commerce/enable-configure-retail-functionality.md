@@ -69,3 +69,6 @@ Depois que a inicialização for concluída, você deverá configurar os dados a
 - Canais do Commerce
 - Registros e dispositivos
 - Sortimentos
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

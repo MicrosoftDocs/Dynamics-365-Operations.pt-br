@@ -134,3 +134,6 @@ Para usar BOMs de modelo, você deve configurar duas sequências numéricas. Con
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

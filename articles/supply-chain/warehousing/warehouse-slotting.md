@@ -384,3 +384,6 @@ Quando todos os elementos necessários estiverem ativos, você poderá configura
 1. Defina que a recorrência seja executada automaticamente, se desejar.
 
 Para os exercícios no cenário, **não** configure slots automáticos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

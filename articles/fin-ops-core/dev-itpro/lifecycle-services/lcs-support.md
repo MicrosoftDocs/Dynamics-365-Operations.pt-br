@@ -68,3 +68,6 @@ Este tópico explica como obter ajuda com aplicativos do Finance and Operations 
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

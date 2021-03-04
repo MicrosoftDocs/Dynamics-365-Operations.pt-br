@@ -114,3 +114,6 @@ A tabela a seguir descreve os atalhos de teclado que podem ser usados quando a p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

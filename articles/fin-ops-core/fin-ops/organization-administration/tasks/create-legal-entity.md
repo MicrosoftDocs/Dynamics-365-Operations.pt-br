@@ -45,3 +45,6 @@ Uma entidade legal é uma organização que é identificada através de um regis
 15. Expanda a seção **Registro de imposto**. Na seção **Registro de imposto**, insira os números de registro usados nos relatórios para as autoridades fiscais.
 16. Expanda a seção **Imposto 1099**. Na seção **Imposto 1099**, insira a informação 1099 da entidade legal.  
 17. Clique em **Salvar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

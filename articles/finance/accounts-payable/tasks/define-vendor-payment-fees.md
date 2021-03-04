@@ -59,3 +59,6 @@ Configure taxas de pagamento de fornecedor. Esta tarefa usa a empresa de demonst
     * Esta moeda é para a taxa. A moeda do pagamento é usada para definir quando a regra de taxa deverá ser cobrada com base na moeda do pagamento. Por exemplo, seu banco pode cobrar uma taxa quando um pagamento é efetuado em Euro, mas todos pagamentos restantes não são avaliados por uma taxa.  
 18. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

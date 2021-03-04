@@ -108,3 +108,6 @@ A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Contro
 ![Resultados do cálculo de exemplo em Controle de datas da ordem de serviço](media/03-controlling-and-reporting.png)
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

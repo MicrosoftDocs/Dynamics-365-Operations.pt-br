@@ -49,3 +49,6 @@ Logo após serem adicionados a um trabalho, os candidatos recebem um email que i
 
 ## <a name="analytic-reports"></a>Relatórios analíticos
 As equipes de contratação podem usar as métricas do processo de contratação de chaves de visualização para um único trabalho ou agregadas em todos os trabalhos com [relatórios analíticos no Attract](analytic-reports.md). No momento, este recurso está em [visualização](access-preview-feature.md) para clientes com o [Qual versão do Microsoft Dynamics 365 Talent - Attract](attract-comprehensive-hiring.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

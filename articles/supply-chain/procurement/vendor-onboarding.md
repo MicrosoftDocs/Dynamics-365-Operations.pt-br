@@ -175,3 +175,6 @@ Usando a ação **Excluir** da solicitação de registro do fornecedor potencial
 |         Aprovada         |                                                                               A solicitação do fornecedor foi aprovada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
 |         Rejeitada         |                                                                               A solicitação do fornecedor foi rejeitada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

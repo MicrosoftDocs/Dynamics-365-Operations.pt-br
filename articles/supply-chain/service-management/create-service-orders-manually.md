@@ -102,3 +102,6 @@ Você pode criar uma ordem de serviço do formulário **Ordens de venda** usando
 
 [Criar ordens de serviço (formulário de classe)](https://technet.microsoft.com/library/aa553901\(v=ax.60\)) 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -121,3 +121,6 @@ Para obter informações sobre como gerenciar conteúdo de sites, consulte os se
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
 
 [Configurar páginas personalizadas para logons dos usuários](custom-pages-user-logins.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

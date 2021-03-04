@@ -423,3 +423,6 @@ Provavelmente, você entrou na instância atual do aplicativo do domínio do Azu
 
 [Configurar ER (Relatórios eletrônicos) para efetuar pull de dados para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

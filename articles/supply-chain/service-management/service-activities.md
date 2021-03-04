@@ -40,3 +40,6 @@ Você pode exibir o status das atividades de serviço no formulário **Quadro de
 
 [Quadro de expedição (formulário)](https://technet.microsoft.com/library/hh242789\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

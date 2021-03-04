@@ -45,3 +45,6 @@ Quando você redefine a reutilização de configuração, as configurações cri
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

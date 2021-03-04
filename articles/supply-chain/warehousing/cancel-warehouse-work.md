@@ -45,3 +45,6 @@ Somente o trabalho do tipo **Vendas**, **Emissão de transferência**, **Separa�
 Para desbloquear o trabalho, o sistema cancela todas as linhas de trabalho restantes e corrige os dados de depósito associados à ID do trabalho que o usuário especificou. Todas as operações de manuseio de depósito comuns que envolvem a quantidade de itens afetados podem então ser retomadas.
 
 Para colocar o item afetado em um determinado local depois que o trabalho tiver sido cancelado, o usuário deverá usar uma operação de movimentos de estoque ou de ajuste de quantidade em um dispositivo móvel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

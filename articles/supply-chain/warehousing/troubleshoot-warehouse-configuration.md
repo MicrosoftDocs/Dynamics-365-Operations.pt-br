@@ -109,3 +109,6 @@ Para permitir que os trabalhadores façam essa mudança, é possível criar um i
 - **Exibir status do estoque:** *Sim*
 
 Você pode definir outros campos na página conforme necessário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

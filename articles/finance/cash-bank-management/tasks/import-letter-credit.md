@@ -185,3 +185,6 @@ Este procedimento usa a empresa de dados de demonstração USMF.
     * Verifique se o relatório lista as transações com número do documento bancário, limite de recurso, valor utilizado e valor de saldo de recurso.  
 8. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

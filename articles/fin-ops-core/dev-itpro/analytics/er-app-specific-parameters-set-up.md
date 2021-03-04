@@ -260,3 +260,6 @@ No exemplo anterior, você acessou parâmetros específicos do aplicativo de um 
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Configurar formatos de ER para usar parâmetros especificados por entidade legal](er-app-specific-parameters-configure-format.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

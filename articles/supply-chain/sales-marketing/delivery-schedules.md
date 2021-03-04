@@ -57,3 +57,6 @@ Quando você confirmar as cotações de venda, as ordens de venda resultantes mo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

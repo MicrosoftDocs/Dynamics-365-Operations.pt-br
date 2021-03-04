@@ -126,3 +126,6 @@ Você deve executar custos de fluxo inverso para avaliar o WIP periodicamente e 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

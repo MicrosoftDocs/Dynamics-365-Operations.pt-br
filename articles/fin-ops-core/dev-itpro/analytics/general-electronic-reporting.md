@@ -367,3 +367,6 @@ O ER permite adotar automaticamente alterações na última versão do component
 
 - [Criar configurações de ER (Relatórios eletrônicos)](electronic-reporting-configuration.md)
 - [Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

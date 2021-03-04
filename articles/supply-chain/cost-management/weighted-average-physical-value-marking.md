@@ -230,3 +230,6 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

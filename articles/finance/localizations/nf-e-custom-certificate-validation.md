@@ -36,3 +36,6 @@ A propriedade **Finalidade de Autenticação de Servidor** do certificado V5 é 
 Esta atualização permite uma solução alternativa para a validação de certificados, o que significa que é possível estabelecer uma comunicação segura.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

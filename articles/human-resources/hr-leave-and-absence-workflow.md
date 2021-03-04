@@ -81,3 +81,6 @@ Esses exemplos mostram como é possível criar diferentes tipos de condições d
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

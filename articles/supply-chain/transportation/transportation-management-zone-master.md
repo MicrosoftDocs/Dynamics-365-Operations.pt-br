@@ -36,3 +36,6 @@ O gerenciamento de transporte permite dividir localizações geográficas em zon
 - **Otimizar o planejamento de rotas**: atribuindo planos de rota específicos para zonas específicas.
 
 Você define zonas com base nos valores de campo de metadados (como país, intervalo de código postal ou serviço da operadora) que qualificam cada zona. As definições de zona não são necessárias se o preço do transporte não empregar um conceito de zona.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

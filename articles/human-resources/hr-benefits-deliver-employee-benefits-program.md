@@ -68,3 +68,6 @@ Este artigo mostra como criar elementos de benefício que serão usados ao criar
 16. No campo Base, selecione uma opção.
 17. No campo Valor ou taxa, insira um número.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

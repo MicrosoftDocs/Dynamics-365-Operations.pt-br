@@ -64,3 +64,6 @@ Da AppBar, um usuário pode selecionar uma operação. Dependendo do status da o
 - **Editar** – permite que os usuários façam alterações na ordem de cliente selecionada.
 
 - **Retirada** – lança o fluxo de retirada, que permite que o usuário escolha os produtos a serem retirados e cria a transação de venda de retirada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

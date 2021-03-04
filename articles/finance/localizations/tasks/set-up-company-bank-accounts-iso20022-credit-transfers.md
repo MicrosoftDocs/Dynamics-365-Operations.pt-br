@@ -52,3 +52,6 @@ Este é o segundo dos cinco procedimentos que ilustram o processo de pagamento d
 4. No campo Conta bancária, insira ou selecione um valor.
 5. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

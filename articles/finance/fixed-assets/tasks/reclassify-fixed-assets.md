@@ -46,3 +46,6 @@ Siga essa etapas para reclassificar um ativo fixo:
 5. No campo **Data de reclassificação**, insira uma data.
 6. No campo **Série de comprovante**, insira ou selecione um valor.
 7. Clique em **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

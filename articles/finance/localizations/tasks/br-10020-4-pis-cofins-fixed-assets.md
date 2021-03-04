@@ -82,3 +82,6 @@ Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFIN
 52. Feche a página.
 53. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

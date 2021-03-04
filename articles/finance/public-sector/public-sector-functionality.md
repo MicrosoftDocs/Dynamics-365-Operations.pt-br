@@ -72,3 +72,6 @@ A tabela a seguir fornece informações sobre como essa chave de configuração 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

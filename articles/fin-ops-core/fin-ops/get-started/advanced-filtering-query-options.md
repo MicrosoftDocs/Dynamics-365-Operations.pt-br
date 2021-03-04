@@ -242,3 +242,6 @@ Consulte a tabela na seção a seguir para obter detalhes adicionais sobre os m�
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

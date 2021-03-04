@@ -78,3 +78,6 @@ O Human Resources conecta dados de pessoas e operações para ajudar a otimizar 
 [Gerenciar licenças e ausências](hr-leave-and-absence-overview.md)</br>
 [Desenvolver funcionários](hr-develop-performance-management-overview.md)</br>
 [Criar cursos](hr-learning-courses.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

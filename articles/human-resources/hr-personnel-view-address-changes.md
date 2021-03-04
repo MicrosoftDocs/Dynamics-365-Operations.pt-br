@@ -128,3 +128,6 @@ Quando você seleciona o bloco **Alterações de endereço**, uma nova página e
 > Se desejar receber um alerta ou email sobre essas alterações de endereço, você poderá criar uma nova regra de alerta na guia **Opções** no Painel de Ações. Para obter mais informações sobre regras de alerta, consulte [Criar regras de alerta](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
 
 > Se desejar configurar um fluxo de trabalho para as alterações de endereço, você poderá selecionar a opção **Enviar externamente** na regra de alerta e, em seguida, usar o Power Automate para disparar o evento comercial e configurar um fluxo de trabalho. Para obter mais informações, consulte [Alertas como eventos comerciais](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

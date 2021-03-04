@@ -267,3 +267,6 @@ No Gerenciamento de Ativos, você pode atualizar automaticamente todas as altera
 2. Na caixa de diálogo **Atualizar previsão do tipo de trabalho de manutenção**, na Guia Rápida **Registros a serem incluídos**, você pode adicionar seleções para tipos de trabalho de manutenção específicos, conforme necessário. Selecione **Filtro** e **Selecionar** para fazer as seleções.
 3. Na Guia Rápida **Executar em segundo plano**, você pode configurar a atualização automática como um trabalho em lote, conforme necessário.
 4. Selecione **OK** para iniciar a atualização da previsão.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

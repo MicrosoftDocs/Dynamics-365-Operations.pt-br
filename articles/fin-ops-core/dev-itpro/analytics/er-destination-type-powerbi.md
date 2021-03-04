@@ -38,3 +38,6 @@ Defina **Habilitado** como **Sim** para usar sua configuração de ER de modo a 
 
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

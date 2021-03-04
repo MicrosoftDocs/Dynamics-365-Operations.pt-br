@@ -95,3 +95,6 @@ Para habilitar tal validação, como pré-requisito, é necessário agendar os s
 [Operação de estoque de entrada no PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operação de estoque de saída no PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

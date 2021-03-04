@@ -98,3 +98,6 @@ O saldo da fatura agora é de 0,00. Alberto exibe as informações na página **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

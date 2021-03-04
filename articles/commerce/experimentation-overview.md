@@ -57,3 +57,6 @@ Para saber mais sobre cada etapa do processo de experimentação, consulte os t�
 
 ## <a name="next-step"></a>Próxima etapa
 [Identificar uma hipótese e determinar as métricas de sucesso para um experimento](experimentation-identify.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

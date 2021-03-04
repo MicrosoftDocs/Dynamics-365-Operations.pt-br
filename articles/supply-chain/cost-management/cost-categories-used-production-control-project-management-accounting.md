@@ -44,3 +44,6 @@ Os botões adicionais da página **Categorias de custo** dão acesso a informaç
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

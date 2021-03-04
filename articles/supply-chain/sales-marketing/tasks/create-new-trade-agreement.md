@@ -73,3 +73,6 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
 ## <a name="additional-resources"></a>Recursos adicionais
 ### <a name="community-blogs"></a>Blogs da comunidade
 - [Preços de venda no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

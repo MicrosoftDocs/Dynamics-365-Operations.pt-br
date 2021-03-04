@@ -49,3 +49,6 @@ Este tópico explica como registrar o recebimento de mercadorias diretamente em 
 6. Defina **Quantidade** como '4'. Aqui você pode especificar manualmente a quantidade que está sendo recebida para cada linha na ordem.  
 7. Selecione **OK**. As mercadorias foram agora registradas como recebidas na ordem de compra, e um diário de recebimentos de produtos foi criado como documento para refletir isto. Você pode usar a ação de Recebimento de produtos para revisar os diários criados com a ordem de compra e ver o que foi recebido, e quando.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

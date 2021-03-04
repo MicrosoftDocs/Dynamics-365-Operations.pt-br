@@ -57,3 +57,6 @@ Os recursos de distribuição contábil genéricos fornecem as seguintes opçõe
 Na versão 10.0.13, um recurso adicionado que valida a tabela de distribuição contábil para garantir que os novos campos estejam configurados corretamente. Esse recurso é chamado **Habilitar a validação adicional de dados para documentos usando a estrutura contábil do documento de origem**. Para usar o recurso, você deve habilitá-lo usando o espaço de trabalho **Gerenciamento de recursos**. Para habilitar o recurso, procure o nome do recurso no campo **Pesquisar** na página **Gerenciamento de recursos** e selecione **Habilitar agora**.
 
 Para obter mais informações, consulte [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor](accounting-distributions-subledger-journal-entries-vendor-invoices.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

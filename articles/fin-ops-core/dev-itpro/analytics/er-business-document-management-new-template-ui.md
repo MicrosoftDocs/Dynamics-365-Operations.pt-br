@@ -64,3 +64,6 @@ Siga estas etapas a fim de ativar esse recurso para todas as entidades legais.
 O botão **Novo documento** é usado para criar e editar um modelo em uma configuração de formato do ER que é fornecido por outro provedor. Neste exemplo, o provedor é a Microsoft. Ao selecionar **Novo documento**, você pode ver todos os modelos que pertencem ao provedor atual e a outros. Depois que você seleciona o modelo, ele é aberto para edição. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
 
 Para obter mais informações, consulte [Visão geral do Gerenciamento de documentos comerciais](er-business-document-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

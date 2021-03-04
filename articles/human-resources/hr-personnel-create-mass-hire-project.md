@@ -48,3 +48,6 @@ Este procedimento anda com o processo de configuração de um projeto de contrat
     * Opcionalmente, selecione o departamento para as novas posições.  
 13. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -131,3 +131,6 @@ O atendimento da ordem no ponto de venda inclui filtragem para ajudar o usuário
 - Data de criação
 - Data de entrega
 - Data de recebimento
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

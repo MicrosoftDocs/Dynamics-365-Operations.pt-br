@@ -110,3 +110,6 @@ Para adicionar opções personalizados de navegação no menu de navegação, si
 [Criar uma URL da página](create-page-url.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

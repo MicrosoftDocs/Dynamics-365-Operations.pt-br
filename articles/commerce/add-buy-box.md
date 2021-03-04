@@ -136,3 +136,6 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)
 
 [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

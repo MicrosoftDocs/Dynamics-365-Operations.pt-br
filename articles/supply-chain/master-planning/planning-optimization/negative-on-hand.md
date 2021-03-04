@@ -87,3 +87,6 @@ O resultado é uma ordem planejada de 25 peças. (= 25 pcs. &minus; 0 pcs.) para
 [Exibir logs de histórico de plano e de planejamento](plan-history-logs.md)
 
 [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

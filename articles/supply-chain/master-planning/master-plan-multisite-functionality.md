@@ -52,3 +52,6 @@ Os tópicos a seguir descrevem como o mecanismo de planejamento funciona, quando
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

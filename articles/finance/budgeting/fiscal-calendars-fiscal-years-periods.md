@@ -64,3 +64,6 @@ Você pode usar a página Calendário do razão para exibir os detalhes do calen
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

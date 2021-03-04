@@ -39,3 +39,5 @@ Os gerentes podem gerenciar solicitações de tempo limite do espaço de trabalh
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

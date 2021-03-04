@@ -51,3 +51,6 @@ Amanda lança o diário de pagamentos. A fatura é totalmente liquidada usando u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

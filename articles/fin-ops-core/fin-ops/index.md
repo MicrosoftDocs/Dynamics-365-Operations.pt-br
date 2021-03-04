@@ -145,3 +145,6 @@ Grande parte desse conteúdo também se aplica aos produtos relacionados: Dynami
 
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

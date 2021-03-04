@@ -49,3 +49,6 @@ A linha de tempo é atualizada sempre que a página é aberta. Ela contém as se
 - Ordens de serviço, incluindo item e notas lançados
 - Falhas
 - Avaliações de condições
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

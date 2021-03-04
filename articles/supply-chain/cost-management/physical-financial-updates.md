@@ -74,3 +74,6 @@ Quando uma transação financeira é lançada, o status do registro da transaç�
 -   Diários de estoque de quantidade negativa, como movimento, lucros e perdas, contagem, lista de materiais e transferência
 
 As transações que diminuem a quantidade são lançadas ao preço de custo médio. Portanto, o procedimento de fechamento de estoque é necessário para liquidar transações de saída para transações de recebimento com base no modelo de estoque atribuído a cada item.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

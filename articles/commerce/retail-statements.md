@@ -88,3 +88,6 @@ Quando você lançar um demonstrativo, as ordens de venda e faturas são criadas
 - As vendas para as quais um cliente foi adicionado à transação no PDV geram ordens de venda e faturas separadas, uma para cada cliente exclusivo.
 
 Os diários de pagamentos são criados automaticamente para os pagamentos no demonstrativo e o estoque é atualizado para a loja POS.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

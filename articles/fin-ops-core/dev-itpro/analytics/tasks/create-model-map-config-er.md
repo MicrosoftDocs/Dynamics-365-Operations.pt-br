@@ -65,3 +65,6 @@ Estas etapas podem ser concluídas usando qualquer conjunto de dados. Para compl
     * Mapeamento de amostra de intrastat  
 5. Clique em Criar configuração.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

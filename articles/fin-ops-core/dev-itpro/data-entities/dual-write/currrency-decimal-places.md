@@ -95,3 +95,6 @@ Se quiser que a precisão de uma moeda específica seja diferente da precisão d
 ### <a name="tables-currency-field"></a>tabelas: campo Moeda
 
 O número de casas decimais que podem ser configuradas para campos de moeda específicos é limitado a quatro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -97,3 +97,6 @@ Use este procedimento para exibir ou apagar o histórico de um registro de anál
 2. Na página **Análise de RFM**, selecione o registro que deseja exibir.
 3. Para exibir o histórico de registro, selecione a Guia Rápida **Histórico**.
 4. Para limpar o histórico do registro, selecione **Limpar histórico**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

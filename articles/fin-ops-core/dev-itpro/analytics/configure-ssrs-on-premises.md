@@ -93,3 +93,6 @@ Siga as etapas deste tópico para configurar o SSRS (SQL Server Reporting Servic
 13. Clique em **Sair** para fechar o **Gerenciador de configuração dos serviços de relatório**.
 
     [![fechar o gerenciador de configuração dos serviços de relatório](./media/ssrs-config-manager-14.png)](./media/ssrs-config-manager-14.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Para habilitar novamente a opção de formulário de **Informações**, siga est
 2. Encontre o formulário de **Informações** no nó de formulários. 
 3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**. 
 4. Altere a configuração de segurança para **Exibir para todos**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

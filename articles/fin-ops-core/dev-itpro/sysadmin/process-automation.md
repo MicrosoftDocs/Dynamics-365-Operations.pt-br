@@ -47,3 +47,6 @@ Cada ocorrência pode ser modificada sem afetar outras ocorrências definidas pe
 ## <a name="developer-documentation"></a>Documentação do Desenvolvedor
 
 A estrutura de automação de processos permite que os desenvolvedores estendam a estrutura de automação de processos. A documentação [Estrutura de automação de processos](../process-automation/process-automation-framework.md) fornecerá informações sobre como criar processos personalizados que precisam ser executados pelo servidor de lote agendado com o assistente de automação de processos e aparecem na exibição de calendário automaticamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

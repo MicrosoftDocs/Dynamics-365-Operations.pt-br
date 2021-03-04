@@ -45,3 +45,6 @@ Depois que um recruta criou um projeto de contratação em massa e gerou posiç�
 8. Na lista, desmarque a linha selecionada.
     * Selecione a posição próxima do projeto e continue a inserir informações de trabalho para cada pessoa que está contratando.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

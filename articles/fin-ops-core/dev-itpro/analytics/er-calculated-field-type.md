@@ -342,3 +342,6 @@ Você pode importar configurações revisadas do RCS usando o repositório de ER
 - [Designer de fórmulas no relatório eletrônico (ER)](general-electronic-reporting-formula-designer.md)
 - [Melhorar o desempenho das soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados](er-calculated-field-ds-performance.md)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

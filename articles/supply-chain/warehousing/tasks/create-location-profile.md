@@ -43,3 +43,6 @@ Este tópico explica como criar um perfil de localização no Dynamics 365 Suppl
 10. Selecione **Sim** no campo **Permitir contagem cíclica**.
 11. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

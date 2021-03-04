@@ -40,3 +40,6 @@ Adicionamos o recurso Importação/Exportação Rápida para permitir que os usu
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

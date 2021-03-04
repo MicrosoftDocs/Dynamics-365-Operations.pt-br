@@ -410,3 +410,6 @@ Quando o Supply Chain Management gera os trabalhos para o chão de produção, e
 - Se você definir várias relações de operação de roteiro que incluem a relação *Todos* e atribuir guias a elas, somente os guias da relação mais específica serão exibidos para o trabalho.  
 
 ![Diagrama para resolver os guias relevantes](media/instruction-guides-Resolve.png "Diagrama para resolver os guias relevantes")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

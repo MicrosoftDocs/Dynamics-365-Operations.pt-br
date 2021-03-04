@@ -63,3 +63,6 @@ Se você inserir `SPLIT("abc" , 1)` como a fonte de dados **DS**, a expressão `
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

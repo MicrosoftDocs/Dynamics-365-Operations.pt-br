@@ -97,3 +97,6 @@ O botão **Alocação de preço da receita** ainda está disponível, permitindo
 A agenda de reconhecimento de receita estimada será removida e substituída pela agenda de reconhecimento de receita final. Os detalhes da agenda de receita serão mantidos para cada linha de ordem de venda e são usados para liberar a receita adiada para a receita atual conforme as obrigações contratuais forem atendidas.
 
 [![Agenda de reconhecimento de receita final](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

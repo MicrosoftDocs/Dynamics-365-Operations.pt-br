@@ -676,3 +676,6 @@ Os funcionários podem declarar as informações do passaporte. Essas informaç�
 
 Os funcionários podem declarar vários números de identificação do tipo de identificação **Passaporte**. No entanto, apenas a entrada atual do passaporte ativo é integrada ao Dayforce. Se todas as entradas do passaporte expirarem, o passaporte emitido mais recentemente será integrado ao Dayforce.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -67,3 +67,6 @@ A Otimização de Planejamento e o mecanismo de planejamento interno do Microsof
 - A confirmação automática se baseia na data de requisição (data de término).
 - Para ajudar a garantir que as ordens sejam confirmadas no prazo, o tempo limite de confirmação deverá ser superior ao prazo de entrega.
 - Se você quiser confirmar todas as ordens que devam começar durante a semana atual, o limite de tempo de confirmação deverá ser o prazo de entrega mais uma semana.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

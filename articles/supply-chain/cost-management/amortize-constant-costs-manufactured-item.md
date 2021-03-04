@@ -47,3 +47,6 @@ O valor calculado dos custos constantes amortizados de um item fabricado é deno
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

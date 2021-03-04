@@ -107,3 +107,6 @@ A imagem a seguir mostra um nó de exemplo com grupos de atributo de produto adi
 [Configurar classificações](set-up-assortments.md)
 
 [Gerenciar atributos e grupos de atributos](attribute-attributegroups-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

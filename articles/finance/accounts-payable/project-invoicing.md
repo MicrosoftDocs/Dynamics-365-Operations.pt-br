@@ -132,3 +132,6 @@ Você pode criar uma fatura com um valor negativo, que se torna uma fatura class
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ Este procedimento é criado para usuários com a função atribuída de Administ
 68. Clique em Salvar.
     * Observe que o campo "Execução em" indica que esse agrupamento será executado no tempo de execução na memória mesmo que não haja nenhuma agregação definida e a fonte de dados selecionada do tipo "Registros da tabela" refira-se à mesma tabela "Intrastat". Isso é porque a fonte de dados contém alguns campos calculados que ainda não podem ser traduzidos para o nível do banco de dados SQL.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

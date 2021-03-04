@@ -58,3 +58,6 @@ O arquivo de texto fiscal do SPED fornece informações sobre as notas fiscais q
 7. Defina a opção **Habilitar o bloco K** como **Sim**. A definição padrão é especificada na página **Parâmetros do SPED Fiscal** .
 8. Opcional: Na Guia Rápida **Executar em segundo plano**, especifique as opções para o processamento em lotes. Você pode usar o processamento em lote se o arquivo tiver de ser gerado posteriormente ou em um servidor, e não no computador.
 9. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

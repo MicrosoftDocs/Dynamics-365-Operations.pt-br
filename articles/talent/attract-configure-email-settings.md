@@ -89,3 +89,6 @@ Você pode carregar uma imagem do logotipo da sua empresa e outras informações
     ![Como adicionar links para a política de privacidade e os termos de uso da sua empresa para o rodapé de email](./media/attract-admin-email-footer.png)
 
 4. Selecione **Salvar** para salvar as suas configurações de modelo de email.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

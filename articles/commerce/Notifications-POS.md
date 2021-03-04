@@ -77,3 +77,6 @@ Para mostrar a contagem de notificação em um botão, você deve garantir que o
 A ilustração a seguir mostra o efeito de selecionar **Superior direito** versus **Centralizado** no campo **Alinhamento de conteúdo** para botões de vários tamanhos.
 
 ![Conteúdo dinâmico nos botões do PDV](./media/ButtonsWithLiveContent.png "Conteúdo dinâmico nos botões do PDV")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

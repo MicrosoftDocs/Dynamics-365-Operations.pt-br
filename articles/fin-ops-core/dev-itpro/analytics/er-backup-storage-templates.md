@@ -102,3 +102,6 @@ No Finance and Operations versão 10.0.5, o recurso de armazenamento em backup d
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Configurar a estrutura de ER (Relatórios eletrônicos)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

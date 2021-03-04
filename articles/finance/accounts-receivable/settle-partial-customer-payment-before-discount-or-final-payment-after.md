@@ -111,3 +111,6 @@ Arnie altera o valor no campo **Usar desconto à vista** novamente para **Normal
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

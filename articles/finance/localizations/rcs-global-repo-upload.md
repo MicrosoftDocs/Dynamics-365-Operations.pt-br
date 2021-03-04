@@ -98,3 +98,6 @@ A versão de configuração é excluída e a mensagem de confirmação é exibid
 > [!NOTE]
 > As configurações só podem ser excluídas pelo provedor de configuração que as criou. Se a configuração tiver sido compartilhada com outra organização, terá de ser descompartilhada antes de ser excluída.
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

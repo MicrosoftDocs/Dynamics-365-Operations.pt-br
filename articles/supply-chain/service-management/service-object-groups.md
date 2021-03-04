@@ -66,3 +66,6 @@ Você pode atribuir objetos de serviço ao grupo usando o formulário **Objetos 
 [Criar objetos de serviço](create-service-objects.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

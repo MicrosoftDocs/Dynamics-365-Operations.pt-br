@@ -92,3 +92,6 @@ Para rastrear o status da lista de tarefas de todas as tarefas atribuídas a voc
 [Criar listas de tarefas e adicionar tarefas](task-mgmt-create-lists.md)
 
 [Gerenciamento de tarefas em PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

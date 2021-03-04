@@ -98,3 +98,6 @@ Você pode definir vários grupos de cálculo de BOM, dependendo dos seus requis
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

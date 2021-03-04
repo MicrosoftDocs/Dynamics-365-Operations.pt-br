@@ -85,3 +85,6 @@ Ao definir uma atividade, como uma operação de roteiro ou uma previsão de hor
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Esta versão corrige um problema que ocorre após um diário de desempenho ser e
 ### <a name="print-performance-reviews"></a>Imprima avaliações de desempenho
 
 Consulte [Revisões de desempenho de impressão](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-talent/print-performance-reviews) no plano da onda 2 da versão 2019 do Dynamics 365.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

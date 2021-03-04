@@ -56,3 +56,6 @@ Este procedimento mostra como planejar ordens de produção que ainda não foram
 4. Clique em Materiais.
     * Nessa página, você pode ver o consumo de material previsto para as operações na ordem de produção e de estoque disponível atualmente.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

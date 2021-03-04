@@ -92,3 +92,6 @@ Este tópico descreve o processo de criação de uma requisição. Mostra as dif
 6. Feche a página.
 7. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

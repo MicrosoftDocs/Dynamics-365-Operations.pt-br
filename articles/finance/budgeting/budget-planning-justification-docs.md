@@ -72,3 +72,6 @@ Um modelo de plano de orçamento é criado pelo gerente de orçamento no Microso
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

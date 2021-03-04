@@ -193,3 +193,6 @@ As ordens de transferência totalmente remetidas são movidas para a guia **Conc
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Operação de estoque de entrada no POS](pos-inbound-inventory-operation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

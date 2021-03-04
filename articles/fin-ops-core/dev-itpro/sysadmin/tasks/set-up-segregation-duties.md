@@ -40,3 +40,6 @@ Você pode definir regras para separar tarefas que devem ser executadas por usu�
 12. No campo **Atenuação de segurança**, digite um valor. Insira uma descrição das ações que você toma para atenuar o risco de segurança. Por exemplo, você pode atenuar o risco conduzindo revisões mais detalhadas do processo, conduzindo uma revisão administrativa mensal, ou compartilhando recursos com outros departamentos.     
 13. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

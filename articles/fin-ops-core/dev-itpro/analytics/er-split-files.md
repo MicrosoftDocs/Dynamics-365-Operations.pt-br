@@ -47,3 +47,6 @@ Para saber mais sobre esse recurso, execute os guias de tarefa **ER Dividir arqu
 [Destinos de relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
 [Designer de fórmulas no relatório eletrônico (ER)](general-electronic-reporting-formula-designer.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

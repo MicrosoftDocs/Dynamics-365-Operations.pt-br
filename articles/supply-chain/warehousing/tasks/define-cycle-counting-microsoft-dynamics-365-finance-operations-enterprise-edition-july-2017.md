@@ -96,3 +96,6 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 21. Clique em **OK**.
 22. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

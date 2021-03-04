@@ -73,3 +73,6 @@ A imagem a seguir mostra um exemplo de grupo de tamanhos para "tamanhos de camis
 [Configurar produtos de varejo](set-up-retail-products.md)
 
 [Dimensões do produto](../supply-chain/pim/product-dimensions.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

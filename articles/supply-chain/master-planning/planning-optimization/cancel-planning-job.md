@@ -60,3 +60,6 @@ O status do trabalho será **Cancelando** até o serviço de otimização do pla
 [Exibir logs de histórico de plano e de planejamento](plan-history-logs.md)
 
 [Aplicar filtros a um plano](plan-filters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

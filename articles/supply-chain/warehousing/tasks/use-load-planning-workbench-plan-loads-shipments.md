@@ -61,3 +61,6 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 5. Selecionar **Atribuir**.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

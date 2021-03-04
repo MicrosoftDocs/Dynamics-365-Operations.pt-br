@@ -50,3 +50,6 @@ Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um
     + Anual - Escolha essa opção e insira o número de anos no campo Por. Por exemplo, se você inserir 2, uma fatura será gerada a cada dois anos para esse cliente.  
 14. No campo **Por**, insira um número.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

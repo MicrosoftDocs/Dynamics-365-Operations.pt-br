@@ -107,3 +107,6 @@ Para obter informações sobre como criar uma página de carrinho, consulte [Adi
 [Visão geral das páginas de detalhes do produto](quick-tour-pdp.md)
 
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

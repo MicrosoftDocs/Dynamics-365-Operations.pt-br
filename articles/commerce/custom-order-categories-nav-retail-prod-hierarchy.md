@@ -88,3 +88,6 @@ A ordem de exibição da hierarquia de navegação de canal é refletida no HQ, 
 
 > [!NOTE]
 > Por padrão, o recurso de ordem de classificação personalizada será desativado. Para saber como ativar esse recurso e outros, consulte [Gerenciamento de recursos](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/feature-management/feature-management-overview).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

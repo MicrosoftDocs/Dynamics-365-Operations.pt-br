@@ -82,3 +82,6 @@ Para adicionar um módulo de compartilhamento social a um módulo de caixa de co
 [Módulo de caixa de compra](add-buy-box.md)
 
 [Compatível com cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

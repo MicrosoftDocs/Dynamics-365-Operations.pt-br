@@ -63,3 +63,6 @@ Antes que um ativo com depreciação total seja dividido, o status do registro d
     - Uma transação de aquisição é criada para o novo ativo para a mesma quantidade.
 
 4. Selecione **Lançar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

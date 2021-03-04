@@ -58,3 +58,6 @@ Depois que a importação for concluída, será necessário atribuir funções a
 ## <a name="run-in-a-sandbox-environment"></a>Executar em um ambiente de área restrita
 1. Selecione **Importação em lote**.
 2. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

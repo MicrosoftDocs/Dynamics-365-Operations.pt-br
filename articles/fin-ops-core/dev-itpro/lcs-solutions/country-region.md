@@ -133,3 +133,6 @@ Para saber mais, consulte [Sistema de ajuda](../../fin-ops/get-started/help-over
 
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

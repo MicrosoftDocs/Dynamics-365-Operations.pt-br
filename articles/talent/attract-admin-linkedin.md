@@ -118,3 +118,6 @@ Este recurso está atualmente em visualização. Antes de seguir estas etapas, v
 [Criar, aprovar e lançar trabalhos no Attract](./creating-jobs-attract.md)
 
 [Solucionar problemas de integração entre o LinkedIn e o Microsoft Dynamics 365 Talent - Attract](./attract-troubleshoot-linkedin.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

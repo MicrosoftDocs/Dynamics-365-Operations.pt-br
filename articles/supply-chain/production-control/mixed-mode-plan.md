@@ -69,3 +69,6 @@ Para a flexibilidade total no modo misto, recomendamos que você use o tipo BOMs
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

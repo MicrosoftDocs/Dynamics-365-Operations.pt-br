@@ -151,3 +151,6 @@ Os mapeamentos atualizados devem ser semelhantes às imagens a seguir.
 ![Tarefa Trabalhadores para o Trabalho](./media/WorkerMapping.png)
 
 ![Transformação do campo Sexo](./media/WorkerTransform.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

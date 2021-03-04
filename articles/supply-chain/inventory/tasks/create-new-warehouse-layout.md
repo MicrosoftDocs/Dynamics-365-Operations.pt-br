@@ -63,3 +63,6 @@ Este tópico descreve como configurar informações sobre as localizações em u
 7. Feche a página.
 8. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

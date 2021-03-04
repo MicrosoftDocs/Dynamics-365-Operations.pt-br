@@ -243,3 +243,6 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Configurar a estrutura de ER (Relatórios eletrônicos)](electronic-reporting-er-configure-parameters.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Este procedimento mostra como criar uma conta de banco para um fornecedor. Você
 25. No campo **Conta bancária**, selecione a conta que você apenas criou.
 26. Clique em **Salvar**. O endereço pode ser herdado do grupo do banco, se for um especificado, ou você pode adicioná-lo aqui.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

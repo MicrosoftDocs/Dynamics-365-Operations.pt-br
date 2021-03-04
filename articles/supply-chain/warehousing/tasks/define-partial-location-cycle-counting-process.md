@@ -73,3 +73,6 @@ Quando você usa planos de contagem cíclica para criar trabalhos de contagem, v
 14. Clique em OK.
 15. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

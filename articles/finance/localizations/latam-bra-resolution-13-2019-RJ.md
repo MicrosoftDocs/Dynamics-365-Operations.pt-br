@@ -262,3 +262,6 @@ O sistema preenche dados nas linhas do diário no perfil de lançamentos do cód
 >
 > - **Para o remetente:** código de ajuste da tabela 5.2 = RJ821231 e código de ajuste da tabela 5.3 = RJ10080002
 > - **Para o destinatário:** código de ajuste da tabela 5.2 = RJ821231 e código de ajuste da tabela 5.3 = RJ10080002
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

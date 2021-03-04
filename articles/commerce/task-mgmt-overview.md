@@ -53,3 +53,6 @@ A ilustração a seguir mostra a arquitetura conceitual do gerenciamento de tare
 [Atribuir listas de tarefas a lojas ou funcionários](task-mgmt-assign-lists.md)
 
 [Gerenciamento de tarefas em PDV](task-mgmt-POS.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

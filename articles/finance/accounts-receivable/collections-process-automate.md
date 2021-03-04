@@ -118,3 +118,6 @@ As tabelas a seguir listam as páginas e os campos dos quais as Guias Rápidas e
 |     Parâmetros de contas a receber > Automação do processo de cobranças     |     Lançar Cartas de cobrança automaticamente           |     Os tipos de ação da carta de cobrança lançarão a carta durante a automação.                                      |
 |     Parâmetros de contas a receber > Automação do processo de cobranças     |     Criar atividades para automação                |     Crie e feche atividades para tipos de ação não relacionados a atividades a fim de exibir todas as etapas automatizadas executadas em uma conta.        |
 |     Parâmetros de contas a receber > Automação do processo de cobranças     |     Dias para manter a automação do processo de cobranças     |     Define o número de dias que o histórico de cobranças é armazenado.                                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

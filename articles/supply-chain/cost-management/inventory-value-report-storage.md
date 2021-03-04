@@ -106,3 +106,6 @@ O exemplo a seguir mostra como exportar um relatório **Relatório de valor de e
 1. Na página **Resumo de execução** na que aparece, você pode ver o status do seu trabalho de exportação e uma lista de entidades que foram exportadas. Na seção **Status de processamento da entidade**, selecione a entidade **Valor de estoque** na lista, e selecione **Baixar arquivo** para baixar os dados que foram exportados a partir dessa entidade.
 
 Para obter mais informações sobre como usar o gerenciamento de dados para exportar dados, consulte [Visão geral de trabalhos de importação e exportação de dados](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

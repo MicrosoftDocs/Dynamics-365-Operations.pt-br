@@ -51,3 +51,6 @@ Se uma remessa de devolução contém menos do que a quantidade total de uma lin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

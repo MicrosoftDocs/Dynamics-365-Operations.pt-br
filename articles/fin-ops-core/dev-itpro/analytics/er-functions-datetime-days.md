@@ -63,3 +63,6 @@ A função `DAYS` retorna um valor positivo quando a primeira data for posterior
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de data e de hora](er-functions-category-datetime.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

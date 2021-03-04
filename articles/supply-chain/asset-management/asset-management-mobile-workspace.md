@@ -253,3 +253,6 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 ![Figura 10](media/am-mobile-10.png)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -110,3 +110,6 @@ Cada relatório do balancete usa uma definição da coluna diferente. Essas defi
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

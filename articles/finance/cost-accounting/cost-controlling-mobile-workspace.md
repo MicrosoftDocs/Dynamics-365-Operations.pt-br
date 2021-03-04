@@ -145,3 +145,6 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 11. Exiba o desempenho dos elementos de custo individuais.
 12. Você também pode pesquisar elementos de custo específicos.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Ao configurar uma fase de serviço, você poderá criar várias opções ou rami
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

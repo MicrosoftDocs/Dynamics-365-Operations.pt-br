@@ -36,3 +36,6 @@ Comentários sobre a produção fornecem aos trabalhadores comentários sobre tr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

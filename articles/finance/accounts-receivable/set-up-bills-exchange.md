@@ -86,3 +86,6 @@ Na página **Clientes**, para cada cliente que concordou em pagar usando uma let
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

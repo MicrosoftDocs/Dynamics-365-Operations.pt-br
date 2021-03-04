@@ -92,3 +92,6 @@ Para criar e editar sequências numéricas, siga estas etapas.
     | Dígito de Verificação | Este tipo de segmento adiciona um dígito de verificação, que é um cálculo de módulo 10. (Esse comportamento corresponde à lógica existente para IDs de placa de licença.) Para este tipo de segmento, o campo **Valor** sempre é definido como um acento circunflexo (*^*) e o campo **Tamanho** sempre é definido como *1*. |
 
 1. Para exibir um exemplo do formato numérico final, inspecione o campo **Formato** na parte inferior da FastTab **Segmentos**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

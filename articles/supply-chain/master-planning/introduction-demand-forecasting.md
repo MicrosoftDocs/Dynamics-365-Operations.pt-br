@@ -100,3 +100,6 @@ Observe que a UOM de previsão de demanda não precisa ter um significado espec�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

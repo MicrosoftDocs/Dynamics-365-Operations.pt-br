@@ -68,3 +68,6 @@ A mensagem de boas-vindas aparecerá na parte superior de cada página do site u
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

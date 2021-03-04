@@ -54,3 +54,6 @@ A atualização de plataforma 18 para o Finance and Operations agora é parte da
 ## <a name="bug-fixes"></a>Correções de bug
 
 Esta versão inclui várias correções de bug adicionais, incluindo que referências a ACA, ADA e I9 serão habilitadas somente em empresas dos Estados Unidos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

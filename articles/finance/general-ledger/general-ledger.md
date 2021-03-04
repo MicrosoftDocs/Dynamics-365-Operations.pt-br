@@ -74,3 +74,6 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 - [O que você deve saber sobre o razão no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

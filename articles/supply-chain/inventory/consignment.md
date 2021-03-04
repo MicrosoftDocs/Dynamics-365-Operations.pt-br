@@ -103,3 +103,6 @@ Se os fornecedores serão usando a interface de colaboração de fornecedor, pod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

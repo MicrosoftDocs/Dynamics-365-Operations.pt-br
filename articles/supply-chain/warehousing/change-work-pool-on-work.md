@@ -149,3 +149,6 @@ Você pode usar a página **Detalhes do trabalho** para exibir o trabalho criado
 > Quando a caixa de diálogo **Alterar pool de trabalho** for exibida, o campo **ID do pool de trabalho** poderá estar em branco por padrão. Se o campo estiver em branco quando você selecionar **OK** para aplicar as alterações, o pool de trabalho será completamente removido do trabalho.
 >
 > Além de alternar pools de trabalho, você pode usar esse procedimento para adicionar um pool de trabalho a qualquer item de trabalho que não tenha um ou para remover um pool de trabalho de qualquer item de trabalho que tenha um.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

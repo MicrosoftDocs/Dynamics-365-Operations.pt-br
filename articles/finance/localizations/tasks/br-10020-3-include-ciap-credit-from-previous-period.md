@@ -50,3 +50,6 @@ Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito
 19. Clique em Salvar.
 20. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

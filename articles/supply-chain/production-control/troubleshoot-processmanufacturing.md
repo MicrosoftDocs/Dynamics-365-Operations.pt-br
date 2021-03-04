@@ -41,3 +41,6 @@ Em versões anteriores à versão 10.0.13, se você não estiver usando o fluxo 
 > Você está prestes a executar um fechamento de estoque com uma data %1. Nenhuma execução de custos de fluxo inverso com uma data %1 que corresponde ao fim do período foi registrada. Lembre-se de executar um cálculo de custos de fluxo inverso com uma data de %1 que corresponda ao final do período. A avaliação de estoques, custo dos produtos vendidos e variações podem não estar corretos no razão auxiliar ou na contabilidade até que seja executado.
 
 Esse problema foi corrigido na versão 10.0.13 ou posterior. Para obter mais informações, consulte [KB 4582468](https://fix.lcs.dynamics.com/Issue/Details?kb=4582468&bugId=468844&dbType=3&qc=fcd64080446a27382cfde3e4c3bdcfb714279185932259cd11ceb0d500617296).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

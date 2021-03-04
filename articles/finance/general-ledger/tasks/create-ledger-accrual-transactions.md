@@ -49,3 +49,6 @@ Este guia de tarefas aborda a criação de transações de competências do raz�
 17. Clique em OK.
 18. Clique em Lançar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

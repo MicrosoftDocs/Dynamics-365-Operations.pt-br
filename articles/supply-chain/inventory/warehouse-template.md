@@ -98,3 +98,6 @@ Para saber mais sobre como usar o modelo de depósito para copiar a configuraç�
 ## <a name="related-topic"></a>Tópico relacionado
 
 [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

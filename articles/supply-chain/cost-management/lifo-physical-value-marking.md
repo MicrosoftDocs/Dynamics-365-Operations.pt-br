@@ -151,3 +151,6 @@ A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série
 - Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 - As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

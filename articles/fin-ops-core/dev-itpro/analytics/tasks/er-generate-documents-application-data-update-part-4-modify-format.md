@@ -149,3 +149,6 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 46. Feche a página.
 47. Feche a página.
 48. Feche a página.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

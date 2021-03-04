@@ -107,3 +107,6 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 ## <a name="view-the-purchase-order-that-is-generated"></a>Ver a ordem de compra gerada
 
 No Painel de ações, na guia **Geral**, selecione **Ordem de compra**. A página que aparece mostra a ordem de compra que foi gerada quando você aceitou o lance.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

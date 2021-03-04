@@ -239,3 +239,5 @@ Você criará uma ordem de compra com três linhas: duas linhas para o mesmo nú
 
 > [!TIP]
 > Você pode repetir esse cenário, mas desta vez, defina **Tamanho** - *Não* na FastTab **Permitir combinação de dimensões do produto** nos **Perfis de localização** *MASSA*, para que nenhuma dimensão do produto seja combinada. Nesse caso, quando você receber a ordem de compra, cada grade de produto será colocada em um novo local.
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -238,3 +238,6 @@ Quando uma ordem que tem várias propostas e várias linhas é selecionado, o ca
 - [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3)
 - [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](https://docs.microsoft.com/dynamics365/commerce/cpe-bopis)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -83,3 +83,6 @@ Além de isso, o lean manufacturing oferece suporte para os processos de compra 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

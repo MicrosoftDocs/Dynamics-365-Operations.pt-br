@@ -103,3 +103,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 21. Clique em Abrir.
     * Examine o arquivo XML criado que contém os detalhes da contagem e soma que foram coletados durante a execução da configuração selecionada.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Este exemplo usou uma versão de avaliação de custo adicional para gerenciar a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

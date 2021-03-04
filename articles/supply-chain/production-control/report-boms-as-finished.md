@@ -89,3 +89,6 @@ Neste caso, as duas peças disponíveis do número de item COMP são considerada
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

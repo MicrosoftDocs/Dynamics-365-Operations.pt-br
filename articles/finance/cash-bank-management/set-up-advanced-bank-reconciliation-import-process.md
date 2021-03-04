@@ -199,3 +199,6 @@ Se a importação for bem-sucedida, você receberá uma mensagem informando que 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

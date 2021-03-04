@@ -496,3 +496,6 @@ Verifique se a configuração de mapeamento do modelo compartilhado não está m
 - Pelo menos uma versão da configuração de mapeamento do modelo de ER tem o status **Concluído** ou **Compartilhado**. Nesse caso, a versão com o número de versão mais alto será usada para a execução do formato de ER.
 - A opção **Executar rascunho** para o mapeamento do modelo de ER está ativada. Nesse caso, a versão com o status **Rascunho** será usada para a execução do formato de ER.
 > A opção **Executar rascunho** se tornará disponível na página **Configurações** para cada configuração de mapeamento do modelo de ER quando o parâmetro de usuário de ER **Executar configuração** estiver ativado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

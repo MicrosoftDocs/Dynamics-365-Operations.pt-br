@@ -52,3 +52,6 @@ Este tópico explica como configurar preços baseados em atributos. Como pré-re
 8. No campo **Expressão**, digite um valor. Por exemplo, digite `50`. 
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

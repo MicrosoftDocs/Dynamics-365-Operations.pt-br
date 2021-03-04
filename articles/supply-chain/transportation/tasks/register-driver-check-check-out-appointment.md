@@ -46,3 +46,6 @@ Este procedimento mostra como registrar um check-in e o check-out do driver. Iss
 1. Clique em Check-out do motorista.
 2. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

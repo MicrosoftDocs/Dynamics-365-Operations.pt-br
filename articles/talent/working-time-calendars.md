@@ -56,3 +56,6 @@ Para configurar um calendário, siga essas etapas:
 10. Para atribuir um calendário a funcionários, selecione **Atribuir a funcionários** no Painel de Ações. Selecione os funcionários aos quais você deseja atribuir esse calendário e clique em **Atribuir**.
 
 Não é necessário que os funcionários tenham calendários atribuídos. Se houver um calendário de produção definido, os dias de folga serão automaticamente excluídos da solicitação. A quantidade, em dias ou em horas, é definida como padrão para períodos de trabalho definidos no calendário. Caso um funcionário não tenha um calendário atribuído, todos os dias estão disponíveis para folga, e o período de folga não é o padrão da solicitação. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

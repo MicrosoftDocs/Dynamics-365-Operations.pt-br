@@ -142,3 +142,6 @@ Alice lança o diário de pagamento e analisa e as transações do fornecedor na
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

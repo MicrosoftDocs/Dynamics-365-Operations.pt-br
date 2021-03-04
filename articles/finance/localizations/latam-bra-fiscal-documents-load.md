@@ -140,3 +140,6 @@ Se você não tiver acesso às páginas que são usadas para concluir essa taref
 | Chaves de configuração            | Clique em **Administração do sistema** &gt; **Configuração** &gt; **Licença** &gt; **Configuração do sistema**. Expanda a chave de licença de **Comércio** e selecione a chave de configuração **gerenciamento de Depósito e Transporte**. |
 | Funções de segurança e direitos     | Para executar essa tarefa, você deve ser membro da função de segurança que inclui o direito **Manter transações da fatura de cliente** (CustInvoiceCustomerInvoiceTransMaintain). |
 | Funções de segurança e privilégios | Para executar essa tarefa, você deve ser membro de uma função de segurança que inclua o privilégio **Cargas** (WHSLoadTableInvoicePost\_BR). |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

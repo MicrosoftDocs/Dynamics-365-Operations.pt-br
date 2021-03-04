@@ -66,3 +66,6 @@ Após fazer um registro de avaliação de condição em um ativo, você poderá 
 
 >[!NOTE]
 >Você também pode registrar a avaliação de condição em uma ordem de serviço (botão **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Todas as ordens de serviço** > **Avaliação de condição**.)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

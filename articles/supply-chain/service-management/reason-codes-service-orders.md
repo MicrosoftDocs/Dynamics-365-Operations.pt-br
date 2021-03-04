@@ -50,3 +50,6 @@ Os códigos de motivo são opcionais. Você pode decidir se deseja exigir um có
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

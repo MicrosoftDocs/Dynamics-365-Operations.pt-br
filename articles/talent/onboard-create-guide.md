@@ -122,3 +122,6 @@ Você pode salvar um guia de integração como modelo. Dessa forma, você poder�
 - [Novidades ou alterações no Dynamics 365 Talent](./whats-new.md)
 - [Planos de versão](https://docs.microsoft.com/business-applications-release-notes/index)
 - [Obter suporte para o Microsoft Dynamics 365 Talent](./talent-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

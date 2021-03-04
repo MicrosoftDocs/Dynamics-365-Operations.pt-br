@@ -436,3 +436,6 @@ O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de auto
 7.  No campo **Tipo de arquivo**, selecione o tipo de arquivo.
 
 O arquivo é enviado usando os serviços web. É obrigatório ter um certificado. Após a mensagem de devolução ser recebida com o resultado da validação do governo, a resposta é salva no mesmo local onde o arquivo foi gerado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

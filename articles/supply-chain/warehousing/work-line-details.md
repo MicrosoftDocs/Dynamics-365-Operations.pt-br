@@ -128,3 +128,6 @@ Siga estas etapas para criar alguns trabalhos de separação:
 
 > [!IMPORTANT]
 > Se cancelar apenas parte da quantidade de uma linha de trabalho, você também deverá remover a quantidade obsoleta da linha de carga. Caso contrário, a menos que a entrega insuficiente esteja configurada corretamente, a linha de carga poderá ter a remessa confirmada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

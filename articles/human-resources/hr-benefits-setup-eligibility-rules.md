@@ -176,3 +176,6 @@ Os programas são um conjunto de planos de benefícios que compartilham um conju
    | **Regras de qualificação** | Selecione as regras de qualificação a serem aplicadas ao programa de benefícios. Defina as regras de qualificação na guia **Regras de qualificação** nesta página. |
    
 4. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

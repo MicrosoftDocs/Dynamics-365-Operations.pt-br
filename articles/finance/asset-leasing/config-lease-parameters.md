@@ -46,3 +46,6 @@ Várias definições de configuração afetam o comportamento do arrendamento de
 
     > [!NOTE]
     > Recomendamos manter essa opção como **Não**. A configuração dessa opção é usada como validação e controle para impedir que uma versão de livro fechada seja depreciada por engano. Ao manter a opção definida como **Não**, você ajuda a manter a precisão do valor líquido contábil e os cálculos de depreciação futuros.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

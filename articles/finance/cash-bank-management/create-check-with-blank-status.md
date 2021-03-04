@@ -38,3 +38,6 @@ Na página **Cheques**, você executa tarefas de manutenção para os cheques. P
 Para abrir a página **Cheques**, acesse **Gerenciamento de caixa e bancos \> Contas bancárias \> Contas bancárias** e, no Painel de Ações, na guia **Gerenciar pagamentos**, no grupo **Informações relacionadas**, selecione **Cheques**. Alternativamente, acesse **Gerenciamento de caixa e bancos \> Consultas e relatórios \> Cheques**.
 
 Em seguida, para criar cheques com o status **Em Branco**, no Painel de Ações, selecione **Criar cheques em branco**. Enquanto o sistema estiver criando cheques em branco, a conta bancária associada ficará desativada temporariamente. Esse comportamento reduz o risco de pagamentos serem gerados ao mesmo tempo em que os cheques em branco são criados. Quando o processamento for concluído, a conta bancária associada será reativada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

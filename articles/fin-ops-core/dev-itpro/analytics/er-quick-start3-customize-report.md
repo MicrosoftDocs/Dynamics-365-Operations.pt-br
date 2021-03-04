@@ -671,3 +671,6 @@ O status da versão 32.6.7.2 muda de **Rascunho** para **Concluído** e a versã
 - [Baixar configurações de ER do repositório global de serviço de configuração](er-download-configurations-global-repo.md)
 - [Criar uma fatura de texto livre](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new)
 - [Criar e trabalhar com campos personalizados](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/user-defined-fields)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Dimensões financeiras e contas são componentes-chave principais da fase de pla
 - Evite o delimitador gráfico selecionado de contas nos valores da dimensão financeira e conta principal.
 
 Ao executar essas práticas recomendadas, você ajuda a garantir representação consistente do pedido definido pelo usuário ao longo do sistema.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

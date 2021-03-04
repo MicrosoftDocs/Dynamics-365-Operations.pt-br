@@ -35,3 +35,6 @@ Para exibir a lista de regras que estão disponíveis no verificador de consist�
 Por padrão, o status de cada regra é definido como **Habilitado**. Portanto, todas as regras são usadas para validar transações de varejo antes que elas sejam incluídas nos demonstrativos comerciais. Para desabilitar uma regra, altere seu status para **Desabilitado**. As regras desabilitadas não serão consideradas quando as transações forem validadas durante o processo de cálculo do demonstrativo.
 
 Para ignorar o processo de validação inteiro, independentemente das regras que estão habilitadas, acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce** e, na guia **Validação da transação**, defina a opção **Desativar verificador de consistência das transações do Commerce** como **Sim**. Depois que essa opção for definida como **Não**, ela não poderá ser redefinida como **Sim** na interface do usuário (IU).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

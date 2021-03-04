@@ -179,3 +179,6 @@ Observe que ocorrerão os seguintes eventos:
 - A liberação para um depósito é acionada para a ordem de venda vinculada.
 - Com base na liberação, o trabalho de remessa e distribuição integrada é criado. Esse trabalho instrui o operador de depósito a separar as quantidades necessárias para atender à linha de ordem de venda e as coloca no local de saída especificado na diretiva de localização de distribuição integrada.
 - Se a quantidade de ordem de produção for superior à quantidade necessária para a ordem de venda, o trabalho de armazenamento normal será criado. Esse trabalho instrui o operador de depósito a separar a quantidade de bens acabados restantes após a distribuição integrada e a move-los para o estoque normal, de acordo com a diretiva de localização.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Também é possível exibir quando o registro de tempo de uma ordem de serviço 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

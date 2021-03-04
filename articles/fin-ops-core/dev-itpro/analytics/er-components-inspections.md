@@ -813,3 +813,6 @@ Para saber como a estrutura de formato pode ser sincronizada com um modelo de ER
 [Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 
 [Visão geral de gerenciamento de documentos comerciais](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

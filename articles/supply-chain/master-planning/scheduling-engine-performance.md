@@ -329,3 +329,6 @@ O valor para **Tempo limite de tentativas de otimização** controla quantos seg
 
 > [!NOTE]
 > Os valores definidos para os tempos limite serão aplicados para o agendamento de ordens de produção liberadas e ordens planejadas como parte do MRP. Como resultado, definir valores muito altos poderia adicionar significativamente ao tempo de execução do MRP durante a execução de um plano com muitas ordens de produção planejadas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ A tabela a seguir mostra os tipos de lista disponíveis para seleção na caixa 
 [Módulo de caixa de compra](add-buy-box.md)
 
 [Visão geral de recomendações de produtos](product-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

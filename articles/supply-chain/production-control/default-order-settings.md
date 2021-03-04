@@ -204,3 +204,6 @@ Para definir a opção de validação:
 1. Na guia **Geral**, defina **Validação nas quantidades da ordem padrão** para um dos seguintes valores:
     - **Restrito** -Selecione esta opção para garantir que todos os valores da **Quantidade da ordem padrão** serão um valor **Múltiplo** de cada guia rápida (**Ordem de compra**, **Estoque** e **Ordem de venda**).
     - **Padrão** - Selecione esta opção para usar a validação padrão (que funciona da mesma maneira quando esse recurso não está habilitado).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

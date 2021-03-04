@@ -54,3 +54,6 @@ A um grupo de custo pode ser atribuído um tipo de grupo de custo e um comportam
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

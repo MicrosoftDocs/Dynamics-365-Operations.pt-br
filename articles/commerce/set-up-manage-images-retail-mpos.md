@@ -209,3 +209,6 @@ As imagens de catálogo, categoria, funcionário e cliente que devem ser usadas 
 5. Siga um processo semelhante para outras entidades, como Categoria, Funcionário e Cliente.
 
     [![Imagem Offline](./media/offline2.png)](./media/offline2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1190,3 +1190,6 @@ O [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/cust
 | SINTEGRA             | Sistema Integrado de Informações sobre Operações Interestaduais |
 | SEFAZ                | Secretaria da Fazenda |
 | SUFRAMA              | Superintendência da Zona Franca de Manaus |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

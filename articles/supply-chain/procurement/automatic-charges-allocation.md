@@ -177,3 +177,6 @@ O procedimento a seguir mostra como alocar encargos no nível de cabeçalho a um
         > Ao trabalhar com a grade **Escolher as linhas que serão excluídas da alocação**, certifique-se de deixar a grade aberta até selecionar **Alocar**. Se você fechar a grade antes de selecionar **Alocar**, as configurações na grade serão perdidas. Portanto, os encargos serão alocados com base nos critérios definidos anteriormente.
 
 1. Selecione **Alocar** para aplicar suas configurações e fechar a caixa de diálogo.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

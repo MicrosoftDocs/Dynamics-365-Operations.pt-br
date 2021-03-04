@@ -113,3 +113,6 @@ A habilitação e o uso de faturamento eletrônico podem exigir o envio de dados
 - [Introdução ao complemento de faturamento eletrônico para o México](e-invoicing-mex-get-started.md)
 - [Introdução ao complemento de faturamento eletrônico para a Itália](e-invoicing-ita-get-started.md)
 - [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

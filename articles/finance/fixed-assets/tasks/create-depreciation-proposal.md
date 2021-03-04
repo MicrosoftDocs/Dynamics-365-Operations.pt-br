@@ -48,3 +48,6 @@ Este tópico descreve como as propostas de depreciação em lote funcionam e exp
 3. Selecione **Linhas**.
 4. Selecione **Lançar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

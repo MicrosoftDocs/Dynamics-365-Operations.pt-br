@@ -53,3 +53,6 @@ Você pode atualizar as definições de mapeamento para uma dimensão de element
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

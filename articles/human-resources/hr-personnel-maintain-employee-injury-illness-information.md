@@ -93,3 +93,6 @@ Essa gravação de tarefa abrange as etapas básicas para criar um caso de ferim
 36. Clique em Salvar.
     * O status do caso pode ser atualizado a qualquer momento.  Defina o caso para em andamento, se o processamento do ferimento ou da doença estiver em andamento.  Depois que fechar o incidente, você só poderá adicionar ou remover custos, tratamentos ou arquivamentos relacionados ao incidente.  Para alterar outras informações, reabra o caso.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

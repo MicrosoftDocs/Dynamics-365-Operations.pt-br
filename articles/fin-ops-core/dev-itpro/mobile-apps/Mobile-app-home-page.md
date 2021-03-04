@@ -151,3 +151,6 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 
 ## <a name="troubleshooting"></a>Solução de problemas
 [Recursos da plataforma móvel](platform/mobile-platform-home-page.md#troubleshooting-the-app)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

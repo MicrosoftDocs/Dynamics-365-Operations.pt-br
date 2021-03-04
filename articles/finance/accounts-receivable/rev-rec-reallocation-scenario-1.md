@@ -58,3 +58,6 @@ Para concluir a realocação, selecione **Processar**. Você será solicitado a 
 > Para fornecer um contexto sobre o motivo pelo qual esses itens adicionais são mostrados, você pode adicionar outras colunas à grade, como **ID de realocação** e **Ordem de venda**.
 > 
 > [![Colunas adicionais na página Alocações de preço de receita](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Há várias maneiras de criar elementos de custo na Contabilização de custos. 
 1. Clique em Exibir membros da dimensão.
     * Exiba as contas contábeis importadas como elementos de custo na empresa para a qual os custos possam fluir.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

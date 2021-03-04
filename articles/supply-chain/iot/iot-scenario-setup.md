@@ -143,3 +143,6 @@ Para desabilitar um cenário, siga estas etapas.
 2. No bloco do cenário, selecione **Configurar** .
 3. Selecione **Avançar** para acessar a página do último assistente.
 4. Defina a opção para desabilitar o cenário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

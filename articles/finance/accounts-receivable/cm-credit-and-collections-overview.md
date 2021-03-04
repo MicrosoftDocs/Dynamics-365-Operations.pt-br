@@ -77,3 +77,6 @@ Para obter descrições desses conceitos, consulte [Principais conceitos de gere
 [Bloqueios de crédito para ordens de venda](./cm-sales-order-credit-holds.md)
 
 [Tarefas periódicas de gerenciamento de crédito de cliente](./cm-periodic-tasks.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

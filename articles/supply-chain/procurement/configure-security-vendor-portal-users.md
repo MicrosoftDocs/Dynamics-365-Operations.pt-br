@@ -50,3 +50,6 @@ Se a mesma pessoa precisar de acesso ao portal do fornecedor em várias contas d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

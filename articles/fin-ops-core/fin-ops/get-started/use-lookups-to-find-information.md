@@ -83,3 +83,6 @@ Em vez disso, o usuário precisa limpar o valor do controle da pesquisa, abrir o
 Assim que o filtro for aplicado (veja a imagem abaixo), o usuário pode encontrar e selecionar a linha como de costume.
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

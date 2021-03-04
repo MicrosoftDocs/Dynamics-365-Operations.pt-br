@@ -247,3 +247,6 @@ C. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

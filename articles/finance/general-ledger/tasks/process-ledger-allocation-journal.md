@@ -44,3 +44,6 @@ Este tópico explica como processar uma solicitação de alocação. Use a pági
 9. Selecione **Lançar**.
 10. Selecione **Lançar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

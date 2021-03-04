@@ -112,3 +112,6 @@ Para obter mais informações sobre processamento de IDs de registro, incluindo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

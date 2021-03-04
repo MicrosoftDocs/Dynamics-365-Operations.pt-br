@@ -75,3 +75,6 @@ No exemplo anterior, a pesquisa de ação mostrou resultados do painel de açõe
 ## <a name="action-search-vs-navigation-search"></a>Pesquisa de ação x pesquisa de navegação
 
 Enquanto a pesquisa de ações tem como objetivo localizar e executar ações em uma página, existe um mecanismo de pesquisa específico para localizar e navegar até as páginas. Para obter mais informações sobre esse recurso, consulte o artigo [Pesquisa de navegação](navigation-search.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

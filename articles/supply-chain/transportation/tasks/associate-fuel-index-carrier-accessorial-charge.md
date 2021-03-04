@@ -78,3 +78,6 @@ Este guia mostra como criar uma atribuição suplementar, um encargo suplementar
 6. Na lista, clique no link na linha selecionada.
 7. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 8. Na árvore, expanda 'Modelo intrastat'.
 9. Na árvore, selecione 'Modelo intrastat\Intrastat (DE)'.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

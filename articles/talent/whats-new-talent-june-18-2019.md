@@ -86,3 +86,6 @@ Uma nova opção permitirá que gerentes exibam o desempenho de seus relatórios
 ### <a name="print-performance-reviews"></a>Imprima avaliações de desempenho
 
 Funcionários, gerentes e RH poderão imprimir a avaliação de desempenho de um funcionário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

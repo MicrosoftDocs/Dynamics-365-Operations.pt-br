@@ -42,3 +42,6 @@ Este tópico mostra como colocar um período em espera ou fechar permanentemente
 11. Selecione **Atualizar status do período** e defina o status de **Em espera**, **Aberto** ou **Permanentemente fechado**. **Aberto** indica o período em que o lançamento é possível, desde que o usuário tenha acesso. **Em espera** significa que o período não poderá ser lançado, mas o período pode ser reaberto. **Permanentemente fechado** significa que o período será fechado e nunca pode ser aberto. Ajustes não podem ser lançados. Não se recomenda definir um período como **Permanentemente fechado** até que todos os ajustes e auditorias estejam completos.  
 12. Selecione **Atualizar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

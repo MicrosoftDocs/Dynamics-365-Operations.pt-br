@@ -79,3 +79,6 @@ Os modelos de horário de trabalho definem as horas de trabalho ao longo de uma 
 3. Expanda a seção Domingo.
 4. Selecione Sim no campo Fechado para retirada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

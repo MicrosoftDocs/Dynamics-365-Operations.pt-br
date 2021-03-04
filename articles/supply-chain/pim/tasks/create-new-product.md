@@ -43,3 +43,6 @@ Este tópico descreve como criar um novo produto compartilhado. Geralmente é re
 3. No campo **Grupo de dimensões de rastreamento**, insira ou selecione um valor. O grupo de dimensões de rastreamento determina quais dimensões de rastreamento você deve inserir em cada transação para o produto e como são lidadas no estoque.  
 4. Selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Você também pode copiar clientes usando o recurso de pesquisa do número de is
 
 1. A opção **Copiar cliente** é exibida. Por padrão, essa opção é definida como **Não**. Para copiar o cliente para a entidade legal atual, defina-a como **Sim**. 
 2. Escolha **Selecionar**. O cliente foi criado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -45,3 +45,6 @@ Para habilitar esses cenários, o perfil de funcionalidade para lojas deve ser c
 
 > [!NOTE]
 > Ainda não existe suporte para o pagamento nem para a liquidação de valores parciais.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="work-orders-with-project-field-service-to-supply-chain-management-workorderservice"></a>Ordens de serviço com projeto (Field Service para Supply Chain Management): WorkOrderService
 
 [![Mapeamento de modelo na Integração de dados](./media/FSWOP4.png)](./media/FSWOP4.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

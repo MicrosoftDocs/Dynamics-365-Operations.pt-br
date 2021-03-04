@@ -123,3 +123,6 @@ As principais dimensões a seguir são usadas como filtros para cortar as medida
 | Calendários fiscais                   | Calendário, descrição do calendário                                                                                       |
 | Anos fiscais                       | Ano civil                                                                                                        |
 | Períodos fiscais                     | Período de ano civil                                                                                                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

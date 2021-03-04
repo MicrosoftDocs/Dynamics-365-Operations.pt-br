@@ -102,3 +102,6 @@ O relatório **Demonstrativo de análise de variação** permite analisar a vari
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

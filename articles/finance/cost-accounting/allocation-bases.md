@@ -430,3 +430,6 @@ Aqui está um exemplo de uma regra de distribuição de custo, se a base de aloc
 |    CC002    |     FI      | 3,075.00  | (3.075,00 ÷ 18.162,50) × valor  |
 |    CC003    |     TE      | 13,250.00 | (13.250,00 ÷ 18.162,50) × valor |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

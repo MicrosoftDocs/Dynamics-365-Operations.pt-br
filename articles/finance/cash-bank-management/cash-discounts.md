@@ -66,3 +66,6 @@ Uma fatura de US$ 1000 com base nas condições do desconto à vista de 20D2% é
 > [!NOTE]
 > Se a opção Calcular descontos à vista para pagamentos parciais for selecionada nas páginas Parâmetros de contas a receber ou Parâmetros de contas a pagar, a taxa de câmbio que está em vigor na data de cada pagamento parcial é utilizada. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

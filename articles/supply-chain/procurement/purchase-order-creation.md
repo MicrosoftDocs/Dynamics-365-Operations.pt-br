@@ -96,3 +96,6 @@ Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

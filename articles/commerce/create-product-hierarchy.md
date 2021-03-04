@@ -80,3 +80,6 @@ Grupos de atributos de categoria também podem ser atribuídos a cada grupo, con
 [Gerenciar produtos e categorias de produtos ](category-management-product-creation.md)
 
 [Alterar a ordem de classificação das entidades de comercialização](custom-order-categories-nav-retail-prod-hierarchy.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

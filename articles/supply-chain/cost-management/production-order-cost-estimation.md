@@ -65,3 +65,6 @@ Uma estimativa de custo também fornece as seguintes informações:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

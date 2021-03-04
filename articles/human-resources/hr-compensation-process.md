@@ -77,3 +77,6 @@ Quando os valores de remuneração tiverem sido revisados ​​para um funcion�
 Quando um ou mais eventos de funcionário tiverem seu status atualizado para Aprovado, eles podem ser carregados nos registros de remuneração fixa dos funcionários. Faça isso selecionando cada evento de funcionário por vez e clicando no botão **Carregar remuneração de funcionário** na página **Resultados do funcionário** ou clicando em **Carregar remuneração** na página **Resultados do processo** para carregar todos os eventos de funcionário aprovados de uma só vez.
 
 Clicar em **OK** na caixa de diálogo **Carregar remuneração** adicionará as linhas de ação de compensação não-zero à página **Remuneração fixa do funcionário**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

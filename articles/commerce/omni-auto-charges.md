@@ -222,3 +222,6 @@ Se os usuários substituírem manualmente os encargos calculados ou adicionarem 
 
 [Ratear encargos do cabeçalho para as linhas de vendas correspondentes](pro-rate-charges-matching-lines.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1373,3 +1373,6 @@ O aplicativo para tablet com Windows 8 fornece a funcionalidade da entrada e a a
 |     <strong>Áreas afetadas do produto</strong>     |                                              Contabilidade                                              |
 |             <strong>Status</strong>             |                                      Removido a partir do Dynamics AX 2012                                      |
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

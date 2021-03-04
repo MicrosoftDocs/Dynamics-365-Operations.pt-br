@@ -238,3 +238,6 @@ O formato deve estar disponível primeiro nas configurações de ER. Se esse pr�
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

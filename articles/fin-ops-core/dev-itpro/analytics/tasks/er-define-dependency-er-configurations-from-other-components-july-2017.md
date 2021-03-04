@@ -139,3 +139,6 @@ Excluiremos as configurações criadas do sistema e as baixaremos novamente do r
 26. Na árvore, expanda 'Modelo de dados de amostra'.
     * Observe que a configuração de mapeamento do modelo "Mapeamento de amostra" foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o "Mapeamento de amostra" foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração "Mapeamento de amostra (alternativo)" não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
     * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração "Mapeamento de amostra (alternativo)" será baixada, enquanto a configuração "Mapeamento de amostra" será ignorada.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Agora, você pode criar transações de subscrição para a subscrição.
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

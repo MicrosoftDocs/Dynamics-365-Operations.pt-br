@@ -175,3 +175,6 @@ O evento **AttachingFile()** é gerado quando os seguintes destinos de ER são p
 
 - [Destinos de relatório eletrônico (ER)](electronic-reporting-destinations.md)
 - [Home page da extensibilidade](../extensibility/extensibility-home-page.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

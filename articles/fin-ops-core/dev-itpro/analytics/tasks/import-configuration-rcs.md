@@ -55,3 +55,6 @@ As etapas a seguir explicam como um usuário na função de Administrador do Sis
 5. Selecione **Fechar**. 
 6. Selecione a versão desejada da configuração de ER e selecione **Importar** para exibi-la na instância atual.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Este procedimento mostra como criar rapidamente uma nova fórmula, copiando de u
 3. Clique em OK.
 4. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

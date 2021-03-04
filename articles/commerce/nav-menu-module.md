@@ -72,3 +72,6 @@ Para obter detalhes sobre como adicionar um módulo de menu de navegação a um 
 [Compatível com cookies](cookie-compliance.md)
 
 [Módulo de cabeçalho](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

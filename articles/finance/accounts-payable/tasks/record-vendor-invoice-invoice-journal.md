@@ -49,3 +49,6 @@ Este guia de tarefa mostrará como registrar as notas fiscais de fornecedor que 
 12. Clique em **Enviar**.
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

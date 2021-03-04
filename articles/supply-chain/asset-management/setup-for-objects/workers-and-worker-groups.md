@@ -64,3 +64,6 @@ Você também pode criar grupos de funcionários de manutenção e associar func
 6. Se um grupo de recursos deve estar relacionado ao grupo de funcionários de manutenção selecionado, selecione **Copiar do grupo de recursos**. No campo **Grupo**, selecione o grupo de recursos do qual as configurações de calendário serão copiadas. Em seguida, no campo **Grupo de trabalhadores**, selecione o grupo de trabalhadores para o qual as configurações de calendário do grupo de recursos serão copiadas. Esta etapa é relevante somente se você quiser que os funcionários de manutenção usem o calendário que está relacionado a um recurso (centro de trabalho) durante o agendamento da ordem de serviço.
 
     O campo na Guia Rápida **Detalhes** mostra o número de funcionários de manutenção que foram definidos no grupo de funcionários de manutenção selecionado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

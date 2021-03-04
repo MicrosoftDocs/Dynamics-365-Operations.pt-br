@@ -78,3 +78,6 @@ Se a previsão não for gerada para um grande conjunto de itens, mas, por exempl
 - [Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
 
 - [Autorizar uma previsão ajustada](authorize-adjusted-forecast.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -73,3 +73,6 @@ Se desejar usar informações de roteiro para avaliação de custo, etapas de pr
 
 [Configurar produtos que podem ser produzidos ou obtidos](manufactured-items-treated-as-purchased-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

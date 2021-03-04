@@ -100,3 +100,6 @@ Para publicar uma URL, siga estas etapas.
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
 
 [Verificar acessibilidade de conteúdo da página](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

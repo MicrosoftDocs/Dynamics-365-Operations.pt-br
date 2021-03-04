@@ -89,3 +89,6 @@ Os seguintes relatórios fornecem informações de referência sobre os objetos:
 - [Relatório de códigos de licença e chaves de configuração](../sysadmin/license-codes-configuration-keys-report.md)
 - [Relatórios disponíveis do SQL Server Reporting Services (SSRS)](SSRS-report.md)
 - [Relatório de tipos de fluxo de trabalho](../../fin-ops/organization-administration/workflow-types-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

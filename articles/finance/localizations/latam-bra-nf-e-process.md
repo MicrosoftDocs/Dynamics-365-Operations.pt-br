@@ -69,3 +69,6 @@ Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seg
  - [NF-e 3.10 (Brasil)](tasks/br-00053-nf-e-3-10.md)
  - [Transmissão automática de notas fiscais eletrônicas (Brasil)](tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

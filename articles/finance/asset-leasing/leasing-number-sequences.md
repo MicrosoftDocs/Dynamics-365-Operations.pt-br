@@ -36,3 +36,6 @@ Este tópico explica como criar sequências numéricas para IDs de arrendamento.
 3. Selecione **Sequências numéricas** na barra lateral.
 4. Selecione a sequência numérica para a referência **ID do Arrendamento**. Essa sequência numérica será usada para gerar o identificador exclusivo para cada arrendamento.
 5. Selecione a sequência numérica para a referência **ID do Processo**. Essa sequência numérica será usada para gerar o identificador exclusivo para cada processo de reavaliação de índice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

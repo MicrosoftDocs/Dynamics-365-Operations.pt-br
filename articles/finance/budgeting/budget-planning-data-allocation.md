@@ -77,3 +77,6 @@ Por fim, adicione uma tarefa automatizada para alocação de fase de planejament
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -58,3 +58,6 @@ Para que você possa usar o recurso *Zona de localização adicional*, ele deve 
 7. Selecione **Criar**.
 8. Você recebe mensagens indicando que novas localizações foram adicionadas. Selecione o botão **Mostrar mensagens** para exibir as mensagens.
 9. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Localizações**. As novas localizações serão exibidas na lista, e todos os campos de zona estarão disponíveis (ou seja, o campo de zona existente e os novos campos de zona adicionais).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

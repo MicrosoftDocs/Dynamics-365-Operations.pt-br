@@ -72,3 +72,5 @@ Você pode usar as estatísticas do questionário para analisar os resultados de
 -   Selecione ou marque os critérios para analisar os resultados por ou características do participante do questionário. Por exemplo, selecionando o **CEP/código postal**, você poderá analisar a correção entre o local de um respondente e respostas corretas.
 
 As configurações que você define são salvas e podem ser usadas para recalcular resultados periodicamente.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

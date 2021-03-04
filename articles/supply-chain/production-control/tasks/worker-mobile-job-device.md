@@ -68,3 +68,6 @@ Por exemplo, verifique se a usuária "SHANNON" obteve a função de operadora de
 6. No campo **Unidade de produção**, você pode definir o filtro padrão para o trabalhador. Isso garantirá que somente os trabalhos de produção da unidade de produção selecionada serão exibidos quando o trabalhador fizer logon no dispositivo. Insira o valor desejado.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

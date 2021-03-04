@@ -192,3 +192,6 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../migration-upgrade/deprecated-features.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

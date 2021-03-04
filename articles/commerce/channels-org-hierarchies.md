@@ -88,3 +88,6 @@ A imagem a seguir mostra uma entidade legal adicionada na raiz da hierarquia, co
 [Visão geral de canais](channels-overview.md)
 
 [Pré-requisitos de configuração de canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

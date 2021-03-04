@@ -54,3 +54,6 @@ Você pode criar uma nota fiscal de transferência ou apropriação de imposto e
 20. Feche a página.
 21. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

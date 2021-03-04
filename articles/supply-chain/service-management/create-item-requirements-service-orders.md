@@ -72,3 +72,6 @@ As requisições de itens para ordens de serviço são processadas através de u
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

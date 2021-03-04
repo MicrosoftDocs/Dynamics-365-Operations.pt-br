@@ -166,3 +166,6 @@ As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto d
 |--------------------------------|----------------------------------------------------------------------|
 | %Substituto\_ICMS\_tax\_amount | O valor do imposto presumido do ICMS do substituto do ICMS.                |
 | %Substituto\_FCP\_tax\_amount  | O valor presumido do FCP do substituto do ICMS.                     |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -82,3 +82,6 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 - [Criar um calendário de horas úteis](hr-leave-and-absence-working-time-calendar.md)
 - [Suspender licença](hr-leave-and-absence-suspend-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

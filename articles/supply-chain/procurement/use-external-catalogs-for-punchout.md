@@ -55,3 +55,5 @@ Quando a requisição está pronta, use a ação **Fluxo de trabalho** > **Envia
 
 - [​Configurar um catálogo externo para PunchOut e-procurement​](set-up-external-catalog-for-punchout.md)
 - [Aprimoramentos ao cXML de compra](purchasing-cxml-enhancements.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

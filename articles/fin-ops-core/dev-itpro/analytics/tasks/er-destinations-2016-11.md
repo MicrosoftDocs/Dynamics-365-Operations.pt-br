@@ -60,3 +60,6 @@ O formato usado nesse exemplo é a transferência de crédito ISO20022, mas voc�
 21. No campo Assunto, digite um valor.
 22. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

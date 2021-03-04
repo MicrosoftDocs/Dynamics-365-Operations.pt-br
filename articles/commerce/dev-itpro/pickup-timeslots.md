@@ -123,3 +123,6 @@ A ilustração a seguir mostra um exemplo de uma ordem de comércio eletrônico 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Módulo de informações sobre retirada](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

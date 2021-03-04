@@ -31,3 +31,6 @@ Como acontece com todos os encargos diversos, os encargos gerados pelo transport
 Acesse **Gerenciamento de transporte > Configurar > Classificação > Encargos diversos** para definir os critérios de qualificação que determinam quando um **Código de encargo** específico é aplicado a uma cobrança.
 
 Você deve ter pelo menos uma configuração para cada configuração **Módulo de encargo** relevante (*Cliente* e *Fornecedor*) em que **Tipo de encargo diverso** é definido como *Nenhum*. Se estiver faltando, o encargo diverso *não* será adicionada à ordem.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -111,3 +111,6 @@ Para configurar a integração entre o serviço de contabilidade de serviços e 
 ## <a name="related-resources"></a>Recursos relacionados
 
 [Home page do serviço de contabilidade de custos](cost-accounting-service-home.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

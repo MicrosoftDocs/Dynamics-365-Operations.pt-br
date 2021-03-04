@@ -157,3 +157,6 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 71. Feche a página.
 72. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

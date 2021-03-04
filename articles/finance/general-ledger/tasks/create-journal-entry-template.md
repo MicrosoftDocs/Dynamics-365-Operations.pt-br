@@ -63,3 +63,6 @@ Os comprovantes de diário lançados podem ser salvos como modelos de comprovant
 29. No campo **Valor**, insira o valor a ser aplicado ao comprovante. O campo **Valor** é apenas exibido se o modelo de comprovante for do tipo Porcentagem.  
 30. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

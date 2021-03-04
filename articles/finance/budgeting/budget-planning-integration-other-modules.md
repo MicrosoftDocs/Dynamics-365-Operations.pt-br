@@ -147,3 +147,6 @@ Os relatórios adicionais disponíveis incluem o relatório **Previsão de posi�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

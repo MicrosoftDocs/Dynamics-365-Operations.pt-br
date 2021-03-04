@@ -116,3 +116,6 @@ Nesta Guia Rápida, você pode adicionar ou remover rounds de manutenção, que 
 ## <a name="financial-dimensions"></a>Dimensões financeiras
 
 Você pode selecionar dimensões financeiras para o ativo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -107,3 +107,6 @@ Ao configurar suas estruturas de conta há algumas práticas recomendadas que vo
 Quando estiver satisfeito com sua nova configuração ou com uma alteração em uma estrutura de conta, você deverá ativá-la. Se uma estrutura de conta for atribuída a um razão, essa ativação pode ser um processo de execução longa, pois todas as transações não lançadas no sistema devem ser sincronizadas com a nova estrutura. As transações lançadas não são afetadas com as alterações da estrutura da conta.
 
 Para obter mais informações, consulte [Planejar seu plano de contas](plan-chart-of-accounts.md), [Dimensões financeiras](financial-dimensions.md) e [Inserir a conta e as combinações de dimensões (controle segmentado de entradas)](enter-account-dimension-combinations-segmented-entry-control.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

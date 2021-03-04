@@ -83,3 +83,6 @@ A estrutura dessa lista consiste em um único campo **Valor** do tipo `Real`, po
 [Funções de listagem](er-functions-category-list.md)
 
 [Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação](er-debug-data-sources.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

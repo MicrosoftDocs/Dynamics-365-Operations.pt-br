@@ -57,3 +57,6 @@ Este procedimento define uma configuração de desconto à vista e a data de ven
 26. No campo **Conta principal para descontos do fornecedor**, insira a conta principal na qual o desconto à vista lançará as faturas de fornecedores.
 27. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

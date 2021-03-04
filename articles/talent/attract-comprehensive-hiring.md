@@ -85,3 +85,6 @@ Há vários motivos pelos quais você talvez não veja todos os recursos do Attr
 
 - Seu colega de trabalho está trabalhando com uma avaliação ou uma licença do Attract com o Complemento de Contratação Abrangente, mas você está trabalhando com a versão básica do Attract.
 - Você tem o Attract com o Complemento de Contratação Abrangente, mas você não recebeu as funções corretas para usar todos os recursos. Para obter mais informações, consulte [Gerenciamento de segurança e funções no Attract](security-attract.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

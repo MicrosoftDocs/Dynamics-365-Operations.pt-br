@@ -63,3 +63,6 @@ Estão disponíveis os seguintes parâmetros:
 
 - **Número de tentativas de conciliação automática** – Selecione o número de vezes que o sistema deve tentar coincidir os recebimentos de produtos em uma linha da fatura antes de concluir que o processo falhou. Quando o número de tentativas especificado é atingido, a fatura é removida do processamento da automação.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

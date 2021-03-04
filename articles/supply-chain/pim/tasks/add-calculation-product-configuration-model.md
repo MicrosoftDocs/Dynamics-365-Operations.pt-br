@@ -39,3 +39,6 @@ Este procedimento mostra adicionar um novo cálculo a um modelo de configuraçã
 4. Clique em Fechar.
 5. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

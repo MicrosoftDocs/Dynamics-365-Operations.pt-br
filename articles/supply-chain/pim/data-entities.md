@@ -50,3 +50,6 @@ Para importar e exportar dados de produto, você deve usar entidades de dados. A
 
 > [!NOTE]
 > Você pode usar a entidade de dados **Produtos lançados V2** para importar produtos para o sistema somente se o produto compartilhado já foi criado. Caso contrário, para importar produtos para o sistema, você deve usar a entidade de dados **Criação de produto**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -247,3 +247,6 @@ As informações nos seguintes recursos não são necessárias para habilitar re
 - [Como acessar espaços de trabalho analíticos e relatórios em um ambiente de 1 caixa](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

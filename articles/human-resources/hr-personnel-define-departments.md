@@ -52,3 +52,6 @@ Os departamentos são unidades operacionais que representam uma área funcional 
 16. No campo Descrever alterações, digite um valor.
 17. Clique em Publicar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

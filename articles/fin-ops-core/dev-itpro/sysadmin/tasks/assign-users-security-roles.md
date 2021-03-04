@@ -57,3 +57,6 @@ Os usuários que são atribuídos manualmente a direitos de acesso também devem
 2. Na árvore, selecione uma função e no menu **Usuários atribuídos à função**, selecione **Atribuir/excluir usuários manualmente**.
 4. em **Atribuir usuários a ou excluir usuários da função**, os usuários que não receberam a função são listados com o **modo de atribuição** definido como **Nenhum**. Selecione um ou mais usuários aos quais a função deve ser atribuída.
 5. No **Painel de ação**, selecione **Atribuir à função**. O **Modo de atribuição** é atualizado para **Manual** e os usuários agora têm uma nova função atribuída.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

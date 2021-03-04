@@ -41,3 +41,6 @@ Este procedimento se concentra na configuração de um código de disposição q
 6. No campo Código de disposição de devolução, digite um valor.
     * O código de disposição de devolução determina o restante do processo da ordem de devolução para os itens registrados. Neste exemplo, o cliente deve receber uma nota de crédito. Adicione um código de disposição de devoluções que contenha uma ação de Crédito.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

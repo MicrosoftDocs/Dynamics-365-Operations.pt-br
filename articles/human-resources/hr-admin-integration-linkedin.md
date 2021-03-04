@@ -190,3 +190,6 @@ Os seguintes detalhes são importados e incluídos no novo registro de funcioná
 
 [Configurar entidades virtuais do Common Data Service](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [O que é o Common Data Service?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

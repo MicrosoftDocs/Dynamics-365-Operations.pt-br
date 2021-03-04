@@ -56,3 +56,6 @@ Esse procedimento se concentra em substituir uma regra kanban existente por uma 
 1. Defina Quantidade máxima como '100'.
     * Expanda as quantidades FastTab para ver o campo Quantidade máxima. Alterar a quantidade máxima para 100 permitirá que até 100 kanbans sejam processados.    Esta é a última etapa da tarefa.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

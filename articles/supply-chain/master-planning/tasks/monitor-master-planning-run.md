@@ -127,3 +127,6 @@ A cor é mostrada somente no nível mais baixo no gráfico de Gantt. Selecione *
 1. Na grade, selecione a linha em que o campo **Campo** é definido como **Número do item**.
 1. No campo **Critérios**, insira um valor.
 1. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

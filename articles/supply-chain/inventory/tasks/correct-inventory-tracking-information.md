@@ -64,3 +64,6 @@ Este procedimento apresenta o processo de criação e lançamento de um diário 
 2. Clique em Transações.
     * Aqui é possível ver as transações que foram criadas quando você lançou seu diário.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

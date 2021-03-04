@@ -64,3 +64,6 @@ Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a 
 33. Feche a página.
 34. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

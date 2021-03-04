@@ -73,3 +73,6 @@ Nesse caso, a expressão `LIST('Record 1', 'Record 2')` retorna uma nova lista q
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

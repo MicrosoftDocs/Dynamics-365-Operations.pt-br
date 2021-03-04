@@ -109,3 +109,6 @@ Depois que você visualizou alterações no layout predefinido, siga uma dessas 
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Trabalhar com modelos](work-with-templates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

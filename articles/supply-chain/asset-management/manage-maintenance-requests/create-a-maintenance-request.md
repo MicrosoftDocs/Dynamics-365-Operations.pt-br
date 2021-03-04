@@ -74,3 +74,6 @@ Na exibição de detalhes, é possível atualizar várias informações. Eis alg
 
 > [!NOTE]
 > Se você selecionar um ativo ao criar uma solicitação de manutenção, poderá adicionar uma falha no ativo. Quando a solicitação de manutenção for criada, você poderá adicionar mais falhas, conforme necessário. Para adicionar falhas, selecione **Falha de ativo** na página **Todas as solicitações de manutenção**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -79,3 +79,6 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transferência de estoque (Field Service com o Supply Chain Management): Transferência de estoque
 
 [![Mapeamento de modelo na Integração de dados](./media/FSTrans1.png)](./media/FSTrans1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

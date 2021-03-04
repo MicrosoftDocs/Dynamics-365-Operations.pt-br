@@ -83,3 +83,6 @@ Se o primeiro valor de resultado e o *N* º valor de resultado forem valores do 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções lógicas](er-functions-category-logical.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

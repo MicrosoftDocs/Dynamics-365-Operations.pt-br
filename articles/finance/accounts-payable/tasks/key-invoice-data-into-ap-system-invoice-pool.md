@@ -68,3 +68,6 @@ Este tópico descreve como usar o registro de fatura para criar faturas. Use o g
 13. Selecione **Transações**.
 14. Selecione a nota fiscal que você criou. O acúmulo de registro de nota fiscal foi estornada e lançada na conta de despesas apropriada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

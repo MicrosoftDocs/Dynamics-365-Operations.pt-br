@@ -55,3 +55,6 @@ Os usuários externos ao locatário em que o ambiente foi implantado precisam se
 4. Selecione **Importar usuários**.
 5. Selecione **Fechar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -66,3 +66,6 @@ As faturas de pagamento antecipado são uma prática empresarial comum. Um forne
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

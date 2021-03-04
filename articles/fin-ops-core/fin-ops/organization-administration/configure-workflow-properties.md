@@ -179,3 +179,6 @@ Para inserir comentários sobre as alterações feitas no fluxo de trabalho, sig
 2. No campo **Inserir comentários sobre o fluxo de trabalho**, insira seus comentários.
 3. Revise seus comentários. Depois que você adicionar comentários, não poderá modificá-los.
 4. Clique em **Adicionar** para adicionar comentários à área **Histórico de comentários**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
 [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
 [Adiar a execução de elementos XML nos formatos ER](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

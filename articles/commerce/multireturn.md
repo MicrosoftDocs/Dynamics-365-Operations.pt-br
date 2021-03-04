@@ -54,3 +54,6 @@ Quando as ordens estiverem selecionadas, uma lista de todos os produtos retorná
 
 Se a ordem for totalmente devolvida, o valor dos impostos devolvidos ao cliente será igual ao valor do imposto cobrado originalmente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

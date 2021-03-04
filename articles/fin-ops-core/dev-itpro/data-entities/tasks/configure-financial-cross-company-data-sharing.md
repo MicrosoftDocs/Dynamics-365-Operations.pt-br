@@ -59,3 +59,6 @@ Este guia de tarefas requer a plataforma 7.1 do Dynamics AX ou posterior.
 27. Atualize a página.
 28. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

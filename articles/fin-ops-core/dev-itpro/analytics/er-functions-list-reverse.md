@@ -59,3 +59,6 @@ Se **Fornecedor** estiver configurado como uma fonte de dados de relatório elet
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Funções de listagem](er-functions-category-list.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

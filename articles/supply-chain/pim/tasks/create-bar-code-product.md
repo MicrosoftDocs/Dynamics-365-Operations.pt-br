@@ -43,3 +43,6 @@ Este tópico mostra como criar manualmente um código de barras usando o número
 12. Selecione **Salvar**.
 13. Feche a página. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Você pode configurar códigos razão que são necessários para alterações em
 Por fim, na guia **Sequências numéricas**, defina sequências numéricas para ativos fixos. A sequência numérica do **Ativo fixo** pode ser substituída pela sequência numérica do **Grupo de ativos fixos** se tiver sido especificada.
 
 Para saber mais, consulte [Criar um ativo fixo](tasks/create-fixed-asset.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

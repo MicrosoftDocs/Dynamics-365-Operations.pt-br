@@ -54,3 +54,6 @@ Com a criação de ordens baseadas em um fluxo constante apresentada no Retail v
 > Os itens de menu **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Calcular demonstrativos em lote** e **Retail e Commerce > TI de Retail e Commerce > Lançamento do PDV > Lançar demonstrativos em lote** foram removidos com este novo recurso.
 
 Como alternativa, os tipos de demonstrativo transacional e financeiro podem ser criados manualmente. Acesse **Retail e Commerce > Canais > Lojas** e clique em **Demonstrativos**. Clique em **Novo** e escolha o tipo de demonstrativo que deseja criar. Os campos na página **Demonstrativos** e as ações no **Grupo de demonstrativos** da página mostrarão os dados relevantes e as ações baseadas no tipo de demonstrativo selecionado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

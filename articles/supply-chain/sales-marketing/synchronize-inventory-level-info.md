@@ -91,3 +91,6 @@ Você pode aplicar filtros com a Filtragem e consulta avançada para que somente
 ### <a name="product-inventory-supply-chain-management-to-field-service-product-inventory"></a>Estoque de produtos (Supply Chain Management para Field Service): Estoque de produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

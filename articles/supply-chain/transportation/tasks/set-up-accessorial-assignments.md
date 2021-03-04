@@ -50,3 +50,6 @@ Este procedimento mostra como iniciar uma atribuição suplementar. Normalmente 
 14. No campo Taxa suplementar, insira um número.
 15. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

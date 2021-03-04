@@ -79,3 +79,6 @@ Este procedimento mostra como configurar um programa de fidelidade com as duas c
 39. Feche a página.
 40. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

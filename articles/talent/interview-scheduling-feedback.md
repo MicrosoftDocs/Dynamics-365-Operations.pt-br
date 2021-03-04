@@ -102,3 +102,6 @@ Se você selecionar o campo **Herdar participantes de comentários da Equipe de 
 A atividade de entrevista é uma atividade opcional com três componentes: **Solicitação de disponibilidade do candidato**, **Agenda** e **Comentários**. Use a atividade de entrevista no modelo de trabalho se você quiser incluir a solicitação de disponibilidade, a agenda e os comentários do candidato como parte do processo em vez de usá-las individualmente.
 
 Para incluir ou limitar os candidatos a serem entrevistados, selecione um valor no campo **Quem você está entrevistando**. As opções disponíveis são **Todos os Candidatos**, **Candidatos Externos** e **Candidatos Internos**. Por exemplo, se você quiser ignorar candidatos internos na primeira rodada de entrevistas, defina **Quem você está entrevistando** como **Candidatos Externos**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

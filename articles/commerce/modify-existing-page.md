@@ -87,3 +87,6 @@ O exemplo a seguir mostra como modificar a home page alterando o vídeo que apar
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
 
 [Verificar acessibilidade de conteúdo da página](verify-accessibility.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

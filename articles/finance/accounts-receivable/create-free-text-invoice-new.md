@@ -85,3 +85,6 @@ Depois de copiar as linhas, você poderá editar as informações conforme neces
 Você pode criar uma fatura de texto livre a partir de um modelo. Quando selecionar **Novo a partir do modelo** na guia **Fatura**, selecione um nome de modelo e a conta do cliente para nova fatura de texto livre. Os valores padrão, como as condições de pagamento e método de pagamento, podem ser preenchidos automaticamente ou você pode usar os valores que foram salvos no modelo.
 
 Uma nova fatura de texto livre é criada e você pode editar os valores conforme necessário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

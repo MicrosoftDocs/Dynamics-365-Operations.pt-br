@@ -164,3 +164,6 @@ A tabela a seguir lista nossos sites. Os sites que têm um asterisco (\*) ao lad
 | [Comunidade do Dynamics](https://community.dynamics.com/) | Este site hospeda blogs, fóruns e vídeos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Este site fornece avaliação e informações de vendas. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\* | Este site hospeda recursos de treinamento, relatórios e white papers para download, além de ser o principal site de suporte para titulares de planos de serviço. O acesso a alguns recursos deste site pode exigir um plano de serviço. |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

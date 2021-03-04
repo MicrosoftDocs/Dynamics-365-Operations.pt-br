@@ -180,3 +180,6 @@ As entidades a seguir do Human Resources estão disponíveis no Common Data Serv
 
 [Escolher uma tecnologia de integração de dados](hr-admin-integration-choose-technology.md)</br>
 [Configurar integração do Common Data Service](hr-admin-integration-common-data-service.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

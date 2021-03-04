@@ -78,3 +78,6 @@ Use este procedimento para configurar juros e multas em pagamentos de clientes. 
 48. Feche a página.
 49. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

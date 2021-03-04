@@ -157,3 +157,6 @@ A tabela a seguir mostra a regra genérica.
 | Imposto a Receber | Negativo              | Contas de Imposto a Receber | Negativo (Crédito)  |
 | Imposto a Pagar    | Positivo              | Conta de Imposto a Pagar    | Negativo (Crédito)  |
 | Imposto a Pagar    | Negativo              | Conta de Imposto a Pagar    | Positivo (Débito)  |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

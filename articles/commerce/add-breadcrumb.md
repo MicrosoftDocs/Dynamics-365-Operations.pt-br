@@ -95,3 +95,6 @@ Para adicionar um módulo de trilha de navegação a um PDP e definir as proprie
 [Módulo de caixa de compra](add-buy-box.md)
 
 [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

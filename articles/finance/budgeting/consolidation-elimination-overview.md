@@ -90,3 +90,6 @@ Ao usar a opção **Exportar saldos da empresa** para expandir uma instância e 
 Para obter mais informações, consulte [Reavaliação de moeda em uma empresa de consolidação](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

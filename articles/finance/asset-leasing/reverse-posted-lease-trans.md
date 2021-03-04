@@ -56,3 +56,6 @@ Para revogar uma transação revertida, siga estas etapas.
 Quando você seleciona **Rastreamento da reversão**, é exibida uma caixa de diálogo mostrando as transações originais e as transações revertidas, juntamente com um número vinculado, que é conhecido como um número de rastreamento.
 
 Você também pode rastrear as revogações usando a página **Agendas** apropriadas. O campo **Reverter** é limpo, enquanto o campo **Lançado no diário** é selecionado. Além disso, o campo **Número do diário mais recente** é atualizado com o número do diário da transação de revogação e o campo **Número do diário** é atualizado com o número do diário de estorno.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

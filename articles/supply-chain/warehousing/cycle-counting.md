@@ -140,3 +140,6 @@ Você pode ajustar as diferenças no valor contado e aceitar o valor contado na 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -115,3 +115,6 @@ A imagem a seguir mostra um exemplo de configuração de produto liberado.
 [Criar entidades legais](channels-legal-entities.md)
 
 [Criar um grupo de grades](create-variant-group.md) 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

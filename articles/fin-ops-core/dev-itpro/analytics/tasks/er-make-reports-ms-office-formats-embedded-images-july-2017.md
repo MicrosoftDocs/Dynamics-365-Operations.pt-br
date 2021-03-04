@@ -90,3 +90,6 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  30. Selecione Sim no campo Permitir a criação do pré-registro em contas bancárias inativas:.  
  31. Clique em Salvar.  
  32. Feche a página.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

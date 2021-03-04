@@ -127,3 +127,6 @@ Depois de um produto ser relatado como concluído na linha de produção, ele é
 -   O cenário de distribuição integrada é suportado itens controlados por lote e série, com as dimensões de lote e número de série definidas na localização acima e abaixo na hierarquia de reserva. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
