@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8b5d2e678b01f052db29d5a1c47eae27d27cd04f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: dd9962451e8b72677e1a006dd9c1b8b8b268c93e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694179"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798638"
 ---
 # <a name="action-search"></a>Pesquisa de ação
 
@@ -35,7 +35,7 @@ As páginas expõem principalmente comandos em Painéis de Ação: o Painel de A
 
 [![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png)
 
-As Dicas de Tecla não estão mais disponíveis, mas foram substituídos pelo recurso de pesquisa de ações. Esse novo recurso permite procurar e executar rapidamente um botão em qualquer Painel de Ação visível.
+O recurso de pesquisa de ações substitui as Dicas de Tecla, que não estão mais disponíveis. Esse novo recurso permite procurar e executar rapidamente um botão em qualquer Painel de Ação visível.
 
 ## <a name="using-action-search"></a>Usando a pesquisa de ação
 
@@ -53,7 +53,7 @@ Você também pode iniciar a pesquisa de ação pressionando Ctrl+/ ou Alt+Q. Pr
 
 ## <a name="understanding-the-results-list"></a>Noção básica da lista de resultados
 
-Frequentemente, você deve conhecer o local e o contexto de um botão para compreender totalmente a finalidade desse botão. Por isso, as informações adicionais são mostradas para cada item da lista de resultados, para ajudar a entender completamente os botões que aparecem na lista. Particularmente, o "caminho" do botão é exibido. Esse caminho pode incluir os rótulos dos seguintes elementos da interface do usuário, conforme relevantes:
+Frequentemente, você deve conhecer o local e o contexto de um botão para compreender totalmente a finalidade desse botão. Portanto, a lista de resultados exibem as informações adicionais para ajudar a entender exatamente os botões que aparecem na lista. Particularmente, o "caminho" do botão é exibido. Esse caminho pode incluir os rótulos dos seguintes elementos da interface do usuário, conforme relevantes:
 
 - Guia Painel de Ação
 - Grupo de botões
@@ -65,7 +65,7 @@ Por exemplo, você digitou **tot** no campo de **pesquisa de ação** e agora es
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png)
 
-No exemplo anterior, a pesquisa de ação mostrou resultados do painel de ações padrão na parte superior da página. No entanto, a pesquisa de ação também exibe resultados de barras de ferramentas visíveis que estão localizadas em outros locais da página. Por exemplo, você está procurando o botão **Estoque disponível**, localizado na Guia Rápida **Linhas de ordem de venda**. Nesse caso, o caminho do botão na lista de resultados (**Linhas de ordem de venda** &gt; **Estoque** &gt; **Exibir**) informa que esse botão está localizado abaixo do cabeçalho **Exibir** no botão de menu **Estoque**, na Guia Rápida **Linhas de ordem de venda**.
+No exemplo anterior, a pesquisa de ação mostrou resultados do painel de ações padrão na parte superior da página. No entanto, a pesquisa de ação também exibe resultados de barras de ferramentas visíveis que estão em outros locais da página. Por exemplo, você está procurando o botão **Estoque disponível** na guia rápida **Linhas de ordem de venda**. Nesse caso, o caminho do botão na lista de resultados (**Linhas de ordem de venda** &gt; **Estoque** &gt; **Exibir**) informa que esse botão está abaixo do cabeçalho **Exibir** no botão de menu **Estoque**, na guia rápida **Linhas de ordem de venda**.
 
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
@@ -75,6 +75,3 @@ No exemplo anterior, a pesquisa de ação mostrou resultados do painel de açõe
 ## <a name="action-search-vs-navigation-search"></a>Pesquisa de ação x pesquisa de navegação
 
 Enquanto a pesquisa de ações tem como objetivo localizar e executar ações em uma página, existe um mecanismo de pesquisa específico para localizar e navegar até as páginas. Para obter mais informações sobre esse recurso, consulte o artigo [Pesquisa de navegação](navigation-search.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

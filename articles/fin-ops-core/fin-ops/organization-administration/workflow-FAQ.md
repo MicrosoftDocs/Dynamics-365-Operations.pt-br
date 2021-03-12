@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 785b14d20a647ea2187f311f1cd056b8181d4849
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 58aa4a6d313a78e88c2858637d6de167895ec534
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694047"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797382"
 ---
 # <a name="workflow-faq"></a>Perguntas frequentes sobre fluxo de trabalho
 
@@ -59,6 +59,3 @@ O valor padrão do campo para o **Número de itens de fluxo de trabalho por lote
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>O que é o recurso de Erro Avançado do Fluxo de Trabalho?
 O recurso de Erro Avançado do Fluxo de Trabalho na versão 10.0.13 adiciona códigos de erro para diferenciar classes diferentes de erros de fluxo de trabalho. As mensagens de erro relatadas serão quase parecidas, com pequenas diferenças para torná-las mais claras.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

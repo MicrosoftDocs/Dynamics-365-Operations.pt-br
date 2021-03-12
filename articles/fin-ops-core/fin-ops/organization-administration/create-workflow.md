@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 23fe13f7e3c7e8138b690c96fafc075c4700a60f
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d1402019dbaaa60827499fcb6b93ee31440cfc3d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693297"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797643"
 ---
 # <a name="create-workflows-overview"></a>Visão geral de criação de fluxos de trabalho
 
@@ -83,6 +83,3 @@ Quando estiver pronto para salvar e ativar o fluxo de trabalho, siga estas etapa
 
     - Para ativar a versão de fluxo de trabalho, clique em **Ativar a nova versão**. Quando um fluxo de trabalho estiver ativo, os usuários poderão enviar documentos a ele para processamento.
     - Se não quiser ativar a versão, clique em **Não ativar a nova versão**. É possível ativar o fluxo de trabalho posteriormente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

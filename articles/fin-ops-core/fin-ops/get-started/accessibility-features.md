@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 332306abbd4eedb725efbf6022940c59419e1747
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 2d0dd3ebf4b50f43f9fb1893081ede2a93428c72
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693837"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798686"
 ---
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
@@ -97,6 +97,3 @@ Em smartphones e outras telas pequenas, os controles e o layout do formulário s
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>Orientações para ajudar os desenvolvedores e clientes a incorporar pensamento acessível em suas personalizações
 
 Para saber mais sobre as práticas recomendadas da Microsoft para ativar a acessibilidade, consulte [Acessibilidade em formulários, produtos e controles](../../dev-itpro/user-interface/enable-accessibility.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

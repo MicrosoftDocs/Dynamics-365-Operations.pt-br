@@ -15,20 +15,20 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: bf485b407d56b21621617682bab3492925f7f9a4
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a1d520584e331631bb5a6a88ba6c9a8b50b3d29e
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693813"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798614"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notificações de alerta do cliente por email
 
 [!include [banner](../includes/banner.md)]
 
-Você pode definir regras de alerta personalizadas que monitoram exibições filtradas de dados e enviam notificações por email automaticamente quando ocorrerem eventos predefinidos. A opção para enviar notificações por email está disponível para todos os tipos de alerta com suporte e também pode ser ativada para regras de alertas existentes.
+Você pode definir regras de alerta personalizadas que monitoram exibições filtradas de dados e enviam notificações por email automaticamente quando ocorrerem eventos predefinidos. A opção para enviar notificações por email está disponível para todos os tipos de alerta com suporte e você também pode ativá-la para regras de alertas existentes.
 
-Você pode usar controles internos para criar regras de alerta que monitoram as exibições filtradas de trabalhos em lotes do sistema. Monitorando o valor do campo **Status**, você também pode configurar regras de alerta que enviam email quando há falha em um trabalho em lotes. Depois que essas regras de alerta forem criadas, você não precisará verificar os relatórios de alterações nos dados comerciais. Em vez disso, deixe que o serviço de detecção inteligente de alterações faça o monitoramento por você.
+Você pode usar controles internos para criar regras de alerta que monitoram as exibições filtradas de trabalhos em lotes do sistema. Monitorando o valor do campo **Status**, você também pode configurar regras de alerta que enviam email quando há falha em um trabalho em lotes. Depois de criar essas regras de alerta, você não precisará verificar os relatórios de alterações nos dados comerciais. Em vez disso, deixe que o serviço de detecção inteligente de alterações faça o monitoramento por você.
 
 Os alertas de cliente dependem do subsistema de email fornecido por meio da integração com o Microsoft Office. É recomendável usar o provedor de protocolo SMTP (Simple Mail Transfer Protocol), para que a distribuição de email que não tenha que depender de um cliente de email local.
 
@@ -50,6 +50,3 @@ O serviço envia notificações por email usando modelos predefinidos de email q
 A imagem a seguir mostra a estrutura das notificações de alerta quando elas são recebidas por email.
 
 [![Notificações de alerta baseadas em modelo para a criação de registros, alterações de campo e exclusão de modelos](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

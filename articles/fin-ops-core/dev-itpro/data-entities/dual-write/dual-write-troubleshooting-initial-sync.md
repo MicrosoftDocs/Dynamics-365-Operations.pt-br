@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: a7ba4fa4771324b4bcb8464649bd8ce8f32024c0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2f0e0cbf0f8710dc020a48506775fa28df9c2d2
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683543"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744628"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante a sincronização inicial
 
@@ -98,7 +98,7 @@ Você poderá receber mensagens de erro se um dos seus mapeamentos tiver autorre
 
 ## <a name="resolve-errors-in-the-vendors-v2tomsdyn_vendors-table-mapping"></a><a id="error-vendor-map"></a>Resolver erros em Fornecedores V2 para mapeamento de tabela msdyn_vendors
 
-Você poderá encontrar erros de sincronização inicial para o mapeamento de **Fornecedores V2** para **msdyn\_vendors** se as tabelas tiverem linhas existentes com valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Esses erros ocorrem porque **InvoiceVendorAccountNumber** é um campo de auto-referência e **PrimaryContactPersonId** é uma referência circular no mapeamento do fornecedor.
+Você poderá encontrar erros de sincronização inicial para o mapeamento de **Fornecedores V2** para **msdyn\_vendors** se as tabelas tiverem linhas existentes com valores nas colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**. Esses erros ocorrem porque **InvoiceVendorAccountNumber** é uma coluna de auto-referência e **PrimaryContactPersonId** é uma referência circular no mapeamento do fornecedor.
 
 As mensagens de erro recebidas terão o seguinte formulário.
 
@@ -109,26 +109,26 @@ Eis alguns exemplos:
 - *Não foi possível resolver a GUID do campo: msdyn\_vendorprimarycontactperson.msdyn\_contactpersonid. A pesquisa não foi encontrada: 000056. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Não foi possível resolver a GUID do campo: msdyn\_invoicevendoraccountnumber.msdyn\_vendoraccountnumber. A pesquisa não foi encontrada: V24-1. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/msdn_vendors?$select=msdyn_vendoraccountnumber,msdyn_vendorid&$filter=msdyn_vendoraccountnumber eq 'V24-1'`*
 
-Se alguma linha na entidade fornecedor tiver valores nos campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, siga estas etapas para concluir a sincronização inicial.
+Se alguma linha na tabela do fornecedor tiver valores nas colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber**, siga estas etapas para concluir a sincronização inicial.
 
-1. No aplicativo Finance and Operations, exclua os campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** do mapeamento e depois salve o mapeamento.
+1. No aplicativo Finance and Operations, exclua as colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** do mapeamento e depois salve o mapeamento.
 
     1. Na página de mapeamento de gravação dupla para **Fornecedores V2 (msdyn\_vendors)**, na guia **Mapeamentos de tabela**, no filtro esquerdo, selecione **Finance and Operations apps.Vendors V2**. No filtro direito, selecione **Sales.Vendor**.
-    2. Procure **primarycontactperson** para encontrar o campo de origem **PrimaryContactPersonId**.
+    2. Procure **primarycontactperson** para encontrar a coluna de origem **PrimaryContactPersonId**.
     3. Selecione **Ações** e depois **Excluir**.
 
-        ![Excluindo o campo PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Excluindo a coluna PrimaryContactPersonId](media/vend_selfref3.png)
 
-    4. Repita essas etapas para excluir o campo **InvoiceVendorAccountNumber**.
+    4. Repita essas etapas para excluir a coluna **InvoiceVendorAccountNumber**.
 
-        ![Excluindo o campo InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Excluindo a coluna InvoiceVendorAccountNumber](media/vend-selfref4.png)
 
     5. Salve as alterações feitas no mapeamento.
 
-2. Desative o controle de alterações para a entidade **Fornecedor V2**.
+2. Desative o controle de alterações para a tabela **Fornecedor V2**.
 
     1. No espaço de trabalho **Gerenciamento de dados**, selecione o bloco **Tabelas de dados**.
-    2. Selecione a entidade **Fornecedores V2**.
+    2. Selecione a tabela **Fornecedores V2**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
         ![Selecionando a opção Controle de Alterações](media/selfref_options.png)
@@ -138,14 +138,14 @@ Se alguma linha na entidade fornecedor tiver valores nos campos **PrimaryContact
         ![Selecionando Desabilitar Controle de Alterações](media/selfref_tracking.png)
 
 3. Execute a sincronização inicial para mapeamento do **Fornecedor V2 (msdyn\_vendors)**. A sincronização inicial deve ser executada com êxito, sem erros.
-4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**. Você deverá sincronizar este mapeamento se desejar sincronizar o campo de contato principal na entidade fornecedores, pois a sincronização inicial também precisa ser feita para as linhas de contatos.
-5. Adicione os campos **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** novamente ao mapeamento **Fornecedores V2 (msdyn\_vendors)** e salve o mapeamento.
+4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**. Você deverá sincronizar este mapeamento se desejar sincronizar a coluna de contato principal na tabela fornecedores, pois a sincronização inicial também precisa ser feita para as linhas de contatos.
+5. Adicione as colunas **PrimaryContactPersonId** e **InvoiceVendorAccountNumber** novamente ao mapeamento **Fornecedores V2 (msdyn\_vendors)** e salve o mapeamento.
 6. Execute a sincronização inicial novamente para o mapeamento do **Fornecedor V2 (msdyn\_vendors)**. Como o controle de alterações está desabilitado, todas as linhas serão sincronizadas.
-7. Ative o controle de alterações novamente para a entidade **Fornecedor V2**.
+7. Ative o controle de alterações novamente para a tabela **Fornecedor V2**.
 
 ## <a name="resolve-errors-in-the-customers-v3toaccounts-table-mapping"></a><a id="error-customer-map"></a>Resolver erros no mapeamento de Clientes V3 para a tabela Contas
 
-Você poderá encontrar erros de sincronização inicial para o mapeamento de **Clientes V3** para **Contas** se as tabelas tiverem linhas existentes com valores nos campos **ContactPersonID** e **InvoiceAccount**. Esses erros ocorrem porque **InvoiceAccount** é um campo de autorreferência e **ContactPersonID** é uma referência circular no mapeamento do fornecedor.
+Você poderá encontrar erros de sincronização inicial para o mapeamento de **Clientes V3** para **Contas** se as tabelas tiverem linhas existentes com valores nas colunas **ContactPersonID** e **InvoiceAccount**. Esses erros ocorrem porque **InvoiceAccount** é uma coluna de autorreferência e **ContactPersonID** é uma referência circular no mapeamento do fornecedor.
 
 As mensagens de erro recebidas terão o seguinte formulário.
 
@@ -156,26 +156,26 @@ Eis alguns exemplos:
 - *Não foi possível resolver a GUID do campo: primarycontactid.msdyn\_contactpersonid. A pesquisa não foi encontrada: 000056. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/contacts?$select=msdyn_contactpersonid.contactid&$filter=msdyn_contactpersonid eq '000056'`*
 - *Não foi possível resolver a GUID do campo: msdyn\_billingaccount.accountnumber. A pesquisa não foi encontrada: 1206-1. Experimente esta(s) URLs para verificar se os dados de referência existem: `https://focdsdevtest2.crm.dynamics.com/api/data/v9.0/accounts?$select=accountnumber.account&$filter=accountnumber eq '1206-1'`*
 
-Se alguma linha na entidade cliente tiver valores nos campos **ContactPersonID** e **InvoiceAccount**, siga estas etapas para concluir a sincronização inicial. Você pode usar essa abordagem para qualquer tabela pronta para uso, como **Contas** e **Contatos**.
+Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** e **InvoiceAccount**, siga estas etapas para concluir a sincronização inicial. Você pode usar essa abordagem para qualquer tabela pronta para uso, como **Contas** e **Contatos**.
 
-1. No aplicativo Finance and Operations, exclua os campos **ContactPersonID** e **InvoiceAccount** do mapeamento **Clientes V3 (contas)** e salve o mapeamento.
+1. No aplicativo Finance and Operations, exclua as colunas **ContactPersonID** e **InvoiceAccount** do mapeamento **Clientes V3 (contas)** e salve o mapeamento.
 
     1. Na página de mapeamento de gravação dupla para **Clientes V3 (contas)**, na guia **Mapeamentos de tabela**, no filtro esquerdo, selecione **Finance and Operations app.Customers V3**. No filtro direito, selecione **Dataverse.Account**.
-    2. Procure **contactperson** para encontrar o campo de origem **ContactPersonID**.
+    2. Pesquise **contactperson** para encontrar a coluna de origem **ContactPersonID**.
     3. Selecione **Ações** e depois **Excluir**.
 
-        ![Excluindo o campo ContactPersonID](media/cust_selfref3.png)
+        ![Excluir a coluna ContactPersonID](media/cust_selfref3.png)
 
-    4. Repita essas etapas para excluir o campo **InvoiceAccount**.
+    4. Repita essas etapas para excluir a coluna **InvoiceAccount**.
 
-        ![Excluindo o campo InvoiceAccount](media/cust_selfref4.png)
+        ![Excluir a coluna InvoiceAccount](media/cust_selfref4.png)
 
     5. Salve as alterações feitas no mapeamento.
 
-2. Desative o controle de alterações para a entidade **Clientes V3**.
+2. Desative o controle de alterações para a tabela **Clientes V3**.
 
     1. No espaço de trabalho **Gerenciamento de dados**, selecione o bloco **Tabelas de dados**.
-    2. Selecione a entidade **Clientes V3**.
+    2. Selecione a tabela **Fornecedor V3**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
         ![Selecionando a opção Controle de Alterações](media/selfref_options.png)
@@ -190,7 +190,7 @@ Se alguma linha na entidade cliente tiver valores nos campos **ContactPersonID**
     > [!NOTE]
     > Há dois mapas com o mesmo nome. Certifique-se de selecionar o mapa que tenha a seguinte descrição na guia **Detalhes**: **Gravação dupla para sincronização entre Contatos FO.CDS do Fornecedor V2 para CDS.Contacts. Exige novo pacote \[Dynamics365SupplyChainExtended\].**
 
-5. Adicione os campos **InvoiceAccount** e **ContactPersonId** novamente no mapeamento **Clientes V3 (contas)** e depois salve o mapeamento. Os campos **InvoiceAccount** e **ContactPersonId** agora fazem parte do modo de sincronização ao vivo novamente. Na próxima etapa, você executará a sincronização inicial desses campos.
+5. Adicione as colunas **InvoiceAccount** e **ContactPersonId** novamente no mapeamento **Clientes V3 (contas)** e depois salve o mapeamento. As colunas **InvoiceAccount** e **ContactPersonId** agora fazem parte do modo de sincronização ao vivo novamente. Na próxima etapa, você executará a sincronização inicial dessas colunas.
 6. Execute a sincronização inicial novamente para o mapeamento de **Clientes V3 (contas)**. Como o controle de alterações está desabilitado, os dados de **InvoiceAccount** e **ContactPersonId** serão sincronizados do aplicativo Finance and Operations para o Dataverse.
 7. Para sincronizar os dados de **InvoiceAccount** e **ContactPersonId** do Dataverse para o Finance and Operations, você deve usar um projeto de integração de dados.
 
@@ -210,7 +210,4 @@ Se alguma linha na entidade cliente tiver valores nos campos **ContactPersonID**
 
     A sincronização inicial das linhas está concluída.
 
-8. No aplicativo do Finance and Operations, habilite o controle de alterações novamente para a entidade **Clientes V3**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+8. No aplicativo do Finance and Operations, habilite o controle de alterações novamente para a tabela **Clientes V3**.

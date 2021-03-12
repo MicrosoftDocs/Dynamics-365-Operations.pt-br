@@ -3,7 +3,7 @@ title: Criar uma hierarquia da organização
 description: Use o procedimento a seguir para criar uma hierarquia organizacional.
 author: sericks007
 manager: AnnBe
-ms.date: 07/01/2019
+ms.date: 12/15/2020
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 673403680525eff57c5886bb4f430a33efd76250
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8627c1aa0ce9ec011b568224040b1143f0f54c31
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694780"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796913"
 ---
 # <a name="create-an-organization-hierarchy"></a>Criar uma hierarquia da organização
 
@@ -48,6 +48,3 @@ A empresa de dados demo usada para criar este procedimento é USMF.
     - Adicione organizações, conforme necessário.  
     - Para adicionar uma organização, clique em **Editar** e **Inserir** para adicionar a organização. Ao terminar de fazer alterações, você pode **salvar** um rascunho e/ou **publicar** as alterações.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

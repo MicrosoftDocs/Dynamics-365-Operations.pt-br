@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d160c02403bf067ed523fbd634e65c622b522b97
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: eb2d4ab3434a563e907f6540809888cd3f671c1a
+ms.sourcegitcommit: fcc4596eeadac5dfe9a3242afa49b9b1c0c96575
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4686065"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "4740799"
 ---
 # <a name="list-of-er-functions-in-the-type-conversion-category"></a>Lista de funções ER na categoria de conversão de tipo
 
@@ -38,6 +38,14 @@ As funções de conversão de tipo de relatório eletrônico (ER) podem ser usad
 | [IntValue](er-functions-conversion-intvalue.md)       | Esta função retorna um valor *Int* que representa a cadeia de caracteres especificada. |
 | [NumberValue](er-functions-conversion-numbervalue.md) | Esta função retorna um valor *Real* que é convertido do valor de *Cadeia de caracteres* especificado. Durante a conversão, os separadores de agrupamento de dígitos e decimais especificados são considerados. |
 | [Alíquota](er-functions-conversion-value.md)             | Esta função retorna um valor *Real* que é convertido do valor de *Cadeia de caracteres* especificado. |
+
+## <a name="type-conversion-functions-in-the-container-category"></a>Funções de conversão de tipo na categoria contêiner
+
+A tabela a seguir descreve as funções de conversão de tipo na categoria [contêiner](er-functions-category-container.md).
+
+| Função | descrição |
+|----------|-------------|
+| [Base64StringToContainer](er-functions-container-base64stringtocontainer.md) | Essa função converte a entrada especificada do tipo *Cadeia de caracteres* em um item de dados do tipo *Contêiner*. |
 
 ## <a name="type-conversion-functions-in-the-date-and-time-category"></a>Funções de conversão de tipo na categoria de dia e hora
 
@@ -79,6 +87,3 @@ A tabela a seguir descreve as funções de conversão de tipo na [categoria de t
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
 [Linguagem da fórmula de relatório eletrônico](er-formula-language.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

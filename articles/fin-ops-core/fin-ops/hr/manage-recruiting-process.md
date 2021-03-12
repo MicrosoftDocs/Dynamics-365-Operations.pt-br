@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b6f440a42ea475a42c803475d82e3027625bf4db
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 71e30a30aee5edcea2e24b326b0f263612b6b897
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694900"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798034"
 ---
 # <a name="manage-recruiting-processes"></a>Gerenciar processos de recrutamento
 
@@ -103,6 +103,3 @@ As **Entrevistas de candidatos** podem ser agendadas na página **Solicitações
 ## <a name="hiring-applicants"></a>Candidatos de contratação
 
 Use a página **Solicitações de emprego** para contratar um candidato. Quando você contratar um candidato, o registro de solicitação de emprego terá o status **Empregado** e o registro pessoal no catálogo de endereços global do candidato será associado ao registro do novo trabalhador. As alterações nas informações do catálogo de endereços global para o registro de novos funcionários também são exibidos no registro do candidato. Isso pode ajudar a reduzir a entrada de dados se o novo trabalhador se candidatar a um trabalho diferente dentro de sua empresa. Para contratar um trabalhador existente em uma nova posição, clique em **Alterar posição** na lista suspensa **Status da solicitação de emprego** para iniciar o processo de transferência.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

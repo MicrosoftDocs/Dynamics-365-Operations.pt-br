@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24d89e061cc3dfc4ef0d350730525ac5ab7af775
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4dcee425fc1225dcfcf8ba4282f4176acfeaa268
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694656"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796793"
 ---
 # <a name="configure-the-global-address-book"></a>Configurar o catálogo de endereços global
 
@@ -45,6 +45,3 @@ A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está 
 13. Na lista, localize e selecione o PDV desejado. Pressione a tecla Shift para selecionar várias funções para adicionar ao painel **Funções selecionadas** e clique na seta para adicioná-las.  
 14. Clique em **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

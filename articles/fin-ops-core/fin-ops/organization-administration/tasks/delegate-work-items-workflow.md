@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4b9abff57386fda61e3a83b0b8f18e533c8758c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 48d8fd06217d318fa8208e11ffa5624f6be25be1
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694632"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796697"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>​Delegar itens de trabalho em um fluxo de trabalho​
 
@@ -60,6 +60,3 @@ Se pretende se ausentar do escritório ou ficar indisponível para executar aç�
 8. No campo **Data/hora final**, insira uma data e hora.
 9. Marque a caixa de seleção **Habilitado** para ativar a regra de delegação. 
 10. No campo **Comentário**, insira um comentário que explique o motivo de você estar delegando os itens de trabalho.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

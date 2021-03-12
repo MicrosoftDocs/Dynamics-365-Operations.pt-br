@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4411a6b72dbb7e6f5b1a72df8dbcbd54e265164c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 8443bc5c63a90d80757ab4b7507502497c2aaa69
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693393"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797775"
 ---
 # <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
 
@@ -166,6 +166,3 @@ O mesmo processo pode ser feito em incrementos trimestrais, se necessário, para
 2. Clique em **Sim** quando a mensagem “Quando você reverte este demonstrativo de pagamento, uma reversão de demonstrativo de pagamento é criada para compensar este demonstrativo de pagamento. Não é possível editar os demonstrativos de pagamento. Deseja reverter este demonstrativo de pagamento?” for exibida. 
 
 Depois de reverter o demonstrativo de pagamento, você poderá gerar um novo demonstrativo de pagamento para o trabalhador a partir da declaração de ganhos criada anteriormente. Corrija qualquer linha incorreta na declaração de ganhos antes de gerar o novo demonstrativo de pagamento e então gere novos demonstrativos de pagamento com os valores corretos. 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: e2b652f11db62eb58ffc2ec2fc4322149e7d45d1
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5132fd85fdf2c08ccded9db590328c394a2f984e
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680063"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744684"
 ---
 # <a name="organization-hierarchy-in-dataverse"></a>Hierarquia da organização no Dataverse
 
@@ -49,9 +49,9 @@ As informações do produto contêm todos os dados relacionados ao produto e sua
 
 Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365 | descrição
 -----------------------|--------------------------------|---
-Finalidades da hierarquia da organização | msdyn_internalorganizationhierarchypurposes | Este modelo oferece sincronização unidirecional da entidade Finalidade da hierarquia da organização.
-Tipo de hierarquia da organização | msdyn_internalorganizationhierarchytypes | Este modelo oferece sincronização unidirecional da entidade Tipo da hierarquia da organização.
-Hierarquia da organização - publicada | msdyn_internalorganizationhierarchies | Este modelo oferece sincronização unidirecional da entidade Hierarquia da organização publicada.
+Finalidades da hierarquia da organização | msdyn_internalorganizationhierarchypurposes | Este modelo oferece sincronização unidirecional da tabela Finalidade da Hierarquia da Organização.
+Tipo de hierarquia da organização | msdyn_internalorganizationhierarchytypes | Este modelo oferece sincronização unidirecional da tabela Tipo da Hierarquia da Organização.
+Hierarquia da organização - publicada | msdyn_internalorganizationhierarchies | Este modelo oferece sincronização unidirecional da tabela Hierarquia da Organização Publicada.
 Unidade operacional | msdyn_internalorganizations |
 Entidades legais | msdyn_internalorganizations |
 Entidades legais | cdm_companies | Oferece sincronização bidirecional de informações da entidade legal (empresa).
@@ -73,6 +73,3 @@ As informações internas da organização no Dataverse vêm de duas tabelas, **
 [!include [Legal entities](includes/LegalEntities-msdyn-internalorganizations.md)]
 
 [!include [Legal entities](includes/LegalEntities-Companies.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

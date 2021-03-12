@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd54361f4397de75fbd578bc965cd90db963b2f8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: c980ca44028c4257078e5493e69499db87ffa30d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693450"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798010"
 ---
 # <a name="approve-application-inbox-records"></a>Aprovar registros da caixa de entrada de solicitações de emprego
 
@@ -48,6 +48,3 @@ Este procedimento mostra como revisar solicitações de emprego recebidas nas p�
 2. Na lista, clique no link na linha selecionada.
 3. Expandir a seção Anexos.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

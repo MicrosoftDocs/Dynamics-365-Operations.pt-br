@@ -17,12 +17,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 82c8172958f819735ea3f29fc331272f80b3a25a
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: a0f7391273e2374bdd136c5db47bcb65487e2a9c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4692957"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798343"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -32,7 +32,7 @@ Os recursos são adicionados e atualizados em cada versão. A experiência de ge
 
 ## <a name="the-feature-management-workspace"></a>O espaço de trabalho do gerenciamento de recursos
 
-Você pode abrir o espaço de trabalho **Gerenciamento de recursos** selecionando o bloco apropriado no painel. Você verá uma página que mostra uma lista de recursos para todas as versões com suporte na experiência de gerenciamento de recursos. Com o tempo, a Microsoft aprimorará a experiência de gerenciamento de recursos para que ela inclua funcionalidade adicional para ajudar a gerenciar recursos.
+Você pode abrir o espaço de trabalho **Gerenciamento de recursos** selecionando o bloco apropriado no painel. Você verá uma página que mostra uma lista de recursos para todas as versões com suporte na experiência de gerenciamento de recursos. Com o tempo, a Microsoft aprimorará a experiência de gerenciamento de recursos para que ela inclua mais funcionalidades para ajudar a gerenciar recursos.
 
 A lista recursos inclui as seguintes informações:
 
@@ -42,7 +42,7 @@ A lista recursos inclui as seguintes informações:
 - **Recurso adicionado** — a data em que o recurso foi adicionado ao ambiente. Essa data é inserida automaticamente quando você atualiza seu ambiente durante ciclos mensais de lançamento.
 - **Módulo** — o módulo que é afetado pelo novo recurso.
 
-Ao selecionar um recurso, informações adicionais serão exibidas no painel de detalhes à direita da lista de recursos. Na parte superior do painel, você verá o nome do recurso, a data em que o recurso foi adicionado, o módulo que é afetado pelo recurso e um link **Saiba mais**. Selecione esse link para exibir a documentação do recurso. Se a documentação não estiver disponível, você será levado a uma página temporária. O painel de detalhes também inclui um campo **Comentários**, onde você pode adicionar seus próprios comentários sobre o recurso.
+Ao selecionar um recurso, mais informações serão exibidas no painel de detalhes à direita da lista de recursos. Na parte superior do painel, você verá o nome do recurso, a data em que o recurso foi adicionado, o módulo que é afetado pelo recurso e um link **Saiba mais**. Selecione esse link para exibir a documentação do recurso. Se a documentação não estiver disponível, você será levado a uma página temporária. O painel de detalhes também inclui um campo **Comentários**, onde você pode adicionar seus próprios comentários sobre o recurso.
 
 O espaço de trabalho **Gerenciamento de recursos** também possui várias guias, cada uma mostrando uma lista de recursos.
 
@@ -101,8 +101,8 @@ Todos os recursos que possam ser habilitados serão habilitados. Se determinado 
 
 Por padrão, todos os recursos adicionados ao seu ambiente são desativados, a menos que sejam obrigatórios. Contudo, caso você deseje ativar automaticamente todos os novos recursos, é possível usar a lista suspensa sob o título do espaço de trabalho para alterar o que ocorre quando novos recursos são adicionados.
 
-- Selecione **Habilitar novos recursos automaticamente** para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
-- Selecione **Não habilitar novos recursos automaticamente** para desativar todos os novos recursos quando forem adicionados ao ambiente.
+- Selecione `Enable new features automatically` para ativar automaticamente todos os novos recursos quando forem adicionados ao ambiente.
+- Selecione `Do not enable new features automatically` para padronizar todos os novos recursos como desativados quando forem adicionados ao ambiente.
 
 
 Quando você habilita todos os recursos automaticamente, isso habilita todos os recursos que seriam habilitados se você clicasse no botão **Habilitar tudo**. Isso não habilitará os recursos que exijam confirmação ou os recursos que não possam ser habilitados até uma ação ser executada.
@@ -199,10 +199,7 @@ internal final class BankCurrencyRevalGlobalEnableFeature implements IFeatureMet
 
 ### <a name="what-is-the-ifeaturelifecycle-implemented-by-some-feature-classes"></a>O que é o IFeatureLifecycle implementado por algumas classes de recursos?
 O IFeatureLifecycle é um mecanismo interno da Microsoft para indicar o estágio do ciclo de vida do recurso. Os recursos podem ser:
-- PrivatePreview - precisa de uma versão de pré-lançamento visível.
-- PublicPreview - mostrado por padrão, mas com um aviso de que o recurso está em versão preliminar.
-- Liberado - totalmente liberado.
+- `PrivatePreview` - Precisa um versão piloto visível.
+- `PublicPreview` - Mostrado por padrão, mas com um aviso de que o recurso está em versão preliminar.
+- `Released` - Totalmente liberado.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

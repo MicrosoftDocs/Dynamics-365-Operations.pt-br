@@ -1,6 +1,6 @@
 ---
-title: Configurar o mapeamento dos campos de status da ordem de venda
-description: Este tópico explica como configurar os campos de status da ordem de venda para a gravação dupla.
+title: Configurar o mapeamento das colunas de status da ordem de venda
+description: Este tópico explica como configurar as colunas de status da ordem de venda para a gravação dupla.
 author: dasani-madipalli
 manager: tonyafehr
 ms.date: 06/25/2020
@@ -18,22 +18,22 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 5855581100606003c1faf6b88a0ab234ae378893
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cc70501d231390ea15104d508a36300a1b2cd44c
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449729"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744290"
 ---
-# <a name="set-up-the-mapping-for-the-sales-order-status-fields"></a>Configurar o mapeamento dos campos de status da ordem de venda
+# <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurar o mapeamento das colunas de status da ordem de venda
 
 [!include [banner](../../includes/banner.md)]
 
-Os campos que indicam o status da ordem de venda têm diferentes valores de enumeração no Microsoft Dynamics 365 Supply Chain Management e no Dynamics 365 Sales. Uma configuração adicional é necessária para mapear esses campos em gravação dupla.
+As colunas que indicam o status da ordem de venda têm diferentes valores de enumeração no Microsoft Dynamics 365 Supply Chain Management e no Dynamics 365 Sales. Uma configuração adicional é necessária para mapear essas colunas na gravação dupla.
 
-## <a name="fields-in-supply-chain-management"></a>Campos no Supply Chain Management
+## <a name="columns-in-supply-chain-management"></a>colunas no Supply Chain Management
 
-No Supply Chain Management, dois campos refletem o status da ordem de venda. Os campos que você deve mapear são **Status** e **Status do Documento**.
+No Supply Chain Management, duas colunas refletem o status da ordem de venda. As colunas que você deve mapear são **Status** e **Status do Documento**.
 
 A enumeração **Status** especifica o status geral da ordem. Esse status é mostrado no cabeçalho da ordem.
 
@@ -53,9 +53,9 @@ A enumeração **Status do Documento** tem os seguintes valores:
 - Guia de remessa
 - Fatura
 
-## <a name="fields-in-sales"></a>Campos em Vendas
+## <a name="columns-in-sales"></a>colunas no Sales
 
-Em Vendas, dois campos indicam o status da ordem. Os campos que você deve mapear são **Status** e **Status de Processamento**.
+No Sales, duas colunas indicam o status da ordem. As colunas que você deve mapear são **Status** e **Status de Processamento**.
 
 A enumeração **Status** especifica o status geral da ordem. Tem os seguintes valores:
 
@@ -91,11 +91,11 @@ A tabela a seguir mostra o mapeamento do **Status de Processamento** entre Venda
 | Parcialmente faturada  | Ativos          | Ordem em Aberto                        |
 | Parcialmente faturada  | Atendidos       | Entregues                         |
 | Faturadas            | Faturadas        | Faturadas                          |
-| Cancelado           | Cancelado       | Cancelado                         |
+| Cancelado           | Cancelado       | Cancelados(as)                         |
 
 ## <a name="setup"></a>Configurar
 
-Para configurar o mapeamento dos campos de status da ordem de venda, você deve habilitar os atributos **IsSOPIntegrationEnabled** e **isIntegrationUser**.
+Para configurar o mapeamento das colunas de status da ordem de venda, você deve habilitar os atributos **IsSOPIntegrationEnabled** e **isIntegrationUser**.
 
 Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
 
@@ -110,14 +110,14 @@ Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
     Xrm.WebApi.updateRecord("organization",
     "d9a7c5f7-acbf-4aa9-86e8-a891c43f748c", {"issopintegrationenabled" :
     true}).then(
-        function success(result) {
-            console.log("Account updated");
-            // perform operations on record update
-        },
-        function (error) {
-            console.log(error.message);
-            // handle error conditions
-        }
+        function success(result) {
+            console.log("Account updated");
+            // perform operations on row update
+        },
+        function (error) {
+            console.log(error.message);
+            // handle error conditions
+        }
     );
     ```
 
@@ -129,13 +129,13 @@ Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
 
 Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
 
-1. Em Vendas, vá para **Configuração \> Personalização \> Personalizar o Sistema**, selecione **Entidade do usuário** e abra **Formulário \> Usuário**.
+1. No Sales, vá para **Configuração \> Personalização \> Personalizar o Sistema**, selecione **Tabela do usuário** e abra **Formulário \> Usuário**.
 
     ![Abrindo o formulário do usuário](media/sales-map-user.png)
 
 2. No Explorador do Campo, localize o **modo de usuário integração** e clique duas vezes nele para adicioná-lo ao formulário. Salve sua alteração.
 
-    ![Adicionando o campo modo de usuário de integração ao formulário](media/sales-map-field-explorer.png)
+    ![Adicionar a coluna Modo de usuário de integração ao formulário](media/sales-map-field-explorer.png)
 
 3. Em Vendas, vá para **Configuração \> Segurança \> Usuários** e altere a exibição de **Usuários Habilitados** para **Usuários do Aplicativo**.
 
@@ -145,11 +145,8 @@ Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
 
     ![Lista de usuários do aplicativo](media/sales-map-user-mode.png)
 
-5. Altere o valor do campo **Modo de usuário de integração** como **Sim**.
+5. Altere o valor da coluna **Modo de usuário de integração** para **Sim**.
 
-    ![Alterar o valor do campo Modo de usuário de integração](media/sales-map-user-mode-yes.png)
+    ![Alterar o valor da coluna Modo de usuário de integração](media/sales-map-user-mode-yes.png)
 
 Suas ordens de venda agora estão mapeadas.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

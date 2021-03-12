@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ca12759096bd1bafda0a5eee18287a694083db69
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 59c8bd80b167cdfaa7a65e469f4dc7ebf8f50844
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685554"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744604"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronização ao vivo
 
@@ -46,11 +46,11 @@ Você pode receber a seguinte mensagem de erro ao criar uma linha em um aplicati
 
 Para corrigir o problema, siga as etapas dos [pré-requisitos e requisitos do sistema](requirements-and-prerequisites.md). Para concluir essas etapas, os usuários do aplicativo de gravação dupla que são criados em Dataverse devem ter a função de administrador do sistema. A equipe de propriedade padrão também deve ter a função de administrador do sistema.
 
-## <a name="live-synchronization-for-any-entity-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>A sincronização ao vivo de uma entidade lança, de forma consistente, um erro semelhando ao criar uma linha em um aplicativo Finance and Operations
+## <a name="live-synchronization-for-any-table-consistently-throws-a-similar-error-when-you-create-a-row-in-a-finance-and-operations-app"></a>A sincronização ao vivo de uma tabela lança, de forma consistente, um erro semelhante ao criar uma linha em um aplicativo do Finance and Operations
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Você pode receber uma mensagem de erro como a seguinte toda vez que tentar salvar dados da entidade em um aplicativo Finance and Operations:
+Você pode receber uma mensagem de erro como a seguinte toda vez que tentar salvar dados da tabela em um aplicativo do Finance and Operations:
 
 *Não é possível salvar as alterações no banco de dados. A unidade de trabalho não pode confirmar a transação. Não é possível gravar dados no uoms da entidade. As gravações no UnitOfMeasureEntity falharam com a mensagem de erro. Não é possível sincronizar com a entidade uoms.*
 
@@ -58,8 +58,8 @@ Para corrigir o problema, você deve verificar se os dados de referência de pr�
 
 Se houver dados em ambos os lados e você tiver confirmado que o problema não é relacionado a dados, siga estas etapas.
 
-1. Interrompa a entidade relacionada.
-2. Faça login no aplicativo Finance and Operations e verifique se as linhas da entidade com falha existem nas tabelas DualWriteProjectConfiguration e DualWriteProjectFieldConfiguration. Por exemplo, aqui está a aparência da consulta se a entidade **Clientes** está falhando.
+1. Interrompa a tabela relacionada.
+2. Faça login no aplicativo do Finance and Operations e verifique se as linhas da tabela com falha existem nas tabelas DualWriteProjectConfiguration e DualWriteProjectFieldConfiguration. Por exemplo, está será a aparência da consulta se a tabela **Clientes** estiver falhando.
 
     ```sql
     Select projectname, externalenvironmentURL ,\* 
@@ -68,7 +68,7 @@ Se houver dados em ambos os lados e você tiver confirmado que o problema não �
         EXTERNALENTITYNAME = 'accounts' 
     ```
 
-3. Se houver linhas para a entidade com falha mesmo depois que você interromper o mapeamento de tabela, exclua as linhas relacionados à entidade com falha. Anote a coluna **projectname** na tabela DualWriteProjectConfiguration, e busque o registro na tabela DualWriteProjectFieldConfiguration usando o nome do projeto para excluir a linha.
+3. Se houver linhas para a tabela com falha mesmo depois que você interromper o mapeamento de tabela, exclua as linhas relacionados à tabela com falha. Anote a coluna **projectname** na tabela DualWriteProjectConfiguration e busque o registro na linha DualWriteProjectFieldConfiguration usando o nome do projeto para excluir a linha.
 4. Inicie o mapeamento de tabela. Validar se os dados são sincronizados sem problemas.
 
 ## <a name="handle-read-or-write-privilege-errors-when-you-create-data-in-a-finance-and-operations-app"></a>Manipular erros de privilégio de leitura ou gravação ao criar dados em um aplicativo Finance and Operations
@@ -127,6 +127,3 @@ Para corrigir o problema, siga estas etapas.
 
 3. Verifique se a coluna **externalenvironmentURL** tem o Dataverse correto ou URL de aplicativo. Exclua as linhas duplicadas que apontam para a URL de Dataverse errada. Exclua as linhas correspondentes nas tabelas DUALWRITEPROJECTFIELDCONFIGURATION e DUALWRITEPROJECTCONFIGURATION.
 4. Interrompa o mapeamento de tabela e reinicie-o
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

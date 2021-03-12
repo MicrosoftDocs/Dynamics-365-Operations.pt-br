@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6356ec6850667f32f9e9e4133686c40f0b6d76d7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b01ef3da908739d17f2a03398ae56f35191e8db6
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688250"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744532"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -65,23 +65,23 @@ Para ativar o log de rastreamento, siga estas etapas.
 
 1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
 2. Na página **Administração**, selecione **Configuração do sistema**.
-3. Na guia **Personalização**, no campo **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
+3. Na guia **Personalização**, na coluna **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
 
 
 Para exibir o log de rastreamento, siga estas etapas.
 
 1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
-2. Encontre os logs de rastreamento em que o campo **Nome do Tipo** esteja definido como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
+2. Encontre os logs de rastreamento em que a coluna **Nome do Tipo** esteja definida como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
 
 ## <a name="enable-debug-mode-to-troubleshoot-live-synchronization-issues-in-finance-and-operations-apps"></a>Habilitar modo de depuração para solucionar problemas de sincronização dinâmica em aplicativos Finance and Operations
 
 **Função necessária para exibir os erros:** erros de gravação dupla do administrador do sistema que se originam no Dataverse e podem ser exibidos no aplicativo Finance and Operations. Em alguns casos, o texto completo da mensagem de erro não está disponível porque a mensagem é muito longa ou contém informações de identificação pessoal (PII). Você pode ativar o registro detalhado de erros ao seguir estas etapas.
 
-1. Todas as configurações de projeto nos aplicativos Finance and Operations têm uma propriedade **IsDebugMode** na entidade **DualWriteProjectConfiguration**. Abra a entidade **DualWriteProjectConfiguration** usando um suplemento do Excel.
+1. Todas as configurações de projeto nos aplicativos Finance and Operations têm uma propriedade **IsDebugMode** na tabela **DualWriteProjectConfiguration**. Abra a tabela **DualWriteProjectConfiguration** usando um suplemento do Excel.
 
     > [!TIP]
-    > Uma forma simples de abrir a entidade é ativar o modo **Design** no suplemento do Excel e adicionar **DualWriteProjectConfigurationEntity** à planilha. Para obter mais informações, consulte [Abrir os dados da entidade no Excel e atualizá-los usando o suplemento do Excel](../../office-integration/use-excel-add-in.md).
+    > Uma forma simples de abrir a tabela é ativar o modo **Design** no suplemento do Excel e adicionar **DualWriteProjectConfigurationEntity** à planilha. Para obter mais informações, consulte [Abrir os dados da tabela no Excel e atualizá-los usando o suplemento do Excel](../../office-integration/use-excel-add-in.md).
 
 2. Defina a propriedade **IsDebugMode** como **Sim** para o projeto.
 3. Execute o cenário que está gerando erros.
@@ -118,10 +118,7 @@ Agora você pode vincular um novo ambiente.
 Quando você cria uma ordem de venda no Dynamics 365 Sales, clicar em **Adicionar produtos** talvez redirecione você para o formulário da linha de ordem do Dynamics 365 Project Operations. Não há nenhuma maneira de esse formulário exibir o formulário de **Informações** da linha da ordem de venda. A opção de **Informações** não aparece na lista suspensa **Nova Linha da Ordem** abaixo. Isso ocorre porque o Project Operations foi instalado em seu ambiente.
 
 Para habilitar novamente a opção de formulário de **Informações**, siga estas etapas:
-1. Navegue até a entidade **Linha da Ordem**.
+1. Navegue até a tabela **Linha da Ordem**.
 2. Encontre o formulário de **Informações** no nó de formulários. 
 3. Selecione o formulário de **Informações** e clique em **Habilitar funções de segurança**. 
 4. Altere a configuração de segurança para **Exibir para todos**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

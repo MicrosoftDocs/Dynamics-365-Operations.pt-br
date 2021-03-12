@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 72db7660c07b2f57f8609ab6c14964193e842d75
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ba696fb7a8d9083d11cc29953cf1340a581afcf
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688558"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797332"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -69,7 +68,7 @@ Para ignorar a validação quando a configuração for importada, siga estas eta
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Validar a configuração após a importação** como **Não**.
 
-Para ignorar a validação quando o status da versão for alterado ou tiver a base alterada, siga estas etapas:
+Para ignorar a validação quando você alterar o status ou a base da versão, siga estas etapas:
 
 1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
@@ -101,7 +100,7 @@ A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. P
 <td>Erro</td>
 <td>
 <p>Não é possível converter a expressão do tipo &lt;type&gt; em um campo do tipo &lt;type&gt;.</p>
-<p><b>Erro de runtime:</b>execução de tipo</p>
+<p><b>Erro de runtime:</b> execução para o tipo</p>
 </td>
 </tr>
 <tr>
@@ -454,7 +453,7 @@ Altere a expressão da fonte de dados **Vendor.FilteredTrans** de `WHERE(Trans, 
 
 #### <a name="option-2"></a>Opção 2
 
-Altere o valor do campo **Executar** da fonte de dados **JoinedList** de **Consulta** para **Na memória**. Não recomendamos que você altere o valor para uma tabela que tenha um grande volume de dados (tabela transacional), pois todos os registros serão buscados e a união será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho. Um aviso de validação é exibido para informar sobre esse risco.
+Altere o valor do campo **Executar** da fonte de dados **JoinedList** de **Consulta** para **Na memória**. Não recomendamos que você altere o valor para uma tabela que tenha um grande volume de dados (tabela transacional), pois todos os registros serão buscados e a união ocorre na memória. Portanto, essa abordagem pode causar um baixo desempenho. Um aviso de validação é exibido para informar sobre esse risco.
 
 ## <a name="preferability-of-filter-vs-where-function"></a><a id="i7"></a>Preferência da função FILTER x WHERE
 
@@ -489,11 +488,11 @@ Como alternativa, você pode selecionar a linha para um único aviso na grade e 
 
 ### <a name="manual-resolution"></a>Resolução manual
 
-Você pode ajustar manualmente as expressões de todas as fontes de dados mencionadas na grade de validação substituindo a função **WHERE** pela função **FILTER**.
+Você pode ajustar manualmente as expressões de todas as fontes de dados na grade de validação substituindo a função **WHERE** pela função **FILTER**.
 
 ## <a name="preferability-of-allitemsquery-vs-allitems-function"></a><a id="i8"></a>Preferência da função ALLITEMSQUERY x ALLITEMS
 
-As funções incorporadas de ER [ALLITEMS](er-functions-list-allitems.md)e [ALLITEMSQUERY](er-functions-list-allitemsquery.md) são usadas para obter um valor de **Lista de registro** simplificado que consiste em uma lista de registros que representam todos os itens correspondentes ao caminho especificado. O ER verifica se uma chamada SQL direta pode ser estabelecida com uma fonte de dados referenciada na função **ALLITEMS**. Se uma chamada direta não puder ser estabelecida, será exibido um aviso de validação no Designer de mapeamento de modelo de ER. A mensagem recomenda que você use a função **ALLITEMSQUERY** em vez da função **ALLITEMS** para melhorar a eficiência.
+As funções incorporadas de ER [ALLITEMS](er-functions-list-allitems.md)e [ALLITEMSQUERY](er-functions-list-allitemsquery.md) obtêm um valor de **Lista de registro** simplificado que consiste em uma lista de registros que representam todos os itens correspondentes ao caminho especificado. O ER verifica se uma chamada SQL direta pode ser estabelecida com uma fonte de dados referenciada na função **ALLITEMS**. Se uma chamada direta não puder ser estabelecida, será exibido um aviso de validação no Designer de mapeamento de modelo de ER. A mensagem recomenda que você use a função **ALLITEMSQUERY** em vez da função **ALLITEMS** para melhorar a eficiência.
 
 As etapas a seguir mostram como esse problema pode ocorrer.
 
@@ -573,11 +572,11 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 
     ![Validar os elementos de formato associados às fontes de dados na página Designer de formato](./media/er-components-inspections-09c.png)
 
-16. Observe que ocorre erros de validação. A mensagem informa que um erro poderá ocorrer para os componentes de formato **Statement\\Party\\Name** e **Statement\\Party\\AccountNum** no runtime se a lista de **model.Vendor** estiver vazia.
+16. Observe que ocorre um erro de validação. A mensagem informa que um erro poderá ocorrer para os componentes de formato **Statement\\Party\\Name** e **Statement\\Party\\AccountNum** no runtime se a lista de `model.Vendor` estiver vazia.
 
     ![Erro de validação que informa sobre um possível erro nos componentes de formato configurados](./media/er-components-inspections-09d.png)
 
-A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso, selecionar **Executar** para executar o formato e escolher o número de conta de um fornecedor inexistente. Como o fornecedor solicitado não existe, a lista de **model.Vendor** estará vazia (ou seja, não conterá registros).
+A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso, selecionar **Executar** para executar o formato e escolher o número de conta de um fornecedor inexistente. Como o fornecedor solicitado não existe, a lista de `model.Vendor` estará vazia (ou seja, não conterá registros).
 
 ![Erros de runtime, porque isso aconteceu durante a execução do mapeamento de formato](./media/er-components-inspections-09e.png)
 
@@ -589,15 +588,15 @@ Para a linha selecionada na grade, na guia **Avisos**, você pode selecionar **D
 
 #### <a name="option-1"></a>Opção 1
 
-Você pode associar o elemento de formato **Statement\\Party\\Name** ao item de fonte de dados **model.Vendor**. No runtime, essa associação chama a fonte de dados **model.Vendor** primeiro. Quando o **model.Vendor** retorna uma lista de registros vazia, os elementos de formato aninhados não são executados. Portanto, nenhum aviso de validação ocorre para essa configuração de formato.
+Você pode associar o elemento de formato **Statement\\Party\\Name** ao item de fonte de dados `model.Vendor`. No runtime, essa associação chama a fonte de dados `model.Vendor` primeiro. Quando o `model.Vendor` retorna uma lista de registros vazia, os elementos de formato aninhados não são executados. Portanto, nenhum aviso de validação ocorre para essa configuração de formato.
 
 ![Associar o elemento de formato ao item da fonte de dados na página Designer de formato](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Opção 2
 
-Altere a associação do elemento de formato **Statement\\Party\\Name** de `model.Vendor.Name` para `FIRSTORNULL(model.Vendor).Name`. A associação atualizada condicionalmente converte o primeiro registro da fonte de dados **model.Vendor** do tipo **Lista de registros** para uma nova fonte de dados do tipo **Registro**. Essa nova fonte de dados contém o mesmo conjunto de campos.
+Altere a associação do elemento de formato **Statement\\Party\\Name** de `model.Vendor.Name` para `FIRSTORNULL(model.Vendor).Name`. A associação atualizada condicionalmente converte o primeiro registro da fonte de dados `model.Vendor` do tipo **Lista de registros** para uma nova fonte de dados do tipo **Registro**. Essa nova fonte de dados contém o mesmo conjunto de campos.
 
-- Se pelo menos um registro estiver disponível na fonte de dados **model.Vendor**, os campos desse registro serão preenchidos com os valores dos campos do primeiro registro da fonte de dados **model.Vendor**. Nesse caso, a associação atualizada retorna o nome do fornecedor.
+- Se pelo menos um registro estiver disponível na fonte de dados `model.Vendor`, os campos desse registro serão preenchidos com os valores dos campos do primeiro registro da fonte de dados `model.Vendor`. Nesse caso, a associação atualizada retorna o nome do fornecedor.
 - Caso contrário, cada campo do registro criado será preenchido com o valor padrão para o tipo de dados do campo. Nesse caso, a cadeia de caracteres em branco é retornada como o valor padrão do tipo de dados **Cadeia de caracteres**.
 
 Portanto, nenhum aviso de validação ocorre no elemento de formato **Statement\\Party\\Name** quando ele está associado à expressão `FIRSTORNULL(model.Vendor).Name`.
@@ -606,13 +605,13 @@ Portanto, nenhum aviso de validação ocorre no elemento de formato **Statement\
 
 #### <a name="option-3"></a>Opção 3
 
-Se você deseja especificar explicitamente os dados inseridos em um documento gerado quando a fonte de dados **model.Vendor** do tipo **Lista de registros** não retornar registros (texto **Não disponível** neste exemplo), altere a associação do elemento de formato **Statement\\Party\\Name** de `model.Vendor.Name` para `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Você também pode usar a expressão `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
+Se você deseja especificar explicitamente os dados inseridos em um documento gerado quando a fonte de dados `model.Vendor` do tipo **Lista de registros** não retornar registros (texto **Não disponível** neste exemplo), altere a associação do elemento de formato **Statement\\Party\\Name** de `model.Vendor.Name` para `IF(NOT(ISEMPTY(model.Vendor)), model.Vendor.Name, "Not available")`. Você também pode usar a expressão `IF(COUNT(model.Vendor)=0, model.Vendor.Name, "Not available")`.
 
 ### <a name="additional-consideration"></a><a id="i9a"></a>Configuração adicional
 
-A inspeção também avisa sobre outro problema em potencial. Por padrão, ao vincular os elementos de formato **Statement\\Party\\Name** e **Statement\\Party\\AccountNum** aos campos adequados da fonte de dados **model.Vendor** de tipo **Lista de registros**, essas associações serão executadas e receberão os valores dos campos apropriados do primeiro registro da fonte de dados **model.Vendor** se essa lista não estiver vazia.
+A inspeção também avisa sobre outro problema em potencial. Por padrão, ao vincular os elementos de formato **Statement\\Party\\Name** e **Statement\\Party\\AccountNum** aos campos adequados da fonte de dados `model.Vendor` de tipo **Lista de registros**, essas associações serão executadas e receberão os valores dos campos apropriados do primeiro registro da fonte de dados `model.Vendor` se essa lista não estiver vazia.
 
-Como você não associou o elemento de formato **Statement\\Party** à fonte de dados **model.Vendor**, o elemento **Statement\\Party** não será iterado para cada registro da fonte de dados **model.Vendor** durante a execução de formato. Em vez disso, se essa lista contiver vários registros, o documento gerado será preenchido com informações somente do primeiro registro da lista. Portanto, poderá ocorrer um problema se o formato se destinar a preencher um documento com informações sobre todos os fornecedores da fonte de dados **model.Vendor**. Para corrigir esse problema, associe o elemento **Statement\\Party** à fonte de dados **model.Vendor**.
+Como você não associou o elemento de formato **Statement\\Party** à fonte de dados `model.Vendor`, o elemento **Statement\\Party** não será iterado para cada registro da fonte de dados `model.Vendor` durante a execução de formato. Em vez disso, se essa lista contiver vários registros, o documento gerado será preenchido com informações somente do primeiro registro da lista. Portanto, poderá ocorrer um problema se o formato se destinar a preencher um documento com informações sobre todos os fornecedores da fonte de dados `model.Vendor`. Para corrigir esse problema, associe o elemento **Statement\\Party** à fonte de dados `model.Vendor`.
 
 ## <a name="executability-of-an-expression-with-filter-function-caching"></a><a id="i10"></a>Capacidade de execução de uma expressão com função FILTER (armazenamento em cache)
 
@@ -699,7 +698,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 
 14. Associe os elementos de formato às fontes de dados fornecidas da seguinte maneira:
 
-    - Associe o elemento de formato  **Statement\\Party** ao item de fonte de dados **model.Vendor**.
+    - Associe o elemento de formato **Statement\\Party** ao item de fonte de dados `model.Vendor`.
     - Associe o elemento de formato **Statement\\Party\\Name** ao campo de fonte de dados **model.Vendor.Name**.
     - Associe o elemento de formato **Statement\\Party\\Name** ao campo de fonte de dados **model.Vendor.Name**.
 
@@ -813,6 +812,3 @@ Para saber como a estrutura de formato pode ser sincronizada com um modelo de ER
 [Rastrear a execução de formatos de ER para solucionar problemas de desempenho](trace-execution-er-troubleshoot-perf.md)
 
 [Visão geral de gerenciamento de documentos comerciais](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

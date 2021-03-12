@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fd279b28c43e22bec6bf814845fe97828bc96d81
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cb0188e372b5f6275472cf040d10bb796eed1858
+ms.sourcegitcommit: 95d2fc0fa7d17d3a96f7969f12c985b018b4ff94
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681319"
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "4728080"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Atualizar a estrutura de um modelo de documento comercial 
 
@@ -56,7 +56,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 5. Selecione **OK** para criar o novo modelo.
 
     > [!NOTE]
-    > Se ainda não tiver feito login no Office Online, você será [direcionado para a página de entrada do Office 365](er-business-document-management.md#i-selected-edit-document-but-instead-of-opening-the-bdm-template-editor-page-in-finance-and-operations-i-have-been-sent-to-the-microsoft-365-web-page). Para retornar ao seu ambiente do Finance, selecione o botão **Voltar** no navegador.
+    > Se ainda não tiver feito login no Office Online, você será [direcionado para a página de entrada do Office 365](er-business-document-management.md#frequently-asked-questions). Para retornar ao seu ambiente do Finance, selecione o botão **Voltar** no navegador.
 
     O novo modelo é aberto para edição no controle incorporado do Excel Online na página Editor de modelos.
 
@@ -106,6 +106,3 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Visão geral de gerenciamento de documentos comerciais](er-business-document-management.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

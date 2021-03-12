@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 60e6fb7d38bd3ca78538ca10a15f6fb09bba52a3
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693895"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796889"
 ---
 # <a name="address-books-faq"></a>Perguntas frequentes sobre catálogos de endereços
 
@@ -67,6 +67,3 @@ Você pode inserir registros de participante no catálogo de endereços global o
 ## <a name="can-i-translate-address-information-for-party-records"></a>Posso traduzir as informações de endereço para os registros de participante?
 
 Você pode configurar traduções de informações de endereço para que as informações apareçam em seu idioma de usuário (idioma do sistema) no programa, mas em outro idioma em documentos, como ordens de venda. Você pode inserir traduções para nomes de países/regiões, endereços e sequências de nomes. Por exemplo, o idioma do sistema é dinamarquês e você cria uma ordem de venda para um cliente na França. Nesse caso, você pode exibir o registro de cliente em dinamarquês no programa, e exibir as informações de endereço em francês na ordem de venda impressa. Ao configurar as traduções, você deve inserir uma tradução para cada item na lista. Os itens para os quais você não inserir uma tradução aparecerão no idioma do sistema. Por exemplo, o idioma do sistema é dinamarquês e você envia um documento para um cliente na Espanha. Se você não inseriu traduções de espanhol (ESP) para informações de endereço, elas serão exibidas em dinamarquês no seu sistema e no documento impresso.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

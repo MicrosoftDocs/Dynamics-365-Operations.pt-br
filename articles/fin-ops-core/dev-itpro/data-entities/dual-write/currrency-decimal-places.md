@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: 6a0f114bce6bdb7813c93e9441744d67cd043c30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 5d39bf28dba951a1483412d967c8c6fc6dbcc610
+ms.sourcegitcommit: 7e1be696894731e1c58074d9b5e9c5b3acf7e52a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683715"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4744366"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
@@ -44,11 +44,11 @@ A migração é opcional. Se você puder se beneficiar com o suporte para mais c
 
 ## <a name="requesting-migration-from-microsoft"></a>Solicitando a migração da Microsoft
 
-O armazenamento para campos de moeda existentes no Dataverse não pode oferecer suporte para mais de quatro casas decimais. Portanto, durante o processo de migração, os valores de moeda são copiados para novos campos internos no banco de dados. Esse processo ocorre continuamente até que todos os dados tenham sido migrados. Internamente, no final da migração, os novos tipos de armazenamento substituem os tipos de armazenamento antigos, mas os valores dos dados permanecem inalterados. Os campos de moeda podem oferecer suporte para até 10 casas decimais. Durante o processo de migração, o Dataverse pode continuar sendo usado sem interrupção.
+O armazenamento para colunas de moeda existentes no Dataverse não pode oferecer suporte para mais de quatro casas decimais. Portanto, durante o processo de migração, os valores de moeda são copiados para novas colunas internas no banco de dados. Esse processo ocorre continuamente até que todos os dados tenham sido migrados. Internamente, no final da migração, os novos tipos de armazenamento substituem os tipos de armazenamento antigos, mas os valores dos dados permanecem inalterados. As colunas de moeda podem oferecer suporte para até 10 casas decimais. Durante o processo de migração, o Dataverse pode continuar sendo usado sem interrupção.
 
 Ao mesmo tempo, as taxas de câmbio são modificadas para que ofereçam suporte para até 12 casas decimais em vez do limite atual de 10. Essa alteração é necessária para que o número de casas decimais seja o mesmo no aplicativo Finance and Operations e no Dataverse.
 
-A migração não altera os dados. Depois que os campos de moeda e taxa de câmbio forem convertidos, os administradores podem configurar o sistema para usar até 10 casas decimais para campos de moeda ao especificar o número de casas decimais para cada moeda da transação e para preços.
+A migração não altera os dados. Depois que as colunas de moeda e taxa de câmbio forem convertidos, os administradores podem configurar o sistema para usar até 10 casas decimais para colunas de moeda ao especificar o número de casas decimais para cada moeda da transação e para preços.
 
 ### <a name="request-a-migration"></a>Solicitar uma migração
 
@@ -72,29 +72,26 @@ Depois que a migração for concluída, o Dataverse pode armazenar números com 
 
 Para fazer essa alteração, atualize as seguintes configurações no Power Apps:
 
-+ **Configurações do Sistema: Precisão da moeda para precificação** – O campo **Defina o número de decimais da moeda que será usada para precificação em todo o sistema** define como a moeda se comportará para a organização quando **Precisão de preço** for selecionado.
-+ **Gerenciamento de Negócios: Moedas** – O campo **Precisão da Moeda** permite especificar um número personalizado de casas decimais para uma moeda específica. Há um fallback para a configuração em toda a organização.
++ **Configurações do Sistema: Precisão da moeda para precificação** – A coluna **Defina o número de decimais da moeda que será usada para precificação em todo o sistema** define como a moeda se comportará para a organização quando **Precisão de preço** for selecionado.
++ **Gerenciamento de Negócios: Moedas** – A coluna **Precisão da Moeda** permite especificar um número personalizado de casas decimais para uma moeda específica. Há um fallback para a configuração em toda a organização.
 
 Estas são algumas limitações:
 
-+ Não é possível configurar o campo de moeda em uma entidade.
++ Não é possível configurar a coluna de moeda em uma tabela.
 + Você pode especificar mais de quatro casas decimais somente nos níveis **Preço** e **Moeda de Transação**.
 
 ### <a name="system-settings-currency-precision-for-pricing"></a>Configurações do Sistema: Precisão da moeda para precificação
 
-Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral**, altere o valor do campo **Defina o número de decimais da moeda que será usada para precificação em todo o sistema**, conforme mostrado na ilustração a seguir.
+Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral**, altere o valor da coluna **Definir o número de decimais da moeda que será usada para precificação em todo o sistema**, conforme mostrado na ilustração a seguir.
 
 ![Configurações do sistema para moeda](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gerenciamento de Negócios: Moedas
 
-Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios**, selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina o campo **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
+Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios**, selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina a coluna **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
 
 ![Configurações de moeda para uma localidade específica](media/specific-currency.png)
 
-### <a name="tables-currency-field"></a>tabelas: campo Moeda
+### <a name="tables-currency-column"></a>tabelas: coluna Moeda
 
-O número de casas decimais que podem ser configuradas para campos de moeda específicos é limitado a quatro.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+O número de casas decimais que podem ser configuradas para colunas de moeda específicas é limitado a quatro.

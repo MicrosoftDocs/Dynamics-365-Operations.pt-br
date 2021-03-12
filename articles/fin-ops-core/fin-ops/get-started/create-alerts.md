@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 4fe97ca8e1eecdc064ad4d21d5acdeade9f33d9c
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 3721416ce720167a6f78e26583de84af9c8d086b
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694486"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798418"
 ---
 # <a name="create-alert-rules"></a>Criar regras de alerta
 
@@ -40,7 +40,7 @@ Os trabalhos em lotes para alertas de alteração de dados e data de vencimento 
 
 O evento que aciona uma regra de alerta pode ser uma data que se aproxima ou uma alteração específica que ocorre. Os disparadores de eventos são definidos na Guia rápida **Alertar-me quando** da caixa de diálogo **Criar regra de alerta**. Os eventos disponíveis para um determinado campo dependem do disparador que é selecionado.
 
-Por exemplo, se estiver configurando uma regra de alerta para o campo **Data de início**, os eventos da data de vencimento são apropriados. Portanto, o tipo de evento **vence em** fica disponível para aquele campo. Porém, para um campo como **Centro de custo**, um evento de data de vencimento não é apropriado. Portanto, o tipo de evento **vence em** não fica disponível. Em vez disso, o tipo de evento **foi alterado** estará disponível.
+Por exemplo, se estiver configurando uma regra de alerta para o campo **Data de início**, os eventos da data de vencimento são apropriados. Portanto, o tipo de evento `is due in` está disponível para esse campo. Porém, para um campo como **Centro de custo**, um evento de data de vencimento não é apropriado. Portanto, o tipo de evento `is due in` não está disponível. Em vez disso, o tipo de evento `has changed` está disponível.
 
 ## <a name="event-types"></a>Tipos de evento
 
@@ -77,7 +77,7 @@ Na guia rápida **Alertar-me com** da caixa de diálogo **Criar regra de alerta*
 
 ## <a name="alerts-as-business-events"></a>Alertas como eventos de negócios
 
-Os alertas podem ser enviados externamente usando a estrutura de eventos de negócios. Ao criar um alerta, defina **Em toda a organização** como **Não** e **Enviar externamente** como **Sim**. Depois que o alerta disparar o evento de negócios, você poderá acionar um fluxo incorporado no Power Automate usando o gatilho **Quando um evento de negócios ocorre** no conector do Finance and Operations ou enviar explicitamente o evento para um ponto de extremidade de eventos de negócios por meio do **Catálogo de eventos de negócios**.
+Você pode enviar alertas externamente usando a estrutura de eventos de negócios. Ao criar um alerta, defina **Em toda a organização** como **Não** e **Enviar externamente** como **Sim**. Depois que o alerta disparar o evento de negócios, você poderá acionar um fluxo incorporado no Power Automate usando o gatilho **Quando um evento de negócios ocorre** no conector do Finance and Operations ou enviar explicitamente o evento para um ponto de extremidade de eventos de negócios por meio do **Catálogo de eventos de negócios**.
 
 ## <a name="create-an-alert-rule"></a>Crie uma regra de alerta
 
@@ -86,10 +86,10 @@ Os alertas podem ser enviados externamente usando a estrutura de eventos de neg�
 2. No Painel de Ação, na guia **Opções**, no grupo **Compartilhar**, selecione **Criar regra de alerta**.
 3. Na caixa de diálogo **Criar regra de alerta**, no campo **Campo**, selecione o campo a ser monitorado.
 4. No campo **Evento**, selecione o tipo de evento.
-5. Na guia rápida **Alertar-me para**, selecione a opção desejada. Se você deseja enviar o alerta como um evento de negócios, verifique se **Em toda a organização** está definido como **Não**.
+5. Na guia rápida **Alertar-me para**, selecione a opção desejada. Se você deseja enviar o alerta como um evento de negócios, defina o valor de **Em toda a organização** como **Não**.
 6. Caso você queira que a regra de alerta se torne ativa em uma determinada data, na guia rápida **Alertar-me até**, selecione uma data final.
-7. Na guia rápida **Alertar-me com**, no campo **Assunto**, aceite o cabeçalho padrão do assunto para a mensagem de e-mail ou insira um novo assunto. O texto é usado como o título do assunto da mensagem de email recebida quando um alerta é acionado. Se você deseja enviar o alerta como um evento de negócios, defina **Enviar externamente** como **Sim**.
-8. No campo **Mensagem**, digite uma mensagem opcional. O texto é usado como a mensagem recebida quando um alerta é acionado.
+7. Na guia rápida **Alertar-me com**, no campo **Assunto**, aceite o cabeçalho padrão do assunto para a mensagem de e-mail ou insira um novo assunto. O texto torna-se o título do assunto da mensagem de email recebida quando um alerta é acionado. Se você deseja enviar o alerta como um evento de negócios, defina **Enviar externamente** como **Sim**.
+8. No campo **Mensagem**, digite uma mensagem opcional. O texto torna-se a mensagem recebida quando um alerta é acionado.
 9. Selecione **OK** para salvar as configurações e criar a regra de alerta.
 
 ## <a name="limitations-and-workarounds"></a>Limitações e soluções alternativas
@@ -102,6 +102,3 @@ Não é possível criar alertas para algumas fontes de dados secundárias em for
     ```
 2. Crie um alerta do formulário SysTableBrowser.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

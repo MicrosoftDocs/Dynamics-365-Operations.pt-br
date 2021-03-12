@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 71d51f137cc0e0fcc18b39f8b92ab5c44b359609
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 09f32833d914c05a1830e2bba36ebe4c66a8a52c
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694041"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4797087"
 ---
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar etapas de aprovação em um fluxo de trabalho
 
@@ -276,6 +276,3 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
 
 5. Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
 6. Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

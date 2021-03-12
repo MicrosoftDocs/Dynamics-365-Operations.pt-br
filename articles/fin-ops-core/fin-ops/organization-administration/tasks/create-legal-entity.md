@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54e3176ccf4bc3218afdf085f910e6d2a9c1b9ff
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 6dc74291977d999218ebc66f72ee5b01b12827ed
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694828"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4796745"
 ---
 # <a name="create-a-legal-entity"></a>Criar uma entidade legal
 
@@ -45,6 +45,3 @@ Uma entidade legal é uma organização que é identificada através de um regis
 15. Expanda a seção **Registro de imposto**. Na seção **Registro de imposto**, insira os números de registro usados nos relatórios para as autoridades fiscais.
 16. Expanda a seção **Imposto 1099**. Na seção **Imposto 1099**, insira a informação 1099 da entidade legal.  
 17. Clique em **Salvar**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
