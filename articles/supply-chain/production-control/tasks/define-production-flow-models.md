@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 511c466d6019cb182c9ada0b02172b8eeb3725e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22aabf2d0cecf272ac25ba3adde8cc650b069af9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421884"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977854"
 ---
 # <a name="define-production-flow-models"></a>Definir modelos de fluxo de produção
 
@@ -46,6 +45,3 @@ Os modelos de fluxo de produção descrevem como capacidade das células de trab
 8. No campo Reação de escassez de capacidade, selecione uma opção.
     * As opções incluem: Adiar - adia a demanda completa do evento de agendamento no próximo dia disponível de produção, com a produtividade disponível. Cancelar - finaliza o planejamento automático para o evento de agendamento e deixa os trabalhos relacionados sem planejamento.   Adicionar ao dia solicitado - planeja os trabalhos solicitados para o período solicitado. Isso sobrecarrega a célula para esse dia e requer que o planejador revise e faça uma interação manual.   Distribuir entre períodos disponíveis - distribui os diferentes trabalhos do evento de agendamento em todos os dias disponíveis de produção, começando pelo primeiro dia disponível. A quantidade mínima de distribuição é a quantidade de trabalhos kanban. A distribuição atribui a quantidade mínima de planejamento (quantidade de kanbans) a cada dia com produtividade suficiente disponível.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TMSRateRouteWorkbench, TMSDriverLogListPage, TMSTransportationTender
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e6b29bf2e42ea2df3d36f39fa577078009aa584
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b8fb40a0fe1606b856f58f5bc517c7f1aff85e4d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422026"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977504"
 ---
 # <a name="include-container-weight-and-volume-on-load"></a>Incluir o peso e o volume do contêiner na carga
 
@@ -45,6 +44,3 @@ O número de contêineres que devem ser considerados para uma carga ser calculad
 -   Para definir o peso e volume de um contêiner, clique em **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Tipos de contêiner**.
 
 -   Para definir a porcentagem de utilização de contêiner, clique em **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Grupos de contêiner**, e insira o valor no campo **Porcentagem de utilização do contêiner**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

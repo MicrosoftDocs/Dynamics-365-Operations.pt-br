@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: b86fe2f3ea4321dbe598233018934187ba0d713a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bcae977ede91dcaf4e455353f023e9eee4fcb2b1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421982"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977479"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
@@ -179,6 +178,3 @@ Observe que ocorrerão os seguintes eventos:
 - A liberação para um depósito é acionada para a ordem de venda vinculada.
 - Com base na liberação, o trabalho de remessa e distribuição integrada é criado. Esse trabalho instrui o operador de depósito a separar as quantidades necessárias para atender à linha de ordem de venda e as coloca no local de saída especificado na diretiva de localização de distribuição integrada.
 - Se a quantidade de ordem de produção for superior à quantidade necessária para a ordem de venda, o trabalho de armazenamento normal será criado. Esse trabalho instrui o operador de depósito a separar a quantidade de bens acabados restantes após a distribuição integrada e a move-los para o estoque normal, de acordo com a diretiva de localização.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

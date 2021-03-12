@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, WMSJournalTable, WMSJournalCreate, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 940fa33b10c5f60f469187b11dd066091581996f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: ec8c1912435cf822db6eaecc5fff3dbcac793f77
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422515"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977053"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
 
@@ -58,6 +57,3 @@ Este procedimento mostra como registrar itens usando o diário de entrada de ite
 2. Clique em Recebimento de produtos.
 3. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

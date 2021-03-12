@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: afbf69c072ae205e973203d97a5fbca7504ae04f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0b020618036951e7033baadbf58b806df7877bdb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410074"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976580"
 ---
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>Acompanhar comissões no POS (ponto de venda) usando grupos de vendas
 
@@ -72,7 +71,7 @@ Há várias configurações de perfil funcionais para um loja que determinarão 
 
 ## <a name="displaying-the-sales-representative-information-on-the-pos-transactions-screen"></a>Como exibir informações do representante de vendas na tela de transação do PDV
 
-O layout e os conteúdos da tela de transação do PDV são configuráveis usando o designer de layout da tela e layouts de tela atribuídos às lojas, registros ou trabalhadores.O campo **Representante de vendas** pode ser adicionado à guia Linhas do Painel do recebimento.Isso exibirá a ID do grupo de vendas especificado para cada linha na tela de transação.
+O layout e os conteúdos da tela de transação do PDV são configuráveis usando o designer de layout da tela e layouts de tela atribuídos às lojas, registros ou trabalhadores. O campo **Representante de vendas** pode ser adicionado à guia Linhas do Painel do recebimento.  Isso exibirá a ID do grupo de vendas especificado para cada linha na tela de transação.
 
 ## <a name="adding-sales-representative-operations-to-pos-button-grids"></a>Como adicionar operações de representante de vendas a grades de botão do PDV
 
@@ -80,14 +79,11 @@ O PDV permite ao usuário configurar grades de botão, que são incluídas em la
 
 | Operação                                 | descrição |
 |-------------------------------------------|-------------|
-| Definir representante de vendas na linha          | Esta operação de PDV exibe uma lista de grupos de vendas elegíveis (ID: Nome da loja) para a loja.A seleção de um grupo de vendas desta lista definirá o valor na linha de transação atual. |
+| Definir representante de vendas na linha          | Esta operação de PDV exibe uma lista de grupos de vendas elegíveis (ID: Nome da loja) para a loja. A seleção de um grupo de vendas desta lista definirá o valor na linha de transação atual. |
 | Limpar representante de vendas na linha        | Esta operação de PDV remove o valor do grupo de vendas atual da linha de transação atual. |
-| Definir representante de vendas na transação   | Esta operação de PDV exibe uma lista de grupos de vendas elegíveis (ID: Nome da loja) para a loja.A seleção de um grupo de vendas desta lista definirá o valor padrão na transação atual. Qualquer linha existente sem um grupo de vendas atribuído será definido, assim como quaisquer linhas adicionadas subsequentemente. |
+| Definir representante de vendas na transação   | Esta operação de PDV exibe uma lista de grupos de vendas elegíveis (ID: Nome da loja) para a loja. A seleção de um grupo de vendas desta lista definirá o valor padrão na transação atual. Qualquer linha existente sem um grupo de vendas atribuído será definido, assim como quaisquer linhas adicionadas subsequentemente. |
 | Limpar representante de vendas na transação | Esta operação de PDV remove o valor do grupo de vendas padrão atual da transação atual. Não impacta quaisquer linhas já existentes na transação. |
 
 ## <a name="calculating-commissions"></a>Como calcular comissões
 
-A comissão é calculada para os trabalhadores nos grupos de vendas específicos no momento lançamento de demonstrativo ou lançamento de ordem de venda.O valor da comissão é determinado com base no compartilhamento de comissões de trabalhador, conforme definido no grupo de vendas e nas configurações de cálculo de comissão associadas ao cliente e/ou a produtos da transação.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+A comissão é calculada para os trabalhadores nos grupos de vendas específicos no momento lançamento de demonstrativo ou lançamento de ordem de venda. O valor da comissão é determinado com base no compartilhamento de comissões de trabalhador, conforme definido no grupo de vendas e nas configurações de cálculo de comissão associadas ao cliente e/ou a produtos da transação.

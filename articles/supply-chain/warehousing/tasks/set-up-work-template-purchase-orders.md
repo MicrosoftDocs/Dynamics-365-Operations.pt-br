@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSWorkTemplateTable, SysQueryForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6628936a56619de255ca7dc7b332b5819918c310
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e9acf6db9138a009527c6662f1cbb7e5fedc8778
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422394"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976854"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar um modelo de trabalho para ordens de compra
 
@@ -61,6 +60,3 @@ Este tópico descreve como configurar um modelo de trabalho simples que será us
 6. No campo **ID da classe de trabalho**, digite um valor. As instruções de separação e armazenamento formam um conjunto. Cada conjunto separar/armazenar deve ter a mesma classe de trabalho. Use a mesma classe de trabalho que você forneceu para a instrução de separação.  
 7. Selecione **Salvar**. Note que agora a caixa de seleção **Válido** está marcada.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

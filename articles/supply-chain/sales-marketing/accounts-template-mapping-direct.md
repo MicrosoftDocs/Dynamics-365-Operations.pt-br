@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8aa03f94e0fb89a6d34ce014dbb6004a1a666327
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 0499f604049240a226b4002710817034598b1e66
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977704"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizar contas diretamente do Sales com clientes no Supply Chain Management
 
@@ -33,7 +32,7 @@ ms.locfileid: "4529201"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar contas diretamente do Dynamics 365 Sales com o Dynamics 365 Supply Chain Management.
 
@@ -66,11 +65,11 @@ As contas são gerenciadas no Sales e sincronizadas com o Supply Chain Managemen
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Solução Prospect to cash para o Sales
 
-O campo **Número da Conta** está disponível na página **Conta**. Criou-se uma chave natural e exclusiva para oferecer suporte à integração. O recurso de chave natural da solução Gerenciamento de Relacionamento com o Cliente (CRM) pode afetar clientes que já usam o campo **Número da Conta**, mas que não utilizam os valores exclusivos **Número da Conta** por conta. Atualmente, a solução de integração não é compatível nesse caso.
+A coluna **Número da Conta** está disponível na página **Conta**. Criou-se uma chave natural e exclusiva para oferecer suporte à integração. O recurso de chave natural da solução Gerenciamento de Relacionamento com o Cliente (CRM) pode afetar clientes que já usam a coluna **Número da conta**, mas que não utilizam os valores exclusivos **Número da conta** por conta. Atualmente, a solução de integração não é compatível nesse caso.
 
 Quando uma nova conta é criada, se um valor **Número da Conta** ainda não existe, ele é automaticamente gerado com uma sequência numérica. O valor consiste em **ACC** seguido por uma sequência numérica crescente e então um sufixo de seis caracteres. Veja um exemplo: **ACC-01000-BVRCPS**
 
-Quando a solução de integração para o Sales é aplicada, um script de atualização define o campo **Número da Conta** para as contas existentes no Sales. Se não houver valores de **Número da Conta**, a sequência numérica mencionada anteriormente será usada.
+Quando a solução de integração para o Sales é aplicada, um script de atualização define a coluna **Número da Conta** para as contas existentes no Sales. Se não houver valores de **Número da Conta**, a sequência numérica mencionada anteriormente será usada.
 
 ## <a name="preconditions-and-mapping-setup"></a>Precondições e configuração de mapeamento
 
@@ -95,12 +94,12 @@ Quando a solução de integração para o Sales é aplicada, um script de atuali
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelo na Integração de dados
 
 > [!NOTE]
-> Os campos **Termos de pagamento**, **Condições de frete**, **Condições de entrega**, **Método de remessa** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
+> As colunas **Termos de pagamento**, **Condições de frete**, **Condições de entrega**, **Método de remessa** e **Modo de entrega** não estão incluídas no mapeamento padrão. Para mapear essas colunas, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a tabela está sincronizada.
 
 As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integração de dados. 
 
 > [!NOTE]
-> O mapeamento mostra quais informações de campo serão sincronizadas do Sales com o Supply Chain Management.
+> O mapeamento mostra quais informações de coluna serão sincronizadas do Sales com o Supply Chain Management.
 
 ![Mapeamento de modelo na Integração de dados](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
@@ -117,6 +116,3 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 [Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

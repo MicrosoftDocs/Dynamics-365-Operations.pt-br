@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 321c716c10b136769ea3a48a3b60a8a717798338
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 1977dac4a3ab66cca2248dc0124d3a06d6963f40
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646220"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978755"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Habilitar revisão de fluxo de caixa (versão prévia)
 
@@ -67,6 +66,3 @@ Para obter mais informações sobre o recurso de previsão de fluxo de caixa, co
 ## <a name="privacy-notice"></a>Aviso de privacidade
 
 As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

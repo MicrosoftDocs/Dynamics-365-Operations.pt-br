@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 009345e608c26887fedbe4a9c268367080593da2
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: da11a474e1bb031fac26e04c91cbdbab5f62eb0b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422601"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4977344"
 ---
 # <a name="set-up-cluster-picking"></a>Configurar separação de cluster
 
@@ -80,6 +79,3 @@ Quando a separação do cluster é aplicada, confirmação do item é importante
 1. No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** \> **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
 
 1. Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**. A opção **Confirmação do produto** permite que você verifique cada peça de estoque no dispositivo móvel quando verificado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c77d08d5877ab27f9b6549a5b2a666150938fc08
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1abc86aa5c3863eba34f726b543792408a542383
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440424"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976357"
 ---
 # <a name="reconcile-a-bank-account"></a>Reconciliar uma conta bancária
 
@@ -71,6 +70,3 @@ A funcionalidade Cancelar reconciliação de extrato bancário permite cancelar 
 As reconciliações de extrato bancário só podem ser canceladas na ordem cronológica em que foram inseridas. Quando a reconciliação de extrato bancário for cancelada, as novas transações e correções serão revertidas e todas as outras transações serão marcadas como não reconciliadas.
  
 Para cancelar a reconciliação de extrato bancário, selecione o extrato bancário e selecione **Extrato bancário > Cancelar reconciliação bancária**. Na página **Cancelar reconciliação bancária**, forneça **Código de motivo**, **Comentário do motivo** e **Data de cancelamento**. Selecione **OK** para iniciar o cancelamento. Observe, a data de cancelamento do extrato bancário deve ser na data do extrato bancário ou posterior a ela. Após o cancelamento da reconciliação de extrato bancário, o campo **Data de cancelamento** para o extrato bancário será atualizado com a **Data de cancelamento** fornecida. Selecione o botão **Transações** para exibir as transações para as quais a reconciliação foi cancelada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
