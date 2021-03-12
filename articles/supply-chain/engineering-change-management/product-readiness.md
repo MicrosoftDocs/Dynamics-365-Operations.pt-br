@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 58b5a35800ab464f25868c6756b16f25d14d8d78
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 8321a0d8516a6c2c085ce9c1236f70af1cca98da
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422639"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967249"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
@@ -148,6 +147,3 @@ Para cada linha adicionada, defina os campos a seguir.
 | Questionário | Selecione o questionário que deve ser usado para a lista de verificação. A lista de verificação é uma lista de verificação local na empresa na qual a verificação de preparação está concluída. O sistema deve ser capaz de avaliar se a lista de verificação foi respondida corretamente. Portanto, a lista de verificação deve ser configurada de forma que uma avaliação seja feita com base nas respostas corretas. Para obter mais informações sobre como criar questionários, consulte [Usando questionários](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) e os tópicos relacionados. |
 | Aprovação automática | Os registros de verificação de prontidão incluem uma caixa de seleção **Aprovado** que indica o status da aprovação. Marque a caixa de seleção **Aprovação automática** para verificações que devem ser definidas como aprovados imediatamente após o usuário atribuído concluí-los. Desmarque esta caixa de seleção para exigir aprovação explícita como uma etapa extra. |
 | Obrigatório | Marque esta caixa de seleção para os cheques que devem ser concluídos pelo usuário atribuído. As verificações obrigatórias não podem ser ignoradas. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

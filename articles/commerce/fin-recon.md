@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5d0520f35391f76b52fd8a333033b0d7ba4f7fe1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8ddefcdc2b2bbb5fe25e9a87396802cbbbfef72c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410078"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965068"
 ---
 # <a name="financial-reconciliation-in-retail-stores"></a>Reconciliação financeira em lojas de varejo
 
@@ -62,6 +61,3 @@ Quando é usado o lançamento de demonstrativo com base em um fluxo constante, p
 Os detalhes da reconciliação financeira de um turno são sincronizados com o Commerce Headquarters usando o trabalho P.
 
 As demonstrativos financeiros de varejo no Commerce Headquarters não calculam os totais para mostrar os detalhes nas linhas dos demonstrativos. Em vez disso, os valores finalizados no cliente de PDV são usados para criar e lançar demonstrativos financeiros de varejo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

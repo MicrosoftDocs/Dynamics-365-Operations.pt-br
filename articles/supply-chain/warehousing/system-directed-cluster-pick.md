@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSWorkCluster, WHSClusterProfile
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 0838405bcb5ee0d8e582093fbbd69553228cb2b6
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: fa737f61bfd5bd71ba6d76e75e57c8e2d682cda3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422574"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965668"
 ---
 # <a name="system-directed-cluster-picking"></a>Separação de cluster direcionada pelo sistema
 
@@ -207,6 +206,3 @@ Antes de configurar a separação de cluster direcionada pelo sistema, você dev
 1. A última etapa no dispositivo móvel é **colocar** o cluster na localização final. Selecione **OK**
     - Quando a operação put é confirmada, o cluster é fechado e dividido, com base no valor definido para o campo **Dividir cluster em** no perfil de cluster. As IDs de trabalho também são fechadas.
 1. Uma mensagem de "Cluster concluído" é exibida no dispositivo móvel.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

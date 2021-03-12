@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductOwner
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4308020d66995d857e547be47216cb82caacf035
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 90f5596f9b5fc45e78cc49a3309c45864e07e70b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422632"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967324"
 ---
 # <a name="product-owners"></a>Proprietários de produto
 
@@ -61,6 +60,3 @@ Por exemplo, o produto X é atribuído ao grupo de proprietários de produtos *P
 ## <a name="product-owners-and-approvals"></a>Proprietários e aprovações de produtos
 
 Como os proprietários de produtos sabem se as alterações de engenharia específicas se beneficiarão com seus produtos, geralmente faz sentido incluí-las como parte do processo de aprovação no gerenciamento de alterações de engenharia. Você pode implementar essa abordagem configurando os proprietários de produtos como provedores de participantes nos fluxos de trabalho que são usados para o gerenciamento de alterações de engenharia. O sistema atribuirá tarefas de aprovação nos fluxos de trabalho com base nos produtos que estão nas solicitações de alteração de engenharia e nas ordens de alteração de engenharia. Para obter mais informações, consulte [Gerenciar alterações de produtos de engenharia](engineering-change-management.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

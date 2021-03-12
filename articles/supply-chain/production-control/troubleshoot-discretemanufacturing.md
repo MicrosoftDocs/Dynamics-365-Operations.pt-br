@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 604e0c3406b15d885991fcb067e93ef83533e3b0
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: b0073cb2c3e3d6b9218caf20c394c8c0ca67b796
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516724"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966196"
 ---
 # <a name="troubleshoot-discrete-manufacturing"></a>Solucionar problemas de fabricação discreta
 
@@ -142,6 +141,3 @@ Você não pode relatar a quantidade de erro em uma ordem de produção, a menos
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Posso comparar os números de série dos produtos acabados com os números de série dos produtos consumidos?
 
 Não é possível rastrear os números de série dos produtos concluídos em relação aos números de série do material que uma ordem de produção consome para fazer esses produtos concluídos. Não há suporte para este cenário atualmente. A solução alternativa é criar ordens de produção para uma quantidade de 1.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

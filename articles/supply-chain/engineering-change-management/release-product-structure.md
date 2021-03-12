@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductReleaseSiteBulkEdit, EngChgProductReleaseSendListPage, EngChgProductReleaseSendDetails,EngChgProductReleaseSelection,EngChgProductReleaseReceiveListPage, EngChgProductReleaseReceiveDetails, EngChgProductReleasePreviewPane, EngChgProductReleasePolicy, EngChgProductReleasePart, EngChgProductReleaseNote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 68f091cca9c3c2baa03813553127ee41abe6d522
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 971ff16b862a48581365523edc6b64052b29c380
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422638"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967221"
 ---
 # <a name="release-product-structures"></a>Liberar estruturas de produtos
 
@@ -160,6 +159,3 @@ Esse comportamento se aplica somente quando um produto é selecionado diretament
 Por exemplo, o produto X é atribuído ao grupo de proprietários de produtos *Projetar gabinetes*. O produto X também faz parte da BOM do produto Y, que é atribuída ao grupo de proprietários de produtos de *Design de alto-falantes*. Se um usuário do grupo de proprietários de produtos *Design de alto-falantes* lançar o produto Y e sua BOM, o produto X será liberado junto com o produto Y.
 
 Para obter mais informações, consulte [Proprietários do produto](product-owner.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

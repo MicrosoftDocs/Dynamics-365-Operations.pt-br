@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: cbfb395c9103ff31979bfd57333f689e38915652
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2515a71297df7213f93a4c619f7eebf1c2411b39
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645419"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965543"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 
@@ -98,6 +97,3 @@ A ilustração a seguir mostra um exemplo do gráfico resultante.
 ![Visualização Zona vs. Status do trabalho](media/work-viz-chart.png "Visualização Zona vs. Status do trabalho")
 
 Este gráfico mostra duas zonas chamadas **FLOOR** e **BULK**, além de uma zona chamada **Em branco**. A zona **Em branco** representa todas as linhas de trabalho que não são membros de nenhuma zona. O gráfico sempre mostra todos os dados filtrados não relacionados como **Em branco**, para fornecer o máximo de visibilidade possível. Na zona **FLOOR**, o gráfico mostra três linhas fechadas e quatro linhas abertas. Na zona **BULK**, o gráfico mostra quatro linhas fechadas, uma linha aberta e 24 linhas canceladas. Por fim, o gráfico mostra oito linhas fechadas que não fazem parte de nenhuma zona e, portanto, são listadas como **Em branco**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

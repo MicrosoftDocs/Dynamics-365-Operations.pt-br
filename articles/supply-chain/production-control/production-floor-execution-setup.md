@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 57f09bf907407e19ae0e693de64510f7f4efbf0b
-ms.sourcegitcommit: f27f5d07c040bdca1bcd616f5d3f2320d3b3337e
+ms.openlocfilehash: d4529af21d9673512889b17aeb1e7fbd49969cdc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/15/2020
-ms.locfileid: "4422492"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4966261"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
@@ -80,6 +79,3 @@ A parte superior da ilustração a seguir mostra como a interface é exibida por
 Por padrão, a interface de execução de piso de produção se desconecta automaticamente se ninguém usá-la em 12 horas. Um usuário do Supply Chain Management deverá entrar novamente. No entanto, você pode estender o tempo limite para até 90 dias.
 
 Para estender o limite de tempo, entre no Supply Chain Management e vá para **Administração do sistema \> Usuários \> Extensões de sessão**. Especifique a conta de usuário do Supply Chain Management usada para entrar no dispositivo e o número de horas em que a sessão deverá permanecer ativa.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

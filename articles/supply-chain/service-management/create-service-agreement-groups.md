@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAAgreementGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0f76051d4d85d84362d171ba25330c7c260d88bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbafd65073e6aba8f02aaed6877b8c1658a6dedc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422374"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4965921"
 ---
 # <a name="create-service-agreement-groups"></a>Criar grupos de contrato de serviço 
 
@@ -43,6 +42,3 @@ Os grupos de contratos de serviço são úteis para classificar e filtrar contra
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Visão geral de contrato de serviço](service-agreement-groups.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
