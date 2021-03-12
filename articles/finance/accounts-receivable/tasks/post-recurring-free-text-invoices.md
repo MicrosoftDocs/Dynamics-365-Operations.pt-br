@@ -11,38 +11,37 @@ ms.technology: ''
 ms.search.form: SysLookupMultiSelectGrid, CustRecurrenceInvoiceGroup, CustFreeInvoice, CustRecurrenceInvoiceTotals
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3b31dbf296a06ea6253a8ae71bfea6193a1e03e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c89247c870ef3edcaaa30831efaef9b03a9bc166
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440340"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003197"
 ---
-# <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="9deb3-103">Gerar e lançar faturas de texto livre recorrentes</span><span class="sxs-lookup"><span data-stu-id="9deb3-103">Generate and post recurring free text invoices</span></span>
+# <a name="generate-and-post-recurring-free-text-invoices"></a><span data-ttu-id="85938-103">Gerar e lançar faturas de texto livre recorrentes</span><span class="sxs-lookup"><span data-stu-id="85938-103">Generate and post recurring free text invoices</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="9deb3-104">Faturas recorrentes são usadas para faturar clientes regularmente com o mesmo valor.</span><span class="sxs-lookup"><span data-stu-id="9deb3-104">Recurring invoices are used to invoice customers regularly for the same amount.</span></span> <span data-ttu-id="9deb3-105">Este registro usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="9deb3-105">This recording uses the USMF demo company.</span></span> <span data-ttu-id="9deb3-106">O registro é direcionado para a pessoa responsável por gerenciar e processar faturas A/R.</span><span class="sxs-lookup"><span data-stu-id="9deb3-106">The recording is intended for the person responsible for managing and processing A/R invoices.</span></span>
+<span data-ttu-id="85938-104">Faturas recorrentes são usadas para faturar clientes regularmente com o mesmo valor.</span><span class="sxs-lookup"><span data-stu-id="85938-104">Recurring invoices are used to invoice customers regularly for the same amount.</span></span> <span data-ttu-id="85938-105">Este registro usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="85938-105">This recording uses the USMF demo company.</span></span> <span data-ttu-id="85938-106">O registro é direcionado para a pessoa responsável por gerenciar e processar faturas A/R.</span><span class="sxs-lookup"><span data-stu-id="85938-106">The recording is intended for the person responsible for managing and processing A/R invoices.</span></span>
 
 
-## <a name="generate-recurring-invoices"></a><span data-ttu-id="9deb3-107">Gerar faturas recorrentes</span><span class="sxs-lookup"><span data-stu-id="9deb3-107">Generate recurring invoices</span></span>
+## <a name="generate-recurring-invoices"></a><span data-ttu-id="85938-107">Gerar faturas recorrentes</span><span class="sxs-lookup"><span data-stu-id="85938-107">Generate recurring invoices</span></span>
 
-## <a name="post-recurring-invoices"></a><span data-ttu-id="9deb3-108">Lançar faturas recorrentes</span><span class="sxs-lookup"><span data-stu-id="9deb3-108">Post recurring invoices</span></span>
-1. <span data-ttu-id="9deb3-109">Vá para Contas a receber > Faturas > Faturas recorrentes > Lançar faturas recorrentes.</span><span class="sxs-lookup"><span data-stu-id="9deb3-109">Go to Accounts receivable > Invoices > Recurring invoices > Post recurring invoices.</span></span>
-    * <span data-ttu-id="9deb3-110">Use esta página para exibir e imprimir as notas fiscais recorrentes que foram geradas anteriormente.</span><span class="sxs-lookup"><span data-stu-id="9deb3-110">Use this page to view and print recurring invoices that have already been generated.</span></span>  
-2. <span data-ttu-id="9deb3-111">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="9deb3-111">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="9deb3-112">Selecione o grupo de fatura recorrente.</span><span class="sxs-lookup"><span data-stu-id="9deb3-112">Select the recurring invoice group.</span></span>  
-3. <span data-ttu-id="9deb3-113">Clique em Totais.</span><span class="sxs-lookup"><span data-stu-id="9deb3-113">Click Totals.</span></span>
-    * <span data-ttu-id="9deb3-114">Verificar totais do grupo da nota fiscal recorrente.</span><span class="sxs-lookup"><span data-stu-id="9deb3-114">Verify totals for the recurring invoice group.</span></span>  
-4. <span data-ttu-id="9deb3-115">Clique em Fechar.</span><span class="sxs-lookup"><span data-stu-id="9deb3-115">Click Close.</span></span>
-    * <span data-ttu-id="9deb3-116">Cada linha abaixo é uma fatura de texto livre recorrente.</span><span class="sxs-lookup"><span data-stu-id="9deb3-116">Each line below is a recurring free text invoice.</span></span> <span data-ttu-id="9deb3-117">Você pode selecionar uma linha e clicar no botão de 'Detalhes' para exibir detalhes da nota fiscal de texto livre.</span><span class="sxs-lookup"><span data-stu-id="9deb3-117">You can select a line and click 'Details' button to view free text invoice details.</span></span>  
-5. <span data-ttu-id="9deb3-118">Clique em Validar.</span><span class="sxs-lookup"><span data-stu-id="9deb3-118">Click Validate.</span></span>
-    * <span data-ttu-id="9deb3-119">Verifique se as notas fiscais selecionadas não têm erros, mas não lance as notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="9deb3-119">Verify that the selected invoices do not have errors, but do not post the invoices.</span></span>  
-6. <span data-ttu-id="9deb3-120">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="9deb3-120">Click Post.</span></span>
-    * <span data-ttu-id="9deb3-121">Lançar as faturas selecionadas.</span><span class="sxs-lookup"><span data-stu-id="9deb3-121">Post the selected invoices.</span></span>  
+## <a name="post-recurring-invoices"></a><span data-ttu-id="85938-108">Lançar faturas recorrentes</span><span class="sxs-lookup"><span data-stu-id="85938-108">Post recurring invoices</span></span>
+1. <span data-ttu-id="85938-109">Vá para Contas a receber > Faturas > Faturas recorrentes > Lançar faturas recorrentes.</span><span class="sxs-lookup"><span data-stu-id="85938-109">Go to Accounts receivable > Invoices > Recurring invoices > Post recurring invoices.</span></span>
+    * <span data-ttu-id="85938-110">Use esta página para exibir e imprimir as notas fiscais recorrentes que foram geradas anteriormente.</span><span class="sxs-lookup"><span data-stu-id="85938-110">Use this page to view and print recurring invoices that have already been generated.</span></span>  
+2. <span data-ttu-id="85938-111">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="85938-111">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="85938-112">Selecione o grupo de fatura recorrente.</span><span class="sxs-lookup"><span data-stu-id="85938-112">Select the recurring invoice group.</span></span>  
+3. <span data-ttu-id="85938-113">Clique em Totais.</span><span class="sxs-lookup"><span data-stu-id="85938-113">Click Totals.</span></span>
+    * <span data-ttu-id="85938-114">Verificar totais do grupo da nota fiscal recorrente.</span><span class="sxs-lookup"><span data-stu-id="85938-114">Verify totals for the recurring invoice group.</span></span>  
+4. <span data-ttu-id="85938-115">Clique em Fechar.</span><span class="sxs-lookup"><span data-stu-id="85938-115">Click Close.</span></span>
+    * <span data-ttu-id="85938-116">Cada linha abaixo é uma fatura de texto livre recorrente.</span><span class="sxs-lookup"><span data-stu-id="85938-116">Each line below is a recurring free text invoice.</span></span> <span data-ttu-id="85938-117">Você pode selecionar uma linha e clicar no botão de 'Detalhes' para exibir detalhes da nota fiscal de texto livre.</span><span class="sxs-lookup"><span data-stu-id="85938-117">You can select a line and click 'Details' button to view free text invoice details.</span></span>  
+5. <span data-ttu-id="85938-118">Clique em Validar.</span><span class="sxs-lookup"><span data-stu-id="85938-118">Click Validate.</span></span>
+    * <span data-ttu-id="85938-119">Verifique se as notas fiscais selecionadas não têm erros, mas não lance as notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="85938-119">Verify that the selected invoices do not have errors, but do not post the invoices.</span></span>  
+6. <span data-ttu-id="85938-120">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="85938-120">Click Post.</span></span>
+    * <span data-ttu-id="85938-121">Lançar as faturas selecionadas.</span><span class="sxs-lookup"><span data-stu-id="85938-121">Post the selected invoices.</span></span>  
 
