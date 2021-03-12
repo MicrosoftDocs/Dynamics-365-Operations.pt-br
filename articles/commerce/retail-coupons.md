@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a07bed244152327047efd68cfacb329a722c0049
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eb3b505af826b1881aa8245fff66e6f05ad7486a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410118"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979666"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar cupons para vendas de varejo
 
@@ -82,6 +81,3 @@ A funcionalidade de cupom abrange vários recursos distintos. O Commerce Headqua
 - **O HQ é atualizado parcialmente, mas o Commerce Scale Unit e o PDV não serão atualizados.** Em uma atualização do HQ, as páginas de cupom e desconto são atualizadas, e o mecanismo de preço comercial também é atualizado. Se apenas um desses dois componentes for atualizado, algumas páginas do Commerce não coincidirão com os dados de cálculo do preço. Portanto, cálculos de desconto inesperado ou erros inesperados podem ocorrer durante cálculos de desconto.
 - **O HQ é atualizado, mas o Commerce Scale Unit e o PDV não serão atualizados (N-1).** Como nem todas as lojas podem ser atualizadas ao mesmo tempo, recomendamos que você atualize o HQ antes de atualizar as lojas. No cenário N-1, novas funcionalidades relacionadas a cupons não estarão disponíveis em lojas que ainda não tiverem sido atualizadas. Por exemplo, a funcionalidade do cupom apresenta linhas a serem "excluídas". Se você usar linhas de exclusão em um desconto, elas não serão aplicadas a uma loja que esteja executando uma versão anterior.
 - **O HQ não é atualizado, mas o Commerce Scale Unit e o PDV serão atualizados (N+1).** Como o mecanismo de preço atualizado no Commerce Scale Unit pode lidar com códigos de desconto herdados durante os cálculos de preços, a atualização não deve ter impacto funcional nesse cenário.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

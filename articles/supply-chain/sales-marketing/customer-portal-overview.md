@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 86d9a40d991e915d3529e0c330f7559d8e7ce9ea
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 25b1962af182fc2749fcd6ec0035613d8365deb1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529569"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980797"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Visão geral do portal do cliente para o Dynamics 365 Supply Chain Management
 
@@ -64,11 +63,8 @@ O portal do cliente é fornecido como um modelo de portais do Power Apps. Ele de
 
 [Portais do Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview) é um recurso que permite aos usuários criar um site externo que as pessoas fora da organização podem acessar. Pouca ou nenhuma codificação é necessária para criar portais. O portal do cliente é um dos muitos [modelos de portal Dynamics 365](https://docs.microsoft.com/powerapps/maker/portals/portal-templates#environment-with-model-driven-apps-in-dynamics-365) disponibilizados pela Microsoft.
 
-A [gravação dupla](https://docs.microsoft.com/powerapps/maker/portals/overview) é um produto de infraestrutura pronta para uso que fornece interação quase em tempo real entre aplicativos baseados em modelo no Dynamics 365 e aplicativos do Finance and Operations. A gravação dupla fornece integração bidirecional entre aplicativos do Finance and Operations e o Common Data Service. Portanto, ela fornece uma experiência de usuário integrada nos aplicativos. O portal do cliente depende das entidades sincronizadas com a gravação dupla. Para que os dados do Supply Chain Management sejam exibidos no portal do cliente, a gravação dupla deve ser habilitada para todas as entidades apropriadas.
+A [gravação dupla](https://docs.microsoft.com/powerapps/maker/portals/overview) é um produto pronto para uso que fornece interação quase em tempo real entre aplicativos do Customer Engagement e aplicativos do Finance and Operations. A gravação dupla fornece integração bidirecional entre aplicativos do Finance and Operations e o Microsoft Dataverse. Portanto, ela fornece uma experiência de usuário integrada nos aplicativos. O portal do cliente depende das tabelas sincronizadas com a gravação dupla. Para que os dados do Supply Chain Management sejam exibidos no portal do cliente, a gravação dupla deve ser habilitada para todas as tabelas apropriadas.
 
 ![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")
 
 O portal do cliente atua como um ponto de partida para organizações que desejam usar portais do Power Apps para criar um site externamente que use dados da instalação do Supply Chain Management. Ele ajuda as organizações a conectar gravação dupla, Supply Chain Management e portais do Power Apps.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

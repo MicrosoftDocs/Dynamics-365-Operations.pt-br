@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail, Commerce
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: 31ba82ac5e032734e00f2aee12339bc85a53550b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f7242ed830d09a29a4b01e20ce5070c3aaeca62b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410121"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979705"
 ---
 # <a name="reset-receipt-numbers"></a>Redefinir números de recibo 
 
@@ -68,6 +67,3 @@ Você pode usar a funcionalidade **Limpar data de redefinição** para limpar da
 
 > [!NOTE]
 > Dependendo da data de redefinição selecionada e do formato de recibo, você pode ter números de recibo duplicados. Embora o sistema do ponto de venda (PDV) possa lidar com essas situações, elas aumentam o tempo exigido para processar devoluções, pois parceiros de vendas devem selecionar entre os recibos duplicados. Outras complicações relativas à limpeza de dados poderiam ocorrer se os recibos duplicados não fossem uma consequência planejada. Portanto, é recomendável usar caracteres de data dinâmica (por exemplo **ddd**, **MM**, **DD** e **AA**) para ajudar a evitar números de recebo duplicados após uma redefinição.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

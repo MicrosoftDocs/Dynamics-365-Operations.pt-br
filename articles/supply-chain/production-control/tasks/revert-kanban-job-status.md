@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: KanbanBoardWorkCell, KanbanJobStatusUpdate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cca5ea3a4c33c7f36acd18a8af7034466b3b580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bc147ec517b8141b4764f67d21b4c4a2e4d6e6e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422145"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4981147"
 ---
 # <a name="revert-kanban-job-status"></a>Reverter status do trabalho kanban
 
@@ -48,13 +47,10 @@ Esse procedimento se concentra em reverter um status incorreto do trabalho kanba
     * Selecione o primeiro trabalho que você preparou.  
 2. No painel de Ação, clique em Fabricar.
 3. Clique em Reverter status.
-    * Você pode usar uma regra kanban alternativa quando as seguintes condições forem verdadeiras: - a estratégia de reabastecimento é a mesma para ambas as regras.  - A versão do fluxo de produção for a mesma para ambas as regras.  - O produto que for fornecido for o mesmo para ambas as regras.  - Todas as atividades downstream que estão configuradas para a última atividade das regras kanban devem ser iguais para ambas as regras.  - As mesmas dimensões de estoque fornecidas devem ser configuradas para ambas as regras.  - O status da unidade de manuseio de material Não deve ser atribuído.  - A configuração de kanbans de evento deve ser a mesma.  
+    * Você pode usar uma regra kanban alternativa quando as seguintes condições forem verdadeiras: - a estratégia de reabastecimento é a mesma para ambas as regras.  - A versão do fluxo de produção for a mesma para ambas as regras.  - O produto que for fornecido for o mesmo para ambas as regras.  - Todas as atividades downstream que estão configuradas para a última atividade das regras kanban devem ser iguais para ambas as regras.  - As mesmas dimensões de estoque fornecidas devem ser configuradas para ambas as regras.  - O status da unidade de manuseio de material deve ser Não atribuído.  - A configuração de kanbans de evento deve ser a mesma.  
     * Verifique se o novo status é Planejado.  
 4. Clique em OK.
 5. Na lista, desmarque a linha selecionada.
     * Selecione o mesmo trabalho.  
     * Observe que o status do trabalho para o trabalho kanban será revertido para Planejado, que é indicado por um ícone kanban vazio.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

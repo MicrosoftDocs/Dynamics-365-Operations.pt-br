@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7849f354817f189bf7c844bbe2944f94c8fffe83
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1e491100bc24718b8e5bc0f62de241835787f7ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527354"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4980847"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar e usar o portal do cliente
 
@@ -40,9 +39,9 @@ Os tópicos a seguir ajudarão você a aprender as noções básicas sobre os po
 - [Gerenciar conteúdo do portal](https://docs.microsoft.com/dynamics365/portals/manage-portal-content) – Este tópico explica como é possível gerenciar e personalizar o conteúdo que você pode destacar no seu portal.
 - [Editar CSS](https://docs.microsoft.com/powerapps/maker/portals/edit-css) – Este tópico ajuda você a criar personalizações mais complexas na interface do usuário do seu portal.
 - [Crie um tema para o seu portal](https://docs.microsoft.com/dynamics365/portals/create-theme) – Este tópico ajuda a criar um tema da interface do usuário para o seu portal.
-- [Criar e expor conteúdo do portal facilmente](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – Este tópico ajuda a gerenciar os dados e as entidades subjacentes que você usa no seu portal.
+- [Criar e expor conteúdo do portal facilmente](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content) – Este tópico ajuda a gerenciar os dados e as tabelas subjacentes que você usa no seu portal.
 - [Configurar um contato para usar em um portal](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) – Este tópico explica como criar e personalizar funções de usuário e como a segurança e a autenticação funcionam nos portais do Power Apps.
-- [Configurar notas para formulários de entidade e formulários da Web em portais](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – Este tópico explica como adicionar documentos e armazenamento adicional ao seu portal.
+- [Configurar notas para formulários de tabela e formulários da Web em portais](https://docs.microsoft.com/powerapps/maker/portals/configure-notes) – Este tópico explica como adicionar documentos e armazenamento adicional ao seu portal.
 - [Tratamento de erros para o site do portal](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log) – Este tópico explica como exibir logs de erros do portal e armazená-los na sua conta de armazenamento de Blob do Microsoft Azure.
 
 ## <a name="customize-the-order-creation-process"></a>Personalizar o processo de criação de ordens
@@ -91,7 +90,7 @@ Estas são as etapas padrão para enviar uma ordem do portal do cliente.
 
 Para ajudar a garantir uma experiência de usuário tranquila, o portal do cliente preenche automaticamente os valores para vários campos obrigatórios. Esses valores se baseiam em informações no registro de contato do cliente que está enviando a ordem.
 
-Para cada [registro de contato](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) que pertença a um cliente que usará o portal do cliente para enviar ordens, os valores deverão ser especificados para os campos obrigatórios a seguir. Caso contrário, ocorrerão erros.
+Para cada [linha de contato](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-contacts) que pertença a um cliente que usará o portal do cliente para enviar ordens, os valores deverão ser especificados para os campos obrigatórios a seguir. Caso contrário, ocorrerão erros.
 
 - **Empresa** – a entidade legal à qual a ordem pertence
 - **Cliente em potencial** – a conta de cliente que é associada à ordem
@@ -99,7 +98,7 @@ Para cada [registro de contato](https://docs.microsoft.com/powerapps/maker/porta
 - **Moeda** – a moeda do preço
 - **Remeter para país/região** – o país ou a região para o qual os itens serão entregues
 
-Os seguintes campos são automaticamente definidos para a entidade da ordem de venda:
+Os seguintes campos são automaticamente definidos para a tabela da ordem de venda:
 
 - **Idioma** – o idioma da ordem (por padrão, o valor é obtido do registro de contato).
 - **Remeter para país/região** – o país ou a região para o qual os itens serão entregues (por padrão, o valor é obtido do registro de contato).
@@ -116,7 +115,7 @@ Os seguintes campos são automaticamente definidos para a entidade da ordem de v
 
 Você poderá modificar livremente a aparência e a interface do usuário do portal do cliente se não alterar o processo básico de criação de ordem. Se desejar alterar o processo de criação de ordem, há alguns pontos a serem lembrados.
 
-Não remova os seguintes campos da entidade da ordem de venda no Common Data Service, pois eles são necessários para criar uma ordem de venda na gravação dupla:
+Não remova as seguintes colunas da tabela da ordem de venda no Microsoft Dataverse, pois eles são necessários para criar uma ordem de venda na gravação dupla:
 
 - **Empresa** – a entidade legal à qual a ordem pertence
 - **Nome** – o nome da ordem de venda
@@ -127,7 +126,7 @@ Não remova os seguintes campos da entidade da ordem de venda no Common Data Ser
 - **Idioma** – o idioma da ordem (normalmente, esse idioma é o idioma do cliente potencial).
 - **Descrição do endereço de entrega** – o endereço de entrega da ordem de venda
 
-Para itens, os seguintes campos são obrigatórios:
+Para itens, as seguintes colunas são obrigatórias:
 
 - **Produto** – o produto a ser encomendado
 - **Quantidade** – a quantidade do produto selecionado
@@ -135,11 +134,11 @@ Para itens, os seguintes campos são obrigatórios:
 - **Remeter para país/região** – o país ou a região de entrega
 - **Descrição do endereço de entrega** – o endereço de entrega da ordem
 
-Você deve verificar se o portal do cliente envia valores para todos esses campos.
+Você deve verificar se o portal do cliente envia valores para todas essas colunas.
 
-Se desejar adicionar campos à página ou remover campos, consulte [Criar ou editar formulários de criação rápida para uma experiência de entrada de dados simplificada](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
+Se desejar adicionar ou remover colunas da página, consulte [Criar ou editar formulários de criação rápida para uma experiência de entrada de dados simplificada](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/create-edit-quick-create-forms).
 
-Se desejar alterar a forma como os campos são predefinidos e como os valores são definidos quando a página é salva, consulte as seguintes informações na documentação dos portais do Power Apps:
+Se desejar alterar a forma como as colunas são predefinidas e como os valores são definidos quando a página é salva, consulte as seguintes informações na documentação dos portais do Power Apps:
 
 - [Preencher previamente campo](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#prepopulate-field)
 - [Definir valor ao salvar](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-metadata#set-value-on-save)
@@ -176,6 +175,3 @@ Para saber mais sobre como você pode configurar e personalizar o portal do clie
 - [Atualizar um portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
 - [Migrar configuração do portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gerenciamento do ciclo de vida da solução: Dynamics 365 para aplicativos do Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

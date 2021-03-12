@@ -10,17 +10,16 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: e1b177989065740eef0bd917a7ce1e0a2c79088b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 981d1c604a7ed461f207e78c8c7f073aff03be9e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410115"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4979989"
 ---
 # <a name="assortment-management"></a>Gerenciamento de classificação
 
@@ -107,6 +106,3 @@ Considere os seguintes requisitos de implementação ao planejar e gerenciar cla
 - **Vendas e devoluções fora de classificações** – Este recurso ajuda os varejistas a gerenciar efetivamente suas classificações permitindo que eles limitem o número de produtos disponíveis para produtos que pertençam à combinação de produtos principal da loja. Esse recurso também ajuda os varejistas a lidar com situações em que um produto tenha sido omitido de uma classificação por engano, ou em que um produto tenha sido devolvido fora das datas efetivas da classificação.
 
 Se os dados do produto não existirem no banco de dados do canal, o PDV realiza chamadas em tempo real à matriz a fim de recuperar as informações necessárias, para que o produto possa ser vendido, devolvido ou colocado em uma ordem de cliente. Informações sobre produtos recuperadas dessa forma estarão disponíveis somente durante o escopo dessa transação. O produto não é adicionado à definição de classificação. Portanto, as chamadas em tempo real subsequentes serão feitas conforme necessário.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

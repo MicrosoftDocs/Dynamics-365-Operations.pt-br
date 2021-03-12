@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ec196600a54a2aed4565cf422dc386d6646ff524
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e6c990208f26dde26b7adc306198f7cd16e0e69b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440215"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4978905"
 ---
 # <a name="update-the-bank-journal-composite-entity"></a>Atualizar a entidade composta do diário de banco
 
@@ -55,6 +54,3 @@ Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
