@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended, ReqSafetyKeyDefaultDataWizard
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: ee5775826c4f7f499d015145a5e8f0f6c7a42903
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dbc0ca146327fada1325f4b11965c23948d3565d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421960"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987245"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
@@ -116,6 +115,3 @@ O atendimento da transação de requisito de estoque de segurança tem a priorid
 Durante a fase de cobertura de planejamento mestre, o reabastecimento do estoque de segurança não terá mais a prioridade cancelada. O estoque disponível poderá ser usado antes de qualquer outro tipo de demanda. Durante o cálculo de atraso, uma nova lógica será adicionada para verificar as linhas de vendas em atraso, os requisitos da linha de BOM e todos os outros tipos de demanda para determinar se podem ser enviadas no prazo, considerando que este estoque de segurança será usado. Se o sistema identificar que isso pode minimizar atrasos usando o estoque de segurança, então as linhas de vendas ou as linhas da BOM substituirão a cobertura inicial com o estoque de segurança, e o sistema acionará o reabastecimento do estoque de segurança.
 
 Se plano ou item não for configurado para o cálculo atrasado, então a restrição de estoque de segurança terá a mesma prioridade que outros tipos de demanda. Isso significa que há uma reserva de disponível e de outro estoque disponível antes de outros tipos de demanda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

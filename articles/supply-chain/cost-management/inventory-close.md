@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4cad461c6ff4ef6badeeba868eef45165cf5d33
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1169ad784c07d0757990b36b618282ed7858bcbf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422159"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987544"
 ---
 # <a name="inventory-close"></a>Fechamento de estoque
 
@@ -60,7 +59,7 @@ Várias tarefas que podem ser executadas da página **Fechamento e ajuste** caus
 As contas contábeis atualizadas por causa dessas tarefas são vinculadas à transação de estoque original. Por exemplo, se uma ordem de venda for liquidada para uma ordem de compra, as contas contábeis gerais que foram usadas para a ordem de venda original serão ajustadas. Esse comportamento ocorrerá mesmo se a conta contábil do grupo de itens atribuído a esse item for alterada desde que a ordem de venda foi lançada. Depois que o fechamento de estoque cria um valor de liquidação, esse valor ainda será lançado nas contas contábeis originais e não nas novas contas contábeis atribuídas ao item. A contabilidade também poderá ser atualizada, se você estornar um fechamento de estoque. 
 
 > [!NOTE] 
-> - O fechamento de estoque é uma etapa obrigatória no procedimento de fechamento do mês final para todos os modelos de estoque. Isso inclui os custos de movimentação padrão e médio. Você não poderá fechar o período financeiro até que um fechamento de estoque tenha sido executado na data final do período.
+> - O fechamento de estoque é uma etapa obrigatória no procedimento de fechamento do mês final para todos os modelos de estoque, exceto a média móvel.  Você será avisado se tentar fechar um período financeiro sem antes executar o fechamento do estoque na data final do período.
 > - Antes de executar o procedimento de fechamento, você poderá exibir uma lista de itens que não pode ser liquidada durante a atualização
 > - Recomendamos que você execute o fechamento de estoque durante horários de menor movimento para distribuir os recursos computacionais de maneira mais uniforme.
 
@@ -87,6 +86,3 @@ Ocasionalmente, talvez seja necessário reverter um fechamento de estoque conclu
 > [!NOTE] 
 > Somente o último período de estoque que foi fechado pode ser reaberto. Para estornar um fechamento de estoque anterior, você deverá estornar cada fechamento de estoque subsequente, um de cada vez, começando pelo fechamento mais recente.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

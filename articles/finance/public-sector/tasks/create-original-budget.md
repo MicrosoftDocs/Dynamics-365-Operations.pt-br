@@ -1,6 +1,6 @@
 ---
 title: Criar um orçamento original e depois reverter entradas de orçamento preliminar no setor público
-description: Quando você cria uma entrada de orçamento original e usa o modelo de orçamento e os valores de dimensão que contêm valores de orçamento preliminar, os valores de orçamento preliminar podem ser revertidos.
+description: Este tópico fornece informações sobre como criar e reverter uma entrada de orçamento original usando o modelo de orçamento e os valores de dimensão que têm valores de orçamento preliminar.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: BudgetTransaction, BudgetAccountStructureLookup, BudgetTransactionMultiPost
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 32d89216d49a743729de8910f738276cbddcd8bb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 134e2ca851d72965198026107817c66a808ac705
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440443"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987945"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Criar um orçamento original e depois reverter entradas de orçamento preliminar no setor público
 
@@ -51,6 +50,3 @@ Quando você cria uma entrada de orçamento original e usa o modelo de orçament
     * Para fazer seleções opcionais, clique no ícone Desbloquear na parte superior da página.  
 18. Clique em Atualizar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

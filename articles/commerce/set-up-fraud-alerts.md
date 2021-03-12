@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 38649e40021d1caaf70f217b3ebae0d488806180
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 15950edd142b222a90bee7876718f4fc5c607468
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410268"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985777"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configurar e trabalhar com alertas de fraude de call center
 
@@ -69,6 +68,3 @@ A ordem foi salva, mas o sinalizador **Não processar** está definido nela. Ess
 Para exibir e gerenciar as ordens que estão em espera para a revisão de fraude, vá para **Retail e Commerce** \> **Clientes** \> **Bloqueios da ordem**. Na página **Bloqueios da ordem**, selecione uma entrada na lista e clique em **Bloqueio da ordem** para ver uma exibição mais detalhada que inclui informações sobre o motivo do bloqueio. No FastTab **Detalhes da fraude**, você pode visualizar os critérios sistemáticos de fraude que foram considerados uma correspondência com a ordem e as pontuações aplicadas. Se a ordem foi colocada em bloqueio manual, você poderá revisar os comentários inseridos pelo usuário que colocou a ordem em espera consultando a seção **Anotações de fraude** no FastTab **Anotações** .
 
 Para obter mais informações sobre como trabalhar com o bloqueio de ordens, consulte [Bloqueios da ordem](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

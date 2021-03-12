@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, InventValueTrans
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b809c66243d3274bd06b72173ecf4f8a6c04ad4a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 62989c5a94a15578109b722d3f563f8b986e6e58
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421944"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987520"
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Exibir entradas de custo para um objeto de custo
 
@@ -39,6 +38,3 @@ Este procedimento mostra como exibir entradas de custo para um objeto de custo. 
 7. Use o Filtro Rápido para filtrar o campo Número com um valor de 'p000031'.
     * Se as entradas de custo estiverem em branco, defina Data inicial como 31 de janeiro de 2012 e Data final como 31 de dezembro de 2012.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

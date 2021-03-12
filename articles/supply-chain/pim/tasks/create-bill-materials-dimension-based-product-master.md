@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, BOMConsistOf, BOMTable, InventItemIdLookupSimple, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e7961cfb4ad0e20c49d327d83f56c08811598ac1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ffe30f1b5aae3e954b527e84648f4dbb4b181513
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986895"
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Criar uma lista de materiais para um produto mestre baseado na dimensão
 
@@ -79,6 +78,3 @@ Para esse procedimento é necessário ter concluído as 4 guias anteriores nesta
 5. Clique em OK.
 6. Clique em Ativar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

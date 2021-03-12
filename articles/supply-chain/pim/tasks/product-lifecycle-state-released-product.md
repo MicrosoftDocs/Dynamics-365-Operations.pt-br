@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e7df272a946506dfa4e8d7a04181dd0cb40972c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0454b173c720ee80d89f960f81502a13a15a5662
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422035"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4986795"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product"></a>Atribuir um estado do ciclo de vida do produto a um produto liberado
 
@@ -37,6 +36,3 @@ Este procedimento mostra como atribuir um estado do ciclo de vida do produto a u
 5. No campo Estado do ciclo de vida do produto, insira ou selecione um valor.
 6. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

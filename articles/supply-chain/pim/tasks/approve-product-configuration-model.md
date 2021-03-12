@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductModelVersion, PCApproveProductModelVersion, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 440ffbdf1db22ac25971922d80a5569a340ba81c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b548e2369f30e998ecde45408ff45893b88f9a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422195"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987095"
 ---
 # <a name="approve-a-product-configuration-model"></a>Aprovar um modelo da configuração do produto
 
@@ -49,6 +48,3 @@ Executar este procedimento exige que pelo menos um modelo de configuração do p
     * Ative a versão do modelo de produto. Só é possível ter um produto ativo para um modelo de produto por vez.  
 13. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

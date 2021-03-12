@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ac4ceeb3e21ab089eb16565bb6e38c7eb44be80
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 668b60efa55fa553cf308d5bfc5da7e23f460366
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422194"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987020"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Completar instalação básica de um produto mestre lançado
 
@@ -53,6 +52,3 @@ Este é o terceiro procedimento dos oito que explicam como criar combinações p
 20. Feche a página.
 21. Feche o formulário **Detalhes do produto liberado**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

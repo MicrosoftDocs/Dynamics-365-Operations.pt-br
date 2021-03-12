@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgLookupDynastring, EngChgProductVersionNumberRule, EngChgEcmProductRoute, EngChgEcmRequestProducts, EngChgEcmProductRoute, EngChgEcmProductPreview,EngChgEcmProductBOMItemIdLookup, EngChgEcmProductBOMConsistOf, EngChgEcmProductCreate, EngChgEcmProductLookup, EngChgProductVersionPrCompany, ngChgProductTypeLookup, EngChgProductType, EngChgProductItemPart, EngChgProductItem, EngChgEcmCategory, EngChgEcmBomDesignerEditBom, EngChgEcmBomDesigner, EngChgEcmBOMCopyDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3eb5b5c4304b393008ecc5f5ff5a663295ed0d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: c15dcd0adfcf9b9022a919bd516dcf5117ea5041
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422630"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4987470"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versões de engenharia e categorias de produtos de engenharia
 
@@ -162,6 +161,3 @@ As BOMs e os roteiros de engenharia são criados a partir da versão de engenhar
 Para produtos em que você está usando a dimensão de produto da *versão* (junto com impacto logístico nas transações), a versão também é adicionada às BOMs e roteiros. Esse comportamento ajuda a diferenciar as BOMs e os roteiros de versões consecutivas, independentemente da configuração de **Aplicar efetividade**.
 
 Para produtos em que você não está usando a dimensão de produto da *versão* (sem impacto logístico nas transações), a versão não é adicionada às BOMs ou roteiros. Portanto, não haverá diferença entre as BOMs e os roteiros de versões consecutivas. Nesse caso, é altamente recomendável definir a opção **Aplicar efetividade** como *Sim*. Dessa forma, você ajuda a evitar que versões de engenharia se sobreponham e também pode ativar a BOM e o roteiro de uma versão mais recente sem precisar primeiro desativar a BOM e o roteiro da versão anterior. Se você definir a opção **Aplicar efetividade** como *Sim* neste caso, deverá desativar manualmente as BOMs e os roteiros de versões mais antigas antes de ativar a versão mais recente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Módulo de carrinho
 description: Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 10/20/2020
+ms.date: 12/15/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 33db06ecfa2a8fa93cde3c4f1b31d6b30bfd0c34
-ms.sourcegitcommit: 12d271bb26c7490e7525d9b4bbf125cdc39fef43
+ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/07/2020
-ms.locfileid: "4410346"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985970"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
@@ -53,6 +52,7 @@ A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrik
 | Cabeçalho | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título para o carrinho, como "Sacola de compras" ou "Itens em seu carrinho". |
 | Mostrar erros de estoque insuficiente | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, a página do carrinho mostrará erros relacionados ao estoque. Recomendamos definir esta propriedade como **True** se as verificações de estoque forem aplicadas no site. |
 | Mostrar encargos de remessa para itens de linha | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **True**, os itens de linha do carrinho mostrarão os encargos de remessa, se essas informações estiverem disponíveis. Este recurso não é compatível com o tema Fabrikam, pois os usuários selecionam a remessa somente no fluxo de finalização da compra. No entanto, esse recurso pode ser ativado em outros fluxos de trabalho, se aplicável. |
+| Mostrar promoções disponíveis| **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, o carrinho mostrará promoções disponíveis com base em itens do carrinho. Esse recurso está disponível na versão 10.0.16 do Dynamics 365 Commerce. |
 
 ## <a name="modules-that-can-be-used-in-a-cart-module"></a>Módulos que podem ser usados em um módulo de carrinho
 
@@ -117,6 +117,3 @@ Para adicionar um módulo de carrinho a uma nova página e definir as propriedad
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)
 
 [Criar um perfil de funcionalidade online](online-functionality-profile.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
