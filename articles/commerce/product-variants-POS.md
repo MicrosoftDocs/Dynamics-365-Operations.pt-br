@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 1d6133d80d7674a1d896bc19a743a6bd4d0fb40f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f08906c14f80b07368d88d820acae83cf1157e6c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410300"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969942"
 ---
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>Pesquisa de estoque no ponto de venda (PDV)
 
@@ -115,6 +114,3 @@ A tabela a seguir fornece mais informações sobre ações adicionais disponíve
 | Disponibilidade         | Mostra as informações de ATP para a combinação de grade selecionada para o local selecionado. |
 | Mostrar todos os locais   | Alterne para as informações de exibição padrão de pesquisa de estoque e de disponibilidade de estoque de destaque para a grade de item em todas as lojas no grupo de localizador de loja e, também em centros de distribuição do tipo **Padrão/padrão**. |
 | Exibir detalhes do produto | Redirecionar o usuário para a página **Detalhes do produto** do produto mestre associado. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

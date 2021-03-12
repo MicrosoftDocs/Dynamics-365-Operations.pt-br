@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMCostDistributionRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 66921d5eddb31ffba0946c41f634719a684e4ad1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b269c731776e26df24658feedfa301181c309a14
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440282"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969269"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Criar e atribuir uma política de distribuição de custos para uma unidade de controle de custos
 
@@ -73,6 +72,3 @@ As regras de distribuição de custos são usadas para distribuir custos que for
 5. No campo Unidade de controle de custo, insira ou selecione um valor.
 6. Clique em Salvar.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -10,18 +10,17 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail
 ms.search.region: Brazil
 ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 0757821a954eb4571fdb6bda4aa0d30bd6fe4a9d
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 669db4bc5da0073250e5851dfa0dc43151e3d675
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665212"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969991"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
@@ -105,6 +104,3 @@ O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integra�
 | Integração de PDV com impressoras fiscais                              |                |                           |         | X           |
 
 \* *Demonstrativos do livro fiscal* são demonstrativos de remuneração e restituição do SPED (Sistema Público de Escrituração Digital) Fiscal, de Contribuições de SPED e ICMS-ST (Imposto sobre Circulação de Mercadorias e Serviços - Substituição Tributária) para os estados suportados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

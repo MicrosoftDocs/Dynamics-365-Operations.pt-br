@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13851
 ms.assetid: 0fa2f71a-596c-414c-a6e6-8f7405a0bf81
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c12ca59203d6cad7f5699bc930f2af27427ca41b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d2414ea97fefbec1e975498e171496e33057541c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440467"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968995"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>Depreciação da vida útil linear restante
 
@@ -38,7 +37,7 @@ Você pode selecionar **Calendário** ou **Fiscal** no campo **Ano de depreciaç
 
 ### <a name="calendar"></a>Calendário
 
-Se você selecionar **Calendário** no campo ***Ano de depreciação***, pressupõe-se um ano de 1º de janeiro a 31 de dezembro, mesmo que você tenha definido o calendário fiscal de modo diferente. A opção **Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a base de depreciação é o valor líquido contábil menos o valor residual. No exemplo a seguir deste tópico, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. Se você selecionar **Calendário** como o ano de depreciação, as seguintes opções ficarão disponíveis no campo **Frequência do período**:
+Se você selecionar **Calendário** no campo **_Depreciação anual_*_, um ano de 1º de janeiro a 31 de dezembro será considerado, mesmo que você tenha definido o calendário fiscal de outra maneira. A opção* _Calendário** atualiza a base de depreciação em 1º de janeiro de cada ano. Normalmente, a base de depreciação é o valor líquido contábil menos o valor residual. No exemplo a seguir deste tópico, a base de depreciação é o numerador na primeira expressão da coluna de cálculos. Se você selecionar **Calendário** como o ano de depreciação, as seguintes opções ficarão disponíveis no campo **Frequência do período**:
 
 -   **Anual** lança um valor em 31 de dezembro.
 -   **Mensal** lança um valor mensal ao final de cada mês do calendário.
@@ -80,6 +79,3 @@ O valor de depreciação é igual a cada ano: (Custo de aquisição – Valor re
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

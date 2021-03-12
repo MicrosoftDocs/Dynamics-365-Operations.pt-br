@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-03-25
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 0538701588b9c71dff4c538711606913a359de6a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 541b7ecca5c1c36999f573d6d0f2dc0c9e901631
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422370"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967574"
 ---
 # <a name="moving-average-fallback-cost-sequence"></a>Média móvel, sequência de custos de fallback
 
@@ -46,6 +45,3 @@ Para selecionar a sequência de custos de fallback para os cálculos de média d
     - **Custo ativo – Preço de item** – As organizações podem enfrentar problemas de desempenho se usarem processos de negócios em que o estoque fica negativo regularmente e, ao mesmo tempo, o volume de transações é alto. Essa configuração pode ajudar a mitigar esses problemas de desempenho.
 
 ![Parâmetros de contabilidade de estoque](media/inventory-accounting-parameters.png "Parâmetros de contabilidade de estoque")
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a149b35c6964166207effc799a02cd4c59bbb843
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 598c28c2fb3dd6a13f96df81189b46c4e228da7a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440278"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968720"
 ---
 # <a name="mass-financial-period-close"></a>Fechamento em massa do período financeiro
 
@@ -42,6 +41,3 @@ Este tópico mostra como colocar um período em espera ou fechar permanentemente
 11. Selecione **Atualizar status do período** e defina o status de **Em espera**, **Aberto** ou **Permanentemente fechado**. **Aberto** indica o período em que o lançamento é possível, desde que o usuário tenha acesso. **Em espera** significa que o período não poderá ser lançado, mas o período pode ser reaberto. **Permanentemente fechado** significa que o período será fechado e nunca pode ser aberto. Ajustes não podem ser lançados. Não se recomenda definir um período como **Permanentemente fechado** até que todos os ajustes e auditorias estejam completos.  
 12. Selecione **Atualizar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

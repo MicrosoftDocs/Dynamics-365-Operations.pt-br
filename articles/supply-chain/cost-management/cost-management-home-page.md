@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9caea2d41e6d3ba74e4d156d8aeae6c4693ce7e2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dc146f8a3707e830ff574964c5a8865271e69b50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422325"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4967674"
 ---
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
@@ -65,5 +64,3 @@ Você encontra opiniões, notícias e outras informações sobre gerenciamento d
 #### <a name="task-guides"></a>Guias de tarefas
 
 A ajuda adicional está disponível como guias de tarefas. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 508fda28d8f815f030e7b163709393f70904a5fd
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 330646da075e3fc8c0c3f7fe54b790ed42615395
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410097"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970094"
 ---
 # <a name="choose-between-modern-pos-mpos-and-cloud-pos"></a>Escolha entre Modern POS (MPOS) e PDV em Nuvem
 
@@ -105,6 +104,3 @@ Considere as seguintes informações enquanto planeja sua implementação de PDV
 - **Dispositivos de hardware/periféricos** – Um aspecto importante de um sistema Retail POS é sua capacidade de usar periféricos de PDV, como impressoras, caixas registradoras e terminais de pagamento. Embora todas as opções disponíveis de PDV possam usar dispositivos periféricos, somente o MPOS para Windows pode suportá-las diretamente. Para todos os outros aplicativos, uma ou mais estações de hardware são necessárias. Embora essa abordagem adicione flexibilidade, componentes adicionais devem ser implantados, configurados e ter manutenção.
 - **Requisitos do sistema** – Os requisitos do sistema para o aplicativo de PDV variam. Lembre-se de verificar as informações mais recentes antes de fazer sua escolha. Por exemplo, como o CPOS é executado em um navegador, ele oferece suporte a uma ampla variedade de sistemas operacionais. Para obter mais informações sobre os requisitos do sistema, consulte [Requisitos de sistema para implantações na nuvem](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements).
 - **Implantação e manutenção** – A complexidade dos requisitos de implantação e manutenção pode variar, dependendo das escolhas de aplicativos e implantação. Por exemplo, para uma implementação de CPOS hospedada em nuvem, não é necessário instalação e atualização em cada dispositivo. Portanto, essa abordagem reduz muito a complexidade e os custos. No entanto, se você implantar o MPOS em cada registro e habilitar o modo offline, e também implantar estações de hardware compartilhadas, aumentará muito o número de pontos de extremidade que devem ser gerenciados.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

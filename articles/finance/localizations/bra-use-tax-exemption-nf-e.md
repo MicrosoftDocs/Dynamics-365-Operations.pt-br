@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.custom: ''
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b6be9f717369b07f06ea08df98a9528350d826b6
-ms.sourcegitcommit: 0c33864efdd66c6ac11a4f35d971c0bb4efb15db
+ms.openlocfilehash: cfb5c474c84cb95a21ce8a2c83a24e615f058140
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654407"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968349"
 ---
 # <a name="nt2019001---tax-benefits-and-exemptions-rules-for-nf-enfc-e"></a>NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 
@@ -141,6 +140,3 @@ A validação ocorre para as regras configuradas na página **Código de benefí
 ## <a name="validation-exceptions"></a>Exceções de validação
 
 A Nota técnica NT 2019.001 especifica regras de exceção que são adotadas a critério de cada estado. Para obter mais informações sobre as regras de validação, consulte as regras N12-85, N12-86, N12-90, N12-94, N12-97 e N12-98 na nota técnica.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90fe7f3ab08e9417af3f857f04934a9b5df3d82d
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 6cc96cbdb11f24d727bddfa5fd4aaa579537802a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644888"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968445"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configurar grupos de lançamento contábil do imposto
 
@@ -42,6 +41,3 @@ Os impostos são calculados e lançados nas contas principais que são especific
 11. No campo **Desconto de caso de cliente**, selecione a conta principal para lançar o desconto à vista para os **Códigos de impostos sobre vendas** associados a esse grupo de **Lançamentos contábeis**. Isso é opcional e se nenhuma conta for inserida, a conta principal nos **Códigos de desconto à vista** será usada. Pode ser útil usar contas diferentes para o grupo de **Lançamentos contábeis** se usar os impostos sobre vendas que podem ser revertidos na opção de desconto à vista em grupos de **Impostos sobre vendas**.  
 12. Clique em **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

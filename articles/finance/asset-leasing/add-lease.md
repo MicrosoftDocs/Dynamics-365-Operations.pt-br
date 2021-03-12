@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 706b245971ba065bae86e31853832f721a6f9aff
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: abbf04d009a4b347792cd8b317e334da2a4cbbee
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440562"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4969594"
 ---
 # <a name="add-or-copy-leases-preview"></a>Adicionar ou copiar arrendamentos (Versão preliminar)
 
@@ -70,7 +69,7 @@ Depois de concluir a inserção das informações para o arrendamento, siga esta
     > [!NOTE]
     > O diário de arrendamento de ativo não pode ser criado manualmente. Ele é criado automaticamente quando as agendas de arrendamento são criadas.
 
-8. Quando terminar de revisar a entrada do diário de reconhecimento inicial e estiver pronto para lançá-la, selecione **Lançar** para reconhecer o ativo de uso (ROU) e a responsabilidade com arrendamento na Contabilidade.
+8. Quando terminar de revisar a entrada do diário de reconhecimento inicial e estiver pronto para lançá-la, selecione **Lançar** para reconhecer o ativo de direito de uso (DDU) e a responsabilidade com arrendamento na Contabilidade.
 
 ## <a name="copy-a-lease"></a>Copiar um arrendamento
 
@@ -89,6 +88,3 @@ Todas as entradas de diário criadas no arrendamento de ativos estão contidas n
 
 > [!NOTE]
 > O diário de arrendamento de ativo não pode ser criado manualmente. Ele é criado automaticamente quando as agendas de arrendamento são criadas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BrazilParameters, FBFiscalDocument_BR, SalesComplementaryInvoice, SalesComplementaryInvoiceCancel_BR, SalesComplementaryInvoiceListPage
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269194
 ms.assetid: 0c52b508-1044-48c1-9dfc-a590bbda5696
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2abfd36595203ea207915913c4eef0e7c8a8799a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 59196b3f55c73fbc2141c4e05b57dd67b9f56db9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408439"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968316"
 ---
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
 
@@ -71,6 +70,3 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Cancelar uma nota fiscal para cliente (projeto)](tasks/br-00092-cancel-customer-fiscal-document-project.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

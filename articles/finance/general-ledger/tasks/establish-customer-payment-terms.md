@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f641d75e06b11ca325d2624f836fc2a7c92d69e4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec16ba09cc7c942119bab1d992856c3ffcd5c628
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440256"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4968545"
 ---
 # <a name="establish-customer-payment-terms"></a>Estabelecer condições de pagamento de cliente
 
@@ -57,6 +56,3 @@ Este procedimento define uma configuração de desconto à vista e a data de ven
 26. No campo **Conta principal para descontos do fornecedor**, insira a conta principal na qual o desconto à vista lançará as faturas de fornecedores.
 27. Clique em **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
