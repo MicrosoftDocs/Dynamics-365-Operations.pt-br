@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: b049559b64045e80a40afd99bac30a9cfe1d0580
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: db0d78c7a6fa69aa4e0c4c82f92c33daabda073f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422368"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983332"
 ---
 # <a name="set-up-hazardous-materials"></a>Configurar materiais perigosos
 
@@ -284,6 +283,3 @@ Para configurar valores para esta especificação, vá para **Gerenciamento de i
 A especificação *Túnel de materiais perigosos* limita os tipos de túneis em que um material perigoso pode ser transportado, identificando os tipos de túneis que devem ser usados. As categorias de túnel são estabelecidas pelas regulamentações aplicáveis para o transporte de materiais perigosos. Esta especificação em geral se aplica apenas ao transporte rodoviário.
 
 Para configurar valores para esta especificação, vá para **Gerenciamento de informações do produto \> Configuração \> Documentação de remessa de materiais perigosos \> Túnel de materiais perigosos**. Na página **Túnel de materiais perigosos**, você pode criar qualquer quantidade de identificadores de túnel e configurar cada um com um código de identificação e uma breve descrição.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

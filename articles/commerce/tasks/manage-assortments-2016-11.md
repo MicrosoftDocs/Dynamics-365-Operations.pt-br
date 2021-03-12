@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: caac7baa7841eea85c2c47f938f75663a7f9255a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3dee3d4817909cfe89c58e031921a79e44b1c4d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410228"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982357"
 ---
 # <a name="manage-assortments-november-2016"></a>Gerenciar classificações (novembro de 2016)
 
@@ -55,6 +54,3 @@ Este procedimento demonstra como criar e publicar uma nova variedade de produtos
 1. Clique em Publicar.
 2. Clique em Sim.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

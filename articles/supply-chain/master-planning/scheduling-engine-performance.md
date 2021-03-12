@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 19311
 ms.assetid: 5ffb1486-2e08-4cdc-bd34-b47ae795ef0f
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1c1b940754021956998fe27ba16020d4b16aedf1
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 2c39a72d22c01faec3856e7f47cb6b3811447cab
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983432"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Melhorar o desempenho do mecanismo de agendamento
 
@@ -329,6 +328,3 @@ O valor para **Tempo limite de tentativas de otimização** controla quantos seg
 
 > [!NOTE]
 > Os valores definidos para os tempos limite serão aplicados para o agendamento de ordens de produção liberadas e ordens planejadas como parte do MRP. Como resultado, definir valores muito altos poderia adicionar significativamente ao tempo de execução do MRP durante a execução de um plano com muitas ordens de produção planejadas.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

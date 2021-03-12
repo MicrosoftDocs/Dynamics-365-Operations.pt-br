@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductRelease
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 93b0cb1068d77911983117830618de1f2827fef3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9e5157b782c64f3cc75f9842b36e3ded710126eb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422033"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983173"
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>Liberar um produto/produto mestre para entidades legais
 
@@ -37,6 +36,3 @@ Este procedimento orienta como liberar um produto ou um produto mestre em uma ou
 6. Clique em Avançar.
 7. Clique em Finish (Concluir).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

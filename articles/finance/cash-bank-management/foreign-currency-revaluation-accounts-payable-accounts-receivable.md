@@ -1,5 +1,5 @@
 ---
-title: Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber
+title: Reavaliação de moeda para contas a pagar e contas a receber
 description: As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber.
 author: kweekley
 manager: AnnBe
@@ -11,21 +11,20 @@ ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14211
 ms.assetid: defb1ea5-1f3e-4859-87d8-3f9954d3f388
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb7a101fa9ef84ec3873bcd8054b8198db8d58c9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec17572612da7152ca0737cbd9f327d29dc54f8c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440489"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985228"
 ---
-# <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber
+# <a name="currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Reavaliação de moeda para contas a pagar e contas a receber
 
 [!include [banner](../includes/banner.md)]
 
@@ -66,6 +65,3 @@ Um registro é mantido sempre que você execute uma reavaliação de moeda estra
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

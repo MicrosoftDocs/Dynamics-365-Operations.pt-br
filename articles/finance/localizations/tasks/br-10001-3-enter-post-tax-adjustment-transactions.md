@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce2e29ff4bec3fe7c7de14ef913e17723e18c6be
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 111cacd07702ef214cbd4bcdb9ebdcc5c2249706
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408494"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984878"
 ---
 # <a name="enter-and-post-tax-adjustment-transactions-brazil"></a>Inserir e lançar transações de ajuste de imposto (Brasil)
 
@@ -50,6 +49,3 @@ Use este procedimento para criar e lançar transações de ajuste de impostos. E
 20. Feche a página.
 21. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

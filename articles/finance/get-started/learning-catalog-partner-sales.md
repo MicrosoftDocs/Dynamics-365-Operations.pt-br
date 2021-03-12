@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 933f743b5b4fe9e97a80543478c1154ca290cbff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b6f8bcd987bc3532aea4676f4e5494feaefbe324
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440404"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984925"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-finance"></a>Catálogo de aprendizagem para funções de marketing e vendas para parceiros da Microsoft do Dynamics 365 Finance
 
@@ -42,6 +41,3 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | Conteúdo | descrição  | Formatar  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Conceitos básicos do Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você entende sobre o Microsoft Dynamics 365; os conceitos de nuvem; opções de licenciamento; e opções de implantação e liberação do Power Platform. | O custo do teste varia de acordo com a região |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: riluan
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e84bb167395c06295b0e8ef8b9fd98aa4bc0cc14
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: b8c527e578fee6abfeeade99fba8070365c020bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4422628"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983841"
 ---
 # <a name="troubleshoot-cost-management"></a>Solucionar problemas de gerenciamento de custos
 
@@ -48,13 +47,13 @@ Você pode executar o balancete para obter o saldo das contas de estoque e compa
 
 A Microsoft introduziu as seguintes validações para evitar problemas causados por um processo incorreto de final de período em relação aos custos. Se você encontrar qualquer uma das seguintes mensagens de erro, consulte [KB 4561987](https://fix.lcs.dynamics.com/Issue/Details?kb=4561987&bugId=445351&dbType=3&qc=f514f2adcddcddceec43af58c26ae8a9020effdc7cdfe085d9d0deeb8cc7b6a3) para obter mais informações sobre como resolver esses problemas.
 
-- Você está prestes a executar um recálculo com uma data %1 (10-02-2019). O último recálculo registrado foi executado em um período anterior com uma data %2 (20-01-2019). Nenhuma execução de fechamento de estoque com uma data %3 (31-01-2019) que corresponde ao final de período foi registrada. Lembre-se de executar um fechamento de estoque a partir da data %3 (31-01-2019) que corresponde ao final do período. A avaliação de estoques, custo dos produtos vendidos e variações podem não estar corretos no razão auxiliar ou na contabilidade até que seja executado.
+- Você está prestes a executar um recálculo com uma data %1 (10-02-2019). O último recálculo registrado foi executado em um período anterior com uma data %2 (20-01-2019). Nenhuma execução de fechamento de estoque com uma data %3 (31-01-2019) que corresponde ao final de período foi registrada. Lembre-se de executar um fechamento de estoque a partir da data %3 (31-01-2019) que corresponde ao final do período. A avaliação de estoques, custo dos produtos vendidos e variações pode não estar correta no razão auxiliar ou na contabilidade até que isso seja executado.
 
-- Você está prestes a alterar o status do período contábil %1 para %2. Nenhuma execução de fechamento de estoque com uma data %3 que corresponde ao final do período foi registrada. Execute um fechamento de estoque a partir de %3 que corresponde ao final do período antes de alterar o status. A avaliação de estoques, custo dos produtos vendidos e variações podem não estar corretos no razão auxiliar ou na contabilidade até que seja executado. Relatado por entidade legal %4. Por enquanto, é informativo, mas será necessário executar essa ação no futuro.
+- Você está prestes a alterar o status do período contábil %1 para %2. Nenhuma execução de fechamento de estoque com uma data %3 que corresponde ao final do período foi registrada. Execute um fechamento de estoque a partir de %3 que corresponde ao final do período antes de alterar o status. A avaliação de estoques, custo dos produtos vendidos e variações pode não estar correta no razão auxiliar ou na contabilidade até que isso seja executado. Relatado por entidade legal %4. Por enquanto, é informativo, mas será necessário executar essa ação no futuro.
 
 - A estrutura da conta %1 foi alterada. Uma ou mais contas principais %2 não existem mais. Essas contas principais são exigidas por %3 com uma data %4. Adicione essas contas principais à estrutura de contas %1 antes de retomar o trabalho %3. Por enquanto, é informativo, mas será necessário executar essa ação no futuro.
 
-- Você está prestes a executar um fechamento de estoque com uma data %1 (31-01-2019). Nenhuma execução de custos de fluxo inverso com uma data %2 (31-01-2019) que corresponde ao fim do período foi registrada. Lembre-se de executar um cálculo de custos de fluxo inverso com uma data de %3 (31-01-2019) que corresponda ao final do período. A avaliação de estoques, custo dos produtos vendidos e variações podem não estar corretos no razão auxiliar ou na contabilidade até que seja executado.
+- Você está prestes a executar um fechamento de estoque com uma data %1 (31-01-2019). Nenhuma execução de custos de fluxo inverso com uma data %2 (31-01-2019) que corresponde ao fim do período foi registrada. Lembre-se de executar um cálculo de custos de fluxo inverso com uma data de %3 (31-01-2019) que corresponda ao final do período. A avaliação de estoques, custo dos produtos vendidos e variações pode não estar correta no razão auxiliar ou na contabilidade até que isso seja executado.
 
 - Você está prestes a executar um cálculo de custos de fluxo inverso com uma data %1 (28-02-2019). O último cálculo de custos de fluxo inverso registrado foi executado em um período anterior com uma data %2 (31-01-2019). Nenhuma execução de fechamento de estoque com uma data %3 (31-01-2019) que corresponde ao final de um período foi registrada.
 Lembre-se de executar um fechamento de estoque a partir da data %3 (31-01-2019) que corresponde ao final de um período. A avaliação de estoques, custo dos produtos vendidos e variações podem não estar corretos no razão auxiliar ou na contabilidade até que o fechamento do estoque seja executado.
@@ -63,5 +62,22 @@ Lembre-se de executar um fechamento de estoque a partir da data %3 (31-01-2019) 
 
 O **Relatório de classificação por vencimento do estoque** mostra diferentes valores quando exibidos em diferentes dimensões de armazenamento (como local ou depósito). Para obter mais informações sobre a lógica de relatório, consulte [Exemplos de relatório de classificação por vencimento do estoque e lógica](inventory-aging-report.md).
 
+## <a name="an-update-conflict-occurs-when-the-inventory-valuation-method-is-either-standard-cost-or-moving-average"></a>Um conflito de atualização ocorre quando o método de avaliação de estoque é Custo padrão ou Média móvel
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Ao lançar documentos, como diários de estoque, faturas de ordens de compra ou faturas de ordens de venda em paralelo para escalabilidade e desempenho, você pode receber uma mensagem de erro sobre um conflito de atualização e alguns dos documentos podem não ser lançados. Esse problema pode ocorrer quando o método de avaliação de estoque é *Custo padrão* ou *Média móvel*. Esses dois métodos são métodos perpétuos de avaliação de custo. Em outras palavras, o custo final é determinado no momento do lançamento.
+
+Se você estiver usando o método *Média móvel*, a mensagem de erro se assemelhará a este exemplo:
+
+> O valor de estoque xx.xx não é esperado após o cálculo de despesas proporcionais
+
+Se você estiver usando o método *Custo padrão*, a mensagem de erro se assemelhará a este exemplo:
+
+> O custo padrão não corresponde ao valor do estoque financeiro após a atualização. Valor = xx.xx, Qtd. = yy.yy, Custo padrão = zz.zz
+
+Até que a Microsoft lance uma solução para corrigir o problema, considere o uso das seguintes soluções alternativas para ajudar a evitar ou reduzir esses erros:
+
+- Relance os documentos com falha.
+- Crie documentos com menos linhas.
+- Evite valores decimais no custo padrão. Tente definir o custo padrão para que o campo **Quantidade de preço** seja definido como *1*. Se for necessário especificar um valor **Quantidade de preço** maior do que *1*, tente minimizar o número de casas decimais no custo padrão da unidade. (O ideal é que haja menos de duas casas decimais). Por exemplo, evite definir configurações de custo padrão como **Preço** = *10* e **Quantidade de preço** = *3*, pois elas produzirão um custo padrão de unidade de 3,333333 (no qual o valor decimal se repete).
+- Na maioria dos documentos, evite ter várias linhas que contenham a mesma combinação de dimensões de estoque financeiro e de produtos.
+- Reduza o grau de paralelização. (Neste caso, o sistema pode ficar mais rápido, pois ocorrem menos conflitos de atualização e repetições).

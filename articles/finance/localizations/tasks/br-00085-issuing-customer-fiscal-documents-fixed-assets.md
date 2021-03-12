@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb0ee14fbfa9523ce5831e6375d3d1b9881067
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bd9b1947c6c4a2af40ae4a1ccd98bb38d800d99
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408410"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984884"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 
@@ -59,6 +58,3 @@ ms.locfileid: "4408410"
 28. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 29. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

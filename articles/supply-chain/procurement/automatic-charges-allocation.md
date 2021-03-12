@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 818affc7591577b69309928eb9b0e71130884cec
-ms.sourcegitcommit: 66ecc6cb36ef4f723c77e09d6a33f9c42f8fa392
+ms.openlocfilehash: 8067285237127bd43e8ff24166a15506cc0426f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422483"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983157"
 ---
 # <a name="automatic-allocation-of-charges"></a>Alocação automática de encargos
 
@@ -177,6 +176,3 @@ O procedimento a seguir mostra como alocar encargos no nível de cabeçalho a um
         > Ao trabalhar com a grade **Escolher as linhas que serão excluídas da alocação**, certifique-se de deixar a grade aberta até selecionar **Alocar**. Se você fechar a grade antes de selecionar **Alocar**, as configurações na grade serão perdidas. Portanto, os encargos serão alocados com base nos critérios definidos anteriormente.
 
 1. Selecione **Alocar** para aplicar suas configurações e fechar a caixa de diálogo.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

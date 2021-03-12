@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6875fc935a2b724cdeb1e1fc965a55c7497e08a7
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 93fcbe33e29b96f923237e9672c62b4dfc7ba2a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668962"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4984881"
 ---
 # <a name="set-up-adjustment-codes-for-icms-tax-brazil"></a>Configurar códigos de ajuste para imposto ICMS (Brasil)
 
@@ -42,6 +41,3 @@ No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED),
 12. No campo **Conta principal**, especifique os valores desejados.
 13. Selecione **Salvar** e feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

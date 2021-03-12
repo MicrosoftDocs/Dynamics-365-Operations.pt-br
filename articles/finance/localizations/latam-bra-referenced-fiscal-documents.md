@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: FiscalDocument_BR, SalesEditLines, TmpFiscalReference_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 270224
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f5bc9aa156dd9c3a2817ad6b1a3cc9d48e0ba006
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 853b0b849d28ae8b98a091216ca5ca5903995247
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408440"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4982150"
 ---
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 
@@ -97,6 +96,3 @@ Os espaços reservados de texto de nota fiscal são marcas predefinidas que repr
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

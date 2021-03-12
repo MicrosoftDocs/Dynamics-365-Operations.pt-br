@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 4b7d2da346880278f684a796f2d649e7da52b647
-ms.sourcegitcommit: cd83f2bc0e52e13071ad306e07e4c255fc65cb03
+ms.openlocfilehash: 7fcb56440adf86194e9ae05957349dd5ebe89ce7
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4440535"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4985477"
 ---
 # <a name="bank-management-workspace"></a>​Espaço de trabalho de gerenciamento bancário​
 
@@ -64,6 +63,3 @@ A página **Análise** fornece métricas importante sobre contas bancárias da e
 -   Saldo por moeda
 
 Você pode exibir a análise do banco em todas as empresas do espaço trabalho **Visão geral de caixa – todas as empresas**. Para obter mais informações, consulte [Conteúdo de visão geral do caixa do Power BI](Cash-Overview-Power-BI-content.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

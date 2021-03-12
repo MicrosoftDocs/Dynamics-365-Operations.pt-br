@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 99a52c03e519384955d68d7101a7b73b7e9a7af6
-ms.sourcegitcommit: fe21a3a98dcf6fe4eb9351941493f2c0443d8696
+ms.openlocfilehash: 236e1955dd80564e748aab1c595b017cb78e9418
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4672171"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4983482"
 ---
 # <a name="inventory-marking-with-planning-optimization"></a>Marcação de estoque com a Otimização de Planejamento
 
@@ -49,6 +48,3 @@ Quando você confirma uma ordem planejada, a caixa de diálogo **Confirmação**
 - **Não** – Nenhuma marcação de estoque é aplicada.
 - **Padrão** – A marcação de estoque é atualizada de acordo com a vinculação. Uma ordem de necessidade (demanda) é marcada em relação a uma ordem de atendimento (fornecimento). Se alguma quantidade permanecer na ordem de atendimento, ela não será marcada, e as informações de referência serão deixadas em branco. Por exemplo, se uma ordem de venda para 100 ea for vinculada a uma ordem de compra para 150 ea, as informações de referência serão atribuídas somente à ordem de venda.
 - **Estendido** – Tanto a ordem de necessidade (demanda) quanto a de atendimento (fornecimento) são marcadas, independentemente de qualquer quantidade restante na ordem de atendimento. Por exemplo, se uma ordem de venda para 100 ea for vinculada a uma ordem de compra para 150 ea, as informações de referência serão atribuídas à ordem de venda e à ordem de compra.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
