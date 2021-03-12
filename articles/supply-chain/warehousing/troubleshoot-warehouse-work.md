@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a00ae517ff583e4231099d8e9f5d5b5a696cf7f7
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 3015ec777953cedb5a5d8eea873ed1043cac04cb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4645784"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4970222"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Solucionar problemas de trabalho do depósito
 
@@ -50,6 +49,3 @@ A dimensão de rastreamento do **Proprietário** está ausente quando o aplicati
 ### <a name="issue-resolution"></a>Resolução do problema
 
 A Microsoft avaliou esse problema e determinou que é uma limitação de recurso. Atualmente, os processos de gerenciamento de depósito oferecem suporte apenas ao estoque de propriedade da entidade legal.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

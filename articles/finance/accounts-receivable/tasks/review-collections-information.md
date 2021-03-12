@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9b5cc07c5dfb2444ff086c8b1f3bcc7634d8644d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bbfb6537118a9936c127018427b0516e7ea002a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440371"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971519"
 ---
 # <a name="review-collections-information"></a>Revisar informações sobre cobranças
 
@@ -143,6 +142,3 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 5. Selecione **Mostrar lista**.
 - Selecione um conta do cliente ou aceite a entrada padrão. Por padrão, esta é a conta de cliente selecionada na página de lista ou no formulário no qual você abriu este formulário. Se você tiver aberto o formulário de uma página de lista, os clientes na lista são os clientes que estão incluídos no grupo de cobranças que é usado na página de lista.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7e6778f61a9367399e4b71d5b2bb2459c09ba508
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1b69b505996b5536088578885c11a7e8c27f4975
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971844"
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condições de pagamento de fornecedor
 
@@ -47,6 +46,3 @@ Este tópico explica como configurar condições de pagamento para faturas de fo
 16. Insira a conta principal na qual o desconto à vista será lançado para faturas de clientes. Depois, insira a conta principal na qual o desconto à vista será lançado para faturas de fornecedor. Se **Contas de contrapartida de desconto** estiver definida como **Usar conta principal para desconto do fornecedor**, a conta principal será usada. Se a opção estiver definida como **Contas nas linhas de fatura**, o desconto à vista será lançado nas contas de ativo/despesas nas linhas da fatura.  
 17. Selecione **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

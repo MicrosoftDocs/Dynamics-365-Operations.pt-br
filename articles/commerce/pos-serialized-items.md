@@ -3,24 +3,23 @@ title: Trabalhar com itens serializados no PDV
 description: Este tópico explica como gerenciar itens serializados no aplicativo de ponto de venda (PDV).
 author: boycezhu
 manager: annbe
-ms.date: 08/21/2020
+ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 6ba01abc3d1a4496ec586a621aa03b4981f84d76
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0431ffa45eceac5c12d8ed991b00730c50ca62f8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410302"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972546"
 ---
 # <a name="work-with-serialized-items-in-the-pos"></a>Trabalhar com itens serializados no PDV
 
@@ -90,11 +89,49 @@ Para habilitar tal validação, como pré-requisito, é necessário agendar os s
 - **Varejo e Comércio** > **TI de Varejo e Comércio** > **Produtos e estoque** > **Disponibilidade de produtos com dimensões de rastreamento**
 - **Varejo e Comércio** > **Agendas de distribuição** > **1130** (**Disponibilidade de produtos**)
 
+## <a name="sell-serialized-items-in-pos"></a>Vender itens serializados no PDV
+
+Embora o aplicativo PDV sempre tenha suporte para a venda de itens serializados, no Commerce versão 10.0.17 e posterior, as organizações podem habilitar funcionalidades que aprimoram a lógica comercial que é disparada ao vender produtos que são configurados para controle de números de série.
+
+Quando o recurso **Validação do número de série aprimorado na captura de ordem PDV e no atendimento de ordem** é habilitado, as seguintes configurações de produto são avaliadas ao vender produtos serializados no PDV:
+
+- Configuração de **tipo de série** do produto (**ativo** ou **ativo em vendas**).
+- Configurações de **Saída em branco permitida** para o produto.
+- Configurações de **Estoque físico negativo** para o produto e/ou para o depósito de vendas.
+
+### <a name="active-serial-configurations"></a>Configurações de série ativas
+
+Quando itens vendidos no PDV são configurados com uma dimensão de controle de número de série **Ativa**, o PDV inicia a lógica de validação que impede que os usuários concluam a venda de um item serializado com um número de série que não pode ser encontrado no estoque atual do depósito de vendas. Há duas exceções a essa regra de validação:
+
+- Se o item também for configurado com **Saída em branco permitida** habilitada, os usuários poderão ignorar a entrada do número de série e vender o item sem designação de número de série.
+- Se o item e/ou o depósito de vendas for configurado com **Estoque físico negativo** habilitado, o aplicativo aceitará e venderá um número de série que não possa ser confirmado de estar em estoque no depósito ao qual ele está sendo vendido. Essa configuração permite que a transação de estoque desse item/número de série específico fique negativa. Assim, o sistema permitirá vendas de números de série desconhecidos.
+
+> [!IMPORTANT]
+> Para garantir que o aplicativo PDV valide corretamente se os números de série vendidos para itens do tipo de série **Ativo** estão no estoque do depósito de vendas, é necessário que as organizações executem o trabalho **Disponibilidade do produto com dimensões de rastreamento** na sede do Commerce e o trabalho de distribuição de disponibilidade de produtos **1130** por meio da sede do Commerce com frequência. Quando um novo estoque serializado é recebido em depósitos de venda, para que o PDV valide a disponibilidade de estoque de números de série que está sendo vendido, o estoque mestre deve atualizar com frequência o banco de dados de canal com os dados de disponibilidade de estoque mais atualizados. O trabalho **Disponibilidade do produto com dimensões de rastreamento** usa um instantâneo atual do estoque mestre, incluindo números de série, para todos os depósitos da empresa. O trabalho de distribuição **1130** usa esse instantâneo de estoque e o compartilha com todos os bancos de dados de canal configurados.
+
+### <a name="active-in-sales-process-serial-configurations"></a>Configurações seriais de Ativo no processo de vendas
+
+Os itens configurados com a dimensão serial como **Ativo no processo de vendas** não passam por lógica de validação de estoque, pois essa configuração implica que os números de série do estoque não são registrados previamente em estoque e os números de série são capturados somente no momento da venda.  
+
+Se **Saída em branco permitida** também estiver configurada para itens configurados de **Ativo no processo de vendas**, a entrada de número de série poderá ser ignorada. Se **Saída em branco permitida** não estiver configurada, o aplicativo exigirá que o usuário insira um número de série, mesmo que ele não seja validado em relação ao estoque disponível.
+
+### <a name="apply-serial-numbers-during-creation-of-pos-transactions"></a>Aplicar números de série durante a criação de transações PDV
+
+O aplicativo PDV solicita imediatamente aos usuários a captura de número de série durante a venda de um item serializado, mas o aplicativo permite que os usuários ignorem a entrada de números de série até um determinado ponto no processo de vendas. Quando o usuário começa a capturar o pagamento, o aplicativo impõe e requer uma entrada de número de série para itens que não estejam configurados para serem atendidos por remessas ou retiradas futuras. Todos os itens serializados configurados para o cumprimento de cash and carry ou execução exigem que o usuário capture o número de série (ou concorde em deixá-lo em branco se a configuração do item permitir) antes de concluir a venda.
+
+Para itens serializados para retirada ou remessa futura, os usuários do PDV podem ignorar a inserção do número de série inicialmente e ainda concluir a criação da ordem do cliente.   
+
+> [!NOTE]
+> Ao vender ou atender produtos serializados por meio do aplicativo PDV, uma quantidade de "1" é imposta para os itens serializados na transação de venda. Isso é um resultado de como as informações de número de série são rastreadas na linha de venda. Durante a venda ou o atendimento de uma transação para vários itens serializados por meio do PDV, cada linha de venda deve ser configurada apenas com uma quantidade de "1". 
+
+### <a name="apply-serial-numbers-during-customer-order-fulfillment-or-pickup"></a>Aplicar números de série durante a atendimento ou retirada da ordem do cliente
+
+Ao atender linhas de ordem de cliente para produtos serializados usando a operação **Atendimento de Ordem** no PDV, o PDV impõe a captura do número de série antes do atendimento final. Portanto, se um número de série não foi fornecido durante a captura inicial da ordem, ele deverá ser capturado durante os processos de separação, embalagem ou remessa no PDV. Uma validação é feita em cada etapa e o usuário só será solicitado a fornecer dados de número de série se eles estiverem faltando ou não forem mais válidos. Por exemplo, se um usuário ignorar as etapas de separação ou embalagem e iniciar logo uma remessa, e um número de série não tiver sido registrado para a linha, o PDV exigirá que o número de série seja inserido antes da conclusão da etapa final da fatura. Ao impor a captura do número de série durante as operações de atendimento de ordem no PDV, todas as regras mencionadas anteriormente neste tópico ainda se aplicam. Somente os itens serializados configurados como **Ativos** passam por uma validação de estoque de número de série. Os itens configurados como **Ativos no processo de vendas** não serão validados. Se o **Estoque físico negativo** for permitido para produtos **Ativos**, qualquer número de série será aceito, independentemente da disponibilidade do estoque. Para itens **Ativos** e **Ativos no processo de vendas**, se **Saída em branco permitida** estiver configurada, um usuário poderá deixar números de série em branco, se desejado, durante as etapas de separação, embalagem e envio.
+
+As validações para números de série também ocorrerão quando um usuário executar as operações de retirada em ordens de cliente no PDV. O aplicativo PDV não permite que uma retirada seja finalizada em um produto serializado, a menos que ele passe nas validações, conforme mencionado anteriormente. As validações sempre se baseiam na dimensão de rastreamento do produto e nas configurações de depósito de vendas. 
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Operação de estoque de entrada no PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operação de estoque de saída no PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

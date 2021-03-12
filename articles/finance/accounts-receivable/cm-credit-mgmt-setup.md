@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b25bbeb270f33d1d158de2091ab86e7e98be98a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 98ea865812a0ef187697fadbfc6f576df6595db4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440316"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971744"
 ---
 # <a name="credit-management-parameters-setup"></a>Configuração dos parâmetros de gerenciamento de crédito
 
@@ -79,6 +78,3 @@ Várias estatísticas de gerenciamento de crédito são incluídas no Quadro de 
 ### <a name="number-sequences-and-shared-number-sequence-parameters"></a>Sequências numéricas e parâmetros compartilhados de sequência numérica
 
 Uma ID de diário é necessária para processar ajustes de limite de crédito. Você deve adicionar o número do ajuste de limite de crédito que deve ser usado para gerar a ID do diário.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

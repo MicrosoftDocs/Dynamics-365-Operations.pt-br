@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 89643
 ms.assetid: 09843c9a-3e19-4e4a-a8ce-80650f2095f9
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 565722da65cbb711acedb5acf7de4edfbd615314
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 747c67812b0a357c35778c82531e9db7e99e510b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410201"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972698"
 ---
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>Determinar a combinação ideal de sobreposição de descontos
 
@@ -84,6 +83,3 @@ Para resolver o problema de um número exponencialmente elevado de combinações
 ![Fórmula para calcular o valor marginal](./media/overlapping-discount-combo-06.jpg)
 
 Após o valor marginal de cada desconto em um grupo compartilhado de produtos ser calculado, os descontos são aplicados aos produtos compartilhados na ordem do valor marginal maior para o menor. Para este método, todas as possibilidades restantes de desconto não são comparadas sempre depois que uma única instância de um desconto é aplicada. Em vez disso, os descontos sobrepostos são comparados uma vez e depois aplicados em ordem. Nenhuma comparação adicional é feita. Você pode configurar o limite para trocar para o método de valor marginal na guia **Desconto** da página **Parâmetros do Commerce**. O tempo aceitável para calcular o desconto total varia entre as indústrias de varejo. Porém, esse tempo geralmente cai na variação de diversos milissegundos a um segundo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

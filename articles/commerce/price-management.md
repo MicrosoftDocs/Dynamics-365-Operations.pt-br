@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a90f5706c87d398f495fae40f42f6c2d408b1c2a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8b381ec0535676b77a62bc748fd2ca1c521839ae
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410065"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972446"
 ---
 # <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas de varejo
 
@@ -240,6 +239,3 @@ Além disso, **somente** o mecanismo de preço suporta os seguintes recursos de 
 O preço é um dos fatores mais importantes que controla as decisões de compra de muitos clientes. Muitos deles comparam preços em vários sites antes de realizar uma compra. Para ajudar a garantir que ofereçam preços competitivos, os varejistas observam atentamente seus concorrentes e costumam oferecer promoções. Para ajudar esses varejistas a atrair clientes, é muito importante que a pesquisa de produtos, o recurso de navegação, as listas e a página de detalhes dos produtos mostrem os preços mais precisos.
 
 Em uma próxima versão do Commerce, a API (interface de programação de aplicativos) **GetActivePrices** retornará preços que incluem descontos simples (por exemplo, descontos de linha única que não dependem de outros itens no carrinho). Assim, os preços exibidos são próximos do valor real que os clientes pagam pelos itens. Essa API incluirá todos os tipos de descontos simples: descontos baseados em afiliação, em fidelidade, em catálogo e em canal. Além disso, a API retornará os nomes e as informações de validade dos descontos aplicados, para que os varejistas possam fornecer uma descrição mais detalhada do preço e criar um senso de urgência se a validade do desconto expirar em breve.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

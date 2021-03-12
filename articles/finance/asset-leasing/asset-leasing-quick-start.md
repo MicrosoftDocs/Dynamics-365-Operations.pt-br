@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9e206569aad3f53a2f6f66e6d6253226e5980078
-ms.sourcegitcommit: 30c541426cf2037b768e3556e1b170a64991f64a
+ms.openlocfilehash: 97fcaeb091d91c3b214451b0b156382e450e60f3
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/17/2020
-ms.locfileid: "4440525"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971494"
 ---
 # <a name="asset-leasing-get-started"></a>Introdução ao arrendamento de ativos
 
@@ -152,7 +151,7 @@ Um pagamento de arrendamento acumulado é reconhecido como um pagamento futuro d
 |     Arrendamento mercantil sob IFRS e US GAAP        |  Responsabilidade com arrendamento mercantil      |   Responsabilidade do fornecedor (razão auxiliar)/Notas a pagar  |
 
 #### <a name="asset-depreciation"></a>Depreciação de ativo
-O ativo de uso de direito é depreciado sobre o que for menor - a vida útil do ativo ou o prazo de arrendamento. O método para calcular a depreciação para US GAAP (ASC 842) se baseia na diferença entre a despesa de arrendamento linear e o valor dos juros. Os juros sobre arrendamentos mercantis são calculados usando um método linear padrão. A depreciação de arrendamento afeta o demonstrativo de lucros e perdas, debitando da despesa de juros. O balanço é afetado pelo crédito da conta de ativo de direito de uso acumulada para arrendamentos mercantis. Para arrendamentos operacionais, a depreciação é creditada na conta de despesas de arrendamento. Se o arrendamento estiver vinculado a um ativo fixo, as transações de depreciação serão executadas somente do módulo de ativos fixos. 
+O ativo de direito de uso de direito é depreciado sobre o que for menor - a vida útil do ativo ou o prazo de arrendamento. O método para calcular a depreciação para US GAAP (ASC 842) se baseia na diferença entre a despesa de arrendamento linear e o valor dos juros. Os juros sobre arrendamentos mercantis são calculados usando um método linear padrão. A depreciação de arrendamento afeta o demonstrativo de lucros e perdas, debitando da despesa de juros. O balanço é afetado pelo crédito da conta de ativo de direito de uso acumulada para arrendamentos mercantis. Para arrendamentos operacionais, a depreciação é creditada na conta de despesas de arrendamento. Se o arrendamento estiver vinculado a um ativo fixo, as transações de depreciação serão executadas somente do módulo de ativos fixos. 
 
 |     Tipo                                          |     Débito                     |     Crédito                            |
 |-----------------------------------------------    |-----------------------------  |------------------------------------   |
@@ -253,6 +252,3 @@ Conclua as etapas a seguir para criar um novo arrendamento.
 
    A página **Transações de responsabilidade com arrendamento** mostra o reconhecimento inicial, o pagamento de juros de arrendamento, o pagamento do arrendamento e o saldo da responsabilidade com arrendamento. 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

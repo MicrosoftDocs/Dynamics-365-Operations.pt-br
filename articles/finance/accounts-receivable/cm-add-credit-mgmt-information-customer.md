@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 919aa50136f02a44eb69146589496ad1284721f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a04180a5dbec1e08d0149beeed0495a0d13af76c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440320"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971719"
 ---
 # <a name="add-credit-management-information-for-customers"></a>Adicionar informações de gerenciamento de crédito de clientes
 
@@ -102,6 +101,3 @@ Você pode criar apólices de seguro e garantias na página **Todos os clientes*
     Nesse caso, o limite de crédito efetivo é 125.000 (= A + \[B × C\]).
     
     No entanto, se você marcar a caixa de seleção **Incluído na exposição**, o valor de **Atualizar limite de crédito** de 50.000 (= 50,00 por cento de 100.000) será removido e o valor da exposição será 75.000 (= A + \[B x C\] – B).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

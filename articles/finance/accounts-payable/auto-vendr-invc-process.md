@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 677760ec15630a11bf691be4cd8af9cf5549ddf9
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 9a033258feeccf172f1e2c03a9f49305054b24c2
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665313"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972122"
 ---
 # <a name="automated-vendor-invoicing-processes-overview"></a>Visão geral de processos automatizados de faturas de fornecedor
 
@@ -69,6 +68,3 @@ O espaço de trabalho **Entrada da fatura de fornecedor** permite que você se c
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automação de faturas de fornecedores-retomar processamento de automação para várias faturas
 Quando uma fatura importada não for enviada com êxito para o fluxo de trabalho por meio do processo automatizado, o sistema a removerá do processamento automatizado adicional. Um auxiliar de contas a pagar pode revisar e editar a fatura antes que o processo automatizado a reenvie para o fluxo de trabalho. Quando uma razão de falha pode ser resolvida pela mesma correção para várias faturas, você pode reiniciar o processo automatizado na página **Retomar o processamento automatizado para várias faturas**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

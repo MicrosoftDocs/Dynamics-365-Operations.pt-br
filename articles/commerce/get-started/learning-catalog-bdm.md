@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 4402759b3bf0cc61fded697c66eab6dc6b429664
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 65b7286ff7cfc9eb0d3f5f76ac94470bd964ab3d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410213"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4972853"
 ---
 # <a name="learning-catalog-for-business-and-technical-decision-makers-considering-dynamics-365-commerce"></a>Catálogo de aprendizagem para tomadores de decisões de negócios e técnicos que consideram o Dynamics 365 Commerce
 
@@ -36,6 +35,3 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos Fina
 | [Conheça o valor comercial do Microsoft Dynamics 365 e do Power Platform](https://docs.microsoft.com/learn/paths/learn-business-value-of-dynamics-365-and-power-platform/) | Começaremos esta experiência de aprendizado demostrando como a transformação digital e os aplicativos de negócios podem transformar a sua empresa. Discutiremos como o Dynamics 365 e o Power Platform o ajudam a tomar decisões informadas com base nas necessidades e nas metas da sua organização, em quatro blocos de construção de transformação digital—moderno, unificado, inteligente e adaptável.                  | Caminho de aprendizado online, gratuito, baseado no seu ritmo                                          | 6.5 horas   |
 | [Introdução ao Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/get-started-dynamics-365-commerce/)                                                       | O Dynamics 365 Commerce, com base nos recursos comprovados do Dynamics 365 Retail, fornece uma solução completa de omnicanal que unifica as experiências no back office, na loja, no call center e digitais. Dynamics 365 Commerce permite criar a fidelidade com a marca por meio de envolvimentos de cliente personalizados, aumentar renda com produtividade de funcionário aprimorada, otimizar operações para reduzir custos e impulsionar eficiência de cadeia de fornecimento, e por fim entregando melhores desfechos comerciais. | Caminho de aprendizado online, gratuito, baseado no seu ritmo                                          | 2 horas   |
 | [Introdução ao Dynamics 365 Fraud Protection](https://docs.microsoft.com/learn/modules/get-started-fraud-protection/)| O Dynamics 365 Fraud Protection é uma solução baseada em nuvem criada para comércio eletrônico, lojas físicas e comerciantes do omnicanal para ajudar a proteger sua receita e reputação, fornecendo ferramentas e recursos para diminuir fraudes e abusos, reduzir despesas operacionais e aumentar as taxas de aceitação, ao mesmo tempo que protege as contas de usuário contra a exposição de fraudes. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 35 minutos |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

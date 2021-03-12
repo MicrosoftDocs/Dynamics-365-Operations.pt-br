@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8b326d3888e02d45c95b290f620065cee1dd3d16
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cbecb45b3fd9f38153072893f32fb4996cd9e91f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408433"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971196"
 ---
 # <a name="set-sped-efd-contributions"></a>Definir contribuições SPED EFD
 
@@ -164,6 +163,3 @@ Vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS**
 
 > [!NOTE]
 > Para usar o processamento em lotes, selecione **Lote** e especifique as opções para a execução do processamento em lotes. Você poderá usar o processamento em lotes se o arquivo precisar ser gerado posteriormente ou se precisar ser gerado em um servidor, e não no computador.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

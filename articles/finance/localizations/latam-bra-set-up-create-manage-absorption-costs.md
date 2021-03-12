@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 396332e20f2d66ff682f2545afaf6dcecabb58a8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1bee63ec7ed3b3b80f4fe6581084e088e6113c20
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408435"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971209"
 ---
 # <a name="set-up-create-and-manage-absorption-costs"></a>Configurar, criar e gerenciar custos de absorção 
 
@@ -110,6 +109,3 @@ Use este procedimento para cancelar os custos absorvidos que não são lançados
 2.  No campo **Mês/ano para cancelar**, selecione o mês e ano nos quais os custos absorvidos serão cancelados.
 
 3.  Clique em **OK** para cancelar os custos absorvidos para o mês e o ano selecionados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

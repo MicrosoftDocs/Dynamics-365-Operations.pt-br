@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSNumberSequenceExt
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: e6faab834b4c1c514bcc23a59d74e2bd0e069754
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: fa4074c23baa74983f4922d2d09d7da81c943bfe
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4422625"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973826"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurar sequências numéricas para fluxos de depósito
 
@@ -92,6 +91,3 @@ Para criar e editar sequências numéricas, siga estas etapas.
     | Dígito de Verificação | Este tipo de segmento adiciona um dígito de verificação, que é um cálculo de módulo 10. (Esse comportamento corresponde à lógica existente para IDs de placa de licença.) Para este tipo de segmento, o campo **Valor** sempre é definido como um acento circunflexo (*^*) e o campo **Tamanho** sempre é definido como *1*. |
 
 1. Para exibir um exemplo do formato numérico final, inspecione o campo **Formato** na parte inferior da FastTab **Segmentos**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

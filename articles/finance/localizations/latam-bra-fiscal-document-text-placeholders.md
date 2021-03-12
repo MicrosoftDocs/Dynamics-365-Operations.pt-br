@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 268684
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f01352cdc63ff94761532c14fb8cdedd44f8632e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 91eaac9fe77ed19ee9b9f5c0ac32b588e7aa97a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408454"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971215"
 ---
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 
@@ -166,6 +165,3 @@ As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto d
 |--------------------------------|----------------------------------------------------------------------|
 | %Substituto\_ICMS\_tax\_amount | O valor do imposto presumido do ICMS do substituto do ICMS.                |
 | %Substituto\_FCP\_tax\_amount  | O valor presumido do FCP do substituto do ICMS.                     |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

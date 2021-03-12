@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9558013236a728e0fb9691f4edd719fe58d5457
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440480"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4971269"
 ---
 # <a name="budget-planning"></a>Plano de orçamento
 
@@ -106,7 +105,7 @@ O planejamento do orçamento usa políticas de segurança especiais para configu
 
 2.5. Selecione "Conceder acesso a organizações específicas". Escolha a Hierarquia organizacional criada na primeira etapa. Escolha o nó de finanças e clique no botão Conceder com filhos. 
 
-***Importante!*** *Verifique se você está no contexto da entidade legal DEMF ao executar essa tarefa, já que a segurança da organização é aplicada por entidade legal* 
+**_Importante!_* _ _Verifique se você está no contexto da entidade legal DEMF ao executar essa tarefa, poia a segurança organizacional é aplicada por entidade legal* 
 
 ### <a name="task-3-create-scenarios"></a>Tarefa 3: Criar cenários
 3.1. Navegue até Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na página Cenários, anote os cenários que vamos usar posteriormente neste laboratório: Números reais e valores orçados do ano anterior. 
@@ -247,6 +246,3 @@ C. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
