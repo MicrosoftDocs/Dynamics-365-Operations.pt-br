@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 58c0fd781710b7ab8efeaa7a6874f412279a5924
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: d2135458873963dc7c930b4bcef0c508c7d9635f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440539"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992830"
 ---
 # <a name="set-up-lease-approval-workflows"></a>Configurar fluxos de trabalho de aprovação de arrendamento
 
@@ -53,6 +52,3 @@ O tópico explica como configurar um fluxo de trabalho de aprovação que será 
 14. Na página **Criar fluxo de trabalho**, selecione **Fechar**.
 14. Selecione o novo fluxo de trabalho e depois **Versões**. Em seguida, selecione **Tornar ativo** para garantir que o fluxo de trabalho esteja ativo.
 15. Selecione **Fechar**. A nova versão ativa será exibida.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

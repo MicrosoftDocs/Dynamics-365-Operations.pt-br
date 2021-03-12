@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1805e1f87ee70a1f35d9105b8f7ad6c95861efcc
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 1086231c65a726df5162d3593419a129d6ae5655
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440565"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992749"
 ---
 # <a name="use-lease-approval-workflows"></a>Usar fluxos de trabalho de aprovação de arrendamento
 
@@ -45,6 +44,3 @@ Antes de usar esse procedimento, certifique-se de que pelo menos o fluxo de trab
 
 8. Para interromper um fluxo de trabalho, na página **Histórico do fluxo de trabalho**, selecione **Recuperar**. Na caixa de diálogo mostrada, insira um comentário e selecione **OK**.
 9. Para desativar um fluxo de trabalho ou ativar um fluxo de trabalho criado anteriormente, acesse **Arrendamento de ativo \> Configuração \> Fluxo de trabalho de arrendamento**. Em seguida, na página **Fluxo de trabalho de arrendamento**, selecione **Fluxo de trabalho \> Versões**. Para tornar um fluxo de trabalho atual inativo, selecione o arrendamento ativo na caixa de diálogo da versão do arrendamento e, em seguida, selecione **Tornar inativo**. Para ativar um fluxo de trabalho existente, selecione o fluxo de trabalho e selecione **Tornar ativo**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

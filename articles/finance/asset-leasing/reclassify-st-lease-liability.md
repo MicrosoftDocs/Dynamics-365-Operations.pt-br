@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 46bcd396c93bc1d2944241165d438f8ccc013e20
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 08ca824bb4c4a02a80f2187fb5f8fe4e8b7327c9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440544"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992905"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Reclassificar a parte de curto prazo de uma responsabilidade com arrendamento
 
@@ -41,6 +40,3 @@ Para criar e lançar a entrada do diário de reclassificação de passivos de cu
 4. Ative o parâmetro **Lançar**. Como alternativa, se a entrada tiver de ser criada mas não lançada, deixe esse parâmetro desativado.
 5. Ative o parâmetro **Visualizar antes do lançamento** para exibir a entrada antes que ela seja lançada.
 6. Selecione **OK**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

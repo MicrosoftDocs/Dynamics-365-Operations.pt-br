@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: c7d4cacbf56243830633f4d0fd3c57071b08ab56
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 19c7de1436b2fe4a859ac20d3db1fefa445a115f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527329"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4991856"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
 
@@ -35,7 +34,7 @@ ms.locfileid: "4527329"
 O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 
@@ -63,8 +62,8 @@ As seguintes tarefas de sincronização são obrigatórias para que a sincroniza
 
 | Vendas        | Gerenciamento da Cadeia de Fornecedores     |
 |--------------|----------------------------|
-| Cotações       | Cabeçalho de cotação de venda CDS |
-| QuoteDetails | Linhas de cotação de venda do CDS  |
+| Cotações       | Cabeçalho de cotação de venda do Dataverse |
+| QuoteDetails | Linhas de cotação de venda do Dataverse  |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
@@ -143,6 +142,3 @@ As seguintes ilustrações mostram um exemplo de um mapeamento de modelos no int
 
 [Prospect to cash](prospect-to-cash.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269134
 ms.assetid: d4c1d39b-64ec-4ddf-ba27-c0446f80f031
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0ce0cd132742dc5c295b33b708626d99676217ca
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: 0b4b64fd405f32960e407dfb5617607b918f3ed4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665526"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992715"
 ---
 # <a name="import-and-verify-nf-e-xml-documents-and-danfe-files-for-brazil"></a>Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
 
@@ -66,6 +65,3 @@ Na página **Documentos XML de NF-e recebidos**, selecione **Lançados** para ve
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

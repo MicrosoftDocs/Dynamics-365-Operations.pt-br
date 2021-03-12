@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustPaymMode, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b9960c3fdf0d65be19e28dbb41913a310ae7530
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a948bf772e55f20c7010101fd11da83940a0b268
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440343"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990947"
 ---
 # <a name="establish-customer-method-of-payment"></a>Estabelecer método de pagamento de cliente
 
@@ -46,6 +45,3 @@ Este tópico explica como criar um método de pagamento para pagamentos de clien
 15. Use a guia **Atributos de pagamento** para definir os atributos de pagamento que deseja usar para o método de pagamento.
 16. Selecione **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

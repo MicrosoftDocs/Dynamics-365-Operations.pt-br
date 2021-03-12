@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductCreate, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e3dab319348367e58dba0c404e0cd43917e12542
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f5a8ddf546a5c7c3f041b044b5d75f93c5675df
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422177"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4992260"
 ---
 # <a name="create-a-product"></a>Criar um produto
 
@@ -39,6 +38,3 @@ Este procedimento orienta como criar um novo produto na Hierarquia de produtos d
 8. No campo Número do produto, digite um valor.
 9. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

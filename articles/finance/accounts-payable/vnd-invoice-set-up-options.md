@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ebab41d8b7697f20095d6d4654718b88c8b08a82
-ms.sourcegitcommit: 9c05d48f6e03532aa711e1d89d0b2981e9d37200
+ms.openlocfilehash: 40de7c378bff602fa3629bb190a7a89fe584d2a6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993181"
 ---
 # <a name="setup-options-for-vendor-invoice-automation"></a>Configurar opções para automação de fatura de fornecedor
 
@@ -63,6 +62,3 @@ Estão disponíveis os seguintes parâmetros:
 
 - **Número de tentativas de conciliação automática** – Selecione o número de vezes que o sistema deve tentar coincidir os recebimentos de produtos em uma linha da fatura antes de concluir que o processo falhou. Quando o número de tentativas especificado é atingido, a fatura é removida do processamento da automação.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
