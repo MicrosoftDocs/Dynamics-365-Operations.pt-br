@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: BankParameters, VendPaymMode, CustPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22e67aa051b5ea8267df7efac40e007d0f11a83d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b677056f11a8733bf90f18110b8ee47f6447503b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440416"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4976276"
 ---
 # <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
 
@@ -57,6 +56,3 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
 18. Clique em Salvar.
 19. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

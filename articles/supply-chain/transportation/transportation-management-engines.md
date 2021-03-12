@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab6667ac02ca55eeb093fa5854a962ac4357aaac
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f4c33191e9a3b8f7c211093ff733f6cd025cb9bb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422552"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973876"
 ---
 # <a name="transportation-management-engines"></a>Mecanismos de gerenciamento de transporte
 
@@ -89,7 +88,7 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | **Mecanismo de zona**                                | Requer que os metadados sejam configurados diretamente na zona mestre.                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **Mecanismo de tempo em trânsito** e **Mecanismo de quilometragem** | Recupera os metadados diretamente do formulário de configuração do mecanismo de quilometragem.                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **Exemplo de metadados para um mecanismo de taxa** O mecanismo de gerenciamento de transporte requer a identificação do endereço de origem, destino do estado e o país/região, e a hora inicial e a empresa de remessa. Usando esses requisitos, os metadados se pareceriam com os dados na tabela a seguir. A tabela também inclui informações sobre qual tipo de dados de entrada é necessário.
+  **Exemplo de metadados para um mecanismo de taxa** O mecanismo de gerenciamento de transporte requer a identificação do endereço de origem, destino do estado e o país/região, e a hora inicial e a empresa de remessa. Usando esses requisitos, os metadados se pareceriam com os dados na tabela a seguir. A tabela também inclui informações sobre qual tipo de dados de entrada é necessário.
 -   Defina esta informação em **Gerenciamento de transporte** &gt; **Configuração** na página **Tipo base da taxa**.
 
 | Seqüência | Nome                          | Tipo de Campo | Tipo de dados | Tipo de pesquisa    | Obrigatório |
@@ -99,6 +98,3 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | 3        | CEP de destino | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 4        | CEP final de destino   | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 5        | País/região de destino           | Atribuição | Cadeia de caracteres    | País/região |           |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

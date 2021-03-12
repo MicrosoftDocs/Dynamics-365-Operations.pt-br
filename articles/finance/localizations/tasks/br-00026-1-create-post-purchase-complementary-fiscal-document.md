@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e7070e79eba834cc8cd6a3c156a1ef5918f09afe
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f6604c1c01733abadd19e92d40667febf8c01158
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408487"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975312"
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 
@@ -46,6 +45,3 @@ Use este procedimento para criar uma nota fiscal complementar de compra para aju
 14. Feche a página.
 15. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

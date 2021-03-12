@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: SalesTable, SalesTableListPage
+ms.search.form: SalesTable, SalesTableListPage, SalesTableListPage_SalesCancelOrder
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 6e51723915892f465ce09d09ee9ed622bab9451e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9a5b7a5e8cac7f8816233dd2d7ff1a7f84ea480
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422140"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974776"
 ---
 # <a name="troubleshoot-sales-orders"></a>Solucionar problemas de ordens de venda
 
@@ -59,6 +58,8 @@ Você pode criar uma ordem de compra de uma ordem de venda. Para obter mais info
 Você pode cancelar somente ordens de venda e ordens de devolução que estão em um estado *Criado*. Para obter mais informações, consulte [Cancelar uma ordem de devolução](../service-management/cancel-return-order.md).
 
 ## <a name="when-i-try-to-cancel-a-sales-order-i-receive-a-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations-error"></a>Quando tento cancelar uma ordem de venda, recebo uma mensagem de erro "As reservas não podem ser removidas porque há um trabalho criado com base nas reservas".
+
+Código de erro: WAX4661
 
 Se o trabalho estiver associado a uma ordem de venda, não será possível cancelar a ordem de venda até que o trabalho seja cancelado e revertido. Esse requisito se aplica mesmo que o trabalho associado à ordem de venda seja fechado.
 
@@ -108,9 +109,6 @@ O Supply Chain Management não oferece suporte no momento ao cálculo de comiss�
 
 ## <a name="a-bundle-item-isnt-supported-in-an-intercompany-process"></a>Não há suporte para um item de pacote em um processo intercompanhia.
 
-O item de pacote não está disponível para a ordem de compra porque, se você examinar as linhas de ordem de venda para o item de pacote, verá que a quantidade é *0* (zero) e o status é *Cancelado*. Esse comportamento é por design. A ordem de venda compra somente os componentes do item de pacote. Ele não compra o próprio item do pacote.
+O item de pacote não está disponível para a ordem de compra porque, se você examinar as linhas da ordem de venda para o item de pacote, verá que a quantidade é *0* (zero) e o status é *Cancelado*. Esse comportamento é por design. A ordem de venda compra somente os componentes do item de pacote. Ele não compra o próprio item do pacote.
 
-Se você precisar comprar um pacote, considere se você tem de marcá-lo como item de pacote porque essa funcionalidade é realmente criada para cenários de reconhecimento de receita. Para obter mais informações sobre itens do pacote, consulte [Pacotes](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Se você precisar comprar um pacote, considere se é necessário marcá-lo como item de pacote porque essa funcionalidade foi criada para cenários de reconhecimento de receita. Para obter mais informações sobre itens do pacote, consulte [Pacotes](../../finance/accounts-receivable/revenue-recognition-setup.md#bundles).

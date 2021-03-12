@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 3eaa25f0befcff448250ba2cce8e568fa4a4c707
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ddc6159480d1ff9fb823dbd95465c991ae51f9c4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422377"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974976"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management
 
 [!include [banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Dynamics 365 Sales e o Dynamics 365 Supply Chain Management.
 
@@ -64,8 +65,8 @@ As seguintes tarefas de sincronização são obrigatórias para que a sincroniza
 
 | Gerenciamento da Cadeia de Fornecedores  | Vendas             |
 |-------------------------|-------------------|
-| Cabeçalhos de ordens de venda CDS | SalesOrders       |
-| Linhas de ordem de venda do CDS   | SalesOrderDetails |
+| Cabeçalhos de ordens de venda do Dataverse | SalesOrders       |
+| Linhas de ordens de venda do Dataverse   | SalesOrderDetails |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
 
@@ -75,7 +76,7 @@ Você não precisa criar ordens no Sales. É possível criar novas ordens de ven
 
 No Supply Chain Management, os filtros no modelo ajudam a garantir que somente as ordens de venda relevantes sejam incluídas na sincronização:
 
-- Na ordem de venda, a solicitação e o faturamento do cliente precisam ter origem no Sales para serem incluídos na sincronização. No Supply Chain Management, os campos **OrderingCustomerIsExternallyMaintained** e **InvoiceCustomerIsExternallyMaintained** são usados para filtrar ordens de venda das entidades de dados.
+- Na ordem de venda, a solicitação e o faturamento do cliente precisam ter origem no Sales para serem incluídos na sincronização. No Supply Chain Management, as colunas **OrderingCustomerIsExternallyMaintained** e **InvoiceCustomerIsExternallyMaintained** são usadas para filtrar ordens de venda das tabelas de dados.
 - A ordem de venda no Supply Chain Management deve ser confirmada. Somente ordens de venda confirmadas ou ordens de venda com status de processamento superior, como **Enviado** ou **Faturado** são sincronizadas com o Sales.
 - Depois que uma ordem de venda é criada ou modificada, o trabalho em lotes **Calcular totais de vendas** no Supply Chain Management deve ser executado. Somente as ordens de venda em que os totais de vendas são calculados serão sincronizadas para o Sales.
 
@@ -103,10 +104,10 @@ Quando uma linha da ordem de venda for sincronizada do Sales para o Supply Chain
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Solução Prospect to cash para o Sales
 
-Novos campos foram adicionados à entidade **Ordem** e são exibidos na página:
+Novas colunas foram adicionadas à tabela **Ordem** e são exibidas na página:
 
 - **É mantido externamente** – Defina essa opção como **Sim** quando a origem da ordem for o Supply Chain Management.
-- **Status de processamento** – Esse campo mostra o status de processamento da ordem no Supply Chain Management. Os valores a seguir estão disponíveis:
+- **Status de processamento** – Esta coluna mostra o status de processamento da ordem no Supply Chain Management. Os valores a seguir estão disponíveis:
 
     - **Rascunho** – O status inicial quando uma ordem é criada no Sales. No Sales, só podem ser editadas ordens com este status de processamento.
     - **Ativo** – O status depois que a ordem é ativada no Sales usando o botão **Ativar**.
@@ -141,7 +142,7 @@ Antes de sincronizar ordens de venda, é importante atualizar as configurações
 - Vá para **Configurações** &gt; **Administração** &gt; **Configurações do sistema** &gt; **Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
     - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
-    - O campo **Método de cálculo de desconto** está definido como **Item de linha**.
+    - A coluna **Método de cálculo de desconto** está definida como **Item de linha**.
 
 ### <a name="setup-in-supply-chain-management"></a>Configuração no Supply Chain Management
 
@@ -151,10 +152,10 @@ Se você também usa a integração da ordem de trabalho, você precisa configur
 
 1. Acesse **Vendas e marketing** \> **Configurar** \> **Ordens de venda** \> **Origem de venda**.
 2. Selecione **Nova** para criar uma nova origem de venda.
-3. No campo **Origem de venda**, insira um nome para a origem de venda, como **SalesOrder**.
-4. No campo **Descrição** insira uma descrição, como **Ordem de vendas a partir de Vendas**.
+3. Na coluna **Origem de venda**, insira um nome para a origem de venda, como **SalesOrder**.
+4. Na coluna **Descrição**, insira uma descrição, como **Ordem de venda do Sales**.
 5. Marque a caixa de seleção **Atribuição do tipo de origem** .
-6. Defina o campo **Tipo de origem de vendas** como **Integração da ordem de vendas**.
+6. Defina a coluna **Tipo de origem de venda** como **Integração da ordem de venda**.
 7. Selecione **Salvar**.
 
 ### <a name="setup-in-the-sales-orders-sales-to-supply-chain-management---direct-data-integration-project"></a>Configuração nas Ordens de Venda (Sales para Supply Chain Management) - Projeto de integração de dados direta
@@ -181,12 +182,12 @@ Se você também usa a integração da ordem de trabalho, você precisa configur
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelo na Integração de dados
 
 > [!NOTE]
-> Os campos **Termos de pagamento**, **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
+> As colunas **Condições de pagamento**, **Condições de frete**, **Condições de entrega**, **Método de remessa** e **Modo de entrega** não fazem parte dos mapeamentos padrão. Para mapear essas colunas, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a tabela está sincronizada.
 
 As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integração de dados.
 
 > [!NOTE]
-> O mapeamento mostra quais informações de campo serão sincronizadas do Sales para o Supply Chain Management ou do Supply Chain Management para o Sales.
+> O mapeamento mostra quais informações de coluna serão sincronizadas do Sales para o Supply Chain Management ou do Supply Chain Management para o Sales.
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Ordens de Venda (Supply Chain Management para Sales) – Direto: OrderHeader
 
@@ -207,6 +208,3 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Cliente potencial ao pagamento à vista](prospect-to-cash.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

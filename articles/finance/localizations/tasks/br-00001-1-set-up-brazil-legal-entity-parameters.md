@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d89d89c758ff11a646952e11c4263fa379af29f6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 782035951817fa28e0f51189ff57ea0da484bcf1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408463"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975324"
 ---
 # <a name="set-up-legal-entity-parameters-brazil"></a>Configurar parâmetros de entidade legal (Brasil)
 
@@ -79,6 +78,3 @@ Configurar parâmetros de entidade legal do Brasil. Esta tarefa usa a empresa de
 49. Clique em Salvar.
 50. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

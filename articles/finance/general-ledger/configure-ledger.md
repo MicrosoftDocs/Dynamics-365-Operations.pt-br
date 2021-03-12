@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: Ledger
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-09
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 929ab7ae66a217de836ce49373faed76325c4d3a
-ms.sourcegitcommit: ac0a676c91e3053ad7f9432d576c9af3ff98a99a
+ms.openlocfilehash: 5a7fcda435fd957edbbe09d796685c0c742dc6a8
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4440568"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975807"
 ---
 # <a name="configure-ledgers"></a>Configurar razões
 
@@ -82,6 +81,3 @@ Se você usar duas moedas ou se usar uma única moeda, mas as transações forem
 Os ganhos e perdas realizados são lucros e perdas feitas a partir de transações concluídas. Eles são registrados no demonstrativo de lucros e perdas. Os ganhos e perdas não realizados são lucros e perdas que foram materializados, mas a transação não foi concluída. Por exemplo, você lançou uma nota fiscal, mas a nota fiscal ainda não foi liquidada e paga. Os ganhos e perdas não realizados são registrados no balanço.
 
 Para obter mais informações sobre como usar duas moedas, consulte [Moeda dupla](dual-currency.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

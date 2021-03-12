@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: SMAServiceObjectTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29d2cf6a496fed8d9932d5c6d49f4560d7eabbbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d1e0a40d351150ce432164438cd9680cf80792e1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421870"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974301"
 ---
 # <a name="service-objects-overview"></a>Visão geral de objetos de serviço
 
@@ -47,6 +46,3 @@ A empresa A mantém os registros financeiros de várias pequenas empresas. Um do
 
 [Criar objetos de serviço](create-service-objects.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc1e13863ae13daaa641f52f7a55e01fc1353dc1
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: baac842660b6231529349ec97bcdbcdb971a0ac0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440364"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975957"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Digitar um acréscimo a um ativo fixo
 
@@ -46,6 +45,3 @@ O procedimento usa a função de contador e os dados de demonstração da entida
     * Defina **Aumenta a vida útil** como **Sim** se a adição aumentar a vida útil do ativo.  
     * Este campo serve somente para informar. Para aumentar a vida útil, modifique a vida útil nos métodos de depreciação e/ou registros de depreciações para o ativo.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2a6685a2dcf9d7bf7ac82c3dede9c3ece0c08698
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4561a1193971b131ab2b6c8d64f848d8155c1fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440468"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975755"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -125,7 +124,7 @@ Você pode definir a data em que a regra de eliminação entra em vigor e a data
 
 Após a definição das propriedades básicas, selecione **Linhas** para definir as regras de processamento reais. Há duas opções para eliminações: eliminar o valor líquido de modificação ou definir um valor fixo.
 
-Selecione as contas de origem. Você pode usar asterisco (\*) como um caractere curinga. Por exemplo, **1\*** seleciona todas as contas que começam com **1** como a fonte de dados da alocação.
+Selecione as contas de origem. Você pode usar asterisco (\*) como um caractere curinga. Por exemplo, **1\**_ seleciona todas as contas que começam com _* 1** como a fonte de dados da alocação.
 
 Após a seleção das contas de origem, use o campo **Especificação da conta** para especificar a conta usada na empresa de destino. Selecione **Origem** para usar a mesma conta principal definida na conta de origem. Se você selecionar **Definido pelo usuário**, deverá especificar a conta de destino.
 
@@ -182,6 +181,3 @@ Aqui estão alguns dos cenários de consolidação que o Relatório financeiro p
 
 ## <a name="generating-consolidated-financial-statements"></a>Criação de demonstrativos financeiros consolidados
 Para obter informações sobre os cenários onde você poderá gerar demonstrativos financeiros consolidados, consulte [Gerar demonstrativos financeiros consolidados](./generating-consolidated-financial-statements.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

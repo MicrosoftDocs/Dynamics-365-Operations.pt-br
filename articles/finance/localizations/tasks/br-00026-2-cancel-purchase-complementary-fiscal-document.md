@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8e223335ed73cefc8f7752e0063d9f8880134693
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4779fa8f8856121836a445d8050786eb3281b8d5
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408486"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975306"
 ---
 # <a name="cancel-a-purchase-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de compra (Brasil)
 
@@ -41,6 +40,3 @@ ms.locfileid: "4408486"
 8. Feche a página.
 9. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

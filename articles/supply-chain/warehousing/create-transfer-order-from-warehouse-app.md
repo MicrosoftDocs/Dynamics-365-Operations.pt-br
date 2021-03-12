@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c30b0e74053480a08f84f4d7579021084ded5799
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4be9f8bab55f28fa88cb87aef32ab599056c1831
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421966"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4973851"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
@@ -334,6 +333,3 @@ As ordens de transferência são criadas sem o uso dos recursos de **Controle da
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>É possível usar uma placa de licença com estoque físico negativo disponível?
 
 O recurso oferece suporte apenas a quantidades físicas disponíveis positivas. Certifique-se de ter quantidades físicas positivas no nível de status do depósito e do estoque antes de atribuir placas de licença a uma ordem de transferência.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

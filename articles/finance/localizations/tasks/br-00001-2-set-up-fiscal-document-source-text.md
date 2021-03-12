@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e83bb5e287f8011bb5f06ca7b160b34a2329c464
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7b9dfd952aee4044b947cb11615db79f9c61f913
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408414"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975321"
 ---
 # <a name="set-up-fiscal-document-source-text-brazil"></a>Configurar texto de origem da nota fiscal (Brasil)
 
@@ -49,6 +48,3 @@ Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fa
 19. Clique em Salvar.
 20. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

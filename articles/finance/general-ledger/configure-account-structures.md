@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c278cefd47b14c44c1949505404d08628cb7f52f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 55c3d6c0f2cddb4da8fd82f26ca3184b194e174b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440421"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975882"
 ---
 # <a name="configure-account-structures"></a>Configurar estruturas de conta
 
@@ -107,6 +106,3 @@ Ao configurar suas estruturas de conta há algumas práticas recomendadas que vo
 Quando estiver satisfeito com sua nova configuração ou com uma alteração em uma estrutura de conta, você deverá ativá-la. Se uma estrutura de conta for atribuída a um razão, essa ativação pode ser um processo de execução longa, pois todas as transações não lançadas no sistema devem ser sincronizadas com a nova estrutura. As transações lançadas não são afetadas com as alterações da estrutura da conta.
 
 Para obter mais informações, consulte [Planejar seu plano de contas](plan-chart-of-accounts.md), [Dimensões financeiras](financial-dimensions.md) e [Inserir a conta e as combinações de dimensões (controle segmentado de entradas)](enter-account-dimension-combinations-segmented-entry-control.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

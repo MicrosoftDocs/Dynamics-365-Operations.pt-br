@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c067b7b6cbbcad4456df6037da8ab124776261e9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: cd854b2188b07830e5641ccdd4bb02804a07b55c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440464"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975624"
 ---
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
@@ -105,6 +104,3 @@ A capacidade de cancelar um diário em um fluxo de trabalho com o status "irrecu
 
 ## <a name="delete-journal-lines"></a>Excluir linhas do diário
 A capacidade de excluir todas as linhas do diário rapidamente é habilitada em um diário, em **Funções** > **Excluir linhas do diário**. Para habilitar esse recurso, em **Gerenciamento de recursos**, selecione **Excluir otimizações de desempenho do diário**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

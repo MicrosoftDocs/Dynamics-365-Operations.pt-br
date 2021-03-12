@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User, SalesTableDelete, SalesTableListPagePreviewPage, SalesUpdateRemain
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9aa353ad771844abc0860f06d9bc22b9f4adce92
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb4c7a542106161f8bc1b8db0976c24faebf907
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421987"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4974801"
 ---
 # <a name="create-sales-orders"></a>Criar ordens de venda
 
@@ -39,7 +38,7 @@ Este procedimento mostra como criar uma ordem de venda. Você pode usar o proced
 
 ## <a name="enter-sales-order-line-details"></a>Insira detalhes da linha da ordem de venda
     
-Os bens vendidos pela sua organização podem vir em grades diferenciadas por dimensões, como a configuração, cor, o tamanho e o estilo. Além disso, os produtos podem ser configurados para usar dimensões de armazenamento, como o site, depósito, a paleta e as dimensões de racking, como o números de lote e de série. Quando essas dimensões são atribuídas, você deve selecionar os valores das dimensões na linha da ordem. Para aumentar a eficiência de entrada de ordem, você pode adicionar os respectivos campos de dimensão para a grade da ordem.
+Os bens vendidos pela sua organização podem vir em grades diferenciadas por dimensões, como a configuração, cor, o tamanho e o estilo. Além disso, os produtos podem ser configurados para usar dimensões de armazenamento, incluindo o site, depósito e palete, bem como as dimensões de rastreamento, como números de lote e de série. Quando essas dimensões são atribuídas, você deve selecionar os valores das dimensões na linha da ordem. Para aumentar a eficiência de entrada de ordem, você pode adicionar os respectivos campos de dimensão para a grade da ordem.
     
 1. Na seção **Linhas de ordem de venda**, selecione a **Linha da ordem de venda**.
 2. Selecione **Dimensões**.
@@ -68,6 +67,3 @@ Os bens vendidos pela sua organização podem vir em grades diferenciadas por di
     A página **Totais** exibe detalhes sobre a ordem inteira. Isso inclui o valor do subtotal, que é a soma de todos os descontos de linha dos valores líquidos ajustados para os descontos eventuais de linha, o valor total da nota fiscal, que é um valor de subtotal ajustado para desconto, encargos diversos, impostos sobre vendas e eventuais nível de fórmula, situação de limite de crédito do cliente, etc. O valor da nota fiscal é o valor que aparecerá no documento da nota fiscal do cliente.  
     
 3. Selecione **OK**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

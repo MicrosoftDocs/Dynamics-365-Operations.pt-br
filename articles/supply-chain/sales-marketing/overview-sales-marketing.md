@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03db7f830d0b7efa4ba32b9e194a4e3a65266e8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c4fe08f2edbbfc9d89de00c4375c1cc938188553
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421979"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4975051"
 ---
 # <a name="sales-and-marketing-overview"></a>Visão geral de Vendas e marketing
 
@@ -125,6 +124,3 @@ Uma nota fiscal pro forma é uma nota fiscal preparada como uma previsão dos va
 #### <a name="blogs"></a>Blogs
 
 Você pode localizar uma visão geral de um processo de venda no post [Como as vendas funcionam no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
