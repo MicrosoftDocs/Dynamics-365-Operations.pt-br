@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules, WHSKanbanWaveTable, WHSKanbanWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d0caa0020083138f702e4a1fda457b7075a9c87e
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 9de46acd8e568be08518d9bf93067748e0541023
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422499"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004453"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 
@@ -87,6 +86,3 @@ No cenário a seguir, a atividade de transferência do kanban de retirada é con
 
 Depois de consumido em um local de entrada de produção, o kanban é relatado como vazio, e um novo kanban é adicionado ao fluxo. Quando o kanban é criado, uma linha de onda é adicionada a uma onda kanban. Quando a onda kanban é processada, o trabalho de depósito para a separação kanban é criado. O trabalhador do depósito processa o trabalho para a separação kanban e é direcionado pelo trabalho a separar o material para o kanban em um local de depósito. Na medida em que esse trabalhador do depósito confirma a separação, o kanban é concluído automaticamente, e o trabalhador do depósito é orientado a atrelar o material ao local de entrada de produção.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

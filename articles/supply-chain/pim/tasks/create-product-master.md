@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fdb30b46a0e5a6d4fac997588dd47148f2664c03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 612f83f2df0ca3e66aa38defa27ec34315b4b2ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422181"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001715"
 ---
 # <a name="create-a-product-master"></a>Criar um produto mestre
 
@@ -61,6 +60,3 @@ Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo 
 10. Clique em **Salvar**.
 11. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

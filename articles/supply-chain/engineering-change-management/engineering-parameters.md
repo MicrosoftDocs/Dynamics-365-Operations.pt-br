@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0cf0e56a8aece98379aa0f181d7b7ff665767544
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: dee5429c31bfc872afedfa76ced89633b4b72c96
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422636"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005368"
 ---
 # <a name="engineering-change-management-parameters"></a>Parâmetros do gerenciamento de alteração de engenharia
 
@@ -57,6 +56,3 @@ A tabela a seguir descreve os campos disponíveis na guia **Gerenciamento de alt
 | Regra de severidade | Selecione como a gravidade de uma ordem de alteração de engenharia deve ser estabelecida. Selecione *Manual* se for esperado que o usuário insira um valor no campo **Gravidade**. Selecione *Calcular* para que o sistema calcule o valor do campo **Gravidade** ao selecionar **Calcular gravidade** no Painel de Ações da ordem de alteração de engenharia. Nesse caso, o sistema usará as regras de gravidade definidas na página **Conjunto de regras de gravidade**. Selecione *Calcular automaticamente* para que o valor do campo **Gravidade** seja calculado automaticamente e preenchido de acordo com os conjuntos de regras de gravidade. |
 | Lançar produtos afetados novamente | Este campo é aplicável quando você libera de novo produtos por meio de uma ordem de alteração de engenharia. Você pode selecionar se todos os produtos ou somente os produtos afetados devem ser propostos na caixa de diálogo **Liberações**. |
 | Níveis da BOM a liberar | A profundidade do nível de BOM a ser liberado. Se a BOM tiver mais níveis (ou seja, se for mais profunda) que o valor especificado aqui, somente os níveis até o valor especificado serão liberados. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 41a05bcd0148d0a553cb50575cae47f48397ae9b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 991da4a1056bec933698d043fe45fe4e280f555a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422509"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004818"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -478,6 +477,3 @@ Nesse cenário, o auxiliar de recebimento registrará na entrada uma quantidade 
     - **Qtd.** – Insira _7_, que é a quantidade restante que o fornecedor está autorizado a entregar como parte da quantidade total da ordem de compra de 12 (onde 10 é a quantidade original da ordem e 2 é a quantidade permitida de entrega excedente de 20%). Lembre-se de que 5 pcs já foram registradas na primeira carga.
 
 A segunda carga agora foi atualizada com a quantidade de 7 e pode ser atualizada como produto recebido com base nessa quantidade.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

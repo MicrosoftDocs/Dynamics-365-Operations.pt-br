@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSInventFixedLocation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b07cd8af0fd619a71d3fe5188f41d0a0ed954f93
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0fd6814163afba0c5b4c99e45a703b00948b73d6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422554"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004893"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar uma diretiva de localização para o registro da ordem de compra
 
@@ -86,6 +85,3 @@ Este tópico explica como configurar uma diretiva simples de local. O exemplo mo
 4. No campo **Critérios**, digite um valor.
 5. Selecione **OK**. Você pode continuar adicionando linhas diretivas e ações diretivas até que você tenha considerado todos os possíveis cenários para o depósito.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

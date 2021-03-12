@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7a017cdbcbfa01d4dba383f2b6b7c742e54014e4
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 9822a11dbb277726b60ff82843bd26314e968345
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440561"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5003247"
 ---
 # <a name="impair-right-of-use-assets"></a>Reduzir ativos de direito de uso ao valor recuperável
 
@@ -99,9 +98,6 @@ As tabelas a seguir mostram os valores definidos nas guias **Geral** e **Linhas 
     | Fechar registro             | Não       |
 
 6. Uma entrada de diário de despesas de redução ao valor recuperável foi criada e lançada. Para exibi-la, vá para o diário de arrendamento do ativo no registro de arrendamento. Observe que o valor da redução ao valor recuperável foi debitado da conta de lançamento de despesas de redução ao valor recuperável e a conta de lançamento do ativo DDU foi creditada.
-7. Para exibir o efeito líquido da redução ao valor recuperável, acesse as tabelas de transações de ativos e passivos. Observe que a despesa de redução ao valor recuperável diminuiu o ativo ROU, mas o valor de carregamento da responsabilidade com arrendamento não foi alterado.
+7. Para exibir o efeito líquido da redução ao valor recuperável, acesse as tabelas de transações de ativos e passivos. Observe que a despesa de redução ao valor recuperável diminuiu o ativo DDU, mas o valor de carregamento da responsabilidade com arrendamento não foi alterado.
 
 A redução ao valor recuperável tem um outro efeito que deve ser considerado. Como o valor do ativo DDU agora é muito menor do que a responsabilidade com arrendamento, o valor deverá ser depreciado de maneira diferente da de antes. Especificamente, o ativo agora é depreciado em um modo linear ao longo dos 84 meses restantes do arrendamento, a partir da data da transação.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

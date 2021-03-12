@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 30859292f8ec481f018fe0c5a5ca4ca11c246d4c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 89f885cbbe6a5001b507cd9fb1516733f8faee0f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422257"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005268"
 ---
 # <a name="arrival-overview"></a>Visão geral de entrada
 
@@ -121,6 +120,3 @@ Quando todos os bens forem registrados, o gerente de depósito ou o gerente de c
 
 ## <a name="summary"></a>Resumo
 A página **Visão geral de entrada** pode ajudar o gerente de depósito e os trabalhadores do depósito a obter uma visão geral do trabalho esperado que deve ser executado como parte de um processo de entrada. A página também pode ser usada para iniciar o processo de entrada de item, para ajudar a garantir que os itens sejam rastreados na primeira entrada no depósito.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

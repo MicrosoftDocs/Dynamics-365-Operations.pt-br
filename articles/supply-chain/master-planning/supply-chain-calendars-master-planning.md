@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2c32957b0bd234ed14e6333a36a46c6a83ec2e91
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bbbd60ddfd46904374a2cf3ad4a09f96805bd2bf
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422206"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001790"
 ---
 # <a name="calendars-and-master-planning"></a>Calendários e planejamento mestre
 
@@ -143,6 +142,3 @@ Em relação ao calendário do grupo de cobertura, é importante lembrar que ele
 
 ### <a name="updating-scm-related-calendars"></a>Atualizando os calendários de SCM relacionados
 Embora seja importante que os calendários relevantes sejam atribuídos em seus locais respectivos (fornecedor, cliente, modo de entrega ou grupo de cobertura), atualizá-los também é importante para que reflitam as alterações. O sistema definirá as datas das ordens de produção, transferência, compra e venda dependendo da combinação dos calendários atribuídos. É uma prática recomendada esclarecer quem é responsável por atribuir e atualizar os calendários nas áreas correspondentes. No caso de uma eventualidade ou qualquer outra mudança incomum em dias úteis, é essencial atualizar os calendários adequadamente. Todas as tarefas que dependem de calendários, como planejamento mestre e planos de produção, devem ser executadas novamente quando os calendários são atualizados. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

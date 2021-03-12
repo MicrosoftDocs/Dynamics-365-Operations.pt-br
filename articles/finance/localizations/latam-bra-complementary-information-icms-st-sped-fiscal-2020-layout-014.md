@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 972961647d24e45a05f86a21544319a4226b6572
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c93e5a82d8a2ccfd7c72cadd53fe1c9df1a9e000
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408456"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005774"
 ---
 # <a name="sped-fiscal-2020---complementary-information-of-the-icms-st-for-sped-fiscal-2020-layout-014"></a>SPED fiscal 2020 - informações complementares do ICMS-ST para o layout 014 do SPED fiscal 2020
 
@@ -75,6 +74,3 @@ Os novos campos, **Responsável pela retenção do ICMS-ST**, **Modo de pagament
 
 > [!NOTE]
 > Durante o recebimento de uma nota fiscal, quando o ICMS-ST é tributável usando o código de tributação 10, apesar de estarem inseridas no campo **Responsável pela retenção do ICMS-ST**, as informações financeiras e de avaliação de custo não são incluídas no escopo da localização.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

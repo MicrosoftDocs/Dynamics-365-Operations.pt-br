@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3ae2826b54cb2ff516840443e01185a5342aedcc
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f8d5e4d82c66d178ceafcdbfb3eb9a941172aa01
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422504"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004618"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Classificação por vencimento de separação de estoque de diretiva de localização
 
@@ -120,7 +119,7 @@ A estratégia FIFO encontra o local que contém a data de classificação por ve
 1. Na página **Ordem de venda**, no Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**. Você receberá mensagens informativas. O sistema criará uma remessa, a adicionará a uma nova carga e criará o trabalho necessário.
 1. Na FastTab **Linhas da ordem de venda**, no menu **Depósito**, selecione **Detalhes do trabalho** para abrir o trabalho criado para essa ordem de venda. Observe que a linha na qual o valor **Tipo de trabalho** é *Separar* mostra um valor **Local** de *FL-002*. Esse local contém a placa de licença que tem a data de classificação por vencimento mais antiga (FIFO).
 1. Selecione **Depósito \> Detalhes da remessa**.
-1. Na FastTab ***Geral**, tome nota da ID da onda para usá-la no cenário 2.
+1. Na FastTab *_Geral_*, tome nota da ID da onda para usá-la no cenário 2.
 
 ### <a name="scenario-2-set-up-and-use-lifo-location-aging"></a>Cenário 2: configurar e usar a classificação por vencimento local LIFO
 
@@ -140,6 +139,3 @@ A estratégia LIFO encontra o local que contém a data de classificação por ve
 1. Observe que a linha na qual o valor **Tipo de trabalho** é *Separar* mostra um valor **Local** de *FL-001*. Esse local contém a placa de licença que tem a data de classificação por vencimento mais nova (LIFO).
 
 Nesses cenários, você viu como a estratégia de classificação por vencimento local direciona o trabalho para a localização de estoque que tem o estoque mais antigo ou o mais recente, dependendo da estratégia selecionada.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

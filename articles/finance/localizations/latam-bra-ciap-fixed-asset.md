@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e06da35bfbf1cdd7bb60983eebcbc8622b55e7cf
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e65f0c3daa3e4350680f8f505dacfa33b088ca19
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408458"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005780"
 ---
 # <a name="acquire-and-dispose-a-ciap-fixed-asset"></a>Adquirir e alienar um ativo fixo do CIAP
 
@@ -72,6 +71,3 @@ Use esta funcionalidade para registrar no módulo Livros fiscais a alienação d
 14. No **Relatório CIAP**, no campo **Estabelecimento fiscal**, selecione um estabelecimento fiscal.
 15. Clique em **OK**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

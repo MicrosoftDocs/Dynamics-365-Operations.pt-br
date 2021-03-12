@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgEcoResProductLifecycleStateChange
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 69ee39479424c1b629388c18e8bfefd023036d22
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 989cfd3846e4921d24f5dcf809f1735d2cf62dbb
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422635"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005318"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Estados e transações de ciclo de vida do produto
 
@@ -76,6 +75,3 @@ Os campos a seguir estão disponíveis para cada processo listado na Guia rápid
 | Apólice | Selecione um dos seguintes valores para controlar se e como o processo atual será permitido para produtos que estão neste estado do ciclo de vida:<ul><li>**Habilitado** – O processo comercial é permitido.</li><li>**Bloqueado** – O processo não é permitido. Se um usuário tentar usar o processo em um produto que esteja neste estado do ciclo de vida, o sistema bloqueará a tentativa e mostrará um erro. Por exemplo, você pode bloquear a compra de produtos de fim de vida útil.</li><li>**Habilitado com aviso** – O processo é permitido, mas um aviso será exibido. Por exemplo, você pode querer que um produto protótipo seja colocado em uma ordem de produção criada pelo departamento de pesquisa e desenvolvimento. No entanto, outros departamentos devem estar cientes de que ainda não devem produzir o produto.</li></ul> |
 
 Se você estiver adicionando mais regras de estado do ciclo de vida como uma personalização, poderá exibir essas regras na interface do usuário, selecionando **Atualizar processos** no painel superior. O botão **Atualizar processos** está disponível somente para administradores.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

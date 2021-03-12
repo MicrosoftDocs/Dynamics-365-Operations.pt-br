@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 208662f38b06b1f230bdde5247946a9fefd57cea
-ms.sourcegitcommit: d2dea9ce480f35d0c0b10615c18862695e107d55
+ms.openlocfilehash: e0adb9d05f0db9bbfe6bfbe72564a4e5e839f163
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "4607270"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5004560"
 ---
 # <a name="location-stocking-limits"></a>Limites de estoque de localização
 
@@ -104,6 +103,3 @@ Para explicar essa falha aparente, você deve entender os critérios de seleçã
 
 > [!NOTE]
 > Não é possível usar limites de estoque de localização para controlar, por exemplo, o reabastecimento de itens com quantidades diferentes na mesma localização. Nesse caso, use um *modelo de reabastecimento*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductParameters, EngChgEcmSeverityTable, EngChgEcmSeverityRuleSet, EngChgEcmSeverityLookup,EngChgEcmSeverityChart,EngChgEcmRequestSeverityChart,EngChgEcmPriorityTable, EngChgEcmPriorityLookup, EngChgEcmPriorityChart, EngChgEcmMaterialDisposition, EngChgEcmEH
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 86de050ef4110e3485a77099440f3402e46cc498
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: b46bc10f8b75a58b8baefd88aa6a0b79c59d6544
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422637"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5005393"
 ---
 # <a name="establish-common-values-for-engineering-change-management"></a>Estabelecer valores comuns para gerenciamento de alterações de engenharia
 
@@ -91,6 +90,3 @@ Em cada conjunto de regras, defina o seguinte campo:
 - **Gravidade** – selecione o nível de gravidade para estabelecer regras. Use a página **Gravidades de alterações de engenharia** para criar e nomear os níveis. (Para obter mais informações, consulte a seção anterior).
 
 Use os botões da FastTab **Regras** para adicionar ou remover uma regra para a configuração de gravidade atual. Cada regra tem um campo **Regra** e um campo **Nome**. As regras são estabelecidas pelo sistema e indicam os tipos de alterações que um produto pode ter. O nome indica o tipo de alteração.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
