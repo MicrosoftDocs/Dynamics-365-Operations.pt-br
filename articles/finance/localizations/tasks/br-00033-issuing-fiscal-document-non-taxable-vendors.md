@@ -10,62 +10,61 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae27e885448374739f50b323e553a19de4df6397
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1389c16239f33ce57c7ae79859093bb613ee8009
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408484"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964617"
 ---
-# <a name="issue-fiscal-documents-for-vendors-brazil"></a><span data-ttu-id="87c5e-103">Emitir notas fiscais para fornecedores (Brasil)</span><span class="sxs-lookup"><span data-stu-id="87c5e-103">Issue fiscal documents for vendors (Brazil)</span></span>
+# <a name="issue-fiscal-documents-for-vendors-brazil"></a><span data-ttu-id="bda9f-103">Emitir notas fiscais para fornecedores (Brasil)</span><span class="sxs-lookup"><span data-stu-id="bda9f-103">Issue fiscal documents for vendors (Brazil)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="87c5e-104">Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="87c5e-104">You can create and post vendor invoices on behalf of nontaxpayer vendors.</span></span> <span data-ttu-id="87c5e-105">Você deve atribuir um estabelecimento fiscal a um site.</span><span class="sxs-lookup"><span data-stu-id="87c5e-105">You must assign a fiscal establishment to a site.</span></span> <span data-ttu-id="87c5e-106">Você também deve configurar um tipo de documento fiscal para as ordens de compra que você criar e lançar no nome de fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="87c5e-106">You must also set up a fiscal document type for purchase orders that you create and post on behalf of nontaxpayer vendors.</span></span> <span data-ttu-id="87c5e-107">Antes de criar e lançar faturas de fornecedores no nome de fornecedores que não são contribuintes, é necessário especificar o fornecedor como fornecedor que não é contribuinte.</span><span class="sxs-lookup"><span data-stu-id="87c5e-107">Before you can create and post vendor invoices on behalf of a nontaxpayer vendor, you must specify the vendor as a nontaxpayer vendor.</span></span> <span data-ttu-id="87c5e-108">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="87c5e-108">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="bda9f-104">Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="bda9f-104">You can create and post vendor invoices on behalf of nontaxpayer vendors.</span></span> <span data-ttu-id="bda9f-105">Você deve atribuir um estabelecimento fiscal a um site.</span><span class="sxs-lookup"><span data-stu-id="bda9f-105">You must assign a fiscal establishment to a site.</span></span> <span data-ttu-id="bda9f-106">Você também deve configurar um tipo de documento fiscal para as ordens de compra que você criar e lançar no nome de fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="bda9f-106">You must also set up a fiscal document type for purchase orders that you create and post on behalf of nontaxpayer vendors.</span></span> <span data-ttu-id="bda9f-107">Antes de criar e lançar faturas de fornecedores no nome de fornecedores que não são contribuintes, é necessário especificar o fornecedor como fornecedor que não é contribuinte.</span><span class="sxs-lookup"><span data-stu-id="bda9f-107">Before you can create and post vendor invoices on behalf of a nontaxpayer vendor, you must specify the vendor as a nontaxpayer vendor.</span></span> <span data-ttu-id="bda9f-108">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="bda9f-108">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="87c5e-109">Vá para Contas a pagar > Fornecedores > Todos os fornecedores.</span><span class="sxs-lookup"><span data-stu-id="87c5e-109">Go to Accounts payable > Vendors > All vendors.</span></span>
-2. <span data-ttu-id="87c5e-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="87c5e-110">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="87c5e-111">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="87c5e-111">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="87c5e-112">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="87c5e-112">Expand the Fiscal information section.</span></span>
-5. <span data-ttu-id="87c5e-113">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="87c5e-113">Click Edit.</span></span>
-6. <span data-ttu-id="87c5e-114">Selecione Sim no campo Gerar nota fiscal recebida.</span><span class="sxs-lookup"><span data-stu-id="87c5e-114">Select Yes in the Generate incoming fiscal document field.</span></span>
-    * <span data-ttu-id="87c5e-115">Marque esta opção para indicar que o fornecedor é um não contribuinte.</span><span class="sxs-lookup"><span data-stu-id="87c5e-115">Select this option to indicate that the vendor is a nontaxpayer.</span></span>  
-7. <span data-ttu-id="87c5e-116">Selecione Sim no campo Uso e consumo.</span><span class="sxs-lookup"><span data-stu-id="87c5e-116">Select Yes in the Use and consumption field.</span></span>
-8. <span data-ttu-id="87c5e-117">Selecione Não no campo Contribuinte do ICMS.</span><span class="sxs-lookup"><span data-stu-id="87c5e-117">Select No in the ICMS contributor field.</span></span>
-9. <span data-ttu-id="87c5e-118">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="87c5e-118">Click Save.</span></span>
-10. <span data-ttu-id="87c5e-119">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="87c5e-119">Close the page.</span></span>
-11. <span data-ttu-id="87c5e-120">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="87c5e-120">Close the page.</span></span>
-12. <span data-ttu-id="87c5e-121">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="87c5e-121">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
-13. <span data-ttu-id="87c5e-122">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="87c5e-122">Click New.</span></span>
-14. <span data-ttu-id="87c5e-123">No campo Conta de fornecedor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="87c5e-123">In the Vendor account field, enter or select a value.</span></span>
-    * <span data-ttu-id="87c5e-124">Selecione uma conta de fornecedor que é classificada como não contribuinte.</span><span class="sxs-lookup"><span data-stu-id="87c5e-124">Select a vendor account that is classified as a nontaxpayer.</span></span>  
-15. <span data-ttu-id="87c5e-125">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="87c5e-125">Click OK.</span></span>
-16. <span data-ttu-id="87c5e-126">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="87c5e-126">In the Item number field, enter or select a value.</span></span>
-17. <span data-ttu-id="87c5e-127">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="87c5e-127">In the CFOP field, enter or select a value.</span></span>
-18. <span data-ttu-id="87c5e-128">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="87c5e-128">In the Site field, enter or select a value.</span></span>
-19. <span data-ttu-id="87c5e-129">No campo Depósito, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="87c5e-129">In the Warehouse field, enter or select a value.</span></span>
-20. <span data-ttu-id="87c5e-130">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="87c5e-130">In the Quantity field, enter a number.</span></span>
-21. <span data-ttu-id="87c5e-131">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="87c5e-131">Click Save.</span></span>
-22. <span data-ttu-id="87c5e-132">No Painel de Ação, clique em Compra.</span><span class="sxs-lookup"><span data-stu-id="87c5e-132">On the Action Pane, click Purchase.</span></span>
-23. <span data-ttu-id="87c5e-133">Clique em Confirmar.</span><span class="sxs-lookup"><span data-stu-id="87c5e-133">Click Confirm.</span></span>
-24. <span data-ttu-id="87c5e-134">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="87c5e-134">Close the page.</span></span>
-25. <span data-ttu-id="87c5e-135">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="87c5e-135">Close the page.</span></span>
-26. <span data-ttu-id="87c5e-136">Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="87c5e-136">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
-27. <span data-ttu-id="87c5e-137">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="87c5e-137">In the list, click the link in the selected row.</span></span>
-28. <span data-ttu-id="87c5e-138">No Painel de Ação, clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="87c5e-138">On the Action Pane, click Invoice.</span></span>
-29. <span data-ttu-id="87c5e-139">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="87c5e-139">Click Invoice.</span></span>
-30. <span data-ttu-id="87c5e-140">Clique em Padrão de: Quantidade de recebimento de produtos para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="87c5e-140">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
-31. <span data-ttu-id="87c5e-141">No campo Quantidade padrão para linhas, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="87c5e-141">In the Default quantity for lines field, select an option.</span></span>
-32. <span data-ttu-id="87c5e-142">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="87c5e-142">Click OK.</span></span>
-33. <span data-ttu-id="87c5e-143">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="87c5e-143">Click Post.</span></span>
-34. <span data-ttu-id="87c5e-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="87c5e-144">Close the page.</span></span>
-35. <span data-ttu-id="87c5e-145">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="87c5e-145">Close the page.</span></span>
-36. <span data-ttu-id="87c5e-146">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.</span><span class="sxs-lookup"><span data-stu-id="87c5e-146">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Export/import NF-e process.</span></span>
-37. <span data-ttu-id="87c5e-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="87c5e-147">Click OK.</span></span>
+1. <span data-ttu-id="bda9f-109">Vá para Contas a pagar > Fornecedores > Todos os fornecedores.</span><span class="sxs-lookup"><span data-stu-id="bda9f-109">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="bda9f-110">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="bda9f-110">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="bda9f-111">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="bda9f-111">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="bda9f-112">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="bda9f-112">Expand the Fiscal information section.</span></span>
+5. <span data-ttu-id="bda9f-113">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="bda9f-113">Click Edit.</span></span>
+6. <span data-ttu-id="bda9f-114">Selecione Sim no campo Gerar nota fiscal recebida.</span><span class="sxs-lookup"><span data-stu-id="bda9f-114">Select Yes in the Generate incoming fiscal document field.</span></span>
+    * <span data-ttu-id="bda9f-115">Marque esta opção para indicar que o fornecedor é um não contribuinte.</span><span class="sxs-lookup"><span data-stu-id="bda9f-115">Select this option to indicate that the vendor is a nontaxpayer.</span></span>  
+7. <span data-ttu-id="bda9f-116">Selecione Sim no campo Uso e consumo.</span><span class="sxs-lookup"><span data-stu-id="bda9f-116">Select Yes in the Use and consumption field.</span></span>
+8. <span data-ttu-id="bda9f-117">Selecione Não no campo Contribuinte do ICMS.</span><span class="sxs-lookup"><span data-stu-id="bda9f-117">Select No in the ICMS contributor field.</span></span>
+9. <span data-ttu-id="bda9f-118">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="bda9f-118">Click Save.</span></span>
+10. <span data-ttu-id="bda9f-119">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bda9f-119">Close the page.</span></span>
+11. <span data-ttu-id="bda9f-120">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bda9f-120">Close the page.</span></span>
+12. <span data-ttu-id="bda9f-121">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="bda9f-121">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+13. <span data-ttu-id="bda9f-122">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="bda9f-122">Click New.</span></span>
+14. <span data-ttu-id="bda9f-123">No campo Conta de fornecedor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="bda9f-123">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="bda9f-124">Selecione uma conta de fornecedor que é classificada como não contribuinte.</span><span class="sxs-lookup"><span data-stu-id="bda9f-124">Select a vendor account that is classified as a nontaxpayer.</span></span>  
+15. <span data-ttu-id="bda9f-125">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bda9f-125">Click OK.</span></span>
+16. <span data-ttu-id="bda9f-126">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="bda9f-126">In the Item number field, enter or select a value.</span></span>
+17. <span data-ttu-id="bda9f-127">No campo CFOP, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="bda9f-127">In the CFOP field, enter or select a value.</span></span>
+18. <span data-ttu-id="bda9f-128">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="bda9f-128">In the Site field, enter or select a value.</span></span>
+19. <span data-ttu-id="bda9f-129">No campo Depósito, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="bda9f-129">In the Warehouse field, enter or select a value.</span></span>
+20. <span data-ttu-id="bda9f-130">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="bda9f-130">In the Quantity field, enter a number.</span></span>
+21. <span data-ttu-id="bda9f-131">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="bda9f-131">Click Save.</span></span>
+22. <span data-ttu-id="bda9f-132">No Painel de Ação, clique em Compra.</span><span class="sxs-lookup"><span data-stu-id="bda9f-132">On the Action Pane, click Purchase.</span></span>
+23. <span data-ttu-id="bda9f-133">Clique em Confirmar.</span><span class="sxs-lookup"><span data-stu-id="bda9f-133">Click Confirm.</span></span>
+24. <span data-ttu-id="bda9f-134">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bda9f-134">Close the page.</span></span>
+25. <span data-ttu-id="bda9f-135">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bda9f-135">Close the page.</span></span>
+26. <span data-ttu-id="bda9f-136">Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="bda9f-136">Go to Accounts payable > Purchase orders > All purchase orders.</span></span>
+27. <span data-ttu-id="bda9f-137">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="bda9f-137">In the list, click the link in the selected row.</span></span>
+28. <span data-ttu-id="bda9f-138">No Painel de Ação, clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="bda9f-138">On the Action Pane, click Invoice.</span></span>
+29. <span data-ttu-id="bda9f-139">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="bda9f-139">Click Invoice.</span></span>
+30. <span data-ttu-id="bda9f-140">Clique em Padrão de: Quantidade de recebimento de produtos para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="bda9f-140">Click Default from: Product receipt quantity to open the drop dialog.</span></span>
+31. <span data-ttu-id="bda9f-141">No campo Quantidade padrão para linhas, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="bda9f-141">In the Default quantity for lines field, select an option.</span></span>
+32. <span data-ttu-id="bda9f-142">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bda9f-142">Click OK.</span></span>
+33. <span data-ttu-id="bda9f-143">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="bda9f-143">Click Post.</span></span>
+34. <span data-ttu-id="bda9f-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bda9f-144">Close the page.</span></span>
+35. <span data-ttu-id="bda9f-145">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="bda9f-145">Close the page.</span></span>
+36. <span data-ttu-id="bda9f-146">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.</span><span class="sxs-lookup"><span data-stu-id="bda9f-146">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Export/import NF-e process.</span></span>
+37. <span data-ttu-id="bda9f-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bda9f-147">Click OK.</span></span>
 
