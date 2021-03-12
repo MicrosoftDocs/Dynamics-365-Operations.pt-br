@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 8e9ae16fea892d1d6b6a6b5d06137576623e7f5b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 3f94053920b475ef9190b5ac65a5f9ca01dcd4a1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422573"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996114"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimento sobre a capacidade do local
 
@@ -408,6 +407,3 @@ Agora, você pode separar a ordem de venda 2. Ele se tornou desbloqueada quando 
 - Se desejar, você poderá substituir manualmente a disponibilidade de trabalho de reabastecimento para cada cabeçalho de trabalho da página **Detalhes do trabalho**.
 - Quando o sistema define a disponibilidade do trabalho de reabastecimento, ele considera qualquer estoque que já esteja no local antes da conclusão de qualquer trabalho
 - Cada item de trabalho da ordem de venda é vinculado a um trabalho de reabastecimento específico. Não há funcionalidade de disponibilidade de trabalho de vendas correspondente.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,7 +10,6 @@ ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
@@ -18,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0c561c39dfcbfa739c5a22394c05191e7f9bc107
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 86cdd70919926243bbf2cb5cc2f26690accdac80
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410154"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4993669"
 ---
 # <a name="cash-management-improvements"></a>Aprimoramentos de gerenciamento de pagamento à vista
 
@@ -62,6 +61,3 @@ No Retail versão 10.0.3 e posterior, os seguintes recursos relacionados a trans
 - Durante a reconciliação, se a transação selecionada não for equilibrada, o usuário deve inserir uma descrição do motivo da reconciliação desbalanceada. Os usuários podem selecionar uma única transação e reconciliá-la com a descrição do motivo relevante, conforme necessário.
 - Os usuários podem continuar a reconciliar e desestruturar as transações até que a mudança seja encerrada. Depois que um turno é fechado, as transações não podem ser reconciliadas.
 - Quando um usuário escolhe fechar um turno, o Commerce valida que não há transações de gerenciamento de pagamento à vista não reconciliadas no turno. Os usuários não podem fechar um turno se houver transações não reconciliadas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

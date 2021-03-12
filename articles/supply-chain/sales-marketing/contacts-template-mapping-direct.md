@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: a252c3ecb12cb6a4dc429f35c8aeab6bd3914d03
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 8cbc2909c3f4533b4ea68e522f0874873989f3ce
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528940"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4994034"
 ---
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-supply-chain-management"></a>Sincronizar contatos diretamente do Sales com contatos ou clientes do Supply Chain Management
 
@@ -33,7 +32,7 @@ ms.locfileid: "4528940"
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 > [!NOTE]
-> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Common Data Service para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
 
 Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar entidades de Contato (Contatos) e Contato (Clientes) diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 
@@ -47,7 +46,7 @@ A solução Prospect to cash usa o recurso Integração de dados para sincroniza
 
 Para acessar os modelos disponíveis, abra o [Centro de administração do PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
-Os modelos e as tarefas subjacentes a seguir são usados para sincronizar entidades de Contato (Contatos) no Sales com entidades de Contato (Clientes) no Supply Chain Management.
+Os modelos e as tarefas subjacentes a seguir são usados para sincronizar tabelas de Contato (Contatos) no Sales com tabelas de Contato (Clientes) no Supply Chain Management.
 
 - **Nomes dos modelos na Integração de dados**
 
@@ -65,7 +64,7 @@ A tarefa de sincronização a seguir é necessária para que a sincronização d
 
 | Vendas    | Gerenciamento da Cadeia de Fornecedores |
 |----------|------------------------|
-| Contatos | Contatos do CDS           |
+| Contatos | Contatos do Dataverse           |
 | Contatos | Clientes V2           |
 
 ## <a name="entity-flow"></a>Fluxo de entidades
@@ -79,13 +78,13 @@ Um contato no Sales pode se tornar um contato ou um cliente no Supply Chain Mana
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>Solução Prospect to cash para o Sales
 
-Um novo campo **É Cliente Ativo** foi adicionado ao contato. Esse campo é usado para diferenciar os contatos com atividade de venda dos contatos que não têm atividade de venda. **É Cliente Ativo** só será definido como **Sim** para os contatos com cotações, ordens ou faturas relacionadas. Somente esses contatos são sincronizados com o Supply Chain Management como clientes.
+Uma nova coluna **É Cliente Ativo** foi adicionada ao contato. Essa coluna é usada para diferenciar os contatos com atividade de venda dos contatos que não têm atividade de venda. **É Cliente Ativo** só será definido como **Sim** para os contatos com cotações, ordens ou faturas relacionadas. Somente esses contatos são sincronizados com o Supply Chain Management como clientes.
 
-Um novo campo **IsCompanyAnAccount** foi adicionado ao contato. Esse campo indica se um contato está vinculado a uma empresa (conta/contato primário) do tipo **Conta**. Essa informação é usada para identificar os contatos que devem ser sincronizados com o Supply Chain Management como contatos.
+Uma nova coluna **IsCompanyAnAccount** foi adicionada ao contato. Essa coluna indica se um contato está vinculado a uma empresa (conta/contato primário) do tipo **Conta**. Essa informação é usada para identificar os contatos que devem ser sincronizados com o Supply Chain Management como contatos.
 
-Um novo campo **Número de Contato** foi adicionado ao contato para ajudar a garantir uma chave natural e exclusiva para a integração. Quando um novo contato é criado, um valor **Número de Contato** é automaticamente gerado usando uma sequência numérica. O valor consiste em **CON** seguido por uma sequência numérica crescente e então um sufixo de seis caracteres. Veja um exemplo: **CON-01000-BVRCPS**
+Uma nova coluna **Número de Contato** foi adicionada ao contato para ajudar a garantir uma chave natural e exclusiva para a integração. Quando um novo contato é criado, um valor **Número de Contato** é automaticamente gerado usando uma sequência numérica. O valor consiste em **CON** seguido por uma sequência numérica crescente e então um sufixo de seis caracteres. Veja um exemplo: **CON-01000-BVRCPS**
 
-Quando a solução de integração para o Sales é aplicada, um script de atualização define o campo **Número de Contato** para os contatos existentes usando a sequência numérica mencionada anteriormente. O script de atualização também define o campo **É Cliente Ativo** como **Sim** para todos os contatos com atividade de venda.
+Quando a solução de integração para o Sales é aplicada, um script de atualização define a coluna **Número de Contato** para os contatos existentes usando a sequência numérica mencionada anteriormente. O script de atualização também define a coluna **É Cliente Ativo** como **Sim** para todos os contatos com atividade de venda.
 
 ## <a name="in-supply-chain-management"></a>No Supply Chain Management
 
@@ -95,7 +94,7 @@ Os Contatos são marcados com a propriedade **IsContactPersonExternallyMaintaine
 
 ### <a name="contact-to-customer"></a>Contato para cliente
 
-- **CustomerGroup** é necessário no Supply Chain Management. Para ajudar a evitar erros de sincronização, você poderá especificar um valor padrão no mapeamento. O valor padrão é usado se o campo for deixado em branco no Sales.
+- **CustomerGroup** é necessário no Supply Chain Management. Para ajudar a evitar erros de sincronização, você poderá especificar um valor padrão no mapeamento. O valor padrão é usado se a coluna for deixado em branco no Sales.
 
     O valor do modelo padrão é **10**.
 
@@ -118,7 +117,7 @@ Os Contatos são marcados com a propriedade **IsContactPersonExternallyMaintaine
 As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integração de dados. 
 
 > [!NOTE]
-> O mapeamento mostra quais informações de campo serão sincronizadas do Sales com o Supply Chain Management.
+> O mapeamento mostra quais informações de coluna serão sincronizadas do Sales com o Supply Chain Management.
 
 ### <a name="contact-to-contact"></a>Contato para contato
 
@@ -142,6 +141,3 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 [Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: d7d167c4a8035231ea3c5630001d3aeccbcd7988
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 9920d24ea92196331ea318cab2f67501801937bd
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4644912"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4995081"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página inicial do Finance insights (versão prévia)
 
@@ -67,7 +66,7 @@ As alterações serão feitas no Microsoft Dynamics 365 Finance, Microsoft Dynam
 - O administrador de locatários do Active Directory terá que autorizar o aplicativo AI Builder a acessar o data lake.
 - O recurso será ativado no Dynamics 365.
 
-A familiaridade com o processo de criação e gerenciamento de recursos no Azure, Common Data Service e LCS será útil ao concluir esse processo.
+A familiaridade com o processo de criação e gerenciamento de recursos no Azure, Microsoft Dataverse e LCS será útil ao concluir esse processo.
 
 ## <a name="configure-finance-insights"></a>Configurar o Finance Insights
 
@@ -130,6 +129,3 @@ Envie um email para [insights de pagamento do cliente (versão prévia)](mailto:
 ## <a name="privacy-notice"></a>Aviso de privacidade
 
 As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
