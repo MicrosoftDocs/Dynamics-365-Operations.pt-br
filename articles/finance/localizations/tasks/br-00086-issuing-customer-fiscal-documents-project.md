@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c810540c9efda9adfa1b0878b54a2ee6835a8e82
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0456387beca11b2703deb7d14190ba8d38c5a5d0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408473"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000361"
 ---
 # <a name="issue-customer-fiscal-documents-project-brazil"></a>Emitir notas fiscais para clientes (projeto) (Brasil)
 
@@ -76,6 +75,3 @@ ms.locfileid: "4408473"
 45. Feche a página.
 46. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

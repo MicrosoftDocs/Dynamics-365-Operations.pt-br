@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy, TMSLoadBuildWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 710446db7746ed3cd3fb9754caeaa15fd2f76641
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 6ecadb06adce5a0cbf1614c7da8fc65cb801e249
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422544"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5001165"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -210,6 +209,3 @@ Além das restrições que se aplicam no momento a produtos de peso variável, o
 
 > [!NOTE]
 > As informações anteriores sobre marcas de peso variável só são válidas se o produto de peso variável tem um método de rastreamento de dimensão de marca de peso variável que é totalmente rastreado (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável está definido como **Dimensões do produto, dimensões de rastreamento e todas as dimensões de armazenamento**). Se o item de peso variável só é parcialmente rastreado por marca (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável estiver definido como **Dimensões do produto, dimensões de rastreamento e status de estoque**), outras restrições são aplicadas. Como nesse caso a visibilidade é perdida entre a marca e o estoque, não há suporte para alguns cenários adicionais.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

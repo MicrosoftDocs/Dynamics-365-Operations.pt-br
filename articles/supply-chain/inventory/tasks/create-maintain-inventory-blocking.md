@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 12c6e047e15aaab157e6de70f4a09f500af2965f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: eab6730daa2eb7df0f91d99d1026d4736285fef9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422449"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000050"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Criar e manter um bloqueio de estoque
 
@@ -52,6 +51,3 @@ Este procedimento mostra como evitar que o estoque físico disponível seja rese
 2. Clique em **Sim**.
 3. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

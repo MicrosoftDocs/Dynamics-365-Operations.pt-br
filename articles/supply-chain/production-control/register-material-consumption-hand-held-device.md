@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67fbb8eebb637a96638c574373441213c66e9ddc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 40779d1f8bc14072928767ae1c83fdda47476871
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422464"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998869"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar o consumo de materiais usando um dispositivo móvel
 
@@ -34,14 +33,14 @@ Este tópico descreve um fluxo de trabalho que permite o registro do consumo de 
 <a name="introduction"></a>Introdução
 ------------
 
-Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade do material. Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo. Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre. Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade. Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil. [![configurar um fluxo de trabalho para habilitar o registro de consumo de matéria-prima usando um dispositivo portátil](./media/scenario3.png)](./media/scenario3.png)
+Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade de materiais. Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo. Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre. Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade. Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil. [![configurar um fluxo de trabalho para habilitar o registro de consumo de matéria-prima usando um dispositivo portátil](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Detalhes do cenário
 
 Um processo contínuo de produção (5) consome a matéria-prima controlada por lote RM-100. O material está disponível no local Bulk-001 (1) na placa PL-1 com dois lotes, B1 e B2, ambos com uma quantidade de 100 lbs. O trabalho de depósito (2) é liberado e processado para RM-100 e o material é colhido de Bulk-001 para o local de entrada de produção PIL-01 (3), que é definido como não-placa de matrícula controlada. O operador da máquina pesa o material do local de entrada de produção (3) e registra o peso e o número do lote como consumido (4). Do local de entrada de produção, uma parte do material é adicionada manualmente ao processo de produção em intervalos de tempo definidos. Quando o operador da máquina adiciona material, é pesado em uma escala e o número do lote é registrado.
 
-## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>Configure o fluxo de trabalho para registrar o consumo usando um dispositivo de mão
-Crie um produto acabado-bom, FG-100, com uma lista de materiais que possui a matéria-prima MR-100 controlada por lote. Adicione dois lotes, B1 e B2, de RM-100 em uma quantidade de 100 para o local: Bulk-001 na placa: PL-1. O princípio de liberação na linha da lista de materiais para RM-100 é **Manual**. Defina a localização da entrada de produção para PIL-01. Você pode fazer isso selecionando esta localização como a localização de entrada de produção padrão no depósito 51.
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Configurar o fluxo de trabalho para registrar o consumo usando um dispositivo portátil
+Crie um produto de mercadoria concluída, FG-100, com uma lista de materiais que tenha a matéria-prima controlada por lote RM-100. Adicione dois lotes, B1 e B2, de RM-100 em uma quantidade de 100 ao local: Bulk-001 na placa de licença: PL-1. O princípio de liberação na linha da lista de materiais para RM-100 é **Manual**. Defina o local de entrada de produção como PIL-01. Você pode fazer isso selecionando esta localização como a localização de entrada de produção padrão no depósito 51.
 
 1.  Crie um novo item de menu de dispositivo móvel: 
 
@@ -62,13 +61,13 @@ A ordem de produção é **Estimada** e **Liberada** e o trabalho de depósito �
 
 4.  Complete o trabalho usando o fluxo de trabalho para a escolha da matéria-prima para o dispositivo portátil.
 
-Isso trará o material da localização em massa para o local de entrada de produção PIL-01. Depois que o trabalho for concluído, o material terá o status **Escolhido no local de entrada de produção**. O status depois que os trabalhos foram processados pode ser **Separado** ou **Reservado**. Isso é configurado com o parâmetro **Status da emissão depois de colocar no formulário do depósito**.
+Isso trará o material da localização em massa para o local de entrada de produção PIL-01. Depois que o trabalho for concluído, o material terá o status **Separado no local de entrada de produção**. O status depois que os trabalhos foram processados pode ser **Separado** ou **Reservado**. Isso é configurado com o parâmetro **Status da emissão depois de colocar no formulário do depósito**.
 
 5.  Inicie a ordem de produção a partir do cliente ou do dispositivo portátil usando o item de menu **Início da produção**.
 
 Depois que a ordem de produção for iniciada, você pode registrar o consumo de material com o fluxo de trabalho do dispositivo portátil. Vamos começar registrando o consumo de 25 lbs do lote B1.
 
-6.  Selecione o item de menu  **Registrar consumo de** **material** no menu para o dispositivo portátil, e insira os seguintes detalhes: 
+6.  Selecione o item de menu **Registrar consumo de** **material** no menu para o dispositivo portátil e insira os seguintes detalhes: 
 
 -    O número da ordem de produção. 
 -    A localização em que o material será consumido, neste caso PIL-01. 
@@ -78,20 +77,17 @@ Depois que a ordem de produção for iniciada, você pode registrar o consumo de
 
 7.  Selecione **OK**.
 
-Observe que a mensagem "Linha do diário criada" aparece no visor. Na ordem de produção há um diário aberto do tipo **Lista de separação da produção** para o número de item RM-100 e o número de lote B1. 
+Observe que a mensagem "Linha do diário criada" aparece na tela. Na ordem de produção há um diário aberto do tipo **Lista de separação da produção** para o número de item RM-100 e o número de lote B1. 
 
 Agora você pode escolher continuar o registro, por exemplo, o número de lote B2, e toda vez que você selecionar **OK,** uma nova linha de diário será adicionada ao diário aberto. 
 
-Após concluir o registro, selecione **Feito** para lançar o diário e termine o fluxo de trabalho.
+Após concluir o registro, selecione **Concluído** para lançar o diário e encerrar o fluxo de trabalho.
 
 ### <a name="additional-comments"></a>Comentários adicionais 
 
--   Se um usuário cancelar o fluxo de trabalho após a criação de uma linha de diário, o diário fica em um estado não posicionado, mas se o usuário em um ponto posterior usar o fluxo de trabalho para a mesma ordem de produção, as linhas serão adicionadas ao diário aberto, em vez de um novo diário.
--   O novo fluxo de trabalho também suporta o registro de números de série.
+-   Se um usuário cancelar o fluxo de trabalho após a criação de uma linha de diário, o diário ficará em um estado não lançado, mas, se o usuário posteriormente usar o fluxo de trabalho para a mesma ordem de produção, as linhas serão adicionadas ao diário aberto, em vez de um novo diário.
+-   O novo fluxo de trabalho também oferece suporte ao registro de números de série.
 -   Só é possível registrar um número de item definido na lista de materiais ou na fórmula para a ordem de produção selecionada ou a ordem do lote.
 -   O material pode ser consumido em excesso. Por exemplo, se for estimado que o material será consumido com a quantidade de 100 libras, então pode ser consumido em excesso com uma quantidade de, por exemplo, 105 libras.
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

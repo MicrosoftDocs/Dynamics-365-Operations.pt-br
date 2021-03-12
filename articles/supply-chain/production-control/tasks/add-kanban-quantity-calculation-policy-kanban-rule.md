@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules, KanbanQuantityCalculation
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 039c4aaa355cf2b850ded06913e8e39ee8cac543
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ab17ba5a6ee950c2d3977990123a8f9277f858ea
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421916"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998796"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Adicionar uma política de cálculo de quantidade de kanbans a uma regra kanban
 
@@ -63,6 +62,3 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 8. Na lista, clique no link na linha selecionada.
     * Selecione a política Speaker2016 que você acabou de criar na subtarefa anterior.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
