@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 74acfab28d45fc75c4ecd595aeba1fb1e13bbcff
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a5dbe0d822f7bdb1a62a99c43ef9f7170c889676
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440433"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988868"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 
@@ -56,6 +55,3 @@ Você pode importar taxas de câmbio da origem de provedores da taxa de câmbio 
 | **Substituir taxas de câmbio existentes**   | Esta caixa de seleção gerencia a atualização da taxa de câmbio existente para um par de moedas quando já existir a taxa de câmbio para uma data específica. Se você não marcar esta caixa de seleção, a taxa de câmbio para as datas específicas não será importada, se já existir outra taxa de câmbio.                                                                                       |
 | **Evitar importação em feriado nacional** | Esta caixa de seleção gerencia a importação da taxa de câmbio para a data de feriado público. Por exemplo, se você marcar esta caixa de seleção e usar o Banco Central Europeu como o provedor da taxa de câmbio, o sistema não atualizará a taxa de câmbio em um feriado que é relacionado à entidade legal atual. Esta opção talvez não esteja disponível para alguns provedores. |
 | **Taxa do dia anterior** | Esta caixa de seleção estará disponível se você habilitar o recurso **Importação do ECB na data atual ou anterior** na página **Gerenciamento de recursos**. Esta caixa de seleção está disponível apenas para o fornecedor *Banco Central Europeu*. Marque esta caixa de seleção para importar a taxa de câmbio da moeda publicada pelo Banco Central Europeu no dia útil anterior aproximadamente às 16h00 CET. Por padrão, a caixa de seleção é selecionada. Desmarque esta caixa de seleção para importar a taxa de câmbio da moeda que for publicada no mesmo dia útil.  |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

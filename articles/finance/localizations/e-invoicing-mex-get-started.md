@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6d15a79a359b3c708b2b33893d700377a57c3eb7
-ms.sourcegitcommit: cfd84321fba38e02e270d361df369a536a48efa3
+ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "4512225"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988461"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Introdução ao complemento de faturamento eletrônico para o México
 
@@ -299,6 +298,3 @@ Habilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI
 - [Visão geral do complemento de faturamento eletrônico](e-invoicing-service-overview.md)
 - [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md)
 - [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

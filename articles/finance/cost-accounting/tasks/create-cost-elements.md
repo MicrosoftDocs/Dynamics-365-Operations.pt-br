@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 87f93fd7c1c42045274d6b89847b27e93614d9a4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f58b6896dd5b9e257bf6066e56142dcd2d8fb45
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440487"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990782"
 ---
 # <a name="create-cost-elements"></a>Criar elementos de custo   
 
@@ -58,6 +57,3 @@ Há várias maneiras de criar elementos de custo na Contabilização de custos. 
 1. Clique em Exibir membros da dimensão.
     * Exiba as contas contábeis importadas como elementos de custo na empresa para a qual os custos possam fluir.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

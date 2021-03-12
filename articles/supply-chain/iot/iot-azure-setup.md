@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: ''
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1277d2ab8bb1f2925874f7469250e164f6bde62d
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: cd06410dd6260e6a371b0044546be7f8c9957c80
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422497"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989812"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurar recursos do Azure para Inteligência de IoT
 
@@ -162,6 +161,3 @@ Para salvar o segredo da cadeia de conexão do cache Redis, siga estas etapas.
 > Sempre que você atualizar uma das cadeias de conexão, deverá atualizar também os valores secretos.
 
 Você concluiu o provisionamento dos recursos necessários do Azure. A próxima etapa é [instalar o suplemento de Inteligência de IOT Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

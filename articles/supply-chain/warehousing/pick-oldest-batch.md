@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f235c34d6369c6f0584a7bac1c1be75f3d84c9c0
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fdf6335bd333569e278ccd9cf3972c0ec57d4e6c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422063"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989659"
 ---
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Escolher o lote mais antigo em um dispositivo móvel
 
@@ -41,6 +40,3 @@ Para itens definidos de modo a usar o trabalho existente, **Escolher lote mais a
 **Avisar** e **Forçar**: Uma lista de lote(s) com a data de vencimento mais antiga será exibida acima do controle de lote quando o trabalhador selecionar um lote. Se a localização for controlada por placa de licença, uma lista de placas de licença com o lote mais antigo será exibida acima do controle de placa de licença. 
 -   **Avisar**: Se um trabalhador escolher uma placa de licença ou um lote que não esteja na lista exibida, o controle será cancelado e um aviso de que há um lote mais antigo a selecionar será exibido. Para poder continuar o trabalho, o trabalhador pode selecionar novamente a mesma placa de licença ou lote.  
 -   **Forçar**: os trabalhadores continuarão a receber a mensagem informando que há um lote mais antigo a escolher.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

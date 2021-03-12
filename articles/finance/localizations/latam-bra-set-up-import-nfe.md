@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EFDocumentReceivedXML_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: ''
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 943162d4119e46d7f635bc08bfc9332b45598ea8
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: 290d8c867d2f6dd0b2db94adf47a053582764276
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668964"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990110"
 ---
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 
@@ -63,6 +62,3 @@ Os arquivos XML e DANFE importados podem ser exibidos na página **Documentos XM
 1. Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.
 2. No campo **Intervalo mínimo entre as consultas**, insira o intervalo mínimo em minutos entre as consultas da chave de acesso de NF-e recebida na SEFAZ.
 3. Se necessário, insira os parâmetros de processamento em lotes, as recorrências e a agenda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

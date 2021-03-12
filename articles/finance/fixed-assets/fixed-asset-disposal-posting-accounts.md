@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 3461
 ms.assetid: dfdc0730-e030-48cc-8d93-15bdc7b23776
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9a46125dbe5262ba388e3958ea452975a98243f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 67d9c386b5da90918226e8b1a224bf628c65702b
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440332"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988993"
 ---
 # <a name="fixed-asset-disposal-posting-accounts"></a>Contas de lançamento de alienação de ativos fixos
 
@@ -43,6 +42,3 @@ A transação de alienação de um ativo em um grupo de valor baixo reduz o valo
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

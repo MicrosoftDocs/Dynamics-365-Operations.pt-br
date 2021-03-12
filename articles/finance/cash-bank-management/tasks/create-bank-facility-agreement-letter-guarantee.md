@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 165552cade2a38d9605240ab6a8ff423585786ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: edeadc1b8502171b9ce892efdaeb9347e399b771
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440336"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989093"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Criar um contrato de recursos bancários para a carta de garantia
 
@@ -57,6 +56,3 @@ Essa tarefa cria um contrato de recursos bancários para processar uma carta de 
 5. Clique em Salvar.
 6. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: AccountingDistribution, LedgerAllocationRule, MainAccount, AllocationTerms
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 17361
 ms.assetid: 04c8548a-0af9-492b-954b-946b4f8ca023
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 637e12f0deaa53811093a8745bc74dbc19e34f6b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4f529852f63c3dd12064c74403a12f6f3041691e
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440264"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988657"
 ---
 # <a name="allocation-terms"></a>Condições de Alocação
 
@@ -70,6 +69,3 @@ Na guia rápida **Conta contábil de destino**, a conta principal será a mesma 
 > Opcionalmente, você pode usar o botão **Copiar** para duplicar a alocação selecionada.
 
 Quando uma condição de alocação for criada para uma conta principal, o sistema lançará automaticamente um novo comprovante quando um comprovante for lançado com as dimensões financeiras de origem nas condições de alocação.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

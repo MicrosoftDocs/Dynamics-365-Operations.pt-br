@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a1fa7dfb1627c6810a8272544d0118cea3045464
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c6fbdf37373dc56607022adae843982b2bb6a497
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408489"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4988305"
 ---
 # <a name="withholding-taxes-on-vendor-payments-brazil"></a>Impostos retidos na fonte em pagamentos de fornecedores (Brasil)
 
@@ -93,6 +92,3 @@ Você pode usar a página Comprovante de diário para inserir e lançar pagament
 62. Feche a página.
 63. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

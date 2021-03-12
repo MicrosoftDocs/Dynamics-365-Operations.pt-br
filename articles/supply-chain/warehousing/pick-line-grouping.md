@@ -3,7 +3,7 @@ title: Agrupamento de linhas de separação
 description: Este tópico oferece uma visão geral de agrupamento de linhas de separação.
 author: Mirzaab
 manager: tfehr
-ms.date: 12/10/2019
+ms.date: 12/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -11,68 +11,85 @@ ms.technology: ''
 ms.search.form: WHSRFMenuItem,WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Supply Chain Management
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: b3497d43a500898207ed5154721ee0e3a327fb93
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: e70244d46ec2787fefdb097d0354af7910b55e9c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422517"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4989709"
 ---
 # <a name="pick-line-grouping"></a>Agrupamento de linhas de separação
 
 [!include [banner](../includes/banner.md)]
 
-No agrupamento de linhas de separação, várias linhas de trabalho que têm o mesmo item e local podem ser combinadas em uma única separação que é apresentada ao usuário em um dispositivo móvel. Portanto, os trabalhadores de depósito podem receber as instruções mais eficientes possíveis, mas a separação necessária de linhas de trabalho no sistema também é mantida (por exemplo, para diferentes contêineres e ordens).
+O agrupamento de linhas de separação permite que várias linhas de trabalho que têm o mesmo item e local podem ser combinadas em uma única separação que é apresentada ao usuário em um dispositivo móvel. Portanto, os trabalhadores de depósito podem receber as instruções mais eficientes possíveis, mas a separação necessária de linhas de trabalho (para diferentes contêineres, ordens etc.) ainda pode ser mantida no sistema.
+
+## <a name="turn-on-the-pick-line-grouping-feature"></a>Ativar o recurso de agrupamento de linhas de separação
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+
+- **Módulo:** *Gerenciamento de Depósito*
+- **Nome do recurso:** *Agrupamento de linhas de separação*
 
 ## <a name="set-up-pick-line-grouping"></a>Configurar agrupamento de linhas de separação
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel** e criar um novo item de menu que é nomeado **Separação de linha do grupo de vendas – Direcionada ao usuário**.
-2. Em **Itens de menu do dispositivo móvel**, defina os seguintes valores:
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. No Painel de Ações, selecione **Novo**.
+1. No campo **Nome do item de menu** digite *Separação de linhas do grupo de vendas*.
+1. No campo **Título**, digite *Separação de linhas do grupo de vendas*. Esse título será exibido no menu do dispositivo móvel.
+1. No campo **Modo**, selecione *Trabalho*.
+1. Defina a opção **Usar trabalho existente** para *Sim*.
+1. Na FastTab **Geral**, defina os seguintes valores:
 
-    - No campo **Nome do item de menu** digite **Separação de Vendas - Linha do grupo**.
-    - No campo **Título**, digite **Separação de Vendas - Linha do grupo**.
-    - No campo **Modo**, selecione **Trabalho**.
-    - Defina a opção **Usar trabalho existente** para **Sim**.
+    - No campo **Direcionado por**, selecione *Direcionado pelo usuário*.
+    - Defina a opção **Gerar placa de licença** como *Sim*.
+    - Defina a opção **Separação por grupo** como *Sim*.
+    - Aceite os valores padrão para as opções restantes.
 
-3. Na Guia Rápida **Geral**, defina os seguintes valores:
+1. Siga estas etapas para configurar as classes de trabalho válidas para o item de menu do dispositivo móvel:
 
-    - No campo **Direcionado por**, selecione **Direcionado pelo usuário**.
-    - Defina a opção **Gerar placa de licença** como **Sim**.
-    - Defina a opção **Separação por grupo** como **Sim**.
+    1. Na FastTab **Classes de trabalho**, escolha **Novo**.
+    2. No campo **ID da classe de trabalho**, você pode selecionar *Vendas* ou *Separação de OV*, dependendo do depósito que você usará. Para esse cenário, selecione *Separação de OV*.
 
-4. Na Guia Rápida **Classes de trabalho**, siga estas etapas para configurar as classes de trabalho válidas para o item de menu do dispositivo móvel:
-
-    1. Selecione **Novo**.
-    2. No campo **ID da classe de trabalho**, selecione **Vendas** ou **Separação de OV**, dependendo do depósito que você usará.
-    3. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.
+        O campo **Tipo de ordem de serviço** é automaticamente definido como *Ordens de venda*.
 
 ### <a name="set-up-a-mobile-device-menu"></a>Configura um menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**. 
-1. Adicione o item de menu que você acabou de criar para o menu desejado.
+Siga estas etapas para adicionar o item de menu recém-criado ao menu **Saída**.
+
+1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. No Painel de Ações, selecione **Editar**.
+1. O painel de lista mostra todos os menus de dispositivos móveis existentes. Selecione *Saída* na lista.
+1. Na lista **Menus e itens de menu disponíveis**, localize e selecione o item de menu *Separação de linhas do grupo de vendas* que você criou.
+1. Selecione o botão de seta para a direita a fim de mover o item de menu *Separação de linhas do grupo de vendas* para a lista **Estrutura de menu**.
+1. Use os botões de seta para cima e para baixo para mover o item de menu para a posição desejada na estrutura de menu.
+1. No Painel de ações, selecione **Salvar**.
 
 ### <a name="set-up-a-work-template"></a>Configurar um modelo de trabalho
 
 1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
-1. Localize o modelo de trabalho que deve ser usado com essa função. Para este exemplo, selecione o modelo de trabalho **51 Estágio de separação** Contoso.
-1. No menu, selecione **Editar consulta**.
-1. Na guia **Classificação**, selecione **Adicionar** e, em seguida, defina os seguintes valores:
+1. No campo **Tipo de ordem de trabalho**, selecione *Ordens de compra*.
+1. Na grade **Visão geral**, localize e selecione o modelo de trabalho que deve ser usado com essa função. Para esse cenário, selecione o modelo *51 Estágio de separação*.
+1. No Painel de Ações, selecione **Editar consulta**.
+1. Na caixa de diálogo do editor, na guia **Classificação**, selecione **Adicionar** e defina os seguintes valores para a nova linha:
 
-    - No campo **Tabela**, selecione **Transações de trabalho temporário**.
-    - No campo **Tabela derivada**, selecione **Transações de trabalho temporário**.
-    - No campo **Campo**, selecione **Número do item**.
-    - No campo **Direção da pesquisa**, selecione **Crescente**.
+    - No campo **Tabela** coluna, selecione *Transações de trabalho temporário*.
+    - Na coluna **Tabela derivada**, selecione *Transações de trabalho temporário*.
+    - Na coluna **Campo**, selecione *Número do item*.
+    - Na coluna **Direção da pesquisa**, selecione *Crescente*.
 
-> [!NOTE]
+1. Selecione **OK** para fechar a caixa de diálogo e salvar a seleção.
+1. Você receberá a seguinte mensagem: "O agrupamento será redefinido. Deseja continuar?" Selecione **Sim** para continuar.
+
+> [!IMPORTANT]
 > Para que a funcionalidade agrupamento de linhas de separação funcione, as linhas de trabalho devem ser classificadas por ID do item. Se as linhas que têm os mesmos itens não forem sequenciadas uma após a outra, elas não serão agrupadas.
 
 ## <a name="example"></a>Exemplo
@@ -81,56 +98,75 @@ No agrupamento de linhas de separação, várias linhas de trabalho que têm o m
 
 Antes de configurar o agrupamento de linhas de separação, você deve criar algum trabalho de saída qualificado.
 
-1. Vá para **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
-2. Selecione **Novo** para criar uma ordem de venda. 
-3. No campo **Conta de cliente**, selecione qualquer cliente. 
-4. Na Guia Rápida **Geral**, no campo **Depósito**, selecione **51**. Em seguida, selecione **OK**.
-5. Nas **Linhas de ordem de venda**, adicione as seguintes seis linhas:
+1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Selecione **Novo** para criar uma ordem de venda.
+1. No campo **Conta do cliente**, selecione *US-004*.
+1. Na Guia Rápida **Geral**, no campo **Depósito**, selecione *51*.
+1. Selecione **OK**.
+1. Na FastTab **Linhas de ordem de venda**, adicione as seguintes seis linhas:
 
-    - **Linha 1:** No campo **Número do item**, selecione **M9200**. No campo **Quantidade**, insira **3**.
-    - **Linha 2:** No campo **Número do item**, selecione **M9201**. No campo **Quantidade**, insira **3**. 
-    - **Linha 3:** No campo **Número do item**, selecione **M9202**. No campo **Quantidade**, insira **2**. 
-    - **Linha 4:** No campo **Número do item**, selecione **M9200**. No campo **Quantidade**, insira **1**. 
-    - **Linha 5:** No campo **Número do item**, selecione **M9200**. No campo **Quantidade**, insira **3**.
-    - **Linha 6:** No campo **Número do item**, selecione **M9202**. No campo **Quantidade**, insira **7**. 
+    - **Linha 1:** No campo **Número do item**, selecione *M9200*. No campo **Quantidade**, insira *3*.
+    - **Linha 2:** No campo **Número do item**, selecione *M9201*. No campo **Quantidade**, insira *3*.
+    - **Linha 3:** No campo **Número do item**, selecione *M9202*. No campo **Quantidade**, insira *2*.
+    - **Linha 4:** No campo **Número do item**, selecione *M9200*. No campo **Quantidade**, insira *1*.
+    - **Linha 5:** No campo **Número do item**, selecione *M9200*. No campo **Quantidade**, insira *3*.
+    - **Linha 6:** No campo **Número do item**, selecione *M9202*. No campo **Quantidade**, insira *7*.
 
     Aqui está um resumo das quantidades totais de cada item:
 
-    - **Item M9200:** 7 cada
-    - **Item M9201:** 3 cada
-    - **Item M9202:** 9 cada
+    - **Item M9200:** *7* cada
+    - **Item M9201:** *3* cada
+    - **Item M9202:** *9* cada
 
-6. Antes de liberar as ordens para o depósito, você deve verificar se os locais de separação têm estoque suficiente para todos os itens em todas as ordens. Revise a configuração **Diretiva de localização** para determinar quais locais de separação são usadas para separação da ordem de venda.
-7. Reserve o estoque e libere-o para o depósito. Uma ID de trabalho que tem seis linhas é criada. As linhas são classificadas por número de item.
+1. Antes de liberar as ordens para o depósito, você deve verificar se os locais de separação têm estoque suficiente para todos os itens em todas as ordens. Revise a configuração **Diretiva de localização** para determinar quais locais de separação são usadas para separação da ordem de venda. Se estiver usando o ambiente de dados de demonstração da Contoso para o depósito *51*, confirme se há estoque disponível.
 
-### <a name="run-the-mobile-device-flow"></a>Execute o fluxo do dispositivo móvel
+    Agora reserve o estoque para cada linha.
 
-1. No dispositivo móvel, selecione o menu que inclui o novo item de menu do dispositivo móvel.
-1. Selecione o item de menu **Separação de Vendas – Linha do grupo** e inicie a separação.
+1. Na FastTab **Linhas de ordem de venda**, selecione uma das linhas que devem ser reservadas.
+1. No menu **Estoque** acima da grade, selecione **Reserva**.
+1. Na página **Reserva**, no Painel de Ações, selecione **Reservar lote** para aplicar a reserva. Depois feche a página.
+1. Repita as etapas 8 a 10 para as linhas restantes que devem ser reservadas.
 
-    Depois de selecionar o menu e inserir a ID de trabalho, você verá a etapa de seleção em que todas as linhas de separação do item M9200 são agrupadas. Você recebe uma instrução para selecionar 7 a cada M9200 do item.
+    Agora é necessário liberar a ordem de venda para o depósito.
 
-1. Confirme a etapa de separação. 
-1. Vá para a tela do cliente do trabalho em andamento e observe que todas as três linhas de separação do item M9200 foram fechadas simultaneamente.
+1. No Painel de Ações, na guia **Depósito**, selecione **Liberar para o depósito**.
 
-    A linha de trabalho 4 é apresentada.
+    Você receberá uma mensagem informando que uma remessa e um ciclo foram criados e que o ciclo foi enviado para execução em lote.
+
+    Quando o ciclo e todos os trabalhos downstream tiverem sido concluídos, uma ID de trabalho será criada para o trabalho com seis linhas. As linhas são classificadas por número de item.
+
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Todos os trabalhos** para exibir o trabalho criado. Anote o valor da **ID do Trabalho**, pois precisará usá-lo no próximo procedimento.
+
+### <a name="initiate-picking-from-the-mobile-device"></a>Iniciar a separação no dispositivo móvel
+
+1. Entre no dispositivo móvel como um usuário configurado para o depósito *51*.
+1. No dispositivo móvel, selecione o menu que inclui o novo item de menu do dispositivo móvel. Para esse cenário, selecione **Saída**.
+1. Selecione o item de menu **Separação de linhas do grupo de vendas** para iniciar a separação.
+1. Insira o valor **ID do Trabalho** que anotou no procedimento anterior.
+
+    Você verá uma etapa de separação em que todas as linhas de separação do item *M9200* são agrupadas e será instruído a separar *7* de cada item *M9200*.
+
+    > [!IMPORTANT]
+    > No dispositivo móvel, o trabalho de separação para as três linhas de trabalho de separação foi agregado em uma etapa de separação para o usuário.
 
 1. Confirme a etapa de separação.
-
-    A última etapa de separação no dispositivo móvel agrega as duas últimas linhas de separação da ordem de trabalho.
-
-1. Conclua a etapa de separação para 9 cada um dos itens M9202.
+1. Vá para a página do trabalho para obter a ID do trabalho e observe que todas as três linhas de separação do item *M9200* foram fechadas simultaneamente.
+1. Volte para o dispositivo móvel e continue separando. A linha de trabalho 4 do item *M9201* deve ser apresentada. Como havia apenas uma linha de trabalho na ordem, não há nada a ser agregado.
+1. Confirme a etapa de separação.
+1. A última etapa de separação no dispositivo móvel agrega as duas últimas linhas de separação da ordem de trabalho.
+1. Conclua a etapa para separar *9* de cada um dos itens *M9202*.
 1. Confirme a etapa Put e os pares Separar/Colocar adicionais para concluir o trabalho.
 
-> [!NOTE]
+> [!IMPORTANT]
+>
 > - As linhas de trabalho podem ser agrupadas somente se estiverem em sequência.
 > - A seguinte funcionalidade não é suportada:
 >
->    - Itens de peso variável. Se houver itens de peso variável no trabalho, você receberá uma mensagem de erro antes de começar a separar.
->    - Separação de peças.
->    - Linhas de trabalho que têm trabalho de reabastecimento não concluído.
->    - Separação de ordens.
->    - Separação insuficiente com realocação de item
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+>   - Itens de peso variável
+>
+>    Se houver itens de peso variável no trabalho, você receberá uma mensagem de erro antes de começar a separar.
+>
+>   - Separação de peças
+>   - Linhas de trabalho que têm trabalho de reabastecimento não concluído
+>   - Separação em excesso
+>   - Separação insuficiente com realocação de item

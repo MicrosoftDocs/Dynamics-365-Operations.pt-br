@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 619432ab11a54753ffea97ac549dc480f56fcaa3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5850d1425d18e19abed51c62a2ba5016d17333e4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408491"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4990027"
 ---
 # <a name="service-electronic-fiscal-document-using-text-files-brazil"></a>Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)
 
@@ -37,6 +36,3 @@ Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo
 7. No campo Nota fiscal, insira ou selecione um valor.
 8. Clique em OK.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
