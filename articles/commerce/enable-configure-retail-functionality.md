@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 49621
 ms.assetid: 4dc762eb-190e-4485-8f55-b0cafc81bc37
 ms.search.region: global
@@ -19,53 +18,53 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 24d4d49c51738203bb89a9844d57f644b8afd4b7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8fd0b2743deab758538922f312853b622a512c0a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410099"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5000724"
 ---
-# <a name="initialize-seed-data-in-new-commerce-environments"></a><span data-ttu-id="e932a-103">Inicializar dados de propagação em novos ambientes do Commerce</span><span class="sxs-lookup"><span data-stu-id="e932a-103">Initialize seed data in new Commerce environments</span></span>
+# <a name="initialize-seed-data-in-new-commerce-environments"></a><span data-ttu-id="83557-103">Inicializar dados de propagação em novos ambientes do Commerce</span><span class="sxs-lookup"><span data-stu-id="83557-103">Initialize seed data in new Commerce environments</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="e932a-104">Este artigo descreve os dados que são criados como parte do processo de inicialização do Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="e932a-104">This article describes the data that's created as part of the initialization process for Dynamics 365 Commerce.</span></span>
+<span data-ttu-id="83557-104">Este artigo descreve os dados que são criados como parte do processo de inicialização do Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="83557-104">This article describes the data that's created as part of the initialization process for Dynamics 365 Commerce.</span></span>
 
-<span data-ttu-id="e932a-105">Depois que a solução Commerce tiver sido implantada por meio do Microsoft Dynamics Lifecycle Services (LCS), você deverá inicializar a configuração de Commerce para criar os dados básicos de configuração.</span><span class="sxs-lookup"><span data-stu-id="e932a-105">After the Commerce solution has been deployed through Microsoft Dynamics Lifecycle Services (LCS), you must initialize the Commerce configuration to create the basic configuration data.</span></span>
+<span data-ttu-id="83557-105">Depois que a solução Commerce tiver sido implantada por meio do Microsoft Dynamics Lifecycle Services (LCS), você deverá inicializar a configuração de Commerce para criar os dados básicos de configuração.</span><span class="sxs-lookup"><span data-stu-id="83557-105">After the Commerce solution has been deployed through Microsoft Dynamics Lifecycle Services (LCS), you must initialize the Commerce configuration to create the basic configuration data.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e932a-106">Antes de inicializar a configuração do Commerce, verifique se você especificou um idioma e um endereço postal para cada entidade legal em que vai configurar repositórios.</span><span class="sxs-lookup"><span data-stu-id="e932a-106">Before you initialize the commerce configuration, make sure that you've specified a language and a postal address for each legal entity where you will set up stores.</span></span> <span data-ttu-id="e932a-107">Essa etapa deve ser concluída para cada entidade legal usada para comércio.</span><span class="sxs-lookup"><span data-stu-id="e932a-107">This step must be completed for each legal entity that you use for commerce.</span></span>
+> <span data-ttu-id="83557-106">Antes de inicializar a configuração do Commerce, verifique se você especificou um idioma e um endereço postal para cada entidade legal em que vai configurar repositórios.</span><span class="sxs-lookup"><span data-stu-id="83557-106">Before you initialize the commerce configuration, make sure that you've specified a language and a postal address for each legal entity where you will set up stores.</span></span> <span data-ttu-id="83557-107">Essa etapa deve ser concluída para cada entidade legal usada para comércio.</span><span class="sxs-lookup"><span data-stu-id="83557-107">This step must be completed for each legal entity that you use for commerce.</span></span>
 
-<span data-ttu-id="e932a-108">Para inicializar a configuração, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="e932a-108">To initialize the configuration, follow these steps.</span></span>
+<span data-ttu-id="83557-108">Para inicializar a configuração, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="83557-108">To initialize the configuration, follow these steps.</span></span>
 
-1. <span data-ttu-id="e932a-109">Inicie o cliente do Commerce.</span><span class="sxs-lookup"><span data-stu-id="e932a-109">Start the Commerce client.</span></span>
-2. <span data-ttu-id="e932a-110">Clique em **Retail e Commerce** &gt; **Configuração da sede** &gt; **Parâmetros** &gt; **Parâmetros do Commerce**.</span><span class="sxs-lookup"><span data-stu-id="e932a-110">Click **Retail and Commerce** &gt; **Headquarters setup** &gt; **Parameters** &gt; **Commerce parameters**.</span></span>
-3. <span data-ttu-id="e932a-111">Clique em **Inicializar**.</span><span class="sxs-lookup"><span data-stu-id="e932a-111">Click **Initialize**.</span></span>
+1. <span data-ttu-id="83557-109">Inicie o cliente do Commerce.</span><span class="sxs-lookup"><span data-stu-id="83557-109">Start the Commerce client.</span></span>
+2. <span data-ttu-id="83557-110">Clique em **Retail e Commerce** &gt; **Configuração da sede** &gt; **Parâmetros** &gt; **Parâmetros do Commerce**.</span><span class="sxs-lookup"><span data-stu-id="83557-110">Click **Retail and Commerce** &gt; **Headquarters setup** &gt; **Parameters** &gt; **Commerce parameters**.</span></span>
+3. <span data-ttu-id="83557-111">Clique em **Inicializar**.</span><span class="sxs-lookup"><span data-stu-id="83557-111">Click **Initialize**.</span></span>
 
-<span data-ttu-id="e932a-112">A inicialização cria os seguintes dados de configuração padrão:</span><span class="sxs-lookup"><span data-stu-id="e932a-112">Initialization creates the following default configuration data:</span></span>
+<span data-ttu-id="83557-112">A inicialização cria os seguintes dados de configuração padrão:</span><span class="sxs-lookup"><span data-stu-id="83557-112">Initialization creates the following default configuration data:</span></span>
 
-- <span data-ttu-id="e932a-113">Trabalhos e subtrabalhos do agendador do Commerce</span><span class="sxs-lookup"><span data-stu-id="e932a-113">Commerce scheduler jobs and subjobs</span></span>
-- <span data-ttu-id="e932a-114">Esquema de canal de comércio</span><span class="sxs-lookup"><span data-stu-id="e932a-114">Commerce channel schema</span></span>
-- <span data-ttu-id="e932a-115">Agendas de distribuição do Commerce</span><span class="sxs-lookup"><span data-stu-id="e932a-115">Commerce distribution schedules</span></span>
-- <span data-ttu-id="e932a-116">Layouts de tela padrão, que inclui grades de botões, imagens e temas</span><span class="sxs-lookup"><span data-stu-id="e932a-116">Default screen layouts, which include button grids, images, and themes</span></span>
-- <span data-ttu-id="e932a-117">Informações sobre fuso horário</span><span class="sxs-lookup"><span data-stu-id="e932a-117">Time zone information</span></span>
-- <span data-ttu-id="e932a-118">Operações de PDV (ponto de venda)</span><span class="sxs-lookup"><span data-stu-id="e932a-118">Point-of-sale (POS) operations</span></span>
-- <span data-ttu-id="e932a-119">Permissões do PDV</span><span class="sxs-lookup"><span data-stu-id="e932a-119">POS permissions</span></span>
-- <span data-ttu-id="e932a-120">Relatórios do canal</span><span class="sxs-lookup"><span data-stu-id="e932a-120">Channel reports</span></span>
-- <span data-ttu-id="e932a-121">Metadados de atributo</span><span class="sxs-lookup"><span data-stu-id="e932a-121">Attribute metadata</span></span>
-- <span data-ttu-id="e932a-122">Modelos de validação de entidade</span><span class="sxs-lookup"><span data-stu-id="e932a-122">Entity validation templates</span></span>
-- <span data-ttu-id="e932a-123">Trabalho em lotes para limpar o histórico da sessão do Commerce Data Exchange</span><span class="sxs-lookup"><span data-stu-id="e932a-123">Batch job to purge Commerce Data Exchange session history</span></span>
+- <span data-ttu-id="83557-113">Trabalhos e subtrabalhos do agendador do Commerce</span><span class="sxs-lookup"><span data-stu-id="83557-113">Commerce scheduler jobs and subjobs</span></span>
+- <span data-ttu-id="83557-114">Esquema de canal de comércio</span><span class="sxs-lookup"><span data-stu-id="83557-114">Commerce channel schema</span></span>
+- <span data-ttu-id="83557-115">Agendas de distribuição do Commerce</span><span class="sxs-lookup"><span data-stu-id="83557-115">Commerce distribution schedules</span></span>
+- <span data-ttu-id="83557-116">Layouts de tela padrão, que inclui grades de botões, imagens e temas</span><span class="sxs-lookup"><span data-stu-id="83557-116">Default screen layouts, which include button grids, images, and themes</span></span>
+- <span data-ttu-id="83557-117">Informações sobre fuso horário</span><span class="sxs-lookup"><span data-stu-id="83557-117">Time zone information</span></span>
+- <span data-ttu-id="83557-118">Operações de PDV (ponto de venda)</span><span class="sxs-lookup"><span data-stu-id="83557-118">Point-of-sale (POS) operations</span></span>
+- <span data-ttu-id="83557-119">Permissões do PDV</span><span class="sxs-lookup"><span data-stu-id="83557-119">POS permissions</span></span>
+- <span data-ttu-id="83557-120">Relatórios do canal</span><span class="sxs-lookup"><span data-stu-id="83557-120">Channel reports</span></span>
+- <span data-ttu-id="83557-121">Metadados de atributo</span><span class="sxs-lookup"><span data-stu-id="83557-121">Attribute metadata</span></span>
+- <span data-ttu-id="83557-122">Modelos de validação de entidade</span><span class="sxs-lookup"><span data-stu-id="83557-122">Entity validation templates</span></span>
+- <span data-ttu-id="83557-123">Trabalho em lotes para limpar o histórico da sessão do Commerce Data Exchange</span><span class="sxs-lookup"><span data-stu-id="83557-123">Batch job to purge Commerce Data Exchange session history</span></span>
 
-<span data-ttu-id="e932a-124">Além disso, os registros relacionados à PCI (indústria de pagamento por cartão) estão habilitados para o banco de dados do Commerce.</span><span class="sxs-lookup"><span data-stu-id="e932a-124">Additionally, logging that is related to the payment card industry (PCI) is enabled for the Commerce database.</span></span>
+<span data-ttu-id="83557-124">Além disso, os registros relacionados à PCI (indústria de pagamento por cartão) estão habilitados para o banco de dados do Commerce.</span><span class="sxs-lookup"><span data-stu-id="83557-124">Additionally, logging that is related to the payment card industry (PCI) is enabled for the Commerce database.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e932a-125">Há uma opção para configurar separadamente o agendador do Commerce.</span><span class="sxs-lookup"><span data-stu-id="e932a-125">There is an option to separately configure the Commerce scheduler.</span></span> <span data-ttu-id="e932a-126">Essa opção permite redefinir a configuração do agendador do Commerce para suas configurações padrão.</span><span class="sxs-lookup"><span data-stu-id="e932a-126">This option lets you reset the Commerce scheduler configuration to its default settings.</span></span>
+> <span data-ttu-id="83557-125">Há uma opção para configurar separadamente o agendador do Commerce.</span><span class="sxs-lookup"><span data-stu-id="83557-125">There is an option to separately configure the Commerce scheduler.</span></span> <span data-ttu-id="83557-126">Essa opção permite redefinir a configuração do agendador do Commerce para suas configurações padrão.</span><span class="sxs-lookup"><span data-stu-id="83557-126">This option lets you reset the Commerce scheduler configuration to its default settings.</span></span>
 
-<span data-ttu-id="e932a-127">Depois que a inicialização for concluída, você deverá configurar os dados adicionais do Commerce.</span><span class="sxs-lookup"><span data-stu-id="e932a-127">After initialization is completed, you must configure additional commerce data.</span></span> <span data-ttu-id="e932a-128">Eis alguns exemplos:</span><span class="sxs-lookup"><span data-stu-id="e932a-128">Here are some examples:</span></span>
+<span data-ttu-id="83557-127">Depois que a inicialização for concluída, você deverá configurar os dados adicionais do Commerce.</span><span class="sxs-lookup"><span data-stu-id="83557-127">After initialization is completed, you must configure additional commerce data.</span></span> <span data-ttu-id="83557-128">Eis alguns exemplos:</span><span class="sxs-lookup"><span data-stu-id="83557-128">Here are some examples:</span></span>
 
-- <span data-ttu-id="e932a-129">Parâmetros de comércio</span><span class="sxs-lookup"><span data-stu-id="e932a-129">Commerce parameters</span></span>
-- <span data-ttu-id="e932a-130">Parâmetros do agendador do Commerce</span><span class="sxs-lookup"><span data-stu-id="e932a-130">Commerce scheduler parameters</span></span>
-- <span data-ttu-id="e932a-131">Canais do Commerce</span><span class="sxs-lookup"><span data-stu-id="e932a-131">Commerce channels</span></span>
-- <span data-ttu-id="e932a-132">Registros e dispositivos</span><span class="sxs-lookup"><span data-stu-id="e932a-132">Registers and devices</span></span>
-- <span data-ttu-id="e932a-133">Sortimentos</span><span class="sxs-lookup"><span data-stu-id="e932a-133">Assortments</span></span>
+- <span data-ttu-id="83557-129">Parâmetros de comércio</span><span class="sxs-lookup"><span data-stu-id="83557-129">Commerce parameters</span></span>
+- <span data-ttu-id="83557-130">Parâmetros do agendador do Commerce</span><span class="sxs-lookup"><span data-stu-id="83557-130">Commerce scheduler parameters</span></span>
+- <span data-ttu-id="83557-131">Canais do Commerce</span><span class="sxs-lookup"><span data-stu-id="83557-131">Commerce channels</span></span>
+- <span data-ttu-id="83557-132">Registros e dispositivos</span><span class="sxs-lookup"><span data-stu-id="83557-132">Registers and devices</span></span>
+- <span data-ttu-id="83557-133">Sortimentos</span><span class="sxs-lookup"><span data-stu-id="83557-133">Assortments</span></span>
