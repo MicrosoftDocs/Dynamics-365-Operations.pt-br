@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPricingDiscountCategoryPriceRule, RetailCategoryPriceRule, EcoResCategorySingleLookup, RetailCategoryPriceWizard, PriceDiscAdm, PriceDiscAdmTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 21b1986aa36aab23f50a5af434435f9e93318e45
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a945a0f49df92731175c1624da98831bbc5bb741
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410247"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006076"
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Regras de preços de categoria para criar contratos comerciais
 
@@ -59,6 +58,3 @@ Este procedimento mostra como criar contratos comerciais de preço de vendas usa
 24. Clique na guia Regras de preço de categoria.
     * As regras de definição de preços específicas da categoria do canal serão mostradas nesta lista.  
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ea50500ed52069ab9f6aae0dfb2d6cffc47cbff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421983"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006831"
 ---
 # <a name="mass-create-sales-quotations"></a>Criar cotações de venda em massa
 
@@ -101,6 +100,3 @@ Este procedimento demonstra como criar cotações de forma eficiente que oferece
 11. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
     * Verifique se as cotações foram criadas para todos os clientes especificados na rotina de atualização em massa, conforme baseado no modelo selecionado.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSPostMethod,WHSWaveTemplateTable,WHSLoadMixGroup,WHSLoadBuildTemplate, WHSWaveTableListPage, TMSLoadBuildTemplateApply, TMSLoadBuildTemplates, TMSLoadBuildTemplateCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 7f51b3d65c8dd1e11296956c37ef9dfe568e5ec2
-ms.sourcegitcommit: d9bffbeae2ba14f06294dd275383077d4d65c4fa
+ms.openlocfilehash: e4abe1a03997853053f60c750199874a61fc68c0
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/01/2020
-ms.locfileid: "4654189"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006382"
 ---
 # <a name="advanced-load-building-during-wave"></a>Criação de carga avançada durante ondas
 
@@ -250,6 +249,3 @@ Este cenário mostra como as configurações descritas anteriormente neste tópi
 1. Na ordem de venda recém-criada, na FastTab **Linhas de ordem de venda**, selecione **Adicionar linha** para adicionar outra linha.
 1. Na nova linha, defina o campo **Número do item** como *M9200* e o campo **Quantidade** como *1*.
 1. Repita as linhas de 6 a 9 para reservar a linha e liberá-la para o depósito. Como anteriormente, o sistema cria uma **nova** remessa para a linha que você adicionou. Porém, como o item é proveniente do grupo de itens **CarAudio**, ele **não passa as restrições configuradas para o grupo misto de cargas**. Por esse motivo, ele é **adicionado a uma nova carga**. Se você não tivesse especificado um grupo misto de cargas no modelo de criação de carga, essa remessa teria sido adicionada à primeira carga.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

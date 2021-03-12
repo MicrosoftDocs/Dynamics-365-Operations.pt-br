@@ -10,18 +10,17 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 82cec9861b759037f40315fb2e6f36002a0ac059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee924f5bf95d47814e7ca09b392a3d10b5e9b9dc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410255"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006251"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Atribuir listas de tarefas a lojas ou funcionários
 
@@ -92,6 +91,3 @@ Para rastrear o status da lista de tarefas de todas as tarefas atribuídas a voc
 [Criar listas de tarefas e adicionar tarefas](task-mgmt-create-lists.md)
 
 [Gerenciamento de tarefas em PDV](task-mgmt-POS.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

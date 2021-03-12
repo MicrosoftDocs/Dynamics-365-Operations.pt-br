@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0ab8456d81fbe2dca495b65b932395572242a25c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b0a5ca1e116e931ba992eab51a06dae9fdf92756
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410250"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006126"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
@@ -34,7 +33,7 @@ Este tópico descreve como utilizar o Gravador de tarefas no Retail Modern POS e
 
 ## <a name="overview"></a>Visão Geral
 
-O Gravador de tarefas do Retail Modern POS ou do PDV em Nuvem é uma nova solução que foi criada com foco na alta capacidade de resposta. Ele oferece uma API (interface de programa aplicativo) flexível para extensibilidade e integração direta com os registros dos consumidores do processo de negócios. Além disso, a integração do Gravador de tarefas com a ferramenta BPM (Modelador de processo de negócios) no Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) foi apresentada. Portanto, os usuários podem continuar a gerar diagramas sofisticados de processo de negócios a partir de gravações para analisar e projetar seus aplicativos.
+O Gravador de tarefas do Retail Modern POS ou do PDV em Nuvem é uma nova solução que foi criada com foco na alta capacidade de resposta. Ele oferece uma API (interface de programa aplicativo) flexível para extensibilidade e integração direta com os registros dos consumidores do processo de negócios. Além disso, a integração do Gravador de tarefas com a ferramenta BPM (Modelador de processo de negócios) no Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) foi apresentada. Portanto, os usuários podem continuar a gerar diagramas sofisticados de processo de negócios a partir de gravações para analisar e projetar seus aplicativos.
 
 ## <a name="architecture"></a>Arquitetura
 
@@ -146,6 +145,3 @@ Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá e
 
 > [!NOTE]
 > A ajuda no Retail Modern POS e Cloud POS não exibirá guias de tarefas de acordo com o formulário em que você está ou a operação que está fazendo. É necessário digitar o nome do processo na caixa de pesquisa e clique em **Pesquisar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
