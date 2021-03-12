@@ -11,93 +11,92 @@ ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm, SalesQuickQuote
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 227ff0dd03f8917f4551ce08067ef26c6204b059
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0ea50500ed52069ab9f6aae0dfb2d6cffc47cbff
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421983"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5006831"
 ---
-# <a name="mass-create-sales-quotations"></a><span data-ttu-id="d4d42-103">Criar cotações de venda em massa</span><span class="sxs-lookup"><span data-stu-id="d4d42-103">Mass create sales quotations</span></span>
+# <a name="mass-create-sales-quotations"></a><span data-ttu-id="10f7d-103">Criar cotações de venda em massa</span><span class="sxs-lookup"><span data-stu-id="10f7d-103">Mass create sales quotations</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="d4d42-104">Este procedimento demonstra como criar cotações de forma eficiente que oferecem um conjunto de produtos ou serviços que devem ser enviados a vários clientes.</span><span class="sxs-lookup"><span data-stu-id="d4d42-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="d4d42-105">A criação de cotação em massa foi baseada em modelos de cotação.</span><span class="sxs-lookup"><span data-stu-id="d4d42-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="d4d42-106">Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="d4d42-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
+<span data-ttu-id="10f7d-104">Este procedimento demonstra como criar cotações de forma eficiente que oferecem um conjunto de produtos ou serviços que devem ser enviados a vários clientes.</span><span class="sxs-lookup"><span data-stu-id="10f7d-104">This procedure demonstrates how to efficiently create quotations offering a set of products or services that are to be sent to multiple customers.</span></span> <span data-ttu-id="10f7d-105">A criação de cotação em massa foi baseada em modelos de cotação.</span><span class="sxs-lookup"><span data-stu-id="10f7d-105">This mass quotation creation is based on quotation templates.</span></span> <span data-ttu-id="10f7d-106">Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="10f7d-106">You can run this procedure on your own data or in demo data company USMF.</span></span>
 
 
-## <a name="create-a-quotation-template"></a><span data-ttu-id="d4d42-107">Criar um modelo de cotação</span><span class="sxs-lookup"><span data-stu-id="d4d42-107">Create a quotation template</span></span>
-1. <span data-ttu-id="d4d42-108">Vá para Vendas e marketing > Configuração > Cotações > Grupos de modelo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
-2. <span data-ttu-id="d4d42-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-109">Click New.</span></span>
-3. <span data-ttu-id="d4d42-110">No campo de ID de grupo, digite uma ID de sua escolha.</span><span class="sxs-lookup"><span data-stu-id="d4d42-110">In the Group ID field, type an ID of your choice.</span></span>
-4. <span data-ttu-id="d4d42-111">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="d4d42-112">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d4d42-112">Click Save.</span></span>
-6. <span data-ttu-id="d4d42-113">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d4d42-113">Close the page.</span></span>
-7. <span data-ttu-id="d4d42-114">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="d4d42-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-8. <span data-ttu-id="d4d42-115">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-115">Click New.</span></span>
-9. <span data-ttu-id="d4d42-116">No tipo Conta, selecione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="d4d42-116">In the Account type field, select 'Customer'.</span></span>
-10. <span data-ttu-id="d4d42-117">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-117">In the Customer account field, enter or select a value.</span></span>
-11. <span data-ttu-id="d4d42-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d4d42-118">Click OK.</span></span>
-    * <span data-ttu-id="d4d42-119">Para que uma cotação se torne um modelo, você deve executar etapas de instalação do cabeçalho da cotação.</span><span class="sxs-lookup"><span data-stu-id="d4d42-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="d4d42-120">Isso deve ser feito antes para adicionar linhas à cotação.</span><span class="sxs-lookup"><span data-stu-id="d4d42-120">This must be done before you add lines to the quotation.</span></span>   
-12. <span data-ttu-id="d4d42-121">No Painel de Ação, clique em Opções.</span><span class="sxs-lookup"><span data-stu-id="d4d42-121">On the Action Pane, click Options.</span></span>
-13. <span data-ttu-id="d4d42-122">Clique em Alterar exibição.</span><span class="sxs-lookup"><span data-stu-id="d4d42-122">Click Change view.</span></span>
-14. <span data-ttu-id="d4d42-123">Clique em Exibição do cabeçalho.</span><span class="sxs-lookup"><span data-stu-id="d4d42-123">Click Header view.</span></span>
-15. <span data-ttu-id="d4d42-124">Expandir a seção Instalação.</span><span class="sxs-lookup"><span data-stu-id="d4d42-124">Expand the Setup section.</span></span>
-16. <span data-ttu-id="d4d42-125">No campo ID do Grupo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-125">In the Group ID field, enter or select a value.</span></span>
-17. <span data-ttu-id="d4d42-126">No campo Nome de modelo, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-126">In the Template name field, type a value.</span></span>
-18. <span data-ttu-id="d4d42-127">Selecione Sim no campo Ativo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-127">Select Yes in the Active field.</span></span>
-    * <span data-ttu-id="d4d42-128">Somente os modelos ativos podem ser usados quando você aplica um modelo a uma nova cotação de venda.</span><span class="sxs-lookup"><span data-stu-id="d4d42-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
-19. <span data-ttu-id="d4d42-129">No Painel de Ação, clique em Opções.</span><span class="sxs-lookup"><span data-stu-id="d4d42-129">On the Action Pane, click Options.</span></span>
-20. <span data-ttu-id="d4d42-130">Clique em Alterar exibição.</span><span class="sxs-lookup"><span data-stu-id="d4d42-130">Click Change view.</span></span>
-21. <span data-ttu-id="d4d42-131">Clique em Exibição em linha.</span><span class="sxs-lookup"><span data-stu-id="d4d42-131">Click Line view.</span></span>
-22. <span data-ttu-id="d4d42-132">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-132">In the Item field, enter or select a value.</span></span>
-23. <span data-ttu-id="d4d42-133">No campo Item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-133">In the Item field, type a value.</span></span>
-24. <span data-ttu-id="d4d42-134">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d4d42-134">Close the page.</span></span>
-25. <span data-ttu-id="d4d42-135">No campo Percentual de desconto, insira um número.</span><span class="sxs-lookup"><span data-stu-id="d4d42-135">In the Discount percent field, enter a number.</span></span>
-26. <span data-ttu-id="d4d42-136">Clique em Adicionar nova linha.</span><span class="sxs-lookup"><span data-stu-id="d4d42-136">Click Add line.</span></span>
-27. <span data-ttu-id="d4d42-137">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-137">In the Item field, enter or select a value.</span></span>
-28. <span data-ttu-id="d4d42-138">No campo Item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-138">In the Item field, type a value.</span></span>
-29. <span data-ttu-id="d4d42-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d4d42-139">Close the page.</span></span>
-30. <span data-ttu-id="d4d42-140">No campo Preço unitário, insira um novo preço ou altere o atual.</span><span class="sxs-lookup"><span data-stu-id="d4d42-140">In the Unit price field, enter a new price or change the current one.</span></span>
-31. <span data-ttu-id="d4d42-141">Clique em Adicionar nova linha.</span><span class="sxs-lookup"><span data-stu-id="d4d42-141">Click Add line.</span></span>
-32. <span data-ttu-id="d4d42-142">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-142">In the Item field, enter or select a value.</span></span>
-33. <span data-ttu-id="d4d42-143">No campo Item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-143">In the Item field, type a value.</span></span>
-34. <span data-ttu-id="d4d42-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d4d42-144">Close the page.</span></span>
-35. <span data-ttu-id="d4d42-145">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="d4d42-145">In the Quantity field, enter a number.</span></span>
-36. <span data-ttu-id="d4d42-146">No campo Desconto, insira um número.</span><span class="sxs-lookup"><span data-stu-id="d4d42-146">In the Discount field, enter a number.</span></span>
-37. <span data-ttu-id="d4d42-147">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d4d42-147">Click Save.</span></span>
+## <a name="create-a-quotation-template"></a><span data-ttu-id="10f7d-107">Criar um modelo de cotação</span><span class="sxs-lookup"><span data-stu-id="10f7d-107">Create a quotation template</span></span>
+1. <span data-ttu-id="10f7d-108">Vá para Vendas e marketing > Configuração > Cotações > Grupos de modelo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-108">Go to Sales and marketing > Setup > Quotations > Template groups.</span></span>
+2. <span data-ttu-id="10f7d-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-109">Click New.</span></span>
+3. <span data-ttu-id="10f7d-110">No campo de ID de grupo, digite uma ID de sua escolha.</span><span class="sxs-lookup"><span data-stu-id="10f7d-110">In the Group ID field, type an ID of your choice.</span></span>
+4. <span data-ttu-id="10f7d-111">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="10f7d-112">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="10f7d-112">Click Save.</span></span>
+6. <span data-ttu-id="10f7d-113">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="10f7d-113">Close the page.</span></span>
+7. <span data-ttu-id="10f7d-114">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="10f7d-114">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+8. <span data-ttu-id="10f7d-115">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-115">Click New.</span></span>
+9. <span data-ttu-id="10f7d-116">No tipo Conta, selecione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="10f7d-116">In the Account type field, select 'Customer'.</span></span>
+10. <span data-ttu-id="10f7d-117">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-117">In the Customer account field, enter or select a value.</span></span>
+11. <span data-ttu-id="10f7d-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="10f7d-118">Click OK.</span></span>
+    * <span data-ttu-id="10f7d-119">Para que uma cotação se torne um modelo, você deve executar etapas de instalação do cabeçalho da cotação.</span><span class="sxs-lookup"><span data-stu-id="10f7d-119">For a quotation to become a template you must carry out  setup steps on the quotation header.</span></span> <span data-ttu-id="10f7d-120">Isso deve ser feito antes para adicionar linhas à cotação.</span><span class="sxs-lookup"><span data-stu-id="10f7d-120">This must be done before you add lines to the quotation.</span></span>   
+12. <span data-ttu-id="10f7d-121">No Painel de Ação, clique em Opções.</span><span class="sxs-lookup"><span data-stu-id="10f7d-121">On the Action Pane, click Options.</span></span>
+13. <span data-ttu-id="10f7d-122">Clique em Alterar exibição.</span><span class="sxs-lookup"><span data-stu-id="10f7d-122">Click Change view.</span></span>
+14. <span data-ttu-id="10f7d-123">Clique em Exibição do cabeçalho.</span><span class="sxs-lookup"><span data-stu-id="10f7d-123">Click Header view.</span></span>
+15. <span data-ttu-id="10f7d-124">Expandir a seção Instalação.</span><span class="sxs-lookup"><span data-stu-id="10f7d-124">Expand the Setup section.</span></span>
+16. <span data-ttu-id="10f7d-125">No campo ID do Grupo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-125">In the Group ID field, enter or select a value.</span></span>
+17. <span data-ttu-id="10f7d-126">No campo Nome de modelo, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-126">In the Template name field, type a value.</span></span>
+18. <span data-ttu-id="10f7d-127">Selecione Sim no campo Ativo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-127">Select Yes in the Active field.</span></span>
+    * <span data-ttu-id="10f7d-128">Somente os modelos ativos podem ser usados quando você aplica um modelo a uma nova cotação de venda.</span><span class="sxs-lookup"><span data-stu-id="10f7d-128">Only active templates can be used when you apply a template to a new sales quotation.</span></span>  
+19. <span data-ttu-id="10f7d-129">No Painel de Ação, clique em Opções.</span><span class="sxs-lookup"><span data-stu-id="10f7d-129">On the Action Pane, click Options.</span></span>
+20. <span data-ttu-id="10f7d-130">Clique em Alterar exibição.</span><span class="sxs-lookup"><span data-stu-id="10f7d-130">Click Change view.</span></span>
+21. <span data-ttu-id="10f7d-131">Clique em Exibição em linha.</span><span class="sxs-lookup"><span data-stu-id="10f7d-131">Click Line view.</span></span>
+22. <span data-ttu-id="10f7d-132">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-132">In the Item field, enter or select a value.</span></span>
+23. <span data-ttu-id="10f7d-133">No campo Item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-133">In the Item field, type a value.</span></span>
+24. <span data-ttu-id="10f7d-134">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="10f7d-134">Close the page.</span></span>
+25. <span data-ttu-id="10f7d-135">No campo Percentual de desconto, insira um número.</span><span class="sxs-lookup"><span data-stu-id="10f7d-135">In the Discount percent field, enter a number.</span></span>
+26. <span data-ttu-id="10f7d-136">Clique em Adicionar nova linha.</span><span class="sxs-lookup"><span data-stu-id="10f7d-136">Click Add line.</span></span>
+27. <span data-ttu-id="10f7d-137">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-137">In the Item field, enter or select a value.</span></span>
+28. <span data-ttu-id="10f7d-138">No campo Item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-138">In the Item field, type a value.</span></span>
+29. <span data-ttu-id="10f7d-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="10f7d-139">Close the page.</span></span>
+30. <span data-ttu-id="10f7d-140">No campo Preço unitário, insira um novo preço ou altere o atual.</span><span class="sxs-lookup"><span data-stu-id="10f7d-140">In the Unit price field, enter a new price or change the current one.</span></span>
+31. <span data-ttu-id="10f7d-141">Clique em Adicionar nova linha.</span><span class="sxs-lookup"><span data-stu-id="10f7d-141">Click Add line.</span></span>
+32. <span data-ttu-id="10f7d-142">No campo Item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-142">In the Item field, enter or select a value.</span></span>
+33. <span data-ttu-id="10f7d-143">No campo Item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-143">In the Item field, type a value.</span></span>
+34. <span data-ttu-id="10f7d-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="10f7d-144">Close the page.</span></span>
+35. <span data-ttu-id="10f7d-145">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="10f7d-145">In the Quantity field, enter a number.</span></span>
+36. <span data-ttu-id="10f7d-146">No campo Desconto, insira um número.</span><span class="sxs-lookup"><span data-stu-id="10f7d-146">In the Discount field, enter a number.</span></span>
+37. <span data-ttu-id="10f7d-147">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="10f7d-147">Click Save.</span></span>
 
-## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="d4d42-148">Aplique o modelo para criar uma única cotação</span><span class="sxs-lookup"><span data-stu-id="d4d42-148">Apply the template to create a single quotation</span></span>
-1. <span data-ttu-id="d4d42-149">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="d4d42-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="d4d42-150">Observe que a cotação que você acabou de criar está marcada como modelo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-150">Note that the quotation you have just created is marked as template.</span></span>  
-2. <span data-ttu-id="d4d42-151">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-151">Click New.</span></span>
-3. <span data-ttu-id="d4d42-152">No tipo Conta, selecione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="d4d42-152">In the Account type field, select 'Customer'.</span></span>
-4. <span data-ttu-id="d4d42-153">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-153">In the Customer account field, enter or select a value.</span></span>
-5. <span data-ttu-id="d4d42-154">Expanda a seção Modelo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-154">Expand the Template section.</span></span>
-6. <span data-ttu-id="d4d42-155">No campo ID do Grupo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-155">In the Group ID field, enter or select a value.</span></span>
-7. <span data-ttu-id="d4d42-156">No campo Nome do modelo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-156">In the Template name field, enter or select a value.</span></span>
-8. <span data-ttu-id="d4d42-157">No campo Método de cálculo, selecione 'Com base em valores modelo'.</span><span class="sxs-lookup"><span data-stu-id="d4d42-157">In the Calculation method field, select 'Based on template values'.</span></span>
-9. <span data-ttu-id="d4d42-158">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d4d42-158">Click OK.</span></span>
-    * <span data-ttu-id="d4d42-159">A nova cotação agora foi criada, com base nos dados e nas condições do modelo.</span><span class="sxs-lookup"><span data-stu-id="d4d42-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
-10. <span data-ttu-id="d4d42-160">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d4d42-160">Close the page.</span></span>
-11. <span data-ttu-id="d4d42-161">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d4d42-161">Close the page.</span></span>
+## <a name="apply-the-template-to-create-a-single-quotation"></a><span data-ttu-id="10f7d-148">Aplique o modelo para criar uma única cotação</span><span class="sxs-lookup"><span data-stu-id="10f7d-148">Apply the template to create a single quotation</span></span>
+1. <span data-ttu-id="10f7d-149">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="10f7d-149">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="10f7d-150">Observe que a cotação que você acabou de criar está marcada como modelo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-150">Note that the quotation you have just created is marked as template.</span></span>  
+2. <span data-ttu-id="10f7d-151">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-151">Click New.</span></span>
+3. <span data-ttu-id="10f7d-152">No tipo Conta, selecione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="10f7d-152">In the Account type field, select 'Customer'.</span></span>
+4. <span data-ttu-id="10f7d-153">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-153">In the Customer account field, enter or select a value.</span></span>
+5. <span data-ttu-id="10f7d-154">Expanda a seção Modelo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-154">Expand the Template section.</span></span>
+6. <span data-ttu-id="10f7d-155">No campo ID do Grupo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-155">In the Group ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="10f7d-156">No campo Nome do modelo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-156">In the Template name field, enter or select a value.</span></span>
+8. <span data-ttu-id="10f7d-157">No campo Método de cálculo, selecione 'Com base em valores modelo'.</span><span class="sxs-lookup"><span data-stu-id="10f7d-157">In the Calculation method field, select 'Based on template values'.</span></span>
+9. <span data-ttu-id="10f7d-158">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="10f7d-158">Click OK.</span></span>
+    * <span data-ttu-id="10f7d-159">A nova cotação agora foi criada, com base nos dados e nas condições do modelo.</span><span class="sxs-lookup"><span data-stu-id="10f7d-159">The new quotation has now been created, based on the data and terms of the template.</span></span>  
+10. <span data-ttu-id="10f7d-160">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="10f7d-160">Close the page.</span></span>
+11. <span data-ttu-id="10f7d-161">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="10f7d-161">Close the page.</span></span>
 
-## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="d4d42-162">Aplique o modelo para criar cotações em massa</span><span class="sxs-lookup"><span data-stu-id="d4d42-162">Apply the template to mass create quotations</span></span>
-1. <span data-ttu-id="d4d42-163">Vá para Vendas e marketing > Cotações de venda > Atualização da cotação > Criar cotações em massa.</span><span class="sxs-lookup"><span data-stu-id="d4d42-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
-2. <span data-ttu-id="d4d42-164">No tipo Conta, selecione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="d4d42-164">In the Account type field, select 'Customer'.</span></span>
-3. <span data-ttu-id="d4d42-165">No campo ID do Grupo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-165">In the Group ID field, enter or select a value.</span></span>
-4. <span data-ttu-id="d4d42-166">No campo Nome do modelo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4d42-166">In the Template name field, enter or select a value.</span></span>
-5. <span data-ttu-id="d4d42-167">No campo Método de cálculo, selecione 'Com base em valores modelo'.</span><span class="sxs-lookup"><span data-stu-id="d4d42-167">In the Calculation method field, select 'Based on template values'.</span></span>
-6. <span data-ttu-id="d4d42-168">Expanda os Registros para incluir a seção.</span><span class="sxs-lookup"><span data-stu-id="d4d42-168">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="d4d42-169">Clique em Filtro.</span><span class="sxs-lookup"><span data-stu-id="d4d42-169">Click Filter.</span></span>
-8. <span data-ttu-id="d4d42-170">No campo Critérios, defina o filtro para cobrir um intervalo de clientes que você deseja incluir nesta criação de cotação em massa.</span><span class="sxs-lookup"><span data-stu-id="d4d42-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="d4d42-171">Use o seguinte formato "Customer1..CustomerN.</span><span class="sxs-lookup"><span data-stu-id="d4d42-171">Use the following format "Customer1..CustomerN.</span></span>
-    * <span data-ttu-id="d4d42-172">Por exemplo, você pode definir o filtro: US-001.US-004</span><span class="sxs-lookup"><span data-stu-id="d4d42-172">For example, you could set the filter to: US-001..US-004</span></span>  
-9. <span data-ttu-id="d4d42-173">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d4d42-173">Click OK.</span></span>
-10. <span data-ttu-id="d4d42-174">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="d4d42-174">Click OK.</span></span>
-11. <span data-ttu-id="d4d42-175">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="d4d42-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
-    * <span data-ttu-id="d4d42-176">Verifique se as cotações foram criadas para todos os clientes especificados na rotina de atualização em massa, conforme baseado no modelo selecionado.</span><span class="sxs-lookup"><span data-stu-id="d4d42-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
+## <a name="apply-the-template-to-mass-create-quotations"></a><span data-ttu-id="10f7d-162">Aplique o modelo para criar cotações em massa</span><span class="sxs-lookup"><span data-stu-id="10f7d-162">Apply the template to mass create quotations</span></span>
+1. <span data-ttu-id="10f7d-163">Vá para Vendas e marketing > Cotações de venda > Atualização da cotação > Criar cotações em massa.</span><span class="sxs-lookup"><span data-stu-id="10f7d-163">Go to Sales and marketing > Sales quotations > Quotation update > Mass create quotations.</span></span>
+2. <span data-ttu-id="10f7d-164">No tipo Conta, selecione 'Cliente'.</span><span class="sxs-lookup"><span data-stu-id="10f7d-164">In the Account type field, select 'Customer'.</span></span>
+3. <span data-ttu-id="10f7d-165">No campo ID do Grupo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-165">In the Group ID field, enter or select a value.</span></span>
+4. <span data-ttu-id="10f7d-166">No campo Nome do modelo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="10f7d-166">In the Template name field, enter or select a value.</span></span>
+5. <span data-ttu-id="10f7d-167">No campo Método de cálculo, selecione 'Com base em valores modelo'.</span><span class="sxs-lookup"><span data-stu-id="10f7d-167">In the Calculation method field, select 'Based on template values'.</span></span>
+6. <span data-ttu-id="10f7d-168">Expanda os Registros para incluir a seção.</span><span class="sxs-lookup"><span data-stu-id="10f7d-168">Expand the Records to include section.</span></span>
+7. <span data-ttu-id="10f7d-169">Clique em Filtro.</span><span class="sxs-lookup"><span data-stu-id="10f7d-169">Click Filter.</span></span>
+8. <span data-ttu-id="10f7d-170">No campo Critérios, defina o filtro para cobrir um intervalo de clientes que você deseja incluir nesta criação de cotação em massa.</span><span class="sxs-lookup"><span data-stu-id="10f7d-170">In the Criteria field, set the filter to cover a range of customers you want to include in this mass quotation creation.</span></span> <span data-ttu-id="10f7d-171">Use o seguinte formato "Customer1..CustomerN.</span><span class="sxs-lookup"><span data-stu-id="10f7d-171">Use the following format "Customer1..CustomerN.</span></span>
+    * <span data-ttu-id="10f7d-172">Por exemplo, você pode definir o filtro: US-001.US-004</span><span class="sxs-lookup"><span data-stu-id="10f7d-172">For example, you could set the filter to: US-001..US-004</span></span>  
+9. <span data-ttu-id="10f7d-173">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="10f7d-173">Click OK.</span></span>
+10. <span data-ttu-id="10f7d-174">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="10f7d-174">Click OK.</span></span>
+11. <span data-ttu-id="10f7d-175">Vá para Vendas e marketing > Cotações de venda > Todas as cotações.</span><span class="sxs-lookup"><span data-stu-id="10f7d-175">Go to Sales and marketing > Sales quotations > All quotations.</span></span>
+    * <span data-ttu-id="10f7d-176">Verifique se as cotações foram criadas para todos os clientes especificados na rotina de atualização em massa, conforme baseado no modelo selecionado.</span><span class="sxs-lookup"><span data-stu-id="10f7d-176">Verify that quotations have been created for all the customers specified in the mass update routine, as based on the selected template.</span></span>  
 
