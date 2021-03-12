@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: TaxFiscalDocument_BR, TaxFiscalDocumentCancel_BR, TaxFiscalDocumentListPage_BR, TaxFiscalDocumentPost_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269524
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9749410db881e2e642392f0d93f8389d97fcc2d8
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: 27044ffa62fed63afc8717e5d7e99054d8078129
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665497"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4997532"
 ---
 # <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 
@@ -142,6 +141,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

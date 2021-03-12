@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: KanbanBoard, KanbanJobSchedulingListPage, LeanProductionFlowVisualization, KanbanBoardUnplannedJobs
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45a63ab0f5baadf6bef646224b3f0bf5327ee923
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 76a72e09f72c396f457283bfd18c41cac2607d1f
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421938"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998594"
 ---
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Agendamento visual para lean manufacturing
 
@@ -95,6 +94,3 @@ Trabalhos podem ser reatribuídos de um período a outro. Esse recurso pode ser 
 
 [Agendamento de trabalho kanban para lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

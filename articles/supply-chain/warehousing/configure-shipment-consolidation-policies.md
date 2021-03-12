@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench, WHSFilterGroupTable, TMSMode, WHSShipmentConsolidation, WHSFilterGenerallyAvail
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: adb88bbd29a89a1d18d7fd4781c2541ffb4e721f
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 0d6ab6c034a5c341432f661cf1e729dfd3e5c239
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422527"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996371"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -354,6 +353,3 @@ Os cenários a seguir ilustram como você pode usar as políticas de consolidaç
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

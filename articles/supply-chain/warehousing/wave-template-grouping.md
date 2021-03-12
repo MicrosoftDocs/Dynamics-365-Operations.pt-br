@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9cbc0b6655de740628bcf3709d250ac02238038b
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: b422eb432e579d4ae914fbc0efa79aaa15f1de27
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422593"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4998369"
 ---
 # <a name="wave-template-grouping"></a>Agrupamento de modelos de onda
 
@@ -201,6 +200,3 @@ Uma nova onda foi criada para essa remessa, pois ela usa um serviço de operador
 1. Selecione a ID da onda que foi criada com base na terceira ordem de venda.
 1. Selecione o link da ID da onda para abrir a página detalhes da onda.
 1. Observe que a remessa foi adicionada à FastTab **Linhas da onda**, junto com a remessa da primeira ordem de venda.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Retail, Core, Operations
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6104e457a62f340951c187d0f2dbe48b0dffdf7f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 6ccfbe30e9d4a0fc4580c7036d222bfca9203a21
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421950"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4996317"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar e transferir
 
@@ -230,6 +229,3 @@ Também é possível confirmar que as relações de transação foram atualizada
 - A opção **Dividir quantidade para nova carga** também funciona quando alguns dos cabeçalhos de trabalho restantes têm o status *Em andamento*. Portanto, você ainda poderá usar a funcionalidade mesmo se os trabalhadores já estiverem executando as ordens de separação.
 - Se você selecionar **Cancelar quantidade não atendida** enquanto houver trabalho restante com o status *Aberto* ou *Em andamento*, a seguinte mensagem de erro será exibida: "Não é possível cancelar quantidade pendente para carga. Existe trabalho para a carga."
 - Se você selecionar **Cancelar quantidade não atendida** quando não houver trabalho restante, mas houver linhas de carga não liberadas na carga, receberá a seguinte mensagem de erro: "Não foi possível confirmar a remessa da carga porque a quantidade do item excede a porcentagem definida para entrega insuficiente." Para evitar o erro, você pode definir a porcentagem de **Entrega insuficiente** na linha de carga não liberada como 100%. As linhas não liberadas não serão movidas para uma nova carga, mas a carga atual será confirmada com entrega insuficiente. Nesse caso, não será possível liberar a ordem original novamente. Por isso você terá que processá-la de outra forma.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
