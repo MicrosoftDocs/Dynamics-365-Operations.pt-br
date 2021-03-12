@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 399e30597628c91ccb4d896b899f6152a12caffd
-ms.sourcegitcommit: e544c51a68ad5daf748c0e877bdbde094ad40bd2
+ms.openlocfilehash: 8517eea73bd87c4ae845ed514b919afaa5e02a0c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4408499"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4964657"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 
@@ -697,6 +696,3 @@ Depois que os eventos periódicos R-2010, R-2010 e R-2060 forem fechados por mei
 11. Selecione **OK** para confirmar a ação.
 
 12. O tipo de item de mensagem **Evento de fechamento** é atualizado e o status do item de mensagem é atualizado para **Aceito**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

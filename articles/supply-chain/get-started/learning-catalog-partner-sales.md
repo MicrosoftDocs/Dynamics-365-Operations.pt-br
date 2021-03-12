@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: ad6e051694bb96018ac81769fb5320c5bf511cb9
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 172fc6f2f284a67a32b80e2f72c3e5b9c8e44b70
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422018"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963576"
 ---
 # <a name="learning-catalog-for-microsoft-partner-sales-and-marketing-roles-for-dynamics-365-supply-chain-management"></a>Catálogo de aprendizagem para funções de marketing e vendas para parceiros Microsoft do Dynamics 365 Supply Chain Management
 
@@ -41,6 +40,3 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | Conteúdo  | descrição  | Formatar |
 |---------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|
 | [Conceitos básicos do Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você entende o Microsoft Dynamics 365; o Power Platform; conceitos de nuvem; opções de licenciamento; e opções de implantação e liberação. | Exame; o custo varia de acordo com a região |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

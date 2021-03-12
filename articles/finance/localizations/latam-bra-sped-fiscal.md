@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 18bb2d2abb2314707344731e024441216ac4766c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ca27dea3deb5a9ae46fcaaaa75a257f41a3376e4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408430"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962567"
 ---
 # <a name="sped-fiscal-files"></a>Arquivos fiscais SPED 
 
@@ -58,6 +57,3 @@ O arquivo de texto fiscal do SPED fornece informações sobre as notas fiscais q
 7. Defina a opção **Habilitar o bloco K** como **Sim**. A definição padrão é especificada na página **Parâmetros do SPED Fiscal** .
 8. Opcional: Na Guia Rápida **Executar em segundo plano**, especifique as opções para o processamento em lotes. Você pode usar o processamento em lote se o arquivo tiver de ser gerado posteriormente ou em um servidor, e não no computador.
 9. Selecione **OK**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

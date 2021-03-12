@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: bf1a472646637d41f5b19ff8cce459a4ea6e2e35
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: e72e3cc4df3f82c4761c3637654b980c55a8d95d
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665485"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962574"
 ---
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
@@ -83,6 +82,3 @@ A tabela a seguir lista todas as autoridades fiscais e as soluções que você d
 Sefaz Virtual de Contingência Rio Grande do Sul (SVC-RS)|   AM, BA, CE, GO, MA, MS, MT, PA, PE, PI, PR| Nenhuma solução adicional é necessária|
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

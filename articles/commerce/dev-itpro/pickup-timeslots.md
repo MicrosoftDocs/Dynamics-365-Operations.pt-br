@@ -3,7 +3,7 @@ title: Criar e atualizar os intervalos de tempo para retirada pelo cliente
 description: Este tópico descreve como criar, configurar e atualizar os intervalos de tempo para retirada pelo cliente na sede do Commerce.
 author: anupamar-ms
 manager: AnnBe
-ms.date: 11/06/2020
+ms.date: 01/05/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: f86eb47ec64dff230223ed0ecbe792373aca649f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
+ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681533"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "4828202"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Criar e atualizar os intervalos de tempo para retirada pelo cliente
 
@@ -49,17 +49,15 @@ Um intervalo de tempo é definido usando as propriedades a seguir:
 
     A propriedade **Mínimo de Dias** garante que haja tempo suficiente para o varejista processar a ordem antes que ela esteja pronta para retirada. A propriedade **Máximo de Dias** garante que o usuário não possa selecionar uma data muito distante no futuro. Por exemplo, se o valor mínimo for definido como **1** e uma ordem for realizada em 20 de setembro, o primeiro dia em que a ordem estará disponível para retirada será o próximo dia elegível (21 de setembro). De forma semelhante, ao estabelecer um valor máximo, você pode definir o número máximo de dias em que uma ordem poderá ser retirada. Quando os valores mínimo e máximo estiverem definidos, os usuários do site poderão ver e selecionar somente um conjunto específico de dias durante sua experiência de finalização de compra.
 
-    Você pode definir o valor mínimo como um valor decimal menor do que 1. Por exemplo, se a retirada estiver disponível quatro horas depois que uma ordem for realizada, defina o valor mínimo como **0,17** (= 4 ÷ 24, arredondado para duas casas decimais). No entanto, se você definir o valor mínimo como um valor decimal maior do que 1, ele sempre será arredondado para o número inteiro mais próximo (para cima ou para baixo).
-
-    Se você definir o valor máximo como um valor decimal, ele sempre será arredondado. Por exemplo, um valor de **1,2** será arredondado para **2**.
+    Você pode definir o valor mínimo como um valor decimal menor do que 1. Por exemplo, se a retirada estiver disponível quatro horas depois que uma ordem for realizada, defina o valor mínimo como **0,17** (= 4 ÷ 24, arredondado para duas casas decimais). No entanto, se você definir o valor mínimo como um valor decimal maior do que 1, ele sempre será arredondado para o número inteiro mais próximo. Por exemplo, um valor de **1,2** será arredondado para **2**. Da mesma forma, se você definir o valor máximo como um valor decimal, ele sempre será arredondado para o número inteiro mais próximo. 
 
 - **Data de Início** e **Data de Término** – Especifique as datas de início e de término do intervalo de tempo. Cada entrada de intervalo de tempo tem uma data de início e uma data de término. Portanto, você tem a flexibilidade de adicionar diferentes intervalos de tempo durante o ano (por exemplo, retiradas durante o horário de funcionamento em feriados). Se as datas de início e de término de um intervalo de tempo forem alteradas depois que uma ordem for realizada, as alterações não serão aplicadas a essa ordem. Ao definir datas de início e de término, você deve considerar as datas de fechamento da loja (por exemplo, dia de Natal) e garantir que os intervalos de tempo não sejam definidos para esses dias.
-- **Horário Ativo de Entrega** – Especifique o período em que a retirada é permitida. Por exemplo, o horário de retirada pode ser entre 14h e 17h todos os dias. Essa propriedade permite que os horários de retirada sejam independentes dos horários de funcionamento da loja. Portanto, o varejista pode configurar os horários de retirada de acordo com suas necessidades comerciais específicas. Ao definir o horário ativo de retirada, você deve considerar o horário de funcionamento da loja e garantir que os horários de retirada não sejam definidos para quando a loja estiver fechada.
+- **Horário Ativo de Retirada** – Especifique o período em que a retirada é permitida. Por exemplo, o horário de retirada pode ser entre 14h e 17h todos os dias. Essa propriedade permite que os horários de retirada sejam independentes dos horários de funcionamento da loja. Portanto, o varejista pode configurar os horários de retirada de acordo com suas necessidades comerciais específicas. Ao definir o horário ativo de retirada, você deve considerar o horário de funcionamento da loja e garantir que os horários de retirada não sejam definidos para quando a loja estiver fechada.
 
     > [!NOTE]
     > O horário para retirada na loja deve ser definido no fuso horário da loja apropriada.
 
-- **Duração do Intervalo de Tempo** – Especifique a duração que pode ser alocada para cada intervalo de tempo. Por exemplo, a duração de cada intervalo de tempo pode ser em incrementos de 15 minutos, 30 minutos ou uma hora.
+- **Duração do Intervalo de Tempo** – Especifique a duração que pode ser alocada para cada intervalo de tempo. Por exemplo, a duração de cada intervalo de tempo pode ser em incrementos de 15 minutos, 30 minutos ou uma hora. Se o valor do slot de tempo for 0, a alocação de tempo estará disponível para toda a duração entre as horas de início e término.
 - **Atendimentos por Intervalo** – Especifique o número de clientes ou ordens que podem ser atendidos para retirada durante cada intervalo de tempo. Por exemplo, insira **1**, **2**, **3** ou qualquer outro número inteiro.
 - **Dias Ativos** – Especifique os dias da semana em que os intervalos de tempo de retirada estão ativos. Esta propriedade permite que o varejista defina os dias em que deseja oferecer suporte à retirada de ordens.
 - **Canais de Varejo** – Especifique os canais de varejo. Cada intervalo de tempo pode ser associado a uma ou mais lojas de varejo. Dependendo do horário de funcionamento de cada loja, uma ou mais entradas de intervalo de tempo podem ser criadas e associadas a um canal. 
@@ -84,7 +82,7 @@ Para configurar o recurso de intervalos de tempo na sede do Commerce, siga estas
 1. Na FastTab **Retirada de Ordens - Configurações de Tempo**, selecione **Adicionar**.
 1. Na caixa de diálogo **Retirada de Ordens - Configurações de Tempo**, defina intervalo de datas, modo de entrega, horário ativo de entrega, dias ativos, duração do intervalo de tempo, atendimentos por intervalo e outras configurações.
 
-    Se os intervalos de tempo forem ficar estáticos no futuro próximo, deixe o campo **Data de Término** em branco.
+    Se os intervalos de tempo forem estáticos no futuro próximo, defina o campo **Data de Término** como **Nunca**.
 
     > [!NOTE]
     > Você pode criar vários modelos, mas somente um modelo pode ser associado a um único canal ou loja.
@@ -120,9 +118,12 @@ A ilustração a seguir mostra um exemplo de uma ordem de comércio eletrônico 
 
 ![Exemplo de uma ordem de comércio eletrônico em que um intervalo de tempo de retirada foi selecionado](../dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
+## <a name="time-slot-selection-for-call-center-orders"></a>Seleção de intervalo de tempo para ordens de call center
+
+No aplicativo de call center, os agentes de call center podem selecionar o local ou o armazenamento de retirada, bem como uma data e um slot de tempo como destacado na ilustração a seguir.
+
+![Exemplo de uma ordem de call center em que um intervalo de tempo de retirada foi selecionado](../dev-itpro/media/Curbside_timeslot_callcenter.png)
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Módulo de informações sobre retirada](../pickup-info-module.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

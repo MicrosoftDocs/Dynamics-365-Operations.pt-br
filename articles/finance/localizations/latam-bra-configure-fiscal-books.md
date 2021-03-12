@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: FBTaxStatement_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: aff53d8ab85263d425cc207aff03f2836c7ccfda
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: 9b5542699b94d8701ebddec920c2f3a825fd6e50
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4408498"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962588"
 ---
 # <a name="configure-fiscal-books"></a>Configurar livros fiscais
 
@@ -173,6 +172,3 @@ Na página **Grupos de ativos fixos**, você pode configurar um grupo de ativos 
 > Os campos para as etapas 8, 9 e 10 não estão disponíveis quando a versão 3.0 for selecionada. Essas informações foram alteradas e incluídas na configuração da organização fiscal.
 
 Na página **Detalhes do contador**, você pode configurar informações de contador para a escrituração de imposto.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

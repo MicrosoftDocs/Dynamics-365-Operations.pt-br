@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1c9cecabb7923e86e8aa09eed7bd3b1ba5ee0bd8
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: d351facbce02355ddb4bdf91d43d9df561e4f3b5
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694852"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798842"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>Configurar decisões manuais em um fluxo de trabalho
 
@@ -350,6 +350,3 @@ Siga estas etapas caso a decisão deva ser tomada em um horário específico.
     - **Anos** – Selecione o dia, a semana e o mês até quando a decisão deve ser tomada. Por exemplo, você talvez queira que a decisão seja tomada até a sexta-feira da terceira semana de dezembro.
 
 4. Se o limite de tempo for excedido, o sistema tomará a decisão. Na lista **Ação**, selecione a opção que o sistema deve selecionar.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

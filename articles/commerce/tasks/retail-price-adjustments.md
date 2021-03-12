@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: DefaultDashboard, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailDiscountPriceGroup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83498fa0a0432cb182106d6d273cb6117ed0b094
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7443f69473c0aad478d47f80f284b1156bad9c24
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410224"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962976"
 ---
 # <a name="retail-price-adjustments"></a>Ajustes de preço de varejo
 
@@ -53,6 +52,3 @@ Este procedimento orienta na criação de um ajuste de preço comercial. Um ajus
 14. Feche a página.
 15. Atualize a página.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 601977cc5b8aa992b8576d30eb1412fb4e119154
-ms.sourcegitcommit: 95f90ac3f248716abdab16d5de6ccbf059616e4b
+ms.openlocfilehash: 3bd028e7d61fd57ed434a8a598bf24329a54ac1c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4666785"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963626"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-functional-consultants"></a>Catálogo de aprendizagem para consultores funcionais do Dynamics 365 Supply Chain Management
 
@@ -114,6 +113,3 @@ Para consultores funcionais, nossa pesquisa de análise de tarefas de trabalho m
 | [Teste MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: usar ferramentas comuns de funcionalidade e implementação; configurar segurança, processos e opções; realizar a migração de dados; validar e fornecer suporte para a solução. | O custo do teste varia de acordo com a região |
 | [Teste MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: implementar o gerenciamento de informações do produto; implementar o gerenciamento de estoque; implementar e gerenciar os processos da cadeia de fornecedores; e implementar o gerenciamento de depósito e o gerenciamento de transporte, além de realizar os processos empresariais. | O custo do teste varia de acordo com a região |
 | [Teste MB-320: Microsoft Dynamics 365 for Finance and Operations, Manufacturing](https://www.microsoft.com/learning/exam-MB-320.aspx) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: definir e configurar a fabricação; criar e gerenciar a produção e ordens de lean manufacturing; criar, e processar e gerenciar ordens de lote de produção. | O custo do teste varia de acordo com a região |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

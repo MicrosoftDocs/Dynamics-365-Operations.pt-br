@@ -3,7 +3,7 @@ title: Cliente potencial com pagamento à vista em gravação dupla
 description: Este tópico fornece informações sobre o cliente potencial com pagamento à vista em gravação dupla.
 author: RamaKrishnamoorthy
 manager: AnnBe
-ms.date: 01/27/2020
+ms.date: 01/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 3b482a2754bb4bcaca5410da72c21897fd066a41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3f88d7249af515670c0a3e73a5ef890f04133d19
+ms.sourcegitcommit: 6af7b37b1c8950ad706e684cc13a79e662985b34
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683638"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4959592"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -37,6 +37,11 @@ Nas interfaces de aplicativo, você pode acessar os status de processamento e as
 
 ![Fluxo de dados de gravação dupla em cliente potencial com pagamento à vista](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
+Para obter informações sobre a integração entre cliente e contato, consulte [Cliente mestre integrado](customer-mapping.md). Para obter mais informações sobre a integração de produtos, consulte [Experiência unificada de produtos](product-mapping.md).
+
+> [!NOTE]
+> No Dynamics 365 Sales, um cliente potencial e um cliente real referem-se a um registro na tabela **Contas** em que a coluna **RelationshipType** é **Cliente potencial** ou **Cliente**. Se a lógica comercial incluir um processo de qualificação de **Conta**, no qual o registro **Conta** é criado e qualificado como um cliente potencial primeiro, o registro só é sincronizado com o aplicativo do Finance and Operations quando ele for um cliente (`RelationshipType=Customer`). Se quiser que a linha **Conta** seja sincronizada como um cliente potencial, você precisará de um mapa personalizado para integrar os dados do cliente potencial.
+
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
 Para sincronizar votações de venda, você deve atualizar as seguintes configurações.
@@ -46,11 +51,11 @@ Para sincronizar votações de venda, você deve atualizar as seguintes configur
 Em Vendas, vá para **Configurações \> Administração \> Configurações do sistema \> Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
 - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
-- O campo **Método de cálculo de desconto** está definido como **Item de linha**.
+- A coluna **Método de cálculo de desconto** está definida como **Item de linha**.
 
 ### <a name="sites-and-warehouses"></a>Sites e depósitos
 
-Em Supply Chain Management, os campos **Site** e **depósito** são necessários para linhas de cotação e linhas de pedido. Se você definir o local e o depósito nas configurações de ordem padrão, esses campos serão automaticamente definidos quando você adicionar um produto a uma linha de cotação ou a uma linha de ordem. 
+Em Supply Chain Management, as colunas **Site** e **Depósito** são necessárias para linhas de cotação e linhas de pedido. Se você definir o local e o depósito nas configurações de ordem padrão, esses campos serão automaticamente definidos quando você adicionar um produto a uma linha de cotação ou a uma linha de ordem. 
 
 ### <a name="number-sequences-for-quotations-and-orders"></a>Sequências numéricas para cotações e ordens
 
@@ -62,9 +67,9 @@ Por exemplo, a sequência numérica em Supply Chain Management é **1, 2, 3, 4, 
 
 As cotações de venda podem ser criadas em Vendas ou em Supply Chain Management. Se você criar uma cotação em Vendas, ela será sincronizada com Supply Chain Management em tempo real. Da mesma forma, se você criar uma cotação em Supply Chain Management, ele é sincronizada em Vendas em tempo real. Observe os seguintes pontos:
 
-+ Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. Os campos **Desconto**, **Encargos** e **Imposto** no cabeçalho são controlados por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, os campos **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidos e tratados pelo Supply Chain Management.
-+ Os campos **% de Desconto**, **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são campos apenas leitura.
-+ Os campos **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
++ Você pode adicionar um desconto ao produto na cotação. Nesse caso, o desconto será sincronizado com Supply Chain Management. As colunas **Desconto**, **Encargos** e **Imposto** no cabeçalho são controladas por uma configuração no Supply Chain Management. Essa configuração não dá suporte ao mapeamento de integração. Em vez disso, as colunas **Preço**, **Desconto**, **Encargo** e **Imposto** são mantidas e tratadas pelo Supply Chain Management.
++ As colunas **% de Desconto**, **Desconto** e **Valor do Frete** no cabeçalho de cotação de vendas são colunas apenas leitura.
++ As colunas **Condições de frete**, **Condições de entrega**, **Método de entrega** e **Modo de entrega** não estão incluídas no mapeamento padrão. Para mapear essas colunas, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a tabela está sincronizada.
 
 Se você também estiver usando a solução do Field Service, certifique-se de reabilitar o parâmetro **Criação Rápida de Linha de Cotação**. Habilitar novamente o parâmetro permite que você continue criando linhas de cotação usando a função de criação rápida.
 1. Navegue até o aplicativo Dynamics 365 Sales.
@@ -82,7 +87,7 @@ As ordens de venda podem ser criadas em Vendas ou em Supply Chain Management. Se
 + Cálculo de desconto e arredondamento:
 
     - O modelo de cálculo de desconto no Sales difere do modelo de cálculo de desconto no Supply Chain Management. No Supply Chain Management, o valor final de descontos em uma linha de venda pode ser o resultado de uma combinação de valores de desconto e porcentagens de desconto. Se este valor final de descontos for dividido pela quantidade na linha, poderá haver um arredondamento. No entanto, esse arredondamento não é considerado se um valor de desconto por unidade arredondado é sincronizado para o Sales. Para ajudar a garantir que o valor total do desconto da linha de venda no Supply Chain Management seja sincronizado corretamente para o Sales, o valor total deve ser sincronizado sem ser dividido pela quantidade da linha. Portanto, você deve definir o método de cálculo de desconto como **Item de linha** em Sales.
-    - Quando uma linha da ordem de venda for sincronizada do Sales para o Supply Chain Management, o valor de desconto de linha total será usado. Como o Supply Chain Management não tem campos que possam armazenar o valor total de desconto para uma linha, o valor é dividido pela quantidade e armazenado no campo **Desconto de linha**. Qualquer arredondamento que ocorrer durante esta divisão será armazenado no campo **Encargos de venda** na linha de venda.
+    - Quando uma linha da ordem de venda for sincronizada do Sales para o Supply Chain Management, o valor de desconto de linha total será usado. Como o Supply Chain Management não tem colunas que possam armazenar o valor total de desconto para uma linha, o valor é dividido pela quantidade e armazenado na coluna **Desconto de linha**. Qualquer arredondamento que ocorrer durante esta divisão será armazenado na coluna **Encargos de venda** na linha de venda.
 
 ### <a name="example-synchronization-from-sales-to-supply-chain-management"></a>Exemplo: Sincronização do Sales para o Supply Chain Management
 
@@ -98,7 +103,7 @@ Se você sincronizar de Supply Chain Management às Vendas, obterá o seguinte r
 
 ## <a name="dual-write-solution-for-sales"></a>Solução de gravação dupla para Vendas
 
-Novos campos foram adicionados à entidade **Ordem** e são exibidos na página. A maioria desses campos aparece na guia **Integração** em Vendas. Para saber mais sobre como os campos de status são mapeados, consulte [Configurar o mapeamento para campos de status da ordem de venda](sales-status-map.md).
+Novas colunas foram adicionadas à tabela **Ordem** e são exibidas na página. A maioria dessas colunas aparece na guia **Integração** em Vendas. Para saber mais sobre como as colunas de status são mapeados, consulte [Configurar o mapeamento para colunas de status da ordem de venda](sales-status-map.md).
 
 + Os botões **Criar fatura** e **Cancelar pedido** na página **Ordem de venda** estão ocultos em Vendas.
 + O valor de **Status da ordem de venda** permanecerá **Ativo** para ajudar a garantir que as alterações no Supply Chain Management possam fluir para a ordem de venda em Vendas. Para controlar este comportamento, defina o padrão do valor **Statecode \[Status\]** para **Ativo**.
@@ -107,18 +112,18 @@ Novos campos foram adicionados à entidade **Ordem** e são exibidos na página.
 
 As faturas de vendas são criadas no Supply Chain Management e sincronizadas no Sales. Observe os seguintes pontos:
 
-+ Um campo **Número de fatura** foi adicionado à entidade **Fatura** e aparece na página.
++ Uma coluna **Número de fatura** foi adicionado à tabela **Fatura** e aparece na página.
 + O botão **Criar fatura** na página **Ordem de venda** é ocultado, pois as faturas serão criadas no Supply Chain Management e sincronizadas com o Sales. A página **Fatura** não pode ser editada, pois as faturas serão sincronizadas do Supply Chain Management.
 + O valor do **Status da ordem de venda** é alterado automaticamente para **Faturado** quando a fatura relacionada do Supply Chain Management é sincronizada com o Sales. Além disso, o proprietário da ordem de venda da qual a fatura foi criada é atribuído como o proprietário da fatura. Portanto, o proprietário da ordem de venda pode exibir a fatura.
-+ Os campos **Condições de frete**, **Condições de entrega** e **Método de remessa** não estão incluídos no mapeamento padrão. Para mapear esses campos, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a entidade está sincronizada.
++ As colunas **Condições de frete**, **Condições de entrega** e **Método de entrega** não estão incluídas no mapeamento padrão. Para mapear essas colunas, é necessário configurar um mapeamento de valor que é específico para os dados nas organizações às quais a tabela está sincronizada.
 
 ## <a name="templates"></a>Modelos
 
 O item Do cliente potencial ao pagamento à vista inclui um conjunto de mapas de entidades centrais que trabalham juntos durante a interação de dados, conforme mostrado na tabela a seguir.
 
-| Aplicativos Finance and Operations | Aplicativos controlados por modelos no Dynamics 365 | descrição |
+| Aplicativos Finance and Operations | Aplicativos do Customer Engagement | descrição |
 |-----------------------------|-----------------------------------|-------------|
-| Cabeçalhos de fatura de venda V2    | faturas                          |             |
+| Cabeçalhos de fatura de venda V2    | faturas                          | A tabela de cabeçalhos da fatura de venda V2 no aplicativo do Finance and Operations contém faturas para ordens de venda e faturas de texto livre. Um filtro é aplicado no Dataverse para a gravação dupla, que filtrará qualquer documento de fatura de texto livre. |
 | Linhas da fatura de venda V2      | invoicedetails                    |             |
 | Cabeçalhos de ordens de venda CDS     | salesorders                       |             |
 | Linhas de ordem de venda do CDS       | salesorderdetails                 |             |
@@ -135,6 +140,11 @@ Estes são os mapas de tabelas principais relacionados para o item Do cliente po
 + [Todos os produtos para msdyn_globalproducts](product-mapping.md#all-products-to-msdyn_globalproducts)
 + [Lista de preços](product-mapping.md)
 
+## <a name="limitations"></a>Limitações
+- Não há suporte para ordens de devolução.
+- Não há suporte para notas de crédito.
+- As dimensões financeiras devem ser definidas para os dados mestre, por exemplo, cliente e fornecedor. Quando um cliente é adicionado a uma cotação ou a uma ordem de venda, as dimensões financeiras associadas ao fluxo do registro do cliente para a ordem automaticamente. No momento, a gravação dupla não inclui dados de dimensões financeiras para dados mestre. 
+
 [!include [symbols](../../includes/dual-write-symbols.md)]
 
 [!include [sales invoice](includes/SalesInvoiceHeaderV2Entity-invoice.md)]
@@ -150,6 +160,3 @@ Estes são os mapas de tabelas principais relacionados para o item Do cliente po
 [!include [sales quotation header](includes/SalesQuotationHeaderCDSEntity-quote.md)]
 
 [!include [sales quotation line](includes/SalesQuotationLineCDSEntity-QuoteDetails.md)]
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

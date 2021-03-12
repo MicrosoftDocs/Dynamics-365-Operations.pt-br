@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: rhaertle
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ad8b33633646f27bc368dc4bbedc1eb64c150a9f
-ms.sourcegitcommit: 092ef6a45f515b38be2a4481abdbe7518a636f85
+ms.openlocfilehash: d55ca1975589699cbce03dcc7bf81e0762738d24
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422495"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963476"
 ---
 # <a name="install-the-iot-intelligence-add-in-in-lcs"></a>Instale o suplemento de Inteligência de IoT no LCS
 
@@ -56,6 +55,3 @@ A configuração do LCS está concluída. A próxima etapa é [configurar os cen
 2. Em LCS, navegue até os detalhes do ambiente Supply Chain Management.
 3. Role até a seção **Suplementos de ambiente**.
 4. Selecione **Desinstalar** para o suplemento de inteligência IOT.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

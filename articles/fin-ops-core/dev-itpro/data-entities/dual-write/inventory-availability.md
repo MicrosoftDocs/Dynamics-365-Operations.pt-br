@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: riluan
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-05-26
-ms.openlocfilehash: 4d1022eec633bf0a9edb4d5b26982853cec836d7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a7bfe998d2d787203a507a831c171fc43b03fedc
+ms.sourcegitcommit: cc9921295f26804259cc9ec5137788ec9f2a4c6f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449767"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4839540"
 ---
 # <a name="inventory-availability-in-dual-write"></a>Disponibilidade de estoque em gravação dupla
 
@@ -58,5 +58,63 @@ A caixa de diálogo retorna as informações sobre ATP do Supply Chain Managemen
 - Quantidade emitida
 - Quantidade disponível
 
+## <a name="how-it-works"></a>Como funciona
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
+Ao selecionar o botão **Estoque disponível** na página **Cotações**, **Pedidos** ou **Faturas**, uma chamada de gravação dupla será feita para a API **Estoque disponível**. A API calcula o estoque disponível do produto fornecido. O resultado é armazenado nas tabelas **InventCDSInventoryOnHandRequestEntity** e **InventCDSInventoryOnHandEntryEntity** e, em seguida, é registrado no Dataverse por gravação dupla. Para usar essa funcionalidade, é necessário executar os seguintes mapas de gravação dupla. Ignore a sincronização inicial ao executar os mapas.
+
+- Entradas de estoque disponível do CDS (msdyn_inventoryonhandentries)
+- Solicitações de estoque disponível do CDS (msdyn_inventoryonhandrequests)
+
+## <a name="templates"></a>Modelos
+Os seguintes modelos estão disponíveis para a exposição de dados de estoque disponível.
+
+Aplicativos Finance and Operations | Aplicativo Customer Engagement | descrição 
+---|---|---
+[Entradas de estoque disponível do CDS](#145) | msdyn_inventoryonhandentries |
+[Solicitações de estoque disponível do CDS](#147) | msdyn_inventoryonhandrequests |
+
+[!include [banner](../../includes/dual-write-symbols.md)]
+
+###  <a name="cds-inventory-on-hand-entries-msdyn_inventoryonhandentries"></a><a name="145"></a>Entradas de estoque disponível do CDS (msdyn_inventoryonhandentries)
+
+Este modelo sincroniza dados entre aplicativos do Finance and Operations e do Dataverse.
+
+Campo do Finance and Operations | Tipo de mapa | Campo do Customer Engagement | Valor padrão
+---|---|---|---
+`REQUESTID` | = | `msdyn_request.msdyn_requestid` |
+`INVENTORYSITEID` | = | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | = | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`AVAILABLEONHANDQUANTITY` | > | `msdyn_availableonhandquantity` |
+`AVAILABLEORDEREDQUANTITY` | > | `msdyn_availableorderedquantity` |
+`ONHANDQUANTITY` | > | `msdyn_onhandquantity` |
+`ONORDERQUANTITY` | > | `msdyn_onorderquantity` |
+`ORDEREDQUANTITY` | > | `msdyn_orderedquantity` |
+`RESERVEDONHANDQUANTITY` | > | `msdyn_reservedonhandquantity` |
+`RESERVEDORDEREDQUANTITY` | > | `msdyn_reservedorderedquantity` |
+`TOTALAVAILABLEQUANTITY` | > | `msdyn_totalavailablequantity` |
+`ATPDATE` | = | `msdyn_atpdate` |
+`ATPQUANTITY` | > | `msdyn_atpquantity` |
+`PROJECTEDISSUEQUANTITY` | > | `msdyn_projectedissuequantity` |
+`PROJECTEDONHANDQUANTITY` | > | `msdyn_projectedonhandquantity` |
+`PROJECTEDRECEIPTQUANTITY` | > | `msdyn_projectedreceiptquantity` |
+`ORDERQUANTITY` | > | `msdyn_orderquantity` |
+`UNAVAILABLEONHANDQUANTITY` | > | `msdyn_unavailableonhandquantity` |
+
+###  <a name="cds-inventory-on-hand-requests-msdyn_inventoryonhandrequests"></a><a name="147"></a>Solicitações de estoque disponível do CDS (msdyn_inventoryonhandrequests)
+
+Este modelo sincroniza dados entre aplicativos do Finance and Operations e do Dataverse.
+
+Campo do Finance and Operations | Tipo de mapa | Campo do Customer Engagement | Valor padrão
+---|---|---|---
+`REQUESTID` | = | `msdyn_requestid` |
+`PRODUCTNUMBER` | < | `msdyn_product.msdyn_productnumber` |
+`ISATPCALCULATION` | << | `msdyn_isatpcalculation` |
+`ORDERQUANTITY` | < | `msdyn_orderquantity` |
+`INVENTORYSITEID` | < | `msdyn_inventorysite.msdyn_siteid` |
+`INVENTORYWAREHOUSEID` | < | `msdyn_inventorywarehouse.msdyn_warehouseidentifier` |
+`REFERENCENUMBER` | < | `msdyn_referencenumber` |
+`LINECREATIONSEQUENCENUMBER` | < | `msdyn_linecreationsequencenumber` |
+
+
+
+

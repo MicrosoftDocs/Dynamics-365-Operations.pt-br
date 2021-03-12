@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: WHSShipConsolidationPolicy, WHSShipConsolidationWorkbench
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: f7a434aac758c6f36a50b68f08a9df4c02cd613f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3f56e254eaec18cd9a7dec641a7a189967a7eda6
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421946"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963343"
 ---
 # <a name="consolidate-shipments-by-using-shipment-consolidation-policies"></a>Consolidar remessas usando políticas de consolidação de remessa
 
@@ -39,6 +38,3 @@ Os seguintes cenários explicam o processo de consolidação de remessa que usa 
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

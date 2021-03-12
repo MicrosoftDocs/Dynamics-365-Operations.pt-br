@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9919e76b5e3eb1a43c5a0ecd5dda1462bedad4f2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: bce2dac680871e14220d3bb94afacea0a617c707
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410094"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963101"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
@@ -95,6 +94,3 @@ Você também pode vincular um código de expedição a qualquer modo de entrega
 Por exemplo, para ordens que serão enviadas pelo ar no dia seguinte, a separação deverá ser feita no depósito às 13h todos os dias. Neste caso, um código de expedição pode ser criado, e o código pode ser vinculado no dia seguinte ao modo de entrega que é configurado no sistema. Quando o depósito criar sua onda de separação, o código de expedição apropriado no campo **Expedir** pode ser usado como filtro, de forma que a separação seja executada somente para ordens que tenham os modos de entrega vinculados ao código.
 
 Além disso, quando uma ordem de call center é inserida, um código de expedição pode ser aplicado manualmente ao cabeçalho de ordem de venda ou linha de ordem de venda individual. Novamente, o código pode ser usado para fins de classificação ou relatório. Às vezes, uma ordem deve ser tratada cuidadosamente devido a uma emissão de serviço do cliente. Neste caso, um código de expedição específico pode ser aplicado ao cabeçalho ou a linhas de ordem para ajudar a identificar e priorizar a ordem durante o processo de atendimento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

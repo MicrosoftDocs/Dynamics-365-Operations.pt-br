@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: f986fb232f1aee3a5c4ce7876739d211afc567eb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 467b894b6401a368441fbdce5c86e49529619324
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408431"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962573"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 
@@ -238,6 +237,3 @@ O registro G140 é gerado para identificar a nota fiscal das operações CIAP. O
 | 7      | VL\_ICMS\_ST\_APLICADO  | O valor do ICMS-ST da nota fiscal de entrada. Esse valor vem da coluna **ICMS-ST** da apuração do CIAP. |
 | 8      | VL\_ICMS\_FRT\_APLICADO | O valor do ICMS da nota fiscal de entrada. Esse valor vem da coluna **ICMS no frete** da apuração do CIAP. |
 | 9      | VL\_ICMS\_DIF\_APLICADO | O valor do ICMS-DIF da nota fiscal de entrada. Esse valor vem da coluna **ICMS-DIF** da apuração do CIAP. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

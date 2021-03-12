@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 73662929f116ce6128c57a71037298f208c3c16b
-ms.sourcegitcommit: 8eefb4e14ae0ea27769ab2cecca747755560efa3
+ms.openlocfilehash: 5585ad96ec689b55c00e123fc465684436028823
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/13/2020
-ms.locfileid: "4516660"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963601"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-supply-chain-management"></a>Catálogo de aprendizado de gerentes de projeto de implementação que trabalham com o Dynamics 365 Supply Chain Management
 
@@ -107,6 +106,3 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | [Teste MB-300: Microsoft Dynamics 365 Unified Operations Core](https://docs.microsoft.com/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: usar ferramentas comuns de funcionalidade e implementação; configurar segurança, processos e opções; realizar a migração de dados; validar e fornecer suporte para a solução. | O custo do teste varia de acordo com a região |
 | [Teste MB-320: Microsoft Dynamics 365 for Finance and Operations, Manufacturing](https://docs.microsoft.com/learn/certifications/exams/mb-320?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: definir e configurar a fabricação; criar e gerenciar a produção e ordens de lean manufacturing; criar, e processar e gerenciar ordens de lote de produção. | O custo do teste varia de acordo com a região |
 | [Teste MB-330: Microsoft Dynamics 365 for Finance and Operations, Supply Chain Management](https://docs.microsoft.com/learn/certifications/exams/mb-330?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: implementar o gerenciamento de informações do produto; implementar o gerenciamento de estoque; implementar e gerenciar os processos da cadeia de fornecedores; e implementar o gerenciamento de depósito e o gerenciamento de transporte, além de realizar os processos empresariais. | O custo do teste varia de acordo com a região |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

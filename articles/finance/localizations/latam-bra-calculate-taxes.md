@@ -10,18 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 268704
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b81603a8226ec48af2f421825579fe6147dd3f92
-ms.sourcegitcommit: 102c1e998a591a295307c588dfe523cfa750d43c
+ms.openlocfilehash: efbf974321711b0b5cc2e29bd5b67cd4c5d38d3a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4665496"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962598"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 
@@ -102,6 +101,3 @@ Para transações de venda com códigos de tributação com um valor fiscal **1.
 -   [Impostos retidos na fonte no Brasil ](tasks/br-00009-brazilian-withholding-taxes.md)
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

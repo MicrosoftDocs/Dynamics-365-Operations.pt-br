@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 270254
 ms.assetid: 92223189-69a8-4a40-b867-ef9b4f14c23d
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b2fb132773e0fc4d8a9b6aeff64dde87b147534
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 247b43fb26b5c4f048e5d0c823e58e42a2fe902c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408457"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4962594"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 
@@ -436,6 +435,3 @@ O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de auto
 7.  No campo **Tipo de arquivo**, selecione o tipo de arquivo.
 
 O arquivo é enviado usando os serviços web. É obrigatório ter um certificado. Após a mensagem de devolução ser recebida com o resultado da validação do governo, a resposta é salva no mesmo local onde o arquivo foi gerado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

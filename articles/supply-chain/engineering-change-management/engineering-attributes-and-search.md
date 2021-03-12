@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EngChgProductAttributeSearch, EngChgMaintainAttributeInheritance, EngChgAttribute
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 5a4f31af3f76c1af6a0f5546955e810bd1cca375
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: 32cd2c6d0915df1e48973a22a7d391eb8d62a072
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422641"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "4963679"
 ---
 # <a name="engineering-attributes-and-engineering-attribute-search"></a>Atributos de engenharia e pesquisa de atributos de engenharia
 
@@ -94,6 +93,3 @@ Você deve especificar a categoria de engenharia à qual o produto pertence. A c
 Você pode usar a pesquisa de atributos de engenharia para encontrar produtos pesquisando valores de atributos de engenharia. Portanto, você pode encontrar facilmente produtos de engenharia com base nas características deles. Você pode pesquisar nos produtos que pertencem a uma categoria de produto de engenharia ou pode pesquisar em todos os produtos de engenharia.
 
 A pesquisa está disponível nas páginas de dados do produto mestre e em itens transacionais no sistema, como ordens de venda. Para um item transacional, você pode usar a página **Pesquisa de atributo de engenharia** para procurar um produto. Em seguida, você poderá usar o botão **Adicionar como nova linha** para adicionar o produto às linhas da ordem de venda. Os produtos nos resultados da pesquisa também podem ser adicionados diretamente à ordem.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 109c047a35154f6d4c0ebcd71e1c72990d0f4971
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f61e0f7ee16519767192fb379f20c1ed20b69caa
+ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693369"
+ms.lasthandoff: 12/19/2020
+ms.locfileid: "4798796"
 ---
 # <a name="configure-manual-tasks-in-a-workflow"></a>Configurar tarefas manuais em um fluxo de trabalho
 
@@ -381,6 +381,3 @@ Quando a tarefa manual for atribuída a um usuário, este deverá executar uma a
 5. Marque a caixa de seleção **Delegar** se o usuário puder atribuir a tarefa a outro usuário.
 6. Marque a caixa de seleção **Reatribuir** se o usuário puder reatribuir a tarefa a outro usuário na fila de itens de trabalho.
 7. Marque a caixa de seleção **Liberar** se o usuário puder reatribuir a tarefa na fila de itens de trabalho. Assim, outro usuário poderá concluir a tarefa.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
