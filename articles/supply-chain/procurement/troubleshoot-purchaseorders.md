@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 234458f865e37a2d962aee8ab218b9521847081d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 7b65c23fc7ac04fc30c0001bee9541a475026018
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422606"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007482"
 ---
 # <a name="troubleshoot-purchase-orders"></a>Solucionar problemas de ordens de compra
 
@@ -132,7 +131,7 @@ Você só pode estender o período para o qual o fornecedor foi aprovado. As seg
 
 Para o cenário de exemplo descrito na descrição do problema, em que um registro tem uma data de efetivação de *11/01/2018* e uma data de expiração *Nunca*, você pode importar um novo registro que tenha uma data de efetivação de *10/01/2018* e uma data de expiração *Nunca*. No entanto, não é possível reduzir o período para que a data de efetivação seja atualizada para *12/01/2018* por meio do gerenciamento de dados. Você deve fazer essa alteração por meio da interface do usuário.
 
-## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-nameisnt-synced"></a>Depois de alterar o endereço de entrega em um cabeçalho de ordem de compra, o nome da entrega não é sincronizado.
+## <a name="after-i-change-the-delivery-address-on-a-purchase-order-header-the-delivery-name-isnt-synced"></a>Depois de alterar o endereço de entrega no cabeçalho de uma ordem de compra, o nome da entrega não é sincronizado.
 
 ### <a name="issue-description"></a>Descrição do problema
 
@@ -145,6 +144,3 @@ Esse comportamento é por design. O endereço selecionado deve ser classificado 
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>É possível encontrar o usuário que cancelou uma ordem de compra?
 
 Essas informações serão rastreadas somente se a ordem de compra estiver sujeita a gerenciamento de alterações. Se você usar o gerenciamento de alterações, poderá ver quem enviou a alteração (o cancelamento) e quem a aprovou.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

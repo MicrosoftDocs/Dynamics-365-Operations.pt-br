@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a4745fe4fc44f85bcfd388ee573f5a6d0cd8519
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d313d76d40476bec5c8bc9c8ea5fc93b217e7e87
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422184"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007557"
 ---
 # <a name="create-a-new-product"></a>Criar um novo produto
 
@@ -43,6 +42,3 @@ Este tópico descreve como criar um novo produto compartilhado. Geralmente é re
 3. No campo **Grupo de dimensões de rastreamento**, insira ou selecione um valor. O grupo de dimensões de rastreamento determina quais dimensões de rastreamento você deve inserir em cada transação para o produto e como são lidadas no estoque.  
 4. Selecione **OK**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

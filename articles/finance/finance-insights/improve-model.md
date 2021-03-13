@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 23c9062dcc13951792306c955b54cae6f656fec5
-ms.sourcegitcommit: deb711c92251ed48cdf20ea514d03461c26a2262
+ms.openlocfilehash: 2bcdea4a2a8f4386b274077cd1e95398fb6fac37
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4646070"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009359"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Melhorar o modelo de previsão (versão preliminar)
 
@@ -42,19 +41,19 @@ Se a sua organização exigir apenas dois resultados, altere os limites **Atrasa
 
 ## <a name="select-fields"></a>Selecionar campos
 
-Quando estiver selecionando os campos a serem incluídos no modelo, lembre-se de que a lista inclui todos os campos disponíveis na entidade do Common Data Service mapeada para os dados no Azure Data Lake. Alguns desses campos **não** devem ser selecionados. Os campos que não devem ser selecionados caem em uma das três categorias:
+Quando estiver selecionando campos a serem incluídos no modelo, lembre-se de que a lista inclui todos os campos disponíveis na tabela do Microsoft Dataverse mapeada para os dados no Azure Data Lake. Alguns desses campos **não** devem ser selecionados. Os campos que não devem ser selecionados caem em uma das três categorias:
 
-- O campo é necessário para a entidade do Common Data Service, mas não há dados de backup para ele no data lake.
+- O campo é necessário para a tabela do Dataverse, mas não há dados de backup para ele no data lake.
 - O campo é uma ID e, portanto, não faz sentido para um recurso de aprendizado de máquina.
 - O campo representa informações que não estarão disponíveis durante a previsão.
 
 As seções a seguir mostram os campos disponíveis para as entidades de fatura e de cliente e listam os campos que **não** devem ser selecionados para treinamento. A categoria especificada para cada um desses campos se refere às categorias na lista anterior.
  
-### <a name="invoice-common-data-model-entity"></a>Entidade de fatura do Common Data Model
+### <a name="invoice-dataverse-table"></a>Tabela de faturas do Dataverse
 
-A ilustração a seguir mostra os campos disponíveis para a entidade de fatura.
+A ilustração a seguir mostra os campos disponíveis para a tabela de fatura.
 
-[![Campos disponíveis para a entidade de fatura](./media/available-fields.png)](./media/available-fields.png)
+[![Campos disponíveis para a tabela de fatura](./media/available-fields.png)](./media/available-fields.png)
 
 Os campos a seguir não devem ser selecionados para treinamento:
 
@@ -65,11 +64,11 @@ Os campos a seguir não devem ser selecionados para treinamento:
 - **Registro de origem** (categoria 2)
 - **Tabela de origem** (categoria 2)
 
-### <a name="customer-common-data-model-entity"></a>Entidade de cliente do Common Data Model
+### <a name="customer-dataverse-table"></a>Tabela de clientes do Dataverse
 
-A ilustração a seguir mostra os campos disponíveis para a entidade de cliente.
+A ilustração a seguir mostra os campos disponíveis para a tabela de clientes.
 
-[![Campos disponíveis para a entidade de cliente](./media/related-entities.png)](./media/related-entities.png)
+[![Campos disponíveis para a tabela de clientes](./media/related-entities.png)](./media/related-entities.png)
 
 O campo a seguir não deve ser selecionados para treinamento:
 
@@ -83,6 +82,3 @@ No momento, os filtros não dão suporte ao cenário Previsão de pagamento do c
 
 #### <a name="privacy-notice"></a>Aviso de privacidade
 As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 52b0b456a6d9879c480ac3f076a32e382426a89c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 14244ccfef69a8bff3390539ff7b851a8f5b5ec1
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440341"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009559"
 ---
 # <a name="settle-remainder"></a>Liquidar pendências
 
@@ -70,6 +69,3 @@ Para liquidar as pendências, execute estas etapas:
 7)  Você também pode decidir criar um diário de pagamento com a liquidação de pendências ou apenas lançá-lo sem um diário. Selecione **Sim** para que **Editar o diário** crie um diário de pagamento. É possível editar o diário de pagamento que você criou.
 8)  Clique em **Liquidar pendências**. Se optar por criar um diário, o botão será alterado para **Criar diário**. Clique em **Criar diário**.
 9)  Se você criar um diário de pagamento, a página do diário será aberta após você clicar em **Liquidar pendências**. Uma linha de diário será adicionada ao diário com o valor da liquidação de pendências como o valor e com a conta da liquidação de pendências como a contrapartida. Se você adicionou um cliente ou fornecedor para que possa mover o valor da liquidação para um outro cliente ou fornecedor, uma linha adicional será adicionada ao diário para mover o valor da liquidação para esse cliente ou fornecedor.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

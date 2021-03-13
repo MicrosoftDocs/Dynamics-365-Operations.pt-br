@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: InventValueProcess, InventValueReportSetup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f50318e0a955d8244ba854aa1fd73ad7532b9198
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0f54c02fc828d60f4ddb28be932bbf8eb137ee92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422157"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5008143"
 ---
 # <a name="inventory-value-storage-report"></a>Relatório de armazenamento de valor de estoque
 
@@ -106,6 +105,3 @@ O exemplo a seguir mostra como exportar um relatório **Relatório de valor de e
 1. Na página **Resumo de execução** na que aparece, você pode ver o status do seu trabalho de exportação e uma lista de entidades que foram exportadas. Na seção **Status de processamento da entidade**, selecione a entidade **Valor de estoque** na lista, e selecione **Baixar arquivo** para baixar os dados que foram exportados a partir dessa entidade.
 
 Para obter mais informações sobre como usar o gerenciamento de dados para exportar dados, consulte [Visão geral de trabalhos de importação e exportação de dados](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

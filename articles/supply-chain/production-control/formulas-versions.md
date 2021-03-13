@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule, EcoResProductProdTypeFormulaNoActiveFormulaFormPart
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7fb37483412fdd09fe3734ddb148b050ec02951
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1e5ff5916366f968cbf8dc9a5614466ef89faa92
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422117"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5007135"
 ---
 # <a name="formulas-and-formula-versions"></a>Fórmulas e versões de fórmulas
 
@@ -71,6 +70,3 @@ O recurso Escalonável estará disponível somente se todos os componentes do it
 
 ## <a name="use-step-consumption"></a>Usar consumo em etapas
 O consumo em etapas elimina a necessidade de inserir uma quantidade na guia **Linha da fórmula** de um ingrediente. Em vez de isso, o consumo da etapa é configurado para ter um valor **Da série** e **Quantidade**. As informações do registro de Consumo da etapa por série que atendem à quantidade na ordem do lote são selecionadas. O consumo da etapa é útil quando a taxa de consumo não é linear em relação ao tamanho da ordem de lote, e somente aumenta a necessidade quando um determinado limite de quantidade é atingido. Para habilitar esse recurso para uma nova fórmula, no grupo **Cálculo de consumo**, altere a configuração da fórmula para o ingrediente aplicável de  **Padrão** para **Etapa**. Você especifica esse método de consumo na guia **Configuração** da página **Linha da fórmula**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

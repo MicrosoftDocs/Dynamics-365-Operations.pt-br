@@ -10,16 +10,15 @@ ms.service: Dynamics365Operations
 ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
-ms.search.scope: Operations
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 11dd8f05ec3e8e1b92bddea9676edd7e32f966d5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 831d8efd3a380aa6a0925a3ad237e5c0878765fc
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410210"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5009865"
 ---
 # <a name="learning-catalog-for-users-of-dynamics-365-commerce"></a>Catálogo de aprendizagem para usuários do Dynamics 365 Commerce
 
@@ -52,6 +51,3 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos Fina
 | Conteúdo | descrição  | Formatar   | Extensão    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|-----------|
 | [Configurar e trabalhar com comércio eletrônico no Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Os canais online e o site de comércio eletrônico do Dynamics 365 Commerce permitem que os varejistas criem uma presença online da marca. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas   |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
