@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 220104
 ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 90c01e4281246d890ef888c56ca137f83e83741c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f17f9e1401c68c11e23f327d96028663470b3245
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421953"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011313"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de números e de nomes de grade de produto
 
@@ -121,7 +120,7 @@ Você cria uma nomenclatura de configuração com os seguintes segmentos:
 2.  Constante de texto: "&"
 3.  Grupo de configuração: grade frontal
 
-Nesse caso, a ID de configuração para um gabinete padrão com grade frontal de tecido será: M0007&M0021.
+Neste caso, a ID de configuração de um gabinete padrão com grade frontal de tecido será M0007&M0021.
 
 ## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclatura para uma combinação de grades de produto e configurações
 Quando você usa a tecnologia de configuração baseada em restrição ou a tecnologia de configuração baseada em dimensão para configurar grades de produto para um produto mestre, os números das grades de produto podem incluir a nomenclatura da dimensão de configuração. Siga estas etapas para configurar as variantes.
@@ -198,6 +197,3 @@ Durante uma etapa do processo de configuração, o sistema sugere um valor de co
 
 [Criar uma nomenclatura de número de produto para grades de produto configuradas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 397969fe9f263ae76d838b7413f3fded0ad91990
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 373c7a5a92ceb73214a998e908e2c3d08b9d033a
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408493"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012012"
 ---
 # <a name="include-ciap-credit-from-a-previous-period-brazil"></a>Incluir o crédito CIAP de um período anterior (Brasil)
 
@@ -50,6 +49,3 @@ Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito
 19. Clique em Salvar.
 20. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

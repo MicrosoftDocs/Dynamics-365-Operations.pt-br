@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83a62966e343a9b1c073c2d6ec1c1b69b1daddbb
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 36f908e02c996c0d0a636fd9295b84fcc16b6b63
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422261"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011763"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>Calcular uma BOM usando uma estrutura de nível único (Fevereiro de 2016)
 
@@ -44,6 +43,3 @@ Este procedimento mostra como calcular o custo de um produto finalizado usando d
     * Você pode clicar nas reticências (...) para ver essa opção no menu superior.    Esta é a composição do custo:  *    10 é derivado do ITEM_A, 10 do ITEM_B, 10 do BOM_2. Neste caso, não há detalhes para BOM_2 porque ele foi inserido como um custo padrão de 10, mas isso não foi feito por meio de cálculo.  *    7 é derivado do tempo de preparação, que é um custo constante, e o 7 adicional é derivado da operação de tempo de execução (Processo).  *    Também há outros valores que correspondem a custos indiretos.  
 9. @SysTaskRecorder:_RequestClose
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

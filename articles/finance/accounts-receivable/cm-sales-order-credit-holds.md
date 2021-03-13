@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschloma
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 102ea4285407a4f4985cc8dd46ebc1ad21fc6f67
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 754b34d9d522451082ba6010297431788e4151f4
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440223"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012254"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenções de crédito de ordens de venda
 [!include [banner](../includes/banner.md)]
@@ -265,6 +264,3 @@ As ordens de venda que têm um motivo de bloqueio forçado não podem ser libera
 No momento, o gerenciamento de crédito só pode ser usado para ordens de venda. As faturas de texto livre, as ordens do ponto de venda e as ordens de call center usarão os limites de crédito temporários e os seguros/garantias que você adicionar para ajustar o limite de crédito. Elas não usarão as regras de bloqueio e não serão colocadas na lista de bloqueio se houver um problema de limite de crédito.
 
 Não há suporte para faturas de projeto no gerenciamento de crédito.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

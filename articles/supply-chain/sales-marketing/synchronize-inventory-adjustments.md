@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,16 +18,18 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: ff64f28af570b792f73b51aa9caf06dd2445b2ca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a598f0356034a22ee7fc0902360b8862a1944558
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422068"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010963"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Sincronizar transferências e ajustes de estoque do Field Service com o Supply Chain Management
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ajustes e transferências de estoque do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
 
@@ -45,27 +46,27 @@ O modelo a seguir e as tarefas subjacentes são usados para executar a sincroniz
 - Ajustes de estoque
 - Transferências de estoque
 
-## <a name="entity-set"></a>Conjunto de entidades
+## <a name="table-set"></a>Conjunto de tabelas
 | Field Service                     | Gerenciamento da Cadeia de Fornecedores                          |
 |-----------------------------------|----------------------------------------------------|
-| msdyn_inventoryadjustmentproducts |   Cabeçalhos e linhas do diário de ajuste de estoque do CDS |
-| msdyn_inventoryadjustmentproducts | Cabeçalhos e linhas do diário de transferência de estoque do CDS   |
+| msdyn_inventoryadjustmentproducts | Cabeçalhos e linhas do diário de ajuste de estoque do Dataverse |
+| msdyn_inventoryadjustmentproducts | Cabeçalhos e linhas do diário de transferência de estoque do Dataverse   |
 
-## <a name="entity-flow"></a>Fluxo de entidades
+## <a name="table-flow"></a>Fluxo de tabelas
 Os ajustes e transferências de estoque realizados no Field Service serão sincronizados com o Supply Chain Management depois que o **Status de lançamento** mudar de **Criado** para **Lançado**. Quando isso ocorre, o ajuste ou a ordem de transferência será bloqueado para se tornar somente leitura. Isso significa que os ajustes e as transferências podem ser lançados no Supply Chain Management, mas não podem ser alterados. No Supply Chain Management, você pode configurar um trabalho em lotes para lançar automaticamente ajustes e transferir diários de estoque gerados com a integração. Veja os pré-requisitos a seguir para obter detalhes sobre como habilitar o trabalho em lotes.
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM 
-O campo **Unidade de estoque** foi adicionado à entidade **Produto**. Este campo é necessário pois a unidade de vendas e estoque não é sempre a mesma no Supply Chain Management, e a unidade de estoque é necessária para o estoque do depósito no Supply Chain Management.
-Quando você definir o produto em um produto de ajuste de estoque para os ajustes de estoque e as transferências de estoque, a unidade será obtida do valor de produto do estoque. Se um valor for encontrado, o campo **Unidade** será bloqueado no produto de ajuste de estoque
+A coluna **Unidade de estoque** foi adicionada à tabela **Produto**. Esta coluna é necessária, pois a unidade de Vendas e Estoque não é sempre a mesma no Supply Chain Management e a Unidade de Estoque é necessária para o Estoque do Depósito no Supply Chain Management.
+Quando você definir o produto em um produto de ajuste de estoque para os ajustes de estoque e as transferências de estoque, a unidade será obtida do valor de produto do estoque. Se um valor for encontrado, a coluna **Unidade** será bloqueada no Produto de ajuste de estoque.
 
-O campo **Status de lançamento** foi adicionado à entidade **Ajuste de estoque** e à entidade **Transferência de estoque**. Este campo é usado como um filtro quando um ajuste ou uma transferência é enviada para o Supply Chain Management. O padrão desse campo é Criado (1), porém ele não é enviado para o Supply Chain Management. Quando você atualiza o valor para Lançado (2), ele será enviado para o Supply Chain Management, mas depois disso você não poderá mais fazer alterações no ajuste nem na transferência, nem adicionar novas linhas.
+A coluna **Status de lançamento** foi adicionada à tabela **Ajuste de estoque** e à tabela **Transferência de estoque**. Esta coluna é usada como filtro quando um ajuste ou uma transferência é enviada para o Supply Chain Management. O padrão dessa coluna é Criado (1), no entanto, ela não é enviada para o Supply Chain Management. Quando você atualiza o valor para Lançado (2), ele será enviado para o Supply Chain Management, mas depois disso você não poderá mais fazer alterações no ajuste nem na transferência, nem adicionar novas linhas.
 
-O campo **Sequência numérica** foi adicionado à entidade **Produto de ajuste de estoque**. Este campo garante que a integração tenha um número exclusivo, assim a integração pode criar e atualizar o ajuste. Quando você criar seu primeiro produto de ajuste de estoque, ele criará um novo registro na entidade **P2C AutoNumber** para manter a série de número e o prefixo usado.
+A coluna **Sequência numérica** foi adicionada à tabela **Produto de ajuste de estoque**. Esta coluna garante que a integração tenha um número exclusivo, assim, a integração pode criar e atualizar o ajuste. Quando você criar seu primeiro produto de ajuste de estoque, ela criará um novo registro na tabela **P2C AutoNumber** para manter a série de números e o prefixo usados.
 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
 ### <a name="supply-chain-management"></a>Gerenciamento da Cadeia de Fornecedores
-Os diários de estoque de integração gerados pela integração podem ser lançados automaticamente usando um trabalho em lotes. Isso é habilitado em **Gerenciamento de estoque > Tarefas periódicas > Integração de CDs > Diários de estoque após a integração**.
+Os diários de estoque de integração gerados pela integração podem ser lançados automaticamente usando um trabalho em lotes. Isso é habilitado em **Gerenciamento de estoque > Tarefas periódicas > Integração do Dataverse > Diários de estoque após a integração**.
 
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelo na Integração de dados
 
@@ -79,6 +80,3 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transferência de estoque (Field Service com o Supply Chain Management): Transferência de estoque
 
 [![Mapeamento de modelo na Integração de dados](./media/FSTrans1.png)](./media/FSTrans1.png)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

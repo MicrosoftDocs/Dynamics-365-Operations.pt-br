@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode, EcoResProductListPage, EcoResProductDetailsExtended, EcoResProductVariantsPerCompany
 audience: Application User, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c16818f1dc52c9e21130539213e7e8d1053fef1d
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: f28193f9671bcae1345d5c1085ea3f2446e6e088
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529177"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011356"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto
 
@@ -44,7 +43,7 @@ Em muitos casos, o número do produto não é criado originalmente no Dynamics 3
 
 Ao implementar o Supply Chain Management, você deve dar atenção especial à sua estratégia de números de produto. Um bom sistema de numeração melhora os fluxos de logística e ajuda a evitar erros. Um bom identificador de produto tem no máximo 15 caracteres. O ideal é que tenha menos de 10 caracteres e que não inclua mais do que cinco caracteres de classificação. Você também pode usar nomes de pesquisa para habilitar pesquisas rápidas. Um nome de pesquisa é um nome adicional que representa as classificações de um produto.
 
-Quando usar o Common Data Service, o número do produto no Supply Chain Management também será o número do produto no Common Data Service. As grades de produtos são sincronizadas no Common Data Service como produtos distintos.
+Ao usar o Microsoft Dataverse, o número do produto no Supply Chain Management também será o número do produto no Microsoft Dataverse. As grades de produtos são sincronizadas com o Dataverse como produtos distintos.
 
 ## <a name="item-number-and-product-dimensions"></a>Número do item e dimensões do produto
 
@@ -167,7 +166,7 @@ A tabela a seguir fornece uma visão geral dos resultados de importação e cria
 
 ## <a name="product-entity-identifier-export-all-product-identifiers"></a>Identificador de entidade Produto (Exportar todos os identificadores do produto)
 
-O modelo do identificador de entidade Produto foi criado para habilitar a versão 1.0 do CDS para ser provisionada com todos os identificadores usados para fazer referência a um produto. Para simplificar essa tarefa, todos os identificadores são agregados em uma tabela global de identificadores, para que possam ser exportados como um modelo. Observe que essa versão do CDS não usa o modelo de identificadores de produtos. Portanto, a entidade **Entidade de identificador de Common Data Service de entidade de produto** e esse processo têm uso prático limitado e provavelmente estarão sujeitos a alterações futuramente.
+O modelo do identificador de entidade Produto foi criado para habilitar a versão 1.0 do Dataverse a ser provisionada com todos os identificadores usados para fazer referência a um produto. Para simplificar essa tarefa, todos os identificadores são agregados em uma tabela global de identificadores, para que possam ser exportados como um modelo. Observe que essa versão do Dataverse não usa o modelo de identificadores de produtos. Portanto, a entidade **Entidade de identificador de Common Data Service de entidade de produto** e esse processo têm uso prático limitado e provavelmente estarão sujeitos a alterações futuramente.
 
 A tabela de identificadores de produtos é uma tabela global preenchida a partir de todas as tabelas de referência da Entidade legal principal por meio de um trabalho em lotes recorrente. Você deve selecionar uma entidade legal e uma hierarquia de categoria de produto como a definição do escopo global do produto mestre. A geração da tabela global de identificadores de produtos limita-se aos produtos que são liberados para a entidade legal selecionada e aos produtos que são membros da hierarquia de produtos selecionada para a função **Common Data Service** na hierarquia de categoria de produto.
 
@@ -175,7 +174,7 @@ Esse processo pressupõe que os dados mestres do produto são mantidos principal
 
 Siga estas etapas para configurar o ambiente.
 
-1. Selecione a hierarquia de categoria para o CDS. Na página **Associações de funções de hierarquia de categoria**, se nenhuma hierarquia estiver associada à função **Common Data Service**, você deverá criar uma nova associação. Selecione a função **Common Data Service** e associe a hierarquia de categoria que representa o portfólio de produtos que deverá ser sincronizado ao CDS.
+1. Selecione a hierarquia de categoria para o Dataverse. Na página **Associações de funções de hierarquia de categoria**, se nenhuma hierarquia estiver associada à função **Common Data Service**, você deverá criar uma nova associação. Selecione a função **Common Data Service** e associe a hierarquia de categoria que representa o portfólio de produtos que deverá ser sincronizado com o Dataverse.
 2. Selecione a entidade legal para dados mestres globais do produto. Na página **Parâmetros de gerenciamento de informações do produto**, na guia **Atributos do produto**, selecione a empresa mestre na qual os identificadores do produto e do item são mantidos principalmente.
 3. Defina os tipos de código de identificadores e os códigos que devem ser exportados. Vá para **Gerenciamento de informações sobre produtos** &gt; **Configuração** &gt; **Códigos de identificador de produtos**. Para gerar os tipos de código de identificadores, selecione **Gerar códigos**. Uma entrada de tipo de código é gerada para cada tipo do identificador encontrado na entidade legal selecionada.
 
@@ -190,6 +189,3 @@ Agora você pode usar as entidades de dados **Entidade de identificador de Commo
 ## <a name="related-topic"></a>Tópico relacionado
 
 [Procurar produtos e grades de produtos durante uma entrada de ordem](search-products-product-variants.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

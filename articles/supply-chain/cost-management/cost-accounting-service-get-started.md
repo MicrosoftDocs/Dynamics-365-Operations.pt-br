@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: a82af9e8ec1806f470103897389d0316d33a4a06
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 1f602116edabc424b6cbee541e268df017912d3c
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422084"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5011838"
 ---
 # <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Introdução ao serviço de contabilidade de custos (versão prévia particular)
 
@@ -111,6 +110,3 @@ Para configurar a integração entre o serviço de contabilidade de serviços e 
 ## <a name="related-resources"></a>Recursos relacionados
 
 [Home page do serviço de contabilidade de custos](cost-accounting-service-home.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

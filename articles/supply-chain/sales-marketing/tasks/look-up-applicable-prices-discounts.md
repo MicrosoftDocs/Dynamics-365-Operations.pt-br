@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cfdbda55c2f83ee2b470cab8a5e4f9ce728b852
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 9bd85d9cd2d7273ad6e05d794a96e4d6a8d7c526
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421984"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5010763"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Pesquisar preços e descontos aplicáveis
 
@@ -60,6 +59,3 @@ Verifique se o campo Conta de cliente contém o número de cliente US-001
     * Existem dois contratos de linha de desconto para o produto T0012, especificando um desconto de 5 por cento para uma quantidade de linha de ordem de 1 a 10, e 7 por cento para quantidades de ordem acima de 10. Observe que os descontos estão aplicados a um grupo de produtos, neste exemplo, Grupo código 01, do qual o produto T0012 é membro.  
 4. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

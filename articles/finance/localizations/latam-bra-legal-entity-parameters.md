@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: Accountant_BR, AccountantElectronicAddress_BR, AccountantPostalAddress_BR, BrazilParameters, FiscalEstablishment_BR, FiscalEstablishmentGroup_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269404
 ms.assetid: af0951b7-078d-49ea-9655-1037dbd0bfe1
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e88eda1464a6997964be3e1382650a1f9d60cb3b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff30528f2669780b94ccb09ff9d4d0af1b1971be
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408445"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012036"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
@@ -321,6 +320,3 @@ No Brasil, é necessário especificar os detalhes do contador para o relatório 
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

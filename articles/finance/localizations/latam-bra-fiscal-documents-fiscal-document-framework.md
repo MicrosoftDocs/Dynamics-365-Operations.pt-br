@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: FiscalDocument_BR, FiscalDocumentAmounts_BR, FiscalDocumentChargesTotals_BR, FiscalDocumentElectronic_BR
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 269094
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6357712a1aa55eae5abb2329c56a49d4d4f3e550
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fc2085fe687c91e9d5d9062295c6310303ba6aa9
+ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408452"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5012048"
 ---
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
@@ -70,6 +69,3 @@ Depois que uma nota fiscal for lançada, o usuário poderá ver as informações
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-04-03
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 9d01c577fc33564d3517d242e9b01f73cc8e079c
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: f045b9686bbdfcf3e82f5158f0fd28860354b7d7
+ms.sourcegitcommit: b6686265314499056690538eaa95ca51cff7c720
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422568"
+ms.lasthandoff: 01/15/2021
+ms.locfileid: "5014474"
 ---
 # <a name="warehouse-management-on-hand-entries-cleanup-job"></a>Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
 
@@ -50,7 +49,12 @@ Quando o trabalho é executado, ele tem um tamanho de confirmação de 100. Em o
 
 ## <a name="possible-user-impact"></a>Possível impacto do usuário
 
-Os usuários poderão ser afetados se o trabalho de limpeza de entradas disponíveis excluir todos os registros de um determinado nível (como o nível da placa de licença). Nesse caso, a funcionalidade para ver que o estoque estava disponível anteriormente em uma placa de licença talvez não funcione conforme o esperado, pois as entradas disponíveis relevantes não estão mais disponíveis. (Essa funcionalidade verifica a condição **Quantidade \<\> 0** nas configurações de **Exibição da dimensão** quando os usuários exibem informações disponíveis). No entanto, a melhoria de desempenho que o trabalho de limpeza fornece deve fazer isso para essa pequena perda na funcionalidade.
+Os usuários poderão ser afetados se o trabalho de limpeza de entradas disponíveis excluir todos os registros de um determinado nível (como o nível da placa de licença). Nesse caso, a funcionalidade para ver que o estoque estava disponível anteriormente em uma placa de licença talvez não funcione conforme o esperado, pois as entradas disponíveis relevantes não estão mais disponíveis. Isso pode, por exemplo, ser visto nas seguintes situações:
+
+- Na **Lista disponível**, quando o usuário desmarca a condição **Quantidade \<\> 0** ou seleciona a condição **Transações fechadas** nas configurações de **Exibição de dimensões**.
+- Em um relatório de **Estoque físico por dimensão do estoque** de períodos anteriores, quando o usuário define o parâmetro **A partir da data**.
+
+No entanto, a melhoria de desempenho que o trabalho de limpeza fornece deve compensar essas pequenas perdas de funcionalidade.
 
 ## <a name="make-the-maximum-execution-time-setting-available"></a><a name="max-execution-time"></a>Disponibilizar a configuração de tempo de execução máximo
 
@@ -58,6 +62,3 @@ Por padrão, a configuração **Tempo de execução máximo** não está dispon�
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito*
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
