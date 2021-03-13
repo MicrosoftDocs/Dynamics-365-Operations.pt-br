@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: ca7a5d88de4308d7be9c1bc749b9dbf1da027c2c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4eadbdc452a5b7d28adfa0f102a9a727faad3c07
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422392"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016694"
 ---
 # <a name="work-orders-and-fixed-assets"></a>Ordens de serviço e ativos fixos
 
@@ -65,6 +64,3 @@ O procedimento a seguir descreve a relação entre ativos, ordens de serviço, p
 
 7. Para exibir uma visão geral dos projetos associados a um ativo fixo, selecione **Ativos fixos** > **Ativos fixos** > **Ativos fixos** e, em seguida, no campo **Número do ativo fixo**, selecione o link do ativo fixo para abrir a exibição de detalhes. Expanda o painel **Informações relacionadas** do lado direito da página e selecione a Guia Rápida **Projetos associados**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
