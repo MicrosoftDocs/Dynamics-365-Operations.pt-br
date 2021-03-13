@@ -1,6 +1,6 @@
 ---
 title: Meu espaço de trabalho móvel em equipe
-description: Este tópico fornece informações sobre o meu espaço de trabalho móvel em equipe, que permite aos gerentes visualizar os seus subordinados diretos e a sua equipe estendida. Os usuários também podem enviar elogios a indivíduos em sua cadeia de subordinação.
+description: Este tópico fornece informações sobre o meu espaço de trabalho móvel em equipe, que permite aos gerentes visualizar os seus subordinados diretos e a sua equipe estendida.
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6ac3bf0a6ce20866f749b0c14030b70770e5589c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 79678c42545a07054af00cd408e04e9d1a42caed
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680961"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127536"
 ---
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
@@ -97,6 +97,3 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 1.  Selecione **Enviar elogio**. 
 1. Insira o texto de elogio que deseja enviar. 
 1. Selecione **Concluído**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

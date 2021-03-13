@@ -1,8 +1,8 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (25 de junho de 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 23 de junho de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 06/25/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-06-25
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 28eecb6289e5e895e860cffa29a55e773c6aadaa
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ad80e53c0a24d602ac446d3e0765f397dd0fc2d9
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528708"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127488"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-23-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (23 de junho de 2020)
 
@@ -118,9 +118,9 @@ Uma entidade DMF disponível para suspensões de acúmulos.
 
 Haverá uma nova opção disponível nos **Parâmetros de Human Resources** para atualizar o nome do espaço de trabalho de autoatendimento para Funcionários para Autoatendimento.
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Entidades de lista de verificação incluídas no Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Entidades de lista de verificação incluídas no Dataverse
 
-Entidades de lista de verificação relativas a Integração, Remoção, Transferência e Processos empresariais estarão disponíveis em breve no Common Data Service.
+Entidades de lista de verificação relativas a Integração, Remoção, Transferência e Processos empresariais estarão disponíveis em breve no Dataverse.
 
 ## <a name="see-also"></a>Consulte também
 
@@ -128,5 +128,3 @@ Entidades de lista de verificação relativas a Integração, Remoção, Transfe
 [Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,8 +1,8 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (03 de fevereiro de 2020)
 description: Este artigo descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 3 de fevereiro de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b9efcea4fa52f73ac09a3e0ae74582fc563aeb64
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 50112be7321c56da297d6d26f8aaf29264fc3c6c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4526992"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128128"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-3-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (3 de fevereiro de 2020)
 
@@ -45,7 +45,7 @@ Os seguintes recursos de visualização foram disponibilizados em 3 de fevereiro
 
 ## <a name="coming-soon"></a>Em breve
 
-Uma nova solução de Common Data Service estará disponível em breve com as seguintes alterações:
+Uma nova solução de Dataverse estará disponível em breve com as seguintes alterações:
 
 | Descrição | Troco |
 | ----------------------------------------- | --- |
@@ -56,7 +56,7 @@ Uma nova solução de Common Data Service estará disponível em breve com as se
 | Novas entidades de configuração de remuneração variável | **Tipo de plano de remuneração variável**</br>**Plano de remuneração variável**</br>**Regras de benefício proporcional diferido**</br>**Nível do plano de remuneração variável** |
 | Nova entidade **Emprego do calendário do trabalhador** | **Entidade do calendário de trabalho** adicionada |
 | Nova entidade **Detalhe da posição de folha de pagamento** | **Detalhe da posição de folha de pagamento** adicionado |
-| Nova entidade **Bloco** | **Bloco** adicionado. A nova entidade **Título** será incluída no processo de sincronização entre Human Resources e Common Data Service. Não será inicialmente referenciada de entidades **Cargo** ou **Trabalho**. |
+| Nova entidade **Bloco** | **Bloco** adicionado. A nova entidade **Título** será incluída no processo de sincronização entre Human Resources e Dataverse. Não será inicialmente referenciada de entidades **Cargo** ou **Trabalho**. |
 
 ## <a name="see-also"></a>Consulte também
 
@@ -65,6 +65,3 @@ Uma nova solução de Common Data Service estará disponível em breve com as se
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

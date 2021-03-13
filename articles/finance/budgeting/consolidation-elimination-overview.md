@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: LedgerConsolidate
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.custom: 13151
 ms.assetid: 9d8f55cb-b2cf-4e01-89cf-0e21f5c8ae1f
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 566b1ecef3f9e540c651fe214accadcf32f4fbed
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ee029e6cf1f271c5839e8d0dc1b1e4b7f91fb9a2
+ms.sourcegitcommit: f51ef395f0c0cb2203ce26b4091bbf0296e7916e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440471"
+ms.lasthandoff: 02/05/2021
+ms.locfileid: "5120470"
 ---
 # <a name="consolidation-and-elimination-overview"></a>Visão geral de consolidação e da eliminação
 
@@ -60,11 +59,12 @@ A opção **Relatório financeiro** possui moedas de relatórios ilimitadas. OS 
 A opção **Relatório financeiro** é a solução, pois o detalhe no nível da transação pode ser visualizado como várias empresas são incluídas na definição da árvore do relatório.
 
 4.  Estamos usando o plano ou o controle de orçamento e ele deve ser consolidado.
+
 A opção **Relatório financeiro** é a solução para consolidar todos os dados de planejamento ou de controle do orçamento.
 
 5.  Nossos subsidiários estão espalhados em todo mundo, e temos vários planos de contas. Qual é o melhor método para consolidar seus dados?
 
-Você tem várias opções quando for necessário processar vários planos de contas. Você pode usar a opção **Consolidar online** e optar por usar a conta de consolidação que é definida na conta principal ou grupo da conta de consolidação. Você também pode usar a opção **Relatório financeiro**, incluindo vários links para as dimensões financeiras na definição da linha e mapear as contas.
+Você tem várias opções quando for necessário processar vários planos de contas. Você pode usar a opção **Consolidar online** e optar por usar a conta de consolidação que é definida na conta principal ou em um grupo da conta de consolidação. Você também pode usar a opção **Relatório financeiro**, incluindo vários links para as dimensões financeiras na definição da linha e mapear as contas.
 
 6.  Nós exigimos vários níveis de consolidação. Em outras palavras, primeiro, nós consolidamos todos os nossos subsidiários europeus para a libra esterlina (GBP). Então, utilizaremos esses dados e converteremos o valor consolidado para dólares americanos. Como nós podemos fazer isto?
 
@@ -86,10 +86,10 @@ A opção **Relatório financeiro** é a solução. As hierarquias da organizaç
 
 Ao usar a opção **Exportar saldos da empresa** para expandir uma instância e usando a opção **Consolidar com importação** em outra instância, é possível consolidar os dados.
 
+11. É possível fazer uma consolidação com meu orçamento no status **RASCUNHO**? 
+            
+Não será possível processar ou concluir os orçamentos na empresa de consolidação. Recomendamos o uso do Financial Reporting para consolidar orçamentos de rascunho.
 
 Para obter mais informações, consulte [Reavaliação de moeda em uma empresa de consolidação](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

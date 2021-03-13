@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho móvel para aprovações de fatura
-description: Este tópico fornece informações sobre a área de trabalho móvel de aprovações de fatura. Este espaço de trabalho fornece uma lista de faturas que foram atribuídas a você por meio do processo de fluxo de trabalho do cabeçalho da fatura de fornecedor.
+description: Este tópico fornece informações sobre a área de trabalho móvel de aprovações de fatura.
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8d4b40c7ce8939248e85b6b6f3d359bd16e35b0d
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1a7aa1a03791b8ccb7050389097d1272f5930a49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683399"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127560"
 ---
 # <a name="invoice-approvals-mobile-workspace"></a>Espaço de trabalho móvel para aprovações de fatura
 
@@ -86,6 +86,3 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 7.  Selecione **Anexos** para exibir quaisquer notas ou arquivos anexados à fatura.
 8.  Na página **Detalhes da fatura**, selecione a ação de fluxo de trabalho apropriada para concluir o seu processo de revisão.
 9.  Selecione **Concluído**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Projetos de contratação em massa
 description: Os projetos de contratação em massa permitem que especialistas em recursos humanos criem várias posições e contratem com eficiência trabalhadores para essas posições.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HRMMassHireProject, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f33fb96e9a2331499a594689a758694c2291368
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 83937c8aa9edf065e3a22cee9eeea5333341d403
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417302"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127718"
 ---
 # <a name="mass-hire-projects"></a>Projetos de contratação em massa
 
@@ -82,6 +82,3 @@ Na página **Projeto de contratação em massa**, clique em **Abrir projeto** ou
 </tr>
 </tbody>
 </table>
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

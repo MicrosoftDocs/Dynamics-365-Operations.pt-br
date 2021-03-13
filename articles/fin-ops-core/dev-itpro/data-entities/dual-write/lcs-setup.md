@@ -1,6 +1,6 @@
 ---
-title: Configuração de gravação dupla do Lifecycle Services
-description: Este tópico explica como configurar uma conexão de gravação dupla entre um novo ambiente do Finance and Operations e um novo ambiente do Dataverse a partir do Microsoft Dynamics Lifecycle Services (LCS).
+title: Configuração da gravação dupla do Lifecycle Services
+description: Este tópico explica como configurar uma conexão de gravação dupla do Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 01/06/2020
@@ -18,18 +18,16 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 25db9c58c3d09e44dcf11b48cae1a9eda4241c35
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: df67e498b963af3ded7464f46f37bb4b2ca7d852
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683514"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5127584"
 ---
-# <a name="dual-write-setup-from-lifecycle-services"></a>Configuração de gravação dupla do Lifecycle Services
+# <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
 [!include [banner](../../includes/banner.md)]
-
-[!include [preview-banner](../../includes/preview-banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -56,7 +54,7 @@ Siga essas etapas para configurar a conexão de gravação dupla.
     - Se um ambiente do Dataverse já estiver provisionado para o seu locatário, você poderá selecioná-lo.
 
         1. Defina a opção **Configurar Dataverse** como **Sim**.
-        2. No campo **Ambientes disponíveis**, selecione o ambiente para integração com os dados de Finance and Operations. A lista inclui todos os ambientes nos quais você tem privilégios administrativos.
+        2. Na coluna **Ambientes disponíveis**, selecione o ambiente para integração com os dados de Finance and Operations. A lista inclui todos os ambientes nos quais você tem privilégios administrativos.
         3. Marque a caixa de seleção **Concordar** para indicar que você concorda com os termos e condições.
 
         ![A guia Dataverse quando um ambiente do Dataverse já estiver provisionado para o seu locatário](../dual-write/media/lcs_setup_1.png)
@@ -76,9 +74,9 @@ Siga essas etapas para configurar a conexão de gravação dupla.
         ![A guia Dataverse quando seu locatário ainda não tiver um ambiente do Dataverse](../dual-write/media/lcs_setup_2.png)
 
 7. Conclua as etapas restantes do assistente de **Configurações de implantação**.
-8. Depois que o ambiente tiver um status de **Implantado**, abra a página de detalhes do ambiente. A seção **Informações do ambiente Dataverse** mostra os nomes do ambiente Finance and Operations e do ambiente Dataverse vinculado.
+8. Depois que o ambiente tiver um status de **Implantado**, abra a página de detalhes do ambiente. A seção **Integração do Power Platform** mostra os nomes do ambiente Finance and Operations e do ambiente Dataverse vinculado.
 
-    ![Seção de informações sobre o ambiente do Dataverse](../dual-write/media/lcs_setup_3.png)
+    ![Seção Integração do Power Platform](../dual-write/media/lcs_setup_3.png)
 
 9. Um administrador do ambiente Finance and Operations deve efetuar login nas LCS e selecionar **Vincular a CDS para que os aplicativos** concluam o link. A página detalhes do ambiente mostra as informações de contato do administrador.
 
@@ -86,10 +84,8 @@ Siga essas etapas para configurar a conexão de gravação dupla.
 
 10. Para abrir o espaço de trabalho **Integração de dados** no ambiente do Finance and Operations e controlar os modelos que estão disponíveis, selecione **Vincular ao CDS para aplicativos**.
 
-    ![Botão vincular a CDS para aplicativos na seção informações sobre o ambiente do Dataverse](../dual-write/media/lcs_setup_4.png)
+    ![Botão Link para o CDS para aplicativos na seção informações sobre a seção Integração do Power Platform](../dual-write/media/lcs_setup_4.png)
 
 > [!NOTE]
 > Não é possível desvincular ambientes usando o LCS. Para desvincular um ambiente, abra o espaço de trabalho da **Integração de dados** no ambiente do Finance and Operations e selecione **Desvincular**.
 
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

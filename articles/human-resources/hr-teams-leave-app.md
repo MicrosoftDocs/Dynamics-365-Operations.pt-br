@@ -2,7 +2,7 @@
 title: Gerenciar solicitações de licença no Teams
 description: Este tópico mostra como solicitar licenças no aplicativo do Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d24c257054578282f1a2eafa050094194a358aa0
-ms.sourcegitcommit: 369639cd92e03fe792ed9d61a329d842aafa052f
+ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4417370"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128152"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
@@ -196,7 +196,6 @@ O aplicativo Human Resources no Teams tem as questões de acessibilidade a segui
 | --- | --- |
 | O zoom para 400% da área de trabalho oculta alguns dos botões de ação da exibição. | É recomendável usar uma lupa até que possamos dar suporte a esse nível de zoom. |
 | Na guia **Folga**, o VoiceOver anuncia uma ação de botão enquanto lê o cabeçalho para a grade de folgas. | O cabeçalho e os elementos na grade são agrupados por ano e são recolhíveis. O VoiceOver interpreta isso como um item acionável, mas não é. |
-| Se você passar o dedo enquanto um pop-up ou um menu estiver aberto, o VoiceOver ignorará a leitura do popup ou do conteúdo do menu. | Explore o conteúdo deslizando o dedo. |
 | Na guia **Folga**, há um gesto de passar o dedo adicional ao navegar até o **Código de motivo** em uma nova solicitação. | Não há controle oculto para que a navegação de deslizar o dedo esteja tentando acessar. |
 | Na guia **Folga**, se você passar o dedo enquanto o calendário estiver aberto, terminará fora de controle, e não na parte superior em uma nova solicitação ou ao editar uma solicitação. | Quando você atingir **Acessar hoje**, considere isso como o final do controle e o deslize o dedo na direção inversa para voltar ao início. |
 | O VoiceOver não lê os rótulos para datas. | As datas encontradas em pares são sempre **Data de início** e **Data de término**. |
@@ -229,6 +228,3 @@ Para restringir o acesso ao aplicativo Human Resources no Microsoft Teams para s
 [Baixar e instalar o Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Central de ajuda do Microsoft Teams](https://support.office.com/teams)</br>
 [Aplicativo Human Resources no Teams](hr-admin-teams-leave-app.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
