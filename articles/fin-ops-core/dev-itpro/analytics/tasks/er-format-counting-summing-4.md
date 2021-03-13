@@ -1,6 +1,6 @@
 ---
 title: ER Configurar o formato para fazer contagem e soma (Parte 4 - Executar formato)
-description: As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para fazer a contagem e soma com base nos dados já gerados do texto de saída.
+description: Este tópico descreve como configurar um formato de relatório eletrônico para contar e somar com base nos dados da saída de texto já gerada. (Parte 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8f37fc3c611e9c5328f4d99be8c7c63ab59b2f08
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c5576229e8b81824dff6d0b38b8ab5483e04ade8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684634"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092938"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4---run-format"></a>ER Configurar o formato para fazer contagem e soma (Parte 4 - Executar formato)
 
@@ -103,6 +103,3 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 21. Clique em Abrir.
     * Examine o arquivo XML criado que contém os detalhes da contagem e soma que foram coletados durante a execução da configuração selecionada.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Definir mapeamentos do modelo de ER e selecionar fontes de dados para eles
-description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode selecionar fontes de dados para um modelo de dados do Relatório eletrônico.
+description: Este tópico descreve como um Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode selecionar fontes de dados para um modelo de dados do Relatório eletrônico.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7d57c191761b8e2367ff8806c1cd98d6d83559e3
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fccdda3ac441630836a0d33f78eb04e9cd26d4a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682108"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092101"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>Definir mapeamentos do modelo de ER e selecionar fontes de dados para eles
 
@@ -157,6 +157,3 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 71. Feche a página.
 72. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

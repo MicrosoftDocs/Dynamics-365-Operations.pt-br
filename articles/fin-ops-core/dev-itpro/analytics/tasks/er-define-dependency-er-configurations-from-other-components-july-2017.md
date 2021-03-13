@@ -1,6 +1,6 @@
 ---
-title: Definir a dependência de configurações de ER em outros componentes
-description: Para executar estas etapas, primeiro você deve executar as etapas no guia de tarefas, ER Gerenciar configurações do mapeamento de modelo, e deve ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
+title: Definir a dependência de configurações ER em outros componentes
+description: Este tópico descreve como criar uma configuração de relatório eletrônico e especificar sua dependência de outros componentes de software.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 77783d629afc9abf30cdc48534fbb26eba5f8811
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: dd9516ac68c46649ebc50711357b97179bfc1b2c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681964"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092141"
 ---
-# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações de ER em outros componentes
+# <a name="define-the-dependency-of-er-configurations-on-other-components"></a>Definir a dependência de configurações ER em outros componentes
 
 [!include [banner](../../includes/banner.md)]
 
@@ -139,6 +139,3 @@ Excluiremos as configurações criadas do sistema e as baixaremos novamente do r
 26. Na árvore, expanda 'Modelo de dados de amostra'.
     * Observe que a configuração de mapeamento do modelo "Mapeamento de amostra" foi baixada com a configuração selecionada do modelo de dados. Os dois arquivos são baixados juntos porque o "Mapeamento de amostra" foi definido como implementação do modelo de dados selecionado e porque é aplicável ao aplicativo. A configuração "Mapeamento de amostra (alternativo)" não foi baixada porque a condição para a versão do aplicativo necessária não foi satisfeita.   
     * Se você se conectar ao Finance and Operations, registrar o mesmo provedor, acessar o mesmo projeto de LCS e baixar a mesma configuração do modelo de dados, a configuração "Mapeamento de amostra (alternativo)" será baixada, enquanto a configuração "Mapeamento de amostra" será ignorada.  
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

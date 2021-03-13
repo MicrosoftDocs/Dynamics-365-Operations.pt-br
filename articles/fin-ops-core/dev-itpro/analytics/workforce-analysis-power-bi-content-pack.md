@@ -1,6 +1,6 @@
 ---
 title: Conteúdo do Power BI Métricas de força de trabalho
-description: Este tópico descreve o conteúdo do Power BI Métricas de força de trabalho. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
+description: Este tópico descreve o conteúdo do Power BI Métricas de força de trabalho.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5e921b9ca7d46b3365068a5cdcb029396b62a0ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d0622cebcfca15acf50cf62e8a77af360d4f1bda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687342"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092782"
 ---
 # <a name="workforce-metrics-power-bi-content"></a>Conteúdo do Power BI Métricas de força de trabalho
 
@@ -86,6 +86,3 @@ A seguinte tabela mostra as entidades nas quais o conteúdo foi baseado.
 | Evolução do funcionário           | Trabalhadores com o tempo, número de funcionários, empresa e posição                                 | Empresa, Localização geográfica, Nome do funcionário, Subordinado a, Calendário de compensação, Data, Cargo do funcionário, Dados demográficos, Emprego, Trabalho |
 | Projeto de contratação em massa        | Número de projetos de contratação em massa, proprietário de projeto e status de projeto                     | Empresa, linha de contratação em massa |
 | Linhas de contratação em massa           | Departamento, tipo de emprego e posição                                           | Data, trabalho, projeto de contratação em massa |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

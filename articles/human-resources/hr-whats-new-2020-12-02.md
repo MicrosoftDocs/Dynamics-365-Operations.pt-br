@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aba35563266d1149131124f489f89da61432bfb2
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
+ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669152"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5080029"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources para 2 de dezembro de 2020
 
@@ -61,7 +60,7 @@ As seguintes correções de bug estão incluídas nessa versão.
 | 514087 | BenefitEligibilityProcessResult deve incluir datetime usado no processamento. | O resultado do processamento de BenefitEligibity agora inclui o datetimestamp do último processamento, que estava faltando antes. |
 | 526903 | O registro de benefícios falha para planos com dependentes quando a **Seleção automática de representantes** está ativada em **Parâmetros compartilhados de recursos humanos**. | Corrigido o problema em que o registro de benefício estava falhando para dependentes quando a opção **Seleção automática de representantes** foi ativada para representantes padrão. |
 | 521922 | O parâmetro **Mostrar ausência sem detalhes** mostra detalhes das solicitações de folga no calendário de ausências do grupo. | O tipo de licença, a cor do tipo de licença e os detalhes de dia foram mostrados no calendário de ausência da equipe quando **Mostrar ausência sem detalhes** foi definido como **Sim** em **Parâmetros de licença e ausência**. Isso foi resolvido. Agora o tipo de licença não é exibido e a cor do tipo de licença padrão (azul escuro) é usada para todos os tipos de licença no calendário de ausência do grupo. |
-| 527316 | As alterações de título para trabalho, cargo e notificações de trabalhador não são sincronizadas. | Uma relação de título foi adicionada anteriormente às entidades de trabalho, cargo e trabalhador. A sincronização dessa relação funciona para a sincronização do Human Resources para o Common Data Service, mas não funcionou para notificações do Common Data Service. Isso foi abordado. |
+| 527316 | As alterações de título para trabalho, cargo e notificações de trabalhador não são sincronizadas. | Uma relação de título foi adicionada anteriormente às entidades de trabalho, cargo e trabalhador. A sincronização dessa relação funciona para a sincronização do Human Resources para o Dataverse, mas não funcionou para notificações do Dataverse. Isso foi abordado. |
 | 512275 | Remova as opções de cor dos **Parâmetros de licença e ausência**. | Agora que as cores estão definidas no tipo de licença, as opções de cores não são mais necessárias em **Parâmetros de licença e ausência** ; portanto, elas foram removidas. |
 | 437112 | Texto de mensagem de erro enganoso durante a atribuição de cargo do funcionário. | Mensagem de erro atualizada ao contratar um trabalhador e tentar atribuir o trabalhador a um cargo que não está ativo. Mensagem atualizada **O cargo especificado não está ativo a partir da data de início do emprego. Verifique a duração desse cargo.** |
 | 527816 | Problemas de desempenho com a página **Folga**. | O desempenho foi aprimorado na página **Folga**. |
@@ -92,6 +91,3 @@ Para obter uma lista completa de recursos planejados e suas versões agendadas, 
 [Visão geral do ciclo de lançamentos 2 de 2020 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

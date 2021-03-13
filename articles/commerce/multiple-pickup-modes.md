@@ -10,22 +10,21 @@ ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 768b20ecc8d15353258c9b3af69b897957d3de60
-ms.sourcegitcommit: 597476103bb695e3cbe6d9ffcd7a466400346636
+ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
+ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4594941"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5053404"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar vários modos de entrega de retirada para ordens de cliente
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
+
 
 No Microsoft Dynamics 365 Commerce versão 10.0.16 e posteriores, as organizações podem definir vários modos de entrega que os compradores ou representantes de vendas podem escolher ao criar uma ordem que será retirada em uma loja. Dessa forma, as organizações podem fornecer várias opções de retirada aos seus compradores. Por exemplo, muitos varejistas agora oferecem aos compradores a opção de retirada na loja ou retirada em frente à loja para suas ordens. O Commerce oferece suporte à configuração desses diferentes modos de entrega de retirada. Os usuários podem, então, utilizá-los ao criar ordens de cliente em qualquer canal do Commerce com suporte (comércio eletrônico, call center ou loja).
 
@@ -86,6 +85,3 @@ Quando vários modos de entrega de retirada estiverem disponíveis para um canal
 ## <a name="considerations-for-distributed-order-management"></a>Considerações para o gerenciamento de ordem distribuído
 
 Os recursos de [gerenciamento de ordem distribuído (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) no Commerce ignoram as linhas de venda marcadas para retirada na loja. Esses recursos foram atualizados para garantir que as linhas de venda vinculadas a modos de entrega de retirada configurados ignorem a lógica DOM e não sejam realocadas para um novo depósito de atendimento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

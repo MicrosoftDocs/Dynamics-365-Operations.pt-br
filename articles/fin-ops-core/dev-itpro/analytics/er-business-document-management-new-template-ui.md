@@ -1,6 +1,6 @@
 ---
 title: Nova interface de usuário de documento no Gerenciamento de documentos comerciais
-description: Este tópico fornece informações sobre como usar a nova interface de usuário de documento no recurso Gerenciamento de documentos comerciais da estrutura do ER (Relatório eletrônico).
+description: Este tópico fornece informações sobre como usar a nova interface de usuário de documento no recurso Gerenciamento de documentos comerciais do relatório eletrônico.
 author: v-anamir
 manager: AnnBe
 ms.date: 05/12/2019
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 2cb6e0da4af07b9b8486bf1e5bda29523cbd08e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 64ac52385ae6145f7428ebbc3cb77e395557bce2
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681343"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092216"
 ---
-# <a name="new-document-user-interface-in-business-document-management"></a>Nova interface de usuário de documento no Gerenciamento de documentos comerciais
+# <a name="new-document-user-interface-in-business-document-management"></a>Nova interface do usuário do documento no Gerenciamento de documentos comerciais
 
 [!include [banner](../includes/banner.md)]
 
@@ -64,6 +64,3 @@ Siga estas etapas a fim de ativar esse recurso para todas as entidades legais.
 O botão **Novo documento** é usado para criar e editar um modelo em uma configuração de formato do ER que é fornecido por outro provedor. Neste exemplo, o provedor é a Microsoft. Ao selecionar **Novo documento**, você pode ver todos os modelos que pertencem ao provedor atual e a outros. Depois que você seleciona o modelo, ele é aberto para edição. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
 
 Para obter mais informações, consulte [Visão geral do Gerenciamento de documentos comerciais](er-business-document-management.md).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

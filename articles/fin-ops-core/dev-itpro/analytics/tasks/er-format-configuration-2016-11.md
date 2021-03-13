@@ -1,6 +1,6 @@
 ---
 title: ER Criar uma configuração de formato (Novembro de 2016)
-description: Este tópico explica como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de formato para Relatório eletrônico (RE).
+description: Este tópico explica como criar uma configuração de formato para relatórios eletrônicos (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/02/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4cd3960594ab37ca867792c655cfd28dc332fa9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9404d1e242c83d2103d1f24c42589c33b9f57f02
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684754"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092241"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER Criar uma configuração de formato (Novembro de 2016)
 
@@ -158,6 +158,3 @@ Este tópico explica como um usuário no papel de Administrador do Sistema ou De
 42. Clique em **Salvar**.
 43. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

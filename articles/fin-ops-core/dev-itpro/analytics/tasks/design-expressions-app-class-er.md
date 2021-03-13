@@ -1,6 +1,6 @@
 ---
 title: Criar expressões de ER para chamar métodos de classe de aplicativo
-description: Este guia fornece informações sobre como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos em expressões de ER.
+description: Este tópico descreve como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d79d1a4e86731a62de4896a489a13f624ce159f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a2de6464aaceadd60a82a70f428f42cd4f864eb8
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682012"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092076"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>Criar expressões de ER para chamar métodos de classe de aplicativo
 
@@ -157,6 +157,3 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo SampleIncom
 2. Clique em OK.
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que apenas 3 linhas do arquivo TXT importado foram processadas. O código IBAN na linha 4, que não é válido, foi ignorado e uma mensagem de erro é fornecida no Log de informações.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

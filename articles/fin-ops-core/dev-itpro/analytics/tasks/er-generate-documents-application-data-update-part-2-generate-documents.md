@@ -1,6 +1,6 @@
 ---
 title: Criar configurações para gerar documentos com dados da solicitação de emprego
-description: Para concluir as etapas neste procedimento, você deve primeiramente concluir o procedimento, ER Gerar documentos com atualização de dados de aplicativo (Parte 1 – Importar configurações).
+description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar um documento eletrônico. (Parte 1 - Importar configurações).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0d099836ba00ffa1d4fd002af4ac3e6045b41c6a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 417c419dc6925bac337fe74a2f057395316ec75d
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684586"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092913"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Criar configurações para gerar documentos com dados da solicitação de emprego
 
@@ -58,6 +58,3 @@ Antes de começar, altere o contexto de país para a empresa de DEMF de DEU (Ale
 10. Feche a página.
 11. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
 manager: AnnBe
-ms.date: 09/11/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 8537ec87c625e8b54cdf7574216d66f285da3a48
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 54f8c4bcac53f7cceb25f73b24311e93884be95d
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693692"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077440"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introdução
 
@@ -123,12 +124,14 @@ Para publicar uma exibição, siga estas etapas:
 1. Crie e salve uma cópia pessoal da exibição que você deseja publicar. 
 2. Com essa exibição atualmente carregada, selecione o nome da exibição para abrir o menu suspenso do seletor de exibição. 
 3. Selecione o botão **Mais** e depois selecione **Publicar**. A caixa de diálogo Publicar será aberta.
-4. Insira um nome e (opcionalmente) uma descrição para a exibição. O nome inserido é o nome que os usuários que recebem essa exibição visualizarão em seus seletores de exibição. Os nomes das exibições publicadas em uma página devem ser exclusivos. Nenhum nome duplicado é permitido, mesmo se a lista de funções ou de entidades legais à qual as exibições são aplicadas diferir.
-5. **Versão 10.0.9 e posterior:** determine se a exibição deve ser publicada como padrão para os usuários selecionados. Quando uma exibição se tornar padrão, os usuários a exibirão na próxima vez em que abrirem a página de destino. A única exibição padrão global de cada usuário direcionado será alterada. No entanto, os usuários ainda podem alterar a exibição padrão após a publicação.
-6. Adicione as funções de segurança que correspondem aos usuários que receberão essa exibição. 
-7. **Versão 10.0.13 e posterior:** determine se deseja publicar a exibição para as funções filho de cada função de segurança selecionada. Se fizer isso, marque a caixa de seleção **Incluir funções filho** na linha para as funções de segurança apropriadas. Observe que esta caixa de seleção não está disponível para funções sem funções filho.
-7. Adicione as entidades legais para as quais essa exibição deve estar disponível. 
-8. Selecione **Publicar**.
+4. Insira um nome para a exibição. O nome inserido é o nome que os usuários que recebem essa exibição visualizarão em seus seletores de exibição. Os nomes das exibições publicadas em uma página devem ser exclusivos. Nenhum nome duplicado é permitido, mesmo se a lista de funções ou de entidades legais à qual as exibições são aplicadas diferir.
+5. **Atualização 10.0.17 ou posterior:** se o recurso **(Versão preliminar) Suporte à tradução para exibições da organização** estiver ativado, você poderá adicionar traduções para o seu nome de exibição em quantos idiomas forem necessários para a organização selecionando o botão **Traduções** ao lado do campo **Nome**. O nome da exibição será mostrado aos usuários no seu idioma atual. Você também pode definir o idioma padrão para especificar a tradução que será mostrada aos usuários que estão executando idiomas para os quais nenhuma tradução foi definida.
+5. Opcional: digite uma descrição para a exibição de modo que os usuários que receberem essa exibição possam compreender melhor sua finalidade. 
+6. Determine se a exibição deve ser publicada como a exibição padrão para os usuários selecionados. Quando uma exibição se tornar padrão, os usuários a exibirão na próxima vez em que abrirem a página de destino. A única exibição padrão global de cada usuário direcionado será alterada. No entanto, os usuários ainda podem alterar a exibição padrão após a publicação.
+7. Adicione as funções de segurança que correspondem aos usuários que receberão essa exibição. 
+8. Determine se você deseja publicar a exibição para as funções filho de cada função de segurança selecionada. Se fizer isso, marque a caixa de seleção **Incluir funções filho** na linha para as funções de segurança apropriadas. Observe que esta caixa de seleção não está disponível para funções sem funções filho.
+9. Adicione as entidades legais para as quais essa exibição deve estar disponível. 
+10. Selecione **Publicar**.
 
 Observe que, em alguns ambientes, pode levar algum tempo (até uma hora) para que os usuários vejam a exibição publicada.
 
@@ -146,27 +149,15 @@ Se as alterações que você deseja fazer em uma exibição publicada envolverem
 1. Alterne para a exibição publicada dos parâmetros que você deseja atualizar. 
 2. No menu suspenso do seletor de exibição, selecione **Republicar**. Se você estiver usando a versão 10.0.12 ou anterior, selecione **Publicar** e, depois, **Sim** para atualizar a exibição existente.
 3. Atualize o nome, a descrição, funções de segurança e entidades legais para a exibição. 
-4. Selecione **Publicar**. 
-5. **Versão 10.0.8 e anterior:** se você atualizou o nome da exibição publicada, também deve excluir a exibição publicada que tem o nome antigo. (Para obter mais informações, consulte a seção [Gerenciamento de exibições publicadas](saved-views.md#managing-published-views).)
+4. Selecione **Publicar**. Se você tiver originalmente selecionado essa exibição publicada como a exibição padrão, ela voltará a ser a exibição padrão para os usuários após ser republicada. 
 
-**Versão 10.0.9 e posterior:** se você tiver selecionado originalmente essa exibição publicada como a exibição padrão, ela será a exibição padrão para usuários novamente após ser republicada.
-
-Se as alterações na exibição publicada envolverem modificações nas personalizações ou nos filtros associados à exibição, siga estas etapas: 
-
-**Versão 10.0.13 e posterior:** faça as alterações necessárias diretamente na exibição. Um asterisco (\*) deve aparecer ao lado do nome da exibição.
+Se as alterações na exibição publicada envolverem modificações nas personalizações ou nos filtros associados a ela, siga estas etapas.
 
 1. Carregue a exibição publicada que você deseja alterar. 
 2. Faça as alterações necessárias no rascunho local.
 3. No menu suspenso do seletor de exibição, selecione **Republicar**.
 4. Selecione **Sim** para indicar que você deseja publicar a exibição junto com as alterações não salvas. 
 5. Ajuste parâmetros de publicação que exijam ajuste e selecione **Publicar**. 
-
-**Versão 10.0.12 e anterior**
-
-1. Carregue a exibição publicada que você deseja modificar. 
-2. Salve uma cópia da exibição publicada para criar um rascunho local da exibição publicada. 
-3. Modifique o rascunho local com as alterações necessárias.
-4. Publique a exibição com o nome original. 
 
 ## <a name="managing-published-views"></a>Gerenciamento de exibições publicadas
 
@@ -179,20 +170,20 @@ Para a lista de todas as exibições publicadas da página, o seguinte conjunto 
 - **Republicar** - use a ação **Republicar** para republicar uma exibição após a alteração dos parâmetros de publicação (nome, descrição, funções de segurança ou entidades legais).
 - **Publicar** – use a ação **Publicar** para publicar uma exibição que não esteja publicada no momento. 
 - **Cancelar publicação** – use a ação **Cancelar publicação** para tornar uma exibição inativa. A exibição ainda estará disponível no sistema, mas os usuários não a verão no seletor de exibição até que ela seja republicada.
-- **Salvar como pessoal** – use a ação **Salvar como pessoal** para criar uma cópia de rascunho pessoal da exibição publicada. Esse recurso pode ajudá-lo a compreender o conteúdo de uma exibição que não foi publicada ou que ainda não foi publicada. Você também pode usá-lo para editar e depois republicar uma exibição. Esse recurso foi introduzido na versão 10.0.12.
+- **Salvar como pessoal** – use a ação **Salvar como pessoal** para criar uma cópia de rascunho pessoal da exibição publicada. Esse recurso pode ajudá-lo a compreender o conteúdo de uma exibição que não foi publicada ou que ainda não foi publicada. Você também pode usá-lo para editar e depois republicar uma exibição.
 - **Excluir** – use a ação **Excluir** para excluir permanentemente uma exibição publicada ou com publicação cancelada. Essa ação também remove a exibição para todos os usuários no sistema. A remoção de exibições publicadas entra em vigor após a seleção do botão **Salvar**. Não é possível recuperar uma exibição após ela ser excluída. 
 
 ## <a name="managing-views-globally"></a>Como gerenciar exibições globalmente
 
 Embora alguns recursos de gerenciamento sejam reproduzidos em todas as páginas, como indicado neste tópico, os **administradores do sistema** e os **administradores da exibição salva** podem gerenciar as exibições de forma mais holística para o sistema por meio da página **Personalização**. Em particular, essa página tem as seguintes seções e recursos: 
 
-- **Exibições publicadas** – essa seção lista todas as exibições que foram publicadas para sua organização. A partir daqui, você pode republicar uma exibição depois de ajustar as funções de segurança ou entidades legais de destino da exibição. Você também pode exportar, excluir ou cancelar a publicação de exibições. Na versão 10.0.12 e posterior, você pode usar a ação **Salvar como pessoal** para criar uma cópia pessoal de uma exibição, de forma que possa atualizar a exibição ou entender melhor o conteúdo. 
-- **Exibições não publicadas** – esta seção lista todas as exibições da organização no sistema que não estão publicadas no momento. Essas exibições geralmente entram no sistema por meio do recurso de importação. Você pode publicar, exportar ou excluir essas exibições. A ação **Publicação rápida** adicionada à versão 10.0.12 permite que várias exibições desta seção sejam publicadas em uma ação, usando as configurações de direito de acesso e entidade legal existentes. Na versão 10.0.12 e posteriores, você pode usar a ação **Salvar como pessoal** para criar uma cópia pessoal dessas exibições, de forma que possa atualizar a exibição ou entender melhor seu conteúdo.
+- **Exibições publicadas** – essa seção lista todas as exibições que foram publicadas para sua organização. A partir daqui, você pode republicar uma exibição depois de ajustar as funções de segurança ou entidades legais de destino da exibição. Você também pode exportar, excluir ou cancelar a publicação de exibições. Você pode usar a ação **Salvar como pessoal** para criar uma cópia pessoal de uma exibição, de forma que possa atualizá-la ou entender melhor seu conteúdo. 
+- **Exibições não publicadas** – esta seção lista todas as exibições da organização no sistema que não estão publicadas no momento. Essas exibições geralmente entram no sistema por meio do recurso de importação. Você pode publicar, exportar ou excluir essas exibições. A ação **Publicação rápida** adicionada à versão 10.0.12 permite que várias exibições desta seção sejam publicadas em uma ação, usando as configurações de direito de acesso e entidade legal existentes. Você pode usar a ação **Salvar como pessoal** para criar cópias pessoais dessas exibições, de forma que possa entender melhor seu conteúdo.
 - **Exibições pessoais** – essa seção lista todas as exibições criadas por usuários no sistema. A partir daqui, você pode publicar uma exibição pessoal para a organização ou copiar uma ou mais dessas exibições para outros usuários. Você também pode exportar ou excluir essas exibições, conforme necessário.
 - **Configurações do usuário** – selecione um usuário para exibir ou ajustar a capacidade do usuário de usar a personalização para o sistema inteiro ou para páginas específicas que o usuário visitou. Você pode exibir e interagir com as personalizações do usuário no sistema. Também é possível excluir todas as personalizações para esse usuário ou redefinir textos explicativos do recurso para o usuário. Se textos explicativos do recurso forem redefinidos, qualquer janela pop-up que apresente novos recursos, e que o usuário tenha ignorado antes, será reexibida na próxima vez que ele encontrar esses recursos.
 - **Configurações do sistema** – é possível desativar temporariamente personalizações para todos os usuários no sistema. Nesse caso, nenhuma personalização é aplicada a usuários e todas as páginas são redefinidas para o estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
 
-Os usuários com acesso à página **Personalização** também podem importar exibições pessoais ou de organização usando o botão **Importar exibições** no Painel de Ações. Na versão 10.0.12 e posteriores, foi adicionado um mecanismo para a publicação imediata de exibições depois de importadas.
+Os usuários com acesso à página **Personalização** também podem importar exibições pessoais ou de organização usando o botão **Importar exibições** no Painel de Ações. Para exibições da organização, você pode selecionar **Publicar imediatamente** a fim de disponibilizá-las aos usuários sem uma publicação explícita adicional.
 
 ## <a name="known-issues"></a>Problemas conhecidos
 Para obter uma lista de problemas conhecidos com exibições salvas, consulte os [Criar formulários que utilizam totalmente as exibições salvas](../../dev-itpro/user-interface/understanding-saved-views.md).
@@ -204,27 +195,7 @@ Para obter uma lista de problemas conhecidos com exibições salvas, consulte os
 > [!NOTE]
 > O recurso **Exibições salvas** exige que o sistema de Personalização no Finance and Operations esteja habilitado. Se a personalização estiver desativada para todo o ambiente, as exibições serão desabilitadas mesmo se você seguir as etapas abaixo. 
 
-**Versão 10.0.13 e posterior**
-
-O recurso **Exibições salvas** não está mais em versão prévia. Agora, ele está disponível diretamente por meio de Gerenciamento de recursos em qualquer ambiente.
-
-**Versões 10.0.9 até 10.0.12**
-
-O recurso **Exibições salvas** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Quanto aos outros recursos de versão preliminar, a habilitação desse recurso em produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).
-
-**10.0.8 / atualização de plataforma 32 e anterior**
-
-O recurso **Exibições salvas** pode ser ativado nos ambientes da Camada 1 (Desenvolvimento/Teste) e da Camada 2 (Área Restrita) para fornecer testes adicionais e alterações de design seguindo as etapas abaixo.
-
-1. **Habilitar a versão de pré-lançamento**: execute esta instrução SQL: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLISavedViewsEnableFeature', 1, 0, 5637144576);`
-
-2. **Redefinir o IIS** para liberar o cachê de liberação estático. 
-3. **Localizar o recurso**: navegue até o espaço de trabalho **Gerenciamento de recursos**. Se **Exibições salvas** não aparecer na lista, selecione **Verificar se há atualizações**.
-4. **Habilitar o recurso**: localize o recurso **Exibições salvas** na lista de recursos e selecione **Habilitar agora** no painel de detalhes.
-
-Todas as sessões de usuário subsequentes começarão com exibições salvas habilitadas.
+Você pode ativar e desativar o recurso **Exibições salvas** por meio do Gerenciamento de recursos em qualquer ambiente. Após serem ativadas, as exibições salvas serão habilitadas em todas as sessões de usuário subsequentes.
 
 ### <a name="what-happens-to-existing-personalizations-when-views-are-enabled"></a>O que acontece com as personalizações existentes quando as exibições estão habilitadas? 
 
@@ -253,6 +224,3 @@ Para páginas com seletores de exibição grandes (personalizações e consultas
 
 - Se você navegar até uma página de um bloco, a consulta do bloco será executada independentemente da consulta associada à exibição padrão. Se você criou esse bloco após habilitar as exibições, selecionar um bloco abrirá a página com a exibição associada a ele.
 - Se você navegar até uma página e esse ponto de entrada incluir uma consulta, a consulta original será executada originalmente no lugar da consulta da exibição padrão. Quando isso acontecer, você será alertado por uma mensagem informativa quando a exibição estiver sendo carregada. Você também pode confirmar alternando para essa exibição após o carregamento da página, já que isso deve permitir que a consulta da exibição seja executada independentemente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

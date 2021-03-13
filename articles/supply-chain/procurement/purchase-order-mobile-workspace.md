@@ -1,7 +1,7 @@
 ---
 title: Área de trabalho móvel para aprovação de ordem de compra
 description: Este tópico fornece informações sobre a área de trabalho móvel de aprovação do pedido de compra, que permite visualizar pedidos e responder a eles através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 12/01/2017
 ms.topic: article
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 30211
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 68676fba895dcc91fd3dba065788f3be3a6e9ee4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422352"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022297"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabalho móvel para aprovação de ordem de compra
 
@@ -113,6 +112,3 @@ Depois de ver a ordem de compra que lhe foi atribuído e ler as instruções de 
 5. Selecione a ação adequada.
 6. Na página **Concluir tarefa**, insira um comentário. Observe que se você selecionar a ação **Delegar**, será necessário selecionar um usuário para o qual delegar a tarefa.
 7. Selecione **Concluído**. Depois de atualizar sua área de trabalho, a ordem de compra não estará na lista. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

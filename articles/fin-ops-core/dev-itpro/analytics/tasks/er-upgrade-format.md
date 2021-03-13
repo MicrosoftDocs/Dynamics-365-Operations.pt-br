@@ -1,6 +1,6 @@
 ---
 title: ER Atualize seu formato adotando uma nova versão com base nesse formato
-description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode manter uma configuração de formato de Relatório eletrônico (RE).
+description: Este tópico descreve como fazer manutenção de uma configuração de formato para relatórios eletrônicos (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 17fe6d772040c73959685920743225c128421951
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: b76fb09ff961a3100b6a4bf890c1b12e6a0a2771
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684250"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092557"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Atualize seu formato adotando uma nova versão com base nesse formato
 
@@ -243,6 +243,3 @@ Para isso, a Proseware, Inc. precisa alterar a versão da configuração base pa
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Teste o formato personalizado para gerar arquivos de pagamento
 Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão do Finance and Operations paralela. Selecione o "Formato BACS criado (personalizado fictício do Reino Unido)" nos parâmetros de método de pagamento eletrônico. Verifique se o arquivo de pagamento criado contém o nó XML recentemente introduzido pela Proseware, Inc. que apresenta o código de conta IBAN de acordo com as exigências regionais. O arquivo também deve conter o nó XML introduzido recentemente pela Litware, Inc. que apresenta o código bancário SWIFT de acordo os requisitos do país.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

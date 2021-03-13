@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: a32fb8cce4353f57155fc7a723aa90e3c17178e6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: dda102b993ecc92a5089eb54d2708c2adebc572f
+ms.sourcegitcommit: f59df61799915f6a79aec7e3e8664c02df6597da
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440402"
+ms.lasthandoff: 01/22/2021
+ms.locfileid: "5044012"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Gerar demonstrativos financeiros consolidados
 
@@ -67,14 +66,14 @@ A ilustração a seguir mostra uma definição de coluna em um formato lado a la
 ![Definição de coluna em um formato lado a lado](./media/column-definition-side-by-side-format.png "Definição de coluna em um formato lado a lado")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidações que usam estruturas organizacionais criadas a partir de entidades legais
-Hierarquias de organização que contêm dimensões ou entidades legais criam dinamicamente as definições de hierarquia organizacional no Relatório financeiro. Uma maneira fácil de otimizar as consolidações é adicionar uma hierarquia da organização ao seu relatório no Relatório financeiro. Com base na data do relatório, o Relatório financeiro selecionará a hierarquia da organização na e antes da data de efetivação, conforme mostrado na ilustração a seguir.
+Hierarquias de organização que contêm dimensões ou entidades legais criam dinamicamente as definições de hierarquia organizacional no Relatório financeiro. Uma maneira fácil de otimizar as consolidações é adicionar uma hierarquia da organização ao seu relatório no Relatório financeiro. Com base na data do relatório, o Financial Reporting selecionará a hierarquia da organização na data de efetivação ou antes dela, conforme mostrado na ilustração a seguir.
 
 ![Criar dinamicamente uma definição de árvore de relatório](./media/dynamically-create-reporting-tree-definitions.png "Criar dinamicamente uma definição de árvore de relatório")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidações que envolvem eliminações
 As transações de eliminação são uma parte comum do processo de consolidação. Neste exemplo, cinco contas são eliminadas durante a consolidação: 142600, 211400, 401420, 401180 e 510820. As empresas podem configurar suas contas intercompanhia de maneira diferente. Por exemplo, algumas empresas definem o último dígito como 9, se a conta for usada em transações intercompanhia. Independentemente do método, se conhecer as contas intercompanhia, você pode mostrar eliminações em seus demonstrativos financeiros consolidados.
 
-A ilustração a seguir mostra uma definição de coluna para um demonstrativo de rendimento consolidado. Três contas intercompanhia de lucros e perdas são definidas para cada empresa usando o filtro de dimensão. A coluna D inclui as contas de eliminação apenas para a empresa USMF enquanto a coluna E inclui eliminações apenas para a empresa DEMF. Tanto a coluna D como a coluna E estão configuradas para que **não** sejam impressas no demonstrativo financeiro.
+A ilustração a seguir mostra uma definição de coluna para um demonstrativo de rendimento consolidado. Três contas intercompanhia de lucros e perdas são definidas para cada empresa usando o filtro de dimensão. As colunas F, G e H incluem as contas de eliminação somente para as empresas USMF, USRT e DEMF. Essas colunas estão configuradas para que **não** sejam impressas no demonstrativo financeiro.
 
 ![Demonstrativo de receita consolidada com definição de coluna](./media/column-definition-consolidated-income-statement.png "Demonstrativo de receita consolidada com definição de coluna")
 
@@ -140,7 +139,7 @@ Entidades legais diferentes podem ter calendários fiscais diferentes, mas ainda
 - Crie uma definição de coluna e use o período e o ano para mapear os períodos apropriados para cada empresa.
 - Em **Configurações** \> **Outros** \> **Opções adicionais**, selecione se deseja consolidar usando a data final do período ou o número do período.
 
-Ao projetar a definição da coluna para várias empresas com períodos fiscais diferentes, é importante considerar qual empresa será atribuída ao campo **Nome da empresa** na definição de relatório. O calendário fiscal dessa empresa será usado como o calendário fiscal base para a definição de relatório. Por exemplo, a tabela a seguir mostra a configuração do período fiscal para as empresas USMF e INMF. Para relatórios consolidados, você deseja utilizar o calendário fiscal empregado pelo USMF. A coluna "Mapeamento" mostra o período e o ano equivalentes para cada empresa se um relatório for gerado para 30 de junho de 2018.
+Ao projetar a definição da coluna para várias empresas com períodos fiscais diferentes, é importante considerar qual empresa será atribuída ao campo **Nome da empresa** na definição de relatório. O calendário fiscal dessa empresa será usado como o calendário fiscal base para a definição de relatório. Por exemplo, a tabela a seguir mostra o período fiscal que foi configurado para as empresas USMF e INMF. Para relatórios consolidados, você deseja utilizar o calendário fiscal empregado pelo USMF. A coluna "Mapeamento" mostra o período e o ano equivalentes para cada empresa se um relatório for gerado para 30 de junho de 2018.
 
 | Empresa   | Ano fiscal                                  | Mapeamento                     |
 |-----------|----------------------------------------------|-----------------------------|
@@ -193,7 +192,7 @@ Existem quatro opções para calcular as taxas de câmbio no Relatório financei
 No Relatório financeiro, qualquer relatório pode ser exibido em qualquer número de moedas de relatório. Os seguintes campos na definição de relatório permitem tal recurso:
 
 - Na seção **Informações da moeda** na página **Definição de Relatório**. Esta seção mostra a moeda em que os valores são exibidos quando um relatório é gerado.
-- Uma nova caixa de seleção **Incluir todas as moedas de relatório**. Quando essa caixa de seleção é marcada, um relatório para cada moeda de relatório será adicionado à fila de relatórios após a criação do relatório que usa a moeda funcional da empresa. Se a caixa de seleção estiver desmarcada, você ainda poderá selecionar uma moeda de relatório no Visualizador da Web. Nesse caso, a moeda de relatório será processada somente quando você a selecionar.
+- Uma nova caixa de seleção **Incluir todas as moedas de relatório**. Quando essa caixa de seleção estiver marcada, um relatório para cada moeda de relatório será adicionado à fila de relatórios após a geração do relatório que usa a moeda funcional da empresa. Se a caixa de seleção estiver desmarcada, você ainda poderá selecionar uma moeda de relatório no Visualizador da Web. Nesse caso, a moeda de relatório será processada somente quando você a selecionar.
 
 As opções na definição de relatório permitem converter facilmente um relatório em todas as suas moedas de relatório. Portanto, você poderá eliminar definições de relatório duplicadas que diferem apenas nas moedas usadas. Se precisar de um relatório que mostre várias moedas lado a lado, é possível continuar usando o campo **Exibição de Moeda** na página **Definição da coluna** para converter apenas essa coluna do relatório em uma moeda de relatório alternativa.
 
@@ -224,6 +223,3 @@ Para obter valores convertidos corretamente quando moedas são usadas, o Relató
 Para obter mais informações sobre consolidação e conversão de moeda, consulte o tópico principal deste tópico, [Visão geral de consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
 
 Para obter mais informações sobre como inserir detalhes de consolidações online, consulte [Consolidações financeiras online](./consolidate-online.md).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

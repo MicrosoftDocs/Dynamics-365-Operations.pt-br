@@ -1,6 +1,6 @@
 ---
 title: O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 4 - executar formato)
-description: As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico para usar arquivos de gerenciamento de documentos na saída do ER.
+description: Este tópico descreve como configurar um formato de relatório eletrônico para usar arquivos de gerenciamento de documentos na saída de ER. (Parte 4)
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89e09d79389dc2c883c429cfee3164632e0cdc0f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: d437b31b8a55f345ebc3567bc8c6a2c5ecfd2eec
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4681772"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092507"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 4 - executar formato)
 
@@ -69,6 +69,3 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 11. Clique em OK.
     * Revise a saída gerada. Observe que um único nó XML foi criado para cada anexo. O conteúdo do anexo é preenchido na saída do XML no formato de texto MIME (base64).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

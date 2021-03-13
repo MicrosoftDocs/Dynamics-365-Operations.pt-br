@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -19,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 54ad180b7f4691ead3563b077eadadc3b9b20588
-ms.sourcegitcommit: 5f21cfde36c43887ec209bba4a12b830a1746fcf
+ms.openlocfilehash: a41f69958d84fb67b7cd8b6b4c7de38da23552f3
+ms.sourcegitcommit: 2b76d4443b2867205db156648125a894f395a495
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4422629"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5091076"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
@@ -41,21 +40,42 @@ No momento, a funcionalidade Otimização de Planejamento não dá suporte a tod
 
 Antes de ativar a Otimização de Planejamento, recomendamos enfaticamente que você avalie os resultados da análise de ajuste da Otimização de Planejamento. Para obter mais informações, consulte [Introdução à análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
 
-### <a name="availability"></a>Disponibilidade
-A otimização de planejamento está disponível atualmente nos seguintes ambientes do Azure: Estados Unidos, Canadá, Europa, Reino Unido e Austrália. Se você tentar instalar o suplemento de outra região geográfica, o LCS mostrará uma mensagem informando que esse ambiente não é suportado.
+## <a name="availability"></a>Disponibilidade
+
+A otimização de planejamento está disponível atualmente nos seguintes ambientes do Azure: Estados Unidos, Canadá, Europa, Reino Unido, Austrália e Pacífico Asiático. Se você tentar instalar o suplemento de outra região geográfica, o LCS mostrará uma mensagem informando que esse ambiente não é suportado.
 
 Observe que a otimização de planejamento não oferece suporte a implantações locais do Dynamics 365 Supply Chain Management.
 
-### <a name="licensing"></a>Licenciamento
+## <a name="licensing"></a>Licenciamento
 
 Se você puder executar o planejamento mestre usando a licença atual, não terá de comprar uma licença adicional para começar a usar a Otimização de Planejamento.
 
-### <a name="install-the-add-in"></a>Instalar o suplemento
+## <a name="install-and-enable-planning-optimization"></a>Instalar e habilitar a otimização de planejamento
 
-Para usar a Otimização de Planejamento, instale o Suplemento Otimização de Planejamento para o Dynamics 365 Supply Chain Management. Você pode acessar o suplemento do seu projeto do LCS e ativar a funcionalidade Otimização de Planejamento da interface do usuário (IU) do Supply Chain Management.
+Para usar a otimização de planejamento, certifique-se de que o sistema atenda a todos os pré-requisitos, habilite sua chave de licença e instale o suplemento de otimização de planejamento para o Dynamics 365 Supply Chain Management.
 
-> [!NOTE]
-> A necessidade de Otimização do Planejamento é um ambiente de alta disponibilidade habilitado para LCS, camada 2 ou superior (não um ambiente OneBox), com o Dynamics 365 Supply Chain Management versão 10.0.7 ou posterior. Se você tentar instalar o suplemento em um ambiente do OneBox, a instalação não será concluída e será necessário cancelar a instalação.
+### <a name="prerequisites"></a>Pré-requisitos
+
+Antes de instalar o suplemento de otimização de planejamento, é preciso atender aos seguintes pré-requisitos:
+
+- É necessário executar o Supply Chain Management em um ambiente de alta disponibilidade habilitado para LCS, camada 2 ou superior (não um ambiente OneBox), com o Dynamics 365 Supply Chain Management versão 10.0.7 ou posterior. Se você tentar instalar o suplemento em um ambiente do OneBox, a instalação não será concluída e será necessário cancelar a instalação.
+
+- O sistema deve estar configurado para integração do Power Platform. Para obter mais informações, consulte [Pré-requisitos para configurar suplementos](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#prerequisites-for-setting-up-add-ins) e [Configurar suplementos](../../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md#set-up-add-ins).
+
+### <a name="enable-the-planning-optimization-license"></a>Habilitar a licença da otimização de planejamento
+
+Para usar a otimização de planejamento, é necessário habilitar a chave de configuração. Para fazer isso:
+
+1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Na guia **Chaves de configuração**, marque a caixa de seleção **Otimização de planejamento**.
+1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+### <a name="install-the-planning-optimization-add-in"></a>Instalar o suplemento de otimização de planejamento
+
+É necessário instalar o suplemento do seu projeto do LCS e ativar a funcionalidade Otimização de Planejamento da interface do usuário do Supply Chain Management.
+
+Para instalar o suplemento de otimização de planejamento:
 
 1. Entre no LCS e abra o ambiente desejado.
 1. Vá para **Detalhes completos**.
@@ -64,16 +84,16 @@ Para usar a Otimização de Planejamento, instale o Suplemento Otimização de P
 1. Selecione **Otimização de Planejamento**.
 1. Acompanhe o guia de instalação e concorde com os termos e condições.
 1. Selecione **Instalar**.
-1. Na Guia Rápida **Suplementos de ambiente**, você deverá ver que a Otimização do Planejamento está instalando.
+1. Na guia rápida **Suplementos de ambiente**, você verá que a otimização de planejamento está instalando.
 1. Após alguns minutos, **Instalando** deve mudar para **Instalado** (talvez você precise atualizar a página). Quando instalado, você estará pronto para ativar a Otimização do Planejamento no Dynamics 365 Supply Chain Management.
 
 A finalidade principal da instalação do suplemento de otimização de planejamento é conectar o serviço e o ambiente. Portanto, você deve instalar o suplemento separadamente em cada ambiente no qual usará a otimização do planejamento, independentemente do código movido entre os ambientes.
 
-### <a name="planning-optimization-integration"></a>Integração da Otimização de Planejamento
+## <a name="integrate-planning-optimization-with-your-system"></a>Integrar a otimização de planejamento ao seu sistema
 
 Para configurar se o Suplemento Otimização do Planejamento deve ser usado para o planejamento mestre, vá para **Planejamento mestre** \> **Configuração** \> **Parâmetros de Otimização do Planejamento**.
 
-#### <a name="connection-status"></a>Status da conexão
+### <a name="connection-status"></a>Status da conexão
 
 O status de conexão indica o status atual da conexão entre o Supply Chain Management e o serviço Otimização de Planejamento. A tabela a seguir mostra os valores possíveis.
 
@@ -85,7 +105,7 @@ O status de conexão indica o status atual da conexão entre o Supply Chain Mana
 | Desabilitando a conexão | Uma solicitação para desativar a conexão ao serviço Otimização de Planejamento está em andamento. | Não |
 | Obtendo status | O sistema está aguardando informações de status do serviço Otimização de Planejamento. | Não |
 
-#### <a name="the-use-planning-optimization-option"></a>A opção Usar Otimização de Planejamento
+### <a name="the-use-planning-optimization-option"></a>A opção Usar Otimização de Planejamento
 
 A configuração da opção **Usar Otimização de Planejamento** determina qual mecanismo de planejamento é usado para o planejamento mestre:
 
@@ -112,6 +132,3 @@ Se Otimização de Planejamento estiver ativado, o planejamento mestre será fei
 [Aplicar filtros a um plano](plan-filters.md)
 
 [Cancelar um trabalho de planejamento](cancel-planning-job.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

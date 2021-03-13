@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b542b6250bcc72334659e050f7ab6d5bd87d3508
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 7fbae4570448a6bb1309ffe0092ff9b07825d717
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682036"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092757"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Criar configurações de ER para importar dados de arquivos CSV externos
 
@@ -124,6 +124,3 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo 1099entries
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que todas as 7 linhas do arquivo CSV importado foram processadas. A linha 1 dos títulos de campos foi ignorada, 4 transações foram devidamente analisadas e 2 transações foram reconhecidas como inválidas.
 3. Feche a página.
 4. Feche a página.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

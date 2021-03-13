@@ -1,6 +1,6 @@
 ---
-title: Organizar componentes do relatório no designer de relatórios
-description: Depois que você tiver desenvolvido blocos de construção e relatórios gerados, é útil organizar esses objetos para que fiquem mais fácil para os usuários a localizar. Este artigo explica como organizar objetos no report designer, blocos de construção e relatórios existentes.
+title: Organizar componentes de relatório no designer de relatórios
+description: Este tópico explica como organizar objetos no designer de relatórios, blocos de construção e relatórios existentes.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 58525da35eb9e9376cb5793ad6c6fa45b9de42e6
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0b55dcee00f571228ec1e933306d77d9edc12866
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685802"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092414"
 ---
 # <a name="organize-report-components-in-report-designer"></a>Organizar componentes do relatório no designer de relatórios
 
@@ -148,6 +148,3 @@ Somente as configurações do Período Base Padrão são salvas com a definiçã
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

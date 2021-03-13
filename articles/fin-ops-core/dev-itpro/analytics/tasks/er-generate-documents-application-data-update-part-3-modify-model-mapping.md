@@ -1,6 +1,6 @@
 ---
 title: Modificar modelos e mapeamentos para gerar documentos com dados da solicitação de emprego
-description: Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 2 – Gerar documentos)".
+description: Este tópico descreve como criar configurações de relatório eletrônico (ER) para gerar um documento eletrônico e atualizar os dados do aplicativo. (Parte 2 - Gerar documentos).
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3401ec98ac1b61572d07fbb30d4465de78473fca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 025429c8e6775d20634703853df04d63c0651b98
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684562"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5092888"
 ---
 # <a name="modify-models-and-mappings-to-generate-documents-that-have-application-data"></a>Modificar modelos e mapeamentos para gerar documentos com dados da solicitação de emprego
 
@@ -168,6 +168,3 @@ As etapas desse procedimento explicam como criar configurações de Relatório e
 66. Feche a página.
 67. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

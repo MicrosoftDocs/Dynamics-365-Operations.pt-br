@@ -11,7 +11,6 @@ ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
@@ -19,12 +18,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2a6fdbc957a50adba38627bc37622c17ab4be419
-ms.sourcegitcommit: 510ca8b14d8b5334e50aca1b15d636c65fcc9888
+ms.openlocfilehash: 203d12956825286b77a107bb9fd91c451ecfd1e6
+ms.sourcegitcommit: dc3deca942864c4a8354096183c9e1b9b88992f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4410321"
+ms.lasthandoff: 01/20/2021
+ms.locfileid: "5032924"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurações visuais da interface do usuário de PDV
 
@@ -117,6 +116,9 @@ Em layouts de PDV compactos, as grades de botões são apresentadas automaticame
 
 ![Grades de botões de layout compacto](../commerce/media/Compact-View-Button-Grids.png)
 
+> [!NOTE]
+> Os tamanhos de botão no designer serão dimensionados para se ajustarem ao tamanho da janela; portanto, eles podem não refletir precisamente os botões reais renderizados no PDV. Para melhor simular o layout da grade de botões, ajuste as janelas do designer para o mesmo tamanho que o PDV.
+
 ### <a name="images"></a>Imagens
 
 Para cada tamanho de layout em um layout de tela, é possível especificar imagens a serem incluídas na interface do usuário do PDV. Para layouts de PDV completos, uma única imagem pode ser especificada para a tela de boas-vindas. Essa imagem aparecerá como o primeiro elemento de interface do usuário à esquerda. Na tela de **transação**, as imagens podem ser usadas como imagens de guia ou como um logotipo. Os layouts de PDV compactos não usam essas imagens.
@@ -205,6 +207,3 @@ O designer de grade de botões permite que você configure grades de botões que
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Instalar o designer de layout do Retail POS (ponto de venda)](install-pos-layout-designer.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

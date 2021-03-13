@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetCapacityLoad, EntAssetWorkOrderCapacityLoadCalculate, EntAssetWorkOrderCapacityLoad
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5015955338a4cbc2b51585d6297756f20dccee8b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3aa87f5594be079144142296cac977b0bfdd125e
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422301"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022574"
 ---
 # <a name="calculate-capacity-load"></a>Calcular a capacidade máxima
 
@@ -61,6 +60,3 @@ Isso é útil para obter uma visão geral da capacidade máxima esperada por um 
 >[!NOTE]
 >Se você deseja se concentrar apenas no planejamento de capacidade em relação às ordens de serviço agendadas, consulte [Calcular a capacidade máxima em ordens de serviço agendadas](../work-order-scheduling/calculate-capacity-load-on-scheduled-work-orders.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

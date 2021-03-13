@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 81c5c83128bb81523dee6ede549eece7b0d80e30
-ms.sourcegitcommit: d9d1ddce6a334ade8b32b5ea3ac4c1e1a8f72715
+ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664263"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077569"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Criar a interface de execução de piso de produção
 
@@ -57,7 +56,7 @@ Para criar e configurar uma nova guia, siga estas etapas:
 1. Faça as seguintes configurações no cabeçalho da página:
 
     - **Nome da guia** - Especifique um nome para a guia.
-    - **Exibição principal** - Selecione entre as duas listas de trabalhos predefinidas (*Trabalhos ativos* ou *Todos os trabalhos*).
+    - **Exibição principal** - Selecione entre as duas listas de trabalhos predefinidas (*Trabalhos ativos*, *Todos os trabalhos* ou *Minha máquina*).
     - **Exibição detalhada** - Selecione entre um valor em branco ou **Detalhes do trabalho**. Se você selecionar o valor em branco, não haverá uma exibição detalhada na guia. Se você selecionar **Detalhes do trabalho**, a exibição detalhada conterá uma descrição detalhada do trabalho selecionado na lista de trabalhos na exibição principal.
 
 1. Na seção **Barra de ferramentas principal**, escolha quais botões devem estar disponíveis na barra de ferramentas principal. A coluna **Ações disponíveis** mostra uma lista de todos os botões que podem ser adicionados. As colunas **Ações selecionadas** mostram uma lista de todos os botões incluídos na configuração atual. Use os botões para mover itens selecionados entre as colunas, conforme necessário. Use os botões para cima e para baixo ao lado da coluna **Ações selecionadas** para controlar a ordem na qual os botões são apresentados na interface do usuário.
@@ -79,6 +78,3 @@ Depois de criar todas as guias necessárias, você pode associá-las a uma confi
 1. Continue adicionando outras guias, conforme necessário.
 
 1. Use os botões **Mover para cima** e **Mover para baixo** na barra de ferramentas para organizar as guias, conforme necessário. As guias serão exibidas da esquerda para a direita na ordem mostrada na captura de tela acima (a guia na parte superior é mostrada à esquerda).
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

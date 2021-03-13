@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ff68761ce1cf2174be8ebb9732b9348439a53a32
-ms.sourcegitcommit: d24ebce50421f8656d23bb1e47cd636ad2e2ca0a
+ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
+ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/02/2020
-ms.locfileid: "4664287"
+ms.lasthandoff: 01/28/2021
+ms.locfileid: "5077468"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -65,6 +64,12 @@ Este recurso adiciona um botão à interface de execução de piso de produção
 
 - Recurso para bloqueio de dispositivo de ficha de trabalho e terminal de ficha de trabalho para que eles possam ser limpos
 
+### <a name="asset-management-functionality-for-the-production-floor-execution-interface"></a>Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção
+
+Este recurso adiciona uma guia de gerenciamento de ativos à interface de execução de piso de produção. Os trabalhadores podem usar essa guia para selecionar um ativo que esteja conectado a um recurso de máquina dentro do filtro selecionado da lista de trabalhos. Para o ativo de máquina selecionado, o trabalhador pode exibir o estado e a integridade com base em valores de contador para até quatro contadores selecionados. Se você quiser usar esse recurso, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
+- Funcionalidade de gerenciamento de ativos para a interface de execução de piso de produção
+
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 
 Para criar e manter configurações de dispositivo, vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página , você pode executar as seguintes ações:
@@ -94,6 +99,3 @@ Um trabalho em lotes limpa periodicamente entradas na tabela de referências par
 1. No Painel de Ação, selecione **Limpar configurações de cliente**.
 1. Na caixa de diálogo **Limpar configuração do cliente**, defina o campo **Número de dias** como o número de dias de inatividade (antes de hoje) a ser considerado. Você removerá todas as configurações e os registros de entrada dos dispositivos que não estavam ativos durante esse tempo.
 1. Selecione **OK** para limpar as configurações relevantes, com base na configuração de **Número de dias**.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
