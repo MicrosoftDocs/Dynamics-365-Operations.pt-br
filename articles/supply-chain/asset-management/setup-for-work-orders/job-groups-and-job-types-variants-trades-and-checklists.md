@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetJobTypeDefaultForecast, EntAssetJobTrade, EntAssetJobTypeDefaultCopy, EntAssetChecklistVariableValueLookup, EntAssetChecklistTemplateCreate, EntAssetJobVariant, EntAssetJobTypeDefaultReference, EntAssetJobTypeDefaultChecklist, EntAssetJobTypeDefault, EntAssetJobType, EntAssetJobTypeDefaultChecklistCopy, EntAssetChecklistTemplate, EntAssetJobTypeDefaultDescription, EntAssetJobTypeLookup, EntAssetJobTypeDefaultToolCopy, EntAssetJobTypePreviewPart, EntAssetJobTypeDefaultTool, EntAssetJobTypeDefaultForecastCopy, EntAssetChecklistTemplateLookup, EntAssetJobGroup, EntAssetChecklistVariable
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8bf7c53a6150a2beeca5c6e9b5ab4ea98584158d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: a335d642457fdd84ec42e285425fdc6212889cc0
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422165"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021260"
 ---
 # <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
 
@@ -267,6 +266,3 @@ No Gerenciamento de Ativos, você pode atualizar automaticamente todas as altera
 2. Na caixa de diálogo **Atualizar previsão do tipo de trabalho de manutenção**, na Guia Rápida **Registros a serem incluídos**, você pode adicionar seleções para tipos de trabalho de manutenção específicos, conforme necessário. Selecione **Filtro** e **Selecionar** para fazer as seleções.
 3. Na Guia Rápida **Executar em segundo plano**, você pode configurar a atualização automática como um trabalho em lote, conforme necessário.
 4. Selecione **OK** para iniciar a atualização da previsão.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

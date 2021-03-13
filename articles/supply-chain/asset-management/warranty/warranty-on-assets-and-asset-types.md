@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 75de9a51560dcd8fea7998425fee14a27e891972
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8c0359bfe31b3d01f28028bb17d5d30af39a1db9
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422322"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021594"
 ---
 # <a name="warranties-on-assets-and-asset-types"></a>Garantias em ativos e tipos de ativo
 
@@ -54,6 +53,3 @@ Este tópico explica como configurar garantias em ativos e tipos de ativos no Ge
 
 > [!NOTE]
 > Quando você cria uma ordem de serviço para um ativo que está incluído na garantia de um fornecedor, se a ordem de serviço tiver uma data de início esperada durante o período de garantia, você receberá uma notificação sobre o acordo da garantia. Então, você pode cancelar a ordem de serviço, conforme necessário.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

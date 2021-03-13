@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 263a044a0a378e95ea271ac1c6f468f9e3287f26
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 53487a0173453ef7a8f5ea818672d999fe71cb65
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422002"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020902"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Tempo de inatividade de manutenção para ordens de serviço
 
@@ -89,6 +88,3 @@ Para obter uma visão geral de todos os registros de tempo de inatividade de man
 >[!NOTE]
 >Todos os calendários usados no módulo **Gerenciamento de ativos** são configurados em **Administração da organização** > **Configurar** > **Calendários** > **Calendários**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
