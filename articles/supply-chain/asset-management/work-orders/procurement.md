@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderPurchaseListPagePreviewPane, EntAssetWorkOrderPurchaseListPage, EntAssetWorkOrderPurchaseLineAmountInfoPart, EntAssetWorkOrderPurchReqListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 552b1b211460ae86af06e183af91c062a3ee569a
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: fce60f6ac2ac0dabe1c0ecd804a1dec1e7e373a2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422379"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5020195"
 ---
 # <a name="procurement"></a>Compras
 
@@ -100,6 +99,3 @@ A ilustração abaixo mostra um exemplo da página **Ordem de compra**, com enfo
 
 Da mesma forma, para visualizar ou inserir o número da atividade relacionada à linha da requisição de compra da ordem de serviço, na página de listagem **Requisição de compra da ordem de serviço**, selecione o registro de requisição de compra e, na coluna **Requisição de compra**, selecione o link para a requisição de compra. Você pode localizar o campo **Número da atividade** na guia **Projeto** na Guia Rápida **Detalhes da linha**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

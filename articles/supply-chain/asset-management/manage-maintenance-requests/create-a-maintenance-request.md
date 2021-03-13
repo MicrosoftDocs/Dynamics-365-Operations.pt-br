@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTableCreate
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 22d5e371c386abc71946bf64ed8792647f78cf1b
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: f45378405d9ea06ae847d93b7eacd9badf6d7e00
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422245"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019169"
 ---
 # <a name="create-maintenance-requests"></a>Crie solicitações de manutenção
 
@@ -74,6 +73,3 @@ Na exibição de detalhes, é possível atualizar várias informações. Eis alg
 
 > [!NOTE]
 > Se você selecionar um ativo ao criar uma solicitação de manutenção, poderá adicionar uma falha no ativo. Quando a solicitação de manutenção for criada, você poderá adicionar mais falhas, conforme necessário. Para adicionar falhas, selecione **Falha de ativo** na página **Todas as solicitações de manutenção**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

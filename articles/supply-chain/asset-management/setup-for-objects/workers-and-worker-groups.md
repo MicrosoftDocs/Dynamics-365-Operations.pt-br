@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetWorkerGroupCopyFromResourceGroup, EntAssetWorkerGroup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 29fb487f02c28dbe940a1e00891f1e7ed20135b2
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b81de02f144712786704a46d2096dfb510d5ce68
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422087"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017383"
 ---
 # <a name="maintenance-workers-and-worker-groups"></a>Funcionários de manutenção e grupos de trabalhadores
 
@@ -64,6 +63,3 @@ Você também pode criar grupos de funcionários de manutenção e associar func
 6. Se um grupo de recursos deve estar relacionado ao grupo de funcionários de manutenção selecionado, selecione **Copiar do grupo de recursos**. No campo **Grupo**, selecione o grupo de recursos do qual as configurações de calendário serão copiadas. Em seguida, no campo **Grupo de trabalhadores**, selecione o grupo de trabalhadores para o qual as configurações de calendário do grupo de recursos serão copiadas. Esta etapa é relevante somente se você quiser que os funcionários de manutenção usem o calendário que está relacionado a um recurso (centro de trabalho) durante o agendamento da ordem de serviço.
 
     O campo na Guia Rápida **Detalhes** mostra o número de funcionários de manutenção que foram definidos no grupo de funcionários de manutenção selecionado.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

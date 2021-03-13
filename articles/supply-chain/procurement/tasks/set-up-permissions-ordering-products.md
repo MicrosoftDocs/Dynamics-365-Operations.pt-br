@@ -1,7 +1,7 @@
 ---
 title: Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 description: Este tópico explica como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/20/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchReqAuthorization, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 145d8a0e341857bf238fc934cd668ff12b8505b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 585f5c6cf83ad93b649e3f36e0d486a037915cd4
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422231"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017283"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 
@@ -45,6 +44,3 @@ Este tópico explica como conceder a trabalhadores a permissão para preparar re
 2. Use o filtro rápido para encontrar o trabalhador que você apenas adicionou como o solicitador.
 3. Selecione o solicitante. A lista do preparador mostra as pessoas que têm a permissão para pedir artigos em nome do solicitador que é selecionado no painel à esquerda.  Você pode adicionar preparadores adicionais aqui. Esta exibição também permite que a permissão do solicitante crie requisições em entidades legais e unidades operacionais que não são a pessoa da entidade legal primária ou unidade operacional.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

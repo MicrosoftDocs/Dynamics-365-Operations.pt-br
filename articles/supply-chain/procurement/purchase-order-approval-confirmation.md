@@ -1,7 +1,7 @@
 ---
 title: Aprovar e confirmar ordens de compra
 description: Este tópico descreve os status pelos quais uma ordem de compra passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 04/02/2020
 ms.topic: article
@@ -11,20 +11,19 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchOrderInReview, PurchOrderApproved, PurchOrderInDraft, PurchOrderAssignedToMe, VendPurchOrderJournalListPage, PurchTableWorkflowDropDialog, VendPurchOrderJournal
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3879079e233a881ea0adc1f5e2ba39ab70b372d
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: eafce0be07ae21e5bc2db2cf5bb694a9d71a6269
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422503"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018432"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
 
@@ -41,7 +40,7 @@ Ativar o gerenciamento de alterações para POs definindo a opção **Ativar o g
 
 Quando o gerenciamento de alterações é habilitado, POs percorrem os seis status de aprovação de **Rascunho** para **Finalizado**. Depois que um pedido for aprovado, os usuários que deseja modificá-lo devem usar a ação **Solicitar alteração**.
 
-| Status de aprovação | Descrição                                                                      | Solicitação de alteração está ativada |
+| Status de aprovação | Descrição                                                                      | A solicitação de alteração está habilitada |
 |-----------------|----------------------------------------------------------------------------------|---------------------------|
 | Preliminar           | A ordem de compra é um rascunho e ainda não foi enviada para aprovação do fluxo de trabalho de OC.     | Não                        |
 | Em revisão       | O pedido de compra foi enviado para aprovação do fluxo de trabalho de OC. Aguardando minha aprovação       | Não                        |
@@ -99,6 +98,3 @@ Se uma OC no gerenciamento de alterações, todas as mudanças, como o cancelame
 
 
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

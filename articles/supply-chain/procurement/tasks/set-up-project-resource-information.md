@@ -1,7 +1,7 @@
 ---
 title: Configurar informações de recursos do projeto
 description: Este procedimento mostra como configurar um recurso do projeto.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8ff9bc238c18a633785538e6215701567b511cb7
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0906b7c92f8288adf834ccd33f0ca0df40cd4f44
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422121"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017258"
 ---
 # <a name="set-up-project-resource-information"></a>Configurar informações de recursos do projeto
 
@@ -52,6 +51,3 @@ Este procedimento mostra como configurar um recurso do projeto. Essa tarefa usa 
 20. Clique em Salvar.
 21. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bec6612290de71933ea1cb3bbe2147b9c98e21bc
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ff485e05b10b0d22d0fdac6d764cebb13507f391
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422073"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018794"
 ---
 # <a name="asset-management-overview"></a>Visão geral do gerenciamento de ativos
 
@@ -38,6 +37,3 @@ A imagem a seguir é uma ilustração das interfaces para outros módulos no Fin
 ![Visão geral de como o Gerenciamento de Ativos integra-se](media/overview-integrate2.jpg)
 
 O Gerenciamento de Ativos permite gerenciar com eficácia e realizar tarefas relacionadas ao gerenciamento e à manutenção de muitos tipos de equipamentos na sua empresa; por exemplo, computadores, equipamentos de produção e veículos. O Gerenciamento de Ativos dá suporte a soluções em várias indústrias.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

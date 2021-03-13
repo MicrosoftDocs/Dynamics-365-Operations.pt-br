@@ -1,7 +1,7 @@
 ---
 title: Criar um contrato de compra
 description: Neste tópico, você entenderá como criar um contrato de compra.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 07/18/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1edfd4e56910376d0596eec5eff2af888f7dc98d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 92c9b429a05a2c25672cc14a0c9ee7adfef42631
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422126"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5016822"
 ---
 # <a name="create-a-purchase-agreement"></a>Criar um contrato de compra
 
@@ -72,6 +71,3 @@ Neste tópico, você entenderá como criar um contrato de compra. Isso seria fei
 5. Selecione **Confirmações de contrato de compra**. A opção **Visualizar/Imprimir** permite que você gere um documento para o contrato de compra, o qual você poderá imprimir ou enviar ao fornecedor. Se você atualizar o contrato mais tarde e o reconfirmá-lo, ambas as versões serão exibidas aqui.  
 6. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

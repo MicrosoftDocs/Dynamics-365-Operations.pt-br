@@ -1,7 +1,7 @@
 ---
 title: Criar uma ordem de devolução de compra
 description: Este procedimento mostra a você como criar uma ordem do retorno de compra usando a ação da nota de crédito para copiar linhas de um documento da fatura do vendedor a uma PO nova.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -11,17 +11,16 @@ ms.technology: ''
 ms.search.form: PurchTable, PurchTablePart, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 635e9ffb629a844bc5cccfa5d2a538ef0cf098d9
-ms.sourcegitcommit: 827d77c638555396b32d36af5d22d1b61dafb0e8
+ms.openlocfilehash: 10b3e695ffcd44909be4781eac5d4eaeef199b03
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4422535"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017050"
 ---
 # <a name="create-a-purchase-return-order"></a>Criar uma ordem de devolução de compra
 
@@ -68,6 +67,3 @@ Este procedimento mostra a você como criar uma ordem do retorno de compra usand
 4. No campo **Recebimento de produtos**, digite um valor. Este campo é usado para inserir uma referência que será usada como um comprovante para o diário de recebimentos de produtos.  
 5. Clique em **OK**. Os bens foram gravados agora como enviados na ordem do retorno de compra, e um diário de recebimentos de produtos foi criado. Você pode usar a ação do recibo do produto para rever os jornais criados com a ordem de compra, e ver o que foi recebido ou retornado, e quando.  
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

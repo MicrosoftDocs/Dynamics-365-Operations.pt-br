@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e82026f1d73e7368d93109bc0b895b7368ac84d4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 083ceca9605ad044c172ba7aa23739d170f8c301
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422212"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019295"
 ---
 # <a name="add-fault-to-work-order"></a>Adicionar falha à ordem de serviço
 
@@ -80,6 +79,3 @@ Na página de listagem **Todos os ativos**, você pode imprimir um relatório de
 >[!NOTE]
 >Para imprimir um relatório de falhas para vários ativos ou tipos de ativos, selecione **Gerenciamento de ativos** > **Relatórios** > **Ativos** > **Falha de ativo**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

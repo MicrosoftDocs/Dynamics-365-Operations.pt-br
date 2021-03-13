@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: EntAssetObjectServiceLevel, EntAssetWorkOrderStandardDescription, EntAssetWorkOrderServiceLevel, EntAssetServiceLevelLookup
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 647358fcdd53ba95b571185ae269bc8d6b869c18
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8bb56e5103bd9e18e88c164cd308e55d48e64823
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422234"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5019370"
 ---
 # <a name="service-level-and-description"></a>Nível e descrição de serviço
 
@@ -56,6 +55,3 @@ Quando você cria uma ordem de serviço, você pode desejar definir os níveis d
 2. Selecione **Novo**.
 3. No campo **Descrição**, insira a descrição.
 4. Selecione **Salvar**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

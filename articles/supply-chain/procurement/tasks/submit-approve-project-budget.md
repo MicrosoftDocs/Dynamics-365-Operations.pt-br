@@ -1,7 +1,7 @@
 ---
 title: Enviar e aprovar orçamento de projeto
 description: Este procedimento mostra como criar e enviar o orçamento para um projeto.
-author: mkirknel
+author: RichardLuan
 manager: tfehr
 ms.date: 08/13/2019
 ms.topic: business-process
@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, WorkflowSubmitDialog
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 14683554c45db72061ecbbf4a528656df3132692
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: b871a3fef3515d3a79fb4b55406a93fc16d02faa
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4421996"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5018719"
 ---
 # <a name="submit-and-approve-project-budget"></a>Enviar e aprovar orçamento de projeto
 
@@ -57,6 +56,3 @@ Essa tarefa foi criada usando o conjunto de dados de USSI.
 21. No campo **Comentário**, digite um valor.
 22. Clique em **Enviar**.
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

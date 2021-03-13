@@ -11,18 +11,17 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile, RetailFormLayout, RetailParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: v-kikozl
+ms.author: epopov
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: d2455f775fcf41bbcb1388b2e8053ede8512335d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2f1abf29058e773f1645301fcd7a960df488d92b
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4410283"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5017458"
 ---
 # <a name="overview-of-fiscal-integration-for-commerce-channels"></a>Visão geral da integração fiscal dos canais do Commerce
 
@@ -150,6 +149,3 @@ A seguinte funcionalidade de integração fiscal também está disponível no SD
 A seguinte funcionalidade de integração fiscal herdada que está disponível no SDK do Retail não usa a estrutura de integração fiscal e será preterida em atualizações posteriores:
 
 - [Exemplo de integração da unidade de controle para a Suécia (herdada)](./retail-sdk-control-unit-sample.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
