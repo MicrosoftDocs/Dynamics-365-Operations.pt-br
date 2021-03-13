@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetCriticality, EntAssetObjectCriticality
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b7d6e3dea1b3c1ef47490df678f639c036cdd5c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c9d2c5e8b6676abf03fe0d3de8b23f125713d6f2
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422093"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021695"
 ---
 # <a name="asset-criticality-types"></a>Tipo de severidade do ativo
 
@@ -62,6 +61,3 @@ Para configurar a severidade, primeiro você cria os tipos de severidade que dev
 - A severidade em uma ordem de serviço é recalculada sempre que uma linha da ordem de serviço é adicionada ou excluída.
 - Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, a severidade mais alta, de acordo com o campo **Fator** na página **Tipos de severidade**, sempre será usada na ordem de serviço.
 - Geralmente, a severidade do ativo pode mudar em um período. A severidade pode ser afetada pela compra de novo equipamento, restaurações e assim em diante. Considere a reavaliação das severidades do seu ativo em intervalos regulares (por exemplo, uma vez por ano em anos alternados) para garantir que as definições de severidade correspondam à sua configuração de produção atual.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 350c4f6ed285ea11b2488b37c67f3f8eec122e11
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5e8a7efcc2d4033a6cb1306c665af5eb1b0ba522
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422294"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5021996"
 ---
 # <a name="maintenance-requests"></a>Solicitações de manutenção
 
@@ -42,6 +41,3 @@ Você pode configurar vários tipos de solicitações a serem usadas em sua empr
 A ilustração a seguir mostra um exemplo da página de listagem **Todas as solicitações de manutenção**.
 
 ![Página de listagem de todas as solicitações de manutenção](media/01-setup-for-requests.png)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

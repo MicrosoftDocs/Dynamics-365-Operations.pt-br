@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: CatProcureCatalogEdit, CatProcureCatalogListPage, EntAssetFunctionalLocationObjectChange, EntAssetFunctionalLocationObjectInstall, EntAssetFunctionalLocationObject
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: 2214
 ms.assetid: 2f3e0441-414d-402b-b28b-7ab0d650d658
 ms.search.region: Global
-ms.author: mkirknel
+ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b9f473cc725896a00501510eea02d7cfb21782
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5ea67e2392d8e25a2a5f3cb7e1ff5032322f2c48
+ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4422075"
+ms.lasthandoff: 01/16/2021
+ms.locfileid: "5022021"
 ---
 # <a name="install-assets-on-functional-locations"></a>Instalar ativos em locais funcionais
 
@@ -83,6 +82,3 @@ Após a disponibilização dos dados de configuração, você estará pronto par
 1. Na página **Todos os locais funcionais**, verifique se o local funcional em que você deseja que o ativo seja automaticamente criado utiliza o tipo de local funcional criado com essa finalidade.
 2. Selecione o local funcional na lista.
 3. Selecione **Atualizar o estado do local funcional**. Depois, selecione o estado de ciclo de vida criado com essa finalidade. Um ativo é instalado automaticamente agora no local funcional. Esse ativo tem o mesmo nome que o local funcional.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
