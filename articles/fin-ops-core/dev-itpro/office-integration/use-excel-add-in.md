@@ -1,9 +1,9 @@
 ---
-title: Abrir os dados da entidade no Excel e atualizá-los usando o suplemento do Excel
-description: Este tópico explica como abrir dados da entidade no Microsoft Excel e, então, visualizar, atualizar e editar os dados usando o suplemento do Office do Microsoft Dynamics for Excel.
-author: ChrisGarty
+title: Exibir e atualizar dados da entidade com o Excel
+description: Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics.
+author: jasongre
 manager: AnnBe
-ms.date: 04/11/2018
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -13,38 +13,39 @@ ms.reviewer: sericks
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
-ms.author: cgarty
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26d5f165648c1553745e3061cc89bcba42f9636a
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a9486b3d700cdbe19fbcdba431f673d0a03014f
+ms.sourcegitcommit: ca05440ee503bf15fe98fe138d317c1cdf21ad16
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688458"
+ms.lasthandoff: 02/09/2021
+ms.locfileid: "5141867"
 ---
-# <a name="open-entity-data-in-excel-and-update-it-by-using-the-excel-add-in"></a>Abrir os dados da entidade no Excel e atualizá-los usando o suplemento do Excel
+# <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico explica como abrir dados da entidade no Microsoft Excel e, então, visualizar, atualizar e editar os dados usando o suplemento do Office do Microsoft Dynamics for Excel. Para abrir os dados da entidade, você pode iniciar o Excel ou o Finance and Operations.
+Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics. Para abrir dados da entidade, você pode usar o Excel ou os aplicativos do Finance and Operations.
 
-Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Excel. Esse suplemento requer o Microsoft Excel 2016.
+Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Excel. Esse suplemento requer o Microsoft Excel 2016 ou posterior.
 
 > [!NOTE]
 > Se o seu locatário do Microsoft Azure Active Directory (Azure AD) estiver configurado para usar o Active Directory Federation Services (AD FS), você deverá garantir que a atualização de maio de 2016 para o Office tenha sido aplicada para que o suplemento do Excel consiga realizar seu logon corretamente.
 
-Para saber mais sobre o uso do suplemento do Excel, assista ao vídeo curto [Criar um modelo do Excel para padrões de cabeçalho e de linha no Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
+Para saber mais sobre como usar o suplemento do Excel, assista ao breve vídeo [Criar um modelo do Excel para padrões de cabeçalho e de linha](https://youtu.be/RTicLb-6dbI).
 
-## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Abrir dados da entidade no Excel ao iniciar pelo Finance and Operations
-1. Em uma página do Finance and Operations, selecione **Abrir no Microsoft Office**.
+## <a name="open-entity-data-in-excel-when-you-start-from-a-finance-and-operations-app"></a>Abrir dados da entidade no Excel ao usar um aplicativo do Finance and Operations
+1. Em uma página de um aplicativo do Finance and Operations, selecione **Abrir no Microsoft Office**.
 
     Se a fonte de dados raiz (tabela) da página for a mesma que a fonte de dados raiz de qualquer entidade, opções **Abrir no Excel** padrões são geradas para a página. Opções **Abrir no Excel** podem ser encontradas em páginas frequentemente usadas, como **Todos os fornecedores** e **Todos os clientes**.
  
 2. Selecione uma opção **Abrir no Excel**, e abra a pasta de trabalho gerada. Essa pasta de trabalho possui informações obrigatórias da entidade, um indicador para seu ambiente e um indicador para o suplemento do Excel.
 3. No Excel, selecione **Habilitar edição** para permitir que o suplemento do Excel seja executado. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse Suplemento**.
-5. Se for solicitado a entrar, selecione **Entrar** e use as mesmas credenciais usadas para entrar no Finance and Operations. O suplemento do Excel usará um contexto de entrada anterior do Internet Explorer e conectará você automaticamente, se possível. Portanto, verifique o nome de usuário no canto superior direito do suplemento do Excel.
+5. Se você for solicitado a entrar, selecione **Entrar** e, em seguida, entre com as mesmas credenciais usadas para entrar no aplicativo do Finance and Operations. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
 
 O suplemento do Excel lê automaticamente os dados da entidade selecionada. Observe que não haverá dados na pasta de trabalho até que o suplemento do Excel realize a leitura.
 
@@ -53,7 +54,7 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 2. Na Loja do Office, procure a palavra **Dynamics** e selecione **Adicionar** do lado de Suplemento do **Microsoft Dynamics Office** (o suplemento do Excel).
 3. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse suplemento** para permitir que o suplemento funcione. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4. Selecione **Adicionar informações do servidor** para abrir o painel **Opções**.
-5. No seu navegador, copie a URL da instância desejada do Finance and Operations, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
+5. No navegador, copie a URL da instância de destino do aplicativo do Finance and Operations, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
 
     Por exemplo, se a URL for `https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage`, exclua tudo, exceto `https://xxx.dynamics.com`.
 
@@ -72,7 +73,7 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 Depois que o suplemento do Excel ler os dados da entidade na planilha, você poderá atualizar os dados a qualquer momento, selecionando **Atualizar** no suplemento do Excel.
 
 ## <a name="edit-entity-data-in-excel"></a>Editar dados da entidade no Excel
-É possível alterar os dados da entidade conforme necessário e publicá-los novamente selecionando **Publicar** no suplemento do Excel. Para editar um registro, selecione uma célula na planilha e então altere o valor da célula. Para adicionar um novo registro, siga uma dessas etapas:
+É possível alterar os dados da entidade conforme necessário e publicá-los novamente nos aplicativos do Finance and Operations selecionando **Publicar** no suplemento do Excel. Para editar um registro, selecione uma célula na planilha e então altere o valor da célula. Para adicionar um novo registro, siga uma dessas etapas:
 
 - Clique em qualquer local na tabela de fontes de dados e selecione **Novo** no suplemento do Excel.
 - Clique em qualquer ponto da última linha da tabela de fontes de dados, e pressione a tecla Tab até que o cursor se mova da última coluna dessa linha e uma nova linha seja criada.
@@ -105,6 +106,21 @@ Você pode usar o criador para ajustar as colunas que são automaticamente adici
 4. Para aplicar suas alterações à fonte de dados, selecione **Atualizar**. Selecione **Concluído** para sair do designer.
 5. Se você adicionou um campo (coluna), selecione **Atualizar** para obter um conjunto de dados atualizados.
 
+## <a name="change-the-publish-batch-size"></a>Alterar o tamanho do lote de publicação
+Quando os usuários publicam alterações em registros de dados usando o suplemento do Excel, as atualizações são enviadas em lotes. O tamanho padrão do lote de publicação é de 100 linhas. Na versão 10.0.17 e posterior, o recurso **Permitir configuração do tamanho do lote de publicação no suplemento do Excel** oferece controle flexível sobre o tamanho do lote de publicação.
+
+Os administradores do sistema podem especificar um limite de tamanho do lote de publicação em todo o sistema para pastas de trabalho "Abrir no Excel" configurando o campo **Limite do lote de publicação** na seção **Parâmetros do aplicativo** da página **Parâmetros do aplicativo Office**.
+
+O tamanho do lote de publicação também pode ser alterado para uma pasta de trabalho individual usando o suplemento do Excel.
+
+1. Abra a pasta de trabalho no Excel.
+2. Selecione o botão **Opção** (engrenagem) na parte superior direita do suplemento do Excel.
+3. Defina o campo **Tamanho do lote de publicação** conforme desejado. O valor definido deve ser menor do que o limite do lote de publicação em todo o sistema.
+4. Selecione **OK**.
+5. Salve a pasta de trabalho. Se você não salvar a pasta de trabalho depois de fazer alterações nas configurações do suplemento, essas alterações não serão mantidas quando a pasta de trabalho for reaberta.
+
+Os autores de modelos de pastas de trabalho do Excel podem usar o mesmo procedimento para definir o tamanho do lote de publicação para modelos antes de carregá-los no sistema.
+
 ## <a name="copy-environment-data"></a>Copiar dados do ambiente
 
 Os dados lidos na pasta de trabalho de um ambiente podem ser copiados para outro ambiente. Entretanto, você não pode apenas alterar a URL de conexão, pois o cache de dados na pasta de trabalho continuará a tratar os dados como dados existentes. Você deve usar a funcionalidade Copiar Dados do Ambiente para publicar os dados em um novo ambiente como novos dados.
@@ -123,6 +139,4 @@ Existem alguns problemas que podem ser resolvidos através de algumas etapas sim
 - **O botão Carregar applets aparece** – Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
 - **Você recebe uma mensagem "Proibido"** – Se receber uma mensagem "Proibido" enquanto o suplemento do Excel estiver carregando metadados, a conta conectada no suplemento não terá permissão para usar o serviço, a instância ou o banco de dados escolhido. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
 - **Uma página da Web em branco aparece no Excel** – se uma página da Web em branco for aberta durante o processo de logon, a conta exigirá AD FS, mas a versão do Excel que estiver executando o suplemento do Excel não será recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](https://technet.microsoft.com/library/jj219422.aspx) para [mover do canal diferido para o canal atual](https://technet.microsoft.com/library/mt455210.aspx).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+- **Você recebe um tempo limite ao publicar alterações de dados** – Se você receber mensagens de tempo limite ao tentar publicar alterações de dados em uma entidade, considere a redução do tamanho do lote de publicação da pasta de trabalho afetada. As entidades que acionam quantidades maiores de lógica em alterações de registro podem exigir que atualizações sejam enviadas em lotes menores para ajudar a evitar tempos limites.

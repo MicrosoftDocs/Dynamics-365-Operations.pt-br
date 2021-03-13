@@ -2,7 +2,7 @@
 title: Manter informações de ferimentos e doenças de funcionários
 description: É recomendável concluir a primeira guia de tarefas 'Configuração de lesões e doenças', pois algumas informações de configuração são usadas aqui.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 367834e7e02d2061732f46d8e697044e7c49b884
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2ae5a14879a9e182f6f4604204f1cd6dd12576a3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417249"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130100"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Manter informações de ferimentos e doenças de funcionários
 
@@ -93,6 +93,3 @@ Essa gravação de tarefa abrange as etapas básicas para criar um caso de ferim
 36. Clique em Salvar.
     * O status do caso pode ser atualizado a qualquer momento.  Defina o caso para em andamento, se o processamento do ferimento ou da doença estiver em andamento.  Depois que fechar o incidente, você só poderá adicionar ou remover custos, tratamentos ou arquivamentos relacionados ao incidente.  Para alterar outras informações, reabra o caso.  
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Práticas recomendadas para importar vouchers usando a entidade Diário geral
+title: Importar comprovantes usando a entidade Diário geral
 description: Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.
 author: rcarlson
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5b36e11bd9ef338334f7ac1b6412edb7754010f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 8ccb479cf7bcf86c01ed274a7a39856d538f220f
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687634"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129590"
 ---
-# <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>Práticas recomendadas para importar vouchers usando a entidade Diário geral
+# <a name="importing-vouchers-by-using-the-general-journal-entity"></a>Importar comprovantes usando a entidade Diário geral
 
 [!include [banner](../includes/banner.md)]
 
@@ -65,6 +65,3 @@ As seções a seguir descrevem o efeito dessas configurações. Elas também exp
 - Se o campo **Número do comprovante** é definido como **Gerado automaticamente**, a importação não tem êxito. A configuração **Gerado automaticamente** para o campo **Número do comprovante** não é suportado.
 
 Por padrão, a entidade de diário geral usa processamento baseado em conjunto. Depois de avaliar os requisitos de negócios para sua organização, você pode alterar a configuração **Processamento baseado em conjunto** clicando em **Entidades de dados** no espaço de trabalho **Gerenciamento de dados**. Processamento baseado em conjunto é usado para acelerar o processo de importação. Se você não usar o processamento baseado em conjunto, a importação da importação de entidade diário geral será mais lenta.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

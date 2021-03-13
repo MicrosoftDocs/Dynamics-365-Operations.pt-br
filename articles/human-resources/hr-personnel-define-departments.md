@@ -2,7 +2,7 @@
 title: Definir novos departamentos
 description: Os departamentos são unidades operacionais que representam uma área funcional de uma empresa, como vendas ou contabilidade.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e35d3744661c3f94745803ba698449e6cb917875
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13511b1cdf56716de635602720a343e9593adf61
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417304"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130249"
 ---
 # <a name="define-new-departments"></a>Definir novos departamentos
 
@@ -52,6 +52,3 @@ Os departamentos são unidades operacionais que representam uma área funcional 
 16. No campo Descrever alterações, digite um valor.
 17. Clique em Publicar.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas relacionados a atualizações de aplicativos do Finance and Operations
+title: Solucionar problemas causados por atualizações de aplicativos do Finance and Operations
 description: Este tópico fornece informações sobre como solucionar problemas que são relacionados às atualizações dos aplicativos Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c76b35ed3af766f42484a118a4a0407d969b5240
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: a11ce426d7f30b6b124bd2022514a0201c2b332c
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683590"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131212"
 ---
-# <a name="troubleshoot-issues-related-to-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas relacionados a atualizações de aplicativos do Finance and Operations
+# <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas causados por atualizações de aplicativos do Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -42,7 +42,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
-Você pode receber uma mensagem de erro semelhante à seguinte ao tentar usar a entidade **DualWriteProjectConfiguration** para atualizar um aplicativo Finance and Operations para atualização de plataforma 30.
+Você pode receber uma mensagem de erro semelhante à seguinte ao tentar usar a tabela **DualWriteProjectConfiguration** para atualizar um aplicativo Finance and Operations para atualização de plataforma 30.
 
 ```console
 Infolog diagnostic message: 'Cannot select a row in Dual write project sync (DualWriteProjectConfiguration). The SQL database has issued an error.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Object Server Database Synchronizer: ' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: '[Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'ISDELETE'.' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'SELECT T1.PROJECTNAME,T1.EXTERNALENTITYNAME,T1.INTERNALENTITYNAME,T1.EXTERNALENVIRONMENTURL,T1.STATUS,T1.ENABLEBATCHLOOKUP,T1.PARTITIONMAP,T1.QUERYFILTEREXPRESSION,T1.INTEGRATIONKEY,T1.ISDELETE,T1.ISDEBUGMODE,T1.RECVERSION,T1.PARTITION,T1.RECID FROM DUALWRITEPROJECTCONFIGURATION T1 WHERE (PARTITION=5637144576)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'session 1043 (Admin)' on category 'Error'. 10/28/2019 15:18:20: Infolog diagnostic message: 'Stack trace: Call to TTSCOMMIT without first calling TTSBEGIN.' on category 'Error'.
@@ -62,7 +62,7 @@ Para corrigir o problema, siga estas etapas.
 8. Selecione **Sincronizar** para fazer uma sincronização de banco de dados completa.
 9. Depois que a sincronização completa do banco de dados for bem-sucedida, execute novamente a etapa de sincronização do banco de dados em Microsoft Dynamics Lifecycle Services (LCS) e use os scripts de atualização manual conforme aplicável, para que você possa continuar com a atualização.
 
-## <a name="missing-entity-fields-issue-on-maps"></a>Ausência de campos de entidade na edição de mapas
+## <a name="missing-table-columns-issue-on-maps"></a>Problema de colunas de tabela ausentes nos mapas
 
 **Função necessária para corrigir o problema:** administrador do sistema
 
@@ -70,27 +70,24 @@ Na página **Gravação dupla**, você pode receber uma mensagem de erro parecid
 
 *Nome do campo de origem \<field name\> ausente no esquema.*
 
-![Exemplo da mensagem de erro de campo de origem ausente](media/error_missing_field.png)
+![Exemplo da mensagem de erro de coluna de origem ausente](media/error_missing_field.png)
 
-Para corrigir o problema, primeiro siga estas etapas para verificar se os campos estão na entidade.
+Para corrigir o problema, primeiro siga estas etapas para verificar se as colunas estão na tabela.
 
 1. Faça login na VM para o aplicativo Finance and Operations.
-2. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da tabela**, selecione **Atualizar lista de entidade** para atualizar as tabelas.
-3. Vá para **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a entidade está listada. Se a entidade não estiver listada, faça login na VM para o aplicativo Finance and Operations e certifique-se de que a entidade está disponível.
+2. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da tabela**, selecione **Atualizar lista de tabelas** para atualizar as tabelas.
+3. Vá para **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a tabela esteja listada. Se a tabela não estiver listada, faça login na VM para o aplicativo Finance and Operations e certifique-se de que a tabela esteja disponível.
 4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo Finance and Operations.
-5. Selecione **Atualizar lista de entidades** para preencher automaticamente os campos nos mapeamentos de tabela.
+5. Selecione **Atualizar lista de tabelas** para preencher automaticamente as colunas nos mapeamentos de tabela.
 
 Se o problema ainda não for solucionado, siga estas etapas.
 
 > [!IMPORTANT]
-> Essas etapas o orientam no processo de exclusão de uma entidade e, em seguida, a adiciona novamente. Para evitar problemas, certifique-se de seguir as etapas exatamente.
+> Essas etapas o orientam no processo de exclusão de uma tabela e, em seguida, a adiciona novamente. Para evitar problemas, certifique-se de seguir as etapas exatamente.
 
 1. No aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Tabelas de dados**.
-2. Encontre a entidade que está sem o atributo. Clique em **Modificar mapeamento de destino** na barra de ferramentas.
+2. Encontre a tabela que está sem o atributo. Clique em **Modificar mapeamento de destino** na barra de ferramentas.
 3. No painel **Mapear preparo para destino**, clique em **gerar mapeamento**.
 4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo Finance and Operations.
 5. Se o atributo não estiver preenchido automaticamente no mapa, adicione-o manualmente, clicando no botão **Adicionar atributo** e clicando em **Salvar**. 
 6. Selecione o mapa e clique em **Executar**.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

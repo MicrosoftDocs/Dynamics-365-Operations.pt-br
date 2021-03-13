@@ -2,7 +2,7 @@
 title: ​Organizar sua força de trabalho usando departamentos, trabalhos e posições
 description: Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este artigo descreve informações conceituais sobre esses elementos.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit, HcmPersonnelManagementWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources, Retail
+ms.search.scope: Human Resources
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 826de9e1e5d70ba1ec088b44254c871726b5c38e
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: e1dace0dc6477e259d1004440c4cda8060bf90e3
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417267"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130220"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos e posições
 
@@ -165,6 +165,3 @@ Você pode modificar as informações mencionadas na tabela anterior para um car
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

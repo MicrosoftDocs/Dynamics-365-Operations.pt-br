@@ -2,7 +2,7 @@
 title: Bem-vindo ao Dynamics 365 Human Resources
 description: O Dynamics 365 Human Resources fornece informações da força de trabalho necessárias para criar experiências de funcionário orientadas a dados em várias áreas.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65100ba5798ac5731d510c8f6f112bb7a33b4e65
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 1136d4c811f819665202f5f93e54b63b98188970
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4529771"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129534"
 ---
 # <a name="welcome-to-dynamics-365-human-resources"></a>Bem-vindo ao Dynamics 365 Human Resources
 
@@ -61,7 +61,7 @@ O Human Resources conecta dados de pessoas e operações para ajudar a otimizar 
 
 [Visão Geral](hr-developer-overview.md)</br>
 [Estender com o Power Apps e o Power Automate](hr-developer-power-apps.md)</br>
-[Entidades do Human Resources no Common Data Service](hr-developer-entities.md)</br>
+[Entidades do Human Resources no Dataverse](hr-developer-entities.md)</br>
 [Campos personalizados](hr-developer-custom-fields.md)</br>
 [Configurar integração de dados](hr-admin-integration-choose-technology.md)</br>
 [Referência da API da Entidade](hr-developer-api-authentication.md)
@@ -78,6 +78,3 @@ O Human Resources conecta dados de pessoas e operações para ajudar a otimizar 
 [Gerenciar licenças e ausências](hr-leave-and-absence-overview.md)</br>
 [Desenvolver funcionários](hr-develop-performance-management-overview.md)</br>
 [Criar cursos](hr-learning-courses.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

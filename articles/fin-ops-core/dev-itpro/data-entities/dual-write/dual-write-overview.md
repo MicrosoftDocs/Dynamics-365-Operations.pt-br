@@ -1,6 +1,6 @@
 ---
-title: Visão geral de gravação dupla
-description: Este tópico fornece uma visão geral de gravação dupla. A gravação dupla é uma infraestrutura que fornece interação quase em tempo real entre aplicativos baseados em modelo do Microsoft Dynamics 365 e aplicativos do Finance and Operations.
+title: Visão geral da gravação dupla
+description: Este tópico traz uma visão geral da gravação dupla, que fornece interação quase em tempo real entre aplicativos do Customer Engagement e aplicativos do Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 02/06/2020
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 85530cf644c7b7ffe922a6fb3288f4e05c5df91c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3937850a9df716113591e49b25373beb48e3acdd
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685604"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129996"
 ---
-# <a name="dual-write-overview"></a>Visão geral de gravação dupla
+# <a name="dual-write-overview"></a>Visão geral da gravação dupla
 
 [!include [banner](../../includes/banner.md)]
 
@@ -53,7 +53,7 @@ A infraestrutura de gravação dupla é extensível e confiável e inclui os seg
 + Exibição combinada de logs de atividades e erros para administradores de dados
 + Capacidade de configurar alertas e limites personalizados e assinar notificações
 + Interface de usuário (UI) intuitiva para filtragem e transformações
-+ Capacidade de definir e exibir dependências e relacionamentos da entidade
++ Capacidade de definir e exibir dependências e relacionamentos da tabela
 + Extensibilidade para mapas e tabelas padrão e personalizadas
 + Gerenciamento confiável do ciclo de vida de aplicativos
 + Experiência de configuração pronta para uso para novos clientes
@@ -93,7 +93,7 @@ A gravação dupla fornece integração de dados nos aplicativos do Microsoft Dy
 
 ## <a name="what-does-dual-write-mean-for-developers-and-architects-of-customer-engagement-apps"></a><a id="developer-architect"></a>O que significa a gravação dupla para desenvolvedores e arquitetos de aplicativos do Customer Engagement?
 
-A gravação dupla automatiza o fluxo de dados entre aplicativos do Finance and Operations e aplicativos do Customer Engagement. A gravação dupla consiste em duas soluções AppSource instaladas no Dataverse. As soluções expandem o esquema da entidade, os plugins e os fluxos de trabalho no Dataverse para que possam ser escalados para o tamanho do ERP. Para uma implementação bem-sucedida, os desenvolvedores e arquitetos de aplicativos do Customer Engagement devem compreender essas alterações e colaborar com as contrapartes em aplicativos do Finance and Operations.
+A gravação dupla automatiza o fluxo de dados entre aplicativos do Finance and Operations e aplicativos do Customer Engagement. A gravação dupla consiste em duas soluções AppSource instaladas no Dataverse. As soluções expandem o esquema da tabela, os plugins e os fluxos de trabalho no Dataverse para que possam ser escalados para o tamanho do ERP. Para uma implementação bem-sucedida, os desenvolvedores e arquitetos de aplicativos do Customer Engagement devem compreender essas alterações e colaborar com as contrapartes em aplicativos do Finance and Operations.
 
 Para criar paridade com aplicativos do Finance and Operations, a gravação dupla faz algumas alterações cruciais no esquema do Dataverse. Se você entender o plano, poderá evitar retrabalho de design e desenvolvimento no futuro.
 
@@ -103,12 +103,9 @@ Para criar paridade com aplicativos do Finance and Operations, a gravação dupl
 
 + Para evitar a perda de dados durante a transmissão de moeda entre aplicativos do Finance and Operations e o Dataverse, você poderá estender o número de casas decimais no tipo de dados de moeda de aplicativos do Customer Engagement. O recurso converte automaticamente as linhas existentes no novo estado estendido na camada de metadados. Durante esse processo, o valor da moeda é convertido em dados decimais em vez de dados monetários, e o valor da moeda oferece suporte a 10 casas decimais. Este recurso é opcional e apenas organizações que requeiram acima de 4 casas decimais de precisão deverão aceitá-lo. Para obter mais informações, consulte [Migração de tipo de dados de moeda para gravação dupla](currrency-decimal-places.md).
 
-+ [Efetividade de data](../../dev-tools/date-effectivity.md) será adicionada ao Dataverse. Ela dará suporte a dados passados, presentes e futuros na mesma entidade.
++ [Efetividade de data](../../dev-tools/date-effectivity.md) será adicionada ao Dataverse. Ela dará suporte a dados passados, presentes e futuros na mesma tabela.
 
 + As [conversões de unidades](../../../../supply-chain/pim/tasks/manage-unit-measure.md) de produto têm suporte para produtos, cotações, ordens e faturas.
 
 Para obter mais informações sobre as alterações futuras, consulte [Novidades ou alterações em gravação dupla](whats-new-dual-write.md).
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

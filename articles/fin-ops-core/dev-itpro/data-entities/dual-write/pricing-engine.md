@@ -1,5 +1,5 @@
 ---
-title: Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
+title: Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
 description: Este tópico descreve como usar o mecanismo de preços no Microsoft Dynamics 365 Supply Chain Management do Dynamics 365 Sales.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 740ae20704abd9c59f64c2c7622fa96d65dccb1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 45a9de18a3ff9c50eba8b316171b492605d683d4
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4449795"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130644"
 ---
-# <a name="sync-with-the-dynamics-365-supply-chain-management-pricing-engine-on-demand"></a>Sincronizar com o mecanismo de preços sob demanda do Dynamics 365 Supply Chain Management
+# <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
 
@@ -40,7 +40,7 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
 3. Adicione uma nova linha de ordem.
 4. Se você estiver criando uma ordem, selecione **Ordem de preço** no Painel de Ação. Se você estiver atualizando uma ordem existente, selecione **Recalcular** no Painel de Ação.
 
-    Os seguintes campos são preenchidos automaticamente:
+    As seguintes colunas são preenchidas automaticamente:
 
     + Valor Detalhado
     + % de desconto
@@ -58,17 +58,14 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
 
 ## <a name="how-it-works"></a>Como funciona
 
-Ao selecionar **Ordem de preço** no Sales, a função **Totais** na guia **Ordem de venda \> Exibir** no Supply Chain Management é chamada para a ordem de venda associada. Os valores no total da ordens no Sales são usados para preencher os campos correspondentes no Supply Chain Management.
+Ao selecionar **Ordem de preço** no Sales, a função **Totais** na guia **Ordem de venda \> Exibir** no Supply Chain Management é chamada para a ordem de venda associada. Os valores no total da ordem no Sales são usados para preencher as colunas correspondentes no Supply Chain Management.
 
 Quando o total das ordens do cliente é calculado no Supply Chain Management, o cálculo avalia os acordos comerciais e contratos de vendas existentes para o cliente e os produtos listados na ordem de venda. Essas informações são usadas para calcular os totais. Quando a **Ordem de preço** é selecionada, o Sales reflete automaticamente toda a configuração que foi feita no Supply Chain Management.
 
 ## <a name="limitations"></a>Limitações
 
-Quando os campos no Sales são preenchidos, as seguintes limitações se aplicam:
+Quando as colunas no Sales são preenchidas, as seguintes limitações se aplicam:
 
 + A configuração de encargos e alocações de encargos no Supply Chain Management não é replicada no Sales.
-+ Os preços não consideram os preços especiais de varejo especificados no campo **Canal de Varejo** na página da linha da ordem do cliente no Supply Chain Management.
++ Os preços não consideram os preços especiais de varejo especificados na coluna **Canal de Varejo** na página da linha de ordem de venda no Supply Chain Management.
 + Os descontos definidos na seção **Gerenciamento de bonificação comercial** do Supply Chain Management não são considerados.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

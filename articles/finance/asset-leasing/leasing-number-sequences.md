@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 66b48723bbff7f176ef192924e8ea2b96641ba56
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: c21b7a55ff611a5d3ab745f3af5e2e855240531b
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440557"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5128946"
 ---
 # <a name="assign-number-sequences"></a>Atribuir sequências numéricas
 
@@ -36,6 +35,4 @@ Este tópico explica como criar sequências numéricas para IDs de arrendamento.
 3. Selecione **Sequências numéricas** na barra lateral.
 4. Selecione a sequência numérica para a referência **ID do Arrendamento**. Essa sequência numérica será usada para gerar o identificador exclusivo para cada arrendamento.
 5. Selecione a sequência numérica para a referência **ID do Processo**. Essa sequência numérica será usada para gerar o identificador exclusivo para cada processo de reavaliação de índice.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+6. Selecione a sequência numérica para a referência **ID de Proposta de Rescisão**. Essa sequência numérica será usada para gerar o identificador exclusivo de cada proposta de rescisão.

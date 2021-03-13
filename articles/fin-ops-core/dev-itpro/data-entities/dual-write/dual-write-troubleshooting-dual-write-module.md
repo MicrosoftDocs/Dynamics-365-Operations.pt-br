@@ -1,5 +1,5 @@
 ---
-title: Solucionar problemas com o módulo de gravação dupla em aplicativos do Finance and Operations
+title: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação nos aplicativos Finance and Operations.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2241e7e6219f95115f55bc45a4d94550276e1e21
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3ffeb2de0acc1761bccf62a1a124852c504e2a3a
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683614"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5131236"
 ---
-# <a name="troubleshoot-issues-with-the-dual-write-module-in-finance-and-operations-apps"></a>Solucionar problemas com o módulo de gravação dupla em aplicativos do Finance and Operations
+# <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 
 [!include [banner](../../includes/banner.md)]
 
@@ -44,7 +44,7 @@ Se você não conseguir abrir a página **Gravação dupla** selecionando o bloc
 
 **Credenciais necessárias para corrigir o problema:** o mesmo usuário que configura a gravação dupla.
 
-A seguinte mensagem de erro poderá ser exibida quando você tentar configurar uma nova entidade para gravação dupla: O único usuário que poderá criar um mapa é o usuário que configurou a conexão de gravação dupla.
+A seguinte mensagem de erro poderá ser exibida quando você tentar configurar uma nova tabela para gravação dupla: O único usuário que poderá criar um mapa é o usuário que configurou a conexão de gravação dupla.
 
 *O código de status de resposta não indica êxito: 401 (Não autorizado)*
 
@@ -77,7 +77,7 @@ Este erro ocorre quando o ambiente Dataverse vinculado não está disponível.
 
 Para corrigir o problema, crie um tíquete para a equipe de integração de dados. Anexe o rastreamento de rede para que a equipe de integração de dados possa marcar os mapas como **Não executados** no back-end.
 
-## <a name="error-while-trying-to-start-an-table-mapping"></a>Erro ao tentar iniciar um mapeamento de tabela
+## <a name="error-while-trying-to-start-a-table-mapping"></a>Erro ao tentar iniciar um mapeamento de tabela
 
 A seguinte mensagem de erro pode ser exibida ao tentar definir esse estado de um mapeamento como **Em execução**:
 
@@ -86,7 +86,4 @@ A seguinte mensagem de erro pode ser exibida ao tentar definir esse estado de um
 A correção desse erro depende da causa do erro:
 
 + Se o mapeamento tiver mapeamentos dependentes, certifique-se de habilitar os mapeamentos dependentes deste mapeamento de tabela.
-+ O mapeamento pode estar ter campos de origem ou de destino ausentes. Se um campo no aplicativo Finance and Operations estiver ausente, siga as etapas na seção [Problemas de campos de entidade ausentes nos mapas](dual-write-troubleshooting-finops-upgrades.md#missing-entity-fields-issue-on-maps). Se um campo no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que os campos sejam automaticamente preenchidos no mapeamento.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
++ Pode haver colunas de origem ou de destino ausentes no mapeamento. Se um campo no aplicativo Finance and Operations estiver ausente, siga as etapas na seção [Problemas de campos de entidade ausentes nos mapas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se a coluna no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que as colunas sejam automaticamente preenchidas no mapeamento.

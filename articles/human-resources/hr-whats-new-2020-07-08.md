@@ -1,8 +1,8 @@
 ---
 title: Novidades ou alterações no Dynamics 365 Human Resources (08 de julho de 2020)
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 8 de julho de 2020.
-author: Darinkramer
-manager: AnnBe
+author: andreabichsel
+manager: tfehr
 ms.date: 07/08/2020
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: jaredha
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba0bb54b44f66aa73056667a93a3f8e6f7f618ee
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 14dfd925009cb2a9d40044e27f28521ff4d331b7
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528464"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130388"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-8-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (8 de julho de 2020)
 
@@ -71,9 +71,9 @@ Os campos do sistema criados e modificados agora estão habilitados na tabela **
 
 Esta versão corrige um erro (referência nula) em uma entrada de funcionário simplificada quando você contrata um funcionário usando a opção **Contratar e adicionar detalhes**.
 
-## <a name="changes-made-in-the-common-data-service-worker-entity-dont-reflect-in-human-resources-455652"></a>Alterações feitas na entidade Trabalhador do Common Data Service não são refletidas no Human Resources (455652)
+## <a name="changes-made-in-the-dataverse-worker-entity-dont-reflect-in-human-resources-455652"></a>Alterações feitas na entidade Trabalhador do Dataverse não são refletidas no Human Resources (455652)
 
-Agora, as alterações feitas nos seguintes campos da entidade **Trabalhador** do Common Data Service serão mostradas no Human Resources:
+Agora, as alterações feitas nos seguintes campos da entidade **Trabalhador** do Dataverse serão mostradas no Human Resources:
 
 - **Trabalha de casa**
 - **Aniversário de tempo de serviço**
@@ -131,9 +131,9 @@ Uma entidade DMF disponível para suspensões de acúmulos.
 
 ## <a name="coming-soon"></a>Em breve
 
-## <a name="checklist-entities-included-in-common-data-service"></a>Entidades de lista de verificação incluídas no Common Data Service
+## <a name="checklist-entities-included-in-dataverse"></a>Entidades de lista de verificação incluídas no Dataverse
 
-Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Common Data Service.
+Entidades de lista de verificação relativas a Integração, Remoção, Transferências e Processos empresariais estarão disponíveis em breve no Dataverse.
 
 ## <a name="see-also"></a>Consulte também
 
@@ -141,6 +141,3 @@ Entidades de lista de verificação relativas a Integração, Remoção, Transfe
 [Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

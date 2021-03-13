@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations, Retail
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 28518341544327f1983e563b719b0f455b6e1c43
-ms.sourcegitcommit: aeee39c01d3f93a6dfcf2013965fa975a740596a
+ms.openlocfilehash: 948860bb064dde1085fef4a74da2d9a600892294
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4440549"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130996"
 ---
 # <a name="set-up-lease-books"></a>Configurar registros de arrendamento
 
@@ -53,6 +52,4 @@ Para criar um registro de arrendamento, siga estas etapas.
     | Limite de curto prazo                     | Digite o número de meses a ser usado como limite para arrendamentos de curto prazo. Se o prazo do arrendamento for menor ou igual ao número de meses inseridos aqui, o sistema classificará a concessão como um arrendamento de curto prazo e o tratamento do arrendamento diferido será aplicado. |
     | Limite de valor baixo                      | Insira um valor a ser usado como limite para arrendamentos de baixo valor. Se o valor justo do ativo for menor ou igual ao valor inserido aqui, o sistema classificará o arrendamento como um arrendamento de baixo valor, e o tratamento do arrendamento diferido será aplicado. |
     | Pagar ao fornecedor                            | Defina essa opção como **Sim** para permitir que os pagamentos de arrendamento sejam lançados, como uma fatura, na conta de fornecedor especificada em cada arrendamento. Quando um pagamento de arrendamento for lançado, a conta do fornecedor será creditada. Se essa opção for definida como **Não**, a conta especificada para o tipo de lançamento de **Pagamento de arrendamento** na página **Parâmetros de lançamento de arrendamento** será creditada. |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+    | Convenção de arrendamento                       | Selecione a convenção para a data de início do arrendamento:<ul><li><b>Nenhum</b> – Use a data inicial do arrendamento como a data de início.</li><li><b>Mês inteiro</b> - Use o primeiro dia do mês em que a data inicial do arrendamento cairá como a data de início.</li></ul><p>Se você selecionar <b>Nenhum</b>, haverá um risco de que os agendamentos de amortização de passivos e de depreciação de ativos sejam acumulados e lançados no meio do mês, e não no final do mês. Ao selecionar o <b>Mês inteiro</b>, você garante que o sistema começará a levar em conta o arrendamento no primeiro dia do mês e que a despesa do mês inteiro será acumulada e lançada no último dia do mês.</p><p><strong>Observação:</strong> o recurso de convenções de arrendamento precisa ser ativado por meio do Gerenciamento de recursos. No espaço de trabalho <b>Gerenciamento de recursos</b>, localize e selecione o recurso denominado <b>Convenção de arrendamento para arrendamento de ativos</b> e selecione <b>Habilitar agora</b>.</p> |

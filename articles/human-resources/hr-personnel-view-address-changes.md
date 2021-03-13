@@ -2,7 +2,7 @@
 title: Exibir e gerenciar alterações de endereço
 description: Este tópico explica como você pode exibir e gerenciar alterações de endereço no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 08/07/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 269074
 ms.assetid: 426c6127-42ee-4163-8dd0-b2867f95581d
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a69d723b45e834b022491c8eaf2a7fb580e54f1d
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8746f449f2b30b2e2119446c1912842c420acbfc
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417228"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152044"
 ---
 # <a name="view-and-manage-address-changes"></a>Exibir e gerenciar alterações de endereço
 
@@ -125,9 +125,6 @@ O pessoal de RH pode exibir e monitorar alterações de endereço no espaço de 
 Quando você seleciona o bloco **Alterações de endereço**, uma nova página exibe os detalhes das alterações de endereço. Opcionalmente, você pode selecionar **Incluir alterações de endereço futuro** no canto superior direito para exibir alterações de endereço com uma data futura.
 
 > [!NOTE]
-> Se desejar receber um alerta ou email sobre essas alterações de endereço, você poderá criar uma nova regra de alerta na guia **Opções** no Painel de Ações. Para obter mais informações sobre regras de alerta, consulte [Criar regras de alerta](/fin-ops-core/fin-ops/get-started/create-alert-rules.md).<br><br>
+> Se desejar receber um alerta ou email sobre essas alterações de endereço, você poderá criar uma nova regra de alerta na guia **Opções** no Painel de Ações. Para obter mais informações sobre regras de alerta, consulte [Criar regras de alerta](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
 
-> Se desejar configurar um fluxo de trabalho para as alterações de endereço, você poderá selecionar a opção **Enviar externamente** na regra de alerta e, em seguida, usar o Power Automate para disparar o evento comercial e configurar um fluxo de trabalho. Para obter mais informações, consulte [Alertas como eventos comerciais](/fin-ops-core/dev-itpro/business-events/alerts-business-events.md).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+> Se desejar configurar um fluxo de trabalho para as alterações de endereço, você poderá selecionar a opção **Enviar externamente** na regra de alerta e, em seguida, usar o Power Automate para disparar o evento comercial e configurar um fluxo de trabalho. Para obter mais informações, consulte [Alertas como eventos comerciais](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).

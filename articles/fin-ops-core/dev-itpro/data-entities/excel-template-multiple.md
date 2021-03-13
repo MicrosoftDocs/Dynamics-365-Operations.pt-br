@@ -1,5 +1,5 @@
 ---
-title: Importar dados de modelos de entidade de dados do Excel com várias planilhas
+title: Modelos de dados com várias planilhas
 description: Este tópico descreve como importar dados usando modelos de entidade de dados do Excel para o Finance and Operations.
 author: Sunil-Garg
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 618b62364353f409f6971ddd9adc7d55297d09cf
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: fb505f33e497cf16cd6cdeddee1f88d01797f3ef
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688070"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5130572"
 ---
-# <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>Importar dados de modelos de entidade de dados do Excel com várias planilhas
+# <a name="data-templates-with-multiple-worksheets"></a>Modelos de dados com várias planilhas
 
 [!include [banner](../includes/banner.md)]
 
@@ -49,6 +49,3 @@ Nos casos em que uma nova versão do mesmo arquivo ou um arquivo completamente n
 ## <a name="upload-a-file-using-run-project"></a>Carregar um arquivo usando Executar projeto
 
 Você pode carregar um arquivo do Excel ao usar a opção **Executar projeto** para executar um projeto de importação. Tenha cautela ao carregar somente arquivos que têm as mesmas planilhas que os mapeamentos existentes nas entidades de dados no projeto de dados. Se a planilha não for encontrada no arquivo recém-carregado, o sistema exibirá um erro e interromperá a importação. Se o mapeamento para a planilha tiver que ser alterado para uma entidade, então os mapeamentos no projeto de dados devem ser atualizados primeiro dentro do projeto de dados, antes de usar o arquivo na experiência **Executar projeto**.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

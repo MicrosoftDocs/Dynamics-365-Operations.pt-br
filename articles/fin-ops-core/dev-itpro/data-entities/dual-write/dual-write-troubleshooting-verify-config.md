@@ -1,5 +1,5 @@
 ---
-title: Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Dataverse
+title: Verificar configuração de gravação dupla nos aplicativos Finance and Operations e Dataverse
 description: Este tópico explica como você pode determinar se a gravação dupla está configurada em aplicativos Finance and Operations e em Dataverse.
 author: RamaKrishnamoorthy
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: f389bcf133cc7e6a086167d5e26c1b8795d0fa30
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 361d6555b60e02832c337b6f416b2b3627b6d365
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685530"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129298"
 ---
-# <a name="verify-that-dual-write-is-configured-in-finance-and-operations-apps-and-dataverse"></a>Verifique se a gravação dupla está configurada nos aplicativos Finance and Operations e Dataverse
+# <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Verificar configuração de gravação dupla nos aplicativos Finance and Operations e Dataverse
 
 [!include [banner](../../includes/banner.md)]
 
@@ -51,13 +51,10 @@ Para obter informações sobre como corrigir problemas ao criar dados em aplicat
 
 ## <a name="verify-that-dual-write-is-configured-in-dataverse"></a>Verifique se a gravação dupla está configurada em Dataverse
 
-Ao criar dados, se você vir o campo **Empresa** em páginas no Dataverse, a gravação dupla é configurada.
+Ao criar dados, se você vir a coluna **Empresa** em páginas no Dataverse, a gravação dupla está configurada.
 
 ![Verificando a conexão Dataverse](media/verify_cds.png)
 
 Para obter informações sobre como corrigir problemas ao criar dados em Dataverse, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
 
 Para obter informações sobre como exibir detalhes de erro se você encontrar algum erro ao criar dados no Dataverse, consulte [Habilitar e exibir o log de rastreamento de plug-in no Dataverse para exibir os detalhes de erro ](dual-write-troubleshooting.md#enable-view-trace).
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Solucionar problemas durante a configuração inicial
-description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas que podem ocorrer durante a configuração inicial da integração entre aplicativos Finance and Operations e Dataverse.
+description: Este tópico fornece informações sobre como solucionar problemas que podem ocorrer durante a configuração inicial da integração de gravação dupla.
 author: RamaKrishnamoorthy
 manager: AnnBe
 ms.date: 03/16/2020
@@ -18,12 +18,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 5ac6ec5003794fb5875fed6a2c4403c1444ab8b2
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: cfbc1ab3ef6d47f6ec2d8ca4ca4b8940784e6e49
+ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685577"
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "5129972"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -71,13 +71,13 @@ Para fornecer consentimento ao aplicativo, siga estas etapas.
 
 ## <a name="verify-that-company-data-and-dual-write-teams-are-set-up-correctly-during-linking"></a>Verificar se os dados da empresa e as equipes de gravação dupla estão configurados corretamente durante a vinculação
 
-Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Dataverse. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a entidade **Empresas (Empresa\_CDM)**, siga estas etapas.
+Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Dataverse. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a tabela **Empresas (Empresa\_CDM)**, siga estas etapas.
 
 1. No aplicativo baseado em modelo no Dynamics 365, selecione o filtro no canto superior direito.
 2. Na lista suspensa, selecione **Empresa**.
 3. Selecione **Executar** para ver os resultados.
 4. Selecione a empresa que estava vinculada quando você configurou a gravação dupla.
-5. Verifique se o campo **Equipe proprietária padrão** tem um valor. Na ilustração a seguir, o campo **Padrão de propriedade da equipe** é definido como **Gravação dupla USMF**.
+5. Verifique se a coluna **Equipe proprietária padrão** tem um valor. Na ilustração a seguir, a coluna **Padrão de propriedade da equipe** é definida como **Gravação dupla USMF**.
 
     ![Verificando a equipe proprietária padrão](media/default_owning_team.png)
 
@@ -88,6 +88,3 @@ A seguinte mensagem de erro pode ser exibida ao tentar habilitar os mapas:
 *Falha na gravação dupla - Falha no registro de plug-in: \[(Não foi possível obter mapa de partição para o projeto DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Erro excede as partições máximas permitidas para mapeamento de DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Um ou mais erros ocorreram.*
 
 O limite atual ao vincular os ambientes é de aproximadamente 40 tabelas legais. Este erro ocorre se você tentar habilitar mapas, e mais de 40 tabelas legais serão vinculadas entre os ambientes.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
