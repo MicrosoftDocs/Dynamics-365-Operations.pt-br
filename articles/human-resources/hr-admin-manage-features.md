@@ -1,8 +1,8 @@
 ---
-title: Gerenciar recursos
+title: Gerenciar recursos em Recursos Humanos
 description: Saiba como habilitar ou desabilitar novos recursos no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9176e9519c3bf65ef7a4f1b5ae43dbeb411750f5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417323"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111534"
 ---
-# <a name="manage-features"></a>Gerenciar recursos
+# <a name="manage-features-in-human-resources"></a>Gerenciar recursos em Recursos Humanos
 
 Como parte de liberação contínua de novas funcionalidades do Microsoft Dynamics 365 Human Resources, queremos que nossos clientes aproveitem novos recursos o mais rápido possível. Fornecemos recursos de visualização, que estão quase prontos para disponibilidade geral e passam por um teste extenso. Estamos procurando apenas um círculo final de comentários de cliente e validação antes de liberá-los para disponibilidade geral.
 
@@ -94,5 +94,3 @@ Não inclua dados pessoais (qualquer informação que pode te identificar) em se
 
 - [Novidades em Human Resources](hr-admin-whats-new.md)
 - [Dynamics 365 e Plano de versão do Power Platform](https://docs.microsoft.com/dynamics365/release-plans/#pivot=products&panel=products1)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

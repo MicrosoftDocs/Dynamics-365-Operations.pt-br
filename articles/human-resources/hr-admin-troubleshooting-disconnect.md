@@ -2,7 +2,7 @@
 title: O cliente desconecta
 description: Este artigo explica o que fazer se o cliente estiver desconectado de seu ambiente e não sabe o porquê.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2088706baf8735fa371960955a2ffc3240ccac76
-ms.sourcegitcommit: a26e4963d40796da21ce6581cfb2f4d9db4f6776
+ms.openlocfilehash: d02916283bbd4cee6502942020df1b275a0242b3
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "4417369"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111515"
 ---
 # <a name="client-disconnects"></a>O cliente desconecta
 
@@ -52,6 +52,3 @@ O Microsoft Dynamics 365 Human Resources desconecta os usuários quando duas ses
 Verifique se somente um ambiente está aberto em vez de um navegador de tipo determinado. Os usuários podem abrir mais sessões no mesmo ambiente (ou seja, várias guias no navegador.)
 
 Os usuários que desejam pular entre dois ambientes ao mesmo tempo devem abrir cada ambiente em um tipo de navegador diferente. (Por exemplo, o usuário A pode exibir o ambiente 1 no Chrome e o ambiente 2 no Microsoft Edge.)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

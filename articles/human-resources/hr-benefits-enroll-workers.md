@@ -2,7 +2,7 @@
 title: Inscrever e remover benefícios de trabalhadores
 description: Este procedimento demonstra como um único trabalhador pode ser inserido em um ou mais benefícios, bem como os vários trabalhadores podem ser inseridos em um benefício.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: business-process
 ms.prod: ''
@@ -11,17 +11,17 @@ ms.technology: ''
 ms.search.form: HcmWorker, HcmWorkerEnrollment, HcmBenefitByEligibilityLookup, HcmMassBenefitEnrollment, HcmBenefitLookup, HcmMassBenefitEnrollmentResults, BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 36fd724ff27cbb646f3f8a35ca1b30dc86a5afe4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 13e32c9bc77470d6b8e157e7a7805d3d72850478
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417202"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111450"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrever e remover benefícios de trabalhadores
 
@@ -58,6 +58,3 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 14. Na lista, clique no link na linha selecionada.
 15. Esta página permite exibir os funcionários que foram inscritos no benefício, bem como alguns funcionários que não foram inscritos.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

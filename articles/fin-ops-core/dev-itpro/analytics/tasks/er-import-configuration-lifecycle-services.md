@@ -1,6 +1,6 @@
 ---
 title: Importar uma configuração do Lifecycle Services
-description: Este tópico explica como um usuário na função de Administrador do sistema ou Desenvolvedor de relatório eletrônico pode importar uma nova versão de uma configuração do Relatório eletrônico (RE) do Microsoft Dynamics Lifecycle Services (LCS).
+description: Este tópico descreve como importar uma nova versão de uma configuração de relatório eletrônico (ER) do Microsoft Dynamics Lifecycle Services (LCS).
 author: NickSelin
 manager: AnnBe
 ms.date: 09/14/2020
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c43cdce8d073f04a3158c8beb13a5376e669a4c
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 602886b0dd729b8ec52940f42bd1c393dac8acda
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684442"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093686"
 ---
 # <a name="import-a-configuration-from-lifecycle-services"></a>Importar uma configuração do Lifecycle Services
 
@@ -103,6 +103,3 @@ Neste exemplo, você selecionará a versão desejada da configuração de ER e a
     Neste exemplo, selecione a versão da configuração com status **Compartilhado**.
 
     Observe que versão 1 compartilhada da configuração do modelo de dados selecionado agora também está disponível.
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

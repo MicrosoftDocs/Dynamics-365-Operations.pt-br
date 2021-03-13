@@ -1,6 +1,6 @@
 ---
 title: Usar configurações de mapeamento de modelo para cálculos agregados no nível do banco de dados
-description: Este procedimento fornece informações sobre como criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes.
+description: Este tópico descreve como criar uma nova configuração de mapeamento de modelo de Relatório eletrônico e usar funções de ER internas para obter cálculos agregados eficientes.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f1c4ddf0fac5ba962c3dab545bfa7e0df4afa948
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6a392697f6b91bc6555d0d72d09ecd7da32e1a3f
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684106"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094256"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Usar configurações de mapeamento de modelo para cálculos agregados no nível do banco de dados
 
@@ -116,6 +116,3 @@ Este procedimento é criado para usuários com a função atribuída de Administ
 68. Clique em Salvar.
     * Observe que o campo "Execução em" indica que esse agrupamento será executado no tempo de execução na memória mesmo que não haja nenhuma agregação definida e a fonte de dados selecionada do tipo "Registros da tabela" refira-se à mesma tabela "Intrastat". Isso é porque a fonte de dados contém alguns campos calculados que ainda não podem ser traduzidos para o nível do banco de dados SQL.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

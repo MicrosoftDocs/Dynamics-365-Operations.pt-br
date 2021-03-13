@@ -1,6 +1,6 @@
 ---
 title: ER Criar configurações necessárias para importar os dados de um arquivo externo
-description: As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo Microsoft Dynamics 365 Finance, partindo de um arquivo externo.
+description: Este tópico descreve como criar configurações de ER (relatório eletrônico) para importar dados para o aplicativo do Microsoft Dynamics 365 Finance de um arquivo externo.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d9b26f4963f32be34ae1d954a3f363be7ea28d41
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0492fae6cfad505fc9fee5cd20f483c9c6d2a061
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684267"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093714"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
@@ -254,6 +254,3 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 27. Feche a página.
 28. Feche a página.
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

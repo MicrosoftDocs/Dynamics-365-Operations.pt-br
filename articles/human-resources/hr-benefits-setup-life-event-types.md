@@ -2,7 +2,7 @@
 title: Configurar tipos de eventos de vida
 description: O Microsoft Dynamics 365 Human Resources usa tipos de eventos de vida para definir eventos em que é válido atualizar a inscrição de benefícios do funcionário.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5286bcd940f4068531bae624876c8a35e64db4c3
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417270"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111510"
 ---
 # <a name="configure-life-event-types"></a>Configurar tipos de eventos de vida
 
@@ -88,6 +88,3 @@ Você pode escolher entre os seguintes eventos de vida ao criar um tipo de event
 | **Expiração da substituição de regra de qualificação (não específica dos EUA)** | Recursos humanos avançados > Benefícios > Planos > Benefícios > Substituição de regra de qualificação | Usando o processamento de alteração de eventos de vida. Por exemplo, se você editar uma regra de qualificação do plano, a data de vencimento da substituição deverá ser hoje às 17:00h, a qualquer momento após 17:00h ou nos seguintes dias. Depois, ocorrerá o processamento de alteração do evento de vida. Será exibida uma mensagem informando que a substituição da regra de qualificação expirou. |
 | **Novo plano de benefícios (não específico dos EUA)** | Recursos humanos avançados > Benefícios > Planos > Novo | <ul><li>As opções de qualificação são adicionadas a um plano atual</li><li>Um novo plano com opções de qualificação anexadas foi adicionado</li></ul></br></br>O pessoal de RH deve executar o processamento da qualificação do evento de vida nessa instância. |
 | **Alteração de regra de qualificação (não específica dos EUA)** | Recursos humanos avançados > Benefícios > Regras/opções > Regras de qualificação | Usando o processamento de elegibilidade de eventos de vida. Registrado quando os registros **EhrBenefitEligibilityRule** têm os seguintes valores alterados: **UseEmplCategory**, **UseEmplStatus** ou **UseEmplType**. Atualiza somente as transações de evento de vida que já existem para uma regra alterada ou critérios de qualificação. |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

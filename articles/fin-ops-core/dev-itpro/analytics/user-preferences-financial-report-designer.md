@@ -1,6 +1,6 @@
 ---
-title: Preferências do usuário no designer de relatório financeiro
-description: Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos.
+title: Preferências do usuário no designer de relatórios financeiros
+description: Este tópico descreve como definir as preferências do usuário para personalizar as interações do usuário no designer de relatórios financeiros e controlar a experiência de entrada inicial.
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a7d7124da3d0e9596f364c17065c95610384a8ca
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 46a681b3a783b4f76946d2a972d73a11254ec56c
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687368"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093178"
 ---
-# <a name="user-preferences-in-financial-report-designer"></a>Preferências do usuário no designer de relatório financeiro
+# <a name="user-preferences-in-financial-report-designer"></a>Preferências do usuário no designer de relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
 
@@ -72,6 +72,3 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -1,7 +1,7 @@
 ---
 title: Conteúdo do Power BI real vs orçamento
-description: Este tópico descreve o Conteúdo do Power BI real versus orçamento. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
-author: ryansandness
+description: Este tópico descreve o Conteúdo do Power BI real versus orçamento. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados.
+author: panolte
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -12,15 +12,15 @@ ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: ryansand
+ms.author: panolte
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6a185da5055741ac30c7e237ef72d07084644651
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 908b96af5b3d67f265953648edd6aa7ec31556a4
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685263"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093839"
 ---
 # <a name="actual-vs-budget-power-bi-content"></a>Conteúdo do Power BI real vs orçamento
 
@@ -57,6 +57,3 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | Razões                   | Razões que podem ser usados para filtrar relatório para o razão atual              |
 | Códigos de orçamento              | Códigos de orçamento para filtrar relatórios                                                |
 | Entidades legais            | Entidades legais que podem ser usadas para filtrar relatório para a entidade legal atual |
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

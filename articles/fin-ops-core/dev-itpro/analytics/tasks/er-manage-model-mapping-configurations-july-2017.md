@@ -1,6 +1,6 @@
 ---
-title: Gerenciar o mapeamento do modelo de ER em configurações de ER separadas
-description: As etapas a seguir explicam como um usuário atribuído ao Administrador do sistema ou Desenvolvedor de relatório eletrônico pode gerenciar mapeamentos de modelo de Relatório eletrônico (RE) em configurações de ER separadas.
+title: Gerenciar o mapeamento do modelo ER em configurações ER separadas
+description: Este tópico descreve como gerenciar mapeamentos de modelo de relatório eletrônico (ER) em configurações de ER separadas.
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4e59e9f2dd5a0fa6d5955e3d93d25759a478ede7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 2f1013cfc9f421525fb0661cd5ace5eeaa157f9a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684418"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093789"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>Gerenciar o mapeamento do modelo de ER em configurações de ER separadas
 
@@ -161,6 +161,3 @@ Como as configurações de ER são compartilhadas entre empresas, você pode con
 7. Clique em OK.
     * A configuração de mapeamento de modelo padrão será usada por essa configuração de formato para gerar o documento eletrônico (a saída criada contêm o código da empresa).  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

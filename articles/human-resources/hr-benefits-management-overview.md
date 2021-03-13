@@ -2,7 +2,7 @@
 title: Visão geral do Gerenciamento de benefícios
 description: Visão geral do recurso de Gerenciamento de benefícios no Dynamics 365 Human Resources. Ofereça opções de benefícios estendidos aos seus funcionários com uma experiência online fácil de usar.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 09/17/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e2e8fcdd0b6124b459c4dc073e2929418d18bcc5
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 4ae4270f3185f8795753ecdb209515ecd6e86486
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417248"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111527"
 ---
 # <a name="benefits-management-overview"></a>Visão geral do Gerenciamento de benefícios
 
@@ -97,6 +97,3 @@ Esses artigos mostram como criar planos de benefícios, incluindo pacotes e prog
 - [Processar qualificação para eventos de vida](hr-benefits-process-life-event-eligibility.md)
 - [Processar alterações de taxa](hr-benefits-process-rate-changes.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

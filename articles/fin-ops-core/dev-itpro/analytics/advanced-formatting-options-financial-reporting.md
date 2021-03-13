@@ -1,7 +1,7 @@
 ---
 title: Opções avançadas de formatação no relatório financeiro
-description: Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos.
-author: ryansandness
+description: Este tópico descreve as funções de formatação avançadas, incluindo filtros, restrições, linhas não imprimíveis e instruções condicionais em cálculos.
+author: panolte
 manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3508099dfa3c6671da8dddc9061f737a97e825ce
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4683154"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093153"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
@@ -310,6 +310,3 @@ Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados d
 É possível criar relatórios usando valores de dimensão que contenham um E comercial (&).
 
 Em qualquer campo **Link para Dimensões Financeiras**, você poderá inserir um valor como **'P&L'**. A inclusão de aspas simples ('') em ambos os lados do valor da dimensão indica que você está usando o valor literal, como incluir o caractere E comercial (&).
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

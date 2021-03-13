@@ -2,7 +2,7 @@
 title: Criar um plano de benefícios
 description: Configure planos de benefícios no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bcbf4c1a7f136e5563bf1210b6c09228dad95dea
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 05d08862b880271fb4842bd7e77f04208f9c0bed
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417238"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111514"
 ---
 # <a name="create-a-benefits-plan"></a>Criar um plano de benefícios
 
@@ -159,6 +159,3 @@ Você pode fornecer uma descrição do plano para ajudar os funcionários com su
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Planos** , selecione **Planos de benefícios**.
 
 2. Selecione **Programas de crédito flexível**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

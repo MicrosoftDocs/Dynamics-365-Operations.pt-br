@@ -1,9 +1,9 @@
 ---
 title: Recursos de grade
-description: Este tópico descreve vários recursos avançados do controle de grade. O novo recurso de grade deve estar habilitado para ter acesso a esses recursos.
+description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
 manager: AnnBe
-ms.date: 11/17/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: fb30cdded33f90bb472c8abdb70875077b1dd985
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: f8ec45208ea86f4b1782eaeb1d14bb414e3b577f
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4693765"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104300"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-O novo controle de grade fornece vários recursos úteis e eficientes que podem ser usados para melhorar a produtividade do usuário, construir exibições mais interessantes dos dados e obter insights significativos sobre seus dados. Este artigo abordará os seguintes recursos: 
+O novo controle de grade fornece vários recursos úteis e eficientes que você pode usar para melhorar a produtividade do usuário, construir exibições mais interessantes dos dados e obter insights significativos sobre seus dados. Este artigo abordará os seguintes recursos: 
 
 -  Calculando totais
 -  Digitação à frente do sistema
 -  Avaliação de expressões matemáticas 
 -  Agrupando de dados tabulares (habilitados separadamente usando o recurso **Agrupamento (versão prévia) em grades**)
--  Colunas de sistema fixadas
+-  Congelar colunas
 
 ## <a name="calculating-totals"></a>Calculando totais
 Nos aplicativos do Finance and Operations, os usuários podem ver os totais na parte inferior das colunas numéricas em grades. Esses totais são mostrados em uma seção de rodapé na parte inferior da grade. 
@@ -45,10 +45,10 @@ Existe uma área de rodapé na parte inferior de cada grade tabular nos aplicati
 - Totais gerais na parte inferior das colunas numéricas configuradas
 - O número de linhas no conjunto de dados 
 
-Esse rodapé é ocultado por padrão, mas pode ser facilmente ativado. Para mostrar o rodapé de uma grade, clique com o botão direito do mouse em um cabeçalho de coluna na grade e selecione a opção **Mostrar rodapé**. Depois que o rodapé tiver sido ativado para uma determinada grade, essa configuração será lembrada até que o usuário opte por ocultar o rodapé, o que pode ser feito clicando com o botão direito do mouse em um cabeçalho de coluna e selecionando **Ocultar rodapé**.  Observe que o posicionamento da ação **Mostrar rodapé/Ocultar rodapé** deve ser realocado em uma atualização futura. 
+Esse rodapé é ocultado por padrão, mas pode ser ativado. Para mostrar o rodapé de uma grade, clique com o botão direito do mouse em um cabeçalho de coluna na grade e selecione a opção **Mostrar rodapé**. Depois de ativar o rodapé de uma determinada grade, essa configuração será lembrada até que o usuário oculte o rodapé. Para ocultar o rodapé, clique com o botão direito do mouse em um cabeçalho de coluna e selecione **Ocultar rodapé**.  (O posicionamento da ação **Mostrar rodapé/Ocultar rodapé** pode mudar em uma atualização futura. 
 
 ### <a name="specifying-columns-with-totals"></a>Especificando colunas com totais
-No momento, nenhuma coluna será configurada para mostrar os totais por padrão. Pelo contrário, essa atividade é considerada de configuração única, semelhante ao ajuste das larguras das colunas em grades. Após especificação de que deseja ver os totais de uma coluna, essa configuração será lembrada na próxima vez que você visitar a página.  
+No momento, nenhuma coluna mostra os totais por padrão. Pelo contrário, essa atividade é considerada de configuração única, semelhante ao ajuste das larguras das colunas em grades. Após especificação de que deseja ver os totais de uma coluna, essa configuração será lembrada na próxima vez que você visitar a página.  
 
 Há duas maneiras de configurar uma coluna para mostrar um total: 
 
@@ -122,8 +122,14 @@ Da mesma forma que você pode selecionar (ou cancelar) todas as linhas na grade,
 ### <a name="hiding-column-names"></a>Ocultar nomes de coluna
 Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha de cabeçalho do grupo. A partir da versão 10.0.14/Platform update 38, você pode optar por suprimir o nome da coluna nas linhas do cabeçalho de grupo, selecionando **Opções de grade** > **Ocultar nome da coluna do grupo**.
 
-## <a name="pinned-system-columns"></a>Colunas de sistema fixadas
-A coluna de seleção de linha e a coluna de status de linha na nova grade são fixadas, ou congeladas, na parte mais à esquerda da grade. Portanto, quando essas colunas são incluídas em uma grade, elas sempre estarão visíveis para o usuário, independentemente da posição de rolagem horizontal na grade.   
+## <a name="freezing-columns"></a>Congelar colunas
+Algumas colunas em uma grade podem ser tão importantes para o contexto que você não quer que elas saiam de vista conforme a rolagem. Você quer que os valores dessas colunas fiquem sempre visíveis. Na versão 10.0.17, o recurso **Congelar colunas na grade** oferece essa flexibilidade aos usuários. 
+
+Para congelar uma coluna, clique com o botão direito do mouse no cabeçalho da coluna e selecione **Congelar coluna**. Na primeira vez que você concluir esta etapa, a coluna selecionada se tornará a primeira coluna e não sairá mais de vista. Qualquer coluna subsequente que você congelar será adicionada à direita da última coluna congelada. Você pode usar a funcionalidade de movimentação padrão para reordenar colunas congeladas conforme necessário. No entanto, as colunas congeladas não podem ser movidas de forma que apareçam entre o conjunto de colunas descongeladas. Além disso, as colunas congeladas não podem ser movidas de forma que apareçam entre o conjunto de colunas congeladas.
+
+Para descongelar uma coluna, clique com o botão direito do mouse no cabeçalho da coluna congelada e selecione **Descongelar coluna**. 
+
+Observe que a seleção de linha e as colunas de status de linha e status na nova grade ficam sempre congeladas como as duas primeiras colunas. Portanto, quando essas colunas são incluídas em uma grade, elas sempre estarão visíveis para os usuários, independentemente da posição de rolagem horizontal na grade. Essas duas colunas não podem ser reordenadas.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Como habilitar o novo controle de grade no meu ambiente? 
@@ -159,7 +165,7 @@ Esta API será honrada até o lançamento de outubro de 2021, quando o novo cont
 Se um desenvolvedor definir a propriedade **WidthMode** como **SizeToAvailable** para colunas dentro da nova grade, essas colunas terão inicialmente a mesma largura que teriam se a propriedade fosse definida como **SizeToContent**. No entanto, elas se estendem para usar qualquer largura extra disponível dentro da grade. Se a propriedade for definida como **SizeToAvailable** para várias colunas, todas essas colunas compartilham qualquer largura extra disponível dentro da grade. No entanto, se um usuário redimensionar manualmente uma dessas colunas, a coluna se torna estática. Ele permanecerá nessa largura e não será mais esticado para ocupar a largura de grade disponível extra.  
 
 ## <a name="known-issues"></a>Problemas conhecidos
-Esta seção mantém uma lista de problemas conhecidos do novo controle de grade enquanto o recurso está em um estado de visualização.  
+Esta seção mantém uma lista de problemas conhecidos para o novo controle de grade.  
 
 ### <a name="open-issues"></a>Questões em aberto
 -  Depois de habilitar o recurso **Novo controle de grade**, algumas páginas continuarão a usar o controle de grade existente. Isso acontecerá nas seguintes situações:  
@@ -170,20 +176,44 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
     Quando um usuário encontra primeiro uma dessas situações, uma mensagem será exibida sobre a atualização da página. Depois que esta mensagem for exibida, a página continuará a utilizar a grade existente para todos os usuários até a próxima atualização da versão do produto. Uma melhor manipulação desses cenários, de forma que a nova grade possa ser utilizada, será considerada para uma atualização futura.    
     
 -  [KB 4582758] Os registros ficam borrados quando você altera o zoom de 100 para qualquer outro percentual
-    
+-  [KB 4592012] Erro de cliente inesperado no IE11 ao colar várias linhas do Excel
+    -  A Microsoft não está buscando uma solução para esse problema
+
+### <a name="fixed-as-part-of-10016"></a>Corrigido como parte do 10.0.16
+
+-  [KB 4598335] Os controles de cadeia de caracteres de várias linhas não respeitam sua DisplayHeights em listas/placas 
+-  [KB 4591891] As linhas de proposta de fatura desaparecem ao desmarcar linhas
+-  [KB 4592104] Não é possível editar registros após clicar em "Corrigir problema" e mover para uma linha diferente sem corrigir o problema de validação
+-  [KB 4594449] Botões "Nunca" e "Limpar" estão faltando no seletor de data 
+-  [KB 4594448] A inserção da hora é tratada de forma diferente com a nova grade
+-  [KB 4600059] Erro de cliente inesperado com limitação de email
+-  [KB 4574584] A visualização do anexo de despesa não fica disponível ao passar o mouse sobre o ícone de recibo
+
 ### <a name="fixed-as-part-of-10015"></a>Corrigido como parte do 10.0.15    
 
+-  (Atualização de qualidade) [KB 4594444] Erro de cliente inesperado com versão prévia para controle de entrada segmentada
 -  [KB 4582723] Opções de exibição que não aparecem quando executadas posteriormente no ciclo de vida do formulário
+-  [KB 4591988] Problemas ao usar o teclado para selecionar um valor de uma pesquisa de ReferenceGroup
+-  [KB 4588958] O teste Regression Suite Automation Tool (RSAT) o falha e exibe o erro: TypeError: não é possível ler a propriedade "texto" de indefinido
+-  [KB 4591970] Erro de cliente inesperado após colar do Excel imediatamente após clicar na grade
+-  [KB 4591904] As alterações de dados não são salvas se, após a edição de um controle, o usuário clicou imediatamente e abriu a pesquisa de um controle diferente
+-  [KB 4584752] Erro de cliente inesperado na página Propostas de fatura de projeto
+-  [KB 4584540] Não é possível sair da grade depois de colar uma única linha em uma linha do diário
+-  [KB 4591908] Ao criar uma nova linha, o foco permanece na coluna em que você estava
 
 ### <a name="fixed-as-part-of-10014"></a>Corrigido como parte do 10.0.14
 
 -  (Atualização de qualidade) [KB 4584752] Erro de cliente inesperado na página Propostas de fatura de projeto
+-  [KB 4583880] Os testes Regression Suite Automation Tool (RSAT) falham na ação OpenLookup com "Não é possível ler a propriedade RowIndex de indefinido"
+-  [KB 4583847] Erro de cliente inesperado ao navegar pelas pesquisas
 
 ### <a name="fixed-as-part-of-10013"></a>Corrigido como parte do 10.0.13
 
+-  (Atualização de qualidade) [KB 4584752] Erro de cliente inesperado na página Propostas de fatura de projeto
 -  (Atualização de qualidade) [KB 4583880] Os testes da Regression Suite Automation Tool (RSAT) falham na ação OpenLookup com "Não é possível ler a propriedade RowIndex de indefinido"
 -  (Atualização de qualidade) [KB 4583847] Erro de cliente inesperado ao navegar pelas pesquisas 
 -  (Atualização de qualidade) [Bug 471777] Não é possível selecionar campos em uma grade para editar ou criar um aplicativo móvel
+-  [KB 4582727] Congelamento de grade depois que o usuário recebe uma caixa de diálogo para itens com várias quantidades
 -  [Bug 474851] Hiperlinks nos controles do grupo de referência não funcionam 
 -  [Bug 474848] Visualizações aperfeiçoadas com grades não são exibidas
 -  [KB 4582726] A propriedade RotateSign não está sendo respeitada  
@@ -263,6 +293,3 @@ Esta seção mantém uma lista de problemas conhecidos do novo controle de grade
 ### <a name="quality-update-for-1009platform-update-33"></a>Atualização de qualidade para 10.0.9/Platform update 33
 
 - [KB 4550367] Os valores de tempo não estão formatados corretamente.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

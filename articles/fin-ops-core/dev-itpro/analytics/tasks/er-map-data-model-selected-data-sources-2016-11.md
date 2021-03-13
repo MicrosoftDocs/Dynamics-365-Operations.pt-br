@@ -1,6 +1,6 @@
 ---
 title: ER Mapear modelo de dados para fontes de dados selecionadas
-description: As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode mapear um modelo de dados de relatório eletrônico (ER) para fontes de dados selecionadas do Microsoft Dynamics 365 Finance.
+description: Este tópico descreve como mapear um modelo de dados de relatório eletrônico (ER) para as fontes de dados selecionadas do Microsoft Dynamics 365 Finance.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d2d09370b0e08897799d40c41c20c21b58e885dc
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3e2ba94c9ec3ecc33f0c697d9f18f763749e4ba1
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4684298"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093739"
 ---
 # <a name="er-map-data-model-to-selected-data-sources"></a>ER Mapear modelo de dados para fontes de dados selecionadas
 
@@ -146,6 +146,3 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 5. Selecione a versão concluída da configuração atual.
     * Observe que a configuração criada será salva como versão 1 concluída.  
 
-
-
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

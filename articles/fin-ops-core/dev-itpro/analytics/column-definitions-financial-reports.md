@@ -1,6 +1,6 @@
 ---
 title: Definições de coluna nos relatórios financeiros
-description: Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios.
+description: Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, que define o conteúdo das colunas em um relatório.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2019
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 611e5cdfd2289bb2c690a72659e9ba47d6309cfe
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 820604fac96f5c86be3f7206ca88b3eb1fc6c32a
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687221"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093100"
 ---
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
@@ -226,17 +226,16 @@ Um usuário está criando um relatório para uma previsão de seis meses dinâmi
 | Largura da coluna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Controle de Impressão       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
-O usuário clica duas vezes no cabeçalho de uma coluna para abrir a caixa de diálogo **Cabeçalho de Coluna** e insere as seguintes informações.
+O usuário clica duas vezes em uma célula do cabeçalho da coluna B para abrir a caixa de diálogo **Cabeçalho de Coluna** e insere as seguintes informações.
 
 | Campo              | Alíquota                 |
 |--------------------|-----------------------|
 | Texto de cabeçalho da coluna | Real                |
 | Inserir AutoTexto    | Nenhuma seleção feita. |
 | Opções de formato     | Caixa                   |
-| Justificação      | Nenhuma seleção feita. |
+| Justificativa      | Nenhuma seleção feita. |
 | Difundir de        | E                     |
 | Difundir para          | BASE                  |
-| Cabeçalho de orçamento      | BASE+1 até a coluna final  |
 
 Depois de inserir as informações, o usuário clica em **OK**. O usuário clica duas vezes na célula do cabeçalho da coluna C para abrir a caixa de diálogo **Cabeçalho de Coluna** e insere as seguintes informações.
 
@@ -245,9 +244,9 @@ Depois de inserir as informações, o usuário clica em **OK**. O usuário clica
 | Texto de cabeçalho da coluna | Orçamento                |
 | Inserir AutoTexto    | Nenhuma seleção feita. |
 | Opções de formato     | Caixa                   |
-| Justificação      | Nenhuma seleção feita. |
-| Difundir de        | C                     |
-| Difundir para          | BASE+2                |
+| Justificativa      | Nenhuma seleção feita. |
+| Difundir de        | BASE+1                |
+| Difundir para          | S                     |
 
 Agora, toda vez que esse relatório é gerado, a palavra "Real" será impressa nas colunas que contiverem dados reais, e a palavra "Orçamento" será impressa nas colunas que contiverem previsões de orçamento. Além disso, o número das colunas será ajustado cada mês.
 
@@ -599,6 +598,3 @@ Você pode dividir o valor em uma coluna por um número especificado de período
 [Definições de linha no designer de relatório financeiro](row-definitions-financial-reporting.md)
 
 [Opções avançadas de formatação no relatório financeiro](advanced-formatting-options-financial-reporting.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

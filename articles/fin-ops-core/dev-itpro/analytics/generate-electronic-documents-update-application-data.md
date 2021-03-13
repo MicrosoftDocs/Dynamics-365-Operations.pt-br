@@ -1,6 +1,6 @@
 ---
 title: Gerar documentos eletrônicos e atualizar dados de aplicativos usando ER
-description: Você pode criar os formatos de Relatório eletrônico (ER) que podem ser usados no aplicativo para gerar documentos eletrônicos de saída. Você também pode criar os formatos de ER que analisam documentos eletrônicos de entrada e usam o conteúdo desses documentos para atualizar dados de aplicativo.
+description: Você pode criar os formatos de Relatório eletrônico (ER) que podem ser usados no aplicativo para gerar documentos eletrônicos de saída.
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b9e17d67c437d384ab941d28b8d5ce2b0e3738f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 4ae3405a882ac37fd9758d8ff0902896562fa06b
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4688370"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5093864"
 ---
-# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Gerar documentos eletrônicos e atualizar dados de aplicativos usando ER
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Gerar documentos eletrônicos e atualizar dados do aplicativo usando ER
 
 [!include [banner](../includes/banner.md)]
 
@@ -40,6 +40,3 @@ Para saber mais sobre este recurso, execute o conjunto de Guias de tarefas do ER
 - [Configuração de modelo de dados de ER: Intrastat (modelo)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuração de mapeamento de modelo de ER: Intrastat (mapeamento)](https://go.microsoft.com/fwlink/?linkid=849038)
 - [Configuração de formato de ER: Intrastat (formato)](https://go.microsoft.com/fwlink/?linkid=849038)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

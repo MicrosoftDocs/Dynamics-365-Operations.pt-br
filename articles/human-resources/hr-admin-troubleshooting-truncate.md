@@ -2,7 +2,7 @@
 title: Evitar o truncamento de texto na hierarquia de posições e exportar para o Visio
 description: Este artigo explica como resolver um problema em que os nomes de pessoas e cargos estão truncados quando os clientes exibem a hierarquia de cargos no Microsoft Dynamics 365 Human Resources. Texto truncado pode tornar difícil realizar um screenshot ou imprimir a hierarquia.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 02fb0098cc6f5a0b353e827653b1c8c96af2470c
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 0dc91d3165f14c165f75756dc63a3dc8f63149aa
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417290"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111474"
 ---
 # <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evite texto truncado na hierarquia de posição e exporte para Visio
 
@@ -104,6 +104,3 @@ Com base nos campos que você selecionou para incluir no diagrama, cada nó most
 **Opção adicional**
 
 No Human Resources, você também pode usar o espaço de trabalho **Pessoas** para exibir algumas informações relativas à hierarquia.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

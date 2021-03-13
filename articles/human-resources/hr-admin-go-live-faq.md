@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cbf00f7428c9b1852a5bf54fd7e30a3bddc1a31e
-ms.sourcegitcommit: 0e60df840688932795b9c8f8fd45d98f5ab6ba8c
+ms.openlocfilehash: c5041d515b261bb3e4b14885e0ec0ce788edf729
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/03/2020
-ms.locfileid: "4668936"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111467"
 ---
 # <a name="go-live-faq"></a>​Perguntas frequentes sobre ativação​ 
 
@@ -66,7 +66,7 @@ Embora não seja possível acessar diretamente os recursos do Azure ou o ambient
 
 - Você pode implantar um banco de dados SQL do Azure no seu próprio locatário do Azure e usar o recurso BYOD (Trazer Seu Próprio Banco de Dados) para sincronizar dados. Para obter mais informações, consulte [Trazer seu próprio banco de dados (BYOD)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/export-entities-to-your-own-database).
 
-- Você pode usar a integração do Common Data Service para sincronizar as entidades selecionadas no banco de dados do Common Data Service. Para obter mais informações, consulte [Entidades do Common Data Service](hr-developer-entities.md). 
+- Você pode usar a integração do Dataverse para sincronizar as entidades selecionadas no banco de dados do Dataverse. Para obter mais informações, consulte [Tabelas do Dataverse](hr-developer-entities.md). 
 
 ## <a name="how-often-is-my-production-database-backed-up"></a>Com que frequência é feito o backup do meu banco de dados de produção? 
 
@@ -99,6 +99,3 @@ Para relatar uma interrupção de Produção, siga o processo descrito em  [In
  ## <a name="see-also"></a>Consulte também
 
  [Preparar para a ativação](hr-admin-go-live-prepare.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

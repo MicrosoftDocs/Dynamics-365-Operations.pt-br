@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9a35abcb8a2f6aa8031c8d84a44c2a8ad93883ac
-ms.sourcegitcommit: 0354ca7e566fbd2eb0aabdd40000d4ac5c44ea78
+ms.openlocfilehash: f615584785ba48a140e4e97991a4594047fea8ee
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "4669153"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111409"
 ---
 # <a name="recruit-job-candidates"></a>Recrutar candidatos ao trabalho
 
@@ -38,7 +38,7 @@ O Dynamics 365 Human Resources ajuda a gerenciar solicitações de recrutamento.
 Se não estiver usando um aplicativo de recrutamento separado, você também poderá gerenciar candidatos manualmente no Human Resources.
 
 >[!NOTE]
->Se você for um administrador ou desenvolvedor e quiser integrar o Human Resources com um aplicativo de recrutamento de terceiros, consulte [Configurar integração do Common Data Service](hr-admin-integration-common-data-service.md) e [Configurar entidades virtuais do Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)
+>Se você for um administrador ou desenvolvedor e quiser integrar o Human Resources com um aplicativo de recrutamento de terceiros, consulte [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md) e [Configurar tabelas virtuais do Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)
 >
 > Também é possível encontrar aplicativos de integração de recrutamento no [AppSource](https://appsource.microsoft.com/marketplace/apps?search=recruiting%20dynamics).
 >
@@ -46,15 +46,13 @@ Se não estiver usando um aplicativo de recrutamento separado, você também pod
 
 ## <a name="enable-recruiting-requests"></a>Habilitar solicitações de recrutamento
 
-Se você deseja enviar solicitações de recrutamento no Human Resources, primeiro habilite a funcionalidade em **Parâmetros de recursos humanos**.
+Se você deseja enviar solicitações de recrutamento no Human Resources, primeiro habilite a funcionalidade em **Parâmetros compartilhados de recursos humanos**.
 
 1. No espaço de trabalho **Gerenciamento de pessoal**, selecione **Links**.
 
-2. Em **Configuração**, selecione **Parâmetros de recursos humanos**.
+2. Em **Configuração**, selecione **Parâmetros compartilhados de recursos humanos**.
 
-3. Na guia **Geral**, em **RECRUTAMENTO**, defina **Habilitar solicitações de recrutamento** como **Sim**.
-
-   ![Habilitar solicitações de recrutamento](./media/hr-recruit-0-enable-requests.png)
+3. Na guia **Recrutamento**, em **RECRUTAMENTO**, defina **Habilitar solicitações de recrutamento** como **Sim**.
 
 ## <a name="add-a-recruiting-request-location"></a>Adicionar um local de solicitação de recrutamento
 
@@ -220,12 +218,10 @@ Se necessário, você poderá ignorar um candidato após contratá-lo. Por exemp
 
 - No formulário do candidato, selecione **Ignorar candidato**.
 
-  ![Ignorar candidato](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Ignorar o candidato](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Consulte também
 
-[Configurar entidades virtuais do Common Data Service](hr-admin-integration-common-data-service-virtual-entities.md)<br>
+[Configurar tabelas virtuais do Dataverse](hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [Organizar sua força de trabalho](hr-personnel-departments-jobs-positions.md)<br>
 [Configurar os componentes de um trabalho](hr-personnel-jobs.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -1,9 +1,9 @@
 ---
 title: Destinos de Relatório eletrônico (ER)
-description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico (ER), os tipos de destinos com suporte e considerações de segurança.
+description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico, os tipos de destinos com suporte e considerações de segurança.
 author: nselin
 manager: AnnBe
-ms.date: 04/27/2020
+ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: e4da9e09fe9e2c76426a117b6c4d83f5bc33851f
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 725ded9d777a65e5a38a7971c1da8cb74cf0dd47
+ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687149"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "5097272"
 ---
-# <a name="electronic-reporting-er-destinations"></a>Destinos de relatório eletrônico (ER)
+# <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -62,7 +62,7 @@ Na caixa de diálogo **Relatório Intrastat**, na Guia Rápida **Executar o plan
 Se você definir a opção de **Processamento em lotes** como **Sim**, um formato ER será executado no modo de [Lotes](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/batch-processing-overview). O trabalho em lotes apropriado é criado com base nos parâmetros especificados na guia **Executar no plano de fundo** da caixa de diálogo **Parâmetros de ER**.
 
 > [!NOTE]
-> A descrição do trabalho é iniciada para informá-lo sobre a execução de um mapeamento de formato ER. Também contém o nome do componente ER executado.
+> A descrição do trabalho informa você sobre a execução de um mapeamento de formato ER. Também contém o nome do componente ER que é executado.
 
 [![Executando um formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
@@ -95,6 +95,8 @@ Em versões do Finance **antes da versão 10.0.9**, você pode criar **um destin
 Por exemplo, você pode usar esse recurso para configurar destinos de arquivo para um componente de arquivo usado para gerar um documento de saída no formato Excel. Um destino ([Arquivo](er-destination-type-archive.md)) pode ser configurado para armazenar o arquivo do Excel original no arquivo de trabalhos de ER, e outro destino ([Email](er-destination-type-email.md)) pode ser configurado para simultaneamente [converter](#OutputConversionToPDF) o arquivo do Excel em formato PDF e enviar o arquivo PDF por email.
 
 [![Configurando vários destinos para um único elemento de formato](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+
+Quando você executa um formato de ER, todos os destinos que foram configurados para componentes do formato são sempre executados. Além disso, no Finance **versão 10.0.17 e posterior**, a funcionalidade de destinos de ER foi aperfeiçoada e agora permite que você configure conjuntos diferentes de destinos para um único formato de ER. Essa configuração marca cada conjunto como configurado para uma ação de usuário específica. A API de ER foi [estendida](er-apis-app10-0-17.md) para que seja possível fornecer uma ação que o usuário realiza executando um formato de ER. O código de ação fornecido é passado para destinos de ER. Você pode executar diferentes destinos de um formato de ER, dependendo do código de ação fornecido. Para obter mais informações, consulte [Configurar destinos de ER dependentes da ação](er-action-dependent-destinations.md).
 
 ## <a name="destination-types"></a>Tipos de destino
 
@@ -164,21 +166,20 @@ Para disponibilizar a opção de conversão em PDF na instância atual do Financ
 
 ### <a name="applicability"></a>Aplicabilidade
 
-A opção de conversão em PDF pode ser ativada somente para componentes de arquivo usados para gerar saída em formato do Microsoft Office Excel ou do Word (**Arquivo do Excel**). Quando esta opção está ativada, a saída gerada no formato do Office é convertida automaticamente para o formato PDF.
+A opção de conversão em PDF pode ser ativada somente para componentes de arquivo usados para gerar saída em formato do Office (Excel ou Word) (**arquivo do Excel**). Quando esta opção está ativada, a saída gerada no formato do Office é convertida automaticamente para o formato PDF.
 
 ### <a name="limitations"></a>Limitações
 
 > [!NOTE]
 > Esse recurso está em versão prévia e está sujeito aos termos de uso que são descritos em [Termos de Uso Complementares para Versões Prévias do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-> [!NOTE]
-> A opção de conversão em PDF só está disponível para implantações em nuvem.
->
-> O PDF produzido pode ter um número máximo de 300 páginas.
->
-> Na versão 10.0.9 do Microsoft Dynamics 365 Finance (abril de 2020), apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel. Com o lançamento da versão 10.0.10 do Dynamics 365 Finance (maio de 2020), você pode [especificar orientação de página](#SelectPdfPageOrientation) no documento PDF produzido a partir de um Excel enquanto você configura um destino de ER.
->
-> Somente as fontes de sistema comuns do sistema operacional Windows são usadas para a conversão de uma saída que não contém fontes incorporadas.
+A opção de conversão em PDF só está disponível para implantações em nuvem.
+
+O documento PDF produzido pode ter um número máximo de 300 páginas.
+
+No Finance **versão 10.0.9**, apenas a orientação de página paisagem tem suporte no documento PDF produzido de uma saída do Excel. No Finance **versão 10.0.10 (maio de 2020) e posterior**, você pode [especificar orientação de página](#SelectPdfPageOrientation) do documento PDF produzido a partir de um Excel enquanto você configura um destino de ER.
+
+Somente as fontes de sistema comuns do sistema operacional Windows são usadas para converter uma saída que não contém fontes incorporadas.
 
 ### <a name="use-the-pdf-conversion-option"></a>Usar a opção de conversão em PDF
 
@@ -188,16 +189,16 @@ Para ativar a conversão em PDF para um destino de arquivo, marque a caixa de se
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Selecione uma orientação de página para conversão em PDF</a>
 
-Se você gerar uma configuração ER no formato Excel e quiser convertê-la em formato PDF, poderá especificar a orientação de página do PDF. Quando você marca a caixa de seleção **Converter para PDF** para ativar a conversão em PDF para um arquivo de destino que produz um arquivo de saída no formato Excel, o campo **Orientação da página** fica disponível na página **Configurações de conversão para PDF**. No campo **Orientação da página**, você pode selecionar a orientação de sua preferência.
+Se você gerar uma configuração ER no formato Excel e quiser convertê-la em formato PDF, poderá especificar a orientação de página do documento PDF. Quando você marca a caixa de seleção **Converter para PDF** para ativar a conversão em PDF para um arquivo de destino que produz um arquivo de saída no formato Excel, o campo **Orientação da página** fica disponível na página **Configurações de conversão para PDF**. No campo **Orientação da página**, você pode selecionar a orientação de sua preferência.
 
 [![Selecionando uma orientação de página para conversão em PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
-> Para ter a opção de selecionar a orientação da página PDF, você deve instalar o Microsoft Dynamics 365 Finance versão 10.0.10 (maio de 2020) ou posterior.
+> Para ter a opção de selecionar a orientação da página PDF, você deve instalar o Finance versão 10.0.10 ou posterior.
 >
 > A orientação de página selecionada é aplicada a todas as configurações ER geradas no formato Excel e, em seguida, convertidas para o formato PDF.
 >
-> Se um PDF convertido for criado de uma configuração ER no formato Word, a orientação de página do PDF será retirada do documento do Word.
+> Se uma uma configuração ER no formato Word for convertida para o formato PDF, a orientação de página do documento PDF será baseada do documento do Word.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 
@@ -225,7 +226,7 @@ Nº É utilizado o armazenamento de Blob padrão do Microsoft Azure que é defin
 
 ### <a name="what-is-the-purpose-of-the-file-destination-in-the-destination-settings-what-does-that-setting-do"></a>Qual é a finalidade do destino do arquivo nas configurações de destino? O que faz essa configuração?
 
-O destino **Arquivo** é usado para controlar uma caixa de diálogo. Se você habilitar esse destino, ou se nenhum destino for definido para uma configuração, será exibida uma caixa de diálogo para abrir ou salvar após a criação de um arquivo de saída.
+O destino do **Arquivo** é usado para controlar uma caixa de diálogo do navegador da Web quando você executa um formato de ER no modo interativo. Se você habilitar esse destino, ou se nenhum destino for definido para uma configuração, será exibida no seu navegador uma caixa de diálogo para abrir ou salvar após a criação de um arquivo de saída.
 
 ### <a name="can-you-give-an-example-of-the-formula-that-refers-to-a-vendor-account-that-i-can-send-email-to"></a>Pode dar um exemplo de fórmula que se refere a uma conta de fornecedor que eu possa enviar e-mail para?
 
@@ -239,5 +240,4 @@ O formato deve estar disponível primeiro nas configurações de ER. Se esse pr�
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+[Configurar destinos de ER dependentes da ação](er-action-dependent-destinations.md)

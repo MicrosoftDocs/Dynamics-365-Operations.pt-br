@@ -2,7 +2,7 @@
 title: Opções de relatório
 description: Este artigo explica como resolver o problema em que um cliente deseja personalizar relatórios do Microsoft Dynamics 365 Human Resources ou criar novos relatórios.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 51d84df5c3c29510e2742148b8c260a2cf402639
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527708"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111456"
 ---
 # <a name="reporting-options"></a>Opções de relatório
 
@@ -42,13 +42,10 @@ O usuário não pode personalizar os relatórios do Microsoft Power BI integrado
 
 **Solução**
 
-- Os dados do Human Resources que fluem para o Common Data Service podem ser relatados por meio do conector Power Apps Common Data Service para o Power BI Desktop. Observe que o Common Data Service contém um subconjunto de dados do Human Resources. Para obter mais informações sobre o Power BI e os painéis, consulte [Criar relatórios e painéis do Power BI com o Common Data Service do Power Apps](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
+- Os dados do Human Resources que fluem para o Dataverse podem ser relatados por meio do conector Power Apps Dataverse para o Power BI Desktop. Observe que o Dataverse contém um subconjunto de dados do Human Resources. Para obter mais informações sobre o Power BI e os painéis, consulte [Criar relatórios e painéis do Power BI com o Common Data Service do Power Apps](https://powerapps.microsoft.com/blog/cdsconnectortopowerbi).
 - O relatório eletrônico (ER) está disponível para alguns relatórios no Human Resources. Personalizações voltadas para clientes podem ser realizadas por meio de opções de configuração ER.
 - Os dados podem ser exportados para o Microsoft Excel ou o Microsoft Word usando as diversas entidades de dados que o Human Resources fornece por meio da integração do Microsoft Office.
 
 **Solução de longo prazo**
 
-Opções adicionais do Power BI estarão disponíveis e mais dados e entidades farão parte do Common Data Service.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Opções adicionais do Power BI estarão disponíveis e mais dados e entidades farão parte do Dataverse.

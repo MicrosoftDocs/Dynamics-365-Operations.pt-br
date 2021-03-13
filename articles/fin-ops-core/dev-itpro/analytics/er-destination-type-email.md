@@ -1,6 +1,6 @@
 ---
 title: Tipo de destino de ER do email
-description: Este tópico explica como configurar um destino de email para cada componente de PASTA ou ARQUIVO de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída.
+description: Este tópico explica como configurar um destino de email para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 12/03/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: c6242ecb44a206aacc0e1b1b3c4f588eadd18882
-ms.sourcegitcommit: 53174ed4e7cc4e1ba07cdfc39207e7296ef87c1f
+ms.openlocfilehash: e2e0da1c724269e0956be2f402b34ff376ed1990
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4690117"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094095"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -65,8 +65,6 @@ Se você selecionar **Email de gerenciamento de impressão** como o tipo de ende
 - No campo **Origem de email**, selecione **Nenhum**.
 - No campo **Endereços de email adicionais, separados por ";"**, insira os endereços de email fixos.
 
-![Configurar um endereço de email fixo](./media/er_destinations-emailfixedaddress.png)
-
 Uma alternativa é obter os endereços de email a partir dos detalhes do contato do grupo para as quais você quer gerar um documento de saída. Para usar os endereços de e-mail não fixos, no campo **Origem de mail** selecione a [função](../../fin-ops/organization-administration/overview-global-address-book.md#party-roles) do grupo para um destino de arquivo. As seguintes funções são suportadas:
 
 - Cliente
@@ -92,8 +90,6 @@ Na página **Designer de fórmulas**, no campo **Fórmula**, insira uma referên
 
 Se os números de conta da função configurada forem exclusivos para a instância inteira do Microsoft Dynamics 365 Finance, o campo **Empresa de origem de email** na caixa de diálogo **Email para** poderá permanecer em branco.
 
-![Empresa em branco do campo de origem de email](./media/er_destinations-emaildefineaddresssourceformula.png)
-
 Como alternativa, você pode ter uma situação em que diferentes partes do [Catálogo de endereços global](../../fin-ops/organization-administration/overview-global-address-book.md) tenham sido registradas em diferentes ([entidades legais](../../fin-ops/organization-administration/organizations-organizational-hierarchies.md#legal-entities) de empresas) de tal forma que todas usem o mesmo número de conta para preencher a função configurada. Nesse caso, os números de conta para a função configurada não são exclusivos para toda a instância financeira. Portanto, para selecionar explicitamente um participante, você não pode especificar somente um número de conta. Você também deve especificar a empresa da qual o participante foi registrado no escopo para preencher a função configurada. Selecione o botão **Vincular** (símbolo de corrente) ao lado do campo **Conta de origem de email** na caixa de diálogo **Email para** para abrir a página [Designer de fórmulas](general-electronic-reporting-formula-designer.md). Em seguida, você pode usar esta página para configurar uma fórmula que retorne, no tempo de execução, o código da empresa da qual a origem desejada deve ser encontrada no escopo.
 
 > [!TIP]
@@ -109,8 +105,6 @@ Para especificar o tipo de endereço de email que deve ser usado no tempo de exe
 
 > [!NOTE]
 > Se as finalidades forem selecionadas no campo **Finalidade** e a opção **Contato principal** estiver definida como **Sim** ao mesmo tempo, todos os emails que satisfaçam pelo menos um critério configurado será usado no tempo de execução.
-
-![Configurar uma conta de atributos de origem de email](./media/er_destinations-emaildefineaddresssourceattributes.png)
 
 ### <a name="configuration-email"></a>Email de configuração
 
@@ -145,6 +139,3 @@ A ilustração a seguir mostra o processo, conforme descrito neste tópico, agru
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 - [Designer de fórmulas no relatório eletrônico (ER)](general-electronic-reporting-formula-designer.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

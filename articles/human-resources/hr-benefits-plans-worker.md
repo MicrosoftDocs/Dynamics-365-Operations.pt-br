@@ -2,7 +2,7 @@
 title: Criar planos de benefícios do trabalhador
 description: É possível criar planos de benefícios do trabalhador no Microsoft Dynamics 365 Human Resources para selecionar planos de benefícios para funcionários e confirmar seleções de planos de benefícios.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ebd19cba8dd7cac8ccf6d17d4206731be87a225
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 2083d3b18621ec7759b658b5ec34f2371c2ea1df
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417235"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111524"
 ---
 # <a name="create-worker-benefit-plans"></a>Criar planos de benefícios do trabalhador
 
@@ -49,6 +49,3 @@ ms.locfileid: "4417235"
    | Planos | A guia rápida Planos contém os planos que atendem aos critérios de filtro especificados. As opções de configuração relevantes definidas pela equipe de RH e as seleções de inscrição escolhidas pelos funcionários estão incluídas em cada linha. O campo Qualificado especifica se há um conflito de validação com a seleção do plano. |
 
 4. Selecione **Salvar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

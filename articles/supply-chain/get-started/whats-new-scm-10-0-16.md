@@ -1,5 +1,5 @@
 ---
-title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.16 (fevereiro de 2021)
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.16 (Fevereiro de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
 manager: annbe
@@ -10,26 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 963979c9d24c275f77347ec5d682f318db18f915
-ms.sourcegitcommit: be4b9d557511bbb43e71a93f2c3b23b5f1a4669d
+ms.openlocfilehash: 1ffd98a94b9ed3201be3c4530b8fba7e2820c268
+ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4626793"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104980"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10016-february-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.16 (fevereiro de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.16 (Fevereiro de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista os recursos novos ou alterados na versão preliminar da versão 10.0.16 do Microsoft Dynamics 365 Supply Chain Management. Esta versão tem um número de compilação de 10.0.689 e está disponível da seguinte maneira:
+Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.16. Esta versão tem um número de compilação de 10.0.689 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** novembro de 2020
 - **Disponibilidade geral da versão (atualização automática):** janeiro de 2021
@@ -40,8 +38,11 @@ Este tópico lista os recursos novos ou alterados na versão preliminar da vers�
 Os seguintes recursos estão incluídos nesta versão. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis. Siga os links para o [plano de versão](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
 
 - [Interface de execução de chão de fábrica personalizável](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Para obter mais informações, consulte [Configurar um dispositivo para executar a interface de execução de piso de produção](../production-control/production-floor-execution-setup.md).
+
 - [Suplemento Visibilidade de Estoque para o Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Para obter mais informações, consulte [Suplemento Visibilidade de Estoque](../inventory/inventory-visibility.md)
+
 - [Validar placas de licença nas linhas do documento de origem](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Para obter mais informações, consulte [Visão geral de configuração de depósito](../warehousing/warehouse-configuration.md).
+
 - [Visualização da carga de trabalho de saída de gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/warehouse-management--workload-visualization)<br> - Para obter mais informações, consulte [Visualização da carga de trabalho de saída](../warehousing/outbound-workload-visualization.md)
 
 A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
@@ -88,7 +89,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.16 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.16 dos aplicativos do Finance and Operations (outubro de 2020)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.16 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.16 dos aplicativos do Finance and Operations (fevereiro de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-16.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -110,6 +111,3 @@ O tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Managem
 Antes que qualquer recurso seja removido do produto, o aviso de substituição será anunciado no tópico [Recursos removidos ou preteridos no Dynamics 365 Supply Chain Management](removed-deprecated-features-scm-updates.md) 12 meses antes da remoção.
 
 Para as últimas alterações que afetam somente o tempo de compilação, mas são compatíveis binárias com a área restrita e os ambientes de produção, o tempo de substituição será inferior a 12 meses. Normalmente, essas são atualizações funcionais que precisam ser feitas no compilador.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

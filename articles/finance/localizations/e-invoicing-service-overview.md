@@ -3,7 +3,7 @@ title: Visão geral do complemento de faturamento eletrônico
 description: Este tópico fornece informações sobre o complemento de faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 01/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ffd48e173b66cc6d2571e666d5452a5eff05176c
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: 2c35b810151349384f105d9ac1d93e1885031450
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440527"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104199"
 ---
 # <a name="electronic-invoicing-add-on-overview"></a>Visão geral do complemento de faturamento eletrônico
 
@@ -41,13 +40,13 @@ O complemento de faturamento eletrônico pode ajudá-lo a atingir as seguintes m
 - Configurações facilmente ajustáveis que não exigem alterações de código
 - Pacote de configuração simplificado
 - A exportação, a importação e a integração internas e a fácil extensibilidade no processamento de documentos de fatura eletrônica
-- Fácil reutilização das mesmas configurações de exportação, importação e integração entre as empresas
+- Fácil reutilização das mesmas configurações de exportação, importação e integração em empresas
 
 Para usar o complemento do faturamento eletrônico, você deve instalá-lo a partir do seu projeto no Microsoft Dynamics Lifecycle Services (LCS). Em seguida, siga o procedimento de configuração para ativar a integração com o Finance ou o Supply Chain Management. Para obter mais informações, consulte [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md).
 
-## <a name="availability"></a>Disponibilidade
+## <a name="service-availability"></a><a name="availability"></a>Disponibilidade do serviço
 
-Inicialmente, o complemento de faturamento eletrônico está disponível para clientes selecionados por meio de um programa de visualização. Posteriormente, a visualização será aberta para um grande número de clientes. Por fim, o serviço estará disponível no mercado. Como a funcionalidade que trata de requisitos específicos de país/região pode ser limitada a diferentes fases do lançamento, você sempre deve verificar a documentação mais atualizada que destaca a cobertura e o escopo das soluções específicas de país/região com suporte.
+No momento, o complemento de faturamento eletrônico está disponível para clientes por meio do programa de visualização e, na próxima fase, o serviço estará geralmente disponível. Como a funcionalidade que trata de requisitos específicos de país/região pode ser limitada a diferentes fases do lançamento, você sempre deve verificar a documentação mais atualizada que destaca a cobertura e o escopo das soluções específicas de país/região com suporte.
 
 O complemento de faturamento eletrônico é implantado nas seguintes regiões geográficas do Azure:
 
@@ -76,7 +75,7 @@ O complemento de faturamento eletrônico pode ser usado em cenários em que voc�
     - Integração interna, fácil de estender e configurável com conteúdo adicional para vários países
 
     > [!NOTE]
-    > No momento, há suporte a um número limitado de envios diretos. Para obter mais informações, consulte a seção [Disponibilidade](#availability), anteriormente neste tópico. O suporte será estendido no futuro.
+    > No momento, há suporte a um número limitado de envios diretos. Para obter mais informações, consulte a seção [Disponibilidade do serviço](#availability), anteriormente neste tópico. O suporte será estendido no futuro.
 
 - Tratamento de respostas de serviços Web, incluindo tratamento configurável de mensagens de exceção
 - Suporte para assinaturas eletrônicas (por exemplo, usando o algoritmo de assinatura XMLDSig)
@@ -104,15 +103,9 @@ A ilustração a seguir mostra como os dados fluem de e para o complemento de fa
 ![Fluxo de dados para o complemento de faturamento eletrônico](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
-A habilitação e o uso de faturamento eletrônico podem exigir o envio de dados limitados, que incluem a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pelas autoridades fiscais com a finalidade de enviar faturas eletrônicas nos formatos predefinidos exigidos para a integração com esses serviços Web do governo. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
+A habilitação e o uso de complemento de faturamento eletrônico podem exigir o envio de dados limitados, que incluem a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pelas autoridades fiscais com a finalidade de enviar faturas eletrônicas nos formatos predefinidos exigidos para a integração com esses serviços Web do governo. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-
-- [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md)
-- [Introdução ao complemento de faturamento eletrônico para o Brasil](e-invoicing-bra-get-started.md)
-- [Introdução ao complemento de faturamento eletrônico para o México](e-invoicing-mex-get-started.md)
-- [Introdução ao complemento de faturamento eletrônico para a Itália](e-invoicing-ita-get-started.md)
-- [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+- [Administração de serviço](e-invoicing-service-administration.md)
+- [Configurar faturas eletrônicas no RCS](e-invoicing-configuration-rcs.md)
+- [Emitir faturas eletrônicas no Finance e no Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)

@@ -2,7 +2,7 @@
 title: Configurar períodos de espera
 description: No Microsoft Dynamics 365 Human Resources, os dias de espera estabelecem uma etapa a ser usada nos planos de benefícios.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e1937ab54eb7898afe0fed6659c3ae676626e8ad
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 07ceed65a0346912d4be012a5cec502b0f0a6149
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417296"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111408"
 ---
 # <a name="configure-waiting-periods"></a>Configurar períodos de espera
 
@@ -45,6 +45,3 @@ No Microsoft Dynamics 365 Human Resources, os dias de espera estabelecem uma eta
    | **Dia de espera** | Selecione o dia de espera a ser usado para calcular a data de espera. |
 
 4. Selecione **Salvar**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

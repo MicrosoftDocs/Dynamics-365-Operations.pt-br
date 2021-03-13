@@ -11,33 +11,22 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Core, Operations
 ms.custom: 97423
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 5a883011bbff6d82504497d739c07f1ada9e5f69
-ms.sourcegitcommit: f860ac2b18f6bbbfc4a46b497baec2477105b116
+ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
+ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "4440528"
+ms.lasthandoff: 02/02/2021
+ms.locfileid: "5104220"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Criar uma conta de armazenamento do Azure e um cofre de chaves
 
 [!include [banner](../includes/banner.md)]
-
-
-
-O serviço complementar de faturamento eletrônica é responsável pelo armazenamento de todos os dados comerciais nos recursos do Microsoft Azure pertencentes à sua empresa. Para garantir que o serviço funcione corretamente e que todos os dados comerciais necessários e gerados pelo complemento de faturamento eletrônico sejam acessados somente pelo complemento, crie dois recursos principais do Azure:
-
-- Uma conta de armazenamento do Azure (armazenamento de Blob) para armazenar faturas eletrônicas
-- Um Azure Key Vault para armazenar certificados e o URI (Uniform Resource Identifier) da conta de armazenamento
-
-> [!NOTE]
-> Um recurso de compartimento de cofre de chaves e armazenamento de Blob de cliente deve ser alocado especificamente para ser usado com o complemento de faturamento eletrônico.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -91,6 +80,3 @@ Neste tópico, você executará duas etapas principais:
 9. Na caixa de diálogo **Principal**, selecione o principal, adicionando o **Complemento de faturamento eletrônico**.
 10. Selecione **Adicionar** e, em seguida, **Salvar alterações do Key Vault**.
 11. Na página **Visão geral**, copie o valor **Nome do DNS** para o cofre de chaves. Esse valor será usado durante a configuração do serviço no RCS e será referenciado como o *URI do cofre de chaves*.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

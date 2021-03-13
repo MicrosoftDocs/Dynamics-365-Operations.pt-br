@@ -2,7 +2,7 @@
 title: Executar o processo de remuneração
 description: Este artigo explica como resolver um problema em que o cliente está tentando executar o processo de compensação no Microsoft Dynamics 365 Human Resources mas sem êxito.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989a08ca8ce83fd01742f6b5ec537ee1fc825fca
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 5eda572900090a3ead4b277f3c719b220dc10763
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417229"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5111497"
 ---
 # <a name="run-the-compensation-process"></a>Executar o processo de remuneração
 
@@ -47,6 +47,3 @@ Aqui está a documentação para compensação:
 - Processo:
 
     - [Processar remuneração](https://docs.microsoft.com/dynamics365/unified-operations/talent/process-compensation)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

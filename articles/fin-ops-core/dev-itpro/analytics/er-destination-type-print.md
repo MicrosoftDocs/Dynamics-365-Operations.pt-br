@@ -1,6 +1,6 @@
 ---
 title: Tipo de destino de ER da impressora
-description: Este tópico explica como você pode configurar um destino de impressora para cada componente de ARQUIVO ou PASTA de um formato de ER (Relatório eletrônico) configurado para gerar documentos de saída em PDF ou formatos do Microsoft Office (Excel\Word).
+description: Este tópico explica como configurar um destino de impressora para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
 manager: AnnBe
 ms.date: 03/17/2020
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: b7a279dcb30e7681ae654ab17d898a5364391d57
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
+ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679597"
+ms.lasthandoff: 01/30/2021
+ms.locfileid: "5094070"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino da impressora
 
@@ -70,6 +70,3 @@ Para usar uma [orientação de página](electronic-reporting-destinations.md#Sel
 
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
