@@ -1,6 +1,6 @@
 ---
 title: Recursos removidos ou obsoletos em versões anteriores
-description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores desse produto.
+description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores.
 author: sericks007
 manager: AnnBe
 ms.date: 09/21/2020
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ce6b3fb5217ad5d5228841a91d0b0406c305969
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679947"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154376"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -39,7 +39,7 @@ Este tópico descreve os recursos que foram removidos ou descontinuados do Dynam
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 com atualização de plataforma 31
 
@@ -970,7 +970,7 @@ Esta ferramenta era usada para integrar dados de chave do Microsoft Dynamics CRM
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Esta funcionalidade foi substituída por outro recurso. |
-| **Substituída por outro recurso?**   | Common Data Service                                      |
+| **Substituída por outro recurso?**   | Dataverse                                      |
 | **Áreas afetadas do produto**         | Conector do Dynamics                         |
 | **Status**                         | Removido a partir do Dynamics AX 7.0.                           |
 
@@ -1373,6 +1373,3 @@ O aplicativo para tablet com Windows 8 fornece a funcionalidade da entrada e a a
 |     <strong>Áreas afetadas do produto</strong>     |                                              Contabilidade                                              |
 |             <strong>Status</strong>             |                                      Removido a partir do Dynamics AX 2012                                      |
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

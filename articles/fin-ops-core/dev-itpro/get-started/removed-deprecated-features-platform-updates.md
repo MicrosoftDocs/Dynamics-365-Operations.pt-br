@@ -3,7 +3,7 @@ title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
 manager: AnnBe
-ms.date: 12/07/2020
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ffd98016079ccab47864c821116c821b5df22e3b
-ms.sourcegitcommit: 069ed5789517b550065e5e2317658fec4027359e
+ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "4689557"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154078"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -32,7 +32,55 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="feature-removed-effective-january-28-2021"></a>Recurso removido em 28 de janeiro de 2021
+
+### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Trabalhos em lotes para tratar da desfragmentação de índice SQL
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Para reduzir a sobrecarga de operação, monitoramento e manutenção do gerenciamento de índices pelos clientes, este recurso foi removido. |
+| **Substituída por outro recurso?**   | A partir de agora, a manutenção do índice será realizada pelos serviços da Microsoft. Isso ocorrerá continuamente sem afetar as cargas de trabalho do usuário. |
+| **Áreas afetadas do produto**         | Aplicativos Finance and Operations|
+| **Opção de implantação**              | Implantação na nuvem - afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
+| **Status**                         | Este recurso foi removido. |
+
+
+## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.17 dos aplicativos do Finance and Operations
+
+> [!IMPORTANT]
+> A versão 10.0.17 está disponível como parte de uma versão preliminar. O conteúdo e a funcionalidade estão sujeitos a alterações. Para obter informações sobre as versões prévias, consulte [Perguntas frequentes sobre as atualizações de serviço One Version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+
+### <a name="visual-studio-2015"></a>Visual Studio2015
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Para dar suporte às versões mais recentes do Visual Studio, algumas alterações devem ser feitas nas extensões X++ para Visual Studio. Essas alterações são incompatíveis com o Visual Studio 2015. |
+| **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
+| **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido. Após a atualização, as ferramentas X++ anteriores serão removidas do Visual Studio 2015, e as ferramentas atualizadas não serão instaladas no Visual Studio 2015. Não haverá impacto nos builds hospedados. Para máquinas virtuais de build, o pipeline de build (definição de build) precisa ser atualizado manualmente para alterar a dependência do MSBuild 14.0 (Visual Studio 2015) ao MSBuild 15.0 (Visual Studio 2017) conforme descrito em [Atualizar um pipeline herdado no Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+
+### <a name="user-avatar"></a>Avatar do usuário 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O avatar do usuário exibido no lado direito da barra de navegação foi recuperado usando uma API do controle de cabeçalho do Dynamics 365, que foi preterido. |
+| **Substituída por outro recurso?**   | Em vez disso, os usuários verão suas iniciais em um círculo na barra de navegação. Esse é o mesmo visual usado atualmente em máquinas de desenvolvimento. |
+| **Áreas afetadas do produto**         | Cliente web |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Removido a partir da versão 10.0.17 |
+
+### <a name="enterprise-portal-ep-deprecation"></a>Reprovação do Enterprise Portal (EP)  
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Os artefatos de metadados associados ao Dynamics AX 2012 Enterprise Portal (EP) foram preteridos, pois o EP nunca teve suporte nos aplicativos do Finance and Operations. |
+| **Substituída por outro recurso?**   | Não |
+| **Áreas afetadas do produto**         | Cliente web |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido. Todo o código do EP está programado para ser removido na versão de outubro de 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.15 dos aplicativos do Finance and Operations
 
@@ -192,6 +240,3 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../migration-upgrade/deprecated-features.md).
 
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

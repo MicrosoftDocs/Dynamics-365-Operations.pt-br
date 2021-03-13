@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 986d8986375aac9454483d89c46c1b2b6f52e68e
-ms.sourcegitcommit: f5e31c34640add6d40308ac1365cc0ee60e60e24
+ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4694680"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154400"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planejar sua hierarquia organizacional
 
@@ -166,7 +166,7 @@ As unidades operacionais usam o contexto de país da entidade legal primária. A
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Se a organização for modelada como uma entidade legal
 
-Para os países/regiões com suporte, a maioria dos relatórios de impostos podem ser criados. Para obter informações sobre quais relatórios estão disponíveis para cada país/região, consulte o [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC). (Um logon do CustomerSource é necessário.)
+Para os países/regiões com suporte, a maioria dos relatórios de impostos podem ser criados. Para obter informações sobre quais relatórios estão disponíveis para cada país/região, consulte o [Portal de localização do Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/). (Um logon do CustomerSource é necessário.)
 
 > [!NOTE]
 > Um nível de lançamento na contabilidade permite que você faça entradas de ajuste em uma empresa pai que usa um padrão de contabilidade diferente da empresa filha. Por exemplo, para uma empresa que usa as práticas contábeis geralmente aceitas no Reino Unido (GAAP BRITÂNICO), é possível criar entradas de ajuste no nível de lançamento. Essas entradas podem ser consolidadas em uma empresa primária que usa os princípios contábeis geralmente aceitos (GAAP) nos Estados Unidos. As entradas de ajuste não afetam os relatórios de GAAP BRITÂNICOS.
@@ -241,6 +241,3 @@ Considere estas práticas recomendadas quando implementar uma hierarquia organiz
 - Antes que você modele grandes cenários de reestruturação, use as datas efetivas da hierarquia para realizar uma análise de impacto e um teste de validação.
 - Use o modo de rascunho para alterar uma hierarquia antes de publicar uma nova versão em um ambiente de produção.
 - Limite o número de pessoas que têm permissões para adicionar ou remover organizações de uma hierarquia em um ambiente de produção. Um número menor reduz a chance de ocorrência de erros e a necessidade de correções.
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

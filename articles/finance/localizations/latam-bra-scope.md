@@ -10,17 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 821e166a4bcfa98a6655371d648800a92c9e5d13
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 31633b2f0c6e434eaf12451eb4f46435b1a397b5
+ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4408437"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5154135"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -55,7 +54,7 @@ Em geral, a estratégia da Microsoft para atender a requerimentos tributários, 
 
 - Implementam os requisitos tributários federais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope) deste tópico.
 - Implementam os requisitos estaduais ou regionais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), para os seguintes estados: São Paulo (SP), Rio de Janeiro (RJ), Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).
-- Fornecem novos recursos regulatórios específicos, por meio de configurações ou do desenvolvimento de nova funcionalidade, para implementar os requisitos federais, estaduais ou regionais que estão detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), de acordo com as regras de negócios especificadas neste tópico e no roteiro do Microsoft Dynamics no [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/customersource/UK/AX/support/support-news/GFMLocalizationPortalMC).
+- Fornecem novos recursos regulatórios específicos, por meio de configurações ou do desenvolvimento de nova funcionalidade, para implementar os requisitos federais, estaduais ou regionais que estão detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), de acordo com as regras de negócios especificadas neste tópico e no roteiro do Microsoft Dynamics no [Portal de localização do Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/).
 - Fornecem novos recursos regulatórios específicos no service pack mais recente disponível, ou em um novo service pack, para versões suportadas do Microsoft Dynamics.
 - Aplicam padrões nacionais e funcionalidades competitivos que a Microsoft, a seu critério exclusivo, determinar necessários ou apropriados com base nas necessidades comerciais da região.
 - Não se concentram nos requisitos de negócios, segmentos, verticais, regiões ou grandes empresas específicos, mesmo quando esses requisitos são exigidos por leis, normas ou regulamentos nos níveis federal, estadual ou municipal.
@@ -71,7 +70,7 @@ A interface do usuário (IU) e a Ajuda online do Microsoft Dynamics estão tradu
 
 O escopo da localização do Microsoft Dynamics disponível no Brasil se restringe a cálculo de impostos, transações contábeis, emissão/recebimento de notas fiscais e emissão de cupons fiscais nos quatro seguintes cenários: compras a pagar, da cotação ao pagamento à vista, comércio e relatório regulatório/legal.
 
-As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste tópico. Os detalhes sobre cada uma das funcionalidades podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/customersource/UK/AX/support/support-news/GFMLocalizationPortalMC).
+As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste tópico. Os detalhes sobre cada uma das funcionalidades podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de Localização do Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/).
 
 ## <a name="market-availability"></a>Disponibilidade no mercado
 
@@ -1144,7 +1143,7 @@ Os seguintes requisitos de relatórios de impostos estão fora do escopo para li
 
 ## <a name="references"></a>Referências
 
-O [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/customersource/UK/AX/support/support-news/GFMLocalizationPortalMC) fornece informações sobre os documentos e recursos de localização que foram lançados pela Microsoft, e também os recursos de localização e documentos que estão planejados para lançamento.
+O [Portal de Localização do Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/) fornece informações sobre os documentos e recursos de localização que foram lançados pela Microsoft, e também os recursos de localização e documentos que estão planejados para lançamento.
 
 ## <a name="notes"></a>Observação
 
@@ -1190,6 +1189,3 @@ O [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/cust
 | SINTEGRA             | Sistema Integrado de Informações sobre Operações Interestaduais |
 | SEFAZ                | Secretaria da Fazenda |
 | SUFRAMA              | Superintendência da Zona Franca de Manaus |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

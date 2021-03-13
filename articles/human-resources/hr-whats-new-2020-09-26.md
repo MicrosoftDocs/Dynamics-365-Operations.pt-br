@@ -11,19 +11,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4103c0630b72b9b92a116f7fe702a777dd295e25
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: ac72489c3b2dacfde280606a83221e8514793701
+ms.sourcegitcommit: 2190be6c205d7d9e43bdb99b9190cc0112f9f093
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527401"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5152188"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-26-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources 26 de setembro de 2020
 
@@ -31,7 +30,7 @@ ms.locfileid: "4527401"
 
 Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources. Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
-Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/dynamics365-human-resources/).
+Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Nesta versão
 
@@ -58,7 +57,7 @@ As seguintes correções de bug estão incluídas nessa versão.
 | 481401 | O processamento de competência trava quando a base da data de acumulação é posterior à data de início e no final do mês | O processamento de competência é atualizado para não ter um atraso quando a base da data de acumulação é posterior à data de início da competência e no final do mês. |
 | 447167 | As listas de registros de vencimento incluem trabalhadores inativos | A guia **Registros com data de expiração** em **Gerenciamento de pessoal** incluía trabalhadores inativos. Agora, só inclui trabalhadores ativos. |
 | 486840 | A solicitação de licença errada abre em **Itens de trabalho atribuídos a mim** | A seleção de uma licença em **Itens de trabalho atribuídos a mim** não abre mais a solicitação de licença mais recente atribuída ao usuário atual. |
-| 506868 | Campo **Título** do Common Data Service não definido para a entidade **Cargo** | Campo **Título** nas entidades **Trabalho** e **Cargo** exibido como não especificado. Agora, o campo **Cargo** é exibido. |
+| 506868 | Campo **Título** do Dataverse não definido para a entidade **Cargo** | Campo **Título** nas entidades **Trabalho** e **Cargo** exibido como não especificado. Agora, o campo **Cargo** é exibido. |
 | 430359 | Não é possível acessar as tarefas da lista de verificação de remoção com funções de gerente e funcionário atribuídas | Os trabalhadores com uma data de demissão futura não poderão acessar suas tarefas da lista de verificação se tiverem apenas uma função de funcionário ou gerente. Agora, os usuários com apenas uma função de funcionário ou gerente podem acessar as tarefas de remoção com uma data de demissão futura. |
 | 458102 | O novo funcionário não aparece na entidade **Informações da folha de pagamento do trabalhador** quando criado | Os novos funcionários são incluídos na entidade de informações da folha de pagamento do trabalhador sem precisar abrir as informações de folha de pagamento do funcionário antes de exportar a entidade. |
 
@@ -85,6 +84,3 @@ Para obter uma lista completa de recursos planejados e suas versões agendadas, 
 [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atualizar processo](hr-admin-setup-update-process.md)
 [Gerenciar recursos](hr-admin-manage-features.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
