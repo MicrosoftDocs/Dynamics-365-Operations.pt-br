@@ -2,7 +2,7 @@
 title: Visão geral de licença e ausência
 description: No Dynamics 365 Human Resources, o espaço de trabalho de licença e ausência fornece uma estrutura flexível para a criação de novos planos de licença. Ele também fornece fluxos de trabalho para gerenciar solicitações e uma página intuitiva de auto-atendimento para que os funcionários solicitem folga.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea58c3a08e74eea1ab51aa19a5a28445a9bcbb04
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417340"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115963"
 ---
 # <a name="leave-and-absence-overview"></a>Visão geral de licença e ausência
 
@@ -54,6 +54,3 @@ Seus funcionários podem enviar solicitações de folga e você pode gerenciá-l
 [Solicitar folga](hr-employee-self-service-request-time-off.md)
 [Gerenciar solicitações de licença e ausência](hr-employee-self-service-manage-requests.md)
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

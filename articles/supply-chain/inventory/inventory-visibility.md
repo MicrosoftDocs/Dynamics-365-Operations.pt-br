@@ -1,7 +1,7 @@
 ---
 title: Suplemento Visibilidade de Estoque
 description: Este tópico descreve como instalar e configurar o Suplemento Visibilidade de Estoque para Dynamics 365 Supply Chain Management.
-author: chuzheng
+author: sherry-zheng
 manager: tfehr
 ms.date: 10/26/2020
 ms.topic: article
@@ -10,28 +10,28 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 2976153a6a7e4b4130e8f7673ed128945aeabf65
-ms.sourcegitcommit: 03c2e1717b31e4c17ee7bb9004d2ba8cf379a036
+ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
+ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "4625056"
+ms.lasthandoff: 02/03/2021
+ms.locfileid: "5114661"
 ---
 # <a name="inventory-visibility-add-in"></a>Suplemento Visibilidade de Estoque
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
 
 O Suplemento Visibilidade de Estoque é um microsserviço independente e altamente escalonável que permite o rastreamento de estoque disponível em tempo real, oferecendo, assim, uma visão global da visibilidade de estoque.
 
 Todas as informações relacionadas ao estoque disponível são exportadas para o serviço quase em tempo real por meio de uma integração SQL de nível baixo. Os sistemas externos acessam o serviço por meio de APIs RESTful para consultar informações disponíveis sobre determinados conjuntos de dimensões, recuperando, dessa forma, uma lista de posições disponíveis.
 
-A Visibilidade de Estoque é um microsserviço criado no Common Data Service, o que significa que você pode estendê-lo criando Power Apps e aplicando o Power BI para fornecer funcionalidade personalizada para atender aos seus requisitos de negócios. Também é possível atualizar o índice para fazer consultas de estoque.
+A Visibilidade de Estoque é um microsserviço criado no Microsoft Dataverse, o que significa que você pode estendê-lo criando Power Apps e aplicando o Power BI para fornecer funcionalidade personalizada para atender aos seus requisitos de negócios. Também é possível atualizar o índice para fazer consultas de estoque.
 
 A Visibilidade de Estoque fornece opções de configuração que permitem a integração com vários sistemas de terceiros. Ela oferece suporte à dimensão de estoque padronizada, à extensibilidade personalizada e a quantidades calculadas padronizadas e configuráveis.
 
@@ -78,30 +78,57 @@ Para instalar o Suplemento Visibilidade de Estoque, faça o seguinte:
 
 ### <a name="get-a-security-service-token"></a>Obter um token de serviço de segurança
 
-Para obter um token de serviço de segurança, faça o seguinte:
+Obtenha um token de serviço de segurança da seguinte forma:
 
-1. Obtenha seu `aadToken` e chame o ponto de extremidade: https://securityservice.operations365.dynamics.com/token.
-1. Substitua a `client_assertion` no corpo pelo seu `aadToken`.
-1. Substitua o contexto no corpo pelo ambiente em que você deseja implantar o suplemento.
-1. Substitua o escopo no corpo pelo seguinte:
+1. Faça login no Portal do Azure e use-o para localizar `clientId` e `clientSecret` para o aplicativo Supply Chain Management.
+1. Busque um token do Azure Active Directory (`aadToken`) enviando uma solicitação HTTP com as seguintes propriedades:
+    - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Método** - `GET`
+    - **Conteúdo do corpo (dados de formulário)**:
 
-    - Escopo para MCK - "https://inventoryservice.operations365.dynamics.cn/.default"  
-    (Você pode encontrar a ID de aplicativo e a ID de locatário do Azure Active Directory para MCK em `appsettings.mck.json`.)
-    - Escopo para PROD - "https://inventoryservice.operations365.dynamics.com/.default"  
-    (Você pode encontrar a ID de aplicativo e a ID de locatário do Azure Active Directory para PROD em `appsettings.prod.json`.)
+        | key | valor |
+        | --- | --- |
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+1. Você receberá um `aadToken` em resposta, que se parece com o seguinte exemplo.
 
-    O resultado deve se assemelhar ao seguinte exemplo.
+    ```json
+    {
+    "token_type": "Bearer",
+    "expires_in": "3599",
+    "ext_expires_in": "3599",
+    "expires_on": "1610466645",
+    "not_before": "1610462745",
+    "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+    "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Formule uma solicitação JSON que se parece com a seguinte:
 
     ```json
     {
         "grant_type": "client_credentials",
         "client_assertion_type":"aad_app",
-        "client_assertion": "{**Your_AADToken**}",
-        "scope":"**https://inventoryservice.operations365.dynamics.com/.default**",
-        "context": "**5dbf6cc8-255e-4de2-8a25-2101cd5649b4**",
+        "client_assertion": "{Your_AADToken}",
+        "scope":"https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
         "context_type": "finops-env"
     }
     ```
+
+    Onde:
+    - O valor `client_assertion` deve ser o `aadToken` que recebeu na etapa anterior.
+    - O valor de `context` deve ser a ID do ambiente em que deseja implantar o suplemento.
+    - Defina todos os demais valores conforme exibido no exemplo.
+
+1. Envie uma solicitação HTTP com as seguintes propriedades:
+    - **URL** - `https://securityservice.operations365.dynamics.com/token`
+    - **Método** - `POST`
+    - **Cabeçalho HTTP** – inclua a versão da API (a chave é `Api-Version` e o valor é `1.0`)
+    - **Conteúdo do corpo** – inclua a solicitação JSON criada na etapa anterior.
 
 1. Você receberá um `access_token` em resposta. É disso que você precisará como um token de portador para chamar a API da Visibilidade de Estoque. Veja aqui um exemplo.
 
@@ -500,6 +527,3 @@ As consultas mostradas nos exemplos anteriores poderiam retornar um resultado co
 ```
 
 Observe que os campos de quantidades estão estruturados como um dicionário de medidas e seus valores associados.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

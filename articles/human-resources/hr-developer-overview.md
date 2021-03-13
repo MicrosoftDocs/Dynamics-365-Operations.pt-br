@@ -1,8 +1,8 @@
 ---
-title: Visão Geral
+title: Visão geral de desenvolvimento
 description: Este guia de desenvolvedor fornece uma referência de campos de API e personalizados. Ele também fornece informações sobre a integração com outros aplicativos.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
@@ -18,14 +18,14 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 010920cc84897dc5d2cfc008aa04544db6b08a73
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: 517febd7967350956a28dfd9d11e4042456c7da0
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4528308"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115381"
 ---
-# <a name="overview"></a>Visão Geral
+# <a name="development-overview"></a>Visão geral de desenvolvimento
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -35,13 +35,13 @@ Este guia de desenvolvedor fornece uma referência de campos de API e personaliz
 
 - [Estender com o Power Apps e o Power Automate](hr-developer-power-apps.md)
 
-- [Entidades do Human Resources no Common Data Service](hr-developer-entities.md)
+- [Entidades do Human Resources no Dataverse](hr-developer-entities.md)
 
 - [Campos personalizados](hr-developer-custom-fields.md)
 
 - Configurar integração de dados
   - [Escolha uma tecnologia de integração de dados](hr-admin-integration-choose-technology.md)
-  - [Configurar integração do Common Data Service](hr-admin-integration-common-data-service.md)
+  - [Configurar integração do Dataverse](hr-admin-integration-common-data-service.md)
   - [Configurar a integração com o Finance](hr-admin-integration-finance.md)
   - [Configurar a integração com o Dayforce](hr-admin-integration-dayforce.md)
   - [Criar um aplicativo de exportação de dados recorrente](hr-admin-integration-recurring-data-export.md)
@@ -62,6 +62,3 @@ Este guia de desenvolvedor fornece uma referência de campos de API e personaliz
 - [Novidades ou alterações em Human Resources](hr-admin-whats-new.md)
 - [Guia do administrador](hr-admin-overview.md)
 - [Guia do usuário](hr-hrpro-overview.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

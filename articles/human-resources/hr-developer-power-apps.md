@@ -2,7 +2,7 @@
 title: Estender o Talent com o Power Apps e o Power Automate
 description: Este artigo descreve alguns exemplos de cenários de extensibilidade para o Microsoft Dynamics 365 Human Resources que usam o Microsoft Power Apps e o Microsoft Power Automate.
 author: negudava
-manager: Annbe
+manager: tfehr
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core;Experience Apps;Human Resources
+ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2e89347829ccd6569d568db42c79b5fea2316ba3
-ms.sourcegitcommit: e89bb3e5420a6ece84f4e80c11e360b4a042f59d
+ms.openlocfilehash: e6885c67f42ead34b5e10cc1b1a80a88fd2d59b9
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4527017"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115357"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Estender com o Power Apps e o Power Automate
 
@@ -51,7 +51,7 @@ Para baixar o aplicativo **Integração com o Microsoft 365, Power Automate**, v
 
 O modelo **Power Automate — Conectar ao SQL e executar** conecta-se ao Microsoft SQL Server e habilita a execução de consultas SQL.
 
-Embora esse modelo leia e atualize tabelas SQL, você pode estendê-las e usá-las em outros cenários. Por exemplo, você pode usá-la para preencher uma tabela de preparação no Common Data Service com registros do SQL Server e para sincronizar periodicamente a tabela de preparação usando um push incremental do SQL Server.
+Embora esse modelo leia e atualize tabelas SQL, você pode estendê-las e usá-las em outros cenários. Por exemplo, você pode usá-la para preencher uma tabela de preparação no Dataverse com registros do SQL Server e para sincronizar periodicamente a tabela de preparação usando um push incremental do SQL Server.
 
 A consulta avançada é integrada ao fluxo para habilitar a transformação de dados e o push incremental.
 
@@ -60,5 +60,3 @@ Para baixar o modelo **Power Automate — Conectar ao SQL e executar**, acesse [
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [A Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

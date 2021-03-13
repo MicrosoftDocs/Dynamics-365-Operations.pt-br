@@ -2,7 +2,7 @@
 title: Configurar cursos de treinamento
 description: Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable, HcmLearningWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 253f0d07679b6327a0ed1e3cc20ede66249750b8
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 8557416cee8ae23bb0e9d837677bf8140ecd8a3e
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417350"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115141"
 ---
 # <a name="set-up-training-courses"></a>Configurar cursos de treinamento
 
@@ -137,6 +137,3 @@ Os funcionários que se registrarem em um curso na página **Autoatendimento par
 
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Criar um calendário de horário de trabalho
 description: Defina um calendário de horário de trabalho, feriados e horário não comercial no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 04/01/2020
 ms.topic: article
 ms.prod: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2bedbe65f146c4159c2a809de8f683815fd4a01f
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: ccf7901ebbea655b7f795a48944c6f03f9cf210a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417264"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115093"
 ---
 # <a name="create-a-working-time-calendar"></a>Criar um calendário de horário de trabalho
 
@@ -75,6 +75,3 @@ Se você tiver habilitado o recurso de visualização de correções de feriados
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

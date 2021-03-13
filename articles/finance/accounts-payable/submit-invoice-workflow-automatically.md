@@ -1,5 +1,5 @@
 ---
-title: Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos (versão preliminar)
+title: Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos
 description: Este tópico explica o processo de envio de faturas de fornecedor para o sistema de fluxo de trabalho e a conciliação automática das linhas de recebimento de produtos lançadas para faturas de fornecedor.
 author: abruer
 manager: AnnBe
@@ -11,23 +11,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.search.scope: Core, Operations
 ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-09-08
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cde164ee89b542d769d81d8d483049fb7ca001c4
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 03c9f6752a0bb9641f67d65580aca18276e43e9a
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4440193"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115647"
 ---
-# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines-preview"></a>Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos (versão preliminar)
+# <a name="submit-invoices-to-the-workflow-system-and-match-product-receipt-lines"></a>Enviar faturas para o sistema do fluxo de trabalho e conciliar as linhas de recebimento de produtos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica o processo de envio de faturas de fornecedor para o sistema de fluxo de trabalho e a conciliação automática das linhas de recebimento de produtos lançadas para faturas de fornecedor.
 
@@ -47,13 +45,10 @@ O processo será executado até que a quantidade de recebimento de produtos conc
 
 As linhas da fatura que têm uma política de conciliação tripla, na qual a quantidade de recebimento conciliada é menor do que a quantidade da fatura, será incluída no processo de conciliação automática de recebimento de produtos.
 
-Para exibir o status **Última conciliação** para faturas que não fazem parte do processo de envio para fluxo de trabalho, abra a fatura da página **Faturas do fornecedor**. Quando você exibe a fatura, as informações de validação conciliadas são atualizadas.
+Para exibir o status **Última conciliação** para faturas que não fazem parte do processo de envio para fluxo de trabalho, abra a fatura da página **Faturas do fornecedor**. Quando você exibe a fatura, as informações de validação conciliadas são atualizadas. O status **Última conciliação** pode ser atualizado automaticamente usando a tarefa **Validar conciliação de fatura**. Você pode configurar o processo de atualização automática do status **Última correspondência** na guia **Processos em segundo plano** da página **Automações de processo** (**Administração do sistema\> Configuração\> Automações de processo**).
 
 Uma linha da fatura será excluída do processamento automatizado, se qualquer uma das seguintes condições forem atendidas:
 
 - O valor **Status de conciliação automática de recibo** da linha da fatura for **Com falha**.
 - A fatura está sendo usada.
 - A fatura está no sistema de fluxo de trabalho.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

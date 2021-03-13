@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 67f6d567c7e8d4cc6332c2d661abb04d1b28d2e9
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4682762"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115719"
 ---
 # <a name="financial-insights"></a>Insights financeiros
 
@@ -66,9 +66,10 @@ Os dados de **Insights financeiros** são recebidos do repositório de entidades
 
 Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Insights financeiros** e **Visão geral de CFO**:
 
-- Dados de transação de relatório financeiro versão 2 (**Observação:** trata-se de algo novo a versão 10.0.1 e substitui a entidade anterior.)
-- Dados de transação de relatórios financeiros
+- BudgetActivityMeasure
+- Dados de transação de relatórios financeiros versão 3 
 - CustCollectionsBIMeasurements
+- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Cubo de Compras
 - Cubo de Vendas
@@ -247,6 +248,3 @@ As informações nos seguintes recursos não são necessárias para habilitar re
 - [Como acessar espaços de trabalho analíticos e relatórios em um ambiente de 1 caixa](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 
 - [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
-
-
-[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

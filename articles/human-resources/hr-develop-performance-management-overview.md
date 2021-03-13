@@ -2,7 +2,7 @@
 title: Gerenciamento de desempenho
 description: O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 07/28/2020
 ms.topic: article
 ms.prod: ''
@@ -10,19 +10,19 @@ ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: Human Resources
 ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7e2c7753da69f85307eccd22f6a315e9fd1e4bd6
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 722ae95de3b1822f3c7246394c3d16b8b827723b
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417294"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115599"
 ---
 # <a name="performance-management"></a>Gerenciamento de desempenho
 
@@ -163,5 +163,3 @@ Os tipos de origem do diário de desempenho descrevem de onde os diários de des
 ### <a name="review-types"></a>Tipos de revisão
 
 Os tipos de revisão de desempenho ajudam você a controlar o comportamento de uma revisão. Você pode habilitar ou desabilitar o fluxo de trabalho para uma revisão. Se a revisão não usar o fluxo de trabalho, você poderá definir o status padrão que será usado quando a revisão for criada. Também pode decidir se o funcionário, o gerente ou ambos são necessários para a aprovação da revisão.
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

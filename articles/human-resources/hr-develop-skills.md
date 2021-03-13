@@ -2,7 +2,7 @@
 title: Alinhe habilidades de força de trabalho com as necessidades comerciais
 description: Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico.
 author: andreabichsel
-manager: AnnBe
+manager: tfehr
 ms.date: 11/01/2017
 ms.topic: article
 ms.prod: ''
@@ -11,19 +11,19 @@ ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType, HcmEmployeeDevelopmentWorkspace
 audience: Application User
 ms.reviewer: anbichse
-ms.search.scope: Core, Operations, Human Resources
+ms.search.scope: Human Resources
 ms.custom: 3361
 ms.assetid: c2ce94c0-933d-4edb-822c-7f0e7b49e4ee
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 7abaa99bdec5fcf20a63bfeb716ebb63dd3712df
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 26493306a8bd810f936b15160b07263ca41f87ae
+ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4417292"
+ms.lasthandoff: 02/04/2021
+ms.locfileid: "5115575"
 ---
 # <a name="align-workforce-skills-with-business-needs"></a>Alinhe habilidades de força de trabalho com as necessidades comerciais
 
@@ -62,6 +62,3 @@ Os perfis de mapeamento de habilidades permitem que você encontre funcionários
 Você pode criar uma análise de perfil de habilidades para exibir uma lista de competências de um trabalhador, candidato ou pessoa de contato como uma data específica. Você pode criar uma análise de lacuna de habilidades para comparar as habilidades de uma pessoa e as habilidades necessárias para um trabalho específico.  
 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
