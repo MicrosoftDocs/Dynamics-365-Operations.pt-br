@@ -62,3 +62,6 @@ Os perfis de mapeamento de habilidades permitem que você encontre funcionários
 Você pode criar uma análise de perfil de habilidades para exibir uma lista de competências de um trabalhador, candidato ou pessoa de contato como uma data específica. Você pode criar uma análise de lacuna de habilidades para comparar as habilidades de uma pessoa e as habilidades necessárias para um trabalho específico.  
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

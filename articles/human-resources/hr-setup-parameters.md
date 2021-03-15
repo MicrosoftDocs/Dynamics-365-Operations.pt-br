@@ -50,3 +50,6 @@ As configurações na guia **Sequência numérica** determinam as sequências us
 
 > [!NOTE]
 > O número de horas que será trabalhado não pode exceder 1.250 e o tempo de emprego não pode exceder 12 meses. Esses valores máximos estão de acordo com a legislação federal dos Estados Unidos. Por fim, as configurações na guia **Autoatendimento para funcionários** determinam as informações que gerentes pode inserir em nome dos funcionários.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

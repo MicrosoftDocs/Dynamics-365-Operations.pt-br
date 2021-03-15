@@ -89,3 +89,6 @@ Siga essas etapas para configurar a conexão de gravação dupla.
 > [!NOTE]
 > Não é possível desvincular ambientes usando o LCS. Para desvincular um ambiente, abra o espaço de trabalho da **Integração de dados** no ambiente do Finance and Operations e selecione **Desvincular**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

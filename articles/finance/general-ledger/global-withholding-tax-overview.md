@@ -44,3 +44,6 @@ A funcionalidade de imposto retido na fonte global é aprimorada para transaçõ
 
 > [!NOTE]
 > A funcionalidade de imposto retido na fonte global não pode ser ativada para países/regiões em que já existem soluções localizadas de imposto retido na fonte. Essas áreas incluem, mas não estão restritas à Índia, Brasil, Tailândia, Arábia Saudita, Irlanda, Grã-Bretanha e Estados Unidos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

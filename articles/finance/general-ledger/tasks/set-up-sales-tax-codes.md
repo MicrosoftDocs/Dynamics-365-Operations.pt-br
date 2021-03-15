@@ -45,3 +45,6 @@ Esta tarefa usa a empresa de demonstração USMF.
 12. Feche a página.
 13. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

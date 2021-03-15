@@ -45,3 +45,6 @@ Este tópico explica como criar um método de pagamento para pagamentos de clien
 15. Use a guia **Atributos de pagamento** para definir os atributos de pagamento que deseja usar para o método de pagamento.
 16. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

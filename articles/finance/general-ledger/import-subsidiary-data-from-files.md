@@ -60,3 +60,6 @@ Este tópico explica como preparar dados de sistemas externos para que possam se
 8. Defina a opção **Processamento em lotes** como **Sim** para executar a consolidação como um trabalho em lotes em uma hora específica. Para executar a consolidação imediatamente, selecione **OK**. 
 
 As transações e os saldos especificados para consolidação nas subsidiárias são adicionados às contas apropriadas na entidade legal consolidada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

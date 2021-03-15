@@ -122,3 +122,6 @@ Este guia de tarefa definirá os perfis de postagem de ativo fixo.  Ela usa a fu
 88. No campo **Conta principal**, especifique os valores desejados.
 89. No campo **Contrapartida**, especifique os valores desejados.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

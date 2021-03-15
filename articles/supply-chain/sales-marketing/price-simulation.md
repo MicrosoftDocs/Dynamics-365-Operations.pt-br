@@ -144,3 +144,6 @@ A simulação de preço afeta somente a linha na qual ela é aplicada e reduz o 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

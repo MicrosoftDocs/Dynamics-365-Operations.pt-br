@@ -225,3 +225,6 @@ Para habilitar a execução manual de um registro fiscal adiado, você deve adic
     1. Selecione o layout para atualizar.
     2. Adicione um novo botão e defina a propriedade do botão **Concluir processo de registro fiscal**.
     3. Na página **Agenda de distribuição**, execute o trabalho **1090** para transferir suas alterações para o banco de dados do canal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

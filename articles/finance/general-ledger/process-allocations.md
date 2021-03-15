@@ -43,3 +43,6 @@ As regras de alocação do razão podem ser usadas para planos de orçamento. Qu
 > [!NOTE]
 > Você não pode usar as regras de alocação do razão intercompanhia para o planejamento de orçamento.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

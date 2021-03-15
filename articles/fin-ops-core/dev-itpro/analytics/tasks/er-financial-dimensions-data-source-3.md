@@ -145,3 +145,6 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 46. Feche a página.
 ![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format2.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

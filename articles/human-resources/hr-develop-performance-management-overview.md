@@ -163,3 +163,5 @@ Os tipos de origem do diário de desempenho descrevem de onde os diários de des
 ### <a name="review-types"></a>Tipos de revisão
 
 Os tipos de revisão de desempenho ajudam você a controlar o comportamento de uma revisão. Você pode habilitar ou desabilitar o fluxo de trabalho para uma revisão. Se a revisão não usar o fluxo de trabalho, você poderá definir o status padrão que será usado quando a revisão for criada. Também pode decidir se o funcionário, o gerente ou ambos são necessários para a aprovação da revisão.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

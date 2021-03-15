@@ -42,3 +42,6 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | Conteúdo   | descrição   | Formatar    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [Conceitos básicos do Dynamics 365](https://docs.microsoft.com/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você conhece o Microsoft Dynamics 365: o Power Platform; conceitos de nuvem, opções de licenciamento; e opções de implantação e liberação. | Teste; o custo varia por região |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

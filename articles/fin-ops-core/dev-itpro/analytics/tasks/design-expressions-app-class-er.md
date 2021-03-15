@@ -157,3 +157,6 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo SampleIncom
 2. Clique em OK.
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que apenas 3 linhas do arquivo TXT importado foram processadas. O código IBAN na linha 4, que não é válido, foi ignorado e uma mensagem de erro é fornecida no Log de informações.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

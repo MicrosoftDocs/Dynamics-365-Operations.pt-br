@@ -121,3 +121,6 @@ Se uma nova versão do certificado for introduzida, mas não puder ser atualizad
 
 > [!NOTE]
 > No Commerce Runtime, a nova versão do certificado será chamada primeiro. Se o certificado ainda não tiver sido atualizado em uma loja específica ou em um terminal específico, a versão anterior será chamada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

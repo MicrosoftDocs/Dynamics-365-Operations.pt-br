@@ -81,3 +81,6 @@ A classificação avançada no Dynamics 365 Commerce permite que cliente classif
 [Visão geral da página de aterrissagem da categoria padrão e da página de resultados da pesquisa](category-search-page-overview.md)
 
 [Gerenciar metadados de SEO](manage-seo-metadata.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -300,3 +300,6 @@ Para obter mais informações sobre itens do menu do dispositivo móvel, consult
 Para obter mais informações sobre o recebimento da placa de licença e políticas de trabalho, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](warehousing-mobile-device-app-license-plate-receiving.md).
 
 Para obter mais informações sobre o gerenciamento de carga de entrada, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](inbound-load-handling.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

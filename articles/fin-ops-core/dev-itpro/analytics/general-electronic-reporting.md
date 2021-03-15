@@ -298,3 +298,6 @@ A lista de configurações de er para finanças é constantemente atualizada. Ab
 
 - [Criar configurações de Relatório eletrônico (ER)](electronic-reporting-configuration.md)
 - [Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

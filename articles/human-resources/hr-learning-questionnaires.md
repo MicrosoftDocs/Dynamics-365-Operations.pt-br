@@ -44,3 +44,6 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 | [Criar um questionário](hr-learning-design-questionnaires.md) | Este artigo fornece informações sobre como criar um questionário. O processo de criação envolve a configuração de pré-requisitos, respostas e perguntas, e a combinação deles em um questionário. |
 | [Distribuir e agendar questionários](hr-learning-distribute-questionnaires.md) | Este artigo fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários. |
 | [Exibir e avaliar os resultados de um questionário](hr-learning-evaluate-questionnaire-results.md) | Este artigo fornece informações sobre como avaliar resultados de questionários preenchidos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

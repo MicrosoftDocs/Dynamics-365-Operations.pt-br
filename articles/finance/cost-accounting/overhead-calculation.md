@@ -1414,3 +1414,6 @@ Na contabilidade financeira, um custo de 10,000.00 para a eletricidade é lança
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

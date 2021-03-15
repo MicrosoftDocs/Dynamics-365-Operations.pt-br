@@ -38,3 +38,6 @@ Este procedimento orienta como criar um novo produto na Hierarquia de produtos d
 8. No campo Número do produto, digite um valor.
 9. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

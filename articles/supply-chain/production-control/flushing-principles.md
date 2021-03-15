@@ -62,3 +62,6 @@ O princípio de liberação Final indica se o material será automaticamente con
 
 ### <a name="available-at-location"></a>Disponível no local
 O princípio de liberação Disponível no local indica se o material será automaticamente consumido quando for registrado como separado para produção. O material é registrado como separado do local quando o trabalho da separação de matéria-prima é concluído ou quando o material está disponível no local de entrada de produção e a linha de material é liberada para o depósito. A lista de separação gerada durante o processo é lançada em um trabalho em lotes. Esse princípio será relevante se, por exemplo, você tiver diversas atividades de separação em uma ordem de produção. Nesse caso, você não precisará atualizar a lista de separação manualmente e poderá obter uma exibição atual do saldo WIP.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

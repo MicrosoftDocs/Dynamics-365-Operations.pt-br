@@ -57,3 +57,6 @@ Quando você gera o relatório, os seguintes campos padrão são disponibilizado
 Para mostrar apenas contas não fiscais no relatório, configure uma condição de filtro, como um asterisco (\*), conforme mostrado na ilustração a seguir.
 
 ![Relatório mostrando contas não fiscais](media/taxspecperledgertrans.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

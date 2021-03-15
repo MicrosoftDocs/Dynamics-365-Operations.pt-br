@@ -85,3 +85,6 @@ Quando você estiver configurando limites de tempo de cobertura, considere os se
 - A demanda intercompanhia será ignorada se a data de remessa solicitada calculada não estiver dentro do limite de tempo de cobertura. Observe que, para planejamento mestre interno, a demanda intercompanhia não é limitada pelo limite de tempo de cobertura.
 - As previsões de demanda serão ignoradas se a data de orçamento não estiver dentro do limite de tempo de cobertura. Observe que, para planejamento mestre interno, as previsões de demanda não são limitadas pelo limite de tempo de cobertura.
 - A otimização do planejamento reconhece o fuso horário. Ele considera o fuso horário nos sites de fornecimento e demanda e o tempo de execução do planejamento. Por exemplo, o planejamento mestre é acionado às 11h de 15 de outubro de um site na Dinamarca (fuso horário GMT+1) e um limite de tempo de cobertura de dez dias é usado. Neste caso, o fornecimento e a demanda de um site em Seattle (fuso horário GMT-8) é incluído até 2h de 25 de outubro (= 10 dias de 24h após o planejamento mestre ter sido acionado, menos a diferença de fuso horário de nove horas). Observe que o mecanismo de planejamento mestre interno considera somente a data do limite de tempo. Portanto, o resultado pode ser diferente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

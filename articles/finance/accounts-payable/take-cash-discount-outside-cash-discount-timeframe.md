@@ -90,3 +90,6 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

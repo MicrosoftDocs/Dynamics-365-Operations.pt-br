@@ -185,3 +185,6 @@ Para obter mais informações, consulte [Opções de cálculo de intervalo e val
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

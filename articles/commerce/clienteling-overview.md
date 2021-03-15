@@ -132,3 +132,6 @@ Depois de atualizar os campos, selecione **Validar** para garantir que o segredo
 8. No Commerce, na página **Parâmetros do Commerce**, na guia **Clientes**, na FastTab **Dynamics 365 Customer Insights**, defina a **ID do aplicativo** como "CI_Access_AppID" (da etapa 1 acima). Em **Nome do segredo**, selecione o nome do segredo inserido na etapa 7 acima ("CISecret"). Defina a opção **Habilitar Customer Insights** como **Sim**. Se, por algum motivo, a configuração for malsucedida, uma mensagem de erro será exibida e a opção será definida como **Não**. 
 
 Você pode ter vários ambientes no Customer Insights, como o de teste e o de produção. No campo **ID da instância de ambiente**, insira o ambiente apropriado. No campo **ID de cliente alternativo**, informe a propriedade no Customer Insights que está mapeada para o número da conta do cliente. (No Commerce, o número da conta do cliente é a ID do cliente.) As três propriedades restantes são as medidas que serão mostradas no cartão de cliente no registro do cliente. É possível selecionar até três medidas a serem exibidas no cartão do cliente. No entanto, não é necessário selecionar medidas. Como mencionado antes, o sistema mostra esses valores primeiro e, depois, mostra os valores para o grupo de atributos de registro de clientes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

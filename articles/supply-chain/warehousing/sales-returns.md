@@ -330,3 +330,6 @@ Nesse exemplo, a linha da ordem de devolução é criada utilizando a função *
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

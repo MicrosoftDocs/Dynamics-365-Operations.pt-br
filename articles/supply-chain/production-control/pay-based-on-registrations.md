@@ -598,3 +598,6 @@ Se o trabalhador não aparece para trabalhar em um dia útil, e não há ausênc
 - Inserção automática de ausência
 
 Quando os registros diários são calculados para um trabalhador que está habilitado para horas flexíveis, o código de ausência especificado no campo **Inserção automática de flex-** é usado como um código de ausência padrão. Se o trabalhador não está habilitado para horas flexíveis, o código de ausência especificado no campo **Inserção automática de ausência** é usado. Se uma empresa tem uma combinação de trabalhadores habilitados para horas flexíveis e trabalhadores não habilitados para horas flexíveis, ambos os parâmetros devem ser definidos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

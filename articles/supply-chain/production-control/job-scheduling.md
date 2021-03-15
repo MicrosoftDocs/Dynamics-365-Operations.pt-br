@@ -76,3 +76,6 @@ O agendamento de trabalho considera as porcentagens de eficiência que são espe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

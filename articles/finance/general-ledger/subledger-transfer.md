@@ -41,3 +41,6 @@ As opções a seguir estão disponíveis para transferir lotes do razão auxilia
 Na versão 10.0.8, foram feitas melhorias para aprimorar o desempenho da opção Assíncrona. Este recurso está habilitado com o nome **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade**. 
  
 Esta funcionalidade aprimora a transferência de dados do razão auxiliar para a contabilidade. Ela permite que o processo seja mais eficiente e agrupa conjuntos de transações menores para a transferência. Isto permite um uso mais eficiente do servidor de lote. Esta funcionalidade requer que o servidor de lote esteja configurado, conectado e funcionando para que a opção de transferência Assíncrona seja executada corretamente. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

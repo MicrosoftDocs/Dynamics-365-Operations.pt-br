@@ -75,3 +75,6 @@ Adicionalmente, considere que a compensação máxima no valor de estoque físic
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

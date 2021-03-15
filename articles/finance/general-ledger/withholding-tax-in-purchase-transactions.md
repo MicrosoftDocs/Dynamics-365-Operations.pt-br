@@ -75,3 +75,6 @@ O imposto retido na fonte é calculado no **Diário de pagamentos do fornecedor*
 O valor do imposto retido na fonte derivado será deduzido do pagamento do fornecedor e lançado na **Conta do imposto retido na fonte** em um comprovante relacionado.
 
 ![Conta do imposto retido na fonte mostrando um comprovante relacionado](media/withholding-tax-adjusted.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

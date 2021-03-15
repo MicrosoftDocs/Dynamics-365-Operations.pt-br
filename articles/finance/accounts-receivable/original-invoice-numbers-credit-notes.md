@@ -97,3 +97,6 @@ Quando você imprime notas de crédito de texto livre, cliente e projeto, elas i
 
 > [!NOTE]
 > Verifique se os formatos imprimíveis dos documentos estão configurados corretamente, supondo que as referências a faturas originais serão impressas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

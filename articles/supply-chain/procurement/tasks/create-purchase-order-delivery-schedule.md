@@ -73,3 +73,6 @@ A ordem de compra deve ser confirmada antes de o recibo do produto ser processad
 6. Recolha a seção **Linhas**.
 7. Selecione **OK** para lançar o recibo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

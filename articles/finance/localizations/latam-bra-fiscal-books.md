@@ -54,3 +54,6 @@ O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração
 -   [Nota fiscal eletrônica para serviços](latam-bra-service-electronic-fiscal-document.md)   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

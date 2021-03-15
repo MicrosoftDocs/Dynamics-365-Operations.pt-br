@@ -92,3 +92,6 @@ A imagem a seguir mostra um exemplo de um carrinho mostrando uma mensagem de em 
 [Módulo de seletor de loja](store-selector.md)
 
 [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -217,3 +217,6 @@ As exceções de trabalho controlam o comportamento da separação insuficiente.
 1. Selecione **Separação insuficiente**.
 1. Selecione o código de exceção do trabalho que você criou para este cenário.
 1. Se você selecionou a exceção correta, a caixa de seleção **Anular e reimprimir** deverá estar disponível. Marque esta caixa e confirme. Após a confirmação, a sequência do rolo de etiquetas identificada pelo campo **ID de criação da etiqueta** é recalculada com base na quantidade da linha do trabalho alterada. Em seguida, ele será reimpressa na impressora especificada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

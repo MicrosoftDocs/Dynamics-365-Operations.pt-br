@@ -238,3 +238,6 @@ Você pode configurar o sistema para redefinir automaticamente um contador sempr
 1. Acesse **Gerenciamento de ativos \> Configuração \> Ordens de serviço \> Estados de ciclo de vida**.
 1. No painel de lista, selecione o estado de ciclo de vida no qual o contador relevante deve ser redefinido.
 1. Na FastTab **Geral**, defina a opção **Redefinir contador** como *Sim*.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

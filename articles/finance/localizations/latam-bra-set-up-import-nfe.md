@@ -62,3 +62,6 @@ Os arquivos XML e DANFE importados podem ser exibidos na página **Documentos XM
 1. Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.
 2. No campo **Intervalo mínimo entre as consultas**, insira o intervalo mínimo em minutos entre as consultas da chave de acesso de NF-e recebida na SEFAZ.
 3. Se necessário, insira os parâmetros de processamento em lotes, as recorrências e a agenda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ A seguinte mensagem de erro pode ser exibida ao tentar habilitar os mapas:
 *Falha na gravação dupla - Falha no registro de plug-in: \[(Não foi possível obter mapa de partição para o projeto DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea. Erro excede as partições máximas permitidas para mapeamento de DWM-1ae35e60-4bc2-4905-88ea-69efd3b29260-7f12cb89-1550-42e2-858e-4761fc1443ea)\], Um ou mais erros ocorreram.*
 
 O limite atual ao vincular os ambientes é de aproximadamente 40 tabelas legais. Este erro ocorre se você tentar habilitar mapas, e mais de 40 tabelas legais serão vinculadas entre os ambientes.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

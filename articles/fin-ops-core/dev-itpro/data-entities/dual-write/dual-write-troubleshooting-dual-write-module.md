@@ -87,3 +87,6 @@ A correção desse erro depende da causa do erro:
 
 + Se o mapeamento tiver mapeamentos dependentes, certifique-se de habilitar os mapeamentos dependentes deste mapeamento de tabela.
 + Pode haver colunas de origem ou de destino ausentes no mapeamento. Se um campo no aplicativo Finance and Operations estiver ausente, siga as etapas na seção [Problemas de campos de entidade ausentes nos mapas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se a coluna no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que as colunas sejam automaticamente preenchidas no mapeamento.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

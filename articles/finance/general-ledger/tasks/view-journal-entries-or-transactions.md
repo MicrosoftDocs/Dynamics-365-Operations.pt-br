@@ -42,3 +42,6 @@ Este procedimento mostra como usar a consulta das transações de comprovante pa
 12. No Painel de Ação, clique em **Documento original**.
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

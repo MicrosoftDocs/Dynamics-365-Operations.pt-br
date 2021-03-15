@@ -205,3 +205,6 @@ A ilustração a seguir mostra como o designer de aplicativos lógico é parecid
 Neste tutorial, você aprendeu a usar um aplicativo lógico para exportar dados de recursos humanos e salvar os dados exportados em uma pasta OneDrive for Business. Você pode modificar as etapas deste tutorial conforme necessário para atender às suas necessidades comerciais.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

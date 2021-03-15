@@ -182,3 +182,6 @@ O mapeamento de modelo **Cópia de InvoiceProject** da configuração **Mapeamen
 - [Gerenciar o mapeamento do modelo ER em configurações ER separadas](./tasks/er-manage-model-mapping-configurations-july-2017.md)
 - [Configurar mapeamentos do modelo ER dependente do contexto do país/região](er-country-dependent-model-mapping.md)
 - [Alteração na API da estrutura de Relatório eletrônico](er-apis-app10-0-11.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

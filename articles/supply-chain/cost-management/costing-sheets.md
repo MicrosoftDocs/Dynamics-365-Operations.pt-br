@@ -49,3 +49,6 @@ A folha de custos é exibida como parte da página **Calcular custo do item**. A
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

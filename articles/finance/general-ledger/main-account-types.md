@@ -40,3 +40,6 @@ Para saber mais, consulte [Configurar categorias da conta principal](tasks/set-u
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

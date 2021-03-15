@@ -186,3 +186,6 @@ Há duas exceções à regra de que as ordens de lote são aplicáveis ao balanc
 1. Se a unidade de medida da fórmula for diferente da unidade de medida do estoque do princípio ativo, a ordem de lote não será aplicável ao balanceamento de lotes.
 
 Uma ordem de lote não aplicável ao balanceamento de lote passa pelo ciclo de processo normal para ordens de lote.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

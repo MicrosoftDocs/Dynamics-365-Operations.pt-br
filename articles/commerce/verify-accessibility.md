@@ -86,3 +86,6 @@ Para usar o serviço integrado do [Microsoft Accessibility Insights](https://acc
 [Enriquecer uma página de aterrissagem da categoria](enrich-category-page.md)
 
 [Criar páginas dinâmicas de comércio eletrônico com base nos parâmetros da URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

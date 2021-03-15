@@ -295,3 +295,6 @@ Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado
 ## <a name="notes-and-tips"></a>Observações e dicas
 
 Nos casos em que a ID do cluster se torna a placa de licença pai de um palete aninhado, a posição de put é automaticamente fornecida quando a ID do cluster é verificada. Nenhuma placa de licença adicional deverá ser verificada, mesmo se a geração da placa de licenças estiver definida como manual.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

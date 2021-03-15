@@ -81,3 +81,6 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
     - A Conta de provisão de reembolso foi creditada para representar o passivo futuro com o cliente.
     - A Conta de despesa de reembolso foi debitada, em reconhecimento dos custos contraídos em conexão com as vendas.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -118,3 +118,6 @@ Para revisar o histórico do fluxo de trabalho para um diário:
 1. No painel de navegação, expanda **Gerenciamento de estoque \> Entradas de diários \> Itens** e selecione um tipo de diário de estoque.
 1. Abra o diário relevante.
 1. Selecione o botão **Fluxo de trabalho** no painel de ações para abrir uma caixa de diálogo suspensa. Selecione **Histórico do fluxo de trabalho**. Para obter mais informações, consulte [Exibir histórico do fluxo de trabalho](../../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Se você precisar relatar as pessoas cobertas porque fornece cobertura auto-segu
 
 > [!NOTE]
 > Somente planos de benefícios marcados como **Pode ser relatado segundo a ACA** são exibidos na janela de consulta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

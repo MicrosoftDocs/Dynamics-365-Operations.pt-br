@@ -85,3 +85,6 @@ Quando vários modos de entrega de retirada estiverem disponíveis para um canal
 ## <a name="considerations-for-distributed-order-management"></a>Considerações para o gerenciamento de ordem distribuído
 
 Os recursos de [gerenciamento de ordem distribuído (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) no Commerce ignoram as linhas de venda marcadas para retirada na loja. Esses recursos foram atualizados para garantir que as linhas de venda vinculadas a modos de entrega de retirada configurados ignorem a lógica DOM e não sejam realocadas para um novo depósito de atendimento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

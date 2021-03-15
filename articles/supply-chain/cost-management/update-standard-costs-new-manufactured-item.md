@@ -52,3 +52,6 @@ Para adicionar novos itens de fabricação por todo o período de congelamento, 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

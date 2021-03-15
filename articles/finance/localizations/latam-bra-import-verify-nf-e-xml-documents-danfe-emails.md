@@ -65,3 +65,6 @@ Na página **Documentos XML de NF-e recebidos**, selecione **Lançados** para ve
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

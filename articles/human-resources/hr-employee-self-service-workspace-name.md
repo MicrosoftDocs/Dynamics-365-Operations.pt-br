@@ -45,3 +45,6 @@ Se você tem voluntários ou outras pessoas que não são funcionários, convém
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Visão geral do autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

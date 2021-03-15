@@ -71,3 +71,6 @@ Use esta funcionalidade para registrar no módulo Livros fiscais a alienação d
 14. No **Relatório CIAP**, no campo **Estabelecimento fiscal**, selecione um estabelecimento fiscal.
 15. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -145,3 +145,6 @@ Esta é a saída resultante.
 | IA0001 | 1 | 2 | 2 |
 
 Observe que as configurações no painel **Filtros** se aplicam à tabela de estoque detalhada (não agregada) que é mostrada no início desta seção. Portanto, o critério **Disponível Físico** \| **menor ou igual a** \| _1_ localiza duas linhas dessa tabela (a primeira e terceira linhas, cada uma mostra um valor **Físico Disponível** de _1_). No entanto, nesse cenário, a página **Lista disponível** não é configurada para mostrar a dimensão do **Depósito**. Portanto, ela agrega as duas linhas originais em uma única linha resultante, porque ambas as linhas têm valores idênticos em todas as dimensões que são mostradas. Essa linha parece violar o critério de filtragem, porque o valor **Físico Disponível** é mostrado como _2_. No entanto, o resultado está correto, pois as configurações no painel **Filtros** se aplicam à tabela de origem, não à tabela agregada que é mostrada na página **Lista disponível**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

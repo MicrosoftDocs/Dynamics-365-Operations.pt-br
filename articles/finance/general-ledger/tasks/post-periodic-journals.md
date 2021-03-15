@@ -57,3 +57,6 @@ Os diários periódicos são as vezes chamados diários de devolução porque o 
 27. No campo **Número de diário periódico**, insira ou selecione um valor.
 28. Na lista, clique no link na linha selecionada.
 29. Clique em **OK**. O diário do período pode então ser revisto aprovado ou lançado, dependendo do requisito e da configuração.   
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

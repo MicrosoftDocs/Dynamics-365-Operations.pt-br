@@ -54,3 +54,6 @@ Para obter treinamento sobre recursos compartilhados com outros aplicativos Fina
 | Conteúdo  | descrição | Formatar  | Extensão    |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------|---------------------------------------------------------------------------|
 | [Configurar e trabalhar com comércio eletrônico no Dynamics 365 Commerce](https://docs.microsoft.com/learn/paths/configure-work-e-commerce/) | Os canais online e o site de comércio eletrônico do Dynamics 365 Commerce permitem que os varejistas criem uma presença online da marca. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

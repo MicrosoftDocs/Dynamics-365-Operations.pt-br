@@ -57,3 +57,6 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | Razões                   | Razões que podem ser usados para filtrar relatório para o razão atual              |
 | Códigos de orçamento              | Códigos de orçamento para filtrar relatórios                                                |
 | Entidades legais            | Entidades legais que podem ser usadas para filtrar relatório para a entidade legal atual |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

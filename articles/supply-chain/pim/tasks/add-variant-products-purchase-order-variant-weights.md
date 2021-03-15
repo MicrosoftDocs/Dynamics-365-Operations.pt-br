@@ -47,3 +47,6 @@ Este procedimento mostra as etapas para usar pesos de variante para preencher au
 17. Defina a quantidade como '1000'.
 18. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

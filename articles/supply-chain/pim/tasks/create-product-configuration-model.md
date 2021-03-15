@@ -82,3 +82,6 @@ Este procedimento mostra como criar um modelo de configuração do produto e esp
 17. No campo Por série, insira um número.
 18. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

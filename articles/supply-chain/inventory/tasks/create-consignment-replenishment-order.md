@@ -61,3 +61,6 @@ Este tópico explica como criar uma ordem de reabastecimento de remessa que poss
 3. Selecione **Visão Geral**. Os itens recebidos como o estoque de remessa possuído por fornecedor disponíveis disponível. A quantidade pendente na ordem de reabastecimento da consignação é mostrada no campo **Total encomendado**.  
 4. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

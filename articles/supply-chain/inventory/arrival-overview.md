@@ -120,3 +120,6 @@ Quando todos os bens forem registrados, o gerente de depósito ou o gerente de c
 
 ## <a name="summary"></a>Resumo
 A página **Visão geral de entrada** pode ajudar o gerente de depósito e os trabalhadores do depósito a obter uma visão geral do trabalho esperado que deve ser executado como parte de um processo de entrada. A página também pode ser usada para iniciar o processo de entrada de item, para ajudar a garantir que os itens sejam rastreados na primeira entrada no depósito.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

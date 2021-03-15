@@ -53,3 +53,6 @@ Este procedimento mostra como criar um plano intercompanhia. A empresa de dados 
 2. Na lista, clique no link na linha selecionada. Clique no link para StaticPlan. Você precisa estar na empresa USMF.  
 3. Clique em **Ordens planejadas**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

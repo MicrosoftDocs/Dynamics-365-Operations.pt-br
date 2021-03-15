@@ -63,3 +63,6 @@ A página **Análise** fornece métricas importante sobre contas bancárias da e
 -   Saldo por moeda
 
 Você pode exibir a análise do banco em todas as empresas do espaço trabalho **Visão geral de caixa – todas as empresas**. Para obter mais informações, consulte [Conteúdo de visão geral do caixa do Power BI](Cash-Overview-Power-BI-content.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Este procedimento orienta como definir um esquema de fidelidade. Os esquemas de 
 27. Clique em Salvar.
     * Sempre que alterar os canais para um esquema de fidelidade, você deve executar Processar esquemas de fidelidade. Dessa forma, os canais terão esquemas de fidelidade atualizados.  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

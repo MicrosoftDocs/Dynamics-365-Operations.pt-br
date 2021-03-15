@@ -70,3 +70,6 @@ Use a página **Exportar** (**Administração do sistema \> Espaços de trabalho
 5. Selecione **OK** para executar a exportação.
 
 Quando a exportação for concluída, você receberá uma mensagem mostrando o número de registros salvos em cada arquivo. Você poderá importar os arquivos para a entidade legal consolidada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

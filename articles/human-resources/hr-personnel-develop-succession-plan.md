@@ -56,3 +56,6 @@ ms.locfileid: "5130196"
 27. Selecione **Resultado**.
 28. Selecione **Relatório**. O relatório lista os melhores resultados na parte superior do relatório. Você pode ver um elemento do intervalo listado. Um intervalo é a diferença entre o nível de mapeamento de habilidades e o nível de habilidade da pessoa.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

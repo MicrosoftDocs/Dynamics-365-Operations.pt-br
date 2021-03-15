@@ -52,3 +52,6 @@ Verifique se as medidas "Medida de fluxo de caixa V2" e "LedgerCovLiquidityMeasu
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>As entidades do Repositório de entidades foram atualizadas?
 
 Você deve atualizar as entidades periodicamente para garantir que os dados sejam atuais e precisos. Para atualizar manualmente uma entidade específica, acesse **Administração do sistema \> Configuração \> Repositório de entidades**, selecione a entidade e, depois, selecione **Atualizar**. Os dados também podem ser atualizados automaticamente. Na página **Repositório de entidades**, defina a opção **Atualização automática habilitada** como **Sim**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

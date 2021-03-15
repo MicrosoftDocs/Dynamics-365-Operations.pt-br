@@ -150,3 +150,6 @@ Esta guia rápida destaca o impacto da alternativa de entrega selecionada. Se vo
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Promessa de ordem](delivery-dates-available-promise-calculations.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

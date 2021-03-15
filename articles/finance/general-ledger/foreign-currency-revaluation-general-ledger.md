@@ -112,3 +112,6 @@ Você pode reverter os resultados da ordem de reavaliação desatualizada, mas t
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Nos casos em que uma nova versão do mesmo arquivo ou um arquivo completamente n
 ## <a name="upload-a-file-using-run-project"></a>Carregar um arquivo usando Executar projeto
 
 Você pode carregar um arquivo do Excel ao usar a opção **Executar projeto** para executar um projeto de importação. Tenha cautela ao carregar somente arquivos que têm as mesmas planilhas que os mapeamentos existentes nas entidades de dados no projeto de dados. Se a planilha não for encontrada no arquivo recém-carregado, o sistema exibirá um erro e interromperá a importação. Se o mapeamento para a planilha tiver que ser alterado para uma entidade, então os mapeamentos no projeto de dados devem ser atualizados primeiro dentro do projeto de dados, antes de usar o arquivo na experiência **Executar projeto**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Ao criar transações de reembolso, uma fatura de fornecedor é criada para o va
 
 5. Para exibir as transações de reembolso criadas, use o relatório **Reembolso** (**Contas a Receber \> Consultas e relatórios \> relatório Reembolso**).
 6. Em Contas a pagar, crie um pagamento para as faturas de fornecedor que foram criadas pelo processo de reembolso. Para obter informações sobre como pagar fornecedores, consulte [Visão geral de pagamentos do fornecedor](../accounts-payable/Vendor-payments-workspace.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

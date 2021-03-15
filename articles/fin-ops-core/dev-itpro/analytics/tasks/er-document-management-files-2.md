@@ -91,3 +91,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 26. Clique em Concluir.
 27. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

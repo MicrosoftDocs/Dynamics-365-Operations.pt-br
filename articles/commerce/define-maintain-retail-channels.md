@@ -88,3 +88,6 @@ O Commerce usa hierarquias da organização para estruturar canais. As hierarqui
 > [!NOTE]
 > Para usar a funcionalidade de vendas do Commerce, a chave de configuração **Diversos endereços de remessa** deve estar habilitada. Essa chave de configuração pode ser encontrada nas chaves **Configuração de troca** em **Administração do sistema**\> **Configuração** \> **Configurações do sistema**. Isso é necessário devido a várias validações com base no endereço de entrega configurado no nível da linha da ordem de venda.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Como os dados da tabela **Produtos** são projetados para fluir do aplicativo Fi
 ## <a name="quote-and-quote-product-tables"></a>Tabelas de Cotação e Produto da cotação
 
 Para a tabela **Cotação**, siga as instruções na seção [Tabela de ordens](#order-table) anterior neste tópico. Para a tabela **Produto da cotação**, siga as instruções na seção [Tabela de produtos da ordem](#order-products-table).
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

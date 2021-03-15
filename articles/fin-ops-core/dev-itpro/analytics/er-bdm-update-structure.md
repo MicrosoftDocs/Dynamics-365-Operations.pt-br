@@ -106,3 +106,6 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Visão geral de gerenciamento de documentos comerciais](er-business-document-management.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

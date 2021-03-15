@@ -87,3 +87,6 @@ As seguintes oito guias de tarefa são listadas na ordem em que devem ser conclu
 7.  [Criar regras de configuração](tasks/create-configuration-rules.md)
 8.  [Criar configurações baseadas em dimensão](tasks/create-dimension-based-configurations.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

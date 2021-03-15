@@ -154,3 +154,6 @@ As principais dimensões a seguir no conteúdo são usadas como filtros para cor
 | Datas                  | Datas, Compensação anual                                    |
 
 Por padrão, o conteúdo exibe dados do ano atual. Entretanto, poderá modificar o filtro de data na seção filtros de relatório. Você também pode alterar o filtro da empresa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

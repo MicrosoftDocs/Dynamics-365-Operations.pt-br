@@ -146,3 +146,6 @@ A imagem a seguir mostra detalhes de um depósito configurado.
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Objetos de serviço são os ativos e os produtos de um cliente para o qual você
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

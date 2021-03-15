@@ -68,3 +68,6 @@ public final class InventOnHandAggregatedViewBuilder\_Extension
 ```
 
 Depois de concluir essas etapas, você pode estender o estoque disponível por site e estoque disponível, por entidades de dados de depósito, adicionando os novos campos. Dessa forma, você garante que os campos estendidos sejam reconhecidos e incluídos durante a migração de dados que usa essas entidades de dados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

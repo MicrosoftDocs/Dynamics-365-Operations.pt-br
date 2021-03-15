@@ -151,3 +151,6 @@ Você pode controlar o número de transações do razão que são criadas quando
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

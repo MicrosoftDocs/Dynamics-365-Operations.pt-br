@@ -85,3 +85,6 @@ Para restaurar o ambiente:
 
 > [!Warning]
 > Os ambientes do Power Apps só são salvos por sete dias após a exclusão. Você deve recuperar o ambiente no período de sete dias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

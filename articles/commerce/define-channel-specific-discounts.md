@@ -61,3 +61,6 @@ O exemplo a seguir ilustra as tarefas envolvidas na configuração de um descont
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Ajustes de preços e descontos](price-adjustments-discounts.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

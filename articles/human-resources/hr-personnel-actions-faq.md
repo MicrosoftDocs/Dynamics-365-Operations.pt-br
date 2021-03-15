@@ -92,3 +92,6 @@ Por exemplo:
 - A data de vigência de uma ação **Contratar um trabalhador** é a data que você inseriu no campo **Data de início do funcionário**.
 - A data de vigência de uma ação **Transferir um trabalhador** é a data que você inseriu no campo **Data inicial da atribuição** para o trabalhador.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

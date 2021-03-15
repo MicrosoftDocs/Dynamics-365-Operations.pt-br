@@ -69,3 +69,6 @@ Você pode especificar quais status de estoque estão bloqueando os status usand
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [Verificar a qualidade de mercadorias](tasks/inspect-quality-goods.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

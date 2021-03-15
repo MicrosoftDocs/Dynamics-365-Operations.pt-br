@@ -99,3 +99,6 @@ Este procedimento orienta como criar um novo canal de comércio e definir atribu
 65. Clique em Salvar.
 66. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

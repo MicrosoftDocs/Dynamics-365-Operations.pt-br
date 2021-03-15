@@ -61,3 +61,6 @@ O campo **Alocação de custo de subproduto** na página **Coprodutos** é um ca
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

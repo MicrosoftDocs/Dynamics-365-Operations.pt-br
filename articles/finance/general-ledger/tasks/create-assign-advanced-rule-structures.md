@@ -58,3 +58,6 @@ Este tópico explica como criar e atribuir uma estrutura de regras avançada a u
 17. Feche a página.
 18. Selecione **Ativar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

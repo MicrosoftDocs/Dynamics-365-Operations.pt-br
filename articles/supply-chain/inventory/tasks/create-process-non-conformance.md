@@ -66,3 +66,6 @@ Este tópico explica como executar o gerenciamento de não conformidades, com ba
 2. Selecione **Fechar não conformidade**.
 3. Selecione **Sim**.
 4. Feche as páginas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

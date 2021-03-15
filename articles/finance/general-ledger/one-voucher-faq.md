@@ -51,3 +51,6 @@ Em cada novo recurso, os clientes devem assistir ao Plano de versão e à docume
 ## <a name="when-the-deprecation-date-is-identified-where-will-it-be-communicated"></a>Quando a data de substituição for identificada, onde ela será comunicada?
 
 A substituição de um comprovante é uma alteração significativa que será amplamente comunicada. Ela será comunicada por meio da documentação do produto, uma postagem de blog e anúncios nas conferências da Microsoft aplicáveis, bem antes da data em que a substituição entrar em vigor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

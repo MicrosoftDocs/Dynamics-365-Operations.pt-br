@@ -94,3 +94,6 @@ Se você tiver definido o escopo do seu experimento como **inteiro** no assisten
 
 ## <a name="next-step"></a>Próxima etapa
 [Visualizar e publicar um experimento](experimentation-preview-publish.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

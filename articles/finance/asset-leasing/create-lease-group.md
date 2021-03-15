@@ -49,3 +49,6 @@ Depois de criar grupos de arrendamento, você pode atribuir registros a cada gru
 1. Acesse **Arrendamento de ativo \> Configuração \> Grupo de arrendamento**.
 2. Selecione um grupo de arrendamento e, em seguida, selecione **Registros**.
 3. Selecione **Novo** e, no campo **Tipo de registro**, selecione o registro a ser atribuído ao grupo de arrendamento. Caso seja necessário considerar um arrendamento de maneiras diferentes, você pode atribuir vários registros a um grupo de arrendamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

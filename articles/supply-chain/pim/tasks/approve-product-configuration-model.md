@@ -48,3 +48,6 @@ Executar este procedimento exige que pelo menos um modelo de configuração do p
     * Ative a versão do modelo de produto. Só é possível ter um produto ativo para um modelo de produto por vez.  
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

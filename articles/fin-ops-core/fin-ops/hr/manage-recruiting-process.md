@@ -103,3 +103,6 @@ As **Entrevistas de candidatos** podem ser agendadas na página **Solicitações
 ## <a name="hiring-applicants"></a>Candidatos de contratação
 
 Use a página **Solicitações de emprego** para contratar um candidato. Quando você contratar um candidato, o registro de solicitação de emprego terá o status **Empregado** e o registro pessoal no catálogo de endereços global do candidato será associado ao registro do novo trabalhador. As alterações nas informações do catálogo de endereços global para o registro de novos funcionários também são exibidos no registro do candidato. Isso pode ajudar a reduzir a entrada de dados se o novo trabalhador se candidatar a um trabalho diferente dentro de sua empresa. Para contratar um trabalhador existente em uma nova posição, clique em **Alterar posição** na lista suspensa **Status da solicitação de emprego** para iniciar o processo de transferência.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Este procedimento orienta na criação de um ajuste de preço comercial. Um ajus
 14. Feche a página.
 15. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

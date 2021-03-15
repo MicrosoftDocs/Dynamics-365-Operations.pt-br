@@ -32,3 +32,6 @@ Este tópico explica como alterar a data de uma sessão. Por padrão, a data atu
 2. No campo **Data**, insira uma data.
 3. Selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

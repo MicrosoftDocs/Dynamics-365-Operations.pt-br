@@ -48,3 +48,6 @@ Esse procedimento se concentra em alterar a regra kanban usada para um kanban es
 7. Clique em Finish (Concluir).
     * Agora o trabalho kanban está usando uma outra regra kanban. Isso pode ser útil para nivelar células de trabalho de carga.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

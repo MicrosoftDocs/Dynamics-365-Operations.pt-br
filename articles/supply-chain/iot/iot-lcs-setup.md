@@ -55,3 +55,6 @@ A configuração do LCS está concluída. A próxima etapa é [configurar os cen
 2. Em LCS, navegue até os detalhes do ambiente Supply Chain Management.
 3. Role até a seção **Suplementos de ambiente**.
 4. Selecione **Desinstalar** para o suplemento de inteligência IOT.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

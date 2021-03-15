@@ -64,3 +64,6 @@ Um novo recurso de processamento de cargas de entrada, *Recebimento a mais de qu
 1. Recebimento a mais de quantidade de carga
 
 Para obter mais informações, consulte [Lançar quantidades de produtos registrados nas ordens de compra](inbound-load-handling.md#post-registered-quantities).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

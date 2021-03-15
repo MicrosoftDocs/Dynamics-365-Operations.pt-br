@@ -94,3 +94,6 @@ Se todas as linhas de uma ordem de serviço estiverem marcadas com **Lançado**,
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

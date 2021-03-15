@@ -91,3 +91,6 @@ Após concluir o registro, selecione **Concluído** para lançar o diário e enc
 -   O material pode ser consumido em excesso. Por exemplo, se for estimado que o material será consumido com a quantidade de 100 libras, então pode ser consumido em excesso com uma quantidade de, por exemplo, 105 libras.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

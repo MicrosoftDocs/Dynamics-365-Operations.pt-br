@@ -134,3 +134,6 @@ A tabela a seguir resume como a consolidação de remessa funciona quando você 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

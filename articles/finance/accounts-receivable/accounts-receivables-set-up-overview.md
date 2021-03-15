@@ -109,3 +109,6 @@ Para obter mais informações, consulte [Crédito e cobranças em Contas a receb
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

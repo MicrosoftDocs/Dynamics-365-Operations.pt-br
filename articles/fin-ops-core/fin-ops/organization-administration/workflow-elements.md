@@ -89,3 +89,6 @@ Uma *atividade paralela* é um elemento de fluxo de trabalho que inclui duas ou 
 ### <a name="subworkflow"></a>Subfluxo de trabalho
 
 Um *subfluxo de trabalho* é um fluxo de trabalho executado no contexto de outro fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

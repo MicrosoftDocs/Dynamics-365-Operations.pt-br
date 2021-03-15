@@ -51,3 +51,6 @@ Este procedimento mostra como evitar que o estoque físico disponível seja rese
 2. Clique em **Sim**.
 3. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

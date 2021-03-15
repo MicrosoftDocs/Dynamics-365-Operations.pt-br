@@ -138,3 +138,6 @@ Um usuário do Commerce segue o fluxo de trabalho para calcular, aprovar e trans
 - Registrar ausência
 
 Para obter mais informações sobre como processar registros de tempo e presença, consulte [Processar os registros de tempo e presença](https://technet.microsoft.com/library/aa573180.aspx).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

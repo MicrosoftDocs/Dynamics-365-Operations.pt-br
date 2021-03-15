@@ -69,3 +69,6 @@ Se o número de linhas do comprovantes for 100 ou menos, o processo de reversão
 
 As transações podem ser revertidas somente se atenderem às regras de negócio para a reversão. Os pagamentos de fornecedores não podem ser revertidos usando o recurso descrito neste tópico. Os pagamentos de fornecedores devem ser revertidos de acordo com as etapas listadas em [Reverter um pagamento de fornecedor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

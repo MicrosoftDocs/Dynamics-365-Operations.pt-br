@@ -64,3 +64,6 @@ O sistema prioriza a configuração do cabeçalho do diário. Por padrão, essa 
 4. Na guia **Setup**, defina a opção **Cálculo de impostos atrasados** como **Sim**.
 
 ![Imagem da página Diário geral](media/delayed-tax-calculation-journal-header.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

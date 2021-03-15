@@ -104,3 +104,6 @@ Com base nos campos que você selecionou para incluir no diagrama, cada nó most
 **Opção adicional**
 
 No Human Resources, você também pode usar o espaço de trabalho **Pessoas** para exibir algumas informações relativas à hierarquia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

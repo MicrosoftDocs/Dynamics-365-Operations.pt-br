@@ -83,3 +83,6 @@ Siga estas etapas para revisar as remessas que foram criadas.
 
 - [Políticas de consolidação da remessa](about-shipment-consolidation-policies.md)
 - [Configurar políticas de consolidação de remessa](configure-shipment-consolidation-policies.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

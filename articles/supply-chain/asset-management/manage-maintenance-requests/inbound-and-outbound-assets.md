@@ -70,3 +70,6 @@ Quando terminar o trabalho de manutenção ou de reparo, você pode registrar o 
 2. Selecione o ativo ou a solicitação de manutenção.
 3. Selecione **Entregar ativos**.
 4. No campo **Entregue**, insira a data e a hora. Em seguida, selecione **OK**. O registro é removido da página de lista **Ativos de saída**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Esse procedimento se concentra em validar a árvore de vinculação de uma linha
 5. Na árvore, selecione 'Linha de venda 000832\Kanban 000558\Saída para L0001\Kanban 000559'.
     * O trabalho para o segundo kanban também é planejado porque a árvore inteira de vinculação é planejada. Observe que o status do trabalho kanban é alterado de Não planejado para Planejado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

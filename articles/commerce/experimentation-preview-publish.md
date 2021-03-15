@@ -59,3 +59,6 @@ Ao usar grupos de publicação com experimentos, há algumas considerações imp
 
 ## <a name="next-step"></a>Próxima etapa
 [Executar e monitorar um experimento](experimentation-run-monitor.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

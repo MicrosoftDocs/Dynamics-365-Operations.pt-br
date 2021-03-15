@@ -96,3 +96,6 @@ Os espaços reservados de texto de nota fiscal são marcas predefinidas que repr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

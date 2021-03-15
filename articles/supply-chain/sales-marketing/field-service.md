@@ -84,3 +84,6 @@ Para usar a solução de integração do Field Service, você deve instalar os s
 - Field Service (versão 8.2.0.286) ou versão posterior no Dynamics 365 9.1.x - lançado em novembro de 2018
 - Solução P2C (Prospect to Cash) para Dynamics 365, versão 1.15.0.1 ou uma versão posterior. A solução está disponível para download no [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3).
 - Solução 'Integração, projeto e estoque do Field Service' para o Dynamics 365, versão 2.0.0.0 ou uma versão posterior. A solução está disponível para download no [AppSource](https://appsource.microsoft.com/product/dynamics-365/mscrm.p2cfieldserviceintegrationv2).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

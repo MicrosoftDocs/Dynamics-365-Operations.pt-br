@@ -70,3 +70,6 @@ A extensão do limite de tempo é uma exceção à norma e é considerada caso a
 [Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce](cpe-bopis.md)
 
 [Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce](cpe-optional-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

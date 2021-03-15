@@ -127,3 +127,6 @@ Neste exemplo, qualquer conta que está parte da estrutura de conta - L&P coinci
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -534,3 +534,6 @@ As variações a seguir podem ser realizadas para o cenário 1, com base nos req
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

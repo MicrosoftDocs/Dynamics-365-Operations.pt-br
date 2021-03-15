@@ -79,3 +79,6 @@ Os clientes que desejarem alterar os itens existentes para um modelo de estoque 
 
 - [Como configurar os custos padrão para materiais diretos no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
 - [Custos de mão-de-obra diretos padrão no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

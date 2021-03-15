@@ -89,3 +89,6 @@ A tabela a seguir fornece exemplos que mostram como várias configurações para
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Contratos de compra](../../procurement/purchase-agreements.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

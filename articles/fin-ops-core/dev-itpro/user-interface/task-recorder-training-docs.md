@@ -123,3 +123,6 @@ Você pode baixar e editar gravações de tarefas da Microsoft para utilizá-las
 [Gravador de Tarefas](task-recorder.md)
 
 [Crie tópicos de ajuda detalhados com o Gravador de tarefas (link externo)](https://mbspartner.microsoft.com/AX/Videos/970)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Para configurar métodos de pagamento, conclua as tarefas a seguir.
 2. Criar tipos e números de cartão no nível da organização. Se cartões de crédito ou de débito forem aceitos, você deve criar um tipo de método de pagamento com cartões e os tipos e números de cartão no nível da organização.
 3. Configurar método de pagamento da loja. Associe métodos de pagamento a cada loja e insira as configurações específicas da loja para cada método de pagamento.
 4. Configurar métodos de pagamento de cartão para lojas. Para todos os métodos de pagamento de cartão que a loja aceita, conclua a configuração do cartão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

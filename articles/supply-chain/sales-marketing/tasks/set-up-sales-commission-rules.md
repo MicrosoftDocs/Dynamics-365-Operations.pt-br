@@ -95,3 +95,6 @@ Este procedimento mostra como configurar e habilitar cálculo e controle de vend
 17. Na lista, selecione o grupo de comissões que você criou antes.
 18. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

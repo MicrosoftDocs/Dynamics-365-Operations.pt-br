@@ -54,3 +54,6 @@ Esse procedimento cria regras de configuração que podem ser usadas na configur
     * Selecione o número de item que será selecionado ou desmarcado de acordo com o método escolhido.  
 18. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

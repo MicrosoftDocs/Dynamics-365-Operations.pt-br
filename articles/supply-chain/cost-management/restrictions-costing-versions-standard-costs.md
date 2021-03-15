@@ -50,3 +50,6 @@ Os dados de custo de item para custos padrão podem ser copiados em outra versã
 
 [Preparar para manter custos padrão para itens fabricados](update-standard-costs-manufacturing-environment.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

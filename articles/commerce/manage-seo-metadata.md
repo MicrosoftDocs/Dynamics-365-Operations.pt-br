@@ -96,3 +96,6 @@ Para modificar os metadados da página, siga estas etapas.
 [Verificar acessibilidade do conteúdo da página](verify-accessibility.md)
 
 [Criar páginas dinâmicas de comércio eletrônico com base nos parâmetros da URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

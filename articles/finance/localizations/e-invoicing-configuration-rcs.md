@@ -290,3 +290,6 @@ Quando um recurso de faturamento eletrônico deriva de outro, o comando **Trocar
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Emitir faturas eletrônicas no Finance e no Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Este procedimento mostra como criar um atributo de lote, atribuir faixas padrõe
 22. Clique em Salvar.
 23. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

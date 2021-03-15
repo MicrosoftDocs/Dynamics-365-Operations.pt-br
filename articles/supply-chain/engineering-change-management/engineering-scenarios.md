@@ -410,3 +410,6 @@ O produto pode ser liberado novamente para a empresa *USMF* e enviado ao cliente
 1. Selecione cada empresa para a qual deseja liberar produtos.
 1. Selecione **OK** para fechar a caixa de diálogo **Liberações** e retornar à ordem de alteração.
 1. No Painel de Ações, na guia **Ordem de alteração**, no grupo **Liberações do produto**, selecione **Processar** para liberar os produtos afetados para as empresas selecionadas. Como alternativa, selecione **Liberar a estrutura de produtos** para iniciar o processo de liberação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -95,3 +95,6 @@ Se quiser que a precisão de uma moeda específica seja diferente da precisão d
 ### <a name="tables-currency-column"></a>tabelas: coluna Moeda
 
 O número de casas decimais que podem ser configuradas para colunas de moeda específicas é limitado a quatro.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

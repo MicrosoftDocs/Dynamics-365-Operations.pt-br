@@ -39,3 +39,6 @@ Este procedimento aborda como lançar em diário entradas de diário postadas. E
 9. Clique em **OK** para fechar a página de filtro.
 10. Clique em **OK** para iniciar o processo de lançamento em diário. Um relatório será gerado depois que o processo foi concluído.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

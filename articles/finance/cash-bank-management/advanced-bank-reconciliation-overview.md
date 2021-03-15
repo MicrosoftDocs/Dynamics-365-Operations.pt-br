@@ -50,3 +50,6 @@ O recurso de reconciliação bancária avançada permite que você importe extra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

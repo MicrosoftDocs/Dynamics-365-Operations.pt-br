@@ -87,3 +87,6 @@ Use as áreas de responsabilidade para indicar as funções de trabalho, os proc
 
 ## <a name="steps-for-creating-a-job"></a>Etapas para criar um trabalho
 Consulte o artigo [Definir novos trabalhos](../fin-and-ops/hr/tasks/define-new-jobs.md) para obter o procedimento passo a passo para criar um novo trabalho. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

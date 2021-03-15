@@ -72,3 +72,6 @@ Depois que uma configuração é criada no provedor de configuração, você pod
 A configuração é compartilhada com a organização externa e está disponível para aquela organização no repositório global. A partir daí, ele pode ser importado para a instância da organização do RCS ou para suas instâncias de aplicativos do Finance and Operations.
 
 6. Para cancelar o compartilhamento uma configuração que já tenha sido compartilhada com uma organização externa, selecione a configuração e clique em **Cancelar compartilhamento** e selecione **OK**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

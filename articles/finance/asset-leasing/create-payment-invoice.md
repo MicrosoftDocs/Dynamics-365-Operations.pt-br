@@ -48,3 +48,6 @@ Você pode criar faturas mensais para arrendamentos individuais ou então usar u
 6. Depois que a transação é lançada, você pode exibir as informações de transação e o valor de transporte da responsabilidade com arrendamento selecionando **Transações de responsabilidade** no registro de arrendamento.
 
     No agendamento de pagamento, a caixa de seleção **Diário lançado** será marcada, e a linha mostrará o número do diário de faturas. Depois que um diário de pagamentos e uma entrada desse diário tiverem sido criados, você deverá reverter a entrada para que ela possa ser criada novamente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

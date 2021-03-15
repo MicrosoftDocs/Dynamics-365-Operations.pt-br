@@ -102,3 +102,6 @@ Normalmente, o depósito de saída e o local de um grupo de recursos subcontrata
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

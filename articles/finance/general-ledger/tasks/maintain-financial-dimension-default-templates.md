@@ -41,3 +41,6 @@ Este tópico mostra como configurar modelos padrão da dimensão financeira. Os 
 11. Insira os valores de dimensões financeiras que correspondem a porcentagem inserida.
 12. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

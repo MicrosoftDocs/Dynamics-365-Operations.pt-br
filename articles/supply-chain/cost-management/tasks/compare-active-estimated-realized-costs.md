@@ -39,3 +39,6 @@ Este procedimento mostra como exibir motivos para a variação alta de produçã
 6. Clique em Visualizar comparação de custo.
 7. Clique em Fechar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

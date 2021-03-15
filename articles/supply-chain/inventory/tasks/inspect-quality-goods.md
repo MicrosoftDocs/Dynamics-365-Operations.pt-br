@@ -50,3 +50,6 @@ Este tópico explica como processar uma ordem de qualidade. Você pode executar 
 4. Selecione **OK**.
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

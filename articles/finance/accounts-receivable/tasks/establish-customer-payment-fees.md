@@ -50,3 +50,6 @@ Esta tarefa usa a empresa de demonstração USMF.
 18. No campo **Moeda da taxa**, selecione a moeda da taxa. Esta é a moeda na qual a taxa será criada.  
 19. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

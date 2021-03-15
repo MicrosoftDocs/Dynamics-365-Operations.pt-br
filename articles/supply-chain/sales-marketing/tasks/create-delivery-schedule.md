@@ -64,3 +64,6 @@ Este procedimento demonstra como criar uma agenda de entrega para ordem de venda
 22. Clique em OK.
 23. Clique em Sim.
 24. Feche a página.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

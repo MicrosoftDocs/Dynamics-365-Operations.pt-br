@@ -120,3 +120,6 @@ Clique em **Configuração** para personalizar as informações mostradas no mod
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

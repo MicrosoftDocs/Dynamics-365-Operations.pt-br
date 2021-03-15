@@ -100,3 +100,6 @@ Para configurar um valor personalizado para um cartão-presente digital no assis
 [Criar um perfil de funcionalidade online](online-functionality-profile.md)
 
 [Suporte a cartões-presente externos](./dev-itpro/gift-card.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

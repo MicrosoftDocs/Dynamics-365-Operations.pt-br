@@ -135,3 +135,5 @@ Este procedimento mostra como habilitar um processo de gerenciamento de qualidad
 
 > [!NOTE]
 > O recurso *Gestão de qualidade para processos de depósito* fornece opções adicionais para configurar associações de qualidade. Adiciona uma nova condição (**Tipo de depósito aplicável**) e uma nova configuração (**Política de processamento de qualidade**). Se você ativou esse recurso, consulte [Gestão de qualidade para processos de depósito](../quality-management-for-warehouses-processes.md) para obter detalhes.
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

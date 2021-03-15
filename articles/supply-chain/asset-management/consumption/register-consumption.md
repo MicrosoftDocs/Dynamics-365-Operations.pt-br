@@ -94,3 +94,6 @@ Quando você cria registros de consumo, as dimensões financeiras relacionados a
 >[!NOTE]
 >Para todos os três tipos de registro, a combinação de dimensão financeira é validada, e as combinações inválidas são anuladas. Esta é a configuração padrão com outros aplicativos do Finance and Operations.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

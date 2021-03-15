@@ -65,3 +65,6 @@ Os seguintes tipos de módulos são fornecidos na biblioteca de módulos:
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

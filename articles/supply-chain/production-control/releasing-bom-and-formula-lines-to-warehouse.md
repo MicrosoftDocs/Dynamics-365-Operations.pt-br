@@ -97,3 +97,6 @@ Você pode liberar a matéria-prima para uma quantidade parcial de mercadorias c
     As unidades disponíveis estão definidas no ID do grupo de sequências da unidade da mercadoria acabada.
 
     Por exemplo, uma mercadoria acabada tem a seguinte conversão de unidades entre as libras (lbs.) e o palete (PL): 1 PL = 100 libras. Para criar uma ordem de produção para 10.000 libras das mercadorias acabadas, você pode liberar matérias-primas para o número de paletes que você pretende produzir. Selecione **PL** como a unidade e um número correspondente no campo **Quantidade**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

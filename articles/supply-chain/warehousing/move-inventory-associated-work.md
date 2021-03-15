@@ -58,3 +58,6 @@ Para o trabalhador que terá permissão para mover o estoque reservado, marque a
 Este recurso também foi atualizado de forma retroativa para Microsoft Dynamics AX 2012 R3 e estará disponível como parte do CU12.
 Ele também pode ser baixado individualmente com o número de KB 3192548. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -62,3 +62,6 @@ Os usuários da sede do Commerce podem verificar os valores de propriedade de to
 [Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B](payment-method.md)
 
 [Definir limites de quantidade de produto para sites de comércio eletrônico B2B](quantity-limits.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

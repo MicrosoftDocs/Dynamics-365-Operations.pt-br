@@ -45,3 +45,5 @@ O Dynamics 365 Human Resources fornece análises que ajudam a trazer informaçõ
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

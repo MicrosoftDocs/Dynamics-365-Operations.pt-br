@@ -111,3 +111,6 @@ Para começar a usar layouts predefinidos, consulte [Trabalhar com layouts prede
 [Trabalhar com layouts predefinidos](work-with-layouts.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

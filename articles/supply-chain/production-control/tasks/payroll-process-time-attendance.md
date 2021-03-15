@@ -69,3 +69,6 @@ Este procedimento mostra como habilitar o processo de folha de pagamento de temp
 7. Clique em Editar.
 8. No campo Contrato de pagamento, insira ou selecione um valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

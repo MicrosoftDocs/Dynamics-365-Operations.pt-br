@@ -214,3 +214,5 @@ Os gerentes podem ver todas as metas de sua equipe por meio do bloco **Metas de 
 A guia **Revisões** resume as revisões que o funcionário tem em cada estado: **Em andamento**, **Pronto para revisão** e **Revisão final**. Para acessar a revisão de um funcionário, selecione o botão **Detalhes** e selecione as revisões nas quais colaborar. Com base na posição de uma revisão dentro do processo do fluxo de trabalho, você poderá verificar se a revisão está disponível para atualização. 
 
 Você poderá ver todas as revisões da sua equipe por meio do bloco **Avaliações de desempenho da equipe** na seção **Resumo** de **Minha equipe**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

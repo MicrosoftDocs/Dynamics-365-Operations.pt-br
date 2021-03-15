@@ -67,3 +67,6 @@ Este procedimento mostra como criar uma política de acúmulo de custo e criar r
     * Continue até todos os centros de custos serem mapeados aos elementos de custo secundários correspondentes.  
 16. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

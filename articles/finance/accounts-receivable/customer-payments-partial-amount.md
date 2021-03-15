@@ -59,3 +59,6 @@ Os clientes podem fazer um pagamento parcial onde o valor restante não será pa
 
 
 Para obter mais informações, consulte [Depositar pagamentos de cliente](tasks/deposit-customer-payments.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

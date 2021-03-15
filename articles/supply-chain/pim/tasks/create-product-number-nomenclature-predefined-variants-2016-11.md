@@ -57,3 +57,6 @@ Este tópico explica como configurar uma nomenclatura de número de produto para
 5. No campo **Nomenclatura de número de grade de produto**, insira ou selecione um valor.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

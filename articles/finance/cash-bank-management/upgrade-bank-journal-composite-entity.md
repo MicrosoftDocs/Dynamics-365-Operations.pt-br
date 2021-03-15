@@ -54,3 +54,6 @@ Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

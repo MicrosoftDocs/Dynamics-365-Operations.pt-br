@@ -66,3 +66,6 @@ Habilitar o controle de alterações para projetos da entidade Dados.
 ### <a name="projects-supply-chain-management-to-field-service-projects"></a>Projetos (Supply Chain Management para Field Service): Projetos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSProject1.png)](./media/FSProject1.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

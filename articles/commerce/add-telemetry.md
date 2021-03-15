@@ -121,3 +121,6 @@ Para adicionar um script externo diretamente a um modelo no site Builder, siga e
 [Adicionar um aviso de direitos autorais](add-copyright-notice.md)
 
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

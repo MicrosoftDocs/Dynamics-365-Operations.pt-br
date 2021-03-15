@@ -42,3 +42,6 @@ Este tópico descreve como adquirir um ativo fixo usando a proposta de aquisiç�
 - Somente os ativos fixos com a data de aquisição e o preço de aquisição definidos no registro serão incluídos na proposta de aquisição.  
 11. Na página, selecione a guia **Registros**.
 12. Selecione **Lançar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

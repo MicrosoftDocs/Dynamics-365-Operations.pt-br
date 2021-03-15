@@ -107,3 +107,6 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="agreement-invoices-field-service-to-supply-chain-management-invoice-lines"></a>Faturas de contrato (Field Service para Supply Chain Management): Linhas da fatura
 
 [![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

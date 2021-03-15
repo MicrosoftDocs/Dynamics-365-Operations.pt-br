@@ -142,3 +142,6 @@ Este tópico explica como revisar a informações de cobranças, bem como vária
 5. Selecione **Mostrar lista**.
 - Selecione um conta do cliente ou aceite a entrada padrão. Por padrão, esta é a conta de cliente selecionada na página de lista ou no formulário no qual você abriu este formulário. Se você tiver aberto o formulário de uma página de lista, os clientes na lista são os clientes que estão incluídos no grupo de cobranças que é usado na página de lista.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

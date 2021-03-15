@@ -94,3 +94,6 @@ Trabalhos podem ser reatribuídos de um período a outro. Esse recurso pode ser 
 
 [Agendamento de trabalho kanban para lean manufacturing](lean-manufacturing-kanban-job-scheduling.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

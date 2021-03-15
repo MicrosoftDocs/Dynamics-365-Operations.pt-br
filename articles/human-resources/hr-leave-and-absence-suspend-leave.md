@@ -49,3 +49,6 @@ Se as competências forem processadas enquanto a licença do funcionário estive
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
 - [Acumular planos de licença e ausência](hr-leave-and-absence-accrue.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Para obter mais informações sobre o processo de mudança do depósito básico 
 - [Migração do Microsoft Dynamics AX WMS para o novo depósito R3 e funcionalidade de transporte](https://cloudblogs.microsoft.com/dynamics365/no-audience/2015/08/17/migration-of-microsoft-dynamics-ax-wms-to-new-r3-warehouse-and-transportation-functionality/)
 - [Migração de item WMSI/WMS2](https://cloudblogs.microsoft.com/dynamics365/no-audience/2018/05/03/wmsiwms2-item-migration/)
 - [Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/upgrade-migration-warehouse-management-processes)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

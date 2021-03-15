@@ -40,3 +40,6 @@ As autoridades de impostos sobre vendas são as entidades que coletaram necessid
 10. No campo Arredondar, insira um número.
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

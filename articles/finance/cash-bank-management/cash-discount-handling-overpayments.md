@@ -138,3 +138,6 @@ O valor do desconto à vista é reduzido de 10,50 para 10,00. O pagamento e a fa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

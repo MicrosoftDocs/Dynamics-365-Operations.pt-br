@@ -97,3 +97,6 @@ Use a tabela a seguir para ajudar a decidir onde você deve atribuir contas padr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

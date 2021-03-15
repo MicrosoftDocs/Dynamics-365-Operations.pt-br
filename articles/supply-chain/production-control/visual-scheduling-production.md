@@ -159,3 +159,6 @@ O gráfico de Gantt pode ser aberto nas seguintes páginas.
 
 [Agendamento visual para produção (script de demonstração)](https://docs.microsoft.com/dynamics/s-e/)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

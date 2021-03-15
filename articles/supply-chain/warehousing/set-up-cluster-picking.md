@@ -79,3 +79,6 @@ Quando a separação do cluster é aplicada, confirmação do item é importante
 1. No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** \> **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
 
 1. Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**. A opção **Confirmação do produto** permite que você verifique cada peça de estoque no dispositivo móvel quando verificado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

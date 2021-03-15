@@ -71,3 +71,6 @@ Você pode projetar a utilização do espaço gerando o relatório **Utilizaçã
 
 4. No campo **Carregar tipo**, selecione **Volume** ou **Peso** para especificar o depósito operando a unidade para a qual você projeta espaço.
 5. No campo **Configuração de utilização de espaço**, selecione a configuração de utilização de espaço na qual a projeção deve ser baseada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

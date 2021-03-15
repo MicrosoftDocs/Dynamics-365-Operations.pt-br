@@ -67,3 +67,6 @@ Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fis
 10. Clique em **Cancelar**.
 11. Clique em **Sim**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

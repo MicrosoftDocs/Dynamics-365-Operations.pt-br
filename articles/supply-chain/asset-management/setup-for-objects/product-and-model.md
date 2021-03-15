@@ -59,3 +59,6 @@ Este tópico explica como configurar fabricantes de ativo e modelos relacionados
 2. Na coluna **Ativo**, selecione o link para o ativo. A página **Detalhes** aparece.
 3. Selecione **Editar**.
 4. Na Guia Rápida **Geral**, selecione valores nos campos **Fabricante** e **Modelo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ O grupo de retenção de imposto na fonte padrão e o grupo de retenção de imp
 O imposto retido na fonte é calculado e lançado com o **Diário de pagamentos do cliente**. Você pode ajustar manualmente o código aplicável de retenção de imposto na fonte, bem como o valor real do imposto retido na fonte na guia **Imposto retido na fonte** na página **Liquidar transações**.
 
 O valor do imposto retido na fonte calculado será deduzido do pagamento do cliente e lançado na conta de **Contrapartida do imposto retido na fonte** em um comprovante relacionado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

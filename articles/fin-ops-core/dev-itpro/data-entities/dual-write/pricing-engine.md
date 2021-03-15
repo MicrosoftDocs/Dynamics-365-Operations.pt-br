@@ -69,3 +69,6 @@ Quando as colunas no Sales são preenchidas, as seguintes limitações se aplica
 + A configuração de encargos e alocações de encargos no Supply Chain Management não é replicada no Sales.
 + Os preços não consideram os preços especiais de varejo especificados na coluna **Canal de Varejo** na página da linha de ordem de venda no Supply Chain Management.
 + Os descontos definidos na seção **Gerenciamento de bonificação comercial** do Supply Chain Management não são considerados.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Para adicionar um módulo de galeria de mídia a uma página de marketing, siga 
 [Módulo de contêiner](add-container-module.md)
 
 [Carregar imagens](dam-upload-images.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Considere os seguintes requisitos de implementação ao planejar e gerenciar cla
 - **Vendas e devoluções fora de classificações** – Este recurso ajuda os varejistas a gerenciar efetivamente suas classificações permitindo que eles limitem o número de produtos disponíveis para produtos que pertençam à combinação de produtos principal da loja. Esse recurso também ajuda os varejistas a lidar com situações em que um produto tenha sido omitido de uma classificação por engano, ou em que um produto tenha sido devolvido fora das datas efetivas da classificação.
 
 Se os dados do produto não existirem no banco de dados do canal, o PDV realiza chamadas em tempo real à matriz a fim de recuperar as informações necessárias, para que o produto possa ser vendido, devolvido ou colocado em uma ordem de cliente. Informações sobre produtos recuperadas dessa forma estarão disponíveis somente durante o escopo dessa transação. O produto não é adicionado à definição de classificação. Portanto, as chamadas em tempo real subsequentes serão feitas conforme necessário.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

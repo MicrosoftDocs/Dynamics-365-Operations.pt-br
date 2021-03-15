@@ -78,3 +78,6 @@ Configurar parâmetros de entidade legal do Brasil. Esta tarefa usa a empresa de
 49. Clique em Salvar.
 50. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

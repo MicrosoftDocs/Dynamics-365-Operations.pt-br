@@ -85,3 +85,6 @@ O comportamento de custo é a classificação de custos como fixo ou variável. 
 15. No campo Unidade de controle de custo, insira ou selecione um valor.
 16. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -208,3 +208,6 @@ No assistente, os valores a seguir são inseridos para a Contoso Retailer:
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
     A Contoso usa as requisições aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

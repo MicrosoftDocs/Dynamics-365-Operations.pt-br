@@ -85,3 +85,6 @@ A imagem a seguir mostra detalhes de um exemplo de entidade legal.
 [Visão geral de canais](channels-overview.md)
 
 [Pré-requisitos de configuração de canal](channels-prerequisites.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

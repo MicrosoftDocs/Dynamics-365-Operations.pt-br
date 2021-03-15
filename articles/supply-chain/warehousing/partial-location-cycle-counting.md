@@ -61,3 +61,6 @@ Por exemplo, somente o item número A0001 deve ser contado no depósito 61.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Contagem cíclica](cycle-counting.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

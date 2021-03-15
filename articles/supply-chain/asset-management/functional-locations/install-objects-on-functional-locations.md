@@ -82,3 +82,6 @@ Após a disponibilização dos dados de configuração, você estará pronto par
 1. Na página **Todos os locais funcionais**, verifique se o local funcional em que você deseja que o ativo seja automaticamente criado utiliza o tipo de local funcional criado com essa finalidade.
 2. Selecione o local funcional na lista.
 3. Selecione **Atualizar o estado do local funcional**. Depois, selecione o estado de ciclo de vida criado com essa finalidade. Um ativo é instalado automaticamente agora no local funcional. Esse ativo tem o mesmo nome que o local funcional.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

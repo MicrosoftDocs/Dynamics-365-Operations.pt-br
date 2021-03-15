@@ -42,3 +42,6 @@ Este procedimento cria e valida diários e linhas de diário. Você pode testar 
 12. Clique em **Enviar**.
 13. Clique em **Comprovante**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

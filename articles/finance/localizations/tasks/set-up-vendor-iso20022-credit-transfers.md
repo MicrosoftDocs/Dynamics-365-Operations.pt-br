@@ -51,3 +51,6 @@ Este é o quarto dos cinco procedimentos que ilustram o processo de pagamento de
 4. Na lista, clique no link na linha SEPA CT.
 5. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

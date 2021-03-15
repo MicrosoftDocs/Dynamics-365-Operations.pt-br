@@ -80,3 +80,6 @@ Depois de você criar os estados de ciclo de vida que são necessários para as 
 A ilustração a seguir mostra um exemplo da página **Modelos de ciclo de vida de solicitação de manutenção**.
 
 ![Página dos modelos de ciclo de vida de solicitação de manutenção](media/06-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

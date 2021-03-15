@@ -93,3 +93,6 @@ Não será possível processar ou concluir os orçamentos na empresa de consolid
 Para obter mais informações, consulte [Reavaliação de moeda em uma empresa de consolidação](../general-ledger/currency-revaluation-consolidation-company.md).
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

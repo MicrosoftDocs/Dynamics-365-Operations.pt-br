@@ -66,3 +66,6 @@ Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir 
 8. Na lista, clique no link na linha selecionada.
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

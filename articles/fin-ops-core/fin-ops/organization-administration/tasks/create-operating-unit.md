@@ -41,3 +41,6 @@ Uma unidade operacional é uma organização usada para dividir o controle de re
     + Insira informação sobre métodos de comunicação, como endereços de e-mail, URLs, e números de telefone. Para inserir um novo registro de comunicação, clique em Novo. Para modificar um registro de comunicação existente, clique em **Mais opções > Avançado**.   
 6. Opcionalmente, altere o **Número da unidade operacional** quando necessário. Observe que esse número é um identificador exclusivo para o registro **Participante** correspondente e não pode ser o mesmo que qualquer outra unidade operacional.
 7. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

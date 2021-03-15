@@ -41,3 +41,6 @@ Os códigos GTIN são atribuídos pela organização GS1. Nesse exemplo, você i
 11. No campo GTIN, digite um valor.
 12. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ A depreciação extra é inserida como uma porcentagem ou um valor fixo. Quando 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

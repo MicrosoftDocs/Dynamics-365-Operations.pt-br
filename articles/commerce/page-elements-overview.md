@@ -63,3 +63,6 @@ A tabela a seguir fornece um resumo dos termos com os quais você deve se famili
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Personalizar a navegação do site](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -44,3 +44,6 @@ A tabela a seguir lista os tipos de hierarquias de categoria disponíveis e a fi
 | Hierarquia de navegação   | Use este tipo da hierarquia para agrupar e organizar produtos em categorias, de forma que seja possível procurar os produtos online ou no PDV. |
 
 Ao usar uma hierarquia de categoria para estruturar seus produtos, você pode configurar e manter atributos e propriedades de produtos no nível de categoria. Esses atributos e propriedades incluem as configurações para dimensões do produto e do PDV. Todos os produtos que você atribui às categorias herdam automaticamente os atributos e as propriedades que você define. Você também pode copiar as configurações de propriedade de qualquer produto para vários produtos da categoria selecionada ao mesmo tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

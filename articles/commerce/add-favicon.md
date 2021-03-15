@@ -98,3 +98,6 @@ Ao visualizar páginas baseadas no modelo ao qual você adicionou o fragmento de
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

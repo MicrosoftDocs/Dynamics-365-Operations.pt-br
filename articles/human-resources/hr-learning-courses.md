@@ -137,3 +137,6 @@ Os funcionários que se registrarem em um curso na página **Autoatendimento par
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

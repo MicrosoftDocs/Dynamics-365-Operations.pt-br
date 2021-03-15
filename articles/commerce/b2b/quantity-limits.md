@@ -84,3 +84,6 @@ Para ativar o recurso de limites de quantidade da ordem B2B no criador de sites 
 [Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B](manage-b2b-users.md)
 
 [Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B](payment-method.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -211,3 +211,6 @@ Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** 
     A sincronização inicial das linhas está concluída.
 
 8. No aplicativo do Finance and Operations, habilite o controle de alterações novamente para a tabela **Clientes V3**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

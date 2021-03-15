@@ -63,3 +63,6 @@ A empresa de dados de demonstração usada para criar este registro é a USRT. E
 5. Clique em Exportar.
 6. Clicar em PDF.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

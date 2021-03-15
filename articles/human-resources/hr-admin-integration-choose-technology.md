@@ -150,3 +150,6 @@ Com tantas tecnologias de integração diferentes disponíveis, a decisão sobre
 <sup>2</sup>A Microsoft está investindo fortemente na crescente cobertura de dados para tabelas do Dataverse. Recomendamos o uso de Dataverse quando a cobertura estiver disponível. No momento, a cobertura de dados do Dataverse é baixa com relação às entidades habilitadas para OData e DMF.
 
 <sup>3</sup>O banco de dados SQL pode ser acessado de modo programático.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

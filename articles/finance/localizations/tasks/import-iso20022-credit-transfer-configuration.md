@@ -44,3 +44,6 @@ Esta é a primeira de cinco tarefas que, juntas, ilustram o processo de pagament
     * Se o botão Importar não estiver disponível, significa que a configuração já foi importada.  
 9. Clique em Sim.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

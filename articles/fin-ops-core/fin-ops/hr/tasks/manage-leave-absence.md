@@ -46,3 +46,6 @@ Este procedimento mostra a criação de registros de licença de funcionário. V
     * Por exemplo: Deixar para adoção  
 12. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

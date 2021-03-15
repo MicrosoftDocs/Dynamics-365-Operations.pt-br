@@ -251,3 +251,6 @@ Os usuários dos Serviços de globalização podem gerenciar o ambiente para con
 10. Selecione **Publicar** para publicar o ambiente.
 
     ![Ambiente publicado](./media/RCS_GlobalF_19%20Feature%20envn%20publishing.JPG)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

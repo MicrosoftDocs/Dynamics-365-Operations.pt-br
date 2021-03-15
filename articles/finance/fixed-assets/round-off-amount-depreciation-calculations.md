@@ -49,3 +49,6 @@ Depreciação sem arredondamento é calculada como 2.444,44. Como mostrado na ta
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

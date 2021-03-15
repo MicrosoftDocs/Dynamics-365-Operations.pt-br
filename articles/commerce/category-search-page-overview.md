@@ -110,3 +110,6 @@ Os componentes a seguir são essenciais para uma página de resultados de pesqui
 
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

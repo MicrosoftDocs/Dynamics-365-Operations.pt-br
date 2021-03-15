@@ -193,3 +193,6 @@ Para obter mais informações, consulte [Políticas de conciliação tripla](thr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -207,3 +207,6 @@ As informações de cobertura dos dependentes do funcionário são mostradas.
 
 > [!NOTE]
 > A página mostra somente os planos de benefícios marcados como **Pode ser relatado segundo a ACA**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

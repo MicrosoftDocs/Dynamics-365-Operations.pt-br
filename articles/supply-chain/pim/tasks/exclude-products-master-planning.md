@@ -43,3 +43,6 @@ Este procedimento mostra como criar um novo estado do ciclo de vida do produto q
 5. Na lista, marque a linha selecionada.
 6. No campo Estado do ciclo de vida do produto, insira ou selecione um valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

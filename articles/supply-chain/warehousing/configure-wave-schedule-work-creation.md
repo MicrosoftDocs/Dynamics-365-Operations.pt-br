@@ -110,3 +110,6 @@ A página **Detalhes do trabalho planejado** (**Gerenciamento de depósito \> Tr
 Para exibir os trabalhos em lotes para o processamento em ciclos, selecione **Trabalhos em lotes** no painel de ações na página **Todas as ondas**.
 
 Aqui, você pode exibir todos os detalhes da tarefa em lotes para cada um dos IDs do trabalho em lotes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

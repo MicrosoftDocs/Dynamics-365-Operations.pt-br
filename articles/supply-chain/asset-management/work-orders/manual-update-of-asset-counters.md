@@ -63,3 +63,6 @@ Na página **Contadores de ativos** (**Gerenciamento de ativos** > **Consultas**
 >[!NOTE]
 >Você pode configurar um intervalo para definir os desvios em registros de contador manuais. Também é possível especificar o tipo de mensagem exibida se os registros estiverem fora do intervalo definido. Para obter mais informações sobre como configurar contadores, consulte [Contadores](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

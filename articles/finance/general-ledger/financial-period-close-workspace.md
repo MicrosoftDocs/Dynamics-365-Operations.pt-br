@@ -107,3 +107,6 @@ Depois que uma agenda de fechamento for concluída, selecione a opção **Fechad
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

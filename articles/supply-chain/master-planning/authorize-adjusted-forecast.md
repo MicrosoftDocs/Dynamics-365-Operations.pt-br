@@ -50,3 +50,6 @@ Na guia **Detalhes** da página **Autorização**, você pode exibir os detalhes
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

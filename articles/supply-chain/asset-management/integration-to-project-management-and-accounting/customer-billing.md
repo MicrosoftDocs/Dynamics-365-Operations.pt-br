@@ -177,3 +177,6 @@ Nesta seção, você continuará trabalhando na ordem de serviço em que você t
 1. No Painel de ações, na guia **Faturamento**, selecione **Nova proposta de fatura**.
 1. Na caixa de diálogo **Criar proposta de fatura**, na seção **Transações do projeto**, marque a caixa de seleção **Selecionar** para cada linha que você deseja faturar.
 1. Selecione **OK** para fechar a caixa de diálogo e exibir a nova proposta de fatura.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

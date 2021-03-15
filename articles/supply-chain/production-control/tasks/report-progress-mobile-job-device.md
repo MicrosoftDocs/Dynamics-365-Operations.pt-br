@@ -64,3 +64,6 @@ Para executar esse procedimento você deve usar a função de Administrador do s
 29. Clique em OK.
 30. Selecione o motivo pelo qual você está registrando a saída mais cedo.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

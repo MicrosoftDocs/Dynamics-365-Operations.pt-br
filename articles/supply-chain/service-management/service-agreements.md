@@ -78,3 +78,6 @@ Cada linha do contrato de serviço descreve em detalhes o conteúdo do trabalho 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Criar contratos de serviço](create-service-agreements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

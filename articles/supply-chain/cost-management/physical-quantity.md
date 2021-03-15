@@ -146,3 +146,6 @@ A tabela a seguir mostra o resultado do c√°lculo para um objeto de estoque. Voc√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

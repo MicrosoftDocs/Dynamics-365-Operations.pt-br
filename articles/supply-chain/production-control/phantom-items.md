@@ -72,3 +72,6 @@ As BOMs fantasma também podem ser usadas para uma BOM com uma rede de roteiro. 
 Na ilustração a seguir, (a) é a BOM do produto G e peça F, e (b) é a planilha de roteiro do produto G e peça F.
 
 ![Produto G e peça F com planilhas de roteiro](media/product-G-part-F-with-route-sheet.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

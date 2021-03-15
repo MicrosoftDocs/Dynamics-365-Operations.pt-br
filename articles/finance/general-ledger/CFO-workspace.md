@@ -55,3 +55,6 @@ Este tópico explica como adicionar dimensões financeiras ao espaço de trabalh
 16. Crie o projeto e abra o aplicativo para exibir os resultados.
 
     [![Espaço de trabalho concluído](./media/workspace.png)](./media/workspace.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

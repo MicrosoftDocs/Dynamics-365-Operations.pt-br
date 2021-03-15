@@ -123,3 +123,6 @@ Os fluxos de trabalho **Ajustes de limite de crédito** podem ser usados para en
 
 > [!NOTE]
 > Ao criar o fluxo de trabalho **Ajustes de limite de crédito**, você pode configurá-lo para que os ajustes sejam lançados automaticamente depois que as linhas forem aprovadas. Basta incluir a tarefa **Lançar Diário automaticamente** no fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ A ilustração a seguir mostra a caixa de seleção **Habilitar link para Descri
 [Criar manualmente recomendações selecionadas](create-editorial-recommendation-lists.md)
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

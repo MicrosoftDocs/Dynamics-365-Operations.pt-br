@@ -50,3 +50,6 @@ Essa tarefa caminha com a criação de um contrato de recursos bancários para p
 18. Clique em Estender.
 19. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

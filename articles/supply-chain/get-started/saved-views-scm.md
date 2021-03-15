@@ -112,3 +112,6 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Ger
 | Todas as ondas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva para o processamento de ciclo |
 | Bancada do planejamento de carga | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva para a bancada de planejamento de trabalho |
 | Detalhes do trabalho | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da página de detalhes do trabalho |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

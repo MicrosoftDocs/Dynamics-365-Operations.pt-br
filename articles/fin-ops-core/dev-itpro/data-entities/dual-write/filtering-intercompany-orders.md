@@ -66,3 +66,6 @@ Cada tabela Dataverse padrão é estendida com referências à coluna **Intercom
 8. Depois de estender **Cotações**, aplique um filtro que tenha `CUSTGROUP != "<company>"` como a sequência de caracteres de consulta.
 
     :::image type="content" source="media/filter-cust-group-edit.png" alt-text="Editar a caixa de diálogo de consulta para o cabeçalho de cotação de venda do CDS":::
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

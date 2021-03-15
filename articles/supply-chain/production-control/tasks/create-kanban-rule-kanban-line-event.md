@@ -68,3 +68,6 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
     * Observe que um kanban de 27 foi criado para processar a atividade baseada na regra kanban criada.  
     * Esta é a última etapa.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

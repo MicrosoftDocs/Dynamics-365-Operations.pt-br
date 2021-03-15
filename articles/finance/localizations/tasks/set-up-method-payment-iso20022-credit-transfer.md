@@ -47,3 +47,6 @@ Este é o terceiro dos cinco procedimentos que ilustram o processo de pagamento 
 10. No campo Conta de pagamento, especifique os valores 'DEMF OPER'.
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

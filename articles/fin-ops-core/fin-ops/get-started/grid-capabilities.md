@@ -293,3 +293,6 @@ Esta seção mantém uma lista de problemas conhecidos para o novo controle de g
 ### <a name="quality-update-for-1009platform-update-33"></a>Atualização de qualidade para 10.0.9/Platform update 33
 
 - [KB 4550367] Os valores de tempo não estão formatados corretamente.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

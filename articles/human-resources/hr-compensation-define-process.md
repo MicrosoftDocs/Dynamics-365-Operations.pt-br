@@ -100,3 +100,6 @@ Os processos de remuneração são usados para determinar os novos valores e pr�
 10. Clique em Aprovado.
     * Depois que o registro for aprovado, ele poderá ser carregado para o registro oficial de remuneração do funcionário. A nova remuneração será efetiva a partir da data da transação definida no processo de remuneração.  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

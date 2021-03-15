@@ -62,3 +62,6 @@ Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS p
 33. Feche a página.
 34. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

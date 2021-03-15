@@ -47,3 +47,6 @@ Você pode exibir detalhes sobre futuros e ações para uma ordem selecionada. N
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

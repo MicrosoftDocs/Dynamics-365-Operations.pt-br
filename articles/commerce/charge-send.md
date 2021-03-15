@@ -41,3 +41,6 @@ O recurso Envio de encargos usa as seguintes operações de PDV: Remeter todos o
 A capacidade de selecionar endereços "remeter para" permanece inalterada.
 
 Os métodos de remessa que podem ser usados para atender à linha da ordem se baseiam na configuração de modos válidos de entrega para produtos e endereços. Como as regras sobre modos de entrega válidos são mantidas somente no Headquarters (HQ), o cliente de PDV faz uma chamada em tempo real para buscar os modos de entrega válidos para uma linha de remessa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

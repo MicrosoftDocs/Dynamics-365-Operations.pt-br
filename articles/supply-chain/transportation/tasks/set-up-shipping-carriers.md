@@ -72,3 +72,6 @@ Este tópico descreve como montar uma transportadora e definir detalhes como ser
 9. No campo **Mecanismo de tempo em trânsito**, selecione uma opção no menu suspenso.
 10. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

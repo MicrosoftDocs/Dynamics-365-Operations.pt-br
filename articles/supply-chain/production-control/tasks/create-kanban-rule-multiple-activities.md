@@ -58,3 +58,6 @@ Este procedimento mostra como criar uma regra kanban que inclua atividades múlt
     * Observe que o kanban tem dois trabalhos do processo do fluxo da produção. O primeiro é SpeakerAssemblyAndPolish, e o segundo é SpeakerTestAndPackaging.  
     * Esta é a última etapa!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

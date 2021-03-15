@@ -146,3 +146,6 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 5. Selecione a versão concluída da configuração atual.
     * Observe que a configuração criada será salva como versão 1 concluída.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

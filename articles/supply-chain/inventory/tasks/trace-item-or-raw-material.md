@@ -59,3 +59,6 @@ O nó superior da árvore representa a quantidade disponível do item e lote sel
 9. Clique em **Ordens de venda remetidas**.
 10. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

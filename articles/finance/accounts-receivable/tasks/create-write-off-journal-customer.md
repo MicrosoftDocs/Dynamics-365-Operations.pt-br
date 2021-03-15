@@ -83,3 +83,6 @@ Esta guia de tarefa mostrará como configurar parâmetros de baixas contábeis e
 5. Clique em **OK**.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

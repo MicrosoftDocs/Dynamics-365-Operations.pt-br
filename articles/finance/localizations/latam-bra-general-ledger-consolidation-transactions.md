@@ -42,3 +42,6 @@ Você pode transferir transações de contabilidade da empresa de origem para a 
 15. No campo **Entidade legal de origem**, selecione uma entidade legal. 
 16. No campo **Nome do arquivo**, insira ou selecione um valor. 
 17. Clique em **OK**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

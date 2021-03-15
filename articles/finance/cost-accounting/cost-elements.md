@@ -75,3 +75,6 @@ Porque os elementos de custo previsto representam o nível mais baixo de detalhe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -50,3 +50,6 @@ Use as etapas a seguir para reverter alterações não salvas em um quadro de ex
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

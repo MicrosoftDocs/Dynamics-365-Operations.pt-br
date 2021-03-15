@@ -94,3 +94,6 @@ Você pode reverter transações de juros usando o botão **Histórico** na guia
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

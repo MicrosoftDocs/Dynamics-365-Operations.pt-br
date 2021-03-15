@@ -39,3 +39,6 @@ Você pode usar janelas de tempo para otimizar o agendamento das linhas de ordem
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Janelas de horas](time-windows.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

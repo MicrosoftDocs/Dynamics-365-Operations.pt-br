@@ -52,3 +52,6 @@ O tópico explica como configurar um fluxo de trabalho de aprovação que será 
 14. Na página **Criar fluxo de trabalho**, selecione **Fechar**.
 14. Selecione o novo fluxo de trabalho e depois **Versões**. Em seguida, selecione **Tornar ativo** para garantir que o fluxo de trabalho esteja ativo.
 15. Selecione **Fechar**. A nova versão ativa será exibida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

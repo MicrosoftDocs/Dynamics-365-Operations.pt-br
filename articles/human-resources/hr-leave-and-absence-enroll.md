@@ -60,3 +60,5 @@ Depois de criar um plano de licença e ausência no Dynamics 365 Human Resources
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

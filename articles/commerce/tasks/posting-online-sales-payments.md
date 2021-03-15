@@ -108,3 +108,6 @@ Este procedimento orienta como configurar e executar um trabalho em lotes perió
 - RetailTransactionMarkupTrans
 - RetailTransactionPaymentTrans
 - RetailTransactionAttributeTrans
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

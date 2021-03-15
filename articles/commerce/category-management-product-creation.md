@@ -56,3 +56,6 @@ Além disso, na estrutura de categorias de produto aprimorada, agora um gerente 
 Você pode usar a nova estrutura aprimorada das propriedades de produtos para selecionar as propriedades de produto que devem ser enviadas aos produtos associados. Na página **Hierarquia de produtos de comércio**, no Painel de Ação, selecione **Categoria** e, depois, selecione **Atualizar produtos** para abrir a caixa de diálogo **Atualizar produtos**.
 
 ![Caixa de diálogo Atualizar produtos](media/NewUpdateProductsEnhancedView.PNG)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

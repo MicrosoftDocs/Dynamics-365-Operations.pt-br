@@ -139,3 +139,6 @@ Execute o procedimento 'Configurar recursos bancários e perfis de lançamento' 
 3. Na lista, clique no link na linha selecionada.
     * Verifique o Status da remessa = Pagamento recebido e o Valor do saldo = 0,00.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

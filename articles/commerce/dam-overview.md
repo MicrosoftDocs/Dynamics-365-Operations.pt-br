@@ -59,3 +59,6 @@ Recursos digitais e recursos de gerenciamento estão localizados no assistente p
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

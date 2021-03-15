@@ -124,3 +124,6 @@ Esse comportamento é esperado. Como as requisições nem sempre são aprovadas,
 
 Você pode criar contratos comerciais para qualquer resposta para uma solicitação de cotação (RFQ), independentemente de elas terem sido aceitas ou rejeitadas. Para obter informações, consulte [Visão geral de solicitações de cotação (RFQs)](request-quotations.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

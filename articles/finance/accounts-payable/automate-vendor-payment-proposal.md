@@ -143,3 +143,6 @@ Os direitos e privilégios a seguir foram adicionados para automações de propo
 | Consultar ocorrências da agenda | Auxiliar de pagamento de contas a pagar, assistente de pagamento centralizado de contas a pagar | Esse direito concede os direitos de visualizar as ocorrências de automação da proposta de pagamento por meio dos seguintes privilégios:<ul><li>Visualizar ocorrências da agenda</li><li>Visualizar a exibição semanal de ocorrências</li></ul> |
 | Consultar séries da agenda      | Nemhum(a)                                                                       | Esse direito concede os direitos de visualizar as configurações da série e ocorrências por meio dos seguintes privilégios:<ul><li>Visualizar ocorrências da agenda</li><li>Visualizar a página de listagem de ocorrências</li><li>Visualizar a exibição semanal de ocorrências</li></ul>|
 | Manter ocorrências da agenda     | Nemhum(a)                                                                       | Esse direito concede os direitos de criar e manter uma ocorrência por meio dos seguintes privilégios:<ul><li>Manter ocorrências da agenda</li><li>Visualizar a exibição semanal de ocorrências</li></ul> |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

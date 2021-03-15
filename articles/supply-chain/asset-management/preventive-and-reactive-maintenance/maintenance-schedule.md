@@ -67,3 +67,6 @@ A ilustração a seguir mostra a página da lista **Todos os agendamentos de man
 
 ![Figura 1](media/16-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Este tópico descreve como configurar um modelo de trabalho simples que será us
 6. No campo **ID da classe de trabalho**, digite um valor. As instruções de separação e armazenamento formam um conjunto. Cada conjunto separar/armazenar deve ter a mesma classe de trabalho. Use a mesma classe de trabalho que você forneceu para a instrução de separação.  
 7. Selecione **Salvar**. Note que agora a caixa de seleção **Válido** está marcada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

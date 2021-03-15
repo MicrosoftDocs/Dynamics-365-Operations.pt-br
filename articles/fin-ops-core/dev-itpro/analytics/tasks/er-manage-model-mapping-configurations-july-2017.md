@@ -161,3 +161,6 @@ Como as configurações de ER são compartilhadas entre empresas, você pode con
 7. Clique em OK.
     * A configuração de mapeamento de modelo padrão será usada por essa configuração de formato para gerar o documento eletrônico (a saída criada contêm o código da empresa).  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

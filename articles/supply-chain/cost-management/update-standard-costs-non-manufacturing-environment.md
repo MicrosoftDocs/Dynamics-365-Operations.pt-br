@@ -51,3 +51,6 @@ Para corrigir, ajustar ou atualizar os custos padrão para novos itens, siga est
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

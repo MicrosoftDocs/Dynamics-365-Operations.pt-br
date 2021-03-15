@@ -125,3 +125,6 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 > [!NOTE]
 > Essa forma de obter informações sobre os metadados de aplicativos é a única disponível para aplicativos implantados localmente (quando dados corporativos locais (LBD) ou o modelo de implantação local são usados).
         
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

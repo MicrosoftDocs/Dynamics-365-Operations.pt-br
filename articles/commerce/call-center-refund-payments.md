@@ -108,3 +108,6 @@ Como alternativa, uma organização pode definir a opção **Permitir substitui�
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Métodos de pagamento nos call centers](work-with-payments.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

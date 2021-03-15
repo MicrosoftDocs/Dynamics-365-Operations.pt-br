@@ -45,3 +45,6 @@ Uma ordem de lote consolidada pode conter qualquer combinação das seguintes or
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

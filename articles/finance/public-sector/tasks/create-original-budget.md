@@ -50,3 +50,6 @@ Quando você cria uma entrada de orçamento original e usa o modelo de orçament
     * Para fazer seleções opcionais, clique no ícone Desbloquear na parte superior da página.  
 18. Clique em Atualizar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

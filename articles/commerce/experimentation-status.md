@@ -44,3 +44,6 @@ Da mesma forma, na coluna **status de terceiros**, os valores a seguir podem ser
 O diagrama a seguir mostra os dois conjuntos de status e como eles se relacionam entre si.
 
 [ ![Status da experimentação](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

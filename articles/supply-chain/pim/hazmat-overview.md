@@ -61,3 +61,6 @@ Para obter mais informações sobre como configurar regulamentos e valores para 
 ## <a name="warehouse-management"></a>Gerenciamento de depósito
 
 Ao preparar uma remessa no Gerenciamento de depósito, você poderá imprimir vários relatórios novos que usam as informações configuradas no Gerenciamento de informações do produto. Para obter mais informações sobre os relatórios disponíveis e sobre como usá-los, consulte [Consultas e relatórios de materiais perigosos](hazmat-reports.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

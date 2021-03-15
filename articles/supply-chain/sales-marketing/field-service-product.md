@@ -72,3 +72,6 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="field-service-products-supply-chain-management-to-field-service-products---products"></a>Produtos do Field Service (Supply Chain Management para Field Service): Produtos - Produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSProduct.png)](./media/FSProduct.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

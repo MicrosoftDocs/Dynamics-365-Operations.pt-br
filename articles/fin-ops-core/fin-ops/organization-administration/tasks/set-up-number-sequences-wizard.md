@@ -38,3 +38,6 @@ Sequências numéricas são usadas para gerar identificadores exclusivos e legí
 4. Selecione **Avançar**.
 5. Selecione **Concluir**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

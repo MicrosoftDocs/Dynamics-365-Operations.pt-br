@@ -48,3 +48,6 @@ Antes de usar o recurso **Abrir em nova janela**, é necessário configurar o bl
 O recurso **Abrir em nova janela** estará disponível apenas quando houver mais de uma página aberta na janela. Além disso, a janela pop-up será fechada automaticamente quando não houver mais páginas abertas (ou seja, quando você fecha a última página nessa janela). O sistema também fecha as páginas abertas quando você navega para uma área diferente no aplicativo. Portanto, se você tem janelas pop-up abertas e navega para uma área diferente no aplicativo, as janelas pop-up são fechadas automaticamente porque o sistema fechou as páginas nessas janelas.
 
 A barra superior nas janelas pop-up exibe informações sobre a empresa na qual a página foi aberta e é somente leitura. As janelas pop-up também dependem da janela principal do navegador. Se a janela principal for fechada ou atualizada, todos janela pop-up em aberto se tornarão somente leitura. Se isso acontecer, você ainda poderá exibir as informações nas janelas, mas você não poderá interagir com elas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

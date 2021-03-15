@@ -41,3 +41,6 @@ A empresa de dados demo usada para criar esta tarefa é USMF. Esse registro é d
 7. Clique na seta para adicionar os times disponíveis selecionados ao catálogo de endereços.
 8. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

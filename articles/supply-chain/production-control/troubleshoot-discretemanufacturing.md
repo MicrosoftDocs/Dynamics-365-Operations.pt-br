@@ -141,3 +141,6 @@ Você não pode relatar a quantidade de erro em uma ordem de produção, a menos
 ## <a name="can-i-trace-the-serial-numbers-of-finished-goods-against-the-serial-numbers-of-consumed-goods"></a>Posso comparar os números de série dos produtos acabados com os números de série dos produtos consumidos?
 
 Não é possível rastrear os números de série dos produtos concluídos em relação aos números de série do material que uma ordem de produção consome para fazer esses produtos concluídos. Não há suporte para este cenário atualmente. A solução alternativa é criar ordens de produção para uma quantidade de 1.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

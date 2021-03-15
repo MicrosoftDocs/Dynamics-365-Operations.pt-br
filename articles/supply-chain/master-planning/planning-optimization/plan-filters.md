@@ -58,3 +58,6 @@ Um filtro de plano é configurado para incluir os itens A, B e C. Em seguida, s�
 [Exibir logs de histórico de plano e de planejamento](plan-history-logs.md)
 
 [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

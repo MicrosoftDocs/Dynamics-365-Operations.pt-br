@@ -208,3 +208,6 @@ Na consolidação da Contabilidade, uma nova opção foi adicionada para consoli
 -  Agora você pode optar por usar a moeda contábil ou a moeda de relatório da empresa de origem como a moeda da transação na empresa de consolidação.
 
 - Os valores da moeda contábil ou de relatório da empresa de origem serão copiados diretamente nos valores da moeda contábil ou de relatório na empresa de consolidação, se uma das moedas for a mesma. Os valores da moeda contábil e de relatório na empresa de consolidação são calculados usando a taxa de câmbio, se nenhuma das moedas for a mesma.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

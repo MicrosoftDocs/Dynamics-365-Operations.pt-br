@@ -81,3 +81,6 @@ A quantidade da lista de materiais (BOM) é 1, a quantidade de produção é 110
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -295,3 +295,6 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 | Contas a receber (Fabrikam Oeste)    |              | 75,00         |
 | Devido pela Fabrikam Leste (Fabrikam Oeste) | 25,00        |               |
 | Contas a receber (Fabrikam Oeste)    |              | 25,00         |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ Esta tarefa de registro mostra a instalação do imposto sobre vendas e grupos d
 19. Na lista, clique no link na linha selecionada.
 20. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

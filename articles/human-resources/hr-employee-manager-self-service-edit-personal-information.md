@@ -72,3 +72,6 @@ Os parâmetros definidos no catálogo de endereços global determinam as funçõ
     - Para carregar uma imagem, selecione **Carregar nova imagem**.
     - Para remover uma imagem, selecione a imagem e selecione **Remover**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

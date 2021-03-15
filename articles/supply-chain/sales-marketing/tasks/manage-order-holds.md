@@ -69,3 +69,6 @@ Você pode executar esse procedimento na empresa USMF de dados demo, ou usando s
     - A ação **Liberar e enviar** só é aplicável quando você usa a funcionalidade de call center.  
 8. Clicar em **Liberar bloqueios**. Agora o bloqueio está liberado na ordem e removido da lista de bloqueios ativos. Para ver todos os bloqueios ou seu subconjunto de acordo com um status específico, mude o valor no campo Mostrar.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

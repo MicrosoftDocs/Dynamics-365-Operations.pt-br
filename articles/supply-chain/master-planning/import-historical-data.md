@@ -61,3 +61,6 @@ Depois de importar os dados históricos de demanda, você poderá gerar uma prev
 
 [​Gerar uma previsão estatística​](generate-statistical-baseline-forecast.md)  
 [Visão geral de trabalhos de importação e exportação de dados](../../fin-ops-core/dev-itpro/data-entities/data-import-export-job.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

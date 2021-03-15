@@ -129,3 +129,6 @@ A lista de documentos comerciais a seguir é controlada pelo recurso, **Rotear a
 [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
 [Alterações na API da estrutura do relatório eletrônico para Application update 10.0.17](er-apis-app10-0-17.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

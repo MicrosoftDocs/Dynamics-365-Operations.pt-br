@@ -84,3 +84,6 @@ Este procedimento foca na otimização das quantidades e tamanho kanban para uma
     * Observe que esta é a quantidade kanban fixa de 4 do cálculo da quantidade kanban.  
 5. Clique na guia Painel de Lista.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Cada mês, para cada estabelecimento fiscal, o valor de crédito de imposto é c
 42. Feche a página.
 43. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Este tópico descreve como classificar um produto usando hierarquias de categori
 11. No campo **Categoria**, insira ou selecione um valor.
 12. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

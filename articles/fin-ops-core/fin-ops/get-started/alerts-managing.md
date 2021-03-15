@@ -82,3 +82,6 @@ Se você configurar uma janela de processamento em lotes, um alerta será enviad
 
 1. Vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas de data de vencimento**.
 2. Na caixa de diálogo **Alertas de data de vencimento** , insira as informações apropriadas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

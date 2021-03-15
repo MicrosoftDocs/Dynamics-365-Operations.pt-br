@@ -34,3 +34,6 @@ Este procedimento explica como criar e enviar o relatório de IVA para a autorid
 5. Selecione Sim no campo Criar documento eletrônico de impostos.
 6. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

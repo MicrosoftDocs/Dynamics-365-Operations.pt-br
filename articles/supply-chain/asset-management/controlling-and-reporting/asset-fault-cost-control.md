@@ -61,3 +61,6 @@ Esse exemplo mostra um cálculo de controle de custo de falha de ativo.
     ![Figura 1](media/05-controlling-and-reporting.png)
 
 Para obter informações sobre como configurar as falhas, consulte o tópico [Gerenciamento de falhas](../setup-for-work-orders/fault-management.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Localizar um grupo de candidatos qualificado para preencher vagas pode ser difí
 24. Feche a página.
 25. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

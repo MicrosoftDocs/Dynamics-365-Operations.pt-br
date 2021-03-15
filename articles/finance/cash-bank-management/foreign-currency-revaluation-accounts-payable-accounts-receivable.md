@@ -65,3 +65,6 @@ Um registro é mantido sempre que você execute uma reavaliação de moeda estra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

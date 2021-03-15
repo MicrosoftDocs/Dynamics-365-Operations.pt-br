@@ -49,3 +49,6 @@ Por exemplo, há 5.001 IDs de ativo fixo, três registros estão associados a ca
 
 > [!Note] 
 > Se o parâmetro **Resumir depreciação** estiver ativado durante a criação de uma proposta de depreciação, o valor no campo **Número de registros por diário - proposta de depreciação** não terá efeito. Neste caso, o número de registros por diário é 6.000, que é o limite definido internamente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

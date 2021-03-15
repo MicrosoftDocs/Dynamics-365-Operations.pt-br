@@ -85,3 +85,6 @@ Este registro usa a empresa de dados de demonstração USMF. A função gerente 
 24. Feche a página.
 25. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

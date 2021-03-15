@@ -181,3 +181,6 @@ Atualize as entidades de dados no Finance em **Gerenciamento de dados \> Parâme
 - Gerenciamento de dados:
 
   - [Gerenciamento de dados](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages?toc=/fin-and-ops/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

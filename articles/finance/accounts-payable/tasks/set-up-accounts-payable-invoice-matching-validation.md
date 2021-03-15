@@ -97,3 +97,6 @@ Vá para **Contas a pagar > Configuração > Configuração de conciliação de 
 
 1. Para especificar tolerâncias para fornecedores individuais que substituam a tolerância padrão, selecione uma **Conta do fornecedor**.
 2. Insira a porcentagem de variação que será aceita para este fornecedor.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

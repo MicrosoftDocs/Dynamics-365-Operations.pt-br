@@ -149,3 +149,6 @@ Além disso, é possível exibir dados de previsão de fluxo de caixa para conta
 - **Previsão de fornecimento**: Selecione **Previsões de fluxo de caixa** para exibir os fluxos de caixa futuros associados à previsão de fornecimento de itens selecionada.
 - **Previsão de demanda**: Selecione **Previsões de fluxo de caixa** para exibir os fluxos de caixa futuros associados à previsão de demanda de itens selecionada.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

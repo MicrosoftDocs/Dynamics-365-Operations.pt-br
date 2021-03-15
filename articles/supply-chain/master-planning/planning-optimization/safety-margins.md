@@ -182,3 +182,6 @@ Por exemplo, um item tem prazo de entrega de um dia e uma margem de recebimento 
 [Introdução à Otimização de Planejamento](get-started.md)
 
 [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

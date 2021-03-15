@@ -95,3 +95,6 @@ O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://com
 ### <a name="videos"></a>Vídeos
 
 Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ). 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

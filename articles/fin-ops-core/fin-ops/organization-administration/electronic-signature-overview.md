@@ -109,3 +109,6 @@ Para designar aprovadores, siga estas etapas.
 1. Na página **Opções**, na guia **Contas**, clique em **Designar aprovação**.
 2. No campo **ID de usuário aprovador**, selecione a ID do usuário que deve assinar as alterações de outro usuário.
 3. No campo **Atribuir para ID de usuário**, selecione a ID do usuário cujas alterações devem ser assinadas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -164,3 +164,6 @@ Se você tiver de alterar um arquivo de pagamento positivo, poderá cancelá-lo.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

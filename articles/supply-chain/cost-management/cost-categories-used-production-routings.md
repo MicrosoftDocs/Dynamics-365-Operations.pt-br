@@ -55,3 +55,6 @@ Alguns tipos de trabalho de produção podem ser aplicados a estimativas de temp
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

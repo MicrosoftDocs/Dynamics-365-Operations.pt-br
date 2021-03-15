@@ -238,3 +238,6 @@ Para controlar se os trabalhadores devem reutilizar uma placa de licença existe
 
 > [!NOTE]
 > Para configurar a etiqueta, vá para **Gerenciamento de depósito \> Configuração \> Roteiro de documento \> Roteiro de documento**. Para obter mais informações, consulte [Habilitar impressão de etiqueta de placa de licença](../warehousing/tasks/license-plate-label-printing.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

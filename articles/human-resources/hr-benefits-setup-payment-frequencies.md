@@ -56,3 +56,6 @@ Os campos de fatores de conversão identificam o fator de conversão da frequên
    | **Fator de conversão por hora** | O fator de conversão anual para a frequência de pagamento. Por exemplo, o fator de conversão anual para a frequência de pagamento mensal é: </br></br>(12 pagamentos mensais / 2080 horas) = 0,005769
 
 4. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

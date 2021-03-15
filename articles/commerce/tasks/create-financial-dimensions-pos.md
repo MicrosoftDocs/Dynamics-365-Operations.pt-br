@@ -47,3 +47,6 @@ Este procedimento mostra a criação de dimensões financeiras para registros de
 17. Na lista, localize e selecione o valor de dimensão para o registro que está sendo atualizado.
 18. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

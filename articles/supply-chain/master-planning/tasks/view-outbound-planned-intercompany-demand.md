@@ -42,3 +42,6 @@ Este procedimento mostra como exibir todas as ordens planejadas que serão cumpr
 8. Expanda a seção Detalhes da demanda upstream.
     * Nesta seção, você poderá ver os detalhes sobre como a solicitação será cumprida. É possível que você tenha que aguardar o planejamento mestre ser executado na empresa de fornecimento antes que possa ver informações adicionais aqui.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

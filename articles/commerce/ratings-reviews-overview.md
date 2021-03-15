@@ -58,3 +58,6 @@ A solução de classificações e opiniões também fornecem um modelo do busine
 [Configurar classificações e opiniões](configure-ratings-reviews.md)
 
 [Sincronizar classificações de produto no Dynamics 365 Commerce](sync-product-ratings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

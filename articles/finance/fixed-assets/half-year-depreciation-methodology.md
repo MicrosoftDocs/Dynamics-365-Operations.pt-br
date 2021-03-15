@@ -41,3 +41,6 @@ O primeiro ano de serviço terminará em dezembro de 2020, o que significa que o
    [![Agenda de depreciação para convenção de depreciação semestral](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Os períodos de depreciação estendidos adicionados pela convenção semestral fornecem uma alocação mais precisa da depreciação. A convenção semestral representa as despesas de depreciação de forma mais uniforme, o que é útil para relatórios no demonstrativo de lucros e perdas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

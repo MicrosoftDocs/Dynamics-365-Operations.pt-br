@@ -48,3 +48,6 @@ Para obter mais informações, consulte [Configurar e gerar arquivos de pagament
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

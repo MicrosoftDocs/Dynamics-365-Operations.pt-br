@@ -92,3 +92,6 @@ O procedimento a seguir ajuda a garantir que o método de reabastecimento criado
 6. No campo **Código da etapa da onda**, selecione o código da etapa da onda selecionada no modelo de reabastecimento.
 
 Essas etapas são executadas para cada entidade legal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

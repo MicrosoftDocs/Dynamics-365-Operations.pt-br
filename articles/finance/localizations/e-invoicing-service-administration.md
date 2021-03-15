@@ -138,3 +138,6 @@ O ambiente deve ser configurado na guia **Serviços de envio** da página **Par�
 
 - [Configurar faturas eletrônicas no RCS](e-invoicing-configuration-rcs.md)
 - [Emitir faturas eletrônicas no Finance e no Supply Chain Management](e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

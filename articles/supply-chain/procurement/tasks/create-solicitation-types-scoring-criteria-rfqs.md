@@ -51,3 +51,6 @@ Este guia mostra como criar um tipo da solicitação e associar esse tipo com um
 8. Clique em OK.
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Exportar dados para um modelo de configuração do produto requer que você tenh
 5. Clique em Exportar modelo do produto.
     * O comportamento de download varia do navegador ao navegador dependendo de como as configurações de segurança são definidas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

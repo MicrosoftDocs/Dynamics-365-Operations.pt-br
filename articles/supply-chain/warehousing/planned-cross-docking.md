@@ -315,3 +315,6 @@ No momento, ambas as IDs de trabalho têm a mesma placa de licença de destino. 
 A ilustração a seguir mostra como o trabalho de distribuição integrada concluído pode aparecer no Microsoft Dynamics 365 Supply Chain Management.
 
 ![Trabalho de distribuição integrada concluído](media/PlannedCrossDockingWork.png "Trabalho de distribuição integrada concluído")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

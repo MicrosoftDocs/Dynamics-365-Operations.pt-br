@@ -139,3 +139,6 @@ Para integrar parceiros comerciais e usuários na sede do Commerce, siga estas e
 [Definir limites de quantidade de produto para sites de comércio eletrônico B2B](quantity-limits.md)
 
 [Visão geral de sequências numéricas](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/number-sequence-overview)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

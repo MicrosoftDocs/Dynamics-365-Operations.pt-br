@@ -112,3 +112,6 @@ A tabela a seguir mostra os tipos de lista disponíveis para seleção na caixa 
 [Visão geral das recomendações de produtos](product-recommendations.md)
 
 [Módulo de exibição rápida](quick-view-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

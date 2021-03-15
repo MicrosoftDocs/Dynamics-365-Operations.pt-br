@@ -56,3 +56,6 @@ No final de cada mês, a receita mensal pode ser acumulada pela subscrição do 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

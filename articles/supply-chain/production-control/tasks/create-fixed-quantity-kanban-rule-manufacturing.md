@@ -73,3 +73,6 @@ Este procedimento tem como foco a configuração necessária para criar uma regr
     * Isso criará 5 kanbans.  
     * Note que 5 kanbans, para cada 10, foram criados para essa regra kanban de fabricação. Esta é a última etapa do procedimento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

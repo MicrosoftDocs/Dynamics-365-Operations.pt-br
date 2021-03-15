@@ -68,3 +68,6 @@ Você pode acessar esta página a partir do grupo de ação **Recebimento** na p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

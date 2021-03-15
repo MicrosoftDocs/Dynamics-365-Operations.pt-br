@@ -61,3 +61,6 @@ Para obter mais informações, consulte [Colaboração de fornecedores com forne
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

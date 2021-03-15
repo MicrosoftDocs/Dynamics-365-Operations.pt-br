@@ -67,3 +67,6 @@ Este é o quinto dos cinco procedimentos que demonstram o processo de pagamento 
 11. Clique em OK.
 12. Clique em OK.
 13. Clique em Criar pagamentos.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo 
 10. Clique em **Salvar**.
 11. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

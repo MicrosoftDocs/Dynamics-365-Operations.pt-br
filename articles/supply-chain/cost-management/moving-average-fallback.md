@@ -45,3 +45,6 @@ Para selecionar a sequência de custos de fallback para os cálculos de média d
     - **Custo ativo – Preço de item** – As organizações podem enfrentar problemas de desempenho se usarem processos de negócios em que o estoque fica negativo regularmente e, ao mesmo tempo, o volume de transações é alto. Essa configuração pode ajudar a mitigar esses problemas de desempenho.
 
 ![Parâmetros de contabilidade de estoque](media/inventory-accounting-parameters.png "Parâmetros de contabilidade de estoque")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

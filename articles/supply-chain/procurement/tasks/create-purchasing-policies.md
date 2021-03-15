@@ -56,3 +56,6 @@ Este tópico mostra como criar políticas de compra para alinhar com seus proces
 4. Selecione **Fechar**.
 - Agora você pode estabelecer outras regras da política para a política de compras. Note que um tipo da regra da política não pode ter as regras de sobreposição que são ativas ao mesmo tempo dentro de uma única política de obtenção.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

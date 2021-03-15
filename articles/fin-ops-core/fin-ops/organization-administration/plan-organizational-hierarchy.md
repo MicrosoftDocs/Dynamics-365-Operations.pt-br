@@ -241,3 +241,6 @@ Considere estas práticas recomendadas quando implementar uma hierarquia organiz
 - Antes que você modele grandes cenários de reestruturação, use as datas efetivas da hierarquia para realizar uma análise de impacto e um teste de validação.
 - Use o modo de rascunho para alterar uma hierarquia antes de publicar uma nova versão em um ambiente de produção.
 - Limite o número de pessoas que têm permissões para adicionar ou remover organizações de uma hierarquia em um ambiente de produção. Um número menor reduz a chance de ocorrência de erros e a necessidade de correções.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

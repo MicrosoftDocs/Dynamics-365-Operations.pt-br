@@ -87,3 +87,6 @@ A transação de reavaliação de moeda estrangeira também é dividida entre as
 Se for necessário reverter a transação de reavaliação, selecione o botão **Reverter transação** na página **Reavaliação de moeda estrangeira**. Um novo registro histórico de reavaliação de moeda estrangeira será criado para manter a trilha de auditoria histórica de quando a reavaliação ocorreu ou foi revertida.
 
 Para reverter várias reavaliações, você deverá reverter a reavaliação mais atual primeiro. Depois, continue a reverter as reavaliações mais antigas por ordem de data. É possível processar novas reavaliações para os períodos que foram revertidos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

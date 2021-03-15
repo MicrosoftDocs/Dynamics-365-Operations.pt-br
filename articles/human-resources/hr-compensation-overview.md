@@ -132,3 +132,6 @@ Depois de executar um evento de processo, você pode recomendar ajustes no aumen
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

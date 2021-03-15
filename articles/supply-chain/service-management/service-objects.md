@@ -46,3 +46,6 @@ A empresa A mantém os registros financeiros de várias pequenas empresas. Um do
 
 [Criar objetos de serviço](create-service-objects.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

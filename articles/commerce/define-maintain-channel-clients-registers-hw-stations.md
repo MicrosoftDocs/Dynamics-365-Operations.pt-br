@@ -204,3 +204,6 @@ Informações adicionais relacionadas à ativação incluem o trabalhador que al
 ### <a name="client-data-synchronization"></a>Sincronização de dados do cliente
 
 Todas as alterações em um cliente de POS, exceto as alterações no status de ativação do dispositivo, devem ser sincronizadas no banco de dados do canal entrem em vigor. Para sincronizar as alterações com o banco de dados de canal, navegue até **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição** e execute a agenda de distribuição necessária. Para alterações de cliente, você deve executar as agendas de distribuição **Terminais** e **Configuração do canal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -102,3 +102,6 @@ Este procedimento demonstra como criar um único produto lançado no contexto de
 12. Na lista, localize e selecione o registro desejado.
 13. Na lista, clique no link na linha selecionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

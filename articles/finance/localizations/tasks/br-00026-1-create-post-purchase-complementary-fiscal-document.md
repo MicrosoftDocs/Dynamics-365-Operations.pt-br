@@ -45,3 +45,6 @@ Use este procedimento para criar uma nota fiscal complementar de compra para aju
 14. Feche a página.
 15. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

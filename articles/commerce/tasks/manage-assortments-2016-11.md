@@ -54,3 +54,6 @@ Este procedimento demonstra como criar e publicar uma nova variedade de produtos
 1. Clique em Publicar.
 2. Clique em Sim.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

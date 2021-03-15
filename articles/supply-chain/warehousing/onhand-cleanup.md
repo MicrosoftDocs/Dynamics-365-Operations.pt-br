@@ -62,3 +62,6 @@ Por padrão, a configuração **Tempo de execução máximo** não está dispon�
 
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito*
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

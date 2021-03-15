@@ -45,3 +45,6 @@ Os modelos de fluxo de produção descrevem como capacidade das células de trab
 8. No campo Reação de escassez de capacidade, selecione uma opção.
     * As opções incluem: Adiar - adia a demanda completa do evento de agendamento no próximo dia disponível de produção, com a produtividade disponível. Cancelar - finaliza o planejamento automático para o evento de agendamento e deixa os trabalhos relacionados sem planejamento.   Adicionar ao dia solicitado - planeja os trabalhos solicitados para o período solicitado. Isso sobrecarrega a célula para esse dia e requer que o planejador revise e faça uma interação manual.   Distribuir entre períodos disponíveis - distribui os diferentes trabalhos do evento de agendamento em todos os dias disponíveis de produção, começando pelo primeiro dia disponível. A quantidade mínima de distribuição é a quantidade de trabalhos kanban. A distribuição atribui a quantidade mínima de planejamento (quantidade de kanbans) a cada dia com produtividade suficiente disponível.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

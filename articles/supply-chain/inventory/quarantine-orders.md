@@ -66,3 +66,6 @@ Como parte do processo da ordem de quarentena, você pode sucatear o estoque. Ao
 --------
 
 [Bloqueio de estoque](inventory-blocking.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Depois de definir as opções de cobertura, anexe as opções de cobertura a um 
    | **Permitir valor de cobertura do funcionário** | Especifica se os funcionários devem modificar o valor da cobertura no autoatendimento de benefícios quando selecionam benefícios. Se você marcar esta caixa de seleção, o sistema calculará os parâmetros do plano de benefícios com base no valor da cobertura que o empregado insere no autoatendimento para funcionários. |
 
 6. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

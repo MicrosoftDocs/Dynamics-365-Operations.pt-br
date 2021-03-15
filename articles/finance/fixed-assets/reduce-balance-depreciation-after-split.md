@@ -44,3 +44,6 @@ Por exemplo, as seguintes condições estão em vigor:
 O valor a ser depreciado para o ativo original é de US$ 1.822,25. Esse valor é igual ao NBV antes da transação dividida ser lançada (US$ 9.111,25), além do ajuste de aquisição que é gerado durante o lançamento da transação dividida (-US$ 8.000), mais o ajuste de depreciação gerado durante a transação dividida (US$ 711). Portanto, a depreciação para o segundo ano é de (1.822,25 × 18%) ÷ 12 = US$ 27,33.
 
 O valor a ser depreciado para o novo ativo fixo no primeiro ano é de (8.000 × 18%) ÷ 12 = US$ 120.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -98,3 +98,6 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | 3        | CEP de destino | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 4        | CEP final de destino   | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 5        | País/região de destino           | Atribuição | Cadeia de caracteres    | País/região |           |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

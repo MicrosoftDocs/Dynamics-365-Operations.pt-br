@@ -59,3 +59,6 @@ Clique em **Gerenciamento de serviço** \> **Periódico** \> **Quadro de expedi�
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

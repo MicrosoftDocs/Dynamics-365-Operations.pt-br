@@ -59,3 +59,6 @@ Quando você atribui usuários a funções, as regras de diferenciação de dire
 
 > [!NOTE]
 > Se vários conflitos forem listados para o mesmo usuário, selecione o registro do usuário e avalie as funções atribuídas na página **Usuários**. Para evitar esse conflito, valide cada regra depois que ela for adicionada ou modificada.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

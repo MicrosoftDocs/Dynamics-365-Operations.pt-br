@@ -55,3 +55,6 @@ O preço de custo médio para o depósito GW e lote AAA é BRL 11,20, e o preço
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

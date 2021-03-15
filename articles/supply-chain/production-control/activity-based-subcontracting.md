@@ -105,3 +105,6 @@ O Supply Chain Management agora tem suporte para o cálculo da BOM que inclui se
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

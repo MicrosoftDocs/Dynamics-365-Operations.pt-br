@@ -72,3 +72,6 @@ Este procedimento mostra como localizar produtos ou grades de produtos liberados
 
 8. Na lista, localize e selecione o PDV desejado.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

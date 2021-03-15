@@ -84,3 +84,6 @@ Para disponibilizar recursos de gerenciamento de ativos no aplicativo móvel do 
 Para obter mais informações sobre como trabalhar com o espaço de trabalho móvel **Gerenciamento de ativos**, consulte [Usar o espaço de trabalho móvel Gerenciamento de ativos](asset-management-mobile-workspace.md).
 
 Para obter mais informações sobre o aplicativo móvel do Finance and Operations (Dynamics 365), consulte a [Home page do aplicativo móvel](../../fin-ops-core/dev-itpro/mobile-apps/Mobile-app-home-page.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

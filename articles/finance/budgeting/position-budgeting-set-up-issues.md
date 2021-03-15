@@ -63,3 +63,6 @@ As datas na linha do elemento de custo da posição de previsão devem estar nos
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

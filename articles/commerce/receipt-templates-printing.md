@@ -85,3 +85,6 @@ Os perfis de recibo são atribuídos diretamente às impressoras por meio do per
 
 > [!NOTE]
 > Se duas impressoras forem usadas, uma delas poderá ser usada para imprimir recibos térmicos padrão de 40 colunas. A segunda normalmente é usada para imprimir tipos de recibo de página inteira que requerem mais informações. Esses tipos de recibo incluem recibos de ordens de clientes e faturas de clientes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

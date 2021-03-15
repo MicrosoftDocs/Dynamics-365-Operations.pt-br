@@ -161,3 +161,6 @@ As BOMs e os roteiros de engenharia são criados a partir da versão de engenhar
 Para produtos em que você está usando a dimensão de produto da *versão* (junto com impacto logístico nas transações), a versão também é adicionada às BOMs e roteiros. Esse comportamento ajuda a diferenciar as BOMs e os roteiros de versões consecutivas, independentemente da configuração de **Aplicar efetividade**.
 
 Para produtos em que você não está usando a dimensão de produto da *versão* (sem impacto logístico nas transações), a versão não é adicionada às BOMs ou roteiros. Portanto, não haverá diferença entre as BOMs e os roteiros de versões consecutivas. Nesse caso, é altamente recomendável definir a opção **Aplicar efetividade** como *Sim*. Dessa forma, você ajuda a evitar que versões de engenharia se sobreponham e também pode ativar a BOM e o roteiro de uma versão mais recente sem precisar primeiro desativar a BOM e o roteiro da versão anterior. Se você definir a opção **Aplicar efetividade** como *Sim* neste caso, deverá desativar manualmente as BOMs e os roteiros de versões mais antigas antes de ativar a versão mais recente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

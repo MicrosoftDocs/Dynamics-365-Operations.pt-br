@@ -86,3 +86,6 @@ Na entrada de linha da ordem de venda, o comportamento padrão é abrir a págin
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

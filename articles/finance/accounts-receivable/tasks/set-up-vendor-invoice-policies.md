@@ -72,3 +72,6 @@ Este tópico explica como configurar políticas de fatura de fornecedor. As pol�
 16. Selecione **OK**.
 17. Feche as páginas para voltar à home page.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

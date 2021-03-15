@@ -49,3 +49,6 @@ No Asset Management, você pode configurar documentos para que eles sejam automa
 
 4. Selecione **Anexos**. A página **Manuseio de documentos** padrão será exibida.
 5. Configure os documentos ou as anotações que devem ser anexados ao registro do documento de ativo. Depois que você anexar documentos, o campo **Anexos** mostrará o número de documentos relacionados ao registro.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

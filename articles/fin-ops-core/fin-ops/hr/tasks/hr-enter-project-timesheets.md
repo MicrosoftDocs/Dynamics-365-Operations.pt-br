@@ -51,3 +51,6 @@ Este procedimento permite criar uma folha de ponto usando um formulário vazio d
 21. Clique em **Enviar**.
 22. Clique em **Enviar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

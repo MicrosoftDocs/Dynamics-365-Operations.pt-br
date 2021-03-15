@@ -81,3 +81,6 @@ Para alterar um ID de usuário, você deve renomear a chave no banco de dados. Q
 Para obter mais opções de implementação de usuários B2B, consulte [Exportar usuários B2B para o Azure AD](../implement-b2b.md).
 
 Para obter informações sobre contas de sistema pré-configuradas, consulte [Contas de sistema pré-configuradas](../pre-configured-system-accounts.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

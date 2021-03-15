@@ -54,3 +54,6 @@ O diário de desempenho retém informações que se refere como você tiver enco
 20. No campo descrição, insira “agradecimentos a todos na ajuda.!” conferência
 21. Clique em Enviar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

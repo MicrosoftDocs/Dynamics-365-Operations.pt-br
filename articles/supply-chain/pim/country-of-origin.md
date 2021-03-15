@@ -90,3 +90,6 @@ Ao gerar um relatório de BOM, você pode incluir o país de origem de cada peç
 Um relatório que mostra informações sobre o país de origem de cada peça é gerado e exibido. Veja aqui um exemplo do relatório.
 
 ![Relatório sobre o país de origem](media/country-of-origin-report.png "Relatório sobre o país de origem")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

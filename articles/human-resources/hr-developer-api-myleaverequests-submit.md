@@ -108,3 +108,5 @@ Como parte da chamada à API de envio, o Human Resources executa a validação d
 
 - [Visão geral de MyLeaveRequests](hr-developer-api-myleaverequests-overview.md)
 - [Autenticação](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

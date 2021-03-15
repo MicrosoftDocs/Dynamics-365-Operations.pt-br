@@ -71,3 +71,6 @@ Os varejistas geralmente optam por excluir alguns produtos, como novos itens ou 
 
 > [!NOTE]
 > Quando a configuração **Impedir todos os descontos** estiver definida como **Sim**, nenhum desconto será aplicado ao produto. Os descontos com base no meio de pagamento também não serão aplicados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

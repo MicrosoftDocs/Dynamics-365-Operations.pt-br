@@ -223,3 +223,6 @@ Para obter valores convertidos corretamente quando moedas são usadas, o Relató
 Para obter mais informações sobre consolidação e conversão de moeda, consulte o tópico principal deste tópico, [Visão geral de consolidações financeiras e conversão de moeda](./financial-consolidations-currency-translation.md).
 
 Para obter mais informações sobre como inserir detalhes de consolidações online, consulte [Consolidações financeiras online](./consolidate-online.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

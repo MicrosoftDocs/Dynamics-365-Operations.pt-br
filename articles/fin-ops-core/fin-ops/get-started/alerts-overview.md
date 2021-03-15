@@ -88,3 +88,6 @@ O vídeo [Como usar alertas para monitorar dados filtrados](https://youtu.be/ZYK
 O vídeo [Opções de regras de alerta](https://youtu.be/cpzimwOjicM) (mostrado acima) está na playlist [Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

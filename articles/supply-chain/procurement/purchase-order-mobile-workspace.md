@@ -112,3 +112,6 @@ Depois de ver a ordem de compra que lhe foi atribuído e ler as instruções de 
 5. Selecione a ação adequada.
 6. Na página **Concluir tarefa**, insira um comentário. Observe que se você selecionar a ação **Delegar**, será necessário selecionar um usuário para o qual delegar a tarefa.
 7. Selecione **Concluído**. Depois de atualizar sua área de trabalho, a ordem de compra não estará na lista. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -368,3 +368,6 @@ Quando uma linha de BPM for excluída, qualquer guia da tarefa associada à linh
 **Linha da BPM excluída**
 
 - Mover trabalhos kanban agendados
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Os grupos de agendamento de lean manufacturing são definidos para agrupar e dis
 3. No campo Chave de alocação de itens, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

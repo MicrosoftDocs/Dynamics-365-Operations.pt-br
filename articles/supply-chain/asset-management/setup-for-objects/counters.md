@@ -66,3 +66,6 @@ Quando tipos de ativo forem adicionados a um tipo de contador, digite **Contador
 
 ![Figura 1](media/071-setup-for-objects.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

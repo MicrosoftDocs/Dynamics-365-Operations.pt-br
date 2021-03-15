@@ -61,3 +61,6 @@ Este procedimento orienta como exibir a lista de provedores de serviço de pagam
 24. Clique na caixa de seleção Processador padrão para novos cartões de crédito.
 25. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

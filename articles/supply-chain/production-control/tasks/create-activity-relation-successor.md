@@ -65,3 +65,6 @@ Pré-requisitos:
 12. Feche a página.
 13. Atualize a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

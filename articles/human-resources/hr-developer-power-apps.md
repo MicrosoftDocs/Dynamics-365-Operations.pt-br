@@ -60,3 +60,5 @@ Para baixar o modelo **Power Automate — Conectar ao SQL e executar**, acesse [
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [A Microsoft Power Platform](https://docs.microsoft.com/power-platform/admin/admin-documentation)</br>
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

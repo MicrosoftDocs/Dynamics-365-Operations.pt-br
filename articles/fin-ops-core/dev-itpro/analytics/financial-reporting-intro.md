@@ -96,3 +96,6 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 
 ## <a name="additional-resources"></a>Recursos adicionais
 [Gerar relatórios financeiros](generate-financial-report.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

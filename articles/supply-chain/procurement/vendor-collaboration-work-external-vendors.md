@@ -258,3 +258,6 @@ O usuário que configura os parâmetros para o processo de RFQ pode criar vário
 - %createddate%
 
 Se uma alteração for necessária e for enviada após a RFQ ser enviada, a RFQ será enviada novamente a todos os fornecedores convidados. O documento publicado também será atualizado na página **Abrir solicitações publicadas para cotações**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

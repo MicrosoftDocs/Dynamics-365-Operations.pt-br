@@ -65,3 +65,6 @@ Essa configuração permite confirmar uma carga de transporte que inclua uma car
 
 1. Selecione **Gerenciamento de depósito** \> **Cargas** \> **Cargas de transporte**.
 2. No painel de ação, na guia **Enviar e receber** , no grupo **Confirmar** , selecione **Transporte**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Quando você cria uma entrega direta, os itens vendidos nunca chegam fisicamente
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

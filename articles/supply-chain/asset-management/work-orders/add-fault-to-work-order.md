@@ -79,3 +79,6 @@ Na página de listagem **Todos os ativos**, você pode imprimir um relatório de
 >[!NOTE]
 >Para imprimir um relatório de falhas para vários ativos ou tipos de ativos, selecione **Gerenciamento de ativos** > **Relatórios** > **Ativos** > **Falha de ativo**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

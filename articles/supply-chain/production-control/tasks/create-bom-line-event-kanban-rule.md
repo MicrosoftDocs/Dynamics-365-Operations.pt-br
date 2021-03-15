@@ -82,3 +82,6 @@ Essa tarefa se concentra na configuração necessária para criar uma regra kanb
     * Observe o kanban criado para fornecer M0001 para a ordem de produção prevista.  
     * Esta é a última etapa!  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

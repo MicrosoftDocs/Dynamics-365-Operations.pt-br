@@ -81,3 +81,6 @@ Para recuperar uma transação suspensa com rapidez e facilidade, digitalize o c
 ### <a name="void-a-suspended-transaction"></a>Anular a transação suspensa
 
 Você pode anular transações suspensas recuperando a transação e, depois, executando a operação, **Anular transação** ou pode selecionar a transação na lista **Recuperar transação** e selecionar **Anular** na barra de aplicativos. Como alternativa, a loja pode ser configurada para solicitar aos usuários que anulem transações suspensas ao fecharem o turno.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

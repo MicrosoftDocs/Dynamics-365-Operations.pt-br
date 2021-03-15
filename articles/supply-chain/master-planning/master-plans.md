@@ -56,3 +56,6 @@ Também é possível configurar o início do plano dinâmico para ser atualizado
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

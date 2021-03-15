@@ -88,3 +88,6 @@ Uma maneira de melhorar o desempenho com o mecanismo de planejamento mestre inte
 
 > [!NOTE]
 > Isso limitará o período de detalhamentos realizados desse plano mestre a um único dia.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

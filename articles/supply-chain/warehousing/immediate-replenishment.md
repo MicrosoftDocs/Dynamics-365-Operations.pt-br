@@ -56,3 +56,6 @@ Se o reabastecimento imediato estiver selecionado para uma linha de diretiva de 
 
 - Verifique se o modelo de reabastecimento de demanda aplicado foi configurado para usar os modelos de local e de trabalho corretos do tipo **Reabastecimento**.
 - Verifique se há estoque disponível suficiente nos locais onde o modelo de reabastecimento de demanda procura estoque disponível para reabastecimento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

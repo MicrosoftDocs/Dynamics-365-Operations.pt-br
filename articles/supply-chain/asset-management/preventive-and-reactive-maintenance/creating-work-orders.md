@@ -95,3 +95,6 @@ Para configurar agrupamento para ordens de serviço geradas automaticamente, sig
 1. Se você deseja que as opções sejam aplicadas ao executar apenas alguns dos planos de manutenção, na guia rápida **Registros que serão incluídos**, adicione filtros conforme necessário, da mesma forma que em outros trabalhos em lote no Microsoft Dynamics 365 Supply Chain Management.
 1. Na guia rápida **Executar em segundo plano**, configure as opções de lote e de agendamento conforme necessário, da mesma forma que em outros trabalhos em lote no Supply Chain Management.
 1. Selecione **OK** para executar e/ou programar os planos de manutenção selecionados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

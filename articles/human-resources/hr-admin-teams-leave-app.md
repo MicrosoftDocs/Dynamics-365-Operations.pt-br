@@ -134,3 +134,6 @@ Para restringir o acesso ao aplicativo Human Resources no Microsoft Teams para s
 [Central de ajuda do Microsoft Teams](https://support.office.com/teams)</br>
 [Gerenciar solicitações de licença no Teams](hr-teams-leave-app.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

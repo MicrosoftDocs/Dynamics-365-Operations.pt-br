@@ -48,3 +48,6 @@ Este procedimento orienta nas etapas para criar e processar uma distribuição i
 15. Na lista, localize e selecione um depósito que tenha recebido produtos.
 16. Clicar em Ordem para exibir as ordens criadas para o depósito selecionado
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -598,3 +598,6 @@ Você pode dividir o valor em uma coluna por um número especificado de período
 [Definições de linha no designer de relatório financeiro](row-definitions-financial-reporting.md)
 
 [Opções avançadas de formatação no relatório financeiro](advanced-formatting-options-financial-reporting.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

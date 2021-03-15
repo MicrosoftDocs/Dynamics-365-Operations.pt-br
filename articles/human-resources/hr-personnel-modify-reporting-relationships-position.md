@@ -44,3 +44,6 @@ Este procedimento mostra como alterar a relação de subordinação de um funcio
 12. No campo Relatórios para posição, insira ou selecione um valor.  Exemplo: 000437
 13. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -116,3 +116,6 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 [Sincronizar cabeçalhos e linhas da fatura de venda diretamente do Supply Chain Management com o Sales](sales-invoice-template-mapping-direct.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

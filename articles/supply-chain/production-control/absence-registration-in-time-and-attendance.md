@@ -108,3 +108,6 @@ Por exemplo, um trabalhador entra às 10:00 e seleciona um código de ausência 
 ### <a name="calculate-and-approve-absence"></a>Calcular e aprovar a ausência
 
 - Selecione **Horário e presença** &gt; **Revisar e aprovar** &gt; **Aprovar ou Calcular**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

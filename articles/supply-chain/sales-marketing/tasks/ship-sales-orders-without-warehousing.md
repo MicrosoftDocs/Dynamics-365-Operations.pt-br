@@ -55,3 +55,6 @@ Este tópico explica como atualizar uma ordem de venda quando produtos são envi
 19. No Painel de Ação, selecione **Separar e empacotar**.
 20. Selecione **Guia de remessa**. A página **Diário de guias de remessa** contém todos os documentos de guia de remessa que foram gerados para sua ordem. Você pode revisar os detalhes de cada documento e imprimi-los, se desejar.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Verifique se o campo Conta de cliente contém o número de cliente US-001
     * Existem dois contratos de linha de desconto para o produto T0012, especificando um desconto de 5 por cento para uma quantidade de linha de ordem de 1 a 10, e 7 por cento para quantidades de ordem acima de 10. Observe que os descontos estão aplicados a um grupo de produtos, neste exemplo, Grupo código 01, do qual o produto T0012 é membro.  
 4. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

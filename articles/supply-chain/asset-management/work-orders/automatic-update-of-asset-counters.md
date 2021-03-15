@@ -69,3 +69,6 @@ Observe os seguintes pontos:
 
 - Você pode configurar os contadores relacionados a outro contador. Nesse caso, quando um contador é atualizado, os contadores relacionados são atualizados automaticamente ao mesmo tempo. Para obter mais informações sobre como configurar contadores relacionados, consulte [Contadores](../setup-for-objects/counters.md).
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

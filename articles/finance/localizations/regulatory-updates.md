@@ -77,3 +77,6 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 - Encontre todas as atualizações regulatórias planejadas e divulgadas [Lifecycle Service - Pesquisa de problemas](https://lcs.dynamics.com/Logon/Index) (logon necessário).
 - Para obter uma lista das localizações compatíveis, consulte o [Guia de disponibilidade internacional](https://aka.ms/dynamics_365_international_availability_deck).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

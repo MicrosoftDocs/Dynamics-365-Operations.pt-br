@@ -45,3 +45,6 @@ Este procedimento orienta na definição de pontos de recompensa de fidelidade. 
 10. No campo Unidade do período de validade, selecione uma opção.
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

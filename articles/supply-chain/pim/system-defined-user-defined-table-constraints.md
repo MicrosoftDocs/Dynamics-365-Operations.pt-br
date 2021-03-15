@@ -66,3 +66,6 @@ Antes que uma restrição de tabela possa ter efeito em um modelo de configuraç
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

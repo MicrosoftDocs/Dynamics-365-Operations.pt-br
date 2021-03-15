@@ -170,3 +170,6 @@ Antes de configurar o agrupamento de linhas de separação, você deve criar alg
 >   - Linhas de trabalho que têm trabalho de reabastecimento não concluído
 >   - Separação em excesso
 >   - Separação insuficiente com realocação de item
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

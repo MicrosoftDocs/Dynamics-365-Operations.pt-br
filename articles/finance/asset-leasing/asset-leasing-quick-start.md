@@ -252,3 +252,6 @@ Conclua as etapas a seguir para criar um novo arrendamento.
 
    A página **Transações de responsabilidade com arrendamento** mostra o reconhecimento inicial, o pagamento de juros de arrendamento, o pagamento do arrendamento e o saldo da responsabilidade com arrendamento. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

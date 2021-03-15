@@ -91,3 +91,6 @@ O campo **Status de aprovação** é usado quando uma ordem de compra passa por 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

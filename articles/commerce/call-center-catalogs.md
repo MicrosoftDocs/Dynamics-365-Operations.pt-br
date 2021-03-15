@@ -100,3 +100,6 @@ Na guia **Catálogos**, as opções para configurar uma **Agenda de pagamento** 
 ## <a name="additional-notes"></a>Notas adicionais
 
 Atualmente, quando uma ID de código-fonte é aplicada a uma ordem de venda no call center, ela é usada para impulsionar preços, promoções, scripts e vendas/vendas cruzadas específicas do catálogo. O sistema não proibirá nem impedirá que um produto que não esteja no catálogo seja solicitado na ordem de venda. Se for pedido um item que não faz parte do catálogo, primeiro o sistema usará o **Grupo de preços** definido no canal de call center (**Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers**) para o preço de item ou promoções. Se nenhum preço de canal específico for encontrado, o preço de venda base do item será usado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

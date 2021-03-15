@@ -48,3 +48,6 @@ As funcionalidade do recurso descrevem qual recursos de operações podem ser fe
 5. No campo Nível, insira um número.
     * Quando você especifica que um trabalho ou uma operação requer um recurso específico, você também pode especificar o nível mínimo necessário. Use o recurso em nível para diferenciar os recursos que podem realizar o mesmo trabalho, velocidades diferentes, pontos fortes, tamanho, e assim por diante.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

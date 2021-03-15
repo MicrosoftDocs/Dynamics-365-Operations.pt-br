@@ -96,3 +96,6 @@ Este procedimento mostra como configurar um mestre de taxa. O gerente logístico
     * Especifique de qual CEP essa atribuição da base da taxa deverá ser válida.
 10. No campo **Região do país de retirada**, digite "USA".
 11. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

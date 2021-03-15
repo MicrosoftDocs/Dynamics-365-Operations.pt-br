@@ -63,3 +63,6 @@ A ilustração a seguir mostra a guia **Listas de tarefas**.
 [Criar listas de tarefas e adicionar tarefas](task-mgmt-create-lists.md)
 
 [Atribuir listas de tarefas a lojas ou funcionários](task-mgmt-assign-lists.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Por exemplo, uma ordem de venda tem dois itens: um para entrega e outro para ret
 ### <a name="issue-resolution"></a>Resolução do problema
 
 O status de liberação se aplica apenas a linhas de ordem em que os itens estão habilitados para gerenciamento de depósito. Portanto, o status de liberação permanece *Parcialmente liberada* neste cenário. A Microsoft avaliou esse problema e determinou que é uma limitação de recurso. Uma extensão pode ser adicionada como parte da guia de remessa e do processo de faturamento para atualizar o status de liberação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

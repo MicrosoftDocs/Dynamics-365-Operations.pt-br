@@ -190,3 +190,6 @@ Os seguintes detalhes são importados e incluídos no novo registro de funcioná
 
 [Configurar tabelas virtuais do Dataverse](./hr-admin-integration-common-data-service-virtual-entities.md)<br>
 [O que é o Microsoft Dataverse?](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

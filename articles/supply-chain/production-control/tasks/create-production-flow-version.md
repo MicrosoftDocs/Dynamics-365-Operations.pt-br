@@ -63,3 +63,6 @@ Esse procedimento tem como foco a criação de uma versão de fluxo de produçã
     * Insira o número de dias no Período para tempo de ciclo real. O período para tempo de ciclo real é o número de dias em que os trabalhos são agregados do minuto real regressivamente para calcular o tempo de ciclo real. O valor pode ser alterado a qualquer momento e só é usado para o cálculo dos tempos de ciclo reais.  
 13. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

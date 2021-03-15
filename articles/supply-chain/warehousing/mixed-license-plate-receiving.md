@@ -48,3 +48,6 @@ Você precisa criar um novo item de menu com o modo de trabalho que não usa o t
 - Recebimento e armazenamento de placa de licença mista
 
 As opções para identificar as linhas do documento de origem são: item da ordem de compra, linha da ordem de compra, ordem de devolução, item da ordem de transferência e linha da ordem de transferência. Essas opções podem alterar a ordem de recebimento em uma única placa de licença. A última opção é por item de carga. Você pode adicionar vários itens a uma placa de licença, mas não pode alternar entre várias cargas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

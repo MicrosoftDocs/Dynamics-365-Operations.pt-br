@@ -95,3 +95,6 @@ Para adicionar um módulo de faixa promocional a uma nova página e definir as p
 [Módulo de bloco de conteúdo](add-hero-module.md)
 
 [Módulo de reprodutor de vídeo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

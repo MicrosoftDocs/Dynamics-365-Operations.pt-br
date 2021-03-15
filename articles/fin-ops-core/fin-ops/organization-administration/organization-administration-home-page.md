@@ -101,3 +101,6 @@ Os modelos de registro podem ajudá-lo a criar registros de forma mais rápida. 
 - [Configurar gerenciamento de documentos](configure-document-management.md)
 - [Configurar e enviar email](configure-email.md)
 - [Dados de data/hora e fusos horários](date-time-zones.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

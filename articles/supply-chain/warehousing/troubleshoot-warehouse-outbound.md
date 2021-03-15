@@ -61,3 +61,6 @@ Um item é adicionado a uma linha de vendas para entrega direta de um depósito 
 ### <a name="issue-resolution"></a>Resolução do problema
 
 A Microsoft avaliou esse problema e determinou que é uma limitação de recurso. Atualmente, o WMS não oferece suporte para entrega direta. Portanto, para usar a entrega direta, você deve selecionar um item e depósito que não é WMS.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -119,3 +119,6 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 11. Clique em **OK**.
 12. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

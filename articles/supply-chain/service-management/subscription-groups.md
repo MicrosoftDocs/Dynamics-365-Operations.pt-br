@@ -54,3 +54,6 @@ Também é possível concluir as seguintes tarefas para todas as subscrições a
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -185,3 +185,6 @@ namespace TalentODataPoC
 ```
 
 Após recuperar um token de acesso, você passará o token no cabeçalho de autorização como um token de portador com cada solicitação enviada para a API de dados, conforme descrito acima.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -147,3 +147,6 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "ER 
 4. Clique em Concluir.
 5. Clique em OK.
 ![Página de designer de mapeamento de modelo de ER](../media/er-financial-dimensions-guides-model-mapping5.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

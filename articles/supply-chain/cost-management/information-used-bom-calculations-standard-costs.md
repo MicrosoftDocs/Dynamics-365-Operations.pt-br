@@ -83,3 +83,6 @@ Várias fontes de informações podem ser especificadas ao iniciar um cálculo d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

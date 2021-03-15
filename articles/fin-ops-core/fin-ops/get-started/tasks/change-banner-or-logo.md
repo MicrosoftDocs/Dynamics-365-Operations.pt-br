@@ -39,3 +39,6 @@ O procedimento a seguir lista as etapas que os administradores do sistema podem 
 6. Vá para **Painel de navegação > Módulos > Comum > Comum > Painel padrão**. Você deverá ver a nova imagem da faixa ou do logotipo no painel.  
     
     Talvez seja necessário modificar sua empresa, usando o separador da empresa, para aquela carregada para a faixa.  
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

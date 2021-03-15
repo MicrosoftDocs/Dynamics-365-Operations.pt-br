@@ -87,3 +87,6 @@ Este tópico explica como configurar e executar regras de diretiva de auditoria.
 57. Expanda a seção **Associações**.
 58. Na lista, localize e selecione o registro desejado.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

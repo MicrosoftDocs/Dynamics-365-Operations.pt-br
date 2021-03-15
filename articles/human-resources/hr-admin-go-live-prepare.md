@@ -99,3 +99,6 @@ Depois de enviar a lista de verificação, o Arquiteto de Soluções FastTrack a
 ## <a name="see-also"></a>Consulte também
 
 [​Perguntas frequentes sobre ativação​](hr-admin-go-live-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

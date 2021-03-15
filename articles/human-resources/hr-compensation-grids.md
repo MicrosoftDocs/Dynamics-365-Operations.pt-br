@@ -92,3 +92,6 @@ As grades de remuneração são usadas para definir e manter as estruturas de pa
 29. Na lista, marque ou desmarque todas as linhas.
 30. Clique em Aplicar à grade.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

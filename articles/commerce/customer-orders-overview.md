@@ -170,3 +170,6 @@ Quando a opção **Criar ordem do cliente no modo assíncrono** é definida como
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Ordens híbridas de cliente](hybrid-customer-orders.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Para configurar nomes de diário de arrendamento, siga estas etapas.
 2. Na guia **Geral**, no campo **Nome do diário de reconhecimento inicial**,selecione um diário. Todas as entradas do diário de reconhecimento inicial serão lançadas nesse nome de diário.
 3. No campo **Nome de diário de fatura**, selecione um diário. Se a opção **Pagar ao fornecedor** for definida como **Sim** para o registro de arrendamento, as faturas de pagamento de arrendamento e despesa serão lançadas nesse nome de diário.
 4. No campo **Nome de diário de arrendamento**, selecione um diário. Todas as entradas de depreciação, juros e reclassificação de curto prazo serão lançadas nesse nome de diário. Se a opção **Pagar ao fornecedor** for definida como **Não** para o registro de arrendamento, as entradas de pagamento do arrendamento e de pagamento da despesa também serão lançadas nesse nome de diário.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -135,3 +135,6 @@ As validações para números de série também ocorrerão quando um usuário ex
 [Operação de estoque de entrada no PDV](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation)
 
 [Operação de estoque de saída no PDV](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

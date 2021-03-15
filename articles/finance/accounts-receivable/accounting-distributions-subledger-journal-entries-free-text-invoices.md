@@ -135,3 +135,6 @@ Você pode exibir a entrada contábil total da fatura antes de lançar uma fatur
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

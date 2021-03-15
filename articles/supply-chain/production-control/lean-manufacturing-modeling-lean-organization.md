@@ -66,3 +66,6 @@ Para a implementação de Lean manufacturing, escolhemos uma abordagem de fluxo 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

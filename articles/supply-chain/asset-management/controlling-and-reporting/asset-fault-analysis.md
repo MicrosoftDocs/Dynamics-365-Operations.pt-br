@@ -108,3 +108,6 @@ Na captura de tela abaixo, o **Tipo** foi adicionado e o cálculo mais detalhado
 >[!NOTE]
 >Para obter uma visão geral de todos os registros de falhas criados em ordens de serviço e solicitações de manutenção, clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Falhas de ativo**. Na página **Falhas de ativo**, selecione um registro de falha de ativo e expanda o painel **Informações relacionadas** para ver informações sobre a ordem de serviço ou solicitação de manutenção relacionada.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

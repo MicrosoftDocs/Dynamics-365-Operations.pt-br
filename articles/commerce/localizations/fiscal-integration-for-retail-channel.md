@@ -149,3 +149,6 @@ A seguinte funcionalidade de integração fiscal também está disponível no SD
 A seguinte funcionalidade de integração fiscal herdada que está disponível no SDK do Retail não usa a estrutura de integração fiscal e será preterida em atualizações posteriores:
 
 - [Exemplo de integração da unidade de controle para a Suécia (herdada)](./retail-sdk-control-unit-sample.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -104,3 +104,6 @@ O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integra�
 | Integração de PDV com impressoras fiscais                              |                |                           |         | X           |
 
 \* *Demonstrativos do livro fiscal* são demonstrativos de remuneração e restituição do SPED (Sistema Público de Escrituração Digital) Fiscal, de Contribuições de SPED e ICMS-ST (Imposto sobre Circulação de Mercadorias e Serviços - Substituição Tributária) para os estados suportados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

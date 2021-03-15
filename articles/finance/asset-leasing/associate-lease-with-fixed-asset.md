@@ -53,3 +53,6 @@ O ativo fixo agora pode ser depreciado usando a funcionalidade de depreciação 
 
 > [!NOTE]
 > Se você associar um ativo fixo a um arrendamento, os botões **Depreciação de ativo** e **Redução ao valor recuperável de arrendamento** serão desabilitados no arrendamento do Ativo. Você pode exibir as transações de depreciação de ativo e de deficiência de arrendamento de Ativos fixos. O botão **Transações de ativos** que abre um formulário de consulta também é desabilitado. Você também pode abrir o formulário de **Transações do ativo** nos Ativos fixos.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

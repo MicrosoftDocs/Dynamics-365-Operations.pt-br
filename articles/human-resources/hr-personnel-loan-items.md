@@ -55,3 +55,6 @@ Se um item for danificado ou extraviado, insira um registro de devolução fict�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

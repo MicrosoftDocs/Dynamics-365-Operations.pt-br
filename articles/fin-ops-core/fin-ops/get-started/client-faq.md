@@ -54,3 +54,6 @@ A opção **Exibir detalhes** está disponível de algumas formas:
 
 - Se um controle tiver os recursos de **Exibir detalhes**, e se o controle tiver um valor, esse valor será exibido como um hiperlink. Você pode clicar no hiperlink para abrir uma página que contém detalhes adicionais.
 - **Exibir detalhes** também é uma opção nos menus de atalho. Para obter mais informações sobre quando os menus de atalho são exibidos ao clicar com o botão direito do mouse, consulte a seção anterior.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

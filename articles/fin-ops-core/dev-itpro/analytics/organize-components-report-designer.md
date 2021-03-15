@@ -148,3 +148,6 @@ Somente as configurações do Período Base Padrão são salvas com a definiçã
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

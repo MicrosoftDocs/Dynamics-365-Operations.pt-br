@@ -41,3 +41,6 @@ Você pode configurar vários tipos de solicitações a serem usadas em sua empr
 A ilustração a seguir mostra um exemplo da página de listagem **Todas as solicitações de manutenção**.
 
 ![Página de listagem de todas as solicitações de manutenção](media/01-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

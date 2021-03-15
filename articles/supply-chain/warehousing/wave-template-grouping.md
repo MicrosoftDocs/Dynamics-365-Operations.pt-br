@@ -200,3 +200,6 @@ Uma nova onda foi criada para essa remessa, pois ela usa um serviço de operador
 1. Selecione a ID da onda que foi criada com base na terceira ordem de venda.
 1. Selecione o link da ID da onda para abrir a página detalhes da onda.
 1. Observe que a remessa foi adicionada à FastTab **Linhas da onda**, junto com a remessa da primeira ordem de venda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

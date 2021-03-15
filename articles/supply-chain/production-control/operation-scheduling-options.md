@@ -133,3 +133,6 @@ Você pode salvar os valores atuais como valores padrão. Há duas opções:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

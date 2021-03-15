@@ -70,3 +70,6 @@ Para obter mais informações, consulte os seguintes tópicos:
  - [Cancelar uma nota fiscal para cliente (projeto)](tasks/br-00092-cancel-customer-fiscal-document-project.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

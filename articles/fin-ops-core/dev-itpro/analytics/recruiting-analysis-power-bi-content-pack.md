@@ -64,3 +64,6 @@ A seguinte tabela mostra as entidades nas quais o conteúdo do Power BI de **Rec
 | Desempenho          | Classificação, descrição e modelo de classificação                            | Candidato, candidato empregado, candidato demitido |
 | Projeto de recrutamento  | Descrição do projeto, status do projeto e aberturas                | Candidato, candidato empregado, candidato demitido |
 | Candidato demitido | Candidatos finalizados, desempenho e data de demissão | Companhia, compensação de calendário, data, localização geográfica, desempenho, demografia, emprego, mídia, projeto de recrutamento, nome do candidato |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

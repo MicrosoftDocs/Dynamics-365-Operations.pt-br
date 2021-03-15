@@ -150,3 +150,6 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 3. No campo **Ambiente**, insira o nome do ambiente de complemento de faturamento eletrônico.
 4. Selecione **Salvar** e feche a página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

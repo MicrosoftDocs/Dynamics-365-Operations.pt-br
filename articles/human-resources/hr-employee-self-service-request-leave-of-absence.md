@@ -53,3 +53,6 @@ Você pode enviar uma solicitação de licença e ver o status das solicitaçõe
 ## <a name="see-also"></a>Consulte também
 
 [Suspender licença](hr-leave-and-absence-suspend-leave.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

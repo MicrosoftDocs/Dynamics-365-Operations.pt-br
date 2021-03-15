@@ -250,3 +250,6 @@ Para ajudar a garantir que os valores corretos sejam inseridos para os seus neg�
 ## <a name="see-also"></a>Consulte também
 
 Para mais discussão, veja a postagem de blog original [More about (dynamic) negative days (Mais informações sobre dias negativos (dinâmicos))](https://blogs.msdn.microsoft.com/axmfg/2015/02/19/more-about-dynamic-negative-days/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

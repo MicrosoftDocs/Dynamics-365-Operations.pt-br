@@ -72,3 +72,6 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

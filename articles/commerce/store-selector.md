@@ -145,3 +145,6 @@ Para configurar o módulo de seletor de loja a fim de mostrar as lojas disponív
 [APIs REST do Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
 
 [Módulo de mapa](map-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

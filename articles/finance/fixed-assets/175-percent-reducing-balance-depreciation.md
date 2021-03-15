@@ -87,3 +87,6 @@ O método de depreciação por declínio de 175% divide 175% pelos anos de vida 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

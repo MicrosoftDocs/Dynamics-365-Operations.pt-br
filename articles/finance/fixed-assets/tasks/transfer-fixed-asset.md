@@ -47,3 +47,6 @@ Este guia da tarefa transfere as informações financeiras para um registro de a
     * Revise os resultados antes de transferir os registros de ativo fixo.  
 10. Clique em **Transferir**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

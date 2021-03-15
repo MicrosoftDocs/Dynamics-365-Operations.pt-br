@@ -72,3 +72,6 @@ No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para nav
    | **End** | A data e hora de término do bloco devem estar disponíveis. |
 
 4. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,5 @@ Gerencie solicitações de folga do espaço de trabalho **Autoatendimento para f
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

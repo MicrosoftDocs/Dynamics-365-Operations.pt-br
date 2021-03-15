@@ -66,3 +66,5 @@ Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento.
 32. Selecione **Status do projeto de recrutamento**.
 33. Selecione **Iniciar**. O status **Iniciado** significa que o projeto está pronto para receber solicitações de emprego.  
 34. Selecione **OK**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

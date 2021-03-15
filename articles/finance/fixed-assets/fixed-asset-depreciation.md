@@ -56,3 +56,6 @@ Para obter mais informações, consulte [Métodos e convenções de depreciaçã
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

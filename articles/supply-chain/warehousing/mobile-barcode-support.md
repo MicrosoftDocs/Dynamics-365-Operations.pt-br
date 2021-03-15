@@ -34,3 +34,6 @@ O aplicativo de depósito Dynamics 365 Supply Chain Management foi testado com u
 
 Como cliente, recomendamos que você teste o aplicativo móvel de digitalização de depósito em hardware selecionado antes de escolher o hardware que você deseja comprar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

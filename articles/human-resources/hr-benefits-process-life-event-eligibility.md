@@ -48,3 +48,6 @@ Este artigo mostra como executar o processo para qualificação de eventos de vi
    4. Selecione **OK**. O processo será executado com os parâmetros definidos por você.
 
 4. Selecione **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

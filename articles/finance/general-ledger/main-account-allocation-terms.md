@@ -69,3 +69,6 @@ Na guia rápida **Conta contábil de destino**, a conta principal será a mesma 
 > Opcionalmente, você pode usar o botão **Copiar** para duplicar a alocação selecionada.
 
 Quando uma condição de alocação for criada para uma conta principal, o sistema lançará automaticamente um novo comprovante quando um comprovante for lançado com as dimensões financeiras de origem nas condições de alocação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

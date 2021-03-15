@@ -60,3 +60,6 @@ Este tópico descreve como exibir as atividades em uma ordem de serviço que nã
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

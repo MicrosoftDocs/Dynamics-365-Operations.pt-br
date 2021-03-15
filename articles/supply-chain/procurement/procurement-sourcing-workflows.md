@@ -79,3 +79,6 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 - [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://www.microsoft.com/download/details.aspx?id=101821)
 - [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 - [Integração de fornecedores](vendor-onboarding.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

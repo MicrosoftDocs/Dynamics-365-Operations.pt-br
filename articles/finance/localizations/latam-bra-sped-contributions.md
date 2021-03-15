@@ -163,3 +163,6 @@ Vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS**
 
 > [!NOTE]
 > Para usar o processamento em lotes, selecione **Lote** e especifique as opções para a execução do processamento em lotes. Você poderá usar o processamento em lotes se o arquivo precisar ser gerado posteriormente ou se precisar ser gerado em um servidor, e não no computador.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

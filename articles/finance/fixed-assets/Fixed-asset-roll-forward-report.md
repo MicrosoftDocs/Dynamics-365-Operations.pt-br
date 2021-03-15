@@ -66,3 +66,6 @@ A tabela a seguir descreve os campos disponíveis no relatório.
 |           Alienações: Valor de sucata            |                                                                                               O valor de sucata para o registro de ativos fixos com uma alienação - transação de sucata.                                                                                               |
 |           Alienações: Lucros/perdas            |                                                                                 O valor de lucro ou perda calculado como parte da transação de alienação do registro de ativos fixos.                                                                                 |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

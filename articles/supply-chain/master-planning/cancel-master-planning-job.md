@@ -52,3 +52,6 @@ Eles devem ser usados somente se o cancelamento do trabalho de planejamento mest
 4. Em **Tarefas em lotes**, selecione as tarefas a serem encerradas.
 5. Clique em **Alterar status**, escolha **Cancelar** e clique em **OK**.
 6. Na Guia Rápida **Tarefas em lotes** clique em **Anular**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

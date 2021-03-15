@@ -173,3 +173,6 @@ Além disso, melhorias finais que os usuários podem ver foram feitas no recurso
 
     - Vá para **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Depois, na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, no campo **Nível de detalhes**, selecione **Resumo**.
     - Vá para **Varejo e Comércio** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros de comércio**. Em seguida, na guia **Lançamento**, na guia Rápida **Agregação**, defina a opção **Transações de comprovante** como **Sim**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

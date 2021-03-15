@@ -256,3 +256,6 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 
     > [!NOTE]
     > Se mídia de produto e atributos de produto compartilhados forem criados, eles se aplicarão a todos os produtos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

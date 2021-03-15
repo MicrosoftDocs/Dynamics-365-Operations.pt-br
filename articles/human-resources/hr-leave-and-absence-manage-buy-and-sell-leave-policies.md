@@ -80,3 +80,6 @@ Você pode permitir que os funcionários comprem e vendam licenças criando uma 
 [Acumular planos de licença e ausência](hr-leave-and-absence-accrue.md)</br>
 [Comprar e vender licenças](hr-employee-self-service-buy-sell-leave.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

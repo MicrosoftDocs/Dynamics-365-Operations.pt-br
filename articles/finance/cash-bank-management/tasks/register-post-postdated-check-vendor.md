@@ -55,3 +55,6 @@ A função desta guias de tarefas é Tesoureiro. Esta tarefa usa a empresa de de
 16. Feche a página.
 17. Clique na aba Cheques pré-datados.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

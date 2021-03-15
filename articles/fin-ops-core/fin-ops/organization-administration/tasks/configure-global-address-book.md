@@ -45,3 +45,6 @@ A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está 
 13. Na lista, localize e selecione o PDV desejado. Pressione a tecla Shift para selecionar várias funções para adicionar ao painel **Funções selecionadas** e clique na seta para adicioná-las.  
 14. Clique em **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -93,3 +93,6 @@ Para obter instruções sobre como adicionar um módulo de cartão-presente a um
 [Suporte a cartões-presente externos](./dev-itpro/gift-card.md)
 
 [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

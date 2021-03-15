@@ -67,3 +67,6 @@ Este tópico descreve os tipos de diário que você pode configurar para diário
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

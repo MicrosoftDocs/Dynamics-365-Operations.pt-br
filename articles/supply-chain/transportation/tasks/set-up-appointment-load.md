@@ -46,3 +46,6 @@ Este procedimento mostra como definir e planejar um compromisso para uma doca de
 6. Clique em Salvar.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

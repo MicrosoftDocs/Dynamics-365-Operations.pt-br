@@ -82,3 +82,6 @@ Se o cheque estornado foi emitido para um reembolso de cliente, o seguinte tamb√
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

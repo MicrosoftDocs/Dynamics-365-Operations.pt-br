@@ -61,3 +61,6 @@ Esse procedimento se concentra nesses trabalhos kanban de processo planejados pa
 2. Clique em **Encaminhar**. Observe que os trabalhos são movidos para uma linha abaixo na lista. 
 
 3. Clique em **Recuar**. Observe que os trabalhos são movidos para uma linha acima na lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 4. Clique em Erros ou avisos da verificação de orçamento.
 5. Clique em Fechar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

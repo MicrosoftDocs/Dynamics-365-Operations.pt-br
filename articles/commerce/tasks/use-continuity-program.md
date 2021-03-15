@@ -61,3 +61,6 @@ Este procedimento aborda a venda de um programa de continuidade e o processament
     * Insira o número da ordem de venda que você anotou anteriormente no procedimento. Isso reduzirá o tempo de processamento ao mínimo para este procedimento. O campo Ordem de venda é opcional - você pode processar todas as ordens de qualquer programa.  
 21. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

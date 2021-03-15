@@ -123,3 +123,6 @@ Se os valores de custos por hora, custos do item e despesas forem atualizados em
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Atualizar previsão da ordem de serviço**.
 
 ![Figura 2](media/07-work-orders.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

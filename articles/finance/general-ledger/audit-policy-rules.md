@@ -100,3 +100,6 @@ Todas as regras de política para uma política de auditoria específica compart
 [Definir políticas de auditoria para documentos de origem](tasks/define-audit-policies-source-documents.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -189,3 +189,6 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 [Inserir imagens e formas em documentos que você gerar usando ER](electronic-reporting-embed-images-shapes.md)
 
 [Configurar ER (Relatórios eletrônicos) para efetuar pull de dados para o Power BI](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

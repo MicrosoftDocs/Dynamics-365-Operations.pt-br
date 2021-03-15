@@ -113,3 +113,6 @@ Para associar uma guia a um modelo da lista de verificação de manutenção, si
 
 - [Visão geral da gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview.md)
 - [Visão geral do gerenciamento de ativos](index.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

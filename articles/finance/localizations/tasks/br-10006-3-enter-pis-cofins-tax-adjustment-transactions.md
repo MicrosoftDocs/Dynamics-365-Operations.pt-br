@@ -51,3 +51,6 @@ Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de
 22. Feche a página.
 23. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

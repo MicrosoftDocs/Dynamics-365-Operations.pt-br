@@ -94,3 +94,6 @@ Para obter mais informações, consulte [Adquirir ativos por meio de compras](ac
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

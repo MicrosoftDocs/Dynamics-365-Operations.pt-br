@@ -63,3 +63,6 @@ Você pode criar seus próprios tipos de atributo. Além disso, você pode trans
 9. Salve o registro.
 
     O campo **Tipos de local funcional** mostra o número de locais funcionais que usam o tipo de atributo. O campo **Tipos de ativo** mostra o número de tipos de ativo que o estão usando.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

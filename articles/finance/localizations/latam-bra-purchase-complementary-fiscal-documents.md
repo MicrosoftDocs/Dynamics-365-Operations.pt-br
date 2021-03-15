@@ -65,3 +65,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 
 [Cancelar uma nota fiscal complementar de compra (Brasil)](tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

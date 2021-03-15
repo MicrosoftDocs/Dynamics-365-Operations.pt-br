@@ -50,3 +50,6 @@ Você pode excluir exceções para melhorar a precisão de previsão. Esta é um
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

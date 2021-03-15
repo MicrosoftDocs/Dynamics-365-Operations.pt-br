@@ -67,3 +67,6 @@ O tópico mostra como é possível criar regras e políticas de qualificação p
 10. Selecione **Salvar**.
 11. Feche o formulário.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

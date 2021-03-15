@@ -53,3 +53,6 @@ Este tópico descreve como configurar modelos de carga e como associar um modelo
 1. No Painel de Ação, na guia **Oferta e demanda** , no grupo **Adicionar** , selecione **Para nova carga**.
 1. Na caixa de diálogo **Modelo de carga**, no campo **ID do modelo de carga**, selecione o modelo a ser aplicado.
 1. Selecione **OK** para aplicar o modelo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

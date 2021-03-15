@@ -51,3 +51,6 @@ Este guia de tarefas apresenta vários métodos utilizados para inserir pagament
 21. No campo **Referência de pagamento**, insira uma referência de pagamento. A referência do pagamento é necessária somente se você marcar para incluir o pagamento em uma guia de depósito.  
 22. No **Painel de Ação**, clique em **Lançar** para lançar os pagamentos do cliente. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

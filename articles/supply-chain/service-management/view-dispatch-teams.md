@@ -52,3 +52,6 @@ Para obter informações sobre como atribuir um trabalhador a uma equipe, consul
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

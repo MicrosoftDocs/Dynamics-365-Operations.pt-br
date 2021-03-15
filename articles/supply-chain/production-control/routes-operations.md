@@ -259,3 +259,6 @@ Portanto, quando a ativação é selecionada para sobreposição, o restante das
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

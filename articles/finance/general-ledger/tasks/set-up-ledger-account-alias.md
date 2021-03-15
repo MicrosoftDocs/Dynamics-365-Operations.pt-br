@@ -40,3 +40,6 @@ Este procedimento mostra como criar um apelido de conta que fornece um atalho pa
 9. No campo Foco inicial, selecione a dimensão que terá foco quando o apelido é usado.
     * Após digitar o atalho e a conta e as dimensões serem preenchidas, o campo Foco inicial é para onde o cursor ou foco será movido.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

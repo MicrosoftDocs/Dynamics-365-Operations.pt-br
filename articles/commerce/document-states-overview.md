@@ -60,3 +60,6 @@ A tabela a seguir mostra os estados possíveis de documento de elementos de pág
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Personalizar a navegação do site](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

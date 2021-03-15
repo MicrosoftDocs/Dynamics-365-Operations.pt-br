@@ -79,3 +79,6 @@ Essa funcionalidade está disponível em todas as funções que podem atualizar 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -84,3 +84,6 @@ Você também pode fazer ajustes manuais na previsão na página **Detalhes de p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

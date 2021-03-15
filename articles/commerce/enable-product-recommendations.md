@@ -113,3 +113,6 @@ Para saber mais sobre recomendações personalizadas, consulte [Habilitar recome
 
 [Perguntas frequentes sobre recomendações de produtos](faq-recommendations.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

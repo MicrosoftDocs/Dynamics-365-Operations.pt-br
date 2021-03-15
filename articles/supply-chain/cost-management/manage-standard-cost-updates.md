@@ -51,3 +51,6 @@ A ativação de um novo preço padrão geralmente reavalia o valor de estoque di
 - **Nenhum** – nenhuma dimensão financeira é lançada nas transações de reavaliação. Se a estrutura da conta inclui uma dimensão financeira necessária, o processo de reavaliação ainda será executado, mas criará entradas de contabilidade sem dimensões financeiras. Nesse caso, os usuários receberão uma mensagem de aviso antes, para que possam cancelar a reavaliação se necessário.
 - **Tabela** – As dimensões financeiras do item são lançadas nas transações de reavaliação. Esta é a configuração padrão e é consistente com o comportamento do sistema original sem ativar o recurso *Opções de dimensões financeiras de uso padrão para reavaliação de custo padrão do estoque*.
 - **Lançamento** – as dimensões financeiras da transação que estão sendo reavaliadas são lançadas nas transações de reavaliação. Por padrão, as dimensões financeiras da conta de estoque da transação original serão usadas para as contas de estoque e de reavaliação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

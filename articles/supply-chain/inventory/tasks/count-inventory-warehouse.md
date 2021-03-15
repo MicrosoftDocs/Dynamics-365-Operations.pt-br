@@ -55,3 +55,6 @@ Este tópico descreve o processo de criação e lançamento de um diário de con
 1. Selecione **Estoque**.
 2. Selecione **Transações**. Aqui é possível ver qualquer transação relacionada que será criada quando você lançar seu diário de contagem de estoque.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -139,3 +139,6 @@ Especifique os seguintes valores para configurar o perfil de lançamento:
 
 Para obter mais informações, consulte [Visão geral de pagamentos do cliente](../cash-bank-management/tasks/customer-payment-overview.md).
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Siga estas etapas para especificar se o mesmo fluxo de trabalho será usado para
     6. Para verificar se o conjunto de condições que você inseriu está configurado corretamente, clique em **Teste**. Na página **Testar condição de fluxo de trabalho**, na área **Validar condição**, selecione um registro e clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas. Clique em **OK** ou **Cancelar** para retornar à página **Propriedades**.
 
     Na guia **Fluxo de trabalho**, selecione o fluxo de trabalho no fluxo de trabalho a ser usado para processar as linhas de item que atenderem o conjunto de condições definidas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

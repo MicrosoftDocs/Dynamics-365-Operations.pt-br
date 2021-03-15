@@ -69,3 +69,6 @@ Em vez de copiar uma ordem inteira, é mais comum criar uma PO nova e uma inform
 4. Selecione a linha da ordem de compra desejada. Observe que a única linha da ordem que está nesta PO também está selecionada.  
 5. Selecione **OK**. A linha adicional da ordem foi adicionada a sua ordem de compra.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

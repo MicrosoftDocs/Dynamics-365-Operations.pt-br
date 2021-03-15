@@ -249,3 +249,6 @@ Se a entrada no diário-razão auxiliar estiver incorreta quando você a visuali
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

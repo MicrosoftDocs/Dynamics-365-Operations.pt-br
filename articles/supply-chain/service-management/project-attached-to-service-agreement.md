@@ -36,3 +36,6 @@ Todas as transações de ordem de serviço são registradas e lançadas por meio
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

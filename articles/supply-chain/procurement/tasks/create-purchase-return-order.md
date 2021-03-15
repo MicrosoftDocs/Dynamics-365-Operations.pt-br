@@ -67,3 +67,6 @@ Este procedimento mostra a você como criar uma ordem do retorno de compra usand
 4. No campo **Recebimento de produtos**, digite um valor. Este campo é usado para inserir uma referência que será usada como um comprovante para o diário de recebimentos de produtos.  
 5. Clique em **OK**. Os bens foram gravados agora como enviados na ordem do retorno de compra, e um diário de recebimentos de produtos foi criado. Você pode usar a ação do recibo do produto para rever os jornais criados com a ordem de compra, e ver o que foi recebido ou retornado, e quando.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

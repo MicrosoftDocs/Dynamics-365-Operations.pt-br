@@ -621,3 +621,6 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
 
 > [!NOTE]
 > Considere adicionar a entrada fora da qualidade a um item de menu do dispositivo móvel em que o código de atividade é *Exibir lista de trabalhos abertos*. Por exemplo, consulte o item de menu do dispositivo móvel chamado **Lista de trabalho** nos dados de demonstração. Primeiro, adicione a classe de trabalho *Ordem de qualidade* a um item de menu direcionado ao usuário, porque essa classe de trabalho é necessária para que o trabalho seja mostrado na lista de trabalho. Em seguida, adicione a classe de trabalho *Ordem de qualidade* ao item de menu **Lista de trabalho**. Os usuários que têm acesso à lista de trabalho poderão escolher e processar o trabalho gerado automaticamente pela validação da ordem de qualidade.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

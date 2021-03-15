@@ -76,3 +76,6 @@ Para confirmar que o método de pagamento da conta do cliente foi ativado e publ
 [Definir limites de quantidade de produto para sites de comércio eletrônico B2B](quantity-limits.md)
 
 [SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

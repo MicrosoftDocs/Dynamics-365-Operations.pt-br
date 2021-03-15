@@ -105,3 +105,6 @@ Quando você lança um documento, o grupo de sequências numéricas apropriado �
 
 > [!NOTE]
 > Em alguns países, há uma lógica específica já implementada para a numeração de documentos. Nesse caso, a lógica específica do país substituirá o recurso **Numeração cronológica**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

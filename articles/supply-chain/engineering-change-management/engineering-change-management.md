@@ -184,3 +184,6 @@ A maioria dos campos em ordens de alteração de engenharia são iguais aos camp
 | Integridade e segurança ambientais | Especifique se as regras de segurança e de integridade ambientais são aplicáveis à alteração. Em caso afirmativo, você poderá selecionar as regras aplicáveis. |
 
 Você pode usar o botão **Manter/copiar informações de alteração** para copiar informações de alteração entre os produtos afetados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

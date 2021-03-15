@@ -195,3 +195,6 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

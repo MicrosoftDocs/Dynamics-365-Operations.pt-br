@@ -54,3 +54,6 @@ Uma lista de materiais (BOM) de modelo pode ser anexada a uma relação de objet
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

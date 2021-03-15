@@ -81,3 +81,6 @@ Um planejador de produção pode criar uma linha de base de previsão usando mod
 5. Clique em Detalhes da linha de previsão.
     * Nessa página, você pode ver os valores de precisão, a demanda histórica e a previsão. Você pode fazer alterações para a previsão também.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

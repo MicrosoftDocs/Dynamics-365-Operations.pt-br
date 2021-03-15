@@ -154,3 +154,6 @@ Se você tentar usar o aplicativo do depósito para executar o trabalho de separ
 ## <a name="other-blocked-operations"></a>Outras operações bloqueadas
 
 Qualquer operação que modifique linhas de trabalho, transações de estoque de trabalho ou links de reabastecimento relacionados ao trabalho que está sendo dividido falhará e a seguinte mensagem de erro será exibida: "O trabalho com ID \#\#\#\# está sendo dividido."
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

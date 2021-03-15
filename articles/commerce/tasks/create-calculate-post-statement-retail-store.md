@@ -47,3 +47,6 @@ Este tópico descreve as etapas manuais para criar, calcular e lançar um demons
 12. Na home page, selecione **Finanças da loja**.
 13. Selecione a guia **Demonstrativos lançados**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

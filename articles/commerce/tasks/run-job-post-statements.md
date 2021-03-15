@@ -43,3 +43,6 @@ Este procedimento orienta como configurar e executar um trabalho em lotes recorr
 8. Clique em OK.
 9. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

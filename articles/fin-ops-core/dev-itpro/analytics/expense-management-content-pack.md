@@ -93,3 +93,6 @@ O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste 
 | Estatísticas do funcionário | Relatórios de despesas por tipo de custo            |
 |                     | Despesas pessoais                       |
 |                     | Relatórios de despesas por grupo de estatísticas     |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

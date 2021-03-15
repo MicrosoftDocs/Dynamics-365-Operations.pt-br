@@ -79,3 +79,5 @@ Você verá uma faixa na página **Links** do espaço de trabalho **Gerenciament
 Depois que os códigos de motivo migram para o Gerenciamento de pessoal, a opção para usá-los no Gerenciamento de benefícios é definida automaticamente como **Sim**.
 
 [![Usar código de motivo em Gerenciamento de benefícios](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

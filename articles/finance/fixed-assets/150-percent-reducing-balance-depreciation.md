@@ -87,3 +87,6 @@ O método por declínio de 150% divide 150% pelos anos de vida útil. Essa porce
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

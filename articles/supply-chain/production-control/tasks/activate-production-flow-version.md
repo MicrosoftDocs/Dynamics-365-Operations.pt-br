@@ -40,3 +40,6 @@ Antes que os trabalhos de kanban possam ser criados e as atividades possam ser p
 5. Clique em Ativar.
 6. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

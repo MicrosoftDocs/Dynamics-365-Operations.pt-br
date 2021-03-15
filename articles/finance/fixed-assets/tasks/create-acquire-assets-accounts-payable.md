@@ -55,3 +55,6 @@ Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo 
 17. Na lista, clique no link na linha selecionada.
 18. Clique em **Enviar**. O ativo fixo será criado e adquirido quando a nota fiscal for lançada.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

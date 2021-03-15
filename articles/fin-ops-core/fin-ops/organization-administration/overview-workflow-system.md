@@ -71,3 +71,6 @@ O uso do sistema de fluxo de trabalho em sua organização traz vários benefíc
 + [Configurar ramificações paralelas em um fluxo de trabalho](configure-parallel-branch-workflow.md)
 + [Configurar fluxos de trabalho de item de linha](configure-line-item-workflow.md)
 + [Perguntas frequentes sobre fluxo de trabalho](workflow-FAQ.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas 
 6. Clique em Preparar.
     * O processo de preparação é concluído agora. A caixa de seleção marcada para todas as linhas da lista de separação indica que o status da fonte será separado.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

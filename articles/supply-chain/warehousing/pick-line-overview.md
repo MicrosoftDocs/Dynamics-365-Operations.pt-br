@@ -68,3 +68,6 @@ Para configurar um item de menu do dispositivo móvel para fornecer uma visão g
     - Use os campos **Campo de exibição** restantes para adicionar até sete campos de exibição adicionais, conforme necessário. Em cada campo **Campo de exibição**, selecione o nome de um campo de linha de trabalho. Cada linha mostrará um valor para esse campo. Os valores serão mostrados na ordem que você selecionar aqui. É possível deixar alguns dos campos **Campo de exibição** em branco se não exigir todos os sete valores.
 
 1. No Painel de Ações, selecione **Salvar** e feche a página **Lista de campos**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

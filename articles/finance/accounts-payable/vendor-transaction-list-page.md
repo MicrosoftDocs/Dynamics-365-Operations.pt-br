@@ -96,3 +96,6 @@ Cada campo tem um efeito diferente na transação ao editá-lo:
 - **Editar as condições de desconto à vista** - os descontos à vista são alterados, com base na data base e nas condições de desconto à vista.
 
 Quando você terminar de editar as configurações de pagamento, selecione **Fechar** para salvar as alterações.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

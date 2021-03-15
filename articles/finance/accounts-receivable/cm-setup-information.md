@@ -152,3 +152,6 @@ Siga estas etapas para adicionar linhas que representem o limite de crédito a s
 2. Selecione o operador de comparação que define como as informações do grupo de pontuação devem ser avaliadas.
 3. Insira o valor que deve ser comparado ao valor especificado para o grupo de pontuação.
 4. Insira o limite de crédito que deverá ser atribuído se as informações do cliente corresponderem ao valor especificado para o grupo de pontuação. Por exemplo, você cria um limite de crédito automático para o grupo de pontuação **Baixa**. Se anos na empresa é um dos grupos de pontuação, você pode definir uma linha que atribua um limite de crédito de 100.000 se o cliente estiver no negócio há cinco anos e outra linha que atribua um limite de crédito de 200.000 se o cliente estiver no negócio há 10 anos.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

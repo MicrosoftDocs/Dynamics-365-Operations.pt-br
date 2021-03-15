@@ -40,3 +40,6 @@ Se uma linha do carrinho for selecionada e a opção **Separação selecionada**
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Ordens de cliente no Modern POS (MPOS)](customer-orders-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

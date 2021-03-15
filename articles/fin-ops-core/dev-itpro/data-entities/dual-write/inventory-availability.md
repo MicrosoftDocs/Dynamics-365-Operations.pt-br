@@ -118,3 +118,6 @@ Campo do Finance and Operations | Tipo de mapa | Campo do Customer Engagement | 
 
 
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

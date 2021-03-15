@@ -239,3 +239,6 @@ Além disso, **somente** o mecanismo de preço suporta os seguintes recursos de 
 O preço é um dos fatores mais importantes que controla as decisões de compra de muitos clientes. Muitos deles comparam preços em vários sites antes de realizar uma compra. Para ajudar a garantir que ofereçam preços competitivos, os varejistas observam atentamente seus concorrentes e costumam oferecer promoções. Para ajudar esses varejistas a atrair clientes, é muito importante que a pesquisa de produtos, o recurso de navegação, as listas e a página de detalhes dos produtos mostrem os preços mais precisos.
 
 Em uma próxima versão do Commerce, a API (interface de programação de aplicativos) **GetActivePrices** retornará preços que incluem descontos simples (por exemplo, descontos de linha única que não dependem de outros itens no carrinho). Assim, os preços exibidos são próximos do valor real que os clientes pagam pelos itens. Essa API incluirá todos os tipos de descontos simples: descontos baseados em afiliação, em fidelidade, em catálogo e em canal. Além disso, a API retornará os nomes e as informações de validade dos descontos aplicados, para que os varejistas possam fornecer uma descrição mais detalhada do preço e criar um senso de urgência se a validade do desconto expirar em breve.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

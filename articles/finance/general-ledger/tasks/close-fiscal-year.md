@@ -82,3 +82,6 @@ Este procedimento aborda o processo de fechamento do exercício que transfere sa
 23. O fechamento do ano final padrão para executar o lote. É uma prática recomendada executar processos longos no modo de lote. Geralmente é um desses processos, por isso o padrão é usar o modo de lote.  
 24. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Quando o planejamento mestre é executado, duas ordens planejadas são criadas: 
 > Depois que uma ordem planejada vinculada a uma requisição de compra é confirmada, o mecanismo de planejamento mantém a vinculação à requisição de compra. Se, posteriormente, na ordem confirmada, estiver faltando alguma quantidade necessária para atender à requisição de compra, o sistema criará uma nova ordem planejada para a diferença.
 
 Para obter mais informações sobre requisições de compra, consulte [Visão geral de requisições de compra](../../procurement/purchase-requisitions-overview.md).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

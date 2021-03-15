@@ -51,3 +51,6 @@ Esse procedimento se concentra em preparar uns trabalhos kanban de processo embo
 6. Clique em Preparar.
     * Observe que um ícone no status do trabalho indica que o trabalho agora está pronto.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -158,3 +158,6 @@ Este tópico explica como um usuário no papel de Administrador do Sistema ou De
 42. Clique em **Salvar**.
 43. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

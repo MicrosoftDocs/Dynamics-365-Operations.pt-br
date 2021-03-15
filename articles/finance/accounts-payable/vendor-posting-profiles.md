@@ -118,3 +118,6 @@ Especifique os valores a seguir para configurar o perfil de lançamento
 | **Liquidação** | Selecione esta opção para habilitar a liquidação automática de transações que possuem este perfil de lançamento. Se esta opção for desmarcada, você deverá liquidar manualmente as transações usando a página **Liquidar transações em aberto**. |
 | **Cancelamento**     | Selecione esta opção se você deseja ser capaz de cancelar as transações que possuem este perfil de lançamento.                                                                                                               |
 | **Fechar**      | Selecione um perfil de lançamento para o qual alternar quando as transações que tiverem este perfil de lançamento forem fechadas. Uma transação é considerada fechada quando tiver sido integralmente liquidada.                                       |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

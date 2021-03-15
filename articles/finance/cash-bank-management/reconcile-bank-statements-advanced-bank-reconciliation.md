@@ -95,3 +95,6 @@ As transações do extrato bancário que foram marcados como **Nova** na planilh
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

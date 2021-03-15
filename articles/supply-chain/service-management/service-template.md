@@ -57,3 +57,6 @@ Quando você copia linhas de um modelo para ordens ou contratos de serviço, os 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Copiar linhas de modelos de serviço](copy-service-template-lines.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

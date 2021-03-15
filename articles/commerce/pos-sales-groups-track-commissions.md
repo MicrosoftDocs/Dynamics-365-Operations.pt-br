@@ -87,3 +87,6 @@ O PDV permite ao usuário configurar grades de botão, que são incluídas em la
 ## <a name="calculating-commissions"></a>Como calcular comissões
 
 A comissão é calculada para os trabalhadores nos grupos de vendas específicos no momento lançamento de demonstrativo ou lançamento de ordem de venda. O valor da comissão é determinado com base no compartilhamento de comissões de trabalhador, conforme definido no grupo de vendas e nas configurações de cálculo de comissão associadas ao cliente e/ou a produtos da transação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

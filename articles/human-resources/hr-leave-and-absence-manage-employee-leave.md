@@ -56,3 +56,6 @@ Você pode incluir um código de motivo e um comentário ao ajustar o saldo de l
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Gerenciar solicitações de licença e ausência](hr-employee-self-service-manage-requests.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

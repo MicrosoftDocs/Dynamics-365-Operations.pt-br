@@ -52,3 +52,6 @@ Quando você reverte o status de uma ordem de produção de **Iniciado** para **
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ Use este procedimento para criar uma hierarquia do relatório da organização. 
     * Selecione o membro da dimensão que corresponde ao nó.  
 59. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

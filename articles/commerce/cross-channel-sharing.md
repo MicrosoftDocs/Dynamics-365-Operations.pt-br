@@ -136,3 +136,6 @@ Agora, se você usar a URL base do canal e ir para a URL da página entre canais
 [Estados de documento e de ciclo de vida](document-states-overview.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -92,3 +92,6 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

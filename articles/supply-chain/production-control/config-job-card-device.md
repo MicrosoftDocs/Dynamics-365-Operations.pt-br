@@ -94,3 +94,6 @@ No entanto, como citado anteriormente, quando você usa uma configuração de di
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatar como concluído no dispositivo de ficha de trabalho](report-finished-job-device.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -68,3 +68,6 @@ Para ativar a detecção de loja baseada em local no Comércio, siga estas etapa
 [Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
 
 [Adicionar suporte para uma rede de entrega de conteúdo (CDN)](add-cdn-support.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

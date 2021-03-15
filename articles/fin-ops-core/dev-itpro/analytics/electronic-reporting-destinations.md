@@ -241,3 +241,6 @@ O formato deve estar disponível primeiro nas configurações de ER. Se esse pr�
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 
 [Configurar destinos de ER dependentes da ação](er-action-dependent-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

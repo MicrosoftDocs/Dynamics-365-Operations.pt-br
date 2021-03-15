@@ -80,3 +80,6 @@ Você pode aplicar juros e multas a pagamentos de cliente que estejam atrasados.
 49. Feche a página.
 50. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

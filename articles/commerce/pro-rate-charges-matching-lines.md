@@ -174,3 +174,6 @@ Quando esse método de cálculo é usado em um cenário de devolução parcial, 
 [Encargos automáticos avançados de omnicanal](omni-auto-charges.md)
 
 [Habilitar e configurar encargos automáticos por canal](auto-charges-by-channel.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ A validação ocorre para as regras configuradas na página **Código de benefí
 ## <a name="validation-exceptions"></a>Exceções de validação
 
 A Nota técnica NT 2019.001 especifica regras de exceção que são adotadas a critério de cada estado. Para obter mais informações sobre as regras de validação, consulte as regras N12-85, N12-86, N12-90, N12-94, N12-97 e N12-98 na nota técnica.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

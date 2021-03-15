@@ -45,3 +45,6 @@ Este procedimento mostra como configurar a definição de um novo código de bar
 12. Clique em Salvar.
 13. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

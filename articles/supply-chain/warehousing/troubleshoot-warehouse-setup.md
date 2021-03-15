@@ -39,3 +39,6 @@ Você não consegue usar nenhuma função, exceto a de administrador, para acess
 ### <a name="issue-resolution"></a>Resolução do problema
 
 O emulador de aplicativo de dispositivo móvel está configurado para funcionar somente com a conta do administrador. Para todos os fins de teste e processo ativo, recomendamos que você use o próprio aplicativo de depósito.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

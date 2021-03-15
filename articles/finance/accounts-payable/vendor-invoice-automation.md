@@ -231,3 +231,6 @@ As seguintes funções fornecem acesso somente leitura ao visualizador de anexos
 + **Funcionário de contas a pagar** e **Gerente de contas a pagar** – O dever Manter faturas de fornecedor é atribuído a essas funções.
 
 Por padrão, se a função do usuário fornecer direitos de edição em qualquer página, o usuário também terá direitos de edição no visualizador de anexos para as ações de destaque, bloqueio e anotação. No entanto, se houver cenários em que uma função específica deve ter direitos de edição na página, mas não no visualizador de anexos, os privilégios apropriados da lista anterior podem ser usados para satisfazer o caso de uso.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

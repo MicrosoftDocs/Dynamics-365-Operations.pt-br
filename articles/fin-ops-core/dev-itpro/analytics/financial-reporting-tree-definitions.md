@@ -220,3 +220,6 @@ Os exemplos a seguir mostram informações possíveis usadas em uma definição 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

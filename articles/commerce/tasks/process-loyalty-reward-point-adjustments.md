@@ -49,3 +49,6 @@ Este procedimento demonstra como procurar informações de cartão-fidelidade e 
 15. Clique em Transações de cartão.
 16. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

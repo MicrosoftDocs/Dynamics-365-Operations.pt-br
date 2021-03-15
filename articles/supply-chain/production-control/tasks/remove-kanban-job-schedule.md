@@ -45,3 +45,6 @@ Esse procedimento se concentra em remover uns trabalhos kanban planejados do pro
 4. Clique em OK.
     * Isso reverterá o status do trabalho atual 'Planejado' para 'Não planejado' e remove-o da diretoria do processo.   
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

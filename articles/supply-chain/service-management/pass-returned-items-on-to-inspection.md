@@ -55,3 +55,6 @@ Isso informará ao sistema para criar uma ordem de quarentena e a pessoa ou o de
 
 [Especificar o destino dos itens devolvidos](specify-how-to-dispose-of-returned-items.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

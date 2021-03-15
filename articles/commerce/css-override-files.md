@@ -113,3 +113,6 @@ Para desativar um arquivo de substituição CSS no site, siga estas etapas.
 [Adicionar idiomas ao seu site](add-languages-to-site.md)
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

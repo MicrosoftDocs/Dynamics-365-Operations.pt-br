@@ -114,3 +114,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 
  - [Revisar informações sobre cobranças](tasks/review-collections-information.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

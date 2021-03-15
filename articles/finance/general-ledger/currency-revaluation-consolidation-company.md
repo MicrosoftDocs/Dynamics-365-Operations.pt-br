@@ -88,3 +88,6 @@ Você verá transações adicionais para os valores de moeda de relatório.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

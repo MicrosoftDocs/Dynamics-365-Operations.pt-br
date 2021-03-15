@@ -181,3 +181,6 @@ Aqui estão alguns dos cenários de consolidação que o Relatório financeiro p
 
 ## <a name="generating-consolidated-financial-statements"></a>Criação de demonstrativos financeiros consolidados
 Para obter informações sobre os cenários onde você poderá gerar demonstrativos financeiros consolidados, consulte [Gerar demonstrativos financeiros consolidados](./generating-consolidated-financial-statements.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

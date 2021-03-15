@@ -70,3 +70,6 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 8. Use o Filtro Rápido para filtrar o campo Número do item com o valor 'P300'.
     * Observe que as ordens são arranjadas agora na sequência de acordo com a prioridade de cor e tamanho e as ordens planejadas se iniciam na data de ordem mais antiga e data de entrega. Validar a data da coluna da ordem ou a data de início em FactBbox detalhes do plano.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

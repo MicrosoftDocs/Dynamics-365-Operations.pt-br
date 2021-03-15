@@ -141,3 +141,6 @@ Quando um aprovador solicita uma alteração em um documento, o documento é env
 Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de R$ 12,000, que é atribuído a Manuela. Se Suzana solicitar uma alteração, o relatório de despesas é enviado de volta para Samuel.
 
 Samuel poderá reenviar o relatório de despesas. Ele pode fazer as alterações solicitadas primeiro ou pode reenviar a versão original do relatório de despesas. Se Samuel reenviar o relatório de despesas, ele será enviado a Fábio para aprovação, pois Fábio é o primeiro aprovador do processo de aprovação.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -189,3 +189,6 @@ Agora você pode usar as entidades de dados **Entidade de identificador de Commo
 ## <a name="related-topic"></a>Tópico relacionado
 
 [Procurar produtos e grades de produtos durante uma entrada de ordem](search-products-product-variants.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

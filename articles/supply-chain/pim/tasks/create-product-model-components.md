@@ -37,3 +37,6 @@ Modelos de configuração de produto baseada em restrição usam componentes com
 7. No campo Descrição, digite um valor.
 8. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

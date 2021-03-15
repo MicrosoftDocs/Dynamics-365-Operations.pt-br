@@ -47,3 +47,6 @@ Você pode transferir informações de base de dados da sua organização para i
 8. Continue digitando a mensagem de email inserindo os campos dos indicadores onde desejado.
 9. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

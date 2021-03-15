@@ -40,3 +40,6 @@ Este procedimento mostra como liberar uma ordem de produção. A empresa de dado
 6. Clique em OK.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

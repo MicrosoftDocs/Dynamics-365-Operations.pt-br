@@ -54,3 +54,6 @@ Há algumas circunstâncias em que não é recomendável redefinir um data mart.
 > Os pontos a seguir especificam duas coisas que a redefinição de um data mart *não* fará. <br>
 > - As redefinições não limpam designs de relatórios. <br>
 > - As redefinições não limpam dados da empresa ou dados do usuário a menos que sejam selecionados.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Este tópico explica como usar o registro de fatura para criar faturas e usar no
 10. Selecione **Lançar**.
 11. Selecione **Comprovante** para exibir as entradas lançadas. A nota fiscal durante a conta de aprovação é revertida e substituída pela conta de despesa real.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

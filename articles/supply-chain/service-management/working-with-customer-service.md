@@ -48,3 +48,6 @@ Os tópicos dessa seção fornecem uma visão geral do processo comercial de ate
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

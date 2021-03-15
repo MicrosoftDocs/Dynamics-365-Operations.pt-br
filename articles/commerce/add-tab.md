@@ -83,3 +83,6 @@ Para adicionar um módulo de guia a uma página e definir as propriedades, siga 
 [Módulo de Accordion](add-accordion.md)
 
 [Módulo de bloco de texto](add-content-rich-block.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

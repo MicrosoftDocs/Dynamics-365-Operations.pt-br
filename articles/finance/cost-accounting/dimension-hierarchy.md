@@ -332,3 +332,6 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
 > [!NOTE] 
 > - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança no nível de linha do Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - A hierarquia da lista de acesso não ajuda a garantir a exportação de dados para o Excel. Portanto, essa ferramenta de relatório deve ser usada somente por contadores e gerentes que devem ter acesso total aos dados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

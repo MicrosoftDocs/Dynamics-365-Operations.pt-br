@@ -120,3 +120,6 @@ Quando as transações de março de 2011 são faturadas, o preço de venda de 20
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

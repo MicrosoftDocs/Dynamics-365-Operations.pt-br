@@ -72,3 +72,6 @@ Quando você executa o formato de ER configurado, o modelo anexado do Word é us
 
 - [Reutilizar configurações de ER com modelos do Excel para gerar relatórios no formatos Word](./tasks/er-design-configuration-word-2016-11.md)
 - [Inserir imagens e formas em documentos que você gerar usando ER](electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

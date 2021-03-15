@@ -106,3 +106,6 @@ Para adicionar um módulo de hero a uma nova página e definir as propriedades n
 [Módulo de bloco de texto](add-content-rich-block.md)
 
 [Módulo de reprodutor de vídeo](add-video-player.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

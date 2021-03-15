@@ -38,3 +38,6 @@ Se você definir **Ativado** como **Sim**, será criada uma visualização da sa
 
 - [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 - [Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

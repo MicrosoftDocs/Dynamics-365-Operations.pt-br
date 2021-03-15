@@ -57,3 +57,6 @@ Quando você cria um pagamento em uma entidade legal que liquida faturas em outr
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

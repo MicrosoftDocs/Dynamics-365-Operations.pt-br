@@ -47,3 +47,6 @@ Este tópico lista as etapas para configurar o imposto global retido na fonte pa
 7. Configure os grupos de imposto retido na fonte na página **Grupos de imposto retido na fonte do item** para um item ou serviço.
 
 8. Configure o **Valor mínimo da fatura** na página **Parâmetros de contabilidade > Imposto retido na fonte**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

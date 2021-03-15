@@ -44,3 +44,6 @@ Se uma janela de tempo não for especificada para uma linha de contrato de servi
 
 [Criar janelas de horas](create-time-windows.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

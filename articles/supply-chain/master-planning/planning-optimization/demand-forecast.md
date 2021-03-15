@@ -273,3 +273,6 @@ Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do
 ### <a name="reduce-a-forecast-by-transactions"></a>Reduzir uma previsão por transações
 
 Quando você seleciona **Transações - chave de redução** ou **Transações - período dinâmico** como método para reduzir os requisitos de previsão, pode especificar quais transações reduzem a previsão. Na página **Grupos de cobertura**, na Guia Rápida **Outro**, no campo **Reduzir a previsão por**, selecione **Todas as transações**, se todas as transações tiverem que reduzir a previsão, ou **Ordens**, se somente as ordens de venda devem reduzir a previsão.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

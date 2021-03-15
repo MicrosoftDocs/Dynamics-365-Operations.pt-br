@@ -45,3 +45,6 @@ Esses cenários comuns estão disponíveis para varejistas que usam o Commerce. 
 + Pegue produtos na loja atual ou em outra loja.
 + Cancelar um pedido na loja atual ou em outra loja.
 + Devolver um pedido com ou sem o recibo na loja atual ou em outra loja.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -86,3 +86,6 @@ Ao adicionar o fragmento aos modelos de página, você ajuda a garantir que o ro
 [Módulo de cabeçalho](author-header-module.md)
 
 [Módulo de rodapé](author-footer-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

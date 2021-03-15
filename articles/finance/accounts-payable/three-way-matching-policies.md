@@ -144,3 +144,6 @@ Para obter mais informações, consulte [Visão geral de conciliação de fatura
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Para carregar uma pasta de imagens em massa no assistente para criação de site
 [Personalizar pontos focais da imagem](dam-custom-focal-point.md)
 
 [Carregar e atender arquivos estáticos](upload-serve-static-files.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -127,3 +127,6 @@ Ao selecionar **Opções de transação \> Encargos \> Gerenciar encargos** no a
 [Encargos automáticos avançados de omnicanal](omni-auto-charges.md)
 
 [Ratear encargos do cabeçalho para as linhas de vendas correspondentes](pro-rate-charges-matching-lines.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

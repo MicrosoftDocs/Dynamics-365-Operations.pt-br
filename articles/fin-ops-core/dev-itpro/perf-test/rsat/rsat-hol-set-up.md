@@ -803,3 +803,6 @@ Nesta seção, você criará uma variável salva no primeiro caso de teste, cria
 2. Verifique se os dois casos de teste foram transmitidos.
 
     ![Campo de resultado definido como transmitido para os dois casos de teste](./media/setup_rsa_tool_105.png)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

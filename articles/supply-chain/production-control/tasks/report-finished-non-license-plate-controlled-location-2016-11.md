@@ -61,3 +61,6 @@ Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local
 18. Clique em Detalhes do trabalho.
     * Quando a ordem de produção foi informada como concluída, nenhum trabalho foi gerado para ser colocado de lado. Isso ocorre porque uma diretiva de trabalho que é definida impede que o trabalho seja gerado quando o produto L0101 é relatado como concluídos no local 001.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ A verificação do item da separação do cluster funciona da mesma maneira que 
 |        Opção        |                                    descrição                                    |
 |----------------------|-----------------------------------------------------------------------------------|
 | Confirmação do produto | Permite a você verificar cada peça de estoque do dispositivo móvel quando examinado. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

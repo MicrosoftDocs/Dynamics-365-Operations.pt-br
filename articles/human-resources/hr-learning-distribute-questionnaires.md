@@ -131,3 +131,6 @@ Após criar e distribuir um questionário, este poderá ser preenchido por entre
 Os questionários podem ficar disponíveis para usuários específicos, grupos de usuários ou todas as pessoas de uma rede.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

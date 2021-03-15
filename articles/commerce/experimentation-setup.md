@@ -53,3 +53,6 @@ Para configurar suas métricas de êxito, siga estas etapas:
 
 ## <a name="next-step"></a>Próxima etapa
 [Conectar e editar um experimento](experimentation-connect-edit.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

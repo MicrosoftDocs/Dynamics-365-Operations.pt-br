@@ -176,3 +176,6 @@ Para ver uma lista de recursos disponíveis em implantações locais, consulte [
 
 \* Em ambientes locais, o PerfTimer mostra somente os resultados do cliente.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Esse procedimento se concentra em executar trabalhos de processo do kanban. O pr
 6. No campo Quantidade de mercadoria, insira um número.
 7. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

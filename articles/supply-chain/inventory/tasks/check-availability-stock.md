@@ -59,3 +59,6 @@ Este procedimento mostra como verificar um valor disponível e o estoque físico
 5. Clique em **OK**.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

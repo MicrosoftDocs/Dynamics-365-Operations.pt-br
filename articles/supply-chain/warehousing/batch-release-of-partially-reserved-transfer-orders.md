@@ -63,3 +63,6 @@ O parâmetro **Quantidade** especifica se toda a quantidade ou a quantidade fisi
 -   Para definir parâmetros **Quantidade** e **Permitir a liberação de ordens parcialmente liberada** para ordens de transferência, clique em **Permitir a liberação de ordens parcialmente liberada** \> **Liberar para o depósito** \> **Liberação automática de ordens de transferência**.
 
 -   Para definir os parâmetros **Quantidade** e **Permitir a liberação de ordens parcialmente liberadas** para ordens de venda, clique em **Gerenciamento de depósito** \> **Liberar para o depósito** \> **Liberação automática de ordens de venda**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ A página de listagem **Agendamento do trabalho kanban** contém um Quadro de Fa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

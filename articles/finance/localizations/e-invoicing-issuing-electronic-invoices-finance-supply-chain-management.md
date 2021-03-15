@@ -93,3 +93,6 @@ Os logs de envio incluem as seguintes funções adicionais:
 - **Cancelar envios** – esta função habilita um processo de envio especial em cenários nos quais a fatura eletrônica deve ser aprovada por um serviço Web externo. Ela instrui o complemento de faturamento eletrônico a enviar ao serviço Web uma mensagem específica que pretende cancelar o status de uma fatura eletrônica aprovada no banco de dados do serviço Web.
 - **Reenviar documento** – reenviar um documento eletrônico que já foi enviado ao complemento do faturamento eletrônico. Um log totalmente novo é criado na página **Detalhes do envio**.
 - **Enviar envio relacionado**
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

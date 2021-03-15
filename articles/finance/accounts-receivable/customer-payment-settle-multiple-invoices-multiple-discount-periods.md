@@ -100,3 +100,6 @@ Alberto exibe as informações na página **Transações do cliente**.
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

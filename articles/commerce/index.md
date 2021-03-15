@@ -55,3 +55,6 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Gerenciar seu site de comércio eletrônico](online-store-overview.md)
 - [Fraud Protection](dev-itpro/DFP.md)
 - [Desenvolvimento de comércio e extensibilidade](dev-itpro/dev-retail-home-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -126,3 +126,6 @@ Quando você abre um bloco de construção, outros usuários só podem acessar o
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

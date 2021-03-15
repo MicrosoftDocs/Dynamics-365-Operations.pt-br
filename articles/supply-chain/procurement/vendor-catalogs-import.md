@@ -69,3 +69,6 @@ O modelo do arquivo de importação de catálogo é um arquivo XSD usado para cr
 3. Na caixa de diálogo **Salvar como**, selecione o local onde você deseja armazenar o modelo de arquivo de catálogo e salve o arquivo.
 
 Para obter mais informações e ver exemplos, consulte estas postagem de blog: [Catálogos de fornecedor no Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

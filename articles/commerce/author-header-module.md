@@ -118,3 +118,6 @@ Para ajudar a garantir que um cabeçalho apareça em todas as páginas, siga est
 [Módulo de seletor de site](site-selector.md)
 
 [Módulo de seletor de loja](store-selector.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

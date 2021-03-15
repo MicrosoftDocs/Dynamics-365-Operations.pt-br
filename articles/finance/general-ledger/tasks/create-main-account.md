@@ -51,3 +51,6 @@ Este guia de tarefas aborda a adição de uma conta principal a um plano de cont
 21. No campo **Tipo de conversão de moeda**, selecione o método de cálculo das taxas de câmbio da conta.
 22. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

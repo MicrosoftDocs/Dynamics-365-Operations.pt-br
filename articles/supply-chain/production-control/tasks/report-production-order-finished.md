@@ -51,3 +51,6 @@ Este procedimento mostra como relatar uma ordem de produção como concluída. A
 4. Na lista, clique no link na linha selecionada.
     * O diário Relatório de conclusão é lançado. Se quiser fazer ajustes no diário, você pode criar manualmente um diário no qual é possível fazer alterações.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

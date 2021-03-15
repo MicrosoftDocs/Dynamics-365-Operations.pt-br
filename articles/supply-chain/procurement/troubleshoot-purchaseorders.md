@@ -144,3 +144,6 @@ Esse comportamento é por design. O endereço selecionado deve ser classificado 
 ## <a name="can-i-find-the-user-who-canceled-a-purchase-order"></a>É possível encontrar o usuário que cancelou uma ordem de compra?
 
 Essas informações serão rastreadas somente se a ordem de compra estiver sujeita a gerenciamento de alterações. Se você usar o gerenciamento de alterações, poderá ver quem enviou a alteração (o cancelamento) e quem a aprovou.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

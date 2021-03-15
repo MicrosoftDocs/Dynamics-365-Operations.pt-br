@@ -59,3 +59,6 @@ Este é o segundo dos cinco procedimentos que demonstram o processo de pagamento
     * Por exemplo, selecione a conta bancária "DEMF OPER".  
 6. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

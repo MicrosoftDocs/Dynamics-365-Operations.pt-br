@@ -86,3 +86,6 @@ No cenário a seguir, a atividade de transferência do kanban de retirada é con
 
 Depois de consumido em um local de entrada de produção, o kanban é relatado como vazio, e um novo kanban é adicionado ao fluxo. Quando o kanban é criado, uma linha de onda é adicionada a uma onda kanban. Quando a onda kanban é processada, o trabalho de depósito para a separação kanban é criado. O trabalhador do depósito processa o trabalho para a separação kanban e é direcionado pelo trabalho a separar o material para o kanban em um local de depósito. Na medida em que esse trabalhador do depósito confirma a separação, o kanban é concluído automaticamente, e o trabalhador do depósito é orientado a atrelar o material ao local de entrada de produção.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

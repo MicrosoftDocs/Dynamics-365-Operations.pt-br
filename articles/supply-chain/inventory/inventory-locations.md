@@ -65,3 +65,6 @@ Na página Localizações de estoque, você pode exibir o layout do depósito em
 --------
 
 [Criar um novo layout de depósito](tasks/create-new-warehouse-layout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ As seguintes opções, que podem ser encontradas na guia **Commerce** de produto
 > Essas configurações não restringem a operação de substituição de preço, pois elas definem o preço base e não são tratadas como um desconto.
 
 [![Campo Impedir descontos](./media/prevent-discounts.png)](./media/prevent-discounts.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

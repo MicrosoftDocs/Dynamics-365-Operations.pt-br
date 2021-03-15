@@ -96,3 +96,6 @@ Depois que a página personalizada for publicada, ela será fornecida em vez da 
 [Verificar acessibilidade do conteúdo da página](verify-accessibility.md)
 
 [Extensibilidade do canal online](e-commerce-extensibility/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

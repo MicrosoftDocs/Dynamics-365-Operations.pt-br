@@ -276,3 +276,6 @@ Para exibir o conteúdo de uma confirmação de fornecedor ou resposta de erro, 
 
 - [​Configurar um catálogo externo para PunchOut e-procurement​](set-up-external-catalog-for-punchout.md)
 - [​Uso de catálogos externos para PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

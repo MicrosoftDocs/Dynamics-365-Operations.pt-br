@@ -59,3 +59,6 @@ Os impostos sobre vendas nos documentos são calculados fornecendo um grupo de i
 29. Clique em Impostos.
 30. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

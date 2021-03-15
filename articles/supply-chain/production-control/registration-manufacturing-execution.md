@@ -61,3 +61,6 @@ Os trabalhadores podem fazer vários tipos de registros na execução de fabrica
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

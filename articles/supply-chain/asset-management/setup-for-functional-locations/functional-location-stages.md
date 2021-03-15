@@ -62,3 +62,6 @@ Após você criar os estados de ciclo de vida necessários para os seus locais f
 5. Caso queira selecionar todos os estados disponíveis para um modelo, clique no botão ![selecione todos os estágios disponíveis](media/03-setup-for-functional-locations.png). Todos os estados são transferidos para a seção **Estados de ciclo de vida selecionados**.
 6. Se deseja remover um estado selecionado do modelo, selecione o estado na seção **Estados do ciclo de vida selecionados** e selecione o botão ![seta para voltar](media/04-setup-for-functional-locations.png).
 7. Selecione **Atualizações do estado de ciclo de vida** para definir os estados de ciclo de vida que possam acompanhar um estado selecionado.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

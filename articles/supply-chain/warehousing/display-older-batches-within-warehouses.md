@@ -39,3 +39,6 @@ A configuração **Exibir lotes mais antigos no depósito** estará disponível 
 
 - Em **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu de dispositivo móvel**, defina **Usar rede existente** como **Sim** para o item de menu e selecione **Avisar** no campo **Escolher lote mais antigo**. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

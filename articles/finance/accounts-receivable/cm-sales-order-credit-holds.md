@@ -264,3 +264,6 @@ As ordens de venda que têm um motivo de bloqueio forçado não podem ser libera
 No momento, o gerenciamento de crédito só pode ser usado para ordens de venda. As faturas de texto livre, as ordens do ponto de venda e as ordens de call center usarão os limites de crédito temporários e os seguros/garantias que você adicionar para ajustar o limite de crédito. Elas não usarão as regras de bloqueio e não serão colocadas na lista de bloqueio se houver um problema de limite de crédito.
 
 Não há suporte para faturas de projeto no gerenciamento de crédito.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

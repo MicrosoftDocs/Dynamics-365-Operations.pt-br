@@ -56,3 +56,6 @@ Uma ordem de produção do produto C é criada e o produto A é adicionado à BO
     - **Produto C:** 2
 
 Esse comportamento garante que as alterações em BOMs da ordem de produção não afetem os cálculos de custo subsequentes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

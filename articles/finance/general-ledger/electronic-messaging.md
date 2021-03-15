@@ -535,3 +535,6 @@ Agora você pode excluir ou atualizar o status da mensagem. Para atualizar o sta
 ![Atualizar o status da mensagem](media/update-status.png)
 
 O status da mensagem é atualizado para **Preparado** e agora você pode gerar o relatório ao selecionar **Gerar relatório**. O relatório é gerado, e o status da mensagem e o log de ação são atualizados. Para exibir o relatório gerado, selecione o botão **Anexo** (o símbolo de clipe de papel) no canto superior direito da página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Ao criar ordens de serviço manual ou automaticamente a partir da linha de contr
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

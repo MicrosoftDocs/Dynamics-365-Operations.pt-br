@@ -114,3 +114,6 @@ Os resultados são diferentes devido às informações disponíveis quando você
 [![Exemplo 2](media/ReplenTemp_example_2.png "Exemplo 2")](media/ReplenTemp_example_2_large.png)
 
 Portanto, para obter a quantidade máxima para os locais reabastecidos, você deve definir a opção **Permitir divisão** como *Sim* nas diretivas de localização para a separação de reabastecimento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

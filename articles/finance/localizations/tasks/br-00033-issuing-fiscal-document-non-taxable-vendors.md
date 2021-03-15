@@ -68,3 +68,6 @@ Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que n�
 36. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 37. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

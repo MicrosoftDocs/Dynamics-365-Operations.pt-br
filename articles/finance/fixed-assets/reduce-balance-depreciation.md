@@ -84,3 +84,6 @@ Usando o método Reduzindo saldo, 30 por cento da base de depreciação (valor l
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -36,3 +36,6 @@ Configure as categorias de emprego no Dynamics 365 Human Resources para que corr
 3. Especifique valores para **Tipo de trabalhador**, **Categoria de emprego** e **Descrição**.
 
 4. Selecione **Salvar**. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

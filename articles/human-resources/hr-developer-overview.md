@@ -62,3 +62,6 @@ Este guia de desenvolvedor fornece uma referência de campos de API e personaliz
 - [Novidades ou alterações em Human Resources](hr-admin-whats-new.md)
 - [Guia do administrador](hr-admin-overview.md)
 - [Guia do usuário](hr-hrpro-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ O campo **Status** ajuda você a acompanhar seu progresso usando os seguintes va
 - **Aprovado:** se você quiser manter as edições ou estiver planejando confirmar uma ordem planejada, altere o status para *Aprovado*. As ordens planejadas com o status *Aprovado* são consideradas como fornecimento fixo e esperado pelo planejamento mestre, portanto, não são modificadas nem excluídas durante execuções posteriores dele. Para fazer isso, a lógica de planejamento copia as ordens planejadas *Aprovadas* da versão anterior do plano para a nova versão do plano durante o planejamento mestre. Observe que as ordens planejadas com o status *Aprovado* só são consideradas fornecimento no plano mestre específico.
 
 Você pode gerenciar ordens planejadas no espaço de trabalho **Planejamento mestre**, na lista **Ordem planejada** ou nas listas **Ordens de produção planejadas**, **Ordens de compra planejadas** e **Transferência planejada**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

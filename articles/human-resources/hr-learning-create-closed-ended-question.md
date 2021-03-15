@@ -68,3 +68,6 @@ As perguntas fechadas permitem que você forneça opções para que o entrevista
 5. No campo Responder grupo, insira ou selecione um valor.
 6. No campo Texto, digite um valor.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -122,3 +122,6 @@ Para gerar e validar o arquivo de texto para o demonstrativo SPED ECD, siga esta
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Gerar a obrigação de imposto Sintegra](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/bra-parameters-tax/articles/financials/localizations/latam-bra-set-up-parameters-for-tax-statements.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

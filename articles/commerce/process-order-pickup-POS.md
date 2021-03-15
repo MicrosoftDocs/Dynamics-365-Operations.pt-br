@@ -57,3 +57,6 @@ Se você precisar alterar a quantidade de retirada após selecionar os itens que
 Se o recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** estiver ativada, as organizações poderão adicionar um botão para a operação **Alterar linhas de retirada** ao modelo de tela da página de transação. Depois de criar o carrinho de transações de retirada no POS e selecionar os itens, você pode selecionar **Alterar linhas de retirada** se precisar alterar os itens de retirada, mas não desejar anular toda a transação. Na caixa de diálogo **Alterar linhas de retirada** que é exibida, você pode alterar os itens e as quantidades de retirada. O carrinho de transações é atualizado para aplicar as alterações.
 
 ![Caixa de diálogo Alterar itens de retirada](media/pickupchange.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

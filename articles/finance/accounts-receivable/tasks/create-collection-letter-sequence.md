@@ -58,3 +58,6 @@ Use esta guia para criar uma tarefa de sequência de cartas de cobrança. Esta t
 26. Expanda a Guia Rápida **Nota**.
 27. Digite o texto a ser exibido na carta de cobrança para o código de carta de cobrança selecionado. Você pode traduzir esse texto nos vários idiomas usando o menu das traduções acima da caixa da nota.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

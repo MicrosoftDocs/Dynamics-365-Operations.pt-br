@@ -60,3 +60,6 @@ Quando **Restringir para reembolsos sem recibo** for definido como **Sim**, o m�
 
 Se uma transação tiver uma devolução com recibo e uma sem recibo, as condições de restrição não serão impostas porque a transação será um fluxo de trabalho de devolução com um recibo. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

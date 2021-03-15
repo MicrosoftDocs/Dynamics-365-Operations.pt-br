@@ -158,3 +158,6 @@ As tabelas a seguir mostram os valores definidos nas guias **Geral** e **Linhas 
 11. Para exibir o efeito líquido da rescisão, em que o ativo DDU e a responsabilidade com arrendamento será 0 (zero), abra as tabelas de transações de ativos e passivos.
 
 O status da arrendamento deve ser **Rescindido**. Nenhuma entrada de diário adicional será lançada nesse arrendamento, a menos que a rescisão seja revertida.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

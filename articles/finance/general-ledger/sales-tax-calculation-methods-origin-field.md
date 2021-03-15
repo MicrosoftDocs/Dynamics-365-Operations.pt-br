@@ -130,3 +130,6 @@ O documento/diário é definido para Os valores incluem imposto = Não Valor da 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

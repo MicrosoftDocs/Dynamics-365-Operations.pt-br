@@ -40,3 +40,6 @@ O procedimento de trabalho de pagamento de imposto retido na fonte liquida os sa
 7. Clique em **OK**.
 
 ![Parâmetros para o pagamento de imposto retido na fonte](media/withholding-tax-payment.png)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

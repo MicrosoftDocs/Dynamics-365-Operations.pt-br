@@ -217,3 +217,6 @@ Para ver em que planos de orçamento uma previsão de posição foi incluída, v
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

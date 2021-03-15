@@ -57,3 +57,6 @@ Depois que o diário é lançado, os itens devolvidos são registrados no estoqu
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

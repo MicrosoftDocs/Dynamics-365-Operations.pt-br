@@ -46,3 +46,6 @@ Este procedimento mostra como criar um grupo de contas de consolidação e depoi
 8. No campo Conta de consolidação, insira um valor.
 9. No campo Nome da conta de consolidação, insira um valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

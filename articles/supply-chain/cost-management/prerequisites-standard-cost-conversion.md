@@ -53,3 +53,6 @@ Antes de executar uma conversão de custo padrão, siga estas etapas:
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

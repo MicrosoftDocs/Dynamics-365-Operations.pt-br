@@ -129,3 +129,6 @@ A programação do questionário permite que você planeje e distribua question�
 2. Clique em Finalizar.
 3. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

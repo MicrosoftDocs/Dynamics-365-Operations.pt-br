@@ -55,3 +55,6 @@ Se o campo **Reverter acúmulos em créditos** do formulário **Parâmetros de g
 
 
  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

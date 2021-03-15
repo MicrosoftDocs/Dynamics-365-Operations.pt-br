@@ -131,3 +131,6 @@ Um local funcional com sublocais relacionados poderá ser excluído se nenhum at
 
 >[!NOTE]
 >Se você não puder excluir um local funcional, poderá manipular a exclusão configurando um estado do ciclo de vida de local funcional com essa finalidade. Por exemplo, você pode configurar um estágio "Sucateado" ou "Excluído", que não deve ser um estágio ativo, no formulário **Estados do ciclo de vida de local funcional**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

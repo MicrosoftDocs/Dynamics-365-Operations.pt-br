@@ -43,3 +43,6 @@ Você pode criar transações manuais de ajuste para ajustar os valores de créd
 14. No campo Código de ajuste, digite um valor.
 15. No campo Válido a Partir da Data, insira uma data.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

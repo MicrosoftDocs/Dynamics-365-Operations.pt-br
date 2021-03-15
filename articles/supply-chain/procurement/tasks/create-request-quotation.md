@@ -80,3 +80,6 @@ Depois de ter especificado as informações básicas sobre sua RFQ, você especi
 4. Feche a página.
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

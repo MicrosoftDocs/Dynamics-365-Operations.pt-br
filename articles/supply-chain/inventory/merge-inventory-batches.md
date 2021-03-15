@@ -139,3 +139,6 @@ O lançamento trabalha de duas maneiras, dependendo se você usar um processo de
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Após mesclar um item de peso variável, por que eu não consigo ver as informações de peso variável no diário de estoque?
 Você pode mesclar lotes de itens de peso variável da mesma maneira que todos os outros itens. Entretanto, as informações de peso variável não aparecem no diário de estoque. Recomendamos que você verifique as informações de peso variável antes de transferir a mesclagem de lotes para o diário de estoque.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

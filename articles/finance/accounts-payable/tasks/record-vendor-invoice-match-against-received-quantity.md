@@ -64,3 +64,6 @@ Este procedimento usa a empresa de dados de demonstração USMF. A função gere
 10. No Painel de Ação, clique em Revisar.
 11. Clique em Detalhes da conciliação.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

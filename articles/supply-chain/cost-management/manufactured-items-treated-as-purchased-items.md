@@ -41,3 +41,6 @@ Para impedir o cálculo, selecione o sinalizador **Parar detalhamento** que é i
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

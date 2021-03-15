@@ -66,3 +66,6 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 12. Na lista, clique no link na linha selecionada.
 13. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

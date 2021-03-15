@@ -235,3 +235,6 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
 - [Introdução ao complemento de faturamento eletrônico para o México](e-invoicing-mex-get-started.md)
 - [Introdução ao complemento de faturamento eletrônico para a Itália](e-invoicing-ita-get-started.md)
 - [Faturas eletrônicas do cliente no Egito](emea-egy-e-invoices.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

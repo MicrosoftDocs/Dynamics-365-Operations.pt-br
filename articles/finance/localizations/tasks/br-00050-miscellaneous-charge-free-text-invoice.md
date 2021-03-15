@@ -68,3 +68,6 @@ A legislação brasileira aplica encargos diversos que incluem frete. Encargos d
 38. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 39. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

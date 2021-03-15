@@ -89,3 +89,6 @@ O método por declínio de 200% divide 200% pelos anos de vida útil. Essa porce
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

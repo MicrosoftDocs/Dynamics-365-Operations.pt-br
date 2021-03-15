@@ -67,3 +67,6 @@ A entidade legal consolidada agora está configurada para o trabalho periódico 
 
 > [!NOTE]
 > Para poder processar a consolidação, prepare as entidades legais subsidiárias para a consolidação. Para obter mais informações, consulte [Configurar uma entidade legal subsidiária para consolidação](set-up-subsidiary-company-for-consolidation.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

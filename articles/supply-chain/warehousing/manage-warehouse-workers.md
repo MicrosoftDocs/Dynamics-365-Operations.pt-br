@@ -56,3 +56,6 @@ A análise do tempo utilizado para processar itens de trabalho pode ajudar a mel
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

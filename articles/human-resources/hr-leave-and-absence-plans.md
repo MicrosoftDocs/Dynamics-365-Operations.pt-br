@@ -383,3 +383,6 @@ Saldo previsto (30) = valor da competência (10 × 1) + saldo atual (40) – aju
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)
 - [Configurar tipos de licença e ausência](hr-leave-and-absence-types.md)
 - [Acumular planos de licença e ausência](hr-leave-and-absence-accrue.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

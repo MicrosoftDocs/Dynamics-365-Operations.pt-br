@@ -64,3 +64,6 @@ Use este procedimento para iniciar e parar a o registro de uma ordem serviço pa
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

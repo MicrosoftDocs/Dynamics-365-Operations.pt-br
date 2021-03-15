@@ -48,3 +48,6 @@ Este procedimento mostra como revisar solicitações de emprego recebidas nas p�
 2. Na lista, clique no link na linha selecionada.
 3. Expandir a seção Anexos.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

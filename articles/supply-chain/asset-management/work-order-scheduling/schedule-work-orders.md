@@ -137,3 +137,6 @@ Para visualizar e trabalhar com o gráfico de Gantt:
     - Para reagendar uma ordem de serviço exibida, selecione e arraste-a para a nova data e hora apropriadas.
 
 1. Se você fez alguma alteração, selecione **Salvar** no Painel de Ações para salvá-las.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

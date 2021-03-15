@@ -197,3 +197,6 @@ Durante uma etapa do processo de configuração, o sistema sugere um valor de co
 
 [Criar uma nomenclatura de número de produto para grades de produto configuradas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

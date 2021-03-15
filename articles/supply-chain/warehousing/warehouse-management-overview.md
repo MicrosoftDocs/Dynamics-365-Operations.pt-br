@@ -73,3 +73,6 @@ Você encontra opiniões, notícias, além de informações sobre o Gerenciament
 
  
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ Um código de período indica a extensão do período da taxa de subscrição ou
 O código de período é definido no grupo de subscrições de serviço. É definido para as subscrições através do grupo de subscrições de serviço. Todas as taxas de subscrição novas criadas possuem uma data inicial sugerida. Essa é a data de início do período, se for o primeiro período criado, ou o final do período anterior, se for o segundo período ou posterior.
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

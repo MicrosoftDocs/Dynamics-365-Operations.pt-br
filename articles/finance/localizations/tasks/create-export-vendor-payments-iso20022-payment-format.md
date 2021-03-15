@@ -49,3 +49,6 @@ Este é o quinto dos cinco procedimentos que ilustram o processo de pagamento de
     3.    No campo **Nome do arquivo**, digite um valor. Por exemplo, devido a um pagamento em euros, o arquivo gerado será compatível com SEPA. A transferência de crédito ISO20022 e outros formatos de pagamento de fornecedor também podem ser usados para gerar pagamentos em outras moedas.
     4.    No campo **Conta bancária**, insira ou selecione um valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

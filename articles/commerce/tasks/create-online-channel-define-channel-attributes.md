@@ -66,3 +66,6 @@ Este procedimento orienta na criação de um novo canal online e sua adição à
 3. Execute a agenda de distribuição 1070 para sincronizar alterações no banco de dados do canal. 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

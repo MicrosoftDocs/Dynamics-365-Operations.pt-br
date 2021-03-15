@@ -86,3 +86,6 @@ Uma *barra de ferramentas* contém ferramentas, como a habilidade de adicionar c
 Uma *lista* é o nome dado a uma coleção de registros que você pode visualizar. Você pode trazer esses registros para a página selecionando-os. Geralmente, isso abrirá uma grade.
 
 ![Esta imagem mostra exemplos de barras de ferramentas, grades e listas.](media/user-interface-08.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

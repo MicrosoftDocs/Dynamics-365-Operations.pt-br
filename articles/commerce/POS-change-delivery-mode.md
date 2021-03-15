@@ -46,3 +46,6 @@ Depois de selecionar o novo modo de entrega, a página de transação é exibida
 [Criar ordens de call center](tasks/create-call-center-orders.md)
 
 [Personalizar emails transacionais por modo de entrega](customize-email-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

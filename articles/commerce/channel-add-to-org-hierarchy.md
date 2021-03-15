@@ -81,3 +81,6 @@ A imagem a seguir mostra uma hierarquia com vários canais adicionados.
 [Configurar um canal de varejo](channel-setup-retail.md)
     
 [Configurar um canal online](channel-setup-online.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

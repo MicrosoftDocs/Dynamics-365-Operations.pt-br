@@ -300,3 +300,6 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

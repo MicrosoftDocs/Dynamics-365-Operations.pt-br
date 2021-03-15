@@ -45,3 +45,6 @@ Para saber mais sobre os princípios básicos usados pela Microsoft, visite o [M
 [Adicionar página de política de privacidade](add-privacy-page.md)
 
 [Substitua os IDs de usuário associados às alterações de conteúdo controladas](replace-IDs-tracked-changes.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

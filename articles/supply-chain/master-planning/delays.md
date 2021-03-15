@@ -58,3 +58,6 @@ Na página **Ordem planejada**, a guia **Atrasos** mostra a **Data desejada** da
 --------
 
 [​Configurações de cobertura​](coverage-settings.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

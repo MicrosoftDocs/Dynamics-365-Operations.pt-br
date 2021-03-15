@@ -292,3 +292,6 @@ Na carga de trabalho em unidades de escala, você pode gerenciar estes trabalhos
 - Processar registros de tabela do ciclo
 - Processador de mensagens da unidade de escala para o hub do depósito
 - Processar solicitações de atualização de quantidade para linhas de ordem de depósito
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

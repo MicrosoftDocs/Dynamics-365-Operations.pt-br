@@ -83,3 +83,6 @@ Para cenários de planejamento que incluem produção, recomendamos evitar execu
 Embora itens filho dependentes sejam automaticamente detectados e incluídos nas execuções do planejamento mestre, quando o mecanismo de planejamento mestre interno é usado, a Otimização de Planejamento não executa essa ação.
 
 Por exemplo, se um único parafuso da estrutura da BOM do produto A também for usado para produzir o produto B, todos os produtos na estrutura da BOM dos produtos A e B deverão ser incluídos no filtro. Como pode ser muito complexo garantir que todos os produtos façam parte do filtro, recomendamos evitar execuções de planejamento mestre filtrado quando ordens de produção estiverem envolvidas.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

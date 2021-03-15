@@ -41,3 +41,6 @@ No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED),
 12. No campo **Conta principal**, especifique os valores desejados.
 13. Selecione **Salvar** e feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

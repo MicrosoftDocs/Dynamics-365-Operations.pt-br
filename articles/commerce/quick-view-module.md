@@ -77,3 +77,6 @@ Para adicionar um módulo de exibição rápida a um módulo de coleção de pro
 [Módulos de coleta de produtos](product-collection-module-overview.md)
 
 [Módulo de resultados de pesquisa](search-result-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

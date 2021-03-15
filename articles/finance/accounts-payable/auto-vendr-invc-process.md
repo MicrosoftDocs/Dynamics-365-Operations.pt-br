@@ -68,3 +68,6 @@ O espaço de trabalho **Entrada da fatura de fornecedor** permite que você se c
 
 ## <a name="vendor-invoice-automation---resume-automation-processing-for-multiple-invoices"></a>Automação de faturas de fornecedores-retomar processamento de automação para várias faturas
 Quando uma fatura importada não for enviada com êxito para o fluxo de trabalho por meio do processo automatizado, o sistema a removerá do processamento automatizado adicional. Um auxiliar de contas a pagar pode revisar e editar a fatura antes que o processo automatizado a reenvie para o fluxo de trabalho. Quando uma razão de falha pode ser resolvida pela mesma correção para várias faturas, você pode reiniciar o processo automatizado na página **Retomar o processamento automatizado para várias faturas**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Este tópico descreve como usar os recursos em Gerenciamento de serviços e os m
 [Visão geral de desenvolvimento e estabelecimento de contratos de serviço](service-agreements.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

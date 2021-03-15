@@ -133,3 +133,6 @@ Neste processo, você criará uma remessa com base nas dimensões de *embalagem*
 1. Abra o dispositivo móvel para entrar no depósito 63 e acesse **Estoque \> Ajustar em**.
 1. Insira **Loc** = *SHORT-01*. Crie uma placa de licença com **Item** = *A0001* e **Quantidade** = *1 pçs*.
 1. Selecione **OK**. Você receberá o erro "Falha no local SHORT-01 porque o item A0001 não cabe nas dimensões especificadas do local". Isso ocorre porque as dimensões do tipo de *Armazenamento* do produto são maiores que as dimensões especificadas no perfil de localização.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

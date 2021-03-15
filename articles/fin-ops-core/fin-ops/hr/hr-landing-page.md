@@ -93,3 +93,6 @@ Você pode criar e administrar questionários para coletar informações que sã
 - [Criar questionários](../../../talent/design-questionnaires.md)
 - [Distribuir e agendar questionários](../../../talent/distribute-questionnaires.md)
 - [Exibir e avaliar os resultados de questionários](../../../talent/evaluate-questionnaire-results.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

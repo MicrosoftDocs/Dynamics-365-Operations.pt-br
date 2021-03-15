@@ -69,3 +69,6 @@ Para liquidar as pendências, execute estas etapas:
 7)  Você também pode decidir criar um diário de pagamento com a liquidação de pendências ou apenas lançá-lo sem um diário. Selecione **Sim** para que **Editar o diário** crie um diário de pagamento. É possível editar o diário de pagamento que você criou.
 8)  Clique em **Liquidar pendências**. Se optar por criar um diário, o botão será alterado para **Criar diário**. Clique em **Criar diário**.
 9)  Se você criar um diário de pagamento, a página do diário será aberta após você clicar em **Liquidar pendências**. Uma linha de diário será adicionada ao diário com o valor da liquidação de pendências como o valor e com a conta da liquidação de pendências como a contrapartida. Se você adicionou um cliente ou fornecedor para que possa mover o valor da liquidação para um outro cliente ou fornecedor, uma linha adicional será adicionada ao diário para mover o valor da liquidação para esse cliente ou fornecedor.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

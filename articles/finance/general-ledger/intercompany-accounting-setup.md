@@ -49,3 +49,6 @@ Um relacionamento recíproco pode ser configurado facilmente na página **Contab
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

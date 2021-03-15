@@ -333,3 +333,6 @@ As ordens de transferência são criadas sem o uso dos recursos de **Controle da
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>É possível usar uma placa de licença com estoque físico negativo disponível?
 
 O recurso oferece suporte apenas a quantidades físicas disponíveis positivas. Certifique-se de ter quantidades físicas positivas no nível de status do depósito e do estoque antes de atribuir placas de licença a uma ordem de transferência.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

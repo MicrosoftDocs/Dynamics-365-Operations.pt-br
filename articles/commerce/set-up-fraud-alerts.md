@@ -68,3 +68,6 @@ A ordem foi salva, mas o sinalizador **Não processar** está definido nela. Ess
 Para exibir e gerenciar as ordens que estão em espera para a revisão de fraude, vá para **Retail e Commerce** \> **Clientes** \> **Bloqueios da ordem**. Na página **Bloqueios da ordem**, selecione uma entrada na lista e clique em **Bloqueio da ordem** para ver uma exibição mais detalhada que inclui informações sobre o motivo do bloqueio. No FastTab **Detalhes da fraude**, você pode visualizar os critérios sistemáticos de fraude que foram considerados uma correspondência com a ordem e as pontuações aplicadas. Se a ordem foi colocada em bloqueio manual, você poderá revisar os comentários inseridos pelo usuário que colocou a ordem em espera consultando a seção **Anotações de fraude** no FastTab **Anotações** .
 
 Para obter mais informações sobre como trabalhar com o bloqueio de ordens, consulte [Bloqueios da ordem](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -94,3 +94,6 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 8. No campo Unidade de peso, insira ou selecione um valor.
 9. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

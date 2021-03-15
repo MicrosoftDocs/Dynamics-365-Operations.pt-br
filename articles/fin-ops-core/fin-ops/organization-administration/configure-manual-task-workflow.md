@@ -381,3 +381,6 @@ Quando a tarefa manual for atribuída a um usuário, este deverá executar uma a
 5. Marque a caixa de seleção **Delegar** se o usuário puder atribuir a tarefa a outro usuário.
 6. Marque a caixa de seleção **Reatribuir** se o usuário puder reatribuir a tarefa a outro usuário na fila de itens de trabalho.
 7. Marque a caixa de seleção **Liberar** se o usuário puder reatribuir a tarefa na fila de itens de trabalho. Assim, outro usuário poderá concluir a tarefa.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Esse problema deve ser apenas de hora. Siga essas etapas para iniciar o trabalho
 1. Selecione **Editar** na parte superior da página, e defina a data de início/hora programada para um valor que atualizará a análise para mais perto do tempo atual.
 
 ![Trabalhos em lotes](media/batch-jobs.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

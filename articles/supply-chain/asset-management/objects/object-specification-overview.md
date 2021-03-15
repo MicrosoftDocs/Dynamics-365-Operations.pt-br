@@ -39,3 +39,6 @@ A página **Visão geral de atributo de ativo** mostra uma linha separada para c
 3. Selecione **OK**. A lista mostra todos os ativos que usam o tipo de ativo selecionado. Para cada ativo, todos os tipos de atributo de ativo relacionados são mostrados na mesma linha.
 
 A página **Atributo de ativo** mostra uma linha separada para cada tipo de atributo usado em um ativo. Para abrir esta página, selecione **Asset Management** \> **Consultas** \> **Ativos** \> **Atributo de ativo**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

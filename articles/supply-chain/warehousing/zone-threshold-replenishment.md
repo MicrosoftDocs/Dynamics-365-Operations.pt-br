@@ -343,3 +343,6 @@ Aqui estão algumas observações e dicas para trabalhar com o recurso:
 
 - Se você estiver usando locais dinâmicos, o trabalho de reabastecimento será criado para o primeiro local disponível ou para um local que já contenha estoque, se a ação diretiva de localização estiver configurada para usar a estratégia **Consolidar**.
 - Se você estiver usando locais fixos e não zonas, deverá usar o [reabastecimento mín./máx. padrão](tasks/set-up-min-max-replenishment-process.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

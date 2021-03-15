@@ -156,3 +156,6 @@ A ilustração a seguir mostra os efeitos do modelo de estoque de UEPS quando é
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

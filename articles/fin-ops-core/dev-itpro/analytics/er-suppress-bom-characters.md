@@ -66,3 +66,6 @@ Para analisar a funcionalidade no tempo de execução, conclua o procedimento ap
 ## <a name="see-also"></a>Consulte também
 
 - [Adiar a execução de elementos XML nos formatos ER](er-defer-xml-element.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

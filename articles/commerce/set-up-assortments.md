@@ -54,3 +54,6 @@ Depois de concluir os pré-requisitos, você pode criar uma classificação e at
 2. Selecione os canais ou grupos de canais de nível superior aos quais a classificação se aplica.
 3. Adicione categorias de produto, produtos individuais ou variantes de produtos à classificação. Você pode incluir todos os produtos em uma categoria específica ou pode excluir produtos selecionados de uma categoria incluída na classificação.
 4. Publique a classificação. Quando você publica uma classificação, o agendador de classificações é executado automaticamente. Esse processo gera a lista de produtos. Quando esse processo é concluído, os produtos se tornam disponíveis nos canais aos quais a classificação de produtos foi atribuída. Se uma classificação publicada ou os canais aos quais a classificação é atribuída forem alterados, a classificação deverá ser atualizada. Para atualizar a classificação após alterações, você pode executar o agendador de classificações como um trabalho em lotes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

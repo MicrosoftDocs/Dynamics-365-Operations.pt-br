@@ -47,3 +47,6 @@ Depositar pagamentos de cliente. Esta tarefa usa a empresa de demonstração USM
 17. Selecione **OK**. A primeira página é usada para criar a guia de depósito.  
 18. Selecione **OK**. A segunda etapa é imprimir a guia de depósito, mas essa etapa não é necessária.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

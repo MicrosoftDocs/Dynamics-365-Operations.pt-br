@@ -74,3 +74,6 @@ Este procedimento configura um código de imposto retido na fonte, um tipo de im
 44. Clique em Salvar.
 45. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

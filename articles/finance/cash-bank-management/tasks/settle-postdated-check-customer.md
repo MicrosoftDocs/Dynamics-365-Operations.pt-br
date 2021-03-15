@@ -55,3 +55,6 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 10. Clique em Comprovante.
 11. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

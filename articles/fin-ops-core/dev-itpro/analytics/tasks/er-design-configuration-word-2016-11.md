@@ -164,3 +164,6 @@ Para executar a versão de rascunho do formato editável, você deve torná-la [
 
 - [Criar uma nova configuração de (ER) para gerar relatórios no formato Word](../er-design-configuration-word.md)
 - [Inserir imagens e formas em documentos que você gerar usando ER](../electronic-reporting-embed-images-shapes.md#embed-an-image-in-a-word-document)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

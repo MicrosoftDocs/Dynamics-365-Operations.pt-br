@@ -87,3 +87,6 @@ Para configurar a limpeza do log de banco de dados, siga estas etapas:
    - Data e hora de criação
 
 3. Use a guia **Limpeza de log de banco de dados** para determinar quando a tarefa de limpeza de log deve ser executada. Por padrão, os logs do banco de dados ficam disponíveis por 30 dias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

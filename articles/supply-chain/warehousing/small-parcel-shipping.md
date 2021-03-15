@@ -279,3 +279,6 @@ Siga estas etapas para embalar a remessa.
     ![Exemplo de etiqueta de remessa](media/sps-label-example.png "Exemplo de etiqueta de remessa")
 
 1. Observe que os valores **ID de manifesto de contêiner** e **Frete total** foram adicionados como recebidos da transportadora.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

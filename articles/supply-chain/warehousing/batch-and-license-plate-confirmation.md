@@ -47,3 +47,6 @@ Você pode configurar a confirmação de lote e de placa de licença dos itens d
 
 1. Dos itens de menu de dispositivo móvel, insira a configuração de confirmação de trabalho.  
 1. Selecione a opção para o lote ou a confirmação da placa de licença. As duas opções disponíveis para as separações por tipo de trabalho que não têm uma confirmação automática ativada.  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

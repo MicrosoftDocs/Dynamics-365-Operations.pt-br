@@ -169,3 +169,6 @@ Todas as alterações feitas na resposta da linha de ordem são mostradas. No en
 
 ### <a name="open-confirmed-orders"></a>Abrir ordens confirmadas
 Quando a ordem de compra é confirmada pelo cliente (ou seja, o status da ordem de compra é alterado para **Confirmado**), ela aparece na ordem confirmada aberta. Ela permanecerá na lista até que seja registrado como recebido pelo cliente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

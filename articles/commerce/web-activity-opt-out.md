@@ -55,3 +55,6 @@ Os administradores podem permitir que os usuários autenticados cancelem a colet
 ### <a name="custom-extensions"></a>Extensões personalizadas
 
 Os administradores podem criar suas próprias extensões para gerenciar a experiência de recusa dos usuários. Para obter mais informações, consulte [Chamar APIs do Retail Server](e-commerce-extensibility/call-retail-server-apis.md) e a [extensibilidade de canal online](e-commerce-extensibility/overview.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -87,3 +87,6 @@ Se o conteúdo de marketing for exclusivo de um produto específico, qualquer m�
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
 
 [Enriquecer uma página de detalhes de produto](enrich-product-page.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

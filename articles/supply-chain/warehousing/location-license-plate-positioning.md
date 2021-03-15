@@ -280,3 +280,6 @@ Agora que o recurso *Posicionamento da placa de licença de localização* foi c
     ![Localização da posição 1](media/LocationLicensePlatePositioning.png "Localização da posição 1")
 
 1. Insira a ID da placa de licença que você criou para a localização e siga os prompts para separar a ordem de venda.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Você pode executar uma **Contagem de ativos pendentes** para verificar os ativo
 3. Você pode configurar este trabalho para executar como um trabalho em lotes, por exemplo, uma vez a cada dia.
 
 **Cuidado:** se os dados forem alterados em uma ordem de compra *após* você criar um ativo com base no item relativo, as alterações não serão refletidas no ativo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Para redefinir uma mensagem do evento de aplicativo de depósito com falha:
 1. Continue trabalhando até que todas as mensagens relevantes sejam redefinidas.
 
 Você também pode remover uma mensagem de evento **Com falha** usando a opção **Excluir** na barra de ferramentas **Mensagens de eventos do aplicativo de depósito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

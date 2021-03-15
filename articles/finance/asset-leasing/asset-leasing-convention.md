@@ -50,3 +50,6 @@ Para exibir ou atribuir a convenção de arrendamento, siga estas etapas.
 3. Selecione **Salvar**.
 
 Quando um arrendamento é criado, a data de início de cada registro é inserida automaticamente com base na data inicial inserida para o arrendamento e a convenção de arrendamento especificada para o registro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

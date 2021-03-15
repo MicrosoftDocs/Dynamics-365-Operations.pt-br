@@ -52,3 +52,6 @@ Quando você cria as entradas do diário de despesas de depreciação em relaç�
 O valor da despesa de depreciação final pode ser calculado usando uma taxa de câmbio levemente diferente, de forma que o ativo DDU seja totalmente depreciado na moeda contábil e na moeda de relatório.
 
 Se o arrendamento tiver sido reclassificado como **Arrendamento diferido**, o sistema limpará automaticamente as taxas de câmbio das moedas contábil e de relatório, caso já tenham sido definidas.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

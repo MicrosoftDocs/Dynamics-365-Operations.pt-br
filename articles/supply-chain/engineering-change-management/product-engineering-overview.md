@@ -58,3 +58,6 @@ Em seguida, ative a chave de configuração do **Gerenciamento de Alterações d
 1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Expanda o nó **Comércio** e marque a caixa de seleção **Gerenciamento de Alterações de Engenharia**.
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

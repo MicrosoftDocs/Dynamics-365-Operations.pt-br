@@ -66,3 +66,6 @@ Agora você pode atribuir a estratégia de criação de carga a um modelo de cri
 1. Revise as cargas propostas e as linhas de cargas propostas.
 1. No Painel de Ações, selecione **Criar cargas** para criar cargas com base nas linhas do documento de origem na FastTab **Linhas de cargas propostas**.
 1. Feche a página **Bancada de criação de carga**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

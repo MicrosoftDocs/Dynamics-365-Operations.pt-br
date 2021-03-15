@@ -38,3 +38,6 @@ Este tópico explica como criar um novo grupo de ativos fixos. Ela usa a funçã
 8. No campo **Convenção de depreciação**, selecione uma opção.
 9. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

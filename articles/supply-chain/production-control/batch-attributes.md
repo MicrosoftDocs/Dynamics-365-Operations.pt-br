@@ -52,3 +52,6 @@ Você pode pesquisar em atributos de lote ao processar as reservas de lote para 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

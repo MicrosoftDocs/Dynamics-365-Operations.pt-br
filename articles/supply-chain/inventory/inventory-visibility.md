@@ -527,3 +527,6 @@ As consultas mostradas nos exemplos anteriores poderiam retornar um resultado co
 ```
 
 Observe que os campos de quantidades estão estruturados como um dicionário de medidas e seus valores associados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

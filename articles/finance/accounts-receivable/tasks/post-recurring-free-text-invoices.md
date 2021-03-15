@@ -45,3 +45,6 @@ Faturas recorrentes são usadas para faturar clientes regularmente com o mesmo v
 6. Clique em Lançar.
     * Lançar as faturas selecionadas.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

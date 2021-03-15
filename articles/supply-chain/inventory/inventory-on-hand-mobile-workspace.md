@@ -129,3 +129,6 @@ Baixe e instale o aplicativo móvel Finance and Operations:
     -   Por estoque físico (esta exibição representa o valor total.)
     -   Por reserva física (esta exibição representa o valor reservado.)
     -   Por físico disponível (Esta exibição representa o valor disponível que não tem reservas).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

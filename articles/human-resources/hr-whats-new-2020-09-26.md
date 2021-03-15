@@ -84,3 +84,6 @@ Para obter uma lista completa de recursos planejados e suas versões agendadas, 
 [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)
 [Atualizar processo](hr-admin-setup-update-process.md)
 [Gerenciar recursos](hr-admin-manage-features.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

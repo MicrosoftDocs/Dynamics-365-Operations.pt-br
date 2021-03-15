@@ -77,3 +77,6 @@ As ordens de serviço selecionadas são canceladas ou seu status de progresso de
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

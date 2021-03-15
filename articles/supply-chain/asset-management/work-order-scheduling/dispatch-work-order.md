@@ -59,3 +59,6 @@ A figura abaixo mostra um exemplo de seleções de expedição na caixa de diál
 [!NOTE]
 Se você deseja excluir o agendamento de uma ordem de serviço, selecione a ordem de serviço em **Todas as ordens de serviço** e, em seguida, clique em **Excluir agenda** na guia **Geral**. Lembre-se de atualizar manualmente o estado de ciclo de vida da ordem de serviço se você excluir o agendamento.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

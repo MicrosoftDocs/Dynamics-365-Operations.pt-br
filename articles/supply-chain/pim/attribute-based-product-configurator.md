@@ -140,3 +140,6 @@ A etapa final é especificar preços de venda com base no atributo para a versã
 1. No Painel de Ação, abra a guia **Modelo** e, no grupo **Detalhes do modelo de produto**, selecione **Versões**.
 1. A página **Versões** é aberta. Certifique-se de que o **Método de preço** esteja definido como **Com base em atributo**.
     ![Definir o método de preço para com base em atributo](media/prod-config-versions.png "Definir o método de preço para com base em atributo")
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

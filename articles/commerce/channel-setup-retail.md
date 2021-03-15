@@ -181,3 +181,6 @@ Para configurar cofres, siga estas etapas.
 
 [Configurar um canal de call center](channel-setup-callcenter.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

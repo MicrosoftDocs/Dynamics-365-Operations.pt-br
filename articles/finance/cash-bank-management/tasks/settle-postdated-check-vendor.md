@@ -51,3 +51,6 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
 10. Clique em Comprovante.
 11. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

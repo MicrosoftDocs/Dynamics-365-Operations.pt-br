@@ -36,3 +36,6 @@ O procedimento de trabalho de liquidação e lançamento de imposto liquida os s
 5. No campo **Data de transação**, insira uma data.
 6. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

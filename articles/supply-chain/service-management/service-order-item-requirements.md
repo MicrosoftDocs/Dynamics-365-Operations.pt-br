@@ -69,3 +69,6 @@ Se uma requisição de itens for criada em uma ordem de serviço, não será pos
 
 [Requisições de itens (formulário)](https://technet.microsoft.com/library/aa552021\(v=ax.60\))
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

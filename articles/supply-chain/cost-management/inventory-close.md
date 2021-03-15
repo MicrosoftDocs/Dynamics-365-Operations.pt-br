@@ -86,3 +86,6 @@ Ocasionalmente, talvez seja necessário reverter um fechamento de estoque conclu
 > [!NOTE] 
 > Somente o último período de estoque que foi fechado pode ser reaberto. Para estornar um fechamento de estoque anterior, você deverá estornar cada fechamento de estoque subsequente, um de cada vez, começando pelo fechamento mais recente.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Um local de saída de produção padrão é definido quando as mercadorias concl
 4. Se não houver uma localização ali, use o local de saída definido no depósito definido na ordem de produção.
 
 Um local de saída de produção padrão é definido apenas para os produtos configurados usando os processos avançados de depósito. Quando esse tipo de item for relatado como concluída, será criado o trabalho de depósito do tipo **Mercadorias concluídas armazenadas** ou **Co-produto e subproduto armazenados**. Esse tipo de trabalho usa o local de saída de produção como o local de separação. O local de armazenamento é determinado pelas diretivas de local.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

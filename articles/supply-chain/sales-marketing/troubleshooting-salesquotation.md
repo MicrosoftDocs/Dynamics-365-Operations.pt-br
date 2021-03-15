@@ -39,3 +39,6 @@ Se você tentar definir uma quantidade de venda (**campo SalesQty**) para um ite
 
 Não é possível definir uma quantidade de venda para produtos que são itens de serviço. Por exemplo, se você oferece um serviço para instalar um item, não faz sentido registrar uma quantidade porque não há um item físico. Há apenas um serviço.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

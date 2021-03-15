@@ -82,3 +82,6 @@ Se não houver nenhuma prioridade de liquidação definida pelo usuário, as tra
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

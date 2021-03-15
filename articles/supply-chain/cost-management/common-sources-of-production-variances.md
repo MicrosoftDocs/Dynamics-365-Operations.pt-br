@@ -62,3 +62,6 @@ Veja a seguir algumas origens típicas de uma variação **substituição de pro
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

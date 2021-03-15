@@ -111,3 +111,6 @@ As principais medidas agregadas a seguir são usadas como base do conteúdo.
 | Desempenho de remessa        | Enviada por produto                       | CustPackingSlipOnTimeStatus           | Antecipada, no prazo e atrasada (veja as descrições apresentadas anteriormente nesta tabela). |
 | Desempenho de remessa        | Enviada por cliente                      | CustPackingSlipOnTimeStatus           | Antecipada, no prazo e atrasada (veja as descrições apresentadas anteriormente nesta tabela). |
 | Desempenho de remessa        | Enviada por site/depósito              | CustPackingSlipOnTimeStatus           | Antecipada, no prazo e atrasada (veja as descrições apresentadas anteriormente nesta tabela). |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ Os botões no Painel de Ação estão organizados em guias. A tabela a seguir de
 | Peças sobressalentes          | Exiba uma lista de peças sobressalentes aprovadas e alternativas que podem ser usadas no ativo.                                                                               |
 | Consumo de ativos    | Imprima um relatório que mostre os registros de consumo no ativo.                                                                                                |
 | Falha do ativo          | Imprima um relatório que mostre os registros com falha no ativo.                                                                                                      |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

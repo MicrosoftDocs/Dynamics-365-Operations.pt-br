@@ -79,3 +79,6 @@ Para anular uma autorização de cartão de crédito, você pode alterar o méto
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

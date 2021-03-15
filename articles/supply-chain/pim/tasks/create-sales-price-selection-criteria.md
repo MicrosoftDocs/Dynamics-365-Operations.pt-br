@@ -53,3 +53,6 @@ Este procedimento mostra como criar um critério de seleção preço de venda pa
 4. No campo Critérios, selecione Grupo de cliente 10. 
 5. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

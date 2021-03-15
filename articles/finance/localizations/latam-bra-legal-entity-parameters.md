@@ -320,3 +320,6 @@ No Brasil, é necessário especificar os detalhes do contador para o relatório 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

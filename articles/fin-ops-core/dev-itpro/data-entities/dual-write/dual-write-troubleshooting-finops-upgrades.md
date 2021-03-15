@@ -91,3 +91,6 @@ Se o problema ainda não for solucionado, siga estas etapas.
 4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo Finance and Operations.
 5. Se o atributo não estiver preenchido automaticamente no mapa, adicione-o manualmente, clicando no botão **Adicionar atributo** e clicando em **Salvar**. 
 6. Selecione o mapa e clique em **Executar**.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -109,3 +109,6 @@ Para criar paridade com aplicativos do Finance and Operations, a gravação dupl
 
 Para obter mais informações sobre as alterações futuras, consulte [Novidades ou alterações em gravação dupla](whats-new-dual-write.md).
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Você pode configurar grupos de crédito de cliente na página **Grupos de créd
 Depois de concluir a configuração de um grupo de crédito de cliente, você poderá adicionar clientes especificando a entidade legal e a ID de conta de cliente deles. Ao adicionar um novo cliente a um grupo de crédito de cliente, o sistema procura a mesma conta de cliente em todas as entidades legais e solicita que você a adicione ao grupo de crédito de cliente.
 
 Use o menu **Saldos antigos** para ver os detalhes do saldo antigo de todos os clientes da fatura em um grupo de crédito de cliente. A página **Saldo antigo** mostra um resumo dos saldos antigos das contas de cliente da fatura.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

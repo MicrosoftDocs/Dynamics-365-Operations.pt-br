@@ -54,3 +54,6 @@ Para adicionar dimensões financeiras a um modelo, alterações adicionais são 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

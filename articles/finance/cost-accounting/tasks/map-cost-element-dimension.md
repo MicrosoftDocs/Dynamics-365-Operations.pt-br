@@ -43,3 +43,6 @@ Um controlador de custo pode usar esse procedimento para mapear uma dimensão do
     * Neste exemplo, selecione telefone 6001004 de membro de dimensão.  
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

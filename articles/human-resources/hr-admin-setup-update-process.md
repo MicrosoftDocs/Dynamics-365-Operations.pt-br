@@ -105,3 +105,6 @@ Enquanto estiver testando as versões prévias do recurso ou experimentando nova
 [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
 [Política de ciclo de vida do software - Nuvem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

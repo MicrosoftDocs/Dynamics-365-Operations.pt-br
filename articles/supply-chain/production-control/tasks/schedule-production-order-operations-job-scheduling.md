@@ -55,3 +55,6 @@ Este tópico se concentra em agendar uma ordem de produção com o agendamento d
 6. No Painel de Ação, selecione **Ordem de produção**.
 7. Selecione **Todos os trabalhos**. Observe que, com base no roteiro ativo, 5 trabalhos são criados com o agendamento do trabalho.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

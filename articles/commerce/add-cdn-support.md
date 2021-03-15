@@ -162,3 +162,6 @@ Agora sua CDN deve estar configurada corretamente para poder ser usada com o sit
 [Configurar múltiplos locatários B2C em um ambiente do Commerce](configure-multi-B2C-tenants.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

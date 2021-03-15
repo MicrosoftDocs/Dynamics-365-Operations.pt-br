@@ -50,3 +50,6 @@ As seguintes opções tornam-se disponíveis para seleção quando o tipo de tra
 | Confirmação de separação de peças | Disponível para tipos de trabalho de separação e contagem. A confirmação de produto é selecionada automaticamente. Permite a você confirmar cada peça de estoque do dispositivo móvel. |
 |  Número máximo de peças  |                   Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada. Define um limite para o número de peças que você deve confirmar.                   |
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

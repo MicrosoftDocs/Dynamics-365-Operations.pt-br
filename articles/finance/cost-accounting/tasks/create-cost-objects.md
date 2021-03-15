@@ -50,3 +50,6 @@ Este procedimento mostra como criar objetos de custo importando a dimensão fina
 ## <a name="view-the-imported-cost-centers"></a>Exibir os centros de custo importados
 1. Clique em Exibir membros da dimensão.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

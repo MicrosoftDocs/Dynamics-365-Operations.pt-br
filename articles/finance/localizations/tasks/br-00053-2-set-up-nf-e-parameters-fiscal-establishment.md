@@ -54,3 +54,6 @@ Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal 
 18. Clique em Salvar.
 19. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

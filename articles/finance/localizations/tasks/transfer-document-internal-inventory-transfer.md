@@ -73,3 +73,6 @@ Este procedimento mostra como criar documentos de transferência para a moviment
 10. Clique em Guia de remessa.
 11. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

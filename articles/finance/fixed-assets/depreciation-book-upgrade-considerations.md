@@ -82,3 +82,6 @@ Em ambas abordagens, o script da atualização de dados também usará a sequên
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

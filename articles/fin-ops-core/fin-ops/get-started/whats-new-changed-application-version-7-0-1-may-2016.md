@@ -106,3 +106,6 @@ Este artigo descreve os recursos novos ou alterados no aplicativo Microsoft Dyna
 [Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
 
 [Guias de tarefas novos ou atualizados (maio de 2016)](new-updated-task-guides-available-may-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

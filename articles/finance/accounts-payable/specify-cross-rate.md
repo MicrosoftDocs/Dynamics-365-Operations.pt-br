@@ -43,3 +43,6 @@ Por exemplo, a moeda contábil é USD, a moeda da fatura é CAD e a moeda do pag
 3.  Para um cliente, na página de listagem **Todos os clientes**, vá para **Coletar > Liquidar transações abertas**. Para um fornecedor, na página de listagem **Todos os fornecedores**, vá para **Fatura > Liquidar transações abertas**. 
 4.  Selecione a transação que é o pagamento principal e clique em **Marcar pagamento**. A caixa de seleção na coluna **Marcar** será marcada e um ícone de informações aparecerá na coluna **Pagamento principal**. 
 5.  No campo **Taxa cruzada**, insira a taxa de câmbio entre a moeda da fatura e a moeda do pagamento, a partir da data de liquidação. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

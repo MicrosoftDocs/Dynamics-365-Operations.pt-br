@@ -87,3 +87,6 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

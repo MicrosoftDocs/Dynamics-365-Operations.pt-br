@@ -56,3 +56,6 @@ Essa tarefa cria um contrato de recursos bancários para processar uma carta de 
 5. Clique em Salvar.
 6. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

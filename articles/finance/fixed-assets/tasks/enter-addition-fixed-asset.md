@@ -45,3 +45,6 @@ O procedimento usa a função de contador e os dados de demonstração da entida
     * Defina **Aumenta a vida útil** como **Sim** se a adição aumentar a vida útil do ativo.  
     * Este campo serve somente para informar. Para aumentar a vida útil, modifique a vida útil nos métodos de depreciação e/ou registros de depreciações para o ativo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

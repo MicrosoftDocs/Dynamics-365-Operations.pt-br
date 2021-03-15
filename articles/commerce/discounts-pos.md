@@ -68,3 +68,6 @@ A ilustração a seguir mostra a lógica usada quando o controle de simultaneida
 A ilustração a seguir mostra a lógica usada quando o controle de simultaneidade de desconto é definido como **Melhor preço somente dentro da prioridade, sempre composto entre prioridade**.
 
 ![A lógica do melhor preço somente dentro de prioridade, sempre comporto entre prioridade](./media/Model_2.png "A lógica do melhor preço somente dentro de prioridade, sempre comporto entre prioridade").
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

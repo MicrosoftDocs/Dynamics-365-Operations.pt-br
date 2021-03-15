@@ -57,3 +57,6 @@ Na página **Empréstimos de ativos em ação**, exiba uma lista de todos os ati
 3. No campo **Devolvido**, insira a data e a hora.
 4. Selecione **OK**.
 5. Atualize a página **Empréstimos de ativos em ação** e observe que o empréstimo de ativos não aparece mais na lista.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

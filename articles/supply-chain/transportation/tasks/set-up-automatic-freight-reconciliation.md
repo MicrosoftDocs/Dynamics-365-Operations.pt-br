@@ -71,3 +71,6 @@ Este procedimento mostra como definir dados para reconciliação automática de 
 11. No campo Código de motivo de pagamento a menor, insira ou selecione um valor.
 12. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

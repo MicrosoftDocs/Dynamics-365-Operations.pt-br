@@ -161,3 +161,6 @@ Para salvar o segredo da cadeia de conexão do cache Redis, siga estas etapas.
 > Sempre que você atualizar uma das cadeias de conexão, deverá atualizar também os valores secretos.
 
 Você concluiu o provisionamento dos recursos necessários do Azure. A próxima etapa é [instalar o suplemento de Inteligência de IOT Microsoft Dynamics Lifecycle Services (LCS)](iot-lcs-setup.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

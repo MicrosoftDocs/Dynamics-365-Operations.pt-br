@@ -39,3 +39,6 @@ Os perfis de depreciação determinam o tipo e a frequência de depreciação de
 7. No campo **Frequência de período**, selecione uma opção.
 8. Feche o formulário.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

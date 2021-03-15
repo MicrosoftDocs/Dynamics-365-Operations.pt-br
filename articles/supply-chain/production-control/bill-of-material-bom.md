@@ -117,3 +117,6 @@ Selecione o tipo de linha **Fornecedor** se o processo de produção utiliza um 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

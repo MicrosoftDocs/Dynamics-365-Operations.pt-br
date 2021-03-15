@@ -44,3 +44,6 @@ Este procedimento mostra como emprestar um item a um funcionário e registrar o 
 2. Clique em Editar.
 3. No campo Devolução real, insira uma data.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

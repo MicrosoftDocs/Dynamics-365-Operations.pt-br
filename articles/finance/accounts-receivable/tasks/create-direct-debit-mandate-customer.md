@@ -89,3 +89,6 @@ Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e 
 3. Selecione o cliente para o qual você adicionou a carta da ordem.
 4. No campo **Carta de ordem de débito direto**, insira ou selecione um valor.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

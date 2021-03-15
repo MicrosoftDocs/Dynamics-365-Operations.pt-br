@@ -130,3 +130,6 @@ Este cenário mostra como o recurso funciona para depósitos que estão definido
 
 > [!NOTE]
 > O mesmo resultado é esperado quando a segunda linha é parcialmente reservada. Nesse caso, o trabalho será criado para a quantidade da linha reservada, mas não para a quantidade não reservada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

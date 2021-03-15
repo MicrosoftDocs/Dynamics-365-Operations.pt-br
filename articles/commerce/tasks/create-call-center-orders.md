@@ -61,3 +61,6 @@ Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesqu
 
 [Alterar modo de entrega no PDV](../pos-change-delivery-mode.md)
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

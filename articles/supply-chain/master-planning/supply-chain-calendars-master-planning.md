@@ -142,3 +142,6 @@ Em relação ao calendário do grupo de cobertura, é importante lembrar que ele
 
 ### <a name="updating-scm-related-calendars"></a>Atualizando os calendários de SCM relacionados
 Embora seja importante que os calendários relevantes sejam atribuídos em seus locais respectivos (fornecedor, cliente, modo de entrega ou grupo de cobertura), atualizá-los também é importante para que reflitam as alterações. O sistema definirá as datas das ordens de produção, transferência, compra e venda dependendo da combinação dos calendários atribuídos. É uma prática recomendada esclarecer quem é responsável por atribuir e atualizar os calendários nas áreas correspondentes. No caso de uma eventualidade ou qualquer outra mudança incomum em dias úteis, é essencial atualizar os calendários adequadamente. Todas as tarefas que dependem de calendários, como planejamento mestre e planos de produção, devem ser executadas novamente quando os calendários são atualizados. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

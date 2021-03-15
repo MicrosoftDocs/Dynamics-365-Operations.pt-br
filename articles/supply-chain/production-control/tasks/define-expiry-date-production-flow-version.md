@@ -40,3 +40,6 @@ Para encerrar a validade e o processamento de uma versão de fluxo de produção
 6. No campo Data de vencimento, insira uma data e hora.
     * Para a data de vencimento, uma nova versão não iniciará nem será ativada. Também não será possível criar ou iniciar trabalhos para esse fluxo de produção. Ainda será possível concluir trabalhos iniciados após a data de vencimento.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

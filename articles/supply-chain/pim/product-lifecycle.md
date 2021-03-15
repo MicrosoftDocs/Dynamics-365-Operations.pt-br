@@ -108,3 +108,6 @@ Use os seguintes critérios para selecionar e atualizar os produtos e grades de 
 - [Atribuir um estado de ciclo de vida do produto a um produto liberado](tasks/product-lifecycle-state-released-product.md)
 - [Localizar grades de produto obsoletos e atribuir um estado do ciclo de vida do produto](tasks/obsolete-product-variants.md)
 - [Criar um estado do ciclo de vida do produto para excluir produtos do Planejamento mestre](tasks/exclude-products-master-planning.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

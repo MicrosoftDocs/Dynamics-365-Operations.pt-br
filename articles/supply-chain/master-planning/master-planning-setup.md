@@ -226,3 +226,6 @@ Prazo de entrega + Dias negativos + Data atual – Data da necessidade
 O sistema usa somente as ordens de fornecimento que estão dentro deste intervalo de tempo e cria uma nova ordem planejada fora dele. A vantagem dos dias negativos dinâmicos é que ele incluirá o prazo de entrega do produto individual para reutilizar as ordens existentes e evitar a criação de novas ordens planejadas que acabarão com um dia posterior, devido a atrasos causados pelo prazo de entrega. 
 
 Para obter mais informações, consulte [Dias negativos e dias negativos dinâmicos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

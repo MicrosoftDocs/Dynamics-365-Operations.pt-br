@@ -86,3 +86,6 @@ Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasad
 57. Feche a página.
 58. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

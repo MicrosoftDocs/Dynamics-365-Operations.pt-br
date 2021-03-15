@@ -80,3 +80,6 @@ Se você estiver trabalhando com roteiros, as operações deverão ser definidas
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

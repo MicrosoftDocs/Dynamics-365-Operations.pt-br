@@ -70,3 +70,6 @@ Para modelar trabalho subcontratado para o lean manufacturing, você deve criar 
 24. No campo Unidade, clique no botão suspenso para abrir a pesquisa.
 25. Resolver altera a Unidade.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

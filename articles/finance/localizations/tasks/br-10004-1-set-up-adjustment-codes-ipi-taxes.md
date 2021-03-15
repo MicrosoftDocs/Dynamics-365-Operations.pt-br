@@ -38,3 +38,6 @@ Use este procedimento para configurar códigos de ajuste de imposto para Imposto
 9. Selecione **Salvar**.
 10. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

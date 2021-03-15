@@ -74,3 +74,6 @@ Isso está relacionado a um recurso pendente que está planejado como parte do s
 [Introdução à Otimização de Planejamento](get-started.md)
 
 [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

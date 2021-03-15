@@ -166,3 +166,6 @@ O processo para processar reembolsos do fornecedor envolve várias tarefas de ac
 - Geração de solicitações de reembolso precisas
 - Aumento do lucro provisório e a receber esperado na contabilidade
 - Atualização do saldo de fornecedor e a declaração de imposto com permissão devida
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

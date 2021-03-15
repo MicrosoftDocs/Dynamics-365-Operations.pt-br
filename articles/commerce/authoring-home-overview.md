@@ -121,3 +121,6 @@ Depois que a ferramenta de criação é carregada, você pode selecionar **Iníc
 [Considerações de otimização do mecanismo de pesquisa (SEO) para seu site](search-engine-optimization-considerations.md)
 
 [Gerenciar a política de segurança de conteúdo (CSP)](manage-csp.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Para configurar modelos de email para modos de entrega específicos na sede do C
 [Criar ordens de call center](tasks/create-call-center-orders.md)
 
 [Alterar modo de entrega no PDV](pos-change-delivery-mode.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

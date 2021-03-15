@@ -62,3 +62,6 @@ Este procedimento ajuda a configurar códigos de motivo de devolução que podem
  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

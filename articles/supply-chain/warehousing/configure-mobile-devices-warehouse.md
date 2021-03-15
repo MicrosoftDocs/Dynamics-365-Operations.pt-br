@@ -438,3 +438,6 @@ A tabela a seguir descreve os vários tipos de trabalho que você pode usar em c
 [Status do estoque](../inventory/inventory-statuses.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

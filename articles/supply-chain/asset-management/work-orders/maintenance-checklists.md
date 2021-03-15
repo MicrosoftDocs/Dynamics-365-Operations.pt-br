@@ -79,3 +79,6 @@ A ilustração a seguir mostra um exemplo de uma lista de verificação de manut
 
 ![Figura 1](media/14-work-orders.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

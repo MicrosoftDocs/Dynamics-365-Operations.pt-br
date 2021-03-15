@@ -62,3 +62,6 @@ O design gráfico da interface do MPOS ou PDV em Nuvem é controlado pelo layout
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Configurar, instalar e ativar o Retail Modern POS (MPOS)](retail-modern-pos-device-activation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

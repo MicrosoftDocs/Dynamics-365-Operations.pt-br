@@ -310,3 +310,6 @@ Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados d
 É possível criar relatórios usando valores de dimensão que contenham um E comercial (&).
 
 Em qualquer campo **Link para Dimensões Financeiras**, você poderá inserir um valor como **'P&L'**. A inclusão de aspas simples ('') em ambos os lados do valor da dimensão indica que você está usando o valor literal, como incluir o caractere E comercial (&).
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

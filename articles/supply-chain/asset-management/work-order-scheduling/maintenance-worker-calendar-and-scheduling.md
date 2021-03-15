@@ -38,3 +38,6 @@ A captura de tela a seguir mostra um exemplo de um funcionário de manutenção 
 
 A configuração de calendário para ferramentas e ativos não é necessária em relação ao agendamento de ordem de serviço. A suposição é que as ferramentas e os ativos estão disponíveis 24 horas por dia para manutenção.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

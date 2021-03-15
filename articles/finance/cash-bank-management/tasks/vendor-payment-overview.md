@@ -62,3 +62,6 @@ Este guia de tarefas irá apresentar vários métodos utilizados para criar paga
 33. Clique em **OK** para gerar os pagamentos.
 34. Clique em **Lançar** se todos os pagamentos foram aprovados e gerados. 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -57,3 +57,6 @@ Executar este procedimento exige um modelo de configuração de produto existent
     * Verifique qualquer uma das dimensões do produto estão ativas, e consequentemente deve ter um valor ou um atributo atribuído.  
 9. Clique em OK.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

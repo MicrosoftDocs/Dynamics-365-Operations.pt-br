@@ -236,3 +236,5 @@ Para usar perguntas condicionais para criar uma hierarquia de perguntas em um qu
 Uma entidade legal oferece serviços e itens para os clientes. Como costuma ocorrer nesses casos, alguns clientes compram apenas itens, alguns compram apenas serviços e outros compram itens e serviços. Portanto, quando a entidade legal distribui uma pesquisa de satisfação de cliente, ela aplica uma estrutura condicional ao questionário para impedir que os clientes que só adquirem serviços não precisem responder perguntas sobre itens. 
 
 Como alternativa, você pode definir um questionário para que se um participante selecionar a resposta A para a pergunta 1, a pergunta 2 seja a próxima na sequência de perguntas. No entanto, se o participante selecionar a resposta B para a pergunta 1, a pergunta 5 será a próxima.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

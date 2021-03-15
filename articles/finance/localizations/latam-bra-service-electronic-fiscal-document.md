@@ -100,3 +100,6 @@ Quando você importa uma nota fiscal eletrônica para serviços, as informaçõe
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

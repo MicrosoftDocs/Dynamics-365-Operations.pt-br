@@ -108,3 +108,6 @@ Para obter mais informações, consulte [Integração de ativos fixos](fixed-ass
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

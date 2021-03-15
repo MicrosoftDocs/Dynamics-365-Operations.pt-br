@@ -75,3 +75,6 @@ Juntamente com o número da ordem de compra criada, anote o número do item e o 
     * Após clicar em OK, verifique a barra de mensagem. Deve haver uma mensagem informando que a operação foi concluída.  
 5. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ A dimensão de rastreamento do **Proprietário** está ausente quando o aplicati
 ### <a name="issue-resolution"></a>Resolução do problema
 
 A Microsoft avaliou esse problema e determinou que é uma limitação de recurso. Atualmente, os processos de gerenciamento de depósito oferecem suporte apenas ao estoque de propriedade da entidade legal.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

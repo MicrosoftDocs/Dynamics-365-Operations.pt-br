@@ -110,3 +110,6 @@ Uma nova BOM de modelo é criada usando linhas que correspondem às linhas da BO
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

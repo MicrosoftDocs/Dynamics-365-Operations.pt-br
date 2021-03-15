@@ -54,3 +54,6 @@ Depois que dados são importados para a Contabilização de custo, você pode us
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

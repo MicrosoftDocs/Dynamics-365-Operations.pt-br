@@ -108,3 +108,6 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 
 ![Página do designer de modelo de dados de ER](../media/er-financial-dimensions-guides-data-model.png)
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

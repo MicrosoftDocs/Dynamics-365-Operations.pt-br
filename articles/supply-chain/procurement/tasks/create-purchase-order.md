@@ -73,3 +73,6 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 
 2. Selecione **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

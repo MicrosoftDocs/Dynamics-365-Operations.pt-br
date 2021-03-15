@@ -37,3 +37,6 @@ A imagem a seguir é uma ilustração das interfaces para outros módulos no Fin
 ![Visão geral de como o Gerenciamento de Ativos integra-se](media/overview-integrate2.jpg)
 
 O Gerenciamento de Ativos permite gerenciar com eficácia e realizar tarefas relacionadas ao gerenciamento e à manutenção de muitos tipos de equipamentos na sua empresa; por exemplo, computadores, equipamentos de produção e veículos. O Gerenciamento de Ativos dá suporte a soluções em várias indústrias.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

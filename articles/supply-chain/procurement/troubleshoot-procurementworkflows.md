@@ -79,3 +79,6 @@ Depois de cancelar as ordens de compra que estavam em um estado *Confirmado*, as
 
 Esse problema ocorre apenas para ordens de compra sujeitas ao gerenciamento de alterações. Ele ocorre porque o cancelamento é considerado uma alteração que deve ser aprovada. A aprovação pode ser feita automaticamente pelo sistema. Portanto, o processo é enviar a ordem de compra cancelada para o fluxo de trabalho de aprovação, de forma que possa ir para um estado *Aprovado*. Nesse ponto, a ordem de compra não será mais exibida na lista de ordens de compra de rascunho no espaço de trabalho **Preparação da ordem de compra**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

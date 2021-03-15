@@ -137,3 +137,6 @@ Para gerar um relatório **Vendas organizacional**, siga essas etapas.
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Home page do Commerce](../retail/index.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

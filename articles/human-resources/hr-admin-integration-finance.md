@@ -255,3 +255,5 @@ A identificação de local usada para o endereço de trabalho não faz parte de 
 A ilustração a seguir mostra um exemplo de um mapeamento de modelo no Integrador de dados. 
 
 ![Mapeamento de modelo](./media/IntegrationMapping.png)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

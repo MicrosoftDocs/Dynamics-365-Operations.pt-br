@@ -107,3 +107,6 @@ Para pagamentos de fornecedores, as transações a vencer e vencidas na entidade
 
 ## <a name="withholding-tax"></a>Imposto retido na fonte
 A conta de fornecedor associada à fatura é usada para determinar se o imposto retido na fonte deve ser calculado. Se ele se aplicar, será calculado na entidade legal que associada à fatura. Se a entidade legal usa moedas diferentes, a taxa de câmbio da entidade legal associadas à fatura é usada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

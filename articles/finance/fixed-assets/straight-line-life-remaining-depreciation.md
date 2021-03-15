@@ -79,3 +79,6 @@ O valor de depreciação é igual a cada ano: (Custo de aquisição – Valor re
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

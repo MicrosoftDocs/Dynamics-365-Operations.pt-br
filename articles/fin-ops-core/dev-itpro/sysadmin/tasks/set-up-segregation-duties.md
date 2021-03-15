@@ -42,3 +42,6 @@ Você pode definir regras para separar tarefas que devem ser executadas por usu�
 
 > [!IMPORTANT] 
 > A conformidade com as regras de diferenciação de direitos não é verificada quando você cria uma regra. Você pode criar uma regra que crie um conflito para as funções existentes. As atribuições de funções de usuário existentes também podem estar em conflito com a nova regra. Você deve validar a conformidade depois de criar ou modificar uma regra. Para obter mais informações, consulte [Identificar e resolver conflitos na diferenciação de direitos](identify-resolve-conflicts-segregation-duties.md)
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

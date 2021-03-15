@@ -65,3 +65,6 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
 16. Clique em Salvar.
 17. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

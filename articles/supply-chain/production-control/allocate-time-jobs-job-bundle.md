@@ -110,3 +110,6 @@ O custo corrigido por hora e o tempo de trabalho são lançados em um diário de
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

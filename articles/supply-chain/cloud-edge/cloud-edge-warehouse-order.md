@@ -72,3 +72,6 @@ Na exibição **Linhas da ordem de depósito**, você pode monitorar o andamento
 
 - Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito** e use o filtro para localizar as linhas que você está procurando.
 - Vá para **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e abra a ordem de compra relevante. Na seção **Linhas da ordem de compra**, selecione uma ou mais linhas e, em seguida, na barra de ferramentas, selecione **Depósito \> Entradas de recebimento de depósito**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

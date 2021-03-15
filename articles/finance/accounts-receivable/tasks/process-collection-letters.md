@@ -87,3 +87,6 @@ Para ignore pagamentos e memorandos de crédito ao calcular o código da carta d
 
 1. Vá para **Painel de navegação > Módulos > Crédito e coleções > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**. 
 2. Altere o valor de **Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** para **Sim**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

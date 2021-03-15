@@ -43,3 +43,6 @@ Este tópico explica como ajustar impostos em uma fatura de fornecedor. Se o doc
 13. Selecione **OK**.
 14. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

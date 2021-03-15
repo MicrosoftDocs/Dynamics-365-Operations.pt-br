@@ -117,3 +117,6 @@ Para adicionar um módulo de carrinho a uma nova página e definir as propriedad
 [Calcular disponibilidade de estoque para canais de varejo](calculated-inventory-retail-channels.md)
 
 [Criar um perfil de funcionalidade online](online-functionality-profile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

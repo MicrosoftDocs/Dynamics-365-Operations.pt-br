@@ -42,3 +42,6 @@ A transação de alienação de um ativo em um grupo de valor baixo reduz o valo
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

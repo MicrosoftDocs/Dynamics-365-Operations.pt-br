@@ -51,3 +51,6 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 8. Clique em OK.
     * Revise a saída gerada. Observe que o arquivo Excel recém-criado contém o mesmo número de colunas que foram selecionadas para as dimensões financeiras. O cabeçalho do relatório nessas colunas representa os nomes das dimensões financeiras. As linhas das transações nessas colunas representam as dimensões financeiras. Execute esse relatório e selecione dimensões diferentes para verificar se o relatório não é dependente do número de dimensões selecionadas ou do número de dimensões configuradas para essa instância.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

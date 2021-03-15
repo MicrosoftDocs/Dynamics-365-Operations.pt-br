@@ -88,3 +88,6 @@ Para obter uma visão geral de todos os registros de tempo de inatividade de man
 >[!NOTE]
 >Todos os calendários usados no módulo **Gerenciamento de ativos** são configurados em **Administração da organização** > **Configurar** > **Calendários** > **Calendários**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Este procedimento demonstra as etapas para criar regras de reabastecimento. As r
 14. No campo Peso, insira um número.
 15. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

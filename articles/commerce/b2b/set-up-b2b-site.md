@@ -302,3 +302,6 @@ Para criar uma página de detalhes da fatura no construtor de sites, siga estas 
 [Módulo de bloco de conteúdo](../add-hero-module.md)
 
 [Coleção de produtos](../product-collection-module-overview.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -71,3 +71,6 @@ Um módulo de endereço de remessa pode ser adicionado somente a um módulo de f
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

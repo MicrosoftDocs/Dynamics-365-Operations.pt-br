@@ -150,3 +150,6 @@ Para obter mais informações sobre como criar campos personalizados, consulte [
 [Remover uma instância](hr-admin-setup-remove-instance.md)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -103,3 +103,6 @@ Para explicar essa falha aparente, você deve entender os critérios de seleçã
 
 > [!NOTE]
 > Não é possível usar limites de estoque de localização para controlar, por exemplo, o reabastecimento de itens com quantidades diferentes na mesma localização. Nesse caso, use um *modelo de reabastecimento*.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

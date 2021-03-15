@@ -49,3 +49,6 @@ Use este procedimento para criar e lançar transações de ajuste de impostos. E
 20. Feche a página.
 21. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ A página **Transação de ativo** mostra as transações que aumentam ou diminu
 Para exibir as transações de despesas de ativo, selecione um arrendamento na página **Resumo do arrendamento** e, em seguida, selecione **Registros** para abrir os registros de arrendamento anexados ao registro de arrendamento. Em seguida, selecione **Transações de despesa**.
 
 A página **Transações de despesa** mostra todas as despesas que foram lançadas em relação ao arrendamento, como despesas de juros, despesas de depreciação e qualquer custo de execução.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

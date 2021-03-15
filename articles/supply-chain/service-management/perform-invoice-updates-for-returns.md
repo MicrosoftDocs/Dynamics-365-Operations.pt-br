@@ -56,3 +56,6 @@ Ao configurar a atualização da nota fiscal para processamento em lotes, a orde
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

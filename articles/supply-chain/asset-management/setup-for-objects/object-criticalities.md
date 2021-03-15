@@ -61,3 +61,6 @@ Para configurar a severidade, primeiro você cria os tipos de severidade que dev
 - A severidade em uma ordem de serviço é recalculada sempre que uma linha da ordem de serviço é adicionada ou excluída.
 - Se uma ordem de serviço contiver vários trabalhos de ordem de serviço, a severidade mais alta, de acordo com o campo **Fator** na página **Tipos de severidade**, sempre será usada na ordem de serviço.
 - Geralmente, a severidade do ativo pode mudar em um período. A severidade pode ser afetada pela compra de novo equipamento, restaurações e assim em diante. Considere a reavaliação das severidades do seu ativo em intervalos regulares (por exemplo, uma vez por ano em anos alternados) para garantir que as definições de severidade correspondam à sua configuração de produção atual.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ A liquidação será de 100,00 e incluirá um pagamento de 99,00 e um desconto d
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

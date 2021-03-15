@@ -103,3 +103,6 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

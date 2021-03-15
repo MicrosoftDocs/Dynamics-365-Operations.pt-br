@@ -73,3 +73,6 @@ A tabela a seguir mostra as visualizações disponíveis em cada página de rela
 | Mapas de Avaliações        | Detalhes do Ativo Fixo |
 
 Para exibir a análise com os dados, primeiro você deve atualizar a medida agregada AssetTransactionMeasure na página **Repositório de Entidades**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

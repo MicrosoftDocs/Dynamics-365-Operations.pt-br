@@ -127,3 +127,6 @@ No aplicativo de call center, os agentes de call center podem selecionar o local
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Módulo de informações sobre retirada](../pickup-info-module.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

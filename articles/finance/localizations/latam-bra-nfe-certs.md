@@ -82,3 +82,6 @@ A tabela a seguir lista todas as autoridades fiscais e as soluções que você d
 Sefaz Virtual de Contingência Rio Grande do Sul (SVC-RS)|   AM, BA, CE, GO, MA, MS, MT, PA, PE, PI, PR| Nenhuma solução adicional é necessária|
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

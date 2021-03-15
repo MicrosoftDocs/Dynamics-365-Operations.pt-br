@@ -38,3 +38,6 @@ Este procedimento mostra como criar uma ordem de compra de um fornecedor ocasion
 5. Clique em OK.
     * A ordem de compra pode agora ser concluída e processada como toda a outra ordem. Não há nenhuma característica especial relativa a como isto é feito. A fatura explicará uma transação devida na conta do vendedor que foi criada com a ordem, e o pagamento será então processado.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

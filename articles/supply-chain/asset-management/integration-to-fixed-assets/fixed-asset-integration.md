@@ -114,3 +114,6 @@ Para remover uma associação existente entre um ativo de manutenção e um ativ
 1. Localize e abra o ativo fixo.
 1. Na Guia Rápida **Ativos fixos**, limpe o valor do campo **Local funcional**.
 1. No Painel de ações, selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Este procedimento mostra como criar uma ordem de compra do projeto. Essa tarefa 
     * Verifique se as vendas e os preços de custo estão disponíveis. Se não estiverem disponíveis, mas forem necessárias, insira as informações.  
 14. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

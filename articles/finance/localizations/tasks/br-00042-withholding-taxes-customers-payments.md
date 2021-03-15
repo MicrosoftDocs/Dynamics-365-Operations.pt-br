@@ -82,3 +82,6 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 52. Feche a página.
 53. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -112,3 +112,5 @@ Se um produto do catálogo de fornecedor externo for solicitado, o catálogo de 
 
 - [Aprimoramentos ao cXML de compra](purchasing-cxml-enhancements.md)
 - [​Uso de catálogos externos para PunchOut e-procurement](use-external-catalogs-for-punchout.md)
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

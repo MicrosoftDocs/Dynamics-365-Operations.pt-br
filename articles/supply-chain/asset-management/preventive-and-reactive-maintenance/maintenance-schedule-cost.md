@@ -53,3 +53,6 @@ A ilustração a seguir mostra os resultados do cálculo de custo de um agendame
 
 ![Figura 1](media/17-preventive-maintenance.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

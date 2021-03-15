@@ -44,3 +44,6 @@ O número de contêineres que devem ser considerados para uma carga ser calculad
 -   Para definir o peso e volume de um contêiner, clique em **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Tipos de contêiner**.
 
 -   Para definir a porcentagem de utilização de contêiner, clique em **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Grupos de contêiner**, e insira o valor no campo **Porcentagem de utilização do contêiner**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Este procedimento mostra como exibir entradas de custo para um objeto de custo. 
 7. Use o Filtro Rápido para filtrar o campo Número com um valor de 'p000031'.
     * Se as entradas de custo estiverem em branco, defina Data inicial como 31 de janeiro de 2012 e Data final como 31 de dezembro de 2012.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

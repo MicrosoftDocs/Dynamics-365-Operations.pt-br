@@ -74,3 +74,6 @@ O rodapé que contém o aviso de direitos autorais aparece automaticamente na pa
 
 [Adicionar o código de script a páginas do site para oferecer suporte à telemetria](add-telemetry.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

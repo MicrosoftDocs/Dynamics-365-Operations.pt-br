@@ -39,3 +39,6 @@ Para validar uma hipótese, o êxito ou a falha de um experimento deve estar dir
 
 ## <a name="next-step"></a>Próxima etapa
 [Configurar um experimento](experimentation-setup.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -88,3 +88,6 @@ O exemplo a seguir mostra como modificar a home page alterando o vídeo que apar
 [Verificar acessibilidade do conteúdo da página](verify-accessibility.md)
 
 [Criar páginas dinâmicas de comércio eletrônico com base nos parâmetros da URL](create-dynamic-pages.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

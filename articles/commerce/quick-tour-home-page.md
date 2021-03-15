@@ -72,3 +72,6 @@ A seção principal da página inicial pode destacar produtos, categorias ou pro
 [Visão geral das páginas de carrinho e de finalização da compra](quick-tour-cart-checkout.md)
 
 [Visão geral das páginas de gerenciamento da conta](quick-tour-account-management.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

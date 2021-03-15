@@ -139,3 +139,6 @@ A estratégia LIFO encontra o local que contém a data de classificação por ve
 1. Observe que a linha na qual o valor **Tipo de trabalho** é *Separar* mostra um valor **Local** de *FL-001*. Esse local contém a placa de licença que tem a data de classificação por vencimento mais nova (LIFO).
 
 Nesses cenários, você viu como a estratégia de classificação por vencimento local direciona o trabalho para a localização de estoque que tem o estoque mais antigo ou o mais recente, dependendo da estratégia selecionada.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Este procedimento mostra como criar um estado do ciclo de vida do produto padrã
 > [!NOTE]
 > Suponha que você tenha configurado um estado ativo, agora você pode selecioná-lo para permitir que o produto seja usado no Planejamento mestre e no cálculo do nível da BOM. Obviamente, isso só faz sentido se todos os detalhes do produto que são necessários para o planejamento consistente forem especificados.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

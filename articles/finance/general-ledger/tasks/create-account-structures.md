@@ -60,3 +60,6 @@ Este guia de tarefas aborda a criação de uma estrutura de conta. As etapas usa
 29. No **Painel de Ações**, clique em **Ativar**.
 30. Clique em **Ativar**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Para usar esse recurso, habilite **Links personalizados no Autoatendimento para 
 ## <a name="see-also"></a>Consulte também
 
 [Visão geral do autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

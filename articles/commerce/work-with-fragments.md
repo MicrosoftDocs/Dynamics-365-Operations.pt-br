@@ -135,3 +135,6 @@ Você também pode editar um fragmento selecionando-o em uma página, em um mode
 [Trabalhar com layouts predefinidos](work-with-layouts.md)
 
 [Trabalhar com grupos de publicações](publish-groups.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

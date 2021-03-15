@@ -69,3 +69,6 @@ Após a criação dos estados de ciclo de vida do ativo necessários, você pode
 
 6. Selecione **Atualizações do estado de ciclo de vida** para definir os estados de ciclo de vida de ativo que possam acompanhar um estado de ciclo de vida selecionado.
 7. Use a Guia Rápida **Estado de ativo** se você lidar com ativos recebidos para reparo. Na seção **Entrada/saída**, é possível selecionar estados de ciclo de vida de ativo para indicar o fluxo de trabalho de um ativo recebido para reparo. Se oferecer ativos de empréstimo a clientes ou departamentos, na seção **Empréstimo** , você poderá selecionar estados de ciclo de vida para ativos de empréstimo.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

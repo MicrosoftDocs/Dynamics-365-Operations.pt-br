@@ -67,3 +67,6 @@ Para exibir os efeitos do processo de reavaliação do arrendamento em arrendame
 Você pode exibir a agenda de pagamento recém-gerada que começa na data de reavaliação e mostra o valor de pagamento total atualizado. Uma nova agenda de amortização de responsabilidade com arrendamento e uma agenda de depreciação de ativos também foram criadas para refletir a agenda de pagamento ajustada.
 
 A entrada de diário lançou automaticamente a entrada do diário de ajuste na conta para a alteração nos pagamentos de arrendamento que estão relacionados à reavaliação do índice.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

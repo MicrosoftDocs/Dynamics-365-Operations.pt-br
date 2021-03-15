@@ -59,3 +59,6 @@ O valor padrão do campo para o **Número de itens de fluxo de trabalho por lote
 
 ## <a name="what-is-the-workflow-enhanced-error-feature"></a>O que é o recurso de Erro Avançado do Fluxo de Trabalho?
 O recurso de Erro Avançado do Fluxo de Trabalho na versão 10.0.13 adiciona códigos de erro para diferenciar classes diferentes de erros de fluxo de trabalho. As mensagens de erro relatadas serão quase parecidas, com pequenas diferenças para torná-las mais claras.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

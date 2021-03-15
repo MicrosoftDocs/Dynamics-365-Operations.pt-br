@@ -46,3 +46,6 @@ Você pode fazer o seguinte para transferir itens entre estabelecimentos fiscais
   - Retornar uma nota fiscal de transferência. Para obter mais informações, consulte [Retornar uma nota fiscal de transferência](https://review.docs.microsoft.com/dynamicsax-2012/appuser-itpro/bra-return-a-transfer-fiscal-document?branch=master).
 
   - Cancelar uma ordem de transferência incorreta. Para obter mais informações, consulte [Cancelar uma nota fiscal de transferência](https://review.docs.microsoft.com/dynamicsax-2012/appuser-itpro/bra-cancel-a-transfer-fiscal-document?branch=master).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Este procedimento orienta na criação de um novo perfil visual de ponto de vend
 17. Na lista, clique no link na linha selecionada.
 18. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

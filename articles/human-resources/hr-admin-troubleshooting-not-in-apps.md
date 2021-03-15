@@ -55,3 +55,6 @@ O usuário deve ser adicionado à função de criador de ambiente do ambiente no
     ![Botão de sincronização](media/get-more.png)
 
     Após a sincronização ser concluída, Human Resources aparecerá na página inicial.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

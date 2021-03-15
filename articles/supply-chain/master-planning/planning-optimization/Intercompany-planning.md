@@ -87,3 +87,6 @@ Neste exemplo, uma ordem de compra planejada é criada na empresa USMF para cobr
 A ilustração a seguir mostra como esse exemplo pode aparecer na página **Vinculação de vários níveis** para a ordem de produção planejada.
 
 ![Exemplo de intercompanhia que envolve três empresas](media/IntercompanyPlanning2.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

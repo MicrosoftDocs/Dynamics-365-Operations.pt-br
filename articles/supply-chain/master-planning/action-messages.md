@@ -52,3 +52,6 @@ Na página **Grupos de cobertura**, é possível selecionar as mensagens de aç�
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

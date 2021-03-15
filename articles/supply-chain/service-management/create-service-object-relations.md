@@ -71,3 +71,6 @@ Use as seguintes etapas para criar uma relação de objeto de serviço para uma 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

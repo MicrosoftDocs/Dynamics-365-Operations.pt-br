@@ -57,3 +57,6 @@ Este procedimento aborda a criação de regras avançadas para diários. Inclui 
 4. Na árvore, verifique 'o grupo do qual deseja permitir o lançamento para o nome desse diário'.
 5. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

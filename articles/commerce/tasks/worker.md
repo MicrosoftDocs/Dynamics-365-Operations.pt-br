@@ -56,3 +56,6 @@ Este procedimento demonstra como configurar um trabalhador como um representante
 6. No campo Grupo padrão, insira ou selecione um valor.
 7. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

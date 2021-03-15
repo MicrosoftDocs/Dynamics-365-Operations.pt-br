@@ -157,3 +157,6 @@ Esse problema ocorre quando a quantidade da transação de estoque é especifica
 
 > [!IMPORTANT]
 > É altamente recomendável editar o script com cuidado conforme necessário para o seu ambiente, testá-lo em um ambiente de teste e verificar os dados resultantes antes de executá-lo em um ambiente de produção.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

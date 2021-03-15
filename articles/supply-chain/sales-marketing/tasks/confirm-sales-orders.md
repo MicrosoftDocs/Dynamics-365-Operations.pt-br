@@ -63,3 +63,6 @@ Este procedimento demonstra como confirmar ordens de venda. Será mostrado a voc
 11. Clique em **OK**.
 12. Clique em **OK**.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

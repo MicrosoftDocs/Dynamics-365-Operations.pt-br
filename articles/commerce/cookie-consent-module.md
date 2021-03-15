@@ -61,3 +61,6 @@ Para obter mais informações sobre fragmentos e módulos de cabeçalho, consult
 [Módulo de cabeçalho](author-header-module.md) 
 
 [Compatível com cookies](cookie-compliance.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

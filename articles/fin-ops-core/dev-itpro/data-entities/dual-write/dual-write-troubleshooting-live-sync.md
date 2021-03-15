@@ -127,3 +127,6 @@ Para corrigir o problema, siga estas etapas.
 
 3. Verifique se a coluna **externalenvironmentURL** tem o Dataverse correto ou URL de aplicativo. Exclua as linhas duplicadas que apontam para a URL de Dataverse errada. Exclua as linhas correspondentes nas tabelas DUALWRITEPROJECTFIELDCONFIGURATION e DUALWRITEPROJECTCONFIGURATION.
 4. Interrompa o mapeamento de tabela e reinicie-o
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

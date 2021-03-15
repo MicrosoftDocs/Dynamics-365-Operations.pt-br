@@ -165,3 +165,6 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de 
 >[!NOTE]
 >Se quiser que as ordens de serviço sejam criadas automaticamente, você pode agendar trabalhos de plano de manutenção ou pode configurar a opção de criação automática de [planos de manutenção](../preventive-and-reactive-maintenance/maintenance-plans.md) ou [rounds de manutenção](../preventive-and-reactive-maintenance/maintenance-rounds.md) em um ativo. As ordens de serviço criadas com base em solicitações de manutenção na página de listagem **Todos os agendamentos de manutenção** possuem os tipos de trabalho de manutenção selecionados nas solicitações de manutenção.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Este procedimento mostra como copiar coprodutos de uma versão de fórmula exist
 6. Clique em OK.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ Depois de criar solicitações de manutenção, você poderá facilmente convert
 
     ![Abrir nova ordem de serviço](media/05-manage-maintenance-requests.png)
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

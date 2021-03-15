@@ -35,3 +35,6 @@ O seguinte tópico explica como um usuário com a função Administrador do Sist
 5. No campo **Fuso horário**, selecione uma opção na lista suspensa.
 6. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

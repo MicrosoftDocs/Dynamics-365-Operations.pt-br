@@ -111,3 +111,6 @@ Quando você usa o campo **ID do lote devolvido** em uma linha da ordem de devol
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

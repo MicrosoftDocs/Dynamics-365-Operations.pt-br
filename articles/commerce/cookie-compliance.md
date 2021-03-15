@@ -72,3 +72,6 @@ Se um recurso ou módulo de site de comércio eletrônico usar um cookie não es
 [Módulo de consentimento de cookie](cookie-consent-module.md) 
  
 [Módulo de cabeçalho](author-header-module.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

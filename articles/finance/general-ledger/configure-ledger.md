@@ -81,3 +81,6 @@ Se você usar duas moedas ou se usar uma única moeda, mas as transações forem
 Os ganhos e perdas realizados são lucros e perdas feitas a partir de transações concluídas. Eles são registrados no demonstrativo de lucros e perdas. Os ganhos e perdas não realizados são lucros e perdas que foram materializados, mas a transação não foi concluída. Por exemplo, você lançou uma nota fiscal, mas a nota fiscal ainda não foi liquidada e paga. Os ganhos e perdas não realizados são registrados no balanço.
 
 Para obter mais informações sobre como usar duas moedas, consulte [Moeda dupla](dual-currency.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

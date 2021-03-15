@@ -107,3 +107,6 @@ A vida útil do ajuste de aquisição é igual a do ativo fixo e começa no mome
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

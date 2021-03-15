@@ -59,3 +59,6 @@ Você pode cancelar uma nota fiscal de cliente incorreta usando a página **Canc
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [ Cancelar notas fiscais do fornecedor](latam-bra-cancel-vendor-fiscal-documents.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

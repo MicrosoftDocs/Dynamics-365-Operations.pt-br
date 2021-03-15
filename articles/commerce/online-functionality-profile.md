@@ -66,3 +66,6 @@ A imagem a seguir mostra um exemplo de perfil de funcionalidade online.
 [Configurar um canal de varejo](channel-setup-retail.md)
 
 [Configurar um canal de call center](channel-setup-callcenter.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

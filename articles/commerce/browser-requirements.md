@@ -47,3 +47,6 @@ Os sites do Dynamics 365 Commerce têm melhor suporte dos navegadores da Web a s
 [Gerenciar arquivos robots.txt](manage-robots-txt-files.md)
 
 [Habilitar detecção de lojas com base na localização](enable-store-detection.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

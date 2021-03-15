@@ -72,3 +72,6 @@ A tabela a seguir fornece recomendações sobre qual estratégia do agente de re
 [Heurística](https://techterms.com/definition/heuristic)
 
 [Problema de satisfação de restrição](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

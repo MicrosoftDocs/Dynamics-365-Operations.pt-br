@@ -105,3 +105,6 @@ Outra forma de fazer a correspondência manual para esse exemplo é proceder da 
 1. Corresponder Inv1 e Inv2 com FB uma após a outra. FB é totalmente correspondida.
 
 Como mostra esse exemplo, a correspondência de faturas de frete com valores negativos só deve ser feita manualmente. Isso garantirá que sempre seja possível corresponder as faturas de frete com valores negativos a uma nota de frete não correspondida totalmente porque isso permite controlar a sequência de correspondência.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

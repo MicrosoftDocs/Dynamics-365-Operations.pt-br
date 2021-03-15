@@ -88,3 +88,6 @@ Use este procedimento para criar um ou mais estabelecimentos fiscais para uma en
 58. Feche a página.
 59. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

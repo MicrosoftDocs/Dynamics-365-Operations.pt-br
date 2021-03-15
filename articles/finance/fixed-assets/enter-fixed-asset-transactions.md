@@ -67,3 +67,6 @@ Qualquer tipo de transação de ativo fixo pode ser lançado na página Diário 
 O valor restante dos períodos de depreciação do ativo fixo não é atualizado quando uma linha de diário do tipo de transação de depreciação é criada manualmente ou importada por meio de uma entidade de dados. Este valor é atualizado quando o processo de proposta de depreciação é usado para criar a linha do diário.
 
 Para obter mais informações, consulte [Integração de ativos fixos](fixed-asset-integration.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -289,3 +289,6 @@ Em caso de perda ou comprometimento do dispositivo, será necessário remover o 
 1. Verifique se a ID do cliente do aplicativo é igual à ID do cliente para a qual fez uma anotação na etapa 2.
 1. Na barra de ferramentas, selecione **Excluir**.
 1. Na mensagem de confirmação exibida, selecione **Sim**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

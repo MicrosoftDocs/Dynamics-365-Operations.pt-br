@@ -95,3 +95,6 @@ Para poder enviar emails, você deve configurar seu serviço de email de saída 
 [Pré-requisitos de configuração de canal](channels-prerequisites.md)
 
 [Visão geral de organizações e hierarquias organizacionais](../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/commerce/toc.json)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

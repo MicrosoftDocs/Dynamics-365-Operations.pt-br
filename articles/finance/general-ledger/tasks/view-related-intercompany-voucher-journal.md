@@ -53,3 +53,6 @@ A janela de comprovante relacionado mostra o comprovante da empresa de compensa√
 3. Na lista, marque a linha selecionada.
 4. Clique em Comprovante.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -162,3 +162,6 @@ Se a configuração for feita em um site, ou mesmo em uma empresa, isso será di
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

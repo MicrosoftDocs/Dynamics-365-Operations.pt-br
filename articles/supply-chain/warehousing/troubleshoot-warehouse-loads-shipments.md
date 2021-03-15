@@ -93,3 +93,6 @@ Não é possível liberar uma carga parcialmente enviada para o depósito. Quand
 ### <a name="issue-resolution"></a>Resolução do problema
 
 O [problema do KB 470069](https://fix.lcs.dynamics.com/Issue/Details?kb=4574490&bugId=470069&dbType=3&qc=84ce1e09d7032d8b8ef86f5a0c68b86badf3dfaf29686c5ebbe97c53c0957b5f) ("Cargas parcialmente enviadas podem ser colocadas em ciclo e processadas de novo") foi corrigido na [versão 10.0.15](../get-started/whats-new-scm-10-0-15.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

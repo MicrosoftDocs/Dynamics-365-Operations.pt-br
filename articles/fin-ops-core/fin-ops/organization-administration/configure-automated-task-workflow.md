@@ -110,3 +110,6 @@ Siga estas etapas para inserir um nome para a tarefa automatizada.
     </table>
 
 8. Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

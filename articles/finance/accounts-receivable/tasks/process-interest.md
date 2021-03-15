@@ -67,3 +67,6 @@ Este procedimento mostra como criar, imprimir e lançar notas de juros. Esta tar
 5. Clique em **OK**.
 6. No campo **Status**, selecione "Lançado".
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -48,3 +48,6 @@ Esta tarefa atualiza a convenção de depreciação de um grupo de ativo fixo es
 15. Clique em OK.
     *  Os resultados do processo são mostrados no relatório de atualização em massa.     
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

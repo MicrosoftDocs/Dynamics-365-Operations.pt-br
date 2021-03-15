@@ -53,3 +53,6 @@ Este procedimento mostra como criar um mestre suplementar para um hub e usar ess
 9. Clique em Salvar.
 10. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

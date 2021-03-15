@@ -945,3 +945,6 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Home page de Novidades ou alterações no Finance and Operations](whats-new-changed.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

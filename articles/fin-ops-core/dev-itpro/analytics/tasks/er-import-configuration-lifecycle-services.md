@@ -103,3 +103,6 @@ Neste exemplo, você selecionará a versão desejada da configuração de ER e a
     Neste exemplo, selecione a versão da configuração com status **Compartilhado**.
 
     Observe que versão 1 compartilhada da configuração do modelo de dados selecionado agora também está disponível.
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

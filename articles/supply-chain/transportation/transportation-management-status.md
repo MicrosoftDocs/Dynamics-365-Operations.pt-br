@@ -48,3 +48,6 @@ Para mapear um status de transporte para um status de transportadora, siga estas
 1. Selecione o código de status do transporte a ser mapeado para o código da transportadora selecionada.
 1. Insira o código externo que é usado pela transportadora.
 1. Feche a página.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

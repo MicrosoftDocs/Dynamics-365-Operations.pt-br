@@ -132,3 +132,6 @@ Se Otimização de Planejamento estiver ativado, o planejamento mestre será fei
 [Aplicar filtros a um plano](plan-filters.md)
 
 [Cancelar um trabalho de planejamento](cancel-planning-job.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

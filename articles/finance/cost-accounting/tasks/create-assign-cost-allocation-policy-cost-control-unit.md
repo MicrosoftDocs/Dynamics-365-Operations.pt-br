@@ -66,3 +66,6 @@ Use esse procedimento para criar e atribuir uma política de alocação de custo
 5. No campo Unidade de controle de custo, insira ou selecione um valor.
 6. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

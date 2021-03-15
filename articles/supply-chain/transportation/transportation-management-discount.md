@@ -32,3 +32,6 @@ Para configurar descontos para gerenciamento de transporte, vá para **Gerenciam
 Você pode escolher se deseja repassar o desconto ao seu cliente (definindo o tipo de desconto para o cliente) ou retê-lo na empresa (definindo o tipo de desconto para remetente). Isso permite definir uma configuração na qual você ganha uma margem sobre os custos de frete calculados.
 
 Você pode configurar vários qualificadores para cada desconto, como transportadora, serviço de transportadora, termos de entrega, cliente, destino e muito mais.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

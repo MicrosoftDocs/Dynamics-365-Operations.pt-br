@@ -40,3 +40,6 @@ Essa conversão dupla causa a alteração de datas entre os aplicativos. Por exe
 4. Altere o **Fuso horário** para o **Tempo Universal Coordenado** e altere o **Idioma** para **En-US**.
 
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

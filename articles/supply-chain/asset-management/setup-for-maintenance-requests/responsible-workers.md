@@ -53,3 +53,6 @@ Antes de configurar funcionários de manutenção responsáveis, você deverá c
 A ilustração a seguir mostra um exemplo da página **Funcionários de manutenção responsáveis**.
 
 ![Página de funcionários de manutenção responsáveis](media/08-setup-for-requests.png)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

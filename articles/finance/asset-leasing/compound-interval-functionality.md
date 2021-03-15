@@ -159,3 +159,6 @@ A tabela a seguir lista os 12 primeiros meses da agenda de pagamento. Observe os
 
 > [!NOTE]
 > Se o tipo de anuidade for alterado para **anuidade devido**, o pagamento será em janeiro em vez de dezembro.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

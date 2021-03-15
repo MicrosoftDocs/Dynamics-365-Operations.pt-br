@@ -86,3 +86,6 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 7.  Selecione **Anexos** para exibir quaisquer notas ou arquivos anexados à fatura.
 8.  Na página **Detalhes da fatura**, selecione a ação de fluxo de trabalho apropriada para concluir o seu processo de revisão.
 9.  Selecione **Concluído**.
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -51,3 +51,6 @@ Use este procedimento para configurar regras para encomendar produtos em uma cat
 6. No campo **Seleção do fornecedor**, selecione uma opção. Selecione uma regra para controlar quais tipos de vendedores podem ser selecionados para a categoria quando as requisições são criadas.  
 7. Clique em **Fechar**. A regra de política que você definiu foi para requisições do tipo consumo. Se você quis definir políticas para requisições do tipo Reabastecimento, você criaria uma regra para o tipo de regra de política chamado "Regra de política para acessar reabastecimento de categoria".  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Os seguintes campos na página **Informações sobre produtos** são necessário
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

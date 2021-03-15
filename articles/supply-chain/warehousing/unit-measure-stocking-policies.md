@@ -49,3 +49,6 @@ Como parte da criação de produtos liberados, você deve selecionar unidades pa
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

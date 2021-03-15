@@ -75,3 +75,6 @@ O total de porcentagens para todos os intervalos não precisa ser 100. Entretant
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

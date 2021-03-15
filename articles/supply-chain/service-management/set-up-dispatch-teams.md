@@ -53,3 +53,6 @@ Este tópico descreve como criar uma equipe de expedição. Depois de criar uma 
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

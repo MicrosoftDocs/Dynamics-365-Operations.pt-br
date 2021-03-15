@@ -931,3 +931,6 @@ Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir:
 - Histórico da etiqueta de onda
 
 Para a maioria dessas páginas, você pode encontrar a função relevante selecionando **Etiquetas de onda** no grupo **Informações relacionadas** na guia **Remessas** do Painel de Ação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

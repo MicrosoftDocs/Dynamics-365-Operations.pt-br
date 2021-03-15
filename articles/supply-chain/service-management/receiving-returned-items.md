@@ -44,3 +44,6 @@ Dependendo das políticas da empresa, os itens na remessa de devolução podem s
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

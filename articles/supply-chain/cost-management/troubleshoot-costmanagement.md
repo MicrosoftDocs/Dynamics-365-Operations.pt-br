@@ -81,3 +81,6 @@ Até que a Microsoft lance uma solução para corrigir o problema, considere o u
 - Evite valores decimais no custo padrão. Tente definir o custo padrão para que o campo **Quantidade de preço** seja definido como *1*. Se for necessário especificar um valor **Quantidade de preço** maior do que *1*, tente minimizar o número de casas decimais no custo padrão da unidade. (O ideal é que haja menos de duas casas decimais). Por exemplo, evite definir configurações de custo padrão como **Preço** = *10* e **Quantidade de preço** = *3*, pois elas produzirão um custo padrão de unidade de 3,333333 (no qual o valor decimal se repete).
 - Na maioria dos documentos, evite ter várias linhas que contenham a mesma combinação de dimensões de estoque financeiro e de produtos.
 - Reduza o grau de paralelização. (Neste caso, o sistema pode ficar mais rápido, pois ocorrem menos conflitos de atualização e repetições).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

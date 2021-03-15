@@ -209,3 +209,6 @@ Além das restrições que se aplicam no momento a produtos de peso variável, o
 
 > [!NOTE]
 > As informações anteriores sobre marcas de peso variável só são válidas se o produto de peso variável tem um método de rastreamento de dimensão de marca de peso variável que é totalmente rastreado (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável está definido como **Dimensões do produto, dimensões de rastreamento e todas as dimensões de armazenamento**). Se o item de peso variável só é parcialmente rastreado por marca (ou seja, se o parâmetro **Método de rastreamento de dimensão de marca de peso variável** na política de manuseio de itens de peso variável estiver definido como **Dimensões do produto, dimensões de rastreamento e status de estoque**), outras restrições são aplicadas. Como nesse caso a visibilidade é perdida entre a marca e o estoque, não há suporte para alguns cenários adicionais.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

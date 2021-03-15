@@ -70,3 +70,6 @@ Este procedimento mostra como criar uma ordem de produção. A empresa de dados 
 6. Clique em Salvar.
 7. Feche a página.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

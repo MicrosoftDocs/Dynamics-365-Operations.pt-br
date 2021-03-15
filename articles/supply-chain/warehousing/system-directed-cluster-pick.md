@@ -206,3 +206,6 @@ Antes de configurar a separação de cluster direcionada pelo sistema, você dev
 1. A última etapa no dispositivo móvel é **colocar** o cluster na localização final. Selecione **OK**
     - Quando a operação put é confirmada, o cluster é fechado e dividido, com base no valor definido para o campo **Dividir cluster em** no perfil de cluster. As IDs de trabalho também são fechadas.
 1. Uma mensagem de "Cluster concluído" é exibida no dispositivo móvel.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

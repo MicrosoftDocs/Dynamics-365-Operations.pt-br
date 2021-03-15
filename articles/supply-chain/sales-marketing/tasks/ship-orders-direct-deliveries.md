@@ -81,3 +81,6 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
     - A página Entrega direta atua como uma bancada que fornece ao agente de compras uma visão geral de todas as linhas da ordem de venda que terão entrega direta e permite que sejam criadas as respectivas ordens de compra. Além disso, as ordens de entrega direta abertas e as ordens confirmadas podem ser exibidas nas guias Confirmação e Entrega.  
     - Depois de criar uma ordem de entrega direta, ela é movida automaticamente para a guia Confirmação. Você pode optar por confirmar a ordem diretamente nessa página. Quando a compra for confirmada, ela será movida automaticamente para a guia Entrega, onde você pode registrar seu recibo.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

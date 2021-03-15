@@ -159,3 +159,6 @@ Esse comportamento se aplica somente quando um produto é selecionado diretament
 Por exemplo, o produto X é atribuído ao grupo de proprietários de produtos *Projetar gabinetes*. O produto X também faz parte da BOM do produto Y, que é atribuída ao grupo de proprietários de produtos de *Design de alto-falantes*. Se um usuário do grupo de proprietários de produtos *Design de alto-falantes* lançar o produto Y e sua BOM, o produto X será liberado junto com o produto Y.
 
 Para obter mais informações, consulte [Proprietários do produto](product-owner.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

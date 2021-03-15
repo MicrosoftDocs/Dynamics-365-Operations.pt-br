@@ -111,3 +111,6 @@ Exclua os registros de acúmulo para um plano e um intervalo de datas específic
 
 [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)</br>
 [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

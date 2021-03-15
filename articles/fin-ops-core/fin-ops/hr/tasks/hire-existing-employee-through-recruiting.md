@@ -40,3 +40,6 @@ As vezes, posições abertas podem ser preenchidas por candidatos que já são e
 9. Clique em Alterar cargo.
     * Você também pode alterar a remuneração neste momento. Se você não atribuir remuneração neste momento, você pode alterar indo ao formulário do trabalhador, selecionando a aba Remuneração, e escolhendo 'Plano Fixo'. Depois que você selecionar 'Trocar de cargo', o status da solicitação de emprego será atualizado para 'Empregado'.  
 
+
+
+[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

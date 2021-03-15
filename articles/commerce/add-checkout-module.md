@@ -126,3 +126,6 @@ Para adicionar um módulo de finalização da compra a uma nova página e defini
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

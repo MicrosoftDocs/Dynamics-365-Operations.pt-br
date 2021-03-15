@@ -249,3 +249,6 @@ Este cenário mostra como as configurações descritas anteriormente neste tópi
 1. Na ordem de venda recém-criada, na FastTab **Linhas de ordem de venda**, selecione **Adicionar linha** para adicionar outra linha.
 1. Na nova linha, defina o campo **Número do item** como *M9200* e o campo **Quantidade** como *1*.
 1. Repita as linhas de 6 a 9 para reservar a linha e liberá-la para o depósito. Como anteriormente, o sistema cria uma **nova** remessa para a linha que você adicionou. Porém, como o item é proveniente do grupo de itens **CarAudio**, ele **não passa as restrições configuradas para o grupo misto de cargas**. Por esse motivo, ele é **adicionado a uma nova carga**. Se você não tivesse especificado um grupo misto de cargas no modelo de criação de carga, essa remessa teria sido adicionada à primeira carga.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

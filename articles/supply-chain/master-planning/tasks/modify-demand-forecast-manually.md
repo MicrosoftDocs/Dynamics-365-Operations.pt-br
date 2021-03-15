@@ -42,3 +42,6 @@ Este procedimento mostra como alterar a previsão para um item. A empresa de dad
 1. Clique em **Abrir** no Microsoft Office.
 2. Clique em **Editar Previsão de demanda** no Excel. No Excel, você pode adicionar, editar e excluir linhas de previsão de demanda. Se não conseguir ver os dados no Excel, você precisará entrar com a opção “Mantenha-me conectado” habilitada e confiar no aplicativo de conexão de dados.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

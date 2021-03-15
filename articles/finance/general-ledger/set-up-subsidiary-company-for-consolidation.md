@@ -80,3 +80,6 @@ Independentemente de você ter mapeado contas, desmarque a caixa de seleção **
 
 > [!NOTE]
 > Você pode usar esse método para criar um plano de contas na entidade legal consolidada no plano de contas em uma das entidades legais subsidiárias. (Para obter mais informações, consulte [Grupos de contas de consolidação e contas adicionais de consolidação](../budgeting/consolidation-account-groups-consolidation-accounts.md).) Em seguida, atribua um princípio de conversão de consolidação apropriado a cada conta principal consolidada e execute a consolidação para todas as entidades legais subsidiárias.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

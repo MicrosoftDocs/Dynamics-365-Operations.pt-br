@@ -154,3 +154,6 @@ No momento, o recurso de grupos de publicação oferece suporte somente ao conte
 [Visão geral de modelos e layouts](templates-layouts-overview.md)
 
 [Personalizar a navegação do site](customize-site-navigation.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

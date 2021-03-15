@@ -48,3 +48,6 @@ Você pode cancelar uma ordem de devolução, em vez de excluí-la, quando quise
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

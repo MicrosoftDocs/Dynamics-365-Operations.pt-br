@@ -228,3 +228,6 @@ Para restringir o acesso ao aplicativo Human Resources no Microsoft Teams para s
 [Baixar e instalar o Microsoft Teams](https://support.office.com/article/download-and-install-microsoft-teams-422bf3aa-9ae8-46f1-83a2-e65720e1a34d)</br>
 [Central de ajuda do Microsoft Teams](https://support.office.com/teams)</br>
 [Aplicativo Human Resources no Teams](hr-admin-teams-leave-app.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

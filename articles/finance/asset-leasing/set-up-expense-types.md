@@ -58,3 +58,6 @@ Em seguida, você deverá associar contas aos tipos de despesa. Essas contas ser
 7. Nos campos apropriados, selecione a conta principal do arrendamento mercantil e a conta principal do arrendamento operacional.
 
 Depois de concluir estas etapas, você poderá adicionar despesas por meio das linhas de **Agenda de pagamento de custos de execução** na página **Detalhes do arrendamento** de um arrendamento selecionado. Como alternativa, você pode adicionar despesas ao criar um novo arrendamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

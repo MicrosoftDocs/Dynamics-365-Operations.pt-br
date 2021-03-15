@@ -579,3 +579,6 @@ A tabela a seguir mostra a lista de configurações de ER que oferecem suporte a
 |                             | Guia de remessa de ordem de venda (LT) (Excel)           |
 |                             | Guia de remessa de ordem de venda (PL) (Excel)           |
 |                             | Guia de remessa de ordem de venda (Word)                 |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

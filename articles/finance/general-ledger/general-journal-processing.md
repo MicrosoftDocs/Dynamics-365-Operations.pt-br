@@ -104,3 +104,6 @@ A capacidade de cancelar um diário em um fluxo de trabalho com o status "irrecu
 
 ## <a name="delete-journal-lines"></a>Excluir linhas do diário
 A capacidade de excluir todas as linhas do diário rapidamente é habilitada em um diário, em **Funções** > **Excluir linhas do diário**. Para habilitar esse recurso, em **Gerenciamento de recursos**, selecione **Excluir otimizações de desempenho do diário**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

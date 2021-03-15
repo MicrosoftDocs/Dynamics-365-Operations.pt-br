@@ -85,3 +85,6 @@ Este tópico explica como configurar uma diretiva simples de local. O exemplo mo
 4. No campo **Critérios**, digite um valor.
 5. Selecione **OK**. Você pode continuar adicionando linhas diretivas e ações diretivas até que você tenha considerado todos os possíveis cenários para o depósito.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

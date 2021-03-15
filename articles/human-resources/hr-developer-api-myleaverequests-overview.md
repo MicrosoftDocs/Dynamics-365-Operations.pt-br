@@ -64,3 +64,5 @@ A entidade MyLeaveRequests no Microsoft Dynamics 365 Human Resources fornece a l
 
 - [Enviar uma solicitação de licença para o fluxo de trabalho](hr-developer-api-myleaverequests-submit.md)
 - [Autenticação](hr-developer-api-authentication.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

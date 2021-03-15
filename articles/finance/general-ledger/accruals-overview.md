@@ -45,3 +45,6 @@ Quando você insere um diário, é possível clicar em **Competências do razão
 
 
 Para obter mais informações, consulte [Criar esquemas de competência](tasks/create-accrual-schemes.md) e [Criar transações de competências do razão](tasks/create-ledger-accrual-transactions.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

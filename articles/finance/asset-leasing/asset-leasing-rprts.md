@@ -164,3 +164,6 @@ O relatório de taxa de desconto ponderada-médio atende ao requisito de divulga
 |     Moeda                          |     A abreviação para a moeda da transação usada. Todos os relatórios converterão a moeda transacional na moeda do relatório.  |
 |     Pagamentos de arrendamento restantes          |     O valor total de pagamentos de arrendamento não pagos da agenda de pagamento restantes **A partir da** data.            |
 |     Pagamentos ponderados restantes       |     Os pagamentos do arrendamento restantes multiplicados pela taxa de desconto usada.   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

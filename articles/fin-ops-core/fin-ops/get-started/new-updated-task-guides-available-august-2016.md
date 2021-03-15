@@ -99,3 +99,6 @@ A Biblioteca Unificada APQC (agosto de 2016 - todos os idiomas) contém as Guias
 [Guias de tarefas novos ou atualizados (maio de 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guias de tarefas novos ou atualizados (novembro de 2016)](new-task-guides-november-2016.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -101,3 +101,6 @@ Na guia **Chaves de alocação**, você pode definir **Prever parâmetros de alg
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

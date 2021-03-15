@@ -39,3 +39,6 @@ Este procedimento orienta na configuração de produtos vinculados. Este procedi
 10. No campo Quantidade, insira um número.
 11. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

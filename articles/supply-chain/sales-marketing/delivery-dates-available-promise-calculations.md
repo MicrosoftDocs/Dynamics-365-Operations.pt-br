@@ -80,3 +80,6 @@ Portanto, a data de remessa é definida para 10 dias, a contar de hoje, com base
 
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

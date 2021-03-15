@@ -40,3 +40,6 @@ Este procedimento orienta como criar um novo dispositivo e associá-lo a um regi
 9. Na lista, clique no link na linha selecionada.
 10. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

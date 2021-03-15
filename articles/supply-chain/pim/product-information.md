@@ -95,3 +95,6 @@ A área de trabalho consiste em um resumo dos blocos e duas listas. A lista **Ca
 ### <a name="manually-creating-a-new-released-product"></a>Criando manualmente um novo produto lançado
 
 Você pode criar manualmente um produto lançado em uma única execução, dependendo dos processos comerciais da organização e de quaisquer regras sobre se essa função deve ser usada. Esta função cria um novo produto e o libera automaticamente para a entidade legal atual. Para criar um novo produto, clique em **Produtos liberados** na área de trabalho **Manutenção do produto liberado** ou na página **Produtos lançados**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

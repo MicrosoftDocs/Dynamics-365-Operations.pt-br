@@ -73,3 +73,6 @@ Os campos **Alias**, **UPN** e **Subidentificador externo** na guia **Commerce**
 [Criar um perfil de funcionalidade de varejo](retail-functionality-profile.md)
 
 [Configurar um trabalhador](https://docs.microsoft.com/dynamics365/commerce/tasks/worker)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

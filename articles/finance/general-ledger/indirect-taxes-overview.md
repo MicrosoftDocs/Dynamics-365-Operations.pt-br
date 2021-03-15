@@ -96,3 +96,6 @@ Entretanto, usando o imposto condicional, você liquida a dívida com a autorida
 Se você usar o cheque pré-datado como forma de pagamento, quando o pagamento for criado, a conta bancária não será apagada. Em alguns países, o IVA se torna um passivo "realizado" quando o pagamento apaga o banco, o que significa que o cheque pré-datado é liquidado. Você pode habilitá-lo selecionando **Realizar o imposto condicional quando cheques pré-datados são sacados** em **Gerenciamento de caixa e bancos > Configurar > Parâmetros de gerenciamento de caixa e bancos > Cheques pré-datados**.
 
 Para saber mais, consulte [Configurar imposto retido na fonte](tasks/set-up-withholding-tax.md).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

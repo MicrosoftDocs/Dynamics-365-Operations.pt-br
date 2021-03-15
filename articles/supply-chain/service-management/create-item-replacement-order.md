@@ -67,3 +67,6 @@ Em geral, as ordens de substituição de item são criadas após um produto ser 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

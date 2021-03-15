@@ -128,3 +128,6 @@ A tabela a seguir mostra as dimensões-chave que são usadas como filtros para c
 | Entidades                  | Id e nome                                                   |
 | Recursos                 | ID do recurso, nome do recurso, tipo de recurso e grupo de recursos |
 | Produtos                  | Número do produto, nome do produto, identificação do item e grupo de itens         |
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

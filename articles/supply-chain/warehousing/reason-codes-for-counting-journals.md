@@ -143,3 +143,6 @@ Os campos a seguir serão adicionados ao item de menu do dispositivo móvel quan
 - Código de motivo de contagem padrão
 - Exibir código de motivo de contagem
 - Editar código de motivo de contagem
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -63,3 +63,6 @@ Este tópico aborda a configuração de um programa de continuidade (também con
     * Quando esse item é vendido em um call center, a lógica comercial adicional é aplicada a partir do programa de continuidade selecionado.  
 7. Clique em Salvar.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

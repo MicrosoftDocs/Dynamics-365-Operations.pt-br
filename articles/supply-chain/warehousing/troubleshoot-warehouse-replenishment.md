@@ -39,3 +39,6 @@ O trabalho de separação está bloqueado por causa do trabalho de reabastecimen
 ### <a name="issue-resolution"></a>Resolução do problema
 
 Quando você usa o reabastecimento por demanda de ciclo, se um local de separação deve ser reabastecido para atender à demanda da ordem de origem, o sistema cria o trabalho de reabastecimento e o trabalho de separação. Contudo, ele bloqueia o trabalho de separação até que o trabalho de reabastecimento seja concluído. Esse comportamento é intencional, porque o local de separação não terá estoque suficiente a menos que o trabalho de reabastecimento seja concluído. Conclua o trabalho de reabastecimento e processe o trabalho de separação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

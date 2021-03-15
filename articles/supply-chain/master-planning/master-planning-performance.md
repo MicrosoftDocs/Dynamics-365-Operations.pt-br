@@ -161,3 +161,6 @@ Antes de iniciar a etapa de cobertura, há uma etapa de pré-implementação dur
 - **Uma rotina pesada de cada vez** – Não execute o planejamento mestre junto com outra rotina pesada.
 - **Revise o log da sessão.**
 - **Filtragem de itens** – Use o estado do ciclo de vida para excluir itens da execução do planejamento mestre. (Não use os números do item).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

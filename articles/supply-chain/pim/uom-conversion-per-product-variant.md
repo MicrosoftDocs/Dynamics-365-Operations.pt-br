@@ -106,3 +106,6 @@ Para exportar conversões de unidade para o Excel, na página **Conversões de u
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Gerenciar unidade de medida](tasks/manage-unit-measure.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

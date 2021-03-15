@@ -101,3 +101,6 @@ Para transações de venda com códigos de tributação com um valor fiscal **1.
 -   [Impostos retidos na fonte no Brasil ](tasks/br-00009-brazilian-withholding-taxes.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -345,3 +345,6 @@ Se a base de atribuição de membros de dimensão predefinida de eletricidade fo
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Bases de alocação](allocation-bases.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

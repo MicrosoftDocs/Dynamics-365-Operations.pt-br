@@ -58,3 +58,6 @@ Use este procedimento para configurar o espaço de trabalho de controle de custo
 27. No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.
     * Depois de ter selecionado uma hierarquia de dimensão do objeto de Custo, expanda a hierarquia de dimensão do elemento de custo para ver os valores de custos desejados. Por exemplo, você pode expandir a hierarquia para Custos indiretos de fabricação para ver o valor.  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
