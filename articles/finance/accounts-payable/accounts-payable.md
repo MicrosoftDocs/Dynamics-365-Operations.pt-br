@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a0195c6776b5065d98b6b1d4d9795248c6bf4c74
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 882afecdb33e5ad59a793f2f2391cb1ad27f911e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5114688"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250689"
 ---
 # <a name="accounts-payable-home-page"></a>Home page de Contas a pagar
 
@@ -34,7 +34,7 @@ Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicame
 
 **Processos de negócios**
 
-[![Diagrama do processo de negócios](./media/AP-process.PNG)](./media/AP-process.PNG)
+[![Diagrama dos processos de negócios](./media/AP-process.PNG)](./media/AP-process.PNG)
 
 ## <a name="set-up-accounts-payable"></a>Configurar Contas a pagar
 

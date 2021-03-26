@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a5a82adbad16d8fea2ccf60ae0dbfbd2fd9f3c1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d4b7e383ca2089ee98e70d23ccd890d0e6a86c5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5114717"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221789"
 ---
 # <a name="edit-financial-dimensions-for-retail-transactions"></a>Editar dimensões financeiras para transações de varejo
 
@@ -48,7 +48,7 @@ Para editar dimensões financeiras para transações de varejo na matriz do Comm
 
 [Editar e auditar transações cash and carry e de gerenciamento de caixa](edit-cash-trans.md)
 
-[Editar e auditar transações da ordem online e assíncronas da ordem do cliente](edit-order-trans.md)
+[Editar e auditar transações da ordem do cliente assíncronas e ordem online](edit-order-trans.md)
 
 [Criar uma pasta de trabalho do Excel para editar transações de varejo](create-excel-edit.md)
 

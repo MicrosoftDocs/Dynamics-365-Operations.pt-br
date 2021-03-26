@@ -72,17 +72,21 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.17 (março de 2021)
+                    - name: Finance 10.0.18 (maio de 2021)
+                      href: get-started/whats-new-changed-10-0-18.md
+                    - name: Finance 10.0.17 (abril de 2021)
                       href: get-started/whats-new-changed-10-0-17.md
                     - name: Finance 10.0.16 (fevereiro de 2021)
                       href: get-started/whats-new-changed-10-0-16.md
                     - name: Finance 10.0.15 (janeiro de 2021)
                       href: get-started/whats-new-changed-10-0-15.md
-            - name: Recursos removidos ou obsoletos
+            - name: Recursos removidos ou preteridos
               items:
-                - name: Recursos removidos ou obsoletos do Dynamics 365 Finance
+                - name: Home page de recursos removidos ou preteridos
+                  href: ../fin-ops-core/fin-ops/get-started/removed-deprecated-features-home-page.md?toc=/dynamics365/finance/toc.json
+                - name: Recursos removidos ou preteridos do Dynamics 365 Finance
                   href: get-started/removed-deprecated-features-finance.md
-                - name: Recursos removidos ou obsoletos em versões anteriores
+                - name: Recursos removidos ou preteridos em versões anteriores
                   href: ../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/finance/toc.json
             - name: Recursos do AX 2012 que foram postergados
               href: ../fin-ops-core/fin-ops/get-started/ax-2012-features-not-implemented-but-not-deprecated.md?toc=/dynamics365/finance/toc.json
@@ -474,6 +478,8 @@
               href: accounts-receivable/tasks/create-collection-letter-sequence.md
             - name: Processar cartas de cobrança
               href: accounts-receivable/tasks/process-collection-letters.md
+            - name: Exemplo de processamento de cartas de cobrança
+              href: accounts-receivable/process-collection-letters-example.md
             - name: Configurar e gerar informações de classificação por vencimento de contas a receber
               href: accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
             - name: Relatório de classificação por vencimento de clientes
@@ -484,8 +490,10 @@
               href: localizations/emea-ita-exil-structured-notes.md
             - name: Referências a faturas originais em notas de crédito
               href: accounts-receivable/original-invoice-numbers-credit-notes.md
-            - name: Numeração de documentos e vouchers cronologicamente
+            - name: Numeração de documentos e comprovantes cronologicamente
               href: accounts-receivable/chrono-numbers.md
+            - name: Arquivar faturas de clientes impressas com números de hash
+              href: accounts-receivable/archive-printed-invoices.md
         - name: Orçamento
           items:
             - name: Home page de Orçamento
@@ -668,7 +676,7 @@
               href: cost-accounting/tasks/configure-cost-control-workspace-parameters.md
             - name: Entender a segurança de lista de acesso e a RLS no Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/dynamics365/finance/toc.json
-            - name: Usar pacote de conteúdo para relatório do Microsoft Power BI
+            - name: Usar pacote de conteúdo para relatórios do Microsoft Power BI
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/finance/toc.json
             - name: Usar o espaço de trabalho de controle de custo para o aplicativo móvel
               href: cost-accounting/cost-controlling-mobile-workspace.md
@@ -1318,6 +1326,8 @@
                   href: public-sector/tasks/create-vendor-certification-type-public-sector.md
                 - name: Importar e criar vários fornecedores ocasionais e faturas no setor público
                   href: public-sector/tasks/import-multiple-one-time-vendors.md
+                - name: Restringir a edição de distribuições contábeis nas faturas
+                  href: public-sector/restrict-edit-accounting-distributions.md
                 - name: Plano de fornecedores ocasionais no setor público
                   href: public-sector/plan-one-time-vendors-public-sector.md
                 - name: Controlar acesso a contratos de compra no setor público
@@ -1428,8 +1438,8 @@
                       href: localizations/e-invoicing-get-started.md
                     - name: Introdução ao complemento do faturamento eletrônico para o Brasil
                       href: localizations/e-invoicing-bra-get-started.md
-                    - name: Faturas eletrônicas do cliente no Egito
-                      href: localizations/emea-egy-e-invoices.md
+                    - name: Introdução ao complemento do faturamento eletrônico para o Egito
+                      href: localizations/e-invoicing-eg-get-started.md
                     - name: Introdução ao complemento do faturamento eletrônico para a Itália
                       href: localizations/e-invoicing-ita-get-started.md
                     - name: Introdução ao complemento do faturamento eletrônico para o México
@@ -1580,7 +1590,9 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Configurar parâmetros de NF-e para um estabelecimento fiscal
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
-                    - name: NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
+                    - name: NT2020.006 — plataforma digital de vendas intermediárias para NF-e
+                      href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
+                    - name: NT2019.001 — Regras de benefícios e isenções fiscais para NF-e/NFC-e
                       href: localizations/bra-use-tax-exemption-nf-e.md
                 - name: SPED ECD
                   href: localizations/latam-bra-sped-ecd.md
@@ -1784,6 +1796,8 @@
                   href: localizations/emea-egy-reg-numbers.md
                 - name: Configurar layout de fatura para o Egito
                   href: localizations/emea-egy-invoice-layout.md
+                - name: Faturas eletrônicas do cliente no Egito
+                  href: localizations/emea-egy-e-invoices.md
             - name: Estônia
               items:
                 - name: Visão geral da Estônia
@@ -2008,12 +2022,14 @@
                   items:
                     - name: Visão geral do arquivo de auditoria alemão
                       href: localizations/emea-deu-gdpdu-audit-data-export.md
-                    - name: Personalizar configuração do arquivo de auditoria
-                      href: localizations/tasks/customize-german-audit-file-configuration.md
-                    - name: Gerar arquivo de auditoria
-                      href: localizations/tasks/german-audit-file.md
                     - name: Importar configuração de arquivo de auditoria
                       href: localizations/tasks/import-german-audit-file-configuration.md
+                    - name: Gerar arquivo de auditoria
+                      href: localizations/tasks/german-audit-file.md
+                    - name: Personalizar configuração do arquivo de auditoria
+                      href: localizations/tasks/customize-german-audit-file-configuration.md
+                    - name: Adicionar filtros a uma configuração de arquivo de auditoria
+                      href: localizations/emea-deu-gdpdu-data-filtering.md
                 - name: Ajustes de depreciação para aquisições adicionais no segundo ano
                   href: localizations/tasks/de-00002-depreciation.md
                 - name: Transmissão eletrônica da declaração de IVA (ELSTER)
@@ -2306,13 +2322,13 @@
                   href: localizations/emea-ita-quarterly-vat-communication.md
                 - name: Relatório de lista de bloqueios
                   href: localizations/emea-ita-black-list-report.md
-                - name: Data da competência
+                - name: Data da competência e diário fiscal
                   href: localizations/emea-ita-competence-date.md
                 - name: Depreciação de ativos fixos
                   href: localizations/emea-ita-depreciation-of-fixed-assets.md
                 - name: Modello 770
                   href: localizations/emea-ita-modello770.md
-                - name: ​Verificação da data da guia de remessa em faturas​
+                - name: Verificação da data da guia de remessa em faturas
                   href: localizations/emea-ita-packing-slip-date-verification-on-invoice.md
                 - name: Lançar e imprimir uma guia de remessa com detalhes de entrega e transporte
                   href: localizations/emea-ita-packing-slip.md
@@ -3253,7 +3269,7 @@
                   href: ../fin-ops-core/dev-itpro/analytics/expense-management-content-pack.md?toc=/dynamics365/finance/toc.json
                 - name: Desempenho financeiro
                   href: ../fin-ops-core/dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/dynamics365/finance/toc.json
-                - name: Insights financeiros
+                - name: Análise financeira
                   href: ../fin-ops-core/dev-itpro/analytics/financial-insights.md?toc=/dynamics365/finance/toc.json
                 - name: Gerenciamento de ativos fixos
                   href: fixed-assets/Fixed-asset-management-workspace.md
@@ -3475,7 +3491,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-orderby.md?toc=/dynamics365/finance/toc.json
                         - name: Reverse
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-reverse.md?toc=/dynamics365/finance/toc.json
-                        - name: Dividir
+                        - name: Split
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-split.md?toc=/dynamics365/finance/toc.json
                         - name: SplitList
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-splitlist.md?toc=/dynamics365/finance/toc.json
@@ -3485,7 +3501,7 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-stringjoin.md?toc=/dynamics365/finance/toc.json
                         - name: Where
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-list-where.md?toc=/dynamics365/finance/toc.json
-                    - name: Lógico
+                    - name: Logical
                       items:
                         - name: Funções lógicas
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-category-logical.md?toc=/dynamics365/finance/toc.json
@@ -3493,12 +3509,18 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-and.md?toc=/dynamics365/finance/toc.json
                         - name: Case
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-case.md?toc=/dynamics365/finance/toc.json
+                        - name: Contains
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-contains.md?toc=/dynamics365/finance/toc.json
+                        - name: EndsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-endswith.md?toc=/dynamics365/finance/toc.json
                         - name: If
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-if.md?toc=/dynamics365/finance/toc.json
                         - name: Not
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-not.md?toc=/dynamics365/finance/toc.json
                         - name: Or
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-or.md?toc=/dynamics365/finance/toc.json
+                        - name: StartsWith
+                          href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-startswith.md?toc=/dynamics365/finance/toc.json
                         - name: ValueIn
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-logical-valuein.md?toc=/dynamics365/finance/toc.json
                         - name: ValueInLarge
@@ -3675,6 +3697,8 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word.md?toc=/dynamics365/finance/toc.json
                     - name: Reutilizar configurações ER com modelos do Excel para gerar relatórios no formato Word
                       href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/dynamics365/finance/toc.json
+                    - name: Suprimir controles de conteúdo do Word nos relatórios gerados
+                      href: ../fin-ops-core/dev-itpro/analytics/er-design-configuration-word-suppress-controls.md?toc=/dynamics365/finance/toc.json
                 - name: Criar configurações para preencher modelos PDF
                   href: ../fin-ops-core/dev-itpro/analytics/er-fillable-pdf.md?toc=/dynamics365/finance/toc.json
                 - name: Inserir imagens e formas
@@ -3759,6 +3783,8 @@
                           href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
                         - name: Compartilhar configurações no GR
                           href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Descontinuar configurações no repositório global do RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Guias de início rápido
               items:
                 - name: Ajustar um formato ER para gerar um documento eletrônico personalizado

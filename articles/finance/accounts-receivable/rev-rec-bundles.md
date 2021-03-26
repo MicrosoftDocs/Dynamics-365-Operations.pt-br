@@ -15,21 +15,21 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: cf4d03c1a697259899c419ce084b35f4eddf13fe
-ms.sourcegitcommit: bd53794cb94f8c1ce29a7d6102119a0975f155e3
+ms.openlocfilehash: 857078e0b97bd136f5236c999a939d3fd263c39f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142290"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5238367"
 ---
 # <a name="revenue-recognition-bundles"></a>Pacotes de reconhecimento de receita
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a funcionalidade de pacote incluída no recurso de reconhecimento de receita em contas a receber. Um pacote inclui um item pai e vários itens de componente. O item pai é inserido em uma ordem de venda para que a entrada de ordem seja mais eficiente. No entanto, ele depois é detalhado em itens de componente. Os documentos internos, como a guia de remessa, listarão os itens de componente. No entanto, os documentos externos mostrarão apenas o item pai.
+Este tópico descreve a funcionalidade de pacote incluída no recurso de reconhecimento de receita em contas a receber. Um pacote inclui um item pai e vários itens de componente. O item pai é inserido em uma ordem de venda para que a entrada de ordem seja mais eficiente. No entanto, ele depois é detalhado em itens de componente. Os documentos internos, como a guia de remessa, listarão os itens de componente. No entanto, os documentos externos mostrarão somente o item pai.
 
 > [!NOTE]
-> Os canais do Microsoft Dynamics 365 Commerce, como online, PDV (ponto de venda) e call centers, não são compatíveis com reconhecimento de receita (incluindo o recurso de pacote). Isso também inclui a solução Prospect to cash para Dynamics 365 Supply Chain Management e Dynamics 365 Sales. Os itens configurados para usar o reconhecimento de receita não devem ser adicionados a ordens ou transações criadas em canais do Commerce ou na solução Prospect to cash.
+> Os canais do Microsoft Dynamics 365 Commerce, como online, PDV (ponto de venda) e call centers, não oferecem suporte ao reconhecimento de receita (incluindo o funcionalidade de pacote). Isso também inclui a solução Prospect to cash para Dynamics 365 Supply Chain Management e Dynamics 365 Sales. Os itens configurados para usar o reconhecimento de receita não devem ser adicionados a ordens ou transações criadas em canais do Commerce ou na solução Prospect to cash.
 
 Para configurar pacotes, insira as chaves de configuração para o reconhecimento de receita. No entanto, você poderá usar os pacotes mesmo se o reconhecimento de receita não estiver configurado. Da mesma maneira, você poderá usar o reconhecimento de receita se os pacotes não estiverem configurados. Se o reconhecimento de receita estiver configurado, os itens de componente determinarão o preço e a agenda de receita usados para o reconhecimento ou o deferimento da receita quando uma ordem de venda for faturada.
 

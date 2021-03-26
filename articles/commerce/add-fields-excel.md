@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 443e5e9931498799f9a96fc55c6e5d5c9f6750c6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fb0435a617585689a87caa76f80e9774182576cc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5114696"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206310"
 ---
 # <a name="add-fields-to-an-excel-workbook-to-edit-retail-transactions"></a>Adicionar campos a uma pasta de trabalho do Excel para editar transações de varejo
 
@@ -50,7 +50,7 @@ O novo campo e seus dados devem agora estar disponíveis para edição no Excel.
 
 [Editar e auditar transações cash and carry e de gerenciamento de caixa](edit-cash-trans.md)
 
-[Editar e auditar transações da ordem online e assíncronas da ordem do cliente](edit-order-trans.md)
+[Editar e auditar transações da ordem do cliente assíncronas e ordem online](edit-order-trans.md)
 
 [Editar dimensões financeiras para transações de varejo](edit-financial-dim.md)
 

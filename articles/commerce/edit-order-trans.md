@@ -1,6 +1,6 @@
 ---
-title: Editar e auditar transações da ordem online e assíncronas da ordem do cliente
-description: Este tópico descreve como editar e auditar transações da ordem online e assíncronas da ordem do cliente no Microsoft Dynamics 365 Commerce.
+title: Editar e auditar transações da ordem do cliente assíncronas e ordem online
+description: Este tópico descreve como editar e auditar transações da ordem do cliente assíncronas e ordem online no Microsoft Dynamics 365 Commerce.
 author: josaw1
 manager: AnnBe
 ms.date: 11/04/2020
@@ -17,22 +17,22 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 8fa6f7a71bae759e2b8feb3c5778200bb7bdbfe9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0fee5ef7ad61e9581e7b2797bb1bd26b1a48ddbd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5114716"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5221765"
 ---
-# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar e auditar transações da ordem online e assíncronas da ordem do cliente
+# <a name="edit-and-audit-online-order-and-asynchronous-customer-order-transactions"></a>Editar e auditar transações da ordem do cliente assíncronas e ordem online
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como editar e auditar transações da ordem online e assíncronas da ordem do cliente no Microsoft Dynamics 365 Commerce.
+Este tópico descreve como editar e auditar transações da ordem do cliente assíncronas e ordem online no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
-Entre o Commerce versões 10.0.5 e 10.0.6, o suporte foi adicionado para editar transações de cash and carry (como vendas e devoluções) e transações de gerenciamento de caixa (como entrada de flutuação e remoção de meio de pagamento). No Commerce versão 10.0.7, o suporte foi adicionado para editar transações da ordem online e transações assíncronas da ordem do cliente.
+Entre o Commerce versões 10.0.5 e 10.0.6, foi adicionado o suporte para editar transações cash and carry (como vendas e devoluções) e transações de gerenciamento de caixa (como entrada de flutuação e remoção de meio de pagamento). No Commerce versão 10.0.7, o suporte foi adicionado para editar transações da ordem online e transações assíncronas da ordem do cliente.
 
 ## <a name="edit-and-audit-order-transactions"></a>Editar e auditar transações da ordem
 
