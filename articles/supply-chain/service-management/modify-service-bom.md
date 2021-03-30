@@ -17,57 +17,60 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c69f575dae369350e3191c31f961a861dea0fb07
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d0c3656f765ea3c53c38679a1709a02fba36a848
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4996542"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204221"
 ---
-# <a name="modify-a-service-bom"></a><span data-ttu-id="0a353-103">Modificar uma BOM de Serviço</span><span class="sxs-lookup"><span data-stu-id="0a353-103">Modify a Service BOM</span></span> 
+# <a name="modify-a-service-bom"></a><span data-ttu-id="58ff2-103">Modificar uma BOM de Serviço</span><span class="sxs-lookup"><span data-stu-id="58ff2-103">Modify a Service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="0a353-104">Você pode registrar o histórico de um elemento em uma BOM de serviço.</span><span class="sxs-lookup"><span data-stu-id="0a353-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="0a353-105">Sempre que você atualiza uma linha da BOM, uma linha de histórico é criada no painel **História**.</span><span class="sxs-lookup"><span data-stu-id="0a353-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="0a353-106">A linha de histórico mostra o estado atual da linha da BOM.</span><span class="sxs-lookup"><span data-stu-id="0a353-106">The history line shows the current state of the BOM line.</span></span>
+<span data-ttu-id="58ff2-104">Você pode registrar o histórico de um elemento em uma BOM de serviço.</span><span class="sxs-lookup"><span data-stu-id="58ff2-104">You can record the history of an element in a service BOM.</span></span> <span data-ttu-id="58ff2-105">Sempre que você atualiza uma linha da BOM, uma linha de histórico é criada no painel **História**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-105">Every time that you update a BOM line, a history line is created in the **History** pane.</span></span> <span data-ttu-id="58ff2-106">A linha de histórico mostra o estado atual da linha da BOM.</span><span class="sxs-lookup"><span data-stu-id="58ff2-106">The history line shows the current state of the BOM line.</span></span>
 
-## <a name="update-a-service-bom-element"></a><span data-ttu-id="0a353-107">Atualizar um elemento da BOM de serviço</span><span class="sxs-lookup"><span data-stu-id="0a353-107">Update a service BOM element</span></span>
+## <a name="update-a-service-bom-element"></a><span data-ttu-id="58ff2-107">Atualizar um elemento da BOM de serviço</span><span class="sxs-lookup"><span data-stu-id="58ff2-107">Update a service BOM element</span></span>
 
-1.  <span data-ttu-id="0a353-108">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="58ff2-108">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-108">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="0a353-109">Clique em **Editar** para abrir o formulário de detalhes de **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-109">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="58ff2-109">Clique em **Editar** para abrir o formulário de detalhes de **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-109">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="0a353-110">No **Painel de Ação**, clique em **Objetos de serviço** para abrir o formulário de **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="58ff2-110">No **Painel de Ação**, clique em **Objetos de serviço** para abrir o formulário de **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-110">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="0a353-111">Selecione o objeto para o qual atualizar uma linha da BOM e clique em **Designer**.</span><span class="sxs-lookup"><span data-stu-id="0a353-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="58ff2-111">Selecione o objeto para o qual atualizar uma linha da BOM e clique em **Designer**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-111">Select the object to update a BOM line for, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="0a353-112">No formulário **Designer**, selecione a linha da BOM a ser atualizada e clique em **Editar linha da BOM**.</span><span class="sxs-lookup"><span data-stu-id="0a353-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
+5.  <span data-ttu-id="58ff2-112">No formulário **Designer**, selecione a linha da BOM a ser atualizada e clique em **Editar linha da BOM**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-112">In the **Designer** form, select the BOM line to update, and then click **Edit BOM line**.</span></span>
     
     > [!NOTE]
-    > <P><span data-ttu-id="0a353-113">Na guia <STRONG>Configuração</STRONG>, marque a caixa de seleção <STRONG>Editar ao adicionar</STRONG> se desejar que o formulário <STRONG>Editar linha da BOM</STRONG> seja aberto quando você arrastar uma linha para a BOM de serviço.</span><span class="sxs-lookup"><span data-stu-id="0a353-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
+    > <P><span data-ttu-id="58ff2-113">Na guia <STRONG>Configuração</STRONG>, marque a caixa de seleção <STRONG>Editar ao adicionar</STRONG> se desejar que o formulário <STRONG>Editar linha da BOM</STRONG> seja aberto quando você arrastar uma linha para a BOM de serviço.</span><span class="sxs-lookup"><span data-stu-id="58ff2-113">On the <STRONG>Setup</STRONG> tab, select the <STRONG>Edit when adding</STRONG> check box if you want the <STRONG>Edit BOM line</STRONG> form to open when you drag a line into the service BOM.</span></span></P>
 
-6.  <span data-ttu-id="0a353-114">No campo **Quantidade**, insira a quantidade.</span><span class="sxs-lookup"><span data-stu-id="0a353-114">In the **Quantity** field, enter the quantity.</span></span>
+6.  <span data-ttu-id="58ff2-114">No campo **Quantidade**, insira a quantidade.</span><span class="sxs-lookup"><span data-stu-id="58ff2-114">In the **Quantity** field, enter the quantity.</span></span>
 
-7.  <span data-ttu-id="0a353-115">Se desejar criar uma linha de ordem de serviço para o item de substituição, que poderá então ser faturado, marque a caixa de seleção **Criar linha de ordem de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
+7.  <span data-ttu-id="58ff2-115">Se desejar criar uma linha de ordem de serviço para o item de substituição, que poderá então ser faturado, marque a caixa de seleção **Criar linha de ordem de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-115">If you want to create a service order line for the replacement item, which can then be invoiced, select the **Create service order line** check box.</span></span>
 
-8.  <span data-ttu-id="0a353-116">Clique em **OK** para fechar o formulário.</span><span class="sxs-lookup"><span data-stu-id="0a353-116">Click **OK** to close the form.</span></span>
+8.  <span data-ttu-id="58ff2-116">Clique em **OK** para fechar o formulário.</span><span class="sxs-lookup"><span data-stu-id="58ff2-116">Click **OK** to close the form.</span></span>
 
-## <a name="delete-a-service-bom-line"></a><span data-ttu-id="0a353-117">Excluir uma linha da BOM de serviço</span><span class="sxs-lookup"><span data-stu-id="0a353-117">Delete a service BOM line</span></span>
+## <a name="delete-a-service-bom-line"></a><span data-ttu-id="58ff2-117">Excluir uma linha da BOM de serviço</span><span class="sxs-lookup"><span data-stu-id="58ff2-117">Delete a service BOM line</span></span>
 
-1.  <span data-ttu-id="0a353-118">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
+1.  <span data-ttu-id="58ff2-118">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-118">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span>
 
-2.  <span data-ttu-id="0a353-119">Clique em **Editar** para abrir o formulário de detalhes de **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-119">Click **Edit** to open the **Service agreements** details form.</span></span>
+2.  <span data-ttu-id="58ff2-119">Clique em **Editar** para abrir o formulário de detalhes de **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-119">Click **Edit** to open the **Service agreements** details form.</span></span>
 
-3.  <span data-ttu-id="0a353-120">No **Painel de Ação**, clique em **Objetos de serviço** para abrir o formulário de **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="0a353-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
+3.  <span data-ttu-id="58ff2-120">No **Painel de Ação**, clique em **Objetos de serviço** para abrir o formulário de **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-120">On the **Action Pane**, click **Service objects** to open the **Service objects** form.</span></span>
 
-4.  <span data-ttu-id="0a353-121">Selecione o objeto do qual excluir uma linha da BOM de serviço e clique em **Designer**.</span><span class="sxs-lookup"><span data-stu-id="0a353-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
+4.  <span data-ttu-id="58ff2-121">Selecione o objeto do qual excluir uma linha da BOM de serviço e clique em **Designer**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-121">Select the object to delete a service BOM line from, and then click **Designer**.</span></span>
 
-5.  <span data-ttu-id="0a353-122">No formulário **Designer**, selecione a linha da BOM a ser excluída e clique em **Excluir linha da BOM**.</span><span class="sxs-lookup"><span data-stu-id="0a353-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
+5.  <span data-ttu-id="58ff2-122">No formulário **Designer**, selecione a linha da BOM a ser excluída e clique em **Excluir linha da BOM**.</span><span class="sxs-lookup"><span data-stu-id="58ff2-122">In the **Designer** form, select the BOM line to delete, and then click **Delete BOM line**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="0a353-123">Consulte também</span><span class="sxs-lookup"><span data-stu-id="0a353-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="58ff2-123">Consulte também</span><span class="sxs-lookup"><span data-stu-id="58ff2-123">See also</span></span>
 
-[<span data-ttu-id="0a353-124">BOMs de modelo</span><span class="sxs-lookup"><span data-stu-id="0a353-124">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="58ff2-124">BOMs de modelo</span><span class="sxs-lookup"><span data-stu-id="58ff2-124">Template BOMs</span></span>](template-boms.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
