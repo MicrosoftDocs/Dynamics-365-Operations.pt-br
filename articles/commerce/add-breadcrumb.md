@@ -1,6 +1,6 @@
 ---
 title: Módulo de trilha de navegação
-description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 10/20/2020
@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1883281c62575ae0b48b6e584876185bb179b4f4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 06f8ffdecd1f77468ed88043929f29b6957c2e6f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986070"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206550"
 ---
 # <a name="breadcrumb-module"></a>Módulo de trilha de navegação
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico abrange os módulos de trilha de navegação e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
 Os módulos de trilha de navegação são usados para fornecer navegação secundária em páginas do site. Em geral, são mostradas na parte superior de uma página, abaixo do cabeçalho. Embora os módulos de trilha de navegação possam ser adicionados a qualquer página, eles costumam ser usados em páginas de detalhes do produto (PDPs), para mostrar a hierarquia de categoria de produtos e fornecer uma maneira rápida de se movimentar em um site. Um módulo de trilha de navegação também pode ser usado para mostrar um link "Voltar para resultados" quando os usuários abrem um PDP de uma página de pesquisa ou de listagem. Dessa forma, os usuários podem retornar rapidamente à página de listagem filtrada para continuar comprando.
 

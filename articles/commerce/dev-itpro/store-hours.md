@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 4706432234437d2dc7943fb194cd01004ab7e6b7
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 00c532dfa9ceed2cda6652496d874cb82785dc7b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687502"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230631"
 ---
 # <a name="create-and-update-store-hours"></a>Criar e atualizar os horários das lojas
 
@@ -35,7 +35,7 @@ Vários horários de funcionamento podem ser configurados em diferentes canais. 
 
 Se um cliente tiver um ordem de retirada de uma loja diferente, o caixa poderá selecionar datas em que o recolhimento estará disponível naquela loja. A pesquisa de loja oferecerá uma referência a datas e horário das lojas. O caixa pode selecionar uma data e uma localização e também pode imprimir um recibo de retirada que inclua o horário de funcionamento.
 
-Esta funcionalidade está disponível em versões 8.1.2 do Microsoft Dynamics 365 Retail e posterior.
+Esta funcionalidade ficará disponível em versões 8.1.2 do Microsoft Dynamics 365 Retail e posterior.
 
 ## <a name="configure-store-hours"></a>Configurar horários das lojas
 

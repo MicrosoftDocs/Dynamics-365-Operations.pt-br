@@ -1,6 +1,6 @@
 ---
 title: Visão geral do gerenciamento de ativos digitais
-description: Este tópico fornece uma visão geral do gerenciamento de ativos digitais no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+description: Este tópico fornece uma visão geral do gerenciamento de ativos digitais no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 03/03/2020
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cf726c920d3d854d59fce4c6d62ab8a234e5f893
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b5e134c70ad81876beacd38eb58442d3784d57d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5003769"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222489"
 ---
 # <a name="digital-asset-management-overview"></a>Visão geral do gerenciamento de ativos digitais
 
 [!include [banner](includes/banner.md)]
 
-Este tópico fornece uma visão geral do gerenciamento de ativos digitais no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+Este tópico fornece uma visão geral do gerenciamento de ativos digitais no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão Geral
 

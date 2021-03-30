@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5a9cb82053640b7abdba420e087d0707208979de
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2e94338cb55f3298d0a33d7b086480f16e83f271
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997641"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220647"
 ---
 # <a name="cloud-powered-search-overview"></a>Visão geral da pesquisa habilitada para a nuvem
 
@@ -30,7 +30,7 @@ ms.locfileid: "4997641"
 
 Este tópico fornece uma visão geral de pesquisa baseada em nuvem no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 A descoberta de produto ajuda a garantir que clientes podem encontrar produtos rápido e facilmente navegando em categorias, pesquisa e filtros. Os varejistas consideram a descoberta de produtos a principal ferramenta para a interação com os clientes em todos os canais.
 

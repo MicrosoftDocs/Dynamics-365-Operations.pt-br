@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: 125696e8f32c2452a572a2316f512779f399f5c4
-ms.sourcegitcommit: 8b4cb7b6ad4aab37566bcc91e426bd56db771416
+ms.openlocfilehash: 6dc2be8a6f62ce13068ce2242f92ef17830c2447
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "4828202"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205738"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Criar e atualizar os intervalos de tempo para retirada pelo cliente
 
@@ -32,7 +32,7 @@ Este tópico descreve como criar, configurar e atualizar os intervalos de tempo 
 O recurso de intervalos de tempo fornece aos varejistas uma forma de definir um intervalo de tempo para os itens para os quais o modo de entrega de retirada pelo cliente está ativado. Os intervalos de tempo permitem que os varejistas definam os dias e os horários em que as ordens podem ser retiradas em uma loja. Os varejistas também podem definir o número de ordens que podem ser retiradas durante um determinado período. Dessa forma, eles podem limitar o número de ordens que podem ser retiradas em um determinado dia e em um determinado horário. O resultado é uma experiência de melhor qualidade para seus clientes.
 
 > [!NOTE]
-> O recurso de intervalos de tempo está disponível no Microsoft Dynamics 365 Commerce versão 10.0.15 e posteriores.
+> O recurso de intervalos de tempo está disponível na versão 10.0.15 e posteriores do Microsoft Dynamics 365 Commerce.
 
 A ilustração a seguir mostra um exemplo de seleção de intervalo de tempo durante uma finalização de compra no comércio eletrônico.
 
