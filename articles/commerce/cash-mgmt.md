@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 86cdd70919926243bbf2cb5cc2f26690accdac80
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ce75a191726fc430347f057ac511188acfbbf76e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993669"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213153"
 ---
 # <a name="cash-management-improvements"></a>Aprimoramentos de gerenciamento de pagamento à vista
 
@@ -32,7 +32,7 @@ ms.locfileid: "4993669"
 O gerenciamento de pagamento à vista é uma função fundamental para os varejistas em lojas físicas. Os varejistas desejam que suas lojas tenham sistemas que possam ajudá-los a fornecer rastreabilidade completa e responsabilidade de pagamento à vista e seu movimento pelos diferentes registros e caixas em uma loja. Eles devem ser capazes de reconciliar quaisquer diferenças e determinar a responsabilidade.
 
 
-O Microsoft Dynamics 365 Commerce tem funcionalidades de gerenciamento de pagamento à vista em seu aplicativo de ponto de venda (PDV). Contudo, nas versões do Retail anteriores à versão 10.0.3, a funcionalidade de gerenciamento de pagamento à vista não é robusta o suficiente para fornecer rastreabilidade completa dos movimentos de pagamento à vista nas lojas. Embora os varejistas possam reconciliar o pagamento à vista de uma loja, eles não podem determinar com precisão a responsabilidade em caso de discrepância de pagamento à vista.
+O Microsoft Dynamics 365 Commerce possui recursos de gerenciamento de pagamento à vista em seu aplicativo de ponto de venda (PDV). Contudo, nas versões do Retail anteriores à versão 10.0.3, a funcionalidade de gerenciamento de pagamento à vista não é robusta o suficiente para fornecer rastreabilidade completa dos movimentos de pagamento à vista nas lojas. Embora os varejistas possam reconciliar o pagamento à vista de uma loja, eles não podem determinar com precisão a responsabilidade em caso de discrepância de pagamento à vista.
 
 
 No Retail versão 10.0.3 e posterior, os varejistas ganharão rastreabilidade para lidar com pagamento à vista. Como parte dessa rastreabilidade, os varejistas poderão definir cofres, fazer transações de pagamento à vista nos dois lados e reconciliar transações de gerenciamento de pagamento à vista.

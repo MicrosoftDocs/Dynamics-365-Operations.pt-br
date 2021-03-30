@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ec62af4ec62de0d63b590c79db6a8164d59e72c4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 05de2748b0cf7a2b09618aee5c41c8c797f2b3d3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971269"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210400"
 ---
 # <a name="budget-planning"></a>Plano de orçamento
 
@@ -105,7 +105,7 @@ O planejamento do orçamento usa políticas de segurança especiais para configu
 
 2.5. Selecione "Conceder acesso a organizações específicas". Escolha a Hierarquia organizacional criada na primeira etapa. Escolha o nó de finanças e clique no botão Conceder com filhos. 
 
-**_Importante!_* _ _Verifique se você está no contexto da entidade legal DEMF ao executar essa tarefa, poia a segurança organizacional é aplicada por entidade legal* 
+***Importante!** _ _Verifique se você está no contexto da entidade legal DEMF ao executar essa tarefa, poia a segurança organizacional é aplicada por entidade legal* 
 
 ### <a name="task-3-create-scenarios"></a>Tarefa 3: Criar cenários
 3.1. Navegue até Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na página Cenários, anote os cenários que vamos usar posteriormente neste laboratório: Números reais e valores orçados do ano anterior. 

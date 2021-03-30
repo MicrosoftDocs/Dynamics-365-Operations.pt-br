@@ -1,6 +1,6 @@
 ---
 title: Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
-description: Este tópico descreve como criar páginas de resposta personalizada para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como criar páginas de resposta personalizadas para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 04/14/2020
@@ -16,21 +16,21 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d21ce20b2c7ac8c656a718749dabd76f33893da8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ee2f74581ded6020d075377f931c465d7c89f9e5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991456"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211096"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
 
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar páginas de resposta personalizada para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
+Este tópico descreve como criar páginas de resposta personalizadas para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Se uma solicitação não tiver êxito, o servidor emite respostas de erro do código de status do HTTP. O código de status 404 é capturado e retornado se uma página não for encontrada e o código de status 500 é capturado e retornado se um erro de servidor ocorrer. No Dynamics 365 Commerce, os usuários do aplicativo podem criar as páginas de resposta de erro de código de status personalizado que são exibidas para usuários dessas respostas de erro de código de status.
 
