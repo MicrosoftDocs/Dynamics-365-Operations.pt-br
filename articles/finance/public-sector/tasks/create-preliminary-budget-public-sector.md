@@ -16,39 +16,42 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 22538d58cc3499bd030848699d6c5831dfd8888a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 40371809f3855e57db4bc12f5466f7cef5cec600
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975151"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5235547"
 ---
-# <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="6982d-103">Criar um orçamento preliminar para o setor público</span><span class="sxs-lookup"><span data-stu-id="6982d-103">Create a preliminary budget for Public sector</span></span>
+# <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="8c0f8-103">Criar um orçamento preliminar para o setor público</span><span class="sxs-lookup"><span data-stu-id="8c0f8-103">Create a preliminary budget for Public sector</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6982d-104">Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão.</span><span class="sxs-lookup"><span data-stu-id="6982d-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="6982d-105">Depois que o orçamento real for aprovado, você pode criar entradas de registro do orçamento original.</span><span class="sxs-lookup"><span data-stu-id="6982d-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="6982d-106">Este procedimento foi criado usando os dados da empresa de demonstração PSUS na partição do setor público.</span><span class="sxs-lookup"><span data-stu-id="6982d-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
+<span data-ttu-id="8c0f8-104">Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="8c0f8-105">Depois que o orçamento real for aprovado, você pode criar entradas de registro do orçamento original.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="8c0f8-106">Este procedimento foi criado usando os dados da empresa de demonstração PSUS na partição do setor público.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 
-1. <span data-ttu-id="6982d-107">Vá para Orçamento > Entradas de registro de orçamento.</span><span class="sxs-lookup"><span data-stu-id="6982d-107">Go to Budgeting > Budget register entries.</span></span>
-2. <span data-ttu-id="6982d-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="6982d-108">Click New.</span></span>
-3. <span data-ttu-id="6982d-109">No campo Modelo de orçamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="6982d-109">In the Budget model field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="6982d-110">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="6982d-110">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="6982d-111">No campo Orçamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="6982d-111">In the Budget code field, click the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="6982d-112">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="6982d-112">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="6982d-113">No campo Motivo, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="6982d-113">In the Reason code field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="6982d-114">Na lista, clique no registro desejado.</span><span class="sxs-lookup"><span data-stu-id="6982d-114">In the list, click the desired record.</span></span>
-9. <span data-ttu-id="6982d-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="6982d-115">Click Save.</span></span>
-10. <span data-ttu-id="6982d-116">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="6982d-116">Click Add line.</span></span>
-    * <span data-ttu-id="6982d-117">Opcionais: Se quiser alterar a data de em um cabeçalho, insira uma nova data.</span><span class="sxs-lookup"><span data-stu-id="6982d-117">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="6982d-118">Esta data determina o período fiscal no qual o orçamento será registrado.</span><span class="sxs-lookup"><span data-stu-id="6982d-118">This date determines the fiscal period that the budget will be recorded to.</span></span> <span data-ttu-id="6982d-119">Ao exibir a guia de tarefas, para preencher outros campos, clique Desbloquear na parte superior da página.</span><span class="sxs-lookup"><span data-stu-id="6982d-119">When viewing the task guide, to fill out other fields, click Unlock at the top of the page.</span></span>  
-11. <span data-ttu-id="6982d-120">No campo Estrutura de conta, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="6982d-120">In the Account structure field, click the drop-down button to open the lookup.</span></span>
-12. <span data-ttu-id="6982d-121">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="6982d-121">In the list, find and select the desired record.</span></span>
-13. <span data-ttu-id="6982d-122">No campo Valores de dimensão, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="6982d-122">In the Dimension values field, specify the desired values.</span></span>
-14. <span data-ttu-id="6982d-123">No campo Valor, insira um número.</span><span class="sxs-lookup"><span data-stu-id="6982d-123">In the Amount field, enter a number.</span></span>
-    * <span data-ttu-id="6982d-124">Você também pode inserir um tipo de valor.</span><span class="sxs-lookup"><span data-stu-id="6982d-124">You can also enter an amount type.</span></span>  
-15. <span data-ttu-id="6982d-125">No campo Moeda, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="6982d-125">In the Currency field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="6982d-126">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="6982d-126">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="6982d-127">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="6982d-127">Click Save.</span></span>
-18. <span data-ttu-id="6982d-128">Clique em Atualizar saldos de orçamentos.</span><span class="sxs-lookup"><span data-stu-id="6982d-128">Click Update budget balances.</span></span>
-19. <span data-ttu-id="6982d-129">Clique em Atualizar.</span><span class="sxs-lookup"><span data-stu-id="6982d-129">Click Update.</span></span>
-    * <span data-ttu-id="6982d-130">Para ver os resultados da atualização, clique em Detalhes da mensagem na barra azul.</span><span class="sxs-lookup"><span data-stu-id="6982d-130">To see the results of the update, click Message details on the blue bar.</span></span>  
+1. <span data-ttu-id="8c0f8-107">Vá para Orçamento > Entradas de registro de orçamento.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-107">Go to Budgeting > Budget register entries.</span></span>
+2. <span data-ttu-id="8c0f8-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-108">Click New.</span></span>
+3. <span data-ttu-id="8c0f8-109">No campo Modelo de orçamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-109">In the Budget model field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="8c0f8-110">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-110">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="8c0f8-111">No campo Orçamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-111">In the Budget code field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="8c0f8-112">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-112">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="8c0f8-113">No campo Motivo, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-113">In the Reason code field, click the drop-down button to open the lookup.</span></span>
+8. <span data-ttu-id="8c0f8-114">Na lista, clique no registro desejado.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-114">In the list, click the desired record.</span></span>
+9. <span data-ttu-id="8c0f8-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-115">Click Save.</span></span>
+10. <span data-ttu-id="8c0f8-116">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-116">Click Add line.</span></span>
+    * <span data-ttu-id="8c0f8-117">Opcionais: Se quiser alterar a data de em um cabeçalho, insira uma nova data.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-117">Optional: If you want to change the date from the one in the header, enter a new date.</span></span> <span data-ttu-id="8c0f8-118">Esta data determina o período fiscal no qual o orçamento será registrado.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-118">This date determines the fiscal period that the budget will be recorded to.</span></span> <span data-ttu-id="8c0f8-119">Ao exibir a guia de tarefas, para preencher outros campos, clique Desbloquear na parte superior da página.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-119">When viewing the task guide, to fill out other fields, click Unlock at the top of the page.</span></span>  
+11. <span data-ttu-id="8c0f8-120">No campo Estrutura de conta, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-120">In the Account structure field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="8c0f8-121">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-121">In the list, find and select the desired record.</span></span>
+13. <span data-ttu-id="8c0f8-122">No campo Valores de dimensão, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-122">In the Dimension values field, specify the desired values.</span></span>
+14. <span data-ttu-id="8c0f8-123">No campo Valor, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-123">In the Amount field, enter a number.</span></span>
+    * <span data-ttu-id="8c0f8-124">Você também pode inserir um tipo de valor.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-124">You can also enter an amount type.</span></span>  
+15. <span data-ttu-id="8c0f8-125">No campo Moeda, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-125">In the Currency field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="8c0f8-126">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-126">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="8c0f8-127">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-127">Click Save.</span></span>
+18. <span data-ttu-id="8c0f8-128">Clique em Atualizar saldos de orçamentos.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-128">Click Update budget balances.</span></span>
+19. <span data-ttu-id="8c0f8-129">Clique em Atualizar.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-129">Click Update.</span></span>
+    * <span data-ttu-id="8c0f8-130">Para ver os resultados da atualização, clique em Detalhes da mensagem na barra azul.</span><span class="sxs-lookup"><span data-stu-id="8c0f8-130">To see the results of the update, click Message details on the blue bar.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,43 +15,46 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b27ccc3b4c4f5470d3a5b8ed7347e269c6793b87
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cb7c92fcab622109b01590d4acadce0d707d3d2d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976032"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5227079"
 ---
-# <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="14613-103">Criar e adquirir ativos de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="14613-103">Create and acquire assets from Accounts payable</span></span>
+# <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="2d3de-103">Criar e adquirir ativos de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="2d3de-103">Create and acquire assets from Accounts payable</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="14613-104">Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo de compra.</span><span class="sxs-lookup"><span data-stu-id="14613-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span>  <span data-ttu-id="14613-105">Usa os caixeiros de contador e contas a pagar e a empresa USMF de demonstração.</span><span class="sxs-lookup"><span data-stu-id="14613-105">It uses the Accountant and Accounts payable clerks and the demo company USMF .</span></span>
+<span data-ttu-id="2d3de-104">Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo de compra.</span><span class="sxs-lookup"><span data-stu-id="2d3de-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span>  <span data-ttu-id="2d3de-105">Usa os caixeiros de contador e contas a pagar e a empresa USMF de demonstração.</span><span class="sxs-lookup"><span data-stu-id="2d3de-105">It uses the Accountant and Accounts payable clerks and the demo company USMF .</span></span>
 
 
-## <a name="set-fixed-assets-parameters"></a><span data-ttu-id="14613-106">Definir parâmetros dos ativos fixos</span><span class="sxs-lookup"><span data-stu-id="14613-106">Set Fixed assets parameters</span></span>
-1. <span data-ttu-id="14613-107">No **Painel de Navegação**, vá para **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.</span><span class="sxs-lookup"><span data-stu-id="14613-107">In the **Navigation pane**, go to **Modules > Fixed assets > Setup > Fixed assets parameters**.</span></span>
-2. <span data-ttu-id="14613-108">Expanda a Guia Rápida **Ordens de compra**.</span><span class="sxs-lookup"><span data-stu-id="14613-108">Expand the **Purchase orders** fastTab.</span></span>
-3. <span data-ttu-id="14613-109">Marque a caixa de seleção **Permitir a aquisição de ativos de Compras**.</span><span class="sxs-lookup"><span data-stu-id="14613-109">Check the **Allow asset acquisition from Purchasing** checkbox.</span></span>
-4. <span data-ttu-id="14613-110">Marque a caixa de seleção **Criar um ativo durante o recebimento de produtos ou o lançamento de fatura**.</span><span class="sxs-lookup"><span data-stu-id="14613-110">Check the **Create asset during product receipt or invoice posting** checkbox.</span></span>
+## <a name="set-fixed-assets-parameters"></a><span data-ttu-id="2d3de-106">Definir parâmetros dos ativos fixos</span><span class="sxs-lookup"><span data-stu-id="2d3de-106">Set Fixed assets parameters</span></span>
+1. <span data-ttu-id="2d3de-107">No **Painel de Navegação**, vá para **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-107">In the **Navigation pane**, go to **Modules > Fixed assets > Setup > Fixed assets parameters**.</span></span>
+2. <span data-ttu-id="2d3de-108">Expanda a Guia Rápida **Ordens de compra**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-108">Expand the **Purchase orders** fastTab.</span></span>
+3. <span data-ttu-id="2d3de-109">Marque a caixa de seleção **Permitir a aquisição de ativos de Compras**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-109">Check the **Allow asset acquisition from Purchasing** checkbox.</span></span>
+4. <span data-ttu-id="2d3de-110">Marque a caixa de seleção **Criar um ativo durante o recebimento de produtos ou o lançamento de fatura**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-110">Check the **Create asset during product receipt or invoice posting** checkbox.</span></span>
 
-## <a name="create-a-new-vendor-invoice"></a><span data-ttu-id="14613-111">Criar uma nova fatura de fornecedor</span><span class="sxs-lookup"><span data-stu-id="14613-111">Create a new vendor invoice</span></span>
-1. <span data-ttu-id="14613-112">No **Painel de Navegação**, vá para **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="14613-112">In the **Navigation pane**, go to **Modules > Accounts payable > Workspaces > Vendor invoice entry**.</span></span>
-2. <span data-ttu-id="14613-113">Clique em **Nova fatura de fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="14613-113">Click **New vendor invoice**.</span></span>
-3. <span data-ttu-id="14613-114">No campo **Conta de fatura**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="14613-114">In the **Invoice account** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="14613-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="14613-115">In the list, click the link in the selected row.</span></span>
-5. <span data-ttu-id="14613-116">No campo **Número**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="14613-116">In the **Number** field, type a value.</span></span>
-6. <span data-ttu-id="14613-117">No campo **Data de lançamento**, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="14613-117">In the **Posting date** field, enter a date.</span></span>
-7. <span data-ttu-id="14613-118">Clique em **Adicionar linha**.</span><span class="sxs-lookup"><span data-stu-id="14613-118">Click **Add line**.</span></span>
-8. <span data-ttu-id="14613-119">No campo **Número do item**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="14613-119">In the **Item number** field, click the drop-down button to open the lookup.</span></span> <span data-ttu-id="14613-120">Os itens não estocados ou as categorias de aquisição podem ser usados para aquisições de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="14613-120">Either non-stocked items or procurement categories can be used for fixed asset acquisition.</span></span>  
-9. <span data-ttu-id="14613-121">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="14613-121">In the list, click the link in the selected row.</span></span>
-10. <span data-ttu-id="14613-122">No campo **Quantidade.**, insira um número</span><span class="sxs-lookup"><span data-stu-id="14613-122">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="14613-123">Uma linha da nota fiscal criará somente um ativo fixo, independentemente da quantidade.</span><span class="sxs-lookup"><span data-stu-id="14613-123">One invoice line will only create one fixed asset, regardless of quantity.</span></span> <span data-ttu-id="14613-124">O valor do campo de quantidade da nota fiscal será transferido para a quantidade do ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="14613-124">The invoice quantity field value will be transferred to the fixed asset quantity.</span></span>  
-11. <span data-ttu-id="14613-125">No campo **Preço unitário**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="14613-125">In the **Unit price** field, enter a number.</span></span>
-12. <span data-ttu-id="14613-126">Expanda a Guia Rápida **Detalhes da linha**.</span><span class="sxs-lookup"><span data-stu-id="14613-126">Expand the **Line details** fastTab.</span></span>
-13. <span data-ttu-id="14613-127">Clique na guia **Ativos fixos**.</span><span class="sxs-lookup"><span data-stu-id="14613-127">Click the **Fixed assets** tab.</span></span>
-14. <span data-ttu-id="14613-128">Marque a caixa de seleção **Criar um novo ativo fixo**.</span><span class="sxs-lookup"><span data-stu-id="14613-128">Check the **Create a new fixed asset** checkbox.</span></span>
-15. <span data-ttu-id="14613-129">No campo **Grupo de ativo fixo**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="14613-129">In the **Fixed asset group** field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="14613-130">Na lista, selecione o grupo de ativos fixos a ser usado quando criar o novo ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="14613-130">In the list, select the fixed asset group to be used when creating the new fixed asset.</span></span>
-17. <span data-ttu-id="14613-131">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="14613-131">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="14613-132">Clique em **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="14613-132">Click **Post**.</span></span> <span data-ttu-id="14613-133">O ativo fixo será criado e adquirido quando a nota fiscal for lançada.</span><span class="sxs-lookup"><span data-stu-id="14613-133">The fixed asset will be created and acquired when the invoice is posted.</span></span>  
+## <a name="create-a-new-vendor-invoice"></a><span data-ttu-id="2d3de-111">Criar uma nova fatura de fornecedor</span><span class="sxs-lookup"><span data-stu-id="2d3de-111">Create a new vendor invoice</span></span>
+1. <span data-ttu-id="2d3de-112">No **Painel de Navegação**, vá para **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-112">In the **Navigation pane**, go to **Modules > Accounts payable > Workspaces > Vendor invoice entry**.</span></span>
+2. <span data-ttu-id="2d3de-113">Clique em **Nova fatura de fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-113">Click **New vendor invoice**.</span></span>
+3. <span data-ttu-id="2d3de-114">No campo **Conta de fatura**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="2d3de-114">In the **Invoice account** field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="2d3de-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="2d3de-115">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="2d3de-116">No campo **Número**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="2d3de-116">In the **Number** field, type a value.</span></span>
+6. <span data-ttu-id="2d3de-117">No campo **Data de lançamento**, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="2d3de-117">In the **Posting date** field, enter a date.</span></span>
+7. <span data-ttu-id="2d3de-118">Clique em **Adicionar linha**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-118">Click **Add line**.</span></span>
+8. <span data-ttu-id="2d3de-119">No campo **Número do item**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="2d3de-119">In the **Item number** field, click the drop-down button to open the lookup.</span></span> <span data-ttu-id="2d3de-120">Os itens não estocados ou as categorias de aquisição podem ser usados para aquisições de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="2d3de-120">Either non-stocked items or procurement categories can be used for fixed asset acquisition.</span></span>  
+9. <span data-ttu-id="2d3de-121">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="2d3de-121">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="2d3de-122">No campo **Quantidade.**, insira um número</span><span class="sxs-lookup"><span data-stu-id="2d3de-122">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="2d3de-123">Uma linha da nota fiscal criará somente um ativo fixo, independentemente da quantidade.</span><span class="sxs-lookup"><span data-stu-id="2d3de-123">One invoice line will only create one fixed asset, regardless of quantity.</span></span> <span data-ttu-id="2d3de-124">O valor do campo de quantidade da nota fiscal será transferido para a quantidade do ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="2d3de-124">The invoice quantity field value will be transferred to the fixed asset quantity.</span></span>  
+11. <span data-ttu-id="2d3de-125">No campo **Preço unitário**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="2d3de-125">In the **Unit price** field, enter a number.</span></span>
+12. <span data-ttu-id="2d3de-126">Expanda a Guia Rápida **Detalhes da linha**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-126">Expand the **Line details** fastTab.</span></span>
+13. <span data-ttu-id="2d3de-127">Clique na guia **Ativos fixos**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-127">Click the **Fixed assets** tab.</span></span>
+14. <span data-ttu-id="2d3de-128">Marque a caixa de seleção **Criar um novo ativo fixo**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-128">Check the **Create a new fixed asset** checkbox.</span></span>
+15. <span data-ttu-id="2d3de-129">No campo **Grupo de ativo fixo**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="2d3de-129">In the **Fixed asset group** field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="2d3de-130">Na lista, selecione o grupo de ativos fixos a ser usado quando criar o novo ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="2d3de-130">In the list, select the fixed asset group to be used when creating the new fixed asset.</span></span>
+17. <span data-ttu-id="2d3de-131">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="2d3de-131">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="2d3de-132">Clique em **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="2d3de-132">Click **Post**.</span></span> <span data-ttu-id="2d3de-133">O ativo fixo será criado e adquirido quando a nota fiscal for lançada.</span><span class="sxs-lookup"><span data-stu-id="2d3de-133">The fixed asset will be created and acquired when the invoice is posted.</span></span>  
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
