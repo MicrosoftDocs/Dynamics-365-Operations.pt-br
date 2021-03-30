@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 045568797722a621ea4e6c82d10dbb266b9e8162
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e9b5a8123c64dce2ba65758f0312a899646cf948
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982457"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252549"
 ---
 # <a name="media-gallery-module"></a>Módulo de galeria de mídia
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Os módulos de galeria de mídia mostram uma ou mais imagens em uma exibição da galeria. Os módulos de galeria de mídia oferecem suporte a imagens em miniatura, que podem ser organizadas horizontalmente (como uma linha abaixo da imagem) ou verticalmente (como uma coluna ao lado da imagem). Os módulos de galeria de mídia também fornecem recursos que permitem que as imagens sejam ampliadas (aumentadas) ou exibidas no modo de tela inteira. Para ser renderizada em um módulo de galeria de mídia, uma imagem deve estar disponível na Biblioteca de Mídia do construtor de sites do Commerce. No momento, os módulos de galeria de mídia oferecem suporte somente a imagens.
 

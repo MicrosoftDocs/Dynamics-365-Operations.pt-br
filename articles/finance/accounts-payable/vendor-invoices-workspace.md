@@ -1,6 +1,6 @@
 ---
 title: Workspace de entrada de fatura de fornecedor
-description: Este tópico explica como configurar o workspace que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI.
+description: Este tópico explica como configurar o espaço de trabalho que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI.
 author: abruer
 manager: AnnBe
 ms.date: 09/28/2020
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2020-09-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 04aca717c3f255799699d63fb74ee0b543f8c8ba
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0a32fc46fe6ac33abe5fcebb2ee5e2c92f468f84
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993254"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254103"
 ---
-# <a name="vendor-invoice-entry-workspace"></a>Workspace de entrada de fatura de fornecedor
+# <a name="vendor-invoice-entry-workspace"></a>Espaço de trabalho de entrada de fatura de fornecedor
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico explica como configurar o workspace que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI. As informações de fatura de fornecedor neste workspace estão filtradas por usuário e são mostradas em um formato gráfico.
+Este tópico explica como configurar o espaço de trabalho que está relacionado às faturas de fornecedor e que mostra as informações que estão disponíveis pelo Microsoft Power BI. As informações de fatura de fornecedor neste workspace estão filtradas por usuário e são mostradas em um formato gráfico.
 
 ## <a name="overview"></a>Visão Geral
 

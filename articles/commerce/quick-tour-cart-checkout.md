@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a9b7fe1722c366eb504882c61a337a95500c92ab
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4f7c708aa7f1a858e78cdbda809b90b944606022
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000500"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244782"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visão geral das páginas de carrinho e de finalização da compra
 
@@ -29,7 +29,7 @@ ms.locfileid: "5000500"
 
 Este tópico fornece uma visão geral páginas de carrinho e de finalização da compra no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 A página do carrinho de um site de comércio eletrônico mostra todos os itens que um cliente adicionou ao carrinho. A página do carrinho é criada usando o módulo do carrinho. O módulo do carrinho é um contêiner que hospeda todos os módulos necessários para mostrar itens no carrinho. O módulo do carrinho também pode usar outros módulos para mostrar o resumo do pedido e quaisquer códigos promocionais que foram aplicados ao pedido do cliente.
 

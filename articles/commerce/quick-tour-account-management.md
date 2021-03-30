@@ -16,20 +16,20 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e194004476545fb142f71aa4bd889dbbc70c6ed4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4cd4ee3ef2b1c3538ec267fe12eef38d525f6a83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969842"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5244805"
 ---
-# <a name="account-management-pages-overview"></a>Visão geral das páginas de gerenciamento de contas
+# <a name="account-management-pages-overview"></a>Visão geral das páginas de gerenciamento da conta
 
 [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral das páginas de gerenciamento da conta no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 As páginas de gerenciamento de conta permitem que os clientes exibam informações relacionadas às suas contas e ordens. As páginas de gerenciamento de contas incluem a página de aterrissagem do gerenciamento de contas e as páginas do perfil do usuário, endereços, histórico da ordem, detalhes da ordem, pontos de fidelidade e lista de desejos.
 
