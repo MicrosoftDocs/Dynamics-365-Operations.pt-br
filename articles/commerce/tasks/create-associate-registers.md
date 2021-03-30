@@ -16,30 +16,33 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2415945c5a8f73e095627d638fcc572c50ffe8ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: af9743f17cebb3484c3ec5b0315347c575a474bd
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964886"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5246986"
 ---
-# <a name="create-and-associate-registers"></a><span data-ttu-id="d4b7c-103">Criar e associar registros</span><span class="sxs-lookup"><span data-stu-id="d4b7c-103">Create and associate registers</span></span>
+# <a name="create-and-associate-registers"></a><span data-ttu-id="136a3-103">Criar e associar registros</span><span class="sxs-lookup"><span data-stu-id="136a3-103">Create and associate registers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="d4b7c-104">Este procedimento demonstra como criar um registro do ponto de venda (POS).</span><span class="sxs-lookup"><span data-stu-id="d4b7c-104">This procedure demonstrates how to create a point of sale (POS) register.</span></span> <span data-ttu-id="d4b7c-105">Este procedimento usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-105">This procedure uses the demo data company USRT.</span></span>
+<span data-ttu-id="136a3-104">Este procedimento demonstra como criar um registro do ponto de venda (POS).</span><span class="sxs-lookup"><span data-stu-id="136a3-104">This procedure demonstrates how to create a point of sale (POS) register.</span></span> <span data-ttu-id="136a3-105">Este procedimento usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="136a3-105">This procedure uses the demo data company USRT.</span></span>
 
-1. <span data-ttu-id="d4b7c-106">Vá para Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-106">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
-2. <span data-ttu-id="d4b7c-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-107">Click New.</span></span>
-3. <span data-ttu-id="d4b7c-108">No campo Registrar número, digite uma ID para o novo registro.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-108">In the Register number field, type an ID for the new register.</span></span>
-    * <span data-ttu-id="d4b7c-109">A identificação do registro inclui tipicamente os códigos que ajudam a traçar o registro à loja que pertence e ao lugar dentro da loja.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-109">The register ID typically includes codes that help map the register to the store to which it belongs, and the location within the store.</span></span>  
-4. <span data-ttu-id="d4b7c-110">No campo Nome, digite um nome descritivo para o registro.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-110">In the Name field, type a descriptive name for the register..</span></span>
-5. <span data-ttu-id="d4b7c-111">No campo Número da loja, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-111">In the Store number field, enter or select a value.</span></span>
-6. <span data-ttu-id="d4b7c-112">No campo Perfil de hardware, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-112">In the Hardware profile field, enter or select a value.</span></span>
-    * <span data-ttu-id="d4b7c-113">Os perfis de hardware são usados para especificar os periféricos que serão conectados ao registro, tal como o caixa do dinheiro e a impressora do recibo.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-113">Hardware profiles are used to specify the peripherals that will be connected to the register, such as cash drawer and receipt printer.</span></span>  
-7. <span data-ttu-id="d4b7c-114">No campo Perfil visual, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-114">In the Visual profile field, enter or select a value.</span></span>
-    * <span data-ttu-id="d4b7c-115">Os perfis visuais são usados para especificar as imagens usadas no fundo da posição e na página do início de uma sessão assim como temas para a posição.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-115">Visual profiles are used to specify the images used in the POS background and login page as well as themes for the POS.</span></span>  
-8. <span data-ttu-id="d4b7c-116">No campo Número do registro de PDV de TEF, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-116">In the EFT POS register number field, type a value.</span></span>
-    * <span data-ttu-id="d4b7c-117">O número do registro da posição de EFT é usado para informar o processador do pagamento ao qual o terminal do pagamento está enviando pedidos da autorização.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-117">The EFT POS register number is used to inform the payment processor which payment terminal is sending authorization requests.</span></span> <span data-ttu-id="d4b7c-118">Este valor é chamado frequentemente de "ID de terminal ou "TID".</span><span class="sxs-lookup"><span data-stu-id="d4b7c-118">This value is often called the "Terminal ID" or "TID".</span></span> <span data-ttu-id="d4b7c-119">O TID pode geralmente ser encontrado em uma etiqueta no dispositivo do pagamento.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-119">The TID can generally be found on a sticker on the payment device.</span></span>  
-9. <span data-ttu-id="d4b7c-120">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d4b7c-120">Click Save.</span></span>
+1. <span data-ttu-id="136a3-106">Vá para Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.</span><span class="sxs-lookup"><span data-stu-id="136a3-106">Go to Retail and Commerce > Channel setup > POS setup > Registers.</span></span>
+2. <span data-ttu-id="136a3-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="136a3-107">Click New.</span></span>
+3. <span data-ttu-id="136a3-108">No campo Registrar número, digite uma ID para o novo registro.</span><span class="sxs-lookup"><span data-stu-id="136a3-108">In the Register number field, type an ID for the new register.</span></span>
+    * <span data-ttu-id="136a3-109">A identificação do registro inclui tipicamente os códigos que ajudam a traçar o registro à loja que pertence e ao lugar dentro da loja.</span><span class="sxs-lookup"><span data-stu-id="136a3-109">The register ID typically includes codes that help map the register to the store to which it belongs, and the location within the store.</span></span>  
+4. <span data-ttu-id="136a3-110">No campo Nome, digite um nome descritivo para o registro.</span><span class="sxs-lookup"><span data-stu-id="136a3-110">In the Name field, type a descriptive name for the register..</span></span>
+5. <span data-ttu-id="136a3-111">No campo Número da loja, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="136a3-111">In the Store number field, enter or select a value.</span></span>
+6. <span data-ttu-id="136a3-112">No campo Perfil de hardware, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="136a3-112">In the Hardware profile field, enter or select a value.</span></span>
+    * <span data-ttu-id="136a3-113">Os perfis de hardware são usados para especificar os periféricos que serão conectados ao registro, tal como o caixa do dinheiro e a impressora do recibo.</span><span class="sxs-lookup"><span data-stu-id="136a3-113">Hardware profiles are used to specify the peripherals that will be connected to the register, such as cash drawer and receipt printer.</span></span>  
+7. <span data-ttu-id="136a3-114">No campo Perfil visual, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="136a3-114">In the Visual profile field, enter or select a value.</span></span>
+    * <span data-ttu-id="136a3-115">Os perfis visuais são usados para especificar as imagens usadas no fundo da posição e na página do início de uma sessão assim como temas para a posição.</span><span class="sxs-lookup"><span data-stu-id="136a3-115">Visual profiles are used to specify the images used in the POS background and login page as well as themes for the POS.</span></span>  
+8. <span data-ttu-id="136a3-116">No campo Número do registro de PDV de TEF, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="136a3-116">In the EFT POS register number field, type a value.</span></span>
+    * <span data-ttu-id="136a3-117">O número do registro da posição de EFT é usado para informar o processador do pagamento ao qual o terminal do pagamento está enviando pedidos da autorização.</span><span class="sxs-lookup"><span data-stu-id="136a3-117">The EFT POS register number is used to inform the payment processor which payment terminal is sending authorization requests.</span></span> <span data-ttu-id="136a3-118">Este valor é chamado frequentemente de "ID de terminal ou "TID".</span><span class="sxs-lookup"><span data-stu-id="136a3-118">This value is often called the "Terminal ID" or "TID".</span></span> <span data-ttu-id="136a3-119">O TID pode geralmente ser encontrado em uma etiqueta no dispositivo do pagamento.</span><span class="sxs-lookup"><span data-stu-id="136a3-119">The TID can generally be found on a sticker on the payment device.</span></span>  
+9. <span data-ttu-id="136a3-120">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="136a3-120">Click Save.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
