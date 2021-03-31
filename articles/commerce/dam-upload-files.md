@@ -1,6 +1,6 @@
 ---
 title: Carregar arquivos que não sejam imagens e vídeos
-description: Este tópico descreve como carregar arquivos binários que não sejam imagens e vídeos no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como carregar arquivos binários que não sejam imagens e vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
 manager: annbe
 ms.date: 03/03/2020
@@ -17,18 +17,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3392f5f36d04e8cb0a9d6e6b7db31ff62c987649
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: c065aa961cf5c2d6770ae47c63a75953e6d38e00
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995761"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222528"
 ---
-# <a name="upload-files-other-than-images-and-videos"></a>Carregar arquivos que não sejam imagens e vídeos
+# <a name="upload-files-other-than-images-and-videos"></a>Carregar arquivos diferentes de imagens e vídeos
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como carregar arquivos que não sejam imagens e vídeos no assistente para criação de sites do Microsoft Dynamics 365 Commerce.
+Este tópico descreve como carregar arquivos binários que não sejam imagens e vídeos no construtor de sites do Microsoft Dynamics 365 Commerce.
 
 ## <a name="overview"></a>Visão Geral
 

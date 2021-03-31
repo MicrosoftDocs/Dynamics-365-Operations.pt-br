@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 31633b2f0c6e434eaf12451eb4f46435b1a397b5
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 055c5bca92b46fda06a4b0cf550f7243a0ad8caa
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154135"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219871"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 

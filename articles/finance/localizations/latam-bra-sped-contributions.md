@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cbecb45b3fd9f38153072893f32fb4996cd9e91f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 174569fcb0b5fc68bcb22141529f03a38d920c93
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971196"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219863"
 ---
 # <a name="set-sped-efd-contributions"></a>Definir contribuições SPED EFD
 

@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4779fa8f8856121836a445d8050786eb3281b8d5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7b5118553af2c50ec20e01aa1662d40d7546184e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5222053"
 ---
 # <a name="cancel-a-purchase-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de compra (Brasil)
 

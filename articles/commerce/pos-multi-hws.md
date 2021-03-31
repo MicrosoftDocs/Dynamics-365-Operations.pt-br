@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 72142a3e05092a2da7749fa01ec58e2c1d8fe25d
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 848e83505e9e20111c2809000dcf19f352142de4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4972596"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5223014"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
 
@@ -34,7 +34,7 @@ Este tópico fornece informações sobre o recurso para ter um terminal de pagam
 
 Os varejistas modernos estão buscando maneiras de simplificar a experiência de check-out na loja. As tendências recentes em relação a check-out sem papel por meio de pagamentos eletrônicos não só ajudam a tornar a experiência de compras mais suave, mas também reduzem a necessidade de ter um complemento completo de dispositivos periféricos disponíveis para cada associação de armazenamento.
 
-O Microsoft Dynamics 365 Commerce oferece suporte a essas tendências habilitando um cenário no qual um dispositivo de ponto de venda (PDV) tem um terminal de pagamento dedicado atribuído a ele todo o tempo, mas ele não tem sua própria impressora de recibo ou caixa registradora. Quando os associados tiverem de imprimir um recibo ou receber um pagamento à vista, deverão selecionar uma estação de hardware na qual esses dispositivos estão configurados.
+O Microsoft Dynamics 365 Commerce oferece suporte a essas tendências habilitando um cenário no qual um dispositivo de ponto de venda (PDV) tem um terminal de pagamento dedicado atribuído a ele o tempo todo, mas ele não tem sua própria impressora de recibo ou caixa registradora. Quando os associados tiverem de imprimir um recibo ou receber um pagamento à vista, deverão selecionar uma estação de hardware na qual esses dispositivos estão configurados.
 
 ## <a name="key-terms"></a>Condições principais
 

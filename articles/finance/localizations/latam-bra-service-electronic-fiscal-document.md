@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 712ce6d2006ba9856e27b984dfa511083709beff
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d9aa6b7b28cab41ccfcaa487e631ef5041a2b32c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990113"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219869"
 ---
 # <a name="service-electronic-fiscal-document-for-brazil"></a>Nota fiscal eletrônica para serviços do Brasil
 

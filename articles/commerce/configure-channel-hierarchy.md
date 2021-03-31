@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3dcba743e6557b1bd366ac79ecb49ead831dceb4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ceb6aa65c2ed5bc8d4224bdaf7095fba769181e8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001016"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220573"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurar um canal para usar uma hierarquia de navegação de canal
 
@@ -30,7 +30,7 @@ ms.locfileid: "5001016"
 
 Este tópico descreve como configurar um canal para usar uma hierarquia de navegação de canal no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 As hierarquias de navegação de canal organizam os produtos em categorias para que os produtos possam ser procurados em um site de comércio eletrônico ou em pontos de venda (PDV). Os canais de varejo e online devem ser configurados com hierarquias de navegação de canal.
 

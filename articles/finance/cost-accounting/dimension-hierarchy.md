@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7fde19ad1a58616672de72fb5e5cbeea39138b46
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995181"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5217377"
 ---
 # <a name="dimension-hierarchy"></a>Hierarquia de dimensões
 
@@ -52,7 +52,7 @@ Uma hierarquia de dimensões pode ser criada para os seguintes tipos de dimensõ
 > [!NOTE]
 > - Você pode criar várias hierarquias de dimensões para a mesma dimensão caso sejam necessárias perspectivas diferentes.
 > - Uma hierarquia de dimensões pode ser associada a uma única dimensão.
-> - Uma hierarquia de dimensões pode ter níveis ilimitados em sua estrutura. Todos os níveis serão disponibilizados no espaço de trabalho **Controle de custos**. Quando você usa o Microsoft Excel ou Microsoft Power BI para fins de relatório, somente os 15 primeiros níveis da hierarquia de dimensões são exportados. Essa limitação existe porque tanto Excel quanto o Power BI exigem um esquema fixo.
+> - Uma hierarquia de dimensões pode ter níveis ilimitados em sua estrutura. Todos os níveis serão disponibilizados no espaço de trabalho **Controle de custos**. Quando você usa o Microsoft Excel ou o Microsoft Power BI para fins de relatório, somente os 15 primeiros níveis da hierarquia de dimensões são exportados. Essa limitação existe porque tanto Excel quanto o Power BI exigem um esquema fixo.
 > - Uma hierarquia de dimensões não é efetiva com relação à data. Portanto, qualquer alteração a uma hierarquia de dimensões é salva imediatamente no registro, e você não pode comparar as datas anterior e posterior.
 
 ## <a name="dimension-hierarchy-type"></a>Tipo de hierarquia de dimensões

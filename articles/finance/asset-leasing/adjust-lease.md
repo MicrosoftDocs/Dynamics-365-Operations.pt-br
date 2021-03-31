@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 32d99d9e90b65f7cac74176d21fa4b053ae8f62c
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: f11dbd6dc67ffccb087f67f5ce6267fe94e0ee65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130746"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5219978"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamentos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 O tópico explica como ajustar um arrendamento. O ajuste pode ser necessário, se os prazos de arrendamento forem modificados, o arrendamento for estendido ou outras circunstâncias são alteradas. O arrendamento de ativo está em conformidade com a orientação do Tópico 842 da Codificação de Padrões Contábeis (ASC 842) e do Padrão Internacional de Relatórios Financeiros 16 (IFRS 16) fornecem informações sobre modificações de arrendamento. O 842-20-15-1 ASC define uma modificação de arrendamento como qualquer alteração nos termos e condições de um contrato que causa uma alteração no escopo de, ou a consideração, de um arrendamento. O parágrafo 39 do IFRS 16 afirma que um arrendatário deve reavaliar a responsabilidade com arrendamento de forma que reflita as alterações feitas nos pagamentos do arrendamento.
 
