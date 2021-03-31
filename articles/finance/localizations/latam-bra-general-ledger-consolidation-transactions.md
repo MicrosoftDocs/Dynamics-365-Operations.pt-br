@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: e5a08360caf7a246fbec902297def8adc6cc5f44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0d4100c0d2fdfc128dc3e0ae093a290f3e14a541
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012039"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216433"
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a>Exportar e importar transações da consolidação de contabilidade para o Brasil
 

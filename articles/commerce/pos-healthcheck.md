@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 59e2505345d82f47efebfba6cc6f3403d03acc84
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 48391a3160c42fdc94be9e7e62024e9e193b94dc
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000525"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216666"
 ---
 # <a name="health-check-for-pos-peripherals-and-services"></a>Verificação de integridade para serviços e periféricos PDV
 
@@ -34,7 +34,7 @@ Este tópico descreve a operação de verificação de integridade no ponto de v
 
 Os armazenamentos de varejo podem ser ambientes complexos nos quais vários aplicativos e dispositivos são usados. À medida que as operações crescem, pode se tornar difícil garantir que as operações sejam sempre executadas suavemente, devido a dependências, por exemplo, periféricos que podem quebrar ou ser acidentalmente desconectados durante o dia. A solução de problemas relacionados a dispositivos e serviços pode ser cara para comerciantes maiores e igualmente frustrante para operações menores.
 
-As versões 10.0.10 do Microsoft Dynamics 365 Commerce e posteriores incluem uma operação de verificação de integridade que pode ajudar a evitar alguns desses custos e frustração. Esta operação fornece um método para testar dispositivos diretamente do PDV fora das operações normais. Portanto, ele pode ajudar os varejistas a detectar problemas antes que eles ocorram.
+As versões 10.0.10 e posteriores do Microsoft Dynamics 365 Commerce incluem uma operação de verificação de integridade que pode ajudar a evitar alguns desses custos e frustração. Esta operação fornece um método para testar dispositivos diretamente do PDV fora das operações normais. Portanto, ele pode ajudar os varejistas a detectar problemas antes que eles ocorram.
 
 ## <a name="key-terms"></a>Condições principais
 

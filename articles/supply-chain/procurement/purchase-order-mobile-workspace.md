@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7f952f3af36620a20a5c991fd9e1ccfd56119f47
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: 37c0fc273091af260089229ad9ee66b52dce3831
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5022297"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215976"
 ---
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabalho móvel para aprovação de ordem de compra
 

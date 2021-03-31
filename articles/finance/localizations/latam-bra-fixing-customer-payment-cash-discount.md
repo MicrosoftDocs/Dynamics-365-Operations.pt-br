@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 7e6fed69fd96c1831a3f215e5d237a54930afa60
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: faab0850a014e752ae5cd04496ef02818f29d0c0
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012044"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216435"
 ---
 # <a name="enable-customer-payments-and-cash-discounts"></a>Habilitar pagamentos de clientes e descontos à vista
 

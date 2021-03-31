@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 28cb9d2e450ff1c05d4faa5cac343e03ef051437
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a08441f5dffa9c2c65b304d0265dd107a838a685
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4986095"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206598"
 ---
-# <a name="accordion-module"></a>Módulo de acordeão
+# <a name="accordion-module"></a>Módulo de Accordion
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de acordeão e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Os módulos de acordeão são como contêineres usados para organizar as informações ou os módulos em uma página, com capacidade semelhante a uma gaveta recolhível. Um módulo de acordeão pode ser usado em qualquer página.
 

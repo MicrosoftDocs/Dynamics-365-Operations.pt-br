@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6b6e316154b1b9371e509dcebdfed5e9e747b520
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 78fcb736ae4a7dccf4a67187bd794062c06c611e
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975309"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204708"
 ---
 # <a name="brazilian-withholding-taxes"></a>Impostos retidos na fonte no Brasil 
 

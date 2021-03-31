@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 54e690b0dde048b17ce074fcc30cf20a9ff7a4ca
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 2d96f173c68bd6a7d9c7a559ed7f18329c3508af
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097120"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5208030"
 ---
 # <a name="add-a-new-site-page"></a>Adicionar uma nova página do site
 
@@ -30,7 +30,7 @@ ms.locfileid: "5097120"
 
 Este tópico descreve como adicionar uma nova página de site no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Após a criação de modelos e fragmentos para o seu site, a próxima etapa é começar a criar páginas que os utilizam. Para começar, você deve selecionar um modelo ou layout, um nome de página e uma URL de página.
 

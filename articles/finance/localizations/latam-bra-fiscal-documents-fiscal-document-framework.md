@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: fc2085fe687c91e9d5d9062295c6310303ba6aa9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1543c469a2d7a5fce40d1bc1b7d341fda5d49cf5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012048"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5216437"
 ---
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 

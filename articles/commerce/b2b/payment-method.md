@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 754e2f83d6c8ff5d3698d98062e54bba7ccd9836
-ms.sourcegitcommit: f9df202aefef761be52c0360b0e22da88773914c
+ms.openlocfilehash: 82dfd6ac7e97d838ef442fd6ded4a4f165fc795b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035871"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5211192"
 ---
 # <a name="configure-the-customer-account-payment-method-for-b2b-e-commerce-sites"></a>Configurar o método de pagamento da conta do cliente para sites de comércio eletrônico B2B
 
@@ -29,7 +29,7 @@ ms.locfileid: "5035871"
 
 Este tópico descreve como configurar o método de pagamento da conta do cliente para sites de comércio eletrônico business-to-business (B2B).
 
-Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos em um canal de comércio eletrônico. Cada tipo de pagamento que um varejista aceita deve ser configurado no Microsoft Dynamics 365 Commerce quando o sistema é configurado. O método de pagamento da conta do cliente (ou "por conta") deve ter suporte em sites de comércio eletrônico B2B. 
+Os varejistas podem aceitar vários tipos de pagamento em troca de produtos e serviços vendidos em um canal de comércio eletrônico. Cada tipo de pagamento que o varejista aceita deve ser configurado no Microsoft Dynamics 365 Commerce quando o sistema for configurado. O método de pagamento da conta do cliente (ou "por conta") deve ter suporte em sites de comércio eletrônico B2B. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

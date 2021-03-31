@@ -1,6 +1,6 @@
 ---
 title: Módulo de carrinho
-description: Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
+description: Este tópico abrange os módulos de carrinho e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
 ms.date: 12/15/2020
@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: abb9909c03577763ff7e6242c9395a58159df6ca
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5b0ce69f57e6ba691803752280466b41ced7c521
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985970"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206478"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
 [!include [banner](includes/banner.md)]
 
-Este tópico abrange os módulos de carrinho e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
+Este tópico abrange os módulos de carrinho e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
 Um módulo de carrinho mostra os itens que foram adicionados ao carrinho antes de o cliente prosseguir para finalizar a compra. O módulo também mostra um resumo da ordem e permite que o cliente aplique ou remova códigos promocionais.
 

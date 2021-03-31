@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 144559b14878a44afd8a77648bb5ce1d3ba17832
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: ff3795f26ab10ac19cc3a0dd00dca65095118f45
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131270"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5207294"
 ---
 # <a name="propose-a-lease-for-termination"></a>Propor a rescisão de um arrendamento
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Se um arrendamento for encerrado antecipadamente, o arrendamento de ativos poderá registrar uma entrada de diário de finalização para dar baixa na responsabilidade com arrendamento, do ativo de direito de uso (DDU) e da depreciação acumulada, bem como registrar um ganho ou perda. O processo de rescisão antecipada encerra um arrendamento e os registros de arrendamento associados. Ele não encerra os registros de arrendamento individuais. Este tópico descreve a funcionalidade que permite propor a rescisão de um arrendamento e processar a entrada do diário de rescisão de arrendamento.
 

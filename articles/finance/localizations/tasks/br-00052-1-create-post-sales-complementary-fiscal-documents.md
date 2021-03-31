@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8bedc4dc183ffd6e806de35bc6fe1577a74eda3a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1f2754e5b3ccdc15bb2ded42ec05370e5c99a8c3
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4997468"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215048"
 ---
 # <a name="create-and-post-a-sales-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de venda (Brasil)
 

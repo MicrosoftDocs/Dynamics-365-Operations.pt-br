@@ -16,12 +16,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2019-12-19
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 7690f3bb17a56b9a16b6e818b675064b1979948e
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 186044fc7a360f227cecffb39bad0e225245dd4d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097356"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5210962"
 ---
 # <a name="verify-page-content-accessibility"></a>Verificar acessibilidade do conteúdo da página
 
@@ -30,7 +30,7 @@ ms.locfileid: "5097356"
 
 Este tópico descreve como verificar a acessibilidade do conteúdo da página no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Quando tiver terminado de alterar uma página, verifique se o conteúdo está acessível a todos na Web. Nas ferramentas de criação do Commerce, você pode facilmente verificar a acessibilidade do conteúdo da página usando o serviço integrado [Insights de Acessibilidade da Microsoft](https://accessibilityinsights.io/). Este serviço verifica o conteúdo da página em relação às diretrizes de [Acessibilidade da World Wide Web Consortium (W3C)](https://www.w3.org/standards/webdesign/accessibility) mais recentes.
 

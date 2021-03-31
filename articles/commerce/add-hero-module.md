@@ -17,21 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: a6359c915d053bb00c969b166325f675c0003ead
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ad95dc943f075e088f5e13b507fa08f11548282f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980348"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206262"
 ---
 # <a name="content-block-module"></a>Módulo de bloco de conteúdo
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de bloco de conteúdo e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Um módulo de bloco de conteúdo é usado para divulgar produtos ou promoções por meio de uma combinação de imagens e texto. Por exemplo, um varejista pode adicionar um módulo de bloco de conteúdo à home page de um site de comércio eletrônico para promover um novo produto e atrair a atenção dos clientes.
 

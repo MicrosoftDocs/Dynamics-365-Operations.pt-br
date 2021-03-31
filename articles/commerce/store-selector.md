@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 74dbad4cb348f19b51ba8b84a1cd41fc5049708e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 785ff004adcd94e7c4c6c5918d632ce662aa7989
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006326"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205113"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Os clientes podem usar o módulo de seletor de loja para retirar um produto em uma loja selecionada após realizarem uma compra online. Na versão 10.0.13 do Commerce, o módulo de seletor de loja também inclui recursos que podem exibir uma página **Localizar uma loja** que mostra as lojas próximas.
 

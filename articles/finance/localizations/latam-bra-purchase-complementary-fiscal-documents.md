@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2f47170bf396e8f2076a7bdb9aa53ce1d8a62ca7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 025e5271f0085a8ff6968f74047b16b08bf22a65
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4990119"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5215054"
 ---
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 

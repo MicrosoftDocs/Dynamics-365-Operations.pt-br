@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6639de250557ce9a25fc2cde3807abf64b0ddc18
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: def99a34404357e28501de5ccf11c6130d53f34f
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993441"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5213809"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -102,7 +102,7 @@ Para cada evento transacional para o qual você deseja enviar emails, você deve
 
 Você pode desejar personalizar os modelos de email para que eles usem imagens diferentes. Ou, talvez queira atualizar os links nos modelos para que eles levem você ao seu ambiente de avaliação. Esse procedimento explica como baixar os modelos padrão, personalizá-los e atualizar os modelos no sistema.
 
-1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para Avaliação do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
+1. Em um navegador da Web, baixe o [arquivo zip de modelos de email padrão para a Avaliação do Microsoft Dynamics 365 Commerce](https://download.microsoft.com/download/d/7/b/d7b6c4d4-fe09-4922-9551-46bbb29d202d/Commerce.Preview.Default.Email.Templates.zip) no seu computador local. Esse arquivo contém os seguintes documentos HTML:
 
     - Módulo de confirmação da ordem
     - Emitir modelo de vale-presente
@@ -133,7 +133,7 @@ Quando o email é processado, esses tokens são substituídos com valores reais 
 
 Os seguintes tokens se aplicam à ordem de venda geral.
 
-| Nome do token | Token  |
+| Nome do token | Token |
 |-------------------|-------|
 | Número da ordem      | %salesid% |
 | Nome do cliente   | %customername% |
@@ -142,10 +142,10 @@ Os seguintes tokens se aplicam à ordem de venda geral.
 | Data da ordem        | %shipdate% |
 | Modo de entrega     | %modeofdelivery% |
 | Desconto          | %discount% |
-| Imposto         | %tax% |
+| Impostos         | %tax% |
 | Total da ordem       | %total% |
 
-#### <a name="sales-line"></a>Linha de venda
+#### <a name="sales-line"></a>Linha de venda 
 
 Os seguintes tokens são substituídos com valores para cada produto no pedido.
 
@@ -159,7 +159,7 @@ Os seguintes tokens são substituídos com valores para cada produto no pedido.
 | Nome do produto           | %lineproductname% |
 | descrição            | %lineproductdescription% |
 | Quantidade               | %linequantity% |
-| Preço unitário da linha        | %lineprice% (verificação) |
+| Preço unitário da linha        | %lineprice% (verificar) |
 | total do item de linha        | %linenetamount% |
 | desconto de linha          | %linediscount% |
 | Data da remessa              | %lineshipdate% |

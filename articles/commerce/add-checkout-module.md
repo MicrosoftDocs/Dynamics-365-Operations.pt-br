@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: cb32b014ac35e33db28d3dee03b01dfa43f5d6a5
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5e800daa6eeb54a2eda535cb57aa45559b59b4ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4980497"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5206453"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como adicionar um módulo de finalização da compra a uma página e definir as propriedades necessárias.
-
-## <a name="overview"></a>Visão geral
 
 Um módulo de finalização da compra é um contêiner especial que hospeda todos os módulos necessários para criar um pedido. Apresenta um fluxo passo a passo que um cliente usa para inserir todas as informações relevantes para fazer uma compra. Ele captura o endereço de remessa, o método de remessa e as informações de cobrança. Ele também fornece um resumo do pedido e outras informações relacionadas a um pedido do cliente.
 
