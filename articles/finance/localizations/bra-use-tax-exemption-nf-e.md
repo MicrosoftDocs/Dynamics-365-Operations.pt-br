@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: cfb5c474c84cb95a21ce8a2c83a24e615f058140
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0cfaccdd02948f14e7f4d7515e9d88e47480af14
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4968349"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228827"
 ---
 # <a name="nt2019001---tax-benefits-and-exemptions-rules-for-nf-enfc-e"></a>NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 

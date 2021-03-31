@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3163975a8cc99c4b07fdbe03fa57ea6cfef53cd9
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 22f441f7dc3d53fee263ebb059679510c2e3d054
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4995206"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5226428"
 ---
 # <a name="cost-control-workspace"></a>Espaço de trabalho de controle de custos 
 
@@ -55,7 +55,7 @@ Na Guia Rápida **Filtragem de dados**, você define a base de dados do relatór
 |-------------------------------------------------------------------|-------------|
 | Razão de contabilização de custos                                            | A **Razão da contabilização de custos** na qual o relatório está baseado. O valor é obtido do campo **Unidade de controle de custos**. |
 | Unidade de controle de custo                                                 | O valor que você selecionar determinará o razão de contabilização de custos e os objetos de custos no qual este relatório está baseado. |
-| Hierarquia da dimensão estatística, hierarquia da dimensão do elemento de custo | Um registro de configuração do espaço trabalho **Controle de custos** pode relatar valores monetários ou não monetários, mas não no mesmo layout. Selecione um valor no campo **Hierarquia da dimensão de elemento de custo** para relatar valores monetários. Selecione um valor no campo **Hierarquia da dimensão estatística** para relatar valores não monetários. O registro da hierarquia da dimensão selecionada determina a estrutura de relatório e os níveis agregação.<blockquote>[!NOTE]<br>Para exibir valores monetários e não monetários lado a lado, você pode exportar dados para o Microsoft Excel do pacote de conteúdo do Microsoft Power BI.</blockquote> |
+| Hierarquia da dimensão estatística, hierarquia da dimensão do elemento de custo | Um registro de configuração do espaço trabalho **Controle de custos** pode relatar valores monetários ou não monetários, mas não no mesmo layout. Selecione um valor no campo **Hierarquia da dimensão de elemento de custo** para relatar valores monetários. Selecione um valor no campo **Hierarquia da dimensão estatística** para relatar valores não monetários. O registro da hierarquia da dimensão selecionada determina a estrutura de relatório e os níveis agregação.<blockquote>[!NOTE]<br>Para exibir valores monetários e não monetários lado a lado, você poderá exportar dados para o Microsoft Excel do pacote de conteúdo do Microsoft Power BI.</blockquote> |
 | Hierarquia da dimensão de objeto de custo                                   | Selecione a hierarquia de dimensões da dimensão do objeto de custo que se ajusta ao objetivo do relatório que você está definindo. |
 | Versão original do orçamento                                           | Selecione a ID da versão de orçamento que atua como o orçamento original no contexto deste relatório. |
 | Versão revisada do orçamento                                            | Selecione a ID da versão de orçamento que atua como o orçamento revisado no contexto deste relatório. |

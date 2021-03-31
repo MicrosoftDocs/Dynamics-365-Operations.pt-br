@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0bf37453740d1c2b09b5bd7ae4841f23da20a3ec
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 1ea46ae90dedcc3ad3c3b305bddeb4d98827353a
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4687528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5230659"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Alternância offline perfeita para operações de vale-presente e memorando de crédito
 
@@ -32,7 +32,7 @@ Se um dispositivo de ponto de venda (PDV) perder a conexão com o banco de dados
 
 ## <a name="completing-gift-card-transactions-in-offline-mode"></a>Conclusão de transações de cartão-presente no modo offline
 
-Os vales-presentes internos dependem do real-time Service, porque o saldo dos vales-presentes deve ser mantido centralmente na sede do Microsoft Dynamics 365 Commerce. Para ajudar a prevenir fraudes ou outras saídas de sincronização, vales-presentes são bloqueados assim que são adicionados a uma transação. A função de bloqueio garante que um vale-presente não possa ser usado em vários terminais ao mesmo tempo. Quando uma transação é concluída, o vale-presente é atualizado e desbloqueado.
+Os cartões-presente internos dependem do serviço em tempo real porque o saldo dos cartões-presentes deve ser mantido centralmente na sede do Microsoft Dynamics 365 Commerce. Para ajudar a prevenir fraudes ou outras saídas de sincronização, vales-presentes são bloqueados assim que são adicionados a uma transação. A função de bloqueio garante que um vale-presente não possa ser usado em vários terminais ao mesmo tempo. Quando uma transação é concluída, o vale-presente é atualizado e desbloqueado.
 
 No entanto, se o PDV perder conectividade depois que um vale-presente tiver sido adicionado a uma transação, o vale-presente poderá ficar inutilizado. Para ajudar a evitar essa situação, o Dynamics 365 Commerce tem um parâmetro que permite que as transações que incluem uma linha de vale-presente sejam concluídas enquanto o pos está off-line. Quando esse parâmetro é ativado, as transações de vale-presente forçadas a ficar off-line serão salvas juntamente com as transações offline e serão sincronizadas com a sede do Commerce quando as transações offline forem sincronizadas. A sincronização também desbloqueará o vale-presente para que possa ser usado em outro terminal.
 

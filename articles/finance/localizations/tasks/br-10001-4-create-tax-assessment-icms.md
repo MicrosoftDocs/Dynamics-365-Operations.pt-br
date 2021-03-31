@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e772e35584a430f7753978ce1e5aed1c6a9546f2
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 451d491d9e0559d61ca2e4eafeea6534b0834437
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964599"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5228044"
 ---
 # <a name="create-a-tax-assessment---icms-brazil"></a>Criar uma apuração de imposto - ICMS (Brasil)
 

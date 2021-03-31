@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f0790bf4d02646b141db592fd93750d1b469db6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 25049c5486278f8ea5878dbf182ef317190c58f4
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5229486"
 ---
 # <a name="automatic-transmission-of-nf-e-fiscal-documents-brazil"></a>Transmissão automática de notas fiscais eletrônicas (Brasil)
 

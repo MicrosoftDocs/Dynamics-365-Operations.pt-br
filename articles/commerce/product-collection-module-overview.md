@@ -1,6 +1,6 @@
 ---
 title: Módulos de coleta de produtos
-description: Este tópico fornece uma visão geral das páginas dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
+description: Este tópico fornece uma visão geral dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
 author: v-chgri
 manager: annbe
 ms.date: 01/28/2021
@@ -16,19 +16,19 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 4bae9ca722c2b6e776abb0e1da9694edc8afadf8
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: d8fb0909e258f68146e1af3cf998634fb351ef71
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097094"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231095"
 ---
-# <a name="product-collection-modules"></a>Módulos de coleta de produtos
+# <a name="product-collection-modules"></a>Módulos de coleção de produtos
 
 [!include [banner](includes/banner.md)]
 [!include [banner](includes/preview-banner.md)]
 
-Este tópico fornece uma visão geral das páginas dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
+Este tópico fornece uma visão geral dos módulos de coleta de produtos no Microsoft Dynamics 365 Commerce.
 
 A descoberta de produtos é a principal ferramenta usada pelos varejistas para interagir com seus clientes em um site de comércio eletrônico. Os módulos de coleta de produtos ajudam os varejistas a criar experiências atraentes de compras, fornecendo uma interface visual intuitiva que pode ser usada para criar rapidamente coletas de produtos.
 
