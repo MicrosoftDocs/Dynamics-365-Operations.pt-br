@@ -15,24 +15,27 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e5157b782c64f3cc75f9842b36e3ded710126eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 49f221736c1efd8314e6a137de5f0778386499da
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983173"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5220767"
 ---
-# <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="11137-103">Liberar um produto/produto mestre para entidades legais</span><span class="sxs-lookup"><span data-stu-id="11137-103">Release a product/product master to legal entities</span></span>
+# <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="a899e-103">Liberar um produto/produto mestre para entidades legais</span><span class="sxs-lookup"><span data-stu-id="a899e-103">Release a product/product master to legal entities</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="11137-104">Este procedimento orienta como liberar um produto ou um produto mestre em uma ou mais entidades legais.</span><span class="sxs-lookup"><span data-stu-id="11137-104">This procedure walks through how to release a product or product master into one or more legal entities.</span></span> <span data-ttu-id="11137-105">A empresa de dados de demonstração usada para criar esta tarefa é a USRT, e a tarefa é destinada ao gerente de mercadorias e ao designer de produtos.</span><span class="sxs-lookup"><span data-stu-id="11137-105">The demo data company used to create this task is USRT, and the task is intended for the Merchandising Manager and Product Designer.</span></span>
+<span data-ttu-id="a899e-104">Este procedimento orienta como liberar um produto ou um produto mestre em uma ou mais entidades legais.</span><span class="sxs-lookup"><span data-stu-id="a899e-104">This procedure walks through how to release a product or product master into one or more legal entities.</span></span> <span data-ttu-id="a899e-105">A empresa de dados de demonstração usada para criar esta tarefa é a USRT, e a tarefa é destinada ao gerente de mercadorias e ao designer de produtos.</span><span class="sxs-lookup"><span data-stu-id="a899e-105">The demo data company used to create this task is USRT, and the task is intended for the Merchandising Manager and Product Designer.</span></span>
 
-1. <span data-ttu-id="11137-106">Vá para Varejo e Comércio > ..</span><span class="sxs-lookup"><span data-stu-id="11137-106">Go to Retail and Commerce > ..</span></span> <span data-ttu-id="11137-107">> Produtos por categoria.</span><span class="sxs-lookup"><span data-stu-id="11137-107">> Products by category.</span></span>
-2. <span data-ttu-id="11137-108">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="11137-108">In the list, mark the selected row.</span></span>
-3. <span data-ttu-id="11137-109">Clique em Liberar produtos.</span><span class="sxs-lookup"><span data-stu-id="11137-109">Click Release products.</span></span>
-4. <span data-ttu-id="11137-110">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="11137-110">Click Next.</span></span>
-5. <span data-ttu-id="11137-111">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="11137-111">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="11137-112">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="11137-112">Click Next.</span></span>
-7. <span data-ttu-id="11137-113">Clique em Finish (Concluir).</span><span class="sxs-lookup"><span data-stu-id="11137-113">Click Finish.</span></span>
+1. <span data-ttu-id="a899e-106">Vá para Varejo e Comércio > ..</span><span class="sxs-lookup"><span data-stu-id="a899e-106">Go to Retail and Commerce > ..</span></span> <span data-ttu-id="a899e-107">> Produtos por categoria.</span><span class="sxs-lookup"><span data-stu-id="a899e-107">> Products by category.</span></span>
+2. <span data-ttu-id="a899e-108">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="a899e-108">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="a899e-109">Clique em Liberar produtos.</span><span class="sxs-lookup"><span data-stu-id="a899e-109">Click Release products.</span></span>
+4. <span data-ttu-id="a899e-110">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="a899e-110">Click Next.</span></span>
+5. <span data-ttu-id="a899e-111">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="a899e-111">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="a899e-112">Clique em Avançar.</span><span class="sxs-lookup"><span data-stu-id="a899e-112">Click Next.</span></span>
+7. <span data-ttu-id="a899e-113">Clique em Finish (Concluir).</span><span class="sxs-lookup"><span data-stu-id="a899e-113">Click Finish.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
