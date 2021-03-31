@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b8f573010e8214919d581bcbf9109228107627b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bf569c233d6dc5348758d0ae7a30e74f6a6ae602
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4982052"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5224613"
 ---
 # <a name="united-states"></a>Estados Unidos 
 

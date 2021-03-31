@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3bf82b26e4dd4a7724202d13fa85483af88f5f6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 8df03079690210c69546e54f3593afd343f570b8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975314"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225261"
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a>Receber notas fiscais de fornecedor (produtos) (Brasil)
 
