@@ -17,36 +17,39 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41df8e540f36ee6e2fbc5727fb86fff14fc51067
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: cbd583605553ec80362d163db4b35431ab98f4ad
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4974726"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5205824"
 ---
-# <a name="attach-inventory-items-to-service-objects"></a><span data-ttu-id="dce6c-103">Anexar itens de estoque a objetos de serviço</span><span class="sxs-lookup"><span data-stu-id="dce6c-103">Attach inventory items to service objects</span></span>    
+# <a name="attach-inventory-items-to-service-objects"></a><span data-ttu-id="98d3e-103">Anexar itens de estoque a objetos de serviço</span><span class="sxs-lookup"><span data-stu-id="98d3e-103">Attach inventory items to service objects</span></span>    
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="dce6c-104">Este tópico explica como anexar um item de estoque a um objeto de serviço.</span><span class="sxs-lookup"><span data-stu-id="dce6c-104">This topic explains how to attach an inventory item to a service object.</span></span> <span data-ttu-id="dce6c-105">Ao anexar um item a um objeto de serviço, você pode controlar e relatar as atividades de serviço que são executadas para o item.</span><span class="sxs-lookup"><span data-stu-id="dce6c-105">When you attach an item to a service object, you can control and report the service activities that are performed for the item.</span></span>
+<span data-ttu-id="98d3e-104">Este tópico explica como anexar um item de estoque a um objeto de serviço.</span><span class="sxs-lookup"><span data-stu-id="98d3e-104">This topic explains how to attach an inventory item to a service object.</span></span> <span data-ttu-id="98d3e-105">Ao anexar um item a um objeto de serviço, você pode controlar e relatar as atividades de serviço que são executadas para o item.</span><span class="sxs-lookup"><span data-stu-id="98d3e-105">When you attach an item to a service object, you can control and report the service activities that are performed for the item.</span></span>
 
-<span data-ttu-id="dce6c-106">Antes de associar itens a objetos de serviço, é necessário criá-los no formulário **Detalhes do produto liberado**.</span><span class="sxs-lookup"><span data-stu-id="dce6c-106">Before you can attach items to service objects, you must create the items in the **Released product details** form.</span></span> 
+<span data-ttu-id="98d3e-106">Antes de associar itens a objetos de serviço, é necessário criá-los no formulário **Detalhes do produto liberado**.</span><span class="sxs-lookup"><span data-stu-id="98d3e-106">Before you can attach items to service objects, you must create the items in the **Released product details** form.</span></span> 
 
-<span data-ttu-id="dce6c-107">Use as seguintes etapas para anexar um item de estoque a um objeto de serviço:</span><span class="sxs-lookup"><span data-stu-id="dce6c-107">Use the following steps to attach an inventory item to a service object:</span></span>
+<span data-ttu-id="98d3e-107">Use as seguintes etapas para anexar um item de estoque a um objeto de serviço:</span><span class="sxs-lookup"><span data-stu-id="98d3e-107">Use the following steps to attach an inventory item to a service object:</span></span>
 
-1.  <span data-ttu-id="dce6c-108">Clique em **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="dce6c-108">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
+1.  <span data-ttu-id="98d3e-108">Clique em **Gerenciamento de serviços** \> **Configuração** \> **Objetos de serviço** \> **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="98d3e-108">Click **Service management** \> **Setup** \> **Service objects** \> **Service objects**.</span></span>
 
-2.  <span data-ttu-id="dce6c-109">No campo **Nº do item**, selecione o item a ser anexado ao objeto de serviço.</span><span class="sxs-lookup"><span data-stu-id="dce6c-109">In the **Item number** field, select the item to attach to the service object.</span></span>
+2.  <span data-ttu-id="98d3e-109">No campo **Nº do item**, selecione o item a ser anexado ao objeto de serviço.</span><span class="sxs-lookup"><span data-stu-id="98d3e-109">In the **Item number** field, select the item to attach to the service object.</span></span>
 
-3.  <span data-ttu-id="dce6c-110">Salve o objeto de serviço.</span><span class="sxs-lookup"><span data-stu-id="dce6c-110">Save the service object.</span></span>
+3.  <span data-ttu-id="98d3e-110">Salve o objeto de serviço.</span><span class="sxs-lookup"><span data-stu-id="98d3e-110">Save the service object.</span></span>
 
-<span data-ttu-id="dce6c-111">Agora o item será associado ao objeto de serviço e quaisquer dimensões de estoque especificadas para o item também serão copiadas para esse objeto.</span><span class="sxs-lookup"><span data-stu-id="dce6c-111">The item is now attached to the service object, and any inventory dimensions specified for the item are also copied to the service object.</span></span>
+<span data-ttu-id="98d3e-111">Agora o item será associado ao objeto de serviço e quaisquer dimensões de estoque especificadas para o item também serão copiadas para esse objeto.</span><span class="sxs-lookup"><span data-stu-id="98d3e-111">The item is now attached to the service object, and any inventory dimensions specified for the item are also copied to the service object.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="dce6c-112">Consulte também</span><span class="sxs-lookup"><span data-stu-id="dce6c-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="98d3e-112">Consulte também</span><span class="sxs-lookup"><span data-stu-id="98d3e-112">See also</span></span>
 
-[<span data-ttu-id="dce6c-113">Visão geral de objetos de serviço</span><span class="sxs-lookup"><span data-stu-id="dce6c-113">Service objects overview</span></span>](service-objects.md)
+[<span data-ttu-id="98d3e-113">Visão geral de objetos de serviço</span><span class="sxs-lookup"><span data-stu-id="98d3e-113">Service objects overview</span></span>](service-objects.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
