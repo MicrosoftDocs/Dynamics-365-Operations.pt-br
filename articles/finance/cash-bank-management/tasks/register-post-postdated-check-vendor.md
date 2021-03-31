@@ -15,43 +15,46 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3d26879ab54b5d87252287ab64fa3c7ae4ae4a90
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ffd482facc629e65a79f328cb237fd72f6f6b5c5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985203"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225312"
 ---
-# <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="6387b-103">Registrar e lançar um cheque pré-datado para um fornecedor</span><span class="sxs-lookup"><span data-stu-id="6387b-103">Register and post a postdated check for a vendor</span></span>
+# <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="5c166-103">Registrar e lançar um cheque pré-datado para um fornecedor</span><span class="sxs-lookup"><span data-stu-id="5c166-103">Register and post a postdated check for a vendor</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="6387b-104">Você pode registrar os detalhes de um cheque pós-datado antes de emitir o cheque para um fornecedor usando o comprovante de diário.</span><span class="sxs-lookup"><span data-stu-id="6387b-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="6387b-105">Você também pode lançar o cheque pré-datado e gerar transações financeiras.</span><span class="sxs-lookup"><span data-stu-id="6387b-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="6387b-106">Antes de registrar e lançar um cheque pré-datado de um fornecedor, conclua a seguinte tarefa:</span><span class="sxs-lookup"><span data-stu-id="6387b-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
+<span data-ttu-id="5c166-104">Você pode registrar os detalhes de um cheque pós-datado antes de emitir o cheque para um fornecedor usando o comprovante de diário.</span><span class="sxs-lookup"><span data-stu-id="5c166-104">You can register the details of a postdated check before you issue the check to a vendor by using the journal voucher.</span></span> <span data-ttu-id="5c166-105">Você também pode lançar o cheque pré-datado e gerar transações financeiras.</span><span class="sxs-lookup"><span data-stu-id="5c166-105">You can also post the postdated check and generate financial transactions.</span></span> <span data-ttu-id="5c166-106">Antes de registrar e lançar um cheque pré-datado de um fornecedor, conclua a seguinte tarefa:</span><span class="sxs-lookup"><span data-stu-id="5c166-106">Before you register and post a postdated check from a vendor, complete the following task:</span></span> 
 
-<span data-ttu-id="6387b-107">Configurar cheques pós-datado na página Gerenciamento de caixa e banco.</span><span class="sxs-lookup"><span data-stu-id="6387b-107">Set up postdated checks in the Cash and bank management page.</span></span> 
+<span data-ttu-id="5c166-107">Configurar cheques pós-datado na página Gerenciamento de caixa e banco.</span><span class="sxs-lookup"><span data-stu-id="5c166-107">Set up postdated checks in the Cash and bank management page.</span></span> 
 
 
 
-<span data-ttu-id="6387b-108">A função desta guias de tarefas é Tesoureiro.</span><span class="sxs-lookup"><span data-stu-id="6387b-108">The role of this task guides is Treasurer.</span></span> <span data-ttu-id="6387b-109">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="6387b-109">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="5c166-108">A função desta guias de tarefas é Tesoureiro.</span><span class="sxs-lookup"><span data-stu-id="5c166-108">The role of this task guides is Treasurer.</span></span> <span data-ttu-id="5c166-109">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="5c166-109">This task uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="6387b-110">Vá para Contas a pagar > Pagamentos > Diário de pagamentos</span><span class="sxs-lookup"><span data-stu-id="6387b-110">Go to Acounts payable > Payments > Payment journal</span></span>
-2. <span data-ttu-id="6387b-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="6387b-111">Click New.</span></span>
-3. <span data-ttu-id="6387b-112">No campo Nome, digite 'VendPay'.</span><span class="sxs-lookup"><span data-stu-id="6387b-112">In the Name field, type 'VendPay'.</span></span>
-4. <span data-ttu-id="6387b-113">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="6387b-113">Click Lines.</span></span>
-5. <span data-ttu-id="6387b-114">No campo Conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="6387b-114">In the Account field, specify the desired values.</span></span>
-6. <span data-ttu-id="6387b-115">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="6387b-115">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="6387b-116">No campo Débito, insira um número.</span><span class="sxs-lookup"><span data-stu-id="6387b-116">In the Debit field, enter a number.</span></span>
-8. <span data-ttu-id="6387b-117">No campo Método de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="6387b-117">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="6387b-118">Selecione o método de pagamento para o cheque pré-datado</span><span class="sxs-lookup"><span data-stu-id="6387b-118">Select the method of payment for the postdated check</span></span>  
-9. <span data-ttu-id="6387b-119">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="6387b-119">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="6387b-120">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="6387b-120">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="6387b-121">Clique na aba Cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="6387b-121">Click the Postdated checks tab.</span></span>
-12. <span data-ttu-id="6387b-122">No campo Número do cheque, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="6387b-122">In the Check number field, type a value.</span></span>
-    * <span data-ttu-id="6387b-123">Insira ou modifique o número do cheque pós-datado.</span><span class="sxs-lookup"><span data-stu-id="6387b-123">Enter or modify the number of the postdated check.</span></span>  
-13. <span data-ttu-id="6387b-124">No campo Nome do banco emissor, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="6387b-124">In the Issuing bank name field, type a value.</span></span>
-    * <span data-ttu-id="6387b-125">insira os detalhes do banco para o banco emissor.</span><span class="sxs-lookup"><span data-stu-id="6387b-125">enter the bank details for the issuing bank.</span></span>  
-14. <span data-ttu-id="6387b-126">Clique na guia Listar.</span><span class="sxs-lookup"><span data-stu-id="6387b-126">Click the List tab.</span></span>
-15. <span data-ttu-id="6387b-127">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="6387b-127">Click Post.</span></span>
-16. <span data-ttu-id="6387b-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6387b-128">Close the page.</span></span>
-17. <span data-ttu-id="6387b-129">Clique na aba Cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="6387b-129">Click the Postdated checks tab.</span></span>
+1. <span data-ttu-id="5c166-110">Vá para Contas a pagar > Pagamentos > Diário de pagamentos</span><span class="sxs-lookup"><span data-stu-id="5c166-110">Go to Acounts payable > Payments > Payment journal</span></span>
+2. <span data-ttu-id="5c166-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="5c166-111">Click New.</span></span>
+3. <span data-ttu-id="5c166-112">No campo Nome, digite 'VendPay'.</span><span class="sxs-lookup"><span data-stu-id="5c166-112">In the Name field, type 'VendPay'.</span></span>
+4. <span data-ttu-id="5c166-113">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="5c166-113">Click Lines.</span></span>
+5. <span data-ttu-id="5c166-114">No campo Conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="5c166-114">In the Account field, specify the desired values.</span></span>
+6. <span data-ttu-id="5c166-115">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="5c166-115">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="5c166-116">No campo Débito, insira um número.</span><span class="sxs-lookup"><span data-stu-id="5c166-116">In the Debit field, enter a number.</span></span>
+8. <span data-ttu-id="5c166-117">No campo Método de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="5c166-117">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="5c166-118">Selecione o método de pagamento para o cheque pré-datado</span><span class="sxs-lookup"><span data-stu-id="5c166-118">Select the method of payment for the postdated check</span></span>  
+9. <span data-ttu-id="5c166-119">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="5c166-119">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="5c166-120">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="5c166-120">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="5c166-121">Clique na aba Cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="5c166-121">Click the Postdated checks tab.</span></span>
+12. <span data-ttu-id="5c166-122">No campo Número do cheque, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="5c166-122">In the Check number field, type a value.</span></span>
+    * <span data-ttu-id="5c166-123">Insira ou modifique o número do cheque pós-datado.</span><span class="sxs-lookup"><span data-stu-id="5c166-123">Enter or modify the number of the postdated check.</span></span>  
+13. <span data-ttu-id="5c166-124">No campo Nome do banco emissor, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="5c166-124">In the Issuing bank name field, type a value.</span></span>
+    * <span data-ttu-id="5c166-125">insira os detalhes do banco para o banco emissor.</span><span class="sxs-lookup"><span data-stu-id="5c166-125">enter the bank details for the issuing bank.</span></span>  
+14. <span data-ttu-id="5c166-126">Clique na guia Listar.</span><span class="sxs-lookup"><span data-stu-id="5c166-126">Click the List tab.</span></span>
+15. <span data-ttu-id="5c166-127">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="5c166-127">Click Post.</span></span>
+16. <span data-ttu-id="5c166-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="5c166-128">Close the page.</span></span>
+17. <span data-ttu-id="5c166-129">Clique na aba Cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="5c166-129">Click the Postdated checks tab.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -15,44 +15,47 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b677056f11a8733bf90f18110b8ee47f6447503b
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84bb0f8250e68dd65aa87d126df59b7cea74b9ed
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976276"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5225212"
 ---
-# <a name="set-up-postdated-checks"></a><span data-ttu-id="02ca2-103">Configurar cheques pré-datados</span><span class="sxs-lookup"><span data-stu-id="02ca2-103">Set up postdated checks</span></span>
+# <a name="set-up-postdated-checks"></a><span data-ttu-id="aa1e7-103">Configurar cheques pré-datados</span><span class="sxs-lookup"><span data-stu-id="aa1e7-103">Set up postdated checks</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="02ca2-104">Este tópico explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores.</span><span class="sxs-lookup"><span data-stu-id="02ca2-104">This topic explains how to specify whether to post journal entries for postdated checks and which posting journals to use for clearing entries and vendor payments.</span></span> <span data-ttu-id="02ca2-105">Também é possível especificar as contas de compensação para cheques emitidos, cheques recebidos, e a retenção de imposto.</span><span class="sxs-lookup"><span data-stu-id="02ca2-105">You can also specify clearing accounts for issued checks, received checks, and withholding tax.</span></span> <span data-ttu-id="02ca2-106">Cheques pré-datados que são emitidos com a finalidade de realizar e receber pagamentos em uma data futura.</span><span class="sxs-lookup"><span data-stu-id="02ca2-106">Postdated checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="02ca2-107">É possível especificar se o cheque deve ser refletido nos registros de contabilidade antes da data de vencimento.</span><span class="sxs-lookup"><span data-stu-id="02ca2-107">You can specify whether the check must be reflected in the accounting books before its maturity date.</span></span>
+<span data-ttu-id="aa1e7-104">Este tópico explica como especificar se deseja lançar entradas de diário para cheques pré-datados e quais diários de lançamento a serem usados para limpar as entradas e os pagamentos de fornecedores.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-104">This topic explains how to specify whether to post journal entries for postdated checks and which posting journals to use for clearing entries and vendor payments.</span></span> <span data-ttu-id="aa1e7-105">Também é possível especificar as contas de compensação para cheques emitidos, cheques recebidos, e a retenção de imposto.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-105">You can also specify clearing accounts for issued checks, received checks, and withholding tax.</span></span> <span data-ttu-id="aa1e7-106">Cheques pré-datados que são emitidos com a finalidade de realizar e receber pagamentos em uma data futura.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-106">Postdated checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="aa1e7-107">É possível especificar se o cheque deve ser refletido nos registros de contabilidade antes da data de vencimento.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-107">You can specify whether the check must be reflected in the accounting books before its maturity date.</span></span>
 
 
 
-<span data-ttu-id="02ca2-108">A função deste procedimento é Tesoureiro.</span><span class="sxs-lookup"><span data-stu-id="02ca2-108">The role of this procedure is Treasurer.</span></span> <span data-ttu-id="02ca2-109">Este procedimento usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="02ca2-109">This procedure uses the USMF demo company.</span></span>
+<span data-ttu-id="aa1e7-108">A função deste procedimento é Tesoureiro.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-108">The role of this procedure is Treasurer.</span></span> <span data-ttu-id="aa1e7-109">Este procedimento usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-109">This procedure uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-postdated-checks"></a><span data-ttu-id="02ca2-110">Configurar cheques pré-datados</span><span class="sxs-lookup"><span data-stu-id="02ca2-110">Set up postdated checks</span></span>
-1. <span data-ttu-id="02ca2-111">Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.</span><span class="sxs-lookup"><span data-stu-id="02ca2-111">Go to Cash and bank management > Setup > Cash and bank management parameters.</span></span>
-2. <span data-ttu-id="02ca2-112">Clique na aba Cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-112">Click the Postdated checks tab.</span></span>
-3. <span data-ttu-id="02ca2-113">Marque ou desmarque a caixa de seleção Habilitar cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-113">Select or clear the Enable postdated checks check box.</span></span>
-4. <span data-ttu-id="02ca2-114">Marque ou desmarque a caixa de seleção Lançar entradas de diário para cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-114">Select or clear the Post journal entries for postdated checks check box.</span></span>
-5. <span data-ttu-id="02ca2-115">No campo Conta de compensação para cheques emitidos, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-115">In the Clearing account for issued checks field, specify the desired values.</span></span>
-6. <span data-ttu-id="02ca2-116">No campo Conta de compensação para cheques recebidos, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-116">In the Clearing account for received checks field, specify the desired values.</span></span>
-7. <span data-ttu-id="02ca2-117">No campo Diário geral para entradas de compensação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="02ca2-117">In the General journal for clearing entries field, type a value.</span></span>
-8. <span data-ttu-id="02ca2-118">No campo Transferir cheques pré-datados para este diário de pagamento de fornecedor, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="02ca2-118">In the Transfer postdated checks to this vendor payment journal field, type a value.</span></span>
-9. <span data-ttu-id="02ca2-119">No campo Conta de compensação de imposto retido na fonte, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-119">In the Withholding tax clearing account field, specify the desired values.</span></span>
-10. <span data-ttu-id="02ca2-120">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="02ca2-120">Click Save.</span></span>
-11. <span data-ttu-id="02ca2-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="02ca2-121">Close the page.</span></span>
-12. <span data-ttu-id="02ca2-122">Vá para Contas a pagar > Configurar pagamento > Métodos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="02ca2-122">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
-13. <span data-ttu-id="02ca2-123">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="02ca2-123">Click New.</span></span>
-14. <span data-ttu-id="02ca2-124">No campo Método de pagamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="02ca2-124">In the Method of payment field, type a value.</span></span>
-15. <span data-ttu-id="02ca2-125">Selecione a opção de lançamento Compensação de cheque pré-datado para indicar que o valor do cheque está lançado em uma conta de compensação.</span><span class="sxs-lookup"><span data-stu-id="02ca2-125">Select the Postdated check clearing posting option to indicate that the check amount is posted to a clearing account.</span></span>
-16. <span data-ttu-id="02ca2-126">No campo Tipo de conta, selecione 'Banco'.</span><span class="sxs-lookup"><span data-stu-id="02ca2-126">In the Account type field, select 'Bank'.</span></span>
-    * <span data-ttu-id="02ca2-127">A conta de contrapartida do método de pagamento será um banco.</span><span class="sxs-lookup"><span data-stu-id="02ca2-127">The offset account of the payment method will be a bank.</span></span>  
-17. <span data-ttu-id="02ca2-128">No campo Conta de pagamento, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="02ca2-128">In the Payment account field, specify the desired values.</span></span>
-    * <span data-ttu-id="02ca2-129">Selecione a conta bancária utilizada para deduzir o valor da fatura.</span><span class="sxs-lookup"><span data-stu-id="02ca2-129">Select the bank account that is used to deduct the invoice amount.</span></span>  
-18. <span data-ttu-id="02ca2-130">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="02ca2-130">Click Save.</span></span>
-19. <span data-ttu-id="02ca2-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="02ca2-131">Close the page.</span></span>
+## <a name="set-up-postdated-checks"></a><span data-ttu-id="aa1e7-110">Configurar cheques pré-datados</span><span class="sxs-lookup"><span data-stu-id="aa1e7-110">Set up postdated checks</span></span>
+1. <span data-ttu-id="aa1e7-111">Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-111">Go to Cash and bank management > Setup > Cash and bank management parameters.</span></span>
+2. <span data-ttu-id="aa1e7-112">Clique na aba Cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-112">Click the Postdated checks tab.</span></span>
+3. <span data-ttu-id="aa1e7-113">Marque ou desmarque a caixa de seleção Habilitar cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-113">Select or clear the Enable postdated checks check box.</span></span>
+4. <span data-ttu-id="aa1e7-114">Marque ou desmarque a caixa de seleção Lançar entradas de diário para cheques pré-datados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-114">Select or clear the Post journal entries for postdated checks check box.</span></span>
+5. <span data-ttu-id="aa1e7-115">No campo Conta de compensação para cheques emitidos, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-115">In the Clearing account for issued checks field, specify the desired values.</span></span>
+6. <span data-ttu-id="aa1e7-116">No campo Conta de compensação para cheques recebidos, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-116">In the Clearing account for received checks field, specify the desired values.</span></span>
+7. <span data-ttu-id="aa1e7-117">No campo Diário geral para entradas de compensação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-117">In the General journal for clearing entries field, type a value.</span></span>
+8. <span data-ttu-id="aa1e7-118">No campo Transferir cheques pré-datados para este diário de pagamento de fornecedor, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-118">In the Transfer postdated checks to this vendor payment journal field, type a value.</span></span>
+9. <span data-ttu-id="aa1e7-119">No campo Conta de compensação de imposto retido na fonte, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-119">In the Withholding tax clearing account field, specify the desired values.</span></span>
+10. <span data-ttu-id="aa1e7-120">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-120">Click Save.</span></span>
+11. <span data-ttu-id="aa1e7-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-121">Close the page.</span></span>
+12. <span data-ttu-id="aa1e7-122">Vá para Contas a pagar > Configurar pagamento > Métodos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-122">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
+13. <span data-ttu-id="aa1e7-123">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-123">Click New.</span></span>
+14. <span data-ttu-id="aa1e7-124">No campo Método de pagamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-124">In the Method of payment field, type a value.</span></span>
+15. <span data-ttu-id="aa1e7-125">Selecione a opção de lançamento Compensação de cheque pré-datado para indicar que o valor do cheque está lançado em uma conta de compensação.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-125">Select the Postdated check clearing posting option to indicate that the check amount is posted to a clearing account.</span></span>
+16. <span data-ttu-id="aa1e7-126">No campo Tipo de conta, selecione 'Banco'.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-126">In the Account type field, select 'Bank'.</span></span>
+    * <span data-ttu-id="aa1e7-127">A conta de contrapartida do método de pagamento será um banco.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-127">The offset account of the payment method will be a bank.</span></span>  
+17. <span data-ttu-id="aa1e7-128">No campo Conta de pagamento, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-128">In the Payment account field, specify the desired values.</span></span>
+    * <span data-ttu-id="aa1e7-129">Selecione a conta bancária utilizada para deduzir o valor da fatura.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-129">Select the bank account that is used to deduct the invoice amount.</span></span>  
+18. <span data-ttu-id="aa1e7-130">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-130">Click Save.</span></span>
+19. <span data-ttu-id="aa1e7-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="aa1e7-131">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
