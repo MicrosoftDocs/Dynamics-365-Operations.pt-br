@@ -17,16 +17,17 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ea89d54f1ce3a1e971d41623bf44f909f7dfdf09
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 7072c34ccbffc6bf135f55fd594cac4d9ea5a463
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5131269"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237507"
 ---
 # <a name="asset-leasing-conventions"></a>Convenções de arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve convenções ativos arrendados. As convenções de arrendamento são usadas para determinar a data de início de um registro de arrendamento. Se a convenção de arrendamento estiver definida como **Nenhum**, a data de início será a mesma que a data inicial do arrendamento (ou seja, o valor do campo **Data de início do arrendamento**). Se a convenção de arrendamento for definida como **Mês completo**, a data de início será o primeiro dia do mês em que a data inicial do arrendamento cairá.
 

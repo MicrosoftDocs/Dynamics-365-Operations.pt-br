@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 9f6747ff9d68c29612346254928e869d6d34d433
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 98631d8f9fb2c05621f69fa67c9b60472198ee6b
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962926"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5232558"
 ---
 # <a name="tender-based-discounts"></a>Descontos com base no meio de pagamento
 
@@ -34,7 +34,7 @@ ms.locfileid: "4962926"
 
 Como alternativa, os varejistas que não fornecem cartões de crédito com bandeira podem querer encorajar os clientes a realizar o pagamento usando outros meios, como dinheiro, cartões-presente ou pontos de fidelidade. Dessa forma, podem ajudar a reduzir as despesas com taxas de processamento de cartão de crédito. Portanto, os varejistas podem fornecer descontos para clientes que usam esses tipos de meio de pagamento alternativos.
 
-No Microsoft Dynamics 365 Commerce, os varejistas podem configurar uma porcentagem de desconto que é aplicada às linhas qualificadas se o cliente pagar usando o tipo de meio de pagamento preferencial. O cliente pode decidir entre realizar um pagamento parcial ou integral, e o Commerce determina o valor de desconto apropriado. Observe que o desconto é definido sempre com base no valor antes do imposto dos itens qualificados.
+No Microsoft Dynamics 365 Commerce, os varejistas podem configurar uma porcentagem de desconto que é aplicada às linhas qualificadas, se o cliente pagar usando o tipo de meio de pagamento preferencial. O cliente pode decidir entre realizar um pagamento parcial ou integral, e o Commerce determina o valor de desconto apropriado. Observe que o desconto é definido sempre com base no valor antes do imposto dos itens qualificados.
 
 Os descontos baseados em meios de pagamento não competem com descontos baseados em itens, como descontos periódicos ou manuais. Eles são sempre compostos com base nos descontos do item. Portanto, mesmo se um desconto periódico exclusivo for aplicado a um item, o desconto com base no meio de pagamento ainda é aplicado sobre o desconto periódico exclusivo. Da mesma forma, se um desconto de limite for aplicado à transação e o desconto baseado em meios de pagamento reduzir o total para abaixo do limite, o desconto de limite ainda será aplicado à transação.
 

@@ -1,6 +1,6 @@
 ---
 title: Habilitar recomendações de "descrição de comprar itens semelhantes"
-description: Este tópico descreve como habilitar recomendações de "descrição de comprar itens semelhantes" de produtos no Microsoft Dynamics 365 Commerce.
+description: Este tópico descreve como habilitar recomendações de produto "descrição de comprar itens semelhantes" no Microsoft Dynamics 365 Commerce.
 author: bsokolov
 manager: AnnBe
 ms.date: 01/13/2021
@@ -18,18 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: b3b7abf47a3bdacaa4b91ae32b68a809a84b0b1d
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: b6b397b1f21e3dfcdb4a2b7fe67ddb541d090a97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5098612"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234380"
 ---
-# <a name="enable-shop-similar-description-recommendations"></a>Habilitar recomendações de "descrição de comprar itens semelhantes"
+# <a name="enable-shop-similar-description-recommendations"></a>Habilitar recomendações de "comprar por descrição semelhante"
 
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como habilitar recomendações de "descrição de comprar itens semelhantes" de produtos no Microsoft Dynamics 365 Commerce.
+Este tópico descreve como habilitar recomendações de produto "descrição de comprar itens semelhantes" no Microsoft Dynamics 365 Commerce.
 
 O recurso de recomendações de "descrição de comprar itens semelhantes" no Dynamics 365 Commerce usa inteligência artificial e machine learning (IA-ML) para fornecer recomendações de produtos que tenham descrições semelhantes ao que o cliente está pesquisando. Ao disponibilizar as recomendações de "descrição de comprar itens semelhantes" para todos os canais de varejo no Commerce, os varejistas podem ajudar os clientes a encontrar o que desejam com facilidade.
 

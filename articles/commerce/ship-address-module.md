@@ -3,7 +3,7 @@ title: módulo de endereço de remessa
 description: Este tópico abrange o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
 manager: annbe
-ms.date: 08/05/2020
+ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,20 +16,18 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6a5eb69c7746be419779b1a844ee35ec375a324c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e590c966ca6bd8111df5f91cbac0485afaa45c78
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985627"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234404"
 ---
-# <a name="shipping-address-module"></a>módulo de endereço de remessa
+# <a name="shipping-address-module"></a>Módulo de endereço de remessa
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve o módulo de endereço de remessa e explica como configurá-lo no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 O módulo de endereço de remessa permite que os clientes adicionem ou selecionem o endereço de remessa para uma ordem durante o o fluxo de finalização de compra. Se o cliente estiver conectado, quaisquer endereços que foram salvos anteriormente para esse cliente serão exibidos e o cliente poderá selecionar entre eles. O cliente também pode adicionar um novo endereço. O módulo de endereço de remessa é usado para todos os itens em uma ordem que exija remessa.
 
@@ -49,6 +47,8 @@ A ilustração a seguir mostra um exemplo de um novo módulo de endereço de rem
 |---------------|--------|-------------|
 | Cabeçalho | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título opcional para o módulo de endereço de remessa. |
 | Mostrar tipo de endereço | **Verdadeiro** ou **Falso** | Se essa propriedade opcional for definida como **Verdadeira**, um tipo de endereço, como **Residencial** ou **Comercial**, será exibido. Se nenhum tipo de endereço for especificado, o endereço será salvo automaticamente como **Tipo**=**Outro**. |
+| Habilitar a sugestão automática| **Verdadeiro** ou **Falso** | Se essa propriedade opcional for definida como **Verdadeira**, sugestões de endereço automático serão fornecidas. Essas sugestões são desenvolvidas pelo Bing Maps. Para obter informações sobre como configurar a integração do Bing Maps para seu site, consulte [Módulo do seletor de armazenamento](store-selector.md). Este recurso está disponível a partir da versão 10.0.15 do Commerce.|
+|Opções de sugestão automática| Um número| Se as sugestões de endereço automático estiverem habilitadas, você poderá especificar opções adicionais, como o número máximo de sugestões que devem ser fornecidas.|
 
 ## <a name="add-a-shipping-address-module-to-a-checkout-page-and-set-the-required-properties"></a>Adicionar um módulo de endereço de remessa a uma página de finalização da compra e definir as propriedades necessárias
 
@@ -66,11 +66,13 @@ Um módulo de endereço de remessa pode ser adicionado somente a um módulo de f
 
 [Módulo de opções de entrega](delivery-options-module.md)
 
-[Módulo de informações sobre retirada](pickup-info-module.md)
+[Módulo de informações de retirada](pickup-info-module.md)
 
 [Módulo de detalhes da ordem](order-confirmation-module.md)
 
 [Módulo de cartão-presente](add-giftcard.md)
+
+[Módulo de seletor de loja](store-selector.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
