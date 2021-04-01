@@ -15,19 +15,19 @@ ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 669db4bc5da0073250e5851dfa0dc43151e3d675
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1ca76b57d8ed449f26a8a44b16d8fbf2d5c29700
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969991"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5250792"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico para o Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil (no escopo da [Localização Brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy)).
+Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico do Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil (no escopo da [Localização Brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy)).
 
 Porém, o Commerce não trata de todas as leis, regulamentos ou requisitos comerciais do Brasil, pois as leis e os regulamentos variam na forma como afetam as organizações. Para obter mais informações, consulte o [Guia de disponibilidade de tradução e localização de produtos](https://aka.ms/dynamics_365_international_availability_deck).
 
@@ -48,7 +48,7 @@ Os seguintes recursos do Commerce headquarters e do ponto de venda (PDV) estão 
 - Controle de documentos fiscais eletrônicos no Commerce headquarters. Esse recurso inclui recursos para descartar os documentos e registrar um cancelamento por substituição.
 - Geração e envio de documentos fiscais eletrônicos para ordens de clientes.
 - A capacidade de emitir NF-e vinculada para todos os tipos de documentos fiscais registrados.
-- Suporte de N-1, para que os clientes que trabalham com o Microsoft Dynamics AX 2012 R3 em suas lojas possam trabalhar com o Microsoft Dynamics 365 Commerce headquarters após uma atualização.
+- Suporte de N-1, para que os clientes que executam o Microsoft Dynamics AX 2012 R3 em suas lojas possam trabalhar com a sede do Microsoft Dynamics 365 Commerce após uma atualização.
 - Suporte para campos específicos do Brasil, como números de registro de impostos do CNPJ/CPF, quando os registros do cliente principais forem mesclados em um call center.
 
 ### <a name="supported-scenarios"></a>Cenários com suporte

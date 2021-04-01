@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6301ea8c38d6e863b6e448658f46c8122bea5ae4
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 2566b073b6ed0bfe93f0d34d5d16b53fb8241cb9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964602"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262780"
 ---
 # <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a>Encargos diversos sobre faturas de texto livre (Brasil)
 

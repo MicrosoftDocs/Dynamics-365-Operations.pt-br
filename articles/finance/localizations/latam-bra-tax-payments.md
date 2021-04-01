@@ -17,12 +17,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b2e8d2d1096aa2c5ac3f9b06abe66154727e4f7e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 02ad1aa8787130a8da7e040cf888c78d1c40a4b1
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964642"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5254423"
 ---
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 

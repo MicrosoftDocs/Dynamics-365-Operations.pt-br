@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 00ce3a2b4ecd2aaa23e656892d7dd419e9accfcc
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 221dda38329b87f739805a10432d51cf1aaf7371
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964611"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5242828"
 ---
 # <a name="delivery-slips-brazil"></a>Guias de entrega (Brasil)
 
