@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c6fbdf37373dc56607022adae843982b2bb6a497
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ca0c1aba4d77e5d5cabfd1db4a85e1e6f179807c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988305"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231494"
 ---
 # <a name="withholding-taxes-on-vendor-payments-brazil"></a>Impostos retidos na fonte em pagamentos de fornecedores (Brasil)
 

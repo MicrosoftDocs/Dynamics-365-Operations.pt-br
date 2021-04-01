@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2ac8cef3e09776e1749aaf684c4b345b97ccb479
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: e4c6f4881fa5ba4f7306d7caf1a700ca53bce6c5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4975291"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5231492"
 ---
 # <a name="set-up-interest-and-fines-for-vendor-payments-brazil"></a>Configurar juros e multas para pagamentos de fornecedores (Brasil)
 
