@@ -16,32 +16,35 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9de0609db95e5b76d04ae78202762cfdf2159f04
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d7d2f368b933054f4ea1248868b97808d05ed229
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5004968"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5233766"
 ---
-# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="057ea-103">Registrar check-in e check-out do motorista para um compromisso</span><span class="sxs-lookup"><span data-stu-id="057ea-103">Register driver check-in and check-out for an appointment</span></span>
+# <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="a59c6-103">Registrar check-in e check-out do motorista para um compromisso</span><span class="sxs-lookup"><span data-stu-id="a59c6-103">Register driver check-in and check-out for an appointment</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="057ea-104">Este procedimento mostra como registrar um check-in e o check-out do driver. Isso normalmente é feito por um coordenador de transporte.</span><span class="sxs-lookup"><span data-stu-id="057ea-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="057ea-105">Você pode usar este procedimento na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="057ea-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="057ea-106">Antes de começar, deve haver um compromisso configurado para um custo indireto.</span><span class="sxs-lookup"><span data-stu-id="057ea-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="057ea-107">Para criar um compromisso, você pode executar o procedimento "Definir um compromisso para uma carga" como um pré-requisito.</span><span class="sxs-lookup"><span data-stu-id="057ea-107">To create an appointment, you can run the "Set up an appointment for a load" procedure as a prerequisite.</span></span>
+<span data-ttu-id="a59c6-104">Este procedimento mostra como registrar um check-in e o check-out do driver. Isso normalmente é feito por um coordenador de transporte.</span><span class="sxs-lookup"><span data-stu-id="a59c6-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="a59c6-105">Você pode usar este procedimento na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="a59c6-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="a59c6-106">Antes de começar, deve haver um compromisso configurado para um custo indireto.</span><span class="sxs-lookup"><span data-stu-id="a59c6-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="a59c6-107">Para criar um compromisso, você pode executar o procedimento "Definir um compromisso para uma carga" como um pré-requisito.</span><span class="sxs-lookup"><span data-stu-id="a59c6-107">To create an appointment, you can run the "Set up an appointment for a load" procedure as a prerequisite.</span></span>
 
 
-## <a name="select-an-appointment"></a><span data-ttu-id="057ea-108">Selecione um compromisso</span><span class="sxs-lookup"><span data-stu-id="057ea-108">Select an appointment</span></span>
-1. <span data-ttu-id="057ea-109">Vá para Gerenciamento de transporte > Planejamento > Agendamento de compromisso de doca > Check-in e check-out do motorista.</span><span class="sxs-lookup"><span data-stu-id="057ea-109">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
-2. <span data-ttu-id="057ea-110">Selecione um compromisso.</span><span class="sxs-lookup"><span data-stu-id="057ea-110">Select an appointment.</span></span>
+## <a name="select-an-appointment"></a><span data-ttu-id="a59c6-108">Selecione um compromisso</span><span class="sxs-lookup"><span data-stu-id="a59c6-108">Select an appointment</span></span>
+1. <span data-ttu-id="a59c6-109">Vá para Gerenciamento de transporte > Planejamento > Agendamento de compromisso de doca > Check-in e check-out do motorista.</span><span class="sxs-lookup"><span data-stu-id="a59c6-109">Go to Transportation management > Planning > Dock appointment scheduling > Driver check-in and check-out.</span></span>
+2. <span data-ttu-id="a59c6-110">Selecione um compromisso.</span><span class="sxs-lookup"><span data-stu-id="a59c6-110">Select an appointment.</span></span>
 
-## <a name="register-driver-check-in"></a><span data-ttu-id="057ea-111">Registrar check-in do motorista</span><span class="sxs-lookup"><span data-stu-id="057ea-111">Register driver check-in</span></span>
-1. <span data-ttu-id="057ea-112">Clique em Detalhes do check-in.</span><span class="sxs-lookup"><span data-stu-id="057ea-112">Click Driver check-in.</span></span>
-2. <span data-ttu-id="057ea-113">No campo Número da carroceria, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="057ea-113">In the Trailer number field, type a value.</span></span>
-3. <span data-ttu-id="057ea-114">No campo Nome do motorista, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="057ea-114">In the Driver name field, type a value.</span></span>
-4. <span data-ttu-id="057ea-115">No campo Licença do motorista, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="057ea-115">In the Driver license field, type a value.</span></span>
-5. <span data-ttu-id="057ea-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="057ea-116">Click OK.</span></span>
+## <a name="register-driver-check-in"></a><span data-ttu-id="a59c6-111">Registrar check-in do motorista</span><span class="sxs-lookup"><span data-stu-id="a59c6-111">Register driver check-in</span></span>
+1. <span data-ttu-id="a59c6-112">Clique em Detalhes do check-in.</span><span class="sxs-lookup"><span data-stu-id="a59c6-112">Click Driver check-in.</span></span>
+2. <span data-ttu-id="a59c6-113">No campo Número da carroceria, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="a59c6-113">In the Trailer number field, type a value.</span></span>
+3. <span data-ttu-id="a59c6-114">No campo Nome do motorista, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="a59c6-114">In the Driver name field, type a value.</span></span>
+4. <span data-ttu-id="a59c6-115">No campo Licença do motorista, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="a59c6-115">In the Driver license field, type a value.</span></span>
+5. <span data-ttu-id="a59c6-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="a59c6-116">Click OK.</span></span>
 
-## <a name="register-driver-check-out"></a><span data-ttu-id="057ea-117">Registrar check-out do motorista</span><span class="sxs-lookup"><span data-stu-id="057ea-117">Register driver check-out</span></span>
-1. <span data-ttu-id="057ea-118">Clique em Check-out do motorista.</span><span class="sxs-lookup"><span data-stu-id="057ea-118">Click Driver check-out.</span></span>
-2. <span data-ttu-id="057ea-119">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="057ea-119">Click OK.</span></span>
+## <a name="register-driver-check-out"></a><span data-ttu-id="a59c6-117">Registrar check-out do motorista</span><span class="sxs-lookup"><span data-stu-id="a59c6-117">Register driver check-out</span></span>
+1. <span data-ttu-id="a59c6-118">Clique em Check-out do motorista.</span><span class="sxs-lookup"><span data-stu-id="a59c6-118">Click Driver check-out.</span></span>
+2. <span data-ttu-id="a59c6-119">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="a59c6-119">Click OK.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
