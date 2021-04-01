@@ -17,20 +17,20 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 481a8750b2333d5dd5de2c05e175569804a6046f
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6c54a8fa01badb6a383c41dc979e71d82a25ef97
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985827"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251226"
 ---
-# <a name="opt-in-to-use-ratings-and-reviews"></a>Aceitar usar classificações e opiniões
+# <a name="opt-in-to-use-ratings-and-reviews"></a>Aceitar o uso das classificações e opiniões
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como aceitar usar classificações e opiniões em seu site do Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 A solução de classificações e revisões é uma solução de omni-channel que você pode disponibilizar no Dynamics 365 Commerce usando o Microsoft Dynamics Lifecycle Services (LCS). O LCS é um portal de administração que os fornecedores usam para gerenciar os ambientes desde o provisionamento até a desativação.
 

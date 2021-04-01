@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 784b439764dbfbc7a66ac3527615a9e98c7967ac
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 473491b8dd7b3331cc99c70acfe973b8f16e10d8
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4961546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252131"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---icms-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)
 

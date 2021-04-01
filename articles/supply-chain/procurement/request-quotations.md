@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b3338e1837496605ce94a54eb57a32b1b83145b
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: d0338447cba847f3677f5e3de7144fc75da01ddf
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5016922"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5237367"
 ---
 # <a name="requests-for-quotation-rfqs-overview"></a>Visão geral de solicitações de cotação (RFQs)
 
@@ -80,23 +80,23 @@ Na página **Parâmetros de compra**, você seleciona o modelo a ser usado para 
 - %Motivo do retorno do lance%
 - %Motivo do aditamento%
 - %Aditamento preparado por%
-- %Empresa%
+- %Company%
 - %Nome do caso de RFQ%
 - %Data/hora de vencimento%
-- %Data%
+- %Date%
 
-Os tokens %Motivo do retorno do lance% e %Motivo do aditamento% são substituídos pelo texto que o profissional de aquisição pode inserir quando ele concluir o aditamento no assistente **Aditamento**. Os valores dos tokens %Aditamento preparado por% e %Empresa% são automaticamente efetuados da RFQ. O token de %Date% é substituído na data atual.
+Os tokens %Motivo do retorno do lance% e %Motivo do aditamento% são substituídos pelo texto que o profissional de aquisição pode inserir quando ele concluir o aditamento no assistente **Aditamento**. Os valores dos tokens %Amendment prepared by% e %Company% são automaticamente obtidos da RFQ. O token %Date% é substituído pela data atual.
 
 Para cancelar uma RFQ após seu envio, é possível fazer isso no caso de RFQ. Para fazer o cancelamento, um modelo de email é obrigatório para enviar a notificação de cancelamento às pessoas de contato do fornecedor. O modelo deve ser selecionado na página **Parâmetros de compras**. Quando o modelo for criado, ele poderá conter os seguintes tokens de substituição:
 
 - %Motivo do cancelamento%
 - %Caso de RFQ%
 - %RFQ cancelada por%
-- %Empresa%
+- %Company%
 - %Nome do caso de RFQ%
-- %Data%
+- %Date%
 
-O token %Motivo do cancelamento% foi substituído pelo texto que o profissional de compras pode inserir no assistente de **Cancelamento**. O token de %Date% é substituído na data atual.
+O token %Motivo do cancelamento% foi substituído pelo texto que o profissional de compras pode inserir no assistente de **Cancelamento**. O token %Date% é substituído pela data atual.
 
 Se você quiser usar os códigos de motivos em um lance para indicar o motivo de sua rejeição ou aceitação, deverá configurar os códigos de motivos na página **Motivos do fornecedor**.
 
