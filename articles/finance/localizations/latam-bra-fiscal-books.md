@@ -16,12 +16,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8cae660a58c0d317106043b19ba3e68ccb5ef70c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 079a3d0130b996dd9a34ef1a813dcfd16eedc80d
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4962585"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247955"
 ---
 # <a name="brazil-fiscal-books-overview"></a>Visão geral dos livros fiscais do Brasil
 

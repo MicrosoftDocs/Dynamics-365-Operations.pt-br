@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c7cf9e76ffb30ee5c8bba318b2644e67c757bff0
-ms.sourcegitcommit: 872600103d2a444d78963867e5e0cdc62e68c3ec
+ms.openlocfilehash: 00942befef9f9b6a878766bbbb5341426e31db2c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "5097406"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252597"
 ---
 # <a name="manage-seo-metadata"></a>Gerenciar metadados de SEO
 
@@ -30,7 +30,7 @@ ms.locfileid: "5097406"
 
 Este tópico descreve como gerenciar metadados da otimização do mecanismo de pesquisa (SEO) no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
+## <a name="overview"></a>Visão Geral
 
 Os metadados de SEO para um site podem ser gerenciados usando mapas do site e metadados da página.
     
