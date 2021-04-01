@@ -17,36 +17,39 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 09128f33d4208bc5c987683bb881aa1129b0dc8e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1f85ece0b25237c194777b41566860c49d4b9d39
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985427"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5258199"
 ---
-# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="24fc3-104">Visão geral da reconciliação bancária avançada</span><span class="sxs-lookup"><span data-stu-id="24fc3-104">Advanced bank reconciliation overview</span></span>
+# <a name="advanced-bank-reconciliation-overview"></a><span data-ttu-id="5daf0-104">Visão geral da reconciliação bancária avançada</span><span class="sxs-lookup"><span data-stu-id="5daf0-104">Advanced bank reconciliation overview</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="24fc3-105">Este artigo descreve o fluxo do processo de reconciliação avançado do banco.</span><span class="sxs-lookup"><span data-stu-id="24fc3-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="24fc3-106">O recurso avançado de reconciliação bancária permite que você importe os extratos bancários que podem ser reconciliados automaticamente nas transações bancárias.</span><span class="sxs-lookup"><span data-stu-id="24fc3-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
+<span data-ttu-id="5daf0-105">Este artigo descreve o fluxo do processo de reconciliação avançado do banco.</span><span class="sxs-lookup"><span data-stu-id="5daf0-105">This article describes the flow for the advanced bank reconciliation process.</span></span> <span data-ttu-id="5daf0-106">O recurso avançado de reconciliação bancária permite que você importe os extratos bancários que podem ser reconciliados automaticamente nas transações bancárias.</span><span class="sxs-lookup"><span data-stu-id="5daf0-106">The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.</span></span>
 
-<span data-ttu-id="24fc3-107">O recurso de reconciliação bancária avançada permite que você importe extratos bancários.</span><span class="sxs-lookup"><span data-stu-id="24fc3-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="24fc3-108">O extrato bancário importado pode ser reconciliado automaticamente nas transações bancárias.</span><span class="sxs-lookup"><span data-stu-id="24fc3-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="24fc3-109">Veja as etapas do fluxo de reconciliação bancária avançada.</span><span class="sxs-lookup"><span data-stu-id="24fc3-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
+<span data-ttu-id="5daf0-107">O recurso de reconciliação bancária avançada permite que você importe extratos bancários.</span><span class="sxs-lookup"><span data-stu-id="5daf0-107">The advanced bank reconciliation feature lets you import bank statements.</span></span> <span data-ttu-id="5daf0-108">O extrato bancário importado pode ser reconciliado automaticamente nas transações bancárias.</span><span class="sxs-lookup"><span data-stu-id="5daf0-108">The imported bank statement can then be automatically reconciled from within bank transactions.</span></span> <span data-ttu-id="5daf0-109">Veja as etapas do fluxo de reconciliação bancária avançada.</span><span class="sxs-lookup"><span data-stu-id="5daf0-109">Here are the steps in the advanced bank reconciliation flow.</span></span>
 
-1.  <span data-ttu-id="24fc3-110">Configurar uma importação de extrato bancário.</span><span class="sxs-lookup"><span data-stu-id="24fc3-110">Set up a bank statement import.</span></span>
-    -   <span data-ttu-id="24fc3-111">Importar extratos bancários por meio da estrutura de entidade de dados.</span><span class="sxs-lookup"><span data-stu-id="24fc3-111">Import bank statements through the data entity framework.</span></span>
-    -   <span data-ttu-id="24fc3-112">Três formatos de extratos bancários típicos são internos: ISO20022, BAI2, e MT940.</span><span class="sxs-lookup"><span data-stu-id="24fc3-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
-    -   <span data-ttu-id="24fc3-113">A funcionalidade pode se estendida para qualquer formato.</span><span class="sxs-lookup"><span data-stu-id="24fc3-113">The functionality can be extended to any format.</span></span>
+1.  <span data-ttu-id="5daf0-110">Configurar uma importação de extrato bancário.</span><span class="sxs-lookup"><span data-stu-id="5daf0-110">Set up a bank statement import.</span></span>
+    -   <span data-ttu-id="5daf0-111">Importar extratos bancários por meio da estrutura de entidade de dados.</span><span class="sxs-lookup"><span data-stu-id="5daf0-111">Import bank statements through the data entity framework.</span></span>
+    -   <span data-ttu-id="5daf0-112">Três formatos de extratos bancários típicos são internos: ISO20022, BAI2, e MT940.</span><span class="sxs-lookup"><span data-stu-id="5daf0-112">Three typical bank statement formats are built in: ISO20022, BAI2, and MT940.</span></span>
+    -   <span data-ttu-id="5daf0-113">A funcionalidade pode se estendida para qualquer formato.</span><span class="sxs-lookup"><span data-stu-id="5daf0-113">The functionality can be extended to any format.</span></span>
 
-2.  <span data-ttu-id="24fc3-114">Configure uma sequência numérica para a reconciliação bancária avançada e defina as regras de correspondência da reconciliação bancária.</span><span class="sxs-lookup"><span data-stu-id="24fc3-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
-    -   <span data-ttu-id="24fc3-115">Uma regra de correspondência de reconciliação é um conjunto de critérios usados para filtrar as linhas do extrato bancário e as linhas de transações bancárias no Microsoft Dynamics 365 Finance durante o processo de reconciliação.</span><span class="sxs-lookup"><span data-stu-id="24fc3-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 Finance bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="24fc3-116">Dependendo da prática empresarial, você pode configurar mais de uma regra de correspondência para automatizar e otimizar o processo de reconciliação.</span><span class="sxs-lookup"><span data-stu-id="24fc3-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
+2.  <span data-ttu-id="5daf0-114">Configure uma sequência numérica para a reconciliação bancária avançada e defina as regras de correspondência da reconciliação bancária.</span><span class="sxs-lookup"><span data-stu-id="5daf0-114">Set up a number sequence to use for advanced bank reconciliation, and define the bank reconciliation matching rules.</span></span>
+    -   <span data-ttu-id="5daf0-115">Uma regra de correspondência de reconciliação é um conjunto de critérios usados para filtrar as linhas do extrato bancário e as linhas de transações bancárias no Microsoft Dynamics 365 Finance durante o processo de reconciliação.</span><span class="sxs-lookup"><span data-stu-id="5daf0-115">A reconciliation matching rule is a set of criteria that are used to filter bank statement lines and Microsoft Dynamics 365 Finance bank transaction lines during the reconciliation process.</span></span> <span data-ttu-id="5daf0-116">Dependendo da prática empresarial, você pode configurar mais de uma regra de correspondência para automatizar e otimizar o processo de reconciliação.</span><span class="sxs-lookup"><span data-stu-id="5daf0-116">Depending on your business practice, you can set up more than one matching rule to automate and optimize your reconciliation process.</span></span>
 
-3.  <span data-ttu-id="24fc3-117">Reconciliar extratos bancários com as transações bancárias do Finance.</span><span class="sxs-lookup"><span data-stu-id="24fc3-117">Reconcile bank statements with Finance bank transactions.</span></span>
-    -   <span data-ttu-id="24fc3-118">Executar a correspondência e a criação automática de diários de reconciliação.</span><span class="sxs-lookup"><span data-stu-id="24fc3-118">Perform automatic matching and creation of reconciliation journals.</span></span>
-    -   <span data-ttu-id="24fc3-119">Visualizar extratos bancários e as transações bancárias do Finance lado a lado.</span><span class="sxs-lookup"><span data-stu-id="24fc3-119">View bank statements and Finance bank transactions side by side.</span></span>
-    -   <span data-ttu-id="24fc3-120">Lance as transações bancárias do Finance automaticamente se elas forem exibidas no extrato bancário, mas não aparecerem no aplicativo Finance.</span><span class="sxs-lookup"><span data-stu-id="24fc3-120">Automatically post Finance bank transactions if they appear on a bank statement but don't appear in the Finance app.</span></span>
-    -   <span data-ttu-id="24fc3-121">Gere um demonstrativo da reconciliação.</span><span class="sxs-lookup"><span data-stu-id="24fc3-121">Generate a reconciliation statement.</span></span>
-
-
+3.  <span data-ttu-id="5daf0-117">Reconciliar extratos bancários com as transações bancárias do Finance.</span><span class="sxs-lookup"><span data-stu-id="5daf0-117">Reconcile bank statements with Finance bank transactions.</span></span>
+    -   <span data-ttu-id="5daf0-118">Executar a correspondência e a criação automática de diários de reconciliação.</span><span class="sxs-lookup"><span data-stu-id="5daf0-118">Perform automatic matching and creation of reconciliation journals.</span></span>
+    -   <span data-ttu-id="5daf0-119">Visualizar extratos bancários e as transações bancárias do Finance lado a lado.</span><span class="sxs-lookup"><span data-stu-id="5daf0-119">View bank statements and Finance bank transactions side by side.</span></span>
+    -   <span data-ttu-id="5daf0-120">Lance as transações bancárias do Finance automaticamente se elas forem exibidas no extrato bancário, mas não aparecerem no aplicativo Finance.</span><span class="sxs-lookup"><span data-stu-id="5daf0-120">Automatically post Finance bank transactions if they appear on a bank statement but don't appear in the Finance app.</span></span>
+    -   <span data-ttu-id="5daf0-121">Gere um demonstrativo da reconciliação.</span><span class="sxs-lookup"><span data-stu-id="5daf0-121">Generate a reconciliation statement.</span></span>
 
 
 
+
+
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
