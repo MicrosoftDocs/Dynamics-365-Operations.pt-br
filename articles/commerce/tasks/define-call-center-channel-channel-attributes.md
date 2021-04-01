@@ -14,88 +14,91 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 59193d5d6a54fba89394e9700beb3b9596c47391
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d5e4ef84abcfd0948c46c5312078f2a940840144
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976555"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5256940"
 ---
-# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="ed3a7-103">Criar canais de call center e definir atributos de canal</span><span class="sxs-lookup"><span data-stu-id="ed3a7-103">Create call center channels and define channel attributes</span></span>
+# <a name="create-call-center-channels-and-define-channel-attributes"></a><span data-ttu-id="f665c-103">Criar canais de call center e definir atributos de canal</span><span class="sxs-lookup"><span data-stu-id="f665c-103">Create call center channels and define channel attributes</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="ed3a7-104">Este procedimento orienta como criar um novo canal de comércio e definir atributos do canal.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="ed3a7-105">A empresa de dados de demonstração usada para criar esta tarefa é USRT.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="ed3a7-106">Este procedimento é destinado para a função TI de Comércio.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-106">This procedure is intended for the Commerce IT role.</span></span>
+<span data-ttu-id="f665c-104">Este procedimento orienta como criar um novo canal de comércio e definir atributos do canal.</span><span class="sxs-lookup"><span data-stu-id="f665c-104">This procedure walks through creating a new commerce channel and defining channel attributes.</span></span> <span data-ttu-id="f665c-105">A empresa de dados de demonstração usada para criar esta tarefa é USRT.</span><span class="sxs-lookup"><span data-stu-id="f665c-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="f665c-106">Este procedimento é destinado para a função TI de Comércio.</span><span class="sxs-lookup"><span data-stu-id="f665c-106">This procedure is intended for the Commerce IT role.</span></span>
 
 
-## <a name="create-new-store"></a><span data-ttu-id="ed3a7-107">Criar nova loja</span><span class="sxs-lookup"><span data-stu-id="ed3a7-107">Create new store</span></span>
-1. <span data-ttu-id="ed3a7-108">Vá para Todos os espaços de trabalho > Implementação do canal.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-108">Go to All workspaces > Channel deployment.</span></span>
-2. <span data-ttu-id="ed3a7-109">Clique em Novo canal.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-109">Click New channel.</span></span>
-3. <span data-ttu-id="ed3a7-110">Clique em Loja.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-110">Click Store.</span></span>
-4. <span data-ttu-id="ed3a7-111">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-111">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="ed3a7-112">No campo Número da loja, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-112">In the Store number field, type a value.</span></span>
-6. <span data-ttu-id="ed3a7-113">No campo Depósito, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
-7. <span data-ttu-id="ed3a7-114">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-114">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="ed3a7-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-115">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="ed3a7-116">No campo Fuso horário da loja, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-116">In the Store time zone field, select an option.</span></span>
-10. <span data-ttu-id="ed3a7-117">No campo Perfil do canal, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
-11. <span data-ttu-id="ed3a7-118">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-118">In the list, click the link in the selected row.</span></span>
-12. <span data-ttu-id="ed3a7-119">No campo Idioma, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-119">In the Language field, click the drop-down button to open the lookup.</span></span>
-13. <span data-ttu-id="ed3a7-120">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-120">In the list, find and select the desired record.</span></span>
-14. <span data-ttu-id="ed3a7-121">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-121">In the list, click the link in the selected row.</span></span>
-15. <span data-ttu-id="ed3a7-122">No campo Grupo de imposto, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
-16. <span data-ttu-id="ed3a7-123">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-123">In the list, find and select the desired record.</span></span>
-17. <span data-ttu-id="ed3a7-124">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-124">In the list, click the link in the selected row.</span></span>
-18. <span data-ttu-id="ed3a7-125">No campo Catálogo de endereços do cliente, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="ed3a7-126">Selecione o catálogo de endereço usado para vincular clientes a esta loja.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-126">Select the address book used to link customers to this store.</span></span>  
-19. <span data-ttu-id="ed3a7-127">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-127">In the list, find and select the desired record.</span></span>
-20. <span data-ttu-id="ed3a7-128">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-128">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="ed3a7-129">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-129">Click Select.</span></span>
-22. <span data-ttu-id="ed3a7-130">No campo Catálogo de endereços do funcionário, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="ed3a7-131">Selecione o catálogo de endereço usado para vincular caixas a este canal.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-131">Select the address book used to link cashiers to this channel.</span></span>  
-23. <span data-ttu-id="ed3a7-132">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-132">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="ed3a7-133">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-133">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="ed3a7-134">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-134">Click Select.</span></span>
-26. <span data-ttu-id="ed3a7-135">No campo Cliente padrão, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
-27. <span data-ttu-id="ed3a7-136">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-136">In the list, click the link in the selected row.</span></span>
-28. <span data-ttu-id="ed3a7-137">Expandir ou recolha a seção Layout da tela.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-137">Expand or collapse the Screen layout section.</span></span>
-29. <span data-ttu-id="ed3a7-138">No campo ID do layout da tela, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="ed3a7-139">Selecione o layout da tela do PDV padrão para esta loja</span><span class="sxs-lookup"><span data-stu-id="ed3a7-139">Select the default POS screen layout for this store.</span></span>  
-30. <span data-ttu-id="ed3a7-140">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-140">In the list, find and select the desired record.</span></span>
-31. <span data-ttu-id="ed3a7-141">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-141">In the list, click the link in the selected row.</span></span>
-32. <span data-ttu-id="ed3a7-142">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-142">On the Action Pane, click Set up.</span></span>
-33. <span data-ttu-id="ed3a7-143">Clique em Atributos de canal.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-143">Click Channel attributes.</span></span>
-34. <span data-ttu-id="ed3a7-144">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-144">Click New.</span></span>
-35. <span data-ttu-id="ed3a7-145">No campo Nome, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-145">In the Name field, click the drop-down button to open the lookup.</span></span>
-36. <span data-ttu-id="ed3a7-146">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-146">In the list, find and select the desired record.</span></span>
-37. <span data-ttu-id="ed3a7-147">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-147">In the list, click the link in the selected row.</span></span>
-38. <span data-ttu-id="ed3a7-148">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-148">Click Save.</span></span>
-39. <span data-ttu-id="ed3a7-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-149">Close the page.</span></span>
-40. <span data-ttu-id="ed3a7-150">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-150">On the Action Pane, click Set up.</span></span>
-41. <span data-ttu-id="ed3a7-151">Clique em Métodos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-151">Click Payment methods.</span></span>
-42. <span data-ttu-id="ed3a7-152">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-152">Click New.</span></span>
-43. <span data-ttu-id="ed3a7-153">No campo Método de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
-44. <span data-ttu-id="ed3a7-154">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-154">In the list, click the link in the selected row.</span></span>
-45. <span data-ttu-id="ed3a7-155">Expandir ou recolher a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-155">Expand or collapse the Posting section.</span></span>
-46. <span data-ttu-id="ed3a7-156">No campo Número da conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-156">In the Account number field, specify the desired values.</span></span>
-47. <span data-ttu-id="ed3a7-157">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-157">Click Save.</span></span>
-48. <span data-ttu-id="ed3a7-158">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-158">Close the page.</span></span>
-49. <span data-ttu-id="ed3a7-159">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-159">On the Action Pane, click Set up.</span></span>
-50. <span data-ttu-id="ed3a7-160">Clique em Declaração de valores em caixa</span><span class="sxs-lookup"><span data-stu-id="ed3a7-160">Click Cash declaration.</span></span>
-51. <span data-ttu-id="ed3a7-161">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-161">Click New.</span></span>
-52. <span data-ttu-id="ed3a7-162">No campo Valor na moeda da transação, insira um número.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-162">In the Amount in transaction currency field, enter a number.</span></span>
-53. <span data-ttu-id="ed3a7-163">No campo Moeda, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
-54. <span data-ttu-id="ed3a7-164">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-164">In the list, find and select the desired record.</span></span>
-55. <span data-ttu-id="ed3a7-165">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-165">In the list, click the link in the selected row.</span></span>
-56. <span data-ttu-id="ed3a7-166">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-166">Click Save.</span></span>
-57. <span data-ttu-id="ed3a7-167">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-167">Close the page.</span></span>
-58. <span data-ttu-id="ed3a7-168">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-168">On the Action Pane, click Set up.</span></span>
-59. <span data-ttu-id="ed3a7-169">Clique na Atribuição de grupo de localizador de loja.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-169">Click Store locator group assignment.</span></span>
-60. <span data-ttu-id="ed3a7-170">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-170">Click New.</span></span>
-61. <span data-ttu-id="ed3a7-171">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-171">In the list, mark the selected row.</span></span>
-62. <span data-ttu-id="ed3a7-172">No campo Grupo de localizador, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
-63. <span data-ttu-id="ed3a7-173">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-173">In the list, find and select the desired record.</span></span>
-64. <span data-ttu-id="ed3a7-174">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-174">In the list, click the link in the selected row.</span></span>
-65. <span data-ttu-id="ed3a7-175">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-175">Click Save.</span></span>
-66. <span data-ttu-id="ed3a7-176">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ed3a7-176">Close the page.</span></span>
+## <a name="create-new-store"></a><span data-ttu-id="f665c-107">Criar nova loja</span><span class="sxs-lookup"><span data-stu-id="f665c-107">Create new store</span></span>
+1. <span data-ttu-id="f665c-108">Vá para Todos os espaços de trabalho > Implementação do canal.</span><span class="sxs-lookup"><span data-stu-id="f665c-108">Go to All workspaces > Channel deployment.</span></span>
+2. <span data-ttu-id="f665c-109">Clique em Novo canal.</span><span class="sxs-lookup"><span data-stu-id="f665c-109">Click New channel.</span></span>
+3. <span data-ttu-id="f665c-110">Clique em Loja.</span><span class="sxs-lookup"><span data-stu-id="f665c-110">Click Store.</span></span>
+4. <span data-ttu-id="f665c-111">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f665c-111">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="f665c-112">No campo Número da loja, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f665c-112">In the Store number field, type a value.</span></span>
+6. <span data-ttu-id="f665c-113">No campo Depósito, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-113">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="f665c-114">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-114">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="f665c-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-115">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="f665c-116">No campo Fuso horário da loja, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="f665c-116">In the Store time zone field, select an option.</span></span>
+10. <span data-ttu-id="f665c-117">No campo Perfil do canal, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-117">In the Channel profile field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="f665c-118">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-118">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="f665c-119">No campo Idioma, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-119">In the Language field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="f665c-120">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-120">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="f665c-121">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-121">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="f665c-122">No campo Grupo de imposto, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-122">In the Sales tax group field, click the drop-down button to open the lookup.</span></span>
+16. <span data-ttu-id="f665c-123">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-123">In the list, find and select the desired record.</span></span>
+17. <span data-ttu-id="f665c-124">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-124">In the list, click the link in the selected row.</span></span>
+18. <span data-ttu-id="f665c-125">No campo Catálogo de endereços do cliente, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-125">In the Customer address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f665c-126">Selecione o catálogo de endereço usado para vincular clientes a esta loja.</span><span class="sxs-lookup"><span data-stu-id="f665c-126">Select the address book used to link customers to this store.</span></span>  
+19. <span data-ttu-id="f665c-127">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-127">In the list, find and select the desired record.</span></span>
+20. <span data-ttu-id="f665c-128">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-128">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="f665c-129">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="f665c-129">Click Select.</span></span>
+22. <span data-ttu-id="f665c-130">No campo Catálogo de endereços do funcionário, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-130">In the Employee address book field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f665c-131">Selecione o catálogo de endereço usado para vincular caixas a este canal.</span><span class="sxs-lookup"><span data-stu-id="f665c-131">Select the address book used to link cashiers to this channel.</span></span>  
+23. <span data-ttu-id="f665c-132">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-132">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="f665c-133">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-133">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="f665c-134">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="f665c-134">Click Select.</span></span>
+26. <span data-ttu-id="f665c-135">No campo Cliente padrão, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-135">In the Default customer field, click the drop-down button to open the lookup.</span></span>
+27. <span data-ttu-id="f665c-136">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-136">In the list, click the link in the selected row.</span></span>
+28. <span data-ttu-id="f665c-137">Expandir ou recolha a seção Layout da tela.</span><span class="sxs-lookup"><span data-stu-id="f665c-137">Expand or collapse the Screen layout section.</span></span>
+29. <span data-ttu-id="f665c-138">No campo ID do layout da tela, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-138">In the Screen layout ID field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f665c-139">Selecione o layout da tela do PDV padrão para esta loja</span><span class="sxs-lookup"><span data-stu-id="f665c-139">Select the default POS screen layout for this store.</span></span>  
+30. <span data-ttu-id="f665c-140">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-140">In the list, find and select the desired record.</span></span>
+31. <span data-ttu-id="f665c-141">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-141">In the list, click the link in the selected row.</span></span>
+32. <span data-ttu-id="f665c-142">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="f665c-142">On the Action Pane, click Set up.</span></span>
+33. <span data-ttu-id="f665c-143">Clique em Atributos de canal.</span><span class="sxs-lookup"><span data-stu-id="f665c-143">Click Channel attributes.</span></span>
+34. <span data-ttu-id="f665c-144">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f665c-144">Click New.</span></span>
+35. <span data-ttu-id="f665c-145">No campo Nome, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-145">In the Name field, click the drop-down button to open the lookup.</span></span>
+36. <span data-ttu-id="f665c-146">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-146">In the list, find and select the desired record.</span></span>
+37. <span data-ttu-id="f665c-147">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-147">In the list, click the link in the selected row.</span></span>
+38. <span data-ttu-id="f665c-148">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f665c-148">Click Save.</span></span>
+39. <span data-ttu-id="f665c-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f665c-149">Close the page.</span></span>
+40. <span data-ttu-id="f665c-150">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="f665c-150">On the Action Pane, click Set up.</span></span>
+41. <span data-ttu-id="f665c-151">Clique em Métodos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="f665c-151">Click Payment methods.</span></span>
+42. <span data-ttu-id="f665c-152">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f665c-152">Click New.</span></span>
+43. <span data-ttu-id="f665c-153">No campo Método de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-153">In the Payment method field, click the drop-down button to open the lookup.</span></span>
+44. <span data-ttu-id="f665c-154">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-154">In the list, click the link in the selected row.</span></span>
+45. <span data-ttu-id="f665c-155">Expandir ou recolher a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="f665c-155">Expand or collapse the Posting section.</span></span>
+46. <span data-ttu-id="f665c-156">No campo Número da conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="f665c-156">In the Account number field, specify the desired values.</span></span>
+47. <span data-ttu-id="f665c-157">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f665c-157">Click Save.</span></span>
+48. <span data-ttu-id="f665c-158">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f665c-158">Close the page.</span></span>
+49. <span data-ttu-id="f665c-159">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="f665c-159">On the Action Pane, click Set up.</span></span>
+50. <span data-ttu-id="f665c-160">Clique em Declaração de valores em caixa</span><span class="sxs-lookup"><span data-stu-id="f665c-160">Click Cash declaration.</span></span>
+51. <span data-ttu-id="f665c-161">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f665c-161">Click New.</span></span>
+52. <span data-ttu-id="f665c-162">No campo Valor na moeda da transação, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f665c-162">In the Amount in transaction currency field, enter a number.</span></span>
+53. <span data-ttu-id="f665c-163">No campo Moeda, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-163">In the Currency field, click the drop-down button to open the lookup.</span></span>
+54. <span data-ttu-id="f665c-164">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-164">In the list, find and select the desired record.</span></span>
+55. <span data-ttu-id="f665c-165">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-165">In the list, click the link in the selected row.</span></span>
+56. <span data-ttu-id="f665c-166">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f665c-166">Click Save.</span></span>
+57. <span data-ttu-id="f665c-167">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f665c-167">Close the page.</span></span>
+58. <span data-ttu-id="f665c-168">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="f665c-168">On the Action Pane, click Set up.</span></span>
+59. <span data-ttu-id="f665c-169">Clique na Atribuição de grupo de localizador de loja.</span><span class="sxs-lookup"><span data-stu-id="f665c-169">Click Store locator group assignment.</span></span>
+60. <span data-ttu-id="f665c-170">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f665c-170">Click New.</span></span>
+61. <span data-ttu-id="f665c-171">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-171">In the list, mark the selected row.</span></span>
+62. <span data-ttu-id="f665c-172">No campo Grupo de localizador, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="f665c-172">In the Locator group field, click the drop-down button to open the lookup.</span></span>
+63. <span data-ttu-id="f665c-173">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="f665c-173">In the list, find and select the desired record.</span></span>
+64. <span data-ttu-id="f665c-174">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f665c-174">In the list, click the link in the selected row.</span></span>
+65. <span data-ttu-id="f665c-175">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f665c-175">Click Save.</span></span>
+66. <span data-ttu-id="f665c-176">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f665c-176">Close the page.</span></span>
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

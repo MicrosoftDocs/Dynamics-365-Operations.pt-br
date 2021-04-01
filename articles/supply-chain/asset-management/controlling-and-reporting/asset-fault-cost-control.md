@@ -17,47 +17,50 @@ ms.search.region: Global
 ms.author: riluan
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 597e30db346e882a7002709be52ad1c2d0576099
-ms.sourcegitcommit: deac22ba5377a912d93fe408c5ae875706378c2d
+ms.openlocfilehash: c25b3efbd0f2f0ec22a08aeac54ffb7fd9398c83
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/16/2021
-ms.locfileid: "5019931"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5253821"
 ---
-# <a name="asset-fault-cost-control"></a><span data-ttu-id="3c805-103">Controle de custo de falhas de ativos</span><span class="sxs-lookup"><span data-stu-id="3c805-103">Asset fault cost control</span></span>
+# <a name="asset-fault-cost-control"></a><span data-ttu-id="7cfbe-103">Controle de custo de falhas de ativos</span><span class="sxs-lookup"><span data-stu-id="7cfbe-103">Asset fault cost control</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
  
 
-<span data-ttu-id="3c805-104">No Gerenciamento de Ativos, é possível calcular os custos nos registros de falhas de ativos para obter uma visão geral dos custos reais em comparação com os custos de orçamento.</span><span class="sxs-lookup"><span data-stu-id="3c805-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs.</span></span> <span data-ttu-id="3c805-105">Os custos reais são baseados em transações lançadas.</span><span class="sxs-lookup"><span data-stu-id="3c805-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="3c805-106">A data é a data da falha na qual o sintoma foi registrado.</span><span class="sxs-lookup"><span data-stu-id="3c805-106">The date is the fault date on which the symptom was recorded.</span></span>
+<span data-ttu-id="7cfbe-104">No Gerenciamento de Ativos, é possível calcular os custos nos registros de falhas de ativos para obter uma visão geral dos custos reais em comparação com os custos de orçamento.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-104">In Asset Management, you can calculate costs on asset fault registrations to get an overview of actual costs compared to budget costs.</span></span> <span data-ttu-id="7cfbe-105">Os custos reais são baseados em transações lançadas.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-105">Actual costs are based on posted transactions.</span></span> <span data-ttu-id="7cfbe-106">A data é a data da falha na qual o sintoma foi registrado.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-106">The date is the fault date on which the symptom was recorded.</span></span>
 
-1. <span data-ttu-id="3c805-107">Clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Controle de custo de falhas de ativos**.</span><span class="sxs-lookup"><span data-stu-id="3c805-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
+1. <span data-ttu-id="7cfbe-107">Clique em **Gerenciamento de ativos** > **Consultas** > **Falha de ativo** > **Controle de custo de falhas de ativos**.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-107">Click **Asset management** > **Inquiries** > **Asset fault** > **Asset fault cost control**.</span></span>
 
-2. <span data-ttu-id="3c805-108">Na caixa de diálogo **Controle de custo de falhas de ativos**, selecione uma dimensão financeira definida para ser incluída no cálculo, se necessário.</span><span class="sxs-lookup"><span data-stu-id="3c805-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
+2. <span data-ttu-id="7cfbe-108">Na caixa de diálogo **Controle de custo de falhas de ativos**, selecione uma dimensão financeira definida para ser incluída no cálculo, se necessário.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-108">In the **Asset fault cost control** dialog, select a financial dimension set to be included in the calculation, if required.</span></span>
 
-4. <span data-ttu-id="3c805-109">Selecione "Sim" no botão de alternância **Ignorar zero** se não desejar exibir resultados com custo zero.</span><span class="sxs-lookup"><span data-stu-id="3c805-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
+4. <span data-ttu-id="7cfbe-109">Selecione "Sim" no botão de alternância **Ignorar zero** se não desejar exibir resultados com custo zero.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-109">Select "Yes" on the **Skip zero** toggle button if you don't want to show results with a cost of zero.</span></span>
 
-5. <span data-ttu-id="3c805-110">Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de controle de custo em relação aos locais funcionais.</span><span class="sxs-lookup"><span data-stu-id="3c805-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
+5. <span data-ttu-id="7cfbe-110">Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de controle de custo em relação aos locais funcionais.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-110">You can use the **Level** field to indicate how detailed you want the cost control lines to be regarding functional locations.</span></span> 
 
-    <span data-ttu-id="3c805-111">Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de localização funcional em vários níveis, todas as linhas de controle de custo de falhas de ativos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior.</span><span class="sxs-lookup"><span data-stu-id="3c805-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
+    <span data-ttu-id="7cfbe-111">Por exemplo, se você inserir o número "1" no campo e tiver uma estrutura de localização funcional em vários níveis, todas as linhas de controle de custo de falhas de ativos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-111">For example, if you insert the number "1" in the field, and you have a multi-level functional location structure, all asset fault cost control lines for a functional location will be shown on the top level, and therefore the hours on a line may be added up from functional locations located at a lower level.</span></span> 
     
-    <span data-ttu-id="3c805-112">Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de controle de custos de falhas de ativos em todo o nível do local funcional ao qual elas estão relacionadas.</span><span class="sxs-lookup"><span data-stu-id="3c805-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
+    <span data-ttu-id="7cfbe-112">Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de controle de custos de falhas de ativos em todo o nível do local funcional ao qual elas estão relacionadas.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-112">If you insert the number "0" in the **Level** field, you will see a detailed result showing all asset fault cost control lines on all the functional location levels to which they are related.</span></span>
 
-6. <span data-ttu-id="3c805-113">Para limitar a pesquisa, você poderá selecionar ativos específicos, datas de falha e causas de falha na Guia Rápida **Registros a serem incluídos**.</span><span class="sxs-lookup"><span data-stu-id="3c805-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
+6. <span data-ttu-id="7cfbe-113">Para limitar a pesquisa, você poderá selecionar ativos específicos, datas de falha e causas de falha na Guia Rápida **Registros a serem incluídos**.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-113">If you want to limit the search, you can select specific assets, fault dates, and fault causes on the **Records to include** FastTab.</span></span>
 
-7. <span data-ttu-id="3c805-114">Clique em **OK** para iniciar o cálculo.</span><span class="sxs-lookup"><span data-stu-id="3c805-114">Click **OK** to start the calculation.</span></span>
+7. <span data-ttu-id="7cfbe-114">Clique em **OK** para iniciar o cálculo.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-114">Click **OK** to start the calculation.</span></span>
 
-8. <span data-ttu-id="3c805-115">Clique nos botões **Agrupar por** para mostrar o nível de detalhes necessário para o cálculo.</span><span class="sxs-lookup"><span data-stu-id="3c805-115">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="3c805-116">Os botões selecionados de **Agrupar por** são realçados.</span><span class="sxs-lookup"><span data-stu-id="3c805-116">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="3c805-117">Clique em um botão para ativá-los ou desativá-los.</span><span class="sxs-lookup"><span data-stu-id="3c805-117">Click on a button to activate or deactivate it.</span></span>
+8. <span data-ttu-id="7cfbe-115">Clique nos botões **Agrupar por** para mostrar o nível de detalhes necessário para o cálculo.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-115">Click the **Group by** buttons to show the required detail level of the calculation.</span></span> <span data-ttu-id="7cfbe-116">Os botões selecionados de **Agrupar por** são realçados.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-116">The selected **Group by** buttons are highlighted.</span></span> <span data-ttu-id="7cfbe-117">Clique em um botão para ativá-los ou desativá-los.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-117">Click on a button to activate or deactivate it.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3c805-118">Exemplo</span><span class="sxs-lookup"><span data-stu-id="3c805-118">Example</span></span>
+## <a name="example"></a><span data-ttu-id="7cfbe-118">Exemplo</span><span class="sxs-lookup"><span data-stu-id="7cfbe-118">Example</span></span>
 
-<span data-ttu-id="3c805-119">Esse exemplo mostra um cálculo de controle de custo de falha de ativo.</span><span class="sxs-lookup"><span data-stu-id="3c805-119">This example shows an asset fault cost control calculation.</span></span>
+<span data-ttu-id="7cfbe-119">Esse exemplo mostra um cálculo de controle de custo de falha de ativo.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-119">This example shows an asset fault cost control calculation.</span></span>
 
-- <span data-ttu-id="3c805-120">O campo **Orçamento original** mostra os custos do orçamento da previsão da ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="3c805-120">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
-- <span data-ttu-id="3c805-121">O campo **Custo real** mostra os custos lançados nas ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="3c805-121">The **Actual cost** field shows posted costs on work orders.</span></span> 
-- <span data-ttu-id="3c805-122">O campo **Custo comprometido** mostra os custos totais com os quais sua empresa está comprometida em relação às ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="3c805-122">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
+- <span data-ttu-id="7cfbe-120">O campo **Orçamento original** mostra os custos do orçamento da previsão da ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-120">The **Original budget** field shows budget costs from the work order forecast.</span></span> 
+- <span data-ttu-id="7cfbe-121">O campo **Custo real** mostra os custos lançados nas ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-121">The **Actual cost** field shows posted costs on work orders.</span></span> 
+- <span data-ttu-id="7cfbe-122">O campo **Custo comprometido** mostra os custos totais com os quais sua empresa está comprometida em relação às ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="7cfbe-122">The **Committed cost** field shows total costs that your company is committed to in relation to work orders.</span></span>
 
     ![Figura 1](media/05-controlling-and-reporting.png)
 
-<span data-ttu-id="3c805-124">Para obter informações sobre como configurar as falhas, consulte o tópico [Gerenciamento de falhas](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="3c805-124">For information about how to set up faults, see the [Fault management](../setup-for-work-orders/fault-management.md) topic.</span></span>
+<span data-ttu-id="7cfbe-124">Para obter informações sobre como configurar as falhas, consulte o tópico [Gerenciamento de falhas](../setup-for-work-orders/fault-management.md).</span><span class="sxs-lookup"><span data-stu-id="7cfbe-124">For information about how to set up faults, see the [Fault management](../setup-for-work-orders/fault-management.md) topic.</span></span>
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
