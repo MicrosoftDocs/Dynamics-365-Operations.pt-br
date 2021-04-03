@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
@@ -17,51 +16,54 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ea5b4e6a4a82845bb973ffd6b16b3f83e8c7b0d8
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0a3a16fa3fb92b446eecf6459b5a7c65f7560c20
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685724"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5564454"
 ---
-# <a name="power-bi-content-home-page"></a><span data-ttu-id="b1055-103">Home page de conteúdo do Power BI</span><span class="sxs-lookup"><span data-stu-id="b1055-103">Power BI content home page</span></span>
+# <a name="power-bi-content-home-page"></a><span data-ttu-id="8aebe-103">Home page de conteúdo do Power BI</span><span class="sxs-lookup"><span data-stu-id="8aebe-103">Power BI content home page</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="b1055-104">As soluções do PowerBI.com a seguir estão disponíveis para os ambientes de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="b1055-104">The following PowerBI.com solutions are available for application environments.</span></span>
+<span data-ttu-id="8aebe-104">As soluções do PowerBI.com a seguir estão disponíveis para os ambientes de aplicativos.</span><span class="sxs-lookup"><span data-stu-id="8aebe-104">The following PowerBI.com solutions are available for application environments.</span></span>
 
-## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="b1055-105">Soluções do PowerBI.com disponíveis no Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="b1055-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
+## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="8aebe-105">Soluções do PowerBI.com disponíveis no Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="8aebe-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>
 
-<span data-ttu-id="b1055-106">As soluções do PowerBI.com a seguir estão disponíveis na biblioteca de ativos compartilhados do LCS.</span><span class="sxs-lookup"><span data-stu-id="b1055-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="b1055-107">Consulte as informações de versão na biblioteca de ativos compartilhados para baixar a versão correta de seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="b1055-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="b1055-108">A maioria das soluções do PowerBI.com na lista a seguir foram inseridas em espaços de trabalho analíticos em versões recentes.</span><span class="sxs-lookup"><span data-stu-id="b1055-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions.</span></span> <span data-ttu-id="b1055-109">Usar espaços de trabalho analíticos elimina a necessidade de baixar essas soluções da biblioteca de ativos compartilhados no LCS.</span><span class="sxs-lookup"><span data-stu-id="b1055-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="b1055-110">Os tópicos desta lista indicam que essas soluções do PowerBI.com foram inseridas quando aplicável.</span><span class="sxs-lookup"><span data-stu-id="b1055-110">The topics in this list indicate where these PowerBI.com solutions have been embedded where applicable.</span></span>
-
-- [<span data-ttu-id="b1055-111">Real vs. orçamento</span><span class="sxs-lookup"><span data-stu-id="b1055-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
-- [<span data-ttu-id="b1055-112">Visão geral do caixa</span><span class="sxs-lookup"><span data-stu-id="b1055-112">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md)
-- [<span data-ttu-id="b1055-113">Remuneração e benefícios</span><span class="sxs-lookup"><span data-stu-id="b1055-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="b1055-114">Análise de contabilidade de custo</span><span class="sxs-lookup"><span data-stu-id="b1055-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
-- [<span data-ttu-id="b1055-115">Gerenciamento de crédito e cobranças</span><span class="sxs-lookup"><span data-stu-id="b1055-115">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md)
-- [<span data-ttu-id="b1055-116">Competências e desenvolvimento de funcionários</span><span class="sxs-lookup"><span data-stu-id="b1055-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="b1055-117">Desempenho financeiro</span><span class="sxs-lookup"><span data-stu-id="b1055-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="b1055-118">Gerenciamento de ativo fixo</span><span class="sxs-lookup"><span data-stu-id="b1055-118">Fixed asset management</span></span>](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
-- [<span data-ttu-id="b1055-119">Treinamento organizacional</span><span class="sxs-lookup"><span data-stu-id="b1055-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="b1055-120">Gerente de prática</span><span class="sxs-lookup"><span data-stu-id="b1055-120">Practice manager</span></span>](practice-manager-power-bi.md)
-- [<span data-ttu-id="b1055-121">Desempenho da produção</span><span class="sxs-lookup"><span data-stu-id="b1055-121">Production performance</span></span>](production-performance-power-bi.md)
-- [<span data-ttu-id="b1055-122">Análise de gastos em compras</span><span class="sxs-lookup"><span data-stu-id="b1055-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
-- [<span data-ttu-id="b1055-123">Recrutamento</span><span class="sxs-lookup"><span data-stu-id="b1055-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
-- [<span data-ttu-id="b1055-124">Desempenho de vendas e de lucratividade</span><span class="sxs-lookup"><span data-stu-id="b1055-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
-- [<span data-ttu-id="b1055-125">Pagamentos de fornecedor</span><span class="sxs-lookup"><span data-stu-id="b1055-125">Vendor payments</span></span>](../../../finance/accounts-payable/Vendor-payments-workspace.md)
-- [<span data-ttu-id="b1055-126">Desempenho de depósito</span><span class="sxs-lookup"><span data-stu-id="b1055-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
-- [<span data-ttu-id="b1055-127">Métricas de força de trabalho</span><span class="sxs-lookup"><span data-stu-id="b1055-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
-
-## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="b1055-128">Soluções do PowerBI.com disponíveis no AppSource</span><span class="sxs-lookup"><span data-stu-id="b1055-128">PowerBI.com solutions available from AppSource</span></span>
-
-<span data-ttu-id="b1055-129">As soluções de PowerBI.com a seguir estão disponíveis em [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="b1055-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+<span data-ttu-id="8aebe-106">As soluções do PowerBI.com a seguir estão disponíveis na biblioteca de ativos compartilhados do LCS.</span><span class="sxs-lookup"><span data-stu-id="8aebe-106">The following PowerBI.com solutions are available in the Shared assets library of LCS.</span></span> <span data-ttu-id="8aebe-107">Consulte as informações de versão na biblioteca de ativos compartilhados para baixar a versão correta de seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="8aebe-107">Refer to the version information in the Shared assets library to download the correct version for your environment.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="b1055-130">Essas soluções foram preteridas, conforme documentado nos [pacotes de conteúdo do Power BI disponíveis em AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="b1055-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+> <span data-ttu-id="8aebe-108">A maioria das soluções do PowerBI.com na lista a seguir foram inseridas em espaços de trabalho analíticos em versões recentes.</span><span class="sxs-lookup"><span data-stu-id="8aebe-108">Most of the PowerBI.com solutions in the following list have been embedded in analytical workspaces in recent versions.</span></span> <span data-ttu-id="8aebe-109">Usar espaços de trabalho analíticos elimina a necessidade de baixar essas soluções da biblioteca de ativos compartilhados no LCS.</span><span class="sxs-lookup"><span data-stu-id="8aebe-109">Using analytical workspaces eliminates the need to download these solutions from the Shared assets library in LCS.</span></span> <span data-ttu-id="8aebe-110">Os tópicos desta lista indicam que essas soluções do PowerBI.com foram inseridas quando aplicável.</span><span class="sxs-lookup"><span data-stu-id="8aebe-110">The topics in this list indicate where these PowerBI.com solutions have been embedded where applicable.</span></span>
 
-- <span data-ttu-id="b1055-131">Gerenciamento de custo</span><span class="sxs-lookup"><span data-stu-id="b1055-131">Cost management</span></span>
-- [<span data-ttu-id="b1055-132">Desempenho financeiro</span><span class="sxs-lookup"><span data-stu-id="b1055-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
-- [<span data-ttu-id="b1055-133">Desempenho do canal de varejo </span><span class="sxs-lookup"><span data-stu-id="b1055-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+- [<span data-ttu-id="8aebe-111">Real vs. orçamento</span><span class="sxs-lookup"><span data-stu-id="8aebe-111">Actual vs budget</span></span>](ledger-budgets-power-bi.md)
+- [<span data-ttu-id="8aebe-112">Visão geral do caixa</span><span class="sxs-lookup"><span data-stu-id="8aebe-112">Cash overview</span></span>](../../../finance/cash-bank-management/Cash-Overview-Power-BI-content.md)
+- [<span data-ttu-id="8aebe-113">Remuneração e benefícios</span><span class="sxs-lookup"><span data-stu-id="8aebe-113">Compensation and benefits</span></span>](compensation-and-benefits-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="8aebe-114">Análise de contabilidade de custo</span><span class="sxs-lookup"><span data-stu-id="8aebe-114">Cost accounting analysis</span></span>](cost-accounting-analysis-content-pack.md)
+- [<span data-ttu-id="8aebe-115">Gerenciamento de crédito e cobranças</span><span class="sxs-lookup"><span data-stu-id="8aebe-115">Credit and collections management</span></span>](../../../finance/accounts-receivable/credit-collections-power-bi.md)
+- [<span data-ttu-id="8aebe-116">Competências e desenvolvimento de funcionários</span><span class="sxs-lookup"><span data-stu-id="8aebe-116">Employee competencies and development</span></span>](employee-competencies-and-development-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="8aebe-117">Desempenho financeiro</span><span class="sxs-lookup"><span data-stu-id="8aebe-117">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="8aebe-118">Gerenciamento de ativo fixo</span><span class="sxs-lookup"><span data-stu-id="8aebe-118">Fixed asset management</span></span>](../../../finance/fixed-assets/Fixed-asset-management-workspace.md)
+- [<span data-ttu-id="8aebe-119">Treinamento organizacional</span><span class="sxs-lookup"><span data-stu-id="8aebe-119">Organizational training</span></span>](organizational-training-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="8aebe-120">Gerente de prática</span><span class="sxs-lookup"><span data-stu-id="8aebe-120">Practice manager</span></span>](practice-manager-power-bi.md)
+- [<span data-ttu-id="8aebe-121">Desempenho da produção</span><span class="sxs-lookup"><span data-stu-id="8aebe-121">Production performance</span></span>](production-performance-power-bi.md)
+- [<span data-ttu-id="8aebe-122">Análise de gastos em compras</span><span class="sxs-lookup"><span data-stu-id="8aebe-122">Purchase spend analysis</span></span>](purchase-content-pack-for-power-bi.md)
+- [<span data-ttu-id="8aebe-123">Recrutamento</span><span class="sxs-lookup"><span data-stu-id="8aebe-123">Recruiting</span></span>](recruiting-analysis-power-bi-content-pack.md)
+- [<span data-ttu-id="8aebe-124">Desempenho de vendas e de lucratividade</span><span class="sxs-lookup"><span data-stu-id="8aebe-124">Sales and profitability performance</span></span>](sales-profitability-performance-content-pack.md)
+- [<span data-ttu-id="8aebe-125">Pagamentos de fornecedor</span><span class="sxs-lookup"><span data-stu-id="8aebe-125">Vendor payments</span></span>](../../../finance/accounts-payable/Vendor-payments-workspace.md)
+- [<span data-ttu-id="8aebe-126">Desempenho de depósito</span><span class="sxs-lookup"><span data-stu-id="8aebe-126">Warehouse performance</span></span>](warehouse-power-bi-content.md)
+- [<span data-ttu-id="8aebe-127">Métricas de força de trabalho</span><span class="sxs-lookup"><span data-stu-id="8aebe-127">Workforce metrics</span></span>](workforce-analysis-power-bi-content-pack.md)
+
+## <a name="powerbicom-solutions-available-from-appsource"></a><span data-ttu-id="8aebe-128">Soluções do PowerBI.com disponíveis no AppSource</span><span class="sxs-lookup"><span data-stu-id="8aebe-128">PowerBI.com solutions available from AppSource</span></span>
+
+<span data-ttu-id="8aebe-129">As soluções de PowerBI.com a seguir estão disponíveis em [Microsoft AppSource](https://appsource.microsoft.com).</span><span class="sxs-lookup"><span data-stu-id="8aebe-129">The following PowerBI.com solutions are available from [Microsoft AppSource](https://appsource.microsoft.com).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="8aebe-130">Essas soluções foram preteridas, conforme documentado nos [pacotes de conteúdo do Power BI disponíveis em AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span><span class="sxs-lookup"><span data-stu-id="8aebe-130">These solutions have been deprecated as documented in [Power BI content packs available on AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).</span></span>
+
+- <span data-ttu-id="8aebe-131">Gerenciamento de custo</span><span class="sxs-lookup"><span data-stu-id="8aebe-131">Cost management</span></span>
+- [<span data-ttu-id="8aebe-132">Desempenho financeiro</span><span class="sxs-lookup"><span data-stu-id="8aebe-132">Financial performance</span></span>](financial-performance-power-bi-content-pack.md)
+- [<span data-ttu-id="8aebe-133">Desempenho do canal de varejo </span><span class="sxs-lookup"><span data-stu-id="8aebe-133">Retail channel performance</span></span>](retail-channel-performance-dashboard-power-bi-data.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
