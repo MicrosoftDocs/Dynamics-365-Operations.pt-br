@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 876aef9f3f470490bb385e1861c837dcfa82db69
-ms.sourcegitcommit: 1e615288db245f83c5d5e0cd45315400f8946beb
+ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "5131784"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500565"
 ---
 # <a name="creating-work-orders"></a>Criação de ordens de serviço
 
@@ -62,8 +62,7 @@ Para criar ordens de trabalho baseadas na sua agenda de manutenção, siga estas
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Agrupar linhas de ordem de serviço que são criadas automaticamente enquanto um agendamento de manutenção é executado
 
-> [!IMPORTANT]
-> A funcionalidade que é descrita nesta seção está disponível como parte de uma versão preliminar. O conteúdo e a funcionalidade estão sujeitos a alterações. Para obter informações sobre as versões prévias, consulte [Perguntas frequentes sobre as atualizações de serviço One Version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
+[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
 
 Esse recurso permite definir regras para agrupar linhas de ordem de serviço em uma única ordem de serviço quando o sistema é configurado para gerar ordens de serviço automaticamente, com base em um agendamento de manutenção. Antes, as ordens de serviço geradas automaticamente podiam conter apenas uma linha. No entanto, agora você pode agrupar ordens de serviço com base, por exemplo, no ativo, tipo de ativo ou local funcional. (As ordens de serviço criadas manualmente já podem ser agrupadas dessa forma, conforme descrito na seção anterior deste tópico.)
 

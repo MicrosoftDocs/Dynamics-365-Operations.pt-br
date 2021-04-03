@@ -3,7 +3,7 @@ title: Criar uma conta de armazenamento do Azure e um cofre de chaves
 description: Este tópico explica como criar uma conta de armazenamento do Azure e um cofre de chaves.
 author: gionoder
 manager: AnnBe
-ms.date: 09/22/2020
+ms.date: 02/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d076aa5230437d1ef90f6b46d49ee4dea526db24
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 14463abe7782d786d286fcc619dee00ce85bb620
+ms.sourcegitcommit: 4adc57b0e43d9627dca70762ac941762ec4934e2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104220"
+ms.lasthandoff: 02/22/2021
+ms.locfileid: "5479336"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Criar uma conta de armazenamento do Azure e um cofre de chaves
 
@@ -77,9 +77,12 @@ Neste tópico, você executará duas etapas principais:
 
     ![Conceder permissão de certificado](media/e-Invoicing-services-create-azure-resources-grant-certificate-permission.png)
 
-9. Na caixa de diálogo **Principal**, selecione o principal, adicionando o **Complemento de faturamento eletrônico**.
-10. Selecione **Adicionar** e, em seguida, **Salvar alterações do Key Vault**.
-11. Na página **Visão geral**, copie o valor **Nome do DNS** para o cofre de chaves. Esse valor será usado durante a configuração do serviço no RCS e será referenciado como o *URI do cofre de chaves*.
+9. No campo **Selecionar principal**, selecione **Nenhum selecionado**.
+10. Na caixa de diálogo **Entidade de segurança**, selecione a entidade de segurança, adicionando o **Serviço de faturamento eletrônico**.
+11. Selecione **Adicionar** e, em seguida, **Salvar alterações do Key Vault**.
+12. Na página **Visão geral**, copie o valor **Nome do DNS** para o cofre de chaves. Esse valor será usado durante a configuração do serviço no RCS e será referenciado como o *URI do cofre de chaves*.
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

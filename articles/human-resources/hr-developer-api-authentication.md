@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 963bec2b817c59e3b5860c5ff5885e165ec8656a
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 60774d162d733404166e710932291a736eb0d8b4
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115551"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465525"
 ---
 # <a name="authentication"></a>Autenticação
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artigo fornece informações gerais sobre como autenticar com a interface de programa aplicativo (API) do Microsoft Dynamics 365 Human Resources.
 

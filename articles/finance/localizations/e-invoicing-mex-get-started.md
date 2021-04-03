@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d91f377af2514af932ea585adb75a56bdee13871
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ec7417d44a7c2aa413a9cda75996c153727632dd
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988461"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592637"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on-for-mexico"></a>Introdução ao complemento de faturamento eletrônico para o México
 
@@ -291,7 +291,7 @@ Depois que você ativar o recurso **Integração do complemento de faturamento e
     ![Exibir os detalhes do log de envio de cancelamento](media/e-Invoicing-services-get-started-MEX-View-cancellation-submission-log-details.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
-Habilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI) pode exigir o envio de dados limitados, que inclui a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar os recursos MX-00010 e MX-00016 (fatura de CFDI e cancelamento de CFDI) navegando para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**. Selecione a guia **Recursos**, selecione as linhas que contêm os recursos MX-00010 e MX-00016 e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
+A habilitação do recurso **Fatura eletrônica mexicana CFDI (MX)** pode exigir o envio de dados limitados, que incluem a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pela autoridade fiscal com a finalidade de enviar faturas eletrônicas a essa autoridade fiscal no formato predefinido exigido para integração com o serviço Web do governo. Um administrador pode habilitar e desabilitar o recurso **Fatura eletrônica mexicana CFDI (MX)** ao navegar até **Administração da organização \> Configuração \> Parâmetros do documento eletrônico**. Selecione a guia **Recursos**, selecione as linhas que contêm o recurso **Fatura eletrônica mexicana CFDI (MX)** e, em seguida, faça a seleção apropriada. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

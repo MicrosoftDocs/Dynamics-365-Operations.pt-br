@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 786ea9a3da98e9f1812b007d4301cb47680e6894
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077569"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501021"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Criar a interface de execução de piso de produção
 
@@ -45,7 +46,7 @@ Os seguintes elementos são mostrados na ilustração:
 
 Para criar e configurar uma nova guia, siga estas etapas:
 
-1. Vá para **Controle de produção &gt; Configuração &gt; Execução de fabricação**.
+1. Vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
 
 1. Selecione **Criar guias** no Painel de Ações para abrir a página **Criar guias**.
 
@@ -67,7 +68,7 @@ Para criar e configurar uma nova guia, siga estas etapas:
 
 Depois de criar todas as guias necessárias, você pode associá-las a uma configuração.
 
-1. Vá para **Controle de produção &gt; Configuração &gt; Configurar execução de piso de produção**.
+1. Vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
 
     ![Configurar execução de chão de produção](media/pfe-config-prod-floor-execution.png "Configurar execução de chão de produção")
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e6f7e0a3978bbf7e520f8cbcfd27c4cfe507777
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 4e588be2ac5aae395ca66e3c9a743a67d71db7c0
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5114661"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574213"
 ---
 # <a name="inventory-visibility-add-in"></a>Suplemento Visibilidade de Estoque
 
@@ -48,11 +48,64 @@ Para obter mais informações, consulte [Recursos do Lifecycle Services](https:/
 Antes de instalar o Suplemento Visibilidade de Estoque, você deve fazer o seguinte:
 
 - Obter um projeto de implementação do LCS com, pelo menos, um ambiente implantado.
-- Gerar as chaves beta da sua oferta no LCS.
-- Habilitar as chaves beta da sua oferta para seu usuário no LCS.
-- Entrar em contato com a equipe do produto Visibilidade de Estoque da Microsoft e fornecer uma ID de ambiente onde você deseja implantar o Suplemento Visibilidade de Estoque.
+- Verifique se os pré-requisitos para a configuração de suplementos fornecidos na [Visão geral dos suplementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md) foram concluídos. A visibilidade de estoque não exige link de gravação dupla.
+- Entre em contato com a equipe de visibilidade de estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para obter os três seguintes arquivos necessários:
+
+    - `Inventory Visibility Dataverse Solution.zip`
+    - `Inventory Visibility Configuration Trigger.zip`
+    - `Inventory Visibility Integration.zip` (se a versão do Supply Chain Management que você está executando for anterior à versão 10.0.18)
+
+> [!NOTE]
+> Os países e regiões com suporte no momento incluem o Canadá, os Estados Unidos e a União Europeia (UE).
 
 Caso tenha alguma dúvida sobre esses pré-requisitos, entre em contato com a equipe do produto Visibilidade de Estoque.
+
+### <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Configurar Dataverse
+
+Siga estas etapas para configurar o Dataverse.
+
+1. Adicione um princípio de serviço ao seu locatário:
+
+    1. Instale o módulo Azure AD PowerShell v2, conforme descrito em [Instalar o Azure Active Directory PowerShell para o Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2).
+    1. Execute o comando do PowerShell a seguir.
+
+        ```powershell
+        Connect-AzureAD # (open a sign in window and sign in as a tenant user)
+
+        New-AzureADServicePrincipal -AppId "3022308a-b9bd-4a18-b8ac-2ddedb2075e1" -DisplayName "d365-scm-inventoryservice"
+        ```
+
+1. Crie um usuário de aplicativo para a visibilidade de estoque no Dataverse:
+
+    1. Abra a URL do ambiente do Dataverse.
+    1. Acesse **Configuração Avançada \> Sistema \> Segurança \> Usuários** e crie um usuário de aplicativo. Use o menu de exibição para alterar a exibição de página para **Usuários do Aplicativo**.
+    1. Selecione **Novo**. Defina a ID do aplicativo como *3022308a-b9bd-4a18-b8ac-2ddedb2075e1*. (A ID do objeto será carregada automaticamente quando você salvar as alterações.) Você pode personalizar o nome. Por exemplo, você pode alterá-lo para *Visibilidade do Estoque*. Quando terminar, selecione **Salvar**.
+    1. Selecione **Atribuir Função** e, depois, selecione **Administrador do Sistema**. Se houver uma função denominada **Usuário do Common Data Service**, selecione-a.
+
+    Para obter mais informações, consulte [Criar um usuário de aplicativo](https://docs.microsoft.com/power-platform/admin/create-users-assign-online-security-roles#create-an-application-user).
+
+1. Importe o arquivo `Inventory Visibility Dataverse Solution.zip`, que inclui entidades relacionadas à configuração do Dataverse e o Power Apps:
+
+    1. Acesse a página **Soluções**.
+    1. Selecione **Importar**.
+
+1. Importe o fluxo do disparador da atualização de configuração:
+
+    1. Acesse a página Microsoft Flow.
+    1. Verifique se existe a conexão denominada *Dataverse (herdado)*. (Se ela não existir, crie-a.)
+    1. Importe o arquivo `Inventory Visibility Configuration Trigger.zip`. Após ele ser importado, o disparador aparecerá em **Meus fluxos**.
+    1. Inicialize as seguintes quatro variáveis, com base nas informações de ambiente:
+
+        - ID de Locatário do Azure
+        - ID do Cliente do Aplicativo Azure
+        - Segredo do Cliente do Aplicativo Azure
+        - Ponto de extremidade da Visibilidade de Estoque
+
+            Para obter mais informações sobre essa variável, consulte a seção [Configurar integração da visibilidade de estoque](#setup-inventory-visibility-integration) mais adiante neste tópico.
+
+        ![Gatilho de configurações](media/configuration-trigger.png "Gatilho de configurações")
+
+    1. Selecione **Ativar**.
 
 ### <a name="install-the-add-in"></a><a name="install-add-in"></a>Instalar o suplemento
 
@@ -61,14 +114,16 @@ Para instalar o Suplemento Visibilidade de Estoque, faça o seguinte:
 1. Entre no portal [Lifecycle Services (LCS)](https://lcs.dynamics.com/Logon/Index).
 1. Na home page, selecione o projeto no qual seu ambiente foi implantado.
 1. Na página do projeto, selecione o ambiente no qual você deseja instalar o suplemento.
-1. Na página do ambiente, role para baixo até ver a seção **Suplementos de ambiente**. Se a seção não estiver visível, verifique se as chaves beta dos pré-requisitos foram totalmente processadas.
+1. Na página ambiente, role para baixo até ver a seção **Suplementos do ambiente** na seção **Integração do Power Platform**, em que você pode encontrar o nome do ambiente do Dataverse.
 1. Na seção **Suplementos de ambiente**, selecione **Instalar um novo suplemento**.
+
     ![A página do ambiente no LCS](media/inventory-visibility-environment.png "A página do ambiente no LCS")
+
 1. Selecione o link **Instalar um novo suplemento**. Uma lista dos suplementos disponíveis será aberta.
-1. Selecione **Serviço de estoque** na lista. (Observe que agora isso pode estar listado como **Suplemento Visibilidade de Estoque para Dynamics 365 Supply Chain Management**.)
+1. Selecione **Visibilidade de Estoque** na lista.
 1. Insira valores para os seguintes campos no seu ambiente:
 
-    - **ID de aplicativo do AAD**
+    - **ID de aplicativo AAD (cliente)**
     - **ID de locatário do AAD**
 
     ![Página de configuração do suplemento](media/inventory-visibility-setup.png "Página de configuração do suplemento")
@@ -76,11 +131,74 @@ Para instalar o Suplemento Visibilidade de Estoque, faça o seguinte:
 1. Concorde com os termos e condições, marcando a caixa de seleção **Termos e condições**.
 1. Selecione **Instalar**. O status do suplemento será mostrado como **Instalando**. Após a conclusão, atualize a página para ver a alteração do status para **Instalado**.
 
-### <a name="get-a-security-service-token"></a>Obter um token de serviço de segurança
+### <a name="uninstall-the-add-in"></a><a name="uninstall-add-in"></a>Desinstalar o suplemento
+
+Para desinstalar o suplemento, selecione **Desinstalar**. Quando você atualizar o LCS, o Suplemento de Visibilidade de Estoque será removido. O processo de desinstalação remove o registro do suplemento e também inicia um trabalho para limpar todos os dados comerciais armazenados no serviço.
+
+## <a name="consume-on-hand-inventory-data-from-supply-chain-management"></a>Consumir dados de estoque disponível do Supply Chain Management
+
+### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Implantar o pacote de integração de Visibilidade de Estoque
+
+Se você estiver executando o Supply Chain Management versão 10.0.17 ou anterior, contate a equipe de suporte de integração da Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para obter o arquivo de pacote. Em seguida, implante o pacote no LCS.
+
+> [!NOTE]
+> Se ocorrer um erro de incompatibilidade de versão durante a implantação, você deverá importar manualmente o projeto X++ no ambiente de desenvolvimento. Em seguida, crie o pacote implantável no ambiente de desenvolvimento e implante-o no ambiente de produção.
+> 
+> O código está incluído no Supply Chain Management versão 10.0.18. Se você estiver executando essa versão ou posterior, a implantação não será necessária.
+
+Verifique se os recursos a seguir estão ativados no ambiente do Supply Chain Management. (Por padrão, eles são ativados.)
+
+| Descrição do recurso | Versão de código | Alternar classe |
+|---|---|---|
+| Habilitar ou desabilitar o uso de dimensões de estoque na tabela InventSum | 10.0.11 | InventUseDimOfInventSumToggle |
+| Habilitar ou desabilitar o uso de dimensões de estoque na tabela InventSumDelta | 10.0.12 | InventUseDimOfInventSumDeltaToggle |
+
+### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurar a integração da Visibilidade de Estoque
+
+1. No Supply Chain Management, abra o espaço de trabalho **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e ative o recurso **Integração da Visibilidade de Estoque**.
+1. Acesse **Gerenciamento de Estoque \> Configuração \> Parâmetros de Integração da Visibilidade de Estoque** e insira a URL do ambiente em que você está executando a Visibilidade de Estoque.
+
+    Localize a região do Azure do ambiente do LCS e insira a URL. A URL tem o seguinte formato:
+
+    `https://inventoryservice.<RegionShortName>-il301.gateway.prod.island.powerapps.com/`
+
+    Por exemplo, se você estiver na Europa, o ambiente terá uma das seguintes URLs:
+
+    - `https://inventoryservice.neu-il301.gateway.prod.island.powerapps.com/`
+    - `https://inventoryservice.weu-il301.gateway.prod.island.powerapps.com/`
+
+    As regiões a seguir estão disponíveis no momento.
+
+    | Região do Azure | Nome curto da região |
+    |---|---|
+    | Leste da Austrália | eau |
+    | Sudeste da Austrália | seau |
+    | Canadá Central | cca |
+    | Leste do Canadá | eca |
+    | Norte da Europa | neu |
+    | Oeste da Europa | weu |
+    | Leste dos EUA | eus |
+    | Oeste dos EUA | wus |
+
+1. Acesse **Gerenciamento de Estoque \> Periódico \> Integração de Visibilidade de Estoque** e habilite o trabalho. Todos os eventos de alteração de inventário do Supply Chain Management serão lançados na Visibilidade de Estoque.
+
+## <a name="the-inventory-visibility-add-in-public-api"></a><a name="inventory-visibility-public-api"></a>A API pública do Suplemento Visibilidade de Estoque
+
+A API REST pública do Suplemento Visibilidade de Estoque apresenta vários pontos de extremidade específicos para integração. Ela oferece suporte a três tipos de interação principais:
+
+- Lançar alterações de estoque disponíveis no suplemento a partir de um sistema externo
+- Consultar as quantidades disponíveis no momento a partir de um sistema externo
+- Sincronização automática com o estoque disponível do Supply Chain Management
+
+A sincronização automática não faz parte da API pública. Ela é tratada em segundo plano para ambientes em que o suplemento Visibilidade de Estoque está habilitado.
+
+### <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autenticação
+
+O token de segurança da plataforma é usado para chamar o suplemento Visibilidade de Estoque. Portanto, você deve gerar um token *Azure Active Directory (Azure AD)* usando o aplicativo Azure AD. Você deve usar o token Azure AD para obter o *token de acesso* do serviço de segurança.
 
 Obtenha um token de serviço de segurança da seguinte forma:
 
-1. Faça login no Portal do Azure e use-o para localizar `clientId` e `clientSecret` para o aplicativo Supply Chain Management.
+1. Entre no portal do Azure e use-o para localizar `clientId` e `clientSecret` para o aplicativo Supply Chain Management.
 1. Busque um token do Azure Active Directory (`aadToken`) enviando uma solicitação HTTP com as seguintes propriedades:
     - **URL** - `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
     - **Método** - `GET`
@@ -140,27 +258,7 @@ Obtenha um token de serviço de segurança da seguinte forma:
     }
     ```
 
-### <a name="uninstall-the-add-in"></a>Desinstalar o suplemento
-
-Para desinstalar o suplemento, selecione **Desinstalar**. Atualize o LCS e o Suplemento Visibilidade de Estoque será removido. O processo de desinstalação removerá o registro do suplemento e também iniciará um trabalho para limpar todos os dados comerciais armazenados no serviço.
-
-## <a name="inventory-visibility-add-in-public-api"></a>API pública do Suplemento Visibilidade de Estoque
-
-A API REST pública do Suplemento Visibilidade de Estoque apresenta vários pontos de extremidade de integração específicos. Ela oferece suporte a três tipos de interação principais:
-
-- Lançar alterações de disponibilidade no suplemento a partir de um sistema externo.
-- Consultar as quantidades disponíveis no momento a partir de um sistema externo.
-- Sincronização automática com a disponibilidade do Supply Chain Management.
-
-A sincronização automática não faz parte da API pública, mas é tratada em segundo plano para ambientes que habilitaram o Suplemento Visibilidade de Estoque.
-
-### <a name="authentication"></a>Autenticação
-
-O token de segurança da plataforma é usado para chamar o Suplemento Visibilidade de Estoque, portanto, você deve gerar um token do Azure Active Directory usando seu aplicativo do Azure Active Directory.
-
-Para obter mais informações sobre como receber o token de segurança, consulte [Instalar o Suplemento Visibilidade de Estoque](#install-add-in).
-
-### <a name="configure-the-inventory-visibility-api"></a>Configurar a API da Visibilidade de Estoque
+### <a name="configure-the-inventory-visibility-api"></a><a name="inventory-visibility-configuration"></a>Configurar a API da Visibilidade de Estoque
 
 Antes de usar o serviço, você deve concluir as configurações descritas nas subseções a seguir. A configuração pode variar com base nos detalhes do seu ambiente. Ela inclui principalmente quatro partes:
 
@@ -232,7 +330,7 @@ Você teria dois índices definidos da seguinte forma:
 
 O colchete vazio agregará com base na ID do produto na partição.
 
-A indexação define como você pode agrupar os resultados com base na configuração de consulta `groupBy`. Nesse caso, se você não definir nenhum valor `groupBy`, obterá totais por `productid`. Caso contrário, se você definir `groupBy` como `groupBy=ColorId&groupBy=SizeId`, receberá várias linhas retornadas, com base nas diferentes combinações de cor e tamanho no sistema.
+A indexação define como você pode agrupar os resultados com base na configuração de consulta `groupBy`. Nesse caso, se você não definir nenhum valor `groupBy`, obterá totais por `productid`. Caso contrário, se você definir `groupBy` como `groupBy=ColorId&groupBy=SizeId`, obterá várias linhas retornadas, com base nas diferentes combinações de cor e tamanho no sistema.
 
 Você pode colocar os critérios de consulta no corpo da solicitação.
 
@@ -257,7 +355,7 @@ Veja uma consulta de exemplo no produto com combinação de cor e tamanho.
 
 #### <a name="custom-measurement"></a>Medida personalizada
 
-As quantidades de medidas padrão estão vinculadas ao Supply Chain Management, mas talvez você queira ter uma quantidade que seja composta por uma combinação das medidas padrão. Para isso, você pode ter uma configuração de quantidades personalizadas, que será adicionada à saída das consultas de disponibilidade.
+As quantidades de medida padrão estão vinculadas ao Supply Chain Management. No entanto, talvez você deseje ter uma quantidade composta de uma combinação das medidas padrão. Para isso, você pode ter uma configuração de quantidades personalizadas, que será adicionada à saída das consultas de disponibilidade.
 
 A funcionalidade simplesmente permite definir um conjunto de medidas que será adicionado e/ou um conjunto de medidas que será subtraído para formar a medida personalizada.
 

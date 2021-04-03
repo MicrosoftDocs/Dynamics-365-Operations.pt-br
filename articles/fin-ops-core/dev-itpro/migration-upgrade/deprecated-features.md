@@ -3,10 +3,9 @@ title: Recursos removidos ou obsoletos em versões anteriores
 description: Este tópico descreve os recursos que foram removidos ou que foram planejados para remoção do Dynamics 365 for Finance and Operations e versões anteriores.
 author: sericks007
 manager: AnnBe
-ms.date: 09/21/2020
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3b862938ec8226cc963fb8c85fcfc2241684eab7
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: db276c693a729b919bc609bb4b94843bb11a8fe3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154376"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559321"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -39,7 +38,7 @@ Este tópico descreve os recursos que foram removidos ou descontinuados do Dynam
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 com atualização de plataforma 31
 
@@ -375,12 +374,12 @@ Esses dois relatórios não têm mais suporte no Finance and Operations. Em vez 
 | **Status**                       | Preterido: Os itens de menu de dois relatórios foram removidos na versão 7.3. Porém, o código dos relatórios permanece no produto. O plano é remover o código em uma versão futura. |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>Pacotes de conteúdo do Power BI disponíveis no AppSource
-Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Retail Channel Performance**, disponíveis no site do [Microsoft AppSource](https://appsource.microsoft.com), foram substituídos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
+Os pacotes de conteúdo **Gerenciamento de custos**, **Desempenho financeiro** e **Desempenho do canal de varejo**, disponíveis no site do [Microsoft AppSource](https://appsource.microsoft.com), foram preteridos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Atualizações do produto no Microsoft Power BI. |
-| **Substituída por outro recurso?**   | Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Retail Channel Performance**, disponíveis no site do [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações de solução no nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI incorporado em espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Substituída por outro recurso?**   | Os pacotes de conteúdo de **Gerenciamento de custos**, **Desempenho financeiro** e **Desempenho do canal de varejo**, disponíveis no site do [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações de solução no nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI incorporado em espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas afetadas do produto**         | Gerenciamento de custo, Finanças e Varejo                                                                                               |
 | **Opção de implantação**              | Somente nuvem (não há mais suporte para a integração com o PowerBI.com nas implantações locais).                                                                                                            |
 | **Status**                         | Preterido: O período determinado de destino para a remoção de funcionalidade é T2 de 2018.    |
@@ -919,7 +918,7 @@ Este aplicativo móvel permite que os usuários revisem as principais métricas 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Esta funcionalidade foi substituída por outro recurso.   |
-| **Substituída por outro recurso?**   | O pacote de conteúdo de desempenho financeiro do Monitor para Microsoft Power BI incluirá as principais métricas financeiras que estavam disponíveis anteriormente no Business Analyzer. |
+| **Substituída por outro recurso?**   | O pacote de conteúdo Monitorar desempenho financeiro para Microsoft Power BI incluirá as principais métricas financeiras que estavam disponíveis anteriormente no Business Analyzer. |
 | **Áreas afetadas do produto**         | Contabilidade      |
 | **Status**                         | Preterido: O uso do Business Analyzer foi preterido.    |
 

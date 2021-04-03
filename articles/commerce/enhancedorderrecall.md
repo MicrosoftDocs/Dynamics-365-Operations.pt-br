@@ -3,7 +3,7 @@ title: Cancelar operação de ordem no PDV
 description: Este tópico explica recursos disponíveis para aprimorar as páginas de cancelamento de ordens no PDV.
 author: hhainesms
 manager: annbe
-ms.date: 10/09/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 21e8045d754006345f5ad68e1e67579386c6df4a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 174821fce4baf81e4298da4b066f855bfec98ca5
+ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5010065"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5585121"
 ---
 # <a name="recall-order-operation-in-pos"></a>Cancelar operação de ordem no PDV
 
@@ -35,7 +35,7 @@ A configuração do botão da operação **Cancelar ordem** permite que as organ
 
 As opções de vídeo são as seguintes.
 - **Nenhum** – essa opção implanta a operação sem nenhum vídeo específico. Quando um usuário abre a operação com essa configuração, ele será solicitado a procurar e encontrar ordens ou escolher um filtro de ordem predefinido.
-- **Ordens a serem atendidas** – quando um usuário inicia a operação, uma consulta será executada automaticamente para pesquisar e exibir uma lista de ordens a serem atendidas pela loja. Essas ordens são configuradas para remessa de armazenamento ou entrega em armazenamento, e as linhas dessas ordens ainda não foram retiradas nem empacotadas.
+- **Ordens a serem atendidas** – quando um usuário inicia a operação, uma consulta será executada automaticamente para pesquisar e exibir uma lista de ordens a serem atendidas pela loja atual do usuário. Essas ordens são configuradas para remessa de armazenamento ou entrega em armazenamento, e as linhas dessas ordens ainda não foram retiradas nem empacotadas.
 - **Ordens a serem retiradas** – quando um usuário inicia a operação, uma consulta será executada automaticamente para pesquisar e exibir uma lista de ordens a serem configuradas para retira na loja atual do usuário.
 - **Ordens a serem remetidas** – quando um usuário inicia a operação, uma consulta será executada automaticamente para pesquisar e exibir uma lista de ordens a serem configuradas para remessa da loja atual do usuário.
 
@@ -46,7 +46,7 @@ Ao iniciar a operação **Cancelar ordem** no PDV, se o vídeo estiver configura
 
 ![RecallOrderMainMenu](media/recallordermain.png)
 
-Depois que os critérios de pesquisa forem aplicados, o aplicativo exibirá uma lista de ordens de venda conciliadas.
+Depois que os critérios de pesquisa forem aplicados, o aplicativo exibirá uma lista de ordens de venda conciliadas. É importante observar que, ao usar as opções de pesquisa/filtro, as ordens recuperadas não precisam ser ordens vinculadas ao armazenamento atual do usuário. Este processo de pesquisa recuperará e exibirá qualquer ordem de cliente correspondente aos critérios de pesquisa, mesmo que a ordem tenha sido criada ou definida para ser preenchida por outra loja/canal ou localização de depósito.
 
 ![RecallOrderDetail](media/orderrecalldetail.png)
 
@@ -54,15 +54,18 @@ Um usuário pode selecionar uma ordem na lista para exibir detalhes adicionais. 
 
 Da AppBar, um usuário pode selecionar uma operação. Dependendo do status da ordem, determinadas operações podem não estar habilitadas.
 
-- **Devolução** – executa uma devolução para uma ou mais faturas relacionadas à ordem do cliente selecionada.
+- **Devolução** – inicia o processo de criação de uma devolução para qualquer um dos produtos faturados na ordem de cliente selecionada.
 
-- **Cancelar** – emita um cancelamento completo da ordem de venda selecionada.
+- **Cancelar** – emita um cancelamento completo da ordem de venda selecionada. Essa opção não estará disponível para os pedidos iniciados por meio de um canal de call center e não poderá ser usada para cancelar parcialmente uma ordem.
 
 - **Atender** – transfere o usuário para a página atendimento de ordem, que será filtrada previamente para a ordem selecionada. Somente as linhas de ordem que estão abertas para preenchimento pela loja do usuário para a ordem selecionada serão exibidas.
 
-- **Editar** – permite que os usuários façam alterações na ordem de cliente selecionada.
+- **Editar** – permite que os usuários façam alterações na ordem de cliente selecionada. As ordens só são editáveis em [determinados cenários](customer-orders-overview.md#edit-an-existing-customer-order).
 
-- **Retirada** – lança o fluxo de retirada, que permite que o usuário escolha os produtos a serem retirados e cria a transação de venda de retirada.
+- **Retirada** – essa opção estará disponível se a ordem tiver uma ou mais linhas designadas para retirada no armazenamento atual do usuário. Essa operação inicia o fluxo de retirada, que permite que o usuário escolha os produtos a serem retirados e cria a transação de venda de retirada.
 
+## <a name="add-notifications-to-the-recall-order-operation"></a>Adicionar notificações à operação para cancelar a ordem
+
+Na versão 10.0.18 e posterior, é possível configurar notificações de PDV e alertas de bloco dinâmico para a operação **Cancelamento da Ordem**, se desejado. Para obter mais informações, consulte [Mostrar notificações de ordem no ponto de venda (PDV)](notifications-pos.md).  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

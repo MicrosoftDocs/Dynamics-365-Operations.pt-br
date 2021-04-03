@@ -3,10 +3,9 @@ title: Planejar sua hierarquia organizacional
 description: Antes de configurar organizações e hierarquias da organização, entenda como modelar melhor sua empresa.
 author: sericks007
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 02/19/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c779b5948370444b0b474568bb63b347c4a0831
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: 7bf683487a20203d49fbab680373fbf48a5c58b6
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154400"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569352"
 ---
 # <a name="plan-your-organizational-hierarchy"></a>Planejar sua hierarquia organizacional
 
@@ -166,7 +165,7 @@ As unidades operacionais usam o contexto de país da entidade legal primária. A
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>Se a organização for modelada como uma entidade legal
 
-Para os países/regiões com suporte, a maioria dos relatórios de impostos podem ser criados. Para obter informações sobre quais relatórios estão disponíveis para cada país/região, consulte o [Portal de localização do Microsoft Dynamics](https://docs.microsoft.com/dynamics/s-e/). (Um logon do CustomerSource é necessário.)
+Para os países/regiões com suporte, a maioria dos relatórios de impostos podem ser criados. 
 
 > [!NOTE]
 > Um nível de lançamento na contabilidade permite que você faça entradas de ajuste em uma empresa pai que usa um padrão de contabilidade diferente da empresa filha. Por exemplo, para uma empresa que usa as práticas contábeis geralmente aceitas no Reino Unido (GAAP BRITÂNICO), é possível criar entradas de ajuste no nível de lançamento. Essas entradas podem ser consolidadas em uma empresa primária que usa os princípios contábeis geralmente aceitos (GAAP) nos Estados Unidos. As entradas de ajuste não afetam os relatórios de GAAP BRITÂNICOS.
