@@ -3,7 +3,7 @@ title: Criar modelos de email para eventos transacionais
 description: Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
 manager: annbe
-ms.date: 06/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 245ca998ef3e6d172df3525f06d7901f3f41b650
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 756e2a64ef4c33c347106968eb6bc79a413c3ff7
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000767"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555236"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
@@ -39,7 +39,7 @@ Para poder mapear um evento transacional específico para um modelo de email, vo
 
 Para criar um modelo de email, siga estas etapas.
 
-1. No Commerce headquarters, vá para **Modelos de email da organização**, que está em **Retail e Commerce \> Configuração da sede \> Modelos de email da organização** ou **Administração de organização \> Configuração \> Modelos de email da organização**.
+1. No Commerce Headquarters, acesse **Varejo e Comércio \> Configuração do Headquarters \> Modelos de email da organização** ou **Administração da organização \> Configuração \> Modelos de email da organização**.
 1. Selecione **Novo**.
 1. Em **Geral**, defina os seguintes campos:
 
@@ -78,28 +78,29 @@ Veja aqui um exemplo.
 
 Os espaços reservados a seguir recuperam e mostram dados definidos no nível de ordem de venda (em oposição ao nível de linha de venda).
 
-| Nome do espaço reservado    | Valor do espaço reservado                                                |
-|---------------------|------------------------------------------------------------------|
-| customername        | O nome do cliente que fez a ordem.                   |
-| salesid             | A ID de vendas da ordem.                                       |
-| deliveryaddress     | O endereço de entrega para ordens remetidas.                         |
-| customeraddress     | O endereço do cliente.                                     |
-| deliverydate        | A data de entrega.                                               |
-| shipdate            | A data de remessa.                                                   |
-| modeofdelivery      | O modo de entrega da ordem.                                  |
-| charges             | O total de encargos da ordem.                                 |
-| imposto                 | O total de impostos da ordem.                                     |
-| total               | O valor total da ordem.                                  |
-| ordernetamount      | O valor total da ordem, menos o imposto total.             |
-| desconto            | O total de descontos da ordem.                                |
-| storename           | O nome da loja em que foi feita a ordem.                |
-| storeaddress        | O endereço da loja que fez a ordem.                  |
-| storeopenfrom       | O horário de abertura da loja que fez a ordem.             |
-| storeopento         | O horário de fechamento da loja que fez a ordem.             |
-| pickupstorename     | O nome da loja em que a ordem será retirada.         |
-| pickupstoreaddress  | O endereço da loja em que a ordem será retirada.      |
-| pickupopenstorefrom | O horário de abertura da loja em que a ordem será retirada. |
-| pickupopenstoreto   | O horário de fechamento da loja em que a ordem será retirada. |
+| Nome do espaço reservado     | Valor do espaço reservado                                            |
+| -------------------- | ------------------------------------------------------------ |
+| customername         | O nome do cliente que fez a ordem.               |
+| salesid              | A ID de vendas da ordem.                                   |
+| deliveryaddress      | O endereço de entrega para ordens remetidas.                     |
+| customeraddress      | O endereço do cliente.                                 |
+| customeremailaddress | O endereço de email inserido pelo cliente na finalização da compra.     |
+| deliverydate         | A data de entrega.                                           |
+| shipdate             | A data de remessa.                                               |
+| modeofdelivery       | O modo de entrega da ordem.                              |
+| charges              | O total de encargos da ordem.                             |
+| imposto                  | O total de impostos da ordem.                                 |
+| total                | O valor total da ordem.                              |
+| ordernetamount       | O valor total da ordem, menos o imposto total.         |
+| desconto             | O total de descontos da ordem.                            |
+| storename            | O nome da loja em que foi feita a ordem.            |
+| storeaddress         | O endereço da loja que fez a ordem.              |
+| storeopenfrom        | O horário de abertura da loja que fez a ordem.         |
+| storeopento          | O horário de fechamento da loja que fez a ordem.         |
+| pickupstorename      | O nome da loja em que a ordem será retirada.     |
+| pickupstoreaddress   | O endereço da loja em que a ordem será retirada.  |
+| pickupopenstorefrom  | O horário de abertura da loja em que a ordem será retirada. |
+| pickupopenstoreto    | O horário de fechamento da loja em que a ordem será retirada. |
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Espaços reservados da linha de ordem (nível da linha de venda)
 
@@ -169,11 +170,8 @@ Veja aqui um exemplo.
 
 Os recibos podem ser enviados por email para clientes que fazem compras em um PDV (ponto de venda de varejo). Em geral, as etapas para a criação do modelo de recibo por email são as mesmas etapas para criar modelos para outros eventos transacionais. No entanto, são necessárias as seguintes alterações:
 
-- A ID de email do modelo de email deve ser **emailRecpt**.
-- O texto do recibo é inserido no email usando o espaço reservado **%message%**. Para garantir que o corpo do recibo seja processado corretamente, coloque o espaço reservado **%message%** entre as tags em HTML **&lt;pre&gt;** e **&lt;/pre&gt;**.
-- As quebras de linha no HTML para o cabeçalho e o rodapé do email são convertidas em tags em HTML **&lt;br/&gt;** para que o corpo do recibo seja renderizado corretamente. Para eliminar espaços verticais indesejados nos emails de recibo, remova as quebras de linha de qualquer local no HTML em que o espaço vertical não seja necessário.
-
-Para obter mais informações sobre como configurar recibos por email, consulte [Configurar recibos por email](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-email-receipts).
+- O texto do recibo é inserido no email usando o espaço reservado **%message%**. Para garantir que o corpo do recibo seja processado corretamente, coloque o espaço reservado **%message%** entre as marcas HTML **&lt;pre&gt;** e **&lt;/pre&gt;**.
+- O espaço reservado **%receiptid%** pode ser usado para mostrar um código QR ou código de barras que representa a ID do recibo. (Os códigos QR e os códigos de barras são gerados dinamicamente e servidos por um serviço terceirizado). Para obter mais informações sobre como mostrar um código QR ou código de barras em um recibo enviado por email, consulte [Adicionar um código QR ou código de barras a emails transacionais e de recebimento](add-qr-code-barcode-email.md).
 
 ## <a name="upload-the-email-html"></a>Carregar o HTML do email
 

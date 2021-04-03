@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/12/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -18,12 +17,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 20203a342b2bead4eb211597f4b73bbf35477a03
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: b46e49ec3510c93383216fdffeca2793a9076872
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115671"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560450"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -92,9 +91,13 @@ Como o produto é representados como uma SKU, os conceitos de produtos distintos
 
 Com a funcionalidade de gravação dupla habilitada, os produtos do Finance and Operations serão sincronizados em outros produtos do Dynamics 365 no estado **Rascunho**. Eles são adicionados à primeira lista de preços com a mesma moeda. Ou seja, eles são adicionados à primeira lista de preços em um aplicativo do Dynamics 365 que corresponda à moeda da tabela legal em que o produto é lançado em um aplicativo do Finance and Operations. Se não houver uma lista de preços para a moeda especificada, uma lista de preços será criada automaticamente e o produto será atribuído a ela. 
 
+A implementação atual dos plug-ins de gravação dupla que associam a lista de preços padrão à unidade faz a pesquisa da moeda associada ao aplicativo Finance and Operations e localiza a primeira lista de preços no aplicativo de engajamento do cliente, usando classificação alfabética no nome da lista de preços. Para definir uma lista de preços padrão para uma moeda específica na qual você tem várias listas de preços para essa moeda, você deve atualizar o nome da lista de preços para um nome mais antigo em ordem alfabética do que qualquer outra lista de preços para aquela mesma moeda.
+
 Por padrão, os produtos de aplicativos do Finance and Operations são sincronizados com outros aplicativos do Dynamics 365 no estado **Rascunho**. Para sincronizar o produto com estado **Ativo** para poder usá-lo diretamente em cotações de ordens de venda, por exemplo, é necessário escolher a seguinte configuração: **Sistema > Administração > Administração do sistema > Configurações do sistema > guia Vendas** e selecione **Criar produtos em estado ativo = sim**. 
 
 Quando os produtos são sincronizados, você deve inserir um valor para o campo **Unidade de vendas** no aplicativo do Finance and Operations, pois ele é um campo obrigatório no Sales.
+
+A criação de famílias de produtos do Dynamics 365 Sales não é suportada com a sincronização de gravação dupla de produtos.
 
 A sincronização de produtos ocorre no aplicativo do Finance and Operations com o Dataverse. Isso significa que os valores das colunas da tabela de produtos podem ser alterados no Dataverse, mas, quando a sincronização for acionada (quando uma coluna de produto for modificada em um aplicativo do Finance and Operations), isso substituirá os valores no Dataverse. 
 
