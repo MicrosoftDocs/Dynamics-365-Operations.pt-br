@@ -18,33 +18,38 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c7e9fda1b5e3dc2c0afdfd4c23bed277b4748bfd
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: fdb2f00675fa5191e05dcb99525c1ec9a8b16bd2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111511"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466269"
 ---
-# <a name="process-life-event-eligibility"></a><span data-ttu-id="50121-103">Processar qualificação para eventos de vida</span><span class="sxs-lookup"><span data-stu-id="50121-103">Process life event eligibility</span></span>
+# <a name="process-life-event-eligibility"></a><span data-ttu-id="fb5ef-103">Processar qualificação para eventos de vida</span><span class="sxs-lookup"><span data-stu-id="fb5ef-103">Process life event eligibility</span></span>
 
-<span data-ttu-id="50121-104">Este artigo mostra como executar o processo para qualificação de eventos de vida.</span><span class="sxs-lookup"><span data-stu-id="50121-104">This article shows you how to run the process for life event eligibility.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="50121-105">No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Processamento da qualificação de eventos de vida**.</span><span class="sxs-lookup"><span data-stu-id="50121-105">In the **Benefits management** workspace, under **Processing**, select **Life event eligibility processing**.</span></span>
+<span data-ttu-id="fb5ef-104">Este artigo mostra como executar o processo para qualificação de eventos de vida.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-104">This article shows you how to run the process for life event eligibility.</span></span>
 
-2. <span data-ttu-id="50121-106">No caixa de diálogo **Executar o processamento da qualificação de eventos de vida**, especifique valores para os seguintes campos:</span><span class="sxs-lookup"><span data-stu-id="50121-106">In the **Run life event eligibility process** dialog box, specify values for the following fields:</span></span>
+1. <span data-ttu-id="fb5ef-105">No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Processamento da qualificação de eventos de vida**.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-105">In the **Benefits management** workspace, under **Processing**, select **Life event eligibility processing**.</span></span>
 
-   | <span data-ttu-id="50121-107">Campo</span><span class="sxs-lookup"><span data-stu-id="50121-107">Field</span></span> | <span data-ttu-id="50121-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="50121-108">Description</span></span> |
+2. <span data-ttu-id="fb5ef-106">No caixa de diálogo **Executar o processamento da qualificação de eventos de vida**, especifique valores para os seguintes campos:</span><span class="sxs-lookup"><span data-stu-id="fb5ef-106">In the **Run life event eligibility process** dialog box, specify values for the following fields:</span></span>
+
+   | <span data-ttu-id="fb5ef-107">Campo</span><span class="sxs-lookup"><span data-stu-id="fb5ef-107">Field</span></span> | <span data-ttu-id="fb5ef-108">Descrição</span><span class="sxs-lookup"><span data-stu-id="fb5ef-108">Description</span></span> |
    | --- | --- |
-   | <span data-ttu-id="50121-109">**Período de inscrição**</span><span class="sxs-lookup"><span data-stu-id="50121-109">**Enrollment period**</span></span> | <span data-ttu-id="50121-110">O período de inscrição para processar a qualificação de eventos de vida.</span><span class="sxs-lookup"><span data-stu-id="50121-110">The enrollment period to process life event eligibility for.</span></span> |
+   | <span data-ttu-id="fb5ef-109">**Período de inscrição**</span><span class="sxs-lookup"><span data-stu-id="fb5ef-109">**Enrollment period**</span></span> | <span data-ttu-id="fb5ef-110">O período de inscrição para processar a qualificação de eventos de vida.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-110">The enrollment period to process life event eligibility for.</span></span> |
 
-3. <span data-ttu-id="50121-111">Se você deseja executar o processo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="50121-111">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
+3. <span data-ttu-id="fb5ef-111">Se você deseja executar o processo em segundo plano, selecione **Executar em segundo plano** e execute as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="fb5ef-111">If you want to run the process in the background, select **Run in the background** and do the following tasks:</span></span>
 
-   1. <span data-ttu-id="50121-112">Insira informações para o processo.</span><span class="sxs-lookup"><span data-stu-id="50121-112">Enter information for the process.</span></span>
+   1. <span data-ttu-id="fb5ef-112">Insira informações para o processo.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-112">Enter information for the process.</span></span>
 
-   2. <span data-ttu-id="50121-113">Para configurar um trabalho recorrente, selecione **Recorrência**, insira as informações de recorrência e selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="50121-113">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
+   2. <span data-ttu-id="fb5ef-113">Para configurar um trabalho recorrente, selecione **Recorrência**, insira as informações de recorrência e selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-113">To set up a recurring job, select **Recurrence**, enter the recurrence information, and the select **OK**.</span></span>
 
-   3. <span data-ttu-id="50121-114">Para configurar um alerta de trabalho, selecione **Alertas**, selecione os alertas a receber e, em seguida, selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="50121-114">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
+   3. <span data-ttu-id="fb5ef-114">Para configurar um alerta de trabalho, selecione **Alertas**, selecione os alertas a receber e, em seguida, selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-114">To set up a job alert, select **Alerts**, select the alerts to receive, and then select **OK**.</span></span>
 
-   4. <span data-ttu-id="50121-115">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="50121-115">Select **OK**.</span></span> <span data-ttu-id="50121-116">O processo será executado com os parâmetros definidos por você.</span><span class="sxs-lookup"><span data-stu-id="50121-116">The process will run with the parameters you set.</span></span>
+   4. <span data-ttu-id="fb5ef-115">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-115">Select **OK**.</span></span> <span data-ttu-id="fb5ef-116">O processo será executado com os parâmetros definidos por você.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-116">The process will run with the parameters you set.</span></span>
 
-4. <span data-ttu-id="50121-117">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="50121-117">Select **OK**.</span></span>
+4. <span data-ttu-id="fb5ef-117">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="fb5ef-117">Select **OK**.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

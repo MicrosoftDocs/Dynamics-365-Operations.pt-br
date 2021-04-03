@@ -16,54 +16,59 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: cc80549eaffa72a22dec51829c86d04a763de96a
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 39a9a1c96ae2a12a32b3c5fbc67571bcf983c898
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111453"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467978"
 ---
-# <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="3f076-103">Definir regras e políticas de qualificação para o benefício</span><span class="sxs-lookup"><span data-stu-id="3f076-103">Define benefit eligibility rules and policies</span></span>
+# <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="e4588-103">Definir regras e políticas de qualificação para o benefício</span><span class="sxs-lookup"><span data-stu-id="e4588-103">Define benefit eligibility rules and policies</span></span>
 
-<span data-ttu-id="3f076-104">O tópico mostra como é possível criar regras e políticas de qualificação para o benefício e atribuir regras a benefícios.</span><span class="sxs-lookup"><span data-stu-id="3f076-104">This topic shows you how you can create benefit eligibility rules and policies and then assign rules to benefits.</span></span>  
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-## <a name="create-benefit-eligibility-policy-rule-type"></a><span data-ttu-id="3f076-105">Crie tipos de regras de política de qualificação para benefícios</span><span class="sxs-lookup"><span data-stu-id="3f076-105">Create benefit eligibility policy rule type</span></span>
+<span data-ttu-id="e4588-104">O tópico mostra como é possível criar regras e políticas de qualificação para o benefício e atribuir regras a benefícios.</span><span class="sxs-lookup"><span data-stu-id="e4588-104">This topic shows you how you can create benefit eligibility rules and policies and then assign rules to benefits.</span></span>  
 
-1. <span data-ttu-id="3f076-106">Vá para **Recursos humanos > Benefícios > Qualificação > Tipos de regras de política de qualificação para o benefício**.</span><span class="sxs-lookup"><span data-stu-id="3f076-106">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policy rule types**.</span></span>
-2. <span data-ttu-id="3f076-107">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="3f076-107">Select **New**.</span></span>
-3. <span data-ttu-id="3f076-108">No campo **Nome da regra**, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="3f076-108">In the **Rule name** field, enter a value.</span></span>
-4. <span data-ttu-id="3f076-109">No campo **Descrição**, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="3f076-109">In the **Description** field, enter a value.</span></span>
-5. <span data-ttu-id="3f076-110">No campo **Nome da consulta**, selecione o botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="3f076-110">In the **Query name** field, select the drop-down button to open the lookup.</span></span>
-6. <span data-ttu-id="3f076-111">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3f076-111">In the list, select the link in the selected row.</span></span>
-7. <span data-ttu-id="3f076-112">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="3f076-112">Select **Save**.</span></span>
-8. <span data-ttu-id="3f076-113">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3f076-113">Close the page.</span></span>
+## <a name="create-benefit-eligibility-policy-rule-type"></a><span data-ttu-id="e4588-105">Crie tipos de regras de política de qualificação para benefícios</span><span class="sxs-lookup"><span data-stu-id="e4588-105">Create benefit eligibility policy rule type</span></span>
 
-## <a name="benefit-eligibility-policy"></a><span data-ttu-id="3f076-114">Política de qualificação para o benefício</span><span class="sxs-lookup"><span data-stu-id="3f076-114">Benefit eligibility policy</span></span>
+1. <span data-ttu-id="e4588-106">Vá para **Recursos humanos > Benefícios > Qualificação > Tipos de regras de política de qualificação para o benefício**.</span><span class="sxs-lookup"><span data-stu-id="e4588-106">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policy rule types**.</span></span>
+2. <span data-ttu-id="e4588-107">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="e4588-107">Select **New**.</span></span>
+3. <span data-ttu-id="e4588-108">No campo **Nome da regra**, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="e4588-108">In the **Rule name** field, enter a value.</span></span>
+4. <span data-ttu-id="e4588-109">No campo **Descrição**, insira um valor.</span><span class="sxs-lookup"><span data-stu-id="e4588-109">In the **Description** field, enter a value.</span></span>
+5. <span data-ttu-id="e4588-110">No campo **Nome da consulta**, selecione o botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="e4588-110">In the **Query name** field, select the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="e4588-111">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="e4588-111">In the list, select the link in the selected row.</span></span>
+7. <span data-ttu-id="e4588-112">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="e4588-112">Select **Save**.</span></span>
+8. <span data-ttu-id="e4588-113">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="e4588-113">Close the page.</span></span>
 
-1. <span data-ttu-id="3f076-115">Vá para **Recursos humanos > Benefícios > Qualificação > Políticas de qualificação para o benefício**.</span><span class="sxs-lookup"><span data-stu-id="3f076-115">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policies**.</span></span>
-2. <span data-ttu-id="3f076-116">Selecione uma diretiva existente de benefício.</span><span class="sxs-lookup"><span data-stu-id="3f076-116">Select an existing benefit policy.</span></span>
-3. <span data-ttu-id="3f076-117">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3f076-117">In the list, select the link in the selected row.</span></span>
-4. <span data-ttu-id="3f076-118">Alterne a expansão das seções de **Organizações de política**.</span><span class="sxs-lookup"><span data-stu-id="3f076-118">Toggle the expansion of the **Policy organizations** sections.</span></span> <span data-ttu-id="3f076-119">Você poderá adicionar ou remover as organizações que desejar incluir na política.</span><span class="sxs-lookup"><span data-stu-id="3f076-119">You can add or remove any organizations you want to include in the policy.</span></span>
-5. <span data-ttu-id="3f076-120">Expanda ou recolha a seção de **Regras de política**.</span><span class="sxs-lookup"><span data-stu-id="3f076-120">Expand or collapse the **Policy rules** section.</span></span>
-6. <span data-ttu-id="3f076-121">Na lista, localize a regra de política criada previamente.</span><span class="sxs-lookup"><span data-stu-id="3f076-121">In the list, find the policy rule previously created.</span></span>
-7. <span data-ttu-id="3f076-122">Selecione **Criar regra de política**.</span><span class="sxs-lookup"><span data-stu-id="3f076-122">Select **Create policy rule**.</span></span>
-8. <span data-ttu-id="3f076-123">No campo **Data efetiva**, insira a data na qual deseja que a política entre em vigor.</span><span class="sxs-lookup"><span data-stu-id="3f076-123">In the **Effective date** field, enter the date in which you want the policy to become effective.</span></span>
-    * <span data-ttu-id="3f076-124">Definir datas finais efetivas permite que você faça alterações futuras em regras de política para que não precise voltar à política quando desejar que essas alterações sejam aplicadas.</span><span class="sxs-lookup"><span data-stu-id="3f076-124">Setting effective end dates allows you to make future changes to policy rules so you don't need to come back to the policy when you want those changes to take effect.</span></span>  
-9. <span data-ttu-id="3f076-125">Se necessário, adicione uma cláusula where ao campo **Adicionar condição**.</span><span class="sxs-lookup"><span data-stu-id="3f076-125">If needed, add a where clause to the **Add condition** field.</span></span>
-    * <span data-ttu-id="3f076-126">Por exemplo, para que a regra se aplicasse somente aos Gerentes de vendas, você poderia criar a cláusula where para indicar: a descrição da posição de where equivale ao Gerente de vendas.</span><span class="sxs-lookup"><span data-stu-id="3f076-126">For example if you wanted the rule to only apply to Sales Managers you could create the where clause to say: Where position description equals Sales Manager.</span></span> <span data-ttu-id="3f076-127">Você pode adicionar várias instruções where juntas na regra.</span><span class="sxs-lookup"><span data-stu-id="3f076-127">You can add multiple where statements together in the rule.</span></span>  
-10. <span data-ttu-id="3f076-128">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="3f076-128">Select **OK**.</span></span>
-11. <span data-ttu-id="3f076-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="3f076-129">Close the page.</span></span>
+## <a name="benefit-eligibility-policy"></a><span data-ttu-id="e4588-114">Política de qualificação para o benefício</span><span class="sxs-lookup"><span data-stu-id="e4588-114">Benefit eligibility policy</span></span>
 
-## <a name="assign-rule-to-benefit"></a><span data-ttu-id="3f076-130">Atribuir regra ao benefício</span><span class="sxs-lookup"><span data-stu-id="3f076-130">Assign rule to benefit</span></span>
+1. <span data-ttu-id="e4588-115">Vá para **Recursos humanos > Benefícios > Qualificação > Políticas de qualificação para o benefício**.</span><span class="sxs-lookup"><span data-stu-id="e4588-115">Go to **Human resources > Benefits > Eligibility > Benefit eligibility policies**.</span></span>
+2. <span data-ttu-id="e4588-116">Selecione uma diretiva existente de benefício.</span><span class="sxs-lookup"><span data-stu-id="e4588-116">Select an existing benefit policy.</span></span>
+3. <span data-ttu-id="e4588-117">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="e4588-117">In the list, select the link in the selected row.</span></span>
+4. <span data-ttu-id="e4588-118">Alterne a expansão das seções de **Organizações de política**.</span><span class="sxs-lookup"><span data-stu-id="e4588-118">Toggle the expansion of the **Policy organizations** sections.</span></span> <span data-ttu-id="e4588-119">Você poderá adicionar ou remover as organizações que desejar incluir na política.</span><span class="sxs-lookup"><span data-stu-id="e4588-119">You can add or remove any organizations you want to include in the policy.</span></span>
+5. <span data-ttu-id="e4588-120">Expanda ou recolha a seção de **Regras de política**.</span><span class="sxs-lookup"><span data-stu-id="e4588-120">Expand or collapse the **Policy rules** section.</span></span>
+6. <span data-ttu-id="e4588-121">Na lista, localize a regra de política criada previamente.</span><span class="sxs-lookup"><span data-stu-id="e4588-121">In the list, find the policy rule previously created.</span></span>
+7. <span data-ttu-id="e4588-122">Selecione **Criar regra de política**.</span><span class="sxs-lookup"><span data-stu-id="e4588-122">Select **Create policy rule**.</span></span>
+8. <span data-ttu-id="e4588-123">No campo **Data efetiva**, insira a data na qual deseja que a política entre em vigor.</span><span class="sxs-lookup"><span data-stu-id="e4588-123">In the **Effective date** field, enter the date in which you want the policy to become effective.</span></span>
+    * <span data-ttu-id="e4588-124">Definir datas finais efetivas permite que você faça alterações futuras em regras de política para que não precise voltar à política quando desejar que essas alterações sejam aplicadas.</span><span class="sxs-lookup"><span data-stu-id="e4588-124">Setting effective end dates allows you to make future changes to policy rules so you don't need to come back to the policy when you want those changes to take effect.</span></span>  
+9. <span data-ttu-id="e4588-125">Se necessário, adicione uma cláusula where ao campo **Adicionar condição**.</span><span class="sxs-lookup"><span data-stu-id="e4588-125">If needed, add a where clause to the **Add condition** field.</span></span>
+    * <span data-ttu-id="e4588-126">Por exemplo, para que a regra se aplicasse somente aos Gerentes de vendas, você poderia criar a cláusula where para indicar: a descrição da posição de where equivale ao Gerente de vendas.</span><span class="sxs-lookup"><span data-stu-id="e4588-126">For example if you wanted the rule to only apply to Sales Managers you could create the where clause to say: Where position description equals Sales Manager.</span></span> <span data-ttu-id="e4588-127">Você pode adicionar várias instruções where juntas na regra.</span><span class="sxs-lookup"><span data-stu-id="e4588-127">You can add multiple where statements together in the rule.</span></span>  
+10. <span data-ttu-id="e4588-128">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="e4588-128">Select **OK**.</span></span>
+11. <span data-ttu-id="e4588-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="e4588-129">Close the page.</span></span>
 
-1. <span data-ttu-id="3f076-131">Acesse **Recursos humanos > Benefícios > Benefícios**.</span><span class="sxs-lookup"><span data-stu-id="3f076-131">Go to **Human resources > Benefits > Benefits**.</span></span>
-2. <span data-ttu-id="3f076-132">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="3f076-132">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="3f076-133">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3f076-133">In the list, select the link in the selected row.</span></span>
-4. <span data-ttu-id="3f076-134">Expanda ou recolha a seção **Regras de qualificação**.</span><span class="sxs-lookup"><span data-stu-id="3f076-134">Expand or collapse the **Eligibility rules** section.</span></span>
-5. <span data-ttu-id="3f076-135">Selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="3f076-135">Select **Edit**.</span></span>
-6. <span data-ttu-id="3f076-136">No campo **Qualificação**, selecione a regra.</span><span class="sxs-lookup"><span data-stu-id="3f076-136">In the **Eligibility** field, select the rule.</span></span>
-7. <span data-ttu-id="3f076-137">No campo **Tipo de regra**, selecione a regra que você criou anteriormente.</span><span class="sxs-lookup"><span data-stu-id="3f076-137">In the **Rule type** field, select the rule you previously created.</span></span>
-9. <span data-ttu-id="3f076-138">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="3f076-138">In the list, select the link in the selected row.</span></span>
-10. <span data-ttu-id="3f076-139">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="3f076-139">Select **Save**.</span></span>
-11. <span data-ttu-id="3f076-140">Feche o formulário.</span><span class="sxs-lookup"><span data-stu-id="3f076-140">Close the form.</span></span>
+## <a name="assign-rule-to-benefit"></a><span data-ttu-id="e4588-130">Atribuir regra ao benefício</span><span class="sxs-lookup"><span data-stu-id="e4588-130">Assign rule to benefit</span></span>
 
+1. <span data-ttu-id="e4588-131">Acesse **Recursos humanos > Benefícios > Benefícios**.</span><span class="sxs-lookup"><span data-stu-id="e4588-131">Go to **Human resources > Benefits > Benefits**.</span></span>
+2. <span data-ttu-id="e4588-132">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="e4588-132">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="e4588-133">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="e4588-133">In the list, select the link in the selected row.</span></span>
+4. <span data-ttu-id="e4588-134">Expanda ou recolha a seção **Regras de qualificação**.</span><span class="sxs-lookup"><span data-stu-id="e4588-134">Expand or collapse the **Eligibility rules** section.</span></span>
+5. <span data-ttu-id="e4588-135">Selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="e4588-135">Select **Edit**.</span></span>
+6. <span data-ttu-id="e4588-136">No campo **Qualificação**, selecione a regra.</span><span class="sxs-lookup"><span data-stu-id="e4588-136">In the **Eligibility** field, select the rule.</span></span>
+7. <span data-ttu-id="e4588-137">No campo **Tipo de regra**, selecione a regra que você criou anteriormente.</span><span class="sxs-lookup"><span data-stu-id="e4588-137">In the **Rule type** field, select the rule you previously created.</span></span>
+9. <span data-ttu-id="e4588-138">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="e4588-138">In the list, select the link in the selected row.</span></span>
+10. <span data-ttu-id="e4588-139">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="e4588-139">Select **Save**.</span></span>
+11. <span data-ttu-id="e4588-140">Feche o formulário.</span><span class="sxs-lookup"><span data-stu-id="e4588-140">Close the form.</span></span>
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

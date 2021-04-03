@@ -17,41 +17,46 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d78199cf0e76ffd0676a26961a8e646938dc7333
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 9be1c2b862a01d6f14ad98dbcb01e061649c6af0
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111529"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463975"
 ---
-# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a><span data-ttu-id="e3eef-103">O Human Resources não aparece nos aplicativos do Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="e3eef-103">Human Resources doesn't appear in Microsoft Dynamics 365 apps</span></span>
+# <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a><span data-ttu-id="0fa6a-103">O Human Resources não aparece nos aplicativos do Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="0fa6a-103">Human Resources doesn't appear in Microsoft Dynamics 365 apps</span></span>
 
-<span data-ttu-id="e3eef-104">**Emissão**</span><span class="sxs-lookup"><span data-stu-id="e3eef-104">**Issue**</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="e3eef-105">O cliente não verá o Dynamics 365 Human Resources entre os aplicativos do Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="e3eef-105">The customer doesn't see Dynamics 365 Human Resources among the Microsoft Dynamics 365 apps.</span></span>
+<span data-ttu-id="0fa6a-104">**Emissão**</span><span class="sxs-lookup"><span data-stu-id="0fa6a-104">**Issue**</span></span>
 
-<span data-ttu-id="e3eef-106">**Resolução**</span><span class="sxs-lookup"><span data-stu-id="e3eef-106">**Resolution**</span></span>
+<span data-ttu-id="0fa6a-105">O cliente não verá o Dynamics 365 Human Resources entre os aplicativos do Microsoft Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-105">The customer doesn't see Dynamics 365 Human Resources among the Microsoft Dynamics 365 apps.</span></span>
 
-<span data-ttu-id="e3eef-107">O usuário deve ser adicionado à função de criador de ambiente do ambiente no Microsoft Power Apps.</span><span class="sxs-lookup"><span data-stu-id="e3eef-107">The user must be added to the Environment Maker role for the environment in Microsoft Power Apps.</span></span>
+<span data-ttu-id="0fa6a-106">**Resolução**</span><span class="sxs-lookup"><span data-stu-id="0fa6a-106">**Resolution**</span></span>
 
-1. <span data-ttu-id="e3eef-108">O usuário administrador com uma licença de plano de Power Apps 2 deverá abrir o [Portal de administrador do Power Apps](https://preview.admin.powerapps.com/).</span><span class="sxs-lookup"><span data-stu-id="e3eef-108">The admin user who has a Power Apps Plan 2 license must open the [Power Apps Admin portal](https://preview.admin.powerapps.com/).</span></span>
+<span data-ttu-id="0fa6a-107">O usuário deve ser adicionado à função de criador de ambiente do ambiente no Microsoft Power Apps.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-107">The user must be added to the Environment Maker role for the environment in Microsoft Power Apps.</span></span>
 
-2. <span data-ttu-id="e3eef-109">Selecione **Ambientes** e o ambiente correto para Human Resources.</span><span class="sxs-lookup"><span data-stu-id="e3eef-109">Select **Environments**, and select the correct environment for Human Resources.</span></span>
+1. <span data-ttu-id="0fa6a-108">O usuário administrador com uma licença de plano de Power Apps 2 deverá abrir o [Portal de administrador do Power Apps](https://preview.admin.powerapps.com/).</span><span class="sxs-lookup"><span data-stu-id="0fa6a-108">The admin user who has a Power Apps Plan 2 license must open the [Power Apps Admin portal](https://preview.admin.powerapps.com/).</span></span>
 
-3. <span data-ttu-id="e3eef-110">Na guia **Segurança**, na guia **Funções de ambiente**, selecione **Criador de ambiente**.</span><span class="sxs-lookup"><span data-stu-id="e3eef-110">On the **Security** tab, on the **Environment roles** tab, select **Environment Maker**.</span></span>
+2. <span data-ttu-id="0fa6a-109">Selecione **Ambientes** e o ambiente correto para Human Resources.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-109">Select **Environments**, and select the correct environment for Human Resources.</span></span>
+
+3. <span data-ttu-id="0fa6a-110">Na guia **Segurança**, na guia **Funções de ambiente**, selecione **Criador de ambiente**.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-110">On the **Security** tab, on the **Environment roles** tab, select **Environment Maker**.</span></span>
 
     ![Funções da guia de ambiente](media/environment-roles.png)
 
-4. <span data-ttu-id="e3eef-112">Na guia **Usuários**, adicione o usuário ou a organização.</span><span class="sxs-lookup"><span data-stu-id="e3eef-112">On the **Users** tab, add the user or your organization.</span></span>
+4. <span data-ttu-id="0fa6a-112">Na guia **Usuários**, adicione o usuário ou a organização.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-112">On the **Users** tab, add the user or your organization.</span></span>
 
     ![Tabela de usuários](media/environment-maker.png)
 
-5. <span data-ttu-id="e3eef-114">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="e3eef-114">Select **Save**.</span></span>
+5. <span data-ttu-id="0fa6a-114">Selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-114">Select **Save**.</span></span>
 
-6. <span data-ttu-id="e3eef-115">O usuário agora deve entrar no [Microsoft Dynamics 365](https://home.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="e3eef-115">The user must now sign in to [Microsoft Dynamics 365](https://home.dynamics.com/).</span></span>
+6. <span data-ttu-id="0fa6a-115">O usuário agora deve entrar no [Microsoft Dynamics 365](https://home.dynamics.com/).</span><span class="sxs-lookup"><span data-stu-id="0fa6a-115">The user must now sign in to [Microsoft Dynamics 365](https://home.dynamics.com/).</span></span>
 
-7. <span data-ttu-id="e3eef-116">Selecione **Sincronizar** para atualizar os aplicativos do usuário.</span><span class="sxs-lookup"><span data-stu-id="e3eef-116">Select **Sync** to update the user apps.</span></span>
+7. <span data-ttu-id="0fa6a-116">Selecione **Sincronizar** para atualizar os aplicativos do usuário.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-116">Select **Sync** to update the user apps.</span></span>
 
     ![Botão de sincronização](media/get-more.png)
 
-    <span data-ttu-id="e3eef-118">Após a sincronização ser concluída, Human Resources aparecerá na página inicial.</span><span class="sxs-lookup"><span data-stu-id="e3eef-118">After synchronization is completed, Human Resources will appear on the home page.</span></span>
+    <span data-ttu-id="0fa6a-118">Após a sincronização ser concluída, Human Resources aparecerá na página inicial.</span><span class="sxs-lookup"><span data-stu-id="0fa6a-118">After synchronization is completed, Human Resources will appear on the home page.</span></span>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
