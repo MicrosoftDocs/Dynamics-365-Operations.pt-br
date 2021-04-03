@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 285e9d2d184a899f1ffa502d59a853ba83cda491
-ms.sourcegitcommit: 2093c9dc31d1b60b3114085d9cef48fdbbb0ca0d
+ms.openlocfilehash: ca0a7233004522de2af7281416169f0393feeb11
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5118672"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5260638"
 ---
 # <a name="product-dimensions"></a>Dimensões do produto
 
@@ -106,7 +106,7 @@ Quando estiver testando soluções para a compatibilidade com a dimensão de ver
     - PCVariantConfiguration::findByProductMasterAndDimensions
 
 1. **Mapas:** se algum mapa usar as dimensões de estoque, o mapeamento de relações correspondente a esses mapas deverá ser atualizado para incluir a dimensão de versão. No modelo estendido ou nas extensões de tabela, procure nas tabelas nas quais os campos incluam as dimensões de estoque.
-1. **Funcionalidade do Microsoft Dynamics 365 Commerce:** depois que ela for ativada, a dimensão da versão aparecerá durante todo o código específico do Commerce no Dynamics 365 Supply Chain Management. No entanto, a dimensão de versão ainda não tem suporte do banco de dados de canal do Commerce ou nos aplicativos de ponto de venda (PDV) e comércio eletrônico. Esses aplicativos específicos do Commerce não oferecem suporte a usuários que vendem/enviam ou devolvem/recebem estoque por dimensão de versão. As funções de pesquisa de disponibilidade de estoque não distinguem estoque por dimensão de versão em aplicativos do Commerce. Esse comportamento é semelhante ao comportamento atual da dimensão de configuração no Commerce.
+1. **Funcionalidade do Microsoft Dynamics 365 Commerce:** depois de ativada, a dimensão de versão aparecerá durante todo o código específico do Commerce no Dynamics 365 Supply Chain Management. No entanto, a dimensão de versão ainda não tem suporte do banco de dados de canal do Commerce ou nos aplicativos de ponto de venda (PDV) e comércio eletrônico. Esses aplicativos específicos do Commerce não oferecem suporte a usuários que vendem/enviam ou devolvem/recebem estoque por dimensão de versão. As funções de pesquisa de disponibilidade de estoque não distinguem estoque por dimensão de versão em aplicativos do Commerce. Esse comportamento é semelhante ao comportamento atual da dimensão de configuração no Commerce.
 
 #### <a name="turn-on-the-version-dimension"></a>Ativar a dimensão de versão
 
