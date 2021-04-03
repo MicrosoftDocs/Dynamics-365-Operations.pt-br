@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: e1dace0dc6477e259d1004440c4cda8060bf90e3
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: eb0c50d9030be75947c65e921b3c6d3ba729a0d2
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130220"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464467"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos e posições
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este artigo descreve informações conceituais sobre esses elementos. 
 

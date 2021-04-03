@@ -18,16 +18,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c382299014e3f823bc2cd210749aae8c091c5f23
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 7b1f2fd953c1678a5099f4f3b5cf08fa6674f4db
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111510"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466029"
 ---
 # <a name="configure-life-event-types"></a>Configurar tipos de eventos de vida
 
-O Microsoft Dynamics 365 Human Resources usa tipos de eventos de vida para definir eventos em que é válido atualizar a inscrição de benefícios do funcionário. Por exemplo, se você se casar ou tiver um filho. Cada ID de tipo de evento de vida só pode ser associada a um tipo de evento de vida. Por exemplo, se você criar uma ID de evento da vida útil chamada Alteração de endereço associada ao tipo de evento de vida Alteração de endereço de funcionário, não poderá criar outra ID rotulada Alteração de endereço de funcionário e associá-la ao tipo de evento de vida Alteração do endereço do funcionário. 
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
+
+O Dynamics 365 Human Resources usa tipos de eventos de vida para definir eventos em que é válido atualizar a inscrição de benefícios do funcionário. Por exemplo, se você se casar ou tiver um filho. Cada ID de tipo de evento de vida só pode ser associada a um tipo de evento de vida. Por exemplo, se você criar uma ID de evento da vida útil chamada Alteração de endereço associada ao tipo de evento de vida Alteração de endereço de funcionário, não poderá criar outra ID rotulada Alteração de endereço de funcionário e associá-la ao tipo de evento de vida Alteração do endereço do funcionário. 
 
 Depois de criar os tipos de eventos de vida, você precisa associá-los a tipos de plano. Para obter mais informações, consulte [Criar tipos de plano](hr-benefits-setup-plan-types.md).
 

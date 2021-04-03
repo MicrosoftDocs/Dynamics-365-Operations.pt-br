@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d400604bf1b044de52457b3f7a6eb858220a1972
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 305ce398b0ec80647a95e69409da9b77ebf14b45
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111534"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466944"
 ---
 # <a name="manage-features-in-human-resources"></a>Gerenciar recursos em Recursos Humanos
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Como parte de liberação contínua de novas funcionalidades do Microsoft Dynamics 365 Human Resources, queremos que nossos clientes aproveitem novos recursos o mais rápido possível. Fornecemos recursos de visualização, que estão quase prontos para disponibilidade geral e passam por um teste extenso. Estamos procurando apenas um círculo final de comentários de cliente e validação antes de liberá-los para disponibilidade geral.
 

@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 43c727fa8e0508adf66109efd84a66cb31df7ea3
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5eee8855a5a6eda4f6c0ad926f9366121de3ee7d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115405"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467094"
 ---
 # <a name="personnel-actions-faq"></a>Perguntas frequentes sobre ações de pessoal
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artigo contém respostas para suas prováveis dúvidas se sua organização utilizar ações de pessoal. As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal. Exemplos de tarefas que podem exigir ações de pessoal são quando você cria novas posições, altera valores existentes de posição, contrata novos trabalhadores, transfere trabalhadores, altera a remuneração do trabalhador, altera as atribuições de posição, ou demite trabalhadores.
 

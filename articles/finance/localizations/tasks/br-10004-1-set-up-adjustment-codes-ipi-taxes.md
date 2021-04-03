@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf91ffed8add6464e92286c6dcd36eb3a5d8f778
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: feb0e67fc1dc20bae56b4f7c0d62d79c7c57f5d7
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4964596"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5265435"
 ---
 # <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a>Configurar códigos de ajuste para impostos IPI (Brasil)
 

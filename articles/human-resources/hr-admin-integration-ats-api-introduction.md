@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 48e368fe69443a5105ddba78a887bf9159bfe52a
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 61d8502a8f420d387b5b7f48fca2f8a680f6f3f8
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125584"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5464023"
 ---
 # <a name="applicant-tracking-system-integration-api-introduction"></a>Introdução da API de integração do sistema de acompanhamento de candidatos
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tópico descreve a API de integração do ATS (sistema de acompanhamento de candidatos) do Dynamics 365 Human Resources. A intenção da API é habilitar integrações otimizadas entre o Dynamics 365 Human Resources e ATSs de parceria.
 
@@ -125,7 +127,7 @@ Conjuntos de opções:
 - [Sexo](hr-admin-integration-ats-api-gender.md)
 - [Estado civil](hr-admin-integration-ats-api-marital-status.md)
 - [Meses do ano](hr-admin-integration-ats-api-months-of-year.md)
-- [Não/Sim](hr-admin-integration-ats-api-no-yes.md)
+- [Não Sim](hr-admin-integration-ats-api-no-yes.md)
 - [Unidade de período](hr-admin-integration-ats-api-period-unit.md)
 - [Frequência de triagem](hr-admin-integration-ats-api-screening-frequency.md)
 - [Geração de frequência de triagem de](hr-admin-integration-ats-api-screening-frequency-generate-from.md)

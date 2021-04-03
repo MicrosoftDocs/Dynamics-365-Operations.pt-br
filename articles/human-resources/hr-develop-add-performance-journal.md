@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 574925f0e278ad7bd3c654432fd0f862fd3c3259
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: a865ee37ed650c564961f6b3dd8773eea4f7b9ea
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115863"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465621"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Adicionar ao seu diário de desempenho e enviar elogio a alguém
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 O diário de desempenho retém informações que se refere como você tiver encontrado as metas ou como você executou durante um período. Você também pode elogiar ações de um colega de trabalho do diário. A empresa de dados demo usada para criar este procedimento é USMF. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 

@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: e060f20b65153a7bbe70996e6ff4c3930468348a
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d8d5b8c7ac5da9c68926d7fbb4f37b81b56665cb
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992236"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5264713"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planejamento mestre com contratos comerciais de compra
 
@@ -73,12 +73,12 @@ Depois que o sistema for preparado conforme descrito na seção anterior, siga e
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Exemplos de como a Otimização de Planejamento localiza o fornecedor e os prazos de entrega
 
-A tabela a seguir fornece exemplos que mostram como várias configurações para um produto liberado e seus contratos comerciais de compra associados afetam os valores que são encontrados para a ordem de compra planejada resultante. Os valores em **negrito** nas duas colunas mais à direita são os valores selecionados pela Otimização de Planejamento. Os valores em **_negrito e itálico_* _ nas outras colunas são as configurações que produziram os valores resultantes para cada linha.
+A tabela a seguir fornece exemplos que mostram como várias configurações para um produto liberado e seus contratos comerciais de compra associados afetam os valores que são encontrados para a ordem de compra planejada resultante. Os valores em **negrito** nas duas colunas mais à direita são os valores selecionados pela Otimização de Planejamento. Os valores em **_negrito e itálico_** nas outras colunas são as configurações que produziram os valores resultantes para cada linha.
 
 | Produto liberado: Fornecedor | Configurações de ordem padrão: Prazo de entrega | Cobertura de item: Substituir fornecedor | Cobertura de item: Substituir prazo de entrega | Contrato comercial: Fornecedor | Contrato comercial: Prazo de entrega | Contrato comercial: Ignorar prazo de entrega | Fornecedor resultante | Prazo de entrega resultante |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| _*_US001_*_ | _*_1_*_ | Não | Não | US003 | 3 | Não | _ *US001** | **1** |
-| US001 | 1 | **_Sim: US002_* _ | _*_Sim: 2_*_ | US003 | 3 | Não | _ *US002** | **2** |
+| ***US001** _ | _*_1_*_ | Não | Não | US003 | 3 | Não | _ *US001** | **1** |
+| US001 | 1 | ***Sim: US002** _ | _*_Sim: 2_*_ | US003 | 3 | Não | _ *US002** | **2** |
 | *(Em branco)* | 1 | Não | Não | ***US003** _ | _*_3_*_ | Não | _ *US003** | **3** |
 | *(Em branco)* | ***1** _ | Não | Não | _*_US003_*_ | 3 | Sim | _ *US003** | **1** |
 | *(Em branco)* | ***1** _ | _*_Sim: US002_*_ | Não | US003 | 3 | Não | _ *US002** | **1** |
