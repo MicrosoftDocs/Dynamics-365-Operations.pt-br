@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: bb4a426bb54ee21197f9954d946d60ea55f5eb76
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104346"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592613"
 ---
 # <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Configurar o complemento de faturamento eletrônico em Regulatory Configuration Services (RCS)
 
@@ -64,7 +64,6 @@ A tabela a seguir mostra os recursos de faturamento eletrônico que estão atual
 | Bélgica        | Fatura eletrônica belga (BE)      | Faturas de vendas e de projetos |
 | Brasil         | NF-e brasileira (BR)                  | Modelo de nota fiscal 55, cartas de correção, cancelamentos e descartes |
 | Brasil         | NFS-e ABRASF Curitiba brasileira (BR) | Notas fiscais de serviço |
-| Brasil         | NFS-e São Paulo brasileira (BR)       | Notas fiscais de serviço |
 | Dinamarca        | Fatura eletrônica dinamarquesa (DK)       | Faturas de vendas e de projetos |
 | Egito          | Fatura eletrônica egípcia (EG) | Faturas de vendas e de projetos |
 | Estônia        | Fatura eletrônica estoniana (EE)     | Faturas de vendas e de projetos |
@@ -119,10 +118,6 @@ A lista a seguir mostra as configurações de formato ER disponíveis para os re
 
 - NFS-e ABRASF Curitiba (BR)
 - NFS-e ABRASF Consulta Curitiba (BR)
-
-#### <a name="brazilian-br-nfs-e-nfs-e-so-paulo-city"></a>NFS-e brasileira (BR): NFS-e cidade de São Paulo
-
-- NFS-e São Paulo (BR)
 
 #### <a name="danish-dk-electronic-invoice-sales-and-project-invoices-for-denmark"></a>Fatura eletrônica dinamarquesa (DK): faturas de vendas e de projeto da Dinamarca
 
@@ -210,7 +205,7 @@ A tabela a seguir lista as ações disponíveis e indica se elas estão disponí
 | Chamar serviço brasileiro da SEFAZ                  | Integrar com serviço brasileiro da SEFAZ para o envio de documento fiscal.       | Em visualização           |
 | Chamar serviço PAC mexicano                      | Integrar com serviço PAC mexicano para envio do CFDI.                      | Em versão preliminar           |
 | Processar resposta                              | Analise a resposta recebida da chamada do serviço Web.                     | Geralmente disponível  |
-| Usar o MS Power Automate                         | Integre com o fluxo interno do Microsoft Power Automate.                       | Em versão preliminar           |
+| Usar o MS Power Automate                         | Integração ao fluxo interno do Microsoft Power Automate.                       | Em versão preliminar           |
 
 ## <a name="configuration-providers"></a>Provedores de configuração
 

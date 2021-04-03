@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 054547c4f33e50d2dc0fa275559ba6ed44c27971
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: ebb74f51c6a00d5667593630822c1ef6bcb92138
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125392"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466463"
 ---
 # <a name="person-identification-number"></a>Número de identificação da pessoa
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tópico descreve a entidade Número de identificação da pessoa para o Dynamics 365 Human Resources.
 

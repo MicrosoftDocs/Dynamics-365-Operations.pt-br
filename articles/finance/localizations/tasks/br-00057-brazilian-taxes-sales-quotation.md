@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 13ecdedf32e9ca5bebc4cb79f106939889948cc1
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6bc223a7cd20b2737664022bea647457981c3b99
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4988314"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5262783"
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a>Impostos brasileiros nas cotações de venda
 
