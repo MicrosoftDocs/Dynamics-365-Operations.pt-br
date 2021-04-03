@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8ebb9833be5e51fe59e9895e67cd8e55058078aa
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 265709f298d9310d5d647eaa029ece778d2e226e
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001331"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470632"
 ---
 # <a name="repair-management"></a>Gerenciamento de reparos       
 
@@ -37,15 +37,11 @@ Você configura sintomas, diagnóstico e as configurações de resolução. Qual
 
 Use os formulários de configuração a seguir para inserir informações que serão usadas para especificar os sintomas, o diagnóstico e a resolução do reparo.
 
-1.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Reparo** \> **Condições**.
-
-2.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Reparo** \> **Áreas de sintoma**.
-
-3.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Reparo** \> **Áreas de diagnóstico**.
-
-4.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Reparo** \> **Resoluções**.
-
-5.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Reparo** \> **Estágios de reparo**.
+- **Gerenciamento de serviços** \> **Configuração** \> **Reparo** \> **Condições**.
+- **Gerenciamento de serviços** \> **Configuração** \> **Reparo** \> **Áreas de sintoma**.
+-  **Gerenciamento de serviços** \> **Configuração** \> **Reparo** \> **Áreas de diagnóstico**.
+- **Gerenciamento de serviços** \> **Configuração** \> **Reparo** \> **Resoluções**.
+- **Gerenciamento de serviços** \> **Configuração** \> **Reparo** \> **Estágios de reparo**.
 
 ## <a name="symptoms-and-conditions"></a>Sintomas e condições
 
@@ -81,19 +77,19 @@ Para aplicar o gerenciamento de reparo a um item, este deve ser configurado com 
 
 ## <a name="create-a-repair-line-on-a-service-order"></a>Criar uma linha de reparo em uma ordem de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1.  Acesse **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
 
 2.  Selecione a ordem de serviço com o objeto de serviço que precisa de reparo.
 
-3.  Clique em **Reparar** \> **Linhas de reparo** para abrir o formulário **Linhas de reparo**.
+3.  Selecione **Reparo** \> **Linhas de reparo** para abrir o formulário **Linhas de reparo**.
 
-4.  Pressione CTRL+N para criar uma linha nova.
+4.  Selecione **Novo** para criar uma nova linha.
 
 5.  Selecione uma objeto de serviço. Você pode selecionar qualquer objeto de serviço que tenha sido configurado com uma relação de objeto na ordem de serviço.
 
-6.  Selecione um dos valores de sintomas, diagnóstico e execução predefinidos relevantes na linha de reparo e, em seguida, clique na guia **Nota** para criar uma nota na linha de reparo, se necessário.
+6.  Selecione um dos valores de sintomas, diagnóstico e execução predefinidos relevantes na linha de reparo e, em seguida, selecione a guia **Observação** para criar uma observação na linha de reparo, se necessário.
 
-7.  Pressione CTRL+S para salvar a nova linha de reparo. O campo **Data e hora de criação** na guia **Geral** do formulário **Linhas de reparo** será atualizado com a hora em que foi salvo.
+7.  Selecione **Salvar** para salvar a nova linha de reparo. O campo **Data e hora de criação** na guia **Geral** do formulário **Linhas de reparo** será atualizado com a hora em que foi salvo.
 
 ## <a name="tracking-progress-and-resolving-a-repair-issue"></a>Rastrear o progresso e resolver um problema de reparo
 

@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: fe009de3a94bf3ea7885f8f794879e16c36a3266
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ed215c4577484269ddf5de20ad93417f8eef38d6
+ms.sourcegitcommit: 45d10d0c25b3ec585323709bb97ba1895b500429
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115333"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "5502979"
 ---
 # <a name="edit-personal-information"></a>Editar informações pessoais
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Você pode editar suas informações pessoais no Dynamics 365 Human Resources no espaço de trabalho **Autoatendimento para funcionários**.
 
@@ -35,8 +37,11 @@ As informações pessoais que você pode editar incluem:
 - Detalhes do Contato
 - Contatos pessoais
 - Números de identificação
-- Método de pagamento
+- Forma de pagamento
 - Imagem usada no Human Resources
+
+>[!NOTE]
+>Talvez não seja possível editar certos tipos de informações pessoais, como detalhes do contato comercial. Para obter mais informações, consulte [Restringir a edição de informações pessoais](hr-employee-self-service-restrict-editing.md).
 
 Os parâmetros definidos no catálogo de endereços global determinam as funções que podem ver suas informações pessoais.
 
@@ -44,7 +49,7 @@ Os parâmetros definidos no catálogo de endereços global determinam as funçõ
 
 2. Selecione **Editar detalhes pessoais**.
 
-3. Para alterar seu endereço, selecione a guia **Endereços**. As alterações que você faz aparecem no espaço de trabalho **Gerenciamento de equipe** para alertar o HR. 
+3. Para alterar seu endereço, selecione a guia **Endereços**. As alterações que você faz aparecem no espaço de trabalho **Gerenciamento de equipe** para alertar o HR.
 
     - Para adicionar um novo endereço, selecione **Adicionar**.
     - Para editar um endereço existente, selecione o endereço e selecione **Editar**.
@@ -52,11 +57,13 @@ Os parâmetros definidos no catálogo de endereços global determinam as funçõ
     - Para adicionar ou remover um contato, selecione **Mais opções** e, em seguida, selecione **Avançado**. Em **Informações de contato**, selecione **Adicionar** ou **Remover** e edite os campos conforme necessário.
     - Para definir seu fuso horário e local, selecione **Mais opções** e escolha **Avançado**. Em **Geral**, edite os campos conforme necessário.
 
-4. Para alterar seus detalhes de contato, selecione a guia **Detalhes do contato**. Você pode fornecer diferentes tipos de informações de contato, incluindo telefone, email e links de redes sociais. Você pode definir um detalhe do contato como principal, mas apenas um de cada tipo como principal. 
+4. Para alterar seus detalhes de contato, selecione a guia **Detalhes do contato**. Você pode fornecer diferentes tipos de informações de contato, incluindo telefone, email e links de redes sociais. Você pode definir um detalhe do contato como principal, mas apenas um de cada tipo como principal.
 
     - Para adicionar novas informações de contato, selecione **Adicionar**. Edite os campos conforme necessário.
     - Para editar as informações de contato existentes, selecione o item e selecione **Editar**. Edite os campos conforme necessário.
     - Para definir um detalhe do contato como privado, selecione o item, selecione **Avançado** e defina a opção **Privado** como **Sim**. Selecione **OK**.
+      >[!NOTE]
+      >O botão **Avançado** não estará disponível se o administrador tiver habilitado o recurso **(Versão preliminar) Restringir a adição ou edição de endereço e de informações de contato por funcionários para fins de seleção** no seu ambiente. Para obter mais informações, consulte [Restringir a edição de informações pessoais](hr-employee-self-service-restrict-editing.md).
   
 5. Para alterar seus contatos pessoais, selecione a guia **Contatos pessoais**. Você pode designar contatos de emergência, beneficiários e dependentes. Um contato pode ser uma pessoa ou organização. O recurso **Gerenciamento de benefícios** usa informações de contato pessoais. Para obter mais informações, consulte [Configurar opções de qualificação para contato pessoal](hr-benefits-setup-contact-eligibility-options.md).
 

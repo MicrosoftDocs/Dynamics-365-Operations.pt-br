@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: fb598b3ac7dd72e8c500f0c2eaf07462009c67f7
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 722b004e607cb2e6b7de292d92b67b18c2024696
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970297"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556257"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -37,14 +37,14 @@ No momento do recebimento da ordem de entrada, a configuração da distribuiçã
 > [!NOTE]
 > As transações de estoque **não** têm seu registro cancelado quando o trabalho de distribuição integrada é cancelado, mesmo que a configuração para esse recurso esteja ativada nos Parâmetros de gerenciamento de depósito.
 
-## <a name="turn-on-the-planned-cross-docking-feature"></a>Ativar o recurso Distribuição integrada planejada
+## <a name="turn-on-the-planned-cross-docking-features"></a>Ativar os recursos de distribuição integrada planejada
 
-Para que você possa usar a distribuição integrada planejada avançada, o recurso deve estar ativado no sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos nesta ordem:
 
-- **Módulo:** *Gerenciamento de Depósito*
-- **Nome do recurso:** *Distribuição integrada planejada*
+1. *Distribuição integrada planejada*
+2. *Modelos de distribuição integrada com diretivas de localização*
 
-## <a name="setup"></a>Instalação
+## <a name="setup"></a>Configurar
 
 ### <a name="regenerate-load-posting-methods"></a>Regenerar métodos de lançamento da carga
 
@@ -89,6 +89,10 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **Revalidar no recebimento de fornecimento:** *Não*
 
         Esta opção define se o fornecimento deve ser revalidado durante o recebimento. Se essa opção estiver definida como *Sim*, a janela de tempo máximo e o intervalo de dias para o vencimento serão verificados.
+
+    - **Código de diretiva:** deixe este campo em branco
+
+        Esta opção permite que o sistema use diretivas de localização para ajudar a determinar o melhor local de destino para o estoque de distribuição integrada. Você pode configurá-la atribuindo um código de diretiva a cada modelo de distribuição integrada relevante. Cada código de diretiva identifica uma diretiva de local exclusiva.
 
     - **Validar janela de tempo:** *Sim*
 

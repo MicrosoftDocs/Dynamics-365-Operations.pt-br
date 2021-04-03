@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 19fab4f6b81eaf6e3605b6668212eece10606360
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 56e868f3050432db8d3b1721da435665f554d90d
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4987569"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487912"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Passo a passo do recurso Gerenciamento de alterações de engenharia
 
@@ -397,7 +397,6 @@ O engenheiro agora revisa a solicitação do cliente e cria uma ordem de altera�
 
 1. No Painel de Ações, na guia **Ordem de alteração**, no grupo **Alterar status**, selecione **Aprovar**.
 1. Selecione **Processo** para atualizar as informações do produto.
-1. Selecione **Concluir** para marcar a ordem de alteração como concluída.
 
 ## <a name="release-the-changed-product"></a>Liberar o produto alterado
 
@@ -411,5 +410,8 @@ O produto pode ser liberado novamente para a empresa *USMF* e enviado ao cliente
 1. Selecione **OK** para fechar a caixa de diálogo **Liberações** e retornar à ordem de alteração.
 1. No Painel de Ações, na guia **Ordem de alteração**, no grupo **Liberações do produto**, selecione **Processar** para liberar os produtos afetados para as empresas selecionadas. Como alternativa, selecione **Liberar a estrutura de produtos** para iniciar o processo de liberação.
 
+## <a name="complete-the-change-order"></a>Concluir a ordem de alteração
+
+Para marcar a ordem de alteração como concluída, o que indica que não há outras ações restantes, selecione **Concluir** no Painel de Ações.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

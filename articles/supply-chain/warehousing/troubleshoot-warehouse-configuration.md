@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 09b5770190fea9591f422b61ce6deedb2b9fa790
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 1fe285f05e5f1ddcb7bd206290b9954cbdaffc75
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4993994"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487088"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Solucionar problemas de configuração do depósito
 
@@ -109,5 +109,32 @@ Para permitir que os trabalhadores façam essa mudança, é possível criar um i
 
 Você pode definir outros campos na página conforme necessário.
 
+## <a name="the-dock-management-profile-of-a-location-profile-is-not-preventing-inventory-types-from-being-mixed"></a>O perfil de gerenciamento de doca de um perfil de localização não está impedindo que os tipos de estoque sejam misturados.
+
+### <a name="issue-description"></a>Descrição do problema
+
+Você está usando *políticas de consolidação de remessa*. Você configurou um *perfil de gerenciamento de doca* para um *perfil de localização*, mas quando o trabalho é criado, os tipos de estoque são combinados na localização final.
+
+### <a name="issue-resolution"></a>Resolução do problema
+
+Os perfis de gerenciamento de doca exigem que o trabalho seja dividido antecipadamente. Em outras palavras, o perfil de gerenciamento de doca espera que um cabeçalho de trabalho não tenha vários locais de armazenamento.
+
+Para o perfil de gerenciamento de doca gerenciar com eficiência a combinação de estoque, uma quebra de cabeçalho de trabalho deve ser configurada.
+
+Neste exemplo, nosso perfil de gerenciamento de doca está configurado de forma que a opção **Tipos de estoque que não devem ser combinados** seja definida como *ID da remessa*, e vamos configurar uma quebra de cabeçalho de trabalho para ele:
+
+1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Selecione o **Tipo de ordem de serviço** a ser editado (por exemplo, *Ordens de compra*).
+1. Selecione o modelo de trabalho a ser editado.
+1. No Painel de Ações, selecione **Editar consulta**.
+1. Abra a guia **Classificação** e adicione uma linha com as seguintes configurações:
+    - **Tabela** - *Transações de trabalho temporário*
+    - **Tabela derivada** - *Transações de trabalho temporário*
+    - **Campo** - *ID da remessa*
+1. Selecione **OK**.
+1. Você retornará à página **Modelos de trabalho**. No Painel de Ação, selecione **Quebras de cabeçalho de trabalho**.
+1. No Painel de Ações, selecione **Editar**.
+1. Marque a caixa de seleção associada à *ID da remessa* do **Nome do campo**.
+1. No Painel de ações, selecione **Salvar**.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
