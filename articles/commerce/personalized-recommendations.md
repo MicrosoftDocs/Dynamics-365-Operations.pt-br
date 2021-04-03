@@ -18,20 +18,18 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f535cf0bc3c733426af22cf453ffe97f721f8d9e
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: be460ec5ce8a9a625dc1a80f761bea9e2ab2f632
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000571"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477651"
 ---
 # <a name="enable-personalized-recommendations"></a>Habilitar recomendações personalizadas
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como disponibilizar recomendações de produtos personalizados para clientes no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 No Dynamics 365 Commerce, os varejistas podem disponibilizar recomendações de produtos personalizados (também conhecidos como personalização). Dessa forma, as recomendações personalizadas podem ser incorporadas na experiência do cliente online e no PDV (ponto de venda). Quando a funcionalidade de personalização é ativada, o sistema pode associar as informações de compra e de produto de um usuário para gerar recomendações de produtos individualizadas.
 

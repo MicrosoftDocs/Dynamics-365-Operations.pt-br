@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8732d0a032b7dd44918955354c56321d065d4a77
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 4d16de8c339fadff074ef8ec30b0b4d6e3412569
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001840"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470760"
 ---
 # <a name="forecast-reduction-keys"></a>Chaves de redução da previsão
 
@@ -198,7 +198,7 @@ Por isso, as ordens planejadas a seguir são criadas.
 Uma chave de redução da previsão é usada nos métodos **Transações - chave de redução** e **Percentual - chave de redução** para diminuir os requisitos de previsão. Siga estas etapas para criar e configurar uma chave de redução.
 
 1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
-2. Selecione **Nova** pressione **CTRL+N** para criar uma chave de redução.
+2. Selecione **Novo** para criar uma chave de redução.
 3. No campo **Chave de redução**, insira um identificador exclusivo para a chave de redução da previsão. Em seguida, no campo **Nome**, insira um nome. 
 4. Defina os períodos e o percentual da chave de redução em cada período:
 

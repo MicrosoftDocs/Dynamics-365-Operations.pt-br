@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6b21d4d631bcdf603b38212f5f76bb78937d3d3c
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: f1c3ced43b1f5693c5d5466fd97a20beb358fa20
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115067"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463325"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausências que os funcionários podem relatar. Você pode personalizar os tipos de licença de acordo com as necessidades da sua organização. Exemplos de tipos de licença incluem:
 
@@ -72,8 +74,7 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
    
  3. Defina **Postergar tipo de licença** para o tipo de licença. Quando você selecionar esta opção, qualquer saldo de postergação será transferido para o tipo de licença especificado. O tipo de licença de postergação também precisa ser incluído no plano de licença e ausência. 
  
- 4. Defina **Regras de expiração** para o tipo de licença. Ao configurar esta opção, você pode escolher a unidade de dias ou meses e definir a duração da expiração. Você também pode definir a data de efetivação da regra de vencimento. Os saldos de licença existentes no momento da expiração serão subtraídos do tipo de licença e serão refletidos no saldo de licença. 
- 
+ 4. Defina **Regras de expiração** para o tipo de licença. Ao configurar esta opção, você pode escolher a unidade de dias ou meses e definir a duração da expiração. Você também pode definir a data de efetivação da regra de vencimento. A data de efetivação é usada para determinar quando começar a executar o trabalho em lotes que processa a expiração da licença ou a data em que a regra entra em vigor. A expiração em si sempre ocorrerá na data de início do plano de licença quando o trabalho em lotes for definido para ser processado. Por exemplo, a data de início do plano pode ser 1/1/2020, mas a regra não foi criada até 6/1/2020. Ao definir a data de efetivação como 6/1/2020, a regra será processada no limite do ano seguinte; portanto, 1/1/2021. Os saldos de licença existentes no momento da expiração serão subtraídos do tipo de licença e serão refletidos no saldo de licença. 
  
 ## <a name="see-also"></a>Consulte também
 

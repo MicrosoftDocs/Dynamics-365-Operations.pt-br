@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 518b70223b2f6bf86809ccce77a2cf67c30e4168
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: bcfca0ddd52245ae2206f15ef9fa979675fca825
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4977529"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470682"
 ---
 # <a name="set-up-disposition-codes"></a>Configurar códigos de disposição 
 
@@ -33,15 +33,15 @@ Você pode configurar códigos de disposição para especificar como processar u
 
 Você também pode configurar um código de motivo para ajudar a explicar por que um item foi devolvido. Para obter mais informações sobre como configurar os códigos de motivo, consulte [Configurar códigos de motivo de devolução](set-up-return-reason-code.md).
 
-1.  Clique em **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
+1.  Vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
 
-2.  Clique em **Novo** ou pressione CTRL+N para criar um novo código de disposição.
+2.  Selecione **Novo** para criar um novo código de disposição.
 
 3.  Insira um nome exclusivo e descritivo, selecione uma ação e insira uma descrição para o código de disposição.
 
-4.  Se você deseja associar quaisquer encargos de cliente com esse código de disposição, clique no botão **Encargos** para abrir o formulário **Configurar encargos**.
+4.  Se você quiser associar quaisquer encargos de clientes a esse código de disposição, selecione o botão **Encargos** para abrir o formulário **Configurar encargos**.
 
-5.  Se você deseja definir quaisquer códigos externos para corresponder aos códigos de disposição da própria empresa, clique no botão **Códigos externos** para abrir o formulário **Códigos externos**.
+5.  Se você quiser definir quaisquer códigos externos para corresponder aos códigos de disposição da própria empresa, selecione o botão **Códigos externos** para abrir o formulário **Códigos externos**.
 
 ## <a name="see-also"></a>Consulte também
 

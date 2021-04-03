@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5a5e7ef2021e41c13b82523f2dc6a1b09bd1ba9f
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 5030203877ebdf885fb55c7946bfd4ee0c883c2e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115887"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465669"
 ---
 # <a name="develop-a-compensation-structure"></a>Desenvolver uma estrutura de remuneração
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este artigo mostra como criar um plano de remuneração fixa e inserir funcionários no plano com a qualificação. Este artigo usa os dados de demonstração de USMF e se aplica aos gerentes de remuneração e benefícios.
 

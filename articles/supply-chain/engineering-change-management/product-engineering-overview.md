@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b081cd8d56217b8cf76db824c29482d453fc9ea3
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3fde9194ece4774c4d39785e337caf2413052159
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001939"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476666"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -44,20 +44,24 @@ O gerenciamento de alterações de engenharia ajuda a planejar e gerenciar o con
 
 O vídeo anterior ([Recursos de gerenciamento de alterações no Dynamics 365 Supply Chain Management](https://youtu.be/N313FqvRuBc)) está incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
-## <a name="turn-on-engineering-change-management-for-your-system"></a>Ativar o gerenciamento de alterações de engenharia para o sistema
+## <a name="turn-on-the-engineering-change-management-and-version-dimension-features-for-your-system"></a>Ativar os recursos de gerenciamento de alterações de engenharia e dimensão de versão para o seu sistema
 
-Primeiro, ative o gerenciamento de alterações de engenharia seguindo estas etapas.
+Para poder usar o gerenciamento de alterações de engenharia, você deve habilitar o recurso *Gerenciamento de Alterações de Engenharia* e sua chave de configuração. Se você quiser rastrear a dimensão de versão dos produtos nas transações (opcional), também deverá habilitar o recurso *Dimensão de versão do produto* e sua chave de configuração.
+
+Primeiro, ative os recursos seguindo estas etapas.
 
 1. Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Verifique se há atualizações.
 1. Ative o recurso denominado **Gerenciamento de Alterações de Engenharia**.
+1. Se quiser usá-lo, ative também o recurso denominado **Versão de dimensão do produto**.
 
-Em seguida, ative a chave de configuração do **Gerenciamento de Alterações de Engenharia** seguindo estas etapas.
+Em seguida, ative as chaves de configuração seguindo estas etapas.
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
-1. Expanda o nó **Comércio** e marque a caixa de seleção **Gerenciamento de Alterações de Engenharia**.
+1. Expandir o nó **Comércio**
+1. Marque a caixa de seleção **Gerenciamento de Alterações de Engenharia**.
+1. Se quiser usá-lo, marque também a caixa de seleção **Dimensão do produto - Versão**.
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

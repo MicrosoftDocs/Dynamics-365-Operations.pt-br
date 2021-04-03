@@ -1,5 +1,5 @@
 ---
-title: Gerenciamento de tarefas em PDV
+title: Gerenciamento de tarefas no PDV
 description: Este tópico descreve o gerenciamento de tarefas no aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
 author: gvrmohanreddy
 manager: annbe
@@ -15,20 +15,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 889cc90b534de33ccd0e2bea367b2da42b5d72e0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 18ba781795058de6228c712c6a22e59038e96368
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006176"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478353"
 ---
-# <a name="task-management-in-pos"></a>Gerenciamento de tarefas em PDV
+# <a name="task-management-in-pos"></a>Gerenciamento de tarefas no PDV
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve o gerenciamento de tarefas no aplicativo de ponto de venda (PDV) do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 O aplicativo de PDV Dynamics 365 Commerce tem recursos de gerenciamento de tarefas que permitem que gerentes e funcionários de armazenamento gerenciem tarefas e atualizem o status da tarefa. Os trabalhadores do armazenamento podem acessar as tarefas selecionando o bloco **Tarefas** na página inicial do PDV ou selecionando notificações de tarefas. Por padrão, os trabalhadores da loja são levados para a guia **Minhas tarefas**, na qual eles podem exibir as tarefas atribuídas a eles. No entanto, eles podem alternar facilmente para as guias **Tarefas atrasadas**, **Tarefas abertas** e **Listas de tarefas**.
 

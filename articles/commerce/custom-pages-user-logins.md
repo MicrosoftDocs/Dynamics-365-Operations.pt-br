@@ -1,6 +1,6 @@
 ---
 title: Configurar páginas personalizadas para entradas dos usuários
-description: Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que manipula inscrições personalizadas para usuários nos locatários de business-to-consumer (B2C) do Azure Active Directory (Azure AD).
+description: Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que lidem com entradas personalizadas para usuários nos locatários de B2C do Azure Active Directory (Azure AD).
 author: brianshook
 manager: annbe
 ms.date: 09/15/2020
@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a55da9683c43ac75109fd256e481b02a4d565914
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 3328fad5328ae1954a6749f9a5eebcb71c723698
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4970069"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477939"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para entradas dos usuários
 
-
 [!include [banner](includes/banner.md)]
 
-Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que manipula inscrições personalizadas para usuários nos locatários de business-to-consumer (B2C) do Azure Active Directory (Azure AD).
-
-## <a name="overview"></a>Visão geral
+Este tópico descreve como criar páginas personalizadas no Microsoft Dynamics 365 Commerce que lidem com entradas personalizadas para usuários nos locatários de B2C do Azure Active Directory (Azure AD).
 
 Para usar as páginas personalizadas criadas no Dynamics 365 Commerce para manipular fluxos de inscrições de usuário, você deve configurar as políticas do Azure AD que serão referenciadas no ambiente de comércio. Você pode configurar as políticas B2C "Se inscrever e entrar," "Edição de perfil," e "Redefinição de senha" Azure AD usando o aplicativo B2C do Azure AD. O locatário B2C do Azure AD e nomes de política podem ser referenciados durante o processo de provisionamento feito para o ambiente de comércio usando Microsoft Dynamics Lifecycle Services (LCS).
 

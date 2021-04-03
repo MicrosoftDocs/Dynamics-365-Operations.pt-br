@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f99bff8846cf95bc25f0396444a3920c48f73b1e
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 4bf2c6525f245a72811f4f239479be360c0c434c
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115839"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465645"
 ---
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este artigo descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável.
 

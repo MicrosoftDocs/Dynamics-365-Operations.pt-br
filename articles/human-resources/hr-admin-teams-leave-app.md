@@ -3,7 +3,7 @@ title: Aplicativo Human Resources no Teams
 description: Este tópico apresenta o aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 09/30/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,20 +18,20 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ba520f873de5b20111f9134e87281bcdf4025785
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 86abe32f76f2cc21c773727be07a44be49cdbac7
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111489"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5487864"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite aos funcionários solicitar folgas rapidamente, além de visualizar suas informações de saldo de folgas no Microsoft Teams. Os funcionários podem interagir com um bot para solicitar informações. A guia **Folga** fornece informações mais detalhadas. Além disso, eles podem enviar às pessoas informações sobre suas próximas folgas em equipes e bate-papos fora do aplicativo do Human Resources.
 
-![Bot do aplicativo de licenças do Human Resources Teams](./media/hr-admin-teams-leave-app-bot.png)
+![Bot do aplicativo de licenças do Human Resources Teams](./media/hr-teams-leave-app-bot.png)
 
 ![Guia Folga do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
 
@@ -39,16 +39,18 @@ O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite a
 
 ## <a name="install-and-setup"></a>Instalação e configuração
 
-Você pode encontrar o aplicativo Human Resources na loja do Teams. Para obter informações sobre como instalar o aplicativo do Teams, consulte [Gerenciar solicitações de licença no Teams](hr-teams-leave-app.md).
+Você pode encontrar o aplicativo Dynamics 365 Human Resources na loja do Teams. Para obter informações sobre como instalar o aplicativo do Teams, consulte [Gerenciar solicitações de licença no Teams](hr-teams-leave-app.md).
 
 Para obter informações sobre como gerenciar permissões de aplicativo no Teams, consulte [Gerenciar políticas de permissão de aplicativo no Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-app-permission-policies).
 
+Se desejar que os usuários exibam o Calendário de licenças e ausências no aplicativo, habilite o **Calendário de licenças e ausências no Teams** no Gerenciamento de recursos. Para obter mais informações sobre como habilitar recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+
 ## <a name="enable-notifications-for-the-human-resources-app-in-teams"></a>Habilitar notificações para o aplicativo de recursos humanos no Teams
 
-Para que os usuários recebam notificações de solicitação de licença no aplicativo Team, você deve habilitar notificações no Human Resources.
+Para que os usuários recebam notificações de solicitação de licença no aplicativo Teams, habilite notificações no Dynamics 365 Human Resources.
 
 >[!NOTE]
->Somente os usuários que estiverem conectados ao Teams e usando o aplicativo Human Resources Teams receberão notificações.
+>Somente usuários conectados ao Teams e que utilizem o aplicativo Dynamics 365 Human Resources no Teams receberão notificações.
 
 1. No Human Resources, selecione **Administração do sistema**.
 
@@ -66,7 +68,7 @@ Para que os usuários recebam notificações de solicitação de licença no apl
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Ativar ou desativar notificações do Teams para usuários individuais
 
-Depois de habilitar notificações para o aplicativo Human Resources Team, você pode ativar ou desativar notificações para usuários individuais.
+Após habilitar notificações para o aplicativo Dynamics 365 Human Resources no Teams, você poderá ativar ou desativar notificações para usuários individuais.
 
 1. No Human Resources, selecione **Administração do sistema**.
 
@@ -82,9 +84,28 @@ Depois de habilitar notificações para o aplicativo Human Resources Team, você
 
 6. Selecione **Salvar**.
 
-## <a name="known-issues"></a>Problemas conhecidos
+## <a name="supported-languages"></a>Idiomas com suporte
 
-| Problema | Status |
+O aplicativo Dynamics 365 Human Resources no Teams oferece suporte aos seguintes idiomas:
+
+| ID da localidade | Idioma |
+| --- | --- |
+| de-DE | Alemão (Alemanha) |
+| es-ES | Espanhol (Espanha) |
+| es-MX | Espanhol (México) |
+| fr-CA | Francês (Canadá) |
+| fr-FR | Francês (França) |
+| it-IT | Italiano (Itália) |
+| nl-NL | Holandês (Países Baixos) |
+| pt-BR | Português (Brasil) |
+| tr-TR | Turco (Turquia) |
+| zh-CN | Chinês (simplificado) |
+
+## <a name="notes"></a>Observação
+
+Os seguintes itens de trabalho foram lançados para versões futuras:
+
+| Item de trabalho | Status |
 | --- | --- |
 | O saldo exibido ao enviar folga para uma data futura está incorreto. | A previsão ainda não está disponível. O saldo é exibido para a data atual. |
 | Não é possível cancelar uma solicitação **Em revisão**. | Atualmente, essa funcionalidade não tem suporte e será adicionada em uma versão futura. |
@@ -100,7 +121,7 @@ Se um usuário entrar em contato com você porque não consegue entrar no aplica
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erro ao aprovar solicitações de licença no aplicativo do Human Resources no Teams
 
-Se um usuário receber um erro ao tentar aprovar solicitações de licença no aplicativo do Teams, execute as seguintes etapas de solução de problemas:
+Se um usuário receber um erro ao tentar aprovar solicitações de licença no aplicativo do Teams, teste as seguintes etapas de solução de problemas:
 
 1. Verifique se a sua conta do Teams é a mesma usada para acessar o Human Resources.
 

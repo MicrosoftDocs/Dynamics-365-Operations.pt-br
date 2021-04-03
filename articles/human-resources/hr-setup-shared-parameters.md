@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a7b399e0e8972a15837648d7ae6ec0eaacb5196b
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 297141ab17660533b441629ccdfc624bbcb9c82b
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5130414"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5467280"
 ---
 # <a name="configure-shared-parameters"></a>Configurar parâmetros compartilhados
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Você deve configurar parâmetros compartilhados para os registros compartilhados entre empresas, como Registros de posições. Este artigo explica como configurar parâmetros de Recursos humanos entre entidades legais.
 

@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 9911362ff8260860864cfe24f0b60f59adb77186
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: 0bca48c9e980f95e4dd72a075b34824331ae05dc
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125873"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466535"
 ---
 # <a name="person-address"></a>Endereço da pessoa
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tópico descreve a entidade Endereço da pessoa para o Dynamics 365 Human Resources.
 
