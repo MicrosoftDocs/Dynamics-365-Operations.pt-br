@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.scope: Core, Operations
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8756dc22ffd64f836740124ce08dadca84207147
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 2391ec11bd497c69ddb19e29533f5441d7374877
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078231"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501093"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Substituir o princípio de reserva padrão por materiais em produção
 
@@ -38,11 +39,11 @@ Por exemplo, se você tem matérias-primas ou componentes que exigem trabalho de
 Para que você possa usar o recurso, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Controle de produção*
-- **Nome do recurso:** *Substituir reserva de produção padrão*
+- **Nome do recurso:** *(Versão Preliminar) Substituir reserva de produção padrão*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Atribuir uma política de reserva de produção a um grupo de modelos de item
 
-1. Vá para **Gerenciamento de custos &gt; Configuração das políticas contábeis de estoque &gt; Grupos de modelos de item**.
+1. Vá para **Gerenciamento de custos \> Configuração das políticas contábeis de estoque \> Grupos de modelos de item**.
 1. Crie ou selecione um grupo de modelos de item.
 1. Na FastTab **Políticas de estoque**, marque a caixa de seleção **Substituir reserva de produção de item**.
 1. No campo **Reserva**, selecione o princípio de reserva de itens que pertencem ao grupo de modelos selecionado. (Esses itens incluem itens que estão em uma linha da BOM ou da fórmula.)

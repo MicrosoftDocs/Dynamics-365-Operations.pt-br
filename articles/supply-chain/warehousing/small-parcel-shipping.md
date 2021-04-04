@@ -16,16 +16,17 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 350193a0054ef879ece3dd2dfcc4105476981837
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5078233"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501165"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
-[!include [banner](../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 O recurso SPS (remessa de pacotes pequenos) permite que o Microsoft Dynamics 365 Supply Chain Management interaja diretamente com as transportadoras fornecendo uma estrutura para a comunicação por meio de APIs de transportadora. Essa funcionalidade é útil ao remeter ordens de venda individuais por meio de transportadoras comerciais em vez de usar a remessa de contêineres ou a remessa de carga parcial (LTL).
 

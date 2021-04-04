@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 89563204cf1423ddce47d7bacace8f14edf87005
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: ccc6bf2e8b070e92cc4dbb98d8ec35ce60723516
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115987"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468074"
 ---
 # <a name="manage-buy-and-sell-leave-policies"></a>Gerenciar políticas de compra e venda de licenças
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Você pode permitir que os funcionários comprem e vendam licenças criando uma política de licença de compra e venda. Você pode configurar essas políticas para usar o fluxo de trabalho para aprovações, definir valores e taxas máximos e definir taxas para compras e vendas. 
 

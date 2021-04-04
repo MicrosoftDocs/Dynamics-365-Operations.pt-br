@@ -17,21 +17,21 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd9f6dfdf17ffd506fff21763388ee0ca7526681
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: fbc991c22271ccc3d9c50ade635a80c635b35f73
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991581"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470873"
 ---
 # <a name="set-up-subscription-groups"></a>Configurar grupos de subscrições 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Clique em **Gerenciamento de serviço** \> **Configuração** \> **Subscrições de serviço** \> **Grupos de subscrições**.
+1.  Vá para **Gerenciamento de serviços** \> **Configuração** \> **Subscrições de serviços** \> **Grupos de subscrições**.
 
-2.  Pressione Ctrl+N ou clique em **Novo** para criar um novo grupo de subscrições.
+2.  Selecione **Novo** para criar um novo grupo de subscrições.
 
 3.  No campo **Grupo de subscrição**, insira um nome para o grupo da nova subscrição.
 

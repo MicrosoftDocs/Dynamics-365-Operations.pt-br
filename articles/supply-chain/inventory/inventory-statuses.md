@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0c4cad56389c7a8fd6d37591c1ff335fff715707
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
+ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5001815"
+ms.lasthandoff: 02/18/2021
+ms.locfileid: "5476690"
 ---
 # <a name="inventory-statuses"></a>Status do estoque
 
@@ -45,6 +45,9 @@ O status de estoque é uma das dimensões do grupo de dimensão de armazenamento
 
 Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado *Pronto*, um status indisponível que é chamado *Danificado* e um status bloqueado que é chamado *Bloqueado*. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificados ou interrompidos, é possível alterar o status do estoque dos itens para *Danificado* na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido como *Bloqueado*. Se você pesquisa os itens danificados usando um dispositivo móvel, o Supply Chain Management pode usar diretivas de local e modelos de trabalho para mostrar informações sobre um local apropriado ou intervalo de locais onde você pode armazenar esses itens. Para itens devolvidos, um tipo de problema de *Reserva* é criado na página **Transações do inventário**.
 
+> [!NOTE]
+> Não é possível alterar o status do estoque em locais onde o trabalho aberto existe. Por exemplo, se você tiver um recebimento de compra para um item, mas sem etapa de armazenamento, o trabalho aberto existirá para o local de recebimento e você obterá um erro se tiver tentado alterar o status do estoque nessa localização. A conclusão ou o cancelamento do trabalho relacionado permitiria que você alterasse o status.
+ 
 Para o trabalho de saída, use itens com status de estoque disponível. Se você tiver itens com um status de *Quebrado* e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente.
 
 Depois de configurar um status de estoque, você pode definir o status de estoque padrão para um local, item e depósito. Você também pode definir um status padrão de venda, transferência e ordens de compra. O status padrão para ordens de venda e a ordem de transferência de saída não pode ter a opção **Bloqueio de estoque** definida como *Sim*. O status de estoque que é herdado das configurações padrão em um site, depósito, item, ordem de compra, ordem de transferência ou ordem de vendas pode ser alterado usando o dispositivo móvel ou na ordem de compra, na ordem de venda ou na linha da ordem de transferência.

@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: MpsIntegrationParameters, MpsFitAnalysis
+ms.search.form: ReqPlanSched, ReqGroup, ReqReduceKey, ForecastModel
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: cb696c365e02ab3e3b28da19b8b33f1975c142f8
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 7bd1268893d0869d2414b944493c8b8859f27abc
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4983535"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5501117"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
@@ -249,7 +249,7 @@ Por isso, as ordens planejadas a seguir são criadas.
 Uma chave de redução da previsão é usada nos métodos **Transações - chave de redução** e **Percentual - chave de redução** para diminuir os requisitos de previsão. Siga estas etapas para criar e configurar uma chave de redução.
 
 1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
-2. Selecione **Nova** pressione **CTRL+N** para criar uma chave de redução.
+2. Selecione **Novo** para criar uma chave de redução.
 3. No campo **Chave de redução**, insira um identificador exclusivo para a chave de redução da previsão. Em seguida, no campo **Nome**, insira um nome. 
 4. Defina os períodos e o percentual da chave de redução em cada período:
 
@@ -265,8 +265,8 @@ Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do
 2. Na Guia Rápida **Outro**, no campo **Chave de redução**, selecione a chave de redução para atribuir ao grupo de cobertura. A chave de redução é aplicada a todos os itens que pertencem ao grupo de cobertura.
 3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Vá para um dos seguintes locais:
 
-    - Planejamento mestre \> Configuração \> Planos \> Planos de previsão
-    - Planejamento mestre \> Configuração \> Planos \> Planos mestres
+    - **Planejamento mestre \> Configuração \> Planos \> Planos de previsão**
+    - **Planejamento mestre \> Configuração \> Planos \> Planos mestres**
 
 4. Na página **Planos de previsão** ou **Planos mestres**, na Guia Rápida **Geral**, no campo **Método usado para reduzir os requisitos de previsão**, selecione **Percentual - chave de redução** ou **Transações - chave de redução**.
 
@@ -274,5 +274,69 @@ Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do
 
 Quando você seleciona **Transações - chave de redução** ou **Transações - período dinâmico** como método para reduzir os requisitos de previsão, pode especificar quais transações reduzem a previsão. Na página **Grupos de cobertura**, na Guia Rápida **Outro**, no campo **Reduzir a previsão por**, selecione **Todas as transações**, se todas as transações tiverem que reduzir a previsão, ou **Ordens**, se somente as ordens de venda devem reduzir a previsão.
 
+## <a name="forecast-models-and-submodels"></a>Modelos e submodelos de previsão
+
+Esta seção descreve como criar modelos de previsão e como combinar vários modelos de previsão, configurando submodelos.
+
+Um *modelo de previsão* nomeia e identifica uma previsão específica. Após criar o modelo de previsão, você pode adicionar linhas de previsão a ele. Para adicionar linhas de previsão para vários itens, use a página **Linhas de previsão de demanda**. Para adicionar linhas de previsão para um item selecionado específico, use a página **Produtos liberados**.
+
+Um modelo de previsão pode incluir previsões de outros modelos de previsão. Para obter esse resultado, você adiciona outros modelos de previsão como *submodelos* de um modelo de previsão pai. Você deve criar cada modelo relevante antes de poder adicioná-lo como um submodelo de um modelo de previsão pai.
+
+A estrutura resultante oferece uma forma poderosa de controlar previsões, pois ela permite combinar (agregar) a entrada de várias previsões individuais. Portanto, do ponto de vista de planejamento, é fácil combinar previsões para simulações. Por exemplo, você pode configurar uma simulação baseada na combinação de uma previsão regular com a previsão para uma promoção de primavera.
+
+### <a name="submodel-levels"></a>Níveis de submodelo
+
+Não há limite para o número de submodelos que podem ser adicionados a um modelo de previsão principal. No entanto, a estrutura pode ter apenas um nível de profundidade. Em outras palavras, um modelo de previsão que é um submodelo de outro modelo de previsão não pode ter seus próprios submodelos. Quando você adiciona submodelos a um modelo de previsão, o sistema verifica se esse modelo de previsão já é um submodelo de outro modelo de previsão.
+
+Se o planejamento mestre encontrar um submodelo que tenha seus próprios submodelos, você receberá uma mensagem de erro.
+
+#### <a name="submodel-levels-example"></a>Exemplo de níveis de submodelo
+
+O modelo de previsão A tem modelo de previsão B como um submodelo. Portanto, o modelo de previsão B não pode ter seus próprios submodelos. Se você tentar adicionar um submodelo ao modelo de previsão B, receberá a seguinte mensagem de erro: "O modelo de previsão B é um submodelo do modelo A".
+
+### <a name="aggregating-forecasts-across-forecast-models"></a>Agregar previsões em modelos de previsão
+
+As linhas de previsão que ocorrem no mesmo dia serão agregadas ao modelo de previsão e a submodelos.
+
+#### <a name="aggregation-example"></a>Exemplo de agregação
+
+O modelo de previsão A tem modelos de previsão B e C como submodelos.
+
+- O modelo de previsão A inclui uma previsão de demanda para 2 peças (pcs) em 15 de junho.
+- O modelo de previsão B inclui uma previsão de demanda de 3 pcs em 15 de junho.
+- O modelo de previsão C inclui uma previsão de demanda para 4 pcs em 15 de junho.
+
+A previsão de demanda resultante será uma demanda simples para 9 pcs (2 + 3 + 4) em 15 de junho.
+
+> [!NOTE]
+> Cada submodelo usa seus próprios parâmetros, não os parâmetros do modelo de previsão pai.
+
+### <a name="create-a-forecast-model"></a>Criar um modelo de previsão
+
+Para criar um modelo de previsão, siga estas etapas.
+
+1. Acesse **Planejamento mestre \> Configuração \> Previsão de demanda \> Modelos de previsão**.
+1. No Painel de Ações, selecione **Novo**.
+1. Defina os seguintes campos para o novo modelo de previsão:
+
+    - **Modelo** – insira um identificador exclusivo para o modelo.
+    - **Nome** – insira um nome descritivo para o modelo.
+    - **Parado** – em geral, você deve definir esta opção como *Não*. Defina-a como *Sim* somente se desejar impedir a edição de todas as linhas de previsão atribuídas ao modelo.
+
+    > [!NOTE]
+    > O campo **Incluir em previsões de fluxo de caixa** e os campos na FastTab **Projeto** não estão relacionados ao planejamento mestre. Portanto, você pode ignorá-las neste contexto. Você deve considerá-las somente quando trabalhar com previsões para o módulo **Gerenciamento e contabilidade de projetos**.
+
+### <a name="assign-submodels-to-a-forecast-model"></a>Atribuir submodelos a um modelo de previsão
+
+Para atribuir submodelos a um modelo de previsão, siga estas etapas.
+
+1. Acesse **Gerenciamento de estoque \> Configuração \> Previsão \> Modelos de previsão**.
+1. No painel de lista , selecione o modelo de previsão para configurar um submodelo.
+1. Na FastTab **Submodelo**, selecione **Adicionar** para adicionar uma linha à grade.
+1. Na nova linha, defina os seguintes campos:
+
+    - **Submodelo** – selecione o modelo de previsão a ser adicionado como um submodelo. Esse modelo de previsão já deve existir e não deve ter submodelos próprios.
+    - **Nome** – insira um nome descritivo para o submodelo. Por exemplo, esse nome pode indicar a relação do submodelo com o modelo de previsão pai.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

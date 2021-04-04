@@ -3,7 +3,7 @@ title: Configurar taxas de juros para um código de juros
 description: Os códigos de juros contêm configurações que determinam quando os juros são cobrados e como são calculados em contas vencidas.
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 02/17/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1169a397dfdd32f728a09e2ad279842edc289c19
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 5d9ff856e34eb894c5d0ab5fe17c8e95f62fff57
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4971619"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555356"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Configurar taxas de juros para um código de juros
 
@@ -46,10 +46,19 @@ Você pode configurar taxas de juros para calcular um percentual especificado.
 
 - O valor dos juros se aplica a todas as moedas.
 - Os limites do valor de juros opcional podem ser inseridos.
-- <strong>Porcentagem</strong> é selecionado** <strong>no campo **Calcular juros com base em</strong> na página <strong>Configurar Códigos de juros</strong>.
+- **Porcentagem** é selecionado no campo **Calcular juros com base em** na página **Configurar Códigos de juros**.
 
 Por exemplo, para configurar um código de juros que avalie 5% de juros para cada dois meses, se o pagamento da fatura exceder a data de vencimento da transação, digite 2 no campo **Calcular juros a cada** e selecione **Mês**.
 
+> [!NOTE] 
+> O novo algoritmo para o cálculo da nota de juros é adicionado usando o gerenciamento de Recursos. Para usar esse algoritmo, habilite o recurso **(GBL) Permitir calcular juros por dia como porcentagem anual dividida por 365**. Para obter mais informações sobre como habilitar os recursos, consulte [Visão geral do gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+> 
+> A fórmula para o cálculo do valor da nota de juros é: 
+>  
+> Valor da nota de juros = valor devido * juros anuais % / 365 * número de dias de atraso
+>  
+> Este recurso está disponível na versão 10.0.18 e posterior.    
+ 
 ## <a name="interest-rates-based-on-amounts"></a>Taxas de juros baseadas em valores
 Você pode configurar taxas de juros que calculam um valor por moeda específico.
 - Um valor de juros é especificado para cada moeda no código de juros.

@@ -1,9 +1,9 @@
 ---
 title: Configurar perfil de notificação por email
 description: Este tópico descreve como criar um perfil de notificação de email no Microsoft Dynamics 365 Commerce.
-author: samjarawan
+author: bicyclingfool
 manager: annbe
-ms.date: 03/31/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-commerce
@@ -13,26 +13,23 @@ ms.reviewer: v-chgri
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: samjar
+ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9378fb200a239433f2023bb90f72840dace1c0eb
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d82a1abe68ff6e162acb75c6fdc1e207af11c279
+ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000815"
+ms.lasthandoff: 03/06/2021
+ms.locfileid: "5555298"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificação por email
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar um perfil de notificação de email no Microsoft Dynamics 365 Commerce.
 
-## <a name="overview"></a>Visão geral
-
-Antes de criar canais, configure um perfil para garantir que as notificações de email possam ser enviadas para vários eventos, como criação da ordem, status da remessa da ordem e falha do pagamento.
+Ao criar canais, você pode configurar um perfil de notificação por email. Dessa forma, os emails podem ser enviados para os clientes por vários eventos transacionais, como a criação da ordem, o status de remessa da ordem e a falha de pagamento.
 
 Para obter informações adicionais sobre como configurar o email, consulte [Configurar e enviar email](../fin-ops-core/fin-ops/organization-administration/configure-email.md?toc=/dynamics365/commerce/toc.json).
 
@@ -48,7 +45,7 @@ Para criar um perfil de notificação por email, siga estas etapas.
 
 ### <a name="create-an-email-template"></a>Criar um modelo de email
 
-Antes que uma notificação por email possa ser criada, é necessário criar um modelo de email da organização contendo as informações de email dos remetentes e o modelo de email.
+Antes que um tipo de notificação por email possa ser habilitado, você deve criar um modelo de email de organização no Commerce Headquarters. Este modelo define o assunto do email, o remetente, o idioma padrão e o corpo do email para cada idioma para o qual você deseja oferecer suporte.
 
 Para criar um modelo de email, siga estas etapas.
 
@@ -58,7 +55,7 @@ Para criar um modelo de email, siga estas etapas.
 1. No campo **Nome do remetente**, digite o nome do remetente.
 1. No campo **Descrição do Email**, insira uma descrição significativa.
 1. No campo **Email do remetente**, insira o endereço de email do remetente.
-1. Na seção **Geral**, preencha todas as informações opcionais necessárias (como a prioridade de email).
+1. Na seção **Geral**, selecione um idioma padrão para o modelo de email. O idioma padrão será usado quando não existir nenhum modelo localizado para o idioma especificado.
 1. Expanda a seção **Conteúdo da mensagem de email** e selecione **Novo** para criar o conteúdo do modelo. Para cada item de conteúdo, selecione o idioma e forneça a linha de assunto do email. Se o email tiver um corpo, certifique-se de que a caixa **Tem corpo** esteja selecionada.
 1. No painel de ações, selecione **Mensagem do email** para fornecer um modelo de corpo de email.
 

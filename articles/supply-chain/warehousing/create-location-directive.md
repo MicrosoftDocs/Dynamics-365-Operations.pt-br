@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: b1b3bafb24ff6eb0c42d901fac3b6668cedf39ef
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
+ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4963301"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470510"
 ---
 # <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
@@ -239,7 +239,7 @@ Você pode definir várias ações de diretiva de localização para cada linha.
     - **Arredonde para o lote completo de LP e FEFO** – essa estratégia combina os elementos das estratégias *Reserva de lotes FEFO* e *Arredondar até a LP completa*. Ele só é válido para itens habilitados para lotes e diretivas de localização que têm um tipo de trabalho de *Separação*. A linha deve ser habilitada para lotes a fim de usar a estratégia *Reserva de lotes FEFO*. A estratégia *Arredondar até a LP completa* pode ser usada somente para reabastecimento. Se essa estratégia for configurada junto com um limite de estoque de localização, ela poderá fazer com que o local de trabalho de armazenamento selecionado fique sobrecarregado e os limites de estoque sejam ignorados.
     - **Arredondar até a LP completa** – esta estratégia é usada para arredondar para cima a quantidade de estoque para corresponder à quantidade de placa de licença que é atribuída aos itens que devem ser separados. Você só pode usar essa estratégia para diretivas de localização de reabastecimento do tipo *Separação*. Se essa estratégia for configurada junto com um limite de estoque de localização, ela poderá fazer com que o local de trabalho de armazenamento selecionado fique sobrecarregado e os limites de estoque sejam ignorados.
     - **Placa de licença guiada** – Use esta estratégia quando você liberar a ordem para o depósito para criar o trabalho de separação e armazenamento. Você pode usar essa abordagem para várias placas de licença. Esta estratégia tentará reservar e criar um trabalho de separação em relação aos locais que mantêm as placas de licença solicitadas que foram associadas às linhas da ordem de transferência. No entanto, se essas ações não puderem ser concluídas, mas você ainda desejar criar um trabalho de separação, retorne a outra estratégia para as ações de diretiva de localização. De acordo com as necessidades de processo comercial, talvez você também queira pesquisar o estoque em outra área do depósito.
-    - **Local vazio sem trabalho de entrada** – use esta estratégia para detectar locais vazios. O local será considerado vazio se não houver estoque físico e nenhum trabalho de entrada esperado. Você só pode usar essa estratégia para diretivas de localização com um tipo de trabalho de *Separação*.
+    - **Local vazio sem trabalho de entrada** – use esta estratégia para detectar locais vazios. O local será considerado vazio se não houver estoque físico e nenhum trabalho de entrada esperado. Você só pode usar essa estratégia para diretivas de localização com um tipo de trabalho de *Colocar*.
     - **Classificação por vencimento local FIFO** – Use a estratégia FIFO (primeiro a entrar, primeiro a sair) para enviar itens rastreados por lote e itens não rastreados por lote, com base na data em que o estoque deu entrada no depósito. Esse recurso pode ser especialmente útil para estoque não rastreado por lote, no qual nenhuma data de vencimento está disponível para uso para classificação. A estratégia FIFO encontra o local que contém a data de classificação por vencimento mais antiga e aloca a separação com base nessa data.
     - **Classificação por vencimento local LIFO** – Use a estratégia LIFO (último a entrar, último a sair) para enviar itens rastreados por lote e itens não rastreados por lote, com base na data em que o estoque deu entrada no depósito. Esse recurso pode ser especialmente útil para estoque não rastreado por lote, no qual nenhuma data de vencimento está disponível para uso para classificação. A estratégia LIFO encontra o local que contém a data de classificação por vencimento mais recente e aloca a separação com base nessa data.
 

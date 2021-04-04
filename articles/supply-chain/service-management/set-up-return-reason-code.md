@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c321531ace9e17f7d099be6280fd30500b991577
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: d268c6fc90457c9f84f66ea5dbf86df356bea0f4
+ms.sourcegitcommit: 34b8f6f5c6134b7b97a9fb41d0b2e63215c67062
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4991706"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470659"
 ---
 # <a name="set-up-return-reason-codes"></a>Configurar códigos de motivo de devolução   
 
@@ -31,9 +31,9 @@ ms.locfileid: "4991706"
 
 ## <a name="set-up-return-reason-code-groups"></a>Configurar grupos de código de motivo de devolução 
 
-1.  Clique em **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Grupos de códigos de motivo de devolução**.
+1.  Vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Grupos de códigos de motivo de devolução**.
 
-2.  Pressione CTRL+N para criar uma linha para um novo grupo de códigos de motivo de devolução.
+2.  Selecione **Novo** para criar uma linha para um novo grupo de códigos de motivo de devolução.
 
 3.  No campo **Grupo de códigos de motivo de devolução**, digite um identificador para o grupo.
 
@@ -43,7 +43,7 @@ ms.locfileid: "4991706"
 
 Este procedimento ajuda a configurar códigos de motivo de devolução que podem ser usados para indicar por que um produto foi devolvido pelo cliente.
 
-1.  Clique em **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de motivo de devolução**.
+1.  Vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de motivo de devolução**.
 
 2.  Pressione CTRL + N para criar uma nova linha de código de motivo de devolução.
 

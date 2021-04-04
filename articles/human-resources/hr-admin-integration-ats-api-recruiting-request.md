@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 572ee0755e331d19b41442e3614effb92db95a92
-ms.sourcegitcommit: 33b5c8bc4f9461e290513aa22de1ec1fba3b0742
+ms.openlocfilehash: b89d257e3874ad7395c0a2c02f259c2f063aa8d0
+ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "5125416"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5500613"
 ---
 # <a name="recruiting-request"></a>Solicitação de recrutamento
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tópico descreve a entidade Solicitação de recrutamento para o Dynamics 365 Human Resources.
 
@@ -98,7 +100,8 @@ Descreve uma solicitação de recrutamento para um trabalho.
 | **Valor de ID do tipo de trabalho**<br>_mshr_fk_jobtype_id_value<br>*GUID* | Somente leitura<br>Opcional<br>Chave estrangeira: entidade mshr_hcmjobtypeentityid de mshr_hcmjobtypenentity | O identificador exclusivo gerado pelo sistema do tipo de trabalho associado ao trabalho para a solicitação de recrutamento. |
 | **Status de isenção**<br>mshr_exemptstatus<br>Conjunto de opções *JobExemptStatus* | Somente leitura<br>Opcional | O status de isenção de FLSA com base no tipo de trabalho. |
 | **Data de início estimada**<br>mshr_estimatedstartdate<br>*Data* | Ler/gravar<br>Obrigatório | A data estimada em que um candidato iniciaria o trabalho. |
-| **Descrição externa**<br>mshr_externaldescription<br>*Cadeia de caracteres* | Ler/gravar<br>Opcional | Uma descrição do trabalho/cargo voltado para o candidato. | Limite baixo de remuneração<br>mshr_compensationlowthreshold<br>*Duplo* | Ler/gravar<br>Opcional | Limite inferior para o nível de remuneração. |
+| **Descrição externa**<br>mshr_externaldescription<br>*Cadeia de caracteres* | Ler/gravar<br>Opcional | Uma descrição do trabalho/cargo voltado para o candidato. | 
+| **Limite baixo de remuneração**<br>mshr_compensationlowthreshold<br>*Duplo* | Ler/gravar<br>Opcional | Limite inferior para o nível de remuneração. |
 | **Ponto de controle de remuneração**<br>mshr_compensationcontrolpoint<br>*Duplo* | Ler/gravar<br>Opcional | Ponto de controle do nível de remuneração. |
 | **Limite alto de remuneração**<br>mshr_compensationhighthreshold<br>*Duplo* | Ler/gravar<br>Opcional | Limite superior para o nível de remuneração. |
 | **Nível de remuneração**<br>mshr_compensationlevelid<br>*Cadeia de caracteres* | Ler/gravar<br>Opcional | O nível de remuneração do trabalho. Um trabalho pode ser configurado com vários níveis de remuneração. Este atributo indica o nível de remuneração do trabalho selecionado para esta solicitação. |

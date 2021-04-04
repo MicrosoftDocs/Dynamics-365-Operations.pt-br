@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 56ff879603a31956db877b45aec11b15371b69f5
-ms.sourcegitcommit: 5c1b5ef40ce7359b3f1955535a250718d863badb
+ms.openlocfilehash: f46a8efefd8e41c08bf4de49cfec856dc0a86da1
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5142147"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5468026"
 ---
 # <a name="generate-aca-reports"></a>Gerar relatórios ACA
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Relatórios de Affordable Care Act (ACA - Lei de Serviços de Saúde Acessíveis) gera formulários 1095-B e 1095-C para dar suporte à parte **obrigatória do empregador** do ACA.
 

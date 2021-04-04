@@ -16,21 +16,18 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a2887bdb09b9c5754a2bb17b2cd8053b5d4fb273
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 6b25e4d560d94c3481b717939e28f1eaa2f2ecde
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4976630"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477832"
 ---
 # <a name="create-new-address-book"></a>Criar novo catálogo de endereços
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar um novo catálogo de endereços no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Os catálogos de endereços são usados no Commerce por vários motivos, incluindo o armazenamento de listas de clientes e listas de funcionários para um canal. Os catálogos de endereços podem ser usados para um único canal ou compartilhados entre canais.
 
