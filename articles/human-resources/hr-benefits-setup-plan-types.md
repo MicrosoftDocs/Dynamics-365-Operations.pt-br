@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e24c11fb6e84a7480a40b706b106cd8465470f5c
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 1d8db6900e6b697e988e2a7e9e31828b70e4ad0d
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111479"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463903"
 ---
 # <a name="create-plan-types"></a>Criar tipos de plano
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano. Por exemplo, a vida básica do tipo de plano teria a vida de código de tipo de plano porque é um tipo de plano de seguro de vida e deve seguir as regras estabelecidas para o código de tipo de plano de vida. Outro tipo de plano pode ser vida complementar, também com vida de código de tipo de plano.
 

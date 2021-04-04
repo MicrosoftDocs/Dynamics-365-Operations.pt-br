@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36d82efa182bff12442d51908d634cbddbd13fa9
-ms.sourcegitcommit: fc852ae4939089a294d00fdf9cad8d6372ffb012
+ms.openlocfilehash: 89c5dbab58679dfe36f5eec0d6c5724f81c18523
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/29/2021
-ms.locfileid: "5080029"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463445"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources para 2 de dezembro de 2020
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 Este tópico descreve recursos que são novos, alterados ou que em breve serão lançados no Dynamics 365 Human Resources.
 
@@ -70,7 +72,7 @@ As seguintes correções de bug estão incluídas nessa versão.
 
 Os novos recursos a seguir estão em versão preliminar. Para obter mais informações sobre a ativação e a desativação de recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
 
-| Recurso | Liberar planos | Documentação |
+| Recurso | Plano de versão | Documentação |
 | --- | --- | --- |
 | Aplicativo Human Resources no Microsoft Teams | [Experiência de licença e ausência de funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Gerenciar solicitações de licença no Teams](hr-teams-leave-app.md) |
 | Aprovações e solicitações de fluxo de trabalho avançadas | [Aprimoramentos da experiência de fluxo de trabalho de gerenciamento de organização e pessoal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opção de configuração para posicionar a lista Itens de trabalho atribuídos a mim](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |

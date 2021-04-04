@@ -3,10 +3,9 @@ title: Tipo de destino de ER da impressora
 description: Este tópico explica como configurar um destino de impressora para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
 manager: AnnBe
-ms.date: 03/17/2020
+ms.date: 02/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable, ERFormatDestinationTable
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: c6e298f62ec69f349eb713d66313e535c7e01881
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 19613d9dfba21d591d96a2df45bedb80c043b3a7
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094070"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5561941"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino da impressora
 
@@ -48,8 +47,6 @@ Para disponibilizar o destino da **Impressora** na instância atual do Microsoft
 O destino da **Impressora** pode ser configurado somente para componentes de arquivo usados para gerar saída no formato PDF imprimível (elementos de formato de arquivo PDF ou Fusão de PDFs) ou Microsoft Office Excel/Word (arquivo do Excel). Quando a saída é gerada no formato PDF, ela é enviada para uma impressora. Quando a saída é gerada no formato do Microsoft Office, ela é automaticamente convertida no formato PDF e enviada a uma impressora.
 
 ### <a name="limitations"></a>Limitações
-
-Esse recurso está em versão prévia e está sujeito aos termos de uso que são descritos em [Termos de Uso Complementares para Versões Prévias do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274).
 
 O destino da **Impressora** é implementado somente para implantações em nuvem.
 

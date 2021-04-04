@@ -14,19 +14,19 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c0879343f100fa1fe6e0a4b4fbf085574225e898
-ms.sourcegitcommit: bea695707d1e7b4e2713b62405ad0e7a7a893420
+ms.openlocfilehash: 38413f96eec97e93beb6998871a40c7ef755073c
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5053404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5251274"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar vários modos de entrega de retirada para ordens de cliente
 
 [!include [banner](includes/banner.md)]
 
 
-No Microsoft Dynamics 365 Commerce versão 10.0.16 e posteriores, as organizações podem definir vários modos de entrega que os compradores ou representantes de vendas podem escolher ao criar uma ordem que será retirada em uma loja. Dessa forma, as organizações podem fornecer várias opções de retirada aos seus compradores. Por exemplo, muitos varejistas agora oferecem aos compradores a opção de retirada na loja ou retirada em frente à loja para suas ordens. O Commerce oferece suporte à configuração desses diferentes modos de entrega de retirada. Os usuários podem, então, utilizá-los ao criar ordens de cliente em qualquer canal do Commerce com suporte (comércio eletrônico, call center ou loja).
+Na versão 10.0.16 e posterior do Microsoft Dynamics 365 Commerce, as organizações podem definir vários modos de entrega que os compradores ou representantes de vendas podem escolher ao criar uma ordem que será retirada em uma loja. Dessa forma, as organizações podem fornecer várias opções de retirada aos seus compradores. Por exemplo, muitos varejistas agora oferecem aos compradores a opção de retirada na loja ou retirada em frente à loja para suas ordens. O Commerce oferece suporte à configuração desses diferentes modos de entrega de retirada. Os usuários podem, então, utilizá-los ao criar ordens de cliente em qualquer canal do Commerce com suporte (comércio eletrônico, call center ou loja).
 
 ## <a name="enable-and-configure-pickup-delivery-modes"></a>Habilitar e configurar modos de entrega de retirada
 

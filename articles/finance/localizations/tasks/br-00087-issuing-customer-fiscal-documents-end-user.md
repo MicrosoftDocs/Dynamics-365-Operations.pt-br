@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d9d68c2decf79b17f3510240a1000b6de50ef44
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0db9fbb41d675353663f8be1a2347197f16340a5
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5000358"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252123"
 ---
 # <a name="issue-customer-fiscal-documents-for-end-users-brazil"></a>Emitir notas fiscais para clientes (para usuários finais) (Brasil)
 

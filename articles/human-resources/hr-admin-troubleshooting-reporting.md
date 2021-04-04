@@ -17,14 +17,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 830c8c32128a8dfc1b009557afb272e48ae3a1ff
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 66581331dceacc1c0fa1816bf336339693db5339
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111456"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463277"
 ---
 # <a name="reporting-options"></a>Opções de relatório
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -36,9 +38,9 @@ Esse problema aplica-se a todos os ambientes.
 
 O cliente quer personalizar relatórios do Microsoft Dynamics 365 Human Resources ou criar novos relatórios.
 
-**Saída**
+**Problema**
 
-O usuário não pode personalizar os relatórios do Microsoft Power BI integrados.
+O usuário não pode personalizar os relatórios do Microsoft Power BI inseridos.
 
 **Solução**
 

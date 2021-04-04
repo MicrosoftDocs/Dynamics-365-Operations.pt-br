@@ -8,18 +8,19 @@ ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
+ms.search.form: JmgProductionFloorExecutionConfiguration
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: e822463ac80be3b1e498f02cb1aad2b214fed815
-ms.sourcegitcommit: b7a7a14f8650913f6797ae1c4a82ad8adfe415fd
+ms.openlocfilehash: d34f9c235df480658a0935d731f7267a87894067
+ms.sourcegitcommit: 70b1567d316f19c15a4b032b4897f15c8dcdca09
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "5077468"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556305"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -41,7 +42,8 @@ A interface de execução de piso de produção e várias configurações opcion
 
 ### <a name="the-production-floor-execution-interface"></a>A interface de execução de piso de produção
 
-Este é o principal recurso descrito neste tópico. Ele adiciona a interface de execução de piso de produção ao seu sistema. Para habilitá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):  
+Este é o principal recurso descrito neste tópico. Ele adiciona a interface de execução de piso de produção ao seu sistema. Para habilitá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
+
 - Execução de piso de produção
 
 ### <a name="generate-license-plates"></a>Gerar placas de licença
@@ -79,6 +81,7 @@ Para criar e manter configurações de dispositivo, vá para **Controle de produ
 
 Em seguida, defina as várias configurações para a configuração de dispositivo selecionada. Os seguintes campos estão disponíveis:
 
+- **Somente entrada e saída** – Defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Isso desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da FastTab **Seleção de guias** para poder habilitar esta opção.
 - **Quantidade de relatório em registro de saída** - defina essa opção como *Sim* para que os funcionários façam comentários sobre os trabalhos em andamento durante o registro de saída. Quando definido como *Não*, os funcionários não serão solicitados.
 - **Bloquear funcionário** – quando essa opção for definida como *Não*, os trabalhadores serão desconectados imediatamente depois que fizerem um registro (como um novo trabalho). O dispositivo retornará à página de entrada. Quando esta opção for definida como *Sim*, os trabalhadores permanecerão conectados ao dispositivo de ficha de trabalho. No entanto, um trabalhador pode se desconectar manualmente para que outro trabalhador possa entrar enquanto o dispositivo de ficha de trabalho continua em execução na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](config-job-card-device.md#assigned-users).
 - **Usar o tempo real de registro** - defina essa opção como *Sim* para definir a hora para cada novo registro como a hora exata em que o trabalhador enviou o registro. Quando essa opção for definida como *Não*, a hora de entrada será usada. Em geral, você desejará definir essa opção como *Sim* se tiver definido as opções **Bloquear funcionário** e/ou **Trabalhador único** como *Sim* em casos onde os trabalhadores com frequência permanecem conectados por períodos mais longos.

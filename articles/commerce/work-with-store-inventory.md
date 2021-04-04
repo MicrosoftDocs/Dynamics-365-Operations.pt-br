@@ -17,18 +17,18 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 616fb8975543344657c00c419ce7279658694675
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 43625d17e0e2827396edb69a1d1d73a8472294ea
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4989467"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5252525"
 ---
 # <a name="commerce-inventory-management"></a>Gerenciamento de estoque do Commerce
 
 [!include [banner](includes/banner.md)]
 
-Quando você trabalha com estoque na Microsoft Dynamics 365 Commerce e usa aplicativo do Commerce que esteja conectados uma Commerce Scale Unit (CSU), é importante saber que a lógica de processamento da ordem no CSU oferece suporte limitado a algumas dimensões de estoque e alguns tipos de item de estoque. Os aplicativos do Commerce não oferecem suporte a todo o intervalo de recursos de configuração de itens que está disponível nas opções de configuração de item no Dynamics 365 Supply Chain Management.
+Quando você trabalha com estoque no Microsoft Dynamics 365 Commerce e usa aplicativo do Commerce que esteja conectados uma Commerce Scale Unit (CSU), é importante saber que a lógica de processamento da ordem no CSU oferece suporte limitado a algumas dimensões de estoque e alguns tipos de item de estoque. Os aplicativos do Commerce não oferecem suporte a todo o intervalo de recursos de configuração de itens que está disponível nas opções de configuração de item no Dynamics 365 Supply Chain Management.
 
 Os aplicativos do Commerce em execução na CSU não oferece suporte às seguintes dimensões de produto e configurações de item:
 
