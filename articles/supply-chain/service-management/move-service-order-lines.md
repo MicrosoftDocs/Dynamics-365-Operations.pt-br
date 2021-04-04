@@ -17,40 +17,43 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02310ca9c0f42689f5a4cb52b22fc6e11121693c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0f604355d360683a346b49bdadb7b2662ce06b02
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006732"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5204245"
 ---
-# <a name="move-service-order-lines"></a><span data-ttu-id="8fd6b-103">Mover linhas da ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="8fd6b-103">Move service order lines</span></span> 
+# <a name="move-service-order-lines"></a><span data-ttu-id="86560-103">Mover linhas da ordem de serviço</span><span class="sxs-lookup"><span data-stu-id="86560-103">Move service order lines</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="8fd6b-104">Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="86560-104">Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.</span><span class="sxs-lookup"><span data-stu-id="86560-104">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="8fd6b-105">Clique duas vezes na ordem de serviço que contém as linhas que você deseja mover para outra ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
+2.  <span data-ttu-id="86560-105">Clique duas vezes na ordem de serviço que contém as linhas que você deseja mover para outra ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="86560-105">Double-click the service order that contains the lines that you want to move to another service order.</span></span>
 
-3.  <span data-ttu-id="8fd6b-106">No formulário **Ordens de serviço**, no Painel de ação, clique no botão **Mover linhas**.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
+3.  <span data-ttu-id="86560-106">No formulário **Ordens de serviço**, no Painel de ação, clique no botão **Mover linhas**.</span><span class="sxs-lookup"><span data-stu-id="86560-106">In the **Service orders** form, on the Action Pane, click the **Move lines** button.</span></span>
 
-4.  <span data-ttu-id="8fd6b-107">No formulário **Mover linhas de ordem de serviço**, no campo **Ordem de serviço**, selecione a ordem de serviço para onde deseja mover as linhas.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
+4.  <span data-ttu-id="86560-107">No formulário **Mover linhas de ordem de serviço**, no campo **Ordem de serviço**, selecione a ordem de serviço para onde deseja mover as linhas.</span><span class="sxs-lookup"><span data-stu-id="86560-107">In the **Move service order lines** form, in the **Service order** field, select the service order that you want to move the lines to.</span></span>
 
-5.  <span data-ttu-id="8fd6b-108">Marque a caixa de seleção **Excluir ordem de serviço vazia** para excluir a ordem de serviço da qual você moveu as linhas de ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
+5.  <span data-ttu-id="86560-108">Marque a caixa de seleção **Excluir ordem de serviço vazia** para excluir a ordem de serviço da qual você moveu as linhas de ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="86560-108">Select the **Delete empty service order** check box to delete the service order that you moved the service order lines from.</span></span>
 
-6.  <span data-ttu-id="8fd6b-109">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-109">Click **OK**.</span></span>
+6.  <span data-ttu-id="86560-109">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="86560-109">Click **OK**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="8fd6b-110">Você só poderá mover as linhas entre as ordens de serviço que estão anexadas ao mesmo contrato de serviço.</span><span class="sxs-lookup"><span data-stu-id="8fd6b-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
+> <P><span data-ttu-id="86560-110">Você só poderá mover as linhas entre as ordens de serviço que estão anexadas ao mesmo contrato de serviço.</span><span class="sxs-lookup"><span data-stu-id="86560-110">You can move service order lines only between service orders that are attached to the same service agreement.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="8fd6b-111">Consulte também</span><span class="sxs-lookup"><span data-stu-id="8fd6b-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="86560-111">Consulte também</span><span class="sxs-lookup"><span data-stu-id="86560-111">See also</span></span>
 
-[<span data-ttu-id="8fd6b-112">Ordens de serviço</span><span class="sxs-lookup"><span data-stu-id="8fd6b-112">Service orders</span></span>](service-orders.md)
+[<span data-ttu-id="86560-112">Ordens de serviço</span><span class="sxs-lookup"><span data-stu-id="86560-112">Service orders</span></span>](service-orders.md)
 
   
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

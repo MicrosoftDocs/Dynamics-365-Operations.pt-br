@@ -16,41 +16,46 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 20fb04613b34acc869db4fea016a23e80b0f1bb5
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 3720adf26d2cb942bc5d9f6988641bf5e504a852
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111422"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5465117"
 ---
-# <a name="benefit-eligibility-process"></a><span data-ttu-id="6f4e9-103">Processo de qualificação para benefícios</span><span class="sxs-lookup"><span data-stu-id="6f4e9-103">Benefit eligibility process</span></span>
+# <a name="benefit-eligibility-process"></a><span data-ttu-id="57513-103">Processo de qualificação para benefícios</span><span class="sxs-lookup"><span data-stu-id="57513-103">Benefit eligibility process</span></span>
 
-<span data-ttu-id="6f4e9-104">Este procedimento mostra como funciona o processo de qualificação para benefícios.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="6f4e9-105">Ao concluir o processo é possível exibir os resultados.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="6f4e9-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-106">The demo data company used to create this procedure is USMF.</span></span>
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-1. <span data-ttu-id="6f4e9-107">Ir para Recursos humanos > Benefícios > Benefícios.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-107">Go to Human resources > Benefits > Benefits.</span></span>
-2. <span data-ttu-id="6f4e9-108">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="6f4e9-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="6f4e9-110">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-110">Click Edit.</span></span>
-5. <span data-ttu-id="6f4e9-111">No campo Qualificação, selecione 'Baseado na regra'.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-111">In the Eligibility field, select 'Rule based'.</span></span>
-6. <span data-ttu-id="6f4e9-112">No campo Tipo de regra, selecione a regra de política de benefício que você deseja aplicar ao benefício.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
-7. <span data-ttu-id="6f4e9-113">No Painel de Ação, clique em Benefício.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-113">On the Action Pane, click Benefit.</span></span>
-8. <span data-ttu-id="6f4e9-114">Clique em Criar evento de qualificação para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-114">Click Create eligibility event to open the drop dialog.</span></span>
-9. <span data-ttu-id="6f4e9-115">No campo Evento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-115">In the Event field, type a value.</span></span>
-10. <span data-ttu-id="6f4e9-116">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-116">In the Description field, type a value.</span></span>
-11. <span data-ttu-id="6f4e9-117">No campo Tipo de evento, selecione 'Abrir a inscrição'.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-117">In the Event type field, select 'Open enrollment'.</span></span>
-12. <span data-ttu-id="6f4e9-118">No campo Data de início da cobertura, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-118">In the Coverage start date field, enter a date and time.</span></span>
-13. <span data-ttu-id="6f4e9-119">No campo Data de início do período de inscrição, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-119">In the Enrollment period start date field, enter a date and time.</span></span>
-14. <span data-ttu-id="6f4e9-120">No campo Dias até a inscrição, insira um número.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-120">In the Days to enroll field, enter a number.</span></span>
-15. <span data-ttu-id="6f4e9-121">Clique em Criar evento.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-121">Click Create event.</span></span>
-16. <span data-ttu-id="6f4e9-122">Clique em Adicionar na Guia Rápida Trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-122">Click Add in the Workers FastTab.</span></span>
-17. <span data-ttu-id="6f4e9-123">No campo Mostrar por tipo, selecione 'Funcionários'.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-123">In the Show by type field, select 'Employees'.</span></span>
-18. <span data-ttu-id="6f4e9-124">No campo Mostrar por entidade legal, selecione 'Entidade legal atual'.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
-19. <span data-ttu-id="6f4e9-125">Na lista, marque ou desmarque todas as linhas.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-125">In the list, mark or unmark all rows.</span></span>
-20. <span data-ttu-id="6f4e9-126">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-126">Click OK.</span></span>
-21. <span data-ttu-id="6f4e9-127">Clique em Processo.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-127">Click Process.</span></span>
-22. <span data-ttu-id="6f4e9-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-128">Click OK.</span></span>
-23. <span data-ttu-id="6f4e9-129">Atualize a página.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-129">Refresh the page.</span></span>
-24. <span data-ttu-id="6f4e9-130">Clique em Mostrar resultados.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-130">Click Show results.</span></span>
-25. <span data-ttu-id="6f4e9-131">Abra o filtro da coluna Status.</span><span class="sxs-lookup"><span data-stu-id="6f4e9-131">Open Status column filter.</span></span>
-26. <span data-ttu-id="6f4e9-132">Classificar de A para Z</span><span class="sxs-lookup"><span data-stu-id="6f4e9-132">Sort A to Z</span></span>
+<span data-ttu-id="57513-104">Este procedimento mostra como funciona o processo de qualificação para benefícios.</span><span class="sxs-lookup"><span data-stu-id="57513-104">This procedure shows how the benefit eligibility process works.</span></span> <span data-ttu-id="57513-105">Ao concluir o processo é possível exibir os resultados.</span><span class="sxs-lookup"><span data-stu-id="57513-105">When the process is complete you can view the results.</span></span> <span data-ttu-id="57513-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="57513-106">The demo data company used to create this procedure is USMF.</span></span>
 
+1. <span data-ttu-id="57513-107">Ir para Recursos humanos > Benefícios > Benefícios.</span><span class="sxs-lookup"><span data-stu-id="57513-107">Go to Human resources > Benefits > Benefits.</span></span>
+2. <span data-ttu-id="57513-108">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="57513-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="57513-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="57513-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="57513-110">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="57513-110">Click Edit.</span></span>
+5. <span data-ttu-id="57513-111">No campo Qualificação, selecione 'Baseado na regra'.</span><span class="sxs-lookup"><span data-stu-id="57513-111">In the Eligibility field, select 'Rule based'.</span></span>
+6. <span data-ttu-id="57513-112">No campo Tipo de regra, selecione a regra de política de benefício que você deseja aplicar ao benefício.</span><span class="sxs-lookup"><span data-stu-id="57513-112">In the Rule type field, select the benefit policy rule you would like applied to the benefit.</span></span>
+7. <span data-ttu-id="57513-113">No Painel de Ação, clique em Benefício.</span><span class="sxs-lookup"><span data-stu-id="57513-113">On the Action Pane, click Benefit.</span></span>
+8. <span data-ttu-id="57513-114">Clique em Criar evento de qualificação para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="57513-114">Click Create eligibility event to open the drop dialog.</span></span>
+9. <span data-ttu-id="57513-115">No campo Evento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="57513-115">In the Event field, type a value.</span></span>
+10. <span data-ttu-id="57513-116">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="57513-116">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="57513-117">No campo Tipo de evento, selecione 'Abrir a inscrição'.</span><span class="sxs-lookup"><span data-stu-id="57513-117">In the Event type field, select 'Open enrollment'.</span></span>
+12. <span data-ttu-id="57513-118">No campo Data de início da cobertura, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="57513-118">In the Coverage start date field, enter a date and time.</span></span>
+13. <span data-ttu-id="57513-119">No campo Data de início do período de inscrição, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="57513-119">In the Enrollment period start date field, enter a date and time.</span></span>
+14. <span data-ttu-id="57513-120">No campo Dias até a inscrição, insira um número.</span><span class="sxs-lookup"><span data-stu-id="57513-120">In the Days to enroll field, enter a number.</span></span>
+15. <span data-ttu-id="57513-121">Clique em Criar evento.</span><span class="sxs-lookup"><span data-stu-id="57513-121">Click Create event.</span></span>
+16. <span data-ttu-id="57513-122">Clique em Adicionar na Guia Rápida Trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="57513-122">Click Add in the Workers FastTab.</span></span>
+17. <span data-ttu-id="57513-123">No campo Mostrar por tipo, selecione 'Funcionários'.</span><span class="sxs-lookup"><span data-stu-id="57513-123">In the Show by type field, select 'Employees'.</span></span>
+18. <span data-ttu-id="57513-124">No campo Mostrar por entidade legal, selecione 'Entidade legal atual'.</span><span class="sxs-lookup"><span data-stu-id="57513-124">In the Show by legal entity field, select 'Current legal entity'.</span></span>
+19. <span data-ttu-id="57513-125">Na lista, marque ou desmarque todas as linhas.</span><span class="sxs-lookup"><span data-stu-id="57513-125">In the list, mark or unmark all rows.</span></span>
+20. <span data-ttu-id="57513-126">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="57513-126">Click OK.</span></span>
+21. <span data-ttu-id="57513-127">Clique em Processo.</span><span class="sxs-lookup"><span data-stu-id="57513-127">Click Process.</span></span>
+22. <span data-ttu-id="57513-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="57513-128">Click OK.</span></span>
+23. <span data-ttu-id="57513-129">Atualize a página.</span><span class="sxs-lookup"><span data-stu-id="57513-129">Refresh the page.</span></span>
+24. <span data-ttu-id="57513-130">Clique em Mostrar resultados.</span><span class="sxs-lookup"><span data-stu-id="57513-130">Click Show results.</span></span>
+25. <span data-ttu-id="57513-131">Abra o filtro da coluna Status.</span><span class="sxs-lookup"><span data-stu-id="57513-131">Open Status column filter.</span></span>
+26. <span data-ttu-id="57513-132">Classificar de A para Z</span><span class="sxs-lookup"><span data-stu-id="57513-132">Sort A to Z</span></span>
+
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
