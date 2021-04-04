@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: cca5e0efd6516d02c372e8a616b6bb0c39f3088c
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 28bea16c3266115cf09aa80a364344789d60af7a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5006201"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5477820"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Criar listas de tarefas e adicionar tarefas
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar listas de tarefas e adicionar tarefas a elas no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão geral
 
 Uma *tarefa* define uma parte específica do trabalho ou uma ação que alguém deve concluir em ou antes de uma data de vencimento especificada. No Dynamics 365 Commerce, uma tarefa pode incluir instruções e informações detalhadas sobre uma pessoa para contato. Ele também pode incluir links para operações de Back-Office, operações de ponto de venda (PDV) ou páginas do site para ajudar a melhorar a produtividade e fornecer o contexto que o proprietário da tarefa requer para concluir a tarefa com eficiência.
 

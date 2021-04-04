@@ -14,20 +14,18 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: c519095d174414d6d4a8c86bc171ea62e1c72582
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: ea6844307e63b351ef914134b7d8392b0910019a
+ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5012412"
+ms.lasthandoff: 02/19/2021
+ms.locfileid: "5478379"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurar buffers de estoque e níveis de estoque
 
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como configurar buffers de estoque e níveis de estoque que determinam as mensagens sobre disponibilidade de estoque em sites do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 A sede do Dynamics 365 Commerce contém dados de estoque e vários canais, como aplicativos de ponto de venda (PDV), lojas de comércio eletrônico e outros aplicativos integrados personalizados que recebem e empurram o estoque de forma assíncrona. Portanto, os valores de estoque disponíveis obtidos por meio da página de estoque disponível na sede do Commerce, por meio da interface de usuário do PDV (IU) e por APIs de disponibilidade de estoque de comércio eletrônico nem sempre são 100% precisos em tempo real.
 

@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c5157a49769fd519d1c84250f4672fb75e26b991
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 16e5655461c27b1f6b7299ae21c3a12bbe6258a9
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5005771"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5247956"
 ---
 # <a name="journals-generated-during-the-electronic-payment-return-process-for-brazil"></a>Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
 

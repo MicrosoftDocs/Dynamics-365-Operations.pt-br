@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 07/07/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 56b6666310309817ff30ccb3902721880b829ee0
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 0c2600ad8f441e6b73b143c27afa08ad0a5c2748
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4679805"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5570996"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Importar usuários do Azure Active Directory
 
@@ -46,11 +45,11 @@ Observe que não será possível selecionar usuários ao usar a opção Importa�
 2. Vá para **Administração do sistema > Usuários > Usuários**.
 3. Clique em **Importação em lote**.
 4. Expanda a seção **Executar em segundo plano**.
-4. Selecione **Sim no campo **Processamento em lotes**.
+4. Selecione **Sim** no campo **Processamento em lotes**.
 6. No campo **Grupo de lotes**, insira ou selecione um valor. Essa etapa é opcional.  
 7. Selecione **Sim** no campo **Particular**. Essa etapa é opcional.  
-8. Selecione **Sim** no campo **Trabalho crítico**. Esta etapa é opcional.  
-9. No campo **Categoria de monitoramento, selecione uma opção.
+8. Selecione **Sim** no campo **Trabalho crítico**. Essa etapa é opcional.  
+9. No campo **Categoria de monitoramento**, selecione uma opção.
 10. Clique em **OK**.
 
 Depois que a importação for concluída, será necessário atribuir funções aos usuários.
