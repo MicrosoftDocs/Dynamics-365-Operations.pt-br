@@ -3,7 +3,7 @@ title: Emitir faturas eletrônicas no Finance e no Supply Chain Management
 description: Este tópico explica como emitir faturas eletrônicas no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management por meio do complemento de faturamento eletrônico.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 02/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 187f5a20d088b4fcd7af2a6576357a69c2efc2c6
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 099ebb56710e920f7b1453f32f23f59a80486ebf
+ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104344"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5486944"
 ---
 # <a name="issue-electronic-invoices-in-finance-and-supply-chain-management"></a>Emitir faturas eletrônicas no Finance e no Supply Chain Management
 
@@ -35,25 +35,35 @@ Este tópico explica como emitir faturas eletrônicas no Microsoft Dynamics 365 
 
 ## <a name="feature-activation"></a>Ativação de recurso
 
-Para iniciar a emissão de faturas eletrônicas por meio do complemento do faturamento eletrônico, é necessário ativar a referência do recurso no Finance e no Supply Chain Management.
+Para emitir faturas eletrônicas por meio do complemento do faturamento eletrônico, você deverá ativar a referência do recurso no Finance e no Supply Chain Management.
 
-Cada referência de recurso corresponde a um recurso de faturamento eletrônico específico que atende aos requisitos de faturamento eletrônico de um país/região.
+Cada recurso corresponde a um recurso de faturamento eletrônico específico que atende aos requisitos de faturamento eletrônico para um país/região.
 
-A tabela a seguir mostra a lista de referências de recursos que têm suporte do complemento de faturamento eletrônico.
+A tabela a seguir mostra a lista de recursos que podem ter suporte do complemento de faturamento eletrônico.
 
-| Referência de recursos | Organização                                              | País/região |
-|-------------------|---------------------------------------------------|----------------|
-| BR-00053          | NF-e Federal - Fatura eletrônica brasileira       | Brasil         |
-| BR-00095          | Faturas eletrônicas brasileiras NFS-e               | Brasil         |
-| DK-00001          | Faturamento eletrônico para o setor público (OIOUBL) – DK    | Dinamarca        |
-| EG-00008          | Faturamento eletrônico para o Egito                             | Egito          |
-| ES-00025          | Fatura eletrônica para o setor público           | Espanha          |
-| EUR-00023         | Faturamento eletrônico da União Europeia para o setor público       | Europa         |
-| ITA-00036         | IT - Faturamento eletrônico para o setor público (FatturaPA) | Itália          |
-| MX-00010          | Faturamento eletrônico CFDI                                  | México         |
-| MX-00016          | CFDI de faturamento eletrônico - processo de cancelamento           | México         |
+| Organização                                              | País/região |
+|---------------------------------------------------|----------------|
+|Fatura eletrônica austríaca                        |Áustria         |
+|Fatura eletrônica belga                         |Bélgica         |
+|NF-e Federal - Fatura eletrônica brasileira       |Brasil          |
+|NFS-e: fatura eletrônica de serviços brasileira (municipal)|Brasil          |
+|Fatura eletrônica dinamarquesa                          |Dinamarca         |
+|Fatura eletrônica egípcia                        |Egito           |
+|Fatura eletrônica estoniana                        |Estônia         |
+|Fatura eletrônica finlandesa                         |Finlândia         |
+|Fatura eletrônica francesa                          |França          |
+|Fatura eletrônica alemã                          |Alemanha         |
+|PEPPOL: fatura eletrônica global                 |Global          |
+|Fatura eletrônica italiana                         |Itália           |
+|CFDI: fatura eletrônica mexicana                  |México          |
+|Fatura eletrônica holandesa                           |Países Baixos     |
+|Fatura eletrônica norueguesa                       |Noruega          |
+|Fatura eletrônica espanhola                         |Espanha           |
 
-Nos casos em que há um recurso de faturamento eletrônico herdado, com suporte ao escopo de localização de países, a ativação da referência do recurso permite a emissão de faturas eletrônicas por meio do complemento de faturamento eletrônico e desativa o antigo recurso.
+Quando houver um recurso Faturamento eletrônico herdado com suporte no escopo de localizações do país/região, a ativação desses recursos desativa o recurso herdado e habilita a emissão das faturas eletrônicas por meio do complemento Faturamento eletrônico.
+
+> [!IMPORTANT]
+> Depois que o recurso integração do complemento Faturamento eletrônico for habilitado, a nova experiência de Faturamento eletrônico será desativada por padrão. Você pode usar o conceito de recurso para habilitar seletivamente novas experiências para entidades legais usando funcionalidades específicas de país/região. A opção **Global** controla a nova experiência para os países/regiões restantes que não estão listados especificamente na tabela.
 
 ## <a name="submit-electronic-documents"></a>Enviar documentos eletrônicos
 

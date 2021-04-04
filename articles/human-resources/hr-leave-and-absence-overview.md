@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3de3de5a93c700526645c248b54783b64d77f2e7
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 1192a45d0d2fffbe2ecba65551641c090c08db8e
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115963"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5463421"
 ---
 # <a name="leave-and-absence-overview"></a>Visão geral de licença e ausência
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 O Dynamics 365 Human Resources ajuda a fornecer excelentes benefícios de licença para seus funcionários. O espaço de trabalho **Licença e ausência** fornece uma estrutura flexível para criar novos planos de licença. Ele também fornece fluxos de trabalho para gerenciar solicitações e uma página intuitiva de auto-atendimento para que os funcionários solicitem folga. Ajudar a organização a medir e monitorar os saldos de licenças e o uso de seus planos de licenças.
 
