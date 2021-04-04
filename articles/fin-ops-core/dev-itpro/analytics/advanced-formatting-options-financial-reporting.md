@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f0417ac1007fc94431aeb11d2464ee699e3f3441
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 08659bac84b07f6e95a83b84612cb035b51cf28d
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093153"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568457"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
@@ -283,10 +282,10 @@ Para restringir um cálculo a uma única unidade de relatório em uma árvore de
 > [!NOTE]
 > Para usar esta função, uma árvore de relatório deve ser associada à definição de linha.
 
-A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de dados financeiros. O cálculo é registrado na célula **Fórmulas/Linhas/Unidades Relacionadas** da definição de linha e da restrição de tipo de dados financeiros. O cálculo deve usar um cálculo condicional que inicie com uma construção **IF @Unit**. Este é um exemplo: IF @Unit(SALES) THEN @100 ELSE 0. Este cálculo inclui o valor da linha 100 em cada coluna do relatório, mas somente para a unidade SALES. Se várias unidades são denominadas SALES, o valor aparece em cada uma dessas unidades. Além disso, a linha 100 pode ser uma linha de dados financeiros e pode ser definida como não impressa. Nesse caso, o valor será impedido de aparecer em todas as unidades na árvore. Você também pode limitar o valor a uma única coluna do relatório, como a coluna H, usando uma restrição de coluna para imprimir o valor somente nessa coluna do relatório. Você pode incluir combinações **OR** em uma instrução **IF**. Este é um exemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100. Você pode especificar uma unidade em uma restrição de tipo de cálculo de uma destas maneiras:
+A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de dados financeiros. O cálculo é registrado na célula **Fórmulas/Linhas/Unidades Relacionadas** da definição de linha e da restrição de tipo de dados financeiros. O cálculo deve usar um cálculo condicional que inicie com uma construção **IF \@Unit**. Este é um exemplo: IF @Unit(SALES) THEN @100 ELSE 0. Este cálculo inclui o valor da linha 100 em cada coluna do relatório, mas somente para a unidade SALES. Se várias unidades são denominadas SALES, o valor aparece em cada uma dessas unidades. Além disso, a linha 100 pode ser uma linha de dados financeiros e pode ser definida como não impressa. Nesse caso, o valor será impedido de aparecer em todas as unidades na árvore. Você também pode limitar o valor a uma única coluna do relatório, como a coluna H, usando uma restrição de coluna para imprimir o valor somente nessa coluna do relatório. Você pode incluir combinações **OR** em uma instrução **IF**. Aqui está um exemplo: **IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100**. Você pode especificar uma unidade em uma restrição de tipo de cálculo da seguinte maneira:
 
-- Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, **IF @Unit(SALES)** permite que o cálculo para cada unidade seja chamado de SALES, mesmo que existam várias unidades SALES na árvore de relatório.
-- Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, insira **IF @Unit(ACME:SALES**) para restringir o cálculo a unidades SALES na empresa ACME.
+- Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, **IF \@Unit(SALES)** permite que o cálculo para cada unidade seja chamado de SALES, mesmo que existam várias unidades SALES na árvore de relatório.
+- Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, insira **IF @Unit (ACME:SALES)** para restringir o cálculo a unidades SALES na empresa ACME.
 - Insira o código completo da hierarquia da árvore de relatório para restringir o cálculo a uma unidade específica. Por exemplo, insira **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**.
 
 > [!NOTE]
@@ -296,7 +295,7 @@ A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de da
 
 1. No Report Designer, clique em **Definições de linha** e abra a definição de linha a ser modificada.
 2. Clique duas vezes na célula **Código de Formato** e selecione **CAL**.
-3. Clique na célula **Fórmulas/Linhas/Unidades Relacionadas** e insira um cálculo condicional que inicie com uma construção **IF @Unit**.
+3. Clique na célula **Fórmulas/Linhas/Unidades Relacionadas** e insira um cálculo condicional que inicie com uma construção **IF \@Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instruções IF/THEN/ELSE em uma definição de coluna
 
@@ -310,6 +309,5 @@ Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados d
 É possível criar relatórios usando valores de dimensão que contenham um E comercial (&).
 
 Em qualquer campo **Link para Dimensões Financeiras**, você poderá inserir um valor como **'P&L'**. A inclusão de aspas simples ('') em ambos os lados do valor da dimensão indica que você está usando o valor literal, como incluir o caractere E comercial (&).
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

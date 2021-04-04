@@ -3,7 +3,7 @@ title: Automação do processo de cobranças
 description: Este tópico descreve a configuração de estratégias do processo de cobranças que identificam automaticamente as faturas de cliente que exigem um lembrete por email, uma atividade de cobrança (como um telefonema) ou uma carta de cobrança a ser enviada ao cliente.
 author: panolte
 manager: AnnBe
-ms.date: 08/26/2020
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-08-26
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: a63058904df72a7fda5a67ed1e6a846eed393ce0
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: a5f5d65f3f757163b22d35c3c99b4d6b7fbdfafb
+ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4969692"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "5582742"
 ---
 # <a name="collections-process-automation"></a>Automação do processo de cobranças
 
@@ -28,10 +28,12 @@ ms.locfileid: "4969692"
 
 Este tópico descreve a configuração de estratégias do processo de cobranças que identificam automaticamente as faturas de cliente que exigem um lembrete por email, uma atividade de cobrança (como um telefonema) ou uma carta de cobrança a ser enviada ao cliente. 
 
-As organizações gastam uma quantidade significativa de tempo pesquisando relatórios de saldo antigos, contas de clientes e faturas em aberto para determinar quais clientes precisam ser contatados sobre uma fatura em aberto ou um saldo de conta. Essa pesquisa tira tempo do agente de cobrança que seria gasto na comunicação com os clientes para cobrar saldos vencidos ou resolver contestações de faturas. A automação do processo de cobranças permite configurar uma abordagem baseada em estratégias para o processo de cobrança. Isso ajuda a aplicar as atividades de cobrança consistentemente, fornecendo lembretes por email personalizados ou processo programado para enviar cartas de cobrança. 
+As organizações gastam uma quantidade significativa de tempo pesquisando relatórios de saldo antigos, contas de clientes e faturas em aberto para saber quais clientes devem ser contatados sobre uma fatura em aberto ou um saldo de conta. Essa pesquisa tira tempo do agente de cobrança que seria gasto na comunicação com os clientes para cobrar saldos vencidos ou resolver contestações de faturas. A automação do processo de cobranças permite configurar uma abordagem baseada em estratégias para o processo de cobrança. Isso ajuda a aplicar as atividades de cobrança consistentemente, fornecendo lembretes por email personalizados ou processo programado para enviar cartas de cobrança. 
 
 ## <a name="collections-process-setup"></a>Configuração do processo de cobranças
 Você pode usar a página **Configuração do processo de cobranças** (**Crédito e cobranças > Configuração > Configuração do processo de cobranças**) para criar um processo de cobranças automatizado que vai agendar atividades, enviar mensagens de email e criar e lançar cartas de cobrança de clientes. As etapas do processo são baseadas na fatura em aberto principal ou mais antiga. Cada etapa usa essa fatura para determinar qual comunicação ou atividade deve ocorrer com um cliente específico.  
+
+Normalmente, as equipes de cobrança enviam um aviso antecipado relacionado a cada nota fiscal pendente para que um cliente seja notificado quando a fatura está prestes a vencer. A seleção de **Pré-cobrança** pode ser definida para permitir que uma etapa de cada hierarquia de processo seja ativada para cada fatura, à medida que o tempo de duração da fatura atinge essa etapa.
 
 ### <a name="process-hierarchy"></a>Hierarquia de processos
 Cada grupo de clientes só pode ser atribuído a uma hierarquia de processos. A classificação hierárquica dessa etapa identifica qual processo terá precedência se um cliente for incluído em mais de um grupo com uma hierarquia de processos atribuída. A ID do grupo determina quais clientes serão atribuídos ao processo. 
@@ -82,6 +84,7 @@ As tabelas a seguir listam as páginas e os campos dos quais as Guias Rápidas e
 |                                                           |     Documento comercial                           |     Define o modelo de atividade ou email usado durante a etapa do processo.                                                                        |
 |                                                           |     Quando                                          |     Define se a etapa do processo ocorrerá antes ou depois da data de vencimento da fatura principal, juntamente com o campo **Dias em relação à data de vencimento da fatura**.        |
 |                                                           |     Dias em relação à data de vencimento da fatura        |     Juntamente com o campo **Quando**, ele identifica o momento da etapa do processo.                                                                          |
+|                                                           |     Pré-cobrança                                   |     Essa seleção permite que uma etapa por hierarquia de processo seja definida e executada em todas as faturas à medida que atingir os critérios de tempo.                                                |
 |                                                           |     Destinatário                                     |     Identifica se um email será enviado a um contato de Cliente, Grupo de vendas ou Agente de Cobranças.                                                   |
 |                                                           |     Contato de finalidade comercial                    |     Determina qual endereço de email do destinatário é usado em comunicações por email.                                                                                 |
 
@@ -100,16 +103,21 @@ As tabelas a seguir listam as páginas e os campos dos quais as Guias Rápidas e
 ### <a name="collections-history"></a>Histórico de cobranças 
 |     Página                              |     Campo     |      descrição                                                          |
 |------------------------------------   |-------------- |---------------------------------------------------------------------  |
-|     Configuração do processo de cobranças       |               |     Veja o histórico recente da hierarquia de processos selecionada.     |
+|     Configuração do processo de cobranças       |               |     Exiba o histórico recente da hierarquia de processos selecionada.       |
 
 ### <a name="collection-process-assignment"></a>Atribuição do processo de cobrança
 |     Página                              |     Campo     |      descrição                                                  |
 |------------------------------------   |-------------- |-----------------------------------------------------------    |
-|     Configuração do processo de cobranças       |               |     Veja os clientes atribuídos a um processo de cobranças.  
+|     Configuração do processo de cobranças       |               |     Exiba os clientes atribuídos a um processo de cobranças.  
 |     Atribuição manual               |               |     Veja os clientes que foram atribuídos manualmente a um processo ou selecione clientes para serem atribuídos a um processo. |
 |     Visualizar atribuição de processo      |               |     Visualize os clientes que serão atribuídos a uma estratégia quando ela for executada.   |
 |     Visualizar atribuição de cliente     |               |     Veja a estratégia atribuída a um cliente específico.    |
  
+ ### <a name="process-simulation"></a>Processar simulação
+|     Página                              |     Campo     |      descrição                                                  |
+|------------------------------------   |-------------- |-----------------------------------------------------------    |
+|    Processar simulação                 |               |     Visualize as ações que serão criadas se a automação de processo selecionada for executada neste momento. |
+
 ### <a name="parameters"></a>Parâmetros
 |     Página                                                                  |     Campo                                             |      descrição                              |
 |-------------------------------------------------------------------------- |------------------------------------------------------ |-------------------------------------  |
@@ -117,6 +125,7 @@ As tabelas a seguir listam as páginas e os campos dos quais as Guias Rápidas e
 |     Parâmetros de contas a receber > Automação do processo de cobranças     |     Lançar Cartas de cobrança automaticamente           |     Os tipos de ação da carta de cobrança lançarão a carta durante a automação.                                      |
 |     Parâmetros de contas a receber > Automação do processo de cobranças     |     Criar atividades para automação                |     Crie e feche atividades para tipos de ação não relacionados a atividades a fim de exibir todas as etapas automatizadas executadas em uma conta.        |
 |     Parâmetros de contas a receber > Automação do processo de cobranças     |     Dias para manter a automação do processo de cobranças     |     Define o número de dias que o histórico de cobranças é armazenado.                                                       |
+|     Parâmetros de contas a receber > Automação do processo de cobranças     |     Excluir a fatura após a ativação da última etapa do processo    |     Uma fatura que chega à última etapa do processo de cobranças não será usada para criar tipos futuros de ação de automação do processo. A próxima fatura mais antiga determinará a próxima etapa de automação do processo para garantir que as ações de automação do processo de cobrança continuem.                                                        |
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
@@ -17,18 +16,18 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7aafaa4c974f6b72e78f870eceb266fd0ef71900
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: 6eb5a78c6ac4ad13ad1d263c557359ad2f789cc0
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5093554"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5569903"
 ---
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de desempenho de vendas e de lucratividade do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de vendas e lucratividade**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
+Este tópico descreve o que está incluído no conteúdo **Desempenho de vendas e lucratividade** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 

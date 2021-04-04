@@ -3,10 +3,9 @@ title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2020
+ms.date: 03/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: EROperationDesigner, ERParameters
 audience: Application User, Developer, IT Pro
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c8d6a18741d57829d1929fb8362dc4ba8e03a1bd
-ms.sourcegitcommit: 5192cfaedfd861faea63d8954d7bcc500608a225
+ms.openlocfilehash: a82afcdeb45bad79a008c3135ef332cf01c0b580
+ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/30/2021
-ms.locfileid: "5094020"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5574164"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -54,7 +53,7 @@ Você deve adicionar um componente **Arquivo\\do Excel** ao formato ER configura
 Para especificar o layout do documento de saída, anexe uma pasta de trabalho do Excel com a extensão .xlsx ao componente **Arquivo\\do Excel** como o modelo para documentos de saída.
 
 > [!NOTE]
-> Ao anexar manualmente um modelo, você deve usar um [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) que tenha sido configurado com essa finalidade nos [parâmetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
+> Ao anexar manualmente um modelo, você deve usar um [tipo de documento](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) que tenha sido configurado com essa finalidade nos [parâmetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
 ![Adição de um anexo ao componente Arquivo\do Excel](./media/er-excel-format-add-file-component2.png)
 
@@ -140,6 +139,36 @@ Para saber mais sobre como incorporar imagens e formas, consulte [Incorporar ima
 
 O componente **PageBreak** força o Excel a iniciar uma nova página. Esse componente não é necessário quando você deseja usar a paginação padrão do Excel, mas você deve usá-lo quando deseja que o Excel siga o formato ER para a paginação da estrutura.
 
+## <a name="footer-component"></a>Componente do rodapé
+
+O componente **Rodapé** é usado para preencher os rodapés na parte inferior de uma planilha gerada em uma pasta de trabalho do Excel.
+
+> [!NOTE]
+> Você pode adicionar esse componente para cada componente de **Planilha** a fim de especificar diferentes rodapés para planilhas diferentes em uma pasta de trabalho do Excel gerada.
+
+Ao configurar um componente **Rodapé** individual , você poderá usar a propriedade de **Aparência de cabeçalho/rodapé** para especificar as páginas para as quais o componente é usado. Os valores a seguir estão disponíveis:
+
+- **Qualquer** – execute o componente **Rodapé** configurado para qualquer página da planilha do Excel pai.
+- **Primeira** – execute o componente **Rodapé** configurado somente para a primeira página da planilha do Excel pai.
+- **Pares** – execute o componente **Rodapé** configurado somente para as páginas pares da planilha do Excel pai.
+- **Ímpares** – execute o componente **Rodapé** configurado somente para as páginas ímpares da planilha do Excel pai.
+
+Para um único componente **Planilha**, você pode adicionar vários componentes **Rodapé**, cada um deles com um valor diferente para a propriedade **Aparência de cabeçalho/rodapé**. Dessa forma, você poderá gerar diferentes rodapés para diferentes tipos de páginas em uma planilha do Excel.
+
+> [!NOTE]
+> Certifique-se de que cada componente **Rodapé** adicionado a um único componente **Planilha** tenha um valor diferente para a propriedade **Aparência de cabeçalho/rodapé**. Caso contrário, ocorrerá um [erro de validação](er-components-inspections.md#i16). A mensagem de erro recebida notifica sobre a inconsistência.
+
+No componente **Rodapé** adicionado, adicione os componentes aninhados necessários de **Texto\\Cadeia de Caracteres**, **Texto\\DateTime**, ou outro tipo. Configure as associações para esses componentes para especificar como o rodapé da página será preenchido.
+
+Você também pode usar [códigos de formatação](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiais para formatar corretamente o conteúdo de um rodapé gerado. Para saber como usar essa abordagem, siga as etapas no [Exemplo 1](#example-1), posteriormente neste tópico.
+
+> [!NOTE]
+> Ao configurar os formatos de ER, certifique-se de considerar o [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) do Excel e o número máximo de caracteres para um único cabeçalho ou rodapé.
+
+## <a name="header-component"></a>Componente do cabeçalho
+
+O componente **Cabeçalho** é usado para preencher os cabeçalhos na parte superior de uma planilha gerada em uma pasta de trabalho do Excel. Ele é usado como o componente **Rodapé**.
+
 ## <a name="edit-an-added-er-format"></a>Editar um formato ER adicionado
 
 ### <a name="update-a-template"></a>Atualize um modelo
@@ -175,6 +204,48 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
     >[!NOTE]
     > O recálculo da fórmula é forçado manualmente quando um documento gerado é aberto para visualização usando o Excel.
     > Não use esta opção se você configurar um destino ER que suponha o uso de um documento gerado sem sua visualização no Excel (conversão em PDF, email, etc.) como o documento gerado pode não conter valores nas células que contêm fórmulas.
+
+## <a name="example-1-format-footer-content"></a><a name="example-1"></a>Exemplo 1: Formatar conteúdo de rodapé
+
+1. Use as configurações de ER fornecidas para [gerar](er-generate-printable-fti-forms.md) um documento da fatura de texto livre (FTI) imprimível.
+2. Analise o rodapé do documento gerado. Observe que ele contém informações sobre o número de página atual e o número total de páginas no documento.
+
+    ![Analisar o rodapé de um documento gerado no formato do Excel](./media/er-fillable-excel-footer-1.gif)
+
+3. No designer de formato ER, [abra](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) o formato ER de exemplo para análise.
+
+    O rodapé da planilha **Fatura** é gerado com base nas configurações de dois componentes **Cadeia de Caracteres** que residem no componente **Rodapé**:
+
+    - O primeiro componente **Cadeia de Caracteres** preenche os seguintes códigos de formatação especiais para forçar o Excel a aplicar formatação específica:
+
+        - **& C** – alinha o texto do rodapé no centro.
+        - **&"Segoe UI,Regular"&8** – apresenta o texto do rodapé na fonte "Segoe UI Regular" em um tamanho de 8 pontos.
+
+    - O segundo componente **Cadeia de Caracteres** preenche o texto que contém o número de página atual e o número total de páginas no documento atual.
+
+    ![Analisar o componente de formato ER Rodapé na página Designer de formato](./media/er-fillable-excel-footer-2.png)
+
+4. Personalize o formato ER de exemplo para modificar o rodapé da página atual:
+
+    1. [Crie](er-quick-start2-customize-report.md#DeriveProvidedFormat) um formato ER personalizado de **Fatura de texto livre (Excel)** derivado baseado no formato ER de exemplo.
+    2. Adicione o primeiro par novo de componentes **Cadeia de Caracteres** para o componente **Rodapé** da planilha **Fatura**:
+
+        1. Adicione um componente **Cadeia de Caracteres** que alinhe o nome da empresa à esquerda e o apresente na fonte "Segoe UI Regular" de 8 pontos (**"&L&"Segoe UI,Regular"&8"**).
+        2. Adicione um componente **Cadeia de Caracteres** que preencha o nome da empresa (**model.InvoiceBase.CompanyInfo.Name**).
+
+    3. Adicione o segundo par novo de componentes **Cadeia de Caracteres** para o componente **Rodapé** da planilha **Fatura**:
+
+        1. Adicione um componente **Cadeia de Caracteres** que alinhe a data de processamento à direita e a apresente na fonte "Segoe UI Regular" de 8 pontos (**"&R&"Segoe UI,Regular"&8"**).
+        2. Adicione um componente **Cadeia de Caracteres** que preencha a data de processamento em um formato personalizado (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
+
+        ![Análise do componente de formato de ER Rodapé na página Designer de formato](./media/er-fillable-excel-footer-3.png)
+
+    4. [Preencha](er-quick-start2-customize-report.md#CompleteDerivedFormat) a versão de rascunho do formato ER personalizado da **Fatura de texto livre (Excel)** derivada.
+
+5. [Configure](er-generate-printable-fti-forms.md#configure-print-management) o Gerenciamento de impressão para usar o formato ER personalizado da **Fatura de texto livre (Excel)** derivada em vez do formato ER de exemplo.
+6. Gere um documento de impressão FTI e analise o rodapé do documento gerado.
+
+    ![Análise do rodapé de um documento gerado no formato do Excel](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

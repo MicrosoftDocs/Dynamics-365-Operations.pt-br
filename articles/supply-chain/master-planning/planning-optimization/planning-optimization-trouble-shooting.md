@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-5-7
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8e67a6faf52b51264555b06f56b289d19ca580d6
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 39583c244f09f54551d560e8b1dd9f1a5a1590cc
+ms.sourcegitcommit: 72f70c81176e86cda714a4712525f73514c895b7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4992486"
+ms.lasthandoff: 02/16/2021
+ms.locfileid: "5457320"
 ---
 # <a name="troubleshoot-planning-optimization"></a>Solução de problemas de otimização de planejamento 
 
@@ -48,12 +48,6 @@ Ao habilitar a otimização de planejamento, o mecanismo de planejamento mestre 
 A otimização do planejamento é diferente do design de planejamento mestre incorporado em algumas áreas. Isso também pode ser causado por recursos pendentes.
 
 **Correção**: execute a análise de ajuste da otimização do planejamento e analise os resultados enquanto consulta a documentação relacionada para compreender o impacto. Para obter mais informações, consulte [Introdução à análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md).
-
-## <a name="master-planning-doesnt-respect-the-coverage-time-fence"></a>O planejamento mestre não respeita o limite de tempo de cobertura
-
-Isso é causado por um recurso pendente para a otimização do planejamento.
-
-**Correção**: até que o recurso pendente esteja disponível, filtre ou exclua ordens planejadas para remover sugestões de fornecimento fora do limite de tempo de cobertura.
 
 ## <a name="cant-enable-planning-optimization"></a>A Otimização de Planejamento pode ser habilitada
 

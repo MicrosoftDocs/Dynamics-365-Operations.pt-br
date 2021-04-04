@@ -18,12 +18,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 91e614889c719ae700b13e54150e5025d64e2b97
-ms.sourcegitcommit: 289e9183d908825f4c8dcf85d9affd4119238d0c
+ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
+ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104931"
+ms.lasthandoff: 03/11/2021
+ms.locfileid: "5580956"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -85,7 +85,14 @@ O hub tem os seguintes dados:
 > [!NOTE]
 > O fluxo da ordem de compra de entrada é conceitualmente diferente do fluxo de saída. Você pode operar o mesmo depósito na unidade de escala ou no hub, dependendo se a ordem de compra foi liberada para o depósito ou não. Depois de liberar uma ordem para o depósito, você só poderá trabalhar com essa ordem enquanto estiver conectado na unidade de escala.
 
-Se você estiver usando o processo *liberar para depósito*, as [*ordens de depósito*](cloud-edge-warehouse-order.md) serão criadas e a propriedade do fluxo de recebimento relacionado será atribuída à unidade de escala. O hub não poderá registrar recebimento de entrada.
+Se você estiver usando o processo *Liberar para o depósito*, as [*ordens de depósito*](cloud-edge-warehouse-order.md) serão criadas e a propriedade do fluxo de recebimento relacionado será atribuída à unidade de escala. O hub não poderá registrar recebimento de entrada.
+
+Você deve entrar no hub para usar o processo *Liberar para o depósito*. Acesse uma das páginas a seguir para executá-lo ou agendá-lo:
+
+- **Compras e fornecimento > Ordens de compra > Todas as ordens de compra > Depósito > Ações > Liberar para o depósito**
+- **Gerenciamento de depósito > Liberar para depósito > Liberação automática de ordens de compra**
+
+Ao usar a opção **Liberação automática de ordens de compra**, você pode selecionar linhas específicas da ordem de compra com base em uma consulta. Um cenário típico seria configurar um trabalho em lotes recorrente que libera todas as linhas da ordem de compra confirmadas que devem chegar no dia seguinte.
 
 O trabalhador pode executar o processo de recebimento usando um aplicativo de depósito conectado à unidade de escala. Os dados são gravados pela unidade de escala e relatados na ordem de depósito de entrada. A criação e o processamento do armazenamento subsequente também serão tratados pela unidade de escala.
 
@@ -222,7 +229,7 @@ A tabela a seguir mostra quais recursos de entrada têm suporte e onde, quando a
 | Transferir recebimento e armazenamento do recebimento da linha de ordem                        | Sim | Não |
 | Cancelar trabalho (entrada)                                              | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | <p>Sim, mas somente quando opção <b>Cancelar o registro do recebimento ao cancelar o trabalho</b> (na página <b>Parâmetros de gerenciamento de depósito</b>) estiver desmarcada</p> |
 | Processamento do recebimento de produtos da ordem de compra                          | Sim | Não |
-| Recebimento de ordem de compra com entrega insuficiente                        | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não, porque você só pode cancelar as quantidades completas das linhas de ordem de depósito |
+| Recebimento de ordem de compra com entrega insuficiente                        | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim, mas somente fazendo uma solicitação de cancelamento no hub |
 | Recebimento de ordem de compra com entrega em excesso                        | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Sim  |
 | Recebimento com a criação de trabalho de *Distribuição integrada*                   | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |
 | Recebimento com a criação de trabalho de *Ordem de qualidade*                  | <p>Sim, quando não há uma ordem de depósito</p><p>Não, quando há uma ordem de depósito</p> | Não |

@@ -3,7 +3,7 @@ title: Introdução ao complemento de faturamento eletrônico
 description: Este tópico fornece informações que ajudarão você a começar a usar o complemento de faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07954c5c96f390bc651794f8b6c61f2a1a17ab8b
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 56227e031f8205836bcae9ce26006fc8091c2863
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111211"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592541"
 ---
 # <a name="get-started-with-the-electronic-invoicing-add-on"></a>Introdução ao complemento de faturamento eletrônico
 
@@ -38,7 +38,6 @@ A tabela a seguir lista os recursos de faturamento eletrônico e os documentos c
 | Fatura eletrônica belga (BE)      | <p>Fatura de venda</p><p>Fatura de projeto</p> |
 | NF-e brasileira (BR)                  | <p>Modelo de nota fiscal 55</p><p>Carta de correção</p> |
 | NFS-e ABRASF Curitiba brasileira (BR) | Documento fiscal de serviço |
-| NFS-e São Paulo brasileira (BR)       | Documento fiscal de serviço |
 | Fatura eletrônica dinamarquesa (DK)       | <p>Fatura de venda</p><p>Fatura de projeto</p> |
 | Fatura eletrônica egípcia (EG)     | <p>Fatura de venda</p><p>Fatura de projeto</p> |
 | Fatura eletrônica estoniana (EE)     | <p>Fatura de venda</p><p>Fatura de projeto</p> |
@@ -64,14 +63,14 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importar um recurso de faturamento eletrônico do provedor de configuração da Microsoft 
 
 1. Entre na conta RCS (serviço de configuração regulatória).
-2. No espaço de trabalho **Recurso de globalização**, na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
+2. No espaço de trabalho **Recurso de globalização**, na seção **Recursos**, selecione o bloco **Complemento de faturamento eletrônico**.
 3. Selecione **Importar** e, em seguida, **Sincronizar**.
 4. Filtre a coluna **Provedor de configuração** pelo termo **Microsoft**.
 5. Selecione o nome de um recurso de faturamento eletrônico na tabela no início deste tópico e selecione **Importar**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crie um recurso Faturamento eletrônico para o provedor da sua organização
 
-1. No RCS, a seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
+1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Complemento Faturamento eletrônico**.
 2. Selecione **Adicionar** > **Baseado em recurso existente** e, no campo **Nome**, insira o nome do recurso de faturamento eletrônico.
 3. No campo **Descrição**, insira uma descrição do recurso.
 4. No campo **Recurso base**, selecione o recurso de faturamento eletrônico importado do provedor de configuração da Microsoft.
@@ -79,7 +78,9 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 ## <a name="configure-the-electronic-invoicing-feature"></a>Configurar o recurso de faturamento eletrônico
 
-Dependendo do país ou da região, o recurso de faturamento eletrônico pode exigir configuração adicional. Para obter as etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
+Dependendo do país ou da região, o recurso de faturamento eletrônico pode exigir configuração adicional. 
+
+Para obter as etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
 
 ## <a name="configure-the-application-setup"></a>Definir a configuração do aplicativo
 
@@ -99,8 +100,7 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
     | Faturas eletrônicas austríacas (AT)    | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | Fatura eletrônica belga (BE)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | NF-e brasileira (BR)                  | <p>Nota fiscal</p><p>Carta de correção</p> | Nota fiscal |
-    | NFS-e ABRASF Curitiba brasileira (BR) | Nota fiscal de serviço | Nota fiscal |
-    | NFS-e São Paulo brasileira (BR)       | Nota fiscal de serviço | Nota fiscal |
+    | NFS-e ABRASF Curitiba brasileira (BR) | Documento fiscal de serviço | Nota fiscal |
     | Fatura eletrônica dinamarquesa (DK)       | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | Fatura eletrônica egípcia (EG)     | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | Fatura eletrônica estoniana (EE)     | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
@@ -121,8 +121,7 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
     | Faturas eletrônicas austríacas (AT)    | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | Fatura eletrônica belga (BE)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | NF-e brasileira (BR)                  | <p>Nota fiscal</p><p>Carta de correção</p> | <p>Modelo de contexto de fatura de cliente – contexto de nota fiscal</p><p>Modelo de contexto de fatura de cliente – contexto de carta de correção FD</p> |
-    | NFS-e ABRASF Curitiba brasileira (BR) | Nota fiscal de serviço| Modelo de contexto de fatura de cliente – contexto de nota fiscal |
-    | NFS-e São Paulo brasileira (BR)       | Nota fiscal de serviço| Modelo de contexto de fatura de cliente – contexto de nota fiscal |
+    | NFS-e ABRASF Curitiba brasileira (BR) | Documento fiscal de serviço| Modelo de contexto de fatura de cliente – contexto de nota fiscal |
     | Fatura eletrônica dinamarquesa (DK)       | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | Fatura eletrônica egípcia (EG)     | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | Fatura eletrônica estoniana (EE)     | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
@@ -143,8 +142,7 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
     | Faturas eletrônicas austríacas (AT)    | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | Fatura eletrônica belga (BE)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | NF-e brasileira (BR)                  | <p>Nota fiscal</p><p>Carta de correção</p> | <p>Mapeamento de nota fiscal – mapeamento de nota fiscal</p><p>Mapeamento de nota fiscal – mapeamento de carta de correção</p> |
-    | NFS-e ABRASF Curitiba brasileira (BR) | Nota fiscal de serviço | Mapeamento de nota fiscal – mapeamento de nota fiscal |
-    | NFS-e São Paulo brasileira (BR)       | Nota fiscal de serviço | Mapeamento de nota fiscal – mapeamento de nota fiscal |
+    | NFS-e ABRASF Curitiba brasileira (BR) | Documento fiscal de serviço | Mapeamento de nota fiscal – mapeamento de nota fiscal |
     | Fatura eletrônica dinamarquesa (DK)       | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | Fatura eletrônica egípcia (EG)     | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | Fatura eletrônica estoniana (EE)     | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
@@ -158,7 +156,9 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
     | Fatura eletrônica espanhola (ES)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
     | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Mapeamento de modelo de fatura – fatura de cliente</p><p>Mapeamento de modelo de fatura – fatura de projeto</p> |
 
-Dependendo do país ou da região, o recurso de faturamento eletrônico pode exigir configuração adicional. Para obter etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
+Dependendo do país ou da região, o recurso de faturamento eletrônico pode exigir configuração adicional.
+
+Para obter etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
 
 ## <a name="deploy-the-electronic-invoicing-feature"></a>Implantar o recurso de faturamento eletrônico
 
@@ -177,27 +177,26 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
 
 1. Entre no Finance ou no Supply Chain Management e verifique se você está na entidade legal correta.
 2. Acesse **Administração da organização** \> **Configuração** \> **Parâmetros de documentos eletrônicos**.
-3. Na guia **Recursos**, selecione as referências de recurso listadas na tabela a seguir para ativar o recurso de faturamento eletrônico para o Finance ou o Supply Chain Management.
+3. Na guia **Recursos**, selecione o recurso específico do país/região para ativar o recurso Faturamento eletrônico para o Finance ou o Supply Chain Management. A tabela a seguir fornece uma lista dos recursos de faturamento eletrônico disponíveis para países/regiões específicos. 
 
-    | Nome do recurso                         | País/região  | Referência de recursos |
-    |--------------------------------------|-----------------|-------------------|
-    | Faturas eletrônicas austríacas (AT)    | Áustria         | EUR-00023 |
-    | Fatura eletrônica belga (BE)      | Bélgica         | EUR-00023 |
-    | NF-e brasileira (BR)                  | Brasil          | BR-00053 |
-    | NFS-e ABRASF Curitiba brasileira (BR) | Brasil          | BR-00095 |
-    | NFS-e São Paulo brasileira (BR)       | Brasil          | BR-00095 |
-    | Fatura eletrônica dinamarquesa (DK)       | Dinamarca         | <p>EUR-00023</p><p>DK-00001</p> |
-    | Fatura eletrônica holandesa (NL)        | Os Países Baixos | EUR-00023 |
-    | Fatura eletrônica egípcia (EG)     | Egito           | EG-00008 |
-    | Fatura eletrônica estoniana (EE)     | Estônia         | EUR-00023 |
-    | Fatura eletrônica finlandesa (FI)      | Finlândia         | EUR-00023 |
-     Fatura eletrônica francesa (FR)       | França           | EUR-00023 |
-    | Fatura eletrônica alemã (DE)       | Alemanha         | EUR-00023 |
-    | CFDI Interfactura mexicana (MX)       | México          | <p>MX-00010</p><p>MX-00016</p> |
-    | Fatura eletrônica norueguesa (NO)    | Noruega          | <p>EUR-00023</p><p>NO-00010</p> |
-    | Fatura eletrônica espanhola (ES)      | Espanha           | <p>EUR-00023</p><p>ES-00025</p> |
-    | Fatura eletrônica italiana (TI)      | Itália           | <p>EUR-00023</p><p>IT-00036</p> |
-    | Fatura eletrônica PEPPOL            | Europa          | EUR-00023 |
+    | Nome do recurso                                          | País/região  |
+    |-------------------------------------------------------|-----------------|
+    | Faturas eletrônicas austríacas (AT)                     | Áustria         |
+    | Fatura eletrônica belga (BE)                       | Bélgica         |
+    | Fatura eletrônica mexicana CFDI (MX)                  | México          |
+    | Fatura eletrônica dinamarquesa (DK)                        | Dinamarca         |
+    | Fatura eletrônica holandesa (NL)                         | Os Países Baixos |
+    | Fatura eletrônica egípcia (EG)                      | Egito           |
+    | Fatura eletrônica estoniana (EE)                      | Estônia         |
+    | Fatura eletrônica finlandesa (FI)                       | Finlândia         |
+    | Fatura eletrônica francesa (FR)                        | França          |
+    | Fatura eletrônica alemã (DE)                        | Alemanha         |
+    | Fatura eletrônica italiana (TI)                       | Itália           |
+    | NF-e Federal - Fatura eletrônica brasileira (BR)      | Brasil          |
+    | NFS-e: fatura eletrônica de serviços brasileira (municipal)   | Brasil          |
+    | Fatura eletrônica norueguesa (NO)                     | Noruega          |
+    | Fatura eletrônica PEPPOL                             | Global          |
+    | Fatura eletrônica espanhola (ES)                       | Espanha           |
 
 4. Selecione **Salvar**.
 
@@ -226,11 +225,11 @@ Dependendo do país ou da região, o recurso de faturamento eletrônico pode exi
 
 3. Selecione uma fatura na grade e, depois, selecione **Consultar** \> **Detalhes de envio**.
 
-Dependendo do país ou da região, o recurso de faturamento eletrônico pode exigir configuração adicional. Para obter etapas específicas, consulte a documentação "Introdução" que está disponível para seu país ou região.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 - [Visão geral de faturamento eletrônico](e-invoicing-service-overview.md)
+- [Introdução à administração de serviço do complemento do Faturamento eletrônico](e-invoicing-get-started-service-administration.md)
 - [Introdução ao complemento de faturamento eletrônico para o Brasil](e-invoicing-bra-get-started.md)
 - [Introdução ao complemento de faturamento eletrônico para o México](e-invoicing-mex-get-started.md)
 - [Introdução ao complemento de faturamento eletrônico para a Itália](e-invoicing-ita-get-started.md)

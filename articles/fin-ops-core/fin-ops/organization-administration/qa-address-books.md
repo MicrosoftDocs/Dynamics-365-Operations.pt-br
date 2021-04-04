@@ -3,10 +3,9 @@ title: Perguntas frequentes sobre catálogos de endereços
 description: Este tópico fornece respostas a perguntas frequentes sobre catálogos de endereços.
 author: msftbrking
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
@@ -17,16 +16,17 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 922900b20b878dd8b479158d47a9f7792caa684d
-ms.sourcegitcommit: b112925c389a460a98c3401cc2c67df7091b066f
+ms.openlocfilehash: ad2be27d406928222ca00fe696f49b8578fc8cb3
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "4796889"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5559932"
 ---
 # <a name="address-books-faq"></a>Perguntas frequentes sobre catálogos de endereços
 
 [!include [banner](../includes/banner.md)]
+[!include [preview-banner](../includes/preview-banner.md)]
 
 ## <a name="how-do-i-check-for-duplicate-records"></a>Como procurar por registros duplicados?
 
@@ -68,5 +68,10 @@ Você pode inserir registros de participante no catálogo de endereços global o
 
 Você pode configurar traduções de informações de endereço para que as informações apareçam em seu idioma de usuário (idioma do sistema) no programa, mas em outro idioma em documentos, como ordens de venda. Você pode inserir traduções para nomes de países/regiões, endereços e sequências de nomes. Por exemplo, o idioma do sistema é dinamarquês e você cria uma ordem de venda para um cliente na França. Nesse caso, você pode exibir o registro de cliente em dinamarquês no programa, e exibir as informações de endereço em francês na ordem de venda impressa. Ao configurar as traduções, você deve inserir uma tradução para cada item na lista. Os itens para os quais você não inserir uma tradução aparecerão no idioma do sistema. Por exemplo, o idioma do sistema é dinamarquês e você envia um documento para um cliente na Espanha. Se você não inseriu traduções de espanhol (ESP) para informações de endereço, elas serão exibidas em dinamarquês no seu sistema e no documento impresso.
 
+## <a name="after-importing-addresses-when-i-access-the-records-why-am-i-unable-to-edit-imported-addresses"></a>Depois de importar os endereços, quando acesso os registros, por que não consigo editar os endereços importados?
+
+Ao importar endereços, há um campo denominado **IsLocationOwner**, que indica se o participante associado ao local (endereço) é o proprietário do endereço. Se o participante for o proprietário do endereço, o endereço poderá ser editado quando for acessado usando o participante no catálogo de endereços global ou no formulário do registro mestre (como cliente, fornecedor ou trabalhador). Se o participante não for o proprietário do endereço, o registro não poderá ser editado a partir dos formulários listados anteriormente. Ao importar endereços, **IsLocationOwner** deverá ser definido como **Sim**, se você quiser que o endereço seja editado usando o participante associado. No entanto, há ocasiões em que este campo é importado incorretamente. Para corrigir esse problema, o proprietário do local pode ser atualizado no catálogo de endereços global do registro do participante ou na página **Confirmar os proprietários do local**. Para atualizar um único registro de participante, vá para **Catálogo de Endereços Global > Endereço**. Selecione **Editar** para iniciar a página **Editar endereço** para alterar o proprietário do local. Selecione **Alterar proprietário do local** para ver o proprietário anterior do local com que o participante selecionado está sendo o novo proprietário do local. Se o proprietário anterior do local estiver em branco, isso significa que o proprietário do local não foi estabelecido. Selecionar a opção **Avançado** abrirá a página **Gerenciar endereços** na qual o proprietário do local também pode ser definido. Selecione o local a ser atualizado e selecione **Definir proprietário do local** no menu. Para atualizar o proprietário do local de vários registros, vá para **Catálogo de Endereços Global > Locais > Confirmar proprietários de local**. A lista contém locais que estão vinculados a um único participante, mas esse participante não é o proprietário. Selecionar **Confirmar proprietário** definirá a **ID do participante proprietário proposto** como proprietário do endereço vinculado. Depois que o participante for definido como o proprietário, o endereço vinculado será editável do registro do participante. Para alterar o proprietário do local, você deve receber o privilégio **Definir proprietário do local** na página **Configuração de segurança**.  O administrador do sistema recebe esse privilégio por padrão.
+
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
+

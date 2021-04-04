@@ -3,7 +3,7 @@ title: Introdução à administração de serviço do complemento do faturamento
 description: Este tópico explica como começar a usar o complemento de faturamento eletrônico.
 author: gionoder
 manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 111ec65aa826795125d4a9ce835f72e1a0f41b7b
-ms.sourcegitcommit: e88c96d1cb817a22db81856cadb563c095ab2671
+ms.openlocfilehash: 05b00380cec7511adad2467d3f252799a4aaee5c
+ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "5104343"
+ms.lasthandoff: 03/13/2021
+ms.locfileid: "5592517"
 ---
 # <a name="get-started-with-electronic-invoicing-add-on-service-administration"></a>Introdução à administração de serviço do complemento do faturamento eletrônico
 
@@ -35,7 +35,7 @@ ms.locfileid: "5104343"
 Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pré-requisitos em vigor:
 
 - Você deve ter acesso à conta do Microsoft Dynamics Lifecycle Services (LCS).
-- Você deve ter um projeto LCS que inclua a versão 10.0.13 ou posterior do Microsoft Dynamics 365 Finance e o Dynamics 365 Supply Chain Management. Além disso, esses aplicativos devem ser implantados em uma das seguintes regiões geográficas do Azure:
+- Você deve ter um projeto LCS que inclua a versão 10.0.17 ou posterior do Microsoft Dynamics 365 Finance e o Dynamics 365 Supply Chain Management. Além disso, esses aplicativos devem ser implantados em uma das seguintes regiões geográficas do Azure:
 
     - Leste dos EUA
     - Oeste dos EUA
@@ -52,6 +52,13 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 2. Selecione o bloco **Gerenciamento de versão prévia do recurso**.
 3. Na seção **Recursos da versão preliminar pública**, selecione **Serviço de faturamento eletrônico**.
 4. Verifique se a opção **Versão prévia do recurso habilitada** está definida como **Sim**.
+5. No painel LCS, selecione o projeto de implantação do LCS. O projeto LCS deve estar em execução.
+7. Na guia **Suplementos do ambiente**, selecione **Instalar um novo suplemento**.
+8. Selecione **Serviços de faturamento eletrônico** e, no campo **ID do aplicativo AAD**, insira **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse é um valor fixo.
+10. No campo **ID de locatário AAD**, insira a ID do locatário da sua conta de assinatura do Azure.
+11. Analise os termos e condições e depois marque a caixa de seleção.
+12. Selecione **Instalar**.
+
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-the-electronic-invoicing-add-on"></a>Configure os parâmetros da integração do RCS com o complemento de faturamento eletrônico
 
@@ -73,7 +80,7 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 ## <a name="create-key-vault-secret"></a>Criar segredo do Key Vault
 
 1. Entre em sua conta do RCS.
-2. No espaço de trabalho **Recurso de globalização**, na seção **Ambiente**, selecione o bloco **Faturamento eletrônico**.
+2. No espaço de trabalho **Recurso de globalização**, na seção **Ambiente**, selecione o bloco **Complemento de faturamento eletrônico**.
 3. Na página **Configurações de ambiente**, no Painel de Ações, selecione **Ambiente de serviço** e **Parâmetros de Key Vault**.
 4. Selecione **Novo** para criar um segredo de cofre de chaves.
 5. No campo **Nome**, insira o nome do segredo de cofre de chaves. No campo **Descrição**, insira uma descrição.
@@ -82,22 +89,31 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 ## <a name="create-storage-account-secret"></a>Criar segredo da conta de armazenamento
 
-1. Na página **Parâmetros do cofre de chaves**, na seção **Certificados**, selecione **Adicionar**.
-2. No campo **Nome**, insira o nome do segredo da conta de armazenamento. No campo **Descrição**, insira uma descrição.
-3. No campo **Tipo**, selecione **Certificado**.
-4. Selecione **Salvar** e feche a página.
+1. Acesse **Administração do sistema** > **Configuração** > **Parâmetros do Key Vault** e selecione um Segredo do cofre de chaves.
+2. Na seção **Certificados**, selecione **Adicionar**.
+3. No campo **Nome**, insira o nome do segredo da conta de armazenamento e, no campo **Descrição**, insira uma descrição.
+4. No campo **Tipo**, selecione **Certificado**.
+5. Selecione **Salvar** e feche a página.
+
+## <a name="create-a-digital-certificate-secret"></a>Criar um segredo de certificado digital
+
+1. Acesse **Administração do sistema** > **Configuração** > **Parâmetros do Key Vault** e selecione um Segredo do cofre de chaves.
+2. Na seção **Certificados**, selecione **Adicionar**.
+3. No campo **Nome**, insira o nome do segredo do certificado digital e, no campo **Descrição**, insira uma descrição.
+4. No campo **Tipo**, selecione **Certificado**.
+5. Selecione **Salvar** e feche a página.
 
 ## <a name="create-an-electronic-invoicing-add-on-environment"></a>Criar um ambiente de Complemento de faturamento eletrônico
 
 1. Entre em sua conta do RCS.
-2. No espaço de trabalho **Recurso de globalização**, na seção **Ambiente**, selecione o bloco **Faturamento eletrônico**.
+2. No espaço de trabalho **Recurso de globalização**, na seção **Ambiente**, selecione o bloco **Complemento de faturamento eletrônico**.
 
 ## <a name="create-a-service-environment"></a>Criar um ambiente de serviço
 
 1. Na página **Configurações de ambiente**, no Painel de Ações, selecione **Ambiente de serviço**.
 2. Selecione **Novo** para criar um novo ambiente de serviço.
 3. No campo **Nome**, insira o nome do ambiente de faturamento eletrônico. No campo **Descrição**, insira uma descrição.
-4. No campo **Segredo de token SAS de armazenamento**, selecione o nome do certificado que deve ser usado para autenticar o acesso à conta de armazenamento.
+4. No campo **Segredo de token SAS de armazenamento**, selecione o nome do segredo da conta de armazenamento que deve ser usado para autenticar o acesso à conta de armazenamento.
 5. Na seção **Usuários**, selecione **Adicionar** para adicionar um usuário que tem permissão para enviar faturas eletrônicas pelo ambiente e também para se conectar à conta de armazenamento.
 6. No campo **ID do Usuário**, insira o alias do usuário. No campo **Email**, insira o endereço de email do usuário.
 7. Selecione **Salvar**.

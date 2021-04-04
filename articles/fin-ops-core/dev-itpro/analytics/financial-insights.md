@@ -1,12 +1,11 @@
 ---
-title: Insights financeiros
-description: Os Insights Financeiros usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros.
+title: Análise financeira
+description: A análise financeira usa o Microsoft Power BI para reunir indicadores da chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros.
 author: kweekley
 manager: AnnBe
 ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -16,20 +15,20 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 9aaf24147900c890a14c60ab969da7124c538911
-ms.sourcegitcommit: 18e626c49ccfdb12c1484b985e3a275e51f61320
+ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
+ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "5115719"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5572357"
 ---
-# <a name="financial-insights"></a>Insights financeiros
+# <a name="financial-analysis"></a>Análise financeira
 
 [!include [banner](../includes/banner.md)]
 
-Os **Insights Financeiros** usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI está inserido no aplicativo. O foco dos **Insights Financeiros** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
+A **Análise financeira** usa o Microsoft Power BI para reunir indicadores da chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI está inserido no aplicativo. O foco da **Análise financeira** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
 
-Os **Financial Insights** combinam dados da contabilidade e dos razões auxiliares para fornecer uma visão mais completa da saúde financeira de uma organização.
+A **Análise financeira** combina dados da contabilidade e dos razões auxiliares para fornecer uma visão mais completa da saúde financeira de uma organização.
 
 > [!NOTE]
 > Este documento usa a seguinte terminologia do Power BI:
@@ -38,14 +37,14 @@ Os **Financial Insights** combinam dados da contabilidade e dos razões auxiliar
 > - **Página** – Uma guia em um arquivo .pbix único. Cada página pode conter um ou mais recursos visuais.
 > - **Recurso Visual** – Uma única fonte de dados, como um cartão, um KPI, um gráfico, um gráfico, uma matriz ou um demonstrativo financeiro. Uma página que tem um demonstrativo financeiro como um recurso visual não pode ter outros recursos visuais devido ao volume de dados que está sendo reportado.
 
-Atualmente, os **Insights Financeiros** são usados para exibir dados para a entidade legal ativa ou para todas as entidades legais. Em versões futuras, o espaço de trabalho se transformará no lugar onde você poderá usar o Power BI para editar e criar visuais.
+Atualmente, a **Análise financeira** é usada para exibir dados para a entidade legal ativa ou para todas as entidades legais. Em versões futuras, o espaço de trabalho se transformará no lugar onde você poderá usar o Power BI para editar e criar visuais.
 
-O espaço de trabalho **Visão geral de CFO** mostra os mesmos recursos visuais dos **Insights Financeiros**, mas está focado em permitir que você visualize e filtre os dados em relatórios existentes. Em versões futuras você poderá adicionar novos recursos visuais ao espaço de trabalho **Insights financeiros**. Os novos recursos visuais também podem estar disponíveis nos espaços de trabalho que estão concentrados em outras funções, como gerentes de projeto ou gerentes de contas a pagar. O espaço de trabalho **visão geral de CFO** continua mostrando dados de todas as entidades legais, independentemente das entidades legais às quais a função tem acesso.
+O espaço de trabalho **Visão geral de CFO** mostra os mesmos recursos visuais da **Análise financeira**, mas está focado em permitir que você visualize e filtre os dados em relatórios existentes. Em versões futuras você poderá adicionar novos recursos visuais ao espaço de trabalho **Análise financeira**. Os novos recursos visuais também podem estar disponíveis nos espaços de trabalho que estão concentrados em outras funções, como gerentes de projeto ou gerentes de contas a pagar. O espaço de trabalho **visão geral de CFO** continua mostrando dados de todas as entidades legais, independentemente das entidades legais às quais a função tem acesso.
 
 ## <a name="dynamics-365-finance-setup"></a>Configuração do Dynamics 365 Finance
 **Contabilidade**
 
-O tipo de conta principal e as categorias da conta principal são usados para preencher as contas principais padrão apropriadas no demonstrativo financeiro do **Balanço** e nos diversos demonstrativos financeiros de **Demonstração de lucros e perdas** nos **Insights financeiros**.
+O tipo de conta principal e as categorias da conta principal são usados para preencher as contas principais padrão apropriadas no demonstrativo financeiro do **Balanço** e nos diversos demonstrativos financeiros de **Demonstração de lucros e perdas** na **Análise financeira**.
 
 Na página **Contas principais** , você deve definir a conta principal, de modo que um dos seguintes tipos seja atribuído a ela:
 
@@ -57,14 +56,14 @@ Na página **Contas principais** , você deve definir a conta principal, de modo
 
 Não atribua nenhum outro tipo de conta principal, como **Balanço** ou **Lucros e perdas**, às contas principais. O relatório pode determinar o tipo de conta principal no qual outros tipos de conta principais estão atribuídos porque não são granulares o suficiente. O tipo de conta principal deve ser determinado para mostrar passivos e receita como valores positivos nos relatórios financeiros.
 
-Para aparecer em demonstrativos financeiros e para ser incluída em vários outros elementos visuais, como KPIs, cada conta principal deve ser atribuída a uma categoria de conta principal. As categorias de conta principal foram aprimoradas para que tenham uma ordem de exibição. A ordem de exibição é usada especificamente em demonstrativos financeiros nos **Insights financeiros**. Depois de editar ou adicionar uma nova categoria de conta principal, você pode alterar o valor da **Ordem de exibição** para definir a ordem em que as categorias de conta principais devem ser mostradas em um demonstrativo financeiro. Se for necessário alterar a ordem de exibição de muitas categorias de conta principal, você poderá usar o recurso Abrir no Excel para editar e publicar as alterações rapidamente no aplicativo.
+Para aparecer em demonstrativos financeiros e para ser incluída em vários outros elementos visuais, como KPIs, cada conta principal deve ser atribuída a uma categoria de conta principal. As categorias de conta principal foram aprimoradas para que tenham uma ordem de exibição. A ordem de exibição é usada especificamente em demonstrativos financeiros na **Análise financeira**. Depois de editar ou adicionar uma nova categoria de conta principal, você pode alterar o valor da **Ordem de exibição** para definir a ordem em que as categorias de conta principais devem ser mostradas em um demonstrativo financeiro. Se for necessário alterar a ordem de exibição de muitas categorias de conta principal, você poderá usar o recurso Abrir no Excel para editar e publicar as alterações rapidamente no aplicativo.
 
 ## <a name="entity-store"></a>Repositório de entidades
-Os dados de **Insights financeiros** são recebidos do repositório de entidades (**Administrador do sistema** \> **Configurar** \> **Repositório de entidades**). Se você abrir o espaço de trabalho **Visão geral do CFO** ou **Insights financeiros** e a seguinte mensagem de aviso for exibida nos elementos visuais, você deverá atualizar as entidades.
+Os dados da **Análise financeira** são recebidos do repositório de entidades (**Administrador do sistema** \> **Configurar** \> **Repositório de entidades**). Se você abrir o espaço de trabalho **Visão geral do CFO** ou **Análise financeira** e a seguinte mensagem de aviso for exibida nos elementos visuais, você deverá atualizar as entidades.
 
 ![Aviso](./media/Cantdisplay.png)
 
-Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Insights financeiros** e **Visão geral de CFO**:
+Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Análise financeira**:
 
 - BudgetActivityMeasure
 - Dados de transação de relatórios financeiros versão 3 
@@ -74,8 +73,6 @@ Você deve atualizar as seguintes entidades para ver os dados nos espaços e tra
 - Cubo de Compras
 - Cubo de Vendas
 
-Nas versões anteriores, as entidades LedgerActivityMeasure e VendPaymentBIMeasure foram usadas para os dados do espaço de trabalho **Visão geral de CFO**. Porém, não são mais usadas na versão atual.
-
 Você pode definir um lote recorrente para atualizar regularmente os dados nas entidades. Como cada entidade é recriada completamente durante uma atualização, selecione a hora e frequência de atualizações da entidade cuidadosamente. A entidade principal usada para demonstrativos financeiros é a entidade FinancialReportingTransactionData. Portanto, você pode decidir atualizar essa entidade com mais frequência.
 
 ## <a name="security"></a>Segurança
@@ -83,18 +80,17 @@ No momento, os dados nos relatórios incorporados do Power BI não podem ser lim
 
 | Obrigação                                    | Funções | descrição |
 |-----------------------------------------|-------|------------|
-| Exibir espaço de trabalho de Visão geral do CFO             | Diretor financeiro | Esta obrigação fornece acesso ao espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
-| Exibir insights financeiros da empresa atual | <ul><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Auditor</li><li>Gerente de orçamentos</li><li>Diretor executivo</li><li>Diretor financeiro</li><li>Controlador financeiro</li></ul> | Esta obrigação fornece acesso aos Insights financeiros. Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais. |
-| Exibir insights financeiros interempresariais   | No Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3, esse direito não é atribuído a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
+| Exibir análise financeira da empresa atual | <ul><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Auditor</li><li>Gerente de orçamentos</li><li>Diretor executivo</li><li>Diretor financeiro</li><li>Controlador financeiro</li></ul> | Esta obrigação fornece acesso à análise financeira. Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais. |
+| Exibir análise financeira de toda a empresa   | No Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3, esse direito não é atribuído a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 
 
-## <a name="financial-reporting-vs-financial-insights"></a>Financial Reporting versus Financial Insights
-Embora os **Insights financeiros** contenham demonstrativos financeiros, eles não são substituem os Relatórios financeiros no aplicativo. Os demonstrativos financeiros padrão nos **Insights financeiros** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
+## <a name="financial-reporting-vs-financial-analysis"></a>Relatório financeiro vs. Análise financeira
+Embora a **Análise financeira** contenha demonstrativos financeiros, eles não são substituem os Relatórios financeiros no aplicativo. Os demonstrativos financeiros padrão na **Análise financeira** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
 
 O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
 
 
-|                                                          | Relatório financeiro                                               | Insights financeiros |
+|                                                          | Financial Reporting                                               | Análise financeira |
 |----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
 | **Editar relatórios padrão**                                 | Sim                                                               | Não |
 | **Criar novos relatórios**                                   | Sim                                                               | Não |
@@ -108,7 +104,7 @@ O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
 | **relatório sobre dados esternos**                              | Não                                                                | Não |
 | **Oferece suporte a consolidações**                               | Sim                                                               | Limitado Pode reportar sobre várias empresas mas usa somente a moeda contábil |
 
-Além dos elementos de interface do usuário no espaço de trabalho **Visão geral de CFO** original, novos KPIs, gráficos e demonstrativos financeiros agora estão disponíveis. Os seguintes demonstrativos financeiros estão disponíveis:
+Os seguintes demonstrativos financeiros estão disponíveis:
 
 - Balancete
 - Balanço
@@ -121,7 +117,7 @@ Além dos elementos de interface do usuário no espaço de trabalho **Visão ger
 - Vendas por cliente
 
 ## <a name="edit-visuals"></a>Editar elementos visuais
-Na versão inicial dos **Insights financeiros**, nenhum elemento visual pode ser editado. Nas versões futuras, os usuários que têm a segurança apropriada poderão criar novos elementos visuais, copiar elementos visuais existentes e editar elementos visuais. Embora os arquivos de .pbix que contêm os relatórios estejam disponíveis como recursos, não recomendamos que você edite os relatórios padrão. Alterações adicionais serão feitas no modelo de dados, relatórios padrão e no elemento visual do demonstrativo financeiro que são usados para criar os demonstrativos financeiros. Assim, para aproveitar os novos recursos e as alterações feitas no modelo de dados na próxima versão, você terá que refazer todas as alterações feitas nos relatórios padrão via Microsoft Power BI Desktop.
+Nas versões anteriores da **Análise financeira**, nenhum recurso visual pode ser editado. Nas versões futuras, os usuários que têm a segurança apropriada poderão criar novos elementos visuais, copiar elementos visuais existentes e editar elementos visuais. Embora os arquivos de .pbix que contêm os relatórios estejam disponíveis como recursos, não recomendamos que você edite os relatórios padrão. Alterações adicionais serão feitas no modelo de dados, relatórios padrão e no elemento visual do demonstrativo financeiro que são usados para criar os demonstrativos financeiros. Assim, para aproveitar os novos recursos e as alterações feitas no modelo de dados na próxima versão, você terá que refazer todas as alterações feitas nos relatórios padrão via Microsoft Power BI Desktop.
 
 ## <a name="filtering"></a>Filtragem
 Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. Esse painel é igual ao painel que está disponível por meio do Power BI Desktop. Há vários níveis de filtragem, algumas talvez não estejam disponíveis, dependendo do que você selecionou em uma página (guia) ou se você está usando os recursos de análise.
@@ -168,7 +164,7 @@ As seguintes dimensões são usadas nos relatórios padrão. Nenhuma dessas dime
 - Cidade
 
 > [!IMPORTANT] 
-> Se você resumir transações para vários fornecedores ou clientes em um comprovante único usando os diários financeiros, os dados ficarão incorretos. O relatório não pode determinar qual fornecedor ou cliente está relacionado a uma conta contábil específica em uma entrada de diário porque essas informações não são mantidas em qualquer lugar. Portanto, não recomendamos que você insira vários fornecedores, clientes, ativos fixos ou projetos em um comprovante único.
+> Se você resumir transações para vários fornecedores ou clientes em um comprovante único usando os diários financeiros, os dados ficarão incorretos. O processo do relatório não pode determinar qual fornecedor ou cliente está relacionado a uma conta contábil específica em uma entrada de diário porque essas informações não são mantidas em qualquer lugar. Portanto, não recomendamos que você insira vários fornecedores, clientes, ativos fixos ou projetos em um comprovante único.
 
 ## <a name="drill-on-data"></a>Consultar dados
 
@@ -243,7 +239,7 @@ O Power BI não tem uma opção para ocultar e mostrar linhas vazias. Se uma lin
 
 ## <a name="additional-resources-for-power-bi"></a>Recursos adicionais para Power BI
 
-As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Visão geral de CFO** ou **Insights financeiros** em um ambiente de produção. Em vez disso, elas são úteis para caixas de desenvolvimento e se você quiser incorporar seus relatórios do Power BI.
+As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Análise financeira** em um ambiente de produção. Em vez disso, elas são úteis para caixas de desenvolvimento e se você quiser incorporar seus relatórios do Power BI.
 
 - [Como acessar espaços de trabalho analíticos e relatórios em um ambiente de 1 caixa](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
 

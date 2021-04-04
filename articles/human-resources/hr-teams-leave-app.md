@@ -3,7 +3,7 @@ title: Gerenciar solicitações de licença no Teams
 description: Este tópico mostra como solicitar licenças no aplicativo do Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
 manager: tfehr
-ms.date: 10/28/2020
+ms.date: 02/23/2021
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-human-resources
@@ -18,22 +18,22 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 342106ad09db3a5d9c2dec8ab18e824d70e0f6bf
-ms.sourcegitcommit: f8bac7ca2803913fd236adbc3806259a17a110f4
+ms.openlocfilehash: 79bded5a241a8d5de1847adff3e663359ce1b26f
+ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "5128152"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5571719"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
-[!include [banner](includes/preview-feature.md)]
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite solicitar folgas rapidamente, além de visualizar as informações de saldo de folgas no Microsoft Teams. Você pode interagir com um bot para solicitar informações e iniciar uma solicitação de licença. A guia **Folga** fornece informações mais detalhadas. Você também pode enviar às pessoas informações sobre as próximas folgas em equipes e chats fora do aplicativo Human Resources.
+O aplicativo Dynamics 365 Human Resources no Microsoft Teams permite solicitar folgas rapidamente e exibir informações de saldo de folgas no Microsoft Teams. Você pode interagir com um bot para solicitar informações e iniciar uma solicitação de licença. A guia **Folga** fornece informações mais detalhadas. Você também pode enviar às pessoas informações sobre as próximas folgas no Teams e chats fora do aplicativo Human Resources.
 
 ## <a name="install-the-app"></a>Instalar o aplicativo
 
-Você pode encontrar o aplicativo Human Resources na loja do Teams.
+Você pode encontrar o aplicativo Dynamics 365 Human Resources na loja do Teams.
 
 1. No Microsoft Teams, selecione as reticências.
 
@@ -70,29 +70,21 @@ Depois de instalar o aplicativo, será exibida uma mensagem de boas-vindas, info
 
 Você pode pedir para o bot:
 
-- Mostrar informações do saldo de folgas para cada tipo de licença na qual você está inscrito.
-
-   ![Mostrar saldos do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-bot-balances.png)
- 
-- Mostrar detalhes adicionais sobre um tipo de licença específico.
-
-   ![Mostrar detalhes do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-bot-details.png)
-
 - Iniciar uma solicitação de licença para você.
 
-   ![Solicitar licença no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-bot-request.png)
- 
-Depois de iniciar uma solicitação de licença, você pode ajustar os dias diretamente no cartão.
+  ![Iniciar uma solicitação de licença no chat do Teams](./media/hr-teams-leave-app-initiate.png)
 
-![Editar solicitação no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-bot-edit.png)
- 
-Após inserir as informações, selecione **Enviar** para enviá-las para aprovação. Você também pode selecionar **Salvar como rascunho** para continuar depois.
+- O bot do chat preencherá uma solicitação de licença. Selecione **Solicitar folga** e edite os detalhes para sua solicitação.
 
-![Enviar solicitação no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-bot-submit.png)
+  ![Editar detalhes da solicitação de licença](./media/hr-teams-leave-app-details.png)
+
+- Ao terminar de editar detalhes da solicitação de licença, selecione **Enviar** para enviá-la para aprovação.
+
+  ![Enviar solicitação de licença](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Gerenciar a sua licença no Teams
 
-A guia **Folga** permite exibir:
+A guia **Folga** permite exibir: 
 
 - Informações do saldo para cada tipo de licença na qual você está inscrito
 
@@ -164,21 +156,51 @@ Se você for um gerente com subordinados diretos, poderá exibir folgas aprovada
 
 1. No aplicativo Human Resources no Teams, selecione **Folga** .
 
-2. Selecione **Calendário da equipe** .
+2. Selecione **Calendário da equipe** . O calendário exibe as folgas aprovadas e pendentes dos subordinados diretos.
 
    ![Exibir calendário no aplicativo Human Resources do Teams](./media/hr-teams-leave-app-view-calendar.png)
 
-O calendário exibe as folgas aprovadas e pendentes dos subordinados diretos.
+   > [!NOTE]
+   > Se você não conseguir ver o calendário da equipe, peça ao administrador para habilitá-lo. Para obter mais informações, consulte [Instalar e configurar](hr-admin-teams-leave-app.md#install-and-setup).
 
-![Calendário de folgas no aplicativo Human Resources do Teams](./media/hr-teams-leave-app-calendar.png)
+## <a name="supported-languages"></a>Idiomas com suporte
+
+O aplicativo Dynamics 365 Human Resources no Teams oferece suporte aos seguintes idiomas:
+
+| ID da localidade | Idioma |
+| --- | --- |
+| de-DE | Alemão (Alemanha) |
+| es-ES | Espanhol (Espanha) |
+| es-MX | Espanhol (México) |
+| fr-CA | Francês (Canadá) |
+| fr-FR | Francês (França) |
+| it-IT | Italiano (Itália) |
+| nl-NL | Holandês (Países Baixos) |
+| pt-BR | Português (Brasil) |
+| tr-TR | Turco (Turquia) |
+| zh-CN | Chinês (simplificado) |
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
-Se você tiver problemas para entrar ou ao usar o aplicativo do Human Resources no Teams, tente seguir estas instruções de solução de problemas. Se você ainda tiver problemas após a solução de problemas, contate o Suporte. Para obter mais informações, consulte [Obter suporte](hr-admin-troubleshooting-support.md).
+Se você tiver problemas para entrar ou usar o aplicativo do Dynamics 365 Human Resources no Teams, tente seguir estas instruções de solução de problemas. Se você ainda tiver problemas após a solução de problemas, contate o Suporte. Para obter mais informações, consulte [Obter suporte](hr-admin-troubleshooting-support.md).
 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Não é possível entrar no aplicativo do Human Resources no Teams
 
 Se não conseguir entrar no aplicativo, é possível que a conta que você esteja usando para entrar no Microsoft Teams não esteja associada a um registro de funcionário no Dynamics 365 Human Resources. Entre em contato com o administrador do sistema para verificar se o registro de funcionário está associado corretamente.
+
+### <a name="translations-dont-display-correctly"></a>As traduções não são exibidas corretamente
+
+Se as traduções não forem exibidas conforme o esperado, verifique se o idioma selecionado no Teams corresponde ao idioma selecionado em **Usar opções** no Human Resources.
+
+No Teams, verifique **Idioma do aplicativo** em **Configurações**.
+
+![Configurações do Teams](./media/hr-teams-leave-app-settings.png)
+
+No Human Resources, selecione **Configurações** e, depois, **Opções de usuário**. Verifique se o campo **Idioma** corresponde ao campo **Idioma do aplicativo** no Teams.
+
+![Opções de usuário no Human Resources](./media/hr-teams-leave-app-user-options.png)
+
+Se ainda houver problemas de tradução, avise-nos. Para obter informações, consulte [Obter suporte para aplicativos do Finance and Operations ou Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/lcs-support?toc=/dynamics365/human-resources/toc.json).
 
 ### <a name="error-when-approving-leave-requests-in-the-human-resources-app-in-teams"></a>Erro ao aprovar solicitações de licença no aplicativo do Human Resources no Teams
 
@@ -198,7 +220,6 @@ O aplicativo Human Resources no Teams tem as questões de acessibilidade a segui
 | Na guia **Folga**, o VoiceOver anuncia uma ação de botão enquanto lê o cabeçalho para a grade de folgas. | O cabeçalho e os elementos na grade são agrupados por ano e são recolhíveis. O VoiceOver interpreta isso como um item acionável, mas não é. |
 | Na guia **Folga**, há um gesto de passar o dedo adicional ao navegar até o **Código de motivo** em uma nova solicitação. | Não há controle oculto para que a navegação de deslizar o dedo esteja tentando acessar. |
 | Na guia **Folga**, se você passar o dedo enquanto o calendário estiver aberto, terminará fora de controle, e não na parte superior em uma nova solicitação ou ao editar uma solicitação. | Quando você atingir **Acessar hoje**, considere isso como o final do controle e o deslize o dedo na direção inversa para voltar ao início. |
-| O VoiceOver não lê os rótulos para datas. | As datas encontradas em pares são sempre **Data de início** e **Data de término**. |
 | Na guia **Chat**, o foco recai sobre a parte superior quando você insere uma data usando a ferramenta de assistência ou a navegação por teclado. | Pressione a tecla Tab até acessar a área de entrada novamente. |
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
