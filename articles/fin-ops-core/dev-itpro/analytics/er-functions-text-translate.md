@@ -6,7 +6,6 @@ manager: kfend
 ms.date: 04/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
@@ -17,63 +16,66 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5d192b8679d6df2c44a0038fe4ffc181a6a54df
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: f17d3439870710766906013e74452c2e76fec4ce
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4685294"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5560004"
 ---
-# <a name="translate-er-function"></a><span data-ttu-id="5e984-103">Função de ER TRANSLATE</span><span class="sxs-lookup"><span data-stu-id="5e984-103">TRANSLATE ER function</span></span>
+# <a name="translate-er-function"></a><span data-ttu-id="d003e-103">Função de ER TRANSLATE</span><span class="sxs-lookup"><span data-stu-id="d003e-103">TRANSLATE ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5e984-104">A função `TRANSLATE` retorna um valor *Cadeia de caracteres* que contém o resultado da substituição de caractere do texto especificado em caracteres para outro conjunto fornecido.</span><span class="sxs-lookup"><span data-stu-id="5e984-104">The `TRANSLATE` function returns a *String* value that contains the result of the character replacement of specified text in characters of another provided set.</span></span>
+<span data-ttu-id="d003e-104">A função `TRANSLATE` retorna um valor *Cadeia de caracteres* que contém o resultado da substituição de caractere do texto especificado em caracteres para outro conjunto fornecido.</span><span class="sxs-lookup"><span data-stu-id="d003e-104">The `TRANSLATE` function returns a *String* value that contains the result of the character replacement of specified text in characters of another provided set.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5e984-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="5e984-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d003e-105">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="d003e-105">Syntax</span></span>
 
 ```vb
 TRANSLATE (text , pattern, replacement)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="5e984-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="5e984-106">Arguments</span></span>
+## <a name="arguments"></a><span data-ttu-id="d003e-106">Argumentos</span><span class="sxs-lookup"><span data-stu-id="d003e-106">Arguments</span></span>
 
-<span data-ttu-id="5e984-107">`text`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="5e984-107">`text`: *String*</span></span>
+<span data-ttu-id="d003e-107">`text`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="d003e-107">`text`: *String*</span></span>
 
-<span data-ttu-id="5e984-108">O caminho válido de uma fonte de dados do tipo *Cadeia de caracteres*.</span><span class="sxs-lookup"><span data-stu-id="5e984-108">The valid path of a data source of the *String* type.</span></span>
+<span data-ttu-id="d003e-108">O caminho válido de uma fonte de dados do tipo *Cadeia de caracteres*.</span><span class="sxs-lookup"><span data-stu-id="d003e-108">The valid path of a data source of the *String* type.</span></span>
 
-<span data-ttu-id="5e984-109">`pattern`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="5e984-109">`pattern`: *String*</span></span>
+<span data-ttu-id="d003e-109">`pattern`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="d003e-109">`pattern`: *String*</span></span>
 
-<span data-ttu-id="5e984-110">O texto que deve ser substituído.</span><span class="sxs-lookup"><span data-stu-id="5e984-110">The text that must be replaced.</span></span>
+<span data-ttu-id="d003e-110">O texto que deve ser substituído.</span><span class="sxs-lookup"><span data-stu-id="d003e-110">The text that must be replaced.</span></span>
 
-<span data-ttu-id="5e984-111">`replacement`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="5e984-111">`replacement`: *String*</span></span>
+<span data-ttu-id="d003e-111">`replacement`: *Cadeia de caracteres*</span><span class="sxs-lookup"><span data-stu-id="d003e-111">`replacement`: *String*</span></span>
 
-<span data-ttu-id="5e984-112">O texto a ser usado como substituto.</span><span class="sxs-lookup"><span data-stu-id="5e984-112">The text to use as a replacement.</span></span>
+<span data-ttu-id="d003e-112">O texto a ser usado como substituto.</span><span class="sxs-lookup"><span data-stu-id="d003e-112">The text to use as a replacement.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="5e984-113">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="5e984-113">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="d003e-113">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="d003e-113">Return values</span></span>
 
-<span data-ttu-id="5e984-114">*Sequência de caracteres*</span><span class="sxs-lookup"><span data-stu-id="5e984-114">*String*</span></span>
+<span data-ttu-id="d003e-114">*Sequência de caracteres*</span><span class="sxs-lookup"><span data-stu-id="d003e-114">*String*</span></span>
 
-<span data-ttu-id="5e984-115">O valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="5e984-115">The resulting text value.</span></span>
+<span data-ttu-id="d003e-115">O valor de texto resultante.</span><span class="sxs-lookup"><span data-stu-id="d003e-115">The resulting text value.</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="5e984-116">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="5e984-116">Usage notes</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="d003e-116">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="d003e-116">Usage notes</span></span>
 
-<span data-ttu-id="5e984-117">A função `TRANSLATE` substitui um caractere por vez.</span><span class="sxs-lookup"><span data-stu-id="5e984-117">The `TRANSLATE` function replaces one character at a time.</span></span> <span data-ttu-id="5e984-118">A função substitui o primeiro caractere do argumento `text` pelo primeiro caractere do argumento `pattern` e, em seguida, o segundo caractere e segue o mesmo fluxo até concluir.</span><span class="sxs-lookup"><span data-stu-id="5e984-118">The function replaces the first character of the `text` argument with the first character of the `pattern` argument and then the second character and follows the same flow until finished.</span></span> <span data-ttu-id="5e984-119">Quando um caractere dos argumentos `text` e `pattern` é correspondente, ele é substituído por um caractere do argumento `replacement` localizado na mesma posição que o caractere do argumento `pattern`.</span><span class="sxs-lookup"><span data-stu-id="5e984-119">When a character from the `text` and `pattern` arguments match, it is replaced by a character from the `replacement` argument that is located in the same position as the character from the `pattern` argument.</span></span> <span data-ttu-id="5e984-120">Se um caractere aparecer várias vezes no argumento `pattern`, será usado o mapeamento de argumento `replacement` que corresponde à primeira ocorrência deste caractere.</span><span class="sxs-lookup"><span data-stu-id="5e984-120">If a character appears multiple times in the `pattern` argument, the `replacement` argument mapping that corresponds to the first occurrence of this character is used.</span></span>
+<span data-ttu-id="d003e-117">A função `TRANSLATE` substitui um caractere por vez.</span><span class="sxs-lookup"><span data-stu-id="d003e-117">The `TRANSLATE` function replaces one character at a time.</span></span> <span data-ttu-id="d003e-118">A função substitui o primeiro caractere do argumento `text` pelo primeiro caractere do argumento `pattern` e, em seguida, o segundo caractere e segue o mesmo fluxo até concluir.</span><span class="sxs-lookup"><span data-stu-id="d003e-118">The function replaces the first character of the `text` argument with the first character of the `pattern` argument and then the second character and follows the same flow until finished.</span></span> <span data-ttu-id="d003e-119">Quando um caractere dos argumentos `text` e `pattern` é correspondente, ele é substituído por um caractere do argumento `replacement` localizado na mesma posição que o caractere do argumento `pattern`.</span><span class="sxs-lookup"><span data-stu-id="d003e-119">When a character from the `text` and `pattern` arguments match, it is replaced by a character from the `replacement` argument that is located in the same position as the character from the `pattern` argument.</span></span> <span data-ttu-id="d003e-120">Se um caractere aparecer várias vezes no argumento `pattern`, será usado o mapeamento de argumento `replacement` que corresponde à primeira ocorrência deste caractere.</span><span class="sxs-lookup"><span data-stu-id="d003e-120">If a character appears multiple times in the `pattern` argument, the `replacement` argument mapping that corresponds to the first occurrence of this character is used.</span></span>
 
-## <a name="example-1"></a><span data-ttu-id="5e984-121">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="5e984-121">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="d003e-121">Exemplo 1</span><span class="sxs-lookup"><span data-stu-id="d003e-121">Example 1</span></span>
 
-<span data-ttu-id="5e984-122">`TRANSLATE ("abcdef", "cd", "GH")` substitui o caractere **"c"** do texto **“abcdef”** especificado com o caractere **"G"** do texto `replacement` devido ao seguinte:</span><span class="sxs-lookup"><span data-stu-id="5e984-122">`TRANSLATE ("abcdef", "cd", "GH")` replaces the **"c"** character of the specified  **“abcdef”** text with the **"G"** character of the `replacement` text due to the following:</span></span>
--   <span data-ttu-id="5e984-123">O caractere **"c"** é apresentado no texto `pattern` da primeira posição.</span><span class="sxs-lookup"><span data-stu-id="5e984-123">The **"c"** character is presented in the `pattern` text in the first position.</span></span>
--   <span data-ttu-id="5e984-124">A primeira posição do texto `replacement` contém o caractere **"G"**.</span><span class="sxs-lookup"><span data-stu-id="5e984-124">The first position of the `replacement` text contains the **"G"** character.</span></span>
+<span data-ttu-id="d003e-122">`TRANSLATE ("abcdef", "cd", "GH")` substitui o caractere **"c"** do texto **“abcdef”** especificado com o caractere **"G"** do texto `replacement` devido ao seguinte:</span><span class="sxs-lookup"><span data-stu-id="d003e-122">`TRANSLATE ("abcdef", "cd", "GH")` replaces the **"c"** character of the specified  **“abcdef”** text with the **"G"** character of the `replacement` text due to the following:</span></span>
+-   <span data-ttu-id="d003e-123">O caractere **"c"** é apresentado no texto `pattern` da primeira posição.</span><span class="sxs-lookup"><span data-stu-id="d003e-123">The **"c"** character is presented in the `pattern` text in the first position.</span></span>
+-   <span data-ttu-id="d003e-124">A primeira posição do texto `replacement` contém o caractere **"G"**.</span><span class="sxs-lookup"><span data-stu-id="d003e-124">The first position of the `replacement` text contains the **"G"** character.</span></span>
 
-## <a name="example-2"></a><span data-ttu-id="5e984-125">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="5e984-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="d003e-125">Exemplo 2</span><span class="sxs-lookup"><span data-stu-id="d003e-125">Example 2</span></span>
 
-<span data-ttu-id="5e984-126">`TRANSLATE ("abcdef", "ccd", "GH")` retorna **"abGdef"**.</span><span class="sxs-lookup"><span data-stu-id="5e984-126">`TRANSLATE ("abcdef", "ccd", "GH")` returns **"abGdef"**.</span></span>
+<span data-ttu-id="d003e-126">`TRANSLATE ("abcdef", "ccd", "GH")` retorna **"abGdef"**.</span><span class="sxs-lookup"><span data-stu-id="d003e-126">`TRANSLATE ("abcdef", "ccd", "GH")` returns **"abGdef"**.</span></span>
 
-## <a name="example-3"></a><span data-ttu-id="5e984-127">Exemplo 3</span><span class="sxs-lookup"><span data-stu-id="5e984-127">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="d003e-127">Exemplo 3</span><span class="sxs-lookup"><span data-stu-id="d003e-127">Example 3</span></span>
 
-<span data-ttu-id="5e984-128">`TRANSLATE ("abccba", "abc", "123")` retorna **"123321"**.</span><span class="sxs-lookup"><span data-stu-id="5e984-128">`TRANSLATE ("abccba", "abc", "123")` returns **"123321"**.</span></span>
+<span data-ttu-id="d003e-128">`TRANSLATE ("abccba", "abc", "123")` retorna **"123321"**.</span><span class="sxs-lookup"><span data-stu-id="d003e-128">`TRANSLATE ("abccba", "abc", "123")` returns **"123321"**.</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="5e984-129">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="5e984-129">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d003e-129">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="d003e-129">Additional resources</span></span>
 
-[<span data-ttu-id="5e984-130">Funções de texto</span><span class="sxs-lookup"><span data-stu-id="5e984-130">Text functions</span></span>](er-functions-category-text.md)
+[<span data-ttu-id="d003e-130">Funções de texto</span><span class="sxs-lookup"><span data-stu-id="d003e-130">Text functions</span></span>](er-functions-category-text.md)
+
+
+[!INCLUDE[footer-include](../../../includes/footer-banner.md)]
