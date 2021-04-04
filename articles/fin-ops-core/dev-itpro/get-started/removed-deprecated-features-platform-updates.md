@@ -3,10 +3,9 @@ title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
 manager: AnnBe
-ms.date: 02/03/2021
+ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: d57182aa34c4897ef3703d0f8ed08d032c261170
-ms.sourcegitcommit: 79621e667cd7f48ba3bdbf2731f6f33d8e9f57f6
+ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5154078"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5563985"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -32,7 +31,7 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Recurso removido em 28 de janeiro de 2021
 

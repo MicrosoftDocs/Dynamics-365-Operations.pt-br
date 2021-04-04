@@ -6,7 +6,6 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 34d4ad9106b2751c77db4fd03d83932e587a5332
-ms.sourcegitcommit: 659375c4cc7f5524cbf91cf6160f6a410960ac16
+ms.openlocfilehash: 6e4bdb7be83bff8fc9491e360a480f44189730d2
+ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/05/2020
-ms.locfileid: "4680111"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "5568692"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar ER (Relatório eletrônico) para efetuar pull de dados no Power BI
 
@@ -31,7 +30,7 @@ Este tópico explica como você pode usar suas configurações de Relatório ele
 
 ## <a name="overview"></a>Visão Geral
 
-O Microsoft Power BI é uma coleção de serviços de software, aplicativos e conectores que funcionam juntos para transformar fontes externas de dados em informações coerentes, visualmente imersivas e interativas. O Relatório eletrônico (ER) permite que os usuários configurem de forma fácil fontes de dados e organizam a transferência de dados do aplicativo para o Power BI. Os dados são transferidos como arquivos no formato de planilha OpenXML (arquivo de pasta de trabalho do Microsoft Excel). Os arquivos transferidos são armazenados em um Microsoft SharePoint Server configurado para essa finalidade. Os arquivos armazenados são usados no Power BI para criar relatórios que incluem visualizações (tabelas, gráficos, mapas, etc.). Os relatórios do Power BI são compartilhados com os usuários do Power BI e são acessados nos painéis do Power BI e nas páginas do aplicativo. Este tópico explica as seguintes tarefas:
+O Microsoft Power BI é uma coleção de serviços de software, aplicativos e conectores que funcionam juntos para transformar fontes externas de dados em insights coerentes, visualmente imersivos e interativos. O Relatório eletrônico (ER) permite que os usuários configurem de forma fácil fontes de dados e organizam a transferência de dados do aplicativo para o Power BI. Os dados são transferidos como arquivos no formato de planilha OpenXML (arquivo de pasta de trabalho do Microsoft Excel). Os arquivos transferidos são armazenados em um Microsoft SharePoint Server configurado para essa finalidade. Os arquivos armazenados são usados no Power BI para criar relatórios que incluem visualizações (tabelas, gráficos, mapas, etc.). Os relatórios do Power BI são compartilhados com os usuários do Power BI e são acessados nos painéis do Power BI e nas páginas do aplicativo. Este tópico explica as seguintes tarefas:
 
 - Configurar o Microsoft Dynamics 365 Finance.
 - Preparar sua configuração de formato de ER para obter dados do aplicativo Finance.

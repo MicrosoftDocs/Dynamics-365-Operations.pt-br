@@ -17,20 +17,18 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 0a5ad1f4a9bb317e128ad14f21a4e6c48cab8a72
-ms.sourcegitcommit: 38d40c331c8894acb7b119c5073e3088b54776c1
+ms.openlocfilehash: 0e7f30686894f9cf92257e99d95cc8b00f76f899
+ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "4985527"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5234308"
 ---
 # <a name="social-share-module"></a>Módulo de compartilhamento social
 
 [!include [banner](includes/banner.md)]
 
 Este tópico abrange os módulos de compartilhamento social e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Os modelos de compartilhamento social permitem que os usuários compartilhem as URLs de páginas de site de comércio eletrônico em mídias sociais, como Facebook, Twitter, Pinterest e LinkedIn. As URLs da página do site também podem ser compartilhadas por email. Os módulos de compartilhamento social são geralmente usados em páginas de detalhes do produto (PDPs) para ajudar os usuários a compartilhar informações.
 

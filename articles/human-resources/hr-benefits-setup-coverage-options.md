@@ -18,14 +18,16 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: be263dbbec61f3fa9d169c1b9faa6be741adca33
-ms.sourcegitcommit: ea2d652867b9b83ce6e5e8d6a97d2f9460a84c52
+ms.openlocfilehash: 2e1d5fc80d93e41626da8eb5bdf8f389fb0bd531
+ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "5111472"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5466173"
 ---
 # <a name="create-coverage-options"></a>Criar opções de cobertura
+
+[!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 As opções de cobertura no Microsoft Dynamics 365 Human Resources são níveis de cobertura para a eleição de um participante em um plano ou programa de benefícios. Por exemplo, as opções de cobertura podem incluir **Apenas funcionário** para um plano médico ou **2x o salário** para um plano de seguro de vida. Uma vez definido, você pode reutilizar as opções de cobertura de benefício. Você pode associar uma opção a um ou mais planos.
 
