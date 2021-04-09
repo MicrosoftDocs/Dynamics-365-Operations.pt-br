@@ -2,11 +2,9 @@
 title: Home page do Finance
 description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos para o gerenciamento financeiro do Microsoft Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 06/20/2018
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7b2338bcb727e0a513430c74b28b54f2101f2e3b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218874"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813450"
 ---
 # <a name="finance-home-page"></a>Home page do Finance
 
@@ -71,8 +69,10 @@ As regulamentações do país/região afetam a configuração dos impostos e out
 
 ### <a name="additional-content"></a>Conteúdo adicional
 
-A funcionalidade de Supply Chain Management aborda partes do processo de compra ao pagamento que inclui a requisição, o pedido, o recebimento, o faturamento e o pagamento dos bens e serviços que sua organização comprar. Consulte a [home page do Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) para obter informações sobre os recursos para gerenciar as compras, o estoque e a fabricação. 
+A funcionalidade de Supply Chain Management aborda partes do processo de compra ao pagamento que inclui a requisição, o pedido, o recebimento, o faturamento e o pagamento dos bens e serviços que sua organização comprar. Consulte a [home page do Supply Chain Management](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/WhatsNew-SCM-10-0-6/articles/supply-chain/index.md) para obter informações sobre os recursos para gerenciar as compras, o estoque e a fabricação.
 
+## <a name="elearning-courses"></a>Cursos de eLearning
 
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Finance no Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

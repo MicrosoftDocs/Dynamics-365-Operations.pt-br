@@ -2,11 +2,9 @@
 title: Home page de Orçamento
 description: Este tópico fornece uma visão geral dos componentes da funcionalidade de orçamento, das ferramentas de orçamento e dos recursos de relatório no Microsoft Dynamics 365 Finance.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5222df8ffd3e0cb8759f7c094e5efde97d2ede0c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 049388c66fae193d2e7f8758e8965634a97428ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210256"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822098"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
