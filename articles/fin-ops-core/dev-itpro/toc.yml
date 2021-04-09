@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-17.md
                 - name: Platform updates para 10.0.16 (fevereiro de 2021)
                   href: get-started/whats-new-platform-updates-10-0-16.md
-                - name: Platform updates para 10.0.15 (janeiro de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-15.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -76,7 +74,7 @@
               href: dev-tools/continuous-delivery-home-page.md
             - name: Perguntas frequentes sobre entrega contínua e desenvolvimento
               href: dev-tools/continuous-delivery-faq.md
-            - name: ​Excluir pacotes de teste da saída de compilação
+            - name: Excluir pacotes de teste da saída de compilação
               href: dev-tools/exclude-test-packages.md
             - name: Gerenciar modelos de terceiros e pacotes de tempo de execução usando o controle de origem
               href: dev-tools/manage-runtime-packages.md
@@ -118,7 +116,7 @@
                   items:
                     - name: Visão geral de integração de dados usando entidades de dados
                       href: data-entities/data-management-integration-data-entity.md
-                    - name: ​Desenvolver uma entidade para migração de dados​
+                    - name: Desenvolver uma entidade para migração de dados
                       href: data-entities/develop-entity-for-data-migration.md
                     - name: Desenvolver entidades de dados compostas
                       href: data-entities/develop-composite-data-entities.md
@@ -226,6 +224,10 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Trabalhador, trabalho e cargo integrados'
                               href: data-entities/dual-write/integrated-hr.md
+                            - name: Catálogo de endereços global e participantes
+                              href: data-entities/dual-write/party-gab.md
+                            - name: Usando o Power Portal com o modelo de dados do participante
+                              href: data-entities/dual-write/party-gab-portal.md
                             - name: Integração de observações
                               href: data-entities/dual-write/notes-integration.md
                             - name: Referência de mapeamento
@@ -368,19 +370,19 @@
                   href: data-entities/behavioral-properties-data-entities.md
                 - name: Criar colunas computadas e campos virtuais
                   href: data-entities/data-entity-computed-columns-virtual-fields.md
-                - name: ​Comportamento interempresarial​
+                - name: Comportamento interempresarial
                   href: data-entities/cross-company-behavior.md
                 - name: Manuseio de códigos de países/regiões
                   href: data-entities/countryregion-codes-configuration-keys.md
-                - name: ​Padrões de herança​
+                - name: Padrões de herança
                   href: data-entities/support-super-type-sub-type.md
                 - name: Regras do assistente de entidade de dados
                   href: data-entities/data-entity-wizard-rules.md
-                - name: ​Propriedades de metadados​
+                - name: Propriedades de metadados
                   href: data-entities/behavioral-properties-data-entities.md
-                - name: '​Validações, padrões e campos não mapeados​'
+                - name: 'Validações, padrões e campos não mapeados'
                   href: data-entities/validations-defaults-unmapped-fields.md
-                - name: ​Segurança e entidades de dados​
+                - name: Segurança e entidades de dados
                   href: data-entities/security-data-entities.md
                 - name: Usar o utilitário de teste de serviço de terceiros
                   href: data-entities/third-party-service-test.md
@@ -526,13 +528,15 @@
                   items:
                     - name: Configurar projetos locais no LCS
                       href: lifecycle-services/lbd-create-lcs-on-prem-project.md
-                    - name: Configurar e implantar ambientes locais
+                    - name: Configurar e implantar ambientes locais (Platform update 41 e posterior)
+                      href: deployment/setup-deploy-on-premises-pu41.md
+                    - name: Configurar e implantar ambientes locais (Platform updates de 12 a 40)
                       href: deployment/setup-deploy-on-premises-pu12.md
                     - name: Etapas de instalação dos componentes do canal do Retail em um ambiente local
                       href: deployment/deploy-retail-onprem.md
                     - name: Desenvolver e implantar modelos personalizados em ambientes locais
                       href: deployment/develop-deploy-custom-models-on-premises.md
-                - name: Manutenção do ambiente
+                - name: Operações de ambiente
                   items:
                     - name: Aplicar atualizações a uma implantação local
                       href: deployment/apply-updates-on-premises.md
@@ -542,6 +546,8 @@
                       href: user-interface/client-disconnected.md
                     - name: Configurar nós do AOS Somente em lote e Somente interativos em implantações locais
                       href: deployment/onprem-batchonly.md
+                    - name: Configurar a alta disponibilidade para os nós do SQL Server Reporting Services (SSRS)
+                      href: deployment/onprem-SSRSHA.md
                     - name: Configurar proxies para ambientes locais
                       href: deployment/onprem-reverseproxy.md
                     - name: Diagnósticos locais
@@ -614,7 +620,7 @@
               href: dev-tools/developer-home-page.md
             - name: Pilha de aplicativos e arquitetura do servidor
               href: dev-tools/application-stack-server-architecture.md
-            - name: ​Obter cópias de avaliação​
+            - name: Obter cópias de avaliação
               href: dev-tools/get-evaluation-copy.md
             - name: Inscrever-se em assinaturas de versão preliminar
               href: dev-tools/sign-up-preview-subscription.md
@@ -678,17 +684,17 @@
                   href: dev-tools/build-operations.md
                 - name: Recursos do Editor de códigos
                   href: dev-tools/code-editor.md
-                - name: ​Criar modelos e elementos de modelo de dados​
+                - name: Criar modelos e elementos de modelo de dados
                   items:
-                    - name: Visão geral de ​Criar modelos e elementos de modelo de dados​
+                    - name: Visão geral de Criar modelos e elementos de modelo de dados
                       href: dev-tools/create-data-model-elements.md
                     - name: Diretrizes de nomenclatura para extensões
                       href: extensibility/NamingGuidelines.md
-                    - name: ​Desativar a personalização de modelos e substituir a funcionalidade​
+                    - name: Desativar a personalização de modelos e substituir a funcionalidade
                       href: dev-tools/lock-models.md
-                - name: ​Relatório de Análise de Personalizações​
+                - name: Relatório de Análise de Personalizações
                   href: dev-tools/customization-analysis-report.md
-                - name: ​Designers de elementos​
+                - name: Designers de elementos
                   href: dev-tools/element-designers.md
                 - name: Comandos para determinar o uso de elementos
                   href: dev-tools/element-usage.md
@@ -802,27 +808,27 @@
                       href: dev-ref/xpp-cs-comparison.md
                     - name: Sintaxe da X++
                       href: dev-ref/xpp-syntax.md
-            - name: '​Referência de API, classes e tabelas​'
+            - name: 'Referência de API, classes e tabelas'
               items:
-                - name: '​Recursos de API, classes e tabelas​'
+                - name: 'Recursos de API, classes e tabelas'
                   href: dev-ref/api-reference.md
                 - name: Funções em tempo de compilação da X++
                   href: dev-ref/xpp-compile-time-functions.md
                 - name: Funções em tempo de execução da X++
                   items:
-                    - name: Recursos de Funções em tempo de execução da X++​
+                    - name: Recursos de Funções em tempo de execução da X++
                       href: dev-ref/xpp-run-time-functions.md
-                    - name: ​Funções de negócios em tempo de execução da X++​
+                    - name: Funções de negócios em tempo de execução da X++
                       href: dev-ref/xpp-business-run-time-functions.md
-                    - name: ​Funções de contêiner em tempo de execução da X++​
+                    - name: Funções de contêiner em tempo de execução da X++
                       href: dev-ref/xpp-container-run-time-functions.md
                     - name: Funções de conversão em tempo de execução da X++
                       href: dev-ref/xpp-conversion-run-time-functions.md
                     - name: Funções de data em tempo de execução da X++
                       href: dev-ref/xpp-date-run-time-functions.md
-                    - name: ​Funções matemáticas em tempo de execução da X++​
+                    - name: Funções matemáticas em tempo de execução da X++
                       href: dev-ref/xpp-math-run-time-functions.md
-                    - name: ​Funções de reflexão em tempo de execução da X++​
+                    - name: Funções de reflexão em tempo de execução da X++
                       href: dev-ref/xpp-reflection-run-time-functions.md
                     - name: Funções de sessão em tempo de execução da X++
                       href: dev-ref/xpp-session-run-time-functions.md
@@ -904,7 +910,7 @@
                       href: extensibility/register-subclass-factory-methods.md
                     - name: Responder usando EventHandlerResult
                       href: extensibility/respond-event-handler-result.md
-                    - name: Estender a classe RunBase​
+                    - name: Estender a classe RunBase
                       href: extensibility/extend-runbase-class.md
                     - name: Personalizar a inicialização do aplicativo usando delegados
                       href: extensibility/startup-customizations.md
@@ -928,7 +934,7 @@
                       href: extensibility/change-caption-form.md
                     - name: Modificar propriedades de controle de formulário
                       href: extensibility/modify-control-properties.md
-                    - name: ​Estender o escopo das sequências numérica​s
+                    - name: Estender o escopo das sequências numéricas
                       href: extensibility/extend-number-sequence-scope.md
                     - name: Adicionar novas dimensões de estoque
                       href: extensibility/inventory-dimensions.md
@@ -1040,7 +1046,7 @@
                   href: gdpr/gdpr-extend-person-search-report.md
                 - name: Gerenciar o acesso a dados confidenciais
                   href: gdpr/gdpr-auditing-sensitive-data.md
-                - name: ​Responder a solicitações de dados pessoais usando o Human Resources
+                - name: Responder a solicitações de dados pessoais usando o Human Resources
                   href: gdpr/respond-dsr-request-talent.md
                 - name: Responder a solicitações de dados pessoais no AX 2012
                   href: gdpr/gdpr-ax2012.md
@@ -1098,7 +1104,7 @@
                   href: lifecycle-services/synchronize-bpm-vsts.md
                 - name: Criar bibliotecas de teste de aceitação de usuário usando o BPM e os guias de tarefas
                   href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-                - name: ​Fluxogramas no modelador de processo de negócios​
+                - name: Fluxogramas no modelador de processo de negócios
                   href: lifecycle-services/flowcharts-business-process-modeler.md
                 - name: Carregar processos de negócios personalizados no Modelador de processo de negócios
                   href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
@@ -1136,20 +1142,24 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integração do Microsoft Power Platform
           items:
-            - name: Integração do Microsoft Power Platform com o Finance and Operations
-              href: power-platform/overview.md
-            - name: Visão geral de suplementos
-              href: power-platform/add-ins-overview.md
-            - name: Modelagem de entidade
-              href: power-platform/entity-modeling.md
-            - name: Gerenciamento do ciclo de vida de aplicativos
-              href: power-platform/application-lifecycle-management.md
-            - name: Referência de administração do Finance and Operations e do Dataverse
-              href: power-platform/admin-reference.md
-            - name: Portais do Power Apps com o Finance and Operations
-              href: power-platform/power-portal-reference.md
-            - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
-              href: power-platform/faq.md
+            - name: Entidades virtuais
+              items:
+                - name: Integração do Microsoft Power Platform com o Finance and Operations
+                  href: power-platform/overview.md
+                - name: Modelagem de entidade
+                  href: power-platform/entity-modeling.md
+                - name: Gerenciamento do ciclo de vida de aplicativos
+                  href: power-platform/application-lifecycle-management.md
+                - name: Referência de administração do Finance and Operations e do Dataverse
+                  href: power-platform/admin-reference.md
+                - name: Portais do Power Apps com o Finance and Operations
+                  href: power-platform/power-portal-reference.md
+                - name: Perguntas frequentes sobre entidades virtuais do Finance and Operations
+                  href: power-platform/faq.md
+            - name: Suplementos
+              items:
+                - name: Visão geral de suplementos
+                  href: power-platform/add-ins-overview.md
         - name: Plataforma móvel
           items:
             - name: Recursos da plataforma móvel
@@ -1390,7 +1400,9 @@
               href: perf-test/rsat/rsat-derived-test-cases.md
             - name: Tutorial sobre a Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
-            - name: Práticas Recomendadas
+            - name: Configurar usuários que não sejam administradores
+              href: perf-test/rsat/rsat-configure-nonadmin.md
+            - name: Práticas recomendadas
               href: perf-test/rsat/rsat-best-practices.md
             - name: Testes independentes de dados usando a Regression Suite Automation Tool
               href: ../fin-ops/get-started/recommendation-data-agnostic-testing-rsat.md
@@ -1448,9 +1460,9 @@
               href: sysadmin/system-administration-home-page.md
             - name: Adicionar links aos termos legais e à política de privacidade
               href: sysadmin/legal-terms-privacy-statement.md
-            - name: ​Relatório de códigos de licença e chaves de configuração​
+            - name: Relatório de códigos de licença e chaves de configuração
               href: sysadmin/license-codes-configuration-keys-report.md
-            - name: ​Compartilhamento de dados interempresarial​
+            - name: Compartilhamento de dados interempresarial
               href: sysadmin/cross-company-data-sharing.md
             - name: Modo de manutenção
               href: sysadmin/maintenance-mode.md
@@ -1570,7 +1582,7 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: Upgrade do AX 2012 — Teste funcional aprovado
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: Upgrade do AX 2012 - ​Preparar para o Go Live​
+                - name: Upgrade do AX 2012 - Preparar para o Go Live
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Upgrade do AX 2012 — Ativar
                   href: migration-upgrade/2012-upgrade-cutover.md
@@ -1578,9 +1590,9 @@
                   items:
                     - name: O delimitador do plano de contas deve ser exclusivo
                       href: migration-upgrade/chart-accounts-delimiter-unique.md
-                    - name: ​Atualizar diários de comprovante único e reavaliações de moeda
+                    - name: Atualizar diários de comprovante único e reavaliações de moeda
                       href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
-                    - name: ​Modelo de dados de agendamento de recursos de projeto​
+                    - name: Modelo de dados de agendamento de recursos de projeto
                       href: migration-upgrade/data-model-changes-resource-management.md
                     - name: Alterações no subsistema de fluxo de trabalho
                       href: migration-upgrade/workflow-subsystem.md
@@ -1760,9 +1772,9 @@
                   href: user-interface/form-pattern-add-ins.md
             - name: Padrões de formulário
               items:
-                - name: ​Diretrizes gerais de formulário​
+                - name: Diretrizes gerais de formulário
                   href: user-interface/general-form-guidelines.md
-                - name: ​Padrão de formulário Mestre Detalhado​
+                - name: Padrão de formulário Mestre Detalhado
                   href: user-interface/details-master-form-pattern.md
                 - name: Padrão de formulário Transação Detalhada
                   href: user-interface/details-transaction-form-pattern.md
@@ -1862,7 +1874,7 @@
                   href: user-interface/build-workspaces.md
                 - name: Cache de blocos e listas para espaços de trabalho
                   href: user-interface/tile-list-caching-workspaces.md
-            - name: ​Gravador de Tarefas​
+            - name: Gravador de Tarefas
               items:
                 - name: Recursos do Gravador de Tarefas
                   href: user-interface/task-recorder.md

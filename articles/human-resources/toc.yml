@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 22 de março de 2021
+          href: hr-whats-new-2021-03-22.md
         - name: 8 de março de 2021
           href: hr-whats-new-2021-03-08.md
         - name: 22 de fevereiro de 2021
@@ -261,10 +263,12 @@
           items:
             - name: Obter suporte
               href: ../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=/dynamics365/human-resources/toc.json
-            - name: Otimizar o desempenho ao agendar trabalhos em lotes após o expediente
+            - name: Otimizar o desempenho ao agendar trabalhos em lote após o expediente
               href: hr-admin-troubleshooting-batch-jobs.md
             - name: Otimizar o desempenho com tarefas de limpeza automática
               href: hr-admin-troubleshooting-batch-history.md
+            - name: Redefinir trabalhos em lote presos
+              href: hr-admin-troubleshooting-batch-execution.md
             - name: Os relatórios analíticos não estão atualizados
               href: hr-admin-troubleshooting-analytic-reports.md
             - name: Não é possível criar um ambiente no Centro de administração do Power Apps
