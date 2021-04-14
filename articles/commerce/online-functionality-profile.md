@@ -2,11 +2,9 @@
 title: Criar um perfil de funcionalidade online
 description: Este tópico descreve como criar um perfil de funcionalidade online no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: cb9d78a945132c913dcb8a5d5b41eaacd1a6db3b
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: be78b92858979b8bb009a4699eff96379ef7cef3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477723"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791093"
 ---
 # <a name="create-an-online-functionality-profile"></a>Criar um perfil de funcionalidade online
 
