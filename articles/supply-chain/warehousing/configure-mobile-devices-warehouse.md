@@ -2,11 +2,9 @@
 title: Configurar dispositivos móveis para trabalho de depósito
 description: Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem, WHSRFSysDirSort, WHSWorkUserDisplaySettings
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: db4c3a8c4bae226b5e154f4761e30b7341bc527b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d3acbc15b6dc5f698f26aae96c75cc942189c6c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232974"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808789"
 ---
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
@@ -64,7 +62,7 @@ Se o campo **Modo** de um item de menu for definido como **Indireto**, você pod
 | Liberar cache de sequência numérica | Exclua números de sequência numérica do cache de sequência numérica. Essa atividade é normalmente executada por um administrador do sistema para resolver problemas do cache quando os dispositivos móveis são usados. |
 | Alterar disposição em lotes | Permite que um trabalhador especifique o código de disposição do lote de um item e lote. Essa seleção atualiza o código de disposição especificado para o lote. |
 | Exibir lista de trabalhos abertos | Mostra a lista de trabalho disponível para um usuário específico. O usuário pode selecionar o trabalho para executar e será direcionado a ele. Esta lista é para ser exibida em dispositivos tablet com telas de 7 polegadas ou mais. Quando você seleciona esta opção, os itens de menu **Editar consulta** e **Lista de campos** ficam disponíveis. A página **Editar consulta** permite que você configure critérios para o trabalho que aparece na lista. A página **Lista de campos** permite selecionar os campos que aparecem na lista de trabalho. Por exemplo, você pode optar por reduzir o número de campos que aparecem, de forma que o usuário possa selecionar o item de trabalho mais apropriado, de forma mais rápida. Na Guia Rápida **Geral**, no campo **Registros por página**, também é possível selecionar quantos registros de trabalho devem ser exibidos por página. Se a opção **Permitir que usuários filtrem o trabalho por tipo de transação** for selecionada, a lista de trabalho terá um controle **Filtrar trabalho** que o usuário poderá usar para filtrar por tipo de transação. Na lista de trabalho, os usuários verão apenas o trabalho que eles têm permissão para acessar. Você precisa ter certeza de que os usuários têm permissão para um ou mais itens de menu específicos de usuário, que suportam os tipos de classe de trabalho específicos que eles precisam acessar. As permissões são verificadas quando um usuário tentar executar o trabalho na lista.|
-| Criar ordem de transferência das placas de licença | Permite que os trabalhadores de depósito criem e processem ordens de transferência diretamente do aplicativo de depósito. Os trabalhadores do depósito começam selecionando o depósito de destino e podem, então, verificar uma ou mais placas de licença usando o aplicativo. Quando o trabalho de depósito selecionar **Ordem completa**, um trabalho em lotes criará a ordem de transferência e as linhas de ordem necessárias com base no estoque disponível registrado para essas placas de licença. Para obter mais informações, consulte [Criar ordens de transferência do aplicativo de depósito](create-transfer-order-from-warehouse-app.md).
+| Criar ordem de transferência das placas de licença | Permite que os trabalhadores de depósito criem e processem ordens de transferência diretamente do aplicativo móvel do Gerenciamento de Depósito. Os trabalhadores do depósito começam selecionando o depósito de destino e podem, então, verificar uma ou mais placas de licença usando o aplicativo. Quando o trabalho de depósito selecionar **Ordem completa**, um trabalho em lotes criará a ordem de transferência e as linhas de ordem necessárias com base no estoque disponível registrado para essas placas de licença. Para obter mais informações, consulte [Criar ordens de transferência do aplicativo de depósito](create-transfer-order-from-warehouse-app.md).
 
 
 ## <a name="configure-menu-items-to-create-work-for-another-worker-or-process"></a>Configurar itens de menu para criar trabalho para outro trabalhador ou processo

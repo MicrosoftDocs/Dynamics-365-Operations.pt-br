@@ -2,11 +2,9 @@
 title: Criar propriedades do agendamento de horário de trabalho
 description: As propriedades de programação de horário de trabalho são usadas para categorizar intervalos de horário de trabalho e para definir as configurações que os operadores devem levar em conta.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c9cb42b99a409a4e6509e180e4140064273adb32
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1f7e412b7365901e18f476758aa3c5d43de590b2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257378"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811597"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Criar propriedades do agendamento de horário de trabalho
 

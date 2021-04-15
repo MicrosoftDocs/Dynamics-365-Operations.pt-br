@@ -2,11 +2,9 @@
 title: Configurar um canal de call center
 description: Este tópico descreve como criar um novo canal de call center no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 03/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 878774c8e5485211525e7e7b63973173f6874b26
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218360"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800654"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar um canal de call center
 

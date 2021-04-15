@@ -2,11 +2,9 @@
 title: Configurar um depósito
 description: Este tópico descreve como configurar um depósito a ser usado com um novo canal no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 772c7584549b30a34e371a7911131edc01214ed8
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: 154ec719e16e4826b0e24deb5ecadf587d938e3c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477625"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800486"
 ---
 # <a name="warehouse-set-up"></a>Configuração do depósito
 
@@ -49,7 +47,7 @@ A imagem a seguir mostra um exemplo de site de depósito.
 
 ![Exemplo de site de depósito](media/warehouse-site.png)
 
-## <a name="set-up-a-warehouse"></a>Configurar um depósito
+## <a name="set-up-a-warehouse&quot;></a>Configurar um depósito
 
 Para configurar um depósito, siga estas etapas.
 
@@ -63,14 +61,14 @@ Para configurar um depósito, siga estas etapas.
     - Se você quiser definir um **Depósito de trânsito**, primeiro, precisará seguir estas etapas para criar um depósito adicional no qual o **Tipo** seja definido como **Trânsito**.
 1. No painel de ação, selecione **Salvar**.
 
-## <a name="set-up-inventory-aisles"></a>Configurar corredores do estoque
+## <a name=&quot;set-up-inventory-aisles&quot;></a>Configurar corredores do estoque
 
 Para configurar corredores de estoque, siga estas etapas.
 
 1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Configuração de localização \> Corredores de estoque**.
 1. No painel de ação, selecione **Novo**.
 1. Na lista suspensa **Depósito**, selecione o depósito criado anteriormente.
-1. No campo **Corredor**, insira um nome (por exemplo, "Padr").
+1. No campo **Corredor**, insira um nome (por exemplo, &quot;Padr").
 1. No campo **Nome**, insira um nome (por exemplo, "Corredor padrão").
 1. No painel de ação, selecione **Salvar**.
 

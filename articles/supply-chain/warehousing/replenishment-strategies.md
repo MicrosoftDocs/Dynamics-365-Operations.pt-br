@@ -2,11 +2,9 @@
 title: Estratégias de reabastecimento
 description: Este tópico fornece informações sobre estratégias de reabastecimento e explica como você pode usar o campo Estratégia de reabastecimento nas linhas do modelo de reabastecimento de demanda do ciclo para selecionar como o reabastecimento é feito.
 author: mirzaab
-manager: tfehr
 ms.date: 10/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-29
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: a66d48c6636f9f2012c92945868728d8430c1cbe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84c97bdbe00285d7992a25edbf5d42ffe9b58903
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256030"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814503"
 ---
 # <a name="replenishment-strategies"></a>Estratégias de reabastecimento
 
