@@ -2,11 +2,9 @@
 title: Escolher o lote mais antigo em um dispositivo móvel
 description: Este tópico descreve como configurar e aplicar as opções para escolher o lote mais antigo de um dispositivo móvel.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
@@ -16,30 +14,30 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8e0deadaeb403e1f645309a141c5678fbe3f716
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: eb0012689cc814daaf8f685c81d4630164b6e0c5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232878"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810429"
 ---
-# <a name="pick-oldest-batch-on-a-mobile-device"></a><span data-ttu-id="42f69-103">Escolher o lote mais antigo em um dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="42f69-103">Pick oldest batch on a mobile device</span></span>
+# <a name="pick-oldest-batch-on-a-mobile-device"></a><span data-ttu-id="87587-103">Escolher o lote mais antigo em um dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="87587-103">Pick oldest batch on a mobile device</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="42f69-104">Você pode acessar a configuração **Escolher lote mais antigo** em um menu de dispositivo móvel, o que permite a você forçar os trabalhadores do depósito ou orientá-los a escolher o lote mais antigo do local atual.</span><span class="sxs-lookup"><span data-stu-id="42f69-104">You can access the configuration **Pick oldest batch** via a mobile device menu and it allows you to force or warn warehouse workers to pick the oldest batch in their current location.</span></span>  
+<span data-ttu-id="87587-104">Você pode acessar a configuração **Escolher lote mais antigo** em um menu de dispositivo móvel, o que permite a você forçar os trabalhadores do depósito ou orientá-los a escolher o lote mais antigo do local atual.</span><span class="sxs-lookup"><span data-stu-id="87587-104">You can access the configuration **Pick oldest batch** via a mobile device menu and it allows you to force or warn warehouse workers to pick the oldest batch in their current location.</span></span>  
 
-## <a name="where-it-applies"></a><span data-ttu-id="42f69-105">Aplica-se a</span><span class="sxs-lookup"><span data-stu-id="42f69-105">Where it applies</span></span>
-<span data-ttu-id="42f69-106">Escolher lote mais antigo é configurado em itens de menu de dispositivo móvel e afeta a separação de lote dos itens abaixo.</span><span class="sxs-lookup"><span data-stu-id="42f69-106">Pick oldest batch is configured on mobile device menu items and effects the pick for batch below items.</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="87587-105">Aplica-se a</span><span class="sxs-lookup"><span data-stu-id="87587-105">Where it applies</span></span>
+<span data-ttu-id="87587-106">Escolher lote mais antigo é configurado em itens de menu de dispositivo móvel e afeta a separação de lote dos itens abaixo.</span><span class="sxs-lookup"><span data-stu-id="87587-106">Pick oldest batch is configured on mobile device menu items and effects the pick for batch below items.</span></span>
 
-## <a name="how-to-set-up-the-configuration-for-pick-oldest-batch"></a><span data-ttu-id="42f69-107">Como definir a configuração para Escolher lote mais antigo</span><span class="sxs-lookup"><span data-stu-id="42f69-107">How to set up the configuration for Pick oldest batch</span></span> 
-<span data-ttu-id="42f69-108">Para itens definidos de modo a usar o trabalho existente, **Escolher lote mais antigo** pode ser definido como **Nenhum**, **Avisar**, ou **Forçar** do menu do dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="42f69-108">For items that are set to use existing work, **Pick oldest batch** can be set to **None**, **Warn**, or **Force** from a mobile device menu.</span></span>
+## <a name="how-to-set-up-the-configuration-for-pick-oldest-batch"></a><span data-ttu-id="87587-107">Como definir a configuração para Escolher lote mais antigo</span><span class="sxs-lookup"><span data-stu-id="87587-107">How to set up the configuration for Pick oldest batch</span></span> 
+<span data-ttu-id="87587-108">Para itens definidos de modo a usar o trabalho existente, **Escolher lote mais antigo** pode ser definido como **Nenhum**, **Avisar**, ou **Forçar** do menu do dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="87587-108">For items that are set to use existing work, **Pick oldest batch** can be set to **None**, **Warn**, or **Force** from a mobile device menu.</span></span>
 
-<span data-ttu-id="42f69-109">**Nenhum**: Os trabalhadores não receberão nenhuma mensagem e poderão escolher qualquer lote no local.</span><span class="sxs-lookup"><span data-stu-id="42f69-109">**None**: Workers will not receive any messages and they will be allowed to pick any batch in their location.</span></span>
+<span data-ttu-id="87587-109">**Nenhum**: Os trabalhadores não receberão nenhuma mensagem e poderão escolher qualquer lote no local.</span><span class="sxs-lookup"><span data-stu-id="87587-109">**None**: Workers will not receive any messages and they will be allowed to pick any batch in their location.</span></span>
 
-<span data-ttu-id="42f69-110">**Avisar** e **Forçar**: Uma lista de lote(s) com a data de vencimento mais antiga será exibida acima do controle de lote quando o trabalhador selecionar um lote.</span><span class="sxs-lookup"><span data-stu-id="42f69-110">**Warn** and **Force**:  A list of the batch(es) with the oldest expiration date will be displayed above the batch control when the worker selects a batch.</span></span> <span data-ttu-id="42f69-111">Se a localização for controlada por placa de licença, uma lista de placas de licença com o lote mais antigo será exibida acima do controle de placa de licença.</span><span class="sxs-lookup"><span data-stu-id="42f69-111">If the location is license plate controlled, a list of license plates that have the oldest batch will be displayed above the license plate control.</span></span> 
--   <span data-ttu-id="42f69-112">**Avisar**: Se um trabalhador escolher uma placa de licença ou um lote que não esteja na lista exibida, o controle será cancelado e um aviso de que há um lote mais antigo a selecionar será exibido.</span><span class="sxs-lookup"><span data-stu-id="42f69-112">**Warn**: If a worker chooses a license plate or batch that is not on the shown list, the control will be blanked and a warning will be shown that there is an older batch to select.</span></span> <span data-ttu-id="42f69-113">Para poder continuar o trabalho, o trabalhador pode selecionar novamente a mesma placa de licença ou lote.</span><span class="sxs-lookup"><span data-stu-id="42f69-113">To be allowed to continue the work, the worker can select the same license plate or batch again.</span></span>  
--   <span data-ttu-id="42f69-114">**Forçar**: os trabalhadores continuarão a receber a mensagem informando que há um lote mais antigo a escolher.</span><span class="sxs-lookup"><span data-stu-id="42f69-114">**Force**: Workers will continue to receive the message that there is an older batch to pick.</span></span>
+<span data-ttu-id="87587-110">**Avisar** e **Forçar**: Uma lista de lote(s) com a data de vencimento mais antiga será exibida acima do controle de lote quando o trabalhador selecionar um lote.</span><span class="sxs-lookup"><span data-stu-id="87587-110">**Warn** and **Force**:  A list of the batch(es) with the oldest expiration date will be displayed above the batch control when the worker selects a batch.</span></span> <span data-ttu-id="87587-111">Se a localização for controlada por placa de licença, uma lista de placas de licença com o lote mais antigo será exibida acima do controle de placa de licença.</span><span class="sxs-lookup"><span data-stu-id="87587-111">If the location is license plate controlled, a list of license plates that have the oldest batch will be displayed above the license plate control.</span></span> 
+-   <span data-ttu-id="87587-112">**Avisar**: Se um trabalhador escolher uma placa de licença ou um lote que não esteja na lista exibida, o controle será cancelado e um aviso de que há um lote mais antigo a selecionar será exibido.</span><span class="sxs-lookup"><span data-stu-id="87587-112">**Warn**: If a worker chooses a license plate or batch that is not on the shown list, the control will be blanked and a warning will be shown that there is an older batch to select.</span></span> <span data-ttu-id="87587-113">Para poder continuar o trabalho, o trabalhador pode selecionar novamente a mesma placa de licença ou lote.</span><span class="sxs-lookup"><span data-stu-id="87587-113">To be allowed to continue the work, the worker can select the same license plate or batch again.</span></span>  
+-   <span data-ttu-id="87587-114">**Forçar**: os trabalhadores continuarão a receber a mensagem informando que há um lote mais antigo a escolher.</span><span class="sxs-lookup"><span data-stu-id="87587-114">**Force**: Workers will continue to receive the message that there is an older batch to pick.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
