@@ -2,7 +2,6 @@
 title: Adicionar um código QR ou código de barras a emails transacionais e de recebimento
 description: Este tópico explica como inserir códigos QR e códigos de barras que representam IDs de ordens em emails transacionais e de recebimento no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: annbe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2021-02-16
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 3cc4fcb1237f8409a89b3d4818c132c60c57b5a0
-ms.sourcegitcommit: 88babb2fffe97e93bbde543633fc492120f2a4fc
+ms.openlocfilehash: f8d9408090846799c1bb421c4b6e5e248d37fa07
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "5555413"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797494"
 ---
 # <a name="add-a-qr-code-or-bar-code-to-transactional-and-receipt-emails"></a>Adicionar um código QR ou código de barras a emails transacionais e de recebimento
 

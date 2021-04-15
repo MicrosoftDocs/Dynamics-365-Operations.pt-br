@@ -2,11 +2,9 @@
 title: Páginas e módulos de gerenciamento de contas
 description: Este tópico aborda páginas e módulos de gerenciamento de contas no Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
-ms.date: 09/15/2020
+ms.date: 03/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 29523d03fb687684dae7d0ce08208905cce702df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: df4959a61f1b2948c62a558523a848ff8b2fe0a8
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5206622"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5796285"
 ---
 # <a name="account-management-pages-and-modules"></a>Páginas e módulos de gerenciamento de contas
 
@@ -41,7 +39,7 @@ A página de aterrissagem do gerenciamento de contas usa os seguintes módulos:
 - **Bloco genérico de conta** - Este módulo pode ser usado para fornecer títulos e links às páginas de gerenciamento de contas, como as páginas "Histórico de pedidos" ou "Meu perfil". O módulo de bloco genérico pode ser usado para configurar um bloco para qualquer página. Na Fabrikam, esse módulo é usado para links a página Histórico de pedidos" e "Meu perfil" na página de aterrissagem do gerenciamento de conta.
 - **Bloco da lista de desejos da conta** – Este módulo é usado para fornecer um resumo dos itens na lista de desejos do cliente. Por exemplo, pode indicar: "Você tem 10 itens na sua lista de desejos". Inclui propriedades para o título e o link "Exibir detalhes". O link "Exibir detalhes" deve ser configurado para redirecionamento à página da lista de desejos. 
 - **Bloco de endereços da conta** – Este módulo é usado para fornecer um resumo dos endereços do usuário. Por exemplo, pode indicar: "Você tem 2 endereços adicionados à sua conta". Inclui propriedades para o título e o link "Exibir detalhes". O link "Exibir detalhes" deve ser configurado para redirecionamento à página de endereços do usuário.
-- **Bloco de fidelidade da conta** – Este módulo é usado para exibir e vincular às informações do programa de fidelidade. Este bloco tem dois estados: um estado mostra links para ingressar em um programa de fidelidade se o usuário ainda não for um membro. O outro estado mostra links para exibir a página de detalhes do programa de fidelidade quando o usuário já for membro. As propriedades incluem o título, o link "Inscrição" e o link "Exibir fidelidade". O link "Exibir fidelidade" deve ser configurado para redirecionamento à página do programa de fidelidade. O link "Inscrição" deve ser configurado para redirecionamento a uma página onde os usuários podem ingressar no programa de fidelidade. 
+- **Bloco de fidelidade da conta** – Este módulo é usado para exibir e vincular às informações do programa de fidelidade. Este bloco tem dois estados: um estado mostra links para ingressar em um programa de fidelidade, se o usuário ainda não for um membro. O outro estado mostra links para exibir a página de detalhes do programa de fidelidade quando o usuário já for membro. As propriedades incluem o título, o link "Inscrição" e o link "Exibir fidelidade". O link "Exibir fidelidade" deve ser configurado para redirecionamento à página do programa de fidelidade. O link "Inscrição" deve ser configurado para redirecionamento a uma página onde os usuários podem ingressar no programa de fidelidade. 
 
 ### <a name="order-history-page"></a>Página de histórico de ordens
 
@@ -51,9 +49,9 @@ A página de histórico de ordens usa o módulo de histórico de ordens para mos
 
 A página de detalhes da ordem fornece informações detalhadas para cada ordem e é acessada na página de histórico de ordens. Ela usa o módulo de detalhes da ordem, que requer a ID da venda ou da transação para recuperar os detalhes da ordem.
 
-### <a name="user-profile-page"></a>Página de perfil do usuário
+### <a name="my-profile-page"></a>Minha Página de Perfil
 
-A página de perfil do usuário mostra detalhes da conta do usuário, como um nome e endereço de email do usuário. Ela usa os detalhes do perfil de usuário e os módulos de edição do perfil de usuário. Embora o endereço de email não possa ser removido, ele pode ser editado. A página de perfil do usuário também mostra as preferências do usuário que permitem a um usuário aceitar ou recusar o uso de alguns recursos, como personalização de listas de recomendação. 
+A página Meu perfil mostra os detalhes do perfil de conta do usuário usando o módulo perfil de conta. A página mostra o endereço de email associado à conta do usuário, bem como as preferências configuradas para a conta. Se você estiver configurando atributos personalizados do cliente, uma seção "Informações Adicionais" também exibirá esses atributos. Os usuários podem editar seu nome, suas preferências ou informações adicionais (se disponíveis).
 
 ### <a name="user-address-page"></a>Página de endereço do usuário
 

@@ -2,11 +2,9 @@
 title: Visão geral da página Criação
 description: Este tópico fornece uma visão geral da criação de páginas no Microsoft Dynamics 365 Commerce.
 author: brendans
-manager: annbe
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application USer
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: brendans
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 030fa93e938df0ab22dd3e85c2d48d149ac239df
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b5e1e7dd669a9608d385086cf24d388b065c9ca6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211288"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799868"
 ---
 # <a name="authoring-page-overview"></a>Visão geral da página Criação
 
@@ -29,8 +27,6 @@ ms.locfileid: "5211288"
  [!include [banner](includes/banner.md)]
 
 Este tópico fornece uma visão geral da criação de páginas no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Sites podem ser criados para oferecer suporte a várias necessidades empresariais. Eles podem representar uma empresa por completo, oferecer um único canal de negócios ou ter como alvo um público ou segmento específico de audiência. Por exemplo, um fabricante de vestuário pode ter um site que apresente todos os tipos de marca que ele possui. O mesmo de fabricante vestuário pode ter um site em separado para cada uma dessas marcas, e também um conjunto de sites que tenha roupas de luxo, roupa casual e roupas de criança.
 
