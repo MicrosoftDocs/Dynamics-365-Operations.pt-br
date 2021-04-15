@@ -2,11 +2,9 @@
 title: Visão geral do gerenciamento de ativos digitais
 description: Este tópico fornece uma visão geral do gerenciamento de ativos digitais no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 03/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,48 +15,46 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0b5e134c70ad81876beacd38eb58442d3784d57d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 46a61db1add12bb90f3915cf0390dc78c8dce033
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222489"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799268"
 ---
-# <a name="digital-asset-management-overview"></a><span data-ttu-id="a0d49-103">Visão geral do gerenciamento de ativos digitais</span><span class="sxs-lookup"><span data-stu-id="a0d49-103">Digital asset management overview</span></span>
+# <a name="digital-asset-management-overview"></a><span data-ttu-id="b5421-103">Visão geral do gerenciamento de ativos digitais</span><span class="sxs-lookup"><span data-stu-id="b5421-103">Digital asset management overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="a0d49-104">Este tópico fornece uma visão geral do gerenciamento de ativos digitais no construtor de sites do Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="a0d49-104">This topic provides an overview of digital asset management in Microsoft Dynamics 365 Commerce site builder.</span></span>
+<span data-ttu-id="b5421-104">Este tópico fornece uma visão geral do gerenciamento de ativos digitais no construtor de sites do Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="b5421-104">This topic provides an overview of digital asset management in Microsoft Dynamics 365 Commerce site builder.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="a0d49-105">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="a0d49-105">Overview</span></span>
+<span data-ttu-id="b5421-105">A Biblioteca de Mídia do assistente para criação de sites do Dynamics 365 Commerce apresenta uma sofisticada funcionalidade de gerenciamento de ativos digitais, incluindo suporte para o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b5421-105">Dynamics 365 Commerce site builder's Media Library features rich digital asset management functionality, including support for the following:</span></span>
+- <span data-ttu-id="b5421-106">Ativos de imagem</span><span class="sxs-lookup"><span data-stu-id="b5421-106">Image assets</span></span>
+- <span data-ttu-id="b5421-107">Ativos de vídeo</span><span class="sxs-lookup"><span data-stu-id="b5421-107">Video assets</span></span>
+- <span data-ttu-id="b5421-108">Outros tipos de ativos binários, como documentos do Office e arquivos PDF</span><span class="sxs-lookup"><span data-stu-id="b5421-108">Other types of binary assets, such as Office documents and PDF files</span></span>
+- <span data-ttu-id="b5421-109">Imagens localizadas</span><span class="sxs-lookup"><span data-stu-id="b5421-109">Localized images</span></span>
+- <span data-ttu-id="b5421-110">Uploads de pastas</span><span class="sxs-lookup"><span data-stu-id="b5421-110">Folder uploads</span></span>
+- <span data-ttu-id="b5421-111">Recorte de imagens</span><span class="sxs-lookup"><span data-stu-id="b5421-111">Cropping of images</span></span>
+- <span data-ttu-id="b5421-112">Personalização de pontos focais de imagem</span><span class="sxs-lookup"><span data-stu-id="b5421-112">Customizing of image focal points</span></span>
+- <span data-ttu-id="b5421-113">Recursos de imagem de omnicanal (produto, variantes de produtos, catálogo, categoria, trabalhador e imagens de clientes)</span><span class="sxs-lookup"><span data-stu-id="b5421-113">Omni-channel image assets (product, product variants, catalog, category, worker, and customer images)</span></span>
 
-<span data-ttu-id="a0d49-106">A Biblioteca de Mídia do assistente para criação de sites do Dynamics 365 Commerce apresenta uma sofisticada funcionalidade de gerenciamento de ativos digitais, incluindo suporte para o seguinte:</span><span class="sxs-lookup"><span data-stu-id="a0d49-106">Dynamics 365 Commerce site builder's Media Library features rich digital asset management functionality, including support for the following:</span></span>
-- <span data-ttu-id="a0d49-107">Ativos de imagem</span><span class="sxs-lookup"><span data-stu-id="a0d49-107">Image assets</span></span>
-- <span data-ttu-id="a0d49-108">Ativos de vídeo</span><span class="sxs-lookup"><span data-stu-id="a0d49-108">Video assets</span></span>
-- <span data-ttu-id="a0d49-109">Outros tipos de ativos binários, como documentos do Office e arquivos PDF</span><span class="sxs-lookup"><span data-stu-id="a0d49-109">Other types of binary assets, such as Office documents and PDF files</span></span>
-- <span data-ttu-id="a0d49-110">Imagens localizadas</span><span class="sxs-lookup"><span data-stu-id="a0d49-110">Localized images</span></span>
-- <span data-ttu-id="a0d49-111">Uploads de pastas</span><span class="sxs-lookup"><span data-stu-id="a0d49-111">Folder uploads</span></span>
-- <span data-ttu-id="a0d49-112">Recorte de imagens</span><span class="sxs-lookup"><span data-stu-id="a0d49-112">Cropping of images</span></span>
-- <span data-ttu-id="a0d49-113">Personalização de pontos focais de imagem</span><span class="sxs-lookup"><span data-stu-id="a0d49-113">Customizing of image focal points</span></span>
-- <span data-ttu-id="a0d49-114">Recursos de imagem de omnicanal (produto, variantes de produtos, catálogo, categoria, trabalhador e imagens de clientes)</span><span class="sxs-lookup"><span data-stu-id="a0d49-114">Omni-channel image assets (product, product variants, catalog, category, worker, and customer images)</span></span>
+<span data-ttu-id="b5421-114">Os ativos digitais são específicos de canal, com exceção dos ativos de omnicanal, que são padrão para todo o ambiente.</span><span class="sxs-lookup"><span data-stu-id="b5421-114">Digital assets are channel-specific, with the exception of omni-channel assets, which are environment-wide by default.</span></span> 
 
-<span data-ttu-id="a0d49-115">Os ativos digitais são específicos de canal, com exceção dos ativos de omnicanal, que são padrão para todo o ambiente.</span><span class="sxs-lookup"><span data-stu-id="a0d49-115">Digital assets are channel-specific, with the exception of omni-channel assets, which are environment-wide by default.</span></span> 
+<span data-ttu-id="b5421-115">Recursos digitais e recursos de gerenciamento estão localizados no assistente para criação de sites em **Biblioteca de Mídia** no painel de navegação esquerdo de um site.</span><span class="sxs-lookup"><span data-stu-id="b5421-115">Digital assets and management features are located within site builder under **Media Library** on the left navigation pane within a site.</span></span>
 
-<span data-ttu-id="a0d49-116">Recursos digitais e recursos de gerenciamento estão localizados no assistente para criação de sites em **Biblioteca de Mídia** no painel de navegação esquerdo de um site.</span><span class="sxs-lookup"><span data-stu-id="a0d49-116">Digital assets and management features are located within site builder under **Media Library** on the left navigation pane within a site.</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="b5421-116">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="b5421-116">Additional resources</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="a0d49-117">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="a0d49-117">Additional resources</span></span>
+[<span data-ttu-id="b5421-117">Carregar imagens</span><span class="sxs-lookup"><span data-stu-id="b5421-117">Upload images</span></span>](dam-upload-images.md)
 
-[<span data-ttu-id="a0d49-118">Carregar imagens</span><span class="sxs-lookup"><span data-stu-id="a0d49-118">Upload images</span></span>](dam-upload-images.md)
+[<span data-ttu-id="b5421-118">Carregar vídeos</span><span class="sxs-lookup"><span data-stu-id="b5421-118">Upload video</span></span>](dam-upload-video.md)
 
-[<span data-ttu-id="a0d49-119">Carregar vídeos</span><span class="sxs-lookup"><span data-stu-id="a0d49-119">Upload video</span></span>](dam-upload-video.md)
+[<span data-ttu-id="b5421-119">Carregar arquivos</span><span class="sxs-lookup"><span data-stu-id="b5421-119">Upload files</span></span>](dam-upload-files.md)
 
-[<span data-ttu-id="a0d49-120">Carregar arquivos</span><span class="sxs-lookup"><span data-stu-id="a0d49-120">Upload files</span></span>](dam-upload-files.md)
+[<span data-ttu-id="b5421-120">Cortar imagens</span><span class="sxs-lookup"><span data-stu-id="b5421-120">Crop images</span></span>](dam-crop-images.md)
 
-[<span data-ttu-id="a0d49-121">Cortar imagens</span><span class="sxs-lookup"><span data-stu-id="a0d49-121">Crop images</span></span>](dam-crop-images.md)
+[<span data-ttu-id="b5421-121">Personalizar pontos focais da imagem</span><span class="sxs-lookup"><span data-stu-id="b5421-121">Customize image focal points</span></span>](dam-custom-focal-point.md)
 
-[<span data-ttu-id="a0d49-122">Personalizar pontos focais da imagem</span><span class="sxs-lookup"><span data-stu-id="a0d49-122">Customize image focal points</span></span>](dam-custom-focal-point.md)
-
-[<span data-ttu-id="a0d49-123">Carregar e atender arquivos estáticos</span><span class="sxs-lookup"><span data-stu-id="a0d49-123">Upload and serve static files</span></span>](upload-serve-static-files.md)
+[<span data-ttu-id="b5421-122">Carregar e atender arquivos estáticos</span><span class="sxs-lookup"><span data-stu-id="b5421-122">Upload and serve static files</span></span>](upload-serve-static-files.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
