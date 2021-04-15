@@ -2,11 +2,9 @@
 title: Periféricos
 description: Este tópico explica os conceitos relacionados aos periféricos do Commerce.
 author: rubencdelgado
-manager: AnnBe
 ms.date: 02/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
@@ -17,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 64033f0e1568ae88aef6617592243ac7d0b21ab7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254930"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791938"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -126,12 +124,12 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 > [!NOTE]
 > O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. O Commerce deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
 
-### <a name="windows"></a>Windows
+### <a name="windows&quot;></a>Windows
 
 A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito mais rápido que a impressão com Windows. Portanto, é recomendável usar o OPOS, especialmente em ambientes onde recibos de 40 colunas são impressos e os tempos de transação devem ser curtos. Para a maioria de dispositivos, você usará controles OPOS. Entretanto, algumas impressoras de recibo OPOS também oferece suporte a drivers do Windows. Usando um driver do Windows, você pode acessar as fontes mais recentes e vincular uma impressora para várias registradoras. Contudo, há inconvenientes em usar os drivers do Windows. Veja aqui alguns exemplos desses inconvenientes:
 
 -   Quando os drivers do Windows são usados, imagens são renderizadas antes que a impressão ocorra. Portanto, a impressão tende a ser mais lenta do que em impressoras que utilizam controles OPOS.
--   Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
+-   Os dispositivos conectados através da impressora (&quot;encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
 -   O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo, como corte de papéis ou impressão de guias.
 -   As impressoras do Windows não oferecem suporte por meio da estação de hardware IIS. 
 

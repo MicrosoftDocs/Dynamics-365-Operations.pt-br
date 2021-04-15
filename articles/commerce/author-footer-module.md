@@ -2,11 +2,9 @@
 title: Módulo de rodapé
 description: Este tópico abrange os módulos de rodapés e como criá-los no Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 16c9ca145aff97f0af242da4cf662367f1f4ca3d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d6e7b0ad4fe0723575a0ec55a9b02d110568db58
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211439"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797224"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
 
@@ -35,13 +33,13 @@ A imagem a seguir mostra um exemplo de um módulo de rodapé em uma página de s
 
 ![Exemplo de um módulo de rodapé](./media/ecommerce-footer.PNG)
 
-## <a name="footer-module-properties"></a>Propriedades de módulo de rodapé 
+## <a name="footer-module-properties&quot;></a>Propriedades de módulo de rodapé 
 
 Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propriedades para o título e a largura. Também oferece suporte a adição de diversos módulos de categoria de rodapé. Cada módulo de categoria de rodapé que é adicionado é renderizado como uma coluna no módulo de rodapé.
 
-## <a name="modules-available-in-a-footer-module"></a>Módulos disponíveis em um módulo de rodapé
+## <a name=&quot;modules-available-in-a-footer-module&quot;></a>Módulos disponíveis em um módulo de rodapé
 
-**Itens do rodapé** – Um módulo de itens do rodapé pode conter um título, uma figura e um link. O cabeçalho pode ser usados independentemente ou em combinação com uma imagem e um link. Cada link no rodapé pode ser configurado de forma que tenha apenas texto (por exemplo, links de "Fale conosco" e "Privacidade"), de forma que possua um texto e uma imagem (por exemplo, links de mídias sociais.)
+**Itens do rodapé** – Um módulo de itens do rodapé pode conter um título, uma figura e um link. O cabeçalho pode ser usados independentemente ou em combinação com uma imagem e um link. Cada link no rodapé pode ser configurado de forma que tenha apenas texto (por exemplo, links de &quot;Fale conosco&quot; e &quot;Privacidade"), de forma que possua um texto e uma imagem (por exemplo, links de mídias sociais.)
 
 **Voltar para a parte superior** – Um módulo para voltar ao módulo superior fornece um link para navegação rápida ao topo da página. Um destino é necessário. O valor de destino padrão é \#, que leva o usuário ao topo da página.
 

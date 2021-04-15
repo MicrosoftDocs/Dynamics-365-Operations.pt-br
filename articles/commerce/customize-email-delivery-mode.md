@@ -2,11 +2,9 @@
 title: Personalizar emails transacionais por modo de entrega
 description: Este tópico descreve como configurar modelos de email personalizados para tipos específicos de notificação e modos de entrega no Microsoft Dynamics 365 Commerce.
 author: stuharg
-manager: annbe
 ms.date: 11/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d0d96ddb20b2b09751d8c0c0bf8af713de35279a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 411e694b33e0443a336f6a8cdad78714630e4bf3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222624"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799364"
 ---
 # <a name="customize-transactional-emails-by-mode-of-delivery"></a>Personalizar emails transacionais por modo de entrega
 

@@ -2,11 +2,9 @@
 title: Criar um cliente padrão
 description: Este tópico descreve como criar um cliente padrão para usar na criação de um canal no Microsoft Dynamics 365 Commerce.
 author: samjarawan
-manager: annbe
 ms.date: 01/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f988732549ce82919f02c87b320623d8d4218735
-ms.sourcegitcommit: c88b54ba13a4dfe39b844ffaced4dc435560c47d
+ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/19/2021
-ms.locfileid: "5477891"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799170"
 ---
 # <a name="create-a-default-customer"></a>Criar um cliente padrão
 
@@ -67,14 +65,14 @@ A imagem a seguir mostra um exemplo de catálogo de endereços.
 
 ![Catálogo de endereços](media/address-book.png)
 
-## <a name="create-a-default-customer"></a>Criar um cliente padrão
+## <a name="create-a-default-customer&quot;></a>Criar um cliente padrão
 
 Para criar um cliente padrão, siga estas etapas.
 
 1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Clientes \> Todos os clientes**.
 1. No painel de ação, selecione **Novo**.
-1. Na lista suspensa **Tipo**, selecione "Pessoa".
-1. Na lista suspensa **Conta de cliente**, selecione ou insira um número de conta (por exemplo, "100001").
+1. Na lista suspensa **Tipo**, selecione &quot;Pessoa&quot;.
+1. Na lista suspensa **Conta de cliente**, selecione ou insira um número de conta (por exemplo, &quot;100001").
 1. Na lista suspensa **Nome**, selecione ou insira um nome (por exemplo, "Padrão").
 1. Na lista suspensa **Nome do meio**, selecione ou insira um nome (por exemplo, "Varejo").
 1. Na lista suspensa **Sobrenome**, selecione ou insira um nome (por exemplo, "Cliente").
