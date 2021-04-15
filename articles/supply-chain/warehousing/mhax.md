@@ -2,7 +2,6 @@
 title: Interface de equipamento de manuseio de materiais (MHAX)
 description: Este tópico descreve como configurar a interface de equipamento de manuseio de materiais (MHAX) para que você possa se conectar a sistemas de manuseio de materiais (MH) físicos externos.
 author: Mirzaab
-manager: tfehr
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ea021529d7417fb3170c859c7fffcb2cfd23a43f
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: 9273e4a1f6b3f57086c921c4beb0530a67ccd976
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571833"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810501"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface de equipamento de manuseio de materiais (MHAX)
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Você pode usar a *interface de equipamento de manuseio de materiais* (MHAX) para conectar sistemas de manuseio de materiais (MH) físicos externos para um depósito gerenciado por um gerenciamento de depósito avançado (WMS) no Microsoft Dynamics 365 Supply Chain Management. A interface entre o WMS e os sistemas de MH consiste em duas filas: uma para eventos de saída (WMS para MH) e outra para eventos de entrada (MH para WMS). O sistema do WMS gera eventos de saída com base em linhas de trabalho criadas durante vários processos de criação e execução de trabalho. O sistema de MH regularmente verifica o sistema do WMS em busca de novos eventos e processa as respostas. Depois que o sistema de MH termina de tratar os eventos de acordo com as instruções do trabalho, ele envia eventos de entrada, como conclusão da linha de trabalho e separação insuficiente.
 

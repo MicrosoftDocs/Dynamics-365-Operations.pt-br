@@ -2,11 +2,9 @@
 title: Criar a interface de execução de piso de produção
 description: Este tópico descreve como criar o conteúdo da interface do usuário para cada configuração.
 author: johanhoffmann
-manager: tfehr
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecutionConfiguration, JmgProductionFloorExecutionConfigurationTab
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 282785799b6d61a00a356fcc2ae86ff0e3b7b39f
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501021"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814671"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Criar a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Você pode criar o conteúdo da interface do usuário para cada configuração usada pela interface de execução de piso de produção. Por exemplo, os trabalhadores em uma célula de trabalho podem precisar abrir instruções de trabalho no piso de produção, enquanto que, em outra célula de trabalho, instruções não são necessárias. Nesse caso, duas configurações devem ser criadas, uma com um botão para abrir anexos de documentos e uma sem esse botão.
 

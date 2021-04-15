@@ -2,11 +2,9 @@
 title: Reabastecimento de limite de zona
 description: O reabastecimento baseado em zona usa uma estratégia de reabastecimento mínimo/máximo (mín./máx.), mas ele avalia zonas de depósito inteiras e não apenas locais individuais. Portanto, os gerentes de depósito podem aprender mais rápido quando é necessário um estoque adicional em uma zona de separação.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocDirHint, WHSLocDirTable, WHSRequestType
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6aaa139fb206c035b25b7056e681d086fde6447f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0a97ed7b01a32e9276433713448a672f83f7d02
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245049"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814359"
 ---
 # <a name="zone-threshold-replenishment"></a>Reabastecimento de limite de zona
 

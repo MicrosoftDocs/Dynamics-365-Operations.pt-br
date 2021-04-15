@@ -2,11 +2,9 @@
 title: Lançar diário de entrada para produtos devolvidos
 description: Lançar diário de entrada para produtos devolvidos.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WMSArrivalOverview
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14619069c0e984060f67fc4536b311c6802bfec7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9dbd19b7dab95f5cf746fe6c7e3a9387acbda3ec
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214289"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810621"
 ---
 # <a name="post-arrival-journal-for-returned-products"></a>Lançar diário de entrada para produtos devolvidos 
 

@@ -1,12 +1,10 @@
 ---
-title: Configurar nomes de campo de aplicativo no aplicativo de depósito
-description: Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management.
+title: Configurar campos para o aplicativo móvel do Gerenciamento de Depósito
+description: Este tópico descreve como definir e configurar os nomes e prioridades de campos mostrados no aplicativo móvel do Gerenciamento de Depósito.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField, WHSMobileAppFieldPriority
 audience: Application User
@@ -18,21 +16,21 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c22a4314c36ba7112456ef264df500af98996f3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232950"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808813"
 ---
-# <a name="configure-app-field-names-in-the-warehouse-app"></a>Configurar nomes de campo de aplicativo no aplicativo de depósito
+# <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurar campos para o aplicativo móvel do Gerenciamento de Depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como definir e configurar os nomes e prioridades de campos do aplicativo de depósito no Dynamics 365 Supply Chain Management. 
+Este tópico descreve como definir e configurar os nomes e prioridades de campos mostrados no aplicativo móvel do Gerenciamento de Depósito.
 
 > [!NOTE]
-> Este tópico se aplica a recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo de depósito e como eles são usados no Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o FWarehousing, consulte o tutorial [Visão geral de instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md).
+> Este tópico se aplica a recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. O aplicativo móvel do Gerenciamento de Depósito é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campos do aplicativo móvel do Gerenciamento de Depósito e como eles são usados.
 
 ## <a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
 
@@ -142,7 +140,7 @@ Os metadados restantes, como Local, não serão exibidos na página de tarefas, 
 <a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Visão geral da instalação e configuração do aplicativo de depósito](install-configure-warehousing-app.md)
+[Instalar e conectar o aplicativo móvel do Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
