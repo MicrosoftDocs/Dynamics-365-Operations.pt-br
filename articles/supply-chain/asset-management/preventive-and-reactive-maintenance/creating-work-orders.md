@@ -2,11 +2,9 @@
 title: Criação de ordens de serviço
 description: Este tópico explica como criar ordens de serviço no Gerenciamento de Ativos.
 author: johanhoffmann
-manager: tfehr
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectCalendarListPage, EntAssetObjectCalendarListPagePoolsOpen
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 76306fb31e7e5297e6a5d64b97b5bd09b64349ee
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3982232e5008d6f8c283d6cecfaf2fa6e66150a1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500565"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836725"
 ---
 # <a name="creating-work-orders"></a>Criação de ordens de serviço
 
@@ -62,8 +60,6 @@ Para criar ordens de trabalho baseadas na sua agenda de manutenção, siga estas
 
 ## <a name="group-work-order-lines-that-are-automatically-created-while-a-maintenance-plan-runs"></a>Agrupar linhas de ordem de serviço que são criadas automaticamente enquanto um agendamento de manutenção é executado
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 Esse recurso permite definir regras para agrupar linhas de ordem de serviço em uma única ordem de serviço quando o sistema é configurado para gerar ordens de serviço automaticamente, com base em um agendamento de manutenção. Antes, as ordens de serviço geradas automaticamente podiam conter apenas uma linha. No entanto, agora você pode agrupar ordens de serviço com base, por exemplo, no ativo, tipo de ativo ou local funcional. (As ordens de serviço criadas manualmente já podem ser agrupadas dessa forma, conforme descrito na seção anterior deste tópico.)
 
 ### <a name="enable-grouping-for-automatically-generated-work-orders"></a>Habilitar agrupamento para ordens de serviço geradas automaticamente
@@ -71,7 +67,7 @@ Esse recurso permite definir regras para agrupar linhas de ordem de serviço em 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *gerenciamento de ativos*
-- **Nome do recurso:** *(Versão preliminar) Aplicar regras para agrupar ordens de serviço ao executar um agendamento de manutenção*
+- **Nome do recurso:** *Aplicar regras para agrupar ordens de serviço ao executar um plano de manutenção*
 
 ### <a name="set-up-grouping-for-automatically-generated-work-orders"></a>Configurar agrupamento para ordens de serviço geradas automaticamente
 

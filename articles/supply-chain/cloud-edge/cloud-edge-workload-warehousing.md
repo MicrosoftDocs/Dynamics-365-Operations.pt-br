@@ -2,11 +2,9 @@
 title: Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda
 description: Este tópico fornece informações sobre o recurso que permite que as unidades de escala executem processos selecionados da carga de trabalho de gerenciamento de depósito.
 author: perlynne
-manager: tfeyr
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchTable, SysSecRolesEditUsers
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9b5d8c9e77fb98dfb7031a3868303970fe3bf865
-ms.sourcegitcommit: 4835acc3edacf8277937723d3f85a7875bd8de83
+ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5580956"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832385"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -70,7 +68,7 @@ O hub tem os seguintes dados:
 - Alocação de ordens e processamento de carga de saída
 - Os processos de liberação para depósito, criação de remessa, criação de ciclo e finalização de ciclo
 
-As unidades de escala têm o processamento de ciclos real (como alocação de trabalho, trabalho de reabastecimento e criação de trabalho por demanda) após a liberação do ciclo. Portanto, os trabalhadores de depósito podem processar o trabalho de saída usando um aplicativo de depósito conectado à unidade de escala.
+As unidades de escala têm o processamento de ciclos real (como alocação de trabalho, trabalho de reabastecimento e criação de trabalho por demanda) após a liberação do ciclo. Portanto, os trabalhadores de depósito podem processar o trabalho de saída usando um aplicativo móvel do Gerenciamento de Depósito conectado à unidade de escala.
 
 ![Fluxo de processamento de ciclos](./media/wes-wave-processing-ga.png "Fluxo de processamento de ciclos")
 
@@ -94,7 +92,7 @@ Você deve entrar no hub para usar o processo *Liberar para o depósito*. Acesse
 
 Ao usar a opção **Liberação automática de ordens de compra**, você pode selecionar linhas específicas da ordem de compra com base em uma consulta. Um cenário típico seria configurar um trabalho em lotes recorrente que libera todas as linhas da ordem de compra confirmadas que devem chegar no dia seguinte.
 
-O trabalhador pode executar o processo de recebimento usando um aplicativo de depósito conectado à unidade de escala. Os dados são gravados pela unidade de escala e relatados na ordem de depósito de entrada. A criação e o processamento do armazenamento subsequente também serão tratados pela unidade de escala.
+O trabalhador pode executar o processo de recebimento usando um aplicativo móvel do Gerenciamento de Depósito conectado à unidade de escala. Os dados são gravados pela unidade de escala e relatados na ordem de depósito de entrada. A criação e o processamento do armazenamento subsequente também serão tratados pela unidade de escala.
 
 Se você não estiver usando o processo *liberar para depósito* e, portanto, não estiver usando *ordens de depósito*, o hub poderá processar o recebimento do depósito e o processamento do trabalho, independentemente das unidades de escala.
 
@@ -117,10 +115,10 @@ Os usuários que atuam como gerentes de depósito no hub e em unidades de escala
 Os seguintes processos de execução de depósito podem ser habilitados para uma carga de trabalho de WES em uma unidade de escala:
 
 - Métodos de ciclo selecionados para ordens de venda e de transferência (alocação, reabastecimento de demanda, conteinerização, criação de trabalho e impressão de etiquetas de ciclo)
-- Processar trabalho de depósito de ordens de venda e de transferência usando o aplicativo de depósito (incluindo trabalho de reabastecimento)
-- Consultar o estoque disponível usando o aplicativo de depósito
-- Criar e executar movimentações de estoque usando o aplicativo de depósito
-- Registrar ordens de compra e realizar trabalho de armazenamento usando o aplicativo de depósito
+- Processar trabalho de depósito de ordens de venda e de transferência usando o aplicativo móvel do Gerenciamento de Depósito (incluindo trabalho de reabastecimento)
+- Consultar o estoque disponível usando o aplicativo móvel do Gerenciamento de Depósito
+- Criando e executando movimentações de estoque usando o aplicativo móvel do Gerenciamento de Depósito
+- Registrando ordens de compra e realizar trabalho de armazenamento usando o aplicativo móvel do Gerenciamento de Depósito
 
 Os seguintes tipos de ordem de serviço têm suporte no momento para cargas de trabalho WES em implantações de unidades de escala:
 
@@ -133,7 +131,7 @@ Os seguintes tipos de ordem de serviço têm suporte no momento para cargas de t
 No momento, não há suporte para outros tipos de trabalho de depósito e processamento de documento de origem em unidades de escala. Por exemplo, para uma carga de trabalho de WES em uma unidade de escala, você não pode executar um processo de recebimento de ordem de transferência (recebimento de transferência) ou processar o trabalho de contagem de ciclo.
 
 > [!NOTE]
-> Os botões e itens de menu de dispositivo móvel para funcionalidades sem suporte não são mostrados no _aplicativo de depósito_ quando ele está conectado a uma implantação de unidade de escala.
+> Os botões e itens de menu de dispositivo móvel para funcionalidades sem suporte não são mostrados no _Aplicativo móvel do Gerenciamento de Depósito_ quando ele está conectado a uma implantação de unidade de escala.
 
 > [!WARNING]
 > Quando você executa uma carga de trabalho em uma unidade de escala, não pode executar processos sem suporte para o depósito específico no hub. As tabelas fornecidas posteriormente neste tópico documentam os recursos com suporte.
@@ -164,7 +162,7 @@ Atualmente, não há suporte para a seguinte funcionalidade de gerenciamento de 
 - Processar trabalho de depósito com notas de remessa
 - Processar trabalho de depósito com acionamento de limite de contagem cíclica
 - Processar trabalho de depósito com manuseio de material/warehouse automation
-- Uso de imagem de dados de produto mestre (por exemplo, no aplicativo de depósito)
+- Uso de imagem de dados de produto mestre (por exemplo, no aplicativo móvel do Gerenciamento de Depósito)
 
 > [!WARNING]
 > Algumas funcionalidades de depósito não estarão disponíveis para depósitos que executam as cargas de trabalho de gerenciamento de depósito em uma unidade de escala e também não terão suporte no hub ou na carga de trabalho da unidade de escala.
@@ -253,7 +251,7 @@ A tabela a seguir mostra quais recursos de operações de depósito e tratamento
 | Movimentação                                           | Sim | Sim                          |
 | Movimento por modelo.                               | Sim | Sim                          |
 | Transferência de depósito                                 | Sim | Não                           |
-| Criar ordem de transferência do aplicativo de depósito           | Sim | Não                           |
+| Criar ordens de transferência do aplicativo móvel do Gerenciamento de Depósito           | Sim | Não                           |
 | Ajuste (entrada/saída)                                | Sim | Não                           |
 | Alteração de Status do Estoque                            | Sim | Não                           |
 | Processamento de contagem cíclica e discrepância de contagem | Sim | Não                           |

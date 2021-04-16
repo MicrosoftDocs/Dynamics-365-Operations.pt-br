@@ -2,11 +2,9 @@
 title: Instalar e conectar o aplicativo móvel Gerenciamento de depósito
 description: Este tópico explica como instalar o aplicativo móvel Gerenciamento de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,20 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e1e8c8b1464a38a0145cbdcdcb4882db00d3c4c1
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5487016"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835597"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar e conectar o aplicativo móvel Gerenciamento de depósito
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 > [!NOTE]
-> Este tópico descreve como configurar o novo aplicativo móvel Warehouse Mobile. Se você estiver procurando informações sobre como configurar o aplicativo de depósito antigo, consulte [Instalar e conectar o aplicativo de depósito](../../supply-chain/warehousing/install-configure-warehousing-app.md).
+> Este tópico descreve como configurar o novo aplicativo móvel Warehouse Mobile. Se você estiver procurando informações sobre como configurar o aplicativo de depósito antigo, (atualmente obsoleto), consulte [Instalar e conectar o aplicativo de depósito](../../supply-chain/warehousing/install-configure-warehousing-app.md).
 
 Este tópico explica como baixar e instalar o aplicativo móvel Warehouse Management em cada um dos dispositivos móveis e como configurar o aplicativo para se conectar ao ambiente do Supply Chain Management. Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
 

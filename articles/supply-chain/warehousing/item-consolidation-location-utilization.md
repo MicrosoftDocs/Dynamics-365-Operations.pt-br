@@ -2,11 +2,9 @@
 title: Consolidação de itens - utilização do local
 description: Este tópico fornece informações sobre a funcionalidade que facilita para os gerentes de depósito exibir e filtrar a utilização volumétrica de locais no depósito. Os gerentes podem selecionar locais e criar um trabalho de movimentação de estoque diretamente na página Consolidação de Itens para consolidar itens e, assim, fazer melhor uso do espaço do depósito.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSPhysDimUOM, WHSMovementType, WHSItemConsolidationForm, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 3b20b41d27e5faeac7ea88940c086ae33390dc29
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216996"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835552"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidação de itens - utilização do local
 
@@ -149,7 +147,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
-O cenário a seguir usa o aplicativo de depósito em um dispositivo móvel para fazer um *ajuste em* estoque em dois locais no depósito.
+O cenário a seguir usa o aplicativo móvel do Gerenciamento de Depósito para fazer um *ajuste em* estoque em dois locais no depósito.
 
 ### <a name="add-inventory-to-locations"></a>Adicionar estoque a locais
 

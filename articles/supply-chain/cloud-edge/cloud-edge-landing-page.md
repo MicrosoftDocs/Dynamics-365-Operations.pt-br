@@ -2,11 +2,9 @@
 title: Unidades de escala de nuvem e de borda para cargas de trabalho de fabricação e depósito
 description: Este tópico oferece informações sobre unidades de escala de nuvem e de borda para cargas de trabalho de gerenciamento de fabricação e depósito.
 author: cabeln
-manager: ''
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-09-23
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fb0d8e0226b11e93503979c202da917de1df6319
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3eacc9d0cf53fa8af3ff166006cb8fab32445331
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5240428"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836701"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escala de nuvem e de borda para cargas de trabalho de fabricação e depósito
 
@@ -124,10 +122,10 @@ Para obter mais informações, consulte os [detalhes da carga de trabalho da uni
 Para gerenciamento de depósito, as unidades de escala de nuvem e de borda fornecem os seguintes recursos, mesmo quando as unidades de borda não estão conectadas à nuvem:
 
 - O processamento de métodos de ciclo selecionados é habilitado para ordens de venda e reabastecimento de demanda.
-- Os trabalhadores de depósito podem executar o trabalho de depósito de reabastecimento de demanda e vendas usando o aplicativo de depósito.
-- Os trabalhadores de depósito podem consultar o estoque disponível usando o aplicativo de depósito.
-- Os trabalhadores de depósito podem criar e executar movimentações de estoque usando o aplicativo de depósito.
-- Os trabalhadores de depósito podem registrar ordens de compra e fazer armazenamento usando o aplicativo de depósito.
+- Os trabalhadores de depósito podem executar o trabalho de depósito de reabastecimento de demanda e vendas usando o aplicativo móvel do Gerenciamento de Depósito.
+- Os trabalhadores de depósito podem consultar o estoque disponível usando o aplicativo móvel do Gerenciamento de Depósito.
+- Os trabalhadores de depósito podem criar e executar movimentações de estoque usando o aplicativo móvel do Gerenciamento de Depósito.
+- Os trabalhadores de depósito podem registrar ordens de compra e fazer armazenamento usando o aplicativo móvel do Gerenciamento de Depósito.
 
 Para obter mais informações, consulte os [detalhes da carga de trabalho da unidade de escala de depósito](cloud-edge-workload-warehousing.md).
 

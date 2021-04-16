@@ -2,11 +2,9 @@
 title: Use o rastreamento para detalhamento
 description: Este artigo explica como você pode usar o rastreamento para explorar as causas além do resultado de um detalhamento das ordens.
 author: roxanadiaconu
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqTransExplosion
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 677b62055d71ee7ba1419fc2d7e6738b9438cb16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216144"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839188"
 ---
 # <a name="use-tracing-for-explosion"></a>Use o rastreamento para detalhamento
 

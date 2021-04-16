@@ -2,11 +2,9 @@
 title: Perguntas frequentes sobre transações relacionadas ao produto
 description: Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto.
 author: cvocph
-manager: tfehr
 ms.date: 08/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList, EcoResProductListPage, EcoResProductVariants, EcoResProductDetailsExtended, EcoResProductCreate, EcoResProductDetails, RetailSizeGroupTable, RetailStyleGroupTable, RetailColorGroupTable, PCTranslationLanguageLookup, EcoResProductCategory
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Product information
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 55cf7ef19fddf79c1dc81e6fbec1d1672026ebc1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dba501acb3a360f2936ff407b549df6d7eb358ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223377"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841566"
 ---
 # <a name="product-related-translations-faq"></a>Perguntas frequentes sobre transações relacionadas ao produto
 

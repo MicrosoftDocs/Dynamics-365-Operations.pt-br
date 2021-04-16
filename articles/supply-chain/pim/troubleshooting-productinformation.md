@@ -2,11 +2,9 @@
 title: Solucionar problemas de informações do produto
 description: Este tópico descreve como corrigir problemas que podem ocorrer durante o trabalho com informações do produto.
 author: SmithaNataraj
-manager: tfehr
 ms.date: 11/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-11-04
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9db8e0081a0d47ec8d74680fe99a0934b99bb5c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a05e9957363ef6a659e25ceba84a168507cd641a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5223353"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841518"
 ---
 # <a name="troubleshoot-product-information"></a>Solucionar problemas de informações do produto
 

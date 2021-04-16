@@ -2,11 +2,9 @@
 title: Materiais perigosos
 description: Este tópico fornece informações sobre documentos e informações de materiais perigosos armazenados no seu ambiente.
 author: lachlancashMS
-manager: tfehr
 ms.date: 01/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,17 +16,16 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-14
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d27ec5b65cc607c22d97c1dc44bb573bc2772611
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bda81f72d5dea24c7ba678b9a86258a02f7b8cd5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5243168"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829417"
 ---
 # <a name="hazardous-materials"></a>Materiais perigosos
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 As informações sobre materiais perigosos são configuradas no Gerenciamento de informações sobre produtos. Este módulo também fornece documentos que podem ser impressos por meio do gerenciamento de depósito.
 
