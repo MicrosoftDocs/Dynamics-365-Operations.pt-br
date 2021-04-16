@@ -2,11 +2,9 @@
 title: Criar subscrições de serviço a partir de um projeto
 description: Você pode criar uma subscrição de serviço de um projeto em Gerenciamento e contabilidade do projeto.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cd529a584eba16883d76c4da8c1f013cfc8465a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a9b92bd317aa281c43e65dc16f871468b6e3d491
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247661"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819103"
 ---
 # <a name="create-service-subscriptions-from-a-project"></a>Criar subscrições de serviço a partir de um projeto    
 

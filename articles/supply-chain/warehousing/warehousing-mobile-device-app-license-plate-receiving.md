@@ -1,12 +1,10 @@
 ---
-title: Recebimento da placa de licença por meio do aplicativo de depósito
-description: Este tópico explica como configurar o aplicativo de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+title: Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
+description: Este tópico explica como configurar o aplicativo móvel Gerenciamento de Depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 author: perlynne
-manager: tfehr
 ms.date: 04/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSParameters, WHSRFMenuItem, WHSLicensePlate, WHSPackingStructure
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: f921d08572038d2ac53948825a8ca2459103b7f7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245145"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823182"
 ---
-# <a name="license-plate-receiving-via-the-warehouse-app"></a>Recebimento da placa de licença por meio do aplicativo de depósito
+# <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o aplicativo de depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
+Este tópico explica como configurar o aplicativo móvel Gerenciamento de Depósito para oferecer suporte ao uso de um processo de recebimento de placa de licença para receber um estoque físico.
 
 Você pode usar esta funcionalidade para registrar rapidamente o recebimento de um estoque de entrada relacionado a um aviso de embarque (ASN). O sistema automaticamente cria um ASN quando os processos de gerenciamento do depósito forem usados para remeter uma ordem de transferência. Para o processo da ordem de compra, um ASN pode ser registrado manualmente ou importado automaticamente usando um processo de entidade de dados do ASN de entrada.
 
@@ -72,7 +70,7 @@ Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o r
 
 ## <a name="show-or-skip-the-receiving-summary-page"></a>Mostrar ou ignorar a página de resumo do recebimento
 
-Você pode usar o recurso *Controlar a exibição de uma página de resumo do recebimento em dispositivos móveis* para usar um fluxo de aplicativo adicional detalhado do Depósito como parte do processo de recebimento da placa de licença.
+Você pode usar o recurso *Controlar a exibição de uma página de resumo do recebimento em dispositivos móveis* para usar um fluxo adicional detalhado do aplicativo móvel Gerenciamento de Depósito como parte do processo de recebimento da placa de licença.
 
 Quando este recurso estiver ativado, os itens do menu do dispositivo móvel do recebimento da placa de licença ou do recebimento e armazenamento da placa de licença fornecerão uma configuração para **Exibir página de resumo do recebimento**. Essa configuração tem as seguintes opções:
 

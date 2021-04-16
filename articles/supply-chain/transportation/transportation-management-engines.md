@@ -2,11 +2,9 @@
 title: Mecanismos de gerenciamento de transporte
 description: Os mecanismos de gerenciamento de transporte definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine, TMSFreightBillTypeAssignment, TMSZoneMaster, TMSEngineParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aed20a4dc554db5d4c9bfe10992accc6ec719147
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b6ec8714ef208b25284f218e81dda0ff94ed49d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233454"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828355"
 ---
 # <a name="transportation-management-engines"></a>Mecanismos de gerenciamento de transporte
 

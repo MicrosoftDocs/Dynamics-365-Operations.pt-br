@@ -2,7 +2,6 @@
 title: Rastrear viagens de entrada e percursos de contêiner de remessa
 description: Este tópico explica como você pode usar a página Acompanhamento de entrada para rastrear o progresso de viagens e os percursos do contêiner de remessa.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 678f2b6cda0592e0393bb15f372cb4be84778932
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 40f8e48b8e52c109023cf0ea5a55657754e1d5b3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501237"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823376"
 ---
 # <a name="track-inbound-voyages-and-shipping-container-journeys"></a>Rastrear viagens de entrada e percursos de contêiner de remessa
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 A página **Acompanhamento de entrada** permite rastrear o progresso de viagens e percursos do contêiner de remessa. Cada viagem e percurso é dividido por *atividades*, cada um com sua própria linha na página. Você pode usar a página para exibir e inserir datas estimadas e datas reais por atividade.
 

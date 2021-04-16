@@ -2,11 +2,9 @@
 title: Empresas de engenharia e regras de propriedade de dados
 description: Este tópico explica como você pode usar uma ou mais empresas de engenharia para garantir que os dados mestre de produtos sejam criados e mantidos centralmente. Uma empresa de engenharia representa a empresa proprietária dos produtos de engenharia e os dados relevantes da engenharia.
 author: t-benebo
-manager: tfehr
 ms.date: 09/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EngChgEngineeringOrganization
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 837960a628ef03df4d73909e96713e256d0f5e60
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a434bf3727432f4964b7b0ed60905449378245de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262300"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829990"
 ---
 # <a name="engineering-companies-and-data-ownership-rules"></a>Empresas de engenharia e regras de propriedade de dados
 
