@@ -2,11 +2,9 @@
 title: Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 description: Este tópico fornece informações sobre o processo de cálculo e relatório da compensação e restituição de valores do ICMS-ST em operações internas para consumidores finais quando os bens são adquiridos de acordo com o regime de substituição tributária (ICMS-ST). .
 author: sndray
-manager: AnnBe
 ms.date: 08/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3f9c2f58f5ce442fa0f51fbd6703294d6fc96108
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e3bbba8ce49e6e95fe5c63a454e5f03b6a47d887
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228749"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814006"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 

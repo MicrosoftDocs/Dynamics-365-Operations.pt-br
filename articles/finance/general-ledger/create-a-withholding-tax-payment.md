@@ -2,11 +2,9 @@
 title: Criar um pagamento de imposto retido na fonte
 description: O procedimento de trabalho de pagamento de imposto retido na fonte liquida os saldos de imposto retido na fonte de Contas a pagar em contas de imposto retido na fonte e os desloca para a conta de liquidação de imposto retido na fonte por determinado período. Este tópico lista as etapas para a configuração de um pagamento de imposto retido na fonte.
 author: roschlom
-manager: AnnBe
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: eae914ccafad12426cadd91c0950bada23548005
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 72d80fbb3b2448f4b89fa7d7fa580387e1a3621c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212267"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832937"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Criar um pagamento de imposto retido na fonte
 

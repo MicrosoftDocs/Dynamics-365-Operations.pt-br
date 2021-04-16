@@ -2,11 +2,9 @@
 title: Configurar livros fiscais
 description: Este tópico explica como configurar livros fiscais. Eles ajudam a consolidar livros fiscais e estatutários em arquivos eletrônicos para que você possa atender aos requisitos do SPED.
 author: v-gonode
-manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBTaxStatement_BR
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 12de6690b2f152b4339301cc66027490539a43af
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 616af5dcd5aa2992511d752cec8c67e3ea8e0a1d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247960"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814002"
 ---
 # <a name="configure-fiscal-books"></a>Configurar livros fiscais
 

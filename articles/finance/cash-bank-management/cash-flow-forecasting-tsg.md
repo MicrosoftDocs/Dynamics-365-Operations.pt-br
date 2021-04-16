@@ -2,11 +2,9 @@
 title: Solucionar problemas de configuração de previsão de fluxo de caixa
 description: Este tópico oferece respostas para dúvidas que você possa ter ao configurar a previsão de fluxo de caixa. Ele aborda perguntas frequentes sobre a configuração de fluxo de caixa, atualizações para fluxo de caixa e fluxo de caixa do Power BI.
 author: panolte
-manager: AnnBe
-ms.date: 12/03/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2020-12-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d1cde9321259753bd0cacab3706c7f8455598ff3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7b4760d7a0d0c14e2df8df20c2f81ec41e077cc0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232480"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827305"
 ---
 # <a name="troubleshoot-cash-flow-forecasting-setup"></a>Solucionar problemas de configuração de previsão de fluxo de caixa
 
@@ -47,11 +45,19 @@ Várias etapas devem ser concluídas para que previsões de fluxo de caixa apare
 
 ## <a name="why-did-cash-flow-power-bi-work-in-previous-versions-but-is-now-blank"></a>Por que o fluxo de caixa do Power BI funcionou em versões anteriores, mas agora está em branco?
 
-Verifique se as medidas "Medida de fluxo de caixa V2" e "LedgerCovLiquidityMeasurement" do Repositório de entidades foram configuradas. Para obter mais informações sobre como trabalhar com dados no Repositório de entidades, consulte [Integração do Power BI com o Repositório de entidades](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md) Verifique se todas as etapas necessárias para exibir conteúdo do Power BI foram concluídas. Para obter mais informações, consulte [Conteúdo de visão geral do caixa do Power BI](Cash-Overview-Power-BI-content.md).
+Verifique se as medidas "Medida de fluxo de caixa V2" e "LedgerCovLiquidityMeasurement" do Repositório de entidades foram configuradas. Para obter mais informações sobre como trabalhar com dados no Repositório de entidades, consulte [Integração do Power BI com o Repositório de entidades](../../fin-ops-core/dev-itpro/analytics/power-bi-integration-entity-store.md). Verifique se todas as etapas necessárias para exibir o conteúdo do Power BI foram concluídas. Para obter mais informações, consulte [Conteúdo de visão geral do caixa do Power BI](Cash-Overview-Power-BI-content.md).
 
 ## <a name="have-the-entity-store-entities-been-refreshed"></a>As entidades do Repositório de entidades foram atualizadas?
 
 Você deve atualizar as entidades periodicamente para garantir que os dados sejam atuais e precisos. Para atualizar manualmente uma entidade específica, acesse **Administração do sistema \> Configuração \> Repositório de entidades**, selecione a entidade e, depois, selecione **Atualizar**. Os dados também podem ser atualizados automaticamente. Na página **Repositório de entidades**, defina a opção **Atualização automática habilitada** como **Sim**.
 
+## <a name="which-calculation-method-should-be-used-when-calculating-cash-flow-forecasts"></a>Qual método de cálculo deve ser usado no cálculo das previsões de fluxo de caixa?
+
+O método de cálculo de previsão de fluxo de caixa tem duas opções de seleção importantes. A opção **Novo** calculará as previsões de fluxo de caixa para novos documentos e documentos que foram alterados desde a última execução do trabalho em lotes. A execução dessa opção tende a ser mais rápida porque processa um subconjunto menor de documentos. A opção **Total** recalculará as previsões de fluxo de caixa para cada documento no sistema. Essa opção demora mais tempo porque há mais trabalho a concluir.
+
+### <a name="how-do-i-improve-the-performance-of-the-cash-flow-forecasting-recurring-batch-job"></a>Como melhorar o desempenho de trabalho em lotes recorrentes de previsão de fluxo de caixa?
+
+É recomendável executar a previsão de fluxo de caixa uma vez por dia fora dos horários de pico usando o método de cálculo **Novo**. É recomendável usar essa abordagem seis dias por semana. Em seguida, execute uma previsão de fluxo de caixa uma vez por semana usando o método de cálculo **Total** no dia com a menor quantidade de atividades.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

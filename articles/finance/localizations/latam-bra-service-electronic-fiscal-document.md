@@ -2,11 +2,9 @@
 title: Nota fiscal eletrônica para serviços do Brasil
 description: Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
 author: sndray
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d9aa6b7b28cab41ccfcaa487e631ef5041a2b32c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6a1a246c3ae8ee6b4ed507e6bcecc4db91383cd5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219869"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822803"
 ---
 # <a name="service-electronic-fiscal-document-for-brazil"></a>Nota fiscal eletrônica para serviços do Brasil
 

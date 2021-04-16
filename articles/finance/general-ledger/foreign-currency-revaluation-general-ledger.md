@@ -2,11 +2,9 @@
 title: Reavaliação de moeda estrangeira da Contabilidade
 description: 'Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário.'
 author: kweekley
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7433c6753b612a9721917c036a8b36b7e3165177
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e2f24c60b3fb82532f50e58dde9a19f5fefb25d5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249254"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832913"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira da Contabilidade
 
@@ -83,7 +81,7 @@ A conta principal é reavaliada em 31 de janeiro.  O lucro/perda não realizado 
 
 | Saldo atual na moeda da transação | Saldo atual na moeda contábil | Taxa de câmbio na reavaliação | Novo valor de moeda de contabilidade | Lucro/perda não realizado    |
 |---------------------------------------------|--------------------------------------------|----------------------------------|------------------------------------|-----------------------------|
-| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 EUR (500 x 1,666667)        | 166,67 perda (833,33 – 1000) |
+| 500 EUR                                     | 1000 USD                                   | 166.6667                         | 833,33 USD (500 x 1,666667)        | 166,67 perda (833,33 – 1000) |
 
 A entrada de contabilidade a seguir será criada.
 

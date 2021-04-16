@@ -2,11 +2,9 @@
 title: Conciliação de faturas e ordens de compra intercompanhia
 description: A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas.
 author: abruer
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4af4251580b66895d4dd284a2984d47fddc77066
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6d54f81c4d45d060784daf0666253fc60287ba26
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221024"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820680"
 ---
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliação de faturas e ordens de compra intercompanhia
 
