@@ -2,7 +2,6 @@
 title: Processamento de mercadorias em trânsito
 description: Este tópico descreve como trabalhar com ordens de mercadorias em trânsito. Quando uma ordem ou viagem é configurada para usar o processamento de mercadorias em trânsito, as mercadorias podem ser faturadas antes de serem recebidas no depósito para consumo.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 77e30f8679c9422e895432c023997b5ff4768ebd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500395"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823400"
 ---
 # <a name="goods-in-transit-processing"></a>Processamento de mercadorias em trânsito
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve como trabalhar com ordens de mercadorias em trânsito. Esse tipo de ordem é usado somente pelo módulo de **Custo de entrega**. Quando uma ordem ou viagem é configurada para usar o processamento de mercadorias em trânsito, não é necessário aguardar até as mercadorias serem recebidas no depósito para faturá-las. Em vez disso, as mercadorias são faturadas quando deixam o depósito ou a porta de origem do fornecedor, e os custos financeiros são reconhecidos quando a viagem começa. Essa funcionalidade permite que você se aproprie corretamente do estoque, pois as mercadorias sempre se tornam a propriedade da sua organização quando deixam a porta de remessa.
 
@@ -135,7 +133,7 @@ O custo de entrega adiciona os seguintes processos de criação de trabalho aos 
 
 As definições de configuração para esses processos se assemelham às configurações de [processos de recebimento de ordens de compra e criação de trabalhos de armazenamento](https://technet.microsoft.com/library/dn553216.aspx). No entanto, o processo *Recebimento e armazenamento de itens de mercadorias em trânsito* também adiciona o campo a seguir.
 
-- **Habilitar contêiner de remessa completo** – se essa opção for definida como *Sim*, quando o trabalho de armazenamento for concluído, o aplicativo de depósito fornecerá uma opção adicional chamada **Contêiner de remessa completo**. Quando essa opção for selecionada, o trabalhador será solicitado a confirmar que o contêiner está completo. Nesse ponto, todos os recebimentos curtos serão processados como uma transação.
+- **Habilitar contêiner de remessa completo** – se essa opção for definida como *Sim*, quando o trabalho de armazenamento for concluído, o aplicativo móvel do Gerenciamento de Depósito fornecerá uma opção adicional chamada **Contêiner de remessa completo**. Quando essa opção for selecionada, o trabalhador será solicitado a confirmar que o contêiner está completo. Nesse ponto, todos os recebimentos curtos serão processados como uma transação.
 
 ### <a name="location-directives"></a>Diretivas de localização
 

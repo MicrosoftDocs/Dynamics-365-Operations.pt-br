@@ -2,11 +2,9 @@
 title: Definir dimensões diferentes para embalagem e armazenamento
 description: Este tópico mostra como especificar para qual processo (embalagem, armazenamento ou embalagem aninhada) cada dimensão especificada é usada.
 author: mirzaab
-manager: tfehr
 ms.date: 01/28/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResPhysicalProductDimensions, WHSPhysDimUOM
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: aa5cbf807e809238489c539d3ad8c0bc34421774
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501285"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818911"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Definir dimensões diferentes para embalagem e armazenamento
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Alguns itens são embalados ou armazenados de forma que pode ser necessário rastrear dimensões físicas de forma diferente para cada processo. O recurso *Dimensões de produtos de embalagem* permite configurar um ou mais tipos de dimensões para cada produto. Cada tipo de dimensão oferece um conjunto de medidas físicas (peso, largura, profundidade e altura) e estabelece o processo em que esses valores de medida física se aplicam. Quando este recurso é habilitado, o sistema oferecerá suporte aos seguintes tipos de dimensões:
 

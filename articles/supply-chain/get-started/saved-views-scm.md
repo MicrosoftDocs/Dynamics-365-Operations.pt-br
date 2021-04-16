@@ -2,11 +2,9 @@
 title: Exibições salvas padrão para o Supply Chain Management
 description: Este tópico descreve as exibições salvas padrão que estão disponíveis e explica como habilitá-las.
 author: kamaybac
-manager: annbe
 ms.date: 02/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 08002a1ff40c8baca475bc19a1220fe4c4b23bcd
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 1636d37b40c826fb9b922636d68c56963a791af5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500685"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821240"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Exibições salvas padrão para o Supply Chain Management
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O Microsoft Dynamics 365 Supply Chain Management inclui várias exibições salvas que você pode habilitar e usar conforme necessário. Algumas dessas exibições salvas padrão são otimizadas e nomeadas para uma função ou tarefa específica (por exemplo, "Controle de qualidade" ou "Recebimento"). Outras são otimizadas para incluir somente os campos e as configurações que as estatísticas de uso da Microsoft indicam que são usados com mais frequência pelos clientes. Essas exibições salvas normalmente são chamadas de exibições *simplificadas*. Este tópico descreve as exibições salvas padrão que estão disponíveis e explica como habilitá-las e personalizá-las.
 
@@ -82,14 +79,16 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Com
 
 ## <a name="saved-views-for-the-production-control-module"></a>Exibições salvas para o módulo Controle de produção
 
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
 A tabela a seguir descreve as exibições salvas disponíveis para o módulo Controle de produção.
 
 | Página | Nome da exibição | Descrição da exibição | Nome do recurso |
 |---|---|---|---|
-| Página BOM de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção |
-| Página Detalhes de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção |
-| Página Lista de separação de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção |
-| Página Lista de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibições salvas para controle de produção |
+| Página BOM de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | (Versão preliminar) Exibições salvas para controle de produção |
+| Página Detalhes de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | (Versão preliminar) Exibições salvas para controle de produção |
+| Página Lista de separação de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | (Versão preliminar) Exibições salvas para controle de produção |
+| Página Lista de ordens de produção | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | (Versão preliminar) Exibições salvas para controle de produção |
 
 ## <a name="saved-views-for-the-sales-and-marketing-module"></a>Exibições salvas para o módulo Vendas e marketing
 

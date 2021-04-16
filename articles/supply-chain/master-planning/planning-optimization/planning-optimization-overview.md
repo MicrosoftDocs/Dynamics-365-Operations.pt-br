@@ -2,11 +2,9 @@
 title: Visão geral da Otimização de Planejamento
 description: Este tópico mostra uma visão geral da Otimização de Planejamento
 author: ChristianRytt
-manager: tfehr
 ms.date: 10/31/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cf64c3dea6fe08c36388f5f7147795221cf85b8a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5ecfa8ac4db050ee1e38f3b420d81beba19b9409
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224466"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812946"
 ---
 # <a name="planning-optimization-overview"></a>Visão geral da Otimização de Planejamento
 

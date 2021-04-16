@@ -2,11 +2,9 @@
 title: Migração para a Otimização de Planejamento para o planejamento mestre
 description: Este tópico fornece informações sobre o novo mecanismo de planejamento mestre, a Otimização de Planejamento, e a migração do mecanismo existente.
 author: ChristianRytt
-manager: tfehr
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5fdbe472f24e1140f0af63da8a1fc4eafe4767a2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238029"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823448"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 

@@ -2,7 +2,6 @@
 title: Estimar e gerenciar custos de entrega
 description: O sistema usa a configuração de custo automático para determinar uma estimativa do custo de entrega. Este tópico explica como é possível definir vários cenários para fornecer uma estimativa mais precisa.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/26/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-26
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: cbd652f2b29f7a78ad9e4e1d3dda4a3ef8a9f3f3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 510f5fc4910dde2f91fe2d666abb23a9bd7381f1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501261"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823424"
 ---
 # <a name="estimate-and-manage-landed-costs"></a>Estimar e gerenciar custos de entrega
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O sistema usa a [configuração de custo automático](auto-cost-setup.md) para determinar uma estimativa do custo de entrega. Além disso, é possível definir vários cenários para fornecer uma estimativa mais precisa. Esses cenários são armazenados. Portanto, você pode examiná-las posteriormente e compará-las com dados reais em um relatório. Também é possível atualizar o preço do item.
 
@@ -43,7 +41,7 @@ A tabela a seguir descreve os campos disponíveis para cada modelo.
 | Campo | Descrição |
 |---|---|
 | Modelo de custo | Insira um nome exclusivo para o modelo de custo. O nome costuma descrever o fator ou multiplicador de custo para o modelo. |
-| Descrição | Insira uma descrição do modelo de custo. |
+| descrição | Insira uma descrição do modelo de custo. |
 | Transportadora | Selecione a transportadora que deve ser aplicada quando o modelo for usado. |
 | Modo de entrega | Selecione o modo de entrega, como via marítima ou aérea, que deve ser aplicado quando o modelo é usado. Este campo ajuda a determinar os custos automáticos associados às mercadorias em uma estimativa de custo. |
 | Tipo de contêiner de remessa | Selecione o tipo de contêiner de remessa que deve ser aplicado quando o modelo é usado. Este campo ajuda a determinar os custos automáticos associados às mercadorias em uma estimativa de custo. |
