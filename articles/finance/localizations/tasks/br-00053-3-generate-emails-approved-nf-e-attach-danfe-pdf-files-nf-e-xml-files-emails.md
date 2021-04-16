@@ -2,11 +2,9 @@
 title: Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)
 description: Você pode gerar um arquivo PDF do Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e).
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,28 +12,28 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ef5fa4bdf2194a9b63a385f473d4602de05e0664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 423bd1d22f5b5118ffbf202fd06927d525f384d1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218868"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821851"
 ---
-# <a name="generate-emails-for-approved-nf-e-and-attach-danfe-pdf-files-and-nf-e-xml-files-to-the-emails-brazil"></a><span data-ttu-id="79157-103">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</span><span class="sxs-lookup"><span data-stu-id="79157-103">Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</span></span>
+# <a name="generate-emails-for-approved-nf-e-and-attach-danfe-pdf-files-and-nf-e-xml-files-to-the-emails-brazil"></a><span data-ttu-id="8677e-103">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</span><span class="sxs-lookup"><span data-stu-id="8677e-103">Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="79157-104">Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.</span><span class="sxs-lookup"><span data-stu-id="79157-104">You can generate the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) for a Nota Fiscal eletrônica (NF-e) as a PDF file.</span></span> <span data-ttu-id="79157-105">Enviar os arquivos PDF de DANFE e NF-e XML que são gerados para uma NF-e aprovada para um cliente ou fornecedor por e-mail.</span><span class="sxs-lookup"><span data-stu-id="79157-105">Email the DANFE PDF and NF-e XML files that are generated for an approved NF-e to a third-party customer or vendor.</span></span> <span data-ttu-id="79157-106">Antes de criar uma mensagem de email para notas fiscais eletrônicas aprovadas, crie um modelo de email.</span><span class="sxs-lookup"><span data-stu-id="79157-106">Before you create an email message for approved electronic fiscal documents, create an email template.</span></span> <span data-ttu-id="79157-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="79157-107">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="8677e-104">Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.</span><span class="sxs-lookup"><span data-stu-id="8677e-104">You can generate the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) for a Nota Fiscal eletrônica (NF-e) as a PDF file.</span></span> <span data-ttu-id="8677e-105">Enviar os arquivos PDF de DANFE e NF-e XML que são gerados para uma NF-e aprovada para um cliente ou fornecedor por e-mail.</span><span class="sxs-lookup"><span data-stu-id="8677e-105">Email the DANFE PDF and NF-e XML files that are generated for an approved NF-e to a third-party customer or vendor.</span></span> <span data-ttu-id="8677e-106">Antes de criar uma mensagem de email para notas fiscais eletrônicas aprovadas, crie um modelo de email.</span><span class="sxs-lookup"><span data-stu-id="8677e-106">Before you create an email message for approved electronic fiscal documents, create an email template.</span></span> <span data-ttu-id="8677e-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="8677e-107">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="79157-108">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Gerar emails para NF-e.</span><span class="sxs-lookup"><span data-stu-id="79157-108">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Generate emails for NF-e.</span></span>
-2. <span data-ttu-id="79157-109">Expanda a seção Executar em segundo plano.</span><span class="sxs-lookup"><span data-stu-id="79157-109">Expand the Run in the background section.</span></span>
-3. <span data-ttu-id="79157-110">Selecione Sim no campo Processamento de lote.</span><span class="sxs-lookup"><span data-stu-id="79157-110">Select Yes in the Batch processing field.</span></span>
-4. <span data-ttu-id="79157-111">No campo Grupo de lotes, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="79157-111">In the Batch group field, enter or select a value.</span></span>
-5. <span data-ttu-id="79157-112">Clique em Recorrência.</span><span class="sxs-lookup"><span data-stu-id="79157-112">Click Recurrence.</span></span>
-6. <span data-ttu-id="79157-113">Selecione a opção Nenhuma data de término.</span><span class="sxs-lookup"><span data-stu-id="79157-113">Select the No end date option.</span></span>
-7. <span data-ttu-id="79157-114">No campo Contagem, insira um número.</span><span class="sxs-lookup"><span data-stu-id="79157-114">In the Count field, enter a number.</span></span>
-8. <span data-ttu-id="79157-115">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="79157-115">Click OK.</span></span>
-9. <span data-ttu-id="79157-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="79157-116">Click OK.</span></span>
+1. <span data-ttu-id="8677e-108">Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Gerar emails para NF-e.</span><span class="sxs-lookup"><span data-stu-id="8677e-108">Go to Accounts receivable > Fiscal documents > Electronic fiscal documents > Generate emails for NF-e.</span></span>
+2. <span data-ttu-id="8677e-109">Expanda a seção Executar em segundo plano.</span><span class="sxs-lookup"><span data-stu-id="8677e-109">Expand the Run in the background section.</span></span>
+3. <span data-ttu-id="8677e-110">Selecione Sim no campo Processamento de lote.</span><span class="sxs-lookup"><span data-stu-id="8677e-110">Select Yes in the Batch processing field.</span></span>
+4. <span data-ttu-id="8677e-111">No campo Grupo de lotes, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8677e-111">In the Batch group field, enter or select a value.</span></span>
+5. <span data-ttu-id="8677e-112">Clique em Recorrência.</span><span class="sxs-lookup"><span data-stu-id="8677e-112">Click Recurrence.</span></span>
+6. <span data-ttu-id="8677e-113">Selecione a opção Nenhuma data de término.</span><span class="sxs-lookup"><span data-stu-id="8677e-113">Select the No end date option.</span></span>
+7. <span data-ttu-id="8677e-114">No campo Contagem, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8677e-114">In the Count field, enter a number.</span></span>
+8. <span data-ttu-id="8677e-115">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8677e-115">Click OK.</span></span>
+9. <span data-ttu-id="8677e-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8677e-116">Click OK.</span></span>
 
 
 

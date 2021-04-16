@@ -2,11 +2,9 @@
 title: Adicionar uma imagem a um produto
 description: Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductPerCompanyImagePart, EcoResProductImage, DocumentUpload
 audience: Application User
@@ -15,26 +13,26 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f36ea345a436a4ea24e6a57f3b9364a9095beb4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 99a097c2f0e1717be2354329026ccdaf35a07db6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218648"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812610"
 ---
-# <a name="add-an-image-to-a-product"></a><span data-ttu-id="43f24-103">Adicionar uma imagem a um produto</span><span class="sxs-lookup"><span data-stu-id="43f24-103">Add an image to a product</span></span>
+# <a name="add-an-image-to-a-product"></a><span data-ttu-id="0f980-103">Adicionar uma imagem a um produto</span><span class="sxs-lookup"><span data-stu-id="0f980-103">Add an image to a product</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="43f24-104">Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF.</span><span class="sxs-lookup"><span data-stu-id="43f24-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
+<span data-ttu-id="0f980-104">Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF.</span><span class="sxs-lookup"><span data-stu-id="0f980-104">This procedure shows how to add an image to a product The demo data company used to create this task is USMF.</span></span>
 
-1. <span data-ttu-id="43f24-105">Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.</span><span class="sxs-lookup"><span data-stu-id="43f24-105">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="43f24-106">Expanda a imagem do produto FactBox.</span><span class="sxs-lookup"><span data-stu-id="43f24-106">Expand the Product image FactBox.</span></span>
-3. <span data-ttu-id="43f24-107">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="43f24-107">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="43f24-108">Por exemplo, selecione o número de item C0002.</span><span class="sxs-lookup"><span data-stu-id="43f24-108">For example, select the item number C0002.</span></span>  
-4. <span data-ttu-id="43f24-109">Clique em Alterar imagem.</span><span class="sxs-lookup"><span data-stu-id="43f24-109">Click Change image.</span></span>
-5. <span data-ttu-id="43f24-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="43f24-110">Click New.</span></span>
-    * <span data-ttu-id="43f24-111">Clique em Procurar.</span><span class="sxs-lookup"><span data-stu-id="43f24-111">Click Browse.</span></span> <span data-ttu-id="43f24-112">Encontre a imagem que deseja usar, selecione-a e depois feche a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="43f24-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
+1. <span data-ttu-id="0f980-105">Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.</span><span class="sxs-lookup"><span data-stu-id="0f980-105">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="0f980-106">Expanda a imagem do produto FactBox.</span><span class="sxs-lookup"><span data-stu-id="0f980-106">Expand the Product image FactBox.</span></span>
+3. <span data-ttu-id="0f980-107">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="0f980-107">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="0f980-108">Por exemplo, selecione o número de item C0002.</span><span class="sxs-lookup"><span data-stu-id="0f980-108">For example, select the item number C0002.</span></span>  
+4. <span data-ttu-id="0f980-109">Clique em Alterar imagem.</span><span class="sxs-lookup"><span data-stu-id="0f980-109">Click Change image.</span></span>
+5. <span data-ttu-id="0f980-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0f980-110">Click New.</span></span>
+    * <span data-ttu-id="0f980-111">Clique em Procurar.</span><span class="sxs-lookup"><span data-stu-id="0f980-111">Click Browse.</span></span> <span data-ttu-id="0f980-112">Encontre a imagem que deseja usar, selecione-a e depois feche a caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="0f980-112">Find the image that you want to use, select it, and then close the dialog box.</span></span>    
 
 
 
