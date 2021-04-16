@@ -2,11 +2,9 @@
 title: Confirmação automática com a Otimização de Planejamento
 description: Este tópico explica como usar a confirmação automática com a Otimização de Planejamento.
 author: ChristianRytt
-manager: tfehr
 ms.date: 11/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-11-30
 ms.dyn365.ops.version: AX 10.0.7
-ms.openlocfilehash: 9106137fe6dd097beea9914cdde541e581946f46
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 3542e343de29c9fd9d19ed99cab4b4eebacd2899
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227785"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5812994"
 ---
 # <a name="autofirming-with-planning-optimization"></a>Confirmação automática com a Otimização de Planejamento
 
@@ -33,6 +31,8 @@ A confirmação automática permite que você confirme (ou seja, libere) as orde
 
 > [!NOTE]
 > A confirmação automática de uma ordem de compra planejada só poderá ocorrer se o item estiver associado a um fornecedor.
+> 
+> As ordens derivadas confirmadas (ordens de compra do subcontratado) apresentarão um status *Em revisão* quando o controle de alterações do caso estiver habilitado.
 
 ## <a name="turn-on-autofirming"></a>Ativar a confirmação automática
 

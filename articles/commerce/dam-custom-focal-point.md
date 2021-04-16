@@ -2,11 +2,9 @@
 title: Personalizar pontos focais da imagem
 description: Este tópico descreve como personalizar pontos focais da imagem no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -17,20 +15,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fca209c9827192f50c2f1a5bd9e78146214e1e0e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 962caff0e8e41487231c6075fa7b2df2a59dca48
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5222552"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799292"
 ---
 # <a name="customize-image-focal-points"></a>Personalizar pontos focais da imagem
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como personalizar pontos focais da imagem no construtor de sites do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Quando uma imagem é carregada na Biblioteca de Mídia do assistente para criação de sites do Commerce, o sistema tenta determinar o ponto focal da imagem. Por exemplo, se a imagem tiver uma pessoa, o sistema definirá o ponto focal para o rosto da pessoa por padrão. Na maioria dos casos, o ponto focal definido automaticamente funciona bem para todas as portas de exibição, mas às vezes você pode ajustar o ponto focal para garantir que uma parte específica da imagem esteja sempre visível.
 

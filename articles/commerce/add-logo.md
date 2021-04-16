@@ -2,11 +2,9 @@
 title: Adicionar um logotipo
 description: Este tópico descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-manager: AnnBe
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -18,20 +16,18 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 143c1ab33547119ceab0a4fba165669bc8b22bf4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d9e1cba6bd07e0c3d9ed7d741d87e10837d8021c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207570"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5797590"
 ---
 # <a name="add-a-logo"></a>Adicionar um logotipo
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como adicionar um logotipo ao seu site no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Quando você cria seu site, uma das primeiras coisas que você provavelmente fará é adicionar o logotipo da empresa ou da marca ao cabeçalho do site. A biblioteca de módulos online do Dynamics 365 Commerce fornece um módulo que facilita essa tarefa.
 

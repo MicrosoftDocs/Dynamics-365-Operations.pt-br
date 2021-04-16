@@ -2,11 +2,9 @@
 title: Contagem cíclica parcial do local
 description: Os planos de contagem cíclica guiam as operações reais de contagem. Você pode solicitar que somente produtos e grades de produtos específicos sejam contados em vez de todo o estoque disponível no local.
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable, WHSRFMenuItemCycleCount, WHSCycleCountPlanListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abafe64a17b7b284e5e045da33bb15cf3c42800b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e4fa017c9702524d4637ef73a4c2e506a9c53b28
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5234672"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818887"
 ---
 # <a name="partial-location-cycle-counting"></a>Contagem cíclica parcial do local
 
@@ -48,7 +46,7 @@ Antes do trabalho de contagem cíclica parcial poder ser processado, você deve,
 Para o processo de contagem do ciclo parcial, a data ou a hora da **Contagem do último ciclo** não será atualizada para a localização, mesmo que todos os itens disponíveis em um determinado local sejam contados. A contagem do ciclo parcial não considera o parâmetro **Dias entre a contagem cíclica** na página **Planos de contagem cíclica**. A contagem de ciclos parciais não oferece suporte à contagem simultânea de vários itens no mesmo local. A funcionalidade de contagem de ciclos parciais pode resultar no mesmo local contado várias vezes para um item quando o **Plano de contagem cíclica do processo** é executado. Para evitar esse cenário, especifique filtros no campo **Selecionar locais**.
 
 > [!NOTE]
-> O aplicativo de depósito não fornece o botão **Adicionar LP ou item** quando você usa o processo de contagem de ciclo parcial.
+> O aplicativo móvel do Gerenciamento de Depósito não fornece o botão **Adicionar LP ou item** quando você usa o processo de contagem de ciclo parcial.
 
 ## <a name="example"></a>Exemplo
 

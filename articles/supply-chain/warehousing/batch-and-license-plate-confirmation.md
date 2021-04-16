@@ -2,11 +2,9 @@
 title: Confirmação de lote e placa de licença
 description: Este tópico descreve como configurar e aplicar a confirmação de lote e placa de licença em um dispositivo móvel.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
@@ -16,18 +14,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c309061b31f10209c22cb90cc08c971b697f6dc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c588e6ed11d275b75133e2824f3d385048050426
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233118"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837528"
 ---
 # <a name="batch-and-license-plate-confirmation"></a>Confirmação de lote e placa de licença
 
 [!include [banner](../includes/banner.md)]
 
-A confirmação do lote permite que você confirme se o lote correto está sendo separado do dispositivo móvel. Na seleção inicial do trabalho somente para lotes com itens acima, no qual o lote acima indica que o lote supera a localização na hierarquia de pesquisa, você deve verificar se o lote escolhido corresponde ao lote da linha de trabalho.
+A confirmação do lote permite que você confirme se o lote correto está sendo separado do dispositivo móvel. Na seleção inicial do trabalho somente para itens *Lote acima\[local\]*, no qual o lote acima indica que o lote é colocado acima da localização na hierarquia de pesquisa, você deve verificar se o lote escolhido corresponde ao lote da linha de trabalho.
 
 A confirmação da placa de licença permite que você confirme se a placa de licença correta está sendo selecionada no dispositivo móvel. Ao escolher o trabalho de um local de espera, você deve verificar se a placa de licença selecionada corresponde à placa de licença associada ao trabalho. Se o trabalho for iniciado pela verificação de uma placa de licença, a etapa de confirmação será ignorada.
 
