@@ -2,11 +2,9 @@
 title: Contas de lançamento de aquisição de ativo fixo
 description: Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
@@ -17,30 +15,30 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6a340df57a6073c6d9b6f2cdaadbf8f21fc11649
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d4c1b4de2e58b964bcf6ab07929897083f4c826
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241033"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822000"
 ---
-# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="e3752-103">Contas de lançamento de aquisição de ativo fixo</span><span class="sxs-lookup"><span data-stu-id="e3752-103">Fixed asset acquisition posting accounts</span></span>
+# <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="8e8c2-103">Contas de lançamento de aquisição de ativo fixo</span><span class="sxs-lookup"><span data-stu-id="8e8c2-103">Fixed asset acquisition posting accounts</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e3752-104">Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.</span><span class="sxs-lookup"><span data-stu-id="e3752-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
+<span data-ttu-id="8e8c2-104">Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 
-<span data-ttu-id="e3752-105">As contas usadas para lançamento de aquisições de ativo fixo podem variar dependendo do método usado para a aquisição do ativo.</span><span class="sxs-lookup"><span data-stu-id="e3752-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="e3752-106">Na página Perfis de lançamentos de ativo fixo, na guia Contas contábeis, selecione Aquisição e Ajuste de aquisição para configurar as contas de ativo fixo para lançamento no razão.</span><span class="sxs-lookup"><span data-stu-id="e3752-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
+<span data-ttu-id="8e8c2-105">As contas usadas para lançamento de aquisições de ativo fixo podem variar dependendo do método usado para a aquisição do ativo.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-105">Accounts used for posting fixed asset acquisitions may vary depending upon the method used to acquire the asset.</span></span> <span data-ttu-id="8e8c2-106">Na página Perfis de lançamentos de ativo fixo, na guia Contas contábeis, selecione Aquisição e Ajuste de aquisição para configurar as contas de ativo fixo para lançamento no razão.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-106">On the Fixed asset posting profiles page, on the Ledger accounts tab, select Acquisition and Acquisition adjustment to set up fixed asset accounts to post to the ledger.</span></span> 
 
-<span data-ttu-id="e3752-107">Em diários e ordens de compra, a conta contábil normalmente é a conta de balanço, onde o valor de aquisição do novo ativo fixo é debitado.</span><span class="sxs-lookup"><span data-stu-id="e3752-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="e3752-108">Essa conta não está exibida no diário e não pode ser substituída em transações.</span><span class="sxs-lookup"><span data-stu-id="e3752-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
+<span data-ttu-id="8e8c2-107">Em diários e ordens de compra, a conta contábil normalmente é a conta de balanço, onde o valor de aquisição do novo ativo fixo é debitado.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-107">In journals and on purchase orders, Ledger account is typically the balance sheet account, where the acquisition value of the new fixed asset is debited.</span></span> <span data-ttu-id="8e8c2-108">Essa conta não está exibida no diário e não pode ser substituída em transações.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-108">This account is not displayed in the journal and cannot be replaced in transactions.</span></span> 
 
-<span data-ttu-id="e3752-109">A contrapartida também é uma conta de balanço.</span><span class="sxs-lookup"><span data-stu-id="e3752-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="e3752-110">No diário geral e no diário de ativos fixos, essa conta geralmente será a conta bancária usada para pagar pela aquisição do ativo.</span><span class="sxs-lookup"><span data-stu-id="e3752-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="e3752-111">A contrapartida é uma conta padrão sugerida nos diários.</span><span class="sxs-lookup"><span data-stu-id="e3752-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="e3752-112">Ela pode ser alterada no diário para qualquer outra conta a partir do plano de contas ou para uma conta de fornecedor, se o ativo fixo for comprado de um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="e3752-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
+<span data-ttu-id="8e8c2-109">A contrapartida também é uma conta de balanço.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-109">Offset account is also a balance sheet account.</span></span> <span data-ttu-id="8e8c2-110">No diário geral e no diário de ativos fixos, essa conta geralmente será a conta bancária usada para pagar pela aquisição do ativo.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-110">In the general journal and in the fixed assets journal, this account often will be the bank account that is used to pay for the acquisition of the asset.</span></span> <span data-ttu-id="8e8c2-111">A contrapartida é uma conta padrão sugerida nos diários.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-111">The offset account is a default account, which is suggested in the journals.</span></span> <span data-ttu-id="8e8c2-112">Ela pode ser alterada no diário para qualquer outra conta a partir do plano de contas ou para uma conta de fornecedor, se o ativo fixo for comprado de um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-112">It can be changed in the journal to any other account from the chart of accounts or to a vendor account, if the fixed asset was purchase from a vendor.</span></span> 
 
-<span data-ttu-id="e3752-113">Quando Diário de fatura ou Ordens de compra em Contas a pagar são usados para aquisições de ativos fixos, a contrapartida para a transação de ativo fixo é substituída pela conta do fornecedor selecionada para a transação.</span><span class="sxs-lookup"><span data-stu-id="e3752-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
+<span data-ttu-id="8e8c2-113">Quando Diário de fatura ou Ordens de compra em Contas a pagar são usados para aquisições de ativos fixos, a contrapartida para a transação de ativo fixo é substituída pela conta do fornecedor selecionada para a transação.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-113">When Invoice journal or Purchase orders in Accounts payable are used for fixed asset acquisitions, the offset account for the fixed asset transaction is replaced by the vendor account that is selected for the transaction.</span></span>
 
-<span data-ttu-id="e3752-114">Para aquisições lançadas usando o Diário de estoque para ativos fixos em Contabilidade, o ativo fixo não será trazido de origens externas, mas transferido do estoque da própria empresa.</span><span class="sxs-lookup"><span data-stu-id="e3752-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="e3752-115">Assim, a contrapartida é uma conta de saída de estoque para o item de estoque em Gerenciamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="e3752-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
+<span data-ttu-id="8e8c2-114">Para aquisições lançadas usando o Diário de estoque para ativos fixos em Contabilidade, o ativo fixo não será trazido de origens externas, mas transferido do estoque da própria empresa.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-114">For acquisitions posted using the Inventory to fixed assets journal in General ledger, the fixed asset is not bought from external sources, but transferred from the company's own inventory.</span></span> <span data-ttu-id="8e8c2-115">Assim, a contrapartida é uma conta de saída de estoque para o item de estoque em Gerenciamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="8e8c2-115">Therefore, the offset account is an inventory issue account for the inventory item in Inventory management.</span></span>
 
-<span data-ttu-id="e3752-116">Para obter mais informações, consulte [Adquirir ativos por meio de compras](acquire-assets-procurement.md).</span><span class="sxs-lookup"><span data-stu-id="e3752-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
+<span data-ttu-id="8e8c2-116">Para obter mais informações, consulte [Adquirir ativos por meio de compras](acquire-assets-procurement.md).</span><span class="sxs-lookup"><span data-stu-id="8e8c2-116">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md).</span></span>
 
 
 
