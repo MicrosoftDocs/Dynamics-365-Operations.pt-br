@@ -2,11 +2,9 @@
 title: Criar uma URL da página
 description: Este tópico cobre conceitos básicos e os procedimentos para criar uma página na URL do site.
 author: bicyclingfool
-manager: annbe
 ms.date: 10/01/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8e221bd975fd984379724b751f6c026acfda7b07
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 98743d8948669f32d3c74e1915c7ed53db81141c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207886"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5795682"
 ---
 # <a name="create-a-page-url"></a>Criar uma URL da página
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico cobre conceitos básicos e os procedimentos para criar uma página na URL do site.
-
-## <a name="overview"></a>Visão geral
 
 A URL total ou absoluta que aponta para uma página no site consiste em partes diferentes. Por exemplo, a URL `https://www.contoso.com/en-us/contactus` tem as seguintes partes:
 

@@ -2,11 +2,9 @@
 title: Posição de cluster completa
 description: Este tópico fornece informações sobre o recurso Posição de cluster completa. Este recurso oferece uma alternativa a uma aplicação mais rígida de regras de intervalo de trabalho quando a separação de cluster é usada, pois permite uma maior margem de erro nas restrições volumétricas de contêineres ou totes.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b6a7cad070377de58d21a8eb91ee3e1ffaf1c660
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232998"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808837"
 ---
 # <a name="cluster-position-full"></a>Posição de cluster completa
 
@@ -213,7 +211,7 @@ Duas IDs de trabalho devem ter sido criadas, cada uma com duas linhas de separa�
 
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Execução do fluxo do dispositivo móvel – Configuração de confirmação de trabalho para o produto
 
-1. Entre no aplicativo do depósito como um usuário no depósito *61*.
+1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário no depósito *61*.
 1. Vá para **Saída \> Criar separação de cluster**.
 
     A página **TAREFA: Atribuir Trabalho ao Cluster** será exibida.

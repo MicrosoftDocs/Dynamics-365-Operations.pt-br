@@ -2,11 +2,9 @@
 title: Definir grupo de recursos de fabricação discreta
 description: Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção.
 author: sorenva
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WrkCtrResourceGroup
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 24097cbb6f0ffae7b1b52bd3c70b7e054b3ce86c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 95a8e1c6daa78250118a8a16010ef4cc1b1ae693
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5257306"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811525"
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Definir grupo de recursos de fabricação discreta
 

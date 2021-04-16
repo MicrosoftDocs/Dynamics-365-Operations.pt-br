@@ -2,11 +2,9 @@
 title: Trabalhar com arquivos de substituição CSS
 description: Este tópico descreve por que, quando e como usar Folhas de Estilos em Cascata (CSS) na substituição de arquivos no Microsoft Dynamics 365 Commerce.
 author: phinneyridge
-manager: annbe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,21 +14,18 @@ ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-12-12
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 41fb0be51f7af25faba1b860319aea84ae7a8b56
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ef96070fe77b46622667301c7c7c402909ee7dfc
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207790"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799484"
 ---
 # <a name="work-with-css-override-files"></a>Trabalhar com arquivos de substituição do CSS
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve por que, quando e como usar Folhas de Estilos em Cascata (CSS) na substituição de arquivos no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Normalmente, os estilos de site permanentes devem ser manipulados por meio do tema de um site. Os temas fornecem as configurações base de CSS e estilo para os módulos em qualquer página do seu site. Os temas são criados usando o kit de desenvolvimento de software Dynamics 365 Commerce online (SDK) e são implantados em seus sites por meio do Lifecycle Services (LCS) do Microsoft Dynamics. Recursos de depuração de tema e configurações de interface de módulo nos desenvolvedores de site da ajuda do SDK criam pacotes de design de site personalizáveis e coesos. Quando esses pacotes de design são implantados em um site, os autores do site podem se concentrar na criação, na edição e na publicação de conteúdo, e não no desenvolvimento do site.
 

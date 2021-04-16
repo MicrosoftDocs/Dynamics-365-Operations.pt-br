@@ -2,11 +2,9 @@
 title: Configurações visuais da interface do usuário de PDV
 description: Este tópico fornece informações sobre layouts de tela para experiências com o PDV (ponto de venda) do Dynamics 365 Commerce.
 author: boycezhu
-manager: annbe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: boycez
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 521fbd2c73adca1db38ba7258abf183f7350b109
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b617ce4358a6b6aaacea9069d8db40c4aa82b7ed
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231287"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798696"
 ---
 # <a name="pos-user-interface-visual-configurations"></a>Configurações visuais da interface do usuário de PDV
 

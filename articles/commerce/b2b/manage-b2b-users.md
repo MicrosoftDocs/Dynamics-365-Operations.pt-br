@@ -2,11 +2,9 @@
 title: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 description: Este tópico descreve como administradores podem adicionar, editar e excluir usuários de parceiros comerciais em sites de comércio eletrônico entre empresas (B2B).
 author: josaw1
-manager: AnnBe
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: RetailOperations
 audience: Application User, IT Pro
@@ -16,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9cd1e3e38bf7dd5ac536104c850cbfc6c53abcfd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7c1bd8d9cb494cef78fa7c14f6c391821d48749a
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211240"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799844"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 

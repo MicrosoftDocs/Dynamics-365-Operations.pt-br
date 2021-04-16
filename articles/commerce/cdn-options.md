@@ -2,7 +2,6 @@
 title: Opções de implementação da rede de distribuição de conteúdo
 description: Este tópico revisa as diferentes opções para a implementação da CDN (rede de distribuição de conteúdo) que pode ser usada com ambientes do Microsoft Dynamics 365 Commerce. Essas opções incluem instâncias nativas fornecidas pelo Commerce do Azure Front Door e instâncias de propriedade do cliente do Azure Front Door.
 author: BrianShook
-manager: AnnBe
 ms.date: 03/11/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ae0769b7e19f80244186c51454444c499c5e497f
-ms.sourcegitcommit: 3fe4d9a33447aa8a62d704fbbf18aeb9cb667baa
+ms.openlocfilehash: 9e98cf81f13b9181059bc96b95ac277a088311ea
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5582794"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800702"
 ---
 # <a name="content-delivery-network-implementation-options"></a>Opções de implementação da rede de distribuição de conteúdo
 
