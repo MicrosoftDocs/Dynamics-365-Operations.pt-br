@@ -2,11 +2,9 @@
 title: Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
 description: Use esse procedimento para configurar isenções de impostos para a região da Superintendência da Zona Franca de Manaus (SUFRAMA).
 author: sndray
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5be1eab743905e98ebc51fc6728fc5c0558d68e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5bd86a2ea2badd4506a1d54309fa4c39bbd0d66e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252121"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823619"
 ---
 # <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a>Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
 

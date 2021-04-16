@@ -2,11 +2,9 @@
 title: Visão geral dos livros fiscais do Brasil
 description: Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED.
 author: sndray
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBBookingPeriodCreate_BR, FBBookingPeriodListPage_BR, FBBookingPeriodLookup_BR, FBBookingPeriodWizard_BR
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 079a3d0130b996dd9a34ef1a813dcfd16eedc80d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c3c6dea0d4e660321f6efce89498f62ddf5d4e4a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247955"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813998"
 ---
 # <a name="brazil-fiscal-books-overview"></a>Visão geral dos livros fiscais do Brasil
 

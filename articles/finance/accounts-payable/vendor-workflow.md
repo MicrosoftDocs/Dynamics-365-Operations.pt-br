@@ -2,11 +2,9 @@
 title: Fluxo de trabalho do fornecedor
 description: Modifique as informações do fornecedor e o fluxo de trabalho de uso de aprová-las.
 author: mikefalkner
-manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: fb89b54b2f9377c216c447590a9434e3ff2d9bac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e5aef18a7f541c6a0d4abf9d4461d1dd9cd27880
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248126"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810261"
 ---
 # <a name="vendor-workflow"></a>Fluxo de trabalho do fornecedor
 

@@ -2,11 +2,9 @@
 title: Importar notas fiscais do Brasil
 description: Este tópico descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
 author: sndray
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BrazilParameters, FiscalDocument_BR, PurchImportDeclaration_BR, PurchImportDeclarationList_BR, VendEditInvoice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9f8b2331746529485f6f30e2596eeebb9d94a2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 99f2dd745e01604013219db2cd47c0ecf9f57fe0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5238220"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838774"
 ---
 # <a name="import-fiscal-documents-for-brazil"></a>Importar notas fiscais do Brasil
 

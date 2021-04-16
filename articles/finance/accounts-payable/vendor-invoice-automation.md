@@ -2,11 +2,9 @@
 title: Automação de fatura para documentos digitalizados
 description: Este tópico explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
 author: abruer
-manager: AnnBe
-ms.date: 05/22/2020
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
@@ -15,18 +13,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05a796e7ea520e7f25be9e0a1f766b08f75254bb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239642"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841228"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
+Este tópico explica as entidades de dados disponíveis para a automação completa de faturas de fornecedor, incluindo faturas com anexos.
 
 As organizações que desejam agilizar seus processos de Contas a Pagar (AP) geralmente identificam o processamento da fatura como uma das principais áreas de processo que devem ser mais eficientes. Em muitos casos, essas organizações descarregam o processamento de faturas em papel para um provedor de serviços de reconhecimento óptico de caracteres (OCR) de terceiros. Eles então recebem metadados de fatura legíveis por máquina, juntamente com uma imagem digitalizada de cada fatura. Para ajudar com a automação, uma solução de "última milha" foi construída para permitir o consumo desses artefatos no sistema de faturamento. Agora, esta automação de "última milha" é habilitada e pronta para uso, por meio de uma solução de automação de fatura.
 
@@ -90,9 +88,9 @@ As faturas que são importadas através de pacotes de dados podem ser associadas
 
 Nos cenários em que as faturas dos fornecedores entram no Finance and Operations por meio da integração, deve haver uma maneira fácil para um membro da equipe de contas a pagar processar exceções ou faturas que falharam e criar faturas pendentes fora das faturas que falharam. Esse processamento de exceção para faturas de fornecedores agora é parte do Finance and Operations.
 
-### <a name="exceptions-list-page"></a>Página da lista de exceções
+### <a name="vendor-invoices-that-failed-to-import-list-page"></a>Faturas de fornecedores que não importaram páginas de lista
 
-A página da lista nova para exceções de fatura está disponível em **Contas a pagar** > **Faturas** > **Importar falhas** > **Faturas de fornecedor que falharam na importação**. Esta página mostra todos os registros de cabeçalho da fatura de fornecedor na tabela de teste da entidade de dados do cabeçalho da fatura de fornecedor. Observe que você pode visualizar os mesmos registros no espaço de trabalho **Gerenciamento de dados** onde você também pode executar as mesmas ações que são fornecidas no recurso de tratamento de exceção. No entanto, a UI que o recurso de tratamento de exceção fornece é otimizada para um usuário funcional.
+A página da lista nova para exceções de fatura está disponível em **Contas a pagar** > **Faturas** > **Importar falhas** > **Faturas de fornecedor que falharam na importação**. Esta página mostra todos os registros de cabeçalho da fatura de fornecedor na tabela de teste da entidade de dados do cabeçalho da fatura de fornecedor. Observe que você pode exibir os mesmos registros do espaço de trabalho **Gerenciamento de dados**. Você também pode executar as mesmas ações que são fornecidas no recurso de tratamento de exceção do espaço de trabalho **Gerenciamento de dados**. O recurso de tratamento de exceção foi otimizado para um usuário funcional, o que o torna mais fácil de usar.
 
 ![Página da lista de exceções](media/vendor_invoice_automation_02.png)
 
@@ -118,24 +116,17 @@ Esta página da lista inclui os seguintes campos que entram através do feed:
 Esta página da lista também possui um painel de visualização que você pode usar das seguintes maneiras:
 
 + Veja toda a mensagem de erro, para que não seja necessário expandir a coluna **Mensagem de erro** na grade.
-+ Exiba toda a lista de anexos para a fatura, se algum anexo tiver sido fornecido com a fatura.
 
 A página da lista suporta as seguintes ações:
 
 + **Editar** – Abra a gravação de exceção no modo de edição, para que você possa resolver os problemas.
 + **Opções** – Acessar opções padrão disponíveis em páginas de listagem. Você pode usar a opção **Adicionar ao espaço de trabalho** para inserir a página da lista de exceções em seu espaço de trabalho como uma lista ou bloco.
 
-### <a name="exception-details-page"></a>Página de detalhes de exceção
+### <a name="vendor-invoices-that-failed-to-import-details-page"></a>Faturas de fornecedores que não importaram páginas de informações
 
-Quando você inicia o modo de edição, aparece a página de detalhes da exceção da fatura com problemas. Se houver anexos, a fatura e o anexo padrão aparecem lado a lado na página de detalhes da exceção.
+Quando o modo de edição é iniciado, a página **Faturas de fornecedor que falharam ao importar informações** de faturas com problemas é aberta. Se houver problemas em uma fatura com anexo, o anexo não será exibido. O anexo deve ser reanexado à fatura.
 
-![Página de detalhes de exceção](media/vendor_invoice_automation_03.png)
-
-Na ilustração anterior, não havia nenhuma linha para o cabeçalho da fatura de fornecedor que entrou. Portanto, a seção de linhas está vazia.
-
-A página de detalhes da exceção suporta a seguinte operação:
-
-+ **Criar fatura em aberto** – Depois de corrigir os problemas na fatura como parte do processamento de exceções, você pode clicar neste botão para criar a fatura pendente. A criação de faturas em aberto ocorre em segundo plano (como uma operação assíncrona).
+A página **Faturas de fornecedor que falharam ao importar informações** permite que você crie uma fatura pendente. Depois de corrigir os problemas na fatura como parte do processamento de exceções, selecione o botão **Criar fatura pendente** para criar a fatura pendente. A fatura pendente será criada em segundo plano. 
 
 ### <a name="shared-service-vs-organization-based-exception-processing"></a>Serviço compartilhado versus processamento de exceções baseado em organização
 
@@ -187,7 +178,7 @@ Apenas um documento pode ser configurado como anexo padrão. Depois de configura
 
 Um novo botão que está disponível nas páginas de consulta **Processamento de exceções**, **Fatura em aberto**, e **Diário de fatura** permite exibir ou ocultar o visualizador de anexo.
 
-### <a name="security"></a>Segurança
+## <a name="security"></a>Segurança
 
 As seguintes ações no visualizador de anexos são controladas por meio de segurança baseada em função:
 
@@ -212,7 +203,7 @@ As seguintes funções fornecem acesso somente leitura ou acesso de leitura/grav
 + **Funcionário de contas a pagar** e **Gerente de contas a pagar** – O dever Manter faturas de fornecedor é atribuído a essas funções.
 + **Funcionário de contas a pagar**, **Gerente de contas a pagar**, **Funcionário de pagamento centralizado de contas a pagar** e **Funcionário de pagamentos de contas a pagar** – O dever Consultar status da fatura de fornecedor é atribuído a essas funções.
 
-### <a name="invoice-exception-details-page"></a>Página de detalhes de exceção de fatura
+### <a name="vendor-invoice-attachment"></a>Anexo da fatura de fornecedor
 
 Os seguintes privilégios fornecem acesso somente leitura ou acesso de leitura/gravação ao visualizador de anexos para as ações de destaque, bloqueio e anotação.
 

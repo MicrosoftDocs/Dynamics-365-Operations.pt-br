@@ -2,7 +2,6 @@
 title: Função VALUEINLARGE do ER
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) VALUEINLARGE é usada.
 author: NickSelin
-manager: kfend
 ms.date: 08/17/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 1e35c695d697e0d0f42baeaf568548273f9d205b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 74d6856a0598293d87f79baabed4773d617164d0
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565799"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743742"
 ---
 # <a name="valueinlarge-er-function"></a>Função VALUEINLARGE do ER
 

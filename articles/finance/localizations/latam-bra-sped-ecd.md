@@ -2,11 +2,9 @@
 title: SPED ECD
 description: Este tópico explica como configurar e gerar arquivos de texto do SPED ECD.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 32da812e5b635da48f9eca8b5b153d13f7b26970
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 13d10b617f96f037261fdcb178c200fa6e3c8601
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219860"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823633"
 ---
 # <a name="sped-ecd"></a>SPED ECD
 

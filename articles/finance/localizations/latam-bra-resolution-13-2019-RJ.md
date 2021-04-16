@@ -2,11 +2,9 @@
 title: Resolução do SPED fiscal 13/2019 RJ
 description: Este tópico explica como configurar e gerar arquivos de texto do SPED ECD.
 author: v-oloski
-manager: AnnBe
 ms.date: 10/22/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7
-ms.openlocfilehash: 4558c1634d58cb446445a99e4e91ff5dc04a2376
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60a2ebca915ec7d457fa13fa8e9f16d641edfbb3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215050"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822809"
 ---
 # <a name="sped-fiscal-resolution-132019-rj"></a>Resolução do SPED fiscal 13/2019 RJ
 

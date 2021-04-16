@@ -2,11 +2,9 @@
 title: Configurar e gerenciar o log de banco de dados
 description: É possível rastrear alterações em tabelas e campos no Dynamics 365 Human Resources com o log de banco de dados.
 author: andreabichsel
-manager: tfehr
 ms.date: 06/10/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8057ebd0bc061c6bf78d8674c45e0885ffce681c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: d22ff9f3ce68c81f37840342c795d7d162eb027b
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467640"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801326"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar e gerenciar o log de banco de dados
 
@@ -68,7 +66,22 @@ Para melhorar o desempenho, limite as entradas de log selecionando campos espec�
 Você pode usar o assistente **Registrando alterações do banco de dados** para configurar o log de banco de dados. O assistente fornece uma maneira flexível de configurar o log de tabelas ou campos.
 
 1. Vá para **Administração do sistema > Links > Banco de dados > Configuração do log de banco de dados**. Selecione **Novo** para iniciar o assistente **Registrando alterações do banco de dados**.
-2. Conclua o assistente.
+2. Selecione **Avançar**. 
+3. Na página **Tabelas e campos** do assistente, selecione as tabelas e os campos em que deseja habilitar o log de banco de dados e selecione **Avançar**.
+
+   > [!Note]
+   > O log de banco de dados não está disponível em todas as tabelas do banco de dados de Recursos Humanos. Selecionar **Mostrar todas as tabelas** abaixo da lista expande a lista de tabelas e campos para mostrar todas as tabelas do banco de dados para as quais o log de banco de dados está disponível, mas isso será um subconjunto da lista completa de tabelas de banco de dados.
+
+4. Na página **Tipos de alteração** do assistente, selecione as operações de dados para as quais deseja rastrear alterações em cada uma das tabelas e dos campos e, em seguida, selecione **Avançar**. Consulte a tabela abaixo para obter uma descrição das operações de dados disponíveis para registro em log.
+5. Na página **Concluir**, revise as alterações que serão feitas e selecione **Concluir**.
+
+| Operação | descrição |
+| -- | -- |
+| Controlar novas transações | Crie um log para novos registros criados na tabela. |
+| Atualização | Crie um log para atualizações em registros de tabela ou atualizações de campos selecionados individualmente na tabela. Se você optar por registrar em log as atualizações da tabela, um registro em log será criado sempre que uma atualização for feita em qualquer campo de qualquer registro na tabela. Se você optar por registrar em log as atualizações de campos específicos, um registro em log será criado somente quando atualizações forem feitas nesses campos de registros de tabela. |
+| Delete | Crie um log para registros excluídos da tabela. |
+| Renomear chave | Crie um registro em log quando uma chave da tabela for renomeada. |
+
 
 ## <a name="clean-up-database-logs"></a>Limpar logs do banco de dados
 

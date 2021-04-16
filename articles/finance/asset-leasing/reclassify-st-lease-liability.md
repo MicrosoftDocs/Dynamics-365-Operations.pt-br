@@ -2,11 +2,9 @@
 title: Reclassificar a parte de curto prazo de uma responsabilidade com arrendamento
 description: Este tópico explica como criar uma entrada de diário mensal para reclassificar uma parte da responsabilidade com arrendamento como um curto prazo.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9189033987a3072c7122e1a198768d9de6aa2a52
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7d98d66b5fe9d32a86eb75d937fedfdca6773ac4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254074"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823086"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Reclassificar a parte de curto prazo de uma responsabilidade com arrendamento
 
@@ -38,8 +36,7 @@ Para criar e lançar a entrada do diário de reclassificação de passivos de cu
 2. Na caixa de diálogo **Criação de diário de lotes**, no campo **Selecionar agenda**, selecione **Reclassificação de responsabilidade com arrendamento de curto prazo**.
 3. No campo **Grupo de arrendamento**, selecione um grupo de arrendamento. Como alternativa, no campo **ID do Registro**, selecione a ID do registro.
 4. Ative o parâmetro **Lançar**. Como alternativa, se a entrada tiver de ser criada mas não lançada, deixe esse parâmetro desativado.
-5. Ative o parâmetro **Visualizar antes do lançamento** para exibir a entrada antes que ela seja lançada.
-6. Selecione **OK**.
+5. Selecione **OK**.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

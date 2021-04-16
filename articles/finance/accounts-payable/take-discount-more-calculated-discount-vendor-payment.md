@@ -2,11 +2,9 @@
 title: Obtenha um desconto maior do que o calculado para um pagamento de fornecedor
 description: Este artigo percorre um cenário onde um desconto à vista é dado para um valor maior do que o desconto originalmente disponível na fatura. Esse cenário que pode ocorrer se uma organização firmar um contrato com o fornecedor para pagar um valor menor na fatura.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a56331f76867aeac0bad0912749d96f959513e0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 62f2088ff04a0ef5ffe6ffe47b85f47e6957264d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235876"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810237"
 ---
 # <a name="take-more-than-the-calculated-discount-for-a-vendor-payment"></a>Obtenha um desconto maior do que o calculado para um pagamento de fornecedor
 
@@ -38,10 +36,10 @@ O fornecedor 3051 oferece à Fabrikam um desconto à vista de 4% se uma fatura f
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 12/7/2015 |
-| Valor de desconto à vista         | 60,00     |
+| Valor de desconto à vista         | 60.00     |
 | Usar desconto à vista            | Normal    |
 | Desconto à vista obtido          | 0,00      |
 | Valor do desconto à vista a ser obtido | 60,00     |

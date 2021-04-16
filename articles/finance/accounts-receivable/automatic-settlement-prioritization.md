@@ -2,11 +2,9 @@
 title: Liquidação e priorização automáticas
 description: Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/30/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5de57ba626e177677eab5b8d2a815f191e5f6a87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b23c6750859bd5fe519511fa765e07e8c91f8236
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247981"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822410"
 ---
 # <a name="automatic-settlement-and-prioritization"></a>Liquidação e priorização automáticas
 

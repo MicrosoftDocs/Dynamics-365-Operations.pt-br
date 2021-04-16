@@ -2,11 +2,9 @@
 title: Modelos do provedor para membros de dimensão estatística e provedores de medida
 description: Este tópico fornece informações sobre membros da dimensão estatística e modelos de provedores de medidas estatísticas. Os membros da dimensão estatística podem ser utilizados como base de alocação em políticas como distribuição de custos e alocação de custos. Eles também podem ser usados ​​para relatar o consumo de custos não monetários.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate, CAMAXStatisticalMeasureProviderConfiguration, CAMStatisticalDimensionMember, CAMDataConnectorStatisticalMeasure, CAMImportedStatisticalMeasure, CAMImportedStatisticalMeasureProviderConfiguration
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1ceb274c05874438206c1b3f8fc279a6f39e2b69
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208814"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833057"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modelos do provedor para membros de dimensão estatística e provedores de medida
 
@@ -160,9 +158,9 @@ Depois que os dados de origem para a medida estatística forem processados, as s
 | 31/01/2017      | 2.00      | FTEs                | Funcionários em horário integral | CC002       |
 | 31/01/2017      | 2.00      | FTEs                | Funcionários em horário integral | CC003       |
 
-**Entradas estatísticas**
+**Entradas de estatísticas**
 
-| Objeto de custo |    | Data contábil | Membro de dimensão estatística |  descrição        | Magnitude |
+| Objeto de custo |  descrição  | Data contábil | Membro de dimensão estatística |  descrição        | Magnitude |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
 | CC001       | RH | 31/01/2017      | FTEs                         | Funcionários em horário integral | 1.00      |
 | CC002       | FI | 31/01/2017      | FTEs                         | Funcionários em horário integral | 2.00      |
@@ -326,9 +324,9 @@ Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Geren
 | 31/01/2017      | 4,100.00   | eletricidade  | Consumo de eletricidade | CC002       |
 | 31/01/2017      | 15,000.00  | eletricidade  | Consumo de eletricidade | CC003       |
 
-**Entradas estatísticas**
+**Entradas de estatísticas**
 
-| Objeto de custo |    | Data contábil | Membro de dimensão estatística |      descrição                   | Magnitude  |
+| Objeto de custo | descrição | Data contábil | Membro de dimensão estatística |      descrição                   | Magnitude  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
 | CC001       | RH | 31/01/2017      | eletricidade                  | Consumo de eletricidade | 2,450.00   |
 | CC002       | FI | 31/01/2017      | eletricidade                  | Consumo de eletricidade | 4,100.00   |
@@ -336,11 +334,11 @@ Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Geren
 
 Se a base de atribuição de membros de dimensão predefinida de eletricidade for atribuída como uma base de alocação em uma regra de distribuição de custos, o custo será distribuído usando o seguinte fator de alocação.
 
-| Objeto de custo |    | Magnitude | Fator de alocação          |
-|-------------|----|-----------|----------------------------|
-| CC001       | RH | 2,450.00  | (2.450 ÷ 21.550) × valor  |
-| CC002       | FI | 4,100.00  | (4.100 ÷ 21.550) × valor  |
-| CC003       | TE | 15,000.00 | (15.000 ÷ 21.550) × valor |
+| Objeto de custo | descrição   | Magnitude | Fator de alocação          |
+|-------------|---------------|-----------|----------------------------|
+| CC001       | RH            | 2,450.00  | (2.450 ÷ 21.550) × valor  |
+| CC002       | FI            | 4,100.00  | (4.100 ÷ 21.550) × valor  |
+| CC003       | TE            | 15,000.00 | (15.000 ÷ 21.550) × valor |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

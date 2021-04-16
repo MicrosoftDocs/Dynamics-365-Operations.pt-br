@@ -2,11 +2,9 @@
 title: Configurar juros e multas em pagamentos de clientes (Brasil)
 description: Use este procedimento para configurar juros e multas em pagamentos de clientes.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e8ff4ca232e33eb94ea8d6c3107fbdd10042648e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: cd333ce2be08915df777a06eaf320ecd1ecd4a86
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212912"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823621"
 ---
 # <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a>Configurar juros e multas em pagamentos de clientes (Brasil)
 

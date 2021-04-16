@@ -2,11 +2,9 @@
 title: Habilitar pagamentos de clientes e descontos à vista
 description: Este tópico explica como habilitar o recálculo dos descontos à vista.
 author: kfend
-manager: AnnBe
 ms.date: 10/16/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-10-07
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: faab0850a014e752ae5cd04496ef02818f29d0c0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 5f3872e65bddd7a413019aa08ee3f1182dc380cf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216435"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813990"
 ---
 # <a name="enable-customer-payments-and-cash-discounts"></a>Habilitar pagamentos de clientes e descontos à vista
 

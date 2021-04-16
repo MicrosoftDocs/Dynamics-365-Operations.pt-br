@@ -2,11 +2,9 @@
 title: Liquidar um pagamento parcial antes da data do desconto com um pagamento final após a data do desconto
 description: Este artigo discute o efeito de liquidar pagamentos de faturas de clientes. O cenário se concentra nos efeitos no sub-razão, e não na Contabilidade.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 87408e864ab8e6101fc908e744231f10d0d2e664
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250545"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835137"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidar um pagamento parcial antes da data do desconto com um pagamento final após a data do desconto
 
@@ -48,10 +46,10 @@ Em 2 de julho, o cliente 4027 faz um pagamento parcial de 297,00 para a fatura. 
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**. Se você não alterar o valor da opção **Valor para liquidar** para 297,00, os valores da opção **Valor de desconto à vista** que aparecem serão diferentes. No entanto, 3,00 serão obtidos como o desconto à vista quando o pagamento for lançado, pois a liquidação é ajustada  **automaticamente ao Valor** a ser liquidado para você.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
-| Valor de desconto à vista         | 10.00     |
+| Valor de desconto à vista         | 10,00     |
 | Usar desconto à vista            | Normal    |
 | Desconto à vista obtido          | 0,00      |
 | Valor do desconto à vista a ser obtido | 3,00      |
@@ -73,7 +71,7 @@ Em 11 de julho, após o período do desconto, o cliente 4027 paga o restante des
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 0,00      |
@@ -89,10 +87,10 @@ Se Arnie alterar o valor no campo **Usar desconto à vista** para **Sempre**, a 
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
-| Valor de desconto à vista         | 7:00      |
+| Valor de desconto à vista         | 7.00      |
 | Usar desconto à vista            | Sempre    |
 | Desconto à vista obtido          | 3,00      |
 | Valor do desconto à vista a ser obtido | 7:00      |

@@ -2,7 +2,6 @@
 title: NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 description: Este tópico explica como marcar vendas digitais intermediárias para NF-e.
 author: gionoder
-manager: AnnBe
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: f0fb4a05382ed798142527bd7783f17046ab0036
-ms.sourcegitcommit: 6c108be3378b365e6ec596a1a8666d59b758db25
+ms.openlocfilehash: 490eeee4b7ed896375ba3a1763a65b8dafe9bba9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/12/2021
-ms.locfileid: "5585146"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823635"
 ---
 # <a name="nt2020006--intermediary-sales-digital-platform-for-nf-e"></a>NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 

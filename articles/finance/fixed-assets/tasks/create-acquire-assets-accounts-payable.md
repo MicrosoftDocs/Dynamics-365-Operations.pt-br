@@ -2,11 +2,9 @@
 title: Criar e adquirir ativos de contas a pagar
 description: Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo de compra.
 author: saraschi2
-manager: AnnBe
 ms.date: 08/13/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cb7c92fcab622109b01590d4acadce0d707d3d2d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e3342c5e667ad3c8f3638afdcd9f3c15a815777
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227079"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823947"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Criar e adquirir ativos de contas a pagar
 

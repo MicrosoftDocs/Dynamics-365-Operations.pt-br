@@ -2,11 +2,9 @@
 title: Criar um aplicativo de exportação de dados recorrente
 description: Este artigo mostra como criar um aplicativo lógico de Microsoft Azure que exporta dados da Microsoft Dynamics 365 Human Resources em um plano recorrente.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5bc9b5c97f855f1d8eb44765c98473b69f96adec
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 3d7fc01906a017d4214d4794097a11b4a3416b95
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466968"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5801110"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Criar um aplicativo de exportação de dados recorrente
 

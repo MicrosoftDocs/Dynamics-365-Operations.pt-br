@@ -2,11 +2,9 @@
 title: Liquidar um pagamento parcial antes da data do desconto e um pagamento final após a data do desconto
 description: Este artigo mostra um cenário na qual vários pagamentos parciais são feitos, alguns no período de desconto à vista e outro fora do período de desconto à vista.
 author: abruer
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e125ca5fbebcf062eb17f56a2ef6669d1b6d6ae3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34a9dd53b6a287ef512a5479c0ad1a51211577b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227319"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810333"
 ---
 # <a name="settle-partial-payment-before-discount-date-and-final-payment-after-discount-date"></a>Liquidar um pagamento parcial antes da data do desconto e um pagamento final após a data do desconto
 
@@ -48,7 +46,7 @@ Em 2 de julho, Alice deseja liquidar 300.00 da fatura. O pagamento está qualifi
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | -10,00    |
@@ -73,7 +71,7 @@ Alice paga o restante da fatura em 15 de julho, que ocorre após o período de d
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**. April pode ver que ela já obteve um desconto de 3,00.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
 | Valor de desconto à vista         | 0,00      |
@@ -99,10 +97,10 @@ Se o fornecedor permitir que April obtenha um desconto, mesmo que ela esteja pag
 
 As informações do desconto aparecem na parte inferior da página **Liquidar transações**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 09/07/2015 |
-| Valor de desconto à vista         | 7:00      |
+| Valor de desconto à vista         | 7.00      |
 | Usar desconto à vista            | Sempre    |
 | Desconto à vista obtido          | -3,00     |
 | Valor do desconto à vista a ser obtido | -7,00     |
