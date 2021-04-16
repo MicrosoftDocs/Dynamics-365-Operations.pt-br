@@ -2,11 +2,9 @@
 title: Usando programas de continuidade
 description: Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda.
 author: scott-tucker
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
@@ -16,50 +14,50 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1de6d2cd88ba31f526621497d6fab36db631933e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 58eca42634ad995f174350bc3a1996ddc4c449b9
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232632"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804080"
 ---
-# <a name="using-continuity-program"></a><span data-ttu-id="6c012-103">Usando programas de continuidade</span><span class="sxs-lookup"><span data-stu-id="6c012-103">Using continuity program</span></span>
+# <a name="using-continuity-program"></a><span data-ttu-id="7f4f4-103">Usando programas de continuidade</span><span class="sxs-lookup"><span data-stu-id="7f4f4-103">Using continuity program</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="6c012-104">Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="6c012-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="6c012-105">Para concluir o procedimento, o usuário precisa estar configurado como usuário de call center.</span><span class="sxs-lookup"><span data-stu-id="6c012-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="6c012-106">Este procedimento usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="6c012-106">This procedure uses the USRT demo data company.</span></span>
+<span data-ttu-id="7f4f4-104">Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-104">This procedure walks through selling a continuity program and processing related sales orders.</span></span> <span data-ttu-id="7f4f4-105">Para concluir o procedimento, o usuário precisa estar configurado como usuário de call center.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-105">To complete this procedure, the user has to be set up as a call center user.</span></span> <span data-ttu-id="7f4f4-106">Este procedimento usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-106">This procedure uses the USRT demo data company.</span></span>
 
-1. <span data-ttu-id="6c012-107">Vá para Varejo e Comércio > Clientes > SAC.</span><span class="sxs-lookup"><span data-stu-id="6c012-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
-2. <span data-ttu-id="6c012-108">No campo SearchText, digite "Karen" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="6c012-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
-    * <span data-ttu-id="6c012-109">A caixa de diálogo de pesquisa avançada deve aparecer.</span><span class="sxs-lookup"><span data-stu-id="6c012-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="6c012-110">Caso isso não ocorra, clique em Pesquisa à direita desse campo.</span><span class="sxs-lookup"><span data-stu-id="6c012-110">If it doesn't, click Search to the right of this field.</span></span>  
-3. <span data-ttu-id="6c012-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="6c012-111">In the list, mark the selected row.</span></span>
-    * <span data-ttu-id="6c012-112">Deve haver apenas uma linha exibindo Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="6c012-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="6c012-113">Selecione a linha clicando na coluna de marca de seleção na extremidade esquerda da grade.</span><span class="sxs-lookup"><span data-stu-id="6c012-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
-4. <span data-ttu-id="6c012-114">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="6c012-114">Click Select.</span></span>
-5. <span data-ttu-id="6c012-115">Clique em Nova ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="6c012-115">Click New sales order.</span></span>
-    * <span data-ttu-id="6c012-116">É recomendável anotar o número da ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="6c012-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="6c012-117">Você precisará dele posteriormente neste procedimento.</span><span class="sxs-lookup"><span data-stu-id="6c012-117">You'll need it later in this procedure.</span></span>  
-6. <span data-ttu-id="6c012-118">No campo Número de item, digite "88000" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="6c012-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="6c012-119">Trata-se de um item de continuidade nos dados de demonstração da USRT.</span><span class="sxs-lookup"><span data-stu-id="6c012-119">This is a continuity item in the USRT demo data.</span></span>  
-7. <span data-ttu-id="6c012-120">Clique em Concluir.</span><span class="sxs-lookup"><span data-stu-id="6c012-120">Click Complete.</span></span>
-8. <span data-ttu-id="6c012-121">No campo Forma de pagamento, insira "Visa".</span><span class="sxs-lookup"><span data-stu-id="6c012-121">In the Payment method field, enter 'Visa'.</span></span>
-9. <span data-ttu-id="6c012-122">Clique em Adicionar cartão de crédito.</span><span class="sxs-lookup"><span data-stu-id="6c012-122">Click Add credit card.</span></span>
-    * <span data-ttu-id="6c012-123">Insira as informações de cartão de crédito necessárias nesta página.</span><span class="sxs-lookup"><span data-stu-id="6c012-123">Enter the required credit card information on this page.</span></span>  
-10. <span data-ttu-id="6c012-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6c012-124">Click OK.</span></span>
-11. <span data-ttu-id="6c012-125">Expandir a seção Pagamento.</span><span class="sxs-lookup"><span data-stu-id="6c012-125">Expand the Payment section.</span></span>
-    * <span data-ttu-id="6c012-126">Para enviar uma ordem de call center, os pagamentos precisam ser inseridos para a ordem.</span><span class="sxs-lookup"><span data-stu-id="6c012-126">To submit a call center order, payments have to be entered for the order.</span></span>  
-12. <span data-ttu-id="6c012-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6c012-127">Click OK.</span></span>
-13. <span data-ttu-id="6c012-128">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="6c012-128">Click Submit.</span></span>
-    * <span data-ttu-id="6c012-129">Você acabou de criar uma ordem de continuidade.</span><span class="sxs-lookup"><span data-stu-id="6c012-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="6c012-130">Em seguida, você executará dois processos de lote que serão usados para processar as ordens de continuidade.</span><span class="sxs-lookup"><span data-stu-id="6c012-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
-14. <span data-ttu-id="6c012-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6c012-131">Close the page.</span></span>
-15. <span data-ttu-id="6c012-132">Vá para Varejo e Comércio > Continuidade > Processar pagamentos de continuidade.</span><span class="sxs-lookup"><span data-stu-id="6c012-132">Go to Retail and Commerce > Continuity > Process continuity payments.</span></span>
-16. <span data-ttu-id="6c012-133">No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="6c012-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-17. <span data-ttu-id="6c012-134">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6c012-134">Click OK.</span></span>
-18. <span data-ttu-id="6c012-135">Vá para Varejo e Comércio > Continuidade > Criar ordens filho de continuidade.</span><span class="sxs-lookup"><span data-stu-id="6c012-135">Go to Retail and Commerce > Continuity > Create continuity child orders.</span></span>
-    * <span data-ttu-id="6c012-136">Esse processo criará ordens de venda com base nas configurações dos seus programas de continuidade.</span><span class="sxs-lookup"><span data-stu-id="6c012-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
-19. <span data-ttu-id="6c012-137">No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="6c012-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
-    * <span data-ttu-id="6c012-138">O item "88000" é um item de continuidade nos dados de demonstração da USRT.</span><span class="sxs-lookup"><span data-stu-id="6c012-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
-20. <span data-ttu-id="6c012-139">No campo Ordem de venda, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6c012-139">In the Sales order field, enter or select a value.</span></span>
-    * <span data-ttu-id="6c012-140">Insira o número da ordem de venda que você anotou anteriormente no procedimento.</span><span class="sxs-lookup"><span data-stu-id="6c012-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="6c012-141">Isso reduzirá o tempo de processamento ao mínimo para este procedimento.</span><span class="sxs-lookup"><span data-stu-id="6c012-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="6c012-142">O campo Ordem de venda é opcional - você pode processar todas as ordens de qualquer programa.</span><span class="sxs-lookup"><span data-stu-id="6c012-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
-21. <span data-ttu-id="6c012-143">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6c012-143">Click OK.</span></span>
+1. <span data-ttu-id="7f4f4-107">Vá para Varejo e Comércio > Clientes > SAC.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-107">Go to Retail and Commerce > Customers > Customer service.</span></span>
+2. <span data-ttu-id="7f4f4-108">No campo SearchText, digite "Karen" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-108">In the SearchText field, type 'Karen' and then press the Tab key.</span></span>
+    * <span data-ttu-id="7f4f4-109">A caixa de diálogo de pesquisa avançada deve aparecer.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-109">The advanced search dialog should pop up.</span></span> <span data-ttu-id="7f4f4-110">Caso isso não ocorra, clique em Pesquisa à direita desse campo.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-110">If it doesn't, click Search to the right of this field.</span></span>  
+3. <span data-ttu-id="7f4f4-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-111">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="7f4f4-112">Deve haver apenas uma linha exibindo Karen Berg.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-112">There should be only one row with Karen Berg showing.</span></span> <span data-ttu-id="7f4f4-113">Selecione a linha clicando na coluna de marca de seleção na extremidade esquerda da grade.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-113">Select the row by clicking on the checkmark column on the far left of the grid.</span></span>  
+4. <span data-ttu-id="7f4f4-114">Clique em Selecionar.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-114">Click Select.</span></span>
+5. <span data-ttu-id="7f4f4-115">Clique em Nova ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-115">Click New sales order.</span></span>
+    * <span data-ttu-id="7f4f4-116">É recomendável anotar o número da ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-116">It's a good idea to note the sales order number.</span></span> <span data-ttu-id="7f4f4-117">Você precisará dele posteriormente neste procedimento.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-117">You'll need it later in this procedure.</span></span>  
+6. <span data-ttu-id="7f4f4-118">No campo Número de item, digite "88000" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-118">In the Item number field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="7f4f4-119">Trata-se de um item de continuidade nos dados de demonstração da USRT.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-119">This is a continuity item in the USRT demo data.</span></span>  
+7. <span data-ttu-id="7f4f4-120">Clique em Concluir.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-120">Click Complete.</span></span>
+8. <span data-ttu-id="7f4f4-121">No campo Forma de pagamento, insira "Visa".</span><span class="sxs-lookup"><span data-stu-id="7f4f4-121">In the Payment method field, enter 'Visa'.</span></span>
+9. <span data-ttu-id="7f4f4-122">Clique em Adicionar cartão de crédito.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-122">Click Add credit card.</span></span>
+    * <span data-ttu-id="7f4f4-123">Insira as informações de cartão de crédito necessárias nesta página.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-123">Enter the required credit card information on this page.</span></span>  
+10. <span data-ttu-id="7f4f4-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-124">Click OK.</span></span>
+11. <span data-ttu-id="7f4f4-125">Expandir a seção Pagamento.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-125">Expand the Payment section.</span></span>
+    * <span data-ttu-id="7f4f4-126">Para enviar uma ordem de call center, os pagamentos precisam ser inseridos para a ordem.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-126">To submit a call center order, payments have to be entered for the order.</span></span>  
+12. <span data-ttu-id="7f4f4-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-127">Click OK.</span></span>
+13. <span data-ttu-id="7f4f4-128">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-128">Click Submit.</span></span>
+    * <span data-ttu-id="7f4f4-129">Você acabou de criar uma ordem de continuidade.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-129">You're done creating a new continuity order.</span></span> <span data-ttu-id="7f4f4-130">Em seguida, você executará dois processos de lote que serão usados para processar as ordens de continuidade.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-130">Next, you'll run two batch processes that are used to process the continuity orders.</span></span>  
+14. <span data-ttu-id="7f4f4-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-131">Close the page.</span></span>
+15. <span data-ttu-id="7f4f4-132">Vá para Varejo e Comércio > Continuidade > Processar pagamentos de continuidade.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-132">Go to Retail and Commerce > Continuity > Process continuity payments.</span></span>
+16. <span data-ttu-id="7f4f4-133">No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-133">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+17. <span data-ttu-id="7f4f4-134">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-134">Click OK.</span></span>
+18. <span data-ttu-id="7f4f4-135">Vá para Varejo e Comércio > Continuidade > Criar ordens filho de continuidade.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-135">Go to Retail and Commerce > Continuity > Create continuity child orders.</span></span>
+    * <span data-ttu-id="7f4f4-136">Esse processo criará ordens de venda com base nas configurações dos seus programas de continuidade.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-136">This process will create new sales orders based on the settings of your continuity programs.</span></span>  
+19. <span data-ttu-id="7f4f4-137">No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-137">In the Continuity item field, type '88000' and then press the Tab key.</span></span>
+    * <span data-ttu-id="7f4f4-138">O item "88000" é um item de continuidade nos dados de demonstração da USRT.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-138">Item '88000' is a continuity item in the USRT demo data.</span></span>  
+20. <span data-ttu-id="7f4f4-139">No campo Ordem de venda, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-139">In the Sales order field, enter or select a value.</span></span>
+    * <span data-ttu-id="7f4f4-140">Insira o número da ordem de venda que você anotou anteriormente no procedimento.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-140">Enter the sales order number that you noted earlier in the procedure.</span></span> <span data-ttu-id="7f4f4-141">Isso reduzirá o tempo de processamento ao mínimo para este procedimento.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-141">This will keep the processing time to a minimal for this procedure.</span></span> <span data-ttu-id="7f4f4-142">O campo Ordem de venda é opcional - você pode processar todas as ordens de qualquer programa.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-142">The Sales order field field is optional--you could process all orders for any one program.</span></span>  
+21. <span data-ttu-id="7f4f4-143">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="7f4f4-143">Click OK.</span></span>
 
 
 
