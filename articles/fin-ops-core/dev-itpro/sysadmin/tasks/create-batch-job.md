@@ -2,7 +2,6 @@
 title: Criar um trabalho em lotes
 description: Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instância do Application Object Server (AOS) para processamento automático.
 author: maertenm
-manager: AnnBe
 ms.date: 06/21/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,45 +13,45 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 753a78dd140ca82c8c42ff8fdd3772e66b5a1cb0
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f498014555e0beccbc8965dd43e5162944867978
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571068"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745852"
 ---
-# <a name="create-a-batch-job"></a><span data-ttu-id="ce475-103">Criar um trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="ce475-103">Create a batch job</span></span>
+# <a name="create-a-batch-job"></a><span data-ttu-id="60f49-103">Criar um trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="60f49-103">Create a batch job</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ce475-104">Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instância do Application Object Server (AOS) para processamento automático.</span><span class="sxs-lookup"><span data-stu-id="ce475-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="ce475-105">Os trabalhos em lotes são executados usando as credenciais de segurança do usuário que criou o trabalho.</span><span class="sxs-lookup"><span data-stu-id="ce475-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="ce475-106">Use o procedimento a seguir para criar um trabalho de lote.</span><span class="sxs-lookup"><span data-stu-id="ce475-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="ce475-107">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="ce475-107">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="60f49-104">Um trabalho em lotes é um grupo de tarefas que são enviadas para uma instância do Application Object Server (AOS) para processamento automático.</span><span class="sxs-lookup"><span data-stu-id="60f49-104">A batch job is a group of tasks that are submitted to an Application Object Server (AOS) instance for automatic processing.</span></span> <span data-ttu-id="60f49-105">Os trabalhos em lotes são executados usando as credenciais de segurança do usuário que criou o trabalho.</span><span class="sxs-lookup"><span data-stu-id="60f49-105">Batch jobs are run by using the security credentials of the user who created the job.</span></span> <span data-ttu-id="60f49-106">Use o procedimento a seguir para criar um trabalho de lote.</span><span class="sxs-lookup"><span data-stu-id="60f49-106">Use the following procedure to create a batch job.</span></span> <span data-ttu-id="60f49-107">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="60f49-107">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-the-batch-job"></a><span data-ttu-id="ce475-108">Criar o trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="ce475-108">Create the batch job</span></span>
-1. <span data-ttu-id="ce475-109">Vá para **Painel de navegação > Módulos > Administração do sistema > Consultas > Trabalhos em lotes**.</span><span class="sxs-lookup"><span data-stu-id="ce475-109">Go to **Navigation pane > Modules > System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="ce475-110">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="ce475-110">Click **New**.</span></span>
-3. <span data-ttu-id="ce475-111">No campo **Descrição do trabalho**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ce475-111">In the **Job description** field, type a value.</span></span>
-4. <span data-ttu-id="ce475-112">No campo **Data/hora inicial agendada**, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="ce475-112">In the **Scheduled start date/time** field, enter a date and time.</span></span>
-5. <span data-ttu-id="ce475-113">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="ce475-113">Click **Save**.</span></span>
+## <a name="create-the-batch-job"></a><span data-ttu-id="60f49-108">Criar o trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="60f49-108">Create the batch job</span></span>
+1. <span data-ttu-id="60f49-109">Vá para **Painel de navegação > Módulos > Administração do sistema > Consultas > Trabalhos em lotes**.</span><span class="sxs-lookup"><span data-stu-id="60f49-109">Go to **Navigation pane > Modules > System administration > Inquiries > Batch jobs**.</span></span>
+2. <span data-ttu-id="60f49-110">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="60f49-110">Click **New**.</span></span>
+3. <span data-ttu-id="60f49-111">No campo **Descrição do trabalho**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="60f49-111">In the **Job description** field, type a value.</span></span>
+4. <span data-ttu-id="60f49-112">No campo **Data/hora inicial agendada**, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="60f49-112">In the **Scheduled start date/time** field, enter a date and time.</span></span>
+5. <span data-ttu-id="60f49-113">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="60f49-113">Click **Save**.</span></span>
 
-## <a name="create-a-recurrence"></a><span data-ttu-id="ce475-114">Criar uma recorrência</span><span class="sxs-lookup"><span data-stu-id="ce475-114">Create a recurrence</span></span>
-1. <span data-ttu-id="ce475-115">No Painel de Ação, clique em **Trabalho em lotes**.</span><span class="sxs-lookup"><span data-stu-id="ce475-115">On the Action Pane, click **Batch job**.</span></span>
-2. <span data-ttu-id="ce475-116">Clique em **Recorrência**.</span><span class="sxs-lookup"><span data-stu-id="ce475-116">Click **Recurrence**.</span></span> <span data-ttu-id="ce475-117">Use estas opções para inserir um intervalo e um padrão para a recorrência.</span><span class="sxs-lookup"><span data-stu-id="ce475-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
-3. <span data-ttu-id="ce475-118">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ce475-118">Click **OK**.</span></span>
+## <a name="create-a-recurrence"></a><span data-ttu-id="60f49-114">Criar uma recorrência</span><span class="sxs-lookup"><span data-stu-id="60f49-114">Create a recurrence</span></span>
+1. <span data-ttu-id="60f49-115">No Painel de Ação, clique em **Trabalho em lotes**.</span><span class="sxs-lookup"><span data-stu-id="60f49-115">On the Action Pane, click **Batch job**.</span></span>
+2. <span data-ttu-id="60f49-116">Clique em **Recorrência**.</span><span class="sxs-lookup"><span data-stu-id="60f49-116">Click **Recurrence**.</span></span> <span data-ttu-id="60f49-117">Use estas opções para inserir um intervalo e um padrão para a recorrência.</span><span class="sxs-lookup"><span data-stu-id="60f49-117">Use these options to enter a range and pattern for the recurrence.</span></span>  
+3. <span data-ttu-id="60f49-118">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="60f49-118">Click **OK**.</span></span>
 
-## <a name="add-alerts"></a><span data-ttu-id="ce475-119">Adicionar alertas</span><span class="sxs-lookup"><span data-stu-id="ce475-119">Add alerts</span></span>
-1. <span data-ttu-id="ce475-120">No Painel de Ação, clique em **Trabalho em lotes**.</span><span class="sxs-lookup"><span data-stu-id="ce475-120">On the Action Pane, click **Batch job**.</span></span>
-2. <span data-ttu-id="ce475-121">Clique em **Alertas**.</span><span class="sxs-lookup"><span data-stu-id="ce475-121">Click **Alerts**.</span></span> <span data-ttu-id="ce475-122">Indique se você quer que mensagens de alertas sejam enviadas quando as extremidades do trabalho de grupo, tiverem um erro ou forem canceladas.</span><span class="sxs-lookup"><span data-stu-id="ce475-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="ce475-123">Especifique então se você quer que os alertas indiquem como mensagens pop-up.</span><span class="sxs-lookup"><span data-stu-id="ce475-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
-3. <span data-ttu-id="ce475-124">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ce475-124">Click **OK**.</span></span>
+## <a name="add-alerts"></a><span data-ttu-id="60f49-119">Adicionar alertas</span><span class="sxs-lookup"><span data-stu-id="60f49-119">Add alerts</span></span>
+1. <span data-ttu-id="60f49-120">No Painel de Ação, clique em **Trabalho em lotes**.</span><span class="sxs-lookup"><span data-stu-id="60f49-120">On the Action Pane, click **Batch job**.</span></span>
+2. <span data-ttu-id="60f49-121">Clique em **Alertas**.</span><span class="sxs-lookup"><span data-stu-id="60f49-121">Click **Alerts**.</span></span> <span data-ttu-id="60f49-122">Indique se você quer que mensagens de alertas sejam enviadas quando as extremidades do trabalho de grupo, tiverem um erro ou forem canceladas.</span><span class="sxs-lookup"><span data-stu-id="60f49-122">Indicate if you want alert messages sent when the batch job ends, has an error, or is canceled.</span></span> <span data-ttu-id="60f49-123">Especifique então se você quer que os alertas indiquem como mensagens pop-up.</span><span class="sxs-lookup"><span data-stu-id="60f49-123">Then specify if you want the alerts to be displayed as pop-up messages.</span></span>   
+3. <span data-ttu-id="60f49-124">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="60f49-124">Click **OK**.</span></span>
 
-## <a name="adjust-batch-job-status"></a><span data-ttu-id="ce475-125">Ajuste o status de trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="ce475-125">Adjust batch job status</span></span>
-1. <span data-ttu-id="ce475-126">Vá para **Administração do sistema > Consultas > Trabalhos em lotes**.</span><span class="sxs-lookup"><span data-stu-id="ce475-126">Go to **System administration > Inquiries > Batch jobs**.</span></span>
-2. <span data-ttu-id="ce475-127">Selecione o trabalho em lotes apropriado.</span><span class="sxs-lookup"><span data-stu-id="ce475-127">Select the appropriate batch job.</span></span>
-3. <span data-ttu-id="ce475-128">No Painel de Ação, clique em **Trabalho em lotes > Funções > Alterar status**.</span><span class="sxs-lookup"><span data-stu-id="ce475-128">On the Action Pane, click **Batch job > Functions > Change status**.</span></span>
-4. <span data-ttu-id="ce475-129">Selecione o status apropriado:</span><span class="sxs-lookup"><span data-stu-id="ce475-129">Select the appropriate status:</span></span>
-    - <span data-ttu-id="ce475-130">**Reter**: definir o trabalho em lotes como **reter** para que seja retido do agendador de trabalho em lotes.</span><span class="sxs-lookup"><span data-stu-id="ce475-130">**Withhold**: Set the batch job as **withhold** so it is withheld from the batch job scheduler.</span></span> <span data-ttu-id="ce475-131">Equivalente a *parar*.</span><span class="sxs-lookup"><span data-stu-id="ce475-131">Equivalent to *stop*.</span></span>
-    - <span data-ttu-id="ce475-132">**Aguardar**: definir o trabalho em lotes como **aguardar** para que aguarde para ser retirado pelo agendador de trabalho em lotes.</span><span class="sxs-lookup"><span data-stu-id="ce475-132">**Waiting**: Set the batch job as **waiting** so it is waiting to be picked up by the batch job scheduler.</span></span> <span data-ttu-id="ce475-133">Equivalente a *ir*.</span><span class="sxs-lookup"><span data-stu-id="ce475-133">Equivalent to *go*.</span></span>
-5. <span data-ttu-id="ce475-134">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ce475-134">Click **OK**.</span></span>
+## <a name="adjust-batch-job-status"></a><span data-ttu-id="60f49-125">Ajuste o status de trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="60f49-125">Adjust batch job status</span></span>
+1. <span data-ttu-id="60f49-126">Vá para **Administração do sistema > Consultas > Trabalhos em lotes**.</span><span class="sxs-lookup"><span data-stu-id="60f49-126">Go to **System administration > Inquiries > Batch jobs**.</span></span>
+2. <span data-ttu-id="60f49-127">Selecione o trabalho em lotes apropriado.</span><span class="sxs-lookup"><span data-stu-id="60f49-127">Select the appropriate batch job.</span></span>
+3. <span data-ttu-id="60f49-128">No Painel de Ação, clique em **Trabalho em lotes > Funções > Alterar status**.</span><span class="sxs-lookup"><span data-stu-id="60f49-128">On the Action Pane, click **Batch job > Functions > Change status**.</span></span>
+4. <span data-ttu-id="60f49-129">Selecione o status apropriado:</span><span class="sxs-lookup"><span data-stu-id="60f49-129">Select the appropriate status:</span></span>
+    - <span data-ttu-id="60f49-130">**Reter**: definir o trabalho em lotes como **reter** para que seja retido do agendador de trabalho em lotes.</span><span class="sxs-lookup"><span data-stu-id="60f49-130">**Withhold**: Set the batch job as **withhold** so it is withheld from the batch job scheduler.</span></span> <span data-ttu-id="60f49-131">Equivalente a *parar*.</span><span class="sxs-lookup"><span data-stu-id="60f49-131">Equivalent to *stop*.</span></span>
+    - <span data-ttu-id="60f49-132">**Aguardar**: definir o trabalho em lotes como **aguardar** para que aguarde para ser retirado pelo agendador de trabalho em lotes.</span><span class="sxs-lookup"><span data-stu-id="60f49-132">**Waiting**: Set the batch job as **waiting** so it is waiting to be picked up by the batch job scheduler.</span></span> <span data-ttu-id="60f49-133">Equivalente a *ir*.</span><span class="sxs-lookup"><span data-stu-id="60f49-133">Equivalent to *go*.</span></span>
+5. <span data-ttu-id="60f49-134">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="60f49-134">Click **OK**.</span></span>
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

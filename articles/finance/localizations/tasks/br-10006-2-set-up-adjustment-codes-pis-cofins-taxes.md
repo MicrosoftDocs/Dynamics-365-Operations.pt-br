@@ -2,11 +2,9 @@
 title: Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 description: Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,34 +12,34 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f71e87eb53c7c1cc084748e5eda4ecdcb6df5eb6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6f965e70298ae76e8c381c666a6502fcb79b9cba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254398"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813439"
 ---
-# <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a><span data-ttu-id="b0107-103">Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="b0107-103">Set up adjustment codes for PIS and COFINS taxes (Brazil)</span></span>
+# <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a><span data-ttu-id="b8ba9-103">Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="b8ba9-103">Set up adjustment codes for PIS and COFINS taxes (Brazil)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="b0107-104">Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515.</span><span class="sxs-lookup"><span data-stu-id="b0107-104">You can make manual adjustment transactions to adjust the credit or debit of PIS and COFINS amounts that are reported in records M220, M225, M620, M625, M110, M115, M510, and M515.</span></span> <span data-ttu-id="b0107-105">Primeiro você deve criar os códigos de ajuste.</span><span class="sxs-lookup"><span data-stu-id="b0107-105">You must first create the adjustment codes.</span></span> <span data-ttu-id="b0107-106">O governo brasileiro determina os códigos de ajuste com base em critérios de ajuste e tipo de transação de ajuste.</span><span class="sxs-lookup"><span data-stu-id="b0107-106">The Brazilian government determines the adjustment codes, based on the adjustment criteria and the type of adjustment transaction.</span></span> <span data-ttu-id="b0107-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="b0107-107">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="b8ba9-104">Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-104">You can make manual adjustment transactions to adjust the credit or debit of PIS and COFINS amounts that are reported in records M220, M225, M620, M625, M110, M115, M510, and M515.</span></span> <span data-ttu-id="b8ba9-105">Primeiro você deve criar os códigos de ajuste.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-105">You must first create the adjustment codes.</span></span> <span data-ttu-id="b8ba9-106">O governo brasileiro determina os códigos de ajuste com base em critérios de ajuste e tipo de transação de ajuste.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-106">The Brazilian government determines the adjustment codes, based on the adjustment criteria and the type of adjustment transaction.</span></span> <span data-ttu-id="b8ba9-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-107">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="b0107-108">Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de PIS e COFINS.</span><span class="sxs-lookup"><span data-stu-id="b0107-108">Go to Fiscal books > Setup > Tax adjustment codes > PIS and COFINS adjustment code table.</span></span>
-2. <span data-ttu-id="b0107-109">Expanda a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="b0107-109">Expand the Posting section.</span></span>
-3. <span data-ttu-id="b0107-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="b0107-110">Click New.</span></span>
-4. <span data-ttu-id="b0107-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b0107-111">In the list, mark the selected row.</span></span>
-5. <span data-ttu-id="b0107-112">No campo Contas da empresa, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="b0107-112">In the Company accounts field, enter or select a value.</span></span>
-6. <span data-ttu-id="b0107-113">No campo Código de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="b0107-113">In the Sales tax code field, enter or select a value.</span></span>
-7. <span data-ttu-id="b0107-114">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="b0107-114">In the Main account field, specify the desired values.</span></span>
-8. <span data-ttu-id="b0107-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="b0107-115">Click Save.</span></span>
-9. <span data-ttu-id="b0107-116">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="b0107-116">Click New.</span></span>
-10. <span data-ttu-id="b0107-117">No campo Identificação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="b0107-117">In the Identification field, type a value.</span></span>
-11. <span data-ttu-id="b0107-118">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="b0107-118">In the Description field, type a value.</span></span>
-12. <span data-ttu-id="b0107-119">No campo Tipo de imposto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="b0107-119">In the Tax type field, select an option.</span></span>
-13. <span data-ttu-id="b0107-120">No campo Tipo de Ajuste, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="b0107-120">In the Adjustment type field, select an option.</span></span>
-14. <span data-ttu-id="b0107-121">No campo Código de ajuste, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="b0107-121">In the Adjustment code field, type a value.</span></span>
-15. <span data-ttu-id="b0107-122">No campo Válido a Partir da Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="b0107-122">In the Valid From Date field, enter a date.</span></span>
+1. <span data-ttu-id="b8ba9-108">Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de PIS e COFINS.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-108">Go to Fiscal books > Setup > Tax adjustment codes > PIS and COFINS adjustment code table.</span></span>
+2. <span data-ttu-id="b8ba9-109">Expanda a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-109">Expand the Posting section.</span></span>
+3. <span data-ttu-id="b8ba9-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-110">Click New.</span></span>
+4. <span data-ttu-id="b8ba9-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-111">In the list, mark the selected row.</span></span>
+5. <span data-ttu-id="b8ba9-112">No campo Contas da empresa, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-112">In the Company accounts field, enter or select a value.</span></span>
+6. <span data-ttu-id="b8ba9-113">No campo Código de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-113">In the Sales tax code field, enter or select a value.</span></span>
+7. <span data-ttu-id="b8ba9-114">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-114">In the Main account field, specify the desired values.</span></span>
+8. <span data-ttu-id="b8ba9-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-115">Click Save.</span></span>
+9. <span data-ttu-id="b8ba9-116">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-116">Click New.</span></span>
+10. <span data-ttu-id="b8ba9-117">No campo Identificação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-117">In the Identification field, type a value.</span></span>
+11. <span data-ttu-id="b8ba9-118">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-118">In the Description field, type a value.</span></span>
+12. <span data-ttu-id="b8ba9-119">No campo Tipo de imposto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-119">In the Tax type field, select an option.</span></span>
+13. <span data-ttu-id="b8ba9-120">No campo Tipo de Ajuste, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-120">In the Adjustment type field, select an option.</span></span>
+14. <span data-ttu-id="b8ba9-121">No campo Código de ajuste, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-121">In the Adjustment code field, type a value.</span></span>
+15. <span data-ttu-id="b8ba9-122">No campo Válido a Partir da Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="b8ba9-122">In the Valid From Date field, enter a date.</span></span>
 
 
 
