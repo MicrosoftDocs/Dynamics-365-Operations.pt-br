@@ -2,11 +2,9 @@
 title: Cancelar uma nota fiscal complementar de venda (Brasil)
 description: É possível cancelar uma nota fiscal complementar de vendas incorreta e fornecer um motivo para o cancelamento.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8baf5ec7284d55eca80e1cba884ab4961481ea8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c6caa81e3196ec4107e2d5f8aba55999d356b362
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237489"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821855"
 ---
 # <a name="cancel-a-sales-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de venda (Brasil)
 

@@ -2,11 +2,9 @@
 title: Ativos fixos de PIS e COFINS (Brasil)
 description: Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFINS que é calculado sobre essa transação pode ser adquirido em um número de parcelas específico.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c244d100973d9042b5889381c8052bc37ed5275b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c9db2b47744b9e233349d70a6756252a830f0159
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236680"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823609"
 ---
 # <a name="pis-and-cofins-fixed-assets-brazil"></a>Ativos fixos de PIS e COFINS (Brasil)
 

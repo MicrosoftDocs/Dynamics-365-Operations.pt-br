@@ -2,7 +2,6 @@
 title: Gerenciamento de custo de entrega x transporte
 description: O Microsoft Dynamics 365 Supply Chain Management fornece dois módulos diferentes para trabalhar com transporte, TMS (gerenciamento de transportes) e custo de entrega. Este tópico resume a funcionalidade que os dois módulos têm em comum e realça as diferenças entre eles.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
@@ -15,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9349537754d7e6fd0e278c55d5d762267953800c
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500709"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833848"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Gerenciamento de custo de entrega x transporte
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O Microsoft Dynamics 365 Supply Chain Management fornece dois módulos diferentes para trabalhar com transporte: **TMS (gerenciamento de transportes)** e **custo de entrega**. Este tópico resume a funcionalidade que os dois módulos têm em comum e realça as diferenças entre eles. Você pode usar essas informações para decidir qual módulo melhor atende às suas práticas comerciais. Talvez você ache que algumas práticas comerciais funcionam melhor com TMS, enquanto outras funcionam melhor com custo de entrega. Dependendo das necessidades comerciais, você pode optar por usar um módulo de forma exclusiva ou combinar os dois módulos.
 
@@ -158,15 +156,15 @@ O TMS e o Custo de entrega fornecem funcionalidade para gerenciar o recebimento 
 
 ### <a name="tms-receiving-by-container-features"></a>Recursos do recebimento do TMS por contêiner
 
-O TMS oferece suporte a ASNs de entrada, a todas as grades de recebimento por meio do aplicativo de depósito e a todos os métodos de recebimento pelo cliente do Supply Chain Management.
+O TMS oferece suporte a ASNs de entrada, a todas as grades de recebimento por meio do aplicativo móvel do Gerenciamento de Depósito e a todos os métodos de recebimento pelo cliente do Supply Chain Management.
 
 ### <a name="landed-cost-receiving-by-container-features"></a>Recursos do recebimento de Custo de entrega por contêiner
 
 Para dar suporte ao recebimento por contêiner, o Custo de entrega cria registros de contêiner de remessa e associa ordens de compra a um contêiner de remessa específico usando a ID de contêiner. Os custos gerais indiretos podem ser aplicados a esse contêiner de remessa e divididos para que sejam associados às ordens de compra relevantes.
 
-Os contêineres no Custo de entrega podem ser recebidos por meio de um novo tipo de recibo conhecido como *recebimento de mercadorias em trânsito*, por meio de diários de entrada ou por recebimento de dispositivo móvel. Quando são usados diários de entrada, as quantidades podem ser inicializadas a partir da ordem de mercadorias em trânsito ou das linhas da ordem de compra original no contêiner. O Custo de entrega fornece dois tipos de trabalho para recebimento por meio do aplicativo de depósito.
+Os contêineres no Custo de entrega podem ser recebidos por meio de um novo tipo de recibo conhecido como *recebimento de mercadorias em trânsito*, por meio de diários de entrada ou por recebimento de dispositivo móvel. Quando são usados diários de entrada, as quantidades podem ser inicializadas a partir da ordem de mercadorias em trânsito ou das linhas da ordem de compra original no contêiner. O custo de entrega fornece dois tipos de trabalho para recebimento por meio do aplicativo móvel do Gerenciamento de Depósito.
 
-O Custo de entrega não fornece um ASN para o recebimento eletrônico de mercadorias. Além disso, não há suporte para fluxos de aplicativos de depósito que processam recebimento de carga, recebimento de placa de licença ou recebimento de placa de licença mista.
+O Custo de entrega não fornece um ASN para o recebimento eletrônico de mercadorias. Além disso, não há suporte para fluxos de aplicativo móvel do Gerenciamento de Depósito que processam recebimento de carga, recebimento de placa de licença ou recebimento de placa de licença mista.
 
 ## <a name="rate-shopping-by-vendor"></a>Comparação de taxas por fornecedor
 

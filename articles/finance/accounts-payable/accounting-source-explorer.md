@@ -2,11 +2,9 @@
 title: Gerenciador de fontes contábeis
 description: Este artigo fornece informações sobre o explorador de origem da contabilidade, que pode ser usado para análise detalhada das informações de origem, além das entradas contábeis da contabilidade.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7f92781a8e1400206f91f91c46c319b928e0010c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4624a740538493c247b6c3a0f051ed6208c52504
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820922"
 ---
 # <a name="accounting-source-explorer"></a>Gerenciador de fontes contábeis
 

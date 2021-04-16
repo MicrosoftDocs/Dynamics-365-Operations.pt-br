@@ -2,11 +2,9 @@
 title: Numerar documentos e comprovantes cronologicamente
 description: Este tópico explica como configurar e usar números cronológicos para documentos aplicáveis e comprovantes relacionados.
 author: ikond
-manager: AnnBe
 ms.date: 02/01/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: NumberSequenceGroup
 audience: Application User
@@ -17,18 +15,17 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 4a27b6fdd1e244fb0cb8c5fcefc484494aeb88bd
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254504"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838852"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerar documentos e comprovantes cronologicamente
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/preview-banner.md)]
 
 Em alguns países, há um requisito legal para numerar documentos e comprovantes relacionados em ordem cronológica. A cronologia deve ter suporte de períodos. Todos os números pertencentes a períodos anteriores devem ser menores que os números pertencentes a períodos posteriores. Para atender a esse requisito, a funcionalidade de numeração cronológica foi implementada. Este tópico explica como configurar e usar números cronológicos para documentos aplicáveis e comprovantes relacionados.
 

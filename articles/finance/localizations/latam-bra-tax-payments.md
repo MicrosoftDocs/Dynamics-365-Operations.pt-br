@@ -2,11 +2,9 @@
 title: Pagamentos de impostos no Brasil
 description: Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 author: sndray
-manager: AnnBe
 ms.date: 10/31/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FBTaxAssessmentPayment_BR, FBTaxAssessmentPaymentOtherDebits_BR
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 02ad1aa8787130a8da7e040cf888c78d1c40a4b1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8b53cee038c8f6834529041e8f1970d3895bf9f7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254423"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838772"
 ---
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 

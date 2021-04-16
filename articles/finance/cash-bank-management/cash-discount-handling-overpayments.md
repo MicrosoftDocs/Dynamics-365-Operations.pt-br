@@ -2,11 +2,9 @@
 title: Descontos à vista para pagamentos a maior
 description: Este artigo fornece os cenários que mostram como um pagamento é manuseado quando o cliente leva um desconto à vista, mas também paga em excesso.
 author: panolte
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7740d64166e08d9347ea4648b1fd3c60c6d6ee21
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: be501c049ae7b884e317cbf3bd1918fec3fb421d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232528"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830474"
 ---
 # <a name="cash-discounts-for-overpayments"></a>Descontos à vista para pagamentos a maior
 

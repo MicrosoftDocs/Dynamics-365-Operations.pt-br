@@ -2,11 +2,9 @@
 title: SPED fiscal 2020 - informações complementares do ICMS-ST para o layout 014 do SPED fiscal 2020
 description: Este tópico fornece informações sobre como utilizar o complemento e a compensação do ICMS-ST para o ano civil de 2020.
 author: gionoder
-manager: AnnBe
 ms.date: 12/09/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 925381d358eb0abab5e0dc0870102bab5d4979ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2c0b1f3c149c8cac87906efbfc973f8bf096629a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247962"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814004"
 ---
 # <a name="sped-fiscal-2020---complementary-information-of-the-icms-st-for-sped-fiscal-2020-layout-014"></a>SPED fiscal 2020 - informações complementares do ICMS-ST para o layout 014 do SPED fiscal 2020
 

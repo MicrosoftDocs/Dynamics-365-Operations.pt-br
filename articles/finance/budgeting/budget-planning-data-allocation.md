@@ -2,11 +2,9 @@
 title: Alocação de dados do planejamento de orçamento
 description: Este tópico descreve os métodos de alocação disponíveis no Microsoft Dynamics 365 Finance e como eles podem ser usados.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 03/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3ce04e8936ace70d83febc6be1e39c210fecfa7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bef79df8d9806771f87a6f77a0c9094887050646
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210376"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822194"
 ---
 # <a name="budget-planning-data-allocation"></a>Alocação de dados do planejamento de orçamento
 

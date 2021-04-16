@@ -2,11 +2,9 @@
 title: Reembolsar clientes
 description: Este artigo explica como criar transações de reembolso para um grupo de clientes. Se um cliente tiver um saldo de crédito, é possível reembolsar o cliente para o valor do saldo.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 09/09/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ca087b5a39432eec6b2711cc4c4decf23932b611
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: bd8b32e04743fdde3cc339e1535f8ae58c518aed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5816283"
 ---
 # <a name="reimburse-customers"></a>Reembolsar clientes
 

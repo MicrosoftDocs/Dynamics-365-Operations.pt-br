@@ -1,12 +1,10 @@
 ---
-title: Introdução ao complemento de faturamento eletrônico para a Itália
-description: Este tópico fornece informações que ajudarão você a começar a usar o complemento de faturamento eletrônico para o Itália no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
+title: Introdução ao Faturamento eletrônico para a Itália
+description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para a Itália.
 author: gionoder
-manager: AnnBe
 ms.date: 09/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,26 +15,26 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9c50000c98bdde2c9da43b3110686aa5d01e8081
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259211"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840091"
 ---
-# <a name="get-started-with-the-electronic-invoicing-add-on-for-italy"></a>Introdução ao complemento de faturamento eletrônico para a Itália
+# <a name="get-started-with-electronic-invoicing-for-italy"></a>Introdução ao Faturamento eletrônico para a Itália
 
 [!include [banner](../includes/banner.md)]
 
 
 > [!IMPORTANT]
-> O complemento eletrônico de faturamento para a Itália talvez não ofereça suporte no momento a todas as funções disponíveis para faturas eletrônicas no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management. 
+> O Faturamento eletrônico para a Itália talvez não ofereça suporte no momento a todas as funções disponíveis para faturas eletrônicas no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management. 
 
-Este tópico fornece informações que ajudarão você a começar a usar o complemento de faturamento eletrônico para a Itália. Ele o orienta você pelas etapas de configuração que dependem do país para os Regulatory Configuration Services (RCS) e no Finance. Ele também o orienta durante o processo de envio de faturas eletrônicas geradas no formato **FatturaPA** específico da Itália pelo serviço e explica como revisar os resultados do processamento.
+Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para a Itália. Ele o orienta você pelas etapas de configuração que dependem do país para os Regulatory Configuration Services (RCS) e no Finance. Ele também o orienta durante o processo de envio de faturas eletrônicas geradas no formato **FatturaPA** específico da Itália pelo serviço e explica como revisar os resultados do processamento.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de concluir as etapas deste tópico, você deve concluir as etapas em [Introdução ao complemento do faturamento eletrônico](e-invoicing-get-started.md).
+Antes de concluir as etapas deste tópico, você deve concluir as etapas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 ## <a name="rcs-setup"></a>Configuração do RCS
 
@@ -48,7 +46,7 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 4. Publique o recurso de faturamento eletrônica.
 
 > [!NOTE]
-> O "recurso de faturamento eletrônico" é o nome genérico do recurso configurado e publicado para consumir o servidor do complemento de faturamento eletrônico. Neste caso, a exportação de faturas eletrônicas de clientes é o recurso de faturamento eletrônico que você configurará.
+> O "recurso de faturamento eletrônico" é o nome genérico do recurso configurado e publicado para consumir o servidor do faturamento eletrônico. Neste caso, a exportação de faturas eletrônicas de clientes é o recurso de faturamento eletrônico que você configurará.
 
 ## <a name="import-the-e-invoicing-feature"></a>Importar o recurso de faturamento eletrônico
 
@@ -153,7 +151,7 @@ Você pode publicar o recurso de faturamento eletrônico alterando o status da v
 
 ![Alterar o status do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
-## <a name="set-up-the-electronic-invoicing-add-on-integration-in-finance"></a>Configurar a integração do complemento de faturamento eletrônico no Finance
+## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Configurar integração do Faturamento eletrônico no Finance
 
 Durante a configuração do Finance, você concluirá estas tarefas:
 
@@ -193,17 +191,17 @@ Durante a configuração do Finance, você concluirá estas tarefas:
 
 Durante o processamento no Finance, você concluirá estas tarefas:
 
-1. Gerar faturas eletrônicas italianas por meio do complemento de faturamento eletrônico
+1. Gerar faturas eletrônicas italianas por meio do Faturamento eletrônico
 2. Exibir os logs de execução e revisar os resultados do processamento
 
 ### <a name="generate-electronic-invoices"></a>Gerar faturas eletrônicas
 
-Depois que você ativar os recursos **Integração do complemento de faturamento eletrônico configurável** e **IT00036**, o processo antigo do Finance para gerar faturas eletrônicas italianas não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
+Depois que você ativar os recursos **Integração do Faturamento eletrônico configurável** e **IT00036**, o processo antigo do Finance para gerar faturas eletrônicas italianas não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
 
 Você pode enviar os documentos manualmente, com base na demanda de documentos de fatura eletrônica.
 
 > [!NOTE]
-> Antes de continuar, verifique se a configuração necessária para as faturas eletrônicas italianas foi concluída. Para obter mais informações, consulte [Faturas eletrônicas do cliente](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Lembre-se de que algumas das etapas de configuração descritas nesse tópico podem não estar disponíveis devido à ativação do complemento de faturamento eletrônico.
+> Antes de continuar, verifique se a configuração necessária para as faturas eletrônicas italianas foi concluída. Para obter mais informações, consulte [Faturas eletrônicas do cliente](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Lembre-se de que algumas das etapas de configuração descritas nesse tópico podem não estar disponíveis devido à ativação do Faturamento eletrônico.
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.
@@ -220,7 +218,7 @@ Você pode enviar os documentos manualmente, com base na demanda de documentos d
 2. Selecione **OK** para fechar a caixa de diálogo **Consulta**.
 3. Selecione **OK** para enviar os documentos selecionados.
 
-> ![OBSERVAÇÃO] Na primeira tentativa de enviar um documento pelo serviço, você será solicitado a confirmar a conexão com o complemento do faturamento eletrônico. Selecione **Clique aqui para se conectar ao serviço de envio de documentos eletrônicos**.
+> ![OBSERVAÇÃO] Na primeira tentativa de enviar um documento pelo serviço, você será solicitado a confirmar a conexão com o Faturamento eletrônico. Selecione **Clique aqui para se conectar ao serviço de envio de documentos eletrônicos**.
 
 #### <a name="view-submission-logs"></a>Exibir logs de envio
 
@@ -242,9 +240,9 @@ Você pode exibir os logs de envio para todos os documentos enviados.
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-- [Visão geral do complemento de faturamento eletrônico](e-invoicing-service-overview.md)
-- [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md)
-- [Configurar o complemento de faturamento eletrônico](e-invoicing-setup.md)
+- [Visão geral do Faturamento eletrônico](e-invoicing-service-overview.md)
+- [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md)
+- [Configurar Faturamento eletrônico](e-invoicing-setup.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

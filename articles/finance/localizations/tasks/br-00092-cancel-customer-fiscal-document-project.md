@@ -2,11 +2,9 @@
 title: Cancelar uma nota fiscal de cliente (projeto) (Brasil)
 description: É possível cancelar uma fatura de cliente para um projeto.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 084352032fb65e71f4441946246b225964a7a05f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa65109aecce60b443a5b35b0c219ed24f701932
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254399"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811265"
 ---
 # <a name="cancel-a-customer-fiscal-document-project-brazil"></a>Cancelar uma nota fiscal de cliente (projeto) (Brasil)
 

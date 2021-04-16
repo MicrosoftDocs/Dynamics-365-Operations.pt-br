@@ -2,7 +2,6 @@
 title: Configuração de parâmetros de custo de entrega
 description: Este tópico descreve como configurar informações gerais e definições de configuração que são usadas no módulo de custo de entrega para lançamento, atualizações de status, sequências numéricas e comportamento.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 489c0db50d52c1e58eab73ad19a73babf22b4de7
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 973f23a18166abeb05bdea660ef69230d9a8c4c0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500757"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833896"
 ---
 # <a name="landed-cost-parameters-setup"></a>Configuração de parâmetros de custo de entrega
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Você usa a página **Parâmetros de custo de entrega** para configurar informações gerais e definições de configuração que são usadas no módulo **Custo de entrega** para lançamento, atualizações de status, sequências numéricas e comportamento. A configuração de parâmetros é compartilhada em entidades legais e pode ser modificada por um administrador.
 

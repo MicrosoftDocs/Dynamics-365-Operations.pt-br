@@ -2,11 +2,9 @@
 title: Gerar documentos fiscais para uma carga
 description: Este tópico explica como gerar gerar documentos fiscais para uma carga do Brasil.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/05/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2dd457403ea7538cc488bf5ed35ffff5baa4da20
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8422e6b649a00861554f2f17e27a671080acd28c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5213464"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813992"
 ---
 # <a name="generate-fiscal-documents-for-a-load"></a>Gerar documentos fiscais para uma carga 
 

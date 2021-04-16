@@ -2,11 +2,9 @@
 title: Configurar, importar e verificar documentos XML de NF-e e de DANFE
 description: Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa.
 author: v-gonode
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EFDocumentReceivedXML_BR
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: ''
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 6868365ef4e5cacaad2dae78de4d57b003ff18a2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 829bc307796cca87203b63f0f33ed47e39708375
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219865"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822799"
 ---
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 

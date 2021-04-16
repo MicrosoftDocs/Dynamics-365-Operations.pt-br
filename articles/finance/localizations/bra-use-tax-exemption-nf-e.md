@@ -2,11 +2,9 @@
 title: NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 description: Este tópico fornece informações sobre as vantagens e isenções de imposto ICMS em notas fiscais para o Brasil.
 author: gionoder
-manager: AnnBe
 ms.date: 12/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0cfaccdd02948f14e7f4d7515e9d88e47480af14
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 06776ee47c7f15c80ea8b31cbee4d3e152404bcf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228827"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840318"
 ---
 # <a name="nt2019001---tax-benefits-and-exemptions-rules-for-nf-enfc-e"></a>NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 

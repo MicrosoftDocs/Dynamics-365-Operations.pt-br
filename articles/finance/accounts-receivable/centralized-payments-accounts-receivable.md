@@ -2,11 +2,9 @@
 title: Pagamentos centralizados para Contas a receber
 description: As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, a mesma transação não precisa ser inserida em várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edba4e496de9cbb99765857d0d5e87c32477f803
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 07a715c85bd1dadcf7a9848c4387241b1b866fb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228878"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841180"
 ---
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagamentos centralizados para Contas a receber
 

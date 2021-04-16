@@ -2,11 +2,9 @@
 title: Solucionar problemas de trabalho do depósito
 description: Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com trabalho de depósito no Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1814f7b23efda2cabdb7bfc7bea4de6e3d6ec2f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 08cc074fe851b952ebfc942ae3d1cb05240d3b91
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5237050"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837431"
 ---
 # <a name="troubleshoot-warehouse-work"></a>Solucionar problemas de trabalho do depósito
 
@@ -40,11 +38,11 @@ Você não consegue mover uma placa de licença usando um item de menu **Movimen
 
 Esse problema será corrigido por mudanças que são implantadas no [KB 4571546](https://fix.lcs.dynamics.com/Issue/Details?kb=4571546&bugId=467880&dbType=3&qc=5b46d7faa9cc326cebfe9854cb30be8ea30b21ef33d3572c325fbb21202de687). Essas alterações tornarão o campo **Número de série** opcional quando recibo e emissão em branco forem permitidos.
 
-## <a name="i-receive-the-following-error-message-in-the-warehouse-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Recebo a seguinte mensagem de erro no aplicativo de depósito quando processo movimentos: "O proprietário do estoque %1 não é permitido neste processo."
+## <a name="i-receive-the-following-error-message-in-the-warehouse-management-mobile-app-when-i-process-movements-the-inventory-owner-1-is-not-allowed-in-this-process"></a>Recebo a seguinte mensagem de erro no aplicativo móvel Gerenciamento de Depósito quando processo movimentos: "O proprietário do estoque %1 não é permitido neste processo."
 
 ### <a name="issue-description"></a>Descrição do problema
 
-A dimensão de rastreamento do **Proprietário** está ausente quando o aplicativo de depósito é usado para fazer movimentos. Um diário regular de transferência de estoque do cliente do Supply Chain Management parece funcionar conforme o esperado e pode ser lançado apenas se a dimensão do **Proprietário** for preenchida.
+A dimensão de rastreamento do **Proprietário** está ausente quando o aplicativo móvel Gerenciamento de Depósito é usado para fazer movimentos. Um diário regular de transferência de estoque do cliente do Supply Chain Management parece funcionar conforme o esperado e pode ser lançado apenas se a dimensão do **Proprietário** for preenchida.
 
 ### <a name="issue-resolution"></a>Resolução do problema
 

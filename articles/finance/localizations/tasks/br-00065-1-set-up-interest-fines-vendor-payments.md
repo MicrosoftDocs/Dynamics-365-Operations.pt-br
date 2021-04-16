@@ -2,11 +2,9 @@
 title: Configurar juros e multas para pagamentos de fornecedores (Brasil)
 description: Você deve configurar contas para juros e multas financeiras, códigos padrão para juros e multas, e códigos de juros e de multas para fornecedores e ordens de compra.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4c6f4881fa5ba4f7306d7caf1a700ca53bce6c5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 84884042e00b92b1e0f6197bc9d2556ea7828300
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231492"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823623"
 ---
 # <a name="set-up-interest-and-fines-for-vendor-payments-brazil"></a>Configurar juros e multas para pagamentos de fornecedores (Brasil)
 

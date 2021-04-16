@@ -2,11 +2,9 @@
 title: Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 description: Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de impostos PIS e COFINS usando os códigos de ajuste que são definidos pela autoridade fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2fca10b25281161a3009235bb836c1906ccea24f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a62e8b12847f20cbea1eff7978fd5286c0750950
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228042"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813437"
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a>Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 

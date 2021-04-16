@@ -2,11 +2,9 @@
 title: Modelo de valor e registro de depreciação de ativo fixo
 description: 'Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. Na versão do Microsoft Dynamics 365 for Operations (1611), as funcionalidades modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 26409b6416a5b4e93ccd051b1625633ea12e22ac
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212460"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826729"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor e registro de depreciação de ativo fixo
 
@@ -34,9 +32,8 @@ A funcionalidade de novo livro baseia-se em uma funcionalidade anterior de model
 ## <a name="setup"></a>Instalação
 Por padrão, lançar registros de contabilidade (GL) e sub-razão de ativo fixo. Os registros têm uma nova opção **Lançar à contabilidade** que leva você a desabilitar os lançamentos na GL e lançar apenas na sub-razão de ativo fixo. Essa funcionalidade é parecida com o comportamento anterior de lançamento de registro de depreciação. A configuração de nomes de diário possui um nível de lançamento nomeado Nenhum. Este nível de lançamento foi adicionado especificamente para transações de ativo fixo. Para lançar transações em registros que não são de GL, você deverá usar um nome de diário com o nível de lançamento definido como **Nenhum**.
 
-|                                                  |                                 |                                 |                                                         |
+| &nbsp;                                           | Registro de depreciação               | Método de depreciação                     | Registro (novo)                                              |
 |--------------------------------------------------|---------------------------------|---------------------------------|---------------------------------------------------------|
-|                                                  | Registro de depreciação               | Método de depreciação                     | Registro (novo)                                              |
 | Lançar na GL                                   | Nunca                           | Sempre                          | Opção para lançar na GL                                |
 | Níveis de lançamento                                   | Não Aplicável                  | 3: Atual, operações e imposto | 11: Atual, operações, imposto, 7 camadas personalizadas e nenhum |
 | Nomes de diário                                    | Nomes de diário de registro de depreciação | GL - Nomes de diário              | GL - Nomes de diário                                      |
@@ -46,9 +43,8 @@ Por padrão, lançar registros de contabilidade (GL) e sub-razão de ativo fixo.
 ## <a name="processes"></a>Processos
 Agora os processos usam páginas comuns. Alguns processos são permitidas somente se **Lançar na contabilidade** a opção é **Não** definida na configuração de registro.
 
-|                                |                           |                     |                                          |
+| &nbsp;                                           | Registro de depreciação               | Método de depreciação                     | Registro (novo)                                              |
 |--------------------------------|---------------------------|---------------------|------------------------------------------|
-|                                | Registro de depreciação         | Método de depreciação         | Registro (novo)                               |
 | Entrada de transação              | Diário do registro de depreciação | Diário de ativo fixo | Diário de ativo fixo                      |
 | Depreciação extra             | Permitido                   | Não Permitido         | Permitido                                  |
 | Excluir transações históricas | Permitido                   | Não Permitido         | Permitido, a menos que você esteja lançando na GL |
@@ -57,9 +53,8 @@ Agora os processos usam páginas comuns. Alguns processos são permitidas soment
 ## <a name="inquiries-and-reports"></a>Consultas e relatórios
 Consultas e relatórios suportam todos os registros. Relatórios que não são incluídos na tabela a seguir, anteriormente suportavam registros de depreciação e modelos de valor, e agora darão suporte a todos os tipos de registro. O campo **Nível de lançamento** também foi adicionado aos relatórios, para que você possa identificar facilmente os lançamentos de transação.
 
-|                                       |                                |                          |                          |
+| &nbsp;                                           | Registro de depreciação               | Modelo de valor                     | Registro (novo)                                              |
 |---------------------------------------|--------------------------------|--------------------------|--------------------------|
-|                                       | Registro de depreciação              | Modelo de valor              | Registro (novo)               |
 | Consultas                             | Transações do registro de depreciação | Transações de ativo fixo | Transações de ativo fixo |
 | Demonstrativo de ativo fixo                 | Não permitido                    | Permitido                  | Permitido                  |
 | Base de ativo fixo                     | Permitido                        | Não permitido              | Permitido                  |

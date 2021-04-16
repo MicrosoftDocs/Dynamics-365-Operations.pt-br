@@ -2,11 +2,9 @@
 title: Depreciação de vida útil linear
 description: Este artigo oferece uma visão geral do Método de depreciação linear com base na vida útil.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5853265492edc88acbbd297bc5cb639b46fa0b41
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 39366716463eda03aa3f9c0ed802eb3f6099b48c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210062"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818479"
 ---
 # <a name="straight-line-service-life-depreciation"></a>Depreciação de vida útil linear
 

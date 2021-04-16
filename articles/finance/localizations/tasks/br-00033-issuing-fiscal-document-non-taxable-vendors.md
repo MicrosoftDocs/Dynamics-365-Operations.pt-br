@@ -2,11 +2,9 @@
 title: Emitir notas fiscais para fornecedores (Brasil)
 description: Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que não são contribuintes.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02d9d6b7ca8bf334214b9a9699a585973fa809b2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 971b30b61b45dba6c64db4a8577d80c22030a556
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5264089"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832496"
 ---
 # <a name="issue-fiscal-documents-for-vendors-brazil"></a>Emitir notas fiscais para fornecedores (Brasil)
 

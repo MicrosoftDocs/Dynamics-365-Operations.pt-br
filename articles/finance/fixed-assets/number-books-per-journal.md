@@ -2,11 +2,9 @@
 title: Número de registros por diário
 description: Este tópico descreve o relacionamento entre diários e registros de ativos quando você cria uma aquisição de ativo fixo ou proposta de depreciação por meio de um trabalho em lotes. Você pode definir o número máximo de registros incluídos para cada aquisição e para depreciação.
 author: moaamer
-manager: Ann Beebe
 ms.date: 11/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-19
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7f266e458802e65f0955ae8f8933f9bee2eca972
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e948b4353d0216f1e09019a98319e343bd535861
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5256706"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822024"
 ---
 # <a name="number-of-books-per-journal"></a>Número de registros por diário
 
@@ -43,11 +41,14 @@ Você pode usar o processamento em lotes para executar a depreciação para o me
 
 O trabalho de processamento em lotes exclui os registros fechados. Por exemplo, em um trabalho em lotes para depreciação, 10 dos 2.000 primeiros registros estão fechados. Nesse caso, o primeiro diário conterá registros associados aos ativos fixos numerados de 1 a 2.011. O segundo diário conterá então os registros associados aos ativos fixos numerados de 2.012 a 4.000.
 
+> [!NOTE]
+> Se você tiver IDs de ativo fixo com separadores diferentes (como – ou /) e criar transações de ativo fixo em trabalhos em lotes, será necessário executar um trabalho em lotes separado para cada tipo de separador. O sistema não pode processar separadores diferentes no mesmo trabalho em lotes.
+
 O limite no número de registros será aplicado se as IDs de ativo duplicadas não existirem no mesmo diário. No entanto, se a ID do ativo for igual à ID do registro, o número de registros por diário poderá ser excedido para manter a ID do ativo no mesmo diário.
 
 Por exemplo, há 5.001 IDs de ativo fixo, três registros estão associados a cada ID de ativo fixo e cada registro de ativo é lançado no mesmo nível de lançamento. A depreciação é executada por três meses consecutivos, sem resumo.  O diário de depreciação será criado por meio de um trabalho em lotes, e o sistema criará sete diários com 667 IDs de ativo fixo e três registros para cada ID de ativo fixo. O resultado será 2.001 registros. Portanto, em três meses, haverá 6.003 linhas do diário para manter as mesmas IDs de ativo no mesmo diário. O sistema também criará um diário com 332 IDs de ativo fixo e três registros para cada ID de ativo fixo. Em três meses, haverá 2.988 linhas.
 
-> [!Note] 
+> [!NOTE] 
 > Se o parâmetro **Resumir depreciação** estiver ativado durante a criação de uma proposta de depreciação, o valor no campo **Número de registros por diário - proposta de depreciação** não terá efeito. Neste caso, o número de registros por diário é 6.000, que é o limite definido internamente.
 
 

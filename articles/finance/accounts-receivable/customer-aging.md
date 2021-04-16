@@ -2,11 +2,9 @@
 title: Relatório de classificação por vencimento de clientes
 description: O relatório Classificação por vencimento do cliente exibe os saldos devidos de clientes, classificados por intervalo de datas ou por período de classificação por vencimento.
 author: JodiChristiansen
-manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 384e44ef07771a174aaed4f8fb893e75b0206da7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b80345513d355115a182c108bf3843963e9a59d9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236977"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840332"
 ---
 # <a name="customer-aging-report"></a>Relatório de classificação por vencimento de clientes 
 

@@ -2,11 +2,9 @@
 title: Criar uma proposta de depreciação
 description: Este tópico descreve como as propostas de depreciação em lote funcionam e explica como propor a depreciação para ativos fixos.
 author: abruer
-manager: AnnBe
 ms.date: 08/01/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e4852b25ef628cdef6f75f6edf550c539e344a4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 013c768c8a016f399a27b1488ad0d5b339fdf7cb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227055"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813570"
 ---
 # <a name="create-a-depreciation-proposal"></a>Criar uma proposta de depreciação
 

@@ -2,11 +2,9 @@
 title: Criar faturas de pagamento
 description: Este tópico explica como criar faturas de arrendamento mensais. Você pode criar faturas para arrendamentos individuais ou então usar um processo em lote para criá-las para vários arrendamentos.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a8b9457b158afaa32718976a7a97f48411be0e1a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 51e4c44cf192754a832132ea1942baf18b43a755
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241513"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815995"
 ---
 # <a name="create-payment-invoices"></a>Criar faturas de pagamento
 
