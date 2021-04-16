@@ -2,7 +2,6 @@
 title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.18 (maio de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
-manager: annbe
 ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 0a75cd0b02c48421edebac0b83576095bea65bb6
-ms.sourcegitcommit: d7c18228256daeefbf6518c3ef82fed4f7dbc161
+ms.openlocfilehash: dc53d2c40414993e43ac90ce4f878c7d1c425eb2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5571779"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832121"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.18 (maio de 2021)
 
@@ -36,17 +35,17 @@ Este tópico lista os recursos novos ou alterados na versão preliminar da vers�
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-Os seguintes recursos estão incluídos nesta versão. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis. Siga os links para o [plano de versão](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
+Os seguintes recursos estão incluídos nesta versão. Siga os links para o [plano de versão](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
 
 - Liberação automática de ordens de compra (aprimoramento para [Execução de depósito com unidades de escala na nuvem](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-warehousing.md).
 
 - [Arquivamento e aprimoramentos no desempenho de estoque em escala empresarial](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Para obter mais informações, consulte [Arquivo-morto de transações de estoque](../inventory/archive-inventory-transactions.md)
 
-- [Gerenciamento de reembolsos](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)
+- [Gerenciamento de reembolsos](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Para obter mais informações, consulte [Visão geral do módulo Gerenciamento de reembolsos](../rebate-management/rebate-management-overview.md)
 
 - Interface simplificada somente para entrada e saída (aprimoramento para [Interface aprimorada de execução de piso de produção para fabricação](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Para obter mais informações, consulte [Configurar a interface de execução de piso de produção](../production-control/production-floor-execution-configure.md).
 
-A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
+A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis. 
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 

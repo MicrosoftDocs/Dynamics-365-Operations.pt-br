@@ -2,11 +2,9 @@
 title: Trabalhar com diretivas de localização
 description: Este tópico descreve como trabalhar com diretivas de localização. As diretivas de localização são regras definidas pelo usuário que ajudam a identificar locais de separação e armazenamento para o movimento de estoque.
 author: Mirzaab
-manager: tfehr
 ms.date: 11/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocDirTable, WHSLocDirHint, WHSLocDirTableUOM, WHSLocDirFailure
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84821fe4e7c5054b2121dbd7f9e536c80080b978
-ms.sourcegitcommit: 1f23adbc6c7e6f9ffe8c48c10659b9fae2155aeb
+ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5470510"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838385"
 ---
 # <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
@@ -152,7 +150,7 @@ Os campos na FastTab **Diretivas de localização** são específicos do tipo de
     > [!IMPORTANT]
     > Para poder fazer a instalação de vários itens e de uma única SKU, você deve especificar duas linhas com a mesma estrutura e configuração, mas deve definir a opção **Várias SKUs** como *Sim* para uma linha e *Não* para a outra. Portanto, para operações de armazenamento, é necessário ter duas diretivas de localização idênticas, mesmo que não precise diferenciar SKUs únicas e várias SKUs em uma ID de trabalho. Geralmente, se você não configurar essas duas diretivas de localização, os locais de processos comerciais inesperados serão obtidos da diretiva de localização aplicada. Você deverá usar uma configuração semelhante para diretivas de localização que tenham um **Tipo de trabalho** de *separação*, caso você precise processar ordens que incluam várias SKUs.
 
-    Use a opção **Várias SKUs** para linhas de trabalho que tratam mais de um número de item. (O número do item ficará em branco nos detalhes do trabalho e será mostrado como **Múltiplo** nas páginas de processamento no aplicativo de depósito.)
+    Use a opção **Várias SKUs** para linhas de trabalho que tratam mais de um número de item. (O número do item ficará em branco nos detalhes do trabalho e será mostrado como **Múltiplo** nas páginas de processamento no aplicativo móvel de Gerenciamento de Depósito).
 
     Em um cenário de exemplo típico, um modelo de trabalho é configurado de forma que tenha mais de um par separação/armazenamento. Nesse caso, talvez você queira procurar um local de preparo específico a ser usado em linhas com um **Tipo de trabalho** de *Armazenamento*.
 
@@ -171,7 +169,7 @@ Os campos na FastTab **Diretivas de localização** são específicos do tipo de
     > [!NOTE]
     > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types).
 
-- **Código de disposição** – este campo é usado para diretivas de localização que têm um tipo de ordem de serviço de *Ordens de compra*, *Armazenamento de mercadorias acabadas* ou *Ordens de devolução* e um tipo de trabalho *Armazenamento*. Use-o para orientar o fluxo a fim de usar uma diretiva de localização específica, dependendo do código de disposição que um trabalhador selecionou no aplicativo de depósito. Por exemplo, você pode direcionar as mercadorias devolvidas para um local de inspeção antes da devolução para o estoque. Um código de disposição pode ser vinculado a um status de estoque. Dessa forma, ele pode ser usado para alterar o status do estoque como parte de um processo de recebimento. Por exemplo, você tem um código de disposição, *QA*, que define o status do estoque como *QA*. Você poderá ter uma diretiva de localização separada para mover esse estoque para um local de quarentena.
+- **Código de disposição** – este campo é usado para diretivas de localização que têm um tipo de ordem de serviço de *Ordens de compra*, *Armazenamento de mercadorias acabadas* ou *Ordens de devolução* e um tipo de trabalho *Armazenamento*. Use-o para orientar o fluxo a fim de usar uma diretiva de localização específica, dependendo do código de disposição que um trabalhador selecionou no aplicativo móvel de Gerenciamento de Depósito. Por exemplo, você pode direcionar as mercadorias devolvidas para um local de inspeção antes da devolução para o estoque. Um código de disposição pode ser vinculado a um status de estoque. Dessa forma, ele pode ser usado para alterar o status do estoque como parte de um processo de recebimento. Por exemplo, você tem um código de disposição, *QA*, que define o status do estoque como *QA*. Você poderá ter uma diretiva de localização separada para mover esse estoque para um local de quarentena.
 
     > [!NOTE]
     > Este campo está disponível apenas para os tipos de ordem de serviço selecionados em que o reabastecimento é permitido. Para obter uma lista completa, consulte a seção [Campos específicos de tipos de ordem de serviço](#fields-specific-types).

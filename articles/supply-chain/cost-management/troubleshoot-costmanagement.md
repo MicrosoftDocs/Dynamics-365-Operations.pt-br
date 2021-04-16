@@ -1,12 +1,10 @@
 ---
 title: Solucionar problemas de gerenciamento de custos
 description: Este tópico descreve como corrigir problemas que podem ocorrer ao trabalhar com gerenciamento de custos.
-author: riluan
-manager: tfehr
+author: AndersGirke
 ms.date: 10/13/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: InventAgingStorage, InventAgingStorageChart, InventAgingStorageDetails, InventValueProcess, InventValueReportSetup, InventClosing
 audience: Application User
@@ -15,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: riluan
+ms.author: aevengir
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: dceaca64132857d796a16c2450a372ba05712cf5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fc6a48a44a529c82c2a9ee818af95569d9bcb249
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5262444"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834280"
 ---
 # <a name="troubleshoot-cost-management"></a>Solucionar problemas de gerenciamento de custos
 
@@ -37,7 +35,7 @@ Os recursos [Armazenamento de relatório de classificação por vencimento do es
 
 Os subtotais podem causar problemas quando o resultado é exportado, especialmente se os usuários alterarem a sequência de registro.
 
-Para verificar os subtotais, você pode exportar o resultado para o Microsoft Excel. Como alternativa, se você deseja verificar os subtotais no Supply Chain Management, use [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar os recursos *Novo controle de grade* e *Agrupamento (versão prévia) em grades*, que fornecem uma maneira muito mais flexível de ver o subtotal para qualquer grupo por coluna. Para obter mais informações, consulte [Recursos de grade](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
+Para verificar os subtotais, você pode exportar o resultado para o Microsoft Excel. Como alternativa, se você quiser verificar os subtotais no Supply Chain Management, use o [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar os recursos *Novo controle de grade* e *Agrupamento em grades*, que fornecem uma maneira muito mais flexível de ver o subtotal para qualquer grupo por coluna. Para obter mais informações, consulte [Recursos de grade](../../fin-ops-core/fin-ops/get-started/grid-capabilities.md).
 
 ### <a name="inventory-value-storage-report-doesnt-support-ledger-account-information"></a>O relatório de armazenamento do valor do estoque não é compatível com informações da conta contábil
 

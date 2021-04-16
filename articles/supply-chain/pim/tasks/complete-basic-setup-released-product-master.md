@@ -2,11 +2,9 @@
 title: Completar instalação básica de um produto mestre lançado
 description: Este tópico mostra como concluir a configuração mínima necessária antes de o produto mestre ser usado em versões de BOM.
 author: ShylaThompson
-manager: tfehr
 ms.date: 07/08/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventTableInventoryDimensionGroups, InventItemOrderSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8c6de9fa9dd49cc32f87a6041a3639198db9f182
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c41e9e3267f72a2452eddfeb15f8f5cba79b0b98
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218600"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820145"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Completar instalação básica de um produto mestre lançado
 

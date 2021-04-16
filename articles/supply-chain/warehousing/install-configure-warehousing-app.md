@@ -2,11 +2,9 @@
 title: Instalar e conectar o aplicativo de depósito
 description: Este tópico explica como instalar o aplicativo de depósito em cada um dos seus dispositivos móveis e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management. Você pode configurar os dispositivos manualmente ou importar as configurações de conexão usando um arquivo ou digitalizando um código QR.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 05/25/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
@@ -18,19 +16,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3d2920d015aab5e4f0a1966d2a2574fb659a7c80
-ms.sourcegitcommit: 105f65468b45799761c26e5d0ad9df4ff162c38d
+ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5486968"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835550"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Este tópico descreve como instalar e configurar o aplicativo de depósito anterior. Se você estiver procurando informações de como configurar o novo aplicativo móvel de gerenciamento de depósito, consulte [instalar e conectar o aplicativo móvel de gerenciamento de depósito](install-configure-warehouse-management-app.md).
+> Este tópico descreve como configurar o aplicativo de depósito antigo (que agora está obsoleto). Se você estiver procurando informações de como configurar o novo aplicativo móvel de gerenciamento de depósito, consulte [instalar e conectar o aplicativo móvel de gerenciamento de depósito](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
 > Este tópico descreve como configurar o aplicativo de depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o aplicativo de depósito para implantações locais, consulte [Depósito para implantações locais](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).

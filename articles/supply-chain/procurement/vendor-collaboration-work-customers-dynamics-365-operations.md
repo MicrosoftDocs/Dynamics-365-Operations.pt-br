@@ -2,11 +2,9 @@
 title: ​Colaboração de fornecedores com clientes​
 description: Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação.
 author: TaylorVH
-manager: tfehr
 ms.date: 09/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart, VendVendorProfileCard, PurchVendorPortalAllResponse, PurchVendorPortalPendingResponsesPart, PurchVendorPortalResponses, PurchVendorPortalConfirmedOpenOrdersPart
 audience: Application User
@@ -17,17 +15,16 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 3b4e2d3e4b4fc27107e34cdf8f87e32d0f56f556
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246660"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825197"
 ---
 # <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 Supply Chain Management. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
 

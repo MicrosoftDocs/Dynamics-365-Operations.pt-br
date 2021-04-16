@@ -2,11 +2,9 @@
 title: Reservar o mesmo lote para uma ordem de venda
 description: Este artigo explica como configurar um produto para permitir a reserva de estoque em relação a um único lote de estoque.
 author: omulvad
-manager: tfehr
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays, WHSReservationHierarchy, WHSInventTableReservationHierarchy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c7745b1306142678760318cc47f54b93d6f727a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e0937be76aa687ed986ff83e67f2db3e2dadd0f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231807"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807647"
 ---
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar o mesmo lote para uma ordem de venda
 
@@ -43,7 +41,7 @@ Ao reservar estoque para um produto em uma linha da ordem de venda configurada p
 - O lote expirou com base na data de vencimento e nos dias comercializáveis aplicáveis do cliente. O item ainda poderá ser considerado para reserva se o grupo de modelos de item for controlado pela data FEFO (primeiro a vencer, primeiro a sair) e se a data de validade for selecionada como critério de separação.
 - O lote não tem dias restantes de validade suficientes com base na data de vencimento e na data de validade, mais os dias comercializáveis do cliente.
 
-Para itens associados a um grupo de dimensões de armazenamento com **Usar processos de gerenciamento de depósito** habilitado, é possível reservar números de lote específicos usando uma hierarquia de reserva com a dimensão de estoque de número de lote definida acima da dimensão de localização. A página **Reserva de lote** para linhas de ordem de venda e transferência também permite selecionar e reservar várias linhas com base nos números de lote disponíveis. Para obter mais informações sobre o que fazer se você estiver usando uma hierarquia de reserva que tenha a dimensão do número do lote abaixo do local, consulte [Política flexível de reserva de dimensão no nível de depósito](../warehousing/flexible-warehouse-level-dimension-reservation.md).
+Para itens associados a um grupo de dimensões de armazenamento com **Usar processos de gerenciamento de depósito** habilitado, é possível reservar números de lote específicos por meio de uma hierarquia de reserva em que a dimensão de estoque de número de lote é definida acima da dimensão de localização. Esse tipo de hierarquia de reserva também é conhecido como uma *hierarquia de reserva de \[localização\] acima do lote*. A página **Reserva de lote** para linhas de ordem de venda e transferência também permite selecionar e reservar várias linhas com base nos números de lote disponíveis. Para obter mais informações sobre o que fazer se você estiver usando uma hierarquia de reserva com a dimensão do número do lote abaixo do local (*\[localização\]* abaixo do lote), consulte [Política flexível de reserva de dimensão no nível de depósito](../warehousing/flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

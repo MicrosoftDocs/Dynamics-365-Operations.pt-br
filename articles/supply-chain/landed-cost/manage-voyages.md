@@ -2,7 +2,6 @@
 title: Gerenciar viagens
 description: Este tópico descreve como trabalhar com viagens. Uma viagem normalmente representa uma embarcação. No entanto, dependendo de suas práticas e procedimentos, ela pode representar um fornecedor, uma ordem de compra ou outro item que faz sentido para sua organização.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/14/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 850fbb2077a592ec4ba8578cab4795d573464f54
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 0b1414efbdde77af5d7fa15ff066e4ddcfd6bad2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500997"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833776"
 ---
 # <a name="manage-voyages"></a>Gerenciar viagens
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Uma viagem normalmente representa uma embarcação. No entanto, dependendo de suas práticas e procedimentos, ela pode representar um fornecedor, uma ordem de compra ou outro item que faz sentido para sua organização.
 
@@ -74,9 +72,9 @@ A tabela a seguir descreve as ações disponíveis na guia **Gerenciar** do Pain
 | Lançar fatura | Lance uma fatura para todas as linhas de ordem de compra na viagem. Se as mercadorias da viagem passarem por processamento de mercadorias em trânsito, as linhas da ordem de compra serão faturadas antes da realização do processo de recebimento. Quando a ordem de compra original for faturada, as ordens de mercadorias em trânsito associadas com as linhas da ordem de compra original serão criadas. Essas ordens podem ser recebidas pelo depósito. Se as remessas de várias empresas forem usadas, uma nova caixa de diálogo lançamento de fatura será aberta para cada empresa. |
 | Remeter ordem de transferência | Lance uma viagem de ordem de transferência para todas as linhas de ordem de transferência na viagem. Quando este botão for selecionado, somente as ordens de transferência estarão disponíveis para atualização. |
 | Receber ordem de transferência | Lance um recebimento de ordem de transferência para todas as linhas de ordem de transferência na viagem. |
-| Receber mercadorias em trânsito | Receba todas as linhas de ordem que estão em trânsito na viagem. Este botão é uma das três opções disponíveis para o recebimento de mercadorias em trânsito em uma viagem. (As outras duas opções são o botão **Criar diário de entrada**, descrito posteriormente nesta tabela, e o aplicativo de depósito.) Esta opção é a mais simples e processará as mercadorias em trânsito do depósito de mercadorias em trânsito para o depósito de destino final. Se você desejar ter mais controle do processo, use o diário de entrada ou um dispositivo móvel para processar o recebimento de mercadorias. |
+| Receber mercadorias em trânsito | Receba todas as linhas de ordem que estão em trânsito na viagem. Este botão é uma das três opções disponíveis para o recebimento de mercadorias em trânsito em uma viagem. (As outras duas opções são o botão **Criar diário de entrada**, descrito posteriormente nesta tabela, e o aplicativo móvel do Gerenciamento de Depósito). Esta opção é a mais simples e processará as mercadorias em trânsito do depósito de mercadorias em trânsito para o depósito de destino final. Se você desejar ter mais controle do processo, use o diário de entrada ou um dispositivo móvel para processar o recebimento de mercadorias. |
 | Localizar custos automáticos | Localize os custos relevantes da viagem. Se esses custos já tiverem sido encontrados ou atualizados, você receberá a seguinte mensagem: "Há linhas de custo não faturadas. Deseja substituí-los?" Qualquer custo não associado à viagem no momento da criação será encontrado. Os custos de viagem associados a uma viagem e que foram faturados não serão substituídos. |
-| Criar diário de entrada | <p>Abra a caixa de diálogo **Criar diário de entrada**, na qual você pode criar um diário de entrada que especifica uma localização. A caixa de diálogo fornece as seguintes opções:</p><ul><li>**Criar a partir de mercadorias em trânsito** ou **Criar a partir da ordem de transferência** – o rótulo dessa opção é alterado de acordo com o uso do processo de mercadorias em trânsito. Defina-o como *Sim* para abrir uma página de diário de entrada que permita processar um diário de entrada padrão para as mercadorias em trânsito associadas à viagem. Se o item já foi recebido no depósito de destino final, ele não será adicionado às linhas do diário de entrada.</li><li>**Inicializar quantidade** – defina esta opção como *Sim* para inicializar a quantidade que será recebida, com base na quantidade de mercadorias especificada na linha de viagem. Se a linha de viagem tiver sido parcialmente recebida, essa quantidade será a quantidade pendente. Recomendamos definir essa opção como *Sim*.</li><li>**Criar a partir de linhas da ordem** – defina esta opção como *Sim* para usar o valor das linhas da ordem.</li></ul><p>Este botão é uma das três opções disponíveis para o recebimento de mercadorias em uma viagem. (As outras opções são o botão **Receber mercadorias em trânsito** descrito anteriormente nesta tabela e no aplicativo de depósito.)</p> |
+| Criar diário de entrada | <p>Abra a caixa de diálogo **Criar diário de entrada**, na qual você pode criar um diário de entrada que especifica uma localização. A caixa de diálogo fornece as seguintes opções:</p><ul><li>**Criar a partir de mercadorias em trânsito** ou **Criar a partir da ordem de transferência** – o rótulo dessa opção é alterado de acordo com o uso do processo de mercadorias em trânsito. Defina-o como *Sim* para abrir uma página de diário de entrada que permita processar um diário de entrada padrão para as mercadorias em trânsito associadas à viagem. Se o item já foi recebido no depósito de destino final, ele não será adicionado às linhas do diário de entrada.</li><li>**Inicializar quantidade** – defina esta opção como *Sim* para inicializar a quantidade que será recebida, com base na quantidade de mercadorias especificada na linha de viagem. Se a linha de viagem tiver sido parcialmente recebida, essa quantidade será a quantidade pendente. Recomendamos definir essa opção como *Sim*.</li><li>**Criar a partir de linhas da ordem** – defina esta opção como *Sim* para usar o valor das linhas da ordem.</li></ul><p>Este botão é uma das três opções disponíveis para o recebimento de mercadorias em uma viagem. (As outras opções são o botão **Receber mercadorias em trânsito** descrito anteriormente nesta tabela e no aplicativo móvel do Gerenciamento de Depósito.)</p> |
 | Acumular custos | Você pode acumular custos em que um tipo de custo tenha uma conta contábil especificada para o débito. Este botão geralmente é usado quando o estoque está em trânsito ou quando as mercadorias são recebidas e faturadas. |
 | Custos agregados | Mova os custos do nível do contêiner de remessa para o nível de viagem. Você pode usar este botão em um cenário de serviços compartilhados/remessa, em que várias entidades compartilham um contêiner de remessa ou um espaço de caixa. Por exemplo, a viagem tem um contêiner de remessa de 12 metros e um contêiner de remessa de 6 metros, e a divisão é feita pelo volume. Neste caso, as mercadorias/entidades que compartilham ou usam o espaço no contêiner de remessa de 6 metros podem ser penalizadas. Para distribuir os custos de forma justa, algumas organizações podem desejar transferir os custos para a viagem e distribuí-los com base no método de divisão em nível de viagem. |
 | Alterar modelo de percurso | Abra uma caixa de diálogo em que você possa alterar o modelo de viagem. Depois que você alterar o modelo, os custos de viagem serão excluídos. Portanto, talvez seja necessário selecionar **Localizar custos automáticos** (consulte a descrição anteriormente nesta tabela) ou adicionar custos manualmente novamente. |

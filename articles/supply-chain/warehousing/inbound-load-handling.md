@@ -2,11 +2,9 @@
 title: Processamento de cargas de entrada das ordens de compra no depósito
 description: Este tópico descreve o processamento de cargas de entrada das ordens de compra no depósito.
 author: omulvad
-manager: tfehr
 ms.date: 03/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTable, WHSLoadPlanningListPage, WHSLoadPlanningWorkbench, WHSRFMenu, WHSRFMenuItem
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: fec2e7f39569c52ec17c5d0b2474eca720e0180a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5235331"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835621"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -66,7 +64,7 @@ Quando uma carga de entrada chega primeiro ao depósito, os funcionários do dep
 
 - **Um menu de dispositivo móvel configurado para permitir o recebimento de carga**
 
-    O [aplicativo de depósito](install-configure-warehousing-app.md) para dispositivos móveis é compatível com os seguintes processos de criação de trabalho:
+    O [aplicativo móvel do Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md) para dispositivos móveis é compatível com os seguintes processos de criação de trabalho:
 
     - Recebimento do item de carga
     - Recebimento e armazenamento do item de carga
@@ -285,7 +283,7 @@ Para trabalhar com esses cenários usando os registros e valores de exemplo espe
 
 Antes de os auxiliares de recebimento de depósito poderem usar um dispositivo móvel para registrar o estoque de entrada que está vinculado a uma carga, você deve criar um item de menu do dispositivo móvel para esse fim.
 
-Nesta seção, você criará um item de menu do dispositivo móvel e o adicionará a um menu existente. Um funcionário do depósito pode selecionar o item de menu no aplicativo de depósito.
+Nesta seção, você criará um item de menu do dispositivo móvel e o adicionará a um menu existente. Um trabalhador do depósito pode selecionar o item de menu no aplicativo móvel do Gerenciamento de Depósito.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel** e verifique se o menu do seu dispositivo móvel inclui um item de menu com as seguintes configurações:
 

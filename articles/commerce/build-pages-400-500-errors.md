@@ -2,11 +2,9 @@
 title: Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
 description: Este tópico descreve como criar páginas de resposta personalizadas para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
 author: v-chgri
-manager: annbe
 ms.date: 04/14/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
@@ -16,21 +14,18 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ee2f74581ded6020d075377f931c465d7c89f9e5
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6b35b3c07b1edd41e6a3763c0001529e125e4636
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211096"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799629"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
-
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar páginas de resposta personalizadas para erros de código de status 4xx e 5xx usando as ferramentas de criação no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 Se uma solicitação não tiver êxito, o servidor emite respostas de erro do código de status do HTTP. O código de status 404 é capturado e retornado se uma página não for encontrada e o código de status 500 é capturado e retornado se um erro de servidor ocorrer. No Dynamics 365 Commerce, os usuários do aplicativo podem criar as páginas de resposta de erro de código de status personalizado que são exibidas para usuários dessas respostas de erro de código de status.
 

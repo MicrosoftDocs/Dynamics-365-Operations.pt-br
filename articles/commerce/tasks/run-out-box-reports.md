@@ -2,11 +2,9 @@
 title: Gerenciar e a executar saída de relatórios de caixa
 description: Use este guia de tarefas para executar relatórios prontos para uso no Headquarters de diferentes espaços de trabalho e relatórios de Consultas e Vendas localizados no Commerce.
 author: ashishmsft
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailCategoryAndProductWorkspace, RetailOrgHierarchyTreeLookup, SrsReportViewerForm
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d3dd941eb4e682e61c8b3d10ef0ccd14239f090c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: db75b09f1ae1f83a88a5e5eaef0c8c1b8eab5901
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232704"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5804128"
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Gerenciar e a executar saída de relatórios de caixa
 
