@@ -2,7 +2,6 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-manager: AnnBe
 ms.date: 02/16/2021
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: f363b122e30990f5b36e69fd8fe271bdc15e2e79
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5563985"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814311"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -37,7 +36,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="batch-job-to-handle-sql-index-defragmentation"></a>Trabalhos em lotes para tratar da desfragmentação de índice SQL
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para reduzir a sobrecarga de operação, monitoramento e manutenção do gerenciamento de índices pelos clientes, este recurso foi removido. |
 | **Substituída por outro recurso?**   | A partir de agora, a manutenção do índice será realizada pelos serviços da Microsoft. Isso ocorrerá continuamente sem afetar as cargas de trabalho do usuário. |
@@ -48,12 +47,10 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ## <a name="platform-updates-for-version-10017-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.17 dos aplicativos do Finance and Operations
 
-> [!IMPORTANT]
-> A versão 10.0.17 está disponível como parte de uma versão preliminar. O conteúdo e a funcionalidade estão sujeitos a alterações. Para obter informações sobre as versões prévias, consulte [Perguntas frequentes sobre as atualizações de serviço One Version](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/one-version).
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para dar suporte às versões mais recentes do Visual Studio, algumas alterações devem ser feitas nas extensões X++ para Visual Studio. Essas alterações são incompatíveis com o Visual Studio 2015. |
 | **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
@@ -63,7 +60,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="user-avatar"></a>Avatar do usuário 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O avatar do usuário exibido no lado direito da barra de navegação foi recuperado usando uma API do controle de cabeçalho do Dynamics 365, que foi preterido. |
 | **Substituída por outro recurso?**   | Em vez disso, os usuários verão suas iniciais em um círculo na barra de navegação. Esse é o mesmo visual usado atualmente em máquinas de desenvolvimento. |
@@ -73,7 +70,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="enterprise-portal-ep-deprecation"></a>Reprovação do Enterprise Portal (EP)  
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os artefatos de metadados associados ao Dynamics AX 2012 Enterprise Portal (EP) foram preteridos, pois o EP nunca teve suporte nos aplicativos do Finance and Operations. |
 | **Substituída por outro recurso?**   | Não |
@@ -85,7 +82,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
@@ -96,7 +93,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Suplemento do Visual Studio para aplicar hotfixes de metadados
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Não há mais suporte para hotfixes de metadados com as atualizações de serviço do [One Version](../../fin-ops/get-started/one-version.md) introduzidas em julho de 2018 com a versão 8.1. |
 | **Substituída por outro recurso?**   | Hotfixes de metadados individuais não estão disponíveis para versões com suporte. As atualizações de qualidade cumulativas serão aplicadas. |
@@ -109,7 +106,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="online-users-page"></a>Página de usuários online 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Esta é uma página herdada criada para a arquitetura anterior de cliente/servidor. As informações nesta página nem sempre são precisas, podem ser confusas e enganosas. |
 | **Substituída por outro recurso?**   | Forneceremos uma nova página em uma atualização futura.|
@@ -123,7 +120,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="custom-code-defined-in-ssrs-report-properties"></a>Código personalizado definido nas propriedades do relatório SSRS 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Em geral, o código personalizado oferece benefícios limitados enquanto que, ao mesmo tempo, requer recursos e uma computação significativos para o suporte. O código personalizado é usado principalmente pelos autores de relatórios para chamar métodos públicos a partir de um assembly de código personalizado. No entanto, o serviço hospedado na nuvem não oferece suporte a referências a assemblies personalizados para relatórios SSRS. |
 | **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
@@ -133,7 +130,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="upgrade-of-three-jquery-component-libraries"></a>Atualização de três bibliotecas de componentes jQuery 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Três bibliotecas de componentes jQuery estão sendo atualizadas para correções de segurança e para manter a moeda.   
 | **Substituída por outro recurso?**   | As seguintes bibliotecas estão sendo afetadas: jQuery (para a versão 3.5.0 da versão 2.1.4), IU do jQuery (para a versão 1.12.1 da versão 1.11.4), jQuery qTip (para versão 3.0.3 da 2.2.1). As diretrizes de migração foram fornecidas online pelo jQuery.  |
@@ -143,7 +140,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="existing-grid-controlforcelegacygrid-api"></a>Controle de grade existente/API forceLegacyGrid()
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O controle de grade existente está sendo substituído pelo novo controle de grade. |
 | **Substituída por outro recurso?**   | O [novo controle de grade](../..//fin-ops/get-started/grid-capabilities.md) |
@@ -153,7 +150,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="personalization-without-saved-views"></a>Personalização sem exibições salvas 
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O subsistema de personalização foi revisado com o recurso de exibições salvas para oferecer um melhor desempenho e recursos adicionais. |
 | **Substituída por outro recurso?**   | Exibições salvas |
@@ -166,7 +163,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="grid-or-group-control-form-extensions-containing-invalid-field-references"></a>Extensões do formulário de controle de grade ou grupo contendo referências de campo inválidas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A propriedade de grupo de dados nos controles de grade ou grupo é usada para mostrar automaticamente todos os campos de um grupo de campos. Um controle de grade ou grupo adicionado por extensão pode conter campos que não estejam mais definidos no grupo de campos ou que talvez não tenham campos definidos no grupo de campos. Isso pode causar inconsistência no comportamento em tempo de execução. Agora, as atualizações de plataforma para a versão 10.0.12 dos aplicativos do Finance and Operations categorizam esse problema como um *aviso* do compilador. Para corrigir esse problema, abra a extensão do formulário e salve-a.
 | **Substituída por outro recurso?**   | Este aviso do compilador será substituído por um erro do compilador em uma atualização futura. |
@@ -178,7 +175,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="explicit-safe-lists-for-self-service-environments"></a>Listas de confiança explícitas para ambientes de autoatendimento
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O processo de movimentação de IP para listas de confiança foi alterado. O autoatendimento não oferece mais suporte a listas de confiança de IP. |
 | **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
@@ -188,7 +185,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para dar suporte às versões mais recentes do Visual Studio, algumas alterações devem ser feitas nas extensões X++ para Visual Studio. Essas alterações são incompatíveis com o Visual Studio 2015. |
 | **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
@@ -198,7 +195,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="field-groups-containing-invalid-field-references"></a>Grupos de campos contendo referências de campo inválidas
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Os grupos de campos nas definições de metadados da tabela podem conter referências de campo inválidas. Se esses grupos de campos forem implantados, eles pode causar falhas de tempo de execução no Financial Reporting e no Microsoft SQL Server Reporting Services (SSRS). A platform update 23 apresentou um *aviso* do compilador que permitiu que esse problema de metadados fosse solucionado. As atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations categorizam esse problema como um *erro* do compilador.<p>Para corrigir esse problema, siga estas etapas.</p><ol><li>Remova a referência de campo inválida da definição do grupo de campos da tabela.</li><li>Recompilar.</li><li>Certifique-se de que os erros sejam solucionados.</li></ol> |
 | **Substituída por outro recurso?**   | Este erro do compilador substitui permanentemente o aviso do compilador.  |
@@ -208,7 +205,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenças ISV criadas usando o algoritmo de hash SHA1
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O processo para criar licenças de fornecedor independente de software (ISV) foi alterado. Para obter mais informações, consulte o [Licenciamento de fornecedor independente de software (ISV)](../dev-tools/isv-licensing.md#appendix-create-self-signed-certificates-for-test-purposes). |
 | **Substituída por outro recurso?**   | Sim. Use o Windows PowerShell para criar licenças. |
@@ -219,7 +216,8 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 ## <a name="platform-update-32"></a>Platform update 32
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Caixa de diálogo Alterar solicitação de fluxo de trabalho não inclui mais a seleção do usuário de lista suspensa
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Isso foi um problema de segurança, pois a solicitação de alteração poderia ser enviada para um usuário indesejado. Isso também era um problema de usabilidade porque forçava o usuário a determinar quem foi o originador do fluxo de trabalho e selecioná-los manualmente.  |
 | **Substituída por outro recurso?**   | Não |
@@ -228,7 +226,8 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na platform update 23. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Links de detalhamento incorporados não são mais compatíveis em documentos paginados renderizados pelo serviço armazenado em nuvem 
-|   |  |
+
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | As URLs de navegação inseridas nos documentos processados pelo serviço podem conter dados comerciais confidenciais. Estamos removendo o suporte para links de detalhamento incorporados em documentos como uma precaução de segurança para proteger ainda mais os dados dos clientes. Os usuários também se beneficiarão do melhor desempenho enquanto produzem documentos interativamente como resultado dessa alteração.  |
 | **Substituída por outro recurso?**   | Não |

@@ -2,11 +2,9 @@
 title: Estabelecer taxas de pagamento de clientes
 description: Criar taxas de pagamento para pagamentos de clientes.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustPaymFee, CustPaymModeFee, BankAccountTableLookUp
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e88eb888d3151fcc69f1bf11b2624a7e6d36444e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7daf2f5b976dbc300458b5cb3efd0c0420c4f5c8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220218"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822314"
 ---
 # <a name="establish-customer-payment-fees"></a>Estabelecer taxas de pagamento de clientes
 

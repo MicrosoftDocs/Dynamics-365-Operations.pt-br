@@ -2,7 +2,6 @@
 title: Novidades ou alterações no Dynamics 365 Human Resources 22 de fevereiro de 2021
 description: Este tópico descreve os recursos novos ou alterados no Microsoft Dynamics 365 Human Resources para 22 de fevereiro de 2021.
 author: marcelbf
-manager: tfehr
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
@@ -18,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-02-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 363ea7d47a46234b2854a073029859c31277d88f
-ms.sourcegitcommit: 75b432ce9019c81253eb6bd865db905701e28a26
+ms.openlocfilehash: 53e9c42f718665165be97e5022a9e767b0436e59
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/11/2021
-ms.locfileid: "5579346"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5802206"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-february-22-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 22 de fevereiro de 2021
 

@@ -1,12 +1,10 @@
 ---
-title: Visão geral do complemento de faturamento eletrônico
-description: Este tópico fornece informações sobre o complemento de faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
+title: Visão geral do Faturamento eletrônico
+description: Este tópico fornece informações sobre o Faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
-manager: AnnBe
-ms.date: 01/22/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,23 +15,23 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 381f5ecdb3d6fc909a8350ba28af9fd21152da7a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a6a8ea3fcad980dc02f489e07a7b21fe1c1b5a5a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228780"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839971"
 ---
-# <a name="electronic-invoicing-add-on-overview"></a>Visão geral do complemento de faturamento eletrônico
+# <a name="electronic-invoicing-overview"></a>Visão geral do Faturamento eletrônico
 
 [!include [banner](../includes/banner.md)]
 
-O complemento de faturamento eletrônico para o Microsoft Dynamics 365 Finance e o Dynamics 365 Supply Chain Management é um serviço multilocatário hiperescalável que permite o processamento configurável de documentos de fatura eletrônica e troca configurável de documentos. As regras de processamento e integração são totalmente configuráveis e a lógica é executada fora do Finance e do Supply Chain Management. O serviço é direcionado principalmente para o processamento de fatura eletrônica em cenários de empresa para governo, mas pode ser configurado de forma personalizada para outros fins.
+O Faturamento eletrônico para o Microsoft Dynamics 365 Finance e o Dynamics 365 Supply Chain Management é um serviço multilocatário hiperescalável que permite o processamento configurável de documentos de fatura eletrônica e troca configurável de documentos. As regras de processamento e integração são totalmente configuráveis e a lógica é executada fora do Finance e do Supply Chain Management. O serviço é direcionado principalmente para o processamento de fatura eletrônica em cenários de empresa para governo, mas pode ser configurado de forma personalizada para outros fins.
 
-O complemento de faturamento eletrônico pode ajudá-lo a atingir as seguintes metas:
+O Faturamento eletrônico pode ajudá-lo a atingir as seguintes metas:
 
 - Adoção rápida e fácil de requisitos específicos de país/região
-- Implementações padronizadas de uma solução complementar de faturamento eletrônico
+- Implementações padronizadas de uma solução de Faturamento eletrônico
 - Rastreamento aprimorado do histórico de documentos
 - Ciclo de implementação mais curto
 - TCO (custo total de propriedade) reduzido
@@ -42,29 +40,29 @@ O complemento de faturamento eletrônico pode ajudá-lo a atingir as seguintes m
 - A exportação, a importação e a integração internas e a fácil extensibilidade no processamento de documentos de fatura eletrônica
 - Fácil reutilização das mesmas configurações de exportação, importação e integração em empresas
 
-Para usar o complemento do faturamento eletrônico, você deve instalá-lo a partir do seu projeto no Microsoft Dynamics Lifecycle Services (LCS). Em seguida, siga o procedimento de configuração para ativar a integração com o Finance ou o Supply Chain Management. Para obter mais informações, consulte [Introdução ao complemento de faturamento eletrônico](e-invoicing-get-started.md).
+Para usar o Faturamento eletrônico, você deve instalá-lo a partir do seu projeto no Microsoft Dynamics Lifecycle Services (LCS). Em seguida, siga o procedimento de configuração para ativar a integração com o Finance ou o Supply Chain Management. Para obter mais informações, consulte [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 
 ## <a name="service-availability"></a><a name="availability"></a>Disponibilidade do serviço
 
-No momento, o complemento de faturamento eletrônico está disponível para clientes por meio do programa de visualização e, na próxima fase, o serviço estará geralmente disponível. Como a funcionalidade que trata de requisitos específicos de país/região pode ser limitada a diferentes fases do lançamento, você sempre deve verificar a documentação mais atualizada que destaca a cobertura e o escopo das soluções específicas de país/região com suporte.
+No momento, o Faturamento eletrônico está disponível para clientes por meio do programa de visualização e, na próxima fase, o serviço estará geralmente disponível. Como a funcionalidade que trata de requisitos específicos de país/região pode ser limitada a diferentes fases do lançamento, você sempre deve verificar a documentação mais atualizada que destaca a cobertura e o escopo das soluções específicas de país/região com suporte.
 
-O complemento de faturamento eletrônico é implantado nas seguintes regiões geográficas do Azure:
+O Faturamento eletrônico é implantado nas seguintes regiões do Azure:
 
 - Estados Unidos
 - Europa
 
 > [!NOTE]
-> O complemento de faturamento eletrônico não dá suporte a implantações locais.
+> O Faturamento eletrônico não dá suporte a implantações locais.
 
 ## <a name="extended-configurability"></a>Configurabilidade estendida
 
-O complemento de faturamento eletrônico pode ser usado em cenários em que você deve criar e enviar um documento eletrônico para os participantes designados. Ele foi especificamente projetado para executar um fluxo configurável de ações de processamento, com base nos dados recebidos. As opções de capacidade de configuração disponíveis no Finance e no Supply Chain Management se limitam à transformação do documento. O serviço estende essas opções adicionando as integrações configuráveis que estão disponíveis nele. Além disso, todas as funcionalidades de faturas eletrônicas disponibilizadas anteriormente, como NF-e (nota fiscal eletrônica brasileira), comprovante fiscal mexicano por Internet (CFDI) ou outras funcionalidades do UBL/PEPPOL do Leste Europeu (Universal Business Language/Pan-European Public Procurement OnLine) usarão configurações para exportação e importação e para habilitar integrações com serviços Web externos.
+O Faturamento eletrônico pode ser usado em cenários em que você deve criar e enviar um documento eletrônico para os participantes designados. Ele foi especificamente projetado para executar um fluxo configurável de ações de processamento, com base nos dados recebidos. As opções de capacidade de configuração disponíveis no Finance e no Supply Chain Management se limitam à transformação do documento. O serviço estende essas opções adicionando as integrações configuráveis que estão disponíveis nele. Além disso, todas as funcionalidades de faturas eletrônicas disponibilizadas anteriormente, como NF-e (nota fiscal eletrônica brasileira), comprovante fiscal mexicano por Internet (CFDI) ou outras funcionalidades do UBL/PEPPOL do Leste Europeu (Universal Business Language/Pan-European Public Procurement OnLine) usarão configurações para exportação e importação e para habilitar integrações com serviços Web externos.
 
 ## <a name="feature-highlights"></a>Destaques do recurso
 
 - Integração pronta para uso com o Finance e o Supply Chain management
 - Experiência de usuário consistente para a configuração e o monitoramento do processo de fatura eletrônica para todos os países ou regiões
-- Adoção mais rápida, fácil e barata de soluções complementares de faturamento eletrônico em novos países ou regiões
+- Adoção mais rápida, fácil e barata de soluções de Faturamento eletrônico em novos países ou regiões
 - Configuração do serviço por meio da configuração de RCS (Regulatory Configuration Services) e do Recurso de globalização
 - Transformação de dados comerciais em vários formatos de fatura eletrônica (XML, Notação de Objeto de JavaScript, \[JSON\], TXT e valores separados por vírgula \[CSV\]) usando configurações definidas no RCS:
 
@@ -83,7 +81,7 @@ O complemento de faturamento eletrônico pode ser usado em cenários em que voc�
 
 ## <a name="architecture-and-data-flow"></a>Arquitetura e fluxo de dados
 
-Quando o complemento de faturamento eletrônico é instalado do LCS e a configuração necessária é concluída em todos os aplicativos necessários, uma conexão segura é estabelecida. O serviço está localizado no momento em data centers nos Estados Unidos e na Europa. Portanto, o local de serviço pode ser diferente do local da instância do Finance ou do Supply Chain Management relacionada. Depois de concluir a configuração do complemento de faturamento eletrônico e ativar a integração, sempre que uma fatura eletrônica for enviada, os dados mestre e os dados transacionais relacionados a um documento específico serão enviados ao complemento do faturamento eletrônico.
+Quando o Faturamento eletrônico é instalado do LCS e a configuração necessária é concluída em todos os aplicativos necessários, uma conexão segura é estabelecida. O serviço está localizado no momento em data centers nos Estados Unidos e na Europa. Portanto, o local de serviço pode ser diferente do local da instância do Finance ou do Supply Chain Management relacionada. Depois de concluir a configuração do Faturamento eletrônico e ativar a integração, sempre que uma fatura eletrônica for enviada, os dados mestres e os dados transacionais relacionados a um documento específico serão enviados ao faturamento eletrônico.
 
 > [!NOTE]
 > Se a sua fatura eletrônica ou qualquer outro documento contiver dados pessoais, verifique se o uso desse recurso atende ao Regulamento Geral sobre a Proteção de Dados (GDPR) e outras regulamentações relacionadas à transferência de dados pessoais.
@@ -98,12 +96,12 @@ Quando o complemento de faturamento eletrônico é instalado do LCS e a configur
 6. O serviço fornece informações sob demanda ao cliente sobre o status de processamento do documento comercial enviado.
 7. O cliente recebe informações sobre a execução de processamento concluída e disponibiliza todas as informações de log. Ele também disponibiliza o documento que foi criado ou recebido durante o processamento de fluxo.
 
-A ilustração a seguir mostra como os dados fluem de e para o complemento de faturamento eletrônico.
+A ilustração a seguir mostra como os dados fluem de e para o Faturamento eletrônico.
 
-![Fluxo de dados para o complemento de faturamento eletrônico](media/e-invoicing-service-data-flow-diagram-overview.png)
+![Fluxo de dados para o Faturamento eletrônico](media/e-invoicing-service-data-flow-diagram-overview.png)
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
-A habilitação e o uso de complemento de faturamento eletrônico podem exigir o envio de dados limitados, que incluem a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pelas autoridades fiscais com a finalidade de enviar faturas eletrônicas nos formatos predefinidos exigidos para a integração com esses serviços Web do governo. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
+A habilitação e o uso de faturamento eletrônico podem exigir o envio de dados limitados, que incluem a ID de registro de imposto da organização. Isso será transmitido a agências de terceiros autorizadas pelas autoridades fiscais com a finalidade de enviar faturas eletrônicas nos formatos predefinidos exigidos para a integração com esses serviços Web do governo. Os dados importados desses sistemas externos neste serviço online do Dynamics 365 estão sujeitos à nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=512132). Consulte as seções de aviso de privacidade da documentação de recursos específicos do país para obter mais informações.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 - [Administração de serviço](e-invoicing-service-administration.md)

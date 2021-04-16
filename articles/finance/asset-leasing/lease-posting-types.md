@@ -2,11 +2,9 @@
 title: Tipos de lançamento de arrendamento
 description: Este tópico descreve os tipos de lançamento usados para transações de arrendamento de ativo.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 9b7d8c545c1addaa570d54855bbad6c576783007
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ddc229f3ab8e048390f27503e2c6c26bd1a6f24f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229493"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841132"
 ---
 # <a name="lease-posting-types"></a>Tipos de lançamento de arrendamento
 
@@ -90,15 +88,6 @@ A conta é associada à conta de contra-ativo do ativo DDU. Essa conta é credit
 **Exemplo de entradas de diário:** acúmulo de depreciação<br>
 **Débito:** despesa de depreciação XXX<br>
 **Crédito:** depreciação acumulada XXX
-
-## <a name="retained-earnings"></a>Lucros Retidos
-
-A conta é associada a ganhos retidos. Essa conta pode ser debitada ou creditada em uma entrada de diário de ajuste de transição usando o método de retrospectiva completa ou o método A de opção de atualização cumulativa. A diferença entre o ativo DDU inicial e a responsabilidade com arrendamento está registrada para ganhos retidos. Em casos raros, os ganhos retidos também podem ser afetados durante a modificação do arrendamento, caso a classificação de um arrendamento seja alterada de mercantil para operacional a fim de gravar o ativo DDU valorizando-o ou desvalorizando-o, de forma que ele seja igual à responsabilidade com arrendamento.
-
-**Exemplo de entradas de diário:** ajuste de transição (retrospectiva completa ou método A de opção de atualização cumulativa)<br>
-**Débito:** responsabilidade com arrendamento XXX<br>
-**Crédito:** ativo de arrendamento XXX<br>
-**Crédito:** ganhos retidos XXX
 
 ## <a name="variable-payment"></a>Pagamento variável
 

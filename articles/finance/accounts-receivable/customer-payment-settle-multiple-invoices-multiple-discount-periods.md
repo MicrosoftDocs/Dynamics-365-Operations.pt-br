@@ -2,11 +2,9 @@
 title: Usar um pagamento para liquidar faturas que abrangem vários períodos de desconto
 description: Este tópico mostra como várias faturas são pagas quando cada fatura se qualifica para um desconto à vista. Os cenários neste artigo realçam como os descontos à vista efetuados podem variar, dependendo de quando o pagamento é efetuado.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16e255c471ed2f551a6cf62e9750ac0eee57a5b3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236953"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819905"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Usar um pagamento para liquidar faturas que abrangem vários períodos de desconto
 

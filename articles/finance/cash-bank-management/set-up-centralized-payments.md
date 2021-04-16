@@ -2,11 +2,9 @@
 title: Configurar pagamentos centralizados
 description: Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização.
 author: kweekley
-manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b890b3bd8d88615b3e1846b10a0f3a06e29679cb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c0ff7051611c1253ce8f431e24274fab53cf79b6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208886"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5834900"
 ---
 # <a name="set-up-centralized-payments"></a>Configurar pagamentos centralizados
 

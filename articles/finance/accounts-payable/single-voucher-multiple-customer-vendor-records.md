@@ -2,11 +2,9 @@
 title: Comprovante único com vários registros de cliente ou de fornecedor
 description: Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 Finance, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bca422d7c79bef2155b84e3da964c5e47af8ac8f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231581"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837288"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de cliente ou de fornecedor
 

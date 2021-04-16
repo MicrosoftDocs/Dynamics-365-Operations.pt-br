@@ -2,11 +2,9 @@
 title: Configurar parâmetros federais de NF-e (Brasil)
 description: É possível configurar serviços de Web da Nota Fiscal eletrônica (NF-e), códigos de rejeição e esquemas para gerar uma NF-e.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2558c478390bbf3511653d23b159e46c4522bff2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d34dc520e70852f395c5a19b5347240f07ad1a2c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245532"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839739"
 ---
 # <a name="set-up-nf-e-federal-parameters-brazil"></a>Configurar parâmetros federais de NF-e (Brasil)
 

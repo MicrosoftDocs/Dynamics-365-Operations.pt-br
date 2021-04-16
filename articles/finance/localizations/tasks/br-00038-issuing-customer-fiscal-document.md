@@ -2,11 +2,9 @@
 title: Emitir notas fiscais para clientes (Brasil)
 description: É possível emitir uma nota fiscal a um cliente que comprou mercadorias do estabelecimento fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3abc9185945963adc76e849f30673c3195d9e7ff
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: ea78a1078aeabf880a1919e1ef8d1458d1063ee9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217346"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821865"
 ---
 # <a name="issue-customer-fiscal-documents-brazil"></a>Emitir notas fiscais para clientes (Brasil)
 

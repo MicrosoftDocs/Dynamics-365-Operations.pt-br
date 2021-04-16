@@ -2,11 +2,9 @@
 title: Visão geral do controle de orçamento
 description: Este artigo apresenta o controle de orçamento e fornece informações para ajudar você a configurar esse recurso no Microsoft Dynamics 365 Finance para gerenciar recursos financeiros.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 08b2ee99f32628935552c5be166bdcd77291a6dc
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 34d7fd7f4f583ef15bac73ac64cf47dd213880e2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249500"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822242"
 ---
 # <a name="budget-control-overview"></a>Visão geral de controle de orçamento
 

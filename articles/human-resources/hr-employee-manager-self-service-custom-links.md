@@ -2,11 +2,9 @@
 title: Criar links personalizados em Autoatendimento para gerentes
 description: Este tópico descreve como criar links personalizados no Autoatendimento para gerentes no Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 ms.search.form: HRMParameters, EssWorkspace
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-21
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ab6b212efca7fa69d74d06ce2dbbab09d50f044c
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 7088bf459373c1c97baf9e8c1bc915fa0243a500
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467184"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5790851"
 ---
 # <a name="create-custom-links-in-manager-self-service"></a>Criar links personalizados em Autoatendimento para gerentes
 

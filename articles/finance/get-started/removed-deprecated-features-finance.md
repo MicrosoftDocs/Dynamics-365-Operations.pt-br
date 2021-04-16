@@ -2,11 +2,9 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Finance
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
 author: roschlom
-manager: AnnBe
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 14428491383883c1fc2a8cdcd1975e1f1cb71b40
-ms.sourcegitcommit: e9d19f25e64cf4d1c1d07c8031a7081454a6f79e
+ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5474054"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5836904"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -39,7 +37,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="lcs-repository-as-a-storage-option-for-electronic-reporting-configurations"></a>Repositório LCS como uma opção de armazenamento para configurações de Relatório eletrônico
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído pelo novo repositório global do RCS (serviço de configuração regulatória) |
 | **Substituída por outro recurso?**   | Sim |
@@ -51,7 +49,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="vat-declaration-cz-and-control-statement-export-cz-electronic-reporting-formats-for-czech-republic"></a>Formatos de relatório eletrônico "Declaração de IVA (CZ)" e "Exportação de instrução de controle (CZ)" para a República Tcheca
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituídos por novos formatos |
 | **Substituída por outro recurso?**   | Sim |
@@ -61,7 +59,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="ledger-transaction-export-format-be-electronic-reporting-format-and-respective-ledger-transaction-export-be-model-for-belgium"></a>O formato de relatório eletrônico "Formato de exportação da transação do razão (BE)" e o respectivo modelo "Exportação de transações do razão (BE)" para a Bélgica
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído pelo novo formato ER, no modelo "Arquivo de Auditoria Padrão (SAF-T)".  |
 | **Substituída por outro recurso?**   | Sim |
@@ -71,7 +69,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="vat-100-report-for-the-united-kingdom-in-ssrs-format"></a>Relatório "IVA 100" para o Reino Unido no formato SSRS
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Substituído pelo novo formato ER - o formato "Declaração de IVA Excel (UK)" em "Modelo de declaração de impostos".  |
 | **Substituída por outro recurso?**   | Sim |
@@ -83,7 +81,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
@@ -95,7 +93,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="polish-ssrs-reports-sales-vat-register-purchase-vat-register-eu-summary-vat-register--feature-reference-pl-00014"></a>Relatórios SSRS poloneses: registro de IVA de saída, registro de IVA de entrada, registro de IVA de resumo da UE – Referência de recurso PL-00014
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Não é legalmente obrigatório.  |
 | **Substituída por outro recurso?**   | Sim (formato do Excel para arquivo de auditoria padrão com declaração de IVA - JPK_VDEK) |
@@ -107,7 +105,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="norwegian-standard-main-accounts"></a>Contas principais no padrão da Noruega
 
-|   |  |
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Recriar  |
 | **Substituída por outro recurso?**   | Sim (Substituída pelos parâmetros específicos do aplicativo do formato ER) |
@@ -118,7 +116,8 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 ## <a name="features-removed-or-deprecated-in-the-finance-1007-release"></a>Recursos removidos ou substituídos na versão 10.0.7 do Finance
 
 ### <a name="workflow-request-change-dialog-box-no-longer-includes-user-selection-drop-down-list"></a>Caixa de diálogo Alterar solicitação de fluxo de trabalho não inclui mais a seleção do usuário de lista suspensa
-|   |  |
+
+| &nbsp; | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Recurso alterado para a seleção de grupos de contas.  |
 | **Substituída por outro recurso?**   | Sim |

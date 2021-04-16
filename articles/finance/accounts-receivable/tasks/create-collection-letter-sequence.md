@@ -2,11 +2,9 @@
 title: Criar uma sequência de cartas de cobrança
 description: Use esta guia para criar uma tarefa de sequência de cartas de cobrança.
 author: mikefalkner
-manager: AnnBe
 ms.date: 07/22/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 89c8fcafbb55a6a42459666d717c09fed34a8214
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8cf5612fcd237ebaaede3f8f70da5eb443a94c34
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241657"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5842409"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Criar uma sequência de cartas de cobrança
 

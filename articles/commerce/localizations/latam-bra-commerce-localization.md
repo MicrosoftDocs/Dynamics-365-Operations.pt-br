@@ -2,11 +2,9 @@
 title: Localização do Commerce para o Brasil
 description: Este tópico fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
 author: josaw
-manager: annbe
 ms.date: 07/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -15,12 +13,12 @@ ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 1ca76b57d8ed449f26a8a44b16d8fbf2d5c29700
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60449dabf0f70891ce5a50122035cb13ea5f16f1
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250792"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798767"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 

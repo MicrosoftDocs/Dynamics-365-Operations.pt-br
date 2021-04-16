@@ -2,11 +2,9 @@
 title: Estados Unidos
 description: Este tópico fornece links para recursos da documentação para os Estados Unidos.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf569c233d6dc5348758d0ae7a30e74f6a6ae602
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2cf11dc56ed571cfdb79d2dba3fa3e7c08f75507
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5224613"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5809917"
 ---
 # <a name="united-states"></a>Estados Unidos 
 

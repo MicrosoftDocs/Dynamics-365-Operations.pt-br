@@ -1,12 +1,10 @@
 ---
 title: Previsão de fluxo de caixa
 description: Este tópico fornece uma visão geral do processo de previsão de fluxo de caixa. Também explica como a previsão de fluxo de caixa é integrada a outros módulos no sistema.
-author: saraschi2
-manager: AnnBe
-ms.date: 08/03/2020
+author: JodiChristiansen
+ms.date: 12/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerCovParameters
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 98bf906569f99c74fef747381e8f27b1d9f91a5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232456"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819641"
 ---
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
@@ -45,8 +43,7 @@ A previsão de fluxo de caixa pode ser integrada com Contabilidade, Contas a pag
 - **Entradas de registro de orçamento** – Entradas de registro de orçamento marcadas para previsões de fluxo de caixa.
 - **Previsões de demanda** – Linhas do modelo de previsão de estoque selecionadas para previsões de fluxo de caixa.
 - **Previsões de fornecimento** – Linhas do modelo de previsão de estoque selecionadas para previsões de fluxo de caixa.
-
-Embora não haja nenhuma integração direta com gerenciamento e contabilidade de projeto, há várias formas para incluir transações de projeto na previsão de fluxo de caixa. As notas fiscais de projeto são lançadas na previsão como parte das transações de cliente abertas. As ordens de venda e ordens de compra iniciadas pelo projeto são incluídas na previsão como ordens abertas após serem inseridas no sistema. Você também pode transferir previsões de projeto para um modelo de orçamento do razão. Esse modelo de orçamento de razão está incluído na previsão de fluxo de caixa como parte das entradas de registro de orçamento.
+- **Previsões do projeto**- previsões de gerenciamento e contabilidade de projetos usando o modelo de previsão.
 
 ## <a name="configuration"></a>Configuração
 
@@ -96,6 +93,14 @@ A fonte e previsões de demanda de estoque podem ser incluídas em previsões de
 Uma nova guia na página **Configuração de previsão de fluxo de caixa** permite controlar as dimensões financeiras a serem usadas para filtragem no espaço de trabalho **Previsão de fluxo de caixa**. Esta guia só será exibida quando o recurso de previsões de fluxo de caixa estiver habilitado. 
 
 Na guia **Dimensões**, escolha na lista de dimensões a ser usada para filtragem e use as teclas de seta para movê-las para a coluna à direita. Somente duas dimensões podem ser selecionadas para filtrar dados de previsão de fluxo de caixa. 
+
+### <a name="project-management-and-accounting"></a>Gerenciamento e contabilidade do projeto
+
+Na versão 10.0.17, um novo recurso permite a integração com Gerenciamento e contabilidade de projeto e Previsão de fluxo de caixa. No espaço de trabalho **Gerenciamento de recursos**, ative o recurso **Previsão de fluxo de caixa do projeto** para incluir os custos previstos e as receitas na previsão de fluxo de caixa. Na guia **Gerenciamento e contabilidade de projeto** da página **Configuração da previsão de fluxo de caixa**, selecione os tipos de projeto e de transação que devem ser incluídos na previsão de fluxo de caixa. Em seguida, selecione o modelo de previsão de projeto. Um submodelo do tipo de redução funciona melhor. As contas de liquidez que foram inseridas na configuração de Contas a receber são usadas como contas de liquidez padrão. Portanto, não é necessário inserir contas de liquidez padrão ao configurar a previsão de fluxo de caixa. Um modelo de orçamento também pode ser usado, mas somente um tipo pode ser selecionado na página **Configuração de previsão de fluxo de caixa** do Gerenciamento e contabilidade de projeto. Um modelo de previsão fornece mais flexibilidade quando o Gerenciamento e contabilidade de projeto ou o Project Operations é usado.
+
+Após a ativação do recurso Previsão de fluxo de caixa do projeto, a previsão de fluxo de caixa pode ser exibida para cada projeto na página **Todos os projetos**. No Painel de Ações, na guia **Planejar**, no grupo de **Previsões**, selecione **Previsão de fluxo de caixa**. Nos espaços de trabalho **Visão geral de caixa** (consulte a seção [Relatórios](#reporting) posteriormente neste tópico), o tipo de transação previsão de projeto mostra os fluxos (receita de previsão do projeto) e as saídas (custos de previsão do projeto). Os valores só podem ser incluídos se o campo **Estágio do projeto** nos espaços de trabalho **Visão geral de caixa** estiver definido como **Em processo**.
+
+As transações do projeto ainda são incluídas na previsão de fluxo de caixa de várias formas, independentemente de o recurso **Previsão de fluxo de caixa do projeto** estar ativado. As notas fiscais de projeto são lançadas na previsão como parte das transações de cliente abertas. As ordens de venda e ordens de compra iniciadas pelo projeto são incluídas na previsão como ordens abertas após serem inseridas no sistema. Você também pode transferir previsões de projeto para um modelo de orçamento do razão. Esse modelo de orçamento de razão está incluído na previsão de fluxo de caixa como parte das entradas de registro de orçamento. Se você ativou o recurso **Previsão de fluxo de caixa de projeto**, não transfira previsões de projeto para um modelo de orçamento do razão porque essa ação fará com que as previsões de projeto sejam contabilizadas duas vezes.
 
 ### <a name="calculation"></a>Cálculo
 

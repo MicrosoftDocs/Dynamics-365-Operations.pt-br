@@ -2,11 +2,9 @@
 title: Habilitar o cálculo de impostos atrasados nos diários
 description: Este tópico explica como ativar o recurso Cálculo de impostos atrasados para ajudar a melhorar o desempenho dos cálculos de impostos quando o número de linhas do diário é muito grande.
 author: ericwang
-manager: Ann Beebe
 ms.date: 09/18/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: d842b60b3cca8c29b281ab4a6a1b6c3b0bad3684
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236713"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823707"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Habilitar o cálculo de impostos atrasados nos diários
 [!include [banner](../includes/banner.md)]

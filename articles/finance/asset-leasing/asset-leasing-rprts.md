@@ -2,11 +2,9 @@
 title: Relatórios de arrendamento de ativos
 description: Este tópico lista e descreve brevemente os relatórios disponíveis para arrendamento de ativos.
 author: moaamer
-manager: Ann Beebe
 ms.date: 10/27/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-27
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ab55d778f55c3ec96141c4f868724af1e11aed09
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 085027c5cc823beec99779791ff471dceb4ec8fe
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5229565"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814095"
 ---
 # <a name="asset-leasing-reports"></a>Relatórios de arrendamento de ativos
 

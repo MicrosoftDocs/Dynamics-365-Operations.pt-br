@@ -2,11 +2,9 @@
 title: Visão geral da atualização do registro de depreciações
 description: 'Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciação.'
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: roschlom
@@ -16,12 +14,12 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 016787fa0636b0a3c0d17d2e4fd890cf56d8f519
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d42936a94e0f4d50ae227d760d5bee6e1e3a12e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241225"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826969"
 ---
 # <a name="depreciation-book-upgrade-overview"></a>​Visão geral do upgrade do registro de depreciações​
 

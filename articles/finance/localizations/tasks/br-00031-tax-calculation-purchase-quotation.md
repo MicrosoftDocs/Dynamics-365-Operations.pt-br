@@ -2,11 +2,9 @@
 title: Calcular impostos em cotações de compra (Brasil)
 description: Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a resposta do fornecedor, você pode fornecer informações fiscais aplicáveis.
 author: sndray
-manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d106d5e32eda9e6614648bdfb5b33cd9dfe032b0
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: aaf1d2e6e5b752867115c73a42c140c6d99d3637
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225207"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832498"
 ---
 # <a name="calculate-tax-on-purchase-quotations-brazil"></a>Calcular impostos em cotações de compra (Brasil)
 

@@ -2,11 +2,9 @@
 title: Documentos de justificativa para planejamento de orçamento
 description: Documentos de justificativa fornecem uma narrativa àqueles solicitando um orçamento para explicar por que um orçamento específico é necessário.
 author: panolte
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8754c017a966cb1d11a72d6f8a80e1088aeb9100
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 546c1e430f97416a4d3ee085781a0972d4c5a6a6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210304"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827497"
 ---
 # <a name="budget-planning-justification-documents"></a>Documentos de justificativa para planejamento de orçamento
 

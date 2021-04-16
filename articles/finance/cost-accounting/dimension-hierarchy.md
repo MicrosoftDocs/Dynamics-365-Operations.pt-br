@@ -2,11 +2,9 @@
 title: Hierarquia de dimensões
 description: Este tópico fornece informações sobre hierarquias de dimensões. As hierarquias de dimensões são usadas para definir a estrutura de relatórios, as políticas de custo e a configuração de segurança na Contabilização de Custos.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2a2e48b15bedd25b685686fa18a91f30b600331c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fdf280031e2ad2356a1a2ef3bba75d1f74c8e4de
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217377"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810165"
 ---
 # <a name="dimension-hierarchy"></a>Hierarquia de dimensões
 
@@ -124,12 +122,13 @@ Uma hierarquia de dimensões que atende aos requisitos de relatórios da organiz
 
 A hierarquia de dimensões para relatórios pode ser configurada como mostrado aqui.
 
-|                   | Intervalos de membros de dimensão   |                         |
+**Intervalos de membros de dimensão**
+
+|   Nós           |   Membro da dimensão de origem   |   Membro da dimensão de destino   |
 |-------------------|---------------------------|-------------------------|
-| **Nós**         | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Organização      |                           |                         |
 | &nbsp;&nbsp;Administrador         |                           |                         |
-|&nbsp;&nbsp;&nbsp;&nbsp;Finanças   | CC002                     | CC003                   |
+| &nbsp;&nbsp;&nbsp;&nbsp;Finanças   | CC002                     | CC003                   |
 |                   | CC007                     | CC007                   |
 | &nbsp;&nbsp;&nbsp;&nbsp;RH        | CC001                     | CC001                   |
 | &nbsp;&nbsp;Produção    |                           |                         |
@@ -146,12 +145,13 @@ Uma hierarquia de dimensões que atende ao requisito de relatório pode ser conf
 
 A hierarquia de dimensões para a política pode ser configurada como mostrado aqui.
 
-|                   | Intervalos de membros de dimensão   |                         |
+**Intervalos de membros de dimensão**
+
+|   Nós           |   Membro da dimensão de origem   |   Membro da dimensão de destino   |
 |-------------------|---------------------------|-------------------------|
-| **Nós**         | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Comportamento de custo     |                           |                         |
 | &nbsp;&nbsp;Custo fixo    | 10001                     | 10011                   |
-|&nbsp;&nbsp;Custo variável | 40001                     | 40010                   |
+| &nbsp;&nbsp;Custo variável | 40001                     | 40010                   |
 
 > [!NOTE]
 > Em **Intervalos de membros de dimensão**, um nó pode conter 1:_n_ intervalos de membros de dimensão. Você pode inserir as IDs de membros de dimensão que ainda não existem como membros de dimensão. Esta abordagem torna a hierarquia resiliente para o futuro.  
@@ -297,9 +297,10 @@ Possivelmente, todos os gerentes poderão acessar dados comerciais altamente con
 
 Uma nova Guia Rápida **Usuários** está disponível no designer de hierarquia. Aqui, você pode inserir uma ou mais IDs de usuário em cada nó na hierarquia.
 
-|                 | Usuários            | Intervalos de membros de dimensão   |                         |
+**Intervalos de usuários e membros de dimensão**
+
+|   Nós         |   ID do usuário        |   Membro de dimensão de origem   |   Membro da dimensão de destino   |
 |-----------------|------------------|---------------------------|-------------------------|
-| **Nós**       | **ID do Usuário**      | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Organização    | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administrador         | Abril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finanças   | Alicia           | CC002                     | CC003                   |

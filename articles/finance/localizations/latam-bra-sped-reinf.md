@@ -2,11 +2,9 @@
 title: Declaração de imposto do SPED-Reinf (Brasil)
 description: Este tópico fornece informações sobre a configuração de eventos do SPED-Reinf usando Livros fiscais e a estrutura de registro de relatórios SII no Microsoft Dynamics 365 Finance para o Brasil.
 author: sndray
-manager: AnnBe
 ms.date: 01/19/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: af8513a9e790d4eac433c4705fafada7ffc7b35a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 973804b51657af6003a1361e39b81c6dcec7d2ed
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254427"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837970"
 ---
 # <a name="sped-reinf-tax-statement-brazil"></a>Declaração de imposto do SPED-Reinf (Brasil)
 

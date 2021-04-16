@@ -1,12 +1,10 @@
 ---
-title: Configurar o complemento de faturamento eletrônico em Regulatory Configuration Services (RCS)
-description: Este tópico explica como configurar o complemento do faturamento eletrônico no Dynamics 365 Regulatory Configuration Services (RCS).
+title: Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
+description: Este tópico explica como configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS) do Dynamics 365.
 author: gionoder
-manager: AnnBe
-ms.date: 01/28/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,34 +15,32 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 99fac9a42dc2b180c220612c66fe753d43e5bd7f
-ms.sourcegitcommit: 543772ee97efe215cf6f2ec6e092cc1568919f20
+ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "5592613"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840235"
 ---
-# <a name="configure-the-electronic-invoicing-add-on-in-regulatory-configuration-services-rcs"></a>Configurar o complemento de faturamento eletrônico em Regulatory Configuration Services (RCS)
+# <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 
 [!include [banner](../includes/banner.md)]
 
-[!include [banner](../includes/banner.md)]
+Este tópico fornece informações sobre os recursos de configuração do Faturamento eletrônico no Regulatory Configuration Services (RCS) do Dynamics 365.
 
-Este tópico fornece informações sobre os recursos de configuração do complemento de faturamento eletrônico em Dynamics 365 Regulatory Configuration Services (RCS).
-
-É por meio dos recursos de configuração que o complemento do faturamento eletrônico ajuda você a atender aos requisitos comerciais e regulatórios das faturas eletrônicas sem precisar de codificação. Nos cenários em que as faturas eletrônicas devem ser aprovadas eletronicamente por serviços Web, os recursos de configuração também ajudam a atender aos requisitos de troca de mensagens com serviços Web, sem códigos.
+É por meio dos recursos de configuração que o Faturamento eletrônico ajuda você a atender aos requisitos comerciais e regulatórios das faturas eletrônicas sem precisar de codificação. Nos cenários em que as faturas eletrônicas devem ser aprovadas eletronicamente por serviços Web, os recursos de configuração também ajudam a atender aos requisitos de troca de mensagens com serviços Web, sem códigos.
 
 ## <a name="electronic-reporting"></a>Relatório eletrônico
 
-O Relatório Eletrônico (ER) oferece suporte ao complemento eletrônico de faturamento.
+O Relatório Eletrônico (ER) oferece suporte ao Faturamento eletrônico.
 
-O mapeamento e os formatos do modelo de dados são componentes configuráveis criados e mantidos por meio da ER e usados no complemento do faturamento eletrônico. O designer de formato ER é a ferramenta para criar e manter formatos de arquivo. Ele é usado para configurar os recursos de faturamento eletrônico.
+O mapeamento e os formatos de modelo de dados são componentes configuráveis criados e mantidos pelo ER e usados no Faturamento eletrônico. O designer de formato ER é a ferramenta para criar e manter formatos de arquivo. Ele é usado para configurar os recursos de faturamento eletrônico.
 
 Para obter mais informações, consulte [Visão geral de Relatório Eletrônico (ER)](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md).
 
 ## <a name="electronic-invoicing-features"></a>Recursos do faturamento eletrônico
 
-Os recursos de faturamento eletrônico são responsáveis pela geração de faturas eletrônicas por meio do complemento de faturamento eletrônico. Eles encapsulam as regras de configuração e as usam para processar os dados que o Microsoft Dynamics 365 Finance e o Dynamics 365 Supply Chain Management enviam para o complemento de faturamento eletrônico e para faturas eletrônicas.
+Os recursos de faturamento eletrônico são responsáveis pela geração de faturas eletrônicas por meio do Faturamento eletrônico. Eles encapsulam as regras de configuração e as usam para processar os dados que o Microsoft Dynamics 365 Finance e o Dynamics 365 Supply Chain Management enviam para o Faturamento eletrônico e para faturas eletrônicas.
 
 Os recursos também dão suporte a cenários em que a conformidade com especificações de formato de arquivo é necessária e a saída é um arquivo eletrônico autônomo. Na maioria dos casos, as especificações de formato de arquivo são publicadas pela autoridade fiscal.
 
@@ -81,13 +77,13 @@ A tabela a seguir mostra os recursos de faturamento eletrônico que estão atual
 
 Os recursos de faturamento eletrônico consistem nos seguintes grupos de componentes configuráveis:
 
-- **Formatos** – formatos permitem que você configure o que o complemento de faturamento eletrônico deve gerar quando um documento eletrônico se torna uma fatura eletrônica. Os formatos incluem a configuração de formato para a fatura eletrônica e para os arquivos e mensagens usados para enviar solicitações e receber respostas quando a comunicação com um serviço Web externo é necessária.
-- **Ações** – as ações permitem que você configure como o complemento de faturamento eletrônico gera a transformação de um documento eletrônico que o Finance e o Supply Chain Management enviaram em uma fatura eletrônica.
-- **Regras de aplicabilidade** – as regras de aplicabilidade permitem configurar o contexto que o complemento do faturamento eletrônico deve considerar para processar um recurso de faturamento eletrônico.
-- **Variáveis** – as variáveis permitem que você configure o suporte para a construção da lógica de configuração. As variáveis podem funcionar como a entrada de valores para executar uma ação específica. Como alternativa, elas podem funcionar como uma troca de valores entre o Finance and o Supply Chain Management e o complemento do faturamento eletrônico.
-- **Mapeamento de modelos de documento eletrônico** – o mapeamento de modelos de documento eletrônico permite configurar o mapeamento do modelo de ER. O mapeamento do modelo define o mapeamento de dados da fatura abstrata que está integrado no complemento de faturamento eletrônico quando os documentos eletrônicos são enviados.
+- **Formatos** – permitem que você configure o que o Faturamento eletrônico deve gerar quando um documento eletrônico se torna uma fatura eletrônica. Os formatos incluem a configuração de formato para a fatura eletrônica e para os arquivos e mensagens usados para enviar solicitações e receber respostas quando a comunicação com um serviço Web externo é necessária.
+- **Ações** – as ações permitem que você configure como o Faturamento eletrônico gera a transformação de um documento eletrônico que o Finance e o Supply Chain Management enviaram em uma fatura eletrônica.
+- **Regras de aplicabilidade** – permitem configurar o contexto que o Faturamento eletrônico deve considerar para processar um recurso de faturamento eletrônico.
+- **Variáveis** – as variáveis permitem que você configure o suporte para a construção da lógica de configuração. As variáveis podem funcionar como a entrada de valores para executar uma ação específica. Como alternativa, elas podem funcionar como uma troca de valores entre o Finance and o Supply Chain Management e o Faturamento eletrônico.
+- **Mapeamento de modelos de documento eletrônico** – o mapeamento de modelos de documento eletrônico permite configurar o mapeamento do modelo de ER. O mapeamento do modelo define o mapeamento de dados da fatura abstrata que está integrada no Faturamento eletrônico quando os documentos eletrônicos são enviados.
 - **Modelo de contexto de fatura** – o modelo de contexto de fatura permite configurar o modelo de contexto da fatura ER e definir o contexto de um recurso de faturamento eletrônico.
-- **Tipos de respostas** – os tipos de resposta permitem que você configure o que o complemento de faturamento eletrônico deve atualizar no Finance e no Supply Chain Management como resultado do processamento de faturas eletrônicas.
+- **Tipos de respostas** – permitem que você configure o que o Faturamento eletrônico deve atualizar no Finance e no Supply Chain Management como resultado do processamento de faturas eletrônicas.
 
 ### <a name="formats"></a>Formatos
 
@@ -237,7 +233,7 @@ As versões do recurso de faturamento eletrônico seguem um ciclo de vida que te
 
 - **Rascunho** – se uma versão do recurso estiver neste status, você poderá editar seus atributos de configuração e qualquer um dos artefatos (por exemplo, configurações de formato de arquivo).
 - **Concluir** – se uma versão do recurso estiver neste status, ela foi publicada no repositório global associado à sua organização. Não é mais possível editar a versão do recurso ou qualquer um dos componentes ER.
-- **Publicado** – se uma versão do recurso estiver neste status, ela foi publicada no complemento de faturamento eletrônico. Não é mais possível editar a versão do recurso ou qualquer um dos componentes ER.
+- **Publicado** – se uma versão do recurso estiver neste status, ela foi publicada no Faturamento eletrônico. Não é mais possível editar a versão do recurso ou qualquer um dos componentes ER.
 
 ### <a name="feature-configurations"></a>Configurações de recursos
 
@@ -266,14 +262,14 @@ Por meio da configuração do aplicativo, você pode configurar a parte de um re
 
 No RCS, use o comando **Implantar** para direcionar a versão de um recurso de faturamento eletrônico. Selecione **Implantar** e uma das seguintes opções para definir o destino da implantação: 
 
-- **Ambiente de serviço** – quando o destino da implantação é o ambiente de serviço, a versão do recurso de faturamento eletrônico é publicada no ambiente de serviço. O complemento de faturamento eletrônico está pronto para receber e processar documentos eletrônicos enviados pelo Finance e pelo Supply Chain Management.
+- **Ambiente de serviço** – quando o destino da implantação é o ambiente de serviço, a versão do recurso de faturamento eletrônico é publicada no ambiente de serviço. O Faturamento eletrônico então estará pronto para receber e processar documentos eletrônicos enviados pelo Finance e pelo Supply Chain Management.
 - **Aplicativo conectado** – quando o destino da implantação é o aplicativo conectado, a configuração fornecida pela configuração do aplicativo é gravada na instância do Finance e do Supply Chain Management que foi previamente associada a ele.
 
 Somente as versões do recurso de faturamento eletrônico com o status **Concluído** podem ser implantadas em um ambiente de serviço ou em um aplicativo conectado.
 
 ### <a name="removing-feature-versions"></a>Remover versões do recurso
 
-No RCS, use o comando **Cancelar implantação** para remover uma versão específica do recurso de faturamento eletrônico de um ambiente de serviço no complemento de faturamento eletrônico.
+No RCS, use o comando **Cancelar implantação** para remover uma versão específica do recurso de faturamento eletrônico de um ambiente de serviço no Faturamento eletrônico.
 
 > [!IMPORTANT]
 > O comando **Cancelar implantação** só funciona em ambientes de serviço. Ele não remove versões do recurso de faturamento eletrônico de aplicativos conectados.
