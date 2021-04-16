@@ -2,11 +2,9 @@
 title: Configurar letras de câmbio
 description: Este tópico descreve as etapas para configurar as letras de câmbio.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustBillOfExchangeJour
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6910a019a2314655c60a0bfdaad7d4df384225b4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: efb90e5821b2bbb57396c85722f96a43b7ace0ff
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228140"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835235"
 ---
 # <a name="set-up-bills-of-exchange"></a>Configurar letras de câmbio
 

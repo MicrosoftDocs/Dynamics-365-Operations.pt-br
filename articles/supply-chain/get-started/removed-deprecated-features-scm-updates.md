@@ -2,11 +2,9 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção em Dynamics 365 Supply Chain Management.
 author: kamaybac
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9c91ffcb03793db2f2ef3a9631ab549ace3f735d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2e41510f1f5810dde9683235384f89008f888471
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5259082"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5821264"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
 
@@ -34,6 +32,18 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Recursos removidos ou substituídos na versão 10.0.18 do Supply Chain Management
+
+### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Warehousing (o aplicativo de depósito)
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Em abril de 2021, o *Dynamics 365 for Finance and Operations - Warehousing* (o aplicativo de depósito) estará obsoleto e só terá suporte até abril de 2022. Ele foi substituído pelo *aplicativo móvel de gerenciamento de depósito*, lançado com a versão 10.0.17 do Supply Chain Management. O novo aplicativo é uma substituição completa, mas usa a mesma estrutura subjacente, o que facilita a migração. Se necessário, os dois aplicativos poderão ser usados lado a lado para ajudar usuários no ajuste gradual à medida que aprendem a usar o novo aplicativo.<br><br>Para obter mais informações sobre o novo aplicativo móvel de gerenciamento de depósito, consulte [Aplicativo móvel de gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instale e conecte o Aplicativo móvel de gerenciamento de depósito](../warehousing/install-configure-warehouse-management-app.md). |
+| **Substituída por outro recurso?**   | Sim, substituído pelo novo aplicativo móvel de gerenciamento de depósito. |
+| **Áreas afetadas do produto**         | Supply Chain Management - aplicativo de depósito |
+| **Opção de implantação**              | Nuvem e local |
+| **Status**                         | Preterido. O aplicativo de depósito receberá suporte com correções de segurança e bug, mas melhorias de recursos não serão mais fornecidas. Após abril de 2022, o aplicativo de depósito antigo não terá mais suporte e os clientes serão solicitados a migrar para o novo aplicativo móvel de gerenciamento de depósito. O aplicativo de depósito antigo será removido da Microsoft Store e do Google Play Store.  |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10015-release"></a>Recursos removidos ou substituídos na versão 10.0.15 do Supply Chain Management
 

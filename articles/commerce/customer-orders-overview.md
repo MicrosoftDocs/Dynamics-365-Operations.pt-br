@@ -2,11 +2,9 @@
 title: Ordens de cliente no Ponto de Venda (PDV)
 description: Este tópico fornece informações sobre ordens de cliente no Ponto de Venda (PDV). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
 author: josaw1
-manager: AnnBe
 ms.date: 01/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f60e07c1faae9bc3cb6d3c843e72e6000cff7591
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5220501"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5820999"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordens de cliente no Ponto de Venda (PDV)
 
@@ -61,7 +59,8 @@ A partir da versão 10.0.12 do Commerce, as organizações podem definir se as c
 
 Ao trabalhar com ordens de cliente no PDV, você deve considerar algumas das configurações do canal de loja. Essas configurações são encontradas na página **Lojas** na sede do Commerce.
 
-- **Depósito** – Este campo indica o depósito usado para atender às ordens configuradas para remessa da loja.
+- **Depósito** – este campo indica o depósito que será usado ao decrementar o estoque para ordens de retirada de caixa e de cliente ligadas a este armazenamento. Como prática recomendada, incentivamos o uso de depósitos exclusivos para cada canal de armazenamento, a fim de evitar problemas da lógica comercial conflitantes em todos os armazenamentos.
+- **Depósito de Remessa** – este campo indica o depósito que será usado ao decrementar o estoque para ordens de cliente a serem remetidas do armazenamento selecionado. Se o recurso **Capacidade para especificar locais como "Remessa" ou "Retirada" no Grupo de atendimento** foi habilitado no seu ambiente, os usuários de PDV podem escolher um depósito específico a ser remetido no PDV, em vez de escolher um armazenamento de remessa. Portanto, quando esse recurso está habilitado, o depósito de remessa não é usado, pois o usuário selecionará o depósito específico para remeter a ordem quando a ordem for criada.
 - **Atribuição de grupos de atendimento** – Selecione este botão (na guia **Configurar** no Painel de Ações) para vincular os grupos de atendimento referenciados para mostrar opções de locais de retirada ou origens de remessa quando as ordens de cliente forem criadas no PDV.
 - **Usar imposto baseado no destino** – Esta opção indica se o endereço de remessa é usado para determinar o grupo de impostos que é aplicado às linhas de ordem remetidas ao endereço do cliente.
 - **Usar imposto baseado no cliente** – Esta opção indica se o grupo de impostos definido para o endereço de entrega do cliente é usado para taxar ordens de cliente criadas no PDV para remessa à casa do cliente.

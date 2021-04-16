@@ -2,11 +2,9 @@
 title: Definir processo de remuneração e calcular resultados
 description: Os processos de remuneração são usados para determinar os novos valores e prêmios de remuneração para os funcionários inscritos em planos de remuneração fixos e variáveis.
 author: andreabichsel
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl, HcmCompensationWorkspace
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3564e7807ed81684d51de3185cea9b4f35f38d8b
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: c3d6a3513fe3e10efa80f17e9ac0c24b3d8d499c
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5468266"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5800990"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definir processo de remuneração e calcular resultados
 

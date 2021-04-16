@@ -2,11 +2,9 @@
 title: Reabastecimento sobre a capacidade do local
 description: Este tópico fornece informações sobre o recurso Reabastecimento sobre a capacidade do local. Este recurso habilita a criação de todo o trabalho de reabastecimento que será necessário para o dia e gerencia a disponibilidade desse trabalho de reabastecimento para garantir que o local de separação não fique sem estoque nem acima da capacidade.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates, WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1e4acfea3484acaafd982d0f22c2303f921f909f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228384"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823230"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimento sobre a capacidade do local
 
@@ -241,7 +239,7 @@ Dependendo das quantidades disponíveis, as quantidades de trabalho criadas pode
 
 #### <a name="on-hand-inventory-license-plate-id"></a>ID da placa de licença de estoque disponível
 
-Posteriormente neste cenário, você usará o aplicativo de depósito (ou um emulador), no qual deve identificar a placa de licença para preencher os cenários de separação e reabastecimento.
+Posteriormente neste cenário, você usará o aplicativo móvel de gerenciamento de depósito (ou um emulador), em que deve identificar a placa de licença para concluir os cenários de separação e reabastecimento.
 
 Para localizar as IDs de placa de licença que serão necessárias posteriormente, siga estas etapas.
 
@@ -266,7 +264,7 @@ Você executará o reabastecimento de localização de depósito para as duas pr
 
 #### <a name="replenishment"></a>Reabastecimento
 
-1. Entre no aplicativo do depósito como um usuário no depósito *61*. (Insira *61* como a ID do usuário e *1* como a senha.)
+1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário no depósito *61*. (Insira *61* como a ID do usuário e *1* como a senha.)
 1. Vá para **Estoque \> Reabastecimento**.
 
     Você será solicitado a concluir o primeiro trabalho de reabastecimento. O número do item, a quantidade e o local de separação são mostrados.
@@ -296,7 +294,7 @@ Até que o estoque suficiente seja separado do local para deixá-lo abaixo do li
 
 Antes da conclusão da tarefa de trabalho de reabastecimento restante, o estoque do local de separação deve ser esgotado até um nível em que o trabalho de reabastecimento restante possa ser desbloqueado. Em outras palavras, a soma da quantidade de estoque disponível no local e a quantidade de reabastecimento não pode exceder o valor **Quantidade de excesso**. Quando essa soma for menor do que a quantidade de excesso, o trabalho de reabastecimento restante será desbloqueado.
 
-1. Entre no aplicativo do depósito como um usuário no depósito *61*. (Insira *61* como a ID do usuário e *1* como a senha.)
+1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário no depósito *61*. (Insira *61* como a ID do usuário e *1* como a senha.)
 1. Vá para **Saída \> Separação de Venda**.
 1. Insira a primeira ID de trabalho para a ordem de venda 1.
 

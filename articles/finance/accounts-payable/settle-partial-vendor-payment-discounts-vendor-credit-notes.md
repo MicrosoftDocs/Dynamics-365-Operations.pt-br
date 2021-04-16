@@ -2,11 +2,9 @@
 title: Liquidar um pagamento parcial de fornecedor que tem descontos sobre notas de crédito
 description: Este artigo aborda um cenário onde um memorando de crédito é liquidado com relação a uma nota fiscal.
 author: abruer
-manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a9a23ef6bff5f135e7f4189add776aeed18fbe79
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6e634796c7143c14a872c721f298f3ab28cbddd6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227295"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5827833"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de fornecedor que tem descontos sobre notas de crédito
 
@@ -42,10 +40,10 @@ Em 29 de junho, Amanda cria uma fatura de 1.000,00 para o fornecedor 3050. Em 2 
 
 As informações do desconto para a nota de crédito aparecem na parte inferior da página **Liquidar transações abertas**.
 
-|                              |           |
+| Campo                        | Alíquota     |
 |------------------------------|-----------|
 | Data do desconto à vista           | 13/7/2015 |
-| Valor de desconto à vista         | 2,00      |
+| Valor de desconto à vista         | 2.00      |
 | Usar desconto à vista            | Normal    |
 | Desconto à vista obtido          | 0,00      |
 | Valor do desconto à vista a ser obtido | 2,00      |

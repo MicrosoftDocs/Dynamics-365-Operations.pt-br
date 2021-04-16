@@ -2,11 +2,9 @@
 title: Efeitos de depreciação em reversões
 description: Este artigo discute implicações potenciais para reverter uma transação de ativo fixo.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: AssetTrans
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4952f94d635a9c9cdc7892e6cc142cfe4d526e44
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 6973cf3f4189347e0403d3d29014a23afb03836c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5241201"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826945"
 ---
 # <a name="depreciation-effects-with-reversals"></a>Efeitos de depreciação em reversões
 

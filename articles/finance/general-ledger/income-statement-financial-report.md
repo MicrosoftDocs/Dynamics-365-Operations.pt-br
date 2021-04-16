@@ -2,11 +2,9 @@
 title: Relatório financeiro do demonstrativo de renda
 description: Este artigo descreve o relatório padrão para declarações de imposto. Também mostra os blocos de construção associados a este relatório.
 author: jcart1106
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fab0e9d5e550b1848c3483b3172836e258353ebb
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9d1852eac49b4a26e0680d7a918d2a6d8af37031
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249062"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838828"
 ---
 # <a name="income-statement-financial-report"></a>Relatório financeiro do demonstrativo de renda
 

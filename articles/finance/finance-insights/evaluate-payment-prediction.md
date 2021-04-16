@@ -2,11 +2,9 @@
 title: Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
 description: Este tópico descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 05/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 9cbe0308902071c066d18ce71e6e33422207e8ba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245583"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818604"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
 
@@ -68,7 +66,7 @@ Para uma análise mais profunda dos resultados, um bom ponto de partida é revis
 
 Você pode expandir esses dados da maneira a seguir.
 
-|                          | Previsto dentro do prazo | Previsto para atraso | Previsto para muito atraso |
+| &nbsp;                   | Previsto dentro do prazo | Previsto para atraso | Previsto para muito atraso |
 |--------------------------|-------------------|----------------|---------------------|
 | Pagamento dentro do prazo   | **71**            | 0              | 21                  |
 | Pagamento atrasado real      | 5                 | **0**          | 27                  |

@@ -2,11 +2,9 @@
 title: SPED fiscal ICMS-IPI layout 014
 description: Este tópico explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 01/21/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: aa83fde125272fdc696b33d8297c7e8ed26f8a35
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 4ce789d539f658150a526293d2132cfeb846bf44
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5219859"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823631"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 

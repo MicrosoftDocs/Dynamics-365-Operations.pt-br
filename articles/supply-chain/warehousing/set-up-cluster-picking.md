@@ -2,11 +2,9 @@
 title: Configurar separação de cluster
 description: Este tópico descreve como configurar a separação do cluster e como aplicar a confirmação do item com a separação do cluster.
 author: Mirzaab
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm, WHSWorkCluster
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2b3df8cf5e63fe97925f17001e836a41c703dfc9
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 481db453656097de8eeb93c89306509493cce3c3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239221"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831185"
 ---
 # <a name="set-up-cluster-picking"></a>Configurar separação de cluster
 
