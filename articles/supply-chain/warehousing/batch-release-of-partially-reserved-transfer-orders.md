@@ -2,11 +2,9 @@
 title: Versão do lote de ordens de transferência parcialmente reservadas
 description: Este tópico descreve como configurar e aplicar liberação de lote das ordens de transferência reservadas parcialmente de um dispositivo móvel.
 author: pjacobse
-manager: tfehr
 ms.date: 05/26/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, WHSFulfillmentPolicy
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b13e3525049c893a7193b549f5b4ba63b8841b87
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 7802fe379941b915450b7c60c1187187038c95f2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233262"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5837504"
 ---
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>Versão do lote de ordens de transferência parcialmente reservadas
 

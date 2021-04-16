@@ -2,11 +2,9 @@
 title: Ordens de serviço criadas automaticamente
 description: Você pode gerar ordens de serviço com base em um contrato de serviço para o período de vigência do contrato de serviço.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c1244cedff23df0350598a3cc876d39d4400b8e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0b864aee332c82bc6b6845e7f9e425cfef377033
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5232125"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5824621"
 ---
 # <a name="automatically-create-service-orders"></a>Ordens de serviço criadas automaticamente 
 

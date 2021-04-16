@@ -2,11 +2,9 @@
 title: Configurar e gerar arquivos de pagamento positivo
 description: Este tópico explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.
 author: panolte
-manager: AnnBe
 ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 7d1520828bc626784f1555d8878a1fdad1bd5b9e
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 9f96e34b8d94f9e83afb39d6ad97aca85386b458
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5227367"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830703"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar e gerar arquivos de pagamento positivo
 
@@ -140,6 +138,9 @@ Os arquivos de pagamento positivo são criados usando entidades de dados. Antes 
   </xsl:template>
 </xsl:stylesheet>
 ```
+
+> [!NOTE]
+> Os nomes em XML no XSLT devem corresponder à capitalização dos nós no XML. Os arquivos XSLT e XML diferenciam maiúsculas e minúsculas. 
 
 ## <a name="assign-the-positive-pay-format-to-a-bank-account"></a>Atribuir o formato de pagamento positivo a uma conta bancária
 Para cada conta bancária que você deseja gerar as informações de pagamento positivo, é necessário atribuir o formato de pagamento positivo que foi especificado na seção anterior. Na página **Contas bancárias**, selecione o formato de pagamento positivo que corresponda à conta bancária. No campo **Data inicial do pagamento positivo**, insira a primeira data para gerar os arquivos de pagamento positivo. É importante que você insira uma data nesse campo. Caso contrário, o primeiro arquivo de pagamento positivo gerado incluirá todos os cheques já criados para essa conta bancária.

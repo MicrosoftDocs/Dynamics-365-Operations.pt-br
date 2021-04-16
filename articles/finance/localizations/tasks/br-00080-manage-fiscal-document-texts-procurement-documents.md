@@ -2,11 +2,9 @@
 title: Gerenciar texto da nota fiscal em notas de compras (Brasil)
 description: Configurar modelos de textos da nota fiscal.
 author: sndray
-manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0a00ff5e39cd96de19f8af0de09a6d219dc7822
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b06aa1acdde2d4240e07398555c651fb40170e17
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5252133"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5808708"
 ---
 # <a name="manage-fiscal-document-text-in-procurement-documents-brazil"></a>Gerenciar texto da nota fiscal em notas de compras (Brasil)
 

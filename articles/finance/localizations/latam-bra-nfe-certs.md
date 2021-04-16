@@ -2,11 +2,9 @@
 title: Certificados de NF-e
 description: Este tópico fornece informações sobre certificados de NF-e para o Microsoft Dynamics 365 Finance e a solução que você deve usar para cada autoridade fiscal estadual.
 author: sndray
-manager: AnnBe
 ms.date: 01/31/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b72f682ffae8b8ba5d49f7b182d044afeb375942
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 328de242c859aa4b1854754bf794663135d508d0
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5215056"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5813982"
 ---
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 

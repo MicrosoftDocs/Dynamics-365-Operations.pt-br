@@ -2,11 +2,9 @@
 title: Política de acúmulo de custos e cálculo de custos indiretos
 description: Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
 author: AndersGirke
-manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy, CAMOverheadRatePolicy
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b71dc9b5394ee35b76ead292b72951ece0d1d03d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5226308"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5815755"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 

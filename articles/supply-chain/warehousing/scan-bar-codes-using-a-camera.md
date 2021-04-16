@@ -1,12 +1,10 @@
 ---
-title: Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
-description: Este tópico explica como configurar o aplicativo de depósito para digitalizar códigos de barras usando uma câmera em um dispositivo móvel.
+title: Digitalizar códigos de barras usando uma câmera no aplicativo móvel de gerenciamento de depósito
+description: Este tópico explica como configurar o aplicativo móvel de gerenciamento de depósito para digitalizar códigos de barras usando uma câmera em um dispositivo móvel.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 01/03/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileAppField
 audience: Application User
@@ -16,41 +14,38 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 28a49736f43bd2d3bfd4c6856f2f87079a005ba2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2f61f9c45b95b730a7f1743963658ec00abfbb56
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5239293"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831209"
 ---
-# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-app"></a>Digitalizar códigos de barras usando uma câmera no aplicativo de depósito
+# <a name="scan-bar-codes-using-a-camera-in-the-warehouse-management-mobile-app"></a>Digitalizar códigos de barras usando uma câmera no aplicativo móvel de gerenciamento de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar o aplicativo de depósito para digitalizar códigos de barras usando uma câmera em um dispositivo móvel. 
+Este tópico explica como configurar o aplicativo móvel de gerenciamento de depósito para digitalizar códigos de barras usando uma câmera em um dispositivo móvel.
 
-## <a name="prerequisites"></a>Pré-requisitos
-Para usar este recurso, você precisa ter instalada a versão 1.2.0.0 do aplicativo de depósito, e o dispositivo deve ter uma câmera. Ao abrir o aplicativo depois da atualização, você será solicitado a permitir que o aplicativo use a câmera. Se o dispositivo não tiver uma câmera, nenhuma solicitação será mostrada, e você não poderá usar uma câmera como scanner. 
+## <a name="setup"></a>Configurar
 
-## <a name="setup"></a>Instalação
-Nas Configurações de exibição do aplicativo de depósito, você pode selecionar se a câmera deve ser usada para digitalização de códigos de barras. Se você habilitar **Usar a câmera como scanner**, você pode usar a câmera em cada campo de entrada que tenha o modo de entrada preferido definido como **Digitalização**. 
+Nas configurações de exibição do aplicativo móvel de gerenciamento de depósito, você pode selecionar se a câmera deve ser usada para digitalização de códigos de barras. Se você habilitar **Usar a câmera como scanner**, você pode usar a câmera em cada campo de entrada que tenha o modo de entrada preferido definido como **Digitalização**.
 
-Para controlar se um campo de entrada pode ser digitalizado ou não, na página **Nomes de campo no aplicativo de depósito**, defina o **Modo de entrada preferido** como **Digitalização**. Quando esta opção for selecionada, uma câmera poderá ser usada para digitalização no aplicativo de depósito. Para obter informações sobre como configurar nomes de campos do aplicativo no Warehousing, consulte [Configurar nomes de campos no aplicativo de depósito](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/warehousing/configure-app-field-names-priorities-warehouse).
+Para controlar se um campo de entrada pode ser digitalizado ou não, na página **Nomes de campo no aplicativo de depósito**, defina o **Modo de entrada preferido** como **Digitalização**. Quando esta opção for selecionada, uma câmera poderá ser usada para digitalização no aplicativo móvel de gerenciamento de depósito. Para obter mais informações, consulte [Configurar campos para o aplicativo móvel de gerenciamento de depósito](configure-app-field-names-priorities-warehouse.md).
 
 ## <a name="supported-bar-code-formats"></a>Formatos de código de barras compatíveis
-Os formatos de código de barras mais comuns são compatíveis, incluindo os códigos 128, 39, 93, EAN-8, EAN-13, UPC-E, UPC-A e QR. 
+
+Os formatos de código de barras mais comuns são compatíveis, incluindo os códigos 128, 39, 93, EAN-8, EAN-13, UPC-E, UPC-A e QR.
 
 ## <a name="navigation"></a>Navegação
-A página da câmera será iniciada em cada página em que o campo de entrada tiver o modo de entrada preferido definido como Digitalização. Quando você estiver na página Câmera, use as seguintes opções para navegar:
-- Clique no botão Voltar para voltar para a página Tarefa e detalhes. 
-- Clique no lápis da página Tarefa e detalhes ir para a página em que você pode digitar a entrada manualmente.
-- Clique na câmera da página Tarefa e detalhes para voltar para a página Câmera. 
 
-| Página Tarefa e detalhes | Página Câmera | 
-| :---------------------: | :--------------------: |
-| ![Página de detalhes da tarefa de exemplo de verificação da câmera](./media/camera-scanning-example-task-detail-page50.png)          | ![Exemplo de verificação da câmera - página da câmera reduzida](./media/camera-scanning-example-camera-page50.png)          |
+A página da câmera será iniciada em cada página em que o campo de entrada tiver o **Modo de entrada preferencial** definido como *Digitalização*. Quando você estiver na página da câmera, use as seguintes opções para navegar:
 
-Na página da câmera, ao clicar no botão Câmera, ele terá aparência esmaecida enquanto tenta identificar um código de barras. Se um código de barras não for identificado em 5 segundos, o processo atingirá o tempo limite e o botão Câmera ficará disponível novamente. Você poderá tentar digitalizar um código de barras novamente.
+- Selecione o botão Voltar para voltar para a página **Tarefa e detalhes**.
+- Selecione o lápis na página **Tarefa e detalhes** para acessar a página em que você pode digitar a entrada manualmente.
+- Selecione a câmera da página **Tarefa e detalhes** para voltar à página da câmera.
+
+Na página da câmera, ao selecionar o botão da câmera, ele aparecerá esmaecido quando você tentar identificar um código de barras. Se um código de barras não for identificado em 5 segundos, o processo atingirá o tempo limite e o botão da câmera ficará disponível novamente. Você poderá tentar digitalizar um código de barras novamente.
 
 Ao apontar a câmera para um código de barras, mantenha o código de barras alinhado dentro dos colchetes para obter o melhor resultado. Quando um código de barras for digitalizado com êxito, o resultado será processado, e você será levado à próxima etapa. Se a etapa seguinte tiver outro campo de entrada com o modo de entrada preferido definido como Digitalização, a página da câmera será iniciada novamente. Se a etapa seguinte não for um campo de digitalização, a página da câmera não será iniciada.
 

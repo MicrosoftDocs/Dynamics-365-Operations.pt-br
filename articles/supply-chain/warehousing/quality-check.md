@@ -2,11 +2,9 @@
 title: Verificação de qualidade
 description: Este tópico fornece informações sobre o recurso Verificação de qualidade. Este recurso permite que os trabalhadores de depósito​ façam verificações por amostragem para saber a qualidade ao receberem itens para a área de doca de entrada.
 author: mirzaab
-manager: tfehr
 ms.date: 07/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSQualityCheckTemplate, WHSWorkClass, WHSWorkTemplateTable, WHSLocDirTable, WHSQualityCheckResult
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 31afcfcb9d8dbb91f4ea4e3e7a7282c2a87328d4
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228456"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838217"
 ---
 # <a name="quality-check"></a>Verificação de qualidade
 
@@ -301,7 +299,7 @@ Depois que a ordem de compra for criada, ela poderá ser recebida usando o item 
 
 #### <a name="receive-pallet-1"></a>Receber palete 1
 
-1. Entre no aplicativo do depósito como um usuário do depósito *51*. (Insira *51* como a ID do usuário e *1* como a senha.)
+1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário para o depósito *51*. (Insira *51* como a ID do usuário e *1* como a senha.)
 1. Vá para **Entrada \> Recebimento da linha da OC**.
 1. No campo **PONUM**, insira o número da ordem de compra.
 1. Confirme o número da ordem de compra.

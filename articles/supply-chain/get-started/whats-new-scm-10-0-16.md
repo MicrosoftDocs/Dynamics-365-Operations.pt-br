@@ -2,11 +2,9 @@
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.16 (Fevereiro de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.16.
 author: kamaybac
-manager: annbe
 ms.date: 11/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-31
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: f9eb0685fcefe5d0734dc01fa82971958c3952d2
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 070e1a763977a9b5aad1a4f1336f6202f9f332cc
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5236066"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829971"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.16 (Fevereiro de 2021)
 
@@ -35,11 +33,13 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-Os seguintes recursos estão incluídos nesta versão. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis. Siga os links para o [plano de versão](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
+Os seguintes recursos estão incluídos nesta versão. Siga os links para o [plano de versão](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
 
 - [Interface de execução de chão de fábrica personalizável](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/customizable-shop-floor-execution-interface)<br> - Para obter mais informações, consulte [Configurar um dispositivo para executar a interface de execução de piso de produção](../production-control/production-floor-execution-setup.md).
 
 - [Suplemento Visibilidade de Estoque para o Dynamics 365 Supply Chain Management](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/inventory-visibility-add-in-dynamics-365-supply-chain-management-preview)<br> - Para obter mais informações, consulte [Suplemento Visibilidade de Estoque](../inventory/inventory-visibility.md)
+
+- Sequência numérica unificada para IDs de trabalho<br> - Para obter mais informações, consulte [Sequência numérica unificada para IDs de trabalho](../production-control/unified-job-ids.md).
 
 - [Validar placas de licença nas linhas do documento de origem](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/validate-license-plates-source-document-lines)<br> - Para obter mais informações, consulte [Visão geral de configuração de depósito](../warehousing/warehouse-configuration.md).
 
@@ -74,8 +74,8 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 - [Solucionar problemas de reservas no gerenciamento de depósito](../warehousing/troubleshoot-warehouse-reservations.md)
 - [Solucionar problemas de ordens de venda](../sales-marketing/troubleshooting-sales.md)
 - [Solucionar problemas de cotações de venda](../sales-marketing/troubleshooting-salesquotation.md)
-- [Solucionar problemas de atualização e migração para gerenciamento avançado de depósito](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Solucionar problemas de conexão do aplicativo de depósito](../warehousing/troubleshoot-warehouse-app-connection.md)
+- [Solucionar problemas de atualização e migração para gerenciamento de depósito avançado](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
+- [Solucionar problemas de conexão do aplicativo móvel Gerenciamento de Depósito](../warehousing/troubleshoot-warehouse-app-connection.md)
 - [Solucionar problemas de configuração do depósito](../warehousing/troubleshoot-warehouse-configuration.md)
 - [Solucionar problemas de reabastecimento de depósito](../warehousing/troubleshoot-warehouse-replenishment.md)
 - [Solucionar problemas de configuração do depósito](../warehousing/troubleshoot-warehouse-setup.md)

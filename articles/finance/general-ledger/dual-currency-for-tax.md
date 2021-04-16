@@ -2,11 +2,9 @@
 title: Suporte a moeda dupla para imposto
 description: Este tópico explica como estender o recurso de contabilidade de duas moedas no domínio do imposto e o impacto no cálculo e no lançamento do imposto
 author: EricWang
-manager: Ann Beebe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3f7ca56fef636431e152b2db424f1f972a507721
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0a3245febe31857181d17bba42e12b65f4ebb40f
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212196"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832961"
 ---
 # <a name="dual-currency-support-for-sales-tax"></a>Suporte a moeda dupla para imposto
 [!include [banner](../includes/banner.md)]

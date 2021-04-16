@@ -2,11 +2,9 @@
 title: Copiar uma fórmula
 description: Este procedimento concentra-se na criação de uma fórmula que inclua os mesmos ingredientes de uma fórmula existente, mas com pequenas diferenças.
 author: ShylaThompson
-manager: tfehr
 ms.date: 11/11/2016
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -15,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdeeb760ab6bb00cefc6b358e53996dd652e5bc6
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 611ebb79fb77bde13a3dd59317662fddbfc1a7e6
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255316"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829249"
 ---
 # <a name="copy-a-formula"></a>Copiar uma fórmula
 

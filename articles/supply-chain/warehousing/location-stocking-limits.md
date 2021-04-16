@@ -2,11 +2,9 @@
 title: Limites de estoque de localização
 description: Este tópico descreve a funcionalidade para limites de estoque de localização.
 author: perlynne
-manager: tfehr
 ms.date: 11/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationLimit
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: e336b54b894669f8a49091473314e1d7d2639e5f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b9fb3c35f2f2e0fd7c0e3afe132efb4c51f163a9
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5216972"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831257"
 ---
 # <a name="location-stocking-limits"></a>Limites de estoque de localização
 
@@ -83,7 +81,7 @@ Neste exemplo, você executará um fluxo de recebimento de ordem de compra para 
 
 Primeiro, você receberá uma quantidade de *4* da unidade *PL* no tamanho *P* e analisará as localizações das linhas de colocação para o trabalho criado. Depois, você receberá uma quantidade de *4* da unidade *PL* no tamanho *G* e analisará as localizações das linhas de colocação para o trabalho criado.
 
-1. No aplicativo de depósito, entre usando *24* como a ID de usuário e *1* como a senha.
+1. No aplicativo móvel do Gerenciamento de Depósito, entre usando *24* como a ID de usuário e *1* como a senha.
 1. Selecione **Entrada** \> **Recebimento de Compra**.
 1. Receba *4* *PL* do número de item *D0013* no tamanho *P*.
 1. Analise o trabalho de armazenamento que foi criado. Você verá o seguinte resultado:

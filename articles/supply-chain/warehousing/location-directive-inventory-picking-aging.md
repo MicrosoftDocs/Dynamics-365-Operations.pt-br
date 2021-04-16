@@ -2,11 +2,9 @@
 title: Classificação por vencimento de separação de estoque de diretiva de localização
 description: Este tópico explica como usar as estratégias de diretiva de localização primeiro a entrar, primeiro a sair (FIFO) e último a entrar, primeiro a sair (LIFO) durante a separação.
 author: mirzaab
-manager: tfehr
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLocationProfile,WHSWorkTable,WHSWaveTableListPage
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 9107a14a79883dc0e33de311baeec5fd6d692a35
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 937af7e24fc72b5b8bc741857913899a239a64d3
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500493"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5835525"
 ---
 # <a name="location-directive-inventory-picking-aging"></a>Classificação por vencimento de separação de estoque de diretiva de localização
 

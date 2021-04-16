@@ -2,11 +2,9 @@
 title: Solucionar problemas de atualização e migração para gerenciamento avançado de depósito
 description: Este tópico descreve como corrigir problemas comuns que você pode encontrar ao atualizar e migrar para o gerenciamento avançado de depósito.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f5bfee31ce27e919086f978fb3ff88ca61a65eba
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 953b828667a01157767c3ca79349fe972b0fbe9b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5208078"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5826386"
 ---
 # <a name="troubleshoot-upgrade-and-migration-to-advanced-warehouse-management"></a>Solucionar problemas de atualização e migração para gerenciamento avançado de depósito
 
@@ -34,11 +32,11 @@ Este tópico descreve como corrigir problemas comuns que você pode encontrar ao
 
 ### <a name="issue-description"></a>Descrição do problema
 
-Você recebe esta mensagem de erro no aplicativo do depósito, porque os certificados autoassinados não são confiáveis no Android 8 ou posterior em ambientes locais.
+Você recebe esta mensagem de erro no aplicativo móvel Gerenciamento de Depósito, porque os certificados autoassinados não são confiáveis no Android 8 ou posterior em ambientes locais.
 
 ### <a name="issue-resolution"></a>Resolução do problema
 
-Use uma autoridade de certificação (CA) externa (pública). Uma correção para esse problema está disponível na versão 1.9.0.0 do aplicativo de depósito. Para obter mais informações sobre esse problema e como corrigi-lo, consulte [Solucionar problemas de conexão do aplicativo de depósito](troubleshoot-warehouse-app-connection.md).
+Use uma autoridade de certificação (CA) externa (pública). Uma correção para esse problema está disponível na versão 1.9.0.0 do aplicativo de depósito. Para obter mais informações sobre esse problema e como corrigi-lo, consulte [Solucionar problemas de conexão do aplicativo móvel Gerenciamento de Depósito](troubleshoot-warehouse-app-connection.md).
 
 ## <a name="what-is-the-approved-process-for-moving-from-basic-warehousing-to-advanced-warehousing"></a>Qual é o processo aprovado para passar do depósito básico para o avançado?
 

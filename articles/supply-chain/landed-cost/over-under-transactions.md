@@ -2,7 +2,6 @@
 title: Transações excedentes/insuficientes
 description: Este tópico fornece informações que ajudarão você a configurar os detalhes das políticas de transações excedentes/insuficientes, de forma que o sistema possa determinar como gerenciar o processamento excessivo e insuficiente de mercadorias no momento do recebimento.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9027d5dc73ebd78a65429f7bc63a1ebf8ef60dac
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: c7e75e39877b36e482dd4aaa5cc7c8f84d57d81b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500973"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833728"
 ---
 # <a name="overunder-transactions"></a>Transações excedentes/insuficientes
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Quando as ordens em uma viagem são processadas, o sistema espera a quantidade de itens recebida no depósito do destino final para que o consumo corresponda à quantidade especificada nas linhas da ordem de compra associadas à viagem. No entanto, como a quantidade exata nas linhas da ordem de compra nem sempre é recebida no depósito, o módulo **Custo de entrega** define um conjunto de regras que são usadas para lidar com o recebimento excessivo e insuficiente de mercadorias. Essas regras são especialmente importantes porque a ordem de compra original foi faturada e não pode mais ser modificada. Ao configurar os detalhes das políticas de transações excedentes/insuficientes, você habilita o sistema a determinar como gerenciar o processamento excessivo e insuficiente de mercadorias no momento do recebimento. Você também pode gerenciar manualmente o estoque excedente e insuficiente usando a página **Transações excedentes/insuficientes**.
 

@@ -2,13 +2,11 @@
 title: Visibilidade de exceções materiais
 description: Este tópico descreve como você pode obter melhor a visibilidade de exceções para matérias-primas para ordens de produção e ordens de lote.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
-ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage
+ms.search.form: JmgShopSupervisorWorkspace, WHSProdWaveTableListPage, WHSProdWaveTableManageBOMPool
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: 1705903
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 87f82733388501f2f902e7ebba8b547d9ae5ed16
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d06bd5baeb6b8b6995fe1ae47f14bab458b8ecc2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5246156"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831977"
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidade de exceções materiais
 
@@ -59,9 +57,13 @@ Quando você seleciona o bloco, a página **Liberar para o depósito** é aberta
 
 Quando uma BOM ou fórmula é liberada, ela é adicionada a uma nova onda de produção ou a uma onda aberta existente, dependendo da configuração de modelo da onda de produção. Através da configuração de modelo da onda, você também pode configurar uma onda, de forma que seja processada automaticamente quando uma linha de BOM ou fórmula é liberada. Quando a onda é processada, o trabalho de depósito para a separação de matéria-prima é gerada. Se o modelo da onda for configurado, de forma que as ondas não sejam processadas no momento de liberação, a onda permanecerá em um estado não processado. O bloco **Ondas não processadas que precisam de atenção** mostrará o número de Linhas de BOM e fórmula que foi liberado para o depósito nas ondas processadas, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 
-Quando o bloco for selecionado, a página **Todas as ondas de produção** será aberta. Essa página é filtrada pelo número de ondas abertas que contêm linhas de onda das linhas de BOM e fórmula liberadas que atendem aos critérios do bloco. Na página **Todas as ondas de produção**, você pode processar manualmente a onda.
+Quando o bloco for selecionado, a página **Todas as ondas de produção** será aberta. Essa página é filtrada pelo número de ondas abertas que contêm linhas de onda das linhas de BOM e fórmula liberadas que atendem aos critérios do bloco.
 
-## <a name="open-warehouse-work-needing-attention"></a>Abrir trabalho de depósito que precisa de atenção
+### <a name="manually-maintain-production-waves"></a>Manter as ondas de produção manualmente
+
+Na página **Todas as ondas de produção**, você pode usar os botões na guia **Onda** do Painel de Ação para **Processar** e **Liberar** manualmente uma onda. Você também pode usar a opção **Manter produções** para exibir e manter dados do **Grupo BOM de Produção**, que são usados para manipular o processo cíclico.
+
+## <a name="open-warehouse-work-needing-attention"></a>Trabalho de depósito em aberto que precisa de atenção
 
 O bloco **Abrir trabalho de depósito que precisa de atenção** mostrará o número de Linhas de BOM e fórmula liberadas para o depósito, que têm trabalho não processado, e que têm uma data da matéria-prima anterior a ou igual à data do espaço de trabalho. As linhas também devem ser consumidas por um recurso de operação que se aplique ao filtro do espaço de trabalho.
 

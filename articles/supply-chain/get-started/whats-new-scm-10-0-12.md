@@ -2,11 +2,9 @@
 title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.12.
 author: kamaybac
-manager: tfehr
 ms.date: 05/29/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: 8fdd831bd774f65e1737d5dec3046fa5ea978390
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 0513dffb6395eaf00f4c71df91938a5db6486daf
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258962"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832193"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10012-august-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.12 (agosto de 2020)
 
@@ -47,9 +45,9 @@ Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso es
 
 - [Insights principais de inteligência da IoT](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/iot-intelligence-core-insights) <br> - Para obter mais informações, consulte [Home page de inteligência da IoT](../iot/iot-intelligence-home-page.md).
 
-- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito (continuação)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo de depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito (continuação)](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app-continued)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Implantação em massa para o Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obter mais informações, consulte [Visão geral da instalação e configuração do aplicativo de depósito](../warehousing/install-configure-warehousing-app.md).
+- [Implantação em massa para o Warehouse Mobile App](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/mass-deployment-warehouse-mobile-app)<br> - Para obter mais informações, consulte [Instalar e conectar o aplicativo móvel Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md).
 
 - [Tempo de execução máximo para o trabalho de limpeza de entradas disponíveis no gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/maximum-execution-time-warehouse-management-on-hand-entries-cleanup-job)<br> - Para obter mais informações, consulte [Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito](../warehousing/onhand-cleanup.md).
 
