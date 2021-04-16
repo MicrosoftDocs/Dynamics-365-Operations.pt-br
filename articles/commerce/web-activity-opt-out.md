@@ -2,11 +2,9 @@
 title: Cancelar a coleta de eventos da atividade Web
 description: Este tópico explica como você pode permitir que os visitantes do seu site recusem a coleta de eventos de atividade da Web no Microsoft Dynamics 365 Commerce.
 author: aamiral
-manager: AnnBe
 ms.date: 05/15/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,19 +14,17 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 244d612fa01529df4fff250df50a06526632fcf1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5210914"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791548"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Cancelar a coleta de eventos da atividade Web
 [!include [banner](includes/banner.md)]
 
 Este tópico explica como você pode permitir que os clientes optem por cancelar a coleção de evento de atividade da Web no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 O Dynamics 365 Commerce permite que os administradores de sites analisem a atividade da Web de usuários de seus sites de comércio eletrônico. Dessa forma, eles podem compreender melhor como os sites são usados e podem otimizar os sites para proporcionar uma experiência de usuário aprimorada e atender a objetivos comerciais.
 

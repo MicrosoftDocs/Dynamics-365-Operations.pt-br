@@ -2,7 +2,6 @@
 title: Rastrear a execução de formatos de ER para solucionar problemas de desempenho
 description: Este tópico fornece informações sobre como usar o recurso de rastreamento de desempenho no relatório eletrônico (ER) para solucionar problemas de desempenho.
 author: NickSelin
-manager: AnnBe
 ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: a1a6b3711e58964ff266d84c75e79f741218ee23
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 0cf76a9b9af0fc648cb61cefbe92dc7aaa436692
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561139"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754207"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 

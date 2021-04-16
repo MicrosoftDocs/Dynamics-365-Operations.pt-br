@@ -2,7 +2,6 @@
 title: Filtrar ordens intercompanhia para evitar sincronizar Ordens e Linhas da Ordem
 description: Este tópico explica como filtrar ordens intercompanhia para que as entidades Ordens e Linhas da Ordem não sejam sincronizadas.
 author: negudava
-manager: tfehr
 ms.date: 11/09/2020
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: negudava
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 9a736c8e93dfa7dbcd0739b52e2da987dcefdc0e
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 123427db61782490d348489c23e0eaf5f8b513c9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568093"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5748632"
 ---
 # <a name="filter-intercompany-orders-to-avoid-syncing-orders-and-orderlines"></a>Filtrar ordens intercompanhia para evitar sincronizar Ordens e Linhas da Ordem
 

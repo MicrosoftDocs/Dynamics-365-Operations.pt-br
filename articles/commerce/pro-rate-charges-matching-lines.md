@@ -2,11 +2,9 @@
 title: Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 description: Este tópico descreve recursos adicionais para calcular e aplicar encargos automáticos dos pedidos de canal do Commerce usando o recurso de encargos automáticos avançado.
 author: hhaines
-manager: annbe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: f458ce6ea4fa3efdfa470e90efa1e267047a8e37
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 22939e8fd63a355effecf0c16fecd20377faa3a6
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5231118"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791045"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 

@@ -2,11 +2,9 @@
 title: Atualizar processo
 description: O Microsoft Dynamics 365 Human Resources é um software como serviço (SaaS) que disponibiliza atualizações de serviço contínuas e touchless para alterações de aplicação e plataforma.
 author: andreabichsel
-manager: tfehr
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 27561bfd9cb4f115cc507954c837ea93f9c93b72
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466823"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791524"
 ---
 # <a name="update-process"></a>Atualizar processo
 
@@ -58,14 +56,14 @@ Quando necessário, o Human Resources também oferece os seguintes tipos de corr
 
 As versões são analisadas, testadas e validadas em um ambiente interno. Após as compilações serem aprovadas, elas são implementadas na produção.
 
-## <a name="release-cadence-exceptions-in-2020"></a>Exceções de cadência da versão em 2020
+## <a name="release-cadence-exceptions-in-2021"></a>Exceções de cadência da versão em 2021
 
-Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2020 é a seguinte:
+Para contabilizar feriados, a agenda de lançamentos para novembro e dezembro de 2021 é a seguinte:
 
-- Lançamento de novembro: 2 de novembro - 13 de novembro
-- Lançamento de dezembro: 30 de novembro - 11 de dezembro
+- Lançamento de novembro: 1 de novembro - 14 de novembro
+- Lançamento de dezembro: 29 de novembro - 12 de dezembro
  
-A cadência de lançamentos de duas semanas será retomada normalmente em 11 de janeiro de 2021.
+A cadência de lançamentos de duas semanas será retomada normalmente em 10 de janeiro de 2022.
 
 ## <a name="communications"></a>Comunicações
 

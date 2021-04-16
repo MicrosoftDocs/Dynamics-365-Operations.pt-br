@@ -2,7 +2,6 @@
 title: Espaços de trabalho analíticos
 description: Este tópico lista espaços de trabalho analíticos, incorporados que estão disponíveis e indica os recursos onde você pode aprender mais sobre eles.
 author: sericks007
-manager: AnnBe
 ms.date: 10/02/2019
 ms.topic: article
 ms.prod: ''
@@ -13,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a81f09122f3ae57af61d9fb585ed2ebec983893b
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: a758d696833ff68b234b77f93d67c3788a18daf2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568433"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754539"
 ---
 # <a name="analytical-workspaces"></a>Espaços de trabalho analíticos
 [!include[banner](../includes/banner.md)]

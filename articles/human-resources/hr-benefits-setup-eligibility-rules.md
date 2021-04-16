@@ -2,11 +2,9 @@
 title: Configurar regras e opções de qualificação
 description: Configure regras e opções de qualificação no gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 04/06/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 872b5cface7af19e2ef970e624c0cb5ce14e75b1
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466125"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5791499"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação
 
