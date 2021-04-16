@@ -2,11 +2,9 @@
 title: Solucionar problemas de reservas no gerenciamento de depósito
 description: Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com reservas de depósito no Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,18 +15,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a9a5d20732a802fc58c392853af8334bbc07de73
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: d0d73396772ed9e8397797d6685fb550d911303b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5248706"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828097"
 ---
 # <a name="troubleshoot-reservations-in-warehouse-management"></a>Solucionar problemas de reservas no gerenciamento de depósito
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com reservas de depósito no Microsoft Dynamics 365 Supply Chain Management.
+
+Para os tópicos relacionados a registros de número de série e do lote, consulte [Solucionar problemas de reserva de números de série e do lote do depósito](troubleshoot-warehouse-batch-and-serial-reservation-hierarchies.md).
 
 ## <a name="i-receive-the-following-error-message-reservations-cannot-be-removed-because-there-is-work-created-which-relies-on-the-reservations"></a>Recebo a seguinte mensagem de erro: "As reservas não podem ser removidas porque há um trabalho criado com base nas reservas."
 
@@ -63,20 +63,6 @@ Esse problema pode ocorrer se o sistema não puder atualizar uma quantidade de e
 ### <a name="issue-resolution"></a>Resolução do problema
 
 Esse problema é provavelmente causado por um trabalho aberto. Conclua a obra ou receba sem criação de trabalho. Certifique-se de que nenhuma transação de estoque esteja reservando fisicamente a quantidade. Por exemplo, essas transações podem abrir ordens de qualidade, registros de bloqueio de estoque ou ordens de saída.
-
-## <a name="i-receive-the-following-error-message-to-be-assigned-to-wave-load-lines-must-specify-the-dimensions-above-the-location-to-assign-these-dimensions-reserve-and-recreate-the-load-line"></a>Recebo a seguinte mensagem de erro: "Para ser atribuído ao ciclo, as linhas de carga devem especificar as dimensões acima do local. Para atribuir essas dimensões, reserve e recrie a linha de carga."
-
-### <a name="issue-description"></a>Descrição do problema
-
-Quando você usa um item que tem uma hierarquia de reserva de "lote acima" (com a dimensão **Nº do lote** posicionada *acima* da dimensão **Local**), o comando **Liberar para o depósito** na página **Bancada do planejamento de carga** para uma quantidade parcial não funciona. Você recebe essa mensagem de erro e nenhum trabalho é criado para a quantidade parcial.
-
-Contudo, se você usar um item que tem uma hierarquia de reserva de "lote abaixo" (com a dimensão **Nº do lote** posicionada *abaixo* da dimensão **Local**), você pode liberar uma carga da página **Bancada do planejamento de carga** para uma quantidade parcial.
-
-### <a name="issue-resolution"></a>Resolução do problema
-
-Esse comportamento é por design. Se você colocar uma dimensão acima da dimensão **Local** na hierarquia de reserva, ela deve ser especificada antes da liberação para o depósito. A Microsoft avaliou esse problema e determinou que é uma limitação do recurso durante as liberações para o depósito da bancada de planejamento de carga. Quantidades parciais não podem ser liberadas se uma ou mais dimensões acima de **Local** não forem especificadas.
-
-Para obter mais informações, consulte [Política de reserva de dimensão no nível de depósito flexível](flexible-warehouse-level-dimension-reservation.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

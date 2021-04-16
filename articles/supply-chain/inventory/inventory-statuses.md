@@ -2,11 +2,9 @@
 title: Status do estoque
 description: Este artigo descreve como você pode usar o status de estoque para categorizar e manter o controle de estoque.
 author: MarkusFogelberg
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus, WHSWarehouseStatusChange
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b5e693bc1c9f4b822543d812f722bc8ea9f7025
-ms.sourcegitcommit: ee7a890e3e4ed6436898e5ab6eff309082a073f8
+ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/18/2021
-ms.locfileid: "5476690"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829851"
 ---
 # <a name="inventory-statuses"></a>Status do estoque
 
@@ -45,10 +43,14 @@ O status de estoque é uma das dimensões do grupo de dimensão de armazenamento
 
 Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado *Pronto*, um status indisponível que é chamado *Danificado* e um status bloqueado que é chamado *Bloqueado*. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificados ou interrompidos, é possível alterar o status do estoque dos itens para *Danificado* na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido como *Bloqueado*. Se você pesquisa os itens danificados usando um dispositivo móvel, o Supply Chain Management pode usar diretivas de local e modelos de trabalho para mostrar informações sobre um local apropriado ou intervalo de locais onde você pode armazenar esses itens. Para itens devolvidos, um tipo de problema de *Reserva* é criado na página **Transações do inventário**.
 
+Você pode especificar quais status de estoque estão bloqueando os status usando as caixas de seleção **Bloqueio de estoque** na página **Status de estoque**. Você não pode usar status de estoque como status de bloqueio para ordens de venda, ordens de transferência ou integrações de projeto.
+
+Para trabalho de saída, você pode usar diferentes status de estoque sem bloqueios para controlar o estoque a ser reservado. Se você tiver itens com um status *Bloqueado* e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente. Além disso, para ordens de qualidade associadas ao trabalho de saída, não é possível atualizar o **Status do estoque** como parte da validação da ordem de qualidade.
+
 > [!NOTE]
 > Não é possível alterar o status do estoque em locais onde o trabalho aberto existe. Por exemplo, se você tiver um recebimento de compra para um item, mas sem etapa de armazenamento, o trabalho aberto existirá para o local de recebimento e você obterá um erro se tiver tentado alterar o status do estoque nessa localização. A conclusão ou o cancelamento do trabalho relacionado permitiria que você alterasse o status.
- 
-Para o trabalho de saída, use itens com status de estoque disponível. Se você tiver itens com um status de *Quebrado* e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente.
+>
+> Normalmente, o status do estoque disponível relacionado a trabalho de depósito aberto só é alterado por funcionários que usam o aplicativo móvel do Gerenciamento de Depósito, por exemplo, durante a execução de um processo de movimento.
 
 Depois de configurar um status de estoque, você pode definir o status de estoque padrão para um local, item e depósito. Você também pode definir um status padrão de venda, transferência e ordens de compra. O status padrão para ordens de venda e a ordem de transferência de saída não pode ter a opção **Bloqueio de estoque** definida como *Sim*. O status de estoque que é herdado das configurações padrão em um site, depósito, item, ordem de compra, ordem de transferência ou ordem de vendas pode ser alterado usando o dispositivo móvel ou na ordem de compra, na ordem de venda ou na linha da ordem de transferência.
 

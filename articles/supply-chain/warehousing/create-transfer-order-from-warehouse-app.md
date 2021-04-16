@@ -1,12 +1,10 @@
 ---
 title: Criar ordens de transferência do aplicativo de depósito
-description: Este tópico descreve como criar e processar ordens de transferência do recurso de aplicativo de depósito
+description: Este tópico descreve como criar e processar ordens de transferência do aplicativo móvel do Gerenciamento de Depósito
 author: perlynne
-manager: tfehr
 ms.date: 09/02/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSMobileDeviceQueueEvent
 audience: Application User
@@ -15,20 +13,20 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 855b057706bc2f8315084a3cebec6f855a4d01e7
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5214121"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838361"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Esse recurso permite que os trabalhadores do depósito criem e processem ordens de transferência diretamente do aplicativo de depósito. Os trabalhadores do depósito começam selecionando o depósito de destino e podem, então, verificar uma ou mais placas de licença usando o aplicativo para adicionar placas de licença à ordem de transferência. Quando o trabalho de depósito selecionar **Ordem completa**, um trabalho em lotes criará a ordem de transferência e as linhas de ordem necessárias com base no estoque disponível registrado para essas placas de licença.
+Esse recurso permite que os trabalhadores do depósito criem e processem ordens de transferência diretamente do aplicativo móvel do Gerenciamento de Depósito. O trabalhador começa selecionando o depósito de destino e, em seguida, verifica uma ou mais placas de licença usando o aplicativo para adicionar placas de licença à ordem de transferência. Quando o trabalho de depósito selecionar **Ordem completa**, um trabalho em lotes criará a ordem de transferência e as linhas de ordem necessárias com base no estoque disponível registrado para essas placas de licença.
 
-## <a name="enable-the-create-transfer-orders-from-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Permitir a criação de ordens de transferência do recurso de aplicativo Depósito
+## <a name="enable-the-create-transfer-orders-from-the-warehouse-app-feature"></a><a name="enable-create-transfer-order-from-warehouse-app"></a>Permitir a criação de ordens de transferência do recurso do aplicativo de depósito
 
 Antes de poder usar esse recurso, ele e seus pré-requisitos deverão estar habilitados no seu sistema. Os administradores podem usar a página [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário.
 
@@ -50,8 +48,8 @@ Aqui estão diretrizes gerais para configurar um item de menu de dispositivo mó
 1. Selecione **Novo** para adicionar um novo item de menu. Em seguida, faça as seguintes configurações para começar:
 
     - **Nome do item de menu** - atribua um nome como deve aparecer no Supply Chain Management.
-    - **Título** - atribua um nome de menu como deve ser apresentado a trabalhadores no aplicativo de depósito.
-    - **Modo** - defina como *Indireto* (este aplicativo de depósito não criará trabalho).
+    - **Título** - atribua um nome de menu como deve ser apresentado a trabalhadores no aplicativo móvel do Gerenciamento de Depósito.
+    - **Modo** - defina como *Indireto* (este item de menu não criará trabalho).
     - **Código de atividade** - defina para *Criar uma ordem de transferência de placas de licença* para habilitar os trabalhadores do depósito a criar uma ordem de transferência com base em uma ou mais placas de licença digitalizadas.
 
 1. Use a configuração **Política de criação de linha de ordem de transferência** para controlar como as linhas da ordem de transferência serão criadas por esse item de menu. As linhas serão criadas/atualizadas com base no estoque disponível registrado para as placas de licença verificadas. Escolha um dos seguintes valores:
@@ -74,7 +72,7 @@ Aqui estão diretrizes gerais para configurar um item de menu de dispositivo mó
 
 ## <a name="create-a-transfer-order-based-on-license-plates"></a>Criar uma ordem de transferência com base em placas de licença
 
-O aplicativo de depósito tem um processo simples para criar ordens de transferência com base em placas de licença. Para isso, o trabalhador faz o seguinte usando o aplicativo de depósito:
+O aplicativo móvel do Gerenciamento de Depósito tem um processo simples para criar ordens de transferência com base em placas de licença. Para isso, o trabalhador faz o seguinte usando o aplicativo móvel do Gerenciamento de Depósito:
 
 1. Cria a ordem de transferência e identifica o depósito de destino.
 1. Identifica cada placa de licença a ser remetida.
@@ -258,9 +256,9 @@ Para o exemplo mencionado, são usados dois **Eventos de aplicativo de depósito
 
 ### <a name="inquire-the-warehouse-app-events"></a><a name="#inquire-the-warehouse-app-events"></a>Consultar os eventos do aplicativo de depósito
 
-Você pode exibir a fila de eventos e as mensagens de eventos geradas pelo aplicativo de depósito indo para **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
+Você pode exibir a fila de eventos e as mensagens de eventos geradas pelo aplicativo móvel Gerenciamento de Depósito indo para **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
 
-As mensagens de evento *Criar ordem de transferência* receberão o status *Aguardando*, o que significa que o trabalho em lotes **Processar eventos do aplicativo de depósito** não coletará e processará as mensagens de evento. Assim que a mensagem de evento for atualizada para o status *Enfileirada*, o trabalho em lotes processará os eventos. Isso ocorrerá ao mesmo tempo que a criação do evento *Concluir ordem de transferência* (quando um trabalhador seleciona o botão **Concluir ordem** no aplicativo de depósito). Quando as mensagens do evento *Criar ordem de transferência* tiverem sido processadas, o status será atualizado para *Concluído* ou *Falha*. Quando o status *Concluir ordem de transferência* é atualizado para *Concluído*, todos os eventos relacionados são excluídos da fila.
+As mensagens de evento *Criar ordem de transferência* receberão o status *Aguardando*, o que significa que o trabalho em lotes **Processar eventos do aplicativo de depósito** não coletará e processará as mensagens de evento. Assim que a mensagem de evento for atualizada para o status *Enfileirada*, o trabalho em lotes processará os eventos. Isso ocorrerá ao mesmo tempo que a criação do evento *Concluir ordem de transferência* (quando um trabalhador seleciona o botão **Concluir ordem** no aplicativo móvel do Gerenciamento de Depósito). Quando as mensagens do evento *Criar ordem de transferência* tiverem sido processadas, o status será atualizado para *Concluído* ou *Falha*. Quando o status *Concluir ordem de transferência* é atualizado para *Concluído*, todos os eventos relacionados são excluídos da fila.
 
 Como os **Eventos do aplicativo de depósito** para a criação de dados de ordem de transferência não serão processados pelo trabalho em lotes antes de as mensagens serem atualizadas para o status *Enfileirado*, será necessário procurar os números de ordem de transferência solicitados como parte do campo **Identificador**. O campo **Identificador** está no cabeçalho da página **Eventos do aplicativo de depósito**.
 
@@ -276,11 +274,11 @@ Para obter mais informações, consulte [Processamento de eventos do aplicativo 
 
 Durante este cenário, ocorreu o seguinte:
 
-1. Usando o aplicativo de depósito, você selecionou um item de menu que usa o código de atividade **Criar ordem de transferência de placas de licença**.
+1. Usando o aplicativo móvel do Gerenciamento de Depósito, você selecionou um item de menu que usa o código de atividade **Criar ordem de transferência de placas de licença**.
 1. O aplicativo solicitou que você selecionasse o depósito de destino para a ordem de transferência. O depósito de origem é sempre aquele no qual você entrou como um Trabalhador.
 1. Na seleção do depósito de destino, o sistema reservou um número de ID para a ordem de transferência futura (com base na sequência numérica da ordem de transferência definida no sistema), mas ainda não criou a ordem de transferência.
 1. Quando você digitalizou a placa de licença *LP10* com o estoque disponível que deveria ser movido para o novo depósito, um **Evento de aplicativo de depósito** foi adicionado à fila de eventos para ser processado posteriormente. O evento de depósito continha detalhes da mensagem sobre a verificação, incluindo o número da ordem de transferência pretendida.
-1. No aplicativo de depósito, quando o botão **Concluir ordem** é selecionado, um novo evento de aplicativo de depósito, **Concluir ordem de transferência**, é criado e o evento relacionado existente, **Criar ordem de transferência**, altera o status para **Enfileirado**.
+1. No aplicativo móvel do Gerenciamento de Depósito, quando o botão **Concluir ordem** é selecionado, um novo evento de aplicativo de depósito, **Concluir ordem de transferência**, é criado e o evento relacionado existente, **Criar ordem de transferência**, altera o status para **Enfileirado**.
 1. No back-end, **Processar trabalho em lotes de eventos do aplicativo de depósito** separou o evento **Enfileirado** e coletou o disponível relacionado à placa de licença verificada. Com base na disponibilidade, o registro de ordem de transferência real e as linhas associadas foram criados. O trabalho também preencheu o campo **Política de remessa de saída** para a ordem de transferência com o valor baseado *Confirmação de liberação e remessa* configurada e vinculou a placa de licença às linhas da estratégia **Placa de licença guiada**.
 1. Com base no valor do campo **Política de remessa de saída** da linha da ordem de transferência, a consulta do **trabalho em lotes Liberação automática de ordens de transferência** agora resultou na liberação da ordem de transferência para o depósito de remessa. E, devido à configuração para **Modelo de ciclo**, **Modelo de trabalho** e **Diretivas de localização** usados, o trabalho recebeu processos automáticos, resultando na atualização do **Status da carga** para *Carregado*.
 1. O **trabalho em lotes Processar remessa de saída** é executado para a carga, resultando na remessa da ordem de transferência e na geração da Notificação de Remessa Antecipada (ASN).
@@ -294,13 +292,13 @@ Durante este cenário, ocorreu o seguinte:
 
 O recurso *Criar e processar ordens de transferência do aplicativo de depósito* deve estar habilitado. Para obter mais informações, consulte [Habilitar a criação de ordens de transferência do aplicativo Depósito](#enable-create-transfer-order-from-warehouse-app).
 
-### <a name="warehouse-app-processes"></a>Processos do aplicativo Depósito
+### <a name="warehouse-management-mobile-app-processes"></a>Processos do aplicativo móvel de Gerenciamento de depósito
 
 #### <a name="why-cant-i-see-the-menu-button-complete-order"></a>Por que não consigo ver o botão de menu "Concluir ordem"?
 
 Você deve ter pelo menos uma placa de licença atribuída à ordem de transferência.
 
-#### <a name="can-several-warehouse-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Vários usuários de aplicativos de depósito podem adicionar placas de licença à mesma ordem de transferência ao mesmo tempo?
+#### <a name="can-several-warehouse-management-mobile-app-users-add-license-plates-to-the-same-transfer-order-at-the-same-time"></a>Vários usuários de aplicativo móvel do Gerenciamento de Depósito podem adicionar placas de licença à mesma ordem de transferência ao mesmo tempo?
 
 Sim, vários trabalhadores de depósito podem digitalizar placas de licença na mesma ordem de transferência.
 
@@ -312,11 +310,11 @@ Não, uma placa de licença só pode ser adicionada a uma ordem de transferênci
 
 Não, não é possível adicionar mais placas de licença a uma ordem de transferência que tenha um evento de aplicativo de depósito **Concluir ordem de transferência**.
 
-#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Como encontro as ordens de transferência existentes para serem usadas por meio do botão "Selecionar ordem de transferência" no aplicativo de depósito, caso a ordem ainda não tenha sido criada no sistema de back-end?
+#### <a name="how-can-i-find-existing-transfer-orders-to-be-used-via-the-select-transfer-order-button-in-the-warehouse-management-mobile-app-if-the-order-has-not-yet-been-created-in-the-backend-system"></a>Como encontro as ordens de transferência existentes para serem usadas por meio do botão "Selecionar ordem de transferência" no aplicativo móvel do Gerenciamento de Depósito, caso a ordem ainda não tenha sido criada no sistema de back-end?
 
 No momento, não é possível pesquisar ordens de transferência no aplicativo, mas você pode encontrar os números de ordem de transferência na página **Eventos do aplicativo de depósito**. Para obter mais informações, consulte [Consultar eventos do aplicativo de depósito](#inquire-the-warehouse-app-events).
 
-#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-app"></a>Posso selecionar manualmente o número da ordem de transferência a ser usado no aplicativo de depósito?
+#### <a name="can-i-manually-select-the-transfer-order-number-to-be-used-from-the-warehouse-management-mobile-app"></a>Posso selecionar manualmente o número da ordem de transferência a ser usado no aplicativo móvel do Gerenciamento de Depósito?
 
 Só há suporte para números de ordens de transferência autogerados por meio de sequências numéricas.
 

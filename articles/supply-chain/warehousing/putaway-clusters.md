@@ -2,11 +2,9 @@
 title: Clusters de armazenamento
 description: Os clusters de armazenamento oferecem uma forma de separar várias chapas de licença ao mesmo tempo e, depois, levá-las para armazenamento em locais diferentes. Elas podem ser muito úteis para empresas de varejo, nas quais as chapas de licença normalmente não são paletes completos de estoque.
 author: Mirzaab
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5552959068d109bffe32b8074666bcd63b57183a
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: b3a7d1b7109b83b26c8187a7f0d271f1c82f6d63
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5228432"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840356"
 ---
 # <a name="putaway-clusters"></a>Clusters de armazenamento
 
@@ -230,7 +228,7 @@ Esse cenário simula o processamento de cluster de armazenamento.
 
 #### <a name="receive-and-sort-the-inventory-into-a-cluster"></a>Receber e classificar o estoque em um cluster
 
-1. Entre no aplicativo de depósito como um usuário definido para o depósito *61*.
+1. Entre no aplicativo móvel de Gerenciamento de depósito como um usuário definido para o depósito *61*.
 1. No menu principal, selecione **Entrada**.
 1. No menu **Entrada**, selecione **Receber e classificar cluster**.
 1. No campo **Ponum**, insira o número da ordem de compra.
@@ -272,7 +270,7 @@ Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado
 
 #### <a name="put-the-cluster-away"></a>Armazenar o cluster
 
-1. Entre no aplicativo de depósito como um usuário definido para o depósito *61*.
+1. Entre no aplicativo móvel de Gerenciamento de depósito como um usuário definido para o depósito *61*.
 1. No menu principal, selecione **Entrada**.
 1. No menu **Entrada**, selecione **Cluster de armazenamento**.
 1. Selecione **ID do cluster** e digite a ID do cluster que você inseriu anteriormente para o cluster fechado.

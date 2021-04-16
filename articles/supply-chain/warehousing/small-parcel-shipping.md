@@ -2,11 +2,9 @@
 title: Remessa de pacotes pequenos
 description: Este tópico fornece informações sobre o recurso SPS (remessa de pacotes pequenos). Esse recurso permite que o Microsoft Dynamics 365 Supply Chain Management envie detalhes sobre um contêiner embalado para a transportadora e, em seguida, receba dessa transportadora uma etiqueta de remessa, uma taxa de remessa e um número de rastreamento.
 author: Mirzaab
-manager: tfehr
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TMSRateEngine, TMSCarrier, CustTable, TMSShippingCarrierCustomerAccount, TMSSmallParcelShippingFeature
 audience: Application User
@@ -16,17 +14,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 37f07139853c30da25c067a3d736b4b9bf4eb361
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501165"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831161"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 O recurso SPS (remessa de pacotes pequenos) permite que o Microsoft Dynamics 365 Supply Chain Management interaja diretamente com as transportadoras fornecendo uma estrutura para a comunicação por meio de APIs de transportadora. Essa funcionalidade é útil ao remeter ordens de venda individuais por meio de transportadoras comerciais em vez de usar a remessa de contêineres ou a remessa de carga parcial (LTL).
 

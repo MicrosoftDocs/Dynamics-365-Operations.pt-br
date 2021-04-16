@@ -2,11 +2,9 @@
 title: Resolver problemas de operações de depósito de entrada
 description: Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com operações de depósito de entrada no Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6875c3c644b9993a384ba4d8623640536d7307e1
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f0ea2ee208cdbb8f9fa6668bbcb6e15252a7c1b1
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5250873"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828217"
 ---
 # <a name="troubleshoot-inbound-warehouse-operations"></a>Resolver problemas de operações de depósito de entrada
 
@@ -65,5 +63,22 @@ Um novo recurso de processamento de cargas de entrada, *Recebimento a mais de qu
 
 Para obter mais informações, consulte [Lançar quantidades de produtos registrados nas ordens de compra](inbound-load-handling.md#post-registered-quantities).
 
+## <a name="when-i-register-inbound-orders-i-receive-the-following-error-message-the-quantity-is-not-valid"></a>Ao registrar as ordens de entrada, recebo a seguinte mensagem de erro: "A quantidade não é válida".
+
+### <a name="issue-description"></a>Descrição do problema
+
+Se o campo **Política de agrupamento de placas de licença** estiver definido como *Definido pelo usuário* para um item de menu de dispositivo móvel usado para registrar ordens de entrada, você receberá uma mensagem de erro ("A quantidade não é válida") e não poderá concluir o registro.
+
+### <a name="issue-cause"></a>Causa do problema
+
+Quando *Definido pelo usuário* é usado como uma política de agrupamento de placas de licença, o sistema divide o estoque de entrada em chapas de licença separadas, conforme indicado pelo grupo de sequências de unidades. Se os números do lote ou de série forem usados para rastrear o item que está sendo recebido, as quantidades de cada número do lote ou de série deverão ser especificadas por placa de licença registrada. Se a quantidade especificada para uma placa de licença exceder a quantidade que ainda deve ser recebida para as dimensões atuais, você receberá a mensagem de erro.
+
+### <a name="issue-resolution"></a>Resolução do problema
+
+Ao registrar um item usando um item de menu de dispositivo móvel no qual o campo **Política de agrupamento de chapas de licença** está definido como *Definido pelo usuário*, o sistema poderá exigir que você confirme ou insira números de placas de licença, números do lote ou números de série.
+
+Na página de confirmação da placa de licença, o sistema mostrará a quantidade alocada para a placa de licença atual. Nas páginas de confirmação do número de série ou do lote, o sistema mostrará a quantidade que ainda deve ser recebida na placa de licença atual. Ele também incluirá um campo no qual é possível inserir a quantidade a ser registrada para essa combinação de placa de licença e número do lote ou de série. Nesse caso, verifique se a quantidade que está sendo registrada para a placa de licença não excede a quantidade que ainda deverá ser recebida.
+
+Como alternativa, se muitas placas de licença estiverem sendo geradas no registro de ordem de entrada, o valor do campo **Política de agrupamento da chapa de licença** poderá ser alterado para *Agrupamento de placas de licença*, um novo grupo de sequências de unidades poderá ser atribuído ao item, ou a opção **Agrupamento de placas de licença** para o grupo de sequências de unidades poderá ser desativada.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

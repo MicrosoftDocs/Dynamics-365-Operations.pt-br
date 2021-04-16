@@ -2,7 +2,6 @@
 title: Configuração de valores de parâmetro de custos
 description: Ao configurar o módulo de Custo de entrega, é possível definir vários conjuntos de valores comuns que estarão disponíveis quando você selecionar tipos específicos de valores de parâmetro de custo em outras partes do aplicativo. Este tópico explica como configurar esses conjuntos de valores.
 author: sherry-zheng
-manager: tfehr
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-07
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 51c3360afc48f4f9143118ee6139803b95e5df28
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 634635f7b751753033d1df8f56706b1e20479953
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500469"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841926"
 ---
 # <a name="costing-parameter-values-setup"></a>Configuração de valores de parâmetro de custos
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Ao configurar o módulo de **Custo de entrega**, é possível definir vários conjuntos de valores comuns e as configurações relacionadas por valor. Esses valores ficarão disponíveis quando você selecionar tipos específicos de valores de parâmetro de custo em outras partes do aplicativo. Este tópico explica como configurar esses conjuntos de valores.
 

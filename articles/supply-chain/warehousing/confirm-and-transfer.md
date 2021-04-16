@@ -2,11 +2,9 @@
 title: Confirmar e transferir
 description: Este tópico explica como usar o recurso Confirmar e transferir, que permite aos usuários enviar cargas do depósito antes de concluir todo o trabalho associado a elas.
 author: mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSLoadTemplate,WHSWorkTemplateTable,WHSLoadPlanningWorkbench
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d4e7476e6c1b0ac404caf32f198a4a62e1dd1200
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 2ab2d720f7f0425f0c2fd5d79d684a02b452e4d7
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5251784"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828409"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar e transferir
 

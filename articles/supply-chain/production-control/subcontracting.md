@@ -2,11 +2,9 @@
 title: Subcontratação
 description: Esse tópico o ajudará a criar um passo a passo da subcontratação na fabricação no Dynamics 365 Supply Chain Management.
 author: christophernread
-manager: tfehr
 ms.date: 09/28/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f771c15d98abe3689054d43cc8b33632121522a3
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 053dff19da6e51d23383d667c340c49f3eff1b27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255532"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5825173"
 ---
 # <a name="subcontracting"></a>Subcontratação
 
@@ -210,7 +208,7 @@ Uma ordem de produção de 10 peças é criada para o produto D8100, “Gabinete
 
     ![Dois conjuntos de trabalho para a separação de matéria-prima na página Trabalho.](./media/subcontract22_work-page.png)
 
-26. Inicie o aplicativo de depósito para processar o trabalho de depósito para a operação 10.
+26. Inicie o aplicativo móvel Gerenciamento de Depósito para processar o trabalho de depósito para a operação 10.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -222,13 +220,13 @@ Uma ordem de produção de 10 peças é criada para o produto D8100, “Gabinete
     - No campo **Da Oper. N°**, selecione **10**.
     - No campo **Para Oper. N°**, selecione **10**.
 
-    ![Valores definidos na guia Geral](./media/subcontract23_start-dialog.png)
+    ![Valores definidos na guia Geral 1](./media/subcontract23_start-dialog.png)
 
 31. Selecione **OK** para fechar a caixa de diálogo **Início** e retornar à página **Todas as ordens de produção**.
 
     Observe que o status da ordem de produção agora é **Iniciado**. Os materiais para a operação 10 são consumidos por um lançamento automático do diário de listas de separação. O consumo de tempo para a operação 10 é contabilizado por um lançamento automático de um diário de cartão de roteiro.
 
-32. Inicie o aplicativo de depósito para processar o trabalho de depósito para a operação 20.
+32. Inicie o aplicativo móvel Gerenciamento de Depósito para processar o trabalho de depósito para a operação 20.
 
     <!-- TBD – screen shots for processing pick work for the materials. -->
 
@@ -240,7 +238,7 @@ Uma ordem de produção de 10 peças é criada para o produto D8100, “Gabinete
     - No campo **Quantidade**, insira **10**.
     - Defina a opção **Lançar lista de separação agora** como **Não**.
 
-    ![Valores definidos na guia Geral](./media/subcontract24_general-tab.png)
+    ![Valores definidos na guia Geral 2](./media/subcontract24_general-tab.png)
 
 35. Selecione **OK** para fechar a caixa de diálogo **Início** e retornar à página **Todas as ordens de produção**.
 

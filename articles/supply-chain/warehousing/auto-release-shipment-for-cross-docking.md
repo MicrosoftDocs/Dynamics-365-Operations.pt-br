@@ -2,11 +2,9 @@
 title: Remessa da versão automática para a distribuição integrada
 description: Este tópico descreve uma estratégia de distribuição integrada que permite liberar automaticamente uma ordem de demanda para o depósito quando a ordem de produção que fornece a quantidade de demanda é relatado como concluído, para que a quantidade seja movido diretamente do local de saída de produção local de saída.
 author: omulvad
-manager: tfehr
 ms.date: 10/15/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCrossDockingTemplate
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 619133cb1ef5f85222a42a08fd5fb77250c3d911
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5233166"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5831425"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
@@ -163,7 +161,7 @@ Para fazer a distribuição cruzada da quantidade de bens acabados para o local 
 8. Na página **Ordem de produção**, no Painel de Ação, na guia **Ordem de produção**, no grupo **Processar**, selecione **Previsão** e selecione **OK**. A ordem é estimada e a quantidade de matéria-prima é reservada para a produção.
 9. No Painel de Ação, na guia **Ordem de produção**, no grupo **Processar**, selecione **Liberar** e selecione **OK**. O trabalho de separação de depósito é criado para as matérias-primas.
 10. Abra e revise o trabalho. No Painel de Ação, na guia **Depósito**, no grupo **Geral**, selecione **Detalhes do trabalho**. Anote a ID do trabalho.
-11. Entre no aplicativo de depósito para executar o trabalho no depósito 51.
+11. Entre no aplicativo móvel do Gerenciamento de Depósito para executar o trabalho no depósito 51.
 12. Vá para **Produção** \> **Separação da produção**.
 13. Insira a ID do trabalho para iniciar e concluir a separação de matéria-prima. 
 

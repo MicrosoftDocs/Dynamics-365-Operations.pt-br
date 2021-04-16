@@ -2,11 +2,9 @@
 title: Criar um produto lançado para uma única empresa
 description: Este procedimento demonstra como criar um único produto lançado no contexto de uma unidade legal única.
 author: ShylaThompson
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dfe93a3084bb8c7f2b181b35d393b8afdabb9f4b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe1f34f268c6427c1381a9cfced49334893acc00
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5258818"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833272"
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Criar um produto lançado para uma única empresa
 
