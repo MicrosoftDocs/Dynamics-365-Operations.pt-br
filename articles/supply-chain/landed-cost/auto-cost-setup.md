@@ -2,7 +2,6 @@
 title: Configuração de custos automáticos
 description: Este tópico descreve como configurar regras de custo para vários níveis de viagem de entrada. Com base nessas regras, o sistema calcula os custos e os adiciona automaticamente. Portanto, os usuários não precisam adicionar os custos manualmente.
 author: sherry-zheng
-manager: tfehr
 ms.date: 01/21/2021
 ms.topic: article
 ms.prod: ''
@@ -16,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-21
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 86dcbfbe6e00e7324e29541da6d682794e7487b3
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 2e9135019323db74a4dca9343d315cbbf9683e32
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5501141"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5841950"
 ---
 # <a name="auto-costs-setup"></a>Configuração de custos automáticos
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Você pode usar a página **Custos automáticos** para configurar regras de custo para várias áreas de custo (como viagens, contêineres de remessa, fólios, ordens de compra, itens ou linhas da ordem de transferência). Com base nas regras e nos campos que os usuários selecionam ao criarem registros para uma das áreas de custo, o sistema calcula os custos e os adiciona automaticamente. Portanto, os usuários não precisam adicionar os custos manualmente.
 

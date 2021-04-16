@@ -2,11 +2,9 @@
 title: Criar e lançar uma nota fiscal complementar de compra (Brasil)
 description: Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 430b39d0991040447003dff40718b5c686cd201d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: e1985ae43bdd0c4f9e430eebd4639bd33e05be50
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225209"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832502"
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 

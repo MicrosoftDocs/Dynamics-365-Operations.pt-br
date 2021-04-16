@@ -1,27 +1,26 @@
 ---
 title: Definições da árvore de relatórios em relatórios financeiros
 description: Este artigo descreve as definições de árvore de relatórios. Uma definição de árvore de relatórios é um componente de relatório que define a estrutura de uma organização.
-author: ShylaThompson
-manager: AnnBe
-ms.date: 10/07/2019
+author: jinniew
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: roschlom
 ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 367df467d20fb7c60821c9de1f86758196f4faf3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 42612a14b81f78199aa5678d6f8525e4bd87ca8c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568766"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5819929"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
@@ -74,7 +73,7 @@ Para criar uma definição de árvore de relatório, siga estas etapas.
     | Incluir/Posição do caractere       | Lista as dimensões que são definidas nos dados financeiros e mostra o número de caracteres no maior valor definido para cada dimensão. Marque uma caixa de seleção de uma dimensão para incluir essa dimensão na hierarquia de árvore de relatório. |
     | Hierarquia e intervalos de segmento     | A seção mostra a hierarquia de dimensão. Você pode mover as dimensões na lista para alterar a ordem de relatório. Especifique um intervalo de valores em cada dimensão nos campos **Da Dimensão** e **Para Dimensão**. Se você não especificar um intervalo, todos os valores de dimensão são inseridos na árvore de relatório.<blockquote>[!NOTE] Se você estiver usando mais de uma dimensão, apenas as combinações de dimensão que foram lançadas serão retornadas nos resultados.</blockquote> |
 
-    Uma captura de tela que mostra um exemplo da caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, consulte a seção "Exemplo de caixa de diálogo Inserir Unidades de Relatório de Dimensões" posteriormente neste artigo.
+    Para uma ilustração que mostra um exemplo da caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, consulte a seção "Exemplo de caixa de diálogo Inserir Unidades de Relatório de Dimensões" posteriormente neste artigo.
 
 5. Para criar segmentos adicionais (como a quebra de um segmento em dois segmentos mais curtos), clique no local correto em um campo **Posição do caractere** e clique em **Dividir Segmentos**.
 6. Para mesclar dois segmentos em um segmento, clique em uma das caixas de segmento para mesclar os segmentos e, depois, em **Combinar Segmentos**.
@@ -186,23 +185,23 @@ Aqui está a estrutura das unidades de relatório na árvore de relatórios a se
 - As unidades de relatório de detalhe de nível inferior (Vendas locais, vendas de auto, serviços do cliente e operações) representam departamentos nos dados financeiros. Essas unidades de relatório estão na área sombreada do diagrama.
 - As unidades de resumo de nível superior resumem informações das unidades de detalhes.
 
-[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Estrutura de Relatório de Resumo da Contoso – Exemplo 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estrutura da unidade de relatório - Exemplo 2
 
 O diagrama a seguir mostra uma árvore de relatório que exibe uma estrutura organizacional que é dividida pela função de negócios.
 
-[![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Estrutura de Relatório de Resumo da Contoso – Exemplo 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemplo da caixa de diálogo Inserir Unidades de Relatório de Dimensões
 
 Neste exemplo, a caixa de diálogo **Inserir Unidades de Relatório de Dimensões** contém as informações a seguir. Para este exemplo, os resultados retornarão a combinação de unidades de negócios, departamentos e centros de custo.
 
-[![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Inserir Unidades de Relatório](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 A definição de árvore relatório resultante é classificada por unidade de negócios, pelo Centro de custo e, em seguida, por departamento. A dimensão da quinta unidade de relatório é **Unidade de negócios = \[001\], Centro de custos =\[\], Departamento = \[022\]**, e identifica uma unidade de emissão de relatórios para contas que são específicas da unidade de negócios 001 e do departamento 022.
 
-[![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Ilustração da Hierarquia Organizacional](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Exemplos de acúmulo de dados
 
@@ -210,11 +209,11 @@ Os exemplos a seguir mostram informações possíveis usadas em uma definição 
 
 #### <a name="example-1"></a>Exemplo 1
 
-[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Acúmulo de várias empresas](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Exemplo 2
 
-[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Acúmulo do Departamento Interempresarial](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -2,11 +2,9 @@
 title: Criar, calcular e lançar demonstrativos para uma loja de varejo
 description: Este tópico descreve as etapas manuais para criar, calcular e lançar um demonstrativo para uma loja.
 author: jashanno
-manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 455dee5a14ca0c44ba823a467baa78352b367ec8
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 58900ca4d3f6893689822a8cc5657d8c91772f65
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5221296"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5798528"
 ---
 # <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Criar, calcular e lançar demonstrativos para uma loja de varejo
 

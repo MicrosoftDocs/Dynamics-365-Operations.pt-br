@@ -1,12 +1,10 @@
 ---
-title: Configurar e usar a impressão de etiquetas de onda
+title: Impressão de etiqueta do ciclo
 description: Este tópico descreve a impressão de etiquetas de onda e explica como configurá-la.
 author: GarmMSFT
-manager: PJacobse
 ms.date: 05/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveLabel, WHSWaveLabelTemplate, WHSWaveLabelLayoutRow, WHSDocumentRouting, WHSWaveTableListPage, WHSPostMethod, WHSMobileDisplayWaveLabelListLookup, WHSWaveLabelType, WHSWaveLabelTemplateGroup, WHSDocumentRoutingLayout
 audience: Application User
@@ -15,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: a08f10c1f5c3ff5b9023f37614c4e113b3a6b30d
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe04b841dbb3bb237de53f74d73f2b3f9162ae6b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5211757"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5840428"
 ---
-# <a name="set-up-and-use-wave-label-printing"></a>Configurar e usar a impressão de etiquetas de onda
+# <a name="wave-label-printing"></a>Impressão de etiqueta do ciclo
 
 [!include [banner](../includes/banner.md)]
 
@@ -932,5 +930,8 @@ Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir:
 
 Para a maioria dessas páginas, você pode encontrar a função relevante selecionando **Etiquetas de onda** no grupo **Informações relacionadas** na guia **Remessas** do Painel de Ação.
 
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Reimprimir e anular etiquetas de ciclo](reprint-and-void-wave-labels.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

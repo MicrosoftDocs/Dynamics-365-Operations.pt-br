@@ -1,12 +1,10 @@
 ---
 title: Planos de manutenção
 description: Este tópico explica os planos de manutenção no Gerenciamento de Ativos.
-author: josaw1
-manager: tfehr
+author: johanhoffmann
 ms.date: 01/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: EntAssetMaintenancePlan, EntAssetObjectType, EntAssetCounterType, EntAssetWorkOrderLifecycleModel
 audience: Application User
@@ -14,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: riluan
+ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 09ae8b0ce56b08db0ba400b19676bd698c90a561
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 143b9337dc9ca530383575e0f9bb16e4313ce96b
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500805"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5839598"
 ---
 # <a name="maintenance-plans"></a>Planos de manutenção
 
@@ -195,8 +193,6 @@ A ilustração a seguir mostra um exemplo de planos de manutenção configurados
 
 ## <a name="counter-based-maintenance-enhancements"></a>Melhorias de manutenção com base em contadores
 
-[!INCLUDE [preview-banner-section](../../../includes/preview-banner-section.md)]
-
 O recurso *Melhorias de manutenção com base em contadores* apresenta a seguinte funcionalidade:
 
 - A opção de inserir automaticamente um contador tem o valor de *zero* (0) quando um ativo é criado. Essa opção pode ser útil ao usar a manutenção preditiva baseada em contadores. Quando o recurso *Melhorias de manutenção com base em contadores* não é usado, os contadores com valor *zero* (0) devem ser inseridos manualmente.
@@ -208,8 +204,8 @@ O recurso *Melhorias de manutenção com base em contadores* apresenta a seguint
 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
-- **Módulo:** *Gerenciamento de ativos*
-- **Nome do recurso:** *(Versão preliminar) Melhorias de manutenção com base em contadores*
+- **Módulo:** *gerenciamento de ativos*
+- **Nome do recurso:** *Melhorias de manutenção com base em contadores*
 
 ### <a name="create-and-initialize-counters-when-an-asset-is-created"></a>Criar e inicializar contadores quando um ativo é criado
 

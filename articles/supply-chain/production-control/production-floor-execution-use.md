@@ -2,11 +2,9 @@
 title: Como os trabalhadores usam a interface de execução de piso de produção
 description: Este tópico descreve como usar a interface de execução de piso de produção do ponto de vista de um trabalhador.
 author: johanhoffmann
-manager: tfehr
 ms.date: 10/05/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: JmgProductionFloorExecution
 audience: Application User
@@ -15,17 +13,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 38bc07d37b5c51f143846110c87cff9952d52b0e
-ms.sourcegitcommit: 2b4809e60974e72df9476ffd62706b1bfc8da4a7
+ms.openlocfilehash: 02046da5e2487e203c9658c255f95a7c403d0b10
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5500781"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5814647"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 A interface de execução de piso de produção é otimizada para interação por toque. Seu design oferece um contraste visual que atende aos requisitos de acessibilidade para ambientes de chão de fábrica. Ele oferece todos os mesmos recursos funcionais do que o dispositivo de ficha de trabalho. No entanto, ele também permite que vários trabalhos sejam iniciados em paralelo de uma lista de trabalhos. (Esse recurso também é conhecido como *agrupamento de trabalhos*). Além disso, de uma lista de trabalhos, os funcionários podem abrir um guia criado no Guia do Microsoft Dynamics 365. Dessa forma, eles podem obter instruções visuais em um HoloLens.
 
@@ -90,7 +87,7 @@ A guia **Minha máquina** tem as colunas a seguir. Os números correspondem aos 
 
 1. **Configurações** – selecione o ícone de engrenagem para abrir uma caixa de diálogo na qual é possível escolher os contadores a serem exibidos para o ativo de máquina selecionado. Os valores desses contadores são mostrados na parte superior da guia **Gerenciamento de ativos**. O menu **Configurações** (mostrado na captura de tela a seguir) permite habilitar até quatro contadores. Para cada contador que você deseja habilitar, use o campo de pesquisa na parte superior do bloco para selecionar um contador. O campo de pesquisa lista todos os contadores associados ao ativo selecionado na parte superior da página **Gerenciamento de ativos**. Defina cada contador para monitorar o valor **Agregado** ou o valor **Real** mais recente do contador. Por exemplo, se você definir um contador que monitora há quantas horas a máquina está sendo executada, deverá defini-lo como **Agregado**. Se você definir um contador para medir a temperatura ou a pressão atualizada mais recente, deverá defini-lo como **Real**. Selecione **OK** para salvar suas configurações e fechar a caixa de diálogo.
 
-    ![A guia Minha máquina](media/pfei-my-machine-tab-settings.png "A guia Minha máquina")
+    ![As configurações da guia Minha máquina](media/pfei-my-machine-tab-settings.png "As configurações da guia Minha máquina")
 
 1. **Solicitar manutenção** – selecione este botão para abrir uma caixa de diálogo na qual é possível criar uma solicitação de manutenção. Você poderá fornecer uma descrição e uma observação. A solicitação será encaminhada para um usuário do Supply Chain Management, que poderá então converter a solicitação de manutenção em uma ordem de serviço de manutenção.
 1. **Registrar tempo de inatividade** – selecione este botão para abrir uma caixa de diálogo na qual é possível registrar o tempo de inatividade da máquina. Você poderá selecionar um código de motivo e inserir um período de data/hora para o tempo de inatividade. O registro de tempo de inatividade da máquina é usado para calcular a eficiência do ativo de máquina.

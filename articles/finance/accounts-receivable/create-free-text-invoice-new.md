@@ -2,11 +2,9 @@
 title: Criar uma fatura de texto livre
 description: Este tópico explica como criar faturas de texto livre.
 author: mikefalkner
-manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: roschlom
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 7ccc652a407e9ed09c2ffffd3c86ff5070d6399b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: caebd0ba0a3863920c165e1c6a61be35bcaf1e44
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217497"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5833176"
 ---
 # <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 

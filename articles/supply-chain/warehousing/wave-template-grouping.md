@@ -2,11 +2,9 @@
 title: Agrupamento de modelos de onda
 description: O agrupamento de modelos de onda permite que o sistema use configurações de modelo de onda para determinar, com base em critérios definidos por você, como ele deve dividir linhas liberadas e atribuí-las a ondas novas ou existentes. Esse recurso pode ser útil em depósitos nos quais as ondas são criadas com base em critérios específicos, mas em que os gerentes preferem criar ondas de forma automática e não manual.
 author: Mirzaab
-manager: tfehr
 ms.date: 07/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSWaveTableListPage, WHSWaveTemplateTable
 audience: Application User
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 520338683443105ffd1df7fc2569cd95a5f50879
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a591624f6611148abe4888e67d8d3a9bbea9cd27
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5245121"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5838025"
 ---
 # <a name="wave-template-grouping"></a>Agrupamento de modelos de onda
 

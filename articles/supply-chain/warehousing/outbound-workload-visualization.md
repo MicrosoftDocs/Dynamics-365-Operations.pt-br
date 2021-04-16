@@ -2,11 +2,9 @@
 title: Visualização da carga de trabalho de saída
 description: Este tópico fornece informações sobre a visualização de carga de trabalho de saída. Essa funcionalidade permite que os gerentes e supervisores de depósito criem gráficos de carga de trabalho personalizados que podem ser usados para monitorar o andamento do trabalho atual e a quantidade restante dele. Os gerentes de depósito podem criar várias exibições e configurar a atualização automática, conforme necessário.
 author: Mirzaab
-manager: tfehr
 ms.date: 08/28/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
@@ -14,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6b7512ea6ad2e97db388bac6750482f7ed967140
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5225899"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5810477"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 

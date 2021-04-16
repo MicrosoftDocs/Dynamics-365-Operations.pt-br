@@ -2,11 +2,9 @@
 title: Requisitos do sistema
 description: Este artigo descreve os requisitos do Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: SystemAdministrationWorkspaceForm
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b8b94c1844470938d5e53423f045f5af4c1793d3
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 44a1332a7c2cb30724198d61190cb6dc207ad2d0
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5466799"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5794988"
 ---
 # <a name="system-requirements"></a>Requisitos do sistema
 

@@ -2,11 +2,9 @@
 title: Habilitar e usar o compartilhamento entre canais
 description: Este tópico descreve como habilitar e usar o recurso de compartilhamento entre canais do construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-manager: annbe
 ms.date: 10/16/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -16,20 +14,18 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 987dca54e47b909014862e310aa424019d8c4677
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5207814"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5799508"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar e usar o compartilhamento entre canais
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como habilitar e usar o recurso de compartilhamento entre canais do construtor de sites do Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 O compartilhamento entre canais permite reutilizar e compartilhar conteúdo entre vários canais de um site. Esse recurso é útil quando os canais de site têm um idioma base compatível, ou quando têm vários itens de conteúdo em comum.
 

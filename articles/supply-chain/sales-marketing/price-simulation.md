@@ -2,11 +2,9 @@
 title: Simulação de preço
 description: Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico.
 author: omulvad
-manager: tfehr
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation, SalesQuotationsTableLookup
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a8633d6eec788035997c52322c3268b946fb0bfe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1d2c6bf3d13f11482ab31d71e804144d0c5f54db
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5218384"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5807791"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
