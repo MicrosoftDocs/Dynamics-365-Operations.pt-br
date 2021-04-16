@@ -2,11 +2,9 @@
 title: Solucionar problemas de reabastecimento de depósito
 description: Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com reabastecimento de depósito no Microsoft Dynamics 365 Supply Chain Management.
 author: perlynne
-manager: tfehr
 ms.date: 10/19/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -17,28 +15,28 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 8dfb58c9156df106f58dfdc0ee2e0ef8defb9d9f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 8940f729e1115405e8d6e50eccc92d9fffe37f3e
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5263195"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5828073"
 ---
-# <a name="troubleshoot-warehouse-replenishment"></a><span data-ttu-id="0db27-103">Solucionar problemas de reabastecimento de depósito</span><span class="sxs-lookup"><span data-stu-id="0db27-103">Troubleshoot warehouse replenishment</span></span>
+# <a name="troubleshoot-warehouse-replenishment"></a><span data-ttu-id="04c48-103">Solucionar problemas de reabastecimento de depósito</span><span class="sxs-lookup"><span data-stu-id="04c48-103">Troubleshoot warehouse replenishment</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="0db27-104">Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com reabastecimento de depósito no Microsoft Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="0db27-104">This topic describes how to fix common issues that you might encounter while you work with warehouse replenishment in Microsoft Dynamics 365 Supply Chain Management.</span></span>
+<span data-ttu-id="04c48-104">Este tópico descreve como corrigir problemas comuns que você pode encontrar ao trabalhar com reabastecimento de depósito no Microsoft Dynamics 365 Supply Chain Management.</span><span class="sxs-lookup"><span data-stu-id="04c48-104">This topic describes how to fix common issues that you might encounter while you work with warehouse replenishment in Microsoft Dynamics 365 Supply Chain Management.</span></span>
 
-## <a name="i-receive-the-following-error-message-work-1-cannot-be-unblocked-because-it-has-unfinished-replenishment-work"></a><span data-ttu-id="0db27-105">Recebo a seguinte mensagem de erro: "Não é possível desbloquear a ID de trabalho %1 porque existe trabalho de reabastecimento não concluído."</span><span class="sxs-lookup"><span data-stu-id="0db27-105">I receive the following error message: "Work %1 cannot be unblocked because it has unfinished replenishment work."</span></span>
+## <a name="i-receive-the-following-error-message-work-1-cannot-be-unblocked-because-it-has-unfinished-replenishment-work"></a><span data-ttu-id="04c48-105">Recebo a seguinte mensagem de erro: "Não é possível desbloquear a ID de trabalho %1 porque existe trabalho de reabastecimento não concluído."</span><span class="sxs-lookup"><span data-stu-id="04c48-105">I receive the following error message: "Work %1 cannot be unblocked because it has unfinished replenishment work."</span></span>
 
-### <a name="issue-description"></a><span data-ttu-id="0db27-106">Descrição do problema</span><span class="sxs-lookup"><span data-stu-id="0db27-106">Issue description</span></span>
+### <a name="issue-description"></a><span data-ttu-id="04c48-106">Descrição do problema</span><span class="sxs-lookup"><span data-stu-id="04c48-106">Issue description</span></span>
 
-<span data-ttu-id="0db27-107">O trabalho de separação está bloqueado por causa do trabalho de reabastecimento dependente.</span><span class="sxs-lookup"><span data-stu-id="0db27-107">Picking work is blocked because of dependent replenishment work.</span></span>
+<span data-ttu-id="04c48-107">O trabalho de separação está bloqueado por causa do trabalho de reabastecimento dependente.</span><span class="sxs-lookup"><span data-stu-id="04c48-107">Picking work is blocked because of dependent replenishment work.</span></span>
 
-### <a name="issue-resolution"></a><span data-ttu-id="0db27-108">Resolução do problema</span><span class="sxs-lookup"><span data-stu-id="0db27-108">Issue resolution</span></span>
+### <a name="issue-resolution"></a><span data-ttu-id="04c48-108">Resolução do problema</span><span class="sxs-lookup"><span data-stu-id="04c48-108">Issue resolution</span></span>
 
-<span data-ttu-id="0db27-109">Quando você usa o reabastecimento por demanda de ciclo, se um local de separação deve ser reabastecido para atender à demanda da ordem de origem, o sistema cria o trabalho de reabastecimento e o trabalho de separação.</span><span class="sxs-lookup"><span data-stu-id="0db27-109">When you use wave demand replenishment, if a picking location must be replenished to fulfill the source order demand, the system creates both the replenishment work and the picking work.</span></span> <span data-ttu-id="0db27-110">Contudo, ele bloqueia o trabalho de separação até que o trabalho de reabastecimento seja concluído.</span><span class="sxs-lookup"><span data-stu-id="0db27-110">However, it blocks the picking work until the replenishment work is completed.</span></span> <span data-ttu-id="0db27-111">Esse comportamento é intencional, porque o local de separação não terá estoque suficiente a menos que o trabalho de reabastecimento seja concluído.</span><span class="sxs-lookup"><span data-stu-id="0db27-111">This behavior is intentional, because the picking location won't have enough inventory unless the replenishment work is completed.</span></span> <span data-ttu-id="0db27-112">Conclua o trabalho de reabastecimento e processe o trabalho de separação.</span><span class="sxs-lookup"><span data-stu-id="0db27-112">Complete the replenishment work, and then process the picking work.</span></span>
+<span data-ttu-id="04c48-109">Quando você usa o reabastecimento por demanda de ciclo, se um local de separação deve ser reabastecido para atender à demanda da ordem de origem, o sistema cria o trabalho de reabastecimento e o trabalho de separação.</span><span class="sxs-lookup"><span data-stu-id="04c48-109">When you use wave demand replenishment, if a picking location must be replenished to fulfill the source order demand, the system creates both the replenishment work and the picking work.</span></span> <span data-ttu-id="04c48-110">Contudo, ele bloqueia o trabalho de separação até que o trabalho de reabastecimento seja concluído.</span><span class="sxs-lookup"><span data-stu-id="04c48-110">However, it blocks the picking work until the replenishment work is completed.</span></span> <span data-ttu-id="04c48-111">Esse comportamento é intencional, porque o local de separação não terá estoque suficiente a menos que o trabalho de reabastecimento seja concluído.</span><span class="sxs-lookup"><span data-stu-id="04c48-111">This behavior is intentional, because the picking location won't have enough inventory unless the replenishment work is completed.</span></span> <span data-ttu-id="04c48-112">Conclua o trabalho de reabastecimento e processe o trabalho de separação.</span><span class="sxs-lookup"><span data-stu-id="04c48-112">Complete the replenishment work, and then process the picking work.</span></span>
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
