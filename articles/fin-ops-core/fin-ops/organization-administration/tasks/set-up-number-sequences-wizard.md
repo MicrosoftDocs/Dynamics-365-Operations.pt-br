@@ -2,7 +2,6 @@
 title: ​Configurar sequências numéricas usando um assistente​
 description: Este tópico explica como configurar todas as sequências numéricas necessárias ao mesmo tempo usando um assistente.
 author: sericks007
-manager: AnnBe
 ms.date: 07/18/2019
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b79924e2c8d94b5e5e160a123e9b0cde0971fd96
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d91a619423d00509ceca2ae18cb2f0371b44ead1
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560474"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747288"
 ---
 # <a name="set-up-number-sequences-using-a-wizard"></a>​Configurar sequências numéricas usando um assistente​
 

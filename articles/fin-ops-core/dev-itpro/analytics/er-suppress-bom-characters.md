@@ -2,7 +2,6 @@
 title: Criar configurações de ER para suprimir caracteres da BOM nos arquivos gerados
 description: Este tópico explica como configurar um formato de relatório eletrônico (ER) para gerar relatórios que suprimem caracteres de marca de ordem de byte (BOM).
 author: NickSelin
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: business-process
 ms.prod: ''
@@ -14,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9260db2edab75c9876ddf5af99bee4ff174c64e1
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568964"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5743524"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Criar configurações de ER para suprimir caracteres da BOM nos arquivos gerados
 

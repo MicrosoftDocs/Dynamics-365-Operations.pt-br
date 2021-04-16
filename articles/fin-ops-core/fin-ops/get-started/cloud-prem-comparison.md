@@ -2,7 +2,6 @@
 title: Comparação de recursos de nuvem e locais
 description: O tópico mostra quais recursos são suportados na Nuvem e locais.
 author: sericks007
-manager: AnnBe
 ms.date: 01/14/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 52dfff77fa7d14e560ce20596a4d79edeadb5390
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566627"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5744042"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -43,9 +42,9 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |---------------------|-----------------------------|-----------|-----------------|
 | Conformidade e certificações        |                                                                                           | Sim       | Sim             |
 |                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
-| Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             
+| Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
 |                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
-|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim              |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim             |
 |                                      | Integrações de dados                                                                         | Sim       | Sim             |
 | Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
 | Gerenciamento financeiro                 |                                                                                           | Sim       | Sim             |
@@ -62,7 +61,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
 |                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
 |                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
-|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Não              |
+|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Sim             |
 |                                      | A telemetria é transferida para a nuvem                                                   | Sim       | Não              |
 | Lifecycle Services                   |                                                                                           | Sim       | Sim             |
 |                                      | Processos de negócios configuráveis                                                           | Sim       | Não              |
@@ -85,7 +84,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 | **Área**                | **Recurso**             | **Nuvem** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
-| Gerenciamento de Ativos                     |                                                                                           | Sim       | Não |
+| Gerenciamento de Ativos                     |                                                                                           | Sim       | Não              |
 | Conformidade e certificações        |                                                                                           | Sim       | Sim             |
 |                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
 | Contabilização de custos                      |                                                                                           | Sim       | Sim             |
@@ -96,7 +95,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 | Integração e gerenciamento de dados      |                                                                                           | Sim       | Sim             |
 |                                      | Extensão acionada pela configuração                                                            | Sim       | Não              |
 |                                      | Exportar dados para seu próprio depósito de dados                                                    | Sim       | Sim             |
-|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim              |
+|                                      | Habilitar a exportação de atualizações incrementais para uma entidade de dados                                 | Sim       | Sim             |
 |                                      | Integrações de dados                                                                         | Sim       | Sim             |
 | Gerenciamento de documentos                  |                                                                                           | Sim       | Sim             |
 | Ajuda                                 |                                                                                           | Sim       | Não              |
@@ -111,7 +110,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 |                                      | Espaços de trabalho analíticos                                                                     | Sim       | Não              |
 |                                      | Processo de negócios do Intelligent: Recomendações                                             | Sim       | Não              |
 |                                      | Criação de relatórios do Power BI com OData usando ferramentas do Power BI Desktop ou do Power Query para Excel    | Sim       | Não              |
-|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Não              |
+|                                      | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal                                 | Sim       | Sim             |
 |                                      | A telemetria é transferida para a nuvem                                                   | Sim       | Não              |
 | Gerenciamento de estoque                 |                                                                                           | Sim       | Sim             |
 | Lifecycle Services                   |                                                                                           | Sim       | Sim             |

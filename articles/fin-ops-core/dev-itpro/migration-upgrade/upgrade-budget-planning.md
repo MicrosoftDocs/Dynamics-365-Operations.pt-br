@@ -2,7 +2,6 @@
 title: Upgrade de planejamento de orçamento
 description: Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.
 author: panolte
-manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 86c4d83d35c7ca6bd5fe3a9f6c09e0457b40c523
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 27332703ac4943ef41a2cb2a70d86e2d9dfdf1ee
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565055"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745226"
 ---
 # <a name="upgrade-budget-planning"></a>Atualizar planejamento de orçamento
 

@@ -2,7 +2,6 @@
 title: Função de ER CASE
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) CASE é usada.
 author: NickSelin
-manager: kfend
 ms.date: 12/17/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f466e3ffe368bf30236060d820621e723106fc1d
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 44815160957922f508fccd72174be2c4145a8d89
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562460"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745440"
 ---
 # <a name="case-er-function"></a>Função de ER CASE
 

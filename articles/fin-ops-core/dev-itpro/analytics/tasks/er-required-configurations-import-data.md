@@ -2,8 +2,7 @@
 title: ER Criar configurações necessárias para importar os dados de um arquivo externo
 description: Este tópico descreve como criar configurações de ER (relatório eletrônico) para importar dados para o aplicativo do Microsoft Dynamics 365 Finance de um arquivo externo.
 author: NickSelin
-manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 03/24/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,18 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1b8a94173c7c5367b79bfcb354f0397515d94445
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564281"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5751453"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
 [!include [banner](../../includes/banner.md)]
 
-As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo, partindo de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os seguintes arquivos localmente usando os links do tópico da visão geral do Relatório eletrônico (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml e 1099entries.xlsx.
+As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar configurações de relatório eletrônico (ER) para importar dados para o aplicativo, partindo de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os arquivos a seguir localmente: 
+
+| Descrição do conteúdo                       | Nome do arquivo                                     |
+|-------------------------------------------|-----------------------------------------------|
+| Configuração do modelo de dados de ER – 1099 | [1099model.xml](https://download.microsoft.com/download/b/d/9/bd9e8373-d558-4ab8-aa9b-31981adc97ea/1099model.xml)                  |
+| Configuração de formato ER – 1099    | [1099format.xml](https://download.microsoft.com/download/e/8/7/e87154b0-b53f-431f-8e1e-0b7f7c9805a9/1099format.xml)                  |
+| Amostra do documento de entrada no formato XML                          | [1099entries.xml](https://download.microsoft.com/download/4/0/3/403a4958-df24-476a-b8b0-6843a9fa7f89/1099entries.xml)        |
+| Exemplo de pasta de trabalho para gerenciar dados do documento de entrada                          | [1099entries.xlsx](https://download.microsoft.com/download/6/0/0/6001abab-a331-48db-a939-41851fb0f5d0/1099entries.xlsx) |
 
 O ER oferece aos usuários de negócios a capacidade de configurar o processo de importação de arquivos de dados externos para tabelas no formato .XML ou .TXT. Primeiramente, um modelo de dados abstrato e uma configuração do modelo de dados de ER devem ser criados para representar os dados que você está importando. Em seguida, você precisa definir a estrutura do arquivo que você está importando e o método que usará para transferir os dados do arquivo para modelo de dados abstrato. A configuração de formato de ER que é mapeada ao modelo de dados criado deve ser criada para esse modelo de dados abstrato. Depois, a configuração do modelo de dados deve ser estendida com um mapeamento que descreve como os dados importados persistem como dados do modelo de dados abstratos e como são usados para atualizar as tabelas.  A configuração do modelo de dados de ER deve ser acrescentada com um novo mapeamento de modelo que descreve a associação do modelo de dados a destinos do aplicativo.  
 

@@ -2,8 +2,7 @@
 title: Criar configurações de ER a serem preenchidas em modelos de PDF
 description: Este tópico fornece informações sobre como criar um formato de relatório eletrônico (ER) para preencher um modelo PDF.
 author: NickSelin
-manager: AnnBe
-ms.date: 04/19/2019
+ms.date: 03/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: ac7f1c3fc0b03a42012ea14369eef554c6ea30f3
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 7c1c21015a172d7ebaa3577d5d0e55c254ef871e
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5561773"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753279"
 ---
 # <a name="design-er-configurations-to-fill-in-pdf-templates"></a>Criar configurações de ER a serem preenchidas em modelos de PDF
 
@@ -46,15 +45,15 @@ Antes de começar, você deve ter um dos seguintes tipos de acesso, dependendo d
 
 Você também deve concluir o procedimento [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Por fim, você deve baixar os seguintes arquivos de [CustomerSource](https://go.microsoft.com/fwlink/?linkid=874111).
+Por fim, baixe os seguintes arquivos.
 
 | Descrição do conteúdo                       | Nome do arquivo                                     |
 |-------------------------------------------|-----------------------------------------------|
-| Modelo da primeira página do relatório | [IntrastatReportTemplate1.pdf](https://mbs.microsoft.com/Files/public/CS)                  |
-| Modelo de outras páginas do relatório    | [IntrastatReportTemplate2.pdf](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatReportTemplate2.pdf)                  |
-| Exemplo de formato ER - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatreportPDFversion11.xml)        |
-| Exemplo de formato ER - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://mbs.microsoft.com/Files/public/CS/AX/IntrastatimportfromExcelversion11.xml) |
-| Exemplo de conjunto de dados                            | [Exemplo de dados do intrastat.xlsx](https://mbs.microsoft.com/Files/public/CS/AX/Intrastatsampledata.xlsx)                    |
+| Modelo da primeira página do relatório | [IntrastatReportTemplate1.pdf](https://download.microsoft.com/download/0/8/3/0832c82b-4448-4562-afbf-01e0efc8d999/IntrastatReportTemplate1.pdf)                  |
+| Modelo de outras páginas do relatório    | [IntrastatReportTemplate2.pdf](https://download.microsoft.com/download/c/7/a/c7a8a806-2192-4034-9052-e8b84b527d5e/IntrastatReportTemplate2.pdf)                  |
+| Exemplo de formato ER - PDF                          | [Intrastat report (PDF).version.1.1.xml](https://download.microsoft.com/download/a/8/7/a87aea3e-3f60-404c-8899-c471d20e7ea9/IntrastatreportPDFversion1.1.xml)        |
+| Exemplo de formato ER - Excel                          | [Intrastat (import from Excel).version.1.1.xml](https://download.microsoft.com/download/a/2/c/a2c0c145-d989-4e55-9d47-9647c02e4ee4/IntrastatimportfromExcelversion1.1.xml) |
+| Exemplo de conjunto de dados                            | [Exemplo de dados do intrastat.xlsx](https://download.microsoft.com/download/9/f/1/9f1c5b96-3800-475f-8cf6-1ddd42873758/Intrastatsampledata.xlsx)                    |
 
 ## <a name="design-the-format-configuration"></a>Criar a configuração de formato
 

@@ -2,7 +2,6 @@
 title: Migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
 description: Este tópico descreve como migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 01/04/2021
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-01-04
-ms.openlocfilehash: 93614e43b108671de686458887c1d6dd6fe04f7a
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: f6758fe366c2ea59dc75be2f1070650eb5c2f9fc
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5570555"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5750851"
 ---
 # <a name="migrate-prospect-to-cash-data-from-data-integrator-to-dual-write"></a>Migrar os dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
 

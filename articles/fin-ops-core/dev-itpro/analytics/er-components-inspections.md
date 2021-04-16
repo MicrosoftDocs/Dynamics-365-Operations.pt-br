@@ -2,7 +2,6 @@
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
 description: Este tópico explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
 author: NickSelin
-manager: AnnBe
 ms.date: 03/04/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 86db6dc27a8a76e90494e3dc7a7cc9c828f9ec37
-ms.sourcegitcommit: a3052f76ad71894dbef66566c07c6e2c31505870
+ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5574116"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753831"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -666,19 +665,19 @@ A ilustração a seguir mostra o erro de runtime exibido se você ignorar o avis
 
 ![Erro de runtime que ocorre durante a execução do mapeamento de formatos na página Designer de formato](./media/er-components-inspections-10b.png)
 
-### <a name="automatic-resolution"></a>Resolução automática
+### <a name="automatic-resolution&quot;></a>Resolução automática
 
 Nenhuma opção para corrigir esse problema automaticamente está disponível.
 
-### <a name="manual-resolution"></a>Resolução manual
+### <a name=&quot;manual-resolution&quot;></a>Resolução manual
 
-#### <a name="option-1"></a>Opção 1
+#### <a name=&quot;option-1&quot;></a>Opção 1
 
 Remova o sinalizador **Cache** da fonte de dados **Vendor**. A fonte de dados **FilteredVendor** se tornará executável, mas a fonte de dados **Vendor** referenciada na tabela VendTable será acessada toda vez que **FilteredVendor** for chamada.
 
-#### <a name="option-2"></a>Opção 2
+#### <a name=&quot;option-2&quot;></a>Opção 2
 
-Altere a expressão da fonte de dados **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum="US-101")`para `WHERE(Vendor, Vendor.AccountNum="US-101")`. Nesse caso, a fonte de dados **Vendor** referenciada na tabela VendTable será acessada somente durante a primeira chamada da fonte **Vendor**. No entanto, a seleção de registros será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
+Altere a expressão da fonte de dados **FilteredVendor** de `FILTER(Vendor, Vendor.AccountNum=&quot;US-101")`para `WHERE(Vendor, Vendor.AccountNum="US-101")`. Nesse caso, a fonte de dados **Vendor** referenciada na tabela VendTable será acessada somente durante a primeira chamada da fonte **Vendor**. No entanto, a seleção de registros será feita na memória. Portanto, essa abordagem pode causar um baixo desempenho.
 
 ## <a name="missing-binding"></a><a id="i11"></a>Associação ausente
 

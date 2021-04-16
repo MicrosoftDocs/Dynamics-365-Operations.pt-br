@@ -1,8 +1,7 @@
 ---
 title: Gerenciar processos de recrutamento
-description: Este artigo descreve um conceito que os recrutadores podem usar para controlar as etapas do processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização.
+description: Este artigo descreve um conceito que os recrutadores podem usar para monitorar as etapas em um processo de recrutamento.
 author: andreabichsel
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b08f8837f4c3ffaa17ed740c2659cd8eb311a808
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 74ff8b081f5c82a089eef47b5cc18bc498a34c21
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5560844"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5752069"
 ---
 # <a name="manage-recruiting-processes"></a>Gerenciar processos de recrutamento
 

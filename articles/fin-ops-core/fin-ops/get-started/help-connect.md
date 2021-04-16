@@ -1,8 +1,7 @@
 ---
 title: Configurar a experiência de ajuda para aplicativos do Finance and Operations
-description: Este tópico fornece informações sobre os componentes do sistema de ajuda para alguns aplicativos do Microsoft Dynamics 365. Ele também explica como conectar esses aplicativos e fornece um resumo do processo para criar ajuda personalizada.
+description: Este tópico fornece informações sobre os componentes do sistema de ajuda para alguns aplicativos do Microsoft Dynamics 365.
 author: margoc
-manager: AnnBe
 ms.date: 05/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 467cce5a80dc7577647e82c8652c8a7adc67a498
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 82bb9a09e6d302b0d453ceb5131da039769b58fb
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5565919"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745680"
 ---
 # <a name="configure-the-help-experience-for-finance-and-operations-apps"></a>Configurar a experiência de ajuda para aplicativos do Finance and Operations
 

@@ -2,7 +2,6 @@
 title: Compactar documentos grandes que são gerados em relatórios eletrônicos
 description: Este tópico explica como compactar grandes documentos gerados por um formato de relatório eletrônico (ER).
 author: NickSelin
-manager: kfend
 ms.date: 09/11/2020
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 8a8f55b33624b057a6abf9af5084209ac6a0c778
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: cd056798773bce492e429f8cca2ef39cb59bf739
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5562325"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5753807"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compactar documentos grandes que são gerados em relatórios eletrônicos 
 

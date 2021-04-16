@@ -2,7 +2,6 @@
 title: Cartões-fidelidade do cliente e pontos de premiação
 description: Este tópico descreve a integração de dados sobre cartões de fidelidade do cliente e pontos de recompensa em gravação dupla.
 author: RamaKrishnamoorthy
-manager: AnnBe
 ms.date: 03/10/2019
 ms.topic: article
 ms.prod: ''
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-10
-ms.openlocfilehash: 39e1d5b0a73b198b164e51a18222dbd985192070
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: d2c3845c1a7371d9e992495246e8dd0eb8631020
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5568019"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5747978"
 ---
 # <a name="customer-loyalty-cards-and-reward-points"></a>Cartões-fidelidade do cliente e pontos de premiação
 

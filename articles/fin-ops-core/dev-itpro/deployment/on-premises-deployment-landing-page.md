@@ -2,8 +2,7 @@
 title: Home page Implantação local
 description: Este tópico fornece informações e vincula a conteúdo sobre implantações locais.
 author: sericks007
-manager: AnnBe
-ms.date: 11/23/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: dc9642ee224290891c738c9d0d2b96ff119a1622
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: caa3fccd9dcdfb3950958e793057131e77676d91
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5564051"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5749296"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page Implantação local
 
@@ -38,12 +37,14 @@ Você pode implantar o Dynamics 365 Finance + Operations (local). Quando você e
 
 ## <a name="onboard"></a>Integração
 - [Configurar projetos no local no Lifecycle Services (LCS)](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Configurar e implantar ambientes locais (Platform update 12 e posterior)](setup-deploy-on-premises-pu12.md)
+- [Configurar e implantar ambientes locais (Platform update 41 e posterior)](setup-deploy-on-premises-pu41.md)
+- [Configurar e implantar ambientes locais (atualizações 12 a 40 da plataforma)](setup-deploy-on-premises-pu12.md)
 - [Instalar dispositivos da impressora de rede em ambientes locais](../analytics/install-network-printer-onprem.md)
 - [Configurar o SQL Server Reporting Services para implantações locais](../analytics/configure-ssrs-on-premises.md)
-- [Desenvolver e implantar modelos personalizados para ambientes locais](develop-deploy-custom-models-on-premises.md)
+- [Desenvolver e implantar modelos personalizados em ambientes locais](develop-deploy-custom-models-on-premises.md)
 
 ## <a name="work-in-your-on-premises-deployment"></a>Trabalhar em sua implantação local
+- [Configurar a alta disponibilidade para os nós do SQL Server Reporting Services (SSRS)](onprem-SSRSHA.md)
 - [Configurar gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md)
 - [Importar configurações de Relatório eletrônico (ER)](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Geração, publicação e impressão de documentos em implantações locais​](../analytics/printing-capabilities-on-premises.md)
