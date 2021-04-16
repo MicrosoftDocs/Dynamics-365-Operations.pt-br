@@ -2,11 +2,9 @@
 title: Excluir uma BOM de serviço
 description: Uma ordem de serviço representa uma visita de um técnico de serviço a um local de cliente em uma data específica.
 author: ShylaThompson
-manager: tfehr
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
@@ -17,37 +15,37 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e5d46ef1f73cc04b95725e28b5e5c28a3a39b054
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 1a439186dee6fcfbe25e9184634bdfd48efcca48
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5247445"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5817548"
 ---
-# <a name="delete-a-service-bom"></a><span data-ttu-id="92761-103">Excluir uma BOM de serviço</span><span class="sxs-lookup"><span data-stu-id="92761-103">Delete a service BOM</span></span> 
+# <a name="delete-a-service-bom"></a><span data-ttu-id="7088b-103">Excluir uma BOM de serviço</span><span class="sxs-lookup"><span data-stu-id="7088b-103">Delete a service BOM</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  <span data-ttu-id="92761-104">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="92761-104">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="92761-105">Selecione o contrato de serviço do qual você deseja excluir uma lista de materiais (BOM) de serviço.</span><span class="sxs-lookup"><span data-stu-id="92761-105">Select the service agreement that you want to delete a service bill of materials (BOM) from.</span></span>
+1.  <span data-ttu-id="7088b-104">Clique em **Gerenciamento de serviços** \> **Comum** \> **Contratos de serviço** \> **Contratos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="7088b-104">Click **Service management** \> **Common** \> **Service agreements** \> **Service agreements**.</span></span> <span data-ttu-id="7088b-105">Selecione o contrato de serviço do qual você deseja excluir uma lista de materiais (BOM) de serviço.</span><span class="sxs-lookup"><span data-stu-id="7088b-105">Select the service agreement that you want to delete a service bill of materials (BOM) from.</span></span>
 
-2.  <span data-ttu-id="92761-106">No **Painel de Ação**, clique em **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="92761-106">On the **Action Pane**, click **Service objects**.</span></span>
+2.  <span data-ttu-id="7088b-106">No **Painel de Ação**, clique em **Objetos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="7088b-106">On the **Action Pane**, click **Service objects**.</span></span>
 
-3.  <span data-ttu-id="92761-107">No formulário **Objetos de serviço**, selecione o objeto de serviço do qual deseja excluir uma BOM de serviço.</span><span class="sxs-lookup"><span data-stu-id="92761-107">In the **Service objects** form, select the service object that you want to delete a service BOM from.</span></span> <span data-ttu-id="92761-108">Clique em **Funções** e depois selecione **Excluir BOM de Serviço**.</span><span class="sxs-lookup"><span data-stu-id="92761-108">Click **Functions**, and then select **Delete service BOM**.</span></span>
+3.  <span data-ttu-id="7088b-107">No formulário **Objetos de serviço**, selecione o objeto de serviço do qual deseja excluir uma BOM de serviço.</span><span class="sxs-lookup"><span data-stu-id="7088b-107">In the **Service objects** form, select the service object that you want to delete a service BOM from.</span></span> <span data-ttu-id="7088b-108">Clique em **Funções** e depois selecione **Excluir BOM de Serviço**.</span><span class="sxs-lookup"><span data-stu-id="7088b-108">Click **Functions**, and then select **Delete service BOM**.</span></span>
 
-4.  <span data-ttu-id="92761-109">Clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="92761-109">Click **Yes**.</span></span>
+4.  <span data-ttu-id="7088b-109">Clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="7088b-109">Click **Yes**.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="92761-110">Se você não tiver aplicado uma BOM de modelo, a BOM de serviço poderá ser excluída do formulário <STRONG>BOMs de modelo</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="92761-110">If you have not applied a template BOM, the service BOM can be deleted from the <STRONG>Template BOMs</STRONG> form.</span></span> <span data-ttu-id="92761-111">Se você tiver aplicado uma BOM de modelo, não será possível excluir a BOM de serviço usando esse método.</span><span class="sxs-lookup"><span data-stu-id="92761-111">If you have applied a template BOM, the service BOM cannot be deleted by using this method.</span></span></P>
+> <P><span data-ttu-id="7088b-110">Se você não tiver aplicado uma BOM de modelo, a BOM de serviço poderá ser excluída do formulário <STRONG>BOMs de modelo</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="7088b-110">If you have not applied a template BOM, the service BOM can be deleted from the <STRONG>Template BOMs</STRONG> form.</span></span> <span data-ttu-id="7088b-111">Se você tiver aplicado uma BOM de modelo, não será possível excluir a BOM de serviço usando esse método.</span><span class="sxs-lookup"><span data-stu-id="7088b-111">If you have applied a template BOM, the service BOM cannot be deleted by using this method.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="92761-112">Consulte também</span><span class="sxs-lookup"><span data-stu-id="92761-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7088b-112">Consulte também</span><span class="sxs-lookup"><span data-stu-id="7088b-112">See also</span></span>
 
-[<span data-ttu-id="92761-113">BOMs de modelo</span><span class="sxs-lookup"><span data-stu-id="92761-113">Template BOMs</span></span>](template-boms.md)
+[<span data-ttu-id="7088b-113">BOMs de modelo</span><span class="sxs-lookup"><span data-stu-id="7088b-113">Template BOMs</span></span>](template-boms.md)
 
-[<span data-ttu-id="92761-114">Gerenciar BOMs de modelo nas relações de objeto</span><span class="sxs-lookup"><span data-stu-id="92761-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
+[<span data-ttu-id="7088b-114">Gerenciar BOMs de modelo nas relações de objeto</span><span class="sxs-lookup"><span data-stu-id="7088b-114">Manage template BOMs on object relations</span></span>](manage-template-boms-on-object-relations.md)
 
   
 
