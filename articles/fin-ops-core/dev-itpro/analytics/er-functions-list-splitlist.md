@@ -2,8 +2,7 @@
 title: Função de ER SPLITLIST
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) SPLITLIST é usada.
 author: NickSelin
-manager: kfend
-ms.date: 12/12/2019
+ms.date: 03/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,70 +15,82 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af8c413726ca8d9f92eff18807e7fa9002fc9d37
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: 99e199e238b3132622a8b305895637b430e8f6d2
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5559129"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5745560"
 ---
-# <a name="splitlist-er-function"></a><span data-ttu-id="931cf-103">Função de ER SPLITLIST</span><span class="sxs-lookup"><span data-stu-id="931cf-103">SPLITLIST ER function</span></span>
+# <a name="splitlist-er-function"></a><span data-ttu-id="9e549-103">Função de ER SPLITLIST</span><span class="sxs-lookup"><span data-stu-id="9e549-103">SPLITLIST ER function</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="931cf-104">A função `SPLITLIST` divide a lista especificada em sublistas (ou lotes) e cada uma delas contém o número de registros especificado.</span><span class="sxs-lookup"><span data-stu-id="931cf-104">The `SPLITLIST` function splits the specified list into sublists (or batches), each of which contains the specified number of records.</span></span> <span data-ttu-id="931cf-105">Em seguida, ela retorna o resultado como um novo valor de *Lista de registros* que consiste nos lotes.</span><span class="sxs-lookup"><span data-stu-id="931cf-105">It then returns the result as a new *Record list* value that consists of the batches.</span></span>
+<span data-ttu-id="9e549-104">A função `SPLITLIST` divide a lista especificada em sublistas (ou lotes) e cada uma delas contém o número de registros especificado.</span><span class="sxs-lookup"><span data-stu-id="9e549-104">The `SPLITLIST` function splits the specified list into sublists (or batches), each of which contains the specified number of records.</span></span> <span data-ttu-id="9e549-105">Em seguida, ela retorna o resultado como um novo valor de *Lista de registros* que consiste nos lotes.</span><span class="sxs-lookup"><span data-stu-id="9e549-105">It then returns the result as a new *Record list* value that consists of the batches.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="931cf-106">Sintaxe</span><span class="sxs-lookup"><span data-stu-id="931cf-106">Syntax</span></span>
+## <a name="syntax-1"></a><span data-ttu-id="9e549-106">Sintaxe 1</span><span class="sxs-lookup"><span data-stu-id="9e549-106">Syntax 1</span></span>
 
 ```vb
 SPLITLIST (list, number)
 ```
 
-## <a name="arguments"></a><span data-ttu-id="931cf-107">Argumentos</span><span class="sxs-lookup"><span data-stu-id="931cf-107">Arguments</span></span>
+## <a name="syntax-2"></a><span data-ttu-id="9e549-107">Sintaxe 2</span><span class="sxs-lookup"><span data-stu-id="9e549-107">Syntax 2</span></span>
 
-<span data-ttu-id="931cf-108">`list`: *Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="931cf-108">`list`: *Record list*</span></span>
+```vb
+SPLITLIST (list, number, on-demand reading flag)
+```
 
-<span data-ttu-id="931cf-109">O caminho válido de uma fonte de dados do tipo *Lista de registros*.</span><span class="sxs-lookup"><span data-stu-id="931cf-109">The valid path of a data source of the *Record list* data type.</span></span>
+## <a name="arguments"></a><span data-ttu-id="9e549-108">Argumentos</span><span class="sxs-lookup"><span data-stu-id="9e549-108">Arguments</span></span>
 
-<span data-ttu-id="931cf-110">`number`: *Inteiro*</span><span class="sxs-lookup"><span data-stu-id="931cf-110">`number`: *Integer*</span></span>
+<span data-ttu-id="9e549-109">`list`: *Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="9e549-109">`list`: *Record list*</span></span>
 
-<span data-ttu-id="931cf-111">O número máximo de registros por lote.</span><span class="sxs-lookup"><span data-stu-id="931cf-111">The maximum number of records per batch.</span></span>
+<span data-ttu-id="9e549-110">O caminho válido de uma fonte de dados do tipo *Lista de registros*.</span><span class="sxs-lookup"><span data-stu-id="9e549-110">The valid path of a data source of the *Record list* data type.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="931cf-112">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="931cf-112">Return values</span></span>
+<span data-ttu-id="9e549-111">`number`: *Inteiro*</span><span class="sxs-lookup"><span data-stu-id="9e549-111">`number`: *Integer*</span></span>
 
-<span data-ttu-id="931cf-113">*Lista de registros*</span><span class="sxs-lookup"><span data-stu-id="931cf-113">*Record list*</span></span>
+<span data-ttu-id="9e549-112">O número máximo de registros por lote.</span><span class="sxs-lookup"><span data-stu-id="9e549-112">The maximum number of records per batch.</span></span>
 
-<span data-ttu-id="931cf-114">A lista de registros resultante.</span><span class="sxs-lookup"><span data-stu-id="931cf-114">The resulting list of records.</span></span>
+<span data-ttu-id="9e549-113">`on-demand reading flag`: *Booliano*</span><span class="sxs-lookup"><span data-stu-id="9e549-113">`on-demand reading flag`: *Boolean*</span></span>
 
-## <a name="usage-notes"></a><span data-ttu-id="931cf-115">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="931cf-115">Usage notes</span></span>
+<span data-ttu-id="9e549-114">Um valor *Booliano* que especifica se os elementos de sublistas devem ser gerados sob demanda.</span><span class="sxs-lookup"><span data-stu-id="9e549-114">A *Boolean* value that specifies whether elements of sublists should be generated on demand.</span></span>
 
-<span data-ttu-id="931cf-116">A lista de lotes retornada contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="931cf-116">The list of batches that is returned contains the following elements:</span></span>
+## <a name="return-values"></a><span data-ttu-id="9e549-115">Valores de retorno</span><span class="sxs-lookup"><span data-stu-id="9e549-115">Return values</span></span>
 
- - <span data-ttu-id="931cf-117">**Valor:** *Lista*</span><span class="sxs-lookup"><span data-stu-id="931cf-117">**Value:** *List*</span></span>
+<span data-ttu-id="9e549-116">*Registrar lista*</span><span class="sxs-lookup"><span data-stu-id="9e549-116">*Record list*</span></span>
 
-    <span data-ttu-id="931cf-118">A lista de registros que pertencem ao lote atual.</span><span class="sxs-lookup"><span data-stu-id="931cf-118">The list of records that belong to the current batch.</span></span>
+<span data-ttu-id="9e549-117">A lista de registros resultante.</span><span class="sxs-lookup"><span data-stu-id="9e549-117">The resulting list of records.</span></span>
 
-- <span data-ttu-id="931cf-119">**BatchNumber:** *Inteiro*</span><span class="sxs-lookup"><span data-stu-id="931cf-119">**BatchNumber:** *Integer*</span></span>
+## <a name="usage-notes"></a><span data-ttu-id="9e549-118">Notas de uso</span><span class="sxs-lookup"><span data-stu-id="9e549-118">Usage notes</span></span>
 
-    <span data-ttu-id="931cf-120">O número do lote atual na lista retornada.</span><span class="sxs-lookup"><span data-stu-id="931cf-120">The number of the current batch in the returned list.</span></span>
+<span data-ttu-id="9e549-119">A lista de lotes retornada contém os seguintes elementos:</span><span class="sxs-lookup"><span data-stu-id="9e549-119">The list of batches that is returned contains the following elements:</span></span>
 
-## <a name="example"></a><span data-ttu-id="931cf-121">Exemplo</span><span class="sxs-lookup"><span data-stu-id="931cf-121">Example</span></span>
+ - <span data-ttu-id="9e549-120">**Valor:** *Lista*</span><span class="sxs-lookup"><span data-stu-id="9e549-120">**Value:** *List*</span></span>
 
-<span data-ttu-id="931cf-122">Na ilustração a seguir, uma fonte de dados **Linhas** é criada como uma lista de registros com três registros.</span><span class="sxs-lookup"><span data-stu-id="931cf-122">In the following illustration, a **Lines** data source is created as a record list that has three records.</span></span> <span data-ttu-id="931cf-123">Esta lista é dividida em lotes, cada um contendo até dois registros.</span><span class="sxs-lookup"><span data-stu-id="931cf-123">This list is divided into batches, each of which contains up to two records.</span></span>
+    <span data-ttu-id="9e549-121">A lista de registros que pertencem ao lote atual.</span><span class="sxs-lookup"><span data-stu-id="9e549-121">The list of records that belong to the current batch.</span></span>
+
+- <span data-ttu-id="9e549-122">**BatchNumber:** *Inteiro*</span><span class="sxs-lookup"><span data-stu-id="9e549-122">**BatchNumber:** *Integer*</span></span>
+
+    <span data-ttu-id="9e549-123">O número do lote atual na lista retornada.</span><span class="sxs-lookup"><span data-stu-id="9e549-123">The number of the current batch in the returned list.</span></span>
+
+<span data-ttu-id="9e549-124">Quando o sinalizador de leitura sob demanda é definido como **Verdadeiro**, as sublistas são geradas mediante solicitação, o que permite uma redução no consumo de memória, mas pode afetar o desempenho se os elementos não forem usados sequencialmente.</span><span class="sxs-lookup"><span data-stu-id="9e549-124">When the on-demand reading flag is set to **True**, sublists are generated upon request which allows for a reduction in memory consumption but may cause performance degradation if elements aren't used sequentially.</span></span>
+
+## <a name="example"></a><span data-ttu-id="9e549-125">Exemplo</span><span class="sxs-lookup"><span data-stu-id="9e549-125">Example</span></span>
+
+<span data-ttu-id="9e549-126">Na ilustração a seguir, uma fonte de dados **Linhas** é criada como uma lista de registros com três registros.</span><span class="sxs-lookup"><span data-stu-id="9e549-126">In the following illustration, a **Lines** data source is created as a record list that has three records.</span></span> <span data-ttu-id="9e549-127">Esta lista é dividida em lotes, cada um contendo até dois registros.</span><span class="sxs-lookup"><span data-stu-id="9e549-127">This list is divided into batches, each of which contains up to two records.</span></span>
 
 <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
 
-<span data-ttu-id="931cf-124">A ilustração a seguir mostra o formato de layout criado.</span><span class="sxs-lookup"><span data-stu-id="931cf-124">The following illustration shows the designed format layout.</span></span> <span data-ttu-id="931cf-125">Nesse formato de layout, as associações à fonte de dados de **Linhas** são criados para gerar saída no formato XML.</span><span class="sxs-lookup"><span data-stu-id="931cf-125">In this format layout, bindings to the **Lines** data source are created to generate output in XML format.</span></span> <span data-ttu-id="931cf-126">Esta saída apresenta nós individuais para cada lote e os registros existentes nele.</span><span class="sxs-lookup"><span data-stu-id="931cf-126">This output presents individual nodes for each batch and the records in it.</span></span>
+<span data-ttu-id="9e549-128">A ilustração a seguir mostra o formato de layout criado.</span><span class="sxs-lookup"><span data-stu-id="9e549-128">The following illustration shows the designed format layout.</span></span> <span data-ttu-id="9e549-129">Nesse formato de layout, as associações à fonte de dados de **Linhas** são criados para gerar saída no formato XML.</span><span class="sxs-lookup"><span data-stu-id="9e549-129">In this format layout, bindings to the **Lines** data source are created to generate output in XML format.</span></span> <span data-ttu-id="9e549-130">Esta saída apresenta nós individuais para cada lote e os registros existentes nele.</span><span class="sxs-lookup"><span data-stu-id="9e549-130">This output presents individual nodes for each batch and the records in it.</span></span>
 
 <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a>
 
-<span data-ttu-id="931cf-127">A ilustração a seguir mostra o formato o resultado quando o formato criado é executado.</span><span class="sxs-lookup"><span data-stu-id="931cf-127">The following illustration shows the result when the designed format is run.</span></span>
+<span data-ttu-id="9e549-131">A ilustração a seguir mostra o formato o resultado quando o formato criado é executado.</span><span class="sxs-lookup"><span data-stu-id="9e549-131">The following illustration shows the result when the designed format is run.</span></span>
 
 <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
 
-## <a name="additional-resources"></a><span data-ttu-id="931cf-128">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="931cf-128">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9e549-132">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="9e549-132">Additional resources</span></span>
 
-[<span data-ttu-id="931cf-129">Funções de listagem</span><span class="sxs-lookup"><span data-stu-id="931cf-129">List functions</span></span>](er-functions-category-list.md)
+[<span data-ttu-id="9e549-133">Funções de listagem</span><span class="sxs-lookup"><span data-stu-id="9e549-133">List functions</span></span>](er-functions-category-list.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
