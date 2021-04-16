@@ -2,11 +2,9 @@
 title: Visão geral de desenvolvimento
 description: Este guia de desenvolvedor fornece uma referência de campos de API e personalizados. Ele também fornece informações sobre a integração com outros aplicativos.
 author: andreabichsel
-manager: tfehr
 ms.date: 02/03/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-human-resources
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -18,52 +16,52 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8e390592b000c8f6006aa489fd3823c4f15cb2cb
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: 5e67749e6f10b1c9202605b26164e30e5d39aa28
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5467786"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5793576"
 ---
-# <a name="development-overview"></a><span data-ttu-id="6206a-104">Visão geral de desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="6206a-104">Development overview</span></span>
+# <a name="development-overview"></a><span data-ttu-id="dac20-104">Visão geral de desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="dac20-104">Development overview</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-<span data-ttu-id="6206a-105">Este guia de desenvolvedor fornece uma referência de campos de API e personalizados.</span><span class="sxs-lookup"><span data-stu-id="6206a-105">This Developer Guide provides an API and custom fields reference.</span></span> <span data-ttu-id="6206a-106">Ele também fornece informações sobre a integração com outros aplicativos.</span><span class="sxs-lookup"><span data-stu-id="6206a-106">It also provides information on integrating with other apps.</span></span>
+<span data-ttu-id="dac20-105">Este guia de desenvolvedor fornece uma referência de campos de API e personalizados.</span><span class="sxs-lookup"><span data-stu-id="dac20-105">This Developer Guide provides an API and custom fields reference.</span></span> <span data-ttu-id="dac20-106">Ele também fornece informações sobre a integração com outros aplicativos.</span><span class="sxs-lookup"><span data-stu-id="dac20-106">It also provides information on integrating with other apps.</span></span>
 
-- [<span data-ttu-id="6206a-107">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="6206a-107">Overview</span></span>](hr-developer-overview.md)
+- [<span data-ttu-id="dac20-107">Visão Geral</span><span class="sxs-lookup"><span data-stu-id="dac20-107">Overview</span></span>](hr-developer-overview.md)
 
-- [<span data-ttu-id="6206a-108">Estender com o Power Apps e o Power Automate</span><span class="sxs-lookup"><span data-stu-id="6206a-108">Extend with Power Apps and Power Automate</span></span>](hr-developer-power-apps.md)
+- [<span data-ttu-id="dac20-108">Estender com o Power Apps e o Power Automate</span><span class="sxs-lookup"><span data-stu-id="dac20-108">Extend with Power Apps and Power Automate</span></span>](hr-developer-power-apps.md)
 
-- [<span data-ttu-id="6206a-109">Entidades do Human Resources no Dataverse</span><span class="sxs-lookup"><span data-stu-id="6206a-109">Human Resources entities in Dataverse</span></span>](hr-developer-entities.md)
+- [<span data-ttu-id="dac20-109">Entidades do Human Resources no Dataverse</span><span class="sxs-lookup"><span data-stu-id="dac20-109">Human Resources entities in Dataverse</span></span>](hr-developer-entities.md)
 
-- [<span data-ttu-id="6206a-110">Campos personalizados</span><span class="sxs-lookup"><span data-stu-id="6206a-110">Custom fields</span></span>](hr-developer-custom-fields.md)
+- [<span data-ttu-id="dac20-110">Campos personalizados</span><span class="sxs-lookup"><span data-stu-id="dac20-110">Custom fields</span></span>](hr-developer-custom-fields.md)
 
-- <span data-ttu-id="6206a-111">Configurar integração de dados</span><span class="sxs-lookup"><span data-stu-id="6206a-111">Set up data integration</span></span>
-  - [<span data-ttu-id="6206a-112">Escolha uma tecnologia de integração de dados</span><span class="sxs-lookup"><span data-stu-id="6206a-112">Choose a data integration technology</span></span>](hr-admin-integration-choose-technology.md)
-  - [<span data-ttu-id="6206a-113">Configurar integração do Dataverse</span><span class="sxs-lookup"><span data-stu-id="6206a-113">Configure Dataverse integration</span></span>](hr-admin-integration-common-data-service.md)
-  - [<span data-ttu-id="6206a-114">Configurar a integração com o Finance</span><span class="sxs-lookup"><span data-stu-id="6206a-114">Configure integration with Finance</span></span>](hr-admin-integration-finance.md)
-  - [<span data-ttu-id="6206a-115">Configurar a integração com o Dayforce</span><span class="sxs-lookup"><span data-stu-id="6206a-115">Configure integration with Dayforce</span></span>](hr-admin-integration-dayforce.md)
-  - [<span data-ttu-id="6206a-116">Criar um aplicativo de exportação de dados recorrente</span><span class="sxs-lookup"><span data-stu-id="6206a-116">Create a recurring data export app</span></span>](hr-admin-integration-recurring-data-export.md)
-  - <span data-ttu-id="6206a-117">Integrar com o Office</span><span class="sxs-lookup"><span data-stu-id="6206a-117">Integrate with Office</span></span>
-    - [<span data-ttu-id="6206a-118">Tutorial de integração do Office</span><span class="sxs-lookup"><span data-stu-id="6206a-118">Office integration tutorial</span></span>](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [<span data-ttu-id="6206a-119">Atualizar dados da entidade no Excel</span><span class="sxs-lookup"><span data-stu-id="6206a-119">Update entity data in Excel</span></span>](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [<span data-ttu-id="6206a-120">Criar experiências de Abrir no Excel</span><span class="sxs-lookup"><span data-stu-id="6206a-120">Create Open in Excel experiences</span></span>](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
-    - [<span data-ttu-id="6206a-121">Solucionar problemas de integração do Office</span><span class="sxs-lookup"><span data-stu-id="6206a-121">Troubleshoot Office integration</span></span>](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
+- <span data-ttu-id="dac20-111">Configurar integração de dados</span><span class="sxs-lookup"><span data-stu-id="dac20-111">Set up data integration</span></span>
+  - [<span data-ttu-id="dac20-112">Escolha uma tecnologia de integração de dados</span><span class="sxs-lookup"><span data-stu-id="dac20-112">Choose a data integration technology</span></span>](hr-admin-integration-choose-technology.md)
+  - [<span data-ttu-id="dac20-113">Configurar integração do Dataverse</span><span class="sxs-lookup"><span data-stu-id="dac20-113">Configure Dataverse integration</span></span>](hr-admin-integration-common-data-service.md)
+  - [<span data-ttu-id="dac20-114">Configurar a integração com o Finance</span><span class="sxs-lookup"><span data-stu-id="dac20-114">Configure integration with Finance</span></span>](hr-admin-integration-finance.md)
+  - [<span data-ttu-id="dac20-115">Configurar a integração com o Dayforce</span><span class="sxs-lookup"><span data-stu-id="dac20-115">Configure integration with Dayforce</span></span>](hr-admin-integration-dayforce.md)
+  - [<span data-ttu-id="dac20-116">Criar um aplicativo de exportação de dados recorrente</span><span class="sxs-lookup"><span data-stu-id="dac20-116">Create a recurring data export app</span></span>](hr-admin-integration-recurring-data-export.md)
+  - <span data-ttu-id="dac20-117">Integrar com o Office</span><span class="sxs-lookup"><span data-stu-id="dac20-117">Integrate with Office</span></span>
+    - [<span data-ttu-id="dac20-118">Tutorial de integração do Office</span><span class="sxs-lookup"><span data-stu-id="dac20-118">Office integration tutorial</span></span>](../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [<span data-ttu-id="dac20-119">Atualizar dados da entidade no Excel</span><span class="sxs-lookup"><span data-stu-id="dac20-119">Update entity data in Excel</span></span>](../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [<span data-ttu-id="dac20-120">Criar experiências de Abrir no Excel</span><span class="sxs-lookup"><span data-stu-id="dac20-120">Create Open in Excel experiences</span></span>](../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json)
+    - [<span data-ttu-id="dac20-121">Solucionar problemas de integração do Office</span><span class="sxs-lookup"><span data-stu-id="dac20-121">Troubleshoot Office integration</span></span>](../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json)
 
-- <span data-ttu-id="6206a-122">Referência da API da Entidade</span><span class="sxs-lookup"><span data-stu-id="6206a-122">Entity API reference</span></span>
-  - [<span data-ttu-id="6206a-123">Autenticação</span><span class="sxs-lookup"><span data-stu-id="6206a-123">Authentication</span></span>](hr-developer-api-authentication.md)
-  - <span data-ttu-id="6206a-124">Entidades</span><span class="sxs-lookup"><span data-stu-id="6206a-124">Entities</span></span>
-    - [<span data-ttu-id="6206a-125">MyLeaveRequests</span><span class="sxs-lookup"><span data-stu-id="6206a-125">MyLeaveRequests</span></span>](hr-developer-api-myleaverequests-overview.md)
-    - [<span data-ttu-id="6206a-126">Enviar uma solicitação de licença para o fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="6206a-126">Submit a leave request to workflow</span></span>](hr-developer-api-myleaverequests-submit.md)
+- <span data-ttu-id="dac20-122">Referência da API da Entidade</span><span class="sxs-lookup"><span data-stu-id="dac20-122">Entity API reference</span></span>
+  - [<span data-ttu-id="dac20-123">Autenticação</span><span class="sxs-lookup"><span data-stu-id="dac20-123">Authentication</span></span>](hr-developer-api-authentication.md)
+  - <span data-ttu-id="dac20-124">Entidades</span><span class="sxs-lookup"><span data-stu-id="dac20-124">Entities</span></span>
+    - [<span data-ttu-id="dac20-125">MyLeaveRequests</span><span class="sxs-lookup"><span data-stu-id="dac20-125">MyLeaveRequests</span></span>](hr-developer-api-myleaverequests-overview.md)
+    - [<span data-ttu-id="dac20-126">Enviar uma solicitação de licença para o fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="dac20-126">Submit a leave request to workflow</span></span>](hr-developer-api-myleaverequests-submit.md)
 
-## <a name="see-also"></a><span data-ttu-id="6206a-127">Consulte também</span><span class="sxs-lookup"><span data-stu-id="6206a-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="dac20-127">Consulte também</span><span class="sxs-lookup"><span data-stu-id="dac20-127">See also</span></span>
 
-- [<span data-ttu-id="6206a-128">Novidades ou alterações em Human Resources</span><span class="sxs-lookup"><span data-stu-id="6206a-128">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)
-- [<span data-ttu-id="6206a-129">Guia do administrador</span><span class="sxs-lookup"><span data-stu-id="6206a-129">Administrator Guide</span></span>](hr-admin-overview.md)
-- [<span data-ttu-id="6206a-130">Guia do usuário</span><span class="sxs-lookup"><span data-stu-id="6206a-130">User Guide</span></span>](hr-hrpro-overview.md)
+- [<span data-ttu-id="dac20-128">Novidades ou alterações em Human Resources</span><span class="sxs-lookup"><span data-stu-id="dac20-128">What's new or changed in Human Resources</span></span>](hr-admin-whats-new.md)
+- [<span data-ttu-id="dac20-129">Guia do administrador</span><span class="sxs-lookup"><span data-stu-id="dac20-129">Administrator Guide</span></span>](hr-admin-overview.md)
+- [<span data-ttu-id="dac20-130">Guia do usuário</span><span class="sxs-lookup"><span data-stu-id="dac20-130">User Guide</span></span>](hr-hrpro-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

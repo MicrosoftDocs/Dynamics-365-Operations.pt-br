@@ -2,11 +2,9 @@
 title: Consulta de exemplo de solicitação de recrutamento
 description: Este tópico fornece um exemplo de consulta para a entidade de solicitação de recrutamento no Dynamics 365 Human Resources.
 author: jaredha
-manager: tfehr
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-human-resources
 ms.technology: ''
 audience: Application User
 ms.reviewer: anbichse
@@ -16,28 +14,28 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ec8b881282d3e79f83cc7205e4742f7e6c5c3464
-ms.sourcegitcommit: 6affb3316be757c99e1fe9c7c7b312b93c483408
+ms.openlocfilehash: e3bba96988f3ccef9ef54c1dad2a4c63e829198f
+ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "5465981"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5789699"
 ---
-# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="a423a-103">Consulta de exemplo de solicitação de recrutamento</span><span class="sxs-lookup"><span data-stu-id="a423a-103">Example query for Recruiting request</span></span>
+# <a name="example-query-for-recruiting-request"></a><span data-ttu-id="8386c-103">Consulta de exemplo de solicitação de recrutamento</span><span class="sxs-lookup"><span data-stu-id="8386c-103">Example query for Recruiting request</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="a423a-104">Este tópico fornece um exemplo de consulta para a entidade de solicitação de recrutamento no Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="a423a-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
+<span data-ttu-id="8386c-104">Este tópico fornece um exemplo de consulta para a entidade de solicitação de recrutamento no Dynamics 365 Human Resources.</span><span class="sxs-lookup"><span data-stu-id="8386c-104">This topic provides an example query for the Recruiting request entity in Dynamics 365 Human Resources.</span></span>
 
-<span data-ttu-id="a423a-105">A consulta a seguir mostra como você pode usar a opção de consulta $expand em uma operação GET para recuperar um registro de solicitação de recrutamento especificado e todas as posições associadas, habilidades necessárias e requisitos educacionais para a solicitação especificada.</span><span class="sxs-lookup"><span data-stu-id="a423a-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="a423a-106">A resposta de exemplo mostra uma solicitação de recrutamento para duas posições, bem como as habilidades necessárias e a formação educacional para as posições solicitadas.</span><span class="sxs-lookup"><span data-stu-id="a423a-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
+<span data-ttu-id="8386c-105">A consulta a seguir mostra como você pode usar a opção de consulta $expand em uma operação GET para recuperar um registro de solicitação de recrutamento especificado e todas as posições associadas, habilidades necessárias e requisitos educacionais para a solicitação especificada.</span><span class="sxs-lookup"><span data-stu-id="8386c-105">The following query shows how you can use the $expand query option in a GET operation to retrieve a specified recruiting request record and all associated positions, required skills, and educational requirements for the specified request.</span></span> <span data-ttu-id="8386c-106">A resposta de exemplo mostra uma solicitação de recrutamento para duas posições, bem como as habilidades necessárias e a formação educacional para as posições solicitadas.</span><span class="sxs-lookup"><span data-stu-id="8386c-106">The example response shows a recruiting request for two positions, and the required skills and education for the requested positions.</span></span>
 
-<span data-ttu-id="a423a-107">**Solicitar**</span><span class="sxs-lookup"><span data-stu-id="a423a-107">**Request**</span></span>
+<span data-ttu-id="8386c-107">**Solicitar**</span><span class="sxs-lookup"><span data-stu-id="8386c-107">**Request**</span></span>
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruiting request entity ID>)?$expand=mshr_FK_HcmRecruitingRequestPositionEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestSkillEntity_RecruitingRequest,mshr_FK_HcmRecruitingRequestEducationEntity_RecruitingRequest
 ```
 
-<span data-ttu-id="a423a-108">**Resposta**</span><span class="sxs-lookup"><span data-stu-id="a423a-108">**Response**</span></span>
+<span data-ttu-id="8386c-108">**Resposta**</span><span class="sxs-lookup"><span data-stu-id="8386c-108">**Response**</span></span>
 
 ```json
 {
@@ -182,8 +180,8 @@ GET [Organizaton URI]/api/data/v9.1/mshr_hcmrecruitingrequestentities(<recruitin
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="a423a-109">Consulte também</span><span class="sxs-lookup"><span data-stu-id="a423a-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8386c-109">Consulte também</span><span class="sxs-lookup"><span data-stu-id="8386c-109">See also</span></span>
 
-[<span data-ttu-id="a423a-110">Introdução da API de integração do sistema de acompanhamento de candidatos</span><span class="sxs-lookup"><span data-stu-id="a423a-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
+[<span data-ttu-id="8386c-110">Introdução da API de integração do sistema de acompanhamento de candidatos</span><span class="sxs-lookup"><span data-stu-id="8386c-110">Applicant Tracking System integration API introduction</span></span>](hr-admin-integration-ats-api-introduction.md)<br>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

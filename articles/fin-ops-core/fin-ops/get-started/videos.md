@@ -2,7 +2,6 @@
 title: Vídeos
 description: Essa página lista "como fazer" criados pela Microsoft e conversas tecnológicas em vídeos relacionadas a aplicativos do Finance and Operations que estão disponíveis no YouTube e em outros sites.
 author: sericks007
-manager: AnnBe
 ms.date: 02/11/2021
 ms.topic: article
 ms.prod: ''
@@ -15,152 +14,152 @@ ms.search.region: global
 ms.author: sericks
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
-ms.openlocfilehash: 70eddab17d94a7ff4a9f00117200a657ebfb24dd
-ms.sourcegitcommit: 6cb174d1ec8b55946dca4db03d6a3c3f4c6fa2df
+ms.openlocfilehash: eae8e95d39a5b9ade24e7fe9c9407d29e67a8727
+ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "5566213"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5754695"
 ---
-# <a name="videos"></a><span data-ttu-id="3a1f2-103">Vídeos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-103">Videos</span></span> 
+# <a name="videos"></a><span data-ttu-id="eb12b-103">Vídeos</span><span class="sxs-lookup"><span data-stu-id="eb12b-103">Videos</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3a1f2-104">No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), você pode localizar os vídeos criados pela Microsoft que demonstram uma ampla gama de soluções empresariais para produtos do Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-104">On the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</span></span> <span data-ttu-id="3a1f2-105">Esta seção lista vídeos de "como fazer" para aplicativos do Finance and Operations que são armazenados no canal.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-105">This section lists the "how-to" videos for Finance and Operations apps that are hosted on the channel.</span></span>
+<span data-ttu-id="eb12b-104">No [canal do Microsoft Dynamics no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), você pode localizar os vídeos criados pela Microsoft que demonstram uma ampla gama de soluções empresariais para produtos do Dynamics 365.</span><span class="sxs-lookup"><span data-stu-id="eb12b-104">On the [Microsoft Dynamics 365 YouTube channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ), you can find videos created by Microsoft that demonstrate a wide range of business solutions for Dynamics 365 products.</span></span> <span data-ttu-id="eb12b-105">Esta seção lista vídeos de "como fazer" para aplicativos do Finance and Operations que são armazenados no canal.</span><span class="sxs-lookup"><span data-stu-id="eb12b-105">This section lists the "how-to" videos for Finance and Operations apps that are hosted on the channel.</span></span>
 
 > [!Note]
-> <span data-ttu-id="3a1f2-106">Alguns dos vídeos listados foram publicados sob um nome de produto anterior, mas ainda aplicáveis.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-106">Some of the videos listed were published under a previous product name, but are still applicable.</span></span>
+> <span data-ttu-id="eb12b-106">Alguns dos vídeos listados foram publicados sob um nome de produto anterior, mas ainda aplicáveis.</span><span class="sxs-lookup"><span data-stu-id="eb12b-106">Some of the videos listed were published under a previous product name, but are still applicable.</span></span>
 
-## <a name="videos-for-finance-and-operations-development-and-administration"></a><span data-ttu-id="3a1f2-107">Vídeos para desenvolvimento e administração do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3a1f2-107">Videos for Finance and Operations development and administration</span></span>
+## <a name="videos-for-finance-and-operations-development-and-administration"></a><span data-ttu-id="eb12b-107">Vídeos para desenvolvimento e administração do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="eb12b-107">Videos for Finance and Operations development and administration</span></span>
 
-### <a name="data-integration"></a><span data-ttu-id="3a1f2-108">Integração de dados</span><span class="sxs-lookup"><span data-stu-id="3a1f2-108">Data integration</span></span>
+### <a name="data-integration"></a><span data-ttu-id="eb12b-108">Integração de dados</span><span class="sxs-lookup"><span data-stu-id="eb12b-108">Data integration</span></span>
 
-- [<span data-ttu-id="3a1f2-109">Integração do cliente potencial ao pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="3a1f2-109">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg)
-- [<span data-ttu-id="3a1f2-110">Sincronizar uma ordem de serviço entre aplicativos do Dynamics 365 for Field Service e do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3a1f2-110">Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [<span data-ttu-id="eb12b-109">Integração do cliente potencial ao pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="eb12b-109">Prospect to cash integration</span></span>](https://youtu.be/AVV9x5x-XCg)
+- [<span data-ttu-id="eb12b-110">Sincronizar uma ordem de serviço entre aplicativos do Dynamics 365 for Field Service e do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="eb12b-110">Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
-### <a name="data-management"></a><span data-ttu-id="3a1f2-111">Gerenciamento de dados</span><span class="sxs-lookup"><span data-stu-id="3a1f2-111">Data management</span></span>
+### <a name="data-management"></a><span data-ttu-id="eb12b-111">Gerenciamento de dados</span><span class="sxs-lookup"><span data-stu-id="eb12b-111">Data management</span></span>
 
-- [<span data-ttu-id="3a1f2-112">Usar entidades de dados e pacotes de dados</span><span class="sxs-lookup"><span data-stu-id="3a1f2-112">Use data entities and data packages</span></span>](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
+- [<span data-ttu-id="eb12b-112">Usar entidades de dados e pacotes de dados</span><span class="sxs-lookup"><span data-stu-id="eb12b-112">Use data entities and data packages</span></span>](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-### <a name="development"></a><span data-ttu-id="3a1f2-113">Desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="3a1f2-113">Development</span></span>
+### <a name="development"></a><span data-ttu-id="eb12b-113">Desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="eb12b-113">Development</span></span>
 
-- [<span data-ttu-id="3a1f2-114">Como resolver conflitos no Visual Studio</span><span class="sxs-lookup"><span data-stu-id="3a1f2-114">How to resolve conflicts in Visual Studio</span></span>](https://youtu.be/4rxO0zUN2zU)
-- [<span data-ttu-id="3a1f2-115">Consultor de otimização</span><span class="sxs-lookup"><span data-stu-id="3a1f2-115">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
-- [<span data-ttu-id="3a1f2-116">Configurando uma filial e uma compilação de desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="3a1f2-116">Setting up a development branch and build</span></span>](https://www.youtube.com/watch?v=qXLd-NMx9OY)
-- [<span data-ttu-id="3a1f2-117">Configurando uma máquina de desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="3a1f2-117">Setting up a development machine</span></span>](https://www.youtube.com/watch?v=cqp9MetfiyM)
-- [<span data-ttu-id="3a1f2-118">Integração do Azure DevOps ao Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-118">Azure DevOps integration with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
+- [<span data-ttu-id="eb12b-114">Como resolver conflitos no Visual Studio</span><span class="sxs-lookup"><span data-stu-id="eb12b-114">How to resolve conflicts in Visual Studio</span></span>](https://youtu.be/4rxO0zUN2zU)
+- [<span data-ttu-id="eb12b-115">Consultor de otimização</span><span class="sxs-lookup"><span data-stu-id="eb12b-115">Optimization advisor</span></span>](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+- [<span data-ttu-id="eb12b-116">Configurando uma filial e uma compilação de desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="eb12b-116">Setting up a development branch and build</span></span>](https://www.youtube.com/watch?v=qXLd-NMx9OY)
+- [<span data-ttu-id="eb12b-117">Configurando uma máquina de desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="eb12b-117">Setting up a development machine</span></span>](https://www.youtube.com/watch?v=cqp9MetfiyM)
+- [<span data-ttu-id="eb12b-118">Integração do Azure DevOps ao Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-118">Azure DevOps integration with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=0QyyyUp1zHQ&t=1s)
 
-### <a name="intelligence"></a><span data-ttu-id="3a1f2-119">Inteligência</span><span class="sxs-lookup"><span data-stu-id="3a1f2-119">Intelligence</span></span>
+### <a name="intelligence"></a><span data-ttu-id="eb12b-119">Inteligência</span><span class="sxs-lookup"><span data-stu-id="eb12b-119">Intelligence</span></span>
 
-- [<span data-ttu-id="3a1f2-120">Como editar um relatório inserido em um espaço de trabalho analítico</span><span class="sxs-lookup"><span data-stu-id="3a1f2-120">How to edit an embedded report in an analytical workspace</span></span>](https://youtu.be/_8WlwmSggcQ)
-- [<span data-ttu-id="3a1f2-121">Como inserir relatórios do PowerBI.com nos aplicativos do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3a1f2-121">How to embed PowerBI.com reports in Finance and Operations apps</span></span>](https://youtu.be/gGWuNJDoi-M)
-- [<span data-ttu-id="3a1f2-122">Traga sua própria base de dados (BYOD) para os aplicativos do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="3a1f2-122">Bring your own database (BYOD) to Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
-- [<span data-ttu-id="3a1f2-123">Como usar o conteúdo do Power BI de gerenciamento de custo no Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3a1f2-123">How to use cost management Power BI content in Dynamics 365</span></span>](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
+- [<span data-ttu-id="eb12b-120">Como editar um relatório inserido em um espaço de trabalho analítico</span><span class="sxs-lookup"><span data-stu-id="eb12b-120">How to edit an embedded report in an analytical workspace</span></span>](https://youtu.be/_8WlwmSggcQ)
+- [<span data-ttu-id="eb12b-121">Como inserir relatórios do PowerBI.com nos aplicativos do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="eb12b-121">How to embed PowerBI.com reports in Finance and Operations apps</span></span>](https://youtu.be/gGWuNJDoi-M)
+- [<span data-ttu-id="eb12b-122">Traga sua própria base de dados (BYOD) para os aplicativos do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="eb12b-122">Bring your own database (BYOD) to Finance and Operations apps</span></span>](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [<span data-ttu-id="eb12b-123">Como usar o conteúdo do Power BI de gerenciamento de custo no Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="eb12b-123">How to use cost management Power BI content in Dynamics 365</span></span>](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
-### <a name="lifecycle-services-lcs"></a><span data-ttu-id="3a1f2-124">LCS (Lifecycle Services)</span><span class="sxs-lookup"><span data-stu-id="3a1f2-124">Lifecycle Services (LCS)</span></span>
+### <a name="lifecycle-services-lcs"></a><span data-ttu-id="eb12b-124">LCS (Lifecycle Services)</span><span class="sxs-lookup"><span data-stu-id="eb12b-124">Lifecycle Services (LCS)</span></span>
 
-- [<span data-ttu-id="3a1f2-125">Biblioteca de ativos no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-125">Asset library in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=z-2xMRa1nOs)
-- [<span data-ttu-id="3a1f2-126">Ambientes hospedados na nuvem</span><span class="sxs-lookup"><span data-stu-id="3a1f2-126">Cloud-hosted environments</span></span>](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
-- [<span data-ttu-id="3a1f2-127">Criando tíquetes de suporte do Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="3a1f2-127">Creating support tickets from Dynamics 365 for Operations</span></span>](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
-- [<span data-ttu-id="3a1f2-128">Implantação de ambientes</span><span class="sxs-lookup"><span data-stu-id="3a1f2-128">Deploying environments</span></span>](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
-- [<span data-ttu-id="3a1f2-129">Começar a usar o Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-129">Getting started with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
-- [<span data-ttu-id="3a1f2-130">Implantar código em um ambiente de área restrita</span><span class="sxs-lookup"><span data-stu-id="3a1f2-130">Deploying code to a sandbox environment</span></span>](https://www.youtube.com/watch?v=5azLeOO078k)
-- [<span data-ttu-id="3a1f2-131">Implantar código em um ambiente de produção</span><span class="sxs-lookup"><span data-stu-id="3a1f2-131">Deploying code to a production environment</span></span>](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
-- [<span data-ttu-id="3a1f2-132">Projetos de implementação no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-132">Implementation projects in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
-- [<span data-ttu-id="3a1f2-133">Gerenciar a atualização de código e o processamento de ferramentas</span><span class="sxs-lookup"><span data-stu-id="3a1f2-133">Manage the code upgrade and tool process</span></span>](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
-- [<span data-ttu-id="3a1f2-134">Gerenciando bibliotecas do processo comercial no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-134">Managing business process libraries in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=S5msxj-2-x0)
-- [<span data-ttu-id="3a1f2-135">Metodologias no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-135">Methodologies in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
-- [<span data-ttu-id="3a1f2-136">Solicitar um ambiente de produção</span><span class="sxs-lookup"><span data-stu-id="3a1f2-136">Request a production environment</span></span>](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
-- [<span data-ttu-id="3a1f2-137">Atualizando dados em um ambiente de produção</span><span class="sxs-lookup"><span data-stu-id="3a1f2-137">Refreshing data in a production environment</span></span>](https://www.youtube.com/watch?v=VCd5SgkYPTw)
-- [<span data-ttu-id="3a1f2-138">Implantar uma nova versão da plataforma depois da atualização de plataforma 3</span><span class="sxs-lookup"><span data-stu-id="3a1f2-138">Uptake a new platform release after Platform update 3</span></span>](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
-- [<span data-ttu-id="3a1f2-139">Use a telemetria para monitorar os contadores de desempenho chave no Dynamics Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="3a1f2-139">Use telemetry to monitor key performance counters in Dynamics Lifecycle Services</span></span>](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
+- [<span data-ttu-id="eb12b-125">Biblioteca de ativos no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-125">Asset library in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=z-2xMRa1nOs)
+- [<span data-ttu-id="eb12b-126">Ambientes hospedados na nuvem</span><span class="sxs-lookup"><span data-stu-id="eb12b-126">Cloud-hosted environments</span></span>](https://www.youtube.com/watch?v=igjVt1lbyLQ&t=17s)
+- [<span data-ttu-id="eb12b-127">Criando tíquetes de suporte do Dynamics 365 for Operations</span><span class="sxs-lookup"><span data-stu-id="eb12b-127">Creating support tickets from Dynamics 365 for Operations</span></span>](https://www.youtube.com/watch?v=avENUYBTBlA&t=2s)
+- [<span data-ttu-id="eb12b-128">Implantação de ambientes</span><span class="sxs-lookup"><span data-stu-id="eb12b-128">Deploying environments</span></span>](https://www.youtube.com/watch?v=FUROjGuhQEA&t=68s)
+- [<span data-ttu-id="eb12b-129">Começar a usar o Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-129">Getting started with Lifecycle Services</span></span>](https://www.youtube.com/watch?v=qLBjKAPaqN4&t=24s)
+- [<span data-ttu-id="eb12b-130">Implantar código em um ambiente de área restrita</span><span class="sxs-lookup"><span data-stu-id="eb12b-130">Deploying code to a sandbox environment</span></span>](https://www.youtube.com/watch?v=5azLeOO078k)
+- [<span data-ttu-id="eb12b-131">Implantar código em um ambiente de produção</span><span class="sxs-lookup"><span data-stu-id="eb12b-131">Deploying code to a production environment</span></span>](https://www.youtube.com/watch?v=ogXo-saZkmE&t=2s)
+- [<span data-ttu-id="eb12b-132">Projetos de implementação no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-132">Implementation projects in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=V1vVOgcTuw4&t=18s)
+- [<span data-ttu-id="eb12b-133">Gerenciar a atualização de código e o processamento de ferramentas</span><span class="sxs-lookup"><span data-stu-id="eb12b-133">Manage the code upgrade and tool process</span></span>](https://www.youtube.com/watch?v=M-AtR6ocYM8&feature=youtu.be)
+- [<span data-ttu-id="eb12b-134">Gerenciando bibliotecas do processo comercial no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-134">Managing business process libraries in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=S5msxj-2-x0)
+- [<span data-ttu-id="eb12b-135">Metodologias no Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-135">Methodologies in Lifecycle Services</span></span>](https://www.youtube.com/watch?v=YRMJ15DvgZ8)
+- [<span data-ttu-id="eb12b-136">Solicitar um ambiente de produção</span><span class="sxs-lookup"><span data-stu-id="eb12b-136">Request a production environment</span></span>](https://www.youtube.com/watch?v=5j1GapLr3MY&feature=youtu.be)
+- [<span data-ttu-id="eb12b-137">Atualizando dados em um ambiente de produção</span><span class="sxs-lookup"><span data-stu-id="eb12b-137">Refreshing data in a production environment</span></span>](https://www.youtube.com/watch?v=VCd5SgkYPTw)
+- [<span data-ttu-id="eb12b-138">Implantar uma nova versão da plataforma depois da atualização de plataforma 3</span><span class="sxs-lookup"><span data-stu-id="eb12b-138">Uptake a new platform release after Platform update 3</span></span>](https://www.youtube.com/watch?v=nkiKP2Au6OQ&feature=youtu.be)
+- [<span data-ttu-id="eb12b-139">Use a telemetria para monitorar os contadores de desempenho chave no Dynamics Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="eb12b-139">Use telemetry to monitor key performance counters in Dynamics Lifecycle Services</span></span>](https://www.youtube.com/watch?v=18u6SC8GeFY&feature=youtu.be)
 
-### <a name="regression-suite-automation-tool-rsat"></a><span data-ttu-id="3a1f2-140">Regression Suite Automation Tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="3a1f2-140">Regression suite automation tool (RSAT)</span></span>
+### <a name="regression-suite-automation-tool-rsat"></a><span data-ttu-id="eb12b-140">Regression Suite Automation Tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="eb12b-140">Regression suite automation tool (RSAT)</span></span>
 
-- [<span data-ttu-id="3a1f2-141">Como usar o gravador de tarefas para criar um caso de teste da Regression suite automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="3a1f2-141">How to use task recorder to create a test case for the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/bBr4BXAxTNI)
-- [<span data-ttu-id="3a1f2-142">Como criar um plano de teste no Azure DevOps para usar com a Regression suite automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="3a1f2-142">How to create a test plan in Azure DevOps to use with the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/3jIuBleAnQk) 
-- [<span data-ttu-id="3a1f2-143">Como usar a a Regression Suite Automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="3a1f2-143">How to use the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/uhN9JItzGAk)
-- [<span data-ttu-id="3a1f2-144">A experiência aperfeiçoada do Excel no Regression Suite Automation Tool (RSAT) 2,0</span><span class="sxs-lookup"><span data-stu-id="3a1f2-144">The improved Excel experience in Regression Suite Automation Tool (RSAT) 2.0</span></span>](https://youtu.be/fcEkSIVQ1Bg)
-
-
-## <a name="videos-for-dynamics-365-finance"></a><span data-ttu-id="3a1f2-145">Vídeos do Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="3a1f2-145">Videos for Dynamics 365 Finance</span></span>
-
-### <a name="customize-the-app"></a><span data-ttu-id="3a1f2-146">Personalizar o aplicativo</span><span class="sxs-lookup"><span data-stu-id="3a1f2-146">Customize the app</span></span>
-- [<span data-ttu-id="3a1f2-147">Adicionar campos personalizados</span><span class="sxs-lookup"><span data-stu-id="3a1f2-147">Add custom fields</span></span>](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
-- [<span data-ttu-id="3a1f2-148">Inserir o Power Apps</span><span class="sxs-lookup"><span data-stu-id="3a1f2-148">Embed Power Apps</span></span>](https://www.youtube.com/watch?v=x3qyA1bH-NY)
-
-### <a name="financial-reporting"></a><span data-ttu-id="3a1f2-149">Relatórios financeiros</span><span class="sxs-lookup"><span data-stu-id="3a1f2-149">Financial reporting</span></span>
-- [<span data-ttu-id="3a1f2-150">Localizar a versão do designer de relatórios</span><span class="sxs-lookup"><span data-stu-id="3a1f2-150">Find the version of Report designer</span></span>](https://www.youtube.com/embed/icfA5Q3kp4w)
-
-### <a name="help-system"></a><span data-ttu-id="3a1f2-151">Sistema de ajuda</span><span class="sxs-lookup"><span data-stu-id="3a1f2-151">Help system</span></span>
-
-- [<span data-ttu-id="3a1f2-152">Como colaborar com a documentação do Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3a1f2-152">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
-
-### <a name="office-integration"></a><span data-ttu-id="3a1f2-153">Integração do Office</span><span class="sxs-lookup"><span data-stu-id="3a1f2-153">Office integration</span></span>
-
-- [<span data-ttu-id="3a1f2-154">Criar um modelo do Excel para padrões de cabeçalho e linha</span><span class="sxs-lookup"><span data-stu-id="3a1f2-154">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
-
-### <a name="organization-administration"></a><span data-ttu-id="3a1f2-155">Administração da organização</span><span class="sxs-lookup"><span data-stu-id="3a1f2-155">Organization administration</span></span>
-
-- [<span data-ttu-id="3a1f2-156">Gerenciamento de documentos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-156">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
-
-### <a name="revenue-recognition"></a><span data-ttu-id="3a1f2-157">Reconhecimento de receita</span><span class="sxs-lookup"><span data-stu-id="3a1f2-157">Revenue recognition</span></span>
-- [<span data-ttu-id="3a1f2-158">Como usar o reconhecimento de receita</span><span class="sxs-lookup"><span data-stu-id="3a1f2-158">How to use revenue recognition</span></span>](https://youtu.be/v3amIsiqvoo)
-
-### <a name="tax-engine"></a><span data-ttu-id="3a1f2-159">Mecanismo de cálculo de impostos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-159">Tax engine</span></span>
-
-- [<span data-ttu-id="3a1f2-160">Visão geral do mecanismo de cálculo de impostos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-160">Tax engine overview</span></span>](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
+- [<span data-ttu-id="eb12b-141">Como usar o gravador de tarefas para criar um caso de teste da Regression suite automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="eb12b-141">How to use task recorder to create a test case for the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/bBr4BXAxTNI)
+- [<span data-ttu-id="eb12b-142">Como criar um plano de teste no Azure DevOps para usar com a Regression suite automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="eb12b-142">How to create a test plan in Azure DevOps to use with the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/3jIuBleAnQk) 
+- [<span data-ttu-id="eb12b-143">Como usar a a Regression Suite Automation tool (RSAT)</span><span class="sxs-lookup"><span data-stu-id="eb12b-143">How to use the Regression suite automation tool (RSAT)</span></span>](https://youtu.be/uhN9JItzGAk)
+- [<span data-ttu-id="eb12b-144">A experiência aperfeiçoada do Excel no Regression Suite Automation Tool (RSAT) 2,0</span><span class="sxs-lookup"><span data-stu-id="eb12b-144">The improved Excel experience in Regression Suite Automation Tool (RSAT) 2.0</span></span>](https://youtu.be/fcEkSIVQ1Bg)
 
 
-## <a name="videos-for-dynamics-365-supply-chain-management"></a><span data-ttu-id="3a1f2-161">Vídeos do Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="3a1f2-161">Videos for Dynamics 365 Supply Chain Management</span></span>
+## <a name="videos-for-dynamics-365-finance"></a><span data-ttu-id="eb12b-145">Vídeos do Dynamics 365 Finance</span><span class="sxs-lookup"><span data-stu-id="eb12b-145">Videos for Dynamics 365 Finance</span></span>
 
-### <a name="costs"></a><span data-ttu-id="3a1f2-162">Custos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-162">Costs</span></span>
-- [<span data-ttu-id="3a1f2-163">Espaço de trabalho móvel de controle de custos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-163">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
-- [<span data-ttu-id="3a1f2-164">Introdução à Contabilidade de custos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-164">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
-- [<span data-ttu-id="3a1f2-165">Usar o Excel para análise de custos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-165">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
+### <a name="customize-the-app"></a><span data-ttu-id="eb12b-146">Personalizar o aplicativo</span><span class="sxs-lookup"><span data-stu-id="eb12b-146">Customize the app</span></span>
+- [<span data-ttu-id="eb12b-147">Adicionar campos personalizados</span><span class="sxs-lookup"><span data-stu-id="eb12b-147">Add custom fields</span></span>](https://www.youtube.com/watch?v=gWSGZI9Vtnc)
+- [<span data-ttu-id="eb12b-148">Inserir o Power Apps</span><span class="sxs-lookup"><span data-stu-id="eb12b-148">Embed Power Apps</span></span>](https://www.youtube.com/watch?v=x3qyA1bH-NY)
 
-### <a name="customer-portal"></a><span data-ttu-id="3a1f2-166">Portal do cliente</span><span class="sxs-lookup"><span data-stu-id="3a1f2-166">Customer portal</span></span>
-- [<span data-ttu-id="3a1f2-167">Visão geral do modelo de portal do Cliente</span><span class="sxs-lookup"><span data-stu-id="3a1f2-167">Overview of the Customer portal template</span></span>](https://youtu.be/nPrqoLuHfV8)
-- [<span data-ttu-id="3a1f2-168">Convidar clientes para se registrar e usar o portal de cliente</span><span class="sxs-lookup"><span data-stu-id="3a1f2-168">Invite customers to register and use your customer portal</span></span>](https://youtu.be/drGUYHX9QIQ)
+### <a name="financial-reporting"></a><span data-ttu-id="eb12b-149">Relatórios financeiros</span><span class="sxs-lookup"><span data-stu-id="eb12b-149">Financial reporting</span></span>
+- [<span data-ttu-id="eb12b-150">Localizar a versão do designer de relatórios</span><span class="sxs-lookup"><span data-stu-id="eb12b-150">Find the version of Report designer</span></span>](https://www.youtube.com/embed/icfA5Q3kp4w)
 
-### <a name="help-system"></a><span data-ttu-id="3a1f2-169">Sistema de ajuda</span><span class="sxs-lookup"><span data-stu-id="3a1f2-169">Help system</span></span>
+### <a name="help-system"></a><span data-ttu-id="eb12b-151">Sistema de ajuda</span><span class="sxs-lookup"><span data-stu-id="eb12b-151">Help system</span></span>
 
-- [<span data-ttu-id="3a1f2-170">Como colaborar com a documentação do Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="3a1f2-170">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
+- [<span data-ttu-id="eb12b-152">Como colaborar com a documentação do Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="eb12b-152">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
 
-### <a name="master-planning"></a><span data-ttu-id="3a1f2-171">Planejamento Mestre</span><span class="sxs-lookup"><span data-stu-id="3a1f2-171">Master planning</span></span>
-- [<span data-ttu-id="3a1f2-172">Assistente de configuração do planejamento mestre</span><span class="sxs-lookup"><span data-stu-id="3a1f2-172">Master planning setup wizard</span></span>](https://youtu.be/c-e6n-8rZb4)
+### <a name="office-integration"></a><span data-ttu-id="eb12b-153">Integração do Office</span><span class="sxs-lookup"><span data-stu-id="eb12b-153">Office integration</span></span>
 
-### <a name="office-integration"></a><span data-ttu-id="3a1f2-173">Integração do Office</span><span class="sxs-lookup"><span data-stu-id="3a1f2-173">Office integration</span></span>
+- [<span data-ttu-id="eb12b-154">Criar um modelo do Excel para padrões de cabeçalho e linha</span><span class="sxs-lookup"><span data-stu-id="eb12b-154">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
 
-- [<span data-ttu-id="3a1f2-174">Criar um modelo do Excel para padrões de cabeçalho e linha</span><span class="sxs-lookup"><span data-stu-id="3a1f2-174">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+### <a name="organization-administration"></a><span data-ttu-id="eb12b-155">Administração da organização</span><span class="sxs-lookup"><span data-stu-id="eb12b-155">Organization administration</span></span>
 
-### <a name="organization-administration"></a><span data-ttu-id="3a1f2-175">Administração da organização</span><span class="sxs-lookup"><span data-stu-id="3a1f2-175">Organization administration</span></span>
+- [<span data-ttu-id="eb12b-156">Gerenciamento de documentos</span><span class="sxs-lookup"><span data-stu-id="eb12b-156">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
 
-- [<span data-ttu-id="3a1f2-176">Gerenciamento de documentos</span><span class="sxs-lookup"><span data-stu-id="3a1f2-176">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+### <a name="revenue-recognition"></a><span data-ttu-id="eb12b-157">Reconhecimento de receita</span><span class="sxs-lookup"><span data-stu-id="eb12b-157">Revenue recognition</span></span>
+- [<span data-ttu-id="eb12b-158">Como usar o reconhecimento de receita</span><span class="sxs-lookup"><span data-stu-id="eb12b-158">How to use revenue recognition</span></span>](https://youtu.be/v3amIsiqvoo)
 
-### <a name="procurement-and-sourcing"></a><span data-ttu-id="3a1f2-177">Compras e fornecimento</span><span class="sxs-lookup"><span data-stu-id="3a1f2-177">Procurement and sourcing</span></span>
+### <a name="tax-engine"></a><span data-ttu-id="eb12b-159">Mecanismo de cálculo de impostos</span><span class="sxs-lookup"><span data-stu-id="eb12b-159">Tax engine</span></span>
 
-- [<span data-ttu-id="3a1f2-178">Aprovar ordens de compra em um dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="3a1f2-178">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
-- [<span data-ttu-id="3a1f2-179">Onboard de um novo fornecedor</span><span class="sxs-lookup"><span data-stu-id="3a1f2-179">Onboard a new vendor</span></span>](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
-
-### <a name="product-information-management"></a><span data-ttu-id="3a1f2-180">Gerenciamento de informações do produto</span><span class="sxs-lookup"><span data-stu-id="3a1f2-180">Product information management</span></span>
-- [<span data-ttu-id="3a1f2-181">Alterar recursos de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="3a1f2-181">Change management capabilities</span></span>](https://youtu.be/N313FqvRuBc)
-
-### <a name="production-control"></a><span data-ttu-id="3a1f2-182">Controle de produção</span><span class="sxs-lookup"><span data-stu-id="3a1f2-182">Production control</span></span>
-
-- [<span data-ttu-id="3a1f2-183">Balanceamento de lote</span><span class="sxs-lookup"><span data-stu-id="3a1f2-183">Batch balancing</span></span>](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
-- [<span data-ttu-id="3a1f2-184">Aprimoramentos de liberação para o processo de ordem de produção</span><span class="sxs-lookup"><span data-stu-id="3a1f2-184">Enhancements to the production order release process</span></span>](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
-- [<span data-ttu-id="3a1f2-185">Agendamento visual com gráfico de Gantt para ordens de produção e de lote</span><span class="sxs-lookup"><span data-stu-id="3a1f2-185">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+- [<span data-ttu-id="eb12b-160">Visão geral do mecanismo de cálculo de impostos</span><span class="sxs-lookup"><span data-stu-id="eb12b-160">Tax engine overview</span></span>](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 
-### <a name="warehouse-management"></a><span data-ttu-id="3a1f2-186">Gerenciamento de depósito</span><span class="sxs-lookup"><span data-stu-id="3a1f2-186">Warehouse management</span></span>
+## <a name="videos-for-dynamics-365-supply-chain-management"></a><span data-ttu-id="eb12b-161">Vídeos do Dynamics 365 Supply Chain Management</span><span class="sxs-lookup"><span data-stu-id="eb12b-161">Videos for Dynamics 365 Supply Chain Management</span></span>
 
-- [<span data-ttu-id="3a1f2-187">Liberar escolha de produção para o depósito em lote</span><span class="sxs-lookup"><span data-stu-id="3a1f2-187">Release production picking to the warehouse in batch</span></span>](https://youtu.be/8urAJn50dQ8)
-- [<span data-ttu-id="3a1f2-188">Usar modelo do depósito para copiar a configuração</span><span class="sxs-lookup"><span data-stu-id="3a1f2-188">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+### <a name="costs"></a><span data-ttu-id="eb12b-162">Custos</span><span class="sxs-lookup"><span data-stu-id="eb12b-162">Costs</span></span>
+- [<span data-ttu-id="eb12b-163">Espaço de trabalho móvel de controle de custos</span><span class="sxs-lookup"><span data-stu-id="eb12b-163">Cost control mobile workspace</span></span>](https://youtu.be/imsuTg8rUVk)
+- [<span data-ttu-id="eb12b-164">Introdução à Contabilidade de custos</span><span class="sxs-lookup"><span data-stu-id="eb12b-164">Get started with Cost accounting</span></span>](https://youtu.be/1pUDtJQZ8FU)
+- [<span data-ttu-id="eb12b-165">Usar o Excel para análise de custos</span><span class="sxs-lookup"><span data-stu-id="eb12b-165">Use Excel for cost analysis</span></span>](https://youtu.be/-HKHYdClvx8)
 
-## <a name="fasttrack-tech-talks"></a><span data-ttu-id="3a1f2-189">Conversas tecnológicas do FastTrack</span><span class="sxs-lookup"><span data-stu-id="3a1f2-189">FastTrack Tech Talks</span></span>
+### <a name="customer-portal"></a><span data-ttu-id="eb12b-166">Portal do cliente</span><span class="sxs-lookup"><span data-stu-id="eb12b-166">Customer portal</span></span>
+- [<span data-ttu-id="eb12b-167">Visão geral do modelo de portal do Cliente</span><span class="sxs-lookup"><span data-stu-id="eb12b-167">Overview of the Customer portal template</span></span>](https://youtu.be/nPrqoLuHfV8)
+- [<span data-ttu-id="eb12b-168">Convidar clientes para se registrar e usar o portal de cliente</span><span class="sxs-lookup"><span data-stu-id="eb12b-168">Invite customers to register and use your customer portal</span></span>](https://youtu.be/drGUYHX9QIQ)
 
-<span data-ttu-id="3a1f2-190">[FastTrack para conversas sobre tecnologia](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focam em fornecer melhores práticas e tecnologia avançada, que fornece aos clientes e parceiros conhecimento detalhado específico das áreas citadas.</span><span class="sxs-lookup"><span data-stu-id="3a1f2-190">[FastTrack Tech Talks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</span></span>
+### <a name="help-system"></a><span data-ttu-id="eb12b-169">Sistema de ajuda</span><span class="sxs-lookup"><span data-stu-id="eb12b-169">Help system</span></span>
+
+- [<span data-ttu-id="eb12b-170">Como colaborar com a documentação do Microsoft Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="eb12b-170">How to contribute to the Microsoft Dynamics 365 documentation</span></span>](https://youtu.be/m5djioozRbg)
+
+### <a name="master-planning"></a><span data-ttu-id="eb12b-171">Planejamento Mestre</span><span class="sxs-lookup"><span data-stu-id="eb12b-171">Master planning</span></span>
+- [<span data-ttu-id="eb12b-172">Assistente de configuração do planejamento mestre</span><span class="sxs-lookup"><span data-stu-id="eb12b-172">Master planning setup wizard</span></span>](https://youtu.be/c-e6n-8rZb4)
+
+### <a name="office-integration"></a><span data-ttu-id="eb12b-173">Integração do Office</span><span class="sxs-lookup"><span data-stu-id="eb12b-173">Office integration</span></span>
+
+- [<span data-ttu-id="eb12b-174">Criar um modelo do Excel para padrões de cabeçalho e linha</span><span class="sxs-lookup"><span data-stu-id="eb12b-174">Create an Excel template for header and line patterns</span></span>](https://www.youtube.com/watch?v=RTicLb-6dbI&feature=youtu.be)
+
+### <a name="organization-administration"></a><span data-ttu-id="eb12b-175">Administração da organização</span><span class="sxs-lookup"><span data-stu-id="eb12b-175">Organization administration</span></span>
+
+- [<span data-ttu-id="eb12b-176">Gerenciamento de documentos</span><span class="sxs-lookup"><span data-stu-id="eb12b-176">Document management</span></span>](https://www.youtube.com/watch?v=p4rl1CkiLN4&feature=youtu.be)
+
+### <a name="procurement-and-sourcing"></a><span data-ttu-id="eb12b-177">Compras e fornecimento</span><span class="sxs-lookup"><span data-stu-id="eb12b-177">Procurement and sourcing</span></span>
+
+- [<span data-ttu-id="eb12b-178">Aprovar ordens de compra em um dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="eb12b-178">Approve purchase orders on a mobile device</span></span>](https://youtu.be/gZ-gOlJe7H8)
+- [<span data-ttu-id="eb12b-179">Onboard de um novo fornecedor</span><span class="sxs-lookup"><span data-stu-id="eb12b-179">Onboard a new vendor</span></span>](https://www.youtube.com/watch?v=0KUc3AGaTKk&feature=youtu.be)
+
+### <a name="product-information-management"></a><span data-ttu-id="eb12b-180">Gerenciamento de informações do produto</span><span class="sxs-lookup"><span data-stu-id="eb12b-180">Product information management</span></span>
+- [<span data-ttu-id="eb12b-181">Alterar recursos de gerenciamento</span><span class="sxs-lookup"><span data-stu-id="eb12b-181">Change management capabilities</span></span>](https://youtu.be/N313FqvRuBc)
+
+### <a name="production-control"></a><span data-ttu-id="eb12b-182">Controle de produção</span><span class="sxs-lookup"><span data-stu-id="eb12b-182">Production control</span></span>
+
+- [<span data-ttu-id="eb12b-183">Balanceamento de lote</span><span class="sxs-lookup"><span data-stu-id="eb12b-183">Batch balancing</span></span>](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
+- [<span data-ttu-id="eb12b-184">Aprimoramentos de liberação para o processo de ordem de produção</span><span class="sxs-lookup"><span data-stu-id="eb12b-184">Enhancements to the production order release process</span></span>](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
+- [<span data-ttu-id="eb12b-185">Agendamento visual com gráfico de Gantt para ordens de produção e de lote</span><span class="sxs-lookup"><span data-stu-id="eb12b-185">Visual scheduling with Gantt chart for production and batch orders</span></span>](https://youtu.be/BtbuShkGj4I)
+
+
+### <a name="warehouse-management"></a><span data-ttu-id="eb12b-186">Gerenciamento de depósito</span><span class="sxs-lookup"><span data-stu-id="eb12b-186">Warehouse management</span></span>
+
+- [<span data-ttu-id="eb12b-187">Liberar escolha de produção para o depósito em lote</span><span class="sxs-lookup"><span data-stu-id="eb12b-187">Release production picking to the warehouse in batch</span></span>](https://youtu.be/8urAJn50dQ8)
+- [<span data-ttu-id="eb12b-188">Usar modelo do depósito para copiar a configuração</span><span class="sxs-lookup"><span data-stu-id="eb12b-188">Use warehouse template to copy configuration</span></span>](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
+
+## <a name="fasttrack-tech-talks"></a><span data-ttu-id="eb12b-189">Conversas tecnológicas do FastTrack</span><span class="sxs-lookup"><span data-stu-id="eb12b-189">FastTrack Tech Talks</span></span>
+
+<span data-ttu-id="eb12b-190">[FastTrack para conversas sobre tecnologia](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focam em fornecer melhores práticas e tecnologia avançada, que fornece aos clientes e parceiros conhecimento detalhado específico das áreas citadas.</span><span class="sxs-lookup"><span data-stu-id="eb12b-190">[FastTrack Tech Talks](https://community.dynamics.com/365/b/techtalks?c=Finance%20and%20Operations) focus on providing technical depth and best practices that provide customers and partners with detailed knowledge that's specific to the subject areas.</span></span>
 
 
 
