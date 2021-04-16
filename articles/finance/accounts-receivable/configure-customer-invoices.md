@@ -2,11 +2,9 @@
 title: Criar uma fatura de cliente
 description: Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente.
 author: ShivamPandey-msft
-manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ff988fff23611805c2849a63c2aaba74fc255d4c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c033684e56f97a5da80a1934ee1299229f58cfba
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5217569"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5830607"
 ---
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 

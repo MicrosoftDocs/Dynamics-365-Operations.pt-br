@@ -2,11 +2,9 @@
 title: Criar uma regra kanban usando um evento de linha de kanban
 description: Este procedimento cria uma regra kanban usando a linha kanban de evento que ajusta-se para provocar a tração de uma atividade do processo.
 author: ChristianRytt
-manager: tfehr
 ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, SalesTableListPage, SalesCreateOrder, SalesTable
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dc838a64e74b561dd17fd2b568fa8c190a1dfcfe
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fe92336c3f80909e5b0865b461e45d55bf08c4b4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5255196"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5829129"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Criar uma regra kanban usando um evento de linha de kanban
 

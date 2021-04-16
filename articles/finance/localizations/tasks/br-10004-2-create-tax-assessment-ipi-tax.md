@@ -2,11 +2,9 @@
 title: Criar uma apuração de imposto - imposto IPI (Brasil)
 description: Você pode criar uma avaliação de imposto para o IPI de um período de escrituração específico.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d907d85c1c58697c73c7f77028c9e5a3b62798f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: c1bcf295cc85c6b289cd2781019191f1039b97d4
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5265434"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5832492"
 ---
 # <a name="create-a-tax-assessment---ipi-tax-brazil"></a>Criar uma apuração de imposto - imposto IPI (Brasil)
 

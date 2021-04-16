@@ -2,11 +2,9 @@
 title: Processar remessas de pagamento eletrônico
 description: Você pode criar instruções para o pagamento eletrônico de faturas do fornecedor que devem ser enviadas ao banco.
 author: v-gonode
-manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,12 +12,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 01ba233659e3b2eeac729be5420e8746fd982f3c
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 54ad21b3c95c303db514618ee71cbea70efa57da
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5212140"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5822815"
 ---
 # <a name="process-electronic-payment-remittances"></a>Processar remessas de pagamento eletrônico
 

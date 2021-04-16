@@ -2,11 +2,9 @@
 title: Importar taxas de câmbio de moeda
 description: Este tópico fornece informações sobre os requisitos para importar taxas de referência de câmbio estrangeiras que são publicadas por provedores de taxa de câmbio.
 author: EvgenyPopovMBS
-manager: AnnBe
 ms.date: 03/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 37f3897f9f2a0db0bb7ccb6851fba36814ab0c7b
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: 20b8496bc3074eae6535eea4cfe0b254f2773e6a
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5249110"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5823731"
 ---
 # <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 
@@ -35,9 +33,8 @@ As seções a seguir descrevem o fluxo de informações usadas para configurar e
 ## <a name="configure-an-exchange-rate-provider"></a>Configurar um provedor de taxa de câmbio
 Antes de importar taxas de câmbio, você deve configurar as informações necessárias para configurar os provedores que fornecem as taxas de câmbio. Use a página **Configurar provedores de taxa de câmbio** para selecionar os provedores de taxa de câmbio. Alguns provedores de taxa de câmbio são incluídos com dados de demonstração no Dynamics 365 Finance. A tabela a seguir fornece descrições dos controles desta página.
 
-|           |                                                                                                                                                                                                                             |
-|-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo** | **Descrição**                                                                                                                                                                                                             |
+| Campo | descrição                   |
+|-----------|-----------------------------------|
 | **Nome**  | O nome do provedor de taxa de câmbio.                                                                                                                                                                                     |
 | **Chave**   | O identificador exclusivo das informações de configuração necessárias ao provedor. Essas informações são adicionadas automaticamente a cada fornecedor da taxa de câmbio que você adiciona. |
 | **Value** | As informações sobre cada chave. Essas informações são adicionadas a cada fornecedor da taxa de câmbio que você adiciona.                                                                                         |
@@ -45,9 +42,8 @@ Antes de importar taxas de câmbio, você deve configurar as informações neces
 ## <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 Você pode importar taxas de câmbio da origem de provedores da taxa de câmbio e adicioná-las à página **Taxas de câmbio de moedas**. Use a página **Importar taxas de câmbio de moeda** para importar as taxas de câmbio. A tabela a seguir fornece descrições de campos necessários para concluir com êxito o processo de importação.
 
-|                                        |                                                                                                                                                                                                                                                                                                                                                                             |
-|----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Campo**                              | **Descrição**                                                                                                                                                                                                                                                                                                                                                             |
+| Campo | descrição                   |
+|-----------|-----------------------------------|
 | **Tipo de taxa de câmbio**                 | Um tipo de taxa de câmbio.                                                                                                                                                                                                                                                                                                                                                      |
 | **Provedor de taxa de câmbio**             | Um do provedor de taxa de câmbio.                                                                                                                                                                                                                                                                                                                                                  |
 | **Importar a partir de**                       | Este parâmetro gerencia se a importação deve ser feita na data de hoje ou em um intervalo específico de datas. Se quiser usar um intervalo de datas, insira ou selecione as datas inicial e final.                                                                                                                                                                                                                |

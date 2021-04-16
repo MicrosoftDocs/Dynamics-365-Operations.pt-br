@@ -2,11 +2,9 @@
 title: Entradas balanceadas para a contabilidade interunidade
 description: Este artigo mostra como um diário é automaticamente balanceado quando uma dimensão financeira de balanceamento estiver marcada na página do razão.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8c5f73606708b8c32a7a8ebc364af6ba57c4c343
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: a5a926adcc631ec286f37796713466eb0144494c
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5205514"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5818383"
 ---
 # <a name="balanced-journals-for-interunit-accounting"></a>Entradas balanceadas para a contabilidade interunidade
 
@@ -32,7 +30,7 @@ Este artigo mostra como um diário é automaticamente balanceado quando uma dime
 
 Se as entradas de conta não estiverem equilibradas no nível dos valores de dimensão financeira, entradas adicionais de conta serão criadas automaticamente para equilibrar a entrada. Essas entradas de conta usam os tipos de contabilidade **Interunidade - débito** e **Interunidade - crédito** na página **Contas para transações automáticas** para determinar a conta principal. Por exemplo, a unidade de negócios, que é o segundo segmento da conta contábil, é selecionada como a dimensão financeira de balanço, e as entradas contábeis a seguir estão prestes a serem criadas.
 
-|                      |           |
+| &nbsp;               | &nbsp;    |
 |----------------------|-----------|
 | 6100 – MSP – OU\_256 | 100.00 DR |
 | 6100 – NY – OU\_249  | 100.00 DR |
@@ -45,7 +43,7 @@ Neste caso, os seguintes saldos são determinados:
 
 No entanto, as seguintes entradas contábeis são criadas automaticamente para conferir a entrada no nível de valores de dimensão financeira.
 
-|                                   |           |
+| &nbsp;                            | &nbsp;    |
 |-----------------------------------|-----------|
 | (Interunidade - débito) – OU\_256 | 100.00 DR |
 | (Interunidade - Crédito) – NY – OU\_249 | 100.00 CR |
