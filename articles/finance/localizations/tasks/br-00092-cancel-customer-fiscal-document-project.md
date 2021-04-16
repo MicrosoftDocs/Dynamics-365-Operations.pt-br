@@ -2,11 +2,9 @@
 title: Cancelar uma nota fiscal de cliente (projeto) (Brasil)
 description: É possível cancelar uma fatura de cliente para um projeto.
 author: sndray
-manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -14,33 +12,33 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 084352032fb65e71f4441946246b225964a7a05f
-ms.sourcegitcommit: eaf330dbee1db96c20d5ac479f007747bea079eb
+ms.openlocfilehash: fa65109aecce60b443a5b35b0c219ed24f701932
+ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5254399"
+ms.lasthandoff: 04/01/2021
+ms.locfileid: "5811265"
 ---
-# <a name="cancel-a-customer-fiscal-document-project-brazil"></a><span data-ttu-id="4dae7-103">Cancelar uma nota fiscal de cliente (projeto) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="4dae7-103">Cancel a customer fiscal document (project) (Brazil)</span></span>
+# <a name="cancel-a-customer-fiscal-document-project-brazil"></a><span data-ttu-id="447cb-103">Cancelar uma nota fiscal de cliente (projeto) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="447cb-103">Cancel a customer fiscal document (project) (Brazil)</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="4dae7-104">É possível cancelar uma fatura de cliente para um projeto.</span><span class="sxs-lookup"><span data-stu-id="4dae7-104">You can cancel a customer invoice for a project.</span></span> <span data-ttu-id="4dae7-105">Ao cancelar uma fatura de projeto, uma fatura de projeto negativa é criada.</span><span class="sxs-lookup"><span data-stu-id="4dae7-105">When you cancel a project invoice, a negative project invoice is created.</span></span> <span data-ttu-id="4dae7-106">Ao lançar a fatura de projeto negativa, as faturas de projeto originais e negativas são marcadas como canceladas e todas as transações contábeis e financeiras são revertidas.</span><span class="sxs-lookup"><span data-stu-id="4dae7-106">When you post the negative project invoice, the original and negative project invoices are marked as canceled, and all the ledger and financial transactions are reversed.</span></span> <span data-ttu-id="4dae7-107">A transação original é informada como cancelada nos livros fiscais, mas a transação negativa não é informada nos livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="4dae7-107">The original transaction is reported as canceled in the fiscal books, but the negative transaction isn't reported in the fiscal books.</span></span> <span data-ttu-id="4dae7-108">Não é possível cancelar uma fatura de projeto que está liquidada parcialmente ou completamente.</span><span class="sxs-lookup"><span data-stu-id="4dae7-108">You can't cancel a project invoice that is partially or fully settled.</span></span> <span data-ttu-id="4dae7-109">Além de isso, não é possível cancelar uma fatura de projeto, se a data de lançamento da fatura cair em um período fiscal que está fechado.</span><span class="sxs-lookup"><span data-stu-id="4dae7-109">Additionally, you can't cancel a project invoice if the posting date of the invoice is in a fiscal period that is closed.</span></span> <span data-ttu-id="4dae7-110">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="4dae7-110">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="447cb-104">É possível cancelar uma fatura de cliente para um projeto.</span><span class="sxs-lookup"><span data-stu-id="447cb-104">You can cancel a customer invoice for a project.</span></span> <span data-ttu-id="447cb-105">Ao cancelar uma fatura de projeto, uma fatura de projeto negativa é criada.</span><span class="sxs-lookup"><span data-stu-id="447cb-105">When you cancel a project invoice, a negative project invoice is created.</span></span> <span data-ttu-id="447cb-106">Ao lançar a fatura de projeto negativa, as faturas de projeto originais e negativas são marcadas como canceladas e todas as transações contábeis e financeiras são revertidas.</span><span class="sxs-lookup"><span data-stu-id="447cb-106">When you post the negative project invoice, the original and negative project invoices are marked as canceled, and all the ledger and financial transactions are reversed.</span></span> <span data-ttu-id="447cb-107">A transação original é informada como cancelada nos livros fiscais, mas a transação negativa não é informada nos livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="447cb-107">The original transaction is reported as canceled in the fiscal books, but the negative transaction isn't reported in the fiscal books.</span></span> <span data-ttu-id="447cb-108">Não é possível cancelar uma fatura de projeto que está liquidada parcialmente ou completamente.</span><span class="sxs-lookup"><span data-stu-id="447cb-108">You can't cancel a project invoice that is partially or fully settled.</span></span> <span data-ttu-id="447cb-109">Além de isso, não é possível cancelar uma fatura de projeto, se a data de lançamento da fatura cair em um período fiscal que está fechado.</span><span class="sxs-lookup"><span data-stu-id="447cb-109">Additionally, you can't cancel a project invoice if the posting date of the invoice is in a fiscal period that is closed.</span></span> <span data-ttu-id="447cb-110">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="447cb-110">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="4dae7-111">Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.</span><span class="sxs-lookup"><span data-stu-id="4dae7-111">Go to Project management and accounting > Projects > All projects.</span></span>
-2. <span data-ttu-id="4dae7-112">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="4dae7-112">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="4dae7-113">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="4dae7-113">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="4dae7-114">Clique em Diário de faturas.</span><span class="sxs-lookup"><span data-stu-id="4dae7-114">Click Invoice journals.</span></span>
-5. <span data-ttu-id="4dae7-115">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="4dae7-115">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4dae7-116">Por exemplo, filtre o campo Fatura com um valor de '04000006'.</span><span class="sxs-lookup"><span data-stu-id="4dae7-116">For example, filter on the Invoice field with a value of '04000006'.</span></span>
-6. <span data-ttu-id="4dae7-117">Clique em Cancelamento de fatura.</span><span class="sxs-lookup"><span data-stu-id="4dae7-117">Click Invoice cancellation.</span></span>
-7. <span data-ttu-id="4dae7-118">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="4dae7-118">Click Yes.</span></span>
-8. <span data-ttu-id="4dae7-119">No campo Código de motivo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4dae7-119">In the Reason code field, enter or select a value.</span></span>
-9. <span data-ttu-id="4dae7-120">No campo Data de cancelamento da fatura, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="4dae7-120">In the Canceling invoice date field, enter a date.</span></span>
-10. <span data-ttu-id="4dae7-121">Clique em Cancelar fatura do projeto.</span><span class="sxs-lookup"><span data-stu-id="4dae7-121">Click Cancel project invoice.</span></span>
-11. <span data-ttu-id="4dae7-122">Selecione Não no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="4dae7-122">Select No in the Print invoice field.</span></span>
-12. <span data-ttu-id="4dae7-123">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="4dae7-123">Click OK.</span></span>
-13. <span data-ttu-id="4dae7-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="4dae7-124">Click OK.</span></span>
-14. <span data-ttu-id="4dae7-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4dae7-125">Close the page.</span></span>
+1. <span data-ttu-id="447cb-111">Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.</span><span class="sxs-lookup"><span data-stu-id="447cb-111">Go to Project management and accounting > Projects > All projects.</span></span>
+2. <span data-ttu-id="447cb-112">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="447cb-112">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="447cb-113">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="447cb-113">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="447cb-114">Clique em Diário de faturas.</span><span class="sxs-lookup"><span data-stu-id="447cb-114">Click Invoice journals.</span></span>
+5. <span data-ttu-id="447cb-115">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="447cb-115">Use the Quick Filter to find records.</span></span> <span data-ttu-id="447cb-116">Por exemplo, filtre o campo Fatura com um valor de '04000006'.</span><span class="sxs-lookup"><span data-stu-id="447cb-116">For example, filter on the Invoice field with a value of '04000006'.</span></span>
+6. <span data-ttu-id="447cb-117">Clique em Cancelamento de fatura.</span><span class="sxs-lookup"><span data-stu-id="447cb-117">Click Invoice cancellation.</span></span>
+7. <span data-ttu-id="447cb-118">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="447cb-118">Click Yes.</span></span>
+8. <span data-ttu-id="447cb-119">No campo Código de motivo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="447cb-119">In the Reason code field, enter or select a value.</span></span>
+9. <span data-ttu-id="447cb-120">No campo Data de cancelamento da fatura, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="447cb-120">In the Canceling invoice date field, enter a date.</span></span>
+10. <span data-ttu-id="447cb-121">Clique em Cancelar fatura do projeto.</span><span class="sxs-lookup"><span data-stu-id="447cb-121">Click Cancel project invoice.</span></span>
+11. <span data-ttu-id="447cb-122">Selecione Não no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="447cb-122">Select No in the Print invoice field.</span></span>
+12. <span data-ttu-id="447cb-123">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="447cb-123">Click OK.</span></span>
+13. <span data-ttu-id="447cb-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="447cb-124">Click OK.</span></span>
+14. <span data-ttu-id="447cb-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="447cb-125">Close the page.</span></span>
 
 
 
