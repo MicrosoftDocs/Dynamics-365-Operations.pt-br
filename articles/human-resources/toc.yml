@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 5 de abril de 2021
+          href: hr-whats-new-2021-04-05.md
         - name: 22 de março de 2021
           href: hr-whats-new-2021-03-22.md
         - name: 8 de março de 2021
@@ -113,7 +115,7 @@
                   href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/human-resources/toc.json
                 - name: Atualizar dados da entidade no Excel
                   href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/human-resources/toc.json
-                - name: Criar experiências de Abrir no Excel
+                - name: Criar experiências  Abrir no Excel
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/human-resources/toc.json
                 - name: Solucionar problemas de integração do Office
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/human-resources/toc.json
@@ -165,19 +167,19 @@
                   href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
                 - name: Criar colunas computadas e campos virtuais
                   href: ../dev-itpro/data-entities/data-entity-computed-columns-virtual-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Comportamento interempresarial​
+                - name: Comportamento interempresarial
                   href: ../dev-itpro/data-entities/cross-company-behavior.md?toc=/dynamics365/human-resources/toc.json
                 - name: Manuseio de códigos de países/regiões
                   href: ../dev-itpro/data-entities/countryregion-codes-configuration-keys.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Padrões de herança​
+                - name: Padrões de herança
                   href: ../dev-itpro/data-entities/support-super-type-sub-type.md?toc=/dynamics365/human-resources/toc.json
                 - name: Regras do assistente de entidade de dados
                   href: ../dev-itpro/data-entities/data-entity-wizard-rules.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Propriedades de metadados​
+                - name: Propriedades de metadados
                   href: ../dev-itpro/data-entities/behavioral-properties-data-entities.md?toc=/dynamics365/human-resources/toc.json
-                - name: '​Validações, padrões e campos não mapeados​'
+                - name: 'Validações, padrões e campos não mapeados'
                   href: ../dev-itpro/data-entities/validations-defaults-unmapped-fields.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Segurança e entidades de dados​
+                - name: Segurança e entidades de dados
                   href: ../dev-itpro/data-entities/security-data-entities.md?toc=/dynamics365/human-resources/toc.json
                 - name: Usar o utilitário de teste de serviço de terceiros
                   href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/dynamics365/human-resources/toc.json
@@ -303,8 +305,10 @@
           items:
             - name: Escolher uma tecnologia de integração de dados
               href: hr-admin-integration-choose-technology.md
-            - name: Configurar integração do Dataverse
+            - name: Configurar a integração do Dataverse
               href: hr-admin-integration-common-data-service.md
+            - name: Configurar tabelas virtuais do Dataverse
+              href: hr-admin-integration-common-data-service-virtual-entities.md
             - name: Configurar a integração com o Finance
               href: hr-admin-integration-finance.md
             - name: Configurar a integração com o Dayforce
@@ -317,10 +321,16 @@
                   href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Atualizar dados da entidade no Excel
                   href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
-                - name: Criar experiências de Abrir no Excel
+                - name: Criar experiências Abrir no Excel
                   href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
                 - name: Solucionar problemas de integração do Office
                   href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Solucionar problemas de desenvolvimento com tabelas virtuais do Dataverse
+          items:
+            - name: Otimizar consultas de tabela virtual do Dataverse
+              href: hr-developer-optimize-virtual-table-queries.md
+            - name: Perguntas frequentes sobre tabelas virtuais do Human Resources
+              href: hr-admin-virtual-entity-faq.md
         - name: Referência da API da Entidade
           items:
             - name: Autenticação
@@ -419,6 +429,22 @@
                   href: hr-admin-integration-ats-api-screening-frequency-generate-from.md
                 - name: Tipo de nível de habilidade
                   href: hr-admin-integration-ats-api-skill-level-type.md
+        - name: API de integração da folha de pagamento
+          items:
+            - name: Introdução
+              href: hr-admin-integration-payroll-api-introduction.md
+            - name: Gerar e revisar entidades da folha de pagamento
+              href: hr-admin-integration-payroll-api-generate-review-entities.md
+            - name: Funcionário da folha de pagamento
+              href: hr-admin-integration-payroll-api-payroll-employee.md
+            - name: Endereço do trabalhador da folha de pagamento
+              href: hr-admin-integration-payroll-api-payroll-worker-address.md
+            - name: Plano de remuneração fixa da folha de pagamento
+              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+            - name: Trabalho da posição na folha de pagamento
+              href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Posição na folha de pagamento
+              href: hr-admin-integration-payroll-api-payroll-position.md
     - name: Guia do Usuário
       items:
         - name: Visão Geral
@@ -441,7 +467,7 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurar sequências numéricas individualmente
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Configurar sequências numéricas usando um assistente​
+                - name: Configurar sequências numéricas usando um assistente
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/human-resources/toc.json
             - name: Organizações e hierarquias organizacionais
               items:
@@ -449,11 +475,11 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/human-resources/toc.json
                 - name: Planejar sua hierarquia da organização
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Criar uma hierarquia da organização​
+                - name: Criar uma hierarquia da organização
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/human-resources/toc.json
                 - name: Criar entidades legais
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Criar unidades operacionais
+                - name: Criar unidades operacionais
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/human-resources/toc.json
             - name: Catálogo de endereços global
               items:
@@ -503,7 +529,7 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
                 - name: Configurar o trabalho em lotes do processamento de mensagens de fluxo de trabalho como crítico
                   href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
-                - name: ​Delegar itens de trabalho em um fluxo de trabalho​
+                - name: Delegar itens de trabalho em um fluxo de trabalho
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
                 - name: Exibir histórico do fluxo de trabalho
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json

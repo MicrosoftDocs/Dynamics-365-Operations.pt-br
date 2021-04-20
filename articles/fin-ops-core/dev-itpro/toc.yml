@@ -224,10 +224,12 @@
                               href: data-entities/dual-write/inventory-availability.md
                             - name: 'Trabalhador, trabalho e cargo integrados'
                               href: data-entities/dual-write/integrated-hr.md
-                            - name: Catálogo de endereços global e participantes
+                            - name: Catálogo de endereços global e de participantes
                               href: data-entities/dual-write/party-gab.md
-                            - name: Usando o Power Portal com o modelo de dados do participante
+                            - name: Usando o Power Portal com o modelo de dados de participantes
                               href: data-entities/dual-write/party-gab-portal.md
+                            - name: Atualizar para o modelo de catálogo de endereços global e de participantes
+                              href: data-entities/dual-write/upgrade-party-gab.md
                             - name: Integração de observações
                               href: data-entities/dual-write/notes-integration.md
                             - name: Referência de mapeamento
@@ -712,8 +714,10 @@
                   href: dev-tools/update-development-tools.md
             - name: Linguagem de programação X++
               items:
-                - name: Recursos de X++ e depurador
+                - name: Recursos de depurador e X++
                   href: dev-tools/new-x-debugger-features.md
+                - name: Requisitos do Visual Studio 2017 para X++
+                  href: dev-tools/developer-tools-vs2017.md
                 - name: Depurar código X++
                   href: dev-tools/debug-xpp.md
                 - name: Classes EventHandlerResult em cenários de solicitação ou resposta
@@ -1026,11 +1030,15 @@
                       href: perf-test/atl-faq.md
             - name: Efetividade de data
               href: dev-tools/date-effectivity.md
-            - name: Licenciamento do ISV
-              href: dev-tools/isv-licensing.md
-            - name: Licenciamento do ISV local
-              href: dev-tools/isv-licensing-on-prem.md
-        - name: Regulamento Geral sobre a Proteção de Dados (GDPR)
+            - name: Desenvolvimento para fornecedores de software independentes
+              items:
+                - name: Vincular módulos de X++ a pacotes usando ISV Studio
+                  href: dev-tools/isv-studio-solutions.md
+                - name: Licenciamento do ISV
+                  href: dev-tools/isv-licensing.md
+                - name: Licenciamento do ISV local
+                  href: dev-tools/isv-licensing-on-prem.md
+        - name: Regulamento Geral sobre a Proteção de Dados (RGPD)
           items:
             - name: Visão geral do Regulamento Geral sobre a Proteção de Dados (GDPR)
               href: gdpr/gdpr-guide.md
@@ -1142,10 +1150,10 @@
                   href: lifecycle-services/use-translation-service-tm.md
         - name: Integração do Microsoft Power Platform
           items:
+            - name: Integração do Microsoft Power Platform com o Finance and Operations
+              href: power-platform/overview.md
             - name: Entidades virtuais
               items:
-                - name: Integração do Microsoft Power Platform com o Finance and Operations
-                  href: power-platform/overview.md
                 - name: Modelagem de entidade
                   href: power-platform/entity-modeling.md
                 - name: Gerenciamento do ciclo de vida de aplicativos
@@ -1454,6 +1462,8 @@
               href: lifecycle-services/support-experience.md
             - name: Gerenciar experiências de suporte para os aplicativos do Finance and Operations
               href: lifecycle-services/cloud-powered-support-lcs.md
+            - name: Suporte e monitoramento de produção
+              href: ../fin-ops/imp-lifecycle/production-support-monitoring.md
         - name: Administração do sistema
           items:
             - name: Home page de Administração do sistema
