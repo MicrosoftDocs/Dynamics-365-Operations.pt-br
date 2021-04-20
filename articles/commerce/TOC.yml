@@ -278,9 +278,9 @@
                   href: dev-itpro/retail-device-activation.md
                 - name: Ajudar a proteger o PDV em Nuvem em ambientes compartilhados
                   href: dev-itpro/secure-retail-cloud-pos.md
-                - name: Configuração e instalação do Retail Hardware Station
+                - name: Instalação e configuração do Retail Hardware Station
                   href: retail-hardware-station-configuration-installation.md
-                - name: Implantação em massa dos componentes de autoatendimento
+                - name: Implantação em massa dos componentes de autoatendimento herdados
                   href: dev-itpro/retail-mass-deployment.md
                 - name: Eventos de componente do Commerce para diagnóstico e solução de problemas
                   href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
@@ -1048,7 +1048,7 @@
                       href: add-content-rich-block.md
                     - name: Módulo de bloco de conteúdo
                       href: add-hero-module.md
-                    - name: Módulo de reprodutor de vídeo
+                    - name: Módulo de player de vídeo
                       href: add-video-player.md
                 - name: Módulos de cabeçalho e rodapé
                   items:
@@ -1056,6 +1056,16 @@
                       href: author-header-module.md
                     - name: Módulo de rodapé
                       href: author-footer-module.md
+                - name: 'Módulos de página, metadados e script'
+                  items:
+                    - name: Módulo de página padrão
+                      href: default-page-module.md
+                    - name: Módulos de resumo de página
+                      href: page-summary-module.md
+                    - name: Módulo de metamarcas
+                      href: metatags-module.md
+                    - name: Módulos de script externo e embutido
+                      href: script-module.md
                 - name: Módulos da página de detalhes do produto
                   items:
                     - name: Módulo de caixa de compra
@@ -2002,7 +2012,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/commerce/toc.json
             - name: Abrir dados de entidade no Excel e atualizá-los usando o suplemento do Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/commerce/toc.json
-            - name: Criar experiências de Abrir no Excel
+            - name: Criar experiências  Abrir no Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/commerce/toc.json
             - name: Adicionar modelos ao menu Abrir linhas no Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/commerce/toc.json
