@@ -37,9 +37,9 @@ Os dados no modelo de dados contém objetos e são implementados por classes.
 
 Veja esta lista dos objetos principais:
 
-* AxClass/TaxIntegration **Documento** Objeto
-* AxClass/TaxIntegration **Linha** Objeto
-* AxClass/TaxIntegration **TaxLine** Objeto
+* AxClass/TaxIntegration **Document** Object
+* AxClass/TaxIntegration **Line** Object
+* AxClass/TaxIntegration **TaxLine** Object
 
 A ilustração abaixo mostra como esses objetos estão relacionados.
 
