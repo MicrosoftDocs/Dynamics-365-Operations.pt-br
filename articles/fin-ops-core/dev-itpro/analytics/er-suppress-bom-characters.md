@@ -13,25 +13,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9fabc308b1b0682c6fdce3e81e7335417846bebd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d5ada93c0192aadac70c38c8c8c4f3af86ff6fc3
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743524"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893267"
 ---
 # <a name="design-er-configurations-to-suppress-bom-characters-in-generated-files"></a>Criar configurações de ER para suprimir caracteres da BOM nos arquivos gerados
 
 [!include [banner](../includes/banner.md)]
 
-Você pode criar uma [solução](er-quick-start1-new-solution.md) de [relatórios eletrônicos (ER)](general-electronic-reporting.md) para gerar documentos de saída no formato XML. Para gerar os documentos como arquivos de texto ou XML, a solução deve incluir uma [configuração](general-electronic-reporting.md#Configuration) de ER que contém um componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER. Para especificar a [codificação de caracteres](https://docs.microsoft.com/windows/win32/intl/character-sets) que representa o conjunto de caracteres em arquivos gerados, o formato de ER deve conter o formato de elemento **Comum\\File**. Para configurar o componente de formato de ER, abra de versão de [rascunho](general-electronic-reporting.md#component-versioning) da configuração de ER no designer de formato de ER e adicione o elemento **Common\\File**. No campo **Codificação**, especifique a codificação de arquivos de saída que são gerados no tempo de execução usando esse componente.
+Você pode criar uma [solução](er-quick-start1-new-solution.md) de [relatórios eletrônicos (ER)](general-electronic-reporting.md) para gerar documentos de saída no formato XML. Para gerar os documentos como arquivos de texto ou XML, a solução deve incluir uma [configuração](general-electronic-reporting.md#Configuration) de ER que contém um componente de [formato](general-electronic-reporting.md#FormatComponentOutbound) de ER. Para especificar a [codificação de caracteres](/windows/win32/intl/character-sets) que representa o conjunto de caracteres em arquivos gerados, o formato de ER deve conter o formato de elemento **Comum\\File**. Para configurar o componente de formato de ER, abra de versão de [rascunho](general-electronic-reporting.md#component-versioning) da configuração de ER no designer de formato de ER e adicione o elemento **Common\\File**. No campo **Codificação**, especifique a codificação de arquivos de saída que são gerados no tempo de execução usando esse componente.
 
 > [!NOTE]
 > Se o formato tiver um nome de codificação incorreto, um erro será exibido quando você salvar as alterações nas configurações do formato.
 
 ![Adicionar um elemento raiz na página Designer de formato](./media/er-suppress-bom-characters-image1.gif)
 
-Se você especificar **UTF-8**, **UTF-16** ou **UTF-32** como a codificação, a opção **Suprimir caracteres de BOM** ficará disponível. Defina esta opção como **Sim** para suprimir [caracteres de marca de ordem de bytes (BOM)](https://docs.microsoft.com/globalization/encoding/byte-order-mark) em arquivos de saída que são gerados no tempo de execução quando o formato de ER editável é executado.
+Se você especificar **UTF-8**, **UTF-16** ou **UTF-32** como a codificação, a opção **Suprimir caracteres de BOM** ficará disponível. Defina esta opção como **Sim** para suprimir [caracteres de marca de ordem de bytes (BOM)](/globalization/encoding/byte-order-mark) em arquivos de saída que são gerados no tempo de execução quando o formato de ER editável é executado.
 
 > [!NOTE]
 > Se o campo **Codificação** ficar em branco, a codificação **UTF-8** padrão será usada.

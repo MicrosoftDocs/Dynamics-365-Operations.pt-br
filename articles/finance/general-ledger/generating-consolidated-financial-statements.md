@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 2db444d4a5e40c1bbfdab9e044aff43031b6e9f4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826681"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897855"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Gerar demonstrativos financeiros consolidados
 
@@ -34,7 +34,7 @@ O método mais simples de consolidação por meio de relatórios financeiros é 
 3. Crie uma hierarquia organizacional que inclua um nó de relatório para cada empresa que você está usando em relatórios consolidados.
 
 > [!TIP]
-> Para obter mais informações sobre como criar e gerenciar definições de linha, definições de coluna e hierarquias organizacionais, consulte [Componentes de relatórios financeiros](../../dev-itpro/analytics/financial-report-components.md).
+> Para obter mais informações sobre como criar e gerenciar definições de linha, definições de coluna e hierarquias organizacionais, consulte [Componentes de relatórios financeiros](../../fin-ops-core/dev-itpro/analytics/financial-report-components.md).
 
 A ilustração a seguir mostra como usar uma definição de hierarquia organizacional no Relatório financeiro para identificar cada empresa que você consolidará.
 
@@ -90,7 +90,7 @@ Se usar contas, dimensões ou ambos, o Relatório financeiro permite descartar a
 Uma empresa pode possuir apenas uma porcentagem de outra empresa. Nessa situação, quando você está produzindo um relatório consolidado, é importante que você contabilize apenas a porcentagem que a empresa possui. O Relatório financeiro tem várias maneiras de apresentar o interesse minoritário, dependendo da preferência do usuário. Uma delas é usar um percentual de acúmulo na definição de hierarquia organizacional. Outra maneira é mostrar a participação minoritária como uma linha separada em um relatório.
 
 ### <a name="using-the-reporting-tree-definition"></a>Usando a definição de hierarquia organizacional
-Na definição de hierarquia organizacional, insira o percentual de participação na coluna **Porcentagem de acúmulo** (coluna H), conforme mostrado na ilustração a seguir. Quando o relatório for gerado, esse percentual será usado para calcular o valor consolidado. Neste exemplo, a Contoso possui apenas 80% da Contoso Alemanha. Você pode inserir **80** ou **,8** na coluna **Porcentagem de acúmulo** e 80% será acumulado no nível consolidado.
+Na definição de hierarquia organizacional, insira o percentual de participação na coluna **Porcentagem de acúmulo** (coluna H), conforme mostrado na ilustração a seguir. Quando o relatório for gerado, esse percentual será usado para calcular o valor consolidado. Neste exemplo, a Contoso tem apenas 80% da Contoso Alemanha. Você pode inserir **80** ou **,8** na coluna **Porcentagem de acúmulo** e 80% será acumulado no nível consolidado.
 
 > [!NOTE]
 > Você pode aplicar essa porcentagem de participação a qualquer unidade organizacional, não apenas no nível da empresa. 

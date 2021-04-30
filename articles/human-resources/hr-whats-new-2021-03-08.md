@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7029f1dab1f10c2b237fafb7b5d8eeff9fa7a543
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 890d7a2e671d6365cd1f6e23e399166541c04496
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790275"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890618"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-08-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources 08 de março de 2021
 
@@ -32,7 +32,7 @@ Este tópico descreve recursos que são novos, alterados ou que em breve serão 
 
 Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
-Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Nesta versão
 
@@ -44,7 +44,7 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 
 | Recurso | Liberar planos | Documentação |
 | --- | --- | --- |
-| Exibição de licenças interempresariais para gerentes | [Exibição de licenças interempresariais de funcionários para gerentes](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurar parâmetros de licença e ausência](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
+| Exibição de licenças interempresariais para gerentes | [Exibição de licenças interempresariais de funcionários para gerentes](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurar parâmetros de licença e ausência](./hr-leave-and-absence-parameters.md) |
 
 ### <a name="bug-fixes"></a>Correções de bug
 
@@ -69,8 +69,8 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 
 | Recurso | Liberar planos | Documentação |
 | --- | --- | --- |
-| Espaço de trabalho de gerenciamento de benefícios | [Espaço de trabalho de gerenciamento de benefícios (versão preliminar)](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Espaço de trabalho de gerenciamento de benefícios](hr-benefits-management-workspace.md) |
-| Restringir a edição de detalhes de contato comercial por funcionários | [Restringir a edição de detalhes de contato comercial por funcionários](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Restringir a edição de informações pessoais](hr-employee-self-service-restrict-editing.md)|
+| Espaço de trabalho de gerenciamento de benefícios | [Espaço de trabalho de gerenciamento de benefícios (versão preliminar)](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/benefits-management-workspace) | [Espaço de trabalho de gerenciamento de benefícios](hr-benefits-management-workspace.md) |
+| Restringir a edição de detalhes de contato comercial por funcionários | [Restringir a edição de detalhes de contato comercial por funcionários](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/restrict-employees-editing-business-contact-details) | [Restringir a edição de informações pessoais](hr-employee-self-service-restrict-editing.md)|
 
 ## <a name="coming-soon"></a>Em breve
 
@@ -78,12 +78,12 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 | --- | --- |
 | As habilidades inseridas por um gerente para os funcionários podem ser aprovadas automaticamente por um fluxo de trabalho | Em breve. |
 
-Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
+Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2021 ciclo de lançamentos 1](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral do ciclo de lançamentos 1 de 2021 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
+[Visão geral do ciclo de lançamentos 1 de 2021 do Dynamics 365 Human Resources](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
 

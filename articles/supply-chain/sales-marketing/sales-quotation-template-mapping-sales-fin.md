@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 848464cbc62623502b9b87b9b41dcc17150e85ba
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bdca4d63fbe04a01cf1bbf2ccd7b095d4718a115
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838996"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910296"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
 
@@ -32,7 +32,7 @@ ms.locfileid: "5838996"
 O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas da cotação de venda diretamente do Dynamics 365 Sales para o Dynamics 365 Supply Chain Management.
 
 > [!NOTE]
-> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](https://docs.microsoft.com/powerapps/administrator/data-integrator).
+> Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados no Microsoft Dataverse para Aplicativos](/powerapps/administrator/data-integrator).
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 

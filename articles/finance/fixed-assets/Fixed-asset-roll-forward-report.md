@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: a4a2cfb7754a0074e37f1a5b4b99594b2b0861d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1693df7d535a340306d2b817ce008c292bad521
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827085"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897663"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Relatório de roll forward de ativo fixo
 
@@ -28,7 +28,7 @@ ms.locfileid: "5827085"
 
 O relatório **Relatório de roll forward de ativos fixos** fornece em um formato de leitura simples do Microsoft Excel, os dados de ativo fixo detalhados que você precisa para fechamento do período, demonstrativos financeiros e relatórios de imposto. O relatório incluir saldos inicial e final de ativos fixos, com movimentações de avaliação do período e novas aquisições do ativo e alienações que ocorreram durante o período. Os dados são relatados para ativos fixos individuais e os valores também são resumidos para grupos de ativos fixos e a entidade legal.
 
-O relatório **Roll forward de ativos fixos** usa a estrutura de Relatório eletrônico (ER). Antes de executar o relatório, as configurações de roll-forward de Ativo fixo e do modelo de Ativos fixos devem ser importadas do Microsoft Dynamics Lifecycle Services (LCS). Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+O relatório **Roll forward de ativos fixos** usa a estrutura de Relatório eletrônico (ER). Antes de executar o relatório, as configurações de roll-forward de Ativo fixo e do modelo de Ativos fixos devem ser importadas do Microsoft Dynamics Lifecycle Services (LCS). Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 
 Este relatório estará disponível no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, ou como um hotfix para Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (Julho de 2017). Três hotfixes devem ser aplicados aos ambientes com a versão de julho de 2017:
 

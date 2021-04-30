@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-08-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 69304cbffafa4c20dbbbb31d5c19920f669761b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 95ffe90795b9781408607257f3f63bf68c489b56
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800156"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891808"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-august-20-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (20 de agosto 2020)
 
@@ -65,15 +65,15 @@ Uma entidade DMF disponível para suspensões de acúmulos.
 
 Você pode tornar campos obrigatórios usando recursos de personalização de Recursos Humanos. Este recurso exige **Exibições salvas**. Para obter mais informações sobre exibições salvas, consulte:
 
-- [Exibições salvas - disponibilidade geral](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) no plano do Dynamics 365 versão 2020 onda 2
-- [Criar formulários que utilizam totalmente as exibições salvas](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/user-interface/understanding-saved-views)
+- [Exibições salvas - disponibilidade geral](/dynamics365-release-plan/2020wave2/finance-operations/finance-operations-crossapp-capabilities/saved-views--general-availability) no plano do Dynamics 365 versão 2020 onda 2
+- [Criar formulários que utilizam totalmente as exibições salvas](../fin-ops-core/dev-itpro/user-interface/understanding-saved-views.md)
 
 ### <a name="human-resources-application-in-teams"></a>Aplicativo Human Resources no Teams
 
 Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Teams. Eles podem interagir com um bot para criar solicitações de licença. Para obter mais informações, consulte:
 
-- [Licença e ausência do funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do Dynamics 365 versão 2020 onda 1
-- [Aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841)
+- [Licença e ausência do funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do Dynamics 365 versão 2020 onda 1
+- [Aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md)
 
 ## <a name="coming-soon"></a>Em breve
 
@@ -117,7 +117,7 @@ Recentemente descobrimos dois problemas com relação à entidade **BenefitsPlan
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral da onda 2 da versão 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
 

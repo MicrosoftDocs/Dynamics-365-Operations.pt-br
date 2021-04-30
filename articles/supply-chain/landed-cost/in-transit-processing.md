@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9a1316de8d79f3ce34bb28812993d096cbd0c2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fff3c3cfe5d0628fd4df6e719b72bc134c9d9c0a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823400"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909442"
 ---
 # <a name="goods-in-transit-processing"></a>Processamento de mercadorias em trânsito
 
@@ -40,7 +40,7 @@ Ao habilitar o módulo **Custo de entrega**, a entidade padrão *Condições de 
 
 Quando a opção **Gerenciamento de mercadorias em trânsito** estiver definida como *Sim* para o registro de condições de entrega aplicável, as mercadorias serão colocadas no depósito de mercadorias em trânsito. Esta ação será disparada somente se o recebimento do estoque não for processado antes de uma fatura ser processada. Quando as condições de entrega de uma ordem são definidas para usar mercadorias em trânsito, os usuários não podem mais lançar um recebimento de produtos para a ordem de compra. Se tentarem fazer isso, ocorrerá um erro. A mensagem de erro informa que eles devem usar a funcionalidade de mercadorias em trânsito para prosseguir.
 
-Para trabalhar com as informações de condições de entrega para mercadorias em trânsito, acesse **Compras e fornecimento \> Configuração \> Distribuição \> Condições de entrega**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Condições de entrega** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos estão na FastTab **Geral**. Para obter mais informações sobre os outros campos desta página, consulte [Condições de entrega (formulário)](https://technet.microsoft.com/library/aa575567.aspx).
+Para trabalhar com as informações de condições de entrega para mercadorias em trânsito, acesse **Compras e fornecimento \> Configuração \> Distribuição \> Condições de entrega**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Condições de entrega** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos estão na FastTab **Geral**. Para obter mais informações sobre os outros campos desta página, consulte [Condições de entrega (formulário)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Campo | descrição |
 |---|---|
@@ -55,7 +55,7 @@ O custo de entrega adiciona dois novos tipos de depósito: *mercadorias em trân
 
 O tipo de depósito *Mercadorias em trânsito* será associado ao depósito de mercadorias em trânsito e o depósito será usado para processar as mercadorias em ordens de mercadorias em trânsito antes que elas sejam recebidas no depósito de destino final. Em geral, um depósito de mercadorias em trânsito será suficiente para cada site se o site e o depósito forem as únicas dimensões de estoque usadas para gerenciamento de estoque. Se a dimensão de estoque de local também for usada, um depósito de mercadorias em trânsito deverá ser configurado para cada combinação de site e depósito; assim, o local padrão também poderá ser especificado.
 
-Para trabalhar com configurações de mercadorias em trânsito para depósitos, acesse **Gerenciamento de estoque \> Configuração \> Divisão do estoque \> Depósitos**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Depósitos** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos aparecem na FastTab **Geral**. Para obter informações sobre outros campos na página, consulte [Depósitos (formulário)](https://technet.microsoft.com/library/aa620570.aspx).
+Para trabalhar com configurações de mercadorias em trânsito para depósitos, acesse **Gerenciamento de estoque \> Configuração \> Divisão do estoque \> Depósitos**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Depósitos** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos aparecem na FastTab **Geral**. Para obter informações sobre outros campos na página, consulte [Depósitos (formulário)](/dynamicsax-2012//warehouses-form).
 
 | Campo | Descrição |
 |---|---|
@@ -109,7 +109,7 @@ Você também pode receber mercadorias criando um diário de entrada. Você pode
     - **Criar a partir de mercadorias em trânsito** - defina esta opção como *Sim* para obter quantidades das linhas em trânsito selecionadas para a viagem, o contêiner ou o fólio selecionado.
     - **Criar a partir das linhas da ordem** – defina esta opção como *Sim* para definir a quantidade padrão no diário de entrada das linhas da ordem de compra. A quantidade padrão no diário de entrada poderá ser definida dessa forma somente se a quantidade na linha da ordem de compra coincidir com a quantidade na ordem de mercadorias em trânsito.
 
-1. Processe o diário de entrada conforme descrito em [Registrar recebimentos de itens com um diário de entrada de itens](https://technet.microsoft.com/library/aa571129.aspx).
+1. Processe o diário de entrada conforme descrito em [Registrar recebimentos de itens com um diário de entrada de itens](/dynamicsax-2012/appuser-itpro/register-item-receipts-with-an-item-arrival-journal).
 
 > [!NOTE]
 > O diário de entrada geralmente é usado em situações nas quais locais e acompanhamento de lote/série são usados, mas o gerenciamento de depósito não é usado.
@@ -131,15 +131,14 @@ O custo de entrega adiciona os seguintes processos de criação de trabalho aos 
 - Recebimento do item de mercadorias em trânsito
 - Recebimento e armazenamento de item de mercadorias em trânsito
 
-As definições de configuração para esses processos se assemelham às configurações de [processos de recebimento de ordens de compra e criação de trabalhos de armazenamento](https://technet.microsoft.com/library/dn553216.aspx). No entanto, o processo *Recebimento e armazenamento de itens de mercadorias em trânsito* também adiciona o campo a seguir.
+As definições de configuração para esses processos se assemelham às configurações de [processos de recebimento de ordens de compra e criação de trabalhos de armazenamento](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). No entanto, o processo *Recebimento e armazenamento de itens de mercadorias em trânsito* também adiciona o campo a seguir.
 
 - **Habilitar contêiner de remessa completo** – se essa opção for definida como *Sim*, quando o trabalho de armazenamento for concluído, o aplicativo móvel do Gerenciamento de Depósito fornecerá uma opção adicional chamada **Contêiner de remessa completo**. Quando essa opção for selecionada, o trabalhador será solicitado a confirmar que o contêiner está completo. Nesse ponto, todos os recebimentos curtos serão processados como uma transação.
 
 ### <a name="location-directives"></a>Diretivas de localização
 
-O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadorias em trânsito*  à página **Diretivas de localização**. Esse tipo de ordem de trabalho deve ser configurado da mesma forma que os [tipos de ordem de trabalho da ordem de compra](https://technet.microsoft.com/library/dn553184.aspx).
+O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadorias em trânsito*  à página **Diretivas de localização**. Esse tipo de ordem de trabalho deve ser configurado da mesma forma que os [tipos de ordem de trabalho da ordem de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 ### <a name="work-templates"></a>Modelos do trabalho
 
-O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadorias em trânsito*  à página **Modelos de trabalho**. Esse tipo de ordem de trabalho deve ser configurado da mesma forma que os [Modelos de trabalho da ordem de compra](https://technet.microsoft.com/library/dn553184.aspx).
-
+O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadorias em trânsito*  à página **Modelos de trabalho**. Esse tipo de ordem de trabalho deve ser configurado da mesma forma que os [Modelos de trabalho da ordem de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).

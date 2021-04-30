@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce180c28be2cea1115937b1b1fbdf2323903e4ad
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 953f477e7e00cde7f814ff28d3dfd8ed7075dafc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743368"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893217"
 ---
 # <a name="financial-performance-powerbicom-solution"></a>Solução de desempenho financeiro do PowerBI.com
 
@@ -85,7 +85,7 @@ As entidades a seguir foram usadas como base da solução **Desempenho financeir
 - Razões
 - ChartofAccounts
 
-Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais no painel e nos relatórios, você pode modificar a [pasta de trabalho do Microsoft Excel](https://docs.microsoft.com/dynamics/s-e/). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo.
+Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais no painel e nos relatórios, você pode modificar a [pasta de trabalho do Microsoft Excel](/dynamics/s-e/). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

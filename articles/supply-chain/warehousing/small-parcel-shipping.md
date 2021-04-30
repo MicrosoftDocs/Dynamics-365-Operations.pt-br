@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3969ee6b46f38fe2650881fb0183c60aadce6c8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831161"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910200"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
@@ -58,7 +58,7 @@ Siga estas etapas para obter o mecanismo de taxa de demonstração.
 Para obter informações sobre como criar e implantar mecanismos de taxa funcionais para que possam ser usados em um ambiente de produção ou de teste, consulte os seguintes tópicos:
 
 - [​Criar um novo mecanismo de gerenciamento de transporte​](../transportation/create-new-transportation-management-engine.md)
-- [Configurar mecanismos de gerenciamento de transporte](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
+- [Configurar mecanismos de gerenciamento de transporte](/dynamicsax-2012/appuser-itpro/set-up-transportation-management-engines)
 
 Para obter mais informações sobre como criar um mecanismo de taxa de SPS, consulte a seguinte postagem de blog: [Remessa de pacotes pequenos: como aproveitar a funcionalidade de remessa de pacotes pequenos no Microsoft Dynamics 365](https://hub.bhsolutions.com/creating-a-mock-parcel-engine-in-d365?submissionGuid=46a1fccf-80b0-4b70-a6a0-4bf45a8756b5).
 

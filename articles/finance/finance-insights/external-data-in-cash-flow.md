@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-06-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 7d5768a6cb2b3623333fab93a42ac5840e87ec68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ddfc0670a5fca24d996e9ab605e267f9f3f26f19
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818600"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897879"
 ---
 # <a name="use-external-data-in-cash-flow-forecasts-preview"></a>Usar dados externos em previsões de fluxo de caixa (versão prévia)
 
@@ -33,7 +33,7 @@ Os dados externos podem ser inseridos ou importados para previsões de fluxo de 
 
 Use a guia **Fonte externa** na página **Configuração de previsão de fluxo de caixa** (**Gerenciamento de caixa e de banco \> Previsão de fluxo de caixa**) para inserir configurações que suportam o uso de dados externos em previsões de fluxo de caixa.
 
-Para obter mais informações sobre a configuração, consulte [Previsão de fluxo de caixa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting).
+Para obter mais informações sobre a configuração, consulte [Previsão de fluxo de caixa](../cash-bank-management/cash-flow-forecasting.md).
 
 Para inserir dados externos para previsões de fluxo de caixa, você pode usar a experiência Abrir no Excel para inserir e modificar dados externos. Selecione o botão **Dados externos** e selecione **Adicionar dados externos** ou **Editar dados externos existentes**. Quando o arquivo do Microsoft Excel é aberto, você pode inserir informações nos seguintes campos:
 

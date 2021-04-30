@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: fe7ff2ab877182dd3145e39574aa7229c48b6057
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833392"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909394"
 ---
 # <a name="set-up-master-planning"></a>Configurar planejamento mestre
 
@@ -106,11 +106,11 @@ Para cada plano, na Guia Rápida **Geral** da página **Planos mestres** (**Plan
 
 ### <a name="operations-scheduling"></a>Plano de operações
 
-Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo. O agendamento de operações não detalha as operações do roteiro de produção nos trabalhos. Para obter mais informações sobre agendamento de operações, consulte [Agendamento de operações](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
+Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo. O agendamento de operações não detalha as operações do roteiro de produção nos trabalhos. Para obter mais informações sobre agendamento de operações, consulte [Agendamento de operações](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling).
 
 ### <a name="job-scheduling"></a>Agendamento de trabalho
 
-Agendamento de trabalho é um método de agendamento mais detalhado onde cada operação é dividida em tarefas ou trabalhos individuais. O agendamento de trabalho inclui informações sobre capacidade. Geralmente é usado para agendar trabalhos individuais no chão de fábrica com um prazo imediato ou curto prazo. Para obter mais informações sobre agendamento de trabalho, consulte [Agendamento de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Agendamento de trabalho é um método de agendamento mais detalhado onde cada operação é dividida em tarefas ou trabalhos individuais. O agendamento de trabalho inclui informações sobre capacidade. Geralmente é usado para agendar trabalhos individuais no chão de fábrica com um prazo imediato ou curto prazo. Para obter mais informações sobre agendamento de trabalho, consulte [Agendamento de trabalho](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="time-fences-in-days"></a>Limites de tempo em dias
 
@@ -158,7 +158,7 @@ As mensagens de ações sugerem alterações que podem ser feitas na ordem de su
 
 Definindo a opção **Mensagem de ação** como **Sim**, você pode substituir o limite de tempo da mensagem de ação definido para o item durante o agendamento do planejamento mestre. Neste caso, insira o número de dias que o agendamento do planejamento mestre deve gerar as mensagens de ação dos requisitos. O limite de tempo da mensagem de ação é calculado a partir da data atual.
 
-Para obter mais informações sobre as mensagens de ação, consulte [Mensagens de ação](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
+Para obter mais informações sobre as mensagens de ação, consulte [Mensagens de ação](/dynamics365/unified-operations/supply-chain/master-planning/action-messages).
 
 > [!NOTE]
 > O cálculo de mensagens de ação causa um tempo de execução mais longo para o planejamento mestre. Se as mensagens de ação não forem analisadas e aplicadas regularmente (diariamente, semanalmente e assim por diante), desative o cálculo durante a execução do planejamento mestre. Para desativar o cálculo, na página **Planos mestres**, defina o intervalo de tempo da **Mensagem de ação** como **0** (zero) para o plano mestre que você está executando. Além disso, certifique-se de que a configuração **Mensagem de ação** esteja desativada para todos os grupos de cobertura.
@@ -223,7 +223,7 @@ Prazo de entrega + Dias negativos + Data atual – Data da necessidade
 
 O sistema usa somente as ordens de fornecimento que estão dentro deste intervalo de tempo e cria uma nova ordem planejada fora dele. A vantagem dos dias negativos dinâmicos é que ele incluirá o prazo de entrega do produto individual para reutilizar as ordens existentes e evitar a criação de novas ordens planejadas que acabarão com um dia posterior, devido a atrasos causados pelo prazo de entrega. 
 
-Para obter mais informações, consulte [Dias negativos e dias negativos dinâmicos](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
+Para obter mais informações, consulte [Dias negativos e dias negativos dinâmicos](/dynamics365/unified-operations/supply-chain/master-planning/more-about-dynamic-negative-days).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

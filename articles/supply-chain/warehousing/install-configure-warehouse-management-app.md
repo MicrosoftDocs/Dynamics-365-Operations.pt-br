@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 378fff6274902025b1fca487874f37ed30df25ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46c5d4ec78a1e5ed708687e8da6eb379697d5f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835597"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908943"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar e conectar o aplicativo móvel Gerenciamento de depósito
 
@@ -50,7 +50,7 @@ Para que você possa usar o aplicativo, ele deve estar ativado no sistema. Os ad
 
 Para implantações menores, em geral, você pode instalar o aplicativo em cada dispositivo da loja relevante e configurar manualmente a conexão com os ambientes utilizados.
 
-Para implantações maiores, é possível automatizar a implantação e/ou a configuração de aplicativos, o que pode ser mais conveniente se você gerenciar vários dispositivos. Por exemplo, você pode usar uma solução de gerenciamento de dispositivo móvel e de gerenciamento de aplicativo móvel como o [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obter mais informações sobre como usar o Intune para adicionar aplicativos, consulte [Adicionar aplicativos ao Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Para implantações maiores, é possível automatizar a implantação e/ou a configuração de aplicativos, o que pode ser mais conveniente se você gerenciar vários dispositivos. Por exemplo, você pode usar uma solução de gerenciamento de dispositivo móvel e de gerenciamento de aplicativo móvel como o [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Para obter mais informações sobre como usar o Intune para adicionar aplicativos, consulte [Adicionar aplicativos ao Microsoft Intune](/mem/intune/apps/apps-add).
 
 ### <a name="install-the-app-from-an-app-store"></a>Instalar o aplicativo de uma loja de aplicativos
 
@@ -65,10 +65,10 @@ A maneira mais fácil de instalar o aplicativo em um único dispositivo é insta
 Como alternativa para a instalação de uma loja de aplicativos, você pode baixar o aplicativo no Microsoft App Center. O App Center fornece pacotes instaláveis que podem ser sideload. Além da versão atual, o App Center também permite baixar versões anteriores e pode fornecer versões de visualização com recursos futuros que você pode testar. Para baixar versões atuais, anteriores ou preliminares do aplicativo móvel Warehouse Management do Microsoft App Center, use um dos seguintes links:
 
 - **Windows (UWP):** [Warehouse Management (Windows)](https://go.microsoft.com/fwlink/?linkid=2154406)  
-    Para obter instruções sobre como instalar um pacote baixado em um dispositivo do Windows e configurar os certificados necessários, consulte [Instalar um build no App Center](https://docs.microsoft.com/appcenter/distribution/installation).
+    Para obter instruções sobre como instalar um pacote baixado em um dispositivo do Windows e configurar os certificados necessários, consulte [Instalar um build no App Center](/appcenter/distribution/installation).
 
 - **Android:** [Warehouse Management (Android)](https://go.microsoft.com/fwlink/?linkid=2154613)  
-    Se você baixar uma versão preliminar, serão necessárias algumas etapas adicionais para instalá-la. Para ver mais detalhes, consulte [Testar aplicativos Android](https://docs.microsoft.com/appcenter/distribution/testers/testing-android).
+    Se você baixar uma versão preliminar, serão necessárias algumas etapas adicionais para instalá-la. Para ver mais detalhes, consulte [Testar aplicativos Android](/appcenter/distribution/testers/testing-android).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Criar um aplicativo de serviço Web no Azure Active Directory
 
@@ -103,11 +103,11 @@ Para permitir que o aplicativo móvel Gerenciamento de depósito interaja com um
 
 Para obter mais informações sobre como configurar os aplicativos de serviço no Azure AD, consulte os seguintes recursos:
 
-- Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Para obter detalhes completos sobre como criar manualmente um aplicativo de serviço Web no Azure AD, consulte os seguintes tópicos:
 
-    - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Criar e configurar uma conta de usuário no Supply Chain Management
 
@@ -135,7 +135,7 @@ A autenticação com o Azure AD fornece uma forma segura de conectar um disposit
 
 Os certificados podem ser usados como segredos para comprovar a identidade do aplicativo quando um token for solicitado. A parte pública do certificado é carregada no registro de aplicativos no portal do Azure, enquanto o certificado completo deve ser implantado em cada dispositivo no qual o aplicativo Gerenciamento de depósito está instalado. A sua organização é responsável por gerenciar o certificado em termos de rotação, e assim por diante. Você pode usar certificados autoassinados, mas deve sempre usar certificados não exportáveis.
 
-É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo Gerenciamento de depósito está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo Gerenciamento de depósito está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar o aplicativo ao importar configurações de conexão
 

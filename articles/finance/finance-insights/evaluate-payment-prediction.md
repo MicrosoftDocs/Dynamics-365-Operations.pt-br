@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 56ec9795f0eb8b15dd00578bf35739eaa9e3d086
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818604"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897903"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
 
@@ -41,7 +41,7 @@ Este link leva você para o AI Builder, no qual você pode saber mais sobre o mo
 
 A página que é aberta mostra as seguintes informações:
 
-- Na seção **Desempenho**, a taxa de desempenho do modelo fornece a perspectiva sobre a qualidade do modelo. Para obter mais informações sobre essa classificação, consulte [Desempenho do modelo de previsão](https://docs.microsoft.com/ai-builder/prediction-performance) na documentação do AI Builder.
+- Na seção **Desempenho**, a taxa de desempenho do modelo fornece a perspectiva sobre a qualidade do modelo. Para obter mais informações sobre essa classificação, consulte [Desempenho do modelo de previsão](/ai-builder/prediction-performance) na documentação do AI Builder.
 - A seção **Dados mais influentes** mostra como os diferentes tipos de dados de entrada são importantes para o seu modelo. É possível avaliar essa lista e as porcentagens correspondentes para determinar se as informações são consistentes com o que você sabe sobre a sua empresa e o mercado.
 
     [![Seções Desempenho e Dados mais influentes para o modelo de previsão](./media/models.png)](./media/models.png)

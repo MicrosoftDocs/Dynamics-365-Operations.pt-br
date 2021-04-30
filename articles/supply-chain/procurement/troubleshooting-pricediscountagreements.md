@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 12bc3cbccb1577c278489f640299510b3ced17e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ccc1d52b83f9319af1c6336c1876c795c70028a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811077"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908510"
 ---
 # <a name="troubleshoot-prices-discounts-agreements-and-rebates"></a>Solucionar problemas de preços, descontos, contratos e descontos
 
@@ -37,7 +37,7 @@ Ao alterar a data de remessa, você pode receber uma mensagem que declara, "Atua
 
 A mensagem é disparada sempre que qualquer uma das datas ou outros parâmetros são alterados. A finalidade da mensagem é verificar se você está ciente de alterações de preço que podem ocorrer devido a essas alterações.
 
-A mensagem é o prompt de avaliação do contrato comercial (TAE). Para obter uma descrição completa, consulte [Políticas de avaliação de contrato comercial](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
+A mensagem é o prompt de avaliação do contrato comercial (TAE). Para obter uma descrição completa, consulte [Políticas de avaliação de contrato comercial](/dynamicsax-2012/appuser-itpro/trade-agreement-evaluation-policies-white-paper).
 
 ## <a name="a-purchase-order-receipt-doesnt-include-all-charges"></a>Um recibo de ordem de compra não inclui todos os encargos.
 

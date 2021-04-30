@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 25719de3d86785442e00f7375de525b95bdb094d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753687"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894139"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar locais de armazenamento personalizado para os documentos gerados
 
@@ -27,7 +27,7 @@ A interface de programação de aplicativos (API) da estrutura de relatórios el
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Implante uma topologia que dê suporte à compilação contínua. Para obter mais informações, consulte [Implantar topologias que dão suporte à contínua automação de compilações e testes](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Você também deve ter acesso a essa topologia para uma das seguintes funções:
+Implante uma topologia que dê suporte à compilação contínua. Para obter mais informações, consulte [Implantar topologias que dão suporte à contínua automação de compilações e testes](/dynamics365/unified-operations/dev-itpro/perf-test/continuous-build-test-automation). Você também deve ter acesso a essa topologia para uma das seguintes funções:
 
 - Desenvolvedor de relatório eletrônico
 - Consultor funcional de relatório eletrônico
@@ -255,7 +255,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 3. Modifique a classe `AssetRollForwardService` existente e escreva o código para configurar um alocador de destino personalizado para o executor de relatórios. Observe que, quando um alocador de destino personalizado é criado, o parâmetro baseado em aplicativo que especifica uma pasta de destino é enviado. Dessa forma, essa pasta de destino é usada para armazenar os arquivos gerados.
 
     > [!NOTE] 
-    > Verifique se a pasta especificada (**c:\\0** neste exemplo) está presente no sistema de arquivos local do servidor que executa o serviço de AOS. Caso contrário, um erro [DirectoryNotFoundException](https://docs.microsoft.com/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) será exibido no runtime.
+    > Verifique se a pasta especificada (**c:\\0** neste exemplo) está presente no sistema de arquivos local do servidor que executa o serviço de AOS. Caso contrário, um erro [DirectoryNotFoundException](/dotnet/api/system.io.directorynotfoundexception?view=netcore-3.1) será exibido no runtime.
 
     ```xpp
     using Microsoft.Dynamics365.LocalizationFramework;

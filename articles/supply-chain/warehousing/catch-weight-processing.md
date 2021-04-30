@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 3882e40b4083f9246a03db3078cae8e18bec3c1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808909"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907610"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -40,7 +40,7 @@ Para usar o produto no Gerenciamento de depósito, você deve fazer algumas conf
 - Configure um grupo de sequências de unidade em que a unidade de peso variável seja definida como a menor unidade de manutenção de estoque (SKU).
 - Configure uma política de manuseio de itens de peso variável.
 
-Para obter mais informações, consulte [Configurando e mantendo itens de peso variável](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
+Para obter mais informações, consulte [Configurando e mantendo itens de peso variável](/dynamicsax-2012/appuser-itpro/setting-up-and-maintaining-catch-weight-items).
 
 ## <a name="transaction-adjustments"></a>Ajustes de transação
 

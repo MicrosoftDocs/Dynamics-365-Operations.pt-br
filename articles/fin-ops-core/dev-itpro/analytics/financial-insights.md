@@ -2,8 +2,7 @@
 title: Análise financeira
 description: A análise financeira usa o Microsoft Power BI para reunir indicadores da chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros.
 author: kweekley
-manager: AnnBe
-ms.date: 05/22/2019
+ms.date: 04/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 22de5f3e2e475aa681be2d8868fb1d939f3f8638
-ms.sourcegitcommit: 4c57c16fe7ecd2a9840158aa69646ee47152e5f1
+ms.openlocfilehash: 71fd1ad15320fda162a289e9c5741aec2ce76778
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "5572357"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894899"
 ---
 # <a name="financial-analysis"></a>Análise financeira
 
@@ -65,10 +64,9 @@ Os dados da **Análise financeira** são recebidos do repositório de entidades 
 
 Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Análise financeira**:
 
-- BudgetActivityMeasure
 - Dados de transação de relatórios financeiros versão 3 
+- Crédito e cobranças V2
 - CustCollectionsBIMeasurements
-- LedgerActivityMeasure
 - LedgerCovLiquidityMeasurement
 - Cubo de Compras
 - Cubo de Vendas
@@ -241,9 +239,9 @@ O Power BI não tem uma opção para ocultar e mostrar linhas vazias. Se uma lin
 
 As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Análise financeira** em um ambiente de produção. Em vez disso, elas são úteis para caixas de desenvolvimento e se você quiser incorporar seus relatórios do Power BI.
 
-- [Como acessar espaços de trabalho analíticos e relatórios em um ambiente de 1 caixa](https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/)
+- [Como acessar espaços de trabalho analíticos e relatórios em um ambiente de 1 caixa](/archive/blogs/dynamicsaxbi/accessing-analytical-workspaces-on-1box-environment)
 
-- [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
+- [​Adicionar análise a espaços de trabalho usando o Power BI Embedded](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

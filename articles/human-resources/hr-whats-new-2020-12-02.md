@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7d9ecea08f5095e7fa8501d690bbabbd54e6501
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d95c92fe15f4dfe77d2bc8a153f86165c17edb4e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802230"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892624"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-december-2-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources para 2 de dezembro de 2020
 
@@ -30,7 +30,7 @@ Este tópico descreve recursos que são novos, alterados ou que em breve serão 
 
 Para obter mais informações sobre nosso processo de atualização e agenda, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
-Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Para obter mais informações sobre novos recursos e suas datas de disponibilidade geral esperadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="in-this-release"></a>Nesta versão
 
@@ -42,10 +42,10 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 
 | Recurso | Liberar planos | Documentação |
 | --- | --- | --- |
-| Os gerentes podem enviar solicitações de recrutamento para vagas | [Os gerentes podem enviar uma solicitação de recrutamento para vagas em aberto](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Adicionar uma solicitação de recrutamento](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Perfil de candidato avançado no Gerenciamento de pessoal | [Perfil de candidato avançado no gerenciamento de pessoal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Adicionar ou editar um perfil de candidato](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Habilitar integrações simplificadas com provedores de recrutamento | [Habilitar integrações simplificadas com provedores de recrutamento](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recrutar candidatos ao trabalho](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
-| Links personalizados no Autoatendimento para gerentes | [Links personalizados no autoatendimento para gerentes](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Links personalizados no autoatendimento para gerentes](https://aka.ms/MSSCustomLinks) |
+| Os gerentes podem enviar solicitações de recrutamento para vagas | [Os gerentes podem enviar uma solicitação de recrutamento para vagas em aberto](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Adicionar uma solicitação de recrutamento](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Perfil de candidato avançado no Gerenciamento de pessoal | [Perfil de candidato avançado no gerenciamento de pessoal](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Adicionar ou editar um perfil de candidato](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Habilitar integrações simplificadas com provedores de recrutamento | [Habilitar integrações simplificadas com provedores de recrutamento](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recrutar candidatos ao trabalho](./hr-personnel-recruit.md) |
+| Links personalizados no Autoatendimento para gerentes | [Links personalizados no autoatendimento para gerentes](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/custom-links-manager-self-service) | [Links personalizados no autoatendimento para gerentes](./hr-employee-manager-self-service-custom-links.md) |
 
 
 ### <a name="bug-fixes"></a>Correções de bug
@@ -72,23 +72,23 @@ Os novos recursos a seguir estão em versão preliminar. Para obter mais informa
 
 | Recurso | Plano de versão | Documentação |
 | --- | --- | --- |
-| Aplicativo Human Resources no Microsoft Teams | [Experiência de licença e ausência de funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841)<br>[Gerenciar solicitações de licença no Teams](hr-teams-leave-app.md) |
-| Aprovações e solicitações de fluxo de trabalho avançadas | [Aprimoramentos da experiência de fluxo de trabalho de gerenciamento de organização e pessoal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opção de configuração para posicionar a lista Itens de trabalho atribuídos a mim](https://docs.microsoft.com/dynamics365/human-resources/hr-whats-new-2020-09-03#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
-| Integração com o LinkedIn Talent Hub | [Integração com o LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integrar com o LinkedIn Talent Hub](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-integration-linkedin) |
-|Exibição de licenças interempresariais para gerentes | [Exibição de licenças interempresariais de funcionários para gerentes](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurar parâmetros de licença e ausência](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-parameters) |
-|Fornecer insight adicional sobre saldos de licenças| [Fornecer insight adicional sobre saldos de licenças](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Gerenciar licença de funcionário](https://docs.microsoft.com/dynamics365/human-resources/hr-leave-and-absence-manage-employee-leave) |
-| Os gerentes podem enviar solicitações de recrutamento para vagas | [Os gerentes podem enviar uma solicitação de recrutamento para vagas em aberto](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Adicionar uma solicitação de recrutamento](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-a-recruiting-request) |
-| Perfil de candidato avançado no Gerenciamento de pessoal | [Perfil de candidato avançado no gerenciamento de pessoal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Adicionar ou editar um perfil de candidato](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit#add-or-edit-a-candidate-profile) |
-| Habilitar integrações simplificadas com provedores de recrutamento | [Habilitar integrações simplificadas com provedores de recrutamento](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recrutar candidatos ao trabalho](https://docs.microsoft.com/dynamics365/human-resources/hr-personnel-recruit) |
+| Aplicativo Human Resources no Microsoft Teams | [Experiência de licença e ausência de funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) | [Aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md)<br>[Gerenciar solicitações de licença no Teams](hr-teams-leave-app.md) |
+| Aprovações e solicitações de fluxo de trabalho avançadas | [Aprimoramentos da experiência de fluxo de trabalho de gerenciamento de organização e pessoal](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) | [Opção de configuração para posicionar a lista Itens de trabalho atribuídos a mim](./hr-whats-new-2020-09-03.md#configuration-option-to-position-work-items-assigned-to-me-list-477004) |
+| Integração com o LinkedIn Talent Hub | [Integração com o LinkedIn Talent Hub](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/integration-linkedin-talent-hub) | [Integrar com o LinkedIn Talent Hub](./hr-admin-integration-linkedin.md) |
+|Exibição de licenças interempresariais para gerentes | [Exibição de licenças interempresariais de funcionários para gerentes](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/cross-company-view-employee-leave-managers) | [Configurar parâmetros de licença e ausência](./hr-leave-and-absence-parameters.md) |
+|Fornecer insight adicional sobre saldos de licenças| [Fornecer insight adicional sobre saldos de licenças](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/provide-additional-insight-into-leave-balances) | [Gerenciar licença de funcionário](./hr-leave-and-absence-manage-employee-leave.md) |
+| Os gerentes podem enviar solicitações de recrutamento para vagas | [Os gerentes podem enviar uma solicitação de recrutamento para vagas em aberto](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/manager-submit-request-recruit-open-positions) | [Adicionar uma solicitação de recrutamento](./hr-personnel-recruit.md#add-a-recruiting-request) |
+| Perfil de candidato avançado no Gerenciamento de pessoal | [Perfil de candidato avançado no gerenciamento de pessoal](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enhanced-candidate-profile-personnel-management) | [Adicionar ou editar um perfil de candidato](./hr-personnel-recruit.md#add-or-edit-a-candidate-profile) |
+| Habilitar integrações simplificadas com provedores de recrutamento | [Habilitar integrações simplificadas com provedores de recrutamento](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/enable-simplified-integration-recruiting-providers) | [Recrutar candidatos ao trabalho](./hr-personnel-recruit.md) |
 
 ## <a name="coming-soon"></a>Em breve
 
-Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
+Para obter uma lista completa de recursos planejados e suas versões agendadas, consulte [Visão geral do Dynamics 365 Human Resources 2020 ciclo de lançamentos 2](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/).
 
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral do ciclo de lançamentos 2 de 2020 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
+[Visão geral do ciclo de lançamentos 2 de 2020 do Dynamics 365 Human Resources](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
 

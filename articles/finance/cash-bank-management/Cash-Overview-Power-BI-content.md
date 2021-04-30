@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 794a8b19224858a690f2b857c0d7278ed177d531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d070ddd350bc1ca9edb311cfd9f015aca1e7cc78
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830583"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897443"
 ---
 # <a name="cash-overview-power-bi-content"></a>Conteúdo de visão geral do caixa do Power BI
 
@@ -38,7 +38,7 @@ A configuração a seguir precisa ser concluída para que os dados sejam exibido
 2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
 3. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
 4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
-5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-flow-forecasting). 
+5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](./cash-flow-forecasting.md). 
 6. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI

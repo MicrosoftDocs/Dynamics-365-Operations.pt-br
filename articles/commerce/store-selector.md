@@ -2,7 +2,8 @@
 title: Módulo de seletor de loja
 description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e73338666c0bd8c0dc8df840b308ec758ee812dd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798624"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853408"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
@@ -32,11 +33,32 @@ Os clientes podem usar o módulo de seletor de loja para retirar um produto em u
 
 O módulo de seletor de loja permite que os usuários insiram um local (cidade, estado, endereço, etc.) para procurar lojas em um raio de pesquisa. Ao abrir o módulo pela primeira vez, ele usará o local do navegador do cliente para localizar lojas (se esse recurso tiver sido autorizado).
 
-## <a name="store-selector-module-usage-in-e-commerce"></a>Uso do módulo de seletor de loja no comércio eletrônico
+## <a name="store-selector-module-usage"></a>Uso do módulo de seletor de loja
 
 - Um módulo de seletor de loja pode ser usado na página de detalhes de um produto (PDP) para selecionar uma loja onde será feita a retirada.
 - Um módulo de seletor de loja pode ser usado na página de um carrinho para selecionar uma loja onde será feita a retirada.
 - Um módulo de seletor de loja pode ser usado em uma página autônoma que mostra todas as lojas disponíveis.
+
+## <a name="fulfillment-group-setup-in-commerce-headquarters"></a>Configuração do grupo de atendimento na matriz do Commerce
+
+Para que o seletor de loja exiba os armazenamentos disponíveis, o grupo de atendimento deve ser configurado no na matriz do Commerce. Para obter mais informações, consulte [Configurar grupos de atendimento](customer-orders-overview.md#set-up-fulfillment-groups).
+
+Além disso, para cada loja no grupo de atendimento, a latitude e a longitude do local de armazenamento devem ser definidas na matriz.
+
+Para inserir os valores de latitude e longitude da localização de uma loja na matriz do Commerce, siga estas etapas.
+
+1. Acesse **Gerenciamento do estoque \> Configuração \> Detalhamento do estoque**.
+1. Selecione a localização do depósito no painel à esquerda.
+1. Na FastTabe **Endereços**, selecione **Avançado**.
+
+    ![Exemplo de informações da loja na matriz](./media/Store-address.png)
+
+1. No Painel de Ações, selecione **Editar**.
+1. Na FastTab **Geral**, insira valores de **Latitude** e **Longitude**.
+
+    ![Exemplo de configuração de latitude e longitude para uma loja na matriz](./media/Store-latitude-longitude.png)
+
+1. No Painel de ações, selecione **Salvar**. 
 
 ## <a name="bing-maps-integration"></a>Integração do Bing Maps
 
@@ -48,6 +70,7 @@ Para a API REST da Sugestão Automática, é necessário garantir que as seguint
 - Para a diretiva **img-src**, adicione **&#42;.virtualearth.net**.
 - Para a diretiva **script-src**, **adicione &#42;.bing.com, &#42;.virtualearth.net**.
 - Para a diretiva **script style-src**, adicione **&#42;.bing.com**.
+
  
 ## <a name="pickup-in-store-mode"></a>Modo Retirar na loja
 

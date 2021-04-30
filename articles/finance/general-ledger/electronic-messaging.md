@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 42896c85fe72690aadafb878eb7e899c6fe10c32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd49edeb92e6a23723b1b6b6ea7800b69a81bd0f
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823779"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897591"
 ---
 # <a name="electronic-messaging"></a>Mensagens eletrônicas
 
@@ -29,7 +29,7 @@ Recentemente, as instituições governamentais e as autoridades legislativas de 
 
 A funcionalidade Mensagens eletrônicas do Finance dá suporte a diversos processos de interoperação eletrônica entre o Finance e os sistemas que as autoridades governamentais e legislativas oferecem para relatórios, envios e recebimento de informações oficiais.
 
-A funcionalidade Sistema de mensagens eletrônicas está integrada ao módulo **Relatório Eletrônico** (ER). Portanto, você pode configurar formatos de ER para mensagens eletrônicas. Para obter mais informações, consulte [Relatório eletrônico (ER)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
+A funcionalidade Sistema de mensagens eletrônicas está integrada ao módulo **Relatório Eletrônico** (ER). Portanto, você pode configurar formatos de ER para mensagens eletrônicas. Para obter mais informações, consulte [Relatório eletrônico (ER)](/dynamics365/unified-operations/dev-itpro/analytics/general-electronic-reporting).
 
 O sistema de mensagens eletrônicas se baseia nestas entidades:
 
@@ -56,7 +56,7 @@ A funcionalidade Mensagens eletrônicas dá suporte aos seguintes cenários:
 
 ## <a name="set-up-electronic-messaging"></a>Configurar o sistema de mensagens eletrônicas
 
-O sistema de mensagens eletrônicas pode ajudar você a manter diferentes processos de relatórios eletrônicos para tipos de documento diferentes. Em alguns cenários complexos, o sistema de mensagens eletrônicas é configurado de forma que ele tenha uma combinação de um status de mensagens, status de itens de mensagem, ações, campos adicionais e classes executáveis. Para esses cenários, os pacotes de entidades de dados estão disponíveis para importação. Se usar esses pacotes de entidade de dados, você deverá importá-los para uma entidade legal usando a Ferramenta de gerenciamento de dados. Para obter mais informações sobre como usar a Ferramenta de gerenciamento de dados, consulte [Gerenciamento de dados](../../dev-itpro/data-entities/data-entities-data-packages.md).
+O sistema de mensagens eletrônicas pode ajudar você a manter diferentes processos de relatórios eletrônicos para tipos de documento diferentes. Em alguns cenários complexos, o sistema de mensagens eletrônicas é configurado de forma que ele tenha uma combinação de um status de mensagens, status de itens de mensagem, ações, campos adicionais e classes executáveis. Para esses cenários, os pacotes de entidades de dados estão disponíveis para importação. Se usar esses pacotes de entidade de dados, você deverá importá-los para uma entidade legal usando a Ferramenta de gerenciamento de dados. Para obter mais informações sobre como usar a Ferramenta de gerenciamento de dados, consulte [Gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).
 
 Se não importar um pacote de entidades de dados, você poderá configurar manualmente a funcionalidade Sistema de mensagens eletrônicas. Nesse caso, você deve configurar os seguintes elementos:
 

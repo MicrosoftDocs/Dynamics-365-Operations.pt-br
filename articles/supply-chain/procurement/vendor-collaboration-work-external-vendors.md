@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d8d2b1f98803bc159d3164d4a7c883e088ca7e56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f0ed7d3344b43c477923ebd8c69acfb6630e6f4
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837648"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910392"
 ---
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
@@ -33,7 +33,7 @@ Para saber mais sobre o que os fornecedores externos podem fazer na interface de
 > [!NOTE]
 > As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Supply Chain Management. No Microsoft Dynamics AX 7.0. (fevereiro de 2016) e no aplicativo do Microsoft Dynamics AX versão 7.0.1 (maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
-Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
+Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
 ## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Definindo as informações mostradas aos fornecedores quando eles respondem a OCs
 

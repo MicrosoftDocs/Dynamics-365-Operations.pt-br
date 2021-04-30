@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fe8969345b8499bacfeecb0a1535174ce988eabc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 31bfc203e9db28acee4b5b52b36f64d90dc4f714
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837408"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909246"
 ---
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-supply-chain-management"></a>Atualizar o gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Supply Chain Management 
 
@@ -66,7 +66,7 @@ Para usar produtos lançados no módulo **Gerenciamento de depósito**, os produ
 1.  Crie pelo menos um novo perfil de localização.
 2.  Clique em **Gerenciamento de depósito** &gt; **Configuração** &gt; **Habilitar processos de gerenciamento de depósito** &gt; **Habilitar configuração de depósito**.
 3.  Na página **Habilitar configuração de depósito**, adicione os depósitos que devem ser habilitados. Você pode concluir esta etapa diretamente na página ou usando a integração do Microsoft Office.
-4.  Atribua um perfil de local a todos os locais. Você pode facilmente completar esta etapa usando a integração do Microsoft Office diretamente da página. Você pode exportar e importar os dados ou usar o processamento da entidade de dados em [Gerenciamento de dados](../../dev-itpro/data-entities/data-entities.md).
+4.  Atribua um perfil de local a todos os locais. Você pode facilmente completar esta etapa usando a integração do Microsoft Office diretamente da página. Você pode exportar e importar os dados ou usar o processamento da entidade de dados em [Gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 5.  Valide as alterações. Como parte do processo de validação, ocorrem várias validações de integridade de dados. Como parte de um processo de atualização maior, os problemas que ocorrem podem ter que ser ajustados na implementação de origem. Neste caso, será necessária uma atualização adicional de dados.
 6.  Processe as alterações.
 
@@ -77,7 +77,7 @@ Para usar produtos lançados no módulo **Gerenciamento de depósito**, os produ
 3.  Na página **Hierarquia de reserva**, defina uma nova hierarquia de reserva de acordo com os grupos de dimensão de rastreamento e de armazenamento de item.
 4.  Crie um ou mais grupos de sequência de unidade incluindo pelo menos as mesmas unidades usadas para as unidades de estoque de itens.
 5.  Clique em **Gerenciamento de depósito** &gt; **Configuração** &gt; **Habilitar processos de gerenciamento de depósito** &gt; **Alterar grupo de dimensão de estoque para itens**.
-6.  Na página **Alterar grupo de dimensão de estoque para itens**, adicione os números de item, os grupos de dimensões de estoque, e os grupos de sequências unitários. Você pode concluir esta etapa diretamente na página, usando a integração do Microsoft Office ou usando o processo de entidade de dados em [Gerenciamento de dados](../../dev-itpro/data-entities/data-entities.md).
+6.  Na página **Alterar grupo de dimensão de estoque para itens**, adicione os números de item, os grupos de dimensões de estoque, e os grupos de sequências unitários. Você pode concluir esta etapa diretamente na página, usando a integração do Microsoft Office ou usando o processo de entidade de dados em [Gerenciamento de dados](../../fin-ops-core/dev-itpro/data-entities/data-entities.md).
 7.  Valide as alterações. Como parte do processo de validação, ocorrem várias validações de integridade de dados. Como parte de um processo de atualização maior, os problemas que ocorrem podem ter que ser ajustados na implementação de origem. Neste caso, será necessária uma atualização adicional de dados.
 8.  Processe as alterações. Uma atualização das dimensões do estoque pode demorar um pouco. Você pode monitorar o progresso usando as tarefas de trabalhos em lote.
 

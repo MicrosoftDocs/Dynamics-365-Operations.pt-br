@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2a0bcb5266472b3d0e936d27c9f599d2c6b16d7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7642b26be08427ccbef3929f2a2e083ce43d4e75
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819641"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897395"
 ---
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
@@ -144,7 +144,7 @@ O espaço de trabalho **Visão geral de caixa – todas as empresas** mostra a a
 
 O espaço de trabalho **Visão geral de caixa – empresa atual** mostra a análise da previsão de fluxo de caixa na moeda contábil definida da empresa. A moeda contábil usada para a análise é definida na página **Razão**. Este espaço de trabalho mostra uma visão geral dos saldos da conta bancária e de previsão de fluxo de caixa para a empresa atual. Um plano dos fluxos de entrada e de saída de caixa oferece uma visão geral dos movimentos futuros de caixa e os saldos na moeda contábil, com informações detalhadas sobre as transações de previsão. Você também pode consultar os saldos da moeda previstos.
 
-Para obter mais informações sobre a análise da previsão de fluxo de caixa, consulte o tópico [Visão geral do conteúdo do Power BI](https://docs.microsoft.com/dynamics365/finance/cash-bank-management/cash-overview-power-bi-content).
+Para obter mais informações sobre a análise da previsão de fluxo de caixa, consulte o tópico [Visão geral do conteúdo do Power BI](./cash-overview-power-bi-content.md).
 
 Além disso, é possível exibir dados de previsão de fluxo de caixa para contas, ordens e itens específicos nas páginas seguintes:
 

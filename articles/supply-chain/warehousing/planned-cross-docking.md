@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 49807c90c145eee55fae2d515fd19925eb2d944c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11e044e04e05c68af676bf97e6085e9975da5c1d
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810405"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911239"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -28,19 +28,21 @@ Este tópico descreve a distribuição integrada planejada avançada. A distribu
 
 A distribuição integrada permite aos trabalhadores ignorar o armazenamento de entrada e a separação de saída de um estoque que já esteja marcado para uma ordem de saída. Portanto, o número de vezes que o estoque é tocado é minimizado, sempre que possível. Além disso, como há menos interação com o sistema, a economia de tempo e espaço no chão de fábrica do depósito aumenta.
 
-Para que a distribuição integrada possa ser executada, o usuário deve configurar um novo modelo de distribuição integrada, no qual a fonte de fornecimento e outros conjuntos de requisitos para distribuição integrada sejam especificados. Conforme a ordem de saída é criada, a linha deve ser marcada em relação a uma ordem de entrada que contenha o mesmo item.
+Antes de executar a distribuição integrada, você deve configurar um novo modelo de distribuição integrada, no qual a fonte de fornecimento e outros conjuntos de requisitos para distribuição integrada sejam especificados. Conforme a ordem de saída é criada, a linha deve ser marcada em relação a uma ordem de entrada que contenha o mesmo item. Você pode selecionar o campo de código de diretriz no modelo de distribuição integrada, semelhante à forma como configura reabastecimento e ordens de compra.
 
 No momento do recebimento da ordem de entrada, a configuração da distribuição integrada identifica automaticamente a necessidade de distribuição integrada e cria o trabalho de movimento para a quantidade necessária, com base na configuração da diretiva de localização.
 
 > [!NOTE]
-> As transações de estoque **não** têm seu registro cancelado quando o trabalho de distribuição integrada é cancelado, mesmo que a configuração para esse recurso esteja ativada nos Parâmetros de gerenciamento de depósito.
+> As transações de estoque *não* têm seu registro cancelado quando o trabalho de distribuição integrada é cancelado, mesmo que a configuração para esse recurso esteja ativada nos Parâmetros de gerenciamento de depósito.
 
 ## <a name="turn-on-the-planned-cross-docking-features"></a>Ativar os recursos de distribuição integrada planejada
 
 Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative os seguintes recursos nesta ordem:
 
 1. *Distribuição integrada planejada*
-2. *Modelos de distribuição integrada com diretivas de localização*
+1. *Modelos de distribuição integrada com diretivas de localização*
+    > [!NOTE]
+    > Este recurso permite que o campo **Código de diretriz** seja especificado no modelo de distribuição integrada, semelhante à forma como você configura os modelos de reabastecimento. Habilitar esse recurso impedirá que você adicione um código de diretriz nas linhas do modelo de trabalho de distribuição integrada para a última linha *Colocar*. Isso garante que o local colocado final possa ser determinado durante a criação do trabalho antes de considerar os modelos de trabalho.
 
 ## <a name="setup"></a>Configurar
 
@@ -90,7 +92,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
     - **Código de diretiva:** deixe este campo em branco
 
-        Esta opção permite que o sistema use diretivas de localização para ajudar a determinar o melhor local de destino para o estoque de distribuição integrada. Você pode configurá-la atribuindo um código de diretiva a cada modelo de distribuição integrada relevante. Cada código de diretiva identifica uma diretiva de local exclusiva.
+        Esta opção é habilitada pelo recurso *Modelos de distribuição integrada com diretivas de localização*. O sistema usa diretivas de localização para ajudar a determinar o melhor local de destino para o estoque de distribuição integrada. Você pode configurá-la atribuindo um código de diretiva a cada modelo de distribuição integrada relevante. Se um código de diretiva estiver definido, o sistema pesquisará diretivas de localização por código de diretiva quando o trabalho for gerado. Dessa forma, você pode limitar as diretivas de localização usadas para um modelo de distribuição integrada específico.
 
     - **Validar janela de tempo:** *Sim*
 

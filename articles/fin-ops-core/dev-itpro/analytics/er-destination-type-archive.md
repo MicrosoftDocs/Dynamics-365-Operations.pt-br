@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 18c662fee0cedaa55f63ffeb25b0d61ee7baffda
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753519"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894019"
 ---
 # <a name="archive-er-destination-type"></a>Tipo de destino de ER do arquivo
 
@@ -28,7 +28,7 @@ ms.locfileid: "5753519"
 
 Você pode configurar um destino de arquivo para cada componente de **Pasta** ou **Arquivo** de um formato de ER (Relatório eletrônico) que está configurado para gerar documentos de saída. Com base na configuração de destino, um documento gerado é armazenado como um anexo de um registro da lista de trabalhos do ER. Para exibir os resultados, vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
 
-Você pode usar essa opção para enviar o documento gerado para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os [tipos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) de documento em **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
+Você pode usar essa opção para enviar o documento gerado para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os [tipos](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documento em **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
 [![Página Tipos de documento](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 

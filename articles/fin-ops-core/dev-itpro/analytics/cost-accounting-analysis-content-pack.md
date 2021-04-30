@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e9253537b7d306384747ca1e492def13c48aa678
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 424135233ffdc73d17336ec4e3e97ccd52dab1ff
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755491"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893319"
 ---
 # <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo de análise de contabilização de custos do Power BI
 
@@ -40,7 +40,7 @@ Para saber mais sobre contabilização de custos, consulte [Pagina inicial de co
 Definindo a segurança no nível de acesso em Contabilização de custos e combinando-a com a segurança no nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo de **Análise de contabilização de custos** do Power BI. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança nos níveis de acesso e de linha, consulte [Configurar segurança do conteúdo do Power BI da análise de contabilização de custos](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo de **Análise de contabilização de custos** do Power BI na biblioteca de ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Você pode encontrar o conteúdo de **Análise de contabilização de custos** do Power BI na biblioteca de ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 
 Você deve baixar o conteúdo de **Análise de contabilidade de custos** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 

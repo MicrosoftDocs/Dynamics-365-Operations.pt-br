@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2cf11dc56ed571cfdb79d2dba3fa3e7c08f75507
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 78c245834dcb61afa826ccef5d471b2b4116990c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809917"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891143"
 ---
 # <a name="united-states"></a>Estados Unidos 
 
@@ -31,8 +31,8 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Visão geral de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting.md)
-- [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
+- [Visão geral de Relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md)
+- [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
 - [Portal de localização do Microsoft Dynamics: relatório da Austrália (exige uma conta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/unitedstates.html)
 
 

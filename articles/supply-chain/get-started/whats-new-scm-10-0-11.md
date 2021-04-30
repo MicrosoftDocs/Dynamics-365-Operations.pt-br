@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: fa6a57266838fff4c34384337200fc6f24cbe640
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b66fd7c0ca79f21ff51beee22e4fc57c37a1904
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821168"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909588"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10011-july-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.11 (julho de 2020)
 
@@ -33,19 +33,19 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
+Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
-- [Armazenamento de relatório de estoque disponível](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
+- [Armazenamento de relatório de estoque disponível](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/inventory-on-hand-report-storage)
 
-- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
+- [Aprimoramentos de recebimento da placa de licença para o aplicativo de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/license-plate-receiving-enhancements-warehousing-mobile-app)<br> - Para obter mais informações, consulte [Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito](../warehousing/warehousing-mobile-device-app-license-plate-receiving.md).
 
-- [Aprimoramentos da reserva de linha para o formulário de reserva de número de lote](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Para obter mais informações, consulte [Reservar o mesmo lote para uma ordem de venda](../sales-marketing/reserve-same-batch-sales-order.md).
+- [Aprimoramentos da reserva de linha para o formulário de reserva de número de lote](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/line-reservation-enhancements-batch-number-reservation-form)<br> - Para obter mais informações, consulte [Reservar o mesmo lote para uma ordem de venda](../sales-marketing/reserve-same-batch-sales-order.md).
 
-- [Novas entidades de dados da área de fabricação](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Novas entidades de dados da área de fabricação](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Recebimento a mais de quantidade de carga](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
+- [Recebimento a mais de quantidade de carga](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
 
-- [Relatar como concluído nos números do lote do dispositivo da ficha de trabalho](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Para obter mais informações, consulte [Relatar como concluído no dispositivo de ficha de trabalho](../production-control/report-finished-job-device.md).
+- [Relatar como concluído nos números do lote do dispositivo da ficha de trabalho](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/report-as-finished-batch-numbers-job-card-device)<br> - Para obter mais informações, consulte [Relatar como concluído no dispositivo de ficha de trabalho](../production-control/report-finished-job-device.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -61,7 +61,7 @@ Para obter informações sobre as correções de bug incluídas em cada uma das 
 
 Quer saber sobre os futuros recursos e as funcionalidades lançadas recentemente em nossos aplicativos ou plataforma de negócios?
 
-Confira o [Dynamics 365: plano do ciclo de lançamentos 2 de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
+Confira o [Dynamics 365: plano do ciclo de lançamentos 1 de 2020](/dynamics365-release-plan/2020wave1/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 

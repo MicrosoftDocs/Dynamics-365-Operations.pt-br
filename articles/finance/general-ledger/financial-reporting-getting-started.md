@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d37af06a33667f7cfe5df182d5197dee5edc912b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de7f7f5f501024b7698736ded80405b9291cb58
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811278"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897027"
 ---
 # <a name="get-started-with-financial-reporting"></a>Introdução ao Financial Reporting 
 
@@ -148,7 +148,7 @@ Problema 1: o Designer de Relatórios não inicia quando você seleciona **Novo*
 * No Internet Explorer, selecione **Configurações** e **Opções da Internet**. Selecione a guia **Segurança**. Selecione Sites Confiáveis. Na área Nível de segurança desta zona, mude a opção para **Médio-baixo**.
 * Desabilite o bloqueador de pop-up no navegador.
 * As estações de trabalho devem instalar o Microsoft .NET Framework 4.6.2 ou posterior. Esta versão do Microsoft .NET Framework pode ser baixada e instalada do [Centro de Download da Microsoft](https://www.microsoft.com/download/details.aspx?id=53345).
-* Se você estiver usando o navegador Chrome, deverá instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo incógnito do Chrome, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Para obter mais informações sobre a Extensão ClickOnce do Chrome, consulte [Requisitos de sistema para implantações na nuvem](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/system-requirements).
+* Se você estiver usando o navegador Chrome, deverá instalar uma extensão ClickOnce para baixar o cliente do Designer de Relatórios. Se estiver executando no modo incógnito do Chrome, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Para obter mais informações sobre a Extensão ClickOnce do Chrome, consulte [Requisitos de sistema para implantações na nuvem](../../fin-ops-core/fin-ops/get-started/system-requirements.md).
 * Se você estiver usando o Microsoft Edge com um navegador Chrome, não será necessário instalar uma extensão ClickOnce para o Edge Chromium. No entanto, você deve habilitar a opção ClickOnce a fim de baixar o cliente do Designer de Relatórios. Se estiver executando no modo anônimo, verifique se a extensão ClickOnce está habilitada para esse modo.
      1. Abra um novo navegador no Microsoft Edge.
      2. Insira **edge://flags** e selecione **Enter**.
