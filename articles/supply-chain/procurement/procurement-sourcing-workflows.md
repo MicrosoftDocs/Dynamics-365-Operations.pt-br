@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fd9ee69e180f2ff605c4f373a95d2346ccc73c0e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807935"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909222"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 
@@ -47,7 +47,7 @@ Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
 | Fluxo de trabalho da solicitação de emprego adicionada pelo fornecedor | Criar fluxos de trabalho da revisão e de aprovação para adicionar novos fornecedores por meio de solicitações de fornecedor. |
 
 > [!IMPORTANT]
-> Ao adicionar um novo fluxo de trabalho, talvez você também veja os seguintes fluxos de trabalho obsoletos listados na caixa de diálogo **Criar fluxo de trabalho**. Eles estão relacionados à funcionalidade *confirmação de recebimento* que estava disponível no [Dynamics AX 2012](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mas que agora foi preterida. Não há suporte para esses fluxos de trabalho no momento.
+> Ao adicionar um novo fluxo de trabalho, talvez você também veja os seguintes fluxos de trabalho obsoletos listados na caixa de diálogo **Criar fluxo de trabalho**. Eles estão relacionados à funcionalidade *confirmação de recebimento* que estava disponível no [Dynamics AX 2012](/dynamicsax-2012/appuser-itpro/set-up-procurement-and-sourcing-workflows), mas que agora foi preterida. Não há suporte para esses fluxos de trabalho no momento.
 > 
 > - Fluxo de trabalho da notificação de data de vencimento da entrega
 > - Fatura recebeu fluxo de trabalho da notificação

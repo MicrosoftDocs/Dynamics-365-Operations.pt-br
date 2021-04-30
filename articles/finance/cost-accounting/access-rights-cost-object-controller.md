@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a3639c05b24de31cfa09d2d9d0cf427122f51eae
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa8faf0f0f45f901151b3b20a1792b3d8f264fa6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810189"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897615"
 ---
 # <a name="access-rights-for-cost-object-controllers"></a>​Direitos de acesso de controladores de objeto de custo
 
@@ -62,9 +62,8 @@ O exemplo a seguir mostra como pode ser uma hierarquia de dimensões.
 
 Você pode usar a Guia Rápida **Usuários** no designer de hierarquia para inserir uma ou várias ids de usuário em cada nó.
 
-|                                   | Usuários            | Intervalos de membros de dimensão   |                         |
+|             Nós                 | Usuários            | Membro de dimensão de origem     |   Membro de dimensão de destino   |
 |-----------------------------------|------------------|---------------------------|-------------------------|
-| **Nós**                         | **ID do Usuário**      | **Membro da dimensão de origem** | **Membro da dimensão de destino** |
 | Organização                      | Benjamin, Claire |                           |                         |
 | &nbsp;&nbsp;Administrador                 | Abril            |                           |                         |
 | &nbsp;&nbsp;&nbsp;&nbsp;Finanças   | Alicia           | CC002                     | CC003                   |
@@ -95,14 +94,14 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
     - Visualizações de dados do Power BI incorporadas no cliente do Dynamics 365 Finance
 
 > [!IMPORTANT]
-> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
+> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).
 > - Esta seção mostra os pré-requisitos que devem estar em vigor para usar o espaço de trabalho **Controle de custos**.
 
 Recursos adicionais
 
 - [Espaço de trabalho de controle de custos](cost-control-workspace.md)
 - [Hierarquia da dimensão](dimension-hierarchy.md)
-- [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
+- [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../fin-ops-core/dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

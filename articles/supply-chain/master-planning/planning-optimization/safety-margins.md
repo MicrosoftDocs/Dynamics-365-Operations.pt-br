@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7b66951b9c742af4aa11f681af8f9583a2d97d8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841854"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908284"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -87,7 +87,7 @@ Observe que quando uma margem de saída é aplicada, as datas obrigatórias e de
 
 ### <a name="turn-on-safety-margins-in-feature-management"></a>Ativar margens de segurança no Gerenciamento de recursos
 
-Antes de poder usar esse recurso com a Otimização de Planejamento, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+Antes de poder usar esse recurso com a Otimização de Planejamento, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
 
 - **Módulo:** _Planejamento mestre_
 - **Nome do recurso:** _Margens da Otimização de Planejamento_

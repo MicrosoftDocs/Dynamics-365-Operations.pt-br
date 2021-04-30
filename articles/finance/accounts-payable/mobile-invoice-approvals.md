@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5d3b85e076292b9d41de6a4cf3198ed9b38d27c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828025"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897687"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
@@ -32,7 +32,7 @@ Os recursos móveis permitem que um usuário corporativo crie experiências móv
 
 | Pré-requisito                                                                                            | descrição                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pré-leitura do manual móvel                                                                                |[Plataforma móvel](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
+| Pré-leitura do manual móvel                                                                                |[Plataforma móvel](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 Finance                                                                              | Um ambiente com a versão 1611 e a Platform update 3 (novembro de 2016)                   |
 | Instalar hotfix KB 3204341.                                                                              | O gravador de tarefas pode registrar erroneamente dois comandos Fechar para caixas de diálogo suspensas; isso está incluído na Platform update 3 (atualização de novembro de 2016). |
 | Instalar hotfix KB 3207800.                                                                              | Este hotfix habilita a exibição de anexos no cliente móvel; isso está incluído na Platform update 3 (atualização de novembro de 2016).           |
@@ -60,7 +60,7 @@ O design da experiência móvel para aprovações de fatura será diferente, dep
 
 Como regra geral, ao trabalhar com o designer móvel, certifique-se de “publicar” as alterações para evitar perda de atualizações.
 
-## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Como criar um cenário simples de aprovação de fatura para Contoso
+## <a name="designing-a-simple-invoice-approval-scenario-for-contoso"></a>Como criar um cenário simples de aprovação de fatura para a Contoso
 <table>
 <colgroup>
 <col width="50%" />
@@ -213,7 +213,7 @@ Para criar a página de detalhes da fatura para dispositivos móveis, use a pág
 
 11. Depois que todos os campos das duas etapas anteriores terem sido adicionados, clique em **Concluído**. A página deve ser semelhante à ilustração a seguir.
     
-    [![Página após os campos serem adicionados](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Ilustração mostrando outros campos adicionados](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Clique em **Concluído** para sair do modo de edição.
 

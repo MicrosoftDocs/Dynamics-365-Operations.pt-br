@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14a5e1cea5a249b6087ef87560dd06bc026dd129
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822122"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898201"
 ---
 # <a name="budget-planning-overview"></a>Visão geral de planejamento de orçamento
 
@@ -75,7 +75,7 @@ A ilustração a seguir mostra um exemplo em que a matriz corporativa estima os 
 
 Na página **Hierarquia da organização**, você pode especificar uma hierarquia organizacional como uma hierarquia de planejamento de orçamento para cada processo de planejamento de orçamento. A hierarquia de planejamento de orçamento não precisa corresponder a hierarquia organizacional padrão que é usada para outras finalidades. Como essa hierarquia é usada para agregar e distribuir dados, pode ser necessário ter uma estrutura diferente. No esquema do exemplo, os departamentos de vendas estão no nível da matriz que inclui os departamentos do orçamento e de finanças. Provavelmente, esta estrutura difere da estrutura usada para gerenciar operações dos departamentos de vendas. Somente uma hierarquia da organização pode ser atribuída a cada processo do plano do orçamento.
 
-Para obter mais informações, consulte [Organizações e hierarquias organizacionais](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
+Para obter mais informações, consulte [Organizações e hierarquias organizacionais](../../fin-ops-core/fin-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Segurança do usuário
 
@@ -163,7 +163,7 @@ Além das colunas para valores de orçamento, é possível definir colunas para 
 
 No esquema de exemplo, você pode querer criar colunas para os cenários "Vendas de PY", "Contratos" e "Previsão". (A ilustração a seguir mostra a seção relevante do esquema). Em seguida, você poderá dividir um desses cenários em colunas separadas para cada trimestre do ano fiscal, de modo que o gerente do departamento de vendas possa inserir os valores de previsão de cada período de maneira precisa.
 
-[![Colunas](./media/columns.png)](./media/columns.png)
+[![Ilustração de seções do esquema para adicionar colunas](./media/columns.png)](./media/columns.png)
 
 Você também pode especificar se cada elemento de layout (coluna) é editável e se está disponível no modelo que é criado para o layout. Para o esquema de exemplo, no layout usado para a fase "Estimativa", as colunas da "Previsão" são editáveis, mas as colunas de "Vendas de PY" e "Contratos" são somente leitura.
 

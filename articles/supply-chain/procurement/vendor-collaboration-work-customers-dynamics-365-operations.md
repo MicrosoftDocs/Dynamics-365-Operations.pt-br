@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-savanh
 ms.search.validFrom: 2020-11-01
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: c734b62dff6fc6151e192f239ad319b78f8faa8f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5931d718d34db81ebd032eda821f071d9d329a26
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825197"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908026"
 ---
 # <a name="vendor-collaboration-with-customers"></a>​Colaboração de fornecedores com clientes​
 
@@ -31,7 +31,7 @@ Este tópico descreve como você pode usar a colaboração do fornecedor para tr
 - **Confirmação de ordem de compra** – Monitora e responde às ordens de compra (OCs).
 - **Lance do fornecedor** – Exibe solicitações de quotações (RFQs) e as responde inserindo lances.
 - **Informações de fornecedor** – Exibe e atualiza dados mestre do fornecedor.
-- **Faturamento** – Trabalha com faturas. Este tópico não cobre o espaço de trabalho **Faturamento**. Para obter mais informações sobre este espaço de trabalho, consulte [Espaço de trabalho de faturamento da colaboração de fornecedores](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
+- **Faturamento** – Trabalha com faturas. Este tópico não cobre o espaço de trabalho **Faturamento**. Para obter mais informações sobre este espaço de trabalho, consulte [Espaço de trabalho de faturamento da colaboração de fornecedores](../../finance/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 Os fornecedores também podem monitoram informações sobre o estoque em consignação.
 

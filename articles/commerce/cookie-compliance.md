@@ -2,7 +2,7 @@
 title: Compatível com cookies
 description: Este tópico descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 08/31/2020
+ms.date: 04/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2cc2089bc3052c0c59cb0414f8301123a9a30df2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796018"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908175"
 ---
 # <a name="cookie-compliance"></a>Compatível com cookies
 
@@ -50,6 +50,57 @@ A tabela a seguir mostra a lista de referência atual de cookies colocados por s
 | x-ms-cpim-slice                             | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. |
 | x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Usado para manter a sessão SSO.                        |
 | x-ms-cpim-trans                             | Usado para rastrear transações (o número de guias abertas na autenticação de um site business-to-consumer (B2C)), incluindo a transação atual. |
+| \_msdyn365___muid_                            | Usado se a Experimentação estiver ativada para o ambiente, utilizado como userId para fins de experimentação. |
+| \_msdyn365___exp_                             | Usado se a Experimentação estiver ativada para o ambiente; usado para medir o balanceamento de carga de desempenho.         |
+
+
+
+Se um usuário do site selecionar qualquer link de mídia social em um site, os cookies na seguinte tabela também serão rastreados no navegador.
+
+
+| Domínio                      | Cookie               | descrição                                                  | Origem                                          |
+| --------------------------- | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| .linkedin.com                | UserMatchHistory         | Sincronização de ID de Anúncios do LinkedIn                                      | Tag do Feed e Insight do LinkedIn                                |
+| .linkedin.com               | li_sugr                  | Identificador do navegador                                           | Tag de Insight do LinkedIn se o endereço IP não estiver em um país designado |
+| .linkedin.com               | BizographicsOptOut       | Determina o status de recusa do acompanhamento de terceiros.              | Controles de convidados do LinkedIn e páginas de recusa do setor           |
+| .linkedin.com               | \_guid                    | Identificador do navegador do Google Ads.                            | Feed do LinkedIn                                                |
+| .linkedin.com               | li_oatml                 | Identificador indireto do membro para acompanhamento de conversões, redirecionamento e análise. | Tags de Anúncios e Insight do LinkedIn                                |
+| Vários domínios primários | li_fat_id                | Identificador indireto do membro para acompanhamento de conversões, redirecionamento e análise. | Tags de Anúncios e Insight do LinkedIn                                |
+| .adsymptotic.com            | U                        | Identificador do navegador                                           | Tag de Insight do LinkedIn se o endereço IP não estiver em um País Designado |
+| .linkedin.com                | bcookie                  | Cookie da ID do navegador                                            | Solicitações para o LinkedIn                                         |
+| .linkedin.com                | bscookie                 | Cookie de navegador seguro                                        | Solicitações para o LinkedIn                                         |
+| .linkedin.com               | lang                     | Define a localização e o idioma padrão.                                 | Solicitações para o LinkedIn                                         |
+| .linkedin.com                | lidc                     | Usado para roteamento.                                             | Solicitações para o LinkedIn                                         |
+| .linkedin.com               | aam_uuid                 | Cookie do gerenciador de público-alvo da Adobe                                                     | Definir para sincronização de ID                                              |
+| .linkedin.com               | \_ga                      | Cookie do Google Analytics                                            | Google Analytics                                             |
+| .linkedin.com               | \_gat                     | Cookie do Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | liap                     | Cookie do Google Analytics                                             | Google Analytics                                             |
+| .linkedin.com               | lissc                    |                                                              |                                                              |
+| .facebook.com               | c_user                   | O cookie contém a ID de usuário do usuário conectado no momento.  |   Facebook                                                           |
+| .facebook.com               | datr                     | Usado para identificar o navegador da Web usado para se conectar ao Facebook independentemente do usuário conectado. | Facebook                                                             |
+| .facebook.com               | wd                       | Armazena as dimensões da janela do navegador e é usado pelo Facebook para otimizar a renderização da página. | Facebook                                                             |
+| .facebook.com               | xs                       | Número de dois dígitos que representa o número da sessão. A segunda parte do valor é um segredo da sessão. |  Facebook                                                            |
+| .facebook.com               | fr                       | Contém um navegador e uma ID de usuário exclusivos, usados para publicidade direcionada. |  Facebook                                                            |
+| .facebook.com               | sb                       | Usado para aprimorar as sugestões de amigos do Facebook.                                |  Facebook                                                            |
+| .facebook.com               | spin                     |                                                              |  Facebook                                                            |
+| .twitter.com                | guest_id                 |                                                              |  Twitter                                                            |
+| .twitter.com                | kdt                      |                                                              |  Twitter                                                             |
+| .twitter.com                | personalization_id       | O cookie contém a ID de usuário do usuário conectado no momento.  |  Twitter                                                             |
+| .twitter.com                | remember_checked_on      |                                                              | Twitter                                                              |
+| .twitter.com                | twid                     |                                                              |  Twitter                                                             |
+| .pinterest.com              | \_auth                    | O cookie contém a ID de usuário do usuário conectado no momento.  |   Pinterest                                                           |
+| .pinterest.com              | \_b                       |                                                              |   Pinterest                                                           |
+| .pinterest.com              | \_pinterest_pfob          |                                                              |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_referrer      | O cookie contém páginas quando o usuário seleciona o botão Pinterest.      |  Pinterest                                                            |
+| .pinterest.com              | \_pinterest_sess          | O cookie contém páginas quando o usuário seleciona o botão Pinterest.      |  Pinterest                                                            |
+| .pinterest.com              | \_routing_id              |                                                              |  Pinterest                                                            |
+| .pinterest.com              | bei                      |                                                              |  Pinterest                                                            |
+| .pinterest.com              | cm_sub                   | Contém uma ID de usuário e o carimbo de data/hora em que o cookie foi criado. |  Pinterest                                                            |
+| .pinterest.com              | csrftoken                | O cookie contém páginas quando o usuário seleciona o botão Pinterest.      | Pinterest                                                             |
+| .pinterest.com              | sessionFunnelEventLogged | O cookie contém páginas quando o usuário seleciona o botão Pinterest.      | Pinterest                                                             |
+| .pinterest.com              | Armazenamento local            |                                                              |  Pinterest                                                            |
+| .pinterest.com              | Trabalhadores de Serviço          |                                                              |  Pinterest                                                            |
+
 
 ## <a name="site-user-cookie-consent-on-an-e-commerce-site"></a>Consentimento de cookie de usuário de site em um site de comércio eletrônico 
 

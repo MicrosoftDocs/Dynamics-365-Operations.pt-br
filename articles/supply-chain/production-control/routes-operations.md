@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6be472336ce8ea58973e897c42f6ee9ae92c0761
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819271"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908919"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -79,7 +79,7 @@ Um roteiro deve ser aprovado antes que possa ser usado no planejamento ou proces
 
 Cada roteiro pode ser aprovado ou reprovado separadamente. No entanto observe que, quando um roteiro é reprovado, todas as versões de roteiro relacionadas também são reprovadas. Nos parâmetros de Controle de produção, você pode especificar se os roteiros podem ser reprovados, e se os roteiros aprovados podem ser alterados.  
 
-Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ## <a name="operations"></a>Operations
 Uma operação é uma etapa no processo de produção. Cada operação tem uma ID e uma descrição simples. As tabelas a seguir mostram exemplos típicos de operações em uma oficina mecânica.
@@ -185,7 +185,7 @@ Ao ativar uma versão do roteiro, ela é designada como a versão do roteiro pad
 
 ### <a name="electronic-signatures"></a>Assinaturas eletrônicas
 
-Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](../../fin-and-ops/organization-administration/electronic-signature-overview.md).
+Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md).
 
 ### <a name="product-change-that-uses-case-management"></a>Alteração de produto utilizando gerenciamento de caso
 
@@ -253,7 +253,7 @@ Portanto, quando a ativação é selecionada para sobreposição, o restante das
 
 - [Capacidades de recurso](resource-capabilities.md)
 
-- [Visão geral das assinaturas eletrônicas](../../fin-and-ops/organization-administration/electronic-signature-overview.md)
+- [Visão geral das assinaturas eletrônicas](../../fin-ops-core/fin-ops/organization-administration/electronic-signature-overview.md)
 
 
 

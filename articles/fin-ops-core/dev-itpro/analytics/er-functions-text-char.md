@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a621328817171be7df0622507c84f5c6f6fe90a1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f83dfe19e442b9e81d63a2b1dd3dd44aa2f594bc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5746426"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891174"
 ---
 # <a name="char-er-function"></a>Função de ER CHAR
 
@@ -48,7 +48,7 @@ O valor de texto resultante.
 
 ## <a name="usage-notes"></a>Notas de uso
 
-A cadeia de caracteres que esta função retorna depende da codificação selecionada no elemento de formato **FILE** pai. Para obter uma lista das codificações com suporte, consulte [Classe de codificação](https://msdn.microsoft.com/library/system.text.encoding(v=vs.110).aspx).
+A cadeia de caracteres que esta função retorna depende da codificação selecionada no elemento de formato **FILE** pai. Para obter uma lista das codificações com suporte, consulte [Classe de codificação](/dotnet/api/system.text.encoding).
 
 ## <a name="example"></a>Exemplo
 

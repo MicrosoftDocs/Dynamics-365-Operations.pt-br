@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 399c710b99c5721ff9867ce332b815bd362d6103
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a6f23adedc287b85018fe0b0af445677f6dc597c
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795012"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889899"
 ---
 # <a name="remove-an-instance"></a>Remover uma instância
 
@@ -81,7 +81,7 @@ Para restaurar o ambiente:
 
 1. Siga as instruções no [ambiente Recuperar o Power Apps](/power-platform/admin/recover-environment.md).
 
-2. Entre em contato com o suporte para restaurar o ambiente de Recursos Humanos. Para obter mais informações, consulte [Obter suporte](hr-admin-troubleshooting-support.md).
+2. Entre em contato com o suporte para restaurar o ambiente de Recursos Humanos. Para obter mais informações, consulte [Obter suporte](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md).
 
 > [!Warning]
 > Os ambientes do Power Apps só são salvos por sete dias após a exclusão. Você deve recuperar o ambiente no período de sete dias.

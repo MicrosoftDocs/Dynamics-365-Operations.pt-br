@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2012-04-01
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: faf54fec2885f868c66987a7b481559d0c5615d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6b5bf6815f225dcca8f9e89e2c85942ce8a2ccd7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838265"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907978"
 ---
 # <a name="document-routing-layout-for-license-plate-labels"></a>Layout de roteiro de documentos para etiquetas de placa de licença
 
@@ -73,7 +73,7 @@ Os exemplos a seguir mostram como é possível personalizar o campo (**Qtd.**) d
 - Para mostrar sempre quatro dígitos (usando zeros como espaços reservados), use `$Qty:0000$`. Por exemplo, se a quantidade for 10, o rótulo mostrará "0010".
 - Para mostrar sempre duas casas decimais, use `$Qty:0.00$`. Por exemplo, se a quantidade for 10, o rótulo mostrará "10,00".
 
-Para obter uma lista completa das cadeias de caracteres de formato de número disponíveis, consulte [Strings de formato numérico personalizado](https://docs.microsoft.com/dotnet/standard/base-types/custom-numeric-format-strings).
+Para obter uma lista completa das cadeias de caracteres de formato de número disponíveis, consulte [Strings de formato numérico personalizado](/dotnet/standard/base-types/custom-numeric-format-strings).
 
 ## <a name="custom-string-formats"></a>Formatos de sequência de caracteres personalizados
 
@@ -95,7 +95,7 @@ $PrintedDate:dd-MM-yyyy$
 
 Neste exemplo, a data 30 de abril 2020 será impressa como "30-04-2020".
 
-Para obter uma lista completa dos formatos de data/hora disponíveis, consulte [Strings de formato de data e hora personalizados](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings).
+Para obter uma lista completa dos formatos de data/hora disponíveis, consulte [Strings de formato de data e hora personalizados](/dotnet/standard/base-types/custom-date-and-time-format-strings).
 
 ## <a name="print-individual-lines-from-multiline-data"></a>Imprimir linhas individuais de dados de várias linhas
 

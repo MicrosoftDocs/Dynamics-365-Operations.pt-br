@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: e2126983fef2b59af5c8082a6495f808afeb5f9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 497061500660e41c8f82c73e5dd6c085810c9209
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744042"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910440"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>Comparação de recursos de nuvem e locais
 
@@ -84,7 +84,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 | **Área**                | **Recurso**             | **Nuvem** | **Local** |
 |-------------------------|-------------------|-----------|-----------------|
-| Gerenciamento de Ativos                     |                                                                                           | Sim       | Não              |
+| Gerenciamento de ativos                     |                                                                                           | Sim       | Sim             |
 | Conformidade e certificações        |                                                                                           | Sim       | Sim             |
 |                                      | Certificação do Tipo 1 SOC 1                                                                | Sim       | Não              |
 | Contabilização de custos                      |                                                                                           | Sim       | Sim             |
@@ -147,7 +147,7 @@ As tabelas a seguir listam as áreas do aplicativo. O suporte à nuvem e aos loc
 
 ## <a name="dynamics-365-commerce"></a>Dynamics 365 Commerce 
 
-Para ver uma lista de recursos disponíveis em implantações locais, consulte [Recursos do Commerce disponíveis em implantações locais](../../../retail/retail-onprem.md).
+Para ver uma lista de recursos disponíveis em implantações locais, consulte [Recursos do Commerce disponíveis em implantações locais](../../../commerce/retail-onprem.md).
 
 ## <a name="dynamics-365-human-resources"></a>Dynamics 365 Human Resources 
 

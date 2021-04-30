@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: dcb952ccc68f5f19119f8b72285667e259b00429
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4cad305e3d130b3283ca3424c84f60e2d13307
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840716"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907806"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar e atualizar o portal do cliente
 
@@ -27,7 +27,7 @@ ms.locfileid: "5840716"
 
 Para implementar o portal do cliente, você deve ter as seguintes licenças:
 
-- Portais do **Power Apps** – essa licença é necessária para hospedar o portal do cliente. Os portais são licenciados com base no uso. Para obter mais informações, consulte os [requisitos de licenciamento de portais do Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-flow-licensing-faq#portals).
+- Portais do **Power Apps** – essa licença é necessária para hospedar o portal do cliente. Os portais são licenciados com base no uso. Para obter mais informações, consulte os [requisitos de licenciamento de portais do Power Apps](/power-platform/admin/powerapps-flow-licensing-faq#portals).
 - **Gravação dupla** – você deve ter as licenças necessárias para habilitar a gravação dupla para tabelas do Supply Chain Management. Para obter mais informações, consulte os [requisitos do sistema para gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-system-req.md).
 
 ## <a name="dependencies-on-dual-write-and-power-apps-portals"></a>Dependências de gravação dupla e de portais do Power Apps
@@ -40,7 +40,7 @@ Diferente de outros recursos do Supply Chain Management, o modelo de portal do c
 
 ## <a name="required-setup-to-enable-the-customer-portal"></a><a name="required-setup"></a>Configuração necessária para habilitar o portal do cliente
 
-Após verificar que tem as licenças necessárias, você pode configurar a gravação dupla, conforme descrito nas [instruções de sincronização inicial de gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/initial-sync.md).
+Após verificar que tem as licenças necessárias, você pode configurar a gravação dupla, conforme descrito nas [instruções de sincronização inicial de gravação dupla](/dynamics365/supply-chain/sales-marketing/enable-entity-map).
 
 Certifique-se de habilitar os seguintes mapeamentos de tabela em gravação dupla:
 
@@ -74,14 +74,14 @@ Mais funcionalidades poderão ser adicionadas ao portal do cliente posteriorment
 
 Para saber como você pode configurar e personalizar o portal do cliente, comece analisando a seguinte documentação para as tecnologias subjacentes:
 
-- [Documentação de portais do Power Apps](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Documentação de portais do Power Apps](/powerapps/maker/portals/overview)
 - [Documentação da gravação dupla](../../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md)
 
 Para gerenciar com eficiência seus portais, você deve compreender os portais do Power Apps e o ciclo de vida do Microsoft Dataverse. Para obter mais informações, consulte os seguintes recursos:
 
-- [Sobre o ciclo de vida do portal](https://docs.microsoft.com/powerapps/maker/portals/admin/portal-lifecycle)
-- [Atualizar um portal](https://docs.microsoft.com/powerapps/maker/portals/admin/upgrade-portal)
-- [Migrar configuração do portal](https://docs.microsoft.com/powerapps/maker/portals/admin/migrate-portal-configuration)
+- [Sobre o ciclo de vida do portal](/powerapps/maker/portals/admin/portal-lifecycle)
+- [Atualizar um portal](/powerapps/maker/portals/admin/upgrade-portal)
+- [Migrar configuração do portal](/powerapps/maker/portals/admin/migrate-portal-configuration)
 - [Gerenciamento do ciclo de vida da solução: Dynamics 365 para aplicativos do Customer Engagement](https://www.microsoft.com/download/details.aspx?id=57777)
 
 

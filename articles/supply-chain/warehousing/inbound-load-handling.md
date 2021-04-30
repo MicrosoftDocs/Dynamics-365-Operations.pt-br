@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 095ef3bb9fff26915bf4fbeb7e240ae9175e315c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62317f7e42c5392dce32a667f05f22e5c970abc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835621"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910006"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
 Este tópico descreve o processamento de cargas de entrada das ordens de compra no depósito.
 
-Para cada carga de entrada, seu sistema já deve incluir uma ordem de venda relacionada e talvez também contenha uma especificação de carga e/ou plano de transporte relacionados. Para obter mais informações sobre como criar e gerenciar cargas de entrada, consulte [Processo comercial: Planejando o transporte para cargas de entrada](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
+Para cada carga de entrada, seu sistema já deve incluir uma ordem de venda relacionada e talvez também contenha uma especificação de carga e/ou plano de transporte relacionados. Para obter mais informações sobre como criar e gerenciar cargas de entrada, consulte [Processo comercial: Planejando o transporte para cargas de entrada](/dynamicsax-2012/appuser-itpro/business-process-planning-transportation-for-inbound-loads).
 
 ## <a name="overview-how-inbound-loads-are-created-registered-and-received"></a>Visão geral: Como as cargas de entrada são criadas, registradas e recebidas
 
@@ -38,11 +38,11 @@ A ilustração a seguir mostra o fluxo típico de processamento de cargas de ent
 
 1. **Um registro de carregamento de entrada é criado para planejar a entrada e seu conteúdo.**
 
-    O registro de carga de entrada representa uma remessa do fornecedor de uma ou mais ordens de compra. Espera-se que a carga chegue ao depósito como uma unidade de transporte físico (como uma carga de caminhão). O registro de carga de entrada é usado para fins de planejamento e permite ao coordenador de logística acompanhar o progresso da carga do fornecedor. Ele também é usado para registrar quantidades de linhas de ordens e gerenciar o progresso nas operações do depósito, como trabalho de entrada e armazenamento. As cargas podem ser criadas automática ou manualmente e podem ser baseadas em uma ordem de compra ou em um aviso de remessa avançada (ASN) do fornecedor. Para obter mais informações, consulte [Criar ou modificar uma carga de entrada](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
+    O registro de carga de entrada representa uma remessa do fornecedor de uma ou mais ordens de compra. Espera-se que a carga chegue ao depósito como uma unidade de transporte físico (como uma carga de caminhão). O registro de carga de entrada é usado para fins de planejamento e permite ao coordenador de logística acompanhar o progresso da carga do fornecedor. Ele também é usado para registrar quantidades de linhas de ordens e gerenciar o progresso nas operações do depósito, como trabalho de entrada e armazenamento. As cargas podem ser criadas automática ou manualmente e podem ser baseadas em uma ordem de compra ou em um aviso de remessa avançada (ASN) do fornecedor. Para obter mais informações, consulte [Criar ou modificar uma carga de entrada](/dynamicsax-2012/appuser-itpro/create-or-modify-an-inbound-load).
 
 1. **O fornecedor confirma a expedição da carga.**
 
-    Quando o fornecedor expede a carga, o coordenador de logística no depósito de recebimento confirma a remessa da carga. Se a empresa que recebe estiver usando o módulo **Gerenciamento de transporte**, a confirmação da remessa de entrada acionará outros processos de gerenciamento de carga associados às cargas de entrada. Para obter mais informações, consulte [Confirmar uma carga para envio](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
+    Quando o fornecedor expede a carga, o coordenador de logística no depósito de recebimento confirma a remessa da carga. Se a empresa que recebe estiver usando o módulo **Gerenciamento de transporte**, a confirmação da remessa de entrada acionará outros processos de gerenciamento de carga associados às cargas de entrada. Para obter mais informações, consulte [Confirmar uma carga para envio](/dynamicsax-2012/appuser-itpro/confirm-a-load-for-shipping).
 
 1. **A carga chega ao depósito e os funcionários registram as quantidades.**
 

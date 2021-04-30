@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9958091db4a3d7ce0b625e5adc8e2a6b37878618
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840235"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897711"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 
@@ -50,6 +50,14 @@ Finalmente, os recursos dão suporte à troca de mensagens com serviços Web ext
 
 A disponibilidade dos recursos de faturamento eletrônico depende do país ou região. Embora alguns recursos estejam geralmente disponíveis, outros estão na versão preliminar.
 
+#### <a name="generally-available-features"></a>Recursos geralmente disponíveis
+
+A tabela a seguir mostra os recursos de faturamento eletrônico que estão geralmente disponíveis.
+
+| País/região | Nome do recurso                         | Documento comercial |
+|----------------|--------------------------------------|-------------------|
+| Egito          | Fatura eletrônica egípcia (EG) | Faturas de vendas e de projetos |
+
 #### <a name="preview-features"></a>Recursos de versão preliminar
 
 A tabela a seguir mostra os recursos de faturamento eletrônico que estão atualmente na versão preliminar.
@@ -61,7 +69,6 @@ A tabela a seguir mostra os recursos de faturamento eletrônico que estão atual
 | Brasil         | NF-e brasileira (BR)                  | Modelo de nota fiscal 55, cartas de correção, cancelamentos e descartes |
 | Brasil         | NFS-e ABRASF Curitiba brasileira (BR) | Notas fiscais de serviço |
 | Dinamarca        | Fatura eletrônica dinamarquesa (DK)       | Faturas de vendas e de projetos |
-| Egito          | Fatura eletrônica egípcia (EG) | Faturas de vendas e de projetos |
 | Estônia        | Fatura eletrônica estoniana (EE)     | Faturas de vendas e de projetos |
 | Finlândia        | Fatura eletrônica finlandesa (FI)      | Faturas de vendas e de projetos |
 | França         | Fatura eletrônica francesa (FR)       | Faturas de vendas e de projetos |
@@ -202,6 +209,91 @@ A tabela a seguir lista as ações disponíveis e indica se elas estão disponí
 | Chamar serviço PAC mexicano                      | Integrar com serviço PAC mexicano para envio do CFDI.                      | Em versão preliminar           |
 | Processar resposta                              | Analise a resposta recebida da chamada do serviço Web.                     | Geralmente disponível  |
 | Usar o MS Power Automate                         | Integração ao fluxo interno do Microsoft Power Automate.                       | Em versão preliminar           |
+
+### <a name="applicability-rules"></a>Regras de aplicabilidade
+
+As regras de aplicabilidade são cláusulas configuráveis definidas no nível do recurso de faturamento eletrônico. As regras são configuradas para fornecer um contexto para execução de recursos de faturamento eletrônico por meio do conjunto de recursos de faturamento eletrônico.
+
+Quando um documento comercial do Finance ou do Supply Chain Management é enviado para o faturamento eletrônico, o documento comercial não tem uma referência explícita que permita a definição do recurso de faturamento eletrônico para chamar determinado recurso de faturamento eletrônico para processar o envio.
+
+No entanto, quando configurado corretamente, o documento comercial contém os elementos necessários que permitem ao faturamento eletrônico decidir qual recurso de faturamento eletrônico deve ser selecionado e, depois, gerar a fatura eletrônica.
+
+As regras de aplicabilidade permitem que o conjunto de recursos de faturamento eletrônico encontre os recursos de faturamento eletrônico exatos a serem usados para processar o envio. Isso é feito ao coincidir o conteúdo do documento comercial enviado com as cláusulas das regras de aplicabilidade.
+
+Por exemplo, dois recursos de faturamento eletrônico com regras de aplicabilidade relacionadas são implantados no conjunto de recursos de faturamento eletrônico.
+
+| Recurso de faturamento eletrônico | Regras de aplicabilidade        |
+|------------------------------|--------------------------- |
+| A                            | <p>País = BR</p><p>e</p><p>Entidade legal = BRMF</p>  |
+| B                            | <p>País = MX</p><p>e</p><p>Entidade legal = MXMF</p>  |
+
+Se um documento comercial do Finance ou do Supply Chain Management for enviado para o conjunto de recursos de faturamento eletrônico, o documento comercial conterá os seguintes atributos preenchidos como:
+
+- País = BR
+- Entidade legal = BRMF
+
+O conjunto de recursos de faturamento eletrônico selecionará o recurso de faturamento eletrônico **A** para processar o envio e gerar a fatura eletrônica.
+
+Da mesma forma, se o documento comercial contiver:
+
+- País = MX
+- Entidade legal = MXMF
+
+O recurso de faturamento eletrônico **B** é selecionado para gerar a fatura eletrônica.
+
+A configuração de regras de aplicabilidade não pode ser ambígua. Isso significa que dois ou mais recursos de faturamento eletrônico não podem ter as mesmas cláusulas; caso contrário, não haverá seleção. Se houver uma duplicação de recursos de faturamento eletrônico, para evitar ambiguidade, use cláusulas adicionais para permitir que o recurso de faturamento eletrônico seja definido para distinguir os dois recursos de faturamento eletrônico.
+
+Por exemplo, considere o recurso de faturamento eletrônico **C**. Este recurso é uma cópia do recurso de faturamento eletrônico **A**.
+
+| Recurso de faturamento eletrônico | Regras de aplicabilidade        |
+|------------------------------|--------------------------- |
+| A                            | <p>País = BR</p><p>e</p><p>Entidade legal = BRMF</p>  |
+| C                            | <p>País = BR</p><p>e</p><p>Entidade legal = BRMF</p>  |
+
+Neste exemplo, o recurso **C** ocorre antes de um envio de documento comercial que contém o seguinte:
+
+- País = BR
+- Entidade legal = BRMF
+
+O recurso de faturamento eletrônico não pode distinguir qual recurso de faturamento eletrônico deve ser usado para processar o envio porque os envios contêm as mesmas cláusulas exatas.
+
+Para criar uma distinção entre os dois recursos por meio de regras de aplicabilidade, uma nova cláusula deve ser adicionada a um dos recursos para permitir que o conjunto de recursos de faturamento eletrônico selecione o recurso de faturamento eletrônico apropriado.
+
+| Recurso de faturamento eletrônico | Regras de aplicabilidade        |
+|------------------------------|--------------------------- |
+| A                            | <p>País = BR</p><p>e</p><p>Entidade legal = BRMF</p>  |
+| C                            | <p>País = BR</p><p>e</p><p>Entidade legal = BRMF</p><p>e</p><p>Modelo=55</p>  |
+
+Para dar suporte à criação de cláusulas mais complexas, os seguintes recursos estão disponíveis:
+
+Operadores lógicos:
+- E
+- Ou
+
+Tipos de operadores:
+- Equal
+- Not equal
+- Greater than
+- Less than
+- Maior que ou igual a
+- Menor que ou igual a
+- Contém
+- Começa com
+
+Tipos de dados:
+- Cadeia de caracteres
+- Número
+- Booliano
+- Data 
+- UUID
+
+Capacidade de agrupar e desagrupar cláusulas.
+O exemplo tem a aparência a seguir.
+
+| Recurso de faturamento eletrônico | Regras de aplicabilidade        |
+|------------------------------|--------------------------- |
+| C                            | <p>País = BR</p><p>e</p><p>(Entidade legal = BRMF</p><p>ou</p><p>Modelo=55)</p>  |
+
 
 ## <a name="configuration-providers"></a>Provedores de configuração
 

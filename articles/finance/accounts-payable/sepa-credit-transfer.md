@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 760763078d10c56c8bc485601a2f14979d28ac11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830727"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897153"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
 
@@ -54,7 +54,7 @@ O formato de pagamento de transferência de crédito para países europeus é im
 Você sempre deve ir para a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
--   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
+-   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](../../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md).
 -   Quando você configurar os métodos de pagamento de Contas a pagar, marque a caixa de seleção **Relatório eletrônico genérico** e selecione o formato de transferência de crédito apropriado (por exemplo, **Transferência de crédito ISO 20022 (AT)**) como uma configuração de formato de exportação.
 -   Você também deve configurar a entidade legal e as informações de conta bancária.
 -   Os números de conta bancária, IBANs e, ocasionalmente, códigos SWIFT (BICs) ou outras IDs são necessários para criar pagamentos de transferência de crédito válidos. Portanto, você deve configurá-los para a conta bancária de fornecedor e a conta bancária da organização que está solicitando a transferência.

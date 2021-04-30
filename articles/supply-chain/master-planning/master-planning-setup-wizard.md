@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 770800e63de73c60e0e811734d4273ff2392620f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c55c36358b8acf93ab25a358d4d7cd6a4212c2b2
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829681"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909418"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistente de configuração do planejamento mestre
 
@@ -45,13 +45,13 @@ A primeira página do assistente solicita os requisitos específicos da empresa.
 
 Se o número de threads calculado exceder 75% do número de threads disponíveis, ele será limitado a 75% do número de threads disponíveis para cada cliente. (O número de threads disponíveis será determinado para cada cliente).
 
-Para obter mais informações, consulte [Número de threads](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
+Para obter mais informações, consulte [Número de threads](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-threads).
 
 ### <a name="bundle-size"></a>Tamanho do pacote
 
 O tamanho de pacote será definido como **1**. O valor é normalmente o aconselhável, já que ele ajuda a melhorar o desempenho do planejamento mestre.
 
-Para obter mais informações, consulte [Número de tarefas no pacote de tarefas auxiliares](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
+Para obter mais informações, consulte [Número de tarefas no pacote de tarefas auxiliares](/dynamics365/unified-operations/supply-chain/master-planning/master-planning-performance#number-of-tasks-in-helper-task-bundle).
 
 ### <a name="firming-bundle-size"></a>Como confirmar o tamanho do pacote
 
@@ -64,7 +64,7 @@ Cálculo do pacote = (Número de ordens planejadas × (Limite de tempo de confir
 
 O tamanho do cache será definido como **Máximo**. O valor é normalmente o aconselhável, já que ele ajuda a melhorar o desempenho do planejamento mestre.
 
-Para obter mais informações, consulte [Alocar tempo para trabalhos em um pacote de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
+Para obter mais informações, consulte [Alocar tempo para trabalhos em um pacote de trabalho](/dynamics365/unified-operations/supply-chain/production-control/allocate-time-jobs-job-bundle).
 
 ### <a name="manufacturing-setup"></a>Configuração de fabricação
 
@@ -88,7 +88,7 @@ As perguntas restantes nessa página e as respostas acompanham o mesmo esquema:
 - **Sim, como definido neste plano mestre** – a opção **Plano de previsão (limite de tempo)** será definida como **Sim**. O número de dias inserido será usado e substituirá os valores definidos nos grupos de cobertura.
 - **Sim, como definido no grupo de cobertura** – a opção **Plano de previsão (limite de tempo)** será definida como **Não**.
 
-Para obter mais informações, consulte [Planejamento de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obter mais informações, consulte [Planejamento de trabalho](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="scheduling-options"></a>Opções de agendamento
 
@@ -99,7 +99,7 @@ Sua resposta para a primeira a pergunta nessa página ("Você precisa agendar op
 - **Sim** – o planejamento de trabalho será usado.
 - **Não** – o planejamento de operações será usado.
 
-Para obter mais informações, consulte [Planejamento de operações](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Planejamento de trabalho](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
+Para obter mais informações, consulte [Planejamento de operações](/dynamics365/unified-operations/supply-chain/production-control/operations-scheduling) e [Planejamento de trabalho](/dynamics365/unified-operations/supply-chain/production-control/job-scheduling).
 
 ## <a name="updates-of-demand-and-supply"></a>Atualizações de demanda e fornecimento
 
@@ -135,7 +135,7 @@ A Contoso Manufacturer é uma fábrica que produz alto-falantes. Ela compra vár
 - A fábrica produz os itens finais. Ela tem um número definido de máquinas de trituração e perfuração usadas para processar os componentes. Os diversos componentes devem ser processados por essas máquinas.
 - Há vários fornecedores. O prazo de entrega médio de itens é de uma semana. Um grupo de itens do mesmo fornecedor terá um prazo de entrega de sete semanas.
 
-No assistente, os valores a seguir são inseridos para a Contoso Manufacturer:
+No assistente, os valores abaixo são inseridos para a Contoso Manufacturer:
 
 - **Cobertura:**
 
@@ -184,7 +184,7 @@ A Contoso Retailer é uma empresa de distribuição na indústria de moda. Ela u
 - As lojas usam requisições para o reabastecimento.
 - O prazo de entrega do depósito principal para cada loja é de aproximadamente duas semanas para todos os itens.
 
-No assistente, os valores a seguir são inseridos para a Contoso Retailer:
+No assistente, os valores abaixo são inseridos para a Contoso Retailer:
 
 - **Previsão de demanda:**
 
@@ -198,14 +198,14 @@ No assistente, os valores a seguir são inseridos para a Contoso Retailer:
     - **Pergunta:** "Você deseja que o planejamento mestre confirme automaticamente as ordens planejadas em documentos de ordem, por exemplo, ordens de produção ou de compra?"
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
-    Como o Contoso Retailer criará ordens de compra diretamente das ordens de compra planejadas, será útil se as ordens de compra planejadas forem confirmadas automaticamente. Como a empresa executa o planejamento mestre todos os dias, um limite de tempo de confirmação de um dia confirmará automaticamente todas as ordens necessárias para o dia seguinte.
+    Como a Contoso Retailer criará ordens de compra diretamente das ordens de compra planejadas, será útil se as ordens de compra planejadas forem confirmadas automaticamente. Como a empresa executa o planejamento mestre todos os dias, um limite de tempo de confirmação de um dia confirmará automaticamente todas as ordens necessárias para o dia seguinte.
 
 - **Requisições aprovadas:**
 
     - **Pergunta:** "Você deseja incluir a demanda das requisições aprovadas para reabastecer as lojas de varejo?"
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
-    A Contoso usa as requisições aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
+    A Contoso usa as exigências aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

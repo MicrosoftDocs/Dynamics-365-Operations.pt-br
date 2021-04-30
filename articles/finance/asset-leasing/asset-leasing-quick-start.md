@@ -2,11 +2,11 @@
 title: Introdução ao arrendamento de ativos
 description: Este tópico descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos.
 author: moaamer
-ms.date: 10/16/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,18 +15,20 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6d5b51e89ec0e64182671872573ec0140939a836
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814119"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892424"
 ---
 # <a name="asset-leasing-get-started"></a>Introdução ao arrendamento de ativos
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico descreve o recurso Arrendamento de ativos e percorre as etapas para criar um arrendamento de ativos e exibir informações para esses arrendamentos. O tópico também define a terminologia usada na interface do usuário e na documentação. O arrendamento de ativos é um recurso avançado para gerenciar, rastrear e automatizar transações financeiras do locatário para ativos arrendados no Microsoft Dynamics 365 Finance. O arrendamento de ativos está em conformidade com padrões internacionais de contabilidade (IFRS 16) e padrões de GAAP dos EUA (ASC 842). O arrendamento de ativos captura e processa informações sobre os arrendamentos e ajuda a gerar entradas de diário durante o ciclo de vida da concessão das entradas de reconhecimento inicial, de diário mensal, para deficiências e encerramento da concessão. O arrendamento de ativos se integra perfeitamente a outros componentes do Dynamics 365 Finance, incluindo Ativos fixos, Contas a pagar e Contabilidade.
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. No espaço de trabalho **Gerenciamento de recursos**, localize e selecione o recurso denominado **Arrendamento de ativos** e clique no botão **Habilitar agora**.
 
 Para obter mais informações sobre padrões contábeis, consulte a documentação padrão para IFRS 16 e GAAP dos EUA (ASC 842).
 

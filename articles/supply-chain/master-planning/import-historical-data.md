@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9bb3c178a698bdcd46e7c596247360ba9233b398
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de380113fe951f75c15f9e5526ad2f1f5cc84334
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816475"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908871"
 ---
 # <a name="import-historical-data-for-demand-forecasts"></a>Importar dados históricos para previsões de demanda
 
@@ -41,7 +41,7 @@ Para obter mais informações sobre como importar dados, incluindo como limpar d
 
 ## <a name="example"></a>Exemplo
 
-Você pode usar o arquivo a seguir como um exemplo. Baixe [HistoricalDemandData](https://docs.microsoft.com/dynamics/s-e/). Este arquivo contém os dados históricos de demanda do item D0001. Ele contém apenas os seguintes campos obrigatórios: site, quantidade e a data de demanda.
+Você pode usar o arquivo a seguir como um exemplo. Baixe [HistoricalDemandData](/dynamics/s-e/). Este arquivo contém os dados históricos de demanda do item D0001. Ele contém apenas os seguintes campos obrigatórios: site, quantidade e a data de demanda.
 
 1. Selecione a empresa para a qual serão importados os dados históricos de demanda.
 2. Abra o espaço de trabalho **Gerenciamento de dados**.
