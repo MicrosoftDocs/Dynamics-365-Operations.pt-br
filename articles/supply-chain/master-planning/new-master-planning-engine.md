@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9590213ef73f7623aff10d4c8ee3efbea0e7984b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823448"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907682"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 
@@ -63,8 +63,12 @@ No momento, as exceções da migração para a Otimização de Planejamento só 
 
 Depois que os recursos necessários forem disponibilizados, a Microsoft fornecerá um período de carência até a expiração da exceção. O administrador do ambiente será informado quando os recursos necessários estiverem disponíveis e o período de carência tiver começado.
 
+O fluxograma abaixo resume as informações fornecidas neste tópico para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962).
+
+![Fluxograma de exceção](media/exception-diagram.png "Fluxograma de exceção")
+
 > [!NOTE]
-> Você só pode solicitar uma exceção para ambientes de produção, não para ambientes de área restrita. Se você precisar desabilitar o erro de exceção da Otimização de Planejamento em um ambiente de área restrita IaaS (infraestrutura como serviço), execute a consulta SQL fornecida em [Ambientes de área restrita](#faq-sandbox).
+> Você só pode solicitar uma exceção para locatários que incluem, ou incluirão, um ambiente de produção, não apenas para locatários com ambientes de área restrita. Se você precisar desabilitar o erro de exceção da Otimização de Planejamento em um ambiente de área restrita IaaS (infraestrutura como serviço), execute a consulta SQL fornecida em [Ambientes de área restrita](#faq-sandbox).
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 

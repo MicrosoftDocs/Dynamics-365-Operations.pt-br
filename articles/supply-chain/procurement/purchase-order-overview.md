@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 45c8b1d0ea12c8e42f3a4383f16105b0b0cfb5c6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825317"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909122"
 ---
 # <a name="purchase-order-overview"></a>Visão geral de ordem de compra
 
@@ -41,7 +41,7 @@ Os artigos a seguir fornecem uma visão geral sobre os vários estágios pelos q
 -   [Criar ordens de compra](purchase-order-creation.md)
 -   [Aprovar e confirmar ordens de compra](purchase-order-approval-confirmation.md)
 -   [​Recebimento de produtos contra ordens de compra​](product-receipt-against-purchase-orders.md)
--   [​Visão geral de faturas de fornecedor​](../../financials/accounts-payable/vendor-invoices-overview.md)
+-   [​Visão geral de faturas de fornecedor​](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de ordens de compra
 Existem três tipos de ordens de compra. Quando você cria uma OC, você deve especificar o tipo. Você pode configurar um tipo de ordem padrão para novas ordens na página **Parâmetros de compras**.
@@ -85,7 +85,7 @@ O campo **Status de aprovação** é usado quando uma ordem de compra passa por 
 
 [​Recebimento de produtos contra ordens de compra​](product-receipt-against-purchase-orders.md)
 
-[​Visão geral de faturas de fornecedor​](../../financials/accounts-payable/vendor-invoices-overview.md)
+[​Visão geral de faturas de fornecedor​](../../finance/accounts-payable/vendor-invoices-overview.md)
 
 
 

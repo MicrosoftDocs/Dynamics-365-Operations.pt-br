@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: b7df4933c1373893e00f48ea3a21bd5af40719a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840211"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893793"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Criar uma conta de armazenamento do Azure e um cofre de chaves
 
@@ -30,8 +30,8 @@ ms.locfileid: "5840211"
 
 Antes de concluir as etapas neste tópico, verifique se as seguintes tarefas foram concluídas:
 
-- Criar um recurso de cofre de chaves no Azure. Para obter mais informações, consulte [Sobre o Azure Key Vault](https://docs.microsoft.com/azure/key-vault/general/overview).
-- Crie uma conta de armazenamento do Azure (armazenamento de Blob). Para obter mais informações, consulte [Manter a conta de armazenamento do Azure](https://docs.microsoft.com/azure/storage/blobs/).
+- Criar um recurso de cofre de chaves no Azure. Para obter mais informações, consulte [Sobre o Azure Key Vault](/azure/key-vault/general/overview).
+- Crie uma conta de armazenamento do Azure (armazenamento de Blob). Para obter mais informações, consulte [Manter a conta de armazenamento do Azure](/azure/storage/blobs/).
 
 ## <a name="overview"></a>Visão Geral
 
@@ -83,4 +83,3 @@ Neste tópico, você executará duas etapas principais:
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
-

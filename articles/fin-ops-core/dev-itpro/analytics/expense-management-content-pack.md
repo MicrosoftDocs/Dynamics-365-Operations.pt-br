@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kfend
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: aadf43d478eb4bf5af20df02dcc6399a7a2e71a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8e95fa06745840a6ba1782f135af0e7625c934aa
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743498"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893243"
 ---
 # <a name="expense-management-power-bi-content"></a>Conteúdo do Power BI sobre gerenciamento de despesas
 
@@ -41,7 +41,7 @@ Dois pacotes de conteúdo do Power BI estão disponíveis para uso com o Gerenci
 Todos os valores são mostrados na moeda da empresa. Os dados de todas as empresas são mostrados, mas se necessário, é possível adicionar um filtro de empresa. 
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo Painel de Despesas de Administrador.pbix e Painel de Despesas Pessoais.pbix do Power BI na Biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
+Você pode encontrar o conteúdo Painel de Despesas de Administrador.pbix e Painel de Despesas Pessoais.pbix do Power BI na Biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e de seus parceiros](/archive/blogs/dynamicsaxbi/power-bi-content-from-microsoft-and-your-partners).
 O conteúdo está disponível no espaço de trabalho de despesas Gerenciamento de Despesas como conteúdo integrado do Power BI. Os proprietários de despesas podem acessar suas próprias despesas pessoais, enquanto somente os funcionários e gerentes de Contas a pagar têm acesso ao conteúdo de administrador para exibir dados de despesas de todos os usuários.
 
 ## <a name="refreshing-the-power-bi-content"></a>Atualizando o conteúdo do Power BI

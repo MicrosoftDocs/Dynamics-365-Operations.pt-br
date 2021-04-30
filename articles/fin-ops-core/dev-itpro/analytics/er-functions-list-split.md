@@ -2,7 +2,7 @@
 title: Função de ER SPLIT
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) SPLIT é usada.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c99ee5e8129ed45253893dc83acdef99b4ce2c9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 26b6ddeb2880fc220283b6389327a497549a4511
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745584"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853434"
 ---
 # <a name="split-er-function"></a>Função de ER SPLIT
 
@@ -79,6 +79,14 @@ Se o argumento `input` estiver vazio, uma nova lista vazia será retornada. Se o
 ## <a name="example-2"></a>Exemplo 2
 
 `SPLIT ("XAb aBy", "aB")` retorna uma nova lista que consiste em três registros com o campo **Valor** do tipo *Cadeia de caracteres*. O campo **Valor** no primeiro registro contém o texto **"X"**, o campo **Valor** no segundo registro contém o texto **"&nbsp;"** e o campo **Valor** no terceiro registro contém o texto **"y"**. 
+
+## <a name="example-3"></a>Exemplo 3
+
+Você pode usar a função [INDEX](er-functions-list-index.md) para acessar elementos individuais da cadeia de caracteres de entrada especificada. Se você inserir a fonte de dados **MyList** do tipo **Campo calculado** e configurar a expressão `SPLIT("abc", 1)` para ela, a expressão `INDEX(MyList,2).Value` retornará o valor de texto **"b"**.
+
+## <a name="example-4"></a>Exemplo 4
+
+A função [ENUMERATE](er-functions-list-enumerate.md) também ajuda a acessar elementos individuais da cadeia de caracteres de entrada especificada. Se você inserir primeiro a fonte de dados **MyList** do tipo **Campo calculado** e configurá-la para a expressão `SPLIT("abc", 1)` e, em seguida, inserir a fonte de dados **EnumeratedList** do tipo **Campo calculado** e configurar a expressão `ENUMERATE(MyList)` para ela, a expressão `FIRSTORNULL(WHERE(EnumeratedList, EnumeratedList.Number=2)).Value` retornará o texto **"b"**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

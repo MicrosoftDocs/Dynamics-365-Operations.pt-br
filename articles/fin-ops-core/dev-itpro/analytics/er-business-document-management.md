@@ -2,7 +2,7 @@
 title: Visão geral de gerenciamento de documentos comerciais
 description: Este tópico fornece informações sobre como usar o recurso de gerenciamento de documentos comerciais da estrutura de ER.
 author: NickSelin
-ms.date: 12/15/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f5589925b7bfba3d9315c3828fd1ec5993a09a59
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 01067a253651bbeddcc5f02c8c15c916b25b6684
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749528"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891296"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -45,9 +45,9 @@ Para usar o gerenciamento de documentos comerciais para editar modelos nos forma
 
 ## <a name="business-document-availability"></a>Disponibilidade de documentos comerciais
 
-Para ver uma lista completa de todos os relatórios planejados para a versão de outubro de 2019, consulte [Relatório configurável de documentos comerciais em Word e Excel](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
+Para ver uma lista completa de todos os relatórios planejados para a versão de outubro de 2019, consulte [Relatório configurável de documentos comerciais em Word e Excel](/dynamics365-release-plan/2019wave2/dynamics365-finance-operations/configurable-business-documents-reporting-word-excel-pdf#feature-details).
 
-Para ver uma lista completa de todos os relatórios planejados para a versão de outubro de 2020, consulte [Relatório configurável de documentos comerciais - Modelos do Word](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
+Para ver uma lista completa de todos os relatórios planejados para a versão de outubro de 2020, consulte [Relatório configurável de documentos comerciais - Modelos do Word](/dynamics365-release-plan/2020wave1/dynamics365-finance/configurable-business-documents-word-templates).
 
 Mais relatórios serão disponibilizados em versões futuras. Notificações especiais sobre relatórios adicionais serão enviadas separadamente. Para saber como revisar a lista de relatórios disponíveis no momento, consulte a seção [Lista de configurações de ER que foram lançadas no Finance para dar suporte a documentos comerciais configuráveis](#list-of-configurations-cbd) abaixo.
 
@@ -272,7 +272,23 @@ A opção **Editar modelo** está disponível para o modelo selecionado. Essa op
 
 ![Confirmar o início do processo de edição para criar um novo modelo](./media/BDM-Overview-EditingTemplate4.png)
 
+Se não houver provedor, ele será oferecido para criação. Se não houver um fornecedor ativo, ele será oferecido como opção para ativação.
+
+Para criar um provedor, altere o nome do provedor no campo **Nome**, atualize o endereço na Internet do novo provedor no campo **Endereço na Internet** e selecione **OK** para confirmar.
+
+   ![Criar novo provedor em BDM](./media/bdm_create_provider.png)
+
+Para ativar o provedor existente, escolha o nome do provedor no campo **Provedor de configuração** e selecione **OK** para definir o provedor como ativo.
+
+   ![Ativar provedor em BDM](./media/bdm_choose_provider.png)
+
+> [!NOTE]
+> Cada modelo de BDM se refere ao fornecedor como o autor da configuração. É por isso que um provedor ativo é necessário para o modelo.
+
+
 A opção **Novo documento** está sempre disponível para um modelo em uma configuração do formato do ER fornecido pelo provedor atual e algum outro (Microsoft neste exemplo) que não tem qualquer revisão. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
+
+
 
 ### <a name="start-editing-a-template"></a>Começar a editar um modelo
 
@@ -419,7 +435,7 @@ Provavelmente, você entrou na instância atual do aplicativo do domínio do Azu
 
 ## <a name="list-of-er-configurations-that-have-been-released-in-finance-to-support-configurable-business-documents"></a><a name="list-of-configurations-cbd"></a>Lista de configurações de ER que foram lançadas no Finance para dar suporte a documentos comerciais configuráveis
 
-A [lista](general-electronic-reporting.md#list-of-configurations) de configurações de ER para o Finance é constantemente atualizada. Abra o [repositório global](er-download-configurations-global-repo.md) para revisar a lista de configurações de ER que têm suporte no momento. Você pode [filtrar](https://docs.microsoft.com/dynamics365/finance/localizations/enhanced-filtering-global-repo) o repositório global para revisar a lista de configurações de ER usadas para dar suporte a documentos comerciais configuráveis.
+A [lista](general-electronic-reporting.md#list-of-configurations) de configurações de ER para o Finance é constantemente atualizada. Abra o [repositório global](er-download-configurations-global-repo.md) para revisar a lista de configurações de ER que têm suporte no momento. Você pode [filtrar](../../../finance/localizations/enhanced-filtering-global-repo.md) o repositório global para revisar a lista de configurações de ER usadas para dar suporte a documentos comerciais configuráveis.
 
 ![Filtrar o conteúdo do repositório global na página Repositório de configuração](./media/bdm-overview-filterglobalrepo.gif)
 

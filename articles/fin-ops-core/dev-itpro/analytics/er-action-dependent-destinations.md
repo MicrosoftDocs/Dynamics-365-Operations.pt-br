@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: ac0efbbe645969cdf0419bf533d34e38b76fb67a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751223"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893569"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
@@ -60,7 +60,7 @@ Se você selecionar o tipo de documento **Qualquer**, a **Detecção automática
     - Quando a ação **Exibir** é fornecida no runtime, o destino de ER **Tela** é aplicado.
     - Quando a ação **Imprimir** é fornecida no runtime, o destino de ER **Imprimir** é aplicado.
 
-Por exemplo, você pode usar o formato de ER **Fatura de texto livre (Excel)** para imprimir uma [fatura de texto livre](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) ao lançá-la. Para rotear um documento gerado, você deve configurar os destinos de ER para esse formato de ER. Por exemplo, pode ser necessário configurar esses destinos de ER para executar o seguinte em um documento gerado:
+Por exemplo, você pode usar o formato de ER **Fatura de texto livre (Excel)** para imprimir uma [fatura de texto livre](../../../finance/accounts-receivable/create-free-text-invoice-new.md) ao lançá-la. Para rotear um documento gerado, você deve configurar os destinos de ER para esse formato de ER. Por exemplo, pode ser necessário configurar esses destinos de ER para executar o seguinte em um documento gerado:
 
 - Arquive o documento se o formato de ER for executado, mas nenhum código de ação for fornecido (por exemplo, quando o documento for enviado eletronicamente).
 - Visualize o documento em um navegador da Web quando um usuário executar a ação **Exibir**.
@@ -82,7 +82,7 @@ A ilustração a seguir mostra como é possível obter o mesmo resultado configu
 
 Quando um formato de ER é executado, se as ações do usuário foram provisionadas pelos usuários que têm as [permissões apropriadas](electronic-reporting-destinations.md#security-considerations) para alterar as configurações de destino configuradas no runtime, uma caixa de diálogo será exibida, oferecendo a opção de alterar as configurações de destino definidas. Esta caixa de diálogo é opcional e sua aparência depende de como foi implementada a chamada que a estrutura de ER faz para executar um formato de ER. Se esta caixa de diálogo for exibida, os destinos de ER nela serão habilitados de acordo com a ação do usuário fornecida.
 
-A ilustração a seguir mostra um exemplo da caixa de diálogo **Destinos de formato de relatório eletrônico** que aparece quando uma fatura de texto livre é [lançada](https://docs.microsoft.com/dynamics365/finance/accounts-receivable/create-free-text-invoice-new) e o formato **Fatura de texto livre (Excel)** é executado para gerar este documento, caso a ação **Impressora** tenha sido configurada e os destinos de ER tenham sido definidos para esse formato, conforme mostrado anteriormente neste tópico.
+A ilustração a seguir mostra um exemplo da caixa de diálogo **Destinos de formato de relatório eletrônico** que aparece quando uma fatura de texto livre é [lançada](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e o formato **Fatura de texto livre (Excel)** é executado para gerar este documento, caso a ação **Impressora** tenha sido configurada e os destinos de ER tenham sido definidos para esse formato, conforme mostrado anteriormente neste tópico.
 
 ![Caixa de diálogo que dá a opção de alterar os destinos de ER configurados iniciais para o formato de ER em execução](./media/er-destination-action-dependent-02.gif)
 

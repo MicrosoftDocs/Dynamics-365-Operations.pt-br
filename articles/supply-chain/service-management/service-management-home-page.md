@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 915815d6be726141aa78d55c4fe98b75ae762189
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1d7c6960dc48bb1bb780ecbbb36a58a1bbd7352
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835885"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908199"
 ---
 # <a name="service-management-overview"></a>Visão geral do gerenciamento de serviço
 
@@ -64,7 +64,7 @@ O diagrama a seguir ilustra os processos de negócios de alto nível para **Gere
 O gerenciamento de serviços pode ser integrado aos seguintes módulos:
 
   - [Visão geral de vendas e marketing](../sales-marketing/overview-sales-marketing.md)
-  - [Recursos humanos](https://docs.microsoft.com/dynamics365/unified-operations/talent/index)
+  - [Recursos humanos](/dynamics365/unified-operations/talent/index)
 
   
 

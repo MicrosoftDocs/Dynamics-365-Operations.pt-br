@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-27
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4069e369b1a9f15372d1e29e3809198b90b12c7e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ca8868069fca4453efbb76694702a554da6d7aa6
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791524"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892266"
 ---
 # <a name="update-process"></a>Atualizar processo
 
@@ -39,7 +39,7 @@ As atualizações são lançadas regularmente para todos os ambientes. O Human R
 
 As atualizações do Human Resources são aplicadas a todos os ambientes automaticamente. O Human Resources oferece dois tipos de versão:
 
-- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de Plataforma aplicáveis quando são lançadas. Para ter uma ideia de quando as atualizações de Plataforma serão lançadas, consulte [Tabela 3: versões da plataforma](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy#table-3-platform-releases). As atualizações quinzenais têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações quinzenais, consulte [Novidades ou alterações do Dynamics 365 Human Resources](hr-admin-whats-new.md).
+- **Atualizações de serviço**: atualizações ocorrem a cada duas semanas e incluem correções de bugs e novos recursos. As atualizações de serviço também incluem atualizações de Plataforma aplicáveis quando são lançadas. Para ter uma ideia de quando as atualizações de Plataforma serão lançadas, consulte [Tabela 3: versões da plataforma](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md#table-3-platform-releases). As atualizações quinzenais têm uma distribuição global em etapas entre regiões. Para obter mais informações sobre atualizações quinzenais, consulte [Novidades ou alterações do Dynamics 365 Human Resources](hr-admin-whats-new.md).
 
     Todos os data centers compatíveis são atualizados a cada duas semanas, salvo indicação em contrário. As regiões EUA, Austrália, Europa, Reino Unido, Ásia e Canadá estão inclusas nas atualizações quinzenais. 
 
@@ -71,11 +71,11 @@ Descubra as novidades do Human Resources e o que já foi lançado em:
 
 - [Dynamics 365 Human Resources roteiro](https://dynamics.microsoft.com/roadmap/human-resources/)
 
-- [Planos de Versão do Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/)
+- [Planos de Versão do Dynamics 365](/dynamics365/release-plans/)
 
 - [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md)
 
-- [Pesquisa de problemas no Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs) (somente para bugs relacionados à Plataforma)
+- [Pesquisa de problemas no Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/issue-search-lcs.md) (somente para bugs relacionados à Plataforma)
 
 - [Blog do Human Resources](https://community.dynamics.com/365/talent/b/dynamics365fortalent)
 
@@ -83,7 +83,7 @@ Descubra as novidades do Human Resources e o que já foi lançado em:
 
 ## <a name="preview-features-in-a-sandbox-environment"></a>Versões prévias do recurso em um ambiente de área restrita
 
-Você pode validar as versões prévias do recurso em um ambiente de área restrita antes de habilitá-las no ambiente de produção. Para obter mais informações sobre como habilitar os recursos, consulte [Visão geral do gerenciamento de recursos](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview).
+Você pode validar as versões prévias do recurso em um ambiente de área restrita antes de habilitá-las no ambiente de produção. Para obter mais informações sobre como habilitar os recursos, consulte [Visão geral do gerenciamento de recursos](../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 
 Todos os novos recursos permanecerão em versão prévia por pelo menos 30 dias e, em geral, por 30 a 60 dias. Os recursos principais estão disponíveis geralmente em outubro e abril de cada ano a partir do período de versão prévia. Assim que vir novos recursos no espaço de trabalho Gerenciamento de recursos, você poderá ativá-los. Alguns recursos podem ser ativados por padrão.
 
@@ -101,9 +101,9 @@ Enquanto estiver testando as versões prévias do recurso ou experimentando nova
 
 ## <a name="see-also"></a>Consulte também
 
-[Planos de Versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/dynamics365/release-plans)</br>
+[Planos de Versão do Dynamics 365 e Power Platform](/dynamics365/release-plans)</br>
 [Novidades ou alterações no Dynamics 365 Human Resources](hr-admin-whats-new.md)</br>
-[Política de ciclo de vida do software - Nuvem](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy)
+[Política de ciclo de vida do software - Nuvem](../fin-ops-core/dev-itpro/migration-upgrade/versions-update-policy.md)
 
 
 

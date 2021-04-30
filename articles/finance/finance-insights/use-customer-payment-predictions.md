@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-11-16
 ms.dyn365.ops.version: AX 10.0.14
-ms.openlocfilehash: 51cd69563a7a5b30e932f1aad828d095cc55b075
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21c5236b6d7e7ce7bd968f1511723a3646fe7a29
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827209"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897783"
 ---
 # <a name="use-customer-payment-predictions-preview"></a>Usar Previsões de pagamento do cliente (versão preliminar)
 
@@ -102,7 +102,7 @@ Se você não estiver satisfeito com a precisão, selecione o link **Aumentar pr
 
 A versão preliminar pública do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, na Europa e no Reino Unido. A Microsoft está adicionando suporte para mais regiões de forma incremental.
 
-Os recursos de versão preliminar pública só devem ser ativados em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita não podem ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-terms).
+Os recursos de versão preliminar pública só devem ser ativados em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita não podem ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
 
 ## <a name="privacy-notice"></a>Aviso de privacidade
 

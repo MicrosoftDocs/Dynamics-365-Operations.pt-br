@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dfc0497286ae0286cde05412c82fcaac76f4042a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 476dfd6be55ce484cb9bc101ac27dc6181f3c010
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837624"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910368"
 ---
 # <a name="modeling-a-lean-organization"></a>Modelagem da organização de lean manufacturing
 
@@ -51,7 +51,7 @@ O fluxo de valor de estado futuro pode ser modelado como uma versão do fluxo de
 
 O próprio fluxo de valor é modelado como uma unidade operacional. Consequentemente, o fluxo de valor pode ser usado como uma dimensão financeira.
 
-Para obter mais informações sobre unidades operacionais, consulte [Criar uma unidade operacional](../../fin-and-ops/organization-administration/tasks/create-operating-unit.md).
+Para obter mais informações sobre unidades operacionais, consulte [Criar uma unidade operacional](../../fin-ops-core/fin-ops/organization-administration/tasks/create-operating-unit.md).
 
 ## <a name="costing-for-lean-manufacturing-based-on-the-production-flow"></a>Custo do lean manufacturing com base no fluxo de produção
 A consolidação periódica do custo de um fluxo de produção corrige a conta WIP relacionada e permite a determinação de variações dos produtos fornecidos pelo fluxo de produção.

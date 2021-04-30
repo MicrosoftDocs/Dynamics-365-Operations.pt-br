@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 91482bb24356a14a8d44e887620548cdf6f4c5d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f46d55bf7a670e983fb65a9ca303bc02568247ed
+ms.sourcegitcommit: bef7bd2aac00d7eb837fd275d383b7a5c3f1c1ee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838385"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "5911287"
 ---
 # <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
@@ -44,8 +44,8 @@ Antes de criar uma diretiva de localização, siga estas etapas para verificar s
 1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Criar um depósito.
 1. Na FastTab **Depósito**, defina a opção **Usar processos de gerenciamento de depósito** como *Sim*.
-1. Criar localizações, tipos de localização, perfis de localização e formatos da localização. Para obter mais informações, consulte [Configurar localizações em um depósito habilitado para WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
-1. Criar sites, zonas e grupos de zonas. Para obter mais informações, consulte [Configuração do depósito](https://docs.microsoft.com/dynamics365/commerce/channels-setup-warehouse) e [Configurar localizações em um depósito habilitado para WMS](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse).
+1. Criar localizações, tipos de localização, perfis de localização e formatos da localização. Para obter mais informações, consulte [Configurar localizações em um depósito habilitado para WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
+1. Criar sites, zonas e grupos de zonas. Para obter mais informações, consulte [Configuração do depósito](../../commerce/channels-setup-warehouse.md) e [Configurar localizações em um depósito habilitado para WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
 
 ## <a name="work-order-types-for-location-directives"></a>Tipos de ordem de serviço para diretivas de localização
 
@@ -143,7 +143,7 @@ Os campos na FastTab **Diretivas de localização** são específicos do tipo de
 - **Código de diretiva** – selecione o código de diretiva para associar a um modelo de trabalho ou a um modelo de reabastecimento. Na página **Código de diretiva**, é possível criar códigos que podem ser usados para conectar modelos de trabalho ou modelos de reabastecimento a diretivas de localização. Também é possível usar códigos de diretiva para estabelecer um vínculo entre qualquer linha de modelo de trabalho e uma diretiva de localização (como local de espera ou porta da baía).
 
     > [!TIP]
-    > Se um código de diretiva estiver definido, o sistema não pesquisará diretivas de localização por número de sequência quando o trabalho precisar ser gerado. Ele pesquisará por código de diretiva. Dessa forma, você pode ser mais específico sobre o modelo de localização usado para uma etapa específica em um modelo de trabalho, como a etapa de preparo de materiais.
+    > Se um código de diretiva estiver definido, o sistema não pesquisará diretivas de localização por número de sequência quando o trabalho precisar ser gerado. Ele pesquisará por código de diretiva. Dessa forma, você pode ser mais específico sobre a diretiva de localização usado para uma etapa específica em um modelo de trabalho, como a etapa de preparo de materiais.
 
 - **Várias SKUs** – defina esta opção como *Sim* para habilitar várias unidades de manutenção de estoque (SKUs) a serem usadas em um local. Por exemplo, várias SKUs devem ser habilitadas para o local da porta da baía. Se você habilitar várias SKUs, o local de armazenamento será especificado no trabalho, conforme esperado. No entanto, o local de armazenamento poderá tratar somente um armazenamento de vários itens (se o trabalho incluir diferentes SKUs que devam ser separadas e armazenadas). Não será possível tratar um armazenamento com um única SKU. Se você definir esta opção como *Não*, seu local de armazenamento só será especificado se o armazenamento tiver apenas um tipo de SKU.
 
@@ -249,7 +249,7 @@ Nesse cenário, você deve definir duas ações de diretiva de localização. A 
 
 ## <a name="next-step"></a>Próxima etapa
 
-Depois de criar diretivas da localização, você pode associar cada código de diretiva a um código do modelo de trabalho para a criação de trabalho. Para obter mais informações, consulte [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](https://docs.microsoft.com/dynamics365/supply-chain/warehousing/control-warehouse-location-directives).
+Depois de criar diretivas da localização, você pode associar cada código de diretiva a um código do modelo de trabalho para a criação de trabalho. Para obter mais informações, consulte [Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização](./control-warehouse-location-directives.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

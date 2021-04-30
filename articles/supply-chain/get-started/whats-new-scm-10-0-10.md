@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 882e9ba310930cd6a9c638c60d5be7edc6809335
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5e63c5f3f327870b616eb93f80544c4f1e89980e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821192"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909612"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10010-may-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.10 (maio de 2020)
 
@@ -33,19 +33,19 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](https://docs.microsoft.com/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
+Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso estão associados a informações adicionais no site [Planos de versão](/dynamics365/release-plans/). Links adicionais direcionam para documentações adicionais ou vídeos atualmente disponíveis para esse recurso. A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
-- [Aprimoramento para usar as marcas de peso variável existentes com gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
+- [Aprimoramento para usar as marcas de peso variável existentes com gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/enhancement-use-existing-catch-weight-tags-warehouse-management)
 
-- [Aprimoramentos no gerenciamento de carga de entrada para gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
+- [Aprimoramentos no gerenciamento de carga de entrada para gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/warehouse-management-inbound-load-management-enhancement)<br> - Para obter mais informações, consulte [Manuseio de depósito de cargas de entrada para ordens de compra](../warehousing/inbound-load-handling.md).
 
-- [Aprimoramentos de impressão de etiquetas para o gerenciamento de depósito](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Para obter mais informações, consulte [Layout de roteamento de documentos para etiquetas de placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
+- [Aprimoramentos de impressão de etiquetas para o gerenciamento de depósito](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/label-printing-enhancements-warehouse-management)<br> - Para obter mais informações, consulte [Layout de roteamento de documentos para etiquetas de placa de licença](../warehousing/document-routing-layout-for-license-plates.md).
 
-- [O planejamento mestre inclui itens com estoque disponível quando os filtros de pré-processamento estão habilitados](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
+- [O planejamento mestre inclui itens com estoque disponível quando os filtros de pré-processamento estão habilitados](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/master-planning-include-items-on-hand-when-pre-processing-filters-are-enabled)
 
-- [Novas entidades de dados da área de fabricação](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
+- [Novas entidades de dados da área de fabricação](/dynamics365-release-plan/2020wave1/dynamics365-supply-chain-management/new-data-entities-manufacturing-area)
 
-- [Gestão de qualidade para processos de depósito](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Para obter mais informações, consulte [Gerenciamento de qualidade para processos de depósito](../inventory/quality-management-for-warehouses-processes.md).
+- [Gestão de qualidade para processos de depósito](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/quality-management-warehouse-processes)<br> - Para obter mais informações, consulte [Gerenciamento de qualidade para processos de depósito](../inventory/quality-management-for-warehouses-processes.md).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -61,7 +61,7 @@ Para obter informações sobre as correções de bug incluídas nesta atualizaç
 
 Quer saber sobre os futuros recursos e as funcionalidades lançadas recentemente em nossos aplicativos ou plataforma de negócios?
 
-Confira o [Dynamics 365: plano do ciclo de lançamentos 2 de 2020](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
+Confira o [Dynamics 365: plano do ciclo de lançamentos 1 de 2020](/dynamics365-release-plan/2020wave1/index). Capturamos todos os detalhes, de todos os ângulos, em um único documento que você pode usar para o planejamento.
 
 ### <a name="removed-and-deprecated-supply-chain-management-features"></a>Recursos removidos e preteridos do Supply Chain Management
 

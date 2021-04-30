@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: fd0dda0adb292c10eea0a770ae0eae33d5f91f17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839995"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890822"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar Faturamento eletrônico
 
@@ -75,7 +75,7 @@ Siga estas etapas para adicionar formatos ER ao recurso de Faturamento eletrôni
     > [!NOTE]
     > Enquanto você edita o formato, o status da versão da configuração é definido como **Rascunho**.
 
-3. Use a página **Designer de formato** para alterar a configuração de formato de arquivo. Para obter mais informações, consulte [Criar configurações do documento eletrônico](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration).
+3. Use a página **Designer de formato** para alterar a configuração de formato de arquivo. Para obter mais informações, consulte [Criar configurações do documento eletrônico](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Página do designer de formatos](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 

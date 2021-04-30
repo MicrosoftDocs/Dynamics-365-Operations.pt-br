@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f2f40bec79c0b5ce26882e1146c1751b9b6eee01
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753303"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893899"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -159,7 +159,7 @@ Para um único componente **Planilha**, você pode adicionar vários componentes
 
 No componente **Rodapé** adicionado, adicione os componentes aninhados necessários de **Texto\\Cadeia de Caracteres**, **Texto\\DateTime**, ou outro tipo. Configure as associações para esses componentes para especificar como o rodapé da página será preenchido.
 
-Você também pode usar [códigos de formatação](https://docs.microsoft.com/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiais para formatar corretamente o conteúdo de um rodapé gerado. Para saber como usar essa abordagem, siga as etapas no [Exemplo 1](#example-1), posteriormente neste tópico.
+Você também pode usar [códigos de formatação](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especiais para formatar corretamente o conteúdo de um rodapé gerado. Para saber como usar essa abordagem, siga as etapas no [Exemplo 1](#example-1), posteriormente neste tópico.
 
 > [!NOTE]
 > Ao configurar os formatos de ER, certifique-se de considerar o [limite](https://support.microsoft.com/office/excel-specifications-and-limits-1672b34d-7043-467e-8e27-269d656771c3) do Excel e o número máximo de caracteres para um único cabeçalho ou rodapé.
@@ -217,7 +217,7 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 
     - O primeiro componente **Cadeia de Caracteres** preenche os seguintes códigos de formatação especiais para forçar o Excel a aplicar formatação específica:
 
-        - **& C** – alinha o texto do rodapé no centro.
+        - **&C** – alinha o texto do rodapé no centro.
         - **&"Segoe UI,Regular"&8** – apresenta o texto do rodapé na fonte "Segoe UI Regular" em um tamanho de 8 pontos.
 
     - O segundo componente **Cadeia de Caracteres** preenche o texto que contém o número de página atual e o número total de páginas no documento atual.

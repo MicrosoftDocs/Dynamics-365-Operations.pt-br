@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a167e6ba4a3b4161e964e5018944af0901000b01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841470"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910152"
 ---
 # <a name="automatic-allocation-of-charges"></a>Alocação automática de encargos
 
@@ -144,7 +144,7 @@ Depois que os códigos de encargos forem configurados, siga estas etapas para de
     - **Local** e **Depósito** — especifique um local e um depósito se os encargos devem ser aplicados somente a um local e a um depósito específicos.
     - **Manter** — marque essa caixa de seleção para manter as transações de encargos depois que o faturamento for concluído, para que o encargo seja aplicado sempre que você criar uma nova fatura para a conta de cliente selecionada.
 
-1. **Somente para ordens de venda:** se quiser calcular encargos diferenciados, consulte [Encargos diferenciados em ordens de venda](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obter informações.
+1. **Somente para ordens de venda:** se quiser calcular encargos diferenciados, consulte [Encargos diferenciados em ordens de venda](/dynamicsax-2012/appuser-itpro/about-tiered-charges-on-sales-orders) para obter informações.
 
 ## <a name="allocate-charges-from-the-header-to-a-line"></a>Alocar encargos do cabeçalho a uma linha
 

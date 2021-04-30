@@ -16,18 +16,18 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c4b5b6db9126f9b520945f63b24db26fdbdccf8c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2bc35794a83365205ebc0907419d3f0801713580
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816619"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908434"
 ---
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar um depósito usando um modelo de configuração de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
+Este tópico explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 ## <a name="scenarios-where-configuration-templates-can-be-helpful"></a>Cenários onde os modelos de configuração podem ser úteis
 
@@ -88,13 +88,13 @@ Podem baixar um arquivo zip para o pacote de dados. Este arquivo contém todos o
 4. Selecione **+ Adicionar arquivo** e carregue o arquivo zip para o pacote de dados.
 5. Selecione **Importar**. Na exibição **Avançada**, você pode usar a opção **Filtro** rapidamente obter uma visão geral de problemas que podem ocorrer durante a importação.
 
-O log **Exibir execução** fornece informações detalhadas sobre cada entidade de dados que é importada. Você pode usar a exibição de preparação de dados para obter dados de destino rapidamente. Assim, você pode ver os dados importados nas páginas relacionadas no aplicativo. Ao usar os modelos de dados padrão, a sequência de importação de cada entidade de dados em forma predefinida, ajuda a garantir que os dados dependentes são importados primeiro. Se as entidades de dados personalizados fizerem parte do projeto, você deve garantir que a sequência correta foi definida. Para obter mais informações, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
+O log **Exibir execução** fornece informações detalhadas sobre cada entidade de dados que é importada. Você pode usar a exibição de preparação de dados para obter dados de destino rapidamente. Assim, você pode ver os dados importados nas páginas relacionadas no aplicativo. Ao usar os modelos de dados padrão, a sequência de importação de cada entidade de dados em forma predefinida, ajuda a garantir que os dados dependentes são importados primeiro. Se as entidades de dados personalizados fizerem parte do projeto, você deve garantir que a sequência correta foi definida. Para obter mais informações, consulte [Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md).
 
 Para saber mais sobre como usar o modelo de depósito para copiar a configuração de um depósito de uma empresa para uma nova empresa na mesma a instância, assista a este vídeo de 3 minutos de duração no YouTube sobre [como usar o modelo de depósito para copiar a configuração no Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tópico relacionado
 
-[Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md)
+[Modelos de dados de configuração](../../fin-ops-core/dev-itpro/data-entities/configuration-data-templates.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

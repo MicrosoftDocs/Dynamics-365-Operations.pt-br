@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f4679ce27b248770b9998914407cd2eb21d7dd16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4b19c01afa162cce309443c9270ee1b39aeb0328
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825389"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909147"
 ---
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
@@ -65,7 +65,7 @@ Uma linha de OC está sendo usada para devolver um produto ao fornecedor que ter
 Encargos podem ser adicionados automaticamente à linhas da PO, se encargos automáticos foram configurados para o fornecedor ou grupo de encargos do fornecedor, e para o item ou grupo de encargos do item. No entanto, geralmente, encargos são adicionados manualmente no nível da linha da ordem. Para adicionar um encargo, abra a página **Manter encargos** usando a ação **Manter encargos** sobre o menu **Finanças** na exibição **Linhas**. A vantagem de adicionar encargos diretamente no nível da linha da ordem é que o encargo pode ser alocado como um custo de estoque. Para definir os códigos de encargo ao custo do produto de conta, use a opção de débito **Item**. Esses tipos de encargos devem ser alocados do cabeçalho da ordem de compra para as linhas antes que a ordem possa ser confirmada. Por exemplo, você talvez queira alocar encargos com base na quantidade em cada linha. A categoria de custo também afeta como os encargos serão contabilizados. Por exemplo, encargos fixos especificam um valor fixo e porcentagem de encargos calculados como uma porcentagem do valor líquido para a linha da ordem. POs podem ser atribuídos a uma carga e a carga pode incluir uma estimativa da despesa esperada para o custo de transporte. Você pode alocar essa despesa de carga antes das linhas de ordem de compra.
 
 ## <a name="purchase-order-actions"></a>Ações da ordem de compra
-Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](../../fin-and-ops/get-started/action-search.md) para localizar o item de menu relevantes.  
+Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](../../fin-ops-core/fin-ops/get-started/action-search.md) para localizar o item de menu relevantes.  
 
 Você pode configurar produtos na ordem para que eles tenham itens suplementares. Itens suplementares são produtos que devem ou podem ser comprados em conjunto com outros produtos. Produtos suplementares podem ser adicionados gratuitamente como os que acompanham os produtos ou você poderá optar por adicioná-los à ordem ou não. Você pode revisar os itens suplementares após cada linha de ordem adicionada. No entanto, você provavelmente achará mais conveniente revisar e adicionar itens suplementares relevantes para todas as linhas da ordem, usando a página **Itens suplementares**, que pode ser aberta no painel de ação.  
 

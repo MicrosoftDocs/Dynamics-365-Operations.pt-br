@@ -2,7 +2,7 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Finance
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Finance.
 author: roschlom
-ms.date: 02/08/2021
+ms.date: 04/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 5a8f5dbc52eab78697de0d3a48d8cceb42c36540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e0db5c35e58ab7a7cbf31642072d25ee5d8ba868
+ms.sourcegitcommit: 04817103dc8e87a679d371575927284b8ce080b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836904"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5898278"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -31,7 +31,20 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!NOTE]
-> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Recursos removidos ou substituídos na versão 10.0.20 do Finance
+
+### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Configuração de formato Solicitação de dados para consulta da fatura do RTIR (HU)
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Removido do processamento de interoperação do sistema de mensagens eletrônicas com o sistema online de faturamento húngaro |
+| **Substituída por outro recurso?**   | Não |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Descontinuação: até 15 de abril de 2022, planejamos não oferecer mais a configuração de formato "Solicitação de dados para consulta da fatura do RTIR (HU)". |
+
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Recursos removidos ou substituídos na versão 10.0.17 do Finance
 

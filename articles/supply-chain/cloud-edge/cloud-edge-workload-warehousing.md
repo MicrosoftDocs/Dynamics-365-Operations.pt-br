@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 6372e08b7ec737f3abd2f2bd5d4f387eaf869f03
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d6dffb1ea03b8d11519087163d2837d6cfe3df4e
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832385"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899158"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -33,13 +33,13 @@ ms.locfileid: "5832385"
 
 ## <a name="warehouse-execution-on-scale-units"></a>Execução de depósito em unidades de escala
 
-Este recurso permite que as unidades de escala executem processos selecionados dos recursos de gerenciamento de depósito. As unidades de escala de nuvem executam cargas de trabalho na nuvem usando a capacidade de processamento dedicada na região selecionada do Microsoft Azure. Para unidades de escala de borda, você pode executar algumas cargas de trabalho de forma independente no local, mesmo enquanto as unidades de escala são temporariamente desconectadas da nuvem.
+Este recurso permite que as unidades de escala executem processos selecionados dos recursos de gerenciamento de depósito.
 
 Neste tópico, as execuções de gerenciamento de depósito em um depósito definido como uma unidade de escala são conhecidas como um *sistema de execução de depósito* (*WES*).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Você deve ter um hub do Dynamics 365 Supply Chain Management e uma unidade de escala que tenha sido implantada com a carga de trabalho de gerenciamento de depósito. Para obter mais informações sobre o processo de arquitetura e implantação, consulte [Unidades de escala de nuvem e de borda para cargas de trabalho de gerenciamento de fabricação e depósito](cloud-edge-landing-page.md).
+Você deve ter um hub do Dynamics 365 Supply Chain Management e uma unidade de escala que tenha sido implantada com a carga de trabalho de gerenciamento de depósito. Para obter mais informações sobre o processo de arquitetura e implantação, consulte [Usar unidades de escala para aumentar a resiliência do gerenciamento de fabricação e depósito](cloud-edge-landing-page.md).
 
 ## <a name="how-the-wes-workload-works-on-scale-units"></a>Como a carga de trabalho de WES funciona em unidades de escala
 
@@ -297,6 +297,8 @@ Na carga de trabalho em unidades de escala, você pode gerenciar estes trabalhos
 - Processar registros de tabela do ciclo
 - Processador de mensagens da unidade de escala para o hub do depósito
 - Processar solicitações de atualização de quantidade para linhas de ordem de depósito
+
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

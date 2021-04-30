@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74422a9f2b737053288d21ba7a578c854cab1335
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747312"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890849"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar sequências numéricas individualmente
 
@@ -30,7 +30,7 @@ Este tópico explica como configurar sequências numéricas individualmente. Seq
 2. Selecionar **Sequência numérica**.
 3. No campo **Código de sequência numérica**, digite um valor.
 4. No campo **Nome**, digite um valor.
-5. Na Guia Rápida **Parâmetros de escopo**, selecione um escopo para a sequência numérica e selecione os valores da lista suspensa. O escopo define quais organizações usam a sequência numérica. Além de isso, as sequências numéricas com um escopo diferente de **Compartilhado** podem ter segmentos que correspondam ao escopo. Por exemplo, uma sequência numérica com um escopo **Entidade legal** pode conter um segmento da entidade legal. Para obter mais informações sobre os escopos, consulte [Visão geral da sequência numérica](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview). 
+5. Na Guia Rápida **Parâmetros de escopo**, selecione um escopo para a sequência numérica e selecione os valores da lista suspensa. O escopo define quais organizações usam a sequência numérica. Além de isso, as sequências numéricas com um escopo diferente de **Compartilhado** podem ter segmentos que correspondam ao escopo. Por exemplo, uma sequência numérica com um escopo **Entidade legal** pode conter um segmento da entidade legal. Para obter mais informações sobre os escopos, consulte [Visão geral da sequência numérica](../number-sequence-overview.md). 
 6. Expanda a seção **Segmentos**.
     - Defina o formato para a sequência numérica adicionando, removendo e reorganizando segmentos.  
     - As sequências numéricas de todos os escopos podem conter *Segmentos constantes* e *Segmentos alfanuméricos*. Os segmentos constantes contêm um conjunto de caracteres alfanuméricos que não são alterados. Use este tipo de segmento para adicionar um hífen ou separadores entre outros segmentos da sequência numérica. Os segmentos alfanuméricos contêm uma combinação de sinais de número (#) e de es-comerciais (&). Esses caracteres representam as letras e os números que aumentam sempre que um número de sequência é usado. Use um sinal numérico (#) para indicar o aumento de números e um e-comercial (&) para indicar o aumento de letras. Por exemplo, o formato `#####_2014` cria a sequência `00001_2014`, `00002_2014` e assim em diante. Deve estar presente pelo menos um segmento alfanumérico. Os segmentos de escopo, como empresa ou entidade legal, não são necessários. No entanto, se você não incluir segmentos de escopo no formato, os números da referência selecionada serão geradas pelo escopo.  

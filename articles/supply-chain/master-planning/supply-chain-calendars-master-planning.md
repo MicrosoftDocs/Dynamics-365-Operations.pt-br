@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dcc66549bf6bdd67438bea9ac3c29c3f01e2674e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a53efb753a75916c85dc4a45a3c64872a7f5d32
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841758"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908362"
 ---
 # <a name="calendars-and-master-planning"></a>Calendários e planejamento mestre
 
@@ -90,7 +90,7 @@ Para indicar as datas quando um cliente poderá aceitar entregas, você pode atr
 
 Observe que só é possível incluir um calendário por cliente. Caso precise incluir um calendário para cada endereço diferente de um cliente, você pode criar um cliente por endereço e depois atribuir seu respectivo calendário. 
 
-A data de recebimento solicitada nas linhas da ordem de venda é afetada pelo calendário do cliente e pelo método de controle de data de entrega. Você pode ler mais sobre como a primeira data de entrega é calculada em [Promessa de ordem.](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
+A data de recebimento solicitada nas linhas da ordem de venda é afetada pelo calendário do cliente e pelo método de controle de data de entrega. Você pode ler mais sobre como a primeira data de entrega é calculada em [Promessa de ordem.](/dynamics365/unified-operations/supply-chain/sales-marketing/delivery-dates-available-promise-calculations).
 
 ### <a name="shipping-calendar-for-a-legal-entity"></a>Calendário de remessa para uma entidade legal
 Para indicar as datas em que uma entidade legal pode fazer remessa de mercadorias, você pode definir um calendário de remessa em **Administração da organização > Organizações > Entidades legais**. Selecione a entidade legal e adicione o calendário na guia **Comércio exterior e logística** no campo **Calendário de remessa**. O calendário de remessa atua como uma fonte de padrões para todos os calendários de depósito na entidade legal. 

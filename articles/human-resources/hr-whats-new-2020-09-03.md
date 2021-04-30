@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 965f3ca859c601d26470038a889b0f21d2bdff5f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 10978d8843e7bce2800d62b63e58152569be9631
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800108"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891760"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-september-3-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (3 de setembro de 2020)
 
@@ -31,7 +31,7 @@ ms.locfileid: "5800108"
 
 Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Human Resources. As alterações se aplicam ao número da compilação 8.1.3504. Os números entre parênteses em alguns cabeçalhos referem-se aos números de suporte do Lifecycle Services (LCS) para referência.
 
-Para obter mais informações sobre os recursos futuros do Human Resources, consulte a [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Para obter mais informações sobre o processo de atualização do Human Resources, consulte [Processo de atualização](hr-admin-setup-update-process.md).
+Para obter mais informações sobre os recursos futuros do Human Resources, consulte a [Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/). Para obter mais informações sobre o processo de atualização do Human Resources, consulte [Processo de atualização](hr-admin-setup-update-process.md).
 
 ## <a name="in-this-release"></a>Nesta versão
 
@@ -76,21 +76,21 @@ O relatório de análise agora exibe as informações corretas para **Taxa de pa
 
 Os funcionários podem exibir e solicitar tempo fora do trabalho no Microsoft Teams. Eles podem interagir com um bot para criar solicitações de licença. Para obter mais informações, consulte:
 
-- [Licença e ausência do funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do ciclo de lançamentos 1 de 2020 do Dynamics 365
-- [Aplicativo Human Resources no Teams](https://go.microsoft.com/fwlink/?linkid=2127841) na documentação do Human Resources
+- [Licença e ausência do funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave1/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do ciclo de lançamentos 1 de 2020 do Dynamics 365
+- [Aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md) na documentação do Human Resources
 
 ### <a name="human-resources-app-in-teams-preview-features"></a>Aplicativo Human Resources nos recursos de visualização do Teams
  
 -  **Notificações**: os remetentes e aprovadores de solicitações de folga serão notificados no aplicativo Human Resources no Teams. Os aprovadores poderão aprovar ou negar solicitações de folgas. Os remetentes serão notificados caso a solicitação seja aprovada ou negada. Para obter mais informações, consulte:
-   - [Licença e ausência do funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do ciclo de lançamentos 2 de 2020 do Dynamics 365
-   - [Habilitar notificações para o aplicativo Human Resources no Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#enable-notifications-for-the-human-resources-app-in-teams) na documentação do Human Resources
-   - [Ativar ou desativar notificações do Teams para usuários individuais](https://docs.microsoft.com/dynamics365/human-resources/hr-admin-teams-leave-app#turn-teams-notifications-on-or-off-for-individual-users) na documentação do Human Resources
-   - [Notificações do Teams](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#teams-notifications) na documentação do Human Resources
-   - [Exibir calendário de licenças da sua equipe](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) na documentação do Human Resources
+   - [Licença e ausência do funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do ciclo de lançamentos 2 de 2020 do Dynamics 365
+   - [Habilitar notificações para o aplicativo Human Resources no Teams](./hr-admin-teams-leave-app.md#enable-notifications-for-the-human-resources-app-in-teams) na documentação do Human Resources
+   - [Ativar ou desativar notificações do Teams para usuários individuais](./hr-admin-teams-leave-app.md#turn-teams-notifications-on-or-off-for-individual-users) na documentação do Human Resources
+   - [Notificações do Teams](./hr-teams-leave-app.md#respond-to-teams-notifications) na documentação do Human Resources
+   - [Exibir calendário de licenças da sua equipe](./hr-teams-leave-app.md#view-your-teams-leave-calendar) na documentação do Human Resources
  
 - **Calendário de folga do gerente**: Os gerentes poderão ver o tempo de folga aprovado e pendente para seus subordinados direto em um modo de exibição de calendário. Esta exibição fornece uma compreensão fácil de quando os membros da equipe estão ausente do trabalho. Para obter mais informações, consulte:
-   - [Licença e ausência do funcionário no Microsoft Teams](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do ciclo de lançamentos 2 de 2020 do Dynamics 365
-   - [Exibir calendário de licenças da sua equipe](https://docs.microsoft.com/dynamics365/human-resources/hr-teams-leave-app#view-your-teams-leave-calendar) na documentação do Human Resources
+   - [Licença e ausência do funcionário no Microsoft Teams](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/employee-leave-absence-experience-teams) no plano do ciclo de lançamentos 2 de 2020 do Dynamics 365
+   - [Exibir calendário de licenças da sua equipe](./hr-teams-leave-app.md#view-your-teams-leave-calendar) na documentação do Human Resources
 
 ### <a name="configuration-option-to-position-work-items-assigned-to-me-list-477004"></a>Opção de configuração para posicionar a lista Itens de trabalho atribuídos a mim (477004)
 
@@ -98,7 +98,7 @@ Uma nova opção agora está disponível para posicionar a lista **Itens de trab
 
 Esse recurso também promove as opções de fluxo de trabalho que aparecem nos formulários de ações de pessoal. As opções de fluxo de trabalho também aparecem acima da guia rápida de ação para acesso rápido. Para obter mais informações, consulte: 
 
-- [Aprimoramentos da experiência de fluxo de trabalho de gerenciamento de organização e pessoal](https://docs.microsoft.com/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) no plano do ciclo de lançamentos 2 de 2020 do Dynamics 365
+- [Aprimoramentos da experiência de fluxo de trabalho de gerenciamento de organização e pessoal](/dynamics365-release-plan/2020wave2/human-resources/dynamics365-human-resources/organization-personnel-management-workflow-experience-enhancements) no plano do ciclo de lançamentos 2 de 2020 do Dynamics 365
 
 ![Itens de trabalho atribuídos a mim](./media/hr-workflow-work-items-assigned-to-me.png)
 
@@ -117,7 +117,7 @@ Os códigos de motivo de gerenciamento de benefícios serão em breve combinados
 ## <a name="see-also"></a>Consulte também
 
 [Novidades ou alterações no Human Resources](hr-admin-whats-new.md)</br>
-[Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
+[Visão geral do ciclo de lançamentos 2 de 2019 do Dynamics 365 Human Resources](/dynamics365-release-plan/2019wave2/dynamics365-human-resources/)</br>
 [Atualizar processo](hr-admin-setup-update-process.md)</br>
 [Gerenciar recursos](hr-admin-manage-features.md)
 

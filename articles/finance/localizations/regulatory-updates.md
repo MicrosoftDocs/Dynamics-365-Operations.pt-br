@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c5e8f4e7b27cdffe97d73e67d33f023155b60ef0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822748"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890767"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -25,7 +25,7 @@ ms.locfileid: "5822748"
 
 Este tópico lista as atualizações regulatórias planejadas e liberadas em localizações compatíveis para o Dynamics 365 Finance. Os cronogramas de entrega podem mudar e a funcionalidade projetada pode ser diferente ou não ser liberada. Para obter mais informações, leia a [política da Microsoft](https://go.microsoft.com/fwlink/p/?linkid=2007332). 
 
-Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os [Planos de versão do Dynamics 365 e Power Platform](https://docs.microsoft.com/business-applications-release-notes/index).
+Atualizações regulatórias são recursos implementados para oferecer suporte a uma legislação nova ou modificada específica de um país. Para obter mais informações sobre outros recursos planejados ou liberados específicos de um país, consulte os [Planos de versão do Dynamics 365 e Power Platform](/business-applications-release-notes/index).
 
 A Microsoft se esforça para implementar novos requisitos regulatórios o mais cedo possível. A data de entrega real depende da data de anúncio da legislação, da disponibilidade dos detalhes da requisição por parte das autoridades locais, da disponibilidade de ferramentas de validação e do tamanho e da complexidade das alterações.
 

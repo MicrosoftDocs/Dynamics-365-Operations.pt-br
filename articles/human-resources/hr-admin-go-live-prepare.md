@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2f6dbcbd92a99699ce8d7e91c1a7e89a6063035f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: df2c55a8a69efa20c6d8c41e97c9e1f80ee1640d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795132"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892744"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparar-se para a ativação do Human Resources
 
@@ -43,7 +43,7 @@ A tabela a seguir lista todas as etapas do processo, a duração esperada e quem
 | 2 | Concluir e enviar lista de verificação | Após a conclusão do teste de aceitação do usuário (UAT) | Parceiro/Cliente | Siga as instruções fornecidas no [FastTrack de avaliação de ativação](hr-admin-go-live-prepare.md#fasttrack-go-live-assessment). |
 | 3 | Avaliação do projeto (FastTrack) | Arquiteto FastTrack* | O arquiteto faz a avaliação depois que a lista de verificação é recebida e continua a revisão até que as perguntas sejam esclarecidas e as mitigações estejam em vigor, se aplicável. |
 | 4 | Workshop de projetos (FastTrack) | Arquiteto FastTrack* | |
-| 5 | Importações de pacotes de dados | Depende do projeto | Parceiro/Cliente | Siga as instruções em [Visão geral de gerenciamento de dados](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/data-entities-data-packages).|
+| 5 | Importações de pacotes de dados | Depende do projeto | Parceiro/Cliente | Siga as instruções em [Visão geral de gerenciamento de dados](../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md).|
 | 6 | Pronto para produção | Depois que todas as etapas anteriores tiverem sido concluídas | Parceiro/Cliente | O Parceiro/Cliente pode assumir o controle do ambiente de produção.|
 | 7 | Atividades de substituição | Depende do projeto | Parceiro/Cliente | |
 | 8 | Ativação | Depende do projeto | Cliente | |
@@ -66,7 +66,7 @@ Durante a fase de UAT, você deve testar todos os processos de negócios que imp
 
 - Recomendamos que o seu processo de UAT comece com um ambiente limpo, no qual os dados da configuração OURO sejam copiados para o ambiente antes do início do processo de UAT. Recomendamos que você use o ambiente de produção como o ambiente OURO até a ativação, no ponto em que o ambiente se torna produção.
 - Se os casos de teste cobrem todo o escopo de requisitos. 
-- Teste usando dados migrados. Esses dados devem incluir dados mestre, como trabalhadores, trabalhos e posições. Além disso, inclua saldos iniciais, como acúmulos de licenças e ausências. Por fim, inclua transações abertas, como registros em benefícios atuais. Conclua os testes com todos os tipos de dados, mesmo que o conjunto de dados não esteja finalizado. 
+- Teste usando dados migrados. Isso deve incluir dados, como trabalhadores, trabalhos e posições. Além disso, inclua saldos iniciais, como acúmulos de licenças e ausências. Por fim, inclua transações abertas, como registros em benefícios atuais. Conclua os testes com todos os tipos de dados, mesmo que o conjunto de dados não esteja finalizado. 
 - Teste usando as funções de segurança corretas (funções padrão e funções personalizadas) atribuídas aos usuários. 
 - Verifique se a solução está em conformidade com qualquer requisito normativo específico da empresa e do setor. 
 - Documente todos os recursos e obtenha a aprovação do cliente. 
@@ -86,7 +86,7 @@ Antes da ativação, você deve executar uma simulação da ativação para test
 
 ## <a name="fasttrack-go-live-assessment"></a>Avaliação de ativação do FastTrack
 
-Os clientes qualificados para FastTrack e que estejam envolvidos com um Arquiteto de Soluções FastTrack concluirão uma revisão de ativação com o Microsoft FastTrack. Para obter mais informações, consulte [Microsoft FastTrack](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/fasttrack-dynamics-365-overview). 
+Os clientes qualificados para FastTrack e que estejam envolvidos com um Arquiteto de Soluções FastTrack concluirão uma revisão de ativação com o Microsoft FastTrack. Para obter mais informações, consulte [Microsoft FastTrack](/dynamics365/fasttrack/). 
 
 Cerca de oito semanas antes da ativação, a equipe FastTrack pedirá que você preencha uma [Lista de verificação de ativação](https://go.microsoft.com/fwlink/?linkid=2146013).
 

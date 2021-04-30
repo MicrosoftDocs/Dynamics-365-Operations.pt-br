@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c92fe991c8651d7665de2e850d8649b72f525f4c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835550"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909370"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
@@ -31,7 +31,7 @@ ms.locfileid: "5835550"
 > Este tópico descreve como configurar o aplicativo de depósito antigo (que agora está obsoleto). Se você estiver procurando informações de como configurar o novo aplicativo móvel de gerenciamento de depósito, consulte [instalar e conectar o aplicativo móvel de gerenciamento de depósito](install-configure-warehouse-management-app.md).
 
 > [!NOTE]
-> Este tópico descreve como configurar o aplicativo de depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o aplicativo de depósito para implantações locais, consulte [Depósito para implantações locais](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+> Este tópico descreve como configurar o aplicativo de depósito para implantações na nuvem. Se estiver buscando informações sobre como configurar o aplicativo de depósito para implantações locais, consulte [Depósito para implantações locais](../../fin-ops-core/dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
 
 O aplicativo de depósito está disponível na Google Play Store e na Microsoft Store. Ele é fornecido como um componente autônomo. Portanto, você deve baixá-lo em cada dispositivo e configurá-lo para se conectar ao ambiente do Microsoft Dynamics 365 Supply Chain Management.
 
@@ -54,7 +54,7 @@ Use um dos seguintes links para baixar o aplicativo:
 - **Windows (UWP):** [Dynamics 365 for Finance and Operations - Warehousing na Microsoft Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 - **Android:** [Warehousing - Dynamics 365 na Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-Para implantações menores, você pode instalar o aplicativo da loja relevante em cada dispositivo e configurar manualmente a conexão com os ambientes que estiver usando. No entanto, na versão 1.7.0.0 e posterior do aplicativo de depósito, também é possível automatizar a implantação e/ou a configuração de aplicativos. Essa abordagem pode ser conveniente se você gerencia vários dispositivos e estiver usando um gerenciamento de dispositivos móveis e uma solução de gerenciamento de aplicativos móveis, como o [Microsoft Intune](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune). Para obter mais informações sobre como usar o Intune para adicionar aplicativos, consulte [Adicionar aplicativos ao Microsoft Intune](https://docs.microsoft.com/mem/intune/apps/apps-add).
+Para implantações menores, você pode instalar o aplicativo da loja relevante em cada dispositivo e configurar manualmente a conexão com os ambientes que estiver usando. No entanto, na versão 1.7.0.0 e posterior do aplicativo de depósito, também é possível automatizar a implantação e/ou a configuração de aplicativos. Essa abordagem pode ser conveniente se você gerencia vários dispositivos e estiver usando um gerenciamento de dispositivos móveis e uma solução de gerenciamento de aplicativos móveis, como o [Microsoft Intune](/mem/intune/fundamentals/what-is-intune). Para obter mais informações sobre como usar o Intune para adicionar aplicativos, consulte [Adicionar aplicativos ao Microsoft Intune](/mem/intune/apps/apps-add).
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a><a name="create-service"></a>Criar um aplicativo de serviço Web no Azure Active Directory
 
@@ -89,11 +89,11 @@ Para permitir que o aplicativo de depósito interaja com um determinado servidor
 
 Para obter mais informações sobre como configurar os aplicativos de serviço no Azure AD, consulte os seguintes recursos:
 
-- Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](https://docs.microsoft.com/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
+- Para obter instruções que mostram como usar o Windows PowerShell para configurar aplicativos de serviço Web no Azure AD, consulte [Como: usar o Azure PowerShell para criar uma entidade de serviço com um certificado](/azure/active-directory/develop/howto-authenticate-service-principal-powershell).
 - Para obter detalhes completos sobre como criar manualmente um aplicativo de serviço Web no Azure AD, consulte os seguintes tópicos:
 
-    - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)
-    - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal)
+    - [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app)
+    - [Como: Usar o portal para criar um aplicativo do Azure AD e uma entidade de serviço que possa acessar recursos](/azure/active-directory/develop/howto-create-service-principal-portal)
 
 ## <a name="create-and-configure-a-user-account-in-supply-chain-management"></a>Criar e configurar uma conta de usuário no Supply Chain Management
 
@@ -121,7 +121,7 @@ A autenticação com o Azure AD fornece uma forma segura de conectar um disposit
 
 Os certificados podem ser usados como segredos para comprovar a identidade do aplicativo quando um token for solicitado. A parte pública do certificado é carregada no registro de aplicativos no portal do Azure, enquanto o certificado completo deve ser implantado em cada dispositivo no qual o aplicativo de depósito está instalado. A sua organização é responsável por gerenciar o certificado em termos de rotação, e assim por diante. Você pode usar certificados autoassinados, mas deve sempre usar certificados não exportáveis.
 
-É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo de depósito está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](https://docs.microsoft.com/mem/intune/protect/certificates-configure).
+É necessário disponibilizar o certificado localmente em cada dispositivo no qual o aplicativo de depósito está sendo executado. Para obter informações sobre como gerenciar certificados para dispositivos controlados pelo Intune se você estiver usando o Intune, consulte [Usar certificados para autenticação no Microsoft Intune](/mem/intune/protect/certificates-configure).
 
 ## <a name="configure-the-application-by-importing-connection-settings"></a>Configurar o aplicativo ao importar configurações de conexão
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: bacc27c1a9066892c51110d28ba9a2ad26bebe77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839286"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881823"
 ---
 # <a name="archive-inventory-transactions"></a>Arquivo-morto de transações de estoque
 
@@ -38,7 +38,7 @@ Se uma combinação de `itemId` e `inventDimId` contiver somente uma transação
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Arquivo-morto de transações de estoque*.
+Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Arquivo-morto de transações de estoque*. Observe que esse recurso não pode ser desabilitado após ter sido habilitado.
 
 ## <a name="things-to-consider-before-you-archive-inventory-transactions"></a>Itens a serem considerados antes de arquivar transações de estoque
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 4af14a66c839ccee02008057ad1de8ef5b9d291b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813908"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908558"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrar Dynamics 365 Supply Chain Management (Gerenciamento de ativos) com Dynamics 365 Guides
 
@@ -30,12 +30,12 @@ Para poder anexar guias a ordens de trabalho de gerenciamento de ativos, você d
 - [Configurar o Dynamics 365 Supply Chain Management](../../fin-ops-core/fin-ops/index.md) versão 10.0.9 ou posterior.
 - [Ative a gravação dupla para aplicativos de Supply Chain Management](../../fin-ops-core/dev-itpro/data-entities/dual-write/enable-dual-write.md).
 - [Ative a versão de pré-lançamento](../../fin-ops-core/dev-itpro/data-entities/data-entities-data-packages.md#features-flighted-in-data-management-and-enabling-flighted-features) para o recurso **MRGuidesFeature**. (Para ambientes de produção, você deve primeiro enviar um tíquete de suporte para que seu locatário seja adicionado ao grupo de versão de pré-lançamento.)
-- [Ative as seguintes chaves de configuração](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) na página **Configuração de licenças**:
+- [Ative as seguintes chaves de configuração](/dynamicsax-2012/appuser-itpro/license-code-and-configuration-key-reference) na página **Configuração de licenças**:
 
     - Gerenciamento de ativos \> Realidade combinada de gerenciamento de ativos
     - Realidade combinada \> Guia de realidade combinada
 
-- [Configurar Dynamics 365 Guides](https://docs.microsoft.com/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versão 200.0.0.96 ou posterior.
+- [Configurar Dynamics 365 Guides](/dynamics365/mixed-reality/guides/setup#step-2-create-a-common-data-service-environment-and-install-the-dynamics-365-guides-solution) versão 200.0.0.96 ou posterior.
 
 ## <a name="use-dynamics-365-guides-with-asset-management"></a>Use Dynamics 365 Guides com Gerenciamento de ativos
 
@@ -47,8 +47,8 @@ Para associar uma guia a um modelo da lista de verificação de manutenção, si
 
 1. Crie uma guia usando o PC do Dynamics 365 Guides e os aplicativos do HoloLens. Para obter informações sobre como criar uma guia, consulte os tópicos a seguir:
 
-    - [Use o aplicativo do PC para criar uma guia](https://docs.microsoft.com/dynamics365/mixed-reality/guides/pc-app-overview)
-    - [Use o aplicativo do HoloLens para colocar os hologramas](https://docs.microsoft.com/dynamics365/mixed-reality/guides/hololens-app-overview)
+    - [Use o aplicativo do PC para criar uma guia](/dynamics365/mixed-reality/guides/pc-app-overview)
+    - [Use o aplicativo do HoloLens para colocar os hologramas](/dynamics365/mixed-reality/guides/hololens-app-overview)
 
 1. No Supply Chain Management, [crie um modelo de lista de verificação de manutenção](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-checklist-template).
 1. Associe a guia criada por uma linha da lista de verificação de manutenção no novo modelo da lista de verificação de manutenção:

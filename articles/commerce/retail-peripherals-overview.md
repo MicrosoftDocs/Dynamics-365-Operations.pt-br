@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d2cbab3177756fbf5df4f07350a6449f0b22e028
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f60d2e654d37b86d92478b6cd961b917711ef8c
+ms.sourcegitcommit: 011468a6cffea8641bebc2922e0676d9f44b36fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791938"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5857264"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -142,6 +142,9 @@ A UWP, em caso de periféricos, é relacionada ao suporte do Windows para dispos
 ### <a name="keyboard-wedge"></a>Leitor de cartão de crédito do teclado
 
 Os leitores de cartão de crédito do teclado enviam dados para o computador como se os dados tivessem sido digitados em um teclado. Portanto, por padrão, o campo que fica ativo no PDV receberá os dados digitalizados ou lidos. Em alguns casos, este comportamento pode fazer com que o tipo errado de dado seja digitalizado no campo errado. Por exemplo, um código de barras pode ser digitalizado em um campo que foi criado para a entrada de dados de cartão de crédito. Em muitos casos, há uma lógica no PDV que determina se os dados que são digitalizados ou lidos são um código de barras ou faixa de cartão. Portanto, os dados são controlados corretamente. Entretanto, quando dispositivos são configurados como OPOS em vez de leitores de cartão de crédito do teclado, há mais controle sobre a forma como os dados desses dispositivos podem ser consumidos, pois o dispositivo de origem dos dados é mais "conhecido". Por exemplo, os dados de um scanner de código de barras são reconhecidos automaticamente como um código de barras, e o registro associado no banco de dados é encontrado com mais facilidade e rapidez do que se uma pesquisa de cadeia de caracteres genérica fosse utilizada, como no caso dos leitores de cartão de crédito de teclado.
+
+> [!NOTE]
+> Quando os scanners de leitura do teclado são usados no PDV, eles devem ser programados para enviar um retorno de carro ou **Inserir** evento, após o último caractere digitalizado. Se essa configuração não for realizada, os scanners de leitura do teclado não funcionarão corretamente. Consulte a documentação fornecida pelo fabricante do dispositivo para obter mais informações sobre como acrescentar o evento de retorno de carro.  
 
 ### <a name="native-printer"></a>Impressora nativa
 

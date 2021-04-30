@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-07
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5eca902ee7df7eb6835caf6f64b17f3f004b0776
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 387caeee3ba44e1fbc661e2c31915b75dd80c31e
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802446"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5892120"
 ---
 # <a name="view-and-manage-address-changes"></a>Exibir e gerenciar alterações de endereço
 
@@ -125,9 +125,9 @@ O pessoal de RH pode exibir e monitorar alterações de endereço no espaço de 
 Quando você seleciona o bloco **Alterações de endereço**, uma nova página exibe os detalhes das alterações de endereço. Opcionalmente, você pode selecionar **Incluir alterações de endereço futuro** no canto superior direito para exibir alterações de endereço com uma data futura.
 
 > [!NOTE]
-> Se desejar receber um alerta ou email sobre essas alterações de endereço, você poderá criar uma nova regra de alerta na guia **Opções** no Painel de Ações. Para obter mais informações sobre regras de alerta, consulte [Criar regras de alerta](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts).<br><br>
+> Se desejar receber um alerta ou email sobre essas alterações de endereço, você poderá criar uma nova regra de alerta na guia **Opções** no Painel de Ações. Para obter mais informações sobre regras de alerta, consulte [Criar regras de alerta](../fin-ops-core/fin-ops/get-started/create-alerts.md).<br><br>
 
-> Se desejar configurar um fluxo de trabalho para as alterações de endereço, você poderá selecionar a opção **Enviar externamente** na regra de alerta e, em seguida, usar o Power Automate para disparar o evento comercial e configurar um fluxo de trabalho. Para obter mais informações, consulte [Alertas como eventos comerciais](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/create-alerts#alerts-as-business-events).
+> Se desejar configurar um fluxo de trabalho para as alterações de endereço, você poderá selecionar a opção **Enviar externamente** na regra de alerta e, em seguida, usar o Power Automate para disparar o evento comercial e configurar um fluxo de trabalho. Para obter mais informações, consulte [Alertas como eventos comerciais](../fin-ops-core/fin-ops/get-started/create-alerts.md#alerts-as-business-events).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

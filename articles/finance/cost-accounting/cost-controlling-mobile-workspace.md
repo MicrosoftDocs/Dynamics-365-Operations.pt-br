@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 6ab1edf6f3c1053f65c6d89786de5bfcc6c268e9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 569f932b256054f2d93a6d699ca5d5af3da08ca6
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822942"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897927"
 ---
 # <a name="cost-controlling-mobile-workspace"></a>Espaço de trabalho móvel de controle de custo
 
@@ -76,7 +76,7 @@ O espaço de trabalho móvel **Controle de custo** fornece as seguintes ações,
 Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-finance"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 Finance
-Se o Finance foi implantado na organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Controle de custo**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Finance foi implantado na organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Controle de custo**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 com a atualização de plataforma 3 ou posterior
 Se a versão 1611 com a atualização de plataforma 3 ou posterior foi implantada na organização, o administrador do sistema deve atender aos seguintes pré-requisitos.
@@ -96,17 +96,17 @@ Se a versão 1611 com a atualização de plataforma 3 ou posterior foi implantad
 
 <td>O KB 4013633 é uma atualização X++ ou hotfix de metadados que contém o espaço de trabalho móvel de <strong>Controle de custo</strong>. Para implementar o KB 4013633, o administrador do sistema deve seguir estas etapas.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar o hotfix de metadados</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar o pacote implantável</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicar o pacote implantável</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicar o espaço de trabalho móvel do <strong>Controle de custo</strong>.</td>
 <td>Administrador do sistema</td>
-<td>Consulte <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publicar um espaço de trabalho móvel</a>.</td>
+<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
 </tr>
 </tbody>
 </table>

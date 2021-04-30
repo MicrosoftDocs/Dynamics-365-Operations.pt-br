@@ -16,22 +16,23 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a8c263104e209a81e33ea0db9e5fecddff3bc95b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
+ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809773"
+ms.lasthandoff: 04/15/2021
+ms.locfileid: "5899086"
 ---
-# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e de borda
+# <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
 
 > [!WARNING]
+> A carga de trabalho de execução de fabricação está disponível na versão preliminar neste momento.
 > Algumas funcionalidades comerciais não têm suporte total na versão preliminar pública quando unidades de escala de carga de trabalho são usadas.
 
-Na execução de fabricação, as unidades de escala de nuvem e de borda fornecem os seguintes recursos, mesmo quando as unidades de borda não estão conectadas ao hub:
+Na execução de fabricação, as unidades de escala fornecem os seguintes recursos:
 
 - Os operadores de máquina e os supervisores de chão de fábrica podem acessar o plano de produção operacional.
 - Os operadores de máquina podem manter o plano atualizado ao executar trabalhos de fabricação discretos e de processo.
@@ -108,5 +109,6 @@ Para revisar o histórico de trabalhos de fabricação que foram processados em 
 
 O trabalho _Hub de fabricação para processador de mensagens da unidade de escala_ processa dados do hub para a unidade de escala. Esse trabalho é iniciado automaticamente quando a carga de trabalho de execução de fabricação é implantada. No entanto, você pode executá-lo manualmente a qualquer momento, acessando **Controle de produção \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office \> Hub de fabricação para processador de mensagens da unidade de escala**.
 
+[!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

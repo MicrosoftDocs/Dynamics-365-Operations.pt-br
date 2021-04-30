@@ -15,12 +15,12 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: b60be589394c506137c60ed0bc9c95d5a7af5e9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f62772351d985ab4c1319acde19def2d8fb551ca
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816643"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908721"
 ---
 # <a name="inventory-on-hand-mobile-workspace"></a>Espaço de trabalho móvel de estoque disponível
 
@@ -56,7 +56,7 @@ Especificamente, espaço de trabalho móvel fornece esses recursos:
 Os pré-requisitos diferem com base na versão do Supply Chain Management que foi implantada para sua organização.
 
 ### <a name="prerequisites-if-you-use-supply-chain-management"></a>Pré-requisito para usar o Supply Chain Management
-Se o Supply Chain Management tiver sido implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Estoque disponível**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+Se o Supply Chain Management tiver sido implantado para sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Estoque disponível**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-platform-update-3-or-later"></a>Pré-requisitos se você usa a Platform update 3 ou posterior 
 Se a Platform update 3 ou posterior tiver sido implantada para sua organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
@@ -76,17 +76,17 @@ Se a Platform update 3 ou posterior tiver sido implantada para sua organização
 
 <td>o KB 4013633 é um hotfix de metadados ou uma atualização X++ que contém o espaço de trabalho móvel de <strong>Estoque disponível</strong>. Para implementar o KB 4013633, o administrador do sistema deve seguir estas etapas.
 <ol>
-<li><a href="../../dev-itpro/migration-upgrade/download-hotfix-lcs.md">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
-<li><a href="../../dev-itpro/migration-upgrade/install-metadata-hotfix-package.md">Instalar o hotfix de metadados</a>.</li>
-<li><a href="../../dev-itpro/deployment/create-apply-deployable-package.md">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
-<li><a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar o pacote implantável</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplicar o pacote implantável</a>.</li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>Publicar o <strong>Espaço de trabalho móvel de estoque disponível</strong>.</td>
 <td>Administrador do sistema</td>
-<td>Consulte <a href="../../dev-itpro/mobile-apps/publish-mobile-workspace.md">Publicar um espaço de trabalho móvel</a>.</td>
+<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -111,7 +111,7 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 
 1.  No seu dispositivo móvel, selecione o espaço de trabalho de **Estoque disponível**.
 
-2.  Selecione **Verificar estoque disponível de um item**. Você verá uma lista de produtos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
+2.  Selecione **Verificar estoque disponível de um item**. Você verá uma lista de produtos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](../../fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-home-page.md).
 3.  Se o item não estiver na lista, selecione **Pesquisar mais**. Pesquise por número de produto ou alterne para uma pesquisa por nome de produto.
 
 4.  Selecione um produto. Se o item tiver uma imagem, ela será mostrada.

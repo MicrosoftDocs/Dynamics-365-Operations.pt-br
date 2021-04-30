@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23cb0523b6d6d065ad19f6c3bddf881b0dc82a7d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840091"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894768"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Introdução ao Faturamento eletrônico para a Itália
 
@@ -201,7 +201,7 @@ Depois que você ativar os recursos **Integração do Faturamento eletrônico co
 Você pode enviar os documentos manualmente, com base na demanda de documentos de fatura eletrônica.
 
 > [!NOTE]
-> Antes de continuar, verifique se a configuração necessária para as faturas eletrônicas italianas foi concluída. Para obter mais informações, consulte [Faturas eletrônicas do cliente](https://docs.microsoft.com/dynamics365/finance/localizations/emea-ita-e-invoices). Lembre-se de que algumas das etapas de configuração descritas nesse tópico podem não estar disponíveis devido à ativação do Faturamento eletrônico.
+> Antes de continuar, verifique se a configuração necessária para as faturas eletrônicas italianas foi concluída. Para obter mais informações, consulte [Faturas eletrônicas do cliente](./emea-ita-e-invoices.md). Lembre-se de que algumas das etapas de configuração descritas nesse tópico podem não estar disponíveis devido à ativação do Faturamento eletrônico.
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.

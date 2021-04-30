@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 502205f76f1519153caf6e976ffbb5eb9412c4ea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1f034017c2cd8736c1e3ce286924bf305961390
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818551"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5898051"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página inicial do Finance insights (versão prévia)
 
@@ -31,7 +31,7 @@ O Finance Insights fornece modelos configuráveis e extensíveis para ajudar voc
 
 A versão prévia do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, Europa e Reino Unido. A Microsoft está adicionando suporte para mais regiões de forma incremental.
 
-Os recursos de versão prévia só devem ser ativados em ambientes de área restrita de Camada 2. A Configuração e os Modelos de inteligência artificial (IA) criados em um ambiente de área restrita não podem ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](https://docs.microsoft.com/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+Os recursos de versão prévia só devem ser ativados em ambientes de área restrita de Camada 2. A Configuração e os Modelos de inteligência artificial (IA) criados em um ambiente de área restrita não podem ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
@@ -43,7 +43,7 @@ Para se inscrever no programa de versão prévia, preencha o [contrato do Financ
 
 ### <a name="system-requirements"></a>Requisitos do sistema
 
-É necessário um ambiente de área restrita do nível 2 (várias áreas) para visualizar o Finance Insights. Para obter informações de contexto sobre os ambientes, consulte [Planejamento de ambiente](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/imp-lifecycle/environment-planning).
+É necessário um ambiente de área restrita do nível 2 (várias áreas) para visualizar o Finance Insights. Para obter informações de contexto sobre os ambientes, consulte [Planejamento de ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Requisitos da versão
 
@@ -53,7 +53,7 @@ Este documento aplica-se à versão 10.0.11 de aplicativos do Finance and Operat
 
 Pelo menos um ano de faturas de clientes é necessário para treinar corretamente o modelo de aprendizado de máquina usado para o recurso de previsões de pagamento do cliente.
 
-Os dados de exemplo estão disponíveis para sistemas de demonstração que têm o conjunto de dados de demonstração da Contoso.
+Os dados de exemplo estão disponíveis para sistemas de demonstração com o conjunto de dados de demonstração da Contoso.
 
 ### <a name="role-and-permission-requirements"></a>Requisitos de função e permissão
 
@@ -79,7 +79,7 @@ Você precisará criar um projeto de integrador de dados para que os dados gerad
 Depois de concluir as etapas de configuração e configurar os dados de demonstração, você deve ativar e configurar cada recurso que planeja usar: previsões de pagamento de cliente, previsão de fluxo de caixa e propostas de orçamento.
 
 ### <a name="enable-customer-payment-predictions"></a>Habilitar Previsões de pagamento do cliente
-Se você estiver usando dados de demonstração para testar previsões de pagamento de cliente, talvez seja necessário importar dados de demonstração adicionais para criar o modelo de IA com êxito. Para obter as etapas específicas para importar dados de demonstração, consulte [Configurar dados de demonstração para previsões de pagamento](set-up-demo-data.md).
+Se você estiver usando dados de demonstração para testar previsões de pagamento de cliente, talvez seja necessário importar dados de demonstração adicionais para criar o modelo de IA com êxito. 
 
 Para habilitar previsões de pagamento de cliente, você deve concluir um conjunto de etapas para criar um modelo de aprendizado de máquina que usa os dados de sua organização para gerar previsões sobre quando os clientes provavelmente pagarão faturas pendentes e quando faturas específicas provavelmente serão pagas. Para obter mais informações e as etapas específicas a serem concluídas, consulte [Habilitar previsões de pagamento de cliente](enable-cust-paymnt-prediction.md). 
 

@@ -1,7 +1,7 @@
 ---
 title: Home page do planejamento mestre
 description: O Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa.
-author: ShylaThompson
+author: ChristianRytt
 ms.date: 12/03/2018
 ms.topic: article
 ms.prod: ''
@@ -13,34 +13,34 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5056bc9ffa96e1a23e07582b1742e5b3bec12610
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 92dfb05addc1c791b24f129587b842d22423eb54
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833416"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908747"
 ---
 # <a name="master-planning-home-page"></a>Home page do planejamento mestre
 
 [!include [banner](../includes/banner.md)]
 
-Essencialmente, o Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa. O Planejamento mestre avalia o seguinte: 
+Essencialmente, o Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa. O Planejamento mestre avalia o seguinte:
 
--  Quais matérias-primas e capacidades estão disponíveis atualmente? 
--  Quais matérias-primas e capacidades são necessárias para concluir a produção? Por exemplo, o que deve ser fabricado, comprado, transferido ou separado como estoque de segurança antes de você concluir a produção?
+- Quais matérias-primas e capacidades estão disponíveis atualmente?
+- Quais matérias-primas e capacidades são necessárias para concluir a produção? Por exemplo, o que deve ser fabricado, comprado, transferido ou separado como estoque de segurança antes de você concluir a produção?
 
 O Planejamento mestre usa as informações para calcular as necessidades e gerar ordens planejadas.
 
 Os três processos de planejamento principais são:
 
--  **Planejamento mestre** - O Planejamento mestre calcula os requisitos líquidos. Ele se baseia em ordens reais atuais e permite que as empresas controlem o reabastecimento do estoque a curto prazo diariamente. Outro termo para descrevê-lo é o *Plano de requisições líquidas*. Para obter mais informações, consulte [Visão geral de Planos mestre](master-plans.md). 
+- **Planejamento mestre** - O Planejamento mestre calcula os requisitos líquidos. Ele se baseia em ordens reais atuais e permite que as empresas controlem o reabastecimento do estoque a curto prazo diariamente. Outro termo para descrevê-lo é o *Plano de requisições líquidas*. Para obter mais informações, consulte [Visão geral de Planos mestre](master-plans.md).
 
--  **Planejamento de previsão** - O Plano de previsão calcula os requisitos brutos. Ele se baseia em projeções futuras (ou previsões) e permite que as empresas realizem o planejamento de materiais e capacidade a longo prazo. Para obter mais informações, consulte [Visão geral da previsão de demanda](introduction-demand-forecasting.md). 
+- **Planejamento de previsão** - O Plano de previsão calcula os requisitos brutos. Ele se baseia em projeções futuras (ou previsões) e permite que as empresas realizem o planejamento de materiais e capacidade a longo prazo. Para obter mais informações, consulte [Visão geral da previsão de demanda](introduction-demand-forecasting.md).
 
--  **Planejamento mestre intercompanhia** - O plano mestre intercompanhia calcula requisições líquidas entre entidades legais. Ele conecta demanda e fornecimento entre as empresas, não apenas em demanda e fornecimento de confirmação em curto prazo, mas também em demanda e fornecimento planejado a longo prazo. Para obter mais informações, consulte [Planejamento mestre intercompanhia](https://mbspartner.microsoft.com/AX/CourseOverview/1276)  (eLearning) (requer conta do CustomerSource). 
+- **Planejamento mestre intercompanhia** - O plano mestre intercompanhia calcula requisições líquidas entre entidades legais. Ele conecta demanda e fornecimento entre as empresas, não apenas em demanda e fornecimento de confirmação em curto prazo, mas também em demanda e fornecimento planejado a longo prazo. Para obter mais informações, consulte [Planejamento de intercompanhias](planning-optimization/Intercompany-planning.md).
 
 As empresas podem alterar a saída do plano. Elas podem realizar alteração líquida, regenerativa ou ambas. Planos regenerativos atualizam todos os requisitos, enquanto planos de alteração líquida atualizam apenas o plano nos itens com novos requisitos que entraram desde a última execução do agendamento.
 
@@ -61,28 +61,30 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 - [Criar um plano intercompanhia](./tasks/create-intercompany-plan.md)
 - [Visão geral da previsão de demanda](introduction-demand-forecasting.md)
 - [Chaves de redução da previsão](reduction-keys.md)
-                                  
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="roadmaps"></a>Roteiros
+
 Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento.
 
 ### <a name="blogs"></a>Blogs
-Você encontra opiniões, notícias e outras informações sobre Planejamento mestre e outras soluções no [Blog da Equipe Dynamics AX Manufacturing R&D](https://blogs.msdn.microsoft.com/axmfg) e no [Blog da equipe do Supply Chain Management no Dynamics AX R&D](https://blogs.msdn.microsoft.com/dynamicsaxscm).
+
+Você encontra opiniões, notícias e outras informações sobre Planejamento mestre e outras soluções no [Blog da Equipe Dynamics AX Manufacturing R&D](/archive/blogs/axmfg/) e no [Blog da equipe do Supply Chain Management no Dynamics AX R&D](https://blogs.msdn.microsoft.com/dynamicsaxscm).
 
 ### <a name="task-guides"></a>Guias de tarefas
+
 A ajuda adicional está disponível como guias de tarefas. Para acessar os guias de tarefas, clique no botão **Ajuda** em qualquer página.
 
 ### <a name="webinars"></a>Webinars
+
 [Usar o Azure Machine Learning para previsão de demanda](https://www.youtube.com/watch?v=4nQsccdFFDA&feature=youtu.be)
 
 ### <a name="tech-conference-recordings"></a>Gravações de conferências sobre tecnologia
--  [Estender a funcionalidade de previsão de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
--  [Planejamento mestre – dicas e truques para solucionar problemas de desempenho](https://youtu.be/7v8BPmEs9Dg)
--  [Ajuda! O MRP está lento!](https://youtu.be/RLXybx20B5o)
 
-
-
+- [Estender a funcionalidade de previsão de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+- [Planejamento mestre – dicas e truques para solucionar problemas de desempenho](https://youtu.be/7v8BPmEs9Dg)
+- [Ajuda! O MRP está lento!](https://youtu.be/RLXybx20B5o)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

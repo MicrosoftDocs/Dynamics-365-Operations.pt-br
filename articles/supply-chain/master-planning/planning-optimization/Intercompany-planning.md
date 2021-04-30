@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 5c9ab724034a9bb40cfe155b748a0c7e25978add
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e6fff06cb6194f17444025f7ea1f9dbb46e4f3ea
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833344"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907634"
 ---
 # <a name="intercompany-planning"></a>Planejamento intercompanhia
 
@@ -45,8 +45,8 @@ Se você executar o planejamento mestre a partir de um plano mestre que inclui a
 
 Para usar o planejamento intercompanhia, você deve preparar o sistema da seguinte maneira:
 
-1. Os produtos relevantes devem ser liberados em todas as empresas relevantes. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
-1. A demanda downstream deve ser coberta pelas compras de um fornecedor que tenha uma relação intercompanhia para a empresa de upstream e as dimensões de estoque padrão relevantes (site e depósito) no cliente. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](https://docs.microsoft.com/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
+1. Os produtos relevantes devem ser liberados em todas as empresas relevantes. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
+1. A demanda downstream deve ser coberta pelas compras de um fornecedor que tenha uma relação intercompanhia para a empresa de upstream e as dimensões de estoque padrão relevantes (site e depósito) no cliente. Para obter mais informações, consulte [Configurar e usar comércio intercompanhia no Dynamics 365 Supply Chain Management](/learn/modules/configure-use-intercompany-trade-dyn365-supply-chain-mgmt/) no Microsoft Learn.
 1. O plano mestre na empresa de upstream deve incluir a demanda de downstream planejada; a empresa e o plano mestre relevantes devem ser especificados nos planos downstream.
 
 ## <a name="include-planned-downstream-demand"></a>Incluir a demanda downstream planejada

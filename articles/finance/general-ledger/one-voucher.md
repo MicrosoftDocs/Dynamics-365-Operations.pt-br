@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: e98f1803e43df0fbd5ab700b959faaeee017b7a9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834491"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897759"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -48,7 +48,7 @@ A funcionalidade existente para diários financeiros (diário geral, diário de 
 
 ## <a name="issues-with-one-voucher"></a>Problemas com Um comprovante único
 
-A funcionalidade Um comprovante único causa problemas durante liquidação, cálculo de imposto, reversão da transação, reconciliação de um diário-razão auxiliar para a contabilidade, relatório financeiro e muito mais. (Por exemplo, para obter mais informações sobre problemas que podem ocorrer durante a liquidação, consulte [Comprovante único com vários registros de cliente ou de fornecedor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/single-voucher-multiple-customer-vendor-records).) Para trabalhar e relatar corretamente, os processos e relatórios exigem detalhes de transação. Embora alguns cenários ainda possam funcionar corretamente, dependendo da configuração da organização, geralmente há problemas quando várias transações são inseridas em um comprovante.
+A funcionalidade Um comprovante único causa problemas durante liquidação, cálculo de imposto, reversão da transação, reconciliação de um diário-razão auxiliar para a contabilidade, relatório financeiro e muito mais. (Por exemplo, para obter mais informações sobre problemas que podem ocorrer durante a liquidação, consulte [Comprovante único com vários registros de cliente ou de fornecedor](../accounts-payable/single-voucher-multiple-customer-vendor-records.md).) Para trabalhar e relatar corretamente, os processos e relatórios exigem detalhes de transação. Embora alguns cenários ainda possam funcionar corretamente, dependendo da configuração da organização, geralmente há problemas quando várias transações são inseridas em um comprovante.
 
 Por exemplo, você lança o seguinte comprovante combinado.
 

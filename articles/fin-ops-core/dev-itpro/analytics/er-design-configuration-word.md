@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: 4885caf017fa0f9d36d293fa32aad53c21d3f162
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7790d7e581b9b4260a4c57af84b02a182dde953d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753567"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894067"
 ---
 # <a name="design-a-new-er-configuration-to-generate-reports-in-word-format"></a>Criar uma nova configuração de (ER) para gerar relatórios no formato Word
 
@@ -38,7 +38,7 @@ Para usar um documento do Word como modelo para relatórios no formato Word, voc
 O componente de formato de ER da solução deve conter o elemento de formato **Excel\\File**, e esse elemento de formato deve estar vinculado ao documento do Word que será usado como modelo para relatórios gerados no tempo de execução. Para configurar o componente de formato de ER, é necessário abrir a versão de [rascunho](general-electronic-reporting.md#component-versioning) da configuração de ER criada no designer de formato de ER. Em seguida, adicione o elemento **Excel\\File**, anexe seu modelo do Word ao formato de ER editável e vincule esse modelo ao elemento **Excel\\File** que você adicionou.
 
 > [!NOTE]
-> Ao anexar um modelo, você deve usar um [tipo de documento](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/configure-document-management#configure-document-types) que tenha sido [configurado](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) nos parâmetros de ER para armazenar modelos de formatos de ER.
+> Ao anexar um modelo, você deve usar um [tipo de documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) que tenha sido [configurado](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents) nos parâmetros de ER para armazenar modelos de formatos de ER.
 
 ![Anexar um modelo na página Designer de formato](./media/er-design-configuration-word-image3.gif)
 
@@ -46,11 +46,11 @@ Você pode adicionar os elementos aninhados **Excel\\Range** e **Excel\\Cell** p
 
 ![Adicionar elemento aninhados na página Designer de formato](./media/er-design-configuration-word-image4.gif)
 
-Quando você salva as alterações no formato de ER no momento da criação, a estrutura de formato hierárquico é armazenada no modelo do Word anexado como uma [parte XML personalizada](https://docs.microsoft.com/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) que é denominada **Relatório**. Você deve acessar o modelo modificado, baixá-lo no Finance, armazená-lo localmente e abri-lo no aplicativo da área de trabalho Word. A ilustração a seguir mostra o modelo de exemplo armazenado localmente para o relatório de controle que contém a parte XML personalizada **Relatório**.
+Quando você salva as alterações no formato de ER no momento da criação, a estrutura de formato hierárquico é armazenada no modelo do Word anexado como uma [parte XML personalizada](/visualstudio/vsto/custom-xml-parts-overview?view=vs-2019) que é denominada **Relatório**. Você deve acessar o modelo modificado, baixá-lo no Finance, armazená-lo localmente e abri-lo no aplicativo da área de trabalho Word. A ilustração a seguir mostra o modelo de exemplo armazenado localmente para o relatório de controle que contém a parte XML personalizada **Relatório**.
 
 ![Pré-visualizar o modelo de exemplo de relatório no aplicativo da área de trabalho Word](./media/er-design-configuration-word-image5.gif)
 
-Quando as associações dos elementos de formato **Excel\\Range** e **Excel\\Cell** são executadas no tempo de execução, todas as associações fornecem dados no documento gerado do Word como um campo individual da parte XML personalizada do **Relatório**. Para inserir os valores dos campos da parte XML personalizada em um documento gerado, você deve adicionar os [controles de conteúdo](https://docs.microsoft.com/office/client-developer/word/content-controls-in-word) adequados do Word ao modelo do Word para servir como espaços reservados para dados que serão preenchidos no tempo de execução. Para especificar como os controles de conteúdo são preenchidos, mapeie cada controle de conteúdo para o campo apropriado da parte XML personalizada **Relatório**.
+Quando as associações dos elementos de formato **Excel\\Range** e **Excel\\Cell** são executadas no tempo de execução, todas as associações fornecem dados no documento gerado do Word como um campo individual da parte XML personalizada do **Relatório**. Para inserir os valores dos campos da parte XML personalizada em um documento gerado, você deve adicionar os [controles de conteúdo](/office/client-developer/word/content-controls-in-word) adequados do Word ao modelo do Word para servir como espaços reservados para dados que serão preenchidos no tempo de execução. Para especificar como os controles de conteúdo são preenchidos, mapeie cada controle de conteúdo para o campo apropriado da parte XML personalizada **Relatório**.
 
 ![Adicionar e mapear controles de conteúdo no aplicativo da área de trabalho Word](./media/er-design-configuration-word-image6.gif)
 

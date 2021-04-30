@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 23ee82922a2103d02a4c1fe0c364fa381c4984c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3acdde483cb997b4a16a497f145c7c087c6906b5
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842000"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909710"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
@@ -142,7 +142,7 @@ Para cada linha adicionada, defina os campos a seguir.
 | Empresa | Se você definir o campo **Executar em** como *Uma única empresa*, selecione a empresa. |
 | Tipo do proprietário | Selecione se as verificações de preparação que a linha gera devem ser atribuídas a uma pessoa ou a uma equipe. |
 | Proprietário | Selecione se as verificações de preparação que a linha gera devem ser atribuídas a uma pessoa ou a uma equipe. |
-| Questionário | Selecione o questionário que deve ser usado para a lista de verificação. A lista de verificação é uma lista de verificação local na empresa na qual a verificação de preparação está concluída. O sistema deve ser capaz de avaliar se a lista de verificação foi respondida corretamente. Portanto, a lista de verificação deve ser configurada de forma que uma avaliação seja feita com base nas respostas corretas. Para obter mais informações sobre como criar questionários, consulte [Usando questionários](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/using-questionnaires) e os tópicos relacionados. |
+| Questionário | Selecione o questionário que deve ser usado para a lista de verificação. A lista de verificação é uma lista de verificação local na empresa na qual a verificação de preparação está concluída. O sistema deve ser capaz de avaliar se a lista de verificação foi respondida corretamente. Portanto, a lista de verificação deve ser configurada de forma que uma avaliação seja feita com base nas respostas corretas. Para obter mais informações sobre como criar questionários, consulte [Usando questionários](/dynamicsax-2012/appuser-itpro/using-questionnaires) e os tópicos relacionados. |
 | Aprovação automática | Os registros de verificação de prontidão incluem uma caixa de seleção **Aprovado** que indica o status da aprovação. Marque a caixa de seleção **Aprovação automática** para verificações que devem ser definidas como aprovados imediatamente após o usuário atribuído concluí-los. Desmarque esta caixa de seleção para exigir aprovação explícita como uma etapa extra. |
 | Obrigatório | Marque esta caixa de seleção para os cheques que devem ser concluídos pelo usuário atribuído. As verificações obrigatórias não podem ser ignoradas. |
 

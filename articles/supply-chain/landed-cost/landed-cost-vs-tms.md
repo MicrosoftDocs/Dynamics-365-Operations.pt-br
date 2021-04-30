@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bb5ecaa237eed2a1902c965fd42b31cc1708a4e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 244d378316caf639c3520a1179dd82955d94220a
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833848"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909466"
 ---
 # <a name="landed-cost-vs-transportation-management"></a>Gerenciamento de custo de entrega x transporte
 
@@ -51,8 +51,8 @@ O TMS e o custo de entrega não compartilham dados de referência para entidades
 
 Os seguintes relatórios não funcionam em conjunto com o recurso mercadorias em trânsito fornecido pelo custo de entrega:
 
-- [Relatório Totais de mercadorias em trânsito intercompanhia](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
-- [Relatório Totais de mercadorias em trânsito intercompanhia](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Relatório Totais de mercadorias em trânsito intercompanhia](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
+- [Relatório Totais de mercadorias em trânsito intercompanhia](/dynamicsax-2012/appuser-itpro/intercompany-goods-in-transit-totals-report-intercompanygoodsintransittotals)
 
 Esses relatórios supõem que as mercadorias são colocadas em trânsito logo que você emite uma guia de remessa de venda e que que são colocadas em estoque de trânsito após o recebimento. No entanto, as mercadorias em trânsito não são processadas dessa forma. Portanto, se você usar os recursos de mercadorias em trânsito e intercompanhia juntos, os resultados desses dois relatórios serão incorretos.
 

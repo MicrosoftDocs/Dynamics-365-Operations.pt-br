@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dfabda7ab4caafc43926595655352fbfe49d8ff7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 177586068ddb86943f8013722e1be9e63c53fa0f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5805000"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889779"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -80,7 +80,7 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
     
 3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Human Resources. Dados de demonstração são interessantes para ambientes de demonstração ou de treinamento de longo prazo, e nunca devem ser usados em ambientes de produção. Você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
 
-4. O Human Resources sempre é provisionado em um ambiente do Microsoft Power Apps para permitir a integração e extensibilidade do Power Apps. Leia a seção "Selecionando um ambiente do Power Apps" deste artigo antes de prosseguir. Se você ainda não tem um ambiente do Power Apps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do Power Apps. Em seguida, siga as etapas para [Criar um ambiente do Power Apps](https://docs.microsoft.com/powerapps/administrator/create-environment).
+4. O Human Resources sempre é provisionado em um ambiente do Microsoft Power Apps para permitir a integração e extensibilidade do Power Apps. Leia a seção "Selecionando um ambiente do Power Apps" deste artigo antes de prosseguir. Se você ainda não tem um ambiente do Power Apps, selecione Gerenciar ambientes no LCS ou vá para o Centro de administração do Power Apps. Em seguida, siga as etapas para [Criar um ambiente do Power Apps](/powerapps/administrator/create-environment).
 
 5. Selecione o ambiente ao qual provisionar o Human Resources.
 
@@ -124,7 +124,7 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
  
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente
 
-Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os usuários adicionais do aplicativo devem ter acesso explicitamente. Você deve adicionar usuários e atribuir a eles as funções adequadas no ambiente do Human Resources. O administrador global que implantou o Human Resources também deve iniciar o Attract e o Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário. Até que isso ocorra, outros usuários não poderão acessar o Attract e o Onboard e receberão erros de violação de acesso. Para obter mais informações, consulte [Criar novos usuários](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os usuários adicionais do aplicativo devem ter acesso explicitamente. Você deve adicionar usuários e atribuir a eles as funções adequadas no ambiente do Human Resources. O administrador global que implantou o Human Resources também deve iniciar o Attract e o Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário. Até que isso ocorra, outros usuários não poderão acessar o Attract e o Onboard e receberão erros de violação de acesso. Para obter mais informações, consulte [Criar novos usuários](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

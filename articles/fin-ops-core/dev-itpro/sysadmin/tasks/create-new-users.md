@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b994473b4535c255f87551a6d97e197516fc2a9c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745828"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5907902"
 ---
 # <a name="create-new-users"></a>Criar usuários
 
@@ -29,10 +29,10 @@ Para poder acessar os aplicativos do Finance and Operations, você deve ser adic
 Para obter informações sobre como comprar e obter licença para aplicativos do Finance and Operations, consulte o [Guia de licenciamento do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Atribuir uma licença a um usuário
-Os administradores do sistema podem [atribuir licenças a usuários](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) no [Centro de administração do Microsoft 365](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Os administradores do sistema podem [atribuir licenças a usuários](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) no [Centro de administração do Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Adicionar um usuário externo no Azure AD e atribuir uma licença 
-Os usuários externos devem ser representados no seu diretório de locatários (Azure Active Directory (Azure AD)) para poderem receber licenças. Esses usuários externos devem ser adicionados ao locatário no Azure AD como usuários convidados para depois poderem receber as licenças apropriadas. Um requisito para aplicativos do Finance and Operations é que a empresa do usuário convidado use o Azure AD. Para obter mais informações, consulte [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](https://docs.microsoft.com/azure/active-directory/b2b/add-users-administrator).
+Os usuários externos devem ser representados no seu diretório de locatários (Azure Active Directory (Azure AD)) para poderem receber licenças. Esses usuários externos devem ser adicionados ao locatário no Azure AD como usuários convidados para depois poderem receber as licenças apropriadas. Um requisito para aplicativos do Finance and Operations é que a empresa do usuário convidado use o Azure AD. Para obter mais informações, consulte [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importar novos usuários do Azure AD 
 1. Vá para **Administração do sistema** \> **Usuários** \> **Usuários**.
@@ -57,7 +57,7 @@ Os usuários externos devem ser representados no seu diretório de locatários (
 7. No campo **Empresa**, selecione a empresa inicial padrão para o usuário. 
 8. Selecione **Salvar**.
 
-Os valores para o provedor de identidade e a ID de telemetria serão atualizados com base em uma chamada do [Microsoft Graph](https://docs.microsoft.com/graph/overview), quando o registro de usuário for salvo. O ID de telemetria baseia-se no ID de objeto/SID (identificador de segurança) do usuário no Azure AD.
+Os valores para o provedor de identidade e a ID de telemetria serão atualizados com base em uma chamada do [Microsoft Graph](/graph/overview), quando o registro de usuário for salvo. O ID de telemetria baseia-se no ID de objeto/SID (identificador de segurança) do usuário no Azure AD.
 
 > [!NOTE]
 > Depois de adicionar um usuário, você deve atribuir funções e organizações conforme aplicável. Para obter mais informações, consulte [Atribuir usuários a funções de segurança](assign-users-security-roles.md). Também pode ser necessário associar o usuário a uma **Pessoa** e atualizar as **Opções do usuário**, como idioma.

@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 328de242c859aa4b1854754bf794663135d508d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e934855f2641820f89f0b4f7883ece3f102ced66
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813982"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894850"
 ---
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
@@ -53,7 +53,7 @@ O governo brasileiro atualizou a autoridade de certificação (CA) raiz usada pa
 
 Certificados brasileiros devem ser instalados por meio do Azure Key Vault. O Key Vault permite armazenar chaves de criptografia, certificados e segredos (como chaves de autenticação, chaves da conta de armazenamento, chaves de criptografia de dados, arquivos .pxf e senhas) usando chaves protegidas por módulos de segurança de hardware (HSMs).
 
-Para obter mais informações sobre como usar chaves e segredos com o Key Vault, consulte [Sobre chaves, segredos e certificados](https://docs.microsoft.com/rest/api/keyvault/about-keys--secrets-and-certificates).
+Para obter mais informações sobre como usar chaves e segredos com o Key Vault, consulte [Sobre chaves, segredos e certificados](/rest/api/keyvault/about-keys--secrets-and-certificates).
 A tabela a seguir lista todas as autoridades fiscais e as soluções que você deve usar para instalar certificados para elas.
 
 |Autoridade fiscal| Estados| Solução|

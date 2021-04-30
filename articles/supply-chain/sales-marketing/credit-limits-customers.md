@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fbf5ed3d0f83619746ae66ae7008940f4600060c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6aede26fb7d371806624742792ded5be23ad0e51
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824909"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908075"
 ---
 # <a name="credit-limits-for-customers"></a>Limites de crédito para clientes
 
@@ -90,7 +90,7 @@ Use o formulário **Parâmetros de contas a receber** para especificar informaç
 
 **Onde as informações sobre o crédito restante de um cliente são usadas?**
 
-As informações sobre um saldo e o valor de crédito restante de um cliente são calculadas e armazenadas quando você cria um instantâneo de classificação por vencimento e são exibidas no formulário **Cobranças** . Os valores que são exibidos no formulário **Cobranças** não podem incluir todas as atividades de transação até que um novo instantâneo de classificação por vencimento seja criado. Para obter mais informações, consulte [Cobranças e crédito em Contas a receber](https://technet.microsoft.com/library/hh209221.aspx).
+As informações sobre um saldo e o valor de crédito restante de um cliente são calculadas e armazenadas quando você cria um instantâneo de classificação por vencimento e são exibidas no formulário **Cobranças** . Os valores que são exibidos no formulário **Cobranças** não podem incluir todas as atividades de transação até que um novo instantâneo de classificação por vencimento seja criado. Para obter mais informações, consulte [Cobranças e crédito em Contas a receber](/dynamicsax-2012/appuser-itpro/collections-and-credit-in-accounts-receivable).
 
 Dependendo dos documentos selecionados, as informações sobre o saldo e o valor do crédito restante de um cliente são calculadas quando ordens de venda, guias de remessa e faturas de cliente são atualizadas. Se o valor do documento com o qual você está trabalhando fizer com que o limite de crédito seja excedido, uma mensagem será exibida.
 

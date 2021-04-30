@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a81e5c56e219ec9d7fb95ac6cc053fb13601f0f2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ac4c15b4dbf60f378ba325adedb377e12585481a
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801158"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5889947"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
 
@@ -29,7 +29,7 @@ ms.locfileid: "5801158"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](https://docs.microsoft.com/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
+Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
 
 ![Integração do Human Resources ao fluxo de integração do Finance](./media/hr-admin-integration-finance-flow.png)
 
@@ -248,7 +248,7 @@ A integração de Human Resources ao Finance tenta coincidir registros com base 
 
 Esse problema pode acontecer com **Trabalhador**, que usa **Número pessoal** para realizar a correspondência e **Posições**. Os trabalhos não usam sequências numéricas. Como resultado, se a mesma ID de trabalho existir em Human Resources e Finance, as informações de recursos humanos substituem as informações de Dynamics 365 Finance. 
 
-Para evitar problemas com IDs duplicadas, você pode adicionar um prefixo na [sequência numérica](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=/dynamics365/unified-operations/talent/toc.json) ou definir um número inicial na sequência numérica que está além do intervalo do outro sistema. 
+Para evitar problemas com IDs duplicadas, você pode adicionar um prefixo na [sequência numérica](/dynamics365/unified-operations/fin-and-ops/organization-administration/number-sequence-overview?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json) ou definir um número inicial na sequência numérica que está além do intervalo do outro sistema. 
 
 A identificação de local usada para o endereço de trabalho não faz parte de uma sequência numérica. Ao integrar um endereço de trabalhador de Human Resources a Finance, se o endereço de trabalho já existir em Finance, um registro de endereço duplicado poderá ser criado. 
 

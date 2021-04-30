@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 05b5126b29351ca3093e75e878682f7a07186898
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a39dbdcae29df5e838673dc1fe77ae7e76ebfc86
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752957"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908332"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
@@ -45,7 +45,7 @@ Para saber mais sobre como usar o suplemento do Excel, assista ao breve vídeo [
 2. Selecione uma opção **Abrir no Excel**, e abra a pasta de trabalho gerada. Essa pasta de trabalho possui informações obrigatórias da entidade, um indicador para seu ambiente e um indicador para o suplemento do Excel.
 3. No Excel, selecione **Habilitar edição** para permitir que o suplemento do Excel seja executado. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4. Caso esteja executando o suplemento do Excel pela primeira vez, selecione **Confiar nesse Suplemento**.
-5. Se você for solicitado a entrar, selecione **Entrar** e, em seguida, entre com as mesmas credenciais usadas para entrar no aplicativo do Finance and Operations. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](https://docs.microsoft.com/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
+5. Se você for solicitado a entrar, selecione **Entrar** e, em seguida, entre com as mesmas credenciais usadas para entrar no aplicativo do Finance and Operations. O suplemento do Excel usará um contexto de entrada anterior do navegador e conectará você automaticamente, se possível. (Para obter informações sobre o navegador usado com base no sistema operacional, consulte [Navegadores usados por suplementos do Office](/office/dev/add-ins/concepts/browsers-used-by-office-web-add-ins.)). Para garantir que a conexão foi bem-sucedida, verifique o nome de usuário no canto superior direito do suplemento do Excel. 
 
 O suplemento do Excel lê automaticamente os dados da entidade selecionada. Observe que não haverá dados na pasta de trabalho até que o suplemento do Excel realize a leitura.
 
@@ -60,7 +60,7 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 
 6. Selecione **OK** e, depois, **Sim** para confirmar a alteração. O suplemento do Excel é reiniciado e carrega os metadados.
 
-    O botão **Design** agora está disponível. Se o suplemento do Excel possuir um botão **Carregar applets**, você provavelmente não está conectado como o usuário correto. Para obter mais informações, consulte "O botão Carregar applets está aparecendo" na seção [Solução de Problemas"](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in#troubleshooting) desse tópico.
+    O botão **Design** agora está disponível. Se o suplemento do Excel possuir um botão **Carregar applets**, você provavelmente não está conectado como o usuário correto. Para obter mais informações, consulte "O botão Carregar applets está aparecendo" na seção [Solução de Problemas"](../office-integration/use-excel-add-in.md#troubleshooting) desse tópico.
 
 7. Selecionar **Design**. O suplemento do Excel recupera metadados da entidade.
 8. Selecionar **Adicionar tabela**. Uma lista de entidades aparece. As entidades são listadas no formato "Nome - Rótulo".
@@ -138,7 +138,7 @@ Existem alguns problemas que podem ser resolvidos através de algumas etapas sim
 
 - **O botão Carregar applets aparece** – Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
 - **Você recebe uma mensagem "Proibido"** – Se receber uma mensagem "Proibido" enquanto o suplemento do Excel estiver carregando metadados, a conta conectada no suplemento não terá permissão para usar o serviço, a instância ou o banco de dados escolhido. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
-- **Uma página da Web em branco aparece no Excel** – se uma página da Web em branco for aberta durante o processo de logon, a conta exigirá AD FS, mas a versão do Excel que estiver executando o suplemento do Excel não será recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](https://technet.microsoft.com/library/jj219422.aspx) para [mover do canal diferido para o canal atual](https://technet.microsoft.com/library/mt455210.aspx).
+- **Uma página da Web em branco aparece no Excel** – se uma página da Web em branco for aberta durante o processo de logon, a conta exigirá AD FS, mas a versão do Excel que estiver executando o suplemento do Excel não será recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](/deployoffice/overview-office-deployment-tool) para [mover do canal diferido para o canal atual](/deployoffice/overview-update-channels).
 - **Você recebe um tempo limite ao publicar alterações de dados** – Se você receber mensagens de tempo limite ao tentar publicar alterações de dados em uma entidade, considere a redução do tamanho do lote de publicação da pasta de trabalho afetada. As entidades que acionam quantidades maiores de lógica em alterações de registro podem exigir que atualizações sejam enviadas em lotes menores para ajudar a evitar tempos limites.
 
 

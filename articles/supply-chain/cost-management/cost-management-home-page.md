@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a1594babd6f27a6af867267d2ae745549355d3c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a42709621c692bb9a20ade0d1835893f534ec4e
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839358"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908773"
 ---
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
@@ -43,7 +43,7 @@ Você pode acessar a Contabilidade de estoque e a Contabilidade de fabricação 
 
 A Contabilidade de fabricação permite que você lide com [Custos de ordem de produção](production-order-cost-analysis.md) em ordens de produção e de lote, assim como [Custos de fluxo inverso](backflush-costing.md) em lean manufacturing.
 
-O conteúdo de [Gerenciamento de custos do Power BI](../../dev-itpro/analytics/cost-management-content-pack.md) mostra uma visão administrativa sobre o estoque e o estoque WIP (trabalho em andamento) e como é o fluxo de custos por categoria ao longo do tempo. As informações também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
+O conteúdo de [Gerenciamento de custos do Power BI](../../fin-ops-core/dev-itpro/analytics/cost-management-content-pack.md) mostra uma visão administrativa sobre o estoque e o estoque WIP (trabalho em andamento) e como é o fluxo de custos por categoria ao longo do tempo. As informações também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 
 ### <a name="additional-resources"></a>Recursos adicionais
 
@@ -57,7 +57,7 @@ Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para
 
 #### <a name="blogs"></a>Blogs
 
-Você encontra opiniões, notícias e outras informações sobre gerenciamento de custos no [blog da equipe de P&D de Manufacturing do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [blog da equipe de P&D de Supply Chain Management do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de custo, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
+Você encontra opiniões, notícias e outras informações sobre gerenciamento de custos no [blog da equipe de P&D de Manufacturing do Dynamics AX](/archive/blogs/axmfg/) e no [blog da equipe de P&D de Supply Chain Management do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de custo, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
 
 #### <a name="task-guides"></a>Guias de tarefas
 

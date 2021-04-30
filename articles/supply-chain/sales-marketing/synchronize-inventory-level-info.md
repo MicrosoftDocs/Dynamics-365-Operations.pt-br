@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: c0db0c143abb8ce26a4a3007845050e4ddb02363
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15466699b94c284208330d50b840c874534b879c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840572"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5910265"
 ---
 # <a name="synchronize-inventory-level-information-from-supply-chain-management-to-field-service"></a>Sincronizar informações do nível de estoque do Supply Chain Management com o Field Service 
 
@@ -67,7 +67,7 @@ O Supply Chain Management funcionará como o mestre para níveis de estoque. Ass
 Os produtos e os depósitos em que níveis de estoque são dominados do Supply Chain Management podem ser controlados com a Filtragem e Consulta Avançada (Power Query).
 
 > [!NOTE]
-> É possível criar vários depósitos no Field Service (com **É mantido externamente = Não**) depois mapeá-los para um único depósito no Supply Chain Management, com a funcionalidade Filtragem e consulta avançada. Isso é útil em situações em que você deseja que o Field Service domine o nível de estoque detalhado e somente envie atualizações ao Supply Chain Management. Nesse caso, o Field Service não receberá atualizações em nível de estoque do Supply Chain Management. Para obter informações adicionais, consulte [Sincronizar ajustes de estoque do Field Service com o Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizar ordens de serviço no Field Service com as ordens de vendas vinculadas ao projeto no Supply Chain Management](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
+> É possível criar vários depósitos no Field Service (com **É mantido externamente = Não**) depois mapeá-los para um único depósito no Supply Chain Management, com a funcionalidade Filtragem e consulta avançada. Isso é útil em situações em que você deseja que o Field Service domine o nível de estoque detalhado e somente envie atualizações ao Supply Chain Management. Nesse caso, o Field Service não receberá atualizações em nível de estoque do Supply Chain Management. Para obter informações adicionais, consulte [Sincronizar ajustes de estoque do Field Service com o Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/synchronize-inventory-adjustments) e [Sincronizar ordens de serviço no Field Service com as ordens de vendas vinculadas ao projeto no Supply Chain Management](/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order).
 
 ## <a name="field-service-crm-solution"></a>Solução Field Service CRM
 A entidade **Estoque externo de produtos** é usada apenas para o back-end na integração. Essa entidade recebe os valores em nível de estoque do Supply Chain Management na integração e os transforma em diários de estoque manual, que altera os produtos de estoque no depósito.

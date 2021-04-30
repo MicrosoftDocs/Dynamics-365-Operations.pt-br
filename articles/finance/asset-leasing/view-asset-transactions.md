@@ -2,11 +2,11 @@
 title: Exibir transações de passivos, ativos e despesas
 description: Este tópico explica como exibir transações para um ativo arrendado. Essas transações incluem transações de responsabilidade com arrendamento e transações de despesa de execução que foram lançadas.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: SysQueryForm
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6dbb5de75780091d3392e413e3a2415067ac6dda
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 55b8019db6abdb3bd5ecdb6eadc4f7443f2bf071
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827473"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881629"
 ---
 # <a name="view-liability-asset-and-expense-transactions"></a>Exibir transações de passivos, ativos e despesas
 

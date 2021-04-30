@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ea6fc745ffb5892a32196394cb28cb5e646b7639
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a8c3655e7ff609eedbf92fa90a36b65002f40306
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795060"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5893463"
 ---
 # <a name="example-query-for-candidate-to-hire"></a>Exemplo de consulta de candidato a ser contratado
 
@@ -27,7 +27,7 @@ ms.locfileid: "5795060"
 
 Este tópico fornece um exemplo de consulta da entidade de candidato a ser contratado no Dynamics 365 Human Resources.
 
-Este tópico fornece um exemplo demonstrando como você pode usar *inserções profundas* para criar todos os detalhes de um novo registro de candidato em uma única operação de API. Para obter mais informações sobre inserções profundas, consulte [Criar registros de entidades relacionadas em uma operação](https://docs.microsoft.com/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
+Este tópico fornece um exemplo demonstrando como você pode usar *inserções profundas* para criar todos os detalhes de um novo registro de candidato em uma única operação de API. Para obter mais informações sobre inserções profundas, consulte [Criar registros de entidades relacionadas em uma operação](/powerapps/developer/data-platform/webapi/create-entity-web-api#create-related-entity-records-in-one-operation).
 
 A entidade **mshr_hcmcandidatetohireentity** é única devido à sua relação com a entidade **mshr_dirpersonentity**. Muitas das propriedades em **mshr_hcmcandidatetohireentity** (por exemplo, **mshr_firstname**, **mshr_lastname** e **mshr_birthdate**) derivam do registro **mshr_dirpersonentity**. Se você lançar um novo registro de candidato em **mshr_hcmcandidatetohireentity** sem usar inserções profundas, poderá definir valores para essas propriedades diretamente no registro **mshr_hcmcandidatetohireentity**. O registro **mshr_dirpersonentity associado** é criado implicitamente com os valores definidos para as propriedades. Em seguida, você pode criar outros registros de entidades relacionadas (como habilidades ou educação) como chamadas separadas da API.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 3c4382336e53bc09c51dd845446af9a20a2ba8af
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c43b45c7919be4673224b0f83606c390d0bb6265
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794460"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891069"
 ---
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>Criar departamentos e incluí-los na hierarquia de departamentos
 
@@ -53,7 +53,7 @@ Para adicionar um departamento à hierarquia de departamentos, siga estas etapas
 6.  Quando você estiver pronto, clique em **Publicar** no designer da hierarquia. Você pode inserir uma data efetiva que indique quando a hierarquia deve ser publicada. Por exemplo, para adicionar um novo departamento no início do próximo ano civil, defina a data efetiva para 1º de janeiro do novo ano civil. As alterações na hierarquia entrarão em vigor nessa data.
 
 ## <a name="steps-for-creating-a-department"></a>Etapas para criar um departamento
-Consulte o artigo [Definir novos departamentos](../fin-and-ops/hr/tasks/define-new-departments.md) para obter o procedimento passo a passo para criar um novo departamento. 
+Consulte o artigo [Definir novos departamentos](./hr-personnel-define-departments.md) para obter o procedimento passo a passo para criar um novo departamento. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

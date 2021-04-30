@@ -2,7 +2,8 @@
 title: Configurar formatos de ER para usar parâmetros especificados por entidade legal
 description: Este tópico explica como configurar formatos de relatório eletrônico (ER) para usar parâmetros especificados por entidade legal.
 author: NickSelin
-ms.date: 03/24/2021
+manager: AnnBe
+ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 16eab3ffa7d4a780ec9709f5c8a5c263b1e75365
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3802675b2fe0615f4c2ad682462a233c67f18f1a
+ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751169"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5853484"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurar formatos de ER para usar parâmetros especificados por entidade legal
 
@@ -28,7 +29,7 @@ ms.locfileid: "5751169"
 
 ## <a name="overview"></a>Visão geral
 
-Em muitos dos formatos de relatório eletrônico (ER) que você criará, é preciso filtrar dados usando um conjunto de valores que são específicos de cada entidade legal da sua instância (por exemplo, um conjunto de códigos de imposto para filtrar as transações de imposto). Atualmente, quando a filtragem deste tipo é configurada em um formato de ER, os valores que dependem da entidade legal (por exemplo, códigos de imposto) são usados em expressões do formato de ER para especificar regras de filtragem de dados. Portanto, o formato de ER torna-se específico da entidade legal e, para gerar os relatórios necessários, você deve criar cópias derivadas do formato de ER original para cada entidade legal onde precisa executar o formato de ER. Cada formato de ER derivado deve ser editado para ter valores específicos da entidade legal, passar por uma troca de base sempre que a versão original (base) for atualizada, exportada de um ambiente de teste e importada para um ambiente de produção quando tiver de ser implantada para uso em produção e assim por diante. Portanto, a manutenção desse tipo de solução de ER configurada é bastante complexa e demorada por vários motivos:
+Em muitos dos formatos de relatório eletrônico (ER) que você criará, é preciso filtrar dados usando um conjunto de valores que são específicos de cada entidade legal da sua instância (por exemplo, um conjunto de códigos de imposto para filtrar as transações de imposto). Atualmente, quando a filtragem deste tipo é configurada em um formato de ER, os valores que dependem da entidade legal (por exemplo, códigos de imposto) são usados em expressões do formato de ER para especificar regras de filtragem de dados. Portanto, o formato de ER torna-se específico da entidade legal e, para gerar os relatórios necessários, você deve criar cópias derivadas do formato de ER original para cada entidade legal onde precisa executar o formato de ER. Cada formato de ER derivado deve ser editado para ter valores específicos da entidade legal, passar por uma troca de base sempre que a versão original (base) é atualizada, exportada de um ambiente de teste e importada para um ambiente de produção quando precisa ser implantada para uso em produção e assim por diante. Portanto, a manutenção desse tipo de solução de ER configurada é complexa e demorada por vários motivos:
 
 -   Quanto mais entidades legais existem, maior é a necessidade de manter as configurações do formato de ER.
 -   A manutenção das configurações de ER requer que os usuários empresariais tenham conhecimento de ER.
@@ -86,7 +87,7 @@ Neste exemplo, você irá criar uma configuração para a empresa de exemplo Lit
 
     ![A lista da fonte de dados Model.Data.Summary de transações de imposto](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
-    O campo calculado **Model.Data.Summary.Level** foi configurado para conter uma expressão de ER. Observe que os códigos de imposto (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) são embutidos em código nesta configuração. Portanto, esse formato de ER depende da entidade legal onde esses códigos de imposto foram configurados.
+    O campo calculado **Model.Data.Summary.Level** foi configurado para conter uma expressão de ER. Os códigos de imposto (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) são codificados nesta configuração. Portanto, esse formato de ER depende da entidade legal onde esses códigos de imposto foram configurados.
 
     ![O campo Model.Data.Summary.Level calculado com códigos de imposto codificados](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
@@ -135,7 +136,7 @@ Em seguida, você adicionará uma nova enumeração de formato de ER. Os valores
 14. Selecione o registro **Sem tributação** .
 15. Clique no campo **Etiqueta**.
 16. Selecione **Traduzir**.
-17. No painel **Tradução do texto**, no campo **Id da etiqueta**, insira **LBL_LEVELENUM_NO**.
+17. No painel **Tradução do texto**, no campo **ID da etiqueta**, insira **LBL_LEVELENUM_NO**.
 18. No campo **Texto no idioma padrão**, insira **Sem tributação**.
 19. No campo **Idioma**, selecione **DE**.
 20. No campo **Texto traduzido**, digite **keine Besteuerung**.
@@ -153,12 +154,12 @@ Em seguida, você adicionará uma nova fonte de dados para especificar como os u
 1.  Na guia **Mapeamento**, selecione **Adicionar**.
 2.  Selecione **Enumeração de formato\Pesquisa**.
 
-    Você apenas identificou que cada regra que os usuários empresariais especificarem para reconhecimento do nível de tributação retornará um valor de uma enumeração do formato de ER. Observe que o tipo de fonte de dados **Pesquisa** pode ser acessado nos blocos **Modelo de dados** e **Dynamics 365 for Operations**, além do bloco **Enumeração de formato**. Portanto, as enumerações de modelo de dados de ER e as enumerações de aplicativo podem ser usados para especificar o tipo de valores retornados para fontes de dados desse tipo.
+    Você apenas identificou que cada regra que os usuários empresariais especificarem para reconhecimento do nível de tributação retornará um valor de uma enumeração do formato de ER. Observe que o tipo de fonte de dados **Pesquisa** pode ser acessado nos blocos **Modelo de dados** e **Dynamics 365 for Operations**, além do bloco **Enumeração de formato**. Portanto, as enumerações de modelo de dados de ER e as enumerações de aplicativo podem ser usadas para especificar o tipo de valores devolvidos para fontes de dados desse tipo. Para saber mais sobre as fontes de dados de **Pesquisa**, consulte [Configurar fontes de dados de pesquisa para usar o recurso de parâmetros específicos do aplicativo ER](er-lookup-data-sources.md).
     
 3.  No campo **Nome**, digite **Seletor**.
 4.  No campo **Enumeração de formato**, selecione **Lista de níveis de tributação**.
 
-    Você apenas especificou que, para cada regra especificada nessa fonte dados, um usuário empresarial deve selecionar um dos valores da enumeração de formato **Lista de níveis de tributação** como um valor retornado.
+    Você especificou que, para cada regra especificada nessa fonte dados, um usuário empresarial deve selecionar um dos valores da enumeração de formato **Lista de níveis de tributação** como um valor retornado.
     
 5.  Selecione **Editar pesquisa**.
 6.  Selecione **Colunas**.
@@ -190,7 +191,7 @@ Em seguida, você adicionará uma nova fonte de dados para especificar como os u
     
     ![Formatar página do designer com nova fonte de dados](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
-    Observe que a avaliação das regras configuradas depende do tipo de dados dos campos que foram selecionados para definir as condições dessas regras. Quando você selecionar um campo configurado como um campo de tipo de dados **Numérico** ou **Data**, os critérios serão diferentes dos critérios descritos anteriormente para o tipo de dados **String**. Para os campos **Numérico** e **Data**, a regra deve ser especificada como um intervalo de valores. A condição de regra será considerada atendida quando um valor passado para a fonte de dados estiver no intervalo configurado.
+    A avaliação de regras configuradas depende do tipo de dados dos campos que foram selecionados para definir condições dessas regras. Quando você selecionar um campo configurado como um campo de tipo de dados **Numérico** ou **Data**, os critérios serão diferentes dos critérios descritos anteriormente para o tipo de dados **String**. Para os campos **Numérico** e **Data**, a regra deve ser especificada como um intervalo de valores. A condição de regra será considerada atendida quando um valor passado para a fonte de dados estiver no intervalo configurado.
     
     A ilustração a seguir mostra um exemplo desse tipo de configuração. Além do campo **Model.Data.Tax.Code** do tipo de dados **String**, o campo **Model.Tax.Summary.Base** do tipo de dados **Real** é usado para especificar as condições para uma fonte de dados de pesquisa.
     
@@ -216,7 +217,7 @@ Como os usuários empresariais podem utilizar diferentes idiomas para especifica
 2.  Selecione **Editar**.
 3.  Clique no campo **Etiqueta**.
 4.  Selecione **Traduzir**.
-5.  No painel **Tradução do texto**, no campo **Id da etiqueta**, insira **LBL_SELECTOR_DS**.
+5.  No painel **Tradução do texto**, no campo **ID da etiqueta**, insira **LBL_SELECTOR_DS**.
 6.  No campo **Texto no idioma padrão**, insira **Selecionar nível de tributação por código de imposto**.
 7.  No campo **Idioma**, selecione **DE**.
 8.  No campo **Texto traduzido**, insira **Steuerebene für Steuerkennzeichen auswählen**.
@@ -306,7 +307,9 @@ Para aprender a usar o formato de ER configurado **Formato para saber como pesqu
 
 [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 
-[Configurar os parâmetros de um formato de ER por entidade legal](er-app-specific-parameters-set-up.md)
+[Configurar os parâmetros de um formato ER de acordo com a entidade legal](er-app-specific-parameters-set-up.md)
+
+[Configurar fontes de dados de pesquisa para usar o recurso de parâmetros específicos do aplicativo ER](er-lookup-data-sources.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

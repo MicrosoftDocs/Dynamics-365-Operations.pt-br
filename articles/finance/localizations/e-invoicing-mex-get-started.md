@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2f5dd1d6bc520c9f5349c77dfcabdf2d538881ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c1112ba8394afb3aa9c9b4f68249524498bd8b32
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840043"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5894874"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Introdução ao Faturamento eletrônico para o México
 
@@ -86,7 +86,7 @@ Você poderá criar uma nova versão se, por exemplo, as URLs precisarem ser atu
 
     ![Abrir a página Designer de formato](media/e-Invoicing-services-get-started-MEX-Configuration-ER-format-designer.png)
 
-3. Use a página **Designer de formato** para editar e exibir as configurações do arquivo de formato ER. Para obter mais informações, consulte [Criar configurações do documento eletrônico](../../dev-itpro/analytics/electronic-reporting-configuration.md).
+3. Use a página **Designer de formato** para editar e exibir as configurações do arquivo de formato ER. Para obter mais informações, consulte [Criar configurações do documento eletrônico](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
     ![Página do designer de formatos](media/e-Invoicing-services-get-started-MEX-ER-format-designer.png)
 
@@ -161,7 +161,7 @@ Para configurar o Faturamento eletrônico no Finance, você executará estas tar
 ### <a name="import-the-er-data-model-er-data-model-mapping-and-context-configurations-for-cfdi-invoices"></a>Importar o modelo de dados ER, o mapeamento do modelo de dados ER e as configurações de contexto para faturas de CFDI
 
 1. Entre no Finance.
-2. No espaço de trabalho **Relatório eletrônico**, na seção **Provedores de configuração**, selecione o título **Microsoft**. Verifique se este provedor de configuração está definido como **Ativo**. Para obter informações sobre como definir um provedor como **Ativo**, consulte [Criar provedores de configuração e marcá-los como ativos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11).
+2. No espaço de trabalho **Relatório eletrônico**, na seção **Provedores de configuração**, selecione o título **Microsoft**. Verifique se este provedor de configuração está definido como **Ativo**. Para obter informações sobre como definir um provedor como **Ativo**, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Repositórios**.
 4. Selecione **Recurso global \> Abrir**.
 5. Importar **Modelo de fatura**, **Mapeamento de modelo de fatura**, **Formato de fatura de CFDI (MX)**, **Formato de solicitação de cancelamento de fatura de CFDI (MX)** e **Formato de cancelamento de fatura de CFDI (MX)**.
@@ -215,7 +215,7 @@ Durante o processamento de faturas de CFDI no Finance por meio do Faturamento el
 Depois que você ativar o recurso **Integração do Faturamento eletrônico configurável**, o processo **Exportar/Importar fatura eletrônica** (**Contas a receber \> Faturas \> Faturas eletrônicas**) para enviar faturas de CFDI não poderá mais ser usado. Ele é substituído por um novo processo chamado **Enviar documentos eletrônicos**.
 
 > [!NOTE]
-> Antes de usar o novo processo **Enviar documentos eletrônicos**, verifique se a configuração necessária para faturas eletrônicas mexicanas foi concluída. Para obter mais informações, consulte [Layout do CFDI versão 3.3](https://docs.microsoft.com/dynamics365/finance/localizations/latam-mex-cfdi-3-3).
+> Antes de usar o novo processo **Enviar documentos eletrônicos**, verifique se a configuração necessária para faturas eletrônicas mexicanas foi concluída. Para obter mais informações, consulte [Layout do CFDI versão 3.3](./latam-mex-cfdi-3-3.md).
 
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, sempre defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.

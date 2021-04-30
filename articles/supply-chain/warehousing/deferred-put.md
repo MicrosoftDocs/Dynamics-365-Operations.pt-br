@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-6-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3dad97e13624449d287ded74e7e25f94eb0dbde3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f571f80330d2cc7858ef11271b0466d71aa9709c
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838313"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908002"
 ---
 # <a name="deferred-processing-of-warehouse-work"></a>Processamento adiado de trabalho de depósito
 
@@ -28,7 +28,7 @@ Este tópico descreve a funcionalidade que disponibiliza o processamento adiado 
 
 A funcionalidade de processamento adiado permite que trabalhadores de depósito continuem a fazer outros trabalhos enquanto a operação colocada é processada em segundo plano. O processamento adiado é útil quando várias linhas de trabalho devem ser processadas e o trabalhador pode deixar esse trabalho ser processado de forma assíncrona. Também é útil quando o servidor pode ter aumentos ad hoc ou não planejados no tempo de processamento e o tempo de processamento maior pode afetar a produtividade do usuário.
 
-O processamento em segundo plano é obtido usando a estrutura SysOperation. Para obter mais informações, consulte [Visão geral da estrutura SysOperation](https://docs.microsoft.com/dynamicsax-2012/developer/sysoperation-framework-overview).
+O processamento em segundo plano é obtido usando a estrutura SysOperation. Para obter mais informações, consulte [Visão geral da estrutura SysOperation](/dynamicsax-2012/developer/sysoperation-framework-overview).
 
 ## <a name="configuring-the-work-processing-policies"></a>Como configurar políticas de processamento de trabalhos
 

@@ -2,11 +2,11 @@
 title: Relatórios duplos
 description: Este tópico apresenta um exemplo que mostra como você pode cumprir os requisitos de relatório do Financial Reporting Standard (IFRS) e relatórios estatutários em arrendamento de ativos.
 author: moaamer
-ms.date: 10/28/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: AssetLeaseBookMaster
 audience: Application User
 ms.reviewer: roschlom
 ms.custom: 4464
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: c9f2bae330e688e1e941277d46ddcbd38916f8c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86f42f8db707f3b8c62b9ec4c39ad6464f080748
+ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815971"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5881147"
 ---
 # <a name="dual-reporting"></a>Relatórios duplos
 
@@ -93,7 +93,7 @@ Neste exemplo, um arrendamento foi criado com as seguintes configurações nas g
 | Data de início          | 1/1/2020         |
 | Grupo de arrendamento                | Instalações        |
 | Fornecedor                     | 1001             |
-| Valor justo do ativo    | 245,000          |
+| Valor justo do ativo    | 245.000          |
 | Vida útil do ativo          | 120              |
 | Tipo de anuidade               | Anuidade comum |
 | Intervalo de composição       | Mensalmente          |
@@ -147,10 +147,10 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 <tr>
 <td>1</td>
 <td>Despesa de arrendamento</td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 <td></td>
 <td></td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 <td>-1.000,00</td>
 <td></td>
 <td></td>
@@ -162,38 +162,38 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 <td>2</td>
 <td>Tarifa bancária</td>
 <td></td>
-<td>3.00</td>
+<td>3,00</td>
 <td></td>
-<td>3.00</td>
-<td></td>
-<td></td>
+<td>3,00</td>
 <td></td>
 <td></td>
 <td></td>
-<td>3.00</td>
+<td></td>
+<td></td>
+<td>3,00</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Despesa IVA</td>
 <td></td>
-<td>5.00</td>
+<td>5,00</td>
 <td></td>
-<td>5.00</td>
-<td></td>
-<td></td>
+<td>5,00</td>
 <td></td>
 <td></td>
 <td></td>
-<td>5.00</td>
+<td></td>
+<td></td>
+<td>5,00</td>
 </tr>
 <tr>
 <td>4</td>
 <td>Conta de compensação</td>
 <td>-1.000,00</td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 <td></td>
 <td>0,00</td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 <td></td>
 <td>-1.000,00</td>
 <td></td>
@@ -205,7 +205,7 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 <td>Contas a Pagar</td>
 <td></td>
 <td>-1.008,00</td>
-<td>1,008.00</td>
+<td>1.008,00</td>
 <td>0,00</td>
 <td></td>
 <td></td>
@@ -222,11 +222,11 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 <td></td>
 <td>0,00</td>
 <td></td>
-<td>22,794.00</td>
+<td>22.794,00</td>
 <td></td>
 <td></td>
 <td></td>
-<td>22,793.90</td>
+<td>22.793,90</td>
 </tr>
 <tr>
 <td>7</td>
@@ -237,7 +237,7 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 <td>0,00</td>
 <td></td>
 <td>-22.794,00</td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 <td>-94,97</td>
 <td></td>
 <td>-21.888,87</td>
@@ -252,9 +252,9 @@ Para considerar esse arrendamento em duas estruturas, use um nível de lançamen
 <td></td>
 <td></td>
 <td></td>
-<td>94.97</td>
+<td>94,97</td>
 <td></td>
-<td>94.97</td>
+<td>94,97</td>
 </tr>
 <tr>
 <td>9</td>
@@ -320,8 +320,8 @@ Neste exemplo, a entrada de diário a seguir é criada para o livro fiscal no pl
 
 | Tipo de conta | Número da conta | Camada   | Descrição da conta | Débito    | Crédito   |
 |--------------|----------------|---------|---------------------|----------|----------|
-| Ledger       | 1              | Atual | Despesa de arrendamento       | 1,000.00 |          |
-| Ledger       | 4              | Atual | Conta de compensação    |          | 1,000.00 |
+| Ledger       | 1              | Atual | Despesa de arrendamento       | 1.000,00 |          |
+| Ledger       | 4              | Atual | Conta de compensação    |          | 1.000,00 |
 
 Um auxiliar de contas a pagar usa a funcionalidade padrão do Dynamics 365 para criar uma fatura a pagar para o arrendamento fora do Arrendamento de ativos. No entanto, em vez de selecionar **Despesa de arrendamento** como a conta de débito, o auxiliar de contas a pagar seleciona uma conta de compensação para gerar a entrada a seguir.
 
@@ -329,10 +329,10 @@ Um auxiliar de contas a pagar usa a funcionalidade padrão do Dynamics 365 para 
 
 | Tipo de conta | Número da conta | Camada   | Descrição da conta | Débito    | Crédito   |
 |--------------|----------------|---------|---------------------|----------|----------|
-| Ledger       | 4              | Atual | Conta de compensação    | 1,000.00 |          |
-| Ledger       | 2              | Atual | Tarifa bancária            | 3.00     |          |
-| Ledger       | 3              | Atual | Despesa IVA         | 5.00     |          |
-| Fornecedor       | 5              | Atual | Contas a Pagar    |          | 1,008.00 |
+| Ledger       | 4              | Atual | Conta de compensação    | 1.000,00 |          |
+| Ledger       | 2              | Atual | Tarifa bancária            | 3,00     |          |
+| Ledger       | 3              | Atual | Despesa IVA         | 5,00     |          |
+| Fornecedor       | 5              | Atual | Contas a Pagar    |          | 1.008,00 |
 
 Quando a instrução for emitida para o fornecedor, você seguirá o processo de pagamento regular. Durante esse processo, a entrada de diário a seguir é gerada.
 
@@ -340,8 +340,8 @@ Quando a instrução for emitida para o fornecedor, você seguirá o processo de
 
 | Tipo de conta | Número da conta | Camada   | Descrição da conta | Débito    | Crédito   |
 |--------------|----------------|---------|---------------------|----------|----------|
-| Fornecedor       | 5              | Atual | Contas a Pagar    | 1,008.00 |          |
-| Banco         | 9              | Atual | Pagamento à vista                |          | 1,008.00 |
+| Fornecedor       | 5              | Atual | Contas a Pagar    | 1.008,00 |          |
+| Banco         | 9              | Atual | Pagamento à vista                |          | 1.008,00 |
 
 Nessa situação, você cumpriu a conformidade total desse arrendamento mediante os requisitos de relatórios estatutários e pode gerar um balancete usando o nível atual. O sistema retorna um balancete que tem os seguintes números.
 
@@ -349,7 +349,7 @@ Nessa situação, você cumpriu a conformidade total desse arrendamento mediante
 <thead>
 <tr>
 <th rowspan='3'>Número da conta</th>
-<th rowspan='3'>descrição</th>
+<th rowspan='3'>Descrição</th>
 <th colspan='3'>Livro fiscal (nível atual)</th>
 <th rowspan='3'>Total do nível atual</th>
 </tr>
@@ -368,32 +368,32 @@ Nessa situação, você cumpriu a conformidade total desse arrendamento mediante
 <tr>
 <td>1</td>
 <td>Despesa de arrendamento</td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 <td></td>
 <td></td>
-<td>1,000.00</td>
+<td>1.000,00</td>
 </tr>
 <tr>
 <td>2</td>
 <td>Tarifa bancária</td>
 <td></td>
-<td>3.00</td>
+<td>3,00</td>
 <td></td>
-<td>3.00</td>
+<td>3,00</td>
 </tr>
 <tr>
 <td>3</td>
 <td>Despesa IVA</td>
 <td></td>
-<td>5.00</td>
+<td>5,00</td>
 <td></td>
-<td>5.00</td>
+<td>5,00</td>
 </tr>
 <tr>
 <td>4</td>
 <td>Conta de compensação</td>
 <td>-1.000,00</td>
-<td>1,000.00</td>
+<td>1.000.00</td>
 <td></td>
 <td>0,00</td>
 </tr>
@@ -402,7 +402,7 @@ Nessa situação, você cumpriu a conformidade total desse arrendamento mediante
 <td>Contas a Pagar</td>
 <td></td>
 <td>-1.008,00</td>
-<td>1,008.00</td>
+<td>1.008.00</td>
 <td>0,00</td>
 </tr>
 <tr>
@@ -464,8 +464,8 @@ Quando o mesmo processo usado para o livro fiscal é usado para o livro de estor
 
 | Tipo de conta | Número da conta | Camada  | Descrição da conta | Débito    | Crédito   |
 |--------------|----------------|--------|---------------------|----------|----------|
-| Ledger       | 4              | Personalizada | Conta de compensação    | 1,000.00 |          |
-| Ledger       | 1              | Personalizada | Despesa de arrendamento       |          | 1,000.00 |
+| Ledger       | 4              | Personalizada | Conta de compensação    | 1.000,00 |          |
+| Ledger       | 1              | Personalizada | Despesa de arrendamento       |          | 1.000,00 |
 
 Agora que você eliminou as entradas fiscais de diário, todas as entradas de diário que o IFRS 16 requer no registro IFRS 16 são registradas. Essas entradas incluem o reconhecimento inicial do ativo DDU e a responsabilidade, bem como o registro de juros e depreciação.
 
@@ -473,8 +473,8 @@ Agora que você eliminou as entradas fiscais de diário, todas as entradas de di
 
 | Tipo de conta | Número da conta | Camada  | Descrição da conta      | Débito     | Crédito    |
 |--------------|----------------|--------|--------------------------|-----------|-----------|
-| Ledger       | 6              | Personalizada | Ativo DDU                | 22,793.90 |           |
-| Ledger       | 7              | Personalizada | Obrigação de arrendamento mercantil |           | 22,793.90 |
+| Ledger       | 6              | Personalizada | Ativo DDU                | 22.793,90 |           |
+| Ledger       | 7              | Personalizada | Obrigação de arrendamento mercantil |           | 22.793,90 |
 
 O pagamento do arrendamento é lançado como os outros pagamentos de arrendamento. O motivo de usar a conta de compensação é garantir que o dinheiro seja creditado apenas uma vez.
 
@@ -482,8 +482,8 @@ O pagamento do arrendamento é lançado como os outros pagamentos de arrendament
 
 | Tipo de conta | Número da conta | Camada  | Descrição da conta      | Débito    | Crédito   |
 |--------------|----------------|--------|--------------------------|----------|----------|
-| Ledger       | 7              | Personalizada | Obrigação de arrendamento mercantil | 1,000.00 |          |
-| Ledger       | 4              | Personalizada | Conta de compensação         |          | 1,000.00 |
+| Ledger       | 7              | Personalizada | Obrigação de arrendamento mercantil | 1.000,00 |          |
+| Ledger       | 4              | Personalizada | Conta de compensação         |          | 1.000,00 |
 
 A entrada do diário de despesas de juros é gerada a partir do agendamento de amortização de passivo.
 
@@ -491,8 +491,8 @@ A entrada do diário de despesas de juros é gerada a partir do agendamento de a
 
 | Tipo de conta | Número da conta | Camada  | Descrição da conta      | Débito | Crédito |
 |--------------|----------------|--------|--------------------------|-------|--------|
-| Ledger       | 8              | Personalizada | Despesa de Juros         | 94.97 |        |
-| Ledger       | 7              | Personalizada | Obrigação de arrendamento mercantil |       | 94.97  |
+| Ledger       | 8              | Personalizada | Despesa de Juros         | 94,97 |        |
+| Ledger       | 7              | Personalizada | Obrigação de arrendamento mercantil |       | 94,97  |
 
 A entrada do diário de despesas de depreciação é gerada a partir do agendamento de depreciação de ativos.
 
@@ -507,11 +507,11 @@ Depois que todas essas entradas de diário forem criadas e lançadas, você ver�
 
 | Nº de conta | descrição              | Livro fiscal\-Nível atual\-JE\-100\-Dr \(Cr\) | Livro fiscal\-Nível atual\-JE\-110\-Dr \(Cr\) | Livro fiscal\-Nível atual\-JE\-120\-Dr \(Cr\) | Nível atual \- Totais | - | Registro de estorno\-Nível atual\-JE\-130\-Dr \(Cr\) | Registro IFRS 16\-Nível atual\-JE\-140\-Dr \(Cr\) | Registro IFRS 16\-Nível atual\-JE\-150\-Dr \(Cr\) | Registro IFRS 16\-Nível atual\-JE\-160\-Dr \(Cr\) | Registro IFRS 16\-Nível atual\-JE\-170\-Dr \(Cr\) | Nível personalizado \+ Nível atual \- Totais |
 |------------|--------------------------|---------------------------------------------------|---------------------------------------------------|---------------------------------------------------|-------------------------|---|-------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|------------------------------------------------|-----------------------------------------|
-| 1          | Despesa de arrendamento            | 1,000\,00                                         |                                                   |                                                   | 1,000\,00               |   | \-1.000                                         |                                                |                                                |                                                |                                                | 0\,00                                   |
+| 1          | Despesa de arrendamento            | 1.000\,00                                         |                                                   |                                                   | 1.000\,00               |   | \-1.000                                         |                                                |                                                |                                                |                                                | 0\,00                                   |
 | 2          | Tarifa bancária                 |                                                   | 3\,00                                             |                                                   | 3\,00                   |   |                                                 |                                                |                                                |                                                |                                                | 3\,00                                   |
 | 3          | Despesa de IVA              |                                                   | 5\,00                                             |                                                   | 5\,00                   |   |                                                 |                                                |                                                |                                                |                                                | 5\,00                                   |
-| 4          | Conta de compensação         | \-1.000\,00                                       | 1,000\,00                                         |                                                   | 0\,00                   |   | 1.000                                           |                                                | \-1.000                                        |                                                |                                                | 0\,00                                   |
-| 5          | Contas a Pagar         |                                                   | \-1.008\,00                                       | 1,008\,00                                         | 0\,00                   |   |                                                 |                                                |                                                |                                                |                                                | 0\,00                                   |
+| 4          | Conta de compensação         | \-1.000\,00                                       | 1.000\,00                                         |                                                   | 0\,00                   |   | 1.000                                           |                                                | \-1.000                                        |                                                |                                                | 0\,00                                   |
+| 5          | Contas a Pagar         |                                                   | \-1.008\,00                                       | 1.008\,00                                         | 0\,00                   |   |                                                 |                                                |                                                |                                                |                                                | 0\,00                                   |
 | 6          | Ativo DDU                |                                                   |                                                   |                                                   | 0\,00                   |   |                                                 | 22.794                                         |                                                |                                                |                                                | 22.793\,90                              |
 | 7          | Obrigação de arrendamento mercantil |                                                   |                                                   |                                                   | 0\,00                   |   |                                                 | \-22.794                                       | 1.000                                          | \-94\,97                                       |                                                | \-21.888\,87                            |
 | 8          | Despesa de Juros         |                                                   |                                                   |                                                   | 0\,00                   |   |                                                 |                                                |                                                | 94\,97                                         |                                                | 94\,97                                  |

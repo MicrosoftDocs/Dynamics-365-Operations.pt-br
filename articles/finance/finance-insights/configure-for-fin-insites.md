@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 2443bb057a8b7fe280ed26ecae4e50f671b5e082
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 54117c009cfeb7307938cc6bd43e774ccfedcfb1
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818781"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5908821"
 ---
 # <a name="configuration-for-finance-insights-preview"></a>Configuração de Insights do Finance (versão preliminar)
 
@@ -69,7 +69,7 @@ Você pode concluir as seguintes etapas de configuração manual ou acelerar o p
     13. Selecione **Recursos \> Todas as Configurações Herdadas**.
     14. Na barra de navegação superior, selecione **Configurações** e depois **Personalizações**.
     15. Selecione **Recursos do Desenvolvedor**.
-    16. Defina o campo **ID de Informações de Referência da Instância** como o valor da ID da organização do Dataverse anotado anteriormente.
+    16. Copie o valor da **ID da organização do Dataverse**.
     17. Na barra de endereços do navegador, anote a URL da organização do Dataverse. Por exemplo, a URL pode ser `https://org42b2b3d3.crm.dynamics.com`.
 
 2. Se você planeja usar o recurso Previsões de fluxo de caixa ou Previsões de orçamento, siga estas etapas para atualizar o limite de anotação da sua organização para pelo menos 50 megabytes (MB):
@@ -286,12 +286,12 @@ catch {
 
 # <a name="use-a-windows-powershell-script"></a>[Use um script do Windows PowerShell](#tab/use-a-powershell-script)
 
-Um script do Windows PowerShell foi fornecido para que você possa facilmente configurar os recursos do Azure descritos em [Configurar exportação para o Azure Data Lake](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/configure-export-data-lake). Se preferir fazer a configuração manual, ignore este procedimento e continue com o procedimento na seção [Configuração manual](#manual-setup).
+Um script do Windows PowerShell foi fornecido para que você possa facilmente configurar os recursos do Azure descritos em [Configurar exportação para o Azure Data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md). Se preferir fazer a configuração manual, ignore este procedimento e continue com o procedimento na seção [Configuração manual](#manual-setup).
 
 > [!NOTE]
 > Siga as etapas abaixo para executar o script do PowerShell. A opção "Experimente" da CLI do Azure ou a execução do script no PC pode não funcionar.
 
-Siga estas etapas para configurar o Azure usando o script do Windows PowerShell. É necessário ter os direitos para criar um grupo de recursos do Azure, recursos do Azure e um aplicativo do Azure AD. Para obter informações sobre as permissões necessárias, consulte [Verificar permissões do Azure AD](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
+Siga estas etapas para configurar o Azure usando o script do Windows PowerShell. É necessário ter os direitos para criar um grupo de recursos do Azure, recursos do Azure e um aplicativo do Azure AD. Para obter informações sobre as permissões necessárias, consulte [Verificar permissões do Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
 1. No [portal do Azure](https://portal.azure.com), vá para a assinatura do Azure de destino. Selecione o botão **Cloud Shell** à direita do campo **Pesquisar**.
 2. Selecione **PowerShell**.
@@ -943,18 +943,7 @@ finally {
 ```
 ---
 
-## <a name="configure-the-entity-store"></a>Configure o armazenamento da entidade
 
-Siga estas etapas para configurar o repositório de entidades no ambiente do Finance.
-
-1. Vá para **Administração do sistema \> Configuração \> Parâmetros do sistema \> Conexões de dados**.
-2. Defina a opção **Habilitar a integração do Data Lake** como **Sim**.
-3. Defina os seguintes campos do Key Vault:
-
-    - **ID (do cliente) do aplicativo** – Insira o ID do cliente do aplicativo criado anteriormente.
-    - **Segredo do Aplicativo** – Insira o segredo salvo para o aplicativo criado anteriormente.
-    - **Nome DNS** – Você pode encontrar o nome do Sistema de Nome de Domínio (DNS) na página de detalhes do aplicativo criado anteriormente.
-    - **Nome do segredo** – Insira **storage-account-connection-string**.
 
 ## <a name="configure-the-data-lake"></a>Configurar o data lake
 
@@ -991,6 +980,19 @@ O suplemento será instalado em alguns minutos.
     | ID de Locatário CDS (ID do Diretório do AAD)               | A ID do locatário da instância do Dataverse. Para encontrar esse valor, abra o [portal do Azure](https://portal.azure.com), vá para o **Azure Active Directory** e copie o valor da **ID de Locatário**. |
     | Forneça a ID do objeto do usuário que tem a função de administrador do sistema | A ID do objeto do usuário do Azure AD do usuário no Dataverse. Esse usuário deve ser um administrador do sistema da instância do Dataverse. Para localizar esse valor, abra o [portal do Azure](https://portal.azure.com), vá para **Azure Active Directory \> Usuários**, selecione o usuário e, na seção **Identificar**, copie o valor de **ID de Objeto**. |
     | Este é o ambiente CDS padrão do locatário?      | Se a instância do Dataverse foi a primeira instância de produção criada, marque esta caixa de seleção. Se a instância do Dataverse foi criada manualmente, desmarque esta caixa de seleção. |
+
+## <a name="configure-the-entity-store"></a>Configure o armazenamento da entidade
+
+Siga estas etapas para configurar o repositório de entidades no ambiente do Finance.
+
+1. Vá para **Administração do sistema \> Configuração \> Parâmetros do sistema \> Conexões de dados**.
+2. Defina a opção **Habilitar a integração do Data Lake** como **Sim**.
+3. Defina os seguintes campos do Key Vault:
+
+    - **ID (do cliente) do aplicativo** – Insira o ID do cliente do aplicativo criado anteriormente.
+    - **Segredo do Aplicativo** – Insira o segredo salvo para o aplicativo criado anteriormente.
+    - **Nome DNS** – Você pode encontrar o nome do Sistema de Nome de Domínio (DNS) na página de detalhes do aplicativo criado anteriormente.
+    - **Nome do segredo** – Insira **storage-account-connection-string**.
 
 ## <a name="feedback-and-support"></a>Comentários e suporte
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 586c0f807cf45908bacd88ff4e4d5793db054e4d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5ab53f4b8888f77cd41ccbd7956ed307ba1b54ff
+ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815395"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "5897127"
 ---
 # <a name="reverse-journal-posting"></a>Reverter lançamento no diário
 
@@ -65,7 +65,7 @@ Se tiver mais de 100 linhas no comprovante, o processo de reversão será execut
 
 Se o número de linhas do comprovantes for 100 ou menos, o processo de reversão será executado imediatamente. Os resultados serão exibidos em uma caixa de diálogo que mostra todos os comprovantes que não puderam ser revertidos junto com o motivo. Selecione **OK** para fechar a caixa de diálogo.
 
-As transações podem ser revertidas somente se atenderem às regras de negócio para a reversão. Os pagamentos de fornecedores não podem ser revertidos usando o recurso descrito neste tópico. Os pagamentos de fornecedores devem ser revertidos de acordo com as etapas listadas em [Reverter um pagamento de fornecedor](https://docs.microsoft.com/dynamics365/finance/accounts-payable/reverse-vendor-payment)
+As transações podem ser revertidas somente se atenderem às regras de negócio para a reversão. Os pagamentos de fornecedores não podem ser revertidos usando o recurso descrito neste tópico. Os pagamentos de fornecedores devem ser revertidos de acordo com as etapas listadas em [Reverter um pagamento de fornecedor](../accounts-payable/reverse-vendor-payment.md)
 
 
 

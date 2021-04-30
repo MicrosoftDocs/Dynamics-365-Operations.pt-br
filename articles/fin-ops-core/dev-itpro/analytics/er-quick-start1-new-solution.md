@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 986beb6d46ac69192206c86fc3660c2e2345d6a9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a3e0e4a8389fdd6580f66004d86ef4b1980dd9f
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743718"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5891784"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Criar uma nova solução ER para imprimir um relatório personalizado
 
@@ -119,7 +119,7 @@ As etapas a seguir explicam como um usuário no administrador do sistema, no des
 
 - [Recursos adicionais](#References)
 
-Neste exemplo, você criará uma nova solução ER para o módulo [Questionário](https://docs.microsoft.com/dynamics365/human-resources/hr-learning-questionnaires). Essa nova solução ER permite criar um relatório usando uma planilha do Microsoft Excel como modelo. Em seguida, você pode gerar o relatório **Questionário** no formato Excel ou PDF, além de gerar o relatório Serviços de Relatório do SQL Server (SSRS) existente. Você também pode modificar o novo relatório posteriormente, quando solicitado. Nenhum código é necessário.
+Neste exemplo, você criará uma nova solução ER para o módulo [Questionário](../../../human-resources/hr-learning-questionnaires.md). Essa nova solução ER permite criar um relatório usando uma planilha do Microsoft Excel como modelo. Em seguida, você pode gerar o relatório **Questionário** no formato Excel ou PDF, além de gerar o relatório Serviços de Relatório do SQL Server (SSRS) existente. Você também pode modificar o novo relatório posteriormente, quando solicitado. Nenhum código é necessário.
 
 1. Para executar o relatório existente, vá para **Questionário** \> **Design** \> **Relatório Questionários**.
 
