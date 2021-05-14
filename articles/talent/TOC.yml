@@ -1,5 +1,5 @@
 - name: Dynamics 365 for Talent
-  href: talent-welcome.md
+  href: ./index.md
   items:
     - name: Introdução
       items:
@@ -150,8 +150,8 @@
           href: modular-app-tech-faq.md
         - name: Exportar dados do Attract e do Onboard
           href: attract-onboard-export-data.md
-        - name: Incorporar aplicativos de tela a partir do Power Apps
-          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Inserir aplicativos de tela a partir do Power Apps
+          href: ../fin-ops-core/fin-ops/get-started/embed-power-apps.md?toc=%2fdynamics365%2funified-operations%2ftalent%2ftoc.json
         - name: Obter suporte para o Talent
           href: talent-support.md
     - name: Recrutar a equipe de sua organização com o Attract

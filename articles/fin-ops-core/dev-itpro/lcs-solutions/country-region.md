@@ -14,19 +14,19 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95989a395781e790da6aedc9079c3aaebf98f9ae
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3e7ba3405b6113bf612c685c4cccd9cf50f1187
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748456"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920848"
 ---
 # <a name="globalization-resources"></a>Recursos de globalização
 
 ## <a name="local-and-regional-deployments"></a>Implantações locais ou regionais
 Caso suas regulamentações governamentais exijam que os dados sejam armazenados ou fornecidos de uma forma diferente daquela exigida por outros países/regiões, talvez você deva considerar certos requisitos de país/região durante a implantação. Considere os seguintes recursos que possam ser relevantes para você:
 
-[Aplicativos do Finance and Operations operados pela 21Vianet na China](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/deployment/china-local-deployment)
+[Aplicativos do Finance and Operations operados pela 21Vianet na China](../deployment/china-local-deployment.md)
 
 ## <a name="localization-and-regulatory-features"></a>Recursos regulatórios e de localização
 
@@ -60,7 +60,7 @@ Os recursos a seguir fornecem informações sobre recursos de localização novo
 -   [Enviar alertas sobre recursos regulatórios específicos do país/região](submit-localization-alerts.md)
 
 #### <a name="dynamics-365-release-plans"></a>Planos de versão do Dynamics 365
-Os [planos de versão do Dynamics 365](https://docs.microsoft.com/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
+Os [planos de versão do Dynamics 365](/business-applications-release-notes/) fornecem descrições dos recursos novos e aprimorados que são planejados para os aplicativos de negócios do Dynamics 365 e para as plataformas de aplicativos. 
 
 #### <a name="finance-and-operations-apps-whats-new"></a>Novidades dos aplicativos do Finance and Operations
 A [home page Novidades ou alterações no Finance and Operations](../../fin-ops/get-started/whats-new-changed.md) lista os recursos que estão incluídos em versões específicas dos aplicativos do Finance and Operations.

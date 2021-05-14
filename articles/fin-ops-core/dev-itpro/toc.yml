@@ -14,12 +14,12 @@
               items:
                 - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
+                - name: Platform updates para 10.0.19 (julho de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform updates para 10.0.18 (maio de 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
                 - name: Platform updates para 10.0.17 (abril de 2021)
                   href: get-started/whats-new-platform-updates-10-0-17.md
-                - name: Platform updates para 10.0.16 (fevereiro de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-16.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -303,19 +303,19 @@
                         - name: Configurar integração do Project Service Automation
                           items:
                             - name: Visão geral do Project Service Automation
-                              href: ../../finance/project-management/PSA-integration.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-integration
                             - name: Parâmetros de integração do Project Service Automation
-                              href: ../../finance/project-management/PSA-parameters.md
+                              href: /dynamics365/project-operations/prod-pma/PSA-parameters
                             - name: Sincronizar contratos de projeto e projetos
-                              href: ../../finance/project-management/project-contracts-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-contracts-templates
                             - name: Sincronizar tarefas do projeto
-                              href: ../../finance/project-management/project-tasks-template.md
+                              href: /dynamics365/project-operations/prod-pma/project-tasks-template
                             - name: Sincronizar categorias de despesas do projeto
-                              href: ../../finance/project-management/project-categories-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-categories-templates
                             - name: Sincronizar estimativas de projeto para previsões de projeto
-                              href: ../../finance/project-management/project-estimates-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-estimates-templates
                             - name: Sincronizar números reais do projeto com o diário de integração do projeto
-                              href: ../../finance/project-management/project-actuals-templates.md
+                              href: /dynamics365/project-operations/prod-pma/project-actuals-templates
             - name: Consumo de serviços Web externos
               href: data-entities/consume-external-web-service.md
             - name: Mensagens eletrônicas
@@ -691,7 +691,7 @@
                     - name: Visão geral de Criar modelos e elementos de modelo de dados
                       href: dev-tools/create-data-model-elements.md
                     - name: Diretrizes de nomenclatura para extensões
-                      href: extensibility/NamingGuidelines.md
+                      href: /dynamics365/fin-ops-core/dev-itpro/naming-guidelines-extensions
                     - name: Desativar a personalização de modelos e substituir a funcionalidade
                       href: dev-tools/lock-models.md
                 - name: Relatório de Análise de Personalizações
@@ -1072,8 +1072,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Novidades ou alterações no Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Problemas conhecidos
-                  href: lifecycle-services/known-issues.md
                 - name: Recursos removidos ou preteridos do Lifecycle Services (LCS)
                   href: lifecycle-services/removed-deprecated-features.md
             - name: Guia do usuário do Lifecycle Services
@@ -1400,12 +1398,16 @@
               href: perf-test/rsat/rsat-install-configure.md
             - name: Usar a Regression Suite Automation Tool
               href: perf-test/rsat/rsat-run.md
+            - name: Manter casos de teste na Regression Suite Automation Tool
+              href: perf-test/rsat/rsat-maintain-test-cases.md
             - name: Validar valores esperados
               href: perf-test/rsat/rsat-validate-expected.md
             - name: Agrupar casos de teste
               href: perf-test/rsat/rsat-chain-test-cases.md
             - name: Casos de teste derivados
               href: perf-test/rsat/rsat-derived-test-cases.md
+            - name: Atualizar os arquivos de parâmetros
+              href: perf-test/rsat/rsat-upgrade-parameter-files.md
             - name: Tutorial sobre a Regression Suite Automation Tool
               href: perf-test/rsat/rsat-tutorial.md
             - name: Configurar usuários que não sejam administradores
@@ -1570,9 +1572,9 @@
               items:
                 - name: Upgrade do AX 2012 para o Finance and Operations
                   href: migration-upgrade/upgrade-overview-2012.md
-                - name: Upgrade do AX 2012 - Planejamento usando a ferramenta Analisador de atualizações
+                - name: Upgrade do AX 2012 – Planejamento usando a ferramenta Analisador de atualizações
                   href: migration-upgrade/upgrade-analyzer-tool.md
-                - name: Upgrade do AX 2012 - Estimar o esforço usando o serviço Atualização de código
+                - name: Upgrade do AX 2012 – Estimar o esforço usando o serviço Atualização de código
                   href: migration-upgrade/analyze-code-upgrade.md
                 - name: Upgrade do AX 2012 — Implantar um ambiente de demonstração para análise
                   href: migration-upgrade/analysis-sandbox.md
@@ -1582,9 +1584,11 @@
                   href: migration-upgrade/prepare-data-upgrade.md
                 - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita usando o processo DACPAC
                   href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita
+                - name: Upgrade do AX 2012 – SQL Transactional Replication
+                  href: database/replication-setup.md
+                - name: Upgrade do AX 2012 – Atualização de dados em ambientes de área restrita
                   href: migration-upgrade/upgrade-data-sandbox.md
-                - name: Upgrade do AX 2012 — Ambientes locais
+                - name: Upgrade do AX 2012 – Ambientes locais
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Testes de substituição
                   href: migration-upgrade/upgrade-cutover-testing.md
@@ -1592,7 +1596,7 @@
                   href: migration-upgrade/app-validation-process.md
                 - name: Upgrade do AX 2012 — Teste funcional aprovado
                   href: migration-upgrade/upgrade-functional-validation.md
-                - name: Upgrade do AX 2012 - Preparar para o Go Live
+                - name: Upgrade do AX 2012 – Preparar para o Go Live
                   href: migration-upgrade/upgrade-go-live-prep.md
                 - name: Upgrade do AX 2012 — Ativar
                   href: migration-upgrade/2012-upgrade-cutover.md
@@ -1616,9 +1620,9 @@
               items:
                 - name: Migrar dados do AX 2009 para o Finance and Operations
                   href: migration-upgrade/data-migration-tool.md
-                - name: Migração do AX 2009 - Instalar a Ferramenta de migração de dados
+                - name: Migração do AX 2009 – Instalar a Ferramenta de migração de dados
                   href: migration-upgrade/install-dmt.md
-                - name: Migração do AX 2009 - Gerar mapas
+                - name: Migração do AX 2009 – Gerar mapas
                   href: migration-upgrade/generate-maps.md
                 - name: Migração do AX 2009 — Criar modelos
                   href: migration-upgrade/create-package-templates-dmt.md

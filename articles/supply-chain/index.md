@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d82f31212245044f27558c3cdea78fbcf4988afb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e8b92dc975fdae74e134d86169a2b9ceffe63b62
+ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829947"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "5909782"
 ---
 # <a name="supply-chain-management-home-page"></a>Home page do Supply Chain Management
 
@@ -94,16 +94,16 @@ As seguintes gravações de conferência técnica abordam a funcionalidade do ge
 
 ## <a name="blogs"></a>Blogs
 
-Há muitos tópicos sobre gerenciamento da cadeia de suprimentos e de fabricação no [Blog da equipe de P&D de fabricação do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg/) e no [Supply Chain Management no Blog da equipe de P&D do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). A maioria desses tópicos foi escrita para a versão anterior, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual.
+Há muitos tópicos sobre gerenciamento da cadeia de suprimentos e de fabricação no [Blog da equipe de P&D de fabricação do Dynamics AX](/archive/blogs/axmfg/) e no [Supply Chain Management no Blog da equipe de P&D do Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm/). A maioria desses tópicos foi escrita para a versão anterior, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual.
 
 ## <a name="white-papers"></a>White papers
 
-- [Lean manufacturing: capacidade de comprometimento e agendamento de trabalhos kanban](https://docs.microsoft.com/dynamics/s-e/)
+- [Lean manufacturing: capacidade de comprometimento e agendamento de trabalhos kanban](/dynamics/s-e/)
 - [Cálculo de BOM usando uma folha de avaliação de custos](https://www.microsoft.com/download/details.aspx?id=101937/)
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Supply Chain Management no Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-scm&resource_type=learning%20path).
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Supply Chain Management no Microsoft Learn](/learn/browse/?products=dynamics-scm&resource_type=learning+path).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

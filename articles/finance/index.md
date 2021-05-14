@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8fcd7be16d20d93adaa81e6183912c89be0a301d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 33c12fc47dc5781867ad6872a8be2a9ae1f28a2d
+ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813450"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5890320"
 ---
 # <a name="finance-home-page"></a>Home page do Finance
 
@@ -38,11 +38,11 @@ Escolha uma área de recursos para saber mais a respeito.
         - [Contabilidade de custos](cost-accounting/cost-accounting-home-page.md)
     :::column-end:::
     :::column:::
-        - [Gerenciamento de despesas](expense-management/expense-management.md)
-        - [Relatórios financeiros](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
+        - [Gerenciamento de despesas](/dynamics365/project-operations/prod-exp/expense-management)
+        - [Relatórios financeiros](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
         - [Ativos Fixos](fixed-assets/fixed-assets.md)
         - [Contabilidade e relatórios financeiros](general-ledger/general-ledger.md) 
-        - [Gerenciamento e contabilidade do projeto](project-management/overview-project-management-accounting.md)
+        - [Gerenciamento e contabilidade do projeto](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Setor público](public-sector/public-sector-functionality.md) 
     :::column-end:::
 :::row-end:::
@@ -65,7 +65,7 @@ Confira os vídeos de instruções que agora estão disponíveis no [canal do Mi
 
 ### <a name="countryregion-functionality"></a>Funcionalidade de país/região
 
-As regulamentações do país/região afetam a configuração dos impostos e outras áreas de gerenciamento financeiro. Consulte a seção [Recursos de localização e regulatórios](../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json) de nosso conteúdo de ajuda para conhecer a funcionalidade específica de país/região.
+As regulamentações do país/região afetam a configuração dos impostos e outras áreas de gerenciamento financeiro. Consulte a seção [Recursos de localização e regulatórios](../fin-ops-core/dev-itpro/lcs-solutions/country-region.md?toc=%2ffin-and-ops%2ftoc.json) de nosso conteúdo de ajuda para conhecer a funcionalidade específica de país/região.
 
 ### <a name="additional-content"></a>Conteúdo adicional
 
@@ -73,6 +73,6 @@ A funcionalidade de Supply Chain Management aborda partes do processo de compra 
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
 
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Finance no Microsoft Learn](https://docs.microsoft.com/learn/browse/?products=dynamics-finance&resource_type=learning%20path).
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Finance no Microsoft Learn](/learn/browse/?products=dynamics-finance&resource_type=learning+path).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
