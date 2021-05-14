@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-02-19
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: fdfe4d5042e0a6a7948a09334dc675e210e765a1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a8adf8cd736dd74e8a706e3692df93d7957a3402
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909806"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935824"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-1009-april-2020"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.9 (Abril de 2020)
 
@@ -71,7 +71,7 @@ Os seguintes recursos estão incluídos nesta versão. Os títulos do recurso es
 
 - [Dimensões de embalagem vs. armazenamento](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/packing-vs.-storage-dimensions)
 
-- [Confirmação paralelizada de ordens planejadas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Para obter mais informações, consulte [Paralelizar confirmação](../master-planning/maintain-planned-orders.md#parallelize-firming) e o vídeo [Aprimoramentos de desempenho e usabilidade do MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
+- [Confirmação paralelizada de ordens planejadas](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/parallelized-firming-planned-orders)<br> - Para obter mais informações, consulte [Confirmar ordens planejadas](../master-planning/planning-optimization/planned-order-firming.md) e o vídeo [Aprimoramentos de desempenho e usabilidade do MRP](https://www.microsoft.com/videoplayer/embed/RE4myrJ).
 
 - [Otimização de planejamento para distribuição](/dynamics365-release-plan/2019wave2/dynamics365-supply-chain-management/planning-optimization-distribution)<br> - Para obter mais informações, consulte [Visão Geral da Otimização de Planejamento](../master-planning/planning-optimization/planning-optimization-overview.md).
 

@@ -2,25 +2,25 @@
 title: Cálculo de imposto nas linhas do diário geral
 description: Este tópico explica como os impostos são calculados para diferentes tipos de conta (fornecedor, cliente, razão e projeto) nas linhas do diário geral.
 author: EricWang
-ms.date: 08/14/2019
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: roschlom
+ms.reviewer: kfend
 ms.custom: 4464
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
-ms.author: roschlom
+ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: e4d367fe6cb729c9c5658a9bbbac04e53fdf9644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815323"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937297"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de imposto nas linhas do diário geral
 [!include [banner](../includes/banner.md)]
@@ -117,7 +117,7 @@ Esta seção descreve como o valor do sinal do imposto é calculado.
 
 ![Página Transações de imposto](media/sales-tax-amount-sign.jpg)
 
-A tabela a seguir mostra a regra genérica para determinar o sinal de valores do imposto na tabela temporária de impostos.
+A tabela a seguir mostra a regra genérica para determinar a direção do imposto e o sinal de valores do imposto na tabela temporária de impostos.
 
 | Valor da linha do diário | Direção de imposto  | Sinal do valor do imposto |
 |---------------------|----------------------|-----------------------|
@@ -126,7 +126,7 @@ A tabela a seguir mostra a regra genérica para determinar o sinal de valores do
 | Negativo            | Imposto a Receber | Negativo              |
 | Negativo            | Imposto a Pagar    | Positivo              |
 
-Há uma regra especial para os comprovantes que têm apenas as linhas **Projeto** ou **Razão**, quando um grupo de impostos de item é selecionado na linha **Razão**. A regra é controlada pelo recurso Habilitar cálculo de imposto independente para diários gerais. Quando esse recurso está desativado, o valor do imposto da linha **Razão** usa a direção de débito/crédito da linha **Projeto**. Quando o recurso está ativado, o valor do imposto da linha **Razão** usa sua própria direção de débito/crédito. As tabelas a seguir mostram a regra para cada cenário. 
+Há uma regra especial para os comprovantes que têm apenas as linhas **Projeto** ou **Razão**, quando um grupo de impostos de item é selecionado na linha **Razão**. Essa regra é controlada pelo recurso **Habilitar cálculo de impostos independente para diários gerais**. Quando esse recurso está desativado, o valor do imposto da linha **Razão** usa a direção de débito/crédito da linha **Projeto**. Quando o recurso está ativado, o valor do imposto da linha **Razão** usa sua própria direção de débito/crédito. As tabelas a seguir mostram a regra para cada cenário. 
 
 **Regra quando o recurso estiver ativado**
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0389548b7867cc9505c9b8fe70c880959f6783b0
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745254"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921414"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -37,7 +37,7 @@ Este tópico descreve os recursos que foram removidos ou descontinuados do Dynam
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="finance-1007-with-platform-update-31"></a>Finance 10.0.7 com atualização de plataforma 31
 
@@ -147,7 +147,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Alinhamento de cabeçalho com outros produtos do Dynamics e Office. Para obter mais detalhes, consulte [Barra de navegação atualizada que se alinha com o cabeçalho do Office](https://docs.microsoft.com/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
+| **Motivo para a reprovação/remoção** | Alinhamento de cabeçalho com outros produtos do Dynamics e Office. Para obter mais detalhes, consulte [Barra de navegação atualizada que se alinha com o cabeçalho do Office](/business-applications-release-notes/April19/dynamics365-finance-operations/updatednavbar).
 | **Substituída por outro recurso?**   | A partir da atualização 24 da plataforma, uma barra de navegação reestilizada que apresenta a pesquisa foi introduzida. |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
@@ -161,7 +161,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | O comportamento herdado de ações padrão nas grades faz com que uma coluna inesperada tenha o link de ação padrão depois que as colunas da grande forem reordenadas por meio de personalização. O novo recurso de ação de aderência padrão corrige isso. Para obter mais detalhes, consulte [Ações de aderência padrão em grades](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
+| **Motivo para a reprovação/remoção** | O comportamento herdado de ações padrão nas grades faz com que uma coluna inesperada tenha o link de ação padrão depois que as colunas da grande forem reordenadas por meio de personalização. O novo recurso de ação de aderência padrão corrige isso. Para obter mais detalhes, consulte [Ações de aderência padrão em grades](/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action). |
 | **Substituída por outro recurso?**   | A partir da Platform update 21, foi introduzido um recurso para "ações de aderência padrão". Esse recurso pode ser habilitado na página **Opções de desempenho do cliente**. |
 | **Áreas afetadas do produto**         | Grades no cliente Web |
 | **Opção de implantação**              | Todas |
@@ -172,7 +172,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 |&nbsp;   | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A experiência de filtragem “é um de” foi remodelada na Platform update 22, sendo que o plano é que esta seja a única experiência de filtragem "é um de". |
-| **Substituída por outro recurso?**   | A partir da Platform update 22, foi disponibilizada uma experiência de filtragem "é um de" aprimorada na página **Opções de desempenho do cliente**. Para obter mais informações, consulte [Experiência de filtragem "é um de" otimizada](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
+| **Substituída por outro recurso?**   | A partir da Platform update 22, foi disponibilizada uma experiência de filtragem "é um de" aprimorada na página **Opções de desempenho do cliente**. Para obter mais informações, consulte [Experiência de filtragem "é um de" otimizada](/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering). |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: a partir de abril de 2020, a experiência aprimorada "é um de" será o comportamento padrão, sem um mecanismo para reverter ao comportamento herdado. |
@@ -1333,7 +1333,7 @@ Os serviços de sites permitem criar os sites que estendem seus processos comerc
 
 ### <a name="virtual-company-accounts"></a>Contas virtuais da empresa
 
-Não há mais suporte para o recurso de empresas virtuais no Dynamics AX. O recurso virtual das empresas habilitou os usuários a configurar as tabelas a serem compartilhadas por um conjunto de empresas. Você pode encontrar uma descrição do recurso aqui: [Contas da empresa e contas virtuais da empresa](https://msdn.microsoft.com/library/aa834382(v=ax.10).aspx). O recurso funciona através do agrupamento de tabelas em coleções que são atribuídas a empresas virtuais, que são grupos de empresas "reais" existentes. As consultas são criadas de forma que todas as empresas na empresa virtual possam acessar os dados nas tabelas das cobranças de tabelas associadas.
+Não há mais suporte para o recurso de empresas virtuais no Dynamics AX. O recurso virtual das empresas habilitou os usuários a configurar as tabelas a serem compartilhadas por um conjunto de empresas. Você pode encontrar uma descrição do recurso aqui: [Contas da empresa e contas virtuais da empresa](../../fin-ops/get-started/ax4-content-retired.md). O recurso funciona através do agrupamento de tabelas em coleções que são atribuídas a empresas virtuais, que são grupos de empresas "reais" existentes. As consultas são criadas de forma que todas as empresas na empresa virtual possam acessar os dados nas tabelas das cobranças de tabelas associadas.
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|

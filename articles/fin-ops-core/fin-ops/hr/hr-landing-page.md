@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d6f70e7626100646feb12e8544b5ab943097b1a3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 67fcadac93f757fb535105154cb06a3549cccc7f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752171"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923559"
 ---
 # <a name="human-resources-overview"></a>Visão geral do Human Resources
 
@@ -42,38 +42,38 @@ Você pode usar Recursos humanos para realizas estas tarefas:
 
 Ao trabalhar com Recursos humanos, você decide como estruturar sua organização usando elementos, como departamentos, trabalhos e posições. Esses estão entre os elementos fundamentais que você irá configurar em Recursos humanos. Funcionários individuais são atribuídos a posições associadas a trabalhos.
 
-- [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../../../talent/departments-jobs-positions.md)
-- [Configurar parâmetros de RH específicos da empresa](../../../talent/set-up-company-specific-hr-parameters.md)
-- [Configurar parâmetros de RH entre entidades legais](../../../talent/set-up-hr-parameters-across-legal-entities.md)
+- [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../../../human-resources/hr-personnel-departments-jobs-positions.md)
+- [Configurar parâmetros de RH específicos da empresa](../../../human-resources/hr-setup-parameters.md)
+- [Configurar parâmetros de RH entre entidades legais](../../../human-resources/hr-setup-shared-parameters.md)
 
 ## <a name="recruit-hire-and-motivate-employees"></a>Recrutar, contratar e motivar funcionários
 
 Os projetos de recrutamento gerenciam o conteúdo usado em anúncios para posições em aberto e podem ajudar você a gerenciar solicitações de emprego para vagas em aberto. Você pode usá-los para acompanhar respostas a ofertas de trabalho de um projeto de recrutamento específico ou de candidatos específicos e atualizar o status de posições em aberto. Você também pode contratar candidatos individuais ou gerenciar "projetos de contratação em massa" que facilitam a contratação de vários trabalhadores, por exemplo, para atender a necessidades sazonais dos negócios.
 
 - [​Gerenciar processos de recrutamento​](manage-recruiting-process.md)
-- [Projetos de contratação em massa](mass-hire-projects.md) 
+- [Projetos de contratação em massa](../../../human-resources/hr-personnel-mass-hire-projects.md) 
 
 Depois de contratar pessoal, você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
 
-- [Planos de remuneração](../../../talent/compensation-plans.md)
-- [Criar planos de remuneração fixa](../../../talent/create-fixed-compensation-plans.md)
-- [Criar planos de remuneração variável](../../../talent/create-variable-compensation-plans.md)
+- [Planos de remuneração](../../../human-resources/hr-compensation-overview.md)
+- [Criar planos de remuneração fixa](../../../human-resources/hr-compensation-fixed-plans.md)
+- [Criar planos de remuneração variável](../../../human-resources/hr-compensation-variable-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Desenvolver e treinar funcionários
 
 Para ajudar os funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo atender necessidades críticas dos negócios, você pode configurar metas, criar avaliações de desempenho e rastrear comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de cursos, cursos, descrições do curso, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
-- [Gerenciamento de desempenho](../../../talent/performance-management-overview.md)
-- [Alinhar habilidades da força de trabalho com as necessidades dos negócios](../../../talent/skills.md)
-- [Configurar cursos de treinamento](../../../talent/courses.md)
+- [Gerenciamento de desempenho](../../../human-resources/hr-develop-performance-management-overview.md)
+- [Alinhar habilidades da força de trabalho com as necessidades dos negócios](../../../human-resources/hr-develop-skills.md)
+- [Configurar cursos de treinamento](../../../human-resources/hr-learning-courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Criar e manter benefícios
 
 Além de remunerar sua equipe com salários e bônus, você pode desenvolver programas de benefícios, como seguro de saúde e planos de aposentadoria. Você também pode gerenciar benefícios, como programas de empréstimo, nos quais sua empresa empresta itens, como computadores ou telefones, a seus funcionários.
 
-- [Definir e gerenciar um programa de benefícios](../../../talent/manage-benefit-program.md)
-- [Políticas de qualificação para benefícios](../../../talent/benefit-eligibility-policies.md)
-- [Gerenciar itens emprestados aos trabalhadores](../../../talent/loan-items.md)
+- [Definir e gerenciar um programa de benefícios](../../../human-resources/hr-benefits-management-overview.md)
+- [Políticas de qualificação para benefícios](../../../human-resources/hr-benefits-eligibility-policies.md)
+- [Gerenciar itens emprestados aos trabalhadores](../../../human-resources/hr-personnel-loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Manter a segurança e a conformidade do local de trabalho
 
@@ -87,10 +87,10 @@ O Microsoft Dynamics AX pode ajudá-lo a manter um ambiente de trabalho seguro q
 
 Você pode criar e administrar questionários para coletar informações que são usadas para vários objetivos. O recurso Questionário permite projetar e criar questionários. Quando um questionário está pronto, você o distribui de forma ampla ou para um conjunto específico de entrevistados para preenchimento. Depois que os entrevistados fornecerem as respostas, você poderá rever e analisar os resultados.
 
-- [Questionários](../../../talent/questionnaires.md)
-- [Criar questionários](../../../talent/design-questionnaires.md)
-- [Distribuir e agendar questionários](../../../talent/distribute-questionnaires.md)
-- [Exibir e avaliar os resultados de questionários](../../../talent/evaluate-questionnaire-results.md)
+- [Questionários](../../../human-resources/hr-learning-questionnaires.md)
+- [Criar questionários](../../../human-resources/hr-learning-design-questionnaires.md)
+- [Distribuir e agendar questionários](../../../human-resources/hr-learning-distribute-questionnaires.md)
+- [Exibir e avaliar os resultados de questionários](../../../human-resources/hr-learning-evaluate-questionnaire-results.md)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

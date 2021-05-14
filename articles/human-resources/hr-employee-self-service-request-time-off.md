@@ -2,7 +2,7 @@
 title: Solicitar folga
 description: Solicitar folga no Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0159935e98e720d401923230dd7b69e22581df84
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4885c91eb0406acda2cf60ed4e30f494ebaa2a99
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790683"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924845"
 ---
 # <a name="request-time-off"></a>Solicitar folga
 
@@ -45,7 +45,7 @@ Você pode enviar solicitações de folga, exibir os saldos de férias e licenç
 
 ## <a name="add-an-attachment-to-an-existing-request"></a>Adicionar um anexo a uma solicitação existente
 
-Ao atualizar uma solicitação de folga existente, você pode adicionar um anexo. Você também pode ver todas as solicitações relacionadas a uma data específica. 
+Ao atualizar uma solicitação de folga existente, você pode adicionar um anexo. Você também pode ver todas as solicitações relacionadas a uma data específica.
 
 ## <a name="view-leave-balances"></a>Exibir saldos de licença
 
@@ -58,6 +58,20 @@ Ao atualizar uma solicitação de folga existente, você pode adicionar um anexo
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Mais** (...) no grupo **Saldos de folgas**.
 
 2. Para exibir suas solicitações de licença aprovada, selecione **Licença aprovada**. Para exibir suas solicitações de licença pendentes, selecione **Solicitações de licença**.
+
+## <a name="cancel-time-off-requests"></a>Cancelar solicitações de folga
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Exibir folga** no bloco **Saldos de folgas**.
+
+2. No formulário **Folga**, selecione uma ou mais solicitações de cancelamento de folga.
+
+3. Selecione o botão **Cancelar**.
+
+4. No painel **Detalhes do cancelamento**, insira um comentário e selecione **Enviar**.
+
+   ![Cancelar solicitação de licença](media/hr-leave-and-absence-cancel.png)
 
 ## <a name="see-also"></a>Consulte também
 

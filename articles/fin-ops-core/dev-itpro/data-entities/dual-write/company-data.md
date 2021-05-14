@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 1c3af66c0b8daa120c6ba19bd910f7531ffada0e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751401"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941020"
 ---
 # <a name="company-concept-in-dataverse"></a>Conceito de empresa no Dataverse
 
@@ -89,7 +89,7 @@ Há várias maneiras de preencher automaticamente o nome da empresa nos aplicati
 
     :::image type="content" source="media/autopopulate-company-name-3.png" alt-text="A escolha de uma linha altera a empresa padrão.":::
 
-+ Se você for um configurador de sistema ou administrador e quiser preencher automaticamente os dados da empresa em um formulário personalizado, poderá usar os [eventos do formulário](https://docs.microsoft.com/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Adicione uma referência JavaScript ao **msdyn_/DefaultCompany.js** e use os eventos a seguir. Você pode usar qualquer formulário predefinido, por exemplo, o formulário **Conta**.
++ Se você for um configurador de sistema ou administrador e quiser preencher automaticamente os dados da empresa em um formulário personalizado, poderá usar os [eventos do formulário](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids). Adicione uma referência JavaScript ao **msdyn_/DefaultCompany.js** e use os eventos a seguir. Você pode usar qualquer formulário predefinido, por exemplo, o formulário **Conta**.
 
     + Evento **OnLoad** do formulário: Defina a coluna **defaultCompany**.
     + Evento **OnChange** para a coluna **Empresa**: defina a coluna **updateDefaultCompany**.

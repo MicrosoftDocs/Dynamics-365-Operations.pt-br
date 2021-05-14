@@ -2,7 +2,7 @@
 title: Adiar a execução de elementos XML nos formatos de ER
 description: Este tópico explica como adiar a execução de um elemento de XML em um formato de ER (Relatório eletrônico).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 361e16b0dba3aa46c71477efaa89a2661a3bcd75
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894043"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944476"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Adiar a execução de elementos XML nos formatos de ER
 
@@ -59,14 +59,14 @@ Se você ainda não tiver concluído o exemplo no tópico [Adiar a execução de
 
 | Descrição do conteúdo            | Nome do arquivo |
 |--------------------------------|-----------|
-| Configuração do modelo de dados de ER    | [Modelo para conhecer elementos adiados.versão.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuração de mapeamento do modelo de ER | [Mapeamento para conhecer elementos adiados.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuração do modelo de dados de ER    | [Modelo para conhecer elementos adiados.versão.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuração de mapeamento do modelo de ER | [Mapeamento para conhecer elementos adiados.versão.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Antes de começar, você também deve baixar e salvar a configuração a seguir do exemplo da solução ER no seu computador local.
 
 | Descrição do conteúdo     | Nome do arquivo |
 |-------------------------|-----------|
-| Configuração de formato ER | [Formato para conhecer elementos XML adiados.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuração de formato ER | [Formato para conhecer elementos XML adiados.versão.1.1.xml](https://download.microsoft.com/download/4/7/8/478fa846-22e9-4fa0-89b1-d3aeae660067/FormattolearndeferredXMLelements.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importar o exemplo de configurações de ER
 
@@ -164,7 +164,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
 1. Na página **Designer de formato**, selecione **Executar**.
 2. Baixe o arquivo oferecido pelo navegador da Web e abra-o para revisão.
 
-    ![Arquivo baixado](./media/ER-DeferredXml-Run.png)
+    ![Arquivo baixado do formato importado](./media/ER-DeferredXml-Run.png)
 
 Observe que o nó de resumo apresenta a soma dos valores de imposto para as transações processadas. Como o formato está configurado para usar a associação **model.Data.Summary.Total** de modo a retornar essa soma, a soma é calculada chamado a agregação **TotalSum** da fonte de dados **Agrupados** do tipo *GroupBy* no mapeamento de modelo. Para calcular essa agregação, o mapeamento de modelo itera em todas as transações que foram selecionadas na fonte de dados **Filtrados**. Ao comparar os tempos de execução do nó de resumo e do último nó de registro, você pode determinar que o cálculo da soma levou 12 milissegundos (ms). Ao comparar os tempos de execução do primeiro e do último nó de registro, você pode determinar que a geração de todos os nós de registro levou 9 ms. Portanto, foi necessário um total de 21 ms.
 
@@ -196,7 +196,7 @@ Se o volume de transação for muito maior do que o volume no exemplo atual, o t
 11. Selecione **Salvar** e **Executar**.
 12. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredXml-Run1.png)
+    ![Lista gerada de valor de imposto com total da execução](./media/ER-DeferredXml-Run1.png)
 
     O último nó de registro contém o total acumulado de valores de imposto que é calculado para todas as transações processadas usando a saída gerada como uma fonte de dados. Essa fonte de dados é iniciada desde o começo do relatório e continua até a última transação de imposto. O nó de resumo contém a soma dos valores de imposto para todas as transações processadas que são calculadas no mapeamento de modelo usando a fonte de dados do tipo *GroupBy*. Observe que esses valores são iguais. Portanto, a soma baseada na saída pode ser usada no lugar de **GroupBy**. Ao comparar os tempos de execução do primeiro nó de registro e o nó de resumo, você pode determinar que a geração de todos os nós de registro e a soma levaram 11 ms. Portanto, no que diz respeito à geração de nós de registro e à soma dos valores de imposto, o formato modificado é aproximadamente duas vezes mais rápido do que o formato original.
 
@@ -205,7 +205,7 @@ Se o volume de transação for muito maior do que o volume no exemplo atual, o t
 15. Selecione **Salvar** e **Executar**.
 16. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredXml-Run2.png)
+    ![Lista gerada de valores de imposto usando fórmula editada](./media/ER-DeferredXml-Run2.png)
 
     Observe que o total acumulado dos valores de imposto no último nó de registro agora é igual à soma no nó de resumo.
 
@@ -218,7 +218,7 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredXml-Run3.png)
+    ![Arquivo baixado de valores de imposto para cabeçalho do relatório](./media/ER-DeferredXml-Run3.png)
 
     Observe que a soma dos valores de imposto no nó de resumo agora é igual a 0 (zero), pois a soma agora é calculada com base na saída gerada. Quando o primeiro nó de registro é gerado, a saída gerada ainda não contém nós de registro com detalhes da transação. É possível configurar esse formato para adiar a execução do elemento **Relatório\\Mensagem\\Resumo** até que o elemento **Relatório\\Mensagem\\Registro** tenha sido executado para todas as transações de imposto.
 
@@ -232,7 +232,7 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredXml-Run4.png)
+    ![Arquivo baixado da execução adiada](./media/ER-DeferredXml-Run4.png)
 
     O elemento **Relatório\\Mensagem\\Resumo** agora é executado somente depois que todos os outros itens que estão aninhados sob seu elemento pai, **Relatório\\Mensagem**, tiverem sido executados. Portanto, ele é executado depois que o elemento **Relatório\\Mensagem\\Registro** tiver sido executado para todas as transações de imposto da fonte de dados **model.Data.List**. Os tempos de execução do primeiro e do último nó de registro, e dos nós de cabeçalho e resumo, revelam esse fato.
 

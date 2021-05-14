@@ -2,7 +2,7 @@
 title: Criar uma conta de armazenamento do Azure e um cofre de chaves
 description: Este tópico explica como criar uma conta de armazenamento do Azure e um cofre de chaves.
 author: gionoder
-ms.date: 02/12/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2786d350fde2399aadb35dc653bc15123e0e6d91
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5c2ddad10f9cbedd77a04fe0f42bdc217fd43344
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893793"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963230"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Criar uma conta de armazenamento do Azure e um cofre de chaves
 
@@ -80,6 +80,10 @@ Neste tópico, você executará duas etapas principais:
 11. Selecione **Adicionar** e, em seguida, **Salvar alterações do Key Vault**.
 12. Na página **Visão geral**, copie o valor **Nome do DNS** para o cofre de chaves. Esse valor será usado durante a configuração do serviço no RCS e será referenciado como o *URI do cofre de chaves*.
 
+> [!NOTE]
+> Para obter segurança adicional na conta de armazenamento, configure o Azure Defender para armazenamento.
+> 
+> Para obter mais informações, consulte [Introdução ao Azure Defender para armazenamento](/azure/security-center/defender-for-storage-introduction).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

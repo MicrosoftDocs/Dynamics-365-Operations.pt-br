@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ac3b5274aaea2e267685e80d051c81489ece50eb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814311"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923529"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -30,7 +30,7 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
-Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Recurso removido em 28 de janeiro de 2021
 
@@ -123,7 +123,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Em geral, o código personalizado oferece benefícios limitados enquanto que, ao mesmo tempo, requer recursos e uma computação significativos para o suporte. O código personalizado é usado principalmente pelos autores de relatórios para chamar métodos públicos a partir de um assembly de código personalizado. No entanto, o serviço hospedado na nuvem não oferece suporte a referências a assemblies personalizados para relatórios SSRS. |
-| **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](https://docs.microsoft.comsql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
 | **Áreas afetadas do produto**         | Subconjunto de designs de relatórios de aplicativos definidos no RDL que contêm código personalizado. |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Com a versão 10.0.13, o compilador começará a emitir um aviso para instâncias em que o código personalizado for detectado em uma definição de relatório SSRS. Para corrigir o problema, abra a definição do design do relatório e remova todos os artefatos de código personalizado. Este aviso será substituído por um erro do compilador em uma atualização futura.   |
@@ -178,7 +178,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | O processo de movimentação de IP para listas de confiança foi alterado. O autoatendimento não oferece mais suporte a listas de confiança de IP. |
-| **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](https://docs.microsoft.com/appcenter/general/configuring-aad-conditional-access).|
+| **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas afetadas do produto**         | Segurança |
 | **Opção de implantação**              | Nuvem |
 | **Status**                         | **Preterido:** esse recurso foi totalmente substituído por implantações de autoatendimento. |
@@ -223,7 +223,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Fluxo de Trabalho |
 | **Opção de implantação**              | Todas |
-| **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na platform update 23. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/organization-administration/workflow-actions?toc=%2Fdynamics365%2Fcommerce%2Ftoc.json#request-change). |
+| **Status**                         | A lista suspensa de seleção de usuário foi removida da caixa de diálogo alteração de solicitação na platform update 23. Solicitações de alteração de solicitação serão enviadas automaticamente para o originador conforme pretendido. Para obter mais informações sobre essa funcionalidade, consulte [Ações em processos de aprovação de fluxo de trabalho](../../fin-ops/organization-administration/workflow-actions.md?toc=%2fdynamics365%2fcommerce%2ftoc.json#request-change). |
 
 ### <a name="embedded-drill-through-links-are-no-longer-supported-in-paginated-documents-rendered-by-the-cloud-hosted-service"></a>Links de detalhamento incorporados não são mais compatíveis em documentos paginados renderizados pelo serviço armazenado em nuvem 
 
@@ -233,7 +233,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Relatório |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Este recurso está sendo removido ativamente do serviço.<br><br>O cliente moderno oferece várias opções para produzir exibições que incluem links gerados automaticamente para ajudar na navegação do aplicativo. Os documentos paginados processados pelo serviço são recomendados para comunicações externas enviadas por email, arquivadas e impressas para os destinatários. Aperfeiçoamos a experiência de visualização de documentos diretamente no navegador, que oferece acesso direto a impressoras locais. Para obter mais informações, consulte [Visualização de documentos em PDF com um visualizador incorporado](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/preview-pdf-documents). |
+| **Status**                         | Este recurso está sendo removido ativamente do serviço.<br><br>O cliente moderno oferece várias opções para produzir exibições que incluem links gerados automaticamente para ajudar na navegação do aplicativo. Os documentos paginados processados pelo serviço são recomendados para comunicações externas enviadas por email, arquivadas e impressas para os destinatários. Aperfeiçoamos a experiência de visualização de documentos diretamente no navegador, que oferece acesso direto a impressoras locais. Para obter mais informações, consulte [Visualização de documentos em PDF com um visualizador incorporado](../analytics/preview-pdf-documents.md). |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../migration-upgrade/deprecated-features.md).

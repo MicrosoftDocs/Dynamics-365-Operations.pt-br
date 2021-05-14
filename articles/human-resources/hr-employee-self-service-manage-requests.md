@@ -2,7 +2,7 @@
 title: Gerenciar solicitações de licença e ausência
 description: Exibir e aprovar solicitações de licença e ausência no Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 53d4651b60da63243547ee8a5da6e105705640c3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 301b8978264dd3cb517652492a0b1791df63e6f3
+ms.sourcegitcommit: 36b3fa236734a387f42c87e9b7b0ddd638ce4302
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790731"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5924794"
 ---
 # <a name="manage-leave-and-absence-requests"></a>Gerenciar solicitações de licença e ausência
 
@@ -31,9 +31,20 @@ Gerencie solicitações de folga do espaço de trabalho **Autoatendimento para f
 
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Minha equipe**.
 
-2. Em **Informações da minha equipe**, selecione a guia **Licença e ausência**. 
+2. Em **Informações da minha equipe**, selecione a guia **Licença e ausência**.
 
 3. Exiba e aprove as solicitações de tempo limite dos membros da equipe, conforme necessário.
+
+## <a name="preview-leave-request-workflow-experience-enhancements"></a>(Versão preliminar) Aprimoramentos da experiência do fluxo de trabalho de solicitação de licença
+
+[!include [Preview feature](includes/preview-feature.md)]
+
+Esta versão prévia do recurso fornece os seguintes aprimoramentos:
+
+- Você pode selecionar várias solicitações de licença e executar a mesma ação em todas elas.
+- A faixa de opções na parte superior e um novo botão de fluxo de trabalho na página mostram as ações que podem ser executadas em solicitações de licença.
+
+![Experiência de gerente](media/hr-leave-and-absence-manager-experience.png)
 
 ## <a name="see-also"></a>Consulte também
 

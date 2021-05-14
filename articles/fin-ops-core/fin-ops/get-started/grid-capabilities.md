@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: c8f417b3ba427104d6d0e57ac595ab7b453f48fa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749556"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923589"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -134,7 +134,7 @@ Observe que a seleção de linha e as colunas de status de linha e status na nov
 
 **10.0.9/Platform update 33 e posterior**
 
-O recurso **Novo controle de grade** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).  
+O recurso **Novo controle de grade** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](public-preview-terms.md).  
 
 **10.0.8/Platform update 32 e 10.0.7/Platform update 31**
 

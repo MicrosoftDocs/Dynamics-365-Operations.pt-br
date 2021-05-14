@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: rhaertle
 ms.search.region: Global
-ms.author: riluan
+ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: fcbede8b1a0a9a1dfcb9acbfd7cadb49eb48eecd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750681"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941100"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrar as compras entre o Supply Chain Management e o Field Service
 
@@ -46,7 +46,7 @@ Para integrar o Supply Chain Management ao Field Service, você deve instalar os
 ### <a name="prerequisites"></a>Pré-requisitos
 
 - **Gravação dupla** – para obter mais informações, consulte a [Home page da gravação dupla](dual-write-home-page.md#dual-write-setup).
-- **Dynamics 365 Field Service** – para obter mais informações, consulte [Como instalar o Dynamics 365 Field Service](https://docs.microsoft.com/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
+- **Dynamics 365 Field Service** – para obter mais informações, consulte [Como instalar o Dynamics 365 Field Service](/dynamics365/field-service/install-field-service#step-1-install-dynamics-365-field-service).
 
 Quando habilitados no Microsoft Dataverse, a gravação dupla e o Field Service introduzem várias camadas de solução que estendem o ambiente com novos metadados, formulários, exibições e lógica. Essas soluções podem ser habilitadas em qualquer ordem, embora a instalação seja feita normalmente nesta ordem:
 

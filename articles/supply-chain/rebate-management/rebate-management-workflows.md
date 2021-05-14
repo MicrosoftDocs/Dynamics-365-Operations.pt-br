@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 37b8022633e61c4d98d6f5d129bcf494a9ed92e0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 16f1c56ecd69f4dc7bfd80e74d3f35147cc173d6
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831713"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919810"
 ---
 # <a name="rebate-management-deal-workflows"></a>Fluxos de trabalho de acordos de gerenciamento de reembolso
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Para aprovar acordos de reembolso, o Gerenciamento de reembolso usa a mesma plataforma de fluxo de trabalho que outros aplicativos Finance and Operations. Dois processos de trabalho estão associados a cada fluxo de trabalho:
 

@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 826cee7b1e30020aec99f6148dd9ab16f126c417
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7917f36d8ff3c1ae2d37c5390806ef82771b5211
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839116"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920028"
 ---
 # <a name="rebate-management-module-overview"></a>Visão geral do módulo de gerenciamento de reembolso
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Você pode usar o módulo **Gerenciamento de reembolso** para criar acordos ou contratos entre sua empresa e clientes ou fornecedores, de forma que possa calcular reembolsos, deduções e royalties. O gerenciamento de reembolso rastreia e mantém transações de reembolso e dedução em um local central em que os usuários podem criá-las, examiná-las e processá-las efetivamente.
 

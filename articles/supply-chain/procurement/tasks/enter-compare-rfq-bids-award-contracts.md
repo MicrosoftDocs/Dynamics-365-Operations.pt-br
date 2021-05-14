@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9e7abe133c4d2c7a515c75709bd5616c83ebbcc6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811981"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920572"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Inserir e comparar lances RFQ e contratos de prêmio
 
@@ -32,7 +32,7 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="enter-a-reply-as-a-vendor"></a>Inserir uma resposta como um fornecedor
 
-1. No painel, selecione **Lances de fornecedor**.
+1. Acesse **Colaboração de fornecedor \> Espaços de trabalho \> Lances de fornecedor**.
 2. Na lista **Novos convites de lances**, encontre uma RFQ que acabou de ser enviada. Selecione a RFQ para revisar o que foi solicitado.
 3. Selecione **Anexos de RFQ** para revisar todos os anexos que foram adicionados.
 4. Selecione **Lance** para tornar os campos editáveis. Observe que o campo **Andamento do lance** está definido como **Fornecedor está atualizando**.

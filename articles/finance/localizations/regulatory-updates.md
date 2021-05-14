@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2f235726d163b9262fabee4d0a1118600a60eee1
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 275a51620fad50f725dad7a37bd8ee776cf0ce4c
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890767"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941131"
 ---
 # <a name="regulatory-updates"></a>Atualizações regulatórias
 
@@ -47,6 +47,7 @@ Para obter informações sobre os planos de atualizações regulatórias mais re
 |      Brasil         |   2020 de outubro      | 10.0.16      |   Declaração DRCST SC - SEF 262/2020   |
 |      Brasil         |   2020 de outubro      | 10.0.16      |   Registro C176 do SPED Fiscal ICMS/IPI   |
 |      Brasil         |   2020 de dezembro      | 10.0.17, 10.0.16HF, 10.0.15HF      |   NF-e NT2020.006  - Identificação do intermediário de plataforma digital (atualizações de regras de validação e layout)   |
+|      Brasil         |   2021 de março         | 10.0.17, 10.0.18, 10.0.19         |    SPED REINF layout 1.5.1
 |      Europa        |   2021 de janeiro       | 10.0.17, 10.0.16HF, 10.0.15HF      |   Brexit - Impacto do protocolo da Irlanda do Norte para a geração de relatórios de comércio entre comunidade em países/regiões da UE  |
 |      Alemanha        |   2021 de janeiro       | 10.0.16HF      |   O formato de notificação prévia de IVA de ELSTER UstVA foi estendido com duas novas caixas 37,50 para a baixa de dívidas irrecuperáveis  |
 |      Alemanha        |   2021 de janeiro       | 10.0.17      |   Alterações na estrutura XML de notificação prévia de IVA de ELSTER (UstVA)  |

@@ -2,7 +2,7 @@
 title: Introdução ao Faturamento eletrônico para o Egito
 description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito no Finance e no Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f6175a50a88d2d636bfafc5988265b8657630758
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: abae35db7e37e65950c05c8e21b8e8555edbf3be
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840187"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920772"
 ---
 # <a name="get-started-with-electronic-invoicing-for-egypt"></a>Introdução ao Faturamento eletrônico para o Egito
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/preview-banner.md)]
 
 Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico para o Egito. O tópico guia você pelas etapas de configuração que dependem do país para o Regulatory Configuration Services (RCS) e complementam as etapas descritas em [Introdução ao Faturamento eletrônico](e-invoicing-get-started.md).
 

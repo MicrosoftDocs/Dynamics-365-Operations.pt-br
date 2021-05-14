@@ -2,7 +2,7 @@
 title: Componentes de administração de Faturamento eletrônico
 description: Este tópico fornece informações sobre os componentes relacionados à administração do Faturamento eletrônico.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 04/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 2e859875e124796e49000cd5ea94cfb75ecd768a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
+ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840019"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "5963182"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Componentes de administração de Faturamento eletrônico
 
@@ -31,7 +31,7 @@ Este tópico fornece informações sobre os componentes relacionados à administ
 
 ## <a name="azure"></a>Azure
 
-Use o Microsoft Azure para criar os segredos para o cofre de chaves e a conta de armazenamento. Em seguida, use os segredos na configuração do Faturamento eletrônico.
+Use o Microsoft Azure para criar os segredos para o Key Vault e a conta de armazenamento. Em seguida, use os segredos na configuração do Faturamento eletrônico.
 
 ## <a name="lifecycle-services"></a>Lifecycle Services
 
@@ -87,10 +87,12 @@ O serviço de Faturamento eletrônico é responsável pelo armazenamento de todo
 - Uma conta de armazenamento do Azure (armazenamento de Blob) que armazenará faturas eletrônicas
 - Um Azure Key Vault que armazenará certificados e o URI (Uniform Resource Identifier) da conta de armazenamento
 
-> [!NOTE]
-> Um cofre de chaves dedicado e uma conta de armazenamento de cliente devem ser alocados especificamente para uso com o Faturamento eletrônico.
 
-Para obter mais informações, consulte [Criar uma conta de armazenamento do Azure e um cofre de chaves](e-invoicing-create-azure-storage-account-key-vault.md).
+Um Key Vault dedicado e uma conta de armazenamento de cliente devem ser alocados especificamente para uso com o Faturamento Eletrônico. Para obter mais informações, consulte [Criar uma conta de armazenamento do Azure e um Key Vault](e-invoicing-create-azure-storage-account-key-vault.md).
+
+Para monitorar a integridade do Key Vault e receber alertas, configure o Azure Monitor para o Key Vault. Ao habilitar o log do Key Vault, você pode monitorar como, quando e por quem seus Key Vaults são acessados. Para obter mais informações, consulte [Monitorar e alertar para o Azure Key Vault](/azure/key-vault/general/alert) e [Como habilitar o log do Key Vault](/azure/key-vault/general/howto-logging?tabs=azure-cli).
+
+Como prática recomendada, gire periodicamente os segredos. Para obter mais informações, consulte [Documentação de segredos](/azure/key-vault/secrets/).
 
 #### <a name="users"></a>Usuários
 

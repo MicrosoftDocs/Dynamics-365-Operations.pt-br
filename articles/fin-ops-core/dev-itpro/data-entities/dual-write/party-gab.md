@@ -4,18 +4,17 @@ description: Este tópico descreve o recurso Catálogo de endereços global e de
 author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
-ms.service: dynamics-ax-applications
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e7bec58f8094a1448017822e7d8840368cc482b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
+ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750779"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937877"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e dos participantes
 
@@ -23,166 +22,283 @@ ms.locfileid: "5750779"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Catálogo de endereços global e de participantes são conceitos em aplicativos de Finance and Operations. Um participante pode ser uma organização ou uma pessoa. É conveniente armazenar e gerenciar globalmente as propriedades de um **participante**, como nome, idioma, contatos e endereços. Quando um valor de propriedade é alterado em um local, ele reflete em todos os locais onde o **participante** está envolvido.
+*Participante* e *catálogo de endereços global* são conceitos em aplicativos do Finance and Operations. Um participante pode ser uma organização ou uma pessoa. É conveniente armazenar e gerenciar globalmente propriedades de um participante, como nome, idioma, contatos e endereços. Quando um valor de propriedade é alterado em um local, a alteração se reflete em todos os locais em que o participante está envolvido.
 
 ## <a name="party"></a>Participante
 
-Um *participante* é uma pessoa ou uma organização envolvida no negócio. Usando o conceito de participante, uma pessoa ou organização pode realizar mais de uma função (trabalhador, cliente, fornecedor ou contato) em uma empresa. A função se baseia no contexto e na finalidade. Veja aqui alguns exemplos de duas empresas fictícias, Contoso e Fabrikam.
+Um participante é uma pessoa ou uma organização que está envolvida em uma empresa. Quando o conceito de participante é usado, uma pessoa ou organização pode realizar mais de uma função em uma empresa (por exemplo, trabalhador, cliente, fornecedor ou contato). A função se baseia no contexto e na finalidade. Veja aqui alguns exemplos de funções de duas empresas fictícias, a Contoso e a Fabrikam:
 
-+ **Trabalhador**: um funcionário. Por exemplo, um funcionário da Contoso.
-+ **Fornecedor**: uma organização fornecedora ou um único proprietário que fornece bens ou serviços a uma empresa. Por exemplo, se a Fabrikam vende equipamentos para a Contoso, a Fabrikam está na função de fornecedora.
-+ **Contato**: uma pessoa para entrar em contato. Por exemplo, se a Contoso compra equipamentos da Fabrikam, um funcionário na Contoso entra em contato com o contato na Fabrikam.
-+ **Cliente**: um cliente é uma pessoa ou empresa que compra itens de uma organização. Por exemplo, se a Contoso comprar equipamentos da Fabrikam, a Contoso será uma cliente da Fabrikam.
++ **Trabalhador** – um funcionário. Um exemplo é um funcionário da Contoso.
++ **Fornecedor** – uma organização fornecedora ou um único proprietário que fornece mercadorias ou serviços a uma empresa. Por exemplo, se a Fabrikam vender suprimentos para a Contoso, a Fabrikam será um fornecedor da Contoso.
++ **Contato** – uma pessoa para contato. Por exemplo, se a Contoso comprar equipamentos da Fabrikam, funcionários da Contoso falarão com o contato na Fabrikam.
++ **Cliente** – uma pessoa ou empresa que compra itens de uma empresa. Por exemplo, se a Contoso comprar equipamentos da Fabrikam, a Contoso será uma cliente da Fabrikam.
 
-O modelo de participante geralmente é usado para representar relacionamentos médios e complexos entre organizações e pessoas, principalmente quando um participante realiza mais de uma função. Veja aqui alguns exemplos comuns:
+O modelo de participante geralmente é usado para representar relacionamentos médios e complexos entre organizações e pessoas, especialmente quando um participante realiza mais de uma função. Veja aqui alguns exemplos comuns:
 
-+ Um participante pode ser tanto um cliente quanto um fornecedor. Por exemplo, na América do Norte, a Fabrikam vende fios elétricos para a Contoso e compra caixas de som montadas da Contoso. Na Europa, a Fabrikam vende peças para a Contoso, mas não compra itens da empresa.
++ Um participante pode ser tanto um cliente quanto um fornecedor. Por exemplo, na América do Norte, a Fabrikam vende fios elétricos para a Contoso e compra alto-falantes montados da Contoso. Na Europa, a Fabrikam vende peças para a Contoso, mas não compra itens da Contoso.
 + Um participante pode ser tanto um funcionário quanto um cliente. Por exemplo, um funcionário da Contoso compra eletrônicos da Contoso para uso pessoal.
-+ Pode haver um relacionamento de muitos para muitos entre uma pessoa e uma organização. Por exemplo, a Fabrikam fornece especialistas em serviço e emprega um coordenador de posicionamento. O coordenador indica os especialistas em serviço a solicitação de trabalho ideal para eles feita por vários clientes da Fabrikam. A Contoso é uma das contas de cliente. Quando a Contoso precisa de um especialista, ela entre em contato com o coordenador, que facilita a solicitação. O coordenador administra solicitações de todos os clientes, criando um relacionamento de muitos para muitos.
++ Pode haver um relacionamento de muitos para muitos (N:N) entre uma pessoa e uma organização. Por exemplo, a Fabrikam fornece especialistas em serviço e emprega um coordenador de posicionamento. O coordenador de posicionamento faz a correspondência de especialistas com solicitações de diversos clientes da Fabrikam. A Contoso é um dos clientes da Fabrikam. Quando a Contoso solicita um especialista em serviço, ela fala com o coordenador de posicionamento, que facilita a solicitação. Como o coordenador de posicionamento controla as solicitações de todos os clientes, há um relacionamento N:N envolvido.
 
-A imagem a abaixo mostra o modelo de dados de participante:
+A ilustração a seguir mostra o modelo de dados de participante.
 
 ![Modelo de dados de participante](media/party-gab-image1.png)
 
-> [!Tip]
-> Ao tentar criar um registro de conta, use o campo "Participante" para procurar o registro pelo nome. Caso encontre o registro, você só precisará selecioná-lo. O sistema preenche todos os dados do participante automaticamente. Não é necessário preencher manualmente todos os campos obrigatórios. Esse comportamento pode ser encontrado nos formulários Conta, Contato ou Fornecedor que foram enviados de forma integrada.
+> [!TIP]
+> Ao tentar criar um novo registro de conta, use o campo **Participante** para procurar o registro pelo nome. Dessa forma, se você encontrar o registro, bastará selecioná-lo. O sistema preenche automaticamente todos os dados do participante. Não é necessário definir manualmente todos os campos obrigatórios. Esse comportamento pode ser encontrado nas páginas **Conta**, **Contato** e **Fornecedor**.
 
-Nem todas as funções de participante dos aplicativos de Finance and Operations são compatíveis com gravação dupla. Para obter uma lista completa das funções do participante, consulte [Visão geral do catálogo de endereços global](../../../fin-ops/organization-administration/overview-global-address-book.md).
+A gravação dupla não dá suporte a todas as funções de participante de aplicativos do Finance and Operations. Para obter uma lista completa das funções do participante, consulte [Visão geral do catálogo de endereços global](../../../fin-ops/organization-administration/overview-global-address-book.md).
 
 ### <a name="global-address-book"></a>Catálogo de endereços global
 
-O catálogo de endereços global é um diretório de endereços postais e eletrônicos das organizações e dos indivíduos que fazem parte de uma empresa.
+O catálogo de endereços global é um diretório de endereços postais e eletrônicos das organizações e dos indivíduos que participam de uma empresa.
 
-O catálogo de endereços global armazena e administra endereços postais e eletrônicos, conforme necessário. Por exemplo, digamos que a Fabrikam tenha postos de gasolina em 50 locais. Cada local tem um endereço postal, email e número de telefone diferente. Todas as compras comerciais são cobradas do posto principal, mas as compras são enviadas diretamente para o posto de gasolina específico que solicitou a compra. O catálogo de endereços global armazena o endereço do posto principal como o endereço de cobrança e salva o local dos outros postos de gasolina como um endereço de entrega da Fabrikam. Os endereços podem ser armazenados uma vez e recuperados conforme necessário para cotações e pedidos.
+O catálogo de endereços global armazena e trata endereços postais e eletrônicos, conforme necessário. Por exemplo, a Fabrikam tem postos de gasolina em 50 locais. Cada local tem um endereço postal, endereço email e número de telefone diferente. Todas as compras comerciais são cobradas do posto de gasolina principal, mas são enviadas diretamente para o posto de gasolina específico que solicitou a compra. O catálogo de endereços global armazena o posto de gasolina principal como o endereço de cobrança da Fabrikam e armazena cada posto de gasolina como um endereço de remessa. Os endereços podem ser armazenados uma vez e recuperados conforme necessário para cotações e ordens.
 
-Uma pessoa ou organização pode realizar mais de uma função com base no contexto comercial. Quando isso acontece, os endereços postais e eletrônicos podem ser os mesmos. Nesse caso, uma alteração no endereço de uma função deverá aparecer no registro de outras funções e vice-versa. O catálogo de endereços global armazena e administra os endereços globalmente.
+Dependendo do contexto comercial, uma pessoa ou uma organização pode executar mais de uma função, e o mesmo endereço postal e endereço eletrônico podem ser usados para todas as funções. Nesse caso, uma alteração no endereço de uma função deve aparecer em todas as outras funções. O catálogo de endereços global armazena e administra os endereços globalmente.
+
+A ilustração a seguir mostra o modelo de dados para o catálogo de endereços global.
 
 ![Modelo de dados do catálogo de endereços global](media/party-gab-image2.png)
 
-## <a name="contacts"></a>Contatos
+## <a name="contact"></a>Contato
 
-Em aplicativos de interação com clientes, um *contato* é uma pessoa. No entanto, a tabela de **contatos** foi sobrecarregada para representar uma pessoa, um usuário do portal, um cliente do B2C ou um fornecedor. A representação é implícita e não é possível diferenciá-la sem investigar as transações relacionadas. A tabela **Contatos** foi limitada a ter uma relação direta com a tabela **Contas**. Como parte do modelo Participantes e catálogo de endereços global, a gravação dupla apresenta propriedades explícitas para a classificação e permite relacionamentos de muitos para muitos entre um **contato** e uma organização (entidade Conta ou entidade Fornecedor).
+Em aplicativos Customer Engagement, um contato é uma pessoa. No entanto, a tabela **Contato** foi sobrecarregada para representar uma pessoa, um usuário do portal, um cliente do business-to-consumer (B2C) ou um fornecedor. A representação é implícita e não é possível diferenciá-la, a menos que você examine transações relacionadas. A tabela **Contatos** foi limitada a um relacionamento um para um (1:1) com a tabela **Contas**. Como parte do modelo participante e catálogo de endereços global, a gravação dupla apresenta propriedades explícitas para a classificação e permite relacionamentos N:N entre um contato que é uma pessoa e uma organização (entidade **Conta** ou **Fornecedor**).
 
 Há dois tipos de linhas **Contato**:
 
-+ Contato distribuído – linha Contato com um valor obrigatório no campo **Empresa**.
-+ Contato não distribuído – linha Contato com campo **Empresa** em branco.
++ **Contato distribuído** – Uma linha **Contato** em que o campo **Empresa** tem um valor obrigatório.
++ **Contato não distribuído** – Uma linha **Contato** em que o campo **Empresa** está em branco.
 
-A tabela **Contato** pode contar com estes tipos de linha:
+A tabela **Contato** pode conter os tipos de linhas a seguir.
 
-Tipo de linha | descrição
----|---
-Uma pessoa que é um cliente, como um contato comercializável ou um cliente B2C. | Um registro de contato distribuído em que o campo **Empresa** não está em branco e o campo **É Cliente** está preenchido com **Sim**.
-Uma pessoa que é um fornecedor, como um fornecedor do tipo único proprietário. | Um registro de contato distribuído em que o campo **Empresa** não está em branco o campo **É Fornecedor** está preenchido com **Sim**.
-Uma pessoa que é cliente e fornecedora. | Um registro de contato distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está preenchido com **Sim** e o campo **É Fornecedor** está preenchido com **Sim**. Uma pessoa pode ser um produtor de produto e um cliente de outro produto. Tanto os aplicativos de Finance and Operations quanto a gravação dupla oferecem suporte a esse relacionamento.
-Uma pessoa que é um contato de uma organização, mas não é um cliente nem um fornecedor. | Um registro de contato não distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está preenchido com **Não** e o campo **É Fornecedor** está preenchido com **Não**.
+| Tipo de linha | Descrição |
+|----------|-------------|
+| Uma pessoa que é um cliente (por exemplo, um contato comercializável ou um cliente B2C) | Um registro de contato distribuído em que o campo **Empresa** não está em branco e o campo **É Cliente** está definido como **Sim**. |
+| Uma pessoa que é um fornecedor (por exemplo, um único proprietário, como um fornecedor) | Um registro de contato distribuído em que o campo **Empresa** não está em branco o campo **É Fornecedor** está definido como **Sim**. |
+| Uma pessoa que é cliente e fornecedor | Um registro de contato distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está definido como **Sim** e o campo **É Fornecedor** está definido como **Sim**. Uma pessoa pode ser um produtor de produto e um cliente de outro produto. Tanto os aplicativos de Finance and Operations quanto a gravação dupla oferecem suporte a esse relacionamento. |
+| Uma pessoa que é um contato de uma organização, mas não é um cliente ou um fornecedor | Um registro de contato não distribuído em que o campo **Empresa** não está em branco, o campo **É Cliente** está definido como **Não** e o campo **É Fornecedor** está definido como **Não**. |
 
-## <a name="contact-for-party"></a>Contato do participante
+## <a name="contact-for-party-table"></a>Tabela Contato do participante
 
-O **Contato do participante** armazena e administra relacionamentos de muitos para muitos entre as linhas **Conta** e **Contato**. Ele pode filtrar as linhas **Contato** distribuídas de linhas não distribuídas e associar penas as linhas **Contato** não distribuídas às linhas **Conta** ou **Fornecedor**.
+A tabela **Contato do participante** armazena e trata relacionamentos N:N entre as linhas **Conta** e **Contato**. Ela pode filtrar as linhas **Contato** distribuídas de linhas não distribuídas e associar apenas as linhas **Contato** não distribuídas com as linhas **Conta** ou **Fornecedor**.
 
-Por exemplo, Natasha Jones e Miguel Reyes são veterinários que atendem fazendas na área. Natasha atende a área de Seattle, e Miguel atende a área Kent. No aplicativo de engajamento do cliente, as fazendas são representadas como clientes e os veterinários são as pessoas de contato. Um único registro de **contato** de Natasha está associado a todas as fazendas com as quais ela trabalha. De forma similar, um único registro de **contato** de Miguel está associado a todas as fazendas com as quais ele trabalha.
+Por exemplo, Natasha Jones e Miguel Reyes são veterinários que atendem fazendas na área. Natasha atende a área de Seattle e Miguel atende a área de Kent. No aplicativo Customer Engagement, as fazendas são representadas como clientes e os veterinários são representados como pessoas de contato. Um único registro de **contato** de Natasha está associado a todas as fazendas com as quais ela trabalha. Da mesma forma, um único registro **Contato** de Miguel é associado a todas as fazendas com as quais Miguel trabalha.
 
-Esses relacionamentos estão registrados na tabela **Contato do participante**. Você pode encontrar as informações nos formulários integrados:
+Esses relacionamentos estão registrados na tabela **Contato do participante**. Você pode localizar as informações nas páginas **Conta**, **Contato** e **Fornecedor** prontos para uso​:
 
-+ No formulário **Conta**, há uma guia chamada **Contatos associados**. Use essa guia para associar um ou mais contatos à linha **Conta**. Neste formulário, você atribui uma pessoa de contato a uma organização. Depois de atribuir os contatos, você pode escolher um como contato principal para essa conta. No formulário **Criação rápida**, você pode selecionar apenas uma pessoa de contato. O comportamento é o mesmo que ocorre quando você usa o formulário **Fornecedor** e o tipo de registro é **Organização**.
-+ No formulário **Contato**, em que a linha é um cliente, fornecedor ou ambos (um contato distribuído), há uma guia chamada **Contatos associados**. Use essa guia para associar um ou mais contatos. Nesse formulário, você atribui uma pessoa de contato a um cliente ou fornecedor B2C. Depois de atribuir os contatos, você pode escolher um como contato principal. No formulário **Criação rápida**, você pode selecionar apenas uma pessoa de contato.
-+ No formulário **Contato**, em que a linha é uma pessoa de contato (um contato não distribuído), há uma guia chamada **Contatos associados**. Use essa guia para associar um ou mais clientes ou fornecedores. Nesse formulário, você atribui um cliente ou fornecedor a uma pessoa de contato subjacente. O cliente ou fornecedor pode ser uma organização, uma pessoa ou ambos. Você pode escolher somente um valor dos quatro campos em um determinado momento.
++ Na página **Conta**, você pode usar a guia **Contatos Associados** para associar um ou mais contatos à linha **Conta**. Dessa forma, você atribui pessoas de contato a uma organização. Você poderá selecionar um contato como o contato principal da conta. Se você usar a página **Criação rápida**, só poderá selecionar uma pessoa de contato. O comportamento é o mesmo quando você usa a página **Fornecedor** e o tipo de registro é **Organização**.
++ Na página **Contato**, quando a linha é um cliente, um fornecedor ou ambos (um contato distribuído), você pode usar a guia **Contatos Associados** para associar um ou mais contatos. Assim, você atribui pessoas de contato a um cliente ou fornecedor B2C. Você pode selecionar um contato como o contato principal. Se você usar a página **Criação rápida**, só poderá selecionar uma pessoa de contato.
++ Na página **Contato**, quando a linha é uma pessoa de contato (um contato não distribuído), você pode usar a guia **Organizações Associadas** para associar um ou mais clientes ou fornecedores. Assim, você atribui clientes ou fornecedores a uma pessoa de contato subjacente. O cliente ou fornecedor pode ser uma organização, uma pessoa ou ambos. Você pode selecionar um valor em apenas um dos quatro campos de cada vez:
 
-    ![Guia Organizações associadas](media/party-gab-image3.png)
+    + Se você selecionar um valor no campo **ID do participante**, o contato subjacente será atribuído a todas as funções do participante selecionado.
+    + Se você selecionar um valor no campo **Contato Associado**, estará selecionando um contato distribuído do tipo **Pessoa**.
+    + Se você selecionar um valor no campo **Conta Associada** ou **Fornecedor Associado**, estará selecionando uma organização.
 
-    + Se você selecionar **ID do participante**, o contato subjacente será atribuído a todas as funções do participante selecionado.
-    + Se você selecionar **Contato associado**, estará selecionando um contato distribuído do tipo pessoa.
-    + Se você selecionar **Conta associada** ou **Fornecedor**, estará selecionando uma organização.
+    ![Guia Organizações Associadas na página Contato](media/party-gab-image3.png)
 
-    Independentemente da sua escolha, a associação é criada no nível do participante e se aplica a todas as funções do participante e armazenada na entidade "Contato do participante".
+    Independentemente da sua seleção, a associação é criada no nível do participante, ela se aplica a todas as funções do participante e ela é armazenada na entidade **Contato do participante**.
 
-> [!Note]
-> O nome de exibição da tabela **Contato do participante** no aplicativo de engajamento do cliente é **Contato do cliente/fornecedor**.
+> [!NOTE]
+> O nome de exibição da tabela **Contato do participante** no aplicativo Customer Engagement é **Contato do Cliente/Fornecedor**.
 
-Ao abrir uma linha **Contato** em que **É Cliente** está definido como **Não** e **É Fornecedor** está definido como **Não**, você verá a guia **Organizações associadas**. Use essa guia para associar um ou mais clientes ou organizações de fornecedores ao contato.
+Quando você abre uma linha **Contato** em que os campos **É Cliente** e **É Fornecedor** estão definidos como **Não**, a guia **Organizações Associadas** é mostrada. Use esta guia para associar uma ou mais organizações de clientes ou fornecedores ao contato.
 
-Ao abrir uma linha **Contato** em que **É Cliente** está definido como **Sim** ou **É Fornecedor** está definido como **Sim**, você verá a guia **Contatos**. Use essa guia para associar um ou mais clientes ou organizações de fornecedores aos contatos.
+Quando você abre uma linha **Contato** em que o campo **É Cliente** ou **É Fornecedor** está definido como **Sim**, a guia **Contatos Associados** é mostrada. Use essa guia para associar um ou mais contatos.
 
-## <a name="postal-address"></a>Endereço postal
+## <a name="postal-addresses"></a>Endereços postais
 
-Uma nova guia denominada **Endereços** foi apresentada nos formulários **Conta**, **Contato** e **Fornecedor**. A coluna **Endereços** oferece suporte aos endereços N usando uma grade, conforme exibido nesta imagem:
+Uma nova guia **Endereços** foi apresentada nas páginas **Conta**, **Contato** e **Fornecedor**. Esta guia dá suporte a vários endereços postais usando uma grade, conforme mostrado na ilustração a seguir.
 
-![Grade para endereço postal](media/party-gab-image4.png)
+![Grade para endereços postais](media/party-gab-image4.png)
 
-+ A coluna **Funções de endereços postais** indica a finalidade do endereço.
-+ A coluna **É Principal** indica o endereço principal.
-+ A coluna **Número do endereço** indica a ordem do endereço.
-+ O botão **Adicionar endereço** permite que você crie um endereço. Você pode criar quantos endereços desejar.
+A grade inclui as seguintes colunas:
 
-Os campos **Endereço 1** e **Endereço 2** na guia **Resumo** do formulário **Conta** correspondem aos endereços **Entrega** e **Fatura**, respectivamente.
++ **Funções de endereços postais** – A finalidade do endereço postal.
++ **É Principal** – um valor que indica se o endereço é o endereço principal.
++ **Número do endereço** – a ordem de endereço.
 
-![Guia Resumo para endereço postais](media/party-gab-image5.png)
+Você pode usar o botão **Novo Endereço** acima da grade para criar o número de endereços postais desejados.
 
-Os campos **Endereço 1**, **Endereço 2** e **Endereço 3** na guia **Resumo** do formulário **Contato** correspondem aos endereços de **Negócios**, **Entrega** e **Fatura**, respectivamente.
+Os campos **Endereço 1** e **Endereço 2** na guia **Resumo** da página **Conta** correspondem aos endereços **Entrega** e **Fatura**, respectivamente.
 
-## <a name="electronic-address"></a>Endereço eletrônico
+![Guia Resumo para endereços postais](media/party-gab-image5.png)
 
-Uma nova guia denominada **Endereços eletrônicos** foi apresentada nos formulários **Conta**, **Contato** e **Fornecedor**. A coluna **Endereços** oferece suporte aos endereços N usando uma grade, conforme exibido nesta imagem:
+Os campos **Endereço 1**, **Endereço 2** e **Endereço 3** na guia **Resumo** da página **Contato** correspondem aos endereços de **Negócios**, **Entrega** e **Fatura**, respectivamente.
 
-![Grade para endereço eletrônico](media/party-gab-image6.png)
+## <a name="electronic-addresses"></a>Endereços eletrônicos
 
-+ A coluna **Tipo** indica o tipo de endereço.
-+ A coluna **É Principal** indica o endereço principal.
-+ A coluna **Finalidade** indica a finalidade do endereço eletrônico.
-+ O botão **Adicionar endereço eletrônico** permite que você crie um endereço. Você pode criar quantos endereços desejar.
+Uma nova guia **Endereços Eletrônicos** foi apresentada nas páginas **Conta**, **Contato** e **Fornecedor**. Esta guia dá suporte a vários endereços eletrônicos usando uma grade, conforme mostrado na ilustração a seguir.
 
-Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximos lançamentos, todos os campos de endereço eletrônico e postal serão removidos de outras guias, por exemplo, as guias **Resumo** e **Detalhes**.
+![Grade para endereços eletrônicos](media/party-gab-image6.png)
 
-## <a name="setup-instructions"></a>Instruções de configuração
+A grade inclui as seguintes colunas:
 
-Se você for um cliente de gravação dupla existente, estas instruções de configuração serão necessárias. Caso contrário, você poderá ignorar esta seção.
++ **Tipo** – o tipo de endereço eletrônico.
++ **É Principal** – um valor que indica se o endereço é o endereço principal.
++ **Finalidade** – a finalidade do endereço eletrônico.
 
-1. Interrompa os seguintes mapas, pois eles não são mais necessários. Em vez disso, execute o mapa Contatos V2 (msdyn_contactforparties).
+Você pode usar o botão **Novo Endereço Eletrônico** acima da grade para criar o número de endereços desejados.
+
+Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximos lançamentos, todos os campos de endereço eletrônico e postal serão removidos de outras guias (por exemplo, as guias **Resumo** e **Detalhes**).
+
+## <a name="setup"></a>Configurar
+
+1. Instale a versão mais recente (2.2.2.60 ou posterior) da [solução de orquestração de aplicativos de gravação dupla](https://aka.ms/dual-write-app).
+
+2. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab).
+
+3. Interrompa os seguintes mapas, pois eles não são mais necessários. Execute o mapa `Contacts V2 (msdyn_contactforparties)`.
 
     + Contatos V2 do CDS e Contatos (refere-se aos contatos de clientes)
     + Contatos V2 do CDS e Contatos (refere-se aos contatos de fornecedores)
 
-2. Os mapeamentos de entidade abaixo são atualizados de acordo com os recursos do participante, portanto, a versão mais recente deve ser aplicada a esses mapeamentos.
+4. Os mapeamentos de entidade abaixo são atualizados de acordo com os recursos do participante, portanto, a versão mais recente deve ser aplicada a esses mapeamentos.
 
-Mapa | Atualize para esta versão | Alterações
----|---|---
-Clientes V3 (contas) | 1.0.0.5 |Remoção de PartyNumber e de outros campos relacionados ao participante, como nome, informações pessoais, campos de endereço postal, campo de endereço de contato eletrônico etc.
-Clientes V3 (contatos) | 1.0.0.5 | Remoção de PartyNumber e de outros campos relacionados ao participante, como nome, informações pessoais, campos de endereço postal, campo de endereço de contato eletrônico etc.
-Fornecedores V2 (msdyn_vendors) | 1.0.0.6 | Remoção de PartyNumber e de outros campos relacionados ao participante, como nome, informações pessoais, campos de endereço postal, campo de endereço de contato eletrônico etc.
-Cabeçalho de cotação de venda do CDS (cotações) | 1.0.0.6 | Substituição da pessoa de contato pela referência ContactforParty.
-Cabeçalhos de fatura de venda V2 (faturas) | 1.0.0.4 | Substituição da pessoa de contato pela referência ContactforParty.
-Cabeçalhos de ordens de vendas do CDS (salesorders) | 1.0.0.5 | Substituição da pessoa de contato pela referência ContactforParty.
-Contatos V2 (msdyn_contactforparties) | 1.0.0.2 | Este é um novo mapa. Se você tiver uma versão antiga da solução do participante, certifique-se de atualizar este mapa para a versão mais recente, conforme mencionado.
-Locais de endereço postal de parceiros do CDS (msdyn_partypostaladdresses) | 1.0.0.1  | Este é um novo mapa adicionado como parte da versão antiga da visualização preliminar do participante.
-Histórico de endereço postal V2 do CDS (msdyn_postaladdresses) | | Este é um novo mapa adicionado como parte da versão antiga da visualização preliminar do participante.
-Locais de endereço postal de parceiros do CDS (msdyn_postaladdresscollections) | | Este é um novo mapa adicionado como parte da versão antiga da visualização preliminar do participante.
-Contatos do participante V3 (msdyn_partyelectronicaddresses) | | Este é um novo mapa adicionado como parte desta versão.
+    Mapa | Atualize para esta versão | Alterações
+    ---|---|---
+    `CDS Parties (msdyn_parties)`| 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Contacts V2 (msdyn_contactforparties)`| 1.0.0.5 | Este é um novo mapa adicionado como parte desta versão.
+    `Customers V3 (accounts)` | 1.0.0.5 |Remoção de `PartyNumber` e de outros campos relacionados ao participante, como os campos de nome, detalhes pessoais, endereço postal e endereço de contato eletrônico.
+    `Customer V3 (contacts)` | 1.0.0.5 | Remoção de `PartyNumber` e de outros campos relacionados ao participante, como os campos de nome, detalhes pessoais, endereço postal e endereço de contato eletrônico.
+    `Vendors V2 (msdyn_vendors)` | 1.0.0.6 | Remoção de `PartyNumber` e de outros campos relacionados ao participante, como os campos de nome, detalhes pessoais, endereço postal e endereço de contato eletrônico.
+    `CDS Sales quotation headers (quotes)` | 1.0.0.7 | Substituição da pessoa de contato pela referência `ContactforParty`.
+    `Sales invoice headers V2 (invoices)` | 1.0.0.4 | Substituição da pessoa de contato pela referência `ContactforParty`.
+    `CDS Sales order headers (salesorders)` | 1.0.0.5 | Substituição da pessoa de contato pela referência `ContactforParty`.
+    `CDS Party postal address locations (msdyn_partypostaladdresses)` | 1.0.0.1  | Este é um novo mapa adicionado como parte desta versão.
+    `CDS postal address history V2 (msdyn_postaladdresses)` | 1.0.0.1 | Este é um novo mapa adicionado como parte desta versão.
+    `CDS postal address locations (msdyn_postaladdresscollections)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Party Contacts V3 (msdyn_partyelectronicaddresses)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Complimentary Closings ( msdyn_compliemntaryclosings)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Decision making roles (msdyn_decisionmakingroles)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Loyalty levels (msdyn_loyaltylevels)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Contact person titles (msdyn_salescontactpersontitles)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Personal character types (msdyn_personalcharactertypes)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Salutations (msdyn_salutations)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+    `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
+
+5. Antes de executar os mapas acima, você deve atualizar as chaves de integração manualmente, conforme descrito nas etapas a seguir. Selecione **Salvar**.
+
+    | Mapa | Chaves |
+    |-----|------|
+    | Conta |  accountnumber [Account Number]<br>msdyn_company.cdm_companycode [Company (Company Code)] |
+    | Contato | msdyn_contactpersonid [Account Number/Contact Person ID]<br>msdyn_company.cdm_companycode [Company (Company Code)] |
+    | Contato para cliente/fornecedor | msdyn_contactforpartynumber [contato do número do participante]<br>msdyn_associatedcompanyid.cdm_companycode [empresa associada (código da empresa)] |
+    | Fornecedor | msdyn_vendoraccountnumber [Número de conta do fornecedor]<br>msdyn_company.cdm_companycode [Company (Company Code)]|
+
+6. No Dataverse, os limites de caracteres de regras de detecção de duplicidades aumentaram de 450 para 700 caracteres. Esse limite permite adicionar uma ou mais chaves às regras de detecção de duplicidades. Expanda a regra de detecção de duplicidades para a tabela **Contas**, definindo os campos a seguir.
+
+    | Campo | Alíquota |
+    |-------|-------|
+    | Organização | Contas com o mesmo nome de conta. |
+    | Descrição | Detecta registros de conta que têm o mesmo valor no atributo Nome da Conta. |
+    | Tipo de registro básico | Conta |
+    | Tipo de registro correspondente | Conta |
+    | Nome da conta (campo) | Correspondência exata |
+    | Empresa (campo) | Correspondência exata |
+    | Tipo de relacionamento (campo) | Correspondência exata |
+    | ID do participante (campo) | Correspondência exata |
+    | Selecionar (campo) | (em branco) |
+
+    ![Regra de duplicação para contas](media/duplicate-rule-1.PNG)
+
+7. Expanda a regra de detecção de duplicidades para a tabela **Contatos**, definindo os campos a seguir.
+
+    | Campo | Alíquota |
+    |-------|-------|
+    | Organização | Contatos com o mesmo nome e sobrenome. |
+    | Descrição | Detecta registros de contato que têm os mesmos valores nos campos Nome e Sobrenome. |
+    | Tipo de registro básico | Contato |
+    | Tipo de registro correspondente | Contato |
+    | Nome (campo) | Correspondência exata |
+    | Sobrenome (campo) | Correspondência exata |
+    | Empresa (campo) | Correspondência exata |
+    | ID do participante (campo) | Correspondência exata |
+    | Selecionar (campo) | (em branco) |
+
+    ![Regra de duplicação para contatos](media/duplicate-rule-2.PNG)
+
+8. Se você for um usuário de gravação dupla existente, siga as instruções em [Atualizar para o modelo de catálogo de endereços global e de participantes](upgrade-party-gab.md) e atualize seus dados.
+
+9. Execute os mapas na ordem a seguir. Se você receber um erro indicando "Falha ao validar projeto. Campo de destino ausente... ", abra o mapa e selecione **Atualizar Tabelas**. Em seguida, execute o mapa.
+
+    Aplicativo Finance and Operations | Aplicativo Customer Engagement  
+    ----------------------------|------------------------
+    [Participantes do CDS](mapping-reference.md#220) | msdyn_parties
+    [Localizações de endereço postal do CDS](mapping-reference.md#234) | msdyn_postaladdresscollections
+    [Histórico de endereço postal do CDS V2](mapping-reference.md#235) | msdyn_postaladdresses
+    [Localizações de endereço postal do participante do CDS](mapping-reference.md#233) | msdyn_partypostaladdresses
+    [Contatos do participante V3](mapping-reference.md#236) | msdyn_partyelectronicaddresses
+    [Clientes V3](mapping-reference.md#101) | contas
+    [Clientes V3](mapping-reference.md#116) | contatos
+    [Fornecedores V2](mapping-reference.md#202) | msdyn_vendors
+    [Títulos da pessoa de contato](mapping-reference.md#223) | msdyn_salescontactpersontitles
+    [Fechamentos complementares](mapping-reference.md#222) | msdyn_complimentaryclosings
+    [Saudações](mapping-reference.md#228) | msdyn_salutations
+    [Funções de tomada de decisão](mapping-reference.md#224) | msdyn_decisionmakingroles
+    [Funções de trabalho de emprego](mapping-reference.md#225) | msdyn_employmentjobfunctions
+    [Níveis de fidelidade](mapping-reference.md#226) | msdyn_loyaltylevels
+    [Tipos de caracteres pessoais](mapping-reference.md#227) | msdyn_personalcharactertypes
+    [Contatos V2](mapping-reference.md#221) | msdyn_contactforparties
+    [Cabeçalho de cotação de venda CDS](mapping-reference.md#215) | cotações
+    [Cabeçalhos de ordens de venda CDS](mapping-reference.md#217) | salesorders
+    [Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas
+
+> [!Note]
+> O mapa `CDS Contacts V2 (contacts)` é o mapa interrompido na etapa 1. Ao tentar executar outros mapas, esses dois mapas podem aparecer na lista de dependentes. Não execute esses mapas.
+
+> [!Note]
+> Se a solução de catálogo de endereços global e de participantes estiver instalada, você deverá desabilitar o plug-in denominado `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Se você desinstalar a solução de catálogo de endereços global e de participantes, deverá reativar o plug-in.
+
+> [!Note]
+> O campo `msdyn_*partynumber` (um campo de texto de linha única) incluído nas tabelas **Conta**, **Contato** e **Fornecedor** não devem ser usadas no futuro. O nome da etiqueta tem um prefixo **(Preterido)** para fins de clareza. Em vez disso, use o campo **msdyn_partyid**. O campo é uma pesquisa na tabela **msdyn_party**.
+
+> Nome da Tabela | Campo antigo | Novo campo
+> --------|-------|--------
+> Conta | `msdyn_partynumber` | `msdyn_partyid`
+> Contato | `msdyn_partynumber` | `msdyn_partyid`
+> msdyn_vendor | `msdyn_vendorpartynumber` | `msdyn_partyid`
 
 ## <a name="templates"></a>Modelos
 
 Um conjunto de mapas de tabelas funcionam juntos para a interação do participante com o catálogo de endereços global, conforme mostrado na tabela a seguir.
 
-Aplicativo Finance and Operations | Aplicativo Customer Engagement     | descrição
-----------------------------|-----------------------------|------------
-[Títulos da pessoa de contato](mapping-reference.md#223) | msdyn_salescontactpersontitles |
-[Clientes V3](mapping-reference.md#101) | contas |
-[Clientes V3](mapping-reference.md#116) | contatos |
-[Participantes do CDS](mapping-reference.md#220) | msdyn_parties |
-[Localizações de endereço postal do participante do CDS](mapping-reference.md#233) | msdyn_partypostaladdresses |
-[Histórico de endereço postal do CDS V2](mapping-reference.md#235) | msdyn_postaladdresses |
-[Localizações de endereço postal do CDS](mapping-reference.md#234) | msdyn_postaladdresscollections |
-[Cabeçalho de cotação de venda CDS](mapping-reference.md#215) | cotações |
-[Cabeçalhos de ordens de venda CDS](mapping-reference.md#217) | salesorders |
-[Fechamentos complementares](mapping-reference.md#222) | msdyn_complimentaryclosings |
-[Contatos V2](mapping-reference.md#221) | msdyn_contactforparties |
-[Funções de tomada de decisão](mapping-reference.md#224) | msdyn_decisionmakingroles |
-[Funções de trabalho de emprego](mapping-reference.md#225) | msdyn_employmentjobfunctions |
-[Níveis de fidelidade](mapping-reference.md#226) | msdyn_loyaltylevels |
-[Contatos do participante V3](mapping-reference.md#236) | msdyn_partyelectronicaddresses |
-[Tipos de caracteres pessoais](mapping-reference.md#227) | msdyn_personalcharactertypes |
-[Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas |
-[Saudações](mapping-reference.md#228) | msdyn_salutations |
-[Fornecedores V2](mapping-reference.md#202) | msdyn_vendors |
+| Aplicativo Finance and Operations | Aplicativo Customer Engagement | Descrição |
+|----------------------------|-------------------------|-------------|
+| [Títulos da pessoa de contato](mapping-reference.md#223) | msdyn\_salescontactpersontitles |
+| [Clientes V3](mapping-reference.md#101) | contas |
+| [Clientes V3](mapping-reference.md#116) | contatos |
+| [Participantes do CDS](mapping-reference.md#220) | msdyn\_parties |
+| [Localizações de endereço postal do participante do CDS](mapping-reference.md#233) | msdyn\_partypostaladdresses |
+| [Histórico de endereço postal do CDS V2](mapping-reference.md#235) | msdyn\_postaladdresses |
+| [Localizações de endereço postal do CDS](mapping-reference.md#234) | msdyn\_postaladdresscollections |
+| [Cabeçalho de cotação de venda CDS](mapping-reference.md#215) | cotações |
+| [Cabeçalhos de ordens de venda CDS](mapping-reference.md#217) | salesorders |
+| [Fechamentos complementares](mapping-reference.md#222) | msdyn\_complimentaryclosings |
+| [Contatos V2](mapping-reference.md#221) | msdyn\_contactforparties |
+| [Funções de tomada de decisão](mapping-reference.md#224) | msdyn\_decisionmakingroles |
+| [Funções de trabalho de emprego](mapping-reference.md#225) | msdyn\_employmentjobfunctions |
+| [Níveis de fidelidade](mapping-reference.md#226) | msdyn\_loyaltylevels |
+| [Contatos do participante V3](mapping-reference.md#236) | msdyn\_partyelectronicaddresses |
+| [Tipos de caracteres pessoais](mapping-reference.md#227) | msdyn\_personalcharactertypes |
+| [Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas |
+| [Saudações](mapping-reference.md#228) | msdyn\_salutations |
+| [Fornecedores V2](mapping-reference.md#202) | msdyn\_vendors |
 
 Para obter mais informações, consulte [Referência de mapeamento de gravação dupla](mapping-reference.md).
+
+## <a name="known-issues-and-limitations"></a>Limitações e problemas conhecidos
+
++ Em aplicativos do Finance and Operations, quando você cria um cliente junto com o endereço e o salva, o endereço pode não ser sincronizado com a tabela **Endereço**. Isso ocorre devido a um problema de sequenciamento de plataforma de gravação dupla. Para solucionar o problema, crie o cliente primeiro e salve-o. Em seguida, adicione o endereço.
++ Em aplicativos dos Finance and Operations, quando um registro de cliente tem um endereço principal e você cria um novo contato para esse cliente, o registro de contato herda um endereço principal do registro de cliente associado. Isso ocorre para o contato do fornecedor. O Dataverse no momento não dá suporte a esse comportamento. Se a gravação dupla estiver habilitada, os contatos de clientes herdados com um endereço principal do aplicativo Finance and Operations serão sincronizados com o Dataverse junto com o endereço.
++ Os endereços eletrônicos da tabela `msdyn_partyelectronicaddress` não fluem para os campos de endereço eletrônico nas tabelas **Conta** e **Contato**. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nas tabelas **Conta** e **Contato** não serão substituídos.
++ Os endereços eletrônicos definidos na guia endereço eletrônico dos formulários **Conta**, **Contato** e **Fornecedor** são obtidos da tabela `msdyn_partyelectronicaddress`. Essas informações não fluem para as transações associadas, como ordem de venda, cotação e ordem de compra. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nos registros de conta e contato continuarão a funcionar em transações como ordem de venda, cotação e ordem de compra.
++ Em aplicativos do Finance and Operations, você pode criar um registro de contato do formulário **Adicionar Contato**. Quando você tenta criar um novo contato no formulário **Exibir Contato**, a ação falha. Este é um problema conhecido.
+
+    ![Problema conhecido com Adicionar Contato](media/party-gab-contact-issue.png)
+
++ A **sincronização inicial** não dá suporte aos campos de tempo **Disponível de** e **Disponível até** em **ContactForParty** porque DIXF converte o valor em uma cadeia de caracteres em vez de um inteiro. A conversão dispara o erro `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
++ Quando um endereço postal é usado por mais de um motivo (por exemplo, endereço de comunicação comercial e endereço de cobrança), ele deve aparecer como `Business;Invoice`, conforme mostrado na imagem a seguir. Se você adicionar um espaço entre os valores, obterá um erro.
+
+    ![Problema conhecido com o endereço](media/party-gab-address-issue.png)
+
++ Não é possível inserir um endereço postal com data posterior usando um aplicativo do Finance and Operations com dupla gravação porque o Dataverse não dá suporte à efetivação de data. Se você inserir um endereço postal com data futura usando um aplicativo do Finance and Operations, ele será totalmente sincronizado com o Dataverse e você verá logo o endereço na interface do usuário. Todas as atualizações deste registro resultarão em um erro, pois ele tem data futura e não atual no aplicativo do Finance and Operations.

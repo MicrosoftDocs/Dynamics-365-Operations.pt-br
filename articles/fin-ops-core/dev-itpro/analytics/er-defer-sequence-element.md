@@ -2,7 +2,7 @@
 title: Adiar a execução de elementos de sequência nos formatos de ER
 description: Este tópico explica como adiar a execução de um elemento de sequência em um formato de ER (Relatório eletrônico).
 author: NickSelin
-ms.date: 03/17/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: cdcbc828fadce641cbee2cc6135be819a03275c9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a7904924d1c2830287e26eb9fb71bd9a03f210d9
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894091"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944500"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Adiar a execução de elementos de sequência nos formatos de ER
 
@@ -57,14 +57,14 @@ Se você ainda não tiver concluído o exemplo no tópico [Adiar a execução de
 
 | Descrição do conteúdo            | Nome do arquivo |
 |--------------------------------|-----------|
-| Configuração do modelo de dados de ER    | [Modelo para conhecer elementos adiados.versão.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Configuração de mapeamento do modelo de ER | [Mapeamento para conhecer elementos adiados.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuração do modelo de dados de ER    | [Modelo para conhecer elementos adiados.versão.1.xml](https://download.microsoft.com/download/7/6/0/760933ca-4ac3-4f50-bc0c-c35e596ee066/Modeltolearndeferredelements.version.1.xml) |
+| Configuração de mapeamento do modelo de ER | [Mapeamento para conhecer elementos adiados.versão.1.1.xml](https://download.microsoft.com/download/c/9/c/c9c4b9dd-b700-4385-a087-a84ce9fc1d0f/Mappingtolearndeferredelements.version.1.1.xml) |
 
 Antes de começar, você também deve baixar e salvar a configuração a seguir do exemplo da solução ER.
 
 | Descrição do conteúdo     |Nome do arquivo |
 |-------------------------|----------|
-| Configuração de formato ER | [Formato para conhecer sequências adiadas.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Configuração de formato ER | [Formato para conhecer sequências adiadas.versão.1.1.xml](https://download.microsoft.com/download/0/f/5/0f55c341-8285-4d92-a46d-475d9a010927/Formattolearndeferredsequences.version.1.1.xml) |
 
 ### <a name="import-the-sample-er-configurations"></a>Importar o exemplo de configurações de ER
 
@@ -169,7 +169,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
 1. Na página **Designer de formato**, selecione **Executar**.
 2. Baixe o arquivo oferecido pelo navegador da Web e abra-o para revisão.
 
-    ![Arquivo baixado](./media/ER-DeferredSequence-Run.png)
+    ![Arquivo de relatório de exemplo baixado](./media/ER-DeferredSequence-Run.png)
 
 Observe que a linha de resumo 22 apresenta a soma dos valores de imposto para as transações processadas. Como o formato está configurado para usar a associação **model.Data.Summary.Total** de modo a retornar essa soma, a soma é calculada chamado a agregação **TotalSum** da fonte de dados **Agrupados** do tipo *GroupBy* que usa o mapeamento de modelo. Para calcular essa agregação, o mapeamento de modelos itera em todas as transações que foram selecionadas na fonte de dados **Filtrados**. Ao comparar os tempos de execução das linhas 21 e 22, você pode determinar que o cálculo da soma levou 10 milissegundos (ms). Ao comparar os tempos de execução das linhas 2 e 21, você pode determinar que a geração de todas as linhas transacionais levou 7 ms. Portanto, foi necessário um total de 17 ms.
 
@@ -202,7 +202,7 @@ Se o volume de transações for muito maior do que o volume no exemplo atual, o 
 12. Selecione **Salvar** e **Executar**.
 13. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredSequence-Run1.png)
+    ![Arquivo baixado - valores de imposto somados](./media/ER-DeferredSequence-Run1.png)
 
     A linha 21 contém o total acumulado de valores de imposto que é calculado para todas as transações processadas usando a saída gerada como uma fonte de dados. Essa fonte de dados é iniciada desde o começo do relatório e continua até a última transação de imposto. A linha 22 contém a soma dos valores de imposto para todas as transações processadas que são calculadas no mapeamento de modelo usando a fonte de dados do tipo *GroupBy*. Observe que esses valores são iguais. Portanto, a soma baseada na saída pode ser usada no lugar de **GroupBy**. Ao comparar os tempos de execução das linhas 2 e 21, você pode determinar que a geração de todas as linhas transacionais e a soma levou 9 ms. Portanto, no que diz respeito à geração de linhas detalhadas e à soma dos valores de imposto, o formato modificado é aproximadamente duas vezes mais rápido do que o formato original.
 
@@ -211,7 +211,7 @@ Se o volume de transações for muito maior do que o volume no exemplo atual, o 
 16. Selecione **Salvar** e **Executar**.
 17. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredSequence-Run2.png)
+    ![Arquivo baixado com fórmula editada](./media/ER-DeferredSequence-Run2.png)
 
     Observe que o total acumulado dos valores de imposto na última linha dos detalhes da transação agora é igual à soma na linha de resumo.
 
@@ -224,7 +224,7 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredSequence-Run3.png)
+    ![Arquivo baixado para somar no cabeçalho do relatório](./media/ER-DeferredSequence-Run3.png)
 
     Observe que a soma dos valores de imposto na linha de resumo 2 agora é igual a 0 (zero), pois a soma agora é calculada com base na saída gerada. Quando a linha 2 é gerada, a saída gerada ainda não contém linhas com detalhes da transação. É possível configurar esse formato para adiar a execução do elemento de sequência **Relatório\\Linhas\\Resumo** até que o elemento de sequência **Relatório\\Linhas\\Registro** tenha sido executado para todas as transações de imposto.
 
@@ -238,7 +238,7 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado](./media/ER-DeferredSequence-Run4.png)
+    ![Arquivo baixado - execução adiada](./media/ER-DeferredSequence-Run4.png)
 
     O elemento de sequência **Relatório\\Linhas\\Resumo** agora é executado somente depois que todos os outros itens que estão aninhados sob seu elemento pai, **Relatório\\Linhas**, tiverem sido executados. Portanto, ele é executado depois que o elemento de sequência **Relatório\\Linhas\\Registro** tiver sido executado para todas as transações de imposto da fonte de dados **model.Data.List**. Os tempos de execução das linhas 1, 2 e 3, e da última linha, 22, revelam esse fato.
 

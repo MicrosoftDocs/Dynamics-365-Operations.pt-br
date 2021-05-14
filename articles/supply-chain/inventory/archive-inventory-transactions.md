@@ -10,22 +10,20 @@ ms.technology: ''
 ms.search.form: InventTransArchiveProcessForm
 audience: Application User
 ms.reviewer: kamaybac
-ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b740da1a8a349f4a1a80b41bf717c388fd3db0c0
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 0526eb42a886817d50e1ecfd252a6e971875ba92
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881823"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956049"
 ---
 # <a name="archive-inventory-transactions"></a>Arquivo-morto de transações de estoque
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Com o tempo, a tabela de transações de estoque (`InventTrans`) continuará a crescer e consumir mais espaço no banco de dados. Portanto, as consultas feitas na tabela ficarão mais lentas gradualmente. Este tópico descreve como você pode usar o recurso *Arquivo-morto de transações de estoque* para arquivar dados sobre transações de estoque para ajudar a melhorar o desempenho do sistema.
 

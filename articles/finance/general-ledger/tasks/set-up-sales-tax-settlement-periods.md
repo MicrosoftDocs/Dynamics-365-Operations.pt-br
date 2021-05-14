@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd11068a31b5324d87416e7c00f75a59743f695a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 83587df3963d215fec020150e6b707e431c1b6eb
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813498"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944768"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>Configurar períodos de liquidação do imposto
 
@@ -37,9 +37,7 @@ Esta tarefa usa a empresa de demonstração USMF.
 7. No campo **Termos de pagamento**, selecione o registro desejado no menu suspenso. A autoridade do imposto sobre vendas relacionada pode ser configurada como um fornecedor e a liquidação do imposto sobre vendas criará uma nota fiscal de fornecedor aberta. Os Termos de pagamento definem a Data de vencimento para a fatura de fornecedor aberta.  
 8. Selecione o tipo de intervalos de período de liquidação.
 9. Insira o número das Unidades de intervalo de período por período. Por exemplo, um trimestre tem 3 meses.
-10. Marque ou desmarque o **Usar processamento em lotes para liquidação de imposto**. O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo. Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.  
-    > [!NOTE]
-    > No momento, isso não tem suporte na Espanha, no Japão e nos Países Baixos.
+10. Marque ou desmarque o **Usar processamento em lotes para liquidação de imposto**. O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo. Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.
 11. Marque ou desmarque a caixa de seleção **Impedir a geração de transações de impostos de contrapartida**. Por padrão, o sistema gera transações de impostos de contrapartida durante o processo de liquidação, o que pode causar um problema de desempenho se houver um grande número de transações de imposto durante um intervalo de período. Marque essa caixa de seleção para impedir a geração de transações de impostos de contrapartida.
 12. Expanda a guia **Intervalos de períodos**.
 13. Selecione **Adicionar**.

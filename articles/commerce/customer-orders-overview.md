@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: a310c7067b399fb35ccc8a1b17d8bd6822a27a62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820999"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936721"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordens de cliente no Ponto de Venda (PDV)
 
@@ -42,7 +42,7 @@ Antes de tentar usar a funcionalidade de ordem de cliente no PDV, conclua todas 
 
 ### <a name="configure-modes-of-delivery"></a>Configurar modos de entrega
 
-Para usar ordens de cliente, você deve configurar os modos de entrega que o canal de loja pode usar. Você deve definir pelo menos um modo de entrega que possa ser usado quando as linhas de ordem forem remetidas a um cliente de uma loja. Você também deve definir pelo menos um modo de entrega de retirada que possa ser usado quando as linhas de ordem forem retiradas na loja. Os modos de entrega são definidos na página **Modos de entrega** na sede do Commerce. Para obter mais informações sobre como configurar modos de entrega para canais do Commerce, consulte [Definir modos de entrega](https://docs.microsoft.com/dynamics365/commerce/configure-call-center-delivery#define-delivery-modes).
+Para usar ordens de cliente, você deve configurar os modos de entrega que o canal de loja pode usar. Você deve definir pelo menos um modo de entrega que possa ser usado quando as linhas de ordem forem remetidas a um cliente de uma loja. Você também deve definir pelo menos um modo de entrega de retirada que possa ser usado quando as linhas de ordem forem retiradas na loja. Os modos de entrega são definidos na página **Modos de entrega** na sede do Commerce. Para obter mais informações sobre como configurar modos de entrega para canais do Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
 
 ![Página Modos de entrega](media/customer-order-modes-of-delivery.png)
 
@@ -78,19 +78,19 @@ Antes de tentar criar ordens de cliente no PDV, você deve configurar os parâme
 - **Percentual de encargo de cancelamento** – Se um encargo tiver que ser aplicado quando uma ordem de cliente for cancelada, especifique o valor desse encargo.
 - **Código do encargo de cancelamento** – Especifique o código do encargo de Contas a receber que deve ser usado quando um encargo de cancelamento for aplicado a ordens de cliente canceladas por meio do PDV. O código do encargo define a lógica de lançamento financeiro para o encargo de cancelamento.
 - **Código do encargo de remessa** – Se a opção **Usar encargos automáticos avançados** estiver definida como **Sim**, essa configuração de parâmetro não terá efeito. Se essa opção estiver definida como **Não**, os usuários serão solicitados a inserir manualmente um encargo de remessa quando criarem ordens de cliente no PDV. Use esse parâmetro para mapear um código de encargo de Contas a receber que será aplicado às ordens quando os usuários inserirem um encargo de remessa. O código do encargo define a lógica de lançamento financeiro para o encargo de remessa.
-- **Usar encargos automáticos avançados** – Defina esta opção como **Sim** para usar encargos automáticos calculados pelo sistema quando ordens de cliente forem criadas no PDV. Esses encargos automáticos podem ser usados para calcular taxas de remessa e outros encargos específicos de ordens ou itens. Para obter mais informações sobre como configurar e usar encargos automáticos avançados, consulte [Encargos automáticos avançados de omnicanal](https://docs.microsoft.com/dynamics365/commerce/omni-auto-charges).
+- **Usar encargos automáticos avançados** – Defina esta opção como **Sim** para usar encargos automáticos calculados pelo sistema quando ordens de cliente forem criadas no PDV. Esses encargos automáticos podem ser usados para calcular taxas de remessa e outros encargos específicos de ordens ou itens. Para obter mais informações sobre como configurar e usar encargos automáticos avançados, consulte [Encargos automáticos avançados de omnicanal](./omni-auto-charges.md).
 
 ![Guia Ordens de cliente na página Parâmetros do Commerce](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Atualizar layouts da tela de transação no PDV
 
-Verifique se o [layout de tela](https://docs.microsoft.com/dynamics365/commerce/pos-screen-layouts) do PDV está configurado para oferecer suporte à criação e ao gerenciamento de ordens de cliente e se todas as operações de PDV necessárias estão configuradas. Veja a seguir algumas das operações de PDV recomendadas para oferecer suporte de forma correta à criação e ao gerenciamento de ordens de cliente:
+Verifique se o [layout de tela](./pos-screen-layouts.md) do PDV está configurado para oferecer suporte à criação e ao gerenciamento de ordens de cliente e se todas as operações de PDV necessárias estão configuradas. Veja a seguir algumas das operações de PDV recomendadas para oferecer suporte de forma correta à criação e ao gerenciamento de ordens de cliente:
 - **Remeter todos os produtos** – Esta operação é usada para especificar que todas as linhas no carrinho de transação serão remetidas a um destino.
 - **Remeter produtos selecionados** – Esta operação é usada para especificar que as linhas selecionadas no carrinho de transação serão remetidas a um destino.
 - **Retirar todos os produtos** – Esta operação é usada para especificar que todas as linhas no carrinho de transação serão retiradas em uma loja selecionada.
 - **Retirar produtos selecionados** – Esta operação é usada para especificar que as linhas selecionadas no carrinho de transação serão retiradas em uma loja selecionada.
 - **Executar todos os produtos** – Esta operação é usada para especificar que todas as linhas no carrinho de transação serão executadas. Se esta operação for usada no PDV, a ordem de cliente será convertida em uma transação cash-and-carry.
-- **Executar produtos selecionados** – Esta operação é usada para especificar que as linhas selecionadas no carrinho de transação estão sendo executadas pelo cliente no momento da compra. Essa operação é útil somente em um cenário de [ordem híbrida](https://docs.microsoft.com/dynamics365/commerce/hybrid-customer-orders).
+- **Executar produtos selecionados** – Esta operação é usada para especificar que as linhas selecionadas no carrinho de transação estão sendo executadas pelo cliente no momento da compra. Essa operação é útil somente em um cenário de [ordem híbrida](./hybrid-customer-orders.md).
 - **Cancelar ordem** – Esta operação é usada para procurar e recuperar ordens de cliente de modo que os usuários do PDV possam editar, cancelar ou executar operações relacionadas ao atendimento nessas ordens, conforme necessário.
 - **Alterar modo de entrega** – Esta operação pode ser usada para alterar rapidamente o modo de entrega das linhas que já foram configuradas para remessa, sem exigir que os usuários passem pelo fluxo "remeter todos os produtos" ou "remeter produtos selecionados" outra vez.
 - **Substituição de depósito** – Esta operação pode ser usada para alterar o valor de depósito que o cliente pagará pela ordem de cliente selecionada.
@@ -128,7 +128,7 @@ Verifique se o [layout de tela](https://docs.microsoft.com/dynamics365/commerce/
 As ordens de varejo criadas no canal de loja ou online podem ser canceladas e editadas por meio do PDV, conforme necessário.
 
 > [!IMPORTANT]
-> Nem todas as ordens de varejo podem ser editadas por meio do aplicativo de PDV. As ordens criadas em um canal de call center não poderão ser editadas por meio do PDV se a configuração [Habilitar conclusão de ordem](https://docs.microsoft.com/dynamics365/commerce/set-up-order-processing-options#enable-order-completion) estiver ativada para o canal de call center. Para garantir o processamento correto dos pagamentos, as ordens originadas em um canal de call center e que usam a funcionalidade Habilitar conclusão de ordem devem ser editadas por meio do aplicativo de call center na sede do Commerce.
+> Nem todas as ordens de varejo podem ser editadas por meio do aplicativo de PDV. As ordens criadas em um canal de call center não poderão ser editadas por meio do PDV se a configuração [Habilitar conclusão de ordem](./set-up-order-processing-options.md#enable-order-completion) estiver ativada para o canal de call center. Para garantir o processamento correto dos pagamentos, as ordens originadas em um canal de call center e que usam a funcionalidade Habilitar conclusão de ordem devem ser editadas por meio do aplicativo de call center na sede do Commerce.
 
 Na versão 10.0.17 e posterior, os usuários podem editar ordens qualificadas por meio do aplicativo de PDV, mesmo que a ordem seja parcialmente preenchida. No entanto, as ordens faturadas integralmente ainda não podem ser editadas por meio do PDV. Para habilitar esse recurso, ative o recurso **Editar ordens parcialmente atendidas no Ponto de Venda** no espaço de trabalho **Gerenciamento de recursos**. Se esse recurso não estiver habilitado, ou se você estiver usando a versão 10.0.16 ou anterior, os usuários só poderão editar ordens de cliente em PDV se a ordem estiver totalmente aberta. Se o recurso estiver habilitado, você poderá limitar as lojas que podem editar ordens preenchidas parcialmente. A opção para desativar esse recurso para lojas específicas pode ser configurada por meio do **Perfil de funcionalidade** na FastTab **Geral**.
 
@@ -153,7 +153,7 @@ Na versão 10.0.17 e posterior, os usuários podem editar ordens qualificadas po
 
 ## <a name="finalizing-the-customer-order-shipment-or-pickup-from-pos"></a>Finalizar a remessa ou retirada da ordem de cliente no PDV
 
-Após a criação de uma ordem, os itens serão retirados pelo cliente em uma loja ou remetidos, dependendo da configuração dessa ordem. Para obter mais informações sobre esse processo, consulte a documentação de [atendimento da ordem na loja](https://docs.microsoft.com/dynamics365/commerce/order-fulfillment-overview).
+Após a criação de uma ordem, os itens serão retirados pelo cliente em uma loja ou remetidos, dependendo da configuração dessa ordem. Para obter mais informações sobre esse processo, consulte a documentação de [atendimento da ordem na loja](./order-fulfillment-overview.md).
 
 ## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Fluxo de transações assíncronas para ordens de cliente
 

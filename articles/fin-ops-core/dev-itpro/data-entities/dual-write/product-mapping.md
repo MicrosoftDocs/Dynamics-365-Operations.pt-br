@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 3087ab8853b14308da9496eead7478822cec86b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750731"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941187"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -49,7 +49,7 @@ Os mapas de tabelas de gravação dupla de produtos foram desenvolvidos para tra
 
 As informações do produto contêm todos os dados relacionados ao produto e sua definição, como as dimensões do produto ou as dimensões de rastreamento e armazenamento. Como mostrado na tabela a seguir, é criada uma coleção de mapas de tabelas para sincronizar produtos e as informações relacionadas.
 
-Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365 | descrição
+Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365 | Descrição
 -----------------------|--------------------------------|---
 Produtos liberados V2 | msdyn\_sharedproductdetails | A tabela **msdyn\_sharedproductdetails** contém as colunas de aplicativos do Finance and Operations que definem o produto e que contêm as informações de gerenciamento e financeiras dele. 
 Produtos distintos liberados pelo Dataverse | Produto | A tabela **Produto** contém as colunas que definem o produto. Ela inclui produtos individuais (produto com o subtipo produto) e as grades de produtos. A tabela a seguir mostra os mapeamentos.
@@ -124,7 +124,7 @@ As dimensões do produto são características que identificam uma grade de prod
 
 Quando um produto têm dimensões do produto diferentes (por exemplo, um produto mestre têm Tamanho e Cor como dimensões do produto), cada produto distinto (ou seja, cada grade de produto) é definido como uma combinação dessas dimensões do produto. Por exemplo, o número do produto B0001 é uma camiseta extra pequena, e o número do produto B0002 é uma camiseta preta pequena. Nesse caso, as combinações existentes de dimensões do produto são definidas. Por exemplo, a camiseta do exemplo anterior pode ser extra pequena e preta, pequena e preta, média e preta ou grande e preta, mas não pode ser extra grande e preta. Ou seja, as dimensões do produto que produto mestre pode tomar são especificadas, e é possível liberar variações com base nesses valores.
 
-Para controlar as dimensões do produto que um produto mestre podem tomar, as tabelas a seguir são criadas e mapeadas no Dataverse para cada dimensão do produto. Para obter mais informações, consulte [Visão geral das informações do produto](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/pim/product-information).
+Para controlar as dimensões do produto que um produto mestre podem tomar, as tabelas a seguir são criadas e mapeadas no Dataverse para cada dimensão do produto. Para obter mais informações, consulte [Visão geral de informações do produto](../../../supply-chain/pim/product-information.md).
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 
@@ -138,7 +138,7 @@ Para controlar as dimensões do produto que um produto mestre podem tomar, as ta
 
 ## <a name="default-order-settings-and-product-specific-default-order-settings"></a>Configurações de ordem padrão e configurações de ordem padrão específicas ao produto
 
-As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. Essas informações estão disponíveis no Dataverse usando as configurações de ordem padrão e a entidade de configurações de ordem padrão específica do produto. Você pode ler mais informações sobre a funcionalidade no [tópico Configurações de ordem padrão](https://docs.microsoft.com/dynamics365/unified-operations/supply-chain/production-control/default-order-settings).
+As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. Essas informações estão disponíveis no Dataverse usando as configurações de ordem padrão e a entidade de configurações de ordem padrão específica do produto. Você pode ler mais informações sobre a funcionalidade no [tópico Configurações de ordem padrão](../../../../supply-chain/production-control/default-order-settings.md).
 
 [!include [product sizes](includes/InventProductDefaultOrderSettingsEntity-msdyn-productdefaultordersetting.md)]
 

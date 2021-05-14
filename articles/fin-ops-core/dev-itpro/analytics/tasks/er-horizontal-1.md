@@ -2,7 +2,7 @@
 title: ER Usar intervalos expansíveis horizontalmente para adicionar colunas dinamicamente em relatórios do Excel (Parte 1 - Criar formato)
 description: Este tópico descreve como configurar um formato de relatório eletrônico (ER) para gerar relatórios como arquivos de planilhas (Excel) OPENXML. (Parte 1)
 author: NickSelin
-ms.date: 08/29/2018
+ms.date: 04/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e9eef9ffaadbd7010129cc9850ded1ba67bc281d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: af3d7bdf6bf0de371fa0896bf5f668c98498640d
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745002"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944596"
 ---
 # <a name="er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1---design-format"></a>ER Usar intervalos expansíveis horizontalmente para adicionar colunas dinamicamente em relatórios do Excel (Parte 1 - Criar formato)
 
@@ -34,7 +34,7 @@ Para concluir essas etapas, primeiro você deve concluir essas guias de três ta
 
 "ER Usar dimensões financeiras como uma fonte de dados (Parte 2: Mapeamento de modelo)"
 
-Você também deve baixar e salvar uma cópia local do modelo com um relatório de exemplo encontrado aqui, [Relatório de Serviço Web de Dimensões Financeiras de Exemplo](https://go.microsoft.com/fwlink/?linkid=862266).
+Você também deve baixar e salvar uma cópia local do modelo com um relatório de exemplo encontrado aqui, [Relatório de Serviço Web de Dimensões Financeiras de Exemplo](https://download.microsoft.com/download/3/1/3/313e2090-bc0a-421f-bf96-c58da9bc0dea/SampleFinDimWsReport.xlsx).
 
 Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 022db87d0a26efa948a618344ed392ab638b8790
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 45c6b1e6e75645bb17ce4defa0bca0e6d2131b6e
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817980"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921256"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Manter roteiro de um modelo de produto
 
@@ -26,43 +26,43 @@ ms.locfileid: "5817980"
 
 Executar este procedimento exige que exista um modelo de configuração do produto. Este procedimento usa o modelo de alto-falante avançado da empresa de demonstração USMF para direcioná-lo pelo processo.
 
-
 ## <a name="add-a-route-operation"></a>Adicione uma operação de roteiro
-1. Clique em Definição de modelo de variante de produto.
-2. Clique em Modelos de configuração do produto.
-3. Na lista, localize e selecione o PDV desejado.
+
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Na lista, localize e selecione o registro desejado.
     * Selecione o modelo alto-falante avançado para este exercício.  
-4. Na lista, clique no link na linha selecionada.
-5. Expandir a seção Operações de roteiro.
-6. Clique em Adicionar.
-7. No campo Nome, digite um valor.
-8. No campo Descrição, digite um valor.
-9. Clique em Salvar.
+1. Na lista, selecione o link na linha selecionada.
+1. Expandir a seção **Operações de roteiro**.
+1. Selecione **Adicionar**.
+1. No campo **Nome**, digite um valor.
+1. No campo **Descrição**, digite um valor.
+1. Selecione **Salvar**.
 
 ## <a name="enter-route-operation-details"></a>Informe os detalhes da operação do roteiro
-1. Clique em Detalhes da operação do roteiro.
-2. No campo Operação, insira ou selecione um valor.
-3. No campo Nº Não. insira um número.
+
+1. Selecione **Detalhes da operação do roteiro**.
+1. No campo **Operação**, insira ou selecione um valor.
+1. No campo **Oper. N°**, insira um número.
     * Os números da operação determinam a sequência no roteiro.  
     * Cada propriedade em uma operação de roteiro pode ter um valor estático ou ser mapeada a um atributo. O mapeamento a um atributo resultará no valor que está sendo definido como parte da configuração.  
-4. No campo Grupo de roteiro, insira ou selecione um valor.
+1. No campo **Grupo de roteiros**, insira ou selecione um valor.
     * O grupo de roteiros determina o comportamento essencial para o custo, o consumo e a configuração.  
-5. Clique na guia Configuração.
-6. Clique na guia Horas.
-7. Em Processar quantidade. insira um número.
+1. Selecione a guia **Configuração**.
+1. Selecione a guia **Horas**.
+1. No campo **Processar qtd.**, insira um número.
     * Determina a quantidade que será processada em uma operação.  
-8. No campo Horas/tempo, insira um número.
+1. No campo **Horas/tempo**, insira um número.
     * Digite a razão do tempo.  
-9. Marque a caixa de seleção Definir.
-10. No campo Tempo de execução, insira um número.
+1. Marque a caixa de seleção **Definir**.
+1. No campo **Tempo de execução**, insira um número.
     * Determine o tempo de processamento para a quantidade especificada.  
-11. Clique na guia Requisitos de recurso.
-12. Clique em Adicionar.
-13. Na lista, marque a linha selecionada.
-14. No campo Tipo de requisição, selecione uma opção.
+1. Selecione a guia **Requisitos de recursos**.
+1. Selecione **Adicionar**.
+1. Na lista, marque a linha selecionada.
+1. No campo **Tipo de requisito**, selecione uma opção.
     * Decida se deseja especificar os recursos ou os recursos específicos que devem possuir.  
-15. No campo Requisito, insira ou selecione um valor.
-16. Clique em OK.
+1. No campo **Requisito**, insira ou selecione um valor.
+1. Selecione **OK**.
 
 
 

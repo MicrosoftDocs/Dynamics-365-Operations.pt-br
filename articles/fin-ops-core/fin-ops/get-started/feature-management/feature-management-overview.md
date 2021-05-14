@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: d5d5303b6d81ad182e0e28a51790166b833bee7b
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754791"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923298"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -140,7 +140,7 @@ O gerenciamento de recursos permite que você controle os recursos que são entr
 
 ## <a name="new-features-are-optional-for-12-months"></a>Novos recursos são opcionais por 12 meses
 
-Quando um novo recurso não crítico for instalado, ele será opcional por um período de 12 meses. Isso permite que você e a equipe da organização se planejem com antecedência sobre quando adotar um recurso e testá-lo em suas operações diárias. Para obter informações, consulte [Perguntas frequentes sobre as atualizações do serviço One Version](https://docs.microsoft.com/dynamics365/fin-ops-core/fin-ops/get-started/one-version#what-about-new-features).
+Quando um novo recurso não crítico for instalado, ele será opcional por um período de 12 meses. Isso permite que você e a equipe da organização se planejem com antecedência sobre quando adotar um recurso e testá-lo em suas operações diárias. Para obter informações, consulte [Perguntas frequentes sobre as atualizações do serviço One Version](../one-version.md#what-about-new-features).
 
 ## <a name="using-feature-management-to-turn-on-isv-features-or-custom-features"></a>Usando o gerenciamento de recursos para desativar recursos de ISV ou recursos personalizados
 
@@ -161,7 +161,7 @@ A política é que todos os novos recursos terão aceitação por um período de
 O tempo de liberação das atualizações é variável, o tempo de atualização de ambiente é variável, e os clientes podem optar por ignorar algumas atualizações. Como resultado, datas específicas são difíceis de determinar. 
 
 ### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Onde está a documentação dos recursos que estão se tornando obrigatórios? 
-Essa documentação vem das equipes do aplicativo. Geralmente, elas serão mencionadas em [Recursos removidos ou substituídos](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/deprecated-features). 
+Essa documentação vem das equipes do aplicativo. Geralmente, elas serão mencionadas em [Recursos removidos ou substituídos](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Há uma notificação ou um sinal no produto de que um recurso terá a habilitação obrigatória? 
 Atualmente, não existe um mecanismo de notificação para informar que um recurso se tornará obrigatório.

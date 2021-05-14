@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 964db71efc9dc81d60199e37de8668de9d667496
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842072"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947511"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -48,7 +48,7 @@ Para poder usar o gerenciamento de alterações de engenharia, você deve habili
 
 Primeiro, ative os recursos seguindo estas etapas.
 
-1. Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+1. Acesse o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Verifique se há atualizações.
 1. Ative o recurso denominado **Gerenciamento de Alterações de Engenharia**.
 1. Se quiser usá-lo, ative também o recurso denominado **Versão de dimensão do produto**.
@@ -57,9 +57,12 @@ Em seguida, ative as chaves de configuração seguindo estas etapas.
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
-1. Expandir o nó **Comércio**
-1. Marque a caixa de seleção **Gerenciamento de Alterações de Engenharia**.
-1. Se quiser usá-lo, marque também a caixa de seleção **Dimensão do produto - Versão**.
+1. Expanda o nó **Comércio**.
+1. Habilite a chave de configuração para o recurso principal, marcando a caixa de seleção **Gerenciamento de Alterações de Engenharia**. (Não é necessário expandir o nó, a menos que você também deseje desabilitar um ou ambos os sub-recursos.)
+1. Se também quiser usar a dimensão de versão, marque a caixa de seleção **Dimensão do produto - Versão**. (Esta caixa de seleção está mais abaixo na lista, não aninhada no nó **Gerenciamento de Alterações de Engenharia**.)
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
+
+> [!IMPORTANT]
+> A partir de abril de 2022, as chaves de licença de **Gerenciamento de Alterações de Engenharia** e **Dimensão do produto - Versão** serão habilitadas por padrão para todas as novas instalações, mas você ainda poderá desabilitá-las, se necessário.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

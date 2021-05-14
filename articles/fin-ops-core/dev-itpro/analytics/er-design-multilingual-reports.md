@@ -2,7 +2,7 @@
 title: Projetar relatórios multilíngues em Relatórios eletrônicos
 description: Este tópico explica como você pode usar etiquetas de Relatório eletrônico (ER) para criar e gerar relatórios multilíngues.
 author: NickSelin
-ms.date: 09/14/2020
+ms.date: 04/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f5a2e8cca441189020e6274248a48c5e9dd80e00
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 50156b8c6b3553b02d092fad9c72e90c1f70ff78
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753543"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951976"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
@@ -158,6 +158,31 @@ O ER oferece suporte a diferentes maneiras de especificar um idioma para um rela
 - **Definido em runtime** – gere um relatório em um idioma especificado em runtime. Se você selecionar esse valor, no campo **Idioma**, configure uma expressão de ER que retorne o código do idioma, como o idioma do cliente correspondente.
 
     ![Especificar no designer de Operação do ER um idioma definido em runtime como o idioma de um relatório gerado](./media/er-multilingual-labels-language-context-runtime.png)
+
+## <a name="culture-specific-formatting"></a>Formatação específica da cultura
+
+O ER oferece suporte a diferentes maneiras de especificar a cultura para um relatório gerado. Portanto, a formatação específica da cultura correta pode ser usada para valores de data, hora e numéricos. Ao criar um formato ER, na guia **Formatar** , no campo **Preferências de cultura**, você pode selecionar um dos seguintes valores para cada componente de formato do tipo **Arquivo\\Comum**, **Arquivo\\Excel**, **Arquivo\\PDF** ou **Fusão de\\PDFs**:
+
+- **Preferência do usuário** – formate os valores de acordo com a cultura preferencial do usuário. Essa cultura é definida no campo **Formato de data, hora e número** na guia **Preferências** da página **Opções do usuário**.
+
+    ![Definir a cultura preferencial do usuário como a cultura de um relatório gerado no designer de Operação do ER](./media/er-multilingual-labels-culture-context-user-preferred.png)
+
+- **Explicitamente definido** – formate os valores de acordo com a cultura especificada no tempo de design.
+
+    ![Definir a cultura especificada no tempo de design como a cultura de um relatório gerado no designer de Operação do ER](./media/er-multilingual-labels-culture-context-fixed.png)
+
+- **Definido em runtime** – formate os valores de acordo com a cultura especificada em runtime. Se você selecionar este valor, na guia **Mapeamento**, no campo **Formato de data, hora e número**, configure uma expressão ER que retorne o código de cultura para a cultura, como a cultura do cliente correspondente.
+
+    ![Definir a cultura definida em runtime como a cultura de um relatório gerado no designer de Operação do ER](./media/er-multilingual-labels-culture-context-runtime.png)
+
+> [!NOTE]
+> Um componente ER para o qual você define uma cultura específica pode conter componentes de ER filhos que foram configurados para preencher um valor de texto. Por padrão, a cultura do componente pai é usada para formatar os valores desses componentes. Você pode usar as seguintes funções de ER internas para configurar associações para esses componentes e aplicar uma cultura alternativa para a formatação de valores:
+>
+> - [DATEFORMAT](er-functions-datetime-dateformat.md#syntax-2)
+> - [DATETIMEFORMAT](er-functions-datetime-datetimeformat.md#syntax-2)
+> - [NUMBERFORMAT](er-functions-text-numberformat.md#syntax-2)
+>
+> Na versão 10.0.20 e posterior, a localização de componentes de formato dos tipos **Arquivo\\Comum** e **Arquivo\\Excel** é usada para formatar valores durante a [conversão em PDF](electronic-reporting-destinations.md#OutputConversionToPDF) de um documento gerado.
 
 ## <a name="translation"></a>Tradução
 

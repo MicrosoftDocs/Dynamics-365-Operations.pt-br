@@ -1,8 +1,8 @@
 ---
-title: Aprovar ordens planejadas
-description: Este tópico descreve a aprovação de ordens planejadas com suporte na Otimização de Planejamento.
+title: Exibir, gerenciar e aprovar ordens planejadas
+description: Este tópico fornece informações sobre como exibir, gerenciar e aprovar ordens planejadas na Otimização de Planejamento.
 author: ChristianRytt
-ms.date: 08/21/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,30 +16,62 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 6c215a89403f16336caae5c62cde6df469c4091c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b9b5274481e693f9fa05eb084ec5505ce5bc2eb
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825882"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935648"
 ---
-# <a name="approve-planned-orders"></a>Aprovar ordens planejadas
+# <a name="view-manage-and-approve-planned-orders"></a>Exibir, gerenciar e aprovar ordens planejadas
 
 [!include [banner](../../includes/banner.md)]
 
-Este tópico fornece informações sobre como atualizar o status de ordens planejadas na Otimização de Planejamento.
+Este tópico fornece informações sobre como exibir, gerenciar e aprovar ordens planejadas na Otimização de Planejamento.
 
-Observe que a aprovação de ordens planejadas é uma etapa opcional no caminho de criação de uma ordem confirmada com base em uma ordem planejada. É recomendável aprovar ordens planejadas modificadas, caso contrário, as edições serão ignoradas e substituídas pela próxima execução de planejamento.
+## <a name="view-and-manage-planned-orders"></a><a name="view-planned-orders"></a>Exibir e gerenciar ordens planejadas
+
+Você pode exibir e gerenciar ordens planejadas em qualquer página de lista de ordens planejadas. Vá para um dos seguintes locais, dependendo do tipo de ordens planejadas com as quais você deseja trabalhar:
+
+- Planejamento mestre \> Espaços de trabalho \> Planejamento mestre
+- Planejamento mestre \> Planejamento mestre \> Ordens planejadas
+- Controle de produção \> Ordens de produção \> Ordens de produção planejadas
+- Compras e fornecimento \> Ordens de compra \> Ordens de compra planejadas
+- Gerenciamento de estoque \> Ordens de entrada \> Transferências planejadas
+- Gerenciamento de estoque \> Ordens de saída \> Transferências planejadas
+
+## <a name="view-and-edit-the-status-of-planned-orders"></a>Exiba e edite o status das ordens planejadas
+
+Você pode usar o campo **Status** de cada ordem planejada para ajudar a rastrear seu progresso ou alterar a forma como uma ordem planejada será processada. Os seguintes valores de **Status** estão disponíveis:
+
+- **Não processado** – Quando o planejamento mestre gera ordens planejadas, elas recebem este status. As ordens planejadas com esse status serão excluídas durante a próxima execução de planejamento.
+- **Concluído** – este status indica que a ordem planejada foi concluída. Se você optar por não confirmar uma ordem planejada, poderá atribuir manualmente seu status para *Concluído*. Observe que o sistema trata os status *Não processado* e *Concluído* da mesma forma.
+- **Aprovado** – este status indica que a ordem planejada foi aprovada para confirmação. Se você desejar confirmar uma ordem planejada, poderá alterar seu status para *Aprovado*. Se desejar manter as edições que foram feitas em uma ordem planejada ou se estiver planejando confirmar uma ordem planejada, altere seu status para *Aprovado*. As ordens planejadas com o status *Aprovado* são consideradas de fornecimento fixo e esperado pelo planejamento mestre. Portanto, elas não serão modificadas ou excluídas durante a execução do planejamento mestre posterior. Para atingir este procedimento, a lógica de planejamento copia as ordens planejadas com status *Aprovado* da versão anterior do plano para a nova versão do plano durante o planejamento mestre. Observe que as ordens planejadas com o status *Aprovado* só são consideradas fornecimento no plano mestre específico.
+
+Para alterar o status de uma ordem planejada única, [abra qualquer página de lista de ordens planejadas](#view-planned-orders)abra a ordem e siga uma destas etapas:
+
+- Na FastTab **Geral**, altere o valor do campo **Status**.
+- No Painel de Ações, na guia **Ordem de alteração**, no grupo **Processo**, selecione **Alterar status**.
+- No Painel de Ações, selecione **Aprovar** para marcar a ordem como aprovada.
+
+Para alterar o status de várias ordens planejadas ao mesmo tempo, [abra qualquer página de lista de ordens planejadas](#view-planned-orders), marque a caixa de seleção para cada ordem que deseja alterar e siga uma destas etapas:
+
+- No Painel de Ações, na guia **Ordem de alteração**, no grupo **Processo**, selecione **Alterar status**.
+- No Painel de Ações, selecione **Aprovar** para marcar as ordens como aprovadas.
+
+## <a name="approve-planned-orders"></a>Aprovar ordens planejadas
+
+A aprovação de ordens planejadas é uma etapa opcional no processo de criação de uma ordem confirmada com base em uma ordem planejada.
+
+A ilustração a seguir mostra como você pode usar o valor **Status** que é atribuído a cada ordem planejada para implementar um fluxo de trabalho de aprovação. Para implementar um processo de aprovação, ajuste manualmente o valor do **Status** de cada ordem planejada, conforme descrito na seção anterior.
 
 ![Fluxo de ordem planejada](media/approved-planned-orders-1.png)
 
-O campo **Status** ajuda você a acompanhar seu progresso usando os seguintes valores:
+> [!TIP]
+> Recomendamos que você aprove quaisquer ordens planejadas modificadas. Caso contrário, as edições serão ignoradas e sobrescritas pela próxima execução de planejamento.
 
-- **Não processado:** quando o planejamento mestre gerar ordens planejadas, elas terão o status *Não processado*. As ordens planejadas com esse status serão excluídas durante a próxima execução de planejamento.
-- **Concluído:** se você decidir não confirmar uma ordem planejada, poderá alterar o status para *Concluído* a fim de indicar que concluiu a avaliação dessa ordem. Observe que os status *Não processado* e *Concluído* são tratados da mesma forma pelo sistema.
-- **Aprovado:** se você quiser manter as edições ou estiver planejando confirmar uma ordem planejada, altere o status para *Aprovado*. As ordens planejadas com o status *Aprovado* são consideradas como fornecimento fixo e esperado pelo planejamento mestre, portanto, não são modificadas nem excluídas durante execuções posteriores dele. Para fazer isso, a lógica de planejamento copia as ordens planejadas *Aprovadas* da versão anterior do plano para a nova versão do plano durante o planejamento mestre. Observe que as ordens planejadas com o status *Aprovado* só são consideradas fornecimento no plano mestre específico.
+## <a name="additional-resources"></a>Recursos adicionais
 
-Você pode gerenciar ordens planejadas no espaço de trabalho **Planejamento mestre**, na lista **Ordem planejada** ou nas listas **Ordens de produção planejadas**, **Ordens de compra planejadas** e **Transferência planejada**.
-
+- [Confirmar ordens planejadas](planned-order-firming.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

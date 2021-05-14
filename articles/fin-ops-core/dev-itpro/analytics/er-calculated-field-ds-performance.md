@@ -2,7 +2,7 @@
 title: Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 description: Este tópico explica como você pode melhorar o desempenho das soluções de relatório eletrônico (ER) adicionando fontes de dados de CAMPO CALCULADO parametrizado.
 author: NickSelin
-ms.date: 09/02/2020
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 299570d6a94b0f9e7ee7cf490d4c1aeeb86d5716
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4ee5a074c5c6d2e2144181e39917b1cc42dfc015
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749504"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944819"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 
@@ -244,9 +244,9 @@ Você deve baixar os arquivos a seguir e armazená-los localmente.
 
 | Arquivo                                        | Conteúdo |
 |---------------------------------------------|---------|
-| Aperfeiçoamento de desempenho model.version.1     | [Configuração do modelo de dados de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Aperfeiçoamento de desempenho mapping.version.1.1 | [Configuração do mapeamento do modelo de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Aperfeiçoamento de desempenho format.version.1.1  | [Configuração de formato de ER de exemplo](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Aperfeiçoamento de desempenho model.version.1     | [Configuração do modelo de dados de ER de exemplo](https://download.microsoft.com/download/4/6/f/46f0f3fa-782b-414a-8f7b-b6c64a388661/Performance_improvement_model.version.1.xml) |
+| Aperfeiçoamento de desempenho mapping.version.1.1 | [Configuração do mapeamento do modelo de ER de exemplo](https://download.microsoft.com/download/8/9/1/8913a763-afb8-4bf4-aaf1-95ad793ffc5a/Performance_improvement_mapping.version.1.1.xml) |
+| Aperfeiçoamento de desempenho format.version.1.1  | [Configuração de formato de ER de exemplo](https://download.microsoft.com/download/9/0/c/90c75963-bc78-4edc-9096-556bbe281f10/Performance_improvement_format.version.1.1.xml) |
 
 ## <a name="appendix-2-configure-the-er-framework"></a><a name="appendix2"></a>Apêndice 2: configurar a estrutura de ER
 

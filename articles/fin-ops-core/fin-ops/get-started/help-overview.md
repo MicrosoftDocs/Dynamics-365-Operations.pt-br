@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: edupont
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e33a2d4c50d17125a91b3b55b46626c6199575c8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: d88801baafb9a6decfb6c04f708b3f7e1257b487
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897807"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923437"
 ---
 # <a name="help-system"></a>Sistema de ajuda
 
@@ -39,7 +39,7 @@ Em todos esses aplicativos, você pode acessar a ajuda específica de produto no
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ajuda no docs.microsoft.com
 
-O site docs.microsoft.com ([docs.microsoft.com/dynamics365/](https://docs.microsoft.com/dynamics365/)) é a fonte padrão de documentação do produto dos aplicativos listados anteriormente. Este site oferece os seguintes recursos:
+O site docs.microsoft.com ([docs.microsoft.com/dynamics365/](/dynamics365/)) é a fonte padrão de documentação do produto dos aplicativos listados anteriormente. Este site oferece os seguintes recursos:
 
 - **Acesso ao conteúdo mais atualizado** – o site oferece à Microsoft uma maneira mais rápida e flexível para criar, entregar e atualizar a documentação do produto. Portanto, você tem acesso fácil às informações técnicas mais recentes.
 - **Conteúdo escrito por especialistas** – o conteúdo no site está aberto a contribuições por membros da Comunidade dentro e fora da Microsoft.
@@ -50,7 +50,7 @@ Você pode localizar conteúdo em docs.microsoft.com usando qualquer mecanismo d
 
 Para inscrever-se em um RSS feed de todas as atualizações no conteúdo em docs.microsoft.com, use o seguinte link:
 
-[Feed RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
+[Feed RSS](/api/search/rss?$filter=scopes%2fany(t%3a+t+eq+%27Unified+Operations%27)&locale=en-us)
 
 ### <a name="leave-us-feedback"></a>Deixe seus comentários
 
@@ -73,7 +73,7 @@ Você pode colaborar e fazer edições na documentação. Para começar, selecio
 
 O vídeo [Como colaborar com a documentação do Microsoft Dynamics 365](https://youtu.be/m5djioozRbg) (mostrado acima) está incluído no canal do Microsoft Dynamics 365 no YouTube.
 
-Para obter mais informações, consulte o [Guia de colaborador de docs](https://docs.microsoft.com/contribute), que é publicado pela equipe que criou o site docs.microsoft.com.
+Para obter mais informações, consulte o [Guia de colaborador de docs](/contribute), que é publicado pela equipe que criou o site docs.microsoft.com.
 
 > [!NOTE]
 > No momento, só aceitamos colaborações para nosso conteúdo em inglês.
@@ -155,12 +155,13 @@ A tabela a seguir lista nossos sites. Os sites que têm um asterisco (\*) ao lad
 | Site | descrição |
 |------|-------------|
 | [Docs.microsoft.com](/dynamics365/) | Este site hospeda ou vincula-se a toda a documentação de produtos do Dynamics 365. |
-| [Microsoft Learn](https://docs.microsoft.com/learn/) | Este é o site de eLearning gratuito da Microsoft. |
+| [Microsoft Learn](/learn/) | Este é o site de eLearning gratuito da Microsoft. |
 | [Microsoft DynamicsLCS (Lifecycle Services)](https://lcs.dynamics.com/)\* | Este site fornece um espaço de trabalho de colaboração com base na nuvem que clientes e parceiros podem usar para gerenciar projetos da pré-venda até a implementação e operações. Ele é útil em todas as fases de uma implementação. |
 | [Blog de suporte](https://aka.ms/AXSupportBlog) | Este site contém dicas e truques lançados pela equipe de suporte. |
 | [Docs.microsoft.com/previous versions](/previous-versions/dynamics/) | Este site hospeda conteúdo de versões anteriores. |
 | [Comunidade do Dynamics](https://community.dynamics.com/) | Este site hospeda blogs, fóruns e vídeos. |
 | [Microsoft.com/dynamics365](https://www.microsoft.com/dynamics365/home) | Este site fornece avaliação e informações de vendas. |
+
 
 
 

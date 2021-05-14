@@ -2,7 +2,8 @@
 title: Configurar um site de comércio eletrônico B2B
 description: Este tópico descreve como configurar um site de comércio eletrônico B2B no Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 01/20/2021
+manager: AnnBe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +15,17 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 3c6ea6118c3ba0ab77fea91b2eafa75c89b8d71d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db33bf941303c6a74f9c6b2d5a782762f7180f1b
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799748"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937497"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar um site de comércio eletrônico B2B
 
 [!include [banner](../../includes/banner.md)]
+[!include [banner](../../includes/preview-banner.md)]
 
 Sites de comércio eletrônico B2B (entre empresas) fornecem alguns recursos importantes que otimizam o fluxo de trabalho para um usuário de B2B. Este tópico descreve como configurar um site de comércio eletrônico B2B no Microsoft Dynamics 365 Commerce. Ele descreve os módulos e as configurações de site que devem ser configurados para habilitar cenários específicos de B2B.
 
@@ -283,9 +285,35 @@ Para criar uma página de detalhes da fatura no construtor de sites, siga estas 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
 
+## <a name="add-a-quick-add-module-to-the-cart-page"></a>Adicionar um módulo de adição rápida à página de carrinho
+
+O módulo de adição rápida oferece uma maneira de adicionar rapidamente vários itens ao carrinho usando IDs de item (também conhecidas como IDs de unidade de manutenção de estoque \[SKU\]). O módulo de adição rápida é adicionado à página de carrinho de um site.
+
+Para adicionar um módulo de adição rápida a uma página de carrinho no construtor de sites do Commerce, siga estas etapas.
+
+1. Vá para **Modelos** e selecione o modelo da página de carrinho do seu site.
+1. Selecione **Editar**.
+1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Adição rápida** e depois **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
+1. Vá para **Páginas** e selecione a página de carrinho do seu site.
+1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
+1. No painel de propriedades do módulo **Contêiner**, em **Largura**, selecione **Preencher Contêiner**.
+1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
+1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Adição rápida** e depois **OK**.
+1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
+
+> [!NOTE] 
+> O módulo de adição rápida está disponível a partir do Commerce versão 10.0.17. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da biblioteca de módulos](../starter-kit-overview.md)
+
+[SDK e atualizações da biblioteca de módulos](../e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file)
 
 [Visão geral da página Criação](../authoring-home-overview.md)
 
@@ -299,7 +327,7 @@ Para criar uma página de detalhes da fatura no construtor de sites, siga estas 
 
 [Módulo de bloco de conteúdo](../add-hero-module.md)
 
-[Coleção de produtos](../product-collection-module-overview.md)
+[Módulos de coleta de produtos](../product-collection-module-overview.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

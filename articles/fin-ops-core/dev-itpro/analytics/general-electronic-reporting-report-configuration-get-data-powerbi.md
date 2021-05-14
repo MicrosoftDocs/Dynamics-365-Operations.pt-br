@@ -2,7 +2,7 @@
 title: Configurar ER (Relatório eletrônico) para efetuar pull de dados no Power BI
 description: Este tópico explica como você pode usar suas configurações de Relatório eletrônico (ER) para organizar a transferência de dados da sua instância para os serviços do Power BI.
 author: NickSelin
-ms.date: 06/20/2017
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8a53c1c3e1850dabc05a47df6d8cc785a13f6f86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b37bc608b3b987016622d9cd0abc66e420025d26
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750073"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944428"
 ---
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar ER (Relatório eletrônico) para efetuar pull de dados no Power BI
 
@@ -68,10 +68,10 @@ Para concluir os exemplos neste tópico, você deve ter:
 ## <a name="use-an-er-data-model-as-the-source-of-data"></a>Usar um modelo de dados ER como a fonte de dados
 Você deve ter um modelo de dados ER como a fonte dos dados comerciais que serão usados nos relatórios do Power BI. Esse modelo de dados é carregado do repositório de configurações de ER. Para saber mais, consulte [Baixar configurações do Relatório eletrônico do Lifecycle Services](download-electronic-reporting-configuration-lcs.md) ou execute o guia de tarefas **ER Importar uma configuração do Lifecycle Services**. Selecione **Intrastat** como o modelo de dados que será carregado do repositório de configurações de ER selecionado. (Neste exemplo, a versão 1 do modelo é usada.) Você poderá acessar a configuração de modelo de ER **Intrastat** na página **Configurações**.
 
-[![Página Configurações](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
+[![Configuração do modelo de ER Intrastat na página Configurações](./media/ger-power-bi-data-model-1024x371.png)](./media/ger-power-bi-data-model.png)
 
 ## <a name="design-an-er-format-configuration"></a>Criar uma configuração de formato ER
-Você deve criar uma nova configuração de formato ER que usa o modelo de dados **Intrastat** como a fonte de dados comerciais. Essa configuração de formato deve gerar resultados de saída como documentos eletrônicos no formato OpenXML (arquivo do Excel). Para saber mais, execute o guia de tarefas **ER Criar uma configuração para relatórios no formato OPENXML**. Nomeie a nova configuração **Atividades de importação/exportação** conforme mostrado na ilustração. Use o arquivo Excel [Dados de ER – detalhes de importação e exportação](https://go.microsoft.com/fwlink/?linkid=845208) como modelo ao criar o formato ER. (Para saber mais sobre como importar um modelo de formato, execute o guia de tarefas.)
+Você deve criar uma nova configuração de formato ER que usa o modelo de dados **Intrastat** como a fonte de dados comerciais. Essa configuração de formato deve gerar resultados de saída como documentos eletrônicos no formato OpenXML (arquivo do Excel). Para saber mais, execute o guia de tarefas **ER Criar uma configuração para relatórios no formato OPENXML**. Nomeie a nova configuração **Atividades de importação/exportação** conforme mostrado na ilustração. Use o arquivo Excel [Dados de ER – detalhes de importação e exportação](https://download.microsoft.com/download/f/7/5/f755c0fd-025c-4aa9-920b-909abb8302ad/ER-data-import-and-export-details.xlsx) como modelo ao criar o formato ER. (Para saber mais sobre como importar um modelo de formato, execute o guia de tarefas.)
 
 [![Configuração de atividades de importação/exportação](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png)
 
@@ -126,7 +126,7 @@ Clique no botão **Configurações** para o novo registro de destino. Em seguida
 1. Na página **Configurações** (**Administração da organização** &gt; **Relatório eletrônico** &gt; **Configurações**), na árvore de configurações, selecione a configuração **Atividades de importação/exportação** que você criou anteriormente.
 2. Altere o status da versão 1.1 de **Rascunho** para **Concluído** para tornar o formato disponível para uso.
 
-    [![Página Configurações](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
+    [![Configuração de atividades de importação/exportação na página Configurações](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png)
 
 3. Selecione a versão concluída da configuração **Atividades de importação/exportação** e clique em **Executar**. Observe que o destino configurado será aplicado ao resultado de saída que é gerado no formato Excel.
 4. Defina a opção **Processamento em lotes** como **Sim** para executar o relatório no modo autônomo.
@@ -187,11 +187,11 @@ Configure a integração com o Power BI. Para saber mais, consulte [Configurar a
 2. Selecione o relatório do Power BI **Detalhes de importação e exportação** que você criou para mostrar esse relatório como um item de ação na página selecionada.
 3. Clique no item de ação para abrir a página que mostra o relatório que você criou no Power BI.
 
-    [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+    [![Relatório de detalhes de importação e exportação criado no Power BI](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Destinos de relatório eletrônico (ER)](electronic-reporting-destinations.md)
+[Destinos de Relatório eletrônico (ER)](electronic-reporting-destinations.md)
 
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
 

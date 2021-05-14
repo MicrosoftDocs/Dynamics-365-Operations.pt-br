@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1f7e412b7365901e18f476758aa3c5d43de590b2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f8489cc8eac8013041d4c138930feab57e43b81d
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811597"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920896"
 ---
 # <a name="create-working-time-scheduling-properties"></a>Criar propriedades do agendamento de horário de trabalho
 
@@ -27,19 +27,21 @@ ms.locfileid: "5811597"
 
 As propriedades de programação de horário de trabalho são usadas para categorizar intervalos de horário de trabalho e para definir as configurações que os operadores devem levar em conta. Este procedimento mostra como definir uma propriedade de programação de horário de trabalho e valores de propriedade associados. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 
-1. Vá para Todas áreas de trabalho > Gerenciamento de ciclo de vida de recurso.
-2. Clique em Propriedades.
+1. Vá para **Espaços de trabalho \> Gerenciamento de ciclo de vida de recurso**.
+2. Selecione **Propriedades**.
 
 ## <a name="create-property"></a>Criar uma propriedade
-1. Clique em Novo.
-2. No campo Propriedade, digite um valor.
-3. No campo Nome, digite um valor.
+
+1. Selecione **Novo**.
+2. No campo **Propriedade**, digite um valor.
+3. No campo **Nome**, digite um valor.
 
 ## <a name="create-property-values"></a>Criar valores de propriedade
+
 1. Na lista, marque a linha selecionada.
-2. No campo Nome, digite um valor.
-3. No campo Valor, digite um valor.
-4. Clique em Salvar.
+2. No campo **Nome**, digite um valor.
+3. No campo **Valor**, digite um valor.
+4. Selecione **Salvar**.
 
 
 

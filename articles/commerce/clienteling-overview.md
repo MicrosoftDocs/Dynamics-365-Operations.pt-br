@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 8a809b81504fdc31d8f9e0529048269dd7e0c5cc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800438"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5937003"
 ---
 # <a name="clienteling-overview"></a>Visão geral de clientes
 
@@ -60,7 +60,7 @@ Os representantes de vendas também podem usar anotações para obter informaç�
 
 ## <a name="integration-with-dynamics-365-customer-insights"></a>Integração ao Dynamics 365 Customer Insights
 
-Usando o aplicativo Dynamics 365 Customer Insights, os varejistas podem agregar dados de vários sistemas que os clientes usam para interagir com a marca do varejista. Eles podem usar esses dados para gerar uma exibição única do cliente e para derivar informações. A integração do Customer Insights com o Commerce permite que os varejistas selecionem uma ou mais medidas que devem ser mostradas no cartão do cliente no registro de clientes. Por exemplo, os varejistas podem usar os dados no Customer Insights para calcular a “probabilidade de rotatividade” de um cliente e definir “a próxima melhor ação”. Se esses valores forem definidos como medidas, poderão ver vistos no cartão do cliente e fornecer informações cruciais para os representantes de vendas. Para obter mais informações sobre o Customer Insights, consulte a documentação do [Dynamics 365 Customer Insights](https://docs.microsoft.com/dynamics365/ai/customer-insights/overview). Para obter mais informações sobre medidas. consulte [Medidas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Usando o aplicativo Dynamics 365 Customer Insights, os varejistas podem agregar dados de vários sistemas que os clientes usam para interagir com a marca do varejista. Eles podem usar esses dados para gerar uma exibição única do cliente e para derivar informações. A integração do Customer Insights com o Commerce permite que os varejistas selecionem uma ou mais medidas que devem ser mostradas no cartão do cliente no registro de clientes. Por exemplo, os varejistas podem usar os dados no Customer Insights para calcular a “probabilidade de rotatividade” de um cliente e definir “a próxima melhor ação”. Se esses valores forem definidos como medidas, poderão ver vistos no cartão do cliente e fornecer informações cruciais para os representantes de vendas. Para obter mais informações sobre o Customer Insights, consulte a documentação do [Dynamics 365 Customer Insights](/dynamics365/ai/customer-insights/overview). Para obter mais informações sobre medidas. consulte [Medidas](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="set-up-clienteling"></a>Configurar os depoimentos de clientes
 
@@ -73,7 +73,7 @@ Para ativar a funcionalidade de depoimentos de clientes no seu ambiente, siga es
 2. Para ativar o recurso **Depoimentos de clientes**, selecione **Habilitar agora**.
 3. Na página **Parâmetros de Comércio**, na guia **Sequência numérica**, selecione a linha **Identificador do registro de clientes**. Depois, no campo **Código da sequência numérica**, selecione uma sequência numérica. O sistema usará essa sequência numérica para atribuir um ID aos registros de clientes.
 4. Selecione **Salvar**.
-5. Crie um novo grupo de atributos contendo os atributos que você quer obter dos clientes que são gerenciados nos registros de clientes. Para obter instruções, consulte [Atributos e grupos de atributos](https://docs.microsoft.com/dynamics365/retail/attribute-attributegroups-lifecycle).
+5. Crie um novo grupo de atributos contendo os atributos que você quer obter dos clientes que são gerenciados nos registros de clientes. Para obter instruções, consulte [Atributos e grupos de atributos](./attribute-attributegroups-lifecycle.md).
 
     - Defina os atributos necessários como **Pode ser refinado**. Os representantes de vendas podem usar esses atributos para filtrar o registro de clientes.
     - Defina a ordem de exibição desses atributos. Essa ordem de exibição determina quais atributos devem ser mostrados no cartão do cliente no registro de clientes. Uma ordem de exibição 1 é considerada mais alta que uma ordem de exibição 2. Portanto, o atributo que tem uma ordem de exibição 1 será mostrado antes do atributo com ordem de exibição 2.
@@ -103,18 +103,18 @@ Para ativar a integração do Customer Insights com o Commerce, você deve verif
 
 Siga estas etapas para configurar a integração.
 
-1. No portal do Azure, registre um novo aplicativo e anote o nome do aplicativo, a ID do aplicativo e o segredo. Essas informações serão usadas para autenticação de serviço a serviço entre o Commerce e o Customer Insights. Anote o segredo com segurança, pois ele será necessário para salvá-lo no cofre de chaves. Para o exemplo a seguir, use CI_Access_name, CI_Access_AppID, CI_Access_Secret para o nome do aplicativo, a ID do aplicativo e o segredo, respectivamente. Para obter mais informações, consulte [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app).
+1. No portal do Azure, registre um novo aplicativo e anote o nome do aplicativo, a ID do aplicativo e o segredo. Essas informações serão usadas para autenticação de serviço a serviço entre o Commerce e o Customer Insights. Anote o segredo com segurança, pois ele será necessário para salvá-lo no cofre de chaves. Para o exemplo a seguir, use CI_Access_name, CI_Access_AppID, CI_Access_Secret para o nome do aplicativo, a ID do aplicativo e o segredo, respectivamente. Para obter mais informações, consulte [Início rápido: Registrar um aplicativo na plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app).
 
     > [!IMPORTANT]
     > Execute as etapas para lembrar de mudar o segredo antes que ele expire. Do contrário, a integração será interrompida inesperadamente.
 
 2. Vá para a instância do Customer Insights e procure o nome do aplicativo criado acima (neste exemplo, "CI_Access_name").
-3. Crie um Azure Key Vault e anote o nome e a URL (neste exemplo, "keyvaultname", "KeyVaultURL"). Para obter instruções, consulte [Início rápido: Definir e recuperar um segredo do Azure Key Vault usando o portal do Azure](https://docs.microsoft.com/azure/key-vault/quick-create-portal).
+3. Crie um Azure Key Vault e anote o nome e a URL (neste exemplo, "keyvaultname", "KeyVaultURL"). Para obter instruções, consulte [Início rápido: Definir e recuperar um segredo do Azure Key Vault usando o portal do Azure](/azure/key-vault/quick-create-portal).
 4. Salve o segredo (neste exemplo, "CI_Access_Secret") no cofre. Quando esse segredo é armazenado no cofre, o segredo recebe um nome. Observe o nome do segredo (neste exemplo, 'SecretName').
 5. Para acessar o segredo do Azure Key Vault, você precisará criar outro aplicativo com uma ID e um segredo do aplicativo (neste exemplo, "KeyVault_Access_AppID" e "KeyVault_Access_Secret"). Observe o segredo com segurança, pois ele não será exibido novamente.
 6. Em seguida, você precisará conceder permissões ao aplicativo para acessar o Key Vault do Commerce usando APIs. Vá para página de aplicativo no portal do Azure. Na seção **Gerenciar**, selecione **Permissões de API**. Adicione a permissão para acessar o **Azure Key Vault**. Para essa permissão, selecione **Política de acesso**. Selecione o modelo como **Gerenciamento secreto** e selecione as opções **Obter**, **Listar**, **Descriptografar** e **Criptografar**. 
 5. Na sede do Commerce, vá para **Administração do sistema \> Configuração \> Parâmetros do Key Vault** e insira as informações necessárias para o Key Vault. Em seguida, no campo **Cliente do Key Vault**, insira a ID do aplicativo usado na etapa 4 para que o Commerce possa acessar os segredos no Key Vault.
-6. Para adicionar o aplicativo criado na etapa 1 à lista de aplicativos seguros (também chamada de lista de confiança), vá para o Customer Insights e selecione **Exibir** ao aplicativo. Para obter instruções, consulte [Permissões](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-permissions).
+6. Para adicionar o aplicativo criado na etapa 1 à lista de aplicativos seguros (também chamada de lista de confiança), vá para o Customer Insights e selecione **Exibir** ao aplicativo. Para obter instruções, consulte [Permissões](/dynamics365/ai/customer-insights/pm-permissions).
 7. Na página **Administração do sistema > Configuração > Parâmetros de Key Vault** do Commerce HQ, atualize os campos como descrito a seguir: 
 
 - **URL do Key Vault**: "KeyVaultURL" (da etapa 3 acima).

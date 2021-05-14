@@ -2,7 +2,7 @@
 title: Usar as fontes de dados JOIN nos mapeamentos do modelo de ER para obter dados de várias tabelas de aplicativos
 description: Este tópico explica como você pode usar fontes de dados do tipo JOIN no relatório eletrônico (ER).
 author: NickSelin
-ms.date: 05/04/2020
+ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-03-01
 ms.dyn365.ops.version: Release 10.0.1
-ms.openlocfilehash: d42016b914d7992b6f4ae1c573eb8f867ba87e22
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: be5646eaf395310c8b34586ef1274a41b5b97029
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743968"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944694"
 ---
 # <a name="use-join-data-sources-to-get-data-from-multiple-application-tables-in-electronic-reporting-er-model-mappings"></a>Usar as fontes de dados JOIN para obter dados de várias tabelas de aplicativos nos mapeamentos do modelo de relatório eletrônico (ER)
 
@@ -64,13 +64,13 @@ Para concluir os exemplos neste tópico, você deve ter acesso a um dos itens a 
 
 Primeiro você também deve concluir as etapas no procedimento [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-Com antecedência, também é preciso fazer download no [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=000000) e salvar localmente os seguintes arquivos de configuração de ER de amostra:
+Previamente, você também deve baixar e salvar os seguintes arquivos de configuração ER de exemplo:
 
 | **Descrição do conteúdo**  | **Nome do arquivo**   |
 |--------------------------|-----------------|
-| Amostra do arquivo de configuração **Modelo de dados de ER**, usado como fonte de dados para os exemplos.| [Modelo para conhecer fontes de dados JOIN.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Amostra do arquivo de configuração **Mapeamento do modelo de ER**, que implementa o modelo de dados de ER para os exemplos. | [Mapeamento para conhecer fontes de dados JOIN.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
-| Amostra do arquivo de configuração **Formato de ER**. Este arquivo descreve os dados para preencher o componente de formato de ER para os exemplos. | [Formato para conhecer fontes de dados JOIN.versão.1.1.xml](https://mbs.microsoft.com/customersource/Global/AX/downloads/hot-fixes/365optelecrepeg) |
+| Amostra do arquivo de configuração **Modelo de dados de ER**, usado como fonte de dados para os exemplos.| [Modelo para conhecer fontes de dados JOIN.versão.1.1.xml](https://download.microsoft.com/download/5/c/1/5c1d8a57-6ebd-425b-bc5d-c71dde92c6af/ModeltolearnJOINdatasources.version.1.xml) |
+| Amostra do arquivo de configuração **Mapeamento do modelo de ER**, que implementa o modelo de dados de ER para os exemplos. | [Mapeamento para conhecer fontes de dados JOIN.versão.1.1.xml](https://user-images.githubusercontent.com/19827601/115923048-86b10400-a432-11eb-9e57-c37a02effcb4.png)|
+| Amostra do arquivo de configuração **Formato de ER**. Este arquivo descreve os dados para preencher o componente de formato de ER para os exemplos. | [Formato para conhecer fontes de dados JOIN.versão.1.1.xml](https://download.microsoft.com/download/f/f/8/ff8f1b48-14d0-4c73-9145-bcdf8b5265bc/FormattolearnJOINdatasources.version.1.1.xml) |
 
 ### <a name="activate-a-configurations-provider"></a>Ativar um provedor de configurações
 
@@ -99,7 +99,7 @@ Com antecedência, também é preciso fazer download no [Microsoft Download Cent
     3. Selecione **Procurar** para encontrar o arquivo **Formato para conhecer fontes de dados JOIN.versão.1.1.xml**.
     4. Selecione **OK**.
 5. Na árvore de configurações, expanda o item **Modelo para conhecer fontes de dados JOIN**, bem como outros itens de modelo (quando disponíveis).
-6. Observe a lista de configurações de ER na árvore e os detalhes da versão na guia rápida **Versões**. Tais informações serão usadas como fonte de dados no seu relatório de exemplo.
+6. Observe a lista de configurações ER na árvore e os detalhes da versão na FastTab **Versões**. Tais informações serão usadas como fonte de dados no relatório de exemplo.
 
     ![Página de configurações de relatórios eletrônicos](./media/GER-JoinDS-ConfigurationsTree.PNG)
 
@@ -123,18 +123,18 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 4. Selecione **Mostrar detalhes**.
 5. Na árvore de configurações, expanda os itens do modelo de dados **Set1** e **Set1.Details**:
 
-    1. A associação de **Details: Record list = Versions** indica que o item **Set1.Details** está vinculado à fonte de dados **Versões** retornando registros da tabela **ERSolutionVersionTable**. Cada registro desta tabela representa uma única versão de uma configuração de ER. O conteúdo desta tabela é apresentado na guia rápida **Versões** da página **Configurações**.
+    1. A associação de **Details: Record list = Versions** indica que o item **Set1.Details** está vinculado à fonte de dados **Versões** retornando registros da tabela **ERSolutionVersionTable**. Cada registro desta tabela representa uma única versão de uma configuração de ER. O conteúdo desta tabela é apresentado na FastTab **Versões** da página **Configurações**.
     2. A associação de **ConfigurationVersion: String = @.PublicVersionNumber** significa que o valor da versão pública da versão de cada configuração de ER é retirado do campo **PublicVersionNumber** da tabela **ERSolutionVersionTable** e colocado no item **ConfigurationVersion**.
     3. A associação de **ConfigurationTitle: String = @.'>Relations'.Solution.Name** indica que o nome de uma configuração de ER é obtido do campo **Nome** da tabela **ERSolutionTable** com avaliação por meio da relação várias para um (**'>Relations'**) entre as tabelas **ERSolutionVersionTable** e **ERSolutionTable**. Os nomes das configurações de ER da instância atual do aplicativo são apresentados na árvore de configurações na página **Configurações**.
     4. A associação de **@.'>Relations'.Solution.'>Relations'.SolutionVendor.Name** significa que o nome do provedor de configuração que possui a configuração atual é obtido do campo **Nome** da tabela **ERVendorTable** com avaliação por meio da relação várias para um entre as tabelas **ERSolutionTable** e **ERVendorTable**. Os nomes dos provedores de configuração de ER são apresentados na árvore de configurações na página **Configurações** no cabeçalho da página de cada configuração. A lista inteira de provedores de configuração de ER pode ser encontrada na página da tabela **Administração da organização \> Relatório eletrônico \> Provedor de configuração**.
 
-    ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set1Review.PNG)
+    ![Página Designer de mapeamento de modelo ER, lista de itens de modelo de dados associado](./media/GER-JoinDS-Set1Review.PNG)
 
 6. Na árvore de configurações, expanda o item do modelo de dados **Set1.Summary**:
 
     1. A associação de **VersionsNumber: Integer = VersionsSummary.aggregated.VersionsNumber** indica que o item **Set1.Summary.VersionsNumber** está vinculado ao campo de agregação **VersionsNumber** da fonte de dados **VersionsSummary** do tipo **GroupBy** que foi configurado para retornar o número de registros da tabela **ERSolutionVersionTable** por meio da fonte de dados **Versões**.
 
-    ![Página de parâmetros da fonte de dados GROUPBY](./media/GER-JoinDS-Set1GroupByReview.PNG)
+    ![Editar página de parâmetros 'Agrupar por'](./media/GER-JoinDS-Set1GroupByReview.PNG)
 
 7. Feche a página.
 
@@ -144,11 +144,11 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
 1. Na árvore de configurações, expanda os itens do modelo de dados **Set2** e **Set2.Details**. A associação de **Details: Record list = Details** indica que o item **Set2.Details** está vinculado à fonte de dados **Detalhes** configurada como a fonte de dados do tipo **Join**.
 
-    ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set2Review.PNG)
+    ![Página Designer de mapeamento do modelo ER que mostra itens do modelo de dados Set2:Record expandido](./media/GER-JoinDS-Set2Review.PNG)
 
     A fonte de dados **Join** pode ser adicionada selecionando a fonte de dados **Funções\Join**:
 
-    ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-AddJoinDS.PNG)
+    ![Página Designer de mapeamento do modelo ER, tipo de fonte de dados Join](./media/GER-JoinDS-AddJoinDS.PNG)
 
 2. Selecione a fonte de dados **Detalhes**.
 3. Selecione **Editar** no painel **Fontes de dados**.
@@ -157,7 +157,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     ![Página de parâmetros da fonte de dados JOIN](./media/GER-JoinDS-JoinDSEditor.PNG)
 
-    Esta página é usada para criar a fonte de dados necessária do **tipo Join**. No tempo de execução, essa fonte de dados criará uma única lista incluída de registros das fontes de dados na grade **Lista incluída**. A junção de registros começará na fonte de dados **ConfigurationProviders** que está na grade como a primeira (para ela, a coluna **Tipo** está em branco). Os registros de todas as outras fontes de dados serão incluídos, consequentemente, nos registros da fonte de dados original, com base em sua ordem nessa grade. Toda fonte de dados de junção deve ser configurada como uma fonte de dados aninhada em uma fonte de dados de destino (a fonte de dados `1Versions` está aninhada em um; a fonte de dados `1Configurations` está aninhada em **ConfigurationProviders** um). Cada fonte de dados configurada deve conter as condições para a junção. Na fonte de dados do **Join** específico, as seguintes junções são definidas:
+    Esta página é usada para criar a fonte de dados necessária do **tipo Join**. No tempo de execução, essa fonte de dados criará uma única lista incluída de registros das fontes de dados na grade **Lista incluída**. A junção de registros começará na fonte de dados **ConfigurationProviders** que está na grade como a primeira (para ela, a coluna **Tipo** está em branco). Os registros de todas as outras fontes de dados serão incluídos, consequentemente, nos registros da fonte de dados original, com base em sua ordem nessa grade. Toda fonte de dados de junção deve ser configurada como uma fonte de dados aninhada em uma fonte de dados de destino (a fonte de dados `1Versions` está aninhada em `1Configurations`; a fonte de dados `1Configurations` está aninhada em **ConfigurationProviders**). Cada fonte de dados configurada deve conter as condições para a junção. Na fonte de dados do **Join** específico, as seguintes junções são definidas:
 
     - Cada registro da fonte de dados **ConfigurationProviders** (referido na tabela **ERVendorTable**) é associado apenas a registros de **1Configurations** (referidos na tabela **ERSolutionTable**) com o mesmo valor nos campos **SolutionVendor** e **RecId**. O tipo **Junção interna** é usado para essa associação, bem como as condições a seguir para registros correspondentes:
 
@@ -196,21 +196,21 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     Esse formato foi criado para preencher um arquivo de texto gerado com uma nova linha para todas as versões de uma configuração de ER (sequência **Versão**). Cada linha gerada conterá o nome de um provedor de configuração que possui a configuração atual, o nome da configuração e a versão da configuração separados por ponto e vírgula. A linha final do arquivo gerado conterá o número de versões descobertas das configurações de ER (sequência **Resumo**).
 
-    ![Página de designer de formato de ER](./media/GER-JoinDS-FormatReview.PNG)
+    ![Página Designer de formato ER, guia Formatar](./media/GER-JoinDS-FormatReview.PNG)
 
     As fontes de dados **Dados** e **Resumo** são usadas para preencher os detalhes da versão de configuração no arquivo gerado:
 
     - As informações do modelo de dados **Set1** são usadas quando você escolhe **Não** para a fonte de dados **Seletor** em tempo de execução na página de diálogo do usuário ao executar o formato de ER.
     - As informações do modelo de dados **Set2** são usadas quando você escolhe **Sim** para a fonte de dados **Seletor** em tempo de execução na página de diálogo do usuário.
 
-    ![Página de designer de formato de ER](./media/GER-JoinDS-FormatMappingReview.PNG)
+    ![Página Designer de formato ER, guia Mapeamento](./media/GER-JoinDS-FormatMappingReview.PNG)
 
 9. Selecione **Executar**.
 10. Na página de diálogo, selecione **Não** no campo **Usar fontes de dados JOIN**.
 11. Selecione **OK**.
 12. Revise o arquivo gerado.
 
-    ![Página de diálogo do usuário de ER](./media/GER-JoinDS-Set1Run.PNG)
+    ![Parâmetros de relatório eletrônico geraram arquivo sem usar fonte de dados JOIN](./media/GER-JoinDS-Set1Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a>Analisar rastreio de execução do formato de ER
 
@@ -224,7 +224,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
     - **ERSolutionTable** foi chamado na mesma proporção de vezes em que houve registros de versão de configuração na tabela **ERSolutionVersionTable**, enquanto o número dessas chamadas pode ser reduzido em vários momentos para melhorar o desempenho.
     - **ERVendorTable** foi chamado duas vezes para cada registro de versão de configuração que foi descoberto na tabela **ERSolutionVersionTable**, enquanto o número dessas chamadas também pôde ser reduzido.
 
-    ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set1Run2.PNG)
+    ![Estatística de execução na página Designer de mapeamento do modelo ER](./media/GER-JoinDS-Set1Run2.PNG)
 
 5. Feche a página.
 
@@ -236,7 +236,7 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 4. Selecione **OK**.
 5. Revise o arquivo gerado.
 
-    ![Página de diálogo do usuário de ER](./media/GER-JoinDS-Set2Run.PNG)
+    ![Parâmetros de relatório eletrônico geraram arquivo usando fonte de dados JOIN](./media/GER-JoinDS-Set2Run.PNG)
 
 #### <a name="analyze-er-format-execution-trace"></a><a name="analyze"></a> Analisar rastreio de execução do formato de ER
 
@@ -249,11 +249,11 @@ Revise as configurações do componente de mapeamento do modelo de ER. O compone
 
     - O banco de dados do aplicativo foi chamado uma vez para obter registros das tabelas **ERVendorTable**, **ERSolutionTable** e **ERSolutionVersionTable** para acessar os campos obrigatórios.
 
-    ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set2Run2.PNG)
+    ![Detalhes de estatística de desempenho na página Designer de mapeamento do modelo ER](./media/GER-JoinDS-Set2Run2.PNG)
 
     - O banco de dados do aplicativo foi chamado uma vez para calcular o número de versões de configuração usando junções configuradas na fonte de dados **Detalhes**.
 
-    ![Página de designer de mapeamento de modelo de ER](./media/GER-JoinDS-Set2Run3.PNG)
+    ![Página Designer de mapeamento do modelo ER mostrando chamadas de banco de dados de aplicativos](./media/GER-JoinDS-Set2Run3.PNG)
 
 ## <a name="limitations"></a>Limitações
 

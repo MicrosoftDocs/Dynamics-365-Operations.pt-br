@@ -2,7 +2,8 @@
 title: Aplicar configurações de estoque
 description: Este tópico abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+manager: annbe
+ms.date: 04/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b2c44eb5ece74de15e22180abc6d9d0448ab401b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: dd3db0039525c18521ad6a42b2f281976b7b236a
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798880"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937401"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configurações de estoque
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange as configurações de estoque e descreve como aplicá-las no Microsoft Dynamics 365 Commerce.
 
@@ -39,12 +41,17 @@ No construtor de sites do Commerce, os limites de estoque e intervalos podem ser
 
 ## <a name="inventory-settings"></a>Configurações de estoque
 
-No Commerce, as configurações de estoque são definidas em **Configurações do Site \> Extensões \> Gerenciamento de Estoque** no construtor de sites. Há quatro configurações de estoque, uma das quais está obsoleta (preterida):
+No Commerce, as configurações de estoque são definidas em **Configurações do Site \> Extensões \> Gerenciamento de Estoque** no construtor de sites. Há cinco configurações de estoque, uma das quais está obsoleta (preterida):
 
 - **Habilitar verificação de estoque no aplicativo** – essa configuração ativa uma verificação de estoque de produto. Os módulos caixa de compras, carrinho e separação na loja verificarão então o estoque do produto e só permitirão que um produto seja adicionado ao carrinho se o estoque estiver disponível.
 - **Nível de estoque baseado em** – essa configuração define como os níveis de estoque são calculados. Os valores disponíveis são **Total Disponível**, **Físico Disponível** e **Limite de esgotado**. No Commerce, o limite e os intervalos de estoque podem ser definidos para cada produto e categoria. As APIs de estoque retornam informações de estoque de produtos para a propriedade **total Disponível** e a propriedade **Físico Disponível**. O varejista decide se o **Total Disponível** ou **Físico Disponível** deve ser usado para determinar a contagem de estoque e os intervalos correspondentes para os status em estoque e esgotado.
 
     O valor **Limite de esgotado** da configuração **Nível de estoque com base em** é um valor antigo (herdado) e obsoleto. Quando ele está selecionado, a contagem de estoque é determinada dos resultados do valor de **Total Disponível**, mas o limite é definido pela configuração numérica **Limite de esgotado**, descrita posteriormente. Essa configuração de limite se aplica a todos os produtos em um site de comércio eletrônico. Se o estoque estiver abaixo do número limite, um produto será considerado esgotado. Caso contrário, ele será considerada em estoque. Os recursos do valor **Limite de esgotado** são limitados e não é recomendável usá-lo na versão 10.0.12 e posteriores.
+
+- **Nível de estoque para vários depósitos** – esta configuração permite que o nível de estoque seja calculado com relação ao depósito padrão ou a vários depósitos. A opção **Com base em depósito individual** calculará os níveis de estoque com base no depósito padrão. Como alternativa, um site de comércio eletrônico pode apontar para vários depósitos para facilitar o atendimento. Nesse caso, a opção **Baseado em agregado para depósitos de remessa e de retirada** é usada para indicar a disponibilidade de estoque. Por exemplo, quando um cliente compra um item e seleciona "remessa" como o modo de entrega, o item pode ser enviado de qualquer depósito no grupo de atendimento que tem estoque disponível. A página Detalhes do produto (PDP) mostrará uma mensagem "Em estoque" para remessa se qualquer depósito de remessa disponível no grupo de atendimento tiver estoque. 
+
+> [!IMPORTANT] 
+> A configuração **Nível de estoque para vários depósitos** está disponível a partir do Commerce versão 10.0.19. Se estiver atualizando de uma versão mais antiga do Commerce, você deverá atualizar manualmente o arquivo appsettings.json. Para obter instruções, consulte [SDK e atualizações da biblioteca de módulos](e-commerce-extensibility/sdk-updates.md#update-the-appsettingsjson-file).
 
 - **Intervalos de estoque** – essa configuração define os intervalos de estoque em que a mensagem é mostrada nos módulos de site. Isso só se aplicará se o valor **Total Disponível** ou o valor **Físico Disponível** for selecionado para a configuração **Nível de estoque com base em**. Os valores disponíveis são **Todos**, **Baixo e esgotado** e **Esgotado**.
 
@@ -61,15 +68,15 @@ No Commerce, as configurações de estoque são definidas em **Configurações d
 
 Os módulos caixa de compras, lista de desejos, seletor de loja, carrinho e ícone de carrinho usam configurações de estoque para mostrar os intervalos de estoque e as mensagens.
 
-A imagem a seguir mostra um exemplo de uma página de detalhes do produto (PDP) que está mostrando uma mensagem de em estoque ("Disponível").
+No exemplo da ilustração a seguir, um PDP mostra uma mensagem em estoque ("disponível").
 
 ![Exemplo de um módulo PDP com uma mensagem de em estoque](./media/pdp-InStock.png)
 
-A imagem a seguir mostra um exemplo de uma página de detalhes do produto (PDP) que está mostrando uma mensagem "Esgotado".
+No exemplo da ilustração a seguir, um PDP mostra uma mensagem "Esgotado".
 
 ![Exemplo de um módulo PDP com uma mensagem de esgotado](./media/pdp-outofstock.png)
 
-A imagem a seguir mostra um exemplo de um carrinho mostrando uma mensagem de em estoque ("Disponível").
+No exemplo da ilustração a seguir, um carrinho mostra uma mensagem em estoque ("disponível").
 
 ![Exemplo de um módulo carrinho com uma mensagem de em estoque](./media/cart-instock.png)
 

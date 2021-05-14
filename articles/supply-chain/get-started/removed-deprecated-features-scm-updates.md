@@ -2,7 +2,7 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção em Dynamics 365 Supply Chain Management.
 author: kamaybac
-ms.date: 12/07/2020
+ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 785f9055c44110d88b9494b5066647511840b646
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
+ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909638"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947535"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
 
@@ -32,6 +32,19 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+
+## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10019-release"></a>Recursos removidos ou substituídos na versão 10.0.19 do Supply Chain Management
+
+### <a name="job-card-device"></a>Dispositivo de ficha de trabalho
+
+|   |   |
+|---|---|
+| **Motivo para a reprovação/remoção** | O [dispositivo de ficha de trabalho](../production-control/config-job-card-device.md) está sendo substituído pela nova [interface de execução de piso de produção](../production-control/production-floor-execution-configure.md). |
+| **Substituída por outro recurso?**   | Sim, o [dispositivo de ficha de trabalho](../production-control/config-job-card-device.md) será substituído pela nova [interface de execução de piso de produção](../production-control/production-floor-execution-configure.md). |
+| **Áreas afetadas do produto** | Supply Chain Management - controle de produção |
+| **Opção de implantação** | Nuvem e local |
+| **Status** | Preterido. O dispositivo de ficha de trabalho receberá suporte com correções de segurança e bug, mas melhorias de recursos não serão mais fornecidas. Após abril de 2022, o dispositivo de ficha de trabalho não terá mais suporte e os clientes serão solicitados a migrar para a nova interface de execução de piso de produção. |
 
 ## <a name="features-removed-or-deprecated-in-the-supply-chain-management-10018-release"></a>Recursos removidos ou substituídos na versão 10.0.18 do Supply Chain Management
 

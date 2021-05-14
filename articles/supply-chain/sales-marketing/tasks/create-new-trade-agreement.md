@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ad1221bb57aea4c93cb60fc29caec2d3b41798f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 592b3d0265a3be92a5a823c6aabdd40b4e3f0a27
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836389"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5919932"
 ---
 # <a name="create-a-new-trade-agreement"></a>Criar um novo contrato comercial
 
@@ -26,8 +26,8 @@ ms.locfileid: "5836389"
 
 Este procedimento mostra como criar um contrato comercial no qual você registra um novo preço de venda de produtos que você combinou com um cliente específico. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se você estiver usando seus próprios dados, antes de iniciar esse guia será preciso ter certeza de que um Nome de diário de contratos comerciais existe onde a Relação padrão está definida como "Preços (vendas)".
 
-
 ## <a name="create-and-post-a-new-trade-agreement-journal"></a>Criar e lançar um novo diário de contratos comerciais.
+
 1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Preços e descontos > Diários de contratos comerciais**.
 2. Clique em **Novo**.
 3. No campo **Nome**, clique no botão suspenso para abrir a pesquisa.
@@ -58,22 +58,26 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
 20. Clique em **OK**.
 
 ## <a name="view-trade-agreements-for-a-product"></a>Exibir contratos comerciais para um produto
+
 1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 2. Na lista, localize e selecione o produto cujo preço você acabou de atualizar.
 3. No **Painel de Ação**, clique em **Vender**.
 4. Clique em **Exibir contratos comerciais**.
     
-    Revise os detalhes do contrato comercial de preço que acabou de criar.    
+    Revise os detalhes do contrato comercial de preço que acabou de criar.
 
 5. Feche a página.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="whitepaper"></a>White paper
+
 Para obter mais informações, baixe o white paper a seguir (escrito para dar suporte a AX2012, mas ainda é aplicável ao Dynamics 365 Supply Chain Management)
-- [Contratos Comerciais](https://mbs.microsoft.com/files/public/CS/AX2012R3/TradeagreementsinAX.pdf)
+
+- [Contratos Comerciais](https://download.microsoft.com/download/0/2/9/02972c8b-0159-4936-a3ef-1e64252b2d2f/TradeAgreementsInAX.pdf)
 
 ### <a name="community-blogs"></a>Blogs da comunidade
+
 - [Preços de venda no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 
 

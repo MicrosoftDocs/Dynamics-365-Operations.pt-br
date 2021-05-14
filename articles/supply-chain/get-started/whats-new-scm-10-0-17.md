@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 3faffad2bff18278a54a26f77c1423f2246d086e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: fd8c306dd6c3aeb7ef41b4eb3f6f8bad040035c2
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907954"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935596"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10017-april-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.17 (Abril de 2021)
 
@@ -35,7 +35,7 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 Os seguintes recursos estão incluídos nesta versão.  Siga os links para o [plano de versão](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
 
-A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los. Alguns dos recursos listados ainda podem estar na versão preliminar, embora a maioria já esteja em disponibilidade geral agora.
+A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 ### <a name="asset-management"></a>Gerenciamento de ativos
 
@@ -71,13 +71,13 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 
 - [Recursos de gerenciamento de ativos na interface de execução de piso de produção](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/asset-management-capabilities-production-floor-execution-interface)<br> - Para obter mais informações, consulte [Configurar a interface de execução de piso de produção](../production-control/production-floor-execution-configure.md).
 
-- Sequência numérica unificada para IDs de trabalho<br> - Para obter mais informações, consulte 
+- [Execução de fabricação com unidades de escala na nuvem](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Para obter mais informações, consulte [Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-manufacturing.md).
 
 - [Substituir o princípio padrão de reserva de materiais em produção](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/override-default-reservation-principle-materials-production)<br> - Para obter mais informações, consulte [Substituir o princípio de reserva padrão para materiais em produção](../production-control/override-default-reservation-principle.md).
 
 - [Exibições salvas para controle de produção](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/saved-views-production-control)<br> - Para obter mais informações, consulte [Exibições salvas padrão para o Supply Chain Management](saved-views-scm.md).
 
-- [Execução de fabricação com unidades de escala na nuvem](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-scale-units-cloud)<br> - Para obter mais informações, consulte [Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-manufacturing.md).
+- Sequência numérica unificada para IDs de trabalho<br> - Para obter mais informações, consulte [Sequência numérica unificada para IDs de trabalho](../production-control/unified-job-ids.md).
 
 ### <a name="planning"></a>Planejamento
 

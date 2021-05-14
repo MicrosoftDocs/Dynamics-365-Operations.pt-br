@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: shajain
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-11-03
-ms.openlocfilehash: 364cc5adf0358ffa952750149ad31d62cbd35e87
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: fa93b1262049d80148ff23b3d7223ec0f6c2fe68
+ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751425"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "5941157"
 ---
 # <a name="use-the-dynamics-365-commerce-pricing-engine-with-dynamics-365-sales"></a>Usar o mecanismo de definição de preços do Dynamics 365 Commerce com o Dynamics 365 Sales
 
@@ -31,7 +31,7 @@ Este tópico descreve como usar o mecanismo de definição de preços no Microso
 
 O mecanismo de definição de preços do Dynamics 365 Commerce oferece suporte à maioria dos cenários de precificação de business-to-consumer (B2C), como definição de preços no nível de armazenamento, definição de preços com base em fidelidade e afiliação, descontos de compra combinada, descontos de quantidade e descontos de limite. O mecanismo de preços usa regras complexas para determinar o melhor preço para uma determinada cotação ou ordem.
 
-Ao usar a [gravação dupla](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-overview), você tem três opções para as necessidades de definição de preços. Você pode usar a precificação estática que vem da lista de preços no Dynamics 365 Sales, o mecanismo de precificação no Dynamics 365 Supply Chain Management ou o mecanismo de precificação no Dynamics 365 Commerce. Entre essas opções, o mecanismo de precificação comercial é mais adequado para os cenários B2C.
+Ao usar a [gravação dupla](./dual-write-overview.md), você tem três opções para as necessidades de definição de preços. Você pode usar a precificação estática que vem da lista de preços no Dynamics 365 Sales, o mecanismo de precificação no Dynamics 365 Supply Chain Management ou o mecanismo de precificação no Dynamics 365 Commerce. Entre essas opções, o mecanismo de precificação comercial é mais adequado para os cenários B2C.
 
 ## <a name="use-the-commerce-pricing-engine-in-sales"></a>Usar o mecanismo de precificação comercial em Vendas
 
@@ -42,7 +42,7 @@ Quando os usuários iniciarem uma cotação nas Vendas, a estrutura de gravaçã
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-- Antes de usar o mecanismo de precificação do Commerce no Sales, você deve seguir as etapas do [Cliente potencial com pagamento à vista em gravação dupla](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/).
+- Antes de usar o mecanismo de precificação do Commerce no Sales, você deve seguir as etapas do [Cliente potencial com pagamento à vista em gravação dupla](./dual-write-prospect-to-cash.md).
 - Você deve desativar a avaliação do contrato comercial para a entrada manual seguindo estas etapas:
 
     1. No ambiente do Commerce, vá para **Contas a receber \> Configuração \> parâmetros de Contas a receber**.
@@ -50,7 +50,7 @@ Quando os usuários iniciarem uma cotação nas Vendas, a estrutura de gravaçã
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Cliente potencial com pagamento à vista em gravação dupla](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-prospect-to-cash/)
+[Cliente potencial com pagamento à vista em gravação dupla](./dual-write-prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

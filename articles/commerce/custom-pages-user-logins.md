@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0318814f421ab862559965bb4b003308d6279812
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
+ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799436"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5936771"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para entradas dos usuários
 
@@ -32,7 +32,7 @@ Para usar as páginas personalizadas criadas no Dynamics 365 Commerce para manip
 As páginas personalizadas do Commerce podem ser criadas usando conectar, inscrever, edição de perfil da conta, redefinição de senha ou módulos AAD genéricos. As URLs da página publicadas para essas páginas personalizadas devem ser referenciadas nas configurações de política do Azure AD B2C no portal do Azure.
 
 > [!WARNING] 
-> O Azure AD B2C removerá os fluxos de usuário antigos (herdados) em 1º de agosto de 2021. Portanto, você deve planejar a migração dos fluxos de usuário para a nova versão recomendada. A nova versão oferece paridade de recursos e novos recursos. Para obter mais informações, consulte [Fluxos de usuário no Azure Active Directory B2C](https://docs.microsoft.com/azure/active-directory-b2c/user-flow-overview).
+> O Azure AD B2C removerá os fluxos de usuário antigos (herdados) em 1º de agosto de 2021. Portanto, você deve planejar a migração dos fluxos de usuário para a nova versão recomendada. A nova versão oferece paridade de recursos e novos recursos. Para obter mais informações, consulte [Fluxos de usuário no Azure Active Directory B2C](/azure/active-directory-b2c/user-flow-overview).
 
 >A biblioteca de módulos do Commerce versão 10.0.15 ou superior deve ser usada com os fluxos de usuário de B2C recomendados. As páginas da política de usuário padrão oferecidas no Azure AD B2C também podem ser usadas e permitem alterações de imagem de plano de fundo, logotipo e cor de plano de fundo relacionadas à identidade visual da empresa. Embora seja mais limitado em recursos de design, as páginas de política de usuário padrão fornecem a funcionalidade de política do Azure AD B2C, sem criar e configurar páginas personalizadas dedicadas. 
 

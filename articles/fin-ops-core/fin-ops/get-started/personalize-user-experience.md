@@ -2,7 +2,7 @@
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
-ms.date: 09/11/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efc5afc9d685954bf736686bbed3e7575f76e7e7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
+ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744684"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "5944524"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -98,7 +98,7 @@ Você pode usar a janela de propriedades para personalizar um elemento das segui
 
 A janela de propriedades pode incluir outros recursos de personalização, dependendo do elemento. Por exemplo, a janela de propriedades para um bloco pode permitir que você promova esse bloco para um painel, e as janelas de propriedades para elementos no painel padrão podem permitir que você crie um espaço de trabalho personalizado.
 
-### <a name="the-personalization-toolbar"></a>A barra de ferramentas de personalização
+### <a name="personalization-toolbar"></a>Barra de ferramentas de personalização
 
 Se quiser fazer várias alterações em uma página ou fazer alterações que não estejam disponíveis por meio de outros mecanismos (por exemplo, se você quiser reordenar elementos), você poderá usar a barra de ferramentas **Personalização**. Para abrir a barra de ferramentas **Personalização**, siga uma dessas etapas:
 
@@ -173,7 +173,90 @@ Um recurso de personalização exclusivo disponível no painel é a possibilidad
 
 ## <a name="sharing-personalizations"></a>Como compartilhar personalizações
 
-Após personalizar uma página, você pode compartilhar as personalizações com outros usuários exportando a página personalizada. Você poderá então solicitar que outros usuários importem o arquivo de personalização. Outra opção é ceder suas personalizações a um usuário que possua privilégios de administrador. Esse usuário pode então aplicar seu arquivo de personalização a vários usuários ao mesmo tempo usando a página de administração **Personalização**.
+Após personalizar uma página, há alguns métodos que você pode usar para compartilhar as personalizações com outros usuários. Na lista a seguir, os métodos são organizados em ordem, do mais recomendável ao menos recomendado.
+
+1. Publicar exibições para usuários.
+2. Copiar exibições ou personalizações para usuários.
+3. Exportar e importar exibições ou personalizações.
+
+### <a name="publish-views-to-users"></a>Publicar exibições para usuários
+
+Se o recurso [Exibições salvas](saved-views.md) estiver ativado e se a página der suporte a exibições, a melhor maneira de compartilhar personalizações com outros usuários é publicar a exibição para usuários com uma ou mais funções de segurança. Para obter mais informações, consulte [Publicar exibições](saved-views.md#publishing-views).
+
+### <a name="copy-views-or-personalizations-to-users"></a>Copiar exibições ou personalizações para usuários
+
+Se o recurso [Exibições salvas](saved-views.md) estiver desativado ou se a página não der suporte a exibições, a forma recomendável de compartilhar as personalizações será copiá-las entre usuários. Este método está disponível apenas para usuários privilegiados (por exemplo, administradores de sistema). Mas, os administradores podem procurar a personalização de um usuário específico no sistema (incluindo a exibição pessoal do usuário se as exibições salvas estiverem habilitadas) e copiar a configuração para outros usuários.
+
+Se as exibições salvas estiverem habilitadas, siga estas etapas para copiar personalizações.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Siga estas etapas para copiar exibições pessoais:
+
+    1. Selecione **Exibições pessoais**.
+    2. Selecione as exibições desejadas na lista.
+    3. Selecione **Copiar para usuários**.
+    4. Selecione os usuários para os quais as exibições serão distribuídas.
+
+    Siga estas etapas para copiar personalizações em páginas que não dão suporte a exibições:
+
+    1. Selecione **Configurações do usuário**.
+    2. Selecione o usuário que tem a personalização a ser distribuída.
+    3. Selecione **Gerenciar todas as personalizações**.
+    4. Selecione as personalizações desejadas na lista.
+    5. Selecione **Copiar para usuários**.
+    6. Selecione os usuários para os quais as personalizações serão distribuídas.
+
+Se as exibições salvas não estiverem habilitadas, siga estas etapas para copiar uma personalização.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Selecione **Aplicar**.
+3. Selecione os usuários para os quais a personalização será distribuída.
+4. Selecione **Selecionar personalização existente**.
+5. Localize e selecione a personalização (única) do seu interesse.
+6. Selecione **OK**.
+
+### <a name="export-and-import-views-or-personalizations"></a>Exportar e importar exibições ou personalizações
+
+Outra maneira de compartilhar personalizações é por meio de exportação e importação. Os usuários individuais, ou um administrador que atua em seu nome, podem usar este método para exportar personalizações ou exibições e, depois, conceder o arquivo exportado a outros usuários para importação. Como alternativa, os usuários podem fornecer personalizações exportadas a um usuário com privilégios administrativos, e esse usuário pode usar a página de administração **Personalização** para aplicar o arquivo de personalização a vários usuários ao mesmo tempo.
+
+#### <a name="export"></a>Exportar
+
+Em geral, você pode exportar uma de suas próprias exibições ou personalizações, abrindo a página apropriada, abrindo a barra de ferramentas **Personalização** e selecionando **Exportar**. Para obter mais informações sobre a barra de ferramentas, consulte a seção [Barra de ferramentas Personalização](#personalization-toolbar) anteriormente neste tópico. Como alternativa, se as [exibições salvas](saved-views.md) estiverem habilitadas, você poderá acessar **Configurações \> Usar opções \> Personalização** para exibir uma lista de todas as suas personalizações no sistema. Deste ponto, você pode selecionar as exibições ou personalizações a serem exportadas e, depois, selecionar **Exportar**.
+
+Além disso, os administradores podem exportar personalizações de outros usuários seguindo essas etapas.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Na guia **Usuários**, selecione o usuário desejado.
+3. Localize e selecione a exibição ou personalização do seu interesse.
+4. Selecione **Exportar**.
+
+#### <a name="import"></a>Importar
+
+Para importar uma exibição ou personalização, basta abrir a barra de ferramentas **Personalização** e selecionar **Importar**. Além disso, os administradores podem importar um arquivo e logo fornecê-lo a um ou mais usuários.
+
+Se as exibições salvas estiverem habilitadas, siga estas etapas.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. No Painel de Ações, selecione **Importar exibições \> Exibições de usuário**.
+3. Selecione o modo de importação:
+
+    - **Selecione usuários específicos** – conceda a exibição ou a personalização aos usuários selecionados.
+    - **Importar como está** – importe a exibição ou a personalização para o mesmo usuário que a exportou.
+
+4. Selecione **Navegar**, localize e selecione a personalização a ser importada.
+5. Selecione **Avançar**.
+6. Se você selecionou **Selecionar usuários específicos** na etapa 3, selecione os usuários para os quais a personalização será importada.
+7. Selecione **Importar**.
+8. Resolva os conflitos conforme necessário.
+
+Se as exibições salvas não estiverem habilitadas, siga estas etapas.
+
+1. Acesse **Administração do sistema \> Configuração \> Personalização**.
+2. Selecione **Aplicar**.
+3. Selecione os usuários para os quais a personalização será distribuída.
+4. Selecione **Importar personalizações de um arquivo**.
+5. Selecione **Navegar**, localize e selecione a personalização a ser importada.
+6. Selecione **OK**.
 
 ## <a name="administration-of-personalizations"></a>Administração de personalizações
 
@@ -184,8 +267,11 @@ Para os clientes que tenham o recurso **Exibições salvas** ativado, consulte a
 Para os clientes que ainda não ativaram o recurso [Exibições salvas](saved-views.md), essa página tem quatro guias:
 
 - **Aplicar** – Você pode importar ou selecionar uma personalização de um ou mais usuários. Para aplicar uma personalização a um ou mais usuários, primeiro selecione uma função e os usuários que tenham essa função. Em seguida, selecione uma personalização existente para aplicar aos usuários selecionados ou importe um arquivo de personalização. A personalização será validada e aplicada a todos os usuários selecionados na próxima vez que eles abrirem a página selecionada.
+
 - **Limpar** – você pode limpar todas as personalizações de uma página ou espaço de trabalho para um ou mais usuários. Primeiro, selecione uma página ou espaço de trabalho para ver uma lista de usuários que personalizaram essa página ou espaço de trabalho. Em seguida, selecione os usuários que devem ter as personalizações dessa página ou espaço de trabalho desmarcadas e selecione **Limpar**. Todas as personalizações que os usuários selecionados aplicaram à página ou ao espaço de trabalho selecionado serão excluídas. Essa ação não pode ser desfeita. Entretanto, se uma personalização tiver sido salva para a página ou o espaço de trabalho, essa personalização poderá ser reimportada.
+
 - **Usuários** – Selecione um usuário para ver a lista de páginas que ele personalizou. Você pode habilitar ou desabilitar a capacidade de o usuário selecionado utilizar personalizações para páginas específicas ou para todo o sistema. Também é possível importar, exportar ou limpar uma personalização para o usuário. Além disso, você pode redefinir o recurso de textos explicativos para o usuário. Nesse caso, se o usuário tiver ignorado anteriormente qualquer janela pop-up que apresentava novos recursos, ela será exibida novamente na próxima vez que ele encontrar esses recursos.
+
 - **Sistema** – É possível desativar temporariamente as personalizações de todos os usuários no sistema. Nesse caso, todas as personalizações são excluídas para todos os usuários e todas as páginas são redefinidos para seu estado padrão. Se, mais tarde, você ativar novamente a personalização, todas as personalizações serão reaplicadas. Também é possível excluir permanentemente todas as personalizações de todos os usuários do sistema. Não é possível recuperar as personalizações que foram excluídas. Portanto, antes de executar essa tarefa, verifique se você exportou todas as personalizações de que talvez precise posteriormente.
 
 ## <a name="personalizing-inventory-dimensions"></a>Personalizar dimensões de estoque

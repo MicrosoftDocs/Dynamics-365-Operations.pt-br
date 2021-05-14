@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 55dc237629b7b595b03d48adabc6b31492171e25
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c5e6e96ea1ce821233d7104bb9a7af8e793f4264
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748736"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923471"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamento de hardware para ambientes locais
 
@@ -134,7 +134,7 @@ Para a versão de disponibilidade geral, somente um nó do SSRS poderá ser impl
 
 ## <a name="environment-orchestrator"></a>Orchestrator no ambiente
 
-O serviço Orchestrator é o serviço que gerencia sua implantação e a comunicação relacionada com o LCS. Esse serviço é implantado como o serviço principal do Service Fabric e exige pelo menos três VMs. Esse serviço está localizado no mesmo lugar dos serviços de orquestração do Service Fabric. Isso deve ser ajustado à carga de pico do cluster. Para obter mais informações, consulte [Planejar e preparar sua implantação de cluster autônomo do Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
+O serviço Orchestrator é o serviço que gerencia sua implantação e a comunicação relacionada com o LCS. Esse serviço é implantado como o serviço principal do Service Fabric e exige pelo menos três VMs. Esse serviço está localizado no mesmo lugar dos serviços de orquestração do Service Fabric. Isso deve ser ajustado à carga de pico do cluster. Para obter mais informações, consulte [Planejar e preparar sua implantação de cluster autônomo do Service Fabric](/azure/service-fabric/service-fabric-cluster-standalone-deployment-preparation).
 
 ## <a name="virtualization-and-oversubscription"></a>Virtualização e excesso de subscrição
 

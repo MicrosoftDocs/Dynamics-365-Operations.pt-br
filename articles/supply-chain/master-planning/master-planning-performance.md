@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 73ef52580ffe80c6c5cc9f77c2088d071a749ca7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
+ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833440"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935800"
 ---
 # <a name="improve-master-planning-performance"></a>Melhorar o desempenho de planejamento mestre
 
@@ -81,7 +81,7 @@ Você pode definir o parâmetro **Uso do cache** na seção **Desempenho** na gu
 
 O parâmetro **Número de ordens em pacote de confirmação** especifica o número total de ordens que serão processadas de cada vez por cada thread/lote. Ele causa paralelização do processo de confirmação automática.
 
-Você pode definir o parâmetro **Número de ordens em pacote de confirmação** na seção **Desempenho** na guia **Geral** da página **Parâmetros de planejamento mestre** (**Planejamento mestre \> Configuração \> Parâmetros de planejamento mestre**). A paralelização do processo de confirmação automática é baseada nas ordens que devem ser processadas juntas. Por exemplo, se este parâmetro for definido como **50**, cada thread ou tarefa em lotes coletará 50 pedidos de cada vez e os processará juntos. Recomenda-se usar um processo da tentativa e erro para localizar o melhor valor. Entretanto, você pode usar a seguinte fórmula para calcular um valor inicial:
+Você pode definir o parâmetro **Número de ordens em pacote de confirmação** na seção **Desempenho** na guia **Geral** da página **Parâmetros de planejamento mestre** (**Planejamento mestre \> Configuração \> Parâmetros de planejamento mestre**). A paralelização do processo de confirmação automática se baseia nas ordens que devem ser processadas juntas. Por exemplo, se este parâmetro for definido como **50**, cada thread ou tarefa em lotes coletará 50 pedidos de cada vez e os processará juntos. Recomenda-se usar um processo da tentativa e erro para localizar o melhor valor. Entretanto, você pode usar a seguinte fórmula para calcular um valor inicial:
 
 (Número de ordens por pacote) = (Número de itens de demanda ÷ Número de threads)
 

@@ -1,8 +1,8 @@
 ---
 title: Criar e manter um bloqueio de estoque
-description: Este procedimento mostra como evitar que o estoque físico disponível seja reservado para outros documentos de origem de saída usando o bloqueio de estoque.
+description: Este tópico descreve como usar um bloqueio de estoque para evitar que o estoque físico disponível seja reservado por outros documentos de origem de saída.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956149"
 ---
 # <a name="create-and-maintain-an-inventory-blocking"></a>Criar e manter um bloqueio de estoque
 
 [!include [banner](../../includes/banner.md)]
 
-Este procedimento mostra como evitar que o estoque físico disponível seja reservado para outros documentos de origem de saída usando o bloqueio de estoque. Você pode executar o procedimento na empresa USMF de dados de demonstração usando os valores de exemplo mostrados. Você precisa ter um item do estoque físico disponível antes de iniciar este procedimento.
+Este tópico descreve como usar um bloqueio de estoque para evitar que o estoque físico disponível seja reservado por outros documentos de origem de saída. Antes de iniciar os procedimentos deste tópico, você precisa ter um item do estoque físico disponível.
 
+## <a name="block-inventory"></a>Bloquear estoque
 
-## <a name="create-an-inventory-blocking"></a>Criar um bloqueio de estoque
-1. No **Painel de Navegação**, vá para **Módulos > Gerenciamento de estoque > Tarefas periódicas > Bloqueio de estoque**.
-2. Clique em **Novo**.
-3. No campo **Número do item**, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, selecione o item que deseja escolher. Selecione um número de item com estoque físico disponível que você deseja bloquear. Se você estiver usando USMF, você pode o item M9201.  
-5. No campo **Quantidade.**, insira um número Se você estiver usando o item M9201, você precisará selecionar menos de 200.
-6. Expanda a Guia Rápida **Dimensões de estoque**.
-7. No campo **Depósito**, clique no botão suspenso para abrir a pesquisa.
-8. Na lista, localize e selecione o PDV desejado. Se você estiver usando o item M9201, você pode selecionar o depósito 51.  
-9. Clique em **Salvar**.
+Para criar um registro de bloqueio de estoque para que o estoque seja bloqueado, siga estas etapas.
+
+1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Bloqueio de estoque**.
+1. No Painel de Ações, selecione **Novo**.
+1. No cabeçalho do novo registro de bloqueio, defina o campo **Número do item** como o item que você deseja bloquear e digite uma descrição.
+1. Na FastTab **Geral**, no campo **Quantidade**, insira o número de itens para bloquear.
+1. Na FastTab **Dimensões de estoque**, especifique o local e o depósito onde os itens que você deseja bloquear estão localizados no momento.
+1. No Painel de ações, selecione **Salvar**.
 
 ## <a name="update-the-conditions-of-the-inventory-blocking"></a>Atualizar as condições de bloqueio de estoque
-1. Na Guia Rápida **Geral**, no campo **Quantidade**, insira um número. Atualize o campo de quantidade em estoque para refletir a quantidade para bloquear.  
-2. No campo **Data estimada**, insira uma data. Você pode desejar indicar quando o estoque bloqueado deve ficar disponível para reserva atribuindo uma data esperada. Se a opção esperada de recebimentos é marcada para o bloqueio de estoque, como é por padrão ao criar manualmente um bloqueio, essa data será exibida na transação esperada.  
-3. Clique em **Salvar**.
 
-## <a name="remove-the-inventory-blocking"></a>Remover o bloqueio de estoque
-1. No **Painel de Ação**, clique em **Excluir**.
-2. Clique em **Sim**.
-3. Feche a página.
+Para atualizar um registro de bloqueio de estoque, siga estas etapas.
 
+1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Bloqueio de estoque**.
+1. No painel de lista, selecione o registro de bloqueio relevante.
+1. Edite o registro, conforme necessário. Por exemplo, você pode alterar o valor do campo **Data esperada** para indicar quando o estoque bloqueado deve ficar disponível para reserva. Se a opção **Recebimentos esperados** for selecionada, a data aparecerá na transação esperada. (A opção **Recebimentos esperados** é selecionada por padrão quando você criar manualmente um registro de bloqueio.)
+1. No Painel de ações, selecione **Salvar**.
 
+## <a name="unblock-inventory"></a>Desbloquear estoque
+
+Para remover um registro de bloqueio de estoque para que o estoque seja desbloqueado, siga estas etapas.
+
+1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Bloqueio de estoque**.
+1. No painel de lista, selecione o registro de bloqueio relevante.
+1. No Painel de Ações, selecione **Excluir**.
+1. Será solicitado que você confirme a operação. Selecione **Sim** para continuar.
+1. Feche a página.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Gestão de qualidade para processos de depósito
 description: Este tópico fornece informações sobre o recurso Gestão de qualidade para processos de depósito. Ele amplia os recursos de gerenciamento da qualidade e permite que os usuários integrem controles de amostragem de item ao processo de recebimento do depósito, usando o gerenciamento avançado de depósito.
 author: Henrikan
-ms.date: 04/02/2020
+ms.date: 03/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: a049a7832e02dbd2debdd016a6b723726cc25df0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: db23ffcea4da28fa309ccca12540e0edaf00ad6c
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834256"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956073"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
 
@@ -620,5 +620,8 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
 > [!NOTE]
 > Considere adicionar a entrada fora da qualidade a um item de menu do dispositivo móvel em que o código de atividade é *Exibir lista de trabalhos abertos*. Por exemplo, consulte o item de menu do dispositivo móvel chamado **Lista de trabalho** nos dados de demonstração. Primeiro, adicione a classe de trabalho *Ordem de qualidade* a um item de menu direcionado ao usuário, porque essa classe de trabalho é necessária para que o trabalho seja mostrado na lista de trabalho. Em seguida, adicione a classe de trabalho *Ordem de qualidade* ao item de menu **Lista de trabalho**. Os usuários que têm acesso à lista de trabalho poderão escolher e processar o trabalho gerado automaticamente pela validação da ordem de qualidade.
 
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Visão geral do gerenciamento de qualidade e não conformidade](quality-management-processes.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

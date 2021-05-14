@@ -1,5 +1,5 @@
 ---
-title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.18 (maio de 2021)
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.18 (maio de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.18.
 author: kamaybac
 ms.date: 03/01/2021
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ae65afbcaca1f2f390520e1108d8363c3e248c60
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d84520b8f551df847cb5d77d8dcbce1701d3795b
+ms.sourcegitcommit: d77b2175a3364694b5c74e0062e317f612416796
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909344"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5934958"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10018-may-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.18 (maio de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.18 (maio de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista os recursos novos ou alterados na versão preliminar da versão 10.0.18 do Microsoft Dynamics 365 Supply Chain Management. Esta versão tem um número de compilação de 10.0.793 e está disponível da seguinte maneira:
+Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management 10.0.18. Esta versão tem um número de compilação de 10.0.793 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** março de 2021
 - **Disponibilidade geral da versão (autoatualização):** abril de 2021
@@ -43,9 +42,17 @@ Os seguintes recursos estão incluídos nesta versão. Siga os links para o [pla
 
 - [Gerenciamento de reembolsos](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Para obter mais informações, consulte [Visão geral do módulo Gerenciamento de reembolsos](../rebate-management/rebate-management-overview.md)
 
+- [Política de configuração de exportação da entidade de dados de vendas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
+
+- [Registro de linha da ordem de devolução de venda com precisão decimal com e sem peso variável](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-return-order-line-registration-decimal-precision-without-catch-weight)
+
+- [Confirmação de ordem de venda com um único clique](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/single-click-sales-order-confirmation)
+
+- [Ordem de venda para a política de exclusão de linha de ordem de compra](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-purchase-order-line-deletion-policy)
+
 - Interface simplificada somente para entrada e saída (aprimoramento para [Interface aprimorada de execução de piso de produção para fabricação](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing))<br> - Para obter mais informações, consulte [Configurar a interface de execução de piso de produção](../production-control/production-floor-execution-configure.md).
 
-A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis. 
+A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 

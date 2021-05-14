@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: fb71d941a5cd58701f723e56a07c6b6cca6689bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
+ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830019"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5954636"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -74,7 +74,7 @@ Para adicionar uma linha à grade, selecione **Novo** na barra de ferramentas ac
 
 A tabela a seguir descreve os campos em cada linha.
 
-| Campo | descrição |
+| Campo | Descrição |
 |---|---|
 | Data e hora de criação | A data e a hora em que a linha foi criada. |
 | Tipo | O tipo de informação para o qual a linha foi criada (arquivo, imagem, nota ou URL). |
@@ -139,13 +139,14 @@ Enquanto estiver revisando uma solicitação de alteração, no Painel de Açõe
 
 Como é descrito em [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md), os dados de produtos que podem ser editados variam, de acordo com o tipo de entidade legal em que você está trabalhando (uma empresa de engenharia x uma empresa operacional). As regras de propriedade de dados também são aplicadas às ordens de alteração de engenharia. Portanto, dependendo da entidade legal em que você cria uma ordem de alteração de engenharia, diferentes tipos de alterações podem ser feitas. Eis alguns exemplos:
 
-- Para ordens de alteração de engenharia em uma **empresa de engenharia**, você pode fazer alterações básicas nos dados de engenharia. Por exemplo, você pode criar novas versões de um produto, alterar a estrutura de um produto por meio da BOM e alterar os valores de atributo de engenharia. Para cada produto afetado, selecione um dos seguintes valores no campo **Impacto**:
+- Para ordens de alteração de engenharia em uma *empresa de engenharia*, você pode fazer alterações básicas nos dados de engenharia. Por exemplo, você pode criar novas versões de um produto, alterar a estrutura de um produto por meio da BOM e alterar os valores de atributo de engenharia. Para cada produto afetado, selecione um dos seguintes valores no campo **Impacto**:
 
     - **Nenhum** – atualize a versão do produto existente (atualização na versão).
     - **Nova versão** – crie uma nova versão baseada na versão do produto selecionada.
-    - **Novo produto** – crie um produto ou uma grade de produtos totalmente nova com base na versão do produto selecionada.
+    - **Novo produto** – crie um produto totalmente novo com base na versão do produto selecionada.
+    - **Nova grade** – crie uma nova grade baseada na versão do produto selecionada. As informações de BOM e de roteiro serão copiadas.
 
-- Para ordens de alteração de engenharia em uma **empresa operacional**, você pode alterar os dados logísticos do produto. Por exemplo, você pode enriquecer a BOM existente com as configurações de origem, adicionar roteiros locais ou BOMs locais, e até enriquecer uma BOM adicionando novas linhas de BOM para o material de embalagem local, fluidos de lubrificação ou instruções no idioma local. Os aprimoramentos que os usuários fazem na empresa operacional serão preservados quando novas atualizações forem enviadas da empresa de engenharia. Para obter mais informações, consulte [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md).
+- Para ordens de alteração de engenharia em uma *empresa operacional*, você pode alterar os dados logísticos do produto. Por exemplo, você pode enriquecer a BOM existente com as configurações de origem, adicionar roteiros locais ou BOMs locais, e até enriquecer uma BOM adicionando novas linhas de BOM para o material de embalagem local, fluidos de lubrificação ou instruções no idioma local. Os aprimoramentos que os usuários fazem na empresa operacional serão preservados quando novas atualizações forem enviadas da empresa de engenharia. Para obter mais informações, consulte [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md).
 
     Quando as ordens de alteração de engenharia são processadas na empresa de engenharia, os produtos são criados e/ou atualizados somente na empresa de engenharia. Portanto, se os dados do produto mestre também precisarem ser atualizados, você também deverá liberar os produtos para empresas operacionais.
 

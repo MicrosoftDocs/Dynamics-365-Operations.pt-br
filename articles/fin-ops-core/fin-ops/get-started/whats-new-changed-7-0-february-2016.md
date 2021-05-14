@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6539bf6acf0216f1491cbf852f2c9a7063fbe26e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fffe8aa99641846c0052dfa4a42856c8dddb8a5
+ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752857"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "5923216"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Novidades ou alterações no Dynamics AX 7.0 (fevereiro de 2016)
 
@@ -732,7 +732,7 @@ Com o gerenciamento de Servidor de Varejo e dados, clientes e empresas podem cri
 </tr>
 <tr>
 <td>Migre dados entre o back-office e os canais do Microsoft Dynamics AX usando o Commerce Data Exchange.</td>
-<td>O Commerce Data Exchange é um sistema que transfere dados entre o Microsoft Dynamics AX e os canais de varejo, como lojas online ou lojas físicas. Para obter mais informações, consulte <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>.</td>
+<td>O Commerce Data Exchange é um sistema que transfere dados entre o Microsoft Dynamics AX e os canais de varejo, como lojas online ou lojas físicas. Para obter mais informações, consulte <a href="/dynamicsax-2012/appuser-itpro/commerce-data-exchange">Commerce Data Exchange [AX 2012]</a>.</td>
 <td>Há uma paridade funcional com o CU8 do Microsoft Dynamics AX 2012. No entanto, observe os seguintes detalhes:
 <ul>
 <li>O Commerce Data Exchange foi reprojetado para a nuvem.</li>

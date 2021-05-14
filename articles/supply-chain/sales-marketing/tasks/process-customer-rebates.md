@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ed48d41926c801c9017867be2eaa9af85a94b119
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f29a5014b98daa5150e01b541a076237e45ff180
+ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817668"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951950"
 ---
 # <a name="generate-and-process-customer-rebates"></a>Gerar e processar reembolsos de cliente
 
@@ -62,7 +62,7 @@ Este procedimento demonstra como processar reembolsos de cliente desde a geraç�
 
 ## <a name="process-rebate-claims"></a>Solicitações de reembolso do processo
 1. Acesse **Painel de Navegação > Módulos > Vendas e marketing > Reembolsos de clientes > Reembolso**.
-    - A página Reembolsos atua como uma bancada na qual você pode revisar, aprovar, e processar reivindicações de reembolso. Agora você processará as reivindicações que foram criadas como resultado da cobrança de uma ordem de venda para o cliente US-009, que é o sujeito do contrato de reembolso USMF-000001.   
+    - A página Reembolsos atua como uma bancada na qual você pode revisar, aprovar e processar reivindicações de reembolso. Agora você processará as reivindicações que foram criadas como resultado da cobrança de uma ordem de venda para o cliente US-009, que é o sujeito do contrato de reembolso USMF-000001.   
     - A primeira linha representa uma reivindicação de reembolso de 800 USD, com base nas vendas de 40 unidades do produto T0020, calculado a 20 USD por unidade. Isso corresponde às condições da primeira divisão de quantidade do acordo de reembolso.  
     - A segunda reivindicação é de 2.400 USD, que se baseia nas vendas de 60 unidades do produto T0020, calculada a 40 USD por unidade, como previsto pela segunda divisão de quantidade do contrato.  
     - Ambas as reivindicações estão no estado "A ser calculada". Isso significa que elas estão associadas a um contrato que rastreia o desempenho de vendas do cliente periodicamente e que elas devem ser calculadas novamente para levar em consideração o volume total de vendas dentro do respectivo período.   

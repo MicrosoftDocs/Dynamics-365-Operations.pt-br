@@ -2,7 +2,7 @@
 title: Visão geral de trabalhos de importação e exportação de dados
 description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
-ms.date: 11/02/2020
+ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cb38c812aed60bddadce25f66ec77f4e428be71
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
+ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750991"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5937321"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -161,19 +161,7 @@ Para acelerar a importação de dados, o processamento paralelo da importação 
     - No campo **Contagem de registros do limite de importação**, insira a contagem de registros de limite para a importação. Isso determina a contagem de registros a ser processada por um thread. Se um arquivo tiver 10 mil registros, uma contagem de registros equivalente a 2500 com uma contagem de tarefas igual a 4 indica que cada thread processará 2500 registros.
     - No campo **Contagem de tarefas de importação**, insira a contagem de tarefas de importação. Isto não deve ultrapassar o máximo de segmentos de lote alocados para o processamento em lote em **Administração do sistema \> Configuração do servidor**.
 
-## <a name="clean-up-the-staging-tables"></a>Limpar as tabelas de preparo
-Começando no Update 29 para plataforma, essa funcionalidade foi substituída. Isso é substituído por uma nova versão da funcionalidade de limpeza de histórico de trabalho explicada abaixo.
-
-Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** no espaço trabalho **Gerenciamento de dados**. Você pode usar as opções para selecionar os registros que devem ser excluídos da tabela de preparo:
-
-- **Entidade** – Se apenas uma entidade for fornecida, todos os registros dessa tabela de preparo da entidade serão excluídos. Selecione esta opção para limpar todos os dados da entidade em todos os projetos de dados e de todos os trabalhos.
-- **ID de trabalho** – Se somente um ID de trabalho for fornecido, todos os registros de todas as entidades no trabalho selecionado serão excluídos das tabelas de preparo apropriadas.
-- **Projetos de dados** – Se apenas um projeto de dados for selecionado, todos os registros de todas as entidades e em todos os trabalhos do projeto de dados selecionado serão excluídos.
-
-Você também pode combinar as opções para restringir mais o conjunto de registros que foi excluído.
-
-## <a name="job-history-clean-up-available-in-platform-update-29-and-later"></a>A limpeza de histórico de trabalho (disponível no Update 29 para plataforma e posterior)
-
+## <a name="job-history-clean-up"></a>Limpeza do histórico de trabalhos 
 A funcionalidade de limpeza de histórico de trabalho no gerenciamento de dados deve ser usada para agendar uma limpeza periódica do histórico de execução. Esta funcionalidade substitui a funcionalidade de limpeza da tabela de preparo anterior, que agora é obsoleta. As tabelas a seguir serão limpadas pelo processo de limpeza.
 
 -   Todas as tabelas de preparo

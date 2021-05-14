@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9267047b4bf1ab4185efca9980e0f517f4b05096
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a816f6cff90b8292f66d73b12d328c3f56108957
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812511"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920548"
 ---
 # <a name="set-up-an-external-catalog-for-punchout-e-procurement"></a>​Configurar um catálogo externo para PunchOut e-procurement
 
@@ -40,7 +40,7 @@ O catálogo externo deve permitir que um funcionário que insere uma requisiçã
 
 1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](tasks/set-up-policies-procurement-category-hierarchies.md).
 2. Registrar o fornecedor no Supply Chain Management. Antes de estabelecer as configurações para acessar o catálogo externo de um fornecedor, é necessário configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O fornecedor do catálogo externo também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir fornecedores a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](tasks/approve-vendors-specific-procurement-categories.md).
-3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidade de medida](../pim/tasks/manage-unit-measure.md).
+3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidades de medida](../pim/tasks/manage-unit-measure.md).
 4. Configurar o catálogo externo do fornecedor usando os requisitos do site do catálogo externo do fornecedor. Para obter mais detalhes sobre essa tarefa, consulte [Configurar o catálogo de fornecedor externo](#configure-the-external-vendor-catalog).
 5. Teste as configurações do catálogo externo do fornecedor para verificar se as configurações são válidas e se você pode acessar o catálogo externo do fornecedor. Use a ação **Validar configurações** para validar a mensagem de configuração de solicitação que você definiu. Essa mensagem deve fazer com que o site do catálogo externo dos fornecedores seja aberto em uma janela do navegador. Durante a validação, você não pode encomendar itens e serviços do fornecedor. Para encomendar itens e serviços, você deve acessar o catálogo do fornecedor de uma requisição de compra.
 6. Ative o catálogo externo usando o botão **Ativar catálogo** na página **Catálogos externos**. O catálogo externo deve ser ativado antes que os funcionários possam usá-lo. Você pode desativar o catálogo externo a qualquer momento.

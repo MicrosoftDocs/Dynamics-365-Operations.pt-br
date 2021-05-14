@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b75743a64fef53f79159a1476c99a7035b7e4f3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c2e638aeed967db055948dc3addcb4d59f210a5
+ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839164"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920076"
 ---
 # <a name="rebate-management-deals"></a>Acordos de gerenciamento de reembolso
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Os acordos de gerenciamento de reembolso são usados para controlar diferentes métodos e bases para calcular reembolsos e royalties. Eles incluem regras para inclusões e exclusões. Há três tipos de acordos de gerenciamento de reembolso: reembolsos de clientes, royalties de clientes e reembolsos de fornecedores. Os três tipos usam configurações semelhantes. Este tópico indica onde há diferenças.
 

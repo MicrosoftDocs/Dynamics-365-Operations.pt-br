@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4767d5dc3944d2595a5b2a74a6d5c7c0ea0c849a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2c945756997b0580ac7ffb19261f9184e53a1c10
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809437"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920498"
 ---
 # <a name="approve-a-product-configuration-model"></a>Aprovar um modelo da configuração do produto
 
@@ -26,25 +26,24 @@ ms.locfileid: "5809437"
 
 Executar este procedimento exige que pelo menos um modelo de configuração do produto esteja disponível. Este procedimento usa o modelo de alto-falante avançado na empresa de dados de demonstração USMF. Observe que esse modelo já foi aprovado, mas o procedimento o conduz por todo o processo.
 
-1. Clique em Definição de modelo de variante de produto.
-2. Clique em Modelos de configuração do produto.
-3. Na lista, localize e selecione o PDV desejado.
+1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Na lista, localize e selecione o registro desejado.
     * Selecione o modelo alto-falante avançado para este procedimento.  
-4. Clique em Versões.
-5. Clique em Novo.
-6. No campo Número do produto, insira ou selecione um valor.
+1. Selecione **Versões**.
+1. Selecione **Novo**.
+1. No campo **Número do produto**, insira ou selecione um valor.
     * A referência a um produto representa uma versão do modelo de configuração do produto. Somente os produtos mestre que têm a tecnologia de configuração com base restrição aparecerão na lista.  
-7. No campo De data, insira uma data.
+1. No campo **Data inicial**, insira uma data.
     * Selecione quando a versão do modelo de produto estará disponível.  
-8. No campo Para data, insira uma data.
+1. No campo **Data final**, insira uma data.
     * Selecione uma data final na qual essa versão do modelo de produto irá expirar ou selecione Nunca.  
-9. Clique em Aprovar para abrir a caixa de diálogo suspensa.
-10. No campo Aprovado por, insira ou selecione um valor.
+1. Selecione **Aprovar** para abrir a caixa de diálogo suspensa.
+1. No campo **Aprovado por** insira ou selecione um valor.
     * Selecione a pessoa é responsável pela aprovação de modelos de produto para uso nas operações.  
-11. Clique em OK.
-12. No campo Método de precificação, selecione uma opção.
+1. Selecione **OK**.
+1. No campo **Método de precificação**, selecione uma opção.
     * Ative a versão do modelo de produto. Só é possível ter um produto ativo para um modelo de produto por vez.  
-13. Feche a página.
+1. Feche a página.
 
 
 
