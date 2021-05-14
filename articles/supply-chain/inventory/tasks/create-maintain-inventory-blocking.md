@@ -1,8 +1,8 @@
 ---
 title: Criar e manter um bloqueio de estoque
-description: Este procedimento mostra como evitar que o estoque físico disponível seja reservado para outros documentos de origem de saída usando o bloqueio de estoque.
+description: Este tópico descreve como usar um bloqueio de estoque para evitar que o estoque físico disponível seja reservado por outros documentos de origem de saída.
 author: perlynne
-ms.date: 08/08/2019
+ms.date: 03/23/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -14,41 +14,47 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319ae6da1e0e504316b2d96001d582e835cef20c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9aa38ca52da577fff258bb330922ad7f4044330
+ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "5956149"
 ---
-# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="ca2c0-103">Criar e manter um bloqueio de estoque</span><span class="sxs-lookup"><span data-stu-id="ca2c0-103">Create and maintain an inventory blocking</span></span>
+# <a name="create-and-maintain-an-inventory-blocking"></a><span data-ttu-id="f153a-103">Criar e manter um bloqueio de estoque</span><span class="sxs-lookup"><span data-stu-id="f153a-103">Create and maintain an inventory blocking</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="ca2c0-104">Este procedimento mostra como evitar que o estoque físico disponível seja reservado para outros documentos de origem de saída usando o bloqueio de estoque.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-104">This procedure shows how to prevent physical on-hand inventory from being reserved by other outbound source documents by using the inventory blocking.</span></span> <span data-ttu-id="ca2c0-105">Você pode executar o procedimento na empresa USMF de dados de demonstração usando os valores de exemplo mostrados.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-105">You can run the procedure in demo data company USMF using the example values that are shown.</span></span> <span data-ttu-id="ca2c0-106">Você precisa ter um item do estoque físico disponível antes de iniciar este procedimento.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-106">You need to have an item with physical on-hand inventory available before you start this procedure.</span></span>
+<span data-ttu-id="f153a-104">Este tópico descreve como usar um bloqueio de estoque para evitar que o estoque físico disponível seja reservado por outros documentos de origem de saída.</span><span class="sxs-lookup"><span data-stu-id="f153a-104">This topic describes how to use an inventory blocking to prevent physical on-hand inventory from being reserved by other outbound source documents.</span></span> <span data-ttu-id="f153a-105">Antes de iniciar os procedimentos deste tópico, você precisa ter um item do estoque físico disponível.</span><span class="sxs-lookup"><span data-stu-id="f153a-105">Before you start the procedures in this topic, you must have an item that physical on-hand inventory is available for.</span></span>
 
+## <a name="block-inventory"></a><span data-ttu-id="f153a-106">Bloquear estoque</span><span class="sxs-lookup"><span data-stu-id="f153a-106">Block inventory</span></span>
 
-## <a name="create-an-inventory-blocking"></a><span data-ttu-id="ca2c0-107">Criar um bloqueio de estoque</span><span class="sxs-lookup"><span data-stu-id="ca2c0-107">Create an inventory blocking</span></span>
-1. <span data-ttu-id="ca2c0-108">No **Painel de Navegação**, vá para **Módulos > Gerenciamento de estoque > Tarefas periódicas > Bloqueio de estoque**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-108">In the **Navigation pane**, go to **Modules > Inventory management > Periodic tasks > Inventory blocking**.</span></span>
-2. <span data-ttu-id="ca2c0-109">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-109">Click **New**.</span></span>
-3. <span data-ttu-id="ca2c0-110">No campo **Número do item**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-110">In the **Item number** field, click the drop-down button to open the lookup.</span></span>
-4. <span data-ttu-id="ca2c0-111">Na lista, selecione o item que deseja escolher.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-111">In the list, select the item you want to choose.</span></span> <span data-ttu-id="ca2c0-112">Selecione um número de item com estoque físico disponível que você deseja bloquear.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-112">Select an item number with physical on-hand inventory that you want to block.</span></span> <span data-ttu-id="ca2c0-113">Se você estiver usando USMF, você pode o item M9201.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-113">If you're using USMF you can select item M9201.</span></span>  
-5. <span data-ttu-id="ca2c0-114">No campo **Quantidade.**, insira um número</span><span class="sxs-lookup"><span data-stu-id="ca2c0-114">In the **Quantity** field, enter a number.</span></span> <span data-ttu-id="ca2c0-115">Se você estiver usando o item M9201, você precisará selecionar menos de 200.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-115">If you're using item M9201, you need to select less than 200.</span></span>
-6. <span data-ttu-id="ca2c0-116">Expanda a Guia Rápida **Dimensões de estoque**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-116">Expand the **Inventory dimensions** fastTab.</span></span>
-7. <span data-ttu-id="ca2c0-117">No campo **Depósito**, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-117">In the **Warehouse** field, click the drop-down button to open the lookup.</span></span>
-8. <span data-ttu-id="ca2c0-118">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-118">In the list, find and select the desired record.</span></span> <span data-ttu-id="ca2c0-119">Se você estiver usando o item M9201, você pode selecionar o depósito 51.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-119">If you're using item M9201, you can select warehouse 51.</span></span>  
-9. <span data-ttu-id="ca2c0-120">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-120">Click **Save**.</span></span>
+<span data-ttu-id="f153a-107">Para criar um registro de bloqueio de estoque para que o estoque seja bloqueado, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="f153a-107">To create an inventory blocking record so that inventory is blocked, follow these steps.</span></span>
 
-## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="ca2c0-121">Atualizar as condições de bloqueio de estoque</span><span class="sxs-lookup"><span data-stu-id="ca2c0-121">Update the conditions of the inventory blocking</span></span>
-1. <span data-ttu-id="ca2c0-122">Na Guia Rápida **Geral**, no campo **Quantidade**, insira um número.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-122">In the **General** fastTab, in the **Quantity** field, enter a number.</span></span> <span data-ttu-id="ca2c0-123">Atualize o campo de quantidade em estoque para refletir a quantidade para bloquear.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-123">Update the inventory quantity field to reflect the quantity to block.</span></span>  
-2. <span data-ttu-id="ca2c0-124">No campo **Data estimada**, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-124">In the **Expected date** field, enter a date.</span></span> <span data-ttu-id="ca2c0-125">Você pode desejar indicar quando o estoque bloqueado deve ficar disponível para reserva atribuindo uma data esperada.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-125">You might want to indicate when the blocked inventory is expected to become available for reservation by assigning an expected date.</span></span> <span data-ttu-id="ca2c0-126">Se a opção esperada de recebimentos é marcada para o bloqueio de estoque, como é por padrão ao criar manualmente um bloqueio, essa data será exibida na transação esperada.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-126">If the Expected receipts option is selected for the inventory blocking, as it is by default when you manually create a blocking, this date will appear on the expected transaction.</span></span>  
-3. <span data-ttu-id="ca2c0-127">Clique em **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-127">Click **Save**.</span></span>
+1. <span data-ttu-id="f153a-108">Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Bloqueio de estoque**.</span><span class="sxs-lookup"><span data-stu-id="f153a-108">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="f153a-109">No Painel de Ações, selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="f153a-109">On the Action Pane, select **New**.</span></span>
+1. <span data-ttu-id="f153a-110">No cabeçalho do novo registro de bloqueio, defina o campo **Número do item** como o item que você deseja bloquear e digite uma descrição.</span><span class="sxs-lookup"><span data-stu-id="f153a-110">On the header of the new blocking record, set the **Item number** field to the item that you want to block, and enter a description.</span></span>
+1. <span data-ttu-id="f153a-111">Na FastTab **Geral**, no campo **Quantidade**, insira o número de itens para bloquear.</span><span class="sxs-lookup"><span data-stu-id="f153a-111">On the **General** FastTab, in the **Quantity** field, enter the number of items to block.</span></span>
+1. <span data-ttu-id="f153a-112">Na FastTab **Dimensões de estoque**, especifique o local e o depósito onde os itens que você deseja bloquear estão localizados no momento.</span><span class="sxs-lookup"><span data-stu-id="f153a-112">On the **Inventory dimensions** FastTab, specify the site and warehouse where the items that you want to block are currently located.</span></span>
+1. <span data-ttu-id="f153a-113">No Painel de ações, selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="f153a-113">On the Action Pane, select **Save**.</span></span>
 
-## <a name="remove-the-inventory-blocking"></a><span data-ttu-id="ca2c0-128">Remover o bloqueio de estoque</span><span class="sxs-lookup"><span data-stu-id="ca2c0-128">Remove the inventory blocking</span></span>
-1. <span data-ttu-id="ca2c0-129">No **Painel de Ação**, clique em **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-129">On the **Action Pane**, click **Delete**.</span></span>
-2. <span data-ttu-id="ca2c0-130">Clique em **Sim**.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-130">Click **Yes**.</span></span>
-3. <span data-ttu-id="ca2c0-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ca2c0-131">Close the page.</span></span>
+## <a name="update-the-conditions-of-the-inventory-blocking"></a><span data-ttu-id="f153a-114">Atualizar as condições de bloqueio de estoque</span><span class="sxs-lookup"><span data-stu-id="f153a-114">Update the conditions of the inventory blocking</span></span>
 
+<span data-ttu-id="f153a-115">Para atualizar um registro de bloqueio de estoque, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="f153a-115">To update an inventory blocking record, follow these steps.</span></span>
 
+1. <span data-ttu-id="f153a-116">Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Bloqueio de estoque**.</span><span class="sxs-lookup"><span data-stu-id="f153a-116">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="f153a-117">No painel de lista, selecione o registro de bloqueio relevante.</span><span class="sxs-lookup"><span data-stu-id="f153a-117">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="f153a-118">Edite o registro, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="f153a-118">Edit the record as required.</span></span> <span data-ttu-id="f153a-119">Por exemplo, você pode alterar o valor do campo **Data esperada** para indicar quando o estoque bloqueado deve ficar disponível para reserva.</span><span class="sxs-lookup"><span data-stu-id="f153a-119">For example, you might change the value of the **Expected date** field to indicate when the blocked inventory is expected to become available for reservation.</span></span> <span data-ttu-id="f153a-120">Se a opção **Recebimentos esperados** for selecionada, a data aparecerá na transação esperada.</span><span class="sxs-lookup"><span data-stu-id="f153a-120">If the **Expected receipts** option is selected, the date will appear on the expected transaction.</span></span> <span data-ttu-id="f153a-121">(A opção **Recebimentos esperados** é selecionada por padrão quando você criar manualmente um registro de bloqueio.)</span><span class="sxs-lookup"><span data-stu-id="f153a-121">(The **Expected receipts** option is selected by default when you manually create a blocking record.)</span></span>
+1. <span data-ttu-id="f153a-122">No Painel de ações, selecione **Salvar**.</span><span class="sxs-lookup"><span data-stu-id="f153a-122">On the Action Pane, select **Save**.</span></span>
+
+## <a name="unblock-inventory"></a><span data-ttu-id="f153a-123">Desbloquear estoque</span><span class="sxs-lookup"><span data-stu-id="f153a-123">Unblock inventory</span></span>
+
+<span data-ttu-id="f153a-124">Para remover um registro de bloqueio de estoque para que o estoque seja desbloqueado, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="f153a-124">To remove an inventory blocking record so that inventory is unblocked, follow these steps.</span></span>
+
+1. <span data-ttu-id="f153a-125">Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Bloqueio de estoque**.</span><span class="sxs-lookup"><span data-stu-id="f153a-125">Go to **Inventory management \> Periodic tasks \> Inventory blocking**.</span></span>
+1. <span data-ttu-id="f153a-126">No painel de lista, selecione o registro de bloqueio relevante.</span><span class="sxs-lookup"><span data-stu-id="f153a-126">In the list pane, select the relevant blocking record.</span></span>
+1. <span data-ttu-id="f153a-127">No Painel de Ações, selecione **Excluir**.</span><span class="sxs-lookup"><span data-stu-id="f153a-127">On the Action Pane, select **Delete**.</span></span>
+1. <span data-ttu-id="f153a-128">Será solicitado que você confirme a operação.</span><span class="sxs-lookup"><span data-stu-id="f153a-128">You're prompted to confirm the operation.</span></span> <span data-ttu-id="f153a-129">Selecione **Sim** para continuar.</span><span class="sxs-lookup"><span data-stu-id="f153a-129">Select **Yes** to continue.</span></span>
+1. <span data-ttu-id="f153a-130">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f153a-130">Close the page.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

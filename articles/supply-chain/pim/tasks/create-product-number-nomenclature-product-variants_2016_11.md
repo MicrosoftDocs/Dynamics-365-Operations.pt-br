@@ -13,92 +13,91 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f342831d95f9988f9bb7807bac986e43cb317e0f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7ea30dc107213b1a2c6b2a109188066a6ea82159
+ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819996"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5921002"
 ---
-# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="51c49-103">Criar uma nomenclatura de produtos de grades de produto configuradas</span><span class="sxs-lookup"><span data-stu-id="51c49-103">Create a product number nomenclature for configured product variants</span></span>
+# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a><span data-ttu-id="28954-103">Criar uma nomenclatura de produtos de grades de produto configuradas</span><span class="sxs-lookup"><span data-stu-id="28954-103">Create a product number nomenclature for configured product variants</span></span>
 
 [!include [banner](../../includes/banner.md)]
 
-<span data-ttu-id="51c49-104">Este procedimento mostra como configurar uma nomenclatura de número de produto para grades de produtos configurados e como ela pode ser anexada a um produto mestre configurável.</span><span class="sxs-lookup"><span data-stu-id="51c49-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="51c49-105">O procedimento também demonstra como você pode criar uma nomenclatura de configuração para um componente de modelo de configuração de produto.</span><span class="sxs-lookup"><span data-stu-id="51c49-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="51c49-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="51c49-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="51c49-107">A nova nomenclatura de número de produto é atribuída ao produto mestre D0004.</span><span class="sxs-lookup"><span data-stu-id="51c49-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="51c49-108">A tarefa geralmente seria realizada por um designer de produto.</span><span class="sxs-lookup"><span data-stu-id="51c49-108">This task would typically be done by a product designer.</span></span>
+<span data-ttu-id="28954-104">Este procedimento mostra como configurar uma nomenclatura de número de produto para grades de produtos configurados e como ela pode ser anexada a um produto mestre configurável.</span><span class="sxs-lookup"><span data-stu-id="28954-104">This procedure shows you how to set up a product number nomenclature for configured product variants, and how it can be attached to a configurable product master.</span></span> <span data-ttu-id="28954-105">O procedimento também demonstra como você pode criar uma nomenclatura de configuração para um componente de modelo de configuração de produto.</span><span class="sxs-lookup"><span data-stu-id="28954-105">This procedure also demonstrates how you can build a configuration nomenclature for a product configuration model component.</span></span> <span data-ttu-id="28954-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="28954-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="28954-107">A nova nomenclatura de número de produto é atribuída ao produto mestre D0004.</span><span class="sxs-lookup"><span data-stu-id="28954-107">The new product number nomenclature is assigned to the D0004 product master.</span></span> <span data-ttu-id="28954-108">A tarefa geralmente seria realizada por um designer de produto.</span><span class="sxs-lookup"><span data-stu-id="28954-108">This task would typically be done by a product designer.</span></span>
 
+## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="28954-109">Criar uma nomenclatura de número de produto</span><span class="sxs-lookup"><span data-stu-id="28954-109">Create a product number nomenclature</span></span>
 
-## <a name="create-a-product-number-nomenclature"></a><span data-ttu-id="51c49-109">Criar uma nomenclatura de número de produto</span><span class="sxs-lookup"><span data-stu-id="51c49-109">Create a product number nomenclature</span></span>
-1. <span data-ttu-id="51c49-110">Clique em Definição de modelo de variante de produto.</span><span class="sxs-lookup"><span data-stu-id="51c49-110">Click Product variant model definition.</span></span>
-2. <span data-ttu-id="51c49-111">Clique em Nomenclatura de produto.</span><span class="sxs-lookup"><span data-stu-id="51c49-111">Click Product nomenclature.</span></span>
-3. <span data-ttu-id="51c49-112">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="51c49-112">Click New.</span></span>
-4. <span data-ttu-id="51c49-113">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-113">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="51c49-114">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-114">In the Description field, type a value.</span></span>
-6. <span data-ttu-id="51c49-115">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-115">Click Add.</span></span>
-7. <span data-ttu-id="51c49-116">Clique em Número do produto mestre.</span><span class="sxs-lookup"><span data-stu-id="51c49-116">Click Product master number.</span></span>
-8. <span data-ttu-id="51c49-117">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-117">Click Add.</span></span>
-9. <span data-ttu-id="51c49-118">Clique em Constante de texto.</span><span class="sxs-lookup"><span data-stu-id="51c49-118">Click Text constant.</span></span>
-10. <span data-ttu-id="51c49-119">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-119">In the list, mark the selected row.</span></span>
-11. <span data-ttu-id="51c49-120">No campo Texto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-120">In the Text field, type a value.</span></span>
-12. <span data-ttu-id="51c49-121">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-121">Click Add.</span></span>
-13. <span data-ttu-id="51c49-122">Clique em Configuração.</span><span class="sxs-lookup"><span data-stu-id="51c49-122">Click Configuration.</span></span>
-14. <span data-ttu-id="51c49-123">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="51c49-123">Close the page.</span></span>
+1. <span data-ttu-id="28954-110">Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Nomenclatura de produto**.</span><span class="sxs-lookup"><span data-stu-id="28954-110">Go to **Product information management \> Setup \> Product nomenclature**.</span></span>
+1. <span data-ttu-id="28954-111">Selecione **Novo**.</span><span class="sxs-lookup"><span data-stu-id="28954-111">Select **New**.</span></span>
+1. <span data-ttu-id="28954-112">No campo **Nome**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-112">In the **Name** field, type a value.</span></span>
+1. <span data-ttu-id="28954-113">No campo **Descrição**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-113">In the **Description** field, type a value.</span></span>
+1. <span data-ttu-id="28954-114">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-114">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-115">Selecione **Número do produto mestre**.</span><span class="sxs-lookup"><span data-stu-id="28954-115">Select **Product master number**.</span></span>
+1. <span data-ttu-id="28954-116">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-116">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-117">Selecione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="28954-117">Select **Text constant**.</span></span>
+1. <span data-ttu-id="28954-118">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-118">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-119">No campo **Texto**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-119">In the **Text** field, type a value.</span></span>
+1. <span data-ttu-id="28954-120">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-120">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-121">Selecione **Configuração**.</span><span class="sxs-lookup"><span data-stu-id="28954-121">Select **Configuration**.</span></span>
+1. <span data-ttu-id="28954-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="28954-122">Close the page.</span></span>
 
-## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="51c49-124">Atribuir a nomenclatura de número de produto a um produto mestre</span><span class="sxs-lookup"><span data-stu-id="51c49-124">Assign the product number nomenclature to a product master</span></span>
-1. <span data-ttu-id="51c49-125">Clique em Produtos mestres.</span><span class="sxs-lookup"><span data-stu-id="51c49-125">Click Product masters.</span></span>
-2. <span data-ttu-id="51c49-126">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="51c49-126">Use the Quick Filter to find records.</span></span> <span data-ttu-id="51c49-127">Por exemplo, filtre no campo Número do produto com um valor de "D".</span><span class="sxs-lookup"><span data-stu-id="51c49-127">For example, filter on the Product number field with a value of 'D'.</span></span>
-3. <span data-ttu-id="51c49-128">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-128">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="51c49-129">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="51c49-129">Click Edit.</span></span>
-5. <span data-ttu-id="51c49-130">Selecione Sim no campo Usar nomenclatura.</span><span class="sxs-lookup"><span data-stu-id="51c49-130">Select Yes in the Use nomenclature field.</span></span>
-6. <span data-ttu-id="51c49-131">No campo Nomenclatura de número de grade de produto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-131">In the Product variant number nomenclature field, enter or select a value.</span></span>
-7. <span data-ttu-id="51c49-132">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="51c49-132">Close the page.</span></span>
-8. <span data-ttu-id="51c49-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="51c49-133">Close the page.</span></span>
+## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a><span data-ttu-id="28954-123">Atribuir a nomenclatura de número de produto a um produto mestre</span><span class="sxs-lookup"><span data-stu-id="28954-123">Assign the product number nomenclature to a product master</span></span>
 
-## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="51c49-134">Criar nomenclatura para um componente de modelo de configuração de produto</span><span class="sxs-lookup"><span data-stu-id="51c49-134">Create nomenclature for a product configuration model component</span></span>
-1. <span data-ttu-id="51c49-135">Clique em Modelos de configuração do produto.</span><span class="sxs-lookup"><span data-stu-id="51c49-135">Click Product configuration models.</span></span>
-2. <span data-ttu-id="51c49-136">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="51c49-136">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="51c49-137">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-137">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="51c49-138">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="51c49-138">Click Edit.</span></span>
-5. <span data-ttu-id="51c49-139">Selecione Sim no campo Usar nomenclatura de configuração.</span><span class="sxs-lookup"><span data-stu-id="51c49-139">Select Yes in the Use configuration nomenclature field.</span></span>
-6. <span data-ttu-id="51c49-140">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-140">Click Add.</span></span>
-7. <span data-ttu-id="51c49-141">Clique em Valor do atributo.</span><span class="sxs-lookup"><span data-stu-id="51c49-141">Click Attribute value.</span></span>
-8. <span data-ttu-id="51c49-142">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-142">In the list, mark the selected row.</span></span>
-9. <span data-ttu-id="51c49-143">No campo Atributo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-143">In the Attribute field, enter or select a value.</span></span>
-10. <span data-ttu-id="51c49-144">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-144">Click Add.</span></span>
-11. <span data-ttu-id="51c49-145">Clique em Constante de texto.</span><span class="sxs-lookup"><span data-stu-id="51c49-145">Click Text constant.</span></span>
-12. <span data-ttu-id="51c49-146">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-146">In the list, mark the selected row.</span></span>
-13. <span data-ttu-id="51c49-147">No campo Texto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-147">In the Text field, type a value.</span></span>
-14. <span data-ttu-id="51c49-148">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-148">Click Add.</span></span>
-15. <span data-ttu-id="51c49-149">Clique em Valor do atributo.</span><span class="sxs-lookup"><span data-stu-id="51c49-149">Click Attribute value.</span></span>
-16. <span data-ttu-id="51c49-150">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-150">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="51c49-151">No campo Atributo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-151">In the Attribute field, enter or select a value.</span></span>
-18. <span data-ttu-id="51c49-152">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-152">Click Add.</span></span>
-19. <span data-ttu-id="51c49-153">Clique em Constante de texto.</span><span class="sxs-lookup"><span data-stu-id="51c49-153">Click Text constant.</span></span>
-20. <span data-ttu-id="51c49-154">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-154">In the list, mark the selected row.</span></span>
-21. <span data-ttu-id="51c49-155">No campo Texto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-155">In the Text field, type a value.</span></span>
-22. <span data-ttu-id="51c49-156">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-156">Click Add.</span></span>
-23. <span data-ttu-id="51c49-157">Clique em Valor do atributo.</span><span class="sxs-lookup"><span data-stu-id="51c49-157">Click Attribute value.</span></span>
-24. <span data-ttu-id="51c49-158">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-158">In the list, mark the selected row.</span></span>
-25. <span data-ttu-id="51c49-159">No campo Atributo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-159">In the Attribute field, enter or select a value.</span></span>
-26. <span data-ttu-id="51c49-160">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-160">Click Add.</span></span>
-27. <span data-ttu-id="51c49-161">Clique em Constante de texto.</span><span class="sxs-lookup"><span data-stu-id="51c49-161">Click Text constant.</span></span>
-28. <span data-ttu-id="51c49-162">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-162">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="51c49-163">No campo Texto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-163">In the Text field, type a value.</span></span>
-30. <span data-ttu-id="51c49-164">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-164">Click Add.</span></span>
-31. <span data-ttu-id="51c49-165">Clique em Valor do atributo.</span><span class="sxs-lookup"><span data-stu-id="51c49-165">Click Attribute value.</span></span>
-32. <span data-ttu-id="51c49-166">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-166">In the list, mark the selected row.</span></span>
-33. <span data-ttu-id="51c49-167">No campo Atributo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-167">In the Attribute field, enter or select a value.</span></span>
-34. <span data-ttu-id="51c49-168">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-168">Click Add.</span></span>
-35. <span data-ttu-id="51c49-169">Clique em Constante de texto.</span><span class="sxs-lookup"><span data-stu-id="51c49-169">Click Text constant.</span></span>
-36. <span data-ttu-id="51c49-170">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-170">In the list, mark the selected row.</span></span>
-37. <span data-ttu-id="51c49-171">No campo Texto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-171">In the Text field, type a value.</span></span>
-38. <span data-ttu-id="51c49-172">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="51c49-172">Click Add.</span></span>
-39. <span data-ttu-id="51c49-173">Clique em Valor de sequência numérica.</span><span class="sxs-lookup"><span data-stu-id="51c49-173">Click Number sequence value.</span></span>
-40. <span data-ttu-id="51c49-174">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="51c49-174">In the list, mark the selected row.</span></span>
-41. <span data-ttu-id="51c49-175">No campo Sequência numérica, digite ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="51c49-175">In the Number sequence field, enter or select a value.</span></span>
-42. <span data-ttu-id="51c49-176">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="51c49-176">Close the page.</span></span>
-43. <span data-ttu-id="51c49-177">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="51c49-177">Close the page.</span></span>
-44. <span data-ttu-id="51c49-178">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="51c49-178">Close the page.</span></span>
+1. <span data-ttu-id="28954-124">Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.</span><span class="sxs-lookup"><span data-stu-id="28954-124">Go to **Product information management \> Products \> Product masters**.</span></span>
+1. <span data-ttu-id="28954-125">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="28954-125">Use the Quick Filter to find records.</span></span> <span data-ttu-id="28954-126">Por exemplo, filtre no campo **Número do produto** com um valor de 'D'.</span><span class="sxs-lookup"><span data-stu-id="28954-126">For example, filter on the **Product number** field with a value of 'D'.</span></span>
+1. <span data-ttu-id="28954-127">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-127">In the list, select the link in the selected row.</span></span>
+1. <span data-ttu-id="28954-128">Selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="28954-128">Select **Edit**.</span></span>
+1. <span data-ttu-id="28954-129">Selecione *Sim* no campo **Usar nomenclatura**.</span><span class="sxs-lookup"><span data-stu-id="28954-129">Select *Yes* in the **Use nomenclature** field.</span></span>
+1. <span data-ttu-id="28954-130">No campo **Nomenclatura de número de grade de produto**, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-130">In the **Product variant number nomenclature** field, enter or select a value.</span></span>
+1. <span data-ttu-id="28954-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="28954-131">Close the page.</span></span>
+1. <span data-ttu-id="28954-132">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="28954-132">Close the page.</span></span>
 
+## <a name="create-nomenclature-for-a-product-configuration-model-component"></a><span data-ttu-id="28954-133">Criar nomenclatura para um componente de modelo de configuração de produto</span><span class="sxs-lookup"><span data-stu-id="28954-133">Create nomenclature for a product configuration model component</span></span>
 
+1. <span data-ttu-id="28954-134">Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.</span><span class="sxs-lookup"><span data-stu-id="28954-134">Go to **Product information management \> Products \> Product configuration models**.</span></span>
+1. <span data-ttu-id="28954-135">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="28954-135">In the list, find and select the desired record.</span></span>
+1. <span data-ttu-id="28954-136">Na lista, selecione o link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-136">In the list, select the link in the selected row.</span></span>
+1. <span data-ttu-id="28954-137">Selecione **Editar**.</span><span class="sxs-lookup"><span data-stu-id="28954-137">Select **Edit**.</span></span>
+1. <span data-ttu-id="28954-138">Selecione *Sim* no campo **Usar nomenclatura de configuração**.</span><span class="sxs-lookup"><span data-stu-id="28954-138">Select *Yes* in the **Use configuration nomenclature** field.</span></span>
+1. <span data-ttu-id="28954-139">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-139">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-140">Selecione **Valor do atributo**.</span><span class="sxs-lookup"><span data-stu-id="28954-140">Select **Attribute value**.</span></span>
+1. <span data-ttu-id="28954-141">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-141">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-142">No campo **Atributo**, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-142">In the **Attribute** field, enter or select a value.</span></span>
+1. <span data-ttu-id="28954-143">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-143">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-144">Selecione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="28954-144">Select **Text constant**.</span></span>
+1. <span data-ttu-id="28954-145">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-145">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-146">No campo **Texto**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-146">In the **Text** field, type a value.</span></span>
+1. <span data-ttu-id="28954-147">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-147">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-148">Selecione **Valor do atributo**.</span><span class="sxs-lookup"><span data-stu-id="28954-148">Select **Attribute value**.</span></span>
+1. <span data-ttu-id="28954-149">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-149">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-150">No campo **Atributo**, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-150">In the **Attribute** field, enter or select a value.</span></span>
+1. <span data-ttu-id="28954-151">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-151">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-152">Selecione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="28954-152">Select **Text constant**.</span></span>
+1. <span data-ttu-id="28954-153">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-153">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-154">No campo **Texto**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-154">In the **Text** field, type a value.</span></span>
+1. <span data-ttu-id="28954-155">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-155">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-156">Selecione **Valor do atributo**.</span><span class="sxs-lookup"><span data-stu-id="28954-156">Select **Attribute value**.</span></span>
+1. <span data-ttu-id="28954-157">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-157">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-158">No campo **Atributo**, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-158">In the **Attribute** field, enter or select a value.</span></span>
+1. <span data-ttu-id="28954-159">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-159">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-160">Selecione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="28954-160">Select **Text constant**.</span></span>
+1. <span data-ttu-id="28954-161">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-161">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-162">No campo **Texto**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-162">In the **Text** field, type a value.</span></span>
+1. <span data-ttu-id="28954-163">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-163">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-164">Selecione **Valor do atributo**.</span><span class="sxs-lookup"><span data-stu-id="28954-164">Select **Attribute value**.</span></span>
+1. <span data-ttu-id="28954-165">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-165">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-166">No campo **Atributo**, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-166">In the **Attribute** field, enter or select a value.</span></span>
+1. <span data-ttu-id="28954-167">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-167">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-168">Selecione **Constante de texto**.</span><span class="sxs-lookup"><span data-stu-id="28954-168">Select **Text constant**.</span></span>
+1. <span data-ttu-id="28954-169">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-169">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-170">No campo **Texto**, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-170">In the **Text** field, type a value.</span></span>
+1. <span data-ttu-id="28954-171">Selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="28954-171">Select **Add**.</span></span>
+1. <span data-ttu-id="28954-172">Selecione **Valor de sequência numérica**.</span><span class="sxs-lookup"><span data-stu-id="28954-172">Select **Number sequence value**.</span></span>
+1. <span data-ttu-id="28954-173">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28954-173">In the list, mark the selected row.</span></span>
+1. <span data-ttu-id="28954-174">No campo **Sequência numérica**, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28954-174">In the **Number sequence** field, enter or select a value.</span></span>
+1. <span data-ttu-id="28954-175">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="28954-175">Close the page.</span></span>
+1. <span data-ttu-id="28954-176">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="28954-176">Close the page.</span></span>
+1. <span data-ttu-id="28954-177">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="28954-177">Close the page.</span></span>
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
