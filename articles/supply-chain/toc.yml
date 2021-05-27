@@ -361,13 +361,11 @@
                   href: asset-management/objects/object-timeline.md
                 - name: Exibir ativo
                   href: asset-management/objects/object-view.md
-                - name: Visão geral de atributos de ativos
+                - name: Visão geral de atributos do ativo
                   href: asset-management/objects/object-specification-overview.md
             - name: Configuração para solicitações de manutenção
               items:
-                - name: Solicitações de manutenção
-                  href: asset-management/setup-for-maintenance-requests/requests.md
-                - name: Estados do ciclo de vida da solicitação de manutenção
+                - name: Estados de ciclo de vida da solicitação de manutenção
                   href: asset-management/setup-for-maintenance-requests/request-stages.md
                 - name: Tipos de solicitação de manutenção
                   href: asset-management/setup-for-maintenance-requests/request-types.md
@@ -2049,7 +2047,7 @@
                   href: procurement/tasks/submit-approve-project-budget.md
                 - name: Enviar e aprovar revisões do orçamento do projeto
                   href: procurement/tasks/submit-approve-project-budget-revision.md
-        - name: Gerenciamento de informações sobre produtos
+        - name: Gerenciamento de informações sobre o produto
           items:
             - name: Visão geral das informações do produto
               href: pim/product-information.md
@@ -3343,8 +3341,94 @@
               href: inventory/extend-on-hand-entities.md
         - name: Solução de problemas
           items:
+            - name: Gerenciamento de custos
+              items:
+                - name: Configurações de campo ausentes na cópia de grupos de modelos de item para outra entidade legal
+                  href: troubleshooting/costing/copying-item-model-groups.md
+                - name: O relatório "Custos indiretos no processo" inclui ordens de produção excluídas
+                  href: troubleshooting/costing/indirect-costs-in-pr.md
+                - name: Acúmulo de compras lançado com valor zero para recebimento de produtos de valor zero
+                  href: troubleshooting/costing/posting-to-purchase.md
+                - name: Ordens de compra recebidas fisicamente não são exibidas no relatório de fechamento de estoque
+                  href: troubleshooting/costing/purchase-orders-rece.md
+                - name: Não há Data inicial na guia Preços ativos da página Preço do item
+                  href: troubleshooting/costing/there-is-no-from-dat.md
+            - name: Gerenciamento de estoque
+              items:
+                - name: Várias transações de estoque para números de lote sem "Na atualização física"
+                  href: troubleshooting/inventory/multiple-inventory-t.md
+                - name: Reverter um relatório como concluído cria uma transação aberta inesperada
+                  href: troubleshooting/inventory/reverse-report-as-fi.md
+                - name: Não é possível mostrar novas notas anexadas a um diário no relatório de lista de separação
+                  href: troubleshooting/inventory/unable-to-print-the.md
+                - name: A quantidade em uma ordem de quarentena iniciada não é atualizada quando a ordem é dividida
+                  href: troubleshooting/inventory/quantity-on-a-start.md
+                - name: O campo "Data do último teste" não é atualizado ao criar várias ordens de qualidade
+                  href: troubleshooting/inventory/the-field-last-test.md
+                - name: 'Na divisão de uma quantidade de peso variável, o mínimo em vez da quantidade nominal é usado'
+                  href: troubleshooting/inventory/while-splitting-the.md
+            - name: Planejamento mestre
+              items:
+                - name: As ordens derivadas confirmadas diretamente são processadas por um fluxo de trabalho em revisão
+                  href: troubleshooting/planning/firmed-directly-deri.md
+                - name: O planejamento mestre gera ordens planejadas para produtos fantasmas
+                  href: troubleshooting/planning/planned-orders-are-g.md
+                - name: Uma ordem de compra planejada é criada quando há uma compra em dias negativos
+                  href: troubleshooting/planning/planning-optimisatio.md
+                - name: Não é possível carregar o preço de custo em entradas de previsão de demanda
+                  href: troubleshooting/planning/unable-to-upload-the.md
+                - name: Não é possível remover a dimensão de previsão de demanda do depósito das linhas de previsão
+                  href: troubleshooting/planning/warehouse-removal-fr.md
+            - name: Compras
+              items:
+                - name: Não é possível faturar uma ordem de venda voltada para o cliente na empresa VEL
+                  href: troubleshooting/procurement/not-able-to-invoice-.md
+                - name: Não é possível adicionar uma linha a uma requisição de compra depois de solicitar uma alteração
+                  href: troubleshooting/procurement/purchase-requisition.md
+            - name: Gerenciamento de informações sobre o produto
+              items:
+                - name: Não é possível aplicar um modelo para criar um produto liberado
+                  href: troubleshooting/products/apply-template-in-re.md
+                - name: Não é possível importar um item usando a entidade de produtos liberados v2
+                  href: troubleshooting/products/cannot-import-with-r.md
+                - name: As ordens de compra não mostram o texto traduzido do produto
+                  href: troubleshooting/products/when-the-customer-ad.md
+            - name: Controle de produção
+              items:
+                - name: As configurações de princípio de liberação nas linhas da BOM não são respeitadas
+                  href: troubleshooting/production/flushing-principle-n.md
+                - name: O número do lote está desmarcado na seleção de uma nova ID do lote
+                  href: troubleshooting/production/when-customer-is-try.md
+                - name: A seleção posterior não é respeitada ao redefinir ordens de produção via trabalho em lotes
+                  href: troubleshooting/production/late-selection-is-no.md
+                - name: Os usuários podem desfazer a separação de linhas de material para produtos que foram informados como concluídos
+                  href: troubleshooting/production/raw-material-lines-a.md
+                - name: Erro ao lançar o diário de relatórios de conclusão
+                  href: troubleshooting/production/posting-report-as-.md
+                - name: O depósito no diário de listas de separação não é atualizado em uma linha da BOM
+                  href: troubleshooting/production/the-warehouse-in-pic.md
+            - name: Gerenciamento de reembolsos
+              items:
+                - name: Há falha no acúmulo de reembolsos de cliente usando grupos de descontos de itens
+                  href: troubleshooting/rebates/cumulating-customer-.md
+            - name: Vendas e marketing
+              items:
+                - name: Os administradores de sistema não podem limpar os bloqueios de ordem porque não estão autorizados
+                  href: troubleshooting/sales/system-administrator.md
+            - name: Gerenciamento de transporte
+              items:
+                - name: Só é possível adicionar a conta principal como conta de crédito nos motivos de reconciliação
+                  href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gerenciamento de depósito
               items:
+                - name: Ocorre um erro ao escolher o local durante o registro da lista de separação
+                  href: troubleshooting/warehousing/error-cannot-update.md
+                - name: A estação de embalagem não exibe notas do produto
+                  href: troubleshooting/warehousing/packing-station-not-.md
+                - name: 'O perfil de localização não permite estoque negativo, mas a disponibilidade negativa é permitida'
+                  href: troubleshooting/warehousing/location-profile-set.md
+                - name: Somente uma etiqueta é impressa para vários cabeçalhos de trabalho em um único recebimento
+                  href: troubleshooting/warehousing/when-receipting-prod.md
                 - name: Não é possível confirmar uma remessa devido a um problema com o calendário
                   href: troubleshooting/warehousing/load-has-active-appo.md
                 - name: Não é possível confirmar uma remessa devido a trabalho incompleto ou ausente
