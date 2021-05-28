@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e68ef15fed1841bcbf006929f3c6441d62798fc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 56d74b6700b48a8c523d02a1affc421ee370215e
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819905"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027737"
 ---
 # <a name="use-one-payment-to-settle-invoices-that-span-multiple-discount-periods"></a>Usar um pagamento para liquidar faturas que abrangem vários períodos de desconto
 
@@ -66,7 +66,7 @@ Se Arnie criasse um diário de pagamento para liquidar totalmente essas faturas 
 | Selecionado e destacado | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 990,00           |
 
 ## <a name="partial-settlement-on-june-29"></a>Liquidação parcial em 29 de junho
-O cliente 4032 pode pagar um valor parcial, como a metade de cada fatura. Arnie cria um pagamento para o cliente 4032 e então abre a página **Liquidar transações**. Na página **Liquidar transações** Arnie marca as três linhas da fatura para o pagamento. Em cada linha, ele insere o valor a ser liquidado, com base nas instruções que o cliente forneceu. Quando Arnie seleciona uma linha, ele vê o valor do desconto dessa linha e o valor do desconto à vista que é obtido. Como o cliente está pagando a metade da fatura, Arnie vê que o valor do campo **Valor de desconto à vista** para FTI-10042 é **20,00**, mas o valor no campo **Desconto à vista obtido** é **10,00**. O valor do pagamento é 1.485,00.
+O cliente 4032 pode pagar um valor parcial, como a metade de cada fatura. Arnie cria um pagamento para o cliente 4032 e então abre a página **Liquidar transações**. Na página **Liquidar transações** Arnie marca as três linhas da fatura para o pagamento. Em cada linha, Arnie insere o valor a ser liquidado, com base nas instruções que o cliente forneceu. Ao selecionar uma linha, Arnie vê que o valor do desconto daquela linha e o valor do desconto em dinheiro que é oferecido. Como o cliente está pagando a metade da fatura, Arnie vê que o valor do campo **Valor de desconto à vista** para FTI-10042 é **20,00**, mas o valor no campo **Desconto à vista obtido** é **10,00**. O valor do pagamento é 1.485,00.
 
 | Marcar                     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Moeda | Valor para liquidar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -74,11 +74,11 @@ O cliente 4032 pode pagar um valor parcial, como a metade de cada fatura. Arnie 
 | Selecionado                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495.00           |
 | Selecionado e destacado | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie também pode inserir manualmente o valor do pagamento de 1.485,00 antes de abrir a página **Transações de liquidação**. Se Arnie inserir manualmente o valor do pagamento e, em seguida, marcar todas as três transações, mas não ajustar o valor no campo **Valor a ser liquidado** para cada transação, ele receberá a seguinte mensagem quando fechar a página:
+Arnie também pode inserir manualmente o valor do pagamento de 1.485,00 antes de abrir a página **Liquidar transações**. Se Arnie inserir manualmente o valor do pagamento e marcar todas as três transações, mas não ajustar o valor no campo **Valor a ser liquidado** para cada transação, ele receberá a seguinte mensagem quando a página fechar:
 
 > O valor total de transações marcadas é diferente do valor do diário. Alterar o valor do diário?
 
-Se Arnie quiser que o valor do pagamento seja apenas de 1.485,00, ele clicará em **Não** e lançará o diário. As transações são liquidadas como se segue:
+Se Arnie quiser que o valor do pagamento seja apenas 1.485,00, ele clica em **Não** e posta o diário. As transações são liquidadas como se segue:
 
 1.  O valor de 1.000,00 da fatura FTI-10040 é totalmente liquidado, pois a fatura foi inserida em 15 de maio e é a fatura mais antiga. Sem desconto à vista. O valor restante na transação de pagamento é de 485,00.
 2.  A fatura FTI-10041 não será liquidada. As faturas FTI-10041 e FTI-10042 foram inseridas na mesma data. No entanto, um desconto de 1% está disponível para a fatura FTI-10041 e um desconto de 2% está disponível para a fatura FTI-10042. Como um desconto melhor está disponível para a fatura FTI-10042, os 485,00 restantes são liquidados com a fatura FTI-10042.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2020-03-02
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 93d025759f86ffeb0ee1f1e6e6e2aeb3ab341b75
-ms.sourcegitcommit: 4ba25601eba295bd9057f7fb5e85f1f6764f5a27
+ms.openlocfilehash: 8cacf2fbef8873288493f71b43d22dc186e6d18e
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5965301"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980887"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-finance"></a>Recursos removidos ou obsoletos do Dynamics 365 Finance
 
@@ -35,7 +35,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10020-release"></a>Recursos removidos ou substituídos na versão 10.0.20 do Finance
 
-### <a name="rtir-query-invoice-data-request-hu-format-configuration"></a>Configuração de formato Solicitação de dados para consulta da fatura do RTIR (HU)
+### <a name="rtir-query-invoice-data-request-hu-electronic-reporting-er-format-configuration"></a>Configuração de formato do relatório eletrônico (ER) "Solicitação de dados da fatura de consulta do RTIR (HU)"
 
 | &nbsp; | &nbsp; |
 |------------|--------------------|
@@ -45,6 +45,15 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Opção de implantação**              | Todas |
 | **Status**                         | Descontinuação: até 15 de abril de 2022, planejamos não oferecer mais a configuração de formato "Solicitação de dados para consulta da fatura do RTIR (HU)". |
 
+### <a name="french-fec-audit-file-electronic-reporting-er-format-for-france-under-german-audit-file-output-format"></a>Formato de relatório eletrônico (ER) "Arquivo de auditoria francês FEC" para a França no formato "Saída de arquivo de auditoria alemão"
+
+| &nbsp; | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído pelo novo formato "Arquivo de auditoria FEC (FR)" |
+| **Substituída por outro recurso?**   | Sim |
+| **Áreas afetadas do produto**         | Solicitação de Emprego |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: até 1º de maio de 2022, planejamos interromper o suporte ao formato de relatório eletrônico (ER) "Arquivo de auditoria francês FEC" para a França no formato "Saída de arquivo de auditoria alemão". O novo formato Arquivo de auditoria FEC (FR) foi introduzido no "Modelo de exportação de dados". |
 
 ## <a name="features-removed-or-deprecated-in-the-finance-10017-release"></a>Recursos removidos ou substituídos na versão 10.0.17 do Finance
 

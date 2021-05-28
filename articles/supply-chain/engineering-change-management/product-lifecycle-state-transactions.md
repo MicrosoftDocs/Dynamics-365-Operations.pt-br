@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 421fae6eab20eea50b9ce677a1ae7993add6cb93
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
+ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842048"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6016947"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Estados e transações de ciclo de vida do produto
 
@@ -74,5 +74,24 @@ Os campos a seguir estão disponíveis para cada processo listado na Guia rápid
 
 Se você estiver adicionando mais regras de estado do ciclo de vida como uma personalização, poderá exibir essas regras na interface do usuário, selecionando **Atualizar processos** no painel superior. O botão **Atualizar processos** está disponível somente para administradores.
 
+## <a name="lifecycle-states-for-released-products-and-product-variants"></a>Estados de ciclo de vida para produtos lançados e variantes de produtos
+
+Para um produto que tem variantes (principal e variantes), o produto (principal) terá um estado de ciclo de vida e cada uma das variantes também pode ter um estado de ciclo de vida diferente.
+
+Para processos específicos, se a variante ou o produto estiver bloqueado, o processo também será bloqueado. Especificamente, para determinar se um processo está bloqueado, o sistema fará as seguintes verificações:
+
+- Para produtos controlados pela engenharia:
+  - Se a versão de engenharia atual estiver bloqueado, bloqueie o processo.
+  - Se a variante atual estiver bloqueada, bloqueie o processo.
+  - Se o produto lançado estiver bloqueado, bloqueie o processo.
+- Para produtos padrão:
+  - Se a variante atual estiver bloqueada, bloqueie o processo.
+  - Se o produto lançado estiver bloqueado, bloqueie o processo.
+
+Por exemplo, suponha que você quer vender apenas uma variante (vermelha) de um certo produto (camiseta) e bloquear a venda de todas as outras variantes por ora. Você pode implementar isso seguindo esta configuração:
+
+- Atribua ao produto um estado de ciclo de vida que permita o processo. Por exemplo, atribua ao produto camiseta um estado de ciclo de vida *Comercializável*, que permite o processo de negócios *Pedido de venda*.
+- Atribua à variante comercializável um estado de ciclo de vida que permita o processo. Por exemplo, atribua também à variante vermelha um estado de ciclo de vida *Comercializável*.
+- Todas as outras variantes receberão um outro estado de ciclo de vida em que o processo é bloqueado. Por exemplo, atribua à variante branca (e todas as outras) um estado de ciclo de vida de *Não comercializável*, que bloqueia o processo de negócios *Pedido de venda*.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

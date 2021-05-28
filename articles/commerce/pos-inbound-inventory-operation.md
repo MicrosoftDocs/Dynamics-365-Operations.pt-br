@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 6efc20de5309bc7ec209a557a4bc12c6a0a42a43
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804322"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018945"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no PDV
 
@@ -70,7 +70,7 @@ Os trabalhos em lotes que você criar serão usados para processar documentos qu
 
 ## <a name="prerequisite-add-inbound-operation-to-the-pos-screen-layout"></a>Pré-requisito: adicionar a operação de entrada ao layout da tela do POS
 
-Antes que a sua organização possa usar a funcionalidade de operação de entrada, ela deve configurar a operação do POS da **Operação de entrada** em um ou mais [layouts de tela do POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
+Antes que a sua organização possa usar a funcionalidade de operação de entrada, ela deve configurar a operação do POS da **Operação de entrada** em um ou mais [layouts de tela do POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
 
 ## <a name="overview"></a>Visão geral
 
@@ -159,9 +159,9 @@ Na versão 10.0.14 e posterior do Commerce, os usuários podem receber um produt
 
 Este recurso só funciona para recebimento da ordem de compra. Não é possível receber itens em ordens de transferência quando os itens não foram previamente encomendados e enviados do depósito de saída.
 
-Os usuários não poderão adicionar novos produtos à ordem de compra durante o recebimento do PDV, se a ordem de compra [fluxo de trabalho do gerenciamento de alteração](https://docs.microsoft.com/dynamics365/supply-chain/procurement/purchase-order-approval-confirmation) estiver ativado no Commerce headquarters (HQ). Para habilitar o gerenciamento de alterações, todas as alterações em uma ordem de compra devem ser aprovadas primeiro, antes que o recebimento seja permitido. Como esse processo permite que um destinatário adicione novas linhas à ordem de compra, o recebimento falhará, se o fluxo de trabalho de gerenciamento de alterações estiver habilitado. Se o gerenciamento de alterações estiver habilitado para todas as ordens de compra ou para o fornecedor vinculado à ordem de compra que está sendo recebida ativamente no PDV, o usuário não poderá adicionar novos produtos à ordem de compra durante o recebimento no PDV.
+Os usuários não poderão adicionar novos produtos à ordem de compra durante o recebimento do PDV, se a ordem de compra [fluxo de trabalho do gerenciamento de alteração](../supply-chain/procurement/purchase-order-approval-confirmation.md) estiver ativado no Commerce headquarters (HQ). Para habilitar o gerenciamento de alterações, todas as alterações em uma ordem de compra devem ser aprovadas primeiro, antes que o recebimento seja permitido. Como esse processo permite que um destinatário adicione novas linhas à ordem de compra, o recebimento falhará, se o fluxo de trabalho de gerenciamento de alterações estiver habilitado. Se o gerenciamento de alterações estiver habilitado para todas as ordens de compra ou para o fornecedor vinculado à ordem de compra que está sendo recebida ativamente no PDV, o usuário não poderá adicionar novos produtos à ordem de compra durante o recebimento no PDV.
 
-A funcionalidade que permite a adição de linhas não pode ser usada como solução para o recebimento de quantidades adicionais de produtos que já estão na ordem de compra. O recebimento em excesso é gerenciado por meio das configurações padrão [recebimento em excesso](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation#over-receiving-validations) da linha de produto na ordem de compra.
+A funcionalidade que permite a adição de linhas não pode ser usada como solução para o recebimento de quantidades adicionais de produtos que já estão na ordem de compra. O recebimento em excesso é gerenciado por meio das configurações padrão [recebimento em excesso](#over-receiving-validations) da linha de produto na ordem de compra.
 
 Se a opção **Adicionar linhas à Ordem de Compra durante o recebimento do Ponto de Venda** estiver ativada e um usuário estiver recebendo com a **Operação de entrada** no PDV, se o usuário digitalizar ou digitar um código de barras ou número do produto que não é reconhecido como um item na ordem de compra atual, mas é reconhecido como um item válido, o usuário recebe uma mensagem sobre a adição do item à ordem de compra. Se o usuário adicionar o item à ordem de compra, a quantidade inserida em **Recebendo agora** é considerada a quantidade encomendada para a linha da ordem de compra.
 

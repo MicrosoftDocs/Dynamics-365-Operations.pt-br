@@ -5,7 +5,6 @@ author: gionoder
 ms.date: 03/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 490eeee4b7ed896375ba3a1763a65b8dafe9bba9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed509fe35cff5b836e8da01bf80d910190b277ec
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823635"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019508"
 ---
 # <a name="nt2020006--intermediary-sales-digital-platform-for-nf-e"></a>NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0c7aa3bc1d4eef7b557bd9b07b31196faab273d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791069"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022463"
 ---
 # <a name="e-commerce-site-overview"></a>Visão geral do site de comércio eletrônico
 
@@ -37,11 +37,11 @@ No Dynamics 365 Commerce, você usa um canal de loja online para estabelecer pro
 
 Somente um canal de loja online deve ser configurado para que você possa começar a usar o Dynamics 365 Commerce. No entanto, um único site de comércio eletrônico pode fornecer a experiência online para várias lojas online. Por exemplo, se várias lojas online forem configuradas para oferecer suporte a diferentes regiões geográficas, um único conjunto de páginas de comércio eletrônico poderá ser usado para fornecer as experiências exclusivas definidas por cada loja. Para obter mais informações sobre como configurar um site para oferecer suporte a várias lojas online, consulte [Associar um site online a um canal](associate-site-online-store.md).
 
-Depois que uma loja online for configurada, ela pode ser associada ao site do Dynamics 365 Commerce que servirá como uma vitrine online. Para obter mais informações sobre lojas online e sobre como configurá-las, consulte [Configurar lojas onlines](https://docs.microsoft.com/dynamics365/unified-operations/retail/online-stores).
+Depois que uma loja online for configurada, ela pode ser associada ao site do Dynamics 365 Commerce que servirá como uma vitrine online. Para obter mais informações sobre lojas online e sobre como configurá-las, consulte [Configurar lojas onlines](/dynamics365/unified-operations/retail/online-stores).
 
 ## <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
 
-Durante a inicialização de um site de comércio eletrônico, você será solicitado a informar um nome de domínio. Para obter mais informações sobre domínios no Commerce, consulte [Configurar seu nome de domínio](configure-your-domain-name.md) e [Domínios no Dynamics 365 Commerce](domains-commerce.md). Para implantar um novo locatário de comércio eletrônico usando o [Microsoft Dynamics Lifecycle Services (LCS)](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), siga as etapas em [Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md). Depois que o seu locatário de comércio eletrônico for configurado no LCS, será fornecido um link para o construtor de sites do Commerce. Em seguida, você poderá usar o construtor de sites do Commerce para inicializar e configurar seus sites de comércio eletrônico.
+Durante a inicialização de um site de comércio eletrônico, você será solicitado a informar um nome de domínio. Para obter mais informações sobre domínios no Commerce, consulte [Configurar seu nome de domínio](configure-your-domain-name.md) e [Domínios no Dynamics 365 Commerce](domains-commerce.md). Para implantar um novo locatário de comércio eletrônico usando o [Microsoft Dynamics Lifecycle Services (LCS)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide), siga as etapas em [Implantar um novo locatário de comércio eletrônico](deploy-ecommerce-site.md). Depois que o seu locatário de comércio eletrônico for configurado no LCS, será fornecido um link para o construtor de sites do Commerce. Em seguida, você poderá usar o construtor de sites do Commerce para inicializar e configurar seus sites de comércio eletrônico.
 
 ## <a name="initialize-your-e-commerce-site"></a>Inicializar seu site de comércio eletrônico
 

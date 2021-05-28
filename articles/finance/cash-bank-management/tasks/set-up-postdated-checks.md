@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2adb8b969a6e86becaa3c0a3b59d8f8f259e5a64
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834587"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026196"
 ---
 # <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
 
@@ -53,7 +53,11 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
     * Selecione a conta bancária utilizada para deduzir o valor da fatura.  
 18. Clique em Salvar.
 19. Feche a página.
-
-
+> [!NOTE]
+> Para conseguir postar um cheque prédatado para uma conta bancária quando a data da sessão for superior ou igual à data de vencimento, você deve habilitar o recurso **Validação de data de validade do diário de pagamento de postagem com cheques prédatados para a conta bancária**. Este recurso permite que você poste diários de pagamento para fornecedores ou clientes com cheques prédatados, quando a data da sessão for superior ou igual à data de vencimento.
+> 
+> Ao configurar o **Método de pagamento** (**Contas a pagar > Configuração de pagamento > Métodos de pagamento**), não preencha **Conta de ponte**. Nesse caso, a conta de compensação é preenchida com a conta bancária, que é configurada no **Método de pagamento**.
+>  
+> Quando o recurso é habilitado e a data da sessão é inferior à data de vencimento, a seguinte mensagem de erro é exibida ao postar um diário de pagamento, "A data de vencimento deve ser inferior ou igual à data da sessão se o tipo de conta de compensação for Banco". Se o recurso não estiver habilitado, você pode postar um diário de pagamento com um cheque prédatado quando a data da sessão for inferior à data de vencimento.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9d6fa36d7bb45e1cd9f8c3fbc1e60ac521f1f9b0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d9d36bcb05cf466d34d921d8cd5266b6c12a63d7
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795444"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028242"
 ---
 # <a name="shift-and-cash-drawer-management"></a>Gerenciamento de turnos e caixa registradora
 
@@ -45,7 +45,7 @@ Tradicionalmente, esse cenário tem sido usado com mais frequência. Ainda é us
 
 Em um turno de "gaveta do caixa flutuante", o turno e a gaveta de dinheiro podem ser movidos de uma caixa registradora à outra. Embora uma caixa registradora possa ter apenas um turno ativo por gaveta de dinheiro, os turnos podem ser suspensos e retomados posteriormente ou em uma caixa registradora diferente.
 
-Por exemplo, uma loja tem duas caixas registradoras. Cada caixa registradora é aberta no início do dia quando o caixa abre um novo turno e fornece o valor inicial. Quando um caixa estiver pronto para fazer uma interrupção, ele suspenderá seu turno e removerá a gaveta do caixa da gaveta de dinheiro. Essa caixa registradora então ficará disponível para outros caixas. Outro caixa pode entrar e abrir seu próprio turno na caixa registradora. Depois do término da interrupção do primeiro caixa, este poderá retomar seu turno quando uma das outras caixas registradoras ficar disponível. Turnos de "gaveta do caixa flutuante" não exigem nenhuma configuração ou permissão especial.
+Por exemplo, uma loja tem duas caixas registradoras. Cada caixa registradora é aberta no início do dia quando o caixa abre um novo turno e fornece o valor inicial. Quando um caixa estiver pronto para fazer uma interrupção, ele suspenderá seu turno e removerá a gaveta da caixa registradora. Essa caixa registradora então ficará disponível para outros caixas. Outro caixa pode entrar e abrir seu próprio turno na caixa registradora. Quando o intervalo do primeiro caixa acabar, ele poderá retomar seu turno quando uma das outras caixas registradoras ficar disponível. Turnos de "gaveta do caixa flutuante" não exigem nenhuma configuração ou permissão especial.
 
 ### <a name="single-user"></a>Usuário único
 
@@ -154,7 +154,7 @@ Vá para **Retail e Commerce \> Canais \> Lojas \> Todas as lojas de varejo \> D
 
 Essa configuração ajuda a garantir que os demonstrativos do back office incluam as mesmas transações que os turnos no PDV, e que os dados sejam resumidos por esse turno.
 
-Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
+Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

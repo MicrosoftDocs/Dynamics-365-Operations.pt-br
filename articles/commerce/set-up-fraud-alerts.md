@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 8334b46f7e943e888c3a4db7580eeca30d49ad39
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 401fb9af5d2d50a14c288363af3e0b814dcbf7c6
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793960"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018532"
 ---
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>Configurar e trabalhar com alertas de fraude de call center
 
@@ -34,13 +34,13 @@ Este tópico explica como configurar critérios e regras para colocar ordens de 
 
 ## <a name="turning-on-the-fraud-check-feature"></a>Ativação do recurso de verificação de fraude
 
-Para usar o recurso de verificação de fraude, você deverá definir a opção **Habilitar a conclusão de ordem** do canal como **Sim** quando o canal de call center estiver [definido](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options). Quando a conclusão de ordem estiver ativada, os usuários do call center deverão selecionar **Concluir** na página da ordem de venda para todas as ordens de venda criadas. A ação Concluir faz com que a página **Resumo da ordem de venda** seja aberta. Depois de inserir os dados de pagamento necessários na página **Resumo da ordem de venda**, os usuários deverão selecionar **Enviar** para finalizar a ordem. Quando a ordem for enviada, o recurso de verificação de fraude será disparado e todas as regras que estiverem ativas no sistema serão automaticamente validadas.
+Para usar o recurso de verificação de fraude, você deverá definir a opção **Habilitar a conclusão de ordem** do canal como **Sim** quando o canal de call center estiver [definido](/dynamics365/unified-operations/retail/set-up-order-processing-options). Quando a conclusão de ordem estiver ativada, os usuários do call center deverão selecionar **Concluir** na página da ordem de venda para todas as ordens de venda criadas. A ação Concluir faz com que a página **Resumo da ordem de venda** seja aberta. Depois de inserir os dados de pagamento necessários na página **Resumo da ordem de venda**, os usuários deverão selecionar **Enviar** para finalizar a ordem. Quando a ordem for enviada, o recurso de verificação de fraude será disparado e todas as regras que estiverem ativas no sistema serão automaticamente validadas.
 
-Os usuários do call center também podem ser inserir manualmente as ordens de venda em espera para a revisão de fraude antes de selecionar **Enviar**. Para colocar uma ordem de venda em espera manualmente, na página **Resumo da ordem de venda** , selecione **Esperar** \> **Bloqueio manual por fraude**. Será solicitado que você insira um comentário para explicar o motivo por colocar a ordem em espera. Esse comentário aparecerá na bancada de [bloqueios de ordens](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) para fornecer contexto ao usuário que revisar as ordens que estão em espera para determinar se a ordem deve ser liberada.
+Os usuários do call center também podem ser inserir manualmente as ordens de venda em espera para a revisão de fraude antes de selecionar **Enviar**. Para colocar uma ordem de venda em espera manualmente, na página **Resumo da ordem de venda** , selecione **Esperar** \> **Bloqueio manual por fraude**. Será solicitado que você insira um comentário para explicar o motivo por colocar a ordem em espera. Esse comentário aparecerá na bancada de [bloqueios de ordens](/dynamics365/unified-operations/retail/work-with-order-holds) para fornecer contexto ao usuário que revisar as ordens que estão em espera para determinar se a ordem deve ser liberada.
 
 Além da configuração da opção **Habilitar conclusão de ordem** no canal, você deve configurar o recurso de verificação de fraude nos parâmetros do Call center. Vá para **Retail e Commerce** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center**. Na página **Parâmetros de call center**, na guia **Bloqueios** , defina a opção **Verificação de fraude** como **Sim**.
 
-Na guia **Bloqueios**, você também deve definir os [códigos de bloqueio](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds) que serão aplicados a uma ordem que for colocada em espera manualmente ou automaticamente para a revisão de fraude. Defina os códigos de bloqueio nos campos **Código de bloqueio manual por fraude** e **Código de bloqueio por fraude** . Pode ser útil criar dois códigos exclusivos de bloqueio para que os usuários que trabalham na bancada de bloqueios possam facilmente filtrar e distinguir os bloqueios automáticos dos bloqueios manuais.
+Na guia **Bloqueios**, você também deve definir os [códigos de bloqueio](/dynamics365/unified-operations/retail/work-with-order-holds) que serão aplicados a uma ordem que for colocada em espera manualmente ou automaticamente para a revisão de fraude. Defina os códigos de bloqueio nos campos **Código de bloqueio manual por fraude** e **Código de bloqueio por fraude** . Pode ser útil criar dois códigos exclusivos de bloqueio para que os usuários que trabalham na bancada de bloqueios possam facilmente filtrar e distinguir os bloqueios automáticos dos bloqueios manuais.
 
 Para que o recurso de verificação de fraude funcione com eficiência, você também deve definir o campo **Pontuação mínima** . Cada critério e regra de fraude definidos no sistema têm uma pontuação. Quando uma ordem de venda é verificada quanto a correspondências de fraude, se houver uma ou mais correspondências, as pontuações serão somadas para dar à ordem uma pontuação total de fraude. Se a pontuação total de fraude de uma ordem exceder o valor do campo **Pontuação mínima**, a ordem será colocada automaticamente em espera. Opcionalmente, você pode usar os outros campos relacionados à pontuação na guia **Bloqueios** para definir a pontuação do email, do número de telefone, do CEP e do CEP estendido. Se você não especificar uma pontuação para algum desses critérios de fraude estáticos quando defini-los na página **Dados de fraude estáticos**, o sistema dará uma pontuação a eles usando as pontuações padrão especificadas na guia **Bloqueios** da página **Parâmetros de call center** .
 
@@ -65,7 +65,7 @@ A ordem foi salva, mas o sinalizador **Não processar** está definido nela. Ess
 
 Para exibir e gerenciar as ordens que estão em espera para a revisão de fraude, vá para **Retail e Commerce** \> **Clientes** \> **Bloqueios da ordem**. Na página **Bloqueios da ordem**, selecione uma entrada na lista e clique em **Bloqueio da ordem** para ver uma exibição mais detalhada que inclui informações sobre o motivo do bloqueio. No FastTab **Detalhes da fraude**, você pode visualizar os critérios sistemáticos de fraude que foram considerados uma correspondência com a ordem e as pontuações aplicadas. Se a ordem foi colocada em bloqueio manual, você poderá revisar os comentários inseridos pelo usuário que colocou a ordem em espera consultando a seção **Anotações de fraude** no FastTab **Anotações** .
 
-Para obter mais informações sobre como trabalhar com o bloqueio de ordens, consulte [Bloqueios da ordem](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds).
+Para obter mais informações sobre como trabalhar com o bloqueio de ordens, consulte [Bloqueios da ordem](/dynamics365/unified-operations/retail/work-with-order-holds).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

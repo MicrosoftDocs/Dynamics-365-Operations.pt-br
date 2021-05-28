@@ -2,7 +2,6 @@
 title: Configurar fontes de dados de pesquisa para usar parâmetros específicos do aplicativo ER
 description: Este tópico explica como configurar fontes de dados de pesquisa em formatos de relatório eletrônico (ER) para usar parâmetros especificados específicos de aplicativo ER.
 author: NickSelin
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 542580c859759c25da84589ec82495eb72bbcbe5
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853512"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022566"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurar fontes de dados de pesquisa para usar parâmetros específicos do aplicativo ER 
 

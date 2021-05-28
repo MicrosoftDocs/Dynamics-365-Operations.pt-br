@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d6e8f63ef00f714109ae650d3cedaf19e5159325
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818743"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028194"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizado de máquina (versão prévia)
 
@@ -63,8 +63,8 @@ Para começar a discutir essa pergunta, considere a acurácia de uma suposição
 
 É importante observar outro aspecto. Considere um cenário no qual um teste médico é usado para detectar uma doença em uma paciente. Esse é um problema de classificação binária em que um resultado positivo indica que a paciente tem a doença. Neste cenário, você deve pensar no impacto dos seguintes erros:
 
-- Falsos positivos, em que o teste diz que uma paciente tem a doença, mas ela não tem realmente
-- Falsos negativos, em que o teste diz que uma paciente não tem a doença, mas ela tem
+- Falsos positivos, em que o teste diz que uma paciente tem a doença, mas a paciente não tem realmente.
+- Falsos negativos, em que o teste diz que uma paciente não tem a doença, mas ela realmente tem.
 
 Obviamente, os dois tipos de erro são indesejados, mas qual é pior? Mais uma vez, depende. No caso de uma doença que ameaça a vida e exige tratamento rápido, a minimização de falsos negativos (seguidos de testes adicionais, espera-se) é algo prioritário. Em outras situações menos críticas, os criadores de modelo podem minimizar falsos positivos. De qualquer forma, uma conclusão razoável é que para determinar efetivamente a qualidade de um modelo, você deve ter mais informações do que as fornecidas por uma métrica de acurácia.
 

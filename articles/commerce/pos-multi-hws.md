@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-03-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: ad75430c606f959b17c887531fb62bd37caec624
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8a3c7eb9580f9155dd33f6351f37eb1edd269a3d
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804298"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018624"
 ---
 # <a name="dedicated-payment-terminals-and-prompts-for-a-printer-and-cash-drawer"></a>Terminais de pagamento dedicados e solicitações para uma impressora e caixa registradora
 
@@ -50,13 +50,13 @@ A funcionalidade descrita neste tópico é compatível com os clientes de PDV Mo
 
 Essa funcionalidade oferece suporte a terminais de pagamento e impressoras de recibo habilitados para rede. Você pode fornecer suporte à caixa registradora conectando a caixa registradora à impressora de recibo habilitada para rede por meio da porta d/k.
 
-O suporte pronto para uso para essa funcionalidade é fornecido pelo [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). No entanto, outros conectores de pagamento podem ter suporte por meio do kit de desenvolvimento de software (SDK) do Commerce para pagamentos. As impressoras de recibo incluem impressoras de recebimento habilitadas para Star Micronics e Epson.
+O suporte pronto para uso para essa funcionalidade é fornecido pelo [Dynamics 365 Payment Connector for Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). No entanto, outros conectores de pagamento podem ter suporte por meio do kit de desenvolvimento de software (SDK) do Commerce para pagamentos. As impressoras de recibo incluem impressoras de recebimento habilitadas para Star Micronics e Epson.
 
 Para configurar impressoras de recibo Star Micronics, use o Utilitário de Impressora Star Micronics para configurar o dispositivo de forma que ele possa ser usado na rede. Esse utilitário também fornecerá o endereço IP do dispositivo.
 
 Para configurar impressoras de recibo da Epson, use o utilitário Epson ePOS-Print para configurar o dispositivo a fim de usar protocolos de rede.
 
-Para obter mais informações sobre como configurar os periféricos da rede, consulte [Visão geral de suporte de periféricos de rede](https://go.microsoft.com/fwlink/?linkid=2129965).
+Para obter mais informações sobre como configurar os periféricos da rede, consulte [Visão geral de suporte de periféricos de rede](./dev-itpro/network-peripherals.md).
 
 ## <a name="set-up-a-dedicated-payment-terminal-and-a-prompt-for-a-printer-and-cash-drawer"></a>Configurar um terminal de pagamento dedicado e um solicitação para uma impressora e caixa registradora
 
@@ -75,9 +75,9 @@ Para configurar o perfil de hardware atribuído à registradora, siga estas etap
 
     | Dispositivo | Tipo | Nome do dispositivo | Detalhes adicionais |
     |---|---|---|---|
-    | Impressora | Fallback | *Qualquer* | O nome do dispositivo diferencia letras maiúsculas de minúsculas. A **ID do perfil de recibo** deve ser igual à **ID do perfil de recibo** mapeada para a impressora de rede que está configurada no perfil de hardware atribuído à estação de hardware no nível do canal. |
-    | Caixa registradora | Fallback | *Qualquer* | O nome do dispositivo diferencia letras maiúsculas de minúsculas. Defina a opção **Usar turno compartilhado** como **Sim**. |
-    | Serviço de TEF | Adyen | Não Aplicável | Para obter informações sobre como configurar o conector Adyen pronto para uso, consulte [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3). Outros conectores de pagamento podem ter suporte por meio do [kit de desenvolvimento de software (SDK) do Commerce para pagamentos](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/end-to-end-payment-extension). |
+    | Impressora | Rede | *Qualquer* | O nome do dispositivo diferencia letras maiúsculas de minúsculas. A **ID do perfil de recibo** deve ser igual à **ID do perfil de recibo** mapeada para a impressora de rede que está configurada no perfil de hardware atribuído à estação de hardware no nível do canal. |
+    | Caixa registradora | Rede | *Qualquer* | O nome do dispositivo diferencia letras maiúsculas de minúsculas. Defina a opção **Usar turno compartilhado** como **Sim**. |
+    | Serviço de TEF | Adyen | Não Aplicável | Para obter informações sobre como configurar o conector Adyen pronto para uso, consulte [Dynamics 365 Payment Connector for Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3). Outros conectores de pagamento podem ter suporte por meio do [kit de desenvolvimento de software (SDK) do Commerce para pagamentos](./dev-itpro/end-to-end-payment-extension.md). |
     | Teclado do PIN | Rede | **MicrosoftAdyenDeviceV001** | Nenhum. |
 
 5. No Dynamics 365 Commerce, procure **registradoras**.
@@ -85,7 +85,7 @@ Para configurar o perfil de hardware atribuído à registradora, siga estas etap
 7. Atribua o perfil de hardware que você acabou de criar para a registradora que deve usar um terminal de pagamento dedicado. O dispositivo mapeado para esse registro deve usar o aplicativo Modern POS para Windows ou o aplicativo Modern POS para Android.
 8. Selecione **Salvar**.
 9. No Painel de ações, na guia **Registradoras**, selecione **Configurar endereços IP**.
-10. Na Guia Rápida **Teclado do PIN**, insira o endereço IP do terminal de pagamento. Para obter informações sobre como obter o endereço IP do terminal de pagamento usando o conector Adyen, consulte [Dynamics 365 Payment Connector for Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3).
+10. Na Guia Rápida **Teclado do PIN**, insira o endereço IP do terminal de pagamento. Para obter informações sobre como obter o endereço IP do terminal de pagamento usando o conector Adyen, consulte [Dynamics 365 Payment Connector for Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3).
 11. Selecione **Salvar**.
 
 #### <a name="set-up-a-hardware-profile-for-the-receipt-printer-and-cash-drawer"></a>Configurar um perfil de hardware para a impressora de recibo e a caixa registradora
@@ -100,7 +100,7 @@ Para configurar o perfil de hardware usado para agrupar a impressora de recibo d
     | Dispositivo | Tipo | descrição | Detalhes adicionais |
     |---|---|---|---|
     | Impressora | Rede | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. A **ID do perfil de recibo** deve ser igual à **ID do perfil de recibo** mapeada para a impressora de rede que está configurada no perfil de hardware atribuído à registradora. |
-    | Caixa registradora | Rede | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. defina a opção **Usar turno compartilhado** como **Sim**. |
+    | Caixa registradora | Fallback | **Epson** ou **Star** | O nome do dispositivo diferencia letras maiúsculas de minúsculas. defina a opção **Usar turno compartilhado** como **Sim**. |
 
 5. Selecione **Salvar**.
 
@@ -148,9 +148,9 @@ Os associados da loja devem selecionar uma estação de hardware somente uma vez
 
 ## <a name="related-articles"></a>Artigos relacionados
 
-- [Configurar o aplicativo POS hybrid no Android e iOS](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/hybridApp)
-- [Conector de Pagamento do Dynamics 365 para Adyen](https://docs.microsoft.com/dynamics365/commerce/dev-itpro/adyen-connector?tabs=8-1-3)
-- [Visão geral de suporte de periféricos de rede](https://go.microsoft.com/fwlink/?linkid=2129965)
+- [Configurar o aplicativo POS hybrid no Android e iOS](./dev-itpro/hybridapp.md)
+- [Conector de Pagamento do Dynamics 365 para Adyen](./dev-itpro/adyen-connector.md?tabs=8-1-3)
+- [Visão geral de suporte de periféricos de rede](./dev-itpro/network-peripherals.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

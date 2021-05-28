@@ -1,6 +1,6 @@
 ---
 title: O cliente desconecta
-description: Este artigo explica o que fazer se o cliente estiver desconectado de seu ambiente e não sabe o porquê.
+description: Este artigo explica o que fazer se o cliente for desconectado do ambiente e não souber por que.
 author: andreabichsel
 ms.date: 02/03/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e9ec43ad0a7d121eb247d81d4b506556a0fa2214
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: db0e8efec1a5a6f01c9b7c4d9334a959fc42886b
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794892"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027978"
 ---
 # <a name="client-disconnects"></a>O cliente desconecta
 
@@ -32,7 +32,7 @@ Esse problema pode ocorrer em todos os ambientes.
  
 **Sintoma** 
 
-O cliente estiver desconectado de seu ambiente e não sabe o porquê. O cliente recebe uma das mensagens de erro:
+O cliente é desconectado do ambiente e não sabe por que. O cliente recebe uma das mensagens de erro:
 
 - Perdemos sua conexão. Clique em Fechar para continuar trabalhando.
 - Parece que você perdeu a conectividade de rede. Clique em Repetir para tentar novamente.

@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 21892e01f3964629ab2cea8c488eb3a5363d3b42
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 6dab813021354c947b8ee0cb8d2e642e8da1fb41
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894660"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016169"
 ---
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
@@ -866,7 +866,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>Geração de um arquivo de texto e suporte para empresas definidas como Perfil A
 <p>Versões de layout disponíveis:</p>
 <ul>
-<li>Código de Layout 14 e anterior</li>
+<li>Código de Layout 15 e anterior</li>
 </ul>
 </td>
 <td>Sim</td>
@@ -974,7 +974,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <tr>
 <td>SPED ECF</td>
 <td>Geração de um arquivo de texto usando o Management Reporter
-<p>Layouts 005 e anterior</p>
+<p>Layouts 007 e anterior</p>
 <p>Suporte para os seguintes blocos e registros:</p>
 <ul>
 <li>Bloco 0: 0000-0001-0010-0020-0030-0035-0930-0990</li>
@@ -991,8 +991,8 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>
 <div>Geração de eventos:</div>
 <ul>
-<li>R-1000, R-1070, R-2010, R-2020, R-2060, R-2098, R-2099, R-5011</li>
-<li>Versão do layout 1.4</li>
+<li>R-1000, R-1070, R-2010, R-2020, R-2055, R-2060, R-2098, R-2099, R-5011</li>
+<li>Versão do layout 1.5.1</li>
 </ul>
 </td>
 <td>Sim</td>
@@ -1019,7 +1019,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <tr>
 <td>SPED Contábil</td>
 <td>Geração de arquivos de texto do SPED Contábil
-<p>Versões de layout suportadas: 8.0 e anterior</p>
+<p>Versões de layout suportadas: 9.0 e anterior</p>
 </td>
 <td>Sim</td>
 <td>Sim</td>
@@ -1028,7 +1028,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <td>&nbsp;</td>
 <td>Suporte para o tipo G de escrituração contábil (Day Book - Livro Diário) e a geração dos seguintes blocos e registros:
 <ul>
-<li>Bloco 0: 0000-0001-0007-0020-0035-0150-0180-0990</li>
+<li>Bloco 0: 0000-0001-0007-0035-0990</li>
 <li>Bloco I: I001-I010-I030-I050-I051-I052-I100-I150-I155-I200-I250-I350-I355-I990</li>
 <li>Bloco J: J001-J005-J100-J150-J800-J801-J900-J930-J932-J935-J999</li>
 <li>Bloco 9: 9001-9900-9990-9999</li>

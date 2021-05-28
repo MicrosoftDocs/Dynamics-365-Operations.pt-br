@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fb3555e6d923fe37479c3204f0b78f7cdf510118
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938417"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015942"
 ---
 # <a name="category-requests-from-vendors"></a>Solicitações de categoria de fornecedores
 
@@ -36,10 +36,7 @@ Depois que o recurso for ativado, você ainda poderá adicionar categorias de co
 
 Antes que um fornecedor possa interagir com solicitações de categoria, ele deve ser configurado para colaboração de fornecedor.
 
-O fornecedor deve ter pelo menos um usuário de colaboração de fornecedor. Somente os usuários fornecedores que têm um ou ambos os direitos de acesso a seguir podem criar e enviar solicitações de categoria:
-
-- Contato do fornecedor (externo)
-- Administrador do fornecedor (externo)
+O fornecedor deve ter pelo menos um usuário de colaboração de fornecedor. Somente os usuários fornecedores com a função de segurança *Administrador do fornecedor (externo)* podem criar e enviar solicitações de categoria.
 
 Para obter mais informações, consulte [Configurar e manter colaboração de fornecedor](set-up-maintain-vendor-collaboration.md).
 

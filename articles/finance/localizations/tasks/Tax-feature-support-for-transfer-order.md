@@ -5,7 +5,6 @@ author: kailiang
 ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application user
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: d1b99046b0e439c9dadbb240050e270a7b2a6914
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 3a5c2b6fb48d98ba045c77ed034d976f7d89af98
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920946"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021360"
 ---
 # <a name="tax-feature-support-for-transfer-orders"></a>Suporte ao recurso de imposto para a ordens de transferência
 
@@ -41,7 +40,7 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
 
 1. Na página **Recursos de impostos**, na guia **Versões**, selecione o rascunho da versão do recurso e selecione **Editar**.
 
-    ![Depois de selecionar Editar](../media/image1.png)
+    ![Depois de selecionar Editar](../media/tax-feature-support-01.png)
 
 2. Na página **Configuração dos recursos de impostos**, na guia **Códigos de impostos**, selecione **Adicionar** para criar códigos de impostos. Nesse exemplo, três códigos de imposto são criados: **NL-Exempt**, **BE-RC-21** e **BE-RC+21**.
 
@@ -54,7 +53,7 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         4. Selecione **Adicionar** na tabela **Taxa**.
         5. Altere o campo **É Isento** para **Sim** na seção **Geral**.
 
-        ![Código de imposto NL-Exempt](../media/image2.png)
+        ![Código de imposto NL-Exempt](../media/tax-feature-support-02.png)
 
     - Quando uma ordem de transferência é recebida em um depósito na Bélgica, o mecanismo de cobrança revertido é aplicado usando os códigos de imposto **BE-RC-21** e **BE-RC+21**.
         
@@ -67,7 +66,7 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         6. Altere o campo **É Encargo Reverso** para **Sim** na seção **Geral**.
         7. Selecione **Salvar**.
 
-        ![Código de imposto BE-RC-21 para cobranças revertidas](../media/image3.png)
+        ![Código de imposto BE-RC-21 para cobranças revertidas](../media/tax-feature-support-03.png)
         
         Crie o código de imposto **BE-RC+21**.
         1. Selecione **Adicionar**, insira o código **BE-RC-21** no campo **Código de imposto**.
@@ -77,7 +76,7 @@ Siga estas etapas para configurar o imposto envolvido em uma ordem de transferê
         5. Insira **21** no campo **Taxa tributária**.
         6. Selecione **Salvar**.
 
-        ![Código de imposto BE-RC+21 para cobranças revertidas](../media/image4.png)
+        ![Código de imposto BE-RC+21 para cobranças revertidas](../media/tax-feature-support-04.png)
 
 3. Defina a aplicabilidade dos códigos de imposto.
 

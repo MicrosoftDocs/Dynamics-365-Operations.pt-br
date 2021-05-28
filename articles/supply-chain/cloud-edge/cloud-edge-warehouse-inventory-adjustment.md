@@ -2,11 +2,9 @@
 title: Ajuste de estoque do depósito
 description: Este tópico fornece informações sobre o diário de ajuste de estoque de depósito e o processamento quando você está usando unidades de escala.
 author: perlynne
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSInventoryAdjustmentJournal, InventJournalCount
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: be386539ea7addf20256ac2b1f8a2a72736fcbec
-ms.sourcegitcommit: cd9016e9787169cb800889d335b9c5919ddbe4af
+ms.openlocfilehash: a451816078ca2e77f30379828777209dc48bd849
+ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938217"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6026124"
 ---
 # <a name="warehouse-inventory-adjustment"></a>Ajuste de estoque do depósito
 
@@ -40,7 +38,7 @@ Os seguintes processos de trabalho do aplicativo de depósito no momento estão 
 - Contagem cíclica
 - Carregamento da placa de licença:
 
-Várias transações de estoque são criadas como parte da nuvem e borda no processo de ajuste de estoque porque as implantações de unidade de escala e de hub compartilham os registros de estoque.
+Várias transações de estoque são criadas como parte de cada processo de ajuste de estoque porque as implantações de unidade de escala e de hub compartilham os registros de estoque.
 
 ## <a name="inventory-adjustment-example"></a>Exemplo de ajuste do estoque
 

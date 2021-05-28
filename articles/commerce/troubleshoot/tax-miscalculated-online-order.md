@@ -5,7 +5,6 @@ author: Reza-Assadi
 ms.date: 03/11/2021
 ms.topic: Troubleshooting
 ms.prod: ''
-ms.service: dynamics-365-retail
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
@@ -16,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7f71add679e1d24f80db8ce3990058b591128ec1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801402"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021094"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Os impostos sobre ordens online são calculados incorretamente
 
@@ -44,7 +43,7 @@ Para configurar o imposto de uma loja de varejo na matriz do Commerce, siga esta
 1. Na guia rápida **Geral**, na seção **Imposto**, configure as informações sobre o imposto para a loja.
 
 > [!NOTE]
-> Para a retirada de produtos de uma loja, o grupo de impostos vem da loja selecionada para entrega. Para obter mais informações, consulte [Definir outras opções de imposto para lojas](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
+> Para a retirada de produtos de uma loja, o grupo de impostos vem da loja selecionada para entrega. Para obter mais informações, consulte [Definir outras opções de imposto para lojas](/dynamicsax-2012/appuser-itpro/set-other-tax-options-for-stores).
 
 ### <a name="configure-the-sales-tax-for-a-customers-address-in-commerce-headquarters"></a>Configurar o imposto de um endereço do cliente na matriz do Commerce
 
@@ -68,7 +67,7 @@ Para configurar grupos de impostos gerais na matriz do Commerce, siga estas etap
 1. Na guia rápida **Imposto baseado no destino de varejo**, configure os impostos para o grupo de impostos.
 
 > [!NOTE]
-> Para remessas que não envolvem impostos no endereço do cliente, o endereço de entrega da linha e os impostos baseados no destino que são configurados para o grupo de impostos determinam o grupo de impostos. Para obter mais informações, consulte [Configurar os impostos para as lojas online com base no destino](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
+> Para remessas que não envolvem impostos no endereço do cliente, o endereço de entrega da linha e os impostos baseados no destino que são configurados para o grupo de impostos determinam o grupo de impostos. Para obter mais informações, consulte [Configurar os impostos para as lojas online com base no destino](/dynamicsax-2012/appuser-itpro/set-up-taxes-for-online-stores-based-on-destination).
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

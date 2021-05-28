@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-12
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4e50855368a3fa86c38c756492fc7e6cd518f497
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c813adb79ae1b78a052332e077393f125830633f
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796090"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027713"
 ---
 # <a name="configure-multiple-b2c-tenants-in-a-commerce-environment"></a>Configurar vários locatários B2C em um ambiente do Commerce
 
@@ -27,7 +27,7 @@ ms.locfileid: "5796090"
 
 Este tópico descreve quando e como configurar os locatários business-to-consumer (B2C) do Microsoft Azure Active Directory (Azure AD) por canal para autenticação do usuário em um ambiente dedicado do Dynamics 365 Commerce.
 
-O Dynamics 365 Commerce usa o serviço de identidade de nuvem B2C do Azure AD para oferecer suporte a credenciais do usuário e fluxos de autenticação. Os usuários podem usar os fluxos de autenticação para se inscrever, entrar e redefinir sua senha. O B2C do Azure AD armazena informações confidenciais de autenticação do usuário, como nome de usuário e senha. O registro do usuário é exclusivo para cada locatário B2C e usa credenciais de nome de usuário (endereço de email) ou credenciais de provedor de identidade social.
+O Dynamics 365 Commerce usa o serviço de identidade de nuvem B2C do Azure AD para oferecer suporte a credenciais do usuário e fluxos de autenticação. Os usuários podem usar os fluxos de autenticação para se inscrever, entrar e redefinir sua senha. O B2C do Azure AD armazena informações confidenciais de autenticação do usuário, como o nome de usuário e a senha. O registro do usuário é exclusivo para cada locatário B2C e usa credenciais de nome de usuário (endereço de email) ou credenciais de provedor de identidade social.
 
 Na maioria dos casos, um único locatário B2C do Azure AD é usado em um ambiente do Commerce. Os clientes do Commerce podem criar e publicar vários sites no mesmo ambiente do Commerce, e as mesmas credenciais do cliente serão usadas nesses sites. No entanto, se os sites no ambiente devem ser tratados como marcas diferentes e parecerem aos usuários como empresas separadas, um locatário B2C poderá ser configurado para o canal usado para a separação site/marca.
 

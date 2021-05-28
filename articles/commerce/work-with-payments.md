@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ff1cf8619bc94c35e416b2c7dcf2350d2238dbf5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f7ab0aadb9ef99e2a8f7263434ddbc2f4813926a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793888"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027423"
 ---
 # <a name="payment-methods-in-call-centers"></a>Métodos de pagamento em call centers
 
@@ -49,7 +49,7 @@ Quando você cria um método de pagamento, há cinco funções de método de pag
 
 Para os cenários de processamento de reembolso, o Call center também usa alguns dos métodos de pagamento definidos em Contas a receber. Para configurar esses métodos de pagamento, vá para **Varejo e Comércio** \> **Configuração de canal** \> **Configuração de call center** \> **Métodos de reembolso de call center**. Será necessário concluir essa configuração para processar os cheques de reembolso para os clientes. Por exemplo, se um cliente tiver originalmente pago por uma ordem com dinheiro ou cheque, o usuário poderá querer enviar para ele um cheque de reembolso por meio de Contas a receber. Nesse caso, os tipos de pagamento à vista e com cheque no call center devem ser mapeados para o método de pagamento correto em Contas a receber para ajudar a garantir que o desconto seja processado corretamente.
 
-Adicionalmente, se um usuário estiver processando uma ordem de devolução como um usuário de call center no Commerce mas não puder vincular a devolução a uma venda original, o método de pagamento **Devolução** deverá ser definido nos Parâmetros de call center. Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center** e, então, na guia **ADM/Devolução**, no campo **Método de pagamento**, verifique se um método de pagamento foi definido. O método de pagamento será aquele usado para reembolsos. Normalmente, será definido como um método de cheque ou um método de conta de cliente.
+Além disso, se um usuário estiver processando uma ordem de devolução como um usuário de call center no Commerce, mas não puder vincular a devolução a uma venda original, o método de pagamento **Devolução** deverá ser definido nos Parâmetros de call center. Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center** e, então, na guia **ADM/Devolução**, no campo **Método de pagamento**, verifique se um método de pagamento foi definido. O método de pagamento será aquele usado para reembolsos. Normalmente, será definido como um método de cheque ou um método de conta de cliente.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

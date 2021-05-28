@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 59d6b298896c92cbc0f6bbae17096ee1f027b922
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799146"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019850"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
@@ -39,7 +39,7 @@ As configurações a seguir devem ser habilitadas no back office antes da habili
 2. Verifique se a atualização do armazenamento de entidade foi automatizada. Para obter mais informações, consulte [Garantir se a atualização do armazenamento de entidade foi automatizada](../fin-ops-core/dev-itpro/data-entities/entity-store-data-lake.md).
 3. Confirme se a configuração da entidade Azure AD contém uma entrada para Recomendações. Veja a seguir mais informações sobre como executar essa ação.
 
-Adicionalmente, verifique se as medições do RetailSale estão habilitadas. Para saber mais sobre este processo de configuração, consulte [Trabalhar com medidas](https://docs.microsoft.com/dynamics365/ai/customer-insights/pm-measures).
+Adicionalmente, verifique se as medições do RetailSale estão habilitadas. Para saber mais sobre este processo de configuração, consulte [Trabalhar com medidas](/dynamics365/ai/customer-insights/pm-measures).
 
 ## <a name="azure-ad-identity-configuration"></a>Configuração de identidade do Azure AD
 

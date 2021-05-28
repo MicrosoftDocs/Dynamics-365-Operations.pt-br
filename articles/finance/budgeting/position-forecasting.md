@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 03a195c725854eff1fe6d6fa20bb815673e2e307
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3ff7ac15a64196d7839177ded5515386184e268
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827329"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028218"
 ---
 # <a name="position-forecasting"></a>Previsão de posição
 
@@ -67,9 +67,9 @@ A organização de Jodi oferece uma bonificação de treinamento de 5% do pagame
 
 Jodi não quer que os gerentes mudem o valor do benefício. Então, ela seleciona **Não permitir alterações de custo** no campo **Substituição da previsão de posição**. A organização deseja que esse custo seja atribuído uniformemente a cada mês. Então, a Jodi seleciona **Trimestral** no campo **Método de alocação**. 
 
-Em seguida, a Jodi adiciona uma linha de cálculo de custo, define as datas e uma conta principal, e insere **5.00** como porcentagem. Sua organização tem uma capitalização de $5.000 por ano de benefício. Portanto, Jodi insere esse valor como o limite anual. 
+Em seguida, a Jodi adiciona uma linha de cálculo de custo, define as datas e uma conta principal, e insere **5.00** como porcentagem. A organização tem um limite de US$ 5.000 por ano para este benefício. Portanto, Jodi insere esse valor como o limite anual. 
 
-Por fim, Jodi adiciona todos os elementos de custo de ganho usados para o pagamento base como as bases de cálculo. Seu elemento de custo de orçamento agora está pronto para ser usado.
+Por fim, Jodi adiciona todos os elementos de custo de ganho usados para o pagamento base como as bases de cálculo. O elemento de custo de orçamento agora está pronto para ser usado.
 
 ### <a name="compensation-groups"></a>Grupos de remuneração
 
@@ -137,7 +137,7 @@ As linhas de elementos de custo de orçamento devem ser recalculadas quando o va
 
 **Exemplo** 
 
-A organização está considerando duas opções para reduzir o custo de uma posição de contador. Uma opção é encerrar a parte da posição até o final do ano. A outra opção é alterar a posição para metade do ano inteiro. Brad criou uma previsão de posição para a posição de contador existente em um cenário da linha de base. Ele copia esta previsão de posição da linha de base no cenário A, define a data de aposentadoria como 31 de maio e recalcula. Brad copia a previsão de posição da linha de base no cenário B, altera o valor de FTE para **0,50** e recalcula. Agora Brad tem três versões, cada qual com o total de custo alinhado com suas opções.
+A organização está considerando duas opções para reduzir o custo de uma posição de contador. Uma opção é encerrar a parte da posição até o final do ano. A outra opção é alterar a posição para metade do ano inteiro. Brad criou uma previsão de posição para a posição de contador existente em um cenário da linha de base. Brad copia essa posição de previsão da linha base para o cenário A, define a data de suspensão para 31 de maio e refaz o cálculo. Brad copia a previsão de posição da linha de base no cenário B, altera o valor de FTE para **0,50** e recalcula. Agora, Brad tem três versões, cada uma com custos totais alinhados com as opções.
 
 #### <a name="assigning-a-compensation-group"></a>Atribuição de um grupo de remuneração
 

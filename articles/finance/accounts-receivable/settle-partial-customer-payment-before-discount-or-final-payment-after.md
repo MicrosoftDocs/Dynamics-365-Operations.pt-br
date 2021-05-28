@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dd10e0c6e426d95aa5e96c4b9b59a8a81017b540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4df5ebaf6e8ae8414515bd11087adcd05a88e581
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835137"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027519"
 ---
 # <a name="settle-partial-payment-before-discount-date-with-final-payment-after-discount-date"></a>Liquidar um pagamento parcial antes da data do desconto com um pagamento final após a data do desconto
 
@@ -38,7 +38,7 @@ Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 402
 | FTI-10020 | Fatura          | 25/6/2015 | 10020   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pagamento parcial antes da data de desconto à vista
-Em 2 de julho, o cliente 4027 faz um pagamento parcial de 297,00 para a fatura. O pagamento é qualificado para um desconto à vista porque a Fabrikam oferece descontos à vista em pagamentos parciais e o pagamento parcial é feito antes da data de desconto à vista. Consequentemente, o cliente 4027 tem um desconto de 3,00. Arnie registra o pagamento para o cliente 4027 usando o diário de pagamentos. Arnie então abre a página **Liquidar transações**, dessa forma, ele pode marcar a fatura para liquidação.
+Em 2 de julho, o cliente 4027 faz um pagamento parcial de 297,00 para a fatura. O pagamento é qualificado para um desconto à vista porque a Fabrikam oferece descontos à vista em pagamentos parciais e o pagamento parcial é feito antes da data de desconto à vista. Consequentemente, o cliente 4027 tem um desconto de 3,00. Arnie registra o pagamento para o cliente 4027 usando o diário de pagamentos. Em seguida, Arnie abre a página **Liquidar transações**, para que ele possa marcar a fatura para liquidação.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor em débito na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|----------|------------------|
@@ -95,7 +95,7 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 | Desconto à vista obtido          | 3,00      |
 | Valor do desconto à vista a ser obtido | 7:00      |
 
-Arnie altera o valor no campo **Usar desconto à vista** novamente para **Normal**, porque não permitirá que o cliente obtenha o desconto restante de 7,00. Então, Arnie lança o pagamento. Quando Arnie abre a página **Transações do cliente**, ele vê que a fatura tem um saldo de 0,00. Ele também vê que há dois pagamentos. Um pagamento é de 297,00 e tem um desconto à vista de 3,00, e o outro pagamento é de 700,00.
+Arnie altera o valor do campo **Usar desconto em dinheiro** de volta para **Normal**, pois ele não deixará este cliente receber o desconto em dinheiro restante de 7,00. Então, Arnie lança o pagamento. Quando Arnie abre a página **Transações do cliente**, a fatura tem um saldo de 0,00. Existem dois pagamentos. Um pagamento é de 297,00 e tem um desconto à vista de 3,00, e o outro pagamento é de 700,00.
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|

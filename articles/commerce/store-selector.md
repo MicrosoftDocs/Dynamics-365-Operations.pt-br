@@ -2,7 +2,6 @@
 title: Módulo de seletor de loja
 description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-manager: annbe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
@@ -16,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 22ec78c8e0545698f05f8f8ec261b5e927d698c7
-ms.sourcegitcommit: 74f5b04b482b2ae023c728e0df0eb78305493c6a
+ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "5853408"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6021455"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
@@ -62,7 +61,7 @@ Para inserir os valores de latitude e longitude da localização de uma loja na 
 
 ## <a name="bing-maps-integration"></a>Integração do Bing Maps
 
-O módulo de seletor de loja é integrado às [interfaces de programação de aplicativo (APIs) REST do Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/) para usar os recursos de Geocodificação e Sugestão Automática do Bing. Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados na Sede do Commerce. A API de Geocodificação é usada para converter um local em valores de latitude e longitude. A integração com a API de Sugestão Automática é usada para mostrar sugestões de pesquisa quando os usuários inserem locais no campo de pesquisa.
+O módulo de seletor de loja é integrado às [interfaces de programação de aplicativo (APIs) REST do Bing Maps](/bingmaps/rest-services/) para usar os recursos de Geocodificação e Sugestão Automática do Bing. Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados na Sede do Commerce. A API de Geocodificação é usada para converter um local em valores de latitude e longitude. A integração com a API de Sugestão Automática é usada para mostrar sugestões de pesquisa quando os usuários inserem locais no campo de pesquisa.
 
 Para a API REST da Sugestão Automática, é necessário garantir que as seguintes URLs sejam permitidas de acordo com a política de segurança de conteúdo (CSP) do site. Essa configuração é executada na criação de site do Commerce, adicionando as URLs permitidas às várias diretivas da CSP do site (por exemplo, **img-src**). Para obter mais informações, consulte [Política de segurança de conteúdo](manage-csp.md). 
 
@@ -78,14 +77,14 @@ O módulo de seletor de loja oferece suporte para o modo **Retirar na loja**, qu
 
 O módulo de seletor de loja pode ser adicionado a um módulo de caixa de compra em uma PDP para mostrar as lojas em que um produto está disponível para retirada. Também pode ser adicionado a um módulo de carrinho. Nesse caso, o módulo de seletor de loja mostra as opções de retirada para cada item de linha no carrinho. O módulo de seletor de loja também pode ser adicionado a outras páginas ou módulos por meio de extensões e personalizações.
 
-Para que esse cenário funcione, os produtos devem ser configurados para usar o modo de entrega **retirada**. Caso contrário, o módulo não será mostrado nas páginas de produtos. Para obter mais informações sobre como configurar o modo de entrega, consulte [Configurar os modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+Para que esse cenário funcione, os produtos devem ser configurados para usar o modo de entrega **retirada**. Caso contrário, o módulo não será mostrado nas páginas de produtos. Para obter mais informações sobre como configurar o modo de entrega, consulte [Configurar os modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
 A imagem a seguir mostra um exemplo de um módulo de seletor de loja usado em uma PDP.
 
 ![Exemplo de um módulo de seletor de loja usado em um PDP](./media/BOPIS.PNG)
 
 > [!NOTE]
-> Na versão 10.0.16 ou posterior, um novo recurso pode ser habilitado, permitindo que uma organização defina vários modos de separação de opções de entrega para os clientes.  Se esse recurso estiver habilitado, o seletor de loja e outros módulos de comércio eletrônico serão aprimorados para permitir que o comprador escolha entre as opções de entrega de separação potencialmente múltiplas, se configurado.  Para saber mais sobre esse recurso, consulte [esta documentação](https://docs.microsoft.com/dynamics365/commerce/multiple-pickup-modes). 
+> Na versão 10.0.16 ou posterior, um novo recurso pode ser habilitado, permitindo que uma organização defina vários modos de separação de opções de entrega para os clientes.  Se esse recurso estiver habilitado, o seletor de loja e outros módulos de comércio eletrônico serão aprimorados para permitir que o comprador escolha entre as opções de entrega de separação potencialmente múltiplas, se configurado.  Para saber mais sobre esse recurso, consulte [esta documentação](./multiple-pickup-modes.md). 
 
 ## <a name="find-stores-mode"></a>Modo Localizar lojas
 
@@ -157,11 +156,11 @@ Para configurar o módulo de seletor de loja a fim de mostrar as lojas disponív
 
 [Tour rápido do carrinho e do check-out](quick-tour-cart-checkout.md)
 
-[Configurar os modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Configurar os modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
 [Gerenciar o Bing Mapas da sua organização](dev-itpro/manage-bing-maps.md)
 
-[APIs REST do Bing Maps](https://docs.microsoft.com/bingmaps/rest-services/)
+[APIs REST do Bing Maps](/bingmaps/rest-services/)
 
 [Módulo de mapa](map-module.md)
 

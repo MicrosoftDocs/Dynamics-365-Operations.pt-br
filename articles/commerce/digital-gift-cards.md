@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: bd93744cf947dcc343d2b31d3d52b2b748c062a9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792862"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019924"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Cartões-presente digitais de comércio eletrônico
 
@@ -51,12 +51,12 @@ Produtos de cartão-presente digital devem ser configurados na sede do Commerce.
 
     ![Campo de produto do cartão-presente na sede do Commerce](./media/PostGiftcard.png)
 
-- Se um cartão-presente precisar dar suporte a vários valores predefinidos (por exemplo, US$ 25, US$ 50 e US$ 100), a dimensão **Tamanho** deverá ser usada para configurar esses valores predefinidos. Cada valor predefinido será uma grade. Para obter mais informações, consulte [Dimensões do produto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json).
+- Se um cartão-presente precisar dar suporte a vários valores predefinidos (por exemplo, US$ 25, US$ 50 e US$ 100), a dimensão **Tamanho** deverá ser usada para configurar esses valores predefinidos. Cada valor predefinido será uma grade. Para obter mais informações, consulte [Dimensões do produto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Se os clientes precisarem especificar um valor personalizado para um cartão-presente, primeiro configure uma grade que permita um valor personalizado. Em seguida, abra o produto na página **Produtos liberados na categoria**. Na FastTab **Commerce**, defina o campo **Chave no preço** como **Novo preço deve ser inserido**, conforme mostrado na ilustração a seguir. Essa configuração garante que os clientes possam inserir um preço quando procurarem o produto em um PDP.
 
     ![Campo Chave no preço na sede do Commerce](./media/KeyInPrice.png)
 
-- O modo de entrega de um cartão-presente digital deve ser definido como **Eletrônico**. Na página **Modos de entrega** (**Varejo e comércio \> Configuração de canal \> Modos de entrega**), selecione o modo de entrega **Eletrônico** no painel de lista e, depois, adicione o produto do cartão-presente digital à grade na FastTab **Produtos**, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Configurar modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
+- O modo de entrega de um cartão-presente digital deve ser definido como **Eletrônico**. Na página **Modos de entrega** (**Varejo e comércio \> Configuração de canal \> Modos de entrega**), selecione o modo de entrega **Eletrônico** no painel de lista e, depois, adicione o produto do cartão-presente digital à grade na FastTab **Produtos**, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
     ![Produtos de cartão-presente digital na página Modo de entrega na sede do Commerce](./media/ElectronicMode.PNG)
 
@@ -89,9 +89,9 @@ Para configurar um valor personalizado para um cartão-presente digital no assis
 
 [Criar um novo produto no Commerce](create-new-product-commerce.md)
 
-[Configurar os modos de entrega](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
+[Configurar os modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery)
 
-[Dimensões do produto](https://docs.microsoft.com/dynamics365/supply-chain/pim/product-dimensions?toc=/dynamics365/retail/toc.json)
+[Dimensões do produto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json)
 
 [Configurar perfil de notificação por email](email-notification-profiles.md)
 

@@ -15,20 +15,18 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: d6f0a155b38b1d732d17bd2f964677862ff363e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808655"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6016123"
 ---
 # <a name="cost-and-date-control"></a>Controle de custo e data
 
 [!include [banner](../../includes/banner.md)]
 
- 
-
-No Gerenciamento de ativos, é possível calcular os custos para obter uma visão geral dos custos reais em comparação com os custos de orçamento em ativos, locais funcionais e ordens de serviço. Os custos reais são baseados em transações lançadas. 
+No Gerenciamento de ativos, é possível calcular os custos para obter uma visão geral dos custos reais em comparação com os custos de orçamento em ativos, locais funcionais e ordens de serviço. Os custos reais são baseados em transações lançadas.
 
 Você também pode fazer um cálculo de data para comparar datas inicial e final agendadas com datas de início e término reais em ordens de serviço.
 
@@ -46,8 +44,8 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 5. Você pode usar o campo **Nível** para indicar o nível de detalhamento desejado das linhas de controle de custo em relação aos locais funcionais. 
 
-    Por exemplo, se você inserir o número "1" no campo e tiver uma hierarquia de localização funcional em vários níveis, todas as linhas de controles de custos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior. 
-    
+    Por exemplo, se você inserir o número "1" no campo e tiver uma hierarquia de localização funcional em vários níveis, todas as linhas de controles de custos para um local funcional serão mostradas no nível superior e, portanto, as horas em uma linha poderão ser adicionadas em locais funcionais localizados em um nível inferior.
+
     Se você inserir o número "0" no campo **Nível**, verá um resultado detalhado mostrando todas as linhas de controle de custos em todo o nível do local funcional ao qual elas estão relacionadas.
 
 6. Selecione "Sim" no botão de alternância **Mostrar custo comprometido aberto** se quiser incluir essa coluna no cálculo.
@@ -64,7 +62,7 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
 10. Na página **Controle de custos de ativos**, clique nos botões **Agrupar por** para mostrar o nível de detalhe necessário do cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 
-## <a name="example"></a>Exemplo
+## <a name="example-of-calculation-results-in-asset-cost-control"></a>Exemplo de resultados do cálculo no controle de custos de ativos
 
 A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Controle de custos de ativos**.
 
@@ -76,7 +74,6 @@ A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Contro
 ![Resultados do cálculo de exemplo em Controle de custos de ativos](media/02-controlling-and-reporting.png)
 
 Outra maneira de fazer um cálculo de custo é selecionar vários ativos em **Todos os ativos** ou **Ativos ativos**. Depois, você clica no botão **Controle de custo** na guia **Geral**. Na caixa de diálogo **Controle de custos de ativos**, os ativos selecionados são inseridos automaticamente no campo **Ativo** na Guia Rápida **Registros a serem incluídos**. Após clicar em **OK**, um cálculo de custo dos ativos selecionados será mostrado. O mesmo procedimento pode ser feito para locais funcionais em **Todos os locais funcionais** ou **Locais funcionais ativos**, e para ordens de serviço **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
-
 
 ## <a name="work-order-date-control"></a>Controle de data da ordem de serviço
 
@@ -94,7 +91,7 @@ Use esta página para obter uma visão geral das datas inicial e final esperadas
 
 6. Clique nos botões **Agrupar por** para mostrar o nível de detalhes necessário para o cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 
-## <a name="example"></a>Exemplo
+## <a name="example-of-calculation-results-in-work-order-date-control"></a>Exemplo dos resultados do cálculo no controle de datas da ordem de serviço
 
 A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Controle de data da ordem de serviço**.
 

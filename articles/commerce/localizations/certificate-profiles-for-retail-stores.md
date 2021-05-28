@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: epopov
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 66a2cc5c87f5567f0e65842638017e5127d68a13
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 44042fc43fa3b43358120fb6f8f633abeae7005f
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798852"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020304"
 ---
 # <a name="user-defined-certificate-profiles-for-retail-stores"></a>Perfis de certificado definidos pelo usuário para lojas de varejo
 
@@ -79,7 +79,7 @@ Ao adicionar uma nova linha à página **Configurações do perfil de certificad
 - **Certificado do Key Vault** – esse campo será obrigatório se você definir o campo **Tipo de local** como o **Key Vault**. Use-o para especificar um segredo de certificado do Key Vault.
 
     > [!NOTE]
-    > Antes de usar um certificado do cofre de chaves nos perfis de certificado, certifique-se de carregar um certificado para o armazenamento do cofre de chaves e siga as instruções em [Configurar o cliente do Azure Key Vault](https://docs.microsoft.com/dynamics365/finance/localizations/setting-up-azure-key-vault-client).
+    > Antes de usar um certificado do cofre de chaves nos perfis de certificado, certifique-se de carregar um certificado para o armazenamento do cofre de chaves e siga as instruções em [Configurar o cliente do Azure Key Vault](../../finance/localizations/setting-up-azure-key-vault-client.md).
 
 - **Nome da loja** – esse campo é opcional e só estará disponível se você definir o campo **Tipo de local** como **Certificado local**. Use-o para especificar um nome de armazenamento padrão que deve ser usado para pesquisar certificados locais.
 - **Local da loja** – esse campo é opcional e só estará disponível se você definir o campo **Tipo de local** como **Certificado local**. Use-o para especificar um local de armazenamento padrão que deve ser usado para pesquisar certificados locais.

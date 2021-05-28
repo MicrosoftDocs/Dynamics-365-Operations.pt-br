@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 480fdd99abeea731802dbe5bc5e1da9c1ceec6b7
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 06f4a0feda82d20e5ec01fd75e4bb8a597a6d09b
+ms.sourcegitcommit: 5916ea2a94ab9af7aac21f0fc44e194d5ce82917
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956873"
+ms.lasthandoff: 05/07/2021
+ms.locfileid: "5989007"
 ---
 # <a name="maintain-vendor-certification"></a>Manter certificação do fornecedor
 
@@ -23,6 +23,8 @@ ms.locfileid: "5956873"
 [!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve as etapas que os fornecedores podem usar para manter certificações usando o **Espaço de trabalho de colaboração do fornecedor**. Exemplos de certificações podem incluir uma empresa WBE (Woman Business Enterprise) ou LEED (Leadership in Energy and Environment Design). Os fornecedores precisarão inserir informações de certificação no espaço de trabalho **Informações do fornecedor**. A partir daí, os fornecedores selecionarão **Mais detalhes** e, depois, **Certificações**.
+
+## <a name="add-a-new-certification"></a>Adicionar uma nova certificação
 
 Para adicionar uma nova certificação, selecione o botão **Adicionar** localizado acima da grade **Certificação** no espaço de trabalho **Informações do fornecedor**. Digite as seguintes informações:
  
@@ -40,3 +42,10 @@ Se houver documentos relacionados à certificação específica, você poderá a
 As certificações inseridas pelos fornecedores nesta página receberão uma origem de "Fornecedor". Você pode inserir informações de certificado em nome do fornecedor em contas bancárias de fornecedor. As informações serão exibidas aqui e a fonte será exibida como **Cliente**.
 
 Os fornecedores podem editar ou excluir certificações conforme necessário.
+
+## <a name="vendor-collaboration-generated-certification-records"></a>Registros de certificação gerados pela colaboração de fornecedor 
+ 
+Após as informações de certificação serem adicionadas por um fornecedor, as informações ficarão visíveis na página **Registros de certificação gerados pela colaboração de fornecedor**. Para abrir a página, vá para **Contas a pagar > Consultas > Relatórios do fornecedor > Registros de certificação gerados pela colaboração de fornecedor**. Por padrão, todos os registros de certificação modificados são visíveis. Um atendente de Contas a pagar pode visualizar as alterações e validar as informações por meio de seu processo de confirmação para validar. Quando as informações forem confirmadas, o registro de certificação listado na página pode ser selecionado e marcado como avaliado. Marcar o registro como avaliado o removerá da lista padrão.
+ 
+Todas as alterações de certificação ficarão visíveis na página **Registros de certificação gerados pela colaboração de fornecedor**. Se uma alteração não for exibida na página, você pode visualizá-la ajustando os filtros para a conta do fornecedor, intervalo de data efetivo, ou selecionando se quer incluir informações para alterações de certificação que foram avaliadas. 
+

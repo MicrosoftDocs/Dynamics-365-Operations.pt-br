@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1a15f952671152ac9e8b88e7394ec41220f964c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 21600c0815da99314dcbb8f123449c2ae93a3c1a
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835091"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027471"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de cliente com vários períodos de desconto
 
@@ -31,7 +31,7 @@ Este artigo mostra como os pagamentos parciais de cliente são liquidados quando
 A Fabrikam oferece ao cliente 4031 dois períodos de desconto para pagamento à vista. O cliente receberá um desconto à vista de 2% se a fatura for paga em cinco dias, e um desconto à vista de 1% se a fatura for paga em 14 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a receber**.
 
 ## <a name="invoice"></a>Fatura
-Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4031. Quando ele revisa os descontos em dinheiro para essa fatura, Arnie vê que o cliente 4031 recebe um desconto de 20,00 se a fatura for paga até 30 de junho. Se a fatura for paga até 9 de julho, o cliente recebe um desconto de 10,00.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4031. Quando Arnie revisa os descontos em dinheiro para esta fatura, vê que o cliente 4031 receberá um desconto de 20,00 se a fatura for paga até 30 de junho. Se a fatura for paga até 9 de julho, o cliente recebe um desconto de 10,00.
 
 | Data do desconto à vista | Valor de desconto à vista | Valor na moeda da transação |
 |--------------------|----------------------|--------------------------------|

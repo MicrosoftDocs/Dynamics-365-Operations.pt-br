@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 874d879c04e6b16889ca6900962394036278ba10
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ab5e0db339615ad9c434e3e65b6f04ff9fb4cc25
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800870"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027761"
 ---
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
@@ -38,7 +38,7 @@ Os **Tipos de remuneração variável** é um componente necessário. Os tipos d
 
 ### <a name="describe-vesting-rules"></a>Descrever regras de titularidade
 
-Como alternativa, as empresas podem configurar **regras de titularidade**. Regras de benefício proporcional diferido descrevem como o prêmio variável deve ser alocado com o tempo. Por exemplo, uma regra de benefício proporcional diferido pode indicar que o funcionário receberá 25% do seu prêmio total a cada ano nos próximos quatro anos. Regras de benefício proporcional diferido são apenas informações.
+Como alternativa, as empresas podem configurar **regras de titularidade**. Regras de benefício proporcional diferido descrevem como o prêmio variável deve ser alocado com o tempo. Por exemplo, uma regra pode informar que o funcionário receberá 25% da recompensa total todo ano, pelos próximos quatro anos. Regras de benefício proporcional diferido são apenas informações.
 
 ## <a name="variable-compensation-plans"></a>Planos de remuneração variável
 O **plano de remuneração variável** contém as regras, os métodos de cálculos e os valores padrão para o cálculo da remuneração variável para os funcionários inscritos. Ao criar um plano de remuneração variável, você deve definir o tipo de remuneração variável. O tipo de remuneração variável determina se o sistema calcula um valor monetário ou um número de unidades como prêmio. Você também deve definir o método de cálculo:
@@ -49,7 +49,7 @@ O **plano de remuneração variável** contém as regras, os métodos de cálcul
 O valor do prêmio variável pode ser baseado em um percentual do salário base normal do funcionário ou um número de unidades definido.
 
 -   Selecione a opção **Porcentagem de base** para inserir uma porcentagem padrão e especifique se a base deve ser a taxa de pagamento fixa do funcionário ou o ponto de controle para o nível de remuneração. O nível de remuneração é definido no trabalho do funcionário. Um dos pontos de referência da estrutura de remuneração pode ser definido como o ponto de controle no plano de remuneração fixa. O sistema usará o nível de remuneração no trabalho do funcionário e estabelecerá uma referência cruzada com o ponto de controle listado no plano de remuneração fixa do funcionário para localizar o valor do ponto de controle do nível de remuneração de um funcionário. O valor de ponto de controle será usado no lugar da taxa de pagamento fixo do funcionário como base do prêmio.
--   Selecione a opção **Número de unidades** para inserir um número de unidades padrão, o valor de cada unidade e na moeda do valor unitário se o plano de remuneração não for em dinheiro (por exemplo, 200 unidades do estoque, que são avaliadas em 40 reais) ou apenas o número de unidades caso o plano de remuneração seja um para um prêmio em dinheiro. Para um prêmio em dinheiro, o funcionário receberá o número especificado de unidades da moeda usada para o plano de remuneração fixa (por exemplo, 500 unidades de 1 real). O controle de relação de um para um pode ser usado para indicar se há um mapeamento de um para um entre o número de unidades e o valor da unidade. Ao criar um plano de remuneração variável para um plano com pagamentos em dinheiro usando o número de unidades, essa opção é automaticamente bloqueada como **Sim**, e a unidade de valor é **1.0000**.
+-   Selecione a opção **Número de unidades** para inserir um número de unidades padrão, o valor de cada unidade e na moeda do valor unitário se o plano de remuneração não for em dinheiro (por exemplo, 200 unidades do estoque, que são avaliadas em 40 reais) ou apenas o número de unidades caso o plano de remuneração seja um para um prêmio em dinheiro. Para um prêmio em dinheiro, o funcionário receberá o número de unidades especificado da moeda que é usado para o plano de remuneração fixa (por exemplo, 500 unidades de 1 USD). O controle de relação de um para um pode ser usado para indicar se há um mapeamento de um para um entre o número de unidades e o valor da unidade. Ao criar um plano de remuneração variável para um plano com pagamentos em dinheiro usando o número de unidades, essa opção é automaticamente bloqueada como **Sim**, e a unidade de valor é **1.0000**.
 
 A configuração **Regra de contratação** permite especificar se todos os funcionários devem receber o mesmo aumento, independentemente da data em que foram contratados (**Regra de contratação** = **Nenhum**), ou se os funcionários devem receber uma porcentagem de prêmio que se baseia no período de contratação durante o ciclo (**Regra de contratação** = **Percentual**). 
 

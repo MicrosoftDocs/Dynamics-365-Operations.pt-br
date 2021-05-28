@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: ccfbab6055b8b64ce0926cda04090583e0d7a6ae
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5544fefbbf0dfc012e868b672f80cc2be30fe7ce
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797171"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020853"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou obsoletos do Dynamics 365 Commerce
 
@@ -31,7 +31,7 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!NOTE]
-> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](https://docs.microsoft.com/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+> Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Recursos removidos ou substituídos na versão 10.0.17 do Commerce
 
@@ -102,7 +102,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Substituída por outro recurso?**   | Sim. Ele é substituído por duas novas operações PDV: operação de entrada (804) e operação de saída (805).|
 | **Áreas afetadas do produto**         | Aplicativo de ponto de venda (PDV) |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: a partir da versão 10.0.10, a operação de separação e recebimento não receberá mais nenhuma atualização de recurso nova. Somente correções críticas de bugs serão realizadas para esta operação em versões futuras. Todos os clientes são incentivados a mudar para as novas [operações de entrada](https://docs.microsoft.com/dynamics365/commerce/pos-inbound-inventory-operation) e de [saída](https://docs.microsoft.com/dynamics365/commerce/pos-outbound-inventory-operation), o que continuará a ser parte de nosso roteiro de produtos de longo prazo. |
+| **Status**                         | Preterido: a partir da versão 10.0.10, a operação de separação e recebimento não receberá mais nenhuma atualização de recurso nova. Somente correções críticas de bugs serão realizadas para esta operação em versões futuras. Todos os clientes são incentivados a mudar para as novas [operações de entrada](../pos-inbound-inventory-operation.md) e de [saída](../pos-outbound-inventory-operation.md), o que continuará a ser parte de nosso roteiro de produtos de longo prazo. |
 
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-1007-release"></a>Recursos removidos ou substituídos na versão 10.0.7 do Commerce
@@ -113,7 +113,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 | **Substituída por outro recurso?**   | Sim: ele é substituído por APIs de GetEstimatedAvailabilty e GetEstimatedProductWarehouseAvailability. |
 | **Áreas afetadas do produto**         | Aplicativo SDK de comércio eletrônico |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: a partir da versão 10.0.7, não terão mais investimentos em engenharia feitos para GetProductAvailabilities e GetAvailableInventoryNearby. As organizações que usam essas APIs em suas implantações de comércio eletrônico devem ser convertidas em novas APIs de GetEstimatedAvailability e GetEstimatedProductWarehouseAvailability e habilitar o [Recurso de cálculo de disponibilidade de produtos otimizados](https://docs.microsoft.com/dynamics365/commerce/calculated-inventory-retail-channels).  |
+| **Status**                         | Preterido: a partir da versão 10.0.7, não terão mais investimentos em engenharia feitos para GetProductAvailabilities e GetAvailableInventoryNearby. As organizações que usam essas APIs em suas implantações de comércio eletrônico devem ser convertidas em novas APIs de GetEstimatedAvailability e GetEstimatedProductWarehouseAvailability e habilitar o [Recurso de cálculo de disponibilidade de produtos otimizados](../calculated-inventory-retail-channels.md).  |
 
 ## <a name="previous-announcements-about-removed-or-deprecated-features"></a>Comunicados anteriores sobre recursos removidos ou obsoletos
 Para saber mais sobre os recursos que foram removidos ou preteridos em versões anteriores, consulte [Recursos removidos ou obsoletos em versões anteriores](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=/dynamics365/commerce/toc.json).

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e785d591c25669d90c91ca1b676388522da3da36
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b1296dc994e43d75fd9b834acf345134494b4810
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835163"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027495"
 ---
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 
@@ -39,7 +39,7 @@ O cliente 4035 possui uma fatura de 1.000,00 e uma nota de crédito de 100,00. C
 | CCRN-10050 | Nota de crédito      | 28/6/2015 | CR-10050 |                                      | 100,00                                | -100,00  | USD      |
 
 ## <a name="settle-a-credit-note-with-an-invoice"></a>Liquidar uma nota de crédito com uma fatura
-Na página **Transações do cliente**, Arnie abre a página **Liquidar transações**. Ele pode usa a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação ele exibe as datas e os valores de desconto à vista. Ele marca os dois documentos e clica em **Lançar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
+Na página **Transações do cliente**, Arnie abre a página **Liquidar transações**. Arnie pode usar a página **Liquidar transações** para liquidar a fatura e a nota de crédito. Como parte do processo de liquidação, Arnie visualiza as datas e os valores de desconto em dinheiro. Arnie marca os dois documentos e clica em **Postar** para liquidar as transações. Há um desconto de -1,00 na nota de crédito, pois a Fabrikam permite descontos em notas de crédito.
 
 | Marcar     | Usar desconto à vista | Comprovante    | Conta | Data      | Data de conclusão  | Fatura  | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|------------|---------|-----------|-----------|----------|--------------------------------|----------|------------------|

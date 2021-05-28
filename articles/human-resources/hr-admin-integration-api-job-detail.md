@@ -2,7 +2,6 @@
 title: API de detalhes do trabalho
 description: Este tópico fornece detalhes e um exemplo de consulta da entidade Detalhes do trabalho no Dynamics 365 Human Resources.
 author: jcart
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4f15282bf72340cb1a832ff3264361472d0a6c70
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: c92b0636fbd68c6ee7eded90a8cb5bcd0cda7ca3
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881925"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018353"
 ---
 # <a name="job-detail-api"></a>API de detalhes do trabalho
 

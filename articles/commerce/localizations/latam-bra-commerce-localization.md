@@ -2,7 +2,7 @@
 title: Localização do Commerce para o Brasil
 description: Este tópico fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
 author: josaw
-ms.date: 07/27/2020
+ms.date: 05/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 60449dabf0f70891ce5a50122035cb13ea5f16f1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4d9f278838fafbd40155ab212cf8c7dcb46d6d3a
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798767"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020273"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
 [!include[banner](../includes/banner.md)]
-
 
 Este tópico descreve o escopo da funcionalidade do Microsoft Dynamics 365 Commerce específico do Brasil. Ele inclui informações sobre os recursos e a funcionalidade que foram criados para tratar impostos federais específicos, de varejo, contábeis, financeiros ou estatutários ou regulamentações que geralmente afetam as empresas de varejo no Brasil (no escopo da [Localização Brasileira](../../finance/localizations/latam-bra-scope.md#brazilian-localization-strategy)).
 
@@ -71,37 +70,58 @@ O registro fiscal é o registro imediato de vendas de varejo por leis fiscais lo
 - Registro de uma venda de varejo, em um dispositivo fiscal SAT conectado ao PDV, usando um documento fiscal eletrônico CF-e.
 - Registro de uma venda de varejo em uma impressora fiscal conectada ao PDV.
 
-O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integração fiscal](../localizations/fiscal-integration-for-retail-channel.md) e de suas extensões para países ou regiões específicas. Os formatos dos documentos fiscais eletrônicos que atendem aos requisitos legais no Brasil são configurados com o uso da funcionalidade [Relatório eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md). Os documentos fiscais eletrônicos são enviados pelo [Serviço de faturamento eletrônico](../../finance/localizations/e-invoicing-get-started.md). Para obter mais informações sobre o processo de envio do documentos fiscal eletrônico e a configuração para o Brasil, consulte [Complemento de faturamento eletrônico para o Brasil](../../finance/localizations/e-invoicing-bra-get-started.md).
+O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integração fiscal](../localizations/fiscal-integration-for-retail-channel.md) e de suas extensões para países ou regiões específicas. A funcionalidade de [Relatório Eletrônico](../../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md) é usada para configurar formatos de documentos fiscais eletrônicos que atendam aos requisitos legais no Brasil.
 
 > [!NOTE]
 > A integração com impressoras fiscais não está disponível no Commerce. Você pode aproveitar os [recursos de N-1](../dev-itpro/n-1-installation-configuration.md) para integrar o Retail EPOS (Enterprise Point of Sale) do Microsoft Dynamics AX 2012 R3, que oferece suporte à integração com impressoras fiscais para o Brasil no Commerce headquarters.
 
 ## <a name="availability-of-commerce-localization-features-for-brazil"></a>Disponibilidade dos recursos de localização do Commerce para o Brasil
 
-| Recurso                                                                  | Versão preliminar pública | Disponibilidade geral (GA) | Lançamento-Disponibilidade Geral | Não planejado |
-|--------------------------------------------------------------------------|----------------|---------------------------|---------|-------------|
-| Gerenciamento de produtos de varejo e cálculo e configuração de imposto                 | X              |                           |         |             |
-| NFC-e (modelo 65) e DANFE para vendas de varejo                              | X              |                           |         |             |
-| Comunicação com a SEFAZ via [Serviço de faturamento eletrônico](../../finance/localizations/e-invoicing-get-started.md) | X              |                           |         |             |
-| Demonstrativos de varejo no Commerce Headquarters                               | X              |                           |         |             |
-| Tratamento de informações do cliente fiscal (por exemplo, CPF/CNPJ)          |                | X                         |         |             |
-| NF-e (modelo 55) e DANFE para devoluções de vendas                              |                | X                         |         |             |
-| CF-e (modelo 59) para vendas em São Paulo e integração com um dispositivo SAT |                | X                         |         |             |
-| A contingência de NFC-e/NF-e no PDV (modo offline)                         |                | X                         |         |             |
-| Transmissão de NFC-e/NF-e em contingência do Commerce headquarters     |                | X                         |         |             |
-| Cancelamento de NFC-e, descarte, cancelamento por substituição                |                | X                         |         |             |
-| Integração de TEF (Adyen e recursos básicos)                           |                | X                         |         |             |
-| Busca de clientes por números de registro no PDV               |                |                           | X       |             |
-| Integração de TEF (recursos avançados e provedores adicionais)         |                |                           | X       |             |
-| Documentos fiscais para ordens de cliente do PDV                        |                |                           | X       |             |
-| NF-e vinculada a NFC-e/CF-e e DANFE                                      |                |                           | X       |             |
-| Suporte de N-1 para atualização do AX 2012 R3                                  |                |                           | X       |             |
-| Recursos de comércio eletrônico para o Brasil                                       |                |                           | X       |             |
-| Mesclagem de CNPJ/CPF nos registros principais do cliente no call center           |                |                           | X       |             |
-| Documentos fiscais de varejo em demonstrativos do livro fiscal\*                      |                |                           |         | X           |
-| Integração de PDV com impressoras fiscais                              |                |                           |         | X           |
+| Recurso                                                                  | Disponibilidade geral (GA) | Lançamento-Disponibilidade Geral | Não planejado |
+|--------------------------------------------------------------------------|---------------------------|---------|-------------|
+| Gerenciamento de produtos de varejo e cálculo e configuração de imposto                 | X                         |         |             |
+| NFC-e (modelo 65) e DANFE para vendas de varejo                              | X                         |         |             |
+| Comunicação com a SEFAZ                                                 | X                         |         |             |
+| Demonstrativos de varejo no Commerce Headquarters                               | X                         |         |             |
+| Tratamento de informações do cliente fiscal (por exemplo, CPF/CNPJ)          | X                         |         |             |
+| NF-e (modelo 55) e DANFE para devoluções de vendas                              | X                         |         |             |
+| A contingência de NFC-e/NF-e no PDV (modo offline)                         | X                         |         |             |
+| Transmissão de NFC-e/NF-e em contingência do Commerce headquarters     | X                         |         |             |
+| Cancelamento de NFC-e                                                       | X                         |         |             |
+| Cancelamento de NFC-e por substituição, descarte                              |                           | X       |             |
+| Integração de TEF (Adyen e recursos básicos)                           |                           | X       |             |
+| CF-e (modelo 59) para vendas em São Paulo e integração com um dispositivo SAT |                           | X       |             |
+| Busca de clientes por números de registro no PDV               |                           | X       |             |
+| Integração de TEF (recursos avançados e provedores adicionais)         |                           | X       |             |
+| Documentos fiscais para ordens de cliente do PDV                        |                           | X       |             |
+| NF-e vinculada a NFC-e/CF-e e DANFE                                      |                           | X       |             |
+| Suporte de N-1 para atualização do AX 2012 R3                                  |                           | X       |             |
+| Recursos de comércio eletrônico para o Brasil                                       |                           | X       |             |
+| Mesclagem de CNPJ/CPF nos registros principais do cliente no call center           |                           | X       |             |
+| Documentos fiscais de varejo em demonstrativos do livro fiscal\*                      |                           |         | X           |
+| Integração de PDV com impressoras fiscais                              |                           |         | X           |
 
 \* *Demonstrativos do livro fiscal* são demonstrativos de remuneração e restituição do SPED (Sistema Público de Escrituração Digital) Fiscal, de Contribuições de SPED e ICMS-ST (Imposto sobre Circulação de Mercadorias e Serviços - Substituição Tributária) para os estados suportados.
 
+## <a name="commerce-functionality-for-brazil"></a>Funcionalidade de comércio para o Brasil
+
+A funcionalidade de comércio para o Brasil consiste nas seguintes partes:
+
+- Os recursos de POS comuns disponíveis aos clientes em todos os países ou regiões.
+- Recursos específicos ao Brasil, como a comunicação com a SEFAZ
+
+### <a name="common-pos-features"></a>Recursos de POS comuns
+
+Para saber mais sobre os recursos de POS disponíveis para os clientes em todos os países ou regiões, consulte a [página inicial do Commerce](../index.md).
+
+### <a name="brazil-specific-pos-features"></a>Recursos de POS específicos ao Brasil
+
+Os seguintes recursos de POS específicos ao Brasil são habilitados após a localização do Commerce para o Brasil ser configurada e implantada:
+
+- Documento fiscal eletrônico para consumidores no Brasil (NFC-e)
+- Gerenciamento de informações do cliente no Brasil
+- Cancelamento e devolução de NFC-e
+- Registro adiado da NFC-e emitida no moto de contingência
+- Postagem e controle de documentos fiscais eletrônicos
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

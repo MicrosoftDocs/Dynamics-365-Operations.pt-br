@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 61a73f10c8a8b3386826f08184028d8d5e6508a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800374"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027447"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurar e trabalhar com bloqueios de ordem do call center
 
@@ -43,7 +43,7 @@ As ordens criadas por usuários de call center no back office do Commerce podem 
 
 Durante a entrada da ordem, mas antes do envio e da confirmação da ordem, os usuários de call center podem colocar manualmente uma ordem em espera para impedir que ela seja liberada para o depósito para processamento. Por exemplo, o cliente que está inserindo a ordem pode não estar pronto para confirmá-la. Ou podem estar faltando dados críticos necessários na ordem para processá-la.
 
-Na página de entrada da ordem, o usuário de call center pode colocar uma ordem em espera usando a opção **Bloqueios de ordem** na guia **Ordem de venda** do menu de entrada da ordem. Outra opção é o usuário selecionar o item de menu **Bloqueio** na página **Resumo da ordem de venda** que aparece quando ele seleciona **Concluir** em uma ordem de venda de call center.
+Na página de entrada da ordem, o usuário de call center pode colocar uma ordem em espera usando a opção **Bloqueios de ordem** na guia **Ordem de venda** do menu de entrada da ordem. Outra opção é o usuário selecionar o item de menu **Bloqueio** na página **Resumo da ordem de venda** que aparece ao selecionar **Concluir** em uma ordem de venda de call center.
 
 Em ambos os casos, a página **Bloqueios da ordem** aparecerá. O usuário pode selecionar **Novo** para criar um bloqueio para a ordem. No campo **Código de bloqueio**, o usuário deve selecionar o código que melhor descreva o motivo do bloqueio. No campo **Código de motivo**, o usuário também pode selecionar um código adicional para fornecer um segundo nível de descrição do bloqueio.
 
@@ -53,7 +53,7 @@ Depois que as informações de bloqueio forem inseridas e salvas, o usuário pod
 
 Se o sinalizador **Habilitar conclusão de ordem** for ativado no canal de call center, o pagamento não precisará ser aplicado a uma ordem que foi colocada em espera. Em contraste, para uma ordem de venda que não esteja em espera, os usuários não poderão sair da página de entrada de ordem de venda até que o pagamento seja aplicado. É claro que o pagamento deverá ser efetuado antes da liberação do bloqueio da ordem.
 
-Além disso, os usuários de call center podem bloquear manualmente ordens suspeitas de fraude por algum motivo. As ordens também podem ser colocadas em espera automaticamente quando correspondem a critérios e regras de fraude. Para saber mais sobre esse tipo de bloqueio de ordem, consulte [Configurar alertas de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Além disso, os usuários de call center podem bloquear manualmente ordens suspeitas de fraude por algum motivo. As ordens também podem ser colocadas em espera automaticamente quando correspondem a critérios e regras de fraude. Para saber mais sobre esse tipo de bloqueio de ordem, consulte [Configurar alertas de fraude](/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Como exibir e gerenciar ordens que estão em espera
 

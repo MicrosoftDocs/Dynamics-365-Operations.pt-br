@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 4f50dfa5c2914ce2131cdc44582588be69b35335
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
+ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961696"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015892"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planejamento mestre com contratos comerciais de compra
 
@@ -67,7 +67,7 @@ Depois que o sistema for preparado conforme descrito na seção anterior, siga e
 1. Repita esse procedimento para cada produto relevante.
 
 > [!NOTE]
-> A Otimização de Planejamento dá suporte a contratos comerciais de compra de várias moedas. Ao procurar um contrato comercial usando a opção **Preço unitário mínimo**, o sistema considerará comprar linhas de contrato comercial com moedas diferentes, desde que uma taxa de câmbio tenha sido definida entre a moeda da linha do contrato comercial e a moeda contábil da entidade legal. Caso contrário, a linha de contrato comercial será ignorada e você verá um erro durante o planejamento mestre. Portanto, o planejamento mestre incluirá informações de todas as linhas de contrato comercial de compra relevantes, nas quais os preços podem ser convertidos na moeda contábil.
+> A Otimização de Planejamento dá suporte a contratos comerciais de compra de várias moedas. Ao procurar um contrato comercial usando a opção **Preço unitário mínimo**, o sistema considerará comprar linhas de contrato comercial com moedas diferentes, desde que uma taxa de câmbio tenha sido definida entre a moeda da linha do contrato comercial e a moeda contábil da entidade legal. Caso contrário, a linha de contrato comercial será ignorada e você verá um erro durante o planejamento mestre. Portanto, o planejamento mestre incluirá informações de todas as linhas de contrato comercial de compra relevantes, nas quais os preços podem ser convertidos na moeda contábil. É importante observar que as regras de arredondamento não serão consideradas durante a conversão de preço em linha do contrato comercial.
 
 ## <a name="examples-of-how-planning-optimization-finds-vendor-and-lead-times"></a>Exemplos de como a Otimização de Planejamento localiza o fornecedor e os prazos de entrega
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3ac4a03d75898680b5655421f3024dc6f666464c
-ms.sourcegitcommit: 54d3ec0c006bfa9d2b849590205be08551c4e0f0
+ms.openlocfilehash: 081d23c85d3555210b54597920a49e800ffe284b
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "5963182"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980913"
 ---
 # <a name="electronic-invoicing-administration-components"></a>Componentes de administração de Faturamento eletrônico
 
@@ -59,10 +59,10 @@ O Faturamento eletrônico está disponível em várias regiões do datacenter do
 
 | Geografia do data center Azure |
 |----------------------------|
-| Leste dos EUA                    |
-| Oeste dos EUA                    |
-| Norte da UE                   |
-| Oeste da UE                    |
+| Estados Unidos              |
+| Europa                     |
+| Reino Unido             |
+| Ásia                       |
 
 ### <a name="service-environments"></a>Ambientes de serviço
 

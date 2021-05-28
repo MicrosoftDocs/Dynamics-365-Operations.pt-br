@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 3cfe144f7bba2bbc4b25024b68155045271f6366
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795636"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6022722"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no PDV
 
@@ -71,7 +71,7 @@ Os trabalhos em lotes que você criar serão usados para processar documentos qu
 
 ## <a name="prerequisite-add-outbound-operation-to-the-pos-screen-layout"></a>Pré-requisito: adicionar a operação de saída ao layout da tela do POS
 
-Antes que a sua organização possa usar a funcionalidade de operação de saída, ela deve configurar a operação do POS da **Operação de saída** em um ou mais [layouts de tela do POS](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
+Antes que a sua organização possa usar a funcionalidade de operação de saída, ela deve configurar a operação do POS da **Operação de saída** em um ou mais [layouts de tela do POS](/dynamics365/unified-operations/retail/pos-screen-layouts). Antes de implantar a nova operação em um ambiente de produção, certifique-se de testá-la exaustivamente e treine os usuários para usá-la.
 
 ## <a name="overview"></a>Visão geral
 

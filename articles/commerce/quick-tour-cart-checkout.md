@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d0b5a74a9880a5cabfdbc124f557998540c94a4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a574494784e9a534307cceff584e047d870dc401
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792234"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027930"
 ---
 # <a name="cart-and-checkout-pages-overview"></a>Visão geral das páginas de carrinho e de finalização da compra
 
@@ -83,7 +83,7 @@ O cliente pode concluir o processo de finalização como usuário convidado ou c
 
 ### <a name="order-summary"></a>Resumo da ordem
 
-A finalização de compra mostra um resumo dos itens de linha no carrinho, para que o cliente possa verificar o pedido antes de fazer o pedido. Os itens de linha não podem ser editados durante o fluxo de finalização de compra. No entanto, é fornecido um link para o carrinho, caso o usuário queira voltar e editar os itens de linha.
+O check-out mostra um resumo dos itens em linha no carrinho, para que o cliente possa verificar o pedido antes de finalizá-lo. Os itens de linha não podem ser editados durante o fluxo de finalização de compra. No entanto, é fornecido um link para o carrinho, caso o usuário queira voltar e editar os itens de linha.
 
 Depois que o cliente fornece as informações de entrega e cobrança, o resumo do pedido reflete o valor devido após a aplicação de pontos de fidelidade, vales-presentes e outros pagamentos.
 

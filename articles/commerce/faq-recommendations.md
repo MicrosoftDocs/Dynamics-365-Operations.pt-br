@@ -16,12 +16,12 @@ ms.search.industry: Retail, Core, Operations
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: fa845f4d41e0bd7725349a216b9e4ee79efee79d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b3db432ae10139bcd8ee400b0bbc1173e33ef206
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792406"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019802"
 ---
 # <a name="product-recommendations-faq"></a>Perguntas frequentes sobre recomendações de produtos
 
@@ -68,7 +68,7 @@ Se precisar bloquear um item de ser descoberto na loja, você deve alterar o val
 
 ## <a name="how-do-i-add-a-list-to-an-e-commerce-page"></a>Como adiciono uma lista à uma página de comércio online?
 
-Para obter informações sobre como adicionar páginas de recomendação de produto ao site de comércio online, consulte [Adicionar listas de recomendação de produto às páginas](add-reco-list-to-page.md).
+Para obter informações sobre como adicionar páginas de recomendação de produto ao site de comércio online, consulte [Adicionar listas de recomendação de produto às páginas](./product-recommendations.md).
 
 ## <a name="how-do-i-enable-recommendations-on-pos"></a>Como habilito recomendações em PDV?
 

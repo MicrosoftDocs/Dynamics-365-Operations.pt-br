@@ -6,7 +6,7 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: PurchTable, SysSecRolesEditUsers
+ms.search.form: PurchTable, SysSecRolesEditUsers, SysWorkloadDuplicateRecord
 audience: Application User
 ms.reviewer: kamaybac
 ms.custom: ''
@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 9bdb9529c8b630182a2036e9d116909f9e92bb83
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
+ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944404"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5980939"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -58,7 +58,10 @@ As unidades de escala têm os seguintes dados:
   - **Ordens de transferência** (somente saída com trabalho simples de separação e carregamento)
 
 - **Dados de recebimento de ordem de depósito** – esses dados são usados somente para ordens de compra que foram liberadas para um depósito.
-- **Dados da placa de licença** – as placas de licença podem ser criadas no hub e na unidade de escala. O tratamento de conflitos dedicados foi fornecido. Observe que esses dados não são específicos de depósito.
+- **Dados da placa de licença** – as placas de licença podem ser criadas no hub e nas unidades de escala. O tratamento de conflitos dedicados foi fornecido. 
+
+    > [!IMPORTANT]
+    > Os dados da placa de licença não são específicos do depósito. Se o mesmo número da chapa de licença for criado no hub e uma unidade de escala durante o mesmo ciclo de sincronização, ocorrerá falha na próxima sincronização. Se isso ocorrer, vá para **Administração do sistema > Consultas > Consultas de carga de trabalho > Registros duplicados**, no qual é possível exibir e mesclar os dados.
 
 ## <a name="outbound-process-flow"></a>Fluxo do processo de saída
 

@@ -2,11 +2,9 @@
 title: Habilitar a integração do Dynamics 365 Commerce e do Microsoft Teams
 description: Este tópico descreve como habilitar a integração do Microsoft Dynamics 365 Commerce e do Microsoft Teams.
 author: gvrmohanreddy
-manager: annbe
 ms.date: 03/31/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-commerce
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c4d596f27ffe15a97dc04e2ce7e85d21f8e7161f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: eb0b8b419b302fbd0bc107bca22f8b26774ba3c7
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908386"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019826"
 ---
 # <a name="enable-dynamics-365-commerce-and-microsoft-teams-integration"></a>Habilitar a integração do Dynamics 365 Commerce e do Microsoft Teams
 
@@ -39,9 +37,9 @@ Antes de habilitar a integração do Microsoft Teams com o Commerce, você deve 
 
 Para registrar o aplicativo Teams no seu locatário no portal do Azure, siga estas etapas.
 
-1. Siga as etapas no [Início rápido: registre um aplicativo com a plataforma de identidade da Microsoft](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app) para registrar o aplicativo Teams com seu locatário no portal do Azure.
+1. Siga as etapas no [Início rápido: registre um aplicativo com a plataforma de identidade da Microsoft](/azure/active-directory/develop/quickstart-register-app) para registrar o aplicativo Teams com seu locatário no portal do Azure.
 1. Copie o valor do **ID do aplicativo (cliente)** da página **Visão Geral** do aplicativo registrado. Você usará esse valor para habilitar a integração do Teams no Commerce Headquarters.
-1. Copie o valor de certificado que foi inserido quando você [adicionou um certificado](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app#add-a-certificate) na etapa 1. O certificado também é conhecido como chave pública ou chave de aplicativo. Você usará esse valor para habilitar a integração do Teams no Commerce Headquarters.
+1. Copie o valor de certificado que foi inserido quando você [adicionou um certificado](/azure/active-directory/develop/quickstart-register-app#add-a-certificate) na etapa 1. O certificado também é conhecido como chave pública ou chave de aplicativo. Você usará esse valor para habilitar a integração do Teams no Commerce Headquarters.
 
 Para habilitar a integração do Teams no Commerce headquarters, siga estas etapas.
 

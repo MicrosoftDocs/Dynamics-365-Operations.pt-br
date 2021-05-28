@@ -2,7 +2,6 @@
 title: Funcionário da folha de pagamento
 description: Este tópico fornece detalhes e um exemplo de consulta da entidade Funcionário da folha de pagamento no Dynamics 365 Human Resources.
 author: jcart
-manager: tfehr
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
@@ -15,12 +14,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d3977b758f65875a36749a49459c2a81459a7b69
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 0cd37a7323c0dd0dc6e60ff0495f827e9a8582c1
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881930"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6019361"
 ---
 # <a name="payroll-employee"></a>Funcionário da folha de pagamento
 

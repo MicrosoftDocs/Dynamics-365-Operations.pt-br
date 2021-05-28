@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 48427bb52d4e398edba152ff25e28c3625b6a5d3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 31b9532eea82fd5b88fe59718af7be4d242dc885
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803576"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027881"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos e posições
 
@@ -120,7 +120,7 @@ Quando você atribui um trabalhador a um cargo, você preenche aquele cargo. Voc
 
 Os cargos são elementos importantes do nível inferior de uma hierarquia organizacional. No formulário Cargo, você pode especificar o cargo ao qual um cargo está subordinado. Quando você atribui um trabalhador a um cargo que está subordinado a outro cargo, você cria uma relação de subordinação entre os trabalhadores atribuídos aos dois cargos. Por exemplo, o cargo "Contador-" está subordinado ao cargo "Supervisor de contabilidade". Kim Akers está atribuído ao cargo "Supervisor de contabilidade", e Sanjay Patel está atribuído ao cargo "Contador-A". Isso significa que Sanjay Patel está subordinado a Kim Akers. 
 
-Se a organização usar uma hierarquia de matriz ou outra hierarquia personalizada, você poderá configurar tipos de hierarquia de cargos e adicionar relações de subordinação a cargos de cada tipo de hierarquia que você configurou. Por exemplo, Lori Penor é um gerente geral na Adventure Works e recebeu o cargo de "Gerente geral". Lori gerencia o desenvolvimento de um produto usado para limpar widgets. Lori requer um contador para ajudá-la com as finanças para desenvolver o produto. Portanto, ela recrutou Sanjay Patel para ser seu contador. Sanjay reporta-se diretamente a Kim Akers, mas também trabalha com Lori Penor em seu trabalho relacionado às finanças para desenvolver o limpador de widgets. 
+Se a organização usar uma hierarquia de matriz ou outra hierarquia personalizada, você poderá configurar tipos de hierarquia de cargos e adicionar relações de subordinação a cargos de cada tipo de hierarquia que você configurou. Por exemplo, Lori Penor é um gerente geral na Adventure Works e recebeu o cargo de "Gerente geral". Lori gerencia o desenvolvimento de um produto usado para limpar widgets. Lori precisa que um contador ajude com as finanças para desenvolver o produto. Portanto, ela recrutou Sanjay Patel como seu contador. Sanjay reporta-se diretamente a Kim Akers, mas também trabalha com Lori Penor em seu trabalho relacionado às finanças para desenvolver o limpador de widgets. 
 
 Para o exemplo anterior, você executaria as seguintes tarefas para configurar a relação de subordinação entre Sanjay Patel e Lori Penor:
 1.  Crie um tipo de hierarquia de cargos personalizado chamado "Widget" para criar uma hierarquia que inclui cargos responsáveis por trabalhar no limpador de widgets.
@@ -159,7 +159,7 @@ Para alguns registros, é possível especificar futuras alterações no registro
 </tbody>
 </table>
 
-Você pode modificar as informações mencionadas na tabela anterior para um cargo ou um trabalho e especificar uma data em que as modificações feitas no cargo ou no trabalho entrarão em vigor. Por exemplo, um cargo só pode ser atribuído a um trabalhador, mas Sanjay Patel, que está atribuído ao cargo Contador-A, sairá em duas semanas. Joe Healy substituirá Sanjay Patel quando ele sair. Mesmo que Sanjay ainda esteja atribuído ao cargo, você poderá atribuir Joe Healy ao mesmo cargo de forma que a atribuição entre em vigor somente após o último dia de Sanjay.
+Você pode modificar as informações mencionadas na tabela anterior para um cargo ou um trabalho e especificar uma data em que as modificações feitas no cargo ou no trabalho entrarão em vigor. Por exemplo, um cargo só pode ser atribuído a um trabalhador, mas Sanjay Patel, que está atribuído ao cargo Contador-A, sairá em duas semanas. Joe Healy substituirá Sanjay Patel quando Sanjay deixar a empresa. Mesmo que Sanjay ainda esteja atribuído ao cargo, você poderá atribuir Joe Healy ao mesmo cargo de forma que a atribuição entre em vigor somente após o último dia de Sanjay.
 
 
 

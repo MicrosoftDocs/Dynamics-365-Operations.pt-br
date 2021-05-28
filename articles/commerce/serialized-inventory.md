@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 45376e43c00116d403f00c58772aefba6fa33eeb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fbd1d9c71ece77cbf4c6ecb741eb6d5e3e3455d9
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794009"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6028146"
 ---
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>Melhorias de ponto de venda (PDV) para produtos serializados
 
@@ -30,7 +30,7 @@ Com base nas configurações do Commerce Headquarters, os produtos podem ser cla
 
 ## <a name="pos-improvements"></a>Melhorias POS
 
-- **Os números de série não são necessários até a finalização da compra** – Antes, um caixa que adicionava um produto serializado à transação precisava fornecer um número de série. Esse requisito era um problema em cenários do cliente, se caixas e vendedores tivessem uma oportunidade de vender produtos. Até a etapa de pagamento, os produtos geralmente eram atualizados no carrinho. Portanto, sempre que um caixa adicionava um novo produto, o sistema solicitava o número de série. A caixa de diálogo de número de série agora tem um botão **Adicionar mais tarde**. Portanto, os vendedores podem adicionar o item à transação, mas podem fornecer o número de série depois. Os associados de vendas podem adicionar e substituir rapidamente itens serializados ao carrinho, e fornecer o número de série pouco antes da finalização da compra. Se o número de série não for fornecido para o produto serializado, um vendedor que tentar concluir a transação receberá uma mensagem de erro. Esta mensagem informa se o caixa deve fornecer os números de série que faltam antes de continuar.
+- **Os números de série não são necessários até a finalização da compra** – Antes, um caixa que adicionava um produto serializado à transação precisava fornecer um número de série. Esse requisito era um problema em cenários do cliente, se caixas e vendedores tivessem uma oportunidade de vender produtos. Até a etapa de pagamento, os produtos geralmente eram atualizados no carrinho. Portanto, sempre que um caixa adicionava um novo produto, o sistema solicitava o número de série ao caixa. A caixa de diálogo de número de série agora tem um botão **Adicionar mais tarde**. Portanto, os vendedores podem adicionar o item à transação, mas podem fornecer o número de série depois. Os associados de vendas podem adicionar e substituir rapidamente itens serializados ao carrinho, e fornecer o número de série pouco antes da finalização da compra. Se o número de série não for fornecido para o produto serializado, um vendedor que tentar concluir a transação receberá uma mensagem de erro. Essa mensagem informa que o caixa deve fornecer os números de série faltantes para que o caixa possa continuar.
 
     Para cada item serializado onde o número de série é ignorado, aparecerá um comentário abaixo da linha da transação. Esse comentário indica que o número de série não foi fornecido para o item. Portanto, o caixa poderá encontrar rapidamente os itens que estão sem um número de série.
 

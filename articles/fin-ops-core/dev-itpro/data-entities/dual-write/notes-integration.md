@@ -5,7 +5,6 @@ author: RamaKrishnamoorthy
 ms.date: 02/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -17,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: beab7f2fc4fd96ce7a28734d2449445b3b5d4451
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750827"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6018377"
 ---
 # <a name="note-integration"></a>Integração da nota
 
@@ -34,9 +33,9 @@ Durante processos comerciais, os usuários do Microsoft Dynamics 365 geralmente 
 
 As informações do cliente podem ser classificadas das seguintes maneiras:
 
-+ **Informações acionáveis que um usuário do Dynamics 365 manipula em nome de um cliente**, por exemplo, Contoso (um usuário do Dynamics 365) está realizando uma apresentação de jogo. Um dos clientes da Contoso (um cliente) quer participar da apresentação de jogos. O cliente solicita que um funcionário da Contoso marque um slot nas apresentações de jogos. A reserva ocorre no calendário do participante do evento do Contoso.
-+ **Informações Acionáveis para um usuário do Dynamics 365** – por exemplo, um cliente que esteja comprando uma unidade de superfície insere instruções especiais que indicam que o dispositivo deve estar embalado antes da entrega. Essas instruções são informações acionáveis que devem ser tratadas pelo funcionário da Contoso responsável pela embalagem.
-+ **Informações não acionáveis** – por exemplo, um cliente visita a loja da Contoso e, durante sua conversa com uma associação da loja, expressa interesse nos *jogos Halo* e nos acessórios de jogos. O associado da loja anota essas informações. O mecanismo de recomendações do produto o utiliza para fazer recomendações ao cliente.
++ **Informações acionáveis que um usuário do Dynamics 365 gerencia em nome de um cliente** – Por exemplo, a Contoso (um usuário do Dynamics 365) está realizando um programa de TV. Um dos clientes da Contoso (um cliente) quer participar do programa. O cliente pede ao funcionário da Contoso para reservar uma vaga no programa de TV para ele. A reserva ocorre no calendário de participantes do evento da Contoso.
++ **Informações Acionáveis para um usuário do Dynamics 365** – por exemplo, um cliente que esteja comprando uma unidade de superfície insere instruções especiais que indicam que o dispositivo deve estar embalado antes da entrega. Essas instruções são informações acionáveis que devem ser gerenciadas pelo funcionário da Contoso responsável pela embalagem.
++ **Informações não acionáveis** – Por exemplo, um cliente visita uma loja da Contoso e, durante uma conversa com um funcionário da loja, ele mostra interesse em jogos e acessórios do *Halo*. O associado da loja anota essas informações. O mecanismo de recomendações do produto o utiliza para fazer recomendações ao cliente.
 
 Em geral, as informações acionáveis são capturadas como *atividades* nos aplicativos Finance and Operations e de engajamento do cliente. As informações não acionáveis são capturadas como *notas* nos aplicativos Finance and Operations e como *anotações* nos aplicativos de engajamento do cliente.
 

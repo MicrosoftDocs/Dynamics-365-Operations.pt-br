@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b8c3ab0653fd5e3561d0bfbe85624d912756e2be
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 659211f3a74c38389f991cd2385366d175b0c7c0
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794178"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020250"
 ---
 # <a name="map-module"></a>Módulo de mapa
 
@@ -29,7 +29,7 @@ ms.locfileid: "5794178"
 
 Este tópico abrange os módulos do módulo e descreve como configurá-los no Microsoft Dynamics 365 Commerce.
 
-Um módulo de mapa mostra os locais de armazenamentos em um mapa interativo processado usando o [Controle da Web V8 do Bing Maps](https://docs.microsoft.com/bingmaps/v8-web-control/). Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados na Sede do Commerce. Os módulos de mapa fornecem exibições diferentes, como estrada, aérea e Streetside, que os usuários podem selecionar para exibir os locais dos mapas. Eles também permitem interações como o zoom e o uso do local do usuário.
+Um módulo de mapa mostra os locais de armazenamentos em um mapa interativo processado usando o [Controle da Web V8 do Bing Maps](/bingmaps/v8-web-control/). Uma chave de API do Bing Maps é necessária e deve ser adicionada à página de parâmetros compartilhados na Sede do Commerce. Os módulos de mapa fornecem exibições diferentes, como estrada, aérea e Streetside, que os usuários podem selecionar para exibir os locais dos mapas. Eles também permitem interações como o zoom e o uso do local do usuário.
 
 Um módulo de mapa trabalha em conjunto com o módulo seletor de lojas para determinar os locais geográficos das lojas que devem ser renderizados em um mapa. O seletor de armazenamento e os módulos de mapa interagem quando um usuário seleciona um armazenamento em um desses módulos em uma página do site. Os módulos de mapa podem ser estendidos para outros cenários, além da interação com os módulos do seletor de loja. No entanto, a personalização do módulo é necessária.
 
@@ -76,7 +76,7 @@ Para obter informações detalhadas sobre como configurar um módulo de mapa em 
 
 [Gerenciar o Bing Mapas da sua organização](./dev-itpro/manage-bing-maps.md)
 
-[Controle da Web V8 do Bing Maps](https://docs.microsoft.com/bingmaps/v8-web-control/)
+[Controle da Web V8 do Bing Maps](/bingmaps/v8-web-control/)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

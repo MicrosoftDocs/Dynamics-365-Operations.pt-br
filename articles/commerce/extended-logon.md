@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bb0e646cc4be5fa7fbb8a0ef47b524612a6f9a46
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f9d8889581e2e11fa5261805c866a6014df57611
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792478"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027567"
 ---
 # <a name="set-up-extended-logon-functionality-for-mpos-and-cloud-pos"></a>Configurar a funcionalidade de logon estendido para MPOS e PDV em Nuvem
 
@@ -51,7 +51,7 @@ Quando a opção **Logon de cartão da equipe requer senha** é habilitada, o lo
 
 ## <a name="assigning-an-extended-logon"></a>Atribuindo um logon estendido
 
-Por padrão, somente os gerentes podem atribuir o logon estendido aos trabalhadores. Para atribuir o logon estendido, acesse **logon estendido** no POS. Em seguida, procure por um trabalhador inserindo a ID do operador no campo de pesquisa. Selecione o trabalhador e clique em **Atribuir**. Na página seguinte, passe o dedo ou digitalize o logon estendido para atribuir ao trabalhador. Se essa ação for realizada com êxito, o botão **OK** será disponibilizado. Clique em **OK** para salvar o logon estendido desse trabalhador.
+Por padrão, somente os gerentes podem atribuir o logon estendido aos trabalhadores. Para atribuir o logon estendido, acesse **logon estendido** no POS. Em seguida, pesquise um funcionário inserindo o ID de operador do funcionário no campo de busca. Selecione o trabalhador e clique em **Atribuir**. Na página seguinte, passe o dedo ou digitalize o logon estendido para atribuir ao trabalhador. Se essa ação for realizada com êxito, o botão **OK** será disponibilizado. Clique em **OK** para salvar o logon estendido desse trabalhador.
 
 ## <a name="deleting-an-extended-logon"></a>Excluindo um logon estendido
 
@@ -63,7 +63,7 @@ O serviço de logon pode ser estendido para oferecer suporte a dispositivos de l
 
 ## <a name="using-extended-logon"></a>Usando o logon estendido
 
-Quando o logon estendido for configurado, e um trabalhador receber um código de barras ou uma tarja magnética, o trabalhador precisará apenas passar o dedo ou digitalizar o cartão enquanto a página de logon é exibida. Se for necessário também uma senha para que o logon possa continuar, o trabalhador será solicitado a inserir a senha.
+Quando um logon estendido e configurado e um funcionário tiver recebido um código de barras ou faixa magnética, o funcionário precisa apenas deslizar ou digitalizar o cartão do funcionário enquanto a página de logon do POS é exibida. Se também for necessário uma senha para continuar o logon, o funcionário é solicitado a inserir a senha do funcionário.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

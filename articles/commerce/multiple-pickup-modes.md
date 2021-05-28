@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: c32ffc8435c05c644bf836bb184400d067269208
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
+ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796865"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "6020642"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar vários modos de entrega de retirada para ordens de cliente
 
@@ -82,7 +82,7 @@ Quando vários modos de entrega de retirada estiverem disponíveis para um canal
 
 ## <a name="considerations-for-distributed-order-management"></a>Considerações para o gerenciamento de ordem distribuído
 
-Os recursos de [gerenciamento de ordem distribuído (DOM)](https://docs.microsoft.com/dynamics365/commerce/dom) no Commerce ignoram as linhas de venda marcadas para retirada na loja. Esses recursos foram atualizados para garantir que as linhas de venda vinculadas a modos de entrega de retirada configurados ignorem a lógica DOM e não sejam realocadas para um novo depósito de atendimento.
+Os recursos de [gerenciamento de ordem distribuído (DOM)](./dom.md) no Commerce ignoram as linhas de venda marcadas para retirada na loja. Esses recursos foram atualizados para garantir que as linhas de venda vinculadas a modos de entrega de retirada configurados ignorem a lógica DOM e não sejam realocadas para um novo depósito de atendimento.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

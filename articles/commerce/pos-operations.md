@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: dac3eb0da704e06376d8ca969e06fb177ce15a6b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b02f94bb2217729f35f0593fe99807273608811
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804272"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027639"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
@@ -64,7 +64,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 642 | Executar Todos os Produtos | Definir o modo de entrega para todas as linhas como **Execução**. | Sim | Sim | Não | Sim\* | Não |
 | 641 | Executar os Produtos Selecionados | Definir o modo de entrega para as linhas selecionadas como **Execução**. | Sim | Sim | Não | Sim\* | Não |
 | 647 | Alterar modo de entrega | Alterar modo de entrega para linhas de venda pré-configuradas. | Sim | Sim | Não | Não| Não |
-| 1215 | Alterar senha | Esta operação permite ao usuário PDV alterar sua senha. | Sim | Sim | Sim | Não | Não |
+| 1215 | Alterar senha | Esta operação permite ao usuário do POS alterar sua senha. | Sim | Sim | Sim | Não | Não |
 | 123 | Alterar Unidade de Medida | Alterar a unidade de medida para o item de linha selecionado. | Sim | Sim | Não | Sim | Não |
 | 639 | Limpar representante de vendas padrão na transação | Remover o grupo de vendas por comissão (representante de vendas) da transação. | Sim | Sim | Não | Sim | Não |
 | 106 | Limpar quantidade | Redefinir a quantidade na linha selecionada atual como **1**. | Sim | Sim | Não | Sim | Não |

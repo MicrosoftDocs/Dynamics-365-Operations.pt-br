@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a0e49d1eced3bb62e78c630b137a5b86121682f3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f3fcfae9f4ab458b4f14f18859f22fc25bf98623
+ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795228"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6027615"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Criar listas de tarefas e adicionar tarefas
 
@@ -49,7 +49,7 @@ Para adicionar tarefas a uma lista de tarefas, siga estas etapas.
 1. Na caixa de diálogo **Criar uma nova tarefa**, no campo **Nome**, insira um nome para a tarefa.
 1. No campo **Deslocamento da data de vencimento a partir da data de destino**, insira um valor inteiro positivo ou negativo. Por exemplo, insira **-2** se a tarefa deve ser concluída dois dias antes da data de vencimento da lista de tarefas.
 1. No campo **Notas**, insira instruções detalhadas.
-1. No campo **Pessoa para contato**, insira o nome de um especialista no assunto que o proprietário da tarefa pode contatar se precisar de ajuda.
+1. No campo **Pessoa para contato**, insira o nome de um especialista no assunto com quem o proprietário da tarefa pode entrar em contato se precisar de ajuda.
 1. No campo **Link de contato**, insira um link, com base na natureza da tarefa.
 
 > [!TIP]
