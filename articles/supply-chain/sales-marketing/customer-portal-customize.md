@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 6d4cc52a90b25406080032c7a98caa59f53ce188
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908991"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102678"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar e usar o portal do cliente
 
@@ -61,7 +61,7 @@ Estas são as etapas padrão para enviar uma ordem do portal do cliente.
     - **Número da requisição** – insira o número da requisição da ordem. Este campo não é obrigatório.
     - **Remeter para país/região** – insira o país ou a região para o qual os itens serão entregues. Este campo é automaticamente definido para usuários não administradores.
 
-    ![Página Informações da Ordem](media/customer-portal-order-information.png "Página Informações da Ordem")
+    ![Página Informações da ordem](media/customer-portal-order-information.png "Página Informações da ordem")
 
 1. Selecione **Avançar**.
 1. Na página **Itens**, selecione **Adicionar Item**.
@@ -82,7 +82,7 @@ Estas são as etapas padrão para enviar uma ordem do portal do cliente.
 1. Quando terminar de adicionar itens, selecione **Avançar** na página **Itens**.
 1. A página **Informações da Ordem** fornece um resumo da ordem. Examine o conteúdo da ordem e detalhes da entrega. Se tudo parecer correto, selecione **Enviar** para enviar a ordem.
 
-    ![Página Informações da Ordem](media/customer-portal-order-submit.png "Página Informações da Ordem")
+    ![Página Informações da ordem concluída](media/customer-portal-order-submit.png "Página Informações da ordem concluída")
 
 ### <a name="standard-data-setup"></a>Configuração de dados padrão
 

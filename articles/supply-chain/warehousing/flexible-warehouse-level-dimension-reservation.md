@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 13b81459fe3449a90839dac7637118f09afe2e55
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ed90e773e1b8c90afc119a471cf844941ad19226
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910224"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6103037"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política flexível de reserva de dimensão no nível de depósito
 
@@ -176,7 +176,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
     - Depois que o trabalho é criado, a transação de estoque do item na qual o campo **Referência** está definido como **Reserva confirmada na ordem** é removida. A transação de estoque na qual o campo **Referência** está definido como **Trabalho** agora contém a reserva física em todas as dimensões de estoque da quantidade.
 
-        As operações de depósito podem continuar para manipular a execução do trabalho da maneira usual. No entanto, as instruções no dispositivo móvel orientarão o trabalhador a separar um número de lote específico. Em ambientes de depósito em que os locais são controlados pela placa de licença, depois que um trabalhador chega a um local que armazena o mesmo lote em várias placas de licença, ele pode fazer a separação em qualquer placa de licença que ainda não esteja reservada (por exemplo, por outra reserva confirmada na ordem ou trabalho que se origina de uma reserva desse tipo).
+        As operações de depósito podem continuar para manipular a execução do trabalho da maneira usual. No entanto, as instruções no dispositivo móvel orientarão o trabalhador a separar um número de lote específico. Em ambientes de depósito em que os locais são controlados pela placa de licença, depois que um trabalhador chega a um local que armazena o mesmo lote em várias placas de licença, a separação pode ser feita em qualquer placa de licença que ainda não esteja reservada (por exemplo, por outra reserva confirmada na ordem ou trabalho que se origina de uma reserva desse tipo).
 
         Se for impraticável fazer a separação no local que é especificado na linha de trabalho, os operadores de depósito poderão usar uma das seguintes ações para redirecionar a separação do lote específico de um local mais conveniente:
 

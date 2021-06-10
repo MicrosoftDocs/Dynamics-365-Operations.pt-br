@@ -2,7 +2,7 @@
 title: Introdução à administração de serviço do Faturamento eletrônico
 description: Este tópico explica como começar a usar o Faturamento eletrônico.
 author: gionoder
-ms.date: 05/04/2021
+ms.date: 05/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: f389e111006327fe8d82581d01140b4cff2e200d
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 7c4d69edd4a8f7c7acc2ac1bc22c1ba6eaba25ae
+ms.sourcegitcommit: 90a289962598394ad98209026013689322854b7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980965"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6092397"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Introdução à administração de serviço do Faturamento eletrônico
 
@@ -44,18 +44,14 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 ## <a name="install-the-add-in-for-microservices-in-lifecycle-services"></a>Instalar o suplemento para microsserviços no Lifecycle Services
 
-1. Entre em sua conta do LCS.
-2. Selecione o bloco **Gerenciamento de versão prévia do recurso**.
-3. Na seção **Recursos de versão preliminar pública**, selecione **Fatura eletrônica**.
-4. Verifique se a opção **Versão prévia do recurso habilitada** está definida como **Sim**.
-5. No seu painel de projetos LCS, selecione um projeto LCS.
-6. No projeto LCS, no painel de ambiente LCS, selecione seu projeto de implantação LCS. O projeto de implantação LCS deve estar em execução.
-7. Na guia **Integração do Power Platform**, no grupo de campos **Complementos do ambiente**, selecione **Instalar novo complemento**.
-8. Selecione **Fatura eletrônica**.
-9. No campo **ID do aplicativo do AAD**, insira **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse é um valor fixo.
-10. No campo **ID de locatário AAD**, insira a ID do locatário da sua conta de assinatura do Azure.
-11. Analise os termos e condições e depois marque a caixa de seleção.
-12. Selecione **Instalar**.
+1. Faça login na sua conta LCS e, no painel de projeto do LCS, selecione um projeto LCS.
+2. No projeto, no painel de ambiente, selecione seu projeto de implantação LCS. O projeto selecionado deve estar em execução.
+3. Na guia **Integração do Power Platform**, no grupo de campos **Complementos do ambiente**, selecione **Instalar novo complemento**.
+4. Selecione **Fatura eletrônica**.
+5. No campo **ID do aplicativo do AAD**, insira **091c98b0-a1c9-4b02-b62c-7753395ccabe**. Esse é um valor fixo.
+6. No campo **ID de locatário AAD**, insira a ID do locatário da sua conta de assinatura do Azure.
+7. Analise os termos e condições e depois marque a caixa de seleção.
+8. Selecione **Instalar**.
 
 
 ## <a name="set-up-the-parameters-for-rcs-integration-with-electronic-invoicing"></a>Configure os parâmetros da integração do RCS com o Faturamento eletrônico

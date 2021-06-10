@@ -8,7 +8,6 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: LeavePlanFormPart, LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 45f5ebfe7bd11a529e871f5fd3244577954534f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c3a3f4a8a1fa0b5dbc4869f81f091cc66437e978
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794628"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056843"
 ---
 # <a name="configure-leave-and-absence-parameters"></a>Configurar parâmetros de licença e ausência
 
@@ -31,7 +30,7 @@ Antes de configurar os planos de licença e ausência no Dynamics 365 Human Reso
 
 - Sequência numérica para solicitações de licença
 - Lei de família de licença e médica (FMLA)
-- Configurações de auto-atendimento para funcionário para solicitações de licença e ausência
+- Configurações de autoatendimento para funcionário para solicitações de licença e ausência
 - Parâmetros de licença e ausência
 
 ## <a name="view-and-change-human-resources-parameters"></a>Exibir e alterar parâmetros de recursos humanos

@@ -2,7 +2,7 @@
 title: Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 description: Este tópico explica como configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS) do Dynamics 365.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d7945cc899cf161f294dfcc3f6d1a9a79c9453ab
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
+ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897711"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6075134"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 
@@ -194,6 +194,8 @@ A lista a seguir mostra as configurações de formato ER disponíveis para os re
 
 - Fatura de venda (ES)
 - Fatura de projeto (ES)
+
+Além das configurações de formato ER disponíveis pronto para uso com o serviço de faturamento eletrônico, você também pode criar suas próprias configurações de formato do ER. No entanto, as configurações de formato criadas para usar com os recursos de faturamento eletrônico não dão suporte à referência direta a tabelas do Supply Chain Management ou de qualquer metadado correspondente. Há suporte somente para referências ao mapeamento do modelo de ER.
 
 ### <a name="actions"></a>Ações
 

@@ -2,7 +2,7 @@
 title: Introdução ao Cálculo de Imposto
 description: Este tópico explica como configurar o Cálculo de Imposto.
 author: wangchen
-ms.date: 04/12/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 43a7c7133156d199da7b5ba16d48652359098c74
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
+ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018870"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6060554"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Introdução ao Cálculo de Imposto (versão preliminar)
 
@@ -41,7 +41,7 @@ A configuração consiste em quatro etapas principais:
 
 Antes de poder concluir os procedimentos neste tópico, é preciso ter os seguintes pré-requisitos em vigor:
 
-- Você tem acesso à conta do LCS e já implementou um projeto do LCS com um ambiente de Camada 2 (ou superior) que executa o Dynamics 365 versão 10.0.18 ou posterior.
+- Você tem acesso à conta do LCS e já implementou um projeto do LCS com um ambiente de Camada 2 (ou superior) que executa o Dynamics 365 versão 10.0.18 com [KB4616360](https://fix.lcs.dynamics.com/Issue/Details?kb=4616360&bugId=568738&dbType=3&qc=1f1c04ff39adad74ef871f539e8d73e14c1893ef7cc4b6e3f7d5c5864ec2781a) ou superior.
 - Você tem acesso à sua conta RCS.
 - Você entrou em contato com a Microsoft para habilitar a liberação de versões de pré-lançamento no ambiente do Finance ou Supply Chain Management implantado.
 

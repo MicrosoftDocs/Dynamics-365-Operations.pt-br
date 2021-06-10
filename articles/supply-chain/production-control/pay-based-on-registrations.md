@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c511558735e89db32e88f6efdd2d0cc88a04b61c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39786323e1ea11a960332e6e0a01f6ef8de1838d
+ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814817"
+ms.lasthandoff: 05/26/2021
+ms.locfileid: "6102989"
 ---
 # <a name="pay-based-on-registrations"></a>Pagamento com base em registros
 
@@ -168,9 +168,9 @@ Para configurar o sistema para distinguir bem período padrão e horas extras, e
 
 Na página **Parâmetros de cálculo**, selecione **Hora extra** como o tipo de especificação do perfil, e defina a opção **Período de pagamento** como **Não**, conforme mostrado aqui.
 
-| Especificação de reg. | Tipo de especificação de perfil | Cálculo   |     | Pagamento         |     |
+| Especificação de reg. | Tipo de especificação de perfil | Cálculo   | Configuração | Pagamento         | Configuração |
 |--------------------|----------------------------|---------------|-----|--------------|-----|
-| Horário de trabalho       | Hora extra                   | Período padrão | Sim | Pagar hora     | Não  |
+| Horário de trabalho       | Hora Extra                   | Período padrão | Sim | Pagar hora     | Não  |
 |                    |                            | Pagar hora      | Sim | Pagar hora extra | Sim |
 
 Após você ajustar os parâmetros de cálculo, os itens de pagamento a seguir serão gerados.
@@ -559,7 +559,7 @@ Em contraste, se a caixa seleção **Deduzir hora extra** for desmarcada para o 
 
 O exemplo a seguir mostra como a conta flexível de um trabalhador pode ser reduzida convertendo o período de ausência em um período Flex-.
 
-O trabalhador entra às 07:00 e sai às 13:00. Ele chegou a um acordo com a supervisora de folgar no fim de semana desde que deduza essas horas da sua conta flexível. Quando o trabalhador sai às 13:00, ele é solicitado a selecionar um código de ausência, pois o período de ausência referente ao restante do dia de trabalho que é afetado não faz parte de um período Flex- planejado. Para converter o restante do dia de trabalho em um período Flex-, o trabalhador pode selecionar um código de ausência que está configurado para reduzir sua conta flexível.
+O trabalhador entra às 07:00 e sai às 13:00. O trabalhador tem um contrato segundo o qual ele pode ir para casa no fim de semana se descontar essas horas de sua conta flexível. Quando o trabalhador sai às 13:00, ele é solicitado a selecionar um código de ausência, pois o período de ausência referente ao restante do dia de trabalho que é afetado não faz parte de um período Flex- planejado. Para converter o restante do dia de trabalho em um período Flex-, o trabalhador pode selecionar um código de ausência que está configurado para reduzir sua conta flexível.
 
 Para reduzir o saldo de horas flexíveis dos trabalhadores que registram a ausência em um dia de trabalho, selecione **Horário e presença** &gt; **Configuração** &gt; **Grupos** &gt; **Grupos de ausência** e a caixa de seleção **Reduzir limite flexível**.
 

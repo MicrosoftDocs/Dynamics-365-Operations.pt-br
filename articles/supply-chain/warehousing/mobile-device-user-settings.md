@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 080b84d712a9c634611090f71b9ecca75e13cdcb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
+ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837456"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049283"
 ---
 # <a name="mobile-device-user-settings"></a>Configurações do usuário do dispositivo móvel
 
@@ -94,3 +94,8 @@ Siga estas etapas para criar e gerenciar marcas e modelos de dispositivos móvei
 
     - **ID do modelo do dispositivo** – A ID do modelo do dispositivo, como *Surface Book 2*.
     - **Descrição** – Você pode inserir uma descrição para ajudar a diferenciar IDs de modelos.
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+- [Instalar e conectar o aplicativo móvel Gerenciamento de Depósito](install-configure-warehouse-management-app.md)
+- [Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management](step-icons-titles.md)

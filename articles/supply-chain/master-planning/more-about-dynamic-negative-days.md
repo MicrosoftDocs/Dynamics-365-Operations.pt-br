@@ -1,27 +1,21 @@
 ---
 title: Dias negativos e dias negativos dinâmicos
 description: Este tópico fornece informações sobre dias negativos e dias negativos dinâmicos, e como você pode usá-los em seus negócios.
-author: t-benebo
-ms.date: 06/06/2019
+author: ChristianRytt
+ms.date: 05/25/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 72704
-ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
-ms.search.region: global
-ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.search.region: Global
+ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7440a6a0b9093664a0d717b3bfa011ee3100639f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907732"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097225"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Dias negativos e dias negativos dinâmicos
 
@@ -45,7 +39,7 @@ Você pode obter demanda relativamente cedo no prazo de entrega do seu item ou p
 - O item DemoProduct tem um prazo de entrega de compra de seis dias.
 - No dia zero (1º de janeiro), o nível de estoque do item DemoProduct é 0 (zero).
 - No dia zero (1º de janeiro), você recebe uma ordem de vendas de uma quantidade 10 do item DemoProduct.
-- No dia sete (7 de janeiro), há uma ordem de compra existente para uma quantidade 10 do item DemoProduct.
+- No dia sete (8 de janeiro), há uma ordem de compra existente para uma quantidade 10 do item DemoProduct.
 
 A ilustração a seguir mostra uma exibição gráfica deste cenário.
 
@@ -112,7 +106,7 @@ Você pode obter demanda em algum momento durante o prazo de entrega de seu item
 
 A ilustração a seguir mostra uma exibição gráfica deste cenário.
 
-![Exibição gráfica do cenário 1](./media/negative-days-8.png)
+![Exibição gráfica do cenário 2](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: os dias negativos são menores que o prazo de entrega do item
 
@@ -219,8 +213,8 @@ Talvez você queira definir os dias negativos como um intervalo de tempo longo e
 - O item DemoProduct tem um prazo de entrega de compra de seis dias.
 - No dia zero (1º de janeiro), o estoque do item DemoProduct é 0 (zero).
 - No dia zero (1º de janeiro), você recebe uma ordem de vendas de uma quantidade 10 do item DemoProduct.
-- No dia 10 (10 de janeiro), você recebe uma ordem de venda com uma quantidade 10 do item DemoProduct.
-- No décimo-segundo dia (12 de janeiro), há uma ordem de compra com uma quantidade 10 do item do DemoProduct.
+- No dia nove (1º de janeiro), você recebe uma ordem de vendas de uma quantidade 10 do item DemoProduct.
+- No dia onze (12 de janeiro), há uma ordem de compra com uma quantidade 10 do item do DemoProduct.
 - Os dias negativos são definidos como **20**, que é muito mais que o prazo de entrega do item.
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre.
@@ -229,7 +223,7 @@ A ilustração a seguir mostra uma exibição gráfica do que ocorre.
 
 O MRP produz os seguintes resultados.
 
-![Resultados](./media/negative-days-20.png)
+![Exemplo de resultados 1](./media/negative-days-20.png)
 
 Na captura de tela anterior, a data da necessidade da ordem de venda é 9 de janeiro, em vez de 10 de janeiro. Como essa captura de tela foi obtida em 2015, quando o dia 10 de janeiro foi um sábado, a data da solicitação da ordem deveria ser o dia útil anterior, que era sexta-feira, 9 de janeiro.
 
@@ -239,7 +233,7 @@ Os resultados não estão errados, mas o tempo de execução do MRP pode ser mai
 
 Se você reduzir os dias negativos para um número mais próximo do prazo de entrega do item e usar dias negativos dinâmicos, o MRP produzirá os seguintes resultados.
 
-![Resultados](./media/negative-days-21.png)
+![Exemplo de resultados 2](./media/negative-days-21.png)
 
 O MRP criará uma ordem planejada anexada à primeira ordem de venda. Então, como esperado, a segunda ordem de venda será vinculada à ordem de venda existente, com base na configuração de dias negativos. Esse resultado do planejamento também está correto e o tempo de execução do MRP pode ser menor. Nesse caso, não é essencial que você entenda e saiba como trabalhar com as mensagens de ação.
 

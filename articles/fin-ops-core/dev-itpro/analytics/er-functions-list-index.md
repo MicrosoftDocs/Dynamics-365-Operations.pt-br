@@ -2,7 +2,7 @@
 title: Função de ER INDEX
 description: Este tópico fornece informações sobre como a função de relatório eletrônico (ER) INDEX é usada.
 author: NickSelin
-ms.date: 12/12/2019
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 14f10359a3f20fb9d23639babce764b9ef64243d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 5a0fdb8958670efe8e2a37cee183bf836fa6c7e8
+ms.sourcegitcommit: 047b0503868cc7d7b21868e24405d76af35db747
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750451"
+ms.lasthandoff: 05/21/2021
+ms.locfileid: "6087742"
 ---
 # <a name="index-er-function"></a>Função de ER INDEX
 
@@ -43,6 +43,9 @@ O caminho válido de uma fonte de dados do tipo *Lista de registros*.
 `index`: *Inteiro*
 
 Um índice numérico que indica a posição do registro desejado na lista especificada.
+
+> [!NOTE]
+> Como o número de uma base é usado para essa função, especifique o valor **1** para retornar o primeiro registro da lista especificada.
 
 ## <a name="return-values"></a>Valores de retorno
 
