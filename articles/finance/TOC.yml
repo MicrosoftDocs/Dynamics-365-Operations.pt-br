@@ -72,6 +72,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
+                    - name: Finance 10.0.20 (julho 2021)
+                      href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (julho 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (maio de 2021)
@@ -1152,7 +1154,7 @@
                   href: general-ledger/tasks/define-audit-policies-source-documents.md
             - name: Solução de problemas
               items:
-                - name: Alterar a moeda contábil ou de relatório
+                - name: Alterar a moeda de relatóriou ou contábil
                   href: general-ledger/add-change-acctg-rprtg-crrncy.md
                 - name: Alterar ou reatribuir um calendário do razão
                   href: general-ledger/change-mdfy-clndr-to-ledger.md
@@ -1160,6 +1162,8 @@
                   href: general-ledger/rvrs-settgs-on-jrnls-lines.md
                 - name: Saldos iniciais ausentes do fechamento do exercício
                   href: general-ledger/yec-mssng-open-blnces.md
+                - name: Abrir modelos de diário financeiro no Office
+                  href: general-ledger/open-fincl-jrnls-in-office.md
         - name: Relatórios financeiros
           items:
             - name: Introdução aos Relatórios financeiros
@@ -1502,10 +1506,20 @@
                       href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
                     - name: Adicionar campos de dados à integração de imposto usando extensões
                       href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Vários números de registo de IVA
-                      href: localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar um ambiente para pesquisa de dados mestres
                       href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Vários números de registo de IVA
+                      href: localizations/emea-multiple-vat-registration-numbers.md
+                    - name: Relatórios de vários registros de IVA
+                      items:
+                        - name: Relatórios de vários registros de IVA
+                          href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Relatório dos Países Baixos
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-nl-vat-declaration-netherlands.md
+                            - name: Lista de vendas da UE
+                              href: localizations/emea-nl-eu-sales-list.md
             - name: Atualizações regulatórias
               href: localizations/regulatory-updates.md
             - name: Austrália
@@ -2388,6 +2402,20 @@
                               href: localizations/apac-ind-GST-tax-returns.md
                             - name: Habilitar o processamento de vários lotes para relatórios de GSTR
                               href: localizations/apac-ind-gst-multi-batch-processing-gstr-return.md
+                        - name: Solução de problemas do GST
+                          items:
+                            - name: Valor do imposto incorreto após o cálculo
+                              href: localizations/apac-ind-GST-troubleshooting-tax-amount-wrong-after-calculation.md
+                            - name: Erros de configuração de imposto
+                              href: localizations/apac-ind-GST-troubleshooting-tax-configuration-errors.md
+                            - name: Imposto não é calculado
+                              href: localizations/apac-ind-GST-troubleshooting-tax-not-calculated.md
+                            - name: A ativação das regras de compensação demora mais do que o esperado
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-activate-take-long-time.md
+                            - name: TaxTrans ou o comprovante não é gerado
+                              href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
+                            - name: A ID da transação de imposto está incorreta
+                              href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
                 - name: Impostos diretos
                   items:
                     - name: Imposto retido na fonte da Índia
@@ -2844,6 +2872,10 @@
                   href: localizations/tasks/nl-00003-semansys-xbrl-integration.md
                 - name: Arquivo de auditoria (XML Auditfile Financieel XAF)
                   href: localizations/emea-nl-audit-file.md
+                - name: Declaração de IVA (Países Baixos)
+                  href: localizations/emea-nl-vat-declaration-netherlands.md
+                - name: Lista de vendas da UE
+                  href: localizations/emea-nl-EU-sales-list.md
             - name: Noruega
               items:
                 - name: Visão geral da Noruega
@@ -4123,7 +4155,7 @@
                   items:
                     - name: Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/finance/toc.json
-                    - name: Melhorias nos resultados do rastreamento dos relatórios ER gerados e comparações de valores de linha de base
+                    - name: Melhora o rastreamento dos resultados dos relatórios ER gerados para comparação com os valores de linha de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Automatizar testes com ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
