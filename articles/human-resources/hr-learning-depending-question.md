@@ -8,53 +8,52 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: KMCollection, KMCollectionQuestion, KMCollectionQuestionTree, HcmLearningWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae4a792e53127196aacdf659bb483867d5c17494
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 39da0418f60273a82cb51e5cf3aad60e4efdb234
+ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794724"
+ms.lasthandoff: 05/18/2021
+ms.locfileid: "6056651"
 ---
-# <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a><span data-ttu-id="27f52-103">Fazer uma pergunta dependente da pergunta da questão anterior</span><span class="sxs-lookup"><span data-stu-id="27f52-103">Make a question dependent on the answer of the previous question</span></span>
+# <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a><span data-ttu-id="03862-103">Fazer uma pergunta dependente da pergunta da questão anterior</span><span class="sxs-lookup"><span data-stu-id="03862-103">Make a question dependent on the answer of the previous question</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
 
 
-<span data-ttu-id="27f52-104">Perguntas condicionais permitem que você especifique qual será a próxima pergunta a ser apresentada ao entrevistado, com base na resposta dada a pergunta anterior.</span><span class="sxs-lookup"><span data-stu-id="27f52-104">Conditional questions allow you to specify what follow-up question will be presented to a respondent, based on the answer to the preceding question.</span></span> <span data-ttu-id="27f52-105">Por exemplo, se você perguntar "Você prefere café ou chá", a próxima pergunta pode ser determinada de maneira lógica de acordo com a escolha do entrevistado.</span><span class="sxs-lookup"><span data-stu-id="27f52-105">For example, if you ask "Do you prefer coffee or tea," a logical follow-up question can be determined depending on whether the respondent selects coffee or tea as their answer.</span></span> <span data-ttu-id="27f52-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="27f52-106">The demo data company used to create this procedure is USMF.</span></span>
+<span data-ttu-id="03862-104">Perguntas condicionais permitem que você especifique qual será a próxima pergunta a ser apresentada ao entrevistado, com base na resposta dada a pergunta anterior.</span><span class="sxs-lookup"><span data-stu-id="03862-104">Conditional questions allow you to specify what follow-up question will be presented to a respondent, based on the answer to the preceding question.</span></span> <span data-ttu-id="03862-105">Por exemplo, se você perguntar "Você prefere café ou chá", a próxima pergunta pode ser determinada de maneira lógica de acordo com a escolha do entrevistado.</span><span class="sxs-lookup"><span data-stu-id="03862-105">For example, if you ask "Do you prefer coffee or tea," a logical follow-up question can be determined depending on whether the respondent selects coffee or tea as their answer.</span></span> <span data-ttu-id="03862-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="03862-106">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="find-the-existing-questionnaire"></a><span data-ttu-id="27f52-107">Localize o questionário existente</span><span class="sxs-lookup"><span data-stu-id="27f52-107">Find the existing questionnaire</span></span>
-1. <span data-ttu-id="27f52-108">Vá para Questionário > Design > Questionários.</span><span class="sxs-lookup"><span data-stu-id="27f52-108">Go to Questionnaire > Design > Questionnaires.</span></span>
-2. <span data-ttu-id="27f52-109">Na lista, selecione o questionário WorkFH.</span><span class="sxs-lookup"><span data-stu-id="27f52-109">In the list, select the WorkFH questionnaire.</span></span>
+## <a name="find-the-existing-questionnaire"></a><span data-ttu-id="03862-107">Localize o questionário existente</span><span class="sxs-lookup"><span data-stu-id="03862-107">Find the existing questionnaire</span></span>
+1. <span data-ttu-id="03862-108">Vá para Questionário > Design > Questionários.</span><span class="sxs-lookup"><span data-stu-id="03862-108">Go to Questionnaire > Design > Questionnaires.</span></span>
+2. <span data-ttu-id="03862-109">Na lista, selecione o questionário WorkFH.</span><span class="sxs-lookup"><span data-stu-id="03862-109">In the list, select the WorkFH questionnaire.</span></span>
 
-## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a><span data-ttu-id="27f52-110">Adicione todas as perguntas e subperguntas ao questionário</span><span class="sxs-lookup"><span data-stu-id="27f52-110">Add all questions and sub-questions to the Questionnaire</span></span>
-1. <span data-ttu-id="27f52-111">Clique em Perguntas.</span><span class="sxs-lookup"><span data-stu-id="27f52-111">Click Questions.</span></span>
-2. <span data-ttu-id="27f52-112">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="27f52-112">Click New.</span></span>
-3. <span data-ttu-id="27f52-113">No campo Pergunta, selecione a pergunta número 00016.</span><span class="sxs-lookup"><span data-stu-id="27f52-113">In the Question field, select question number 00016.</span></span>
-4. <span data-ttu-id="27f52-114">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="27f52-114">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="27f52-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="27f52-115">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="27f52-116">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="27f52-116">Click Save.</span></span>
-7. <span data-ttu-id="27f52-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="27f52-117">Close the page.</span></span>
+## <a name="add-all-questions-and-sub-questions-to-the-questionnaire"></a><span data-ttu-id="03862-110">Adicione todas as perguntas e subperguntas ao questionário</span><span class="sxs-lookup"><span data-stu-id="03862-110">Add all questions and sub-questions to the Questionnaire</span></span>
+1. <span data-ttu-id="03862-111">Clique em Perguntas.</span><span class="sxs-lookup"><span data-stu-id="03862-111">Click Questions.</span></span>
+2. <span data-ttu-id="03862-112">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="03862-112">Click New.</span></span>
+3. <span data-ttu-id="03862-113">No campo Pergunta, selecione a pergunta número 00016.</span><span class="sxs-lookup"><span data-stu-id="03862-113">In the Question field, select question number 00016.</span></span>
+4. <span data-ttu-id="03862-114">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="03862-114">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="03862-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="03862-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="03862-116">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="03862-116">Click Save.</span></span>
+7. <span data-ttu-id="03862-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="03862-117">Close the page.</span></span>
 
-## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a><span data-ttu-id="27f52-118">Defina a Sequência do Questionário para Condicional e defina a questão apropriada como dependente.</span><span class="sxs-lookup"><span data-stu-id="27f52-118">Set the Questionnaire Sequence to Conditional and make the question dependent on the appropriate question</span></span>
-1. <span data-ttu-id="27f52-119">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="27f52-119">Click Edit.</span></span>
-2. <span data-ttu-id="27f52-120">Expandir a seção Instalação.</span><span class="sxs-lookup"><span data-stu-id="27f52-120">Expand the Setup section.</span></span>
-3. <span data-ttu-id="27f52-121">No campo Ordem das perguntas, selecione 'Condicional'.</span><span class="sxs-lookup"><span data-stu-id="27f52-121">In the Question order field, select 'Conditional'.</span></span>
-4. <span data-ttu-id="27f52-122">Clique em Pergunta condicional.</span><span class="sxs-lookup"><span data-stu-id="27f52-122">Click Conditional question.</span></span>
-5. <span data-ttu-id="27f52-123">Na árvore, selecione 'Perguntas\Explique o motivo da resposta fornecida à questão anterior?'.</span><span class="sxs-lookup"><span data-stu-id="27f52-123">In the tree, select 'Questions\Explain why you answered the previous question the way you did?'.</span></span>
-6. <span data-ttu-id="27f52-124">No campo Pergunta principal, selecione a pergunta 00009.</span><span class="sxs-lookup"><span data-stu-id="27f52-124">In the Primary question field, select question 00009</span></span>
-7. <span data-ttu-id="27f52-125">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="27f52-125">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="27f52-126">No campo Resposta, insira o ID da sequência de resposta da opção de resposta que torna a pergunta dependente dela.</span><span class="sxs-lookup"><span data-stu-id="27f52-126">In the Answer field, enter the answer sequence ID of the answer option you want to make the question dependent on.</span></span> <span data-ttu-id="27f52-127">Por exemplo, insira 1 para a primeira opção de resposta.</span><span class="sxs-lookup"><span data-stu-id="27f52-127">For example, enter 1 for the first answer option.</span></span>
-9. <span data-ttu-id="27f52-128">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="27f52-128">Click Save.</span></span>
-10. <span data-ttu-id="27f52-129">Na árvore, selecione 'Perguntas\Eu sou bem pago pelo trabalho que faço.'.</span><span class="sxs-lookup"><span data-stu-id="27f52-129">In the tree, select 'Questions\I am paid fairly for the work I do.'.</span></span>
-    * <span data-ttu-id="27f52-130">Observe que a árvore de pergunta atualizou para mostrar a dependência.</span><span class="sxs-lookup"><span data-stu-id="27f52-130">Note that the question tree updated to show the dependency.</span></span>  
+## <a name="set-the-questionnaire-sequence-to-conditional-and-make-the-question-dependent-on-the-appropriate-question"></a><span data-ttu-id="03862-118">Defina a Sequência do Questionário para Condicional e defina a questão apropriada como dependente.</span><span class="sxs-lookup"><span data-stu-id="03862-118">Set the Questionnaire Sequence to Conditional and make the question dependent on the appropriate question</span></span>
+1. <span data-ttu-id="03862-119">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="03862-119">Click Edit.</span></span>
+2. <span data-ttu-id="03862-120">Expandir a seção Instalação.</span><span class="sxs-lookup"><span data-stu-id="03862-120">Expand the Setup section.</span></span>
+3. <span data-ttu-id="03862-121">No campo Ordem das perguntas, selecione 'Condicional'.</span><span class="sxs-lookup"><span data-stu-id="03862-121">In the Question order field, select 'Conditional'.</span></span>
+4. <span data-ttu-id="03862-122">Clique em Pergunta condicional.</span><span class="sxs-lookup"><span data-stu-id="03862-122">Click Conditional question.</span></span>
+5. <span data-ttu-id="03862-123">Na árvore, selecione 'Perguntas\Explique o motivo da resposta fornecida à questão anterior?'.</span><span class="sxs-lookup"><span data-stu-id="03862-123">In the tree, select 'Questions\Explain why you answered the previous question the way you did?'.</span></span>
+6. <span data-ttu-id="03862-124">No campo Pergunta principal, selecione a pergunta 00009.</span><span class="sxs-lookup"><span data-stu-id="03862-124">In the Primary question field, select question 00009</span></span>
+7. <span data-ttu-id="03862-125">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="03862-125">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="03862-126">No campo Resposta, insira o ID da sequência de resposta da opção de resposta que torna a pergunta dependente dela.</span><span class="sxs-lookup"><span data-stu-id="03862-126">In the Answer field, enter the answer sequence ID of the answer option you want to make the question dependent on.</span></span> <span data-ttu-id="03862-127">Por exemplo, insira 1 para a primeira opção de resposta.</span><span class="sxs-lookup"><span data-stu-id="03862-127">For example, enter 1 for the first answer option.</span></span>
+9. <span data-ttu-id="03862-128">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="03862-128">Click Save.</span></span>
+10. <span data-ttu-id="03862-129">Na árvore, selecione 'Perguntas\Eu sou bem pago pelo trabalho que faço.'.</span><span class="sxs-lookup"><span data-stu-id="03862-129">In the tree, select 'Questions\I am paid fairly for the work I do.'.</span></span>
+    * <span data-ttu-id="03862-130">Observe que a árvore de pergunta atualizou para mostrar a dependência.</span><span class="sxs-lookup"><span data-stu-id="03862-130">Note that the question tree updated to show the dependency.</span></span>  
 
 
 
