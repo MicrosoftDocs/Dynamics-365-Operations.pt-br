@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 56446e6a8abfcab83772e446dc7f01c529404b23
-ms.sourcegitcommit: 05210ceefd8816b889019b2a6554855f3c5b2a6c
+ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5954636"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114990"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -92,9 +92,13 @@ Esta lista é meramente informativa. Portanto, você pode adicionar quantos prod
 
 A FastTab **Fonte** permite rastrear o ponto inicial da solicitação de alteração. Ela será útil se, por exemplo, você desejar saber se a solicitação de alteração foi criada a partir de uma ordem de venda, quem a criou e a empresa na qual ela foi criada.
 
-### <a name="evaluate-the-business-impact-of-a-change-request"></a>Avaliar o impacto comercial de uma solicitação de alteração
+### <a name="evaluate-the-business-impact-of-a-change-request-and-send-notifications"></a>Avaliar o impacto comercial de uma solicitação de alteração e enviar notificações
 
-Ao revisar uma solicitação de alteração, você pode procurar dependências. Dessa forma, você pode avaliar o impacto da alteração solicitada nas transações abertas, como ordens de venda, ordens de produção e estoque disponível.
+Ao revisar uma solicitação de alteração, você pode procurar dependências. Dessa forma, você pode avaliar o impacto da alteração solicitada nas transações abertas, como ordens de venda, ordens de produção e estoque disponível. Ao analisar as solicitações de alteração, você pode enviar notificações às pessoas que são responsáveis por cumprir os vários tipos de ordens relacionadas.
+
+#### <a name="review-affected-transactions-block-selected-transactions-and-send-notifications"></a>Revisar as transações afetadas, bloquear transações selecionadas e enviar notificações
+
+Para revisar as transações afetadas, bloquear transações selecionadas e enviar notificações relacionadas, siga estas etapas.
 
 1. Acesse **Gerenciamento de alterações de engenharia \> Comum \> Gerenciamento de alterações de engenharia \> Solicitações de alteração de engenharia**.
 1. Abra uma solicitação de alteração existente ou selecione **Novo** no Painel de Ações para criar uma nova solicitação de alteração.
@@ -103,7 +107,30 @@ Ao revisar uma solicitação de alteração, você pode procurar dependências. 
     - **Pesquisa** – examina todas as transações abertas e abre a caixa de diálogo **Impacto comercial para transações abertas**, que lista todas as transações que serão afetadas pela alteração.
     - **Exibir pesquisa anterior** – abra a caixa de diálogo **Impacto comercial para transações abertas**, que lista os resultados da pesquisa anterior. (Não é feita uma nova pesquisa).
 
-1. Se o problema que exigir uma alteração for considerado crítico, você poderá bloquear as transações abertas ou notificar o usuário responsável usando os botões da barra de ferramentas na caixa de diálogo **Impacto comercial para transações abertas**.
+1. A caixa de diálogo **Impacto comercial para transações abertas** fornece um conjunto de guias, cada uma das quais mostra uma lista de transações afetadas de um tipo específico (**Ordens de venda**, **Ordens de compra**, **Ordens de produção**, **Estoque**, etc.). Cada guia também mostra um número que indica o número de transações afetadas desse tipo. Selecione uma guia para exibir a lista relevante.
+1. Para trabalhar com uma transação na lista, selecione-a e, em seguida, selecione um dos botões a seguir na barra de ferramentas:
+
+    - **Exibir transação** – abra o registro de transação selecionado.
+    - **Ordem de bloqueio** – este botão está disponível apenas na guia **Ordens de venda**. Selecione-o para bloquear a ordem de venda selecionada.
+    - **Linha de bloqueio** – este botão está disponível apenas na guia **Ordens de venda**. Selecione-o para bloquear a linha da ordem de compra selecionada.
+    - **Notificar responsável** – este botão só está disponível na **guia ordens de venda**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada.
+    - **Notificar responsável** – este botão só está disponível na guia **Ordens de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada.
+    - **Notificar produção** – este botão está disponível apenas na guia **Ordens de produção**. Diferentemente das ordens de venda e ordens de compra, as ordens de produção não têm um único usuário definido como responsável por eles de ponta a ponta. Em vez disso, vários supervisores ou planejadores geralmente se apropriam de um site específico ou de uma parte específica da produção (por exemplo, para recursos ou grupos de recursos específicos). Portanto, quando você seleciona este botão, todos os usuários responsáveis por qualquer recurso relacionado à ordem de produção selecionada recebem uma notificação de alteração.
+    - **Notificar preparador** – este botão só está disponível na guia **Requisição de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como preparador pela requisição de compra selecionada.
+    - **Notificar responsável pela venda** – este botão só está disponível na guia **Cotações**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela cotação selecionada.
+    - **Sucata** – este botão só está disponível na guia **Estoque**. Selecione-o para sucatear o estoque selecionado.
+    - **Exibir histórico** – abre um histórico de ações que foram executadas na transação selecionada usando a caixa de diálogo **Impacto comercial para transações abertas**. (Por exemplo, o histórico mostra se as notificações foram enviadas ou as transações foram bloqueadas.) 
+    - **Exibir todas as transações** – abre a lista completa de todas as transações, não apenas as transações abertas.
+
+#### <a name="review-and-process-change-notifications-for-transactions"></a>Analisar e processar notificações de alteração para transações
+
+Você pode ler e processar as notificações de alteração recebidas das seguintes maneiras:
+
+- Exceto no caso de ordens de produção, altere as notificações para as transações que você é responsável por aparecer na Central de ações. O botão **Mostrar mensagens** (símbolo de sino) no lado direito da barra de navegação indica quando uma mensagem está disponível para você na Central de ações. Selecione o botão **Mostrar mensagens** para abrir a Central de ações e revisar as mensagens.
+- Para exibir todas as ordens de produção para as quais uma notificação de engenharia foi enviada, vá para **Ordens de produção \> Ordens de produção \> Todas as ordens de produção**. Em seguida, na Página de Ações na guia **Ordem de produção**, no grupo **Solicitação de alteração de engenharia**, selecione **Notificações de engenharia** para abrir a página **Notificações de engenharia**.
+- Para ordens de produção, você pode optar por revisar somente as notificações de alteração que se aplicam aos recursos de produção que você gerencia. No espaço de trabalho **Gerenciamento de chão de fábrica**, no Painel de Ações, selecione **Configurar meu espaço de trabalho** para filtrar a página de forma que mostre apenas informações sobre as unidades de produção, grupos e/ou recursos que você gerencia. Na seção **Resumo**, um bloco denominado **Ordens de produção com produtos alterados** mostra uma contagem de notificações que correspondem às suas configurações de filtro. Selecione este bloco para abrir a página **Notificações de engenharia**, que mostra a lista completa de transações que atendem aos critérios do filtro.
+
+Ao revisar as notificações de ordem de produção na página **Notificações de engenharia**, você pode seguir links para ordens de alteração relacionadas ou ordens de produção selecionando valores de coluna ou usando os comandos relacionados no Painel de Ações. Depois de concluir a avaliação de uma alteração e depois de ter cancelado ou modificado as ordens de produção, conforme necessário, você poderá marcar uma notificação como resolvida. Selecione a notificação e, no Painel de Ações, selecione **Resolver**. A notificação é removida das exibições de todos os usuários.
 
 ### <a name="create-a-change-order-from-a-change-request"></a>Criar uma ordem de alteração de uma solicitação de alteração
 

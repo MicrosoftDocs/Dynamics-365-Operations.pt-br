@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 98fc102b308afb90d4665ecd80650f66d531da0b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826705"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085441"
 ---
 # <a name="import-format-for-consolidation"></a>Importar formato para consolidação
 
@@ -36,7 +36,7 @@ A tabela a seguir lista o formato de importação que você deve usar ao fazer u
 | 2            | 110130, 01/01/2015, 1, USD, 0,0,80699.39,0,1 | <ul><li>A ID da conta principal</li><li>A data da transação</li><li>O tipo de período fiscal (**0** = abertura, **1** = operacional e **2** = fechamento)</li><li>A moeda da transação</li><li>Débito ou crédito (**0** = débito e **1** = crédito)</li><li>O nível de lançamento</li><li>Valores da transação</li><li>Quantidade</li><li>A RecID local (ambíguo, valor Int64 único para a transação)</li></ul> |
 | 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>O número da entrada (número da transação do cabeçalho de orçamento)</li><li>A data padrão do cabeçalho de orçamento</li><li>A ID do modelo de orçamento</li><li>O valor inteiro de enumeração para o tipo de transação (espaço em branco, orçamento original etc.)</li><li>A data da linha</li><li>A ID da conta principal da linha</li><li>O código de moeda da linha</li><li>O valor da linha na moeda da transação</li><li>O valor inteiro da enumeração para o tipo de orçamento da linha (despesa ou receita)</li></ul> |
 | 4            | DEMF | RecordCompany é a entidade legal de origem. |
-| 5            | 110130, 01/01/2015, 1, USD, 0,0,80699.39,0,1 | RecordCompany é a entidade legal de origem. |
+| 5            | 110130, 01/01/2015, 1, USD, 0,0,80699.39,0,1 | <ul><li>ID da conta principal</li><li>Data da transação</li><li>Tipo de período fiscal (0 - Abertura, 1 - Operacional e 2 - Fechamento)</li><li>Moeda da transação</li><li>Débito ou crédito (0 para Débito e 1 para Crédito)</li><li>Nível de lançamento</li><li>Valor da transação</li><li>Quantidade</li><li>Um recid local (ambíguo, valor Int64 único para a transação)</li></ul>  |
 | 6            | BusinessUnit, 1 departamento, 2 | Os atributos de dimensão financeira que são definidos na ordem de segmento.<p>Você pode usar a página **Exportar** para verificar como os atributos são definidos.</p> |
 | 7            | 002,1,658 | <ul><li>O valor de dimensão financeira</li><li>A dimensão financeira, como o índice que é fornecido em RecordDimensions</li><li>Uma ID de registro única e ambígua associada à ID de registro única de RecordTrans ou RecordTrans2</li></ul> |
 | 8            | 002,1,1 | <ul><li>Valores de dimensão que são associados à transação de RecordBudget</li><li>A dimensão financeira, como o índice que é fornecido em RecordDimensions</li><li>Uma ID de registro de linha ambígua que é alinhada com a ordem das linhas de transação no arquivo</li></ul> |

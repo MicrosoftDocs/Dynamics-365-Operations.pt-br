@@ -2,13 +2,12 @@
 title: Configurar regras e opções de qualificação
 description: Configure regras e opções de qualificação no gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 05/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: BenefitWorkspace, HcmBenefitSummaryPart
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1c5ad568d2e1dd14acdfb3848cace035abfc0507
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
+ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791499"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6093911"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação
 
@@ -39,9 +38,9 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
 
 2. Na guia **Regras de qualificação**, selecione **Novo** para criar uma regra de qualificação. Para ver os planos associados a uma regra de qualificação, selecione **Planos anexados**.
 
-3. Especifique valores para os seguintes campos:
+3. Especifique valores para os seguintes campos.
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- |
    | **Regra de qualificação** | Um identificador exclusivo para a regra de qualificação. |
    | **Descrição** | Uma descrição da regra de qualificação. |
@@ -57,9 +56,9 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
    | **Período de inscrição** | O período em que a nova inscrição de contratação é permitida. Se você também defini-lo em parâmetros, a configuração de parâmetros terá prioridade sobre ele. |
    | **Usar status de emprego anterior** | Especifica se deve usar um status de emprego anterior do funcionário como parte da regra de qualificação do benefício. Por exemplo, você pode especificar uma regra de qualificação que renuncia a um período de espera de cobertura para todos os funcionários que fizeram a transição de um status **Demitido** para um **Empregado** em 90 dias de seu emprego anterior. |
 
-4. Em **Critérios adicionais**, selecione as seguintes opções e adicione as informações conforme necessário:
+4. Em **Critérios adicionais**, selecione as seguintes opções e adicione as informações, conforme necessário.
 
-   | Opção | Descrição |
+   | Opção | descrição |
    | --- | --- |
    | **Idade qualificada** | Especifica a faixa etária ou faixas necessárias para satisfazer a regra de qualificação. |
    | **Departamento qualificado** | Especifica o departamento ou departamentos em que um funcionário deve estar para satisfazer a regra de qualificação. |
@@ -76,9 +75,9 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
    | **Sindicato qualificado** | Especifica as associações sindicais que satisfazem a regra de qualificação. Por exemplo, Forklift Drivers of America. </br></br>Ao usar uma regra de qualificação baseada em sindicato, o registro sindical do trabalhador deve ter a data de término preenchida. Você não pode deixar em branco. |
    | **CEP qualificado/código postal** | Especifica os CEPs/códigos postais que satisfazem a regra de qualificação. Por exemplo, 58104. |
 
-5. Em **Detalhes adicionais**, é possível ver os seguintes detalhes adicionais:
+5. Em **Detalhes adicionais**, é possível ver os seguintes detalhes adicionais.
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- |
    | **Campo de usuário qualificado** | Especifica regras de qualificação adicionais com base nos campos definidos pelo cliente. |
    | **Tipo de qualificação** | Especifica a categoria de critério que você selecionou em **Critérios adicionais**. |
@@ -87,6 +86,72 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
 
 6. Selecione **Salvar**.
 
+## <a name="using-custom-fields-in-eligibility-rules"></a>Usando campos personalizados nas regras de qualificação
+
+[Campos personalizados](hr-developer-custom-fields.md) podem ser criados em Recursos Humanos para rastrear informações adicionais. Esses campos podem ser adicionados diretamente à interface do usuário, e uma coluna é dinamicamente adicionada à tabela base.  
+
+Os campos personalizados podem ser usados no processo de qualificação. As regras de qualificação podem usar um ou mais valores de campos personalizados para determinar a qualificação de um funcionário.  Para adicionar um campo personalizado a uma regra existente ou para criar uma nova regra, vá para **Gerenciamento de benefícios > Links > Configuração > Regras de qualificação > Qualificação de campo personalizado**. Nesta página, você pode criar uma regra que usa um ou vários campos personalizados, além de poder definir vários valores para cada campo personalizado, a fim de determinar a qualificação.
+
+As tabelas a seguir dão suporte a campos personalizados que podem ser usados no processamento de qualificação:
+
+- Trabalhador (HcmWorker)  
+- Trabalho (HcmJob)  
+- Posição (HcmPosition)  
+- Detalhes da Posição (HcmPositionDetail)  
+- Atribuição do Trabalhador da Posição  
+- Emprego (HcmEmployment)  
+- EmploymentDetails (HcmEmploymentDetails)  
+- Detalhes do Trabalho (HcmJobDetails)  
+
+Os tipos de campo personalizados a seguir são suportados no processamento de qualificação:
+
+- Texto  
+- Lista de separação  
+- Número  
+- Decimal  
+- Caixa de seleção  
+
+A tabela a seguir mostra informações do campo de formulário de qualificação para campo personalizado.
+
+| Campo  | descrição |
+|--------|-------------|
+| Organização | Nome dos critérios que estão sendo criados. |
+| Nome da tabela | O nome da tabela que contém o campo personalizado que está sendo usado para a regra de qualificação. |
+| Nome do campo | O campo que será usado para a regra de qualificação. |
+| Tipo de operador | Exibe o operador usado na configuração de qualificação para o campo personalizado. |
+| Alíquota | Exibe o valor usado na configuração de qualificação para o campo personalizado. |
+
+## <a name="eligibility-logic"></a>Lógica de qualificação
+
+As seções a seguir descrevem como a qualificação de benefícios é processada.
+
+### <a name="rules-assigned-to-a-plan"></a>Regras atribuídas a um plano 
+Quando várias regras de qualificação são atribuídas a um plano de benefícios, um funcionário deve atender a pelo menos uma regra para ser qualificado para inscrição no plano de benefícios.  No exemplo a seguir, o funcionário deve atender aos requisitos da regra de **Tipo de trabalho** ou da regra **Funcionários ativos**.
+
+![O funcionário deve atender aos requisitos da regra de Tipo de trabalho ou da regra Funcionários ativos.](media/RulesAssignedToAPlan.png)
+ 
+### <a name="criteria-within-an-eligibility-rule"></a>Critérios em uma regra de qualificação 
+Em uma regra, você define os critérios que formam a regra. No exemplo acima, os critérios para a regra **Tipo de trabalho** é onde Tipo de trabalho = Diretores. Portanto, o funcionário deve ser um diretor elegível. Esta é uma regra na qual há apenas um critério na regra.
+
+Você pode definir regras que têm vários critérios. Quando você define vários critérios em uma regra de qualificação, um funcionário deve atender a todos os critérios dentro da regra para ser elegível ao plano de benefícios. 
+
+Por exemplo, a regra **Funcionários ativos** acima é composta pelos critérios a seguir. Para que o funcionário seja elegível com base na regra de **Funcionários ativos**, o funcionário deve ser empregado em USMF da entidade legal *e* ter um tipo de posição de tempo integral.  
+
+![Critérios em uma regra de qualificação](media/CriteriaWithinAnEligibilityRule.png) 
+ 
+### <a name="multiple-conditions-within-criteria"></a>Várias condições nos critérios
+
+As regras podem ser expandidas para usar várias condições em um único critério. O funcionário deve atender a pelo menos uma condição para ser elegível. Para criar no exemplo acima, a regra **Funcionários ativos** pode ser expandida para incluir funcionários que também são funcionários de meio expediente. Como resultado, agora o funcionário deve ser um funcionário em USMF *e* um funcionário de tempo integral ou de meio período.  
+
+![Várias condições nos critérios](media/MultipleConditionsWithinCriteria.png) 
+ 
+### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Condições de qualificação em um critério de campo personalizado 
+Semelhante à acima, os campos personalizados podem ser usados ao criar regras de qualificação e trabalhar da mesma maneira. Por exemplo, você pode querer oferecer reembolso da Internet aos funcionários da Fargo e Copenhague que estão trabalhando em casa, pois os custos da Internet estão mais altos nesses locais. Para isso, crie dois campos personalizados: **Local do escritório** (lista de opções) e **Trabalho em casa** (caixa de seleção). Em seguida, crie uma regra chamada **Funcionários da WFH**. O critério para a regra é onde **Local do Escritório = Fargo** ou **Copenhague** *e*  onde **Trabalhar em casa = Sim**.
+
+As regras de qualificação personalizadas precisam ser configuradas, conforme indicado na imagem a seguir. 
+
+![Condições de qualificação em um critério de campo personalizado](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+ 
 ## <a name="configure-bundles"></a>Configurar pacotes
 
 Pacotes são um conjunto de planos de benefícios relacionados. Você pode usar pacotes de benefícios para agrupar planos de benefícios que um funcionário deve escolher para se inscrever em determinados planos de benefícios que podem depender de outras inscrições no plano de benefícios. Exemplos de quando você pode querer usar um pacote incluem:
@@ -99,9 +164,9 @@ Pacotes são um conjunto de planos de benefícios relacionados. Você pode usar 
 
 2. Na guia **Pacotes**, selecione **Novo** para criar um pacote. Para ver os planos associados a um pacote, selecione **Planos anexados**.
 
-3. Especifique valores para os seguintes campos:
+3. Especifique valores para os seguintes campos.
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- |
    | **Pacote** | Um identificador exclusivo para o pacote. |
    | **Descrição** | Uma descrição do pacote. |
@@ -119,9 +184,9 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
 
 2. Na guia **Períodos**, selecione **Novo** para criar um período. Para executar um processo que anexa todos os planos de benefícios ativos válidos para o período do benefício, selecione **Anexar planos**. Para ver os planos associados a um pacote, selecione **Planos anexados**. 
 
-3. Especifique valores para os seguintes campos:
+3. Especifique valores para os seguintes campos.
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- |
    | **Período** | Um identificador exclusivo do período. |
    | **Válido a partir da data e hora** | A data e hora de início em que o período de benefícios está ativo. |
@@ -141,9 +206,9 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
 
 2. Na guia **Períodos**, selecione **Programas de crédito flexível**.
 
-3. Selecione um programa de crédito flexível para aplicar. Os campos contêm as seguintes informações:
+3. Selecione um programa de crédito flexível para aplicar. Os campos contêm as seguintes informações.
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- |
    | ID do crédito do benefício | O identificador exclusivo do programa de crédito flexível. |
    | Descrição | Uma descrição do programa de crédito flexível. | 
@@ -157,15 +222,15 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
 
 ## <a name="configure-programs"></a>Configurar programas
 
-Os programas são um conjunto de planos de benefícios que compartilham um conjunto comum de regras de qualificação. Você pode definir regras de qualificação para todo o programa em vez de para cada plano individual. Por exemplo, um programa FTE da Contoso Canadá ou programa executivo da Contoso Europa. 
+Os programas são um conjunto de planos de benefícios que compartilham um conjunto comum de regras de qualificação. Você pode definir regras de qualificação para todo o programa em vez de para cada plano individual. Por exemplo, um programa FTE da Contoso Canadá ou um programa de nível executivo da Contoso da Europa. 
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Configuração**, selecione **Regras e opções de qualificação**.
 
 2. Na guia **Programas**, selecione **Novo** para criar um programa. Para abrir exceções para funcionários que não atendem aos requisitos da regra de qualificação, selecione **Substituição da regra de qualificação**. Para ver os planos associados a um programa, selecione **Planos anexados**.
 
-3. Especifique valores para os seguintes campos:
+3. Especifique valores para os seguintes campos.
 
-   | Campo | Descrição |
+   | Campo | descrição |
    | --- | --- |
    | **Programa** | Um identificador exclusivo para o programa. |
    | **Descrição** | Uma descrição do programa. | 

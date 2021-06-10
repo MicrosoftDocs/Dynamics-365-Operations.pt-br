@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 95472a00d34ba939ac89b4e2484f34d50bee3088
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018303"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112664"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Atualizar para o modelo de catálogo de endereços global e de participantes
 
@@ -22,28 +22,29 @@ ms.locfileid: "6018303"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-O [modelo do Azure Data Factory](https://aka.ms/dual-write-gab-adf) ajuda você a atualizar os dados existentes das tabelas **Conta**, **Contato** e **Fornecedor** em uma gravação dupla para o modelo de catálogo de endereços global e do participante. O modelo reconcilia os dados dos aplicativos do Finance and Operations e dos aplicativos de participação do cliente. No final do processo, os campos **Participante** e **Contato** para os registros de **Participante** serão criados e associados aos registros de **Conta**, **Contato** e **Fornecedor** nos aplicativos do participação do cliente. Um arquivo .csv (`FONewParty.csv`) é gerado para criar novos registros de **Participante** no aplicativo Finance and Operations. Este tópico fornece as instruções para usar o modelo do Data Factory e atualizar seus dados.
+O [modelo do Microsoft Azure Data Factory](https://aka.ms/dual-write-gab-adf) ajuda você a atualizar os dados existentes das tabelas **Conta**, **Contato** e **Fornecedor** em uma gravação dupla para o modelo de catálogo de endereços global e do participante. O modelo reconcilia os dados de aplicativos do Finance and Operations e aplicativos do Customer Engagement. No final do processo, os campos **Participante** e **Contato** para os registros de **Participante** serão criados e associados aos registros de **Conta**, **Contato** e **Fornecedor** nos aplicativos do participação do cliente. Um arquivo .csv (`FONewParty.csv`) é gerado para criar novos registros de **Participante** no aplicativo do Finance and Operations. Este tópico fornece instruções sobre como usar o modelo do Data Factory e atualizar seus dados.
 
 Se não tiver nenhuma personalização, você poderá usar o modelo no estado em que se encontra. Se tiver personalizações para **Conta**, **Contato** e **Fornecedor**, você deverá modificar o modelo usando as instruções a seguir.
 
-> [!Note]
-> O modelo ajuda a atualizar somente os dados do **Participante**. Em uma versão futura, os endereços postais e eletrônicos serão incluídos.
+> [!NOTE]
+> O modelo atualiza somente os dados do **Participante**. Em uma versão futura, os endereços postais e eletrônicos serão incluídos.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Estes pré-requisitos são obrigatórios:
+Os seguintes pré-requisitos são necessários para atualizar para o modelo de catálogo de endereços global e de terceiros:
 
 + [Assinatura do Azure](https://portal.azure.com/)
 + [Acesso ao modelo](https://aka.ms/dual-write-gab-adf)
-+ Você ser um cliente de gravação dupla existente.
++ Você deve ser um cliente de gravação dupla existente.
 
 ## <a name="prepare-for-the-upgrade"></a>Preparar-se para o upgrade
+As seguintes atividades são necessárias para se preparar para a atualização:
 
 + **Totalmente sincronizado**: ambos os ambientes estão em um estado totalmente sincronizado para **Conta (Cliente)**, **Contato** e **Fornecedor**.
 + **Chaves de integração**: as tabelas **Conta (Cliente)**, **Contato** e **Fornecedor** nos aplicativos de participação do cliente estão usando as chaves de integração prontas para uso que são enviadas. Se personalizou as chaves de integração, você deve personalizar o modelo.
 + **Número do participante**: todos os registros de **Conta (Cliente)**, **Contato** e **Fornecedor** que serão atualizados têm um número de **Participante**. Registros sem um número de **Participante** serão ignorados. Se desejar fazer upgrade desses registros, adicione um número de **Participante** a eles antes de iniciar o processo de upgrade.
-+ **Interrupção do sistema**: durante o processo de upgrade, você terá de manter os ambientes do Finance and Operations e de participação do cliente offline.
-+ **Instantâneo**: tire instantâneos dos aplicativos Finance and Operations e de participação do cliente. Use os instantâneos para restaurar o estado anterior, se necessário.
++ **Interrupção do sistema**: durante o processo de upgrade, você terá de manter os ambientes do Finance and Operations e Customer Engagement offline.
++ **Instantâneo**: tire instantâneos dos aplicativos do Finance and Operations e Customer Engagement. Use os instantâneos para restaurar o estado anterior, se necessário.
 
 ## <a name="deployment"></a>Implantação
 
@@ -78,9 +79,13 @@ Estes pré-requisitos são obrigatórios:
     Service_properties_type Properties_tenant vinculado ao FO | Especifique as informações do locatário (nome do domínio ou ID do locatário) em que seu aplicativo reside.
     Service_properties_type Properties_aad Resource Id vinculado ao FO | `https://sampledynamics.sandboxoperationsdynamics.com`
     ID Principal do Service_properties_type Properties_service vinculada ao FO | Especifique a ID do cliente do aplicativo.
-    Service_properties_type Properties_username vinculado ao Dynamics CRM | O nome de usuário para conectar-se ao Dynamics.
+    Service_properties_type Properties_username vinculado ao Dynamics CRM | O nome de usuário para conectar-se ao Dynamics 365.
 
-    Para obter mais informações, consulte [Promover manualmente um modelo do Resource Manager para cada ambiente](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment), [Propriedades do serviço vinculado](/azure/data-factory/connector-dynamics-ax#linked-service-properties) e [Copiar dados usando o Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
+    Para obter mais informações, confira os tópicos a seguir: 
+    
+    - [Promover manualmente um modelo do Resource Manager para cada ambiente](/azure/data-factory/continuous-integration-deployment#manually-promote-a-resource-manager-template-for-each-environment)
+    - [Propriedades de serviço vinculadas](/azure/data-factory/connector-dynamics-ax#linked-service-properties)
+    - [Copiar dados usando o Azure Data Factory](/azure/data-factory/connector-dynamics-crm-office-365#dynamics-365-and-dynamics-crm-online)
 
 10. Após a implantação, valide os conjuntos de dados, de fluxo de dados e o serviço vinculado da data factory.
 
@@ -102,7 +107,7 @@ Estes pré-requisitos são obrigatórios:
 
 ## <a name="run-the-template"></a>Executar o modelo
 
-1. Interrompa a seguinte gravação dupla de **Conta**, **Contato** e **Fornecedor** usando o aplicativo do Finance and Operations.
+1. Interrompa os mapas de gravação dupla de **Conta**, **Contato** e **Fornecedor** usando o aplicativo do Finance and Operations.
 
     + Clientes V3 (contas)
     + Clientes V3 (contatos)
@@ -114,7 +119,7 @@ Estes pré-requisitos são obrigatórios:
 
 3. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab) pelo AppSource.
 
-4. No aplicativo Finance and Operations, se as tabelas a seguir contiverem dados, execute a **Sincronização Inicial** para elas.
+4. No aplicativo do Finance and Operations, se as tabelas a seguir contiverem dados, execute a **Sincronização Inicial** para elas.
 
     + Saudações
     + Tipos de caracteres pessoais
@@ -125,7 +130,7 @@ Estes pré-requisitos são obrigatórios:
 
 5. No aplicativo de participação do cliente, desabilite as seguintes etapas do plug-in.
 
-    + Atualização da conta
+    + Atualização de Conta
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: atualização da conta
          + Microsoft.Dynamics.FinanceExtended.Plugins.TriggerNotesForCustomerTypeCodes: atualização da conta
     + Atualização do contato
@@ -152,18 +157,18 @@ Estes pré-requisitos são obrigatórios:
     ![Disparar execução](media/data-factory-trigger.png)
 
     > [!NOTE]
-    > Se tiver personalizações para **Conta**, **Contato** e **Fornecedor**, você deverá modificar o modelo.
+    > Se tiver personalizações para **Conta**, **Contato** e **Fornecedor**, você precisará modificar o modelo.
 
 8. Importe os novos registros de **Participante** no aplicativo Finance and Operations.
 
     + Baixe o arquivo `FONewParty.csv` do Armazenamento de Blobs do Azure. O caminho é `partybootstrapping/output/FONewParty.csv`.
-    + Converta o arquivo `FONewParty.csv` em um arquivo do Excel e importe-o para o aplicativo Finance and Operations.  Se a importação de CSV funcionar para você, você poderá importar o arquivo CSV diretamente. A importação pode levar algumas horas para ser executada, dependendo do volume de dados. Para obter mais informações, consulte [Visão geral de trabalhos de importação e exportação de dados](../data-import-export-job.md).
+    + Converta o arquivo `FONewParty.csv` em um arquivo do Excel e importe-o para o aplicativo do Finance and Operations. Se a importação de CSV funcionar para você, você poderá importar o arquivo CSV diretamente. A importação pode levar algumas horas para ser executada, dependendo do volume de dados. Para obter mais informações, consulte [Visão geral de trabalhos de importação e exportação de dados](../data-import-export-job.md).
 
     ![Importar os registros de participante do Dataverse](media/data-factory-import-party.png)
 
 9. Nos aplicativos de participação do cliente, habilite as seguintes etapas do plug-in:
 
-    + Atualização da conta
+    + Atualização de Conta
          + Microsoft.Dynamics.GABExtended.Plugins.UpdatePartyAttributesFromAccountEntity: atualização da conta
          + Microsoft.Dynamics.FinanceExtended.Plugins.TriggerNotesForCustomerTypeCodes: atualização da conta
     + Atualização do contato
@@ -198,4 +203,4 @@ Estes pré-requisitos são obrigatórios:
 
 ## <a name="learn-more-about-the-template"></a>Saiba mais sobre o modelo
 
-Você pode encontrar comentários sobre o modelo no arquivo [readme.md](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).
+Você pode encontrar informações adicionais sobre o modelo em [Comentários para o leiame do modelo do Azure Data Factory](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/blob/master/Dual-write/Upgrade%20data%20to%20dual-write%20Party-GAB%20schema/readme.md).

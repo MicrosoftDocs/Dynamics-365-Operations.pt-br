@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d6e5725255c43b808d656a46cbcdeca4d200b768
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 3509763c03ecc0e847c72828d14b172401df75b0
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920148"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115136"
 ---
 # <a name="engineering-versions-and-engineering-product-categories"></a>Versões de engenharia e categorias de produtos de engenharia
 
@@ -48,7 +48,8 @@ Ao usar produtos de engenharia, cada produto tem pelo menos uma versão de engen
 - A empresa de engenharia que criou e possui o produto (Para obter mais informações sobre empresas de engenharia e empresas operacionais, consulte [Empresas de engenharia e regras de propriedade de dados](engineering-org-data-ownership-rules.md).)
 - Documentos de engenharia relacionados, como um manual de montagem, instruções do usuário, imagens e links
 - Os atributos de engenharia (Para obter mais informações, consulte [Atributos de engenharia e pesquisa de atributos de engenharia](engineering-attributes-and-search.md).)
-- As BOMs de engenharia
+- Lista de materiais (BOM) para produtos de engenharia
+- Fórmulas para produtos de manufatura de processo
 - Os roteiros de engenharia
 
 Você pode atualizar esses dados em uma versão existente ou criar uma nova versão, usando uma *ordem de alteração de engenharia*. (Para obter mais informações, consulte [Gerencie alterações em produtos de engenharia](engineering-change-management.md).) Se você criar uma nova versão de um produto, o sistema copiará todos os dados relevantes da engenharia para essa nova versão. Você pode modificar os dados dessa nova versão. Dessa forma, você pode rastrear dados específicos de cada versão consecutiva. Para comparar as diferenças entre versões de engenharia consecutivas, inspecione a ordem de alteração da engenharia, que inclui tipos de alteração que indicam todas as alterações.
@@ -110,6 +111,8 @@ Defina os campos a seguir na FastTab **Detalhes** de uma categoria de produto de
 | Campo | Descrição |
 |---|---|
 | Tipo de Produto | Selecione se a categoria se aplica a produtos ou serviços. |
+| Tipo de produção | Este campo é exibido somente quando você habilita [gerenciamento de alterações de fórmula](manage-formula-changes.md) em seu sistema. Selecione o tipo de produção ao qual esta categoria de produto de engenharia se aplica:<ul><li>**Item de planejamento** – Use esta categoria de engenharia para fazer alterações no gerenciamento de itens de planejamento. Os itens de planejamento usam fórmulas. Eles se parecem com itens de fórmula, mas são usados para produzir apenas coprodutos e subprodutos, não produtos acabados. As fórmulas são usadas durante a fabricação de processo.</li><li>**BOM** – Use esta categoria de engenharia para gerenciar produtos de engenharia, que não usam fórmulas e geralmente (mas não necessariamente) incluem BOMs.</li><li>**Fórmula** – Use esta categoria de engenharia para fazer o gerenciamento de alterações de fórmula para produtos acabados. Esses itens terão uma fórmula, mas não uma BOM. As fórmulas são usadas durante a fabricação de processo.</li></ul> |
+| Peso variável | Esta opção é exibida somente quando você habilita [gerenciamento de alterações de fórmula](manage-formula-changes.md) em seu sistema. Só estará disponível quando o campo **Tipo de produção** estiver definido como *Item de planejamento* ou *Fórmula*. Defina esta opção como *Sim* se você usar esta categoria de engenharia para gerenciar itens que requerem suporte a produtos de peso variável. |
 | Rastrear versões em transações | Selecione se a versão do produto deve ser carimbada em todas as transações (impacto logístico). Por exemplo, se você rastrear a versão em transações, cada ordem de venda mostrará qual versão específica do produto foi vendida nessa ordem de venda. Se você não rastrear a versão em transações, as ordens de venda não mostrarão qual versão específica foi vendida. Em vez disso, elas sempre mostram a versão mais recente.<ul><li>Se esta opção estiver definida como *Sim*, um produto mestre será criado para o produto e cada versão do produto será uma variante que usa a dimensão de produto da *versão*. O campo **Subtipo de produto** é automaticamente definido como *Produto mestre*. No campo **Grupo de dimensões do produto**, você deve selecionar um grupo de dimensões do produto em que a dimensão de *versão* está ativa. Somente os grupos de dimensões do produto em que a *versão* for uma dimensão ativa serão mostrados. Você pode criar novos grupos de dimensões do produto, selecionando o botão **Editar** (símbolo de lápis).</li><li>Se esta opção estiver definida como *Não*, a dimensão do produto da *versão* não será usada. Você poderá selecionar se deseja criar um produto ou um produto mestre que use as outras dimensões.</li></ul><p>Esta opção geralmente é usada para produtos que têm uma diferença de custo entre versões ou produtos em que diferentes condições se aplicam ao cliente. Portanto, é importante indicar a versão que foi usada em cada transação.</p> |
 | Subtipo do produto | Selecione se a categoria conterá produtos ou produtos mestres. No caso de produtos mestres, serão usadas as dimensões do produto.
 | Grupo de dimensões do produto | A configuração **Rastrear versões em transações** ajuda a selecionar o grupo de dimensões do produto. Se você tiver especificado que deseja rastrear a versão em transações, serão mostrados os grupos de dimensões do produto em que a dimensão *versão* será usada. Caso contrário, só serão mostrados grupos de dimensões do produto em que a dimensão *versão* não é usada. |
@@ -139,7 +142,10 @@ Para cada linha adicionada à grade, defina os campos a seguir.
 
 ### <a name="readiness-policy-fasttab"></a>FastTab de política de preparo
 
-Use o campo **Política de preparo de produtos** para selecionar a política de preparo que se aplica a produtos que pertencem a essa categoria. Para obter mais informações, consulte [Preparo do produto](product-readiness.md).
+Use o campo **Política de preparo de produtos** para selecionar a política de preparo que deve ser aplicada a produtos que são criados com base neste categoria de engenharia. Para obter mais informações, consulte [Preparo do produto](product-readiness.md).
+
+> [!NOTE]
+> O campo **Política de preparação do produto** funcionará um pouco diferente se você tiver ativado o recurso *Verificações de preparação do produto* no sistema. (Esse recurso permite aplicar políticas de preparação a produtos \[não de engenharia\]) padrão. Para obter mais informações, consulte [Atribuir políticas de preparação para produtos padrão e de engenharia](product-readiness.md#assign-policy).
 
 ### <a name="release-policy-fasttab"></a>FastTab Política de liberação
 

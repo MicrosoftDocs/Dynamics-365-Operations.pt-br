@@ -2,13 +2,12 @@
 title: Gerenciar solicitações de licença no Teams
 description: Este tópico mostra como solicitar licenças no aplicativo do Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
-ms.date: 02/23/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: anbichse
 ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
@@ -16,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2ea495259ba29f302753991e260d5a8fa990322b
-ms.sourcegitcommit: e3f11fc9a9dae416a490437678bb482a0094f9a9
+ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5953403"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097250"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
@@ -33,21 +32,13 @@ O aplicativo Dynamics 365 Human Resources no Microsoft Teams permite solicitar f
 
 Você pode encontrar o aplicativo Dynamics 365 Human Resources na loja do Teams.
 
-1. No Microsoft Teams, selecione as reticências.
-
-   ![Reticências do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-ellipses.png)
+1. No Microsoft Teams, navegue até a lista de aplicativos.
  
 2. Procure Dynamics 365 Human Resources, e selecione o título **Human Resources**.
 
-   ![Título do HR do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-human-resources-tile.png)
-
 3. Selecione o botão **Adicionar** para instalar o aplicativo.
 
-   ![Instalar o aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-in-store.png)
-
 Se o aplicativo não fizer logon automaticamente, selecione a guia **Configurações** para entrar.
-
-![Guia Configurações do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-settings-tab.png)
 
 > [!NOTE]
 > Caso você não veja uma caixa de diálogo de entrada, verifique as configurações do navegador para permitir janelas pop-up. 
@@ -61,20 +52,24 @@ Se você tiver acesso a mais de uma instância do Human Resources, poderá selec
 
 Depois de instalar o aplicativo, será exibida uma mensagem de boas-vindas, informando os tipos de ações que o bot pode assumir em seu nome.
 
-![Mensagem de boas-vindas do bot do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-bot.png)
- 
 > [!NOTE]
 > Talvez você precise entrar na primeira interação com o bot. Caso você não veja uma caixa de diálogo de entrada, verifique as configurações do navegador para permitir janelas pop-up.
 
 Você pode pedir para o bot:
 
-- Iniciar uma solicitação de licença para você.
+- Exiba os saldos de licenças atuais. Por exemplo, envie uma mensagem que diga, "Exibir os saldos da licença".
+
+- Iniciar uma solicitação de licença para você. Por exemplo, envie uma mensagem informando que "Tirar folga" ou "Eu quero tirar férias na próxima quinta e sexta-feira" para ser mais específico para solicitar licença para o tipo de licença de férias. 
 
   ![Iniciar uma solicitação de licença no chat do Teams](./media/hr-teams-leave-app-initiate.png)
 
 - O bot do chat preencherá uma solicitação de licença. Selecione **Solicitar folga** e edite os detalhes para sua solicitação.
 
-  ![Editar detalhes da solicitação de licença](./media/hr-teams-leave-app-details.png)
+   Se você deseja enviar solicitações de licença para vários tipos de licença para a mesma data, selecione a opção **Dividir dia com** no menu **Mais opções**. 
+
+   Se você selecionar uma licença de meio-dia quando a unidade de pedido de licença for em dias, você pode especificar se deseja solicitar uma folga na primeira metade do dia ou na segunda metade do dia selecionando a opção **Definição de meio dia** do menu **Mais opções**.
+   
+   ![Definições de meio dia](./media/HalfDayDefinitions.png)
 
 - Ao terminar de editar detalhes da solicitação de licença, selecione **Enviar** para enviá-la para aprovação.
 
@@ -91,42 +86,36 @@ A guia **Folga** permite exibir:
 - Solicitações de folga
 
 - Rascunho de solicitações de licença
-
-![Guia Folga do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
  
 ### <a name="create-a-new-request"></a>Criar uma solicitação
 
 1. Para criar uma solicitação de licença, selecione **Nova solicitação**.
 
-   ![Nova solicitação no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab-new.png)
-
 2. Insira os dias que você deseja solicitar folga e depois selecione **Adicionar**.
 
-   ![Adicionar folga no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab-add.png)
+   ![Adicionar folga no aplicativo de licença do Human Resources Teams](./media/TimeOffHours.png)
 
 3. Se aplicável, insira um código de motivo. Insira também comentários e adicione anexos.
 
-4. Após inserir as informações, digite **Enviar** para enviá-la para aprovação. Você também pode digitar **Salvar como rascunho** para continuar depois.
+4. Selecione a opção **Dividir dia com** do menu **Mais opções** se quiser enviar várias entradas de solicitação de licença para a mesma data para diferentes tipos de licença.
+
+5. Selecione a opção **Definição de meio dia** para especificar se deseja solicitar a primeira metade do dia ou a segunda metade do dia. Esta opção está disponível quando a unidade de solicitação de licença é em dias e o valor solicitado é de 0,5 dias.
+
+6. Após inserir as informações, digite **Enviar** para enviá-las para aprovação. Você também pode digitar **Salvar como rascunho** para continuar depois.
 
 ### <a name="manage-draft-requests"></a>Gerenciar solicitações em rascunho
 
 1. Selecione a guia **Rascunhos**.
 
-   ![Guia Rascunhos do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-drafts-tab.png)
-
 2. Selecione o lápis para editar a solicitação, ou selecione a lixeira para excluí-la.
 
 3. Faça todas as alterações necessárias. Após inserir as informações, digite **Enviar** para enviá-la para aprovação. Você também pode selecionar **Salvar como rascunho** para continuar depois.
-
-   ![Editar rascunho no aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-drafts-edit.png)
    
 ### <a name="respond-to-teams-notifications"></a>Responder a notificações do Teams
 
 Quando você ou um trabalhador para o qual você é um aprovador enviar uma solicitação de licença, você receberá uma notificação no aplicativo Human Resources no Teams. Você pode selecionar a notificação para exibi-la. As notificações também aparecem na área **Chat** .
 
 Se você for aprovador, poderá selecionar **Aprovar** ou **Negar** na notificação. Você também pode fornecer uma mensagem opcional.
-
-![Deixar uma notificação de solicitação no aplicativo Human Resources no Teams](./media/hr-teams-leave-app-notification.png)
 
 ## <a name="send-upcoming-time-off-information-to-your-coworkers"></a>Enviar informações sobre as próximas folgas para seus colegas de trabalho
 
@@ -138,15 +127,9 @@ Depois de instalar o aplicativo Human Resources para o Teams, você pode enviar 
 
 2. Selecione a solicitação de licença que deseja compartilhar. Se você deseja compartilhar um rascunho de solicitação de licença, selecione **Rascunhos** primeiro.
 
-   ![Selecionar uma próxima solicitação de licença para compartilhar](./media/hr-teams-leave-app-chat-search.png)
-
 Sua solicitação de licença será exibida no chat.
 
-![Cartão de solicitação de licença do Human Resources](./media/hr-teams-leave-app-chat-card.png)
-
-Se você compartilhou uma solicitação de rascunho, ela será exibida como rascunho:
-
-![Rascunho do cartão de solicitação de licença do Human Resources](./media/hr-teams-leave-app-chat-draft-card.png)
+Se você compartilhou uma solicitação de rascunho, ela será exibida como rascunho.
 
 ## <a name="view-your-teams-leave-calendar"></a>Exibir o calendário de licença da equipe
 
@@ -155,8 +138,6 @@ Se você for um gerente com subordinados diretos, poderá exibir folgas aprovada
 1. No aplicativo Human Resources no Teams, selecione **Folga** .
 
 2. Selecione **Calendário da equipe** . O calendário exibe as folgas aprovadas e pendentes dos subordinados diretos.
-
-   ![Exibir calendário no aplicativo Human Resources do Teams](./media/hr-teams-leave-app-view-calendar.png)
 
    > [!NOTE]
    > Se você não conseguir ver o calendário da equipe, peça ao administrador para habilitá-lo. Para obter mais informações, consulte [Instalar e configurar](hr-admin-teams-leave-app.md#install-and-setup).

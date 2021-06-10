@@ -2,7 +2,7 @@
 title: Compatível com cookies
 description: Este tópico descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 04/16/2021
+ms.date: 05/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: efc84bcea2fb6c28c0b13d4469e858e82cc1c073
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
+ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908175"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "6088378"
 ---
 # <a name="cookie-compliance"></a>Compatível com cookies
 
@@ -52,8 +52,7 @@ A tabela a seguir mostra a lista de referência atual de cookies colocados por s
 | x-ms-cpim-trans                             | Usado para rastrear transações (o número de guias abertas na autenticação de um site business-to-consumer (B2C)), incluindo a transação atual. |
 | \_msdyn365___muid_                            | Usado se a Experimentação estiver ativada para o ambiente, utilizado como userId para fins de experimentação. |
 | \_msdyn365___exp_                             | Usado se a Experimentação estiver ativada para o ambiente; usado para medir o balanceamento de carga de desempenho.         |
-
-
+| d365mkt                                       | Usado se a detecção baseada em local para rastrear o endereço IP de um usuário para sugestões de localização de armazenamento estiver habilitada no construtor de sites comerciais em **Configurações do Site > Geral > Habilitar detecção de lojas com base na localização**.      |
 
 Se um usuário do site selecionar qualquer link de mídia social em um site, os cookies na seguinte tabela também serão rastreados no navegador.
 

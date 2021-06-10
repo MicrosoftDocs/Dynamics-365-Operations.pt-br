@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-05-05
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7761366c0372c105ecbd4281c7bafa44bf6cf7b5
-ms.sourcegitcommit: 905a8c7a0c1bc06ada2acfba913dfe5f7b44ea16
+ms.openlocfilehash: b88d3fe97d14d3e2f766367de501148063582000
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/14/2021
-ms.locfileid: "6039918"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123353"
 ---
 # <a name="customer-aging-snapshots"></a>Instantâneo de classificação por vencimento de cliente 
 
@@ -28,6 +28,8 @@ ms.locfileid: "6039918"
 Este tópico fornece informações sobre os instantâneos de classificação por vencimento de cliente. Um instantâneo de classificação por vencimento calcula os saldos classificados por vencimento de um grupo de clientes em determinado momento. Você pode criar registros de instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo de clientes.
 
 As informações dos instantâneos de classificação por vencimento aparecem na página de listagem **Saldos classificados por vencimento** e na página **Cobranças**. Você deve criar um instantâneo de classificação por vencimento antes de usar a página de listagem **Saldos classificados por vencimento**. A página de listagem lista somente clientes para os quais um instantâneo de classificação por vencimento foi criado.
+
+O espaço de trabalho **Crédito e cobranças de clientes** também mostra a classificação por vencimento do cliente. Para obter mais informações, consulte [Conteúdo de gerenciamento de crédito e cobrança do Power BI](credit-collections-power-bi.md).
 
 > [!NOTE]
 > Para ajudar a reduzir o tempo necessário para criar um instantâneo de classificação por vencimento, ative o recurso **Aumento de desempenho de classificação por vencimento do cliente** no espaço de trabalho **Gerenciamento de recursos**. No entanto, não use grupos de clientes quando este recurso estiver ativado. Se um grupo de clientes for selecionado, o recurso não funcionará, mas você ainda poderá criar um instantâneo de classificação por vencimento.
@@ -62,4 +64,3 @@ Recomendamos que você agende esse processo para ser executado em um lote.
 > [!NOTE]
 > Para ajudar a melhorar o desempenho de lotes quando os instantâneos de classificação por vencimento são criados, insira um número no campo **Número máximo de tarefas em lote** na FastTab **Padrões de cobranças** na guia **Cobranças** da página **Parâmetros de contas a receber**. No campo **Classificar saldos de cliente por vencimento**, recomendamos que você comece com o valor padrão **100** e ajuste o valor para otimizar o processamento para a sua situação.
 
-O espaço de trabalho **Crédito e cobranças de clientes** também mostra a classificação por vencimento do cliente. Para obter mais informações, consulte [Conteúdo de gerenciamento de crédito e cobrança do Power BI](credit-collections-power-bi.md).

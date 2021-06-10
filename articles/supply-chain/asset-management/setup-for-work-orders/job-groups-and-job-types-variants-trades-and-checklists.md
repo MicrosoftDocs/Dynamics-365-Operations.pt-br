@@ -1,5 +1,5 @@
 ---
-title: Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
+title: Tipos de trabalhos de manutenção, categorias, variantes, negócios e listas de verificação
 description: Este tópico descreve as categorias do tipo de trabalho de manutenção e os tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção no Gerenciamento de Ativos.
 author: johanhoffmann
 ms.date: 08/13/2019
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: eb73fb36ee31d93b2121437d57d959ba6c01a337
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2a2bcff302814903959f78d6435abd540b46ef5
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842264"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117074"
 ---
-# <a name="maintenance-job-type-categories-and-maintenance-job-types-maintenance-job-type-variants-maintenance-job-trades-and-maintenance-checklists"></a>Categorias do tipo de trabalho e tipos de trabalho de manutenção, grades do tipo de trabalho de manutenção, ofício do trabalho de manutenção e listas de verificação de manutenção
+# <a name="maintenance-job-types-categories-variants-trades-and-checklists"></a>Tipos de trabalhos de manutenção, categorias, variantes, negócios e listas de verificação
 
 [!include [banner](../../includes/banner.md)]
-
- 
 
 Um tipo de ativo está associado a cada ativo. Os tipos de ativos definem os tipos de trabalho de manutenção (e portanto, os trabalhos de manutenção) que podem ser executados nos ativos. Ao criar uma ordem de serviço, você deve selecionar um tipo de trabalho de manutenção. Você pode selecionar somente os tipos de trabalho de manutenção relacionados à configuração do tipo de ativo usado para o ativo.
 
