@@ -2,7 +2,7 @@
 title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 05/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 25b59400cdd62f8728f03683d51c86c671edd9de
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8a5daee72f4f339fbebffb5c1d64814959775340
+ms.sourcegitcommit: 13fa6385d8f3bb18df5a52fd2b0f4ad3484ad0ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744606"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6050547"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
@@ -126,17 +126,26 @@ Para publicar uma exibição, siga estas etapas:
 5. **Atualização 10.0.17 ou posterior:** se o recurso **(Versão preliminar) Suporte à tradução para exibições da organização** estiver ativado, você poderá adicionar traduções para o seu nome de exibição em quantos idiomas forem necessários para a organização selecionando o botão **Traduções** ao lado do campo **Nome**. O nome da exibição será mostrado aos usuários no seu idioma atual. Você também pode definir o idioma padrão para especificar a tradução que será mostrada aos usuários que estão executando idiomas para os quais nenhuma tradução foi definida.
 5. Opcional: digite uma descrição para a exibição de modo que os usuários que receberem essa exibição possam compreender melhor sua finalidade. 
 6. Determine se a exibição deve ser publicada como a exibição padrão para os usuários selecionados. Quando uma exibição se tornar padrão, os usuários a exibirão na próxima vez em que abrirem a página de destino. A única exibição padrão global de cada usuário direcionado será alterada. No entanto, os usuários ainda podem alterar a exibição padrão após a publicação.
-7. Adicione as funções de segurança que correspondem aos usuários que receberão essa exibição. 
-8. Determine se você deseja publicar a exibição para as funções filho de cada função de segurança selecionada. Se fizer isso, marque a caixa de seleção **Incluir funções filho** na linha para as funções de segurança apropriadas. Observe que esta caixa de seleção não está disponível para funções sem funções filho.
-9. Adicione as entidades legais para as quais essa exibição deve estar disponível. 
-10. Selecione **Publicar**.
+
+    > [!NOTE]
+    > Lembre-se do seguinte ao publicar uma exibição como a exibição padrão: 
+    > -  Se você publicar uma exibição como padrão para algumas ou todas entidades legais, altere a exibição padrão única e **global** de cada usuário direcionado. 
+    > -  Se um usuário tiver funções em que várias exibições sejam publicadas como exibição padrão, a última exibição publicada será usada como a exibição padrão do usuário. 
+
+8. Adicione as funções de segurança que correspondem aos usuários que receberão essa exibição. 
+9. Determine se você deseja publicar a exibição para as funções filho de cada função de segurança selecionada. Se fizer isso, marque a caixa de seleção **Incluir funções filho** na linha para as funções de segurança apropriadas. Observe que esta caixa de seleção não está disponível para funções sem funções filho.
+10. Adicione as entidades legais para as quais essa exibição deve estar disponível. 
+
+    > [!NOTE]
+    > Lembre-se das seguintes expectativas ao publicar uma exibição para uma entidade legal.
+    > 
+    > Se você publicar uma exibição em uma entidade legal, mas não publicá-la como a exibição padrão, os usuários verão inicialmente a exibição no seletor de exibição somente para as entidades legais especificadas. No entanto, após o primeiro carregamento da exibição, ela sempre estará no seletor de exibição do usuário para essa página, independentemente da entidade legal.
+
+11. Selecione **Publicar**.
 
 Observe que, em alguns ambientes, pode levar algum tempo (até uma hora) para que os usuários vejam a exibição publicada.
 
-> [!NOTE]
-> Lembre-se das expectativas a seguir ao publicar uma exibição para uma entidade legal ou ao publicar uma exibição como padrão.
-> - Se você publicar uma exibição como padrão para todas ou algumas entidades legais, altere a exibição padrão única e global de cada usuário direcionado. Se um usuário tiver funções em que várias exibições sejam publicadas como exibição padrão, a última exibição publicada será usada como a exibição padrão do usuário. 
-> - Se você publicar uma exibição em uma entidade legal, mas não publicá-la como a exibição padrão, os usuários verão inicialmente a exibição no seletor de exibição somente para as entidades legais especificadas. No entanto, após o primeiro carregamento da exibição, ela sempre estará no seletor de exibição do usuário para essa página, independentemente da entidade legal. 
+ 
 
 ## <a name="modifying-a-published-view"></a>Modificação de uma exibição publicada
 

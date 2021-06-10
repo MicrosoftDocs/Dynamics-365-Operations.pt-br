@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 871ac40ea73c8a72e20ff495b9b7e6fe5a12159e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60f63a49222b3d0f13850b0f39764c6c848aba15
+ms.sourcegitcommit: 3c15a26e9708adc9a75082dc551f0a3a0a7d89f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812970"
+ms.lasthandoff: 05/17/2021
+ms.locfileid: "6049427"
 ---
 # <a name="planning-optimization-fit-analysis"></a>Análise de ajuste da Otimização de Planejamento
 
@@ -89,13 +89,13 @@ A tabela a seguir mostra os vários resultados que podem ser exibidos após uma 
 | Produção | Planos que incluem sequenciamento: _\#_ | Este recurso está pendente. No momento, o sequenciamento é ignorado quando a otimização do planejamento é habilitada, independentemente dessa configuração. | Outubro de 2021 - Abril de 2022 |
 | Produção | Ordens de produção liberadas que não foram iniciadas, nas quais o início agendado é anterior a hoje: _\#_ | Este recurso está pendente. Atualmente, se uma ordem de produção estiver atrasada, o planejamento mestre presumirá que ela será concluída hoje. Isso é relevante para ordens de produção lançadas em que uma data de entrega está no passado, mas ainda não foi concluída. | Outubro de 2021 - Abril de 2022 |
 | Produção | Recursos agendados com capacidade finita: _\#_ | Este recurso está pendente. No momento, os recursos agendados com capacidade finita são ignorados quando a otimização do planejamento for habilitada. O plano é feito com base no prazo de entrega padrão do produto. | Infinito: junho de 2021, Finito: outubro de 2021 |
-| Produção | Roteiros usados no planejamento: _\#_ | Este recurso está pendente. No momento, roteiros são ignorados quando a otimização do planejamento é habilitada. O o prazo de entrega padrão do produto é usado. | 2021 de junho |
+| Produção | Roteiros usados no planejamento: _\#_ | Este recurso está pendente. No momento, roteiros são ignorados quando a otimização do planejamento é habilitada. O o prazo de entrega padrão do produto é usado. | Julho de 2021 |
 | Produção | Reserva de linha de vendas usando detalhamento: _\#_ | A reserva de linha de venda que usa detalhamento não tem suporte quando a otimização de planejamento está habilitada. | 2021 de outubro |
 | Produção | Agendamento com detalhamento das ordens de produção: _\#_ | Agendamento que usa explosão de ordens de produção não tem suporte quando a otimização de planejamento está habilitada. As ordens de produção podem ser planejadas individualmente. | 2021 de outubro |
 | Solicitação de cotação | Planos mestres com solicitações de cotação habilitadas: _\#_ | Este recurso está pendente. No momento, as solicitações de cotação (RFQs) não são consideradas como demandas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Outubro de 2021 - Abril de 2022 |
 | Requisições | Planos mestres com requisições habilitadas: _\#_ | Este recurso agora é suportado. Para obter mais informações, consulte [Requisições de compra](purchase-requisitions.md) | Suportado |
-| Margens de segurança | Grupos de cobertura com margem de segurança: _\#_ | Este recurso agora é suportado parcialmente. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) | Margem de recebimento: com suporte. Margem de segurança e margem de saída: abril de 2021 |
-| Margens de segurança | Planos mestres com margem de segurança: _\#_ | Este recurso agora é suportado parcialmente. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) | Margem de recebimento: com suporte. Margem de segurança e margem de saída: abril de 2021 |
+| Margens de segurança | Grupos de cobertura com margem de segurança: _\#_ | Este recurso agora é suportado parcialmente. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) | Margem de recebimento: com suporte. Margem de segurança e margem de saída: abril - outubro de 2021 |
+| Margens de segurança | Planos mestres com margem de segurança: _\#_ | Este recurso agora é suportado parcialmente. Para obter informações adicionais, consulte [Margens de segurança](safety-margins.md) | Margem de recebimento: com suporte. Margem de segurança e margem de saída: abril - outubro de 2021 |
 | Atendimento de estoque de segurança | Registros de cobertura de item com "Preencher mínimo" diferente de "Data de hoje + tempo de aquisição": _\#_ | A otimização de planejamento sempre usa a *Data de hoje + tempo de aquisição*. Essa alteração é feita para preparar-se para uma configuração de planejamento simplificada no futuro e para fornecer um resultado acionável. Se o tempo de compras não for incluído no estoque de segurança, as ordens planejadas criadas para o estoque baixo atual sempre estarão atrasadas por conta do prazo de entrega. Esse comportamento pode causar um ruído significativo e ordens planejadas indesejadas. A prática recomendada é alterar a configuração de forma que a *Data de hoje + tempo de aquisição* seja usada. Atualize os dados mestres para evitar avisos. | N/D |
 | Cotações de venda | Planos mestres com cotações de venda habilitadas: _\#_ | Este recurso está pendente. No momento, cotações não são consideradas quando a otimização do planejamento for habilitada. Eles serão ignorados, independentemente dessa configuração. | Outubro de 2021 - Abril de 2022 |
 | Validade | Planos mestres com validade habilitada: _\#_ | Este recurso está pendente. No momento, a validade não é configurada quando a otimização do planejamento é habilitada, independentemente dessa configuração. | 2021 de outubro |
