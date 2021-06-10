@@ -94,7 +94,9 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.19 (julho de 2021)
+                    - name: Commerce 10.0.20 (julho de 2021)
+                      href: get-started/whats-new-commerce-10-0-20.md
+                    - name: Commerce 10.0.19 (junho de 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
                     - name: Commerce 10.0.18 (maio de 2021)
                       href: get-started/whats-new-commerce-10-0-18.md
@@ -556,6 +558,8 @@
                   href: dev-itpro/manage-bing-maps.md
                 - name: Criar e atualizar slots de tempo para retirada do cliente
                   href: dev-itpro/pickup-timeslots.md
+                - name: Configurar valores de dimensão de produto para serem exibidos como amostras
+                  href: dev-itpro/dimensions-swatch.md
         - name: Merchandising de seus produtos e serviços
           items:
             - name: 'Categorias, produtos e sortimentos'
@@ -932,6 +936,8 @@
                   href: web-activity-opt-out.md
                 - name: Aplicar configurações de unidade de medida
                   href: unit-of-measure.md
+                - name: Aplicar configurações de exibição para dimensões do produto
+                  href: dimension-settings.md
             - name: Gerenciar o conteúdo de seu site
               items:
                 - name: Maneiras de adicionar conteúdo
@@ -1946,7 +1952,7 @@
                   items:
                     - name: Rastrear resultados dos relatórios gerados e compará-los com os valores da linha de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/dynamics365/commercetoc.json
-                    - name: Melhorias nos resultados do rastreamento dos relatórios ER gerados e comparações de valores de linha de base
+                    - name: Melhora o rastreamento dos resultados dos relatórios ER gerados para comparação com os valores de linha de base
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/commerce/toc.json
                     - name: Automatizar testes com ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/commerce/toc.json
@@ -2262,6 +2268,8 @@
                       href: e-commerce-extensibility/request-properties-object.md
                     - name: Configurações de aplicativo
                       href: e-commerce-extensibility/app-settings.md
+                    - name: Definir as configurações globais do construtor de sites com base nos recursos habilitados
+                      href: e-commerce-extensibility/config-settings-for-features.md
                     - name: Arquivo de configurações da plataforma
                       href: e-commerce-extensibility/platform-settings.md
                     - name: Estender uma definição de módulo
@@ -2366,6 +2374,8 @@
                   href: dev-itpro/UpcomingSDKChanges.md
                 - name: Desenvolvimento e alterações importantes no ALM da versão 10.0.10 para 10.0.13
                   href: dev-itpro/dev-changes-10-13.md
+                - name: Configurar um pipeline de build para o SDK de compactação independente
+                  href: dev-itpro/build-pipeline.md
                 - name: Mesclar os sistemas de compilação para o Commerce e o Finance and Operations
                   href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Migrar o SDK do Retail do Visual Studio 2015 para o Visual Studio 2017
@@ -2386,6 +2396,8 @@
               items:
                 - name: Layouts da tela de PDV
                   href: pos-screen-layouts.md
+                - name: Aplicativo Store Commerce no Microsoft Dynamics 365 Commerce
+                  href: dev-itpro/store-commerce.md
                 - name: Abrir URL no PDV
                   href: Open-URL-in-POS.md
                 - name: Instalar o designer de layout do PDV

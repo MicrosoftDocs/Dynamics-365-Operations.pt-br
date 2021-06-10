@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 20 de maio de 2021
+          href: hr-whats-new-2021-05-20.md
         - name: 3 de maio de 2021
           href: hr-whats-new-2021-05-03.md
         - name: 19 de abril de 2021
@@ -785,8 +787,14 @@
           items:
             - name: Visão geral de gerenciamento de desempenho
               href: hr-develop-performance-management-overview.md
-            - name: Alinhar habilidades da força de trabalho
-              href: hr-develop-skills.md
+            - name: Habilidades
+              items:
+                - name: Configurar habilidades
+                  href: hr-develop-skills.md
+                - name: Inserir habilidades
+                  href: hr-develop-enter-skills.md
+                - name: Mapear habilidades
+                  href: hr-develop-map-skills.md
             - name: Adicionar a seu diário de desempenho
               href: hr-develop-add-performance-journal.md
             - name: Criar uma meta

@@ -12,9 +12,11 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novidades ou alterações em Platform updates
               items:
-                - name: Novidades ou alterações na home page de Platform updates
+                - name: Novidades na home page de Platform updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para 10.0.19 (julho de 2021)
+                - name: Platform updates para a versão 10.0.20 (julho de 2021)
+                  href: get-started/whats-new-platform-updates-10-0-20.md
+                - name: Platform updates para 10.0.19 (junho de 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
                 - name: Platform updates para 10.0.18 (maio de 2021)
                   href: get-started/whats-new-platform-updates-10-0-18.md
@@ -940,8 +942,6 @@
                   href: lifecycle-services/getting-started-lcs.md
                 - name: Novidades ou alterações no Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
-                - name: Recursos removidos ou preteridos do Lifecycle Services (LCS)
-                  href: lifecycle-services/removed-deprecated-features.md
             - name: Guia do usuário do Lifecycle Services
               href: lifecycle-services/lcs-user-guide.md
             - name: Integração do Project
@@ -1064,6 +1064,10 @@
                       href: data-entities/dual-write/errors-and-alerts.md
                     - name: Gerenciamento do ciclo de vida de aplicativos
                       href: data-entities/dual-write/app-lifecycle-management.md
+                    - name: Proprietário da equipe especificado pelo usuário
+                      href: data-entities/dual-write/user-specified-team-owner.md
+                    - name: Desvincular e vincular novamente os ambientes de gravação dupla
+                      href: data-entities/dual-write/relink-environments.md
                 - name: Mapeamento de conceitos entre aplicativos
                   items:
                     - name: Cliente mestre integrado
@@ -1166,6 +1170,8 @@
               items:
                 - name: Visão geral de suplementos
                   href: power-platform/add-ins-overview.md
+            - name: Políticas e comunicações
+              href: /power-platform/admin/policies-communications?toc=/dynamics365/fin-ops-core/dev-itpro/toc.json
         - name: Plataforma móvel
           items:
             - name: Recursos da plataforma móvel
