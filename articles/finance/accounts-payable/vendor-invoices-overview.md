@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf3b842f018b4386d5ab4769143d4f7f0907873e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841252"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111685"
 ---
 # <a name="vendor-invoices-overview"></a>Visão geral de faturas de fornecedor
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As faturas do fornecedor são solicitações para pagamento recebido dos produtos e serviços. As faturas do fornecedor podem representar uma cobrança para serviços em andamento, ou podem se basear em ordens de compra para itens e serviços específicos.
 
@@ -71,7 +73,9 @@ A seguir, veja várias formas de impedir que uma fatura seja enviada para um flu
 
 - **A fatura contém encargos não alocados.** A pessoa que enviou a fatura receberá um alerta de que os totais a fatura contém encargos não alocados, para que possam corrigir a fatura antes de reenviá-la para o fluxo de trabalho. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando houver encargos não alocados em uma fatura de fornecedor** na página **Gerenciamento de recursos** estiver ativado.
 
-- **A fatura contém o mesmo número de fatura de outra fatura lançada.** A pessoa que enviou a fatura receberá um alerta de que uma fatura com um número duplicado foi encontrada, para que possam corrigi-la antes de reenviá-la para o fluxo de trabalho. Esse alerta será exibido quando o parâmetro **Verificar o número de fatura usado** do Contas a pagar estiver definido como **Rejeitar duplicata**. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o número da fatura já existir em uma fatura lançada e o sistema não estiver configurado para aceitar números de fatura duplicados** na página **Gerenciamento de recursos** estiver ativado.  
+- **A fatura contém o mesmo número de fatura de outra fatura lançada.** A pessoa que enviou a fatura receberá uma mensagem indicando que uma fatura com um número duplicado foi encontrada. O número duplicado pode ser corrigido antes do reenvio da fatura para o fluxo de trabalho. Esse alerta será exibido quando o parâmetro **Verificar o número de fatura usado** do Contas a pagar estiver definido como **Rejeitar duplicata**. Este recurso estará disponível se o parâmetro **Proibir o envio para o fluxo de trabalho quando o número da fatura já existir em uma fatura lançada e o sistema não estiver configurado para aceitar números de fatura duplicados** na página **Gerenciamento de recursos** estiver ativado.
+
+- **A fatura contém uma linha em que a quantidade da fatura é menor que a quantidade de recebimento de produto correspondente.** A pessoa que envia a fatura ou tenta postar receberá uma mensagem de que as quantidades não são iguais. Esta mensagem fornece uma oportunidade para corrigir os valores antes de reenviar a fatura para o fluxo de trabalho. Este recurso está disponível se o parâmetro **Bloquear o lançamento e o envio de faturas de fornecedores para o fluxo de trabalho** na página **Gerenciamento de recursos** e o parâmetro **Bloquear postagem e envio ao fluxo de trabalho** na página **Parâmetros de contas a pagar** estiverem ativados.  
 
 ## <a name="matching-vendor-invoices-to-product-receipts"></a>Conciliando faturas de fornecedor com os recebimentos de produtos
 

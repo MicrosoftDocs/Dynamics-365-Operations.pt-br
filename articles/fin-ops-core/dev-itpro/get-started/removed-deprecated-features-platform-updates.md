@@ -2,7 +2,7 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-ms.date: 02/16/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 782a147794bc30251ad60f5d788d1255a9d02b5f
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 435f7f0090ca16a9e8cfee2d1ceb65bec8457d09
+ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923529"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6111715"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -31,6 +31,19 @@ Este tópico descreve os recursos que já foram removidos ou foram planejados pa
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="feature-deprecation-notice-effective-may-2021"></a>Aviso de substituição de recurso em maio de 2021
+
+### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portal de globalização no Lifecycle Services (LCS)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos descontinuando o portal de globalização no LCS, pois esse recurso foi substituído por outros serviços baseados no LCS. |
+| **Substituída por outro recurso?**   | Sim, este recurso foi substituído por [Pesquisa de problemas](../lifecycle-services/issue-search-lcs.md) e [Serviço de envio de alertas regulatórios do Dynamics](../lcs-solutions/submit-localization-alerts.md). |
+| **Áreas afetadas do produto**         | Portal de globalização no LCS|
+| **Opção de implantação**              | Implantação de nuvem |
+| **Status**                         | Preterido: data de remoção planejada em maio de 2022. |
+
 
 ## <a name="feature-removed-effective-january-28-2021"></a>Recurso removido em 28 de janeiro de 2021
 
@@ -56,7 +69,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | O Visual Studio 2017 substituirá o Visual Studio 2015 como a versão implantada e necessária. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido. Após a atualização, as ferramentas X++ anteriores serão removidas do Visual Studio 2015, e as ferramentas atualizadas não serão instaladas no Visual Studio 2015. Não haverá impacto nos builds hospedados. Para máquinas virtuais de build, o pipeline de build (definição de build) precisa ser atualizado manualmente para alterar a dependência do MSBuild 14.0 (Visual Studio 2015) ao MSBuild 15.0 (Visual Studio 2017) conforme descrito em [Atualizar um pipeline herdado no Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
+| **Status**                         | Preterido: após a atualização, as ferramentas X++ anteriores serão removidas do Visual Studio 2015, e as ferramentas atualizadas não serão instaladas no Visual Studio 2015. Não haverá impacto nos builds hospedados. Para máquinas virtuais de build, o pipeline de build (definição de build) precisa ser atualizado manualmente para alterar a dependência do MSBuild 14.0 (Visual Studio 2015) ao MSBuild 15.0 (Visual Studio 2017) conforme descrito em [Atualizar um pipeline herdado no Azure Pipelines](../dev-tools/pipeline-msbuild-update.md). |
 
 ### <a name="user-avatar"></a>Avatar do usuário 
 
@@ -76,7 +89,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido. Todo o código do EP está programado para ser removido na versão de outubro de 2021. |
+| **Status**                         | Preterido: todo o código do EP está programado para ser removido na versão de outubro de 2021. |
 
 ## <a name="platform-updates-for-version-10015-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.15 dos aplicativos do Finance and Operations
 
@@ -88,7 +101,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
 | **Áreas afetadas do produto**         | Todos os produtos do Dynamics 365 |
 | **Opção de implantação**              | Todas|
-| **Status**                         | Preterido. O Internet Explorer 11 não terá suporte depois de agosto de 2021.|
+| **Status**                         | Preterido: Internet Explorer 11 não terá suporte depois de agosto de 2021.|
 
 
 ### <a name="visual-studio-add-in-to-apply-metadata-hotfixes"></a>Suplemento do Visual Studio para aplicar hotfixes de metadados
@@ -181,7 +194,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Para obter mais informações, consulte [Configuração do acesso condicional ao Azure Active Directory](/appcenter/general/configuring-aad-conditional-access).|
 | **Áreas afetadas do produto**         | Segurança |
 | **Opção de implantação**              | Nuvem |
-| **Status**                         | **Preterido:** esse recurso foi totalmente substituído por implantações de autoatendimento. |
+| **Status**                         | Preterido: esse recurso foi totalmente substituído por implantações de autoatendimento. |
 
 ### <a name="visual-studio-2015"></a>Visual Studio2015
 
@@ -201,7 +214,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Este erro do compilador substitui permanentemente o aviso do compilador.  |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | **Preterido:** o aviso do compilador é um erro de compilador nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
+| **Status**                         | Preterido: o aviso do compilador é um erro de compilador nas atualizações de plataforma para a versão 10.0.11 dos aplicativos do Finance and Operations. |
 
 ### <a name="isv-licenses-created-by-using-the-sha1-hashing-algorithm"></a>Licenças ISV criadas usando o algoritmo de hash SHA1
 
@@ -211,7 +224,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Sim. Use o Windows PowerShell para criar licenças. |
 | **Áreas afetadas do produto**         | Ferramentas de desenvolvimento do Visual Studio |
 | **Opção de implantação**              | Todas |
-| **Status**                         | <strong>Preterido</strong> : Licenças ISV criadas usando o algoritmo de hash SHA1. Esse algoritmo dependia de certificados que eram criados usando o utilitário MakeCert, e esse utilitário foi preterido.<p><strong>Preterido</strong> : O uso de SHA1 para fins de segurança ou hash. O funcionamento do SHA1 será descontinuado no início de 2021. Portanto, não deve mais ser usado.<p><strong>Removido:</strong> Suporte para solicitações de entrada ou saída do Transport Layer Security (TLS) 1.0 e TLS 1.1. |
+| **Status**                         | Preterido : Licenças ISV criadas usando o algoritmo de hash SHA1. Esse algoritmo dependia de certificados que eram criados usando o utilitário MakeCert, e esse utilitário foi preterido.<br><br>Preterido : O uso de SHA1 para fins de segurança ou hash. O funcionamento do SHA1 será descontinuado no início de 2021. Portanto, não deve mais ser usado.<br><br>Removido: Suporte para solicitações de entrada ou saída do Transport Layer Security (TLS) 1.0 e TLS 1.1. |
 
 ## <a name="platform-update-32"></a>Platform update 32
 

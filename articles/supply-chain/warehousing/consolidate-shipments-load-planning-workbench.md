@@ -1,5 +1,5 @@
 ---
-title: Consolide remessas usando Liberar para o depósito da bancada de planejamento de carga
+title: Consolide remessas liberando para o depósito da bancada de planejamento de carga
 description: Este tópico apresenta um cenário em que várias ordens são liberadas para o depósito na mesma carga e são consolidadas automaticamente em remessas.
 author: GarmMSFT
 ms.date: 05/12/2020
@@ -13,14 +13,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 58a1f6237e37815dd0b4ae3d7a0d46157db5a808
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831329"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117172"
 ---
-# <a name="consolidate-shipments-by-using-release-to-warehouse-from-the-load-planning-workbench"></a>Consolide remessas usando Liberar para o depósito da bancada de planejamento de carga
+# <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolide remessas liberando para o depósito da bancada de planejamento de carga
 
 [!include [banner](../includes/banner.md)]
 

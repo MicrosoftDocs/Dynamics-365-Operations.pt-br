@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 36eb939d2539653fdcde78a6044cf1a87e8e3280
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf9d3fd905a90a2937bfac97c8e44ea13be4f42e
+ms.sourcegitcommit: 16376a301a0f121f384d77f9976638f701f8e88e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811378"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6123381"
 ---
 # <a name="cash-position-preview"></a>Posição de pagamento à vista (versão preliminar)
 
@@ -31,7 +31,7 @@ Posição de pagamento à vista é a projeção do fluxo de caixa que é a previ
 
 Quando o sistema prevê os pagamentos do cliente, ele usa as previsões de pagamento do recurso de previsão de pagamento do cliente. Sem previsões de pagamento, o tempo médio necessário para converter uma fatura de cliente para um pagamento para cada cliente é usado para calcular uma data de pagamento. Para ordens de cliente em aberto, o sistema calcula a data da fatura usando o número médio de dias para que as linhas de ordem por cliente sejam faturadas. Em seguida, ele usa a data da fatura como entrada para a funcionalidade de previsão de pagamento. A funcionalidade de previsão de pagamento do cliente calcula uma data de pagamento para cada linha da ordem. 
 
-<*Texto necessário de Jarek ou Dave sobre como as previsões de pagamento são convertidas em uma data*> a data de pagamento para faturas pendentes é aproximada [*estimada*] a partir das previsões de pagamento, selecionando uma data que corresponda ao quinquagésimo percentil da função de distribuição cumulativa que é obtida das probabilidades do período previsto.
+A data de pagamento para faturas pendentes é estimada a partir das previsões de pagamento, selecionando uma data que corresponda ao quinquagésimo percentil da função de distribuição cumulativa que é obtida das probabilidades do período previsto.
 
 Uma abordagem semelhante é usada para prever pagamentos para fornecedores. Para cada fornecedor, o sistema calcula o tempo médio necessário para converter uma fatura de fornecedor para um pagamento. Esse número de dias é usado para calcular a data de pagamento. Para ordens de fornecedor abertas, o sistema calcula a data da fatura considerando o número médio de dias necessário para converter as linhas de ordem em uma fatura para cada fornecedor. O sistema calcula a data de pagamento usando o tempo médio necessário para converter uma fatura de fornecedor para um pagamento para cada fornecedor.
 

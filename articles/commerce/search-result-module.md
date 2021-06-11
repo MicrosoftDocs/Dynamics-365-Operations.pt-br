@@ -2,7 +2,7 @@
 title: Módulo de resultados de pesquisa
 description: Este tópico abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 01/28/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3409e9e99329def55b173eb78cf03db4a6764c92
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 645022000d8746db3793a8a8611ab8f17c7bcc6e
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794106"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117124"
 ---
 # <a name="search-results-module"></a>Módulo de resultados de pesquisa
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de resultados de pesquisa e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
@@ -51,9 +52,12 @@ A tabela a seguir lista as propriedades dos módulos de resultados de pesquisa, 
 | Ocultar exibição da hierarquia de categoria | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, a exibição da hierarquia de categoria na página ficará oculta. Essa propriedade deve ser definida como **Verdadeiro** se você estiver usando o [módulo de trilha de navegação](add-breadcrumb.md) para mostrar a hierarquia de categoria.|
 | Incluir atributos de produto nos resultados da pesquisa | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, os atributos serão devolvidos para os produtos nos resultados da pesquisa. Embora esses atributos possam ser mostrados em um site do Commerce, é necessária uma extensão.|
 | Mostrar preços de afiliação | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, os preços de afiliação para produtos serão mostrados nos resultados da pesquisa quando um usuário conectado navegar na página. |
+| Atualizar painel do refinador | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, o painel do refinador será atualizado quando os refinadores forem selecionados. Neste modo, alguns refinadores de seleção múltipla se comportarão como refinadores de seleção única quando o painel do refinador for atualizado. |
 
 > [!IMPORTANT]
-> No Dynamics 365 Commerce versão 10.0.16 e posterior, a configuração **Mostrar preços de afiliação** pode ser usada para mostrar os preços de afiliação na página.
+> No Commerce versão 10.0.16 e posterior, a configuração **Mostrar preços de afiliação** pode ser usada para mostrar os preços de afiliação na página.
+>
+> No Commerce versão 10.0.20 e posterior, a configuração **Atualizar painel do refinador** pode ser usada para atualizar o painel do refinador durante a seleção do refinador.
 
 ## <a name="supported-modules"></a>Módulos com suporte
 

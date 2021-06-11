@@ -2,7 +2,7 @@
 title: Destinos de Relatório eletrônico (ER)
 description: Este tópico fornece informações sobre o gerenciamento de destinos de relatório eletrônico, os tipos de destinos com suporte e considerações de segurança.
 author: nselin
-ms.date: 02/24/2021
+ms.date: 05/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: fe0c3bc94359c7e6a3eb2476b8096a8a2339ee9d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
+ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893595"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "6085491"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
@@ -199,6 +199,34 @@ Se você gerar uma configuração ER no formato Excel e quiser convertê-la em f
 > A orientação de página selecionada é aplicada a todas as configurações ER geradas no formato Excel e, em seguida, convertidas para o formato PDF.
 >
 > Se uma uma configuração ER no formato Word for convertida para o formato PDF, a orientação de página do documento PDF será baseada do documento do Word.
+
+## <a name="output-unfolding"></a>Desdobramento de saída
+
+Ao configurar um destino para o componente **Pasta** do seu formato de ER, você pode especificar como a saída desse componente será entregue ao destino configurado.
+
+### <a name="make-output-unfolding-available"></a>Disponibilizar desdobramento de saída
+
+Para tornar a opção de desdobramento de saída disponível na atual instância do Finance, abra o espaço de trabalho **Gerenciamento de recursos** e ative o recurso **Permitir a configuração de destinos de ER para enviar conteúdo de pastas como arquivos separados**.
+
+### <a name="applicability"></a>Aplicabilidade
+
+A opção de desdobramento de saída pode ser configurada somente para os componentes de formato do tipo **Pasta**. Quando você começa a configurar um componente **Pasta**, a FastTab **Geral** fica disponível na página **Destino do relatório eletrônico**. 
+
+### <a name="use-the-output-unfolding-option"></a>Usar a opção de desdobramento de saída
+
+Na FastTab **Geral**, no campo **Enviar pasta como**, selecione um dos seguintes valores:
+
+- **Arquivo ZIP** – entrega um arquivo gerado como um arquivo zip.
+- **Arquivos separados** – entrega cada arquivo de um arquivo zip gerado como um arquivo individual.
+
+    > [!NOTE]
+    > Quando você seleciona **Arquivos separados**, a saída gerada é coletada na memória em um estado zipado. Portanto, o [limite de tamanho de arquivo](er-compress-outbound-files.md) máximo é aplicado à saída compactada quando o tamanho real do arquivo pode exceder esse limite. É recomendável selecionar este valor quando você espera que o tamanho da saída gerada seja muito grande.
+
+[![Configurando um destino para um componente de formato de Pasta](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+
+### <a name="limitations"></a>Limitações
+
+Se você definir o campo **Enviar pasta como** para **Separar arquivos** para um componente de **Pasta** que contém outros componentes de **Pasta** aninhada, a configuração não será aplicada recursivamente aos componentes de **Pasta** aninhados.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 

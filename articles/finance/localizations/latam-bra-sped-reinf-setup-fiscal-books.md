@@ -2,7 +2,7 @@
 title: Configurar livros fiscais
 description: Este tópico explica como configurar eventos SPED-Reinf usando Livros fiscais no Microsoft Dynamics 365 Finance para o Brasil.
 author: sndray
-ms.date: 04/27/2021
+ms.date: 05/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 9360598d7c84f965cac1611a77cd79f77448c8fc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f00cdcdaf33990995f3241b85a46183b37b7c80a
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020073"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117023"
 ---
 # <a name="set-up-fiscal-books"></a>Configurar livros fiscais
 
@@ -81,8 +81,11 @@ Esta configuração é usada para determinar o tipo de aquisição agrícola dos
 
 ## <a name="set-up-fiscal-books-parameters"></a>Configurar parâmetros dos livros fiscais
 
-1. Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros dos livros fiscais**.
-2. Na guia **Sequências numéricas**, configure a sequência numérica para os eventos R-2010 e R-2020.
+1. Acesse **Livros fiscais** > **Parâmetros das extensões de obrigações fiscais** > **SPED Reinf** > **Parâmetros SPED Reinf**.
+2. Na guia **Geral**, selecione **Versão SPED Reinf**.
+3. Selecione o tipo de ambiente e o status da organização fiscal.
+4. Acesse **Livros fiscais** > **Configuração** > **Parâmetros dos livros fiscais**.
+5. Na guia **Sequências numéricas**, configure a sequência numérica para os eventos R-2010, R-2020 e R-2055.
 
 ![Guia Sequências numéricas na página Parâmetros dos livros fiscais](media/bra-sped-fiscal-books-parameters.png)
 

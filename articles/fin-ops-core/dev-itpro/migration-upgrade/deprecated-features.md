@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce49835f167881417000b066fd4a351d26ca0909
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
+ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921414"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6112612"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -104,6 +104,39 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Opção de implantação**              | Todas |
 | **Status**                         | Preterido: até 1 de outubro de 2020, planejamos não dar mais suporte a **Relatório de imposto doméstico – Referência de recursos IT-00003**. |
 
+## <a name="october-2019-deprecation-announcement"></a>Anúncio de depreciação de outubro de 2019
+
+### <a name="flowchart-diagrams-in-business-process-modeler"></a>Diagramas do fluxograma no modelador de processo de negócios
+
+<table>
+<tbody>
+<tr>
+<td><strong>Motivo para a reprovação/remoção</strong></td>
+<td>Estamos preterindo o componente de diagramas de fluxograma no BPM (Business Process Modeler), porque o projeto herdado causou baixo uso.</td>
+</tr>
+<tr>
+<td><strong>Substituída por outro recurso?</strong></td>
+<td>Não</td>
+</tr>
+<tr>
+<td><strong>Áreas afetadas</strong></td>
+<td>Modelador de processo de negócios</td>
+</tr>
+<tr>
+<td><strong>Status</strong></td>
+<td>Preterido: o componente de diagramas de fluxograma no BPM deve ser removido em 2020. A seguinte funcionalidade estará indisponível:
+<ul>
+<li>Todos os fluxogramas serão somente leitura e não estarão disponíveis para edição. As propriedades de forma associadas a atividades de fluxograma também não estarão disponíveis. Esses fluxogramas incluem os fluxogramas padrão gerados automaticamente e personalizados que são modificados com base nesses fluxogramas padrão.</li>
+<li>As etapas do processo serão somente leitura e não estarão disponíveis para edição.</li>     
+<li>O recurso análise de lacuna/ajuste herdado não estará disponível. Portanto, nenhuma lista de lacunas será criada automaticamente ou estará disponível para exportação.
+<p><strong>Observação:</strong> este recurso foi substituído anteriormente e substituído pelas integrações do Microsoft Azure DevOps.</p>
+</li>
+<li>O histórico da versão do fluxograma não estará disponível.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## <a name="finance-and-operations-1005-with-platform-update-29"></a>Finance and Operations 10.0.5 com Platform update 29
 

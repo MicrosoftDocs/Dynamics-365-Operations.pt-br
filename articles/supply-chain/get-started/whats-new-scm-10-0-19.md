@@ -1,5 +1,5 @@
 ---
-title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.19 (julho de 2021)
+title: Versão preliminar do Dynamics 365 Supply Chain Management 10.0.19 (junho de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.19.
 author: kamaybac
 ms.date: 04/23/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 8bb4a7c8085b40ab3eca72675dbe7a3be412d8c1
-ms.sourcegitcommit: 2eb7a9ae544f504155657c5c584cbac66c21dba4
+ms.openlocfilehash: f0af22dc07e8045546f11d9e58a10c7cb0bfea90
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5961672"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6114966"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10019-july-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.19 (julho de 2021)
+# <a name="preview-of-dynamics-365-supply-chain-management-10019-june-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.19 (junho de 2021)
 
 [!include [banner](../includes/banner.md)]
 [!include [preview banner](../includes/preview-banner.md)]
@@ -26,23 +26,35 @@ Este tópico lista os recursos novos ou alterados na versão preliminar da vers�
 
 - **Versão preliminar:** abril de 2021
 - **Disponibilidade geral da versão (autoatualização):** junho de 2021
-- **Disponibilidade geral da versão (atualização automática):** julho de 2021
+- **Disponibilidade geral da versão (atualização automática):** junho de 2021
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
-A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso* fornece links para o [plano de lançamento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), no qual é possível ver as datas de lançamento oficiais de cada recurso. A coluna *Mais informações* fornece links para a documentação relacionada.
+A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso* fornece links para o [plano de lançamento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), no qual é possível ver as datas de lançamento oficiais de cada recurso. A coluna *Mais informações* fornece mais detalhes e/ou links para documentação relacionada.
 
 A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis.
 
 | Área de recursos | Recurso | Mais informações |
 |---|---|---|
-| Estoque e logística | [Otimização de exportação de entidade de dados da pessoa de contato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | *Não disponível* |
+| Estoque e logística | [Otimização de exportação de entidade de dados da pessoa de contato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Quando este recurso está ativado, as alterações nos dados referenciados não farão com que os contatos relacionados sejam incluídos na próxima exportação incremental. Quando este recurso está desativado, as alterações nos dados referenciados farão com que os contatos relacionados sejam incluídos na próxima exportação incremental. |
 | Estoque e logística | [Aprimoramentos incrementais para recursos de execução de depósito com unidades de escala](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Mensagens do processador de mensagens](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ajuste de estoque do depósito](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda](../cloud-edge/cloud-edge-workload-warehousing.md) |
-| Estoque e logística | [Funcionalidade de pesquisa para os campos Introdução do documento e Conclusão do documento na página Cotação de venda](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | *Não disponível* |
+| Estoque e logística | [Funcionalidade de pesquisa para os campos Introdução do documento e Conclusão do documento na página Cotação de venda](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Este recurso adiciona funcionalidade de pesquisa para os campos **Introdução do documento** e **Conclusão do documento** na página **Cotação de venda**.<br><br>Esse recurso é habilitado por padrão. |
 | Estoque e logística | [Execução de depósito com unidades de escala de borda em hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Implantar unidades de escala de borda em hardware personalizado usando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Fabricação | [Execução de fabricação com unidades de escala de borda em hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Implantar unidades de escala de borda em hardware personalizado usando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
+| Planejamento | [Agendamento da capacidade infinita para a Otimização do Planejamento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | Este recurso permite o agendamento de capacidade com capacidade infinita para otimização de planejamento. Sem este recurso, as ordens de produção planejadas obtêm seu prazo de entrega a partir do prazo de entrega de estoque de produtos liberados, independentemente do tempo limite de programação. |
 | Planejamento | Confirmação de ordens planejadas baseadas em consulta | [Confirmar ordens planejadas](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gerenciamento de informações do produto | [Aprimoramentos na página de sugestões de grade](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Criar grades de produtos predefinidas](../pim/tasks/create-predefined-product-variants.md) |
+
+## <a name="feature-enhancements-included-in-this-release"></a>Aprimoramentos de recursos incluídos nesta versão
+
+A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. Cada um deles fornece uma melhoria incremental para um recurso existente. Por serem apenas melhorias, não estão listados no [plano de liberação](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features). Contudo, para garantir que esses aprimoramentos não entrem em conflito com suas personalizações ou preferências existentes, cada um deles é desativado por padrão (a menos haja indicação contrária). Se você quiser usar qualquer um desses recursos, deve ativá-los explicitamente em [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
+
+| Área de recursos | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
+|---|---|---|
+| Vendas e marketing | Melhorias no desempenho da limpeza do histórico de vendas | A limpeza do histórico de vendas pode demorar muito se executada com pouca frequência em ambientes com um alto volume de atualizações de vendas. Para reduzir a duração e melhorar a confiabilidade, esse recurso divide a limpeza em lotes que são executados por um período limitado. Sempre que possível, os recursos do banco de dados serão aproveitados para minimizar o bloqueio e evitar a junção de tabelas transacionais durante a limpeza. |
+| Vendas e marketing | Atualizar a Data de recebimento solicitada com a Data confirmada para ordens intercompanhia | Este recurso permite que você controle o que acontecerá com os valores dos campos de data de venda e compra ao usar a entrega direta entre empresas. Você pode escolher se o sistema atualizará as datas solicitadas ou ignorar a atualização. Se você ignorar a atualização, as datas solicitadas representarão o que o cliente solicitou. Se você habilitar a atualização, as datas solicitadas (ao usar o controle de data de entrega) representam apenas inicialmente o que o cliente solicitou. Quando diferente de *Nenhum*, o controle da data de entrega substituirá o que foi inicialmente solicitado. É possível definir essa opção usando a nova configuração **Atualizar a data de recebimento solicitada com a data confirmada** nas configurações do fornecedor intercompanhia ou do cliente.<br><br>Se o recurso estiver desativado, o sistema substituirá a data de recebimento solicitada nas ordens de venda originais com base na regra de controle de data de entrega, mas a data de envio solicitada permanecerá como está. |
+| Gerenciamento de depósito | Arredondar quantidades para baixo para a unidade de vendas mais próxima na liberação para o depósito | Este recurso adiciona uma opção que pode restringir as quantidades da ordem na liberação para o depósito. Quando habilitado, as quantidades da ordem serão arredondadas para baixo para a unidade de venda inteira mais próxima, e as ordens que incluem quantidades para menos de uma unidade de venda serão rejeitadas para liberação. |
+| Gerenciamento de depósito | Método de ciclo "Agendar criação de trabalho" para toda a organização | Ao habilitar este recurso, o método de ciclo *Agendar criação de trabalho* será configurado para funcionar em paralelo em todas as entidades legais. Várias configurações adicionais também serão afetadas. Para obter todos os detalhes, consulte [Agendar a criação de trabalhos durante o ciclo](../warehousing/configure-wave-schedule-work-creation.md). |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados
 
@@ -62,7 +74,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.19 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.19 dos aplicativos do Finance and Operations (Julho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
+O Microsoft Dynamics 365 Supply Chain Management 10.0.19 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.19 dos aplicativos do Finance and Operations (junho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-19.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

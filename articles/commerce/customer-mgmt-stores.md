@@ -2,7 +2,7 @@
 title: Gerenciamento de clientes em lojas
 description: Este tópico explica como os varejistas podem habilitar os recursos de gerenciamento de clientes no ponto de venda (PDV) no Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 03/05/2021
+ms.date: 05/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e43f8f5b91f729dc93eccb9e9e4ee21b5a5d1596
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dd17593d84a8bf262712a84b11829f8ec6c49049
+ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019978"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "6097199"
 ---
 # <a name="customer-management-in-stores"></a>Gerenciamento de clientes em lojas
 
@@ -35,7 +35,10 @@ Os associados de vendas também podem capturar endereços de email e números de
 
 ## <a name="default-customer-properties"></a>Propriedades padrão do cliente
 
-Os varejistas podem usar a página **Todas as lojas** no Commerce Headquarters (**Varejo e Comércio \> Canais \> Lojas**) para associar um cliente padrão a cada loja. O Commerce então copia as propriedades definidas para o cliente padrão para todos os novos registros de cliente que são criados. Por exemplo, a caixa de diálogo **Criar cliente** mostra as propriedades herdadas do cliente padrão associado à loja. Essas propriedades incluem o tipo de cliente, o grupo de clientes, a preferência de recibo, a moeda e o idioma. As afiliações (agrupamentos de clientes) também são herdadas do cliente padrão. No entanto, as dimensões financeiras são herdadas do grupo de clientes associado ao cliente padrão, e não do próprio cliente padrão.
+Os varejistas podem usar a página **Todas as lojas** no Commerce Headquarters (**Varejo e Comércio \> Canais \> Lojas**) para associar um cliente padrão a cada loja. O Commerce então copia as propriedades definidas para o cliente padrão para todos os novos registros de cliente que são criados. Por exemplo, a caixa de diálogo **Criar cliente** mostra as propriedades herdadas do cliente padrão associado à loja. Essas propriedades incluem o **tipo de cliente**, **grupo de clientes**, **opção de recibo**, **e-mail de recibo**, **moeda** e **idioma**. Quaisquer **afiliações** (agrupamentos de clientes) também são herdadas do cliente padrão. Porém, as **dimensões financeiras** são herdadas do grupo de clientes associado ao cliente padrão, e não do próprio cliente padrão.
+
+> [!NOTE]
+> O **valor do email** será copiado do cliente padrão somente se a ID do email de recebimento não for fornecida para os clientes recentemente criados. Isso significa que, se a ID do email de recebimento estiver presente no cliente padrão, todos os clientes criados no site de comércio eletrônico receberão a mesma ID de email, já que não há interface do usuário para capturar a ID de email do recibo do cliente. É recomendável manter o campo **email de recibo** vazio para o cliente padrão da loja e usá-lo somente se você tiver um processo comercial que dependa de um endereço de email de recebimento presente. 
 
 Os associados de vendas podem capturar vários endereços para um cliente. O nome e o número de telefone do cliente são herdados das informações de contato associadas a cada endereço. A Guia Rápida **Endereços** de um registro de cliente inclui um campo **Finalidade** que os associados de vendas podem editar. Se o tipo de cliente for **Pessoa**, o valor padrão será **Residência**. Se o tipo de cliente for **Organização**, o valor padrão será **Empresa**. Outros valores para os quais esse campo oferece suporte incluem: **Residência**, **Escritório** e **Caixa postal**. O valor do campo **País** para um endereço é herdado do endereço principal especificado na página **Unidade operacional** do Commerce Headquarters em **Administração da organização \> Organizações \> Unidades operacionais**.
 

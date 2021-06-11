@@ -1,5 +1,5 @@
 ---
-title: Melhorias no rastreamento dos resultados dos relatórios de ER gerados e na comparação deles com valores de linha de base
+title: Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
 description: Este tópico descreve melhorias no recurso de linha de base ER no Microsoft Dynamics 365 for Finance and Operations versão 10.0.3 (junho de 2019).
 author: NickSelin
 ms.date: 06/19/2019
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 483d3ac7cd3192ffd4c785c4031a168af503f087
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
+ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743596"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6117026"
 ---
-# <a name="improvements-in-tracing-the-results-of-generated-er-reports-and-comparing-them-with-baseline-values"></a>Melhorias no rastreamento dos resultados dos relatórios de ER gerados e na comparação deles com valores de linha de base
+# <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
 
 [!include[banner](../includes/banner.md)]
 

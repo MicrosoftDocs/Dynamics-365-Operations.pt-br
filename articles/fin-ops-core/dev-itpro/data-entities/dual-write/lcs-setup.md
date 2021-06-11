@@ -2,26 +2,20 @@
 title: Configuração da gravação dupla do Lifecycle Services
 description: Este tópico explica como configurar uma conexão de gravação dupla do Microsoft Dynamics Lifecycle Services (LCS).
 author: RamaKrishnamoorthy
-ms.date: 01/06/2020
+ms.date: 05/11/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e51b4ef1e309e5f89dc82a3776b88c505dc6593d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748532"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103560"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
@@ -29,64 +23,48 @@ ms.locfileid: "5748532"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tópico explica como configurar uma conexão de gravação dupla entre um novo ambiente do Finance and Operations e um novo ambiente do Dataverse a partir do Microsoft Dynamics Lifecycle Services (LCS).
+Este tópico explica como habilitar a gravação dupla do Microsoft Dynamics Lifecycle Services (LCS).
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Você deve ser um administrador para configurar uma conexão de gravação dupla.
+Você deve concluir a integração da Power Platform conforme descrito nos seguintes tópicos:
 
-+ Você deve ter acesso ao locatário.
-+ Você deve ser um administrador em ambientes de Finance and Operations e ambientes de Dataverse.
++ [Integração do Power Platform - Habilitar durante a implantação do ambiente](../../power-platform/overview.md#enable-during-environment-deployment)
++ [Integração do Power Platform - Configurar depois da implantação do ambiente](../../power-platform/overview.md#set-up-after-environment-deployment)
 
-## <a name="set-up-a-dual-write-connection"></a>Configurar uma conexão de gravação dupla
+## <a name="set-up-dual-write-for-new-dataverse-environments"></a>Configurar a gravação dupla para novos ambientes do Dataverse
 
-Siga essas etapas para configurar a conexão de gravação dupla.
+Siga estas etapas para configurar a gravação dupla da página **Detalhes de ambiente** do LCS:
 
-1. Em LCS, vá para seu projeto.
-2. Selecione **Configurar** para implantar um novo ambiente.
-3. Selecione a versão. 
-4. Selecione a topologia. Se houver apenas uma topologia disponível, ela será automaticamente selecionada.
-5. Conclua as primeiras etapas do assistente de **Configurações de implantação**.
-6. Na guia **Dataverse**, siga uma das etapas a seguir:
+1. Na página **Detalhes de ambiente**, expanda a seção **Integração da Power Platform**.
 
-    - Se um ambiente do Dataverse já estiver provisionado para o seu locatário, você poderá selecioná-lo.
+2. Selecione o botão **Aplicativo de gravação dupla**.
 
-        1. Defina a opção **Configurar Dataverse** como **Sim**.
-        2. Na coluna **Ambientes disponíveis**, selecione o ambiente para integração com os dados de Finance and Operations. A lista inclui todos os ambientes nos quais você tem privilégios administrativos.
-        3. Marque a caixa de seleção **Concordar** para indicar que você concorda com os termos e condições.
+    ![Integração com o Power Platform](media/powerplat_integration_step2.png)
 
-        ![A guia Dataverse quando um ambiente do Dataverse já estiver provisionado para o seu locatário](../dual-write/media/lcs_setup_1.png)
+3. Analise os termos e condições e selecione **Configurar**.
 
-    - Se o seu locatário ainda não tiver um ambiente do Dataverse, será fornecido um novo ambiente.
+4. Selecione **OK** para continuar.
 
-        1. Defina a opção **Configurar Dataverse** como **Sim**.
-        2. Inserir um nome para o ambiente do Dataverse.
-        3. Selecione a região em que o ambiente será implantado.
-        4. Selecione o idioma e a moeda padrão para o ambiente.
+5. Você pode monitorar o progresso atualizando periodicamente a página de detalhes do ambiente. A configuração geralmente leva 30 minutos ou menos.  
 
-            > [!NOTE]
-            > Não é possível alterar o idioma e a moeda posteriormente.
+6. Quando a configuração for concluída, uma mensagem informará a você se o processo foi bem-sucedido ou se houve uma falha. Se a configuração falhar, uma mensagem de erro relacionada será exibida. Você deve corrigir qualquer erro antes de passar para a próxima etapa.
 
-        5. Marque a caixa de seleção **Concordar** para indicar que você concorda com os termos e condições.
+7. Selecione **Vincular ao ambiente da Power Platform** para criar um link entre o Dataverse e os bancos de dados do ambiente atual. Isso geralmente leva menos de 5 minutos.
 
-        ![A guia Dataverse quando seu locatário ainda não tiver um ambiente do Dataverse](../dual-write/media/lcs_setup_2.png)
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular ao ambiente da Power Platform":::
 
-7. Conclua as etapas restantes do assistente de **Configurações de implantação**.
-8. Depois que o ambiente tiver um status de **Implantado**, abra a página de detalhes do ambiente. A seção **Integração do Power Platform** mostra os nomes do ambiente Finance and Operations e do ambiente Dataverse vinculado.
+8. Quando a vinculação for concluída, um hiperlink será exibido. Use a vinculação para entrar na área de administração de gravação dupla no ambiente do Finance and Operations. A partir daí, você pode configurar mapeamentos de entidade.
 
-    ![Seção Integração do Power Platform](../dual-write/media/lcs_setup_3.png)
+## <a name="set-up-dual-write-for-an-existing-dataverse-environment"></a>Configurar a gravação dupla para um ambiente do Dataverse existente
 
-9. Um administrador do ambiente Finance and Operations deve efetuar login nas LCS e selecionar **Vincular a CDS para que os aplicativos** concluam o link. A página detalhes do ambiente mostra as informações de contato do administrador.
+Para configurar a gravação dupla para um ambiente do Dataverse existente, você deve criar um [tíquete de suporte](../../lifecycle-services/lcs-support.md) da Microsoft. O tíquete deve incluir:
 
-    Depois que o link for concluído, o status será atualizado para **Vincular ambiente concluído com êxito**.
-
-10. Para abrir o espaço de trabalho **Integração de dados** no ambiente do Finance and Operations e controlar os modelos que estão disponíveis, selecione **Vincular ao CDS para aplicativos**.
-
-    ![Botão Link para o CDS para aplicativos na seção informações sobre a seção Integração do Power Platform](../dual-write/media/lcs_setup_4.png)
++ Sua ID de ambiente do Finance and Operations.
++ O nome do seu ambiente do Lifecycle Services.
++ A ID da organização do Dataverse ou a ID do ambiente da Power Platform a partir do centro de administração da Power Platform. Em seu tíquete, solicite que a ID seja a instância usada para integração da Power Platform.
 
 > [!NOTE]
 > Não é possível desvincular ambientes usando o LCS. Para desvincular um ambiente, abra o espaço de trabalho da **Integração de dados** no ambiente do Finance and Operations e selecione **Desvincular**.
-
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

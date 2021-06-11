@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d7c0839ffbea80904ca12d1cba7ba9880f721cdd
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: d9430fe02abe58f37d2bfd1431b4da61527d0834
+ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947511"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6115040"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -50,15 +50,20 @@ Primeiro, ative os recursos seguindo estas etapas.
 
 1. Acesse o espaço de trabalho [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 1. Verifique se há atualizações.
-1. Ative o recurso denominado **Gerenciamento de Alterações de Engenharia**.
-1. Se quiser usá-lo, ative também o recurso denominado **Versão de dimensão do produto**.
+1. Ative o recurso denominado *Gerenciamento de Alterações de Engenharia*.
+1. Se quiser usá-lo, ative também o recurso denominado *Versão de dimensão do produto*.
 
 Em seguida, ative as chaves de configuração seguindo estas etapas.
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Expanda o nó **Comércio**.
-1. Habilite a chave de configuração para o recurso principal, marcando a caixa de seleção **Gerenciamento de Alterações de Engenharia**. (Não é necessário expandir o nó, a menos que você também deseje desabilitar um ou ambos os sub-recursos.)
+1. Habilite a chave de configuração para o recurso principal, marcando a caixa de seleção **Gerenciamento de Alterações de Engenharia**.
+1. Expanda o nó **Gerenciamento de Alterações de Engenharia** e marque ou desmarque as seguintes caixas de seleção conforme necessário (dependendo dos recursos que deseja usar):
+
+    - **Pesquisa de atributos**: marque esta caixa de seleção para habilitar o [recurso de pesquisa de atributos](engineering-attributes-and-search.md). Recomendamos habilitar esse recurso, mas você pode desmarcar essa caixa de seleção se não quiser usá-lo.
+    - **Gerenciamento de alterações para fabricação de processos**: marque esta caixa de seleção se desejar usar os recursos de gerenciamento de alterações de engenharia para gerenciar alterações em fórmulas para fabricação de processos. Se você não precisa gerenciar fórmulas, pode desmarcar esta caixa de seleção. Para obter mais informações, consulte [Gerenciar alterações nas fórmulas e seus ingredientes](manage-formula-changes.md).
+
 1. Se também quiser usar a dimensão de versão, marque a caixa de seleção **Dimensão do produto - Versão**. (Esta caixa de seleção está mais abaixo na lista, não aninhada no nó **Gerenciamento de Alterações de Engenharia**.)
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 

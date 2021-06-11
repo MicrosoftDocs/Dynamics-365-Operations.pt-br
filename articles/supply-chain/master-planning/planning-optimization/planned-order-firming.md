@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: a4f882f1abc9f758aca77b137b28aa973f925ea9
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
+ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019485"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "6103619"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -77,6 +77,7 @@ Para confirmar manualmente ordens planejadas, você encontra e seleciona as orde
 
     - **Agrupar por fornecedor** – defina esta opção como *Sim* para agrupar ordens de compra planejadas e criar uma ordem de compra por fornecedor durante a confirmação. Como alternativa, você pode criar uma ordem de compra que tem uma linha para cada ordem planejada.
     - **Agrupar por grupo de compradores** – defina esta opção como *Sim* para agrupar ordens de compra planejadas e criar uma ordem de compra que combine o grupo de fornecedores e compradores. Para usar esta opção, você também deve definir a opção **Agrupar por fornecedor** como *Sim*.
+    - **Agrupar por contrato de compra**: defina esta opção como *Sim* para agrupar ordens de compra planejados que têm o mesmo fornecedor dos contratos de compra existentes e criar uma ordem de compra por contrato de compra. Esta opção é ativada automaticamente quando **Agrupar por fornecedor** é ativado. Para usar **Agrupar por contrato de compra**, a opção **Localizar contratos de compra** deve ser definido como *Sim* na página **Parâmetros de planejamento mestre**.
     - **Agrupar por período** (na seção **Ordens de compra**) – Selecione o período para o qual agrupar ordens de compra planejadas. Para usar esta opção, você também deve selecionar a opção **Agrupar por fornecedor**.
     - **Agrupar por período** (na seção **Transferências**) – Selecione o período para o qual agrupar ordens de transferência planejadas. As ordens serão agrupadas com base nos valores **De depósito** e **Para depósito**.
 
