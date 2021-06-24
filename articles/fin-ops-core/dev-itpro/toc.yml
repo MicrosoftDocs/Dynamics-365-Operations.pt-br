@@ -12,9 +12,9 @@
               href: ../fin-ops/get-started/whats-new-changed.md?toc=/dynamics365/fin-ops-core/dev-itpro/toc.yml
             - name: Novidades ou alterações em Platform updates
               items:
-                - name: Novidades na home page de Platform updates
+                - name: Novidades ou alterações na home page de Platform updates
                   href: get-started/whats-new-home-page.md
-                - name: Platform updates para a versão 10.0.20 (julho de 2021)
+                - name: Platform updates para a versão 10.0.20 (agosto de 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
                 - name: Platform updates para 10.0.19 (junho de 2021)
                   href: get-started/whats-new-platform-updates-10-0-19.md
@@ -848,15 +848,13 @@
                       href: extensibility/compatibility-checker-tool.md
             - name: Desempenho
               items:
-                - name: Fazer rastreamentos usando o Analisador de Rastreamento
+                - name: Fazer rastreamentos usando o Analisador de rastreamento
                   href: perf-test/trace-trace-tutorial.md
-                - name: Teste de um único usuário com o Gravador de Tarefas e o SDK do Performance
+                - name: Teste de um único usuário usando o SDK de desempenho e o Gravador de Tarefas
                   href: perf-test/single-user-test-perf-sdk.md
-                - name: SDK do Performance de vários usuários testando com um controlador de teste local
-                  href: perf-test/multi-user-testing-local-test-controller.md
-                - name: Teste de vários usuários com o SDK do Performance e o Azure DevOps
-                  href: perf-test/multi-user-testing-perfsdk-azuredevops.md
-                - name: Guia de solução de problemas para testes com o SDK do Performance
+                - name: Teste de vários usuários usando o SDK de desempenho
+                  href: perf-test/perfsdk-multi-user-testing.md
+                - name: Guia de solução de problemas para testes com o SDK de desempenho
                   href: perf-test/troubleshoot-perf-sdk-user-testing.md
                 - name: Testes de SDK do Performance e de multiusuários em ambientes locais
                   href: perf-test/perfsdk-tutorial-lbd.md
@@ -1538,6 +1536,8 @@
                   href: sysadmin/batch-server-overview.md
                 - name: Criar trabalhos em lotes
                   href: sysadmin/tasks/create-batch-job.md
+                - name: Habilitando tentativas automáticas em trabalhos em lotes
+                  href: sysadmin/retryable-batch.md
                 - name: Copiar um trabalho em lotes
                   href: sysadmin/copy-batch-job.md
                 - name: Períodos de lote ativos
@@ -1588,13 +1588,11 @@
                   href: migration-upgrade/data-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Lista de verificação de pré-atualização para a atualização de dados
                   href: migration-upgrade/prepare-data-upgrade.md
-                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de área restrita usando o processo DACPAC
-                  href: migration-upgrade/upgrade-data-sandbox-dacpac.md
-                - name: Upgrade do AX 2012 – SQL Transactional Replication
+                - name: Upgrade do AX 2012 — Replicação transacional do SQL
                   href: database/replication-setup.md
-                - name: Upgrade do AX 2012 – Atualização de dados em ambientes de área restrita
-                  href: migration-upgrade/upgrade-data-sandbox.md
-                - name: Upgrade do AX 2012 – Ambientes locais
+                - name: Upgrade do AX 2012 — Atualização de dados em ambientes de autoatendimento
+                  href: migration-upgrade/data-upgrade-self-service.md
+                - name: Upgrade do AX 2012 — Ambientes locais
                   href: migration-upgrade/on-prem-upgrade-2012.md
                 - name: Upgrade do AX 2012 — Testes de substituição
                   href: migration-upgrade/upgrade-cutover-testing.md

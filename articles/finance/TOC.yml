@@ -72,13 +72,11 @@
                   items:
                     - name: Novidades ou alterações na home page do Finance
                       href: get-started/whats-new-home-page.md
-                    - name: Finance 10.0.20 (julho 2021)
+                    - name: Finance 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (julho 2021)
+                    - name: Finance 10.0.19 (junho de 2021)
                       href: get-started/whats-new-changed-10-0-19.md
                     - name: Finance 10.0.18 (maio de 2021)
-                      href: get-started/whats-new-changed-10-0-18.md
-                    - name: Finance 10.0.17 (abril de 2021)
                       href: get-started/whats-new-changed-10-0-17.md
             - name: Recursos removidos ou preteridos
               items:
@@ -1210,13 +1208,15 @@
               href: ../fin-ops-core/dev-itpro/analytics/when-to-reset-data-mart.md?toc=/dynamics365/finance/toc.json
             - name: Perguntas frequentes sobre relatórios financeiros
               href: general-ledger/financial-reporting-faq.md
-        - name: Insights do Finance
+        - name: Finance Insights
           items:
-            - name: Home page de insights do Finance
+            - name: Home page do Finance Insights
               href: finance-insights/finance-insights-home-page.md
             - name: Configuração e administração
               items:
-                - name: Configurar insights do Finance
+                - name: Configurar o Finance Insights para a versão preliminar pública
+                  href: finance-insights/configure-for-fin-insites-PubPrvw.md
+                - name: Configurar o Finance Insights
                   href: finance-insights/configure-for-fin-insites.md
                 - name: Habilitar Previsões de pagamento do cliente
                   href: finance-insights/enable-cust-paymnt-prediction.md
@@ -1226,7 +1226,7 @@
                   href: finance-insights/enable-budget-proposal.md
                 - name: Criar projeto integrador de dados
                   href: finance-insights/create-data-integrate-project.md
-            - name: Usar insights do Finance
+            - name: Usar o Finance Insights
               items:
                 - name: Propostas de orçamento
                   href: finance-insights/budget-proposals.md
@@ -1464,18 +1464,22 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Criar configurações ER no Regulatory Configuration Service e carregá-las no repositório Global
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                    - name: Regulatory Configuration Service — Substituição de armazenamento do Lifecycle Services
+                      href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Faturamento Eletrônico
                   items:
-                    - name: Visão geral do Faturamento eletrônico
+                    - name: Visão geral do Faturamento Eletrônico
                       href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Componentes de administração do Faturamento eletrônico
+                    - name: Componentes de administração do Faturamento Eletrônico
                       href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar o Faturamento Eletrônico no Regulatory Configuration Services (RCS)
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Emitir faturas eletrônicas no Finance e Supply Chain Management
+                    - name: Emitir faturas eletrônicas no Finance e no Supply Chain Management
                       href: localizations/e-invoicing-issuing-electronic-invoices-finance-supply-chain-management.md?toc=/dynamics365/finance/toc.json
                     - name: Criar uma conta de armazenamento do Azure e um Key Vault
                       href: localizations/e-invoicing-create-azure-storage-account-key-vault.md?toc=/dynamics365/finance/toc.json
+                    - name: Painel de gerenciamento de uso
+                      href: localizations/e-invoicing-usage-management-dashboard.md?toc=/dynamics365/finance/toc.json
                     - name: Introdução
                       items:
                         - name: Introdução à administração do serviço de Faturamento Eletrônico
@@ -2416,19 +2420,103 @@
                               href: localizations/apac-ind-GST-troubleshooting-taxtrans-or-voucher-not-generated.md
                             - name: A ID da transação de imposto está incorreta
                               href: localizations/apac-ind-GST-troubleshooting-tax-transaction-id-incorrect.md
+                            - name: Valores de campo incorretos no relatório de GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-field-value-incorrect-GSTR-report-result.md
+                            - name: Valor do campo incorreto em um diário de faturas ou comprovante
+                              href: localizations/apac-ind-GST-troubleshooting-invoice-journal-wrong.md
+                            - name: Conta contábil incorreta no comprovante
+                              href: localizations/apac-ind-GST-troubleshooting-ledger-account-voucher-wrong.md
+                            - name: Abrir o designer para a configuração de imposto atual
+                              href: localizations/apac-ind-GST-troubleshooting-open-designer-current-used-tax-configuration.md
+                            - name: Os registros e os campos não aparecem no relatório de GSTR
+                              href: localizations/apac-ind-GST-troubleshooting-records-fields-not-showing-GSTR-report.md
+                            - name: Erro de regra de compensação quando uma liquidação de imposto é executada
+                              href: localizations/apac-ind-GST-troubleshooting-setoff-rule-error-transactions-on-voucher-not%20balance.md
                 - name: Impostos diretos
                   items:
                     - name: Imposto retido na fonte da Índia
                       items:
-                        - name: Incluir GST ao calcular deduções de imposto
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
-                        - name: Incluir GST ao calcular recolhimentos de imposto
-                          href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
                         - name: Perguntas frequentes sobre limites de impostos
                           href: localizations/apac-ind-tax-thresholds.md
-                        - name: TCS na venda de mercadorias
-                          href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
-                - name: Ativos Fixos
+                        - name: TCS da Índia
+                          items:
+                            - name: TCS na venda de mercadorias
+                              href: localizations/apac-ind-GST-TCS-on-Sale-of-Goods-Section-206C-(1H).md
+                            - name: Incluir GST ao calcular recolhimentos de imposto
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-collections.md
+                        - name: TDS da Índia
+                          items:
+                            - name: Visão geral do imposto retido na fonte (TDS) da Índia
+                              href: localizations/apac-ind-TDS-India-TDS-overview.md
+                            - name: Incluir GST ao calcular deduções de imposto
+                              href: localizations/apac-ind-GST-include-gst-calculating-tax-deductions.md
+                            - name: Configuração básica do TDS
+                              items:
+                                - name: Definir os parâmetros do TDS
+                                  href: localizations/apac-ind-TDS-TDS-parameter-activation.md
+                                - name: Configurar contas contábeis do TDS
+                                  href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
+                                - name: Configurar números de registro de TDS para entidades legais
+                                  href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
+                                - name: Configurar autoridades de imposto retido na fonte para o tipo de imposto TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Configurar componentes do imposto para o tipo de imposto TDS
+                                  href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
+                                - name: Configurar códigos de imposto retido na fonte para o tipo de imposto TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
+                                - name: Configurar períodos de liquidação de imposto retido na fonte para o tipo de imposto TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
+                                - name: Configurar códigos de relatório de imposto retido na fonte para o tipo de imposto TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
+                                - name: Configurar códigos de imposto retido na fonte para o tipo de imposto TDS
+                                  href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
+                                - name: Anexar códigos de imposto TDS para grupos de impostos TDS e definir a fórmula para calcular o TDS
+                                  href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
+                                - name: Registrar números de certificados de concessão do TDS
+                                  href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
+                                - name: Definir parâmetros de TDS em Contas a pagar e Contas a receber
+                                  href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
+                                - name: Configurar agendas de pagamento com alocação de TDS
+                                  href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
+                                - name: Configurar taxas de pagamento para pagamentos de autoridade de TDS
+                                  href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
+                                - name: 'Configuração de informações de grupo de TDS, PAN e TAN para fornecedores e clientes'
+                                  href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
+                                - name: Designer de fórmulas e limite para cálculo de TDS
+                                  items: null
+                                - name: Designer de fórmulas para cálculos de TDS
+                                  href: localizations/apac-ind-TDS-Formula-designer.md
+                                - name: Limite e limite de exceção
+                                  href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
+                            - name: Cálculo de TDS em faturas
+                              items:
+                                - name: Cálculo de TDS em faturas
+                                  href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
+                                - name: Calcular TDS em faturas usando diários
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
+                                - name: Calcular faturas de TDS usando o formulário de ordem de compra e o formulário de ordem de venda
+                                  href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
+                                - name: Cálculo de TDS em faturas a partir da página Fatura de texto livre
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
+                                - name: Funcionalidade Dividir fatura
+                                  href: localizations/apac-ind-TDS-Split-invoice-functionality.md
+                            - name: Cálculo de TDS em pagamentos e notas promissórias
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                            - name: Cálculo de TDS em transações intercompanhia
+                              href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                            - name: Processo de liquidação de TDS
+                              items:
+                                - name: Cálculo de TDS em pagamentos e notas promissórias
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
+                                - name: Cálculo de TDS em transações intercompanhia
+                                  href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
+                                - name: Executar o processo periódico de liquidação de TDS
+                                  href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
+                                - name: Liquidar pagamentos de TDS para fornecedores de autoridade de TDS e gerar TDS challan
+                                  href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
+                                - name: Exibir pagamentos e transações de TDS lançados para um período de liquidação de TDS
+                                  href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
+                - name: Ativos fixos
                   items:
                     - name: Visão geral de ativos fixos da Índia
                       href: localizations/apac-ind-fixed-assets.md
@@ -2454,84 +2542,12 @@
                       href: localizations/tasks/apac-ind-set-up-asset-group-dep.md
                     - name: Transferência de itens capitais para o ativo fixo
                       href: localizations/tasks/apac-ind-transfer-capital-items.md
-                - name: TDS da Índia
-                  items:
-                    - name: Visão geral de imposto indiano deduzido na origem (TDS)
-                      href: localizations/apac-ind-TDS-India-TDS-overview.md
-                    - name: Configuração básica do TDS
+                    - name: Registrar e atualizar datas e números de certificados de TDS
                       items:
-                        - name: Definir os parâmetros do TDS
-                          href: localizations/apac-ind-TDS-TDS-parameter-activation.md
-                        - name: Configurar contas contábeis do TDS
-                          href: localizations/apac-ind-TDS-TDS-ledger-accounts-setup.md
-                        - name: Configurar números de registro de TDS para entidades legais
-                          href: localizations/apac-ind-TDS-TDS-registration-numbers-setup-for-legal-entities.md
-                        - name: Configurar autoridades de imposto retido na fonte para o tipo de imposto TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Configurar componentes do imposto para o tipo de imposto TDS
-                          href: localizations/apac-ind-TDS-Tax-components-setup-for-TDS-tax-type.md
-                        - name: Configurar códigos de imposto retido na fonte para o tipo de imposto TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-authorities-setup-for-TDS-tax-type.md
-                        - name: Configurar períodos de liquidação de imposto retido na fonte para o tipo de imposto TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-settlement-periods-setup-for-TDS-tax-type.md
-                        - name: Configurar códigos de relatório de imposto retido na fonte para o tipo de imposto TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-reporting-codes-setup-for-TDS-tax-type.md
-                        - name: Configurar códigos de imposto retido na fonte para o tipo de imposto TDS
-                          href: localizations/apac-ind-TDS-Withholding-tax-codes-setup-for-TDS-tax-type.md
-                        - name: Anexar códigos de imposto TDS para grupos de impostos TDS e definir a fórmula para calcular o TDS
-                          href: localizations/apac-ind-TDS-Attach-TDS-tax-codes-to-TDS-tax-groups-and-define-formula-to-calculate-TDS.md
-                        - name: Registrar números de certificados de concessão do TDS
-                          href: localizations/apac-ind-TDS-Record-TDS-concession-certificate-numbers.md
-                        - name: Definir parâmetros de TDS em Contas a pagar e Contas a receber
-                          href: localizations/apac-ind-TDS-TDS-parameters-setup-in-accounts-payable-parameters-and-accounts-receivable-parameters.md
-                        - name: Configurar agendas de pagamento com alocação de TDS
-                          href: localizations/apac-ind-TDS-Payment-schedule-setup-with-TDS-allocation.md
-                        - name: Configurar taxas de pagamento para pagamentos de autoridade de TDS
-                          href: localizations/apac-ind-TDS-Payment-fee-setup-to-charge-payment-fee-for-TDS-authority-payments.md
-                        - name: 'Configuração de informações de grupo de TDS, PAN e TAN para fornecedores e clientes'
-                          href: localizations/apac-ind-TDS-TDS-group-PAN-and-TAN-information-setup-for-vendors-and-customers.md
-                    - name: Designer de fórmulas e limite para cálculo de TDS
-                      items:
-                        - name: Designer de fórmulas para cálculos de TDS
-                          href: localizations/apac-ind-TDS-Formula-designer.md
-                        - name: Limite e limite de exceção
-                          href: localizations/apac-ind-TDS-Threshold-limit-and-exception-threshold-limit.md
-                    - name: Cálculo de TDS em faturas
-                      items:
-                        - name: Cálculo de TDS em faturas
-                          href: localizations/apac-ind-TDS-TDS-calcuation-on-invoice.md
-                        - name: Calcular TDS em faturas usando diários
-                          href: localizations/apac-ind-TDS-Calculate-TDS-on-invoices-using-journals.md
-                        - name: Calcular faturas de TDS usando o formulário de ordem de compra e o formulário de ordem de venda
-                          href: localizations/apac-ind-TDS-Calculate-TDS-invoices-using-purchase-order-form-and-sales-order-form.md
-                        - name: Cálculo de TDS em faturas a partir da página Fatura de texto livre
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-invoices-using-free-text-invoice-form.md
-                        - name: Funcionalidade Dividir fatura
-                          href: localizations/apac-ind-TDS-Split-invoice-functionality.md
-                    - name: Cálculo de TDS em pagamentos e notas promissórias
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                    - name: Cálculo de TDS em transações intercompanhia
-                      href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                    - name: Processo de liquidação de TDS
-                      items:
-                        - name: Cálculo de TDS em pagamentos e notas promissórias
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-payments-and-promissory-notes.md
-                        - name: Cálculo de TDS em transações intercompanhia
-                          href: localizations/apac-ind-TDS-TDS-calculation-on-intercompany-transactions.md
-                        - name: Processo de liquidação de TDS
-                          items:
-                            - name: Executar o processo periódico de liquidação de TDS
-                              href: localizations/apac-ind-TDS-Run-the-periodic-TDS-settlement-process.md
-                            - name: Liquidar pagamentos de TDS para fornecedores de autoridade de TDS e gerar TDS challan
-                              href: localizations/apac-ind-TDS-Settle-TDS-payments-to-TDS-authority-vendors-and-generate-TDS-challan.md
-                            - name: Exibir pagamentos e transações de TDS lançados para um período de liquidação de TDS
-                              href: localizations/apac-ind-TDS-View-TDS-payments-and-TDS-transactions-posted-for-a-TDS-settlement-period.md
-                        - name: Registrar e atualizar datas e números de certificados de TDS
-                          items:
-                            - name: Registrar números de certificados de TDS recuperáveis
-                              href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
-                            - name: Atualizar datas e números de certificados de transações de TDS
-                              href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
+                        - name: Registrar números de certificados de TDS recuperáveis
+                          href: localizations/apac-ind-TDS-Record-TDS-recoverable-certificate-numbers.md
+                        - name: Atualizar datas e números de certificados de transações de TDS
+                          href: localizations/apac-ind-TDS-Update-certificate-numbers-and-dates-for-TDS-transactions.md
             - name: Itália
               items:
                 - name: Visão geral da Itália
@@ -4159,14 +4175,18 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/dynamics365/finance/toc.json
                     - name: Automatizar testes com ER
                       href: ../fin-ops-core/dev-itpro/analytics/er-automate-testing.md?toc=/dynamics365/finance/toc.json
-                - name: Automatizar processos de negócios usando configurações de Relatório eletrônico
+                - name: Automatizar processos de negócios usando configurações ER
                   items:
                     - name: Configurar ER para extrair dados para o Power BI
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/finance/toc.json
                     - name: Gerar formulários imprimíveis de fatura de texto livre (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/finance/toc.json
-                - name: Rastrear a execução de formatos ER para solucionar problemas de desempenho
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                - name: Criar soluções ER eficientes
+                  items:
+                    - name: Rastrear a execução de formatos ER para solucionar problemas de desempenho
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/finance/toc.json
+                    - name: Solucionar problemas de desempenho nas configurações ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/finance/toc.json
                 - name: Gerenciamento de documentos comerciais (BDM)
                   items:
                     - name: Visão geral do BDM
