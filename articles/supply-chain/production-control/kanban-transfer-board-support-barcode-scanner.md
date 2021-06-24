@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a7073fb5d77e2d11569e86b92433864371f0e1d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c48c4737c260004ea44109cfb2a0478a3e8653cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825858"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190055"
 ---
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Suporte do quadro de transferência kanban para os scanners de código de barras
 
@@ -29,8 +29,7 @@ ms.locfileid: "5825858"
 
 O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban.
 
-<a name="registration-modes"></a>Modos de registro
-------------------
+## <a name="registration-modes"></a>Modos de registro
 
 Na Guia Rápida **Registro do scanner** você pode selecionar o modo do registro, que controla a ação quando você pesquisa um número de cartão kanban ou digita manualmente o número no campo Número do cartão kanban.
 
@@ -42,8 +41,7 @@ Na Guia Rápida **Registro do scanner** você pode selecionar o modo do registro
 | Selecionar                | Registra um número de cartão kanban e seleciona automaticamente o trabalho referenciado na lista Kanban. |
 
  
-<a name="registration-mode-select"></a>Seleção do Modo de registro
-------------------------
+## <a name="registration-mode-select"></a>Seleção do Modo de registro
 
 Quando você usa um leitor de código de barras para selecionar um trabalho, o modo de exibição do quadro kanban é alterado. Nesse modo, as seguintes condições se aplicam:
 

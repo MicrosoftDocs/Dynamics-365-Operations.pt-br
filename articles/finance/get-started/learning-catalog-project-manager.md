@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-27
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: fee455fe1e51ac99fe6f38a63b48c7b92d32ac7a
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 01d6d79c482871c9f39898298292b21367c9a48e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897055"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193322"
 ---
 # <a name="learning-catalog-for-implementation-project-managers-working-with-dynamics-365-finance"></a>Catálogo de aprendizado de gerentes de projeto de implementação que trabalham com o Dynamics 365 Finance
 
@@ -88,10 +88,10 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 
 ## <a name="exams"></a>Exames<a name="exams"></a>
 
-| Conteúdo  | descrição  | Formatar   |
-|-------------|-----------------|-------------|
-| [Teste MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: usar ferramentas comuns de funcionalidade e implementação; configurar segurança, processos e opções; realizar a migração de dados; validar e fornecer suporte para a solução. | O custo do teste varia de acordo com a região | |
-| [Teste MB-310: Microsoft Dynamics 365 for Finance and Operations, Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: definir e configurar o gerenciamento financeiro; gerenciar e aplicar processos comuns; implementar e gerenciar contas a receber e contas a pagar; e gerenciar orçamentos e ativos fixos. | O custo do teste varia de acordo com a região | |
+| Conteúdo | descrição | Formatar |
+|---|---|---|
+| [Teste MB-300: Microsoft Dynamics 365 Unified Operations Core](/learn/certifications/exams/mb-300?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: usar ferramentas comuns de funcionalidade e implementação; configurar segurança, processos e opções; realizar a migração de dados; validar e fornecer suporte para a solução. | O custo do teste varia de acordo com a região |
+| [Teste MB-310: Microsoft Dynamics 365 for Finance and Operations, Financials](/learn/certifications/exams/mb-310?wt.mc_id=learningredirect_certs-web-wwl) | Este teste mede a sua capacidade de realizar as seguintes tarefas técnicas: definir e configurar o gerenciamento financeiro; gerenciar e aplicar processos comuns; implementar e gerenciar contas a receber e contas a pagar; e gerenciar orçamentos e ativos fixos. | O custo do teste varia de acordo com a região |
 | [Certificação Microsoft: Dynamics 365 for Finance and Operations, Financials Functional Consultant Associate](https://www.microsoft.com/learning/d365-functional-consultant-financials.aspx) | Certificação Microsoft: Dynamics 365 for Finance and Operations, Financials Functional Consultants unifica processos financeiros globais e operações, além de automatizar tarefas e fluxos de trabalho, otimizar solicitações, faturamentos e relatórios do cliente. | O custo da certificação varia de acordo com a região |
 
 

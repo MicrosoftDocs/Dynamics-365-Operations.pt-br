@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dcdd8097279027df2fa5cf22cc38cc8a5e2a13e3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f3d82089d2917a0ec0b9ceead7cd1ec22457733
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814575"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188140"
 ---
 # <a name="production-process-overview"></a>Visão geral do processo de produção
 
@@ -74,8 +74,7 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
 12. **Fechamento do período** – Alguns princípios de contabilização de custos, como a média periódica, custos de fluxo inverso, PEPS ou UEPS, exigem atividades periódicas para fechar o estoque ou o período financeiro. Normalmente, o sistema tenta informar todo consumo de materiais e recursos, e também as correções de estoque e sucata, antes dos períodos serem fechados. Este relatório normalmente é feito usando diários de movimentos de estoque ou diários de ajuste. A meta é avaliar o desempenho econômico de unidades operacionais por período. Em alguns casos, quando são usadas ordens de produção de execução longa que se estendem pelos períodos de relatórios financeiros, os diários de produção são usados para informar o andamento da produção e o consumo de recursos até o fim do período.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [​Comentários da produção​](production-feedback.md)
 

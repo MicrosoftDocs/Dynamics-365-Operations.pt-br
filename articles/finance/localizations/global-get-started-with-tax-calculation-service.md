@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3f8aa791cee1926afe6be347331d47902a3b7304
-ms.sourcegitcommit: f4dc09601bceb5cdc88ee184ce7c8f369e3e6e86
+ms.openlocfilehash: e72b81d4a109db2dd8b4c6ca2ca0b030220e25f3
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6060554"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216710"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Introdução ao Cálculo de Imposto (versão preliminar)
 
@@ -58,7 +58,7 @@ Antes de poder concluir os procedimentos neste tópico, é preciso ter os seguin
 As etapas nesta seção não estão relacionadas a uma entidade legal específica. É necessário concluir este procedimento somente uma vez, sendo possível concluí-lo em qualquer entidade legal no RCS.
 
 1. Entre no [RCS](https://marketing.configure.global.dynamics.com/).
-2. No espaço de trabalho **Relatório eletrônico** do Finance, adicione um novo provedor de configuração. Use o nome da empresa como o nome do provedor. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+2. No espaço de trabalho **Relatório eletrônico**, adicione um novo provedor de configuração. Use o nome da empresa como o nome do provedor. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione o provedor de configuração recém-criado e, depois, selecione **Definir como ativo**.
 4. Selecione o provedor de configuração **Microsoft** e, depois, selecione **Repositórios**.
 5. No campo **Tipo**, selecione **Global**.

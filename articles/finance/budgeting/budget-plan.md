@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6223cce4a960d3fa3db1f3a17b324201085ea04
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e22089220edfff3fb53b2101b39f5352817db2a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822218"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188012"
 ---
 # <a name="budget-planning"></a>Plano de orçamento
 
@@ -34,13 +34,12 @@ O objetivo deste laboratório é apresentar uma visualização guiada das atuali
 - Usando alocações para ajustar dados do documento do plano de orçamento
 - Editando dados do documento do plano de orçamento no Excel 
 
-<a name="prerequisites"></a>Pré-requisitos 
-------------------
+## <a name="prerequisites"></a>Pré-requisitos 
 
-Para este tutorial, você precisará acessar o ambiente do Microsoft Dynamics 365 Finance com dados de demonstração da Contoso e ser provisionado como administrador na instância. Não use o modo InPrivate do navegador para este laboratório. Se necessário, saia de todas as outras contas do navegador e entre com as credenciais de administrador. Ao entrar, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado". Isso cria um cookie persistente necessário para o Excel App. Se você entrar no aplicativo usando um navegador diferente do IE, será solicitado que entre no aplicativo Excel. Quando você clica em “Entrar” no aplicativo Excel, uma janela pop-up do IE é aberta e, ao entrar, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado”. Se, ao clicar em "Login" no Excel App, nada acontecer, você deverá limpar o cache de cookies no IE.
+Para este tutorial, você precisará acessar o ambiente do Microsoft Dynamics 365 Finance com os dados de demonstração da Contoso e ser provisionado como administrador na instância. Não use o modo InPrivate do navegador para este laboratório. Se necessário, saia de todas as outras contas do navegador e entre com as credenciais de administrador. Ao entrar, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado". Isso cria um cookie persistente necessário para o Excel App. Se você entrar no aplicativo usando um navegador diferente do IE, será solicitado que entre no aplicativo Excel. Quando você clica em “Entrar” no aplicativo Excel, uma janela pop-up do IE é aberta e, ao entrar, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado”. Se, ao clicar em "Login" no Excel App, nada acontecer, você deverá limpar o cache de cookies no IE.
 
 ## <a name="scenario-overview"></a>**Visão geral do cenário**
-Julia funciona como um gerente financeira na Contoso Entertainment Systems na Alemanha (DEMF). Como o FY2016 se aproxima, ela precisa trabalhar na configuração do orçamento da empresa para o próximo ano. Aspectos de preparação:
+Julia trabalha como gerente financeira na Contoso Entertainment Systems na Alemanha (DEMF). Como o FY2016 se aproxima, ela precisa trabalhar na configuração do orçamento da empresa para o próximo ano. Aspectos de preparação:
 
 1.  Julia os valores reais do ano anterior como ponto de partida para criar o orçamento.
 2.  Com base nos números reais do ano anterior, ela cria previsões para os 12 meses do próximo ano

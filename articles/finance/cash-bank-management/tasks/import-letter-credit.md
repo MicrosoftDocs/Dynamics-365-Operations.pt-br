@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6ce0a12aff70da1ec556b69198aa5210519b6af2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 841b4b4bb3c2f98ac65491a21bb991945c9f4bc9
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834731"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193920"
 ---
 # <a name="import-letter-of-credit"></a>Importar carta de crédito
 
@@ -128,7 +128,8 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 12. Feche a página.
 13. Feche a página.
 
-## <a name="verify-import-letter-of-credit-status"></a>Verifique o status Importar carta de crédito
+## <a name="verify-import-letter-of-credit-status-and-printing"></a>Verifique o status de Importar carta de crédito e a impressão
+
 1. Vá para Gerenciamento de caixa e bancos > Cartas de crédito > Importar carta de crédito e importar coleção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.

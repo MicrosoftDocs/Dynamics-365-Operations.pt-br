@@ -2,7 +2,7 @@
 title: ​Visão geral de faturas de fornecedor​
 description: Este tópico fornece informações gerais sobre notas fiscais de fornecedor.
 author: abruer
-ms.date: 12/18/2019
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bd30e7128c688a0880727380e601069a95a28dcd
-ms.sourcegitcommit: eff3da7ea98758f100d44ff7feec17157afc2e80
+ms.openlocfilehash: c12b85103ff136799e5d676f72186e007161e9a9
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6111685"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186339"
 ---
 # <a name="vendor-invoices-overview"></a>Visão geral de faturas de fornecedor
 
@@ -28,7 +28,7 @@ ms.locfileid: "6111685"
 [!include [preview banner](../includes/preview-banner.md)]
 
 
-Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As faturas do fornecedor são solicitações para pagamento recebido dos produtos e serviços. As faturas do fornecedor podem representar uma cobrança para serviços em andamento, ou podem se basear em ordens de compra para itens e serviços específicos.
+Este tópico fornece informações gerais sobre notas fiscais de fornecedor. As faturas do fornecedor são solicitações para pagamento dos produtos e serviços. As faturas do fornecedor podem representar uma cobrança para serviços em andamento, ou podem se basear em ordens de compra para itens e serviços específicos.
 
 ## <a name="vendor-invoices"></a>Faturas de fornecedor
 

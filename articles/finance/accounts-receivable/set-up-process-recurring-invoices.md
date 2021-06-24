@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dd6b21207b61dfb96e4d9538b5e6ffc1c6b02d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 834dc64ce531fb614bc7836e0def16f27ecf5e18
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835115"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188629"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>Configurar e processar notas ficais recorrentes
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835115"
 
 Este artigo explica como configurar e processar notas fiscais recorrentes. Você pode usar notas fiscais recorrentes se você deve cobrar clientes para a mesma quantidade regularmente.
 
-<a name="create-a-recurring-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre recorrente
----------------------------------------------
+## <a name="create-a-recurring-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre recorrente
 
 Para cobrar clientes sobre os mesmos serviços regularmente, você deve definir um modelo de fatura de texto livre que pode ser reutilizado para criar faturas. Este modelo contém as seguintes informações:
 
@@ -52,13 +51,11 @@ Um cliente pode ter vários modelos que têm frequências diferentes.
 ## <a name="generate-the-recurring-invoices"></a>Gerar as faturas recorrentes
 Na página **Faturas recorrentes**, há uma tarefa que processa modelos da fatura recorrente. Especifique a data da fatura e o modelo para gerar faturas. As faturas serão geradas e atribuídas a um único número de identificação de recorrência para cada grupo de faturas que é processado.
 
-<a name="post-recurring-free-text-invoices"></a>Lançar faturas de texto livre recorrentes
----------------------------------
+## <a name="post-recurring-free-text-invoices"></a>Lançar faturas de texto livre recorrentes
 
 Depois que as faturas recorrentes são geradas, as IDs de recorrência da fatura aparecem em uma tarefa de lançamentos na página **Faturas recorrentes**. Você pode exibir todas as faturas para um ID de recorrência se você clicar no link. Durante a revisão de faturas para o ID de recorrência, você pode excluir faturas individuais. As configurações de recorrência do cliente serão redefinidas para esse modelo, de modo que possa ser gerado novamente depois. Você pode lançar uma, muitas ou todas as faturas para uma ID de recorrência. Se os fluxos de trabalho estiverem habilitados, você deverá clicar em **Enviar** antes de lançar as faturas.
 
-<a name="print-recurring-free-text-invoices"></a>Imprimir faturas de texto livre recorrentes
-----------------------------------
+## <a name="print-recurring-free-text-invoices"></a>Imprimir faturas de texto livre recorrentes
 
 Depois que as faturas recorrentes são lançadas, você pode imprimir as faturas da página de listagem de faturas de texto livre. Você pode imprimir as faturas selecionadas ou pode selecionar um intervalo de faturas para imprimir.
 

@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4ce71052961f9157839df4e8a9daa26c0cc74767
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5580e42f0b186ab3803558b76219f9056ab843eb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826068"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189770"
 ---
 # <a name="tax-attributes-for-brazil"></a>Atributos de impostos do Brasil
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826068"
 
 Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais.
 
-<a name="tax-address-attributes"></a>Atributos de endereço para imposto
-----------------------
+## <a name="tax-address-attributes"></a>Atributos de endereço para imposto
 
 Para qualquer entidade legal que tenha um endereço no Brasil, o código do IBGE (Instituto Brasileiro de Geografia e Estatística) deve estar configurado no estado e/ou cidade. O código do IBGE é usado para identificar a região na qual o endereço está localizado, para que os impostos corretos sejam considerados. As informações do código IBGE vem do IBGE, que é uma organização oficial que mapeia a geografia brasileira.
 

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 962edb3fd0478a8f0281054abc00c35b732620f6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 88665c70b05d9ecf8ec2641862d870d87604092f
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796405"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193146"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
@@ -33,7 +33,7 @@ A operação de atendimento da ordem no ponto de venda fornece uma área de trab
 
 ## <a name="access-unified-order-fulfillment-in-the-point-of-sale"></a>Acessar atendimento unificado da ordem no ponto de venda
 
-O atendimento da ordem, [ID 928 da Operação](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), pode ser usado para acessar a área de trabalho de atendimento da ordem da loja no ponto de venda.
+O atendimento da ordem, [ID 928 da Operação](pos-operations.md), pode ser usado para acessar a área de trabalho de atendimento da ordem da loja no ponto de venda.
 
 A operação de atendimento da ordem não tem sua própria permissão imediata, mas no futuro, os usuários poderão usar a permissão **Permitir recuperar ordem** para chamar a operação do ponto de venda.
 
@@ -93,7 +93,7 @@ Depois que uma ordem for aceita, as linhas podem ser selecionadas e marcadas com
 
 As listas de separação podem ser impressas no ponto de venda para auxiliar os trabalhadores a executarem o processo de separação. Uma lista de separação impressa pode ser executada com o trabalhador executando a separação, e conforme os produtos são separados, o trabalhador pode marcá-los manualmente como separados na lista de separação.
 
-O formato da lista de separação é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+O formato da lista de separação é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](receipt-templates-printing.md).
 
 Se as linhas forem selecionadas e uma lista de separação for impressa para essas linhas, elas serão atualizadas automaticamente com o status **Separação**.
 
@@ -119,7 +119,7 @@ As linhas de ordem podem ser embaladas em qualquer ponto depois que a linha da o
 - **Status resultante:** Embalada ou parcialmente embalada
 - **Status resultante de back office:** Entregue ou parcialmente entregue
 
-Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Commerce e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](receipt-templates-printing.md).
 
 **Ação: Marcar como embalada**
 

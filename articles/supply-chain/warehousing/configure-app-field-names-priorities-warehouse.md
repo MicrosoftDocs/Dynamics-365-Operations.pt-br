@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c6ed726536085b836f4014c59ea8df4755577ab5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bc224d3fd6cf5b111f61066202090f10ba4a7e8a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808813"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189241"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurar campos para o aplicativo móvel do Gerenciamento de Depósito
 
@@ -137,8 +137,7 @@ Com base na prioridade de campo do aplicativo de depósito configurada na tabela
 
 Os metadados restantes, como Local, não serão exibidos na página de tarefas, mas o serão em uma página de detalhes. Para saber mais e ver exemplos da interface do usuário, consulte a postagem do blog [Anúncio do Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Instalar e conectar o aplicativo móvel do Gerenciamento de Depósito](../warehousing/install-configure-warehouse-management-app.md)
 

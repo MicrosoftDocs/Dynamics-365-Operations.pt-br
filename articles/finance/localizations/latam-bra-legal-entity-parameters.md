@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 05ca53241444a28225fd2cbe2893134b20ac32c8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ad236f7a71dbb16360d39634a5c39d23efd2749
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823637"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188975"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
@@ -28,8 +28,7 @@ ms.locfileid: "5823637"
 
 Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
 
-<a name="brazilian-legal-entity-overview"></a>Visão geral da entidade legal brasileira
--------------------------------
+## <a name="brazilian-legal-entity-overview"></a>Visão geral da entidade legal brasileira
 
 Uma entidade legal brasileira está organizada por estabelecimentos fiscais que funcionam da mesma forma e está nas mesmas operações de uma ramificação. Há um estabelecimento fiscal principal que é considerado a matriz e os estabelecimentos fiscais relacionados que estão localizados em outros estados ou fora do Brasil. A ilustração a seguir mostra a estrutura de uma entidade legal brasileira e os estabelecimentos fiscais relacionados. 
 

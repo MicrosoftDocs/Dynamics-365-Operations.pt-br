@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 3d9bbc91b90cc675f500a990cf36e2aee6c6bccb
-ms.sourcegitcommit: 35fdcc6501e099c54a58583b1e3aba16f02a5ccc
+ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5980939"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6184013"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -289,14 +289,15 @@ A tabela a seguir mostra quais recursos de operações de depósito e tratamento
 | Alterar pool de trabalho no trabalho                           | Sim | Sim                          |
 | Cancelar trabalho                                        | Sim | Sim                          |
 
-
 ### <a name="production"></a>Produção
 
-No momento, os cenários de produção de gerenciamento de depósito não tem suporte em unidades de escala, conforme indicado na tabela a seguir.
+A seguinte tabela resume quais cenários de produção do Warehouse Management são (e não são) compatíveis atualmente nas cargas de trabalho da unidade de escala.
 
 | Processar | Hub | Carga de trabalho de WES em uma unidade de escala |
 |---------|-----|------------------------------|
-| <p>Todos os processos de gerenciamento de depósito estão relacionados à produção. Eis alguns exemplos:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>RAF e armazenamento de mercadorias acabadas</li><li>Armazenamento de coproduto e subproduto</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Começar ordem de produção</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
+| Relatar como finalizado e guardar mercadorias finalizadas | Sim | Sim |
+| Armazenamento de coproduto e subproduto | Sim | Sim |
+| <p>Todos os outros processos do Warehouse Management que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Começar ordem de produção</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Manter unidades de escala para WES
 

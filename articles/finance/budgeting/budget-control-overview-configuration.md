@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f9a4897f34d016da8dd03d3108069e8aaa1369f7
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 98331fa4dcafb87789e7ea80f28a16463d7f2e3e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5959960"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188036"
 ---
 # <a name="budget-control-overview"></a>Visão geral de controle de orçamento
 
@@ -28,8 +28,7 @@ ms.locfileid: "5959960"
 
 Este artigo apresenta o controle de orçamento e fornece informações para ajudar você a configurar esse recurso para gerenciar recursos financeiros.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 O controle de orçamento oferece suporte ao gerenciamento dos recursos financeiros de uma organização por meio do plano de contas, de fluxos de trabalho, grupos de usuários, documentos de origem e diários, cálculo configurável de fundos disponíveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
 

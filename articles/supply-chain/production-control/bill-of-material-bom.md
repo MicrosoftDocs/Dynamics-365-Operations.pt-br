@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 037b6de9c23947b8b67faa12f2fc64afa089949c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb9b26eaedd9e9645209ce0b4b767170cccfdc48
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811765"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190103"
 ---
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiais e fórmulas
 
@@ -29,8 +29,7 @@ ms.locfileid: "5811765"
 
 Este tópico fornece informações sobre listas de materiais (BOMs) e fórmulas, que são uma parte central da definição de produtos e grades de produtos. BOMs e fórmulas especificam os materiais ou ingredientes necessários para um produto específico. As fórmulas também especificam coprodutos e subprodutos recebidos em um contexto de produção específico. 
 
-<a name="bills-of-materials"></a>Listas de Materiais
-------------------
+## <a name="bills-of-materials"></a>Listas de Materiais
 
 Uma lista de materiais (BOM) define os componentes necessários para produzir um produto. Os componentes podem ser matérias-primas, produtos semiacabados ou ingredientes. Em alguns casos, serviços podem ser mencionados em uma BOM. No entanto, BOMs geralmente descrevem os *recursos materiais* necessários.  
 

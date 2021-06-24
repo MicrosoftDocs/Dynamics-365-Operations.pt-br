@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c8dcb5c9860cb617612dade03b55b8bd4a0983b6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41c64607f5dfbe00bd8a2e7cc80fb4771f11a6d1
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826609"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188431"
 ---
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826609"
 
 Este tópico fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 A estrutura de imposto dá suporte a muitos tipos de impostos indiretos, como imposto sobre vendas, imposto sobre valor agregado (VAT), imposto de bens e serviços (GST), taxas com base em unidades e retenção de imposto. Estes impostos são calculados e documentados as transações de compra e vendas. Periodicamente, eles devem ser reportados e pagos às autoridades do imposto. 
 

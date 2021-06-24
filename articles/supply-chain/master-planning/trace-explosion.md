@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f7f2a50c5e30155c11d653601187c36cb385aa4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75d994db80071c4ef9e23caf24cb4cadbc1473ad
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839188"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189883"
 ---
 # <a name="use-tracing-for-explosion"></a>Use o rastreamento para detalhamento
 
@@ -38,8 +38,7 @@ Ao habilitar o rastreamento, você pode exibir informações sobre os fatores qu
 
 Você pode exibir detalhes sobre futuros e ações para uma ordem selecionada. Na página **Detalhamento**, as informações de rastreamento estão disponíveis na guia **Explicação** no painel superior. O rastreamento ocorre quando você detalha uma ordem. Para iniciar o rastreamento da ordem planejada, clique em **Atualizar** e e marque a caixa de seleção **Habilitar rastreamento**. Você pode usar o campo **Localizar texto** para pesquisar o log de informações específicas. Os resultados de pesquisa são realçados na árvore.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de planos mestres](master-plans.md)
 

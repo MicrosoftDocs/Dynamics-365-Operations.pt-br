@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e0df9177b63619787dba057e9aa532255e68bde
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 86fbc81de8ba59f0782bd9af5b50bfcf45d5621a
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811861"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193036"
 ---
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Alocar tempo para trabalhos em um pacote de trabalhos
 
@@ -80,7 +80,7 @@ A tabela a seguir ilustra a fórmula para calcular o tempo alocado. Esta é a f�
 ## <a name="net-time-allocation-key"></a>Chave de Alocação do Período Líquido
 A tabela a seguir ilustra a fórmula para calcular o tempo alocado. Esta é a fórmula: Tempo calculado por relatório = Tempo do pacote ÷ Número de trabalhos
 
-|                              | 09:00 – 10:00 (1 hora) | 10:00 – 11:00 (1 hora) | 11:00 – 13:00 (2 horas) | 13:00 – 15:00 (2 horas) | Tempo distribuído |
+| Exemplo                       | 09:00 – 10:00 (1 hora) | 10:00 – 11:00 (1 hora) | 11:00 – 13:00 (2 horas) | 13:00 – 15:00 (2 horas) | Tempo distribuído |
 |------------------------------|----------------------|----------------------|-----------------------|-----------------------|----------------|
 | Número de trabalhos no grupo | 1                    | 3                    | 2                     | 1                     | Não aplicável |
 | Trabalho 1                        | 1 ÷ 1 = 1 hora       | 1 ÷ 3 = 0,33 hora    | Não aplicável        | Não aplicável        | 1,33 hora     |

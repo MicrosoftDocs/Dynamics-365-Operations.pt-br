@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 62868c30d3ff60e51d99c71b743ab0bbb3c87451
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fc986ea752d1482f618401058f7a0b18f13efd5f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835187"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188701"
 ---
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Configurar taxas de juros para um código de juros
 
@@ -90,7 +90,6 @@ Configure as informações do intervalo conforme as informações a seguir.
 
 
 ## <a name="example-2-interest-by-range--days"></a>Exemplo 2: Juros por intervalo = Dias
---------------------------------------------------
 
 Você configura um código de juros que avalia juros uma vez a cada 15 dias que o pagamento da fatura ultrapassar a data de vencimento da transação. Você deseja basear o cálculo de um valor dos juros em valor, de acordo com os intervalos de dia de nível. O valor dos juros será 10,00 para 15 dias durante os primeiros 60 dias, 15,00 para 15 dias durante os dias 61 a 90 e 20,00 para 15 dias do dia 91 e os dias seguintes. Configure os valores do campo código de juros como a seguir.
 
@@ -111,7 +110,6 @@ Configure as informações do intervalo conforme as informações a seguir.
 
 
 ## <a name="example-3-interest-by-range--months"></a>Exemplo 3: Juros por intervalo = Meses
-----------------------------------------------------
 
 Você configura um código de juros que avalia juros uma vez a cada mês que o pagamento da fatura ultrapassar a data de vencimento da transação. Você deseja basear o cálculo de um valor dos juros em porcentagem, de acordo com o mês de nível dos intervalos. O valor dos juros será 1,5 por cento por mês para os três primeiros meses vencidos, 2,0 por cento por mês para os três meses seguintes, e 2,5 por cento por mês para cada mês além dos seis primeiros meses. Configure os valores do campo código de juros como a seguir.
 

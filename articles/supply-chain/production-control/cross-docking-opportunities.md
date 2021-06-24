@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 231c59cea2ca0bcb139079209d2e846e67eb7fed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839140"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190079"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Distribuição integrada de ordens de produção para docas de saída
 
@@ -28,8 +28,7 @@ ms.locfileid: "5839140"
 
 Este tópico descreve como gerenciar o processo de distribuição integrada de materiais que está sendo informado como concluído de uma linha de produção para uma doca de transporte.
 
-<a name="introduction"></a>Introdução
-------------
+## <a name="introduction"></a>Introdução
 
 A distribuição integrada de produção para uma localização de saída é relevante para fabricantes que geram alto volume e querem enviar os produtos acabados, de preferência, assim que forem relatados como concluídos das linhas de produção. O objetivo é enviar os produtos a centros de distribuição que estão fisicamente localizados próximos à demanda do cliente, em vez de acumular estoque no site de fabricação.
 

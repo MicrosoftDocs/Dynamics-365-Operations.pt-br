@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 02122d9145552952412c239a7f541e6a727f061e
-ms.sourcegitcommit: fd15b02fc9caa1c05e56abdc276a7f4b23b0d8f3
+ms.openlocfilehash: 9ae13ce4038346cd5b101b5c40fe3b7c5e617fbf
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5960040"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187931"
 ---
 # <a name="budgeting-overview"></a>Visão geral de orçamento 
 
@@ -28,8 +28,7 @@ ms.locfileid: "5960040"
 
 Quase todas as empresas que usam a funcionalidade Finanças no Microsoft Dynamics 365 Finance precisarão ser capazes de criar relatórios de orçamento versus valores reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 O orçamento aprovado para uma entidade legal é mantido em um documento que é conhecido como *entrada de registro de orçamento*. As linhas de um documento de entrada de registros de orçamento são conhecidas como entradas da *conta de orçamento* e contêm informações de dimensão financeira, datas e os valores de orçamento aprovado. O documento de entrada do registro de orçamento é integrado às páginas de relatórios financeiros básicos e de consulta onde os valores reais do razão são comparados aos valores de orçamento. 
 

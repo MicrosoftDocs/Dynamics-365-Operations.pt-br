@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5cdf7b2655f62b693a8f2bc137c690fbc43b16a7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 246a79f6f1578e81510d4a57ee12f0e0497bff84
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796429"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193170"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>Configurar atendimento da ordem para lojas
 
@@ -33,9 +33,9 @@ A operação de atendimento da ordem no ponto de venda fornece uma área de trab
 
 ## <a name="set-up-the-order-fulfillment-operation"></a>Configurar a operação de atendimento da ordem
 
-O atendimento da ordem, [ID 928 da Operação](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-operations), pode ser usado para acessar a área de trabalho de atendimento da ordem da loja no ponto de venda.
+O atendimento da ordem, [ID 928 da Operação](pos-operations.md), pode ser usado para acessar a área de trabalho de atendimento da ordem da loja no ponto de venda.
 
-Siga as etapas na grade [Adicionar a operação a um botão](https://docs.microsoft.com/dynamics365/unified-operations/retail/pos-screen-layouts) para especificar qual parâmetro usar ao chamar o atendimento da ordem no ponto de venda. Por padrão, após especificar as operações de atendimento da ordem, a opção **Todas as ordens** é selecionada. Quando configurada com este parâmetro, a operação listará todas as linhas da ordem de atendimento na loja atual. Também disponível está **Ordens a serem remetidas**, que podem ser atribuídas a um botão e utilizadas quando o usuário só quer ver as ordens que serão remetidas à loja. Finalmente, há **Ordens para retirada**. Quando chamada no ponto de venda, lista somente ordens a serem retiradas na loja. Os diferentes parâmetros podem ser atribuídos a botões diferentes para fornecer ao usuários uma variedade de formas para exibir o atendimento da ordem.
+Siga as etapas na grade [Adicionar a operação a um botão](pos-screen-layouts.md) para especificar qual parâmetro usar ao chamar o atendimento da ordem no ponto de venda. Por padrão, após especificar as operações de atendimento da ordem, a opção **Todas as ordens** é selecionada. Quando configurada com este parâmetro, a operação listará todas as linhas da ordem de atendimento na loja atual. Também disponível está **Ordens a serem remetidas**, que podem ser atribuídas a um botão e utilizadas quando o usuário só quer ver as ordens que serão remetidas à loja. Finalmente, há **Ordens para retirada**. Quando chamada no ponto de venda, lista somente ordens a serem retiradas na loja. Os diferentes parâmetros podem ser atribuídos a botões diferentes para fornecer ao usuários uma variedade de formas para exibir o atendimento da ordem.
 
 ### <a name="enable-users-to-access-order-fulfillment-at-the-point-of-sale"></a>Habilitar usuários para que acessem o atendimento da ordem no ponto de venda
 
@@ -104,9 +104,9 @@ Por padrão, as ordens terão o status **Aceitas**. O status da ordem pode ser e
 
 - **Editar** – Se um status de ordem estiver pendente, ele poderá ser editado no ponto de venda. As ordens que já foram parcialmente separadas, embaladas ou faturadas não podem ser editadas na exibição de atendimento da ordem.
 - **Aceitar** – Se **Aceitação manual** estiver configurada em nível de canal, as linhas deverão ser aceitas primeiro, antes de serem movidas pelo processo de atendimento da ordem.
-- **Separar** – A opção de separação oferece suporte a várias ações. Primeiro, a **Separação** atualiza o status da linha de ordem, de forma que outras pessoas da loja não tentem separar a mesma linha. Em seguida, **Imprimir lista de separação** imprime uma lista de separação da linha ou linhas selecionadas e também atualiza o status para **Separação**. Os formatos de lista de separação são controlados como parte dos formatos de recebimento. Para obter mais informações sobre como configurar formatos de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing). Por fim, **Marcar como separado** indica que a linha foi separada. **Marcar como separado** inicia transações de estoque correspondentes no back-office. Ações de separação podem ser executadas ao mesmo tempo para várias linhas da ordem por meio de ordens e para todos os modos de entrega.
+- **Separar** – A opção de separação oferece suporte a várias ações. Primeiro, a **Separação** atualiza o status da linha de ordem, de forma que outras pessoas da loja não tentem separar a mesma linha. Em seguida, **Imprimir lista de separação** imprime uma lista de separação da linha ou linhas selecionadas e também atualiza o status para **Separação**. Os formatos de lista de separação são controlados como parte dos formatos de recebimento. Para obter mais informações sobre como configurar formatos de recebimento, consulte [Modelos de recibo e impressão](receipt-templates-printing.md). Por fim, **Marcar como separado** indica que a linha foi separada. **Marcar como separado** inicia transações de estoque correspondentes no back-office. Ações de separação podem ser executadas ao mesmo tempo para várias linhas da ordem por meio de ordens e para todos os modos de entrega.
 - **Rejeitar** – As linhas ou linhas parciais podem ser rejeitadas. Isso permite que elas sejam reatribuídas do back-office para outra loja ou depósito. As linhas só podem ser rejeitadas se não forem separadas ou embaladas. Para rejeitar uma linha que já foi separada ou embalada, essa linha deve ter a separação ou embalagem cancelada no back-office.
-- **Pacote** – A opção de pacote dá suporte a duas ações: **Imprimir guia de remessa** imprimirá uma guia de remessa para as linhas selecionadas e **Marcar como empacotado** marcará as linhas como empacotadas e marcará as linhas como entregues no back office. Somente as linhas de ordem que pertencem à mesma ordem e têm o mesmo modo de entrega podem ser embaladas simultaneamente. Os formatos de guia de remessa são controlados como parte dos formatos de recebimento. Para obter mais informações sobre como configurar formatos de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+- **Pacote** – A opção de pacote dá suporte a duas ações: **Imprimir guia de remessa** imprimirá uma guia de remessa para as linhas selecionadas e **Marcar como empacotado** marcará as linhas como empacotadas e marcará as linhas como entregues no back office. Somente as linhas de ordem que pertencem à mesma ordem e têm o mesmo modo de entrega podem ser embaladas simultaneamente. Os formatos de guia de remessa são controlados como parte dos formatos de recebimento. Para obter mais informações sobre como configurar formatos de recebimento, consulte [Modelos de recibo e impressão](receipt-templates-printing.md).
 - **Remessa** – A ação de remessa marcará as linhas selecionadas como **Entregue** no back office. Depois que a linha for completamente remetida, ela não aparecerá mais na exibição de atendimento da ordem.
 - **Retirada** – A ação de retirada adiciona as linhas à exibição da transação para retirada. Se houver outras linhas na ordem que não estejam sendo retiradas atualmente, elas serão adicionadas à exibição de transações com quantidade zero. Depois que a linha foi completamente retirada, ela não aparecerá mais na exibição de atendimento da ordem.
 

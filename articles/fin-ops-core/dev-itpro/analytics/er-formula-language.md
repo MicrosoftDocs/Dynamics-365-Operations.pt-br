@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2015405f3c7f89ba36f811ca125f3a73bc13c38
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
+ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753255"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6223977"
 ---
 # <a name="electronic-reporting-formula-language"></a>Linguagem da fórmula de relatório eletrônico
 
@@ -38,13 +38,13 @@ As expressões de ER podem conter alguns ou todos os elementos da seguir:
 - [Caminhos](#Paths)
 - [Funções](#Functions)
 
-## <a name=""></a><a name="Constants">Constantes</a>
+## <a name="constants"></a><a name="Constants"></a>Constantes
 
 Quando você cria expressões, você pode usar constantes numéricas e de texto (isto é, valores que não são calculados). Por exemplo, a expressão `VALUE ("100") + 20` usa a constante numérica **20** e a cadeia constante **“100”**, e ele devolve o valor numérico **120**.
 
 O designer da fórmula de ER suporta sequências de escape. Portanto, você pode especificar uma sequência de caracteres da expressão que deve ser tratada de maneira diferente. Por exemplo, a expressão `"Leo Tolstoy ""War and Peace"" Volume 1"` retorna a sequência de caracteres de texto **Leo Tolstoy "War and Peace" Volume 1**.
 
-## <a name=""></a><a name="Operators">Operadores</a>
+## <a name="operators"></a><a name="Operators"></a>Operadores
 
 A tabela a seguir mostra os operadores aritméticos que você pode usar para executar operações matemáticas, como adição, subtração, multiplicação e divisão.
 
@@ -88,9 +88,9 @@ A ordem em que as partes de uma expressão composta são avaliadas é importante
 
 Se uma expressão tiver vários operadores consecutivos com a mesma precedência, essas operações serão avaliadas da esquerda para a direita. Por exemplo, a expressão `1 + 6 / 2 \* 3 > 5` retorna **verdadeiro**. É recomendável usar parênteses para indicar explicitamente a ordem desejada das operações nas expressões, de forma que as expressões fiquem mais fáceis de ler e manter.
 
-## <a name=""></a><a name="References">Referências</a>
+## <a name="references"></a><a name="References"></a>Referências
 
-Todas as fontes de dados do componente do ER atual que estão disponíveis durante a criação de uma expressão podem ser usadas como referências nomeadas. O componente ER atual pode ser um mapeamento de modelo ou um formato. Por exemplo, o mapeamento de modelo atual de ER contém a fonte de dados **ReportingDate** que retorna o valor do tipo de dados *DateTime*. Para formatar corretamente esse valor no documento gerado, você pode fazer referência à fonte de dados na expressão como `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
+Todas as fontes de dados do componente do ER atual que estão disponíveis durante a criação de uma expressão podem ser usadas como referências nomeadas. O componente ER atual pode ser um mapeamento de modelo ou um formato. Por exemplo, o atual mapeamento de modelo do ER contém a fonte de dados **ReportingDate**, que retorna um valor do tipo de dados [*DateTime*](er-formula-supported-data-types-primitive.md#datetime). Para formatar corretamente esse valor no documento gerado, você pode fazer referência à fonte de dados na expressão como `DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")`.
 
 Todos os caracteres no nome de uma fonte de dados de referência que não representam uma letra de alfabeto devem ser precedidos por aspas simples ('). Se o nome de uma fonte de dados de referência contiver pelo menos um símbolo que não representa uma letra de alfabeto, o nome deve ser colocado entre aspas simples. Por exemplo, estes símbolos não alfabéticos podem ser marcas de pontuação ou outros símbolos escritos. Eis alguns exemplos:
 
@@ -99,7 +99,7 @@ Todos os caracteres no nome de uma fonte de dados de referência que não repres
 
 Se os métodos de fontes de dados do aplicativo tiverem parâmetros, a seguinte sintaxe será usada para chamar esses métodos:
 
-- Se o método **isLanguageRTL** da fonte de dados **System** tiver um parâmetro **EN-US** do tipo de dados *String*, esse método deve ser referenciado em uma expressão de ER como `System.isLanguageRTL("EN-US")`.
+- Se o método **isLanguageRTL** da fonte de dados **Sistema** tiver um parâmetro **EN-US** do tipo de dados [*Cadeia*](er-formula-supported-data-types-primitive.md#string), este método deve ser referenciado em uma expressão do ER como `System.isLanguageRTL("EN-US")`.
 - Não é obrigatório o uso de aspas quando um nome de método contiver apenas símbolos alfanuméricos. Porém elas são obrigatórias para o método de uma tabela, se o nome tiver colchetes.
 
 Quando a fonte de dados **Sistema** é adicionada a um mapeamento de ER que se refere à classe do aplicativo **Global**, a expressão `System.isLanguageRTL("EN-US ")` retorna o valor *booliano* como **FALSE**. A expressão modificada `System.isLanguageRTL("AR")` retorna o valor *Booliano* **TRUE**.
@@ -107,9 +107,9 @@ Quando a fonte de dados **Sistema** é adicionada a um mapeamento de ER que se r
 Você pode delimitar a maneira como os valores são passados para parâmetros desse tipo de método:
 
 - Apenas as constantes podem ser aprovadas para os métodos deste tipo. Os valores das constantes são definidos no tempo de design.
-- Somente os tipos de dados primitivos (básicos) são suportados para parâmetros deste tipo. Os tipos de dados primitivos incluem *Inteiro*, *Real*, *Booliano* e *Cadeia de caracteres*.
+- Somente os tipos de dados (básicos) [primitivos](er-formula-supported-data-types-primitive.md) são compatíveis para parâmetros deste tipo. Os tipos de dados primitivos incluem *Inteiro*, *Real*, *Booliano* e *Cadeia de caracteres*.
 
-## <a name=""></a><a name="Paths">Caminhos</a>
+## <a name="paths"></a><a name="Paths"></a>Caminhos
 
 Quando uma expressão referencia uma fonte de dados estruturada, você pode usar a definição do caminho para selecionar um elemento específico primitivo dessa fonte de dados. Um caractere de ponto (.) é usado para separar os elementos individuais de uma fonte de dados estruturada. Por exemplo, o modelo atual de mapeamento ER contém a fonte de dados **InvoiceTransactions** e essa origem de dados retorna uma lista de registros. A estrutura de registro **InvoiceTransactions** contém os campos **AmountDebit** e **AmountCredit** e esses campos retornam valores numéricos. Portanto, você pode criar a seguinte expressão para calcular o valor faturado: `InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit`. A construção `InvoiceTransactions.AmountDebit` nessa expressão é o caminho usado para acessar o campo **AmountDebit** da fonte de dados **InvoiceTransactions** do tipo de *Lista de registros*.
 
@@ -129,7 +129,7 @@ A parte restante do caminho absoluto também é mostrada no [Editor de fórmula 
 
 Para obter mais informações, consulte [Usar um caminho relativo em associações de dados de modelos e formatos de ER](relative-path-data-bindings-er-models-format.md).
 
-## <a name=""></a><a name="Functions">Funções</a>
+## <a name="functions"></a><a name="Functions"></a>Funções
 
 As funções internas do ER podem ser usadas em expressões ER. Todas as fontes de dados do contexto da expressão (ou seja, modelo atual do mapeamento ER ou formato ER) podem ser usadas como parâmetros de funções de chamada, de acordo com a lista de argumentos das funções de chamada. As constantes também podem ser usadas como parâmetros de funções de chamada. Por exemplo, o modelo atual de mapeamento ER contém a fonte de dados **InvoiceTransactions** e essa origem de dados retorna uma lista de registros. A estrutura de registro **InvoiceTransactions** contém os campos **AmountDebit** e **AmountCredit** e esses campos retornam valores numéricos. Portanto, para calcular o valor faturado, você pode criar a seguinte expressão que usa a função de arredondamento de ER incorporada: `ROUND (InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit, 2)`.
 
@@ -173,5 +173,8 @@ IF(COUNT (IntrastatTotals)=0, 0.0, IntrastatTotals.aggregated.'$AmountMSTRounded
 
 [Estender a lista de funções de Relatório eletrônico](general-electronic-reporting-formulas-list-extension.md)
 
+[Tipos de dados primitivos compatíveis](er-formula-supported-data-types-primitive.md)
+
+[Tipos de dados compostos compatíveis](er-formula-supported-data-types-composite.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

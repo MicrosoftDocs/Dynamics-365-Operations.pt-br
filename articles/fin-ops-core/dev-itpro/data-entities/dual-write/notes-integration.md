@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ed068f4264269334babec9acd59d9d58551333b4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018377"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186777"
 ---
 # <a name="note-integration"></a>Integração da nota
 
@@ -122,5 +122,9 @@ A integração da nota inclui um conjunto de mapas de tabelas que funcionam junt
 | [Anexos de documentos do fornecedor](mapping-reference.md#231) | Anotações | Empresas que usam texto sem formatação e URLs para capturar informações específicas do fornecedor (para organizações e pessoas). |
 | [Anexos de documento de cabeçalho de ordem de venda](mapping-reference.md#229) | Anotações | Empresas que usam texto sem formatação e URLs para capturar informações específicas da ordem de venda. |
 | [Anexos de documento de cabeçalho de ordem de compra](mapping-reference.md#232) | Anotações | Empresas que usam texto sem formatação e URLs para capturar informações específicas da ordem de compra. |
+
+## <a name="limitations"></a>Limitações
+
+Depois de instalar a solução de notas, não será possível desinstalá-la. 
 
 Para obter mais informações, consulte [Referência de mapeamento de gravação dupla](mapping-reference.md).

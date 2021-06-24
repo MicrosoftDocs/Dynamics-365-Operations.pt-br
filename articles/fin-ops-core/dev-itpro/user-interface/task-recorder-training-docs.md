@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b0be27fc759c525dcc1ffe4f2717b2e2378c52a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b07da82086696409b128d76d8845c61b241a34b0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744154"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188066"
 ---
 # <a name="create-documentation-or-training-with-task-recorder"></a>Criar documentação ou treinamento com o Gravador de tarefas
 
@@ -31,8 +31,7 @@ Este tópico explica o que são o gravador de tarefas e os guias de tarefas, com
 > [!IMPORTANT]
 > Você pode registrar suas próprias guias de tarefa para o Dynamics 365 Human Resources, mas não é possível salvá-las em uma biblioteca Modelador de Processo de Negócios (BPM) ou abri-las no painel Ajuda neste momento. Você pode salvá-las localmente ou em um local da rede e, em seguida, abrir e repeti-las usando o Gravador de tarefas. 
 
-<a name="learn-about-task-recorder"></a>Aprender sobre o Gravador de tarefas
--------------------------
+## <a name="learn-about-task-recorder"></a>Aprender sobre o Gravador de tarefas
 
 O gravador de tarefas é uma ferramenta que você pode usar para gravar ações que você leva na interface do usuário do produto (UI). Quando você utiliza o Gravador de tarefas, todos os eventos executados na interface do usuário executados em relação ao servidor — incluindo adicionar valores, alterar configurações, remover dados — são capturados. As etapas que você registra são chamadas coletivamente de *gravação de tarefa*. Gravações de tarefas podem ser utilizadas de diversas maneiras:
 
@@ -111,8 +110,7 @@ Você pode baixar e editar gravações de tarefas da Microsoft para utilizá-las
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Sistema de ajuda](../../fin-ops/get-started/help-overview.md)
 

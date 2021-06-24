@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c3609ed396b543bb708ea36f308eee60976e66f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7e3e1e0a757dcd51edcd38bb348e52b756e57334
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837168"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188749"
 ---
 # <a name="accounting-distributions-and-subledger-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no razão auxiliar para faturas de texto livre
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837168"
 
 As distribuições contábeis são usadas para definir como um valor será contabilizado, assim como a receita, os impostos ou os encargos serão contabilizados em uma fatura de texto livre. Cada valor que deve ser contabilizado terá uma ou mais distribuições contábeis quando a fatura de texto livre for lançada no diário.
 
-<a name="accounting-distributions"></a>Distribuições contábeis
-------------------------
+## <a name="accounting-distributions"></a>Distribuições contábeis
 
 Você pode usar os botões a seguir na página Fatura de texto livre para exibir e, possivelmente, alterar as distribuições contábeis de cada valor da fatura de texto livre.
 

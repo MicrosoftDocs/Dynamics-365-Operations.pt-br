@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 953069dfd39843d39cc92d99318f02819dc31ed0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 513066a597620450f0b482e98e36d31c6f2c980a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820975"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189084"
 ---
 # <a name="accounting-distributions-and-journal-entries-for-vendor-invoices"></a>Distribuições contábeis e entradas no diário para faturas de fornecedor
 
@@ -28,8 +28,7 @@ ms.locfileid: "5820975"
 
 As distribuições contábeis são usadas para definir como um valor será contabilizado, por exemplo, como a receita, os impostos ou os encargos serão contabilizados em uma fatura de fornecedor. Cada valor a ser contabilizado quando a fatura de fornecedor é lançada no diário terá uma ou várias distribuições contábeis. 
 
-<a name="accounting-distributions"></a>Distribuições contábeis 
--------------------------
+## <a name="accounting-distributions"></a>Distribuições contábeis 
 
 Você pode usar os botões a seguir na página Fatura de fornecedor para exibir e, possivelmente, modificar as distribuições contábeis para cada valor da fatura de fornecedor.
 -   **Distribuir valores** – Exibir e modificar as distribuições contábeis para uma linha individual e todas as linhas filho, como impostos ou encargos. Também é possível exibir e modificar as distribuições contábeis para a linha filho diretamente da página Transações de imposto ou Transações de encargos.
@@ -227,8 +226,7 @@ Quando você insere uma fatura de fornecedor, cada valor é distribuído da form
 </table>
 
 
-<a name="distributing-taxes"></a>Impostos de distribuição
-------------------
+## <a name="distributing-taxes"></a>Impostos de distribuição
 
 As distribuições contábeis de impostos não podem ser criadas até que os impostos sejam calculados. Para calcular impostos, você deve concluir uma das seguintes tarefas na página Fatura de fornecedor:
 -   Exibir total da fatura.

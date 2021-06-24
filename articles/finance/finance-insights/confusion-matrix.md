@@ -2,7 +2,7 @@
 title: Resultados de modelos de aprendizado de máquina (versão prévia)
 description: Este tópico discute as matrizes de confusão, os problemas de classificação e a acurácia nos modelos ML (aprendizado de máquina). O objetivo é aprimorar sua compreensão da acurácia em resultados de previsão de ML.
 author: ShivamPandey-msft
-ms.date: 06/05/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-14
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: a9642bd21ffc0770be61677220e0e72986586047
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: fe652c32df9417f0f716242a24a26eabd1a16f65
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028194"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193531"
 ---
 # <a name="results-of-machine-learning-models-preview"></a>Resultados de modelos de aprendizado de máquina (versão prévia)
 
@@ -129,16 +129,12 @@ Para simplificar os cálculos, os conjuntos de amostras foram criados para coinc
 
 Para obter mais detalhes sobre como esse cálculo funciona, aqui está o relatório de classificação sklearn. para o modelo 1. Os três estados, "Dentro do prazo", "Atrasado" e "Muito atrasado", são representados pelas linhas rotuladas 1, 2 e 3, respectivamente. A média da macro é apenas a média da coluna "medida f".
 
-|           | precisão | revocação   | medida f |
+| &nbsp;    | precisão | revocação   | medida f |
 |-----------|-----------|----------|----------|
 | **1**     | 0,83      | 0,80     | 0,82     |
 | **2**     | 0,68      | 0,71     | 0,69     |
 | **3**     | 0,50      | 0,50     | 0,50     |
 
 Conforme mostram os resultados, os dois modelos têm uma pontuação de acurácia de macro f quase idêntica. Neste e em muitos outros casos, a acurácia f fornece um indicador melhor do recurso de um modelo. Quanto à acurácia, a interpretação dos resultados requer que você compreenda o que é mais importante considerar no modelo.
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

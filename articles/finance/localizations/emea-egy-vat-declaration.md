@@ -2,7 +2,7 @@
 title: Declaração de IVA para o Egito
 description: Este tópico explica como configurar e gerar o formulário de devolução de IVA para o Egito.
 author: sndray
-ms.date: 03/10/2021
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: bd48ee96a26c59183981fae879e3659711e70ce3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021947"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186605"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaração de IVA para o Egito (EG-00002)
 
@@ -85,6 +85,7 @@ Essas configurações de pesquisa a seguir são usadas para classificar as trans
 - **VATRateTypeLookup** > Coluna B: Tipo de imposto
 - **VATRateTypeLookup** > Coluna C: Tipo de item de tabela
 - **PurchaseOperationTypeLookup** > Coluna A: Tipo de documento
+- **CustomerTypeLookup** > Coluna A: tipo de documento
 - **SalesOperationTypeLookup** > Coluna N: Tipo de operação
 - **SalesItemTypeLookup** > Coluna O: Tipo de item
 
@@ -98,6 +99,8 @@ Conclua as etapas a seguir para configurar as diferentes pesquisas usadas para g
 6. Repita as etapas 3 a 5 para todas as pesquisas disponíveis.
 7. Selecione **Adicionar** para incluir a linha de registro final e, na coluna **Resultado da pesquisa**, selecione **Não aplicável**. 
 8. Nas colunas restantes, selecione **Não vazio**. 
+9. No campo **Estado**, selecione **Concluído**.
+10. Selecione **Salvar** e feche a página **Parâmetros específicos do aplicativo**.
 
 > [!NOTE]
 > Ao adicionar o último registro, **Não aplicável**, você define a seguinte regra: quando o grupo de impostos sobre vendas, o grupo de impostos sobre vendas do item, o código de imposto e o nome que é passado como um argumento não satisfazem nenhuma das regras anteriores, as transações não são incluídas no registro de IVA de saída. Embora essa regra não seja usada ao gerar o relatório, a regra ajuda a evitar erros na geração de relatórios quando há uma configuração de regra ausente.
@@ -138,7 +141,7 @@ As tabelas a seguir representam um exemplo de configuração sugerida para as co
 | Prestador de serviços       | 7    | VAT_SERV                | *Não vazio* | SaleExempt            |
 | Prestador de serviços       | 8    | VAT_SERV                | *Não vazio* | SalesExemptCreditNote |
 | Ajustes    | 9    | *Em Branco*                 | VAT_ADJ     | Vendas                 |
-| Ajustes    | 10   | *Em Branco*                 | VAT_ADJ     | Compra              |
+| Ajustes    | 10   | *Em Branco*                 | VAT_ADJ     | SalesCreditNote       |
 | Não Aplicável | 11   | *Não vazio*             | *Não vazio* | *Não vazio*           |
 
 **PurchaseItemTypeLookup**
@@ -148,16 +151,14 @@ As tabelas a seguir representam um exemplo de configuração sugerida para as co
 | Mercadorias                  | 1    | VAT_GOODS               | *Não vazio* | Compra                 |
 | Mercadorias                  | 2    | VAT_GOODS               | *Não vazio* | PurchaseCreditNote       |
 | Prestador de serviços               | 3    | VAT_SERV                | *Não vazio* | Compra                 |
-| Prestador de serviços               | 4    | VAT_SERV                | *Não vazio*  | PurchaseCreditNote       |
+| Prestador de serviços               | 4    | VAT_SERV                | *Não vazio* | PurchaseCreditNote       |
 | Máquina e equipamento  | 5    | VAT_M&E                 | *Não vazio* | Compra                 |
 | Máquina e equipamento  | 6    | VAT_M&E                 | *Não vazio* | PurchaseCreditNote       |
 | Máquinas de peças         | 7    | VAT_PARTS               | *Não vazio* | Compra                 |
 | Máquinas de peças         | 8    | VAT_PARTS               | *Não vazio* | PurchaseCreditNote       |
 | Isenções             | 9    | VAT_EXE                 | *Não vazio*  | PurchaseExempt           |
 | Isenções             | 10   | VAT_EXE                 | *Não vazio* | PurchaseExemptCreditNote |
-| Não Aplicável         | 11   | *Em Branco*                 | VAT_ADJ     | *Não vazio*              |
-| Não Aplicável         | 12   | *Não vazio*             | *Não vazio* | *Não vazio*              |
-| Não Aplicável         | 13   | *Em Branco*                 | *Não vazio* | *Não vazio*              |
+| Não Aplicável         | 11   | *Não vazio*             | *Não vazio* | *Não vazio*              |
 
 **PurchaseOperationTypeLookup**
 
@@ -174,6 +175,17 @@ As tabelas a seguir representam um exemplo de configuração sugerida para as co
 | Ajustes    | 9    | *Em Branco*          | VAT_ADJ     | PurchaseCreditNote       |
 | Ajustes    | 10   | *Em Branco*          | VAT_ADJ     | Compra                 |
 | Não Aplicável | 11   | *Não vazio*      | *Não vazio* | *Não vazio*              |
+
+**CustomerTypeLookup**
+
+|    Resultado da pesquisa    | Linha | Grupo de impostos sobre vendas |
+|---------------------|------|-----------------|
+| Organização        |  1   | VAT_LOCAL       |
+| Organização        |  2   | VAT_EXPORT      |
+| Organização        |  3   | VAT_EXE         |
+| Consumidor final      |  4   | VAT_FINALC      |
+| Organização pública |  5   | VAT_PUBLIO      |
+| Não Aplicável      |  6   | *Não vazio*     |
 
 **VATRateTypeLookup**
 

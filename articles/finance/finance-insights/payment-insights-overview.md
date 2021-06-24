@@ -2,7 +2,7 @@
 title: Previsões de pagamento do cliente (versão preliminar)
 description: Este tópico descreve o recurso de previsões de pagamento que pode ajudar a entender melhor as práticas de pagamento típicas de um cliente. Esse recurso também pode ajudar a identificar as circunstâncias que devem causar o início de processos de cobrança antes do que você espera.
 author: ShivamPandey-msft
-ms.date: 05/26/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 4151b56b8b385e29d3926dc7e245728158cbcd34
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898003"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186387"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsões de pagamento do cliente (versão preliminar)
 
@@ -72,10 +72,5 @@ No passado, normalmente era difícil desenvolver e implantar uma solução de IA
 A versão preliminar pública do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, na Europa e no Reino Unido. A Microsoft está adicionando suporte para outras regiões de forma incremental.
 
 Os recursos de versão preliminar pública devem ser ativados somente em ambientes de área restrita de Camada 2. A Configuração e os Modelos de IA criados em um ambiente de área restrita podem não ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md).
-
-## <a name="privacy-notice"></a>Aviso de privacidade
-
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

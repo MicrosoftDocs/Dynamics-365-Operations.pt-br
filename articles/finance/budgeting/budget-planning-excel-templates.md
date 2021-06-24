@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 80190419176848f10d9a3908350d57ddaadfd8c3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9d4e901871267d4f11d9afefc873708663dbabd6
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822170"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190276"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
@@ -66,8 +66,7 @@ Aponte o cursor para o local desejado no arquivo do Excel. Clique em **Adicionar
 
 ## <a name="select-add-valuemediabpt7png"></a>[![Selecione Adicionar Valor](./media/bpt7.png)](./media/bpt7.png)
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Adicionar uma coluna calculada à tabela do modelo de documento de plano de orçamento
---------------------------------------------------------------
+## <a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>Adicionar uma coluna calculada à tabela do modelo de documento de plano de orçamento
 
 Em seguida, colunas calculadas serão adicionadas ao modelo de documento de plano de orçamento gerado. Uma coluna **Total de Solicitações**, que resume as colunas Solicitação Q1: Solicitação Q4, e uma coluna **Ajuste**, que recalcula a coluna **Total de Solicitações** por um fator predefinido.
 

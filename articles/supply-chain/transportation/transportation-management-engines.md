@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf9c256c4b9ade408111a46899ee266b2eb0d651
-ms.sourcegitcommit: 890a0b3eb3c1f48d786b0789e5bb8641e0b8455e
+ms.openlocfilehash: 61c745802edc419cb2ae94df6bc293f839cd8a0a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920100"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188830"
 ---
 # <a name="transportation-management-engines"></a>Mecanismos de gerenciamento de transporte
 
@@ -43,8 +43,7 @@ A tabela a seguir mostra os mecanismos de gerenciamento de transporte disponíve
 | **Tipo de nota de frete**            | Padroniza a fatura de frete e as linhas da nota de frete, e é usado para correspondência automática de nota de frete.                                                                                                                                                                                                                |
 
 
-<a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quais mecanismos devem ser configurados para avaliar uma remessa?
----------------------------------------------------
+## <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quais mecanismos devem ser configurados para avaliar uma remessa?
 
 Para avaliar uma remessa usando uma transportadora específica, você deve configurar vários mecanismos de gerenciamento de transporte. O **Mecanismo de taxa** é obrigatório, mas outros mecanismos de gerenciamento de transporte podem ser necessários para oferecer suporte ao **Mecanismo de taxa**. Por exemplo, o **Mecanismo de taxa** pode ser usado para recuperar dados do **Mecanismo de quilometragem** para calcular a taxa com base na quilometragem entre a origem e o destino.
 
@@ -62,8 +61,7 @@ Na maioria dos casos, você pode clicar no botão **Parâmetros** nos formulári
 |  <em>MileageEngineCode</em>  |                       Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados.                        |
 | <em>ApportionmentEngine</em> |                        Código do mecanismo genérico que identifica um mecanismo de divisão no banco de dados.                        |
 
-<a name="how-is-metadata-used-in-transportation-management-engines"></a>Como os metadados são usados nos mecanismos de gerenciamento de transporte?
-----------------------------------------------------------
+## <a name="how-is-metadata-used-in-transportation-management-engines"></a>Como os metadados são usados nos mecanismos de gerenciamento de transporte?
 
 Os mecanismos de gerenciamento de transporte que dependem nos dados definidos no Supply Chain Management podem usar diferentes esquemas de dados. O sistema de gerenciamento de transporte permite que diferentes mecanismos de gerenciamento de transporte usem as mesmas tabelas físicas genéricas de banco de dados. Para verificar se a interpretação de tempo de execução dos dados do mecanismo está correta, você pode definir metadados para as tabelas de banco de dados. Isso reduz os custos de criação de novos mecanismos de gerenciamento de transporte, uma vez que tabelas e estruturas de formulário adicionais não são necessárias no Operations.
 

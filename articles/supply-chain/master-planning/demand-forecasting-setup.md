@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4d2f1820f79798488c73f20f9c688fa877af4f1b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816523"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189707"
 ---
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
@@ -88,8 +88,7 @@ Na guia **Chaves de alocação**, você pode definir **Prever parâmetros de alg
 - **Dica de sazonalidade**: para dados sazonais, forneça uma dica para o modelo de previsão para melhorar a precisão da previsão. Formato: número inteiro que representa o número de classificações que um padrão de demanda se repete. Por exemplo, insira "6" para dados que se repetem a cada 6 meses.
 - **Porcentagem de tamanho de conjunto de teste**: porcentagem de dados históricos que devem ser usados como conjunto de teste para o cálculo de precisão da previsão. 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral da previsão de demanda](introduction-demand-forecasting.md)
 

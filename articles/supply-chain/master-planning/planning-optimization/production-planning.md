@@ -2,30 +2,25 @@
 title: Planejamento de produção
 description: Este tópico descreve o planejamento de produção e explica como modificar as ordens de produção planejadas usando a Otimização de Planejamento.
 author: ChristianRytt
-ms.date: 12/15/2020
+ms.date: 06/01/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 22b78f44940f71097ca8b1cdb74edb06274bba75
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffee79f152141297ceb24e2d7a40523eac18ffaf
+ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839214"
+ms.lasthandoff: 06/01/2021
+ms.locfileid: "6129744"
 ---
 # <a name="production-planning"></a>Planejamento de produção
 
-A Otimização de Planejamento oferece suporte a vários cenários de produção. Se você estiver migrando do mecanismo de planejamento mestre interno existente, é importante estar ciente de alguns comportamentos alterados.
+A Otimização de Planejamento oferece suporte a vários cenários de produção. Se você estiver migrando do mecanismo de planejamento principal integrado já existente, é importante estar ciente de alteração no comportamento.
 
 O vídeo a seguir apresenta uma breve introdução a alguns dos conceitos abordados neste tópico: [Dynamics 365 Supply Chain Management: aprimoramentos na Otimização de Planejamento](https://youtu.be/u1pcmZuZBTw).
 
@@ -79,11 +74,44 @@ Você pode usar a página **Detalhamento** para analisar a demanda necessária p
 
 ## <a name="filters"></a><a name="filters"></a>Filtros
 
-Para cenários de planejamento que incluem produção, recomendamos evitar execuções de planejamento mestre filtrado. Para garantir que a Otimização de Planejamento tenha as informações necessárias para calcular o resultado correto, você deve incluir todos os produtos que tenham qualquer relação com produtos em toda a estrutura da BOM da ordem planejada.
+Para garantir que a Otimização do Planejamento tenha as informações necessárias para calcular o resultado correto, você deve incluir todos os produtos que tenham qualquer relação com os produtos em toda a estrutura de BOM da ordem planejada. Por isso, para cenários de planejamento que incluam produção, recomendamos que você evite execuções filtradas do planejamento principal.
 
-Embora itens filho dependentes sejam automaticamente detectados e incluídos nas execuções do planejamento mestre, quando o mecanismo de planejamento mestre interno é usado, a Otimização de Planejamento não executa essa ação.
+Embora os itens secundários dependentes sejam detectados automaticamente e incluídos nas execuções de planejamento principal quando o mecanismo de planejamento principal integrado está sendo usado, a Otimização do Planejamento não realiza esta ação no momento.
 
-Por exemplo, se um único parafuso da estrutura da BOM do produto A também for usado para produzir o produto B, todos os produtos na estrutura da BOM dos produtos A e B deverão ser incluídos no filtro. Como pode ser muito complexo garantir que todos os produtos façam parte do filtro, recomendamos evitar execuções de planejamento mestre filtrado quando ordens de produção estiverem envolvidas.
+Por exemplo, se um único parafuso da estrutura da BOM do produto A também for usado para produzir o produto B, todos os produtos na estrutura da BOM dos produtos A e B deverão ser incluídos no filtro. Garantir que todos os produtos façam parte do filtro pode ser complexo. Por isso, recomendamos que você evite execuções filtradas de planejamento principal quando ordens de produção forem envolvidas. Caso contrário, o planejamento principal fornecerá resultados indesejáveis.
 
+### <a name="reasons-to-avoid-filtered-master-planning-runs"></a>Motivos para evitar execuções planejadas do planejamento principal
+
+Quando você executa o planejamento principal para um produto, a Otimização de Planejamento (não como o mecanismo de planejamento principal integrado) não detecta todos os subprodutos e matéria-prima na estrutura de BOM desse produto e, portanto, não os inclui na execução de planejamento principal. Embora a Otimização de Planejamento identifique o primeiro nível da estrutura de BOM do produto, ela não carrega configurações de produto (assim como o tipo de ordem padrão ou cobertura de item) no banco de dados.
+
+Na Otimização de Planejamento, os dados para a execução são carregados antecipadamente e os filtros são aplicados. Isso significa que, se um subproduto ou matéria-prima incluído em um produto específico não for parte do filtro, as informações sobre ele não serão capturados para a execução. Além disso, se o subproduto ou matéria prima também for incluída em outro produto, uma execução filtrada que inclua somente o produto original e seus componentes removeria a demanda planejada existente que foi criada para aquele outro produto.
+
+Esta lógica pode fazer com que as execuções filtradas do planejamento principal produzam resultados inesperados. As seções a seguir fornecem exemplos que ilustram os resultados inesperados que podem ocorrer.
+
+### <a name="example-1"></a>Exemplo 1
+
+Bens acabados no *FG* consistem nos seguintes componentes:
+
+- Matéria-prima *R*
+- O subproduto *S1*, que consiste no subproduto *S2*
+
+Existe inventário em mãos para a matéria prima *R*, e o subproduto *S1* não está presente no inventário.
+
+Quando você faz uma execução filtrada de planejamento principal para o bem acabado *FG*, você obterá uma ordem de produção planejada para o bem acabado *FG*, uma ordem de pesquisa planejada para a matéria-prima *R* e uma ordem de compra planejada para o subproduto *S1*. Esse é um resultado indesejável, pois a Otimização de Planejamento ignorou o suprimento existente da matéria-prima *R*, e o subproduto *S1* precisa ser produzido usando *S2*, e não pedido diretamente. Isso ocorreu porque a Otimização de Planejamento só tem a lista de componentes da mercadoria *FG* sem qualquer informação relacionada, assim como o suprimento existente de seus componentes ou suas configurações de ordem padrão.
+
+### <a name="example-2"></a>Exemplo 2
+
+Aproveitando o exemplo anterior, uma mercadoria acabada adicional, *FG2*, também usa o subproduto *S1*. Uma ordem planejada existe para a mercadoria *FG2* e a demanda planejada existe para todos os seus componentes, incluindo *S1*.
+
+Após decidir corrigir os resultados indesejados da execução filtrada de planejamento principal do exemplo anterior, você adiciona todos os subprodutos e matérias-primas da estrutura BOM da mercadoria acabada *FG* ao filtro e então executa a regeneração completa.
+
+Ao executar a regeneração completa, o sistema exclui todos os resultados existentes de todos os produtos inclusos e então recria os resultados com base nos novos cálculos. Isso significa que a demanda planejada existente para o produto *S1* é excluída e então recriada levando em conta somente os requisitos da mercadoria acabada *FG*, enquanto os requisitos da mercadoria acabada *FG2* são ignorados. Isso ocorre porque, quando você executa a Otimização de Planejamento, ela não inclui a demanda planejada das outras ordens de produção planejadas; somente a demanda planejada gerada durante a execução é usada.
+
+> [!NOTE]
+> Se a ordem planejada existente para a mercadoria acabada *FG2* estiver no status *Aprovado*, a demanda planejada aprovada será incluída, mesmo quando o produto principal não for adicionado ao filtro.
+
+Portanto, a menos que você adicione todos os componentes das mercadorias acabadas *FG*, a mercadoria acabada *FG2* e todos os outros produtos de que esses componentes fazem parte (bem como seus componentes), a execução filtrada de planejamento principal fornecerá resultados indesejados.
+
+Garantir que todos os produtos façam parte do filtro pode ser complexo. Por isso, recomendamos que você evite execuções filtradas de planejamento principal quando ordens de produção forem envolvidas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 986256e5d468ea20fd25964a734dbdb522f2e24b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6171f1ad3669ce26ca025aaf7e9c97dce1c3d9f5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813996"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189908"
 ---
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 
@@ -30,8 +30,7 @@ Você também pode incluir espaços reservados no campo **Observação** na pág
 
 As tabelas a seguir contêm as marcas predefinidas que têm suporte para texto da nota fiscal e seu valor.
 
-<a name="tags-that-support-fiscal-document-text-for-referenced-processes"></a>As marcas que têm suporte para texto da nota fiscal para processos mencionados
----------------------------------------------------------------
+## <a name="tags-that-support-fiscal-document-text-for-referenced-processes"></a>As marcas que têm suporte para texto da nota fiscal para processos mencionados
 
 | Marca predefinida                  | Alíquota                                 |
 |---------------------------------|---------------------------------------|

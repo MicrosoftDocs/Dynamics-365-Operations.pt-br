@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc069743c1b28133540eeab98ae6dd5242a5e887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e6be2aeb263c339f4e733b98ea4e01194973a9f
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826825"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189775"
 ---
 # <a name="fixed-assets-integration"></a>Integração de ativos fixos
 
@@ -28,8 +28,7 @@ ms.locfileid: "5826825"
 
 Ativos fixos podem ser integrados à Contabilidade, ao Gerenciamento de estoque, a Contas a receber e a Contas a pagar. Você também pode configurar os Ativos fixos para que sejam integrados às ordens de compra.
 
-<a name="general-ledger"></a>Contabilidade
---------------
+## <a name="general-ledger"></a>Contabilidade
 
 Na Contabilidade, o valor de todos os ativos fixos geralmente é resumido em várias contas principais que são exigidas para relatório financeiro. No entanto, na página **Ativos fixos**, você pode criar muitos registros de ativo fixo. Esses registros podem incluir informações como preço de aquisição, depreciação e avaliação. Toda vez que você lançar uma transação para um ativo fixo, as contas principais adequadas serão atualizadas. As contas principais dos ativos fixos sempre mostram o valor atualizado dos ativos fixos.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ddc7b9f0ccaa787b2297a253a7fdd9de11e9eee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35ea5b97708272edf50f09d892088bcd3e07402d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812662"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187958"
 ---
 # <a name="system-defined-and-user-defined-table-constraints"></a>Restrições de tabela definidas pelo sistema e pelo usuário
 
@@ -57,8 +57,7 @@ Ao criar uma restrição de tabela definida pelo sistema, selecione uma tabela, 
 
 Antes que uma restrição de tabela possa ter efeito em um modelo de configuração de produto, a restrição de tabela deve ser incluída em uma restrição em um dos componentes do modelo. O procedimento é criar uma nova restrição, selecionar o tipo de restrição de tabela e, em seguida, selecionar a definição de restrição de tabela a ser usada. Por fim, todos os campos na tabela de restrição devem ser mapeados para atributos no modelo de configuração do produto.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral dos modelos de configuração de produto](product-configuration-models.md)
 

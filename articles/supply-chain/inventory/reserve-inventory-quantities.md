@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d1fcdb43f95892c541be2c31101d8f592f5d5e16
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 052cb56e026fbfe5cf5f6ad5d265337d7b88dc4d
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834184"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193944"
 ---
 # <a name="reserve-inventory-quantities"></a>Reservar quantidades do estoque
 
@@ -46,7 +46,7 @@ Políticas de reserva de estoque estão definidas na página **Grupos de modelo 
 
 A seção **Políticas de estoque** contém as seguintes políticas de reserva.
 
-|                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| &nbsp;                  | &nbsp;                                                                                                                                     |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Política de reserva**  | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | Controlado por data PEPS    | Se você selecionar a opção **Controlado por data PEPS**, a reserva de estoque será controlada por uma data de classificação, de acordo com o princípio PEPS. Lotes são reservados com base na data mais antiga de recebimento de itens, de acordo com o princípio PEPS (primeiro a entrar, primeiro a sair).                                                                                                                                                                                                                                                                       |

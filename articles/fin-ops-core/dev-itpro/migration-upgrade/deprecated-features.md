@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11528560ecabb848f2703d11c0a705b2a25d7614
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: f6a2bf4b15a067fd98059ecc41dfd62e4a91862e
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112612"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193557"
 ---
 # <a name="removed-or-deprecated-features-in-previous-releases"></a>Recursos removidos ou obsoletos em versões anteriores
 
@@ -92,7 +92,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Localização em italiano |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Preterido: até 1 de outubro de 2020, planejamos não dar mais suporte a **Relatório da lista de bloqueios (TI) – Referência de recursos IT-00001**. |
+| **Status**                         | Preterido: até 1º de outubro de 2020, nós planejamos não oferecer mais suporte a este relatório. |
 
 ### <a name="domestic-tax-report--feature-reference-it-00003"></a>Relatório de imposto doméstico – Referência de recursos IT-00003
 
@@ -365,6 +365,16 @@ Recurso para criar modelos para novos registros de impostos de lucro. Este recur
 | **Opção de implantação**              | Todas |
 | **Status**                         | Removido a partir do Finance and Operations 8.1 com atualização de plataforma 20. |
 
+### <a name="payroll-and-human-resources-for-russia"></a>Folha de pagamento e Recursos Humanos para a Rússia
+O módulo específico ao país da Rússia para gerenciar as informações de administração dos funcionários, os detalhes da folha de ponto para funcionários, contabilidade de folha de pagamento e criar declarações de pagamento. 
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | A folha de pagamento não é incluída no foco estratégico global do portfólio do Dynamics 365. Os parceiros e ISVs estão na melhor posição para oferecer a funcionalidade de folha de pagamento que esteja em conformidade com regulamentos locais e atualizações de impostos.|
+| **Substituída por outro recurso?**   | Não|
+| **Áreas afetadas do produto**         | Gerenciamento da Folha de Pagamento e Recursos Humanos Russos |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: prazo alvo para a funcionalidade ser removida é um uma das futuras atualizações da versão 10.0. |
 
 ## <a name="finance-and-operations-80-with-platform-update-15"></a>Finance and Operations 8.0 com Platform update 15
 Nenhum recurso foi removido ou substituído com esta versão. A atualização 15 da plataforma é cumulativa e contém recursos novos ou alterados das atualizações 13, 14 e 15 da plataforma.

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: e2b0abb2826f81ed87b4f0f37dba32c1d8d749c2
-ms.sourcegitcommit: 194d68b24cd36db21e9029044bed18983fd9810c
+ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937877"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216603"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e dos participantes
 
@@ -143,16 +143,22 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
 ## <a name="setup"></a>Configurar
 
-1. Instale a versão mais recente (2.2.2.60 ou posterior) da [solução de orquestração de aplicativos de gravação dupla](https://aka.ms/dual-write-app).
+1. Abra o ambiente do aplicativo de participação do cliente.
 
-2. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab).
+2. Instale a versão mais recente (2.2.2.60 ou posterior) da [solução de orquestração de aplicativos de gravação dupla](https://aka.ms/dual-write-app).
 
-3. Interrompa os seguintes mapas, pois eles não são mais necessários. Execute o mapa `Contacts V2 (msdyn_contactforparties)`.
+3. Instale [Soluções de gravação dupla de catálogo de endereços global e de participante](https://aka.ms/dual-write-gab).
+
+4. Abra o aplicativo de finanças e operações. Navegue até o módulo Gerenciamento de Dados e selecione a guia de gravação dupla. A página de administração de gravação dupla será aberta.
+
+5. Aplique ambas as soluções instaladas nas etapas 2 e 3 utilizando a função [Aplicar solução](link-your-environment.md).
+
+6. Interrompa os seguintes mapas, pois eles não são mais necessários. Execute o mapa `Contacts V2 (msdyn_contactforparties)`.
 
     + Contatos V2 do CDS e Contatos (refere-se aos contatos de clientes)
     + Contatos V2 do CDS e Contatos (refere-se aos contatos de fornecedores)
 
-4. Os mapeamentos de entidade abaixo são atualizados de acordo com os recursos do participante, portanto, a versão mais recente deve ser aplicada a esses mapeamentos.
+7. Os mapeamentos de entidade abaixo são atualizados de acordo com os recursos do participante, portanto, a versão mais recente deve ser aplicada a esses mapeamentos.
 
     Mapa | Atualize para esta versão | Alterações
     ---|---|---
@@ -176,7 +182,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     `Salutations (msdyn_salutations)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
     `Employment job functions (msdyn_employmentjobfunctions)` | 1.0.0.0 | Este é um novo mapa adicionado como parte desta versão.
 
-5. Antes de executar os mapas acima, você deve atualizar as chaves de integração manualmente, conforme descrito nas etapas a seguir. Selecione **Salvar**.
+8. Antes de executar os mapas acima, você deve atualizar as chaves de integração manualmente, conforme descrito nas etapas a seguir. Selecione **Salvar**.
 
     | Mapa | Chaves |
     |-----|------|
@@ -185,7 +191,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     | Contato para cliente/fornecedor | msdyn_contactforpartynumber [contato do número do participante]<br>msdyn_associatedcompanyid.cdm_companycode [empresa associada (código da empresa)] |
     | Fornecedor | msdyn_vendoraccountnumber [Número de conta do fornecedor]<br>msdyn_company.cdm_companycode [Company (Company Code)]|
 
-6. No Dataverse, os limites de caracteres de regras de detecção de duplicidades aumentaram de 450 para 700 caracteres. Esse limite permite adicionar uma ou mais chaves às regras de detecção de duplicidades. Expanda a regra de detecção de duplicidades para a tabela **Contas**, definindo os campos a seguir.
+9. No Dataverse, os limites de caracteres de regras de detecção de duplicidades aumentaram de 450 para 700 caracteres. Esse limite permite adicionar uma ou mais chaves às regras de detecção de duplicidades. Expanda a regra de detecção de duplicidades para a tabela **Contas**, definindo os campos a seguir.
 
     | Campo | Alíquota |
     |-------|-------|
@@ -201,7 +207,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
     ![Regra de duplicação para contas](media/duplicate-rule-1.PNG)
 
-7. Expanda a regra de detecção de duplicidades para a tabela **Contatos**, definindo os campos a seguir.
+10. Expanda a regra de detecção de duplicidades para a tabela **Contatos**, definindo os campos a seguir.
 
     | Campo | Alíquota |
     |-------|-------|
@@ -217,9 +223,9 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
 
     ![Regra de duplicação para contatos](media/duplicate-rule-2.PNG)
 
-8. Se você for um usuário de gravação dupla existente, siga as instruções em [Atualizar para o modelo de catálogo de endereços global e de participantes](upgrade-party-gab.md) e atualize seus dados.
+11. Se você for um usuário de gravação dupla existente, siga as instruções em [Atualizar para o modelo de catálogo de endereços global e de participantes](upgrade-party-gab.md) e atualize seus dados.
 
-9. Execute os mapas na ordem a seguir. Se você receber um erro indicando "Falha ao validar projeto. Campo de destino ausente... ", abra o mapa e selecione **Atualizar Tabelas**. Em seguida, execute o mapa.
+12. Execute os mapas na ordem a seguir. Se você receber um erro indicando "Falha ao validar projeto. Campo de destino ausente... ", abra o mapa e selecione **Atualizar Tabelas**. Em seguida, execute o mapa.
 
     Aplicativo Finance and Operations | Aplicativo Customer Engagement  
     ----------------------------|------------------------

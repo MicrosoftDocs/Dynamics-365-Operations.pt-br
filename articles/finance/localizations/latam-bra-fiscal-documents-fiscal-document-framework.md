@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5c22ad83b8b06c92e0f545ae6b5a0619fc35fc8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c8fca3395307f79073d08b26d9e8c04e14016590
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813994"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189627"
 ---
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
@@ -27,8 +27,7 @@ ms.locfileid: "5813994"
 
 Este tópico descreve as notas fiscais do Brasil.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 Nota fiscal é um documento legal que registra a transferência de propriedade de um item ou serviço fornecido por um estabelecimento fiscal (emissor) para uma pessoa ou outro estabelecimento fiscal (cliente, fornecedor, subsidiária ou filial). Uma nota fiscal é usada para registrar impostos. Cada estabelecimento fiscal emite e recebe notas fiscais para todas as transações, incluindo vendas, compras, ajustes de impostos e transferências de item ou ativo. As notas fiscais podem ser geradas usando os seguintes formatos:
 -   Nota fiscal impressa – a nota fiscal é impressa em papel.

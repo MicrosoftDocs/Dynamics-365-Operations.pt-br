@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 0c5087ee04030a76aef774871b88b7970391723c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bdd03dff359e7c2799eff53b0e999580ce8b1c06
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804372"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193094"
 ---
 # <a name="point-of-sale-pos-application-and-user-language-settings"></a>Configurações do aplicativo de ponto de venda (PDV) e de idioma do usuário
 
@@ -57,7 +57,7 @@ As configurações de idioma do PDV determinam as traduções usadas na interfac
 
 A configuração de idioma do usuário do PDV é definida em **Todos os trabalhadores** na página **Trabalhador** em **Varejo e Comércio &gt; Idioma**. Ela não é definida na guia principal Perfil. Essa configuração não é usada pelo PDV. Se o idioma do usuário não for definido ou for definido como um idioma no qual as traduções não estejam disponíveis, o PDV será revertido para o idioma da loja.
 
-|             | Idioma da interface do usuário                  | Idioma dos dados (produtos, formatos de recibo, exibição de linha etc.) |
+| &nbsp;      | Idioma da interface do usuário                  | Idioma dos dados (produtos, formatos de recibo, exibição de linha etc.) |
 |-------------|----------------------------|---------------------------------------------------------------|
 | **Empresa** | Padrão                    | Padrão                                                       |
 | **Loja**   | Substitui a empresa          | Substitui a empresa                                             |

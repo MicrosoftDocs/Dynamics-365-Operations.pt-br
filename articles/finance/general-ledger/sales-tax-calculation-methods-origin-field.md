@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7d322d0a59c2d1fe7be98b97bf25c6db8dec2d6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e57e97847c6aa7a775b0f2639dff93f1e3a9e7a2
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815347"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189364"
 ---
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de imposto no campo Origem
 
@@ -52,8 +52,7 @@ Se o valor líquido for 10,00, o IMPOSTO 1 será 1,00 (10,00 x 10%) e o IMPOSTO 
 | Somente um código de imposto a Origem = Porcentagem do valor bruto pode ser usado para uma transação. Se mais de um código de imposto for determinado por uma transação será exibido um erro informando que os impostos não podem ser calculados. |
 
 
-<a name="percentage-of-sales-tax"></a>Porcentagem do imposto
------------------------
+## <a name="percentage-of-sales-tax"></a>Porcentagem do imposto
 
 Quando você selecionar Porcentagem de imposto no campo Origem, o imposto é calculado como uma porcentagem do imposto selecionado no campo Imposto de imposto. O imposto selecionado no campo Imposto de imposto é calculado primeiro. Em seguida, o segundo imposto sobre vendas é calculado com base no valor do primeiro imposto sobre vendas.
 ### <a name="example"></a>Exemplo
@@ -119,8 +118,7 @@ O documento/diário é definido para Os valores incluem imposto = Não Valor da 
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo](marginal-base-field.md)
 

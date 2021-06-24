@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ce4960ed6406587557ce12b72b30fa9a620d6b18
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 132a7171488b3c4da8ef13e11bed87c78071744d
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833488"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187449"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-mandatory"></a>Planejamento mestre para cobertura de site e depósito, depósito obrigatório
 
@@ -45,8 +45,7 @@ O gráfico a seguir ilustra como o planejamento mestre ocorre. Os parâmetros re
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
 

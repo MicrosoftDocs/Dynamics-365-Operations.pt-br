@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b52a1720077c055d416f04cbbe9ec46cbcf319bc
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020402"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216734"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuração de lançamento de gerenciamento de reembolso
 
@@ -43,7 +43,7 @@ A tabela a seguir descreve as configurações disponíveis na seção de cabeça
 | Descrição | Insira uma descrição do perfil. |
 | Módulo | Selecione os tipos de reembolsos e royalties aos quais o perfil está associado (*Cliente* ou *Fornecedor*). |
 | Tipo | Selecione o tipo de perfil (*Reembolso* ou *Royalty*). |
-| Tipo de Pagamento | <p>Este campo determina o formato da saída do reembolso lançado.<p><p>Quando o campo **Tipo** é definido como *Reembolso*, os seguintes valores estão disponíveis:</p><ul><li>*Nenhum* – não há um tipo de lançamento padrão. Portanto, você deve definir o tipo ao fazer o processamento.</li><li>*Pagar usando contas a pagar* – quando você lança o reembolso, é criada uma fatura de fornecedor para o fornecedor de remessa que é configurado no cliente de reembolso.</li><li>*Deduções do cliente* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li><li>*Deduções do cliente da fatura de imposto* – quando você lança o reembolso, é criada uma fatura de texto livre para o cliente do reembolso.</li><li>*Gasto comercial* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li><li>*Relatórios* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li></ul><p>Quando o campo **Tipo** é definido como *Royalty*, os seguintes valores estão disponíveis:</p><ul><li>*Nenhum* – não há um tipo de lançamento padrão. Portanto, você deve definir o tipo ao fazer o processamento.</li><li>*Pagar usando contas a pagar* – quando você lança o reembolso, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li><li>*Relatórios* – quando você lança o reembolso, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li></ul><p>Para obter mais informações, consulte a seção [Tipos de pagamento](#payment-types) a seguir. |
+| Tipo de Pagamento | <p>Este campo determina o formato da saída do reembolso lançado.<p><p>Quando o campo **Tipo** é definido como *Reembolso*, os seguintes valores estão disponíveis:</p><ul><li>*Pagar usando contas a pagar* – quando você lança o reembolso de um cliente, é criada uma fatura de fornecedor para o fornecedor de remessa que é configurado no cliente de reembolso. Quando você lança o reembolso de um fornecedor, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li><li>*Deduções do cliente* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li><li>*Deduções do cliente da fatura de imposto* – quando você lança o reembolso, é criada uma fatura de texto livre para o cliente do reembolso.</li><li>*Gasto comercial* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li><li>*Relatórios* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li></ul><p>Quando o campo **Tipo** é definido como *Royalty*, os seguintes valores estão disponíveis:</p><ul><li>*Pagar usando contas a pagar* – quando você lança o reembolso, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li><li>*Relatórios* – quando você lança o reembolso, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li></ul><p>Para obter mais informações, consulte a seção [Tipos de pagamento](#payment-types) a seguir. |
 | Empresa | Selecione a empresa (entidade legal) para a qual as provisões serão acumuladas e as reivindicações serão pagas. |
 
 ### <a name="payment-types"></a>Tipos de pagamento

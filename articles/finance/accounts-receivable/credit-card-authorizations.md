@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6b59d54df9427961e2c4fb6f1387646d6fe8dfc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 502fe22aa0caafbcff059c9d0ae83c7cd030e8d0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837120"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190300"
 ---
 # <a name="credit-card-setup-authorization-and-capture"></a>Configuração, autorização, e captura de cartão de crédito
 
@@ -28,8 +28,7 @@ ms.locfileid: "5837120"
 
 Este artigo fornece uma visão geral da autorização de cartão de crédito no Microsoft Dynamics 365 Finance. Ele inclui informações sobre como configurar o serviço de pagamento, adicionar um cartão de crédito a uma ordem de venda e anular uma autorização.
 
-<a name="setting-up-the-credit-card-payment-service"></a>Configuração do serviço de pagamento com cartão de crédito
-------------------------------------------
+## <a name="setting-up-the-credit-card-payment-service"></a>Configuração do serviço de pagamento com cartão de crédito
 
 Para usar cartões de crédito, você deve configurar e ativar um serviço de pagamento na página Serviços de pagamento. Um serviço de pagamento atua como uma ponte entre a entidade legal e o banco que processa encargos de cartão de crédito de um cliente. Você deve trabalhar com um provedor de cartão de crédito listado no campo do conector Pagamento configurar uma conta com esse fornecedor. Você deve então configurar as outras opções na página Serviços de pagamento, configurar tipos de cartão de crédito para American Express, Discover, MasterCard na página Tipos de cartão de crédito e ativar o provedor como o provedor padrão. Você também deve concluir estas etapas para concluir sua configuração:
 -   Na página Parâmetros de contas a receber, especifique os parâmetros para o uso de autorizações de cartão de crédito.
@@ -39,13 +38,11 @@ Para usar cartões de crédito, você deve configurar e ativar um serviço de pa
 ## <a name="adding-a-new-credit-card"></a>Adição de um novo cartão de crédito
 Você pode criar novos registros de cartão de crédito na página Clientes usando Cliente, Configurar, Cartão de crédito. Você também pode criar registros de cartão de crédito quando inserir ordens de venda na página Ordem de venda usando Gerenciar, Cliente, Cartão de crédito, Registro.
 
-<a name="adding-a-credit-card-to-a-sales-order"></a>Adição de um cartão de crédito a uma ordem de venda
--------------------------------------
+## <a name="adding-a-credit-card-to-a-sales-order"></a>Adição de um cartão de crédito a uma ordem de venda
 
 Você pode adicionar um cartão de crédito a uma ordem de venda selecionando um cartão de crédito na pesquisa de cartão de crédito da Guia Rápida Preço e descontos na página Ordem de venda. Para iniciar o processo de autorização, no Painel de Ação, na guia Gerenciar, selecione Cartão de crédito e Autorizar.
 
-<a name="authorizing-a-credit-card"></a>Autorização de um cartão de crédito
--------------------------
+## <a name="authorizing-a-credit-card"></a>Autorização de um cartão de crédito
 
 Quando um cartão de crédito é autorizado, o número do cartão e o nome do titular são verificados, e a linha de crédito disponível é confirmada. Opcionalmente, o valor de verificação do cartão e o endereço do titular do cartão são verificados. A linha de crédito disponível do cliente é, então, reduzida pelo valor da fatura. O serviço de pagamento envia a informação de que o cartão de crédito foi aprovado ou rejeitado. Quando a ordem de venda é faturada, o cartão é cobrado (capturado) pelo valor da fatura.
 

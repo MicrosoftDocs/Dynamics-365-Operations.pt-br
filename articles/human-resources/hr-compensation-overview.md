@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: b773b12b7eb3a8a59627d011f2469a98c5dde58a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d683b0b140592e4c93a68f7f58c7d13475b4c2a5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058911"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189592"
 ---
 # <a name="compensation-plans"></a>Planos de remuneração
 
@@ -121,8 +121,7 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 ## <a name="process-events"></a>Eventos de processo
 Um evento de processo calcula as informações de remuneração de um determinado período para todos os funcionários que estão inscritos em um ou mais planos de remuneração fixa ou variável. Você pode executar um evento de processo repetidamente para testar ou atualizar os resultados de remuneração calculados.
 
-<a name="compensation-events"></a>Eventos de remuneração
--------------------
+## <a name="compensation-events"></a>Eventos de remuneração
 
 Toda vez que um processo de evento é executado, um evento de remuneração é criado.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.
 

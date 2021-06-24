@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e6138ccd92019f52afab0d8ed4b8cf64d66ff24
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897687"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189193"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
@@ -27,8 +27,7 @@ ms.locfileid: "5897687"
 
 Os recursos móveis permitem que um usuário corporativo crie experiências móveis. Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse tópico deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
 
-<a name="prerequisites"></a>Pré-requisitos
--------------
+## <a name="prerequisites"></a>Pré-requisitos
 
 | Pré-requisito                                                                                            | descrição                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -227,7 +226,7 @@ Para adicionar ações de fluxo de trabalho, use a página **VendMobileInvoiceHe
 
 #### <a name="record-workflow-actions"></a>Registro de ações de fluxo de trabalho
 1.  Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
-2.  Selecione a página **Detalhes de fatura** que você criou anteriormente e clique em **Editar**.
+2.  Selecione a página **Detalhes da fatura** que você criou anteriormente e clique em **Editar**.
 3.  Na guia **Ações**, clique em **Adicionar ação**.
 4.  Insira um título de ação, como **Aprovar** e uma descrição como **Aprovação de fatura**. Observe que o título da ação inserido aqui se transforma no nome da ação exibido para o usuário no aplicativo móvel.
 5.  Clique em **Concluído**.
@@ -319,7 +318,7 @@ Para adicionar ações de fluxo de trabalho, use a página **VendMobileInvoiceHe
 
 2. Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
 
-3. Selecione a página <strong>Detalhes da fatura **criada anteriormente e clique em **Editar</strong>.
+3. Selecione a página <strong>Detalhes da fatura** criada anteriormente e clique em **Editar**</strong>.
 
 4. Defina a opção **Gerenciamento de documento** para **Sim** como exibido abaixo. **Observação:** Se não houver requisitos para exibir os anexos no dispositivo móvel, você pode deixar essa opção definida como **Não**, que é a configuração padrão.
    

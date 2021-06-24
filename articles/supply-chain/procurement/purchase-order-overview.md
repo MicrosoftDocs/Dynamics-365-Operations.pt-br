@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0b173f856c79973eec6ce884e7b8e44420c93fc7
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 77410fd131ecdcb05b682ac4660ec8c453b75218
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909122"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188212"
 ---
 # <a name="purchase-order-overview"></a>Visão geral de ordem de compra
 
@@ -76,8 +76,7 @@ O campo **Status de aprovação** é usado quando uma ordem de compra passa por 
 -   **Confirmado** – este status é atribuído depois que a ordem foi confirmada. Normalmente, esse status é o último status de aprovação é atribuído a uma encomenda.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar ordens de compra](purchase-order-creation.md)
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 484a80d9eeb0b652a8363a9ea49f58f9780b6968
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908919"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188925"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -29,8 +29,7 @@ ms.locfileid: "5908919"
 
 Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
 
-<a name="overview"></a>Visão Geral
---------
+## <a name="overview"></a>Visão Geral
 
 Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Supply Chain Management consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
 

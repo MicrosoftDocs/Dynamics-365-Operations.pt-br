@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 48c37e4355bc3448930a7cfa73ce08ac8e439b97
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7b258e111139f52f5ccf3ea3f385a1367576eacd
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839406"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188527"
 ---
 # <a name="cost-entries"></a>Entradas de custo
 
@@ -62,8 +62,7 @@ A página **Entradas de custo** permite a filtragem por ID de documento e data d
 > [!NOTE]
 > As entradas de custo estão disponíveis somente para [objetos de custo](cost-object.md) ou produtos liberados.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Objetos de custo](cost-object.md)
 

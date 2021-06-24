@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d916b6593b641ec1c8365475103b1520e07e3768
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64e3624b387820bea3bfea9c2a4b2f48b0aa9822
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821928"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189012"
 ---
 # <a name="balance-sheet-financial-reports"></a>Relatórios financeiros de balanço
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821928"
 
 Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios. 
 
-<a name="default-balance-sheet-reports"></a>Relatórios do balanço padrão
------------------------------
+## <a name="default-balance-sheet-reports"></a>Relatórios do balanço padrão
 
 Há dois relatórios do balanço padrão. Em um relatório, as seções são empilhadas. No outro relatório, as seções estão lado a lado.
 
@@ -68,8 +67,7 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de relatórios financeiros](financial-reporting-getting-started.md)
 

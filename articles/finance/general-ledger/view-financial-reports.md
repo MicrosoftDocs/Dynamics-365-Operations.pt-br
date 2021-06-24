@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f729b1703a7703a8a604b007bd1c8d9e1f604a6
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 723e0fa52cd7a9377671795e039f5948ce9239f3
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897275"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187785"
 ---
 # <a name="view-financial-reports"></a>Exibir relatórios financeiros
 
@@ -28,8 +28,7 @@ ms.locfileid: "5897275"
 
 Este tópico descreve como visualizar e explorar relatórios financeiros. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 
-<a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
-----------------------------
+## <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 
 ## <a name="open-a-financial-report"></a>Abrir um relatório financeiro
 Para abrir um relatório, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2015, o relatório é gerado para 31 de julho de 2015. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
@@ -76,8 +75,7 @@ Depois de concluir as configurações das opções de impressão, clique em **Im
 ## <a name="export-a-financial-report"></a>Exportar um relatório financeiro
 Para exportar um relatório financeiro, no Painel de Ação, clique em **Exportar**. O relatório é exportado para o Microsoft Excel, e o navegador solicitará que você abra ou salve o arquivo exportado. As configurações de exportação que estão definidas no design do relatório são aplicadas ao relatório exportado.    
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](../../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md)
 

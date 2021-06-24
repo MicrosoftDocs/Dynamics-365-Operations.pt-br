@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: a6d6979093c67d2d89b88678712f4c0205c63194
-ms.sourcegitcommit: 639175a39da38edd13e21eeb5a1a5ca62fa44d99
+ms.openlocfilehash: 9cd7dd8b9241171bdfdb3cc1379211a2fe99bbe1
+ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/15/2021
-ms.locfileid: "5899086"
+ms.lasthandoff: 06/03/2021
+ms.locfileid: "6183987"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda
 
@@ -72,6 +72,7 @@ As seguintes tarefas de execução de fabricação podem ser executadas no momen
 - Relatório de sucata
 - Atividade indireta
 - Interrupção
+- Relatar como finalizado e guardar (exige que você também execute a carga de trabalho de execução do armazém na sua unidade de escala, consulte também [Relatar como finalizado e guardar em uma unidade de escala](#RAF))
 
 ## <a name="working-with-manufacturing-execution-workloads-on-the-hub"></a>Trabalhar com cargas de trabalho de execução de fabricação no hub
 
@@ -108,6 +109,26 @@ Para revisar o histórico de trabalhos de fabricação que foram processados em 
 ### <a name="manufacturing-hub-to-scale-unit-message-processor-job"></a>Trabalho Hub de fabricação para processador de mensagens da unidade de escala
 
 O trabalho _Hub de fabricação para processador de mensagens da unidade de escala_ processa dados do hub para a unidade de escala. Esse trabalho é iniciado automaticamente quando a carga de trabalho de execução de fabricação é implantada. No entanto, você pode executá-lo manualmente a qualquer momento, acessando **Controle de produção \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office \> Hub de fabricação para processador de mensagens da unidade de escala**.
+
+<a name="RAF"></a>
+
+## <a name="report-as-finished-and-putaway-on-a-scale-unit"></a>Relatar como finalizado e guardar em uma unidade de escala
+
+<!-- KFM: 
+This section describes how to enable the abilities to report as finished and then putaway finished items when you are using to a scale unit.
+
+### Enable and use report as finished and putaway on a scale unit -->
+
+Na versão atual, as operações de relatar como finalizado e guardar (para produtos acabados, coprodutos e subprodutos) são compatíveis pela [carga de trabalho de execução do armazém](cloud-edge-workload-warehousing.md) (e não a carga de trabalho de execução de fabricação). Portanto, para usar esta funcionalidade quando conectado a uma unidade de escala, você deve fazer o seguinte:
+
+- Instale a carga de trabalho de execução do armazém e a carga de trabalho de execução de fabricação na sua unidade de escala.
+- Use o aplicativo móvel Warehouse Management para relatar como finalizado e processar o trabalho de guardar. No momento, a interface de execução do chão de fábrica não dão suporte a esses processos.
+
+<!-- KFM: API details needed
+
+### Customize report as finished and putaway functionality
+
+ -->
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

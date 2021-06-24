@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: e3124ac0e161e003986d7e167e292cbb374e1bfa
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 714c34dfcd109a442a4ecd741409dea5c4aade20
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085441"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216797"
 ---
 # <a name="import-format-for-consolidation"></a>Importar formato para consolidação
 
@@ -34,7 +34,7 @@ A tabela a seguir lista o formato de importação que você deve usar ao fazer u
 |--------------|---------|-------|
 | 1            | 170150, Reputação da empresa, 4 | <ul><li>A tabela de registros</li><li>A ID da conta principal de origem</li><li>A linha da conta principal</li><li>O tipo de conta principal</li></ul> |
 | 2            | 110130, 01/01/2015, 1, USD, 0,0,80699.39,0,1 | <ul><li>A ID da conta principal</li><li>A data da transação</li><li>O tipo de período fiscal (**0** = abertura, **1** = operacional e **2** = fechamento)</li><li>A moeda da transação</li><li>Débito ou crédito (**0** = débito e **1** = crédito)</li><li>O nível de lançamento</li><li>Valores da transação</li><li>Quantidade</li><li>A RecID local (ambíguo, valor Int64 único para a transação)</li></ul> |
-| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>O número da entrada (número da transação do cabeçalho de orçamento)</li><li>A data padrão do cabeçalho de orçamento</li><li>A ID do modelo de orçamento</li><li>O valor inteiro de enumeração para o tipo de transação (espaço em branco, orçamento original etc.)</li><li>A data da linha</li><li>A ID da conta principal da linha</li><li>O código de moeda da linha</li><li>O valor da linha na moeda da transação</li><li>O valor inteiro da enumeração para o tipo de orçamento da linha (despesa ou receita)</li></ul> |
+| 3            | USMF0000009, 2017/01/01, FY2017, 1, 2017,01,01, 602200, USD, 6053.6.0 | <ul><li>O número da entrada (número da transação do cabeçalho de orçamento)</li><li>A data padrão do cabeçalho de orçamento</li><li>A ID do modelo de orçamento</li><li>Tipo de orçamento (**1** - Orçamento original, **2** - Transferência, **3** - Revisão, **4** - Ônus, **5** - Pré-ônus, **6** - Orçamento levado adiante, **7** - Projeto, **8** - Ativos fixos, **9** - Previsão de demanda, **10** - Previsão de suprimento, **11** - Rateios, **12** - Orçamento preliminar.)</li><li>A data da linha</li><li>A ID da conta principal da linha</li><li>O código de moeda da linha</li><li>O valor da linha na moeda da transação</li><li>O valor inteiro da enumeração para o tipo de orçamento da linha (despesa ou receita)</li></ul> |
 | 4            | DEMF | RecordCompany é a entidade legal de origem. |
 | 5            | 110130, 01/01/2015, 1, USD, 0,0,80699.39,0,1 | <ul><li>ID da conta principal</li><li>Data da transação</li><li>Tipo de período fiscal (0 - Abertura, 1 - Operacional e 2 - Fechamento)</li><li>Moeda da transação</li><li>Débito ou crédito (0 para Débito e 1 para Crédito)</li><li>Nível de lançamento</li><li>Valor da transação</li><li>Quantidade</li><li>Um recid local (ambíguo, valor Int64 único para a transação)</li></ul>  |
 | 6            | BusinessUnit, 1 departamento, 2 | Os atributos de dimensão financeira que são definidos na ordem de segmento.<p>Você pode usar a página **Exportar** para verificar como os atributos são definidos.</p> |

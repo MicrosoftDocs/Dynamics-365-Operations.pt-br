@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1279cd1eb0d495107515dd40f7d2e0f9dfd5e080
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 84e7017cb0bd799e27e19fc82009307d2955dea7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058815"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189741"
 ---
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos e posições
 
@@ -42,8 +42,7 @@ O exemplo a seguir é usado para ilustrar os conceitos descritos neste artigo.
 |**Recursos Humanos**|Gerente de RH (Central)|Gerente de RH|
 
 
- <a name="departments"></a>Departamentos
-------------
+##  <a name="departments"></a>Departamentos
 
 Um departamento é uma unidade operacional que representa uma categoria ou uma área funcional de uma organização e que é responsável por uma área específica da organização, como vendas ou contabilidade. Um departamento é usado para relatar áreas funcionais, e pode ter responsabilidade por lucros e perdas. Além disso, um departamento pode incluir um grupo de centros de custo. Vendas, contabilidade e recursos humanos são exemplos de departamentos de uma organização.
 
@@ -96,8 +95,7 @@ Use os tipos de trabalho para classificar trabalhos semelhantes em categorias. O
 
 Use as áreas de responsabilidade para indicar as funções de trabalho, os processos e os produtos pelos quais um trabalhador será responsável em um cargo do trabalho. Um exemplo de uma área de responsabilidade para um trabalho chamado "Contador" poderia ser "Relatório financeiro do produto A".
 
-<a name="positions"></a>Cargos
-----------
+## <a name="positions"></a>Cargos
 
 Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional. Um cargo é uma instância individual de um trabalho. Por exemplo, a posição, "Gerente de vendas (Leste)", é apenas uma das posições associada ao cargo, "Gerente de vendas". As posições existem em um departamento e atribuídas aos funcionários.
 ### <a name="position-creation-and-maintenance"></a>Criação e manutenção de cargos

@@ -2,7 +2,7 @@
 title: Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
 description: Este tópico descreve as etapas que podem ser executadas para compreender o modelo de previsão de pagamento do cliente e avaliar sua eficácia.
 author: ShivamPandey-msft
-ms.date: 05/28/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 266f94b6a32c88307258aa99f2ac0c6bf9c50a84
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 014684595c7cd65383dc12d9eec2dd8ea7b8c20f
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897903"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186729"
 ---
 # <a name="evaluate-the-initial-customer-payment-prediction-model-preview"></a>Avaliar o modelo de previsão de pagamento inicial do cliente (versão prévia)
 
@@ -95,9 +95,5 @@ Depois de compreender melhor os resultados do seu primeiro modelo, talvez você 
 ## <a name="for-more-information"></a>Para obter mais informações
 
 Para obter mais informações sobre como avaliar modelos de previsão, [Resultados de modelos de aprendizado de máquina](/confusion-matrix.md)
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

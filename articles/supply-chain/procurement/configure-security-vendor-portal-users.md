@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8539837adc5c5e775d073f142f00afc9f14de669
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c2b95d386dd12bb1cb3577c3820b0be82d28df8e
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807839"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188479"
 ---
 # <a name="vendor-portal-user-security"></a>Segurança do usuário no portal de fornecedor
 
@@ -40,8 +40,7 @@ Antes de criar uma conta de usuário para alguém que usará o portal do fornece
 
 Se a mesma pessoa precisar de acesso ao portal do fornecedor em várias contas de fornecedor (para entidades legais diferentes, talvez), cada uma das contas de usuário dessa pessoa deverá ser associada com à mesma pessoa de contato registrada. A função **Fornecedor (externo)** inclui todos os recursos básicos necessários para usar a funcionalidade disponibilizada no portal do fornecedor. Essa configuração garante que a interface do usuário exibida para o usuário externo terá como foco apenas o cenário desejado.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Colaborar com fornecedores por meio do portal do fornecedor](collaborate-vendors-vendor-portal.md)
 

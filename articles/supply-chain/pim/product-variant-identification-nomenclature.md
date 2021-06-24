@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0ccb2ed2a143735c199c36f2da357996ad3fbff3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edab3420cbd39539358c03fe4d6b3646433f8ec5
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812826"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190151"
 ---
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de números e de nomes de grade de produto
 
@@ -188,8 +188,7 @@ Dependendo da nomenclatura, o sistema poderá tentar atribuir um número de grad
 
 Durante uma etapa do processo de configuração, o sistema sugere um valor de configuração de acordo com a nomenclatura. Nessa etapa, você alterará manualmente o valor da configuração. Quando você salva a configuração, o sistema verifica se o valor da configuração é exclusivo. Se o valor inserido não for exclusivo, você receberá uma mensagem de erro. Para salvar a configuração, insira um valor de configuração exclusivo.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar uma nomenclatura de produtos de grades de produto predefinidas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 

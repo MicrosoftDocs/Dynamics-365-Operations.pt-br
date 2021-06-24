@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4e12eb3162d00c76254582c0621c9dd567df562
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0e9c321315f91de6cf0f2029c26bd4f398a73830
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837288"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193992"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de cliente ou de fornecedor
 
@@ -207,8 +207,6 @@ No comprovante relacionado para o desconto à vista, as dimensões financeiras s
 |-------------|-----------------|------------------------|-----------|------------|
 | ARP-00001   | 403300-002-023- | Desconto à vista do cliente | 2.00      |            |
 | ARP-00001   | 130100-002-     | Saldo do cliente       |           | 2.00       |
-
-### 
 
 ## <a name="one-voucher-with-a-netting-for-multiple-customers-and-vendors"></a>Um comprovante com uma remuneração para vários clientes e fornecedores
 A remuneração pode ser útil quando uma organização compra e vende para a mesma empresa. Em vez de pagar faturas do fornecedor e aguardar para receber o pagamento das faturas do cliente, as faturas do fornecedor e do cliente são remuneradas. A transação de remuneração é liquidada em relação aos saldos pendentes. 

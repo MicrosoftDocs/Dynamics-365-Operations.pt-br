@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 2235545760899c0d945f08b5419154dfdbe4dffc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1137ee7938b378e5212e355580d005cd49b31dbb
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815755"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189036"
 ---
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
@@ -149,8 +149,7 @@ As regras de alocação de custo podem ser configuradas como segue.
 | CC001                                | Total         | **Serviços de RH**        |
 | CC002                                | Total         | **Serviços financeiros** |
 
-<a name="brhow-cost-flows-between-cost-centers"></a><br>Como o custo flui entre os centros de custo 
----------------------------------------------------
+## <a name="brhow-cost-flows-between-cost-centers"></a><br>Como o custo flui entre os centros de custo 
 
 Se quiser aprender como o custo flui entre os centros de custos na organização, é possível criar elementos de custo do tipo **Secundário** para cada centro de custos. Esses elementos de custo serão usados depois para transferir saldos entre centros de custos durante o cálculo de custos indiretos.
 
