@@ -7,58 +7,58 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application user
-ms.reviewer: v-chgri
+ms.reviewer: josaw
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: v-chgri
+ms.author: josaw
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: bdd634a04b6bbcf50d04cae8d670367268e57f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c890d7c49b6607ab0cbad536bbf8a3649465a7c1
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795874"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193483"
 ---
-# <a name="dynamics-365-commerce-evaluation-environment-overview"></a><span data-ttu-id="6ba53-103">Visão geral do ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-103">Dynamics 365 Commerce evaluation environment overview</span></span>
+# <a name="dynamics-365-commerce-evaluation-environment-overview"></a><span data-ttu-id="4815f-103">Visão geral do ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-103">Dynamics 365 Commerce evaluation environment overview</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6ba53-104">Este tópico fornece uma visão geral do ambiente de avaliação do Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="6ba53-104">This topic gives an overview of the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
+<span data-ttu-id="4815f-104">Este tópico fornece uma visão geral do ambiente de avaliação do Microsoft Dynamics 365 Commerce.</span><span class="sxs-lookup"><span data-stu-id="4815f-104">This topic gives an overview of the Microsoft Dynamics 365 Commerce evaluation environment.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="6ba53-105">Os ambientes de avaliação do Commerce não estão disponíveis para o público geral e são concedidos a parceiros e clientes por solicitação.</span><span class="sxs-lookup"><span data-stu-id="6ba53-105">Commerce evaluation environments aren't generally available, and are granted to partners and customers on a per-request basis.</span></span> <span data-ttu-id="6ba53-106">Para obter mais informações, fale com o contato do seu parceiro Microsoft.</span><span class="sxs-lookup"><span data-stu-id="6ba53-106">For more information, reach out to your Microsoft partner contact.</span></span>
+> <span data-ttu-id="4815f-105">Os ambientes de avaliação do Commerce não estão disponíveis para o público geral e são concedidos a parceiros e clientes por solicitação.</span><span class="sxs-lookup"><span data-stu-id="4815f-105">Commerce evaluation environments aren't generally available, and are granted to partners and customers on a per-request basis.</span></span> <span data-ttu-id="4815f-106">Para obter mais informações, fale com o contato do seu parceiro Microsoft.</span><span class="sxs-lookup"><span data-stu-id="4815f-106">For more information, reach out to your Microsoft partner contact.</span></span>
 
-<span data-ttu-id="6ba53-107">O ambiente de avaliação do Commerce é um ambiente opcional de ponta a ponta do Dynamics 365 Commerce, que permite aos parceiros e clientes potenciais experimentar o produto do Commerce.</span><span class="sxs-lookup"><span data-stu-id="6ba53-107">The Commerce evaluation environment is an optional end-to-end environment of Dynamics 365 Commerce that lets partners and potential customers try out the Commerce product.</span></span>
+<span data-ttu-id="4815f-107">O ambiente de avaliação do Commerce é um ambiente opcional de ponta a ponta do Dynamics 365 Commerce, que permite aos parceiros e clientes potenciais experimentar o produto do Commerce.</span><span class="sxs-lookup"><span data-stu-id="4815f-107">The Commerce evaluation environment is an optional end-to-end environment of Dynamics 365 Commerce that lets partners and potential customers try out the Commerce product.</span></span>
 
-<span data-ttu-id="6ba53-108">Os ambientes de avaliação são parcialmente pré-configurados para reduzir as etapas necessárias de pós-provisionamento.</span><span class="sxs-lookup"><span data-stu-id="6ba53-108">Evaluation environments are partially preconfigured to reduce the required post-provisioning steps.</span></span>
+<span data-ttu-id="4815f-108">Os ambientes de avaliação são parcialmente pré-configurados para reduzir as etapas necessárias de pós-provisionamento.</span><span class="sxs-lookup"><span data-stu-id="4815f-108">Evaluation environments are partially preconfigured to reduce the required post-provisioning steps.</span></span>
 
-<span data-ttu-id="6ba53-109">Com exceção de algumas limitações mínimas que não afetam os recursos ou a funcionalidade, o ambiente de avaliação do Commerce oferece a experiência completa do Commerce e pode ser usado por clientes e parceiros de implementação para avaliar o produto, fornecer comentários e realizar análise de lacuna/ajuste.</span><span class="sxs-lookup"><span data-stu-id="6ba53-109">Aside from some minor limitations that don't affect features or functionality, the Commerce evaluation environment provides the complete Commerce experience, and can be used by customers and implementation partners to evaluate the product, provide feedback, and do fit/gap analysis.</span></span>
+<span data-ttu-id="4815f-109">Com exceção de algumas limitações mínimas que não afetam os recursos ou a funcionalidade, o ambiente de avaliação do Commerce oferece a experiência completa do Commerce e pode ser usado por clientes e parceiros de implementação para avaliar o produto, fornecer comentários e realizar análise de lacuna/ajuste.</span><span class="sxs-lookup"><span data-stu-id="4815f-109">Aside from some minor limitations that don't affect features or functionality, the Commerce evaluation environment provides the complete Commerce experience, and can be used by customers and implementation partners to evaluate the product, provide feedback, and do fit/gap analysis.</span></span>
 
-## <a name="limitations-of-the-commerce-evaluation-environment"></a><span data-ttu-id="6ba53-110">Limitações do ambiente de avaliação do Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-110">Limitations of the Commerce evaluation environment</span></span>
+## <a name="limitations-of-the-commerce-evaluation-environment"></a><span data-ttu-id="4815f-110">Limitações do ambiente de avaliação do Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-110">Limitations of the Commerce evaluation environment</span></span>
 
-<span data-ttu-id="6ba53-111">Embora o ambiente de avaliação do Commerce forneça o conjunto completo de recursos e funcionalidades do Commerce, há algumas limitações mínimas:</span><span class="sxs-lookup"><span data-stu-id="6ba53-111">Although the Commerce evaluation environment provides the full set of Commerce features and functionality, there are some minor limitations:</span></span>
+<span data-ttu-id="4815f-111">Embora o ambiente de avaliação do Commerce forneça o conjunto completo de recursos e funcionalidades do Commerce, há algumas limitações mínimas:</span><span class="sxs-lookup"><span data-stu-id="4815f-111">Although the Commerce evaluation environment provides the full set of Commerce features and functionality, there are some minor limitations:</span></span>
 
-- <span data-ttu-id="6ba53-112">Embora o ambiente de avaliação do Commerce não tenha limitações geográficas, os componentes do ambiente, como os aplicativos Retail Cloud Scale Unit (RCSU) e e-Commerce, devem ser provisionados somente nos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="6ba53-112">Although the Commerce evaluation environment itself has no geographical limitations, components of the environment, such as the Retail Cloud Scale Unit (RCSU) and e-Commerce applications, should be provisioned only in the United States.</span></span>
-- <span data-ttu-id="6ba53-113">O uso do ambiente de avaliação do Commerce é limitado a 30 dias a partir da data em que o e-Commerce foi provisionado.</span><span class="sxs-lookup"><span data-stu-id="6ba53-113">Use of the Commerce evaluation environment is limited to 30 days from the date when e-Commerce is provisioned.</span></span>
-- <span data-ttu-id="6ba53-114">O ambiente de avaliação do Commerce pode ser implantado e inicializado com êxito somente em um ambiente que use a topologia de demonstração, na qual todos os componentes de um ambiente são implantados em uma única máquina virtual (VM) hospedada na nuvem.</span><span class="sxs-lookup"><span data-stu-id="6ba53-114">The Commerce evaluation environment can be successfully deployed and initialized only in an environment that uses the demo topology, where all components of an environment are deployed on a single cloud-hosted virtual machine (VM).</span></span> <span data-ttu-id="6ba53-115">A principal limitação dessa topologia é o número de usuários simultâneos aos quais o ambiente pode oferecer suporte.</span><span class="sxs-lookup"><span data-stu-id="6ba53-115">The main limitation of this topology is the number of concurrent users that the environment can support.</span></span>
+- <span data-ttu-id="4815f-112">Embora o ambiente de avaliação do Commerce não tenha limitações geográficas, os componentes do ambiente, como os aplicativos Retail Cloud Scale Unit (RCSU) e e-Commerce, devem ser provisionados somente nos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="4815f-112">Although the Commerce evaluation environment itself has no geographical limitations, components of the environment, such as the Retail Cloud Scale Unit (RCSU) and e-Commerce applications, should be provisioned only in the United States.</span></span>
+- <span data-ttu-id="4815f-113">O uso do ambiente de avaliação do Commerce é limitado a 30 dias a partir da data em que o e-Commerce foi provisionado.</span><span class="sxs-lookup"><span data-stu-id="4815f-113">Use of the Commerce evaluation environment is limited to 30 days from the date when e-Commerce is provisioned.</span></span>
+- <span data-ttu-id="4815f-114">O ambiente de avaliação do Commerce pode ser implantado e inicializado com êxito somente em um ambiente que use a topologia de demonstração, na qual todos os componentes de um ambiente são implantados em uma única máquina virtual (VM) hospedada na nuvem.</span><span class="sxs-lookup"><span data-stu-id="4815f-114">The Commerce evaluation environment can be successfully deployed and initialized only in an environment that uses the demo topology, where all components of an environment are deployed on a single cloud-hosted virtual machine (VM).</span></span> <span data-ttu-id="4815f-115">A principal limitação dessa topologia é o número de usuários simultâneos aos quais o ambiente pode oferecer suporte.</span><span class="sxs-lookup"><span data-stu-id="4815f-115">The main limitation of this topology is the number of concurrent users that the environment can support.</span></span>
 
-## <a name="get-started"></a><span data-ttu-id="6ba53-116">Iniciado</span><span class="sxs-lookup"><span data-stu-id="6ba53-116">Get started</span></span>
+## <a name="get-started"></a><span data-ttu-id="4815f-116">Iniciado</span><span class="sxs-lookup"><span data-stu-id="4815f-116">Get started</span></span>
 
-<span data-ttu-id="6ba53-117">Para provisionar o ambiente de avaliação do Commerce, consulte [Provisionar um ambiente de avaliação do Commerce](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="6ba53-117">To provision the Commerce evaluation environment, see [Provision a Commerce evaluation environment](provisioning-guide.md).</span></span>
+<span data-ttu-id="4815f-117">Para provisionar o ambiente de avaliação do Commerce, consulte [Provisionar um ambiente de avaliação do Commerce](provisioning-guide.md).</span><span class="sxs-lookup"><span data-stu-id="4815f-117">To provision the Commerce evaluation environment, see [Provision a Commerce evaluation environment](provisioning-guide.md).</span></span>
 
-## <a name="additional-resources"></a><span data-ttu-id="6ba53-118">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="6ba53-118">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="4815f-118">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="4815f-118">Additional resources</span></span>
 
-[<span data-ttu-id="6ba53-119">Provisionar um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-119">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
+[<span data-ttu-id="4815f-119">Provisionar um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-119">Provision a Dynamics 365 Commerce evaluation environment</span></span>](provisioning-guide.md)
 
-[<span data-ttu-id="6ba53-120">Configurar um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-120">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
+[<span data-ttu-id="4815f-120">Configurar um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-120">Configure a Dynamics 365 Commerce evaluation environment</span></span>](cpe-post-provisioning.md)
 
-[<span data-ttu-id="6ba53-121">Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-121">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
+[<span data-ttu-id="4815f-121">Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-121">Configure BOPIS in a Dynamics 365 Commerce evaluation environment</span></span>](cpe-bopis.md)
 
-[<span data-ttu-id="6ba53-122">Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-122">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
+[<span data-ttu-id="4815f-122">Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-122">Configure optional features for a Dynamics 365 Commerce evaluation environment</span></span>](cpe-optional-features.md)
 
-[<span data-ttu-id="6ba53-123">Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="6ba53-123">Dynamics 365 Commerce evaluation environment FAQ</span></span>](cpe-faq.md)
+[<span data-ttu-id="4815f-123">Perguntas frequentes sobre o ambiente de avaliação do Dynamics 365 Commerce</span><span class="sxs-lookup"><span data-stu-id="4815f-123">Dynamics 365 Commerce evaluation environment FAQ</span></span>](cpe-faq.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
