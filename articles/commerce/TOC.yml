@@ -94,7 +94,7 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
-                    - name: Commerce 10.0.20 (julho de 2021)
+                    - name: Commerce 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (junho de 2021)
                       href: get-started/whats-new-commerce-10-0-19.md
@@ -244,7 +244,7 @@
                   href: arch-auth-flow.md
                 - name: Requisitos de versionamento de componentes do Dynamics 365 Commerce
                   href: arch-component-versioning.md
-                - name: Arquitetura da Commerce Scale Unit
+                - name: Arquitetura do mecanismo do Commerce sem periféricos
                   href: dev-itpro/retail-server-architecture.md
                 - name: Selecionar uma topologia na loja
                   href: dev-itpro/retail-in-store-topology.md
@@ -258,7 +258,7 @@
                       href: dev-itpro/CDX-Troubleshooting.md
                 - name: Arquitetura do Modern POS
                   href: dev-itpro/retail-modern-pos-architecture.md
-                - name: Arquitetura de publicação de loja online
+                - name: Publicar um canal da loja online
                   href: dev-itpro/retail-online-store-publishing-architecture.md
                 - name: Conteúdo do Retail Channel Performance Power BI
                   href: ../fin-ops-core/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/dynamics365/commerce/toc.json
@@ -546,6 +546,8 @@
                       href: paypal.md
                     - name: Suporte para pagamento de carteira
                       href: wallets.md
+                    - name: Pagamentos avançados em finalização da compra de loja
+                      href: dev-itpro/enhanced-sca.md
                     - name: Perguntas frequentes sobre pagamentos
                       href: dev-itpro/payments-retail.md
                 - name: Email e notificações
@@ -770,10 +772,14 @@
                   href: notifications-pos.md
                 - name: Vender programas de continuidade e processar ordens de venda
                   href: tasks/use-continuity-program.md
-                - name: Habilitar notificações de check-in do cliente em ponto de venda (PDV)
+                - name: Habilitar notificações de check-in do cliente no PDV
                   href: enable-customer-check-in.md
-            - name: Devoluções
+            - name: Devoluções e reembolsos
               items:
+                - name: Criar devoluções no PDV
+                  href: POS-returns.md
+                - name: Devolver os produtos controlados por número de série no PDV
+                  href: POS-serial-returns.md
                 - name: Reembolsos vinculados
                   href: dev-itpro/linked-refunds.md
                 - name: Vender e devolver produtos não incluídos no sortimento de uma loja
@@ -1230,6 +1236,8 @@
                   href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/commerce/toc.json
                 - name: Criar configurações ER no Regulatory Configuration Service e carregá-las no repositório Global
                   href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/commerce/toc.json
+                - name: Regulatory Configuration Service — Substituição de armazenamento do Lifecycle Services
+                  href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/commerce/toc.json
             - name: Áustria
               items:
                 - name: Exemplo de integração de serviços de registro fiscal para a Áustria
@@ -1238,11 +1246,13 @@
               items:
                 - name: Localização do Commerce para o Brasil
                   href: localizations/latam-bra-commerce-localization.md
+                - name: Configurar e implantar a localização do Commerce para o Brasil
+                  href: localizations/latam-bra-deployment.md
             - name: Europa Oriental
               items:
                 - name: Comum
                   items:
-                    - name: Faturas antecipadas para o Commerce no Leste Europeu
+                    - name: Faturas antecipadas para o Commerce para a Europa Oriental
                       href: localizations/emea-eeu-advance-invoices-for-retail.md
                     - name: Gerenciamento de caixa pequeno para o Commerce no Leste Europeu
                       href: localizations/emea-eeu-petty-cash-for-retail.md
@@ -1962,8 +1972,12 @@
                       href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/dynamics365/commerce/toc.json
                     - name: Gerar formulários imprimíveis de fatura de texto livre (FTI)
                       href: ../fin-ops-core/dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/dynamics365/commerce/toc.json
-                - name: Rastrear a execução de formatos ER para solucionar problemas de desempenho
-                  href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                - name: Criar soluções ER eficientes
+                  items:
+                    - name: Rastrear a execução de formatos ER para solucionar problemas de desempenho
+                      href: ../fin-ops-core/dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/dynamics365/commerce/toc.json
+                    - name: Solucionar problemas de desempenho nas configurações ER
+                      href: ../fin-ops-core/dev-itpro/analytics/er-troubleshoot-perf-issues-in-configurations.md?toc=/dynamics365/commerce/toc.json
                 - name: Gerenciamento de documentos comerciais (BDM)
                   items:
                     - name: Visão geral do BDM
@@ -2392,7 +2406,7 @@
                   href: dev-itpro/retail-sdk/sdk-github.md
                 - name: Perguntas frequentes sobre o SDK do Retail
                   href: dev-itpro/retail-sdk/sdk-faq.md
-            - name: Extensibilidade de ponto de venda
+            - name: Extensibilidade de ponto de venda (PDV)
               items:
                 - name: Layouts da tela de PDV
                   href: pos-screen-layouts.md
