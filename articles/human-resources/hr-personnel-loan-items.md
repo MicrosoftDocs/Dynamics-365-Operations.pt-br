@@ -15,42 +15,40 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 33d5e831d3a631aa17e78628a4e88b5e1cfa8c73
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e4109762a2db3114ad66882092d6729dd9b08364
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052844"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190199"
 ---
-# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="0c8ee-103">Gerenciar itens emprestados aos trabalhadores</span><span class="sxs-lookup"><span data-stu-id="0c8ee-103">Manage items that are lent to workers</span></span>
+# <a name="manage-items-that-are-lent-to-workers"></a><span data-ttu-id="df3bc-103">Gerenciar itens emprestados aos trabalhadores</span><span class="sxs-lookup"><span data-stu-id="df3bc-103">Manage items that are lent to workers</span></span>
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-<span data-ttu-id="0c8ee-104">Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
+<span data-ttu-id="df3bc-104">Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="df3bc-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
-<span data-ttu-id="0c8ee-105">Os pontos a seguir são exemplos de itens que uma empresa pode emprestar aos trabalhadores:</span><span class="sxs-lookup"><span data-stu-id="0c8ee-105">The following points list examples of items that a company might lend to workers:</span></span>
--   <span data-ttu-id="0c8ee-106">Telefones celulares</span><span class="sxs-lookup"><span data-stu-id="0c8ee-106">Mobile telephones</span></span>
--   <span data-ttu-id="0c8ee-107">Automóveis</span><span class="sxs-lookup"><span data-stu-id="0c8ee-107">Automobiles</span></span>
--   <span data-ttu-id="0c8ee-108">Equipamentos de informática</span><span class="sxs-lookup"><span data-stu-id="0c8ee-108">Computer equipment</span></span>
+<span data-ttu-id="df3bc-105">Os pontos a seguir são exemplos de itens que uma empresa pode emprestar aos trabalhadores:</span><span class="sxs-lookup"><span data-stu-id="df3bc-105">The following points list examples of items that a company might lend to workers:</span></span>
+-   <span data-ttu-id="df3bc-106">Telefones celulares</span><span class="sxs-lookup"><span data-stu-id="df3bc-106">Mobile telephones</span></span>
+-   <span data-ttu-id="df3bc-107">Automóveis</span><span class="sxs-lookup"><span data-stu-id="df3bc-107">Automobiles</span></span>
+-   <span data-ttu-id="df3bc-108">Equipamentos de informática</span><span class="sxs-lookup"><span data-stu-id="df3bc-108">Computer equipment</span></span>
 
-<span data-ttu-id="0c8ee-109">Cada item físico deve ter um item de empréstimo correspondente.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="0c8ee-110">Cada registro de item de empréstimo deve descrever o que está sendo emprestado, quem é a pessoa responsável pelo empréstimo e o número de dias que o item poderá ficar emprestado a um trabalhador.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="0c8ee-111">Você pode criar vários itens de empréstimo, para itens como chaves, cartões de acesso ou uniformes, ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
+<span data-ttu-id="df3bc-109">Cada item físico deve ter um item de empréstimo correspondente.</span><span class="sxs-lookup"><span data-stu-id="df3bc-109">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="df3bc-110">Cada registro de item de empréstimo deve descrever o que está sendo emprestado, quem é a pessoa responsável pelo empréstimo e o número de dias que o item poderá ficar emprestado a um trabalhador.</span><span class="sxs-lookup"><span data-stu-id="df3bc-110">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can loaned to a worker.</span></span> <span data-ttu-id="df3bc-111">Você pode criar vários itens de empréstimo, para itens como chaves, cartões de acesso ou uniformes, ao mesmo tempo.</span><span class="sxs-lookup"><span data-stu-id="df3bc-111">You can create multiple loan items, for items such as keys, access cards or uniforms, at the same time.</span></span> 
 
-<span data-ttu-id="0c8ee-112">Ao emprestar um item, insira a data que ele foi emprestado e a data de devolução planejada.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="0c8ee-113">Quando o item for devolvido, insira a data real da devolução.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-113">When the item is returned, enter the actual return date.</span></span>
+<span data-ttu-id="df3bc-112">Ao emprestar um item, insira a data que ele foi emprestado e a data de devolução planejada.</span><span class="sxs-lookup"><span data-stu-id="df3bc-112">When loaning an item, enter the date that the item was loaned, and the planned return date.</span></span> <span data-ttu-id="df3bc-113">Quando o item for devolvido, insira a data real da devolução.</span><span class="sxs-lookup"><span data-stu-id="df3bc-113">When the item is returned, enter the actual return date.</span></span>
 
-<span data-ttu-id="0c8ee-114">Os funcionários podem exibir os registros dos itens que foram emprestados a eles usando o espaço de trabalho de autoatendimento para funcionários.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="0c8ee-115">Eles também podem editar os registros existentes ou inserir novos itens de empréstimo, se receberem itens físicos adicionais.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="0c8ee-116">O fluxo de trabalho poderá ser configurado para rotear as alterações a itens de empréstimo novos ou existentes por meio de um processo de aprovação.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
+<span data-ttu-id="df3bc-114">Os funcionários podem exibir os registros dos itens que foram emprestados a eles usando o espaço de trabalho de autoatendimento para funcionários.</span><span class="sxs-lookup"><span data-stu-id="df3bc-114">Employees can view the records of the items that have been loaned to them using the Employee self-service workspace.</span></span> <span data-ttu-id="df3bc-115">Eles também podem editar os registros existentes ou inserir novos itens de empréstimo, se receberem itens físicos adicionais.</span><span class="sxs-lookup"><span data-stu-id="df3bc-115">They can also edit the existing records or enter new loan items, if they've received additional physical items.</span></span>  <span data-ttu-id="df3bc-116">O fluxo de trabalho poderá ser configurado para rotear as alterações a itens de empréstimo novos ou existentes por meio de um processo de aprovação.</span><span class="sxs-lookup"><span data-stu-id="df3bc-116">Workflow can be set up to route changes to new or existing loan items through an approval process.</span></span> 
 
-<span data-ttu-id="0c8ee-117">Os gerentes podem exibir itens emprestados para seus subordinados diretos.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="0c8ee-118">Eles também podem ter permissão para adicionar novos itens de empréstimo em nome dos funcionários.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
+<span data-ttu-id="df3bc-117">Os gerentes podem exibir itens emprestados para seus subordinados diretos.</span><span class="sxs-lookup"><span data-stu-id="df3bc-117">Managers can view loaned items for their direct reports.</span></span> <span data-ttu-id="df3bc-118">Eles também podem ter permissão para adicionar novos itens de empréstimo em nome dos funcionários.</span><span class="sxs-lookup"><span data-stu-id="df3bc-118">They can also be granted permission to add new loan items on behalf of their employees.</span></span>
 
- <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="0c8ee-119">Conta para itens de empréstimo perdidos ou extraviados</span><span class="sxs-lookup"><span data-stu-id="0c8ee-119">Account for lost or misplaced loan items</span></span>
------------------------------------------
+##  <a name="account-for-lost-or-misplaced-loan-items"></a><span data-ttu-id="df3bc-119">Conta para itens de empréstimo perdidos ou extraviados</span><span class="sxs-lookup"><span data-stu-id="df3bc-119">Account for lost or misplaced loan items</span></span>
 
-<span data-ttu-id="0c8ee-120">Se um item for danificado ou extraviado, insira um registro de devolução fictícia.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="0c8ee-121">Em seguida, exclua o item ou mantenha-o na visão geral e altere a descrição para indicar que ele não está disponível.</span><span class="sxs-lookup"><span data-stu-id="0c8ee-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
+<span data-ttu-id="df3bc-120">Se um item for danificado ou extraviado, insira um registro de devolução fictícia.</span><span class="sxs-lookup"><span data-stu-id="df3bc-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="df3bc-121">Em seguida, exclua o item ou mantenha-o na visão geral e altere a descrição para indicar que ele não está disponível.</span><span class="sxs-lookup"><span data-stu-id="df3bc-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="0c8ee-122">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="0c8ee-122">Additional resources</span></span>
---------
+## <a name="additional-resources"></a><span data-ttu-id="df3bc-122">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="df3bc-122">Additional resources</span></span>
 
-[<span data-ttu-id="0c8ee-123">Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="0c8ee-123">Human resources</span></span>](index.md)
+[<span data-ttu-id="df3bc-123">Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="df3bc-123">Human resources</span></span>](index.md)
 
 
 
