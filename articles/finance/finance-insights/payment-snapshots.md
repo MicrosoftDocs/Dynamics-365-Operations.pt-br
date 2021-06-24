@@ -2,7 +2,7 @@
 title: Visão geral de instantâneos (versão preliminar)
 description: Este tópico descreve o recurso de instantâneos, que permite salvar uma previsão de fluxo de caixa para análise ou comparação com dados efetivos posteriormente. Ao gerar uma previsão de fluxo de caixa, você poderá salvar essa previsão como um "instantâneo". Em seguida, você pode usar esses instantâneos para editar as contas que foram incluídas na previsão ou comparar a previsão no instantâneo com os valores reais.
 author: ShivamPandey-msft
-ms.date: 05/19/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 07854d47fa2e42ea0d49cde193a2040415acf089
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 593d6fa8efdecf1b64ef802e6861783d6f85489c
+ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827233"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6186581"
 ---
 # <a name="snapshots-overview-preview"></a>Visão geral de instantâneos (versão preliminar)
 
@@ -42,9 +42,5 @@ Os fluxos de entrada e saída de caixa nos instantâneos podem ser editados a qu
 Para comparar vários instantâneos, selecione **Comparar instantâneos**. Você pode comparar dois instantâneos ao mesmo tempo. Selecione os dois instantâneos que devem ser comparados e selecione **OK**. A página **Comparar instantâneo** mostrará uma comparação dos instantâneos selecionados. O gráfico na seção superior da página mostra uma comparação entre as entradas de caixa, as saídas de caixa e os saldos bancários nos períodos sobrepostos entre os dois instantâneos. A grade na seção inferior mostra uma comparação detalhada das duas previsões para cada valor de liquidez. A coluna **Variação** na grade mostra a diferença entre os saldos em um período.
 
 Para comparar os resultados financeiros reais com uma previsão salva como um instantâneo, selecione **Comparar com reais**. A página **Comparar instantâneo** mostrará uma comparação entre os valores reais e a previsão. O gráfico na seção superior da página mostra uma comparação entre as entradas de caixa, as saídas de caixa e os saldos bancários nos períodos sobrepostos entre os dois instantâneos. A grade na seção inferior mostra uma comparação detalhada dos saldos reais por período e o saldo previsto para cada valor de liquidez. A coluna **Variação** na grade mostra a diferença entre o saldo real em um período e o saldo previsto.
-
-#### <a name="privacy-notice"></a>Aviso de privacidade
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

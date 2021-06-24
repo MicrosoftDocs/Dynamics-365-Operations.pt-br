@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2860ffb028c2d33f84e2e0796b2971e090454c90
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3dbd66d499b5d5f9f8ef21c0ce3752031a5f4672
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840620"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193773"
 ---
 # <a name="delivery-schedules"></a>Agendas de entrega
 
@@ -28,11 +28,11 @@ ms.locfileid: "5840620"
 
 As agendas de entrega permitem que você rastreie a quantidade da linha da ordem quando estiver usando várias entregas para uma única ordem de venda, cotação de venda ou ordem de compra.
 
-Use um plano de entrega quando a quantidade total em uma linha de ordem ou cotação tiver que ser entregue em várias remessas. Remessas individuais são representadas por linhas de entrega. Duas ou mais linhas de entrega compõem uma agenda de entrega. As linhas de entrega podem ter datas de entrega, quantidades, modos de entrega e dimensões de armazenamento diferentes, como o local e o depósito.  
+Use um plano de entrega quando a quantidade total em uma linha de ordem ou cotação tiver que ser entregue em várias remessas. Remessas individuais são representadas por linhas de entrega. Duas ou mais linhas de entrega compõem uma agenda de entrega. As linhas de entrega podem ter datas de entrega diferentes, quantidades, modos de entrega e dimensões de armazenamento, como o site e o depósito.  
 
 **Exemplo de uma agenda de entrega**
 
-|                                   |                                          |
+| Item                               | Alíquota                                    |
 |-----------------------------------|------------------------------------------|
 | Ordem total (linha da ordem original) | 600 cadeiras                               |
 | Agenda de entrega solicitada       | 100 cadeiras por mês                     |

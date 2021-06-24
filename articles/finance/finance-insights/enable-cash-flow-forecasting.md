@@ -2,7 +2,7 @@
 title: Habilitar revisão de fluxo de caixa (versão prévia)
 description: Este tópico explica como habilitar o recurso de previsões de fluxo de caixa no Finance Insights.
 author: ShivamPandey-msft
-ms.date: 07/24/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7c06eaeb79c1a2aa319cfa3d2ad8255bf716cd0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8acb2191291e2abed5cabf234c19fe09e6c8ff
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818719"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222549"
 ---
 # <a name="enable-cash-flow-forecasting-preview"></a>Habilitar revisão de fluxo de caixa (versão prévia)
 
@@ -37,7 +37,7 @@ Este tópico explica como habilitar o recurso de previsões de fluxo de caixa no
     `INSERT INTO SYSFLIGHTING (FLIGHTNAME, ENABLED) VALUES ('CashflowInsightsFeature', 1)`
 
     > [!NOTE]
-    > Se a sua implantação do Microsoft Dynamics 365 Finance for uma implantação do Service Fabric, você pode ignorar essa etapa. A equipe do Finance Insights já deve ter ativado a versão piloto para você. Se você não vir os recursos no espaço de trabalho **Gerenciamento de recursos** ou se tiver problemas ao tentar ligá-los, contate <fiap@microsoft.com>.
+    > Ignore esta etapa se você estiver usando a versão 10.0.20 ou posterior, ou se você estiver usando uma implantação do Service Fabric. A equipe do Finance Insights já deve ter ativado a versão piloto para você. Se você não vir o recurso no espalho de trabalho **Gerenciamento de recurso**, ou se você tiver problemas ao tentar ativá-lo, entre em contato com <fiap@microsoft.com>.
   
 2. Abra o espaço de trabalho **Gerenciamento de recursos** e siga estas etapas:
 
@@ -60,10 +60,5 @@ Este tópico explica como habilitar o recurso de previsões de fluxo de caixa no
     2. Selecione **Criar modelo de previsão**.
 
 Para obter mais informações sobre o recurso de previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](cash-flow-forecast-intro.md).
-
-## <a name="privacy-notice"></a>Aviso de privacidade
-
-As versões prévias (1) podem utilizar menos medidas de privacidade e segurança que o serviço do Dynamics 365 Finance and Operations, (2) não estão incluídas no contrato de nível de serviço (SLA) desse serviço, (3) não devem ser usadas para processar dados pessoais ou outros dados sujeitos a requisitos de conformidade legais ou regulatórios e (4) têm suporte limitado.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

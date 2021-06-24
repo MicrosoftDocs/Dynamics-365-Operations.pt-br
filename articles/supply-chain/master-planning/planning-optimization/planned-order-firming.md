@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ac8b63b98c37c7429cee792b85f492f3ca1d57c7
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e2fc40e3e9874d47dd51e773628ba1ce75b8ebab
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103619"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193872"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -102,7 +102,7 @@ A confirmação automática permite que você confirme ordens planejadas como pa
 
 A otimização de planejamento e o mecanismo de planejamento interno podem ser usados para ordens planejadas de confirmação automática. No entanto, há alguns diferenças importantes. Por exemplo, a otimização de planejamento usa a data da ordem (ou seja, a data de início) para determinar quais ordens planejadas devem ser confirmadas, enquanto o mecanismo de planejamento interno usa a data de requisição (ou seja, a data de término). A tabela a seguir resume as diferenças.
 
-| | Otimização do Planejamento | Mecanismo de planejamento interno |
+| Recurso | Otimização do Planejamento | Mecanismo de planejamento interno |
 |---|---|---|
 | **Base de data** | A confirmação automática se baseia na data da ordem (data inicial). | A confirmação automática se baseia na data de requisição (data final). |
 | **Lead time** | Como a data da ordem (data inicial) dispara a confirmação, você não precisa considerar o prazo de entrega como parte do limite de tempo de confirmação. | Para ajudar a garantir que as ordens sejam confirmadas em tempo hábil, o limite de tempo de confirmação deverá ser superior ao prazo de entrega. |

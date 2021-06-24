@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fdcb45918b404f8a47f27bcea7c02a8397c9336f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 236743277a95b8a1170ca05f93106575ea1cc8e4
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821432"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187593"
 ---
 # <a name="standard-cost-conversion-overview"></a>Visão geral da conversão em custo padrão
 
@@ -92,8 +92,7 @@ O relatório **Demonstrativo de análise de variação** permite analisar a vari
 -   Analise os movimentos de estoque de datas anteriores. Use o relatório **Data do estoque** para exibir os movimentos de estoque com datas anteriores inseridos após a conversão. A Data de início e a Data de término do relatório devem corresponder à data inicial da transição e à data de conversão, menos um dia. Os critérios de seleção do relatório devem refletir os itens convertidos. O relatório mostra os movimentos de estoque feitos ao custo padrão durante o período de transição.
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Pré-requisitos para uma conversão em custo padrão](prerequisites-standard-cost-conversion.md)
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: a7a06b5476302e43d107c448c139c235ea57b05b
-ms.sourcegitcommit: 57668404d61359b33e0c0280f2f7c4eb829b1ed2
+ms.openlocfilehash: a7a9fb619ce3488ad4e3e79292af7acc359b83c5
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947535"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193221"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-supply-chain-management"></a>Recursos removidos ou obsoletos do Dynamics 365 Supply Chain Management
 
@@ -38,7 +38,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="job-card-device"></a>Dispositivo de ficha de trabalho
 
-|   |   |
+| &nbsp;  | &nbsp;  |
 |---|---|
 | **Motivo para a reprovação/remoção** | O [dispositivo de ficha de trabalho](../production-control/config-job-card-device.md) está sendo substituído pela nova [interface de execução de piso de produção](../production-control/production-floor-execution-configure.md). |
 | **Substituída por outro recurso?**   | Sim, o [dispositivo de ficha de trabalho](../production-control/config-job-card-device.md) será substituído pela nova [interface de execução de piso de produção](../production-control/production-floor-execution-configure.md). |
@@ -50,7 +50,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="dynamics-365-for-finance-and-operations---warehousing-the-warehouse-app"></a>Dynamics 365 for Finance and Operations - Warehousing (o aplicativo de depósito)
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Em abril de 2021, o *Dynamics 365 for Finance and Operations - Warehousing* (o aplicativo de depósito) estará obsoleto e só terá suporte até abril de 2022. Ele foi substituído pelo *aplicativo móvel de gerenciamento de depósito*, lançado com a versão 10.0.17 do Supply Chain Management. O novo aplicativo é uma substituição completa, mas usa a mesma estrutura subjacente, o que facilita a migração. Se necessário, os dois aplicativos poderão ser usados lado a lado para ajudar usuários no ajuste gradual à medida que aprendem a usar o novo aplicativo.<br><br>Para obter mais informações sobre o novo aplicativo móvel de gerenciamento de depósito, consulte [Aplicativo móvel de gerenciamento de depósito](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-management-mobile-application) e [Instale e conecte o Aplicativo móvel de gerenciamento de depósito](../warehousing/install-configure-warehouse-management-app.md). |
 | **Substituída por outro recurso?**   | Sim, substituído pelo novo aplicativo móvel de gerenciamento de depósito. |
@@ -62,7 +62,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="internet-explorer-11-support-for-dynamics-365-is-deprecated"></a>Suporte do Internet Explorer 11 para Dynamics 365 foi substituído
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
@@ -72,7 +72,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-manufacturing-scenarios"></a>Uso do mecanismo de planejamento mestre do Supply Chain Management integrado para cenários de fabricação
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para melhorar o desempenho e minimizar o carregamento do banco de dados SQL durante a execução do planejamento mestre, o mecanismo de planejamento mestre interno do Supply Chain Management está sendo substituído pela otimização do planejamento. A otimização do planejamento permite a execução de planejamentos rápidos que podem ser realizados mesmo durante o horário de expediente. Isso permite que os planejadores reajam imediatamente a alterações na demanda ou nos parâmetros de planejamento. |
 | **Substituída por outro recurso?**   | Sim, a Otimização de Planejamento substituirá o mecanismo de planejamento mestre do Supply Chain Management interno. |
@@ -84,7 +84,7 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 ### <a name="use-of-built-in-supply-chain-management-master-planning-engine-for-distribution-scenarios"></a>Uso do mecanismo de planejamento mestre do Supply Chain Management integrado para cenários de distribuição
 
-|   |  |
+| &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Para melhorar o desempenho e minimizar o carregamento do banco de dados SQL durante a execução do planejamento mestre, o mecanismo de planejamento mestre interno do Supply Chain Management está sendo substituído pela otimização do planejamento. A otimização do planejamento permite a execução de planejamentos rápidos que podem ser realizados mesmo durante o horário de expediente. Isso permite que os planejadores reajam imediatamente a alterações na demanda ou nos parâmetros de planejamento. |
 | **Substituída por outro recurso?**   | Sim, a Otimização de Planejamento substituirá o mecanismo de planejamento mestre do Supply Chain Management interno. |

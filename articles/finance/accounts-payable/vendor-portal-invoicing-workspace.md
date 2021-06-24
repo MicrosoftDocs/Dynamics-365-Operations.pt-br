@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 73f16b00f2af884387e0b135f3b220179eecad86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a3f4729a8a788f4f5b2b2e9923f515b86590b946
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822434"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188799"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
 
@@ -31,8 +31,7 @@ Este tópico explica como podem exibir faturas de fornecedor e enviar notas fisc
 O espaço de trabalho **Faturamento de colaboração de fornecedor** pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao sistema usando recursos de fluxo de trabalho.
 
 
-<a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
-----------------------------------------
+## <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento da colaboração de fornecedores
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 

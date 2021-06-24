@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: f0238f46d28205fd6d0906030a1660ab3aa7225a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
+ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838361"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "6164837"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
@@ -330,7 +330,6 @@ As ordens de transferência são criadas sem o uso dos recursos de **Controle da
 
 #### <a name="can-i-use-a-license-plate-having-physical-negative-inventory-on-hand"></a>É possível usar uma placa de licença com estoque físico negativo disponível?
 
-O recurso oferece suporte apenas a quantidades físicas disponíveis positivas. Certifique-se de ter quantidades físicas positivas no nível de status do depósito e do estoque antes de atribuir placas de licença a uma ordem de transferência.
-
+O recurso só é compatível com quantidades físicas disponíveis positivas no nível de placa de veículo, mas você pode ter quantidades físicas disponíveis negativas nos níveis de status do armazém e inventário ao atribuir placas de veículo para transferir ordens.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

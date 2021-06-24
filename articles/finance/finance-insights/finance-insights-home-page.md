@@ -2,7 +2,7 @@
 title: Página inicial do Finance insights (versão prévia)
 description: O Finance Insights fornece modelos configuráveis e extensíveis para ajudar você a prever de forma precisa e inteligente o fluxo de caixa da sua empresa, prever quando receberá o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode acelerar o processo de orçamento. Todos esses recursos se baseiam nos modelos inteligentes de aprendizado de máquina.
 author: ShivamPandey-msft
-ms.date: 07/20/2020
+ms.date: 06/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 3a78a162469790d797344ce9311c55bfcecd19f4
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 4876d2d4ad79dc09ce4b372eedf4c6ab31930957
+ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6086980"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "6222501"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página inicial do Finance insights (versão prévia)
 
@@ -68,7 +68,9 @@ A familiaridade com o processo de criação e gerenciamento de recursos no Azure
 
 ## <a name="configure-finance-insights"></a>Configurar o Finance Insights
 
-Você deve concluir algumas etapas de configuração para poder usar ao Finance Insights. Para obter mais informações sobre como configurar o Finance Insights, consulte [Configuração do Finance Insights](configure-for-fin-insites.md).
+Você deve concluir algumas etapas de configuração para poder usar ao Finance Insights. Para obter mais informações sobre como configurar o Finance Insights, consulte:
+  - Para versões até 10.0.19: [Configuração para o Finance Insights – versões até 10.0.19](configure-for-fin-insites.md).
+  - Para versões 10.0.20 e posteriores: [Configuração para Finance Insights (versão preliminar) – versões 10.0.20 e posteriores](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Criar um projeto integrador de dados
 
@@ -84,10 +86,7 @@ Se você estiver usando dados de demonstração para testar previsões de pagame
 Para habilitar previsões de pagamento de cliente, você deve concluir um conjunto de etapas para criar um modelo de aprendizado de máquina que usa os dados de sua organização para gerar previsões sobre quando os clientes provavelmente pagarão faturas pendentes e quando faturas específicas provavelmente serão pagas. Para obter mais informações e as etapas específicas a serem concluídas, consulte [Habilitar previsões de pagamento de cliente](enable-cust-paymnt-prediction.md). 
 
 ### <a name="enable-cash-flow-forecasting"></a>Habilitar Revisão de fluxo de caixa
-Para habilitar a previsão de fluxo de caixa, você deve concluir um conjunto de etapas para criar um modelo de aprendizado de máquina que usa os dados de sua organização para gerar previsões de fluxo de caixa. Para obter mais informações e as etapas específicas a serem concluídas, consulte [Habilitar previsões de fluxo de caixa](enable-cash-flow-forecasting.md) 
-
-### <a name="set-up-and-use-cash-flow-forecasting"></a>Configurar e usar a previsão de fluxo de caixa
-Para obter informações sobre como configurar e usar a previsão de fluxo de caixa, consulte [Habilitar previsão de fluxo de caixa](enable-cash-flow-forecasting.md). Para obter mais informações sobre como usar este recurso, consulte [Previsão de fluxo de caixa](cash-flow-forecast-intro.md).
+Para habilitar a previsão de fluxo de caixa, é necessário concluir um conjunto de etapas para criar um modelo de aprendizado de máquina que usa os dados de sua organização para gerar previsões de fluxo de caixa. Para obter mais informações e as etapas específicas a serem concluídas, consulte [Habilitar previsões de fluxo de caixa](enable-cash-flow-forecasting.md).
 
 ### <a name="enable-budget-proposals"></a>Habilitar propostas de orçamento
 
@@ -111,14 +110,12 @@ O recurso de previsão de fluxo de caixa pode ajudar você a estimar mais precis
 
 - Para aprender sobre os novos recursos nas previsões de fluxo de caixa, consulte [Previsão de fluxo de caixa](cash-flow-forecast-intro.md).
 - Para obter informações sobre a importação de dados externos a serem incluídos na sua previsão de fluxo de caixa, consulte [Usar dados externos em previsões de fluxo de caixa](external-data-in-cash-flow.md). 
-- Para obter informações sobre como usar um modelo de IA para projetar o fluxo de caixa a longo prazo, consulte [Visão geral de previsões de fluxo de caixa](cash-position.md).
+- Para obter informações sobre como usar um modelo de IA para projetar o fluxo de caixa em curto prazo, consulte [Posição de caixa](cash-position.md).
 - Para obter informações sobre como salvar posições de fluxo de caixa e previsões de fluxo de caixa como instantâneos, bem como comparar um instantâneo com dados efetivos, consulte [Visão geral de instantâneos](payment-snapshots.md).
 
 ### <a name="using-budget-proposal"></a>Usar proposta de orçamento
 
 Para obter informações sobre a aceleração da criação de um orçamento, consulte [Propostas de orçamento](budget-proposals.md). 
-
-Dados de demonstração para proposta de orçamento:
 
 ## <a name="feedback-and-support"></a>Comentários e suporte
 

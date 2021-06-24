@@ -2,7 +2,7 @@
 title: Habilitar vários modos de entrega de retirada para ordens de cliente
 description: Este tópico explica a funcionalidade no Microsoft Dynamics 365 Commerce que permite criar ordens de cliente para retirada em uma loja.
 author: hhainesms
-ms.date: 11/17/2020
+ms.date: 06/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 124765a3d4d2ebd01e200b76fc862e2c37073b8e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
+ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020642"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6216758"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar vários modos de entrega de retirada para ordens de cliente
 
@@ -38,7 +38,7 @@ Depois de ativar o recurso **Suporte para vários modos de entrega de retirada**
 
 Os campos **Executar modo de entrega** e **Modo eletrônico de entrega**, e a opção **Mostrar somente opções de modo de transportadora para ordens de remessa**, foram realocados para essa FastTab.
 
-Antes de configurar modos de entrega de retirada adicionais, você deve definir os modos de entrega. Na página **Modos de entrega** na sede do Commerce, adicione os modos de entrega que devem ser considerados modos de entrega de retirada. Verifique se toda a configuração foi concluída. Por exemplo, verifique se o modo de entrega está vinculado a canais e itens apropriados. Quando terminar, execute o trabalho **Processar modos de entrega** para criar os relacionamentos entre modo de entrega, canais e itens. Quando a execução do trabalho for concluída, abra a página **Agenda de distribuição** na sede do Commerce e execute o trabalho de distribuição **1120** para garantir que os bancos de dados relevantes do canal do Commerce sejam atualizados com a nova configuração de modo de entrega.
+Antes de configurar modos de entrega de retirada adicionais, você deve definir os modos de entrega. Na página **Modos de entrega** na sede do Commerce, adicione os modos de entrega que devem ser considerados modos de entrega de retirada. Verifique se toda a configuração foi concluída. Por exemplo, se você está oferecendo a retirada em frente à loja como uma opção de entrega para seus compradores online para determinadas lojas, será necessário criar um novo modo de entrega para esta finalidade. Você pode criar este modo de entrega usando "retirada em frente à loja" como a descrição. Em seguida, você procurará garantir que o modo de entrega "retirada em frente à loja" seja mapeado para todos os canais de comércio que podem oferecê-lo, inclusive lojas online que podem oferecer essa opção e os canais de loja individuais que oferecerão esse método de atendimento. Os modos de entrega também devem estar vinculados aos produtos. Neste exemplo, se há determinados produtos que não podem ser entregues usando "retirada em frente à loja", será necessário garantir que esses itens sejam excluídos. Quando terminar de adicionar novos modos de entrega, execute o trabalho **Processar modos de entrega** para criar os relacionamentos entre modo de entrega, canais e itens. Quando o trabalho for concluído, abra a página **Agenda de distribuição** na sede do Commerce e execute o trabalho de distribuição **1120** para garantir que os bancos de dados relevantes do canal do Commerce sejam atualizados com a nova configuração de modo de entrega.
 
 ![Exemplo de uma configuração de modo de entrega para retirada em frente à loja](media/pickupmodes.png)
 

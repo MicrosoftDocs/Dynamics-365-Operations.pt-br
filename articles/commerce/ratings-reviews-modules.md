@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: dee9a6a7e2a5278f069958ce00689b1beb9b1bd7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
+ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792138"
+ms.lasthandoff: 06/07/2021
+ms.locfileid: "6193273"
 ---
 # <a name="ratings-and-reviews-modules"></a>Módulos de classificações e opiniões
 
@@ -54,7 +54,11 @@ A ilustração a seguir mostra como a caixa de diálogo **Adicionar o módulo** 
 
 O módulo de escrita de avaliação contém um botão **Escrever uma avaliação** que permite que os usuários se conectem, atribuam uma avaliação e escrevam uma revisão de um produto. Este módulo também permite que os usuários editem uma classificação ou opinião enviada anteriormente. Esse módulos geralmente aparecerá acima do histograma de avaliações e módulos de lista de opiniões sobre produto em um PDP.
 A ilustração a seguir mostra a caixa de diálogo **Escrever uma avaliação** exibida quando um cliente seleciona **Escrever uma avaliação**. O cliente pode usar esta caixa de diálogo para enviar uma avaliação e uma revisão.
-![Caixa de diálogo escrever uma avaliação](media/rnr-eCommerce-write-review-module.png) A tabela a seguir mostra a propriedade do módulo para escrever uma revisão que precisa ser configurada na ferramenta de criação.
+
+![Caixa de diálogo escrever uma avaliação](media/rnr-eCommerce-write-review-module.png)
+
+A tabela a seguir mostra a propriedade do módulo para escrever uma revisão que precisa ser configurado na ferramenta de criação.
+
 | Nome da propriedade | Alíquota        | Descrição de propriedade                 |
 |---------------|--------------|--------------------------------------|
 | Nome          | Escrever avaliação | O nome do módulo escrever uma revisão. |

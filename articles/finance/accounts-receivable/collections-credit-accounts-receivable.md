@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3dc4dc556cbb8bd461e904ef569016acd4276f7a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c394219bbb58bea187d352c8817ed4c3e2eb883c
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814239"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189436"
 ---
 # <a name="collections-in-accounts-receivable"></a>Cobranças em Contas a receber
 
@@ -99,8 +99,7 @@ A transação de baixa é criada na moeda da transação.
 
 Para obter mais informações, consulte [Criar um diário de baixa para um cliente](tasks/create-write-off-journal-customer.md).
 
-<a name="process-not-sufficient-funds-nsf-payments"></a>Processar pagamento de insuficiência de fundos (NSF)  
---------------------------------------------
+## <a name="process-not-sufficient-funds-nsf-payments"></a>Processar pagamento de insuficiência de fundos (NSF)  
 
 Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobranças. Quando você clica nesse botão, o pagamento é cancelado. Se uma taxa de NSF for aplica ao cliente, uma transação de encargo será criada em um diário de pagamento. O valor da taxa é baseado nas configurações de encargos automáticos. Os encargos automáticas que se aplicam aos pagamentos NSF são especificados pelo grupo de encargos selecionado na página Contas bancárias para a conta bancária afetada.
 

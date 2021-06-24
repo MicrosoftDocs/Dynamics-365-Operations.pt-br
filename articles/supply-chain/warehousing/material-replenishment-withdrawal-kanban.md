@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7044aa84dc7ea7adc303c250e75ca6fb4a493800
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831233"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189935"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 
@@ -30,7 +30,6 @@ ms.locfileid: "5831233"
 Este tópico descreve como o kanban de retirada é usado para o reabastecimento de material para atividades de fabricação.
 
 ## <a name="workflow-for-material-replenishment-that-uses-the-withdrawal-kanban"></a>Fluxo de trabalho para o reabastecimento de material que usa o kanban de retirada
--------------------------------------------------------------------
 
 O kanban de retirada pode ser usado para mover um kanban de um único item entre depósitos e locais de produção nos quais o material é consumido. O kanban de retirada oferece suporte a uma solução baseada em pull para reabastecimento de material, no qual um sinal pull é necessário para acionar o fornecimento para uma demanda específica. 
 

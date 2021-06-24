@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-03-25
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 69232eed8520bafeb734ffad43b333bf9e36909e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c95c1f2342654ca2bbee57959becc85291eebbc
+ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018676"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187262"
 ---
 # <a name="engineering-change-management-faq"></a>Gerenciamento de alteração de engenharia - Perguntas frequentes
 
@@ -46,7 +46,7 @@ Esta opção é muito mais fácil de gerenciar, pois se você deseja alterar de 
 
 A maioria das empresas escolhe esta opção, pois ela oferece a versão e o gerenciamento de alterações, mas não adiciona a sobrecarga extra ao rastrear a versão em cada transação, no estoque e durante o planejamento mestre.
 
-## <a name="which-fields-are-copied-to-the-released-item-template"></a>Que campos são copiados para o modelo de item liberado?
+## <a name="which-fields-are-copied-from-the-released-item-template"></a>Quais campos são copiados do modelo de item liberado?
 
 Quando uma empresa de engenharia cria um produto de engenharia, esse produto é criado como um produto liberado na empresa de engenharia. O produto liberado criado se baseia no *modelo de item liberado* selecionado. (O modelo de item liberado é um produto liberado existente.) O modelo de item liberado também é usado quando o produto é liberado para uma empresa operacional. Em cada caso, o modelo de item liberado define a maioria dos valores de campo para o produto liberado, e esses valores são provenientes da página **Detalhes de produtos liberados** associados.
 

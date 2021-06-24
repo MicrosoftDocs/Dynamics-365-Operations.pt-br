@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a46ebb841b4abe6aa5bd8b06966f4197b27aeaee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ee17aeb75e2bdc3b9c36d50914c24aa9d6218b7
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841204"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189508"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>Pagamentos de fornecedor de um valor parcial
 
@@ -28,8 +28,7 @@ ms.locfileid: "5841204"
 
 Algumas vezes, você pode fazer um pagamento para um fornecedor que seja menor do que o valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração. 
 
-<a name="cash-discount-amounts"></a>Valores de desconto à vista
----------------------
+## <a name="cash-discount-amounts"></a>Valores de desconto à vista
 
 Um fornecedor poderá oferecer um desconto à vista quando você pagar uma fatura antes da data de vencimento. Por exemplo, você insere uma fatura de 100,00 que especifica um desconto à vista de 2% caso a fatura seja paga em 10 dias. As condições da data de vencimento serão de 30 dias. Se uma proposta de pagamento usa o desconto de caixa como critério para selecionar uma fatura e se a proposta é executada na data de desconto ou antes dela, a fatura é selecionada para pagamento e o pagamento é criado por 98,00. Um desconto de dinheiro também pode ser tomado para um pagamento único que foi criado manualmente.
 

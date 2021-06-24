@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 95f1f6971e645a0aae8679c94a4bbd4cba946dc3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0a9b387be0b28564dd7ae88af33812a8bbf034c0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825413"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6188270"
 ---
 # <a name="approve-and-confirm-purchase-orders"></a>​Aprovar e confirmar ordens de compra​
 
@@ -83,8 +83,7 @@ Para cancelar a quantidade total em uma linha da ordem de compra, cancele a quan
 
 Se uma OC no gerenciamento de alterações, todas as mudanças, como o cancelamento da ordem ou da quantidade pendente, devem ser enviadas para o sistema do fluxo de trabalho e aprovadas antes do processo ser concluído e as transações do estoque podem ser atualizadas como canceladas.
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de ordens de compra](purchase-order-overview.md)
 

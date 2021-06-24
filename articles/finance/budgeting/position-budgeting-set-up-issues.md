@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f3e3c2f8a69d620bd2babe0d8d55858d01b25436
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ed85e9fd1a953a60483f369e9ac39762e294f6fc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833104"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190252"
 ---
 # <a name="position-budgeting-troubleshooting"></a>Solução de problemas para orçamento de posição
 
@@ -28,8 +28,7 @@ ms.locfileid: "5833104"
 
 Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração. 
 
-<a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Por que eu não consigo encontrar a página da posição de previsão em Recursos humanos?
----------------------------------------------------------------
+## <a name="why-cant-i-find-the-forecast-position-page-in-human-resources"></a>Por que eu não consigo encontrar a página da posição de previsão em Recursos humanos?
 
 As posições de previsão foram movidas para o Orçamento.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: f573dadeab88ead57fdb4b91ade21c244325058c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 818d96b14e32716e95b57391df5a90f7d32c4bb0
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054010"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6190223"
 ---
 # <a name="set-up-training-courses"></a>Configurar cursos de treinamento
 
@@ -28,8 +28,7 @@ ms.locfileid: "6054010"
 
 Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários.
 
- <a name="set-up-prerequisites"></a>Pré-requisitos de configuração
----------------------
+##  <a name="set-up-prerequisites"></a>Pré-requisitos de configuração
 
 As informações a seguir são necessárias e devem ser configuradas antes de criar cursos.
 -   **Tipos de cursos**
@@ -127,8 +126,7 @@ A tabela a seguir lista os possíveis status do curso e as ações que poderão 
 ## <a name="course-participants"></a>Participantes do curso
 Os participantes de curso são funcionários que estão participando de um curso de treinamento ou de um evento. Você só pode registrar participantes em cursos em aberto. Os números máximo e mínimo de participantes que você pode registrar para um curso é definido na Guia Rápida **Geral**, na página **Cursos**.
 
-<a name="workflow"></a>Fluxo de trabalho
---------
+## <a name="workflow"></a>Fluxo de trabalho
 
 Os funcionários que se registrarem em um curso na página **Autoatendimento para funcionários** podem ter seu registro roteado com o fluxo de trabalho para aprovação. Você pode atribuir um fluxo de trabalho a um curso na Guia Rápida **Geral** na página **Cursos**.
 

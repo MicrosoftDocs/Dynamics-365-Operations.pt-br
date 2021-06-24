@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: abc8607e5c3c6ab63a3878b92072bde2ebb0216c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814527"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189633"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar o consumo de materiais usando um dispositivo móvel
 
@@ -28,8 +28,7 @@ ms.locfileid: "5814527"
 
 Este tópico descreve um fluxo de trabalho que permite o registro do consumo de matéria-prima na produção usando um dispositivo portátil.
 
-<a name="introduction"></a>Introdução
-------------
+## <a name="introduction"></a>Introdução
 
 Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade de materiais. Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo. Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre. Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade. Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil. [![configurar um fluxo de trabalho para habilitar o registro de consumo de matéria-prima usando um dispositivo portátil](./media/scenario3.png)](./media/scenario3.png)
 

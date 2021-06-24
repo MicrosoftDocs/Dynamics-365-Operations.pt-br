@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 2dddc22128621dc148a253cd568430587f294544
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822894"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187988"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
@@ -29,8 +29,7 @@ ms.locfileid: "5822894"
 
 Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos.
 
-<a name="term-definition"></a>Definição de termo
----------------
+## <a name="term-definition"></a>Definição de termo
 
 Os custos gerais indiretos são aqueles que foram incorridos para realizar um negócio, mas não podem ser diretamente atribuídos a qualquer atividade comercial, produto ou serviço específico. Os custos gerais indiretos fornecem suporte crítico para geração de atividades produtivas. Eis alguns exemplos de custos gerais:
 

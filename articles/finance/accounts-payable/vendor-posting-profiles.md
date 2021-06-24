@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37fb7d2623451313475a6c234e820c7c6295be40
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e4b38fd137e6479493da79d4b62d0111b502a632
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835475"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6189484"
 ---
 # <a name="vendor-posting-profiles"></a>Perfis de lançamentos de fornecedores
 
@@ -28,8 +28,7 @@ ms.locfileid: "5835475"
 
 Os perfis de lançamentos que controlam o lançamento de transações de fornecedor na contabilidade.
 
-<a name="vendor-posting-profiles"></a>Perfis de lançamentos de fornecedores
------------------------
+## <a name="vendor-posting-profiles"></a>Perfis de lançamentos de fornecedores
 
 Os perfis de lançamento de fornecedor permitem que você atribua configurações de documento e de contas de contabilidade a todos os fornecedores, a um grupo de fornecedores ou a um único fornecedor. Essas configurações serão usadas quando você criar ordens de compra, faturas de fornecedor e pagamentos à vista. Para algumas transações, você pode selecionar um perfil de lançamento diferente e anterior aos perfis de lançamento configurados para as transações desta página. O perfil de lançamento padrão é definido na Guia Rápida **Razão e Imposto** na página **Parâmetros de contas a pagar**. O perfil de lançamento padrão é incluído automaticamente no cabeçalho dos novos documentos em que você pode alterá-lo para um perfil de lançamento diferente, se necessário.
 

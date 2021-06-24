@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1297f405e57c2de4f42f05f78ef52b2d763f0f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f57c3405e03651798b7e0aaf1fab84d25f33f7cc
+ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821976"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "6187859"
 ---
 # <a name="audit-policy-rules"></a>Auditar regras da política
 
@@ -28,8 +28,7 @@ ms.locfileid: "5821976"
 
 Você pode usar as políticas para avaliar relatórios de despesas, faturas de fornecedor e ordens de compra para garantir que eles estejam em conformidade com as regras de política criadas. Todas as regras associadas a uma política de auditoria são executadas em modo de lotes de acordo com uma agenda especificada.  Cada regra de política é uma instância de um tipo de regra de política. Para cada tipo de regra de política, somente uma regra de política pode ficar ativa de cada vez. 
 
-<a name="queries-and-query-types"></a>Consultas e tipos de consulta
------------------------
+## <a name="queries-and-query-types"></a>Consultas e tipos de consulta
 
 Quando você cria uma regra de política de auditoria, seleciona primeiro um tipo de regra de política. O tipo de regra de política especifica o aplicativo AOT (Árvore de objetos de aplicativo) para usar como ponto de partida para criar a regra de política. Também especifica o tipo de consulta a ser usado para a regra de política. A consulta determina o documento de origem que a regra de política avalia. Também especifica os campos no documento de origem que identificam a entidade legal e data a ser usada quando os documentos forem selecionados para auditoria. O tipo de consulta controla os campos padrão na página de consulta e na página Auditar regra de política. A tabela a seguir mostra os tipos de consulta disponíveis para as regras de política de auditoria.
 
@@ -91,8 +90,7 @@ Todas as regras de política para uma política de auditoria específica compart
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Auditar violações de política e casos](audit-policy-violations-cases.md)
 [Definir políticas de auditoria para documentos de origem](tasks/define-audit-policies-source-documents.md)

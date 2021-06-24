@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2c27f06524b91f91d95ef4b901740e7761232c28
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
+ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941100"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6219778"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrar as compras entre o Supply Chain Management e o Field Service
 
@@ -196,23 +196,10 @@ Os modelos a seguir estão disponíveis para a integração de documentos relaci
 
 | Gerenciamento da Cadeia de Fornecedores | Field Service | descrição |
 |---|---|---|
-| Cabeçalho da ordem de compra V2 | msdyn\_Purchaseorders | Esta tabela contém as colunas que representam o cabeçalho da ordem de compra. |
-| Entidade da linha da ordem de compra | msdyn\_PurchaseOrderProducts | Esta tabela contém as linhas que representam as linhas em uma ordem de compra. O número do produto é usado para sincronização. Isso identifica o produto como uma unidade de manutenção de estoque (SKU), incluindo suas dimensões. Para obter mais informações sobre a integração de produtos ao Dataverse, consulte [Experiência unificada de produtos](product-mapping.md). |
-| Cabeçalho de recebimento de produtos | msdyn\_purchaseorderreceipts | Esta tabela contém os cabeçalhos de recebimento de produtos que são criados quando um recebimento de produtos é lançado no Supply Chain Management. |
-| Linha de recebimento de produtos | msdyn\_purchaseorderreceiptproducts | Esta tabela contém as linhas de recebimento de produtos que são criadas quando um recebimento de produtos é lançado no Supply Chain Management. |
-| Entidade excluída temporariamente da linha da ordem de compra | msdyn\_purchaseorderproducts | Esta tabela contém informações sobre linhas da ordem de compra que são excluídas temporariamente. Uma linha da ordem de compra no Supply Chain Management pode ser excluída temporariamente apenas quando a ordem de compra tiver sido confirmada ou aprovada, se o gerenciamento de alterações estiver ativado. A linha existe no banco de dados do Supply Chain Management e está marcada como **IsDeleted**. Como o Dataverse não tem um conceito de exclusão temporária, é importante que essas informações sejam sincronizadas com o Dataverse. Dessa forma, as linhas que são excluídas temporariamente no Supply Chain Management podem ser excluídas de forma automática do Dataverse. Nesse caso, a lógica de exclusão de uma linha no Dataverse está localizada no Supply Chain Management Extended. |
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [Currency](includes/productreceiptheader-msdyn-purchaseorderreceipts.md)]
-
-[!include [Currency](includes/productreceiptline-msdyn-purchaseorderreceiptproducts.md)]
-
-[!include [Currency](includes/purchaseorderheadersv2-msdyn-purchaseorders.md)]
-
-[!include [Currency](includes/purchaseorderlinesoftdeletedtable-msdyn-purchaseorderproducts.md)]
-
-[!include [Currency](includes/purchaseorderlinetable-msdyn-purchaseorderproducts.md)]
-
+| [Cabeçalho da ordem de compra V2](mapping-reference.md#183) | msdyn\_Purchaseorders | Esta tabela contém as colunas que representam o cabeçalho da ordem de compra. |
+| [Entidade da linha da ordem de compra](mapping-reference.md#181) | msdyn\_PurchaseOrderProducts | Esta tabela contém as linhas que representam as linhas em uma ordem de compra. O número do produto é usado para sincronização. Isso identifica o produto como uma unidade de manutenção de estoque (SKU), incluindo suas dimensões. Para obter mais informações sobre a integração de produtos ao Dataverse, consulte [Experiência unificada de produtos](product-mapping.md). |
+| [Cabeçalho de recebimento de produtos](mapping-reference.md#185) | msdyn\_purchaseorderreceipts | Esta tabela contém os cabeçalhos de recebimento de produtos que são criados quando um recebimento de produtos é lançado no Supply Chain Management. |
+| [Linha de recebimento de produtos](mapping-reference.md#184) | msdyn\_purchaseorderreceiptproducts | Esta tabela contém as linhas de recebimento de produtos que são criadas quando um recebimento de produtos é lançado no Supply Chain Management. |
+| [Entidade excluída temporariamente da linha da ordem de compra](mapping-reference.md#182) | msdyn\_purchaseorderproducts | Esta tabela contém informações sobre linhas da ordem de compra que são excluídas temporariamente. Uma linha da ordem de compra no Supply Chain Management pode ser excluída temporariamente apenas quando a ordem de compra tiver sido confirmada ou aprovada, se o gerenciamento de alterações estiver ativado. A linha existe no banco de dados do Supply Chain Management e está marcada como **IsDeleted**. Como o Dataverse não tem um conceito de exclusão temporária, é importante que essas informações sejam sincronizadas com o Dataverse. Dessa forma, as linhas que são excluídas temporariamente no Supply Chain Management podem ser excluídas de forma automática do Dataverse. Nesse caso, a lógica de exclusão de uma linha no Dataverse está localizada no Supply Chain Management Extended. |
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
