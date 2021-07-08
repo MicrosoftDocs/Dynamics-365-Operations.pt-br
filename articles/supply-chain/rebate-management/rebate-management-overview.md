@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7afad911454916c49cda47253736defdd7e9b16b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d271d70791a8fe4ad1581ae8a150ad13bffc7a94
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020450"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271044"
 ---
 # <a name="rebate-management-module-overview"></a>Visão geral do módulo de gerenciamento de reembolso
 
@@ -70,7 +70,7 @@ Os reembolsos podem ser configurados com base em vários parâmetros diferentes.
 
 Os resultados do cálculo de reembolso também podem ser reduzidos por outros reembolsos. É preciso saber se o desconto está configurado para ser calculado com base no valor líquido.
 
-No fornecedor, os reembolsos podem calcular o preço com base em uma regra PEPS (primeiro a entrar, primeiro a sair), o último preço de compra, o preço médio de compra ou o preço de venda.
+No fornecedor, os reembolsos que são baseados em ordens de venda podem calcular o preço com base em uma regra PEPS (primeiro a entrar, primeiro a sair), o último preço de compra, o preço médio de compra ou o preço de venda.
 
 ## <a name="rebate-target-transactions"></a>Transações de destino de reembolso
 
@@ -84,11 +84,12 @@ Saídas de itens criam uma ordem de venda de item livre para reembolsos de clien
 
 A combinação de acordos associados, frequência dos cálculos, base de cálculo e método de cálculo selecionado determina a precisão dos cálculos de reembolso. As provisões de reembolso podem ser usadas para acumular valores lançados e reivindicados.
 
-As provisões podem ser gerenciadas diária ou mensalmente. No entanto, a funcionalidade pode alocar ou pagar o reembolso, ou receber pagamento, em qualquer frequência definida. Os usuários podem ajustar facilmente um plano ou valores de pagamento a qualquer momento durante o pagamento.
+Os provisionamentos podem ser gerenciados diariamente, semanalmente, mensalmente ou de acordo com um período personalizado. No entanto, a funcionalidade pode alocar ou pagar o reembolso, ou receber o pagamento dele, em qualquer frequência definida que seja da mesma duração ou maior do que a frequência de provisão. A baixa usa a mesma frequência do reembolso. Os usuários podem ajustar facilmente um plano ou valores de pagamento a qualquer momento durante o pagamento.
 
-Os usuários não precisam mais lidar com acordos ou provisões em duas etapas. As provisões e as amortizações são lançadas diretamente no razão. Além disso, as notas de crédito podem ser criadas automaticamente. Portanto, há integração total com contas a pagar e contas a receber. Durante o processamento, os cálculos consideram descontos de liquidação, faturas pagas, descontos comerciais e notas de crédito existentes para garantir que os valores e as quantidades sejam calculados com precisão.
+Os usuários não precisam mais lidar com acordos ou provisões em duas etapas. As provisões e as amortizações são lançadas diretamente no razão. Além disso, as notas de crédito podem ser criadas automaticamente. Portanto, há integração total com contas a pagar e contas a receber. Durante o processamento, os cálculos podem considerar descontos de liquidação, faturas pagas, descontos comerciais e notas de crédito existentes para garantir que os valores e as quantidades sejam calculados com precisão.
 
-Quando os reembolsos são calculados, o processo cria transações que podem ser analisadas antes do lançamento. É possível criar um diário, uma nota de crédito ou uma transação de débito. Um processo separado lança transações de reembolso e de dedução. É possível obter instruções de relatório e listagens de transações para garantir a conformidade, a eficácia e a transparência.
+Quando os reembolsos são calculados, o processo cria transações que podem ser analisadas antes do lançamento. Um processo separado lança transações de gerenciamento reembolso. Em seguida, é possível criar um diário, uma nota de crédito ou uma transação de débito durante o lançamento das transações propostas. É possível obter instruções de relatório e listagens de transações para garantir a conformidade, a eficácia e a transparência.
+
 
 ## <a name="guaranteed-royalty-payments"></a>Pagamentos de royalties garantidos
 

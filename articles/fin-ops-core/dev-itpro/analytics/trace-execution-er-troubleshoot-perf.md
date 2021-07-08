@@ -2,7 +2,7 @@
 title: Rastrear a execução de formatos de ER para solucionar problemas de desempenho
 description: Este tópico fornece informações sobre como usar o recurso de rastreamento de desempenho no relatório eletrônico (ER) para solucionar problemas de desempenho.
 author: NickSelin
-ms.date: 04/23/2021
+ms.date: 06/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 13e631d3330eefed09111eca70a5aa111e88274f
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
+ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944644"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6295564"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 
@@ -119,12 +119,27 @@ As versões correspondentes do modelo de dados e as configurações de mapeament
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, na seção **Rastreamento de execução**, siga estas etapas:
 
-    1. No campo **Formato de rastreamento de execução**, selecione **Depurar formato de rastreamento** para começar a coletar os detalhes da execução do formato ER. Quando esse valor é selecionado, o rastreamento de desempenho coletará informações sobre o tempo gasto nas seguintes ações:
+    1. No campo **Formato de rastreamento de execução**, especifique o formato do rastreamento de desempenho gerado em que os detalhes de execução devem ser armazenados em formato ER e elementos de mapeamento:
 
-        - Execução de cada fonte de dados no mapeamento de modelo que é chamado para obter dados
-        - Processamento de cada item de formato para inserir dados na saída gerada
+        - **Formato de rastreamento de depuração** – Selecione este valor se você planeja executar interativamente um formato de ER que tenha um curto tempo de execução. A coleção de detalhes sobre a execução do formato de ER é então iniciada. Quando esse valor é selecionado, o rastreamento de desempenho coleta informações sobre o tempo gasto nas seguintes ações:
 
-        Você usa o campo **Formato de rastreamento de execução** para especificar o formato do rastreamento de desempenho gerado em que os detalhes de execução são armazenados em formato ER e elementos de mapeamento. Selecionando **Depurar formato de rastreamento** como o valor, você poderá analisar o conteúdo do rastreamento no designer de operação do ER e ver o formato ER ou os elementos de mapeamento mencionados no rastreamento.
+            - Execução de cada fonte de dados no mapeamento de modelo que é chamado para obter dados
+            - Processamento de cada item de formato para inserir dados na saída gerada
+
+            Se selecionar o valor de **Formato de rastreamento de depuração**, você pode analisar o conteúdo do rastreamento no designer da Operação de ER. Lá, você pode visualizar o formato de ER ou mapear elementos que são mencionados no rastreamento.
+
+        - **Formato de rastreamento agregado** – Selecione este valor se você planeja executar um formato de ER que tenha um longo tempo de execução. A coleção de detalhes agregados sobre a execução do formato de ER é então iniciada. Quando esse valor é selecionado, o rastreamento de desempenho coleta informações sobre o tempo gasto nas seguintes ações:
+
+            - Execução de cada fonte de dados no mapeamento de modelo que é chamado para obter dados
+            - Execução de cada fonte de dados no mapeamento de formato que é chamado para obter dados
+            - Processamento de cada item de formato para inserir dados na saída gerada
+
+            O valor **Formato de rastreamento agregado** está disponível na versão 10.0.20 e posterior do Microsoft Dynamics 365 Finance.
+
+            No designer de formato de ER e no designer de mapeamento de modelos de ER, você pode visualizar o tempo total de execução de um único componente. Além disso, o rastreamento contém detalhes sobre a execução, como o número de execuções e o tempo mínimo e máximo de uma única execução.
+
+            > [!NOTE]
+            > Este rastreamento é coletado com base no caminho dos componentes rastreados. Portanto, as estatísticas podem estar incorretas quando um componente pai solteiro contém vários componentes filhos não nomeados, ou quando vários componentes filhos têm o mesmo nome.
 
     2. Defina as seguintes opções como **Sim** para coletar detalhes específicos da execução dos componentes de mapeamento do modelo de ER e formato ER:
 

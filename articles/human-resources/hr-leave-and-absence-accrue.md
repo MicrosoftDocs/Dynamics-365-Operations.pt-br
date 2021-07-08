@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 86ca63b1703faa6f57ed2e5591c89a5e84363481
-ms.sourcegitcommit: 318e406b84d43381d450272eb83c5eea9c5cf1c0
+ms.openlocfilehash: ddd4c55f6ebfbe91fb949a92cb379f51d826c465
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059464"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303455"
 ---
 # <a name="accrue-leave-and-absence-plans"></a>Acumular planos de licença e ausência
 
@@ -104,11 +104,9 @@ Exclua os registros de acúmulo para um plano e um intervalo de datas específic
 
 2. Em **Gerenciar licença**, selecione **Excluir auditoria de acúmulo de licença**.
 
-## <a name="preview-leave-accrual-transaction-auditing"></a>(Versão preliminar) Auditoria de transações de acúmulo de licenças
+## <a name="leave-accrual-transaction-auditing"></a>Auditoria de transações de acúmulo de licenças
 
-[!include [Preview feature](includes/preview-feature.md)]
-
-Este recurso de visualização ajuda os gerentes de licenças e ausências a entenderem as transações de acumulação de licenças e ausências relacionadas aos saldos de folgas de um funcionário para um tipo específico de licença.
+Este recurso ajuda os gerentes de licenças e ausências a entenderem as transações de acumulação de licenças e ausências relacionadas aos saldos de folgas de um funcionário para um tipo específico de licença.
 
 Para exibir os detalhes da transação:
 

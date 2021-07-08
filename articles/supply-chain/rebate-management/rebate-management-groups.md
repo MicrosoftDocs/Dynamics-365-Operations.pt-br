@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c9e1cadae97bd8f0dea270deaa1a8e09bb28eb4b
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020474"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271068"
 ---
-# <a name="rebate-management-groups"></a>Grupos de gerenciamento de reembolso
+# <a name="rebate-management-groups"></a>Grupos de gerenciamento de reembolsos
 
 [!include [banner](../includes/banner.md)]
 
-Os cálculos de reembolsos e deduções podem ser orientados por grupos. Os grupos de gerenciamento de reembolso podem ser criados para clientes, fornecedores e itens. Eles podem ser anexados a um registro mestre.
+Os cálculos de gerenciamento de reembolso e deduções podem ser orientados por grupos. Os grupos de gerenciamento de reembolso podem ser criados para clientes, fornecedores e itens. Eles podem ser anexados a um registro mestre.
 
 ## <a name="rebate-management-customer-groups"></a>Grupos de clientes de gerenciamento de reembolso
 
@@ -49,10 +49,9 @@ Para exibir, adicionar ou remover clientes de um grupo selecionado, siga estas e
 1. Acesse **Gerenciamento de reembolso \> Configuração de grupos de gerenciamento de reembolso \> Grupos de clientes**.
 1. Selecione o grupo a ser gerenciado.
 1. No Painel de Ações, selecione **Clientes**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de clientes que já são membros do grupo selecionado.
-1. Para adicionar um novo cliente ao grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
+1. Para adicionar um novo cliente ao grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:
 
     - **Conta de cliente** – Selecione a ID de conta do cliente.
-    - **Nome** – Insira um nome e/ou descrição do cliente.
 
 1. Para remover um cliente do grupo, selecione o cliente e, depois, selecione **Excluir** no Painel de Ações.
 
@@ -61,10 +60,9 @@ Para exibir, adicionar ou remover atribuições de grupo para um cliente selecio
 1. Ir para **Contas recebíveis \> Clientes \> Todos os clientes**.
 1. Selecione o cliente com o qual deseja trabalhar.
 1. No Painel de Ações, na guia **Cliente**, no grupo **Gerenciamento de reembolso**, selecione **Grupos de gerenciamento de reembolso**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de grupos aos quais o cliente selecionado já pertence.
-1. Para adicionar o cliente a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
+1. Para adicionar o cliente a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:
 
     - **Grupo de gerenciamento de reembolso** – Selecione o grupo ao qual o cliente será adicionado.
-    - **Descrição** – Insira uma descrição do grupo (por exemplo, para explicar por que o cliente é membro dele).
 
 1. Para remover um cliente de um grupo, selecione o grupo e, depois, selecione **Excluir** no Painel de Ações.
 
@@ -88,10 +86,9 @@ Para exibir, adicionar ou remover fornecedores de um grupo selecionado, siga est
 1. Acesse **Gerenciamento de reembolso \> Configuração de grupos de gerenciamento de reembolso \> Grupos de fornecedores**.
 1. Selecione o grupo a ser gerenciado.
 1. No Painel de Ações, selecione **Fornecedores**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de fornecedores que já são membros do grupo selecionado.
-1. Para adicionar um novo fornecedor ao grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
+1. Para adicionar um novo fornecedor ao grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:
 
     - **Conta de fornecedor** – Selecione a ID de conta do fornecedor.
-    - **Nome** – Insira um nome e/ou descrição do fornecedor.
 
 1. Para remover um fornecedor do grupo, selecione o fornecedor e, depois, selecione **Excluir** no Painel de Ações.
 
@@ -100,10 +97,9 @@ Para exibir, adicionar ou remover atribuições de grupo para um fornecedor sele
 1. Acesse **Contas a pagar \> Fornecedores \> Todos os fornecedores**.
 1. Selecione o fornecedor com o qual deseja trabalhar.
 1. No Painel de Ações, na guia **Fornecedor**, no grupo **Gerenciamento de reembolso**, selecione **Grupos de gerenciamento de reembolso**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de grupos aos quais o fornecedor selecionado já pertence.
-1. Para adicionar o fornecedor a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
+1. Para adicionar o fornecedor a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:
 
     - **Grupo de gerenciamento de reembolso** – Selecione o grupo ao qual o fornecedor será adicionado.
-    - **Descrição** – Insira uma descrição do grupo (por exemplo, para explicar por que o fornecedor é membro dele).
 
 1. Para remover um fornecedor de um grupo, selecione o grupo e, depois, selecione **Excluir** no Painel de Ações.
 
@@ -127,10 +123,9 @@ Para exibir, adicionar ou remover itens de um grupo selecionado, siga estas etap
 1. Acesse **Gerenciamento de reembolso \> Configuração de grupos de gerenciamento de reembolso \> Grupos de itens**.
 1. Selecione o grupo a ser gerenciado.
 1. No Painel de Ações, selecione **Itens**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de itens que já são membros do grupo selecionado.
-1. Para adicionar um novo item ao grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
+1. Para adicionar um novo item ao grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:
 
     - **Conta de item** – Selecione a ID de conta do item.
-    - **Nome do produto** – Insira um nome e/ou descrição do item.
 
 1. Para remover um item do grupo, selecione o item e, depois, selecione **Excluir** no Painel de Ações.
 
@@ -139,10 +134,9 @@ Para exibir, adicionar ou remover atribuições de grupo para um item selecionad
 1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o item com o qual deseja trabalhar.
 1. No Painel de Ações, na guia **Produto**, no grupo **Gerenciamento de reembolso**, selecione **Grupos de gerenciamento de reembolso**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de grupos aos quais o item selecionado já pertence.
-1. Para adicionar o item a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
+1. Para adicionar o item a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:
 
     - **Grupo de gerenciamento de reembolso** – Selecione o grupo ao qual o item será adicionado.
-    - **Descrição** – Insira uma descrição do grupo (por exemplo, para explicar por que o item é membro dele).
 
 1. Para remover um item de um grupo, selecione o grupo e, depois, selecione **Excluir** no Painel de Ações.
 

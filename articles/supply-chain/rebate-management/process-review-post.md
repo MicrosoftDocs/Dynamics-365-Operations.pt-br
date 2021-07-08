@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 5188fa271cd9eb24140a9edcf507a3da72b61074
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 82b8a4e6ba7ebea7df9f5dad5abc3dfc3ce2687d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020522"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270752"
 ---
 # <a name="process-review-and-post-rebates"></a>Processar, revisar e lançar reembolsos
 
@@ -55,9 +55,9 @@ Quando você processa uma negociação, o sistema calcula todos os reembolsos e 
 1. Selecione a linha para cada negociação que deseja processar (ou abra a negociação que deseja processar).
 1. No Painel de Ações, na guia **Negociações de gerenciamento de reembolsos**, no grupo **Gerar**, selecione um dos seguintes comandos:
 
-    - **Processar \> Provisão** – provisione um conjunto de competências para cada acordo de reembolso relevante, mas não os lance.
+    - **Processar \> Provisão** – provisione um conjunto de competências para cada acordo de reembolso relevante, mas não os lance. Este item do menu não está disponível para ofertas nas quais o campo **Saída de reembolso** é definido como *Item*.
     - **Processar \> gerenciamento de reembolso** – processa uma série de transações que fornecem o valor do reembolso para cada negociação.
-    - **Processar \> Baixa** – reverta as transações lançadas anteriormente para baixá-las para que novas transações de negociação de reembolso possam ser calculadas.
+    - **Processo \> Dar baixa** – Para cada transação de origem para o contrato de reembolso e período especificado, processe a variação entre os valores que foram postados para um provisionamento e para o gerenciamento de reembolso. Este item do menu não está disponível para ofertas nas quais o campo **Saída de reembolso** é definido como *Item*.
 
 1. Na caixa de diálogo exibida, defina os campos **Data de** e **Data até** para definir o intervalo de datas para o cálculo.
 1. Selecione **OK** para executar o cálculo.
@@ -70,9 +70,9 @@ Quando você processa uma negociação, o sistema calcula todos os reembolsos e 
 1. Na guia rápida **Gerenciamento de reembolso**, selecione a linha para cada linha de negociação que você deseja processar.
 1. Na barra de ferramentas da guia rápida **Gerenciamento de reembolso**, selecione um dos seguintes comandos. (Esses comandos estão disponíveis apenas para as negociações nas quais o campo **Reconciliar por** está definido como *Linha*.)
 
-    - **Processar \> Provisão** – provisione um conjunto de competências para cada linha de negociação relevante, mas não o lance.
+    - **Processar \> Provisão** – provisione um conjunto de competências para cada linha de negociação relevante, mas não o lance. Este item do menu não está disponível para ofertas nas quais o campo **Saída de reembolso** é definido como *Item*.
     - **Processar \> gerenciamento de reembolso** – processa uma série de transações que fornecem o valor do reembolso para cada linha da negociação.
-    - **Processar \> Baixa** – reverta as transações lançadas anteriormente para baixá-las para que novas transações de negociação de reembolso possam ser calculadas.
+    - **Processo \> Dar baixa** – Para cada transação de origem para o contrato de reembolso e período especificado, processe a variação entre os valores que foram postados para um provisionamento e para o gerenciamento de reembolso. Este item do menu não está disponível para ofertas nas quais o campo **Saída de reembolso** é definido como *Item*. 
 
 1. Na caixa de diálogo exibida, defina os campos **Data de** e **Data até** para definir o intervalo de datas para o cálculo.
 1. Selecione **OK** para executar o cálculo.
@@ -115,26 +115,26 @@ Ao processar uma ou mais negociações, o sistema cria transações que você po
         - **Definir não reivindicadas \> Todas** – marque todas as transações como não reivindicadas.
         - **Definir não reivindicadas \> Selecionadas** – marque as transações selecionadas como não reivindicadas.
 
-    - Para lançar a reivindicação para uma ou mais linhas, selecione as linhas relevantes e, em seguida, no painel de ação, selecione **Lançar**. (O botão **Lançar** está disponível apenas para transações de reembolso. Ele não está disponível para transações de provisão e baixa.) Na caixa de diálogo **Lançar**, os campos **Data de** e **Data até** são definidos automaticamente. Defina o campo **Data do lançamento** e selecione **OK**.
+    - Selecione **Lançar** no Painel de Ações para lançar a solicitação de todas as linhas relevantes. Se você estiver usando um processo de declaração (quando a opção **Usar processo de declaração** estiver ativada na página **Parâmetros de gerenciamento de reembolso**), apenas as linhas marcadas como **Declarado** são lançadas. Caso contrário, todas as transações de origem para a transação de reembolso selecionada são lançadas. O botão **Lançar** está disponível apenas para transações de reembolso. Ele não está disponível para provisionamento e transações de baixa. Na caixa de diálogo **Lançar**, os campos **Data de** e **Data para** são definidos automaticamente. Defina o campo **Data do lançamento** e selecione **OK**.
     - Para ajustar o valor mostrado para qualquer transação aberta ou não lançada, selecione a transação e siga uma destas etapas:
 
         - Edite o valor no campo **Valor corrigido**.
         - No painel de ação, selecione **Definir correção**. Em seguida, na caixa de diálogo suspensa que aparece, no campo **Valor corrigido**, insira um valor.
 
 > [!NOTE]
-> Quando você processar o próximo período, a lista de transações incluirá todas as transações não reivindicadas do lançamento anterior, além de todas as novas transações do período selecionado.
+> Se você estiver usando um processo de declarações, quando processar o próximo período, a lista de transações incluirá todas as transações não reivindicadas do lançamento anterior, além de todas as novas transações do período selecionado.
 
 ## <a name="post-rebates-transactions"></a>Lançar transações de reembolso
 
-Para lançar o valor dos reembolsos e deduções, você deve executar o processo de lançamento, a menos que tenha configurado seu sistema para lançá-los automaticamente.
+Para lançar o valor de um provisionamento processado, valor de gerenciamento de reembolso e baixa, é necessário executar o processo de lançamento. O processo de lançamento marca as transações de provisionamento, gerenciamento de reembolso, ou transações de baixa como lançadas, e cria a transação de destino. Se você não tiver que revisar a transação de destino, essas transações podem ser configuradas para que sejam lançadas automaticamente.
 
-### <a name="set-up-the-system-to-post-all-transactions-automatically"></a>Configurar o sistema para lançar todas as transações automaticamente
+### <a name="set-up-the-system-to-post-all-target-transactions-automatically"></a>Configurar o sistema para lançar todas as transações de destino automaticamente
 
-Para configurar o sistema para lançar todas as transações tão logo sejam geradas, ative a opção **Lançar diários automaticamente** e/ou **Lançar automaticamente faturas de texto livre** na página **Parâmetros de gerenciamento de reembolso**. Para obter mais informações, consulte [Parâmetros de gerenciamento de reembolsos](rebate-management-parameters.md).
+Para configurar o sistema para lançar todas as transações de destino assim que forem geradas por um provisionamento de lançamento, valor de gerenciamento de reembolso e baixa, ative a opção **Lançar diários automaticamente** e/ou **Lançar automaticamente faturas de texto livre** na página **Parâmetros de gerenciamento de reembolso**. Para obter mais informações, consulte [Parâmetros de gerenciamento de reembolsos](rebate-management-parameters.md).
 
 ### <a name="post-transactions-for-all-lines-for-one-or-more-deals"></a>Lançar transações para todas as linhas para uma ou mais negociações
 
-Se você não estiver usando o lançamento automático, depois de ter processado as negociações relevantes, siga estas etapas para revisar e lançar as transações geradas para todas as linhas de uma ou mais negociações.
+Depois de ter processado as negociações relevantes, siga estas etapas para revisar e lançar as transações geradas para todas as linhas de uma ou mais negociações.
 
 1. Abra a [página da lista de negociações de reembolso](rebate-management-deals.md) para o tipo de negociação com o qual você deseja trabalhar.
 1. Selecione a linha para cada negociação que deseja lançar (ou abra a negociação que deseja lançar).
@@ -149,7 +149,7 @@ Se você não estiver usando o lançamento automático, depois de ter processado
 
 ### <a name="post-transactions-for-one-or-more-specific-deal-lines-for-a-selected-deal"></a>Lançar transações para uma ou mais linhas de negociação específicas para uma negociação selecionada
 
-Se você não estiver usando o lançamento automático, depois de ter processado as negociações relevantes, siga estas etapas para revisar e lançar as transações geradas para uma ou mais linhas de negociação específicas para uma negociação selecionada.
+Depois de ter processado as negociações relevantes, siga estas etapas para revisar e lançar as transações geradas para uma ou mais linhas de negociação específica para uma negociação selecionada. Este procedimento é aplicável somente para as negociações nas quais o campo **Reconciliar por** está definido como *Linha*.
 
 1. Abra a [página da lista de negociações de reembolso](rebate-management-deals.md) para o tipo de negociação com o qual você deseja trabalhar.
 1. Abra a negociação que tem uma linha para a qual você deseja lançar transações.
@@ -174,7 +174,7 @@ Em vez de lançar transações para negociações específicas ou linhas da nego
     - Vá para **Gerenciamento de reembolsos \> Tarefas periódicas \> Lançar \> Gerenciamento de reembolso** para lançar transações de competência disponíveis criadas por você.
     - Vá para **Gerenciamento de reembolso \> Tarefas periódicas \> Lançar \> Baixa** para lançar transações de baixa disponíveis criadas por você.
 
-1. Na caixa de diálogo exibida, na guia rápida **Parâmetros**, na seção **Período**, defina o campo **Data de lançamento**. Em seguida, defina os campos **Data de** e **Data até** para definir o intervalo de dados para as transações que devem ser lançadas. 
+1. Na caixa de diálogo exibida, na guia rápida **Parâmetros**, na seção **Período**, defina o campo **Data de lançamento**. Em seguida, defina os campos **Data de** e **Data até** para definir o intervalo de dados para as transações que devem ser lançadas.
 1. Na seção **Período de Garantia**, defina os campos **Data - de** e **Data - até** para definir o intervalo de datas para garantias que devem ser lançadas.
 1. Na guia rápida **Registros a serem incluídos**, você pode configurar filtros para limitar o conjunto de negociações que o trabalho em lotes processará. Essas configurações funcionam da mesma forma que funcionam para outros tipos de trabalhos em lotes.
 1. Na guia rápida **Executar em segundo plano**, você pode configurar as opções de processamento e programação de lote, conforme necessário. Essas configurações funcionam da mesma forma que funcionam para outros tipos de trabalhos em lotes.
@@ -182,7 +182,7 @@ Em vez de lançar transações para negociações específicas ou linhas da nego
 
 ## <a name="review-rebate-management-journals"></a>Revisar diários de gerenciamento de reembolso
 
-Depois que as transações forem lançadas, você poderá revisar os diários, documentos ou itens resultantes. As transações de destino para reembolsos e royalties se baseiam no tipo de pagamento definido no perfil de lançamentos e no tipo de saída do reembolso. Por exemplo, se a saída do reembolso for definida como *Item*, uma ordem de venda será criada e poderá ser exibida por meio das transações de destino. Como alternativa, se o pagamento for configurado para usar Contas a pagar, uma fatura de fornecedor para o fornecedor configurado no cliente será criada para reembolsos do cliente.
+Depois que as transações forem lançadas, você poderá revisar os diários, documentos ou itens resultantes. As transações de destino para reembolsos e royalties se baseiam no tipo de pagamento definido no perfil de lançamentos e no tipo de saída do reembolso. Por exemplo, se a saída de reembolso for definida como *Item*, uma ordem de venda será criada para um reembolso do cliente, e uma ordem de compra será criada para um reembolso de fornecedor. Essas ordens podem ser visualizadas através das transações de destino. Como alternativa, se o pagamento for configurado para usar Contas a pagar, uma fatura de fornecedor para o fornecedor configurado no cliente será criada para reembolsos do cliente.
 
 Para revisar as entradas de diário associadas a um acordo de gerenciamento de reembolso, siga estas etapas.
 
@@ -193,6 +193,6 @@ Para revisar as entradas de diário associadas a um acordo de gerenciamento de r
 1. Localize e selecione a coleção de transações que deseja inspecionar e, no Painel de Ação, selecione um dos botões a seguir. (Esses botões estão disponíveis somente quando há lançamentos relevantes para a coleção de transações selecionada.)
 
     - **Transações de destino** – revise os diários relevantes e outros tipos de documentos que foram gerados pela negociação selecionada.
-    - **Itens** – revise os itens relevantes que foram gerados pela negociação selecionada.
+    - **Itens** – Revise as ordens de venda ou ordens de compra relevantes que foram gerados pela negociação selecionada.
 
 1. Uma lista de diários, documentos ou itens relevantes é exibida. Para exibir mais informações sobre qualquer diário, documento ou item, selecione sua linha e, no Painel de Ação, selecione **Exibir detalhes**.

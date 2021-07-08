@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: cbc2b5870e855ff4d4a099a51cbb6887dd30bba7
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: f72ef77a35c484a40e1384baf69001bba6a333f6
+ms.sourcegitcommit: ec272aa133189569abaf4c09b03230611b5a756f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893543"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "6274527"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fontes de dados de Códigos de Barras para gerar imagens de código de barras
 
@@ -116,14 +116,14 @@ Se você ainda não tiver concluído o exemplo no tópico [Inserir imagens e for
 
 | Descrição do conteúdo         | Nome do arquivo                   |
 |-----------------------------|-----------------------------|
-| Configuração do modelo de dados de ER | Modelo para cheques.xml       |
-| Configuração de formato ER     | Formato de impressão de cheques.xml |
+| Configuração do modelo de dados de ER | [Modelo para cheques.xml](https://download.microsoft.com/download/6/e/a/6ea166fd-1382-4fdb-8dcb-0f13379f9c8e/Modelforcheques.xml)      |
+| Configuração de formato ER     | [Formato de impressão de cheques.xml](https://download.microsoft.com/download/1/7/c/17c301e3-c4ee-4886-ae75-440fcc002c8c/Chequesprintingformat.xml) |
 
 Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado para a solução de ER fornecida.
 
 | Descrição do conteúdo | Nome do arquivo                 |
 |---------------------|---------------------------|
-| Modelo de relatório     | Modelo de cheque do Excel.xlsx |
+| Modelo de relatório     | [Modelo de cheque do Excel.xlsx](https://download.microsoft.com/download/1/f/6/1f671963-73aa-48d5-ae69-45f21fe7dfb4/Cheque%20template.xlsx) |
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Ativar um provedor de configuração
 

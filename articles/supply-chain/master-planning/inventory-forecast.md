@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0a7ed310ebdef130b0fb09c5db19397398dc5042
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216833"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306406"
 ---
 # <a name="inventory-forecasts"></a>Previsões de estoque
 
@@ -353,20 +353,46 @@ Use este procedimento para processar linhas de transações de previsão existen
 1. Use a seção **Dimensões financeiras** para atualizar as dimensões financeiras das linhas de previsão. Selecione as dimensões financeiras que deseja alterar e insira um valor a ser aplicado às dimensões selecionadas.
 1. Selecione **OK** para aplicar as alterações.
 
-## <a name="run-forecast-planning"></a>Executar planejamento de previsão
+## <a name="use-forecasts-with-master-planning"></a>Usar previsões com o planejamento mestre
 
-Depois de inserir a previsão de demanda e/ou a previsão de fornecimento, é possível executar o planejamento de previsão para calcular os requisitos brutos de materiais e capacidade, bem como para gerar as ordens planejadas.
+Depois de inserir sua previsão de demanda e/ou previsão de fornecimento, você pode incluir as previsões durante o planejamento mestre para explicar a demanda e/ou a oferta esperadas em sua execução de planejamento mestre. Quando as previsões são incluídas no planejamento mestre, são calculados requisitos brutos para materiais e capacidade, bem como ordens planejadas.
 
-1. Vá para **Planejamento mestre \> Previsão \> Planejamento de previsão**.
-1. No campo **Plano de previsão**, selecione um plano de previsão.
-1. Habilite **Rastrear tempo de processamento** para registrar o tempo de processamento para cada tarefa de planejamento.
-1. No campo **Número de threads**, insira um valor. (Para obter mais informações, consulte [Melhorar o desempenho de planejamento mestre](master-planning-performance.md).)
-1. No campo **Comentário**, insira o texto para capturar qualquer informação adicional necessária.
-1. Na Guia Rápida **Registros a serem incluídos**, selecione **Filtro** para limitar a seleção de itens.
-1. Opcional: Na Guia Rápida **Executar em segundo plano**, especifique os parâmetros do lote.
+### <a name="set-up-a-master-plan-to-include-an-inventory-forecast"></a>Configurar um plano mestre para incluir uma previsão de estoque
+
+Para configurar um plano mestre de forma que inclua uma previsão de estoque, siga estas etapas.
+
+1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Selecione um plano existente ou crie um novo plano.
+1. Na Guia Rápida **Geral**, defina os seguintes campos:
+
+    - **Modelo de previsão** – selecione o modelo de previsão a ser aplicado. Esse modelo será considerado quando uma sugestão de fornecimento for gerada para o plano mestre atual.
+    - **Incluir previsão de fornecimento** – defina esta opção como *Sim* para incluir a previsão de fornecimento no plano mestre atual. Se você defini-la como *Não*, as transações de previsão de fornecimento não serão incluídas no plano mestre.
+    - **Incluir previsão de demanda** – defina esta opção como *Sim* para incluir a previsão de demanda no plano mestre atual. Se você defini-la como *Não*, as transações de previsão de demanda não serão incluídas no plano mestre.
+    - **Método usado para reduzir requisitos de previsão** – selecione o método que deve ser usado para reduzir requisitos de previsão. Para obter mais informações, consulte [Chaves de redução de previsão](planning-optimization/demand-forecast.md#reduction-keys).
+
+1. Na FastTab **Limite de tempo em dias**, você pode definir os seguintes campos para especificar o período de inclusão da previsão durante:
+
+    - **Plano de previsão** – defina esta opção como *Sim* para substituir o limite de tempo do plano de previsão originado dos grupos de cobertura individuais. Defina como *Não* para usar os valores dos grupos de cobertura individuais para o plano mestre atual.
+    - **Período de tempo de previsão** – se você definir a opção **Plano de previsão** como *Sim*, especifique o número de dias (a partir da data de hoje) em que a previsão de demanda deve ser aplicada.
+
+    > [!IMPORTANT]
+    > A opção de **Plano de previsão** ainda não tem suporte com a Otimização de Planejamento.
+
+### <a name="run-a-master-plan-that-includes-an-inventory-forecast"></a>Executar um plano mestre que inclua uma previsão de estoque
+
+Para executar um plano mestre de forma que inclua uma previsão de estoque, siga estas etapas.
+
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**.
+1. No campo **Planejamento mestre**, digite ou selecione o plano mestre que você configurou no procedimento anterior.
+1. No bloco **Planejamento mestre**, selecione **Executar**.
+1. Na caixa de diálogo **Planejamento mestre**, defina a opção **Rastrear tempo de processamento** como *Sim*.
+1. No campo **Número de threads**, insira um número.
+1. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
+1. Uma caixa de diálogo do editor de consultas padrão é exibida. Na guia **Intervalo**, selecione a linha em que o campo **Campo** é definido como *Número do item*.
+1. No campo **Critérios**, selecione o número do item a ser analisado no plano.
 1. Selecione **OK**.
 
-Para exibir os requisitos calculados, abra a página **Requisitos brutos**. Por exemplo, na página **Produtos liberados**, na guia **Plano**, na seção **Requisitos**, selecione **Requisitos brutos**.
+Para exibir os requisitos calculados, abra a página **Requisitos brutos**. Por exemplo, na página **Produtos liberados**, no Painel de Ações, na guia **Plano**, no grupo **Requisitos**, selecione **Requisitos brutos**.
 
 Para exibir as ordens planejadas que são geradas, vá para **Planejamento mestre \> Comum \> Ordens planejadas** e selecione o plano de previsão apropriado.
 
@@ -374,7 +400,8 @@ Para exibir as ordens planejadas que são geradas, vá para **Planejamento mestr
 
 - [Visão geral da previsão de demanda](introduction-demand-forecasting.md)
 - [Configuração da previsão de demanda](demand-forecasting-setup.md)
-- [​Gerar uma previsão estatística​](generate-statistical-baseline-forecast.md)
+- [Gerar uma previsão estatística](generate-statistical-baseline-forecast.md)
 - [Faça ajustes manuais para a previsão estatística](manual-adjustments-baseline-forecast.md)
+- [Planejamento mestre com previsões de demanda](planning-optimization/demand-forecast.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

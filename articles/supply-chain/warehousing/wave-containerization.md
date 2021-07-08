@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: c62e2d1b361e0ed1ab1ced42997add157b30c828
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
+ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019042"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "6292728"
 ---
 # <a name="containerization"></a>Transporte em contêineres
 
@@ -108,6 +108,8 @@ Para configurar um modelo de criação de contêiner, siga estas etapas:
 
       - **Embalar em todos os contêineres abertos** – o sistema avalia se a linha de alocação caberá em qualquer contêiner que for criada durante o ciclo de transporte em contêiner.
       - **Embalar somente no contêiner atual** – o sistema avalia somente se a linha de alocação caberá no contêiner recentemente criado.
+
+    Para obter mais informações e exemplos que mostrem como trabalhar com estratégias de embalagem de contêineres, consulte [Estratégias de embalagem de contêineres](container-packing-strategy-overview.md).
 
 1. Para configurar regras para linhas de alocação de embalagem em contêineres, selecione **Divisões da Lógica de Combinação**. Por exemplo, você pode criar uma regra que permitirá que os funcionários embalem linhas de alocação para dois itens diferentes no mesmo contêiner. Para definir uma regra de combinação, siga estas etapas:
 

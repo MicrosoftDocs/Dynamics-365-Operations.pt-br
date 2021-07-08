@@ -1464,7 +1464,9 @@
                       href: localizations/rcs-globalization-feature.md?toc=/dynamics365/finance/toc.json
                     - name: Criar configurações ER no Regulatory Configuration Service e carregá-las no repositório Global
                       href: localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                    - name: Regulatory Configuration Service — Substituição de armazenamento do Lifecycle Services
+                    - name: Regulatory Configuration Service – Excluir um ambiente RCS
+                      href: localizations/rcs-delete-environment.md
+                    - name: Regulatory Configuration Service – Substituição de armazenamento do Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
                 - name: Faturamento Eletrônico
                   items:
@@ -1524,6 +1526,10 @@
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Lista de vendas da UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Relatório do Reino Unido
+                          items:
+                            - name: Preparar a integração com o MTD para IVA
+                              href: localizations/emea-gbr-mtd-vat-integration.md
             - name: Atualizações regulatórias
               href: localizations/regulatory-updates.md
             - name: Austrália
@@ -3176,6 +3182,8 @@
                       href: localizations/rus-rated-expenses-registers.md
                     - name: Registros de imposto sobre dívida e baixas de dívidas do contas a pagar
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
+                    - name: Reservas de dívida inválidas em contas a receber
+                      href: localizations/rus-bad-debts.md
             - name: Arábia Saudita
               items:
                 - name: Visão geral da Arábia Saudita
@@ -3292,8 +3300,6 @@
                       href: localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
                     - name: Configurar grupos de impostos para IVA de encargos revertidos
                       href: localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
-                - name: Tornar o imposto IVA digital
-                  href: localizations/emea-gbr-mtd-vat-integration.md
                 - name: Relatório de estatísticas das práticas de pagamento
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Estados Unidos
@@ -3665,6 +3671,12 @@
               items:
                 - name: Linguagem da fórmula
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/finance/toc.json
+                - name: Tipos de dados com suporte para fórmulas ER
+                  items:
+                    - name: Tipos de dados primitivos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/finance/toc.json
+                    - name: Tipos de dados compostos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/finance/toc.json
                 - name: Funções
                   items:
                     - name: Contêiner
@@ -3929,12 +3941,12 @@
                           href: ../fin-ops-core/dev-itpro/analytics/er-functions-text-text.md?toc=/dynamics365/finance/toc.json
             - name: Criar formatos ER para gerar documentos de saída em vários formatos
               items:
+                - name: Criar uma configuração para gerar relatórios no formato OPENXML
+                  href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                 - name: Criar configurações para gerar documentos de saída no formato Excel
                   items:
                     - name: Criar uma configuração para gerar documentos no formato Excel
                       href: ../fin-ops-core/dev-itpro/analytics/er-fillable-excel.md?toc=/dynamics365/finance/toc.json
-                    - name: Exemplo de geração de relatórios no formato OPENXML
-                      href: ../fin-ops-core/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/dynamics365/finance/toc.json
                     - name: Modificar formatos ER ao reaplicar modelos do Excel
                       href: ../fin-ops-core/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/dynamics365/finance/toc.json
                     - name: Adicionar colunas dinamicamente a relatórios do Excel como intervalos expansíveis horizontalmente
@@ -4211,12 +4223,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/finance/toc.json
                     - name: Atualização de aplicativo 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/finance/toc.json
+                    - name: Atualização de aplicativo 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/finance/toc.json
                 - name: Especificar um local de armazenamento personalizado para os documentos gerados
                   items:
                     - name: Inscreva-se em um evento para solicitar uma resposta do manipulador de inscrições
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/finance/toc.json
                     - name: Delegar a criação de um destino de ER para uma fábrica de destinos personalizados
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/finance/toc.json
+                    - name: Implementar um destino personalizado para os documentos gerados
+                      href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/finance/toc.json
                 - name: Iniciar os valores de fonte de dados do tipo USER INPUT PARAMETER do código-fonte
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/finance/toc.json
         - name: Aplicativo móvel

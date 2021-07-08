@@ -1,8 +1,8 @@
 ---
 title: Provisionar o Human Resources
-description: Este artigo o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources.
+description: Este tópico o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 04/23/2020
+ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e354cec1fb5612afff6e265c4808f4fb2c237a9d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 2632616834e405d31facdcf3853baaf96066e9aa
+ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193715"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "6248812"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6193715"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este artigo o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources. Este tópico pressupõe que você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Human Resources e não puder concluir as etapas deste artigo, entre em contato com o Suporte.
+Este tópico o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources. Este tópico pressupõe que você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Human Resources e não puder concluir as etapas deste artigo, entre em contato com o Suporte.
 
 Para começar, o administrador global deve entrar no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e criar um novo projeto Human Resources. A assistência dos representantes de Suporte ou do Dynamics Service Engineering (DSE) não é necessária, a menos que um problema de licença o impeça de provisionar o Human Resources.
+
+## <a name="provision-a-human-resources-trial-environment"></a>Provisionamento de um ambiente de teste de Recursos Humanos
+
+Antes de provisionar sua primeira área restrita ou ambiente de produção, pode ser interessante provisionar um [ambiente de teste de Recursos Humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar a funcionalidade de Recursos Humanos. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. 
+
+Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 60 dias. Quando um ambiente de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 ## <a name="plan-human-resources-environments"></a>Planejar ambientes do Human Resources
 
@@ -94,8 +100,6 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
 
     > [!NOTE]
     > Se os requisitos finais ainda não foram aprovados, você pode implantar uma instância de teste do Human Resources no projeto. Você pode usar esta instância para testar a solução até que seja aprovada. Se usar o novo ambiente para teste, você deve repetir este procedimento para criar um ambiente de produção.
-
-    > Você pode considerar o aproveitamento de um [ambiente de avaliação de recursos humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) de 60 dias gratuitos. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 ## <a name="select-a-power-apps-environment"></a>Selecionar um ambiente do Power Apps
 

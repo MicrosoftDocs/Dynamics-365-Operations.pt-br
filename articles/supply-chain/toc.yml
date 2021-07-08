@@ -78,8 +78,6 @@
                       href: get-started/whats-new-scm-10-0-19.md
                     - name: Supply Chain Management 10.0.18 (maio de 2021)
                       href: get-started/whats-new-scm-10-0-18.md
-                    - name: Supply Chain Management 10.0.17 (abril de 2021)
-                      href: get-started/whats-new-scm-10-0-17.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -603,6 +601,20 @@
               href: ../fin-ops-core/dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/dynamics365/supply-chain/toc.json
             - name: Usar o espaço de trabalho de controle de custo para o aplicativo móvel Finance and Operations
               href: ../finance/cost-accounting/cost-controlling-mobile-workspace.md?toc=/dynamics365/supply-chain/toc.json
+        - name: Contabilidade de Estoque Global
+          items:
+            - name: Home page de Contabilidade de Estoque Global
+              href: global-inventory-accounting/global-inventory-accounting-home.md
+            - name: Introdução à Contabilidade de Estoque Global
+              href: global-inventory-accounting/get-started-with-gia.md
+            - name: Documentos comerciais com suporte da Contabilidade de Estoque Global
+              href: global-inventory-accounting/business-documents-supported.md
+            - name: Habilitar o Power BI para Contabilidade de Estoque Global
+              href: global-inventory-accounting/enable-power-bi-for-gia.md
+            - name: Convenções
+              href: global-inventory-accounting/conventions.md
+            - name: Razão da Contabilidade de Estoque Global
+              href: global-inventory-accounting/global-inventory-accounting-ledger.md
         - name: Gerenciamento de custos
           items:
             - name: Home page de Gerenciamento de custos
@@ -873,6 +885,12 @@
               items:
                 - name: Linguagem da fórmula
                   href: ../fin-ops-core/dev-itpro/analytics/er-formula-language.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Tipos de dados com suporte para fórmulas ER
+                  items:
+                    - name: Tipos de dados primitivos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-primitive.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Tipos de dados compostos
+                      href: ../fin-ops-core/dev-itpro/analytics/er-formula-supported-data-types-composite.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Funções
                   items:
                     - name: Contêiner
@@ -1417,12 +1435,16 @@
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-11.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Atualização de aplicativo 10.0.17
                       href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-17.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Atualização de aplicativo 10.0.19
+                      href: ../fin-ops-core/dev-itpro/analytics/er-apis-app10-0-19.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Especificar um local de armazenamento personalizado para os documentos gerados
                   items:
                     - name: Inscreva-se em um evento para solicitar uma resposta do manipulador de inscrições
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Delegar a criação de um destino de ER para uma fábrica de destinos personalizados
                       href: ../fin-ops-core/dev-itpro/analytics/er-custom-storage-generated-files.md?toc=/dynamics365/supply-chain/toc.json
+                - name: Implementar um destino personalizado para os documentos gerados
+                  href: ../fin-ops-core/dev-itpro/analytics/er-custom-file-destination.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Iniciar os valores de fonte de dados do tipo USER INPUT PARAMETER do código-fonte
                   href: ../fin-ops-core/dev-itpro/analytics/er-initiate-uip-data-source-value-from-source-code.md?toc=/dynamics365/supply-chain/toc.json
         - name: Gerenciamento de estoque
@@ -1593,7 +1615,9 @@
                   href: master-planning/planning-optimization/purchase-trade-agreement.md
                 - name: Margens de segurança
                   href: master-planning/planning-optimization/safety-margins.md
-                - name: Requisições de compras
+                - name: Tolerância a atraso (dias negativos)
+                  href: master-planning/planning-optimization/delay-tolerance.md
+                - name: Requisições de compra
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Planejamento de produção
                   href: master-planning/planning-optimization/production-planning.md
@@ -1603,6 +1627,8 @@
                   href: master-planning/planning-optimization/Intercompany-planning.md
                 - name: Exclua produtos com determinados estados de ciclo de vida do produto
                   href: master-planning/planning-optimization/product-lifecycle-state.md
+                - name: Métodos de reabastecimento e modificação de quantidade
+                  href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Limites de tempo de cobertura
                   href: master-planning/planning-optimization/coverage-time-fence.md
                 - name: Aprovar ordens planejadas
@@ -1927,9 +1953,9 @@
                   href: procurement/tasks/create-procurement-catalog.md
                 - name: Configurar uma hierarquia de categorias de compras
                   href: procurement/tasks/set-up-procurement-category-hierarchy.md
-            - name: Requisições de compras
+            - name: Requisições de compra
               items:
-                - name: Visão geral de requisições de compras
+                - name: Visão geral de Requisições de compra
                   href: procurement/purchase-requisitions-overview.md
                 - name: Fluxo de trabalho de requisição de compra
                   href: procurement/purchase-requisitions-workflow.md
@@ -3047,9 +3073,11 @@
                   href: warehousing/tasks/register-items-advanced-warehousing.md
                 - name: Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
                   href: warehousing/tasks/register-items-basic-warehousing.md
-                - name: Produtos de distribuição integrada de recebimento de depósitos para armazenamento
+                - name: Importar ASNs de entrada por meio da entidade de dados v2
+                  href: warehousing/import-asn-v2-data-entity.md
+                - name: Produtos de distribuição integrada de depósitos de recebimento para lojas
                   href: warehousing/tasks/cross-dock-products-receiving-warehouse-stores.md
-                - name: Configurar uma diretiva de localização para o registro da ordem de compra
+                - name: Configurar uma diretiva de localização para o armazenamento da ordem de compra
                   href: transportation/tasks/set-up-location-directive-purchase-order-put-away.md
                 - name: Configurar um modelo de trabalho para ordens de compra
                   href: warehousing/tasks/set-up-work-template-purchase-orders.md
@@ -3215,6 +3243,8 @@
                       href: warehousing/partial-location-cycle-counting.md
                     - name: Definir processo de contagem cíclica parcial do local
                       href: warehousing/tasks/define-partial-location-cycle-counting-process.md
+                    - name: Cenários de exemplo de contagem cíclica
+                      href: warehousing/cycle-counting-scenarios.md
                     - name: Trabalho de limpeza de entradas disponíveis do gerenciamento de depósito
                       href: warehousing/onhand-cleanup.md
                     - name: Diários de estoque
@@ -3241,6 +3271,52 @@
                       href: warehousing/mhax.md
                     - name: Solucionar problemas de trabalho de depósito
                       href: warehousing/troubleshoot-warehouse-work.md
+            - name: O aplicativo de depósito
+              items:
+                - name: 'Instalar, configurar e usar dispositivos móveis'
+                  items:
+                    - name: Novidades ou alterações no aplicativo móvel Warehouse Management
+                      href: warehousing/whats-new-wma.md
+                    - name: Instalar e conectar o aplicativo móvel Warehouse Management
+                      href: warehousing/install-configure-warehouse-management-app.md
+                    - name: Instalar e conectar o aplicativo de depósito
+                      href: warehousing/install-configure-warehousing-app.md
+                    - name: Digitalizar códigos de barras usando uma câmera no aplicativo móvel Warehouse Management
+                      href: warehousing/scan-bar-codes-using-a-camera.md
+                    - name: Solucionar problemas de conexão do aplicativo móvel Warehouse Management
+                      href: warehousing/troubleshoot-warehouse-app-connection.md
+                - name: Configurar campos e menus para dispositivos móveis
+                  items:
+                    - name: Configurar campos do aplicativo móvel Warehouse Management
+                      href: warehousing/configure-app-field-names-priorities-warehouse.md
+                    - name: Configurar dispositivos móveis para trabalho de depósito
+                      href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
+                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
+                    - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
+                      href: warehousing/tasks/set-up-mobile-device-menu.md
+                    - name: Configurar um item de menu do dispositivo móvel para registrar itens recebidos
+                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
+                    - name: Configurar um item de menu de dispositivo móvel para fornecer uma visão geral da linha de separação
+                      href: warehousing/pick-line-overview.md
+                    - name: Criar um item de menu de dispositivo móvel para consolidação de placa de licença
+                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
+                    - name: Recebimento de placa de licença mista em um dispositivo móvel
+                      href: warehousing/mixed-license-plate-receiving.md
+                    - name: Configurar "Exibir lotes mais antigos no depósito" em um dispositivo móvel
+                      href: warehousing/display-older-batches-within-warehouses.md
+                    - name: Escolher o lote mais antigo em um dispositivo móvel
+                      href: warehousing/pick-oldest-batch.md
+                - name: Configurações do usuário do dispositivo móvel
+                  href: warehousing/mobile-device-user-settings.md
+                - name: Processamento de eventos do aplicativo de depósito
+                  href: warehousing/warehouse-app-events.md
+                - name: Personalizar o aplicativo de depósito
+                  items:
+                    - name: Processar estrutura de guia
+                      href: warehousing/process-guide-framework.md
+                    - name: Atribuir ícones e títulos de etapa
+                      href: warehousing/step-icons-titles.md
             - name: Configuração do depósito
               items:
                 - name: Configuração de depósito
@@ -3277,8 +3353,12 @@
                           href: warehousing/wave-execution-notifications.md
                         - name: Impressão de etiqueta do ciclo
                           href: warehousing/configure-wave-label-printing.md
+                        - name: Agendar impressão de etiqueta o ciclo durante o ciclo
+                          href: warehousing/configure-task-based-wave-label-printing.md
                         - name: Transporte em contêineres
                           href: warehousing/wave-containerization.md
+                        - name: Estratégias de embalagem do contêiner
+                          href: warehousing/container-packing-strategy-overview.md
                     - name: Atualização automática de remessas
                       href: warehousing/auto-update-shipment.md
                     - name: Criar um perfil de localização
@@ -3309,44 +3389,6 @@
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Solucionar problemas de configuração de depósito
                       href: warehousing/troubleshoot-warehouse-configuration.md
-                - name: Instalar e configurar o aplicativo móvel Gerenciamento de Depósito
-                  items:
-                    - name: Instalar e conectar o aplicativo móvel Gerenciamento de Depósito
-                      href: warehousing/install-configure-warehouse-management-app.md
-                    - name: Configurações do usuário do dispositivo móvel
-                      href: warehousing/mobile-device-user-settings.md
-                    - name: Instalar e conectar o aplicativo de depósito
-                      href: warehousing/install-configure-warehousing-app.md
-                    - name: Digitalizar códigos de barras usando uma câmera no aplicativo móvel Gerenciamento de Depósito
-                      href: warehousing/scan-bar-codes-using-a-camera.md
-                    - name: Configurar campos do aplicativo móvel Warehouse Management
-                      href: warehousing/configure-app-field-names-priorities-warehouse.md
-                    - name: Configurar dispositivos móveis para trabalho de depósito
-                      href: warehousing/configure-mobile-devices-warehouse.md
-                    - name: Atribuir ícones e títulos de etapa
-                      href: warehousing/step-icons-titles.md
-                    - name: Processamento de eventos do aplicativo de depósito
-                      href: warehousing/warehouse-app-events.md
-                    - name: Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
-                      href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
-                    - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
-                      href: warehousing/tasks/set-up-mobile-device-menu.md
-                    - name: Configurar um item de menu do dispositivo móvel para registrar itens recebidos
-                      href: warehousing/tasks/set-up-mobile-device-menu-item-register-received-items.md
-                    - name: Configurar um item de menu de dispositivo móvel para fornecer uma visão geral da linha de separação
-                      href: warehousing/pick-line-overview.md
-                    - name: Criar um item de menu de dispositivo móvel para consolidação de placa de licença
-                      href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
-                    - name: Recebimento de placa de licença mista em um dispositivo móvel
-                      href: warehousing/mixed-license-plate-receiving.md
-                    - name: Configurar "Exibir lotes mais antigos no depósito" em um dispositivo móvel
-                      href: warehousing/display-older-batches-within-warehouses.md
-                    - name: Escolher o lote mais antigo em um dispositivo móvel
-                      href: warehousing/pick-oldest-batch.md
-                    - name: Processar estrutura de guia
-                      href: warehousing/process-guide-framework.md
-                    - name: Solucionar problemas de conexão do aplicativo móvel Gerenciamento de Depósito
-                      href: warehousing/troubleshoot-warehouse-app-connection.md
                 - name: Atualizar e fazer a migração
                   items:
                     - name: Atualizar os processos de gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Finance and Operations
@@ -3393,6 +3435,22 @@
                   href: troubleshooting/inventory/while-splitting-the.md
             - name: Planejamento mestre
               items:
+                - name: Você recebe um erro ao executar o mecanismo de planejamento mestre interno
+                  href: troubleshooting/planning/deprecated-master-planning-error.md
+                - name: O item não pode ter uma BOM ou fórmula
+                  href: troubleshooting/planning/item-cannot-have-bom-formula.md
+                - name: Os parâmetros do plano mestre não existem
+                  href: troubleshooting/planning/no-parameters-for-master-plan.md
+                - name: A ordem de produção planejada deve ser agendada para que possa ser confirmada
+                  href: troubleshooting/planning/planned-order-must-be-scheduled.md
+                - name: O produto está em espera para transações
+                  href: troubleshooting/planning/product-is-on-hold.md
+                - name: O número de fórmula selecionado não é aprovado para uma ordem de lote.
+                  href: troubleshooting/planning/selected-formula-not-approved.md
+                - name: O código do fornecedor não está autorizado para um produto e uma data específicos
+                  href: troubleshooting/planning/vendor-code-not-authorized.md
+                - name: O fornecedor não é especificado ao confirmar ordens planejadas
+                  href: troubleshooting/planning/vendor-not-specified.md
                 - name: As ordens derivadas confirmadas diretamente são processadas por um fluxo de trabalho em revisão
                   href: troubleshooting/planning/firmed-directly-deri.md
                 - name: Não é possível filtrar itens de planejamento mestre pelos respectivos valores de grupo de cobertura
@@ -3451,6 +3509,20 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gerenciamento de depósito
               items:
+                - name: Recebimentos de produtos cancelados não atualizam o status de transações para registrado
+                  href: troubleshooting/warehousing/canceled-product-receipts.md
+                - name: O arredondamento decimal da quantidade de atualização física está incorreto
+                  href: troubleshooting/warehousing/decimal-rounding-of-quantity.md
+                - name: A quantidade física restante na unidade deve ser diferente de zero
+                  href: troubleshooting/warehousing/physical-remaining-q.md
+                - name: A quantidade separada não é suficiente durante a geração da guia de remessa
+                  href: troubleshooting/warehousing/picked-quantity-is-n.md
+                - name: A quantidade excede a porcentagem de entrega excedente durante a geração da guia de remessa
+                  href: troubleshooting/warehousing/quantity-exceeds-over-pack-slip.md
+                - name: A quantidade que você está tentando atualizar excede a quantidade recebida/entregue
+                  href: troubleshooting/warehousing/quantity-exceeds-rec-del.md
+                - name: A quantidade excede a porcentagem de entrega insuficiente durante a geração da guia de remessa
+                  href: troubleshooting/warehousing/quantity-exceeds-under-pack-slip.md
                 - name: Ocorre um erro ao escolher o local durante o registro da lista de separação
                   href: troubleshooting/warehousing/error-cannot-update.md
                 - name: A estação de embalagem não exibe as notas do produto

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: f586e0f40b5362510333263a985eada39d3c53f5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: a0cde0c22b69e7605708a647d47530840ce823b1
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020354"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270924"
 ---
 # <a name="rebate-reduction-principles"></a>Princípios de redução de reembolso
 
@@ -45,7 +45,7 @@ Para trabalhar com princípios de redução de reembolso, acesse **Gerenciamento
 
 A tabela a seguir mostra alguns exemplos típicos de configurações de princípio de redução de reembolso. Para cada um desses princípios de redução de reembolso, o valor do campo **Descrição** descreve a finalidade do princípio de redução de reembolso.
 
-| Princípio de redução de reembolso | Descrição | Aplicar redução | Base de redução | Excluir da redução |
+| Princípio de redução de reembolso | descrição | Aplicar redução | Base de redução | Excluir da redução |
 |---|---|---|---|---|
 | Diferido | Reduzir reembolso | Sim | Ambos | Não |
 | Exclreb | Excluir reembolso | Sim | Reembolso | Sim |

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 79115f26047c64ddb528a73e01e76891fd9b5044
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6d32abacc1539cb930ad6f1ebcfe6fa9af4befcf
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052064"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271468"
 ---
 # <a name="buy-and-sell-leave"></a>Comprar e vender licenças
 
@@ -47,6 +47,12 @@ Os saldos serão atualizados automaticamente ou passarão por um processo de apr
 3. Selecione **Enviar** quando estiver pronto para enviar sua solicitação.
 
 Os saldos serão atualizados automaticamente ou passarão por um processo de aprovação antes da atualização. Isso depende de como a política de compras foi configurada.
+
+
+## <a name="troubleshooting"></a>Solução de problemas 
+
+Se um fluxo de trabalho de solicitação de licença de compra ou venda falhar, os usuários com o privilégio **EssLeaveBuySellRequestApprover** podem analisar o registro de mensagens para todas as solicitações de compra e venda de licenças. Para isso, vá para **Licença e ausência > Vincular > Comprar e vender pedidos de licença > Registro de mensagens** (no canto superior esquerdo). O **Registro de mensagens** mostra aos usuários como as transações foram processadas e o histórico de fluxo de trabalho associado.
+
 
 ## <a name="see-also"></a>Consulte também
 

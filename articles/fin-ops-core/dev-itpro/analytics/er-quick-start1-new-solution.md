@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f5a3ac7cae58d17409ea081ec30f61cecf29ce9
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
+ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224025"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304384"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Criar uma nova solução ER para imprimir um relatório personalizado
 
@@ -185,7 +185,7 @@ Ao concluir as etapas na seção [Importar uma nova configuração do modelo de 
 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importar uma nova configuração de modelo de dados
 
-1. Baixe o arquivo [Questionnaires model.version.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
+1. Baixe o arquivo [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) e salve-o no computador local.
 2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ação, selecione **Câmbio** \> **Carregar de arquivo XML**.
@@ -300,7 +300,7 @@ Ao concluir as etapas na seção [Importar uma nova configuração de mapeamento
 
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importar uma nova configuração de mapeamento de modelo
 
-1. Baixe o arquivo [Questionnaires mapping.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
+1. Baixe o arquivo [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) e salve-o no computador local.
 2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ação, selecione **Câmbio** \> **Carregar de arquivo XML**.
@@ -366,7 +366,7 @@ Você deve configurar fontes de dados para acessar as tabelas do aplicativo que 
     2. Selecione **Adicionar**.
     3. Na caixa de diálogo, no campo **Nome** , insira **\$ResultGroup**.
     4. Selecione **Editar fórmula**.
-    5. No [Editor de fórmula ER](general-electronic-reporting-formula-designer.md), no campo **Fórmula**, insira **FIRSTORNULL(\@."\<Relations'.KMQuestionResultGroup)** para usar o [caminho](er-formula-language.md#paths) da relação um para muitos entre as tabelas KMCollection e KMQuestionResultGroup.
+    5. No [Editor de fórmula ER](general-electronic-reporting-formula-designer.md), no campo **Fórmula**, insira **FIRSTORNULL(\@."\<Relations'.KMQuestionResultGroup)** para usar o [caminho](er-formula-language.md#Paths) da relação um para muitos entre as tabelas KMCollection e KMQuestionResultGroup.
     6. Selecione **Salvar** e feche o editor de fórmula.
     7. Selecione **OK** para adicionar o novo campo calculado.
 
@@ -547,7 +547,7 @@ O status da versão 1.1 dessa configuração é alterado de **Rascunho** para **
 
 A estrutura de ER gera usa modelos predefinidos para gerar relatórios nos formatos do Microsoft Office (pastas de trabalho do Excel ou documentos do Word). Enquanto o relatório necessário está sendo gerado, um modelo é preenchido com os dados necessários de acordo com o fluxo de dados configurado. Portanto, você deve primeiro criar um modelo para o relatório personalizado. Esse modelo deve ser criado como uma pasta de trabalho do Excel cuja estrutura representa o layout de um relatório personalizado. Você deve nomear todos os itens do Excel que pretende preencher com os dados necessários.
 
-1. Baixe o arquivo [Questionnaires report template.xslx](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
+1. Baixe o arquivo [Questionnaires report template.xlsx](https://download.microsoft.com/download/3/8/2/382c3cf0-87bb-473f-b7bb-3015b4facb74/Questionnaires_report_template.xlsx) e salve-o no computador local.
 2. Abra o arquivo no Excel e revise a estrutura da pasta de trabalho.
 
 Como mostra a ilustração a seguir, o modelo baixado foi projetado para imprimir questionários especificados que apresentam as perguntas de um questionário junto com as respostas apropriadas.
@@ -572,7 +572,7 @@ Ao concluir as etapas na seção [Importar uma configuração de formato projeta
 
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importar uma configuração de formato criado
 
-1. Baixe o arquivo [Questionnaires format.version.1.1.xml](https://go.microsoft.com/fwlink/?linkid=851448) e salve-o no computador local.
+1. Baixe o arquivo [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) e salve-o no computador local.
 2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ações, selecione **Câmbio** \> **Carregar de arquivo XML**.

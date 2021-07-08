@@ -1,24 +1,24 @@
 ---
 title: Localização do Commerce para o Brasil
 description: Este tópico fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
-author: josaw
-ms.date: 05/05/2021
+author: v-ankvik
+ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: v-chgri
 ms.search.region: Brazil
 ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 4d9f278838fafbd40155ab212cf8c7dcb46d6d3a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 02b5f06f93fb1dc19a9a203cfc3b51d14086da05
+ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020273"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6303400"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
@@ -99,9 +99,11 @@ O Commerce oferece suporte ao registro fiscal por meio da [Estrutura de integra�
 | Recursos de comércio eletrônico para o Brasil                                       |                           | X       |             |
 | Mesclagem de CNPJ/CPF nos registros principais do cliente no call center           |                           | X       |             |
 | Documentos fiscais de varejo em demonstrativos do livro fiscal\*                      |                           |         | X           |
-| Integração de PDV com impressoras fiscais                              |                           |         | X           |
+| Integração do PDV com impressoras fiscais (PAF-ECF)\*\*                |                           |         | X           |
 
 \* *Demonstrativos do livro fiscal* são demonstrativos de remuneração e restituição do SPED (Sistema Público de Escrituração Digital) Fiscal, de Contribuições de SPED e ICMS-ST (Imposto sobre Circulação de Mercadorias e Serviços - Substituição Tributária) para os estados suportados.
+
+\*\* *PAF-ECF* significa Programa Aplicativo Fiscal – Emissor de Cupom Fiscal.
 
 ## <a name="commerce-functionality-for-brazil"></a>Funcionalidade de comércio para o Brasil
 
@@ -118,10 +120,24 @@ Para saber mais sobre os recursos de POS disponíveis para os clientes em todos 
 
 Os seguintes recursos de POS específicos ao Brasil são habilitados após a localização do Commerce para o Brasil ser configurada e implantada:
 
-- Documento fiscal eletrônico para consumidores no Brasil (NFC-e)
-- Gerenciamento de informações do cliente no Brasil
-- Cancelamento e devolução de NFC-e
+- Funcionalidade de documento fiscal NFC-e
+- Gerenciamento de informações do cliente
+- Cancelamento e devolução de documentos NFC-e
 - Registro adiado da NFC-e emitida no moto de contingência
 - Postagem e controle de documentos fiscais eletrônicos
+
+## <a name="additional-resources"></a>Recursos adicionais
+
+[Configurar e implantar a localização do Commerce para o Brasil](latam-bra-deployment.md) 
+
+[Funcionalidade de documento fiscal NFC-e no Comércio POS para o Brasil](latam-bra-nfce.md)
+
+[Gerenciar informações do cliente no PDV para o Brasil](latam-bra-customer-information.md)
+
+[Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
+
+[Registro adiado de documentos NFC-e emitidos no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
+
+[Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce](latam-bra-retail-statements.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 824f7eb66c1d3f03df74a706e8214bcfe1d8efd9
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
+ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941187"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6306380"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -124,7 +124,7 @@ As dimensões do produto são características que identificam uma grade de prod
 
 Quando um produto têm dimensões do produto diferentes (por exemplo, um produto mestre têm Tamanho e Cor como dimensões do produto), cada produto distinto (ou seja, cada grade de produto) é definido como uma combinação dessas dimensões do produto. Por exemplo, o número do produto B0001 é uma camiseta extra pequena, e o número do produto B0002 é uma camiseta preta pequena. Nesse caso, as combinações existentes de dimensões do produto são definidas. Por exemplo, a camiseta do exemplo anterior pode ser extra pequena e preta, pequena e preta, média e preta ou grande e preta, mas não pode ser extra grande e preta. Ou seja, as dimensões do produto que produto mestre pode tomar são especificadas, e é possível liberar variações com base nesses valores.
 
-Para controlar as dimensões do produto que um produto mestre podem tomar, as tabelas a seguir são criadas e mapeadas no Dataverse para cada dimensão do produto. Para obter mais informações, consulte [Visão geral de informações do produto](../../../supply-chain/pim/product-information.md).
+Para controlar as dimensões do produto que um produto mestre podem tomar, as tabelas a seguir são criadas e mapeadas no Dataverse para cada dimensão do produto. Para obter mais informações, consulte [Visão geral das informações do produto](../../../../supply-chain/pim/product-information.md). 
 
 [!include [product colors](includes/EcoResProductMasterColorEntity-msdyn-sharedproductcolors.md)]
 

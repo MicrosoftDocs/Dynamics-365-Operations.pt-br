@@ -2,7 +2,7 @@
 title: Configurar tipos de licença e ausência
 description: Configurar tipos de licença que os funcionários podem executar no Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 098f614da80a1e7e3e31b30cea707ecfbd5b0a70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056603"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6271118"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
 
@@ -71,7 +71,7 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
    
  3. Defina **Postergar tipo de licença** para o tipo de licença. Quando você selecionar esta opção, qualquer saldo de postergação será transferido para o tipo de licença especificado. O tipo de licença de postergação também precisa ser incluído no plano de licença e ausência. 
  
- 4. Defina **Regras de expiração** para o tipo de licença. Ao configurar esta opção, você pode escolher a unidade de dias ou meses e definir a duração da expiração. Você também pode definir a data de efetivação da regra de vencimento. A data de efetivação é usada para determinar quando começar a executar o trabalho em lotes que processa a expiração da licença ou a data em que a regra entra em vigor. A expiração em si sempre ocorrerá na data de início do plano de licença quando o trabalho em lotes for definido para ser processado. Por exemplo, a data de início do plano pode ser 1/1/2020, mas a regra não foi criada até 6/1/2020. Ao definir a data de efetivação como 6/1/2020, a regra será processada no limite do ano seguinte; portanto, 1/1/2021. Os saldos de licença existentes no momento da expiração serão subtraídos do tipo de licença e serão refletidos no saldo de licença. 
+4. Defina **Regras de expiração** para o tipo de licença. Ao configurar esta opção, você pode escolher a unidade de dias ou meses e definir a duração do vencimento. A data de efetivação é usada para determinar quando começar a executar o trabalho em lotes que processa a expiração da licença ou a data em que a regra entra em vigor. O vencimento em si sempre ocorrerá na data de início do período de acréscimo. Por exemplo, se a data de início do período de acréscimo for 3 de agosto de 2021, e a regra de vencimento for definida como 6 meses, a regra será processada com base no vencimento compensado a partir da data de início do período de acréscimo, de modo que seria executado em 3 de fevereiro de 2022. Os saldos de licença existentes no momento da expiração serão subtraídos do tipo de licença e serão refletidos no saldo de licença.
  
 ## <a name="see-also"></a>Consulte também
 
@@ -79,6 +79,7 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 - [Criar um plano de licença e ausência](hr-leave-and-absence-plans.md)
 - [Criar um calendário de horas úteis](hr-leave-and-absence-working-time-calendar.md)
 - [Suspender licença](hr-leave-and-absence-suspend-leave.md)
+- [Criar um fluxo de trabalho de solicitação de compra e venda de licenças](hr-leave-and-absence-buy-sell-workflow.md)
 
 
 

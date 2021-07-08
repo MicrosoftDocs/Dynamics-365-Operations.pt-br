@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 808080d9e84c4af1b061d5a4ce76d5fa309e66f7
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: e77022bde6e612392c80cf5fe2b4c1e75ec5775d
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216734"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270996"
 ---
 # <a name="rebate-management-posting-setup"></a>Configuração de lançamento de gerenciamento de reembolso
 
@@ -40,8 +40,8 @@ A tabela a seguir descreve as configurações disponíveis na seção de cabeça
 | Campo | Descrição |
 |---|---|
 | Perfil de lançamento | Insira um nome exclusivo para o perfil. |
-| Descrição | Insira uma descrição do perfil. |
-| Módulo | Selecione os tipos de reembolsos e royalties aos quais o perfil está associado (*Cliente* ou *Fornecedor*). |
+| descrição | Insira uma descrição do perfil. |
+| Módulo | Selecione o módulo ao qual os reembolsos e royalties do perfil estão associados (*Cliente* ou *Fornecedor*). |
 | Tipo | Selecione o tipo de perfil (*Reembolso* ou *Royalty*). |
 | Tipo de Pagamento | <p>Este campo determina o formato da saída do reembolso lançado.<p><p>Quando o campo **Tipo** é definido como *Reembolso*, os seguintes valores estão disponíveis:</p><ul><li>*Pagar usando contas a pagar* – quando você lança o reembolso de um cliente, é criada uma fatura de fornecedor para o fornecedor de remessa que é configurado no cliente de reembolso. Quando você lança o reembolso de um fornecedor, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li><li>*Deduções do cliente* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li><li>*Deduções do cliente da fatura de imposto* – quando você lança o reembolso, é criada uma fatura de texto livre para o cliente do reembolso.</li><li>*Gasto comercial* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li><li>*Relatórios* – quando você lança o reembolso, é criado um diário de dedução do cliente para o cliente do reembolso.</li></ul><p>Quando o campo **Tipo** é definido como *Royalty*, os seguintes valores estão disponíveis:</p><ul><li>*Pagar usando contas a pagar* – quando você lança o reembolso, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li><li>*Relatórios* – quando você lança o reembolso, é criada uma fatura de fornecedor para a conta de fornecedor de reembolso.</li></ul><p>Para obter mais informações, consulte a seção [Tipos de pagamento](#payment-types) a seguir. |
 | Empresa | Selecione a empresa (entidade legal) para a qual as provisões serão acumuladas e as reivindicações serão pagas. |
@@ -66,23 +66,23 @@ A tabela a seguir resume como as várias configurações do campo **Tipo de paga
 > Considere os seguintes pontos ao configurar [Acordos de gerenciamento de reembolso](rebate-management-deals.md):
 >
 > - Para acordos em que o campo **Reconciliar por** está definido como *Negócio*, você não pode usar a conta de negócio dinâmica durante o lançamento. Você deve usar uma conta de cliente ou fornecedor especificada.
-> - Para negócios em que o campo **Reconciliar por** está definido como *Linha*, você pode usar um perfil de lançamento que é deslocado para uma conta de negócio dinâmica na linha de negócio, pois o cliente é definido por linha de negócio.
+> - Para negócios em que o campo **Reconciliar por** está definido como *Linha*, você pode usar um perfil de lançamento que é deslocado para uma conta de negócio dinâmica na linha de negócio, pois o cliente ou fornecedor é definido por linha de negócio.
 
 ## <a name="posting-fasttab"></a>FastTab Lançamento
 
 A tabela a seguir descreve os campos disponíveis na FastTab **Lançamento** de cada Perfil de lançamento de gerenciamento de reembolso.
 
-| Campo | Descrição |
+| Campo | descrição |
 |---|---|
-| Tipo de crédito | Selecione se deseja creditar uma conta contábil, um cliente ou fornecedor. |
-| Conta de crédito | A conta em que os valores de crédito são lançados quando são feitas provisões de reembolso. Essa conta também será usada como a conta de débito quando o reembolso for lançado para creditar o cliente. |
+| Tipo de crédito | Selecione se deseja creditar uma conta contábil ou um cliente. Se o campo **Tipo de pagamento** no cabeçalho estiver definido como *Deduções de cliente da fatura de imposto*, este campo será definido como *Conta contábil*. Para reembolsos de fornecedores, este campo é definido como *Conta contábil*. |
+| Conta de crédito | Selecione a conta em que os valores de crédito são lançados quando são feitas provisões de reembolso. Essa conta também será usada como contrapartida quando o reembolso for lançado para creditar o cliente ou debitar o fornecedor. |
 | Nome do diário<br>(Na seção **Provisão**) | Selecione o nome do diário a ser usado para registrar a provisão lançada. |
 | Tipo | Selecione se deseja lançar o reembolso em uma conta contábil, um cliente ou fornecedor. Se o campo **Tipo de pagamento** no cabeçalho estiver definido como *Deduções de cliente da fatura de imposto*, este campo será definido como *Cliente/Fornecedor*. |
-| Use a origem da conta | <p>Selecione um dos seguintes valores:</p><ul><li>*Nenhum* – se você selecionar este valor, deverá especificar uma conta no campo **Conta de reembolso**.</li><li>*Conta de Negócio* – use a conta de cliente ou fornecedor especificada na linha de reembolso. Você só pode selecionar esse valor para negócios em que o campo **Reconciliar por** está definido como *Linha* e para linhas de negócio em que o campo **Código de conta** está definido como *Tabela*. Ele não se aplica a perfis de lançamento de royalty do cliente.</li></ul> |
+| Use a origem da conta | <p>Selecione um dos seguintes valores:</p><ul><li>*Conta fixa* – Se você selecionar este valor, deverá especificar uma conta no campo **Conta de reembolso**.</li><li>*Conta de linha de negócio* – Use a conta de cliente ou fornecedor especificada na linha de reembolso. Você só pode selecionar esse valor para negócios em que o campo **Reconciliar por** está definido como *Linha* e para linhas de negócio em que o campo **Código de conta** está definido como *Tabela*. Isso não se aplica aos perfis de lançamento de royalties do cliente ou reembolsos de fornecedores que são baseados em ordens de venda.</li></ul> |
 | Conta de reembolso | A conta em que a despesa real de reembolsos será lançada. |
-| Nome do diário<br>(Na seção **Gerenciamento de reembolsos**) | Selecione o nome do diário a ser usado para lançar uma nota de crédito do valor do reembolso para o cliente. Este campo não está disponível quando o campo **Tipo de pagamento** no cabeçalho é definido como *Deduções de cliente da fatura de imposto*. |
+| Nome do diário<br>(No grupo de campos **Gerenciamento de reembolsos**) | Selecione o nome do diário a ser usado para lançar uma nota de crédito do valor do reembolso para o cliente ou fornecedor. Este campo não está disponível quando o campo **Tipo de pagamento** no cabeçalho é definido como *Deduções de cliente da fatura de imposto*. Para descontos de clientes, nomes de diários do tipo de diário *Diário* estarão disponíveis. Para royalties de clientes e reembolsos de fornecedores, nomes de diários do tipo de diário *Gravação de fatura do fornecedor* estarão disponíveis. |
 | Grupo de impostos do item | Especifique se o reembolso é tributável. |
-| Nome do diário<br>(na seção **Dar baixa**) | Se o reembolso lançado não for igual à provisão, poderá haver baixa da diferença. Selecione o nome do diário a ser usado para registrar a baixa lançada. |
+| Nome do diário<br>(No grupo de campos **Dar baixa**) | Se o reembolso lançado não for igual à provisão, poderá haver baixa da diferença. Selecione o nome do diário a ser usado para registrar a baixa lançada. |
 
 ## <a name="posting-by-company-fasttab"></a>FastTab Lançamento por empresa
 
@@ -92,6 +92,6 @@ Use os botões da barra de ferramentas para adicionar empresas à grade e remov�
 
 Selecione a linha de cada empresa e insira as seguintes informações usando os campos abaixo da grade:
 
-- **Tipo de débito** – Selecione se deseja debitar uma conta contábil, um cliente ou fornecedor.
+- **Tipo de débito** – Selecione se deseja debitar uma conta contábil ou um fornecedor. Para reembolsos de cliente e royalties, este campo é definido como *Conta contábil*.
 - **Conta de débito** – Insira a conta na qual o valor do débito é lançado quando as provisões de reembolso são feitas.
 - **Conta principal** – Selecione a conta principal para baixas.

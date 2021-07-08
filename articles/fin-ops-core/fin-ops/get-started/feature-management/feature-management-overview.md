@@ -15,12 +15,12 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 438e8ba38726a25a2464490f4098f96095b4d5c6
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 2164c07d1a179a0aa15611b742084d872f41bbfc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923298"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270804"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
@@ -160,8 +160,8 @@ A política é que todos os novos recursos terão aceitação por um período de
 ### <a name="why-isnt-there-a-specific-mandatory-enabled-date"></a>Por que não há uma "data de habilitação obrigatória" específica? 
 O tempo de liberação das atualizações é variável, o tempo de atualização de ambiente é variável, e os clientes podem optar por ignorar algumas atualizações. Como resultado, datas específicas são difíceis de determinar. 
 
-### <a name="wheres-the-documentation-for-features-that-are-being-made-mandatory"></a>Onde está a documentação dos recursos que estão se tornando obrigatórios? 
-Essa documentação vem das equipes do aplicativo. Geralmente, elas serão mencionadas em [Recursos removidos ou substituídos](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
+### <a name="wheres-the-documentation-for-features-that-are-mandatory"></a>Onde está a documentação dos recursos que são obrigatórios? 
+Essa documentação vem de cada equipe de aplicativo do Dynamics 365. Frequentemente, esses recursos serão mencionados nos recursos [Atualizações para os estados de recursos do cliente](/dynamics365-release-plan/2021wave1/finance-operations/finance-operations-crossapp-capabilities/updates-client-feature-states) ou [Removidos ou preteridos](../../../dev-itpro/migration-upgrade/deprecated-features.md). 
 
 ### <a name="is-there-an-in-product-notification-or-signal-that-a-feature-is-going-to-be-mandatory-enabled"></a>Há uma notificação ou um sinal no produto de que um recurso terá a habilitação obrigatória? 
 Atualmente, não existe um mecanismo de notificação para informar que um recurso se tornará obrigatório.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee342de6d069131e230120c5d65aef58da8e632a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8436842b4f07ba000649075198bdef43ad508f8f
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020370"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270948"
 ---
 # <a name="rebate-management-deal-workflows"></a>Fluxos de trabalho de acordos de gerenciamento de reembolso
 
@@ -27,12 +27,12 @@ ms.locfileid: "6020370"
 
 Para aprovar acordos de reembolso, o Gerenciamento de reembolso usa a mesma plataforma de fluxo de trabalho que outros aplicativos Finance and Operations. Dois processos de trabalho estão associados a cada fluxo de trabalho:
 
-- Um elemento do fluxo de trabalho ativa o acordo para que o usuário ou processo de fluxo de trabalho possa aprovar as transações.
 - Um elemento do fluxo de trabalho aprova o acordo.
+- Um elemento do fluxo de trabalho ativa o acordo para que o usuário ou processo de fluxo de trabalho possa aprovar as transações.
 
 Para poder usar um acordo de reembolso, ele deve estar ativo no módulo **Gerenciamento de reembolso**. Para ativar um acordo, você deve primeiro criar e configurar um *Fluxo de trabalho de acordo de gerenciamento de reembolso*.
 
-Após um fluxo de trabalho ser ativado para Gerenciamento de reembolso, os usuários não podem aprovar acordos manualmente. O fluxo de trabalho deve ser sempre utilizado.
+Os usuários não podem aprovar negociações manualmente. O fluxo de trabalho deve sempre ser utilizado.
 
 ## <a name="create-and-manage-rebate-management-deal-workflows"></a>Criar e gerenciar fluxos de trabalho de Acordo de gerenciamento de reembolso
 
@@ -42,4 +42,17 @@ Para trabalhar com fluxos de trabalho de Acordo de gerenciamento de reembolso, a
 
 Para ativar um acordo por meio de um fluxo de trabalho, abra o acordo (por exemplo, na página **Todos os acordos de gerenciamento de reembolso**). No Painel de Ações, selecione **Fluxo de trabalho \> Enviar**. Após o processamento e a aprovação do novo acordo pelo fluxo de trabalho, ele ficará ativo e pronto para ser usado.
 
-Depois que um acordo for ativado, você não poderá alterar a configuração. Se for necessário alterar um acordo ativo, desative-o e crie um novo acordo. Se o novo acordo for parecido com o antigo, você poderá criá-lo copiando o acordo antigo.
+Depois que uma negociação for ativada, você não poderá alterar a maior parte de sua configuração. Se for necessário alterar um acordo ativo, primeiro, desative-o e crie um novo acordo. Se o novo acordo for parecido com o antigo, você poderá criá-lo copiando o acordo antigo.
+
+Você pode alterar as seguintes configurações de uma negociação depois de ativada:
+
+- Reconciliar por
+- Garantia cumulativa
+- Perfil de lançamento
+- Perfil de lançamento para garantia
+- Notas do documento
+- Moeda
+- Data Inicial
+- Data final
+
+Além disso, as linhas de reembolso podem ser removidas.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d12e1908e234c841fb705266b2255c6c5e2140e1
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: 2867a4f9418e9435e2980fc24314914595ec44d0
+ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103584"
+ms.lasthandoff: 06/23/2021
+ms.locfileid: "6301665"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
@@ -109,6 +109,8 @@ A configuração da opção **Usar Otimização de Planejamento** determina qual
 
 - **Sim** – a Otimização de Planejamento é usada para o planejamento mestre.
 - **Não** – o mecanismo de planejamento interno do Supply Chain Management é usado para o planejamento mestre.
+
+Esse cenário se aplica a todas as entidades legais (empresas). Não é possível utilizar a Otimização de Planejamento em algumas entidades legais e o planejamento mestre incorporado em outras entidades legais.
 
 > [!NOTE]
 > Se os trabalhos em lotes de planejamento existentes criados para o mecanismo de planejamento interno do Supply Chain Management forem disparados quando a opção **Usar Otimização de Planejamento** estiver definida como **Sim**, esses trabalhos falharão.
