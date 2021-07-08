@@ -2,7 +2,7 @@
 title: Configurar taxas
 description: As taxas no Microsoft Dynamics 365 Human Resources definem o quanto empregadores e funcionários contribuem para um benefício.
 author: andreabichsel
-ms.date: 06/22/2020
+ms.date: 06/15/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3d6018decbc429a5e6fbb658369d56a34439f6c7
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 2b6767df573260f32de8409e487f649bdc4779b0
+ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054971"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "6266648"
 ---
 # <a name="configure-rates"></a>Configurar taxas
 
@@ -46,7 +46,7 @@ Use taxas para determinar o quanto funcionários e empregadores pagam por cada b
    | **Expiração** | A data final da taxa. 12/31/2154 (que representa nunca) é o valor padrão. |
    | **Usar camadas** | A camada a ser usada para o cálculo da taxa de benefício. Uma camada única para uma taxa de benefício de camada única ou uma camada dupla para uma taxa de benefício de camada dupla. Um exemplo de uma camada dupla é uma camada com base no sexo e na idade. |
    | **Frequência de pagamento** | A frequência de pagamento que determina a frequência de pagamento da taxa de prêmio de benefício ao provedor de benefícios. Por exemplo, se a frequência de pagamento for mensal, a taxa de benefício representará o valor do pagamento mensal. |
-   | **Arredondamento da taxa de frequência de pagamento** | O método para arredondar a taxa: padrão ou truncado. |
+   | **Arredondamento da taxa de frequência de pagamento** | Os métodos para arredondar a taxa são: Padrão, Truncado, Normal, Para Baixo e Para Cima. </br></br><ul><li>**Padrão** - Sempre arredondar. Por exemplo, 10,611 será arredondado para 10,62. -10,231 será arredondado para -10,23. </li><li>**Truncado** - Sempre arredondar para baixo. Por exemplo, 10,619 será arredondado para 10,61. -10,231 será arredondado para -10,24. </li><li>**Normal** - Os valores decimais que terminam em 5 ou superior serão arredondados em diferença de zero. Os valores decimais que terminam em 4 ou menos serão arredondados de encontro a zero. Por exemplo, 10,615 será arredondado para 10,62. -10,235 será arredondado para -10,24. 10,614 será arredondado para 10,61. -10,234 será arredondado para -10,23. </li><li>**Para baixo** - Arredondar em direção a zero. Por exemplo, 10,619 será arredondado para 10,61. -10,231 será arredondado para -10,23. </li><li>**Para cima** - Arredondar em diferença de zero. Por exemplo, 10,619 será arredondado para 10,62. -10,231 será arredondado para -10,24. |
    | **Valor do funcionário não fumante** | O valor que o provedor de benefícios cobra de um funcionário não fumante. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |
    | **Valor do empregador não fumante** | O valor que o provedor de benefícios cobra de um funcionário não fumante. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |
    | **Valor do funcionário fumante** | O valor que o provedor de benefícios cobra de um funcionário que fuma. Esse é o valor que o empregador paga ao fornecedor de benefícios e deve se basear na frequência de pagamento para a configuração de taxa. |

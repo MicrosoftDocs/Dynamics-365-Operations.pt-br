@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: a1b2dd204c9a507dba387b0295f3021253e02dc4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
+ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814793"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6270778"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Substituir o princípio de reserva padrão por materiais em produção
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 O recurso *Substituir reserva de produção padrão* permite definir um princípio de reserva padrão para cada grupo de modelos de item. Portanto, diferentes princípios de reserva podem automaticamente ser aplicados em cada item que faz parte de uma lista de materiais (BOM) ou fórmula de ordem de lote. Você pode selecionar se cada grupo de modelos de item deve substituir o princípio de reserva padrão definido para uma ordem e qual princípio de reserva deve ser usado (*manual*, *estimativa*, *agendamento*, *liberação* ou *início*).
 
@@ -37,7 +36,7 @@ Por exemplo, se você tem matérias-primas ou componentes que exigem trabalho de
 Para que você possa usar o recurso, ele deve estar ativado no sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
 - **Módulo:** *Controle de produção*
-- **Nome do recurso:** *(Versão Preliminar) Substituir reserva de produção padrão*
+- **Nome do recurso:** *Substituir reserva de produção padrão*
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Atribuir uma política de reserva de produção a um grupo de modelos de item
 
