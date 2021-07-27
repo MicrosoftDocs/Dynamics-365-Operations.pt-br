@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 47867447e6d16a0fb4542c17ab184068300b2c1c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019948"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348259"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Alternância offline perfeita para operações de vale-presente e memorando de crédito
 
@@ -36,7 +36,7 @@ No entanto, se o PDV perder conectividade depois que um vale-presente tiver sido
 
 Para habilitar a funcionalidade para concluir transações de vale-presente depois de alternar para o modo offline, vá para a guia **Postar** na página **Parâmetros do Commerce**. Nessa guia, localize a Guia Rápida **Cartão presente** e defina **Permitir transações de vale-presente conclusivo no modo offline** como **Sim**.
 
-![Configuração de cartão de presente offline](../media/gift.png)
+![Configuração de cartão de presente offline.](../media/gift.png)
 
 Os parâmetros comerciais são normalmente armazenados em cache. Portanto, depois que a configuração desse parâmetro é atualizada, e a agenda de distribuição é iniciada para sincronizar a alteração no canal, a alteração pode levar até 24 horas para ter efeito. Para que a alteração seja efetivada imediatamente, redefina os serviços de informações da Internet da Microsoft (IIS).
 
@@ -46,7 +46,7 @@ Como vales-presentes internos, os memorandos de crédito são mantidos centralme
 
 Para habilitar a funcionalidade para concluir transações de memorando de crédito depois de alternar para o modo offline, vá para a guia **Postar** na página **Parâmetros do Commerce**. Nessa guia, localize a Guia Rápida **Memorando de crédito** e defina **Permitir transações de memorando de crédito conclusivo no modo offline** como **Sim**.
 
-![Configuração de memorando de crédito offline](../media/creditmemo.png)
+![Configuração de memorando de crédito offline.](../media/creditmemo.png)
 
 Os parâmetros comerciais são normalmente armazenados em cache. Portanto, depois que a configuração desse parâmetro é atualizada, e a agenda de distribuição é iniciada para sincronizar a alteração no canal, a alteração pode levar até 24 horas para ter efeito. Para que a alteração seja efetivada imediatamente, redefina o IIS.
 

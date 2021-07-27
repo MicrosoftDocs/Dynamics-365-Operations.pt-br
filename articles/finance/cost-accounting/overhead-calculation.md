@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8dc312e66dc666ac6c23bac6b705ffc7893fd06b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 09d4516c40833771d27db13eac8228bd8c5e0e4a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187988"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355026"
 ---
 # <a name="overhead-calculation"></a>Cálculo de custos indiretos
 
@@ -48,7 +48,7 @@ O cálculo de custos gerais indiretos executa as políticas de contabilização 
 
 O cálculo de custos gerais indiretos é executado independentemente da versão. Portanto, você pode calcular a versão de orçamento antes da versão atual. O cálculo de custos gerais indiretos consiste em quatro etapas, conforme mostrado na ilustração. Em cada etapa, um cabeçalho de diário é criado com entradas de diário. Esse cabeçalho de diário mantém dados de entrada para cada etapa de cálculo. As políticas e regras são aplicadas a cada linha do diário e as entradas de custo são geradas como saídas. Portanto, você sempre terá rastreabilidade total. 
 
-[![Cálculo de custos gerais indiretos](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+[![Cálculo de custos indiretos.](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcular e alocar os custos gerais indiretos de Eletricidade
 Na contabilidade financeira, alguns custos, como eletricidade, são registrados como um valor total. Portanto, a visão administrativa detalhada não é fornecida para a contabilização de custo. Na contabilização de custo, para fornecer a visão administrativa correta em todas as unidades organizacionais e níveis, os custos devem passar pelas unidades organizacionais. Este fluxo deve ser baseado em qualquer um registro exato do consumo ou de uma previsão justa. Na contabilidade, um custo de eletricidade pode ser lançado, conforme mostrado na tabela.
@@ -618,7 +618,7 @@ Para obter mais informações, consulte [Realizar cálculo de custos indiretos](
 
 A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Finance oferece suporte ao método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo. 
 
-[![Método recíproco](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+[![Método recíproco.](./media/reciprocal-method.png)](./media/reciprocal-method.png)
 
 #### <a name="define-the-cost-allocation"></a>Defina a alocação de custo
 

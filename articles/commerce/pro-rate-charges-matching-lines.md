@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: c36948cc58291b56c1bbe8a3d5c3db52dccc8399
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: cca35be696c8dd9956176e54e77a60f0252e0760
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018597"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352171"
 ---
 # <a name="prorate-header-charges-to-matching-sales-lines"></a>Realizar rateio de alterações de cabeçalho para linhas de vendas correspondentes
 
@@ -56,9 +56,9 @@ Este cenário destaca o comportamento quando a opção **Pró-rateio para corres
 
 Neste cenário, a organização definiu os encargos de nível de cabeçalho para modo de relação de entrega **99** e modo de relação de entrega **11**. Nenhum encargo automático é configurado para modo de entrega **21**.
 
-![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está desligado](media/99_disabled.png)
+![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está desligado.](media/99_disabled.png)
 
-![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está desligado](media/11_disabled.png)
+![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está desligado.](media/11_disabled.png)
 
 Uma ordem de venda é criada no call center, e o modo de entrega será **99**. Essa ordem contém cinco itens. Duas linhas de ordem foram configuradas para usar modo de entrega **99**, duas linhas foram configuradas para usar modo de entrega **11**, e uma linha foi configurada para usar modo de entrega **21**, como exibido na tabela a seguir.
 
@@ -78,9 +78,9 @@ Neste cenário, se um cliente devolver alguns dos itens na ordem, e se o [códig
 
 Neste cenário, os encargos de nível de cabeçalho são definidos para modo de relação de entrega **99** e modo de relação de entrega **11**. No entanto, a opção **Pró-rateio para correspondência de linhas de vendas** é definida como **Sim** para essas tabelas de encargo automático.
 
-![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está ligado](media/99_enabled.png)
+![Encargos automáticos para modo de entrega 99 na correspondência de pró-rateio de linha está ligado.](media/99_enabled.png)
 
-![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está ligado](media/11_enabled.png)
+![Encargos automáticos para modo de entrega 11 na correspondência de pró-rateio de linha está ligado.](media/11_enabled.png)
 
 Esse cenário usa a mesma ordem de venda que contém cinco linhas. O modo de entrega no cabeçalho de ordem é definido como **99**, mas o modo de entrega para cada item na ordem de vendas é configurado como exibido na tabela a seguir.
 
@@ -130,9 +130,9 @@ Como a configuração de encargos automáticos é definida para pró-rata de lin
     - Valor de produto total = US$ 15
     - **Valor do encargo = $0** (Nenhum encargo automático foi configurado para essa combinação de um cliente e um modo de entrega.)
 
-    ![Encargos de modo de entrega 11 caem na camada destacada](media/step2mode11.png)
+    ![Encargos de modo de entrega 11 caem na camada destacada.](media/step2mode11.png)
 
-    ![Encargos de modo de entrega 99 caem na camada destacada](media/step2mode99.png)
+    ![Encargos de modo de entrega 99 caem na camada destacada.](media/step2mode99.png)
 
 3. O sistema calcula o valor do encargo que deve ser aplicado a cada linha, baseado na lógica de pró-rata que considera o valor proporcional da linha em relação ao valor de produto total do grupo.
 
@@ -163,7 +163,7 @@ Como a configuração de encargos automáticos é definida para pró-rata de lin
 
 Portanto, neste exemplo, o item 81334 será atribuído ao encargo de frete de US$ 5,62. Você pode exibir esses encargos na página **Manter encargos** da linha de vendas. A ilustração a seguir mostra como essa página se parece para o item 81334.
 
-![Encargos em pró-rata sobre vendas para o item 81334](media/proratedlinecharge.png)
+![Encargos em pró-rata sobre vendas para o item 81334.](media/proratedlinecharge.png)
 
 Quando esse método de cálculo é usado em um cenário de devolução parcial, se o código de encargo é reembolsável, apenas a parte do encargo atribuído a essa linha será reembolsado quando o item é devolvido.
 

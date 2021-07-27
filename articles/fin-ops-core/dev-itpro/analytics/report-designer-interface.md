@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 8a20cd71c9729b492403f02f3b5576351169a6e2
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0b2e2ead990332f1afd338a430406e6d1db95347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754341"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350127"
 ---
 # <a name="report-designer-interface"></a>Interface do Designer de Relatórios
 
@@ -169,56 +169,56 @@ As tabelas a seguir descrevem os botões da barra de ferramentas que você pode 
 
 A barra de ferramentas padrão fornece acesso rápido a comandos de arquivo e edição. Esta barra de ferramentas inclui os botões a seguir.
 
-| Botão                                                                                       | Descrição |
+| Botão                                                                                       | descrição |
 |----------------------------------------------------------------------------------------------|-------------|
-| [![Botão Novo](./media/rowc130389.png)](./media/rowc130389.png)                              | Criar uma nova (vazia) definição de relatório, de linha, de coluna ou de hierarquia organizacional. |
-| [![Botão Abrir](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Abrir uma definição existente de linha, de coluna, de hierarquia organizacional ou de relatório. |
-| [![Botão Salvar](./media/savec130389.png)](./media/savec130389.png)                           | Salvar a definição atual de linha, de coluna, de hierarquia organizacional ou de relatório. |
-| [![Botão Copiar](./media/copyc130389.png)](./media/copyc130389.png)                           | Copia o texto selecionado na área de transferência. |
-| [![Botão Recortar](./media/cutc130389.png)](./media/cutc130389.png)                              | Exclui o texto selecionado e o copia para a área de transferência. |
-| [![Botão Colar](./media/pastec130389.png)](./media/pastec130389.png)                        | Insira o texto na área de transferência. |
-| [![Botão Desfazer](./media/undoc130389.png)](./media/undoc130389.png)                           | Desfazer a última ação. |
-| [![Botão Refazer](./media/redoc130389.png)](./media/redoc130389.png)                           | Reverter a última ação de desfazer. |
-| [![Botão Localizar](./media/findc130389.png)](./media/findc130389.png)                           | Abra a caixa de diálogo **Localizar e Substituir**, na qual você pode pesquisar e substituir o texto na janela ativa. |
-| [![Botão Inserir linha](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Insere uma linha em branco na definição de linha ou uma linha de cabeçalho em branco na definição de coluna. Este botão está disponível em uma definição de linha ou de coluna. |
-| [![Botão Inserir coluna](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Inserir uma coluna vazia na definição de coluna. Este botão está disponível em uma definição de coluna. |
-| [![Botão Bloquear](./media/lockc130389.png)](./media/lockc130389.png)                           | Aplicar uma senha para o bloco de construção atual. Este botão está disponível para usuários com a função **Designer** ou **Administrador**. |
-| [![Botão Link de linha](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Abra a caixa de diálogo **Links de Linhas**, na qual você pode especificar as origens de definições de links de dados e as definições de árvores de relatórios. Este botão está disponível em uma definição de linha. |
-| [![Botão Promover](./media/promotec130389.png)](./media/promotec130389.png)                  | Promover uma unidade da definição de hierarquia organizacional. Quando você seleciona uma unidade filho e clica em **Promover**, a unidade filho é movida para o mesmo nível da unidade pai. |
-| [![Botão Rebaixar](./media/demotec130389.png)](./media/demotec130389.png)                     | Rebaixar uma unidade da definição de hierarquia organizacional. Quando você seleciona uma unidade e clica em **Rebaixar**, a unidade se torna um filho da unidade que a precede. |
-| [![Botão Expandir](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Expandir todas as unidades da definição de hierarquia organizacional no nível da unidade selecionada. |
-| [![Botão Recolher](./media/collapsec130389.png)](./media/collapsec130389.png)               | Recolher a árvore de relatórios. |
-| [![Botão Ajuda](./media/helpc130389.png)](./media/helpc130389.png)                           | Abrir Ajuda. |
+| [![Botão Novo.](./media/rowc130389.png)](./media/rowc130389.png)                              | Criar uma nova (vazia) definição de relatório, de linha, de coluna ou de hierarquia organizacional. |
+| [![Botão Abrir.](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | Abrir uma definição de linha existente, definição de coluna, definição de árvore de relatórios ou definição de relatório. |
+| [![Botão Salvar.](./media/savec130389.png)](./media/savec130389.png)                           | Salvar a definição atual de linha, de coluna, de hierarquia organizacional ou de relatório. |
+| [![Botão Copiar.](./media/copyc130389.png)](./media/copyc130389.png)                           | Copia o texto selecionado na área de transferência. |
+| [![Botão Recortar.](./media/cutc130389.png)](./media/cutc130389.png)                              | Exclui o texto selecionado e o copia para a área de transferência. |
+| [![Botão Colar.](./media/pastec130389.png)](./media/pastec130389.png)                        | Insira o texto na área de transferência. |
+| [![Botão Desfazer.](./media/undoc130389.png)](./media/undoc130389.png)                           | Desfazer a última ação. |
+| [![Botão Refazer.](./media/redoc130389.png)](./media/redoc130389.png)                           | Reverter a última ação de desfazer. |
+| [![Botão Localizar.](./media/findc130389.png)](./media/findc130389.png)                           | Abra a caixa de diálogo **Localizar e Substituir**, na qual você pode pesquisar e substituir o texto na janela ativa. |
+| [![Botão Inserir linha.](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | Insere uma linha em branco na definição de linha ou uma linha de cabeçalho em branco na definição de coluna. Este botão está disponível em uma definição de linha ou de coluna. |
+| [![Botão Inserir coluna.](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | Inserir uma coluna vazia na definição de coluna. Este botão está disponível em uma definição de coluna. |
+| [![Botão Bloquear.](./media/lockc130389.png)](./media/lockc130389.png)                           | Aplicar uma senha para o bloco de construção atual. Este botão está disponível para usuários com a função **Designer** ou **Administrador**. |
+| [![Botão Link de linha.](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | Abra a caixa de diálogo **Links de Linhas**, na qual você pode especificar as origens de definições de links de dados e as definições de árvores de relatórios. Este botão está disponível em uma definição de linha. |
+| [![Botão Promover.](./media/promotec130389.png)](./media/promotec130389.png)                  | Promover uma unidade da definição de hierarquia organizacional. Quando você seleciona uma unidade filho e clica em **Promover**, a unidade filho é movida para o mesmo nível da unidade pai. |
+| [![Botão Rebaixar.](./media/demotec130389.png)](./media/demotec130389.png)                     | Rebaixar uma unidade da definição de hierarquia organizacional. Quando você seleciona uma unidade e clica em **Rebaixar**, a unidade se torna um filho da unidade que a precede. |
+| [![Botão Expandir.](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | Expandir todas as unidades da definição de hierarquia organizacional no nível da unidade selecionada. |
+| [![Botão Recolher.](./media/collapsec130389.png)](./media/collapsec130389.png)               | Recolher a árvore de relatórios. |
+| [![Botão Ajuda.](./media/helpc130389.png)](./media/helpc130389.png)                           | Abrir Ajuda. |
 
 ### <a name="formatting-toolbar"></a>Barra de ferramentas de formatação
 
 A barra de ferramentas de formatação fornece acesso fácil a comandos de estilo. Esta barra de ferramentas inclui os botões a seguir.
 
-| Botão                                                                                                       | Descrição                                             |
+| Botão                                                                                                       | descrição                                             |
 |--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [![Botão Estilo da fonte](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar o estilo de fonte selecionado ao texto atual.      |
-| [![Botão Fonte](./media/fonttype.png)](./media/fonttype.png)                                                 | Defina o texto atual para a fonte selecionada.              |
-| [![Botão Tamanho da fonte](./media/fontsize.png)](./media/fontsize.png)                                            | Defina o texto atual para o tamanho de fonte selecionado (em pontos). |
-| [![Botão Negrito](./media/boldc130389.png)](./media/boldc130389.png)                                           | Tornar negrito o texto atual.                             |
-| [![botão Itálico](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Tornar itálico o texto atual.                           |
-| [![Botão Sublinhar](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Sublinhar o texto atual.                             |
-| [![Botão Diminuir recuo](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Diminuir o recuo do texto atual.                |
-| [![Botão Aumentar recuo](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar o recuo do texto atual.                |
-| [![Botão Cor do plano de fundo](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Alterar a cor de plano de fundo da célula atual.        |
-| [![Botão Cor da fonte](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Alterar a cor do texto atual.                   |
+| [![Botão Estilo da fonte.](./media/formattingc130389.png)](./media/formattingc130389.png)                         | Aplicar o estilo de fonte selecionado ao texto atual.      |
+| [![Botão Fonte.](./media/fonttype.png)](./media/fonttype.png)                                                 | Defina o texto atual para a fonte selecionada.              |
+| [![Botão Tamanho da fonte.](./media/fontsize.png)](./media/fontsize.png)                                            | Defina o texto atual para o tamanho de fonte selecionado (em pontos). |
+| [![Botão Negrito.](./media/boldc130389.png)](./media/boldc130389.png)                                           | Tornar negrito o texto atual.                             |
+| [![botão Itálico.](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | Tornar itálico o texto atual.                           |
+| [![Botão Sublinhar.](./media/underlinec130389.png)](./media/underlinec130389.png)                            | Sublinhar o texto atual.                             |
+| [![Botão Diminuir recuo.](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | Diminuir o recuo do texto atual.                |
+| [![Botão Aumentar recuo.](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | Aumentar o recuo do texto atual.                |
+| [![Botão Cor do plano de fundo.](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | Alterar a cor de plano de fundo da célula atual.        |
+| [![Botão Cor da fonte.](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | Alterar a cor do texto atual.                   |
 
 ### <a name="report-designer-toolbar"></a>Barra de ferramentas do designer de relatórios
 
 A barra de ferramentas do designer de relatórios fornece acesso rápido aos comandos para navegar no designer de relatórios. Esta barra de ferramentas inclui os botões a seguir.
 
-| Botão                                                                                              | Descrição |
+| Botão                                                                                              | descrição |
 |-----------------------------------------------------------------------------------------------------|-------------|
-| [![Botão Definição de relatório](./media/reportc130389.png)](./media/reportc130389.png)                 | Mostrar a definição de relatório que está listada no menu **Janela**. |
-| [![Botão Definição de linha](./media/rowc130389.png)](./media/rowc130389.png)                          | Exibe a definição que é atribuída à definição do relatório ativo. |
-| [![Botão Definição de coluna](./media/columnc130389.png)](./media/columnc130389.png)                 | Exibe a definição de coluna atribuída à definição de relatório ativo. |
-| [![Botão Definição de árvore de relatórios](./media/treec130389.png)](./media/treec130389.png)             | Exibe a definição de hierarquia organizacional atribuída à definição de relatório ativa. |
-| [![Botão Visualizador de Relatórios](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Inicia o visualizador de relatórios e mostra a versão mais recente do relatório gerado. Este botão está disponível a partir de uma definição de relatório se você gerou pelo menos um relatório. |
-| [![Botão Gerar relatório](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Gerar um relatório a partir da definição de relatório ativa. Este botão está disponível em uma definição de relatório. |
+| [![Botão Definição de relatório.](./media/reportc130389.png)](./media/reportc130389.png)                 | Mostrar a definição de relatório que está listada no menu **Janela**. |
+| [![Botão Definição de linha.](./media/rowc130389.png)](./media/rowc130389.png)                          | Exibe a definição que é atribuída à definição do relatório ativo. |
+| [![Botão Definição de coluna.](./media/columnc130389.png)](./media/columnc130389.png)                 | Exibe a definição de coluna atribuída à definição de relatório ativo. |
+| [![Botão Definição de árvore de relatórios.](./media/treec130389.png)](./media/treec130389.png)             | Exibe a definição de hierarquia organizacional atribuída à definição de relatório ativa. |
+| [![Botão Visualizador de Relatórios.](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Inicia o visualizador de relatórios e mostra a versão mais recente do relatório gerado. Este botão está disponível a partir de uma definição de relatório se você gerou pelo menos um relatório. |
+| [![Botão Gerar relatório.](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Gerar um relatório a partir da definição de relatório ativa. Este botão está disponível em uma definição de relatório. |
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

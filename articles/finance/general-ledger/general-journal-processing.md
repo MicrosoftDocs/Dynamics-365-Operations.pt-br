@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 76dbf5f8f2fc3b33077d559ffcef580a5295adb2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 59dda2207f002402f5153f9c77206b6c644f2679
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815563"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352849"
 ---
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
@@ -42,14 +42,14 @@ Na página **Nomes de diário**, você pode configurar os seguintes elementos:
 
 Um nome de diário pode ser usado somente para ajustes. Nesse caso, você pode especificar qual apenas o tipo de conta **Razão** é válido em todas as empresas. 
 
-[![Tipos de contas de controle de diário](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+[![Tipos de contas de controle de diário.](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 Um nome de diário pode ser usado somente para um segmento específico ou para um intervalo de contas principais. 
 
-[![Segmento de controle de diário](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Segmento de controle de diário.](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 A opção **Estorno automático** está disponível em diários gerais. Por exemplo, você tem um ajuste de competência em que o documento real ainda não foi processado, conforme mostrado na ilustração.
-[![Processamento do Diário geral](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
+[![Processamento do Diário geral.](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
 O suplemento do Microsoft Excel para a entrada de diário fornece um nível adicional de automação e facilita a entrada de dados. A ação **Abrir linhas no Excel** está disponível nas páginas **Diário geral** e **Comprovante de diário**. 
 

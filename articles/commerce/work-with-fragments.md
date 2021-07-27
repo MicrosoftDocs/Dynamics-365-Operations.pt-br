@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1fa55ab83562983273768895db61032ec7199fa6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 017cdc76368ae4f80131471a289aa03ab06c99bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793936"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350199"
 ---
 # <a name="work-with-fragments"></a>Trabalhar com fragmentos 
 
@@ -45,7 +45,7 @@ Todos os locais onde o fragmento é adicionado são referências ao fragmento de
 
 A ilustração a seguir mostra como os fragmentos podem ser usados para centralizar a criação das configurações de módulo compartilhadas através de um site de Comércio eletrônico.
 
-![Uma ilustração que mostra como os fragmentos podem ser usados para centralizar a criação de configurações de módulos compartilhados em um site de Comércio eletrônico](./media/fragment-figure1.png)
+![Uma ilustração que mostra como os fragmentos podem ser usados para centralizar a criação de configurações de módulos compartilhados em um site de Comércio eletrônico.](./media/fragment-figure1.png)
 
 ## <a name="create-a-fragment"></a>Criar um fragmento
 
@@ -62,7 +62,7 @@ Para converter um módulo configurado anteriormente a um fragmento reutilizável
 1. Na caixa de diálogo **Salvar como fragmento**, insira um nome para o fragmento.
 1. Selecione **OK** para salvar a configuração do módulo como um fragmento que possa ser adicionado a outras páginas.
 <!-- The following image shows how to save a module configuration as a fragment.-->
-<!--![A screen capture of how to save a module configuration as a fragment](./media/save-as-fragment.png)-->
+<!--![A screen capture of how to save a module configuration as a fragment.](./media/save-as-fragment.png)-->
 
 ### <a name="create-a-new-fragment"></a>Criar um fragmento
 
@@ -73,7 +73,7 @@ Para criar um novo fragmento no construtor de sites do Commerce, siga estas etap
 1. Selecione um tipo de módulo para o fragmento.
 
 <!-- The following image shows where to create a new fragment.-->
-<!-- ![A screen capture of where to create a new fragment](./media/fragment-nav-menu.png)-->
+<!-- ![A screen capture of where to create a new fragment.](./media/fragment-nav-menu.png)-->
 > [!TIP]
 > Ao selecionar um tipo de módulo de contêiner genérico, você obtém maior flexibilidade quando precisar atualizar e configurar seu fragmento posteriormente.
 
@@ -88,14 +88,14 @@ Para adicionar um fragmento a uma página no construtor de sites do Commerce, si
 1. No painel de estrutura de tópicos à esquerda ou diretamente no construtor de página visual, selecione um contêiner ou slot ao qual os módulos filho possam ser adicionados.
 1. Selecione as reticências (**...**) ao lado do nome do contêiner ou slot.  Como alternativa, se usar o construtor de página visual, selecione o símbolo de adição (**+**).  
 1. Selecione **Adicionar fragmento**.
-    <!-- ![A screen capture of how to add an existing fragment to a slot or container](./media/add-fragment.png)-->
+    <!-- ![A screen capture of how to add an existing fragment to a slot or container.](./media/add-fragment.png)-->
  
     > [!NOTE]
     > Se o contêiner ou slot não suportar novos módulos filhos, a opção **Adicionar fragmento** não ficará disponível.
     
 1. Na caixa de diálogo **Selecionar fragmento**, procure e selecione um fragmento a ser adicionado. Se nenhum fragmento disponível estiver listado, você poderá primeiro criar um fragmento a partir de um tipo de módulo suportado pelo contêiner ou slot selecionado.
 1. Selecione o fragmento desejado para adicionar ao contêiner ou ao slot na sua página.
-<!--    ![A screen capture of the fragment picker modal window](./media/fragment-picker.png)-->
+<!--    ![A screen capture of the fragment picker modal window.](./media/fragment-picker.png)-->
 
 > [!NOTE]
 > Os módulos permitidos em um contêiner ou slot são definidos pelo modelo da página ou pelas próprias definições dos módulos.

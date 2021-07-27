@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5644b5076aeda30d5535c0128497e267359583a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1f5c8ca5acab8f62637be8f6a04d982a3181ffc2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808199"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354219"
 ---
 # <a name="warranty-agreements"></a>Contratos de garantia
 
@@ -51,7 +51,7 @@ Um contrato da garantia pode incluir diversas linhas de contrato para cobrir a g
     3. No campo **Intervalo**, insira um número. Este campo define o número de períodos para o qual a garantia deve ser válida.
     4. No campo **Porcentagem**, insira a porcentagem de cobertura para a linha de garantia. O percentual indica quanto é coberto por sua empresa.
 
-![Página de garantia](media/01-warranty.png)
+![Página de garantia.](media/01-warranty.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ed28928b0f07833d5906a68f780e3bb5bbe0bfe9
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921208"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353531"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por grade de produto
 
@@ -56,7 +56,7 @@ Para configurar um produto mestre para oferecer suporte à conversão de unidade
     - **Produto** – Se você selecionar esse valor, você pode configurar uma conversão de unidade para os produtos mestres. Essa conversão de unidade será usada como um fallback para todas as grades de produto para as quais nenhuma conversão de unidade é definida.
     - **Grade de produto** – Se você selecionar esse valor, você pode configurar uma conversão de unidade para uma grade de produto específica. Use o campo **Grade do produto** para selecionar a grade.
 
-    ![Adicionando uma nova conversão de unidades](media/uom-new-conversion.png "Adicionando uma nova conversão de unidades")
+    ![Adicionando uma nova conversão de unidades.](media/uom-new-conversion.png "Adicionando uma nova conversão de unidades")
 
 1. Use os outros campos fornecidos para configurar a conversão de unidades.
 1. Selecione **OK** para salvar a nova conversão de unidades.

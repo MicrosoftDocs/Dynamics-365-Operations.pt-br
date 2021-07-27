@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5e18439fc0e91619cade33b83b87be0d5c4d1040
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 1d9470e4d517c5fb0b49ae2e26eb14220ea17aa3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349391"
 ---
 # <a name="enrich-a-category-landing-page"></a>Enriquecer uma página de aterrissagem da categoria
 
@@ -31,7 +31,7 @@ Comércio fornece uma página de aterrissagem de categoria padrão usada quando 
 
 Entretanto, em vez de usar a página da categoria padrão, você poderá usar uma página de aterrissagem de categoria "enriquecida" que tem mais conteúdo e mais elementos específicos. Um enriquecimento típico pode envolver adicionar conteúdo de marketing específico do conteúdo à página de categoria. O conteúdo deve incluir o posicionamento de produtos entre categoria para fins de venda, listas de editorial, imagens, vídeos e outro texto. Você também pode modificar a página da categoria padrão ou definir uma página diferente de categoria para uma categoria específica.
 
-![Página de aterrissagem da categoria enriquecida](./media/CategoryLandingPages.png)
+![Página de aterrissagem da categoria enriquecida.](./media/CategoryLandingPages.png)
 
 Na construtor de sites do Commerce, a página **Produtos** inclui uma lista de categorias do canal que são atribuídas ao site. Se o status **Enriquecido** é selecionado para uma página de categoria, essa página de categoria foi enriquecida. Se não, a página da categoria padrão e o conteúdo são usados para a categoria. Você pode visualizar as páginas de categoria de produto enriquecida para a categoria selecionando o nome da categoria.
 

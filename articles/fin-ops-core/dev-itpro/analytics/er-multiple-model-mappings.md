@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a774a0edf00a17be674b7a1bb07f6494e90554c3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 595de6292b81ca78bf08a66f61850c3b5a537396
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354382"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gerenciar vários mapeamentos derivados para uma única raiz de modelo
 
@@ -55,7 +55,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura**.
 
-    ![Analisar as configurações importadas na página Configurações](./media/er-multiple-model-mappings-image1.png)
+    ![Analisar as configurações importadas na página Configurações.](./media/er-multiple-model-mappings-image1.png)
 
 4. Analise o formato **Fatura de texto livre (Excel)**:
 
@@ -66,7 +66,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
     
        O formato de ER atual é configurado para usar a definição raiz **InvoiceCustomer** do **Modelo de fatura**. Quando esse formato é executado e a fonte de dados **Modelo** é chamada, o mapeamento do modelo configurado para a definição raiz **InvoiceCustomer** é usado para acessar os dados do aplicativo e preencher o modelo de dados.
 
-        ![Revisar a fonte de dados do modelo na página Designer de formato](./media/er-multiple-model-mappings-image2.png)
+        ![Revisar a fonte de dados do modelo na página Designer de formato.](./media/er-multiple-model-mappings-image2.png)
 
     6. Feche a página **Designer de formato**.
 
@@ -79,7 +79,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
         + O mapeamento de modelo **Fatura de cliente** é configurado para a definição raiz **InvoiceCustomer** do **Modelo de fatura**. Portanto, quando o formato de ER **Fatura de texto livre (Excel)** é executado, o mapeamento de modelo **Fatura de cliente** dessa configuração de ER pode ser escolhido para acessar dados de aplicativos e preencher o modelo de dados.
         + O mapeamento de modelo **Fatura de projeto** é configurado para a definição raiz **InvoiceProject** do **Modelo de fatura**. Portanto, quando o formato de ER **Fatura de projeto (Excel)** é executado, o mapeamento de modelo **Fatura de projeto** dessa configuração de ER pode ser escolhido para acessar dados de aplicativos e preencher o modelo de dados.
 
-        ![Mapeamento de modelo de fatura na página Mapeamento de modelo para fonte de dados](./media/er-multiple-model-mappings-image3.png)
+        ![Mapeamento de modelo de fatura na página Mapeamento de modelo para fonte de dados.](./media/er-multiple-model-mappings-image3.png)
 
     4. Feche a página **Modelo para mapeamento de fonte de dados**.
     5. Na guia rápida **Versões**, selecione **Excluir** para excluir todas as versões da configuração de ER posteriores à versão 240.175.
@@ -90,7 +90,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
     2. No Painel de Ação, selecione **Designer**.
     3. Na página **Mapear o mapeamento de fonte de dados**, observe que a configuração de mapeamento do modelo de ER atual contém o mapeamento de modelo **nvoiceProject** e que esse mapeamento de modelo está configurado para a definição raiz **InvoiceProject** do **Modelo de fatura**. Quando o formato de ER **Fatura de projeto (Excel)** é executado, selecione o mapeamento de modelo **InvoiceProject** dessa configuração de ER para acessar dados de aplicativos e preencher o modelo de dados.
 
-        ![Mapeamento de modelo de fatura de projeto na página Mapeamento de modelo para fonte de dados](./media/er-multiple-model-mappings-image4.png)
+        ![Mapeamento de modelo de fatura de projeto na página Mapeamento de modelo para fonte de dados.](./media/er-multiple-model-mappings-image4.png)
 
     4. Feche a página **Modelo para mapeamento de fonte de dados**.
     5. Na guia rápida **Versões**, selecione **Excluir** para excluir todas as versões da configuração de ER posteriores à versão 226.35.
@@ -115,7 +115,7 @@ Esta seção explica como [personalizar](er-quick-start3-customize-report.md#cus
 
 7. No Painel de Ação, selecione **Designer** para revisar os mapeamentos de modelo dessa configuração.
 
-    ![Analisar os mapeamentos de modelo de fatura de projeto na página Mapeamento de modelo para fonte de dados](./media/er-multiple-model-mappings-image5.png)
+    ![Analisar os mapeamentos de modelo de fatura de projeto na página Mapeamento de modelo para fonte de dados.](./media/er-multiple-model-mappings-image5.png)
 
     > [!TIP]
     > Agora, você pode abrir qualquer um dos componentes de mapeamento do modelo de ER da configuração de ER no designer para configurar a lógica personalizada. Para obter mais informações, consulte [Personalizar a configuração de mapeamento de modelo](er-quick-start3-customize-report.md#customize-the-model-mapping-configuration).
@@ -126,7 +126,7 @@ Agora, você tem as configurações **Mapeamento de modelo de fatura** e **Mapea
  
 > Existe mais de um mapeamento de modelo para o "\<model name\> (\<root descriptor\>)" modelo de dados nas configurações \<configuration names separated by commas\>. Defina uma das configurações como padrão.
 
-![Abrir o formato para edição na página Configurações](./media/er-multiple-model-mappings-image6.gif)
+![Abrir o formato para edição na página Configurações.](./media/er-multiple-model-mappings-image6.gif)
 
 ### <a name="customize-the-project-invoice-model-mapping-rdp-configuration"></a>Personalizar a configuração do mapeamento de modelo de fatura (RDP)
 
@@ -138,7 +138,7 @@ Agora, você tem as configurações **Mapeamento de modelo de fatura** e **Mapea
 6. Para a configuração **Mapeamento de modelo de fatura de projeto Litware** selecionada na árvore de configuração, defina a opção **Executar rascunho** como **Sim**.
 7. No Painel de Ação, selecione **Designer** para revisar os mapeamentos de modelo dessa configuração.
 
-    ![Analisar os mapeamentos de modelo de fatura de projeto personalizado na página Mapeamento de modelo para fonte de dados](./media/er-multiple-model-mappings-image7.png)
+    ![Analisar os mapeamentos de modelo de fatura de projeto personalizado na página Mapeamento de modelo para fonte de dados.](./media/er-multiple-model-mappings-image7.png)
 
 8. Feche a página **Modelo para mapeamento de fonte de dados**.
 
@@ -149,7 +149,7 @@ Agora, temos as configurações **Mapeamento de modelo de fatura**, **Mapeamento
 1. Na página **Configurações**, na árvore de configuração no painel esquerdo, selecione **Mapeamento de modelo de fatura Litware**.
 2. Defina a opção **Padrão do mapeamento de modelo** como **Sim**.
 
-    ![Configurar o mapeamento do modelo como o mapeamento de modelo padrão na página Configurações](./media/er-multiple-model-mappings-image8.png)
+    ![Configurar o mapeamento do modelo como o mapeamento de modelo padrão na página Configurações.](./media/er-multiple-model-mappings-image8.png)
 
     Por causa dessa configuração, o mapeamento de modelo **Cópia da fatura de cliente** é usado quando você executa a **Fatura de texto livre (Excel)** ou quando você a edita ou valida. O mapeamento de modelo **Fatura de cliente** da configuração **Mapeamento de modelo de fatura** é ignorada.
 
@@ -167,7 +167,7 @@ Agora, temos as configurações **Mapeamento de modelo de fatura**, **Mapeamento
 5. Na página **Mapeamento de modelo para fonte de dados**, selecione **Editar** para tornar a página editável, conforme necessário.
 6. Selecione o mapeamento de modelo **Cópia da fatura de projeto** e marque a caixa de seleção **É excluído** para ele.
 
-    ![Configurar o mapeamento do modelo como excluído virtualmente na página Mapeamento de modelo para fonte de dados](./media/er-multiple-model-mappings-image9.png)
+    ![Configurar o mapeamento do modelo como excluído virtualmente na página Mapeamento de modelo para fonte de dados.](./media/er-multiple-model-mappings-image9.png)
 
     Por causa dessa configuração, a configuração **Mapeamento de modelo de fatura Litware** é tratada como se não tivesse nenhum mapeamento de modelo para a definição raiz **InvoiceProject**. O mapeamento de modelo **Cópia de InvoiceProject** é emitido por padrão. A configuração **Mapeamento de modelo de fatura de projeto Litware**, que contém este mapeamento de modelo, é marcada como a configuração padrão. Como ela está marcada como padrão, ela tem uma prioridade maior do que o mapeamento de modelo **InvoiceProject** da configuração **Mapeamento de modelo de fatura de projeto (RDP)**.
 

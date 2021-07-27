@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 3d197046bd547757f32712a50949b41897f6fedf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020082"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343805"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>O imposto é lançado na conta contábil errada no comprovante
 
@@ -30,26 +30,26 @@ Durante o lançamento, o imposto pode ser lançado na conta contábil errada no 
 
 1. Na página **Transações de comprovante**, selecione a transação com a qual você deseja trabalhar e, em seguida, selecione **Imposto lançado**.
 
-    [![Botão Imposto lançado na página Transações de comprovante](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
+    [![Botão Imposto lançado na página Transações de comprovante.](./media/tax-posted-to-wrong-ledger-account-Picture1.png)](./media/tax-posted-to-wrong-ledger-account-Picture1.png)
 
 2. Revise o valor no campo **Código do imposto**. Neste exemplo, é **IVA 19**.
 
-    [![Campo Código do imposto na página Imposto lançado](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
+    [![Campo Código do imposto na página Imposto lançado.](./media/tax-posted-to-wrong-ledger-account-Picture2.png)](./media/tax-posted-to-wrong-ledger-account-Picture2.png)
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Verificar o grupo de lançamentos contábeis do código de imposto
 
 1. Vá para **Imposto** \> **Impostos indiretos** \> **Imposto** \> **Códigos de imposto**.
 2. Localize e selecione o código de imposto e, em seguida, revise o valor no campo **Grupo de lançamentos contábeis**. Neste exemplo, é **IVA**.
 
-    [![Campo Grupo de lançamentos contábeis na página Códigos de imposto](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
+    [![Campo Grupo de lançamentos contábeis na página Códigos de imposto.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)
 
 3. O valor no campo **Grupo de lançamentos contábeis** é um link. Para exibir os detalhes da configuração do grupo, selecione o link. Como alternativa, selecione e segure ou clique com o botão direito do mouse no campo e, em seguida, selecione **Exibir detalhes**.
 
-    [![Comando Exibir detalhes](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
+    [![Comando Exibir detalhes.](./media/tax-posted-to-wrong-ledger-account-Picture4.png)](./media/tax-posted-to-wrong-ledger-account-Picture4.png)
 
 4. No campo **Imposto a pagar**, verifique se o número da conta está correto, de acordo com o tipo de transação. Se não estiver, selecione a conta correta para o lançamento. Neste exemplo, o imposto da ordem de venda deve ser lançado na conta de imposto a pagar 222200.
 
-    [![Campo Imposto a pagar na página Grupos de lançamentos contábeis](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
+    [![Campo Imposto a pagar na página Grupos de lançamentos contábeis.](./media/tax-posted-to-wrong-ledger-account-Picture5.png)](./media/tax-posted-to-wrong-ledger-account-Picture5.png)
 
     A tabela a seguir fornece informações sobre cada campo na página **Grupos de lançamentos contábeis**.
 
@@ -71,11 +71,11 @@ No código, a conta de lançamento é determinada pela dimensão contábil. A di
 
 1. Para uma ordem de venda, adicione um ponto de interrupção nos métodos **Tax::saveAndPost()** e **Tax::post()**. Preste atenção ao valor de **\_ledgerDimension**.
 
-    [![Exemplo de código de ordem de venda com um ponto de interrupção](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
+    [![Exemplo de código de ordem de venda com um ponto de interrupção.](./media/tax-posted-to-wrong-ledger-account-Picture6.png)](./media/tax-posted-to-wrong-ledger-account-Picture6.png)
 
     Para uma ordem de compra, adicione um ponto de interrupção nos métodos **TaxPost::saveAndPost()** e **TaxPost::postToTaxTrans()**. Preste atenção ao valor de **\_ledgerDimension**.
 
-    [![Exemplo de código de ordem de compra com um ponto de interrupção](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
+    [![Exemplo de código de ordem de compra com um ponto de interrupção.](./media/tax-posted-to-wrong-ledger-account-Picture7.png)](./media/tax-posted-to-wrong-ledger-account-Picture7.png)
 
 2. Execute a consulta SQL a seguir para localizar o valor de exibição da conta no banco de dados, com base na ID de registro salva pela dimensão contábil.
 
@@ -83,7 +83,7 @@ No código, a conta de lançamento é determinada pela dimensão contábil. A di
     select * from DIMENSIONATTRIBUTEVALUECOMBINATION where recid={the value of _ledgerDimension}
     ```
 
-    [![Valor de exibição da ID de registro](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
+    [![Valor de exibição da ID de registro.](./media/tax-posted-to-wrong-ledger-account-Picture8.png)](./media/tax-posted-to-wrong-ledger-account-Picture8.png)
 
 3. Examine a pilha de chamadas para saber onde o valor **_ledgerDimension** foi atribuído. Normalmente, o valor é de **TmpTaxWorkTrans**. Nesse caso, você deve adicionar um ponto de interrupção em **TmpTaxWorkTrans::insert()** e **TmpTaxWorkTrans::update()** para saber onde o valor foi atribuído.
 

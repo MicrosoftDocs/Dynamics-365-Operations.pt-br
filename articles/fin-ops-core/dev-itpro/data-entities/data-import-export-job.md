@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c660cf5aba786fb6f84776f6443f658ebbfa25d5
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937321"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351010"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -106,7 +107,7 @@ Há duas exibições de mapeamento: **Visualização de mapeamento**, que é a e
 
 Você pode gerar um mapeamento na página, selecionando **Gerar mapeamento de origem**. Um mapeamento gerado atua como um mapeamento automático. Portanto, você deve mapear manualmente todos os campos não mapeados.
 
-![Mapeamento de dados](./media/dixf-map.png)
+![Mapeamento de dados.](./media/dixf-map.png)
 
 ## <a name="verify-the-security-for-your-import-or-export-job"></a>Verificar a segurança para seu trabalho de importação ou de exportação
 O acesso ao espaço de trabalho **Gerenciamento de dados** pode ser restrito, de forma que os usuários não administradores possam acessar somente os trabalhos de dados específicos. O acesso a um trabalho de dados implica em acesso completo ao histórico da execução desse trabalho e acesso a tabelas de preparo. Portanto, você deve garantir que os controles de acesso apropriados estão em vigor, ao criar um trabalho de dados.
@@ -132,7 +133,7 @@ Você pode executar um trabalho uma vez, selecionando o botão **Importar** ou *
 ## <a name="validate-that-the-job-ran-as-expected"></a>Validar se o trabalho foi executado conforme esperado
 O histórico de trabalho está disponível para solução de problemas e investigação sobre trabalhos de importação e exportação. As execuções do histórico do trabalho são organizadas por intervalos de tempo.
 
-![Intervalos do histórico de trabalho](./media/dixf-job-history.md.png)
+![Intervalos do histórico de trabalho.](./media/dixf-job-history.md.png)
 
 Cada execução de trabalho fornece os seguintes detalhes:
 

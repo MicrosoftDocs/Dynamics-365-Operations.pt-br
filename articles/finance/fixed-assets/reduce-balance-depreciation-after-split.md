@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-11-17
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 056808b7d4d490bc4d60aa058108d159c1d4867c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3a8fe37ae97cf3b14f5121274603cd30de3304b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826242"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356766"
 ---
 # <a name="reduce-balance-depreciation-after-a-split"></a>Reduzir depreciação por declínio após uma divisão
 
@@ -37,7 +37,7 @@ Por exemplo, as seguintes condições estão em vigor:
 - A depreciação do primeiro ano fiscal é igual a US$ 18.000, a depreciação mensal é igual a US$ 150 e o ativo é depreciado até novembro de 2019, no valor de US$ 738,75.
 - Em novembro de 2019, 80% do ativo é dividido para outro ativo fixo.
 
-[![Reduzir depreciação por declínio após uma divisão](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
+[![Reduzir depreciação por declínio após uma divisão.](./media/reduce-balance-depreciation-after-split.png)](./media/reduce-balance-depreciation-after-split.png)
 
 O valor a ser depreciado para o ativo original é de US$ 1.822,25. Esse valor é igual ao NBV antes da transação dividida ser lançada (US$ 9.111,25), além do ajuste de aquisição que é gerado durante o lançamento da transação dividida (-US$ 8.000), mais o ajuste de depreciação gerado durante a transação dividida (US$ 711). Portanto, a depreciação para o segundo ano é de (1.822,25 × 18%) ÷ 12 = US$ 27,33.
 

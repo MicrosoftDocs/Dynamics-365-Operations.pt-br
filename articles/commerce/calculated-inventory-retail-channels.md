@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 96a600279b7a90d6626d23ee8868de13e9dd0f14
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270876"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350465"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular disponibilidade de estoque para canais de varejo
 
@@ -105,7 +105,7 @@ Na versão 10.0.9 e anterior do Commerce, a operação **Pesquisa de estoque** d
 
 Quando configurado e gerenciado corretamente, o cálculo de canal pode fornecer uma estimativa mais confiável do estoque atual da loja, já que usa os dados transacionais que estão no banco de dados do canal do Commerce, mas sobre os quais o headquarters talvez ainda não tenha informações. Por exemplo, se você usar a chamada de serviço em tempo real existente em pesquisas de estoque no PDV, o headquarters provavelmente ainda não terá informações sobre uma venda cash-and-carry de um produto que acabou de ocorrer. Sendo assim, o valor do estoque disponível que o headquarters devolve em relação a esse produto provavelmente excederá o estoque disponível real da loja em uma unidade. Entretanto, se o cálculo de canal for usado, a venda cash-and-carry poderá ser levada em consideração no cálculo e deduzida do valor disponível que é mostrado. Embora os valores fornecidos pelo cálculo de canal e pela chamada de serviço em tempo real sejam apenas estimativas do estoque disponível, é muito mais provável que o valor fornecido pelo cálculo seja preciso em relação à loja atual.
 
-Para configurar a operação **Pesquisa de estoque** no PDV no headquarters para usar a lógica de cálculo do canal e desativar a chamada de serviço em tempo real, siga estas etapas.
+Para configurar a operação do **Pesquisa de inventário** do PDV na matriz do Commerce para usar a lógica de cálculo no canal e desativar as chamadas de serviço em tempo real para pesquisas de estoque no aplicativo de PDV, primeiro você deve habilitar o recurso **Cálculo otimizado de disponibilidade de produtos** pelo espaço de trabalho **Gerenciamento de recursos na Matriz do Commerce** e siga estas etapas.
 
 1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
 1. Selecione um perfil de funcionalidade.

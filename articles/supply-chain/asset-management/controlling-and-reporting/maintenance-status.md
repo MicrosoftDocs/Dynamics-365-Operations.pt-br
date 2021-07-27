@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f3d6f86c5052c845c9c8aad1e4437f4196f78b50
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b0c8b6a81fd863d66ca01689262f0ec08a94d76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808607"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354964"
 ---
 # <a name="maintenance-status"></a>Status de manutenção
 
@@ -57,13 +57,13 @@ No Gerenciamento de Ativos, você pode fazer um cálculo para obter uma visão g
 
 Na captura de tela abaixo, os botões **Ano** e **Mês** foram ativados. Com essas opções de **Agrupar por** selecionadas, você terá uma visão geral mensal da carga de trabalho e da produtividade relacionada às solicitações de manutenção e às ordens de serviço. 
 
-![Exemplo de carga de trabalho mensal](media/13-controlling-and-reporting.png)
+![Exemplo de carga de trabalho mensal.](media/13-controlling-and-reporting.png)
 
 ## <a name="example-2"></a>Exemplo 2
 
 Na captura de tela abaixo, foram adicionadas informações sobre locais funcionais. Agora, é possível comparar a carga de trabalho e a produtividade entre os locais funcionais, que podem representar locais geográficos, fábricas ou áreas de trabalho. 
 
-![Exemplo de carga de trabalho mensal com locais funcionais](media/14-controlling-and-reporting.png)
+![Exemplo de carga de trabalho mensal com locais funcionais.](media/14-controlling-and-reporting.png)
 
 
 

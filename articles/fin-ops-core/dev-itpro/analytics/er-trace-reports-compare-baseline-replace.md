@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 49ca9a878b9289b02f9bb9346190425197e0ceea
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: f6eaf5f9cbc6eed09f6a3067826f7fa15fb94b2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117026"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345855"
 ---
 # <a name="improve-tracing-the-results-of-generated-er-reports-to-compare-with-baseline-values"></a>Melhorar rastreamento dos resultados dos relatórios de ER gerados para comparar com valores de linha de base
 
@@ -57,7 +57,7 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas do
 
 A linha de base foi adicionada para o formato selecionado **Formatar para aprender linhas de base de ER**, mas as regras de linha de base não foram adicionadas ainda para esta linha de base.
 
-![Página de linhas de base de formato de relatório eletrônico, ainda não há regras](media/GER-BaselineSample-AddBaseline2.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
+![Página de linhas de base de formato de relatório eletrônico, ainda não há regras.](media/GER-BaselineSample-AddBaseline2.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
 
 ### <a name="make-a-new-baseline-rule"></a>Crie uma nova regra de linha de base
 
@@ -70,7 +70,7 @@ A linha de base foi adicionada para o formato selecionado **Formatar para aprend
 7. Selecione **OK**.
 8. Selecione **Linhas de base**.
 
-    ![Página de linhas de base do formato de relatório eletrônico, linhas de base selecionadas](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
+    ![Página de linhas de base do formato de relatório eletrônico, linhas de base selecionadas.](media/GER-BaselineSample-ReviewAddedBaselineLine.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
 
     O arquivo de saída gerado foi automaticamente anexado à linha de base para do formato de ER executado. A regra de linha base foi adicionada automaticamente a esta linha de base e também contém a referência ao arquivo anexado.
 
@@ -110,14 +110,14 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no
 13. Selecione **Salvar** e **Testar**.
 14. Selecione **Testar** novamente para repetir o teste da expressão configurada.
 
-    ![Página Designer de fórmulas](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Captura de tela de página Designer de fórmulas")
+    ![Página Designer de fórmulas.](media/GER-BaselineSample-DefineProcessingDTExpression.PNG "Captura de tela de página Designer de fórmulas")
 
     > [!NOTE]
     > A guia **Resultado de teste** mostra que a expressão configurada retorna uma data e um valor de tempo diferentes sempre que chamada.
 
 15. Feche a página **Designer de fórmulas** e selecione **Salvar**.
 
-    ![Página do designer de formatos](media/GER-BaselineSample-FormatMappingDesign2.PNG "Captura de tela da página Designer de formato")
+    ![Página do designer de formatos.](media/GER-BaselineSample-FormatMappingDesign2.PNG "Captura de tela da página Designer de formato")
 
 16. Feche a página **Designer de formato**.
 
@@ -128,7 +128,7 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no
 3. Na lista de linhas de base, selecione a linha de base que está configurada no formato **Formato para aprender linhas de base de ER**.
 4. Na Guia Rápida **Linhas de base**, selecione **Excluir** para remover a regra de linha base que você configurou antes.
 
-![Página de linhas de base de formato de relatório eletrônico, excluída](media/GER-BaselineSample-AddBaseline3.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
+![Página de linhas de base de formato de relatório eletrônico, excluída.](media/GER-BaselineSample-AddBaseline3.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
 
 ### <a name="define-replacements-for-bindings-of-designed-er-format"></a>Defina substituições para associações de formato de ER criado
 
@@ -136,7 +136,7 @@ Para concluir as etapas desse exemplo, primeiro você deve concluir as etapas no
 2. Na árvore de componentes de formato, expanda **Saída**, expanda **Saída\\Documento** e marque a caixa de seleção **Saída\\Documento\\ProcessamentoDataHora**.
 3. Selecione **OK**.
 
-![Página de linhas de base de formato de relatório eletrônico, componentes](media/GER-BaselineSample-AddBaseline4.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
+![Página de linhas de base de formato de relatório eletrônico, componentes.](media/GER-BaselineSample-AddBaseline4.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
 
 O componente de formato de ER selecionado foi adicionado à lista de componentes na Guia Rápida **Substituições**. Quando o formato de ER básico for executado no modo de depuração, a associação de formato para cada componentes será substituída pela associação que é exibida na coluna **Associação**. Para alterar a associação padrão de um componente listado na Guia Rápida **Substituições**, selecione **Editar**.
 
@@ -144,7 +144,7 @@ O componente de formato de ER selecionado foi adicionado à lista de componentes
 
 Siga as etapas da seção "Exemplo: automatize a configuração de regras de linha de base" apresentada antes neste tópico. Uma notificação avisa que o arquivo de saída foi gerado usando configurações de linha de base e que houve uma substituição forçada das associações de formato.
 
-![Notificação da página Configurações](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Captura de tela da notificação na página Configurações")
+![Notificação da página Configurações.](media/GER-BaselineSample-FormatRunToMakeBaselineFile4.PNG "Captura de tela da notificação na página Configurações")
 
 ### <a name="suppress-warnings-about-the-replacement-of-format-bindings"></a>Suprima avisos sobre a substituição de associações de formato
 
@@ -192,11 +192,11 @@ As configurações de linha base exportadas podem ser importadas em um ambiente 
 
 Para importar configurações de linha base de um arquivo XML armazenado localmente, na página **Linhas de base de formato de relatório eletrônico**, selecione **Importar** e selecione **Procurar** para selecionar o arquivo XML.
 
-![Caixa de diálogo Importar configurações de linha de base](media/GER-BaselineSample-ImportBaseline1.PNG "Captura de tela da caixa de diálogo Importar configurações de linha de base")
+![Caixa de diálogo Importar configurações de linha de base.](media/GER-BaselineSample-ImportBaseline1.PNG "Captura de tela da caixa de diálogo Importar configurações de linha de base")
 
 Para importar configurações de linha base de um arquivo XML armazenado no Microsoft SharePoint Server, com base nas configurações atuais de gerenciamento de documentos e no tipo de documento selecionado, na página **Linhas de base do formato de relatório eletrônico**, selecione **Importar da origem**. Depois, selecione o tipo de documento e o arquivos XML. O tipo de documento necessário para acessar a pasta do SharePoint deve ser configurado com antecedência.
 
-![Caixa de diálogo Importar da origem](media/GER-BaselineSample-ImportBaseline2.PNG "Captura de tela da caixa de diálogo Importar da origem")
+![Caixa de diálogo Importar da origem.](media/GER-BaselineSample-ImportBaseline2.PNG "Captura de tela da caixa de diálogo Importar da origem")
 
 > [!NOTE]
 > Você pode usar o gravador de tarefas para registrar as etapas para selecionar o tipo de documento necessário e o nome de arquivo na caixa de diálogo **Importar da origem**. Assim, você pode manter configurações necessárias de linha base no SharePoint Server e automaticamente importá-las, executando uma gravação de tarefas ao realizar testes automatizados usando a Regression Suite Automation Tool.

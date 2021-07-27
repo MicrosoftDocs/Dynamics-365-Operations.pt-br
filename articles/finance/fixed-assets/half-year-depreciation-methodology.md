@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-08-17
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: d0e33128c37e970ebf5af87bd601ae30aef96952
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a8dd3d8c6b92be9f22573f463aa96b13d9e3418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818574"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355523"
 ---
 # <a name="half-year-depreciation-convention-methodology"></a>Metodologia de convenção de depreciação semestral
 
@@ -36,7 +36,7 @@ O primeiro ano de serviço terminará em dezembro de 2020, o que significa que o
 > Depreciação anual 50.000/5 = 10.000 depreciação mensal 10.000/12 = 833,33 <br>
 > A depreciação do primeiro ano 10.000/2 = 5.000 e a depreciação mensal subsequente 5.000/9 = 555,56
 
-   [![Agenda de depreciação para convenção de depreciação semestral](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
+   [![Agenda de depreciação para convenção de depreciação semestral.](./media/half-yr-dprectn-cnvntn.png)](./media/half-yr-dprectn-cnvntn.png)
 
 Os períodos de depreciação estendidos adicionados pela convenção semestral fornecem uma alocação mais precisa da depreciação. A convenção semestral representa as despesas de depreciação de forma mais uniforme, o que é útil para relatórios no demonstrativo de lucros e perdas.
 

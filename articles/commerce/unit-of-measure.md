@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 7d338ba207c9a101f5e224ca66555b16a457bcbc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 076d4a68362dbf11c5fcf223a836f075d07e27a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271392"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350319"
 ---
 # <a name="apply-unit-of-measure-settings"></a>Aplicar configurações de unidade de medida
 
@@ -32,7 +32,7 @@ Um produto pode ser vendido em unidades diferentes, como "cada", "par" e "dúzia
 
 No exemplo da ilustração a seguir, uma unidade de medida de venda de **ea** (cada) foi configurada para um produto na matriz do Commerce.
 
-![Exemplo de um produto configurado com uma unidade de medida na matriz do Commerce](./media/Productunit-headquarters.PNG)
+![Exemplo de um produto configurado com uma unidade de medida na matriz do Commerce.](./media/Productunit-headquarters.PNG)
 
 > [!NOTE]
 > O suporte para a aplicação e a exibição da unidade de medida está disponível a partir do Commerce versão 10.0.19.
@@ -54,11 +54,11 @@ Os módulos que usam as configurações de unidade de medida incluem os módulos
 
 No exemplo da ilustração a seguir, uma página de detalhes do produto (PDP) mostra a unidade de medida (**ea**) de um produto.
 
-![Exemplo de uma PDP que mostra a unidade de medida](./media/Productunit-PDP.png)
+![Exemplo de uma PDP que mostra a unidade de medida.](./media/Productunit-PDP.png)
 
 No exemplo da ilustração a seguir, um módulo de coleção de produtos mostra a unidade de medida (**ea**) de um produto.
 
-![Exemplo de um módulo de coleção de produtos que mostra a unidade de medida](./media/Productunit-productcollection.png)
+![Exemplo de um módulo de coleção de produtos que mostra a unidade de medida.](./media/Productunit-productcollection.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

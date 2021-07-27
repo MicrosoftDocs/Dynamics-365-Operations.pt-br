@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6f74602cafe3f0848a9e03f17300ca6242fe1545
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 53d01756d803a0ebc9eb366deded4bf3bef3b1f6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893971"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351737"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Baixar configurações ER do repositório global de serviço de configuração
 
@@ -40,7 +40,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 3. Na seção **Provedores de configuração**, selecione o bloco **Microsoft**.
 3. No bloco **Microsoft**, selecione **Repositórios**.
 
-    ![Espaço de trabalho de relatório eletrônico](./media/er-download-configurations-global-repo-er-workspace.png)
+    ![Espaço de trabalho de relatório eletrônico.](./media/er-download-configurations-global-repo-er-workspace.png)
 
 4. Na página **Repositórios de configuração**, na grade, selecione o repositório existente do tipo **Global**. Se esse repositório não aparecer na grade, siga estas etapas:
 
@@ -52,7 +52,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 
 5. Selecione **Abrir** para exibir a lista de configurações de ER para o repositório selecionado.
 
-    ![Página Repositórios de configuração](./media/er-download-configurations-global-repo-repositories-list.png)
+    ![Página Repositórios de configuração.](./media/er-download-configurations-global-repo-repositories-list.png)
 
 ## <a name="import-a-single-configuration"></a>Importar uma única configuração
 
@@ -63,7 +63,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
     > [!NOTE]
     > O botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância atual do Finance.
 
-    ![Página do repositório de configuração](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Página do repositório de configuração.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importar configurações filtradas
 
@@ -77,7 +77,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 4. Na FastTab **Configurações**, selecione **Importar** para baixar as configurações filtradas do repositório global para a instância atual.
 5. Na guia **Configurações**, selecione **Redefinir filtro** para limpar as condições de seleção especificadas.
 
-    ![Página do repositório de configuração](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Página do repositório de configuração.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Dependendo das configurações de ER, as configurações são validadas depois que são importadas. Talvez você seja notificado sobre problemas de inconsistências descobertos. Antes de poder usar a versão de configuração importada, você precisa resolver os problemas. Para obter mais informações, consulte a lista de recursos relacionados deste tópico.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: f57a20ed56a761894b2cedf8835310dac098b098
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7e6ac62b2b289ef818a083b9ae4d1d74946ae3fc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750609"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346487"
 ---
 # <a name="integrated-vendor-master"></a>Fornecedor mestre integrado
 
@@ -39,11 +39,11 @@ Nas duas abordagens, os dados do fornecedor são integrados entre os portais do 
 
 Se não quiser armazenar dados do fornecedor na tabela **Conta/Contato** no Dataverse, você poderá usar o novo design de fornecedor.
 
-![Fluxo de dados do fornecedor](media/dual-write-vendor-data-flow.png)
+![Fluxo de dados do fornecedor.](media/dual-write-vendor-data-flow.png)
 
 Se quiser continuar armazenando dados do fornecedor na tabela **Conta/Contato**, você poderá usar o design de fornecedor estendido. Para usar o design de fornecedor estendido, você deverá configurar os fluxos de trabalho do fornecedor no pacote da solução de gravação dupla. Para obter mais informações, consulte [Alternar entre designs de fornecedor](vendor-switch.md).
 
-![Fluxo de dados estendidos do fornecedor](media/dual-write-vendor-detail.jpg)
+![Fluxo de dados estendidos do fornecedor.](media/dual-write-vendor-detail.jpg)
 
 > [!TIP]
 > Se você estiver usando os portais do Power Apps para fornecedores de autoatendimento, as informações do fornecedor poderão entrar diretamente nos aplicativos do Finance and Operations.

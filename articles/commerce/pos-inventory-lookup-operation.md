@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.openlocfilehash: 873c6413c14d2ee8315c149ee9c495bb59dbd930
-ms.sourcegitcommit: 11ca5863175150b6c39f47a9322caa2186727a26
+ms.openlocfilehash: c0f753febb0d347015fde1374148835f90df55a3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025439"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353771"
 ---
 # <a name="inventory-lookup-operation-in-pos"></a>Operação de consulta de inventário no POS
 
@@ -45,7 +45,10 @@ Para um produto individual, a operação de consulta de inventário fornece uma 
 
 A exibição em lista de locais inclui todas as lojas e armazéns que são configuradas nos grupos de atendimento aos quais a loja atual é vinculada, conforme mostrado na seguinte imagem de exemplo.
 
-![Exibição em lista da operação de consulta de inventário](media/inventory-lookup-list-view.png)
+![Exibição em lista da operação de consulta de inventário.](media/inventory-lookup-list-view.png)
+
+> [!NOTE]
+> Certifique-se de que o armazenamento atual esteja incluído nos grupos de preenchimento associados.
 
 As seguintes ações estão disponíveis na barra do aplicativo de POS:
 
@@ -65,7 +68,7 @@ As seguintes ações estão disponíveis na barra do aplicativo de POS:
 - **Adicionar à transação** - Esta ação adiciona o produto ao carrinho e redireciona o usuário para a tela de transação.
 
 > [!NOTE]
-> Para uma classificação baseada em localizadas, a distância entre uma localização e a loja atual é determinada pelas coordenadas (latitude e longitude) definidas na matriz do Commerce. Para uma loja, as informações de localização são definidas no endereço principal da unidade operacional associada à loja. Para um armazém que não é loja, as informações de localização são definidas no endereço do armazém. Se as coordenadas da loja atual não estiverem devidamente definidas, a opção de classificação baseada na localização exibirá a loja atual no topo da lista e, então, classificará outros locais por nome.
+> Para uma classificação baseada em localizadas, a distância entre uma localização e a loja atual é determinada pelas coordenadas (latitude e longitude) definidas na matriz do Commerce. Para uma loja, as informações de localização são definidas no endereço principal da unidade operacional associada à loja. Para um armazém que não é loja, as informações de localização são definidas no endereço do armazém. Se as coordenadas da loja atual não estiverem definidas, a opção de classificação baseada na localização exibirá a loja atual no topo da lista e, então, classificará outros locais por nome.
 
 > [!NOTE]
 > As ações **Exibir disponibilidade da loja**, **Exibir localização da loja**, **Retirar na loja** e **Enviar produto** não estão disponíveis para locais que não são lojas.
@@ -76,7 +79,7 @@ Para um produto principal com variantes, a operação de consulta de inventário
 
 A imagem de exemplo a seguir mostra a exibição em matriz da consulta de inventário no POS.
 
-![Exibição em matriz da operação de consulta de inventário](media/inventory-lookup-matrix-view.png)
+![Exibição em matriz da operação de consulta de inventário.](media/inventory-lookup-matrix-view.png)
 
 Na exibição em matriz, cada célula representa uma variante individual e exibe um valor de inventário em mãos (fisicamente disponível) no canto direito inferior, bem como os valores **reservado** (fisicamente reservado) e **encomendado** (encomendado no total) no canto superior esquerdo. A tabela a seguir explica o significado dos diversos valores em mãos.
 
@@ -103,7 +106,7 @@ Os usuários do POS podem acessar a operação de consulta do inventário em out
 
 A imagem de exemplo a seguir mostra os resultados da consulta de inventário em uma PDP no POS.
 
-![Consulta de inventário na página de detalhes do produto](media/inventory-lookup-from-product-details-page.png)
+![Consulta de inventário na página de detalhes do produto.](media/inventory-lookup-from-product-details-page.png)
 
 Na PDP de um produto principal, você pode usar a ação **Exibir todas as variantes** na barra do aplicativo para iniciar a exibição em matriz da consulta do inventário que exibe informações de disponibilidade na loja atual de todas as variantes de um produto. Para um produto individual, a PDP exibe o valor em mãos do inventário (fisicamente disponível) desse produto para a loja atual. Adicionalmente, você pode selecionar na **Inventário de outras lojas** para realizar a operação de consulta de inventário e verificar a disponibilidade no inventário de um produto entre todas as lojas ou armazéns.
 

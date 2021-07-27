@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: c62290506d32579d926ad1a1d6f090845c0d0f26
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: ce246a51c75cc322f1cfea70c47f00c7dd750ea2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216603"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346611"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e dos participantes
 
@@ -41,7 +41,7 @@ O modelo de participante geralmente é usado para representar relacionamentos m�
 
 A ilustração a seguir mostra o modelo de dados de participante.
 
-![Modelo de dados de participante](media/party-gab-image1.png)
+![Modelo de dados de participante.](media/party-gab-image1.png)
 
 > [!TIP]
 > Ao tentar criar um novo registro de conta, use o campo **Participante** para procurar o registro pelo nome. Dessa forma, se você encontrar o registro, bastará selecioná-lo. O sistema preenche automaticamente todos os dados do participante. Não é necessário definir manualmente todos os campos obrigatórios. Esse comportamento pode ser encontrado nas páginas **Conta**, **Contato** e **Fornecedor**.
@@ -58,7 +58,7 @@ Dependendo do contexto comercial, uma pessoa ou uma organização pode executar 
 
 A ilustração a seguir mostra o modelo de dados para o catálogo de endereços global.
 
-![Modelo de dados do catálogo de endereços global](media/party-gab-image2.png)
+![Modelo de dados do catálogo de endereços global.](media/party-gab-image2.png)
 
 ## <a name="contact"></a>Contato
 
@@ -94,7 +94,7 @@ Esses relacionamentos estão registrados na tabela **Contato do participante**. 
     + Se você selecionar um valor no campo **Contato Associado**, estará selecionando um contato distribuído do tipo **Pessoa**.
     + Se você selecionar um valor no campo **Conta Associada** ou **Fornecedor Associado**, estará selecionando uma organização.
 
-    ![Guia Organizações Associadas na página Contato](media/party-gab-image3.png)
+    ![Guia Organizações Associadas na página Contato.](media/party-gab-image3.png)
 
     Independentemente da sua seleção, a associação é criada no nível do participante, ela se aplica a todas as funções do participante e ela é armazenada na entidade **Contato do participante**.
 
@@ -109,7 +109,7 @@ Quando você abre uma linha **Contato** em que o campo **É Cliente** ou **É Fo
 
 Uma nova guia **Endereços** foi apresentada nas páginas **Conta**, **Contato** e **Fornecedor**. Esta guia dá suporte a vários endereços postais usando uma grade, conforme mostrado na ilustração a seguir.
 
-![Grade para endereços postais](media/party-gab-image4.png)
+![Grade para endereços postais.](media/party-gab-image4.png)
 
 A grade inclui as seguintes colunas:
 
@@ -121,7 +121,7 @@ Você pode usar o botão **Novo Endereço** acima da grade para criar o número 
 
 Os campos **Endereço 1** e **Endereço 2** na guia **Resumo** da página **Conta** correspondem aos endereços **Entrega** e **Fatura**, respectivamente.
 
-![Guia Resumo para endereços postais](media/party-gab-image5.png)
+![Guia Resumo para endereços postais.](media/party-gab-image5.png)
 
 Os campos **Endereço 1**, **Endereço 2** e **Endereço 3** na guia **Resumo** da página **Contato** correspondem aos endereços de **Negócios**, **Entrega** e **Fatura**, respectivamente.
 
@@ -129,7 +129,7 @@ Os campos **Endereço 1**, **Endereço 2** e **Endereço 3** na guia **Resumo** 
 
 Uma nova guia **Endereços Eletrônicos** foi apresentada nas páginas **Conta**, **Contato** e **Fornecedor**. Esta guia dá suporte a vários endereços eletrônicos usando uma grade, conforme mostrado na ilustração a seguir.
 
-![Grade para endereços eletrônicos](media/party-gab-image6.png)
+![Grade para endereços eletrônicos.](media/party-gab-image6.png)
 
 A grade inclui as seguintes colunas:
 
@@ -205,7 +205,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     | ID do participante (campo) | Correspondência exata |
     | Selecionar (campo) | (em branco) |
 
-    ![Regra de duplicação para contas](media/duplicate-rule-1.PNG)
+    ![Regra de duplicação para contas.](media/duplicate-rule-1.PNG)
 
 10. Expanda a regra de detecção de duplicidades para a tabela **Contatos**, definindo os campos a seguir.
 
@@ -221,7 +221,7 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     | ID do participante (campo) | Correspondência exata |
     | Selecionar (campo) | (em branco) |
 
-    ![Regra de duplicação para contatos](media/duplicate-rule-2.PNG)
+    ![Regra de duplicação para contatos.](media/duplicate-rule-2.PNG)
 
 11. Se você for um usuário de gravação dupla existente, siga as instruções em [Atualizar para o modelo de catálogo de endereços global e de participantes](upgrade-party-gab.md) e atualize seus dados.
 
@@ -300,11 +300,11 @@ Para obter mais informações, consulte [Referência de mapeamento de gravação
 + Os endereços eletrônicos definidos na guia endereço eletrônico dos formulários **Conta**, **Contato** e **Fornecedor** são obtidos da tabela `msdyn_partyelectronicaddress`. Essas informações não fluem para as transações associadas, como ordem de venda, cotação e ordem de compra. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nos registros de conta e contato continuarão a funcionar em transações como ordem de venda, cotação e ordem de compra.
 + Em aplicativos do Finance and Operations, você pode criar um registro de contato do formulário **Adicionar Contato**. Quando você tenta criar um novo contato no formulário **Exibir Contato**, a ação falha. Este é um problema conhecido.
 
-    ![Problema conhecido com Adicionar Contato](media/party-gab-contact-issue.png)
+    ![Problema conhecido com Adicionar Contato.](media/party-gab-contact-issue.png)
 
 + A **sincronização inicial** não dá suporte aos campos de tempo **Disponível de** e **Disponível até** em **ContactForParty** porque DIXF converte o valor em uma cadeia de caracteres em vez de um inteiro. A conversão dispara o erro `Cannot convert the literal '<say 08:00:00>’ to the expected type edm.int32`.
 + Quando um endereço postal é usado por mais de um motivo (por exemplo, endereço de comunicação comercial e endereço de cobrança), ele deve aparecer como `Business;Invoice`, conforme mostrado na imagem a seguir. Se você adicionar um espaço entre os valores, obterá um erro.
 
-    ![Problema conhecido com o endereço](media/party-gab-address-issue.png)
+    ![Problema conhecido com o endereço.](media/party-gab-address-issue.png)
 
 + Não é possível inserir um endereço postal com data posterior usando um aplicativo do Finance and Operations com dupla gravação porque o Dataverse não dá suporte à efetivação de data. Se você inserir um endereço postal com data futura usando um aplicativo do Finance and Operations, ele será totalmente sincronizado com o Dataverse e você verá logo o endereço na interface do usuário. Todas as atualizações deste registro resultarão em um erro, pois ele tem data futura e não atual no aplicativo do Finance and Operations.

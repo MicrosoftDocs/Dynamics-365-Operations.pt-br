@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: 6a9e94e282aa8f101b42c1378ef21c6c1fe0477e
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5a4749e3234288927a781106dd4becebd5260084
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053482"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344655"
 ---
 # <a name="optimize-performance-with-auto-cleanup-tasks"></a>Otimizar o desempenho com tarefas automáticas de limpeza
 
@@ -41,23 +41,23 @@ Agende uma tarefa automática limpar o histórico de trabalhos em lotes. Recomen
 
 2. Na barra **Pesquisa** , insira **Limpeza de histórico de trabalhos em lote**.
 
-   ![Pesquisar limpeza de histórico de trabalhos em lotes](media/talent-batch-history-cleanup-search-bar.png)
+   ![Pesquisar limpeza de histórico de trabalhos em lotes.](media/talent-batch-history-cleanup-search-bar.png)
 
 3. No **Limite de histórico (dias)**, insira **30**.
 
-   ![Defina o limite de histórico como 30](media/talent-batch-history-cleanup-history-limit.png)
+   ![Defina o limite de histórico como 30.](media/talent-batch-history-cleanup-history-limit.png)
 
 4. Selecione **Executar em segundo plano** e **Recorrência**.
 
-   ![Definir a recorrência](media/talent-batch-history-cleanup-recurrence.png)
+   ![Definir a recorrência.](media/talent-batch-history-cleanup-recurrence.png)
 
 5. Em **Definir a recorrência**, defina a **Data inicial** e a **Hora inicial** para ocorrer fora do horário comercial ou no final de semana e selecione **NENHUMA DATA DE TÉRMINO**. 
 
-   ![Definir a data e a hora de início da recorrência](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definir a data e a hora de início da recorrência.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 6. Em **PADRÃO DE RECORRÊNCIA**, selecione **Dias** e **REPETIR APÓS O INTERVALO ESPECIFICADO** como **7**.
 
-   ![Definir limpeza para ser repetida semanalmente](media/talent-batch-history-cleanup-recurrence-pattern.png)
+   ![Definir limpeza para ser repetida semanalmente.](media/talent-batch-history-cleanup-recurrence-pattern.png)
 
 7. Selecione **OK**.
 

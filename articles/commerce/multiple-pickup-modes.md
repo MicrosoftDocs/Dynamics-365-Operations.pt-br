@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: ae7df6679c261b5e5dcd39e4ca6fe0e21d993927
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: 9516e9e1bd9725e8bd2eec81c5e2b70c8257bc7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353123"
 ---
 # <a name="enable-multiple-pickup-delivery-modes-for-customer-orders"></a>Habilitar vários modos de entrega de retirada para ordens de cliente
 
@@ -32,7 +32,7 @@ Para usar esta funcionalidade, ative o recurso **Suporte para vários modos de e
 
 No Commerce versão 10.0.15 e anteriores, as organizações podem definir somente um modo de entrega como o modo de entrega de retirada designado. Essa definição é feita na página **Parâmetros do Commerce**. Na versão 10.0.16 e posteriores, ao ativar o recurso **Suporte para vários modos de entrega de retirada**, o modo de entrega definido anteriormente como o modo de entrega de retirada na página **Parâmetros do Commerce** será copiado de forma automática para a nova configuração de modos de entrega de retirada.
 
-![Modos de entrega de retirada na página Parâmetros do Commerce](media/multiplepickupparameter.png)
+![Modos de entrega de retirada na página Parâmetros do Commerce.](media/multiplepickupparameter.png)
 
 Depois de ativar o recurso **Suporte para vários modos de entrega de retirada**, você poderá definir vários modos de entrega de retirada na grade **Modo de entrega de retirada** na FastTab **Modos de entrega** na guia **Ordens de cliente** da página **Parâmetros do Commerce**.
 
@@ -40,7 +40,7 @@ Os campos **Executar modo de entrega** e **Modo eletrônico de entrega**, e a op
 
 Antes de configurar modos de entrega de retirada adicionais, você deve definir os modos de entrega. Na página **Modos de entrega** na sede do Commerce, adicione os modos de entrega que devem ser considerados modos de entrega de retirada. Verifique se toda a configuração foi concluída. Por exemplo, se você está oferecendo a retirada em frente à loja como uma opção de entrega para seus compradores online para determinadas lojas, será necessário criar um novo modo de entrega para esta finalidade. Você pode criar este modo de entrega usando "retirada em frente à loja" como a descrição. Em seguida, você procurará garantir que o modo de entrega "retirada em frente à loja" seja mapeado para todos os canais de comércio que podem oferecê-lo, inclusive lojas online que podem oferecer essa opção e os canais de loja individuais que oferecerão esse método de atendimento. Os modos de entrega também devem estar vinculados aos produtos. Neste exemplo, se há determinados produtos que não podem ser entregues usando "retirada em frente à loja", será necessário garantir que esses itens sejam excluídos. Quando terminar de adicionar novos modos de entrega, execute o trabalho **Processar modos de entrega** para criar os relacionamentos entre modo de entrega, canais e itens. Quando o trabalho for concluído, abra a página **Agenda de distribuição** na sede do Commerce e execute o trabalho de distribuição **1120** para garantir que os bancos de dados relevantes do canal do Commerce sejam atualizados com a nova configuração de modo de entrega.
 
-![Exemplo de uma configuração de modo de entrega para retirada em frente à loja](media/pickupmodes.png)
+![Exemplo de uma configuração de modo de entrega para retirada em frente à loja.](media/pickupmodes.png)
 
 Depois de definir os modos de entrega de retirada adicionais, adicione-os à grade **Modo de entrega de retirada** na página **Parâmetros do Commerce**. Em seguida, execute os trabalhos de distribuição adequados para atualizar os bancos de dados relevantes do canal do Commerce com a alteração de configuração.
 
@@ -69,16 +69,16 @@ Quando vários modos de entrega de retirada estiverem disponíveis para um canal
 
 - Em canais de comércio eletrônico, os compradores podem selecionar qualquer modo de entrega de retirada válido disponível. Por exemplo, um varejista define dois modos de entrega de retirada (retirada na loja e retirada em frente à loja), ambos são configurados na grade **Modo de entrega de retirada** e ambos são válidos para o canal de atendimento de ordens e o produto que um comprador está adquirindo no momento. Nesse caso, o comprador pode selecionar o modo de entrega de retirada de sua preferência. O modo de entrega de retirada selecionado passa a ser o modo de entrega vinculado à linha da ordem de venda quando a ordem é criada na sede do Commerce.
 
-    ![Selecionar uma opção de retirada no comércio eletrônico](media/pickupecommerce.png)
+    ![Selecionar uma opção de retirada no comércio eletrônico.](media/pickupecommerce.png)
 
 - Em canais de loja, se uma ordem de cliente para retirada for criada por meio do aplicativo de ponto de venda (PDV), o representante de vendas será solicitado a escolher entre os modos de entrega de retirada disponíveis, caso algum tenha sido configurado. Se apenas um modo de entrega de retirada válido estiver disponível para o canal e o item, o representante de vendas não será solicitado a selecioná-lo. Em vez disso, o modo de entrega de retirada disponível será aplicado automaticamente às linhas da ordem.
 
-    ![Selecionar uma opção de retirada no aplicativo de PDV](media/pickuppos.png)
+    ![Selecionar uma opção de retirada no aplicativo de PDV.](media/pickuppos.png)
 
 - Em canais de call center, quando os usuários criam ordens de retirada, eles podem selecionar manualmente qualquer modo de entrega de retirada definido que esteja vinculado ao canal de call center. Em seguida, o sistema valida que o modo de entrega de retirada selecionado pode ser usado quando o item que está sendo vinculado a ele é encomendado. Quando um modo de entrega de retirada é selecionado em canais de call center, as linhas da ordem de venda devem ser vinculadas a um depósito de loja válido. Se um depósito não referente a uma loja for definido em uma linha de venda de call center, não será possível definir um modo de entrega de retirada nessa linha de venda.
 - Os representantes de vendas podem usar a operação **Cancelamento da ordem** ou **Atendimento da ordem** no aplicativo de PDV para recuperar uma lista de ordens ou linhas de ordem para retirada. Se um representante de vendas usar um filtro de pesquisa predefinido para mostrar todas as ordens que serão retiradas na loja atual, as consultas serão modificadas para garantir que os resultados da pesquisa incluam todas as ordens elegíveis que usam qualquer modo de entrega de retirada. Os usuários do PDV também podem usar filtros existentes para restringir a lista de ordens a um modo de entrega de retirada específico. Por exemplo, eles podem mostrar somente as ordens para retirada em frente à loja.
 
-    ![Filtro para modos de entrega de retirada aplicado a uma lista de ordens de cancelamento](media/pickuprecallorder.png)
+    ![Filtro para modos de entrega de retirada aplicado a uma lista de ordens de cancelamento.](media/pickuprecallorder.png)
 
 ## <a name="considerations-for-distributed-order-management"></a>Considerações para o gerenciamento de ordem distribuído
 

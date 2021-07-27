@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 8962cbbc8f413093eef0fb3783aa6ced22f7bc2d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6e16c0bcd9521f822d0f92681e2a545439b78acb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839550"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354848"
 ---
 # <a name="manually-created-work-orders"></a>Ordens de serviço criadas manualmente
 
@@ -111,7 +111,7 @@ Você pode criar uma ordem de serviço relacionada a uma ordem de serviço exist
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de serviço relacionada**.
 
-![Figura 1](media/03-work-orders.png)
+![Figura 1.](media/03-work-orders.png)
 
 >[!NOTE]
 >Se você configurou uma máscara da ordem de serviço relacionada em **Parâmetros de gerenciamento de ativos** > guia **Ordens de serviço** > campo **Máscara da ordem de serviço relacionada**, as IDs da ordem de serviço serão criadas de acordo com a configuração da máscara. Se nenhuma máscara da ordem de serviço relacionada estiver configurada, a próxima ID da ordem de serviço disponível será usada para ordens de serviço relacionadas.
@@ -137,7 +137,7 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de 
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Copiar ordem de serviço**.
 
-![Figura 2](media/04-work-orders.png)
+![Figura 2.](media/04-work-orders.png)
 
 
 ## <a name="create-a-work-order-based-on-a-maintenance-request"></a>Criar uma ordem de serviço com base em uma solicitação de manutenção
@@ -157,7 +157,7 @@ A ilustração a seguir mostra um exemplo da caixa de diálogo **Copiar ordem de
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Criar ordem de serviço**.
 
-![Figura 3](media/05-work-orders.png)
+![Figura 3.](media/05-work-orders.png)
 
 
 >[!NOTE]

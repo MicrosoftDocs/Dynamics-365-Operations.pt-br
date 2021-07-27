@@ -9,19 +9,19 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application user
 ms.reviewer: josaw
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: stuharg
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 55c40029082e49c1fbc9d9d5e9361218e5ddc5a0
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b7050f954116213f700e4a2b3326547f4d070674
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022463"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353003"
 ---
 # <a name="e-commerce-site-overview"></a>Visão geral do site de comércio eletrônico
 
@@ -47,27 +47,27 @@ Durante a inicialização de um site de comércio eletrônico, você será solic
 
 Ao iniciar o construtor de sites do Commerce a partir do LCS, a página **Sites** é exibida. Essa página inclui dois sites pré-configurados, **padrão** e **fabrikam**, conforme mostrado no exemplo da ilustração a seguir.
 
-![Página Sites no construtor de sites do Commerce](media/e-commerce-site-01.png)
+![Página Sites no construtor de sites do Commerce.](media/e-commerce-site-01.png)
 
 Ao selecionar um desses sites, você será solicitado a selecionar um nome de domínio, um canal de loja online padrão, um idioma com suporte para o canal selecionado e um caminho. Se apenas um canal for usado, você poderá deixar o caminho em branco. Mais canais de loja online e idiomas podem ser configurados posteriormente no construtor de sites do Commerce. Cada canal ou idioma adicional exigirá um caminho exclusivo. Por exemplo, você tem dois canais online associados a um único site, e o nome de domínio do site é `www.fabrikam.com`. Nesse caso, o caminho para um canal pode ser o valor padrão que não tem caminho (`https://www.fabrikam.com`), e o segundo canal pode ser definido como um novo caminho, por exemplo, **site2**, que terá a URL `https://www.fabrikam.com/site2`. A ilustração a seguir mostra um exemplo de uma caixa de diálogo de inicialização de sites no construtor de sites do Commerce.
 
-![Caixa de diálogo Inicialização de sites no construtor de sites do Commerce](media/e-commerce-site-02.png)
+![Caixa de diálogo Inicialização de sites no construtor de sites do Commerce.](media/e-commerce-site-02.png)
 
 A página **Sites** também inclui um botão **Novo site**. A caixa de diálogo que aparece quando você seleciona esse botão é semelhante à caixa de diálogo de inicialização de sites, mas é usada para criar um novo site. Novos sites são vazios. Eles não incluem os mesmos modelos, fragmentos, páginas e imagens padrão fornecidos com os sites **padrão** e **fabrikam**. No entanto, conforme necessário, você pode abrir um tíquete de suporte para solicitar que uma cópia do conteúdo padrão seja adicionada a um novo site em branco. Para obter mais informações, consulte [Criar um site de comércio eletrônico](create-ecommerce-site.md).
 
 Depois que um novo site for inicializado, a página **Página Inicial** do construtor de sites do Commerce será exibida. Essa página inclui links para ações comuns e conteúdo de orientação, conforme mostrado no exemplo da ilustração a seguir.
 
-![Links na Home page do construtor de sites do Commerce](media/e-commerce-site-03.png)
+![Links na Home page do construtor de sites do Commerce.](media/e-commerce-site-03.png)
 
 ## <a name="modify-online-store-channels-or-add-online-store-channels-to-an-e-commerce-site"></a>Modificar canais de loja online ou adicionar canais de loja online a um site de comércio eletrônico
 
 Depois que um site de comércio eletrônico for criado, você poderá alterar o canal ao qual ele está associado seguindo as etapas em [Associar um site de comércio eletrônico a um canal online](associate-site-online-store.md). O exemplo na ilustração a seguir mostra como o número de unidade operacional (OUN) de um canal pode ser alterado na página **Canais** (**Configurações do site \> Canais**). Depois de concluir uma alteração, selecione **Salvar e publicar**. Dessa forma, você garante que a alteração seja publicada.
 
-![Página Canais no construtor de sites do Commerce](media/e-commerce-site-04.png)
+![Página Canais no criador de sites do Commerce.](media/e-commerce-site-04.png)
 
 Você pode adicionar novos canais selecionando **Adicionar um canal**. Para adicionar novos idiomas a um canal, selecione o canal e, em seguida, selecione **Adicionar uma localidade** na caixa de diálogo de canal exibida. Antes que as localidades possam aparecer na caixa de diálogo, elas devem ser pré-configuradas para o canal de loja online na sede do Commerce.
 
-![Caixa de diálogo Canal no construtor de sites do Commerce](media/e-commerce-site-05.png)
+![Caixa de diálogo Canal no criador de sites do Commerce.](media/e-commerce-site-05.png)
 
 ## <a name="set-up-an-azure-b2c-tenant"></a>Configurar um locatário B2C do Azure
 

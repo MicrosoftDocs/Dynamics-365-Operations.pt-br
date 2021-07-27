@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 7749a458020de664d00e81ccf0e480ae459da617
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: b79c93c4920d7f40e88aa7d463961128ea9e83c8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347915"
 ---
 # <a name="printer-destination"></a><a name="PrinterDestinationType"></a>Destino da impressora
 
@@ -39,7 +39,7 @@ Para disponibilizar o destino da **Impressora** na instância atual do Microsoft
 1. Converta os documentos de saída do Relatório Eletrônico de formatos do Microsoft Office em PDF.
 2. Agente de Roteamento de Documentos como destino do Relatório Eletrônico para documentos de saída
 
-[![Ativando o recurso de destino da impressora do ER no Gerenciamento de recursos](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
+[![Ativando o recurso de destino da impressora do ER no Gerenciamento de recursos.](./media/ER_Destinations-EnablePrinterDestinationFeature.png)](./media/ER_Destinations-EnablePrinterDestinationFeature.png)
 
 ### <a name="applicability"></a>Aplicabilidade
 
@@ -55,7 +55,7 @@ O destino da **Impressora** é implementado somente para implantações em nuvem
 2. No campo **Nome da impressora**, selecione a impressora de rede necessária.
 3. Defina a opção **Salvar em arquivo de impressão?** como **Sim** para armazenar a saída gerada no arquivo de impressão, de modo que ela esteja disponível para impressão futura. Para acessar posteriormente a saída arquivada, vá para **Administração da organização** \> **Consultas e relatórios** \> **Arquivo de relatório**.
 
-[![Usando o destino da Impressora](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
+[![Usando o destino da Impressora.](./media/ER_Destinations-PrinterDestination.png)](./media/ER_Destinations-PrinterDestination.png)
 
 > [!NOTE]
 > A opção **Converter em PDF** não precisa ser ativada quando você configura o destino da **Impressora**. A conversão em PDF para fins de impressão ocorrerá mesmo que a opção seja desativada.

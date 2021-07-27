@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: c61686615495ac64efccf84c697e0e1d594dcaf9
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7efd9096a85ccafd114448f9ba7ca924c198aacb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027954"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352051"
 ---
 # <a name="account-management-pages-overview"></a>Visão geral das páginas de gerenciamento da conta
 
@@ -35,7 +36,7 @@ Quando um cliente entra e seleciona **Minha Conta**, a página de aterrissagem d
 
 A ilustração a seguir mostra um exemplo da página de aterrissagem do gerenciamento de conta.
 
-![Exemplo de uma página de aterrissagem de gerenciamento de contas](./media/Account-Management.PNG)
+![Exemplo de uma página de aterrissagem de gerenciamento de contas.](./media/Account-Management.PNG)
 
 ### <a name="my-profile-page"></a>Minha Página de Perfil
 
@@ -43,7 +44,7 @@ A página **Meu perfil** mostra informações da conta do cliente, como nome e n
 
 A ilustração a seguir mostra um exemplo de uma página **Meu perfil** que foi criada usando a biblioteca do módulo.
 
-![Exemplo de uma página Meu perfil](./media/Account-Management-MyProfile.PNG)
+![Exemplo de uma página Meu perfil.](./media/Account-Management-MyProfile.PNG)
 
 ### <a name="addresses-page"></a>Página Endereços
 
@@ -51,7 +52,7 @@ A página **Endereços** permite que o cliente adicione endereços à sua conta.
 
 A ilustração a seguir mostra um exemplo da página **Endereços**.
 
-![Exemplo de uma página de Endereços](./media/Account-Management-Address.png)
+![Exemplo de uma página de Endereços.](./media/Account-Management-Address.png)
 
 ### <a name="order-history-and-order-details-pages"></a>Páginas de Histórico da ordem e Detalhes da ordem
 
@@ -59,11 +60,11 @@ A página **Histórico de pedidos** mostra um resumo de todos os pedidos que o c
 
 A ilustração a seguir mostra um exemplo da página **Histórico da ordem**.
 
-![Exemplo de uma página Histórico da ordem](./media/Account-Management-OrderHistory.PNG)
+![Exemplo de uma página Histórico da ordem.](./media/Account-Management-OrderHistory.PNG)
 
 A ilustração a seguir mostra um exemplo da página **Detalhes da ordem**.
 
-![Exemplo de uma página Detalhes da ordem](./media/Account-Management-OrderDetails.PNG)
+![Exemplo de uma página Detalhes da ordem.](./media/Account-Management-OrderDetails.PNG)
 
 ### <a name="loyalty-program-page"></a>Página Programa de fidelidade
 
@@ -71,7 +72,7 @@ A página **Programa de fidelidade** permite que o cliente torne-se membro de um
 
 A ilustração a seguir mostra um exemplo de uma página **Programa de fidelidade**.
 
-![Exemplo de uma página do Programa de fidelidade](./media/Account-Management-Loyalty.PNG)
+![Exemplo de uma página do Programa de fidelidade.](./media/Account-Management-Loyalty.PNG)
 
 ### <a name="wishlist-page"></a>Página da lista de desejos
 
@@ -79,7 +80,7 @@ A página **Lista de desejos** mostra uma lista dos itens que o cliente adiciono
 
 A ilustração a seguir mostra um exemplo de uma página da **Lista de desejos**.
 
-![Exemplo de uma página da Lista de desejos](./media/Account-Management-Wishlist.PNG)
+![Exemplo de uma página da Lista de desejos.](./media/Account-Management-Wishlist.PNG)
 
 Para obter mais informações sobre os módulos de gerenciamento de contas e como criá-los, consulte [Gerenciamento de Conta](account-management.md).
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143aa5c3ba4d6064cde63f8e7ebeac0977b1325c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 97fc3c6bd096854b5aa72980dd2bd6f3a8a1ef9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908697"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353411"
 ---
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para agendamento de trabalho
 
@@ -45,10 +45,10 @@ O gráfico de Gantt pode ser aberto em dois modos de exibição diferentes, **Mo
 
 ## <a name="order-view"></a>Modo de exibição de ordem
 
-[![Modo de exibição de ordem](./media/orderview.png)](./media/orderview.png)
+[![Modo de exibição de ordem.](./media/orderview.png)](./media/orderview.png)
 
 ## <a name="resource-view"></a>Modo de exibição de recurso
-[![Modo de exibição de recurso](./media/resview.png)](./media/resview.png)
+[![Modo de exibição de recurso.](./media/resview.png)](./media/resview.png)
 
 ## <a name="activities"></a>Atividades
 As atividades aparecem como barras e são organizadas em uma grade de escala de tempo com horas inicial e final programadas, tornando a extensão das barras proporcional ao tempo necessário para concluir a atividade. As atividades são exibidas de acordo com uma escala de tempo. É possível ajustar a escala de tempo no menu ao selecionar uma data inicial e final e uma unidade de tempo, como horas ou dias. Ajustando a escala de tempo, você pode definir o foco em um intervalo de tempo no qual deseja gerenciar as atividades. 
@@ -102,25 +102,25 @@ Não é possível agendar um trabalho fora do intervalo de tempo definido do gr�
 
 Em uma rede de atividades, como trabalhos pertencentes à mesma ordem de produção, é possível usar a função **Agendar trabalhos anteriores** para agendar os trabalhos anteriores relativos a um trabalho selecionado na rede. No seguinte exemplo, a atividade em destaque é o trabalho selecionado. O diagrama mostra antes um trabalho anterior que é programado e depois o trabalho anterior que é programado. 
 
-[![Agendar trabalho anterior](./media/schprevjob3.png)](./media/schprevjob3.png)
+[![Agendar trabalho anterior.](./media/schprevjob3.png)](./media/schprevjob3.png)
 
 ### <a name="schedule-next-jobs"></a>Agendar próximos trabalhos
 
 É possível usar a função **Agendar próximos trabalhos** para agendar os próximos trabalhos relacionados a um trabalho selecionado em uma rede de atividades. No seguinte exemplo, a atividade em destaque é o trabalho selecionado. O diagrama mostra antes o próximo trabalho que é programado e depois o próximo trabalho que é programado. 
 
-[![Agendar próximo trabalho](./media/schnxtjob.png)](./media/schnxtjob.png)
+[![Agendar próximo trabalho.](./media/schnxtjob.png)](./media/schnxtjob.png)
 
 ### <a name="schedule-around-job"></a>Agenda em torno de trabalho
 
 É possível usar a função **Agenda em torno de trabalho** para agendar o próximo trabalho e o trabalho anterior relacionados a um trabalho selecionado em uma rede de atividades. No seguinte exemplo, a atividade em destaque é o trabalho selecionado. O diagrama mostra antes um trabalho anterior que é programado e depois o trabalho anterior que é programado. 
 
-[![Agenda em torno de trabalho](./media/scharoundjob1.png)](./media/scharoundjob1.png)
+[![Agenda em torno de trabalho.](./media/scharoundjob1.png)](./media/scharoundjob1.png)
 
 ### <a name="arrange-jobs"></a>Organizar trabalhos
 
 É possível usar a função **Organizar** para organizar as atividades selecionadas no mesmo recurso. Essas atividades podem estar na mesma rede de atividades, mas também podem pertencer a diferentes redes. Quando você usa a função de organização, os intervalos de tempo entre as atividades selecionadas serão eliminados. Você pode usar essa função para otimizar a utilização de capacidade dos recursos. O diagrama mostra antes um trabalho anterior que é programado e depois o trabalho anterior que é programado. 
 
-[![Organizar trabalho](./media/arrangejobs1.png)](./media/arrangejobs1.png)
+[![Organizar trabalho.](./media/arrangejobs1.png)](./media/arrangejobs1.png)
 
 ### <a name="reassign-activities-from-one-resource-to-another"></a>Reatribuir atividades de um recurso para outro
 

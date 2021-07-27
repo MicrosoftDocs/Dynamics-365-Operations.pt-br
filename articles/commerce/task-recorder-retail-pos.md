@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 02e8bb1bfb088a877ef23b7a81982868700f4ae2
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028098"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354460"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
@@ -55,14 +55,14 @@ Siga estas etapas para criar uma nova gravação usando o Gravador de tarefas.
 1. Inicie o Retail Modern POS ou o Cloud POS e entre.
 2. Na página **Configurações**, na seção **Gravador de Tarefas**, clique em **Abrir gravador de tarefas**. O painel **Gravador de tarefas** aparecerá. Você pode clicar no botão **Fechar** (**X**) no canto superior direito para fechar o painel **Gravador de tarefas** antes de iniciar uma nova gravação. Para reabrir o painel, repita a etapa 2.
 
-    [![Painel do Gravador de tarefas](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
+    [![Painel do Gravador de tarefas.](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
 3. Insira um nome e uma descrição para a gravação e então clique em **Iniciar**. A sessão de gravação começa assim que você clica em **Iniciar**.
 
     > [!NOTE]
     > Se você clicar no botão **Fechar** (**X**) no canto superior direito enquanto a gravação estiver em andamento, o painel **Gravador de tarefas** será fechado, mas a sessão de gravação não será encerrada. Para reabrir o painel do Gravador de tarefas, clique no botão **Ajuda** (ponto de interrogação) na parte superior da tela.
     >
-    > [![Ponto de interrogação](./media/help.jpg)](./media/help.jpg)
+    > [![Ponto de interrogação.](./media/help.jpg)](./media/help.jpg)
 
 4. Depois que você clicar em **Iniciar**, o Gravador de tarefas entrará no modo de gravação. O painel **Gravador de tarefas** mostra as informações e os controles relacionados ao processo de gravação.
 5. Execute as ações desejadas na IU (interface do usuário) do Retail Modern POS ou do Cloud POS.
@@ -72,7 +72,7 @@ Siga estas etapas para criar uma nova gravação usando o Gravador de tarefas.
 
 Após o encerramento da sessão de gravação, diversas opções são mostradas para que você possa baixar sua gravação.
 
-[![Opções de download](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
+[![Opções de download.](./media/downlaod-options.jpg)](./media/downlaod-options.jpg)
 
 ### <a name="save-to-this-pc"></a>Salvar neste computador
 
@@ -88,7 +88,7 @@ O arquivo bruto de gravação será útil em cenários de desenvolvimento, como 
 
 ## <a name="recording-controls"></a>Controles de gravação
 
-[![Controles de gravação](./media/controls.jpg)](./media/controls.jpg)
+[![Controles de gravação.](./media/controls.jpg)](./media/controls.jpg)
 
 ### <a name="stop"></a>Parar
 
@@ -117,13 +117,13 @@ Você pode especificar o início e o final de um conjunto de etapas agrupadas us
 
 Uma anotação é um outro texto adicionado a uma etapa em uma gravação. Por exemplo, você pode usar as anotações para oferecer ao usuário mais contexto ou mais instruções. Você pode adicionar anotações antes ou depois de uma etapa. Você pode adicionar uma anotação a qualquer etapa clicando no botão **Editar** (símbolo de lápis) à direita de etapa.
 
-[![Botão Editar de uma etapa](./media/annotate.jpg)](./media/annotate.jpg)
+[![Botão Editar de uma etapa.](./media/annotate.jpg)](./media/annotate.jpg)
 
 ### <a name="texts-and-notes"></a>Textos e notas
 
 Você pode usar os campos **Textos** e **Notas** para adicionar o texto que deve ser associado a uma etapa em uma Guia de tarefas.
 
-[![Campos Texto e Notas](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
+[![Campos Texto e Notas.](./media/annotatesteps.jpg)](./media/annotatesteps.jpg)
 
 #### <a name="text"></a>Texto
 
@@ -137,7 +137,7 @@ O texto inserido no campo **Notas** aparece *abaixo* do texto da etapa no Guia d
 
 Para mostrar suas próprias gravações de tarefas personalizadas no painel da Ajuda do Retail Modern POS e do Cloud BPM para que possam ser executadas novamente como guias de tarefas ou exibidas como texto, você deverá salvar suas gravações de tarefas em sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectando o sistema de ajuda.](../fin-ops-core/fin-ops/get-started/help-connect.md) A Ajuda do Retail Modern POS e do Cloud POS pesquisa o LCS em tempo real. Ela pesquisa em todas as bibliotecas BPM selecionadas nos parâmetros do sistema da Ajuda do Commerce e mostra os resultados relevantes. Para acessar o menu **Ajuda**, clique no botão **Ajuda** (ponto de interrogação) na parte superior da tela e, na caixa de pesquisa, digite o nome do processo e pressione o botão de pesquisa.
 
-[![Botão Ajuda](./media/help.jpg)](./media/help.jpg)
+[![Botão Ajuda.](./media/help.jpg)](./media/help.jpg)
 
 Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá exibir as etapas como um tópico da Ajuda ou exportar as etapas para um documento do Word.
 

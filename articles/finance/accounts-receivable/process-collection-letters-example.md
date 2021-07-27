@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jchrist
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: fb2651644efd2cadfccb91e48c34dfddc8383e1f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e813b4f0c6408a8046fa8203007a0a356ca2c794
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021407"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347799"
 ---
 # <a name="process-collection-letters-example"></a>Processar exemplo de cartas de cobrança
 
@@ -40,7 +40,7 @@ Quando terminar, siga estas etapas.
 
 A ilustração a seguir mostra as informações que estão na tabela como apareceriam na página **Cartas de cobrança**. 
 
-[![Configurando uma sequência de cartas de cobrança](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
+[![Configurando uma sequência de cartas de cobrança.](./media/Ignore-payments-creditmemos-1.PNG)](./media/Ignore-payments-creditmemos-1.PNG)
 
  Agora você deve definir os dois parâmetros necessários para este exemplo.
 
@@ -49,7 +49,7 @@ A ilustração a seguir mostra as informações que estão na tabela como aparec
     1. Na guia **Cobranças**, defina a opção **Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** como **Sim**.
     2. Verifique se o campo **Criar carta de cobrança por** foi definido como **Cliente**.
 
-    [![Configurando parâmetros de contas a receber para Crédito e cobranças](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
+    [![Configurando parâmetros de contas a receber para Crédito e cobranças.](./media/Ignore-payments-creditmemos-2.PNG)](./media/Ignore-payments-creditmemos-2.PNG)
 
 3. Vá para **Contas a receber \> Faturas \> Todas as faturas de texto livre**, selecione **Novo** e siga estas etapas:
 
@@ -74,7 +74,7 @@ A ilustração a seguir mostra as informações que estão na tabela como aparec
 5. Repita a etapa 4, mas insira **-200,00** no campo **Preço unitário**.
 6. Vá para **Contas a receber \> Clientes \> Todos os clientes** e selecione cliente **US-045**. Em seguida, no painel de ação, selecione **Transações \> Transações** para revisar as transações de cliente lançadas anteriormente.
 
-    [![Analisando as transações do cliente lançadas](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
+    [![Analisando as transações do cliente lançadas.](./media/Ignore-payments-creditmemos-3.PNG)](./media/Ignore-payments-creditmemos-3.PNG)
 
     Agora você precisa criar cartas de cobrança para um cliente US-045.
 
@@ -93,7 +93,7 @@ A ilustração a seguir mostra as informações que estão na tabela como aparec
 
     1. Observe que o código da carta de cobrança no cabeçalho e nas linhas de transação é **Carta de cobrança 1**, pois essa carta de cobrança é a primeira carta de cobrança na sequência. (Para exibir as linhas de transação, talvez seja necessário selecionar a guia rápida **Transações**.)
 
-   [![Verificando se o mesmo código de carta de cobrança aparece no cabeçalho e nas linhas](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
+   [![Verificando se o mesmo código de carta de cobrança aparece no cabeçalho e nas linhas.](./media/Ignore-payments-creditmemos-4.PNG)](./media/Ignore-payments-creditmemos-4.PNG)
 
     2. No Painel de Ação, selecione **Lançar**.
     3. No campo **Data do lançamento**, digite **19/01/2021**.
@@ -115,7 +115,7 @@ A ilustração a seguir mostra as informações que estão na tabela como aparec
 
     1. Observe que o código da carta de cobrança no cabeçalho é **Carta de cobrança 1**. No entanto, o código nas linhas de transação é **Carta de cobrança 2**.
 
-   [![Verifica se os diferentes códigos de carta de cobrança aparece no cabeçalho e nas linhas](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
+   [![Verifica se os diferentes códigos de carta de cobrança aparece no cabeçalho e nas linhas.](./media/Ignore-payments-creditmemos-5.PNG)](./media/Ignore-payments-creditmemos-5.PNG)
 
   Os códigos diferem porque a opção **Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** é definida como **Sim**.
 
@@ -123,7 +123,7 @@ A ilustração a seguir mostra as informações que estão na tabela como aparec
 
 11. Vá para **Crédito e cobranças \> Configuração \> Parâmetros de contas a receber** e na guia **Cobranças**, defina a opção **Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** como **Não**.
 
-    [![Defina a opção Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança como Não](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
+    [![Defina a opção Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança como Não.](./media/Ignore-payments-creditmemos-6.PNG)](./media/Ignore-payments-creditmemos-6.PNG)
 
     Agora você precisa criar cartas de cobrança novamente para um cliente US-045.
 
@@ -140,6 +140,6 @@ A ilustração a seguir mostra as informações que estão na tabela como aparec
 
 13. Vá para **Crédito e cobranças \> Carta de cobrança \> Revisar e processar cartas de cobrança** e observe que o código da carta de cobrança no cabeçalho e nas linhas de transação é **Carta de cobrança 2**.
 
-    [![Mostrando novamente que o mesmo código de carta de cobrança aparece no cabeçalho e nas linhas](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
+    [![Mostrando novamente que o mesmo código de carta de cobrança aparece no cabeçalho e nas linhas.](./media/Ignore-payments-creditmemos-7.PNG)](./media/Ignore-payments-creditmemos-7.PNG)
 
     O mesmo código aparece nos dois locais porque a opção **Ignorar pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** agora foi definida como **Não**.

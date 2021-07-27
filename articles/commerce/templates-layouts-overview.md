@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 39fae603a8ae34a7500ead1d2d1cecff6dc65f1e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 62cc0bb9d62b0ab90e212b03e6c4efd9734dadec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804032"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347407"
 ---
 # <a name="templates-and-layouts-overview"></a>Visão geral de modelos e layouts
 
@@ -32,7 +33,7 @@ Uma boa maneira de começar a trabalhar com modelos é entender os benefícios f
 
 A ilustração a seguir mostra a hierarquia do modelo de página atrás de uma página da Web renderizada.
 
-![Diagrama do modelo de página](../commerce/media/page-model-diagram.png)
+![Diagrama do modelo de página.](../commerce/media/page-model-diagram.png)
 
 | Entidade        | Função básica |
 |---------------|----------------|
@@ -98,7 +99,7 @@ O layout predefinido e os layouts personalizados são editados em diferentes par
 
 As ilustrações a seguir mostram cenários de layouts predefinidos e personalizados.
 
-![Cenários de layout predefinidos e personalizados](../commerce/media/template-figure1.png)
+![Cenários de layout predefinidos e personalizados.](../commerce/media/template-figure1.png)
 
 Para começar a usar layouts predefinidos, consulte [Trabalhar com layouts predefinidos](work-with-layouts.md).
 

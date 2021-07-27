@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: stuharg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6d872719d3b1aa27ccfdcf36d7739c883e7b4996
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ed12444e2f03643e88ebad075366e26054a09e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801352"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350223"
 ---
 # <a name="work-with-modules"></a>Trabalhar com módulos
 
@@ -53,7 +53,7 @@ A maioria das atividades típicas diárias de criação de página e conteúdo e
 
 A ilustração a seguir mostra como os módulos são aninhados nos slots de módulo de contêiner pai.
 
-![Aninhando módulos](../commerce/media/basic-module-nesting.png)
+![Aninhar módulos.](../commerce/media/basic-module-nesting.png)
 
 ## <a name="add-or-remove-modules"></a>Adicionar ou remover módulos
 

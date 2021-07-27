@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b1e86cbe1c2b9247f902a8f5777e73f7a9b37929
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bda264a255a688d64e314d994dc281602c9324cc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797806"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347581"
 ---
 # <a name="checkout-module"></a>Módulo de finalização da compra
 
@@ -33,7 +33,7 @@ Um módulo de finalização da compra renderiza dados com base na ID de carrinho
 
 A imagem a seguir mostra um exemplo de um módulo de finalização da compra da Fabrikam em uma página de finalização da compra.
 
-![Exemplo de um módulo de finalização da compra](./media/Checkout.PNG)
+![Exemplo de um módulo de finalização da compra.](./media/Checkout.PNG)
 
 ## <a name="checkout-module-properties"></a>Propriedades do módulo de finalização da compra
 
@@ -52,13 +52,13 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 
     A imagem a seguir mostra um exemplo de um módulo de endereço de remessa em uma página de finalização da compra.
 
-    ![Exemplo de módulo de endereço de remessa](./media/ecommerce-shippingaddress.PNG)
+    ![Exemplo de módulo de endereço de remessa.](./media/ecommerce-shippingaddress.PNG)
 
 - **Opções de entrega** – Este módulo permite que um cliente selecione um modo de entrega para um pedido. Para obter mais informações sobre esse módulo, consulte [Módulo de opções de entrega](delivery-options-module.md).
 
     A imagem a seguir mostra um exemplo de um módulo de opções de entrega em uma página de finalização da compra.
  
-    ![Exemplo de um módulo opções de entrega](./media/ecommerce-deliveryoptions.PNG)
+    ![Exemplo de um módulo opções de entrega.](./media/ecommerce-deliveryoptions.PNG)
 
 - **Contêiner da seção de finalização da compra** – Este módulo é um contêiner dentro do qual é possível colocar vários módulos para criar uma seção dentro do fluxo de finalização da compra. Por exemplo, você pode colocar todos os módulos relacionados a pagamento dentro desse contêiner para que eles apareçam como uma seção. Esse módulo afeta apenas o layout do fluxo.
 
@@ -70,7 +70,7 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 
     A imagem a seguir mostra um exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra.
 
-    ![Exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra](./media/ecommerce-payments.PNG)
+    ![Exemplo de um cartão-presente, pontos de fidelidade e módulos de pagamento em uma página de finalização de compra.](./media/ecommerce-payments.PNG)
 
 - **Informações de contato** – Este módulo permite que um cliente adicione ou altere as informações de contato (endereço de email) de uma ordem.
 
@@ -80,7 +80,7 @@ Um módulo de finalização de compra mostra um resumo do pedido e fornece a fun
 
     A imagem a seguir mostra um exemplo de termos e condições em uma página de finalização de compra.
 
-    ![Exemplo de termos e condições em uma página de finalização da compra](./media/ecommerce-checkout-terms.PNG)
+    ![Exemplo de termos e condições em uma página de finalização da compra.](./media/ecommerce-checkout-terms.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 

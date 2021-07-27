@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 8342afefa6eeda3a53decb39caddb62d1e4e1963
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: af8cd65565a50341b0bf2dba84204d010486532c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270852"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350441"
 ---
 # <a name="delivery-options-module"></a>Módulo de opções de entrega
 
@@ -41,7 +41,7 @@ Se os encargos de remessa forem aplicáveis aos itens de linha, eles poderão se
 
 A ilustração a seguir mostra um exemplo de um módulo de opções de entrega em uma página de finalização da compra.
 
-![Exemplo de um módulo de opções de entrega em uma página de finalização de compra](./media/ecommerce-deliveryoptions.PNG)
+![Exemplo de um módulo de opções de entrega em uma página de finalização de compra.](./media/ecommerce-deliveryoptions.PNG)
 
 ## <a name="delivery-options-module-properties"></a>Propriedades do módulo de opções de entrega
 

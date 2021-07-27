@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3fc7cff0a3f8d0fbfb196ec5951b138088afece7
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 45decb55ce5cf3399f48034df367e1565ab689bf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019461"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347431"
 ---
 # <a name="dynamics-365-commerce-and-microsoft-teams-integration-faq"></a>Perguntas frequentes sobre a integração do Dynamics 365 Commerce e do Microsoft Teams
 
@@ -45,7 +45,7 @@ Para atribuir a função de gerente de tarefas de varejo a um funcionário na se
 
 Na sede do Commerce, a hierarquia de cada organização é associada a uma ou mais finalidades. Verifique se a hierarquia para a qual você deseja provisionar o Microsoft Teams tem a finalidade **Relatório de varejo** associada a ela, conforme mostrado na imagem de exemplo a seguir. 
 
-![Exemplo de uma finalidade de hierarquia organizacional na sede do Commerce](media/d365-commerce-organization-hierarchies-purpose.png)
+![Exemplo de uma finalidade de hierarquia organizacional na sede do Commerce.](media/d365-commerce-organization-hierarchies-purpose.png)
 
 ### <a name="how-do-i-enable-retail-store-workers-to-sign-in-to-commerce-point-of-sale-pos-using-azure-active-directory-azure-ad"></a>Como faço para habilitar trabalhadores de loja de varejo a entrar no ponto de venda (PDV) do Commerce usando o Azure Active Directory (Azure AD)?
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: f94b054d213dc2b347f4e5a7b2f4c2a51d519f57
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 626393f0c07803eb944e9066c72a24d2cf9ea0ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356212"
 ---
 # <a name="revenue-recognition-reallocation--scenario-1"></a>Realocação de reconhecimento de receita — cenário 1
 
@@ -28,25 +28,25 @@ Este tópico passa por um cenário de realocação em que duas ordens de venda s
 
 Para este cenário, a opção **Lançar correções de fatura em Contas a receber** é definida como **Não** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**).
 
-[![Lançar correções de fatura na opção de Contas a receber definida como Não](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
+[![Lançar correções de fatura na opção de Contas a receber definida como Não.](./media/06_rev-rec-scenarios.png)](./media/06_rev-rec-scenarios.png)
 
 Uma ordem de venda é criada para o cliente US\_SI\_0003. O cliente está comprando um laptop (número de item S0012) e um plano de suporte (número de item S0008, "Serviço de Engenharia Sustentado"). A receita do laptop é reconhecida imediatamente (não há nenhuma agenda de reconhecimento de receita). A receita do plano de suporte será adiada e reconhecida durante 12 meses, conforme definido pelo intervalo de datas no contrato.
 
-[![Linhas de ordem de venda para o laptop e o plano de suporte](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
+[![Linhas de ordem de venda para o laptop e o plano de suporte.](./media/07_rev-rec-scenarios.png)](./media/07_rev-rec-scenarios.png)
 
 A ordem de venda está confirmada. Como os dois itens estão configurados para alocação de preço de receita, o preço da receita é calculado quando a ordem de venda é confirmada. É possível exibir a receita que será reconhecida na página **Alocação de preço da receita** (na página **Ordem de venda**, no Painel de Ações, na guia **Gerenciar**, no grupo **Reconhecimento de receita**, selecione **Alocação de preço da receita**). A receita do laptop será lançada na Conta de receita no valor de $1.008,01. A receita do plano de suporte será lançada na Conta de receita adiada no valor de US$ 190,99. A soma dos preços da receita deve ser igual à soma das linhas configuradas para capturar a alocação de preço da receita (US$ 1.199,00).
 
-[![Página Alocação de preço da receita](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
+[![Página Alocação de preço da receita.](./media/08_rev-rec-scenarios.png)](./media/08_rev-rec-scenarios.png)
 
 O cliente optou por não comprar serviços de instalação (número de item S0001) no momento da venda, mas depois mudou de ideia. Portanto, uma segunda ordem de venda é inserida para o mesmo cliente.
 
-[![Linha da ordem de venda para serviços de instalação](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
+[![Linha da ordem de venda para serviços de instalação.](./media/09_rev-rec-scenarios.png)](./media/09_rev-rec-scenarios.png)
 
 A segunda ordem de venda está confirmada. Como essa ordem de venda contém apenas uma linha, a alocação de preço da receita não é executada ao confirmar a ordem de venda. A alocação de preço da receita ocorre somente se houver um ou mais itens exclusivos, e se esses itens forem configurados para a alocação de preço da receita.
 
 Se essa nova ordem de venda for a única alteração no contrato do cliente, o processo de realocação poderá ser executado agora. Em uma das duas ordens de venda, selecione **Realocar preço com novas linhas da ordem** para abrir a página **Realocar preço com novas linhas da ordem**. Como alternativa, acesse **Reconhecimento de receita \> Tarefas periódicas \> Realocar preço com novas linhas da ordem**. Selecione as duas ordens de venda e as linhas correspondentes dela e depois selecione **Atualizar realocação**. A coluna **Valor realocado** mostra o novo preço da receita de cada linha da ordem de venda.
 
-[![Novos preços de receita na página Realocar o preço com novas linhas da ordem](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
+[![Novos preços de receita na página Realocar o preço com novas linhas da ordem.](./media/10_rev-rec-scenarios.png)](./media/10_rev-rec-scenarios.png)
 
 Se você selecionar **Comprovante esperado**, nada será exibido porque nenhuma fatura foi lançada.
 
@@ -55,7 +55,7 @@ Para concluir a realocação, selecione **Processar**. Você será solicitado a 
 > [!TIP]
 > Para fornecer um contexto sobre o motivo pelo qual esses itens adicionais são mostrados, você pode adicionar outras colunas à grade, como **ID de realocação** e **Ordem de venda**.
 > 
-> [![Colunas adicionais na página Alocações de preço de receita](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
+> [![Colunas adicionais na página Alocações de preço de receita.](./media/11_rev-rec-scenarios.png)](./media/11_rev-rec-scenarios.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

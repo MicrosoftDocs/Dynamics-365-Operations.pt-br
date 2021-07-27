@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4618ff2d6880f478683fbed0ed716af5ab8d4d9c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8b95975f5be9ef49eee2fd6c6ff1cbbde49c9336
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842240"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350585"
 ---
 # <a name="manual-update-of-asset-counters"></a>Atualização manual de contadores de ativo
 
@@ -54,7 +54,7 @@ Observe os seguintes pontos:
 
 A ilustração a seguir mostra um exemplo da página **Contadores de ativos**.
 
-![Figura 1](media/11-work-orders.png)
+![Figura 1.](media/11-work-orders.png)
 
 Na página **Contadores de ativos** (**Gerenciamento de ativos** > **Consultas** > **Ativos** > **Contadores de ativos**), você pode criar registros de contador em vários ativos ao mesmo tempo, conforme o necessário.
 

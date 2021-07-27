@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6fce4e2cb8c5507769533a875e23ccc4531abf51
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020130"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352825"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>O desempenho do cálculo de impostos afeta as transações
 
@@ -36,7 +36,7 @@ Em seguida, você pode determinar se alguma das seguintes condições é atendid
 - Várias sessões processam o mesmo cálculo de impostos de transação ao mesmo tempo.
 - A transação tem várias linhas, e as exibições são atualizadas em tempo real. Por exemplo, o campo **Valor do imposto calculado** na página **Diário geral** é atualizado em tempo real quando os campos de uma linha são alterados.
 
-   [![Campo Valor do imposto calculado na página Comprovante de diário](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
+   [![Campo Valor do imposto calculado na página Comprovante de diário.](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture1.png)
 
 Se qualquer uma dessas condições for atendida, adie o cálculo de impostos.
 
@@ -53,11 +53,11 @@ Revise a linha do tempo da pilha de chamadas para determinar se os seguintes pro
 
 - A transação faz com que o sistema pare de responder até que a sessão seja finalizada. Portanto, a transação não pode calcular o resultado do imposto. A ilustração a seguir mostra a caixa de mensagem "Sessão finalizada" que você recebe.
 
-    [![Mensagem Sessão finalizada](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
+    [![Mensagem Sessão finalizada.](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture2.png)
 
 - Os métodos **TaxUncommitted** levam mais tempo do que outros métodos. Por exemplo, na ilustração a seguir, o método **TaxUncommitted::updateTaxUncommitted()** leva 43.347,42 segundos, mas outros métodos levam 0,09 segundo.
 
-    [![Durações dos métodos](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
+    [![Durações dos métodos.](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)](./media/tax-calculation-bad-performance-impacts-transaction-Picture3.png)
 
 ## <a name="customizing-and-calling-tax-calculation"></a>Personalizar e chamar o cálculo de impostos
 

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d1378ae652ea70cba941316f4667052dcb05f717
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71aefbc9c041074225b379d90db5cecf3849cb59
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812898"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347701"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Melhorar o desempenho do mecanismo de agendamento
 
@@ -66,11 +66,11 @@ Como exemplo, considere um roteiro mostrado na tabela e imagem a seguir, que par
 | 10 | Secundário&nbsp;1 | | | | 1 | 20 |
 | 20 | Principal | | 3.00 | 1.00 | 3 | 0 |
 
-![Exemplo de diagrama de roteiros](media/scheduling-engine-route.png "Exemplo de diagrama de roteiros")
+![Exemplo de diagrama de roteiros.](media/scheduling-engine-route.png "Exemplo de diagrama de roteiros")
 
 Ao enviá-lo para o mecanismo, ele é dividido em oito trabalhos, conforme mostrado na ilustração a seguir (selecione a imagem para ampliá-la).
 
-[![Trabalhos do mecanismo de agendamento](media/scheduling-engine-jobs.png "Trabalhos do mecanismo de agendamento")](media/scheduling-engine-jobs-large.png)
+[![Trabalhos do mecanismo de agendamento](media/scheduling-engine-jobs.png "Trabalhos do mecanismo de agendamento."](media/scheduling-engine-jobs-large.png)
 
 O link padrão entre dois trabalhos é `FinishStart`, o que significa que a hora de término de um trabalho deve ser anterior à hora de início de outro trabalho. Como a configuração deve ser executada pelo mesmo recurso que posteriormente fará o processo, há restrições `OnSameResource` entre eles. Entre os trabalhos da operação principal e secundária para 10, há links `StartStart` e `FinishFinish`, o que significa que os trabalhos devem ser iniciados e concluídos na mesma hora, e há restrições `NotOnSameResource`, o que impedirá que o mesmo recurso seja principal e secundário.
 

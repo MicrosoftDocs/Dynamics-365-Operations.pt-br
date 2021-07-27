@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ecdf4e5618d3397527bf83977857fbe3f8dbb265
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799170"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349593"
 ---
 # <a name="create-a-default-customer"></a>Criar um cliente padrão
 
@@ -47,7 +47,7 @@ Para criar um grupo de clientes, siga estas etapas.
 
 A imagem a seguir mostra vários grupos de clientes configurados.
 
-![Grupos de clientes](media/customer-groups.png)
+![Grupos de clientes.](media/customer-groups.png)
 
 ## <a name="create-a-customer-address-book"></a>Criar um catálogo de endereços do cliente
 
@@ -63,7 +63,7 @@ Para criar um catálogo de endereços do cliente, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de catálogo de endereços.
 
-![Catálogo de endereços](media/address-book.png)
+![Catálogo de endereços.](media/address-book.png)
 
 ## <a name="create-a-default-customer&quot;></a>Criar um cliente padrão
 
@@ -86,11 +86,11 @@ Para criar um cliente padrão, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de criação de cliente.
 
-![Criação de cliente padrão](media/default-customer-creation.png)
+![Criação de cliente padrão.](media/default-customer-creation.png)
 
 A imagem a seguir mostra a configuração de um cliente padrão.
 
-![Configuração de cliente de exemplo](media/default-customer-configuration1.png)
+![Configuração de cliente de exemplo.](media/default-customer-configuration1.png)
 
 A maioria dos valores padrão na tela de detalhes do cliente pode permanecer, mas dois valores devem ser alterados.
 
@@ -100,7 +100,7 @@ A maioria dos valores padrão na tela de detalhes do cliente pode permanecer, ma
 
 A imagem a seguir mostra um exemplo de configuração de cliente.
 
-![Exemplo de configuração de cliente](media/default-customer-configuration2.png)
+![Exemplo de configuração de cliente.](media/default-customer-configuration2.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

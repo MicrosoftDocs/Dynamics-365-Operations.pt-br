@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 470b4fa1c8b15ae4a9e9ebef81af9e4ca107422d
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 1e48c02ecc9d69cf14ed257aae56081925cedfe9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6223977"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355385"
 ---
 # <a name="electronic-reporting-formula-language"></a>Linguagem da fórmula de relatório eletrônico
 
@@ -117,15 +117,15 @@ Quando uma expressão referencia uma fonte de dados estruturada, você pode usar
 
 Se o caminho de uma fonte de dados estruturada começar com um sinal de "arroba" (@), é um caminho relativo. O sinal de "at" é mostrado em vez da parte restante do caminho absoluto da estrutura de árvore hierárquica que é usada. A ilustração a seguir mostra um exemplo. Aqui, o caminho absoluto `Ledger.'accountingCurrency()'` indica que o valor da moeda contábil da fonte de dados **Razão** é inserido no campo **AccountingCurrency** do modelo de dados.
 
-![Exemplo de um caminho absoluto na página do designer de mapeamento do modelo ER](./media/ER-FormulaLanguage-AbsolutePath.png)
+![Exemplo de um caminho absoluto na página do designer de mapeamento do modelo ER.](./media/ER-FormulaLanguage-AbsolutePath.png)
 
 O exemplo na ilustração a seguir mostra como um caminho relativo é usado. O caminho relativo `@.AccountNum` indica que o campo **AccountNum** da fonte de dados **Intrastat** (que aparece um nível acima do campo **AccountNum** na árvore hierárquica do modelo de dados) é usado para inserir o número de conta do cliente ou do fornecedor no campo **AccountNum** do modelo de dados.
 
-![Exemplo de um caminho relativo na página do designer de mapeamento do modelo ER](./media/ER-FormulaLanguage-RelativePath1.png)
+![Exemplo de um caminho relativo na página do designer de mapeamento do modelo ER.](./media/ER-FormulaLanguage-RelativePath1.png)
 
 A parte restante do caminho absoluto também é mostrada no [Editor de fórmula ER](general-electronic-reporting-formula-designer.md).
 
-![Parte restante do caminho absoluto na página do designer de fórmula ER](./media/ER-FormulaLanguage-RelativePath2.png)
+![Parte restante do caminho absoluto na página do designer de fórmula ER.](./media/ER-FormulaLanguage-RelativePath2.png)
 
 Para obter mais informações, consulte [Usar um caminho relativo em associações de dados de modelos e formatos de ER](relative-path-data-bindings-er-models-format.md).
 

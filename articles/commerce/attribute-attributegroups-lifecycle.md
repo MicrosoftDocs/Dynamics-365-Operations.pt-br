@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: a49a0d05a55e72b5dae17933d38d03287a01d5ee
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936795"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346795"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gerenciar atributos e grupos de atributos
 
@@ -70,7 +70,7 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
     - Nomeie um tipo de atributo **Formato de lente** e adicione os seguintes valores: **Oval**, **Quadrado** e **Retangular**.
     - Nomeie o outro tipo de atributo **Marca de óculos escuros** e adicione os seguintes valores: **Ray-Ban**, **Aviador** e **Oakley**.
 
-![Tipos de atributos](media/AttributeType.png)
+![Tipos de atributos.](media/AttributeType.png)
 
 ### <a name="set-up-an-attribute"></a>Configurar um atributo
 
@@ -79,7 +79,7 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 3. Crie um atributo chamado **Lente**.
 4. Defina o campo **Tipo de atributo** como **Formato de lente**.
 
-![Atributos](media/Attribute.png)
+![Atributos.](media/Attribute.png)
 
 ## <a name="attribute-metadata"></a>Metadados de atributo
 
@@ -134,7 +134,7 @@ A página **Preferências de exibição do filtro** inclui os seguintes campos:
     - 200 – 500
     - 500 ou mais
 
-![Configurações de filtro do atributo](media/AttributeFilterSettings.PNG)
+![Configurações de filtro do atributo.](media/AttributeFilterSettings.PNG)
 
 ## <a name="attribute-groups"></a>Grupos de atributos
 
@@ -142,7 +142,7 @@ Depois que os atributos forem definidos, poderão ser atribuídos a grupos de at
 
 Você também pode definir valores padrão para atributos que estejam incluídos em um grupo de atributos. Por exemplo, você adiciona um atributo para cor a um grupo de atributos e seleciona **Azul** como o valor do atributo padrão. Nesse caso, quando o grupo de atributos for adicionado a um produto que inclua cor como um de seus atributos, **Azul** aparecerá como a cor padrão desse produto.
 
-![Grupos de atributos](media/AttributeGroup.png)
+![Grupos de atributos.](media/AttributeGroup.png)
 
 ### <a name="create-an-attribute-group"></a>Criar um grupo de atributos
 
@@ -155,7 +155,7 @@ Você também pode definir valores padrão para atributos que estejam incluídos
 
 Um ou mais grupos de atributo podem ser associados a nós de categoria nos seguintes tipos de hierarquias de categorias: Hierarquia de produtos de comércio, Hierarquia de categoria de navegação de canal e Hierarquia de categoria de produtos complementares. Então, quando os produtos são categorizados, eles herdam os atributos incluídos nos grupos de atributos.
 
-![Hierarquia de produtos – Grupos de atributo de produto](media/AGRetailProdHierarchy.PNG)
+![Hierarquia de produtos – Grupos de atributo de produto.](media/AGRetailProdHierarchy.PNG)
 
 Siga estas etapas para atribuir grupos de atributo a categorias na Hierarquia de produtos de comércio.
 
@@ -200,7 +200,7 @@ Um ou mais grupos de atributo podem ser associados a uma ou mais lojas na hierar
     3. Selecione o nó de categoria **Acessórios de moda**, a categoria **Óculos escuros** e, em seguida, na Guia Rápida **Atributos de produto do canal**, selecione **Incluir atributo** para cada atributo.
     4. Selecione o nó de categoria **Menswear**, a categoria **Calças** e, em seguida, na Guia Rápida **Atributos de produto do canal**, selecione **Incluir atributo** para cada atributo.
 
-![Categorias do canal e atributos de produto – Grupos de atributos](media/CCPAttrGrp.png)
+![Categorias do canal e atributos de produto – Grupos de atributos.](media/CCPAttrGrp.png)
 
 ## <a name="overriding-attribute-values"></a>Substituição de valores de atributo
 
@@ -214,7 +214,7 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 4. Selecione o produto obrigatório na grade. Em seguida, no Painel de Ação, na guia **Produto**, no grupo **Configurar**, selecione **Atributos de produto**.
 5. Selecione um atributo no painel esquerdo e atualize seu valor no painel direito.
 
-![Página de detalhes do produto – Grupos de atributos do produto](media/ProdDetailsProdAttrValues.png)
+![Página de detalhes do produto – Grupos de atributos do produto.](media/ProdDetailsProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Substituir os valores de atributo de produtos em um catálogo
 
@@ -233,7 +233,7 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
     > [!NOTE]
     > Se mídia de produto e atributos de produto compartilhados forem criados, eles se aplicarão a todos os produtos.
 
-![Grupos de atributos de produto do catálogo](media/CatalogProdAttrValues.png)
+![Grupos de atributos de produto do catálogo.](media/CatalogProdAttrValues.png)
 
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Substituir os valores de atributo de produtos em um canal
 

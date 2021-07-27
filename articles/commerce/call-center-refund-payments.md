@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e3837ccebca0e6644ac5ded98344a5135cfb5d7a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 130f570646d73e37a790ab90ae9a1d6a48b0f8b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799580"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351360"
 ---
 # <a name="refund-payment-processing-in-call-centers"></a>Reembolsar processamento de pagamentos em call centers
 
@@ -37,7 +37,7 @@ O call center usa o método de pagamento da ordem original para determinar o mé
 
     A ilustração a seguir mostra a configuração de um cenário em que um cliente devolve produtos de uma ordem de venda vinculada à moeda USD e que foi paga originalmente usando o tipo de pagamento normal ou em cheque. Neste cenário, um reembolso será emitido para o cliente por meio de um cheque de reembolso gerado pelo sistema. O método de pagamento **REF-CHK** foi configurado como um tipo de pagamento de cheque de reembolso.
 
-    ![Configuração dos métodos de reembolso de call center para pagamentos originais normal e em cheque](media/callcenterrefundmethods.png)
+    ![Configuração dos métodos de reembolso de call center para pagamentos originais normal e em cheque.](media/callcenterrefundmethods.png)
 
 - **Cartão de crédito** – quando uma ordem de devolução criada faz referência a uma ordem original que foi paga usando um cartão de crédito, a lógica de call center para pagamentos de reembolso aplica o mesmo cartão de crédito original à ordem de devolução.
 - **Cartão-fidelidade** – quando uma ordem de devolução criada faz referência a uma ordem original que foi paga usando um cartão-fidelidade, a lógica de call center para pagamentos de reembolso aplica o reembolso mesmo cartão-fidelidade.
@@ -48,7 +48,7 @@ Se o tipo de pagamento da ordem original for desconhecido por algum motivo ou se
 
 A ilustração a seguir mostra o campo **Método de pagamento** na guia **RMA/devolução** da página **Parâmetros de call center**.
 
-![Campo Método de pagamento na guia RMA/devolução da página Parâmetros de call center](media/callcenterrefundparameters.png)
+![Campo Método de pagamento na guia RMA/devolução da página Parâmetros de call center.](media/callcenterrefundparameters.png)
 
 > [!NOTE]
 > As regras de processamento de reembolso descritas anteriormente também se aplicam a ordens ou linhas de ordem que um usuário de call center cancela na sede do Commerce. Se o cancelamento de uma ordem ou linhas de ordem específicas gerarem pagamentos excedente, as mesmas regras serão usadas para gerar linhas de pagamento de reembolso.
@@ -82,7 +82,7 @@ Uma configuração **Sim** para a opção **Aplicar crédito** será aplicável 
 > [!NOTE]
 > Para uma ordem de devolução que não tenha ordem de substituição vinculada, uma configuração **Sim** para a opção **Aplicar crédito** não terá efeito na lógica de pagamento da ordem de devolução, pois essa configuração se aplica somente a ordens de substituição.
 
-![Campo Aplicar método de pagamento de créditos na guia RMA/devolução da página Parâmetros de call center](media/callcenterrefundparameters1.png)
+![Campo Aplicar método de pagamento de créditos na guia RMA/devolução da página Parâmetros de call center.](media/callcenterrefundparameters1.png)
 
 > [!IMPORTANT]
 > Se os usuários que criarem ordens de substituição pretenderem usar a opção **Aplicar crédito**, eles não deverão executar a função **Concluir** na ordem de devolução antes de definir a opção **Aplicar crédito** como **Sim**. Após a execução da função **Concluir**, o pagamento de reembolso será calculado e aplicado à ordem de venda de devolução. Qualquer tentativa de definir a opção **Aplicar crédito** como **Sim** após um pagamento de reembolso ter sido calculado e aplicado não disparará um recálculo do pagamento de reembolso, e o método de pagamento selecionado no campo **Aplicar método de pagamento de créditos** não será aplicado. Se a opção **Aplicar crédito** precisar ser usada neste contexto, o usuário deverá excluir a ordem de substituição e a RMA e, depois, reiniciar e criar uma nova RMA. Desta vez, o usuário deve verificar se a opção **Aplicar crédito** está definida como **Sim** antes da execução da função **Concluir**.
@@ -91,14 +91,14 @@ Uma configuração **Sim** para a opção **Aplicar crédito** será aplicável 
 
 Embora a lógica do call center determine sistematicamente o método de pagamento de reembolso da maneira descrita anteriormente neste tópico, os usuários às vezes podem desejar substituir esses pagamentos. Por exemplo, um usuário pode editar ou remover as linhas de pagamento de reembolso existentes e aplicar novas linhas de pagamento. Os pagamentos de reembolso calculados pelo sistema só podem ser alterados por usuários que tenham as permissões de substituição corretas. Essas permissões podem ser configuradas na página **Substituir permissões** no Retail e Commerce. Para fazer uma substituição de pagamento de reembolso, o usuário deve estar vinculado a uma função de segurança em que a opção **Permitir pagamento alternativo** está definida como **Sim** na página **Substituir permissões**.
 
-![Opção Permitir pagamento alternativo na página Substituir permissões](media/overridepermissions.png)
+![Opção Permitir pagamento alternativo na página Substituir permissões.](media/overridepermissions.png)
 
 Como alternativa, uma organização pode definir a opção **Permitir substituição de pagamento** como **Sim** na guia **RMA/devolução** da página **Parâmetros de call center**. Nesse caso, um código de substituição de segurança deve ser selecionado no campo **Código de Substituição de Segurança**. O código de substituição de segurança é um código alfanumérico que deve ser gerenciado externamente, pois os usuários não podem exibi-lo na sede do Commerce após defini-lo. O código de substituição de segurança deve ser conhecido por poucas pessoas confiáveis em uma organização. Quando a opção **Permitir substituição de pagamento** estiver definida como **Sim**, se algum usuário sem as permissões de função corretas tentar alterar o método de pagamento em uma ordem de devolução, ele terá a opção de inserir o código de substituição de segurança. Se ele não souber esse código ou se um gerente ou um supervisor não puder inseri-lo na página, ele não poderá substituir o método de pagamento de devolução.
 
 > [!NOTE]
 > Se o código de substituição de segurança for perdido ou esquecido, a organização precisará redefini-lo. Para isso, ela deverá definir um novo código de substituição de segurança no campo **Código de Substituição de Segurança** na guia **RMA/devolução** da página **Parâmetros de call center**.
 
-![Parâmetros de substituição de pagamento na guia RMA/devolução da página Parâmetros de call center](media/overridepaymentparameter.png)
+![Parâmetros de substituição de pagamento na guia RMA/devolução da página Parâmetros de call center.](media/overridepaymentparameter.png)
 
 > [!IMPORTANT]
 > Antes que as organizações tentem substituir os pagamentos de reembolso que usam tipos de pagamento por cartão de crédito, elas devem verificar se o processador de cartão de crédito permite reembolsos não vinculados. Muitos processadores exigem que os reembolsos sejam lançados novamente no cartão original. Qualquer tentativa de emitir um reembolso para um cartão sem capturas anteriores poderá causar falhas de lançamento com o processador.

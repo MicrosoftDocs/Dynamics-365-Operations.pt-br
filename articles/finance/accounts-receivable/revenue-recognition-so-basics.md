@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e9c6423a7fb604005d4fb7f1eca05a1ef7d210e5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce0879565babfbf526e1aa6864482e60cbabd377
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817212"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345587"
 ---
 # <a name="revenue-recognition-on-sales-orders"></a>Reconhecimento de receita em ordens de venda
 
@@ -36,7 +36,7 @@ Este tópico descreve a funcionalidade básica para reconhecer receitas em orden
 
 A ordem de venda a seguir é inserida e inclui três itens configurados para o reconhecimento de receita.
 
-[![Inserir uma ordem de venda](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
+[![Inserir uma ordem de venda.](./media/revenue-recognition-so-basic-sales-order-header.png)](./media/revenue-recognition-so-basic-sales-order-header.png)
 
 Há dois conceitos para o reconhecimento de receita:
 
@@ -45,17 +45,17 @@ Há dois conceitos para o reconhecimento de receita:
 
     Neste exemplo, o primeiro item, S0001, é atribuído a um a agenda de receita **1O** (uma ocorrência). Essa linha representará um cenário semelhante a um marco, no qual a receita é reconhecida após a instalação. Portanto, a receita será adiada até que a instalação seja concluída.
 
-    O segundo item, S0008, é um item de serviço configurado como um item de suporte pós-contrato (PCS). Os serviços sustentados da engenharia são proporcionados ao cliente durante um período de 12 meses. Portanto, uma agenda de receita **12M** é atribuída ao produto por padrão. Como esse item é do PCS, a data de início e término do contrato devem ser definidas. Por padrão, o início do contrato e as datas de início e término são encontradas em Detalhes do item — guia Configuração. Na agenda de receita, as definições são configuradas para **12M** de modo que os termos do contrato sejam automaticamente preenchidos conforme mostrado na ilustração.
+    O segundo item, S0008, é um item de serviço configurado como um item de suporte pós-contrato (PCS). Os serviços sustentados da engenharia são proporcionados ao cliente durante um período de 12 meses. Portanto, uma agenda de receita **12M** é atribuída ao produto por padrão. Como esse item é do PCS, a data de início e término do contrato devem ser definidas. Por padrão, as datas de início e término do contrato são encontradas em Detalhes do item — guia Configuração. Na agenda de receita, as definições são configuradas para **12M** de modo que os termos do contrato sejam automaticamente preenchidos conforme mostrado na ilustração.
 
-    [![Agendas de receita](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
+    [![Agendas de receita.](./media/revenue-recognition-so-basic-revenue-schedules.png)](./media/revenue-recognition-so-basic-revenue-schedules.png)
 
     O terceiro item, S0012, é hardware, e nenhuma agenda de receita é atribuída por padrão. A receita para o hardware é reconhecida logo após o item ter sido faturado.
 
 ## <a name="confirm-the-sales-order"></a>Confirmar a ordem de venda
 
-Para exibir detalhes sobre o preço da receita e a agenda de receita, use os botões no grupo **Reconhecimento de receita** na guia **Gerenciar** no Painel de Ações da ordem de venda. Como a ordem de venda não foi confirmada nesse momento, os botões usados para o reconhecimento de receita não estão disponíveis. Esses botões ficam disponíveis ou indisponíveis conforme a ordem de venda avança os estágios que levam até a conclusão.
+Para exibir detalhes sobre o preço da receita e a agenda de receita, use os botões no grupo **Reconhecimento de receita** na guia **Gerenciar** no Painel de Ações da ordem de venda. Como a ordem de venda não foi confirmada nesse momento, os botões usados para o reconhecimento de receita não estão disponíveis. Esses botões ficam disponíveis ou indisponíveis conforme a ordem de venda avança os estágios que levam ao atendimento.
 
-[![Cabeçalho de ordem de venda](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
+[![Cabeçalho de ordem de venda.](./media/revenue-recognition-so-basic-sales-order-header-02.png)](./media/revenue-recognition-so-basic-sales-order-header-02.png)
 
 Os três primeiros botões fornecem detalhes sobre o preço de receita para os itens na configuração da ordem de venda para o reconhecimento de receita.
 
@@ -70,11 +70,11 @@ Os dois últimos botões fornecem detalhes sobre a agenda da receita para esses 
 
 Neste exemplo, a alocação de preço da receita ocorreu quando a ordem de venda foi confirmada. Observe, mesmo que os preços de receita sejam alocados de outra forma, o valor total no campo **Reconhecer a receita** ainda deverá ser igual à soma das linhas da ordem de venda faturadas para o cliente. Por exemplo, soma das linhas da ordem de venda, excluindo impostos, é US$ 1.499. Portanto, a soma dos valores **Reconhecer a receita** também deve ser US$ 1.499.
 
-[![Alocação de preço da receita](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
+[![Alocação de preço da receita.](./media/revenue-recognition-so-basic-revenue-price-allocation.png)](./media/revenue-recognition-so-basic-revenue-price-allocation.png)
 
-A agenda reconhecimento de receita estimada também é criada. A agenda de receita usa o valor **Reconhecer a receita** como a quantidade a ser adiada. O item S0001 adia US$ 321,21 em vez de US$ 300, e o item S0008 adia US$ 160,61 em vez de US$ 100. O item S0012 não é exibido na agenda estimada, pois a receita não é adiada. Após o lançamento, o item S0012 lança US$ 1.017,18 diretamente para a conta contábil da receita.
+A agenda de reconhecimento de receita estimada também é criada. A agenda de receita usa o valor **Reconhecer a receita** como a quantidade a ser adiada. O item S0001 adia US$ 321,21 em vez de US$ 300, e o item S0008 adia US$ 160,61 em vez de US$ 100. O item S0012 não é exibido na agenda estimada, pois a receita não é adiada. Após o lançamento, o item S0012 lança US$ 1.017,18 diretamente na conta contábil da receita.
 
-[![Agenda de reconhecimento de receita estimada](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
+[![Agenda de reconhecimento de receita estimada.](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)](./media/revenue-recognition-so-basic-expected-rev-rec-schedule.png)
 
 ## <a name="create-the-packing-slip"></a>Criar guia de remessa
 
@@ -84,17 +84,17 @@ Em seguida, a guia de remessa poderá ser criada para a ordem de venda. Nenhuma 
 
 A etapa final é faturar a ordem de venda. Se olhar o comprovante a fatura, você observará que a receita dos itens S0001 e S0008 foi adiada (US$ 321,21 + 160,61 = 481,82), e o valor restante para o item S0012 foi lançado na receita (1.017,18). Esses valores somam até US$ 1.499, correspondendo à soma das linhas de ordem de venda.
 
-[![Comprovantes de transações](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
+[![Comprovantes de transações.](./media/revenue-recognition-so-voucher-transactions.png)](./media/revenue-recognition-so-voucher-transactions.png)
 
-Depois que a fatura é criada, os botões **Alocação de preço da receita**, **Realocar o preço com novas linhas de ordem** e **Agenda de reconhecimento de receita** para o reconhecimento de receita são disponibilizados, mas os botões **Alocação de preço da receita de atualização** e **Agenda de reconhecimento de receita estimada** não estão disponíveis.
+Depois que a fatura é criada, os botões **Alocação de preço da receita**, **Realocar o preço com novas linhas de ordem** e **Agenda de reconhecimento de receita** para o reconhecimento de receita são disponibilizados, mas os botões **Atualizar preço da receita de alocação** e **Agenda de reconhecimento de receita estimada** não estão disponíveis.
 
-[![Disponibilidade do botão de reconhecimento de receita disponível](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
+[![Disponibilidade do botão de reconhecimento de receita disponível.](./media/revenue-recognition-so-basic-after-invoice-buttons.png)](./media/revenue-recognition-so-basic-after-invoice-buttons.png)
 
 O botão **Alocação de preço da receita** ainda está disponível, permitindo exibir o cálculo de preço da receita. Se nada for alterado na ordem de venda após ter sido confirmada, lançar a fatura não mudará o valor calculado no campo **Reconhecer a receita**.
 
-A agenda de reconhecimento de receita estimada será removida e substituída pela agenda de reconhecimento de receita final. Os detalhes da agenda de receita serão mantidos para cada linha de ordem de venda e são usados para liberar a receita adiada para a receita atual conforme as obrigações contratuais forem atendidas.
+A agenda de reconhecimento de receita estimada será removida e substituída pela agenda de reconhecimento de receita final. Os detalhes da agenda de receita serão mantidos para cada linha de ordem de venda e são usados para liberar a receita adiada para a receita atual conforme as obrigações contratuais são atendidas.
 
-[![Agenda de reconhecimento de receita final](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
+[![Agenda de reconhecimento de receita final.](./media/revenue-recognition-so-revenue-recognition-schedule.png)](./media/revenue-recognition-so-revenue-recognition-schedule.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

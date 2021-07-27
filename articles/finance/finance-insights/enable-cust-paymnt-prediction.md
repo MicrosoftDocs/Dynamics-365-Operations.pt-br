@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: ae957f592ad9a1237817fec5d4172295f9a53020
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: a9b2e8d46debf8e065361d85f10162cda56b62e8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222576"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349025"
 ---
 # <a name="enable-customer-payment-predictions-preview"></a>Habilitar previsões de pagamento do cliente (versão prévia)
 
@@ -51,7 +51,7 @@ Este tópico explica como habilitar e configurar o recurso de previsões de paga
 
     1. Acesse **Crédito e cobranças \> Configuração \> Finance Insights \> Parâmetros do Finance Insights**.
 
-        [![Parâmetros de informações financeiras antes do recurso ser configurado](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
+        [![Parâmetros de informações financeiras antes do recurso ser configurado.](./media/finance-insights-parameters.png)](./media/finance-insights-parameters.png)
 
     2. Na página **Parâmetros de informações financeiras**, na guia **Informações de pagamento do cliente**, selecione **Exibir os campos de dados usados no link do modelo de previsão** para abrir a página **Campos de dados para o modelo de previsão**. Nela, você pode exibir a lista padrão de campos usados para criar o modelo de previsão de inteligência artificial (AI) para previsões de pagamento do cliente.
 
@@ -77,7 +77,7 @@ Este tópico explica como habilitar e configurar o recurso de previsões de paga
 
 Depois que o recurso for ativado e configurado e o modelo de previsão tiver sido criado e estiver funcionando, a seção **Modelo de previsão** da página **Parâmetros de informações financeiras** mostrará a precisão do modelo, conforme mostrado na ilustração a seguir.
 
-[![Precisão do modelo de previsão na página Parâmetros de informações financeiras](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
+[![Precisão do modelo de previsão na página Parâmetros de informações financeiras.](./media/finance-insights-parameters-accuracy.png)](./media/finance-insights-parameters-accuracy.png)
 
 ## <a name="release-details"></a>Detalhes da liberação
 
