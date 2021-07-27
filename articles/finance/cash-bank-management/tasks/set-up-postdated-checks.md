@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0d4afd74f9a0f9018629fa92ab6595bfa94f973
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026196"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309757"
 ---
 # <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
 
@@ -58,6 +58,7 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
 > 
 > Ao configurar o **Método de pagamento** (**Contas a pagar > Configuração de pagamento > Métodos de pagamento**), não preencha **Conta de ponte**. Nesse caso, a conta de compensação é preenchida com a conta bancária, que é configurada no **Método de pagamento**.
 >  
-> Quando o recurso é habilitado e a data da sessão é inferior à data de vencimento, a seguinte mensagem de erro é exibida ao postar um diário de pagamento, "A data de vencimento deve ser inferior ou igual à data da sessão se o tipo de conta de compensação for Banco". Se o recurso não estiver habilitado, você pode postar um diário de pagamento com um cheque prédatado quando a data da sessão for inferior à data de vencimento.    
+> Quando o recurso é habilitado e a data da sessão é inferior à data de vencimento, a seguinte mensagem de erro é exibida ao postar um diário de pagamento, "A data de vencimento deve ser inferior ou igual à data da sessão se o tipo de conta de compensação for Banco". Se o recurso não estiver habilitado, você pode postar um diário de pagamento com um cheque prédatado quando a data da sessão for inferior à data de vencimento.
+> Este recurso está disponível na versão 10.0.21 e posterior.    
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

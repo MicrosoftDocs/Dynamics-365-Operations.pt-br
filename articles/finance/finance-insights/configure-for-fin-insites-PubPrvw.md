@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2021-06-03
 ms.dyn365.ops.version: AX 10.0.20
-ms.openlocfilehash: 613bd4816e2f0c4fbb56cf79779a08c6a09592bd
-ms.sourcegitcommit: 655b0e16c7aef6182cd58bc816b901470e1bb2ce
+ms.openlocfilehash: eeb3061f215666d0aeb32094b5d04a9ae6e618f2
+ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6222603"
+ms.lasthandoff: 06/28/2021
+ms.locfileid: "6309656"
 ---
 # <a name="configuration-for-finance-insights-for-public-preview-preview---version-10020-and-later"></a>Configuração para o Finance Insights para versão preliminar pública - versão 10.0.20 e posterior
 
@@ -33,7 +33,7 @@ ms.locfileid: "6222603"
 Os insights do Finance combinam a funcionalidade do Microsoft Dynamics 365 Finance com o Dataverse, o Azure e o AI Builder para fornecer ferramentas de previsão importantes para sua organização. Este tópico explica como configurar o Dynamics 365 Finance versão 10.0.20 para que o seu sistema possa usar os recursos disponíveis na versão preliminar pública do Finance Insights.
 
 > [!NOTE]
-> As etapas de configuração que são descritas neste tópico aplicam-se somente ao Finance versão 10.0.20 e posterior. 'Para configurar o Finance Insights nas versões 10.0.19 e anteriores, consulte [Configuração para o Finance Insights - versões até 10.0.18](configure-for-fin-insites.md).
+> As etapas de configuração que são descritas neste tópico aplicam-se somente ao Finance versão 10.0.20 e posterior. 'Para configurar o Finance Insights nas versões 10.0.19 e anteriores, consulte [Configuração para o Finance Insights - versões até 10.0.19](configure-for-fin-insites.md).
 
 ## <a name="deploy-finance"></a>Implantação no Finance
 
@@ -748,6 +748,8 @@ Para instalar o suplemento do Finance Insights, siga estas etapas.
 2. Na seção **Suplementos de ambiente**, selecione **Instalar um novo suplemento**.
 3. Selecione o suplemento do **Finance Insights**.
 4. Aceite os termos e selecione **Instalar**.
+
+O suplemento pode demorar vários minutos para ser instalado.
 
 ## <a name="feedback-and-support"></a>Comentários e suporte
 

@@ -2,11 +2,11 @@
 title: Configurar os componentes de um trabalho
 description: Este artigo descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização.
 author: andreabichsel
-ms.date: 06/20/2017
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace
+ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle, HcmPersonnelManagementWorkspace, HCMJobFamily
 audience: Application User
 ms.author: anbichse
 ms.search.scope: Human Resources
@@ -15,12 +15,12 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 88dc3cec4880fdcb4d4f8d54b03037f738d2a57a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d4e24e64f3fece0807df8fbf4fb206c4588c9332
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056560"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333084"
 ---
 # <a name="set-up-the-components-of-a-job"></a>Configurar os componentes de um trabalho
 
@@ -44,6 +44,11 @@ Você usa tipos de trabalho para agrupar trabalhos semelhantes em categorias. Ti
 -   **Não isento** – Os trabalhos não estão isentos de horas extras de acordo com a FLSA.
 -   **Não se aplica** – A cobertura da FLSA não é aplicável.
 
+## <a name="job-family"></a>Família do trabalho
+Uma família de trabalho é um grupo de trabalhos que envolve trabalho semelhante e que exige treinamento, habilidades, conhecimento e experiência semelhantes. Uma família de trabalho pode ser vinculada a um trabalho na guia rápida **Classificação de trabalho** da página **Trabalhos** e na guia **Geral** da página **Todas os cargos**. As famílias de trabalho podem ser amplas ou específicas, dependendo de suas necessidades comerciais e de relatórios. Alguns exemplos de famílias de trabalho amplas são **Mão-de-obra experiente** e **Mão-de-obra inexperiente**. Alguns exemplos de famílias de trabalhos específicas são **Contabilidade**, **Fabricação** e **Vendas**.
+
+Mantenha famílias de trabalho usando a página **Famílias de trabalho**, que você pode abrir por meio da função de pesquisar. Na página **Família de trabalho**, insira um nome exclusivo para a família e digite uma descrição detalhada que você planeja usar para seus trabalhos.
+
 ## <a name="job-functions"></a>Funções de trabalho
 Junções de trabalho descrevem categorias funcionais de alto nível e direitos de alto nível relacionados. Junções de trabalho não são necessárias. Você pode usar essas funções, juntamente com tipos de trabalho, a fim de filtrar planos de remuneração para trabalhos específicos. Para associar funções e tipos de trabalho a planos de remuneração, configure regras de qualificação na página **Regras de qualificação**. Você então pode associar ao plano de remuneração um conjunto de níveis aplicáveis à combinação específica de tipo/função de trabalho definida por meio de uma regra de qualificação. (Esses recursos se aplicam aos planos de remuneração fixos e variáveis.) No entanto, se planeja usar funções de trabalho ao configurar regras de qualificação para o gerenciamento de remuneração, você deve configurar funções de trabalho antes de configurar os trabalhos. A tabela a seguir mostra alguns exemplos de funções de trabalho.
 
@@ -53,6 +58,14 @@ Junções de trabalho descrevem categorias funcionais de alto nível e direitos 
 | Contador    | Profissionais        |
 
 Você mantém funções de trabalho usando a página **Funções de trabalho**. Na página **Funções de trabalho**, insira um código de identificação e uma breve descrição para a função de trabalho.
+
+## <a name="compensation"></a>Remuneração
+Para atribuir um plano de remuneração fixa a um funcionário que tem um cargo em um trabalho, você deve definir os níveis de remuneração no trabalho. O nível de remuneração é usado quando os valores mínimo, intermediário e máximo são definidos em uma estrutura de remuneração (grade de remuneração). Quando um plano de remuneração fixa é criado, a estrutura de remuneração é selecionada. A estrutura de remuneração também inclui o nível de remuneração. Quando você seleciona um plano de remuneração fixa para um funcionário, os níveis de remuneração disponíveis para seleção dependem do trabalho ao qual o cargo do funcionário está associado. Para obter mais informações sobre como configurar a remuneração, consulte [Planos de remuneração](hr-compensation-overview.md).
+
+## <a name="job-skills"></a>Habilidades de trabalho
+As habilidades de trabalho descrevem as habilidades necessárias para executar um trabalho. Um nível de habilidade deve ser associado a todas as habilidades de trabalho. Os níveis de habilidade são definidos pelo usuário. Eles indicam o nível de conhecimento ou proficiência necessário para a habilidade. Por exemplo, as empresas podem configurar níveis numéricos, como 1 a 5, em que **1** indica um principiante e **5** indica um especialista. Como alternativa, as empresas podem configurar níveis que são rotuladas como **Principiante**, **Intermediário** ou **Especialista**. Depois que o nível de habilidade é definido, a importância da habilidade também pode ser definida. Por exemplo, se for necessário que um contador tenha um bom conhecimento de Microsoft Excel, uma habilidade denominada **Conhecimento de Excel** poderá ser criada. O nível de habilidade pode ser definido como **Intermediário** e a importância pode ser definida como a **Mais alta**.
+
+As habilidades que estão em um trabalho podem ser usadas no mapeamento de habilidades. O mapeamento de habilidades pode comparar o conjunto de habilidades necessário para um trabalho e as habilidades associadas a um trabalhador. Em seguida, ele pode determinar uma correspondência de porcentagem, com base nas habilidades sobrepostas. Para saber mais sobre o mapeamento de habilidades, consulte [Configurar habilidades](hr-develop-skills.md). 
 
 ## <a name="job-tasks"></a>Tarefas do trabalho
 Tarefas de trabalho descrevem as tarefas básicas que devem ser realizadas por um trabalhador em um cargo desse trabalho. A mesma tarefa de trabalho pode ser adicionada a vários trabalhos e posições para os trabalhos que usam essas tarefas de trabalho. A tabela a seguir mostra alguns exemplos de tarefas de trabalho.

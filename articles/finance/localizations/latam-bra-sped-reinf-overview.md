@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
+ms.custom: intro-internal
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: c0c1bc25de66d3debf042e05ff60569bcc26abd4
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 6d400cce2335e97eed2fe3f3068329558c230758
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088428"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336582"
 ---
 # <a name="sped-reinf-brazil"></a>SPED-Reinf (Brasil) 
 

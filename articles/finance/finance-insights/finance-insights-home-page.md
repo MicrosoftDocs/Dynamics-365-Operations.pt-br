@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9d7eca35d6e5ce8f434f923fef69a6d13a8ac1b3
-ms.sourcegitcommit: c9f55e64416d0bbedfdadafb00e4181921ad0f37
+ms.openlocfilehash: f0d709ef81fd43c009bf36aba2d4be949b1a737c
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261901"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6338220"
 ---
 # <a name="finance-insights-home-page-preview"></a>Página inicial do Finance insights (versão prévia)
 
@@ -29,9 +31,8 @@ ms.locfileid: "6261901"
 
 O Finance Insights fornece modelos configuráveis e extensíveis para ajudar você a prever de forma precisa e inteligente o fluxo de caixa da sua empresa, prever quando receberá o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode acelerar o processo de orçamento. Todos esses recursos se baseiam nos modelos inteligentes de aprendizado de máquina. Quando esses novos recursos são combinados com a automação em pagamentos e cobranças de fornecedores, eles fornecem um sistema financeiro avançado e inteligente que conduz a tomada de decisões e ajuda você a tomar ações para responder com eficiência a desafios de negócios atuais e antecipados.
 
-A versão prévia do Finance Insights está disponível para implantações de avaliação nos Estados Unidos da América, Europa e Reino Unido. A Microsoft está adicionando suporte para mais regiões de forma incremental.
-
-Os recursos de versão prévia só devem ser ativados em ambientes de área restrita de Camada 2. A Configuração e os Modelos de inteligência artificial (IA) criados em um ambiente de área restrita não podem ser migrados para o ambiente de produção. Para obter mais informações, consulte [Termos de uso suplementares para versões preliminares do Microsoft Dynamics 365](/dynamics365/legal/supp-dynamics365-preview#:~:text=Supplemental%20Terms%20of%20Use%20for%20Microsoft%20Dynamics%20365,%28governing%20your%20use%20of%20Microsoft%20Dynamics%20365%20Online%29.).
+> [!NOTE]
+> A versão preliminar pública do Finance Insights está disponível para implantação nos Estados Unidos da América, Canadá, Reino Unido, Europa, Pacífico Asiático, Austrália e Nova Zelândia. A Microsoft está adicionando suporte para mais regiões de forma incremental. Para habilitar o Finance Insights em ambientes de produção, a [exportação para recursos data Lake](../../fin-ops-core/dev-itpro/data-entities/configure-export-data-lake.md) deve ser habilitada primeiro no ambiente de produção.
 
 > [!NOTE]
 > Essa funcionalidade está sendo oferecida como um conjunto de versões prévias do recurso. Como uma versão prévia do recurso, você não deve usar os modelos de aprendizado de máquina resultantes para impulsionar ou influenciar suas decisões de negócios ou propostas orçamentárias. O uso deste recurso é regido pelos [Termos de Uso Complementares](https://go.microsoft.com/fwlink/?linkid=2105274).
@@ -46,7 +47,7 @@ Para se inscrever no programa de versão prévia, preencha o [contrato do Financ
 
 ### <a name="system-requirements"></a>Requisitos do sistema
 
-É necessário um ambiente de área restrita do nível 2 (várias áreas) para visualizar o Finance Insights. Para obter informações de contexto sobre os ambientes, consulte [Planejamento de ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
+É necessário um ambiente do nível 2 (várias áreas) para visualizar o Finance Insights. Para obter informações de contexto sobre os ambientes, consulte [Planejamento de ambiente](../../fin-ops-core/fin-ops/imp-lifecycle/environment-planning.md).
 
 ### <a name="version-requirements"></a>Requisitos da versão
 
@@ -55,8 +56,6 @@ Este documento aplica-se à versão 10.0.11 de aplicativos do Finance and Operat
 ### <a name="historical-data-requirements"></a>Requisitos de dados históricos
 
 Pelo menos um ano de faturas de clientes é necessário para treinar corretamente o modelo de aprendizado de máquina usado para o recurso de previsões de pagamento do cliente.
-
-Os dados de exemplo estão disponíveis para sistemas de demonstração com o conjunto de dados de demonstração da Contoso.
 
 ### <a name="role-and-permission-requirements"></a>Requisitos de função e permissão
 
@@ -72,7 +71,7 @@ A familiaridade com o processo de criação e gerenciamento de recursos no Azure
 ## <a name="configure-finance-insights"></a>Configurar o Finance Insights
 
 Você deve concluir algumas etapas de configuração para poder usar ao Finance Insights. Para obter mais informações sobre como configurar o Finance Insights, consulte:
-  - Para versões até 10.0.19: [Configuração para o Finance Insights – versões até 10.0.19](configure-for-fin-insites.md).
+  - Para versões até 10.0.19: [Configuração para o Finance Insights (versão preliminar) – Versões até 10.0.19](configure-for-fin-insites.md).
   - Para versões 10.0.20 e posteriores: [Configuração para Finance Insights (versão preliminar) – versões 10.0.20 e posteriores](configure-for-fin-insites-PubPrvw.md).
 
 ## <a name="create-a-data-integrator-project"></a>Criar um projeto integrador de dados

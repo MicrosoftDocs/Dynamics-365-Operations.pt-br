@@ -8,17 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 268704
+ms.custom:
+- "268704"
+- intro-internal
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 129903bbf47e1251f0c7302cfbd92be9c3183d90
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6095d1a64738f7ecefb91450706108613eb54634
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823639"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336586"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 

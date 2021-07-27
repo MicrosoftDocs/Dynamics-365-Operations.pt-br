@@ -355,6 +355,8 @@
           items:
             - name: Introdução
               href: hr-admin-integration-ats-api-introduction.md
+            - name: Autenticação de servidor a servidor para integrações do ATS
+              href: hr-admin-integration-ats-api-s2s-auth.md
             - name: Solicitação de recrutamento e entidades relacionadas
               items:
                 - name: Solicitação de recrutamento
@@ -443,16 +445,40 @@
               href: hr-admin-integration-payroll-api-introduction.md
             - name: Gerar e revisar entidades da folha de pagamento
               href: hr-admin-integration-payroll-api-generate-review-entities.md
-            - name: Funcionário da folha de pagamento
-              href: hr-admin-integration-payroll-api-payroll-employee.md
-            - name: Endereço do trabalhador da folha de pagamento
-              href: hr-admin-integration-payroll-api-payroll-worker-address.md
-            - name: Plano de remuneração fixa da folha de pagamento
-              href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
-            - name: Trabalho da posição na folha de pagamento
-              href: hr-admin-integration-payroll-api-payroll-position-job.md
-            - name: Posição na folha de pagamento
-              href: hr-admin-integration-payroll-api-payroll-position.md
+            - name: Parâmetros de integração da folha de pagamento
+              href: hr-admin-integration-payroll-api-parameters.md
+            - name: Entidades da folha de pagamento
+              items:
+                - name: Funcionário da folha de pagamento
+                  href: hr-admin-integration-payroll-api-payroll-employee.md
+                - name: Endereço do trabalhador da folha de pagamento
+                  href: hr-admin-integration-payroll-api-payroll-worker-address.md
+                - name: Plano de remuneração fixa da folha de pagamento
+                  href: hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md
+                - name: Plano de remuneração variável da folha de pagamento
+                  href: hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md
+                - name: Posição na folha de pagamento
+                  href: hr-admin-integration-payroll-api-payroll-position.md
+                - name: Trabalho da posição na folha de pagamento
+                  href: hr-admin-integration-payroll-api-payroll-position-job.md
+            - name: Entidades relacionadas a licença e ausência
+              items:
+                - name: Saldo de licença
+                  href: hr-admin-integration-payroll-api-leave-balance.md
+                - name: Tipo de licença
+                  href: hr-admin-integration-payroll-api-leave-type.md
+                - name: Solicitação de licença
+                  href: hr-admin-integration-payroll-api-leave-request.md
+            - name: Conjuntos de opções
+              items:
+                - name: Sexo
+                  href: hr-admin-integration-payroll-api-gender.md
+                - name: Não Sim
+                  href: hr-admin-integration-payroll-api-no-yes.md
+                - name: Tipo de prêmio
+                  href: hr-admin-integration-payroll-api-award-type.md
+                - name: Tipo de processo
+                  href: hr-admin-integration-payroll-api-process-type.md
     - name: Guia do Usuário
       items:
         - name: Visão Geral
@@ -599,6 +625,8 @@
           items:
             - name: Organizar sua força de trabalho
               href: hr-personnel-departments-jobs-positions.md
+            - name: Espaço de trabalho de gerenciamento de pessoal
+              href: hr-personnel-personnel-management-workspace.md
             - name: Configurar os componentes de um trabalho
               href: hr-personnel-jobs.md
             - name: Definir departamentos
@@ -607,9 +635,11 @@
               href: hr-personnel-add-department-hierarchy.md
             - name: Definir trabalhos
               href: hr-personnel-define-jobs.md
+            - name: Posições
+              href: hr-personnel-positions.md
             - name: Criar um calendário de horas úteis
               href: hr-personnel-create-working-time-calendar.md
-            - name: Candidatos de trabalho de recrutamento
+            - name: Recrutar candidatos ao trabalho
               href: hr-personnel-recruit.md
             - name: Perguntas frequentes sobre ações de pessoal
               href: hr-personnel-actions-faq.md
@@ -837,3 +867,69 @@
               href: hr-employee-manager-self-service-edit-personal-information.md
             - name: Restringir a edição de informações pessoais
               href: hr-employee-self-service-restrict-editing.md
+        - name: Usar o sistema de Fluxo de Trabalho
+          items:
+            - name: Visão geral do sistema de fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/human-resources/toc.json
+            - name: Arquitetura do sistema de fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-system-architecture.md?toc=/dynamics365/human-resources/toc.json
+            - name: Elementos de fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-elements.md?toc=/dynamics365/human-resources/toc.json
+            - name: Ações de fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-actions.md?toc=/dynamics365/human-resources/toc.json
+            - name: Criar fluxos de trabalho
+              items:
+                - name: Visão geral de criação de fluxos de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/create-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar propriedades do fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar tarefas manuais
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar tarefas automatizadas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar processos de aprovação
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar etapas de aprovação
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar revisores de despesas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar decisões manuais
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar decisões condicionais
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar atividades paralelas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar ramificações paralelas
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Configurar fluxos de trabalho de item de linha
+                  href: ../fin-ops-core/fin-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Configurar o trabalho em lotes do processamento de mensagens de fluxo de trabalho como crítico
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/human-resources/toc.json
+            - name: Delegar itens de trabalho em um fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/human-resources/toc.json
+            - name: Exibir histórico do fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/human-resources/toc.json
+            - name: Configurar o sistema para enviar email relativo ao fluxo de trabalho para os usuários
+              href: ../fin-ops-core/fin-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/human-resources/toc.json
+            - name: Tipos de fluxo de trabalho
+              items:
+                - name: Criando um tipo de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Lista de verificação de tipos de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-checklist.md?toc=/dynamics365/human-resources/toc.json
+                - name: Criar uma categoria de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-category.md?toc=/dynamics365/human-resources/toc.json
+                - name: Criar uma consulta para um tipo de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-query.md?toc=/dynamics365/human-resources/toc.json
+                - name: Criar um novo tipo de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-create-new.md?toc=/dynamics365/human-resources/toc.json
+                - name: Criar uma classe de documento de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-document-create.md?toc=/dynamics365/human-resources/toc.json
+                - name: Criar uma classe SubmitToWorkflow
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-submit-to-workflow.md?toc=/dynamics365/human-resources/toc.json
+                - name: Associar uma classe de documento de fluxo de trabalho com um tipo de fluxo de trabalho
+                  href: ../fin-ops-core/fin-ops/organization-administration/workflow-type-associate-document.md?toc=/dynamics365/human-resources/toc.json
+            - name: Relatório de tipos de fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-types-report.md?toc=/dynamics365/human-resources/toc.json
+            - name: Perguntas frequentes sobre fluxo de trabalho
+              href: ../fin-ops-core/fin-ops/organization-administration/workflow-FAQ.md?toc=/dynamics365/human-resources/toc.json

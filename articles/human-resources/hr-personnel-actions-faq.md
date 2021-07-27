@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre ações de pessoal
 description: Este artigo contém respostas para suas prováveis dúvidas se sua organização utilizar ações de pessoal. As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal.
 author: andreabichsel
-ms.date: 06/16/2017
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: a458800788d8e0df6c1f937a639eff31dcbb2c06
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 05365eabe6f3c283f5828e468c9323c3fa897fb8
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054539"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333010"
 ---
 # <a name="personnel-actions-faq"></a>Perguntas frequentes sobre ações de pessoal
 
@@ -42,7 +42,7 @@ Há dois tipos de ações de pessoal:
 ## <a name="what-do-the-statuses-of-the-personnel-actions-mean"></a>O que os status das ações de pessoal significam?
 As ações de pessoal podem ter os seguintes status:
 
-- **Rascunho** – se o fluxo de trabalho for usado, a ação não foi enviada. Se o fluxo de trabalho não for usado, a ação não foi concluída.
+- **Rascunho** – Se o fluxo de trabalho for usado, a ação não foi enviada. Se o fluxo de trabalho não for usado, significa que a ação não foi concluída.
 - **Em revisão** – a ação de pessoal foi enviada ao fluxo de trabalho, mas o fluxo de trabalho não está concluído.
 - **Aguardando aprovação** – o fluxo de trabalho está concluído, mas as alterações ainda estão em andamento. Cancelado – o fluxo de trabalho foi cancelado ou a ação de pessoal foi chamada novamente. Rejeitada – a solicitação de ação foi rejeitada pelo aprovador.
 - **Processando ação** – a solicitação de ação foi aprovada e as alterações estão sendo processadas.
@@ -51,7 +51,7 @@ As ações de pessoal podem ter os seguintes status:
 - **Negado** – a solicitação de ação foi negada pelo aprovador.
 
 ## <a name="can-i-delete-a-personnel-action"></a>Posso excluir uma ação de pessoal?
-Sim, você pode excluir as ações de pessoal que têm o status de **Rascunho**, **Erro**, **Falha**, ou **Cancelado**.
+Sim, você pode excluir as ações de pessoal que têm o status de **Rascunho**, **Erro**, **Falha**, ou **Cancelado**. Você pode excluir ações de pessoal com o status de **Concluído** somente se tiver definido a opção **Permitir a exclusão de ações de trabalho concluídas** como **Sim** na página **Parâmetros de recursos humanos compartilhados**.
 
 ## <a name="what-is-the-fastest-way-to-check-the-status-of-a-personnel-action-request"></a>Qual é a maneira mais rápida de verificar o status de uma solicitação de ação de pessoal?
 Abra algumas páginas de listagem de ação de pessoal e selecione uma ação de pessoal.
@@ -66,9 +66,9 @@ Se uma solicitação de ação de pessoal falhar, siga estas etapas para resolve
 > 3. Resolva o erro, e clique em **Concluído** ou **Enviar**.
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>O que acontece com uma ação da pessoal que usa o fluxo de trabalho quando a aprovação final é concluída?
-Se não houver um erro, a ação de pessoal se torna somente leitura. (Você pode exibir o histórico na página de lista **Todas as ações do trabalhador**, mas não pode alterar a ação de pessoal.) Quando o status de uma ação de pessoal é **Concluído**, a posição ou o registro do trabalhador já foi atualizado. Para exibir as alterações que foram executadas, abra a página de listagem de **Posições** ou **Trabalhadores**.
+Se não houver um erro, a ação de pessoal se torna somente leitura. (Você pode visualizar o histórico na página de lista **Todas as ações do trabalhador**, mas não pode alterar a ação de pessoal.) Quando o status de uma ação de pessoal é **Concluído**, a posição ou o registro do trabalhador já foi atualizado. Para exibir as alterações que foram executadas, abra a página de listagem de **Posições** ou **Trabalhadores**.
 
-## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Por que recebo a seguinte mensagem de erro quando incorporo um valor diferente de zero no campo Taxa de pagamento? "O valor está fora do intervalo válido - ele deve estar entre 0,00 e 0,00”
+## <a name="why-do-i-receive-the-following-error-when-i-enter-a-non-zero-value-in-the-pay-rate-field-the-value-is-out-of-its-valid-range--it-much-be-between-000-and-000"></a>Por que recebo a seguinte mensagem de erro quando incorporo um valor diferente de zero no campo Taxa de pagamento? "O valor está fora do intervalo válido - Ele deve estar entre 0,00 e 0,00"
 Você recebe esta mensagem porque o campo Nível no formulário Trabalho está em branco para os trabalhos associados à posição selecionada.
 
 Para resolver esse erro, siga estas etapas:
@@ -80,7 +80,7 @@ Para resolver esse erro, siga estas etapas:
 > 5. No campo Nível, selecione um nível.
 > 6. Feche a página Trabalho.
 > 7. Feche a página Posição.
-> 8. Retorne à guia Remuneração, na página do Trabalhador, e selecione Remuneração fixa.  Selecione novo e insira a posição do funcionário no campo Posição.  Insira um valor no campo Plano e, em seguida, digite a remuneração do funcionário no campo Taxa de pagamento.
+> 8. Retorne à guia Remuneração, na página do Trabalhador, e selecione Remuneração fixa.  Selecione Novo e insira a posição do funcionário no campo Cargo.  Digite um valor no campo Plano e, em seguida, digite a remuneração do funcionário no campo Taxa de pagamento.
 
 ## <a name="why-cant-i-change-the-effective-date-in-the-header-of-the-worker-action-form"></a>Por que não posso alterar a data efetiva no cabeçalho do formulário Ação do trabalhador?
 Não é possível alterar a data efetiva porque o campo é preenchido com a data mais lógica para o tipo de ação.
