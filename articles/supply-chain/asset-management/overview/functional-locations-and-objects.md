@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e626daa89eecf838d7cda0663d00c1c2dbecb76
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa61f9ab9d38a748742733a4143e6d50b82caf4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351576"
 ---
 # <a name="functional-locations-and-assets"></a>Locais e ativos funcionais
 
@@ -34,13 +34,13 @@ Este tópico descreve locais e ativos funcionais em Gerenciamento de Ativos. O G
 
 O Gerenciamento de Ativos está perfeitamente integrado a vários módulos com outros aplicativos do Finance and Operations. A ilustração a seguir mostra as interfaces com outros módulos.
 
-![Diagrama mostrando como o Gerenciamento de Ativos interage com outros módulos](media/01-overview-image.png)
+![Diagrama mostrando como o Gerenciamento de Ativos interage com outros módulos.](media/01-overview-image.png)
 
 O Gerenciamento de Ativos permite que você gerencie e execute com eficiência todas as tarefas relacionadas ao gerenciamento e à manutenção de vários tipos de equipamentos na sua empresa. Este equipamento inclui computadores, equipamento de produção e veículos. O Gerenciamento de Ativos também dá suporte a soluções em vários setores.
 
 A ilustração a seguir mostra uma visão geral da funcionalidade principal que é coberta pelo Gerenciamento de Ativos.
 
-![Diagrama mostrando a principal funcionalidade do Gerenciamento de Ativos](media/02-overview-image.png)
+![Diagrama mostrando a principal funcionalidade do Gerenciamento de Ativos.](media/02-overview-image.png)
 
 ## <a name="functional-locations-and-assets"></a>Locais funcionais e ativos
 
@@ -50,11 +50,11 @@ Custos de ativos sempre acompanham o local do ativo. Ou seja, se você instalar 
 
 A maneira que você cria a hierarquia de locais funcionais depende de requisitos da sua empresa para manter equipamentos internos ou atender equipamentos de clientes. A figura a seguir mostra um exemplo de locais funcionais baseados em localizações geográficas.
 
-![Diagrama mostrando locais funcionais com base em locais geográficos](media/03-overview-image.png)
+![Diagrama mostrando locais funcionais com base em locais geográficos.](media/03-overview-image.png)
 
 A figura a seguir mostra um exemplo de locais funcionais baseados em clientes.
 
-![Diagrama mostrando locais funcionais com base em clientes](media/04-overview-image.png)
+![Diagrama mostrando locais funcionais com base em clientes.](media/04-overview-image.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

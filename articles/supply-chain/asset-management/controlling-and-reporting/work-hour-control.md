@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 9ac64b0e40662f30cc615dfbd3f05aba5b37d862
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 88ae7faabe7af25f6e3b95c7217d91e440c94da2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838649"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346193"
 ---
 # <a name="work-hour-control"></a>Controle de horas de trabalho
 
@@ -66,7 +66,7 @@ A captura de tela abaixo mostra um exemplo de cálculo de **Controle de hora de 
 - O campo **Horas reais** mostra as horas lançadas nas ordens de serviço. 
 - O campo **Horas comprometidas** mostra a quantidade de horas totais com os quais sua empresa está comprometida em relação às ordens de serviço.
 
-![Exemplo de cálculo de controle de hora de ativo](media/04-controlling-and-reporting.png)
+![Exemplo de cálculo de controle de hora de ativo.](media/04-controlling-and-reporting.png)
 
 Outra maneira de fazer um cálculo de uma hora é selecionar vários ativos em **Todos os ativos** ou **Ativos válidos**. Em seguida, clique no botão **Controle de horas** na Guia Rápida **Geral**. Os ativos selecionados são inseridos automaticamente no campo **Ativo** na Guia Rápida **Registros a incluir**. Clique em **OK** na caixa de diálogo **Controle de horas de ativo** e o cálculo para os ativos selecionados é exibido. O mesmo procedimento pode ser feito para locais funcionais em **Todos os locais funcionais** ou **Locais funcionais ativos**, e para ordens de serviço **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 

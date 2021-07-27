@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 3550b2b7b305702ffc337ba0a9bb79f60a9de120
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db7bdfe102fa5e24816f2cfaf2b53351362cddd1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023025"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358185"
 ---
 # <a name="set-up-tds-registration-numbers-for-legal-entities"></a>Configurar números de registro de TDS para entidades legais
 
@@ -31,7 +31,7 @@ Este tópico explica como configurar números de registro de Imposto Deduzido na
 
 1. Vá para **Administração da organização \> Organizações \> Entidades legais**.
 
-    [![Página Entidades legais](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
+    [![Página Entidades legais.](./media/apac-ind-TDS-4.png)](./media/apac-ind-TDS-4.png)
 
 2. Na FastTab **Informações sobre impostos**, no campo **Número da conta permanente**, insira o número da conta permanente (Pan) da entidade legal.
 3. No campo **Número do círculo**, insira o número do círculo da autoridade de TDS.
@@ -41,11 +41,11 @@ Este tópico explica como configurar números de registro de Imposto Deduzido na
 7. No Painel de Ações, selecione **IDs de Registro** para abrir a página **Gerenciar endereços**.
 8. Na FastTab **Informações sobre imposto**, selecione **Adicionar** ou **Editar** para abrir a página **Gerenciar informações sobre imposto**, na qual é possível manter a entrada do registro de imposto.
 
-    [![Página Gerenciar endereços](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
+    [![Página Gerenciar endereços.](./media/apac-ind-TDS-5.png)](./media/apac-ind-TDS-5.png)
 
 9. Na FastTab **Imposto retido na fonte**, no campo **Número da Conta de Imposto (TAN)**, insira o número de registro. Esse número deve consistir em quatro caracteres alfabéticos, cinco caracteres numéricos e, depois, um caractere alfabético. Veja aqui um exemplo: **AXDF87645F**.
 10. No campo **Nome ou descrição**, informe uma descrição do número de registro do imposto retido na fonte.
 
-    [![Página Gerenciar informações de imposto](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
+    [![Página Gerenciar informações de imposto.](./media/apac-ind-TDS-5-1.png)](./media/apac-ind-TDS-5-1.png)
 
 11. Feche a página.

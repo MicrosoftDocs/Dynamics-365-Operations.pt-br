@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d8bab58727a7031f122864cb7465d9bc5983b467
-ms.sourcegitcommit: 1f2394be857afaefa8749f607cda62dfa00ba2c5
+ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "6164837"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343616"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
@@ -95,7 +95,7 @@ Além de configurar a ordem de transferência de criação nos itens de menu do 
 
 Você é um varejista e tem várias placas de licença, cada uma contendo uma mistura de itens colocados em um local específico em um de seus depósitos (*Depósito 51*). Você gostaria de habilitar o processo que permite que os funcionários criem uma ordem de transferência para outro depósito (*Depósito 61*) para um conjunto de placas de licença digitalizadas. Você remeterá e atualizará automaticamente a ordem de transferência, assim que a última placa de licença da ordem for identificada.
 
-![Exemplo de processo de ordem de transferência automatizada](media/create-transfer-order-from-app-example.png "Exemplo de processo de ordem de transferência automatizada")
+![Exemplo de processo de ordem de transferência automatizada.](media/create-transfer-order-from-app-example.png "Exemplo de processo de ordem de transferência automatizada")
 
 ### <a name="create-a-mobile-device-menu-item-for-creating-transfer-orders"></a>Criar um item de menu do dispositivo móvel para a criação de ordens de transferência
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f15aea2f867de6f0bcf01ecfd046efc44581a1ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1e8a3b34cb359b7ea7f7181d2308f8e021f3c95
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820433"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359116"
 ---
 # <a name="automatic-update-of-asset-counters"></a>Atualização automática de contadores de ativo
 
@@ -49,7 +49,7 @@ Como mencionado acima, os contadores automáticos podem ser atualizados por meio
 
     A ilustração a seguir mostra um exemplo do diálogo **Atualizar contadores de ativos**.
 
-    ![Figura 1](media/12-work-orders.png)
+    ![Figura 1.](media/12-work-orders.png)
 
 5. Selecione **OK**. 
 
@@ -59,7 +59,7 @@ Na página **Valor agregado de ativo**, você pode obter uma visão geral do reg
 
 A ilustração a seguir mostra um exemplo da página **Valor agregado do ativo**.
 
-![Figura 2](media/13-work-orders.png)
+![Figura 2.](media/13-work-orders.png)
 
 Observe os seguintes pontos:
 

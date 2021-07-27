@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 84f5e949f0c81f840c8a9086d05bbcfc576e42aa
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6016997"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358089"
 ---
 # <a name="inventory-visibility-add-in"></a>Suplemento Visibilidade de Estoque
 
@@ -143,7 +143,7 @@ Após preparar os pré-requisitos, use o seguinte procedimento se preferir confi
 
             Para obter mais informações sobre essa variável, consulte a seção [Configurar integração da visibilidade de estoque](#setup-inventory-visibility-integration) mais adiante neste tópico.
 
-        ![Gatilho de configurações](media/configuration-trigger.png "Gatilho de configurações")
+        ![Gatilho de configurações.](media/configuration-trigger.png "Gatilho de configurações")
 
     1. Selecione **Ativar**.
 
@@ -157,7 +157,7 @@ Para instalar o Suplemento Visibilidade de Estoque, faça o seguinte:
 1. Na página ambiente, role para baixo até ver a seção **Suplementos do ambiente** na seção **Integração do Power Platform**, em que você pode encontrar o nome do ambiente do Dataverse.
 1. Na seção **Suplementos de ambiente**, selecione **Instalar um novo suplemento**.
 
-    ![A página do ambiente no LCS](media/inventory-visibility-environment.png "A página do ambiente no LCS")
+    ![A página do ambiente no LCS.](media/inventory-visibility-environment.png "A página do ambiente no LCS")
 
 1. Selecione o link **Instalar um novo suplemento**. Uma lista dos suplementos disponíveis será aberta.
 1. Selecione **Visibilidade de Estoque** na lista.
@@ -166,7 +166,7 @@ Para instalar o Suplemento Visibilidade de Estoque, faça o seguinte:
     - **ID de aplicativo AAD (cliente)**
     - **ID de locatário do AAD**
 
-    ![Página de configuração do suplemento](media/inventory-visibility-setup.png "Página de configuração do suplemento")
+    ![Página de configuração do suplemento.](media/inventory-visibility-setup.png "Página de configuração do suplemento")
 
 1. Concorde com os termos e condições, marcando a caixa de seleção **Termos e condições**.
 1. Selecione **Instalar**. O status do suplemento será mostrado como **Instalando**. Após a conclusão, atualize a página para ver a alteração do status para **Instalado**.

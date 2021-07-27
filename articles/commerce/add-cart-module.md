@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1ec8e89ed82bcdffdc21e62d24ad8c8a7d939cdf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797854"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346843"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
@@ -35,11 +35,11 @@ O módulo do carrinho processa os dados com base na ID do carrinho, que é um co
 
 A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrikam.
 
-![Exemplo de um módulo de carrinho no site da Fabrikam](./media/cart2.PNG)
+![Exemplo de um módulo de carrinho no site da Fabrikam.](./media/cart2.PNG)
 
 A imagem a seguir mostra um exemplo de uma página de carrinho no site da Fabrikam. Neste exemplo, há uma taxa de manuseio para um item de linha.
 
-![Exemplo de um módulo de carrinho com uma taxa de manuseio para um item de linha](./media/ecommerce-handling-fee.png)
+![Exemplo de um módulo de carrinho com uma taxa de manuseio para um item de linha.](./media/ecommerce-handling-fee.png)
 
 ## <a name="cart-module-properties-and-slots"></a>Propriedades e slots do módulo de carrinho
 

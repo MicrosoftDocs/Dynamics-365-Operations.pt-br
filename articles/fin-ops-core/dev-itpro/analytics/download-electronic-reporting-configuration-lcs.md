@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 14f0f2b1a4d63101d432b1361379c61a70ac9345
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1e20528cd0af00c46f1376e02097bf3171100769
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271174"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358686"
 ---
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Baixar configurações de Relatório eletrônico do Lifecycle Services
 
@@ -41,7 +41,7 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
 3. Na seção **Provedores de configuração**, selecione o bloco **Microsoft**.
 4. No bloco **Microsoft**, selecione **Repositórios**.
 
-    [![Bloco da Microsoft na página Configurações de localização](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
+    [![Bloco da Microsoft na página Configurações de localização.](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)](./media/update-er-from-lcs-for-ms-open-ms-repositories-list.png)
 
 5. Na página **Repositórios de configuração**, na grade, selecione o repositório existente do tipo **LCS**. Se esse repositório não aparecer na grade, siga estas etapas:
 
@@ -55,7 +55,7 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
 
 6. Selecione **Abrir** para exibir a lista de configurações de ER para o repositório selecionado.
 
-    [![Página Repositórios de configuração](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
+    [![Página Repositórios de configuração.](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 
     > [!TIP]
     > Se você tiver problemas ao acessar o repositório LCS para baixar configurações da biblioteca de ativos compartilhados no LCS, poderá baixar configurações do [Repositório global](er-download-configurations-global-repo.md).
@@ -67,7 +67,7 @@ Este tópico explica como baixar a versão mais recente das [configurações de 
     > [!NOTE]
     > O botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância atual.
 
-    [![Página do repositório de configuração](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+    [![Página do repositório de configuração.](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 > [!NOTE]
 > Dependendo das configurações de ER, as configurações são validadas depois que são importadas. Talvez você seja notificado sobre problemas de inconsistências descobertos. Você deve resolver esses problemas para que possa usar a versão de configuração importada. Para obter mais informações, consulte a lista de tópicos relacionados deste tópico.

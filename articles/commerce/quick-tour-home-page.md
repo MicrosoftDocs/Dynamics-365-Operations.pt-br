@@ -9,17 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: v-chgri
+ms.custom: intro-internal
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: f083115f5dc0cfe0e9ba4786bf79ec4083ab7e78
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3cd179483458dd3da3b69afaa464c21a11c3df8b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792186"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352003"
 ---
 # <a name="home-page-overview"></a>Visão geral da página inicial
 
@@ -31,7 +32,7 @@ A home page é página padrão para a qual os compradores vão quando visitam um
 
 A ilustração a seguir mostra um exemplo de uma home page que é criada com a biblioteca de módulos e o tema “Fabrikam”.
 
-![Exemplo de uma home page](./media/Homepage2.PNG)
+![Exemplo de uma home page.](./media/Homepage2.PNG)
 
 A parte superior da home page possui um cabeçalho que mostra todas as categorias de produtos e outras páginas que o varejista deseja que os clientes procurem. A parte inferior da home page possui um rodapé que contém links rápidos para vários tópicos que podem interessar aos clientes.
 
@@ -41,13 +42,13 @@ A seção principal da página inicial pode destacar produtos, categorias ou pro
 
     A ilustração a seguir mostra um exemplo de home page em que o primeiro item na seção principal é um layout de herói do módulo de bloco de conteúdo chamado "Nova Entrada".
 
-    ![Exemplo de um módulo de herói](./media/Hero.PNG)
+    ![Exemplo de um módulo hero.](./media/Hero.PNG)
 
 - **Recurso** – Um layout de recurso de um módulo de bloco de conteúdo é usado para comercializar produtos ou promoções usando uma combinação de imagens e texto. Os layouts de recursos podem ser usados independentemente, ou podem ser hospedados em um módulo de carrossel.
 
     A ilustração a seguir mostra um exemplo de layout de recurso de um módulo de bloco de conteúdo em uma home page.
 
-    ![Exemplos de módulos de recursos](./media/Feature.PNG)
+    ![Exemplos de módulos de recursos.](./media/Feature.PNG)
 
 - **Bloco** – Um layout de bloco de um módulo de bloco de conteúdo é usado para apresentar vários produtos ou categoria de produtos usando uma combinação de imagens e de texto em um layout com várias colunas. Na ilustração de uma home page exibida anteriormente neste tópico, layout de bloco é usado para a renderização de três colunas dos itens **Compras Femininas**, **Compras Masculinas** e **Compra de Acessórios**.
 - **Player de vídeo** – Um módulo de player de vídeo pode ser usado para mostrar o conteúdo de vídeo na home page. A ilustração de uma home page que apareceu anteriormente neste tópico tem um módulo de player de vídeo.
@@ -56,7 +57,7 @@ A seção principal da página inicial pode destacar produtos, categorias ou pro
 
     A ilustração a seguir mostra um exemplo de módulos de recomendações de produto em uma home page.
 
-    ![Exemplos de módulos de recomendações de produto](./media/Recommendations.PNG)
+    ![Exemplos de módulos de recomendações de produto.](./media/Recommendations.PNG)
 
 > [!NOTE]
 > Todos os módulos listados aqui podem ser usados em qualquer página do site. Entretanto, o seu posicionamento na página é importante porque essa página é onde clientes interagem primeiro com o site.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 1118d7334602e450e5d503632895f73ba19066a1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb04502721740c48004b62bc96ff13ca063e06db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814769"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360889"
 ---
 # <a name="phantom-items"></a>Itens fantasma
 
@@ -27,12 +27,12 @@ ms.locfileid: "5814769"
 
 Este tópico descreve, em detalhes, como o tipo de linha fantasma pode ser usado para as linhas de uma lista de materiais (BOM) e uma fórmula. Na ilustração a seguir, (a) é a BOM dos produtos H e peças F e G, e (b) é a planilha de roteiro dos produtos H e peça F.
 
-![Produto H e peça F](media/product-H-part-F.png)
+![Produto H e peça F.](media/product-H-part-F.png)
 
 
 Esta ilustração mostra um exemplo de uma estrutura de BOM em dois níveis. O produto finalizado H representa um produto para uma montagem de máquina. A montagem da máquina consiste em duas peças, uma unidade elétrica (F) que tem dois materiais (A e B) e um grupo de materiais de embalagem (G) que também tem dois materiais (C e D). Outro material (E) é usado durante a montagem geral da máquina.
 
-![Produto H e peça F](media/product-H-part-B.png)
+![Produto H e peça F.](media/product-H-part-B.png)
 
 A ilustração anterior representa a BOM de engenharia para o produto. H. Esta estrutura para fornece uma visão geral das peças e componentes da montagem geral da máquina. Entretanto, embora talvez os designers de produtos prefiram ver a BOM representada dessa maneira, é possível que essa estrutura não represente corretamente a maneira que máquina é criada no chão de fábrica. 
 
@@ -53,23 +53,23 @@ A transição entre a BOM de engenharia e a BOM de fabricação é habilitada po
 ## <a name="multilevel-phantom-bom-structures"></a>Estruturas fantasma de BOM de vários níveis
 O tipo de linha fantasma pode ser usado em estruturas de BOM de vários níveis, conforme mostrado na ilustração a seguir. Nesta ilustração, (a) é a BOM do produto G, e (b) é a planilha de roteiro das peças E e F e do produto G. 
 
-![Produto G e peça F com planilhas de roteiro](media/product-G-route-sheet-G.png)
+![Produto G e peça F com planilhas de roteiro.](media/product-G-route-sheet-G.png)
 
 
 A ilustração a seguir mostra a BOM de fabricação e a planilha de roteiro resultantes se as linhas da BOM das peças E e F são configuradas para que o tipo de linha seja fantasma. Nesta ilustração, (a) é a BOM do produto G, e (b) é a planilha de roteiro do produto G.
 
-![Produto G](media/product-G.png)
+![Produto G.](media/product-G.png)
 
 
 ## <a name="phantom-and-route-network"></a>Rede de roteiro e fantasma
 As BOMs fantasma também podem ser usadas para uma BOM com uma rede de roteiro. Em uma rede de roteiro, uma ou várias operações são executadas em paralelo. A ilustração a seguir mostra um exemplo de uma rede de roteiro usada em uma BOM de vários níveis. Nesta ilustração, (a) é a BOM do produto G e peça F, e (b) é a planilha de roteiro do produto G e peça F, que tem uma rede de roteiro.
 
-![Produto G e peça F](media/product-G-part-F.png)
+![Produto G e peça F.](media/product-G-part-F.png)
 
 
 Na ilustração a seguir, (a) é a BOM do produto G e peça F, e (b) é a planilha de roteiro do produto G e peça F.
 
-![Produto G e peça F com planilhas de roteiro](media/product-G-part-F-with-route-sheet.png)
+![Produto G e peça F com planilhas de roteiro.](media/product-G-part-F-with-route-sheet.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

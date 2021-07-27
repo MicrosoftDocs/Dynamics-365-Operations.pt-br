@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a41fb3118359ab9a597f3c3242759fcbcf1e090a
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 742c6d1b713b8669dcc3544cf84eb340e3e9293b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015844"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360391"
 ---
 # <a name="set-up-consignment"></a>Configurar consignação
 
@@ -61,7 +61,7 @@ Uma ordem de reabastecimento de consignação é um documento utilizado para ped
 
 A dimensão **Proprietário** usada para separar as informações sobre a qual a ação pertence por fornecedor e que pertence por entidade legal de recebimento. As linhas da ordem de reabastecimento de consignação terão um status **Ordem em aberto** até a quantidade total das linhas ter sido sido recebida ou cancelada. Quando a quantidade total tiver sido recebida ou cancelada, o status será alterado para **Concluído**. O estoque físico disponível relacionado a uma ordem de reabastecimento de consignação pode ser registrado por meio de um processo de registro assim como um processo de atualização do recebimento de produtos. O registro pode ser criado como parte do processo de entrada de item manualmente ou atualizando as linhas. Quando o processo de atualização do recebimento de produtos é usado, é feito um registro no diário do recebimento de produtos, que pode ser usado para confirmar o recebimento de mercadorias a fornecedores.
 
-[![Ordens de reabastecimento de consignação](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
+[![Ordens de reabastecimento de consignação.](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diário de alteração de propriedade de estoque
 
@@ -74,7 +74,7 @@ Apenas as transações de estoque criadas são aquelas relacionadas a um diário
 
 Não é possível atualizar a quantidade nas linhas de ordem de consignação de compra depois que a ordem foi criada.
 
-[![Diário de alteração de propriedade de estoque](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
+[![Diário de alteração do proprietário de estoque.](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboração de fornecedor em processos de consignação
 
@@ -90,13 +90,13 @@ Para obter mais informações sobre como configurar fornecedores para usar a col
 
 Para registrar o estoque físico de entrada em consignação, você precisa definir o proprietário do fornecedor. Isso é feito na página **Proprietário de estoque**. Quando você seleciona uma **Conta de fornecedor** isso gera valores padrão para os campos **Nome** e **Proprietário**. O valor no campo **Proprietário** ficará visível ao fornecedor, para que você possa alterá-lo se os nomes de contas do fornecedor não forem fáceis para os contatos externos reconhecerem. É possível editar o campo **Proprietário**, mas somente até o ponto em que você salvar o registro **Proprietário de estoque**. O campo **Nome** é preenchido com o nome do participante da conta do fornecedor está associada, e este não pode ser alterada.
 
-[![Proprietários de estoque](./media/inventory-owners.png)](./media/inventory-owners.png)
+[![Inventory-owners.](./media/inventory-owners.png)](./media/inventory-owners.png)
 
 ## <a name="tracking-dimension-group"></a>Grupo de dimensões de rastreamento
 
 Itens que estejam prestes a ser usado nos processos de consignação devem ser associados com **Grupo de dimensão de rastreamento** a qual **Proprietário** a dimensão é definida como **Ativo**. A dimensão do proprietário deve sempre **Estoque físico** e **Estoque financeiro** as opções selecionadas. **Plano de cobertura por dimensão** nunca é selecionado.
 
-[![Grupo de dimensões de rastreamento](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
+[![Grupo de dimensões de rastreamento.](./media/tracking-dimension-group.png)](./media/tracking-dimension-group.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

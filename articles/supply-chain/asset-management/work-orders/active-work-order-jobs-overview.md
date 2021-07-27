@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5ac36f536003b9945ffbdcae12de2582e80634a3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8642f7d92a9c0ca69ad4965fd3a8219e57278ed1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813354"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359164"
 ---
 # <a name="active-work-order-maintenance-jobs-overview"></a>Visão geral dos trabalhos de manutenção ativos de ordem de serviço
 
@@ -36,7 +36,7 @@ Na coluna **%**, um número mostra a conclusão da ordem de serviço como uma po
 
 A ilustração a seguir mostra um exemplo da página de listagem **Trabalhos de manutenção da ordem de serviço ativos**.
 
-![Figura 1](media/23-work-orders.png)
+![Figura 1.](media/23-work-orders.png)
 
 Para obter uma breve descrição dos botões na página de listagem **Trabalhos de manutenção da ordem de serviço ativos**, consulte [Introdução às ordens de serviço](../work-orders/introduction-to-work-orders.md) em que botões idênticos são descritos.
 

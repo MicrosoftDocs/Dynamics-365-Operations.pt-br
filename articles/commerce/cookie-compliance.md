@@ -2,7 +2,7 @@
 title: Compatível com cookies
 description: Este tópico descreve considerações sobre conformidade de cookies e as políticas padrão incluídas no Microsoft Dynamics 365 Commerce.
 author: BrianShook
-ms.date: 05/21/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8eb610eb819dee09a30368257e36dc88f855e985
-ms.sourcegitcommit: 8c5b3e872825953853ad57fc67ba6e5ae92b9afe
+ms.openlocfilehash: 71b2e0e8d0a7db6cbbc8b9b4024b067bd5c6a2a1
+ms.sourcegitcommit: 43962e6fedaf55aab2f28f53bc38a69d2ff58403
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "6088378"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "6333060"
 ---
 # <a name="cookie-compliance"></a>Compatível com cookies
 
@@ -33,26 +33,27 @@ Para saber mais sobre os princípios básicos usados pela Microsoft para conform
 
 A tabela a seguir mostra a lista de referência atual de cookies colocados por sites do Dynamics 365 Commerce.
 
-| Nome do cookie                               | Uso                                                        |
-| ------------------------------------------- | ------------------------------------------------------------ |
-| .AspNet.Cookies                             | Armazene cookies de autenticação do Microsoft Azure Active Directory (Azure AD) para logon único (SSO). Armazena informações de entidade de segurança do usuário criptografadas (nome, sobrenome, email). |
-| &#95;msdyn365___cart&#95;                           | ID do carrinho da loja para obter a lista de produtos adicionada à instância do carrinho. |
-| &#95;msdyn365___ucc&#95;                            | Rastreamento de consentimento de conformidade com cookies.                          |
-| ai_session                                  | Detecta quantas sessões de atividade do usuário incluíram determinadas páginas e recursos do aplicativo. |
-| ai_user                                     | Detecta quantas pessoas usaram o aplicativo e seus recursos. Os usuários são contados usando IDs anônimas. |
-| b2cru                                       | Armazena a URL de redirecionamento de forma dinâmica.                              |
-| JSESSIONID                                  | Usado pelo conector de pagamento Adyen para armazenar a sessão do usuário.       |
-| OpenIdConnect.nonce.&#42;                       | Autenticação                                               |
-| x-ms-cpim-cache:.&#42;                          | Usado para manter o estado da solicitação.                      |
-| x-ms-cpim-csrf                              | Token de solicitação intersite forjada (CRSF) usado para proteção contra CRSF.     |
-| x-ms-cpim-dc                                | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. |
-| x-ms-cpim-rc.&#42;                              | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. |
-| x-ms-cpim-slice                             | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. |
-| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Usado para manter a sessão SSO.                        |
-| x-ms-cpim-trans                             | Usado para rastrear transações (o número de guias abertas na autenticação de um site business-to-consumer (B2C)), incluindo a transação atual. |
-| \_msdyn365___muid_                            | Usado se a Experimentação estiver ativada para o ambiente, utilizado como userId para fins de experimentação. |
-| \_msdyn365___exp_                             | Usado se a Experimentação estiver ativada para o ambiente; usado para medir o balanceamento de carga de desempenho.         |
-| d365mkt                                       | Usado se a detecção baseada em local para rastrear o endereço IP de um usuário para sugestões de localização de armazenamento estiver habilitada no construtor de sites comerciais em **Configurações do Site > Geral > Habilitar detecção de lojas com base na localização**.      |
+| Nome do cookie                               | Uso                                                        | Vida Útil |
+| ------------------------------------------- | ------------------------------------------------------------ |  ------- |
+| .AspNet.Cookies                             | Armazene cookies de autenticação do Microsoft Azure Active Directory (Azure AD) para logon único (SSO). Armazena informações de entidade de segurança do usuário criptografadas (nome, sobrenome, email). | Sessão |
+| \_msdyn365___cart_                           | ID do carrinho da loja para obter a lista de produtos adicionada à instância do carrinho. | Sessão |
+| \_msdyn365___checkout_cart_                           | ID do carrinho de finalização de compra da loja para obter a lista de produtos adicionada à instância do carrinho de finalização de compra. | Sessão |
+| \_msdyn365___ucc_                            | Rastreamento de consentimento de conformidade com cookies.                          | 1 ano |
+| ai_session                                  | Detecta quantas sessões de atividade do usuário incluíram determinadas páginas e recursos do aplicativo. | 30 minutos |
+| ai_user                                     | Detecta quantas pessoas usaram o aplicativo e seus recursos. Os usuários são contados usando IDs anônimas. | 1 ano |
+| b2cru                                       | Armazena a URL de redirecionamento de forma dinâmica.                              | Sessão |
+| JSESSIONID                                  | Usado pelo conector de pagamento Adyen para armazenar a sessão do usuário.       | Sessão |
+| OpenIdConnect.nonce.&#42;                       | Autenticação                                               | 11 minutos |
+| x-ms-cpim-cache:.&#42;                          | Usado para manter o estado da solicitação.                      | Sessão |
+| x-ms-cpim-csrf                              | Token de solicitação intersite forjada (CRSF) usado para proteção contra CRSF.     | Sessão |
+| x-ms-cpim-dc                                | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. | Sessão |
+| x-ms-cpim-rc.&#42;                              | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. | Sessão |
+| x-ms-cpim-slice                             | Usado para rotear solicitações para a instância apropriada do servidor de autenticação de produção. | Sessão |
+| x-ms-cpim-sso:rushmoreb2c.onmicrosoft.com_0 | Usado para manter a sessão SSO.                        | Sessão |
+| x-ms-cpim-trans                             | Usado para rastrear transações (o número de guias abertas na autenticação de um site business-to-consumer (B2C)), incluindo a transação atual. | Sessão |
+| \_msdyn365___muid_                            | Usado se a experimentação estiver ativada para o ambiente, usado como ID de usuário para fins de experimentação. | 1 ano |
+| \_msdyn365___exp_                             | Usado se a experimentação estiver ativada para o ambiente; usado para medir o balanceamento de carga de desempenho.         | 1 hora |
+| d365mkt                                       | Usado se a detecção baseada em local para rastrear o endereço IP de um usuário para sugestões de localização de armazenamento estiver habilitada no construtor de sites comerciais em **Configurações do Site \> Geral \> Habilitar detecção de lojas com base na localização**.      | 1 hora |
 
 Se um usuário do site selecionar qualquer link de mídia social em um site, os cookies na seguinte tabela também serão rastreados no navegador.
 

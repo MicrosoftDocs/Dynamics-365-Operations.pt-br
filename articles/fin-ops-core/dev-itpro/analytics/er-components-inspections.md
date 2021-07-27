@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d164dfe10c9736d8b4529a32ffba765f94ad37d9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753831"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357657"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -242,7 +242,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 1. Comece a configurar os componentes de mapeamento de modelo de ER e de modelo de dados de ER simultaneamente.
 2. Na árvore do modelo de dados, adicione um campo denominado **X** e selecione **Inteiro** como o tipo de dados.
 
-    ![O campo X e o tipo de dados Inteiro são adicionados à árvore de modo de dados na página Modelo de dados](./media/er-components-inspections-01.png)
+    ![O campo X e o tipo de dados Inteiro são adicionados à árvore de modo de dados na página Modelo de dados.](./media/er-components-inspections-01.png)
 
 3. No designer de mapeamento de modelos, no painel **Fontes de dados**, adicione uma fonte de dados do tipo **Campo calculado**.
 4. Nomeie a nova fonte de dados como **Y** e configure-a para que contenha a expressão `INTVALUE(100)`.
@@ -250,17 +250,17 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 6. No designer de modelos de dados, altere o tipo de dados do campo **X** de **Inteiro** para **Int64**.
 7. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo**.
 
-    ![Validação do componente de mapeamento de modelo editável na página Designer de mapeamento de modelos](./media/er-components-inspections-01.gif)
+    ![Validar o componente de mapeamento de modelo editável na página Designer de mapeamento de modelo.](./media/er-components-inspections-01.gif)
 
 8. Selecione **Validar** para inspecionar o componente de mapeamento de modelo da configuração de ER selecionada na página **Configurações**.
 
-    ![Inspeção do componente de mapeamento de modelos na página Configurações](./media/er-components-inspections-01a.png)
+    ![Inspeção do componente de mapeamento de modelos na página Configurações.](./media/er-components-inspections-01a.png)
 
 9. Observe que ocorre um erro de validação. A mensagem informa que o valor do tipo **Inteiro** retornado pela expressão `INTVALUE(100)` da fonte de dados **Y** não pode ser armazenado no campo de modelo de dados **X** do tipo **Int64**.
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso e selecionar **Executar** para executar um formato configurado para usar o mapeamento de modelo.
 
-![Erros de runtime na página Designer de formato](./media/er-components-inspections-01b.png)
+![Erros de runtime na página Designer de formato.](./media/er-components-inspections-01b.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -290,7 +290,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 6. Na árvore de estrutura de formato, altere o tipo de dados do elemento de formato **Y** de **Inteiro** para **Int64**.
 7. Selecione **Validar** para inspecionar o componente de formato editável na página **Designer de formato**.
 
-    ![Validando compatibilidade de tipo na página Designer de formato](./media/er-components-inspections-02.gif)
+    ![Validando compatibilidade de tipo na página Designer de formato.](./media/er-components-inspections-02.gif)
 
 8. Observe que ocorre um erro de validação. A mensagem informa que a expressão configurada pode aceitar somente valores **Int64**. Portanto, o valor do campo de modelo de dados **X** do tipo **Inteiro** não pode ser inserido no elemento de formato **Y**.
 
@@ -317,7 +317,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 1. Comece a configurar os componentes de mapeamento de modelo de ER e de modelo de dados de ER simultaneamente.
 2. Na árvore do modelo de dados, adicione um campo denominado **X** e selecione **Inteiro** como o tipo de dados.
 
-    ![A árvore do modelo de dados com campo X e o tipo de dados Inteiro na página Modelo de dados](./media/er-components-inspections-01.png)
+    ![A árvore do modelo de dados com campo X e o tipo de dados Inteiro na página Modelo de dados.](./media/er-components-inspections-01.png)
 
 3. No designer de mapeamento de modelos, no painel **Fontes de dados**, adicione uma fonte de dados do tipo **Campo calculado**.
 4. Nomeie a nova fonte de dados como **Y** e configure-a para que contenha a expressão `INTVALUE(100)`.
@@ -325,7 +325,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 6. No designer de mapeamento de modelos, no painel **Fontes de dados**, exclua a fonte de dados **Y**.
 7. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo**.
 
-    ![Inspeção do componente de mapeamento de modelos de ER editável na página Designer de mapeamento de modelos](./media/er-components-inspections-03.gif)
+    ![Inspeção do componente de mapeamento de modelos de ER editável na página Designer de mapeamento de modelos.](./media/er-components-inspections-03.gif)
 
 8. Observe que ocorre um erro de validação. A mensagem informa que a associação do campo de modelo de dados **X** contém o caminho referente à fonte de dados **Y**, mas essa fonte não foi encontrada.
 
@@ -359,13 +359,13 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 8. Nomeie o novo campo aninhado **$AccNumber** e configure-a para que contenha a expressão `TRIM(Vendor.AccountNum)`.
 9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a expressão `FILTER(Vendor, Vendor.AccountNum="US-101")` na fonte de dados **Vendor** pode ser consultada.
 
-    ![Verificação se a expressão pode ser consultada na página Designer de mapeamento de modelos](./media/er-components-inspections-04.gif)
+    ![Verificação se a expressão pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-04.gif)
 
 10. Observe que ocorre um erro de validação, porque a fonte de dados **Vendor** contém um campo aninhado do tipo **Campo calculado** que não permite que a expressão da fonte de dados **FilteredVendor** seja convertida na instrução SQL direta.
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso e selecionar **Executar** para executar um formato configurado para usar o mapeamento de modelo.
 
-![Erros de runtime que ocorrem quando você executa o formato editável na página Designer de formato](./media/er-components-inspections-04a.png)
+![Erros de runtime que ocorrem quando você executa o formato editável na página Designer de formato.](./media/er-components-inspections-04a.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -396,23 +396,23 @@ As etapas a seguir mostram como esse problema pode ocorrer.
     - Selecione a fonte de dados **Trans** como a fonte de registros que devem ser agrupados.
     - No campo **Local de execução**, selecione **Consulta** para especificar que você deseja executar essa fonte de dados no nível do banco de dados.
 
-    ![Configurando a fonte de dados na página de parâmetros Editar "Agrupar por"](./media/er-components-inspections-05a.gif)
+    ![Configurando a fonte de dados na página de parâmetros Editar "Agrupar por".](./media/er-components-inspections-05a.gif)
 
 6. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a fonte de dados **GroupedTrans** pode ser consultada.
 7. Modifique a fonte de dados **Trans** adicionando um campo aninhado do tipo **Campo calculado** para obter o número da conta do fornecedor resumido.
 8. Nomeie a nova fonte de dados como **$AccNumber** e configure-a para que contenha a expressão `TRIM(Trans.AccountNum)`.
 
-    ![Configurando a fonte de dados na página Designer de mapeamento de modelo](./media/er-components-inspections-05a.png)
+    ![Configurando a fonte de dados na página Designer de mapeamento de modelo.](./media/er-components-inspections-05a.png)
 
 9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a fonte de dados **GroupedTrans** pode ser consultada.
 
-    ![A validação do componente de mapeamento de modelos de ER e a verificação se a fonte de dados GroupedTrans pode ser consultada na página Designer de mapeamento de modelos](./media/er-components-inspections-05b.png)
+    ![A validação do componente de mapeamento de modelos de ER e a verificação se a fonte de dados GroupedTrans pode ser consultada na página Designer de mapeamento de modelos.](./media/er-components-inspections-05b.png)
 
 10. Observe que ocorre um erro de validação, porque a fonte de dados **Trans** contém um campo aninhado do tipo **Campo calculado** que não permite que a chamada para a fonte de dados **GroupedTrans** seja convertida na instrução SQL direta.
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso e selecionar **Executar** para executar um formato configurado para usar o mapeamento de modelo.
 
-![Erros de runtime que ocorrem quando o aviso é ignorado na página Designer de formato](./media/er-components-inspections-05c.png)
+![Erros de runtime que ocorrem quando o aviso é ignorado na página Designer de formato.](./media/er-components-inspections-05c.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -448,21 +448,21 @@ As etapas a seguir mostram como esse problema pode ocorrer.
     2. Adicione a fonte de dados **Vendor.FilteredTrans** como o segundo conjunto de registros a unir. Selecione **INTERNO** como o tipo.
     3. No campo **Executar**, selecione **Consulta** para especificar que você deseja executar essa fonte de dados no nível do banco de dados.
 
-    ![Configurando a fonte de dados na página Designer de junção](./media/er-components-inspections-06a.gif)
+    ![Configurando a fonte de dados na página Designer de junção.](./media/er-components-inspections-06a.gif)
 
 10. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a fonte de dados **JoinedList** pode ser consultada.
 11. Altere a expressão da fonte de dados **Vendor.FilteredTrans** de `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`para `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`.
 12. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo** e verifique se a fonte de dados **JoinedList** pode ser consultada.
 
-    ![Validação do componente de mapeamento de modelo editável e verificação se a fonte de dados JoinedList pode ser consultada na página Designer de mapeamento de modelo](./media/er-components-inspections-06b.png)
+    ![Validação do componente de mapeamento de modelo editável e verificação se a fonte de dados JoinedList pode ser consultada na página Designer de mapeamento de modelo.](./media/er-components-inspections-06b.png)
 
 13. Observe que ocorre um erro de validação, pois a expressão da fonte de dados **Vendor.FilteredTrans** não pode ser convertida na chamada SQL direta. Além disso, a chamada SQL direta não permite que a chamada da fonte de dados **JoinedList** seja traduzida para a instrução SQL direta.
 
-    ![Erros de runtime da falha na validação da fonte de dados JoinedList na página Designer de mapeamento de modelos](./media/er-components-inspections-06c.png)
+    ![Erros de runtime da falha na validação da fonte de dados JoinedList na página Designer de mapeamento de modelos.](./media/er-components-inspections-06c.png)
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso e selecionar **Executar** para executar um formato configurado para usar o mapeamento de modelo.
 
-![Executar o formato editável na página Designer de formato](./media/er-components-inspections-06e.png)
+![Executar o formato editável na página Designer de formato.](./media/er-components-inspections-06e.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -474,7 +474,7 @@ Nenhuma opção para corrigir esse problema automaticamente está disponível.
 
 Altere a expressão da fonte de dados **Vendor.FilteredTrans** de `WHERE(Trans, Trans.AccountNum=Vendor.AccountNum)`Voltar para `FILTER(Trans, Trans.AccountNum=Vendor.AccountNum)`, conforme indicado no aviso.
 
-![Expressão atualizada da fonte de dados na página Designer de mapeamento de modelo](./media/er-components-inspections-06d.png)
+![Expressão atualizada da fonte de dados na página Designer de mapeamento de modelo.](./media/er-components-inspections-06d.png)
 
 #### <a name="option-2"></a>Opção 2
 
@@ -497,11 +497,11 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 9. Nomeie a nova fonte de dados como **FilteredVendor** e configure-a para que contenha a expressão `WHERE(Vendor, Vendor.AccountNum="US-101")`.
 10. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo**.
 
-    ![Inspeção do componente de mapeamento de modelos editável na página Designer de mapeamento de modelos](./media/er-components-inspections-07a.png)
+    ![Inspeção do componente de mapeamento de modelos editável na página Designer de mapeamento de modelos.](./media/er-components-inspections-07a.png)
 
 11. Observe que os avisos de validação recomendam que você use a função **FILTER** em vez da função **WHERE** para as fontes de dados **FilteredVendor** e **FilteredTrans**.
 
-    ![A recomendação é usar a função FILTER em em vez da função WHERE na página Designer de mapeamento de modelos](./media/er-components-inspections-07b.png)
+    ![A recomendação é usar a função FILTER em em vez da função WHERE na página Designer de mapeamento de modelos.](./media/er-components-inspections-07b.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -509,7 +509,7 @@ Selecione **Corrigir** para substituir automaticamente a função **WHERE** pela
 
 Como alternativa, você pode selecionar a linha para um único aviso na grade e depois **Corrigir selecionados**. Nesse caso, somente a expressão mencionada no aviso selecionado é alterada automaticamente na fonte de dados.
 
-![Seleção de Corrigir para substituir automaticamente a função WHERE pela função FILTER na página Designer de mapeamento de modelos](./media/er-components-inspections-07c.png)
+![Seleção de Corrigir para substituir automaticamente a função WHERE pela função FILTER na página Designer de mapeamento de modelos.](./media/er-components-inspections-07c.png)
 
 ### <a name="manual-resolution"></a>Resolução manual
 
@@ -530,11 +530,11 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 7. Nomeie a nova fonte de dados como **FilteredVendorTrans** e configure-a para que contenha a expressão `ALLITEMS(FilteredVendor.'<Relations'.'VendTrans.VendTable_AccountNum')`.
 8. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo**.
 
-    ![Inspeção do componente de mapeamento de modelos editável na página Designer de mapeamento de modelos](./media/er-components-inspections-08a.png)
+    ![Inspeção do componente de mapeamento de modelos editável na página Designer de mapeamento de modelos.](./media/er-components-inspections-08a.png)
 
 9. Observe que ocorre um aviso de validação. A mensagem recomenda que você use a função **ALLITEMSQUERY** em vez da **ALLITEMS** para a fonte de dados **FilteredVendorTrans**.
 
-    ![A recomendação é usar a função ALLITEMSQUERY em em vez da função ALLITEMS na página Designer de mapeamento de modelos](./media/er-components-inspections-08b.png)
+    ![A recomendação é usar a função ALLITEMSQUERY em em vez da função ALLITEMS na página Designer de mapeamento de modelos.](./media/er-components-inspections-08b.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -542,7 +542,7 @@ Selecione **Corrigir** para substituir automaticamente a função **ALLITEMS** p
 
 Como alternativa, você pode selecionar a linha para um único aviso na grade e depois **Corrigir selecionados**. Nesse caso, somente a expressão mencionada no aviso selecionado é alterada automaticamente na fonte de dados.
 
-![Seleção de Corrigir selecionados na página Designer de mapeamento de modelos](./media/er-components-inspections-08c.png)
+![Seleção de Corrigir selecionados na página Designer de mapeamento de modelos.](./media/er-components-inspections-08c.png)
 
 ### <a name="manual-resolution"></a>Resolução manual
 
@@ -563,7 +563,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
     - Adicione um campo aninhado do tipo **Cadeia de caracteres** e nomeie-o como **Name**.
     - Adicione um campo aninhado do tipo **Cadeia de caracteres** e nomeie-o como **AccountNumber**.
 
-    ![Adicionando campos aninhados na página de modelo de dados](./media/er-components-inspections-09a.png)
+    ![Adicionando campos aninhados na página de modelo de dados.](./media/er-components-inspections-09a.png)
 
 6. No designer de mapeamento de modelos, no painel **Fontes de dados**, adicione uma fonte de dados do tipo **Dynamics 365 for Operations \\registros de Tabela**.
 7. Nomeie a nova fonte de dados como **Vendor**. No campo **Tabela**, selecione **VendTable** para especificar que essa fonte de dados solicitará a tabela VendTable.
@@ -577,7 +577,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
     - Associe **FilteredVendor.AccountNum** a **Vendor.AccountNumber**.
     - Associe **FilteredVendor.'name()'** a **Vendor.Name**.
 
-    ![Associando itens de modelo de dados na página Designer de mapeamento de modelo](./media/er-components-inspections-09b.png)
+    ![Associando itens de modelo de dados na página Designer de mapeamento de modelo.](./media/er-components-inspections-09b.png)
 
 13. Na árvore de estrutura de formato, adicione os itens a seguir para gerar um documento de saída no formato XML que contém os detalhes do fornecedor:
 
@@ -595,15 +595,15 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 
 15. Selecione **Validar** para inspecionar o componente de formato editável na página **Designer de formato**.
 
-    ![Validação dos elementos de formato associados às fontes de dados na página Designer de formato](./media/er-components-inspections-09c.png)
+    ![Validação dos elementos de formato associados às fontes de dados na página Designer de formato.](./media/er-components-inspections-09c.png)
 
 16. Observe que ocorre um erro de validação. A mensagem informa que um erro poderá ocorrer para os componentes de formato **Statement\\Party\\Name** e **Statement\\Party\\AccountNum** no runtime se a lista de `model.Vendor` estiver vazia.
 
-    ![Erro de validação sobre um possível erro nos componentes de formato configurados](./media/er-components-inspections-09d.png)
+    ![Erro de validação sobre um possível erro nos componentes de formato configurados.](./media/er-components-inspections-09d.png)
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso, selecionar **Executar** para executar o formato e escolher o número de conta de um fornecedor inexistente. Como o fornecedor solicitado não existe, a lista de `model.Vendor` estará vazia (ou seja, não conterá registros).
 
-![Erros de runtime que ocorrem durante a execução do mapeamento de formatos](./media/er-components-inspections-09e.png)
+![Erros de runtime que ocorrem durante a execução do mapeamento de formatos.](./media/er-components-inspections-09e.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -615,7 +615,7 @@ Para a linha selecionada na grade, na guia **Avisos**, você pode selecionar **D
 
 Você pode associar o elemento de formato **Statement\\Party\\Name** ao item de fonte de dados `model.Vendor`. No runtime, essa associação chama a fonte de dados `model.Vendor` primeiro. Quando o `model.Vendor` retorna uma lista de registros vazia, os elementos de formato aninhados não são executados. Portanto, nenhum aviso de validação ocorre para essa configuração de formato.
 
-![Associação do elemento de formato ao item da fonte de dados na página Designer de formato](./media/er-components-inspections-09e.gif)
+![Associação do elemento de formato ao item da fonte de dados na página Designer de formato.](./media/er-components-inspections-09e.gif)
 
 #### <a name="option-2"></a>Opção 2
 
@@ -626,7 +626,7 @@ Altere a associação do elemento de formato **Statement\\Party\\Name** de `mode
 
 Portanto, nenhum aviso de validação ocorre no elemento de formato **Statement\\Party\\Name** quando ele está associado à expressão `FIRSTORNULL(model.Vendor).Name`.
 
-![Alterar a associação resolve os avisos de validação na página Designer de formato](./media/er-components-inspections-09f.gif)
+![Alterar a associação resolve os avisos de validação na página Designer de formato.](./media/er-components-inspections-09f.gif)
 
 #### <a name="option-3"></a>Opção 3
 
@@ -653,17 +653,17 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 7. Nomeie a nova fonte de dados como **FilteredVendor** e configure-a para que contenha a expressão `FILTER(Vendor, Vendor.AccountNum=RequestedAccountNum)`.
 8. Marque a fonte de dados **Vendor** como armazenada em cache.
 
-    ![Configuração do componente de mapeamento de modelo na página Designer de mapeamento de modelo](./media/er-components-inspections-10a.gif)
+    ![Configuração do componente de mapeamento de modelo na página Designer de mapeamento de modelo.](./media/er-components-inspections-10a.gif)
 
 9. Selecione **Validar** para inspecionar o componente de mapeamento de modelo editável na página **Designer de mapeamento de modelo**.
 
-    ![Validação da função FILTER aplicada à fonte de dados Fornecedor armazenada em cache na página Designer de mapeamento de modelos](./media/er-components-inspections-10a.png)
+    ![Validação da função FILTER aplicada à fonte de dados Fornecedor armazenada em cache na página Designer de mapeamento de modelos.](./media/er-components-inspections-10a.png)
 
 10. Observe que ocorre um erro de validação. A mensagem informa que a função **FILTER** não pode ser aplicada à fonte de dados **Vendor** armazenada em cache.
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso e selecionar **Executar** para executar um formato.
 
-![Erro de runtime que ocorre durante a execução do mapeamento de formatos na página Designer de formato](./media/er-components-inspections-10b.png)
+![Erro de runtime que ocorre durante a execução do mapeamento de formatos na página Designer de formato.](./media/er-components-inspections-10b.png)
 
 ### <a name="automatic-resolution&quot;></a>Resolução automática
 
@@ -694,7 +694,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
     - Adicione um campo aninhado do tipo **Cadeia de caracteres** e nomeie-o como **Name**.
     - Adicione um campo aninhado do tipo **Cadeia de caracteres** e nomeie-o como **AccountNumber**.
 
-    ![Adição de campos aninhados ao item de Fornecedor na página Modelo de dados](./media/er-components-inspections-11a.png)
+    ![Adição de campos aninhados ao item de Fornecedor na página Modelo de dados.](./media/er-components-inspections-11a.png)
 
 6. No designer de mapeamento de modelos, no painel **Fontes de dados**, adicione uma fonte de dados do tipo **Dynamics 365 for Operations \\registros de Tabela**.
 7. Nomeie a nova fonte de dados como **Vendor**. No campo **Tabela**, selecione **VendTable** para especificar que essa fonte de dados solicitará a tabela VendTable.
@@ -710,7 +710,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
     > [!NOTE]
     > O campo do modelo de dados **Vendor.Name** permanece não associado.
 
-    ![Itens do modelo de dados associados a fontes de dados configuradas e um item de modo de dados que permanece não associado à página Designer de mapeamento de modelos](./media/er-components-inspections-11b.png)
+    ![Itens do modelo de dados associados a fontes de dados configuradas e um item de modo de dados que permanece não associado à página Designer de mapeamento de modelos.](./media/er-components-inspections-11b.png)
 
 13. Na árvore de estrutura de formato, adicione os itens a seguir para gerar um documento de saída no formato XML que contém os detalhes dos fornecedores da consulta:
 
@@ -729,15 +729,15 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 
 15. Selecione **Validar** para inspecionar o componente de formato editável na página **Designer de formato**.
 
-    ![Validar o componente de formato de ER na página Designer de formato](./media/er-components-inspections-11c.png)
+    ![Validar o componente de formato de ER na página Designer de formato.](./media/er-components-inspections-11c.png)
 
 16. Observe que ocorre um aviso de validação. A mensagem informa que o campo da fonte de dados **model.Vendor.Name** não está associado a nenhuma fonte de dados no mapeamento de modelo configurado para uso pelo formato. Portanto, o elemento de formato **Statement\\Party\\Name** pode não ser preenchido no runtime, e um erro de runtime pode ocorrer.
 
-    ![Validando o componente de formato de ER na página Designer de formato](./media/er-components-inspections-11d.png)
+    ![Validando o componente de formato de ER na página Designer de formato.](./media/er-components-inspections-11d.png)
 
 A ilustração a seguir mostra o erro de runtime exibido se você ignorar o aviso e selecionar **Executar** para executar um formato.
 
-![Executando o formato editável na página Designer de formato](./media/er-components-inspections-11e.png)
+![Executando o formato editável na página Designer de formato.](./media/er-components-inspections-11e.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 
@@ -766,7 +766,7 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 5. No elemento **Excel\\File**, selecione arquivo de pasta de trabalho A.
 6. Selecione **Validar** para inspecionar o componente de formato editável na página **Designer de formato**.
 
-    ![Validando o componente de formato editável do arquivo de pasta de trabalho na página Designer de formato](./media/er-components-inspections-12a.gif)
+    ![Validando o componente de formato editável do arquivo de pasta de trabalho na página Designer de formato.](./media/er-components-inspections-12a.gif)
 
 7. Observe que ocorre um aviso de validação. A mensagem informa que o arquivo de pasta de trabalho B.xlsx não está vinculado a nenhum componente e será removido quando o status da versão da configuração mudar.
 
@@ -794,11 +794,11 @@ As etapas a seguir mostram como esse problema pode ocorrer.
 4. Adicione o elemento **Título** de **Excel\\Célula** a seguir como elemento aninhado do elemento **Relatório**. No campo **Intervalo do Excel**, insira **ReportTitle**.
 5. Selecione **Validar** para inspecionar o componente de formato editável na página **Designer de formato**.
 
-    ![Validação dos elementos e campos aninhados na página Designer de formatos](./media/er-components-inspections-13a.png)
+    ![Validação dos elementos e campos aninhados na página Designer de formatos.](./media/er-components-inspections-13a.png)
 
 6. Observe que ocorre um aviso de validação. A mensagem informa que o nome **ReportTitle** não existe na planilha **Sheet1** do modelo do Excel que você está usando.
 
-    ![Aviso de validação de que o nome ReportTitle não existe na Sheet1 do modelo do Excel](./media/er-components-inspections-13b.png)
+    ![Aviso de validação de que o nome ReportTitle não existe na Sheet1 do modelo do Excel.](./media/er-components-inspections-13b.png)
 
 ### <a name="automatic-resolution"></a>Resolução automática
 

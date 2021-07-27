@@ -242,13 +242,11 @@
                           href: ../finance/localizations/e-invoicing-get-started-service-administration.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Introdução ao Faturamento Eletrônico
                           href: ../finance/localizations/e-invoicing-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Introdução ao Faturamento Eletrônico para o Brasil
+                        - name: Introdução ao Faturamento Eletrônico do Brasil
                           href: ../finance/localizations/e-invoicing-bra-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Introdução ao Faturamento Eletrônico para o Egito
+                        - name: Introdução ao Faturamento Eletrônico do Egito
                           href: ../finance/localizations/e-invoicing-eg-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Introdução ao Faturamento Eletrônico para a Itália
-                          href: ../finance/localizations/e-invoicing-ita-get-started.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Introdução ao Faturamento Eletrônico para o México
+                        - name: Introdução ao Faturamento Eletrônico do México
                           href: ../finance/localizations/e-invoicing-mex-get-started.md?toc=/dynamics365/supply-chain/toc.json
                         - name: Configurar Faturamento Eletrônico
                           href: ../finance/localizations/e-invoicing-setup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1603,10 +1601,12 @@
               items:
                 - name: Visão geral da Otimização do Planejamento
                   href: master-planning/planning-optimization/planning-optimization-overview.md
-                - name: Introdução à Otimização do Planejamento
+                - name: Introdução à Otimização de Planejamento
                   href: master-planning/planning-optimization/get-started.md
-                - name: Análise de ajuste da Otimização do Planejamento
+                - name: Análise de ajuste da Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Parâmetros não usados pela Otimização de Planejamento
+                  href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Aplicar filtros a um plano
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planejamento mestre com previsão de demanda
@@ -1621,7 +1621,9 @@
                   href: master-planning/planning-optimization/purchase-requisitions.md
                 - name: Planejamento de produção
                   href: master-planning/planning-optimization/production-planning.md
-                - name: Marca de estoque com Otimização do Planejamento
+                - name: Agendamento com capacidade infinita
+                  href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Marca de estoque com Otimização de Planejamento
                   href: master-planning/planning-optimization/marking.md
                 - name: Planejamento intercompanhia
                   href: master-planning/planning-optimization/Intercompany-planning.md
@@ -1861,6 +1863,8 @@
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar etapas de aprovação
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Configurar revisores de despesas
+                      href: ../fin-ops-core/fin-ops/organization-administration/configure-expenditure-reviewers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar decisões manuais
                       href: ../fin-ops-core/fin-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar decisões condicionais

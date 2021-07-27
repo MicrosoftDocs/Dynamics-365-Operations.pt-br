@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b91b398c4ef864a92a5318b7e80f71a5a572844e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 75deb3dcca2c5a7fd7341b30411e04715bf27c29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836749"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361177"
 ---
 # <a name="create-maintenance-budgets"></a>Criar orçamentos de manutenção
 
@@ -50,7 +50,7 @@ Os orçamentos de manutenção são baseados nos tipos de custo usados no Gerenc
     > [!NOTE]
     > Depois de aprovar um orçamento de manutenção, você não poderá recalcular ou ajustar as linhas relacionadas na página **Linhas de orçamento de manutenção**, a menos que primeiro remova a aprovação. Para remover a aprovação de um orçamento de manutenção, selecione-o na página **Orçamentos de manutenção** e selecione **Aprovar**. Em seguida, na caixa de diálogo **Aprovar orçamento**, selecione **OK**.
 
-![Orçamentos de Manutenção](media/01-maintenance-budgets.png)
+![Orçamentos de manutenção.](media/01-maintenance-budgets.png)
 
 Também é possível criar um orçamento de manutenção, copiando um orçamento existente. Na página **Orçamentos de manutenção**, selecione o orçamento a ser copiado e selecione **Copiar**. Essa abordagem é útil se, por exemplo, você criou um orçamento para um mês e deseja copiá-lo para outros meses.
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: e066deedcdb02237d6f492047e19100255dab84e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bd33158514de149ecc7da5823c799dd567aeee13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795540"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357825"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurar e gerenciar imagens para Modern POS (MPOS)
 
@@ -46,11 +46,11 @@ Nos procedimentos a seguir, as imagens são configuradas para a entidade do cat�
 1. Abra o portal do Headquarters do Commerce.
 2. Clique em **Retail e Commerce** &gt; **Configuração de canal** &gt; **Perfis de canal**.
 
-    [![Navegação](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![Navegação.](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. No perfil do canal que a loja usa para o MPOS, atualize o campo **URL base da mídia** com a URL base do servidor de mídia ou CDN. A URL base é a primeira parte da URL que é compartilhada por todas as pastas de imagem de entidades diferentes.
 
-    [![Página Perfis de canal](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![Página Perfis de canal.](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Definir o modelo da mídia para uma entidade
 
@@ -68,7 +68,7 @@ Nos procedimentos a seguir, as imagens são configuradas para a entidade do cat�
 8. Execute os trabalho de sincronização para enviar por push o novo modelo ao banco de dados do canal, de forma que o MPOS possa usar o modelo para acessar as imagens.
 9. Para atualizar o modelo de mídia para imagens de catálogo no canal, execute o **Trabalho do catálogo 1150** em **TI do Retail e Commerce** &gt; **Agenda de distribuição**.
 
-    [![Caixa de diálogo Definir modelo de mídia](./media/catalog1.png)](./media/catalog1.png)
+    [![Caixa de diálogo Definir modelo de mídia.](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Visualização de uma imagem em nível de entidade
 
@@ -77,7 +77,7 @@ Nos procedimentos a seguir, as imagens são configuradas para a entidade do cat�
 3. Você pode usar os botões **Adicionar** e **Remover** para alterar manualmente o caminho que se baseia no modelo implícito e é usado para uma imagem específica. Para obter mais informações, consulte a seção [Substituição do modelo da mídia para itens da entidade](#overwriting-the-media-template-for-entity-items), mais adiante neste artigo.
 4. Ao concluir a visualização de uma imagem e fazer as alterações necessárias, inicie a instância do MPOS para a loja adequada, e verifique se as imagens de catálogo são exibidas.
 
-    [![Caixa de diálogo Imagens](./media/catalog4.png)](./media/catalog4.png)
+    [![Caixa de diálogo Imagens.](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > Você pode usar o mesmo procedimento para todas as cinco entidades com suporte: Trabalhador, Cliente, Catálogo, Categoria e Produtos. “Produtos do Catálogo” (produtos que são definidos em nível de catálogo) e “Produtos do Canal” (produtos que são definidos em nível de canal) usam o modelo da mídia que é definido para a entidade Produtos. No modelo de mídia Produtos, você pode selecionar o número de imagens do produto para mostrar por produto. Também pode definir a imagem padrão para um produto específico. Dessa forma, você pode evitar imagens em branco no MPOS, e ajudar a controlar a imagem que é usada como a imagem padrão para um item de produto. No exemplo a seguir, cada produto tem cinco imagens, e a primeira imagem é definida como a imagem padrão. As variantes de produtos são tratadas da mesma forma que os produtos mestre. O nome de arquivo do arquivo de imagem deve se basear no número do produto. Há também caracteres de escape enquanto o nome de arquivo é gerado. Portanto, convém verificar o nome do arquivo usando a seção **Gerenciar URLs de Imagem para o Excel**. Consulte a seção [Substituir usando Editar no Excel](#overwrite-by-using-edit-in-excel) posteriormente neste artigo.
@@ -108,7 +108,7 @@ Como vimos na seção anterior, o modelo da mídia para determinada entidade dá
 
     Agora você tem uma visualização das URLs de imagem que foram geradas com base no último modelo de mídia salvo.
 
-    [![Guia Rápida Gerenciar URLs de Imagem para o Excel após Gerar ser selecionado](./media/excel2.png)](./media/excel2.png)
+    [![Guia Rápida Gerenciar URLs de Imagem para o Excel após Gerar ser selecionado.](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > As URLs que são geradas para o Excel usam o caminho e as convenções do modelo da mídia que é definido. Essas convenções incluem as convenções para nomes de arquivo. A expectativa é que você configure as imagens físicas fora do Commerce, e que as imagens possam ser recuperadas das URLs que derivam do modelo da mídia definido antes. Você pode substituir essas URLs derivadas usando a funcionalidade Editar no Excel.
@@ -117,17 +117,17 @@ Como vimos na seção anterior, o modelo da mídia para determinada entidade dá
 6. Depois que a planilha do Microsoft Excel for aberta, clique em **Habilitar edição** quando for solicitado.
 7. Quando for solicitado, clique em **Confiar neste suplemento** no painel direito, e aguarde até o suplemento concluir a instalação.
 
-    [![Confiar neste suplemento](./media/excel4.jpg)](./media/excel4.jpg)
+    [![Confiar neste suplemento.](./media/excel4.jpg)](./media/excel4.jpg)
 
 8. Se você for solicitado a entrar, insira as credenciais usadas para entrar na matriz.
 
-    [![Prompt de entrada](./media/excel5.png)](./media/excel5.png)
+    [![Prompt de entrada.](./media/excel5.png)](./media/excel5.png)
 
 9. Após entrar, você verá a lista de URLs de imagem para as várias entradas de catálogo.
 10. Você edita, adiciona e remove as URLs de imagem para vários itens da entidade.
 11. Para todas as entidades, exceto Produtos, você pode substituir as URLs da imagem. Modifique a URL de imagem existente para que ela use a nova URL de destino da imagem, e atualize o nome do arquivo com o novo nome de arquivo para o arquivo de imagem. O nome de arquivo deve ser exclusivo para ajudar a garantir que o registro seja exclusivo.
 
-    [![Substituir as URLs de imagem no Excel](./media/excel6.jpg)](./media/excel6.jpg)
+    [![Substituir as URLs de imagem no Excel.](./media/excel6.jpg)](./media/excel6.jpg)
 
     > [!NOTE]
     > Quando você substitui URLs de imagem para entidades Produtos usando a funcionalidade Editar no Excel ou a página do item da entidade, o MPOS sempre mostra todas as URLs de imagem do modelo da mídia, junto com as URLs de imagem substituídas.
@@ -153,11 +153,11 @@ Para todas as entidades, exceto Produtos, você pode substituir a URL de imagem 
 3. Se você deseja que esta imagem apareça no MPOS do catálogo, defina-a como a imagem padrão.
 4. Clique em **OK**. A URL de imagem é atualizada para esta imagem do catálogo e uma exibição é mostrada.
 
-    [![URL atualizada na caixa de diálogo Nova imagem](./media/preview3.png)](./media/preview3.png)
+    [![URL atualizada na caixa de diálogo Nova imagem.](./media/preview3.png)](./media/preview3.png)
 
 5. Também é possível verificar a visualização de imagem para todas as URLs de imagem substituídas na página da galeria **Imagens de catálogo**.
 
-    [![Página da galeria Imagens de catálogo](./media/preview-4.png)](./media/preview-4.png)
+    [![Página da galeria Imagens de catálogo.](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > No momento, a galeria não mostra visualizações de imagem para URLs de imagem do modelo da mídia. Para as entidades Catálogo, Trabalhador, Cliente e Categoria, se o usuário fornece explicitamente uma URL através desta página, é recomendável indicar a imagem que é padrão, pois os clientes do Commerce Scale Unit mostram apenas uma imagem por Catálogo, Cliente, Trabalhador e Categoria. Se o usuário não especifica uma imagem padrão, o sistema determina a imagem padrão e a envia ao chamador de serviço do Commerce (MPOS ou comércio eletrônico).
@@ -172,7 +172,7 @@ Para substituir URLs de imagem para imagens de produto do catálogo, use a pági
 4. Clique em **Adicionar** e substitua a URL da imagem por uma nova URL.
 5. Clique em **OK**. Agora você vê a visualização da nova imagem e pode defini-la como a imagem padrão.
 
-    [![Visualização da imagem na caixa de diálogo Nova imagem](./media/cat3.png)](./media/cat3.png)
+    [![Visualização da imagem na caixa de diálogo Nova imagem.](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > Após a associação da imagem de categoria, você deve publicar o canal e executar o trabalho do canal para ajudar a garantir que as alterações sejam publicadas no banco de dados do canal.
@@ -193,7 +193,7 @@ As imagens de produto que devem ser usadas no modo Offline podem ser configurada
 6. Enquanto o MPOS estiver no modo Online, execute o trabalho Catálogo na matriz, para verificar se os dados foram enviados pelo menos uma vez ao banco de dados offline.
 7. Coloque o MPOS no modo Offline. Você deve ver a imagem que carregou para o produto específico na matriz.
 
-    [![Imagem do produto no modo offline](./media/offline1.png)](./media/offline1.png)
+    [![Imagem do produto no modo offline.](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>Configuração de imagens de catálogo, categoria, funcionário e cliente para aparecerem no modo Offline para MPOS
 
@@ -205,7 +205,7 @@ As imagens de catálogo, categoria, funcionário e cliente que devem ser usadas 
 4. Execute o trabalho de Catálogo. Esta imagem será usada como a imagem Offline deste catálogo no MPOS.
 5. Siga um processo semelhante para outras entidades, como Categoria, Funcionário e Cliente.
 
-    [![Imagem Offline](./media/offline2.png)](./media/offline2.png)
+    [![Imagem Offline.](./media/offline2.png)](./media/offline2.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

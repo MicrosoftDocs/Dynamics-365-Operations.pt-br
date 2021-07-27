@@ -13,22 +13,28 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 227082358c59abddd63f4faa4536a8df270a4d80
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24f8af4d691c3085c36018c574fa3b917a3d6953
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6059079"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314204"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Plano de remuneração fixa da folha de pagamento
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico fornece detalhes e um exemplo de consulta da entidade Plano de remuneração fixa da folha de pagamento no Dynamics 365 Human Resources.
+Este tópico descreve a entidade Plano de remuneração fixa da folha de pagamento para o Dynamics 365 Human Resources.
+
+### <a name="description"></a>descrição
+
+Esta entidade fornece o plano de remuneração fixa atribuído a um determinado cargo de um funcionário.
+
+Nome físico: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Propriedades
 
-| Propriedade<br>**Nome físico**<br>**_Tipo_** | Uso | Descrição |
+| Propriedade<br>**Nome físico**<br>**_Tipo_** | Usar | descrição |
 | --- | --- | --- |
 | **ID do Funcionário**<br>mshr_fk_employee_id_value<br>*GUID* | Somente leitura<br>Obrigatório<br>Chave estrangeira: mshr_Employee_id da entidade mshr_payrollemployeeentity  | ID do Funcionário |
 | **Taxa de pagamento**<br>mshr_payrate<br>*Decimal* | Somente leitura<br>Obrigatório | A taxa de pagamento definida no plano de remuneração fixa. |
@@ -37,13 +43,13 @@ Este tópico fornece detalhes e um exemplo de consulta da entidade Plano de remu
 | **Entidade Plano de remuneração fixa da folha de pagamento**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Obrigatório<br>Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o plano de remuneração. |
 | **Frequência de pagamento**<br>mshr_payfrequency<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório |A frequência com que o funcionário será pago.  |
 | **Válida até**<br>mshr_validto<br>*Compensação de Data/Hora* | Somente leitura <br>Obrigatório | Data até a qual a remuneração fixa do funcionário é válida. |
-| **ID da posição**<br>mshr_positionid<br>*Cadeia de caracteres* | Somente leitura <br>Obrigatório | ID da posição associada ao funcionário e ao registro do plano de remuneração fixa. |
+| **ID da posição**<br>mshr_positionid<br>*Sequência de caracteres* | Somente leitura <br>Obrigatório | ID do cargo associada ao funcionário e ao registro do plano de remuneração fixa. |
 | **Moeda**<br>mshr_currency<br>*Cadeia de caracteres* | Somente leitura <br>Obrigatório |A moeda definida para o plano de remuneração fixa   |
 | **Número da equipe**<br>mshr_personnelnumber<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório |O número da equipe exclusiva do funcionário.  |
 
-**Consulta**
+## <a name="example-query"></a>Exemplo de consulta
 
-**Solicitação**
+**Solicitar**
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_payrollfixedcompensationplanentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_validfrom le @asofdate and mshr_validto ge @asofdate&@personnelnumber='000041'&@asofdate=2021-04-01
@@ -53,18 +59,24 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollfixedcompensationplanentities?$f
 
 ```json
 {
-            "mshr_planid": "GradeC",
-            "mshr_personnelnumber": "000041",
-            "mshr_payrate": 75200,
-            "mshr_positionid": "000276",
-            "mshr_validfrom": "2011-04-05T00:00:00Z",
-            "mshr_validto": "2154-12-31T00:00:00Z",
-            "mshr_payfrequency": "Annual",
-            "mshr_currency": "USD",
-            "_mshr_fk_employee_id_value": "00000d3c-0000-0000-d5ff-004105000000",
-            "_mshr_fk_plan_id_value": "0000070c-0000-0000-b328-fef003000000",
-            "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
-            "mshr_payrollfixedcompensationplanentityid": "0000029f-0000-0000-d5ff-004105000000",
-            "_mshr_fk_payroll_id_value": null
+    "mshr_planid": "GradeC",
+    "mshr_personnelnumber": "000041",
+    "mshr_payrate": 75200,
+    "mshr_positionid": "000276",
+    "mshr_validfrom": "2011-04-05T00:00:00Z",
+    "mshr_validto": "2154-12-31T00:00:00Z",
+    "mshr_payfrequency": "Annual",
+    "mshr_currency": "USD",
+    "_mshr_fk_employee_id_value": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_fk_plan_id_value": "0000070c-0000-0000-b328-fef003000000",
+    "_mshr_fk_job_id_value": "00010094-0000-0000-df00-014105000000",
+    "mshr_payrollfixedcompensationplanentityid": "0000029f-0000-0000-d5ff-004105000000",
+    "_mshr_fk_payroll_id_value": null
 }
 ```
+
+## <a name="see-also"></a>Consulte também
+
+[Introdução à API de integração da folha de pagamento](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

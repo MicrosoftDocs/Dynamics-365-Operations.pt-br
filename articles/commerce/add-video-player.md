@@ -2,7 +2,7 @@
 title: Módulo de reprodutor de vídeo
 description: Este tópico abrange os módulos de exibição e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: aa1efa6ce959439c49983553edfaf247c8e8dcd5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 48d7a047a739420fa4aaa3f520c774854f254ef9
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797398"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479271"
 ---
 # <a name="video-player-module"></a>Módulo de reprodutor de vídeo
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de exibição e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 
@@ -43,12 +44,16 @@ O módulo player de vídeo também oferece suporte a faixas de áudio secundári
 
 A imagem a seguir mostra um exemplo de módulo de reprodutor de vídeo em uma home page.
 
-![Exemplo de módulo de reprodutor de vídeo](./media/ecommerce-videoplayer.PNG)
+![Exemplo de módulo de reprodutor de vídeo.](./media/ecommerce-videoplayer.PNG)
 
 ### <a name="video-player-module-properties"></a>Propriedades de módulo de reprodutor de vídeo
 
 | Nome da propriedade         | Alíquota                               | descrição |
 |-----------------------|-------------------------------------|-------------|
+| Título               | Texto do cabeçalho e tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Por padrão, a tag de cabeçalho **H2** é usada, mas a tag do cabeçalho pode ser alterada para atender aos requisitos de acessibilidade. |
+| Rich text             | Texto de parágrafo | O módulo oferece suporte a texto de parágrafo em formato rich text. Alguns recursos básicos de rich text são compatíveis, como negrito, sublinhado, itálico e hiperlinks. Alguns desses recursos podem ser substituídos pelo tema da página aplicado ao módulo. |
+| Vincular                  | Texto do link, URL do link, rótulo ARIA (Accessible Rich Internet Applications) e seletor **Abrir link em uma nova guia** | O módulo oferece suporte a um ou mais links de "chamada à ação". Se um link for adicionado, será necessário o texto do link, uma URL e uma etiqueta ARIA. As etiquetas ARIA devem ser descritivas para atender aos requisitos de acessibilidade. Os links podem ser configurados para serem abertos em uma nova guia. |
+| Subtexto              | Título, texto ou links | É possível adicionar um contexto adicional para o módulo de player de vídeo, como um autor ou nome de designer, ou links para Blogs pessoais. |
 | Reprodução automática             | **Verdadeiro** ou **Falso**               | Quando o valor é definido como **Verdadeiro**, o vídeo é executado automaticamente. |
 | Ativar Mudo                  | **Verdadeiro** ou **Falso**               | Quando o valor é definido como **Verdadeiro**, o áudio fica no mudo. Para esse reprodutor, o valor padrão é **Falso**. No navegador do Chrome, vídeos reproduzidos automaticamente são mudos por padrão e o áudio é reproduzido apenas se o usuário reproduzir manualmente o vídeo. |
 | Loop                  | **Verdadeiro** ou **Falso**               | Quando o valor é definido como **Verdadeiro**, o vídeo é repetido em um loop. |
@@ -58,6 +63,9 @@ A imagem a seguir mostra um exemplo de módulo de reprodutor de vídeo em uma ho
 | Controles do player de vídeo | **Verdadeiro** ou **Falso**               | Quando o valor é definido como **Verdadeiro**, todos os controles do player de vídeo são exibidos. Esses controles incluem botões de reprodução e pausa, um indicador de progresso e opções de legenda. |
 | Ocultar imagem do pôster     | **Verdadeiro** ou **Falso**               | Uma vídeo pode ter uma borda. Quando o valor desta propriedade é definido como **Verdadeiro**, a borda fica oculta. |
 | Nível de máscara            | Um número de **0** a **100** | A máscara aplicada ao vídeo para estilo. |
+
+> [!IMPORTANT]
+> As propriedades **Cabeçalho**, **Rich Text**, **Link** e **Subtexto** estão disponíveis a partir da versão 10.0.20 do Dynamics 365 Commerce.
 
 ## <a name="add-a-video-player-module-to-a-page"></a>Adicionar um módulo de reprodutor de vídeo à página
 

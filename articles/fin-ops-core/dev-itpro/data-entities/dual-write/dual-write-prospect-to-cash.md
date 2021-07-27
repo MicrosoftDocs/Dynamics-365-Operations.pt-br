@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 33ed1c7f69fa92bbd123042a139dd8fd0ee3e73a
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7554189c779404559187ecd99f4bca4636054446
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754079"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361368"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -33,7 +33,7 @@ Um objetivo importante da maioria das empresas é converter clientes potenciais 
 
 Nas interfaces de aplicativo, você pode acessar os status de processamento e as informações de nota fiscal em tempo real. Portanto, você pode gerenciar mais facilmente as funções como estoque de produtos, manuseio de estoque e preenchimento no Supply Chain Management, sem ter que criar novamente cotações e ordens.
 
-![Fluxo de dados de gravação dupla em cliente potencial com pagamento à vista](../dual-write/media/dual-write-prospect-to-cash[1].png)
+![Fluxo de dados de gravação dupla em cliente potencial com pagamento à vista.](../dual-write/media/dual-write-prospect-to-cash[1].png)
 
 Para obter informações sobre a integração entre cliente e contato, consulte [Cliente mestre integrado](customer-mapping.md). Para obter mais informações sobre a integração de produtos, consulte [Experiência unificada de produtos](product-mapping.md).
 

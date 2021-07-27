@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: a26ee80eb52e40b60ace9b1494b3512d85f04cfe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 913e5cf8d39dfe36efea0526d84808e7d736b030
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837864"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361134"
 ---
 # <a name="asset-fault-analysis"></a>Análise de falhas de ativos
 
@@ -60,7 +60,7 @@ Na captura de tela abaixo, apenas o botão **Sintoma** está selecionado.
 - Registros de falhas foram feitos com três sintomas de falha: "Vazamento de ar", "Fusível queimado" e "Equipamento danificado".  
 - Na coluna **Probabilidade %**, todas as porcentagens somam 100%. A probabilidade é baseada em todos os registros **Sintoma** nessa análise de falha.
 
-![Figura 1](media/06-controlling-and-reporting.png)
+![Figura 1.](media/06-controlling-and-reporting.png)
 
 ### <a name="group-by-symptoms-and-time-period"></a>Agrupar por sintomas e período
 
@@ -69,7 +69,7 @@ Na captura de tela abaixo, **Ano** e **Mês** são adicionados para mostrar como
 - Os sintomas de falha agora são mostrados como registros por ano/mês.  
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens de cada mês, elas somarão 100%. A probabilidade é baseada nos registros **Sintoma** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de um sintoma de falha a ser examinado com mais cuidado para encontrar uma maneira de limitar o número de registros desse sintoma de falha.
 
-![Figura 2](media/07-controlling-and-reporting.png)
+![Figura 2.](media/07-controlling-and-reporting.png)
 
 ### <a name="group-by-multiple-symptoms-and-assets"></a>Agrupar por vários sintomas e ativos
 
@@ -84,7 +84,7 @@ Na captura de tela abaixo, **Ativo** e **Tipo de ativo** foram adicionados para 
 - Os sintomas de falha agora são divididos em combinações **Ativo** / **Tipo de ativo** / **Sintoma**.  
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens para a combinação de **Ativo** / **Tipo de ativo** / **Sintoma** respectivamente, cada uma delas somará 100%. A probabilidade é baseada nos registros **Sintoma** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de um sintoma de falha a ser examinado com mais cuidado para encontrar uma maneira de limitar o número de registros desse sintoma de falha.
 
-![Figura 3](media/08-controlling-and-reporting.png)
+![Figura 3.](media/08-controlling-and-reporting.png)
 
 **Agrupar por dois sintomas, ativo e tipo de ativo**
 
@@ -92,7 +92,7 @@ Na captura de tela abaixo, a **Área** foi adicionada a **Sintoma**, **Ativo** e
 
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens para a combinação de **Ativo** / **Tipo de ativo** / **Sintoma** em um ativo, cada uma delas somará 100%. A probabilidade é baseada na combinação de **Sintoma** e **Área** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de uma área de falha a ser examinada com mais cuidado para encontrar uma maneira de limitar o número de registros dessa área de falha.  
 
-![Figura 4](media/09-controlling-and-reporting.png)
+![Figura 4.](media/09-controlling-and-reporting.png)
 
 **Agrupar por três sintomas, ativo e tipo de ativo**
 
@@ -100,7 +100,7 @@ Na captura de tela abaixo, o **Tipo** foi adicionado e o cálculo mais detalhado
  
 - Na coluna **Probabilidade %**, se você adicionar todas as porcentagens para a combinação de **Ativo** / **Tipo de ativo** / **Sintoma** em um ativo, cada uma delas somará 100%. A probabilidade é baseada na combinação de **Sintoma**, **Área** e **Tipo** nessa análise de falha. Se você tiver um grande número de linhas em um ativo, mas uma grande porcentagem se destacar em uma linha, isso seria uma indicação de um tipo de falha a ser examinado com mais cuidado para encontrar uma maneira de limitar o número de registros desse tipo de falha.
 
-![Figura 5](media/10-controlling-and-reporting.png)
+![Figura 5.](media/10-controlling-and-reporting.png)
 
 
 >[!NOTE]

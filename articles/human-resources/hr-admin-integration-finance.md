@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5ed66bb2b2fce659e1e1f029fd60f74149b6526b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 81b65d1aeeff6c4459fe0b2637013009958cfd55
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055115"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360631"
 ---
 # <a name="configure-integration-with-finance"></a>Configurar a integração com o Finance
 
@@ -30,7 +30,7 @@ ms.locfileid: "6055115"
 
 Para integrar o Dynamics 365 Human Resources com Dynamics 365 Finance, você pode usar o modelo Human Resources para Finance no [Integrador de Dados](/powerapps/administrator/data-integrator). O modelo de Human Resources para Finance permite o fluxo de dados para trabalhos, posições e trabalhadores. O modelo permite que os dados fluam de Human Resources para Finance, mas não permite que os dados fluam de Finance para Human Resources.
 
-![Integração do Human Resources ao fluxo de integração do Finance](./media/hr-admin-integration-finance-flow.png)
+![Integração do Human Resources ao fluxo de integração do Finance.](./media/hr-admin-integration-finance-flow.png)
 
 A solução Human Resources para Finance fornece os seguintes tipos de sincronização de dados:
 
@@ -253,6 +253,6 @@ A identificação de local usada para o endereço de trabalho não faz parte de 
 
 A ilustração a seguir mostra um exemplo de um mapeamento de modelo no Integrador de dados. 
 
-![Mapeamento de modelo](./media/IntegrationMapping.png)
+![Mapeamento de modelo.](./media/IntegrationMapping.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-03-31
-ms.openlocfilehash: 90ddbe704ab21d62752b581a813601e8986c2103
-ms.sourcegitcommit: 180548e3c10459776cf199989d3753e0c1555912
+ms.openlocfilehash: 6662b6cad53c832e15fb27b435e277840afd8097
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6112664"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346537"
 ---
 # <a name="upgrade-to-the-party-and-global-address-book-model"></a>Atualizar para o modelo de catálogo de endereços global e de participantes
 
@@ -89,7 +89,7 @@ As seguintes atividades são necessárias para se preparar para a atualização:
 
 10. Após a implantação, valide os conjuntos de dados, de fluxo de dados e o serviço vinculado da data factory.
 
-   ![Conjuntos de dados, fluxo de dados e serviço vinculado](media/data-factory-validate.png)
+   ![Conjuntos de dados, fluxo de dados e serviço vinculado.](media/data-factory-validate.png)
 
 11. Navegue até **Gerenciar**. Em **Conexões**, selecione **Serviço vinculado**. Selecione **DynamicsCrmLinkedService**. No formulário **Editar serviço vinculado (Dynamics CRM)**, insira os seguintes valores:
 
@@ -154,7 +154,7 @@ As seguintes atividades são necessárias para se preparar para a atualização:
 
 7. Na data Factory, execute o modelo selecionando **Disparar Agora**, conforme mostrado na imagem a seguir. Esse processo pode levar algumas horas para ser concluído com base no volume de dados.
 
-    ![Disparar execução](media/data-factory-trigger.png)
+    ![Disparar execução.](media/data-factory-trigger.png)
 
     > [!NOTE]
     > Se tiver personalizações para **Conta**, **Contato** e **Fornecedor**, você precisará modificar o modelo.
@@ -164,7 +164,7 @@ As seguintes atividades são necessárias para se preparar para a atualização:
     + Baixe o arquivo `FONewParty.csv` do Armazenamento de Blobs do Azure. O caminho é `partybootstrapping/output/FONewParty.csv`.
     + Converta o arquivo `FONewParty.csv` em um arquivo do Excel e importe-o para o aplicativo do Finance and Operations. Se a importação de CSV funcionar para você, você poderá importar o arquivo CSV diretamente. A importação pode levar algumas horas para ser executada, dependendo do volume de dados. Para obter mais informações, consulte [Visão geral de trabalhos de importação e exportação de dados](../data-import-export-job.md).
 
-    ![Importar os registros de participante do Dataverse](media/data-factory-import-party.png)
+    ![Importar os registros de participante do Dataverse.](media/data-factory-import-party.png)
 
 9. Nos aplicativos de participação do cliente, habilite as seguintes etapas do plug-in:
 
@@ -199,7 +199,7 @@ As seguintes atividades são necessárias para se preparar para a atualização:
 3. A data Factory é executada com base em arquivos CSV que são delimitados por vírgula. Se houver um valor de campo com uma vírgula, isso poderá interferir nos resultados. Você deve remover as vírgulas.
 4. A guia **Monitoramento** fornece informações sobre todas as etapas e os dados processados. Selecione uma etapa específica para depurá-la.
 
-    ![Guia Monitoramento](media/data-factory-monitor.png)
+    ![Guia Monitoramento.](media/data-factory-monitor.png)
 
 ## <a name="learn-more-about-the-template"></a>Saiba mais sobre o modelo
 

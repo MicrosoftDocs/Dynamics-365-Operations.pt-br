@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 4540cdfff2362d8fb7cc2b4cccf9c340be9750ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023028"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358209"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Defina os parâmetros de TDS no Contas a pagar e no Contas a receber
 
@@ -38,12 +38,12 @@ Este tópico explica como definir parâmetros no Contas a pagar e no Contas a re
     - **Avisar** – os usuários recebem uma mensagem que solicita que eles atualizem o grupo de TDS nas linhas da ordem.
 4. Selecione **OK**.
 
-    [![Caixa de diálogo Atualizar linhas da ordem](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
+    [![Caixa de diálogo Atualizar linhas da ordem.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
 5. Vá para **Imposto \> Configuração \> Parâmetros \> Parâmetros de contas a pagar**.
 6. Na guia **Geral**, na FastTab **Divisão com base nas informações de entrega**, defina a opção **Recebimento de produtos** como **Sim** para lançar e dividir um recebimento de um produto com endereços de entrega e números de conta de impostos (TANS) diferentes. Se esta opção estiver definida como **Não**, não será possível lançar uma guia de remessa de compra que tenha endereços de entrega e TANS diferentes.
 7. Defina a opção **Fatura** como **Sim** para lançar e dividir uma fatura de compra que tenha vários endereços de entrega e TANs.
 
-    [![FastTab Divisão baseada nas informações de entrega](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
+    [![FastTab Divisão baseada nas informações de entrega.](./media/apac-ind-TDS-25.png)](./media/apac-ind-TDS-25.png)
 
 8. Feche a página.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: ceb5b7c90cc7efa0049d0278e2c245228e5b52bd
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 3ff40011ac60c47f6ed667adfcf01bc727334f13
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186777"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358970"
 ---
 # <a name="note-integration"></a>Integração da nota
 
@@ -51,23 +51,23 @@ Para criar uma nota em um aplicativo de engajamento do cliente e sincronizá-la 
 1. No aplicativo engajamento do cliente, abra o registro da conta de um cliente.
 2. No painel **Linha de tempo**, selecione o sinal de adição (**+**) e, em seguida, selecione **Nota** para criar uma nota.
 
-    ![Criando uma nota em um aplicativo de engajamento do cliente](media/notes-ce-1.png)
+    ![Criando uma nota em um aplicativo de engajamento do cliente.](media/notes-ce-1.png)
 
 3. Informe um título e uma descrição e selecione **Adicionar nota**.
 
-    ![Inserindo um título e uma descrição](media/notes-ce-2.png)
+    ![Inserindo um título e uma descrição.](media/notes-ce-2.png)
 
     A nova nota é adicionada à linha do tempo do cliente.
 
-    ![Nova nota na linha do tempo do cliente](media/notes-ce-3.png)
+    ![Nova nota na linha do tempo do cliente.](media/notes-ce-3.png)
 
 4. Entre no aplicativo Finance and Operations e abra o mesmo registro de cliente. Lembre-se de que o botão **Anexos** (símbolo de clipe de papel) no canto superior direito indica que o registro tem um anexo.
 
-    ![Notificação sobre um anexo](media/notes-ce-4.png)
+    ![Notificação sobre um anexo.](media/notes-ce-4.png)
 
 5. Selecione o botão **Anexos** para abrir a página **Anexos**. Você deve encontrar a nota criada no aplicativo de engajamento do cliente.
 
-    ![Observação do aplicativo de engajamento do cliente](media/notes-ce-5.png)
+    ![Observação do aplicativo de engajamento do cliente.](media/notes-ce-5.png)
 
 Todas as atualizações da nota são sincronizadas para frente e para trás entre o aplicativo Finance and Operations e o aplicativo de engajamento do cliente.
 
@@ -79,21 +79,21 @@ Para criar uma nota em um aplicativo Finance and Operations e sincronizá-la par
 
 1. No aplicativo Finance and Operations na página **Anexos**, selecione **Nova** \> **Nota**.
 
-    ![Criando uma nota no aplicativo Finance and Operations](media/notes-fo-1.png)
+    ![Criando uma nota no aplicativo Finance and Operations.](media/notes-fo-1.png)
 
 2. Insira um título e um breve conjunto de instruções e selecione **Salvar**.
 
-    ![Inserindo um título e instruções](media/notes-fo-2.png)
+    ![Inserindo um título e instruções.](media/notes-fo-2.png)
 
 3. No aplicativo de engajamento do cliente, atualize o registro. Você deve encontrar a nova nota na linha do tempo.
 
-    ![Nova nota na linha do tempo no aplicativo de engajamento do cliente](media/notes-fo-3.png)
+    ![Nova nota na linha do tempo no aplicativo de engajamento do cliente.](media/notes-fo-3.png)
 
 Você pode classificar uma nota como interna ou externa.
 
 - No aplicativo Finance and Operations, na página **Anexos**, abra a anotação e, no campo **Restrição**, selecione **Interno** ou **Externo**.
 
-    ![Campo de restrição](media/notes-fo-4.png)
+    ![Campo de restrição.](media/notes-fo-4.png)
 
 Você também pode cria uma URL.
 
@@ -101,13 +101,13 @@ Você também pode cria uma URL.
 2. Insira um título e uma URL.
 3. No campo **Restrição**, selecione **Interno** ou **Externo**.
 
-    ![Criando uma URL no aplicativo Finance and Operations](media/notes-fo-5.png)
+    ![Criando uma URL no aplicativo Finance and Operations.](media/notes-fo-5.png)
 
 4. Selecione **Salvar**.
 
     Como os aplicativos do engajamento do cliente não têm um tipo de URL, a URL é integrada com a gravação dupla como uma nota.
 
-    ![URL aparecendo uma nota em um aplicativo de engajamento do cliente](media/notes-ce-6.png)
+    ![URL aparecendo uma nota em um aplicativo de engajamento do cliente.](media/notes-ce-6.png)
 
 > [!NOTE]
 > Não há suporte para anexos de arquivo.

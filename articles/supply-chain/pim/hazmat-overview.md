@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 15edf61cba03a57b9b4d2c939228fd064b797942
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5f8c3dc084f4f260f8cc29b3957913e9bc1b762d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829369"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356990"
 ---
 # <a name="hazardous-materials-overview"></a>Visão geral de materiais perigosos
 
@@ -27,7 +28,7 @@ Para permanecer em conformidade com as regulamentações de remessa e transporte
 
 O diagrama a seguir ilustra as etapas necessárias para configurar e usar o recurso materiais perigosos.
 
-![Configurar e usar o recurso materiais perigosos](media/hazmat-overview.png "Configurar e usar o recurso materiais perigosos")
+![Configurar e usar o recurso materiais perigosos.](media/hazmat-overview.png "Configurar e usar o recurso materiais perigosos")
 
 O recurso materiais perigosos é configurado no Gerenciamento de informações do produto e fornece documentos que podem ser impressos por meio do Gerenciamento de depósito. Portanto, em geral, essas áreas são as duas principais áreas nas quais você vai revisar, configurar e usar a funcionalidade desse recurso:
 

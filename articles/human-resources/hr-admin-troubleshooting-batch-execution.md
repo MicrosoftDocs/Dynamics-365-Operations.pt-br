@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: Platform update 42
-ms.openlocfilehash: d0b12908993070a41d21ac57d6fb504fc6e3b06a
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: f236f861434eb2eaa26eab92e25a0b83a8026972
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357328"
 ---
 # <a name="reset-stuck-batch-jobs"></a>Redefinir trabalhos em lote presos
 
@@ -46,11 +46,11 @@ Quando um trabalho em lotes está preso em um estado **Executando** ou **Cancela
 
 5. Na página **Selecionar novo status**, selecione **Aguardando** e depois **OK**.
 
-   ![Selecionar um novo status de trabalho em lotes](./media/hr-admin-reset-batch-job-status.png)
+   ![Selecionar um novo status de trabalho em lotes.](./media/hr-admin-reset-batch-job-status.png)
 
 ## <a name="see-also"></a>Consulte também
 
-[Otimizar o desempenho ao agendar trabalhos em lotes após o expediente](hr-admin-troubleshooting-batch-jobs.md)<br>
+[Otimizar o desempenho ao agendar trabalhos em lote após o expediente](hr-admin-troubleshooting-batch-jobs.md)<br>
 [Otimizar o desempenho com tarefas de limpeza automática](hr-admin-troubleshooting-batch-history.md)
 
 

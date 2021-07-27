@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: Release 10.0.6
-ms.openlocfilehash: a243399536fec3f5361104289c38e550bf8b1144
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 27e52a94208129aee0e33074e7fc3778de53733a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193273"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355820"
 ---
 # <a name="ratings-and-reviews-modules"></a>Módulos de classificações e opiniões
 
@@ -42,20 +42,20 @@ Três módulos mostram as avaliações e opiniões resumidas em PDPs:
  
 A ilustração a seguir mostra como os módulos de avaliações e opiniões se parecem em um PDP.
 
-![Módulos de classificações e opiniões em um PDP](media/rnr-eCommerce-pdp-reviews-modules_design.png)
+![Módulos de classificações e opiniões em um PDP.](media/rnr-eCommerce-pdp-reviews-modules_design.png)
 
 > [!TIP] 
 > Para obter informações sobre como otimizar modelos e layouts de PDP para que você possa compartilhar configurações para módulos de avaliação e opiniões entre vários PDPs no site comercial online, consulte [Visão geral de modelos e layouts](templates-layouts-overview.md).
 
 A ilustração a seguir mostra como a caixa de diálogo **Adicionar o módulo** apresenta módulos de avaliações e opiniões no Dynamics 365 Commerce.
-![Adicionar a caixa de diálogo do módulo](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
+![Adicionar a caixa de diálogo do módulo.](media/rnr-eCommerce-pdp-adding-rnr-modules.png)
 
 ### <a name="write-review-module"></a>Módulo para escrever uma avaliação
 
 O módulo de escrita de avaliação contém um botão **Escrever uma avaliação** que permite que os usuários se conectem, atribuam uma avaliação e escrevam uma revisão de um produto. Este módulo também permite que os usuários editem uma classificação ou opinião enviada anteriormente. Esse módulos geralmente aparecerá acima do histograma de avaliações e módulos de lista de opiniões sobre produto em um PDP.
 A ilustração a seguir mostra a caixa de diálogo **Escrever uma avaliação** exibida quando um cliente seleciona **Escrever uma avaliação**. O cliente pode usar esta caixa de diálogo para enviar uma avaliação e uma revisão.
 
-![Caixa de diálogo escrever uma avaliação](media/rnr-eCommerce-write-review-module.png)
+![Caixa de diálogo escrever uma avaliação.](media/rnr-eCommerce-write-review-module.png)
 
 A tabela a seguir mostra a propriedade do módulo para escrever uma revisão que precisa ser configurado na ferramenta de criação.
 
@@ -67,7 +67,7 @@ A tabela a seguir mostra a propriedade do módulo para escrever uma revisão que
 
 O módulo de histograma de avaliações exibe um histograma de avaliações. Este módulo aparece normalmente entre o módulo para escrever avaliação e o módulo de lista de avaliações de produto em um PDP.
 O módulo de histograma de avaliação não exige configuração. Você só tem que adicionar o módulo no modelo de PDP. As ilustrações a seguir mostram como um modelo de PDP se parece no Dynamics 365 Commerce quando os módulos de avaliação e revisão são configurados para exibição em PDPs.
-![Modelo de PDP quando as avaliações e revisões estão configuradas para a exibição em PDPs](media/rnr-eCommerce-pdp-reviews-modules.png)
+![Modelo de PDP quando as avaliações e revisões estão configuradas para a exibição em PDPs.](media/rnr-eCommerce-pdp-reviews-modules.png)
 
 ### <a name="product-reviews-list-module"></a>Módulo da lista de revisões de produto
 
@@ -82,7 +82,7 @@ A tabela a seguir mostra as propriedades do módulo de lista de avaliações de 
 
 O módulo de lista de avaliações de produto inclui um slot onde você pode adicionar um módulo de histograma de avaliações. A ilustração a seguir mostra como é possível adicionar um módulo de histograma de avaliação no módulo da lista de revisões de produtos no Dynamics 365 Commerce.
 
-![Adicionando um módulo de histograma de avaliação em um módulo de lista de avaliações de produto](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
+![Adicionando um módulo de histograma de avaliação em um módulo de lista de avaliações de produto.](media/rnr-eCommerce-pdp-rating-histogram-summary.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

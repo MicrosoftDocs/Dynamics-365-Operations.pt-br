@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 106043
+ms.custom:
+- "106043"
+- intro-internal
 ms.assetid: 702f692e-ad1c-4798-8d3e-c3cf8591d3fa
 ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a2597dda47e3441d2c41497081849a2213974e55
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9ced76e20a54d61fe96b5d2a5118adb0c5eb7ccf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187907"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355691"
 ---
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
@@ -32,7 +34,7 @@ Este tópico fornece uma visão geral dos componentes da funcionalidade de orça
 
 O ciclo de planejamento de recursos para uma empresa consiste, em geral, em planejar, orçar e prever atividades.
 
-[![Componentes da funcionalidade de orçamento](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
+[![Componentes da funcionalidade de orçamento.](./media/budgeting-functionality-components.jpg)](./media/budgeting-functionality-components.jpg)
 
 Os processos de planejamento estratégico de longo prazo e planejamento de orçamento anual têm suporte por meio de um documento de plano de orçamento. Os documentos do plano de orçamento são totalmente integrados ao Microsoft Excel. Os usuários podem configurar cenários monetários e quantitativos ilimitados, além de definir uma hierarquia da organização de orçamento para oferecer suporte aos métodos de orçamento de cima para baixo e de baixo para cima. Após um orçamento ser estabelecido e aprovado no aplicativo, você converte o plano de orçamento em uma entrada de registro de orçamento. As entradas de registro de orçamento fornecem ferramentas para manter o orçamento e manter os valores rastreáveis através de códigos de orçamento. As entradas de registro de orçamento permitem revisar orçamentos originais, executar transferências, e manter valores de orçamento do ano anterior. Com base no orçamento estabelecido, uma empresa por habilitar o controle de orçamento. O nível de controle depende da cultura organizacional e do nível organizacional de maturidade. As organizações que têm um nível de maturidade baixo podem deixar o orçamento "no estado em que se encontra" e talvez sejam mais reativas do que pró-ativas se um orçamento não atender às expectativas. Outras organizações podem habilitar políticas de controle de orçamento que impedem os usuários de fazer compras se os fundos de orçamento não estão disponíveis.
 
@@ -43,10 +45,10 @@ Por fim, as organizações muito maduras podem estabelecer uma cultura organizac
 -   [Visão geral de planejamento de orçamento](budget-planning-overview-configuration.md)
 -   [Previsão de posição](position-forecasting.md)
 -   [Documentos de justificativa de plano de orçamento](budget-planning-justification-docs.md)
--   [Modelos de plano de orçamento para Excel](budget-planning-excel-templates.md)
+-   [Modelos de planejamento de orçamento para Excel](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools"></a>Ferramentas de orçamento
-[![Ferramentas de orçamento](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
+[![Ferramentas de orçamento.](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
 
 Os recursos adicionais de planejamento e orçamento estão disponíveis e são integrados aos orçamentos do razão.
 

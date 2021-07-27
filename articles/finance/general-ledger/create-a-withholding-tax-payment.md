@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 72d80fbb3b2448f4b89fa7d7fa580387e1a3621c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ffd426c893a93ffa02aa52a2d2bad39227f8dd35
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832937"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355098"
 ---
 # <a name="create-a-withholding-tax-payment"></a>Criar um pagamento de imposto retido na fonte
 
@@ -37,7 +37,7 @@ O procedimento de trabalho de pagamento de imposto retido na fonte liquida os sa
 6. Selecione **Atualizar** para lançar o comprovante de pagamento de imposto retido na fonte na conta de liquidação de imposto retido na fonte.
 7. Clique em **OK**.
 
-![Parâmetros para o pagamento de imposto retido na fonte](media/withholding-tax-payment.png)
+![Parâmetros para o pagamento de imposto retido na fonte.](media/withholding-tax-payment.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

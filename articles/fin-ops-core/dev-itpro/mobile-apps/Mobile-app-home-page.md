@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.custom: 272853
+ms.custom: intro-internal
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: cgarty
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.openlocfilehash: 469b03151f3113f44d932a2d6f4bf3fcfa059133
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e13e99515d52e1e24970908a106ae99a7e8b0d80
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188401"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360807"
 ---
 # <a name="mobile-app-home-page"></a>Home page de Aplicativo móvel
 
@@ -39,7 +39,7 @@ O aplicativo móvel permite que sua organização disponibilize os processos emp
 ## <a name="elements-of-the-mobile-app"></a>Elementos do aplicativo móvel
 A navegação no aplicativo móvel consiste em quatro conceitos básicos: o painel, os espaços de trabalho, as páginas e as ações. 
 
-[![Conceitos de navegação no aplicativo móvel](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
+[![Conceitos de navegação no aplicativo móvel.](./media/mobilephoneapp1-1024x536.png)](./media/mobilephoneapp1.png)
 
 1. Quando você inicia o aplicativo, você vai para o **painel**.
 2. No painel, você pode ver uma lista de **espaços de trabalho** que foi publicada.
@@ -53,7 +53,7 @@ A navegação no aplicativo móvel consiste em quatro conceitos básicos: o pain
 ## <a name="implementation-process"></a>Processo de implementação
 A ilustração a seguir mostra o processo de implementação dos espaços de trabalho móveis fornecidos pela Microsoft e dos espaços de trabalho móveis personalizados. 
 
-[![Processo de implementação de aplicativos móveis](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
+[![Processo de implementação de aplicativos móveis.](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar os espaços de trabalho móveis fornecidos pela Microsoft e os espaços de trabalho móveis personalizados. Os números na primeira coluna correspondem às etapas numeradas na ilustração anterior.
 

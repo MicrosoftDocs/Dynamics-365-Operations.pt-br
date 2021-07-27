@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aeb9675477e728c28c38b1ef43fa6055acd23360
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909370"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359476"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
@@ -64,28 +64,28 @@ Para permitir que o aplicativo de depósito interaja com um determinado servidor
 1. Insira o nome e a senha do usuário que tem acesso à assinatura do Azure.
 1. No portal do Azure, no painel de navegação à esquerda, selecione **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Certifique-se de que esteja trabalhando com a instância do Azure AD usada pelo Supply Chain Management.
 1. Na lista **Gerenciar**, selecione **Registros de aplicativos**.
 
-    ![Registros de aplicativos](media/app-connect-azure-register.png "Registros de aplicativos")
+    ![Registros de aplicativos.](media/app-connect-azure-register.png "Registros de aplicativos")
 
 1. Na barra de ferramentas, selecione **Novo registro** para abrir o assistente **Registrar um aplicativo**.
 1. Insira um nome para o aplicativo, selecione **Contas somente neste diretório organizacional** e clique em **Registrar**.
 
-    ![Assistente Registrar um aplicativo](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
+    ![Assistente Registrar um aplicativo.](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
 
 1. O novo registro de aplicativo é aberto. Anote o valor da **ID do aplicativo (cliente)**, porque você precisará dele mais tarde. A ID será mencionada posteriormente neste tópico como *ID do cliente*.
 
-    ![ID do aplicativo (cliente)](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
+    ![ID do aplicativo (cliente).](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
 
 1. Clique na lista **Gerenciar**, selecione **Certificado e segredos**. Em seguida, selecione um dos seguintes botões, dependendo de como deseja configurar o aplicativo para autenticação. (Para obter mais informações, consulte a seção [Autenticar usando um certificado ou segredo do cliente](#authenticate) posteriormente neste tópico.)
 
     - **Carregar certificado** – carregar um certificado para usá-lo como segredo. Recomendamos essa abordagem porque é mais segura e porque também pode ser automatizada de modo mais completo. Se você estiver executando o aplicativo de depósito em dispositivos Windows, anote o valor de **Impressão digital** exibido depois que você carrega o certificado. Você precisará desse valor ao configurar o certificado em dispositivos Windows.
     - **Novo segredo do cliente** – crie uma chave inserindo uma descrição de chave e uma duração na seção **Senhas** e depois clique em **Adicionar**. Faça uma cópia da chave e armazene-a com segurança.
 
-    ![Certificado e segredos](media/app-connect-azure-authentication.png "Certificado e segredos")
+    ![Certificado e segredos.](media/app-connect-azure-authentication.png "Certificado e segredos")
 
 Para obter mais informações sobre como configurar os aplicativos de serviço no Azure AD, consulte os seguintes recursos:
 
@@ -105,7 +105,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
     1. Crie um usuário.
     1. Atribua o usuário do dispositivo móvel do depósito.
 
-    ![Atribua o usuário do dispositivo móvel do depósito](media/app-connect-app-users.png "Atribua o usuário do dispositivo móvel do depósito")
+    ![Atribua o usuário do dispositivo móvel do depósito.](media/app-connect-app-users.png "Atribua o usuário do dispositivo móvel do depósito")
 
 1. Associe o aplicativo Azure AD ao usuário do aplicativo de depósito:
 
@@ -113,7 +113,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
     1. Criar uma linha.
     1. Insira a ID de cliente para a qual você criou uma nota na seção anterior, atribua um nome a ela e selecione o usuário que acabou de criar. Recomendamos marcar todos os dispositivos. Em seguida, se eles forem perdidos, você conseguirá remover facilmente o acesso ao Supply Chain Management nessa página.
 
-    ![Aplicativos do Azure Active Directory](media/app-connect-aad-apps.png "Aplicativos do Azure Active Directory")
+    ![Aplicativos do Azure Active Directory.](media/app-connect-aad-apps.png "Aplicativos do Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando um certificado ou segredo do cliente
 
@@ -201,26 +201,26 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
 1. Vá para **Configurações da conexão**.
 1. Defina a opção **Usar modo de demonstração** como _Não_.
 
-    ![Opção Usar modo de demonstração](media/app-connect-app-demo-mode.png "Opção Usar modo de demonstração")
+    ![Opção Usar modo de demonstração.](media/app-connect-app-demo-mode.png "Opção Usar modo de demonstração")
 
 1. Selecione **Selecionar arquivo** ou **Digitalizar código QR**, dependendo de como deseja importar as configurações:
 
     - Se você estiver importando as configurações de conexão de um arquivo, o aplicativo talvez já tenha encontrado o arquivo se o nome e o local padrão tiverem sido usados ao salvá-lo. Caso contrário, selecione **Selecionar arquivo**, navegue até o arquivo em seu dispositivo local e selecione-o. Se você selecionar um local personalizado, o aplicativo o armazenará e o utilizará na próxima vez.
     - Se você estiver importando as configurações de conexão ao digitalizar um código QR, selecione **Digitalizar código QR**. O aplicativo solicita a permissão para usar a câmera do dispositivo. Depois de conceder a permissão, a câmera será iniciada para que você possa usá-la na digitalização. Dependendo da qualidade da câmera do dispositivo e da complexidade do código QR, pode ser difícil obter uma digitalização correta. Nesse caso, tente reduzir a complexidade do código QR gerando apenas uma conexão por código QR. (Atualmente, é possível usar somente a câmera do dispositivo para digitalizar o código QR.)
 
-    ![Importar configurações de conexão](media/app-connect-app-select-file.png "Importar configurações de conexão")
+    ![Importar configurações de conexão.](media/app-connect-app-select-file.png "Importar configurações de conexão")
 
 1. Quando as configurações de conexão forem carregadas com êxito, selecione o botão **Voltar** (seta para esquerda) no canto superior esquerdo da página.
 
-    ![Configurações de conexão carregadas](media/app-connect-app-settings-loaded.png "Configurações de conexão carregadas")
+    ![Configurações de conexão carregadas.](media/app-connect-app-settings-loaded.png "Configurações de conexão carregadas")
 
 1. Se você estiver usando um dispositivo Android e estiver usando um certificado para autenticação, o dispositivo solicitará a seleção do certificado.
 
-    ![Solicitação Escolher certificado em um dispositivo Android](media/app-connect-app-choose-cert.png "Solicitação Escolher certificado em um dispositivo Android")
+    ![Solicitação Escolher certificado em um dispositivo Android.](media/app-connect-app-choose-cert.png "Solicitação Escolher certificado em um dispositivo Android")
 
 1. O aplicativo se conecta ao servidor do Supply Chain Management e mostra a página de entrada.
 
-    ![Página de entrada](media/app-connect-sign-in.png "Página de entrada")
+    ![Página de entrada.](media/app-connect-sign-in.png "Página de entrada")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurar o aplicativo manualmente
 
@@ -230,11 +230,11 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
 1. Vá para **Configurações da conexão**.
 1. Defina a opção **Usar modo de demonstração** como _Não_.
 
-    ![Modo de demonstração desativado](media/app-connect-app-select-file.png "Modo de demonstração desativado")
+    ![Modo de demonstração desativado.](media/app-connect-app-select-file.png "Modo de demonstração desativado")
 
 1. Toque no campo **Selecionar conexão** para expandir as configurações necessárias para inserir manualmente os detalhes da conexão.
 
-    ![Campos de conexão manual](media/app-connect-manual-connect.png "Campos de conexão manual")
+    ![Campos de conexão manual.](media/app-connect-manual-connect.png "Campos de conexão manual")
 
 1. Digite as seguintes informações:
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: bce824267f435d9de0acd43ca145e0d148dfe67c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9afc7786de16cb1cada982f43beb956e062777a4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816259"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347773"
 ---
 # <a name="revenue-recognition-bundles"></a>Pacotes de reconhecimento de receita
 
@@ -59,15 +59,15 @@ Os preços base de venda a seguir são definidos para os itens de componente:
 
 Uma ordem de venda é inserida para o cliente US-004, Cave Wholesales. A única linha inserida é para o item Pacote de laptop. O preço unitário padrão da linha pai pode ser obtido de vários locais, como o contrato comercial ou o preço base de venda. Neste exemplo, o valor US$ 2.300 foi inserido manualmente como o preço unitário.
 
-[![Item Pacote de laptop em uma ordem de venda](./media/bundle-01.png)](./media/bundle-01.png)
+[![Item Pacote de laptop em uma ordem de venda.](./media/bundle-01.png)](./media/bundle-01.png)
 
 Como a ordem de venda contém um pacote, ela deverá ser confirmada. A caixa de diálogo de confirmação mostra os componentes do pacote.
 
-[![Caixa de diálogo Confirmar ordem de venda que mostra os itens de componente](./media/bundle-02.png)](./media/bundle-02.png)
+[![Caixa de diálogo Confirmar ordem de venda que mostra os itens de componente.](./media/bundle-02.png)](./media/bundle-02.png)
 
 No entanto, o relatório de confirmação impressa mostrará somente o item pai do pacote, pois esse relatório é o documento externo para o cliente.
 
-[![Relatório de confirmação que mostra somente o item pai](./media/bundle-03.png)](./media/bundle-03.png)
+[![Relatório de confirmação que mostra somente o item pai.](./media/bundle-03.png)](./media/bundle-03.png)
 
 Depois que a ordem de venda for confirmada, o item pai ainda será mostrado nela, mas com o status alterado para **Cancelado**. Além disso, o valor líquido é acompanhado no campo **Valor líquido do pacote**. Esse valor é obrigatório para imprimir a fatura, porque ela mostra o item pai, não os itens de componente.
 
@@ -85,7 +85,7 @@ A soma dos componentes precisa ser igual a US$ 2.300, e é (US$ 1.713,73 + US$ 4
 
 Se forem necessárias alterações para todos os itens de componente, o item pai poderá ser removido. Nesse caso, os itens de componente também serão removidos. Então, será possível adicionar o item pai novamente e concluir as edições necessárias antes da confirmação da ordem de venda.
 
-[![Item do pacote que inclui alterações nos itens de componente](./media/bundle-04.png)](./media/bundle-04.png)
+[![Item do pacote que inclui alterações nos itens de componente.](./media/bundle-04.png)](./media/bundle-04.png)
 
 Quando a ordem de venda for separada e embalada, os documentos incluirão somente os componentes do pacote. A guia de remessa e a fatura devem incluir um pacote completo. Caso contrário, elas não poderão ser lançadas. Por exemplo, a caixa de diálogo mostra três itens de componente. Se tentar excluir um deles, você receberá uma mensagem de erro informando que todos os produtos do pacote devem ser enviados antes do faturamento.
 
@@ -95,19 +95,19 @@ Um valor parcial poderá ser enviado e faturado somente se a quantidade for redu
 
 A etapa final é faturar a ordem de venda. Durante o faturamento, a caixa de diálogo Fatura mostrará os itens de componente.
 
-[![Caixa de diálogo Faturar ordem de venda que mostra os itens de componente](./media/bundle-06.png)](./media/bundle-06.png)
+[![Caixa de diálogo Fatura que mostra os itens de componente.](./media/bundle-06.png)](./media/bundle-06.png)
 
 No entanto, a fatura impressa mostrará apenas o item pai.
  
-[![Fatura impressa que mostra somente o item pai](./media/bundle-07.png)](./media/bundle-07.png)
+[![Fatura impressa que mostra somente o item pai.](./media/bundle-07.png)](./media/bundle-07.png)
 
 O diário de faturas criado após o lançamento não inclui o item pai do pacote, pois esse item tem o status de **Cancelado**.
 
-[![Diário de faturas que não inclui o item pai](./media/bundle-08.png)](./media/bundle-08.png)
+[![Diário de faturas que não inclui o item pai.](./media/bundle-08.png)](./media/bundle-08.png)
 
 É importante que o diário de faturas não inclua o item pai do pacote, pois todos os processos executados após o lançamento da fatura baseiam-se nesse diário de faturas. Por exemplo, se você criar uma nota de crédito na guia **Venda** no Painel de Ações, ela incluirá os itens de componente, mas não o item pai.
 
-[![Nota de crédito que mostra os itens de componente, mas não o item pai](./media/bundle-09.png)](./media/bundle-09.png)
+[![Nota de crédito que mostra os itens de componente, mas não o item pai.](./media/bundle-09.png)](./media/bundle-09.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

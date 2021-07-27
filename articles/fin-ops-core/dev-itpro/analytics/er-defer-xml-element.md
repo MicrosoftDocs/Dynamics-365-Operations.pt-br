@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 07b1d95572fb0b6bbfd34756bf1ecded7b9ff35c
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: f89c671ae012907a4c3e07c09bdc867c1d67a101
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944476"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348059"
 ---
 # <a name="defer-the-execution-of-xml-elements-in-er-formats"></a>Adiar a execução de elementos XML nos formatos de ER
 
@@ -90,14 +90,14 @@ Antes de começar, você também deve baixar e salvar a configuração a seguir 
 6. Na árvore de configuração, expanda **Modelo para conhecer elementos adiados**.
 7. Revise a lista de configurações de ER importadas na árvore de configuração.
 
-    ![Configurações de ER importadas na página Configurações](./media/ER-DeferredXml-Configurations.png)
+    ![Configurações de ER importadas na página Configurações.](./media/ER-DeferredXml-Configurations.png)
 
 ### <a name="activate-a-configuration-provider"></a>Ativar um provedor de configuração
 
 1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo Litware, Inc. (`http://www.litware.com`) está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-    ![A empresa de exemplo Litware, Inc. na página Configurações de localização](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
+    ![A empresa de exemplo Litware, Inc. na página Configurações de localização.](./media/ER-DeferredXml-ElectronicReportingWorkspace.png)
 
 ### <a name="review-the-imported-model-mapping"></a>Revise o mapeamento do modelo importado
 
@@ -119,7 +119,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - A fonte de dados **Agrupados** do tipo *Agrupar por* é configurada para agrupar transações de imposto filtradas da fonte de dados **Filtrados**.
     - O campo de agregação **TotalSum** da fonte de dados **Agrupados** é configurado para resumir valores do campo **\$TaxAmount** da fonte de dados **Filtrados** para todas as transações de imposto filtradas dessa fonte de dados.
 
-        ![Campo de agregação TotalSum na página Editar parâmetros 'GroupBy'](./media/ER-DeferredXml-GroupByParameters.png)
+        ![Campo de agregação TotalSum na página Editar parâmetros "GroupBy".](./media/ER-DeferredXml-GroupByParameters.png)
 
 9. Revise como as fontes de dados configuradas são associadas ao modelo de dados e como elas expõem os dados acessados para torná-los disponíveis em um formato de ER:
 
@@ -127,7 +127,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - O campo **\$TaxAmount** da fonte de dados **Filtrados** é associado ao campo **Data.List.Value** do modelo de dados.
     - O campo **TotalSum** da fonte de dados **Agrupados** é associado ao campo **Data.Summary.Total** do modelo de dados.
 
-    ![Página do designer de mapeamento de modelo](./media/ER-DeferredXml-ModelMapping.png)
+    ![Página do designer de mapeamento de modelo.](./media/ER-DeferredXml-ModelMapping.png)
 
 10. Feche as páginas **Designer de mapeamento de modelo** e **Mapeamentos de modelo**.
 
@@ -143,7 +143,7 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - O elemento XML **Relatório \\Mensagem\\Registro** é configurado para preencher o documento de saída com um único nó de registro que mostra os detalhes de uma única transação de imposto.
     - O elemento XML **Relatório\\Mensagem\\Resumo** é configurado para preencher o documento de saída com um único nó de resumo que inclui a soma dos valores de imposto das transações de imposto processadas.
 
-    ![Elemento XML da mensagem e elementos XML aninhados na página Designer de formato](./media/ER-DeferredXml-Format.png)
+    ![Elemento XML da mensagem e elementos XML aninhados na página Designer de formato.](./media/ER-DeferredXml-Format.png)
 
 5. Na guia **Mapeamento**, revise os seguintes detalhes:
 
@@ -157,14 +157,14 @@ Examine as configurações do componente de mapeamento do modelo de ER que é co
     - O atributo **TotalTaxAmount** é associado a **model.Data.Summary.Total** para gerar a soma dos valores de imposto das transações de imposto processadas.
     - O atributo **ExecutionDateTime** gera a data e a hora (incluindo milissegundos) quando o nó de resumo é adicionado.
 
-    ![Guia Mapeamento na página Designer de formato](./media/ER-DeferredXml-Format2.png)
+    ![Guia Mapeamento na página Designer de formato.](./media/ER-DeferredXml-Format2.png)
 
 ### <a name="run-the-imported-format"></a>Executar o formato importado
 
 1. Na página **Designer de formato**, selecione **Executar**.
 2. Baixe o arquivo oferecido pelo navegador da Web e abra-o para revisão.
 
-    ![Arquivo baixado do formato importado](./media/ER-DeferredXml-Run.png)
+    ![Arquivo baixado do formato importado.](./media/ER-DeferredXml-Run.png)
 
 Observe que o nó de resumo apresenta a soma dos valores de imposto para as transações processadas. Como o formato está configurado para usar a associação **model.Data.Summary.Total** de modo a retornar essa soma, a soma é calculada chamado a agregação **TotalSum** da fonte de dados **Agrupados** do tipo *GroupBy* no mapeamento de modelo. Para calcular essa agregação, o mapeamento de modelo itera em todas as transações que foram selecionadas na fonte de dados **Filtrados**. Ao comparar os tempos de execução do nó de resumo e do último nó de registro, você pode determinar que o cálculo da soma levou 12 milissegundos (ms). Ao comparar os tempos de execução do primeiro e do último nó de registro, você pode determinar que a geração de todos os nós de registro levou 9 ms. Portanto, foi necessário um total de 21 ms.
 
@@ -178,25 +178,25 @@ Se o volume de transação for muito maior do que o volume no exemplo atual, o t
 4. Configure a expressão **Nome da chave de dados coletada** como `WsColumn`.
 5. Configure a expressão **Valor da chave de dados coletada** como `WsRow`.
 
-    ![Elemento XML de registro na página Designer de formato](./media/ER-DeferredXml-Format3.png)
+    ![Elemento XML de registro na página Designer de formato.](./media/ER-DeferredXml-Format3.png)
 
 6. Selecione o atributo **Relatório\\Mensagem\\Registro\\TaxAmount**.
 7. Configure a expressão **Nome da chave de dados coletada** como `SummingAmountKey`.
 
-    ![Atributo TaxAmount na página Designer de formato](./media/ER-DeferredXml-Format4.png)
+    ![Atributo TaxAmount na página Designer de formato.](./media/ER-DeferredXml-Format4.png)
 
     Você pode considerar essa configuração o preenchimento de uma planilha virtual, em que o valor da célula A1 é acrescentado ao valor do imposto de cada transação de imposto processada.
 
 8. Selecione o atributo **Relatório\\Mensagem\\Registro\\RunningTotal** e, em seguida, **Editar fórmula**.
 9. Configure a expressão `SUMIF(SummingAmountKey, WsColumn, WsRow)` usando a função interna de ER [SUMIF](er-functions-datacollection-sumif.md) e selecione **Salvar**.
 
-    ![Expressão SUMIF](./media/ER-DeferredXml-FormulaDesigner.png)
+    ![Expressão SUMIF.](./media/ER-DeferredXml-FormulaDesigner.png)
 
 10. Feche a página **Designer de fórmulas**.
 11. Selecione **Salvar** e **Executar**.
 12. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Lista gerada de valor de imposto com total da execução](./media/ER-DeferredXml-Run1.png)
+    ![Lista gerada de valor de imposto com total da execução.](./media/ER-DeferredXml-Run1.png)
 
     O último nó de registro contém o total acumulado de valores de imposto que é calculado para todas as transações processadas usando a saída gerada como uma fonte de dados. Essa fonte de dados é iniciada desde o começo do relatório e continua até a última transação de imposto. O nó de resumo contém a soma dos valores de imposto para todas as transações processadas que são calculadas no mapeamento de modelo usando a fonte de dados do tipo *GroupBy*. Observe que esses valores são iguais. Portanto, a soma baseada na saída pode ser usada no lugar de **GroupBy**. Ao comparar os tempos de execução do primeiro nó de registro e o nó de resumo, você pode determinar que a geração de todos os nós de registro e a soma levaram 11 ms. Portanto, no que diz respeito à geração de nós de registro e à soma dos valores de imposto, o formato modificado é aproximadamente duas vezes mais rápido do que o formato original.
 
@@ -205,7 +205,7 @@ Se o volume de transação for muito maior do que o volume no exemplo atual, o t
 15. Selecione **Salvar** e **Executar**.
 16. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Lista gerada de valores de imposto usando fórmula editada](./media/ER-DeferredXml-Run2.png)
+    ![Lista gerada de valores de imposto usando fórmula editada.](./media/ER-DeferredXml-Run2.png)
 
     Observe que o total acumulado dos valores de imposto no último nó de registro agora é igual à soma no nó de resumo.
 
@@ -218,7 +218,7 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado de valores de imposto para cabeçalho do relatório](./media/ER-DeferredXml-Run3.png)
+    ![Arquivo baixado de valores de imposto para cabeçalho do relatório.](./media/ER-DeferredXml-Run3.png)
 
     Observe que a soma dos valores de imposto no nó de resumo agora é igual a 0 (zero), pois a soma agora é calculada com base na saída gerada. Quando o primeiro nó de registro é gerado, a saída gerada ainda não contém nós de registro com detalhes da transação. É possível configurar esse formato para adiar a execução do elemento **Relatório\\Mensagem\\Resumo** até que o elemento **Relatório\\Mensagem\\Registro** tenha sido executado para todas as transações de imposto.
 
@@ -227,12 +227,12 @@ Se você tiver que apresentar a soma dos valores de imposto no cabeçalho do rel
 1. Na página **Designer de formato**, na guia **Formatar**, selecione o elemento XML **Relatório\\Mensagem\\Resumo**.
 2. Defina a opção **Execução adiada** como **Sim**.
 
-    ![Opção Execução adiada do elemento XML Resumo na página Designer de formato](./media/ER-DeferredXml-Format5.png)
+    ![Opção Execução adiada do elemento XML Resumo na página Designer de formato.](./media/ER-DeferredXml-Format5.png)
 
 3. Selecione **Salvar** e **Executar**.
 4. Baixe e revise o arquivo oferecido pelo navegador da Web.
 
-    ![Arquivo baixado da execução adiada](./media/ER-DeferredXml-Run4.png)
+    ![Arquivo baixado da execução adiada.](./media/ER-DeferredXml-Run4.png)
 
     O elemento **Relatório\\Mensagem\\Resumo** agora é executado somente depois que todos os outros itens que estão aninhados sob seu elemento pai, **Relatório\\Mensagem**, tiverem sido executados. Portanto, ele é executado depois que o elemento **Relatório\\Mensagem\\Registro** tiver sido executado para todas as transações de imposto da fonte de dados **model.Data.List**. Os tempos de execução do primeiro e do último nó de registro, e dos nós de cabeçalho e resumo, revelam esse fato.
 

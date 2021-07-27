@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 1e7d0f505ce49bc9be0d027cbb0d636c9de0600b
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 75f41db74512ea758a83de56ffd2a9166712f5e2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804444"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352267"
 ---
 # <a name="opt-out-of-personalized-recommendations"></a>Cancelar recomendações personalizadas
 
@@ -44,11 +44,11 @@ No gerenciamento de contas do back office do Commerce, os varejistas podem recus
 1. Na home page de back-office, procure **todos os clientes**.
 1. Procure e selecione um cliente e a guia rápida **Retail**.
 
-    ![Guia rápida Retail](./media/Disablepersonalizationpart1.png)
+    ![Guia rápida Retail.](./media/Disablepersonalizationpart1.png)
 
 1. Em **Privacidade**, defina a opção **Desabilitar personalização** como **Sim**.
 
-    ![Configurações de privacidade](./media/Disablepersonalizationpart2.png)
+    ![Configurações de privacidade.](./media/Disablepersonalizationpart2.png)
 
 1. Selecione **Salvar** e feche a página.
 

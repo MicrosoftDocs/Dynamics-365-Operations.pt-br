@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-10-20
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4b8c1467368cbcbed5049561b52b29388ec21a5f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e500125e1d96f6b595910e1168e2e1baeef0cd3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055091"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360583"
 ---
 # <a name="integrate-with-linkedin-talent-hub"></a>Integrar com o LinkedIn Talent Hub
 
@@ -48,7 +48,7 @@ Um administrador do sistema deve concluir as tarefas de configuração para habi
 
 5. Na página **Dynamics 365 Human Resources**, selecione o ambiente ao qual vincular o LinkedIn Talent Hub e, em seguida, selecione **Vincular**.
 
-    ![Integração do LinkedIn Talent Hub](./media/hr-admin-integration-talent-hub-onboarding.jpg)
+    ![Integração do LinkedIn Talent Hub.](./media/hr-admin-integration-talent-hub-onboarding.jpg)
 
     > [!NOTE]
     > Você pode vincular somente a ambientes nos quais sua conta de usuário tenha acesso de administrador ao ambiente do Human Resources e ao ambiente do Power Apps associado. Se nenhum ambiente estiver listado na página Link do Human Resources, verifique se você tem ambientes licenciados do Human Resources no locatário e se o usuário que entrou na página de vinculação tem permissões de administrador para o ambiente do Human Resources e o ambiente do Power Apps.
@@ -91,7 +91,7 @@ Um usuário de aplicativo deve ser criado para o adaptador do LinkedIn Talent Hu
 
 6. Use o menu suspenso acima da lista para alterar a exibição do padrão **Usuários Habilitados** para **Usuários do Aplicativo**.
 
-    ![Exibição Usuários do Aplicativo](./media/hr-admin-integration-power-apps-application-users.jpg)
+    ![Exibição Usuários do Aplicativo.](./media/hr-admin-integration-power-apps-application-users.jpg)
 
 7. Na barra de ferramentas, selecione **Novo**.
 
@@ -163,7 +163,7 @@ Depois que um candidato passar pelo processo de recrutamento e tiver sido contra
     - No campo **Local**, insira o local em que será a base do funcionário.
     - Insira ou verifique o endereço de email do funcionário.
 
-![Exportar para o painel HRIS no LinkedIn Talent Hub](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
+![Exportar para o painel HRIS no LinkedIn Talent Hub.](./media/hr-admin-integration-linkedin-talent-hub-export.jpg)
 
 ## <a name="complete-onboarding-in-human-resources"></a>Concluir a integração no Human Resources
 

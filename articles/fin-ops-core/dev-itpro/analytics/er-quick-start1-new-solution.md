@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERParameters, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, EROperationDesigner, ERVendorTable
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 220314
+ms.custom:
+- "220314"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 90e5381c2d30753e3ad82a38d7361b411f1d7a87
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 35db2eb3e0da91207f08d16b8fb1bfa6a6bb8607
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304384"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345951"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Criar uma nova solução ER para imprimir um relatório personalizado
 
@@ -123,15 +125,15 @@ Neste exemplo, você criará uma nova solução ER para o módulo [Questionário
 
 1. Para executar o relatório existente, vá para **Questionário** \> **Design** \> **Relatório Questionários**.
 
-    ![Seleção do item de menu do relatório Questionários no módulo Questionário para executar o relatório SSRS existente](./media/er-quick-start1-application-menu-origin.png)
+    ![Seleção do item de menu de relatório Questionários no módulo Questionário para executar o relatório SSRS existente.](./media/er-quick-start1-application-menu-origin.png)
 
 2. Na caixa de diálogo **Relatório Questionários**, especifique os critérios de seleção. Aplique um filtro para que o relatório inclua somente o questionário **SBCCrsExam**.
 
-    ![Como especificar critérios de seleção na caixa de diálogo Relatório Questionários](./media/er-quick-start1-ssrs-report-dialog.png)
+    ![Como especificar critérios de seleção na caixa de diálogo de relatório Questionários.](./media/er-quick-start1-ssrs-report-dialog.png)
 
 A ilustração a seguir mostra a versão gerada do relatório SSRS para o questionário **SBCCrsExam**.
 
-![Relatório SSRS gerado](./media/er-quick-start1-ssrs-report.png)
+![Relatório SSRS gerado.](./media/er-quick-start1-ssrs-report.png)
 
 ## <a name="configure-the-er-framework"></a><a name="ConfigureFramework"></a>Configurar a estrutura de ER
 
@@ -271,7 +273,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
     A ilustração a seguir mostra o modelo de dados editável preenchido na página **Designer do modelo de dados**.
 
-    ![Modelo de dados configurado no designer de modelos de dados ER](./media/er-quick-start1-model2.png)
+    ![Modelo de dados configurado no designer de modelos de dados de ER.](./media/er-quick-start1-model2.png)
 
 7. Salve as alterações.
 8. Feche a página **Designer de modelo de dados**.
@@ -285,7 +287,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 O status da versão 1 dessa configuração é alterado de **Rascunho** para **Concluído**. A versão 1 não pode mais ser alterada. Esta versão contém o modelo de dados configurado e pode ser usada como base para outras configurações de ER. A versão 2 dessa configuração é criada e tem um status **Rascunho**. Você pode editar esta versão para ajustar o modelo de dados **Questionário**.
 
-![Versões da configuração editável na página Configurações](./media/er-quick-start1-model-configuration.png)
+![Versões da configuração editável na página Configurações.](./media/er-quick-start1-model-configuration.png)
 
 Para obter mais informações sobre como usar versões para configurações de ER, consulte [Visão geral de relatório eletrônico (ER)](general-electronic-reporting.md#component-versioning).
 
@@ -439,7 +441,7 @@ Você pode adicionar rótulos de ER para configurar algumas fontes de dados para
 5. Feche a caixa de diálogo **Tradução de texto**.
 6. Selecione **Cancelar**.
 
-![Adição de rótulos de ER para o mapeamento de modelo editável](./media/er-quick-start1-adding-labels.png)
+![Adição de rótulos de ER para o mapeamento de modelo editável.](./media/er-quick-start1-adding-labels.png)
 
 Você inseriu rótulos de ER somente para o idioma padrão. Para obter informações sobre como os rótulos ER podem ser traduzidos para outros idiomas, consulte [Criar relatórios multilíngues](er-design-multilingual-reports.md).
 
@@ -473,7 +475,7 @@ Como você deve transformar os resultados da comparação entre valores de enume
     8. Selecione **Salvar** e feche o editor de fórmula.
     9. Selecione **OK** para adicionar a nova fonte de dados.
 
-![Mapeamento de modelo configurado no designer de mapeamento de modelos do ER](./media/er-quick-start1-added-data-sources.png)
+![Mapeamento de modelo configurado no designer de mapeamento de modelos de ER.](./media/er-quick-start1-added-data-sources.png)
 
 #### <a name="bind-data-sources-to-data-model-fields"></a><a name="AddMmBindings1"></a>Associar fontes de dados a campos do modelo de dados
 
@@ -524,7 +526,7 @@ Você deve vincular fontes de dados configuradas aos campos do modelo de dados p
 
     A ilustração a seguir mostra o estado final do mapeamento de modelo configurado na página **Designer de mapeamento de modelo**.
 
-    ![Mapeamento de modelo totalmente configurado no designer de mapeamento de modelo do ER](./media/er-quick-start1-mapping2.png)
+    ![Mapeamento de modelo totalmente configurado no designer de mapeamento de modelo de ER.](./media/er-quick-start1-mapping2.png)
 
 7. Salve as alterações.
 8. Feche a página **Designer de mapeamento de modelo**.
@@ -538,7 +540,7 @@ Você deve vincular fontes de dados configuradas aos campos do modelo de dados p
 
 O status da versão 1.1 dessa configuração é alterado de **Rascunho** para **Concluído**. A versão 1.1 não pode mais ser alterada. Esta versão contém o mapeamento de modelo configurado e pode ser usada como base para outras configurações de ER. A versão 1.2 dessa configuração é criada e tem um status **Rascunho**. Você pode editar esta versão para ajustar a configuração de **Mapeamento de questionário**.
 
-![Versões da configuração do ER editável na página Configurações](./media/er-quick-start1-mapping-configuration.png)
+![Versões da configuração de ER editável na página Configurações.](./media/er-quick-start1-mapping-configuration.png)
 
 > [!NOTE]
 > O mapeamento de modelo configurado é a implementação específica do Finance do modelo de dados abstratos que representa o domínio comercial de **Questionário**.
@@ -552,17 +554,17 @@ A estrutura de ER gera usa modelos predefinidos para gerar relatórios nos forma
 
 Como mostra a ilustração a seguir, o modelo baixado foi projetado para imprimir questionários especificados que apresentam as perguntas de um questionário junto com as respostas apropriadas.
 
-![Modelo do Excel para imprimir questionários especificados](./media/er-quick-start1-template-layout.png)
+![Modelo do Excel para imprimir questionários especificados.](./media/er-quick-start1-template-layout.png)
 
 Os nomes do Excel foram adicionados a este modelo para preencher os detalhes do questionário. Você pode usar o Gerenciador de nomes para revisar os nomes do Excel.
 
-![Usando o Gerenciador de nomes para revisar nomes do Excel no modelo do Excel fornecido](./media/er-quick-start1-template-names.png)
+![Uso do Gerenciador de nomes para revisar nomes do Excel no modelo do Excel fornecido.](./media/er-quick-start1-template-names.png)
 
 Os rótulos de relatório foram adicionados como texto fixo no idioma inglês. Você pode substituir os rótulos de relatório por novos nomes do Excel que preenchem os rótulos com o texto dependente do idioma, usando os [rótulos](#AddMmLabels) do formato ER, como fez para expressões dependentes de idioma no mapeamento de modelo configurado. Nesse caso, os rótulos de ER devem ser adicionadas ao formato ER editável.
 
 Como mostra a ilustração a seguir, o cabeçalho do relatório personalizado foi especificado para habilitar a paginação do Excel.
 
-![O cabeçalho do relatório personalizado no modelo do Excel fornecido](./media/er-quick-start1-template-header.png)
+![Cabeçalho do relatório personalizado no modelo do Excel fornecido.](./media/er-quick-start1-template-header.png)
 
 ## <a name="design-a-format"></a><a name="DesignFormat"></a>Criar um formato
 
@@ -612,11 +614,11 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
     2. Localize e selecione arquivo **Questionnaires report template.xslx** salvo localmente e selecione **Abrir**.
     3. Selecione **OK** para importar o modelo.
 
-    ![Importar um modelo de relatório](./media/er-quick-start1-template-import.png)
+    ![Importar um modelo de relatório.](./media/er-quick-start1-template-import.png)
 
 O formato **Excel\\Arquivo** é adicionado automaticamente ao formato editável como um elemento raiz. Além disso, o elemento de formato **Excel\\Intervalo** ou o elemento de formato **Excel\\Célula** é automaticamente adicionado a cada nome do Excel reconhecido do modelo importado. O formato **Excel\\Cabeçalho** que tem o elemento **Cadeia de caracteres** aninhado é automaticamente adicionado para refletir as configurações de cabeçalho do modelo importado.
 
-![Estrutura de formato que inclui elementos adicionados automaticamente no designer de Operação do ER](./media/er-quick-start1-template-import2.png)
+![Estrutura de formato que inclui elementos adicionados automaticamente no designer de Operação de ER.](./media/er-quick-start1-template-import2.png)
 
 #### <a name="configure-a-format"></a><a name="ConfigureFormat"></a>Configurar um formato
 
@@ -627,12 +629,12 @@ O formato **Excel\\Arquivo** é adicionado automaticamente ao formato editável 
 
     Para obter informações sobre como especificar o idioma e os contextos de cultura para um processo ER, consulte [Criar relatórios multilíngues](er-design-multilingual-reports.md).
 
-    ![Como definir configurações de idioma e cultura para o relatório criado no designer de Operações do ER](./media/er-quick-start1-template-format-structure1.png)
+    ![Definir configurações de idioma e cultura para o relatório criado no designer de Operações de ER.](./media/er-quick-start1-template-format-structure1.png)
 
 5. Na árvore de formatos, expanda o nó raiz e selecione **ResultsGroup**.
 6. Na guia **Formatar**, no campo **Direção da replicação**, selecione **Sem replicação**, porque você não espera ter vários grupos de resultados para um único questionário.
 
-    ![Como definir a direção de replicação para elementos de formato de intervalo no designer de Operação do ER](./media/er-quick-start1-template-format-structure2.png)
+    ![Como definir a direção de replicação para elementos de formato de intervalo no designer de Operação de ER.](./media/er-quick-start1-template-format-structure2.png)
 
 7. Selecione **Salvar**.
 
@@ -652,7 +654,7 @@ Você deve especificar uma associação de dados para um elemento de formato que
 
 5. Feche o editor de fórmulas.
 
-    ![Como configurar a associação para preencher o título de um relatório gerado](./media/er-quick-start1-add-report-title-label.png)
+    ![Como configurar a associação para preencher o título de um relatório gerado.](./media/er-quick-start1-add-report-title-label.png)
 
 Você pode usar essa técnica para tornar todos os outros rótulos do modelo atual dependentes de idioma. Para obter informações sobre como os rótulos adicionados de uma única configuração de ER podem ser traduzidos em todos os idiomas com suporte, consulte [Criar relatórios multilíngues](er-design-multilingual-reports.md).
 
@@ -662,7 +664,7 @@ Você pode usar essa técnica para tornar todos os outros rótulos do modelo atu
 2. Selecione **Editar**.
 3. Revise as informações na caixa de diálogo **Propriedades da fonte de dados**. Essa fonte de dados representa a versão 1 do componente do modelo de dados **Questionários** que reside na configuração ER do **modelo Questionários**.
 
-![Propriedades da fonte de dados do modelo no designer de Operações do ER](./media/er-quick-start1-model-data-source.png)
+![Propriedades da fonte de dados do modelo no designer de Operações de ER.](./media/er-quick-start1-model-data-source.png)
 
 #### <a name="bind-format-elements-to-data-source-fields"></a><a name="BindFormatElements"></a>Associar elementos a campos da fonte de dados
 
@@ -678,11 +680,11 @@ Para especificar como um modelo é preenchido no tempo de execução, você deve
 
     O elemento de formato do intervalo **Questionário** é configurado como replicado verticalmente. Quando ele está associado a uma fonte de dados do tipo **Lista de registros**, o intervalo de **Questionário** apropriado do modelo do Excel é repetido para cada registro da fonte de dados associada.
  
-    ![Associação do elemento Formato do intervalo do questionário a fontes de dados de Lista de registros apropriadas no designer de Operação do ER](./media/er-quick-start1-bindings1.png)
+    ![Associação do elemento Formato do intervalo do questionário a fontes de dados de Lista de registros apropriadas no Designer de operações de ER.](./media/er-quick-start1-bindings1.png)
 
     Como o intervalo **Questionário** do modelo do Excel é definido entre as linhas 5 e 14, essas linhas são repetidas para todos os questionários relatados.
 
-    ![Linhas do modelo do Excel que serão repetidas em um relatório gerado para cada registro das fontes de dados da lista de registros](./media/er-quick-start1-template-questionnaire-range.png)
+    ![Linhas do modelo do Excel que serão repetidas em um relatório gerado para cada registro das fontes de dados da lista de registros.](./media/er-quick-start1-template-questionnaire-range.png)
 
 8. Configure associações semelhantes para os elementos de formato restantes, conforme descrito na tabela a seguir.
 
@@ -718,7 +720,7 @@ Para especificar como um modelo é preenchido no tempo de execução, você deve
 
 A ilustração a seguir mostra o estado final de associações de dados configuradas na página **Designer de formato**.
 
-![Associações de dados configuradas no designer Operação do ER](./media/er-quick-start1-bindings2.png)
+![Associações de dados configuradas no Designer de operações de ER.](./media/er-quick-start1-bindings2.png)
 
 > [!IMPORTANT]
 > Toda a coleção de fontes de dados e associações especificadas representa um componente de mapeamento de formato do formato configurado. Esse mapeamento de formato é chamado quando você executa o formato configurado para a geração de relatórios.
@@ -738,9 +740,9 @@ Agora você pode executar um formato criado para fins de teste na página **Conf
 
 Por [padrão](electronic-reporting-destinations.md#default-behavior), um relatório gerado é entregue como um arquivo do Excel que pode ser baixado. As ilustrações a seguir mostram duas páginas do relatório gerado no formato Excel.
 
-![Exemplo de um relatório gerado no formato Excel, página 1](./media/er-quick-start1-report1a.png)
+![Exemplo de um relatório gerado no formato do Excel, página 1.](./media/er-quick-start1-report1a.png)
 
-![Exemplo de um relatório gerado no formato Excel, página 2](./media/er-quick-start1-report1b.png)
+![Exemplo de um relatório gerado no formato do Excel, página 2.](./media/er-quick-start1-report1b.png)
 
 ## <a name="tune-a-designed-format"></a><a name="TuneFormat"></a>Ajustar um formato criado
 
@@ -761,7 +763,7 @@ As perguntas não são ordenadas corretamente em um relatório gerado. Você pod
 1. Na página **Designer de formato**, selecione o item de raiz **Relatório**.
 2. Na guia **Mapeamento**, na árvore de formatos, expanda **Relatório\\Questionário\\Pergunta**.
 
-    ![Elemento de formato da pergunta do tipo de intervalo no designer de Operação do ER](./media/er-quick-start1-bindings3.png)
+    ![Elemento de formato da pergunta do tipo de intervalo no Designer de operações de ER.](./media/er-quick-start1-bindings3.png)
 
 3. Na guia **Mapeamento**, selecione **model.Questionnaire**.
 4. Selecione **Adicionar** \> **Funções\\Campo calculado** e, em seguida, no campo **Nome**, insira **OrderedQuestions**.
@@ -774,7 +776,7 @@ As perguntas não são ordenadas corretamente em um relatório gerado. Você pod
 11. Selecione **Associar** e confirme se o caminho **model.Questionnaire.Questions** atual é substituído pelo novo caminho **model.Questionnaire.OrderedQuestions** em todas as associações de elementos aninhados.
 12. Selecione **Salvar**.
 
-![Associação do elemento de formato da pergunta à fonte de dados OrderedQuestions configurada no designer de Operação do ER](./media/er-quick-start1-bindings4.png)
+![Associação do elemento de formato da pergunta à fonte de dados OrderedQuestions configurada no Designer de operações de ER.](./media/er-quick-start1-bindings4.png)
 
 ### <a name="run-a-modified-format-from-er"></a><a name="RunFormatFromER2"></a>Executar um formato modificado a partir de ER
 
@@ -788,7 +790,7 @@ Agora você pode executar um formato modificado para fins de teste a partir da e
 
 A ilustração a seguir mostra um relatório gerado no formato Excel, no qual as perguntas estão corretamente ordenadas.
 
-![Relatório gerado no formato Excel com perguntas corretamente ordenadas](./media/er-quick-start1-report2.png)
+![Relatório gerado no formato do Excel com perguntas corretamente ordenadas.](./media/er-quick-start1-report2.png)
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Concluir a criação do formato
 
@@ -799,7 +801,7 @@ A ilustração a seguir mostra um relatório gerado no formato Excel, no qual as
 
 O status da versão 1.1 dessa configuração é alterado de **Rascunho** para **Concluído**. A versão 1.1 não pode mais ser alterada. Esta versão contém o formato configurado e pode ser usada para imprimir o relatório personalizado. A versão 1.2 dessa configuração é criada e tem um status **Rascunho**. Você pode editar esta versão para ajustar a formatar o relatório **Questionário**.
 
-![Configuração de ER editável na página Configurações](./media/er-quick-start1-format-configuration.png)
+![Configuração de ER editável na página Configurações.](./media/er-quick-start1-format-configuration.png)
 
 > [!NOTE]
 > O formato configurado é o design do relatório **Questionário** e não contém relações com artefatos específicos do Finance.
@@ -1049,7 +1051,7 @@ Crie seu projeto para disponibilizar um novo item de menu para os usuários.
 
 1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 
-    ![Seleção do item de menu do relatório Questionários (alimentado pelo ER) no módulo Questionário para executar o formato de ER configurado](./media/er-quick-start1-application-menu-modified.png)
+    ![Seleção do item de menu do relatório Questionários (alimentado pelo ER) no módulo Questionário para executar o formato de ER configurado.](./media/er-quick-start1-application-menu-modified.png)
 
 2. Na caixa de diálogo, no campo **Mapeamento de formato**, selecione **relatório Questionários**.
 3. Selecione **OK**.
@@ -1057,7 +1059,7 @@ Crie seu projeto para disponibilizar um novo item de menu para os usuários.
 5. Selecione **OK** para confirmar a opção de filtragem.
 6. Selecione **OK** para executar o relatório.
 
-    ![Como especificar os critérios de seleção na caixa de diálogo Relatório eletrônico](./media/er-quick-start1-report-run-dialog-page.png)
+    ![Como especificar os critérios de seleção na caixa de diálogo Relatório eletrônico.](./media/er-quick-start1-report-run-dialog-page.png)
 
 7. Revise o relatório gerado.
 
@@ -1082,7 +1084,7 @@ Você pode modificar a solução de ER configurada de forma que use a classe de 
 
 A fonte de dados adicionada fornece informações sobre a ID de registro do mapeamento de formato de ER em execução.
 
-![Fonte de dados adicionada no designer de mapeamento do modelo de ER](./media/er-quick-start1-mapping3.png)
+![Fonte de dados adicionada no designer de mapeamento do modelo de ER.](./media/er-quick-start1-mapping3.png)
 
 #### <a name="add-a-data-source-to-access-er-format-mapping-records"></a><a name="AddDataSource2"></a>Adicionar uma fonte de dados para acessar registros de mapeamento de formato de ER
 
@@ -1117,7 +1119,7 @@ Continue para editar o mapeamento de modelo selecionado, de forma que o nome do 
 
 Como você utilizou o campo **FormatName**, o mapeamento do modelo configurado agora expõe o nome de um formato de ER que chama esse mapeamento de modelo durante a execução.
 
-![Associação do campo de modelo de dados ao método da fonte de dados adicionada no designer de mapeamento do modelo de ER](./media/er-quick-start1-mapping4.png)
+![Associação do campo de modelo de dados ao método da fonte de dados adicionada no designer de mapeamento do modelo de ER.](./media/er-quick-start1-mapping4.png)
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping2"></a>Concluir o design de mapeamento de modelo
 
@@ -1154,7 +1156,7 @@ Você pode modificar o formato de ER configurado de forma que o nome dele apare�
 
 O formato configurado foi modificado para que o nome dele seja inserido no rodapé de um relatório gerado usando o elemento **Rodapé\\Cadeia de caracteres**.
 
-![Adição do elemento de formato do rodapé ao formato configurado no designer de Operação do ER](./media/er-quick-start1-template-format-structure3.png)
+![Adição do elemento de formato do rodapé ao formato configurado no Designer de operações de ER.](./media/er-quick-start1-template-format-structure3.png)
 
 #### <a name="complete-the-format-design"></a><a name="CompleteFormat2"></a>Concluir a criação do formato
 
@@ -1176,7 +1178,7 @@ O status da versão 1.2 dessa configuração é alterado de **Rascunho** para **
 
 Observe que o rodapé do relatório gerado contém o nome do formato de ER que foi usado para gerá-lo.
 
-![Relatório gerado no formato Excel](./media/er-quick-start1-report4.png)
+![Relatório gerado no formato do Excel.](./media/er-quick-start1-report4.png)
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Executar um formato de ER
 
@@ -1197,7 +1199,7 @@ Observe que o rodapé do relatório gerado não contém o nome do formato de ER 
 3. Na FastTab **Destino do arquivo**, configure o [destino](er-destination-type-screen.md) da **Tela** para o componente de formato de **Relatório** que foi [adicionado](#AddFormatRootElement) como o elemento-raiz do formato de ER do **Relatório de questionário** configurado.
 4. Na FastTab **Configurações de conversão de PDF**, configure o destino para converter um relatório em [formato PDF](electronic-reporting-destinations.md#OutputConversionToPDF) que usa a orientação de página **Paisagem**.
 
-![Configuração do destino de tela personalizado para o formato de ER na página destino Relatório eletrônico](./media/er-quick-start1-destination.png)
+![Configuração do destino de tela personalizado para o formato de ER na página destino Relatório eletrônico.](./media/er-quick-start1-destination.png)
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Executar um formato do aplicativo para visualizá-lo como um documento PDF
 
@@ -1209,12 +1211,12 @@ Observe que o rodapé do relatório gerado não contém o nome do formato de ER 
 
     Na FastTab **Destinos**, observe que o campo **Saída** está definido como **Tela**. Se desejar alterar o destino configurado, selecione **Alterar**.
 
-    ![Caixa de diálogo Tempo de execução de relatório de ER, em que você pode alterar o destino configurado](./media/er-quick-start1-run-settings.png)
+    ![Caixa de diálogo Tempo de execução de relatório de ER, em que você pode alterar o destino configurado.](./media/er-quick-start1-run-settings.png)
 
 6. Selecione **OK** para executar o relatório.
 7. Revise o relatório gerado no formato PDF.
 
-    ![Versão prévia na tela do relatório gerado no formato PDF](./media/er-quick-start1-preview-PDF.png)
+    ![Versão preliminar na tela do relatório gerado no formato PDF.](./media/er-quick-start1-preview-PDF.png)
 
 ## <a name="additional-resources"></a><a name="References"></a>Recursos adicionais
 

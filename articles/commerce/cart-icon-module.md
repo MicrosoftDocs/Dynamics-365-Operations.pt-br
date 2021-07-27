@@ -2,7 +2,7 @@
 title: Módulo de ícone de carrinho
 description: Este tópico abrange o módulo de ícone de carrinho e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 10/20/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,31 +14,43 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5ff514f07e8b31abe79775e5011bd3f1b24b2935
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e0238e9d464fc1d44cbc5091638ac7270d5b6ae3
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5793072"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479295"
 ---
 # <a name="cart-icon-module"></a>Módulo de ícone de carrinho
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange o módulo de ícone de carrinho e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
 O módulo de ícone de carrinho representa o carrinho no módulo de cabeçalho da página e mostra o número de itens no carrinho. O módulo do ícone de carrinho também exibe um resumo do carrinho (também conhecido como um mini carrinho) quando mouse é passado pelo ícone de carrinho. O mini carrinho fornece ao usuário um resumo dos itens no carrinho sem ter que navegar até a página do carrinho. Além disso, ele também permite que o usuário vá diretamente para a página de check-out se estiver satisfeito com o resumo. Isso reduz o número de navegações de página e torna o check-out mais rápido. 
 
-> [!NOTE]
-> O suporte ao módulo de ícone de carrinho está disponível no Dynamics 365 Commerce versão 10.0.11.
-
 A imagem a seguir mostra um exemplo de um módulo de ícone de carrinho que exibe um minicarrinho no cabeçalho Fabrikam.
 
-![Exemplo de um módulo de ícone de carrinho](./media/ecommerce-Minicart.PNG)
+![Exemplo de um módulo de ícone de carrinho.](./media/ecommerce-Minicart.PNG)
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
 - **Mostrar mini carrinho** – Quando verdadeiro, esta propriedade permite que um resumo do carrinho (mini carrinho) seja exibido quando o ícone do carrinho é focalizado. Essa funcionalidade só tem suporte em portas de exibição de desktop.
+
+## <a name="module-properties-in-the-adventure-works-theme"></a>Propriedades do módulo no tema Adventure Works
+
+No tema Adventure Works, o módulo ícone de carrinho contém dois slots adicionais para o mini carrinho. Esses slots são incluídos como uma extensão de definição de módulo.
+
+- **Promoções de carrinhos vazias** – Este slot usa um módulo de bloco de conteúdo. Quando o carrinho está vazio, o módulo de bloco de conteúdo especificado é exibido. O módulo de bloco de conteúdo pode ser usado para promoções, conteúdo de marketing e links para páginas de categoria, ajudando os clientes a continuar a jornada de compras.
+- **Conteúdo promocional** – Este slot pode ser usado para exibir promoções, como "Frete grátis em ordens acima de U$100". Os módulos bloco de conteúdo, bloco de texto e lista de imagens podem ser usados no slot de conteúdo promocional.
+
+A imagem a seguir mostra um exemplo de um módulo de ícone de carrinho no tema Adventure Works que exibe conteúdo promocional no mini carrinho.
+
+![Exemplo de um módulo de ícone de carrinho no tema Adventure Works](./media/AW_minicart.PNG)
+
+> [!IMPORTANT]
+> Os slots de tema Adventure Works estão disponíveis a partir da versão 10.0.20 do Dynamics 365 Commerce.
 
 ## <a name="add-a-cart-icon-module-to-a-page"></a>Adicionar um módulo do ícone de carrinho a uma página
 

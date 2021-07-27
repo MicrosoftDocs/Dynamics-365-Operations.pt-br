@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-04-22
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 2df579bfb820f871bfcc9c18bd8e5681cdf42447
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 00cb05105c047989ea74bbba3360c067b1b98ce8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271199"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360367"
 ---
 # <a name="firm-planned-orders"></a>Confirmar ordens planejadas
 
@@ -81,7 +81,7 @@ Para confirmar manualmente ordens planejadas, você encontra e seleciona as orde
     - **Agrupar por período** (na seção **Ordens de compra**) – Selecione o período para o qual agrupar ordens de compra planejadas. Para usar esta opção, você também deve selecionar a opção **Agrupar por fornecedor**.
     - **Agrupar por período** (na seção **Transferências**) – Selecione o período para o qual agrupar ordens de transferência planejadas. As ordens serão agrupadas com base nos valores **De depósito** e **Para depósito**.
 
-    ![FastTab Parâmetros na caixa de diálogo Confirmação](./media/manual-firming.png "FastTab Parâmetros na caixa de diálogo Confirmação")
+    ![FastTab Parâmetros na caixa de diálogo Confirmação.](./media/manual-firming.png "FastTab Parâmetros na caixa de diálogo Confirmação")
 
 1. Na FastTab **Executar em segundo plano**, configure o trabalho para que ele seja executado no modo de lotes. Mas, não faz sentido configurar uma agenda recorrente quando você confirma manualmente. Os campos funcionam da mesma forma que em outros tipos de [trabalhos em segundo plano](../../../fin-ops-core/dev-itpro/sysadmin/batch-processing-overview.md) no Supply Chain Management. No entanto, para a confirmação manual, o trabalho em lotes processará apenas as ordens planejadas selecionadas no momento. Ele não processará ordens que atendam aos filtros aplicados no momento na página.
 1. Selecione **OK** para aplicar suas configurações e gerar as ordens confirmadas.
@@ -140,15 +140,15 @@ Para confirmar uma ordem planejada usando o processo de confirmação baseado em
     - **Limite de tempo de confirmação em dias à frente** – Selecione até que ponto, no futuro, os diversos requisitos e outras considerações devem ser calculados pelo planejamento mestre.
     - **Limite de tempo de confirmação em dias anteriores** – Selecione até que ponto, no passado, os diversos requisitos e outras considerações devem ser calculados pelo planejamento mestre.
 
-    ![FastTab Parâmetros na caixa de diálogo Confirmação de ordem planejada](./media/planned-order-firming-main-1.png "FastTab Parâmetros na caixa de diálogo Confirmação de ordem planejada")
+    ![FastTab Parâmetros na caixa de diálogo Confirmação de ordem planejada.](./media/planned-order-firming-main-1.png "FastTab Parâmetros na caixa de diálogo Confirmação de ordem planejada")
 
 1. Para especificar quais registros devem ser incluídos na ordem, selecione o botão **Filtrar** na FastTab **Registros a serem incluídos**. Uma caixa de diálogo de consulta padrão é exibida, na qual você pode definir critérios de seleção, critérios de classificação e junções. Os campos funcionam da mesma forma que em outros tipos de consultas no Supply Chain Management. Os campos aqui são somente leitura e mostram os valores relacionados à sua consulta.
 
-    ![FastTab Registros a serem incluídos na caixa de diálogo Confirmação de ordem planejada](./media/planned-order-firming-main-2.png "FastTab Registros a serem incluídos na caixa de diálogo Confirmação de ordem planejada")
+    ![FastTab Registros a serem incluídos na caixa de diálogo Confirmação de ordem planejada.](./media/planned-order-firming-main-2.png "FastTab Registros a serem incluídos na caixa de diálogo Confirmação de ordem planejada")
 
 1. Selecione **Visualizar** para visualizar o conteúdo da ordem confirmada, com base nas suas configurações até o momento. A lista de ordens planejadas que será confirmada aparece como uma mensagem. Em seguida, você pode ajustar as configurações conforme necessário até que a versão prévia mostre a ordem confirmada pretendida.
 
-    ![Exemplo de uma versão prévia de ordem confirmada](./media/planned-order-firming-preview.png "Exemplo de uma versão prévia de ordem confirmada")
+    ![Exemplo de uma versão prévia de ordem confirmada.](./media/planned-order-firming-preview.png "Exemplo de uma versão prévia de ordem confirmada")
 
     > [!WARNING]
     > Este recurso confirmará todas as ordens planejadas que correspondem aos critérios de filtro. A confirmação indiscriminada de ordens planejadas pode levar à criação de muitas ordens de produção, transferência e compra indesejadas. Antes de continuar, use sempre o botão **Visualizar** para validar os registros que serão incluídos.

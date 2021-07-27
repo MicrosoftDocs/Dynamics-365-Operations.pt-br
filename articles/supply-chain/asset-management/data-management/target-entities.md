@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3b9fd32d539a8f2e038f571910314889f92e3fd9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e3b28475e6432294b3a9ed0c63341122bedca037
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838625"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346169"
 ---
 # <a name="target-entities"></a>Entidades de destino
 
@@ -34,13 +34,13 @@ No espaço de trabalho **Gerenciamento de dados**, você pode ter uma visão ger
 
 2. Na seção **Importar / Exportar**, clique em **Entidades de dados**. 
 
-    ![Figura 1](media/01-data-management.png)
+    ![Figura 1.](media/01-data-management.png)
 
 3. Na página **Entidades de destino**, busque por "gerenciamento de ativos" no filtro, e pressione Enter para ver uma lista de entidades relacionadas ao Gerenciamento de ativos.
 
     A imagem abaixo mostra algumas das Entidades de gerenciamento de ativos.
 
-   ![Figura 2](media/02-data-management.png)
+   ![Figura 2.](media/02-data-management.png)
 
 4. Selecione uma entidade e clique em **Modificar mapeamento de destino**.
 
@@ -48,7 +48,7 @@ No espaço de trabalho **Gerenciamento de dados**, você pode ter uma visão ger
 
     Na figura abaixo, uma visualização dos campos relacionados à entidade de tipos de ativo é exibida.
 
-    ![Figura 3](media/03-data-management.png)
+    ![Figura 3.](media/03-data-management.png)
 
 
 

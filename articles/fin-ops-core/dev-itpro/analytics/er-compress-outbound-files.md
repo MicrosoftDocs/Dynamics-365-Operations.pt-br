@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 899af54fbe34841c9b9b6e96b78db96773cf0203
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894163"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357633"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compactar documentos grandes que são gerados em relatórios eletrônicos 
 
@@ -55,7 +55,7 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
 1. [Executar o formato importado](er-defer-xml-element.md#run-the-imported-format).
 2. Observe que o tamanho do documento gerado no formato XML é de 3 kilobytes (KB).
 
-    ![Visualização do documento de saída descompactado](./media/er-compress-outbound-files1.png)
+    ![Visualização do documento de saída descompactado.](./media/er-compress-outbound-files1.png)
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Modificar o formato para compactar a saída gerada
 
@@ -80,7 +80,7 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
     > [!NOTE] 
     > A taxa de compactação do arquivo XML que esse arquivo zip contém é de 87%. A taxa de compactação depende dos dados que estão sendo compactados.
 
-    ![Visualização do documento de saída compactado](./media/er-compress-outbound-files2.png)
+    ![Visualização do documento de saída compactado.](./media/er-compress-outbound-files2.png)
 
 > [!NOTE]
 > Se o [destino](electronic-reporting-destinations.md) de ER for configurado para o elemento de formato que gera a saída (o elemento **Relatório** neste exemplo), a compactação da saída será ignorada.
