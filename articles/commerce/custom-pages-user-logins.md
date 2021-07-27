@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d4a1c2f45d77c3ff9a7bb4dffaf12d877dc04e69
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 214f99563f8bb08d8c051f904d0ca0a88267aa6b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936771"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349641"
 ---
 # <a name="set-up-custom-pages-for-user-sign-ins"></a>Configurar páginas personalizadas para entradas dos usuários
 
@@ -40,7 +40,7 @@ As páginas personalizadas do Commerce podem ser criadas usando conectar, inscre
 
 Depois de ter configurado seu locatário B2C Azure AD e associá-lo com seu ambiente de comércio, vá para a página **Azure AD B2C** no portal do Azure e depois, no menu, em **Políticas**, selecione **Fluxos de usuário (políticas)**.
 
-![Comando fluxos de usuário (políticas) no menu](./media/B2C_CustomPage_PoliciesMenu.png)
+![Comando fluxos de usuário (políticas) no menu.](./media/B2C_CustomPage_PoliciesMenu.png)
 
 Agora você pode configurar fluxos de entrada de usuário de "Se inscrever e entrar," "Edição de perfil," e "Redefinição de senha".
 
@@ -54,13 +54,13 @@ Para configurar a política ""Se inscrever e entrar", siga estas etapas.
 1. Na coluna **Coletar atributo**, marque as caixas de seleção **Endereço de e-mail**, **Nome fornecido** e **Sobrenome**.
 1. Na coluna **Retornar reivindicação**, marque as caixas de seleção **Endereços de e-mail**, **Nome fornecido**, **Provedor de identidade**, **Sobrenome** e **ID do objeto de usuário**.
 
-    ![Atributos e reivindicações selecionados](./media/B2C_SignInSignUp_Attributes.png)
+    ![Atributos e reivindicações selecionados.](./media/B2C_SignInSignUp_Attributes.png)
 
 1. Selecione **OK** para criar a política.
 1. Clique duas vezes no nome da política, e depois no painel de navegação, selecione **Propriedades**.
 1. Defina a opção **Habilitar layout de página garantindo JavaScript (visualização)** como **Ligado**.
 
-    ![As páginas de propriedade da nova política](./media/B2C_SignInSignUp_EnableJavascript.png)
+    ![As páginas de propriedade da nova política.](./media/B2C_SignInSignUp_EnableJavascript.png)
 
 > [!NOTE]
 > O nome da política será referenciado por completo no ambiente de comércio. (O prefixo **B2C\_1\_** será incluído na referência.) Políticas não podem ser renomeadas após serem criadas. Se você está substituindo uma política existente para seu ambiente de comércio, você pode excluir a política original e criar uma nova política que tem o mesmo nome. Alternativamente, se o ambiente já foi provisionado, você pode enviar o novo nome de política por meio de solicitação de serviço.
@@ -150,7 +150,7 @@ Para atualizar a política "Se inscrever e entrar" com informações de página 
     1. Para os atributos **Endereço de Email**, **Nome Fornecido** e **Sobrenome**, selecione **Não** na coluna **Opcional**.
 1. Selecione **Salvar**.
 
-    ![Configuração da política de página de inscrição de conta local](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
+    ![Configuração da política de página de inscrição de conta local.](./media/B2C_SignInSignUp_Recommended_PageLayoutExample.png)
 
 ### <a name="update-the-profile-editing-policy-with-custom-page-information"></a>Atualizar a política "Edição de perfil" com informações de página personalizadas
 
@@ -188,11 +188,11 @@ Na biblioteca de módulos, os módulos de entrada são previamente preenchidos c
 
 Por exemplo, o texto padrão para o link de senha esquecida é **Esqueceu a senha?**. A seguir veja um texto padrão na página de entrada.
 
-![Texto padrão para o link de senha esquecida na página de entrada](./media/B2C_SignUp_ModuleFace.png)
+![Texto padrão para o link de senha esquecida na página de entrada.](./media/B2C_SignUp_ModuleFace.png)
 
 No entanto, no arquivo global.json para o módulo de entrada da biblioteca de módulos, você pode editar o texto para **Esqueceu a senha?**, conforme mostrado na ilustração a seguir.
 
-![Texto de link atualizado no arquivo global.json do módulo de entrada](./media/B2C_CustomizingStringsForModule.png)
+![Texto de link atualizado no arquivo global.json do módulo de entrada.](./media/B2C_CustomizingStringsForModule.png)
 
 Depois de atualizar o arquivo global.json e publicar suas alterações, o novo texto de link será exibido no módulo de entrada no Commerce e na página de entrada ativa.
 

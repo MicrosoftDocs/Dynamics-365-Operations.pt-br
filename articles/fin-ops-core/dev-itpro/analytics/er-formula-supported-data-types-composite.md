@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7ed9e62751b6be9fad6de3bf262d37d7977d192
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 2593f3128ec103248e109f3c80f48b9d7a035f54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224076"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355337"
 ---
 # <a name="supported-composite-data-types-for-electronic-reporting-formulas"></a>Tipos de dados compostos compatíveis para fórmulas do Relatório Eletrônico
 
@@ -43,11 +43,11 @@ O valor padrão de uma *classe* é **nulo**.
 
 A ilustração a seguir mostra como a fonte de dados **Informações do sistema(xInfo)** do tipo **Classe** é adicionada para criar a instância da classe de aplicativo **xInfo** e chamar seu método **productName()** para receber o nome do aplicativo atual. O nome do aplicativo atual é obtido no runtime executando a vinculação `xInfo.productName` que foi configurada para o campo **Nome do software(SoftwareName)** do modelo de dados do ER. Esta vinculação chama o método do `productName()` da classe de aplicativo **xInfo** que é representada no mapeamento do modelo atual como a fonte de dados **Informações do sistema(xInfo)**.
 
-[![Configurar uma fonte de dados Classe no designer de mapeamento de modelo do ER](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
+[![Configurar uma fonte de dados Classe no designer de mapeamento de modelo do ER.](./media/er-formula-supported-data-types-composite-class1.gif)](./media/er-formula-supported-data-types-composite-class1.gif)
 
 A ilustração a seguir mostra como o formato do ER é configurado para inserir o nome do aplicativo fornecido nos documentos gerados. O campo **Nome do software(SoftwareName)** do modelo de dados usado foi vinculado ao componente **Cadeia de caracteres** que está aninhado no no elemento XML **softwareUsed** do formato ER. Portanto, o nome do aplicativo atual é inserido no runtime para o elemento XML **softwareUsed** de um documento gerado no formato XML.
 
-[![Configurar a estrutura de um documento eletrônico de saída no designer de formatos do ER](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
+[![Configurar a estrutura de um documento eletrônico de saída no designer de formatos do ER.](./media/er-formula-supported-data-types-composite-class2.png)](./media/er-formula-supported-data-types-composite-class2.png)
 
 ## <a name="container"></a><a name="container"></a>Contêiner
 
@@ -60,7 +60,7 @@ O valor padrão de um *contêiner* é **nulo**.
 
 A seguinte ilustração mostra como o campo **Bitmap(Image)** do tipo *Contêiner* é vinculado ao campo **Logotipo** do modelo de dados do tipo **Contêiner** no mapeamento de modelo **Fatura de venda**. A vinculação torna o logotipo da empresa disponível para qualquer formato do ER que seja atribuído para a definição raiz **SalesInvoice** e que use este mapeamento de modelo no runtime.
 
-[![Vincular um campo do tipo Contêiner no designer de mapeamento de modelo do ER](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
+[![Vincular um campo do tipo Contêiner no designer de mapeamento de modelo do ER.](./media/er-formula-supported-data-types-composite-container.png)](./media/er-formula-supported-data-types-composite-container.png)
 
 ## <a name="record"></a><a name="record"></a>Registro
 
@@ -109,7 +109,7 @@ O valor padrão de um *objeto* é **nulo**.
 
 A seguinte ilustração mostra como a fonte de dados **ReportDataContract** do tipo *Objeto* é adicionada para passar informações sobre uma fatura gerada de um código fonte para o mapeamento de modelo **Fatura do projeto**. Por exemplo, o texto da instância da fatura é passado como parte do contexto de execução. Este texto é obtido do código fonte no runtime executando a vinculação `ReportDataContract.parmInvoiceInstanceText` que foi configurada para o campo **Nota** do modelo de dados do ER. Esta vinculação chama o método do `parmInvoiceInstanceText()` da classe de aplicativo **PSAProjInvoiceContract** que é representada no mapeamento do modelo atual como a fonte de dados **ReportDataContract**.
 
-[![Configurar uma fonte de dados Objeto no designer de mapeamento de modelo do ER](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
+[![Configurar uma fonte de dados Objeto no designer de mapeamento de modelo do ER.](./media/er-formula-supported-data-types-composite-object.gif)](./media/er-formula-supported-data-types-composite-object.gif)
 
 Para saber como passar detalhes sobre o contexto de execução do código fonte para a solução do ER em execução, consulte [Desenvolver artefatos de aplicativo para chamar o relatório atribuído](er-quick-start1-new-solution.md#DevelopCustomCode).
 

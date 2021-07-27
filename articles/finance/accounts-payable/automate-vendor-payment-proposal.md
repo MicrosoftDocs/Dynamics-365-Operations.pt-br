@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-04-08
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 238123f59c3d85b2b2c64aed9d94c7d8af27eaf2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f19a6ed70445791433c2db2559f6922b9715c5e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820802"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350637"
 ---
 # <a name="automate-vendor-payment-proposals"></a>Automatizar propostas de pagamento de fornecedor
 
@@ -97,11 +97,11 @@ Recomendamos que você avalie se a automação será benéfica para sua organiza
 
 Depois que a série de automação da proposta de pagamento do fornecedor é criada, as ocorrências para cada pagamento são mostradas na exibição semanal da automação de processo. Para pagamentos de fornecedor, a exibição semanal do processo de automação foi adicionada ao espaço de trabalho **Pagamentos do fornecedor** e à página **Automação de processo**.
 
-[![Exibição semanal da automação do processo no espaço de trabalho de pagamentos de fornecedor](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
+[![Exibição semanal da automação do processo no espaço de trabalho de pagamentos de fornecedor.](./media/vendor-payment-proposal-1.png)](./media/vendor-payment-proposal-1.png)
 
 A exibição semanal do processo de automação no espaço de trabalho **Pagamentos do fornecedor** mostra somente as automações da proposta de pagamento do fornecedor. Ele mostra todas as ocorrências de pagamentos da semana atual, para todas as entidades legais às quais o usuário conectado tem permissões de segurança. Por exemplo, se o auxiliar de pagamento do AP for responsável por pagamentos nas empresas USMF e USSI, ele verá as ocorrências da automação da proposta de pagamento do fornecedor para essas duas empresas, mas não para outras empresas.
 
-[![Exibição semanal de automação de processos para as empresas USMF e USSI](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
+[![Exibição semanal de automação de processos para as empresas USMF e USSI.](./media/vendor-payment-proposal-2.png)](./media/vendor-payment-proposal-2.png)
 
 Cada ocorrência mostra a empresa em que o diário de pagamentos foi ou será criado. Se os pagamentos forem criados usando pagamentos centralizados, a empresa que mostrada será a empresa na qual os pagamentos serão criados. A ocorrência não mostra, necessariamente, quais faturas de empresas serão pagas.
 

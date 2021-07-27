@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-09021
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 063701d5cd5714febeb32907346d9f6e5c2a2ca1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9428eda880d534c700646b52310c6b8befdebaf2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804396"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353795"
 ---
 # <a name="pickup-information-module"></a>Módulo de informações de retirada
 
@@ -40,7 +40,7 @@ Se vários itens forem selecionados para retirada em várias lojas, o módulo de
 
 A ilustração a seguir mostra um exemplo de seleção de intervalo de tempo por meio do módulo de informações sobre retirada em uma página de finalização de compra.
 
-![Exemplo de um módulo de informações sobre retirada em uma página de finalização de compra](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
+![Exemplo de um módulo de informações sobre retirada em uma página de finalização de compra.](./dev-itpro/media/Curbside_timeslot_eCommerce.PNG)
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
@@ -56,11 +56,11 @@ Para obter instruções sobre como adicionar um módulo de informações sobre r
 
 A ilustração a seguir mostra um exemplo de uma página de finalização de compra no comércio eletrônico que inclui intervalos de tempo para itens da linha de retirada.
 
-![Exemplo de uma página de finalização de compra no comércio eletrônico que inclui intervalos de tempo para itens da linha de retirada](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
+![Exemplo de uma página de finalização de compra no comércio eletrônico que inclui intervalos de tempo para itens da linha de retirada.](./dev-itpro/media/Curbside_timeslot_eCommerce_checkoutsummary.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Criar e atualizar os intervalos de tempo para retirada pelo cliente](dev-itpro/pickup-timeslots.md)
+[Criar e atualizar slots de tempo para retirada do cliente](dev-itpro/pickup-timeslots.md)
 
 [Módulo de finalização da compra](add-checkout-module.md)
 

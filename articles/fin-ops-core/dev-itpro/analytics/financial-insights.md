@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 982d835c6c0d9bf6e19aa0ec1b03bce9aa7d2e5d
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 90622bb8fb6452e4b4002fa5aab491112e98d923
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193741"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345803"
 ---
 # <a name="financial-analysis"></a>Análise financeira
 
@@ -60,7 +60,7 @@ Para aparecer em demonstrativos financeiros e para ser incluída em vários outr
 ## <a name="entity-store"></a>Repositório de entidades
 Os dados da **Análise financeira** são recebidos do repositório de entidades (**Administrador do sistema** \> **Configurar** \> **Repositório de entidades**). Se você abrir o espaço de trabalho **Visão geral do CFO** ou **Análise financeira** e a seguinte mensagem de aviso for exibida nos elementos visuais, você deverá atualizar as entidades.
 
-![Aviso](./media/Cantdisplay.png)
+![Aviso.](./media/Cantdisplay.png)
 
 Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Análise financeira**:
 
@@ -124,7 +124,7 @@ Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. 
 - **Filtros de nível visual** – Esses filtros são aplicados somente ao elemento visual selecionado. Esses filtros são aplicados na parte superior dos filtros em nível de página.
 - **Filtro de análise** – Este filtro é aplicado de um elemento visual de "origem" que é aplicado ao elemento visual atual quando você analisar o elemento visual em relação ao elemento visual atual.
 
-![Opções de filtro](./media/filter.png)
+![Opções de filtro.](./media/filter.png)
 
 Para remover um valor de filtro específico, selecione o símbolo de borracha próximo a ele. Não remova um filtro selecionando o X. Se você selecionar o X, o campo que está filtrando será removido como uma opção do filtro. Se você remover acidentalmente um campo do filtro, feche o espaço de trabalho e depois o reabra. As configurações padrão de filtros serão reaplicadas.
 
@@ -169,25 +169,25 @@ Há vários níveis de análise disponíveis no Power BI. Cada nível tem um nom
 
 Na ilustração a seguir, o demonstrativo **Balancete** é recolhido para o nível mais alto da hierarquia de linha, o tipo de conta principal.
 
-![Demonstrativo de balancete](./media/trial-balance.png)
+![Demonstrativo de balancete.](./media/trial-balance.png)
 
 Para exibir o próximo nível da hierarquia, as categorias de conta principal, você pode definir o campo **Detalhar** para **Linhas** e selecionar o botão **Expandir** (o terceiro botão após o campo Detalhar). Agora você verá todas as categorias contábeis principais expandidas. No momento, o Power BI não permite expandir somente uma linha ou coluna, mas ver todas as outras linhas ou colunas.
 
-![Detalhamento do balancete nas linhas](./media/trial-balance2.png)
+![Detalhamento do balancete nas linhas.](./media/trial-balance2.png)
 
 Para expandir as contas principais para todas as linhas, você pode usar novamente o botão **Expandir**. Porém, para fazer busca detalhada nas contas principais para somente uma linha, primeiro selecione o botão **Busca detalhada** (a seta curva para baixo no lado direito da janela) e, em seguida, selecione a linha para fazer a busca detalhada. A ilustração a seguir mostra o resultado quando a linha **Vendas** for selecionada depois que o botão **Detalhar** for selecionado.
 
-![Botão Expansão do balancete](./media/trial-balance3.png)
+![Botão Expansão do balancete.](./media/trial-balance3.png)
 
 Depois de fazer busca detalhada em uma única linha, vários cliques são necessários para retornar ao balancete completo. O botão **Fazer drill up** (o primeiro botão depois do campo **Detalhar**) faz drill up somente no contexto da categoria de **Vendas**, conforme mostrado na ilustração a seguir.
 
-![Botão Drill up de balancete](./media/trial-balance4.png)
+![Botão Drill up de balancete.](./media/trial-balance4.png)
 
 Você pode continuar usando o botão **Fazer drill up** para retornar ao mais alto nível de resumo das linhas.
 
 O Power BI também tem um botão que permite ir para o próximo nível na hierarquia (o segundo botão após o campo **Detalhar**). O efeito deste botão difere do efeito do botão **Expandir** (o terceiro botão após o campo **Detalhar**), que é usado para expandir a hierarquia. Quando você expande a hierarquia, ela é mantida no relatório. Por exemplo, como mostrado anteriormente, se expandir o tipo de conta principal, você ainda verá o tipo de conta principal no relatório. Porém, quando você avançar para o próximo nível da hierarquia, o relatório não mostrará mais o pai na hierarquia, conforme mostrado na seguinte ilustração.
 
-![Botão Reversão de balancete](./media/trial-balance5.png)
+![Botão Reversão de balancete.](./media/trial-balance5.png)
 
 Para ver os detalhes da transação além dos saldos resumidos, você pode selecionar alguns valores para reverter no Financial and Operations.
 
@@ -226,7 +226,7 @@ Atualmente, os demonstrativos financeiros não oferecem suporte às hierarquias 
 ## <a name="data-limitations"></a>Limitações de dados
 Os elementos visuais do demonstrativo financeiro têm um limite em relação ao número de linhas que podem ser exibidas. Atualmente, o limite é definido como 30.000. Se você exceder o limite, o elemento visual terá um símbolo de advertência para notificá-lo sobre essa situação.
 
-![Limitações de dados](./media/data-limit.png)
+![Limitações de dados.](./media/data-limit.png)
 
 Se o máximo for excedido, os totais que aparecem no demonstrativo financeiro estarão incorretos, pois nem todas as linhas foram carregadas para o elemento visual.
 

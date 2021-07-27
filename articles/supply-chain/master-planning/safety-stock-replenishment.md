@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: d80c754b7aa154d9636bb0d9fbfb448987d01e48
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841782"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353507"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
@@ -72,37 +72,50 @@ O cenário a seguir mostra como este parâmetro funciona e quais as diferenças 
 > [!NOTE]
 > Para todas as ilustrações deste tópico, o eixo x representa o estoque, o eixo y representa dias, as barras representam o nível de estoque, as setas representam as transações, como linhas de ordem de venda, linhas de ordem de compra ou ordens planejadas.
 
-[![Cenário comum para a realização de estoque de segurança](./media/Scenario1.png)](./media/Scenario1.png) O parâmetro **Atenda o mínimo** pode ter os seguintes valores:
+[![Cenário comum atendimento de estoque de segurança para itens.](./media/Scenario1.png)](./media/Scenario1.png)
+O parâmetro **Fornecimento mínimo** pode ter os seguintes valores:
 ### <a name="todays-date"></a>Data atual 
 A quantidade mínima especificada é atendida na data em que o planejamento mestre é executado. O sistema tenta atender ao limite de estoque de segurança o quanto antes, mesmo que ele possa não seja realista devido ao prazo de entrega. 
-[![Requisito na data de hoje](./media/TodayReq.png)](./media/TodayReq.png) A ordem planejada P1 é criada para a data de hoje para deixar o estoque disponível acima do nível do estoque de segurança nesta data. As linhas da ordem de venda S1 a S3 continuam diminuindo o nível de estoque. A ordens planejadas P2 a P4 são geradas pelo planejamento mestre, de modo que o nível de estoque seja trazido de volta ao limite de segurança após cada necessidade de ordem de venda.
+[![Requisito na data de hoje.](./media/TodayReq.png)](./media/TodayReq.png)
+A ordem planejada P1 é criada para a data de hoje para deixar o estoque disponível acima do nível do estoque de segurança nesta data. As linhas da ordem de venda S1 a S3 continuam diminuindo o nível de estoque. A ordens planejadas P2 a P4 são geradas pelo planejamento mestre, de modo que o nível de estoque seja trazido de volta ao limite de segurança após cada necessidade de ordem de venda.
 Quando a cobertura **Necessidade** é usada, são criadas várias ordens planejadas. Sempre é recomendável usar a cobertura do **Período** ou do **Mínimo/máximo** para itens e materiais em demanda frequente para agrupar o reabastecimento. A ilustração a seguir mostra um exemplo do código de cobertura **Período**.
-[![Período. Data de hoje](./media/TodayPeriod.png)](./media/TodayPeriod.png) A ilustração a seguir mostra um exemplo do código de cobertura **Mín./Máx.**.
-[![Mín./Máx. Data de hoje](./media/TodayMinMax.png)](./media/TodayMinMax.png)
+[![Período. Data de hoje.](./media/TodayPeriod.png)](./media/TodayPeriod.png)
+A ilustração a seguir mostra um exemplo do código de cobertura **Mín/Máx**.
+[![Mín./Máx. Data de hoje.](./media/TodayMinMax.png)](./media/TodayMinMax.png)
 ### <a name="todays-date--procurement-time"></a>Data atual + tempo de compras 
 A quantidade mínima especificada é atingia na data em que o planejamento mestre é executado, acrescido do prazo de entrega de compra ou produção. Esse prazo inclui quaisquer margens de segurança. Se o item tiver um contrato comercial e a caixa de seleção **Localizar contratos comerciais** estiver marcada na página **Parâmetros de planejamento mestre**, o prazo de entrega do contrato comercial não será considerado. Os prazos de entrega são obtidos das configurações de cobertura do item ou do item.
 Esse modo de atendimento criará planos com menos atrasos e menos ordens planejadas, independentemente do grupo de cobertura configurado no item. A ilustração a seguir mostra o resultado do plano, se o código de cobertura for **Necessidade** ou **Período**.  
-[![Necessidade. Período. Data de hoje e prazo de entrega](./media/TodayPLTReq.png)](./media/TodayPLTReq.png) A ilustração a seguir mostra o resultado do plano, se o código de cobertura for **Mín./Máx.**.  
-[![Mín./Máx. Data de hoje e prazo de entrega](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
+[![Necessidade. Período. Data de hoje e prazo de entrega.](./media/TodayPLTReq.png)](./media/TodayPLTReq.png)
+A ilustração a seguir mostra o resultado do plano, se o código de cobertura for **Mín/Máx**.  
+[![Mín./Máx. Data de hoje e prazo de entrega.](./media/TodayPLTMinMax.png)](./media/TodayPLTMinMax.png)
 ### <a name="first-issue"></a>Primeira saída 
 A quantidade mínima especificada é atingida na data em que o estoque disponível fica abaixo do nível mínimo, conforme mostrado na ilustração a seguir. Mesmo que o estoque disponível fique abaixo do nível mínimo na data em que o planejamento mestre for executado, a **Primeira saída** não tentará cobri-la até a próxima exigência.
 A ilustração a seguir mostra um exemplo do código de cobertura **Exigência**.
-[![Planejando um item com o código de cobertura **Exigência** e o atendimento **Primeira saída**](./media/FirstIssueReq.png)](./media/FirstIssueReq.png) A ilustração a seguir mostra um exemplo do código de cobertura **Período**.
-[![Planejando um item com o código de cobertura **Período** e o atendimento **Primeira saída**](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png) A ilustração a seguir mostra um exemplo do código de cobertura **Mín./Máx.**.
-[![Planejando um item com o código de cobertura **Mín./Máx.** e o atendimento **Primeira saída**](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png) Na data em que o planejamento mestre é executado, se o estoque disponível já estiver sob o limite de estoque de segurança, **Data de hoje** e **Data de hoje + tempo de aquisição** acionarão o reabastecimento imediatamente. **Primeira saída** esperará até que haja outra transação de saída, como requisito de ordem de venda e de linha de BOM e depois acionam o reabastecimento na data dessa transação. Na data em que o planejamento mestre é executado, se o estoque disponível não estiver no limite de estoque de segurança, **Data de hoje** e **Primeira saída** fornecerão o resultado exatamente igual, conforme mostra a ilustração a seguir. 
+[![Planejamento de um item com o código de cobertura **Necessidade** e o atendimento **Primeira saída**.](./media/FirstIssueReq.png)](./media/FirstIssueReq.png)
+A ilustração a seguir mostra um exemplo do código de cobertura **Período**.
+[![Planejamento de um item com o código de cobertura **Período** e o atendimento **Primeira saída**.](./media/FirstIssuePeriod.png)](./media/FirstIssuePeriod.png)
+A ilustração a seguir mostra um exemplo do código de cobertura **Mín/Máx**.
+[![Planejamento de um item com o código de cobertura **MínMáx** e o atendimento **Primeira saída**.](./media/FirstIssueMinMax.png)](./media/FirstIssueMinMax.png)
+Na data em que o planejamento mestre é executado, se o estoque disponível já estiver sob o limite de estoque de segurança, **Data de hoje** e **Data de hoje + tempo de aquisição** acionarão o reabastecimento imediatamente. **Primeira saída** esperará até que haja outra transação de saída, como requisito de ordem de venda e de linha de BOM e depois acionam o reabastecimento na data dessa transação. Na data em que o planejamento mestre é executado, se o estoque disponível não estiver no limite de estoque de segurança, **Data de hoje** e **Primeira saída** fornecerão o resultado exatamente igual, conforme mostra a ilustração a seguir. 
 
-[![NotUnderLimit](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png) Na data em que o planejamento mestre é executado, se o estoque disponível não estiver no limite do estoque de segurança **Data de hoje + tempo de aquisição**, fornecerão o seguinte resultado porque adiam o atendimento até o fim do prazo de entrega da aquisição.
-![Planejando um item com o código de cobertura **Necessidade** e o atendimento **Primeira saída**](./media/ReqTodayLT.png)
+[![NotUnderLimit.](./media/ReqFirstIssue.png)](./media/ReqFirstIssue.png)
+Na data em que o planejamento mestre é executado, se o estoque disponível não estiver no limite do estoque de segurança **Data de hoje + tempo de aquisição** fornecerão o seguinte resultado porque adiam o atendimento até o fim do prazo de entrega da aquisição.
+![Planejando um item com o código de cobertura **Necessidade** e o atendimento **Primeira saída**.](./media/ReqTodayLT.png)
 ### <a name="coverage-time-fence"></a>Limite de tempo de cobertura
 A quantidade mínima especificada é atendida durante o período que é especificado no campo **Limite de tempo de cobertura**. Essa opção é útil quando o planejamento mestre não permite que o estoque disponível seja usado para ordens reais, como vendas ou transferências, na tentativa de manter o nível de segurança. Porém, em uma versão futura, este modo de reabastecimento não será necessário, e essa opção será substituída.
 ## <a name="plan-safety-stock-replenishment-for-first-expired-first-out-fefo-items"></a>Planejar o reabastecimento do estoque de segurança para itens FEFO (Primeiro a vencer, primeiro a sair)
 Em qualquer momento, o recebimento de estoque com a data de vencimento mais recente será usado para o estoque de segurança para permitir demanda real, como linhas de venda ou linhas de BOM, para serem atendidas na ordem FEFO (Primeiro a vencer, primeiro a sair).
 Para mostrar como isso funciona, considere o cenário a seguir.
-[![FEFOScenario](./media/FEFOScenario.png)](./media/FEFOScenario.png) Quando o planejamento é executado, ele cobre a primeira ordem de venda do estoque disponível existente e uma ordem de compra adicional para a quantidade restante.
-[![FEFO1](./media/FEFO1.png)](./media/FEFO1.png) Uma ordem planejada é criada garantir que o estoque disponível será trazido de volta ao limite de segurança.
-[![FEFO2](./media/FEFO2.png)](./media/FEFO2.png) Quando a segunda ordem de venda é planejada, a ordem planejada criada anteriormente que cobre o estoque de segurança é usada para cobrir esta quantidade. Portanto, o estoque de segurança está girando constantemente.
-[![FEFO3](./media/FEFO3.png)](./media/FEFO3.png) Por fim, outra ordem planejada é criada para cobrir o estoque de segurança.
-[![FEFO4](./media/FEFO4.png)](./media/FEFO4.png) Todos os lotes vencem adequadamente e as ordens planejadas serão criadas para reabastecer o estoque de segurança depois que ele expirar.
+[![FEFOScenario.](./media/FEFOScenario.png)](./media/FEFOScenario.png)
+Quando o planejamento é executado, ele cobre a primeira ordem de venda do estoque disponível existente e uma ordem de compra adicional para a quantidade restante.
+[![FEFO1.](./media/FEFO1.png)](./media/FEFO1.png)
+Uma ordem planejada é criada para garantir que o estoque disponível retorne ao limite de segurança.
+[![FEFO2.](./media/FEFO2.png)](./media/FEFO2.png)
+Quando a segunda ordem de venda é planejada, a ordem planejada criada anteriormente que cobre o estoque de segurança é usada para cobrir esta quantidade. Portanto, o estoque de segurança está girando constantemente.
+[![FEFO3.](./media/FEFO3.png)](./media/FEFO3.png)
+Por fim, outra ordem planejada é criada para cobrir o estoque de segurança.
+[![FEFO4.](./media/FEFO4.png)](./media/FEFO4.png)
+Todos os lotes vencem adequadamente e as ordens planejadas serão criadas para reabastecer o estoque de segurança depois que ele expirar.
 
 ## <a name="how-master-planning-handles-the-safety-stock-constraint"></a>Como o planejamento mestre trata a restrição de estoque de segurança
 

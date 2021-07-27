@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: 1ef427ff57c79b64a2435edd902e09a7d99e81d9
-ms.sourcegitcommit: 4a508bd11267f24eeb774af57faa56369beacf51
+ms.openlocfilehash: 460297651f2766f96c34b258edbe94a7114ee090
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6168720"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343949"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>Requisitos de dimensionamento de hardware para ambientes locais
 
@@ -36,7 +36,7 @@ Depois de examinar a documentação, inicie o processo de estimativa do seu volu
 
 Todos os fatores mostrados na ilustração a seguir contribuem para o dimensionamento. Quanto mais detalhadas forem as informações coletadas, mais preciso será o dimensionamento. O dimensionamento do hardware, sem os dados de suporte, provavelmente será impreciso. O requisito mínimo absoluto para os dados necessários é a carga de pico de linhas de transação por hora.
 
-[![Dimensionamento de hardware para ambientes locais](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
+[![Dimensionamento de hardware para ambientes locais.](./media/lbd-sizing-01.png)](./media/lbd-sizing-01.png)
 
 Exibido da esquerda para a direita, o primeiro e mais importante fator necessário para estimar com precisão o dimensionamento é um perfil de transações ou uma caracterização de transações. É importante sempre localizar o volume transacional de pico por hora. Se houver vários períodos de pico, então esses períodos precisarão ser definidos com exatidão.
 

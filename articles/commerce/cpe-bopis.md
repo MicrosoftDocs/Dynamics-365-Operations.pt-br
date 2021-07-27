@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 56319035ac092a376f0766c20eee71af6256b6f9
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 5f96302735e8aa1acf5c81992cb4cb49ff4a03ce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936901"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352485"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -54,7 +54,7 @@ Os cenários de BOPIS que envolvem um pagamento em cartão de crédito exigem um
 4. Selecione **Download** e depois **Retail Modern POS**. 
 5. Quando o download do arquivo **ModernPOSSetup.exe** for concluído, selecione **Abrir arquivo**.
 
-    ![Abrir arquivo](./dev-itpro/media/PAYMENTS/openfile.png)
+    ![Abrir arquivo.](./dev-itpro/media/PAYMENTS/openfile.png)
 
 6. Selecione **Avançar** para continuar o processo de instalação. Quando a instalação for concluída, selecione **Fechar**.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1392b767815722c17b1cc72d27fe2bb8a7c32281
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796357"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345151"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -36,7 +36,7 @@ Por padrão, as pesquisas de produtos são feitas na classificação de armazena
 
 Na página **Alterar catálogo**, os funcionários podem selecionar facilmente qualquer armazenamento ou podem procurar os produtos em todos os armazenamentos.
 
-![Alterar o catálogo](./media/Changecatalog.png "Mudança de catálogo")
+![Alterar o catálogo.](./media/Changecatalog.png "Mudança de catálogo")
 
 Uma pesquisa local do produto faz a pesquisa dentro das seguintes propriedades do produto:
 
@@ -59,7 +59,7 @@ Uma pesquisa local do produto faz a pesquisa dentro das seguintes propriedades d
 - Fornecedores podem configurar a pesquisa de produtos para mostrar sugestões de pesquisa como nomes de produto do tipo de usuário. Uma nova configuração para esta funcionalidade está disponível no perfil da funcionalidade de PDV, em um grupo chamado **Pesquisa de produto**. A configuração é chamada **Mostrar sugestões de pesquisa ao digitar**. Esta funcionalidade pode ajudar funcionários a encontrar rapidamente o produto que eles estão pesquisando, porque eles não precisam digitar o nome completo manualmente.
 - O algoritmo de pesquisa do produto agora também procura os termos pesquisados na propriedade **Pesquisar nome** do produto.
 
-![Sugestões de produtos](./media/Productsuggestions.png "Sugestões de produtos")
+![Sugestões de produtos.](./media/Productsuggestions.png "Sugestões de produtos")
 
 ## <a name="customer-search"></a>Pesquisa de Cliente
 
@@ -83,7 +83,7 @@ Para pesquisar globalmente, os funcionários podem selecionar o botão **Resulta
 
 O ID do cliente não é mostrado para os clientes consultados de outras entidades legais porque nenhum ID de cliente foi criado para essas partes na empresa atual. Porém, se um funcionário abrir a página de detalhes do cliente, o sistema automaticamente gerará um ID de cliente para a parte e também associará os catálogos de endereço do cliente de armazenamento ao cliente. Portanto, o cliente ficará visível em pesquisas locais de armazenamento feitas posteriormente.
 
-![Pesquisa de cliente global](./media/Globalcustomersearch.png "Pesquisa de cliente global")
+![Pesquisa de cliente global.](./media/Globalcustomersearch.png "Pesquisa de cliente global")
 
 ### <a name="additional-local-customer-search-capabilities"></a>Recursos adicionais de pesquisa local de cliente
 
@@ -94,11 +94,11 @@ Quando o usuário pesquisa um número de telefone, o sistema ignora caracteres e
 
 A busca tradicional do cliente pode levar muito tempo porque ela faz a pesquisa em vários campos. Em vez disso, os caixas agora podem pesquisar em uma única propriedade de cliente, como nome, endereço de email ou número de telefone. As propriedades que o algoritmo de pesquisa do cliente usa são conhecidas coletivamente como *critérios de pesquisa do cliente*. O sistema administrativo pode configurar facilmente um ou mais critérios como os atalhos que aparecerão no PDV. Como a pesquisa é limitada a um único critério, somente resultados de pesquisa relevantes são exibidos, e o desempenho é muito melhor do que o desempenho de uma pesquisa de clientes padrão. A ilustração a seguir mostra os atalhos pesquisa de cliente no PDV.
 
-![Atalhos de pesquisa de cliente](./media/SearchShortcutsPOS.png "Atalhos de pesquisa de cliente")
+![Atalhos de pesquisa de cliente.](./media/SearchShortcutsPOS.png "Atalhos de pesquisa de cliente")
 
 Para definir os critérios de pesquisa como atalhos, o administrador deve abrir a página **Parâmetros de comércio** no Commerce e, na guia **Critérios de pesquisa de PDV**, selecionar os critérios a serem mostrados como atalhos.
 
-![Configurar atalhos de pesquisa](./media/ConfigureShortcutsAX.png "Configurar atalhos de pesquisa")
+![Configurar atalhos de pesquisa.](./media/ConfigureShortcutsAX.png "Configurar atalhos de pesquisa")
 
 > [!NOTE]
 > Se você adicionar muitos atalhos, o menu suspenso na barra de pesquisa no PDV se tornará confuso e a experiência de pesquisa do funcionário poderá ser afetada. Recomendamos que você adicione somente o número de atalhos que precisar.

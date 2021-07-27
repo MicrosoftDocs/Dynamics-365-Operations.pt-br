@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: v-anamir
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e6c5081f71a18dfac83b7aea950395436b42f50e
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: e8a3782e5beb7d16accc0a56447d5db1f1376dd8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881027"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350175"
 ---
 # <a name="microsoft-office-style-user-interface-in-business-document-management"></a>Interface do usuário no estilo do Microsoft Office no Gerenciamento de documentos comerciais
 
@@ -51,18 +51,18 @@ Siga estas etapas a fim de ativar esse recurso para todas as entidades legais.
 
 1. No espaço de trabalho **Gerenciamento de documentos comerciais**, selecione **Novo documento**.
 
-    ![Espaço de trabalho Gerenciamento de documentos comerciais](./media/BDM_overview_new_template1.png)
+    ![Espaço de trabalho Gerenciamento de documentos comerciais.](./media/BDM_overview_new_template1.png)
 
 2. Na guia **Selecionar**, selecione o documento a ser usado como um modelo e, depois, **Criar documento**.
 
-    ![Caixa de diálogo Documentos comerciais](./media/BDM_overview_new_template2.png)
+    ![Caixa de diálogo Documentos comerciais.](./media/BDM_overview_new_template2.png)
 
 3. Na nova caixa de diálogo, no campo **Título**, altere o título conforme necessário. O texto do título é usado para nomear a nova configuração de formato do ER criada automaticamente. A versão de rascunho dessa configuração (**Cópia do relatório de FTI do cliente (GER)**) conterá o modelo editado e será usada para executar esse formato de ER para o usuário atual. O modelo original da configuração base do formato de ER será usado para executar esse formato de ER para qualquer outro usuário.
 4. No campo **Nome**, altere o nome da primeira revisão do modelo editável que será automaticamente criado.
 5. No campo **Comentário**, atualize os comentários para a revisão do modelo editável que será automaticamente criado.
 6. Selecione **OK** para confirmar o início do processo de edição.
 
-    ![Caixa de diálogo Criação de documento](./media/BDM_overview_new_template3.png)
+    ![Caixa de diálogo Criação de documento.](./media/BDM_overview_new_template3.png)
 
 O botão **Novo documento** é usado para criar e editar um modelo em uma configuração de formato do ER que é fornecido por outro provedor. Neste exemplo, o provedor é a Microsoft. Ao selecionar **Novo documento**, você pode ver todos os modelos que pertencem ao provedor atual e a outros. Depois que você seleciona o modelo, ele é aberto para edição. O modelo editado será armazenado em uma nova configuração de formato de ER que é gerada automaticamente.
 
@@ -71,16 +71,16 @@ Siga estas etapas para fornecer as informações necessárias antes de carregar 
 
 1. No espaço de trabalho **Gerenciamento de documentos comerciais**, selecione **Novo documento**.
 
-    ![Espaço de trabalho Gerenciamento de documentos comerciais](./media/BDM_overview_new_template1.png)
+    ![Espaço de trabalho Gerenciamento de documentos comerciais.](./media/BDM_overview_new_template1.png)
     
 2. Na página **Criar um novo modelo**, na guia **Carregar**, na guia **Modelo**, selecione **Procurar** para localizar e selecionar o arquivo Excel a ser usado como modelo. Na seção **Modelo**, os campos **Título** e **Descrição** são preenchidos automaticamente. Eles especificam o nome e a descrição da nova configuração de formato ER que é criada automaticamente. Você pode editar esses campos, conforme necessário.
 3. Na seção **Tipo de Documento**, no campo **Nome**, especifique o tipo de documento comercial. Esse valor será usado para pesquisar a fonte de dados correta (ou seja, a configuração do modelo de ER).
 
-    ![Guia Modelo](./media/BDM_overview_new_UI_import_21.jpg)
+    ![Guia Modelo.](./media/BDM_overview_new_UI_import_21.jpg)
 
 4. Na guia **Fonte de dados**, na FastTab **Filtro**, selecione **Aplicar filtro**. Na seção **Fonte de dados**, o campo **Nome** é preenchido automaticamente ou você pode selecionar um valor manualmente. Você pode usar o filtro para procurar o nome da fonte de dados apropriada por nome, descrição, código do país/região e tipo de documento comercial.
 
-    ![Guia Fonte de dados](./media/BDM_overview_new_UI_import_31.jpg)
+    ![Guia Fonte de dados.](./media/BDM_overview_new_UI_import_31.jpg)
     
     > [!NOTE]
     > A FastTab **Filtro** é usada para pesquisar a fonte de dados correta (ou seja, a configuração do modelo de ER). Você pode editar todos os campos de filtro para localizar a fonte de dados mais apropriada para o documento carregado.
@@ -89,7 +89,7 @@ Siga estas etapas para fornecer as informações necessárias antes de carregar 
     
 5. Na guia **Mapeamento**, selecione **Detecção automática**. O campo **Definição raiz** é preenchido automaticamente ou você pode selecionar um valor manualmente. Esta guia mostra o mapeamento final dos elementos do modelo e o modelo.
 
-    ![Guia Mapeamento](./media/BDM_overview_new_UI_import_41.jpg)
+    ![Guia Mapeamento.](./media/BDM_overview_new_UI_import_41.jpg)
     
    > [!NOTE]
    > O mapeamento na seção **Estrutura de modelos** usa a correspondência total das etiquetas ou descrições da fonte de dados no idioma do usuário e no nome da célula no modelo.
@@ -102,11 +102,11 @@ Se não houver um provedor de relatórios eletrônicos, você poderá criar um. 
 
 - Para criar um provedor, altere o nome do provedor no campo **Nome**, atualize o endereço na Internet do novo provedor no campo **Endereço na Internet** e selecione **OK** para confirmar.
 
-    ![Criar novo provedor em BDM](./media/bdm_create_provider.png)
+    ![Criar novo provedor em BDM.](./media/bdm_create_provider.png)
     
 - Para ativar o provedor existente, escolha o nome do provedor no campo **Provedor de configuração** e selecione **OK** para definir o provedor como ativo.
 
-    ![Ativar provedor em BDM](./media/bdm_choose_provider.png)
+    ![Ativar provedor em BDM.](./media/bdm_choose_provider.png)
 
 > [!NOTE]
 > Cada modelo de BDM se refere ao fornecedor como o autor da configuração. É por isso que um provedor ativo é necessário para o modelo.

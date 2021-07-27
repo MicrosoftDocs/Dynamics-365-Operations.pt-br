@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e4d18d6fcf54fc74382f0d7d344de2aa74252ae4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7ac1495f12a51d72a90ad88fc2d8e0a574418467
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796987"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345125"
 ---
 # <a name="install-the-pos-layout-designer"></a>Instalar o designer de layout do PDV
 
@@ -40,7 +40,7 @@ O design gráfico da interface do MPOS ou PDV em Nuvem é controlado pelo layout
 5. Ao concluir a instalação, na página **Entrar**, insira seu nome de usuário e senha do Commerce e, em seguida, clique em **Entrar** para iniciar o designer.
 6. Depois que suas credenciais forem validadas e o designer for iniciado, você poderá criar o seu próprio layout ou modificar o formato existente.
 
-    [![Layout no designer de um clique](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
+    [![Layout no designer de um clique.](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
 
 ## <a name="troubleshoot-the-installation-of-the-layout-designer"></a>Solucionar problemas da instalação do Designer de layout
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 0af3e1d589fd99cc722d8aedeb9596388a9e2e8c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 629662d274d88d59c9b73a9d6b0d5c178331fe73
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018277"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351905"
 ---
 # <a name="configure-er-formats-to-use-parameters-that-are-specified-per-legal-entity"></a>Configurar formatos de ER para usar parâmetros especificados por entidade legal
 
@@ -78,17 +78,17 @@ Neste exemplo, você irá criar uma configuração para a empresa de exemplo Lit
 
     O formato de ER **Formato para conhecer chamadas parametrizadas** gera uma obrigação fiscal no formato XML apresentando vários níveis de tributação (normal, reduzido e nenhum.) Cada nível tem um número diferente de detalhes.
 
-    ![Vários níveis do formato ER, Formato para conhecer chamadas parametrizadas](./media/RCS-AppSpecParms-ReviewFormat.PNG)
+    ![Vários níveis do formato ER, Formato para conhecer chamadas parametrizadas.](./media/RCS-AppSpecParms-ReviewFormat.PNG)
 
 5.  Na guia **Mapeamento**, expanda os itens **Modelo**, **Dados** e **Resumo**.
 
     A fonte de dados **Model.Data.Summary** retorna a lista de transações de imposto. Essas transações são resumidas por código de imposto. Para essa fonte de dados, o campo calculado **Model.Data.Summary.Level** foi configurado para retornar o código do nível de tributação de cada registro resumido. Para qualquer código de imposto que pode ser recuperado da fonte de dados **Model.Data.Summary** em tempo de execução. o campo calculado retorna o código do nível de tributação (**Normal**, **Reduzido**, **Nenhum** ou **Outro**) como um valor de texto. O campo calculado **Model.Data.Summary.Level** é usado para filtrar registros da fonte de dados **Model.Data.Summary** e inserir os dados filtrados em cada elemento XML que representa um nível de tributação usando os campos **Model.Data2.Level1**, **Model.Data2.Level2** e **Model.Data2.Level3**.
 
-    ![A lista da fonte de dados Model.Data.Summary de transações de imposto](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
+    ![A lista da fonte de dados Model.Data.Summary de transações de imposto.](./media/RCS-AppSpecParms-ReviewFormat-Data2Fld.PNG)
 
     O campo calculado **Model.Data.Summary.Level** foi configurado para conter uma expressão de ER. Os códigos de imposto (**VAT19**, **InVAT19**, **VAT7**, **InVAT7**, **THIRD** e **InVAT0**) são codificados nesta configuração. Portanto, esse formato de ER depende da entidade legal onde esses códigos de imposto foram configurados.
 
-    ![O campo Model.Data.Summary.Level calculado com códigos de imposto codificados](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
+    ![O campo Model.Data.Summary.Level calculado com códigos de imposto codificados.](./media/RCS-AppSpecParms-ReviewFormat-LevelFld.PNG)
 
     Para dar suporte a um conjunto de códigos de imposto diferente para cada entidade legal, você deve seguir estas etapas:
 
@@ -128,7 +128,7 @@ Em seguida, você adicionará uma nova enumeração de formato de ER. Os valores
 12. Selecione **Adicionar** novamente.
 13. No campo **Nome**, insira **Outro**.
 
-    ![Novo registro na página de Enumerações de formato](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
+    ![Novo registro na página de Enumerações de formato.](./media/RCS-AppSpecParms-ConfigureFormat-Enum.PNG)
 
     Como os usuários empresariais podem utilizar diferentes idiomas para especificar conjuntos de códigos de imposto dependentes da entidade legal, recomendamos traduzir os valores dessa enumeração para os idiomas configurados como preferenciais para esses usuários no Finance.
 
@@ -141,7 +141,7 @@ Em seguida, você adicionará uma nova enumeração de formato de ER. Os valores
 20. No campo **Texto traduzido**, digite **keine Besteuerung**.
 21. Selecione **Traduzir**.
 
-    ![Extensão Tradução do texto](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
+    ![Extensão Tradução do texto.](./media/RCS-AppSpecParms-ConfigureFormat-EnumTranslate.PNG)
 
 22. Selecione **Salvar**.
 23. Feche a página **Enumerações de formato**.
@@ -168,13 +168,13 @@ Em seguida, você adicionará uma nova fonte de dados para especificar como os u
 10. Selecione o item **Model.Data.Tax.Code**.
 11. Selecione o botão **Adicionar** (a seta para a direita.)
 
-    ![Extensão Colunas](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
+    ![Extensão Colunas.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup1.PNG)
 
     Você apenas especificou que, para cada regra especificada nessa fonte dados para reconhecimento do nível de tributação, um usuário empresarial deve selecionar um dos códigos de imposto como uma condição. A lista de códigos de imposto que o usuário empresarial pode selecionar será retornada pela fonte de dados **Model.Data.Tax**. Como essa fonte dados contém o campo **Nome**, o nome do código de imposto será mostrado para cada valor de código de imposto na pesquisa apresentada para o usuário empresarial.
     
 12. Selecione **OK**.
 
-    ![Página do designer de pesquisa](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
+    ![Página do designer de pesquisa.](./media/RCS-AppSpecParms-ConfigureFormat-Lookup2.PNG)
 
     Os usuários empresariais podem adicionar várias regras como registros dessa fonte de dados. Cada registro será numerado por uma linha por código. As regras serão avaliadas em ordem crescente de número de linha.
 
@@ -188,13 +188,13 @@ Em seguida, você adicionará uma nova fonte de dados para especificar como os u
 
     Observe que você adicionou uma nova fonte de dados que retornará o nível de tributação como o valor da enumeração de formato **Lista de níveis de tributação** para qualquer código de imposto passado para a fonte de dados como argumento do parâmetro **Código** do tipo de dados **String**.
     
-    ![Formatar página do designer com nova fonte de dados](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
+    ![Formatar página do designer com nova fonte de dados.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld.PNG)
 
     A avaliação de regras configuradas depende do tipo de dados dos campos que foram selecionados para definir condições dessas regras. Quando você selecionar um campo configurado como um campo de tipo de dados **Numérico** ou **Data**, os critérios serão diferentes dos critérios descritos anteriormente para o tipo de dados **String**. Para os campos **Numérico** e **Data**, a regra deve ser especificada como um intervalo de valores. A condição de regra será considerada atendida quando um valor passado para a fonte de dados estiver no intervalo configurado.
     
     A ilustração a seguir mostra um exemplo desse tipo de configuração. Além do campo **Model.Data.Tax.Code** do tipo de dados **String**, o campo **Model.Tax.Summary.Base** do tipo de dados **Real** é usado para especificar as condições para uma fonte de dados de pesquisa.
     
-    ![Página do designer de pesquisa com colunas adicionais](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
+    ![Página do designer de pesquisa com colunas adicionais.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFld2.PNG)
 
     Como os campos **Model.Data.Tax.Code** e **Model.Tax.Summary.Base** são selecionados para essa fonte dados de pesquisa, cada regra da fonte de dados será configurada da seguinte maneira:
     
@@ -223,7 +223,7 @@ Como os usuários empresariais podem utilizar diferentes idiomas para especifica
 9.  Selecione **Traduzir**.
 10. Selecione **OK**.
 
-    ![Extensão Propriedades da fonte de dados](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
+    ![Extensão Propriedades da fonte de dados.](./media/RCS-AppSpecParms-ConfigureFormat-SelectorFldTranslate.PNG)
 
 ### <a name="add-a-new-field-to-consume-the-configured-lookup"></a>Adicionar um novo campo para consumir a pesquisa configurada
 
@@ -236,12 +236,12 @@ Como os usuários empresariais podem utilizar diferentes idiomas para especifica
 7.  No campo **Fórmula**, insira **Model.Selector(Model.Data.Summary.Code)**.
 8.  Selecione **Salvar**.
 
-    ![Adicionando Model.Selector(Model.Data.Summary.Code) à página do designer de fórmulas](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
+    ![Adicionando Model.Selector(Model.Data.Summary.Code) à página do designer de fórmulas.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld.PNG)
 
 9.  Feche a página **Editor de fórmulas**.
 10. Selecione **OK**.
 
-    ![Formatar página do designer com nova fórmula adicionada](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
+    ![Formatar página do designer com nova fórmula adicionada.](./media/RCS-AppSpecParms-ConfigureFormat-AddLevelByLookupFld2.PNG)
 
     Observe que o campo calculado **LevelByLookup** que você adicionou retornará o nível de tributação como o valor da enumeração de formato **Lista de níveis de tributação** para cada registro resumido de transações de imposto. O código de imposto do registro será passado para a fonte de dados de pesquisa **Model.Selector** e o conjunto de regras para essa fonte de dados será usado para selecionar o nível de tributação correto.
 
@@ -269,7 +269,7 @@ Em seguida, você modificará o campo calculado existente para que ele use a fon
 
 4.  No campo **Fórmula**, insira **CASE(@.LevelByLookup, TaxationLevel.'Tributação normal',"Normal”, TaxationLevel.'Tributação reduzida', "Reduzido", TaxationLevel.'Sem tributação', "Nenhuma", "Outro")**.
 
-    ![Página do designer de operação de ER](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
+    ![Página do designer de operação de ER.](./media/RCS-AppSpecParms-ConfigureFormat-ChangeLookupFld.PNG)
     
     Observe que agora a expressão do campo **Model.Data.Summary.Level** retornará o nível de tributação com base no código de imposto do registro atual e no conjunto de regras configurado por um usuário empresarial na fonte de dados de pesquisa **Model.Data.Selector**.
     

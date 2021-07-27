@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8df8e6204e9c64305387e6aed304142d7f13b33a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6affcc20c2c2e2b8fa9e38cb523e172bb2a79f22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808319"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349809"
 ---
 # <a name="asset-management-parameters"></a>Parâmetros de gerenciamento de ativos
 
@@ -99,7 +99,7 @@ Os campos descritos na lista abaixo listam todas as classificações calculadas,
 
 ## <a name="the-document-types-tab"></a>A guia Tipos de documento
 
-Selecione os tipos de documentos que devem estar disponíveis para imprimir anexos relacionados a um relatório de ordem de serviço. Isso é feito selecionando um tipo de documento na seção **Disponível** e selecionando ![seta para frente](media/15-setup-for-objects.png). Se desejar remover um tipo de documento selecionado, selecione o tipo de documento na seção **Selecionado** e selecione ![seta voltar](media/16-setup-for-objects.png) .
+Selecione os tipos de documentos que devem estar disponíveis para imprimir anexos relacionados a um relatório de ordem de serviço. Isso é feito selecionando um tipo de documento na seção **Disponível** e selecionando ![seta para frente.](media/15-setup-for-objects.png). Se desejar remover um tipo de documento selecionado, selecione o tipo de documento na seção **Selecionado** e selecione ![seta voltar](media/16-setup-for-objects.png) .
 
 ## <a name="the-number-sequences-tab"></a>A guia Sequências numéricas
 

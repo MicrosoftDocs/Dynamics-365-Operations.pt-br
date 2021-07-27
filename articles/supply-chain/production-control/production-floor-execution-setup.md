@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 3ee7f0af9f390e1dceac9dc49ae2b7f5fa7fbea8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9a5911e81547134d3034d1a47ef94c553ccbb331
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814697"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353955"
 ---
 # <a name="set-up-a-device-to-run-the-production-floor-execution-interface"></a>Configurar um dispositivo para executar a interface de execução de piso de produção
 
@@ -70,7 +70,7 @@ Geralmente, você executará a interface de execução de piso de produção em 
 
 A parte superior da ilustração a seguir mostra como a interface é exibida por padrão. A parte inferior mostra como ele aparece no modo de tela inteira quando o painel de navegação está oculto.
 
-![Interface padrão versus de tela inteira](media/pfei-full-screen.png "Interface padrão versus de tela inteira")
+![Interface padrão versus de tela inteira.](media/pfei-full-screen.png "Interface padrão versus de tela inteira")
 
 ## <a name="extend-the-session-past-12-hours"></a>Estender a sessão além de 12 horas
 

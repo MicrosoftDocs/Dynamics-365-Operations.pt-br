@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetRequestTable, EntAssetRequestWorkspace, EntAssetRequestActivePart, EntAssetRequestWorkOrderActive, EntAssetRequestType, EntAssetRequestTableCreateWO, EntAssetRequestTableLookup, EntAssetRequestTableActivePart, EntAssetMobileRequestDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 3c72a16b8f3865129ad737c511e50eb34c9f2e91
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 536f512abc2b7ce74ebc35dfdaf48e812a85cc2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015868"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344235"
 ---
 # <a name="maintenance-requests"></a>Solicitações de manutenção
 
@@ -40,7 +40,7 @@ As solicitações de serviço podem ser criadas para qualquer ativo no Asset Man
 
 Para exibir solicitações de manutenção, selecione **Gerenciamento de ativos** \> **Comum** \> **Solicitações de manutenção** \> **Todas as solicitações de manutenção**, **Solicitações de manutenção ativas** ou **Minhas solicitações de manutenção de local funcional**. Cada página de listagem mostra algumas das informações relacionadas a uma solicitação de manutenção.
 
-![Exibir solicitações de manutenção](media/01-manage-maintenance-requests.png)
+![Exibir solicitações de manutenção.](media/01-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Use a página de listagem **Minhas solicitações de manutenção de local funcional** para exibir uma lista de solicitações de manutenção que contenham um ou mais locais funcionais aos quais você está relacionado como trabalhador ou ativos instalados em locais funcionais aos quais você está relacionado como trabalhador. Para obter informações sobre como configurar locais funcionais em funcionários de manutenção, consulte [Funcionários de manutenção e grupos de funcionários](../setup-for-objects/workers-and-worker-groups.md).
@@ -49,7 +49,7 @@ Para exibir solicitações de manutenção, selecione **Gerenciamento de ativos*
 
 Para abrir a exibição de detalhes de um registro, na página de listagem **Todas as solicitações de manutenção**, na exibição de grade, selecione um link na coluna **Solicitação de manutenção**.
 
-![Exibição de detalhes da solicitação de manutenção](media/02-manage-maintenance-requests.png)
+![Exibição de detalhes da solicitação de manutenção.](media/02-manage-maintenance-requests.png)
 
 Os botões no Painel de Ação estão organizados em guias. A tabela a seguir descreve brevemente os botões relacionados ao Asset Management.
 

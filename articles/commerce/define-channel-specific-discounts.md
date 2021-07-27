@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: c4003bd78e400994f3c164d2f7e8e3aa5ce93146
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 76b8111ddc9e634ce689999da7b8621f550afc5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802060"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349567"
 ---
 # <a name="define-channel-specific-discounts"></a>Definir descontos específicos do canal
 
@@ -37,7 +37,7 @@ O Commerce usa grupos de preços para definir descontos específicos de canal. G
 
 ## <a name="price-groups"></a>Grupos de preços
 
-[![Grupos de preços](./media/price-groups-1024x608.png)](./media/price-groups.png)
+[![Grupos de preços.](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 O diagrama acima ilustra a relação entre entidades que podem estar em uma transação (canal, catálogo, associação, cliente, cartão-fidelidade) e em vários tipos de descontos que podem ser configurados. Todas as transações ocorrem em um canal, motivo pelo qual a presença do canal em uma transação é garantida. As demais entidades são opcionais. Em cada página de dados mestres, há um link para uma página de grupos de preços relacionada na qual é possível ver e adicionar grupos de preços quando necessário. Um grupo de preços é usado para relacionar quatro tipos de entidades diferentes a descontos, ajustes de preço e contratos comerciais. Recomendamos que você elabore uma estratégia para nomear seus grupos de preços de modo a mantê-los organizados. Uma das opções é usar um prefixo ou sufixo de letra ou número para distinguir os diferentes tipos. Por exemplo, 1-xxxxx para grupos de preços de canal e 2-xxxxx para grupos de preços de catálogo. Há quatro páginas de consulta com foco em cada uma das entidades de comércio que podem ter descontos associados a elas.
 

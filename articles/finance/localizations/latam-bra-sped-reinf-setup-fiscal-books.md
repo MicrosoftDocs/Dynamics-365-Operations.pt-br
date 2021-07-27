@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: f00cdcdaf33990995f3241b85a46183b37b7c80a
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 2efb6f9790d73037ec4fdc5fb004af38e26daa5b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347178"
 ---
 # <a name="set-up-fiscal-books"></a>Configurar livros fiscais
 
@@ -32,7 +32,7 @@ A tabela de tipo de serviço representa a tabela 06. As autoridades fiscais esta
 2. Selecione **Novo**.
 3. Insira um código de classificação que foi estabelecido pelas autoridades fiscais e digite uma descrição.
 
-    ![Página Tipos de serviço](media/bra-service-type-setup.png)
+    ![Página Tipos de serviço.](media/bra-service-type-setup.png)
 
 4. Depois que a lista de tipos de serviço for criada, eles devem ser atribuídos a códigos de serviço. Acesse **Gerenciamento de inventário** \> **Configuração** \> **Informações fiscais** \> **Código de serviço**, e então, para cada serviço, atribua o tipo de serviço relacionado.
 
@@ -41,18 +41,18 @@ A tabela de tipo de serviço representa a tabela 06. As autoridades fiscais esta
 1. Acesse **Livros fiscais** \> **Configuração** \> **SPED Reinf** \> **Códigos de classificação fiscal**.
 2. Insira os tipos de classificação disponíveis.
 
-![Página Códigos de classificação fiscal](media/bra-tax-classification-codes.png)
+![Página Códigos de classificação fiscal.](media/bra-tax-classification-codes.png)
 
 Essas informações são atribuídas à organização fiscal e podem ser encontradas na FastTab **Geral** da página **Organização fiscal**, (**Livros fiscais \> Configuração \> Organização fiscal**).
 
-![Página Organização fiscal](media/bra-fiscal-organization-setup.png)
+![Página Organização fiscal.](media/bra-fiscal-organization-setup.png)
 
 ## <a name="set-up-codes-explanation-suspension"></a>Configurar suspensão da explicação de códigos
 
 1. Acesse **Livros fiscais** \> **Configuração** \> **SPED Reinf** \> **Suspensão de explicação dos códigos**.
 2. Configure os códigos que são usados no evento R-1070 quando a suspensão de retenção for aplicável. Esses códigos são atribuídos na página **Processo administrativo e judicial** (**Livros fiscais** \> **Periódico** \> **SPED Reinf** \> **Processo administrativo e judicial**).
 
-![Página Suspensão de explicação dos códigos](media/bra-codes-explanation-suspension.png)
+![Página Suspensão de explicação dos códigos.](media/bra-codes-explanation-suspension.png)
 
 ## <a name="set-up-acquisition-type-determination"></a>Configurar a determinação do tipo de aquisição
 
@@ -87,7 +87,7 @@ Esta configuração é usada para determinar o tipo de aquisição agrícola dos
 4. Acesse **Livros fiscais** > **Configuração** > **Parâmetros dos livros fiscais**.
 5. Na guia **Sequências numéricas**, configure a sequência numérica para os eventos R-2010, R-2020 e R-2055.
 
-![Guia Sequências numéricas na página Parâmetros dos livros fiscais](media/bra-sped-fiscal-books-parameters.png)
+![Guia Sequências numéricas na página Parâmetros dos livros fiscais.](media/bra-sped-fiscal-books-parameters.png)
 
 > [!NOTE]
 > Se as sequências numéricas não tiverem sido inicializadas durante a lista de verificação da configuração para a instalação de KB, você poderá gerá-las usando um assistente. Para abrir o assistente, acesse **Administração da organização** \> **Sequências numéricas** \> **Sequências numéricas** e selecione **Gerar**. Você pode configurar a sequência numérica relacionada:

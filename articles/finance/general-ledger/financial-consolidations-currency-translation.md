@@ -9,16 +9,17 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 87bb31d6456356342773f38699a412aa72ea458e
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 4e8d4f28c42f44dc01c92e51b5e9a69fe7f40fa0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193896"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345371"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -66,13 +67,13 @@ Aqui estão alguns dos cenários de consolidação que o Consolidar online permi
 ## <a name="legal-entity-setup"></a>Configuração de entidade legal
 Antes de processar uma consolidação, você deve configurar a entidade legal. Você pode executar a consolidação quantas vezes precisar e todos os dados serão convertidos da moeda contábil da empresa de origem para a moeda definida para a empresa de consolidação. Portanto, para a estrutura organizacional a seguir, se você precisar converter todas as empresas norte-americanas primeiro em dólares americanos (USD) e depois em euros (EUR), a moeda da empresa principal, você deve ter pelo menos duas empresas de consolidação.
 
-![Estrutura organizacional](./media/organizational-structure.png "Estrutura organizacional")
+![Estrutura organizacional.](./media/organizational-structure.png "Estrutura organizacional")
 
 Na estrutura organizacional anterior, você deve ter uma entidade legal para a consolidação na América do Norte, porque as consolidações sempre se consolidam da moeda contábil da empresa de origem para a moeda da empresa de consolidação. No exemplo, se todas as empresas estiverem incluídas em uma única consolidação, a subsidiária mexicana será convertida de pesos mexicanos (MXN) para EUR, não de MXN para USD para EUR.
 
 Ao criar a entidade legal, você pode especificar se a empresa é usada para o processo de consolidação e o processo de eliminação ou para apenas um desses processos. Na ilustração a seguir, a empresa é usada para ambos os processos. Observe que você não pode lançar diários em uma empresa de consolidação, mas pode publicá-los em uma empresa de eliminação. Portanto, você pode querer ter uma empresa de eliminação separada.
 
-![Entidade legal usada para a consolidação e eliminação](./media/sep-elimination-company.png "Entidade legal usada para a consolidação e alienação")
+![Entidade legal usada para a consolidação e eliminação.](./media/sep-elimination-company.png "Entidade legal usada para a consolidação e alienação")
 
 ## <a name="main-accounts-and-consolidation-account-groups"></a>Contas principais e grupos de contas de consolidação
 É preciso escolher como deseja consolidar seu plano de contas. Durante o processo de consolidação, você tem três opções para consolidar as contas principais.
@@ -81,11 +82,11 @@ A primeira opção é usar as contas principais das empresas de origem. Nesse ca
 
 A segunda opção é especificar uma conta de consolidação padrão na página **Contas principais**. A conta será então mapeada para a conta de consolidação. Essa opção pode ser útil quando você tem diferentes planos de contas ou precisa mapear para um gráfico definido pela matriz.
 
-![Conta de consolidação padrão especificada na página Contas principais](./media/main-accounts.png "Conta de consolidação padrão especificada na página Contas principais")
+![Conta de consolidação padrão especificada na página Contas principais.](./media/main-accounts.png "Conta de consolidação padrão especificada na página Contas principais")
 
 A terceira opção é usar grupos de contas de consolidação. Você pode definir quantos grupos de contas de consolidação forem necessários. Depois, na página **Contas de consolidação adicionais**, basta mapear a conta principal do plano de contas para a conta que você precisa para esse grupo.
 
-![Mapeamento na página Contas de consolidação adicionais](./media/additional-consolidation-accounts.png "Mapeamento na página Contas de consolidação adicionais")
+![Mapeamento na página Contas de consolidação adicionais.](./media/additional-consolidation-accounts.png "Mapeamento na página Contas de consolidação adicionais")
 
 ## <a name="consolidating-online"></a>Consolidação online
 Para saber como inserir detalhes de consolidações online, consulte [Consolidações financeiras online](./consolidate-online.md).
@@ -97,7 +98,7 @@ Para exibir os resultados da consolidação, você tem várias opções:
 - Revise a lista **Balancete** na empresa de consolidação.
 - Na lista de transações de consolidação na página **Consolidações**, exiba os saldos criados por data para cada empresa de origem para cada período.
 
-    ![Transações de consolidação na página Consolidações](./media/managing-consolidation-transactions.png "Transações de consolidação na página Consolidações")
+    ![Transações de consolidação na página Consolidações.](./media/managing-consolidation-transactions.png "Transações de consolidação na página Consolidações")
 
 Para executar a consolidação novamente, basta processar a consolidação. Como alternativa, você pode primeiro selecionar **Remover as transações** na página **Consolidações**.
 Caso os saldos da sua conta consolidada não sejam exatos, esses saldos podem ser corrigidos usando a página **Ajustes do período de fechamento**.
@@ -118,7 +119,7 @@ Você pode encontrar a configuração para as eliminações na área **Configura
 
 Você pode definir a data em que a regra de eliminação entra em vigor e a data em que ela expira, conforme necessário. Se quiser que a regra de eliminação esteja disponível no processo de proposta de eliminação, você deve definir a opção **Ativo** como **Sim**. Selecione um nome de diário do tipo **Eliminação**.
 
-![Propriedades básicas de uma regra de eliminação](./media/ledger-elimination-rule-journal.png "Propriedades básicas de uma regra de alienação")
+![Propriedades básicas de uma regra de eliminação.](./media/ledger-elimination-rule-journal.png "Propriedades básicas de uma regra de alienação")
 
 Após a definição das propriedades básicas, selecione **Linhas** para definir as regras de processamento reais. Há duas opções para eliminações: eliminar o valor líquido de modificação ou definir um valor fixo.
 
@@ -126,7 +127,7 @@ Selecione as contas de origem. Você pode usar asterisco (\*) como um caractere 
 
 Após a seleção das contas de origem, use o campo **Especificação da conta** para especificar a conta usada na empresa de destino. Selecione **Origem** para usar a mesma conta principal definida na conta de origem. Se você selecionar **Definido pelo usuário**, deverá especificar a conta de destino.
 
-![Página Linha de regra de eliminação do razão](./media/ledger-elimination-rule-line.png "Página Linha de regra de eliminação do razão")
+![Página Linha de regra de eliminação do razão.](./media/ledger-elimination-rule-line.png "Página Linha de regra de eliminação do razão")
 
 O campo **Especificação da dimensão** funciona como o campo **Especificação da conta**. Selecione **Origem** para usar as mesmas dimensões da empresa de destino e da empresa de origem. Se você selecionar **Definido pelo usuário**, será necessário especificar as dimensões da empresa de destino, selecionando **Dimensões de destino**. Depois selecione as dimensões de origem e as dimensões financeiras e os valores usados como a fonte de eliminação.
 

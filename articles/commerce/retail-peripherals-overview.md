@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.custom: 268444
+ms.custom:
+- "268444"
+- intro-internal
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 833eb271b15dd6d32501049ce9154022a388f1d4
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189566"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345023"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -119,7 +121,7 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 -   **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Commerce. Portanto, o teste ajuda a garantir que, se o Commerce oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo poderão ser aceitos, desde que o fabricante forneça um objeto de serviço que seja desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
 -   **Objeto de serviço** – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo. Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo. Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante. Por exemplo, um objeto mais recente de serviço pode estar disponível. Para localizar o endereço do site do fabricante, consulte a documentação do hardware.
 
-[![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente. 
+[![Objeto de controle e objeto de serviço.](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente. 
 
 > [!NOTE]
 > O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. O Commerce deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.

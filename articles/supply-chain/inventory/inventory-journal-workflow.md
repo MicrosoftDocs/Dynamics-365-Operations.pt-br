@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b53ecec4bb7593cb0a0cae72e4132c49d6ec6a68
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826002"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354752"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
@@ -55,7 +55,7 @@ Para criar seus fluxos de trabalho de aprovação de diário de estoque:
     - **Diário BOM do estoque**
     - **Diário de ajuste de estoque**
 
-    ![A caixa de diálogo Criar fluxo de trabalho](media/journal-workflow-create-workflow.png "A caixa de diálogo Criar fluxo de trabalho")
+    ![A caixa de diálogo Criar fluxo de trabalho.](media/journal-workflow-create-workflow.png "A caixa de diálogo Criar fluxo de trabalho")
 
 1. O aplicativo do editor de fluxo de trabalho é iniciado no seu computador. (Talvez seja solicitado que você aprove esta ação.) Use-o para criar seu fluxo de trabalho, conforme necessário. Para obter detalhes sobre como usar o editor de fluxo de trabalho, consulte [Visão geral do sistema de fluxo de trabalho](../../fin-ops-core/fin-ops/organization-administration/overview-workflow-system.md).
 1. Depois de salvar e fechar o aplicativo do editor de fluxo de trabalho, escolha se a versão do fluxo de trabalho deve ser ativada ou mantida como inativa.
@@ -73,7 +73,7 @@ Para associar um fluxo de trabalho de diário de estoque a um nome de diário de
 1. Selecione um nome de diário na coluna da lista para abrir a página de configurações.
 1. Na guia rápida **Geral**, defina a opção **Workflow de aprovação** como **Sim**. Se for solicitado para você aprovar a ação, selecione **Sim**.
 
-    ![Atribuir um fluxo de trabalho a um nome de diário](media/journal-workflow-journal-name.png "Atribuir um fluxo de trabalho a um nome de diário")
+    ![Atribuir um fluxo de trabalho a um nome de diário.](media/journal-workflow-journal-name.png "Atribuir um fluxo de trabalho a um nome de diário")
 
 1. Abra a lista suspensa **Fluxo de trabalho** e selecione o fluxo de trabalho apropriado. A lista mostra cada fluxo de trabalho ativo que você criou usando o aplicativo do editor de fluxo de trabalho.
 
@@ -87,7 +87,7 @@ Depois de associar um nome de diário de estoque ao fluxo de trabalho de aprova�
 1. Preencha o diário, conforme necessário.
 1. Quando você cria ou abre um diário de estoque com um fluxo de trabalho de aprovação associado a ele, o botão **Fluxo de trabalho** estará ativo no painel de ações. Quando estiver pronto para enviar o diário para aprovação, selecione o botão **Fluxo de trabalho** para abrir uma caixa de diálogo suspensa e selecione **Enviar**. A solicitação de aprovação será roteada para o aprovador relevante, que será alertado usando o método de notificação configurado para o fluxo de trabalho.
 
-    ![Enviar um diário para aprovação](media/journal-workflow-inventory-journal.png "Enviar um diário para aprovação")
+    ![Enviar um diário para aprovação.](media/journal-workflow-inventory-journal.png "Enviar um diário para aprovação")
 
 Para cancelar uma solicitação de aprovação, abra o diário relevante, selecione o botão **Fluxo de trabalho** e, em seguida, selecione **Cancelar**. Isso redefinirá o fluxo de trabalho.
 

@@ -2,7 +2,7 @@
 title: Módulo de faixa promocional
 description: Este tópico abrange os módulos de faixa promocional e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 09/15/2020
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: be3cc9729b58fce9ebc9885d8cb20b63114362a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 3158916f96522bec6e7511f2d9daf61d36ffe8c6
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796237"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479343"
 ---
 # <a name="promo-banner-module"></a>Módulo de banner de promoção
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de faixa promocional e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 
@@ -46,7 +47,7 @@ As faixas promocionais podem ser usadas no cabeçalho do site para mostrar promo
 
 A imagem a seguir mostra um exemplo de uma faixa promocional.
 
-![Exemplo de um módulo de faixa promocional](./media/ecommerce-Promobanner.PNG)
+![Exemplo de um módulo de faixa promocional.](./media/ecommerce-Promobanner.PNG)
 
 ## <a name="promo-banner-module-properties"></a>Propriedades do módulo de faixa promocional
 
@@ -58,7 +59,11 @@ A imagem a seguir mostra um exemplo de uma faixa promocional.
 | Permitir ignorar             | **Verdadeiro** ou **Falso**              | Se o valor estiver definido como **Verdadeiro**, os clientes poderão dispensar o alerta. |
 | Mostrar palheta do carrossel     | **Verdadeiro** ou **Falso**              | Um valor que indica se as palhetas do carrossel devem ser mostradas, de forma que os clientes possam percorrer vários itens de faixa manualmente. |
 | Alinhamento de texto            | **Direito**, **Esquerdo** ou **Centro** | O alinhamento do texto no módulo de faixa promocional. |
-| Vincular                      | URL A                              | A URL para um link opcional. |
+| Vínculo                      | URL A                              | A URL para um link opcional. |
+|Alinhamento de texto             | **Direito**, **Esquerdo** ou **Centro** | Esta propriedade está disponível como uma extensão de tema no tema Adventure Works. Isso permite que um usuário defina o alinhamento do texto no banner da promoção. |
+
+> [!IMPORTANT]
+> O tema Adventure Works está disponível a partir da versão 10.0.20 do Dynamics 365 Commerce.
 
 ## <a name="add-a-promo-banner-module-to-a-page"></a>Adicionar um módulo de faixa promocional a uma página 
 
@@ -78,7 +83,6 @@ Para adicionar um módulo de faixa promocional a uma nova página e definir as p
 
 > [!NOTE]
 > Em geral, uma faixa promocional é usada no slot do cabeçalho da página ou em um slot de subcabeçalho.
-
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

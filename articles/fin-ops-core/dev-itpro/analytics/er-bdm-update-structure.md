@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-12-01
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 203c9f0990051c1618660959dad0e184add68ffa
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b3419d328e84c199fa32aeb13b54425a31e96ce7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750475"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350247"
 ---
 # <a name="update-the-structure-of-a-business-document-template"></a>Atualizar a estrutura de um modelo de documento comercial 
 
@@ -58,7 +58,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 
     O novo modelo é aberto para edição no controle incorporado do Excel Online na página Editor de modelos.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para iniciar a edição de um modelo de documento comercial](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para iniciar a edição de um modelo de documento comercial.](./media/er-bdm-update-structure1.gif)](./media/er-bdm-update-structure1.gif)
 
 ### <a name="review-the-current-structure-of-the-editable-template"></a>Analisar a estrutura atual do modelo editável
 
@@ -68,7 +68,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 4. No painel **Estrutura de modelos**, expanda **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 5. Observe que, na estrutura de modelos no Finance, o item **rptHeaderCompLogo** tem um item filho de **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para analisar a estrutura atual de um modelo editável](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para analisar a estrutura atual de um modelo editável.](./media/er-bdm-update-structure2.gif)](./media/er-bdm-update-structure2.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-deleting-a-picture"></a>Atualizar a estrutura de um modelo de documento comercial excluindo uma imagem
 
@@ -85,7 +85,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 4. No painel **Estrutura de modelos**, expanda **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 5. Observe que o item **rptHeaderCompLogo** não está mais incluído na estrutura de modelos no Finance.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para excluir uma imagem de um modelo de documento comercial](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para excluir uma imagem de um modelo de documento comercial.](./media/er-bdm-update-structure3.gif)](./media/er-bdm-update-structure3.gif)
 
 ### <a name="update-the-structure-of-a-business-document-template-by-adding-a-picture"></a>Atualizar a estrutura de um modelo de documento comercial adicionando uma imagem
 
@@ -97,7 +97,7 @@ Conclua os seguintes procedimentos na [visão geral de gerenciamento de document
 6. No painel **Estrutura de modelos**, expanda **Relatório \> Fatura \> rptHeader \> rptHeaderPart1**.
 7. Observe que a nova imagem agora está incluída como um item na estrutura de modelos no Finance.
 
-[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para adicionar uma imagem a um modelo de documento comercial](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
+[![Usando o espaço de trabalho de gerenciamento de documentos comerciais para adicionar uma imagem a um modelo de documento comercial.](./media/er-bdm-update-structure4.gif)](./media/er-bdm-update-structure4.gif)
 
 ## <a name="related-links"></a>Links relacionados
 

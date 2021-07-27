@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench, TMSLoadBuildTemplateApply, WHSLoadTemplate, TMSTransportationStatus, TMSLoadSeal, TMSLoadBuildProposal, TMSLoadBuildWorkbench, TMSLoadBuildStrategy, TMSLoadBuildStrategyAttributeValue
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 30251
+ms.custom:
+- "30251"
+- intro-internal
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b8afb7d28d9dd6487e00a2bf7e813069aac386c0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2e438df0b01b864b3ef96eb41819087cbbbef4d9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807719"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359500"
 ---
 # <a name="transportation-management-overview"></a>Visão geral de gerenciamento de transporte
 
@@ -67,17 +69,17 @@ O gerenciamento de transporte permite que você gerencie o transporte de sua emp
 ## <a name="planning-transportation-in-supply-chain-management"></a>Planejar transporte no Supply Chain Management
 No Gerenciamento de transporte, o planejamento de transporte pode se basear em ordens ou nas remessas criadas com base nessas ordens. As remessas sempre existem em algum momento, mas não são obrigatórias para o planejamento de transporte. As ordens de transferência fazem parte do cenário de saída e podem ser planejadas junto com as ordens de venda. 
 
-![Carregar desenho](./media/Load-drawing1-1024x477.jpg)
+![Carregar desenho.](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>Transporte de entrada
 Ao encomendar itens de um fornecedor e os itens devem ser entregues ao seu armazém, convém organizar o transporte dos itens. Você pode usar o Supply Chain Management para planejar o transporte e o recebimento de uma carga de entrada. A ilustração a seguir mostra o fluxo de processos de negócios para planejar o transporte de uma carga de entrada. 
 
-![Fluxo de processo comercial para transporte de carga de entrada](./media/Businessprocessflowforinboundloadtransportation.jpg)
+![Fluxo de processo comercial para transporte de carga de entrada.](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>Transporte de saída
 É possível planejar e processar uma carga de saída para enviar itens específicos do depósito de uma empresa para um cliente. Você pode usar o Supply Chain Management para planejar o transporte e o envio de uma carga de saída. A ilustração a seguir mostra o fluxo de processos de negócios para planejar e processar cargas de saída para remessa. 
 
-![Planejamento e processamento de cargas de saída](./media/Planningandprocessingoutboundloads.jpg)
+![Planejamento e processamento de cargas de saída.](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>Criação de carga
 O Supply Chain Management fornece uma estratégia de criação de carga chamada Estratégia de criação de carga com base no volume. Essa estratégia permite usar os valores máximos especificados para a altura e o peso do modelo de carga ou substituí-los pelas configurações por meio da inserção de novos valores. Para usar essa estratégia, selecione-a no campo **Estratégia de criação de carga** na Guia Rápida **Configuração** da página **Bancada de criação de carga**. Além disso, você pode adicionar suas próprias estratégias de carga criando uma nova classe na Árvore de Objetos de Aplicativo (AOT).

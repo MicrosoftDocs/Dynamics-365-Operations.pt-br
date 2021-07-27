@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5b044e4616555559be51b0846327b1d55bfe47b3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 851cf6df576db303d9fefdcd0e732a92a019189a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822530"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354099"
 ---
 # <a name="set-up-preferred-maintenance-workers"></a>Configurar funcionários de manutenção preferenciais
 
@@ -59,7 +59,7 @@ Quanto mais seleções você fizer no mesmo registro, mais específica será sua
 
     [!NOTE] Geralmente, quando um funcionário de manutenção preferencial é selecionado durante o agendamento da ordem de serviço, o Gerenciamento de Ativos passa por todos os registros de **Funcionários de manutenção preferenciais** verifica a existência uma correspondência possível, verificando sempre a combinação mais específica primeiro. Se nenhuma correspondência for encontrada, o registro "padrão" com uma seleção no campo **Grupo de funcionários de manutenção preferenciais** ou o campo **Funcionário de manutenção preferencial** é usado.
 
-![Figura 1](media/02-work-order-scheduling.png)
+![Figura 1.](media/02-work-order-scheduling.png)
 
 Você também pode configurar funcionários de manutenção *responsáveis*, que podem ser selecionados quando uma solicitação de manutenção ou uma ordem de serviço for criada. É possível editar a seleção em **Todas as ordens de serviço** e **Todas as solicitações de manutenção**, se necessário. Para obter mais informações, consulte [Funcionários de manutenção responsáveis](../setup-for-maintenance-requests/responsible-workers.md).
 

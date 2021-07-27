@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 862b032c75145594be78fb2f4e27ea5616605c4d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792920"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348233"
 ---
 # <a name="create-and-update-store-hours"></a>Criar e atualizar os horários das lojas
 
@@ -49,14 +49,14 @@ Siga estas etapas para configurar os horários das lojas.
     > [!NOTE]
     > Você pode criar vários modelos com as datas inicial e final sobrepostas. Portanto, você pode, por exemplo, definir o horário de funcionamento para lojas em fusos horários diferentes.
 
-    ![Adicionar a caixa de diálogo do intervalo](../dev-itpro/media/Storehours1.png "Adicionar a caixa de diálogo do intervalo")
+    ![Adicionar a caixa de diálogo do intervalo.](../dev-itpro/media/Storehours1.png "Adicionar a caixa de diálogo do intervalo")
 
 4. Associe o modelo de horário de funcionamento com os armazenamentos que será usado. Na caixa de diálogo **Escolher nós organizacionais**, selecione os armazenamentos, regiões e organizações aos quais o modelo será associado.
 
     - Apenas um modelo de horário de funcionamento pode ser associado com cada loja.
     - Use os botões de seta para selecionar lojas, regiões ou organizações. O calendário estará disponível para as lojas ou grupos de loja e estará visível na POS para referência.
 
-    ![Escolha a caixa de diálogo dos nós da organização](../dev-itpro/media/Storehours2.png "Escolha a caixa de diálogo dos nós da organização")
+    ![Escolha a caixa de diálogo dos nós da organização.](../dev-itpro/media/Storehours2.png "Escolha a caixa de diálogo dos nós da organização")
 
 5. Na página **Agendamento de distribuição**, execute os trabalhos **1070** e **1090** para deixar o horário de funcionamento disponível na POS.
 
@@ -75,7 +75,7 @@ Siga essas etapas para adicionar horas de funcionamento aos recibos de POS impre
 
 Recibos de POS agora incluem as horas de funcionamento. Se algum feriado foi incluído no modelo, eles são exibidos no recibo.
 
-![Exemplo de recibo](../dev-itpro/media/Storehours3.png "Exemplo de recibo")
+![Exemplo de recibo.](../dev-itpro/media/Storehours3.png "Exemplo de recibo")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d776ad4eda623f55a69d81eefd0e88842d9da401
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841228"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344797"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
@@ -32,9 +32,9 @@ As organizações que desejam agilizar seus processos de Contas a Pagar (AP) ger
 
 A solução de automação de fatura permite uma interface padrão que pode aceitar metadados de fatura para o cabeçalho da fatura e linhas de fatura, e também os anexos aplicáveis ​​à fatura. Qualquer sistema externo que possa gerar artefatos compatíveis esta interface poderá enviar o feed para o processamento automático de faturas e anexos.
 
-A ilustração a seguir mostra um exemplo de cenário de integração onde a Contoso se associou com um provedor de serviços de OCR para processamento de fatura de fornecedor. Os fornecedores da Contoso enviam faturas ao provedor de serviços por e-mail. Através do processamento de OCR, o provedor de serviços gera metadados de fatura (cabeçalho e/ou linhas) e uma imagem digitalizada da fatura. Uma camada de integração transforma esses artefatos para que possam ser consumidos.
+A ilustração a seguir mostra um exemplo de cenário de integração em que a Contoso se associou com um provedor de serviços de OCR para o processamento de fatura de fornecedor. Os fornecedores da Contoso enviam faturas ao provedor de serviços por email. Através do processamento de OCR, o provedor de serviços gera metadados de fatura (cabeçalho e/ou linhas) e uma imagem digitalizada da fatura. Uma camada de integração transforma esses artefatos para que possam ser consumidos.
 
-![Cenário de integração de amostra](media/vendor_invoice_automation_01.png)
+![Cenário de integração de amostra.](media/vendor_invoice_automation_01.png)
 
 Várias variações do cenário anterior são possíveis se a integração da fatura for necessária. A migração de dados é outro caso de uso em que esta interface pode ser usada para criar faturas e anexos.
 
@@ -92,7 +92,7 @@ Nos cenários em que as faturas dos fornecedores entram no Finance and Operation
 
 A página da lista nova para exceções de fatura está disponível em **Contas a pagar** > **Faturas** > **Importar falhas** > **Faturas de fornecedor que falharam na importação**. Esta página mostra todos os registros de cabeçalho da fatura de fornecedor na tabela de teste da entidade de dados do cabeçalho da fatura de fornecedor. Observe que você pode exibir os mesmos registros do espaço de trabalho **Gerenciamento de dados**. Você também pode executar as mesmas ações que são fornecidas no recurso de tratamento de exceção do espaço de trabalho **Gerenciamento de dados**. O recurso de tratamento de exceção foi otimizado para um usuário funcional, o que o torna mais fácil de usar.
 
-![Página da lista de exceções](media/vendor_invoice_automation_02.png)
+![Página da lista de exceções.](media/vendor_invoice_automation_02.png)
 
 Esta página da lista inclui os seguintes campos que entram através do feed:
 
@@ -136,7 +136,7 @@ A página da lista de exceções suporta as construções de segurança padrão 
 + Por usuário
 + Por entidade legal
 
-![Trabalho de importação garantido por função de usuário e entidade legal](media/vendor_invoice_automation_04.png)
+![Trabalho de importação garantido por função de usuário e entidade legal.](media/vendor_invoice_automation_04.png)
 
 Se a segurança estiver configurada para o trabalho de importação de fatura, a página da lista de exceções estará de acordo com essas configurações. Os usuários poderão ver apenas os registros de exceções de fatura que esta configuração permite ver.
 

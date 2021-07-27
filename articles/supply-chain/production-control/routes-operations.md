@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06e2439da464c53fd648aaf3e3659babdbc50acd
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188925"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350489"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -45,7 +45,7 @@ Um roteiro descreve a ordem de operações usadas para produzir um produto ou gr
 
 Um roteiro simples é sequencial, e existe apenas um ponto de início para o roteiro.  
 
-[![Roteiro simples](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
+[![Roteiro simples.](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
 Se você habilitar apenas roteiros simples nos parâmetros de Controle de produção, o Supply Chain Management vai gerar automaticamente os números de operações (10, 20, 30, e assim por diante) quando você definir o roteiro.
 
@@ -53,7 +53,7 @@ Se você habilitar apenas roteiros simples nos parâmetros de Controle de produ�
 
 Se você habilitar as redes de roteiros mais complexas nos parâmetros de Controle de produção, você pode definir roteiros com múltiplos pontos de início e operações que podem acontecer em paralelo.  
 
-[![Rede de roteiro](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rede de roteiro.](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 > [!NOTE]
 > - Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
@@ -64,7 +64,7 @@ Se você habilitar as redes de roteiros mais complexas nos parâmetros de Contro
 
 Eventualmente, é necessária uma combinação de vários recursos de operações que têm características diferentes para realizar uma operação. Por exemplo, uma operação de montagem pode precisar de uma máquina, uma ferramenta e um trabalhador para cada duas máquinas, para supervisionar a operação. Esse exemplo pode ser modelado usando operações paralelas, onde uma operação é designada como operação primária e as demais como secundárias.  
 
-[![Roteiro que possui operações primária e secundárias](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
+[![Roteiro que possui operações primária e secundárias.](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
 Normalmente, a operação primária representa o gargalo de recursos e impõe o tempo de execução para as operações secundárias. No entanto, durante o agendamento que envolve capacidade finita, os recursos agendados para ambas as operações primária e secundárias devem estar disponíveis e ter capacidade livre ao mesmo tempo.  
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 0a3fd442f20fd40cdf8b845d353ae5d61ce51e29
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797638"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347494"
 ---
 # <a name="content-block-module"></a>Módulo de bloco de conteúdo
 
@@ -46,15 +46,15 @@ Além disso, o tema pode expor diferentes propriedades de cada layout. Um desenv
 
 A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout de hero.
 
-![Exemplo de um módulo de herói](./media/Hero.PNG)
+![Exemplo de um módulo hero.](./media/Hero.PNG)
 
 A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout de recurso.
 
-![Exemplos de módulos de recursos](./media/Feature.PNG)
+![Exemplos de módulos de recursos.](./media/Feature.PNG)
 
 ## <a name="content-block-module-properties"></a>Propriedades do módulo de bloco de conteúdo
 
-| Nome da propriedade  | Valores | Descrição |
+| Nome da propriedade  | Valores | descrição |
 |----------------|--------|-------------|
 | Imagem          | Arquivo de imagem | Uma imagem pode ser usada para mostrar um produto ou uma promoção. Uma imagem pode ser carregada na galeria de imagens ou uma imagem existente pode ser usada. |
 | Cabeçalho        | Texto do cabeçalho e tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Todo módulo de hero pode ter um cabeçalho. Por padrão, a tag de cabeçalho **H2** é usada para o cabeçalho. No entanto, a tag pode ser alterada para atender aos requisitos de acessibilidade. |

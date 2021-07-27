@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2a3b9a8b5775d2001f3384480e2f9593f2dfa8b1
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752403"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356310"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 3: Criar o relatório)
 
@@ -92,7 +92,7 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 59. Clique em Adicionar atributo.
 60. No campo Nome, digite "Desc".
 61. Clique em OK.
-![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format1.png)
+![Página do designer de operações de ER.](../media/er-financial-dimensions-guides-format1.png)
 
 ## <a name="map-report-elements-to-data-sources"></a>Mapear elementos de relatório para fontes de dados
 1. Clique na aba Mapeamento.
@@ -141,7 +141,7 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 44. Clique em Associar.
 45. Clique em Salvar.
 46. Feche a página.
-![Página do designer de operações de ER](../media/er-financial-dimensions-guides-format2.png)
+![Página do designer de operações de ER.](../media/er-financial-dimensions-guides-format2.png)
 
 
 

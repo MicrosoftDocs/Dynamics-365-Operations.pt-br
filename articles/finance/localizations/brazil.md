@@ -8,17 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: ''
+ms.custom: intro-internal
 ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: afa92f4359498c0a01dbb327da6be72cc0366e1e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 944290acac15a15e96974424a77a317c34dca7fe
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893818"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6339176"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bd21bdf532e1e607e66bb8f5ef032f0855c99612
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811621"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350513"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Relatar como concluído no dispositivo de ficha de trabalho
 
@@ -85,13 +85,13 @@ Para permitir números de lote atribuídos manualmente, siga estas etapas para c
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Manual** como **Sim**.
 
-    ![Um grupo de números de rastreamento para números de lote manuais](media/tracking-number-group-manual.png "Um grupo de números de rastreamento para números de lote manuais")
+    ![Um grupo de números de rastreamento para números de lote manuais.](media/tracking-number-group-manual.png "Um grupo de números de rastreamento para números de lote manuais")
 
 1. Defina outros valores conforme necessário e selecione o grupo de números de controle como o grupo de números de lote para produtos liberados para os quais você deseja usar este cenário.
 
 Quando você usa esse cenário, o campo **Número de lote** que a página **Andamento do relatório** no dispositivo de ficha de trabalho fornece é uma caixa de texto na qual os trabalhadores podem inserir qualquer valor.
 
-![Página Andamento de relatório com um campo para números de lote manuais](media/job-card-device-batch-manual.png "Página Andamento de relatório com um campo para números de lote manuais")
+![Página Andamento de relatório com um campo para números de lote manuais.](media/job-card-device-batch-manual.png "Página Andamento de relatório com um campo para números de lote manuais")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-batch-numbers"></a>Configurar um grupo de números de rastreamento que forneça uma lista de números de lotes predefinidos
 
@@ -102,13 +102,13 @@ Para fornecer uma lista de números de lote predefinidos, siga estas etapas para
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Sim**.
 1. Use o campo **Por qtd** para dividir os números de lote por quantidade com base no valor inserido. Por exemplo, você tem uma ordem de produção de dez peças e o campo **Por qtd** está definido como *2*. Nesse caso, cinco números de lote serão atribuídos à ordem de produção quando ela for criada.
 
-    ![Um grupo de números de rastreamento para números de lote predefinidos](media/tracking-number-group-predefined.png "Um grupo de números de rastreamento para números de lote predefinidos")
+    ![Um grupo de números de rastreamento para números de lote predefinidos.](media/tracking-number-group-predefined.png "Um grupo de números de rastreamento para números de lote predefinidos")
 
 1. Defina outros valores conforme necessário e selecione o grupo de números de controle como o grupo de números de lote para produtos liberados para os quais você deseja usar este cenário.
 
 Quando você usa esse cenário, o campo **Número de lote** que a página **Andamento do relatório** no dispositivo de ficha de trabalho fornece é uma lista suspensa na qual os trabalhadores devem selecionar um valor predefinido.
 
-![Página Andamento de relatório com uma lista de números de lote predefinidos](media/job-card-device-batch-predefined.png "Página Andamento de relatório com uma lista de números de lote predefinidos")
+![Página Andamento de relatório com uma lista de números de lote predefinidos.](media/job-card-device-batch-predefined.png "Página Andamento de relatório com uma lista de números de lote predefinidos")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-batch-numbers"></a>Configurar um grupo de números de rastreamento que atribui automaticamente números de lote
 
@@ -119,13 +119,13 @@ Se os números de lote tiverem de ser atribuídos automaticamente, sem a entrada
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Não**.
 1. Defina a opção **Manual** como **Não**.
 
-    ![Um grupo de números de rastreamento para números de lote fixos](media/tracking-number-group-fixed.png "Um grupo de números de rastreamento para números de lote fixos")
+    ![Um grupo de números de rastreamento para números de lote fixos.](media/tracking-number-group-fixed.png "Um grupo de números de rastreamento para números de lote fixos")
 
 1. Defina outros valores conforme necessário e selecione o grupo de números de controle como o grupo de números de lote para produtos liberados para os quais você deseja usar este cenário.
 
 Quando você usa esse cenário, o campo **Número de lote** que a página **Andamento do relatório** no dispositivo de ficha de trabalho fornece mostra um valor, mas os trabalhadores não podem editá-lo.
 
-![Página Andamento de relatório com um número de lote fixo](media/job-card-device-batch-fixed.png "Página Andamento de relatório com um número de lote fixo")
+![Página Andamento de relatório com um número de lote fixo.](media/job-card-device-batch-fixed.png "Página Andamento de relatório com um número de lote fixo")
 
 ## <a name="report-serial-controlled-items-as-finished"></a>Relatar itens controlados por número de série como concluídos
 
@@ -165,7 +165,7 @@ Para permitir números de série atribuídos manualmente, siga estas etapas para
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Manual** como **Sim**.
 
-    ![Página de grupos de número de rastreamento, números de série](media/tracking-number-group-manual-serial.png "Página de grupos de número de rastreamento, números de série")
+    ![Página de grupos de número de rastreamento, números de série.](media/tracking-number-group-manual-serial.png "Página de grupos de número de rastreamento, números de série")
 
 1. Defina outros valores conforme necessário e selecione o grupo de números de controle como o grupo de números de série para produtos liberados para os quais você deseja usar este cenário.
 
@@ -174,7 +174,7 @@ Quando você usa esse cenário, o campo **Número de série** que a página **An
 - Para marcar um número de série como sucateado, selecione o botão **Sucateado** na linha apropriada. O trabalhador será solicitado a fornecer uma **Causa do erro**.
 - Para excluir um número de série, selecione o botão **Excluir** na linha apropriada.
 
-![Página Andamento de relatório com um campo para números de série](media/job-card-device-serial-manual.png "Página Andamento de relatório com um campo para números de série")
+![Página Andamento de relatório com um campo para números de série.](media/job-card-device-serial-manual.png "Página Andamento de relatório com um campo para números de série")
 
 ### <a name="set-up-a-tracking-number-group-that-provides-a-list-of-predefined-serial-numbers"></a>Configurar um grupo de números de rastreamento que forneça uma lista de números de série
 
@@ -185,13 +185,13 @@ Para fornecer uma lista de números de série, siga estas etapas para configurar
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Sim**.
 1. Use o campo **Por qtd** para dividir os números de série pela quantidade de um.
 
-    ![Um grupo de números de rastreamento para números de série](media/tracking-number-group-predefined-sn.png "Um grupo de números de rastreamento para números de série")
+    ![Um grupo de números de rastreamento para números de série.](media/tracking-number-group-predefined-sn.png "Um grupo de números de rastreamento para números de série")
 
 1. Defina outros valores conforme necessário e selecione o grupo de números de controle como o grupo de números de série para produtos liberados para os quais você deseja usar este cenário.
 
 Quando você usa esse cenário, o campo **Número de série**, que a página **Andamento do relatório** no dispositivo de ficha de trabalho fornece, é uma lista suspensa na qual os trabalhadores devem selecionar um valor predefinido.
 
-![Página Andamento de relatório com uma lista de números de série](media/job-card-device-serial-predefined.png "Página Andamento de relatório com uma lista de números de série")
+![Página Andamento de relatório com uma lista de números de série.](media/job-card-device-serial-predefined.png "Página Andamento de relatório com uma lista de números de série")
 
 ### <a name="set-up-a-tracking-number-group-that-automatically-assigns-serial-numbers"></a>Configurar um grupo de números de rastreamento que atribui automaticamente números de série
 
@@ -202,13 +202,13 @@ Se um número de série tiver de ser atribuído automaticamente, sem a entrada d
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Não**.
 1. Defina a opção **Manual** como **Não**.
 
-    ![Um grupo de números de rastreamento para números de série](media/tracking-number-group-fixed-sn.png "Um grupo de números de rastreamento para números de série")
+    ![Um grupo de números de rastreamento para números de série.](media/tracking-number-group-fixed-sn.png "Um grupo de números de rastreamento para números de série")
 
 1. Defina outros valores conforme necessário e selecione o grupo de números de controle como o grupo de números de série para produtos liberados para os quais você deseja usar este cenário.
 
 Quando você usa esse cenário, o campo **Número de série**, que a página **Andamento do relatório** no dispositivo de ficha de trabalho fornece, mostra um valor, mas os trabalhadores não podem editá-lo. Esse cenário é relevante somente quando uma ordem de produção é criada para uma quantidade de uma parte de um item controlado por número de série.
 
-![Página Andamento de relatório com um número de série fixo](media/job-card-device-serial-fixed.png "Página Andamento de relatório com números de série fixos")
+![Página Andamento de relatório com um número de série fixo.](media/job-card-device-serial-fixed.png "Página Andamento de relatório com números de série fixos")
 
 ## <a name="report-as-finished-to-a-license-plate"></a>Relatar como concluído para uma placa de licença
 
@@ -232,7 +232,7 @@ Para controlar se os trabalhadores devem reutilizar uma placa de licença existe
     - **Gerar placa de licença** - defina essa opção como **Sim** para gerar uma nova placa de licença para cada relatar como concluído. Defina-a como **Não** se uma chapa de licença existente for usada para cada relatar como concluído.
     - **Imprimir etiqueta** - defina esta opção como **Sim** se o trabalhador tiver de imprimir uma etiqueta da placa de licença para cada relatar como concluído. Configure-o como **Não** se nenhuma etiqueta for necessária. 
 
-![Página Configurar ficha de trabalho para dispositivos](media/config-job-card-raf.png "Página Configurar ficha de trabalho para dispositivos")
+![Página Configurar ficha de trabalho para dispositivos.](media/config-job-card-raf.png "Página Configurar ficha de trabalho para dispositivos")
 
 > [!NOTE]
 > Para configurar a etiqueta, vá para **Gerenciamento de depósito \> Configuração \> Roteiro de documento \> Roteiro de documento**. Para obter mais informações, consulte [Habilitar impressão de etiqueta de placa de licença](../warehousing/tasks/license-plate-label-printing.md).

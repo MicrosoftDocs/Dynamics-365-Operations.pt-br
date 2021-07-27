@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 44a58da0be280b06d96cdeae6929042bb50ed4a6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795706"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352413"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Criar um novo produto no Commerce
 
@@ -49,13 +49,13 @@ Um produto é definido principalmente por um número de produto, nome e descriç
 
 A imagem a seguir mostra um exemplo de produto sendo adicionado.
 
-![Criar um produto](media/create-new-product.png)
+![Criar um produto.](media/create-new-product.png)
 
 Depois que um produto é adicionado, é possível definir outros dados para ele, como **Descrição do produto**, **Grupos de grades**, **Grupos de dimensões**, **Atributos de produto** e **Produtos relacionados**.
 
 A imagem a seguir mostra mais detalhes de um produto.
 
-![Detalhes do produto](media/create-new-product-2.png)
+![Detalhes do produto.](media/create-new-product-2.png)
 
 ### <a name="create-product-variants"></a>Criar grades de produtos
 
@@ -74,23 +74,23 @@ Para vender um produto, primeiro ele deve ser liberado para uma entidade legal.
 
 1. Na página do produto, selecione **Liberar produtos**.
 
-    ![Liberar produto](media/create-new-product-3.png)
+    ![Produto liberado.](media/create-new-product-3.png)
 
 1. Selecione o produto a ser liberado e clique em **Avançar**.
 
-    ![Escolher o produto a ser liberado](media/create-new-product-4.png)
+    ![Escolher o produto a ser liberado.](media/create-new-product-4.png)
 
 1. Selecione o conjunto de grades de produto para liberação e clique em **Avançar**.
 
-    ![Escolher as grades a serem liberadas](media/create-new-product-5.png)
+    ![Escolher as grades a serem liberadas.](media/create-new-product-5.png)
 
 1. Selecione a entidade legal e clique em **Avançar**.
 
-    ![Escolher entidade legal](media/create-new-product-6.png)
+    ![Escolher entidade legal.](media/create-new-product-6.png)
 
 1. Selecione **Concluir**.
 
-    ![Concluir liberação de produto](media/create-new-product-7.png)
+    ![Concluir liberação de produto.](media/create-new-product-7.png)
 
 ## <a name="configure-a-released-product"></a>Configurar um produto liberado
 
@@ -105,7 +105,7 @@ Depois que um produto é liberado, ele precisa de mais configurações, entre el
 
 A imagem a seguir mostra um exemplo de configuração de produto liberado.
 
-![Configurar produto liberado](media/create-new-product-8.png)
+![Configurar produto liberado.](media/create-new-product-8.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

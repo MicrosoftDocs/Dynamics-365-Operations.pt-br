@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3da447c298993794afa49a0fbaddb1c21cf6231a
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 46e59c8253ae5e4de54d56a45a142194ce38cf54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271296"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357849"
 ---
 # <a name="apply-inventory-settings"></a>Aplicar configurações de estoque
 
@@ -68,15 +68,15 @@ Os módulos caixa de compras, lista de desejos, seletor de loja, carrinho e íco
 
 No exemplo da ilustração a seguir, um PDP mostra uma mensagem em estoque ("disponível").
 
-![Exemplo de um módulo PDP com uma mensagem de em estoque](./media/pdp-InStock.png)
+![Exemplo de um módulo PDP com uma mensagem de em estoque.](./media/pdp-InStock.png)
 
 No exemplo da ilustração a seguir, um PDP mostra uma mensagem "Esgotado".
 
-![Exemplo de um módulo PDP com uma mensagem de esgotado](./media/pdp-outofstock.png)
+![Exemplo de um módulo PDP com uma mensagem de esgotado.](./media/pdp-outofstock.png)
 
 No exemplo da ilustração a seguir, um carrinho mostra uma mensagem em estoque ("disponível").
 
-![Exemplo de um módulo carrinho com uma mensagem de em estoque](./media/cart-instock.png)
+![Exemplo de um módulo carrinho com uma mensagem de em estoque.](./media/cart-instock.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

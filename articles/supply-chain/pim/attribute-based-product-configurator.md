@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c42a11055e98da59e0428a156ca127529589abab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812915"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359092"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Preços de venda com base em atributo para a configuração de produtos baseada em restrição
 
@@ -33,7 +33,7 @@ Para definir a moeda padrão:
 1. Abra a guia **Modelos de configuração do produto com base em restrições**.
 1. Abra a lista suspensa **Moeda padrão** e selecione a sua moeda.
 
-    ![Definir a moeda padrão para a configuração de produtos baseada em restrições](media/prod-config-currency.png "Definir a moeda padrão para a configuração de produtos baseada em restrições")
+    ![Definir a moeda padrão para a configuração de produtos baseada em restrições.](media/prod-config-currency.png "Definir a moeda padrão para a configuração de produtos baseada em restrições")
 
 1. Se você deseja anexar um arquivo do Excel com um detalhamento de preços para todas as linhas de ordem ou de cotação, na seção **Modelo de preço**, defina **Anexar** como *Sim*.
 
@@ -60,7 +60,7 @@ O exemplo a seguir mostra um preço base de um número estático de 899,95 EUR, 
 - Para o acabamento do gabinete de pau-rosa, adicione 119,95 euros.
 - Adicione 12,95 EUR para cada unidade de altura de alto-falante.
 
-![Exemplo de modelo de preço](media/prod-config-rules-example.png "Exemplo de modelo de preço")
+![Exemplo de modelo de preço.](media/prod-config-rules-example.png "Exemplo de modelo de preço")
 
 ## <a name="add-support-for-multiple-currencies"></a>Adicionar suporte para várias moedas
 
@@ -81,7 +81,7 @@ Para adicionar preços explícitos em uma moeda adicional:
 
 No exemplo abaixo, _EUR_ é a moeda padrão e _USD_ foi adicionado como uma moeda adicional.
 
-![Exemplo de um modelo com várias moedas](media/prod-config-rules-currency-example.png "Exemplo de um modelo com várias moedas")
+![Exemplo de um modelo com várias moedas.](media/prod-config-rules-currency-example.png "Exemplo de um modelo com várias moedas")
 
 > [!NOTE]
 > Não é possível adicionar regras de expressão exclusivas para uma moeda não padrão. Para criar regras de expressão que seriam relevantes apenas para uma moeda diferente da moeda padrão, defina a expressão de preço para a moeda padrão como zero. Em seguida, defina a expressão apropriada para a moeda não padrão.
@@ -93,11 +93,11 @@ Para testar como os preços de venda funcionam em uma sessão de configuração,
 - Use as definições de configuração oferecidas aqui para selecionar opções de produto e, em seguida, veja como elas afetam o valor mostrado para **Preço e data de remessa**.
 - Selecione **Exibir detalhamento de preço** para baixar um documento do Excel que mostre detalhes completos sobre como o preço foi calculado.
 
-![Testar seu modelo de produto](media/prod-config-test.png "Testar seu modelo de produto")
+![Testar seu modelo de produto.](media/prod-config-test.png "Testar seu modelo de produto")
 
 A planilha baixada mostra o valor absoluto e a contribuição como uma porcentagem para cada elemento de preço ativo. Se você tiver definido a opção de modelo de preço **Anexar** na página **Parâmetros de gerenciamento de informações do produto**, essa planilha do Excel será anexada à ordem ou à linha de cotação.
 
-![Planilha do Excel mostrando detalhamento de preço](media/prod-config-excel-example.png "Planilha do Excel mostrando detalhamento de preço")
+![Planilha do Excel mostrando detalhamento de preço.](media/prod-config-excel-example.png "Planilha do Excel mostrando detalhamento de preço")
 
 ## <a name="set-up-selection-criteria-for-price-models"></a>Configurar critérios de seleção para modelos de preço
 
@@ -116,7 +116,7 @@ Para configurar critérios de seleção para modelos de preço:
     - **Válido de** - especifica o primeiro dia em que a consulta será aplicada.
     - **Expirar em** - especifique a última data em que a consulta será aplicada.
 
-    ![Critério de modelo de preço](media/prod-config-price-model-criteria.png "Critério de modelo de preço")
+    ![Critério de modelo de preço.](media/prod-config-price-model-criteria.png "Critério de modelo de preço")
 
 1. Selecione a linha da consulta que você deseja definir e, em seguida, selecione **Editar** no **Painel de Ação**. A caixa de diálogo do designer de consultas é aberta. Ele funciona como a maioria dos designers de consulta no Supply Chain Management. Use-o para definir as condições em que o modelo de preço da linha selecionada deve ser aplicado.
 
@@ -137,7 +137,7 @@ A etapa final é especificar preços de venda com base no atributo para a versã
 1. Selecione o modelo de configuração de produto de destino.
 1. No Painel de Ação, abra a guia **Modelo** e, no grupo **Detalhes do modelo de produto**, selecione **Versões**.
 1. A página **Versões** é aberta. Certifique-se de que o **Método de preço** esteja definido como **Com base em atributo**.
-    ![Definir o método de preço para com base em atributo](media/prod-config-versions.png "Definir o método de preço para com base em atributo")
+    ![Definir o método de preço para com base em atributo.](media/prod-config-versions.png "Definir o método de preço para com base em atributo")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

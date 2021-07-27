@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5c0c584ed53dc4ec8a761065838127dc67cbc41e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09c20020e5e0b957785a88ad511cedfec50a5f29
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813716"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344607"
 ---
 # <a name="maintenance-downtime-for-work-orders"></a>Tempo de inatividade de manutenção para ordens de serviço
 
@@ -45,7 +45,7 @@ Você pode criar registros do tempo de inatividade de manutenção no ativo sele
 
 A ilustração a seguir mostra um exemplo da página **Códigos de motivo do tempo de inatividade de manutenção**.
 
-![Figura 1](media/15-work-orders.png)
+![Figura 1.](media/15-work-orders.png)
 
 Depois de criar os códigos de motivo do tempo de inatividade de manutenção que deseja usar, você pode criar registros de tempo de inatividade de manutenção para ordens de serviço e ativos.
 
@@ -71,15 +71,15 @@ Depois de criar os códigos de motivo do tempo de inatividade de manutenção qu
 
 A ilustração a seguir mostra um exemplo de registro de tempo de inatividade de manutenção.
 
-![Figura 2](media/16-work-orders.png)
+![Figura 2.](media/16-work-orders.png)
 
 O calendário usado para calcular um registro de tempo de inatividade de manutenção depende da sua seleção na configuração de ativos e parâmetros. Se um recurso for selecionado em um ativo no campo **Recurso** da Guia Rápida **Ativo fixo** na página **Todos os ativos**, o calendário definido para o grupo de recursos associado será utilizado, conforme exibido na figura a seguir.
 
-![Figura 3](media/17-work-orders.png)
+![Figura 3.](media/17-work-orders.png)
 
 Se nenhum recurso for selecionado no ativo, o calendário padrão selecionado na página **Parâmetros de gerenciamento de ativos** será utilizado, conforme mostrado na figura a seguir.
 
-![Figura 4](media/18-work-orders.png)
+![Figura 4.](media/18-work-orders.png)
 
 Para obter uma visão geral de todos os registros de tempo de inatividade de manutenção, clique em **Gerenciamento de ativos** > **Consultas** > **Tempo de inatividade de manutenção**.
 

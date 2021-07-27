@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9ad236f7a71dbb16360d39634a5c39d23efd2749
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 9a63533f3f82e428a24495dc0548e09a3da65600
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188975"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347186"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
@@ -32,7 +32,7 @@ Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma en
 
 Uma entidade legal brasileira está organizada por estabelecimentos fiscais que funcionam da mesma forma e está nas mesmas operações de uma ramificação. Há um estabelecimento fiscal principal que é considerado a matriz e os estabelecimentos fiscais relacionados que estão localizados em outros estados ou fora do Brasil. A ilustração a seguir mostra a estrutura de uma entidade legal brasileira e os estabelecimentos fiscais relacionados. 
 
-[![estrutura de uma entidade legal brasileira e dos estabelecimentos fiscais relacionados](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)
+[![estrutura de uma entidade legal brasileira e dos estabelecimentos fiscais relacionados.](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)
 
 ## <a name="fiscal-establishments"></a>Estabelecimentos fiscais
 Um estabelecimento fiscal é uma localização de uma entidade legal, como subsidiária, filial, fábrica, centro de distribuição, depósito ou loja, que requer um número de inscrição dos impostos do Cadastro Nacional da Pessoa Jurídica (CNPJ) ou da Inscrição Estadual (IE). Uma entidade legal pode ter vários estabelecimentos fiscais. Os estabelecimentos fiscais emitem e recebem notas fiscais e avaliam e pagam os impostos. Você pode executar estas tarefas:

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c360985509f8f1379ed4a9bd17b95f2d8c85340e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bc2422e395239560be580ec9dd1335d93b20aadc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808583"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354872"
 ---
 # <a name="create-work-orders-from-maintenance-requests"></a>Crie ordens de serviço a partir de solicitações de manutenção
 
@@ -50,7 +50,7 @@ Depois de criar solicitações de manutenção, você poderá facilmente convert
 
 6. Selecione **Gerenciamento de ativos** \> **Comum** \> **Ordens de serviço** \> **Todas as ordens de serviço** e abra a nova ordem de serviço.
 
-    ![Abrir nova ordem de serviço](media/05-manage-maintenance-requests.png)
+    ![Abrir nova ordem de serviço.](media/05-manage-maintenance-requests.png)
 
 
 

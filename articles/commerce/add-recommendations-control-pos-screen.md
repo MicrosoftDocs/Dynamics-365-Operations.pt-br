@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 38099909f169391c17760ac381af07f0848fc384
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797470"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348335"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Adicionar recomendações à tela de transações
 
@@ -43,7 +43,7 @@ Você pode exibir as recomendações de produtos no dispositivo do PDV ao usar o
 6. Ao entrar, uma página semelhante à abaixo aparecerá. O layout será diferente dependendo as personalizações feitas para o armazenamento.
 
 
-    [![Designer de layout](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![Designer de layout.](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>Escolher um opção de exibição
 
@@ -58,11 +58,11 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 1. Reduza a altura da área de detalhes das linhas de transação para que ela tenha a mesma altura do painel do cliente à esquerda.
 
 
-    [![Altura da área de detalhes das linhas de transação reduzida](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![Altura da área de detalhes das linhas de transação reduzida.](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. No menu à esquerda, arraste e solte o controle de recomendações entre a área de detalhes de linhas de transação e a grade de botões na parte inferior do centro da tela de transação. Redimensione o controle para que ele caiba no espaço.
 
-    [![Controle de recomendações adicionado ao layout](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![Controle de recomendações adicionado ao layout.](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 
 3. Clique no **X** para salvar e sair do designer do layout.
@@ -77,13 +77,13 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 
 2. Clique em **Personalizar**.
 
-    [![Personalização - Caixa de diálogo Controle de guias](./media/pic-5.png)](./media/pic-5.png)
+    [![Personalização - Caixa de diálogo Controle de guias.](./media/pic-5.png)](./media/pic-5.png)
 
 3. Clique em **Nova guia**.
 4. Localize a nova guia que você acabou de adicionar. Talvez você precise rolar para baixo.
 5. No menu suspenso **Conteúdos**, selecione **Produtos recomendados**.
 
-    [![Seleção de produtos recomendados no campo Conteúdo](./media/pic-6.png)](./media/pic-6.png)
+    [![Seleção de produtos recomendados no campo Conteúdo.](./media/pic-6.png)](./media/pic-6.png)
 
 6. No campo **Etiqueta**, digite um nome para a guia das recomendações. Por exemplo, digite 'Produtos recomendados'.
 7. No campo **Imagem**, selecione a imagem que aparecerá na guia.
