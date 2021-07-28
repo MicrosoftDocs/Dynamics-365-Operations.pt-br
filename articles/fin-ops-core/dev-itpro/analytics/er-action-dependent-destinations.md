@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 7decdb1d759284c616ecf928c10f99098627472d
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893569"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358660"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
@@ -69,11 +69,11 @@ Por exemplo, você pode usar o formato de ER **Fatura de texto livre (Excel)** p
 
 A ilustração a seguir mostra como é possível configurar destinos de ER como o conjunto de registros de destino individuais quando cada registro é configurado para uma ação individual do usuário:
 
-![Página de destino de relatório eletrônico que tem configurações de destino dependentes de ação para um formato de ER quando cada registro de destino é configurado para uma única ação de usuário](./media/er-destination-action-dependent-01.png)
+![Página de destino de relatório eletrônico que tem configurações de destino dependentes de ação para um formato de ER quando cada registro de destino é configurado para uma única ação de usuário.](./media/er-destination-action-dependent-01.png)
 
 A ilustração a seguir mostra como é possível obter o mesmo resultado configurando destinos de ER como o conjunto de registros de destino individuais quando cada registro é configurado para um destino individual:
 
-![EPágina de destino de relatório eletrônico que tem configurações de destino dependentes de ação para um formato de ER quando cada registro de destino é configurado para um único destino](./media/er-destination-action-dependent-01a.png)
+![EPágina de destino de relatório eletrônico que tem configurações de destino dependentes de ação para um formato de ER quando cada registro de destino é configurado para um único destino.](./media/er-destination-action-dependent-01a.png)
 
 > [!NOTE]
 > Se um código de ação for fornecido para o formato ER em execução, mas nenhum destino tiver sido configurado para esse código de ação, o comportamento de destino [padrão](electronic-reporting-destinations.md#default-behavior) será aplicado.
@@ -84,7 +84,7 @@ Quando um formato de ER é executado, se as ações do usuário foram provisiona
 
 A ilustração a seguir mostra um exemplo da caixa de diálogo **Destinos de formato de relatório eletrônico** que aparece quando uma fatura de texto livre é [lançada](../../../finance/accounts-receivable/create-free-text-invoice-new.md) e o formato **Fatura de texto livre (Excel)** é executado para gerar este documento, caso a ação **Impressora** tenha sido configurada e os destinos de ER tenham sido definidos para esse formato, conforme mostrado anteriormente neste tópico.
 
-![Caixa de diálogo que dá a opção de alterar os destinos de ER configurados iniciais para o formato de ER em execução](./media/er-destination-action-dependent-02.gif)
+![Caixa de diálogo que dá a opção de alterar os destinos de ER configurados iniciais para o formato de ER em execução.](./media/er-destination-action-dependent-02.gif)
 
 > [!NOTE]
 > Se você configurou destinos de ER para vários componentes do formato de ER em execução, uma opção será oferecida separadamente para cada componente configurado do formato de ER.
@@ -103,7 +103,7 @@ Siga estas etapas para verificar o código de ação do usuário fornecido.
 6. Na página **Logs de depuração de configuração**, filtre os logs de execução de ER para encontrar o log do formato de ER executado.
 7. Revise as entradas de log que devem conter o registro que apresenta o código de ação de usuário fornecido, caso alguma ação tenha sido fornecida para o formato de ER ser executado.
 
-    ![Página logs do relatório de execução eletrônica que contém informações sobre o código de ação do usuário que foi fornecido para a execução filtrada de um formato de ER](./media/er-destination-action-dependent-03.png)
+    ![Página logs do relatório de execução eletrônica que contém informações sobre o código de ação do usuário que foi fornecido para a execução filtrada de um formato de ER.](./media/er-destination-action-dependent-03.png)
 
 ## <a name=""></a><a name="reports-list-wave1">Lista de documentos comerciais (ciclo 1)</a>
 

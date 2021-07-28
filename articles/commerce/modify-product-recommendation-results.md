@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfe04881e71558ed326025d8f2545c3c611df3aa
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6a319007b32a8a52bd4a0c0af337ed8fd4062cfa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796961"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346659"
 ---
 # <a name="adjust-ai-ml-based-product-recommendation-results"></a>Ajustar resultados da recomendação de produtos com base em IA-ML
 
@@ -51,7 +51,7 @@ Dependendo do seu negócio, a lista "Mais vendidos" poderá gerar resultados dif
 
 A lista de produtos "Mais vendidos" tem um parâmetro que pode ser alterado:
 
-![Exemplo de parâmetro padrão da lista de Melhor venda](./media/examplebestsellingparameters.PNG)
+![Exemplo de parâmetro padrão da lista de Melhor venda.](./media/examplebestsellingparameters.PNG)
 
 1. **Incluir vendas dos últimos X dias** - As transações de vendas que ocorreram dentro do número especificado de dias, antes da data atual, podem ser usadas para solicitar os produtos. O valor padrão acima sugere que todas as compras de um produto, feitas nos últimos 30 dias, seriam usadas para determinar a colocação do produto na lista de produtos Mais vendidos. 
 
@@ -65,13 +65,13 @@ A lista de produtos "Mais vendidos" tem um parâmetro que pode ser alterado:
 1.  Para adicionar produtos à tabela, selecione **Adicionar linha**. 
 1.  Na coluna Produto, procure um produto pelo **Nome** ou **Número do produto.**
 
-    ![Exemplo de pesquisa de um produto na Nova lista de produtos](./media/examplenewlistconfiguration1.png)
+    ![Exemplo de pesquisa de um produto na Nova lista de produtos.](./media/examplenewlistconfiguration1.png)
 
 1.  Na coluna Tipo de linha, selecione uma das duas opções:
     -   **Incluir** – coloca um produto à frente da lista
     -   **Excluir** – impede que um produto apareça na lista
     
-    ![Exemplo de inclusão ou exclusão de um produto da nova lista de produtos](./media/examplenewlistconfiguration2.png)
+    ![Exemplo de inclusão ou exclusão de um produto da nova lista de produtos.](./media/examplenewlistconfiguration2.png)
 
 1.  Alterar a **Ordem de exibição** alterará a ordem na qual os produtos marcados como **incluir** aparecerão na lista.
     - Se dois produtos tiverem o mesmo valor de **ordem de exibição**, então a ordem final desses dois resultados pode ser diferente do back office.
@@ -87,11 +87,11 @@ Um *produto de origem* é o produto para o qual você deseja gerar resultados. N
 Siga estas etapas para adicionar ou remover manualmente os resultados de um produto de origem:
 1.  Selecione o **Produto de origem**. 
 1.  Na coluna **Produto**, procure um produto por **Nome** ou **Número do produto.**
-![Exemplo de como procurar um produto na lista Frequentemente comprado junto](./media/exampleFBTlistconfiguration1.png)
+![Exemplo de como procurar um produto na lista Frequentemente comprado junto.](./media/exampleFBTlistconfiguration1.png)
 1. Na coluna **Tipo de linha**, selecione uma das duas opções:
     - **Incluir** – coloca um produto à frente da lista
     - **Excluir** – impede que um produto apareça na lista     
-![Exemplo de Como Incluir ou Excluir um produto na lista de Frequentemente comprado junto](./media/exampleFBTlistconfiguration2.png)
+![Exemplo de Como Incluir ou Excluir um produto na lista de Frequentemente comprado junto.](./media/exampleFBTlistconfiguration2.png)
 1.  Para remover os produtos da tabela: selecione a linha para remover e selecione Remover.
 
 

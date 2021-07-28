@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c09dee94891fb78c22e8cf9f203cb7f5531bb968
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 4fd08d9eeb9bb6ac9e3c19ff3c8592086c050182
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6016123"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354944"
 ---
 # <a name="cost-and-date-control"></a>Controle de custo e data
 
@@ -58,7 +58,7 @@ Os cálculos efetuados para ativos, locais funcionais e ordens de trabalho são 
 
     A figura abaixo mostra um exemplo da caixa de diálogo **Controle de custos de ativos**.
 
-    ![Caixa de diálogo Controle de custos de ativos](media/01-controlling-and-reporting.png)
+    ![Caixa de diálogo Controle de custos de ativos.](media/01-controlling-and-reporting.png)
 
 10. Na página **Controle de custos de ativos**, clique nos botões **Agrupar por** para mostrar o nível de detalhe necessário do cálculo. Os botões selecionados de **Agrupar por** são realçados. Clique em um botão para ativá-los ou desativá-los.
 
@@ -71,7 +71,7 @@ A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Contro
 - O campo **Custo comprometido aberto** mostra compromissos de pagamento por itens, horários e serviços que você solicitou ou recebeu, mas ainda não pagou. 
 - O **Custo real** mostra os custos relacionados após o lançamento de todos os registros de consumo.
 
-![Resultados do cálculo de exemplo em Controle de custos de ativos](media/02-controlling-and-reporting.png)
+![Resultados do cálculo de exemplo em Controle de custos de ativos.](media/02-controlling-and-reporting.png)
 
 Outra maneira de fazer um cálculo de custo é selecionar vários ativos em **Todos os ativos** ou **Ativos ativos**. Depois, você clica no botão **Controle de custo** na guia **Geral**. Na caixa de diálogo **Controle de custos de ativos**, os ativos selecionados são inseridos automaticamente no campo **Ativo** na Guia Rápida **Registros a serem incluídos**. Após clicar em **OK**, um cálculo de custo dos ativos selecionados será mostrado. O mesmo procedimento pode ser feito para locais funcionais em **Todos os locais funcionais** ou **Locais funcionais ativos**, e para ordens de serviço **Todas as ordens de serviço** ou **Ordens de serviço ativas**.
 
@@ -99,7 +99,7 @@ A captura de tela abaixo mostra um exemplo de resultados de cálculo em **Contro
 - O campo **Atraso final médio** mostra a diferença de dias entre a data final agendada de uma ordem de serviço e a data final real. Se, por exemplo, a data final real foi três dias após a data final programada, "3" será exibido neste campo.  
 - Os campos **Ocorrências** mostram o número de vezes em que ocorrem desvios em relação à data inicial agendada e real e a data final agendada e real na ordem de serviço.
 
-![Resultados do cálculo de exemplo em Controle de datas da ordem de serviço](media/03-controlling-and-reporting.png)
+![Resultados do cálculo de exemplo em Controle de datas da ordem de serviço.](media/03-controlling-and-reporting.png)
 
 
 

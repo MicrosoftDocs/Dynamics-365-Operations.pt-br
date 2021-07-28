@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 529f419a4e3e4e8807c6938fd2425ae01ce282f9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dc883606b832dc75b28f6209b05c0e35a51036b8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051800"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359667"
 ---
 # <a name="recruit-job-candidates"></a>Recrutar candidatos ao trabalho
 
@@ -61,13 +61,13 @@ Se a sua organização tiver vários locais, você poderá adicioná-los de form
 
 3. No campo **Local da solicitação de recrutamento**, insira o nome do local.
 
-   ![Adicionar um local de solicitação de recrutamento](./media/hr-recruit-0a-add-location.png)
+   ![Adicionar um local de solicitação de recrutamento.](./media/hr-recruit-0a-add-location.png)
 
 4. No campo **Descrição**, insira uma descrição do local.
 
 5. Em **Local**, selecione **Adicionar**. Se o popout **Novo endereço** aparecer, insira o endereço do local.
 
-   ![Inserir endereço](./media/hr-recruit-0b-address.png)
+   ![Inserir endereço.](./media/hr-recruit-0b-address.png)
 
 6. Em **Informações de contato**, insira as informações do contato do local.
 
@@ -83,11 +83,11 @@ Os gerentes podem enviar solicitações de recrutamento no Human Resources. Se v
 
 3. Selecione **Solucionar recrutamento**.
 
-   ![Iniciar uma solicitação de recrutamento](./media/hr-recruit-1-request-to-recruit.png)
+   ![Iniciar uma solicitação de recrutamento.](./media/hr-recruit-1-request-to-recruit.png)
 
 4. Preencha os campos **Descrição**, **Trabalho** e **Data de início estimada**.
 
-   ![Concluir a solicitação de recrutamento](./media/hr-recruit-2-request-to-recruit.png)
+   ![Concluir a solicitação de recrutamento.](./media/hr-recruit-2-request-to-recruit.png)
 
 5. Selecione **Continuar**. A solicitação de recrutamento do seu cargo é exibida.
 
@@ -95,7 +95,7 @@ Os gerentes podem enviar solicitações de recrutamento no Human Resources. Se v
 
 7. Em **Trabalho**, altere as informações conforme necessário e selecione **Criar detalhes do trabalho**.
 
-   ![Criar detalhes do trabalho](./media/hr-recruit-3-create-details-from-job.png)
+   ![Criar detalhes do trabalho.](./media/hr-recruit-3-create-details-from-job.png)
 
    O restante da solicitação de recrutamento será preenchido com as informações padrão para o trabalho inserido.
 
@@ -103,13 +103,13 @@ Os gerentes podem enviar solicitações de recrutamento no Human Resources. Se v
 
 9. Em **Posições**, selecione **Adicionar** e selecione um cargo para essa solicitação de recrutamento.
 
-   ![Adicionar uma posição](./media/hr-recruit-4-select-position.png)
+   ![Adicionar uma posição.](./media/hr-recruit-4-select-position.png)
 
 10. Em **Habilidades**, selecione **Adicionar** e, depois, uma habilidade.
 
 11. Em **Requisitos de formação educacional**, selecione **Adicionar** e, depois, selecione os valores das **Educação** e **Nível de formação educacional**.
 
-   ![Adicionar requisitos educacionais](./media/hr-recruit-5-select-educational-requirements.png)
+   ![Adicionar requisitos educacionais.](./media/hr-recruit-5-select-educational-requirements.png)
 
 12. Em **Comentário**, adicione comentários, conforme necessário.
 
@@ -117,7 +117,7 @@ Os gerentes podem enviar solicitações de recrutamento no Human Resources. Se v
 
 14. Quando sua solicitação de recrutamento for concluída e você estiver pronto para iniciar o processo de recrutamento, selecione **Ativar** na barra de menus.
 
-   ![Ativar solicitação de recrutamento](./media/hr-recruit-6-activate-recruit-request.png)
+   ![Ativar solicitação de recrutamento.](./media/hr-recruit-6-activate-recruit-request.png)
 
 15. Selecione **Salvar**.
 
@@ -131,7 +131,7 @@ Se você for um gerente e desejar exibir suas próprias solicitações:
 
 3. Em **Informações da minha equipe**, selecione a guia **Solicitações de recrutamento**.
 
-   ![Selecionar a guia Solicitações de recrutamento](./media/hr-recruit-7-recruiting-requests.png)
+   ![Selecionar a guia Solicitações de recrutamento.](./media/hr-recruit-7-recruiting-requests.png)
 
 4. Para exibir ou editar uma solicitação de recrutamento, selecione-a na grade.
 
@@ -141,7 +141,7 @@ Se você for um profissional de RH e quiser exibir todas as solicitações de re
 
 2. Selecione **Solicitações de recrutamento**.
 
-   ![Exibir solicitações de recrutamento no Gerenciamento de pessoal](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
+   ![Exibir solicitações de recrutamento no Gerenciamento de pessoal.](./media/hr-recruit-8-recruiting-requests-personnel-management.png)
 
 3. Para exibir ou editar uma solicitação de recrutamento, selecione-a na grade.
 
@@ -155,7 +155,7 @@ Se a sua organização se integrou a outro aplicativo para gerenciar solicitaç�
 
 3. Em **Recrutamento**, selecione **Candidatos**.
 
-   ![Exibir candidatos](./media/hr-recruit-9-candidates.png)
+   ![Exibir candidatos.](./media/hr-recruit-9-candidates.png)
 
 4. Para adicionar um candidato, selecione **Novo**. Para editar um candidato existente, selecione o candidato na lista e selecione **Editar**. O perfil do candidato aparece.
 
@@ -163,7 +163,7 @@ Se a sua organização se integrou a outro aplicativo para gerenciar solicitaç�
 
 6. Em **Solicitação de recrutamento**, selecione uma solicitação de recrutamento para vincular o candidato. Em seguida, preencha os campos **Data de início estimada**, **Gerente de contratação** e **Cargo** e **Descrição**, conforme apropriado.
 
-   ![Vincular à solicitação de recrutamento](./media/hr-recruit-10-link-to-recruiting-request.png)
+   ![Vincular à solicitação de recrutamento.](./media/hr-recruit-10-link-to-recruiting-request.png)
 
 7. Preencha todas as informações nas seguintes áreas a serem incluídas no registro do candidato:
    - **Comentários**
@@ -182,11 +182,11 @@ Quando estiver pronto para contratar um candidato, siga este procedimento para f
 
 1. No formulário do candidato, selecione **Contratar**.
 
-   ![Contratar um candidato](./media/hr-recruit-11-hire.png)
+   ![Contratar um candidato.](./media/hr-recruit-11-hire.png)
 
 2. No formulário **Contratar novo trabalhador**, em **Detalhes**, preencha todos os campos.
 
-   ![Inserir detalhes de novos contratados](./media/hr-recruit-12-hire-new-worker.png)
+   ![Inserir detalhes de novos contratados.](./media/hr-recruit-12-hire-new-worker.png)
 
 3. Em **Detalhes do cargo**, verifique e altere as informações conforme necessário.
 
@@ -203,7 +203,7 @@ Se você optar por não contratar um candidato, siga este procedimento para remo
 
 1. No formulário do candidato, selecione **Não contratar**.
 
-   ![Não contratar candidato](./media/hr-recruit-13-do-not-hire.png)
+   ![Não contratar candidato.](./media/hr-recruit-13-do-not-hire.png)
 
 2. Selecione um **Código de motivo** e inclua comentários.
 
@@ -215,7 +215,7 @@ Se necessário, você poderá ignorar um candidato após contratá-lo. Por exemp
 
 - No formulário do candidato, selecione **Ignorar candidato**.
 
-  ![Ignorar o candidato](./media/hr-recruit-14-dismiss-candidate.png)
+  ![Ignorar o candidato.](./media/hr-recruit-14-dismiss-candidate.png)
 
 ## <a name="see-also"></a>Consulte também
 

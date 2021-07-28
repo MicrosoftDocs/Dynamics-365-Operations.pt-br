@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b7e5726f7e4beea1584b9a8e142212531ba1db56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6e87781762112955902d8a5807092a842f53f6af
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051728"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356551"
 ---
 # <a name="understand-date-and-time-fields"></a>Entender os campos de data e hora
 
@@ -36,13 +36,13 @@ Os campos **Data e Hora** contêm informações de fuso horário, enquanto os ca
 
 Ao exibir os dados em um campo **Data e Hora**, o Human Resources ajusta a data e hora com base no fuso horário do usuário definido no formulário **Opções do usuário** (**Comum > Configuração > Opções do usuário**). As informações de data e hora que você insere nesse campo podem não ser as mesmas que são registradas na base de dados.
 
-[![Formulário Opções do usuário](./media/useroptionsform.png)](./media/useroptionsform.png)
+[![Formulário Opções do usuário.](./media/useroptionsform.png)](./media/useroptionsform.png)
 
 ## <a name="understanding-date-and-time-fields-in-forms"></a>Compreendendo os campos Data e Hora nos formulários 
 
 Os dados de **Data e Hora** exibidos na tela não serão os mesmos que os dados armazenados no banco de dados se o fuso horário do usuário não estiver definido como Tempo Universal Coordenado (UTC). Os dados dos campos **Data e Hora** sempre são armazenados em UTC.
 
-[![UTC de formulário Trabalhador](./media/worker-form.png)](./media/worker-form.png)
+[![UTC de formulário do trabalhador.](./media/worker-form.png)](./media/worker-form.png)
 
 ## <a name="understand-date-and-time-fields-in-the-database"></a>Compreenda os campos Data e Hora no banco de dados 
 
@@ -52,7 +52,7 @@ No exemplo acima, a hora de início é um momento específico, e não uma data. 
   
 No exemplo abaixo, o início do funcionário 000724 torna-se ativo no mesmo horário independentemente do fuso horário. O funcionário estará ativo em 30/04/2019 no fuso horário GMT, que é o equivalente a 01/05/2019 no fuso horário GMT+12:00. Ambos fazem referência ao mesmo momento e não a uma data específica. 
 
-[![GMT de formulário Trabalhador](./media/worker-form2.png)](./media/worker-form2.png)
+[![GMT de formulário do trabalhador.](./media/worker-form2.png)](./media/worker-form2.png)
 
 ## <a name="date-and-time-data-in-data-management-framework-excel-dataverse-and-power-bi"></a>Dados de Data e Hora no Data Management Framework, Excel, Dataverse e Power BI 
 
@@ -68,27 +68,27 @@ Ao usar fontes externas, como o DMF, para exibir ou criar dados, é importante s
 
 **Human Resources com fuso horário do usuário definido como UTC**
 
-[![Formulário de trabalhador definido como UTC](./media/worker-form3.png)](./media/worker-form3.png)
+[![Formulário de trabalhador definido como UTC.](./media/worker-form3.png)](./media/worker-form3.png)
 
 **Human Resources com fuso horário do usuário definido como GMT +12:00** 
 
-[![Formulário de trabalhador definido como GMT](./media/worker-form4.png)](./media/worker-form4.png)
+[![Formulário de trabalhador definido como GMT.](./media/worker-form4.png)](./media/worker-form4.png)
 
 **Excel via OData**
 
-[![Excel Via OData](./media/Excelviaodata.png)](./media/Excelviaodata.png)
+[![Excel Via OData.](./media/Excelviaodata.png)](./media/Excelviaodata.png)
 
 **Preparação do DMF**
 
-[![Preparação do DMF](./media/DMFStaging.png)](./media/DMFStaging.png)
+[![Preparação do DMF.](./media/DMFStaging.png)](./media/DMFStaging.png)
 
 **Exportar DMF**
 
-[![Exportação de DMF](./media/DMFexport.png)](./media/DMFexport.png)
+[![Exportação de DMF.](./media/DMFexport.png)](./media/DMFexport.png)
 
 **Excel via Dataverse**
 
-[![Excel via Dataverse](./media/ExcelCDS.png)](./media/ExcelCDS.png)
+[![Excel via Dataverse.](./media/ExcelCDS.png)](./media/ExcelCDS.png)
 
 ## <a name="see-also"></a>Consulte também
 

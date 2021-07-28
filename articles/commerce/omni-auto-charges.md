@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0eb1f112430005945b4f82b99ef9cc718c56de65
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022698"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353051"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
@@ -43,7 +43,7 @@ Com o recurso avançado de encargos automáticos, os usuários do PDV podem ter 
 
 Na página **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**, vá para a guia **Ordens do cliente**. Na guia rápida **Encargos**, defina **Usar Encargos Automáticos Avançados** como **Sim**.
 
-![Parâmetro de Encargos automáticos avançados](media/advancedchargesparameter.png)
+![Parâmetro de Encargos automáticos avançados.](media/advancedchargesparameter.png)
 
 Quando os encargos automáticos avançados forem habilitados, não será mais solicitado para os usuários inserirem manualmente um encargo de remessa no terminal de PDV, ao criar uma ordem do cliente remeter tudo ou remeter selecionado. Os encargos de ordem PDV são calculados sistematicamente e adicionados à transação de PDV (se for encontrada uma tabela de encargos automáticos correspondente que atenda aos critérios da ordem que está sendo criada). Os usuários também podem adicionar ou manter os encargos em nível de linha ou cabeçalho através de operações de PDV recém-adicionadas que podem ser adicionadas aos layouts de tela de PDV.
 
@@ -86,7 +86,7 @@ Configurar dois encargos automáticos em nível de cabeçalho diferentes. Config
 
 Para os encargos de entrega terrestre, na seção de linhas da página **Encargos automáticos**, defina um encargo que será aplicado para ordens entre US$ 0,01 e US$ 100 como US$ 10,00. Crie outra linha de encargos para indicar que ordens acima de US$ 100,01 não terão encargos.
 
-![Exemplo de duas tabelas de encargos automáticos](media/headerchargesexample.png)
+![Exemplo de duas tabelas de encargos automáticos.](media/headerchargesexample.png)
 
 Para os encargos de entrega aérea, na seção de linhas do formulário de encargos automáticos, defina um encargo de US$ 20,00 que será aplicado a todas as ordens (entre um valor de US$ 0,01 a US$ 9.999.999).
 
@@ -116,7 +116,7 @@ Vá para **Contas a Receber \> Configuração de encargos \> Encargos automátic
 
 Defina o menu suspenso **Nível** como **Linha** e crie um novo registro de encargos automáticos para todos os clientes e para o produto específico ou grupo de produtos onde as taxas de instalação serão cobradas.
 
-![Exemplo de uma tabela de encargos automáticos em nível de linha](media/linechargesexample.png)
+![Exemplo de uma tabela de encargos automáticos em nível de linha.](media/linechargesexample.png)
 
 Envie as cobranças para o Commerce Scale Unit/BD de Canal, de forma que o PDV possa utilizá-las ao executar o trabalho **agenda de distribuição 1040**.
 
@@ -136,7 +136,7 @@ Um varejista estiver fazendo uma exceção a processos comuns, oferecendo uma en
 
 Certifique-se de que o código de encargo que será usado neste cenário foi configurado adequadamente, indo para **Contas a Receber \> Configuração de Encargos \> Encargos** para definir um código de encargos apropriado para o cenário.
 
-![Exemplo de encargos](media/chargesexample.png)
+![Exemplo de encargos.](media/chargesexample.png)
 
 Se o encargo é considerado um encargo relacionado a “remessa” com a finalidade de descontos ou promoções relacionadas a remessa, defina **Encargo de remessa** no código de encargos como **Sim**. Se este encargo também puder ser reembolsado durante o processamento de uma transação de devolução no aplicativo PDV, defina **Reembolsável** como **Sim**. O sinalizador **Reembolsável** somente é aplicável quando o parâmetro **Usar encargos automáticos avançados** for definido como **Sim**.
 

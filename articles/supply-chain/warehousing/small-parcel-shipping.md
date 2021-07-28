@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 3e72959d79e9b3b03e061a0f26750e3bd025219e
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910200"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358017"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
@@ -274,7 +274,7 @@ Siga estas etapas para embalar a remessa.
 
     A etiqueta de remessa será impressa agora na impressora ZPL selecionada anteriormente. Ela deve se assemelhar ao seguinte exemplo.
 
-    ![Exemplo de etiqueta de remessa](media/sps-label-example.png "Exemplo de etiqueta de remessa")
+    ![Exemplo de etiqueta de remessa.](media/sps-label-example.png "Exemplo de etiqueta de remessa")
 
 1. Observe que os valores **ID de manifesto de contêiner** e **Frete total** foram adicionados como recebidos da transportadora.
 

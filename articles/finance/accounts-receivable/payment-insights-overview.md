@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: a1b3b6540a03dc85d5dcd813e8c41ac49ab36728
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82b301b4b8ba61375a53a8fe6220628500f6cf3d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822386"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359308"
 ---
 # <a name="customer-payment-insights-preview"></a>Insights de pagamento de cliente (Visualização)
 
@@ -47,11 +49,11 @@ Para cada fatura em aberto, o Insights de pagamento de cliente (versão prelimin
 
 Insights de pagamento de cliente (versão preliminar) também fornece uma exibição agregada dos pagamentos esperados, o que pode ajudar as organizações a compreender o valor total do pagamento que podem esperar de um cliente em um dos três buckets, No prazo, Atrasado e Muito atrasado.
 
-[![Exibição agregada de previsões de pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Exibição agregada de previsões de pagamento.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Além disso, cada fatura obtém uma probabilidade de pagamento no prazo. Se a probabilidade de pagamento no prazo for inferior a 50%, as faturas serão marcadas com um círculo vermelho para indicar que essas faturas podem exigir atenção da cobrança. 
 
-[![Lista de probabilidades de pagamento](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lista de probabilidades de pagamento.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 O Insights de pagamento de cliente (versão prévia) também oferece informações contextuais para explicar a previsão, como os principais fatores que influenciaram as previsões, o estado atual dos negócios com o cliente e os detalhes sobre o comportamento histórico de pagamento do cliente. Em muitas empresas, o processo de cobrança tem sido uma atividade reativa; o processo de cobrança não começa até a fatura ficar vencida. 
 

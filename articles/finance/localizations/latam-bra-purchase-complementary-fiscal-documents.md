@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: ddd2bcca41d551b3ba3f928855eba13bf1f4f81c
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: eb8849537b88583ebe43504bdaf8e0373a0c19db
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189625"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347182"
 ---
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 
@@ -53,7 +53,7 @@ Antes de criar ou lançar notas fiscais complementares de compra, os seguintes p
 -   **Código de impostos para PIS** – Especifique o código de impostos usado para valor de cálculo do PIS.
 
 ## <a name="examples"></a>Exemplos
-[![Exemplos que mostram uma nota fiscal original junto com notas fiscais complementares de compras de cada um dos três tipos](./media/purchcomplementary-1024x349.png)](./media/purchcomplementary.png)
+[![Exemplos que mostram uma nota fiscal original junto com notas fiscais complementares de compras de cada um dos três tipos.](./media/purchcomplementary-1024x349.png)](./media/purchcomplementary.png)
 
 
 Para obter mais informações, consulte os seguintes tópicos:

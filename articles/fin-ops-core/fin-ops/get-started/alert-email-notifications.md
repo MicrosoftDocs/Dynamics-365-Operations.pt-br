@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: d132ed979a84c2906298c05708cef1ee87f47078
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 9fb5b851c71ac632a045cf09c725a088d13f21ad
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752905"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360249"
 ---
 # <a name="client-alert-notifications-by-email"></a>Notificações de alerta do cliente por email
 
@@ -36,7 +36,7 @@ Para obter mais informações sobre como configurar o email, consulte [Configura
 
 A imagem a seguir mostra a caixa de diálogo **Criar regra de alerta**, que agora inclui uma opção **Enviar email**.
 
-[![Criar a caixa de diálogo da regra de alerta em que a opção Enviar email esteja definida como Sim](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
+[![Criar a caixa de diálogo da regra de alerta em que a opção Enviar email esteja definida como Sim.](./media/Create-alert-rule-form.png)](./media/Create-alert-rule-form.png)
 
 > [!NOTE]
 > Quando a opção **Enviar email** estiver definida como **Sim**, as notificações de alerta continuarão a ser enviadas da Central de Ações.
@@ -47,7 +47,7 @@ O serviço envia notificações por email usando modelos predefinidos de email q
 
 A imagem a seguir mostra a estrutura das notificações de alerta quando elas são recebidas por email.
 
-[![Notificações de alerta baseadas em modelo para a criação de registros, alterações de campo e exclusão de modelos](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
+[![Notificações de alerta baseadas em modelo para a criação de registros, alterações de campo e exclusão de modelos.](./media/Alert-email-templates.png)](./media/Alert-email-templates.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

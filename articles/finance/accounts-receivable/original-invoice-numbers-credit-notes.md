@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 8d7f32c5d3d29be8d1d2742c4017c1719cbd47a8
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897323"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347825"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referências a faturas originais em notas de crédito
 
@@ -51,7 +51,7 @@ Siga estas etapas para definir o parâmetro que controla se as referências às 
 1. Vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
 2. Na guia **Atualizações**, na FastTab **Fatura**, defina a opção **Aplicar o layout de faturamento de crédito para vendas e relatórios de faturas de projetos** como **Sim**.
 
-![Configurar Parâmetros de contas a receber](media/original-invoice-number-in-credit-note.jpg)
+![Configurar Parâmetros de contas a receber.](media/original-invoice-number-in-credit-note.jpg)
 
 ## <a name="define-references-to-original-invoices"></a>Definir referências a faturas originais
 
@@ -65,7 +65,7 @@ Use os procedimentos a seguir para definir referências a faturas originais com 
 4. No Painel de Ações, na guia **Fatura**, no grupo **Funções**, selecione **Faturamento de crédito**.
 5. Insira a referência à fatura original e selecione o motivo da correção.
 
-![Definir a referência para uma fatura de texto livre](media/reference-original-invoice-FTI.jpg)
+![Definir a referência para uma fatura de texto livre.](media/reference-original-invoice-FTI.jpg)
 
 ### <a name="customer-credit-note"></a>Nota de crédito de clientes
 
@@ -74,7 +74,7 @@ Use os procedimentos a seguir para definir referências a faturas originais com 
 3. No Painel de Ações, na guia **Vender**, no grupo **Nota de crédito**, selecione **Nota de crédito**.
 4. Insira o motivo da correção. A referência à fatura original é estabelecida automaticamente.
 
-![Definir a referência para uma ordem de venda](media/reference-original-invoice-SO.jpg)
+![Definir a referência para uma ordem de venda.](media/reference-original-invoice-SO.jpg)
 
 ### <a name="project-credit-note"></a>Nota de crédito do projeto
 
@@ -84,13 +84,13 @@ Use os procedimentos a seguir para definir referências a faturas originais com 
 4. Selecione **Faturamento de crédito**.
 5. Insira o motivo da correção. A referência à fatura original é estabelecida automaticamente.
 
-![Definir a referência para uma fatura de projeto](media/reference-original-invoice-project.jpg)
+![Definir a referência para uma fatura de projeto.](media/reference-original-invoice-project.jpg)
 
 ## <a name="printing-credit-notes"></a>Imprimir notas de crédito
 
 Quando você imprime notas de crédito de texto livre, cliente e projeto, elas incluem a referência à fatura original e a razão da correção.
 
-![Nota de crédito impressa](media/credit-note-FTI.jpg)
+![Nota de crédito impressa.](media/credit-note-FTI.jpg)
 
 > [!NOTE]
 > Verifique se os formatos imprimíveis dos documentos estão configurados corretamente, supondo que as referências a faturas originais serão impressas.

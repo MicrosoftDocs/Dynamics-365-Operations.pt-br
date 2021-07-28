@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 4238d1aa277bf2f1df30825ef20dbf3095d13ebc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f6e791ffd15128d2076340515a08b5ea6be70dae
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800558"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345999"
 ---
 # <a name="set-up-organization-hierarchies"></a>Configurar hierarquias da organização
 
@@ -54,7 +54,7 @@ Para criar uma hierarquia organizacional, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de hierarquia organizacional criada para um conjunto de lojas "Adventure Works" fictícias.
 
-![Exemplo de hierarquias organizacional](media/organizational-hierarchies.png)
+![Exemplo de hierarquias organizacional.](media/organizational-hierarchies.png)
 
 ### <a name="add-organizations-to-a-hierarchy"></a>Adicionar organizações a uma hierarquia
 
@@ -67,7 +67,7 @@ Para adicionar organizações a uma hierarquia, siga estas etapas.
 
 A imagem a seguir mostra uma entidade legal adicionada na raiz da hierarquia, com quatro centros de custo adicionados para os canais "Shopping", "Loja", "Online" e "Call Center". Vários canais online, de varejo e de call center podem ser adicionados a cada um deles.
 
-![Exemplo de designer de hierarquia](media/hierarchy-designer.png)
+![Exemplo de designer de hierarquia.](media/hierarchy-designer.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

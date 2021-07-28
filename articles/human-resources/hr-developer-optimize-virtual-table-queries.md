@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2021-04-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 66fb9f2b50079b5eb4eb16da17b8a473d687d354
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 17316081501ab29aafac476d13947774ecbb61e5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346265"
 ---
 # <a name="optimize-dataverse-virtual-table-queries"></a>Otimizar consultas de tabela virtual do Dataverse
 
@@ -50,11 +50,11 @@ Um exemplo em que você pode ver esse impacto está nas consultas sobre a entida
 - **Tempo limite da consulta**: a consulta pode expirar e retornar o seguinte erro: "Foi obtido um token para chamar o Finance and Operations, mas o Finance and Operations retornou um erro do tipo InternalServerError".
 - **Erro inesperado**: a consulta pode retornar um tipo de erro 400 com a seguinte mensagem: "Ocorreu um erro inesperado".
 
-  ![Tipo de erro 400 em HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType400.png)
+  ![Tipo de erro 400 em HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType400.png)
 
 - **Limitação**: a consulta pode usar excessivamente recursos do servidor e ficar sujeita à limitação. Nesse caso, a consulta retorna o seguinte erro: "Foi obtido um token para chamar o Finance and Operations, mas o Finance and Operations retornou um erro do tipo 429". Para obter mais informações sobre a limitação no Human Resources, consulte [Perguntas frequentes sobre limitação](./hr-admin-integration-throttling-faq.md).
 
-  ![Tipo de erro 429 em HcmWorkerBaseEntity](./media/HcmWorkerBaseEntityErrorType429.png)
+  ![Tipo de erro 429 em HcmWorkerBaseEntity.](./media/HcmWorkerBaseEntityErrorType429.png)
 
 ## <a name="resolution"></a>Resolução
 
@@ -96,7 +96,7 @@ Se você tiver uma das indicações mencionadas anteriormente de baixo desempenh
 2. Na janela **Obter Dados**, insira **Common Data Service** na caixa de pesquisa, selecione o conector **Common Data Service** e selecione **Conectar**.
 3. No campo **URL do Servidor** da janela Common Data Service, insira o URI da organização para o ambiente do Dataverse e selecione **OK**.
   
-   ![Insira o URI do ambiente do Dataverse](./media/PowerBIDataverseURLSetup.png)
+   ![Insira o URI do ambiente do Dataverse.](./media/PowerBIDataverseURLSetup.png)
   
 4. Na janela Navegador, expanda o nó **Entidades**.
 5. Na caixa de pesquisa, insira **mshr_hcmworkerbaseentity** e selecione a entidade.
@@ -113,7 +113,7 @@ Se você tiver uma das indicações mencionadas anteriormente de baixo desempenh
    in
      selectedWorkerBaseEntityColumns
    ```
-   ![Atualize a consulta no Editor Avançado para o Editor do Power Query](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
+   ![Atualize a consulta no Editor Avançado para o Editor do Power Query.](./media/HcmWorkerBaseEntityPowerQueryEditor.png)
 
 9. Selecione **Concluído**.
 
@@ -138,7 +138,7 @@ Por exemplo, se um dos campos de dados incluídos em uma página no aplicativo r
 
 Você pode usar o [Monitor do Power Apps](/powerapps/maker/monitor-overview) para garantir que somente as colunas necessárias sejam incluídas na consulta para obter os dados do Power Apps. Você pode exibir a URL construída para a operação getRows para garantir que as colunas selecionadas para o seu aplicativo sejam ideais para a recuperação dos dados.
 
-![Use o Monitor do Power Apps para analisar a operação getData](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
+![Use o Monitor do Power Apps para analisar a operação getData.](./media/HcmWorkerBaseEntityPowerAppsMonitor.png)
 
 ### <a name="filtering-the-data-query"></a>Filtrar a consulta de dados
 

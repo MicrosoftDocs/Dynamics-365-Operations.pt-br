@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 42280c811e1f4ed5d33c66f5a8634417a61be905
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301320"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348820"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
 
@@ -43,7 +43,7 @@ O recurso _Gestão de qualidade para processos de depósito_ gera automaticament
 
 Quando o recurso _Gestão de qualidade para processos de depósito_ é ativado, ele altera a configuração das principais entidades de gerenciamento de depósito e gerenciamento de qualidade. A ilustração a seguir fornece uma visão geral das entidades que permitem ordens de qualidade para os processos de depósito. O texto entre parênteses indica ações sugeridas quando o gerenciamento de qualidade foi aplicado antes que o recurso _Gestão de qualidade para processos de gerenciamento de depósito_ fosse ativado.
 
-![Entidades de gerenciamento de qualidade](media/quality-management-entity-diagram.png "Entidades de gerenciamento de qualidade")
+![Entidades de gerenciamento de qualidade.](media/quality-management-entity-diagram.png "Entidades de gerenciamento de qualidade")
 
 ## <a name="enablers-the-quality-item-sampling-and-quality-order-work-order-types"></a>Ativadores: os tipos de amostragem de item de qualidade e ordem de serviço de ordem de qualidade
 

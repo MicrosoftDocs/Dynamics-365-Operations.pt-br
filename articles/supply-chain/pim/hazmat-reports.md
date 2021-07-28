@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 07f103680cacc1273b2b28f6e4e905d6dabb006a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14de281927fa3e6410627839005c6b81a93d89bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820313"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347011"
 ---
 # <a name="hazardous-materials-inquiries-and-reports"></a>Consultas e relatórios de materiais perigosos
 
@@ -29,7 +29,7 @@ Todos esses relatórios, exceto o relatório **Mercadorias perigosas de multimod
 
 A ilustração a seguir mostra a sequência de atividades que ocorrem quando o sistema gera os relatórios de materiais perigosos.
 
-![Sequência de atividades para relatórios de materiais perigosos](media/hazmat-report-sequence.png "Sequência de atividades para relatórios de materiais perigosos")
+![Sequência de atividades para relatórios de materiais perigosos.](media/hazmat-report-sequence.png "Sequência de atividades para relatórios de materiais perigosos")
 
 ## <a name="set-up-hazardous-materials-reporting"></a><a name="set-up"></a>Configurar relatório de materiais perigosos
 

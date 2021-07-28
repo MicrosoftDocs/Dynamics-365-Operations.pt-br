@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.dyn365.ops.version: 10.0.5
 ms.search.validFrom: 2019-08-31
-ms.openlocfilehash: 98f935a11ad8a5272cde0270f9ae0471411b914a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb4e2843ecb30b75d2a8d97ceff5b5825e0bd704
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837936"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360116"
 ---
 # <a name="use-the-asset-management-mobile-workspace"></a>Usar o espaço de trabalho móvel de gerenciamento de ativos
 
@@ -60,7 +60,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o administrador do sistema publicar um novo espaço depois, você terá de atualizar a lista dos espaços de trabalho móveis.
 
-    ![Selecionar um espaço de trabalho](media/am-mobile-01.png "Selecionar um espaço de trabalho")
+    ![Selecionar um espaço de trabalho.](media/am-mobile-01.png "Selecionar um espaço de trabalho")
 
 ## <a name="view-assigned-work-order-jobs-in-calendar-view"></a>Exibir trabalhos de ordens de serviço atribuídos na exibição de calendário
 
@@ -72,7 +72,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione um trabalho da ordem de serviço na lista para ver os detalhes do trabalho: detalhes do ativo e local funcional, além de outros links de navegação para exibir **Anexos**, **Listas de verificação**, **Ferramentas**, **Contadores de ativos**, **Notas**, **Diários**.
 
-    ![Exibir trabalhos de ordens de serviço atribuídos na exibição de calendário](media/am-mobile-02.png "Exibir trabalhos de ordens de serviço atribuídos na exibição de calendário")
+    ![Exibir trabalhos de ordens de serviço atribuídos na exibição de calendário.](media/am-mobile-02.png "Exibir trabalhos de ordens de serviço atribuídos na exibição de calendário")
 
 ## <a name="create-a-work-order-job"></a>Criar um trabalho da ordem de serviço
 
@@ -90,7 +90,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione **Concluído**.
 
-    ![A tela Adicionar linha](media/am-mobile-03.png "A tela Adicionar linha")
+    ![A tela Adicionar linha.](media/am-mobile-03.png "A tela Adicionar linha")
 
 
 ## <a name="add-attachment-to-a-work-order-job"></a>Adicionar anexos a um trabalho da ordem de serviço
@@ -112,7 +112,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione **Concluído**.
 
-    ![Exibir e adicionar anexos a um trabalho da ordem de trabalho](media/am-mobile-04.png "Exibir e adicionar anexos a um trabalho da ordem de trabalho")
+    ![Exibir e adicionar anexos a um trabalho da ordem de trabalho.](media/am-mobile-04.png "Exibir e adicionar anexos a um trabalho da ordem de trabalho")
 
 ## <a name="view-maintenance-checklist-on-a-work-order-job"></a>Exibir a lista de verificação de manutenção em um trabalho da ordem de serviço
 
@@ -129,7 +129,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione o botão Voltar (**<**) para retornar à página anterior.
 
-    ![Lista de verificação de manutenção e detalhes da linha](media/am-mobile-05.png "Lista de verificação de manutenção e detalhes da linha")
+    ![Lista de verificação de manutenção e detalhes da linha.](media/am-mobile-05.png "Lista de verificação de manutenção e detalhes da linha")
 
 ## <a name="view-and-update-asset-counters-on-a-work-order-job"></a>Exibir e atualizar contadores de ativos em um trabalho da ordem de serviço
 
@@ -146,7 +146,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Insira um novo valor de contador e selecione **Concluído**.
 
-    ![Exibir e atualizar contadores de ativos](media/am-mobile-06.png "Exibir e atualizar contadores de ativos")
+    ![Exibir e atualizar contadores de ativos.](media/am-mobile-06.png "Exibir e atualizar contadores de ativos")
 
 ## <a name="register-consumption-on-a-work-order-job"></a>Registrar o consumo em um trabalho da ordem de serviço
 
@@ -178,7 +178,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
     1. Insira o **Preço de custo** do registro da despesa.
     1. Selecione **Concluído**.
 
-    ![Atualizar um diário de ordem de trabalho](media/am-mobile-07.png "Atualizar um diário de ordem de trabalho")
+    ![Atualizar um diário de ordem de trabalho.](media/am-mobile-07.png "Atualizar um diário de ordem de trabalho")
 
 ## <a name="update-lifecycle-state-on-a-work-order"></a>Atualizar o estado de ciclo de vida em uma ordem de serviço
 
@@ -194,7 +194,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione **Concluído**.
 
-    ![Atualizar o estado de ciclo de vida em uma ordem de serviço](media/am-mobile-08.png "Atualizar o estado de ciclo de vida em uma ordem de serviço")
+    ![Atualizar o estado de ciclo de vida em uma ordem de serviço.](media/am-mobile-08.png "Atualizar o estado de ciclo de vida em uma ordem de serviço")
 
 ## <a name="create-a-maintenance-request"></a>Criar uma solicitação de manutenção
 
@@ -216,7 +216,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione **Concluído**.
 
-    ![Criar uma solicitação de manutenção](media/am-mobile-09.png "Criar uma solicitação de manutenção")
+    ![Criar uma solicitação de manutenção.](media/am-mobile-09.png "Criar uma solicitação de manutenção")
 
 ## <a name="add-attachment-to-a-maintenance-request"></a>Adicionar anexos a uma solicitação de manutenção
 
@@ -236,7 +236,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
 1. Selecione **Concluído**.
 
-    ![Adicionar um anexo a uma solicitação de manutenção](media/am-mobile-10.png "Adicionar um anexo a uma solicitação de manutenção")
+    ![Adicionar um anexo a uma solicitação de manutenção.](media/am-mobile-10.png "Adicionar um anexo a uma solicitação de manutenção")
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 04e0bb3b1b99299c344a393e72cbe6f380e380af
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5facd333c9a76f391b36de71fa3a8e276fe2583f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825605"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350609"
 ---
 # <a name="work-order-lifecycle-states"></a>Estados de ciclo de vida da ordem de serviço
 
@@ -35,9 +35,9 @@ Os estados de ciclo de vida da ordem de serviço necessários para as ordens de 
 
 A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Agenda** na Guia Rápida **Geral** da página **Estado de ciclo de vida da ordem de serviço** (**Gerenciamento de Ativos**\> **Configuração**\> **Ordens de serviço**\> **Estados de ciclo de vida**).
 
-![Página de estados do ciclo de vida da ordem de serviço](media/09-setup-for-work-orders.png)
+![Página de estados do ciclo de vida da ordem de serviço.](media/09-setup-for-work-orders.png)
 
-| Nome da opção                   | Descrição |
+| Nome da opção                   | descrição |
 |-------------------------------|-------------|
 | Com Atividade                        | Defina essa opção como **Sim** se a ordem de serviço deverá estar ativa quando estiver neste estado de ciclo de vida. |
 | Adicionar linha                      | Defina essa opção como **Sim** se os trabalhos da ordem de serviço puderem ser adicionados a uma ordem de serviço que esteja nesse estado de ciclo de vida. |
@@ -93,7 +93,7 @@ A tabela a seguir descreve as opções nas seções **Ordem de serviço** e **Ag
     - Se a opção **Tempo de inatividade de manutenção** estiver definida como **Sim** para o estado de ciclo de vida para o qual uma ordem de serviço é atualizada, a validação do tempo de inatividade de manutenção será feita no ativo relacionado à ordem de serviço. Se um registro do tempo de inatividade de manutenção foi feito, mas não houver nenhum registro **Encerrado**, a mensagem será exibida quando a ordem de serviço for atualizada para este estado de ciclo de vida.
     - Se a configuração padrão do projeto não inclui todos os estágios necessários para sua configuração de Gerenciamento de Ativos, você poderá configurar estágios do projeto definidos pelo usuário na guia **Estágio do projeto** da página **Parâmetros de gerenciamento e contabilidade de projetos**. A ilustração a seguir mostra a guia **Estágio do projeto** na página **Parâmetros de gerenciamento e contabilidade de projetos**.
 
-    ![Página de configuração de fases do projeto dos vários tipos de projeto](media/10-setup-for-work-orders.png)
+    ![Página de configuração de fases do projeto dos vários tipos de projeto.](media/10-setup-for-work-orders.png)
 
 > [!NOTE]
 > Se o estado de ciclo de vida para o qual você atualizar uma ordem de serviço estiver inativo, os diários relacionados à ordem de serviço mas que ainda não foram lançados serão excluídos automaticamente. Esse comportamento ajuda a garantir a limpeza automática de dados não utilizados. (O estado de ciclo de vida estará inativo se a opção **Ativo** estiver definida como **Não** na Guia Rápida **Geral** da página **estado de ciclo de vida da ordem de serviço**.)
@@ -111,7 +111,7 @@ O motivo de usar tipos é que quando um tipo é definido em, por exemplo, uma or
 
 A ilustração a seguir mostra a relação entre os tipos de ordem de serviço, os modelos de ciclo de vida e os estados de ciclo de vida.
 
-![Página de tipos de ordem de serviço comparada à página de modelos de ciclo de vida de ordem de serviço](media/11-setup-for-work-orders.png)
+![Página de tipos de ordem de serviço comparada à página de modelos de ciclo de vida de ordem de serviço.](media/11-setup-for-work-orders.png)
 
 ## <a name="work-order-lifecycle-models"></a>Modelos de ciclo de vida da ordem de serviço
 
@@ -126,16 +126,16 @@ Depois que você criar os estados de ciclo de vida da ordem de serviço que são
 
 5. Na Guia Rápida **Estados de ciclo de vida**, selecione os estados de ciclo de vida que devem ser incluídos no modelo de ciclo de vida:
 
-    - Para incluir um estado de ciclo de vida no modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida restantes** e selecione o botão de seta para a direita ![Seta para a direita](media/12-setup-for-work-orders.png) para movê-lo até a seção **Estados de ciclo de vida selecionados**.
-    - Para incluir todos os estados de ciclo de vida disponíveis no modelo de ciclo de vida, selecione o botão **Selecionar todos os estágios disponíveis** ![Selecionar todos os estágios disponíveis](media/13-setup-for-work-orders.png). Todos os estados de ciclo de vida são movidos para a seção **Estados de ciclo de vida selecionados**.
-    - Para remover um estado de ciclo de vida do modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida selecionados** e selecione o botão de seta para a esquerda ![Seta para a esquerda](media/14-setup-for-work-orders.png) para movê-lo até a seção **Estados de ciclo de vida restantes**.
+    - Para incluir um estado de ciclo de vida no modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida restantes** e selecione o botão de ![seta para a direita.](media/12-setup-for-work-orders.png) para movê-lo para a seção **Estados do ciclo de vida selecionado**.
+    - Para incluir todos os estados de ciclo de vida disponíveis no modelo de ciclo de vida, selecione o botão **Selecionar todos os estágios disponíveis** ![Selecionar todos os estágios disponíveis.](media/13-setup-for-work-orders.png). Todos os estados de ciclo de vida são movidos para a seção **Estados de ciclo de vida selecionados**.
+    - Para remover um estado de ciclo de vida do modelo de ciclo de vida, selecione-o na seção **Estados de ciclo de vida selecionados** e selecione o botão de ![seta para a esquerda.](media/14-setup-for-work-orders.png) para movê-lo para a seção **Estados do ciclo de vida restantes**.
 
 6. Selecione **Atualizações do estado de ciclo de vida** para definir os estados de ciclo de vida que podem acompanhar um estado de ciclo de vida selecionado.
 7. Na Guia Rápida **Atualizações**, no campo **Estado agendado**, selecione o estado de ciclo de vida que sempre deverá ser selecionado para uma ordem de serviço para a qual você concluiu o agendamento da ordem de serviço, independentemente estado de ciclo de vida anterior da ordem de serviço.
 8. No campo **Estado de ciclo de vida não agendado**, selecione o estado de ciclo de vida que sempre deverá ser selecionado para uma ordem de serviço se o agendamento da ordem de serviço for excluído.
 9. Salve o modelo de ciclo de vida da ordem de serviço.
 
-![Página de modelos de ciclo de vida da ordem de serviço](media/15-setup-for-work-orders.png)
+![Página de modelos de ciclo de vida da ordem de serviço.](media/15-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

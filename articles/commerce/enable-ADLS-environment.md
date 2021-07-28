@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 61f96dae0643e3383afd91864e4c145f3b5c04c8
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ac440362379475b05c6a37019c25e3a96be3739
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792598"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349487"
 ---
 # <a name="enable-azure-data-lake-storage-in-a-dynamics-365-commerce-environment"></a>Habilitar o Azure Data Lake Storage em um ambiente do Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Para obter uma visão geral mais detalhada das etapas necessárias para habilita
 
 A imagem a seguir mostra um exemplo de configuração do Azure Data Lake Storage.
 
-![Exemplo de configuração do Azure Data Lake Storage](./media/exampleADLSConfig1.png)
+![Exemplo de configuração do Azure Data Lake Storage.](./media/exampleADLSConfig1.png)
 
 ### <a name="test-the-azure-data-lake-storage-connection"></a>Testar a conexão do Azure Data Lake Storage
 
@@ -79,7 +79,7 @@ Para habilitar a atualização automática para o Repositório de entidades, sig
 
 A imagem a seguir mostra um exemplo de Repositório de entidades com atualização automática habilitada.
 
-![Exemplo de Repositório de entidades com atualização automática habilitada](./media/exampleADLSConfig2.png)
+![Exemplo de Repositório de entidades com atualização automática habilitada.](./media/exampleADLSConfig2.png)
 
 O Azure Data Lake Storage agora está configurado para o ambiente. 
 

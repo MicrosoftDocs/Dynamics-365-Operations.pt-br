@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 60d566e3ef1fa4bc0cea960f7c75094f51823550
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ff6b8495f3ef0d75ffc8f829a9f332f507789d0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838217"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358041"
 ---
 # <a name="quality-check"></a>Verificação de qualidade
 
@@ -310,7 +310,7 @@ Depois que a ordem de compra for criada, ela poderá ser recebida usando o item 
 
     A página **Verificação de qualidade** que aparece não tem campos de entrada. Ela tem apenas o botão de confirmação (marca de seleção) na parte inferior e o botão de menu (**≡**) na parte superior. (Às vezes, o botão de menu é referenciado como hambúrguer ou botão de hambúrguer.) Para agilizar o processo de verificação de qualidade, quando o palete passa pela verificação de qualidade, o usuário apenas confirma a página **Verificação de qualidade**.
 
-    ![Página Verificação de qualidade](media/quality-check.png "Página Verificação de qualidade")
+    ![Página Verificação de qualidade.](media/quality-check.png "Página Verificação de qualidade")
 
 1. Selecione o botão de confirmação para passar a verificação de qualidade para o palete 1 da linha 1.
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: bd979bf5369b6878caaee82fc9c6a40d363cc165
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894139"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348131"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar locais de armazenamento personalizado para os documentos gerados
 
@@ -41,7 +41,7 @@ Todas as tarefas deste tópico podem ser concluídas na empresa **USMF**.
 
 Para gerar os documentos aos quais você quer adicionar um local de armazenamento personalizado, [importe](er-download-configurations-global-repo.md) a **configuração do formato de ER de roll forward de ativo fixo** para a topologia atual.
 
-![Página do repositório de configuração](./media/er-custom-storage-generated-files-import-format.png)
+![Página do repositório de configuração.](./media/er-custom-storage-generated-files-import-format.png)
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Gerar o Relatório de roll forward de ativo fixo
 
@@ -52,7 +52,7 @@ Para gerar os documentos aos quais você quer adicionar um local de armazenament
 5. No campo **Mapeamento de formato**, selecione **Roll forward de ativo fixo**.
 6. Selecione **OK**.
 
-![Caixa de diálogo de runtime do Relatório de roll forward de ativo fixo](./media/er-custom-storage-generated-files-runtime-dialog.png)
+![Caixa de diálogo de runtime do Relatório de roll forward de ativo fixo.](./media/er-custom-storage-generated-files-runtime-dialog.png)
 
 Em Microsoft Excel, revise o documento de saída gerado disponível para download. Esse comportamento é o [comportamento padrão ](electronic-reporting-destinations.md#default-behavior)para um formato de ER em que nenhum [destino](electronic-reporting-destinations.md) está configurado e que está sendo executado no modo interativo.
 

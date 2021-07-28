@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 0c1e6a9490fba0becb4840cbec9d04c22d482511
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6103159"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359778"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -30,7 +30,7 @@ Para cada carga de entrada, seu sistema já deve incluir uma ordem de venda rela
 
 A ilustração a seguir mostra o fluxo típico de processamento de cargas de entrada que possuem quantidades de ordens de compra quando chegam ao seu depósito.
 
-![O processamento de cargas de entrada](media/inbound-process.png "O processamento de cargas de entrada")
+![O processamento de cargas de entrada.](media/inbound-process.png "O processamento de cargas de entrada")
 
 1. **O fornecedor confirma a ordem de compra.**
 
@@ -293,7 +293,7 @@ Nesta seção, você criará um item de menu do dispositivo móvel e o adicionar
 
     Você pode deixar todas as outras configurações com seus valores padrão.
 
-    ![Configurações do item de menu do dispositivo móvel](media/inbound-mobile-menu-items.png "Configurações do item de menu do dispositivo móvel")
+    ![Configurações do item de menu do dispositivo móvel.](media/inbound-mobile-menu-items.png "Configurações do item de menu do dispositivo móvel")
 
     Para obter mais informações sobre como configurar itens de menu do dispositivo móvel, consulte [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md).
 
@@ -328,7 +328,7 @@ Neste procedimento, você criará manualmente uma ordem de compra e uma carga as
     - Na FastTab **Carga**, o campo **Status da carga** é definido _Em aberto_.
     - Na seção **Linhas de carga**, existe uma única linha em que o campo **Quantidade** é definido como _10_ e o campo **Quantidade de trabalho criado** é definido como _0_ (zero).
 
-    ![Detalhes da carga](media/inbound-load-details.png "Detalhes da carga")
+    ![Detalhes da carga.](media/inbound-load-details.png "Detalhes da carga")
 
 1. No Painel de ações, na guia **Enviar e receber**, no grupo **Confirmar \> Remessa de entrada**. Observe que o **Status da carga** foi alterado para _Remetida_.
 1. Anote o valor **ID de carga**, para que você possa usá-lo no próximo procedimento.

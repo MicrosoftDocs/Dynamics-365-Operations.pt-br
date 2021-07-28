@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 212f425dc3603f838ce030d9ed86f2e418bef29a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 6c4cf4e94e6271843d55b4ca7a0fb3ffaffc9542
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019924"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344386"
 ---
 # <a name="e-commerce-digital-gift-cards"></a>Cartões-presente digitais de comércio eletrônico
 
@@ -34,13 +34,13 @@ A compra de cartões-presente digitais tem suporte no Dynamics 365 Commerce vers
 
 A ilustração a seguir mostra um exemplo da página de detalhes do produto (PDP) de um cartão-presente digital no site de comércio eletrônico da Fabrikam.
 
-![Exemplo de um PDP de cartão-presente digital no site de comércio eletrônico da Fabrikam](./media/GiftcardPDP.PNG)
+![Exemplo de um PDP de cartão-presente digital no site de comércio eletrônico da Fabrikam.](./media/GiftcardPDP.PNG)
 
 ## <a name="turn-on-the-digital-gift-card-feature-in-commerce-headquarters"></a>Ativar o recurso de cartão-presente digital na sede do Commerce
 
 Para que o fluxo de compras para cartões-presente digitais funcione no Dynamics 365 Commerce, o recurso **Comprar cartão-presente no recurso de comércio eletrônico** deve estar ativado na sede do Commerce. Você pode encontrar o recurso no espaço de trabalho **Gerenciamento de recursos** na sede do Commerce, conforme mostrado na ilustração a seguir.
 
-![Espaço de trabalho de gerenciamento de recursos na sede do Commerce](./media/Featureflag.PNG)
+![Espaço de trabalho de gerenciamento de recursos na sede do Commerce.](./media/Featureflag.PNG)
 
 ## <a name="configure-a-digital-gift-card-in-commerce-headquarters"></a>Configurar um cartão-presente digital na sede do Commerce
 
@@ -49,16 +49,16 @@ Produtos de cartão-presente digital devem ser configurados na sede do Commerce.
 - Ao configurar produtos de cartão-presente digital na caixa de diálogo **Novo produto**, defina o campo **Tipo de produto** como **Serviço**. (Para abrir a caixa de diálogo, acesse **Varejo e comércio \> Produtos e categorias \> Produtos por categoria** e selecione **Novo**.) Os produtos do tipo **Serviço** não são verificados quanto ao estoque disponível antes da ordem ser efetuada. Para obter mais informações, consulte [Criar um novo produto](create-new-product-commerce.md#create-a-new-product).
 - Na página **Parâmetros do Commerce**, na guia **Lançamento**, o campo **Produto para o cartão-presente** deve ser definido como **Cartão-presente digital**, conforme mostrado na ilustração a seguir. Se o produto for um cartão-presente externo, consulte [Suporte a cartões-presente externos](./dev-itpro/gift-card.md) para obter mais informações.
 
-    ![Campo de produto do cartão-presente na sede do Commerce](./media/PostGiftcard.png)
+    ![Campo de produto do cartão-presente na sede do Commerce.](./media/PostGiftcard.png)
 
 - Se um cartão-presente precisar dar suporte a vários valores predefinidos (por exemplo, US$ 25, US$ 50 e US$ 100), a dimensão **Tamanho** deverá ser usada para configurar esses valores predefinidos. Cada valor predefinido será uma grade. Para obter mais informações, consulte [Dimensões do produto](../supply-chain/pim/product-dimensions.md?toc=%2fdynamics365%2fretail%2ftoc.json).
 - Se os clientes precisarem especificar um valor personalizado para um cartão-presente, primeiro configure uma grade que permita um valor personalizado. Em seguida, abra o produto na página **Produtos liberados na categoria**. Na FastTab **Commerce**, defina o campo **Chave no preço** como **Novo preço deve ser inserido**, conforme mostrado na ilustração a seguir. Essa configuração garante que os clientes possam inserir um preço quando procurarem o produto em um PDP.
 
-    ![Campo Chave no preço na sede do Commerce](./media/KeyInPrice.png)
+    ![Campo Chave no preço na sede do Commerce.](./media/KeyInPrice.png)
 
 - O modo de entrega de um cartão-presente digital deve ser definido como **Eletrônico**. Na página **Modos de entrega** (**Varejo e comércio \> Configuração de canal \> Modos de entrega**), selecione o modo de entrega **Eletrônico** no painel de lista e, depois, adicione o produto do cartão-presente digital à grade na FastTab **Produtos**, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Configurar modos de entrega](/dynamicsax-2012/appuser-itpro/set-up-modes-of-delivery).
 
-    ![Produtos de cartão-presente digital na página Modo de entrega na sede do Commerce](./media/ElectronicMode.PNG)
+    ![Produtos de cartão-presente digital na página Modo de entrega na sede do Commerce.](./media/ElectronicMode.PNG)
 
 - Verifique se um perfil de funcionalidade online foi criado e associado à sua loja online na sede do Commerce. No perfil de funcionalidade, defina a opção **Agregar produtos** como **Sim**. Essa configuração garante que todos os itens, exceto cartões-presente, sejam agregados. Para obter mais informações, consulte [Criar um perfil de funcionalidade online](online-functionality-profile.md).
 - Para garantir que clientes recebam um email depois que um cartão-presente for faturado, crie um novo tipo de notificação de email na página **Perfis de notificação por email** e defina o campo **Tipo de notificação por email** como **Emitir cartão-presente**. Para obter mais informações, consulte [Configurar um perfil de notificação por email](email-notification-profiles.md).

@@ -15,17 +15,17 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a3f5d44e008e4092557d75c8f5d830d5ae36a091
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 265a54fc67fba85b23b372af3403cded29545c4f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799028"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349343"
 ---
 # <a name="identify-a-hypothesis-and-determine-success-metrics-for-an-experiment"></a>Identificar uma hipótese e determinar as métricas de sucesso para um experimento
 A primeira fase no ciclo de vida de experimentação inclui a identificação da hipótese de fazer experimentos e determinar as métricas que você rastreará para avaliar o êxito. O diagrama a seguir mostra todas as etapas envolvidas na [configuração e na execução de um experimento](experimentation-overview.md) em um site de comércio eletrônico no Dynamics 365 Commerce. Etapas adicionais são abordadas em tópicos separados. 
 
-[ ![Usuário de teste de experimentação - identificar](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
+[ ![Usuário de teste de experimentação - Identificar.](./media/experimentation_identify.svg) ](./media/experimentation_identify.svg#lightbox)
 
 Uma hipótese é um instrução na qual você prevê o resultado do experimento. Muitos fatores vão para a definição de uma hipótese, por exemplo, pesquisar sobre comportamento do usuário e dados de sites que você coletou. Com a hipótese, você definirá a suposição ou teoria que deseja validar com seu experimento. Um exemplo de uma hipótese de seu experimento pode ser "*uma imagem de uma camiseta branca na minha página inicial vai impulsionar uma taxa de clickthrough maior do que um suéter azul-marinho durante os meses de verão, pois as pessoas desejam usar algo leve e claro no verão.*" Nesse caso, você criará variações que incluem uma camiseta branca e um suéter azul-marinho e publicará ambas ao mesmo tempo.
 

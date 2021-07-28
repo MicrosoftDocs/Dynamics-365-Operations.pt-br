@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: a194e14c76827650e6752f331081ebe0c2130a13
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866147"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357509"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tutorial sobre a Regression Suite Automation Tool
 
@@ -67,11 +67,11 @@ O RSAT permite usar a mesma gravação de tarefas com vários casos de teste, pe
 
 Esse recurso pode ser usado para validar se uma ação ocorreu. Por exemplo, quando uma ordem de produção é criada, prevista e iniciada, o aplicativo mostra a mensagem "Produção - Início" para notificar que a ordem de produção foi iniciada.
 
-![Produção - Iniciar notificação](./media/use_rsa_tool_05.png)
+![Produção - Iniciar notificação.](./media/use_rsa_tool_05.png)
 
 Você pode validar essa mensagem através do RSAT inserindo o texto da mensagem na guia **MessageValidation** do arquivo de parâmetro do Excel para o registro apropriado.
 
-![Guia Validação da Mensagem](./media/use_rsa_tool_06.png)
+![Guia Validação da Mensagem.](./media/use_rsa_tool_06.png)
 
 Depois que o caso de teste for executado, a mensagem no arquivo de parâmetros do Excel será comparada à mensagem mostrada. Se as mensagens não forem correspondentes, o caso de teste falhará.
 
@@ -104,11 +104,11 @@ Quando o caso de teste for executado, o RSAT gerará instantâneos (imagens) das
 
 A ilustração a seguir mostra o fluxo para esse cenário.
 
-![Fluxo do cenário de demonstração](./media/use_rsa_tool_14.png)
+![Fluxo do cenário de demonstração.](./media/use_rsa_tool_14.png)
 
 A ilustração a seguir mostra a hierarquia de processos comerciais para esse cenário no LCS Business Process Modeler.
 
-![Processos empresariais do cenário de demonstração](./media/use_rsa_tool_15.png)
+![Processos empresariais do cenário de demonstração.](./media/use_rsa_tool_15.png)
 
 ## <a name="strategy--key-learning"></a>Estratégia – Aprendizagem principal
 

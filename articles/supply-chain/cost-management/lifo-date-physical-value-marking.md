@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f6a9f21c6c329ef37d515fa0fbdaca57b4f3be0a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 744111a28256bb737246605ca8a259ff5a3d2b5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821528"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344559"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data UEPS com marcação e valor físico
 
@@ -55,7 +55,7 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque de Data UEPS quando a opção **Incluir valor físico** não for usada. ![Data UEPS com Incluir Valor Físico](./media/lifodatewithoutincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque de Data UEPS quando a opção **Incluir valor físico** não for usada. ![Data UEPS com Incluir Valor Físico.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -90,7 +90,7 @@ A ilustração a seguir mostra estas transações:
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 20,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS quando a opção **Incluir valor físico** for usada. ![Data UEPS com Incluir Valor Físico](./media/lifodatewithincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS quando a opção **Incluir valor físico** for usada. ![Data UEPS com Incluir Valor Físico.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -136,7 +136,7 @@ A ilustração a seguir mostra essas transações:
 
 O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente em BRL 27,50. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque de UEPS quando é usada uma marcação entre as saídas e os recebimentos. ![Data UEPS com Marcação](./media/lifodatewithmarking.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque de UEPS quando é usada uma marcação entre as saídas e os recebimentos. ![Data UEPS com Marcação.](./media/lifodatewithmarking.gif) 
 
 **Chave para o diagrama**
 

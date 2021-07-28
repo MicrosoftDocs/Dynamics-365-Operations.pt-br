@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 8e82c9a5ff4b6d7db1a808e5a94206628cdf0930
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 14c8c36b90caa3a9378a739932d734b94985b46c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754589"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354436"
 ---
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
@@ -54,11 +54,11 @@ Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos d
 3. Na caixa de diálogo **Adicionar novo item**, em **Artefatos do Operations**, selecione o modelo **Recurso**.
 4. Insira um nome que será usado para referenciar o relatório em metadados X++ e depois clique em **Adicionar**.
 
-    ![Adicionar a caixa de diálogo Novo item](media/analytical-workspace-add.png)
+    ![Adicionar a caixa de diálogo Novo item.](media/analytical-workspace-add.png)
 
 5. Localize o arquivo .pbix que contém a definição do relatório analítico e depois clique em **Abrir**.
 
-    ![Selecionar uma caixa de diálogo Arquivo de recurso](media/analytical-workspace-select-resource.png)
+    ![Selecionar uma caixa de diálogo Arquivo de recurso.](media/analytical-workspace-select-resource.png)
 
 Agora que você já adicionou o arquivo .pbix como um recurso do Dynamics 365, é possível incorporar os relatórios nos espaços de trabalho e adicionar links diretos usando itens de menu.
 
@@ -67,7 +67,7 @@ Neste exemplo, estenderemos o espaço de trabalho **Gerenciamento de reservas** 
 
 A ilustração a seguir mostra a aparência do formulário **FMClerkWorkspace** no designer do Microsoft Visual Studio.
 
-![Formulário FMClerkWorkspace antes de alterações](media/analytical-workspace-definition-before.png)
+![Formulário FMClerkWorkspace antes de alterações.](media/analytical-workspace-definition-before.png)
 
 Siga essas etapas para estender a definição de formulário para o espaço de trabalho **Gerenciamento de reservas**.
 
@@ -92,7 +92,7 @@ Siga essas etapas para estender a definição de formulário para o espaço de t
 
 A ilustração a seguir mostra a aparência do design após a aplicação dessas alterações.
 
-![FMClerkWorkspace após as alterações](media/analytical-workspace-definition-after.png)
+![FMClerkWorkspace após as alterações.](media/analytical-workspace-definition-after.png)
 
 Agora que você já adicionou os controles de formulário que serão usados para incorporar o relatório de espaço de trabalho, é preciso definir o tamanho do controle pai para que ele acomode o layout. Por padrão, as páginas **Painel de filtros** e **Guia** estarão visíveis no relatório. No entanto, você pode alterar a visibilidade desses controles conforme apropriado para o consumidor alvo do relatório.
 
@@ -142,7 +142,7 @@ Siga essas etapas para adicionar a lógica comercial que inicializa o controle d
 
 Agora você já concluiu a tarefa de adicionar a lógica comercial para inicializar o controle de relatório incorporado mais amplo. A ilustração a seguir mostra a aparência do espaço de trabalho após a aplicação dessas alterações.
 
-![Relatório incorporado no espaço de trabalho](media/analytical-workspace-final.png)
+![Relatório incorporado no espaço de trabalho.](media/analytical-workspace-final.png)
 
 > [!NOTE]
 > É possível acessar a exibição operacional existente usando as guias de espaço de trabalho abaixo do título da página.

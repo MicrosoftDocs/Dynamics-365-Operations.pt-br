@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 4e2b3746e690623e347e0319ab1b55f2645a5e23
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5bf8ce93d2c804325305672d79b633210a790cf0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814671"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347653"
 ---
 # <a name="design-the-production-floor-execution-interface"></a>Criar a interface de execução de piso de produção
 
@@ -32,7 +32,7 @@ Na página **Configurar execução de piso de produção**, você pode criar e c
 
 Cada guia é dividida em quatro seções, conforme mostrado na ilustração a seguir.
 
-![Layout da guia](media/pfe-tab-layout.png "Layout da guia")
+![Layout da guia.](media/pfe-tab-layout.png "Layout da guia")
 
 Os seguintes elementos são mostrados na ilustração:
 
@@ -47,7 +47,7 @@ Para criar e configurar uma nova guia, siga estas etapas:
 
 1. Selecione **Criar guias** no Painel de Ações para abrir a página **Criar guias**.
 
-    ![A página Criar guias](media/pfe-design-tabs.png "A página Criar guias")
+    ![A página Criar guias.](media/pfe-design-tabs.png "A página Criar guias")
 
 1. Selecione **Novo** no Painel de Ações.
 
@@ -67,7 +67,7 @@ Depois de criar todas as guias necessárias, você pode associá-las a uma confi
 
 1. Vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
 
-    ![Configurar execução de chão de produção](media/pfe-config-prod-floor-execution.png "Configurar execução de chão de produção")
+    ![Configurar execução de chão de produção.](media/pfe-config-prod-floor-execution.png "Configurar execução de chão de produção")
 
 1. Na FastTab **Seleção de guias**, selecione **Adicionar**.
 

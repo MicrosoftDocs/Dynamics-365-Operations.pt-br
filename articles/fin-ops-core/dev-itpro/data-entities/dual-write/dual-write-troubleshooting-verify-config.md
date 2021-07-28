@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: af746d1d20ddd1552bce797288c6d62d69d7bd16
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: d903d58fbd5e9d6bd9ecf7943d09525446721ba2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748840"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350755"
 ---
 # <a name="verify-dual-write-configuration-in-finance-and-operations-apps-and-dataverse"></a>Verificar configuração de gravação dupla nos aplicativos Finance and Operations e Dataverse
 
@@ -39,11 +39,11 @@ Para determinar se os erros que você vê ao tentar salvar linhas para atualiza�
 
 + Se você tiver privilégios de administrador no aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**. Se os detalhes dos ambientes vinculados e a lista de mapas de tabela que estão sendo executados são exibidos, a gravação dupla é configurada.
 
-    ![Verificando a conexão do aplicativo Finance and Operations quando você tem privilégios administrativos](media/verify_fin_ops_1.png)
+    ![Verificando a conexão do aplicativo Finance and Operations quando você tem privilégios administrativos.](media/verify_fin_ops_1.png)
 
 + Se você não tiver privilégios de administrador, receberá uma mensagem de erro *Não é possível gravar dados na entidade \<entity name\>*. No exemplo da ilustração a seguir, não é possível criar uma linha de cliente no aplicativo Finance and Operations, porque a gravação dupla está configurada, mas o grupo de clientes e os dados de referência das condições de pagamento não existem no Dataverse.
 
-    ![Verificando a conexão do aplicativo Finance and Operations quando você não tem privilégios administrativos](media/verify_fin_ops_2.png)
+    ![Verificando a conexão do aplicativo Finance and Operations quando você não tem privilégios administrativos.](media/verify_fin_ops_2.png)
 
 Para obter informações sobre como corrigir problemas ao criar dados em aplicativos Finance and Operations, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
 
@@ -51,7 +51,7 @@ Para obter informações sobre como corrigir problemas ao criar dados em aplicat
 
 Ao criar dados, se você vir a coluna **Empresa** em páginas no Dataverse, a gravação dupla está configurada.
 
-![Verificando a conexão Dataverse](media/verify_cds.png)
+![Verificando a conexão Dataverse.](media/verify_cds.png)
 
 Para obter informações sobre como corrigir problemas ao criar dados em Dataverse, consulte [Solucionar problemas de sincronização ao vivo](dual-write-troubleshooting-live-sync.md).
 

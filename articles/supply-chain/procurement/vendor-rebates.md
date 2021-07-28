@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
-ms.openlocfilehash: e56bf86a11eb34679269eae5ca093d7cc379932b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 42c35fcca90b7dc55c8ef2985283d2ce92c4c8bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822458"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344211"
 ---
 # <a name="vendor-rebates"></a>Reembolsos de fornecedor
 
@@ -53,7 +53,7 @@ Um contrato de reembolso do fornecedor é um registro de um contrato com um forn
 
 Para abrir a página **Contratos de reembolso de fornecedor**, selecione &gt; **Compras** **Reembolsos de fornecedor** &gt; **Contratos de reembolso**.
 
-![Contrato de compra](media/purchase-agreement.PNG)
+![Contrato de compra.](media/purchase-agreement.PNG)
 
 Na página **Contratos de reembolso de fornecedor**, você pode exibir detalhes sobre as condições negociadas de um contrato de fornecedor.
 
@@ -129,7 +129,7 @@ Quando as solicitações são aprovadas, elas podem ser processadas pelo Contas 
 
     Um diário de provisão de reembolso é lançado para o valor da solicitação. Este lançamento debita a conta Reembolsos do fornecedor acumulado a receber para o crédito do fornecedor esperado e credita a conta temporária Reembolsos recebidos do fornecedor acumulado.
 
-    ![Mensagem](media/message.png)
+    ![Mensagem.](media/message.png)
 
 5. Na lista de reembolso, selecione a linha e no Painel de ação, selecione **Transações de reembolso** para ver e navegar para o número de lote do diário para este lançamento de provisão de reembolso.
 

@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e6d8a1cb9619a863184460a74e472af3f06934b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 3b6b01053a043477521d7eb1a41bb9f6f51fc0e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058551"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360559"
 ---
 # <a name="payroll-integration-api-introduction"></a>Introdução à API de integração da folha de pagamento
 
@@ -26,7 +26,7 @@ ms.locfileid: "6058551"
 
 Este documento descreve a API de integração da folha de pagamento do Dynamics 365 Human Resources. A API permite integrações completas simplificadas entre o Human Resources e sistemas de folha de pagamento de parceiros. A experiência integrada começa em Human Resources com o perfil do funcionário, salário e dedução e informações de contribuição. Quando você contrata um funcionário e insere as informações necessárias sobre o perfil e o pagamento em Human Resources, o sistema de folha de pagamento recebe essas informações para usar ao processar a folha de pagamento. As atualizações feitas nas informações do funcionário ou do pagamento também são extraídas para uso em execuções de pagamento futuras.
 
-![Fluxo de integração da folha de pagamento](media/hr-admin-integration-payroll-api-introduction-flow.png)
+[![Fluxo de integração da folha de pagamento.](media/hr-admin-integration-payroll-api-introduction-flow.png)](media/hr-admin-integration-payroll-api-introduction-flow-2.png#lightbox)
 
 Para habilitar a integração, o Human Resources inclui os seguintes componentes:
 
@@ -60,7 +60,7 @@ Para obter informações sobre como gerar as tabelas virtuais da API, consulte [
 
 O diagrama a seguir ilustra relacionamentos na API. Vários tipos têm chaves estrangeiras para outras entidades preexistentes no Human Resources que não estão ilustradas aqui. Este documento fornece informações sobre entidades específicas para cenários de integração da folha de pagamento. No entanto, há várias outras entidades na API Web do Dataverse para o Human Resources que também podem ser relevantes para sua integração. Algumas dessas entidades são referenciadas em relações de chave estrangeira ou propriedades de navegação.
 
-![Modelo de dados de API de integração da folha de pagamento](media/hr-admin-payroll-api-data-model.png)
+[![Modelo de dados de API de integração da folha de pagamento.](media/hr-admin-payroll-api-data-model.png)](media/hr-admin-payroll-api-data-model.png#lightbox)
 
 ## <a name="payroll-employee-and-related-entities"></a>Funcionário da folha de pagamento e entidades relacionadas
 
@@ -68,7 +68,8 @@ Entidades:
 
 - [Funcionário da folha de pagamento](hr-admin-integration-payroll-api-payroll-employee.md)
 - [Endereço do trabalhador da folha de pagamento](hr-admin-integration-payroll-api-payroll-worker-address.md)
-- [Plano de remuneração fixa da folha de pagamento](hr-admin-integration-ats-api-recruiting-request-education.md)
+- [Plano de remuneração fixa da folha de pagamento](hr-admin-integration-payroll-api-payroll-fixed-compensation-plan.md)
+- [Plano de remuneração variável da folha de pagamento](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md)
 - [Trabalho da posição na folha de pagamento](hr-admin-integration-payroll-api-payroll-position-job.md)
 - [Posição na folha de pagamento](hr-admin-integration-payroll-api-payroll-position.md)
 

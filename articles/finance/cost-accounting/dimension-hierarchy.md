@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e7cadc20cc8fd52ecc8c4ab5c2f6c9dc62c2f68b
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897567"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355074"
 ---
 # <a name="dimension-hierarchy"></a>Hierarquia de dimensões
 
@@ -80,7 +80,7 @@ Uma hierarquia de dimensões é criada em uma estrutura de árvore com relaciona
 
 Uma empresa pequena tem a seguinte estrutura de organização, em que os recursos Humanos e Financeiros são departamentos em Administração, e Montagem e Empacotamento são departamentos em Produção.
 
-![Exemplo de uma estrutura organizacional](./media/dimension-hierarchy-org.png)
+![Exemplo de uma estrutura organizacional.](./media/dimension-hierarchy-org.png)
 
 Uma dimensão de objeto de custo representa todos os centros de custo na organização.
 

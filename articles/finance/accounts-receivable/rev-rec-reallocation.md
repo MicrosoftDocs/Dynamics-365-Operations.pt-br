@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 2d961cb4eedda6265b4acd8dbd6f82e8026373fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 37c3da576b79d3ae9f6983b5046343a7c8120de6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820560"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356116"
 ---
 # <a name="revenue-recognition-reallocation"></a>Realocação de reconhecimento de receita
 
@@ -48,7 +48,7 @@ Como a realocação pode ser feita em uma ordem de venda que esteja faturada par
 
 Cada organização deve decidir se a correção deve atualizar somente a Contabilidade ou se ela também deve atualizar Contas a receber. A decisão tomada determina a configuração apropriada da opção **Lançar correções de fatura em Contas a receber** na guia **Reconhecimento de receita** da página **Parâmetros da contabilidade** (**Reconhecimento de receita \> Configurar \> Parâmetros da contabilidade**). A configuração apropriada depende do cenário específico. Para obter mais informações sobre possíveis cenários, use os links na seção [Cenários para realocação](#scenarios-for-reallocation) posteriormente neste tópico.
 
-[![Guia Reconhecimento de receita na página Parâmetros da contabilidade](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
+[![Guia Reconhecimento de receita na página Parâmetros da contabilidade.](./media/01_RevRecScenarios.png)](./media/01_RevRecScenarios.png)
 
 Se a opção **Lançar correções de fatura em Contas a receber** estiver definida como **Sim**, o processo de realocação produzirá o seguinte resultado:
 
@@ -76,7 +76,7 @@ Como foi mencionado, você pode atualizar somente a Contabilidade ou pode atuali
 
 Para iniciar o processo de realocação, selecione **Realocar o preço com as novas linhas de ordem** em qualquer ordem de venda que deva ser realocada. Como alternativa, acesse **Reconhecimento de receita \> Tarefas periódicas \> Realocar o preço com novas linhas da ordem** e insira os filtros apropriados, como a conta do cliente.
 
-[![Página Realocar preço com novas linhas da ordem](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
+[![Página Realocar o preço com novas linhas da ordem.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
 A grade superior da página **Realocar o preço com novas linhas da ordem** é chamada **Vendas**. Ela lista as ordens de venda para o cliente. Selecione as ordens de venda que devem ser realocadas. Não é possível selecionar ordens de venda do projeto porque as ordens de venda do projeto não podem ser realocadas. Também não é possível selecionar ordens de venda que já tenham uma ID de realocação, porque as ordens de venda não relacionadas ao projeto só podem ser realocadas uma vez. Se uma ordem de venda tiver uma ID de realocação, ela já foi marcada para realocação por outro usuário.
 
@@ -86,11 +86,11 @@ Depois que concluir a seleção das linhas de ordem de venda necessárias, use o
 
 - **Atualizar realocação** — calcula os novos valores de preço de receita para as linhas de ordem de venda selecionadas. Se uma linha foi removida ou cancelada, a realocação será feita somente para as linhas existentes que você selecionou. A ilustração a seguir mostra um exemplo de linhas de ordem de venda antes que a realocação seja atualizada.
 
-    [![Linhas de ordem de venda antes que a realocação seja atualizada](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
+    [![Linhas de ordem de venda antes que a realocação seja atualizada.](./media/03_RevRecScenarios.png)](./media/03_RevRecScenarios.png)
 
     Os novos valores de preço de receita são mostrados na coluna **Valor realocado** na grade de **Linhas**. Nesse ponto, a realocação foi processada, mas ainda não foi calculada. A ilustração a seguir mostra um exemplo de linhas de ordem de venda depois que a realocação foi atualizada.
 
-    [![Linhas de ordem de venda depois que a realocação foi atualizada](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
+    [![Linhas de ordem de venda depois que a realocação foi atualizada.](./media/04_RevRecScenarios.png)](./media/04_RevRecScenarios.png)
 
 - **Processar** — processa ou lança os preços de receita realocados. Depois que você selecionar este botão, não haverá como reverter a realocação. Se você não selecionar **Atualizar realocação** antes de selecionar **Processar**, a realocação será executada automaticamente.
 
@@ -100,7 +100,7 @@ Depois que concluir a seleção das linhas de ordem de venda necessárias, use o
 - **Comprovante esperado** — mostra uma visualização das entradas contábeis criadas para todas as linhas da ordem de venda que foram faturadas. Se nenhuma linha tiver sido faturada, nada será exibido. Se você não selecionar **Atualizar realocação** antes de selecionar **Comprovante esperado**, a realocação será executada automaticamente.
 - **Realocação de receita** — abre uma página que mostra a alocação de preço de receita para todas as linhas selecionadas. Não é possível alterar as informações na página. Ela mostra os valores de linha usados para fazer a realocação.
 
-    [![Valores de linha usados para realocação](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
+    [![Valores de linha usados para realocação.](./media/05_RevRecScenarios.png)](./media/05_RevRecScenarios.png)
 
 - **Redefinir dados para o cliente selecionado** — se o processo de realocação foi iniciado mas não foi concluído, limpa os dados na tabela de realocação somente para o cliente selecionado. Por exemplo, você marca várias linhas de ordem de venda para realocação, deixa a página aberta sem selecionar **Processar** e, em seguida, a página expira. Nesse caso, as linhas da ordem de venda permanecerão marcadas e não estarão disponíveis para que outro usuário conclua o processo de realocação. A página pode estar em branco ao ser aberta. Nesse caso, o botão **Redefinir dados do cliente selecionado** pode ser usado para limpar ordens de venda não processadas para que outro usuário possa concluir o processo de realocação.
 

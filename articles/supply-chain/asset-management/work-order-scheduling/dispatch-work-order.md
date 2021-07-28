@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bd3bea647698f76efa5831d0b8b34d3cb0ad479a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 344f015b5d2de45e3eca1eb8c0f3b1676da945d2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825533"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354147"
 ---
 # <a name="dispatch-work-order"></a>Expedir ordem de serviço
 
@@ -52,7 +52,7 @@ Você pode agendar uma ordem de serviço ou trabalhos de ordem de serviço para 
 
 A figura abaixo mostra um exemplo de seleções de expedição na caixa de diálogo **Agendar ordens de serviço**.
 
-![Figura 1](media/04-work-order-scheduling.png)
+![Figura 1.](media/04-work-order-scheduling.png)
 
 [!NOTE]
 Se você deseja excluir o agendamento de uma ordem de serviço, selecione a ordem de serviço em **Todas as ordens de serviço** e, em seguida, clique em **Excluir agenda** na guia **Geral**. Lembre-se de atualizar manualmente o estado de ciclo de vida da ordem de serviço se você excluir o agendamento.

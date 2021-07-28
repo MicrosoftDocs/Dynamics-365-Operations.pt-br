@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 397f4c9823d95afc37a53317eff5c115b8694a34
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: e8d8c310614697d08ed73d509dd7ee465234f8da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189906"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360178"
 ---
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 
@@ -41,7 +41,7 @@ A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o va
 -   **Criar a partir da apuração** – Coletar e pagar imposto mensalmente, de acordo com as regras que são estabelecidas pela autoridade fiscal.
 -   **Outros débitos** – coletar e pagar um determinado valor de imposto fora do processo normal quando a autoridade de imposto requer o pagamento.
 
-![Criando pagamentos de impostos](./media/taxpaymentsbra.jpg) 
+![Criando pagamentos de impostos.](./media/taxpaymentsbra.jpg) 
 
 
 ### <a name="overview"></a>Visão Geral

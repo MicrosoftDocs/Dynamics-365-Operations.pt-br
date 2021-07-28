@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 9e64899e0bbdb5a9d8899e865de9ee32aae59382
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5556195a1a787420061fbcaef5d97ac47823221
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751647"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358996"
 ---
 # <a name="generate-printable-fti-forms"></a>Gerar formulários de FTI imprimíveis
 
@@ -77,7 +77,7 @@ Para gerar formulários de FTI usando a estrutura de ER, você pode atribuir os 
 3. Selecione o nível de documento para especificar o escopo das faturas para processamento.
 4. Selecione o formato de ER especificado para o nível de documento.
 
-![Configuração de gerenciamento de impressão](media/FTIbyGER-PMSetting.png)
+![Configuração de gerenciamento de impressão.](media/FTIbyGER-PMSetting.png)
 
 > [!NOTE]
 > Somente os formatos de ER que usam o descritor raiz **FreeTextInvoice** do modelo de dados **CustomersInvoicing** aparecem no campo **Pesquisa de formato de relatório** para o formato selecionado.
@@ -87,9 +87,9 @@ Os formulários de FTI são gerados na estrutura de ER da mesma forma que os rel
 
 Para gerar formulários de FTI, você pode selecionar faturas por intervalo ou por seleção. 
 
-![Seleção de fatura](media/FTIbyGER-InvoiceSelection.png)
+![Seleção de fatura.](media/FTIbyGER-InvoiceSelection.png)
 
-![Visualização de fatura](media/FTIbyGER-InvoiceExcelPreview.png)
+![Visualização de fatura.](media/FTIbyGER-InvoiceExcelPreview.png)
 
 Quando você usa formatos de ER para imprimir formulários de FTI dessa forma, os destinos padrão do arquivo de ER são usados. Você não pode alterar o destino. Para obter mais informações sobre como configurar os destinos de ER para formatos de ER, consulte [Destinos de ER (Relatórios eletrônicos)](electronic-reporting-destinations.md).
 
@@ -101,9 +101,9 @@ Você também pode gerar formulários de FTI ao lançar um FTI, ativando **Impri
 > - **Nome:** ERFormatDestinationRuntimeMaintain
 > - **Rótulo:** manter destino de formato de relatório eletrônico durante o tempo de execução
 
-![Destino de relatório eletrônico](media/FTIbyGER-ERFileDestinationSetting.png)
+![Destino de relatório eletrônico.](media/FTIbyGER-ERFileDestinationSetting.png)
 
-![Destino em formato de relatório eletrônico](media/FTIbyGER-ERFileDestinationUsage.png)
+![Destino em formato de relatório eletrônico.](media/FTIbyGER-ERFileDestinationUsage.png)
 
 A estrutura de ER é compatível com os seguintes destinos para documentos gerados:
 
@@ -128,7 +128,7 @@ Você pode baixar exemplos de configurações de ER para usar como um modelo par
 ### <a name="features-that-are-implemented-in-the-sample-er-format"></a>Recursos implementados no exemplo de formato de ER
 Na configuração do exemplo de formato de ER, um arquivo do Excel é usado como modelo para gerar formulários de FTI.
 
-![Designer de formato](media/FTIbyGER-ERFormat.png)
+![Designer de formato.](media/FTIbyGER-ERFormat.png)
 
 Atualmente, esse exemplo de formato de ER é compatível com os seguintes recursos para gerar formulários de FTI:
 
@@ -179,7 +179,7 @@ Além do formulário de faturas geradas, guias de transferência de dinheiro por
 - Para a entidade legal que usa o contexto do país/região da Finlândia e que tem pelo menos uma conta bancária marcada como **Conta de débito direto** e **Código de barras do banco**. 
 - Para uma fatura marcada como necessária para o anexo do pagamento associado **Finlandês**.
 
-![Guia de débito direto](media/FTIbyGER-GiroSlip.PNG)
+![Guia de débito direto.](media/FTIbyGER-GiroSlip.PNG)
 
 > [!NOTE]
 > O exemplo de formato de ER foi configurado para gerar opcionalmente os comprovantes de transferência de dinheiro por débito direto na planilha separada.
@@ -194,7 +194,7 @@ Use os seguintes elementos do exemplo de formato de ER para configurar destinos 
 - O texto do assunto do email pode ser acessado por meio da seguinte expressão de ER: **Emailing.TxtToUse.Subject**.
 - O texto do corpo do email pode ser acessado por meio da seguinte expressão de ER: **Emailing.TxtToUse.Body**.
 
-![Configurações de destino](media/FTIbyGER-ERFileDestinationSettingEmail.png)
+![Configurações de destino.](media/FTIbyGER-ERFileDestinationSettingEmail.png)
 
 O texto padrão do assunto e do corpo do email é definido no exemplo de formato de ER. O idioma dependerá dos rótulos do formato. Esse texto padrão será usado para emails se um modelo de email da organização personalizado com a ID **ERFTITMP** tiver sido adicionado.
 
@@ -203,9 +203,9 @@ O texto padrão do assunto e do corpo do email é definido no exemplo de formato
 
 Se o modelo de email da organização com a ID **ERFTITMP** tiver sido adicionado para a entidade legal em relação à qual você está processando a fatura, o modelo do texto de assunto e corpo do email será usado para gerar o email. 
 
-![Modelos de email da organização](media/FTIbyGER-EmailTemplate.png)
+![Modelos de email da organização.](media/FTIbyGER-EmailTemplate.png)
 
-![Carregar modelo de email](media/FTIbyGER-EmailTemplateBody.png)
+![Carregar modelo de email.](media/FTIbyGER-EmailTemplateBody.png)
 
 A expressão de ER **Emailing.TxtToUse.Subject** do exemplo de formato de ER está configurada para substituir qualquer ocorrência do espaço reservado %1 pela ID da fatura de processamento.
 
@@ -218,7 +218,7 @@ A expressão **Emailing.TxtToUse.Body** do exemplo do formato está configurada 
 - "%5" é substituído pelo cargo da pessoa de contato da empresa.
 - "%6" é substituído pelo endereço de email da pessoa de contato da empresa.
 
-![Email](media/FTIbyGER-Email.PNG)
+![Email.](media/FTIbyGER-Email.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)

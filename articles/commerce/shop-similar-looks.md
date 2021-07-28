@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 06b5721c423330b8840bb546bdb144c3189c25bb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c350e6d6bfd4e699c55a4c0a57695b1b718b7167
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795372"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357753"
 ---
 # <a name="enable-shop-similar-looks-recommendations"></a>Habilitar recomendações de "comprar itens semelhantes"
 
@@ -68,7 +68,7 @@ Para habilitar o recurso de recomendações de "comprar looks semelhantes" na se
 
 A ilustração a seguir mostra o recurso **Comprar looks semelhantes** na página **Gerenciamento de recursos** na sede do Commerce.
 
-![O recurso "Comprar looks semelhantes" na página "Gerenciamento de recursos" na sede do Commerce](./media/enableshopsimilarlooks.png)
+![O recurso "Comprar looks semelhantes" na página "Gerenciamento de recursos" na sede do Commerce.](./media/enableshopsimilarlooks.png)
 
 Depois que as tarefas anteriores forem concluídas, os terminais de PDV serão aprimorados automaticamente com um painel contextual **Comprar looks semelhantes**. Ao selecionar **Ver mais**, os usuários do terminal de PDV podem ser levados a uma página dedicada de "Comprar looks semelhantes" que pode ser filtrada ainda mais.
 
@@ -88,7 +88,7 @@ Para adicionar um botão **Comprar looks semelhantes** e uma PDP usando o constr
 
 A ilustração a seguir mostra a caixa de seleção **Habilitar Link para Comprar Looks Semelhantes** e o botão **Comprar looks semelhantes** em um exemplo de PDP no construtor de sites.
 
-![Caixa de seleção Habilitar Link para Comprar Looks Semelhantes e o botão Comprar looks semelhantes em uma PDP no construtor de sites](./media/SSLecomtooling.png)
+![Caixa de seleção Habilitar Link para Comprar Looks Semelhantes e o botão Comprar looks semelhantes em uma PDP no construtor de sites.](./media/SSLecomtooling.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

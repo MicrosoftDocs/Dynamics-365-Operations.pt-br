@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 4ce789d539f658150a526293d2132cfeb846bf44
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 20635804e7fa24f6d18bdbcff5537fd832acda06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823631"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346429"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 
@@ -64,13 +64,13 @@ Em seguida, siga as etapas abaixo para configurar a regra que permitirá a gera�
 3. Defina a opção **Habilitar registro C180 e C185** como **Sim** para gerar os registros relacionados. Além disso, também serão geradas instâncias do registro H030 com o campo **MOT\_INV** definido como **06**, H005, 1010, 1250 e 1255.
 4. No campo **Algoritmo de cálculo de impostos presumidos do SPED**, selecione o método de cálculo. Os valores calculados no processo de imposto presumido serão relatados no registro C185.
     
-![Página Parâmetros de livros fiscais por estado](media/bra-sped-Fiscal014-Setup.png)   
+![Página Parâmetros de livros fiscais por estado.](media/bra-sped-Fiscal014-Setup.png)  
 
 ### <a name="table-57--reason-code-table-for-complement-and-restitution"></a>Tabela 5.7 – Tabela de códigos de motivo para complemento e restituição
 
 A Tabela 5.7 representa a classificação para complemento e restituição (remuneração) dos valores do ICMS-ST. Essa tabela é implementada por cada estado. Para configurá-la, vá para **Livros fiscais** \> **Configuração** \> **Código de motivo para complemento e restituição**.
 
-![Página Código de motivo para complemento e restituição](media/bra-sped-fiscal014-table57-setup.png)
+![Página Código de motivo para complemento e restituição.](media/bra-sped-fiscal014-table57-setup.png)
 
 Depois de concluir a configuração da tabela de códigos de motivo (tabela 5.7), acesse **Livros fiscais** \> **Configuração** \> **Determinação da Tabela 5.7** e configure a determinação usando os seguintes critérios:
 
@@ -78,9 +78,9 @@ Depois de concluir a configuração da tabela de códigos de motivo (tabela 5.7)
 - Código CFOP
 - Código de tributação
 
-![Página Determinação da Tabela 5.7](media/bra-sped-fiscal014-table57-determination-setup.png)
+![Página Determinação da Tabela 5.7.](media/bra-sped-fiscal014-table57-determination-setup.png)
 
-### <a name="record-c180"></a>Registro C180
+### <a name="record-c180"></a>C180 do registro
 
 O registro C180 é um novo registro. Ele apresenta informações complementares para os modelos de notas fiscais de entrada 01, 1B, 04 e 55 para transações que incluem o tipo de imposto ICMS-ST. Esse registro é gerado com base nos seguintes critérios:
 

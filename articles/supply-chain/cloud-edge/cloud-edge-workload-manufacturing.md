@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: b1e2006c0d9b9effe331a644aaaa9fa33ff2fb7c
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: da19066f647c17e934a11e4dab7cb370baabfb5c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270526"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352727"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda
 
@@ -44,7 +44,7 @@ Este tópico descreve como cargas de trabalho de execução de fabricação func
 
 A ilustração a seguir mostra que o ciclo de vida da fabricação é dividido em três fases: *Planejar*, *Executar* e *Finalizar*.
 
-[![Fases de execução de fabricação quando um único ambiente é usado](media/mes-phases.png "Fases de execução de fabricação quando um único ambiente é usado")](media/mes-phases-large.png)
+[![Fases de execução de fabricação quando um único ambiente é usado](media/mes-phases.png "Fases de execução de fabricação quando um único ambiente é usado."](media/mes-phases-large.png)
 
 A fase _Planejar_ inclui definição de produtos, planejamento, criação e agendamento de ordens e liberação. A etapa de liberação indica a transição da fase _Planejar_ para a fase _Executar_. Quando uma ordem de produção é liberada, os trabalhos de ordem de produção ficam visíveis no piso de produção e prontos para execução.
 
@@ -54,7 +54,7 @@ Quando um trabalho de produção é marcado como concluído, ele passa da fase _
 
 Conforme ilustrado a seguir, quando as unidades de escala são usadas, a fase _Executar_ é dividida como uma carga de trabalho separada.
 
-[![Fases de execução de fabricação quando unidades de escala são usadas](media/mes-phases-workloads.png "Fases de execução de fabricação quando unidades de escala são usadas")](media/mes-phases-workloads-large.png)
+[![Fases de execução de fabricação quando as unidades de escala são usadas](media/mes-phases-workloads.png "Fases de execução de fabricação quando as unidades de escala são usadas."](media/mes-phases-workloads-large.png)
 
 O modelo passa de uma instalação de única instância para um modelo baseado no hub e em unidades de escala. As fases _Planejar_ e _Finalizar_ são executadas como operações back office no hub; a carga de trabalho de execução de fabricação é executada nas unidades de escala. Os dados são transferidos de forma assíncrona entre o hub e as unidades de escala.
 
@@ -87,7 +87,7 @@ Embora o trabalho em geral seja executado automaticamente, você pode executá-l
 
 Para revisar o log de processamento do registro, entre no hub e acesse **Controle de produção \> Tarefas periódicas \> Gerenciamento de carga de trabalho back office \> Log de processamento de registro bruto**. A página **Log de processamento de registro bruto** mostra uma lista de registros brutos processados e o status de cada registro.
 
-![Página Log de processamento de registro bruto](media/mes-processing-log.png "Página Log de processamento de registro bruto")
+![Página Log de processamento de registro bruto.](media/mes-processing-log.png "Página Log de processamento de registro bruto")
 
 Você pode trabalhar em qualquer registro na lista selecionando ele e um dos seguintes botões no Painel de Ações:
 

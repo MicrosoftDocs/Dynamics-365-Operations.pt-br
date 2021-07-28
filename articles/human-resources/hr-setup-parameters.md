@@ -2,7 +2,7 @@
 title: Configurar parâmetros de recursos do Human Resources
 description: Este tópico explica como configurar parâmetros específicos da empresa no Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 02/03/2020
+ms.date: 06/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 7c4c93e3d2644a380e3d5d2247961a8b6fb34568
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 24d30aa06805b530cc069be0517279a11dff9ed4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052400"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356527"
 ---
 # <a name="configure-human-resources-parameters"></a>Configurar parâmetros de recursos do Human Resources
 
@@ -30,7 +30,7 @@ As configurações de alguns parâmetros do Human Resources são compartilhadas 
 
 Duas páginas são usadas para definir parâmetros de recursos humanos. Para os parâmetros que são compartilhados entre empresas, use a página **Parâmetros compartilhados de recursos humanos**. Para os parâmetros que são específicos da empresa (ou seja, as configurações se aplicam a uma única empresa), use a página **Parâmetros de recursos humanos**.
 
-![Acesse Parâmetros de recursos humanos](./media/hr-employee-self-service-human-resources-parameters.png)
+![Acesse Parâmetros de recursos humanos.](./media/hr-employee-self-service-human-resources-parameters.png)
 
 Na página **Parâmetros de recursos humanos**, as configurações são divididas entre seis guias:
 
@@ -51,14 +51,15 @@ Cada guia contém informações que pertencem a uma única empresa.
 
 As configurações na guia **Geral** definem a aparência das informações sobre ausência, lesões e doenças, e novas contratações. As configurações nessa guia também definem algumas entradas padrão que aparecem enquanto você trabalha. Especificamente, esta guia permite:
 
-- Selecione a cor a ser aplicada a transações de ausência abertas
-- Especificar a folha de estilos a ser usada para relatórios
-- Habilitar a integração entre os cursos de treinamento e o registro de ausência
+- Selecione a cor a ser aplicada a transações de ausência abertas.
+- Especificar a folha de estilos a ser usada para relatórios.
+- Habilitar a integração entre os cursos de treinamento e o registro de ausência.
 - Selecione o código de ausência usado para controlar essa integração.
 - Indique por quanto tempo manter incidentes de caso de ferimentos e doenças.
 - Especifique o número de identificação padrão mostrado quando um novo trabalhador é contratado.
+- Especifique a data usada para calcular anos de serviço. 
 
-![Guia Geral](./media/hr-setup-parameters-general.png)
+![Guia Geral.](./media/hr-setup-parameters-general.png)
 
 ## <a name="recruitment"></a>Recrutamento
 
@@ -76,7 +77,7 @@ No Human Resources, você pode usar a guia **Remuneração** para optar por rest
 
 Para obter mais informações sobre remuneração, consulte [Visão geral de planos de remuneração](hr-compensation-overview.md).
 
-![Guia Remuneração](./media/hr-setup-parameters-compensation.png)
+![Guia Remuneração.](./media/hr-setup-parameters-compensation.png)
 
 ## <a name="number-sequences"></a>Sequências numéricas
 
@@ -96,13 +97,13 @@ Para obter mais informações, consulte [Visão geral de sequências numéricas]
 > [!NOTE]
 > O número de horas que será trabalhado não pode exceder 1.250 e o tempo de emprego não pode exceder 12 meses. Esses valores máximos estão de acordo com a legislação federal dos Estados Unidos.
 
-![Guia Sequências numéricas](./media/hr-setup-parameters-number-sequences.png)
+![Guia Sequências numéricas.](./media/hr-setup-parameters-number-sequences.png)
 
 ## <a name="fmla"></a>FMLA
 
 Na guia FMLA, defina requisitos de direito FMLA e horas de direito FMLA. Para obter mais informações, consulte [Configurar parâmetros de licença e ausência](hr-leave-and-absence-parameters.md).
 
-![Guia FMLA](./media/hr-setup-parameters-fmla.png)
+![Guia FMLA.](./media/hr-setup-parameters-fmla.png)
 
 ## <a name="employee-self-service"></a>Autoatendimento para funcionários
 
@@ -115,7 +116,7 @@ As configurações na guia **Autoatendimento para funcionários** afetam como o 
 
 Para obter mais informações sobre como configurar o Autoatendimento para funcionários, consulte [Visão geral de autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md).
 
-![Guia Autoatendimento para funcionários](./media/hr-setup-parameters-employee-self-service.png)
+![Guia Autoatendimento para funcionários.](./media/hr-setup-parameters-employee-self-service.png)
 
 ## <a name="manager-self-service"></a>Autoatendimento para gerentes
 
@@ -129,13 +130,13 @@ As configurações na guia **Autoatendimento para gerentes** afetam o que gerent
 
 Para obter mais informações sobre como configurar o Autoatendimento para gerentes, consulte [Visão geral de autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md).
 
-![Guia Autoatendimento para gerentes](./media/hr-setup-parameters-manager-self-service.png)
+![Guia Autoatendimento para gerentes.](./media/hr-setup-parameters-manager-self-service.png)
 
 ## <a name="benefits-management"></a>Gerenciamento de benefícios
 
 Na guia Gerenciamento de benefícios, você pode configurar opções de email para o Gerenciamento de benefícios. Para obter mais informações sobre como configurar e usar o Gerenciamento de benefícios, consulte [Visão geral do Gerenciamento de benefícios](hr-benefits-management-overview.md).
 
-![Guia Gerenciamento de benefícios](./media/hr-setup-parameters-benefits-management.png)
+![Guia Gerenciamento de benefícios.](./media/hr-setup-parameters-benefits-management.png)
 
 ## <a name="leave-and-absence"></a>Licença e ausência
 
@@ -145,7 +146,7 @@ Para obter informações sobre como configurar e usar licenças e ausências, co
 
 Na guia **Métodos de pagamento**, você pode selecionar os métodos de pagamento com suporte da sua organização. Para obter mais informações sobre como configurar a remuneração, consulte [Visão geral de planos de remuneração](hr-compensation-overview.md).
 
-![Guia Métodos de pagamento](./media/hr-setup-parameters-payment-methods.png)
+![Guia Métodos de pagamento.](./media/hr-setup-parameters-payment-methods.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

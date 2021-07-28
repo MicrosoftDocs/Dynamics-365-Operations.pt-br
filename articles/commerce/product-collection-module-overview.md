@@ -8,18 +8,18 @@ ms.prod: ''
 ms.technology: ''
 audience: Application user
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 222bb25b6851fe60f3d872e5d7431094ac916dd4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 206f0096f481fc37d05a8258535c016e2834e732
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790997"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352195"
 ---
 # <a name="product-collection-modules"></a>Módulos de coleção de produtos
 
@@ -40,7 +40,7 @@ As fontes para coletas de produtos podem ser listas dos seguintes quatro tipos:
 
 A ilustração a seguir mostra os diferentes tipos de coletas de produto que estão sendo usadas em um site de comércio eletrônico.
 
-![Exemplo dos diferentes tipos de coletas de produtos em um site de comércio eletrônico](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
+![Exemplo dos diferentes tipos de coletas de produtos em um site de comércio eletrônico.](./media/ProductCollectionsAcrossTheSiteUseProductPlacement.png)
 
 > [!NOTE]
 > Sempre use módulos de coleta de produtos para mostrar um grupo de produtos de um tipo semelhante.

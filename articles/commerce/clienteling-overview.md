@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260624
+ms.custom:
+- "260624"
+- intro-internal
 ms.assetid: a4f9d315-9951-451c-8ee6-37f9b3b15ef0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: b680ec227ecd70893999950a8be2ad152c476575
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937003"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352679"
 ---
 # <a name="clienteling-overview"></a>Visão geral de clientes
 
@@ -68,7 +70,7 @@ Para ativar a funcionalidade de depoimentos de clientes no seu ambiente, siga es
 
 1. No espaço de trabalho **Gerenciamento de recursos**, filtre os recursos pelo módulo **Varejo e comércio**.
 
-    ![Depoimentos de clientes na lista de recursos do módulo Comércio](./media/Enable_clienteling.png "Depoimentos de clientes na lista de recursos do módulo Varejo e comércio")
+    ![Depoimentos de clientes na lista de recursos do módulo Comércio.](./media/Enable_clienteling.png "Depoimentos de clientes na lista de recursos do módulo Varejo e comércio")
 
 2. Para ativar o recurso **Depoimentos de clientes**, selecione **Habilitar agora**.
 3. Na página **Parâmetros de Comércio**, na guia **Sequência numérica**, selecione a linha **Identificador do registro de clientes**. Depois, no campo **Código da sequência numérica**, selecione uma sequência numérica. O sistema usará essa sequência numérica para atribuir um ID aos registros de clientes.
@@ -83,7 +85,7 @@ Para ativar a funcionalidade de depoimentos de clientes no seu ambiente, siga es
 
 6. Na página **Parâmetros de comércio**, na guia **Depoimentos de clientes**, no campo **Grupo de atributos do registro de clientes**, selecione o grupo de atributos que você acabou de criar.
 
-    ![Grupo de atributos selecionado do registro de clientes](./media/Client%20book%20attributes.png "Grupo de atributos selecionado do registro de clientes")
+    ![Grupo de atributos selecionado do registro de clientes.](./media/Client%20book%20attributes.png "Grupo de atributos selecionado do registro de clientes")
 
 7. Para capturar atividades que ocorrem no PDV, defina os tipos de atividade na página **Tipos de atividade** (**Varejo e Comércio \> Clientes \> Tipos de atividade**).
 
@@ -95,7 +97,7 @@ Para ativar a funcionalidade de depoimentos de clientes no seu ambiente, siga es
 
 Depois que você concluir este procedimento, os representantes de vendas poderão abrir a página de detalhes do cliente no PDV e adicionar clientes ao seu registro de clientes, ver e capturar atividades e anotações de clientes e selecionar clientes usando atributos do cliente e do registro de clientes para filtrar o registro de clientes. A ilustração a seguir mostra um exemplo de registro de clientes.
 
-![Exemplo de registro de clientes](./media/client_book.png "Exemplo de registro de clientes")
+![Exemplo de registro de clientes.](./media/client_book.png "Exemplo de registro de clientes")
 
 ## <a name="turn-on-the-integration-of-customer-insights-with-commerce"></a>Ativar a integração do Customer Insights com o Commerce
 

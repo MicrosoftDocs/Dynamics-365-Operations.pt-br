@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.openlocfilehash: 001795914c683a6182b885b79be7e225ad80e5cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1fcf9f45eb7f3ef111d66c2c30ec529269b0685b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750555"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352903"
 ---
 # <a name="data-templates-with-multiple-worksheets"></a>Modelos de dados com várias planilhas
 
@@ -32,13 +32,13 @@ Vamos ver um exemplo no qual há um arquivo do Excel com planilhas chamadas **Lo
 
 Se adicionar a segunda entidade **Depósitos** sem deixar o formulário **Adicionar arquivo**, a pesquisa de planilha permitirá que você selecione a planilha **Depósitos** sem ter que carregar novamente o arquivo. O único motivo para carregar um novo arquivo seria se os dados dos **Depósitos** estivessem em um arquivo diferente.
 
-![Várias planilhas](./media/AddFileMultipleWorkSheets.png)
+![Várias planilhas.](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Planilha de correção para o mapeamento de entidade
 
 O mapeamento da planilha para uma entidade de dados no job de importação pode ser corrigido na grade. A coluna **Planilha** na grade mostra as planilhas do arquivo que foi mapeado. Você pode escolher uma planilha diferente do menu suspenso. Se a planilha escolhida já estiver mapeada para uma entidade no projeto de dados, o sistema solicitará que você confirme a alteração. Recomendamos que você corrija os mapeamentos na grade.
 
-![Atualizar mapeamento da planilha](./media/UpdateMappings.png)
+![Atualizar mapeamento da planilha.](./media/UpdateMappings.png)
 
 ## <a name="re-map-to-a-new-file"></a>Remapear para um novo arquivo
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 615e22234323e2235fba002c50f9ab9c230c021e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 888ce67f1feba9876f71d2988268b47c9a4ca1dd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827881"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358872"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Despesas de custo de projeto sobre recebimentos de compra
 
@@ -37,20 +37,20 @@ A Consultoria da Contoso iniciou um novo projeto de implantação de nuvem. Uma 
 Os custos acumulados precisam ser registradas em nível financeiro e em nível de projeto para fins de relatório. A atualização financeira do recibo do produto pode ser rastreada para categorias de item e compra. 
 
 Para itens, na página **Parâmetros de contas a pagar**, selecione a opção **Lançar recibos de produto ao razão**.
-[![Página Parâmetros de contas a pagar](./media/accruals1-1024x409.png)](./media/accruals1.png) 
+[![Página Parâmetros de contas a pagar.](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
 Para categorias de compras, na página **Regra de política de categoria**, selecione políticas de **Compras** e depois selecione **Despesas de compras acumuladas no recebimento** para cada categoria de compra.
-[![Página Regra de política de categoria](./media/accruals2-1024x569.png)](./media/accruals2.png) 
+[![Página Regra de política de categoria.](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
 As contas **Despesa de compra não faturada** e **Despesa de compra** na **Configuração de lançamento** serão usadas quando os comprovantes relacionados ao recibo do produto forem lançados.
 
 Com esse mesmo cenário, vejamos como o lançamento de recibo de produto impactará as informações de contabilidade e projeto. 
 
 **Etapa 1:** Criar e confirmar uma nova ordem de compra do projeto para registrar a compra de um computador por US$ 1.500 e serviços de instalação por US$ 150.
-[![Criar nova ordem de compra](./media/accruals4-1024x497.png)](./media/accruals4.png) 
+[![Criar nova ordem de compra.](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Quando a ordem de compra for confirmada, as transações do custo comprometido são criadas para o projeto. 
-[![Transações criadas](./media/accruals5-1024x219.png)](./media/accruals5.png) 
+[![Transações criadas.](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
 > As transações do custo comprometido terão o campo **Origem da transação** definido para **Ordem de compra**. Criar e confirmar uma ordem de compra não cria transações para um projeto. 
@@ -58,23 +58,23 @@ Quando a ordem de compra for confirmada, as transações do custo comprometido s
 **Etapa 2:** Mercadorias e serviços são entregues e um recibo de produto é registrado. 
 
 Lançar um recebimento de produtos gerará e lançará um comprovante no razão. O comprovante debitará as despesas de compra, conta não faturada e conta de despesas de compra em crédito. 
-[![Comprovantes de transações](./media/accruals6-1024x214.png)](./media/accruals6.png)
+[![Comprovantes de transações.](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
 > Lançar um recibo de produtos usará a configuração de lançamento de categorias de compra e produtos, e não a configuração de lançamento das categorias de projeto. Para refletir corretamente o impacto financeiro das despesas de compra, essa configuração precisar estar alinhada. 
 
 É possível mapear categorias de compras para projetar categorias na página **Categoria de compra**.
-[![Página Categoria de compras](./media/accruals7-1024x390.png)](./media/accruals7.png)
+[![Página Categoria de compras.](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
 **Etapa 3:** Criar um rascunho da fatura de fornecedor. 
 
 Lançar um recibo de produto não afetará as informações de projeto. Como uma solução alternativa, você pode gerar um rascunho de fatura de fornecedor logo após o lançamento do recebimento de compra. Vá para a página **Ordem de compra** &gt; **Guia de fatura** &gt; **Gerar** &gt; **Fatura**. Essa ação cria um documento de fatura pendente que atualiza as informações do projeto. 
 
 Criar um rascunho da fatura de fornecedor gerará transações de projeto pendentes. 
-[![Minhas transações de projeto pendentes](./media/accruals8-1024x225.png)](./media/accruals8.png) 
+[![Minhas transações de projeto pendentes.](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
 Na página **Custo comprometido**, registros criados na etapa 1 serão fechados e novos registros serão criados para refletir o custo comprometido proveniente de fatura de fornecedor pendente. O campo **Origem da transação** do custo comprometido será definido como **Fatura de fornecedor**.
-[![Página Custos comprometidos](./media/accruals9-1024x200.png)](./media/accruals9.png)
+[![Página Custos comprometidos.](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
 A fatura do fornecedor permanecerá em um estado pendente até que a fatura de fornecedor real chegue.
 
