@@ -7,16 +7,17 @@ ms.topic: article
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSContainerType, WHSContainerGroup, WHSContainerizationTable, WHSContainerizationBreak, WHSCreateContainerBreak, WHSContainerStructure, WHSContainerTable
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: f481f6ca047ee0285fe0e81d8fa96665e9d27cee
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292752"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343715"
 ---
 # <a name="container-packing-strategies"></a>Estratégias de embalagem de contêineres
 
@@ -251,7 +252,7 @@ Para configurar uma política de consolidação de remessa, siga estas etapas.
 1. Selecione a política **Padrão** na lista.
 1. No Painel de Ações, selecione **Editar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos selecionados**, selecione a linha na qual o campo **Nome do campo** está definido como *Número da ordem*.
-1. Selecione o botão **Remover** ![Seta para a esquerda](media/backward-button.png) para mover o campo para a lista **Campos restantes**.
+1. Selecione o botão **Remover** ![seta para a esquerda.](media/backward-button.png) para mover o campo para a lista **Campos restantes**.
 1. No Painel de ações, selecione **Salvar**.
 
 ### <a name="set-up-physical-dimensions-for-the-product"></a>Configurar dimensões físicas para o produto

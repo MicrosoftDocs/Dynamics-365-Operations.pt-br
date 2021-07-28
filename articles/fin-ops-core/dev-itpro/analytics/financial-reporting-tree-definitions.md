@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 1a884031905e59e7bfedab9af7b97a7c54e40895
-ms.sourcegitcommit: e4992c57eea4c15ac052e9d65dddae625e3528f9
+ms.openlocfilehash: 97ecd7996ed2d8fb12c1038aa296450d3481e6fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866293"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345777"
 ---
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
@@ -170,23 +170,23 @@ Aqui está a estrutura das unidades de relatório na árvore de relatórios a se
 - As unidades de relatório de detalhe de nível inferior (Vendas locais, vendas de auto, serviços do cliente e operações) representam departamentos nos dados financeiros. Essas unidades de relatório estão na área sombreada do diagrama.
 - As unidades de resumo de nível superior resumem informações das unidades de detalhes.
 
-[![Estrutura de Relatório de Resumo da Contoso - Exemplo 1](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
+[![Estrutura de Relatório de Resumo da Contoso - Exemplo 1.](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estrutura da unidade de relatório - Exemplo 2
 
 O diagrama a seguir mostra uma árvore de relatório que exibe uma estrutura organizacional que é dividida pela função de negócios.
 
-[![Estrutura de Relatório de Resumo da Contoso - Exemplo 2](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
+[![Estrutura de Relatório de Resumo da Contoso - Exemplo 2.](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemplo da caixa de diálogo Inserir Unidades de Relatório de Dimensões
 
 Neste exemplo, a caixa de diálogo **Inserir Unidades de Relatório de Dimensões** contém as informações a seguir. Para este exemplo, os resultados retornarão a combinação de unidades de negócios, departamentos e centros de custo.
 
-[![Inserir Unidades de Relatório](./media/insertreportingunits.png)](./media/insertreportingunits.png)
+[![Inserir Unidades de Relatório.](./media/insertreportingunits.png)](./media/insertreportingunits.png)
 
 A definição de árvore relatório resultante é classificada por unidade de negócios, pelo Centro de custo e, em seguida, por departamento. A dimensão da quinta unidade de relatório é **Unidade de negócios = \[001\], Centro de custos =\[\], Departamento = \[022\]**, e identifica uma unidade de emissão de relatórios para contas que são específicas da unidade de negócios 001 e do departamento 022.
 
-[![Ilustração da Hierarquia Organizacional](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
+[![Ilustração da Hierarquia Organizacional.](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Exemplos de acúmulo de dados
 
@@ -194,11 +194,11 @@ Os exemplos a seguir mostram informações possíveis usadas em uma definição 
 
 #### <a name="example-1"></a>Exemplo 1
 
-[![Acúmulo de várias empresas](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
+[![Acúmulo de várias empresas.](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Exemplo 2
 
-[![Acúmulo do Departamento Interempresarial](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
+[![Acúmulo do Departamento Interempresarial.](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

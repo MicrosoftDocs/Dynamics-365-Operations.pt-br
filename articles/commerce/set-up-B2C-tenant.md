@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 84b3a3630d3809c05f87242784207c3c4af160ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018571"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344362"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
@@ -40,7 +40,7 @@ O Dynamics 365 Commerce usa o B2C do Azure AD para oferecer suporte aos fluxos d
 1. Entre no [portal do Azure](https://portal.azure.com/).
 1. No menu do portal do Azure, selecione **Criar um recurso**. Certifique-se de usar a assinatura e o diretório que será conectado ao ambiente do Commerce.
 
-    ![Criar um Recurso no Portal do Azure](./media/B2CImage_1.png)
+    ![Criar um Recurso no Portal do Azure.](./media/B2CImage_1.png)
 
 1. Vá para **Identidade \> B2C do Azure Active Directory**.
 1. Na página **Criar Locatário B2C ou Vincular a um Locatário existente**, use uma das opções abaixo que melhor atende às necessidades da sua empresa:
@@ -52,25 +52,25 @@ O Dynamics 365 Commerce usa o B2C do Azure AD para oferecer suporte aos fluxos d
         1. Em **País ou região**, selecione o país ou a região.
         1. Selecione **Criar** para criar o locatário.
 
-     ![Criar um Locatário do Azure AD](./media/B2CImage_2.png)
+     ![Criar um Locatário do Azure AD.](./media/B2CImage_2.png)
 
      - **Vincular um Locatário B2C do Azure AD à minha assinatura do Azure**: Use esta opção se já tiver um locatário B2C do Azure AD ao qual deseja vincular.
         1. Selecione **Vincular um Locatário B2C do Azure AD existente à minha assinatura do Azure**.
         1. Em **Locatário B2C do Azure AD**, selecione o locatário B2C apropriado. Se a mensagem "Nenhum locatário B2C elegível encontrado" aparecer na caixa de seleção, você não tem um locatário B2C elegível existente e precisará criar um.
         1. Em **Grupo de recursos**, selecione **Criar**. Insira um **Nome** para o grupo de recursos que conterá o locatário, selecione **Local o grupo de recursos** e selecione **Criar**.
 
-    ![Vincule um Locatário B2C do Azure AD existente à Assinatura do Azure](./media/B2CImage_3.png)
+    ![Vincule um Locatário B2C do Azure AD existente à Assinatura do Azure.](./media/B2CImage_3.png)
 
 1. Após criar diretório B2C do Azure AD (pode demorar alguns instantes), será exibido um link para o novo diretório no painel. Este link direcionará você para a página "Bem-vinco ao B2C do Azure Active Directory".
 
-    ![Link para o novo Diretório do AAD](./media/B2CImage_4.png)
+    ![Link para o novo Diretório do AAD.](./media/B2CImage_4.png)
 
 > [!NOTE]
 > Se você tiver várias assinaturas na conta do Azure ou tiver configurado o locatário B2C sem vincular a uma assinatura ativa, um banner de **Solução de problemas** orientará você a vincular o locatário a uma assinatura. Selecione a mensagem de solução de problemas e siga as instruções para resolver o problema da assinatura.
 
 A imagem a seguir mostra um exemplo de um banner de **Solução de problemas** do B2C do Azure AD.
 
-![Aviso mostrando que o diretório não tem uma Assinatura Ativa](./media/B2CImage_5.png)
+![Aviso mostrando que o diretório não tem uma Assinatura Ativa.](./media/B2CImage_5.png)
 
 ## <a name="create-the-b2c-application"></a>Criar o aplicativo B2C
 
@@ -136,11 +136,11 @@ Para criar uma política de fluxo de usuário de inscrição e logon, siga estas
 
 A imagem a seguir é um exemplo do fluxo de usuário de inscrição e logon do B2C do Azure AD.
 
-![Configurações da política de Inscrição e Logon](./media/B2CImage_11.png)
+![Configurações da política de Inscrição e Logon.](./media/B2CImage_11.png)
 
 A imagem a seguir mostra a opção **Executar fluxo de usuário** no fluxo de usuário de inscrição e logon do B2C do Azure AD.
 
-![Executar a opção do fluxo de usuário no fluxo da política](./media/B2CImage_23.png)
+![Executar a opção do fluxo de usuário no fluxo da política.](./media/B2CImage_23.png)
    
 ### <a name="create-a-profile-editing-user-flow-policy"></a>Criar uma política de fluxo de usuário de edição de perfil
 
@@ -161,7 +161,7 @@ Para criar uma política de fluxo de usuário de edição de perfil, siga estas 
 
 A imagem a seguir mostra um exemplo do fluxo de usuário de edição do perfil do B2C do Azure AD.
 
-![Criar o fluxo de usuário de Edição de Perfil](./media/B2CImage_12.png)
+![Criar o fluxo de usuário de Edição de Perfil.](./media/B2CImage_12.png)
 
 ### <a name="create-a-password-reset-user-flow-policy"></a>Criar uma política de fluxo de usuário de redefinição de senha
 
@@ -225,18 +225,18 @@ Para adicionar e configurar um provedor de identidade social, siga estas etapas.
 
 A imagem a seguir mostra exemplos das telas **Adicionar provedor de identidade** e **Configurar o provedor de identidade social** no B2C do Azure AD.
 
-![Adicionar um Provedor de Identidade Social ao aplicativo](./media/B2CImage_14.png)
+![Adicionar um Provedor de Identidade Social ao aplicativo.](./media/B2CImage_14.png)
 
 A imagem a seguir mostra um exemplo de como selecionar provedores de identidade na página **Provedores de Identidade** do B2C do Azure AD.
 
-![Selecione cada Provedor de Identidade Social que será habilitado para a sua política](./media/B2CImage_16.png)
+![Selecione cada Provedor de Identidade Social que será habilitado para a sua política.](./media/B2CImage_16.png)
 
 A imagem a seguir mostra um exemplo de uma tela de logon padrão com um botão de logon do provedor de identidade social exibido.
 
 > [!NOTE]
 > Se você estiver usando as páginas personalizadas criadas no Commerce para os fluxos de usuário, os botões para provedores de identidade social precisarão ser adicionados usando os recursos de extensibilidade da biblioteca de módulos do Commerce. Além disso, ao configurar seus aplicativos com um provedor de identidade social específica, em alguns casos, as cadeias de caracteres de configuração ou de URL podem diferenciar maiúsculas de minúsculas. Consulte as instruções de conexão do seu provedor de identidade social para obter mais informações.
  
-![Exemplo de tela de logon padrão com o botão de logon do Provedor de Identidade Social exibido](./media/B2CImage_17.png)
+![Exemplo de tela de logon padrão com o botão de logon do Provedor de Identidade Social exibido.](./media/B2CImage_17.png)
 
 ## <a name="update-commerce-headquarters-with-the-new-azure-ad-b2c-information"></a>Atualizar o Commerce headquarters com as novas informações do B2C do Azure AD
 
@@ -291,15 +291,15 @@ Para coletar as informações necessárias do aplicativo, siga estas etapas.
 
 A imagem a seguir mostra um exemplo da página **B2C do Azure AD – Aplicativos**.
 
-![Navegue até o Aplicativo B2C no locatário](./media/B2CImage_19.png)
+![Navegue até o Aplicativo B2C no locatário.](./media/B2CImage_19.png)
 
 A imagem a seguir mostra um exemplo da página **Propriedades** de um aplicativo no B2C do Azure AD. 
 
-![Copiar a ID do Aplicativo nas Propriedades do Aplicativo B2C](./media/B2CImage_21.png)
+![Copiar a ID do Aplicativo nas Propriedades do Aplicativo B2C.](./media/B2CImage_21.png)
 
 A imagem a seguir mostra um exemplo de políticas de fluxo de usuário na página **B2C do Azure AD – Fluxos de usuário (políticas)**.
 
-![Coletar os nomes de cada fluxo de política de B2C](./media/B2CImage_22.png)
+![Coletar os nomes de cada fluxo de política de B2C.](./media/B2CImage_22.png)
 
 ### <a name="enter-your-aad-b2c-tenant-application-information-into-commerce"></a>Insira as informações do aplicativo locatário B2C do AAD no Commerce
 

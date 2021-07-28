@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ba973299291276fe48d82360e203ca28f02aaffb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9ddca8a3cc136080aa63f58cda3ba32bf6d2ca37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796261"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346963"
 ---
 # <a name="accordion-module"></a>Módulo de Accordion
 
@@ -34,7 +34,7 @@ Dentro de cada módulo de acordeão, um ou mais módulos de item acordeão podem
 
 A imagem a seguir mostra um exemplo de um módulo de acordeão usado para organizar informações na página perguntas frequentes de uma loja.
 
-![Exemplo de um módulo de acordeão](./media/ecommerce-accordion.PNG)
+![Exemplo de um módulo de acordeão.](./media/ecommerce-accordion.PNG)
 
 ## <a name="accordion-module-properties"></a>Propriedades do módulo de acordeão
 

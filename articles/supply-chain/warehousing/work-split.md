@@ -13,12 +13,12 @@ ms.search.industry: WHSWorkTableListPage
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-15
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: eae1e722a7c4d819cbca398eb14a2b36fa04eec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6844f3962562a02609333ef7d6963801852af4b0
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830753"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344137"
 ---
 # <a name="work-split"></a>Divisão do trabalho
 
@@ -51,7 +51,7 @@ O recurso *Divisão do trabalho* adiciona os dois botões a seguir à guia **Tra
 - **Divisão do trabalho** – Divida a ID de trabalho atual em várias IDs menores do trabalho que podem ser processadas por funcionários separados.
 - **Cancelar sessão de divisão do trabalho** – Cancele a sessão de divisão do trabalho e disponibilize o trabalho para processamento.
 
-![Botões Divisão do trabalho e Cancelar sessão de divisão do trabalho](media/Work_split_buttons.png "Botões Divisão do trabalho e Cancelar sessão de divisão do trabalho")
+![Botões Divisão do trabalho e Cancelar sessão de divisão do trabalho.](media/Work_split_buttons.png "Botões Divisão do trabalho e Cancelar sessão de divisão do trabalho")
 
 > [!IMPORTANT]
 > O botão **Divisão do trabalho** não estará disponível se qualquer uma das seguintes condições for atendida:
@@ -94,7 +94,7 @@ Para dividir o trabalho, siga as etapas a seguir.
 
     O campo **Motivo de bloqueio de trabalho** do trabalho atual será definido como *Divisão do trabalho* e o trabalho será bloqueado.
 
-    ![Motivo do bloqueio](media/Blocking_reason.png "Motivo do bloqueio")
+    ![Motivo do bloqueio.](media/Blocking_reason.png "Motivo do bloqueio")
 
 1. Selecione as linhas a serem removidas da ID de trabalho atual e adicionadas a uma nova ID de trabalho. Os seguintes eventos ocorrem:
 

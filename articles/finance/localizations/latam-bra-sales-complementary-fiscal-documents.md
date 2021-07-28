@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 94ae031c9408354c4121fc4b312a88ae4211e654
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 36c9f4777dde1f47531be5580d157a34079dc25a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189772"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347184"
 ---
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
 
@@ -53,7 +53,7 @@ Antes de criar ou lançar notas fiscais complementares de venda, os seguintes pa
 -   **Código de impostos para PIS** – especifique o código de impostos usado para valor de cálculo do PIS (Programa de Integração Social).
 
 ## <a name="examples"></a>Exemplos
-[![Exemplos de uma fatura original e de notas fiscais complementares de vendas de cada um dos três tipos](./media/salescomplementary-1024x409.png)](./media/salescomplementary.png)
+[![Exemplos de uma fatura original e de notas fiscais complementares de vendas de cada um dos três tipos.](./media/salescomplementary-1024x409.png)](./media/salescomplementary.png)
 
 Para obter mais informações, consulte os seguintes tópicos:
 

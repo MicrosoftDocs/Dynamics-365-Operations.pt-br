@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b23edee0884b595a0da6ebd7eca0cf0391ff33f7
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 32a1acba8b4ca9484cbbc4b23ba496521ec4f61b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6190079"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347677"
 ---
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Distribuição integrada de ordens de produção para docas de saída
 
@@ -42,7 +42,7 @@ Um produto é informado como tendo sido concluído para o local de saída de pro
 -   Se um trailer já estiver atribuído à porta da baía, o motorista do caminhão será orientado a carregar o produto diretamente no trailer.
 -   Se não houver nenhuma atividade planejada para transferir o produto, o empilhador será orientado a armazenar o produto em um local no depósito interno (5).
 
-[![distribuição integrada oportunista](./media/scenario1.png)](./media/scenario1.png)
+[![distribuição integrada oportunista.](./media/scenario1.png)](./media/scenario1.png)
 
 ## <a name="configure-cross-docking"></a>Configurar a distribuição integrada
 Você configura o processo de distribuição integrada nas **políticas de trabalho**. Uma política de trabalho tem um tipo de ordem de trabalho, localização e produto. No exemplo a seguir, a distribuição integrada é configurada para produto X e localização Y.

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 99fd4b816b1a3a1fe3c2d1579be45b43fdc3d385
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 89fe41d7ce57b584be34b156696b4044c4571afe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020747"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347263"
 ---
 # <a name="refund-on-a-return-order-is-declined"></a>O reembolso em uma ordem de devolução foi recusado
 
@@ -34,7 +34,7 @@ Um reembolso é recusado quando o cartão de crédito usado para faturar uma ord
 
 Os detalhes de autorização de pagamento incluirão a seguinte mensagem de erro: "Falha no gateway SendRequest() de Adyen com o status 'InternalServerError'.22144; Resposta vazia retornada de Adyen.(22001);"
 
-![Erro de reembolso recusado em uma ordem de devolução](media/refund-order-decline.jpg)
+![Erro de reembolso recusado em uma ordem de devolução.](media/refund-order-decline.jpg)
 
 ## <a name="resolution"></a>Resolução
 

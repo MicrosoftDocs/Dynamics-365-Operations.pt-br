@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 52aba53b5323a9c6c4331cd8de7e932bb9c3547e
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893192"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345729"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)
 
@@ -80,7 +80,7 @@ Pelos seguintes motivos relacionados a ER, é recomendável projetar configuraç
 
 As configurações de ER criadas no ambiente de desenvolvimento podem ser [carregadas](#data-persistence-consideration) no ambiente de teste da avaliação da configuração (integração adequada do processo, exatidão de resultados e desempenho) e do controle de qualidade, como exatidão dos direitos de acesso orientados a funções e diferenciação de direitos. Os recursos que permitem a troca de configuração de ER podem ser usados com essa finalidade. As configurações de ER comprovadas podem ser carregadas no LCS para compartilhá-las com assinantes de serviço ou podem ser [importadas](#data-persistence-consideration) para o ambiente de produção para uso interno.
 
-![Ciclo de vida da configuração do ER](./media/ger-configuration-lifecycle.png)
+![Ciclo de vida da configuração de ER.](./media/ger-configuration-lifecycle.png)
 
 ## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Consideração de persistência de dados
 

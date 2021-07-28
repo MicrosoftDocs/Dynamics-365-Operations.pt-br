@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 7fbec962fea374afdbabaad48a42dad380708678
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295564"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344873"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 
@@ -56,14 +56,14 @@ Você também deve baixar e armazenar localmente os arquivos a seguir.
 
 Cada rastreamento de desempenho de ER gerado no aplicativo é armazenado como um anexo do registro do log de execução. A estrutura de gerenciamento de documentos (DM) é usada para gerenciar esses anexos. Você deve configurar os parâmetros do ER antecipadamente para especificar o tipo de documento DM que deve ser usado para anexar rastreamentos de desempenho. No espaço de trabalho **Relatório eletrônico**, selecione **Parâmetros de relatório eletrônico**. Depois, na página **Parâmetros de relatório eletrônico**, na guia **Anexos**, no campo **Outros**, selecione o tipo de documento DM a ser usado para rastreamentos de desempenho.
 
-![Página de parâmetros de relatórios eletrônicos](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
+![Página de parâmetros de relatórios eletrônicos.](./media/GER-PerfTrace-GER-Parameters-DocumentType.png)
 
 Para estar disponível no campo de pesquisa **Outros**, um tipo de documento DM deve ser configurado da seguinte maneira na página **Tipos de documento** (**Administração da organização \> Gerenciamento de documentos \> Tipos de documento**):
 
 - **Classe:** anexar arquivo
 - **Grupo:** arquivo
 
-![Página Tipos de documento](./media/GER-PerfTrace-DM-DocumentType.png)
+![Página Tipos de documento.](./media/GER-PerfTrace-DM-DocumentType.png)
 
 > [!NOTE]
 > O tipo de documento selecionado deve estar disponível em todas as empresas da instância atual, porque os anexos do DM são específicos da empresa.
@@ -72,7 +72,7 @@ Para estar disponível no campo de pesquisa **Outros**, um tipo de documento DM 
 
 Os rastreamentos de desempenho do ER gerados serão importados para o RCS para análise usando o designer de formato do ER e o designer de mapeamento do ER. Como os rastreamentos de desempenho do ER são armazenados como anexos do registro de log de execução relacionado ao formato ER, você deve configurar os parâmetros do RCS antecipadamente, para especificar o tipo de documento DM que deve ser usado para anexar rastreamentos de desempenho. Na instância do RCS que foi provisionada para sua empresa, no espaço de trabalho **Relatório eletrônico**, selecione **Parâmetros de relatório eletrônico**. Depois, na página **Parâmetros de relatório eletrônico**, na guia **Anexos**, no campo **Outros**, selecione o tipo de documento DM a ser usado para rastreamentos de desempenho.
 
-![Página Parâmetros de relatório eletrônico no RCS](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
+![Página Parâmetros de relatório eletrônico no RCS.](./media/GER-PerfTrace-RCS-Parameters-DocumentType.png)
 
 Para estar disponível no campo de pesquisa **Outros**, um tipo de documento DM deve ser configurado da seguinte maneira na página **Tipos de documento** (**Administração da organização \> Gerenciamento de documentos \> Tipos de documento**):
 
@@ -92,7 +92,7 @@ Suponha que você tenha começado a criar uma solução de ER para gerar um novo
     2. Selecione **Procurar** para selecionar o arquivo apropriado para a configuração de ER necessária no formato XML.
     3. Selecione **OK**.
 
-    ![Página Configurações no RCS](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
+    ![Página Configurações no RCS.](./media/GER-PerfTrace-RCS-ImportedConfigurations.png)
 
 ## <a name="run-the-er-solution-to-trace-execution"></a>Executar a solução de ER para rastrear a execução
 
@@ -109,7 +109,7 @@ Suponha que você tenha terminado de criar a primeira versão da solução de ER
     3. Na Guia Rápida **Configurações**, selecione a configuração **Formato de rastreamento de desempenho**.
     4. Na Guia Rápida **Versões**, selecione a versão **1.1** da configuração selecionada e depois selecione **Importar**.
 
-    ![Página do repositório de configuração](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
+    ![Página do repositório de configuração.](./media/GER-PerfTrace-GER-ImportedConfigurations.png)
 
 As versões correspondentes do modelo de dados e as configurações de mapeamento de modelo são importadas automaticamente como pré-requisitos para a configuração importada do formato ER.
 
@@ -156,7 +156,7 @@ As versões correspondentes do modelo de dados e as configurações de mapeament
     > [!NOTE]
     > Os parâmetros na caixa de diálogo **Parâmetros de usuário** são específicos do usuário e da empresa atual.
 
-    ![Caixa de diálogo de parâmetros do usuário](./media/GER-PerfTrace-GER-UserParameters.png)
+    ![Caixa de diálogo de parâmetros do usuário.](./media/GER-PerfTrace-GER-UserParameters.png)
 
 ### <a name="run-the-er-format"></a><a id='run-format'></a>Executar o formato de ER
 
@@ -177,11 +177,11 @@ Os rastreamentos de desempenho são desacoplados do formato ER de origem e podem
 2. Na página **Logs de execução de relatórios eletrônicos**, no painel esquerdo, no campo **Nome da configuração**, selecione **Formato de rastreamento de desempenho** para encontrar os registros de log que foram gerados pela execução da configuração **Formato de rastreamento de desempenho**.
 3. Selecione o botão **Anexos** (o símbolo de clipe de papel) no canto superior direito da página ou pressione **Ctrl+Shift+A**.
 
-    ![Botão Anexos na página Logs de execução de relatórios eletrônicos](./media/GER-PerfTrace-GER-DebugLog.png)
+    ![Botão Anexos na página Logs de execução de relatórios eletrônicos.](./media/GER-PerfTrace-GER-DebugLog.png)
 
 4. Na página **Anexos para Logs de execução de relatórios eletrônicos**, no Painel de Ação, selecione **Abrir** para obter o rastreamento de desempenho como um arquivo zip e armazená-lo localmente.
 
-    ![Anexos para Logs de execução de relatórios eletrônicos](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
+    ![Anexos para Logs de execução de relatórios eletrônicos.](./media/GER-PerfTrace-GER-DebugLog-AttachedTrace.png)
 
 > [!NOTE]
 > O rastreamento gerado tem uma referência ao relatório ER de origem por meio de um identificador de relatório exclusivo no formato **GUID** apenas. A numeração de versão do formato não é considerada.
@@ -198,7 +198,7 @@ Observe que a associação entre o rastreamento de desempenho que foi gerado par
 6. Selecione **Procurar** para selecionar o arquivo zip que você exportou anteriormente.
 7. Selecione **OK**.
 
-    ![Caixa de diálogo Configurações de resultado de rastreamento de desempenho no RCS](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
+    ![Caixa de diálogo Configurações de resultado de rastreamento de desempenho no RCS.](./media/GER-PerfTrace-RCS-ImportedPerfTrace.png)
 
 ### <a name="use-the-performance-trace-for-analysis-in-rcs--format-execution"></a>Use o rastreamento de desempenho para análise no RCS - Execução de formato
 
@@ -209,7 +209,7 @@ Observe que a associação entre o rastreamento de desempenho que foi gerado par
     - O tempo real gasto ao inserir dados na saída gerada usando o item de formato
     - O mesmo tempo expresso como uma porcentagem do tempo total gasto gerando toda a saída
 
-    ![Página Designer de formatos no RCS](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
+    ![Página Designer de formatos no RCS.](./media/GER-PerfTrace-RCS-TraceInfoInFormat.png)
 
 2. Feche a página **Designer de formato**.
 
@@ -232,7 +232,7 @@ Observe que o ER informa que o mapeamento do modelo atual duplica as solicitaç�
 - Uma chamada é feita para inserir detalhes de cada transação no modelo de dados, com base nas ligações configuradas.
 - Uma chamada é feita para inserir o número calculado de transações por fornecedor no modelo de dados.
 
-![Mensagem sobre solicitações de banco de dados duplicadas na página Designer de mapeamento de modelo no RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
+![Mensagem sobre solicitações de banco de dados duplicadas na página Designer de mapeamento de modelo no RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1.png)
 
 O valor **\[Q:530\]** indica que a tabela VendTrans foi chamada 530 vezes para retornar um registro dessa tabela para a fonte de dados VendTable/\<Relations/VendTrans.VendTable\_AccountNum. O valor **\[530\]** indica que a fonte de dados VendTable/\<Relations/VendTrans.VendTable\_AccountNum foi chamada 530 vezes para retornar um registro dessa fonte de dados e inserir os detalhes dela no modelo de dados.
 
@@ -240,7 +240,7 @@ Recomendamos que você use o armazenamento em cache para a fonte de dados VendTa
 
 Também pode ser útil reduzir o número de chamadas feitas à fonte de dados LedgerTransTypeList. Essa fonte de dados é usada para associar cada valor da enumeração **LedgerTransType** a seu rótulo. Usando essa fonte de dados, você pode encontrar um rótulo apropriado e inseri-lo no modelo de dados para cada transação do fornecedor. O número atual de chamadas para essa fonte de dados (9.027) é bastante alto para 265 transações.
 
-![Página Designer de mapeamento de modelo no RCS, mostrando 9.027 chamadas para a fonte de dados](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
+![Página Designer de mapeamento de modelo no RCS, mostrando 9.027 chamadas para a fonte de dados.](./media/GER-PerfTrace-RCS-TraceInfoInMapping1a.png)
 
 ## <a name="improve-the-model-mapping-based-on-information-from-the-execution-trace"></a>Melhorar o mapeamento do modelo com base nas informações do rastreamento de execução
 
@@ -253,7 +253,7 @@ Também pode ser útil reduzir o número de chamadas feitas à fonte de dados Le
     3. Expanda o item **VendTable**, expanda a lista de relações um para muitos para a fonte de dados VendTable (o item **\<Relações**) e selecione o item **VendTrans.VendTable\_AccountNum**.
     4. Selecione **Cache**.
 
-    ![Configuração de cache para ajudar a impedir chamadas duplicadas](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
+    ![Configuração de cache para ajudar a impedir chamadas duplicadas.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache.png)
 
 2. Siga estas etapas para trazer a fonte de dados LedgerTransTypeList para o escopo da fonte de dados VendTable:
 
@@ -274,7 +274,7 @@ Também pode ser útil reduzir o número de chamadas feitas à fonte de dados Le
     3. Selecione o item **VendTable.\$TransType**.
     4. Selecione **Cache**.
 
-    ![Configuração de cache para o campo $TransType](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
+    ![Configuração de cache para o campo $TransType.](./media/GER-PerfTrace-RCS-ChangeMapping-Cache2.png)
 
 4. Siga estas etapas para alterar o campo **\$TransTypeRecord** para que ele comece a usar o campo **\$TransType** em cache:
 
@@ -329,19 +329,19 @@ Repita as etapas na seção [Use o rastreamento de desempenho para análise no R
 
 Observe que os ajustes feitos no mapeamento do modelo eliminaram consultas duplicadas no banco de dados. O número de chamadas para tabelas de banco de dados e fontes de dados para esse mapeamento de modelo também foi reduzido. Portanto, o desempenho de toda a solução de ER melhorou.
 
-![Informações de rastreamento da fonte de dados VendTable na página Designer de mapeamento de modelo no RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
+![Informações de rastreamento da fonte de dados VendTable na página Designer de mapeamento de modelo no RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2.png)
 
 Nas informações de rastreamento, o valor **\[12\]** da fonte de dados VendTable indica que essa fonte de dados foi chamada 12 vezes. O valor **\[Q:6\]** indica que seis chamadas foram convertidas em chamadas de banco de dados para a tabela VendTable. O valor **\[C:6\]** indica que os registros que foram obtidos do banco de dados foram armazenados em cache e seis outras chamadas foram processadas usando o cache.
 
 Observe que o número de chamadas para a fonte de dados LedgerTransTypeList foi reduzido de 9.027 para 240.
 
-![Informações de rastreamento da fonte de dados LedgerTransTypeList na página Designer de mapeamento de modelo no RCS](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
+![Informações de rastreamento da fonte de dados LedgerTransTypeList na página Designer de mapeamento de modelo no RCS.](./media/GER-PerfTrace-RCS-TraceInfoInMapping2a.png)
 
 ## <a name="review-the-execution-trace-in-the-application"></a>Revisar o rastreamento de execução do aplicativo
 
 Além do RCS, algumas versões podem oferecer recursos para uma experiência de designer de estrutura de ER. Essas versões têm uma opção **Habilitar o modo de design** que pode ser ativada. Você pode encontrar essa opção na guia **General** da página **Parâmetros de relatório eletrônico**, que pode ser aberta no espaço de trabalho **Relatório eletrônico**.
 
-![Habilitar a opção do modo de design da página de parâmetros de relatórios eletrônicos](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
+![Habilitar a opção do modo de design da página de parâmetros de relatórios eletrônicos.](./media/GER-PerfTrace-GER-Parameters-DesignMode.png)
 
 Se usar uma dessas versões, você poderá analisar os detalhes dos rastreamentos de desempenho gerados diretamente no aplicativo. Você não precisa exportá-los do aplicativo e importá-los para o RCS.
 
@@ -359,7 +359,7 @@ Repita as etapas na seção [Executar o formato de ER](#run-format) anterior nes
 
 Observe que o navegador da Web oferece um arquivo zip para download. Este arquivo contém o rastreamento de desempenho no formato PerfView. Você pode então usar a ferramenta de análise de desempenho do PerfView para analisar os detalhes da execução do formato ER.
 
-![informações de rastreamento de desempenho no formato PerfView](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+![informações de rastreamento de desempenho no formato PerfView.](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
 
 ## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>Use ferramentas externas para revisar um rastreamento de execução que inclua consultas a bancos de dados
 
@@ -375,7 +375,7 @@ Devido as melhorias feitas na estrutura de ER, o rastreamento de desempenho que 
     - Defina a opção **Coletar estatísticas da consulta** como **Sim**.
     - Defina a opção **Rastrear consulta** como **Sim**.
 
-    ![Seção de rastreamento de execução, caixa de diálogo Parâmetros do usuário](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+    ![Seção de rastreamento de execução, caixa de diálogo Parâmetros do usuário.](./media/GER-PerfTrace2-GER-UserParameters.PNG)
 
 ### <a name="run-the-er-format"></a>Executar o formato de ER
 
@@ -383,7 +383,7 @@ Repita as etapas na seção [Executar o formato de ER](#run-format) anterior nes
 
 Observe que o navegador da Web oferece um arquivo zip para download. Este arquivo contém o rastreamento de desempenho no formato PerfView. Você pode então usar a ferramenta de análise de desempenho do PerfView para analisar os detalhes da execução do formato ER. Este rastreamento agora inclui os detalhes de acesso do banco de dados SQL durante a execução do formato ER.
 
-![Informações de rastreamento para o formato ER executado em PerfView](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
+![Informações de rastreamento para o formato ER executado em PerfView.](./media/GER-PerfTrace2-PerfViewTrace2.PNG)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

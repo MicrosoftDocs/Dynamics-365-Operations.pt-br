@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2021-02-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 810592bcbe11b03753c12ab7bfe6160d3e9233ee
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: 5aa67673fe05394f498d0844b8e58ba6f0ec1d85
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049307"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346073"
 ---
 # <a name="install-and-connect-the-warehouse-management-mobile-app"></a>Instalar e conectar o aplicativo móvel Gerenciamento de depósito
 
@@ -78,28 +78,28 @@ Para permitir que o aplicativo móvel Gerenciamento de depósito interaja com um
 1. Insira o nome e a senha do usuário que tem acesso à assinatura do Azure.
 1. No portal do Azure, no painel de navegação à esquerda, selecione **Azure Active Directory**.
 
-    ![Azure Active Directory](media/app-connect-azure-aad.png "Azure Active Directory")
+    ![Azure Active Directory.](media/app-connect-azure-aad.png "Azure Active Directory")
 
 1. Certifique-se de que esteja trabalhando com a instância do Azure AD usada pelo Supply Chain Management.
 1. Na lista **Gerenciar**, selecione **Registros de aplicativos**.
 
-    ![Registros de aplicativos](media/app-connect-azure-register.png "Registros de aplicativos")
+    ![Registros de aplicativos.](media/app-connect-azure-register.png "Registros de aplicativos")
 
 1. Na barra de ferramentas, selecione **Novo registro** para abrir o assistente **Registrar um aplicativo**.
 1. Insira um nome para o aplicativo, selecione **Contas somente neste diretório organizacional** e clique em **Registrar**.
 
-    ![Assistente Registrar um aplicativo](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
+    ![Assistente Registrar um aplicativo.](media/app-connect-azure-register-wizard.png "Assistente Registrar um aplicativo")
 
 1. O novo registro de aplicativo é aberto. Anote o valor da **ID do aplicativo (cliente)**, porque você precisará dele mais tarde. A ID será mencionada posteriormente neste tópico como *ID do cliente*.
 
-    ![ID do aplicativo (cliente)](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
+    ![ID do aplicativo (cliente).](media/app-connect-azure-app-id.png "ID do aplicativo (cliente)")
 
 1. Clique na lista **Gerenciar**, selecione **Certificado e segredos**. Em seguida, selecione um dos seguintes botões, dependendo de como deseja configurar o aplicativo para autenticação. (Para obter mais informações, consulte a seção [Autenticar usando um certificado ou segredo do cliente](#authenticate) posteriormente neste tópico.)
 
     - **Carregar certificado** – carregar um certificado para usá-lo como segredo. Recomendamos essa abordagem porque é mais segura e porque também pode ser automatizada de modo mais completo. Se você estiver executando o aplicativo Gerenciamento de depósito em dispositivos Windows, anote o valor de **Impressão digital** exibido depois que você carrega o certificado. Você precisará desse valor ao configurar o certificado em dispositivos Windows.
     - **Novo segredo do cliente** – crie uma chave inserindo uma descrição de chave e uma duração na seção **Senhas** e depois clique em **Adicionar**. Faça uma cópia da chave e armazene-a com segurança.
 
-    ![Certificado e segredos](media/app-connect-azure-authentication.png "Certificado e segredos")
+    ![Certificado e segredos.](media/app-connect-azure-authentication.png "Certificado e segredos")
 
 Para obter mais informações sobre como configurar os aplicativos de serviço no Azure AD, consulte os seguintes recursos:
 
@@ -119,7 +119,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
     1. Crie um usuário.
     1. Atribua o usuário do dispositivo móvel do depósito.
 
-    ![Atribua o usuário do dispositivo móvel do depósito](media/app-connect-app-users.png "Atribua o usuário do dispositivo móvel do depósito")
+    ![Atribua o usuário do dispositivo móvel do depósito.](media/app-connect-app-users.png "Atribua o usuário do dispositivo móvel do depósito")
 
 1. Associe o aplicativo Azure AD ao usuário do aplicativo Gerenciamento de depósito:
 
@@ -127,7 +127,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
     1. Criar uma linha.
     1. Insira a ID de cliente para a qual você criou uma nota na seção anterior, atribua um nome a ela e selecione o usuário que acabou de criar. Recomendamos marcar todos os dispositivos. Se um dispositivo for perdido, você conseguirá remover facilmente o acesso ao Supply Chain Management nessa página.
 
-    ![Aplicativos do Azure Active Directory](media/app-connect-aad-apps.png "Aplicativos do Azure Active Directory")
+    ![Aplicativos do Azure Active Directory.](media/app-connect-aad-apps.png "Aplicativos do Azure Active Directory")
 
 ## <a name="authenticate-by-using-a-certificate-or-client-secret"></a><a name="authenticate"></a>Autenticar usando um certificado ou segredo do cliente
 
@@ -213,30 +213,30 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
 
 1. Inicie o aplicativo Gerenciamento de depósito no dispositivo móvel. Na primeira vez que você iniciar o aplicativo, será exibida uma mensagem de boas-vindas. Selecione **Selecionar uma conexão**.
 
-    ![Mensagem de boas-vindas](media/app-configure-welcome-screen.png "Mensagem de boas-vindas")
+    ![Mensagem de boas-vindas.](media/app-configure-welcome-screen.png "Mensagem de boas-vindas")
 
 1. Se você estiver importando as configurações de conexão de um arquivo e o nome e o local padrão tiverem sido usados ao salvá-lo, talvez o aplicativo já tenha encontrado o arquivo. Neste caso, pule para a etapa 4. Caso contrário, selecione **Configurar conexão** e vá para a etapa 3.
 
-    ![Configurar conexão](media/app-configure-set-up-connection.png "Configurar conexão")
+    ![Configurar conexão.](media/app-configure-set-up-connection.png "Configurar conexão")
 
 1. Na caixa de diálogo **Configuração de conexão**, selecione **Adicionar do arquivo** ou **Adicionar do código QR**, dependendo de como você deseja importar as configurações:
 
     - Se estiver importando as configurações de conexão de um arquivo, selecione **Adicionar do arquivo**, navegue até o arquivo no dispositivo local e selecione-o. Se você selecionar um local personalizado, o aplicativo o armazenará e o utilizará na próxima vez.
     - Se você estiver importando as configurações de conexão ao digitalizar um código QR, selecione **Adicionar do código QR**. O aplicativo solicita a permissão para usar a câmera do dispositivo. Depois de conceder a permissão, a câmera será iniciada para que você possa usá-la na digitalização. Dependendo da qualidade da câmera do dispositivo e da complexidade do código QR, pode ser difícil obter uma digitalização correta. Nesse caso, tente reduzir a complexidade do código QR gerando apenas uma conexão por código QR. (Atualmente, é possível usar somente a câmera do dispositivo para digitalizar o código QR.)
 
-    ![Menu de configuração de conexão](media/app-configure-connection-setup-flyout.png "Menu de configuração de conexão")
+    ![Menu de configuração de conexão.](media/app-configure-connection-setup-flyout.png "Menu de configuração de conexão")
 
 1. Quando as configurações de conexão são carregadas com êxito, a conexão selecionada é mostrada.
 
-    ![Configurações de conexão carregadas](media/app-configure-select-connection.png "Configurações de conexão carregadas")
+    ![Configurações de conexão carregadas.](media/app-configure-select-connection.png "Configurações de conexão carregadas")
 
 1. Se você estiver usando um dispositivo Android e estiver usando um certificado para autenticação, o dispositivo solicitará a seleção do certificado.
 
-    ![Solicitação Selecionar certificado em um dispositivo Android](media/app-configure-select-certificate.png "Solicitação Selecionar certificado em um dispositivo Android")
+    ![Solicitação Selecionar certificado em um dispositivo Android.](media/app-configure-select-certificate.png "Solicitação Selecionar certificado em um dispositivo Android")
 
 1. O aplicativo se conecta ao servidor do Supply Chain Management e mostra a página de entrada.
 
-    ![Página de entrada](media/app-configure-sign-in-page.png "Página de entrada")
+    ![Página de entrada.](media/app-configure-sign-in-page.png "Página de entrada")
 
 ## <a name="manually-configure-the-application"></a><a name="config-manually"></a>Configurar o aplicativo manualmente
 
@@ -246,15 +246,15 @@ Se você não tiver um arquivo ou código QR, é possível configurar o aplicati
 1. Se o aplicativo for iniciado no **Modo de demonstração**, selecione **Configurações de conexão**. Se a página **Entrar** aparecer quando o aplicativo for iniciado, selecione **Alterar conexão**.
 1. Selecione **Configurar conexão**.
 
-    ![Configurar conexão](media/app-configure-set-up-connection.png "Configurar conexão")
+    ![Configurar conexão.](media/app-configure-set-up-connection.png "Configurar conexão")
 
 1. Selecione **Inserir manualmente**.
 
-    ![Menu de configuração de conexão](media/app-configure-connection-setup-flyout.png "Menu de configuração de conexão")
+    ![Menu de configuração de conexão.](media/app-configure-connection-setup-flyout.png "Menu de configuração de conexão")
 
     A página **Nova conexão** aparece e mostra as configurações necessárias para inserir manualmente os detalhes da conexão.
 
-    ![Campos de conexão manual](media/app-configure-input-manually.png "Campos de conexão manual")
+    ![Campos de conexão manual.](media/app-configure-input-manually.png "Campos de conexão manual")
 
 1. Digite as seguintes informações:
 

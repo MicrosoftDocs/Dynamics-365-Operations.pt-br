@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: a8609cb026e7738eab96980bc9fe4a53340272eb
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e4245f5951cc4891b378f2343a1563ced33bc937
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5743572"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345831"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rastrear resultados gerados de relatórios e compará-los com os valores de linha de base
 
@@ -52,7 +52,7 @@ Para concluir as etapas deste exemplo, primeiro conclua as etapas em [Criar prov
 2. No campo **Classe**, insira **Anexar arquivo**.
 3. No campo **Grupo**, insira **Arquivo**.
 
-![Página Tipos de documento](media/GER-BaselineSample-SetupDocumentType.PNG "Captura de tela da página Tipos de documento")
+![Página Tipos de documento.](media/GER-BaselineSample-SetupDocumentType.PNG "Captura de tela da página Tipos de documento")
 
 > [!NOTE]
 > Um novo tipo de documento que tem o mesmo nome deve ser configurado para cada conjunto de dados em que você pretende usar o recurso de linha de base do ER.
@@ -61,11 +61,11 @@ Para concluir as etapas deste exemplo, primeiro conclua as etapas em [Criar prov
 
 1. No espaço de trabalho **Relatório eletrônico**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 
-    ![Espaço de trabalho de relatório eletrônico](media/GER-BaselineSample-ERWorkspace.PNG "Captura de tela do espaço de trabalho Relatório eletrônico")
+    ![Espaço de trabalho de relatório eletrônico.](media/GER-BaselineSample-ERWorkspace.PNG "Captura de tela do espaço de trabalho Relatório eletrônico")
 
 2. Na guia **Anexos**, no campo **Linha de base**, insira ou selecione o tipo de documento que você acabou de criar.
 
-    ![Guia Anexos da página Parâmetros de Relatório eletrônico](media/GER-BaselineSample-ERParameters.PNG "Captura de tela dos parâmetros de Relatório eletrônico")
+    ![Guia Anexos da página Parâmetros de Relatório eletrônico.](media/GER-BaselineSample-ERParameters.PNG "Captura de tela dos parâmetros de Relatório eletrônico")
 
 3. Selecione **Salvar** e feche a página **Parâmetros de relatório eletrônico**.
 
@@ -76,7 +76,7 @@ Para concluir as etapas deste exemplo, primeiro conclua as etapas em [Criar prov
 3. Na caixa de diálogo suspensa, no campo **Nome** , insira **Modelo para aprender linhas de base de ER**.
 4. Selecione **Criar configurações** para confirmar a criação de uma nova entrada do modelo de dados de ER.
 
-![Caixa de diálogo suspensa Criar configuração](media/GER-BaselineSample-ModelAdd.PNG "Captura de tela da caixa de diálogo suspensa Criar configuração")
+![Caixa de diálogo suspensa Criar configuração.](media/GER-BaselineSample-ModelAdd.PNG "Captura de tela da caixa de diálogo suspensa Criar configuração")
 
 ### <a name="design-a-data-model"></a>Crie um modelo de dados
 
@@ -90,7 +90,7 @@ Para concluir as etapas deste exemplo, primeiro conclua as etapas em [Criar prov
 8. Selecione **Alterar status**.
 9. Selecione **Concluir** e, depois, **OK**.
 
-![Página Configurações](media/GER-BaselineSample-ModelComplete.PNG "Captura de tela da página Configurações")
+![Página Configurações.](media/GER-BaselineSample-ModelComplete.PNG "Captura de tela da página Configurações")
 
 ### <a name="add-a-new-er-format-configuration"></a>Adicionar uma nova configuração de formato de ER
 
@@ -99,7 +99,7 @@ Para concluir as etapas deste exemplo, primeiro conclua as etapas em [Criar prov
 3. No campo **Nome**, insira **Formato para aprender linhas de base de ER**.
 4. Selecione **Criar configurações** para confirmar a criação de uma nova entrada de formato de ER.
 
-![Caixa de diálogo suspensa Criar configuração](media/GER-BaselineSample-FormatAdd.PNG "Captura de tela da caixa de diálogo suspensa Criar configuração")
+![Caixa de diálogo suspensa Criar configuração.](media/GER-BaselineSample-FormatAdd.PNG "Captura de tela da caixa de diálogo suspensa Criar configuração")
 
 ### <a name="design-a-format"></a>Criar um formato
 
@@ -128,7 +128,7 @@ Para este exemplo, você criará um formato simples de ER para gerar documentos 
     2. No campo **Nome**, insira **ID**.
     3. Selecione **OK**.
 
-    ![Página do designer de formatos](media/GER-BaselineSample-FormatLayoutDesign.PNG "Captura de tela da página Designer de formato")
+    ![Página do designer de formatos.](media/GER-BaselineSample-FormatLayoutDesign.PNG "Captura de tela da página Designer de formato")
 
 8. Na guia **Mapeamento**, selecione **Excluir**.
 9. Selecione **Adicionar raiz**.
@@ -141,7 +141,7 @@ Para este exemplo, você criará um formato simples de ER para gerar documentos 
 11. Na árvore, selecione **Saída\\Documento\\Id**.
 12. Selecione **Associar** e, depois, **Salvar**.
 
-![Página do designer de formatos](media/GER-BaselineSample-FormatMappingDesign.PNG "Captura de tela da página Designer de formato")
+![Página do designer de formatos.](media/GER-BaselineSample-FormatMappingDesign.PNG "Captura de tela da página Designer de formato")
 
 Com base na estrutura criada, o formato configurado gerará um arquivo XML. Este XML contém o elemento **Raiz** que tem o atributo **ID** definido para o valor que o usuário insere na caixa de diálogo de tempo de execução de ER.
 
@@ -151,11 +151,11 @@ Com base na estrutura criada, o formato configurado gerará um arquivo XML. Este
 2. No campo **Inserir ID**, digite **1**.
 3. Selecione **OK**.
 
-    ![Caixa de diálogo Parâmetros de Relatório eletrônico](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Captura de tela da caixa de diálogo Parâmetros de Relatório eletrônico")
+    ![Caixa de diálogo Parâmetros de relatório eletrônico.](media/GER-BaselineSample-FormatRunToMakeBaselineFile1.PNG "Captura de tela da caixa de diálogo Parâmetros de Relatório eletrônico")
 
 4. Salve uma cópia local do arquivo **out.Admin.xml** gerado para poder usá-lo posteriormente como uma linha de base para este formato de ER.
 
-    ![Notificação sobre o arquivo gerado na página Configurações](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Captura de tela da notificação sobre o arquivo gerado na página Configurações")
+    ![Notificação sobre o arquivo gerado na página Configurações.](media/GER-BaselineSample-FormatRunToMakeBaselineFile2.PNG "Captura de tela da notificação sobre o arquivo gerado na página Configurações")
 
 ### <a name="configure-er-parameters-to-use-the-baseline-feature"></a>Configurar parâmetros do ER para usar o recurso de linha de base
 
@@ -163,20 +163,20 @@ Com base na estrutura criada, o formato configurado gerará um arquivo XML. Este
 2. Defina a opção **Executar no modo de depuração** como **Sim**.
 3. Selecione **OK**.
 
-![Caixa de diálogo de parâmetros do usuário](media/GER-BaselineSample-ERUserParameters.PNG "Captura de tela da caixa de diálogo Parâmetros de usuário")
+![Caixa de diálogo de parâmetros do usuário.](media/GER-BaselineSample-ERUserParameters.PNG "Captura de tela da caixa de diálogo Parâmetros de usuário")
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Adicione uma nova linha base para formato de ER criado
 
 1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. No Painel de Ações, selecione **Linhas de base**.
 
-    ![Botão Linhas de base na página Configurações](media/GER-BaselineSample-OpenBaselinePage.PNG "Captura de tela do botão Linhas de base na página Configurações")
+    ![Botão Linhas de base na página Configurações.](media/GER-BaselineSample-OpenBaselinePage.PNG "Captura de tela do botão Linhas de base na página Configurações")
 
 3. No Painel de Ações, selecione **Novo**.
 4. Selecione o formato ER **Formato para aprender linhas de base de ER** que você criou anteriormente.
 5. Selecione **Salvar**.
 
-![Página Linhas de base de formato de relatório eletrônico](media/GER-BaselineSample-AddBaseline.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
+![Página de linhas de base de formato de relatório eletrônico.](media/GER-BaselineSample-AddBaseline.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
 
 A linha de base será adicionada para o formato **Formato para aprender linhas de base de ER**.
 
@@ -186,7 +186,7 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 2. No Painel de Ações, selecione **Novo** \> **Arquivo**. Nos parâmetros de ER, o tipo de documento **Arquivo** deve ter sido selecionado anteriormente como o tipo de documento usado para armazenar arquivos de linha de base.
 3. Selecione **Procurar** e o arquivo **out.Admin.xml** gerado quando você executou o formato do ER configurado antes.
 
-    ![Página Anexos](media/GER-BaselineSample-UploadBaselineFile.PNG "Captura de tela da página Anexos")
+    ![Página Anexos.](media/GER-BaselineSample-UploadBaselineFile.PNG "Captura de tela da página Anexos")
 
 4. Feche a página **Anexos**.
 5. Na Guia Rápida **Linhas de base**, selecione **Novo**.
@@ -201,7 +201,7 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 10. No campo **Linha de base**, insira ou selecione o anexo **out.Admin**.
 11. Selecione **Salvar**.
 
-![Página Linhas de base de formato de relatório eletrônico](media/GER-BaselineSample-SetupBaselineLine.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
+![Página de linhas de base de formato de relatório eletrônico.](media/GER-BaselineSample-SetupBaselineLine.PNG "Captura de tela da página Linhas de base do formato de relatório eletrônico")
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Execute o formato de ER criado e verifique o log para analisar os resultados
 
@@ -212,7 +212,7 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 5. Selecione **OK**.
 6. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 
-    ![Página Logs de execução de Relatórios eletrônicos](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de tela da página Logs de execução de Relatórios eletrônicos")
+    ![Página Logs de execução de Relatórios eletrônicos.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de tela da página Logs de execução de Relatórios eletrônicos")
 
     > [!NOTE]
     > O log de execução contém informações sobre os resultados da comparação do arquivo gerado com a linha de base configurada. Neste exemplo, o log indica que o arquivo gerado e a linha de base são iguais.
@@ -228,7 +228,7 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 5. Selecione **OK**.
 6. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 
-    ![Página Logs de execução de Relatórios eletrônicos](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de tela da página Logs de execução de Relatórios eletrônicos")
+    ![Página Logs de execução de Relatórios eletrônicos.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de tela da página Logs de execução de Relatórios eletrônicos")
 
     > [!NOTE]
     > O log de execução contém informações sobre os resultados da comparação do arquivo gerado com a linha de base configurada. Neste exemplo, o log indica que o arquivo gerado e a linha de base são diferentes.

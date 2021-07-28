@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-09-20
-ms.openlocfilehash: 5a18fed2eac4c120dca20a1d7797d047639275b9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 70904ee716aabd019210e92895a894810bde27fb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750585"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346511"
 ---
 # <a name="switch-between-vendor-designs"></a>Alternar entre designs de fornecedor
 
@@ -48,14 +48,14 @@ Para criar processos de fluxo de trabalho usando os modelos de processo de fluxo
 
 1. Crie um processo de fluxo de trabalho para a tabela **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Criar Fornecedores na Tabela Contas**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de criação de fornecedores para a tabela **Conta**.
 
-    ![Processo de fluxo de trabalho Criar Fornecedores na Tabela Contas](media/create_process.png)
+    ![Processo de fluxo de trabalho Criar Fornecedores na Tabela Contas.](media/create_process.png)
 
 2. Crie um processo de fluxo de trabalho para a tabela **Fornecedor** e selecione o modelo de processo de fluxo de trabalho **Atualizar Fornecedores na Tabela Contas**. Em seguida, selecione **OK**. Este fluxo de trabalho lida com o cenário de atualização de fornecedores para a tabela **Conta**.
 3. Crie um processo de fluxo de trabalho para a tabela **Conta** e selecione o modelo de processo de fluxo de trabalho **Criar Fornecedores na Tabela Fornecedores**.
 4. Crie um processo de fluxo de trabalho para a tabela **Conta** e selecione o modelo de processo de fluxo de trabalho **Atualizar Fornecedores na Tabela Fornecedores**.
 5. Você pode configurar os fluxos de trabalho como fluxos de trabalho em tempo real ou em segundo plano de acordo com seus requisitos. Para configurar um fluxo de trabalho como um fluxo de trabalho em segundo plano, selecione **Converter para fluxo de trabalho em segundo plano**.
 
-    ![Botão Converter para fluxo de trabalho em segundo plano](media/background_workflow.png)
+    ![Botão Converter para fluxo de trabalho em segundo plano.](media/background_workflow.png)
 
 6. Ative os fluxos de trabalho que você criou para as tabelas **Conta** e **Fornecedor** a fim de começar a usar a tabela **Conta** para armazenar informações de fornecedores do tipo **Organização**.
 

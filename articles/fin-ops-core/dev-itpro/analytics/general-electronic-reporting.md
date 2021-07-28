@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.custom: 58941
+ms.custom:
+- "58941"
+- intro-internal
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 26088a01b0e849a5df559631591ec65d7885452b
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 05c77b913c1c2281ca45a3dea8fef2223a1dcfbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944356"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345681"
 ---
 # <a name="electronic-reporting-er-overview"></a>Visão geral de Relatório eletrônico (ER)
 
@@ -101,7 +103,7 @@ Um componente de formato permite anexar arquivos específicos que podem ser usad
 
 A ilustração a seguir mostra como os dados fluem para esses formatos.
 
-[![Fluxo de dados para os componentes de formato de saída](./media/ER-overview-02.png)](./media/ER-overview-02.png)
+[![Fluxo de dados para os componentes de formato de saída.](./media/ER-overview-02.png)](./media/ER-overview-02.png)
 
 Para executar uma única configuração de formato ER e gerar um documento eletrônico de saída é preciso identificar o mapeamento da configuração de formato.
 
@@ -115,7 +117,7 @@ Um componente de formato é o esquema do documento de entrada que é importado e
 
 A ilustração a seguir mostra como os dados fluem para esses formatos.
 
-[![Fluxo de dados para os componentes de formato de entrada](./media/ER-overview-03.png)](./media/ER-overview-03.png)
+[![Fluxo de dados para os componentes de formato de entrada.](./media/ER-overview-03.png)](./media/ER-overview-03.png)
 
 Para executar uma única configuração de formato de ER para importar dados de um documento eletrônico de entrada, é preciso identificar o mapeamento desejado de uma configuração de formato, e também o ponto de integração de um mapeamento de modelo. Você pode usar o mesmo mapeamento de modelo e destinos juntamente com diferentes formatos para diferentes tipos de documentos recebidos.
 
@@ -290,7 +292,7 @@ O ER permite adotar automaticamente alterações na última versão do component
 
 A lista de configurações de er para finanças é constantemente atualizada. Abra o [repositório global](er-download-configurations-global-repo.md) para revisar a lista de configurações de ER que têm suporte no momento. Na guia rápida **Detalhes de descontinuação**, você pode analisar as informações sobre as configurações que foram descontinuadas ou que não são mais mantidas. 
 
-![Conteúdo do repositório global na página Repositório de configuração](./media/er-overview-03.gif)
+![Conteúdo do repositório global na página Repositório de configuração.](./media/er-overview-03.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

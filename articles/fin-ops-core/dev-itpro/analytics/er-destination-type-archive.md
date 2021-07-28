@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 079eda04fcc41fc637419a83452db10b89ed1ab9
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: a9e0f07241de003dd2971e0d336f89795ad1319b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894019"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348011"
 ---
 # <a name="archive-er-destination-type"></a>Tipo de destino de ER do arquivo
 
@@ -30,7 +30,7 @@ Você pode configurar um destino de arquivo para cada componente de **Pasta** ou
 
 Você pode usar essa opção para enviar o documento gerado para uma pasta do Microsoft SharePoint ou para o Armazenamento do Microsoft Azure. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os [tipos](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) de documento em **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
-[![Página Tipos de documento](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
+[![Página Tipos de documento.](./media/ER_Destinations-SharePointDocuType.png)](./media/ER_Destinations-SharePointDocuType.png)
 
 O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultado poderão ser salvos no Arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos arquivados de relatórios eletrônicos**.
 
@@ -41,7 +41,7 @@ O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** 
 
 Você pode salvar um arquivo em uma pasta designada do SharePoint. Para definir o servidor padrão do SharePoint, vá para **Administração da organização** \> **Gerenciamento de documentos** \> **Parâmetros de gerenciamento de documentos**. Na guia **SharePoint**, configure a pasta SharePoint. Em seguida, você pode selecioná-la como a pasta na qual a saída do ER será salva. O local do **SharePoint** deve ser selecionado nesse tipo de documento.
 
-[![Selecionando uma pasta do SharePoint](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
+[![Selecionando uma pasta do SharePoint.](./media/ER_Destinations-SharePointDocuTypeLocation.png)](./media/ER_Destinations-SharePointDocuTypeLocation.png)
 
 ## <a name="azure-storage"></a>Armazenamento do Azure
 

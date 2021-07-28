@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: c87bfa057fd2808551674f2acb9d654ad47e9a42
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11f5a77dc9d36436c8ab3e0634dc98aa5d2f35ac
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825653"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347131"
 ---
 # <a name="fault-management"></a>Gerenciamento de falhas
 
@@ -106,7 +106,7 @@ No designer de falhas, você configura os dados das falhas nos tipos de ativos.
 
 7. Selecione **Salvar** para salvar as alterações.
 
-![Página do designer de falha](media/21-setup-for-work-orders.png)
+![Página do designer de falha.](media/21-setup-for-work-orders.png)
 
 ## <a name="create-fault-causes"></a>Criar causas de falha
 

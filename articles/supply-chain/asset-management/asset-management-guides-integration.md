@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2020-04-28
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 50cfea6656e1f13532b018784fa64b2aac10fc7f
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 3793dca681e28b90e96469256f368620393704f2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908558"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344261"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrar Dynamics 365 Supply Chain Management (Gerenciamento de ativos) com Dynamics 365 Guides
 
@@ -56,38 +56,38 @@ Para associar uma guia a um modelo da lista de verificação de manutenção, si
     1. Na Guia Rápida **Linhas da lista de verificação de manutenção**, selecione a linha com a qual você deseja associar a guia.
     1. Na Guia Rápida **Guias associadas**, selecione **Adicionar guia**.
 
-        ![Associar uma guia a uma linha da lista de verificação de manutenção](media/am-guides-integration-add-guide.png "Associar uma guia a uma linha da lista de verificação de manutenção")
+        ![Associar uma guia a uma linha da lista de verificação de manutenção.](media/am-guides-integration-add-guide.png "Associar uma guia a uma linha da lista de verificação de manutenção")
 
     1. No campo **Nome**, selecione uma guia, e depois seleciona **Salvar**.
 
-        ![Selecionar uma guia no campo Nome](media/am-guides-integration-select-guide.png "Selecionar uma guia no campo Nome")
+        ![Selecionar uma guia no campo Nome.](media/am-guides-integration-select-guide.png "Selecionar uma guia no campo Nome")
 
 1. Associar o modelo da lista de verificação de manutenção a um tipo de trabalho:
 
     1. [Crie um tipo de trabalho de manutenção](setup-for-work-orders/job-groups-and-job-types-variants-trades-and-checklists.md#create-a-maintenance-job-type) ou selecione um tipo de trabalho de manutenção existente.
     1. No Painel de Ações, selecione **Padrões de tipos de trabalho de manutenção**.
 
-        ![Botão Padrões do tipo de trabalho de manutenção](media/am-guides-integration-job-defaults.png "Botão Padrões do tipo de trabalho de manutenção")
+        ![Botão Padrões do tipo de trabalho de manutenção.](media/am-guides-integration-job-defaults.png "Botão Padrões do tipo de trabalho de manutenção")
 
     1. Crie uma linha e selecione **Salvar**.
 
-        ![Criar uma linha](media/am-guides-integration-add-line.png "Criar uma linha")
+        ![Criar uma linha.](media/am-guides-integration-add-line.png "Criar uma linha")
 
     1. No Painel de Ação, selecione **Lista de verificação de manutenção**.
 
-        ![Botão Lista de verificação de manutenção](media/am-guides-integration-maintenance-checklist.png "Botão Lista de verificação de manutenção")
+        ![Botão Lista de verificação de manutenção.](media/am-guides-integration-maintenance-checklist.png "Botão Lista de verificação de manutenção")
 
     1. Na Guia Rápida **Linhas da lista de verificação de manutenção**, adicione uma linha e mude o valor do campo **Tipo** como **Modelo**.
 
-        ![Alterar o Valor do tipo](media/am-guides-integration-checklist-lines.png "Alterar o Valor do tipo")
+        ![Alterar o Valor do tipo.](media/am-guides-integration-checklist-lines.png "Alterar o Valor do tipo")
 
     1. Na Guia Rápida **Detalhes da linha**, no campo **Modelo**, selecione o modelo que você associou com a guia e selecione **Salvar**.
 
-        ![Selecione o modelo](media/am-guides-integration-checklist-line-details.png "Selecione o modelo")
+        ![Selecione o modelo.](media/am-guides-integration-checklist-line-details.png "Selecione o modelo")
 
 1. [Crie uma ordem de trabalho](work-orders/manually-created-workorders.md#create-work-order) e selecione o tipo de trabalho de manutenção que usa o modelo de lista de verificação de manutenção com o qual você associou a guia. A guia é automaticamente associada à ordem de trabalho.
 
-    ![Selecione um tipo de trabalho de manutenção](media/am-guides-integration-create-work-order.png "Selecione um tipo de trabalho de manutenção")
+    ![Selecione um tipo de trabalho de manutenção.](media/am-guides-integration-create-work-order.png "Selecione um tipo de trabalho de manutenção")
 
 1. Exiba a guia associada à ordem de trabalho e aos trabalhadores:
 
@@ -95,11 +95,11 @@ Para associar uma guia a um modelo da lista de verificação de manutenção, si
     1. [Abra a lista de verificação de manutenção](asset-management-mobile-workspace.md#view-maintenance-checklist-on-a-work-order-job) para a ordem de trabalho.
     1. Selecione uma linha da lista de verificação para ver a guia associada.
 
-        ![Guia associada a uma linha da lista de verificação](media/am-guides-integration-show-guide.png "Guia associado a uma linha da lista de verificação")
+        ![Guia associada a uma linha da lista de verificação.](media/am-guides-integration-show-guide.png "Guia associado a uma linha da lista de verificação")
 
     1. Abrir a guia no HoloLens.
 
-        ![Abrir a guia no HoloLens](media/am-guides-integration-hololens-select.png "Abrir a guia no HoloLens")
+        ![Abrir a guia no HoloLens.](media/am-guides-integration-hololens-select.png "Abrir a guia no HoloLens")
 
 > [!NOTE]
 > Também é possível associar uma guia diretamente na lista de verificação de manutenção de uma ordem de trabalho ou de um tipo de trabalho.

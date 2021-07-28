@@ -13,29 +13,35 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 87efbf7063de373e1e0b844ff1b942cdaab4a021
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 57501d07f6b9cffdff9f37737df8c278c574cf30
+ms.sourcegitcommit: 89bb2a7f402deed32998eddc1e56e75250e3d15e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055043"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "6314276"
 ---
 # <a name="payroll-employee"></a>Funcionário da folha de pagamento
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este tópico fornece detalhes e um exemplo de consulta da entidade Funcionário da folha de pagamento no Dynamics 365 Human Resources.
+Este tópico descreve a entidade Funcionário da folha de pagamento para o Dynamics 365 Human Resources.
+
+Nome físico: mshr_payrollemployeeentity.
+
+### <a name="description"></a>descrição
+
+Esta entidade fornece informações sobre o funcionário. Você deve definir os [parâmetros de integração de folha de pagamento](hr-admin-integration-payroll-api-parameters.md) antes de usar esta entidade.
 
 ## <a name="properties"></a>Propriedades
 
-| Propriedade<br>**Nome físico**<br>**_Tipo_** | Uso | Descrição |
+| Propriedade<br>**Nome físico**<br>**_Tipo_** | Usar | descrição |
 | --- | --- | --- |
 | **Número da equipe**<br>mshr_personnelnumber<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório | O número da equipe exclusiva do funcionário. |
 | **Campo principal**<br>mshr_primaryfield<br>*Cadeia de caracteres* | Obrigatório<br>Gerado pelo sistema |  |
 | **Sobrenome**<br>mshr_lastname<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório | Sobrenome do funcionário. |
 | **ID da entidade legal**<br>mshr_legalentityID<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório | Especifica a entidade legal (empresa). |
 | **Válido a partir de**<br>mshr_namevalidfrom<br>*Compensação de Data/Hora* | Somente leitura <br>Obrigatório | Data a partir da qual as informações do funcionário são válidas.  |
-| **Sexo**<br>mshr_gender<br>*Int32* | Somente leitura<br>Obrigatório | O sexo do funcionário. |
+| **Sexo**<br>mshr_gender<br>[conjunto de opções mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Somente leitura<br>Obrigatório | O sexo do funcionário. |
 | **ID da entidade do funcionário da folha de pagamento**<br>mshr_payrollemployeeentityid<br>*GUID* | Obrigatório<br>Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o funcionário. |
 | **Data de início do emprego**<br>mshr_employmentstartdate<br>*Compensação de data/hora* | Somente leitura<br>Obrigatório | A data de início do emprego do funcionário. |
 | **ID de tipo de identificação**<br>mshr_identificationtypeid<br>*Sequência de caracteres* |Somente leitura<br>Obrigatório | O tipo de identificação definido para o funcionário. |
@@ -59,25 +65,30 @@ GET [Organizaton URI]/api/data/v9.1/mshr_payrollemployeeentities?$filter=mshr_pe
 
 ```json
 {
-         "mshr_legalentityid": "USMF",
-            "mshr_personnelnumber": "000041",
-            "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
-            "mshr_employmentenddate": "2154-12-31T23:59:59Z",
-            "mshr_firstname": "Cassie",
-            "mshr_middlename": "Lassie",
-            "mshr_lastname": "Hicks",
-            "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
-            "mshr_namevalidto": "2154-12-31T23:59:59Z",
-            "mshr_birthdate": "1987-09-12T00:00:00Z",
-            "mshr_gender": 200000002,
-            "mshr_identificationtypeid": "SSN",
-            "mshr_identificationnumber": "888-99-9342",
-            "mshr_dataareaid": "USMF",
-            "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
-            "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
-            "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
-            "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
-            "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
-            "_mshr_dataareaid_id_value": null
+    "mshr_legalentityid": "USMF",
+    "mshr_personnelnumber": "000041",
+    "mshr_employmentstartdate": "2011-04-05T07:00:00Z",
+    "mshr_employmentenddate": "2154-12-31T23:59:59Z",
+    "mshr_firstname": "Cassie",
+    "mshr_middlename": "Lassie",
+    "mshr_lastname": "Hicks",
+    "mshr_namevalidfrom": "2021-03-12T20:34:25Z",
+    "mshr_namevalidto": "2154-12-31T23:59:59Z",
+    "mshr_birthdate": "1987-09-12T00:00:00Z",
+    "mshr_gender": 200000002,
+    "mshr_identificationtypeid": "SSN",
+    "mshr_identificationnumber": "888-99-9342",
+    "mshr_dataareaid": "USMF",
+    "mshr_primaryfield": "000041 | USMF | 4/5/2011 07:00:00 am",
+    "_mshr_fk_worker_id_value": "000000ad-0000-0000-d5ff-004105000000",
+    "_mshr_fk_employment_id_value": "00000d0d-0000-0000-0600-014105000000",
+    "_mshr_fk_fixedcompplan_id_value": "0000029f-0000-0000-d5ff-004105000000",
+    "mshr_payrollemployeeentityid": "00000d3c-0000-0000-d5ff-004105000000",
+    "_mshr_dataareaid_id_value": null
 }
 ```
+## <a name="see-also"></a>Consulte também
+
+[Introdução à API de integração da folha de pagamento](hr-admin-integration-payroll-api-introduction.md)
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

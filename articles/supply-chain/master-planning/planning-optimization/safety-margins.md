@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9dc305f46dad6b372721805669529bbc9ac554e8
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908284"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347725"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -41,7 +41,7 @@ Existem três tipos de margens de segurança:
 
 A ilustração a seguir mostra como essas margens de segurança se aplicam ao longo do tempo.
 
-![Margens de segurança](media/safety-margins-1.png)
+![Margens de segurança.](media/safety-margins-1.png)
 
 Todas as margens são definidas em dias. O valor padrão, *0* (zero), indica que nenhuma margem é aplicada. Se você configurar várias margens, todas elas somam o tempo desde a *data da ordem* de fornecimento até a *data da necessidade* da demanda. Por exemplo, uma configuração não tem prazo de entrega e todos os três tipos de margem estão definidos como um dia. Nesse caso, haverá três dias entre a data da ordem de fornecimento e a data obrigatória de demanda, portanto, se a data da ordem for 1° de julho, a data da necessidade seria 4 de julho.
 
@@ -51,7 +51,7 @@ A margem de recebimento é provavelmente a mais usada das três margens de segur
 
 A ilustração a seguir destaca a margem de recebimento.
 
-![Margem de recebimento](media/safety-margins-2.png)
+![Margem de recebimento.](media/safety-margins-2.png)
 
 A margem de recebimento é geralmente usada como buffer para garantir o tempo para o registro do depósito ou outros processos lentos que não são capturados como parte do prazo de entrega geral no sistema. Para compras, um benefício que é a *data de entrega* da ordem de compra avança de acordo. Se você aumentar o prazo de entrega em vez de usar uma margem de segurança, o fornecedor ainda será solicitado a entregar no último minuto.
 
@@ -66,7 +66,7 @@ Observe que a margem de recebimento não é aplicada quando um estoque disponív
 
 A ilustração a seguir destaca a margem de segurança.
 
-![Margem de segurança](media/safety-margins-3.png)
+![Margem de segurança.](media/safety-margins-3.png)
 
 A margem de segurança é adicionada antes do prazo de entrega do item para todos os pedidos planejados durante o planejamento mestre. Portanto, garante mais tempo para que uma ordem de fornecimento seja feita. Essa margem é normalmente usada como um buffer para garantir tempo para outros processos de aprovação ou outros processos internos exigidos durante a criação de ordens de fornecimento. A margem de segurança é colocada entre *data da ordem* de fornecimento e *data de início*.
 
@@ -77,7 +77,7 @@ A margem de segurança é adicionada antes do prazo de entrega do item para todo
 
 A ilustração a seguir destaca a margem de saída.
 
-![Margem de saída](media/safety-margins-4.png)
+![Margem de saída.](media/safety-margins-4.png)
 
 A margem de saída é deduzida da data obrigatória de demanda durante o planejamento mestre. Isso ajuda a garantir que você tenha tempo para reagir e enviar ordens de demanda de entrada. Essa margem é normalmente usada como buffer para garantir o envio e os processos de depósito de saída relacionados.
 
@@ -165,7 +165,7 @@ A ilustração a seguir apresenta uma matriz que resume quais calendários se ap
 - **Depósito (WH):** amarelo
 - **Fornecedor (V):** azul
 
-[![Matriz de visão geral da configuração do calendário](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
+[![Matriz de visão geral da configuração do calendário.](media/safety-margins-calendar-matrix.png)](media/safety-margins-calendar-matrix-high.png)
 
 ## <a name="calculating-delays"></a>Calculando atrasos
 
@@ -173,11 +173,11 @@ Os três tipos de margens de segurança são incluídos quando o sistema determi
 
 Por exemplo, um item tem prazo de entrega de um dia e uma margem de recebimento de três dias. Uma ordem de venda para este item é definida como exigida hoje. Nesse caso, o atraso é calculado como *prazo de entrega* + *margem de recebimento* = quatro dias. Portanto, se hoje for 14 de agosto, os quatro dias de atraso geram uma entrega em 18 de agosto. A ilustração a seguir mostra esse exemplo.
 
-![Exemplo de cálculo de atraso](media/safety-margins-delays.png)
+![Exemplo de cálculo de atraso.](media/safety-margins-delays.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Introdução à Otimização de Planejamento](get-started.md)
+[Introdução à Otimização do Planejamento](get-started.md)
 
 [Análise de ajuste da Otimização de Planejamento](planning-optimization-fit-analysis.md)
 

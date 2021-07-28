@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f7b28a33dff4af6bf2b97db825a5a8304213f3a0
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796477"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345199"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
@@ -72,14 +72,14 @@ Os botões do PDV agora podem mostrar uma contagem para ajudar os trabalhadores 
 
 A ilustração a seguir mostra as configurações de conteúdo ao vivo no designer da grade de botões.
 
-![Configurações de conteúdo dinâmico no designer de grade de botões](./media/ButtonGridDesigner.png "Configurações de conteúdo dinâmico no designer de grade de botões")
+![Configurações de conteúdo dinâmico no designer de grade de botões.](./media/ButtonGridDesigner.png "Configurações de conteúdo dinâmico no designer de grade de botões")
 
 Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Microsoft Edge, acesse a página **Layout da tela**, encontre a **ID do layout da tela** e a **Resolução do layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ativo**. Vá para **Retail e Commerce \> TI de Retail e Commerce \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
 
-![Localizar o layout de tela usado pelo PDV](./media/Choose_screen_layout.png "Localizar o layout de tela")
+![Localizar o layout de tela usado pelo PDV.](./media/Choose_screen_layout.png "Localizar o layout de tela")
 
 A ilustração a seguir mostra o efeito de selecionar **Superior direito** versus **Centralizado** no campo **Alinhamento de conteúdo** para botões de vários tamanhos.
 
-![Conteúdo dinâmico nos botões do PDV](./media/ButtonsWithLiveContent.png "Conteúdo dinâmico nos botões do PDV")
+![Conteúdo dinâmico nos botões do PDV.](./media/ButtonsWithLiveContent.png "Conteúdo dinâmico nos botões do PDV")
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

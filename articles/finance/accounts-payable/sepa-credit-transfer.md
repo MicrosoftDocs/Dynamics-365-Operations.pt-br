@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 11124
+ms.custom:
+- "11124"
+- intro-internal
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 158d96e748b982c87be3f8b08f68d1fdb919aeeb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 03732ecd5a0cd59d15fa1f9f0691571bd0a19606
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897153"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346441"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
 
@@ -30,7 +32,7 @@ Este artigo fornece informações gerais sobre as transferências de crédito IS
 
 ## <a name="what-is-a-credit-transfer-message"></a>O que é uma mensagem de transferência de crédito?
 A mensagem de transferência de crédito é uma solicitação que um participante iniciante (empresa) envia para mover fundos da conta a um credor. Há muitas implementações específicas de país/região e banco de mensagens de transferência de crédito. Algumas são utilizadas dentro de um país/região, e outras estão se tornando padrão. Um padrão global bem estabelecido é o ISO 20022 e suas mensagens de iniciação, como a transferência de crédito. A ilustração a seguir mostra as relações e a cobertura para as mensagens de transferência de crédito selecionadas. 
-![Transferência de crédito](./media/credit-transfer.jpg) Mensagens de transferência de crédito 
+![Transferência de Crédito.](./media/credit-transfer.jpg) Mensagens de transferência de crédito 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>O que são pagamentos SEPA e ISO 20022?
 A Área Única de Pagamentos em Euros (SEPA) é configurada pela Comissão Europeia e dita que todos os pagamentos eletrônicos são considerados como domésticos, independentemente do país/região onde o indivíduo, a empresa ou a organização e o banco estão localizados. Não há diferença entre pagamentos nacionais e internacionais. A SEPA inclui os 28 países membros da União Europeia (EU), além de Islândia, Liechtenstein, Noruega, Suíça, Mônaco e São Marinho. A SEPA ajuda a formar um mercado único para transações de pagamento na Área Econômica Europeia (EEA). Por fim, espera-se que a SEPA reduza o número de formatos de pagamento com que bancos, empresas e indivíduos devem trabalhar. A Comissão Europeia estabeleceu a configuração legal para pagamentos de SEPA com a Diretiva de Serviços de Pagamento (PSD). O Conselho Europeu de Pagamentos (EPC) oferece suporte à SEPA com as seguintes atividades:

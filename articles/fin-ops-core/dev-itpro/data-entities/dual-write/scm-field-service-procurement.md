@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c50aabf94ae37b7b7b214699160bf958ad3ea9fd
-ms.sourcegitcommit: 2cc14f6c537628e79ad2dd17dabf2c246deaa40d
+ms.openlocfilehash: d61fdbb8efd8251cac6db7d5acab3caeb03f7879
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6219778"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346585"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrar as compras entre o Supply Chain Management e o Field Service
 
@@ -31,7 +31,7 @@ Essa integração oferece suporte a criação de ordens de compra e, na maioria 
 
 A ilustração a seguir mostra as tabelas nos dois sistemas e como elas são mapeadas entre si. As ordens de compra no Field Service fazem referência a uma linha de *conta*, enquanto as ordens de compra no Supply Chain Management fazem referência a uma linha de *fornecedor*. Para resolver a integração, a gravação dupla usa uma referência para vincular linhas de *fornecedor* a linhas de *conta*. Para obter mais informações, consulte [Fornecedor mestre integrado](vendor-mapping.md).
 
-![Mapeamentos para compras](media/scm-field-service-tables.png)
+![Mapeamentos para compras.](media/scm-field-service-tables.png)
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

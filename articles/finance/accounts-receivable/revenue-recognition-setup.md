@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 294ad788c97850880b479d3c3c44cc19d55e9a6e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0646f8b6371ffbb5d203f8fd062999fb22613240
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837144"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345617"
 ---
 # <a name="revenue-recognition-setup"></a>Configuração do reconhecimento de receita
 [!include [banner](../includes/banner.md)]
@@ -72,7 +72,7 @@ As configurações de reconhecimento de receita são configuradas na guia **Reco
     - Defina essa opção como **Não** para limitar o lançamento da transação de correção na Contabilidade. Quando essa opção é definida como **Não**, nenhum documento adicional é criado em Contas a receber para a correção de contabilidade interna. Quando a fatura é paga, o processo de pagamento usa a entrada contábil anterior para lançar todos os descontos à vista ou lucros realizados ou perdas.
     - Defina essa opção como **Sim** para criar automaticamente um documento do estorno e uma nova fatura para a transação de correção em Contas a receber. Como a correção será uma correção de contábil interna, os novos documentos não serão enviados ou não serão mencionados para o cliente. O documento de estorno é liquidado na fatura original, e a nova fatura corrigida é paga pelo cliente. Observe que os três documentos são exibidos em relatórios, como o demonstrativo de cliente.
 
-[![Informações de configuração](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
+[![Informações de configuração.](./media/revenue-recognition-setup-info.png)](./media/revenue-recognition-setup-info.png)
 
 ## <a name="revenue-schedules"></a>Agendas de receita
 
@@ -82,7 +82,7 @@ Se você reconhece a receita por marcos, recomendamos criar uma agenda de reconh
 
 As agendas de receita são criadas na página **Agendas de receita** (**Reconhecimento de receita \> Configuração \> Agendas de receita**).
 
-[![Agendas de receita](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
+[![Agendas de receita.](./media/revenue-recognition-revenue-schedules.png)](./media/revenue-recognition-revenue-schedules.png)
 
 Insira os valores descritivos nos campos **Agenda de receita** e **Descrição**. As seguintes configurações adicionais são usadas para criar a agenda de receita quando a fatura for lançada.
 
@@ -104,7 +104,7 @@ Insira os valores descritivos nos campos **Agenda de receita** e **Descrição**
 
 Selecione o botão **Detalhes da agenda da receita** para visualizar os períodos gerais e as porcentagens reconhecidas em cada período. Por padrão, o valor **Reconhecer porcentagem** é dividido igualmente pelo número de períodos. Se a base de reconhecimento for definida como **Mensal** ou **Ocorrências**, a porcentagem de reconhecimento pode ser alterada. Ao alterar a porcentagem de reconhecimento, uma mensagem de aviso informa que o total não equivale a 100%. Caso receba a mensagem, você pode continuar editando as linhas. No entanto, a porcentagem total deve equivaler a 100 antes de fechar a página.
 
-[![Detalhes da agenda de receita](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
+[![Detalhes da agenda de receita.](./media/revenue-recognition-revenue-schedule-details.png)](./media/revenue-recognition-revenue-schedule-details.png)
 
 ## <a name="inventory-setup"></a>Configuração do estoque
 
@@ -137,9 +137,9 @@ Os grupos de itens e os produtos liberados podem ser configurados usando-se o m�
     - **Tolerância máxima** — Insira a porcentagem acima do preço médio selecionado que é permitida.
     - **Tolerância mínima** — Insira a porcentagem abaixo do preço médio selecionado que é permitida.
 
-Depois de concluir a configuração das definições para produtos liberados, você deve definir manualmente o preço de receita inserindo o preço justo ou preço médio (se estiver usando o método de preço médio) da página **Preços de receita** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no Painel de Ações, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Preços de receita**).
+Depois que concluir a configuração das definições para produtos liberados, você deverá definir manualmente o preço de receita inserindo o preço justo ou preço médio (se estiver usando o método de preço médio) da página **Preços de receita** (acesse **Reconhecimento de receita \> Configuração \> Configuração de estoque \> Produtos liberados** e, depois, no Painel de Ações, na guia **Vender**, no grupo **Reconhecimento de receita**, selecione **Preços de receita**).
 
-[![Preços de receita](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
+[![Preços de receita.](./media/revenue-recognition-revenue-prices.png)](./media/revenue-recognition-revenue-prices.png)
 
 O preço de receita definido manualmente nessa página é usado para determinar a alocação do preço da receita em cada ordem de venda, com base nos critérios definidos. Cada critério corresponde à linha da ordem de venda para determinar o preço da receita que deve ser usado no processo de alocação.
 
@@ -181,7 +181,7 @@ Ao configurar um item do pacote, é necessário configurar dois campos na págin
 
 Os componentes devem ser atribuídos ao item principal do pacote/BOM na página **Versões de BOM** (vá para **Reconhecimento de receita \> Configuração \> Configuração de estoque e produto \> Produtos liberados** e, depois, no Painel de Ações, na guia **Engenharia**, no grupo **BOM**, selecione **Versões de BOM**). Para obter mais informações, consulte a documentação de configuração de BOMs.
 
-[![Produtos liberados, agendas de BOM](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
+[![Produtos liberados, agendas de BOM.](./media/revenue-recognition-bom-scheduleds.jpg)](./media/revenue-recognition-bom-scheduleds.jpg)
 
 Se o item principal do pacote e os componentes do pacote forem definidos para serem alocados, o preço de receita do pacote será distribuído aos componentes, com base nas porcentagens de contribuição de receita.
 

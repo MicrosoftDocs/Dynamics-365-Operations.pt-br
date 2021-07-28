@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-20
 ms.dyn365.ops.version: Release 10.0.20
-ms.openlocfilehash: 496c4fe5230a599acf60fac39e51c43db372f92c
-ms.sourcegitcommit: 927574c77f4883d906e5c7bddf0af9b717e492bf
+ms.openlocfilehash: c7be9e2d32384df23a4609d82216804fc945061a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/01/2021
-ms.locfileid: "6129794"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345175"
 ---
 # <a name="create-returns-in-pos"></a>Criar devoluções no POS
 
@@ -48,7 +48,7 @@ Se uma transação ou ordem for encontrada que corresponda aos critérios de pes
 
 Para cada linha de ordem de produtos que podem ser devolvidos, o POS exibe informações sobre a quantidade de compra original e as quantidades de quaisquer devoluções processadas anteriormente. A quantidade de devolução que um usuário insere para uma linha de ordem deve ser menor ou igual ao valor do campo **Disponível para devolução**.
 
-![Página Produtos que podem ser devolvidos](media/returnslist.png)
+![Página Produtos que podem ser devolvidos.](media/returnslist.png)
 
 Durante o processamento de devolução, se um usuário tiver o produto físico, e o produto tiver um código de barras, o usuário pode digitalizar o código de barras para registrar a devolução. Cada digitalização do código de barras aumenta a quantidade de devolução em um item. No entanto, se o rótulo do código de barras tiver uma quantidade incorporada, essa quantidade será inserida no campo **Devolvendo agora**.
 
@@ -97,6 +97,13 @@ Se as informações no canal não estiverem atualizadas por algum motivo e uma d
 
 > [!NOTE]
 > Quando o recurso **Experiência de processamento de devolução unificado no POS** é ativado, novos recursos opcionais que permitem a validação de devoluções de produto serializadas tornam-se disponíveis. Para mais informações, consulte [Devolver produtos controlados por número de série no Ponto de Venda (POS)](POS-serial-returns.md).
+
+## <a name="enable-proper-tax-calculation-for-returns-with-partial-quantity"></a>Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial
+
+Esse recurso garante que, quando uma ordem é devolvida com várias faturas, os impostos serão basicamente iguais ao valor do imposto cobrado originalmente.
+1.  Acesse o espaço de trabalho **Gerenciamento de recursos** e procure **Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial**.
+2.  Selecione **Habilitar o cálculo de imposto apropriado para devoluções com quantidade parcial** e clique em **Habilitar**.
+
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

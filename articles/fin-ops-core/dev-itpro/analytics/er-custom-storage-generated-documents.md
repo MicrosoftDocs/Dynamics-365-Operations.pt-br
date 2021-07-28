@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: ca50f030e67e517a227766f6a30d4bd4b345300b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894115"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348155"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especificar um local de armazenamento personalizado para os documentos gerados
 
@@ -39,7 +39,7 @@ Você também deve ter acesso ao ambiente de desenvolvimento para essa topologia
 
 Na topologia atual, [crie um novo formato de ER](tasks/er-format-configuration-2016-11.md) para gerar documentos aos quais você planeja adicionar um local de armazenamento personalizado. Como alternativa, [importe um formato ER existente para essa topologia](general-electronic-reporting-manage-configuration-lifecycle.md).
 
-![Página do designer de formatos](media/er-extend-file-storages-format.png)
+![Página do designer de formatos.](media/er-extend-file-storages-format.png)
 
 > [!IMPORTANT]
 > O formato ER que você cria ou importa deve conter pelo menos um dos seguintes elementos de formato:
@@ -58,7 +58,7 @@ Para especificar como os documentos gerados por um formato ER são roteados, voc
 3. No campo **Classe**, especifique **Anexar arquivo**.
 4. No campo **Grupo**, especifique **Arquivo**.
 
-![Página Tipos de documento](media/er-extend-file-storages-document-type.png)
+![Página Tipos de documento.](media/er-extend-file-storages-document-type.png)
 
 > [!NOTE]
 > Tipos de documentos são específicos da empresa. Para usar um formato ER com um destino configurado em várias empresas, você deve configurar um tipo de documento separado em cada empresa.
@@ -113,14 +113,14 @@ O evento **AttachingFile()** é gerado quando os seguintes destinos de ER são p
 - **Arquivar** – Quando este destino é usado, um novo registro para o formato ER executado é criado na tabela ERFormatMappingRunJobTable. O campo **Arquivado** neste registro é definido como **Falso**. Se o formato ER for executado com êxito, o documento gerado será anexado a esse registro e o evento **AttachingFile()** será gerado. O tipo de documento selecionado nesse destino de ER determina o local de armazenamento do arquivo anexado (Armazenamento do Microsoft Azure ou uma pasta do Microsoft SharePoint).
 - **Arquivo de trabalho** – Quando este destino é usado, um novo registro para o formato ER executado é criado na tabela ERFormatMappingRunJobTable. O campo **Arquivado** neste registro é definido como **Verdadeiro**. Se o formato ER for executado com êxito, o documento gerado será anexado a esse registro e o evento **AttachingFile()** será gerado. O tipo de documento configurado nos parâmetros ER determina o local de armazenamento do arquivo anexado (Armazenamento do Azure ou uma pasta do SharePoint).
 
-![Página de parâmetros de relatórios eletrônicos](media/er-extend-file-storages-parameters.png)
+![Página de parâmetros de relatórios eletrônicos.](media/er-extend-file-storages-parameters.png)
 
 ## <a name="configure-an-er-destination"></a>Configurar um destino de ER
 
 1. Configure o destino arquivado para um dos elementos mencionados anteriormente (arquivo, pasta, fusão ou anexo) do formato ER que você criou ou importou. Para obter orientação, consulte [Configurar destinos ER](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-destinations-2016-11).
 2. Use o tipo de documento que você adicionou anteriormente para o destino configurado. (Para o exemplo neste tópico, o tipo de documento é **FileX**.)
 
-![Caixa de diálogo de configurações de destino](media/er-extend-file-storages-destination.png)
+![Caixa de diálogo de configurações de destino.](media/er-extend-file-storages-destination.png)
 
 ## <a name="modify-source-code"></a>Modificar o código-fonte
 

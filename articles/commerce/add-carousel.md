@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5bc2227e08dbbf5f76a37180114e5affff131658
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797878"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346867"
 ---
 # <a name="carousel-module"></a>Módulo do carrossel
 
@@ -40,7 +40,7 @@ Você pode adicionar módulos de bloco de conteúdo dentro de um módulo de carr
 
 A imagem a seguir mostra um exemplo de um módulo de carrossel que é usado em uma home page. Este módulo de carrossel contém vários itens de bloco de conteúdo.
 
-![Exemplo de um módulo de carrossel](./media/Hero.PNG)
+![Exemplo de um módulo de carrossel.](./media/Hero.PNG)
 
 ## <a name="carousel-module-properties"></a>Propriedades do módulo de carrossel
 

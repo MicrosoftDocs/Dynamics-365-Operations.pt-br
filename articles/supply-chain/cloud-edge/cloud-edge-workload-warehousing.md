@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 30ccdf45d4993e9803f86025f8e789d4f75f64dc
-ms.sourcegitcommit: 8d50c905a0c9d4347519549b587bdebab8ffc628
+ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2021
-ms.locfileid: "6184013"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345491"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -73,7 +73,7 @@ O hub tem os seguintes dados:
 
 As unidades de escala têm o processamento de ciclos real (como alocação de trabalho, trabalho de reabastecimento e criação de trabalho por demanda) após a liberação do ciclo. Portanto, os trabalhadores de depósito podem processar o trabalho de saída usando um aplicativo móvel do Gerenciamento de Depósito conectado à unidade de escala.
 
-![Fluxo de processamento de ciclos](./media/wes-wave-processing-ga.png "Fluxo de processamento de ciclos")
+![Fluxo de processamento de ciclos.](./media/wes-wave-processing-ga.png "Fluxo de processamento de ciclos")
 
 ### <a name="process-work-and-ship"></a>Processar trabalho e remessa
 
@@ -81,7 +81,7 @@ Assim que o processo de trabalho final colocar o estoque em um local de remessa 
 
 Assim que o hub atualizar as transações para *Separado*, ele poderá processar a confirmação de remessa de saída e a guia de remessa de venda associada ou a remessa da ordem de transferência para a carga.
 
-![Fluxo do processamento de saída](./media/WES-outbound-processing-19.png "Fluxo do processamento de saída")
+![Fluxo do processamento de saída.](./media/WES-outbound-processing-19.png "Fluxo do processamento de saída")
 
 ## <a name="inbound-process-flow"></a>Fluxo do processo de entrada
 
@@ -107,11 +107,11 @@ O trabalhador pode executar o processo de recebimento usando um aplicativo móve
 
 Se você não estiver usando o processo *liberar para depósito* e, portanto, não estiver usando *ordens de depósito*, o hub poderá processar o recebimento do depósito e o processamento do trabalho, independentemente das unidades de escala.
 
-![Fluxo do processo de entrada](./media/wes-inbound-ga.png "Fluxo do processo de entrada")
+![Fluxo do processo de entrada.](./media/wes-inbound-ga.png "Fluxo do processo de entrada")
 
 Ao executar o registro de entrada por meio de um aplicativo de depósito recebendo processo na ordem de depósito da unidade de escala, a carga de trabalho da unidade de escala sinalizará o hub para atualizar as transações de linha da ordem de compra relacionadas para *Registrado*. Assim que isso for concluído, você poderá executar um recebimento de produtos de ordem de compra no Hub.
 
-![Fluxo do processamento de entrada](./media/WES-inbound-processing-19.png "Fluxo do processamento de entrada")
+![Fluxo do processamento de entrada.](./media/WES-inbound-processing-19.png "Fluxo do processamento de entrada")
 
 ## <a name="supported-processes-and-roles"></a>Processos e funções com suporte
 

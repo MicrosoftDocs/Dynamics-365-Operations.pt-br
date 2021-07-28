@@ -16,12 +16,12 @@ ms.search.industry: Retail, Commerce
 ms.author: asharchw
 ms.search.validFrom: 2020-01-14
 ms.dyn365.ops.version: Application update 10.0.9
-ms.openlocfilehash: cabce32a43e55f3a3f19bc2d78547d9bab0d89a2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a08d14369057ceb9b23e9d6f9a79847c6175f88e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792040"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345073"
 ---
 # <a name="reset-receipt-numbers"></a>Redefinir números de recibo 
 
@@ -55,7 +55,7 @@ Para ativar a redefinição, siga estas etapas.
 1. No campo **Redefinir tipo de recibo**, selecione **Apenas uma vez** ou **Anual**.
 1. Selecione **OK**.
 
-![Selecionando uma data de redefinição de recibo](media/Enable_receipt_reset.png "Seleção de uma data de redefinição de recibo")
+![Selecionando uma data de redefinição de recibo.](media/Enable_receipt_reset.png "Seleção de uma data de redefinição de recibo")
 
 Depois que você seleciona uma data, ela aparece na coluna **Próxima data de redefinição do número do recibo**. A data de redefinição é aplicável a todos os tipos de transação de recibo. Portanto, a sequência numérica do recibo será redefinida para todos os tipos de recibo.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b4fd37a3c45f2559c9659f072ca0b6f02e712f53
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 79300c84b07db23ad387e0f3e475ca1707c79548
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018251"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347359"
 ---
 # <a name="payments-are-automatically-settled-before-orders-are-invoiced-or-shipped"></a>Os pagamentos são automaticamente liquidados antes que as ordens sejam faturadas ou remetidas
 
@@ -43,12 +43,12 @@ Para configurar a captura manual de pagamentos de comércio eletrônico no porta
 1. Na barra de navegação superior, selecione **Conta** e depois **Configurações**.
 1. No campo **Atraso da Captura**, selecione **manual**.
 
-    ![Configuração do Atraso de Captura no portal de Adyen](media/adyen-capture-delay.jpg)
+    ![Configuração do Atraso de Captura no portal de Adyen.](media/adyen-capture-delay.jpg)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Captura de pagamento de Adyen](https://docs.adyen.com/point-of-sale/capturing-payments)
 
-[Conector de Pagamento do Dynamics 365 para Adyen](../dev-itpro/adyen-connector.md)
+[Dynamics 365 Payment Connector para Adyen](../dev-itpro/adyen-connector.md)
 
 [Configurar o conector de pagamento da Adyen para Dynamics 365](https://docs.adyen.com/plugins/microsoft-dynamics)

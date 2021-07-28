@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 69f497ed8efff9aa18dedbce65d88e3b2d5168a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8941ca0d2b9599dabd05427949d72f55aae7d6bc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839020"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347629"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales
 
@@ -33,7 +33,7 @@ Este tópico discute os modelos e as tarefas subjacentes que são usados para si
 
 A solução Prospect to cash usa o recurso Integração de dados para sincronizar dados entre as instâncias Supply Chain Management e do Sales. Os modelos de Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados sobre contas, contatos, produtos, cotações de venda, ordens de venda e faturas de venda entre o Supply Chain Management e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Supply Chain Management e o Sales.
 
-[![Fluxo de dados em Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Fluxo de dados em Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -116,17 +116,17 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 ### <a name="salesinvoiceheader"></a>SalesInvoiceHeader
 
-![Mapeamento de modelo na Integração de dados](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
+![Mapeamento de modelo na Integração de dados.](./media/sales-invoice-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="salesinvoiceline"></a>SalesInvoiceLine
 
-![Mapeamento de modelo na Integração de dados](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
+![Mapeamento de modelo na Integração de dados.](./media/sales-invoice-direct-template-mapping-data-integrator-2.png)
 
 
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Cliente potencial ao pagamento à vista](prospect-to-cash.md)
+[De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 
 [Sincronizar contas diretamente do Sales com clientes no Supply Chain Management](accounts-template-mapping-direct.md)
 

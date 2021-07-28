@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3827c5cff009453c820e70f00bfa4f36d78973f
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3bf1c8081eea86fd14600174d843447b727d0226
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5755243"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347939"
 ---
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
@@ -174,7 +174,7 @@ Na coluna **Código de Formato** em uma definição de linha, os códigos de for
 
 No exemplo a seguir, um usuário quer impedir a impressão do título e sublinhados da linha **Caixa Total** do seu relatório porque não houve atividade nas contas de caixa. Então, na linha 220 (que, como indicado pelo código de formato **---**, é uma linha de formatação), na célula **Fórmulas/Linhas/Unidades Relacionadas**, o usuário insere **250**, que é o código de linha da linha de valor que o usuário deseja suprimir.
 
-[![RelatedRowsRowDefinition](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
+[![RelatedRowsRowDefinition.](./media/relatedrowsrowdefinition-1024x144.png)](./media/relatedrowsrowdefinition.png)
 
 ## <a name="select-the-base-row-for-a-column-calculation"></a>Selecione a linha de base para um cálculo de coluna
 No relatório relacional, você atribui uma ou mais linhas base na definição de linha usando o código de formato **CBR** (alterar a linha base). Então, a linha de base é referenciada por um cálculo na definição de coluna. Veja alguns exemplos típicos de cálculos de CBR:
@@ -399,7 +399,7 @@ A célula **Link para Dimensões Financeiras** contém links para os dados finan
 2. Clique duas vezes na coluna **Vincular a dimensões financeiras**.
 3. Na caixa de diálogo **Dimensões**, clique duas vezes na célula no nome da dimensão.
 4. Na caixa de diálogo da dimensão, selecione **Individual ou intervalo**.
-5. No campo **De**, insira a dimensão inicial ou clique em ![Procurar](media/browse.gif "Procurar") para procurar as dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
+5. No campo **De**, digite a dimensão inicial ou clique em ![Pequisar.](media/browse.gif "Procurar") para procurar dimensões disponíveis. Para inserir um intervalo de dimensões, insira a dimensão final no campo **Até**.
 6. Clique em **OK** para fechar a caixa de diálogo para a dimensão. A caixa de diálogo **Dimensões** exibe a dimensão ou o intervalo atualizado.
 7. Clique em **OK** para fechar a caixa de diálogo **Dimensões**.
 
@@ -476,7 +476,7 @@ A tabela a seguir descreve os campos na caixa de diálogo **Dimensões**.
 
 | Item                | Descrição |
 |---------------------|-------------|
-| Individual ou intervalo | No campo **De**, insira o nome da conta ou clique no botão **Procurar** ![Procurar](media/browse.gif "Procurar") para procurar a conta. Para selecionar um intervalo, insira ou procure um valor no campo **Até**. |
+| Individual ou intervalo | No campo **De**, insira o nome da conta ou clique no botão **Pesquisar** ![Pesquisar.](media/browse.gif "Procurar") para procurar a conta. Para selecionar um intervalo, insira ou procure um valor no campo **Até**. |
 | Conjunto de Valores de Dimensões | No campo **Nome**, insira o nome de um conjunto de valores de dimensão. Para criar, modificar, copiar ou excluir um conjunto, clique em **Gerenciar Conjuntos de Valores de Dimensão**. O campo **Fórmula** é preenchido com a fórmula da célula **Link para Dimensões Financeiras** para este conjunto de valores de dimensão na definição de linha. |
 | Contas de totalização   | No campo **Nome**, insira ou procure uma dimensão da totalização de contas. O campo **Fórmula** é preenchido com a fórmula na célula **Link para Dimensões Financeiras** para esta conta de totalização na definição de relatório. |
 

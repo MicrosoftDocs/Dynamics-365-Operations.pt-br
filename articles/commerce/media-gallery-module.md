@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e9af56a8a82938fa7d23e8096db2c59ed5fcb517
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271270"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346707"
 ---
 # <a name="media-gallery-module"></a>Módulo de galeria de mídia
 
@@ -41,11 +41,11 @@ Veja alguns exemplos de uso dos módulos de galeria de mídia:
 
 No exemplo da ilustração a seguir, uma caixa de compra em uma PDP hospeda imagens de produto usando um módulo de galeria de mídia.
 
-![Exemplo de uma caixa de compra em uma página de detalhes do produto que hospeda imagens do produto usando um módulo de galeria de mídia](./media/ecommerce-pdp-buybox.PNG)
+![Exemplo de uma caixa de compra em uma página de detalhes do produto que hospeda imagens do produto usando um módulo de galeria de mídia.](./media/ecommerce-pdp-buybox.PNG)
 
 ## <a name="media-gallery-properties"></a>Propriedades da galeria de mídia
 
-| Nome da propriedade | Valores | Descrição |
+| Nome da propriedade | Valores | descrição |
 |---------------|--------|-------------|
 | Origem da imagem | **Contexto da página** ou **ID do produto** | O valor padrão é **Contexto de página**. Se a propriedade **Contexto da página** estiver selecionada, o módulo esperará que a página forneça as informações de ID do produto. Se **ID do produto** estiver selecionada, a ID do produto de uma imagem deverá ser fornecida como o valor da propriedade **ID do produto**. Esse recurso está disponível no Commerce versão 10.0.12. |
 | ID do produto | Uma ID do produto | Essa propriedade é aplicável somente se o valor da propriedade **Origem da imagem** for **ID do produto**. |
@@ -59,11 +59,11 @@ No exemplo da ilustração a seguir, uma caixa de compra em uma PDP hospeda imag
 
 A ilustração a seguir mostra um exemplo de um módulo de galeria de mídia no qual as opções de tela inteira e de zoom estão disponíveis.
 
-![Exemplo de um módulo de galeria de mídia no qual as opções de tela inteira e de zoom estão disponíveis](./media/ecommerce-media-zoom.png)
+![Exemplo de um módulo de galeria de mídia no qual as opções de tela inteira e de zoom estão disponíveis.](./media/ecommerce-media-zoom.png)
 
 A ilustração a seguir mostra um exemplo de um módulo de galeria de mídia com imagens organizadas (isto é, as imagens especificadas não dependem da ID do produto ou do contexto da página).
 
-![Exemplo de um módulo de galeria de mídia com imagens organizadas](./media/ecommerce-media-curated.PNG)
+![Exemplo de um módulo de galeria de mídia com imagens organizadas.](./media/ecommerce-media-curated.PNG)
 
 ## <a name="commerce-scale-unit-interaction"></a>Interação do Commerce Scale Unit
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e84a8c3f69bb1a429c6fd9679ba671a185cf6378
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d86c16ecd2105a7f118cf77aa078f553feb2d933
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838337"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345249"
 ---
 # <a name="cycle-counting"></a>Contagem cíclica
 
@@ -34,7 +34,7 @@ A contagem cíclica é um processo de depósito que você pode usar para auditar
 2.  **Processar contagem cíclica** ─ depois que o trabalho de contagem cíclica é criado, para executá-lo você deve contar os itens em um local de depósito e usar um dispositivo móvel para inserir o resultado no Dynamics 365 Supply Chain Management. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
 3.  **Resolver uma diferença no valor contado do ciclo** ─ após uma contagem cíclica, todos os itens que possuem diferenças no valor contado terão um status do trabalho **Revisão pendente** na página **Todos os trabalhos**. Você pode resolver essas diferenças na página **Revisão de trabalho restante do ciclo de contagem**.
 
-A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica](./media/performcyclecountinginawarehouselocation.jpg)
+A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica.](./media/performcyclecountinginawarehouselocation.jpg)
 
 ## <a name="cycle-counting-prerequisites"></a>Pré-requisitos da contagem cíclica
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes que você possa usar a contagem cíclica.

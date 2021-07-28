@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: a575c04a5042e4db08f387bc7bce46225c109844
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753495"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347987"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -48,13 +48,13 @@ Para enviar um arquivo de saída ou vários arquivos de saída por email, na pá
 
 Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso Gerenciamento de impressão a conclui, ou você pode resolver um endereço de email usando uma referência direta à configuração de ER por meio de uma fórmula.
 
-[![Configurar a opção Habilitado como Sim para um destino de email](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
+[![Configurar a opção Habilitado como Sim para um destino de email.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
 ## <a name="email-address-types"></a>Tipos de endereço de email
 
 Se você selecionar **Editar** ao lado do campo **Para** ou **Cc** na caixa de diálogo **Configurações de destino**, a caixa de diálogo **Email para** será exibida. Selecione **Adicionar** o tipo de endereço de email para uso. No momento, dois tipos são suportados: **Email de gerenciamento de impressão** e **Email de configuração**.
 
-[![Selecionar o tipo de endereço de email](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
+[![Selecionar o tipo de endereço de email.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Imprimir email de gerenciamento
 
@@ -84,7 +84,7 @@ Depois de selecionar a função desejada, selecione o botão **Vincular** (símb
 
 Na página **Designer de fórmulas**, no campo **Fórmula**, insira uma referência específica de documento a uma função com suporte. Em vez de digitar a referência, no painel **Origem de dados**, localize e selecione o nó da fonte de dados que representa uma conta da função configurada e selecione **Adicionar origem de dados** para atualizar a fórmula. Por exemplo, se você configurar o destino de email para a configuração **Transferência de crédito ISO 20022** usada para processar pagamentos de fornecedor, o nó que representa uma conta de fornecedor é `'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID`.
 
-![Configurar uma conta de origem de email](./media/er_destinations-emaildefineaddresssource.gif)
+![Configurar uma conta de origem de email.](./media/er_destinations-emaildefineaddresssource.gif)
 
 Se os números de conta da função configurada forem exclusivos para a instância inteira do Microsoft Dynamics 365 Finance, o campo **Empresa de origem de email** na caixa de diálogo **Email para** poderá permanecer em branco.
 
@@ -108,7 +108,7 @@ Para especificar o tipo de endereço de email que deve ser usado no tempo de exe
 
 Selecione **Configuração de email** como o tipo de endereço de email se a configuração usada tiver um nó nas fontes de dados que retorna um único endereço de email ou vários endereços de email separados por ponto-e-vírgula (;). Você pode usar [fontes de dados](general-electronic-reporting.md#FormatComponentOutbound) e [funções](er-formula-language.md#functions) no designer de fórmulas para obter um endereço de email formatado corretamente ou endereços de email formatados corretamente, separados por ponto-e-vírgulas. Por exemplo, se você usar a configuração **Transferência de crédito ISO 20022**, o nó que representa o endereço de email principal de um fornecedor dos detalhes de contato do fornecedor para o qual a carta de material deve ser enviada é `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
-[![Configurar uma fonte de endereço de email](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
+[![Configurar uma fonte de endereço de email.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 
 ## <a name="group-format-components"></a><a id="grouping"></a>Componentes de formato de grupo
 
@@ -126,11 +126,11 @@ Para desagrupar componentes de formato, na FastTab **Destino do arquivo**, selec
 
 A ilustração a seguir mostra a estrutura de um formato ER configurado para produzir um arquivo de saída zipado que contém uma nota de carta de cobrança e faturas de cliente apropriadas no formato PDF.
 
-[![Estrutura de um formato ER que gera documentos de saída](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
+[![Estrutura de um formato ER que gera documentos de saída.](./media/ER_Destinations-Email-Grouping1.png)](./media/ER_Destinations-Email-Grouping1.png)
 
 A ilustração a seguir mostra o processo, conforme descrito neste tópico, agrupando componentes individuais e habilitando o destino **Email** para o novo grupo, de forma que uma nota de carta de cobrança seja enviada junto com as faturas de cliente apropriadas como anexos de email.
 
-[![Agrupar componentes individuais e habilitar o destino do email](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
+[![Agrupar componentes individuais e habilitar o destino do email.](./media/ER_Destinations-Email-Grouping2.gif)](./media/ER_Destinations-Email-Grouping2.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

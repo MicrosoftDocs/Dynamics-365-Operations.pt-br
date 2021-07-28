@@ -9,17 +9,19 @@ ms.technology: ''
 ms.search.form: FBBookingPeriodCreate_BR, FBBookingPeriodListPage_BR, FBBookingPeriodLookup_BR, FBBookingPeriodWizard_BR
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 270004
+ms.custom:
+- "270004"
+- intro-internal
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c3c6dea0d4e660321f6efce89498f62ddf5d4e4a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 19bfa98e68da46674c2d469aed6007aea47a407f
+ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813998"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "6336584"
 ---
 # <a name="brazil-fiscal-books-overview"></a>Visão geral dos livros fiscais do Brasil
 

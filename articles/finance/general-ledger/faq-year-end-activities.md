@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-14
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 379bb8a1f969a74618db0e57c84c2038db1b631c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9ceacdbe36cc946b64d13b3faff2b3b1ca59afbb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345467"
 ---
 # <a name="year-end-activities-faq"></a>Perguntas frequentes sobre atividades do exercício 
 
@@ -29,7 +29,7 @@ Este tópico foi compilado para ajudar nas atividades de fechamento do exercíci
 ## <a name="general-ledger-how-do-i-know-that-were-running-year-end-close-and-not-undoing-year-end-close"></a>Contabilidade: como sei que estamos executando o fechamento do exercício e não desfazendo o fechamento do exercício?
 Algumas organizações tentam executar o fechamento do exercício, mas na verdade desfazem o fechamento do exercício. Se o fechamento do exercício for muito rápido ou não produzir saldos iniciais, valide a configuração **Desfazer fechamento anterior** em **Fechamento do exercício** (**Contabilidade > Fechamento do período > Fechamento do exercício > Executar fechamento de ano fiscal**). 
 
-[![Execução do fechamento do exercício versus desfazer fechamento do exercício](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
+[![Executar o fechamento do exercício versus desfazer fechamento do exercício.](./media/faq-2020-yr-end-01.png)](./media/faq-2020-yr-end-01.png)
 
 Se a seleção **Desfazer fechamento anterior** estiver definida como **Sim**, o fechamento do exercício anterior será revertido. Ao desfazer a ação, todas as entradas de saldo de fechamento e saldo inicial serão excluídas, como se o fechamento do exercício nunca tivesse sido executado. Os comprovantes serão excluídos. O fechamento do exercício não será executado automaticamente novamente. Você deverá iniciar o processo novamente, desta vez alterando **Desfazer fechamento anterior** para **Não**. 
 
@@ -39,13 +39,13 @@ Se a seleção **Desfazer fechamento anterior** estiver definida como **Sim**, o
 ## <a name="general-ledger-what-is-the-difference-between-undo-and-delete-gl-parameter-for-year-end-close"></a>Contabilidade: qual é a diferença entre desfazer e excluir o parâmetro GL para o fechamento do exercício?
 Pode haver confusão sobre a diferença entre o parâmetro **Desfazer fechamento anterior**, que está na caixa de diálogo **Fechamento do exercício**, e o parâmetro **Excluir transações de fechamento de ano durante a transferência** na contabilidade (**Contabilidade > Fechamento do período > Fechamento do exercício > Executar fechamento de ano fiscal**).  
 
-[![Diferença entre desfazer e excluir o parâmetro GL para o fechamento do exercício](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
+[![Diferença entre Desfazer e Excluir o parâmetro GL para o fechamento do exercício.](./media/faq-2020-yr-end-02.png)](./media/faq-2020-yr-end-02.png)
 
-Selecione **Desfazer fechamento anterior** no menu suspenso da caixa de diálogo ao executar o processo de fechamento do exercício para excluir todas as entradas de saldo de fechamento e de saldo inicial, como se o fechamento do exercício nunca tivesse sido executado. Os comprovantes serão excluídos. O fechamento do exercício não será executado automaticamente novamente. Para executar o fechamento do exercício, inicie esse processo novamente, desta vez alterando **Desfazer fechamento anterior próximo** para **Não** (**Contabilidade > Configuração do razão > Parâmetros da contabilidade**). 
+Selecione **Desfazer fechamento anterior** no menu suspenso da caixa de diálogo ao executar o processo de fechamento do exercício para excluir todas as entradas de saldo de fechamento e de saldo inicial, como se o fechamento do exercício nunca tivesse sido executado. Os comprovantes serão excluídos. O fechamento do exercício não será executado automaticamente novamente. Para executar o fechamento do exercício, inicie esse processo novamente, desta vez alterando **Desfazer fechamento anterior** para **Não** (**Contabilidade > Configuração do razão > Parâmetros da contabilidade**). 
 
-[![Configuração de parâmetros da contabilidade](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
+[![Configuração de parâmetros da contabilidade.](./media/faq-2020-yr-end-03.png)](./media/faq-2020-yr-end-03.png)
 
-O parâmetro **Excluir transações de fechamento de ano durante a transferência** na contabilidade é usado somente durante a execução do fechamento do exercício (não ao desfazê-lo). A seleção **Desfazer fechamento anterior** está definida como **Não**. Se esse parâmetro estiver definido como **Sim**, todas as entradas de saldo de fechamento e saldo inicial serão excluídas e o fechamento do exercício será executado novamente. Esse processo é usado quando a organização deseja que todas as transações, incluindo os ajustes desde o último fechamento do exercício, sejam lançadas em uma única entrada contábil para as entradas de saldo de fechamento e de saldo inicial. 
+O parâmetro **Excluir transações de fechamento de ano durante a transferência** na Contabilidade é usado somente durante a execução do fechamento do exercício (não ao desfazê-lo). A seleção **Desfazer fechamento anterior** está definida como **Não**. Se esse parâmetro estiver definido como **Sim**, todas as entradas de saldo de fechamento e saldo inicial serão excluídas e o fechamento do exercício será executado novamente. Esse processo é usado quando a organização deseja que todas as transações, incluindo os ajustes desde o último fechamento do exercício, sejam lançadas em uma única entrada contábil para as entradas de saldo de fechamento e de saldo inicial. 
 
 Se essa opção estiver definida como **Não**, todas as entradas de saldo de fechamento e de saldo inicial permanecerão. Elas não serão excluídas. Em vez disso, uma nova entrada de saldo de fechamento e de saldo inicial será criada apenas para a variação ou para as transações novas lançadas desde o último fechamento do exercício daquele ano fiscal.  
 
@@ -60,10 +60,10 @@ Ao executar o fechamento do exercício, o saldo de cada conjunto de dimensões �
 
 Os conjuntos de dimensões desnecessários também afetam o trabalho em lotes **BudgetDimensionFocusInitializeBalance** (**Contabilidade > Plano de contas > Dimensões > Conjuntos de dimensões financeiras**).
 
-[![Conjuntos de dimensões financeiras](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
+[![Conjuntos de dimensões financeiras.](./media/faq-2020-yr-end-04.png)](./media/faq-2020-yr-end-04.png)
 
 ### <a name="year-end-close-template-configuration"></a>Configuração do modelo de fechamento do exercício
-Com o modelo de fechamento do exercício, as organizações podem selecionar o nível de dimensão financeira a ser mantido ao transferir saldos de lucros e perdas para ganhos retidos. As configurações permitem que uma organização mantenha as dimensões financeiras detalhadas (**Fechar tudo**) ao mover os saldos para ganhos retidos ou optar por resumir os valores para um único valor de dimensão (**Fechar um**). Isso pode ser definido para cada dimensão financeira. Para obter mais informações sobre essas configurações, consulte o tópico [Fechamento do exercício](year-end-close.md).
+O modelo de fechamento do exercício permite que as organizações selecionem o nível de dimensão financeira a ser mantido ao transferir saldos de lucros e perdas para ganhos retidos. As configurações permitem que uma organização mantenha as dimensões financeiras detalhadas (**Fechar tudo**) ao mover os saldos para ganhos retidos ou optar por resumir os valores para um único valor de dimensão (**Fechar um**). Isso pode ser definido para cada dimensão financeira. Para obter mais informações sobre essas configurações, consulte o tópico [Fechamento do exercício](year-end-close.md).
 
 Recomendamos que você avalie os requisitos da sua organização e, se possível, feche o número máximo de dimensões usando a opção **Fechar um** exercício para melhorar o desempenho. Ao fechar para um único valor de dimensão (que também pode ser um valor em branco), o sistema calcula menos detalhes ao determinar os saldos das entradas da conta de ganhos retidos.
 
@@ -72,16 +72,16 @@ Se você atualizou para a versão 10.0.13 ou posterior desde a última vez em qu
  
 ## <a name="general-ledger--what-does-the-period-close--year-end-close-do"></a>Contabilidade – o que fazem o Fechamento do período e o Fechamento do exercício?
  
-[![Fechamento do período, fechamento do exercício](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
+[![Fechamento do período, fechamento do exercício.](./media/faq-2020-yr-end-05.png)](./media/faq-2020-yr-end-05.png)
 
 ### <a name="performance-improvements-for-rebuilding-financial-dimension-sets-new-feature"></a>Melhorias de desempenho para a recriação de conjuntos de dimensões financeiras (novo recurso)
 Um novo recurso adicionado na versão 10.0.16 melhora o desempenho dos processos de consolidação e fechamento do exercício. O nome do recurso é Melhorias de desempenho para a recriação de conjuntos de dimensões financeiras. Este recurso altera a forma como os conjuntos de dimensões são recriados para que sejam recriados apenas para um período relevante. Nas versões anteriores, os conjuntos de dimensões eram recriados para todas as datas. Por exemplo, se você estiver fechando o ano 2020, o sistema só recriará os saldos para transações no ano fiscal 2020. Se você estiver executando a consolidação para um intervalo de datas de 1º de novembro de 2020 a 30 de novembro de 2020, o sistema apenas recriará os saldos para esse intervalo.
 
-Como este recurso é considerado uma alteração da falha, você precisará habilitá-lo usando o espaço de trabalho **Gerenciamento de recursos**.
+Como este recurso é considerado uma alteração da falha, você deverá habilitá-lo usando o espaço de trabalho **Gerenciamento de recursos**.
  
-[![Fechamento do exercício](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
+[![Fechamento do exercício.](./media/faq-2020-yr-end-06.png)](./media/faq-2020-yr-end-06.png)
 
-## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Contas a pagar: que alterações foram feitas para oferecer suporte a relatórios 1099 de final de ano para 2020?
+## <a name="accounts-payable-what-changes-have-been-made-to-support-1099-year-end-reporting-for-2020"></a>Contas a pagar: que alterações foram feitas para oferecer suporte a relatórios 1099 de final do exercício para 2020?
 
 Dois novos recursos regulatórios foram adicionados para alterações de final de ano do 1099 em 2020. O primeiro recurso, **Aplicar alterações aos formulários 1099-NEC e 1099-MISC para 2020**, foi lançado na metade do ano como um recurso obrigatório. A finalidade é garantir que os dados transacionais 1099 para o ano 2020 possam ser acompanhados no novo formulário 1099-NEC. Este recurso adicionou os campos 1099 que são necessários para oferecer suporte ao novo 1099-NEC e atualizou os campos 1099-MISC. Esta atualização também atualiza os dados de registro do fornecedor para as informações da caixa 1099. 
 
@@ -114,15 +114,15 @@ Não. A rotina Atualização de 1099 é executada para um único fornecedor de c
 ## <a name="accounts-payable-1099--recalculate-existing-1099-amounts-vs-update-all-in-the-update-1099-utility"></a>Contas a pagar: 1099 – "Recalcular valores do imposto 1099 existentes" versus "Atualizar tudo" no utilitário Atualização de 1099.
 A caixa de seleção **Recalcular valores do imposto 1099 existentes** redefine o valor do 1099 para os valores totais pagos, quando usada em conjunto com a caixa de seleção **Atualizar tudo**. 
 
-[![Transações do imposto 1099: antes de executar a rotina de atualização](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
+[![Transações do imposto 1099: antes de executar a rotina de atualização.](./media/faq-2020-yr-end-07.png)](./media/faq-2020-yr-end-07.png)
 
 A caixa de seleção **Recalcular valores do imposto 1099 existentes** só aparece quando há valores parciais do 1099 na fatura ou se ele tiver sido modificado no formulário Imposto 1099. Por exemplo, suponha que você tenha uma fatura de US$ 1.000, mas o usuário digita manualmente na fatura um valor do 1099 de US$ 500.
 
-[![Transações do imposto 1099: marcar Atualizar tudo e Recalcular valores do imposto 1099 existentes](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
+[![Transações do imposto 1099: marcar Atualizar tudo e Recalcular valores do imposto 1099 existentes.](./media/faq-2020-yr-end-08.png)](./media/faq-2020-yr-end-08.png)
 
 Quando isso for pago, US$ 500 será o valor pago do 1099. Se você executar a rotina de recálculo, o sistema alterará o valor do 1099 para US$ 1.000, que é o total pago.
 
-[![Transações do imposto 1099: após executar a rotina do 1099](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
+[![Transações do imposto 1099: após executar a rotina do 1099.](./media/faq-2020-yr-end-09.png)](./media/faq-2020-yr-end-09.png)
 
 ## <a name="accounts-payable-1099--manually-create-1099-transactions"></a>Contas a pagar: 1099 – criar manualmente transações 1099
 Talvez seja necessário que uma organização crie manualmente transações 1099 que não estejam associadas a uma fatura. Você pode adicionar transações 1099 manuais em **Contas a pagar > Tarefas periódicas > Imposto 1099 > Liquidação de fornecedor para impostos 1099**. Selecione o botão **Transações 1099 manuais**. 

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 8db7e597241f1fd552f6b960c2b57b0ba83da949
-ms.sourcegitcommit: efde05c758b2e02960760d875569d780d77d5550
+ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/29/2021
-ms.locfileid: "5962754"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347484"
 ---
 # <a name="gift-card-module"></a>Módulo de cartão-presente
 
@@ -42,7 +42,7 @@ Há dois módulos de cartão-presente disponíveis:
 
 A imagem a seguir mostra um exemplo de um módulo de cartão-presente em uma página de finalização de compra.
 
-![Exemplo de um módulo de cartão-presente](./media/ecommerce-giftcard.PNG)
+![Exemplo de um módulo de cartão-presente.](./media/ecommerce-giftcard.PNG)
 
 ## <a name="module-properties"></a>Propriedades do módulo
 

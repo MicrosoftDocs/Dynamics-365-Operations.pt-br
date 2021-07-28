@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 17a454cd32a08db105a13577c32368ad819bed1c
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 292db7e430bf0f2171f2b0a482ad70250774caec
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053362"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346337"
 ---
 # <a name="human-resources-doesnt-appear-in-microsoft-dynamics-365-apps"></a>O Human Resources não aparece nos aplicativos do Microsoft Dynamics 365
 
@@ -39,11 +39,11 @@ O usuário deve ser adicionado à função de criador de ambiente do ambiente no
 
 3. Na guia **Segurança**, na guia **Funções de ambiente**, selecione **Criador de ambiente**.
 
-    ![Funções da guia de ambiente](media/environment-roles.png)
+    ![Funções da guia de ambiente.](media/environment-roles.png)
 
 4. Na guia **Usuários**, adicione o usuário ou a organização.
 
-    ![Tabela de usuários](media/environment-maker.png)
+    ![Tabela de usuários.](media/environment-maker.png)
 
 5. Selecione **Salvar**.
 
@@ -51,7 +51,7 @@ O usuário deve ser adicionado à função de criador de ambiente do ambiente no
 
 7. Selecione **Sincronizar** para atualizar os aplicativos do usuário.
 
-    ![Botão de sincronização](media/get-more.png)
+    ![Botão de sincronização.](media/get-more.png)
 
     Após a sincronização ser concluída, Human Resources aparecerá na página inicial.
 
