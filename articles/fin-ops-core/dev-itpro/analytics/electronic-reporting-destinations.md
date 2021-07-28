@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 088f1b13e20602345dbec5179c343e27be9cec44
-ms.sourcegitcommit: 2cd82983357b32f70f4e4a0c15d4d1f69e08bd54
+ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "6085491"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351143"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
@@ -62,7 +62,7 @@ Se você definir a opção de **Processamento em lotes** como **Sim**, um format
 > [!NOTE]
 > A descrição do trabalho informa você sobre a execução de um mapeamento de formato ER. Também contém o nome do componente ER que é executado.
 
-[![Executando um formato ER](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
+[![Execução de um formato ER.](./media/ER_Destinations-RunInBatchMode.png)](./media/ER_Destinations-RunInBatchMode.png)
 
 Você pode encontrar informações sobre esse trabalho em vários locais:
 
@@ -74,17 +74,17 @@ Você pode encontrar informações sobre esse trabalho em vários locais:
 
 - Na página **Trabalhos de relatório eletrônicos**, selecione **Mostrar arquivos** para exibir a lista de erros e avisos que foram gerados durante a execução do trabalho.
 
-    [![Examinando a lista de trabalhos ER](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
+    [![Examinando a lista de trabalhos ER.](./media/ER_Destinations-ReviewERJobs.png)](./media/ER_Destinations-ReviewERJobs.png)
 
 ### <a name="user-configured-behavior"></a>Comportamento configurado pelo usuário
 
 Na página **Destino de relatório eletrônico**, é possível substituir o comportamento padrão de uma configuração. As configurações importadas não são mostradas nessa página até você selecionar **Novo** e, no campo **Referência**, selecionar uma configuração para criar configurações de destino.
 
-[![Selecionando uma configuração no campo Referência](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
+[![Selecionando uma configuração no campo Referência.](./media/ER_Destinations-SelectFormat.png)](./media/ER_Destinations-SelectFormat.png)
 
 Depois de criar uma referência, você pode criar um destino de arquivo para cada componente de saída **Pasta** ou **Arquivo** do formato de ER referenciado.
 
-[![Criando um destino do arquivo](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
+[![Criando um destino do arquivo.](./media/ER_Destinations-ConfigureElementDestination.png)](./media/ER_Destinations-ConfigureElementDestination.png)
 
 Em seguida, na caixa de diálogo **Configurações de destino**, você pode habilitar e desabilitar destinos individuais para o destino do arquivo. O botão **Configurações** é usado para controlar todos os destinos de um destino de arquivo selecionado. Na caixa de diálogo **Configurações de destino**, você pode controlar cada destino separadamente, definindo a opção **Ativado** para ele.
 
@@ -92,7 +92,7 @@ Em versões do Finance **antes da versão 10.0.9**, você pode criar **um destin
 
 Por exemplo, você pode usar esse recurso para configurar destinos de arquivo para um componente de arquivo usado para gerar um documento de saída no formato Excel. Um destino ([Arquivo](er-destination-type-archive.md)) pode ser configurado para armazenar o arquivo do Excel original no arquivo de trabalhos de ER, e outro destino ([Email](er-destination-type-email.md)) pode ser configurado para simultaneamente [converter](#OutputConversionToPDF) o arquivo do Excel em formato PDF e enviar o arquivo PDF por email.
 
-[![Configurando vários destinos para um único elemento de formato](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
+[![Configurando vários destinos para um único elemento de formato.](./media/ER_Destinations-SampleDestinations.png)](./media/ER_Destinations-SampleDestinations.png)
 
 Quando você executa um formato de ER, todos os destinos que foram configurados para componentes do formato são sempre executados. Além disso, no Finance **versão 10.0.17 e posterior**, a funcionalidade de destinos de ER foi aperfeiçoada e agora permite que você configure conjuntos diferentes de destinos para um único formato de ER. Essa configuração marca cada conjunto como configurado para uma ação de usuário específica. A API de ER foi [estendida](er-apis-app10-0-17.md) para que seja possível fornecer uma ação que o usuário realiza executando um formato de ER. O código de ação fornecido é passado para destinos de ER. Você pode executar diferentes destinos de um formato de ER, dependendo do código de ação fornecido. Para obter mais informações, consulte [Configurar destinos de ER dependentes da ação](er-action-dependent-destinations.md).
 
@@ -116,11 +116,11 @@ Você pode configurar destinos somente para configurações de ER que foram impo
 
 Quando você configura destinos de arquivo para um formato selecionado, eles são configurados para todo o formato.
 
-[![Link de configuração](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
+[![Link de configuração.](./media/ER_Destinations-ConfigurationLink.png)](./media/ER_Destinations-ConfigurationLink.png)
 
 Ao mesmo tempo, você pode ter várias [versões](general-electronic-reporting.md#component-versioning) do formato que foram importadas para a instância atual do Finance. É possível vê-las selecionando o link **Configuração** que é exibido quando você seleciona o campo **Referência**.
 
-[![Versões da configuração](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
+[![Versões da configuração.](./media/ER_Destinations-ConfigurationVersions.png)](./media/ER_Destinations-ConfigurationVersions.png)
 
 Por padrão, os destinos configurados são aplicados somente quando você executa uma versão do formato de ER que tem o status **Concluído** ou **Compartilhado**. No entanto, às vezes você deve usar destinos configurados quando a versão de rascunho de um formato de ER é executada. Por exemplo, você modifica uma versão de rascunho do seu formato e quer usar destinos configurados para testar como a saída gerada será entregue. Siga estas etapas para aplicar os destinos de um formato de ER quando a versão de rascunho for executada.
 
@@ -128,7 +128,7 @@ Por padrão, os destinos configurados são aplicados somente quando você execut
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Usar destinos para status de rascunho** como **Sim**.
 
-[![Opção Usar destinos para status de rascunho](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
+[![Opção Usar destinos para status de rascunho.](./media/ER_Destinations-UserSetting1.png)](./media/ER_Destinations-UserSetting1.png)
 
 Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER adequadamente.
 
@@ -136,11 +136,11 @@ Para usar a versão de rascunho de um formato de ER, você deve marcar o formato
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Executar configuração** como **Sim**.
 
-[![Opção Executar configuração](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
+[![Opção Executar configuração.](./media/ER_Destinations-UserSetting2.png)](./media/ER_Destinations-UserSetting2.png)
 
 Depois de concluir essa configuração, a opção **Executar rascunho** fica disponível para os formatos de ER que você modificar. Defina esta opção como **Sim** para começar a usar a versão de rascunho do formato quando o formato for executado.
 
-[![Opção Executar rascunho](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
+[![Opção Executar rascunho.](./media/ER_Destinations-FormatSetting.png)](./media/ER_Destinations-FormatSetting.png)
 
 ## <a name="destination-failure-handling"></a><a name="DestinationFailure"></a>Tratamento de falha no destino
 
@@ -148,7 +148,7 @@ Normalmente, um formato de ER é executado no escopo de um processo de negócios
 
 Por exemplo, você configura o processamento de pagamentos de fornecedor para que o formato de ER **Transferência de Crédito ISO20022** seja executado para gerar o arquivo de pagamento e os documentos complementares (por exemplo, a carta de apresentação e o relatório de controle). Se um pagamento tiver de ser considerado como tendo o processamento bem-sucedido somente se a carta de apresentação for entregue com êxito por email, você deverá marcar a caixa de seleção **Interromper processamento em caso de falha** para o componente **CoveringLetter** no destino de arquivo apropriado, conforme mostrado na ilustração a seguir. Nesse caso, o status do pagamento selecionado para processamento mudará de **Nenhum** para **Enviado** somente quando a carta de apresentação gerada for aceita com êxito para entrega por um provedor de email configurado na instância do Finance.
 
-[![Configurando o tratamento de processos em caso de falha no destino de arquivo](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
+[![Configurando o tratamento de processos em caso de falha no destino de arquivo.](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)](./media/ER_Destinations-StopProcessingAtDestinationFailure.png)
 
 Se você desmarcar a caixa de seleção **Interromper processamento em caso de falha** para o componente **CoveringLetter** no destino, um pagamento será considerado como tendo o processamento bem-sucedido mesmo que a carta de apresentação não seja entregue com êxito por email. O status do pagamento mudará de **Nenhum** para **Enviado** mesmo que a carta de apresentação não possa ser enviada porque, por exemplo, o endereço de email do destinatário ou remetente está ausente ou incorreto.
 
@@ -160,7 +160,7 @@ Você pode usar a opção de conversão em PDF para converter a saída em format
 
 Para disponibilizar a opção de conversão em PDF na instância atual do Finance, abra o espaço de trabalho **Gerenciamento de recursos** e ative o recurso **Converter documentos de saída do Relatório Eletrônico de formatos do Microsoft Office em PDF**.
 
-[![Ativando a conversão em PDF do recurso de documentos de saída no Gerenciamento de recursos](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
+[![Ativando a conversão em PDF do recurso de documentos de saída no Gerenciamento de recursos.](./media/ER_Destinations-EnablePdfConversionFeature.png)](./media/ER_Destinations-EnablePdfConversionFeature.png)
 
 ### <a name="applicability"></a>Aplicabilidade
 
@@ -185,13 +185,13 @@ Somente as fontes de sistema comuns do sistema operacional Windows são usadas p
 
 Para ativar a conversão em PDF para um destino de arquivo, marque a caixa de seleção **Converter em PDF**.
 
-[![Ativando a conversão em PDF para um destino de arquivo](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
+[![Ativando a conversão em PDF para um destino de arquivo.](./media/ER_Destinations-TurnOnPDFConversion.png)](./media/ER_Destinations-TurnOnPDFConversion.png)
 
 ### <a name=""></a><a name="SelectPdfPageOrientation">Selecione uma orientação de página para conversão em PDF</a>
 
 Se você gerar uma configuração ER no formato Excel e quiser convertê-la em formato PDF, poderá especificar a orientação de página do documento PDF. Quando você marca a caixa de seleção **Converter para PDF** para ativar a conversão em PDF para um arquivo de destino que produz um arquivo de saída no formato Excel, o campo **Orientação da página** fica disponível na página **Configurações de conversão para PDF**. No campo **Orientação da página**, você pode selecionar a orientação de sua preferência.
 
-[![Selecionando uma orientação de página para conversão em PDF](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
+[![Selecionando uma orientação de página para conversão em PDF.](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)](./media/ER_Destinations-SelectPDFConversionPageOrientation.png)
 
 > [!NOTE]
 > Para ter a opção de selecionar a orientação da página PDF, você deve instalar o Finance versão 10.0.10 ou posterior.
@@ -222,7 +222,7 @@ Na FastTab **Geral**, no campo **Enviar pasta como**, selecione um dos seguintes
     > [!NOTE]
     > Quando você seleciona **Arquivos separados**, a saída gerada é coletada na memória em um estado zipado. Portanto, o [limite de tamanho de arquivo](er-compress-outbound-files.md) máximo é aplicado à saída compactada quando o tamanho real do arquivo pode exceder esse limite. É recomendável selecionar este valor quando você espera que o tamanho da saída gerada seja muito grande.
 
-[![Configurando um destino para um componente de formato de Pasta](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
+[![Configurando um destino para um componente de formato de Pasta.](./media/er_destinations-set-unfolding-option.png)](./media/er_destinations-set-unfolding-option.png)
 
 ### <a name="limitations"></a>Limitações
 

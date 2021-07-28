@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5df46de9dadfa0b7160a9b340ef36fdf963a0ad3
-ms.sourcegitcommit: 6c2f5c3b038f696532c335e20b0fbafa155d6858
+ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5951899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352461"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Criar uma hierarquia de navegação de canal
 
@@ -49,7 +49,7 @@ Para criar uma hierarquia de navegação de canal, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de nó raiz.
 
-![Nó raiz de exemplo](media/create-channel-hierarchy-1.png)
+![Nó raiz de exemplo.](media/create-channel-hierarchy-1.png)
 
 ## <a name="create-navigation-category-nodes"></a>Criar nós de categoria de navegação
 
@@ -65,7 +65,7 @@ Para criar outros nós de categoria de navegação para representar as categoria
 
 A imagem a seguir mostra um exemplo de hierarquia de navegação de canal concluída.
 
-![Hierarquia de canal de exemplo](media/create-channel-hierarchy-2.png)
+![Hierarquia de canal de exemplo.](media/create-channel-hierarchy-2.png)
 
 ## <a name="add-products-to-category-nodes"></a>Adicionar produtos a nós de categoria
 
@@ -81,7 +81,7 @@ Para adicionar produtos a nós de categoria, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de nó com produtos adicionados.
 
-![Produtos adicionados a um nó de categoria](media/create-channel-hierarchy-3.png)
+![Produtos adicionados a um nó de categoria.](media/create-channel-hierarchy-3.png)
 
 ## <a name="add-product-attribute-groups-to-category-nodes"></a>Adicionar grupos de atributo de produto a nós de categoria
 
@@ -97,11 +97,11 @@ Para adicionar um grupo de atributos de produto a um nó de categoria, siga esta
 
 A imagem a seguir mostra um nó de exemplo com grupos de atributo de produto adicionados.
 
-![Grupos de atributo de produto em um nó](media/create-channel-hierarchy-4.png)
+![Grupos de atributo de produto em um nó.](media/create-channel-hierarchy-4.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Configurar classificações](set-up-assortments.md)
+[Configurar sortimentos](set-up-assortments.md)
 
 [Gerenciar atributos e grupos de atributos](attribute-attributegroups-lifecycle.md)
 

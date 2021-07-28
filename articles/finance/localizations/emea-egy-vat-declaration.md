@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9c776cedb65804f8cadbe324082c2abac435f906
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: f9953d1a996f6f68600a7fd04719e9b112494175
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186605"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349888"
 ---
 #  <a name="vat-declaration-for-egypt-eg-00002"></a>Declaração de IVA para o Egito (EG-00002)
 
@@ -77,7 +77,7 @@ Os parâmetros específicos do aplicativo permitem estabelecer os critérios de 
 
 Os relatórios de registros de vendas e de compras para o Egito incluem um conjunto de colunas que correspondem a classificações de transação específicas como tipos de operações, produtos e documentos específicos para o Egito. Em vez de incluir essas novas classificações como novos dados de entrada quando as transações são lançadas, as classificações serão determinadas com base nas diferentes pesquisas introduzidas em **Configurações** > **Configurar parâmetros específicos do aplicativo** > **Configuração** para atender aos requisitos de relatórios de IVA para o Egito. 
 
-![Página de parâmetros específicos do aplicativo](media/egypt-vat-declaration-setup1.png)
+![Página de parâmetros específicos do aplicativo.](media/egypt-vat-declaration-setup1.png)
 
 Essas configurações de pesquisa a seguir são usadas para classificar as transações nos relatórios de registros de IVA de compra e de venda:
 
@@ -206,7 +206,7 @@ Para gerar o relatório do formulário de devolução de IVA no formato do Micro
 2. Na guia **Imposto**, na seção **Opções de imposto**, no campo **Mapeamento de formatos do demonstrativo de IVA**, selecione **Declaração de IVA Excel (EG)**. Se você deixar o campo em branco, o relatório de imposto padrão será gerado no formato SSRS.
 3. Selecione a **Hierarquia de categoria**. Esta categoria habilita o código de mercadoria nas transações da guia comércio exterior para permitir que os usuários selecionem e classifiquem bens e serviços. A descrição dessa classificação é detalhada nos relatórios de transações de venda e de compra. Essa configuração é opcional.
 
-![Formulário de declaração](media/egypt-vat-declaration-setup2.png)
+![Formulário de declaração.](media/egypt-vat-declaration-setup2.png)
 
 
 ## <a name="generate-a-vat-return-report"></a>Gerar um relatório de devolução de IVA

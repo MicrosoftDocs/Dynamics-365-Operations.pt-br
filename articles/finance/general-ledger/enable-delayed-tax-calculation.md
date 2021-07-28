@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2019-09-18
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: acf5ead6ed90d4dbb41de08520cde8085a7f3935
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c58a5bfbc140eb770415a96d1d9c5748e3e2d132
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823707"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350015"
 ---
 # <a name="enable-delayed-tax-calculation-on-journals"></a>Habilitar o cálculo de impostos atrasados nos diários
 [!include [banner](../includes/banner.md)]
@@ -45,14 +45,14 @@ O sistema prioriza a configuração do cabeçalho do diário. Por padrão, essa 
 1. Vá para **Contabilidade \> Configuração do razão \> Parâmetros da contabilidade**.
 2. Na guia **Imposto**, na Guia Rápida **Geral**, defina a opção **Cálculo de impostos atrasados** como **Sim**.
 
-![Imagem dos parâmetros da contabilidade](media/delayed-tax-calculation-gl.png)
+![Imagem dos parâmetros da contabilidade.](media/delayed-tax-calculation-gl.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-name-level"></a>Ativar cálculo de impostos atrasados no nível do nome do diário
 
 1. Vá para **Contabilidade \> Configuração do diário \> Nomes de diário**.
 2. Na Guia Rápida **Geral**, na seção **Imposto**, defina a opção **Cálculo de impostos atrasados** como **Yes**.
 
-![Imagem dos nomes de diário](media/delayed-tax-calculation-journal-name.png)
+![Imagem dos nomes de diário.](media/delayed-tax-calculation-journal-name.png)
 
 ## <a name="turn-on-delayed-tax-calculation-at-the-journal-header-level"></a>Ativar cálculo de impostos atrasados no nível do cabeçalho do diário
 
@@ -61,7 +61,7 @@ O sistema prioriza a configuração do cabeçalho do diário. Por padrão, essa 
 3. Selecione um nome de diário.
 4. Na guia **Setup**, defina a opção **Cálculo de impostos atrasados** como **Sim**.
 
-![Imagem da página Diário geral](media/delayed-tax-calculation-journal-header.png)
+![Imagem da página Diário geral.](media/delayed-tax-calculation-journal-header.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

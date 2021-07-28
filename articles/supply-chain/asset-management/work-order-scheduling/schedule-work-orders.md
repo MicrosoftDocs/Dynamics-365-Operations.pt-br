@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 5f5cfdcb5e930d2dc5830ad7cd9c85c88b3d40f7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7fa0b6f315008e6af774470c775bd34106201b16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813740"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347107"
 ---
 # <a name="schedule-work-orders"></a>Agendar ordens de serviço
 
@@ -56,7 +56,7 @@ Somente ordens de serviço com um estado de ciclo de vida da ordem de serviço q
 
 *Exemplo:* na figura abaixo, a fórmula inserida no campo **Início esperado** gera o agendamento de ordem de serviço para todas as ordens de serviço com data de início esperada uma semana a partir de agora e posteriormente. Essa fórmula pode ser útil quando você executa a ordem de serviço sempre, mas deseja se certificar que as ordens de serviço agendadas para os próximos 5-6 dias não sejam reagendadas.
 
-![Figura 1](media/03-work-order-scheduling.png)
+![Figura 1.](media/03-work-order-scheduling.png)
 
 O tipo de ordem de serviço relacionado a ordens de serviço pode configurar o plano para um funcionário de manutenção (botão de alternância **Gerenciamento de ativos** > **Configuração** > **Ordens de serviço** > **Tipos de ordem de serviço** > **Um funcionário de manutenção** definido como "Sim"). Isso significa que se o tipo de ordem de serviço é usado em uma ordem de serviço, o botão de alternância **Um funcionário de manutenção** é definido automaticamente como "Sim" automaticamente na página de detalhes **Todas as ordens de serviço** > **Cabeçalho** > exibir Guia Rápida **Agendar**. Durante o planejamento de ordem de serviço, todos os trabalhos de ordem de serviço criados na ordem de serviço serão agendados subsequentemente ao mesmo funcionário de manutenção. Se necessário, você pode editar a seleção no botão de alternância **Um funcionário de manutenção** em **Todas as ordens de serviço** para permitir o agendamento de vários trabalhadores ou de um trabalhador nos trabalhos da ordem de serviço.
 

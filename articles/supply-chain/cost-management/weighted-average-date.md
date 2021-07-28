@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 563fa291754f7f795fa64d530de49b9fe4083c56
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9990df3e57d65c77a75913efaf30675528d411b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821288"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6343691"
 ---
 # <a name="weighted-average-date"></a>Data de média ponderada
 
@@ -39,7 +39,7 @@ Média ponderada = (\[Q1 × P1\] + \[Q2 × P2\] + \[Q *n* × P *n*\]) ÷ (Q1 + Q
 
 Durante o fechamento do estoque, o cálculo é executado diariamente ao longo do período de fechamento como mostrado na ilustração a seguir. 
 
-![Modelo de cálculo diário de data de média ponderada](./media/weightedaveragedatedailycalculationmodel.gif) 
+![Modelo de cálculo diário de data de média ponderada.](./media/weightedaveragedatedailycalculationmodel.gif) 
 
 As transações de estoque que deixam o estoque, como ordens de venda, diários de estoque e ordens de produção, ocorrem a um preço de custo estimado na data de lançamento. Esse preço de custo estimado também é conhecido como o preço de custo médio. Na data de fechamento de estoque, o sistema analisará as transações de estoque para períodos anteriores, para dias anteriores e para o dia atual. Essa análise é usada para determinar quais dos seguintes princípios de fechamento devem ser usados:
 
@@ -72,7 +72,7 @@ A ilustração a seguir mostra estas transações:
 -   2b. A saída financeira de estoque é atualizada para uma quantidade 2 a um custo de BRL 10,00 cada.
 -   3. O fechamento de estoque é executado usando o método de liquidação direta para liquidar o recebimento financeiro de estoque para a saída financeira de estoque.
 
-![Liquidação direta de data de média ponderada sem a opção Incluir valor físico](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
+![Liquidação direta de data de média ponderada sem a opção Incluir valor físico.](./media/weightedaveragedatedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Chave para a ilustração:**
 
@@ -126,7 +126,7 @@ O sistema gera e lança a transação de transferência de estoque resumida. Al�
 
 A ilustração a seguir mostra essa série de transações, e os efeitos do uso do modelo de estoque de média ponderada e do princípio de liquidação resumida, mas sem usar a opção **Incluir valor físico**. 
 
-![Liquidação resumida de data de média ponderada sem a opção Incluir valor físico](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![Liquidação resumida de data de média ponderada sem a opção Incluir valor físico.](./media/weightedaveragedatesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Chave para a ilustração**
 
@@ -175,7 +175,7 @@ Por exemplo, seu departamento de Atendimento ao Cliente aceitou uma ordem urgent
 
 O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente em BRL 27,50. A ilustração a seguir mostra essa série de transações e os efeitos do uso do modelo de estoque de data de média ponderada e da marcação.
 
-![Data de média ponderada com a marcação](./media/weightedaveragedatewithmarking.gif) 
+![Data de média ponderada com a marcação.](./media/weightedaveragedatewithmarking.gif) 
 
 **Chave para a ilustração:**
 

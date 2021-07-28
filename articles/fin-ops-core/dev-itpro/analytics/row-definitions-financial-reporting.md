@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5204fb80dcf3dc2342e9d37f18b9d4f587de1808
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: e84f882f69fbc7fceae8a6e0332716a82830dfdc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754285"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344039"
 ---
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
 
@@ -158,7 +158,7 @@ A formatação que é especificada na definição de coluna substitui a formata�
 
 1. No Report Designer, abra a definição de linha a ser modificada.
 2. Selecione as células para formatar. Para selecionar várias células, mantenha pressionada a tecla CTRL enquanto seleciona a célula.
-3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar Recuo** ![Aumentar Recuo](media/indent.gif "Aumentar Recuo") na barra de ferramentas.
+3. Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar Recuo** ![Aumentar Recuo.](media/indent.gif "Aumentar Recuo") na barra de ferramentas.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajuste colunas ao criar relatórios
 

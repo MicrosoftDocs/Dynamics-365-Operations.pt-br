@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6b493c6993ebd466c153e999fa2592105b78d0f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba8151e6f6b53f53e8ab54821d86a371b3341775
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825701"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347155"
 ---
 # <a name="asset-types"></a>Tipos de ativo
 
@@ -45,9 +45,9 @@ Primeiro, você configura os tipos de ativo necessários. Em seguida, você cria
 7. Selecione **Salvar**.
 8. Na Guia Rápida **Tipos de trabalho de manutenção**, selecione os tipos de trabalho de manutenção que devem ser relacionados ao tipo de ativo:
 
-    - Para escolher um tipo de trabalho de manutenção, selecione-o no campo **Tipos de trabalho de manutenção restantes** e, em seguida, selecione o botão de seta para a direita ![Botão de seta para a direita](media/29-setup-for-objects.png) para movê-lo para a seção **Tipos de trabalho de manutenção selecionados**.
-    - Para selecionar todos os tipos de trabalho de manutenção disponíveis, clique no botão ![seta Encaminhar tudo](media/30-setup-for-objects.png). Todos os tipos de trabalho de manutenção são transferidos do campo **Tipos de trabalho de manutenção restantes** para o campo **Tipos de trabalho de manutenção selecionados**.
-    - Para cancelar a seleção de um tipo de trabalho de manutenção, marque-o no campo **Tipos de trabalho de manutenção selecionados** e selecione o botão de seta para a esquerda ![Botão de seta para a esquerda](media/31-setup-for-objects.png) para movê-lo para o campo **Tipos de trabalho de manutenção restantes**.
+    - Para selecionar um tipo de trabalho de manutenção, selecione-o no campo **Tipos de trabalho de manutenção restantes** e selecione o botão ![Botão de seta para a direita.](media/29-setup-for-objects.png) para movê-lo para a seção **Tipos de trabalho de manutenção selecionados**.
+    - Para selecionar todos os tipos de trabalho de manutenção disponíveis, clique no botão ![seta Encaminhar tudo.](media/30-setup-for-objects.png) . Todos os tipos de trabalho de manutenção são transferidos do campo **Tipos de trabalho de manutenção restantes** para o campo **Tipos de trabalho de manutenção selecionados**.
+    - Para cancelar a seleção de um tipo de trabalho de manutenção, selecione-o no campo **Tipos de trabalho de manutenção selecionados** e selecione o botão ![Botão de seta para a esquerda.](media/31-setup-for-objects.png) para movê-lo para o campo **Tipos de trabalho de manutenção restantes**.
 
 9. Você também pode selecionar os contadores que devem estar relacionadas ao tipo de ativo. Na Guia Rápida **Contadores**, faça as seleções usando os métodos descritos para tipos de trabalho de manutenção na etapa 8. Para obter mais informações sobre como configurar contadores, consulte [Contadores](counters.md).
 10. Você também pode selecionar os tipos de atributo que devem estar relacionados ao tipo de ativo. Na Guia Rápida **Tipos de atributo**, faça as seleções usando os métodos descritos para tipos de trabalho de manutenção na etapa 8. Em seguida, para criar a sequência preferencial de tipos de atributo, selecione um atributo no campo **Tipos de atributo selecionados** e use os botões de seta para cima e para baixo para movê-lo. A sequência de tipos de atributo será mostrada nos ativos que usam esse tipo de ativo. Para obter mais informações sobre os atributos de ativo, consulte [Tipos de atributo de manutenção](../setup-for-functional-locations/specification-types.md).

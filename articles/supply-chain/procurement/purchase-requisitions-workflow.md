@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5dcc562f46884cc5bf82611db9ed35436791045b
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 4a8e3378a1d31101d111673cf66f75e807cd05a7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188164"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353459"
 ---
 # <a name="purchase-requisition-workflow"></a>fluxo de trabalho de requisição de compra
 
@@ -51,7 +51,7 @@ A ilustração a seguir mostra como uma requisição de compra pode fluir pelo p
 -   **Agente de compra** – O usuário que executa uma revisão de aquisição e pode aprovar o documento.
 -   **O gerente do solicitante** – O usuário que executa uma revisão administrativa e que pode aprovar o documento.
 
-![Processo de revisão do fluxo de trabalho de requisição de compra](./media/purchreqworkflowoverview_submission.gif)  
+![Processo de revisão do fluxo de trabalho de requisição de compra.](./media/purchreqworkflowoverview_submission.gif)  
 Neste exemplo, o processo de fluxo de trabalho para a requisição de compra inclui as seguintes etapas:
 
 1.  O preparador envia uma requisição de compra para revisão.
@@ -74,7 +74,7 @@ As funções a seguir estão incluídas no processo de fluxo de trabalho deste e
 -   **Gerente de departamento** – O usuário que executa uma revisão de despesas e que pode aprovar o documento.
 -   **Gerente de grupo** – O usuário que executa uma revisão de autoridade de assinatura e que pode aprovar o documento.
 
-![Processo de revisão do fluxo de trabalho da linha de requisição de compra](./media/purchreqlineworkflowoverview.gif)  
+![Processo de revisão do fluxo de trabalho da linha de requisição de compra.](./media/purchreqlineworkflowoverview.gif)  
 Neste exemplo, o processo de fluxo de trabalho para as linhas de requisição de compra inclui as seguintes etapas:
 
 1.  O preparador envia uma requisição de compra para revisão. Cada linha é encaminhada ao revisor configurado no processo para recebê-la no processo do fluxo de trabalho.

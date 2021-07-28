@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e3bbba8ce49e6e95fe5c63a454e5f03b6a47d887
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ef27b53d2e2434b89db789c0fd2d4de9c348855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814006"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357402"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 
@@ -254,7 +254,7 @@ Os registros a seguir fazem parte do escopo: 2112 (notas fiscais de saída gerad
     -  **Impostos presumidos do ICMS-ST** – Habilite esse processo para gerar marcas relacionadas no formato XML quando uma NF-e for emitida para autoridades fiscais.
     -  **Livros fiscais de imposto presumido do ICMS-ST** – Habilite este processo para calcular valores de restituição e compensação do ICMS-ST e gerar relatórios relacionados, de acordo com o Estado onde o estabelecimento fiscal tem o registro do ICMS-ST (SC, SP ou RS).
 
-    ![Página de parâmetros brasileiros, seção ISMS-ST](media/brazil-icms-01.png)
+    ![Página de parâmetros brasileiros, seção ISMS-ST.](media/brazil-icms-01.png)
 
 3. Vá para **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fiscais por Estado**, selecione o Estado adequado (**SP**, **SC**, ou **RS**).
 
@@ -271,7 +271,7 @@ No FastTab **Impostos presumidos** da página **Parâmetros de livros fiscais po
     -  **Média** – Calcule o valor médio de notas fiscais de entrada. Este método deve ser selecionado para o Estado de SP ou SC.
     -  **Última compra** – Usa as informações das notas fiscais de entrada mais recentes lançadas durante o período. Este método deve ser selecionado para o Estado de RS.
 
-  ![Página de parâmetros de livros fiscais por Estado, FastTab de imposto presumido](media/brazil-icms-02.png)
+  ![Página de parâmetros de livros fiscais por Estado, FastTab de imposto presumido.](media/brazil-icms-02.png)
 
 ### <a name="icms-st-sub-tax-assessment-in-rs-state"></a>subapuração do imposto ICMS-ST no Estado do RS
 
@@ -294,7 +294,7 @@ Vá para **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fis
 -  **Restituição (E111)** – Selecione o código de ajuste relacionado a este tipo de ajuste. Quando esse ajuste é criado, a apuração de imposto ICMS será atualizada porque somente os créditos são permitidos na apuração de imposto ICMS.
 -  **Consolidar registro 1923** – Defina esta opção como **Sim** para consolidar ou o relatório no registro 1923 por nota fiscal (nenhum item será detalhado). O campo **08 COD_ITEM** permanecerá em branco.
 
-  ![Página de parâmetros de livros fiscais por Estado, FastTab de parâmetros do ICMS-ST da subapuração](media/brazil-icms-03.png)
+  ![Página de parâmetros de livros fiscais por Estado, FastTab de parâmetros do ICMS-ST da subapuração.](media/brazil-icms-03.png)
 
 ## <a name="repro-steps"></a>Etapas de reprodução
 
@@ -305,12 +305,12 @@ Antes de gerar um demonstrativo para cada Estado, é necessário criar um perío
 > [!NOTE]
 > O ajuste de crédito relacionado à posição do estoque é aplicável somente para os Estados do RS e de SC.
 
-![Página de apuração do imposto ICMS-ST](media/brazil-icms-04.png)
+![Página de apuração do imposto ICMS-ST.](media/brazil-icms-04.png)
 
 1. Vá para **Livros fiscais** \> **Comum** \> **Apuração de imposto** \> **ICMS-ST**.
 2. Na página **ICMS-ST**, no Painel de Ações, na guia **Geral**, no grupo **Exibir**, selecione **Saldo de impostos presumidos**.
 
-    ![Página ICMS-ST, guia Geral no Painel de Ações](media/brazil-icms-05.png)
+    ![Página ICMS-ST, guia Geral no Painel de Ações.](media/brazil-icms-05.png)
 
 A página **Saldo de impostos presumidos** inclui os campos obrigatórios para fins de relatório. Veja alguns exemplos desses campos:
 
@@ -323,7 +323,7 @@ A página **Saldo de impostos presumidos** inclui os campos obrigatórios para f
   - Taxa de imposto ICMS e valores de base do ICMS-ST
   - Valor por unidade de estoque e totais em estoque
 
-  ![Página de saldo de impostos presumidos](media/brazil-icms-06.png)
+  ![Página de saldo de impostos presumidos.](media/brazil-icms-06.png)
 
 No Painel de Ação, na guia **Geral**, no grupo **Cálculos**, selecione **Calcular saldos de estoque**. O sistema calcula o saldo inicial e final e exibe os valores por número do item.
 
@@ -350,7 +350,7 @@ Veja como a função do cálculo de saldo final funciona. Esta função é aplic
 
 Depois que os saldos forem calculados pela primeira vez, abra a página **Impostos presumidos** e selecione **Calcular imposto presumido**.
 
-![Página de impostos presumidos](media/brazil-icms-07.png)
+![Página de impostos presumidos.](media/brazil-icms-07.png)
 
 A página inclui campos obrigatórios para fins de relatório. As guias mostram as notas fiscais relacionadas aplicáveis para compensação e restituição de acordo com os critérios estabelecidos pela lei estadual.
 
@@ -359,7 +359,7 @@ A página inclui campos obrigatórios para fins de relatório. As guias mostram 
 
 A parte inferior da página mostra os valores totais.
 
-![Valores totais exibidos na página Imposto presumido](media/brazil-icms-08.png)
+![Valores totais exibidos na página Imposto presumido.](media/brazil-icms-08.png)
 
 Veja como o algoritmo da média para o cálculo de imposto presumido funciona:
 
@@ -420,7 +420,7 @@ O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de auto
 1. Vá para **Livros fiscais \> Configuração \> Parâmetros de demonstrativos de imposto** e selecione **SPED DRCST**.
 2. Na FastTab **Parâmetros de configuração**, adicione o endereço na internet e o endereço do cabeçalho da solicitação, para que o arquivo XML relacionado possa ser enviado para as autoridades fiscais do governo.
 
-    ![Página de parâmetros de demonstrativo de imposto, FastTab de parâmetros de configuração](media/brazil-icms-09.png)
+    ![Página de parâmetros de demonstrativo de imposto, FastTab de parâmetros de configuração.](media/brazil-icms-09.png)
 
 3. Vá para **Administração da organização \> Configuração \> Parâmetros brasileiros**.
 4.  Na guia **Nota fiscal**, na seção, **ICMS-ST**, defina as opções como **Sim** para habilitar a funcionalidade para calcular impostos presumidos no processo de emissão de NF-e e na apuração de imposto ICMS-ST do SPED Fiscal:

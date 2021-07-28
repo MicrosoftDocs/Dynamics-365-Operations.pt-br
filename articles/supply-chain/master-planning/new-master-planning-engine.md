@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.search.validFrom: 2020-11-05
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e227cabdd205b7a0c1fe784fc719b538e6ea4443
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e9aa911ca22ca2beeffe6bec95f17f94142065e4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907682"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348748"
 ---
 # <a name="migration-to-planning-optimization-for-master-planning"></a>Migração para a Otimização de Planejamento para o planejamento mestre
 
@@ -65,7 +65,7 @@ Depois que os recursos necessários forem disponibilizados, a Microsoft fornecer
 
 O fluxograma abaixo resume as informações fornecidas neste tópico para que você possa decidir rapidamente se deve solicitar uma exceção. Se precisar solicitar uma exceção, preencha e envie a [Questionário de exceção e migração do plano de otimização](https://go.microsoft.com/fwlink/?linkid=2144962).
 
-![Fluxograma de exceção](media/exception-diagram.png "Fluxograma de exceção")
+![Fluxograma de exceção.](media/exception-diagram.png "Fluxograma de exceção")
 
 > [!NOTE]
 > Você só pode solicitar uma exceção para locatários que incluem, ou incluirão, um ambiente de produção, não apenas para locatários com ambientes de área restrita. Se você precisar desabilitar o erro de exceção da Otimização de Planejamento em um ambiente de área restrita IaaS (infraestrutura como serviço), execute a consulta SQL fornecida em [Ambientes de área restrita](#faq-sandbox).

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a9cdd16f0a1592690547a687a731de83a720018
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ce87f14c17aa44d73de22e7f1711794a499c67de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830115"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352703"
 ---
 # <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com valor físico e marcação
 
@@ -65,7 +65,7 @@ Foram lançados um recebimento e uma saída atualizados financeiramente no cená
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação direta sem a opção Incluir valor físico. 
 
-![DS de média ponderada sem Incluir Valor Físico](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
+![DS de média ponderada sem Incluir Valor Físico.](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -99,7 +99,7 @@ As transações a seguir são ilustradas no gráfico abaixo:
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção Incluir valor físico. 
 
-![SS de média ponderada sem Incluir Valor Físico    ](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
+![SS de média ponderada sem Incluir Valor Físico.](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -128,7 +128,7 @@ As transações a seguir são ilustradas no gráfico abaixo:
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação direta com a opção Incluir valor físico. 
 
-![DS de média ponderada com Incluir Valor Físico](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
+![DS de média ponderada com Incluir Valor Físico.](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -161,7 +161,7 @@ As transações a seguir são ilustradas no gráfico abaixo:
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o Modelo de estoque de média ponderada e o princípio de liquidação resumida sem a opção Incluir valor físico. 
 
-![SS de média ponderada com Incluir Valor Físico    ](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
+![SS de média ponderada com Incluir Valor Físico.](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.
@@ -209,7 +209,7 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 
 O diagrama a seguir ilustra essa série de transações com os efeitos de escolher o modelo de estoque de média ponderada com marcação. 
 
-![Média ponderada com Marcação    ](./media/weightedaveragewithmarking.gif) 
+![Média ponderada com Marcação.](./media/weightedaveragewithmarking.gif) 
 
 **Chave para o diagrama**
 - As transações de estoque são representadas por setas verticais.

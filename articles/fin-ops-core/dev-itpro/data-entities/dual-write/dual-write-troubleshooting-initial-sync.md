@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 709a3c332bb6d086910b257fee9cdec8d2bc81a2
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: 9a6be5f4e08a92171892549c017c15c66b1bde2e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941046"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350803"
 ---
 # <a name="troubleshoot-issues-during-initial-synchronization"></a>Solucionar problemas durante a sincronização inicial
 
@@ -38,7 +38,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 Depois de habilitar os modelos de mapeamento, o status dos mapas deve estar em **Execução**. Se o status **Não estiver em execução**, ocorrerão erros durante a sincronização inicial. Para exibir os erros, selecione a guia **Detalhes de sincronização inicial** na página **Gravação dupla**.
 
-![Erro na guia Detalhes da sincronização inicial](media/initial_sync_status.png)
+![Erro na guia Detalhes da sincronização inicial.](media/initial_sync_status.png)
 
 ## <a name="you-cant-complete-initial-synchronization-400-bad-request"></a>Não é possível concluir a sincronização inicial: 400 Solicitação incorreta
 
@@ -85,7 +85,7 @@ Para corrigir o problema, siga estas etapas.
 1. Entrar no aplicativo Finance and Operations.
 2. Na página **aplicativo do Azure Active Directory**, exclua o cliente **DtAppID** e, em seguida, adicione-o novamente.
 
-![Cliente DtAppID na lista de aplicativos do Azure AD](media/aad_applications.png)
+![Cliente DtAppID na lista de aplicativos do Azure AD.](media/aad_applications.png)
 
 ## <a name="self-reference-or-circular-reference-failures-during-initial-synchronization"></a>Falhas de autorreferência ou referência circular durante a sincronização inicial
 
@@ -115,11 +115,11 @@ Se alguma linha na tabela do fornecedor tiver valores nas colunas **PrimaryConta
     2. Procure **primarycontactperson** para encontrar a coluna de origem **PrimaryContactPersonId**.
     3. Selecione **Ações** e depois **Excluir**.
 
-        ![Excluindo a coluna PrimaryContactPersonId](media/vend_selfref3.png)
+        ![Excluindo a coluna PrimaryContactPersonId.](media/vend_selfref3.png)
 
     4. Repita essas etapas para excluir a coluna **InvoiceVendorAccountNumber**.
 
-        ![Excluindo a coluna InvoiceVendorAccountNumber](media/vend-selfref4.png)
+        ![Excluindo a coluna InvoiceVendorAccountNumber.](media/vend-selfref4.png)
 
     5. Salve as alterações feitas no mapeamento.
 
@@ -129,11 +129,11 @@ Se alguma linha na tabela do fornecedor tiver valores nas colunas **PrimaryConta
     2. Selecione a tabela **Fornecedores V2**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
-        ![Selecionando a opção Controle de Alterações](media/selfref_options.png)
+        ![Selecionando a opção Controle de Alterações.](media/selfref_options.png)
 
     4. Selecione **Desabilitar Controle de Alterações**.
 
-        ![Selecionando Desabilitar Controle de Alterações](media/selfref_tracking.png)
+        ![Selecionando Desabilitar Controle de Alterações.](media/selfref_tracking.png)
 
 3. Execute a sincronização inicial para mapeamento do **Fornecedor V2 (msdyn\_vendors)**. A sincronização inicial deve ser executada com êxito, sem erros.
 4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**. Você deverá sincronizar este mapeamento se desejar sincronizar a coluna de contato principal na tabela fornecedores, pois a sincronização inicial também precisa ser feita para as linhas de contatos.
@@ -162,11 +162,11 @@ Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** 
     2. Pesquise **contactperson** para encontrar a coluna de origem **ContactPersonID**.
     3. Selecione **Ações** e depois **Excluir**.
 
-        ![Excluir a coluna ContactPersonID](media/cust_selfref3.png)
+        ![Excluir a coluna ContactPersonID.](media/cust_selfref3.png)
 
     4. Repita essas etapas para excluir a coluna **InvoiceAccount**.
 
-        ![Excluir a coluna InvoiceAccount](media/cust_selfref4.png)
+        ![Excluir a coluna InvoiceAccount.](media/cust_selfref4.png)
 
     5. Salve as alterações feitas no mapeamento.
 
@@ -176,11 +176,11 @@ Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** 
     2. Selecione a tabela **Fornecedor V3**.
     3. No Painel de Ações, selecione **Opções** e depois selecione **Controle de Alterações**.
 
-        ![Selecionando a opção Controle de Alterações](media/selfref_options.png)
+        ![Selecionando a opção Controle de Alterações.](media/selfref_options.png)
 
     4. Selecione **Desabilitar Controle de Alterações**.
 
-        ![Selecionando Desabilitar Controle de Alterações](media/selfref_tracking.png)
+        ![Selecionando Desabilitar Controle de Alterações.](media/selfref_tracking.png)
 
 3. Execute a sincronização inicial para o mapeamento de **Clientes V3 (contas)**. A sincronização inicial deve ser executada com êxito, sem erros.
 4. Execute a sincronização inicial para o mapeamento de **Contatos de CDS V2 (contatos)**.
@@ -196,7 +196,7 @@ Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** 
 
         A ilustração a seguir mostra um projeto que atualiza **CustomerAccount** e **ContactPersonId**.
 
-        ![Projeto de integração de dados para atualizar CustomerAccount e ContactPersonId](media/cust_selfref6.png)
+        ![Projeto de integração de dados para atualizar CustomerAccount e ContactPersonId.](media/cust_selfref6.png)
 
     2. Adicione os critérios da empresa no filtro do Dataverse, para que somente as linhas que correspondem aos critérios do filtro sejam atualizadas no aplicativo do Finance and Operations. Para adicionar um filtro, selecione o botão de filtro. Em seguida, na caixa de diálogo **Editar consulta**, você pode adicionar uma consulta de filtro como **\_msdyn\_company\_value eq '\<guid\>'**. 
 
@@ -204,7 +204,7 @@ Se alguma linha na tabela cliente tiver valores nas colunas **ContactPersonID** 
 
         Se você não inserir uma consulta de filtro para **\_msdyn\_company\_value**, todas os linhas serão sincronizados.
 
-        ![Adicionando uma consulta de filtro](media/cust_selfref7.png)
+        ![Adicionando uma consulta de filtro.](media/cust_selfref7.png)
 
     A sincronização inicial das linhas está concluída.
 

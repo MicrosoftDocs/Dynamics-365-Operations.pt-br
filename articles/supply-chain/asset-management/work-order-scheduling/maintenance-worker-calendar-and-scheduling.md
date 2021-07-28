@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e1abf029e6f72c1c6a827a00483bb34c4abcaec5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e5cc7d21a9993985d1ad1fc2684777ff7ceb138
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808127"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354123"
 ---
 # <a name="maintenance-worker-calendar-and-scheduling"></a>Calendário e agendamento de funcionários de manutenção
 
@@ -32,7 +32,7 @@ Ao agendar ordens de trabalho, você cria um agendamento para funcionários de m
 
 A captura de tela a seguir mostra um exemplo de um funcionário de manutenção que é relacionado a um recurso que usa o calendário de horas úteis "Produção".
 
-![Figura 1](media/01-work-order-scheduling.png)
+![Figura 1.](media/01-work-order-scheduling.png)
 
 A configuração de calendário para ferramentas e ativos não é necessária em relação ao agendamento de ordem de serviço. A suposição é que as ferramentas e os ativos estão disponíveis 24 horas por dia para manutenção.
 

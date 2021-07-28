@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 8b61e65d3a641a1e3d73192853c832d57ed17401
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 23da08f982639c9ba0ef847990979f73b96cac22
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021256"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345515"
 ---
 # <a name="archive-inventory-transactions"></a>Arquivo-morto de transações de estoque
 
@@ -64,7 +64,7 @@ Para arquivar as transações de estoque, siga estas etapas:
 
     A página **Arquivo-morto de transações de estoque** será exibida e exibirá uma lista de registros de processos arquivados.
 
-    ![Página Arquivo-morto de transações de estoque](media/archive-inventory-empty.png "Página Arquivo-morto de transações de estoque")
+    ![Página Arquivo-morto de transações de estoque.](media/archive-inventory-empty.png "Página Arquivo-morto de transações de estoque")
 
 1. No Painel de Ações, selecione **Arquivo-morto de transações de estoque** para criar um arquivo de transação de estoque.
 1. Na caixa de diálogo **Arquivo-morto de transações de estoque**, na FastTab **Parâmetros**, defina os seguintes campos:
@@ -72,7 +72,7 @@ Para arquivar as transações de estoque, siga estas etapas:
     - **Data inicial do período contábil fechado** — selecione a data da transação mais antiga a ser incluída no arquivo morto.
     - **Data final do período contábil fechado** — selecione a data da transação mais recente a ser incluída no arquivo morto.
 
-    ![Caixa de diálogo Arquivo-morto de transações de estoque](media/archive-inventory-dates.png "Caixa de diálogo Arquivo-morto de transações de estoque")
+    ![Caixa de diálogo Arquivo-morto de transações de estoque.](media/archive-inventory-dates.png "Caixa de diálogo Arquivo-morto de transações de estoque")
 
     > [!NOTE]
     > Somente os períodos que atendem aos [pré-requisitos](#prerequisites) estarão disponíveis para seleção.
@@ -87,7 +87,7 @@ Para arquivar as transações de estoque, siga estas etapas:
 
 A página **Arquivo-morto de transações de estoque** exibe o histórico completo do arquivamento. Cada linha na grade mostra informações como a data em que o arquivo foi criado, o usuário que o criou e seu status.
 
-![Histórico do arquivamento na página Arquivo-morto de transações de estoque](media/archive-inventory-full.png "Histórico do arquivamento na página Arquivo-morto de transações de estoque")
+![Histórico do arquivamento na página Arquivo-morto de transações de estoque.](media/archive-inventory-full.png "Histórico do arquivamento na página Arquivo-morto de transações de estoque")
 
 Na lista suspensa na parte superior da página, selecione um dos seguintes valores para filtrar os arquivos exibidos na grade:
 
@@ -109,7 +109,7 @@ A barra de ferramentas acima da grade fornece os seguintes botões que podem ser
 
 - **Transações arquivadas** — exibe os detalhes completos do arquivo-morto selecionado. A página **Transações arquivadas** exibida mostra todas as transações no arquivo-morto.
 
-    ![Página Transações arquivadas](media/archive-inventory-transactions.png "Página Transações arquivadas")
+    ![Página Transações arquivadas.](media/archive-inventory-transactions.png "Página Transações arquivadas")
 
     Para exibir mais informações sobre uma transação específica na página **Transações arquivadas**, selecione-a na grade e, no Painel de Ações, selecione **Detalhes da transação arquivada**. A página **Detalhes da transação arquivada** exibida mostra informações como o lançamento contábil, as referências do auxiliar relacionado e as dimensões financeiras.
 

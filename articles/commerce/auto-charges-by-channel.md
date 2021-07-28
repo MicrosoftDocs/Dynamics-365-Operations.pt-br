@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: 23d02cf96faf3753303435acc148bf71e487d791
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799893"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349689"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Habilitar e configurar encargos automáticos por canal
 
@@ -66,7 +66,7 @@ Para atribuir uma hierarquia padrão a uma finalidade da hierarquia organizacion
 1. No painel de ação, selecione **Executar Agora**.
 1. Repita as duas etapas anteriores para executar os trabalhos **1070** (**Configuração de canal**) e **1110** (**Configuração global**).
 
-![Configuração da organização de encargo automático de varejo finalidade da hierarquia](media/Auto-charges-org-hierarchy-purpose.png)
+![Configuração da organização de encargo automático de varejo finalidade da hierarquia.](media/Auto-charges-org-hierarchy-purpose.png)
 
 ## <a name="define-auto-charges-by-channel"></a>Definir encargos automáticos por canal
 
@@ -86,7 +86,7 @@ Para definir os encargos automáticos por canal no Commerce, siga estas etapas.
 1. No painel de ação, selecione **Executar Agora**.
 1. Repita as duas etapas anteriores para executar os trabalhos **1070** (**Configuração de canal**) e **1110** (**Configuração global**).
     
-![Encargos automáticos definidos por canal](media/Auto-charges-line-charge-by-channel.png)
+![Encargos automáticos definidos por canal.](media/Auto-charges-line-charge-by-channel.png)
 
 ## <a name="example-scenario"></a>Cenário de exemplo
 
@@ -94,7 +94,7 @@ O exemplo a seguir destaca as etapas necessárias para configurar um produto, de
 
 A organização define um código de encargos denominado **RECICLAR**, conforme mostrado na ilustração a seguir.
 
-![Código de encargos RECICLAR](media/Auto-charges-charge-code.png)
+![Código de encargos RECICLAR.](media/Auto-charges-charge-code.png)
 
 Um encargo automático é criado no nível da linha. Tem as seguintes configurações:
 
@@ -112,13 +112,13 @@ Uma linha de encargos automáticos é criada. Tem as seguintes configurações:
 - O campo **Categoria** é definido como **Fixo**.
 - O campo **Encargos** é definido como **$6,25**.
 
-![Configuração do encargo automático de nível de linha e linha de encargos automáticos](media/Auto-charges-recyclingfee-line-fee.png)
+![Configuração do encargo automático de nível de linha e linha de encargos automáticos.](media/Auto-charges-recyclingfee-line-fee.png)
 
 No aplicativo POS, uma ordem de venda é criada no canal de armazenamento **San Francisco**. A linha **Encargos** mostra a taxa de reciclagem de **$6,25**.
 
 Ao selecionar **Opções de transação \> Encargos \> Gerenciar encargos** no aplicativo PDV, você pode visualizar o código de encargos e descrição da taxa de reciclagem.
 
-![Taxa de reciclagem no aplicativo PDV](media/pos-auto-charges-recyclingfee-line-fee.png)
+![Taxa de reciclagem no aplicativo PDV.](media/pos-auto-charges-recyclingfee-line-fee.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

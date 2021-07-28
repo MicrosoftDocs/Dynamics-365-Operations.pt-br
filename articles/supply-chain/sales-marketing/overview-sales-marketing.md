@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 92303
+ms.custom:
+- "92303"
+- intro-internal
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42934a88065da015334455b6c37f57591611360f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 92077c0d8a9c9f3820171fd4ffd8aedb02f59602
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188116"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359852"
 ---
 # <a name="sales-and-marketing-overview"></a>Visão geral de Vendas e marketing
 
@@ -29,18 +31,18 @@ Você pode usar Vendas e marketing para obter, armazenar e usar vários tipos de
 
 ## <a name="marketing"></a>Marketing
 
-Você usa campanhas e atividades de marketing para encontrar e criar relacionamentos com clientes potenciais, para que as interações iniciais possam desenvolver relacionamentos de vendas. O fluxo de processo a seguir ilustra o processo comercial do marketing. [![Processo comercial para Marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
+Você usa campanhas e atividades de marketing para encontrar e criar relacionamentos com clientes potenciais, para que as interações iniciais possam desenvolver relacionamentos de vendas. O fluxo de processo a seguir ilustra o processo comercial do marketing. [![Processo comercial para Marketing.](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relacionamentos
 
-Em vendas e marketing, as interações iniciais com clientes potenciais podem ocorrer em diversas situações. Por exemplo, você pode encontrar um cliente em potencial enquanto você estiver participando de uma feira de negócios ou você pode ter um cliente potencial possível com um cliente após sua organização realizar uma campanha de emails em massa. É muito importante que você compreenda o fluxo da entidade da parte antes que se torne um cliente. O gráfico a seguir mostra o fluxo de relações de entidades como um cliente potencial torna-se um cliente real. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+Em vendas e marketing, as interações iniciais com clientes potenciais podem ocorrer em diversas situações. Por exemplo, você pode encontrar um cliente em potencial enquanto você estiver participando de uma feira de negócios ou você pode ter um cliente potencial possível com um cliente após sua organização realizar uma campanha de emails em massa. É muito importante que você compreenda o fluxo da entidade da parte antes que se torne um cliente. O gráfico a seguir mostra o fluxo de relações de entidades como um cliente potencial torna-se um cliente real. [![SalesandMarketing01.](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campanhas
 
 Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Supply Chain Management, você pode criar vários tipos de campanhas, como telemarketing, endereçamento e campanhas de email, para maximizar seu potencial de clientes. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
 
 ## <a name="sales"></a>Venda
-Você pode usar a funcionalidade de venda para criar cotações de venda e vendas cruzadas para clientes novos e existentes, criar ordens de venda e criar notas fiscais de venda para clientes. O fluxo de processo a seguir ilustra o processo comercial de vendas. [![Processo empresarial para vendas](./media/sales01.jpg)](./media/sales01.jpg)
+Você pode usar a funcionalidade de venda para criar cotações de venda e vendas cruzadas para clientes novos e existentes, criar ordens de venda e criar notas fiscais de venda para clientes. O fluxo de processo a seguir ilustra o processo comercial de vendas. [![Processo empresarial para vendas.](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Cotações de venda
 

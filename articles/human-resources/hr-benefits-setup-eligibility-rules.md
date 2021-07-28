@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 1b4673631f9c7d2310d8bdb08e0b25027bc8dedf
-ms.sourcegitcommit: 4c880b152e81350f023b944c2ab13e60498e2c7b
+ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6093911"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351648"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação
 
@@ -137,20 +137,20 @@ Você pode definir regras que têm vários critérios. Quando você define vári
 
 Por exemplo, a regra **Funcionários ativos** acima é composta pelos critérios a seguir. Para que o funcionário seja elegível com base na regra de **Funcionários ativos**, o funcionário deve ser empregado em USMF da entidade legal *e* ter um tipo de posição de tempo integral.  
 
-![Critérios em uma regra de qualificação](media/CriteriaWithinAnEligibilityRule.png) 
+![Critérios em uma regra de qualificação.](media/CriteriaWithinAnEligibilityRule.png) 
  
 ### <a name="multiple-conditions-within-criteria"></a>Várias condições nos critérios
 
 As regras podem ser expandidas para usar várias condições em um único critério. O funcionário deve atender a pelo menos uma condição para ser elegível. Para criar no exemplo acima, a regra **Funcionários ativos** pode ser expandida para incluir funcionários que também são funcionários de meio expediente. Como resultado, agora o funcionário deve ser um funcionário em USMF *e* um funcionário de tempo integral ou de meio período.  
 
-![Várias condições nos critérios](media/MultipleConditionsWithinCriteria.png) 
+![Várias condições nos critérios.](media/MultipleConditionsWithinCriteria.png) 
  
 ### <a name="eligibility-conditions-within-a-custom-field-criterion"></a>Condições de qualificação em um critério de campo personalizado 
 Semelhante à acima, os campos personalizados podem ser usados ao criar regras de qualificação e trabalhar da mesma maneira. Por exemplo, você pode querer oferecer reembolso da Internet aos funcionários da Fargo e Copenhague que estão trabalhando em casa, pois os custos da Internet estão mais altos nesses locais. Para isso, crie dois campos personalizados: **Local do escritório** (lista de opções) e **Trabalho em casa** (caixa de seleção). Em seguida, crie uma regra chamada **Funcionários da WFH**. O critério para a regra é onde **Local do Escritório = Fargo** ou **Copenhague** *e*  onde **Trabalhar em casa = Sim**.
 
 As regras de qualificação personalizadas precisam ser configuradas, conforme indicado na imagem a seguir. 
 
-![Condições de qualificação em um critério de campo personalizado](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
+![Condições de qualificação em um critério de campo personalizado.](media/EligibilityConditionsWithinACustomFieldCriterion.png) 
  
 ## <a name="configure-bundles"></a>Configurar pacotes
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f692d73bf1755422e9bfc8314c1156e043ccf761
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 3dd4eb576f234e4d75c08b0b5e2fe967500c8c93
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020795"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347287"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>A opção "Retirar este item" não aparece nas páginas de detalhes do carrinho ou do produto
 
@@ -34,7 +34,7 @@ O botão **Retirar este item** não aparece nas páginas de detalhes do carrinho
 
 A ilustração a seguir mostra um exemplo de uma página que inclui o botão **Retirar este item**.
 
-![Botão Retirar este item](media/pickup-button-missing.jpg)
+![Botão Retirar este item.](media/pickup-button-missing.jpg)
 
 ## <a name="resolution"></a>Resolução
 

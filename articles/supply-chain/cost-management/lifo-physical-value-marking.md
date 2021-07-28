@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 294c7bbb328c31c6c3fdc16a72267224d7c71b27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcac72a60eac6abb29a017eb4ce02a71dca572d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809725"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344535"
 ---
 # <a name="lifo-with-physical-value-and-marking"></a>UEPS com marcação e valor físico
 
@@ -53,7 +53,7 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. A ilustração a seguir mostra os efeitos do modelo de estoque LIFO nesta série de transações quando a opção **Incluir valor físico** não é usada. 
 
-![UEPS sem Incluir Valor Físico](./media/lifowithoutincludephysicalvalue.gif) 
+![UEPS sem Incluir Valor Físico.](./media/lifowithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -89,7 +89,7 @@ A transação 6a será ajustada para a transação de recebimento 4b. O sistema 
 
 A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a opção **Incluir valor físico** é usada. 
 
-![UEPS com Incluir Valor Físico](./media/lifowithincludephysicalvalue.gif) 
+![UEPS com Incluir Valor Físico.](./media/lifowithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -133,7 +133,7 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 
 A ilustração a seguir mostra os efeitos do modelo de estoque UEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada. 
 
-![UEPS com Marcação    ](./media/lifowithmarking.gif) 
+![LIFO com marcação.](./media/lifowithmarking.gif) 
 
 **Chave para o diagrama**
 

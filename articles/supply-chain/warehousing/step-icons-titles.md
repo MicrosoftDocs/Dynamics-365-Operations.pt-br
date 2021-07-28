@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 9523492d766669e6c38579fba7b5ddd6b3d282fc
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: a74847b50512d2f712e5a9a5125e520afc732591
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049355"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344480"
 ---
 # <a name="assign-step-icons-and-titles-for-the-warehouse-management-mobile-app"></a>Atribuir títulos e ícones de etapa ao aplicativo móvel Warehouse Management
 
@@ -25,7 +25,7 @@ Este tópico descreve como atribuir ícones e títulos de etapas para fluxos de 
 
 As ilustrações a seguir mostram como os ícones e títulos de etapas aparecem no aplicativo móvel Warehouse Management.
 
-![Exemplo de um ícone e um título de etapa no aplicativo móvel Warehouse Management](media/step-icon-example.png "Exemplo de um ícone e um título de etapa no aplicativo móvel Warehouse Management")
+![Exemplo de um ícone e um título de etapa no aplicativo móvel Warehouse Management.](media/step-icon-example.png "Exemplo de um ícone e um título de etapa no aplicativo móvel Warehouse Management")
 
 ## <a name="turn-on-this-feature-in-your-system"></a>Ative este recurso no seu sistema
 
@@ -350,13 +350,13 @@ Este exemplo explica como configurar ícones e títulos de etapas para um fluxo 
 
 A ilustração a seguir mostra esse fluxo de tarefa.
 
-![Diagrama de fluxo de tarefas](media/step-icons-example-task-flow.png "Diagrama de fluxo de tarefas")
+![Diagrama de fluxo de tarefas.](media/step-icons-example-task-flow.png "Diagrama de fluxo de tarefas")
 
 ### <a name="create-a-step-class-for-the-container-input-page"></a>Criar uma classe de etapa para a página de entrada do contêiner
 
 A página de entrada do contêiner permite que o trabalhador faça a digitalização ou insira uma ID de contêiner.
 
-![Página de entrada do contêiner](media/step-icons-example-container-input.png "Página de entrada do contêiner")
+![Página de entrada do contêiner.](media/step-icons-example-container-input.png "Página de entrada do contêiner")
 
 Na página de entrada do contêiner, o nome do controle do campo de entrada é `ContainerId`. Como esse nome de controle não está na [lista de IDs de etapa](#step-ids-classes), você não encontrará uma etapa existente baseada nele. Portanto, você deve criar uma classe de etapa que representa a etapa. Veja aqui um exemplo.
 
@@ -382,7 +382,7 @@ Para atribuir um ícone de etapa, defina `defaultStepIcon` para uma das IDs de �
 
 A página de entrada de peso permite que o trabalhador insira um peso.
 
-![Página entrada de peso](media/step-icons-example-weight-input.png "Página entrada de peso")
+![Página entrada de peso.](media/step-icons-example-weight-input.png "Página entrada de peso")
 
 Na página de entrada de peso, o nome do controle do campo de entrada é `Weight`, que está na [lista de IDs de etapa](#step-ids-classes). Portanto, se o ícone e o título da etapa definidos na classe `WHSMobileAppStepWeight` são aceitáveis para você, não é necessário alterar nada nesta etapa.
 

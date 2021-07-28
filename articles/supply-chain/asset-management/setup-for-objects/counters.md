@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e119eee82b1438dd8c3ccbaf2d54962b59fe6ae3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 47fd386875e3000d579890ae58a462b643ef1876
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808391"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360913"
 ---
 # <a name="counters"></a>Contadores
 
@@ -62,7 +62,7 @@ Um registro de contador pode ser atualizado de forma manual ou automática com b
 
 Quando tipos de ativo forem adicionados a um tipo de contador, digite **Contadores**. Assim, o contador será automaticamente adicionado aos tipos de ativos na Guia Rápida **Contadores** em [Tipos de ativo](../setup-for-objects/object-types.md).
 
-![Figura 1](media/071-setup-for-objects.png)
+![Figura 1.](media/071-setup-for-objects.png)
 
 
 

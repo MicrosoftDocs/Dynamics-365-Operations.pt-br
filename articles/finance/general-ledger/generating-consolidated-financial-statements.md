@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0c0eab7b0b1325d18f77ab5b8c9704781beba856
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: dce0dd216d552d956ba7fdbcb4eebb6ed85b7115
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897855"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348953"
 ---
 # <a name="generate-consolidated-financial-statements"></a>Gerar demonstrativos financeiros consolidados
 
@@ -38,19 +38,19 @@ O método mais simples de consolidação por meio de relatórios financeiros é 
 
 A ilustração a seguir mostra como usar uma definição de hierarquia organizacional no Relatório financeiro para identificar cada empresa que você consolidará.
 
-![Definição de hierarquia organizacional](./media/reporting-tree-definition.png "Definição de hierarquia organizacional")
+![Definição de hierarquia organizacional.](./media/reporting-tree-definition.png "Definição de hierarquia organizacional")
 
 Como mostra o relatório consolidado na ilustração a seguir, quando você usa a hierarquia organizacional em conjunto com uma definição de relatório, é possível exibir cada empresa separadamente. Os valores consolidados são mostrados no nível de resumo.
 
-![Consolidar nível de resumo de valor](./media/consolidate-amount-summary-level.png "Consolidar nível de resumo de valor")
+![Consolidar nível de resumo de valor.](./media/consolidate-amount-summary-level.png "Consolidar nível de resumo de valor")
 
 Você também pode criar uma hierarquia organizacional de vários níveis que inclua quantos níveis forem necessários. A ilustração a seguir mostra uma definição de hierarquia organizacional de vários níveis que possui acúmulos por região mundial.
 
-![Definição de árvore de relatório de vários níveis com acúmulos por região](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definição de árvore de relatório de vários níveis com acúmulos por região")
+![Definição de árvore de relatório de vários níveis com acúmulos por região.](./media/multilevel-reporting-tree-definition-roll-ups-worldwide-region.png "Definição de árvore de relatório de vários níveis com acúmulos por região")
 
 A ilustração a seguir mostra uma definição de hierarquia organizacional de vários níveis que possui acúmulos por função.
 
-![Definição de árvore de relatório de vários níveis com acúmulos por função](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definição de árvore de relatório de vários níveis com acúmulos por função")
+![Definição de árvore de relatório de vários níveis com acúmulos por função.](./media/multilevel-reporting-tree-definition-roll-ups-by-function.png "Definição de árvore de relatório de vários níveis com acúmulos por função")
 
 ### <a name="viewing-companies-side-by-side"></a>Exibição de empresas lado a lado
 Muitos clientes preferem relatórios em que as empresas aparecem lado a lado e onde uma coluna mostra o total consolidado. É fácil obter esse formato após a criação da hierarquia organizacional. Aqui estão as etapas de alto nível para exibir as empresas lado a lado nos demonstrativos financeiros consolidados.
@@ -61,19 +61,19 @@ Muitos clientes preferem relatórios em que as empresas aparecem lado a lado e o
 
 A ilustração a seguir mostra uma definição de coluna em um formato lado a lado.
 
-![Definição de coluna em um formato lado a lado](./media/column-definition-side-by-side-format.png "Definição de coluna em um formato lado a lado")
+![Definição de coluna em um formato lado a lado.](./media/column-definition-side-by-side-format.png "Definição de coluna em um formato lado a lado")
 
 ## <a name="consolidations-that-use-organization-structures-that-are-created-from-legal-entities"></a>Consolidações que usam estruturas organizacionais criadas a partir de entidades legais
 Hierarquias de organização que contêm dimensões ou entidades legais criam dinamicamente as definições de hierarquia organizacional no Relatório financeiro. Uma maneira fácil de otimizar as consolidações é adicionar uma hierarquia da organização ao seu relatório no Relatório financeiro. Com base na data do relatório, o Financial Reporting selecionará a hierarquia da organização na data de efetivação ou antes dela, conforme mostrado na ilustração a seguir.
 
-![Criar dinamicamente uma definição de árvore de relatório](./media/dynamically-create-reporting-tree-definitions.png "Criar dinamicamente uma definição de árvore de relatório")
+![Criar dinamicamente uma definição de árvore de relatório.](./media/dynamically-create-reporting-tree-definitions.png "Criar dinamicamente uma definição de árvore de relatório")
 
 ## <a name="consolidations-that-involve-eliminations"></a>Consolidações que envolvem eliminações
 As transações de eliminação são uma parte comum do processo de consolidação. Neste exemplo, cinco contas são eliminadas durante a consolidação: 142600, 211400, 401420, 401180 e 510820. As empresas podem configurar suas contas intercompanhia de maneira diferente. Por exemplo, algumas empresas definem o último dígito como 9, se a conta for usada em transações intercompanhia. Independentemente do método, se conhecer as contas intercompanhia, você pode mostrar eliminações em seus demonstrativos financeiros consolidados.
 
 A ilustração a seguir mostra uma definição de coluna para um demonstrativo de rendimento consolidado. Três contas intercompanhia de lucros e perdas são definidas para cada empresa usando o filtro de dimensão. As colunas F, G e H incluem as contas de eliminação somente para as empresas USMF, USRT e DEMF. Essas colunas estão configuradas para que **não** sejam impressas no demonstrativo financeiro.
 
-![Demonstrativo de receita consolidada com definição de coluna](./media/column-definition-consolidated-income-statement.png "Demonstrativo de receita consolidada com definição de coluna")
+![Demonstrativo de receita consolidada com definição de coluna.](./media/column-definition-consolidated-income-statement.png "Demonstrativo de receita consolidada com definição de coluna")
 
 Quando o relatório é gerado, os valores de eliminação são calculados nas colunas F, G e H e são totalizados na coluna I. A coluna J mostra os valores consolidados. Esses valores de consolidação excluem as eliminações das empresas USMF, USRT e DEMF.
 
@@ -82,7 +82,7 @@ Quando o relatório é gerado, os valores de eliminação são calculados nas co
 
 A ilustração a seguir mostra o relatório consolidado.
 
-![Demonstrativo de receita de relatório consolidado](./media/consolidated-report-income-statement.png "Demonstrativo de receita de relatório consolidado")
+![Demonstrativo de receita de relatório consolidado.](./media/consolidated-report-income-statement.png "Demonstrativo de receita de relatório consolidado")
 
 Se usar contas, dimensões ou ambos, o Relatório financeiro permite descartar as entradas de eliminação utilizando os recursos de filtragem de dimensão.
 
@@ -95,20 +95,20 @@ Na definição de hierarquia organizacional, insira o percentual de participaç�
 > [!NOTE]
 > Você pode aplicar essa porcentagem de participação a qualquer unidade organizacional, não apenas no nível da empresa. 
 
-![Uso de porcentagem na definição de árvore de relatório](./media/Using-reporting-tree-definition-percentage.png "Uso de porcentagem na definição de árvore de relatório")
+![Uso de porcentagem na definição de árvore de relatório.](./media/Using-reporting-tree-definition-percentage.png "Uso de porcentagem na definição de árvore de relatório")
 
 Quando o relatório for gerado, o relatório da Contoso Alemanha mostrará 100% do valor das vendas, e 80% do valor será alocado e acumulado no nível consolidado para vendas.
 
 Se você possuir menos de 1% de uma empresa, é possível marcar a caixa de seleção **Permitir acúmulo inferior a 1%** na guia **Opções adicionais** da página **Configurações do relatório**, conforme mostrado na ilustração a seguir. Nesse caso, os valores na coluna **Porcentagem de acúmulo** na hierarquia organizacional serão tratados como menos de 1%. Por exemplo, se você inserir **,8**, 0,8% será acumulado no nível consolidado, não 80%. Como alternativa, você pode obter o mesmo resultado deixando a caixa de seleção **Permitir acúmulo inferior a 1%** desmarcada e inserindo **,008** na coluna **Porcentagem de acúmulo**.
 
-![Opções de configuração de relatório](./media/reporting-setting-options.png "Opções de configuração de relatório")
+![Opções de configuração de relatório.](./media/reporting-setting-options.png "Opções de configuração de relatório")
 
 ### <a name="showing-ownership-as-a-separate-row-on-the-consolidated-report"></a>Mostrando a participação como uma linha separada no relatório consolidado
 Outra opção para participação minoritária é mostrar 100% da subsidiária para cada linha no relatório, mas subtrair o interesse não controlador da receita líquida.
 
 Como mostra a ilustração a seguir, uma instrução **IF THEN ELSE** e a restrição de coluna na definição de linha podem ser usadas para calcular o interesse minoritário em relatórios financeiros.
 
-![Mostrando a participação como uma linha separada no relatório consolidado](./media/Showing-ownership-separate-row-consolidated-report.png "Mostrando a participação como uma linha separada no relatório consolidado")
+![Mostrando a participação como uma linha separada no relatório consolidado.](./media/Showing-ownership-separate-row-consolidated-report.png "Mostrando a participação como uma linha separada no relatório consolidado")
 
 ## <a name="multiple-charts-of-accounts-across-legal-entities"></a>Vários gráficos de contas em entidades legais
 Em geral, entidades legais diferentes têm planos de contas diferentes, mas ainda desejam produzir demonstrativos financeiros consolidados. Nessa situação, o Relatório financeiro pode ser usado para consolidar os dados, para que você possa gerar relatórios financeiros consolidados. Aqui estão as etapas de alto nível para consolidação quando diferentes gráficos de contas existirem em entidades legais.
@@ -122,11 +122,11 @@ Vários links para dimensões financeiras podem ser adicionados a cada linha na 
 > [!TIP]
 > Para obter mais informações sobre a célula **Vincular a Dimensões Financeiras**, consulte Especificar a célula Vincular a Dimensões Financeiras
 
-![Definir primeiro link de contas para dimensões financeiras](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Definir primeiro link de contas para dimensões financeiras")
+![Definir primeiro link de contas para dimensões financeiras.](./media/set-accounts-first-Link-to-Financial-Dimensions.png "Definir primeiro link de contas para dimensões financeiras")
 
 Você pode usar uma hierarquia organizacional para definir qual link para dimensões financeiras da definição de linha será usado em cada empresa. Selecione a definição de linha na coluna E e, em seguida, selecione o link de linha apropriado na coluna F, conforme mostrado na ilustração a seguir.
 
-![Definição de Vincular linha de dimensões financeiras usada](./media/link-financial-dimensions-row-definition-used.png "Definição de Vincular linha de dimensões financeiras usada")
+![Definição de Vincular linha de dimensões financeiras usada.](./media/link-financial-dimensions-row-definition-used.png "Definição de Vincular linha de dimensões financeiras usada")
 
 > [!TIP]
 > Ao criar links para dimensões financeiras, use a descrição para identificar as empresas às quais cada link se aplica. Dessa forma, você poderá selecionar mais facilmente a empresa correta ao criar uma hierarquia organizacional. Na definição da coluna, o campo **Unidade organizacional** permite restringir cada coluna a uma unidade de hierarquia organizacional para que você possa exibir os dados lado a lado. Se você não indicar uma empresa específica para uma coluna, os dados consolidados de todas as empresas serão exibidos.
@@ -146,16 +146,16 @@ Ao projetar a definição da coluna para várias empresas com períodos fiscais 
 
 Na ilustração a seguir, a empresa USMF é especificada no campo **Nome da empresa** na definição de relatório. Portanto, o calendário fiscal da empresa USMF será usado como o calendário fiscal base. Neste exemplo, quando um relatório é gerado para 30 de junho de 2018, a empresa USMF usará o período BASE, que é definido como o período 12 na definição de relatório. A empresa INMF usará o BASE–6, que é o período 6. Ambas as colunas incluirão dados para junho de 2018.
 
-![Período base do relatório](./media/report-base-period.png "Período base do relatório")
+![Período base do relatório.](./media/report-base-period.png "Período base do relatório")
 
 A ilustração a seguir mostra as opções na definição de relatório que permitem selecionar se o número do período ou a data final do período é usada para a consolidação.
 
-![Número de período de definição de relatório de opções](./media/options-report-definition-period-number.png "Número de período de definição de relatório de opções")
+![Número de período de definição de relatório de opções.](./media/options-report-definition-period-number.png "Número de período de definição de relatório de opções")
 
 ## <a name="business-unit-consolidations"></a>Consolidações da unidade de negócios
 Este tópico se concentrou no uso de definições de hierarquia organizacional e hierarquias da organização no Relatório financeiro para fins de consolidação. Você também pode usar a hierarquia organizacional para criar relatórios de consolidação de unidades de negócios, como relatórios sobre vendas ou operações em todo o mundo. Esses relatórios são um requisito comum. Para criá-los, selecione uma empresa e uma dimensão para cada unidade na qual deseja realizar a consolidação. Por exemplo, na ilustração a seguir, o acúmulo da unidade de negócios é realizado pela repetição de cada empresa na coluna **Empresa** (coluna A) e pela identificação de um grupo de valores de dimensão do departamento por empresa na coluna **Dimensões** (coluna D).
 
-![Relatórios de consolidação da unidade de negócios](./media/business-unit-consolidation-reports.png "Relatórios de consolidação da unidade de negócios")
+![Relatórios de consolidação da unidade de negócios.](./media/business-unit-consolidation-reports.png "Relatórios de consolidação da unidade de negócios")
 
 ## <a name="consolidations-that-involve-multiple-reporting-currencies"></a>Consolidações que envolvem várias moedas de relatório
 O Relatório financeiro oferece maior flexibilidade ao exibir dados reais, de orçamento, de controle de orçamento e de planejamento de orçamento em várias moedas. Ao fornecer dados de configuração de chave, você não precisa fazer nenhuma configuração adicional no Relatório financeiro para exibir qualquer relatório, em qualquer moeda e a qualquer momento, para qualquer usuário.
@@ -168,7 +168,7 @@ Na conta principal, os campos **Tipo de taxa de câmbio de relatório financeiro
 - No campo **Tipo de taxa de câmbio de relatório financeiro**, selecione o tipo de taxa de câmbio que contém as moedas e as taxas de câmbio a serem aplicadas à conta. Essa tabela de moedas e taxas de câmbio será aplicada aos dados reais no Relatório financeiro.
 - No campo **Tipo de conversão de moeda**, selecione o método usado para calcular a taxa de câmbio da conta. Esse método de moeda é usado para dados reais e de orçamento no Relatório financeiro.
 
-![Contas principais de relatório financeiro](./media/Financial-reporting-main-accounts.png "Contas principais de relatório financeiro")
+![Contas principais de relatório financeiro.](./media/Financial-reporting-main-accounts.png "Contas principais de relatório financeiro")
 
 Para dados de orçamento, controle de orçamento e planejamento de orçamento, o tipo de taxa de câmbio é definido na página **Razão**. Essa tabela será usada para extrair as taxas de câmbio, e o tipo de conversão de moeda atribuído à conta será usado.
 
@@ -199,15 +199,15 @@ O ajuste de conversão de moeda (currency translation adjustment, CTA) é a dife
 
 - Use a página **Ajustes de arredondamento** na definição da linha, conforme mostrado na ilustração a seguir.
 
-    ![Ajustes de arredondamento de ajuste de conversão de moeda](./media/Currency-translation-adjustment-rounding-adjustments.png "Ajustes de arredondamento de ajuste de conversão de moeda")
+    ![Ajustes de arredondamento de ajuste de conversão de moeda.](./media/Currency-translation-adjustment-rounding-adjustments.png "Ajustes de arredondamento de ajuste de conversão de moeda")
 
     Quando você especifica a linha que deve mostrar o ajuste de arredondamento (CTA), a linha de total de ativos, o total de passivos, a linha de patrimônio e o limite com o qual você está confortável, o Relatório financeiro vai calcular a diferença e colocá-la na linha desejada. Uma linha nomeada **Ajuste de arredondamento** será criada e mostrada após busca detalhada, conforme mostrado na ilustração a seguir.
 
-    ![Detalhamento de ajuste de arredondamento](./media/rounding-adjustment-drill-down.png "Detalhamento de ajuste de arredondamento")
+    ![Detalhamento de ajuste de arredondamento.](./media/rounding-adjustment-drill-down.png "Detalhamento de ajuste de arredondamento")
 
 - Coloque todas as contas em um intervalo, de ativos para despesas. Conforme mostrado na ilustração a seguir, a diferença será a mesma quantidade que o ajuste de arredondamento (CTA). Portanto, você pode usá-lo como um total de verificação para garantir que a página de ajuste de arredondamento não inclua saldos de conta perdidos.
 
-    ![Verificação de formulário de ajuste de arredondamento](./media/rounding-adjustment-form-check.png "Verificação de formulário de ajuste de arredondamento")
+    ![Verificação de formulário de ajuste de arredondamento.](./media/rounding-adjustment-form-check.png "Verificação de formulário de ajuste de arredondamento")
 
 ### <a name="balance-calculation-approach"></a>Abordagem de cálculo de saldo
 Para obter valores convertidos corretamente quando moedas são usadas, o Relatório financeiro usa os seguintes métodos de cálculo para os saldos:

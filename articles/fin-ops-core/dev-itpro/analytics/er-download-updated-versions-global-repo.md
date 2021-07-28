@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 724048991fc8864ef72a5155af66b9c709f4b875
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893947"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351713"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importar versões atualizadas de configurações de ER
 
@@ -41,11 +41,11 @@ Este tópico explica como importar versões atualizadas de configurações de ER
 2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Importar atualizações de versões de configurações**.
 
-    ![Página Configurações de localização](./media/er-download-updated-versions-global-repo1.png)
+    ![Página Configurações de localização.](./media/er-download-updated-versions-global-repo1.png)
 
 4. Na caixa de diálogo **Importar atualizações de versões de configurações de relatório eletrônico**, no campo **Modo de execução**, selecione **Mostrar somente as atualizações disponíveis**. Em seguida, selecione **OK**. 
 
-    ![Campo de modo de execução definido como Mostrar somente as atualizações disponíveis](./media/er-download-updated-versions-global-repo2.png)
+    ![Campo de modo de execução definido como Mostrar somente as atualizações disponíveis.](./media/er-download-updated-versions-global-repo2.png)
 
 5. Examine as mensagens recebidas. Essas mensagens fornecem as seguintes informações sobre as configurações de ER na instância atual do Finance e uma comparação com o conteúdo do repositório global:
 
@@ -72,14 +72,14 @@ Este tópico explica como importar versões atualizadas de configurações de ER
 4. Na caixa de diálogo **Importar atualizações de versões de configurações de relatório eletrônico**, no campo **Modo de execução**, selecione **Importar atualizações mais recentes** para importar as versões mais recentes das configurações de ER do repositório global para a instância atual do Finance.
 5. Para programar um trabalho em lotes para a importação, na FastTab **Executar em segundo plano**, defina a opção **Processamento em lotes** como **Sim**. Se quiser repetir a importação periodicamente, configure a recorrência necessária.
 
-    ![Campo Modo de execução definido como Importar atualizações mais recentes](./media/er-download-updated-versions-global-repo5.png)
+    ![Campo Modo de execução definido como Importar atualizações mais recentes.](./media/er-download-updated-versions-global-repo5.png)
 
 6. Selecione **OK**.
 7. Para saber quais versões de configuração foram importadas, siga uma destas etapas:
 
     - Se você executar a importação interativamente em vez de usar um trabalho em lotes, examine as mensagens recebidas.
 
-        ![Mensagens recebidas durante uma execução de importação interativa](./media/er-download-updated-versions-global-repo6.png)
+        ![Mensagens recebidas durante uma execução de importação interativa.](./media/er-download-updated-versions-global-repo6.png)
 
     - Se você executar a importação no modo de lotes, siga estas etapas:
 
@@ -87,7 +87,7 @@ Este tópico explica como importar versões atualizadas de configurações de ER
         2. Encontre e selecione o trabalho **Importar atualizações de versões de configurações de relatório eletrônico** e, no Painel de Ação, na guia **Trabalho em lotes**, selecione **Histórico de trabalho em lotes** para ver o histórico de trabalho.
         3. Na página **Histórico de trabalho em lotes**, selecione **Log**. Em seguida, na mensagem recebida, selecione o link **Detalhes da mensagem** para ver o log do trabalho.
 
-        ![Log do trabalho](./media/er-download-updated-versions-global-repo7.png)
+        ![Log do trabalho.](./media/er-download-updated-versions-global-repo7.png)
 
 > [!IMPORTANT]
 > Não recomendamos agendar um trabalho em lotes recorrente para importar versões atualizadas das configurações de ER diretamente do repositório global para um ambiente de produção, pois as versões importadas estarão disponíveis imediatamente para uso. Em vez disso, use esta abordagem para implantar versões de configurações de ER em um ambiente de área restrita. Elas poderão ser avaliadas no ambiente de área restrita antes de serem implantadas em um ambiente de produção.

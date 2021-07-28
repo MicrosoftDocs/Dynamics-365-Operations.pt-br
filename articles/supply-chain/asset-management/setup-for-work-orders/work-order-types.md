@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 6bdc9d226d8e1aa6960cac38b95b0245e46ee1ab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d89d7c652837e881f7fcb6014fe017eedc2f876c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351456"
 ---
 # <a name="work-order-types"></a>Tipos de ordem de serviço
 
@@ -48,7 +48,7 @@ Para obter mais informações sobre os estados de ciclo de vida da ordem de serv
 
 8. Selecione **Salvar**.
 
-![Tipos de ordem de serviço](media/16-setup-for-work-orders.png)
+![Tipos de ordem de trabalho.](media/16-setup-for-work-orders.png)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

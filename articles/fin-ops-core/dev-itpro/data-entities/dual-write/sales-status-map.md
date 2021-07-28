@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: 9afa64df73aa17e7a15a0ee4f4529ac74bcd3c67
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750705"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346561"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurar o mapeamento das colunas de status da ordem de venda
 
@@ -100,7 +100,7 @@ Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
 1. Em um navegador, vá para `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Substitua **\<test-name\>** pelo link da sua empresa para Vendas.
 2. Na página que está aberta, localize **organizationid** e anote o valor.
 
-    ![Localizando organizationid](media/sales-map-orgid.png)
+    ![Localizando organizationid.](media/sales-map-orgid.png)
 
 3. Em Vendas, abra o console do navegador e execute o seguinte script. Use o valor **organizationid** da etapa 2.
 
@@ -119,33 +119,33 @@ Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
     );
     ```
 
-    ![Código JavaScript no console do navegador](media/sales-map-script.png)
+    ![Código JavaScript no console do navegador.](media/sales-map-script.png)
 
 4. Verifique se **IsSOPIntegrationEnabled** está definido como **true**. Use a URL da etapa 1 para verificar o valor.
 
-    ![IsSOPIntegrationEnabled está definido como true](media/sales-map-integration-enabled.png)
+    ![IsSOPIntegrationEnabled está definido como true.](media/sales-map-integration-enabled.png)
 
 Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
 
 1. No Sales, vá para **Configuração \> Personalização \> Personalizar o Sistema**, selecione **Tabela do usuário** e abra **Formulário \> Usuário**.
 
-    ![Abrindo o formulário do usuário](media/sales-map-user.png)
+    ![Abrindo o formulário do usuário.](media/sales-map-user.png)
 
 2. No Explorador do Campo, localize o **modo de usuário integração** e clique duas vezes nele para adicioná-lo ao formulário. Salve sua alteração.
 
-    ![Adicionar a coluna Modo de usuário de integração ao formulário](media/sales-map-field-explorer.png)
+    ![Adicionar a coluna Modo de usuário de integração ao formulário.](media/sales-map-field-explorer.png)
 
 3. Em Vendas, vá para **Configuração \> Segurança \> Usuários** e altere a exibição de **Usuários Habilitados** para **Usuários do Aplicativo**.
 
-    ![Alterando a exibição de Usuários Habilitados para Usuários de Aplicativos](media/sales-map-enabled-users.png)
+    ![Alterando a exibição de Usuários Habilitados para Usuários de Aplicativos.](media/sales-map-enabled-users.png)
 
 4. Selecione as duas entradas para **DualWrite IntegrationUser**.
 
-    ![Lista de usuários do aplicativo](media/sales-map-user-mode.png)
+    ![Lista de usuários do aplicativo.](media/sales-map-user-mode.png)
 
 5. Altere o valor da coluna **Modo de usuário de integração** para **Sim**.
 
-    ![Alterar o valor da coluna Modo de usuário de integração](media/sales-map-user-mode-yes.png)
+    ![Alterar o valor da coluna Modo de usuário de integração.](media/sales-map-user-mode-yes.png)
 
 Suas ordens de venda agora estão mapeadas.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2017-06-20
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8c9aaa3868167806ce3189d724621991ec7e53eb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: afb9f95458089e854335399ea3d14ba229c02bbd
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022802"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349864"
 ---
 #  <a name="withholding-tax-declaration-for-egypt-eg-00005"></a>Declaração de imposto retido na fonte para o Egito (EG-00005)
 
@@ -103,7 +103,7 @@ Para gerar os relatórios do formulário de declaração WHT no Microsoft Excel,
 2. Na guia **Imposto retido na fonte**, no campo **Mapeamento de formato de declaração WHT**, selecione **Declaração WHT Excel (EG)**. Se você deixar o campo em branco, o relatório de imposto padrão será gerado no formato SSRS.
 
 
-![Formulário de declaração](media/egypt-wht-declaration-setup1.png)
+![Formulário de declaração.](media/egypt-wht-declaration-setup1.png)
 
 ## <a name="generate-the-withholding-declaration-forms"></a>Gerar os formulários Declaração de retenção
 O processo de preparação e de envio de um formulário Declaração de retenção para um período específico é baseado nas transações de retenção de imposto lançadas durante a liquidação e lançar o trabalho de imposto de pagamento. Para obter mais informações sobre imposto retido na fonte global, consulte [Imposto retido na fonte global](../general-ledger/global-withholding-tax-overview.md).

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 3f1f5dc2c8402d9b6b68a049f804932812eb74c0
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: fe6262fa8a7fb27fda7642180f605376af726e54
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937525"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346049"
 ---
 # <a name="set-up-a-retail-channel"></a>Configurar um canal de varejo
 
@@ -50,11 +50,11 @@ Antes de criar um canal de varejo, certifique-se de seguir os [pré-requisitos d
 
 A imagem a seguir mostra a criação de um novo canal de varejo.
 
-![Novo canal de varejo](media/channel-setup-retail-1.png)
+![Novo canal de varejo.](media/channel-setup-retail-1.png)
 
 A imagem a seguir mostra um exemplo de canal de varejo.
 
-![Exemplo de canal de varejo](media/channel-setup-retail-2.png)
+![Exemplo de canal de varejo.](media/channel-setup-retail-2.png)
 
 ## <a name="other-settings"></a>Outras configurações
 
@@ -64,7 +64,7 @@ Além disso, consulte [Layouts de tela para o ponto de venda (PDV)](pos-screen-l
 
 A imagem a seguir mostra um exemplo de configuração da instalação de canal de varejo.
 
-![Exemplo de configuração de canal de varejo](media/channel-setup-retail-3.png)
+![Exemplo de configuração de canal de varejo.](media/channel-setup-retail-3.png)
 
 ## <a name="additional-channel-set-up"></a>Outras configurações de canal
 
@@ -74,7 +74,7 @@ Outras tarefas necessárias para a configuração do canal online incluem config
 
 A imagem a seguir mostra várias opções adicionais de configuração de canal de varejo na guia **Configurar**.
 
-![Configurar o canal](media/channel-setup-retail-4.png)
+![Configurar o canal.](media/channel-setup-retail-4.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pagamento
 
@@ -89,7 +89,7 @@ Para configurar métodos de pagamento, siga estas etapas para cada tipo de pagam
 
 A imagem a seguir mostra um exemplo de método de pagamento à vista.
 
-![Exemplo de métodos de pagamento](media/channel-setup-retail-5.png)
+![Exemplo de métodos de pagamento.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-cash-declaration"></a>Configurar a declaração de valores em caixa
 
@@ -98,7 +98,7 @@ A imagem a seguir mostra um exemplo de método de pagamento à vista.
 
 A imagem a seguir mostra um exemplo de declaração de valores em caixa.
 
-![Configurar declarações de valores em caixa](media/channel-setup-retail-6.png)
+![Configurar declarações de valores em caixa.](media/channel-setup-retail-6.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar os modos de entrega
 
@@ -112,7 +112,7 @@ Para alterar ou adicionar um modo de entrega, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de modo de entrega.
 
-![Configurar os modos de entrega](media/channel-setup-retail-7.png)
+![Configurar os modos de entrega.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-incomeexpense-account"></a>Configurar conta de receita/despesa
 
@@ -129,7 +129,7 @@ Para configurar a conta de receita/despesa, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de conta de receita/despesa.
 
-![Configurar contas de receita/despesa](media/channel-setup-retail-8.png)
+![Configurar contas de receita/despesa.](media/channel-setup-retail-8.png)
 
 ### <a name="set-up-sections"></a>Configurar seções
 
@@ -155,7 +155,7 @@ Para configurar uma atribuição de grupo de orçamento, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de configuração de atribuição de grupo de orçamento.
 
-![Configurar atribuições de grupo de orçamento](media/channel-setup-retail-9.png)
+![Configurar atribuições de grupo de orçamento.](media/channel-setup-retail-9.png)
 
 ### <a name="set-up-safes"></a>Configurar cofres
 

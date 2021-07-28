@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0313bd1a5adc0fdb7a4958c5dfa013cfdc51491a
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2c70b6ecd284acc8817970e090583603d1b8e110
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189633"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6345395"
 ---
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar o consumo de materiais usando um dispositivo móvel
 
@@ -30,7 +30,7 @@ Este tópico descreve um fluxo de trabalho que permite o registro do consumo de 
 
 ## <a name="introduction"></a>Introdução
 
-Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade de materiais. Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo. Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre. Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade. Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil. [![configurar um fluxo de trabalho para habilitar o registro de consumo de matéria-prima usando um dispositivo portátil](./media/scenario3.png)](./media/scenario3.png)
+Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade de materiais. Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo. Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre. Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade. Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil. [![configurar um fluxo de trabalho para habilitar o registro de consumo de matéria-prima usando um dispositivo portátil.](./media/scenario3.png)](./media/scenario3.png)
 
 ### <a name="scenario-details"></a>Detalhes do cenário
 

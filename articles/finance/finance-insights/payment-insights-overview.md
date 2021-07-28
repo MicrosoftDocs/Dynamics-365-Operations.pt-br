@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 14151
+ms.custom:
+- "14151"
+- intro-internal
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 84a2342d76dc309fa1fd3de7b2c3de60e62e4d72
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 64b03faa76e16a4e587f26ec2fb9bf1e34d226df
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186387"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355643"
 ---
 # <a name="customer-payment-predictions-preview"></a>Previsões de pagamento do cliente (versão preliminar)
 
@@ -53,11 +55,11 @@ Para cada fatura aberta, o recurso atribui três probabilidades de pagamento:
 
 O recurso também fornece uma exibição agregada de pagamentos esperados.
 
-[![Exibição agregada de previsões de pagamento](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
+[![Exibição agregada de previsões de pagamento.](./media/graphic-payment-reports.png)](./media/graphic-payment-reports.png)
 
 Cada fatura recebe uma probabilidade de pagamento no prazo. As faturas com uma probabilidade de pagamento no prazo inferior a 50% são marcadas com um círculo vermelho para indicar que elas exigem a atenção de um agente de cobranças.
 
-[![Lista de probabilidades de pagamento](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
+[![Lista de probabilidades de pagamento.](./media/customer-pymnt-probability-list.png)](./media/customer-pymnt-probability-list.png)
 
 O recurso Previsões de pagamento de cliente também fornece informações contextuais para explicar a previsão. Essas informações incluem os principais fatores que influenciam a previsão, o estado atual de negócios com o cliente e detalhes sobre o comportamento do pagamento histórico do cliente.
 

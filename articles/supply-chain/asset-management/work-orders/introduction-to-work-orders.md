@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: EntAssetWorkOrderLineNote, EntAssetWorkOrderTable, EntAssetWorkOrderActive, EntAssetWorkOrderHoursInfoPart, EntAssetWorkOrderLineListPage, EntAssetWorkOrderAddObjectBOMItem, EntAssetWorkOrderTablePoolAdd, EntAssetWorkOrderPurchReqListPagePreviewPane, EntAssetWorkOrderPoolReferenceAdd, EntAssetWorkOrderWorkspace, EntAssetWorkOrderTableAdjust, EntAssetWorkOrderGantt, EntAssetWorkOrderNotes, EntAssetWorkOrderActivePart, EntAssetWorkOrderTableInfoPart, EntAssetWorkOrderLineListPagePreviewPane, EntAssetWorkOrderTool, EntAssetMobileWorkOrderLineDetails, EntAssetMobileWorkOrderLineList, EntAssetMobileWorkOrderDetails
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b0f33dad05fc9a17fc673525ac5ab79f9cf0ab08
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f66786d634bc08f07d1739af5e49c902640a469a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821624"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352777"
 ---
 # <a name="introduction-to-work-orders"></a>Introdução a ordens de serviço
 
@@ -51,7 +51,7 @@ Selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **T
 
 A ilustração a seguir mostra um exemplo da página de listagem **Todas as ordens de serviço**.
 
-![Figura 1](media/01-work-orders.png)
+![Figura 1.](media/01-work-orders.png)
 
 Para exibir uma lista apenas de ordens de serviço ativas, selecione **Gerenciamento de ativos** > **Comum** > **Ordens de serviço** > **Ordens de serviço ativas**. 
 
@@ -69,7 +69,7 @@ Aqui estão algumas maneiras pelas quais você pode usar a página **Todas as or
 
 A ilustração a seguir mostra um exemplo da exibição de detalhes **Todas as ordens de serviço**.
 
-![Figura 2](media/02-work-orders.png)
+![Figura 2.](media/02-work-orders.png)
 
 
 Os botões no Painel de Ação estão organizados em guias. A tabela a seguir descreve brevemente os botões relacionados ao Gerenciamento de Ativos:

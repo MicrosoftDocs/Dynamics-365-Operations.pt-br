@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 131d14f1f1aa329bd71b1f8a4015192736bd8e44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 682910350832e441ed13c716c0c18200a3b7865d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022566"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351064"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurar fontes de dados de pesquisa para usar parâmetros específicos do aplicativo ER 
 
@@ -44,38 +44,38 @@ Você pode configurar os seguintes tipos de fonte de dados de **Pesquisa**, depe
 
 A ilustração a seguir mostra como uma enumeração de formato pode ser configurada no formato de ER de exemplo.
 
-   ![Mostrando uma enumeração de formato como base da fonte de dados de pesquisa configurada](./media/er-lookup-data-sources-img1.gif)
+   ![Mostrando uma enumeração de formato como base da fonte de dados de pesquisa configurada.](./media/er-lookup-data-sources-img1.gif)
 
 A ilustração a seguir mostra os componentes de formato que foram configurados para relatar diferentes tipos de impostos em uma seção diferente de um relatório gerado.
 
-   ![Mostrando as seções de formato para relatar diferentes tipos de impostos](./media/er-lookup-data-sources-img2.png)
+   ![Mostrando as seções de formato para relatar diferentes tipos de impostos.](./media/er-lookup-data-sources-img2.png)
 
 A ilustração a seguir mostra como o designer de Operações ER permite a adição de uma fonte de dados do tipo **Enumeração de formato\Pesquisa**.  A fonte de dados adicionada é configurada como retorno de um valor da enumeração de formato `List of taxation levels`.
 
-   ![Adicionando uma fonte de dados ER do tipo Enumeração de formato\Pesquisa](./media/er-lookup-data-sources-img3.gif)
+   ![Adicionando uma fonte de dados ER do tipo Enumeração de formato\Pesquisa.](./media/er-lookup-data-sources-img3.gif)
 
 A ilustração a seguir mostra como a fonte de dados adicionada está configurada para usar o campo **Código** da lista de registro **Model.Data.Tax** da fonte de dados **Modelo** como um parâmetro que deve ser especificado para cada regra configurada.
 
-![Configurando parâmetros da fonte de dados adicionada do tipo Enumeração de formato\Pesquisa](./media/er-lookup-data-sources-img4.gif)
+![Configurando parâmetros da fonte de dados adicionada do tipo Enumeração de formato\Pesquisa.](./media/er-lookup-data-sources-img4.gif)
 
 A fonte de dados `Model.Data.Tax` adicionada é configurada para especificar um código de imposto para cada regra configurada, acessando registros da tabela de aplicativos **TaxTable**.
 
-   ![Análise da fonte de dados de pesquisa de única empresa do tipo Enumeração de formato\Pesquisa](./media/er-lookup-data-sources-img5.gif)
+   ![Análise da fonte de dados de pesquisa de única empresa do tipo Enumeração de formato\Pesquisa.](./media/er-lookup-data-sources-img5.gif)
 
 Você pode configurar as regras de pesquisa para o formato ER selecionado, usando a interface do usuário que é alinhada automaticamente com a estrutura da fonte de dados configurada. No momento, essa interface do usuário exige que, para cada regra, você especifique o valor retornado como o valor de enumeração de formato `List of taxation levels`, bem como o código de imposto como um parâmetro.
 
-   ![Configurar as regras para a fonte de dados configurada](./media/er-lookup-data-sources-img6.gif)
+   ![Configurar as regras para a fonte de dados configurada.](./media/er-lookup-data-sources-img6.gif)
 
 A ilustração a seguir mostra como a fonte de dados `Model.Data.Summary.LevelByLookup` do tipo **Campo calculado** pode ser configurada para chamar a fonte de dados de **Pesquisa** configurada fornecendo os parâmetros necessários. Para processar essa chamada em tempo de execução, o ER passa pela lista de regras configuradas na sequência definida para localizar a primeira regra que satisfaça as condições fornecidas. Neste exemplo, esta é a regra que contém o código de imposto correspondente ao fornecido. Como resultado, a regra mais apropriada é encontrada e o valor de enumeração configurado para a regra encontrada é retornado por essa fonte de dados.
 
 > [!NOTE]
 > Uma exceção é lançada quando nenhuma regra aplicável é encontrada. Para evitar essas exceções, configure regras adicionais no final da lista de regras para manipular casos quando um valor não configurado ou nenhum valor for fornecido. Use as opções **\*Não vazio\*** e **\*Em branco\*** adequadamente.  
 >
-> ![Adicionar uma fonte de dados para chamar a fonte de dados de pesquisa configurada](./media/er-lookup-data-sources-img7.png)
+> ![Adicionar uma fonte de dados para chamar a fonte de dados de pesquisa configurada.](./media/er-lookup-data-sources-img7.png)
 
 Ao definir a opção **Interempresarial** como **Sim** para a fonte de dados de pesquisa editável, você adiciona um novo parâmetro **Empresa** obrigatório ao conjunto de parâmetros dessa fonte de dados. O valor do parâmetro **Empresa** deve ser especificado em tempo de execução quando a fonte de dados de pesquisa é chamada. Quando o código da empresa é especificado em tempo de execução, as regras configuradas para essa empresa são usadas para encontrar a regra mais apropriada e o valor correspondente é retornado. A ilustração a seguir mostra como você pode fazer isso e como o conjunto de parâmetros da fonte de dados editável é alterado.
 
-   ![Análise da fonte de dados de pesquisa interempresarial do tipo Enumeração de formato\Pesquisa](./media/er-lookup-data-sources-img8.gif)
+   ![Análise da fonte de dados de pesquisa interempresarial do tipo Enumeração de formato\Pesquisa.](./media/er-lookup-data-sources-img8.gif)
 
 > [!NOTE]
 > Selecione cada empresa separadamente para configurar o conjunto de regras para essa fonte de dados de pesquisa do formato ER editável. Uma exceção é lançada em tempo de execução quando a pesquisa interempresarial é chamada com o código da empresa para a qual a configuração de pesquisa não foi concluída.
@@ -84,7 +84,7 @@ Ao definir a opção **Interempresarial** como **Sim** para a fonte de dados de 
 
 A partir da versão 10.0.19, os recursos estendidos das fontes de dados de **Pesquisa** estão disponíveis. Ao definir a opção **Estendida** como **Sim** para a fonte de dados de pesquisa editável, a fonte de dados de pesquisa configurada será transformada na fonte de dados estruturada que oferece os recursos adicionais para analisar o conjunto de regras configurado. A ilustração a seguir mostra essa transformação.
 
-   ![Análise da fonte de dados de pesquisa estruturada do tipo Enumeração de formato\Pesquisa](./media/er-lookup-data-sources-img9.gif)
+   ![Análise da fonte de dados de pesquisa estruturada do tipo Enumeração de formato\Pesquisa.](./media/er-lookup-data-sources-img9.gif)
 
 - O subitem de **Pesquisa** é criado como uma função para encontrar a regra mais apropriada do conjunto de regras configuráveis com base no conjunto de parâmetros fornecido.
 - O subitem **IsLookupResultSet** é criado como uma função para aceitar o valor fornecido da fonte de dados de enumeração base e retornar o valor *Booliano* como **Verdadeiro** quando o conjunto de regras contém pelo menos uma regra para a qual o valor de enumeração fornecido foi configurado como um valor devolvido. Esta função retorna o valor *Booliano* como **Falso** quando não há regras configuradas para retornar o valor de enumeração fornecido.

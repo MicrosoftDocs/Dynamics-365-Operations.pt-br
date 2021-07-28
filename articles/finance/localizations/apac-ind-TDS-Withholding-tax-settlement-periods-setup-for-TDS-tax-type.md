@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9430bc1386f127d02b598d6cad1b53f66e0cf2ba
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023015"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348900"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Configurar períodos de liquidação de imposto retido na fonte para o tipo de imposto TDS
 
@@ -31,7 +31,7 @@ Este tópico explica como configurar períodos de liquidação do Imposto Deduzi
 
 1. Vá para **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Períodos de liquidação de imposto retido na fonte**.
 
-    [![Página Períodos de liquidação de imposto retido na fonte](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
+    [![Página Períodos de liquidação de imposto retido na fonte.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
 2. No campo **Tipo de imposto**, selecione **TDS** para configurar períodos de liquidação de imposto retido na fonte para o tipo de imposto TDS.
 3. Selecione **Novo** para criar uma linha.
@@ -47,6 +47,6 @@ Este tópico explica como configurar períodos de liquidação do Imposto Deduzi
     > [!NOTE]
     > Para executar o processo de liquidação de TDS periódico, vá para **Contabilidade \> Periódico \> Imposto retido na fonte \> Pagamento de imposto retido na fonte**.
 
-    [![Página Pagamento do imposto retido na fonte](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
+    [![Página Pagamento do imposto retido na fonte.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 
 12. Feche a página.

@@ -14,12 +14,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 86f475cc0b78c620309301516b6c3b525b640637
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 25464c89352f44a77a96dee6ad2f633b7a55669e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791548"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350271"
 ---
 # <a name="opt-out-of-web-activity-event-collection"></a>Cancelar a coleta de eventos da atividade Web
 [!include [banner](includes/banner.md)]
@@ -40,7 +40,7 @@ No gerenciamento de contas no Commerce headquarters (HQ), os administradores pod
 1. Nos cliente das sedes (HQ), na página **Todos os clientes**, procure e selecione um cliente.
 1. Na página de detalhes do cliente, na Guia Rápida **Varejo**, na seção **Privacidade**, defina a opção **Não rastrear atividade da Web** como **Sim**.
 
-    ![Configurações de privacidade](media/Disablepersonalizationpart2.png)
+    ![Configurações de privacidade.](media/Disablepersonalizationpart2.png)
 
 1. Selecione **Salvar** e feche a página.
 

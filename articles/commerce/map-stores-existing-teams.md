@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: ccc2cbf11e405facf310d93e5458cfe12a43146d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020210"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6346683"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Mapear armazenamentos e equipes, se houver equipes pré-existentes no Microsoft Teams
 
@@ -57,7 +57,7 @@ Para mapear armazenamentos e equipes correspondentes no Commerce Headquarters, s
 
 A imagem de exemplo a seguir mostra o grupo **Exportar mapeamento do Teams** no Commerce com elementos **Adicionar entidade** e os cabeçalhos de arquivo CSV exportados.
 
-![Exportar grupo de mapeamento de equipes no Commerce com adicionar elementos de entidade e os cabeçalhos de arquivo CSV exportados em destaque](media/d365-commerce-data-mgmt-export-entity.png)
+![Exportar grupo de mapeamento de equipes no Commerce com adicionar elementos de entidade e os cabeçalhos de arquivo CSV exportados em destaque.](media/d365-commerce-data-mgmt-export-entity.png)
 
 > [!NOTE]
 > Depois de concluir as etapas anteriores, siga as etapas em [Sincronizar gerenciamento de tarefas entre Microsoft Teams e PDV](synchronize-tasks-teams-pos.md) para sincronizar o gerenciamento de tarefas. 

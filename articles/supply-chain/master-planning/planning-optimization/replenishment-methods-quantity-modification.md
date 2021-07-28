@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d5e0e671e624de2646a47647ef08d3567599b884
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: d693d306929140c9640ed34d756399d70b81a12f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261687"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6347749"
 ---
 # <a name="replenishment-methods-and-quantity-modification"></a>Métodos de reabastecimento e modificação de quantidade
 
@@ -34,11 +34,11 @@ Os seguintes códigos de cobertura podem ser usados na Otimização de Planejame
 
 - **Período** - O método de reabastecimento combina toda a demanda de um período em uma ordem para o produto. A ordem será planejada para o primeiro dia do período e sua quantidade preencherá as requisições líquidas durante o período estabelecido. O período começa com a primeira a demanda do produto e abrange o tempo definido. O período seguinte começará com as requisições seguintes do produto. O código de cobertura *Período* é usado frequentemente para emissão de inventário não previsível, produtos sazonais ou produtos de alto custo. A ilustração a seguir mostra um exemplo.
 
-    ![Exemplo de uso do Código de cobertura de período](./media/coverage-code-period.png "Exemplo de uso do Código de cobertura de período")
+    ![Exemplo de uso do Código de cobertura de período.](./media/coverage-code-period.png "Exemplo de uso do Código de cobertura de período")
 
 - **Requisito** - No método de reabastecimento, o sistema cria uma ordem de compra, transferência ou produção planejada por requisição do produto. Este método é usado para produtos caros que têm demanda intermitente. O código de cobertura *Requisito* é usado frequentemente para produtos configuráveis ou cenários de produção por ordem. A ilustração a seguir mostra um exemplo.
 
-    ![Exemplo de uso do Código de cobertura de requisito](./media/coverage-code-requirement.png "Exemplo de uso do Código de cobertura de requisito")
+    ![Exemplo de uso do Código de cobertura de requisito.](./media/coverage-code-requirement.png "Exemplo de uso do Código de cobertura de requisito")
 
 - **Mín./Máx.** – O método de reabastecimento baseia-se no nível de inventário. Ele define o reabastecimento do inventário até um nível específico quando o nível previsto disponível estiver abaixo de um limite específico. A quantidade do reabastecimento será a diferença entre o nível máximo e o nível disponível previsto. O código de cobertura *Mín./Máx.* é frequentemente usado para sorteio de inventário previsível, corredores altos ou produtos mais baratos. A ilustração a seguir mostra um exemplo.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-15
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: fe533052b0e5b04a7d27b954ba644761c631d6d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1bddb76d17b65e3485680675b77750fca714407d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838852"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350063"
 ---
 # <a name="numbering-documents-and-vouchers-chronologically"></a>Numerar documentos e comprovantes cronologicamente
 
@@ -69,7 +69,7 @@ Para definir as sequências numéricas, acesse **Administração da organizaçã
 
 Especifique uma empresa para cada sequência numérica. Os segmentos das sequências numéricas devem ser definidos para que forneçam ordem cronológica para períodos. Por exemplo, os nomes de segmento podem conter um prefixo especial que identifica um período específico.
 
-![Configuração da sequência numérica](media/chrono-num-sequence.jpg)
+![Configuração da sequência numérica.](media/chrono-num-sequence.jpg)
 
 ### <a name="configure-number-sequence-groups"></a>Configurar grupos de sequências numéricas
 
@@ -77,7 +77,7 @@ Para configurar grupos de sequências numéricas, acesse **Contas a receber** > 
 
 Para cada grupo, na seção **Referência**, selecione uma das referências de documento com suporte e, no campo **Código de sequência numérica**, consulte uma sequência numérica criada anteriormente para o período relacionado.
 
-![Configuração do grupo de sequências numéricas](media/chrono-num-sequence-group.jpg)
+![Configuração do grupo de sequências numéricas.](media/chrono-num-sequence-group.jpg)
 
 Da mesma forma, configure grupos de sequências numéricas nos módulos **Contas a pagar** e **Gerenciamento de projetos e contabilidade**.
 
@@ -85,9 +85,9 @@ Da mesma forma, configure grupos de sequências numéricas nos módulos **Contas
 
 Para configurar a cronologia de grupos de sequências numéricas, acesse **Administração da organização** > **Sequências numéricas** > **Cronologia de grupos de sequências numéricas**. Defina as condições de aplicabilidade para grupos de sequências numéricas.
 
-![Configuração de números cronológicos](media/chrono-num-sequence-group-period.jpg)
+![Configuração de números cronológicos.](media/chrono-num-sequence-group-period.jpg)
 
-| Campo            | Descrição                                                                                                                                                                                                                                                                                                                                                                                   |
+| Campo            | descrição                                                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Efetivação  | A data de início da aplicabilidade do grupo de sequências numéricas. |
 | Vencimento      | A data de término da aplicabilidade do grupo de sequências numéricas. Se nenhuma data de término for aplicada, selecione **Nunca**. |
@@ -98,7 +98,7 @@ Para configurar a cronologia de grupos de sequências numéricas, acesse **Admin
 ## <a name="document-posting"></a>Lançamento de documento
 Quando você lança um documento, o grupo de sequências numéricas apropriado é atribuído ao documento, com base na data de lançamento do documento. Depois, ele é usado para gerar um número de documento com base na sequência numérica detectada. O sistema fornece uma mensagem sobre a atribuição de grupo de sequências numéricas.
 
-![Número do documento](media/chrono-num-sequence-fti.jpg)
+![Número do documento.](media/chrono-num-sequence-fti.jpg)
 
 > [!NOTE]
 > Em alguns países, há uma lógica específica já implementada para a numeração de documentos. Nesse caso, a lógica específica do país substituirá o recurso **Numeração cronológica**.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
-ms.openlocfilehash: 74df8ac27c2028582b8909db0a7260b9b0ed38f5
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a81a779dd484d30397c89076d081413a72560f0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797272"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348698"
 ---
 # <a name="assortment-management"></a>Gerenciamento de classificação
 
@@ -35,27 +35,27 @@ A combinação geral de produtos de um canal é determinada pelas classificaçõ
 
 No exemplo a seguir, uma classificação exclusiva é configurada para cada loja. Neste caso, somente o produto 1 está disponível na loja 1, e somente o produto 2 está disponível na loja 2.
 
-![Cada produto está disponível em uma loja](./media/Managing-assortments-figure1.png)
+![Cada produto está disponível em uma loja.](./media/Managing-assortments-figure1.png)
 
 Para disponibilizar o produto 2 na loja 1, você pode adicioná-lo à classificação 1.
 
-![Produto 2 adicionado à classificação 1](./media/Managing-assortments-figure2.png)
+![Produto 2 adicionado à classificação 1.](./media/Managing-assortments-figure2.png)
 
 Como alternativa, você pode adicionar a loja 1 à classificação 2.
 
-![Loja 1 adicionada à classificação 2](./media/Managing-assortments-figure3.png)
+![Loja 1 adicionada à classificação 2.](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Hierarquias da organização
 
 Nas situações em que vários canais compartilham as mesmas classificações de produtos, você pode configurar as classificações usando a hierarquia da organização de classificação do Commerce. Quando os nós dessa hierarquia forem adicionados, todos os canais desse nó e seus nós secunDiários serão incluídos.
 
-![Hierarquia da organização](./media/Managing-assortments-figure4.png)
+![Hierarquia da organização.](./media/Managing-assortments-figure4.png)
 
-### <a name="product-categories"></a>Categorias de produtos
+### <a name="product-categories"></a>Categorias de produto
 
 Da mesma forma, no lado do produto, você pode incluir grupos de produtos usando hierarquias de categoria de produto. Você pode configurar classificações incluindo um ou mais nós da hierarquia de categoria. Nesse caso, a classificação incluirá todos os produtos nesse nó de categoria e seus nós secunDiários.
 
-![Categorias de produtos](./media/Managing-assortments-figure5.png)
+![Categorias de produto.](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Categorias ou produtos excluídos
 
@@ -64,7 +64,7 @@ Além de incluir produtos e categorias em classificações, você pode usar a op
 > [!NOTE]
 > Se um produto for incluído e excluído em uma ou mais classificações por definição, ele sempre será considerado excluído.
 
-![Produtos excluídos](./media/Managing-assortments-figure6.png)
+![Produtos excluídos.](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Produtos globais e liberados
 

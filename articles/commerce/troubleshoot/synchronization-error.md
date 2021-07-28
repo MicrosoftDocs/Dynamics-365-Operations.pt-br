@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: fa174bbb257379f6ce906dd21180bbcb19f8bc3f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 647060635813ad7e680ea88be76668818ff606d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021118"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350345"
 ---
 # <a name="order-synchronization-error-related-to-the-default-payment-service"></a>Erro de sincronização da ordem relacionado ao serviço de pagamento padrão
 
@@ -32,7 +32,7 @@ Este tópico fornece orientações de solução de problemas que podem ajudar a 
 
 Ao sincronizar uma ordem online, você recebe a seguinte mensagem de erro: "deve haver um serviço de pagamento padrão para processar transações de cartão de crédito".
 
-![Erro de serviço de pagamento padrão ausente](media/default-payment-method-error.jpg)
+![Erro de serviço de pagamento padrão ausente.](media/default-payment-method-error.jpg)
 
 ## <a name="resolution"></a>Resolução
 

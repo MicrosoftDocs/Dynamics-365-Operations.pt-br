@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bbe7749e6c8293ded933611d6f1084b89223302c
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 447c5f580e5d925efbfeaabc3890e2d67f9688f5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790973"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6344338"
 ---
 # <a name="set-up-assortments"></a>Configurar classificações
 
@@ -31,7 +31,7 @@ Este artigo descreve o que é um sortimento e explica como configurar sortimento
 
 Classificação é um conjunto de produtos relacionados atribuídos a um canal de comércio, como uma loja tradicional ou uma loja online. Use classificações para identificar os produtos disponíveis em cada loja. Uma classificação pode incluir categorias de produtos. Portanto, todos os produtos atribuídos a uma categoria específica são incluídos na classificação. Uma classificação também pode incluir produtos específicos e variantes de produtos específicos. Configurando uma classificação, você pode atribuir milhares de produtos aos seus canais ao mesmo tempo, em qualquer combinação que suas lojas exigirem. É possível configurar quantas classificações de produtos forem necessárias. Cada produto pode ser incluído em uma ou várias classificações, e cada classificação pode ser atribuída a um ou mais canais. Por exemplo, você define uma classificação que inclui um conjunto básico de produtos. Todas as lojas recebem essa classificação. Em seguida, você define outra classificação que inclui apenas equipamentos esportivos grandes. Somente as lojas maiores recebem essa classificação. O diagrama a seguir mostra como os produtos podem ser atribuídos a classificações, e como essas classificações podem ser atribuídas aos canais.
 
-![Relações de classificação de produtos](./media/assortments_relationship.gif)
+![Relações de classificação de produtos.](./media/assortments_relationship.gif)
 
 ## <a name="prerequisites"></a>Pré-requisitos
 

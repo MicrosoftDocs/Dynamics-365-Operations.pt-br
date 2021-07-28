@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 97509ac662fad6181cbd60e5e0a44f674410acb9
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754029"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350851"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas causados por atualizações de aplicativos do Finance and Operations
 
@@ -68,7 +68,7 @@ Na página **Gravação dupla**, você pode receber uma mensagem de erro parecid
 
 *Nome do campo de origem \<field name\> ausente no esquema.*
 
-![Exemplo da mensagem de erro de coluna de origem ausente](media/error_missing_field.png)
+![Exemplo da mensagem de erro de coluna de origem ausente.](media/error_missing_field.png)
 
 Para corrigir o problema, primeiro siga estas etapas para verificar se as colunas estão na tabela.
 

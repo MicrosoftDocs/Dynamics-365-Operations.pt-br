@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: edc6da8a54de98696322ace67ada5dfe97af2024
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 1c8a6b4152215bc912d99f2f4c250defa75278c3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356918"
 ---
 # <a name="replenishment-with-withdrawal-kanbans"></a>Reabastecimento com kanbans de retirada
 
@@ -35,7 +35,7 @@ O kanban de retirada pode ser usado para mover um kanban de um único item entre
 
 O cenário a seguir mostra um sistema de reabastecimento baseado em pull, no qual um sinal pull aciona a criação de um kanban para reabastecer o material para um processo de produção. 
 
-[![O sinal pull aciona a criação de um kanban para reabastecer o material para um processo de produção](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
+[![O sinal pull aciona a criação de um kanban para reabastecer o material para um processo de produção.](./media/material-replenishment-with-withdrawal-kanban.png)](./media/material-replenishment-with-withdrawal-kanban.png)
 
 1.  Kanban de retirada
 2.  Local de "origem" e local de colocação Kanban para trabalhos de depósito
@@ -72,7 +72,7 @@ Se a distância entre as localizações de depósito e o local de entrada de pro
 
 No cenário a seguir, a atividade de transferência do kanban de retirada é configurada para transferência entre dois locais do mesmo depósito. A atividade de transferência do kanban de retirada é configurada para que seja concluída automaticamente. 
 
-[![A atividade de transferência é concluída automaticamente quando o trabalho de separação kanban é processado](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
+[![A atividade de transferência é concluída automaticamente quando o trabalho de separação kanban é processado.](./media/transfer-activities-when-processing-kanban-picking.png)](./media/transfer-activities-when-processing-kanban-picking.png)
 
 1.  Depósitos compartilhados de matérias-primas e produção
 2.  Locais de depósito de matérias-primas
