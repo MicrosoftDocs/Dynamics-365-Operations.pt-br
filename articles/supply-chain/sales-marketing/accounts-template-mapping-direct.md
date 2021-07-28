@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fff9171966045e9dad5f2c70087a568cfa075e43
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 270d83552a3e35042c32cb85888439d40068ff0c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5908123"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355940"
 ---
 # <a name="synchronize-accounts-directly-from-sales-to-customers-in-supply-chain-management"></a>Sincronizar contas diretamente do Sales com clientes no Supply Chain Management
 
@@ -38,7 +38,7 @@ Este tópico aborda os modelos e as tarefas subjacentes usados para sincronizar 
 
 A solução Prospect to cash usa o recurso Integração de dados para sincronizar dados entre as instâncias Supply Chain Management e do Sales.  Os modelos de Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados sobre contas, contatos, produtos, cotações de venda, ordens de venda e faturas de venda entre o Supply Chain Management e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Supply Chain Management e o Sales.
 
-[![Fluxo de dados em Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Fluxo de dados em Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -99,12 +99,12 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 > [!NOTE]
 > O mapeamento mostra quais informações de coluna serão sincronizadas do Sales com o Supply Chain Management.
 
-![Mapeamento de modelo na Integração de dados](./media/accounts-direct-template-mapping-data-integrator-1.png)
+![Mapeamento de modelo na Integração de dados.](./media/accounts-direct-template-mapping-data-integrator-1.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
 
-[Cliente potencial ao pagamento à vista](prospect-to-cash.md)
+[De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 
 [Sincronizar contas diretamente do Sales com clientes no Supply Chain Management](accounts-template-mapping-direct.md)
 

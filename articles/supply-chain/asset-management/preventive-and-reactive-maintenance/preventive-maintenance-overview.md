@@ -9,18 +9,18 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 15478776e9a2152b93e4413105145f2a40cdc506
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 50fcff4bb675674bc0b32f0bbd5d06796f2dbce9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821648"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354824"
 ---
 # <a name="preventive-maintenance-overview"></a>Visão geral da manutenção preventiva
 
@@ -34,7 +34,7 @@ Os planos de manutenção são usados para a manutenção preventiva e reativa e
 
 A ilustração a seguir fornece uma visão geral do fluxo de trabalho, desde a criação de planos de manutenção e rounds de manutenção até a criação de ordens de serviço para ativos, com base nesses planos e rounds de manutenção.
 
-![Figura 1](media/01-preventive-maintenance.png)
+![Figura 1.](media/01-preventive-maintenance.png)
 
 
 

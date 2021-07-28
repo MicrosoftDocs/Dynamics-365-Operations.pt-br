@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: ac3d540ee3d1737e4e8be45394cd5807ae4a8d6f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796139"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352605"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
@@ -65,11 +65,11 @@ Na seção **Linhas** , você pode definir uma ou mais cobranças por moeda, con
 
 As empresas frequentemente configuram encargos diferenciados. Nesse caso, o valor que os clientes pagam pela entrega é baseado no valor da ordem. Para configurar os encargos diferenciados, insira os valores nos campos **Valor de origem** e **Valor de destino** além de definir o próprio encargo no campo **Valor dos encargos**. Por exemplo, para ordens com um valor menor que US$ 50, um varejista cobra US$ 5,95 pelo frete terrestre. Para ordens que tenham um valor igual ou maior que US$ 50, mas menos que US$100, o varejista cobra US$7, 95. Finalmente, para ordens que tenham um valor igual ou maior que US$ 100, o varejista fornece frete grátis. A ilustração a seguir mostra a configuração desses encargos.
 
-![Exemplo de encargos diferenciados fixos](media/fixedtieredcharges.png)
+![Exemplo de encargos diferenciados fixos.](media/fixedtieredcharges.png)
 
 Você pode usar uma mistura de categorias para encargos, dependendo das suas necessidades comerciais. Por exemplo, para ordens com um valor menor que US$ 100, há um encargo fixo de US$ 9,95 para frete. Em seguida, para ordens que tenham um valor que é igual ou maior de US$ 100, encargos de entrega são calculadas a uma taxa de 5 por cento do valor da ordem. A ilustração a seguir mostra a configuração desses encargos.
 
-![Exemplo de encargos diferenciados fixos](media/mixedtieredcharges.png)
+![Exemplo de encargos diferenciados fixos.](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Aplicar modos de entrega durante a entrada de ordem em um call center
 

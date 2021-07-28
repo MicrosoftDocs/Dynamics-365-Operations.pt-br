@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 94d38c5c3a091263b310f346f839e1a67d6c0609
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796115"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352581"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurar um canal para usar uma hierarquia de navegação de canal
 
@@ -45,7 +45,7 @@ Para configurar um canal para usar uma hierarquia de navegação de canal, siga 
 
 A imagem a seguir mostra como configurar um canal para usar uma hierarquia de navegação de canal.
 
-![Exemplo de configuração de canal](media/configure-channel-hierarchy-1.png)
+![Exemplo de configuração de canal.](media/configure-channel-hierarchy-1.png)
 
 ## <a name="set-attribute-metadata"></a>Definir metadados de atributo
 
@@ -61,7 +61,7 @@ Para definir metadados de atributo, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de conjunto de atributos de produto de canal configurados em um nó de categoria de canal.
 
-![Atributos de canal em um nó de categoria de canal](media/configure-channel-hierarchy-2.png)
+![Atributos de canal em um nó de categoria de canal.](media/configure-channel-hierarchy-2.png)
 
 ## <a name="publish-changes"></a>Publicar alterações
 
@@ -74,7 +74,7 @@ Para publicar alterações, siga estas etapas.
 
 A imagem a seguir mostra como publicar atualizações de canal.
 
-![Publicar atualizações de canal](media/configure-channel-hierarchy-3.png)
+![Publicar atualizações de canal.](media/configure-channel-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

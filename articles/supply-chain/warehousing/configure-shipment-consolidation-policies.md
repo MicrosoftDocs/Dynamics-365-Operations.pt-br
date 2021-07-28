@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 03150ccdaeaf48754f04a4329cb1bc14ea2b6895
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9215672f4ace591bf7d964c8fbd3ad483bacca5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840404"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360415"
 ---
 # <a name="configure-shipment-consolidation-policies"></a>Configurar políticas de consolidação de remessa
 
@@ -179,7 +179,7 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Mantenha a opção **Consolidar com remessas abertas** definida como *Não*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo Editor de consultas, na guia **Intervalo**, na grade, localize a linha na qual o campo **Campo** está definido como *Conta de cliente* e defina o campo **Critérios** dessa linha como *US-001*.
 1. Selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
@@ -214,7 +214,7 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Defina a opção **Consolidar com remessas abertas** como *Sim*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Junções**, expanda e selecione **Tabelas \> Carregar detalhes** na árvore.
 1. Selecione **Adicionar junção de tabela**.
@@ -251,9 +251,9 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Defina a opção **Consolidar com remessas abertas** como *Sim*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Requisição do cliente*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. Na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, localize a linha na qual o campo **Campo** está definido como *Conta de cliente* e defina o campo **Critérios** dessa linha como *US-001*.
 1. Selecione **OK** para fechar a caixa de diálogo.
@@ -283,7 +283,7 @@ Siga as etapas a seguir para criar a política de consolidação de remessa para
 1. Mantenha a opção **Consolidar com remessas abertas** definida como *Não*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, na lista **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consulta, na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
 
@@ -317,7 +317,7 @@ Normalmente, esse caso de negócios pode ser resolvido usando as políticas padr
 1. Mantenha a opção **Consolidar com remessas abertas** definida como *Não*.
 1. No Painel de ações, selecione **Salvar**.
 1. Na Guia Rápida **Campos de consolidação**, no campo **Campos restantes**, selecione a linha na qual o campo **Nome do campo** está definido como *Modo de entrega*.
-1. Selecione o botão **Adicionar** ![Seta para a direita](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
+1. Selecione o botão **Adicionar** ![Seta para a direita.](media/forward-button.png) para mover o campo para a lista **Campos selecionados**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, localize a linha na qual o campo **Campo** está definido como *Depósito* e defina o campo **Critérios** dessa linha como *61, 63*.
 1. Selecione **OK** para fechar a caixa de diálogo.

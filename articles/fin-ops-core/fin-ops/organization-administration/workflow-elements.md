@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 20f320e84d5faaf964585f30581d24996131031c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2e895c2d337139aa9a2b1f21b60675f956da9c7f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747142"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348544"
 ---
 # <a name="workflow-elements"></a>Elementos do fluxo de trabalho
 
@@ -60,7 +60,7 @@ Um *processo de aprovação* consiste em etapas isoladas. Em cada etapa de aprov
 
 Um fluxo de trabalho pode ser criado para processar documentos ou os itens de linha em um documento. Por exemplo, você criou um fluxo de trabalho de aprovação para folhas de ponto. (Faremos referência a esse fluxo de trabalho como *fluxo de trabalho de documento*.) Você pode adicionar um elemento de *fluxo de trabalho de item de linha* a esse fluxo de trabalho de documento. Quando o elemento de item de linha é executado, cada item de linha do documento é enviado para processamento. Talvez seja conveniente que todos os itens de linha sejam processados pelo mesmo fluxo de trabalho de item de linha ou que cada item de linha seja processado por um fluxo de trabalho de item de linha diferente. Suponha que um funcionário tenha enviado uma folha de ponto que se assemelhe à figura a seguir.
 
-![Fluxo de trabalho com itens de linha](./media/workflow_lineitemworkflow.gif)
+![Fluxo de trabalho com itens de linha.](./media/workflow_lineitemworkflow.gif)
 
 Nesse cenário, talvez seja conveniente criar os seguintes fluxos de trabalho de item de linha:
 

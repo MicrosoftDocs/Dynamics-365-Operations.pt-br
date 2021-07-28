@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0fe387631a1716c6612f9d475faff56d0aef3fdc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6f23b4c15937a0e61eb64b25eadef58c1fda231e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791670"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354604"
 ---
 # <a name="sync-product-ratings-in-dynamics-365-commerce"></a>Sincronizar classificações de produto no Dynamics 365 Commerce
 
@@ -59,7 +59,7 @@ Para verificar se o subtrabalho **RetailProductRating** existe, siga estas etapa
 
 A ilustração a seguir mostra um exemplo dos detalhes do subtrabalho no Commerce.
 
-![Detalhes do subtrabalho RetailProductRating](media/rnr-hq-ratings-sub-job.png)
+![Detalhes do subtrabalho RetailProductRating.](media/rnr-hq-ratings-sub-job.png)
 
 > [!NOTE]
 > Se você não encontrar o subtrabalho **RetailProductRating**, talvez você já tenha executado o trabalho **Sincronizar classificações de produto** e o trabalho **1040 CDX** antes de inicializar o agendador do Commerce. Neste caso, siga estas etapas para executar o trabalho **Sincronização de dados completa**.
@@ -83,7 +83,7 @@ Para importar classificações de produto no Commerce do serviço de classifica�
 
 A ilustração a seguir mostra um exemplo da configuração do trabalho em lotes no Commerce.
 
-![Configuração do trabalho em lotes Sincronizar classificações do produto](media/rnr-hq-batchjob-recurrence.png)
+![Configuração do trabalho em lotes Sincronizar classificações do produto.](media/rnr-hq-batchjob-recurrence.png)
 
 ## <a name="verify-that-the-batch-job-for-product-rating-synchronization-was-successful"></a>Verifique se o trabalho em lotes para sincronização da classificação do produto foi bem-sucedido
 
@@ -95,7 +95,7 @@ Para verificar se o trabalho em lotes **Sincronizar classificações de produto*
 
 A ilustração a seguir mostra um exemplo detalhes do trabalho em lotes no Commerce quando o trabalho em lote for programado para ser executado em intervalos de duas horas.
 
-![Detalhes do trabalho em lotes Sincronizar classificação do produto](media/rnr-hq-batchjob-status-checking.png)
+![Detalhes do trabalho em lotes Sincronizar classificação do produto.](media/rnr-hq-batchjob-status-checking.png)
 
 ## <a name="make-product-ratings-available-at-the-pos"></a>Disponibilizar classificações do produto no PDV.
 
@@ -113,21 +113,21 @@ Para ativar as classificações do produto no PDV, siga estas etapas.
 
 A ilustração a seguir mostra um exemplo da configuração dos parâmetros do Commerce para ativar as classificações do produto no PDV.
 
-![Configuração de parâmetros do Commerce para classificações de produtos no PDV](media/rnr-hq-enable-ratings-in-pos.png)
+![Configuração de parâmetros do Commerce para classificações de produtos no PDV.](media/rnr-hq-enable-ratings-in-pos.png)
 
 A ilustração a seguir mostra um exemplo de classificações do produto no PDV.
 
-![Classificações do produto no PDV](media/rnr-pos-catalog-ratings.png)
+![Classificações do produto no PDV.](media/rnr-pos-catalog-ratings.png)
 
 A ilustração a seguir mostra um exemplo de classificações do produto em canais do call center.
 
-![Classificações de produtos em um canal de call center](media/rnr-call-center-ratings.png)
+![Classificações de produtos em um canal de call center.](media/rnr-call-center-ratings.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de classificações e opiniões](ratings-reviews-overview.md)
 
-[Aceitar usar classificações e opiniões](opt-in-ratings-reviews.md)
+[Aceitar o uso das classificações e opiniões](opt-in-ratings-reviews.md)
 
 [Gerenciar classificações e opiniões](manage-reviews.md)
 

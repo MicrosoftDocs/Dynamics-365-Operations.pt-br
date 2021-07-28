@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: ea1fe6ba374c77784c88cf8202bff2eace217b6a
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: b285cefc35654695ee631cc73baa0ccc2c1b5ac9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102678"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359876"
 ---
 # <a name="customize-and-use-the-customer-portal"></a>Personalizar e usar o portal do cliente
 
@@ -27,7 +27,7 @@ Este tópico descreve as diferentes páginas que estão disponíveis no portal d
 
 O portal do cliente oferece algumas páginas da Web e ações prontas para uso. O mapa do site a seguir fornece uma visão geral dessas páginas e ações, bem como as funções que podem executar as ações.
 
-![Mapa do site de portal do cliente](media/customer-portal-site-map.png "Mapa do site de portal do cliente")
+![Mapa do site de portal do cliente.](media/customer-portal-site-map.png "Mapa do site de portal do cliente")
 
 ## <a name="typical-customizations"></a>Personalizações típicas
 
@@ -61,12 +61,12 @@ Estas são as etapas padrão para enviar uma ordem do portal do cliente.
     - **Número da requisição** – insira o número da requisição da ordem. Este campo não é obrigatório.
     - **Remeter para país/região** – insira o país ou a região para o qual os itens serão entregues. Este campo é automaticamente definido para usuários não administradores.
 
-    ![Página Informações da ordem](media/customer-portal-order-information.png "Página Informações da ordem")
+    ![Página Informações da ordem.](media/customer-portal-order-information.png "Página Informações da ordem")
 
 1. Selecione **Avançar**.
 1. Na página **Itens**, selecione **Adicionar Item**.
 
-    ![Página Itens](media/customer-portal-items.png "Página Itens")
+    ![Página Itens.](media/customer-portal-items.png "Página Itens")
 
 1. Na caixa de diálogo **Informações de Item**, defina os seguintes campos:
 
@@ -75,14 +75,14 @@ Estas são as etapas padrão para enviar uma ordem do portal do cliente.
     - **Unidade** – especifique a unidade de medida (por exemplo, **un.**, **kg** ou **caixa**).
     - **Valor líquido previsto** – o valor é calculado como o preço previsto do item × a quantidade da unidade selecionada.
 
-    ![Caixa de diálogo Informações do Item](media/customer-portal-item-information.png "Caixa de diálogo Informações do Item")
+    ![Caixa de diálogo Informações do Item.](media/customer-portal-item-information.png "Caixa de diálogo Informações do Item")
 
 1. Selecione **Enviar** para adicionar o item à ordem.
 1. Repita as etapas 4 a 6 até adicionar todos os itens que deseja solicitar.
 1. Quando terminar de adicionar itens, selecione **Avançar** na página **Itens**.
 1. A página **Informações da Ordem** fornece um resumo da ordem. Examine o conteúdo da ordem e detalhes da entrega. Se tudo parecer correto, selecione **Enviar** para enviar a ordem.
 
-    ![Página Informações da ordem concluída](media/customer-portal-order-submit.png "Página Informações da ordem concluída")
+    ![Página Informações da ordem concluída.](media/customer-portal-order-submit.png "Página Informações da ordem concluída")
 
 ### <a name="standard-data-setup"></a>Configuração de dados padrão
 
@@ -147,19 +147,19 @@ Todos os controles no portal do cliente são controles internos de portais do Po
 
 O único controle personalizado incluído no modelo do portal do cliente é usado para criar os blocos na home page.
 
-![Blocos na home page](media/customer-portal-home-page-tiles.png "Blocos na home page")
+![Blocos na página inicial.](media/customer-portal-home-page-tiles.png "Blocos na home page")
 
 Para modificar os blocos, siga estas etapas.
 
 1. Abra o [aplicativo de gerenciamento de portal](/powerapps/maker/portals/configure/configure-portal).
 1. No painel de navegação à esquerda, selecione **Modelos de Página**.
 
-    ![Painel de navegação do gerenciamento de portal](media/customer-portal-nav.png "Painel de navegação do gerenciamento de portal")
+    ![Painel de navegação do gerenciamento de portal.](media/customer-portal-nav.png "Painel de navegação do gerenciamento de portal")
 
 1. Selecione o modelo de página denominado **Início**.
 1. No campo **Modelo da Web**, selecione o link **Início** para abrir o código-fonte dessa página.
 
-    ![Campo Modelo da Web](media/customer-portal-web-template.png "Campo Modelo da Web")
+    ![Campo Modelo da Web.](media/customer-portal-web-template.png "Campo Modelo da Web")
 
 1. Agora, você deve ver todo o código-fonte da home page e pode modificá-lo conforme necessário.
 

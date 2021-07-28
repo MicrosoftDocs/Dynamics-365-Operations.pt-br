@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 4c5528545e0215b3a3f92b7bd5b492f82274d35a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6fd2a8548d4929a7a3b3b6d20adbc230c5edf6ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833033"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355218"
 ---
 # <a name="cost-control-workspace"></a>Espaço de trabalho de controle de custos 
 
@@ -116,7 +116,7 @@ O espaço trabalho **Controle de custos** é criado como um relatório da Web. P
 
 A lista dos relatórios disponíveis para usuários, como gerentes, é controlada pela configuração da opção **Publicado** na página **Configurações do espaço de trabalho de controle de custo**.
 
-![Um relatório que os usuários podem consultar no espaço de trabalho de Controle de custo](./media/report-cost-control.png)
+![Um relatório que os usuários podem consultar no espaço de trabalho de Controle de custo.](./media/report-cost-control.png)
 
 O gerente poderá selecionar o período do calendário fiscal para exibir. A data da sessão é usada para determinar o período atual padrão.
 
@@ -140,7 +140,7 @@ Dois gráficos mostram um resumo do custo real versus orçamento e variação de
 
 Os usuários podem clicar em **Entradas de custo** para fazer busca detalhada na entrada, conforme necessário.
 
-![Entradas de custo](./media/cost-entries.png)
+![Entradas de custo.](./media/cost-entries.png)
 
 Por exemplo, aluguel é uma despesa que é distribuída para centros de custos. Um usuário que quer entender o custo de aluguel que seu centro custo de custos deve ter pode fazer uma busca detalhada para saber como aluguel foi calculado.
 
@@ -148,7 +148,7 @@ Se os usuários clicarem em **Base de alocação** na página **Entradas de cust
 
 No exemplo a seguir, a base de alocação é do tipo **Base de alocação da fórmula** e a fórmula é mostrada. Os fatores que definem a fórmula são listados. Além disso, uma grade mostra o cálculo que é feito por objeto de custo.
 
-![Cálculos por objeto de custo](./media/cost-entries-allocation-base.png)
+![Cálculos por objeto de custo.](./media/cost-entries-allocation-base.png)
 
 Recursos adicionais 
 

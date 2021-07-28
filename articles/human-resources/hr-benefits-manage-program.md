@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: c31564fdc40cb0cba82b9ab8fbfdfee7adf4f4ee
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 579f2946bceceaacc3e4f1d664a5211ce40f705e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053000"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353677"
 ---
 # <a name="define-and-manage-a-benefits-program"></a>Definir e gerenciar um programa de benefícios
 
@@ -32,7 +32,7 @@ O Human Resources fornece um conjunto de ferramentas que podem ser usadas para c
 
 Para que os trabalhadores sejam inscritos nos benefícios, você deve criar os elementos de cada benefício. Esses elementos combinam planos de benefícios semelhantes e definem as configurações padrão, como taxas de dedução e detalhes da contabilidade. Muitas dessas configurações podem ser ajustadas quando os trabalhadores são inscritos posteriormente no benefício. Para cada plano de benefícios, uma organização pode oferecer várias opções de inscrição, ou um trabalhador pode cancelar a inscrição no plano. 
 
-[![Fluxo do processo de benefício](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
+[![Fluxo do processo de benefício.](./media/benefit-process-flow1.png)](./media/benefit-process-flow1.png)
 
 ## <a name="benefit-elements"></a>Elementos do benefício
 
@@ -44,7 +44,7 @@ Antes de começar a criar benefícios e inscrever trabalhadores neles, você dev
 
 Para cada tipo de benefício, como oftalmológico ou odontológico, uma organização pode oferecer um ou mais planos para os trabalhadores. Para cada plano, a organização pode oferecer opções diferentes. Por exemplo, os trabalhadores podem comprar cobertura adicional de seguro de vida temporário em uma, duas ou três vezes o salário anual. Cada combinação de um plano e opções se torna um benefício no qual os trabalhadores podem se inscrever. 
 
-[![pic de benefício](./media/benefit-pic.png)](./media/benefit-pic.png)
+[![pic de benefício.](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Qualificação
 Muitos fatores determinam a qualificação do trabalhador para os vários tipos de benefícios oferecidos por um empregador. Ao criar um benefício no Dynamics 365 Human Resources, você pode definir o tipo de qualificação que se aplica a esse benefício. 

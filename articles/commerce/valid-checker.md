@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9a4f03d8cf6696b7e449448704e5360f2ef585b7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 38386087a74a0881867df89bbe26453dff740be3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803696"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350295"
 ---
 # <a name="retail-transaction-consistency-checker"></a>Verificador de consistência das transações de varejo
 
@@ -38,7 +38,7 @@ Quando transações inconsistentes são coletadas pelo processo de lançamento d
 
 O gráfico a seguir ilustra o processo de lançamento com o verificador de consistência das transações.
 
-![Processo de lançamento do demonstrativo com verificador de consistência de transação](./media/validchecker.png "Processo de lançamento do demonstrativo com verificador de consistência de transação de varejo")
+![Processo de lançamento do demonstrativo com verificador de consistência de transação.](./media/validchecker.png "Processo de lançamento do demonstrativo com verificador de consistência de transação de varejo")
 
 O processo em lote **Validar transações de loja** verifica a consistência das tabelas de transações de comércio para os cenários a seguir.
 

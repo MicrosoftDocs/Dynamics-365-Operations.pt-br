@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 582a59f72e0e59f58191aeb00a7605b0ea08b2d3
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 48c5b876108d877a03785f1ed1d48261f22b124b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753783"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357609"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar a importação de dados do SharePoint
 
@@ -47,13 +47,13 @@ Executar os guias de tarefas **ER Importar dados de um arquivo do Microsoft Exce
 - Configuração de modelo de ER, **Modelo de pagamento 1099**
 - Configuração de formato de ER, **Formatar para importar transações de fornecedores do Excel**
 
-![Configurações de ER para importar dados do SharePoint](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![Configurações de ER para importar dados do SharePoint.](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
 #### <a name="sample-of-the-incoming-file-for-data-import"></a>Amostra do arquivo de entrada para importação de dados
 
 - Arquivo do Excel **1099import-data.xlsx** com as transações do fornecedor que devem ser importadas.
 
-![Arquivo do Excel de amostra para importar de SharePoint](./media/GERImportFromSharePoint-02-Excel.PNG)
+![Arquivo do Excel de amostra para importar de SharePoint.](./media/GERImportFromSharePoint-02-Excel.PNG)
     
 > [!NOTE]
 > O formato para importar transações do fornecedor é selecionado como o mapeamento de modelo padrão. Portanto, se você executar um mapeamento de modelo do **Modelo de pagamentos 1099** e esse mapeamento de modelo for do tipo **Para destino**, o mapeamento de modelo executa este formato para importar dados dos arquivos externos. Em seguida, usa esses dados para atualizar tabelas do aplicativo.
@@ -68,7 +68,7 @@ Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, v
      - Origem da importação de arquivos (principal) (exemplo mostrado na captura de tela a seguir)
      - Origem da importação de arquivos (alternativa)
 
-    ![Origem da importação de arquivos (pai)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+    ![Origem da importação de arquivos (pai).](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
 4. (Opcional) Criar estas pastas onde os arquivos possam ser armazenados após a importação: 
 
@@ -87,7 +87,7 @@ Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, v
 |Aviso do SP             |Arquivo                |SharePoint     |Pasta de avisos de arquivos|
 |Erro do SP             |Arquivo                |SharePoint     |Pasta de arquivos com erros|
 
-![Configuração do SharePoint – novo tipo de documento](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![Configuração do SharePoint – Novo tipo de documento.](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>Configurar fontes de ER para o formato de ER
 1. Clique em **Administração da organização** \> **Relatório eletrônico** \> **Origem do relatório eletrônico**.
@@ -96,7 +96,7 @@ Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, v
 4. Altere **Classificar arquivos antes de importar** para **Não classificar** se houver muitos arquivos para importação e a ordem de importação não for importante
 5. Selecione todas as pastas do SharePoint que você criou anteriormente.
 
-    [![Configuração de origem dos arquivos ER](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
+    [![Configuração de origem dos arquivos de ER.](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - A *origem* do ER é definida para cada empresa do aplicativo individualmente. Por outro lado, as *configurações* do ER são compartilhadas entre as empresas.
@@ -114,7 +114,7 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
 ## <a name="import-data-from-excel-files-that-are-in-a-sharepoint-folder"></a>Importar dados de arquivos do Excel que estão em uma pasta do SharePoint
 1. No SharePoint, carregue o arquivo do Microsoft Excel **1099import-data.xlsx** que contém transações do fornecedor para a pasta do SharePoint **Origem de importação dos arquivos (principal)** criada anteriormente.
 
-    [![Conteúdo do SharePoint – arquivo do Microsoft Excel para importação](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
+    [![Conteúdo do SharePoint – Arquivo do Microsoft Excel para importação.](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
 2. Na página **Estados dos arquivos das origens**, selecione **Atualizar** para atualizar a página. O arquivo do Excel que foi carregado no SharePoint apareceu nesta página com o status **Pronto**. Os seguintes status são suportados atualmente:
 
@@ -124,19 +124,19 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
     - **Com falha** – atribuído automaticamente por um relatório de ER quando a importação do arquivo for concluída com sucesso com erros ou exceções.
     - **Em espera** – Atribuído manualmente pelo usuário nesta página. Este status indica que o arquivo não será importado por enquanto. Este status pode ser usado para adiar a importação de alguns arquivos.
 
-    [![Página dos estados do arquivo de ER atualizados para as fontes selecionadas](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
+    [![Página dos estados do arquivo de ER atualizados para as fontes selecionadas.](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
 ## <a name="import-data-from-sharepoint-files"></a>Importar dados de arquivos do SharePoint
 1. Abra a árvore das configurações de ER, selecione **Modelo de pagamento 1099** e expanda a lista de componentes do modelo de ER.
 2. Selecione o nome do mapeamento do modelo para abrir a lista de mapeamentos do modelo da configuração do modelo de ER selecionada.
 
-    [![Página Configuração](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
+    [![Página Configuração.](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
 3. Selecione **Executar** para executar o mapeamento de modelo selecionado. Como você configurou as origens no formato ER, poderá alterar a configuração da opção **Origem do arquivo** se necessário. Se você mantém a configuração desta opção, os arquivos .xslx são importados das origens configuradas (as pastas do SharePoint, neste exemplo).
 
     Neste exemplo, você está importando somente um arquivo. Porém, se houver vários arquivos, eles serão selecionados para importação na ordem em que foram adicionados à pasta do SharePoint. Cada execução de um formato de ER importa um único arquivo selecionado.
 
-    [![Importar de SharePoint e executar o mapeamento de modelo de ER](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
+    [![Importar de SharePoint e executar o mapeamento de modelo de ER.](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
 4. O mapeamento do modelo pode ser executado [no modo autônomo](#limitations) em lote. Nesse caso, sempre que um lote executar esse formato de ER, um arquivo único é importado de origens do arquivo configurado.
 
@@ -144,11 +144,11 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
 
 5. Insira a ID de comprovante, como **V-00001** e depois selecione **OK**.
 
-    [![Executar mapeamento de modelo de ER](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
+    [![Executar mapeamento de modelo de ER.](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-12-ModelMappingRunFinished.PNG)
 
 6. Na página **Estados dos arquivos das origens**, selecione **Atualizar** para atualizar a página.
 
-    [![Página dos estados do arquivo de ER para as fontes](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
+    [![Página dos estados do arquivo de ER para as fontes.](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)](./media/GERImportFromSharePoint-13-FileStatesForm.PNG)
 
 7. Na seção **Arquivos** , examine a lista de arquivos. A seção **Logs de origem do formato de importação** fornece o histórico de importação de arquivo Excel. Como esse arquivo foi importado com êxito, ele é marcado como **Excluído** na pasta do SharePoint.
 8. Revise a pasta do SharePoint **Origem de importação dos arquivos (principal)**. Os arquivos do Excel que foram importados com sucesso foram excluídos desta pasta.
@@ -157,12 +157,12 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
 
     As transações do fornecedor importadas dos arquivos do Excel no SharePoint para o comprovante **V-00001** são apresentadas na página.
 
-    [![Página transações do fornecedor 1099](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
+    [![Página transações do fornecedor 1099.](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)](./media/GERImportFromSharePoint-14-ImportedTransactions.PNG)
 
 ## <a name="prepare-an-excel-file-for-import"></a>Preparar um arquivo do Excel para importação
 1. Abra o arquivo do Excel usado anteriormente. Na linha 3, coluna 1 adicione um código do fornecedor que não existe no aplicativo. Inclua informações adicionais falsas de fornecedor na linha.
 
-    [![Arquivo de exemplo do Microsoft Excel para importar do SharePoint](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
+    [![Arquivo de exemplo do Microsoft Excel para importar do SharePoint.](./media/GERImportFromSharePoint-15-Excel.PNG)](./media/GERImportFromSharePoint-15-Excel.PNG)
 
 2. Carregue o arquivo do Excel atualizado que contém as transações dos fornecedores para a pasta do SharePoint **Origem de importação dos arquivos (principal)**.
 3. Abra a árvore das configurações de ER, selecione **Modelo de pagamento 1099** e expanda a lista de componentes do modelo de ER.
@@ -170,7 +170,7 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
 5. Selecione **Designer**.
 6. Na guia **Validações** , você deverá alterar a ação de pós-validação para a regra de validação que foi configurada para avaliar se a conta de fornecedor importada existe no aplicativo. Atualize o valor do campo **Ação pós-validação** para **Parar execução**, salve suas alterações e feche a página.
 
-    [![ER Página designer de mapeamento do modelo](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
+    [![Página designer de mapeamento do modelo de ER.](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)](./media/GERImportFromSharePoint-16-UpdateModelMapping.PNG)
 
 7. Salvar suas alterações e feche o designer de mapeamento de modelo do ER.
 8. Selecione **Executar** para executar o mapeamento de modelo de ER modificado.
@@ -178,11 +178,11 @@ Você também pode abrir a página **Estados dos arquivos das origens** selecion
 
     O log de informações contém um aviso de que há um arquivo na pasta do SharePoint com uma conta de fornecedor incorreta e que, portanto, ele não pode ser importado.
 
-    [![Execução concluída do mapeamento de modelo de ER](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
+    [![Execução concluída do mapeamento de modelo de ER.](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
 10. Na página **Estados dos arquivos das origens**, selecione **Atualizar** e, em seguida, na seção **Arquivos**, revise a lista de arquivos.
 
-    [![Página dos estados do arquivo de ER para as origens selecionadas](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
+    [![Página dos estados do arquivo de ER para as origens selecionadas.](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
    A seção **Logs de origem do formato de importação** indica que o processo de importação falhou e que o arquivo está na pasta de arquivos com erros do SharePoint (a caixa de seleção **Excluído** não está marcada). Se você corrigir esse arquivo no SharePoint adicionando o código de fornecedor apropriado e movendo-o para a pasta Origem de importação dos arquivos (principal) do SharePoint, poderá importá-lo novamente.
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f50bc2828df19062a6bdced6faaa7b4d66c38bed
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 52d8b1055517bc544eea6a8e405a8b6d5c0eee0a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792766"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356845"
 ---
 # <a name="distributed-order-management-dom"></a>Gerenciamento de ordem distribuído (DOM)
 
@@ -34,11 +34,11 @@ O DOM otimiza o atendimento da ordem em uma rede complexa de sistemas e processo
 
 A ilustração a seguir mostra o ciclo de vida de uma ordem de venda em um sistema de DOM.
 
-![Ciclo de vida da ordem de venda no contexto de DOM](./media/flow.png "Ciclo de vida da ordem de venda no contexto do DOM")
+![Ciclo de vida da ordem de venda no contexto de DOM.](./media/flow.png "Ciclo de vida da ordem de venda no contexto do DOM")
 
 ## <a name="set-up-dom"></a>Configurar DOM
 
-1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Acesse **Administração do sistema \> Configurar \> Configuração de licença**.
 2. Na guia **Chaves de configuração**, expanda o nó **Commerce** e marque a caixa de seleção **Gerenciamento de ordem distribuído**.
 3. Vá para **Retail e Commerce \> Gerenciamento de ordem distribuído \> Configuração \> Parâmetros de DOM**.
 4. Na guia **Geral**, defina os seguintes valores:
@@ -198,9 +198,9 @@ No momento do processamento, o DOM considerará a ordem e as linhas da ordem con
 
 - Ordens que não estejam em espera
 
-Depois que são aplicadas as regras, as restrições de estoque e a otimização, o DOM escolhe o local mais próximo do endereço de entrega do cliente.
+Depois que as regras, as restrições de estoque e a otimização são aplicadas, o DOM escolhe o local mais próximo do endereço de entrega do cliente.
 
-![Critérios da ordem de venda](./media/ordercriteria.png "Critérios da ordem de venda")
+![Critérios da ordem de venda.](./media/ordercriteria.png "Critérios da ordem de venda")
 
 ## <a name="results-of-dom-runs"></a>Resultados de execuções de DOM
 

@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 17251
+ms.custom:
+- "17251"
+- intro-internal
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9ed56920ca1b4f2ac1313f7025b7a3c7245e9913
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 93e5d46d6b9817b7f019e529bf4da6199bc29dbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5898201"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355715"
 ---
 # <a name="budget-planning-overview"></a>Visão geral de planejamento de orçamento
 
@@ -40,7 +42,7 @@ Uma organização pode configurar o planejamento de orçamento e, em seguida, de
 - **Estágios do plano de orçamento** – Os estágios de planejamento de orçamento definem as etapas que o plano de orçamento seguem desde o seu início até a aprovação. Os estágios do planejamento de orçamento são organizados em fluxos de trabalho do planejamento de orçamento.
 - **Fluxos de trabalho do planejamento do orçamento** – Os fluxos de trabalho do planejamento de orçamento consiste em estágios do planejamento do orçamento e o define. Os fluxos de trabalho do planejamento de orçamento são associados aos fluxos de trabalho do orçamento. Os fluxos de trabalho de orçamento são os processos automatizados e manuais que movem os planos de orçamento nos estágios de planejamento do orçamento.
 
-[![Terminologia do planejamento do orçamento](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
+[![Terminologia do planejamento do orçamento.](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="typical-tasks"></a>Tarefas típicas
 
@@ -65,11 +67,11 @@ A primeira etapa opcional, mas recomendada, é criar um esquema que mostra o pro
 
 A ilustração a seguir mostra um exemplo genérico, em que os fluxos de trabalho do plano de orçamento separados são criados para níveis diferentes da organização. Os estágios são definidos em cada fluxo de trabalho e os cenários específicos são atribuídos a cada estágio para reter os dados do orçamento. As tarefas são concluídas para mover os dados de um estágio para o outro. Por exemplo, os valores podem ser alocados ou agregados em contas diferentes, aprovações diferentes ou outras revisões. Nesta ilustração, o texto em itálico indica um cenário que não pode ser editado durante o estágio, ou dados que são históricos ou foram aprovados em uma fase anterior e não devem ser alterados.
 
-[![Esquema genérico do plano de orçamento](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
+[![Esquema genérico do plano de orçamento.](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
 A ilustração a seguir mostra um exemplo em que a matriz corporativa estima os valores de linha de base para o orçamento inicial e os distribui aos departamentos de vendas. Os departamentos de vendas estimam e envia a previsão para a matriz, onde o gerente poderá agregá-la e ajustá-la. Além disso, o gerente de orçamento envia os valores de orçamento ajustados ao diretor financeiro (CFO) para revisão, ajustes finais e aprovação.
 
-[![Exemplo do esquema do plano de orçamento](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
+[![Exemplo do esquema do plano de orçamento.](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ### <a name="organization-hierarchy-for-budget-planning"></a>Hierarquia organizacional para o plano do orçamento
 
@@ -93,7 +95,7 @@ Uma boa prática é criar um fluxo de trabalho do planejamento de orçamento par
 
 Você cria um fluxo de trabalho do orçamento para o plano na página **Fluxos de trabalho do orçamento**. O processo se parece com o processo para criar outros fluxos de trabalho. A ilustração a seguir mostra um exemplo de um fluxo de trabalho da matriz.
 
-[![Fluxo de trabalho do orçamento para o plano do orçamento](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
+[![Fluxo de trabalho do orçamento para o plano do orçamento.](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
 O fluxo de trabalho inclui os seguintes elementos:
 
@@ -141,11 +143,11 @@ Ao configurar uma alocação de estágio, você associa o fluxo de trabalho e o 
 
 No esquema do exemplo anteriormente exibido neste tópico, uma alocação será executada para transferir valores de um plano de orçamento e os cenários no estágio da linha de "base" da matriz para outro plano de orçamento e os cenários no estágio "Estimativa" dos departamentos de vendas. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
 
-[![Alocação do estágio](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
+[![Alocação do estágio.](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
 Além disso, no esquema de exemplo, uma agregação é feita de planos e os cenários de orçamento no estágio "Enviado" para departamentos de vendas para um plano principal na fase "Acúmulo" da matriz. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
 
-[![Agregação](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Agregação.](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioridades
 
@@ -163,7 +165,7 @@ Além das colunas para valores de orçamento, é possível definir colunas para 
 
 No esquema de exemplo, você pode querer criar colunas para os cenários "Vendas de PY", "Contratos" e "Previsão". (A ilustração a seguir mostra a seção relevante do esquema). Em seguida, você poderá dividir um desses cenários em colunas separadas para cada trimestre do ano fiscal, de modo que o gerente do departamento de vendas possa inserir os valores de previsão de cada período de maneira precisa.
 
-[![Ilustração de seções do esquema para adicionar colunas](./media/columns.png)](./media/columns.png)
+[![Ilustração de seções do esquema para adicionar colunas.](./media/columns.png)](./media/columns.png)
 
 Você também pode especificar se cada elemento de layout (coluna) é editável e se está disponível no modelo que é criado para o layout. Para o esquema de exemplo, no layout usado para a fase "Estimativa", as colunas da "Previsão" são editáveis, mas as colunas de "Vendas de PY" e "Contratos" são somente leitura.
 
@@ -201,7 +203,7 @@ Você também pode usar o menu **Ações** para criar um processo, copiando um p
 
 Outro comando útil no menu **Ações** é **Visualizar processo do orçamento**. Este comando exibe graficamente os planos de orçamento em um processo, junto com os dados relevantes, como o status do fluxo de trabalho dos planos, resumos pelo valor e por unidade, e navegação de único clique para os planos do orçamento.
 
-[![Status de processo de planejamento de orçamento](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Status de processo de planejamento de orçamento.](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

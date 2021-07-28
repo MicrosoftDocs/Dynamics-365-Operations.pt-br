@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 86f15831f11dc9fdcada9639858fd3b18cdc7503
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 35fd48ef300d46d00c07f3231d780d1ba431d8ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271092"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350561"
 ---
 # <a name="message-processor-messages"></a>Mensagens do processador de mensagens
 
@@ -88,15 +88,15 @@ Neste exemplo, usar **Quando um evento de negócios ocorre** com *Microsoft Powe
 
 1. No [Power Automate](https://preview.flow.microsoft.com), crie um novo fluxo de nuvem automatizado para o gatilho de fluxo **Quando um evento de negócios ocorre - Aplicativo Finance and Operations (Dynamics 365)** seguido pelas etapas **Analisar JSON** e **Enviar um email**, conforme mostrado na ilustração a seguir.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Fluxo de nuvem automatizado do Power Automate":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example1.png" alt-text="Fluxo de nuvem automatizado do Power Automate.":::
 
 1. Na etapa **Quando um Evento de Negócios ocorre**, você pode pesquisar ou inserir a **Instância** do hub após a **Categoria** e, em seguida, o **Evento de negócios** *Mensagem do processador de mensagens processada*, conforme mostrado na seguinte ilustração.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Etapa Quando um Evento de Negócios ocorre":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example2.png" alt-text="Power Automate Etapa Quando um Evento de Negócios ocorre.":::
 
 1. Para a etapa **Analisar JSON**, insira um **Esquema** que define os campos estendidos. Você pode usar a opção *Baixar esquema* na página **Catálogo de eventos de negócios** no Supply Chain Management ou começar colando o texto do esquema de exemplo. Este texto de exemplo é fornecido após a ilustração a seguir.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Analisar etapa JSON":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example3.png" alt-text="Power Automate Analisar etapa JSON.":::
 
     ```json
     {
@@ -183,7 +183,7 @@ Neste exemplo, usar **Quando um evento de negócios ocorre** com *Microsoft Powe
 
 1. Na etapa **Enviar um email** você pode selecionar os campos individuais ou começar colando o exemplo de corpo de email no campo **Corpo**. Este exemplo é fornecido após a ilustração a seguir.
 
-    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate Enviar uma mensagem de email":::
+    :::image type="content" source="./media/cloud-edge-power-automate-example4.png" alt-text="Power Automate Enviar uma mensagem de email.":::
 
     ```plaintext
     Message queue: @{body('Parse_JSON')?['MessageQueue']}

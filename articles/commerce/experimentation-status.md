@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: f7bdd292893ee42d49bdf977a55d8b10896ca1cd
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: bb9d0e96f8bbdb49408b232eb0405a22d6f478bb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792430"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349199"
 ---
 # <a name="review-the-status-of-an-experiment"></a>Revisar o status de um experimento
 Há várias etapas envolvidas na configuração e na execução de um experimento no Dynamics 365 Commerce. Para obter informações sobre o ciclo de vida de experimentação, consulte [Experimentação no Dynamics 365 Commerce](experimentation-overview.md).
@@ -41,7 +41,7 @@ Da mesma forma, na coluna **status de terceiros**, os valores a seguir podem ser
 
 O diagrama a seguir mostra os dois conjuntos de status e como eles se relacionam entre si.
 
-[ ![Status da experimentação](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
+[ ![Status da experimentação.](./media/experimentation_statuses.svg) ](./media/experimentation_statuses.svg#lightbox)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

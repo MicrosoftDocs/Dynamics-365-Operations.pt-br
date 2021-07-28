@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb4d544d8d74ad10432901381253f84ec9331ae7
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745756"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358540"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnóstico de segurança de gravações de tarefas
 
@@ -39,7 +39,7 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
 
 4. No campo **ID de usuário**, selecione um usuário. Se o usuário não tiver permissões para alguns itens de menu, o campo **Permissões ausentes** será atualizado para **Sim**.
   
-  ![Página de detalhes do item de menu de segurança](../media/Security-Menu-Item-Details.png)
+  ![Página de detalhes do item de menu de segurança.](../media/Security-Menu-Item-Details.png)
 
 5. Selecione **Adicionar referência** para ver uma lista dos objetos de segurança, incluindo as funções, as obrigações e os privilégios que concedem a permissão ausente.
 6. Selecione um objeto de segurança na lista:

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 4bf47b15b668a37f12edb3dbb842d19655fac97a
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019018"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355473"
 ---
 # <a name="wave-creation-and-processing"></a>Criação e processamento de ciclo
 
@@ -42,7 +42,7 @@ Você pode especificar quais dessas opções de ordem de produção devem ser us
 
 O diagrama a seguir mostra o fluxo de como os ciclos de remessa são criados, processados e liberados. Os números correspondem às seções posteriormente nesta seção.
 
-![Processo para a criação de um ciclo](media/wave-processing-diagram.png "Processo para a criação de um ciclo")
+![Processo para a criação de um ciclo.](media/wave-processing-diagram.png "Processo para a criação de um ciclo")
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
@@ -158,7 +158,7 @@ Quando a funcionalidade *Agendar criação de trabalho* for habilitada, o proces
 
 O fluxograma a seguir mostra como o trabalho planejado é criado durante o processamento em ciclos.
 
-![Agendar criação de trabalho](media/schedule-work-creation-process.png)
+![Agendar criação de trabalho.](media/schedule-work-creation-process.png)
 
 ### <a name="planned-work"></a>Trabalho planejado
 

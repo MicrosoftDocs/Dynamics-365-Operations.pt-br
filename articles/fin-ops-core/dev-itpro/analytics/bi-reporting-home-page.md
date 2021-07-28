@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.custom: 27681
+ms.custom:
+- "27681"
+- intro-internal
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e20b6d586e4effbb56d476504a679c3b0b8adb3c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0389ed6ca7926a4981029f6e91be2d1be4b8618e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5754485"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354406"
 ---
 # <a name="reporting-and-analytics-with-power-bi-home-page"></a>Relatórios e análises com a home page do Power BI
 
@@ -37,7 +39,7 @@ Os espaços de trabalho podem usar infográficos e recursos visuais sofisticados
 
 Os usuários podem interagir com os dados clicando ou tocando em recursos visuais na página. Eles podem ver relações de causa e efeito, além de realizar operações hipotéticas simples sem sair do espaço de trabalho. Graças aos impressionantes recursos visuais interativos, será divertido para seus usuários explorar dados e descobrir tendências ocultas.
 
-![Exemplo do Power BI em um espaço de trabalho](./media/Power-BI-in-D365-Workspace.png)
+![Exemplo do Power BI em um espaço de trabalho.](./media/Power-BI-in-D365-Workspace.png)
 
 Para saber mais, consulte os seguintes tópicos:
 
@@ -50,7 +52,7 @@ Para saber mais, consulte os seguintes tópicos:
 ## <a name="business-documents-and-printing"></a>Documentos e impressões comerciais
 As soluções de relatório são frequentemente usadas para capturar e comunicar os detalhes de transações comerciais. Portanto, uma solução de relatório deve ser capaz de produzir manifestações físicas de dados comerciais usando dispositivos existentes, como impressoras de rede. Exemplos de documentos comerciais incluem faturas de vendas, demonstrativos do cliente e cheques.
 
-[![Exemplo de documentos comerciais](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
+[![Exemplo de documentos comerciais.](./media/image-of-business-documents-1024x632.png)](./media/image-of-business-documents.png)
 
 Para saber mais, consulte os seguintes tópicos:
 
@@ -59,20 +61,20 @@ Para saber mais, consulte os seguintes tópicos:
 - [Instalar o Agente de Roteamento de Documentos para habilitar a impressão de rede](install-document-routing-agent.md)
 
 ## <a name="electronic-reporting"></a>Relatório eletrônico
-ER (Relatório eletrônico) é a ferramenta que você usa para configurar formatos de documentos eletrônicos em conformidade com os requisitos legais de vários países ou regiões. Os aplicativos de relatório eletrônico incluem auditoria financeira, relatório de imposto e faturamento eletrônico.
+O ER (Relatório eletrônico) é a ferramenta que você usa para configurar formatos de documentos eletrônicos em conformidade com os requisitos legais de vários países ou regiões. Os aplicativos de relatório eletrônico incluem auditoria financeira, relatório de imposto e faturamento eletrônico.
 
-[![Exemplo de Relatório eletrônico](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![Exemplo de relatório eletrônico.](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+- [Visão geral de Relatório Eletrônico (ER)](general-electronic-reporting.md)
 - [Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [Criar configurações de Relatório eletrônico (ER)](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>Relatórios financeiros
 São fornecidos relatórios financeiros padrão que usam as categorias de conta principal padrão. Você pode usar o designer de relatórios para criar ou modificar demonstrativos financeiros tradicionais, como declarações de renda e balanços. Você poderá então compartilhar os resultados com outros membros de sua organização. Exemplos de relatório financeiro incluem balanços, fluxo de caixa e balancete de resumo ano a ano.
 
-[![Exemplo de relatório financeiro](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
+[![Exemplo de relatório financeiro.](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
 
 Para saber mais, consulte os seguintes tópicos:
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 9aac18155fbc7a87554ac0521cd9f40d11eba9e2
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 35a2abaa2165288097bc07b47320e002efc290e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890822"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348477"
 ---
 # <a name="set-up-electronic-invoicing"></a>Configurar Faturamento eletrônico
 
@@ -37,7 +37,7 @@ O "recurso de Faturamento eletrônico" é o nome genérico do recurso configurad
 
 A ilustração a seguir mostra os principais componentes de um recurso de Faturamento eletrônico.
 
-![Visão geral do recurso de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
+![Visão geral do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Overview-e-Invoicing-feature.png)
 
 Devido a variações nos formatos de fatura e fluxos de ação, a configuração do recurso varia de acordo com o país ou a região, ou de acordo com as necessidades comerciais.
 
@@ -50,7 +50,7 @@ O processo de configuração deve ser concluído no ambiente RCS. Siga estas eta
 3. Na página **Recursos de Faturamento eletrônico**, selecione **Importar** para importar a configuração do modelo de dados ER do Repositório global.
 4. Selecione **Adicionar** para criar um recurso de Faturamento eletrônico. Você pode criar o recurso do zero ou derivá-lo de um recurso de Faturamento eletrônico existente.
 
-    ![Adicionar um recurso de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
+    ![Adicionar um recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature.png)
 
 > [!NOTE]
 > Quando você cria um novo recurso de Faturamento eletrônico, ele tem um número de versão e o status padrão é definido como **Rascunho**.
@@ -63,21 +63,21 @@ Siga estas etapas para adicionar formatos ER ao recurso de Faturamento eletrôni
 
 1. Na página **Recursos de Faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** para adicionar configurações de formato de arquivo ER para o recurso de Faturamento eletrônico.
 
-    ![Adicionar configurações do recurso de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
+    ![Adicionar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Ao criar um recurso de Faturamento eletrônico do zero, você deve adicionar manualmente todas as configurações de formato de arquivo ER. Quando você deriva um recurso de Faturamento eletrônico de um recurso existente, as configurações de formato de arquivo ER são criadas automaticamente, pois são herdadas do recurso de Faturamento eletrônico original.
 
 2. Selecione **Editar** para abrir a página **Designer de formato**, na qual você pode editar a configuração de formato de arquivo ER.
 
-    ![Editar configurações do recurso de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
+    ![Editar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Configurations.png)
 
     > [!NOTE]
     > Enquanto você edita o formato, o status da versão da configuração é definido como **Rascunho**.
 
 3. Use a página **Designer de formato** para alterar a configuração de formato de arquivo. Para obter mais informações, consulte [Criar configurações do documento eletrônico](../../fin-ops-core/dev-itpro/analytics/electronic-reporting-configuration.md).
 
-    ![Página do designer de formatos](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
+    ![Página do designer de formatos.](media/e-Invoicing-services-feature-setup-ER-Format-designer.png)
 
 ### <a name="feature-setups"></a>Configurações do recurso
 
@@ -87,18 +87,18 @@ Siga estas etapas para adicionar configurações de recurso ao recurso de Fatura
 
 1. Na página **Recursos de Faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar** para adicionar configurações de recurso para o recurso de Faturamento eletrônico.
 
-    ![Adicionar configurações do recurso de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
+    ![Adicionar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Add-e-Invoicing-feature-Setups.png)
 
     > [!NOTE]
     > Ao criar um recurso de Faturamento eletrônico do zero, você deve adicionar manualmente todas as configurações de recurso necessárias. Quando você deriva um recurso de Faturamento eletrônico de um recurso existente, todas as configurações de recurso são criadas automaticamente, pois são herdadas do recurso de Faturamento eletrônico original.
 
 2. Selecione **Editar** para editar a configuração da versão do recurso.
 
-    ![Editar configurações do recurso de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
+    ![Editar configurações do recurso de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Edit-e-Invoicing-feature-Setups.png)
 
 3. Use a página **Configuração de versão do recurso** para configurar ações, regras de aplicabilidade e variáveis.
 
-    ![Ações, regras de aplicabilidade e variáveis](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
+    ![Ações, regras de aplicabilidade e variáveis.](media/e-Invoicing-services-feature-setup-View-Actions-Applicability-Rules-Variables.png)
 
 ### <a name="actions"></a>Ações
 
@@ -113,7 +113,7 @@ Na página **Configuração de versões do recurso**, na guia **Ações**, na Gu
 - Selecione **Novo** ou **Excluir** para adicionar novas ações ou excluir ações existentes.
 - Selecione **Para cima** ou **Para baixo** para mover ações selecionadas para cima ou para baixo na grade e alterar a ordem em que são executadas. As ações são executadas na ordem em que aparecem na grade, de cima para baixo.
 
-![Gerenciar ações](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
+![Gerenciar ações.](media/e-Invoicing-services-feature-setup-Manage-Actions.png)
 
 A tabela a seguir descreve os campos disponíveis na Guia Rápida **Ações**.
 
@@ -129,7 +129,7 @@ A tabela a seguir descreve os campos disponíveis na Guia Rápida **Ações**.
 
 A Guia Rápida **Parâmetros** lista os parâmetros para a ação selecionada na Guia Rápida **Ações**.
 
-![Guia Rápida Parâmetros](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
+![Guia Rápida Parâmetros.](media/e-Invoicing-services-feature-setup-View-Actions-Parameters.png)
 
 A tabela a seguir descreve os campos disponíveis na Guia Rápida **Parâmetros**.
 
@@ -259,20 +259,20 @@ As regras de aplicabilidade permitem criar regras lógicas que determinam o cont
 
 1. Na página **Configuração de versão do recurso**, na guia **Regras de aplicabilidade**, selecione **Novo** para adicionar uma regra de aplicabilidade.
 
-    ![Gerenciar regras de aplicabilidade](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
+    ![Gerenciar regras de aplicabilidade.](media/e-Invoicing-services-feature-setup-Manage-Actions-Applicability-rules.png)
 
 2. Na grade, selecione as cláusulas que devem ser agrupadas.
 3. Selecione **Agrupar cláusula**.
 
-    ![Agrupar cláusulas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
+    ![Agrupar cláusulas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-clause.png)
 
     Quando as cláusulas são agrupadas, uma nova coluna é adicionada à grade. Esta coluna especifica o operador lógico para as cláusulas agrupadas.
 
-    ![Operador lógico para cláusulas agrupadas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
+    ![Operador lógico para cláusulas agrupadas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-Group-criterias.png)
 
 Para desagrupar cláusulas, selecione as cláusulas agrupadas para desagrupá-las e selecione **Desagrupar cláusula**.
 
-![Desagrupar cláusulas](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
+![Desagrupar cláusulas.](media/e-Invoicing-services-feature-setup-Manage-Applicability-rules-UnGroup-criterias.png)
 
 > [!NOTE]
 > Ao desagrupar uma cláusula, sempre inicie do nível de agrupamento mais interno.
@@ -294,7 +294,7 @@ Você pode criar variáveis e usá-las como o valor de entrada para um parâmetr
 
 - Na página **Configuração de versão do recurso**, na guia **Variáveis**, selecione **Nova** ou **Excluir** para gerenciar variáveis.
 
-    ![Gerenciar variáveis](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
+    ![Gerenciar variáveis.](media/e-Invoicing-services-feature-setup-Manage-Variables.png)
 
 A tabela a seguir descreve os campos disponíveis na guia **Variáveis**.
 
@@ -310,7 +310,7 @@ A tabela a seguir descreve os campos disponíveis na guia **Variáveis**.
 
 - Na página **Configuração de versão do recurso**, no Painel de Ações, selecione **Validar** para validar a configuração da versão do recurso.
 
-   ![Selecionar o botão Validar](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
+   ![Selecionar o botão Validar.](media/e-Invoicing-services-feature-setup-Select-Validate-Button.png)
 
 A validação verifica a consistência da configuração inteira. Por exemplo, se um parâmetro específico de uma ação for obrigatório, mas seu valor permanecer em branco, a validação detectará essa inconsistência e você receberá um aviso.
 
@@ -323,7 +323,7 @@ Siga estas etapas para habilitar um ambiente de Faturamento eletrônico para o r
 1. Na página **Recursos de Complemento de faturamento eletrônico**, na guia **Ambientes**, selecione **Habilitar** para adicionar um ambiente de Faturamento eletrônico.
 2. No campo **Efetivo a partir de**, insira a data em que o novo ambiente entra em vigor.
 
-![Habilitar um ambiente de Faturamento eletrônico](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
+![Habilitar um ambiente de Faturamento eletrônico.](media/e-Invoicing-services-feature-setup-Select-Enable-e-Invoicing-feature-Environment.png)
 
 ## <a name="organizations"></a>Organizações
 

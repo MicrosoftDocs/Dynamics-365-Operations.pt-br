@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.custom: 260594
+ms.custom:
+- "260594"
+- intro-internal
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: e495ac4f3cc55503cc8b15d4d4640d3468ab7cd2
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 679c8d7895ac82236c12732e1080529f44231947
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936721"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349617"
 ---
 # <a name="customer-orders-in-point-of-sale-pos"></a>Ordens de cliente no Ponto de Venda (PDV)
 
@@ -44,7 +46,7 @@ Antes de tentar usar a funcionalidade de ordem de cliente no PDV, conclua todas 
 
 Para usar ordens de cliente, você deve configurar os modos de entrega que o canal de loja pode usar. Você deve definir pelo menos um modo de entrega que possa ser usado quando as linhas de ordem forem remetidas a um cliente de uma loja. Você também deve definir pelo menos um modo de entrega de retirada que possa ser usado quando as linhas de ordem forem retiradas na loja. Os modos de entrega são definidos na página **Modos de entrega** na sede do Commerce. Para obter mais informações sobre como configurar modos de entrega para canais do Commerce, consulte [Definir modos de entrega](./configure-call-center-delivery.md#define-delivery-modes).
 
-![Página Modos de entrega](media/customer-order-modes-of-delivery.png)
+![Página Modos de entrega.](media/customer-order-modes-of-delivery.png)
 
 
 ### <a name="set-up-fulfillment-groups"></a>Configurar grupos de atendimento
@@ -53,7 +55,7 @@ Algumas lojas ou locais de depósito podem não conseguir atender a ordens de cl
 
 A partir da versão 10.0.12 do Commerce, as organizações podem definir se as combinações de depósito ou depósito e loja definidas em grupos de atendimento podem ser usadas para remessa, retirada ou ambas. Isso permite uma maior flexibilidade para a empresa a fim de determinar quais depósitos podem ser selecionados ao criar uma ordem de cliente para itens para remessa versus lojas selecionadas durante a criação de uma ordem de cliente para os itens a serem retirados. Para usar essas opções de configuração, ative o recurso **Capacidade para especificar locais como "Remessa" ou "Retirada" habilitada no Grupo de atendimento**. Se um depósito vinculado a um grupo de atendimento não for uma loja, ele poderá ser configurado somente como um local de remessa. Ele não poderá ser usado quando ordens para retirada forem configuradas no PDV.
 
-![Página Grupos de atendimento](media/customer-order-fulfillment-group.png)
+![Página Grupos de atendimento.](media/customer-order-fulfillment-group.png)
 
 ### <a name="configure-channel-settings"></a>Definir configurações de canal
 
@@ -65,7 +67,7 @@ Ao trabalhar com ordens de cliente no PDV, você deve considerar algumas das con
 - **Usar imposto baseado no destino** – Esta opção indica se o endereço de remessa é usado para determinar o grupo de impostos que é aplicado às linhas de ordem remetidas ao endereço do cliente.
 - **Usar imposto baseado no cliente** – Esta opção indica se o grupo de impostos definido para o endereço de entrega do cliente é usado para taxar ordens de cliente criadas no PDV para remessa à casa do cliente.
 
-![Configuração de canal de loja na página Lojas](media/customer-order-all-stores.png)
+![Configuração de canal de loja na página Lojas.](media/customer-order-all-stores.png)
 
 ### <a name="set-up-customer-order-parameters"></a>Configurar parâmetros de ordens de cliente
 
@@ -80,7 +82,7 @@ Antes de tentar criar ordens de cliente no PDV, você deve configurar os parâme
 - **Código do encargo de remessa** – Se a opção **Usar encargos automáticos avançados** estiver definida como **Sim**, essa configuração de parâmetro não terá efeito. Se essa opção estiver definida como **Não**, os usuários serão solicitados a inserir manualmente um encargo de remessa quando criarem ordens de cliente no PDV. Use esse parâmetro para mapear um código de encargo de Contas a receber que será aplicado às ordens quando os usuários inserirem um encargo de remessa. O código do encargo define a lógica de lançamento financeiro para o encargo de remessa.
 - **Usar encargos automáticos avançados** – Defina esta opção como **Sim** para usar encargos automáticos calculados pelo sistema quando ordens de cliente forem criadas no PDV. Esses encargos automáticos podem ser usados para calcular taxas de remessa e outros encargos específicos de ordens ou itens. Para obter mais informações sobre como configurar e usar encargos automáticos avançados, consulte [Encargos automáticos avançados de omnicanal](./omni-auto-charges.md).
 
-![Guia Ordens de cliente na página Parâmetros do Commerce](media/customer-order-parameters.png)
+![Guia Ordens de cliente na página Parâmetros do Commerce.](media/customer-order-parameters.png)
 
 ### <a name="update-transaction-screen-layouts-in-pos"></a>Atualizar layouts da tela de transação no PDV
 
@@ -95,7 +97,7 @@ Verifique se o [layout de tela](./pos-screen-layouts.md) do PDV está configurad
 - **Alterar modo de entrega** – Esta operação pode ser usada para alterar rapidamente o modo de entrega das linhas que já foram configuradas para remessa, sem exigir que os usuários passem pelo fluxo "remeter todos os produtos" ou "remeter produtos selecionados" outra vez.
 - **Substituição de depósito** – Esta operação pode ser usada para alterar o valor de depósito que o cliente pagará pela ordem de cliente selecionada.
 
-![Operações na tela de transação do PDV](media/customer-order-screen-layout.png)
+![Operações na tela de transação do PDV.](media/customer-order-screen-layout.png)
 
 ## <a name="work-with-customer-orders-in-pos"></a>Trabalhar com ordens de cliente no PDV
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6fc641233a1bd217de5b9eb6e06560b989f91c7b
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 176ce59547456a14b494caa4dc3c2d8251920fe5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056339"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360535"
 ---
 # <a name="set-up-reason-codes"></a>Configurar códigos de motivo
 
@@ -56,15 +56,15 @@ Você verá uma faixa na página **Links** do espaço de trabalho **Gerenciament
 
 1. Selecione **Códigos de motivo** para obter detalhes sobre o status da migração.
 
-   [![Códigos de motivo](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
+   [![Códigos de motivo.](./media/hr-benefits-setup-reason-codes-link.png)](./media/hr-benefits-setup-reason-codes-link.png)
 
 2. Selecione um código de motivo que falhou na migração.
 
-   [![Status da migração do código de motivo](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
+   [![Status da migração do código de motivo.](./media/hr-benefits-setup-reason-codes-status.png)](./media/hr-benefits-setup-reason-codes-status.png)
 
 3. Selecione **Migrar código de motivo**.
 
-   [![Migrar código de motivo](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
+   [![Migrar código de motivo.](./media/hr-benefits-setup-reason-codes-migrate.png)](./media/hr-benefits-setup-reason-codes-migrate.png)
 
 4. No painel **Migração de código de motivo do benefício**, você tem duas opções para mapear um código de motivo de Gerenciamento de pessoal:
 
@@ -73,10 +73,10 @@ Você verá uma faixa na página **Links** do espaço de trabalho **Gerenciament
      > Só será possível usar um código de motivo existente no Gerenciamento de pessoal se outro código de motivo de Gerenciamento de benefícios ainda não tiver migrado para ele.
    - Para criar um novo código de motivo no Gerenciamento de pessoal, insira um novo em **Novo código de motivo** e, depois, insira uma descrição em **Nova descrição**.
 
-   [![Mapear para um código de motivo de Gerenciamento de pessoal](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
+   [![Mapear para um código de motivo de Gerenciamento de pessoal.](./media/hr-benefits-setup-reason-codes-mapping.png)](./media/hr-benefits-setup-reason-codes-mapping.png)
 
 Depois que os códigos de motivo migram para o Gerenciamento de pessoal, a opção para usá-los no Gerenciamento de benefícios é definida automaticamente como **Sim**.
 
-[![Usar código de motivo em Gerenciamento de benefícios](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
+[![Usar código de motivo em Gerenciamento de benefícios.](./media/hr-benefits-setup-reason-codes-use.png)](./media/hr-benefits-setup-reason-codes-use.png)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
