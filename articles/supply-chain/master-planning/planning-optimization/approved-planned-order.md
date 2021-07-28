@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-08-21
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 71ec26bea2063bcf8b6d302a7ece804b3ac934b3
-ms.sourcegitcommit: 3673eeca1ada0f3e4ec277176515a946706f8a41
+ms.openlocfilehash: 94ecd623d445e23cc41829c51429e4783daa49f9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304358"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355964"
 ---
 # <a name="view-manage-and-approve-planned-orders"></a>Exibir, gerenciar e aprovar ordens planejadas
 
@@ -65,7 +65,7 @@ A aprovação de ordens planejadas é uma etapa opcional no processo de criaçã
 
 A ilustração a seguir mostra como você pode usar o valor **Status** que é atribuído a cada ordem planejada para implementar um fluxo de trabalho de aprovação. Para implementar um processo de aprovação, ajuste manualmente o valor do **Status** de cada ordem planejada, conforme descrito na seção anterior.
 
-![Fluxo de ordem planejada](media/approved-planned-orders-1.png)
+![Fluxo de ordem planejada.](media/approved-planned-orders-1.png)
 
 > [!TIP]
 > Recomendamos que você aprove quaisquer ordens planejadas modificadas. Caso contrário, as edições serão ignoradas e sobrescritas pela próxima execução de planejamento.

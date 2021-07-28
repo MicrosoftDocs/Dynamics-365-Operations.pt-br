@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 08564ce7af7412f2501b917b3496942004402611
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 513ec2f48a3c7c81a41fd64a9752067d12eb4ec8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117208"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353853"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurar valores de dimensão de produto para serem exibidos como amostras
 
@@ -39,11 +39,11 @@ O recurso Exibir dimensões como amostras permite que o Commerce use códigos he
 
 A ilustração a seguir mostra um exemplo em que cores aparecem como amostras em um PDP do Commerce.
 
-![Exemplo de cores mostradas como amostras em uma página de detalhes do produto](../dev-itpro/media/swatch_pdp.png)
+![Exemplo de cores mostradas como amostras em uma página de detalhes do produto.](../dev-itpro/media/swatch_pdp.png)
 
 A ilustração a seguir mostra um exemplo em que cores aparecem como amostras em uma página da lista de resultados de pesquisa do Commerce.
 
-![Exemplo de cores mostradas como amostras em uma página da lista de resultados de pesquisa](../dev-itpro/media/swatch_searchresults.PNG)
+![Exemplo de cores mostradas como amostras em uma página da lista de resultados de pesquisa.](../dev-itpro/media/swatch_searchresults.PNG)
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilitar as dimensões de exibição como um recurso de amostras no Commerce Headquarters
 
@@ -57,15 +57,15 @@ A configuração pode ser realizada em qualquer um dos seguintes níveis:
 
 - **Dimensão** – no Commerce Headquarters, abra a página de uma dimensão pesquisando **Cor**, **Tamanho** ou **Estilo**. Em cada página, uma grade lista os valores de dimensão. Você pode gerenciar os valores de ordem de exibição, código hexadecimal e URL da imagem. A ilustração a seguir mostra uma configuração de exemplo da página **Cores**.
 
-    ![Exemplo de configuração de dimensão na página Cores](../dev-itpro/media/swatch_Color.PNG)
+    ![Exemplo de configuração de dimensão na página Cores.](../dev-itpro/media/swatch_Color.PNG)
 
 - **Grupo de dimensões** – no Dynamics 365 Commerce, você pode usar a propriedade **RefinerGroup** para criar grupos de dimensões. Se os grupos de dimensões estiverem definidos, abra a página apropriada procurando **Grupo de cores**, **Grupo de tamanho** ou **Grupo de estilos**. Em cada página, é possível gerenciar o código hexadecimal, a URL da imagem e os valores do grupo refinado. A ilustração a seguir mostra uma configuração de exemplo da página **Grupos de cores**.
 
-    ![Exemplo de configuração de dimensão na página Grupos de cores](../dev-itpro/media/swatch_colorGroup.PNG)
+    ![Exemplo de configuração de dimensão na página Grupos de cores.](../dev-itpro/media/swatch_colorGroup.PNG)
 
 - **Dimensão do produto (durante a criação do produto)** – ao criar um novo produto, você pode usar a página **Dimensões do produto** para inserir os valores de dimensão. Para produtos existentes, os campos **Hexcode**, **URL** (para imagens) e **RefinerGroup** já podem estar definidos. No entanto, você pode alterar os valores, conforme desejado. A ilustração a seguir mostra uma configuração de exemplo da página **Dimensões do produto**.
 
-    ![Exemplo de configuração de dimensão na página Dimensões do produto](../dev-itpro/media/swatch_product_dimensions.PNG)
+    ![Exemplo de configuração de dimensão na página Dimensões do produto.](../dev-itpro/media/swatch_product_dimensions.PNG)
 
 > [!NOTE]
 > O processo de gerenciamento de código hexadecimal e configurações de URL de imagem segue o mesmo padrão usado para gerenciar a ordem de exibição de dimensões.
@@ -76,7 +76,7 @@ Para a maioria das dimensões de cor, um valor de cor de código hexadecimal dev
 
 A ilustração a seguir mostra um exemplo no qual as dimensões de cores são configuradas usando valores de código hexadecimal.
 
-![Exemplo de configuração de dimensão que usa códigos hexadecimais](../dev-itpro/media/swatch_color_hexcode.png)
+![Exemplo de configuração de dimensão que usa códigos hexadecimais.](../dev-itpro/media/swatch_color_hexcode.png)
 
 ## <a name="configure-dimension-values-by-using-image-urls"></a>Configurar valores de dimensão usando URLs de imagem
 
@@ -86,13 +86,13 @@ Você deve carregar cada imagem para o construtor de sites do Commerce e public�
 
 A ilustração a seguir mostra um exemplo no qual os URLs da imagem são usados para a configuração na página **Cores**.
 
-![Exemplo de configuração de dimensão que usa URLs de imagem](../dev-itpro/media/swatch_color_urls.PNG)
+![Exemplo de configuração de dimensão que usa URLs de imagem.](../dev-itpro/media/swatch_color_urls.PNG)
 
 Você pode usar um modelo de mídia para definir URLs de imagem, da mesma forma que é possível para imagens de produtos e categorias. Ao carregar imagens para o construtor de sites, as convenções de nome de arquivo e os caminhos de arquivo devem ser consistentes.
 
 A ilustração a seguir mostra um exemplo no qual as URLs da imagem são usadas para a configuração de um modelo de mídia.
 
-![Exemplo de configuração de modelo de mídia](../dev-itpro/media/swatch_media_template.PNG)
+![Exemplo de configuração de modelo de mídia.](../dev-itpro/media/swatch_media_template.PNG)
 
 ## <a name="configure-dimension-values-by-using-both-hex-codes-and-image-urls"></a>Configurar valores de dimensão usando códigos hexadecimais e URLs de imagem
 
@@ -100,7 +100,7 @@ Para a maioria das dimensões de cor, você pode configurar códigos hexadecimai
 
 A ilustração a seguir mostra um exemplo no qual os códigos hexadecimais e URLs da imagem são usados para a configuração na página **Cores**.
 
-![Exemplo de configuração de dimensão que usa URLs de imagem e códigos hexadecimais](../dev-itpro/media/swatch_color_hexandimage.png)
+![Exemplo de configuração de dimensão que usa URLs de imagem e códigos hexadecimais.](../dev-itpro/media/swatch_color_hexandimage.png)
 
 ## <a name="configure-refiner-groups"></a>Configurar grupos do refinador
 
@@ -110,7 +110,7 @@ Por exemplo, se os valores de dimensão de cor forem "azul", "xadrez azul", azul
 
 O exemplo na ilustração a seguir mostra o relacionamento entre as propriedades de **Cor** e **RefinerGroup** no Commerce Headquarters.
 
-![Exemplo de gerenciamento de grupos do refinador](../dev-itpro/media/swatch_refiner_group.png)
+![Exemplo de gerenciamento de grupos do refinador.](../dev-itpro/media/swatch_refiner_group.png)
 
 ## <a name="manage-images-in-commerce-site-builder"></a>Gerenciar imagens no construtor de sites do Commerce
 
@@ -118,7 +118,7 @@ Se as URLs de imagem forem usadas para qualquer valor de dimensão, as imagens c
 
 A ilustração a seguir mostra um exemplo onde a caixa de diálogo **Carregar arquivos** está sendo usada para carregar imagens na biblioteca de mídia do construtor de sites. Ele realça as categorias **Tamanho**, **Cor** e **Estilo** que estão disponíveis para seleção.
 
-![Exemplo de categorias de arquivo de imagem durante o carregamento na biblioteca de mídia do construtor de sites](../dev-itpro/media/swatch_sitebuilder.png)
+![Exemplo de categorias de arquivo de imagem durante o carregamento na biblioteca de mídia do construtor de sites.](../dev-itpro/media/swatch_sitebuilder.png)
 
 ## <a name="enable-swatch-display-on-e-commerce-site-pages"></a>Habilitar exibição de amostra nas páginas do site de comércio eletrônico
 

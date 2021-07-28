@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c58aa1cec6c0bfe33fa1ef90267dcd8ac1218157
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: af427e8df2ac7a3a3b5a7fd6edb740400f6bbeaf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830825"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357993"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar itens para um item habilitado de depósito avançado usando um diário de entrada de item
 
@@ -53,14 +53,14 @@ O seguinte cenário mostra como criar um cabeçalho do diário de entrada de ite
 1. Defina **Número da conta** como *1001*.
 1. Defina **Número** para o número da ordem de compra que você identificou para este exercício.
 
-    ![Diário de entrada de itens](../media/item-arrival-journal-header.png "Diário de entrada de itens")
+    ![Diário de entrada de itens.](../media/item-arrival-journal-header.png "Diário de entrada de itens")
 
 1. Selecione **OK** para criar o cabeçalho do diário.
 1. Na seção **Linhas do diário**, selecione **Adicionar linha** e insira os seguintes dados:
     - **Número do item** – Defina como *M9200*. O **Local**, o **Depósito** e a **Quantidade** serão definidos com base nos dados da transação de estoque para os 10 paletes (1000 ea.).
     - **Local** – definido como *001*. Este local específico não controla as placas de licença.
 
-    ![Linha do diário de entrada de itens](../media/item-arrival-journal-line.png "Linha do diário de entrada de itens")
+    ![Linha do diário de entrada de itens.](../media/item-arrival-journal-line.png "Linha do diário de entrada de itens")
 
     > [!NOTE]
     > O campo **Data** determina a data em que a quantidade disponível desse item será registrada no estoque.  

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: df08bdffb2bda67269eec9f1572bd76af9ae1e11
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2da54d147c7e9c8a42ef9de94abcbe7f36c98295
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747168"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355739"
 ---
 # <a name="actions-in-workflow-approval-processes"></a>Ações nos processos de aprovação de fluxo de trabalho
 
@@ -29,7 +29,7 @@ Este artigo explica as ações que cada participante em um processo de aprovaç�
 
 Um fluxo de trabalho pode envolver vários grupos de pessoas: o originador, os destinatários de tarefa, os tomadores de decisão, e os aprovadores. Por exemplo, no fluxo de trabalho de relatório de despesas a seguir, Samuel é o originador; os membros da fila são os destinatários de tarefa; Mateus é um tomador de decisão e Fábio, Manuela e Ana são os aprovadores.
 
-[![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
+[![Workflow\_WithManualDecision.](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif)
 
 As seções a seguir explicam as ações de fluxo de trabalho que cada grupo pode executar.
 

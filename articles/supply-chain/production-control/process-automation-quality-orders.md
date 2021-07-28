@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: f35adab3075ba810964a41899ba95ae40c115e83
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 0ebb34f58a4bfbe8bda935d7b40e9d89c3dacd03
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115162"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353979"
 ---
 # <a name="invoke-process-automation-flows-to-create-quality-orders"></a>Invocar fluxos de automação de processos para criar ordens de qualidade
 
@@ -30,7 +30,7 @@ Você pode baixar o modelo de solução de automação [aqui](https://aka.ms/D36
 
 Para ter uma visão geral desse recurso e de suas funcionalidades, consulte o seguinte vídeo: [Utilize RPA para criar ordens de qualidade no Dynamics 365 Supply Chain Management](https://www.youtube.com/watch?v=LFbzJ6-H89w)
 
-![Opções de automação com RPA](media/rpa-automation-options.png "Opções de automação com RPA")
+![Opções de automação com RPA.](media/rpa-automation-options.png "Opções de automação com RPA")
 
 O modelo de solução Power Automate inclui um fluxo de automação em nuvem e um fluxo de automação de desktop que automatiza a criação de ordens de qualidade no Supply Chain Management.
 
@@ -38,7 +38,7 @@ A automação pode ser iniciada em resposta a muitos eventos e sinais, incluindo
 
 Os parâmetros da solução são incluídos para configurar a automação para um caso de uso específico em uma instalação de produção.
 
-![Criar ordem de qualidade](media/rpa-create-quality-roder.png "Criar ordem de qualidade")
+![Criar ordem de qualidade.](media/rpa-create-quality-roder.png "Criar ordem de qualidade")
 
 Para obter um guia passo a passo completo sobre como baixar, instalar e usar a solução de amostra para automatizar a criação de pedidos de qualidade, consulte [Automatizar a criação de ordens de qualidade no Dynamics 365 Supply Chain Management com automação de processo robótico usando o Power Automate Desktop](/power-automate/desktop-flows/dynamics365-scm-rpa).
 

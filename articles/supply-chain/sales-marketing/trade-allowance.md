@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 51b734e6a94ffdfabb218a19986f1bec65b839e7
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 35ceb14d4d048959ae6a1740791bd4d57f33b34c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102797"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359524"
 ---
 # <a name="trade-allowance-management"></a>Gerenciamento de bonificação comercial
 
@@ -59,7 +59,7 @@ Um contrato de bonificação comercial é um programa de incentivo no qual recom
 
 Os fundos alocados para contratos de bonificação comercial são registrados na página **Fundos**. Para abrir a página **Fundos**, selecione **Vendas e marketing** \> **Incentivos comerciais** \> **Fundos** \> **Fundos**.
 
-![Página de fundos](./media/trade-allowance-management-funds-page.png "Página de fundos")
+![Página de fundos.](./media/trade-allowance-management-funds-page.png "Página de fundos")
 
 Na página **Fundos**, você pode exibir os detalhes de fundos promocionais.
 
@@ -75,7 +75,7 @@ Após a definição do fundo, a próxima etapa no planejamento da promoção é 
 
 Os contratos de bonificação comercial são registrados na página **Contratos de bonificação comercial**. Para abrir a página **Contratos de bonificação comercial**, selecione **Vendas e marketing** \> **Incentivos comerciais** \> **Contratos de bonificação comercial**.
 
-![Página de contratos de bonificação comercial](./media/trade-allowance-management-agreements-page.png "Página de contratos de bonificação comercial")
+![Página de contratos de bonificação comercial.](./media/trade-allowance-management-agreements-page.png "Página de contratos de bonificação comercial")
 
 #### <a name="header"></a>Cabeçalho
 
@@ -103,7 +103,7 @@ A guia **Eventos de merchandising** mostra os tipos de eventos cobertos por um c
 
 Quando você seleciona o evento de merchandising e, em seguida, seleciona a guia **Valores**, os detalhes do evento são encontrados.
 
-![Linhas de contrato de bonificação comercial](./media/trade-allowance-management-agreements-lines.png "Linhas de contrato de bonificação comercial")
+![Linhas de contrato de bonificação comercial.](./media/trade-allowance-management-agreements-lines.png "Linhas de contrato de bonificação comercial")
 
 Na seção **Linhas de bonificação comercial**, você especifica as faixas de quantidade ou valor que o cliente deve atingir para que as definições obtenham as recompensas.
 

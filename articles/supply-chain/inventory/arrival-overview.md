@@ -9,19 +9,21 @@ ms.technology: ''
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 274363
+ms.custom:
+- "274363"
+- intro-internal
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 734fbdd6f62c192580029a24844fff78fda8b919
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fdd2995da04aa4752868a84499c81c2c01d80c16
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809581"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360439"
 ---
 # <a name="arrival-overview"></a>Visão geral de entrada
 
@@ -34,7 +36,7 @@ A página **Visão geral de entrada** fornece uma visão geral de todos os itens
 ## <a name="business-scenario"></a>Cenário de negócios
 Considere o seguinte cenário nos processos de entrada.
 
-[![Cenário de negócios](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
+[![Cenário de negócios.](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, um funcionário de recebimento, quer saber o que deve ser recebido no dia atual. Na página **Visão geral de entrada**, Sammy pode obter uma visão geral das tarefas atuais e uma previsão aproximada de quantidades, volume, peso, diferentes tipos de ordem etc. Posteriormente, a entrega chega em uma das docas de entrada e Sammy recebe uma lista da entrega. Na página **Visão geral de entrada**, Sammy pode executar as seguintes tarefas:
 
@@ -66,7 +68,7 @@ Para criar automaticamente os diários de entrada da página **Visão geral de e
 
 -   É necessário especificar um nome de diário para criar um novo diário.
 
-[![Especificando um nome de diário](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
+[![Especificando um nome de diário.](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
 -   Se você especificar valores nos campos **Depósito** e **Local**, esses valores serão aplicados nas linhas do diário. Se você não especificar valores, o sistema usará os valores da dimensão especificada nas transações de estoque.
 

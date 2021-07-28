@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: AssetLeaseLeasingWorkspace
 audience: Application User
 ms.reviewer: roschlom
-ms.custom: 4464
+ms.custom:
+- "4464"
+- intro-internal
 ms.assetid: 5f89daf1-acc2-4959-b48d-91542fb6bacb
 ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 8141badab2561707e2055d7084323ed4310d2421
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5892424"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360727"
 ---
 # <a name="asset-leasing-get-started"></a>Introdução ao arrendamento de ativos
 
@@ -35,7 +37,7 @@ Para obter mais informações sobre padrões contábeis, consulte a documentaç�
 ## <a name="asset-leasing-elements"></a>Elementos de locação de ativo
 O diagrama a seguir mostra os principais elementos do processo comercial para arrendamentos.
 
-[![Elementos de locação de ativo](./media/overview-01.png)](./media/overview-01.png)
+[![Elementos de locação de ativo.](./media/overview-01.png)](./media/overview-01.png)
 
 Um ativo arrendado contém os seguintes componentes principais:
 
@@ -54,7 +56,7 @@ A concessão de ativos mapeia informações de arrendamento, planos de pagamento
 
 O diagrama a seguir mostra o registro de arrendamento, a concessão, o plano de pagamento calculado, os testes de classificação para arrendamentos e os registros de arrendamento e as transações contábeis correspondentes.
 
-[![Arrendamento, registro de arrendamento e plano de pagamento](./media/overview-02.png)](./media/overview-02.png)
+[![Arrendamento, registro de arrendamento e plano de pagamento.](./media/overview-02.png)](./media/overview-02.png)
 
 - **Registro de arrendamento** - o registro de arrendamento inclui todas as informações sobre o contrato de arrendamento, como prazos de arrendamento, valor justo e pagamentos do arrendamento. Ele também inclui o padrão contábil que você está seguindo, o tipo de arrendamento e os limites que são considerados no teste de classificação do arrendamento. O registro de arrendamento também contém as transações de arrendamento lançadas na contabilidade. 
   
@@ -117,7 +119,7 @@ O primeiro período será iniciado com o período zero, se o tipo de anuidade fo
 
 Os testes de classificação incluem a Transferência de propriedade, a Opção de compra, o Prazo de arrendamento, o Valor líquido presente e o Ativo exclusivo. O diagrama a seguir ilustra os testes de classificação de arrendamento.
 
-[![Testes de classificação de arrendamento](./media/overview-03.png)](./media/overview-03.png)
+[![Testes de classificação de arrendamento.](./media/overview-03.png)](./media/overview-03.png)
 
 Cada tipo de arrendamento controla a contabilidade de modo diferente para transações de arrendamento diferentes. As transações incluem o reconhecimento inicial, despesas de juros, pagamento de vencimento de arrendamento e depreciação de arrendamento, e são baseadas nos padrões contábeis que você está seguindo (IFRS 16 ou ASC 842). As contas contábeis são definidas no perfil de lançamentos de arrendamento para cada tipo de transação e estrutura contábil.
 
@@ -232,7 +234,7 @@ Conclua as etapas a seguir para criar um novo arrendamento.
 
    A página **Plano de pagamento** lista futuros planos de pagamento para uma ID de arrendamento. Selecione **Confirmar plano** para poder lançar as transações de **Reconhecimento inicial**. 
 
-[![Função de reconhecimento inicial](./media/overview-13.png)](./media/overview-13.png)
+[![Função de reconhecimento inicial.](./media/overview-13.png)](./media/overview-13.png)
 
 8. Selecione **Reconhecimento inicial** para criar o diário de reconhecimento inicial. 
 
@@ -246,7 +248,7 @@ Conclua as etapas a seguir para criar um novo arrendamento.
 
    A página **Plano de depreciação de ativos** mostra as transações de depreciação para a ID do arrendamento selecionada. 
 
-   [![Página Transações de ativo DDU](./media/overview-20.png)](./media/overview-20.png)
+   [![Página Transações de ativo DDU.](./media/overview-20.png)](./media/overview-20.png)
 
    A página **Transações de ativo DDU** lista o reconhecimento inicial, a depreciação acumulada e o saldo do ativo. 
 

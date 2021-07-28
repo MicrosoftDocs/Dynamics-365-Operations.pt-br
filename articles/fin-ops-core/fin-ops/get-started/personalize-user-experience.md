@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 764444442aedcbf0934f1c636d7440bc0d277043
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 279212d05615805dd74c702b2b98c344c87fdc78
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944524"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348670"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -85,7 +85,7 @@ Algumas das alterações mais comuns e importantes a serem feitas em uma pagina 
 
 Além disso, os tipos mais básicos de personalizações são disponibilizados clicando com o botão direito em um elemento e selecionando **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você usar esse método de personalização, a *janela de propriedades* do elemento será exibida.
 
-![Personalização de propriedades de um elemento](./media/cli-element-property-window.png)
+![Personalização de propriedades de um elemento.](./media/cli-element-property-window.png)
 
 Você pode usar a janela de propriedades para personalizar um elemento das seguintes maneiras:
 
@@ -107,7 +107,7 @@ Se quiser fazer várias alterações em uma página ou fazer alterações que n�
 - Selecione **Personalizar esta página** no grupo **Personalizar** da guia **Opções** no Painel de Ação de qualquer página.
 - Selecione o botão **Configurações** (símbolo de engrenagem) na barra de navegação e selecione **Personalizar**.
 
-[![Barra de ferramentas de personalização](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
+[![Barra de ferramentas de personalização.](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>Navegação na página
 
@@ -147,7 +147,7 @@ Para algumas páginas que incluem listas, o recurso de personalização **Adicio
 > [!NOTE]
 > Se o recurso [Exibições salvas](saved-views.md) estiver ativado, o conteúdo que você enviar por push para um espaço de trabalho será diretamente vinculado a uma exibição. A consulta da exibição é usada para recuperar dados no espaço de trabalho e o bloco ou link correspondente no espaço de trabalho abre a página nessa exibição, de modo que a consulta e as personalizações da exibição sejam aplicadas a ela. Se o modo de exibição for atualizado, os elementos correspondentes do espaço de trabalho serão ajustados para a nova definição de exibição.
 
-[![Adicionar ao espaço de trabalho](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
+[![Adicionar ao espaço de trabalho.](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png)
 
 - Para adicionar uma lista a um espaço de trabalho, primeiro classifique ou filtre a lista na página de forma que ela mostre as informações como você deseja que apareçam no espaço de trabalho. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Lista**. Após você selecionar **Configurar**, aparecerá uma caixa de diálogo onde você poderá selecionar as colunas que devem aparecer na lista no espaço de trabalho. Você também pode especificar o rótulo usado para a lista no espaço de trabalho.
 - Para adicionar um bloco a um espaço de trabalho, primeiramente filtre a lista na página para que ela mostre os dados que devem ser resumidos ou que você deseja acessar rapidamente. (Se o recurso **Exibições salvas** estiver ativado, você não poderá prosseguir até salvar uma exibição com essas condições.) Em seguida, selecione **Adicionar ao espaço de trabalho**. Selecione um espaço de trabalho. No campo **Apresentação**, selecione **Bloco**. Após selecionar **Configurar**,uma caixa de diálogo será exibida onde você poderá especificar o rótulo a ser usado para o bloco no espaço de trabalho. Você também pode especificar se o bloco deve mostrar uma contagem. Depois de ser adicionado ao espaço de trabalho, o bloco poderá ser selecionado para abrir a página atual no espaço de trabalho. Você pode, então, exibir a lista filtrada associada ao bloco.

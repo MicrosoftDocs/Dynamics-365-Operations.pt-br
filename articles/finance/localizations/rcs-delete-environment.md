@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: 637962cf63bfd8c2330726f33545f939ec91d58d
-ms.sourcegitcommit: dbffde1944b9d037124415c28053036c9ef1ecb7
+ms.openlocfilehash: cf82abbe5493eac9665323738441fa016205e9ef
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6295809"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354998"
 ---
 # <a name="regulatory-configuration-service-rcs---delete-an-rcs-environment"></a>Regulatory Configuration Service (RCS) - Excluir um ambiente do RCS
 
@@ -38,11 +38,11 @@ Antes de poder concluir o procedimento neste tópico, é preciso atender aos seg
 1. Abra o RCS e selecione o bloco de espaço de trabalho **Relatório eletrônico**.
 2. Na seção **Links relacionados**, selecione **Excluir ambiente do RCS**.
 
-    ![Excluir ambiente do RCS na seção Links relacionados](media/01_RCS-Delete-Environ-Related-Link.PNG)
+    ![Excluir ambiente do RCS na seção Links relacionados.](media/01_RCS-Delete-Environ-Related-Link.PNG)
 
 3. Na caixa de diálogo que aparece, revise as mensagens sobre o escopo da exclusão do ambiente.
 
-    ![Mensagens na caixa de diálogo Excluir ambiente do RCS](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
+    ![Mensagens na caixa de diálogo Excluir ambiente do RCS.](media/01_RCS-Delete-Environ-Msg_noGUID.PNG)
 
     > [!IMPORTANT]
     > A exclusão de um ambiente do RCS não pode ser revertida.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-12-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 1417232baeaf03721bd0b25cc3f9fd5f750c65d5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b8a83982ad36abfe9032cae50fe4f09339985dc8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052255"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353653"
 ---
 # <a name="generate-aca-reports-in-benefits-management"></a>Gerar relatórios de ACA no gerenciamento de benefícios
 
@@ -48,15 +48,15 @@ Os grupos de cobertura de Serviços de Saúde Acessíveis ajudam você a gerenci
 
 1. No espaço de trabalho **Gerenciamento de benefícios**, selecione **grupo de cobertura de Serviços de Saúde Acessíveis**.
 
-    ![Selecionar grupo de cobertura de Serviços de Saúde Acessíveis](./media/hr-benefits-management-aca-coverage-group.png)
+    ![Selecionar grupo de cobertura de Serviços de Saúde Acessíveis.](./media/hr-benefits-management-aca-coverage-group.png)
 
 2. Selecione **Novo** para criar um novo grupo de cobertura de Serviços de Saúde Acessíveis ou **Editar** para alterar um grupo existente.
 
-    ![Selecionar Novo ou Editar](./media/hr-benefits-management-aca-new.png)
+    ![Selecionar Novo ou Editar.](./media/hr-benefits-management-aca-new.png)
 
 3. Defina os campos a seguir.
 
-    | Campo | Descrição |
+    | Campo | descrição |
     |---|---|
     | Organização | Insira um nome para o grupo. |
     | Descrição | Insira uma descrição do grupo. |
@@ -67,7 +67,7 @@ Os grupos de cobertura de Serviços de Saúde Acessíveis ajudam você a gerenci
     | Grupo válido desde | A primeira data em que este registro é válido. |
     | Grupo válido até | A última data em que este registro é válido. Se não houver data de validade, digite **Nunca**. |
 
-    ![Criar um grupo de cobertura](./media/hr-benefits-management-aca-new-group.png)
+    ![Criar um grupo de cobertura.](./media/hr-benefits-management-aca-new-group.png)
 
 4. Selecione **Salvar**.
 
@@ -77,11 +77,11 @@ Os grupos de cobertura de Serviços de Saúde Acessíveis ajudam você a gerenci
 2. Selecione o grupo ao qual funcionários serão atribuídos.
 3. Selecione **Atribuição em massa**.
 
-    ![Selecionar Atribuição em massa](./media/hr-benefits-management-aca-mass-assignment.png)
+    ![Selecionar Atribuição em massa.](./media/hr-benefits-management-aca-mass-assignment.png)
 
 4. Selecione funcionários na lista e, em seguida, **Atribuir**.
 
-    ![Atribuir funcionários selecionados a um grupo](./media/hr-benefits-management-aca-assign-coverage-group.png)
+    ![Atribuir funcionários selecionados a um grupo.](./media/hr-benefits-management-aca-assign-coverage-group.png)
 
 ## <a name="maintain-multiple-versions-of-coverage-options"></a>Manter várias versões de opções de cobertura
 
@@ -111,12 +111,12 @@ Para inserir exceções para valores de um grupo de cobertura de Serviços de Sa
 2. Selecione o funcionário na lista.
 3. Na guia **Emprego**, na seção **Mais informações**, selecione **Cobertura de Serviços de Saúde Acessíveis**.
 
-    ![Alterar opções para um funcionário](./media/hr-benefits-management-aca-change-single-employee.png)
+    ![Alterar opções para um funcionário.](./media/hr-benefits-management-aca-change-single-employee.png)
 
 4. Selecione **Editar**.
 5. Para cada mês que exija alterações, marque a caixa de seleção **Substituir padrão** e altere os outros valores, conforme necessário.
 
-    ![Substituir valores padrão](./media/hr-benefits-management-aca-override-default.png)
+    ![Substituir valores padrão.](./media/hr-benefits-management-aca-override-default.png)
 
 6. Selecione **Salvar**.
 
@@ -131,7 +131,7 @@ Para indicar se um plano de benefícios deve ser relatado, siga estas etapas.
 3. Selecione **Editar**.
 4. Defina a opção **Relatado segundo a Lei de Serviços de Saúde Acessíveis** como **Sim**.
 
-    ![Relatórios de cobertura do plano de saúde](./media/hr-benefits-management-aca-report-coverage.png)
+    ![Relatórios de cobertura do plano de saúde.](./media/hr-benefits-management-aca-report-coverage.png)
 
 5. Selecione **Salvar**.
 
@@ -147,23 +147,23 @@ Você pode gerar formulários 1095-B e 1095-C da ACA e distribuí-los a cada um 
     > [!NOTE]
     > Se você estiver imprimindo formulários 1095-C para mais de 500 funcionários, receberá mais de um arquivo PDF. É recomendável aumentar o valor do campo **Tamanho máximo de arquivo em megabytes** na página **Parâmetros de gerenciamento de documentos** para **150**. (Para abrir rapidamente essa página, você pode usar o campo de pesquisa na barra de navegação.)
     >
-    > ![Alterar o tamanho máximo do arquivo](./media/hr-benefits-management-aca-maximum-file-size.png)
+    > ![Alterar o tamanho máximo do arquivo.](./media/hr-benefits-management-aca-maximum-file-size.png)
 
 3. Para verificar o status dos relatórios e exibi-los, use o campo de pesquisa na barra de navegação para abrir a página **Trabalhos de relatórios eletrônicos**.
 
-    ![Pesquisar a página Trabalhos de relatórios eletrônicos](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
+    ![Pesquisar a página Trabalhos de relatórios eletrônicos.](./media/hr-benefits-management-aca-search-electronic-reporting-jobs.png)
 
 4. Selecione o relatório a ser exibido e, depois, selecione **Mostrar arquivos**.
 
-    ![Mostrar arquivos](./media/hr-benefits-management-aca-show-files.png)
+    ![Mostrar arquivos.](./media/hr-benefits-management-aca-show-files.png)
 
 5. Selecione **Abrir**.
 
-    ![Abrir um arquivo](./media/hr-benefits-management-aca-open-file.png)
+    ![Abrir um arquivo.](./media/hr-benefits-management-aca-open-file.png)
 
 6. Na barra de notificação que aparece na parte inferior da janela do navegador, abra o arquivo zip e selecione o relatório. Você pode exibir ou imprimir o arquivo PDF.
 
-    ![Formulário de exemplo 1095-C](./media/hr-benefits-management-aca-1095-c-form.png)
+    ![Formulário de exemplo 1095-C.](./media/hr-benefits-management-aca-1095-c-form.png)
 
 ## <a name="view-aca-coverage-information"></a>Exibir informações de cobertura de ACA
 
@@ -178,7 +178,7 @@ Para exibir estas informações, siga estas etapas.
 1. No espaço de trabalho **Gerenciamento de benefícios**, selecione **Cobertura de Serviços de Saúde Acessíveis do Trabalhador**.
 2. No campo **Nome do grupo**, selecione um grupo.
 
-    ![Exibir cobertura de ACA](./media/hr-benefits-management-aca-view-coverage.png)
+    ![Exibir cobertura de ACA.](./media/hr-benefits-management-aca-view-coverage.png)
 
 Se algum dos valores padrão do grupo de cobertura de Serviços de Saúde Acessíveis for substituído, um asterisco aparecerá ao lado do valor que foi alterado. Se os valores para todos os 12 meses forem iguais e não tiverem sido substituídos, o valor aparecerá na coluna **Todos os 12 meses**.
 
@@ -198,11 +198,11 @@ Para exportar uma das listas para o Microsoft Excel, siga estas etapas.
 
 Se você precisar relatar as pessoas cobertas porque fornece cobertura autossegurada, poderá exibir os dependentes que são cobertos por planos de benefícios marcados como **Pode ser relatado segundo a ACA**. No Painel de Ações, selecione **Exibir Cobertura de Dependentes**.
 
-![Exibir cobertura de dependente](./media/hr-benefits-management-aca-view-dependent-coverage.png)
+![Exibir cobertura de dependente.](./media/hr-benefits-management-aca-view-dependent-coverage.png)
 
 As informações de cobertura dos dependentes do funcionário são mostradas.
 
-![Cobertura de dependente](./media/hr-benefits-management-aca-dependents.png)
+![Cobertura de dependente.](./media/hr-benefits-management-aca-dependents.png)
 
 > [!NOTE]
 > A página mostra somente os planos de benefícios marcados como **Pode ser relatado segundo a ACA**.

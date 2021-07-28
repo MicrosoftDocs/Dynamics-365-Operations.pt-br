@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: bc170df2fc58ae6b42fbc8834caad0bb7cd16f69
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837768"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351504"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurar o espaço de trabalho móvel Gerenciamento de ativos
 
@@ -47,7 +47,7 @@ Para disponibilizar recursos de gerenciamento de ativos no aplicativo móvel do 
 1. No Supply Chain Management, selecione o botão **Configurações** (o símbolo de engrenagem no canto superior direito) e, em seguida, selecione **Aplicativo móvel** no menu.
 1. Na caixa de diálogo **Gerenciar aplicativo móvel**, localize o bloco **Gerenciamento de ativos**. Se ele contiver o texto "Nos metadados - não publicado", o espaço de trabalho ainda não foi publicado. Se ele contiver o texto "Nos metadados - publicado", o espaço de trabalho já foi publicado e você poderá ignorar o restante deste procedimento.
 
-    ![Caixa de diálogo Gerenciar aplicativo móvel](media/mobile-workspaces.png "Caixa de diálogo Gerenciar aplicativo móvel")
+    ![Caixa de diálogo Gerenciar aplicativo móvel.](media/mobile-workspaces.png "Caixa de diálogo Gerenciar aplicativo móvel")
 
 1. Selecione o bloco **Gerenciamento de ativos** e, em seguida, selecione **Publicar** na barra de ferramentas. Após alguns segundos, você receberá uma notificação informando que o espaço de trabalho foi publicado com êxito. Além disso, o texto no bloco será alterado para "Nos metadados - publicado".
 
@@ -60,22 +60,22 @@ Para disponibilizar recursos de gerenciamento de ativos no aplicativo móvel do 
 
 1. Abra o aplicativo do Finance and Operations (Dynamics 365). A página de entrada será exibida. No campo **Entrar**, insira a URL do Supply Chain Management ou selecione uma URL recente na lista **Ambientes recentes** e, em seguida, toque em **Conectar**.
 
-    ![Página de entrada](media/mobile-app-sign-in.png "Página de entrada")
+    ![Página de entrada.](media/mobile-app-sign-in.png "Página de entrada")
 
 1. Se for solicitado que você confirme a conexão, marque a caixa de seleção **Estou ciente** e toque em **Conectar**.
 1. Na página **Escolher uma conta**, use sua conta Microsoft para entrar no aplicativo móvel.
 
     A página **Espaços de trabalho** será exibida. Ela lista cada espaço de trabalho móvel que foi publicado pela sua instância do Supply Chain Management.
 
-    ![Lista de espaços de trabalho](media/mobile-app-workspaces.png "Lista de espaços de trabalho")
+    ![Lista de espaços de trabalho.](media/mobile-app-workspaces.png "Lista de espaços de trabalho")
 
 1. Se for necessário alterar a entidade legal (empresa), toque no botão Menu (às vezes chamado de hambúrguer ou botão de hambúrguer) no canto superior esquerdo e, em seguida, toque em **Alterar empresa**.
 
-    ![Alterar a entidade legal](media/mobile-app-change-comp.png "Alterar a entidade legal")
+    ![Alterar a entidade legal.](media/mobile-app-change-comp.png "Alterar a entidade legal")
 
 1. Na página **Espaços de trabalho**, selecione o espaço de trabalho com o qual você deseja trabalhar para abri-lo.
 
-    ![Espaço de trabalho móvel de gerenciamento de ativos](media/mobile-app-asset-workspace.png "Espaço de trabalho móvel de gerenciamento de ativos")
+    ![Espaço de trabalho móvel de gerenciamento de ativos.](media/mobile-app-asset-workspace.png "Espaço de trabalho móvel de gerenciamento de ativos")
 
 ## <a name="work-with-the-asset-management-mobile-workspace"></a>Trabalhar com o espaço de trabalho móvel Gerenciamento de ativos
 

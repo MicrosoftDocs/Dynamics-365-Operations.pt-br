@@ -8,18 +8,20 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.custom: 56381
+ms.custom:
+- "56381"
+- intro-internal
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dbcab469e1dc8c139d180abdb7ed0bd8fba488a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: dc73f1bde3407c144dc1cd48283385c19713430e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747726"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349075"
 ---
 # <a name="workflow-system-overview"></a>Visão geral do sistema de fluxo de trabalho
 
@@ -39,7 +41,7 @@ O fluxo de trabalho é um sistema executado no Microsoft Dynamics AX Application
 
 Um fluxo de trabalho representa um processo comercial. Ele define como um documento flui, ou se move, pelo sistema, mostrando quem deve concluir uma tarefa, tomar uma decisão ou aprovar um documento. Por exemplo, a ilustração a seguir mostra um fluxo de trabalho para relatórios de despesas.
 
-![Fluxo de trabalho com elementos que são atribuídos a usuários](./media/workflow_user.gif)
+![Fluxo de trabalho com elementos que são atribuídos a usuários.](./media/workflow_user.gif)
 
 Para entender melhor esse fluxo de trabalho, suponha que Samuel envie um relatório de despesas no valor de US$ 7.000. Nesse cenário, Ivan deve revisar os recibos que Samuel direcionou a ele. Depois, Francisco e Suzana devem aprovar o relatório de despesas. Agora suponha que Samuel envie um relatório de despesas no valor de US$ 11.000. Nesse cenário, Ivan deve revisar os recibos e Francisco, Suzana e Ana devem aprovar o relatório de despesas.
 

@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 6b675d4af6fb9a080f3f3a13e64b2c5b6ad4b783
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8b288a0d6b7516faf635486fbaad885344d2cc6f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022413"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352075"
 ---
 # <a name="provision-a-dynamics-365-commerce-evaluation-environment"></a>Provisionar um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -90,16 +90,16 @@ Para implantar o ambiente, siga estas etapas.
 1. No campo **Versão do aplicativo**, selecione a versão mais recente. Se você tiver uma necessidade específica de selecionar uma versão de aplicativo diferente da versão mais atual, não selecione uma versão antes de **10.0.14.**
 1. No campo **Versão da plataforma**, use a versão da plataforma que é escolhida automaticamente para a versão do aplicativo selecionada. 
 
-    ![Seleção das versões do aplicativo e da plataforma](./media/project1.png)
+    ![Seleção das versões do aplicativo e da plataforma.](./media/project1.png)
 
 1. Selecione **Avançar**.
 1. Selecione **Demonstração** como a topologia do ambiente.
 
-    ![Selecionar a topologia de ambiente 1](./media/project2.png)
+    ![Selecionar a topologia de ambiente 1.](./media/project2.png)
 
 1. Na página **Implantar ambiente**, insira um nome de ambiente. Deixe as configurações avançadas como estão.
 
-    ![Implantar página do ambiente](./media/project4.png)
+    ![Implantar página do ambiente.](./media/project4.png)
 
 1. Ajuste o tamanho da VM, conforme necessário. (Recomendamos a unidade de manutenção de estoque da VM\[SKU\] **D13 v2**.)
 1. Revise os termos de definição de preços e licenciamento e marque a caixa de seleção para indicar que você concorda com eles.

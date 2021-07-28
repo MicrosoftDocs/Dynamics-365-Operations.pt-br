@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f0f1e0f3e7145c66b8f2b082b44ad7035c57d947
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936935"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351167"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar um canal online
 
@@ -55,11 +55,11 @@ Para criar e configurar um novo canal online, siga estas etapas.
 
 A imagem a seguir mostra a criação de um novo canal online.
 
-![Novo canal online](media/channel-setup-online-1.png)
+![Novo canal online.](media/channel-setup-online-1.png)
 
 A imagem a seguir mostra um exemplo de canal online.
 
-![Exemplo de canal online](media/channel-setup-online-2.png)
+![Exemplo de canal online.](media/channel-setup-online-2.png)
 
 ## <a name="set-up-languages"></a>Configurar idiomas
 
@@ -75,7 +75,7 @@ Outras tarefas que são necessárias para a configuração do canal online inclu
 
 A imagem a seguir mostra opções de configuração de **Modos de entrega**, **Métodos de pagamento** e **Atribuição de grupo de orçamento** na guia **Configurar**.
 
-![Outras ações de configuração do canal online](media/channel-setup-online-3.png)
+![Outras ações de configuração do canal online.](media/channel-setup-online-3.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pagamento
 
@@ -90,7 +90,7 @@ Para configurar métodos de pagamento, siga estas etapas para cada tipo de pagam
 
 A imagem a seguir mostra um exemplo de método de pagamento à vista.
 
-![Exemplo de métodos de pagamento](media/channel-setup-retail-5.png)
+![Exemplo de métodos de pagamento.](media/channel-setup-retail-5.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar os modos de entrega
 
@@ -104,7 +104,7 @@ Para alterar ou adicionar um modo de entrega, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de modo de entrega.
 
-![Configurar os modos de entrega](media/channel-setup-retail-7.png)
+![Configurar os modos de entrega.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-a-fulfillment-group-assignment"></a>Configurar uma atribuição de grupo de orçamento
 
@@ -118,7 +118,7 @@ Para configurar uma atribuição de grupo de orçamento, siga estas etapas.
 
 A imagem a seguir mostra um exemplo de configuração de atribuição de grupo de orçamento.
 
-![Configurar atribuição de grupo de orçamento](media/channel-setup-retail-9.png)
+![Configurar atribuição de grupo de orçamento.](media/channel-setup-retail-9.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

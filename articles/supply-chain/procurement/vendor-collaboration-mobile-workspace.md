@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: dabourq
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 8f6affd05e658f39d567f7512c71d944636588ff
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: ad4ba2781c1b1086f2b554ec1db0f0f970d2d671
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907930"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351432"
 ---
 # <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
 
@@ -120,12 +120,12 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 4.  Na primeira vez que você iniciar a sessão, será solicitado a você o nome de usuário e senha. Insira suas credenciais.
 5.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
-    [![Efetue pull para atualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+    [![Efetue pull para atualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="use-the-vendor-collaboration-mobile-workspace"></a>Use a área de trabalho móvel de colaboração de fornecedor
 Quando você selecionar a área de trabalho **Colaboração de fornecedor**, você verá as seguintes opções.
 
-![Espaço de trabalho móvel de colaboração de fornecedores](./media/vendor-collaboration-mobile-app.png)
+![Espaço de trabalho móvel de colaboração de fornecedor.](./media/vendor-collaboration-mobile-app.png)
 
 A área de trabalho **Colaboração de fornecedor** inclui as seguintes páginas.
 

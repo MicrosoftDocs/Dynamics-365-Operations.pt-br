@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: f0e26c63635179dc4c145f8d08e85fd110d9caac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 63363678cb34af97781830d36d94fac1a7415394
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817764"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360865"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management
 
@@ -35,7 +35,7 @@ O tópico discute os modelos e as tarefas subjacentes que são usados para execu
 
 A solução Prospect to cash usa o recurso Integração de dados para sincronizar dados entre as instâncias Supply Chain Management e do Sales. Os modelos de Prospect to cash que estão disponíveis com o recurso Integração de dados permitem o fluxo de dados para contas, contatos, produtos, cotações de venda, ordens de venda e faturas de venda entre o Supply Chain Management e o Sales. A ilustração a seguir mostra como os dados são sincronizados entre o Supply Chain Management e o Sales.
 
-[![Fluxo de dados em Prospect to cash](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
+[![Fluxo de dados em Prospect to cash.](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
@@ -189,23 +189,23 @@ As ilustrações a seguir mostram um exemplo de um mapeamento de modelo na Integ
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderheader"></a>Ordens de Venda (Supply Chain Management para Sales) – Direto: OrderHeader
 
-[![Mapeamento de modelo na Integração de dados](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
+[![Mapeamento de modelo na Integração de dados.](./media/sales-order-direct-template-mapping-data-integrator-1.png)](./media/sales-order-direct-template-mapping-data-integrator-1.png)
 
 ### <a name="sales-orders-supply-chain-management-to-sales---direct-orderline"></a>Ordens de Venda (Supply Chain Management para Sales) – Direto: OrderLine
 
-[![Mapeamento de modelo na integração de dados](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
+[![Mapeamento de modelo na Integração de dados.](./media/sales-order-direct-template-mapping-data-integrator-2.png)](./media/sales-order-direct-template-mapping-data-integrator-2.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderheader"></a>Ordens de Venda (Sales para Supply Chain Management) – Direto: OrderHeader
 
-[![Mapeamento de modelo na integração de dados](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
+[![Mapeamento de modelo na Integração de dados.](./media/sales-order-direct-template-mapping-data-integrator-3.png)](./media/sales-order-direct-template-mapping-data-integrator-3.png)
 
 ### <a name="sales-orders-sales-to-supply-chain-management---direct-orderline"></a>Ordens de Venda (Sales para Supply Chain Management) – Direto: OrderLine
 
-[![Mapeamento de modelo na integração de dados](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
+[![Mapeamento de modelo na Integração de dados.](./media/sales-order-direct-template-mapping-data-integrator-4.png)](./media/sales-order-direct-template-mapping-data-integrator-4.png)
 
 ## <a name="related-topics"></a>Tópicos relacionados
 
-[Cliente potencial ao pagamento à vista](prospect-to-cash.md)
+[De cliente potencial ao pagamento à vista](prospect-to-cash.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

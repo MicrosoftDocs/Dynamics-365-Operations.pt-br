@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5161755b9e15e93fbb5eeb6404ea0820f7068ea7
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09930af8b6ce78a2a88382772a44de173875856a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5796066"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352533"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurar classificações e opiniões
 
@@ -46,7 +46,7 @@ Para configurar um site para exibir avaliações e opiniões, siga estas etapas.
 
 A ilustração a seguir mostra como essa configuração se parece no Dynamics 365 Commerce.
 
-![Configurando um site para exibir classificações e opiniões](media/rnr-eCommerce-site-appsettings.png)
+![Configurando um site para exibir classificações e opiniões.](media/rnr-eCommerce-site-appsettings.png)
 
 ## <a name="link-a-product-rating-to-the-reviews-section-of-a-pdp"></a>Vincule uma avaliação de produto à seção Avaliações de um PDP
 
@@ -60,7 +60,7 @@ Para vincular um produto que avalie a seção **Avaliações** do PDP, rastreie 
 
 A ilustração a seguir mostra como essa configuração se parece no Dynamics 365 Commerce.
 
-![Vinculando uma avaliação de produto à seção Avaliações de um PDP](media/rnr-eCommerce-buy-box-rating-summary.png)
+![Vinculando uma avaliação de produto à seção Avaliações de um PDP.](media/rnr-eCommerce-buy-box-rating-summary.png)
 
 ## <a name="configure-the-link-for-the-privacy-and-policy-page"></a>Configurar o link para a página de privacidade e política
 
@@ -75,7 +75,7 @@ Para configurar o link para a página de privacidade e política, siga estas eta
 
 A ilustração a seguir mostra como essa configuração se parece no Dynamics 365 Commerce.
 
-![Configurando o link para a página de privacidade e política](media/rnr-eCommerce-rnr-privacy-policy-link.png)
+![Configurando o link para a página de privacidade e política.](media/rnr-eCommerce-rnr-privacy-policy-link.png)
 
 ## <a name="configure-ratings-and-reviews-modules-on-product-details-pages"></a>Configurar os módulos de classificações e revisões nas páginas de detalhes do produto
 

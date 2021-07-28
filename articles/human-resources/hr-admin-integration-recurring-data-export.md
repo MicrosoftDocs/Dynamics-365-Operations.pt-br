@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a4a963bcfe5932f5642b43751ccd96c472fec0d9
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ba4f0eca471cf9734230bb2a23d53ff2e233ba2f
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054995"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361206"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Criar um aplicativo de exportação de dados recorrente
 
@@ -63,13 +63,13 @@ Depois de concluir este exercício, você terá um aplicativo lógico conectado 
 
 O aplicativo lógico concluído será semelhante à ilustração a seguir.
 
-![Visão geral do aplicativo lógico](media/integration-logic-app-overview.png)
+![Visão geral do aplicativo lógico.](media/integration-logic-app-overview.png)
 
 ### <a name="step-1-create-a-data-export-project-in-human-resources"></a>Etapa 1: Criar um projeto de exportação de dados em recursos humanos
 
 Em Human Resources, crie um projeto de exportação de dados que exporta trabalhadores. Nomeie o projeto **Exportar trabalhadores**, e certifique-se de que a opção **Gerar pacote de dados** está definida como **Sim**. Adicione uma única entidade (**Trabalhador**) ao projeto e selecione o formato a ser exportado. (O formato Microsoft Excel é usado neste tutorial.)
 
-![Projeto de dados de exportação de trabalhadores](media/integration-logic-app-export-workers-project.png)
+![Projeto de dados de exportação de trabalhadores.](media/integration-logic-app-export-workers-project.png)
 
 > [!IMPORTANT]
 > Lembre o nome do projeto de exportação de dados. Você precisará delas quando criar o aplicativo lógico na próxima etapa.
@@ -80,12 +80,12 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
 
 1. No portal do Azure, crie um aplicativo lógico.
 
-    ![Página de criação lógica de aplicativo](media/integration-logic-app-creation-1.png)
+    ![Página de criação lógica de aplicativo.](media/integration-logic-app-creation-1.png)
 
 2. No designer de aplicativos lógicos, comece com um aplicativo lógico em branco.
 3. Adicione um [Disparador de agenda recorrência](/azure/connectors/connectors-native-recurrence) para executar o aplicativo lógica a cada 24 horas (ou de acordo com um plano de sua escolha).
 
-    ![Caixa de diálogo de recorrência](media/integration-logic-app-recurrence-step.png)
+    ![Caixa de diálogo de recorrência.](media/integration-logic-app-recurrence-step.png)
 
 4. Chame a API REST de DMF [ExportToPackage](../fin-ops-core/dev-itpro/data-entities/data-management-api.md#exporttopackage) para programar a exportação de seu pacote de dados.
 
@@ -97,7 +97,7 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
         > [!NOTE]
         > O serviço de Human Resources ainda não fornece um conector que expõe todas as APIs que compõem a API REST do pacote DMF, como **ExportToPackage**. Em vez disso, você deve chamar as APIs usando solicitações HTTPS brutas por meio do HTTP com o conector Azure AD. Esse conector usa Azure Active Directory (Azure AD) para autenticação e autorização para Human Resources.
 
-        ![HTTP com conector Azure AD](media/integration-logic-app-http-aad-connector-step.png)
+        ![HTTP com conector Azure AD.](media/integration-logic-app-http-aad-connector-step.png)
 
     2. Faça login no seu ambiente de Human Resources por meio do HTTP com o conector Azure AD.
     3. Configure uma solicitação HTTP **LANÇAR** para chamar a API REST de DMF **ExportToPackage**.
@@ -116,21 +116,21 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
             }
             ```
 
-        ![Invocar uma ação de solicitação HTTP](media/integration-logic-app-export-to-package-step.png)
+        ![Invocar uma ação de solicitação HTTP.](media/integration-logic-app-export-to-package-step.png)
 
     > [!TIP]
     > Você pode desejar renomear cada etapa para que seja mais significativo do que o nome padrão, **Invocar uma solicitação HTTP**. Por exemplo, você pode renomear essa etapa **ExportToPackage**.
 
 5. [Inicialize uma variável](/azure/logic-apps/logic-apps-create-variables-store-values#initialize-variable) para armazenar o status de execução da solicitação **ExportToPackage**.
 
-    ![Inicializar ação variável](media/integration-logic-app-initialize-variable-step.png)
+    ![Inicializar ação variável.](media/integration-logic-app-initialize-variable-step.png)
 
 6. Aguarde até que o status da execução da exportação de dados seja **Bem-sucedido**.
 
     1. Adicione um [Até loop](/azure/logic-apps/logic-apps-control-flow-loops#until-loop) que se repita até que o valor da variável **ExecutionStatus** seja **Bem-sucedido**.
     2. Adicionar uma ação de **Atraso** que aguarda cinco segundos antes de sondar o status de execução atual da exportação.
 
-        ![Até contêiner de loop](media/integration-logic-app-until-loop-step.png)
+        ![Até contêiner de loop.](media/integration-logic-app-until-loop-step.png)
 
         > [!NOTE]
         > Defina a contagem de limite como **15** para aguardar um máximo de 75 segundos (15 iterações × 5 segundos) para a exportação ser concluída. Se a exportação levar mais tempo, ajuste a contagem de limites conforme apropriado.        
@@ -146,9 +146,9 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
             > [!NOTE]
             > Talvez seja necessário inserir o **Corpo da solicitação** no modo de exibição de código ou no editor de funções no designer.
 
-        ![Invocar uma ação de solicitação 2 HTTP](media/integration-logic-app-get-execution-status-step.png)
+        ![Invocar uma ação de solicitação 2 HTTP.](media/integration-logic-app-get-execution-status-step.png)
 
-        ![Definir ação variável](media/integration-logic-app-set-variable-step.png)
+        ![Definir ação variável.](media/integration-logic-app-set-variable-step.png)
 
         > [!IMPORTANT]
         > O valor da ação **Definir variável** (**body('Invoke\_an\_HTTP\_request\_2')?['value']**) será diferente do valor para o valor de corpo **Invocar uma solicitação HTTP 2**, embora o designer mostre os valores da mesma forma.
@@ -161,7 +161,7 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
         - **URL da solicitação:** https://\<hostname\>/namespaces/\<namespace\_guid\>/data/DataManagementDefinitionGroups/Microsoft.Dynamics.DataEntities.GetExportedPackageUrl
         - **Corpo da solicitação:** {"executionId": body('GetExportedPackageURL')?['value']}
 
-        ![Ação GetExportedPackageURL](media/integration-logic-app-get-exported-package-step.png)
+        ![Ação GetExportedPackageURL.](media/integration-logic-app-get-exported-package-step.png)
 
 8. Baixe o pacote exportado.
 
@@ -173,7 +173,7 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
             > [!NOTE]
             > Talvez seja necessário inserir o **URI** no modo de exibição de código ou no editor de funções no designer.
 
-        ![Ação OBTER HTTP](media/integration-logic-app-download-file-step.png)
+        ![Ação do SQL.](media/integration-logic-app-download-file-step.png)
 
         > [!NOTE]
         > Essa solicitação não exige nenhuma autenticação adicional, porque a URL que a **GetExportedPackageUrl** retorna inclui um token de assinaturas de acesso compartilhado que concede acesso ao download do arquivo.
@@ -187,7 +187,7 @@ A maior parte do exercício envolve a criação do aplicativo lógico.
         - **Nome do arquivo:** worker\_package.zip
         - **Conteúdo do arquivo:** O corpo da etapa anterior (conteúdo dinâmico)
 
-        ![Criar ação de arquivo](media/integration-logic-app-create-file-step.png)
+        ![Criar ação de arquivo.](media/integration-logic-app-create-file-step.png)
 
 ### <a name="step-3-test-the-logic-app"></a>Etapa 3: Testar o aplicativo lógico
 
@@ -197,7 +197,7 @@ Se uma falha for relatada em qualquer etapa, selecione a etapa com falha no desi
 
 A ilustração a seguir mostra como o designer de aplicativos lógico é parecido quando todas as etapas do aplicativo lógico são executadas com êxito.
 
-![Execução bem-sucedida de aplicativo lógico](media/integration-logic-app-successful-run.png)
+![Execução bem-sucedida de aplicativo lógico.](media/integration-logic-app-successful-run.png)
 
 ## <a name="summary"></a>Resumo
 

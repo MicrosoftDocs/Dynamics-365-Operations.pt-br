@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9634612bcffbcf71b77dbb184e71367c67bac10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 09dd9e2d648bec32d1504175dbb1470751e5c915
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822918"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355170"
 ---
 # <a name="create-dimensions-and-import-dimension-members"></a>Criar dimensões e importar membros da dimensão
 
@@ -36,7 +36,7 @@ Um **Elemento de custo** corresponde a um item relevante a custo no plano de con
 
 O diagrama a seguir ilustra as dimensões usadas na Contabilização de custos.
 
-[![Dimensões na contabilização de custos](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
+[![Dimensões na contabilização de custos.](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)
 
 Depois que dados são importados para a Contabilização de custo, você pode usá-los para construir as várias perspectivas que fornecem ideias a gerentes em todos os níveis da organização. Os seguintes tópicos fornecem informações sobre a criação de dimensões e a importação de membros da dimensão. 
 

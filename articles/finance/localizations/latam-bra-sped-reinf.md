@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: cf0e2986bd2dda8b6bd3070c1f4d21ff88eb040d
-ms.sourcegitcommit: cf8d87ea9333ae2af7db5887771df33b059cf34a
+ms.openlocfilehash: bcef859afac653973d543e22a54f268b762f8cb6
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5979817"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6348867"
 ---
 # <a name="sped-reinf-events"></a>Eventos SPED-Reinf
 
@@ -81,13 +81,13 @@ O processo para gerar cada evento inclui as seguintes etapas.
 2. O serviço Web da autoridade fiscal recebe o lote e valida seu conteúdo.
 3. O serviço Web retorna o resultado do processamento. Se os eventos ou o lote de eventos forem recebidos com êxito, um protocolo de recebimento será retornado. Caso contrário, uma mensagem de erro será exibida. Nesse caso, o contribuinte pode corrigir os erros e reenviar o evento por meio de um novo lote.
 
-![Processo geral](media/bra-general-process.png)
+![Processo geral.](media/bra-general-process.png)
 
 Os eventos são transmitidos às autoridades fiscais usando a funcionalidade Mensagem eletrônica. Essa funcionalidade estabelece um relacionamento bilateral, automatizado e instantâneo entre os serviços da Web e o contribuinte.
 
 As ilustrações a seguir mostram as ações que são realizadas e o status de itens de mensagem que fazem com que cada evento seja aprovado ou rejeitado ao ser fornecido pela primeira vez (Inserção), atualizado (Correção/Atualização) e cancelado ou excluído (Cancelamento/Exclusão).
 
-![Ações de fluxo](media/bra-flow-actions.png)
+![Ações de fluxo.](media/bra-flow-actions.png)
 
 ### <a name="actions"></a>Ações
 
@@ -95,19 +95,19 @@ As ilustrações a seguir mostram as ações que são realizadas e o status de i
 
 Este fluxo é usado para entregar qualquer evento pela primeira vez.
 
-![Inserção](media/bra-insertion-flow.png)
+![Inserção.](media/bra-insertion-flow.png)
 
 **Aditamento/Atualização**
 
-![Atualização](media/bra-amendment-update-flow.png)
+![Atualizar.](media/bra-amendment-update-flow.png)
 
 **Cancelamento/Exclusão**
 
-![Cancelar](media/bra-cancel-delete-flow.png)
+![Cancelar.](media/bra-cancel-delete-flow.png)
 
 **Consultar evento 5011 (do evento R-2099)**
 
-![Consultar evento 5011](media/bra-inquire-event-5011.png)
+![Evento de consulta 5011.](media/bra-inquire-event-5011.png)
 
 ## <a name="booking-period"></a>Período de escrituração
 
@@ -143,30 +143,30 @@ Como as comunicações podem falhar devido a problemas técnicos, como tempo lim
 2. No Painel de Ações, selecione **Executar processamento** e, na caixa de diálogo **Executar processamento**, no campo **Processamento**, selecione **SPED Reinf**.
 3. Defina a opção **Escolher ação** como **Sim** e, em seguida, no campo **Ação**, selecione **Incluir**.
 
-    ![Executar processamento](media/bra-run-processing.png)
+    ![Executar processamento.](media/bra-run-processing.png)
 
 4. Selecione **OK** para confirmar as configurações.
 
     Um item de mensagem do tipo **Informações do contribuinte** é criado e seu status é definido como **Anexado**.
 
-    ![Inserção de itens de mensagem eletrônica](media/bra-electronic-message-items-insertion.png)
+    ![Inserção de itens de mensagem eletrônica.](media/bra-electronic-message-items-insertion.png)
 
 5. Selecione **Executar processamento** novamente e, na caixa de diálogo, no campo **Processamento**, selecione **SPED Reinf**.
 6. Defina a opção **Escolher ação** como **Sim** e, em seguida, no campo **Ação**, selecione **Parâmetros adicionais** para atualizar as informações relacionadas nos campos adicionais.
 
-    ![Parâmetros adicionais de Execução de processamento](media/bra-run-processing-additional-parameters.png)
+    ![Parâmetros adicionais de Execução de processamento.](media/bra-run-processing-additional-parameters.png)
 
-    ![Itens de preparação](media/bra-preparation-items.png)
+    ![Itens de preparação.](media/bra-preparation-items.png)
 
 7. Selecione **OK** para confirmar as configurações. O item de mensagem do tipo **Informações do contribuinte** é atualizado, e o status do item de mensagem é alterado para **Preparado**.
 
-    ![Status de itens de mensagem eletrônica](media/bra-electronic-message-items-status.png)
+    ![Status de itens de mensagem eletrônica.](media/bra-electronic-message-items-status.png)
 
 8. Selecione **Executar processamento** novamente e, na caixa de diálogo, no campo **Processamento**, selecione **SPED Reinf**.
 9. Defina a opção **Escolher ação** como **Sim** e, em seguida, no campo **Ação**, selecione **Gerar** para gerar o XML.
 10. Selecione **OK** para confirmar as configurações. A caixa de diálogo **Gerar relatórios** aparece automaticamente. Na FastTab **Registros a serem incluídos**, nas opções de filtro, a ID do tipo de item de mensagem que está solicitando a geração de um arquivo XML é selecionada no campo **Item de mensagem**.
 
-    ![Gerar relatórios](media/bra-generate-reports.png)
+    ![Gerar relatórios.](media/bra-generate-reports.png)
 
 11. Selecione **OK** para confirmar as configurações. O item de mensagem do tipo **Informações do contribuinte** é atualizado e seu status é alterado para **Gerado**.
 12. Repita essas etapas até concluir todas as ações do fluxo Inserção.
@@ -206,7 +206,7 @@ Para que o evento R-1070 possa ser fornecido, crie o processo relacionado e incl
 
 1. Acesse **Livros fiscais** \> **Periódico** \> **SPED Reinf** \> **Processo administrativo e judicial**.
 
-    ![Processo judicial administrativo](media/bra-administrative-judicial-process.png)
+    ![Processo judicial administrativo.](media/bra-administrative-judicial-process.png)
 
 2. Selecione **Novo** e defina os campos a seguir.
 
@@ -250,7 +250,7 @@ Somente o imposto INSS Retido e o imposto sobre serviços devem ser selecionados
 - O modelo da nota fiscal é **SE**.
 - O tipo de imposto é **INSS** e é retido (ou seja, a caixa de seleção **Imposto retido/a recuperar** é marcada).
 
-    ![Impostos brasileiros](media/bra-brazilian-taxes.png)
+    ![Impostos brasileiros.](media/bra-brazilian-taxes.png)
 
 > [!NOTE]
 > Nunca use o tipo de imposto **INSS-CPRB**.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0b99f668061f429baf56cddb957049833bd74939
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8867eabde5fb0999e0a67f11cfa29e1e4fbc6855
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812730"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359972"
 ---
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Procurar produtos e grades de produtos durante uma entrada de ordem
 
@@ -58,7 +58,7 @@ Ao digitar "fala 05", você não obterá qualquer resultado. Isso porque a pesqu
 Você pode limitar o número de resultados de pesquisa usando o campo **Número de resultados** na página **Vendas e marketing &gt; Configuração &gt; Pesquisa &gt; Parâmetros de pesquisa**. Ao definir esse campo como 0, todos os resultados da pesquisa serão retornados. Ao defini-lo como 10, por exemplo, ele retornará 10 resultados de pesquisa no máximo.
 
 ## <a name="configure-the-product-search"></a>Configurar a pesquisa de produtos
-Antes de usar o recurso de pesquisa de produtos e grades de produtos, siga estas etapas para configurar a pesquisa de produtos. [![3 etapas para configurar a pesquisa de produtos\_AXAppFall](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
+Antes de usar o recurso de pesquisa de produtos e grades de produtos, siga estas etapas para configurar a pesquisa de produtos. [![3 etapas para configurar a pesquisa de produtos\_AXAppFall.](./media/3-steps-to-configure-product-search_axappfall.png)](./media/3-steps-to-configure-product-search_axappfall.png)
 
 ### <a name="step-1-include-all-the-relevant-product-and-product-variant-identifiers-and-dimensions-in-the-search-criteria"></a>1ª etapa: inclua todos os identificadores e dimensões relevantes de produtos e grades de produtos nos critérios de pesquisa
 

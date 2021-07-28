@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: de5d5a02869baf10c831ebdc9034a4e7c9f89b2c
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2db0347b9da164b122082f26b668d681894e2241
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020077"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359235"
 ---
 # <a name="set-up-electronic-messages-for-sped-reinf-events"></a>Definir mensagens eletrônicas para eventos do SPED-Reinf
 
@@ -44,13 +44,13 @@ Para configurar a funcionalidade de mensagem eletrônica para a comunicação de
 
     Você receberá uma notificação sobre o processo de importação. Você também pode atualizar a página manualmente para visualizar o progresso do processo de importação. Quando o processo for concluído, você poderá visualizar a página **Resumo de execução**.
 
-    ![Página Resumo de execução](media/bra-execution-summary-page.png)
+    ![Página Resumo de execução.](media/bra-execution-summary-page.png)
 
 ## <a name="structure-of-electronic-messages"></a>Estrutura de mensagens eletrônicas
 
 Cada evento criado, entregue e recebido é representado por uma mensagem e um item de mensagem.
 
-![Estrutura de mensagens eletrônicas](media/bra-electronic-messages-structure.png)
+![Estrutura de mensagens eletrônicas.](media/bra-electronic-messages-structure.png)
 
 O item de mensagem é representado pela mensagem do evento XLM. Isso inclui as seguintes informações que são armazenadas na mensagem ou atualizada no Finance:
 
@@ -63,21 +63,21 @@ O item de mensagem é representado pela mensagem do evento XLM. Isso inclui as s
 
 Você pode encontrar esta configuração na página **Campos adicionais** (**Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Campos adicionais**).
 
-![Configuração na página Campos adicionais](media/bra-electronic-messaging-additional-fields.png)
+![Configuração na página Campos adicionais.](media/bra-electronic-messaging-additional-fields.png)
 
 > [!NOTE]
 > Não remova esta configuração. Essa configuração está incluída no pacote.
 
 Os tipos de item de mensagem são classificados pelo tipo de evento na página **Tipos de item de mensagem** (**Imposto** \> **Configuração** \> **Mensagem eletrônica** \> **Tipos de item de mensagem**).
 
-![Página Tipos de item de mensagem](media/bra-message-types.png)
+![Página Tipos de item de mensagem.](media/bra-message-types.png)
 
 > [!NOTE]
 > Não remova esta configuração. Essa configuração está incluída no pacote.
 
 - Para configurar a sequência numérica para itens de mensagem, acesse **Imposto \> Configuração \> Parâmetros \> Parâmetros do razão geral** e, na guia **Sequências numéricas**, selecione uma sequência numérica para as referências **Mensagem** e **Item de mensagem**.
 
-![Guia Sequências numéricas na página Parâmetros do razão geral](media/bra-electronic-messages-number-sequences.png)
+![Guia Sequências numéricas na página Parâmetros do razão geral.](media/bra-electronic-messages-number-sequences.png)
 
 > [!NOTE]
 > A sequência numérica deve ser definida como não contínua.
@@ -106,15 +106,15 @@ Sempre que uma mensagem é criada, preparada, validada, entregue ou recebida, a 
 
 - **Preparação dos eventos –** Esta ação é usada para criar e preparar a mensagem XML. Esta ação solicita mais parâmetros, tais como **Data da reserva**, **CNPJ** e **CNPJ raiz**, pois os eventos são gerados com base nessas informações.
 
-    ![Parâmetros de itens de preparação](media/bra-preparation-items.png)
+    ![Parâmetros de itens de preparação.](media/bra-preparation-items.png)
 
 - **Resposta do processo** - Esta ação é usada para atualizar a mensagem entregue quando o governo a aprova usando um número de protocolo. Além disso, a mensagem é atualizada como registrada no site do governo.
 
-    ![Parâmetros de resposta do processo de itens de preparação](media/bra-preparation-items-process-response.png)
+    ![Parâmetros de resposta do processo de itens de preparação.](media/bra-preparation-items-process-response.png)
 
 - **Geração de relatório** – Esta ação é usada para enviar e receber o item de mensagem.
 
-    ![Gerar parâmetros de relatórios](media/bra-generate-reports-parameters.png)
+    ![Gerar parâmetros de relatórios.](media/bra-generate-reports-parameters.png)
 
 > [!NOTE]
 > Não remova esta configuração. Essa configuração está incluída no pacote.
@@ -125,7 +125,7 @@ Antes de uma mensagem ser entregue, configure a validação do esquema XML para 
 
 1. Vá para **Administração da organização** \> **Gerenciamento de documentos** \> **Parâmetros de gerenciamento de documentos** e habilite arquivos .xsd adicionando **XSD** como um novo tipo de arquivo.
 
-    ![Página Parâmetros de gerenciamento de documentos](media/bra-document-management-parameters.png)
+    ![Página Parâmetros de gerenciamento de documentos.](media/bra-document-management-parameters.png)
 
 2. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagem** e selecione **Novo** \> **Arquivo** para anexar os esquemas (arquivos .xsd) às seguintes ações:
 
@@ -135,11 +135,11 @@ Antes de uma mensagem ser entregue, configure a validação do esquema XML para 
 
 3. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagem**, selecione a ação **Preencher** (**Incluir**) e, no campo **Preencher ação de registro**, selecione **Registrar transacões**.
 
-    ![Página Ações de processamento de mensagem](media/bra-message-processing-actions.png)
+    ![Página Ações de processamento de mensagem.](media/bra-message-processing-actions.png)
 
 4. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Configurações de serviços Web** e configure uma conexão de serviços Web e certificados para emitir e consultar eventos.
 
-    ![Página Configurações de serviços Web](media/bra-web-service-settings.png)
+    ![Página Configurações de serviços Web.](media/bra-web-service-settings.png)
 
 > [!NOTE]
 > Nas configurações do **SPED Reinf assíncrono**, inclua o endereço do serviço Web para consultar o evento R-5011.

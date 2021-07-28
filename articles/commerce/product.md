@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a1a25e3d5bc1cc5c1c7509186451fdfef50dd6cf
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792330"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352123"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Adicionar recomendações de produtos no PDV
 
@@ -39,7 +39,7 @@ As recomendações de produtos são habilitadas para os seguintes cenários de P
 
     - Se um associado da loja acessa uma página de **Detalhes de produto** ao procurar por transações anteriores entre diferentes canais, o serviço de recomendações sugere itens adicionais que provavelmente podem ser comprados juntos.
 
-    [![Recomendações na página Detalhes do produto](./media/proddetails.png)](./media/proddetails.png)
+    [![Recomendações na página Detalhes do produto.](./media/proddetails.png)](./media/proddetails.png)
 
 2. Na página **Transação**:
 
@@ -48,7 +48,7 @@ As recomendações de produtos são habilitadas para os seguintes cenários de P
     > [!NOTE]
     > Para exibir recomendações na página **Transação**, o varejista precisa atualizar o layout da tela no Dynamics 365 Commerce. O controle das **Recomendações** deve ser colocado na página de **Transação**.
 
-    [![Recomendações na página Transação](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![Recomendações na página Transação.](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
 ## <a name="configure-commerce-to-enable-pos-recommendations"></a>Configurar o Commerce para permitir recomendações PDV
 

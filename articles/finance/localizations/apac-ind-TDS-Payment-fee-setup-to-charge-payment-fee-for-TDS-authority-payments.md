@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: b52331bb1c7a1bc2c764008112f3df9cc0385995
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9213827ea1ad342beb7ac2fe586606651cfdcfa1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023043"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358425"
 ---
 # <a name="set-up-payment-fees-for-tds-authority-payments"></a>Configurar taxas de pagamento para pagamentos de autoridade TDS
 
@@ -31,7 +31,7 @@ Este tópico explica como configurar taxas de pagamento que são cobradas para p
 
 1. Vá para **Contas a pagar \> Configurar pagamento \> Taxa de pagamento**.
 
-    [![Página Taxa de pagamento](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
+    [![Página Taxa de pagamento.](./media/apac-ind-TDS-28.png)](./media/apac-ind-TDS-28.png)
 
 2. Selecione **Novo** para criar uma taxa de pagamento e insira os detalhes necessários.
 3. No campo **Tipo de taxa**, selecione o tipo de taxa de pagamento:
@@ -46,7 +46,7 @@ Este tópico explica como configurar taxas de pagamento que são cobradas para p
 5. Insira os outros detalhes necessários.
 6. No Painel de Ações, selecione **Configuração de taxa de pagamento** para abrir a página **Configuração de taxa de pagamento**, onde você pode configurar taxas de pagamento para várias combinações de bancos, métodos de pagamento, especificações de pagamento, moedas e intervalos de data.
 
-    [![Página Configuração de taxa de pagamento](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
+    [![Página Configuração de taxa de pagamento.](./media/apac-ind-TDS-21.png)](./media/apac-ind-TDS-21.png)
 
 7. Na guia **Visão geral**, no campo **Agrupamentos**, especifique para quais bancos você está configurando a taxa de pagamento:
 
@@ -64,7 +64,7 @@ Este tópico explica como configurar taxas de pagamento que são cobradas para p
 15. No campo **Moeda da taxa**, especifique o código da moeda para a taxa.
 16. Selecione a guia **Geral** para exibir ou modificar os detalhes da conta bancária selecionada.
 
-    [![Guia Geral](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
+    [![Guia Geral.](./media/apac-ind-TDS-22.png)](./media/apac-ind-TDS-22.png)
 
 16. No campo **Mínimo**, insira o valor mínimo da transação que ativa a taxa.
 17. No campo **Máximo**, insira o valor máximo da transação que ativa a taxa.
@@ -74,7 +74,7 @@ Este tópico explica como configurar taxas de pagamento que são cobradas para p
 21. No campo **Grupo de impostos do item**, selecione o grupo de impostos do item a ser usado para calcular o imposto do item para o valor da taxa.
 22. Selecione a guia **Intervalo**. 
 
-    [![Guia Intervalo](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
+    [![Guia Intervalo.](./media/apac-ind-TDS-23.png)](./media/apac-ind-TDS-23.png)
 
 23. No campo **Dias**, insira o número de dias entre a data de lançamento (data de desconto) do pagamento e a data de vencimento da nota promissória.
 24. No campo **Porcentagem/valor**, selecione se a especificação é uma porcentagem ou um valor definido.

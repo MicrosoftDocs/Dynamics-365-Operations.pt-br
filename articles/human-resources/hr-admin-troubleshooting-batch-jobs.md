@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-23
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: a5aeaeb7311d87a154882b7058b6da430900bd56
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 13482ab7b9ee6303138a7a5e82dce78138e0b8ed
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053458"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357304"
 ---
 # <a name="optimize-performance-by-scheduling-batch-jobs-after-hours"></a>Otimizar o desempenho agendando trabalhos em lotes após o expediente
 
@@ -51,11 +51,11 @@ Os trabalhos em lotes a seguir devem ser executados à noite ou depois do expedi
 
 3. Selecione **Executar em segundo plano** e, depois, **Recorrência**.
 
-   ![Definir a recorrência](media/talent-batch-history-cleanup-recurrence.png)
+   ![Definir a recorrência.](media/talent-batch-history-cleanup-recurrence.png)
 
 4. Em **Definir a recorrência**, defina a **Data inicial** e a **Hora inicial** para ocorrer fora do horário comercial ou no final de semana. Selecione **Sem data de término**. 
 
-   ![Definir a data e a hora de início da recorrência](media/talent-batch-history-cleanup-define-recurrence.png)
+   ![Definir a data e a hora de início da recorrência.](media/talent-batch-history-cleanup-define-recurrence.png)
 
 5. Selecione **OK**.
 

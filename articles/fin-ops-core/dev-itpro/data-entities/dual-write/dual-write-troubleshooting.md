@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 8c2ae3368db47363a65e8ecd6317bb0432829802
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350731"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -44,16 +44,16 @@ Depois de instalar a ferramenta do Package Deployer, instale o pacote de soluç�
 
 1. Baixe o arquivo de pacote de solução mais recente de Yammer.com. Depois que o arquivo zip do pacote for baixado, clique nele com o botão direito do mouse e selecione **Propriedades**. Marque caixa de seleção **Desbloquear** e selecione **Aplicar**. Se você não vir a caixa de seleção **Desbloquear**, o arquivo zip já está desbloqueado e você pode ignorar essa etapa.
 
-    ![Caixa de diálogo de propriedades](media/unblock_option.png)
+    ![Caixa de diálogo de propriedades.](media/unblock_option.png)
 
 2. Extraia o arquivo compactado no pacote e copie todos os arquivos na pasta **Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438**.
 
-    ![Conteúdo da pasta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438](media/extract_package.png)
+    ![Conteúdo da pasta Dynamics365FinanceAndOperationsCommon.PackageDeployer.2.0.438.](media/extract_package.png)
 
 3. Cole todos os arquivos copiados na pasta **Ferramentas** da ferramenta Package Deployer. 
 4. Execute **PackageDeployer.exe** para selecionar o ambiente Dataverse e instale as soluções.
 
-    ![Conteúdo da pasta Ferramentas](media/paste_copied_files.png)
+    ![Conteúdo da pasta Ferramentas.](media/paste_copied_files.png)
 
 ## <a name="enable-and-view-the-plug-in-trace-log-in-dataverse-to-view-error-details"></a><a id="enable-view-trace"></a>Habilite e exiba o log de rastreamento de plug-in no Dataverse para exibir detalhes do erro
 

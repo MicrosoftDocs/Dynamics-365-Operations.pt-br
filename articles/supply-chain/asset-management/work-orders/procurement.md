@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 18556e35d63ea20b181c525b758788dc0f89f701
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3e01dd85cbe8e2b2c9095431f3e0aead817a5a5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842216"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352753"
 ---
 # <a name="procurement"></a>Compras
 
@@ -36,7 +36,7 @@ A página de listagem **Requisição de compra de ordem de serviço** (**Gerenci
 
 A ilustração abaixo mostra um exemplo da página de listagem **Requisição de compra da ordem de serviço**.
 
-![Figura 1](media/08-work-orders.png)
+![Figura 1.](media/08-work-orders.png)
 
 
 A página de listagem **Compra de ordem de serviço** (**Gerenciamento de ativos** > **Comum** > **Compras** > **Requisição de compra de ordem de serviço**) mostra uma lista de ordens de compra que estão relacionadas a ordens de serviço. Ao selecionar um trabalho de ordem de serviço nessa página, você pode usar os botões no grupo **Exibir** na guia Painel de ações da **Compra da ordem de serviço** para realizar várias ações:
@@ -47,7 +47,7 @@ A página de listagem **Compra de ordem de serviço** (**Gerenciamento de ativos
 
 A ilustração a seguir mostra um exemplo da página de listagem **Compra da ordem de serviço**.
 
-![Figura 2](media/09-work-orders.png)
+![Figura 2.](media/09-work-orders.png)
 
 
 Na página de listagem **Compra da ordem de serviço** e **Requisição de compra da ordem de serviço**, um símbolo relacionado ao controle da data de entrega aparece do lado direito de cada linha. Se o símbolo for um ponto de exclamação em um círculo vermelho, a entrega da ordem de compra ou requisição de compra relacionada pode sofrer atrasos.
@@ -93,7 +93,7 @@ Para visualizar ou inserir o número da atividade relacionada à linha da ordem 
 
 A ilustração abaixo mostra um exemplo da página **Ordem de compra**, com enfoque no **Número da atividade**.
 
-![Figura 3](media/10-work-orders.png)
+![Figura 3.](media/10-work-orders.png)
 
 Da mesma forma, para visualizar ou inserir o número da atividade relacionada à linha da requisição de compra da ordem de serviço, na página de listagem **Requisição de compra da ordem de serviço**, selecione o registro de requisição de compra e, na coluna **Requisição de compra**, selecione o link para a requisição de compra. Você pode localizar o campo **Número da atividade** na guia **Projeto** na Guia Rápida **Detalhes da linha**.
 

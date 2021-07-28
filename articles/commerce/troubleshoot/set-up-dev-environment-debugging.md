@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 38a616c418c3b32490c9adaf69a69af0d47d3478
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 892f8001c52cd40d748c81f27c2f83618b84e5c2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019437"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350393"
 ---
 # <a name="set-up-an-e-commerce-development-environment-to-debug-against-a-tier-1-retail-server-virtual-machine"></a>Configurar um ambiente de desenvolvimento de comércio eletrônico para depurar em uma máquina virtual do servidor de varejo de nível 1
 
@@ -38,11 +38,11 @@ Quando você depura um ambiente de nível 1, porque o site agora está chamando 
 
 A ilustração a seguir mostra um exemplo de um erro que pode ocorrer quando uma variante está selecionada em uma página de detalhes do produto.
 
-![Erro quando uma grade é selecionada em uma página de detalhes do produto](media/unhandled-rejection-error.jpg)
+![Erro quando uma grade é selecionada em uma página de detalhes do produto.](media/unhandled-rejection-error.jpg)
 
 A ilustração a seguir mostra um exemplo de erro semelhante em ferramentas de depuração de um navegador (Ferramentas para Desenvolvedores F12). A mensagem de erro menciona violação da diretiva da política de segurança de conteúdo.
 
-![Erro nas ferramentas do depurador](media/debugger-tools-error.JPG)
+![Erro nas ferramentas do depurador.](media/debugger-tools-error.JPG)
 
 ## <a name="resolution"></a>Resolução
 

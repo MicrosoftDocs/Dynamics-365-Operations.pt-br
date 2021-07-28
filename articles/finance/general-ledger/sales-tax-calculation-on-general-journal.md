@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: EricWang
 ms.search.validFrom: 2019-08-14
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: d0cb4b282fe2bd5c68af17c741787c4caca98003
-ms.sourcegitcommit: 593438a145672c55ff6a910eabce2939300b40ad
+ms.openlocfilehash: c019c597f4734f92f5d9aacdff1cbb30f9fb0a60
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5937297"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358824"
 ---
 # <a name="sales-tax-calculation-on-general-journal-lines"></a>Cálculo de imposto nas linhas do diário geral
 [!include [banner](../includes/banner.md)]
@@ -55,7 +55,7 @@ Caso contrário, a direção do imposto será Imposto a Receber.
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas do projeto](media/Sales-Tax-Direction-Vendor.jpg)
+![Possibilidades de direção do imposto para contas do projeto.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-vendor"></a>Tipo de conta é Fornecedor
 
@@ -73,7 +73,7 @@ Caso contrário, a direção do imposto será Imposto a Receber.
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas de fornecedor](media/Sales-Tax-Direction-Vendor.jpg)
+![Possibilidades de direção do imposto para contas de fornecedor.](media/Sales-Tax-Direction-Vendor.jpg)
 
 ### <a name="account-type-is-customer"></a>Tipo de conta é Cliente
 
@@ -89,7 +89,7 @@ Caso contrário, a direção do imposto será Imposto a Pagar.
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas de cliente](media/Sales-Tax-Direction-Customer.jpg)
+![Possibilidades de direção do imposto para contas de cliente.](media/Sales-Tax-Direction-Customer.jpg)
 
 ### <a name="account-type-is-ledger"></a>Tipo de conta é Razão
 
@@ -103,7 +103,7 @@ Caso contrário, se o valor do diário for débito (positivo), a direção do im
 
 O diagrama a seguir ilustra a regra graficamente.
 
-![Possibilidades de direção do imposto para contas de razão](media/Sales-Tax-Direction-Ledger.jpg)
+![Possibilidades de direção do imposto para contas de razão.](media/Sales-Tax-Direction-Ledger.jpg)
 
 #### <a name="override-the-sales-tax-direction"></a>Substituir a direção do imposto
 
@@ -115,7 +115,7 @@ Vá para **Contabilidade \> Plano de contas \> Contas \> Contas principais** e s
 
 Esta seção descreve como o valor do sinal do imposto é calculado.
 
-![Página Transações de imposto](media/sales-tax-amount-sign.jpg)
+![Página Transações de imposto.](media/sales-tax-amount-sign.jpg)
 
 A tabela a seguir mostra a regra genérica para determinar a direção do imposto e o sinal de valores do imposto na tabela temporária de impostos.
 

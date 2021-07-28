@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6941a38e96520befd3bdba65956d45a6bbaee4be
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: 115eaad4f11fc4fb5321f0d8bb9d4f5a9f2f2c7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306380"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358584"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -33,15 +33,15 @@ Quando um ecossistema comercial é formado por aplicativos do Dynamics 365, como
 
 Este é o modelo de dados do produto do Sales.
 
-![Modelo de dados de produtos no CE](media/dual-write-product-4.jpg)
+![Modelo de dados de produtos no CE.](media/dual-write-product-4.jpg)
 
 Este é o modelo de dados do produto de aplicativos do Finance and Operations.
 
-![Modelo de dados de produtos no Finance and Operations](media/dual-write-products-5.jpg)
+![Modelo de dados de produtos no Finance and Operations.](media/dual-write-products-5.jpg)
 
 Esses dois modelos de dados de produtos foram integrados no Dataverse conforme mostrado a seguir.
 
-![Modelo de dados de produtos em aplicativos do Dynamics 365](media/dual-write-products-6.jpg)
+![Modelo de dados de produtos em aplicativos do Dynamics 365.](media/dual-write-products-6.jpg)
 
 Os mapas de tabelas de gravação dupla de produtos foram desenvolvidos para transmitir dados somente em uma direção, quase que em tempo real, de aplicativos do Finance and Operations para o Dataverse. Entretanto, a infraestrutura do produto foi aberta para torná-la bidirecional, se necessário. Embora você possa personalizá-los, o que é feito por sua conta e risco, a Microsoft não recomenda essa abordagem.
 
@@ -86,7 +86,7 @@ Como o produto é representados como uma SKU, os conceitos de produtos distintos
 - **Produtos mestres** são usados como produtos genéricos que detêm a definição e as regras que determinam o comportamento em processos comerciais. Com base nessas definições, é possível gerar produtos distintos que são conhecidos como grades de produtos. Por exemplo, Camiseta é o produto mestre, que pode ter as dimensões Cor e Tamanho. Podem ser liberadas variações com diferentes combinações dessas dimensões, como uma camiseta azul pequena ou uma camiseta verde média. Na integração, é criada uma linha por grade na tabela de produtos. Essa linha contém informações específicas da grade, como as diferentes dimensões. As informações genéricas do produto são armazenadas na tabela **msdyn\_sharedproductdetails**. (Estas informações genéricas são mantidas no produto mestre.) As informações do produto mestre são sincronizadas com o Dataverse assim que o produto mestre liberado é criado (mas antes da liberação das variações).
 - **Produtos distintos** refere-se a todos os produtos com o subtipo produto e todas as grades de produtos. 
 
-![Modelo de dados de produtos](media/dual-write-product.png)
+![Modelo de dados de produtos.](media/dual-write-product.png)
 
 Com a funcionalidade de gravação dupla habilitada, os produtos do Finance and Operations serão sincronizados em outros produtos do Dynamics 365 no estado **Rascunho**. Eles são adicionados à primeira lista de preços com a mesma moeda. Ou seja, eles são adicionados à primeira lista de preços em um aplicativo do Dynamics 365 que corresponda à moeda da tabela legal em que o produto é lançado em um aplicativo do Finance and Operations. Se não houver uma lista de preços para a moeda especificada, uma lista de preços será criada automaticamente e o produto será atribuído a ela. 
 
@@ -112,7 +112,7 @@ A sincronização de produtos ocorre no aplicativo do Finance and Operations com
 
 As dimensões do produto são características que identificam uma grade de produto. As quatro dimensões do produto (Cor, Tamanho, Estilo e Configuração) também são mapeadas para o Dataverse para definir as grades de produtos. A ilustração a seguir mostra o modelo de dados para a dimensão do produto Cor. O mesmo modelo é aplicado a Tamanhos, Estilos e Configurações. 
 
-![Modelo de dados para dimensões de produto](media/dual-write-product-two.png)
+![Modelo de dados para dimensões de produto.](media/dual-write-product-two.png)
 
 [!include [product colors](includes/EcoResProductColorEntity-msdyn-productcolor.md)]
 
@@ -148,7 +148,7 @@ As configurações de ordem padrão definem o local e o depósito de onde os ite
 
 As unidades de medida e sua respectiva conversão estão disponíveis no Dataverse seguindo o modelo de dados exibido no diagrama.
 
-![Modelo de dados para unidade de medida](media/dual-write-product-three.png)
+![Modelo de dados para unidade de medida.](media/dual-write-product-three.png)
 
 O conceito de unidade de medida é integrado entre os aplicativos do Finance and Operations e outros aplicativos do Dynamics 365. Para cada classe de unidade em um aplicativo do Finance and Operations, é criado um grupo de unidades em um aplicativo do Dynamics 365, que contém as unidades que pertencem à classe de unidade. Uma unidade base padrão também é criada para cada grupo de unidades. 
 

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 64b228954c040050f605d60cd416c112f3b12e25
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f00ca2748c3c8f7ec839069f21a5846377b6be04
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802036"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349543"
 ---
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>Conectar periféricos ao ponto de venda (PDV)
 
@@ -78,7 +78,7 @@ Enquanto a estação de hardware em si especificada no nível de canal inclui in
 
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS com dispositivos periféricos conectados
 
-[![Ponto de venda fixo tradicional](./media/traditional-300x279.png)](./media/traditional.png)
+[![Ponto de venda fixo tradicional.](./media/traditional-300x279.png)](./media/traditional.png)
 
 Para conectar os MPOS periféricos POS em um cenário de POS tradicional fixo, primeiro navegue até o registro em si e atribua um perfil de hardware a ele. Você pode encontrar os terminais de PDV em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Terminais**. 
 
@@ -97,7 +97,7 @@ Por fim, no MPOS, use a operação **Selecionar estação de hardware** para sel
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Os MPOS ou nuvem POS com uma estação de hardware independente
 
-[![Periféricos compartilhados](./media/shared-300x254.png)](./media/shared.png)
+[![Periféricos compartilhados.](./media/shared-300x254.png)](./media/shared.png)
 
 Nesse cenário, uma estação de hardware independente é compartilhada entre clientes MPOS e POS de nuvem. Esse cenário requer que você crie um perfil de estação de hardware para especificar o pacote de download, a porta e o perfil de hardware que a estação de hardware usa. Você pode localizar o perfil do Hardware Station em **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis do Hardware Station**. 
 

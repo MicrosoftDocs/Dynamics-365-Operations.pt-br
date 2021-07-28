@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage, PurchReqConsolidationPartByVendor, PurchReqConsolidationLineDetail, PurchReqConsolidationCreate, PurchReqConsolidationBulkEdit, PurchReqConsolidationAddLine
 audience: Application User
 ms.reviewer: kamaybac
-ms.custom: 2174
+ms.custom:
+- "2174"
+- intro-internal
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e067c9df91894c5d2ce05a6afb92d1fadc954531
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: d8bde73d424e72ad66c27decd11a3b866d02b48c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188188"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349785"
 ---
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
@@ -47,7 +49,7 @@ Quando você cria uma requisição de compra, um status é atribuído à ela. Um
 
 O diagrama a seguir mostra os status que são atribuídos a uma requisição de compra e a uma linha da requisição de compra à medida que elas passam pelo processo de fluxo de trabalho.  
 
-[![Status do cabeçalho e da linha da requisição de compra](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Status do cabeçalho e da linha da requisição de compra.](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Cabeçalho da requisição de compra e relacionamentos de status da linha
 
@@ -179,7 +181,7 @@ Para criar uma ordem de compra para as linhas da requisição de compra não qua
 
 O processo de consolidação de demanda se inicia quando uma requisição de compra é aprovada em um fluxo de trabalho e, se o controle de orçamento estiver configurado para sua organização, quando as reservas de orçamento e os pré-ônus são registrados. O diagrama a seguir mostra o fluxo de processo para consolidação de demanda.  
 
-[![Fluxo do processo para consolidação de demanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
+[![Fluxo do processo para consolidação de demanda.](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 

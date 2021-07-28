@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: fd48a04612159cbe29a2cc7cafea1c9c4c8745b4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 6b46f2d08c8cee14baa1879b4fd2c02a2e0432f1
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795420"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357801"
 ---
 # <a name="shipping-address-module"></a>Módulo de endereço de remessa
 
@@ -37,13 +37,13 @@ Embora o módulo de endereço de remessa não forneça validação de endereço,
 
 A ilustração a seguir mostra um exemplo de um novo módulo de endereço de remessa em uma página de finalização de compra.
 
-![Exemplo de um módulo de endereço de remessa em uma página de finalização de compra](./media/ecommerce-shippingaddress.PNG)
+![Exemplo de um módulo de endereço de remessa em uma página de finalização de compra.](./media/ecommerce-shippingaddress.PNG)
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
 | Nome da propriedade | Valores | descrição |
 |---------------|--------|-------------|
-| Cabeçalho | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título opcional para o módulo de endereço de remessa. |
+| Título | Texto do cabeçalho e uma tag do cabeçalho (**H1**, **H2**, **H3**, **H4**, **H5** ou **H6**) | Um título opcional para o módulo de endereço de remessa. |
 | Mostrar tipo de endereço | **Verdadeiro** ou **Falso** | Se essa propriedade opcional for definida como **Verdadeira**, um tipo de endereço, como **Residencial** ou **Comercial**, será exibido. Se nenhum tipo de endereço for especificado, o endereço será salvo automaticamente como **Tipo**=**Outro**. |
 | Habilitar a sugestão automática| **Verdadeiro** ou **Falso** | Se essa propriedade opcional for definida como **Verdadeira**, sugestões de endereço automático serão fornecidas. Essas sugestões são desenvolvidas pelo Bing Maps. Para obter informações sobre como configurar a integração do Bing Maps para seu site, consulte [Módulo do seletor de armazenamento](store-selector.md). Este recurso está disponível a partir da versão 10.0.15 do Commerce.|
 |Opções de sugestão automática| Um número| Se as sugestões de endereço automático estiverem habilitadas, você poderá especificar opções adicionais, como o número máximo de sugestões que devem ser fornecidas.|

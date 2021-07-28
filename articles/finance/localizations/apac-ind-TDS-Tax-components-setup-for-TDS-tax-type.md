@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 6e0a6a05fcb4afb8c8965e25c3089bc1b3d98431
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 70e57a928ecd3f5d10ebd3d0fc3f52870d40fcd9
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023023"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358161"
 ---
 # <a name="set-up-tax-components-for-the-tds-tax-type"></a>Configurar os componentes de imposto para o tipo de imposto TDS
 
@@ -33,7 +33,7 @@ Siga estas etapas para configurar os componentes do TDS.
 
 1. Vá para **Imposto \> Configuração \> Imposto retido na fonte \> Componentes de imposto retido na fonte**.
 
-    [![Página Componentes de imposto retido na fonte](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
+    [![Página Componentes de imposto retido na fonte.](./media/apac-ind-TDS-9.png)](./media/apac-ind-TDS-9.png)
 
 2. No campo **Tipo de imposto**, selecione **TDS** para configurar componentes de imposto retido na fonte para o tipo de imposto TDS.
 3. No Painel de Ações, selecione **Novo** para criar uma linha.
@@ -50,7 +50,7 @@ Siga estas etapas para configurar os componentes do TDS.
 
     Por exemplo, se o valor do limite de exceção for 5.000, o TDS será calculado em uma linha de fatura específica se o valor da linha da fatura exceder 5.000 (em outras palavras, se for 5.001 ou mais).
 
-    [![Página Limite](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
+    [![Página Limite.](./media/apac-ind-TDS-10.png)](./media/apac-ind-TDS-10.png)
 
     > [!NOTE]
     > O valor do limite de exceção deve ser menor ou igual ao valor do limite.
@@ -66,6 +66,6 @@ Siga estas etapas para configurar os componentes do TDS.
 
 14. Selecione **OK** para copiar e criar componentes do TDS para o outro grupo de componentes do TDS na página **Componentes de imposto retido na fonte**.
 
-    [![Caixa de diálogo Copiar componentes de imposto retido na fonte](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
+    [![Caixa de diálogo Copiar componentes de imposto retido na fonte.](./media/apac-ind-TDS-11.png)](./media/apac-ind-TDS-11.png)
 
 15. Feche a página.

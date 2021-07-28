@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 0a494a36d1d8fa55521c416efd4262d860e1a708
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022827"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356821"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -38,7 +38,7 @@ Ao provisionar um ambiente de comércio eletrônico no [Microsoft Dynamics Lifec
 
 A ilustração a seguir mostra a tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada. 
 
-![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada](./media/Domains_ProvisioningeCommerceScreen_publish.png)
+![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
 Você pode criar uma solicitação de serviço para adicionar outros domínios a um ambiente se o provisionamento já tiver ocorrido. Para criar uma solicitação de serviço no LCS, no seu ambiente, vá para **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
 
@@ -56,7 +56,7 @@ Ao configurar um site pela primeira vez no construtor de sites, a caixa de diál
 
 A ilustração a seguir mostra a caixa de diálogo **Configurar seu Site** de um site denominado "padrão" quando você acessa o site pela primeira vez no construtor de sites.
 
-![Caixa de diálogo **Configurar seu Site**](./media/Domains_SetupyoursiteScreen.png)
+![Caixa de diálogo **Configurar seu Site**.](./media/Domains_SetupyoursiteScreen.png)
 
 A caixa **Selecionar um domínio** permite que você associe um dos nomes de host com suporte fornecidos para o seu site no LCS ao seu site no construtor de sites.
 
@@ -79,11 +79,11 @@ Depois que o seu site for configurado com um caminho, todas as URLs associadas �
 
 A ilustração a seguir mostra a caixa de diálogo **Nova URL** no construtor de sites com um exemplo de caminho de URL realçado. 
 
-![Caixa de diálogo **Nova URL** no construtor de sites](./media/Domains_PageSetup2a.png)
+![Caixa de diálogo **Nova URL** no construtor de sites.](./media/Domains_PageSetup2a.png)
 
 A ilustração a seguir mostra a página **URLs** no construtor de sites com um exemplo de URL realçado na lista.
 
-![Executar a opção do fluxo de usuário no fluxo da política](./media/Domains_URLsInSiteBuilder2a.png)
+![Executar a opção do fluxo de usuário no fluxo da política.](./media/Domains_URLsInSiteBuilder2a.png)
 
 ## <a name="domains-in-site-builder"></a>Domínios no construtor de sites
 

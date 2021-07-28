@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 8229dc84040b1f3bd46d75c13795f0dc9b7e71f1
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: 105fdc1b8e8c9e30c0d305894910194591707193
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897759"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356694"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
@@ -33,18 +33,18 @@ A funcionalidade existente para diários financeiros (diário geral, diário de 
 
 - Configurar o nome do diário (**Contabilidade** \> **Configuração do diário** \>**Nomes de diário**), de forma que o campo **Novo comprovante** seja definido como **Apenas um número de comprovante**. Cada linha que você adiciona ao diário agora será incluída no mesmo comprovante. Portanto, o comprovante poderá ser inserido como um comprovante multilinha, como uma conta/contrapartida na mesma linha, ou como uma combinação.
 
-    [![Linha única](./media/same-line.png)](./media/same-line.png)
+    [![Linha única.](./media/same-line.png)](./media/same-line.png)
 
     > [!IMPORTANT]
     > A definição de Um comprovante **não** cobre casos onde nomes de diários são definidos como **Apenas um número de comprovante**, mas o usuário insere um comprovante que inclui apenas tipos de contas contábeis. Neste tópico, 'Um comprovante' significa que há um comprovante que contém mais de um fornecedor, cliente, banco, ativo fixo ou projeto.
 
 - Entre em um comprovante combinado onde não haja contrapartida.
 
-    [![Comprovante combinado](./media/Multi-line.png)](./media/Multi-line.png)
+    [![Comprovante combinado.](./media/Multi-line.png)](./media/Multi-line.png)
 
 - Entre em um comprovante onde a conta e a contrapartida contêm um tipo de conta de diário-razão auxiliar, como **Fornecedor**/**Fornecedor**, **Cliente**/**Cliente**, **Fornecedor**/**Cliente** ou **Banco**/**Banco**.
 
-    [![Comprovante do diário-razão auxiliar](./media/subledger.png)](./media/subledger.png)
+    [![Comprovante do diário-razão auxiliar.](./media/subledger.png)](./media/subledger.png)
 
 ## <a name="issues-with-one-voucher"></a>Problemas com Um comprovante único
 
@@ -52,11 +52,11 @@ A funcionalidade Um comprovante único causa problemas durante liquidação, cá
 
 Por exemplo, você lança o seguinte comprovante combinado.
 
-[![Exemplo de um comprovante de várias linhas](./media/example.png)](./media/example.png)
+[![Exemplo de um comprovante de várias linhas.](./media/example.png)](./media/example.png)
 
 Em seguida, você gera o relatório **Despesas por fornecedor** no espaço de trabalho **Insights financeiros**. Neste relatório, saldos da conta de despesa são agrupados por grupo de fornecedor e depois, fornecedor. Ao gerar o relatório, o sistema não pode determinar em quais grupos de fornecedores/fornecedor incorreu a despesa de 250,00. Como os detalhes da transação estão faltando, o sistema assume os 250,00 inteiros de despesa incorridos pelo primeiro fornecedor encontrado no comprovante. Portanto, os 250,00 de despesa, que estão incluídos no saldo da conta principal 600120, são mostrados naquele grupo de fornecedores/fornecedor. No entanto, é muito é provável que o primeiro fornecedor do comprovante não seja o fornecedor correto. Portanto, provavelmente o relatório está incorreto.
 
-[![Relatório de despesas por fornecedor](./media/expenses.png)](./media/expenses.png)
+[![Relatório de despesas por fornecedor.](./media/expenses.png)](./media/expenses.png)
 
 ## <a name="the-future-of-one-voucher"></a>O futuro de Um comprovante único
 

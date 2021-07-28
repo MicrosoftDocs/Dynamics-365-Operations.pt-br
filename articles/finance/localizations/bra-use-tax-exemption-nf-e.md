@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 06776ee47c7f15c80ea8b31cbee4d3e152404bcf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 890dbe0c047ca1a27878b21b19b8ab9c1046c983
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840318"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350632"
 ---
 # <a name="nt2019001---tax-benefits-and-exemptions-rules-for-nf-enfc-e"></a>NT2019.001 – Regras de benefícios e isenções fiscais para NF-e/NFC-e
 
@@ -77,7 +77,7 @@ Os parâmetros **Adicionar marcas isentas** e **Validar códigos de benefício**
 2. Na guia **Serviços Web**, no campo **Autoridade**, selecione a mesma autoridade que está configurada no estabelecimento.
 3. Na guia **Estados atendidos**, marque ou desmarque as caixas de seleção **Adicionar marcas de isenção** e **Validar códigos de benefício** de acordo com a legislação estadual.
 
-![Configurações de estabelecimento fiscal e de autoridade](media/bra_tax_benefits_from_NT2019_001_parameters.png)
+![Configurações de estabelecimento fiscal e de autoridade.](media/bra_tax_benefits_from_NT2019_001_parameters.png)
 
 ## <a name="set-up-benefit-codes"></a>Configurar códigos de benefícios
 
@@ -93,14 +93,14 @@ Os códigos de benefício fornecidos pela tabela **cBenef x CST** devem ser inse
     - **Código de ocorrência:** Insira a parte numérica do código de benefício fornecida pela tabela **cBenef x CST**.
     - **Código de ajuste:** Este código é formado pelo estado e pelo código de ocorrência. Esse código deve corresponder ao código de benefício fornecido pela tabela **cBenef x CST**.
 
-![Propriedades dos códigos de ajuste](media/bra_tax_benefits_from_NT2019_001_adjustment_codes.png)
+![Propriedades dos códigos de ajuste.](media/bra_tax_benefits_from_NT2019_001_adjustment_codes.png)
 
 Observe as seguintes propriedades especiais dos códigos de ajuste:
 
 - **Código de ajuste literal** – defina esta opção como **Sim** somente em cenários em que você emite modelos de notas fiscais eletrônicas 55 e 65 que têm tributação regular sem nenhum benefício ou isenção, quando a tabela **cBenef x CST** requer ou permite que o código de ajuste seja usado como um valor fixo ou uma palavra literal, como "nulo" ou "sem BENEF", na marca **\<cBenef\>**.
 - **Suprimir código** – defina esta opção como **Sim** somente em cenários nos quais você emite modelos de notas fiscais eletrônicas 55 e 65 que têm tributação regular sem nenhum benefício ou isenção, quando a tabela **cBenef x CST** requer ou permite que a marca **\<cBenef\>** vazia seja usada.
 
-![Propriedades especiais dos códigos de ajuste](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_special_controls.png)
+![Propriedades especiais dos códigos de ajuste.](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_special_controls.png)
 
 ## <a name="set-up-taxation-code-by-benefit-code"></a>Configurar código de tributação por código de benefício
 
@@ -109,7 +109,7 @@ O código de tributação por código de benefício fornecidos pela tabela **cBe
 1. Vá para **Livros fiscais \> Configuração \> Códigos de ajuste do imposto \> Ajuste e informações de documentos fiscais**.
 2. Selecione **Adicionar** para inserir **Código de tributação** para o código de ajuste.
 
-![Guia de códigos de tributação na página Ajuste e informações para documentos fiscais](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_CST.png)
+![Guia de códigos de tributação na página Ajuste e informações para documentos fiscais.](media/bra_tax_benefits_from_NT2019_001_adjustment_codes_CST.png)
 
 ## <a name="set-up-benefit-codes-by-itemstate"></a>Configurar códigos de benefício por item/estado
 
@@ -120,7 +120,7 @@ Siga estas etapas para configurar regras para validar os códigos de benefício 
 3. Na página **Parâmetros federais de NF-e**, no campo **Estado**, selecione um valor.
 4. Selecione **Adicionar** para informar uma nova relação.
 
-![Campo de estado na página código de Benefício por item/estado](media/bra_tax_benefits_from_NT2019_001_benefit_codes_per_item_state.png)
+![Campo de estado na página código de Benefício por item/estado.](media/bra_tax_benefits_from_NT2019_001_benefit_codes_per_item_state.png)
 
 ## <a name="validations-that-are-done-when-fiscal-documents-are-posted"></a>Validações efetuadas quando as notas fiscais são lançadas
 

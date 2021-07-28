@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-04-06
-ms.openlocfilehash: c4f663ae36f7d4ea3db9888e618f2fe3bf8c3256
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 073f89b5ae44e20d1d2e854341afaa176f9b6280
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748938"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350926"
 ---
 # <a name="currency-data-type-migration-for-dual-write"></a>Migração de tipo de dados de moeda para gravação dupla
 
@@ -82,13 +82,13 @@ Estas são algumas limitações:
 
 Após a conclusão da migração, os administradores podem definir a precisão da moeda. Vá para **Configurações \> Administração** e selecione **Configurações do Sistema**. Em seguida, na guia **Geral**, altere o valor da coluna **Definir o número de decimais da moeda que será usada para precificação em todo o sistema**, conforme mostrado na ilustração a seguir.
 
-![Configurações do sistema para moeda](media/currency-system-settings.png)
+![Configurações do sistema para moeda.](media/currency-system-settings.png)
 
 ### <a name="business-management-currencies"></a>Gerenciamento de Negócios: Moedas
 
 Se quiser que a precisão de uma moeda específica seja diferente da precisão da moeda usada para os preços, é possível alterá-la. Vá para **Configurações \> Gerenciamento de Negócios**, selecione **Moedas** e selecione a moeda a ser alterada. Em seguida, defina a coluna **Precisão da Moeda** com o número de casas decimais que deseja, conforme mostrado na ilustração a seguir.
 
-![Configurações de moeda para uma localidade específica](media/specific-currency.png)
+![Configurações de moeda para uma localidade específica.](media/specific-currency.png)
 
 ### <a name="tables-currency-column"></a>tabelas: coluna Moeda
 

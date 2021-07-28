@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 2bada42073e46c69101e6d31f3328a2eeb95f880
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2921cb22bedf04db1c8d11a382b979b3c63e6683
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023021"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349967"
 ---
 # <a name="view-posted-tds-payments-and-transactions-for-a-tds-settlement-period"></a>Exibir os pagamentos e as transações de TDS lançados por um período de liquidação de TDS
 
@@ -31,7 +31,7 @@ Este tópico explica como exibir os pagamentos e transações do Imposto Deduzid
 
 1. Vá para **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Períodos de liquidação de imposto retido na fonte**.
 
-    [![Página Períodos de liquidação de imposto retido na fonte](./media/apac-ind-TDS-50.png)](./media/apac-ind-TDS-50.png)
+    [![Página Períodos de liquidação de imposto retido na fonte.](./media/apac-ind-TDS-50.png)](./media/apac-ind-TDS-50.png)
 
 2. Na página **Períodos de liquidação de imposto retido na fonte**, selecione **Pagamentos de imposto retido na fonte** para abrir a página **Pagamentos de imposto retido na fonte**, onde você pode ver as liquidações de TDS que foram feitas para um período de liquidação de TDS específico.
 

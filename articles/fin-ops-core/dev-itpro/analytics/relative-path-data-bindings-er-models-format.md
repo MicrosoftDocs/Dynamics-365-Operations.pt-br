@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 141d58c2183c386584b0b974f4997e7a81ef3109
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: b9d072914b5effdd733ec2c18e4ada877f932ba8
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749977"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350151"
 ---
 # <a name="use-a-relative-path-in-data-bindings-of-er-models-and-formats"></a>Use um caminho relativo em associações de dados de modelos e formatos de ER
 
@@ -31,20 +31,20 @@ A ferramenta ER (relatório eletrônico) permite que usuários definam estrutura
 
 Para melhorar a usabilidade de designers de mapeamento do ER, o recurso de [caminho relativo](er-formula-language.md#relative-path) foi liberado. Por padrão, a opção da representação de caminho relativo será ativada para qualquer nova instância do aplicativo em que a experiência de design do ER estiver habilitada (Microsoft Dynamics 365 Finance, Microsoft Regulatory Configuration Service). Implementamos o parâmetro de caminho relativo para que os usuários possam continuar usando o caminho completo ao trabalhar com esta apresentação de associações do ER.
 
-[![Parâmetros de usuário](./media/relative-path-01.png)](./media/relative-path-01.png)
+[![Parâmetros de usuário.](./media/relative-path-01.png)](./media/relative-path-01.png)
 
  
 Quando o parâmetro de uso do caminho relativo está ativado, um único caractere @ substitui o caminho para o item pai na associação do elemento de modelo atual. O caminho de associação inteiro fica mais curto, o que torna o mapeamento inteiro mais óbvio e de compreensão mais fácil. Na maioria dos casos, não são necessários rolamentos adicionais no designer do ER para exibir todas as associações do modelo de dados.
 
-[![Designer de mapeamento de modelo](./media/relative-path-02.png)](./media/relative-path-02.png)
+[![Designer de mapeamento de modelo.](./media/relative-path-02.png)](./media/relative-path-02.png)
  
 Ao começar a criar uma nova expressão de ER, você precisa inserir somente um caractere para definir uma associação para um campo do item pai.
 
-[![Designer de fórmulas](./media/relative-path-03.png)](./media/relative-path-03.png)
+[![Designer de fórmulas.](./media/relative-path-03.png)](./media/relative-path-03.png)
  
 Quando decidir alterar a fonte de dados do item de modelo pai, com uso do caminho absoluto, você precisará reassociar manualmente este item de modelo, bem como todos os itens aninhados, para uma nova fonte de dados. Quando o uso do caminho relativo estiver ativado e você selecionar uma nova fonte de dados a ser associada a um item pai, terá a opção de reassociar automaticamente todos os elementos aninhados desse item pai com um clique.
 
-[![Substituir a mensagem de caminho existente](./media/relative-path-04.png)](./media/relative-path-04.png)
+[![Substituir a mensagem de caminho existente.](./media/relative-path-04.png)](./media/relative-path-04.png)
  
 Se você confirmar a reassociação de itens aninhados, o novo item pai será colocado no caminho de cada item aninhado contendo o item pai existente.
 Este recurso não elimina a compatibilidade com versões anteriores da estrutura do ER. Todas as configurações do ER criadas previamente trabalharão com esse novo recurso. Não são necessárias atualizações ou conversões.

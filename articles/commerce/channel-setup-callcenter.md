@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e89c63c90aa8d46fd23900897a54165e14fb635d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 34fa845c72f23485a2573d6bb4cf38b66c7adb7c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800654"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351191"
 ---
 # <a name="set-up-a-call-center-channel"></a>Configurar um canal de call center
 
@@ -54,11 +54,11 @@ Para criar e configurar um novo canal de call center, siga estas etapas.
 
 A imagem a seguir mostra a criação de um novo canal de call center.
 
-![Novo canal de call center](media/channel-setup-callcenter-1.png)
+![Novo canal de call center.](media/channel-setup-callcenter-1.png)
 
 A imagem a seguir mostra um exemplo de canal de call center.
 
-![Exemplo de canal de call center](media/channel-setup-callcenter-2.png)
+![Exemplo de canal de call center.](media/channel-setup-callcenter-2.png)
 
 ## <a name="additional-channel-setup"></a>Configuração adicional do canal
 
@@ -66,7 +66,7 @@ Outras tarefas necessárias para a configuração do canal de call center inclue
 
 A imagem a seguir mostra opções de configuração de **Modos de entrega** e **Métodos de pagamento** na guia **Configurar**.
 
-![Outras ações de configuração do canal de call center](media/channel-setup-callcenter-3.png)
+![Outras ações de configuração do canal de call center.](media/channel-setup-callcenter-3.png)
 
 ### <a name="set-up-payment-methods"></a>Configurar métodos de pagamento
 
@@ -81,7 +81,7 @@ Para configurar métodos de pagamento, siga as etapas a seguir para cada tipo de
 
 A imagem a seguir mostra um exemplo de método de pagamento à vista.
 
-![Exemplo de métodos de pagamento](media/channel-setup-callcenter-payments.png)
+![Exemplo de métodos de pagamento.](media/channel-setup-callcenter-payments.png)
 
 ### <a name="set-up-modes-of-delivery"></a>Configurar os modos de entrega
 
@@ -97,7 +97,7 @@ Para alterar ou adicionar um modo de entrega a ser associado ao canal de call ce
 
 A imagem a seguir mostra um exemplo de modo de entrega.
 
-![Configurar os modos de entrega](media/channel-setup-retail-7.png)
+![Configurar os modos de entrega.](media/channel-setup-retail-7.png)
 
 ### <a name="set-up-channel-users"></a>Configurar usuários do canal
 

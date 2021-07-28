@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 60ad0dd821dc91576a59cf73ec46da4aefd34a2f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 94abcf7189dc7c1f5587eb06d47650dc707c5007
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352389"
 ---
 # <a name="manage-ratings-and-reviews"></a>Gerenciar classificações e opiniões
 
@@ -45,7 +45,7 @@ Para ler uma opinião no construtor de site do Commerce, siga estas etapas.
 
 Os filtros adicionais permitem delimitar as opiniões por período, classificação, canal, status de interesse (obtidas, respondidas ou reportadas).
 
-![Home page de moderação](media/rnr-moderation-home.png) 
+![Página inicial de moderação.](media/rnr-moderation-home.png) 
 
 ## <a name="respond-to-a-review"></a>Responder a uma opinião 
 
@@ -59,7 +59,7 @@ Para responder uma opinião no construtor de site do Commerce, siga estas etapas
 1. Insira o texto de resposta e o nome que devem ser mostrado para o respondente. O nome do respondente padrão é **Moderador**.
 1. Quando terminar, selecione **Postar resposta**.
 
-![Respondendo uma opinião](media/rnr-moderation-response.png) 
+![Respondendo uma opinião.](media/rnr-moderation-response.png) 
 
 ## <a name="take-down-a-review"></a>Desativar uma opinião 
 
@@ -82,7 +82,7 @@ Para localizar e excluir dados do cliente no construtor de site do Commerce, sig
 1. Se o cliente tiver alguma atividade de opinião (por exemplo, envios de opiniões, votos sobre a utilidade das opiniões de outro cliente ou comentários sobre a opinião de outro cliente), os resultados serão mostrados. Para cada item, há um botão **Excluir** .
 1. Para cada item a ser excluído, selecione **Excluir**. Quando for solicitado a confirmação, selecione **Sim**. 
     
-![Excluindo dados do cliente](media/rnr-moderation-delete-reviews.png) 
+![Excluindo dados do cliente.](media/rnr-moderation-delete-reviews.png) 
 
 > [!NOTE]
 > - Pode levar até sete dias para que os dados sejam completamente removidos do sistema. Os moderadores devem notificar aos clientes sobre esse atraso.
@@ -106,25 +106,25 @@ Para exibir tendências de classificações e opiniões no construtor de site do
 1. Vá para **Início \> Opiniões \> Relatórios**.
 1. Selecione **Modelo do PowerBI** para baixar o modelo.
 
-    ![Baixe o modelo do Power BI](media/rnr-moderation-reports.png) 
+    ![Baixe o modelo do Power BI.](media/rnr-moderation-reports.png) 
 
 1. Abra o modelo baixado usando o aplicativo Power BI. Feche a caixa de diálogo **Acessar o conteúdo da Web** que é exibida e feche a mensagem de erro "Atualizar" que é exibida.
 1. Vá para **Início**, selecione **Editar consultas** e selecione **Configurações da fonte de dados**.
 1. Na caixa de diálogo **Configurações da fonte de dados**, selecione **Alterar Origem**.
 1. No campo **URL** , insira o caminho de dados das opiniões baixado no procedimento anterior (por exemplo, **c:\\opiniões\\ReviewsData.csv**).
 
-    ![Campo da URL na caixa de diálogo Valores Separados por Vírgulas](media/rnr-powerbi-datasource-settings.png) 
+    ![Campo da URL na caixa de diálogo Valores Separados por Vírgulas.](media/rnr-powerbi-datasource-settings.png) 
 
 1. Selecione **OK** e, em seguida, selecione **Aplicar alterações**. Levará um a dois minutos para aplicar suas alterações na fonte de dados.
 1. Selecione **Planilha de tendências** para exibir as tendências de classificações e opiniões.
 
-    ![Tendência de classificações e opiniões](media/rnr-powerbi-dashboard-template.png) 
+    ![Tendência de classificações e opiniões.](media/rnr-powerbi-dashboard-template.png) 
     
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de classificações e opiniões](ratings-reviews-overview.md)
 
-[Aceitar usar classificações e opiniões](opt-in-ratings-reviews.md)
+[Aceitar o uso das classificações e opiniões](opt-in-ratings-reviews.md)
 
 [Configurar classificações e opiniões](configure-ratings-reviews.md)
 

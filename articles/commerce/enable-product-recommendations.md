@@ -16,12 +16,12 @@ ms.search.industry: Retail, eCommerce
 ms.author: bebeale
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 873266405638cd277eb748ad7e966ba8a4976b13
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 0a94a74f4eb00c24142f0390bcf352db0594ca0b
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019850"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349463"
 ---
 # <a name="enable-product-recommendations"></a>Habilitar recomendações de produtos
 
@@ -68,7 +68,7 @@ Para ativar as recomendações de produtos, siga estas etapas.
 1. Selecione o recurso **Recomendações de produtos**.
 1. No painel de propriedades **Recomendações de produtos**, selecione **Habilitar agora**.
 
-![Ativando as recomendações](./media/FeatureManagement_Recommendations.PNG)
+![Ativando as recomendações.](./media/FeatureManagement_Recommendations.PNG)
 
 > [!NOTE]
 > Este procedimento inicia o processo de geração de listas recomendação de produto. Pode levar várias horas antes que as listas estejam disponíveis e possam ser vistas no ponto de venda (PDV) ou em Dynamics 365 Commerce.

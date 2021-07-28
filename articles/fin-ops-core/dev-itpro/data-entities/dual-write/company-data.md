@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 6a858135d377b30d6e8885ae18b2dc50da11813b
-ms.sourcegitcommit: a202bf67c3c2c054e2a47cb7b3145cb7c0ee635e
+ms.openlocfilehash: ab063c66712b43818f58eee1493ec168771ae97a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "5941020"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350950"
 ---
 # <a name="company-concept-in-dataverse"></a>Conceito de empresa no Dataverse
 
@@ -43,7 +43,7 @@ Como a unidade de negócios e a empresa não são conceitos equivalentes, não �
 
 A ilustração a seguir mostra um exemplo dessa configuração de dados no Dataverse.
 
-![Configuração de dados no Dataverse](media/dual-write-company-1.png)
+![Configuração de dados no Dataverse.](media/dual-write-company-1.png)
 
 Devido a essa configuração, qualquer linha relacionada à empresa USMF será propriedade de uma equipe que é vinculada à unidade de negócios USMF no Dataverse. Portanto, qualquer usuário que tenha acesso a essa unidade de negócios com uma função de segurança que é definida para visibilidade em nível de unidade de negócios agora pode consultar essas linhas. O exemplo a seguir mostra como as equipes podem ser usadas para oferecer o acesso correto a essas linhas.
 
@@ -52,21 +52,21 @@ Devido a essa configuração, qualquer linha relacionada à empresa USMF será p
 + A equipe "Vendas USMF" está vinculada à unidade de negócios de USMF citada anteriormente.
 + Assim, os membros da equipe "Vendas USMF" podem ver qualquer conta de propriedade do usuário "USMF DW", que viria da tabela Empresa USMF no Finance and Operations.
 
-![Como as equipes podem ser usadas](media/dual-write-company-2.png)
+![Como as equipes podem ser usadas.](media/dual-write-company-2.png)
 
 Conforme mostrado na ilustração anterior, este mapeamento 1:1 entre unidade de negócios, empresa e equipe é apenas um ponto de partida. Neste exemplo, uma nova unidade de negócios “Europa” é criada manualmente no Dataverse como o pai de DEMF e ESMF. Essa nova unidade de negócios raiz não está relacionada à gravação dupla. No entanto, ela pode ser usada para dar aos membros da equipe de "Vendas BRL" acesso à dados de conta em DEMF e ESMF, definindo a visibilidade de dados como **BU pai/filho** na função de segurança associada.
 
 Um tópico final para discutir é como a gravação dupla determina à qual equipe proprietária deve-se atribuir linhas. Esse comportamento é controlado pela coluna **Equipe proprietária padrão** da linha cdm\_Company. Quando uma linha cdm\_Company estiver habilitada para gravação dupla, um plug-in criará automaticamente a unidade de negócios associada e a equipe proprietária (se ainda não existir) e definirá a coluna **Equipe proprietária padrão**. O administrador pode alterar esta coluna para um valor diferente. No entanto, o administrador não pode desmarcar a coluna desde se a tabela estiver habilitada para gravação dupla.
 
 > [!div class="mx-imgBorder"]
-![Coluna da equipe proprietária padrão](media/dual-write-default-owning-team.jpg)
+![Coluna da equipe proprietária padrão.](media/dual-write-default-owning-team.jpg)
 
 ## <a name="company-striping-and-bootstrapping"></a>Divisão e inicialização de empresa
 
 A integração do Dataverse faz a paridade empresarial usando um identificador empresarial aos dados de tarja. Como a ilustração a seguir mostra, todas as tabelas específicas estão estendidas de forma que têm uma relação vários para um (N:1) com a tabela cdm\_Company.
 
 > [!div class="mx-imgBorder"]
-![A relação N:1 entre uma tabela específica de empresa e a tabela cdm_Company](media/dual-write-bootstrapping.png)
+![A relação N:1 entre uma tabela específica de empresa e a tabela cdm_Company.](media/dual-write-bootstrapping.png)
 
 + Para linhas, depois que uma empresa é adicionada e salva, torna-se o valor somente leitura. Portanto, os usuários devem garantir selecionam a empresa correta.
 + Somente linhas com dados da empresa estão qualificados para gravação dupla entre o aplicativo e o Dataverse.
@@ -98,7 +98,7 @@ Há várias maneiras de preencher automaticamente o nome da empresa nos aplicati
 
 Para aplicar filtragem com base no contexto da empresa nos formulários personalizados ou em colunas de pesquisa personalizados adicionados aos formulários padrão, abra o formulário e use a seção **Filtragem de Registros Relacionados** para aplicar o filtro da empresa. Você deve definir isso para cada coluna de pesquisa que exija filtragem com base na empresa subjacente em uma determinada linha. A configuração é mostrada para a **Conta** na ilustração a seguir.
 
-:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar contexto da empresa":::
+:::image type="content" source="media/apply-company-context.png" alt-text="Aplicar contexto da empresa.":::
 
 
 
