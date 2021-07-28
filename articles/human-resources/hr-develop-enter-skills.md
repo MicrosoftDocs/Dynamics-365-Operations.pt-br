@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 5a65f1884ea87bbf2519cc94e4c52a40ac1a91bd
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 8a6b36314d9d98f971cd1619dd3604f20a3770b3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193968"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360511"
 ---
 # <a name="enter-skills"></a>Inserir habilidades
 
@@ -45,17 +45,17 @@ Para inserir habilidades sem exigir aprovação, você deve criar um fluxo de tr
 
 4. No painel **Criar fluxo de trabalho**, selecione **Habilidades do trabalhador**.
 
-   [![Selecionar fluxo de trabalho de habilidades do Trabalhador](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
+   [![Selecionar fluxo de trabalho de habilidades do Trabalhador.](media/hr-develop-skills-new-workflow.png)](media/hr-develop-skills-new-workflow.png)
 
 5. Na caixa de diálogo **Abrir este arquivo?**, selecione **Abrir**. Quando solicitado, insira as credenciais.
 
 6. No editor de fluxo de trabalho, selecione o elemento do fluxo de trabalho **Aprovar habilidades** e arraste-o para a tela.
 
-   [![Selecionar elemento de fluxo de trabalho Aprovar habilidades](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
+   [![Selecionar elemento de fluxo de trabalho Aprovar habilidades.](media/hr-develop-skills-element.png)](media/hr-develop-skills-element.png)
 
 7. Conecte o elemento **Iniciar** ao elemento **Aprovar habilidades 1** e, em seguida, conecte o elemento **Aprovar habilidades 1** ao elemento **Finalizar**. Talvez seja necessário rolar para baixo para ver o elemento **Finalizar**. Você pode arrastá-lo para mais perto dos outros elementos.
 
-   [![Conectar elementos de fluxo de trabalho](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
+   [![Conectar elementos de fluxo de trabalho.](media/hr-develop-skills-connect-elements.png)](media/hr-develop-skills-connect-elements.png)
 
 8. Clique duas vezes no elemento de fluxo de trabalho **Aprovar habilidades 1** e clique com o botão direito do mouse no elemento **Etapa 1**. Clique com o botão direito do mouse no elemento **Etapa 1** e selecione **Propriedades**.
 
@@ -65,7 +65,7 @@ Para inserir habilidades sem exigir aprovação, você deve criar um fluxo de tr
 
 11. Selecione **Adicionar condição**. Depois de **Onde**, selecione **Habilidades de autoatendimento para funcionários** e depois selecione **Habilidades de autoatendimento para funcionários - Pessoa**. Depois de **é**, selecione **campo** e selecione **Relacionamento de Usuário para pessoa - Pessoa**.
 
-    [![Especificar condição](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
+    [![Especificar condição.](media/hr-develop-skills-condition.png)](media/hr-develop-skills-condition.png)
 
 12. Selecione **Atribuição** na barra de navegação à esquerda.
 
@@ -73,7 +73,7 @@ Para inserir habilidades sem exigir aprovação, você deve criar um fluxo de tr
 
 14. Na guia **Seleção de hierarquia**, no campo **Tipo de hierarquia:**, selecione **Hierarquia gerencial**.
 
-    [![Especificar hierarquia administrativa](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
+    [![Especificar hierarquia administrativa.](media/hr-develop-skills-hierarchy.png)](media/hr-develop-skills-hierarchy.png)
 
 15. Selecione **Fechar**, escolha **Fluxo de trabalho** na trilha de navegação da tela e selecione **Salvar e fechar**.
 

@@ -2,7 +2,8 @@
 title: Módulo de seletor de loja
 description: Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/02/2021
+manager: annbe
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +16,17 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a9311435264119e8287f1b7da2d0456552231f3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
+ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021455"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "6479367"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
 [!include [banner](includes/banner.md)]
+[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
@@ -50,12 +52,12 @@ Para inserir os valores de latitude e longitude da localização de uma loja na 
 1. Selecione a localização do depósito no painel à esquerda.
 1. Na FastTabe **Endereços**, selecione **Avançado**.
 
-    ![Exemplo de informações da loja na matriz](./media/Store-address.png)
+    ![Exemplo de informações da loja na matriz.](./media/Store-address.png)
 
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Geral**, insira valores de **Latitude** e **Longitude**.
 
-    ![Exemplo de configuração de latitude e longitude para uma loja na matriz](./media/Store-latitude-longitude.png)
+    ![Exemplo de configuração de latitude e longitude para uma loja na matriz.](./media/Store-latitude-longitude.png)
 
 1. No Painel de ações, selecione **Salvar**. 
 
@@ -70,7 +72,6 @@ Para a API REST da Sugestão Automática, é necessário garantir que as seguint
 - Para a diretiva **script-src**, **adicione &#42;.bing.com, &#42;.virtualearth.net**.
 - Para a diretiva **script style-src**, adicione **&#42;.bing.com**.
 
- 
 ## <a name="pickup-in-store-mode"></a>Modo Retirar na loja
 
 O módulo de seletor de loja oferece suporte para o modo **Retirar na loja**, que mostra uma lista de lojas nas quais o produto está disponível para retirada. Ele também mostra o horário de funcionamento e o estoque de produtos de todas as lojas na lista. O módulo de seletor de loja requer o contexto de um produto para renderizar a disponibilidade do produto e para permitir que o usuário adicione o produto ao carrinho, caso o modo de entrega do produto esteja definido como **retirada** na loja selecionada. Para obter mais informações, consulte [configurações de estoque](inventory-settings.md). 
@@ -81,7 +82,7 @@ Para que esse cenário funcione, os produtos devem ser configurados para usar o 
 
 A imagem a seguir mostra um exemplo de um módulo de seletor de loja usado em uma PDP.
 
-![Exemplo de um módulo de seletor de loja usado em um PDP](./media/BOPIS.PNG)
+![Exemplo de um módulo de seletor de loja usado em um PDP.](./media/BOPIS.PNG)
 
 > [!NOTE]
 > Na versão 10.0.16 ou posterior, um novo recurso pode ser habilitado, permitindo que uma organização defina vários modos de separação de opções de entrega para os clientes.  Se esse recurso estiver habilitado, o seletor de loja e outros módulos de comércio eletrônico serão aprimorados para permitir que o comprador escolha entre as opções de entrega de separação potencialmente múltiplas, se configurado.  Para saber mais sobre esse recurso, consulte [esta documentação](./multiple-pickup-modes.md). 
@@ -92,7 +93,7 @@ O módulo de seletor de loja também oferece suporte para um modo **Localizar lo
 
 A ilustração a seguir mostra um exemplo de um módulo de seletor de loja usado com um módulo de mapa na página de localizações da loja.
 
-![Exemplo de um módulo de seletor de armazenamento e um módulo de mapa em uma página de locais de armazenamento](./media/ecommerce-Storelocator.PNG)
+![Exemplo de um módulo de seletor de armazenamento e um módulo de mapa em uma página de locais de armazenamento.](./media/ecommerce-Storelocator.PNG)
 
 ## <a name="render-a-map"></a>Renderizar um mapa
 
@@ -110,6 +111,10 @@ O módulo de seletor de loja pode ser usado com o módulo de mapa para exibir as
 | Opções de sugestão automática: resultados máximos | Número | Essa propriedade define o número máximo de resultados de sugestão automática que podem ser exibidos pela API de Sugestão Automática do Bing. |
 | Pesquisar raio | Número | Essa propriedade define o raio de pesquisa de lojas, em milhas. Se nenhum valor for especificado, o raio de pesquisa padrão de 50 milhas será usado. |
 | Termos de serviço | URL |  Essa propriedade especifica a URL de termos de serviço necessária para usar o serviço Bing Maps. |
+
+## <a name="site-settings"></a>Configurações do site
+
+O módulo seletor de armazenamento respeita as [Configurações de Adicionar produto ao carrinho](add-cart-settings.md). Depois que um item é adicionado ao carrinho do módulo seletor de lojas, os usuários do site verão os fluxos de trabalho configurados adequados.
 
 ## <a name="add-a-store-selector-module-to-a-page"></a>Adicionar um módulo de seletor de loja a uma página
 

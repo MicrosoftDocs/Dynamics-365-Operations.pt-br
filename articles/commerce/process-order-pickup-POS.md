@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: b5c17a65a54ae88118bc5ecaa25cdadb67861129
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 037c9fb8dfc7aca4535540d92aae3e0ce0f8c638
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802758"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6352147"
 ---
 # <a name="process-customer-order-pickups-in-pos"></a>Processar retiradas de ordem do cliente no POS
 
@@ -32,7 +32,7 @@ Se você for um usuário de armazenamento, poderá realizar a retirada usando a 
 
 Se a ordem ou linhas da ordem selecionadas não estiverem configuradas para retirada nessa loja específica ou se a ordem já tiver sido totalmente retirada, a operação de **Retirada** não estará disponível.
 
-![Operação de retirada](media/pickupoperation.png)
+![Operação de retirada.](media/pickupoperation.png)
 
 Na versão 10.0.17 e posterior do Microsoft Dynamics 365 Commerce, o recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** pode ser ativada com o gerenciamento de recursos na matriz do Commerce. Se esse recurso estiver desativado, os usuários não poderão selecionar as quantidades de retirada. Por padrão, a quantidade total pedida da linha é a quantidade que será retirada. Essa experiência pode causar problemas, já que os usuários podem esquecer de selecionar alguns itens para retirada ao executarem a retirada usando o atendimento da ordem.
 
@@ -40,13 +40,13 @@ O recurso **Experiência de usuário aprimorada para o processamento de ordens d
 
 Quando o recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** está ativado e você seleciona a operação de **Retirada**, a caixa de diálogo **Retirada** é exibida. Nela, você pode selecionar os itens e as quantidades que serão retirados. Por padrão, qualquer quantidade pedida que tenha estoque em um estado separado ou embalado é considerada qualificada para retirada. Por padrão, essa quantidade é definida como a quantidade de retirada. Você pode alterar a quantidade que foi inserida, desde que a quantidade não seja 0 (zero) e não exceda a quantidade total aberta (ou seja, não faturada) da linha selecionada.
 
-![Caixa de diálogo Retirada](media/pickupselect.png)
+![Caixa de diálogo Retirada.](media/pickupselect.png)
 
 Depois de selecionar as quantidades que serão retiradas e selecionar **Retirada**, a página de transação será exibida. Se o recurso [pagamentos de omni-channel](omni-channel-payments.md) estiver ativado e houver pagamentos de cartão de crédito pré-qualificados no arquivo, você deverá aplicar o pagamento.
 
 Na página de transação, o sistema calcula os valores vencidos calculando o total devido dos itens de retirada selecionados e subtraindo os depósitos ou pagamentos de cartão de crédito autorizados aplicados anteriormente. Você deve processar o pagamento para concluir a transação de retirada. Se o [layout de tela](pos-screen-layouts.md) da página de transação for configurado de forma que inclua a operação de **Concluir transação** e nenhum valor seja vencido, você poderá concluir a transação sem selecionar um método de pagamento. Se a operação **Concluir transação** não estiver disponível, você poderá selecionar o link **$0,00 valor devido** no painel **Totais** para concluir a transação sem precisar selecionar um método de pagamento.
 
-![Página de transação para uma transação de retirada de ordem de cliente](media/pickupcart.png)
+![Página de transação para uma transação de retirada de ordem de cliente.](media/pickupcart.png)
 
 ## <a name="changing-pickup-lines-or-quantities"></a>Alterar linhas ou quantidades de retirada
 
@@ -54,7 +54,7 @@ Se você precisar alterar a quantidade de retirada após selecionar os itens que
 
 Se o recurso **Experiência de usuário aprimorada para o processamento de ordens de retirada no Ponto de venda** estiver ativada, as organizações poderão adicionar um botão para a operação **Alterar linhas de retirada** ao modelo de tela da página de transação. Depois de criar o carrinho de transações de retirada no POS e selecionar os itens, você pode selecionar **Alterar linhas de retirada** se precisar alterar os itens de retirada, mas não desejar anular toda a transação. Na caixa de diálogo **Alterar linhas de retirada** que é exibida, você pode alterar os itens e as quantidades de retirada. O carrinho de transações é atualizado para aplicar as alterações.
 
-![Caixa de diálogo Alterar itens de retirada](media/pickupchange.png)
+![Caixa de diálogo Alterar itens de retirada.](media/pickupchange.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

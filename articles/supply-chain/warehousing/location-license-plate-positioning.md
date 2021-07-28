@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: e5fd7a9a9703f9ab6802def0aac096e29aa04f1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831376"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359754"
 ---
 # <a name="location-license-plate-positioning"></a>Posicionamento da placa de licença de localização
 
@@ -88,7 +88,7 @@ O recurso deve estar ativado no perfil de localização de cada localização on
 1. Com **Placa de licença** ainda selecionada, selecione **Adicionar junção de tabela**.
 1. Na lista de tabelas exibida, na coluna **Relação**, selecione **Posicionamento da placa de licença de localização (Placa de licença)**. Depois, clique em **Selecionar** para adicionar **Posicionamento da placa de licença de localização** à junção de tabela **Dimensões de estoque**.
 
-    ![Junções de tabela](media/LpTableJoin.png "Junções de tabela")
+    ![Junções de tabela.](media/LpTableJoin.png "Junções de tabela")
 
 1. Selecione **OK** para confirmar as tabelas associadas atualizadas e fechar o editor de consultas.
 1. Na FastTab **Ações de Diretiva de Localização**, selecione **Editar consulta** novamente para reabrir o editor de consultas.
@@ -100,7 +100,7 @@ O recurso deve estar ativado no perfil de localização de cada localização on
     - **Campo:** *Posição da LP*
     - **Critérios:** *1*
 
-    ![Novo intervalo](media/LpPositionCriteria.png "Novo intervalo")
+    ![Novo intervalo.](media/LpPositionCriteria.png "Novo intervalo")
 
 1. Selecione **OK** para confirmar as alterações e fechar o editor de consultas.
 
@@ -275,7 +275,7 @@ Agora que o recurso *Posicionamento da placa de licença de localização* foi c
 1. Na página **Digitalizar uma ID de trabalho/ID de placa de licença**, selecione o campo **ID** e insira a ID de trabalho na linha de venda.
 1. Observe que o trabalho de separação leva você a selecionar o item *A0002* da localização *01A01R1S2B*. Você recebe essa instrução porque o item *A0002* está em uma placa de licença na posição *1* dessa localização.
 
-    ![Localização da posição 1](media/LocationLicensePlatePositioning.png "Localização da posição 1")
+    ![Localização da posição 1.](media/LocationLicensePlatePositioning.png "Localização da posição 1")
 
 1. Insira a ID da placa de licença que você criou para a localização e siga os prompts para separar a ordem de venda.
 

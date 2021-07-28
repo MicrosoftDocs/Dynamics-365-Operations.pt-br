@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f3bc63fd4b1017a5c96116ff6c9bbcc387869927
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825269"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359948"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Aprimoramentos ao cXML de compra
 
@@ -38,7 +38,7 @@ Depois de ativar o recurso, você deve definir as configurações nas três áre
 
 A ilustração a seguir resume essa configuração.
 
-![Áreas para configurar recursos de cXML](media/cxml-settings-areas.png "Áreas para configurar recursos de cXML")
+![Áreas para configurar recursos de cXML.](media/cxml-settings-areas.png "Áreas para configurar recursos de cXML")
 
 Além disso, você deve configurar o [Trabalho em lotes de solicitação de ordem de compra](#po-batch). Esse trabalho em lotes é usado para enviar as ordens de compra confirmados.
 
@@ -46,7 +46,7 @@ Além disso, você deve configurar o [Trabalho em lotes de solicitação de orde
 
 Use a página **Parâmetros cXML** para fazer algumas configurações globais que se aplicam à funcionalidade de envio de ordens de compra.
 
-![Página Parâmetros cXML](media/cxml-parameters.png "Página Parâmetros cXML")
+![Página Parâmetros cXML.](media/cxml-parameters.png "Página Parâmetros cXML")
 
 Vá para **Compras e fornecimento \> Configuração \> Gerenciamento de cXML \> Parâmetros cXML** e defina os seguintes parâmetros:
 
@@ -67,7 +67,7 @@ Sempre que você confirma uma ordem de compra em que a opção **Enviar ordem de
 - Para configurar um fornecedor para que ele use a cXML automaticamente em todas as novas ordens de compra criadas por meio de uma requisição, acesse **Compras e fornecimento \> Fornecedores \> Todos os fornecedores** e selecione ou crie um fornecedor para abrir sua página de detalhes. Depois, na Guia Rápida **Padrões da ordem de compra**, defina a opção **Enviar ordem de compra via cXML** como _Sim_. Se a cXML também tiver que ser usada automaticamente em novas ordens de compra que são **não** criadas por meio de uma requisição, você também deve definir a propriedade da pedido **ENABLEMANUALPO** como _True_ para o catálogo externo relacionado, conforme descrito na seção [Definir as propriedades da ordem](#set-order-properties) posteriormente neste tópico.
 - Para ordens de compra individuais, vá para **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e selecione ou crie uma ordem de compra para abrir sua página de detalhes. Alterne para a exibição **Cabeçalho** e, na Guia Rápida **Configuração**, defina a opção **Enviar ordem de compra via cXML** conforme necessário.
 
-![Configurações padrão para ordens de compra do fornecedor](media/cxml-order-defaults.png "Configurações padrão para ordens de compra do fornecedor")
+![Configurações padrão para ordens de compra do fornecedor.](media/cxml-order-defaults.png "Configurações padrão para ordens de compra do fornecedor")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Configurar um catálogo externo para usar cXML
 
@@ -76,7 +76,7 @@ Na página **Catálogos externos**, para cada um de seus catálogos, você pode 
 > [!NOTE]
 > Quando você confirma uma ordem de compra que pode ser enviada via cXML, o sistema procura o fornecedor associado à ordem de compra e, em seguida, encontra o primeiro catálogo externo ativo associado a esse fornecedor. Depois, o sistema usa as configurações desse catálogo externo para enviar a ordem de compra. Se vários catálogos externos forem configurados, o sistema usará apenas o primeiro catálogo externo que encontrar, com base no fornecedor na ordem de compra. Portanto, recomendamos que você crie apenas um catálogo externo para cada fornecedor.
 
-![Configurações de catálogo externo](media/cxml-supplier-catalog.png "Configurações de catálogo externo")
+![Configurações de catálogo externo.](media/cxml-supplier-catalog.png "Configurações de catálogo externo")
 
 ### <a name="set-the-punchout-protocol-type"></a>Definir o tipo de protocolo PunchOut
 
@@ -143,11 +143,11 @@ Como foi mencionado na seção [Definir as propriedades da ordem](#set-order-pro
 
 Para definir os tipos de notas que o sistema procurará, vá para **Compras e fornecimento \> Configuração \> Formulários \> A partir da configuração**. Em seguida, na guia **Ordem de compra**, defina o campo **Incluir documentos do tipo** para o tipo de nota que deseja incluir. Somente notas de texto serão incluídas, não anexos de documentos.
 
-![Página de configuração de formulários](media/cxml-form-setup.png "Página de configuração de formulários")
+![Página de configuração de formulários.](media/cxml-form-setup.png "Página de configuração de formulários")
 
 Os anexos serão incluídos em uma ordem de compra apenas se o campo **Tipo** for definido com o valor que você selecionar no campo **Incluir documentos do tipo** e se o campo **Restrição** for definido como _Externo_. Para criar, exibir ou editar os anexos de uma ordem de compra, vá para **Compras e fornecimento \> Todas as ordens de compra**, selecione ou crie uma ordem de compra e selecione o botão **Anexos** (símbolo de clipe de papel) no canto superior direito.
 
-![Nota anexada configurada para ser enviada a um fornecedor](media/cxml-note-to-vendor.png "Nota anexada configurada para ser enviada a um fornecedor")
+![Nota anexada configurada para ser enviada a um fornecedor.](media/cxml-note-to-vendor.png "Nota anexada configurada para ser enviada a um fornecedor")
 
 ## <a name="view-the-cxml-cart-message-log-for-external-catalog-punchout"></a><a name="message-log"></a>Exibir o log de mensagens do carrinho cXML para o catálogo externo PunchOut
 
@@ -155,7 +155,7 @@ Quando você define o campo **Tipo de protocolo PunchOut** como _cXML_ para um c
 
 Para abrir o log de um catálogo externo, selecione o catálogo relevante e, em seguida, no Painel de ações, selecione **Log de mensagens do carrinho cXML**. A página **Log de mensagens do carrinho cXML** mostra uma lista dos carrinhos que foram devolvidos, o XML relacionado a esses carrinhos e as linhas que foram criadas na requisição de compra relacionada.
 
-![Página Log de mensagens do carrinho cXML](media/cxml-cart-message-log.png "Página Log de mensagens do carrinho cXML")
+![Página Log de mensagens do carrinho cXML.](media/cxml-cart-message-log.png "Página Log de mensagens do carrinho cXML")
 
 ## <a name="set-the-extrinsic-elements-for-external-catalog-punchout"></a>Definir os elementos extrínsecos para o catálogo externo PunchOut
 
@@ -178,21 +178,21 @@ Para adicionar elementos extrínsecos a um catálogo externo, siga as etapas a s
         - **Sobrenome** – Use o sobrenome da pessoa de contato associada ao usuário que está acessando o catálogo externo.
         - **Número de telefone** – Use o número de telefone principal da pessoa de contato associada ao usuário que está acessando o catálogo externo.
 
-![Configurações de elemento extrínseco](media/cxml-extrinsics.png "Configurações de elemento extrínseco")
+![Configurações de elemento extrínseco.](media/cxml-extrinsics.png "Configurações de elemento extrínseco")
 
 O usuário ou administrador não verá os elementos extrínsecos, porque eles não são adicionados até que o usuário execute um PunchOut. Eles serão inseridos automaticamente entre os elementos **BuyerCookie** e **BrowserFromPost** na mensagem de solicitação de configuração cXML. Portanto, você não precisa defini-los manualmente no XML ao configurar o catálogo externo.
 
-![Elementos extrínsecos adicionados ao XML](media/cxml-extrinsics-xml.png "Elementos extrínsecos adicionados ao XML")
+![Elementos extrínsecos adicionados ao XML.](media/cxml-extrinsics-xml.png "Elementos extrínsecos adicionados ao XML")
 
 ## <a name="create-and-process-a-purchase-order"></a><a name="create-po"></a>Criar e processar uma ordem de compra
 
 Quando você cria uma ordem de compra para um fornecedor, ela herda a configuração da opção **Enviar ordem de compra via cXML** desse fornecedor. Contudo, a configuração permanece disponível na Guia Rápida **Configuração** na exibição **Cabeçalho** da ordem de compra para que você possa alterá-la posteriormente, conforme necessário.
 
-![Ordem de compra definida para usar cXML](media/cxml-purchase-order.png "Ordem de compra definida para usar cXML")
+![Ordem de compra definida para usar cXML.](media/cxml-purchase-order.png "Ordem de compra definida para usar cXML")
 
 Ao criar uma ordem de compra a partir de uma requisição de compra oriunda de um fluxo PunchOut, todos os detalhes da linha necessários serão preenchidos. Depois, é possível adicionar manualmente as linhas da ordem de compra ou copiá-las de outras ordens de compra. Certifique-se de definir todos os campos obrigatórios. Esses campos obrigatórios incluem o número de referência externa, que é o número do fornecedor que será usado na mensagem cXML.
 
-![Exemplo de um número de referência externo](media/cxml-line-details.png "Exemplo de um número de referência externo")
+![Exemplo de um número de referência externo.](media/cxml-line-details.png "Exemplo de um número de referência externo")
 
 Quando terminar de preencher todos os detalhes da ordem de compra, não deixe de confirmá-la. Nenhuma mensagem é enviada a menos que a ordem de compra seja confirmada. No Painel de Ações, na guia **Compra**, no grupo **Ações**, selecione **Confirmar** para confirmar a ordem de compra. 
 
@@ -200,17 +200,17 @@ Após a confirmação da ordem de compra, você pode exibir o status da confirma
 
 Cada ordem de compra pode ter várias confirmações. Cada confirmação é marcada com um número incremental. Na ilustração a seguir, a ordem de compra é *00000275* e a confirmação é *00000275-1*. Essa numeração reflete a funcionalidade padrão do Supply Chain Management, em que as alterações em uma ordem de compra e, portanto, o tipo de mensagem cXML que deve ser enviada ao fornecedor, são identificadas com base na confirmação. Como mostra a ilustração, a página **Confirmações de ordem de compra** também inclui os campos **Status de envio da ordem** e **Status do fornecedor de solicitação de ordem**. Para obter mais informações sobre os vários valores de status que você pode ver nesta página, consulte a seção [Monitorar solicitações de ordem de compra](#monitor-po-requests) posteriormente neste tópico.
 
-![Página Confirmações de ordem de compra](media/cxml-po-confirmations.png "Página Confirmações de ordem de compra")
+![Página Confirmações de ordem de compra.](media/cxml-po-confirmations.png "Página Confirmações de ordem de compra")
 
 Para exibir mais informações sobre o documento, selecione **Solicitação de ordem de compra** acima da grade.
 
 A página **Solicitação de ordem de compra** inclui duas grades. A grade na parte superior da página possui um registro para cada ordem de compra marcada para envio. A grade na guia **Histórico de solicitações de ordem de compra** na parte inferior da página pode ter vários registros para a ordem de compra selecionada, para indicar o status de cada confirmação. A ilustração a seguir mostra a ordem de compra 00000275 na grade superior e o documento 00000275-1 na grade da guia **Histórico de solicitações de ordem de compra**.
 
-![Página Solicitação de ordem de compra](media/cxml-po-request.png "Página Solicitação de ordem de compra")
+![Página Solicitação de ordem de compra.](media/cxml-po-request.png "Página Solicitação de ordem de compra")
 
 Se o trabalho em lotes estiver configurado e em execução, o documento será enviado. Você pode exibir a mudança de status após o envio do documento. Na ilustração a seguir, o campo **Status de envio da ordem** é definido como _Enviado_. O campo **Status do fornecedor de solicitação de ordem** é definido como _Confirmado_ para indicar que o fornecedor recebeu o documento e foi capaz de lê-lo e armazená-lo em seu sistema. A grade na guia **Histórico de solicitações de ordem de compra** mostra a hora em que o documento foi enviado. Para obter mais informações sobre os vários valores de status que você pode ver nesta página, consulte a seção [Monitorar solicitações de ordem de compra](#monitor-po-requests).
 
-![Mensagens de status na página Solicitação de ordem de compra](media/cxml-po-request-2.png "Mensagens de status na página Solicitação de ordem de compra")
+![Mensagens de status na página Solicitação de ordem de compra.](media/cxml-po-request-2.png "Mensagens de status na página Solicitação de ordem de compra")
 
 ## <a name="schedule-the-purchase-order-request-batch-job"></a><a name="po-batch"></a>Agendar o trabalho em lotes de solicitação de ordem de compra
 
@@ -226,7 +226,7 @@ O processo procurará documentos de solicitação de ordem de compra que tenham 
 
 Quando as ordens que podem ser enviadas via cXML são confirmadas, elas passam para o status _Aguardando_. Como foi descrito na seção [Criar e processar uma ordem de compra](#create-po), você pode exibir o status da ordem de compra na página **Solicitação de ordem de compra**. Cada solicitação de ordem de compra pode ter um de vários status, dependendo de seus parâmetros e dados. Esta seção descreve os vários tipos de status e os valores que eles podem ter. Essas informações podem ajudá-la a gerenciar problemas e entender o status das ordens de compra.
 
-![Status da ordem de compra na página Solicitação de ordem de compra](media/cxml-monitor-po-request.png "Status da ordem de compra na página Solicitação de ordem de compra")
+![Status da ordem de compra na página Solicitação de ordem de compra.](media/cxml-monitor-po-request.png "Status da ordem de compra na página Solicitação de ordem de compra")
 
 A grade na parte superior da página **Solicitação de ordem de compra** pode mostrar os seguintes valores de status:
 
@@ -262,17 +262,17 @@ A grade na guia **Histórico de solicitações de ordem de compra** na parte inf
 
 Para exibir o XML da mensagem de solicitação de ordem de compra, selecione a guia **Solicitar texto XML** na parte inferior da página **Solicitação de ordem de compra**. As informações nesta guia podem ser úteis durante o teste ou validação de erro. Para tornar as informações mais fáceis de ler, você pode exibi-las como uma mensagem formatada. Copie o conteúdo da guia em um arquivo de texto e exiba-o em um editor de XML.
 
-![Guia Solicitar texto XML](media/cxml-request-xml-text.png "Guia Solicitar texto XML")
+![Guia Solicitar texto XML.](media/cxml-request-xml-text.png "Guia Solicitar texto XML")
 
 ### <a name="view-the-details-of-the-vendor-response"></a>Exibir os detalhes da resposta do fornecedor
 
 Para exibir o conteúdo de uma confirmação de fornecedor ou resposta de erro, selecione a guia **Resposta XML** na parte inferior da página **Solicitação de ordem de compra**.
 
-![Guia Resposta XML](media/cxml-response-xml.png "Guia Resposta XML")
+![Guia Resposta XML.](media/cxml-response-xml.png "Guia Resposta XML")
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [​Configurar um catálogo externo para PunchOut e-procurement​](set-up-external-catalog-for-punchout.md)
+- [Configurar um catálogo externo para compras eletrônicas de PunchOut](set-up-external-catalog-for-punchout.md)
 - [​Uso de catálogos externos para PunchOut e-procurement](use-external-catalogs-for-punchout.md)
 
 

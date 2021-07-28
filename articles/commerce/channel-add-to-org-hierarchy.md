@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: c7ff6d8ee7e526e45975cfa500b5e6d6079054dc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5800678"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351216"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Adicionar um canal a uma hierarquia organizacional
 
@@ -44,7 +44,7 @@ Para selecionar uma hierarquia, siga estas etapas.
 
 A imagem a seguir mostra os detalhes da hierarquia organizacional selecionada.
 
-![Detalhes da hierarquia organizacional selecionada](media/channel-add-to-org-hierarchy-1.png)
+![Detalhes da hierarquia organizacional selecionada.](media/channel-add-to-org-hierarchy-1.png)
 
 ## <a name="add-a-channel-to-a-hierachy-node"></a>Adicionar um canal a um nó de hierarquia
 
@@ -58,11 +58,11 @@ Para adicionar um canal a um nó da hierarquia, siga estas etapas.
 
 A imagem a seguir mostra como selecionar um canal a ser adicionado a um nó de hierarquia.
 
-![Selecionar um canal para adicionar a um nó de hierarquia](media/channel-add-to-org-hierarchy-2.png)
+![Selecionar um canal para adicionar a um nó de hierarquia.](media/channel-add-to-org-hierarchy-2.png)
 
 A imagem a seguir mostra uma hierarquia com vários canais adicionados.
 
-![Uma hierarquia com vários canais adicionados](media/channel-add-to-org-hierarchy-3.png)
+![Uma hierarquia com vários canais adicionados.](media/channel-add-to-org-hierarchy-3.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

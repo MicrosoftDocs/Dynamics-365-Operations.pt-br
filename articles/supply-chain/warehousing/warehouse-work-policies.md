@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 39a9ba00763fac220eff16bdd42aa07cc8e35ba4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838121"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353363"
 ---
 # <a name="work-policies"></a>Políticas de trabalho
 
@@ -200,7 +200,7 @@ A ordem de compra é recebida agora, mas nenhum trabalho está associado a ela. 
 
 No exemplo a seguir, há duas ordens de produção, *PRD-001* e *PRD-002*. A ordem de produção *PRD-001* tem uma operação que é chamada *Montagem*, em que o produto *SC1* está sendo relatado como acabado para o local *001*. A ordem de produção *PRD-002* tem uma operação que é chamada *Pintura* e consome o produto *SC1* do local *001*. A ordem de produção *PRD-002* também consome a matéria-prima *RM1* do local *001*. A matéria-prima *RM1* é armazenada na localização de depósito *BULK-001* e será separada para o local *001* pelo trabalho de depósito para a separação de matéria-prima. O trabalho de separação será gerado quando a produção *PRD-002* for liberada.
 
-[![Políticas de trabalho de depósito](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
+[![Políticas de trabalho de depósito.](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png)
 
 Quando você pretender configurar uma política de trabalho de depósito para este cenário, considere os seguintes pontos:
 

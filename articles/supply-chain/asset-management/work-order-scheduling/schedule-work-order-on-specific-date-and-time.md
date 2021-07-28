@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 827f4ca16341d29413f1b1d928965aa1919abf59
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c28ade5bb6a22b9d15380085ea479e79ba246c1e
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822506"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354051"
 ---
 # <a name="schedule-work-order-on-specific-date-and-time"></a>Agendar ordem de serviço em data e hora específicas
 
@@ -38,13 +38,13 @@ Se uma ordem de trabalho tiver de ser agenda em uma data *e* hora específicas, 
 
 4. Na Guia Rápida **Cabeçalho da ordem de serviço**, insira as datas e horas e início e término nos campos **Início esperado** e **Término esperado**.
 
-    ![Figura 1](media/05-work-order-scheduling.png)
+    ![Figura 1.](media/05-work-order-scheduling.png)
 
 5. Na guia **Geral**, clique em **Agendar** para usar o processo de agendamento padrão, ou clique em **Expedir** se quiser atribuir a ordem de serviço para um trabalhador específico.
 
 6. Para substituir quaisquer reservas de capacidade existentes para garantir que a ordem de serviço está agendada no período esperado, realize as seleções como exibido na figura abaixo na seção da caixa de diálogo **Agendar ordem de serviço** > **Capacidade finita**. Isso significa que o processo de agendamento ignorará as reservas de capacidade existentes porque a ordem de serviço deve iniciar na hora de início esperada.
 
-    ![Figura 2](media/06-work-order-scheduling.png)
+    ![Figura 2.](media/06-work-order-scheduling.png)
 
 7. Clique em **OK** para iniciar o agendamento.
 

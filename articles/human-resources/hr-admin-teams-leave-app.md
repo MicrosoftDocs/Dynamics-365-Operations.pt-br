@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: c1cceb15d64215cb8d5c996df792e863d466f87d
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 627883544f387e53920da268fa8d805c0074de47
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053554"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6357352"
 ---
 # <a name="human-resources-app-in-teams"></a>Aplicativo Human Resources no Teams
 
@@ -28,11 +28,11 @@ ms.locfileid: "6053554"
 
 O aplicativo Microsoft Dynamics 365 Human Resources no Microsoft Teams permite aos funcionários solicitar folgas rapidamente, além de visualizar suas informações de saldo de folgas no Microsoft Teams. Os funcionários podem interagir com um bot para solicitar informações. A guia **Folga** fornece informações mais detalhadas. Além disso, eles podem enviar às pessoas informações sobre suas próximas folgas em equipes e bate-papos fora do aplicativo do Human Resources.
 
-![Bot do aplicativo de licenças do Human Resources Teams](./media/hr-teams-leave-app-bot.png)
+![Bot do aplicativo de licenças do Human Resources Teams.](./media/hr-teams-leave-app-bot.png)
 
-![Guia Folga do aplicativo de licença do Human Resources Teams](./media/hr-teams-leave-app-timeoff-tab.png)
+![Guia Folga do aplicativo de licença do Human Resources Teams.](./media/hr-teams-leave-app-timeoff-tab.png)
 
-![Cartão de solicitação de licença do Human Resources](./media/hr-teams-leave-app-chat-card.png)
+![Cartão de solicitação de licença do Human Resources.](./media/hr-teams-leave-app-chat-card.png)
 
 ## <a name="install-and-setup"></a>Instalação e configuração
 
@@ -57,11 +57,11 @@ Para que os usuários recebam notificações de solicitação de licença no apl
 
 4. Na guia **Geral**, defina **Habilitar notificações para o aplicativo Teams** como **Sim** .
 
-   ![Habilitar notificações do aplicativo Teams nos Parâmetros do Sistema](./media/hr-admin-teams-leave-app-enable-notifications.png)
+   ![Habilitar notificações do aplicativo Teams nos Parâmetros do Sistema.](./media/hr-admin-teams-leave-app-enable-notifications.png)
 
 5. Para ativar notificações do Teams para todos os usuários, selecione **Sim** no prompt.
 
-   ![Habilitar notificações do Teams para todos os usuários](./media/hr-admin-teams-leave-app-notifications-all-users.png)
+   ![Habilitar notificações do Teams para todos os usuários.](./media/hr-admin-teams-leave-app-notifications-all-users.png)
 
 ### <a name="turn-teams-notifications-on-or-off-for-individual-users"></a>Ativar ou desativar notificações do Teams para usuários individuais
 
@@ -77,7 +77,7 @@ Após habilitar notificações para o aplicativo Dynamics 365 Human Resources no
 
 5. Defina **Habilitar notificações para o aplicativo Teams** como **Sim** para habilitar notificações para o usuário ou como **Não** para desabilitar notificações para o usuário.
 
-   ![Habilitar notificações do aplicativo Teams na guia Fluxo de trabalho de opções do usuário](./media/hr-admin-teams-leave-app-notifications.png)
+   ![Habilitar notificações do aplicativo Teams na guia Fluxo de trabalho de opções do usuário.](./media/hr-admin-teams-leave-app-notifications.png)
 
 6. Selecione **Salvar**.
 

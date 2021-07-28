@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: f027a856dbd596ede84c39e30ee2227aab9329f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 32dfcc65d8b76f7314dcc348299c29d4ccff8d91
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826729"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355571"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Modelo de valor e registro de depreciação de ativo fixo
 
@@ -27,7 +27,7 @@ ms.locfileid: "5826729"
 
 Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. Na versão do Microsoft Dynamics 365 for Operations (1611), as funcionalidades modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro.
 
-A funcionalidade de novo livro baseia-se em uma funcionalidade anterior de modelo de valor, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação. [![Registro como mesclagem da funcionalidade modelo de valor e registro de depreciação](./media/fixed-assets.png)](./media/fixed-assets.png) Em decorrência desta mesclagem, agora você pode usar um conjunto único de páginas, consultas e relatórios para todos os seus processos de ativo fixo. As tabelas deste tópico descrevem a funcionalidade anterior de registro de depreciação e modelo de valor com a nova funcionalidade para registros.
+A funcionalidade de novo livro baseia-se em uma funcionalidade anterior de modelo de valor, mas também inclui todas as funcionalidade fornecidas anteriormente somente em registros de depreciação. [![Registro como junção de modelo de valor e funcionalidade de registro de depreciação.](./media/fixed-assets.png)](./media/fixed-assets.png) Devido a essa mesclagem, agora você pode usar um conjunto único de páginas, de consultas e de relatórios para todos os seus processos de ativos fixo. As tabelas deste tópico descrevem a funcionalidade anterior de registro de depreciação e modelo de valor com a nova funcionalidade para registros.
 
 ## <a name="setup"></a>Instalação
 Por padrão, lançar registros de contabilidade (GL) e sub-razão de ativo fixo. Os registros têm uma nova opção **Lançar à contabilidade** que leva você a desabilitar os lançamentos na GL e lançar apenas na sub-razão de ativo fixo. Essa funcionalidade é parecida com o comportamento anterior de lançamento de registro de depreciação. A configuração de nomes de diário possui um nível de lançamento nomeado Nenhum. Este nível de lançamento foi adicionado especificamente para transações de ativo fixo. Para lançar transações em registros que não são de GL, você deverá usar um nome de diário com o nível de lançamento definido como **Nenhum**.

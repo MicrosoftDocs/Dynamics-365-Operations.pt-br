@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1c8d939fef4fd0f9e189ca37318c2c0306511785
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 96e1575e2237cab481c368083da1e60fec612087
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5893899"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359020"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -39,7 +39,7 @@ Ao adicionar uma nova configuração de formato ER para gerar um documento de sa
 
 Para configurar o componente de formato ER da configuração, selecione **Designer** no Painel de Ações e abra o componente de formato ER para edição no designer de operação do ER.
 
-![Página Configurações](./media/er-excel-format-add-format.png)
+![Página Configurações.](./media/er-excel-format-add-format.png)
 
 ## <a name="excel-file-component"></a>Componente Arquivo do Excel
 
@@ -47,14 +47,14 @@ Para configurar o componente de formato ER da configuração, selecione **Design
 
 Você deve adicionar um componente **Arquivo\\do Excel** ao formato ER configurado para gerar um documento de saída no formato Excel.
 
-![Componente Arquivo\do Excel](./media/er-excel-format-add-file-component.png)
+![Componente Arquivo\do Excel.](./media/er-excel-format-add-file-component.png)
 
 Para especificar o layout do documento de saída, anexe uma pasta de trabalho do Excel com a extensão .xlsx ao componente **Arquivo\\do Excel** como o modelo para documentos de saída.
 
 > [!NOTE]
 > Ao anexar manualmente um modelo, você deve usar um [tipo de documento](../../../fin-ops-core/fin-ops/organization-administration/configure-document-management.md#configure-document-types) que tenha sido configurado com essa finalidade nos [parâmetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
 
-![Adição de um anexo ao componente Arquivo\do Excel](./media/er-excel-format-add-file-component2.png)
+![Adição de um anexo ao componente Arquivo\do Excel.](./media/er-excel-format-add-file-component2.png)
 
 Para especificar como o modelo anexado será preenchido quando você executar o formato ER configurado, adicione componentes aninhados **Planilha**, **Intervalo** e **Célula** ao componente **Arquivo\\do Excel**. Cada componente aninhado deve estar associado a um item nomeado do Excel.
 
@@ -62,7 +62,7 @@ Para especificar como o modelo anexado será preenchido quando você executar o 
 
 Você pode selecionar **Importar do Excel** na guia **Importar** do Painel de Ações para importar um novo modelo para um formato ER em branco. Neste exemplo, um componente **Arquivo\\do Excel** será criado automaticamente e o modelo importado será anexado a ele. Todos os componentes ER obrigatórios também serão criados automaticamente, com base na lista de itens nomeados do Excel que forem descobertos.
 
-![Seleção de Importar do Excel](./media/er-excel-format-import-template.png)
+![Seleção de Importar do Excel.](./media/er-excel-format-import-template.png)
 
 > [!NOTE]
 > Se desejar criar o elemento opcional **Planilha** no formato ER editável, defina a opção **Criar elemento de formato de planilha do Excel** como **Sim**.
@@ -79,7 +79,7 @@ Na guia **Mapeamento** do designer de operação do ER, você pode configurar a 
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Verdadeiro** no tempo de execução ou se nenhuma expressão for configurada, a planilha apropriada será colocada no documento gerado.
 - Se uma expressão da propriedade **Habilitado** estiver configurada para retornar **Falso** no tempo de execução, o documento gerado não conterá uma planilha.
 
-![Exemplo de um componente Planilha](./media/er-excel-format-sheet-component.png)
+![Exemplo de um componente Planilha.](./media/er-excel-format-sheet-component.png)
 
 ## <a name="range-component"></a>Componente Intervalo
 
@@ -182,7 +182,7 @@ Você pode selecionar **Atualizar do Excel** na guia **Importar** do Painel de A
 >
 > Se o formato ER editável originalmente contiver elementos **Planilha**, será recomendável definir a opção **Criar elemento de formato de planilha do Excel** como **Sim** ao importar um modelo atualizado. Caso contrário, todos os elementos aninhados do elemento **Planilha** original serão criados do zero. Portanto, todas as associações dos elementos de formato recriados serão perdidas no formato ER atualizado.
 
-![Opção Criar elemento de formato de planilha do Excel na caixa de diálogo Atualizar do Excel](./media/er-excel-format-update-template.png)
+![Opção Criar elemento de formato de planilha do Excel na caixa de diálogo Atualizar do Excel.](./media/er-excel-format-update-template.png)
 
 Para saber mais sobre esse recurso, siga as etapas em [Modificar formatos de relatório eletrônico reaplicando modelos do Excel](modify-electronic-reporting-format-reapply-excel-template.md).
 
@@ -190,7 +190,7 @@ Para saber mais sobre esse recurso, siga as etapas em [Modificar formatos de rel
 
 Quando você valida um formato ER editável, uma verificação de consistência é realizada para saber se o nome do Excel está presente no modelo do Excel em uso no momento. Você será notificado sobre as inconsistências. Para algumas inconsistências, a opção de correção automática de problemas será oferecida.
 
-![Mensagem de erro de validação](./media/er-excel-format-validate.png)
+![Mensagem de erro de validação.](./media/er-excel-format-validate.png)
 
 ## <a name="control-the-calculation-of-excel-formulas"></a>Controlar o cálculo de fórmulas do Excel
 
@@ -209,7 +209,7 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 1. Use as configurações de ER fornecidas para [gerar](er-generate-printable-fti-forms.md) um documento da fatura de texto livre (FTI) imprimível.
 2. Analise o rodapé do documento gerado. Observe que ele contém informações sobre o número de página atual e o número total de páginas no documento.
 
-    ![Analisar o rodapé de um documento gerado no formato do Excel](./media/er-fillable-excel-footer-1.gif)
+    ![Analisar o rodapé de um documento gerado no formato do Excel.](./media/er-fillable-excel-footer-1.gif)
 
 3. No designer de formato ER, [abra](er-generate-printable-fti-forms.md#features-that-are-implemented-in-the-sample-er-format) o formato ER de exemplo para análise.
 
@@ -222,7 +222,7 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
 
     - O segundo componente **Cadeia de Caracteres** preenche o texto que contém o número de página atual e o número total de páginas no documento atual.
 
-    ![Analisar o componente de formato ER Rodapé na página Designer de formato](./media/er-fillable-excel-footer-2.png)
+    ![Analisar o componente de formato ER Rodapé na página Designer de formato.](./media/er-fillable-excel-footer-2.png)
 
 4. Personalize o formato ER de exemplo para modificar o rodapé da página atual:
 
@@ -237,14 +237,14 @@ Quando um documento de saída é gerado em um formato de pasta de trabalho do Mi
         1. Adicione um componente **Cadeia de Caracteres** que alinhe a data de processamento à direita e a apresente na fonte "Segoe UI Regular" de 8 pontos (**"&R&"Segoe UI,Regular"&8"**).
         2. Adicione um componente **Cadeia de Caracteres** que preencha a data de processamento em um formato personalizado (**"&nbsp;"&DATEFORMAT(SESSIONTODAY(), "yyyy-MM-dd")**).
 
-        ![Análise do componente de formato de ER Rodapé na página Designer de formato](./media/er-fillable-excel-footer-3.png)
+        ![Análise do componente de formato de ER Rodapé na página Designer de formato.](./media/er-fillable-excel-footer-3.png)
 
     4. [Preencha](er-quick-start2-customize-report.md#CompleteDerivedFormat) a versão de rascunho do formato ER personalizado da **Fatura de texto livre (Excel)** derivada.
 
 5. [Configure](er-generate-printable-fti-forms.md#configure-print-management) o Gerenciamento de impressão para usar o formato ER personalizado da **Fatura de texto livre (Excel)** derivada em vez do formato ER de exemplo.
 6. Gere um documento de impressão FTI e analise o rodapé do documento gerado.
 
-    ![Análise do rodapé de um documento gerado no formato do Excel](./media/er-fillable-excel-footer-4.gif)
+    ![Análise do rodapé de um documento gerado no formato do Excel.](./media/er-fillable-excel-footer-4.gif)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

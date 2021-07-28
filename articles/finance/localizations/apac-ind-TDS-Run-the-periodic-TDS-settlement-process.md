@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: cfab08a4190bf51518bd4a9b445b229a5081e87d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: bfa7dc9c2a86b5bd8783327c0e7cfa6b8b9ddd4c
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023017"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358329"
 ---
 # <a name="run-the-periodic-tds-settlement-process"></a>Executar o processo de liquidação de TDS periódico
 
@@ -31,7 +31,7 @@ Este tópico explica como liquidar o Imposto Deduzido na Origem (TDS) periódico
 
 1. Acesse **Imposto \> Declarações \> Imposto retido na fonte \> Pagamento de imposto retido na fonte**.
 
-    [![Caixa de diálogo Pagamento de imposto retido na fonte](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
+    [![Caixa de diálogo Pagamento de imposto retido na fonte.](./media/apac-ind-TDS-47.png)](./media/apac-ind-TDS-47.png)
 
 2. Na caixa de diálogo **Pagamento de imposto retido na fonte**, no campo **Tipo de imposto**, selecione **TDS**.
 3. No campo **Número da Conta de Imposto (TAN)**, selecione o Número da Conta de Imposto (TAN) para o qual executar o processo de liquidação.

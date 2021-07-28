@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 97dbb625fc312548fb266b2ef6643a2b8e2b0f81
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5750877"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351040"
 ---
 # <a name="er-migration-cleanup"></a>Limpeza de migração ER 
 
@@ -30,11 +30,11 @@ Quando você gerencia as instâncias do Finance, pode decidir migrar sua instân
 
 Se você tentar executar um formato de ER que usa um modelo para gerar documentos comerciais, ocorrerá uma exceção, e você será notificado sobre o modelo ausente. Você também é orientado a usar a opção de limpeza de migração ER para excluir e depois reimportar a configuração de formato de ER que contém o modelo.
 
-[![Executando um formato ER](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
+[![Execução de um formato ER.](./media/er-migration-cleanup-run.png)](./media/er-migration-cleanup-run.png)
 
 Você receberá um erro semelhante se navegar até a página **Configurações** (**Administração da organização** \> **Relatório eletrônico** \> **Configurações**) e na árvore de configurações, tente excluir uma configuração de formato ER que usa um modelo.
 
-[![Exclusão um formato ER](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
+[![Exclusão um formato ER.](./media/er-migration-cleanup-delete.png)](./media/er-migration-cleanup-delete.png)
 
 Conclua as etapas a seguir para solucionar problemas com modelos ER que não podem ser acessados.
 
@@ -50,7 +50,7 @@ Conclua as etapas a seguir para solucionar problemas com modelos ER que não pod
 >
 > Se você usar a opção **Limpeza de migração** para excluir uma configuração de formato ER quando o modelo conhecido está disponível no armazenamento do Blob, você exclui somente artefatos de configuração relacionados no banco de dados do aplicativo. O arquivo físico do modelo no armazenamento de Blob permanece. Não é mais permitido substituir o arquivo no armazenamento de Blob. Para obter mais informações, consulte [KB4557217](https://fix.lcs.dynamics.com/Issue/Details?kb=4557217). Além disso, não será mais possível importar novamente as configurações excluídas usando a limpeza da migração neste ambiente. Para resolver esse problema, você precisa encontrar o arquivo correspondente no armazenamento Blob e excluí-lo manualmente.
 
-[![Importação de um formato ER](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
+[![Importação de um formato ER.](./media/er-migration-cleanup-import.png)](./media/er-migration-cleanup-import.png)
 
 Um problema semelhante pode ocorrer se você migrar sua instância do aplicativo para outro local que foi usado como um destino de migração mais de uma vez e para o qual o armazenamento de Blob já contém arquivos de modelo ER.
 

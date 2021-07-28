@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 2f7ad4f53917bb607afe84a2c457518c3f8f7a08
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7a9507cd7f2a1612ab4063d6307b72d8522619ba
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799093"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349415"
 ---
 # <a name="recall-order-operation-in-pos"></a>Cancelar operação de ordem no PDV
 
@@ -29,7 +29,7 @@ Para habilitar essa funcionalidade, ative a **Operação Cancelar ordem aprimora
 
 A configuração do botão da operação **Cancelar ordem** permite que as organizações implantem a operação com uma exibição predefinida.
 
-![Configuração da grade de botões](media/recallorderbuttongrid.png)
+![Configuração da grade de botões.](media/recallorderbuttongrid.png)
 
 As opções de vídeo são as seguintes.
 - **Nenhum** – essa opção implanta a operação sem nenhum vídeo específico. Quando um usuário abre a operação com essa configuração, ele será solicitado a procurar e encontrar ordens ou escolher um filtro de ordem predefinido.
@@ -42,11 +42,11 @@ Ao iniciar a operação **Cancelar ordem** no PDV, se o vídeo estiver configura
 - Selecione o ícone de **Pesquisar ordens** ou **Pesquisar e filtrar** na AppBar para usar o mecanismo de filtragem para localizar ordens que atendam aos critérios do filtro.
 - Escolha em um filtro predefinido do menu suspenso **Mostrar Ordens** (ordens a serem atendidas, ordens a serem retiradas ou ordens a serem remetidas).
 
-![RecallOrderMainMenu](media/recallordermain.png)
+![RecallOrderMainMenu.](media/recallordermain.png)
 
 Depois que os critérios de pesquisa forem aplicados, o aplicativo exibirá uma lista de ordens de venda conciliadas. É importante observar que, ao usar as opções de pesquisa/filtro, as ordens recuperadas não precisam ser ordens vinculadas ao armazenamento atual do usuário. Este processo de pesquisa recuperará e exibirá qualquer ordem de cliente correspondente aos critérios de pesquisa, mesmo que a ordem tenha sido criada ou definida para ser preenchida por outra loja/canal ou localização de depósito.
 
-![RecallOrderDetail](media/orderrecalldetail.png)
+![RecallOrderDetail.](media/orderrecalldetail.png)
 
 Um usuário pode selecionar uma ordem na lista para exibir detalhes adicionais. O painel de informações, no lado direito da tela, exibe especificações sobre a ordem selecionada, incluindo detalhes da linha da ordem, detalhes de entrega e detalhes de preenchimento.
 

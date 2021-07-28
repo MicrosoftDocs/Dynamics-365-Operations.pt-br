@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0c4f028367c894c54392963ffc4f6a0f0c04c03a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5795252"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354580"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Atribuir listas de tarefas a lojas ou funcionários
 
@@ -45,7 +45,7 @@ Para iniciar o processo de atribuição de uma lista de tarefas, siga estas etap
 
 A ilustração a seguir mostra um exemplo de como localizar e selecionar armazenamentos na caixa de diálogo **Iniciar processo**.
 
-![Localizando e selecionando armazenamentos na caixa de diálogo Iniciar processo](media/HQ-Assign-Tasks-Lists.png)
+![Localizando e selecionando armazenamentos na caixa de diálogo Iniciar processo.](media/HQ-Assign-Tasks-Lists.png)
 
 ## <a name="assign-task-lists-on-a-recurring-basis"></a>Atribuir listas de tarefas em uma base recorrente
 
@@ -62,7 +62,7 @@ A ilustração a seguir mostra um exemplo de como localizar e selecionar armazen
 
 A ilustração a seguir mostra um exemplo de como inserir critérios de frequência na caixa de diálogo **Definir recorrência**.
 
-![Inserindo critérios de frequência na caixa de diálogo Definir recorrência](media/HQ-Assign-Tasks-Lists-Recurrently.png)
+![Inserindo critérios de frequência na caixa de diálogo Definir recorrência.](media/HQ-Assign-Tasks-Lists-Recurrently.png)
 
 ## <a name="track-task-list-status"></a>Rastrear status da lista de tarefas
 

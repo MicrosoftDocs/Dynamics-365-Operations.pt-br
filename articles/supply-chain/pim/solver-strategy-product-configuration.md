@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 82332a8ac8a68f5a9092ae08a094514827f39113
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d351066b0092318275491d933b7b90089c6855b4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812706"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359924"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
@@ -50,7 +50,7 @@ Estudos reais de implementação do cliente mostraram que uma alteração na est
 
 Para alterar a estratégia do agente de resolução, na página **Modelos de configuração de produto**, no Painel de Ação, selecione **Propriedades do modelo**. Em seguida, na caixa de diálogo **Editar os detalhes do modelo**, selecione uma estratégia do agente de resolução.
 
-[![Alterando a estratégia do agente de resolução](./media/solver-strategy.png)](./media/solver-strategy.png)
+[![Alterando a estratégia do agente de resolução.](./media/solver-strategy.png)](./media/solver-strategy.png)
 
 Atualmente, não há uma lógica que detecte automaticamente qual estratégia do agente de resolução será a mais eficiente para a configuração de produto com base em restrições. Portanto, você deve testar as estratégias do agente de resolução uma a uma.
 

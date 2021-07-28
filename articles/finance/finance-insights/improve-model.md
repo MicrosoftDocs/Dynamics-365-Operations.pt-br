@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 184a1cb5d3851e26b41340b711c51ef38e06eb53
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186633"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355667"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Melhorar o modelo de previsão (versão preliminar)
 
@@ -33,7 +33,7 @@ Este tópico descreve recursos que podem ser usados para melhorar o desempenho d
 
 Primeiro, selecione um ou mais dos três resultados possíveis para faturas: **No prazo**, **Atrasado** e **Muito atrasado**. Todos os três resultados devem ser selecionados. Se você desmarcar a seleção de qualquer um dos resultados, as faturas serão filtradas do processo de treinamento e a precisão da previsão será reduzida.
 
-[![Confirmação de resultados](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
+[![Confirmação de resultados.](./media/confirm-3-outcomes.png)](./media/confirm-3-outcomes.png)
 
 Se a sua organização exigir apenas dois resultados, altere os limites **Atrasado** e **Muito atrasado** para 0 (zero) dias. Dessa forma, você efetivamente recolhe a predição a um estado binário de **No prazo** ou **Atrasado**.
 
@@ -51,7 +51,7 @@ As seções a seguir mostram os campos disponíveis para as entidades de fatura 
 
 A ilustração a seguir mostra os campos disponíveis para a tabela de fatura.
 
-[![Campos disponíveis para a tabela de fatura](./media/available-fields.png)](./media/available-fields.png)
+[![Campos disponíveis para a tabela de fatura.](./media/available-fields.png)](./media/available-fields.png)
 
 Os campos a seguir não devem ser selecionados para treinamento:
 
@@ -66,7 +66,7 @@ Os campos a seguir não devem ser selecionados para treinamento:
 
 A ilustração a seguir mostra os campos disponíveis para a tabela de clientes.
 
-[![Campos disponíveis para a tabela de clientes](./media/related-entities.png)](./media/related-entities.png)
+[![Campos disponíveis para a tabela de clientes.](./media/related-entities.png)](./media/related-entities.png)
 
 O campo a seguir não deve ser selecionados para treinamento:
 
@@ -74,8 +74,8 @@ O campo a seguir não deve ser selecionados para treinamento:
 
 ## <a name="filters"></a>Filtros
 
-No momento, os filtros não dão suporte ao cenário Previsão de pagamento do cliente. Portanto, selecione **Ignorar esta etapa** e prossiga para a página de resumo.
+Você pode filtrar as faturas que são usadas para treinamento, definindo critérios de filtragem para campos na fatura ou nas tabelas do cliente. Por exemplo, você pode definir um limite para incluir somente faturas em que o total seja igual a ou exceda um valor específico. Como alternativa, você pode excluir as faturas associadas a clientes de um grupo de clientes específico.
 
-[![Modelo de foco com filtros](./media/focus-model-with-filters.png)](./media/focus-model-with-filters.png)
+Para obter mais informações sobre como filtrar os dados, consulte [criar um modelo de previsão](https://docs.microsoft.com/ai-builder/prediction-create-model#filter-your-data).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

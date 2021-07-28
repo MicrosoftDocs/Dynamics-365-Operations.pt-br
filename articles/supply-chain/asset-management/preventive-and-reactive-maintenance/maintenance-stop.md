@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: b2162621968c5b1c3957ea1a1639e71439000918
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e9d024a5096b499b986ec2d5c38c0d6a2b7794d3
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837816"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356479"
 ---
 # <a name="maintenance-downtime-activities"></a>Atividades de tempo de inatividade de manutenção
 
@@ -40,7 +40,7 @@ Quando os ativos forem selecionados em um registro de tempo de inatividade de ma
 
 Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de inatividade de manutenção** > **Todas atividades do tempo de inatividade de manutenção** para abrir uma lista de todas as atividades do tempo de inatividade de manutenção e para ver algumas informações relacionadas às atividades. Clique em um link na coluna **Atividades do tempo de inatividade de manutenção** para abrir a exibição de detalhes. A ilustração a seguir mostra um exemplo da lista **Atividades do tempo de inatividade de manutenção**.
 
-![Figura 1](media/19-preventive-maintenance.png)
+![Figura 1.](media/19-preventive-maintenance.png)
 
 
 ## <a name="create-a-maintenance-downtime-activity"></a>Criar uma atividade do tempo de inatividade de manutenção
@@ -61,7 +61,7 @@ Clique em **Gerenciamento de ativos** > **Comum** > **Atividades do tempo de ina
 
 A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades do tempo de inatividade de manutenção**.
 
-![Figura 2](media/20-preventive-maintenance.png)
+![Figura 2.](media/20-preventive-maintenance.png)
 
 >[!NOTE]
 >As linhas de agendamento de manutenção e dos trabalhos de manutenção da ordem de serviço relacionadas aos ativos selecionados são atualizadas automaticamente, se novas ordens de serviço ou as linhas de agendamento de manutenção forem criadas após você ter criado a atividade do tempo de inatividade de manutenção. Por exemplo, se você agendar planos de manutenção ou rounds de manutenção nos ativos relacionados dois dias após a atividade do tempo de inatividade de manutenção ter sido criada, novas linhas de agendamento de manutenção são adicionadas automaticamente à atividade do tempo de inatividade de manutenção. 
@@ -72,7 +72,7 @@ A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades
 
 10. Clique em **OK** para iniciar o cálculo. O número total de horas é mostrado na visão geral **Capacidade máxima**. Na guia **Capacidade máxima** > grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de horas previstas. A ilustração a seguir mostra os resultados de um cálculo de **Capacidade máxima**.
 
-![Figura 3](media/21-preventive-maintenance.png)
+![Figura 3.](media/21-preventive-maintenance.png)
 
 11. Depois de obter uma visão geral da capacidade máxima, se quiser fazer ajustes em trabalhos de manutenção da ordem de serviço ou em linhas de agendamento de manutenção, retorne à exibição de detalhes **Atividades do tempo de inatividade de manutenção** e selecione as linhas que deseja ajustar nas FastTabs **Trabalhos de manutenção da ordem de serviço resultantes** e **Linhas de agendamento de manutenção**.
 
@@ -89,7 +89,7 @@ A ilustração a seguir mostra um exemplo da exibição de detalhes **Atividades
 
 16. Clique em **OK** para iniciar o cálculo. O número total de previsões do item é mostrado na visão geral **Previsão do item**. Na guia **Previsão de itens** > grupos do Painel de Ações **Agrupar por...**, clique nos botões relevantes para obter uma visão geral mais detalhada da alocação de itens previstos. A ilustração a seguir mostra os resultados de um cálculo de **Previsão de itens**.
 
-![Figura 4](media/22-preventive-maintenance.png)
+![Figura 4.](media/22-preventive-maintenance.png)
 
 - Você pode copiar ativos de uma atividade do tempo de inatividade de manutenção para outra. Em **Todas atividades do tempo de inatividade de manutenção**, selecione o botão **Copiar atividades do tempo de inatividade de manutenção** e faça suas seleções nos campos **Atividades iniciais do tempo de inatividade de manutenção** e **Atividades finais do tempo de inatividade de manutenção** e clique em **OK**.
 - Em **Todas atividades do tempo de inatividade de manutenção**, clique no botão **Linhas de agendamento de manutenção** ou no botão **Ordens de serviço ativas** para abrir as listas relacionadas e exibi-las na atividade do tempo de inatividade de manutenção.

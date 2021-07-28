@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 8a946a8325afebf76639991c60135d7425f5f211
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eca0d30903985126412e1ae0b8e3232c3e4700f4
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826753"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351675"
 ---
 # <a name="online-financial-consolidations"></a>Consolidações financeiras online
 
@@ -31,7 +31,7 @@ Depois de concluir sua instalação, insira os detalhes da consolidação na pá
 ## <a name="criteria"></a>Critérios
 Na guia **Critérios** da página **Consolidar [Online]**, você define as contas, os períodos e os tipos de dados que estão sendo consolidados.
 
-![Guia Critérios](./media/criteria-consolidate-online.png "Guia Critérios")
+![Guia Critérios.](./media/criteria-consolidate-online.png "Guia Critérios")
 
 Aqui está uma explicação sobre os vários campos nessa guia:
 
@@ -57,16 +57,16 @@ Aqui está uma explicação sobre os vários campos nessa guia:
 ## <a name="financial-dimensions"></a>Dimensões financeiras
 Na guia **Dimensões financeiras**, você define as dimensões que devem ser incluídas na empresa de consolidação. Para selecionar uma dimensão, defina o campo **Especificação** como **Dimensão** e defina a ordem da dimensão na empresa de consolidação.
 
-![Guia Dimensões financeiras](./media/financial-dimensions-cons.png "Guia Dimensões financeiras")
+![Guia Dimensões financeiras.](./media/financial-dimensions-cons.png "Guia Dimensões financeiras")
 
 Independentemente da ordem que você definir, a **Conta principal** será sempre o primeiro segmento.
 
 ## <a name="legal-entities"></a>Entidades legais
 Na guia **Entidades legais**, você define as empresas que devem ser incluídas na empresa de consolidação. Você também define a porcentagem de participação das empresas. Se você especificar a participação em menos de 100%, o percentual especificado será acumulado para a empresa de consolidação. Para todas as diferenças de conversão, o campo **Tipo de contas das diferenças de conversão** será usado para selecionar a conta principal de instalação na página **Contas para transações automáticas** .
 
-![Guia Entidades legais](./media/legal-entities-cons.png "Guia Entidades legais")
+![Guia Entidades legais.](./media/legal-entities-cons.png "Guia Entidades legais")
 
-![Página Contas para transações automáticas](./media/accounts-for-automatic-cons.png "Página Contas para transações automáticas")
+![Página Contas para transações automáticas.](./media/accounts-for-automatic-cons.png "Página Contas para transações automáticas")
 
 ## <a name="elimination"></a>Eliminação
 Na guia **Eliminação**, você tem três opções para processar eliminações:
@@ -75,7 +75,7 @@ Na guia **Eliminação**, você tem três opções para processar eliminações:
 - Selecione a regra de eliminação e, em seguida, no campo **Opções da proposta**, selecione **Lançar somente**. Esta opção processará a eliminação durante o processo de consolidação e lançará tudo em uma etapa.
 - Use um diário de eliminação para executar uma proposta de eliminação separada do processo de consolidação.
 
-![Guia Eliminação](./media/elimination-cons-onl.png "Guia Eliminação")
+![Guia Eliminação.](./media/elimination-cons-onl.png "Guia Eliminação")
 
 Para obter mais informações sobre eliminações, consulte [Regras de eliminação](./elimination-rules.md).
 
@@ -86,7 +86,7 @@ Na guia **Conversão de moeda**, você define a entidade legal, a conta, o tipo 
 - **Data da transação** – A data de cada transação será usada para selecionar uma taxa de câmbio. Essa opção é a mais usada normalmente para ativos fixos e é também conhecida como uma taxa histórica. Você não terá uma visualização da taxa, porque haverá várias taxas para diversas transações no intervalo de conta.
 - **Taxa definida pelo usuário** – Após selecionar esta opção, você poderá inserir a taxa de câmbio que deseja. Esta opção pode ser útil para as taxas de câmbio médias ou se você estiver realizando uma consolidação em relação a uma taxa de câmbio fixa.
 
-![Guia Conversão de moeda](./media/currency-translation-cons-online.png "Guia Conversão de moeda")
+![Guia Conversão de moeda.](./media/currency-translation-cons-online.png "Guia Conversão de moeda")
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 78ab17952801a1d77f321e212bb61e9b45d93216
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 2406df379084fefd4e1ca33c271b69f4dafeb5b5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189193"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358896"
 ---
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
@@ -136,7 +136,7 @@ A primeira página móvel que você deve criar pela lista de faturas atribuídas
 
 1.  Na URL, substitua o nome do item de menu por **VendMobileInvoiceAssignedToMeListPage** para abrir a versão móvel da página da lista **Faturas de fornecedor pendentes atribuídas a mim** no módulo **Contas a pagar**. Dependendo do número de faturas atribuídas a você no sistema, esta página mostrará essas faturas. Para encontrar uma fatura específica, você pode usar o filtro à esquerda. Entretanto, não exigimos uma fatura específica para este exemplo. Nós exigimos apenas algumas faturas atribuídas a você que permitirão que você crie a página móvel. Novas páginas disponíveis foram criadas especificamente para desenvolvimento de cenários móveis para fatura de fornecedor. Portanto, você deve usar essas páginas. A URL deve ser parecida com a URL a seguir e, depois de inserida, a página mostrada na ilustração deverá ser exibida: https://&lt;suaURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile 
 
-    [![Página Faturas de fornecedor atribuídas a mim](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+    [![Página Faturas de fornecedor atribuídas a mim.](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
     
 2.  Clique no botão **Configurações** (imagem) na parte superior à direita da página e clique em **Aplicativo móvel**
 3.  Selecione seu espaço de trabalho e clique em **Editar**
@@ -145,7 +145,7 @@ A primeira página móvel que você deve criar pela lista de faturas atribuídas
 6.  Clique em **Concluído**.
 7.  No desenvolvedor móvel, na guia **Campos**, clique em **Selecionar campos**. As colunas da página de lista devem relembrar a ilustração a seguir. 
 
-    [![Colunas na página Faturas de fornecedor pendentes atribuídas a mim](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
+    [![Colunas na página Faturas de fornecedor pendentes atribuídas a mim.](./media/mobile-invoice-approvals02-1024x117.png)](./media/mobile-invoice-approvals02.png)
     
 8.  Adicionar as colunas necessárias da página de listagem que deve ser exibida aos usuários na página móvel. A ordem em que você adicionar é a ordem em que os campos serão exibidos ao usuário final. A única maneira de alterar a ordem dos campos será selecionar novamente todos os campos. Com base nos requisitos deste cenário, estes oito campos são necessários. No entanto, alguns usuários podem considerar oito campos muita informação para se ter em um dispositivo móvel. Portanto, mostraremos apenas os campos mais importantes na exibição de lista móvel. Os demais campos aparecerão nos detalhes que criaremos posteriormente. Por hora, adicionaremos os campos a seguir. Clique no sinal de mais (**+**) nessas colunas para adicionar a página móvel.
     - Nome do Fornecedor
@@ -156,7 +156,7 @@ A primeira página móvel que você deve criar pela lista de faturas atribuídas
 
     Depois dos campos serem adicionados, a página móvel deve ser semelhante à ilustração a seguir. 
     
-    [![Página após os campos serem adicionados](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
+    [![Página após os campos serem adicionados.](./media/mobile-invoice-approvals03.png)](./media/mobile-invoice-approvals03.png)
 
 9.  Você também deve adicionar as seguintes colunas agora, para que possamos habilitar ações de fluxo de trabalho posteriormente.
     - Exibir tarefa concluída
@@ -175,7 +175,7 @@ A primeira página móvel que você deve criar pela lista de faturas atribuídas
 
 Para criar a página de detalhes da fatura para dispositivos móveis, use a página **VendMobileInvoiceHeaderDetails**. Observe que, dependendo do número de faturas que você possui no sistema, esta página exibe fatura mais antiga (a fatura criada primeiro.) Para encontrar uma fatura específica, você pode usar o filtro à esquerda. Entretanto, não exigimos uma fatura específica para este exemplo. Nós exigimos apenas alguns dados de fatura para que possamos criar a página móvel. 
 
-[![Página do fluxo de trabalho](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
+[![Página do fluxo de trabalho.](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
 1. Na URL, substitua o nome do item de menu por **VendMobileInvoiceHeaderDetails** para abrir o formulário
 
@@ -212,7 +212,7 @@ Para criar a página de detalhes da fatura para dispositivos móveis, use a pág
 
 11. Depois que todos os campos das duas etapas anteriores terem sido adicionados, clique em **Concluído**. A página deve ser semelhante à ilustração a seguir.
     
-    [![Ilustração mostrando outros campos adicionados](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Ilustração mostrando outros campos adicionados.](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 
 12. Clique em **Concluído** para sair do modo de edição.
 
@@ -318,11 +318,11 @@ Para adicionar ações de fluxo de trabalho, use a página **VendMobileInvoiceHe
 
 2. Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
 
-3. Selecione a página <strong>Detalhes da fatura** criada anteriormente e clique em **Editar**</strong>.
+3. Selecione a página <strong>Detalhes da fatura** criada anteriormente e clique em **Editar</strong>.
 
 4. Defina a opção **Gerenciamento de documento** para **Sim** como exibido abaixo. **Observação:** Se não houver requisitos para exibir os anexos no dispositivo móvel, você pode deixar essa opção definida como **Não**, que é a configuração padrão.
    
-   ![Gerenciamento de documentos](./media/docmanagement-216x300.png)
+   ![Gerenciamento de documentos.](./media/docmanagement-216x300.png)
 
 5. Clique em **Concluído** para sair do modo de edição.
 
@@ -339,7 +339,7 @@ Os requisitos para este cenário confirmam que haverá apenas distribuições ao
 
 1.  Na URL, substitua o nome do item de menu, como fez anteriormente. A página que aparece deve ser semelhante à ilustração a seguir.
 
-    [![Página de todas as distribuições](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
+    [![Página de todas as distribuições.](./media/mobile-invoice-approvals06.png)](./media/mobile-invoice-approvals06.png)
 
 2.  Abra o criador móvel a partir do botão **Configurações** (imagem).
 

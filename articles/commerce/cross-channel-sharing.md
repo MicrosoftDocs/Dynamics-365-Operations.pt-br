@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: de317c2fae4607f5b8b887dd5e866d812043dcd3
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799508"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349713"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar e usar o compartilhamento entre canais
 
@@ -48,15 +48,15 @@ Para habilitar o compartilhamento entre canais no construtor de sites do Commerc
 1. Acesse **Configurações do site \> Recursos**.
 1. Defina a opção para o recurso **Entre Canais** como **Ativado**.
 
-    ![Opção Entre Canais definida como Ativado no construtor de sites do Commerce](./media/enabling-cross-channel-sharing.png)
+    ![Opção Entre Canais definida como Ativado no construtor de sites do Commerce.](./media/enabling-cross-channel-sharing.png)
 
 Depois que você habilitar o compartilhamento entre canais, as informações entre canais aparecerão na seção **Canais** em **Configurações do site \> Recursos**, como mostra o exemplo na ilustração a seguir.
 
-![Informações sobre canais visíveis após o compartilhamento entre canais ser habilitado](./media/channels-cross-channel.png)
+![Informações sobre canais visíveis após o compartilhamento entre canais ser habilitado.](./media/channels-cross-channel.png)
 
 Além disso, depois de habilitar o compartilhamento entre canais, o campo **Canal** no canto superior direito do construtor de sites do Commerce incluirá uma opção **Loja Online Entre Canais** que pode ser usada para gerenciar conteúdo entre canais, conforme mostrado na ilustração a seguir.
 
-![Opção Loja Online Entre Canais no campo Canais após o compartilhamento entre canais ser habilitado](./media/cross-channel-dropdown.png)
+![Opção Loja Online Entre Canais no campo Canais após o compartilhamento entre canais ser habilitado.](./media/cross-channel-dropdown.png)
 
 ## <a name="create-and-use-cross-channel-content"></a>Criar e usar o conteúdo entre canais
 

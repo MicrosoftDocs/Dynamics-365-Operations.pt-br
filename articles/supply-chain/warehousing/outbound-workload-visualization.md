@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: f1a405f5bbf8728876213e6c726ae41ebf809626
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810477"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6351408"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 
@@ -60,7 +60,7 @@ Para configurar uma visualização de carga de trabalho de saída, siga estas et
     - **Dias a incluir** – Insira o número de dias no passado para o qual o gráfico deve ser gerado.
     - **Tipo de ordem de serviço** – Selecione os tipos de ordem de serviço de saída a serem filtrados.
 
-    ![Página Configurar filtros](media/work-viz-filters-1.png "Página Configurar filtros")
+    ![Página Configurar filtros.](media/work-viz-filters-1.png "Página Configurar filtros")
 
 1. Feche a página **Configurar filtros** para retornar à página **Visualizações de cargas de trabalho de saída**.
 
@@ -70,11 +70,11 @@ Para configurar uma visualização de carga de trabalho de saída, siga estas et
     - **Última atualização** – Este campo mostra a data e a hora da última atualização das informações do gráfico.
     - **Tempo estimado/real** – Se os padrões de mão de obra estiverem configurados no sistema, defina esta opção como *Sim* para mostrar os tempos de separação estimados acumulados na parte superior de cada coluna no gráfico. Se você não estiver usando padrões de mão de obra, essa opção não estará disponível.
 
-    ![Visualização de exemplo](media/work-viz-chart.png "Visualização de exemplo")
+    ![Visualização de exemplo.](media/work-viz-chart.png "Visualização de exemplo")
 
 1. Selecione qualquer barra no gráfico para exibir os detalhes da linha de trabalho associada.
 
-    ![Detalhes da linha de trabalho](media/work-viz-work-details.png "Detalhes da linha de trabalho")
+    ![Detalhes da linha de trabalho.](media/work-viz-work-details.png "Detalhes da linha de trabalho")
 
 ## <a name="example-outbound-workload-visualization-for-zones"></a>Exemplo: Visualização de carga de trabalho de saída para zonas
 
@@ -92,7 +92,7 @@ Para este exemplo, você deseja configurar uma visualização que mostre linhas 
 
 A ilustração a seguir mostra um exemplo do gráfico resultante.
 
-![Visualização Zona vs. Status do trabalho](media/work-viz-chart.png "Visualização Zona vs. Status do trabalho")
+![Visualização Zona vs. Status do trabalho.](media/work-viz-chart.png "Visualização Zona vs. Status do trabalho")
 
 Este gráfico mostra duas zonas chamadas **FLOOR** e **BULK**, além de uma zona chamada **Em branco**. A zona **Em branco** representa todas as linhas de trabalho que não são membros de nenhuma zona. O gráfico sempre mostra todos os dados filtrados não relacionados como **Em branco**, para fornecer o máximo de visibilidade possível. Na zona **FLOOR**, o gráfico mostra três linhas fechadas e quatro linhas abertas. Na zona **BULK**, o gráfico mostra quatro linhas fechadas, uma linha aberta e 24 linhas canceladas. Por fim, o gráfico mostra oito linhas fechadas que não fazem parte de nenhuma zona e, portanto, são listadas como **Em branco**.
 

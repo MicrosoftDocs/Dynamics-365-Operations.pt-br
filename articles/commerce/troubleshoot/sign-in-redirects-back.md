@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: a1d0ae4e487c391020947c607d5d7cb5d1ba6af4
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83b381e73d28dce0a438a37d5f8ed23b4957adf
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020594"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350369"
 ---
 # <a name="sign-in-link-redirects-back-to-an-e-commerce-site"></a>O link de entrada redireciona novamente para um site de comércio eletrônico
 
@@ -43,7 +43,7 @@ Para confirmar se a URL de resposta está configurada corretamente no aplicativo
 1. Selecione o aplicativo criado durante a configuração do Azure AD B2C.
 1. Em **URL de Resposta**, certifique-se de que a lista inclui entradas para a URL do domínio do site e para a URL gerada pelo comércio eletrônico, conforme mostrado no exemplo da ilustração a seguir.
 
-    ![Entradas da URL de resposta do Azure AD B2C](media/aad-b2c-reply-url.jpg)
+    ![Entradas da URL de resposta do Azure AD B2C.](media/aad-b2c-reply-url.jpg)
 
 > [!NOTE]
 > A URL de domínio do site e a URL gerada por comércio eletrônico devem estar em um formato de URL válido que não inclua barras à esquerda ou à direita.

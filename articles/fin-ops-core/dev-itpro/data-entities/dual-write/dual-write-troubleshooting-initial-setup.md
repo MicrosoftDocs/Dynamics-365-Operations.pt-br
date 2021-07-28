@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 9ffb1378eccf175fbb9bd84228f91ba606125a63
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753981"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350827"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -42,7 +42,7 @@ Este tópico fornece informações de solução de problemas para integração d
 
 Erros na página **Configurar link para Dataverse** geralmente são causados por configuração incompleta ou problemas de permissão. Verifique se toda a verificação de integridade foi aprovada na página **Configurar link para Dataverse**, conforme mostrado na ilustração a seguir. Não é possível vincular a dupla gravação, a menos que toda a verificação de integridade seja aprovada.
 
-![Verificação bem-sucedida de integridade](media/health_check.png)
+![Verificação bem-sucedida de integridade.](media/health_check.png)
 
 Você deve ter credenciais de administração de locatário do Azure AD para vincular os ambientes Finance and Operations e Dataverse. Depois de vincular os ambientes, os usuários podem fazer login usando suas credenciais de conta e atualizar um mapa de tabela existente.
 
@@ -77,7 +77,7 @@ Para garantir que a gravação dupla funcione corretamente, as empresas selecion
 4. Selecione a empresa que estava vinculada quando você configurou a gravação dupla.
 5. Verifique se a coluna **Equipe proprietária padrão** tem um valor. Na ilustração a seguir, a coluna **Padrão de propriedade da equipe** é definida como **Gravação dupla USMF**.
 
-    ![Verificando a equipe proprietária padrão](media/default_owning_team.png)
+    ![Verificando a equipe proprietária padrão.](media/default_owning_team.png)
 
 ## <a name="find-the-limit-on-the-number-of-legal-tables-or-companies-that-can-be-linked-for-dual-write"></a>Encontre o limite para o número de tabelas legais ou empresas que podem ser vinculadas para gravação dupla
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: faeaf0746532875d3517a208c9c338c112bf2c77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816874"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356667"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Imposto retido na fonte em transações de compra
 
@@ -64,15 +64,15 @@ O grupo de retenção de imposto na fonte padrão e o grupo de retenção de imp
 
 O valor temporário do imposto retido na fonte está disponível no campo **Imposto retido na fonte ajustado** da guia **Totais** na página **Ordem de compra**.
 
-![O imposto retido na fonte está incluído na ordem de compra](media/withholding-tax-adjusted.png)
+![O imposto retido na fonte está incluído na ordem de compra.](media/withholding-tax-adjusted.png)
 
 O imposto retido na fonte é calculado no **Diário de pagamentos do fornecedor**. Você pode ajustar manualmente os códigos aplicáveis de retenção de imposto na fonte, bem como os valores reais do imposto retido na fonte na guia **Imposto retido na fonte** na página **Liquidar transações**.
 
-![A retenção pode ser ajustada manualmente na página Liquidar transações](media/withholding-tax-vendor-payment-tab.png)
+![A retenção pode ser ajustada manualmente na página Liquidar transações.](media/withholding-tax-vendor-payment-tab.png)
 
 O valor do imposto retido na fonte derivado será deduzido do pagamento do fornecedor e lançado na **Conta do imposto retido na fonte** em um comprovante relacionado.
 
-![Conta do imposto retido na fonte mostrando um comprovante relacionado](media/withholding-tax-adjusted.png)
+![Conta do imposto retido na fonte mostrando um comprovante relacionado.](media/withholding-tax-adjusted.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

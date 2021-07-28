@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 0ece83a20a33a8f23e8700d1b5d680a11d64fea0
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c8c50a9a6f9f3c6582e9fd0f28080a3259faab21
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907708"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6349761"
 ---
 # <a name="how-workers-use-the-production-floor-execution-interface"></a>Como os trabalhadores usam a interface de execução de piso de produção
 
@@ -32,7 +32,7 @@ Antes que os funcionários possam começar a usar o dispositivo, um supervisor o
 
 Depois que o dispositivo tiver sido preparado, a página de entrada aparecerá nele. Essa página mostra informações sobre o status de trabalhos da célula de trabalho local. Essas informações são atualizadas periodicamente. Na página, os trabalhadores usam suas IDs de crachá para assinar. Embora os funcionários não precisem ter uma conta de usuário para o Supply Chain Management, eles devem ter uma conta de *trabalhador com tempo registrado* que possam usar para entrar.
 
-![Página de entrada de interface de execução de piso de produção](media/pfei-sign-in-page.png "Página de entrada de interface de execução de piso de produção")
+![Página de entrada de interface de execução de piso de produção.](media/pfei-sign-in-page.png "Página de entrada de interface de execução de piso de produção")
 
 As seções restantes deste tópico descrevem como os funcionários interagem com a interface.
 
@@ -40,7 +40,7 @@ As seções restantes deste tópico descrevem como os funcionários interagem co
 
 A guia **Todos os trabalhos** fornece uma lista de trabalhos que mostra todos os trabalhos de produção com o status *Não iniciado*, *Parado* ou *Iniciado*. (Este nome de guia é personalizável e pode ser diferente para o seu sistema.)
 
-![Guia Todos os trabalhos](media/pfei-all-jobs-tab.png "Guia Todos os trabalhos")
+![Guia Todos os trabalhos.](media/pfei-all-jobs-tab.png "Guia Todos os trabalhos")
 
 A lista de trabalhos tem as colunas a seguir. Os números correspondem aos números da ilustração anterior.
 
@@ -59,7 +59,7 @@ A lista de trabalhos tem as colunas a seguir. Os números correspondem aos núme
 
 A guia **Trabalhos ativos** mostra uma lista de todos os trabalhos que o trabalhador conectado já iniciou. (Este nome de guia é personalizável e pode ser diferente para o seu sistema.)
 
-![Guia Trabalhos ativos](media/pfei-active-jobs-tab.png "Guia Trabalhos ativos")
+![Guia Trabalhos ativos.](media/pfei-active-jobs-tab.png "Guia Trabalhos ativos")
 
 A lista de trabalhos ativos tem as colunas a seguir:
 
@@ -76,7 +76,7 @@ A lista de trabalhos ativos tem as colunas a seguir:
 
 A guia **Minha máquina** permite aos trabalhadores selecionar um ativo que esteja conectado a um recurso de máquina no conjunto de filtros na guia **Todos os trabalhos**. O trabalhador então pode exibir o estado e a integridade do ativo selecionado lendo valores de até quatro contadores selecionados e listas de solicitações de manutenção recentes e tempos de inatividade registrados. O trabalhador também pode solicitar manutenção para o ativo selecionado e registrar e editar o tempo de inatividade da máquina. (Este nome de guia é personalizável e pode ser diferente para o seu sistema.)
  
-![A guia Minha máquina](media/pfei-my-machine-tab.png "A guia Minha máquina")
+![A guia Minha máquina.](media/pfei-my-machine-tab.png "A guia Minha máquina")
 
 A guia **Minha máquina** tem as colunas a seguir. Os números correspondem aos números da ilustração anterior.
 
@@ -87,7 +87,7 @@ A guia **Minha máquina** tem as colunas a seguir. Os números correspondem aos 
 
 1. **Configurações** – selecione o ícone de engrenagem para abrir uma caixa de diálogo na qual é possível escolher os contadores a serem exibidos para o ativo de máquina selecionado. Os valores desses contadores são mostrados na parte superior da guia **Gerenciamento de ativos**. O menu **Configurações** (mostrado na captura de tela a seguir) permite habilitar até quatro contadores. Para cada contador que você deseja habilitar, use o campo de pesquisa na parte superior do bloco para selecionar um contador. O campo de pesquisa lista todos os contadores associados ao ativo selecionado na parte superior da página **Gerenciamento de ativos**. Defina cada contador para monitorar o valor **Agregado** ou o valor **Real** mais recente do contador. Por exemplo, se você definir um contador que monitora há quantas horas a máquina está sendo executada, deverá defini-lo como **Agregado**. Se você definir um contador para medir a temperatura ou a pressão atualizada mais recente, deverá defini-lo como **Real**. Selecione **OK** para salvar suas configurações e fechar a caixa de diálogo.
 
-    ![As configurações da guia Minha máquina](media/pfei-my-machine-tab-settings.png "As configurações da guia Minha máquina")
+    ![As configurações da guia Minha máquina.](media/pfei-my-machine-tab-settings.png "As configurações da guia Minha máquina")
 
 1. **Solicitar manutenção** – selecione este botão para abrir uma caixa de diálogo na qual é possível criar uma solicitação de manutenção. Você poderá fornecer uma descrição e uma observação. A solicitação será encaminhada para um usuário do Supply Chain Management, que poderá então converter a solicitação de manutenção em uma ordem de serviço de manutenção.
 1. **Registrar tempo de inatividade** – selecione este botão para abrir uma caixa de diálogo na qual é possível registrar o tempo de inatividade da máquina. Você poderá selecionar um código de motivo e inserir um período de data/hora para o tempo de inatividade. O registro de tempo de inatividade da máquina é usado para calcular a eficiência do ativo de máquina.
@@ -98,7 +98,7 @@ A guia **Minha máquina** tem as colunas a seguir. Os números correspondem aos 
 
 Os trabalhadores iniciam um trabalho de produção selecionando um trabalho na guia **Todos os trabalhos** e selecionando **Iniciar trabalho** para abrir a caixa de diálogo **Iniciar trabalho**.
 
-![Caixa de diálogo Iniciar trabalho](media/pfei-start-job-dialog.png "Caixa de diálogo Iniciar trabalho")
+![Caixa de diálogo Iniciar trabalho.](media/pfei-start-job-dialog.png "Caixa de diálogo Iniciar trabalho")
 
 Os trabalhadores usam a caixa de diálogo **Iniciar trabalho** para confirmar a quantidade de produção e, em seguida, iniciar o trabalho. Os trabalhadores podem ajustar a quantidade selecionando o campo **Quantidade** e usando o teclado numérico que aparece. Em seguida, os trabalhadores selecionam **Iniciar** para iniciar o trabalho. A caixa de diálogo **Iniciar trabalho** é fechada e o trabalho é adicionado à guia **Trabalhos ativos**.
 
@@ -108,13 +108,13 @@ Os trabalhadores podem iniciar um trabalho que esteja em qualquer status. Quando
 
 Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar as quantidades de mercadorias que foram produzidas selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Progresso do relatório**. Em seguida, na caixa de diálogo **Progresso do relatório**, o trabalhador insere a quantidade de mercadorias usando o teclado numérico. A quantidade está em branco por padrão. Depois que uma quantidade for inserida, o trabalhador poderá atualizar o status do trabalho para *Em andamento*, *Parado* ou *Concluído*.
 
-![Caixa de diálogo Progresso do relatório](media/pfei-report-progress-dialog.png "Caixa de diálogo Progresso do relatório")
+![Caixa de diálogo Progresso do relatório.](media/pfei-report-progress-dialog.png "Caixa de diálogo Progresso do relatório")
 
 ## <a name="reporting-scrap"></a>Como relatar sucata
 
 Quando um trabalhador concluir ou concluir parcialmente um trabalho, ele poderá relatar a sucata selecionando um trabalho na guia **Trabalhos ativos** e selecionando **Relatar sucata**. Em seguida, na caixa de diálogo **Relatar sucata**, o trabalhador insere a quantidade de sucata usando o teclado numérico. O trabalhador também seleciona um motivo (*Nenhum*, *Máquina*, *Operador* ou *Material*).
 
-![Caixa de diálogo Relatar sucata](media/pfei-report-scrap-dialog.png "Caixa de diálogo Relatar sucata")
+![Caixa de diálogo Relatar sucata.](media/pfei-report-scrap-dialog.png "Caixa de diálogo Relatar sucata")
 
 ## <a name="completing-a-job-and-starting-a-new-job"></a>Como concluir um trabalho e iniciar um novo
 

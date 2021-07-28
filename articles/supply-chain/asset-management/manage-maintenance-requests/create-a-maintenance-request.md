@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 147388d5052bd14851bbddfbb7fe25297a43f104
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: 861899e4cd7565309ba513408346912642b7fa9a
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102965"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354896"
 ---
 # <a name="create-maintenance-requests"></a>Crie solicitações de manutenção
 
@@ -52,7 +52,7 @@ A seção **Solicitações de manutenção de ativos** do painel **Informações
 11. No campo **Notas**, insira notas adicionais necessárias.
 12. Selecione **OK**.
 
-![Criar solicitação de manutenção](media/03-manage-maintenance-requests.png)
+![Criar solicitação de manutenção.](media/03-manage-maintenance-requests.png)
 
 ## <a name="subsequent-processing-of-maintenance-requests"></a>Processamento subsequente de solicitações de manutenção
 
@@ -67,7 +67,7 @@ Na exibição de detalhes, é possível atualizar várias informações. Eis alg
 - Selecione um tipo de trabalho de manutenção e, se essas informações forem relevantes, uma grade de trabalho de manutenção relacionada e um comércio de trabalho.
 - Nos campos **Latitude** e **Longitude**, insira coordenadas geográficas. Todas as coordenadas adicionadas a uma solicitação de manutenção são transferidas automaticamente a uma ordem de serviço relacionada. 
 
-![Atualizar solicitação de manutenção](media/04-manage-maintenance-requests.png)
+![Atualizar solicitação de manutenção.](media/04-manage-maintenance-requests.png)
 
 > [!NOTE]
 > Se você selecionar um ativo ao criar uma solicitação de manutenção, poderá adicionar uma falha no ativo. Quando a solicitação de manutenção for criada, você poderá adicionar mais falhas, conforme necessário. Para adicionar falhas, selecione **Falha de ativo** na página **Todas as solicitações de manutenção**.

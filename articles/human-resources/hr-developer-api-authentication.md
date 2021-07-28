@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4e73438170294863b7aa092cf1fc027787f57c70
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 87e9779dc47494583ad4a299206bada4b85c6a15
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054371"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6360463"
 ---
 # <a name="authentication"></a>Autenticação
 
@@ -87,7 +87,7 @@ GET https://{cluster}.hr.talent.dynamics.com/namespaces/{namespace_guid}/data/Jo
 
 6. Selecione **Registrar**.
 
-   [![Registrando um novo aplicativo no portal do Azure](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
+   [![Registrando um novo aplicativo no portal do Azure.](media/api-new-app-registration-expanded.png)](media/api-new-app-registration-expanded.png#lightbox)
 
 O Azure AD atribui uma ID de aplicativo exclusiva (ID de cliente) ao seu aplicativo e o leva à página **Visão geral** do seu aplicativo. Para adicionar mais recursos ao aplicativo, você pode selecionar outras opções de configuração, como opções para identificação de marca, certificados e segredos.
 

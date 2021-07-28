@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b901622bbfc8d6b3066879f6456a4ab618ca4076
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: d6854c11822e07ff06426b7a35eac86cdc0e9b06
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117209"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356893"
 ---
 # <a name="apply-display-settings-for-product-dimensions"></a>Aplicar configurações de exibição para dimensões do produto
 
@@ -33,7 +33,7 @@ O Dynamics 365 Commerce oferece suporte a dimensões de tamanho, estilo e cor pa
 
 No construtor de sites do Commerce, as configurações de dimensão são definidas em **Configurações do Site \> Extensões \> Configurações da Dimensão**. A ilustração a seguir mostra um exemplo das configurações de dimensão no construtor de sites.
 
-![Exemplo de configurações de site no construtor de sites do Commerce](./dev-itpro/media/swatch_site_settings.PNG)
+![Exemplo de configurações de site no construtor de sites do Commerce.](./dev-itpro/media/swatch_site_settings.PNG)
 
 Duas configurações de dimensão estão disponíveis:
 
@@ -41,13 +41,13 @@ Duas configurações de dimensão estão disponíveis:
 
     A ilustração a seguir mostra um exemplo em que um PDP em um site de comércio eletrônico inclui amostras de cor e tamanho. Neste exemplo, um código hexadecimal é configurado para a dimensão de cor. Portanto, as amostras são mostradas como cores. No entanto, nem um código hexadecimal nem uma URL de imagem estão configurados para a dimensão de tamanho. Portanto, o texto é exibido.
 
-    ![Exemplo da dimensão de cor mostrada como amostras em uma página de detalhes de produtos de comércio eletrônico](./dev-itpro/media/swatch_pdp.png)
+    ![Exemplo da dimensão de cor mostrada como amostras em uma página de detalhes de produtos de comércio eletrônico.](./dev-itpro/media/swatch_pdp.png)
 
 - **Dimensões a serem exibidas no cartão de produto** – especifique quais dimensões devem aparecer em cartões de produtos que são mostrados nas listas e nas páginas de listagem. Antes que uma dimensão possa aparecer em um cartão de produto, essa configuração deve ser habilitada para essa dimensão. A configuração **Dimensões a serem exibidas como imagem** também deve ser habilitada. O comportamento de seleção de amostras em cartões de produto é otimizado para a dimensão de cor. Para outras dimensões, uma extensão de exibição pode ser necessária para personalizar o comportamento de seleção de amostra.
 
     A ilustração a seguir mostra um exemplo onde uma página de listagem em um site de comércio eletrônico contém cartões de produto que incluem amostras de cores.
 
-    ![Exemplo da dimensão de cor mostrada como amostras em uma página de lista de comércio eletrônico](./dev-itpro/media/swatch_searchresults.PNG)
+    ![Exemplo da dimensão de cor mostrada como amostras em uma página de lista de comércio eletrônico.](./dev-itpro/media/swatch_searchresults.PNG)
 
 Para obter informações sobre como configurar dimensões de produto para que sejam mostradas como amostras nas páginas do site, consulte [Configurar valores de dimensão do produto para serem exibidos como amostras](./dev-itpro/dimensions-swatch.md).
 

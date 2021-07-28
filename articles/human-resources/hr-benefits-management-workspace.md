@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cf2c41af6aa8e77eff819cfacc3459ead290642b
-ms.sourcegitcommit: 74e47075eab2b0b28f82b0d57f439719847ecb01
+ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/07/2021
-ms.locfileid: "6193422"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353605"
 ---
 # <a name="benefits-management-workspace"></a>Espaço de trabalho Gerenciamento de benefícios
 
@@ -31,7 +31,7 @@ ms.locfileid: "6193422"
 Este tópico descreve o espaço de trabalho **Gerenciamento de benefícios** no Dynamics 365 Human Resources.
 
 > [!NOTE]
-> Para exibir o espaço de trabalho **Gerenciamento de benefícios**, você deve primeiro habilitar o recurso **(Versão preliminar) Espaço de trabalho de gerenciamento de benefícios** no Gerenciamento de recursos. Para obter mais informações sobre como habilitar os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br><br>![Habilitar espaço de trabalho Gerenciamento de benefícios](./media/hr-benefits-management-workspace-enable.png)
+> Para exibir o espaço de trabalho **Gerenciamento de benefícios**, você deve primeiro habilitar o recurso **(Versão preliminar) Espaço de trabalho de gerenciamento de benefícios** no Gerenciamento de recursos. Para obter mais informações sobre como habilitar os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br><br>![Habilitar espaço de trabalho Gerenciamento de benefícios.](./media/hr-benefits-management-workspace-enable.png)
 
 O espaço de trabalho **Gerenciamento de benefícios** fornece uma exibição rápida dos itens de benefícios que exigem sua atenção. Nesta página, você pode ver:
 
@@ -43,13 +43,13 @@ O espaço de trabalho **Gerenciamento de benefícios** fornece uma exibição r�
 - Trabalhadores com eventos de vida ativos
 - Trabalhadores com inscrições abertas que não optaram por planos
 
-![Espaço de trabalho de gerenciamento de benefícios](./media/hr-benefits-management-workspace.png)
+![Espaço de trabalho de gerenciamento de benefícios.](./media/hr-benefits-management-workspace.png)
 
 ## <a name="view-action-items"></a>Exibir itens de ação
 
 Você pode exibir itens de ação selecionando um bloco ou uma guia. Se você selecionar uma guia, poderá exibir e selecionar trabalhadores na página do espaço de trabalho.
 
-![Itens de ação](./media/hr-benefits-management-workspace-action-items.png)
+![Itens de ação.](./media/hr-benefits-management-workspace-action-items.png)
 
 Se você selecionar um bloco, vá para a página dessa área. Por exemplo, a seleção de um desses blocos exibe a página **Planos de benefícios do trabalhador**, filtrada para os funcionários nos quais você precisa executar uma ação:
 
@@ -58,21 +58,21 @@ Se você selecionar um bloco, vá para a página dessa área. Por exemplo, a sel
 - **Inscrito em benefícios**
 - **Nova contratação não inscrita**
 
-![Planos de benefícios para o trabalhador](./media/hr-benefits-management-workspace-plans.png)
+![Planos de benefícios para o trabalhador.](./media/hr-benefits-management-workspace-plans.png)
 
 A seleção do bloco **Eventos de vida ativos** ou **Eventos de vida futuros** leva você a uma lista de eventos de vida ativos ou futuros.
 
-![Eventos de vida](./media/hr-benefits-management-workspace-life-events.png)
+![Eventos de vida.](./media/hr-benefits-management-workspace-life-events.png)
 
 ## <a name="processing"></a>Processando
 
 Para processar a qualificação da inscrição, eventos de vida ou atualizações da alteração de taxa, selecione o item apropriado na barra de navegação.
 
-![Processamento](./media/hr-benefits-management-workspace-processing.png)
+![Processamento.](./media/hr-benefits-management-workspace-processing.png)
 
 Para exibir resultados do processo, selecione **Resultados do processo** na página.
 
-![Resultados do processo](./media/hr-benefits-management-workspace-process-results.png)
+![Resultados do processo.](./media/hr-benefits-management-workspace-process-results.png)
 
 Para obter mais informações sobre o processamento de benefícios, consulte:
 
@@ -86,13 +86,13 @@ Para obter mais informações sobre o processamento de benefícios, consulte:
 
 Para exibir um período de benefícios diferente, selecione-o no menu suspenso **Período**.
 
-![Alterar período](./media/hr-benefits-management-workspace-period.png)
+![Alterar período.](./media/hr-benefits-management-workspace-period.png)
 
 ## <a name="view-more-options"></a>Exibir mais opções
 
 Para exibir mais informações e ações que podem ser executadas, selecione **Links**.
 
-![Links](./media/hr-benefits-management-workspace-links.png)
+![Links.](./media/hr-benefits-management-workspace-links.png)
 
 ## <a name="see-also"></a>Consulte também
 

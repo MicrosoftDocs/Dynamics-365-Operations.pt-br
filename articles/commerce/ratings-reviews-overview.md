@@ -8,19 +8,19 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: v-chgri
-ms.custom: ''
+ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0788091755fb784621e972a0573f7004952e8e11
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 4622b2a26ac6193b1408c029389e4d9f55162418
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5792090"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6355796"
 ---
 # <a name="ratings-and-reviews-overview"></a>Visão geral de classificações e opiniões
 
@@ -39,7 +39,7 @@ A funcionalidade de classificações e opiniões no Dynamics 365 Commerce é uma
 
 A ilustração a seguir mostra como a solução de classificações e opiniões funcionam no Dynamics 365 Commerce.
 
-![Classificações e opiniões no Dynamics 365 for Commerce](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
+![Classificações e opiniões no Dynamics 365 for Commerce.](media/Dynamics-365-Commerce-Ratings-and-Reviews-Overview.jpg)
 
 A solução de classificações e opiniões no Dynamics 365 Commerce usa os Azure Cognitive Services para oferecer moderação automática de palavras profanas em 40 idiomas. Como a aprovação humana não é necessária, os custos de moderação são reduzidos. O sistema também fornece ferramentas do moderador que podem ser usadas para responder aos interesses, comentários e solicitações de desativação do cliente e tratar solicitações de dados dos usuários.
 

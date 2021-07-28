@@ -9,18 +9,20 @@ ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
-ms.custom: 97423
+ms.custom:
+- "97423"
+- intro-internal
 ms.assetid: ''
 ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 140977a6eac145f35870d3516a4b0d0c794afe4b
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894768"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356068"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Introdução ao Faturamento eletrônico para a Itália
 
@@ -59,7 +61,7 @@ Durante a configuração do RCS, você concluirá estas tarefas:
 
 4. Selecione o recurso **Exportação de Faturas Eletrônicas (TI)** e, em seguida, selecione **Importar**.
 
-![Importa o recurso de exportação de faturas eletrônicas (TI)](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
+![Importa o recurso de exportação de faturas eletrônicas (TI).](media/e-Invoicing-services-get-started-ITA-Select-Import-e-Invoicing-feature.png)
 
 Quando você importa o recurso **Exportação de faturas eletrônicas (TI)** do Repositório global, todas as configurações descritas nas próximas seções também são importadas.
 
@@ -67,13 +69,13 @@ Quando você importa o recurso **Exportação de faturas eletrônicas (TI)** do 
 
 1. Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione **Novo**. 
 
-    ![Adicionar uma nova versão do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
+    ![Adicionar uma nova versão do recurso de faturamento eletrônico.](media/e-Invoicing-services-get-started-ITA-Select-New-e-Invoicing-feature-version.png)
 
     Em seguida, você configurará os formatos ER (relatório eletrônico) associados ao recurso de faturamento eletrônico.
 
 2. Na guia **Configurações**, selecione **Adicionar** para gerenciar as versões de configuração.
 
-    ![Gerenciar as versões de configuração do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
+    ![Gerenciar as versões de configuração do recurso de faturamento eletrônico.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-configurations.png)
 
     Nesta etapa, você está adicionando e configurando os formatos ER de arquivos diferentes que são usados para exportar faturas eletrônicas italianas. Para faturas eletrônicas italianas FatturaPA, use as seguintes configurações padrão ou as configurações personalizadas reais usadas para faturamento eletrônico:
 
@@ -85,17 +87,17 @@ Quando você importa o recurso **Exportação de faturas eletrônicas (TI)** do 
 3. Selecione uma configuração de arquivo de formato ER específica.
 4. Selecione **Editar** ou **Exibir** para abrir a página **Designer de formato**.
 
-    ![Abrir a página Designer de formato](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
+    ![Abrir a página Designer de formato.](media/e-Invoicing-services-get-started-ITA-Configuration-ER-format-designer.png)
 
 5. Use a página **Designer de formato** para editar e exibir as configurações do arquivo de formato ER.
 
-    ![Página do designer de formatos](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
+    ![Página do designer de formatos.](media/e-Invoicing-services-get-started-ITA-ER-format-designer.png)
 
 ## <a name="manage-the-e-invoicing-feature-setups"></a>Gerenciar as configurações do recurso de faturamento eletrônico
 
 - Na página **Recursos de faturamento eletrônico**, na guia **Configurações**, selecione **Adicionar**, **Excluir** ou **Editar** para gerenciar as configurações do recurso de faturamento eletrônico.
 
-![Gerenciar as configurações do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
+![Gerenciar as configurações do recurso de faturamento eletrônico.](media/e-Invoicing-services-get-started-ITA-Manage-e-Invoicing-feature-setup.png)
 
 Nesta etapa, você configura os eventos aplicáveis a faturas eletrônicas, incluindo a geração de arquivos de saída XML no formato **FatturaPA** e na assinatura digital (se necessário).
 
@@ -105,7 +107,7 @@ Nesta etapa, você configura os eventos aplicáveis a faturas eletrônicas, incl
 2. Selecione **Editar**.
 3. Na página **Configuração de versão do recurso**, selecione a guia **Ações** para gerenciar a lista de ações. As ações definem uma lista de operações que devem ser executadas na ordem sequencial para realizar a execução total do evento.
 
-    ![Guia Ações](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
+    ![Guia Ações.](media/e-Invoicing-services-get-started-ITA-Select-Actions.png)
 
     | ID de ação | Nome da ação        | Descrição da ação                                     |
     |-----------|--------------------|--------------------------------------------------------|
@@ -114,11 +116,11 @@ Nesta etapa, você configura os eventos aplicáveis a faturas eletrônicas, incl
 
 4. Selecione a guia **Regras de aplicabilidade** para exibir e manter as regras de aplicabilidade. As regras de aplicabilidade definem o contexto em que a ação será executada.
 
-    ![Guia Regras de aplicabilidade](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
+    ![Guia Regras de aplicabilidade.](media/e-Invoicing-services-get-started-ITA-Select-Applicability-rules.png)
 
 5. Selecione a guia **Variáveis** para exibir e manter as variáveis.
 
-    ![Guia Variáveis](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
+    ![Guia Variáveis.](media/e-Invoicing-services-get-started-ITA-Select-Variables.png)
 
 6. Defina as variáveis públicas necessárias para executar as ações.
 
@@ -133,7 +135,7 @@ As etapas e as configurações necessárias para definir a configuração do rec
 3. No campo **Efetivo a partir de**, selecione a data em que o ambiente deve entrar em vigor.
 4. Selecione **Habilitar**. 
 
-![Habilitar o ambiente de faturamento eletrônico](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
+![Habilitar o ambiente de faturamento eletrônico.](media/e-Invoicing-services-get-started-ITA-Enable-e-Invoicing-environment.png)
 
 ## <a name="publish-the-e-invoicing-feature"></a>Publicar o recurso de faturamento eletrônico
 
@@ -149,7 +151,7 @@ Você pode publicar o recurso de faturamento eletrônico alterando o status da v
 1. Na página **Recursos de faturamento eletrônico**, na guia **Versões**, selecione a versão do recurso de faturamento eletrônico que tem o status **Concluído**.
 2. Selecione **Alterar status \> Publicar**.
 
-![Alterar o status do recurso de faturamento eletrônico](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
+![Alterar o status do recurso de faturamento eletrônico.](media/e-Invoicing-services-get-started-ITA-Change-status-of-e-Invoicing-feature.png)
 
 ## <a name="set-up-electronic-invoicing-integration-in-finance"></a>Configurar integração do Faturamento eletrônico no Finance
 
@@ -170,7 +172,7 @@ Durante a configuração do Finance, você concluirá estas tarefas:
 1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
 2. Na guia **Recursos**, marque a caixa de seleção **Habilitado** na linha para a referência do recurso **IT00036**.
 
-![Ativar o recurso FatturaPA](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
+![Ativar o recurso FatturaPA.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Configurar documentos eletrônicos
 
@@ -185,7 +187,7 @@ Durante a configuração do Finance, você concluirá estas tarefas:
     - Para o **Diário de faturas de clientes**, selecione **Contexto de fatura de cliente**.
     - Para **Fatura de projeto**, selecione **Contexto de fatura de projeto**.
 
-![Configurar tipos de resposta](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
+![Configurar tipos de resposta.](media/e-Invoicing-services-get-started-ITA-Set-up-response-types.png)
 
 ## <a name="electronic-invoice-processing"></a>Processamento de fatura eletrônica
 
@@ -207,13 +209,13 @@ Você pode enviar os documentos manualmente, com base na demanda de documentos d
 2. Para o primeiro envio de qualquer documento, defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.
 3. Na Guia Rápida **Registros a serem incluídos**, selecione **Filtrar** para abrir a caixa de diálogo **Consulta**, na qual você pode criar uma consulta para selecionar documentos para envio.
 
-![Caixa de diálogo Enviar documentos eletrônicos](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
+![Caixa de diálogo Enviar documentos eletrônicos.](media/e-Invoicing-services-get-started-ITA-Submission-form.png)
 
 #### <a name="filter-query"></a>Consulta de filtro
 
 1. Na caixa de diálogo **Consulta**, configure as condições de filtragem para as faturas de venda e de projeto, ou deixe as condições em branco para incluir todas as faturas não enviadas.
 
-    ![Configurar critérios de filtro de envio](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
+    ![Configurar critérios de filtro de envio.](media/e-Invoicing-services-get-started-ITA-Set-up-Submission-filter-criteria.png)
 
 2. Selecione **OK** para fechar a caixa de diálogo **Consulta**.
 3. Selecione **OK** para enviar os documentos selecionados.
@@ -227,13 +229,13 @@ Você pode exibir os logs de envio para todos os documentos enviados.
 1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
 2. No campo **Tipo de documento**, selecione **Diário de faturas de clientes** ou **Fatura de projeto** para filtrar os documentos eletrônicos necessários.
 
-    ![Selecionar um tipo de documento para exibir os logs de envio](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
+    ![Selecionar um tipo de documento para exibir os logs de envio.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)
 
     O valor mostrado na coluna **Status do envio** representa o status do processo de envio. Ele indica se o processo foi executado como configurado e se uma ação adicional é necessária.
 
 3. No Painel de Ações, selecione **Consultas \> Detalhes de envio** para exibir os detalhes dos logs de execução de envio.
 
-    ![Exibir os detalhes do log de envio](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
+    ![Exibir os detalhes do log de envio.](media/e-Invoicing-services-get-started-ITA-View-Submission-log-details.png)
 
 4. Na Guia Rápida **Ações de processamento**, você pode exibir o log de execução para as ações configuradas na versão do recurso que foi configurada no RCS. A coluna **Status** mostra se a ação foi executada com êxito.
 5. Na Guia Rápida **Arquivos de ação**, você pode exibir os arquivos intermediários que foram gerados durante a execução das ações. Você pode selecionar **Exibir** para baixar o arquivo XML de saída no formato **FatturaPA** e exibir o conteúdo.

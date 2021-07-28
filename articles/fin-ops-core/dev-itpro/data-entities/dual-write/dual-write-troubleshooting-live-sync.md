@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 1c0dfebb3ef442f67d8489d7aed00305c02cf410
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5748888"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6350779"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronização ao vivo
 
@@ -73,21 +73,21 @@ Se houver dados em ambos os lados e você tiver confirmado que o problema não �
 
 Você pode receber uma mensagem de erro de "solicitação incorreta" que se assemelha ao exemplo a seguir ao criar dados em um aplicativo Finance and Operations.
 
-![Exemplo da mensagem inválida de erro de solicitação](media/error_record_id_source.png)
+![Exemplo da mensagem inválida de erro de solicitação.](media/error_record_id_source.png)
 
 Para corrigir o problema, você deve atribuir o direito de acesso correto à equipe da unidade de negócios do Dynamics 365 Sales ou do Dynamics 365 Customer Service mapeada para habilitar o privilégio ausente.
 
 1. No aplicativo Finance and Operations, localize a unidade de negócios mapeada no conjunto de conexões de integração de dados.
 
-    ![Mapeamento da organização](media/mapped_business_unit.png)
+    ![Mapeamento da organização.](media/mapped_business_unit.png)
 
 2. Faça login no ambiente no aplicativo controlado por modelo no Dynamics 365, navegue até **Definir segurança do \>**, e encontre a equipe da unidade de negócios mapeada.
 
-    ![Equipe da unidade de negócios mapeada](media/setting_security_page.png)
+    ![Equipe da unidade de negócios mapeada.](media/setting_security_page.png)
 
 3. Abra a página da equipe para edição, e depois selecione **Gerenciar funções** para abrir a caixa de diálogo **Gerenciar funções de equipe**.
 
-    ![Gerenciar botão de funções](media/manage_team_roles.png)
+    ![Gerenciar botão de funções.](media/manage_team_roles.png)
 
 4. Atribua a função que tem o privilégio de leitura/gravação para as tabelas relevantes e selecione **OK**.
 

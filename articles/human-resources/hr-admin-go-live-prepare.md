@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-10-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcec7963bdf70f848249bb2ca5e2208e09f49548
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ece4875b69d3cf797ab90e54f0cc0fda317cc931
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054779"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359644"
 ---
 # <a name="prepare-for-human-resources-go-live"></a>Preparar-se para a ativação do Human Resources
 
@@ -32,7 +32,7 @@ Este tópico descreve como preparar-se para a ativação de um projeto do Dynami
 
 Este gráfico mostra as fases do processo de ativação. 
 
-![Processo de ativação](./media/hr-admin-go-live-prepare-process.png)
+![Processo de ativação.](./media/hr-admin-go-live-prepare-process.png)
 
 A tabela a seguir lista todas as etapas do processo, a duração esperada e quem é responsável pela ação.
 

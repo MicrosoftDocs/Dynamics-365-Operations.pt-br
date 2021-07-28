@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 37ae6ebd4347d3bbb414b7f1e4e0d54150878c02
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097225"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6354728"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Dias negativos e dias negativos dinâmicos
 
@@ -43,7 +43,7 @@ Você pode obter demanda relativamente cedo no prazo de entrega do seu item ou p
 
 A ilustração a seguir mostra uma exibição gráfica deste cenário.
 
-![Exibição gráfica do cenário 1](./media/negative-days-1.jpg)
+![Exibição gráfica do cenário 1.](./media/negative-days-1.jpg)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: os dias negativos são menores que o prazo de entrega do item
 
@@ -51,11 +51,11 @@ Se você definir os dias negativos como um número menor que o prazo de entrega 
 
 A ilustração a seguir mostra uma captura de tela deste caso.
 
-![Captura de tela do caso A do cenário 1](./media/negative-days-2.png)
+![Captura de tela do caso A do cenário 1.](./media/negative-days-2.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso A do cenário 1](./media/negative-days-3.png)
+![Exibição gráfica do caso A do cenário 1.](./media/negative-days-3.png)
 
 Se você considera o desempenho do MRP e a tensão do plano, este caso não funcionará bem. O MRP deve criar uma nova ordem planejada e deve calcular atrasos e ações. Estas tarefas são demoradas. Esses casos também adicionam mais duas transações ao seu plano. Por outro lado, a ordem de venda é exibida por apenas seis dias, não sete.
 
@@ -73,11 +73,11 @@ Limite de tempo de dias negativos dinâmicos = Prazo de entrega da compra + Limi
 
 Quando dias negativos dinâmicos são usados, o limite de tempo que o MRP analisa para recebimentos agora é 6 + 2 + 0 = 8 dias. O MRP encontra a ordem de compra existente e a relaciona a ele. Nenhuma ordem planejada nova é criada. Portanto, o tempo de execução do MRP é mais curto. A ilustração a seguir mostra a necessidade líquida para o item DemoProduct.
 
-![Necessidades líquidas para o caso C do cenário 1](./media/negative-days-4.png)
+![Necessidades líquidas para o caso C do cenário 1.](./media/negative-days-4.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso C do cenário 1](./media/negative-days-5.png)
+![Exibição gráfica do caso C do cenário 1.](./media/negative-days-5.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Caso D: Usar somente dias negativos dinâmicos
 
@@ -85,11 +85,11 @@ Se você definir os dias negativos como **0** (zero) e usar somente o limite de 
 
 A ilustração a seguir mostra uma captura de tela deste caso.
 
-![Captura de tela do caso D do cenário 1](./media/negative-days-6.png)
+![Captura de tela do caso D do cenário 1.](./media/negative-days-6.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso D do cenário 1](./media/negative-days-7.png)
+![Exibição gráfica do caso D do cenário 1.](./media/negative-days-7.png)
 
 ### <a name="case-e-use-both-negative-days-that-are-more-than-the-items-lead-time-and-the-dynamic-negative-days-time-fence"></a>Caso E: Use os dois dias negativos que são mais do que o prazo de entrega do item e o limite de tempo de dias negativos dinâmicos
 
@@ -106,7 +106,7 @@ Você pode obter demanda em algum momento durante o prazo de entrega de seu item
 
 A ilustração a seguir mostra uma exibição gráfica deste cenário.
 
-![Exibição gráfica do cenário 2](./media/negative-days-8.png)
+![Exibição gráfica do cenário 2.](./media/negative-days-8.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: os dias negativos são menores que o prazo de entrega do item
 
@@ -114,11 +114,11 @@ Se você definir os dias negativos como um número menor que o prazo de entrega 
 
 A ilustração a seguir mostra uma captura de tela deste caso.
 
-![Captura de tela do caso A do cenário 2](./media/negative-days-9.png)
+![Captura de tela do caso A do cenário 2.](./media/negative-days-9.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso A do cenário 2](./media/negative-days-10.png)
+![Exibição gráfica do caso A do cenário 2.](./media/negative-days-10.png)
 
 ### <a name="case-b-negative-days-are-more-than-the-items-lead-time"></a>Caso B: os dias negativos são maiores que o prazo de entrega do item
 
@@ -130,11 +130,11 @@ Este caso é semelhante ao caso C do cenário 1 porque os dias negativos dinâmi
 
 A ilustração a seguir mostra uma captura de tela deste caso.
 
-![Captura de tela do caso C do cenário 2](./media/negative-days-11.png)
+![Captura de tela do caso C do cenário 2.](./media/negative-days-11.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso C do cenário 2](./media/negative-days-12.png)
+![Exibição gráfica do caso C do cenário 2.](./media/negative-days-12.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Caso D: Usar somente dias negativos dinâmicos
 
@@ -155,7 +155,7 @@ Você pode obter demanda depois do período do prazo de entrega do item. Aqui es
 
 A ilustração a seguir mostra uma exibição gráfica deste cenário.
 
-![Exibição gráfica do cenário 3](./media/negative-days-13.png)
+![Exibição gráfica do cenário 3.](./media/negative-days-13.png)
 
 ### <a name="case-a-negative-days-are-less-than-the-items-lead-time"></a>Caso A: os dias negativos são menores que o prazo de entrega do item
 
@@ -163,11 +163,11 @@ Se você definir os dias negativos como um número inferior ao prazo de entrega 
 
 A ilustração a seguir mostra uma captura de tela deste caso.
 
-![Captura de tela do caso A do cenário 3](./media/negative-days-14.png)
+![Captura de tela do caso A do cenário 3.](./media/negative-days-14.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso A do cenário 3](./media/negative-days-15.png)
+![Exibição gráfica do caso A do cenário 3.](./media/negative-days-15.png)
 
 > [!NOTE]
 > Na captura de tela anterior, a data da necessidade da ordem de compra é 12 de janeiro. Como essa captura de tela foi obtida em 2015, quando o dia 11 de janeiro foi um domingo, o MRP transferiu a data da necessidade para o próximo dia útil, que foi segunda-feira, 12 de janeiro. No entanto, a ordem de compra tem uma data de entrega de 11 de janeiro.
@@ -178,11 +178,11 @@ Se você definir os dias negativos como um número maior que o prazo de entrega 
 
 A ilustração a seguir mostra uma captura de tela deste caso.
 
-![Captura de tela do caso B do cenário 3](./media/negative-days-16.png)
+![Captura de tela do caso B do cenário 3.](./media/negative-days-16.png)
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso B do cenário 3](./media/negative-days-17.png)
+![Exibição gráfica do caso B do cenário 3.](./media/negative-days-17.png)
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Caso C: Corrige automaticamente o prazo de entrega do item para o limite de tempo de dias negativos
 
@@ -192,7 +192,7 @@ O limite de tempo de dias negativos dinâmicos agora é 6 + 2 – 7 = 1 dia. Por
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre neste caso.
 
-![Exibição gráfica do caso C do cenário 3](./media/negative-days-18.png)
+![Exibição gráfica do caso C do cenário 3.](./media/negative-days-18.png)
 
 ### <a name="case-d-use-only-dynamic-negative-days"></a>Caso D: Usar somente dias negativos dinâmicos
 
@@ -219,11 +219,11 @@ Talvez você queira definir os dias negativos como um intervalo de tempo longo e
 
 A ilustração a seguir mostra uma exibição gráfica do que ocorre.
 
-![Revisão gráfica do exemplo](./media/negative-days-19.png)
+![Revisão gráfica do exemplo.](./media/negative-days-19.png)
 
 O MRP produz os seguintes resultados.
 
-![Exemplo de resultados 1](./media/negative-days-20.png)
+![Exemplo de resultados 1.](./media/negative-days-20.png)
 
 Na captura de tela anterior, a data da necessidade da ordem de venda é 9 de janeiro, em vez de 10 de janeiro. Como essa captura de tela foi obtida em 2015, quando o dia 10 de janeiro foi um sábado, a data da solicitação da ordem deveria ser o dia útil anterior, que era sexta-feira, 9 de janeiro.
 
@@ -233,7 +233,7 @@ Os resultados não estão errados, mas o tempo de execução do MRP pode ser mai
 
 Se você reduzir os dias negativos para um número mais próximo do prazo de entrega do item e usar dias negativos dinâmicos, o MRP produzirá os seguintes resultados.
 
-![Exemplo de resultados 2](./media/negative-days-21.png)
+![Exemplo de resultados 2.](./media/negative-days-21.png)
 
 O MRP criará uma ordem planejada anexada à primeira ordem de venda. Então, como esperado, a segunda ordem de venda será vinculada à ordem de venda existente, com base na configuração de dias negativos. Esse resultado do planejamento também está correto e o tempo de execução do MRP pode ser menor. Nesse caso, não é essencial que você entenda e saiba como trabalhar com as mensagens de ação.
 

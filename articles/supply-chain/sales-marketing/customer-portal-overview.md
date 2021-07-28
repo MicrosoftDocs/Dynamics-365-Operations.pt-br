@@ -8,16 +8,17 @@ ms.prod: ''
 ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
+ms.custom: intro-internal
 ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 9a85cd2590bd9c6cabcd0001d5de81746c1d4f63
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 7618bb202dac3295c948d74c482900b0aeae8bd5
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907830"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6353929"
 ---
 # <a name="customer-portal-for-dynamics-365-supply-chain-management-overview"></a>Visão geral do portal do cliente para o Dynamics 365 Supply Chain Management
 
@@ -63,7 +64,7 @@ O portal do cliente é fornecido como um modelo de portais do Power Apps. Ele de
 
 A [gravação dupla](/powerapps/maker/portals/overview) é um produto pronto para uso que fornece interação quase em tempo real entre aplicativos do Customer Engagement e aplicativos do Finance and Operations. A gravação dupla fornece integração bidirecional entre aplicativos do Finance and Operations e o Microsoft Dataverse. Portanto, ela fornece uma experiência de usuário integrada nos aplicativos. O portal do cliente depende das tabelas sincronizadas com a gravação dupla. Para que os dados do Supply Chain Management sejam exibidos no portal do cliente, a gravação dupla deve ser habilitada para todas as tabelas apropriadas.
 
-![Dependências do portal do cliente](media/customer-portal-elements.png "Dependências do portal do cliente")
+![Dependências do portal do cliente.](media/customer-portal-elements.png "Dependências do portal do cliente")
 
 O portal do cliente atua como um ponto de partida para organizações que desejam usar portais do Power Apps para criar um site externamente que use dados da instalação do Supply Chain Management. Ele ajuda as organizações a conectar gravação dupla, Supply Chain Management e portais do Power Apps.
 

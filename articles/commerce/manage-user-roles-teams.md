@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 7b4734fd363cd5ee44f228e0c0f9ce73abad1aaa
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 633717d77f4d31463d51c575d837a65dbb0e5ce2
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021843"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6358718"
 ---
 # <a name="manage-user-roles-in-microsoft-teams"></a>Gerenciar funções do usuário no Microsoft Teams
 
@@ -30,7 +30,7 @@ Ao criar uma equipe para cada armazenamento ou canal no Teams, uma associação 
 
 A ilustração a seguir mostra um exemplo de uma lista de membros da equipe e suas funções de usuário no centro de administração do Microsoft Teams.
 
-![Membros da equipe e funções de usuário no centro de administração do Microsoft Teams](media/d365-commerce-teams-integration-user-roles.png)
+![Membros da equipe e funções de usuário no centro de administração do Microsoft Teams.](media/d365-commerce-teams-integration-user-roles.png)
 
 Para obter mais informações, consulte [Atribuir proprietários e membros de equipe no Microsoft Teams](/microsoftteams/assign-roles-permissions).
 

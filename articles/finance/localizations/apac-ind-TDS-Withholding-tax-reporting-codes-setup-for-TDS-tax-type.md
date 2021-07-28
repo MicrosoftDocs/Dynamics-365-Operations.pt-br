@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 1f9325d182f89b98e8b943ae047c55e7e1aeb02f
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c74132af95f088ea88155b722a8270861fba50e7
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023038"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6361277"
 ---
 # <a name="set-up-withholding-tax-reporting-codes-for-the-tds-tax-type"></a>Configurar códigos de relatórios de imposto retido na fonte para o tipo de imposto de TDS
 
@@ -31,7 +31,7 @@ Os códigos de relatório de imposto retido na fonte são usados para gerar inst
 
 1. Vá para **Imposto \> Configuração \> Imposto retido na fonte \> Códigos de relatório de imposto retido na fonte**.
 
-    [![Página códigos de relatório de imposto retido na fonte](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
+    [![Página códigos de relatório de imposto retido na fonte.](./media/apac-ind-TDS-16.png)](./media/apac-ind-TDS-16.png)
 
 2. No campo **Tipo de imposto**, selecione **TDS** para definir códigos de relatórios de imposto retido na fonte para o tipo de imposto de TDS.
 3. No campo **Componente de imposto retido na fonte**, selecione o componente de TDS para o qual você está definindo o código de relatório de imposto retido na fonte. O campo **Grupo de componentes do imposto retido na fonte** mostra o grupo de componentes de TDS definido para o componente de TDS que você está definindo.

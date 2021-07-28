@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92b44532dfae70f03d6686ca1d2f8b6f74345ee6
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce7b1ad5472a6e276d356ff4e814defcc5af1f9d
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752451"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359378"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-1---design-data-model"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 1 - Criar modelo de dados)
 
@@ -104,7 +104,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 69. Clique em Salvar.
 70. Feche a página.
 
-![Página do designer de modelo de dados de ER](../media/er-financial-dimensions-guides-data-model.png)
+![Página do designer de modelo de dados de ER.](../media/er-financial-dimensions-guides-data-model.png)
 
 
 

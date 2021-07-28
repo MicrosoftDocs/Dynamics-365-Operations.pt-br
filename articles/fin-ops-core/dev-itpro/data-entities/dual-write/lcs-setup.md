@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: eb4170ef6cb09c862f6a4163670c519d5d8077fb
-ms.sourcegitcommit: 365092f735310990e82516110141d42aaf04e654
+ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "6103560"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6359354"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
@@ -40,7 +40,7 @@ Siga estas etapas para configurar a gravação dupla da página **Detalhes de am
 
 2. Selecione o botão **Aplicativo de gravação dupla**.
 
-    ![Integração com o Power Platform](media/powerplat_integration_step2.png)
+    ![Integração com o Power Platform.](media/powerplat_integration_step2.png)
 
 3. Analise os termos e condições e selecione **Configurar**.
 
@@ -52,7 +52,7 @@ Siga estas etapas para configurar a gravação dupla da página **Detalhes de am
 
 7. Selecione **Vincular ao ambiente da Power Platform** para criar um link entre o Dataverse e os bancos de dados do ambiente atual. Isso geralmente leva menos de 5 minutos.
 
-    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular ao ambiente da Power Platform":::
+    :::image type="content" source="media/powerplat_integration_step3.png" alt-text="Vincular ao ambiente da Power Platform.":::
 
 8. Quando a vinculação for concluída, um hiperlink será exibido. Use a vinculação para entrar na área de administração de gravação dupla no ambiente do Finance and Operations. A partir daí, você pode configurar mapeamentos de entidade.
 

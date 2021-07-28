@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 661bb8369fe4dbe6cdf6ee0fb05d16f4350ecf5a
-ms.sourcegitcommit: c5c8f19a696ad4a3d68dffd63bfe7b484b999d2b
+ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
+ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "6097250"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "6356503"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
@@ -61,7 +61,7 @@ Você pode pedir para o bot:
 
 - Iniciar uma solicitação de licença para você. Por exemplo, envie uma mensagem informando que "Tirar folga" ou "Eu quero tirar férias na próxima quinta e sexta-feira" para ser mais específico para solicitar licença para o tipo de licença de férias. 
 
-  ![Iniciar uma solicitação de licença no chat do Teams](./media/hr-teams-leave-app-initiate.png)
+  ![Iniciar uma solicitação de licença no chat do Teams.](./media/hr-teams-leave-app-initiate.png)
 
 - O bot do chat preencherá uma solicitação de licença. Selecione **Solicitar folga** e edite os detalhes para sua solicitação.
 
@@ -69,11 +69,11 @@ Você pode pedir para o bot:
 
    Se você selecionar uma licença de meio-dia quando a unidade de pedido de licença for em dias, você pode especificar se deseja solicitar uma folga na primeira metade do dia ou na segunda metade do dia selecionando a opção **Definição de meio dia** do menu **Mais opções**.
    
-   ![Definições de meio dia](./media/HalfDayDefinitions.png)
+   ![Definições de meio dia.](./media/HalfDayDefinitions.png)
 
 - Ao terminar de editar detalhes da solicitação de licença, selecione **Enviar** para enviá-la para aprovação.
 
-  ![Enviar solicitação de licença](./media/hr-teams-leave-app-submit.png)
+  ![Enviar solicitação de licença.](./media/hr-teams-leave-app-submit.png)
 
 ## <a name="manage-your-leave-in-teams"></a>Gerenciar a sua licença no Teams
 
@@ -93,7 +93,7 @@ A guia **Folga** permite exibir:
 
 2. Insira os dias que você deseja solicitar folga e depois selecione **Adicionar**.
 
-   ![Adicionar folga no aplicativo de licença do Human Resources Teams](./media/TimeOffHours.png)
+   ![Adicionar folga no aplicativo de licença do Human Resources Teams.](./media/TimeOffHours.png)
 
 3. Se aplicável, insira um código de motivo. Insira também comentários e adicione anexos.
 
@@ -123,7 +123,7 @@ Depois de instalar o aplicativo Human Resources para o Teams, você pode enviar 
 
 1. Em uma equipe ou chat no Teams, selecione o botão do Human Resources abaixo da janela de chat.
 
-   ![Botão do Human Resources abaixo da janela de bate-papo](./media/hr-teams-leave-app-chat-button.png)
+   ![Botão do Human Resources abaixo da janela de bate-papo.](./media/hr-teams-leave-app-chat-button.png)
 
 2. Selecione a solicitação de licença que deseja compartilhar. Se você deseja compartilhar um rascunho de solicitação de licença, selecione **Rascunhos** primeiro.
 
@@ -173,11 +173,11 @@ Se as traduções não forem exibidas conforme o esperado, verifique se o idioma
 
 No Teams, verifique **Idioma do aplicativo** em **Configurações**.
 
-![Configurações do Teams](./media/hr-teams-leave-app-settings.png)
+![Configurações do Teams.](./media/hr-teams-leave-app-settings.png)
 
 No Human Resources, selecione **Configurações** e, depois, **Opções de usuário**. Verifique se o campo **Idioma** corresponde ao campo **Idioma do aplicativo** no Teams.
 
-![Opções de usuário no Human Resources](./media/hr-teams-leave-app-user-options.png)
+![Opções de usuário no Human Resources.](./media/hr-teams-leave-app-user-options.png)
 
 Se ainda houver problemas de tradução, avise-nos. Para obter informações, consulte [Obter suporte para aplicativos do Finance and Operations ou Lifecycle Services (LCS)](../fin-ops-core/dev-itpro/lifecycle-services/lcs-support.md?toc=%2fdynamics365%2fhuman-resources%2ftoc.json).
 
