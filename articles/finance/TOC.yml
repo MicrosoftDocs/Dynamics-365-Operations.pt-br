@@ -76,8 +76,6 @@
                       href: get-started/whats-new-changed-10-0-20.md
                     - name: Finance 10.0.19 (junho de 2021)
                       href: get-started/whats-new-changed-10-0-19.md
-                    - name: Finance 10.0.18 (maio de 2021)
-                      href: get-started/whats-new-changed-10-0-17.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1566,6 +1564,8 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Relatório de serviços internacionais
                   href: localizations/emea-aut-cross-border-services-report.md
+                - name: Impostos de compra
+                  href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
               items:
                 - name: Visão geral do Bahrein
@@ -1992,7 +1992,11 @@
                       href: localizations/tasks/eur-00002-specify-lading-address-intra-community.md
                     - name: Gerar uma declaração EU de Intrastat
                       href: localizations/tasks/eur-00002-eu-intrastat-declaration.md
-                - name: ​Relatórios de diários de estoque​
+                    - name: Intrastat francesa
+                      href: localizations/emea-fra-intrastat.md
+                    - name: Intrastat italiana
+                      href: localizations/emea-ita-intrastat.md
+                - name: Relatórios de diários de estoque
                   href: localizations/emea-set-up-report-inventory-journal-names.md
                 - name: Prazos finais de emissão de fatura
                   href: localizations/emea-invoice-issue-deadline.md
@@ -2968,6 +2972,12 @@
                   href: localizations/emea-pol-split-ap-ar-exchange-difference.md
                 - name: 'Declaração de IVA com registros (JPK_V7M, VDEK)'
                   href: localizations/emea-pol-vdek.md
+                - name: Preparar para relatórios de JPK-V7M
+                  href: localizations/emea-pol-vdek-setup.md
+                - name: Relatório de JPK-V7M
+                  href: localizations/emea-pol-vdek-reporting.md
+                - name: Detalhes de cenários comerciais específicos no relatório de JPK-V7M
+                  href: localizations/emea-pol-vdek-scenarios.md
             - name: Catar
               items:
                 - name: Visão geral do Catar
@@ -3204,6 +3214,8 @@
                       href: localizations/rus-accounts-payable-debt-tax-registers-and-debt-write-offs.md
                     - name: Reservas de dívida inválidas em contas a receber
                       href: localizations/rus-bad-debts.md
+                    - name: Cálculo de ativos de imposto e registros de obrigação fiscal
+                      href: localizations/rus-calculation-tax-asset-tax-liability-registers.md
             - name: Arábia Saudita
               items:
                 - name: Visão geral da Arábia Saudita
@@ -3426,7 +3438,7 @@
                   href: ../human-resources/hr-compensation-enroll-employees-variable.md?toc=/dynamics365/finance/toc.json
                 - name: Definir o processo de remuneração e calcular resultados
                   href: ../human-resources/hr-compensation-define-process.md?toc=/dynamics365/finance/toc.json
-                - name: Planos de compensação de processo
+                - name: Processar planos de remuneração
                   href: ../human-resources/hr-compensation-process.md?toc=/dynamics365/finance/toc.json
             - name: Gerenciar benefícios
               items:
@@ -3997,6 +4009,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/dynamics365/finance/toc.json
                         - name: Gerar relatórios em formatos do Office que tenham imagens inseridas
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/dynamics365/finance/toc.json
+                    - name: Criar um formato de ER para gerar um relatório no Excel com imagens incorporadas em cabeçalhos ou rodapés de página
+                      href: ../fin-ops-core/dev-itpro/analytics/er-embed-images-header-footer-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Dividir os arquivos XML gerados com base no tamanho do arquivo e na quantidade de conteúdo
                   href: ../fin-ops-core/dev-itpro/analytics/er-split-files.md?toc=/dynamics365/finance/toc.json
                 - name: Suprimir caracteres BOM em arquivos gerados

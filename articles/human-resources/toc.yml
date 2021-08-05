@@ -5,6 +5,8 @@
       items:
         - name: Novidades ou alterações no Human Resources
           href: hr-admin-whats-new.md
+        - name: 12 de julho de 2021
+          href: hr-whats-new-2021-07-12.md
         - name: 22 de junho de 2021
           href: hr-whats-new-2021-06-22.md
         - name: 20 de maio de 2021
@@ -255,6 +257,8 @@
           href: hr-admin-go-live-prepare.md
         - name: Perguntas frequentes sobre o Go Live
           href: hr-admin-go-live-faq.md
+        - name: Perguntas frequentes sobre de fusão de infraestruturas do Human Resources
+          href: hr-infrastructure-merge-faq.md
         - name: Recursos de documentação
           items:
             - name: Sistema de ajuda
@@ -689,8 +693,10 @@
               href: hr-compensation-enroll-employees-variable.md
             - name: Definir o processo de remuneração e calcular resultados
               href: hr-compensation-define-process.md
-            - name: Planos de compensação de processo
+            - name: Processar planos de remuneração
               href: hr-compensation-process.md
+            - name: Marcar um funcionário como pronto para pagar
+              href: hr-compensation-payroll.md
         - name: Gerenciar benefícios
           items:
             - name: Gerenciamento de benefícios
@@ -715,11 +721,11 @@
                       href: hr-benefits-setup-payment-frequencies.md
                     - name: Configurar tipos de eventos de vida
                       href: hr-benefits-setup-life-event-types.md
-                    - name: Criar tipos de plano
+                    - name: Visão geral do tipo de plano
                       href: hr-benefits-setup-plan-types.md
                     - name: Configurar códigos de motivo
                       href: hr-benefits-setup-reason-codes.md
-                    - name: Configurar códigos de camada
+                    - name: Configurar códigos de nível
                       href: hr-benefits-setup-tier-codes.md
                     - name: Configurar taxas
                       href: hr-benefits-setup-rates.md
@@ -807,6 +813,8 @@
               href: hr-employee-self-service-request-time-off.md
             - name: Exibir calendários da equipe e da empresa
               href: hr-employee-self-service-calendar.md
+            - name: Configurar função de gerente de ausências
+              href: hr-configure-absence-manager.md
             - name: Gerenciar políticas de compra e venda de licenças
               href: hr-leave-and-absence-manage-buy-and-sell-leave-policies.md
             - name: Criar fluxos de trabalho de compra e venda de licenças
