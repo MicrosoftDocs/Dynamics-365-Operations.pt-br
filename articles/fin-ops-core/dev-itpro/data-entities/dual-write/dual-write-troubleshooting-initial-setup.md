@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: c641849b2aec76124b6661f339175325a312efce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0e7316d7749566b74835acded0addb2fa4b0e858
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350827"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542406"
 ---
 # <a name="troubleshoot-issues-during-initial-setup"></a>Solucionar problemas durante a configuração inicial
 
@@ -71,7 +71,7 @@ Para fornecer consentimento ao aplicativo, siga estas etapas.
 
 Para garantir que a gravação dupla funcione corretamente, as empresas selecionadas durante a configuração são criadas no ambiente do Dataverse. Por padrão, essas empresas são apenas leitura e a propriedade **IsDualWriteEnable** está definida como **Verdadeira**. Além disso, o proprietário e a equipe padrão da unidade de negócios são criados e incluem o nome da empresa. Antes de habilitar os mapas, verifique se o proprietário padrão da equipe foi especificado. Para encontrar a tabela **Empresas (Empresa\_CDM)**, siga estas etapas.
 
-1. No aplicativo baseado em modelo no Dynamics 365, selecione o filtro no canto superior direito.
+1. No aplicativo de interação com o cliente, selecione o filtro no canto superior direito.
 2. Na lista suspensa, selecione **Empresa**.
 3. Selecione **Executar** para ver os resultados.
 4. Selecione a empresa que estava vinculada quando você configurou a gravação dupla.

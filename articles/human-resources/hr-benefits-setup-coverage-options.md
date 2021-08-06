@@ -2,7 +2,7 @@
 title: Criar opções de cobertura
 description: As opções de cobertura no Microsoft Dynamics 365 Human Resources são níveis de cobertura para a eleição de um participante em um plano ou programa de benefícios.
 author: andreabichsel
-ms.date: 04/06/2020
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,21 +15,25 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d9f67a97ec57bade840e1035c6011b94427a77c4
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 1e8f13075a9835963c231a8e4e8a737368a952ba
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055571"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558216"
 ---
 # <a name="create-coverage-options"></a>Criar opções de cobertura
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-As opções de cobertura no Microsoft Dynamics 365 Human Resources são níveis de cobertura para a eleição de um participante em um plano ou programa de benefícios. Por exemplo, as opções de cobertura podem incluir **Apenas funcionário** para um plano médico ou **2x o salário** para um plano de seguro de vida. Uma vez definido, você pode reutilizar as opções de cobertura de benefício. Você pode associar uma opção a um ou mais planos.
+As opções de cobertura determinam quem deve receber a cobertura ou quanta cobertura está disponível em um plano de seguro. Por exemplo, em um plano médico, você pode ter uma opção **exclusivo para o funcionário**, uma opção **funcionário + 1** e uma opção **família**. No seguro de vida, você pode oferecer cobertura para **1 x salário** ou **2 x salário**.
 
-Depois de definir as opções de cobertura, anexe as opções de cobertura a um tipo de plano de benefícios. O tipo de plano é então associado a um plano ou programa de benefícios. As opções de cobertura associadas a um tipo de plano estão disponíveis para todos os planos criados com esse tipo de plano. 
+Depois que as opções de cobertura de benefícios são definidas, você pode reutilizá-las. Você pode associar uma opção a um ou mais planos.
 
+> [!IMPORTANT]
+> Depois de definir as opções de cobertura, anexe-as a um tipo de plano de benefícios. O tipo de plano é então associado a um plano ou programa de benefícios. As opções de cobertura associadas a um tipo de plano estão disponíveis para todos os planos desse tipo que são criados.
+
+## <a name="create-coverage-options"></a>Criar opções de cobertura
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Configuração**, selecione **Opções de cobertura**.
 
 2. Selecione **Novo**.
@@ -40,7 +44,7 @@ Depois de definir as opções de cobertura, anexe as opções de cobertura a um 
    | --- | --- |
    | **Opção de cobertura** | Um nome de opção de cobertura exclusivo. |
    | **Descrição** | Uma descrição da opção de cobertura. |
-   | **Código de cobertura** | Os códigos de cobertura atribuem valores mínimos e máximos para cada tipo de pessoa coberta elegível. Um código de cobertura indica quem está coberto ou o valor da cobertura permitida para um tipo de plano. É possível expressar o valor da cobertura como um valor em dólar ou uma porcentagem. Por exemplo:</br></br>- **Emp+1** – para ser qualificado, o funcionário deve ter um dependente selecionado (se mais de um for selecionado, a qualificação não será possível).</br></br>- **Emp+family** – para ser qualificado, o funcionário deve ter pelo menos dois dependentes selecionados. |
+   | **Código de cobertura** | Os códigos de cobertura atribuem valores mínimos e máximos para cada tipo de pessoa coberta elegível. Um código de cobertura indica quem está coberto ou o valor da cobertura permitida para um tipo de plano. É possível expressar o valor da cobertura como um valor em dólar ou uma porcentagem. Por exemplo:<ul><li>**Emp+1** – para ser qualificado, o funcionário deve ter um dependente selecionado (se mais de um for selecionado, a qualificação não será possível).</li><li>**Emp+family** – para ser qualificado, o funcionário deve ter pelo menos dois dependentes selecionados.</li></ul> |
    | **Número máximo** | O número máximo de dependentes. |
    | **Status** | O status da opção de cobertura. Se o status da opção Cobertura estiver definido como Inativo, a opção Cobertura não poderá ser selecionada nos tipos de plano. |
    | **Porcentagem** | O valor percentual. Este campo estará ativo apenas se %x Salário tiver sido selecionado no campo Código de cobertura. |

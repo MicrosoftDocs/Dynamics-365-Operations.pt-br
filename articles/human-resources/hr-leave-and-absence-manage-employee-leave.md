@@ -2,7 +2,7 @@
 title: Gerenciar licença de funcionário
 description: Gerenciar licença de funcionário no Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 11/02/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 33080fc5ca43f3d83ee9d17565f4c229ced7b94f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c161e324a1ebe5b30c95d6d3e0468da671a7c2de
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055619"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639453"
 ---
 # <a name="manage-employee-leave"></a>Gerenciar licença de funcionário
 
@@ -44,12 +44,11 @@ Você pode gerenciar o tipo de licença de um funcionário. Isso inclui o vencim
 
 Você pode incluir um código de motivo e um comentário ao ajustar o saldo de licenças de um funcionário. 
 
->[!IMPORTANT]
->A exibição de informações adicionais sobre saldos de licença está na versão prévia. Você precisará habilitá-la no ambiente **Área restrita**. Para obter mais informações sobre as versões prévias do recurso, consulte [Gerenciar recursos](hr-admin-manage-features.md).<br>
->Ao passar o mouse sobre qualquer saldo de licença, você verá:<br>
->- **Disponível**: total deste ano - considere este ano
->- **Total deste ano**: todas as competências, ajustes e postergações para o ano
->- **Obtido este ano**: todas as folgas aprovadas
+Agora, quando você passa o mouse sobre qualquer saldo de licença, as seguintes informações são mostradas:
+
+- **Disponível** – O valor **Total neste ano** menos o valor **Obtido este ano**.
+- **Total neste ano** – Todas as competências, ajustes e postergações para o ano.
+- **Obtido este ano** – Todas as folgas aprovadas.
 
 ## <a name="see-also"></a>Consulte também
 

@@ -1,8 +1,8 @@
 ---
-title: Transferir razão auxiliar para a Contabilidade
-description: Este tópico descreve recursos no Microsoft Dynamics 365 Finance relacionados ao processo de transferência do razão auxiliar na contabilidade.
-author: roschlom
-ms.date: 09/09/2019
+title: Transferir razão auxiliar para a contabilidade
+description: Este tópico descreve recursos que estão relacionados ao processo de transferência do razão auxiliar na contabilidade.
+author: rcarlson
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,30 +15,34 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2020-01-18
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 1efdf095e379b73d553ca3525abbeee8ca35bcbb
-ms.sourcegitcommit: 7d0cfb359a4abc7392ddb3f0b3e9539c40b7204d
+ms.openlocfilehash: a2fdeaadc7453458f8fc7165664eccedee632f5f
+ms.sourcegitcommit: e9cf75545d55bfb2f37b2036df886128879a5b73
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "5897495"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6646791"
 ---
-# <a name="subledger-transfer-to-the-general-ledger"></a>Transferir razão auxiliar para a Contabilidade
+# <a name="subledger-transfer-to-the-general-ledger"></a>Transferir razão auxiliar para a contabilidade
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve os recursos no Microsoft Dynamics 365 Finance que estão relacionados às regras de transferência em lotes das entradas no diário-razão auxiliar.
+Este tópico descreve os recursos que estão relacionados às regras de transferência em lotes das entradas no diário-razão auxiliar.
 
 Na versão 8.1, as alterações foram feitas para permitir a transferência de regras, o que substituiu a opção **Síncrona**. Para obter mais informações, consulte [Recursos removidos ou substituídos do Finance and Operations](../../fin-ops-core/dev-itpro/migration-upgrade/deprecated-features.md?toc=%2fdynamics365%2ffinance%2ftoc.json#finance-and-operations-81-with-platform-update-20).
 
-As opções a seguir estão disponíveis para transferir lotes do razão auxiliar. 
+As opções a seguir estão disponíveis para transferir lotes do razão auxiliar:
 
- - Assíncrona – Esta opção imediatamente agendará a transferência das entradas de contabilidade do razão auxiliar para a contabilidade. O comprovante da contabilidade será registrado assim que os recursos estiverem livres para processar esta solicitação no servidor. 
+- **Assíncrona** – a transferência das entradas de contabilidade do razão auxiliar para a contabilidade é agendada imediatamente. O comprovante da contabilidade será registrado assim que os recursos estiverem disponíveis para processar a solicitação no servidor.
+- **Lote agendado** – as entradas contábeis do razão auxiliar que devem ser transferidas são adicionadas à fila de processamento na Contabilidade. As entradas na fila serão processadas na ordem em que foram recebidas. Cada comprovante da contabilidade atualizará as contas no horário agendado se os recursos estiverem disponíveis para processar o trabalho em lotes no servidor.
 
-- Lote agendado – Esta opção permitirá adicionar as entradas de contabilidade do razão auxiliar que estão sendo transferidas para a fila de processamento na contabilidade, na qual as entradas serão processadas na ordem em que forem recebidas. O comprovante da contabilidade será registrado no horário agendado se os recursos estiverem livres para processar o trabalho em lotes no servidor. 
- 
-Na versão 10.0.8, foram feitas melhorias para aprimorar o desempenho da opção Assíncrona. Este recurso está habilitado com o nome **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade**. 
- 
-Esta funcionalidade aprimora a transferência de dados do razão auxiliar para a contabilidade. Ela permite que o processo seja mais eficiente e agrupa conjuntos de transações menores para a transferência. Isto permite um uso mais eficiente do servidor de lote. Esta funcionalidade requer que o servidor de lote esteja configurado, conectado e funcionando para que a opção de transferência Assíncrona seja executada corretamente. 
+Na versão 10.0.8, foram feitas melhorias para aprimorar o desempenho da opção **Assíncrona**. Este recurso está habilitado com o nome **Transferência do razão auxiliar para a otimização do desempenho da Contabilidade**.
 
+A funcionalidade para a transferência assíncrona de lotes do razão auxiliar ajuda a melhorar a transferência de dados do razão auxiliar para a contabilidade. Ao agrupar conjuntos de transações menores e transferir as transações em grupos, a funcionalidade processa as transações com mais eficiência. Quando as transações são agrupadas, os recursos do servidor de lote são usados com mais eficiência.
+
+A transferência assíncrona de lotes do razão auxiliar requer que o servidor de lote seja configurado, esteja online e em funcionamento. Caso contrário, a opção de transferência **Assíncrona** não funcionará.
+
+A alteração de eficiência no nível do lote usa um único trabalho em lotes recorrente para todas as entidades legais no sistema. No tempo de execução, um novo trabalho em lotes é criado para processar os registros necessários que ainda não foram transferidos. Mais configurações podem ser controladas na página **Automação de processo**, na administração do sistema. Nessa página, é possível modificar o processo em segundo plano, alterar a frequência e definir um período de suspensão.
+
+Para obter mais informações sobre a configuração do processo de automação, consulte [Processo de automação](../../fin-ops-core/dev-itpro/sysadmin/process-automation.md).
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d7bba084b03f8698c8bf31d171d5e4e486ed06ad
-ms.sourcegitcommit: a7649b361ec54b49c0e9ee1c1c63a8815f320225
+ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
+ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6187238"
+ms.lasthandoff: 07/20/2021
+ms.locfileid: "6646478"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Exibir logs de histórico de plano e de planejamento
 
@@ -34,6 +34,19 @@ Para exibir o histórico de um plano, abra o plano em **Planejamento mestre** \>
 O histórico dos trabalhos para execuções de planejamento mestre da Otimização de Planejamento mantém apenas até 60 registros por plano mestre. Sempre que você executa um novo cálculo de planejamento mestre, o registro histórico mais antigo desse plano é excluído.
 
 Além de verificar a hora inicial e o status de trabalhos, você pode exibir o log para um determinado trabalho. O log inclui informações e avisos adicionais. Nem todos os trabalhos têm um log. Para exibir o log para um trabalho, selecione **Log**. As entradas de registro só são armazenadas por 30 dias após a data de término do trabalho, depois disso, são automaticamente excluídas.
+
+Se a opção **Processamento em lotes** na Guia Rápida **Executar em segundo plano** foi habilitada durante a configuração do processamento do planejamento, o log do trabalho em lotes mostrará mais informações sobre quaisquer avisos e erros que foram gerados durante a execução do planejamento mestre. Por exemplo, os erros de confirmação automática são capturados somente no log do trabalho em lotes. Elas não são mostradas nos logs da página **Histórico**.
+
+Para exibir erros de confirmação automática e outros avisos ou erros ocorridos durante a execução de um planejamento mestre, siga estas etapas:
+
+1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**.
+1. Encontre e selecione o registro que representa o planejamento mestre executado no qual você está interessado. (Por exemplo, o valor do campo **Descrição do trabalho** pode começar com *Planejamento mestre*.)
+1. Siga uma destas etapas, dependendo se você estiver usando o *formulário avançado* ou o *formulário herdado (não avançado)* para a página **Trabalhos em lotes**:
+
+    - Se estiver usando o formulário avançado: no Painel de Ações, selecione **Histórico de trabalho em lotes**. Em seguida, na página **Histórico de trabalho em lotes**, no Painel de Ações, selecione **Log**.
+    - Se estiver usando o formulário herdado: no Painel de Ações, na guia **Trabalho em lotes**, selecione **Log**.
+
+1. Selecione **Detalhes da mensagem** para abrir o painel **Detalhes da mensagem**, no qual você poderá exibir todos os avisos e erros capturados durante o processamento.
 
 ## <a name="related-resources"></a>Recursos relacionados
 

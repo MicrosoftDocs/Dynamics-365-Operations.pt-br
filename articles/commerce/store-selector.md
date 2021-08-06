@@ -16,17 +16,16 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2020-02-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 341312758e0a6da2e918406e09df618e2475811f
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: b054101d6d177018e54162537cfd756c84b11ae3
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479367"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638871"
 ---
 # <a name="store-selector-module"></a>Módulo de seletor de loja
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange o módulo de seletor de loja e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 
@@ -50,12 +49,12 @@ Para inserir os valores de latitude e longitude da localização de uma loja na 
 
 1. Acesse **Gerenciamento do estoque \> Configuração \> Detalhamento do estoque**.
 1. Selecione a localização do depósito no painel à esquerda.
-1. Na FastTabe **Endereços**, selecione **Avançado**.
+1. Na Guia Rápida **Endereços**, selecione **Avançado**.
 
     ![Exemplo de informações da loja na matriz.](./media/Store-address.png)
 
 1. No Painel de Ações, selecione **Editar**.
-1. Na FastTab **Geral**, insira valores de **Latitude** e **Longitude**.
+1. Na Guia Rápida **Geral**, insira valores de **Latitude** e **Longitude**.
 
     ![Exemplo de configuração de latitude e longitude para uma loja na matriz.](./media/Store-latitude-longitude.png)
 

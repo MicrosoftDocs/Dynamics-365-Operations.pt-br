@@ -2,7 +2,7 @@
 title: Atribuir sequências numéricas
 description: Este tópico explica como criar sequências numéricas para IDs de arrendamento. Também explica como criar IDs exclusivas que são usadas no processo de reavaliação do índice.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 331542811b2ba9399185478b6d25d1a57fce3a05
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 5d29115c95c358da9479ea68352ef72f227cd365
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881075"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638432"
 ---
 # <a name="assign-number-sequences"></a>Atribuir sequências numéricas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico explica como criar sequências numéricas para IDs de arrendamento. Também explica como criar IDs exclusivas que são usadas no processo de reavaliação do índice.
 

@@ -2,7 +2,7 @@
 title: Criar e atualizar uma política de devolução e reembolso para um canal
 description: Este tópico explica como configurar uma política de devoluções e reembolsos para um canal.
 author: ShalabhjainMSFT
-ms.date: 07/02/2021
+ms.date: 07/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 6cb2bb77a62ee9fc2ea6115949e30496bf3365c4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca5797cfc2d92c4cbc98d3f64d60e1fd260f0418
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345099"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558288"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Criar e atualizar uma política de devolução e reembolso para um canal
 
@@ -36,12 +36,21 @@ No momento, o escopo da política está limitado à definição de meios de paga
 
 ## <a name="enable-return-policy"></a>Habilitar política de devolução
 
-Para habilitar a funcionalidade de política de devolução de canais, faça o seguinte:
+Para habilitar a funcionalidade de política de devolução de canais na matriz do Commerce, siga estas etapas:
 
 1. Vá para o espaço de trabalho **Gerenciamento de Recursos** no Dynamics 365 Commerce.
 1. Procure o recurso **Habilitar políticas de devolução de canal** na lista de nomes de recursos.
 1. Selecione **Habilitar agora**.
-1. Na página **Agendamento de distribuição**, execute o trabalho de **1110** (configuração global) para distribuir a alteração do recurso. 
+1. Na página **Agendamento de distribuição**, execute o trabalho de **1110** (configuração global) para distribuir a alteração do recurso.
+
+## <a name="initialize-the-commerce-scheduler"></a>Inicializar o agendador do Commerce
+
+Depois de habilitar o recurso **Habilitar políticas de devolução de canal**, você deve inicializar o agendador do Commerce para garantir que as alterações de banco de dados do novo recurso sejam adicionadas pela sincronização do Commerce Data Exchange (CDX). 
+
+Para inicializar a agendador do Commerce na matriz do Commerce, siga estas etapas:
+
+- Vá para **Retail e Commerce \> Configuração do Headquarters \> Agendador do Commerce \> Inicializar agendador do Commerce** Como alternativa, você pode procurar "Inicializar agendador do Commerce".
+- Na caixa de diálogo **Inicializar agendador do Commerce**, certifique-se de que a opção **Excluir configuração existente** esteja definida como **Não** e, em seguida, selecione **OK**.
 
 ## <a name="configure-return-policy"></a>Configurar política de devolução
 

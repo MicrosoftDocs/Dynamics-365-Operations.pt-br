@@ -1,5 +1,5 @@
 ---
-title: Versão prévia do Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
+title: Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 description: Este tópico descreve recursos que são novos ou foram alterados no Dynamics 365 Supply Chain Management 10.0.20.
 author: kamaybac
 ms.date: 05/28/2021
@@ -10,30 +10,28 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: a782416bdb12a8ac7f1ba807452ca54072af3ab5
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301737"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641047"
 ---
-# <a name="preview-of-dynamics-365-supply-chain-management-10020-august-2021"></a>Versão prévia do Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
+# <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
-Este tópico lista os recursos novos ou alterados na versão preliminar da versão 10.0.20 do Microsoft Dynamics 365 Supply Chain Management. Esta versão tem um número de compilação de 10.0.886 e está disponível da seguinte maneira:
+Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supply Chain Management, versão 10.0.20. Esta versão tem um número de compilação de 10.0.886 e está disponível da seguinte maneira:
 
 - **Versão preliminar:** maio de 2021
 - **Disponibilidade geral da versão (autoatualização):** julho de 2021
 - **Disponibilidade geral da versão (atualização automática):** agosto de 2021
 
-
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 
 A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso* fornece links para o [plano de lançamento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/planned-features), no qual é possível ver as datas de lançamento oficiais de cada recurso. A coluna *Mais informações* fornece mais detalhes e/ou links para documentação relacionada.
 
-A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los. Alguns dos recursos listados ainda estão na versão preliminar, enquanto outros já estão disponíveis.
+A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) antes que você possa usá-los.
 
 | Área de recursos | Recurso | Mais informações |
 |---|---|---|
@@ -49,7 +47,7 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 
 | Área de recursos | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
-| Planejamento Mestre | Dias negativos para Otimização do Planejamento | Este recurso de visualização permite que o Planning Optimization considere a tolerância de atraso com base no parâmetro **Dias negativos** definido nos grupos de cobertura. |
+| Planejamento Mestre | Dias negativos para Otimização do Planejamento | Este recurso permite que o Planning Optimization considere a tolerância de atraso com base no parâmetro **Dias negativos** definido nos grupos de cobertura. |
 | Planejamento Mestre | Autorização paralela da previsão de demanda ajustada | Este recurso permite a autorização paralela da previsão de demanda ajustada da página **Previsão de demanda ajustada**. A intenção deste recurso é aumentar o desempenho quando um grande número de previsões está sendo autorizado. Ao autorizar, o usuário pode especificar o **Número de threads** na caixa de diálogo de autorização. |
 | Planejamento Mestre | (Versão preliminar) Consolidação executável em lote e consolidação para ordens planejadas em massa e em lote | Este recurso permite usar trabalhos em lotes para consolidar ordens planejadas em massa e em pacote. |
 | Controle de produção | Copiar roteiros genéricos | Este recurso aprimora a função de cópia de rota para permitir que os usuários copiem rotas que não são específicas do item. Permite que o sistema atualize todas as informações relevantes (como site, grupo de roteiros, requisitos de recursos e vários horários) após a função de cópia de roteiro ter sido usada para substituir um roteiro que ainda não foi atribuído a um item. |
@@ -75,7 +73,7 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 
 ### <a name="platform-updates-for-finance-and-operations-apps"></a>Atualizações da plataforma para os aplicativos do Finance and Operations
 
-O Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.20 dos aplicativos do Finance and Operations (Julho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md). <!-- KFM: Confirm link -->
+O Microsoft Dynamics 365 Supply Chain Management 10.0.20 inclui atualizações de plataforma. Para saber mais, consulte [Atualizações de plataforma para a versão 10.0.20 dos aplicativos do Finance and Operations (Julho de 2021)](../../fin-ops-core/dev-itpro/get-started/whats-new-platform-updates-10-0-20.md).
 
 ### <a name="bug-fixes"></a>Correções de bug
 

@@ -16,20 +16,18 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 2694f48b295ba727870f068e7062f7cdcababdbe
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0a14c87af7f0d2372d752233f21d9accbca58a8
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350779"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542506"
 ---
 # <a name="troubleshoot-live-synchronization-issues"></a>Solucionar problemas de sincronização ao vivo
 
 [!include [banner](../../includes/banner.md)]
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
-
 
 Este tópico fornece informações de solução de problemas para integração de gravação dupla entre aplicativos do Finance and Operations e o Dataverse. Especificamente, ele fornece informações que podem ajudá-lo a corrigir problemas com a sincronização dinâmica.
 
@@ -81,7 +79,7 @@ Para corrigir o problema, você deve atribuir o direito de acesso correto à equ
 
     ![Mapeamento da organização.](media/mapped_business_unit.png)
 
-2. Faça login no ambiente no aplicativo controlado por modelo no Dynamics 365, navegue até **Definir segurança do \>**, e encontre a equipe da unidade de negócios mapeada.
+2. Faça login no ambiente no aplicativo de interação com o cliente, navegue até **Configurações \> Segurança** e encontre a equipe da unidade de negócios mapeada.
 
     ![Equipe da unidade de negócios mapeada.](media/setting_security_page.png)
 
@@ -99,7 +97,7 @@ Você pode receber a seguinte mensagem de erro ao criar dados em um aplicativo F
 
 *{"entityName":"CustCustomerV3Entity","executionStatus":2,"fieldResponses":\[\],"recordResponses":\[{"errorMessage":"**Unable para gerar carga de trabalho para a entidade CustCustomerV3Entity**","logDateTime":"2019-08-27T18:51:52.5843124Z","verboseError":"Criação de carga de trabalho falhada com erro de URI inválido: O URI está vazio."}\],"isErrorCountUpdated":true}*
 
-Esta é a aparência do erro no aplicativo baseado em modelo no Dynamics 365:
+Veja como é uma mensagem de erro no aplicativo de interação com o cliente:
 
 *Ocorreu um erro inesperado no código do ISV. (ErrorType = ClientError) Exceção inesperada do plug-in (Executar): Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PostCommitPlugin: System.Exception: falha ao processar conta da entidade — (Houve falha em uma tentativa de conexão porque a parte conectada não respondeu adequadamente após um período de tempo ou houve falha na conexão estabelecida porque o host não respondeu*
 
@@ -125,6 +123,5 @@ Para corrigir o problema, siga estas etapas.
 
 3. Verifique se a coluna **externalenvironmentURL** tem o Dataverse correto ou URL de aplicativo. Exclua as linhas duplicadas que apontam para a URL de Dataverse errada. Exclua as linhas correspondentes nas tabelas DUALWRITEPROJECTFIELDCONFIGURATION e DUALWRITEPROJECTCONFIGURATION.
 4. Interrompa o mapeamento de tabela e reinicie-o
-
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

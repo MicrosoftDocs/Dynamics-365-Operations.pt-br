@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: ccad9c55c0200d008525c7d3fdaeeef99b7eecfb
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350731"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542482"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -61,14 +61,14 @@ Depois de instalar a ferramenta do Package Deployer, instale o pacote de soluç�
 
 Para ativar o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
+1. Entre no aplicativo de interação com o cliente, abra a página **Configurações** e, em **Sistema**, selecione **Administração**.
 2. Na página **Administração**, selecione **Configuração do sistema**.
 3. Na guia **Personalização**, na coluna **Rastreamento de atividade de fluxo de trabalho e plug-in**, selecione **Todos** para habilitar o log de rastreamento de plug-in. Se você deseja registrar logs de rastreamento somente quando ocorrerem exceções, em vez disso, você pode selecionar **Exceção**.
 
 
 Para exibir o log de rastreamento, siga estas etapas.
 
-1. Efetue login no aplicativo baseado em modelo no Dynamics 365, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
+1. Efetue login no aplicativo de interação com o cliente, abra a página **Configurações** e, em **Personalização**, selecione **Log de rastreamento de plug-in**.
 2. Encontre os logs de rastreamento em que a coluna **Nome do Tipo** esteja definida como **Microsoft.Dynamics.Integrator.DualWriteRuntime.Plugins.PreCommmitPlugin**.
 3. Clique duas vezes em um item para exibir o log completo e, em seguida, na Guia Rápida **Execução** revise o texto do **Bloco de mensagens**.
 

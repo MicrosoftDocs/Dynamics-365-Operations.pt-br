@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 34d0f3a0ff2a2ce1efd52f7bad2367af5f2f371b
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271146"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641071"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -71,8 +71,6 @@ Este recurso adiciona uma guia de gerenciamento de ativos à interface de execu�
 
 ### <a name="enable-job-search"></a>Habilitar pesquisa de trabalho
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Este recurso permite adicionar um campo de pesquisa à lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras. Se você quiser usá-lo, ative o seguinte recurso no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md):
 
 - Pesquisa de trabalho para a interface de execução do piso de produção
@@ -86,7 +84,7 @@ Para criar e manter configurações de dispositivo, vá para **Controle de produ
 
 Em seguida, defina as várias configurações para a configuração de dispositivo selecionada. Os seguintes campos estão disponíveis:
 
-- **Somente entrada e saída** – Defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Isso desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da FastTab **Seleção de guias** para poder habilitar esta opção.
+- **Somente entrada e saída** – Defina esta opção como *Sim* para criar uma interface simplificada que forneça somente a funcionalidade de entrada e saída. Isso desabilita a maioria das outras opções desta página. Você deve remover todas as linhas da Guia Rápida **Seleção de guias** para poder habilitar esta opção.
 - **Habilitar pesquisa**: defina esta opção como *Sim* para incluir um campo de pesquisa na lista de trabalhos. Os trabalhadores podem encontrar um trabalho específico inserindo a ID do trabalho ou encontrar todos os trabalhos para uma ordem específica inserindo a ID da ordem. Os trabalhadores podem inserir a ID usando um teclado ou digitalizando um código de barras.
 - **Quantidade de relatório em registro de saída** - defina essa opção como *Sim* para que os funcionários façam comentários sobre os trabalhos em andamento durante o registro de saída. Quando definido como *Não*, os funcionários não serão solicitados.
 - **Bloquear funcionário** – quando essa opção for definida como *Não*, os trabalhadores serão desconectados imediatamente depois que fizerem um registro (como um novo trabalho). O dispositivo retornará à página de entrada. Quando esta opção for definida como *Sim*, os trabalhadores permanecerão conectados ao dispositivo de ficha de trabalho. No entanto, um trabalhador pode se desconectar manualmente para que outro trabalhador possa entrar enquanto o dispositivo de ficha de trabalho continua em execução na mesma conta de usuário do sistema. Para obter mais informações sobre esses tipos de contas, consulte [Usuários atribuídos](config-job-card-device.md#assigned-users).

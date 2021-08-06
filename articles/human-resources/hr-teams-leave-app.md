@@ -2,7 +2,7 @@
 title: Gerenciar solicitações de licença no Teams
 description: Este tópico mostra como solicitar licenças no aplicativo do Dynamics 365 Human Resources no Microsoft Teams.
 author: andreabichsel
-ms.date: 05/25/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: aec6d784fd6bd54297ac4204c834c7f77ed75362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2a74b895052d017ccbe397bfb9a45609646b2f93
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356503"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639429"
 ---
 # <a name="manage-leave-requests-in-teams"></a>Gerenciar solicitações de licença no Teams
 
@@ -166,6 +166,10 @@ Se você tiver problemas para entrar ou usar o aplicativo do Dynamics 365 Human 
 ### <a name="cant-sign-into-the-human-resources-app-in-teams"></a>Não é possível entrar no aplicativo do Human Resources no Teams
 
 Se não conseguir entrar no aplicativo, é possível que a conta que você esteja usando para entrar no Microsoft Teams não esteja associada a um registro de funcionário no Dynamics 365 Human Resources. Entre em contato com o administrador do sistema para verificar se o registro de funcionário está associado corretamente.
+
+### <a name="cant-find-the-dynamics-365-human-resources-environment-in-settings"></a>Não é possível encontrar o ambiente do Dynamics 365 Human Resources em Configurações
+
+Se você não conseguir selecionar o ambiente correto do Dynamics 365, é possível que o registro do usuário não tenha sido sincronizado corretamente. Entre em contato com o administrador do sistema para recriar o registro de usuário e associá-lo às credenciais do usuário. Tente entrar no aplicativo Human Resources pelo Microsoft Teams em alguns minutos.
 
 ### <a name="translations-dont-display-correctly"></a>As traduções não são exibidas corretamente
 

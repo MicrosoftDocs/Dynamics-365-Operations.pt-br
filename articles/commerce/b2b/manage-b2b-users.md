@@ -2,24 +2,24 @@
 title: Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 description: Este tópico descreve como administradores podem adicionar, editar e excluir usuários de parceiros comerciais em sites de comércio eletrônico entre empresas (B2B).
 author: josaw1
-ms.date: 01/20/2021
+ms.date: 07/22/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: RetailOperations
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: v-chgri
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: josaw
+ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 6beee4cc4c0dd36f49a38ee49a1a23ad9b513360
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
+ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936647"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6655597"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 
@@ -67,7 +67,7 @@ Para aprovar e configurar um usuário administrador de parceiro comercial na sed
 
 1. Vá para **TI de Varejo e Comércio \> Agenda de distribuição** e execute o trabalho **1010** (**Clientes**) para enviar os registros de cliente recém-criado e de hierarquia cliente para o banco de dados do canal.
 
-Depois que a solicitação for aprovada, e os registros de cliente e de hierarquia do cliente forem sincronizados com o banco de dados do canal, o solicitante poderá entrar no site de comércio eletrônico B2B usando o endereço de email fornecido ao enviar a solicitação. Os usuários podem usar o fluxo de inscrição para definir a senha da conta.
+Depois que a solicitação for aprovada, e os registros de cliente e de hierarquia do cliente forem sincronizados com o banco de dados do canal, o solicitante poderá entrar no site de comércio eletrônico B2B usando o endereço de email fornecido ao enviar a solicitação. Os usuários podem usar o fluxo de inscrição para definir a senha da conta. Para habilitar o registro de provedor de identidade (Azure AD B2C) a ser vinculado ao registro de cliente B2B criado na inscrição ou na entrada, siga as instruções em [Habilitar vinculação automática de registros de identidade a contas de clientes](../identity-record-linking.md).
 
 ## <a name="onboard-additional-business-partner-users"></a>Integrar usuários adicionais do parceiro comercial
 
@@ -83,7 +83,7 @@ Para integrar usuários de parceiros comerciais a um site de comércio eletrôni
 
 1. Execute o trabalho **1010** (**Clientes**) para sincronizar o novo usuário parceiro comercial com o banco de dados do canal.
 
-Depois que o registro do cliente é sincronizado, o status do usuário no site de comércio eletrônico B2B é definido como **Ativo**, e o novo usuário pode entrar no site de comércio eletrônico B2B usando o endereço de email dele. Os usuários podem usar o fluxo de inscrição para definir a senha da conta.
+Depois que o registro do cliente é sincronizado, o status do usuário no site de comércio eletrônico B2B é definido como **Ativo**, e o novo usuário pode entrar no site de comércio eletrônico B2B usando o endereço de email dele. Os usuários podem usar o fluxo de inscrição para definir a senha da conta. Para habilitar o registro de provedor de identidade (Azure AD B2C) a ser vinculado ao registro de cliente B2B criado na inscrição ou na entrada, siga as instruções em [Habilitar vinculação automática de registros de identidade a contas de clientes](../identity-record-linking.md).
 
 ## <a name="edit-business-partner-user-details"></a>Editar detalhes do usuário parceiro comercial
 
@@ -112,7 +112,7 @@ Para integrar parceiros comerciais e usuários na sede do Commerce, siga estas e
 
 1. Crie um registro de cliente de **Tipo Organização** para a organização do parceiro comercial.
 1. Crie registros de clientes do **Tipo Pessoa** para usuários de parceiros comerciais. Verifique se um endereço de email principal foi especificado para cada cliente.
-1. Para cada registro de cliente de **Tipo Pessoa** que deva ser designado como um usuário administrador da organização do parceiro comercial, na FastTab **Retail**, defina a opção **Administrador de B2B** como **Sim**.
+1. Para cada registro de cliente de **Tipo Pessoa** que deva ser designado como um usuário administrador da organização do parceiro comercial, na Guia Rápida **Retail**, defina a opção **Administrador de B2B** como **Sim**.
 1. Crie uma ID de hierarquia do cliente. No campo **Nome**, insira um nome.
 1. No campo **Organização**, insira o cliente da organização do parceiro comercial.
 1. Selecione **Adicionar** e, depois, selecione um cliente no campo **Nome**.

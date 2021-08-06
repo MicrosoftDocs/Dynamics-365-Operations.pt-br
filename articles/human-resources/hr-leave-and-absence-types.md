@@ -2,7 +2,7 @@
 title: Configurar tipos de licença e ausência
 description: Configurar tipos de licença que os funcionários podem executar no Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 06/15/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 39e4c4b9c83ca648c21ac20bd20b739af8a6b9ed
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 63970f69a437864675eada975c54446325fb60e2
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271118"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639573"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
 
@@ -73,6 +73,37 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
  
 4. Defina **Regras de expiração** para o tipo de licença. Ao configurar esta opção, você pode escolher a unidade de dias ou meses e definir a duração do vencimento. A data de efetivação é usada para determinar quando começar a executar o trabalho em lotes que processa a expiração da licença ou a data em que a regra entra em vigor. O vencimento em si sempre ocorrerá na data de início do período de acréscimo. Por exemplo, se a data de início do período de acréscimo for 3 de agosto de 2021, e a regra de vencimento for definida como 6 meses, a regra será processada com base no vencimento compensado a partir da data de início do período de acréscimo, de modo que seria executado em 3 de fevereiro de 2022. Os saldos de licença existentes no momento da expiração serão subtraídos do tipo de licença e serão refletidos no saldo de licença.
  
+## <a name="configure-the-required-attachment-per-leave-type"></a>Configurar o anexo necessário por tipo de licença
+
+> [!NOTE]
+> Para usar o campo **Anexo necessário**, é necessário primeiro ativar o recurso **(Versão preliminar) Configurar o anexo necessário para solicitações de licença** no gerenciamento de recursos. Para obter mais informações sobre como ativar a versão prévia dos recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+
+1. Na página **Licença e ausência**, na guia **Links**, em **Configuração**, selecione **Tipos de licença e ausência**.
+
+2. Selecione um tipo de licença e ausência na lista. Em seguida, na seção **Geral**, use o campo **Anexo necessário** para especificar se um anexo deve ser carregado quando um funcionário enviar uma nova solicitação de licença para o tipo de licença selecionado. 
+
+Os funcionários serão solicitados a carregar um anexo quando enviarem uma nova solicitação de licença que tenha um tipo de licença em que o campo **Anexo necessário** esteja habilitado. Para exibir o anexo que foi carregado como parte de uma solicitação de licença, os aprovadores da solicitação de licença podem usar a opção **Anexos** para os itens de trabalho atribuídos a eles. Se uma solicitação de licença for acessada usando o aplicativo Human Resources no Microsoft Teams, a opção **Exibir detalhes** para a solicitação de licença poderá ser usada para exibir os detalhes e todos os anexos.
+
+## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurar unidades de licença (horas/dias) por tipo de licença
+
+> [!NOTE]
+> Para usar a funcionalidade de unidades de licença por tipo de licença, é necessário primeiro ativar o recurso **(Versão preliminar) Configurar unidades de licença por tipo de licença** no gerenciamento de recursos. Para obter mais informações sobre como ativar a versão prévia dos recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+
+> [!IMPORTANT]
+> Por padrão, os tipos de licença em uma entidade legal usam as unidades de licença da configuração de parâmetros de licença no nível da entidade legal.
+> 
+> A unidade de licença de um tipo de licença e ausência pode ser modificada somente se não houver transações de licença para o tipo de licença.
+> 
+> O recurso não pode ser desativado após ter sido ativado.
+
+1. Na página **Licença e ausência**, na guia **Links**, em **Configuração**, selecione **Tipos de licença e ausência**.
+
+2. Selecione um tipo de licença e ausência na lista. Em seguida, na seção **Geral**, no campo **Unidade**, selecione a unidade de licença. Você pode selecionar **Horas** ou **Dias**.
+
+3. Opcional: se você selecionou **Horas** no campo **Unidade**, poderá usar o campo **Habilitar definição de meio dia** para especificar se os funcionários poderão selecionar a primeira metade do dia ou a segunda metade do dia, se eles estiverem solicitando uma licença de meio dia.
+
+Os funcionários que enviam uma nova solicitação de licença podem selecionar tipos de licença diferentes para construir a solicitação de licença. No entanto, todos os tipos de licença selecionados como parte de uma solicitação de licença única devem ter a mesma unidade de licença. Os funcionários podem visualizar a unidade de licença para cada tipo de licença no formulário **Solicitar folga**.
+
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de licença e ausência](hr-leave-and-absence-overview.md)

@@ -2,7 +2,7 @@
 title: Configurar regras e opções de qualificação
 description: Configure regras e opções de qualificação no gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources.
 author: andreabichsel
-ms.date: 05/20/2021
+ms.date: 06/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,24 +15,31 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f7679afa29e5e4ef8482c71558275297d7359362
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
+ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351648"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6558360"
 ---
-# <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação
+# <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação 
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Depois de configurar os parâmetros necessários para o gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources, você poderá criar regras, pacotes, períodos e programas de qualificação que serão associados aos seus planos de benefícios.
+Depois de configurar os parâmetros necessários para o gerenciamento de benefícios, você poderá criar regras, pacotes, períodos e programas de qualificação que serão associados aos seus planos de benefícios.
+
+As regras de qualificação são usadas para determinar se os funcionários estão qualificados para um plano. Os funcionários devem atender à condição de, pelo menos, uma regra para serem considerados qualificados para o benefício. Por exemplo, você tem duas regras em um plano. A primeira regra (linha 1) informa que o tipo de funcionário deve ser **Funcionário**. A segunda regra (linha 2) informa que o funcionário deve ser um funcionário em tempo integral. Portanto, os funcionários que atendem à regra 1 são qualificados mesmo se estiverem empregados apenas em meio período.
+
+No entanto, você pode configurar uma única regra que tenha várias condições. Nesse caso, os funcionários devem atender a todas as condições da regra para serem considerados qualificados para o benefício. Por exemplo, você tem uma regra chamada **Funcionário em período integral**. Esta regra informa que o tipo de funcionário deve ser **Funcionário** *e* o funcionário deve estar empregado em período integral. Portanto, os funcionários devem atender às duas condições da regra para serem qualificados.
+
+> [!IMPORTANT]
+> Pelo menos uma regra de qualificação deve estar associada a cada plano de benefício. É possível associar várias regras a um benefício.
 
 ## <a name="create-an-eligibility-rule"></a>Criar um regra de qualificação
 
 As regras de qualificação definem quais funcionários podem se inscrever em cada plano de benefícios. Depois de definir as regras de qualificação, você as atribui aos planos de benefícios. Depois, você poderá processar a qualificação da inscrição para verificar quais funcionários são qualificados para cada plano. 
 
-Durante a inscrição aberta, os funcionários poderão selecionar planos de benefícios. Se eles se tornarem qualificados para um plano de benefícios com base nas regras de qualificação depois de já estarem inscritos, eles não serão automaticamente inscritos. Em geral, quando ocorre um evento de vida que afeta a qualificação do plano, é iniciado um período de inscrição para que o funcionário selecione os planos aos quais está qualificado. 
+Durante a inscrição aberta, os funcionários poderão selecionar planos de benefícios. Se eles se tornarem qualificados para um plano de benefícios com base nas regras de qualificação depois de já estarem inscritos, eles não serão inscritos automaticamente. Em geral, quando ocorre um evento de vida que afeta a qualificação do plano, é iniciado um período de inscrição para que o funcionário selecione os planos aos quais está qualificado. 
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Configuração**, selecione **Regras e opções de qualificação**.
 
@@ -46,10 +53,10 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
    | **Descrição** | Uma descrição da regra de qualificação. |
    | **Válido a partir da data e hora** | A data de início da regra de qualificação. | 
    | **Válido até a data e hora** | A data de término da regra de qualificação. |
-   | **Tipo de funcionário do usuário** | Especifica se o tipo de funcionário do funcionário deve ser usado na regra de qualificação do benefício. |
+   | **Tipo de funcionário do usuário** | Especifica se o tipo de funcionário deve ser usado na regra de qualificação do benefício. |
    | **Tipo de trabalhador** | O tipo de trabalhador, se a alternância **Usar tipo de funcionário** estiver definida como **Sim**. |
    | **Usar status do funcionário** | Especifica se o status de emprego do funcionário deve ser usado na regra de qualificação do benefício. |
-   | **Status** | O status de emprego, se a alternância **Usar status do funcionário** estiver definida como **Sim**. Se a alternância **Usar status do funcionário** estiver definida como **Não**, o campo não será usado. |
+   | **Status** | O status de emprego, se a alternância **Usar status do funcionário** estiver definida como **Sim**. Se a opção **Usar status do funcionário** estiver definida como **Não**, o campo não será usado. |
    | **Usar categoria de emprego** | Especifica se o valor **Categoria de emprego** do funcionário deve ser usado como parte da regra de qualificação do benefício. | 
    | **Categoria de emprego** | A categoria de emprego do funcionário se a opção **Usar categoria de emprego** estiver definida como **Sim**. |
    | **Usar nova regra de contratação** | Especifica se o valor de um novo período de contratação deve ser usado como parte da regra de qualificação de benefícios. |
@@ -72,7 +79,7 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
    | **Tipo de posição qualificado** | Especifica o tipo ou tipos de posição que satisfazem a regra de qualificação. Por exemplo, período integral. |
    | **Estado qualificado** | Especifica os estados ou províncias que satisfazem a regra de qualificação. Por exemplo, Dakota do Norte (EUA) ou Colúmbia Britânica (Canadá). |
    | **Condições de emprego qualificadas** | Especifica os contratos de trabalho que satisfazem a regra de qualificação. Por exemplo, à vontade ou contrato de grupo. |
-   | **Sindicato qualificado** | Especifica as associações sindicais que satisfazem a regra de qualificação. Por exemplo, Forklift Drivers of America. </br></br>Ao usar uma regra de qualificação baseada em sindicato, o registro sindical do trabalhador deve ter a data de término preenchida. Você não pode deixar em branco. |
+   | **Sindicato qualificado** | Especifica as associações sindicais que satisfazem a regra de qualificação. Por exemplo, Forklift Drivers of America.</br></br>Ao usar uma regra de qualificação baseada em sindicato, o registro sindical do trabalhador deve ter a data de término preenchida. Não é possível deixar em branco. |
    | **CEP qualificado/código postal** | Especifica os CEPs/códigos postais que satisfazem a regra de qualificação. Por exemplo, 58104. |
 
 5. Em **Detalhes adicionais**, é possível ver os seguintes detalhes adicionais.
@@ -131,7 +138,7 @@ Quando várias regras de qualificação são atribuídas a um plano de benefíci
 ![O funcionário deve atender aos requisitos da regra de Tipo de trabalho ou da regra Funcionários ativos.](media/RulesAssignedToAPlan.png)
  
 ### <a name="criteria-within-an-eligibility-rule"></a>Critérios em uma regra de qualificação 
-Em uma regra, você define os critérios que formam a regra. No exemplo acima, os critérios para a regra **Tipo de trabalho** é onde Tipo de trabalho = Diretores. Portanto, o funcionário deve ser um diretor elegível. Esta é uma regra na qual há apenas um critério na regra.
+Em uma regra, você define os critérios que formam a regra. No exemplo acima, o critério para a regra **Tipo de trabalho** é onde Tipo de trabalho = Diretores. Portanto, o funcionário deve ser um diretor elegível. Esta é uma regra na qual há apenas um critério na regra.
 
 Você pode definir regras que têm vários critérios. Quando você define vários critérios em uma regra de qualificação, um funcionário deve atender a todos os critérios dentro da regra para ser elegível ao plano de benefícios. 
 
@@ -200,7 +207,7 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
 
 ## <a name="use-a-flex-credit-program"></a>Usar um programa de crédito flexível
 
-É possível usar os programas de crédito flexível para inscrever funcionários em benefícios de acordo com um número predeterminado de créditos flexíveis. Os funcionários podem escolher como alocar seus créditos flexíveis. Por exemplo, se um funcionário estiver coberto pelo plano de seguro de saúde de seu cônjuge, ele poderá usar os créditos que usaria na cobertura de saúde para obter outros benefícios.
+É possível usar os programas de crédito flexível para inscrever funcionários em benefícios de acordo com um número predeterminado de créditos flexíveis. Os funcionários podem escolher como alocar seus créditos flexíveis. Por exemplo, se um funcionário recebeu cobertura do plano de seguro de saúde de seu cônjuge, ele poderá usar os créditos que usaria na cobertura de saúde para obter outros benefícios.
 
 1. No espaço de trabalho **Gerenciamento de benefícios** em **Configuração**, selecione **Regras e opções de qualificação**.
 
@@ -213,12 +220,12 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
    | ID do crédito do benefício | O identificador exclusivo do programa de crédito flexível. |
    | Descrição | Uma descrição do programa de crédito flexível. | 
    | Data Inicial | A data em que o programa de crédito flexível se torna ativo. |
-   | Data Final | A data final do programa de crédito flexível. Você pode deixar o valor padrão (12/31/2154) para indicar que o programa de crédito flexível não tem uma expiração programada. |
+   | Data Final | A data final do programa de crédito flexível. Você pode deixar o valor padrão (31/12/2154) para indicar que o programa de crédito flexível não tem uma expiração programada. |
    | Valor total do crédito | O número de créditos que cada funcionário precisará usar para seus benefícios. |
    | Regra de rateio | A regra a ser usada para ratear créditos flexíveis quando um funcionário é contratado no meio do período do crédito flexível. </br></br><ul><li>**Nenhum** – O funcionário não recebe créditos flexíveis se for contratado após o início do período do programa.</li><li>**Crédito completo** – O funcionário recebe o valor total dos créditos flexíveis, independentemente de quando eles são contratados.</li><li>**Rateio** – O funcionário recebe um valor rateado de créditos flexíveis com base na data de início.</li></ul> |
    | Fórmula de rateio do crédito flexível | A regra a ser usada para rateio de créditos flexíveis para funcionários contratados no meio de um período de benefício para o programa de crédito flexível. O rateio é baseado na data de início do emprego. Esse campo é usado apenas se você selecionar **Rateio** no campo **Regra de rateio**. </br></br><ul><li>**Diário** – Rateia o número de créditos flexíveis que um funcionário recebe diariamente. O número total de créditos flexíveis é dividido pelo número de dias no período. Por exemplo, se seu período de benefício for de 400 dias, o sistema dividirá o número total de créditos flexíveis por 400 para calcular o número de créditos flexíveis que os funcionários recebem por dia.</li><li>**Mês atual** – Rateia o número de créditos flexíveis que um funcionário recebe mensalmente, arredondado para o mês atual. O número total de créditos flexíveis é dividido pelo número de meses no período. Por exemplo, se seu período de benefício for de 15 meses, o sistema dividirá o número total de créditos flexíveis por 15 para calcular o número de créditos flexíveis que os funcionários recebem por mês.</li><li>**Mês seguinte** – Rateia o número de créditos flexíveis que um funcionário recebe mensalmente, arredondado para o próximo mês. O número total de créditos flexíveis é dividido pelo número de meses no período. Por exemplo, se seu período de benefício for de 15 meses, o sistema dividirá o número total de créditos flexíveis por 15 para calcular o número de créditos flexíveis que os funcionários recebem por mês.</li></ul> |
    
-   Certifique-se de que cada plano de benefício esteja inscrito em apenas um programa de crédito flexível por período de benefício. Caso contrário, o sistema não saberá qual programa de crédito flexível usar para conceder créditos flexíveis e você encontrará problemas. 
+   Certifique-se de que cada plano de benefício esteja inscrito em apenas um programa de crédito flexível por período de benefício. Caso contrário, o sistema não saberá qual programa de crédito flexível usar para conceder créditos flexíveis, e você encontrará problemas. 
 
 ## <a name="configure-programs"></a>Configurar programas
 

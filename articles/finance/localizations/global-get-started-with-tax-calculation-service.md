@@ -2,7 +2,7 @@
 title: Introdução ao Cálculo de Imposto
 description: Este tópico explica como configurar o Cálculo de Imposto.
 author: wangchen
-ms.date: 05/17/2021
+ms.date: 07/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 454608c2c3a86b71cf181129c762c837c5165902
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: b76184b3f1a97941fea7539aa3fac2c11b1f59b1
+ms.sourcegitcommit: cef2986e24d0510957b5db742545c266dec4275c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336647"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6644965"
 ---
 # <a name="get-started-with-the-tax-calculation-preview"></a>Introdução ao Cálculo de Imposto (versão preliminar)
 
@@ -58,15 +58,16 @@ Antes de poder concluir os procedimentos neste tópico, é preciso ter os seguin
 As etapas nesta seção não estão relacionadas a uma entidade legal específica. É necessário concluir este procedimento somente uma vez, sendo possível concluí-lo em qualquer entidade legal no RCS.
 
 1. Entre no [RCS](https://marketing.configure.global.dynamics.com/).
-2. No espaço de trabalho **Relatório eletrônico**, adicione um novo provedor de configuração. Use o nome da empresa como o nome do provedor. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
-3. Selecione o provedor de configuração recém-criado e, depois, selecione **Definir como ativo**.
-4. Selecione o provedor de configuração **Microsoft** e, depois, selecione **Repositórios**.
-5. No campo **Tipo**, selecione **Global**.
-6. Selecione **Abrir**.
-7. Acesse o **Modelo de Dados do Imposto**, expanda a árvore de arquivos e selecione **Configuração de Imposto**.
-8. Selecione a versão mais recente e, depois, selecione **Importar**.
-9. Retorne ao espaço de trabalho **Recursos de globalização (Versão preliminar)**, selecione **Recursos**, selecione o bloco **Cálculo do Imposto** e **Adicionar**.
-10. Selecione um dos seguintes tipos de recurso:
+2. No espaço de trabalho **Gerenciamento de recursos**, selecione e habilite o recurso **Recursos de globalização**.
+3. No espaço de trabalho **Relatório eletrônico**, adicione um novo provedor de configuração. Use o nome da empresa como o nome do provedor. Para obter mais informações, consulte [Criar provedores de configuração e marcá-los como ativos](../../fin-ops-core/dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md).
+4. Selecione o provedor de configuração recém-criado e, depois, selecione **Definir como ativo**.
+5. Selecione o provedor de configuração **Microsoft** e, depois, selecione **Repositórios**.
+6. No campo **Tipo**, selecione **Global**.
+7. Selecione **Abrir**.
+8. Acesse o **Modelo de Dados do Imposto**, expanda a árvore de arquivos e selecione **Configuração de Imposto**.
+9. Selecione a versão mais recente e, depois, selecione **Importar**.
+10. Retorne ao espaço de trabalho **Recursos de globalização** e selecione **Recursos**, o bloco **Cálculo do Imposto** e **Adicionar**.
+11. Selecione um dos seguintes tipos de recurso:
 
     - **Novo recurso** – crie uma configuração de recurso com conteúdo em branco.
     - **Com base no recurso existente** – crie um recurso usando um recurso existente e copie o conteúdo da configuração de recurso existente.

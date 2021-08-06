@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-06-22
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae444b4d208804364333bd3d6e4704500da85470
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: c2f362e71832d6f7b17e06ad98142019ced4df14
+ms.sourcegitcommit: baad2723291774f610324a8054fc14abf3287fe1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303553"
+ms.lasthandoff: 07/14/2021
+ms.locfileid: "6560065"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-june-22-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources de 22 de junho de 2021
 
@@ -44,7 +44,7 @@ Os seguintes recursos estão geralmente disponíveis nesta versão.
 | --- | --- | --- |
 | Recurso Informar os usuários sobre trabalhadores sem emprego - Quando o acesso avançado estiver ativado e o recurso **Visualizar todos os trabalhadores sem emprego** estiverem desabilitados no gerenciamento de recursos, uma faixa será exibida no formulário de trabalhadores sem emprego. A faixa direcionará o usuário a ativar o recurso **Visualizar todos os trabalhadores sem emprego**. | Não Aplicável| [Trabalhadores sem emprego](/dynamics365/human-resources/hr-personnel-workers-without-employment)|
 | Suporte a campo personalizado para Regras de qualificação de gerenciamento de benefícios | [Suporte a campos personalizados para processamento de qualificação](/dynamics365-release-plan/2021wave1/human-resources/dynamics365-human-resources/custom-field-support-eligibility-processing) |[Configurando regras de qualificação](/dynamics365/human-resources/hr-benefits-setup-eligibility-rules) |
-| Auditoria de transações de acúmulo de licenças | Não Aplicável | [Auditoria de transações de acúmulo de licenças](hr-leave-and-absence-accrue.md#preview-leave-accrual-transaction-auditing)|
+| Auditoria de transações de acúmulo de licenças | Não Aplicável | [Auditoria de transações de acúmulo de licenças](hr-leave-and-absence-accrue.md)|
 | Aprimoramentos de experiência de fluxo de trabalho de licença e ausência | [Aprimoramentos de experiência de fluxo de trabalho de licença e ausência](https://go.microsoft.com/fwlink/?linkid=2147528) | [Solicitar folga](hr-employee-self-service-request-time-off.md)|
 
 ### <a name="bug-fixes"></a>Correções de bug

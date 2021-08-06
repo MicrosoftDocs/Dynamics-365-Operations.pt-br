@@ -2,7 +2,7 @@
 title: Home page Implantação local
 description: Este tópico fornece informações e vincula a conteúdo sobre implantações locais.
 author: sericks007
-ms.date: 03/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: ef19a154b4e18246c88adea48ee2709af17f039f
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f5ecc71326892683e0a49685262aae0db4a49ea9
+ms.sourcegitcommit: 41a5d18552bcc94cb1ddbbe3f3278eaf9d05f418
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338921"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "6617061"
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page Implantação local
 
@@ -33,6 +33,7 @@ Você pode implantar o Dynamics 365 Finance + Operations (local). Quando você e
 - [Visão geral da Implantação local](on-premises-overview.md)
 - [Planejar e preparar para implantações locais](plan-onprem-deployment.md)
 - [Requisitos do sistema para implantações locais](../../fin-ops/get-started/system-requirements-on-prem.md)
+- [Software compatível com o Microsoft Dynamics 365 Finance + Operations (on-premises)](onprem-compatibility.md)
 - [Requisitos de dimensionamento de hardware para ambientes locais](../../fin-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [Comprar o Finance + Operations (on-premises)](../../fin-ops/get-started/purchase-on-premises.md)
 - [Comparação de recursos de nuvem e locais](../../fin-ops/get-started/cloud-prem-comparison.md)

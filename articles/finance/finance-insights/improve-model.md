@@ -2,7 +2,7 @@
 title: Melhorar o modelo de previsão (versão preliminar)
 description: Este tópico descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-28
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: 74005d17e2524b922b0fab1aab5350b85dfad771
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 376e48a442f5a1b459077fb7a0d52faf974a792f
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355667"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638407"
 ---
 # <a name="improve-the-prediction-model-preview"></a>Melhorar o modelo de previsão (versão preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve recursos que podem ser usados para melhorar o desempenho de modelos de previsão. Comece a melhorar seu modelo no espaço de trabalho **Previsões de pagamento de cliente** no Microsoft Dynamics 365 Finance. As etapas de melhoria são concluídas no AI Builder.
 

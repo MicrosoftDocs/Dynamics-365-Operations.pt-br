@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-06-01
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4da23ff0dc8858558df3111b90159e43bd5fdccf
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e00748fc9629d7ecfa91701002d3d2d7dda0a86f
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056315"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639405"
 ---
 # <a name="request-a-leave-of-absence"></a>Solicitar uma licença
 
@@ -48,6 +48,10 @@ Você pode enviar uma solicitação de licença e ver o status das solicitaçõe
 1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Mais** (...) no grupo **Saldos de folgas**.
 
 2. Para exibir suas solicitações de licença, selecione **Exibir licença**.
+
+## <a name="importing-leave-requests-from-other-systems-or-older-systems"></a>Importando solicitações de licença de outros sistemas ou sistemas mais antigos
+
+Para importar solicitações de licença de outro sistema, é necessário passar pelo fluxo de trabalho regular para criar as transações de licença apropriadas. Como alternativa, é possível importar as transações bancárias de licença e as solicitações de licença em um estado concluído. Observe que as transações bancárias de licença não são criadas automaticamente se você importa somente as solicitações de licença.
 
 ## <a name="see-also"></a>Consulte também
 

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8f80458de69a77846259c9a0707c05098d13e12a
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
+ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115064"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6641145"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
@@ -118,7 +118,7 @@ Defina os campos a seguir no cabeçalho de uma política de prontidão do produt
 | Organização | Digite um nome para a política. |
 | descrição | Insira uma descrição para a política. |
 
-### <a name="general-fasttab"></a>FastTab Geral
+### <a name="general-fasttab"></a>Guia Rápida Geral
 
 Defina os campos a seguir na Guia rápida **Geral** de uma política de prontidão do produto.
 
@@ -166,19 +166,17 @@ Para atribuir uma política de preparação a um produto compartilhado, siga est
 
 1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos**.
 1. Abra ou crie o produto ao qual deseja atribuir uma política de preparação.
-1. Na FastTab **Geral**, defina o campo **Política de preparo de produtos** para o nome da política que deve ser aplicada ao produto.
+1. Na Guia Rápida **Geral**, defina o campo **Política de preparo de produtos** para o nome da política que deve ser aplicada ao produto.
 
 Para atribuir uma política de preparação a uma categoria de engenharia, siga estas etapas.
 
 1. Acesse **Gerenciamento de alterações de engenharia \> Configuração \> Detalhes de categorias de produtos de engenharia**.
 1. Abra ou crie a categoria de engenharia à qual deseja atribuir uma política de preparação.
-1. Na FastTab **Política de preparo de produtos**, defina o campo **Política de preparo de produtos** para o nome da política que deve ser aplicada à categoria de engenharia.
+1. Na Guia Rápida **Política de preparo de produtos**, defina o campo **Política de preparo de produtos** para o nome da política que deve ser aplicada à categoria de engenharia.
 
 <a name="standard-products"></a>
 
 ## <a name="readiness-checks-on-standard-products"></a>Verificações de preparação em produtos padrão
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Você pode habilitar as verificações de preparação do produto para produtos padrão (não de engenharia) ativando o recurso *Verificações de preparação do produto* no gerenciamento de recursos. Esse recurso faz algumas pequenas alterações no sistema de verificação de preparação para que ele ofereça suporte a produtos padrão.
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 90bfd55bd865b27aec831957209ce8716cb253c8
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: a125e894aa52083fccca2f10873305db8cc4528e
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6188260"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647221"
 ---
 # <a name="purchase-agreements"></a>Contratos de compra
 
@@ -104,9 +104,8 @@ Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Criar um contrato de compra](tasks/create-purchase-agreement.md)
-
-[Criar uma ordem de liberação de compra de um contrato de compra](tasks/create-purchase-release-order-purchase-agreement.md)
+- [Criar um contrato de compra](tasks/create-purchase-agreement.md)
+- [Aplicar um contrato de compra ao criar uma ordem de compra](tasks/create-purchase-release-order-purchase-agreement.md)
 
 
 

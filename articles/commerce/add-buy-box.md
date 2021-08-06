@@ -14,17 +14,16 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 307c9876aa0fed77778fcf81903f9c52e3f5be67
-ms.sourcegitcommit: 7e976059118938b0089e40bef948029a8c088b38
+ms.openlocfilehash: ac29180dbffac4d7db27856b801647aac878bc99
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "6479223"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638016"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
 [!include [banner](includes/banner.md)]
-[!include [banner](includes/preview-banner.md)]
 
 Este tópico abrange os módulos de caixa de compra e descreve como adicioná-los às páginas de site no Microsoft Dynamics 365 Commerce.
 

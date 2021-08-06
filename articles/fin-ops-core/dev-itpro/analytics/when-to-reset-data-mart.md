@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre redefinições do data mart
 description: Este tópico fornece respostas a algumas perguntas frequentes sobre redefinições do data mart.
 author: jinniew
-ms.date: 06/09/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-05-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7cd96c7bc698986ef1ef07ca88479a3d49f22924
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: 90abe1fc3e84e0a9777f3eabd790a4b7e9b509c5
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266600"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638258"
 ---
 # <a name="data-mart-resets-faq"></a>Perguntas frequentes sobre redefinições do data mart
 
@@ -37,6 +37,9 @@ Se uma ou mais das seguintes declarações se aplicarem à sua situação, sua o
 
 - O banco de dados do aplicativo foi restaurado.
 - Você abriu um tíquete de suporte e foi orientado por um engenheiro de suporte a redefinir o data mart como parte de uma etapa de solução de problemas.
+ 
+> [!NOTE]
+> O processo de redefinição de um data mart é afetado pelo número da contabilidade e das transações de orçamento em seu banco de dados. Dependendo do número de transações no sistema, uma redefinição de data mart pode ser concluída em apenas 15 minutos, ou pode levar até quatro horas. No entanto, se a redefinição levar mais de quatro horas, recomendamos contatar o suporte.
  
 ## <a name="when-is-a-data-mart-reset-inappropriate"></a>Quando uma redefinição de um data mart é inadequada?
 

@@ -2,7 +2,7 @@
 title: Visão geral de instantâneos (versão preliminar)
 description: Este tópico descreve o recurso de instantâneos, que permite salvar uma previsão de fluxo de caixa para análise ou comparação com dados efetivos posteriormente. Ao gerar uma previsão de fluxo de caixa, você poderá salvar essa previsão como um "instantâneo". Em seguida, você pode usar esses instantâneos para editar as contas que foram incluídas na previsão ou comparar a previsão no instantâneo com os valores reais.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-19
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 23df01603e74847f6f01a1eaa84b8fd3bb1d6e59
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: cf39e5233b2ef4d50d6c5ace57ba2574ed5fe6fe
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337198"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638335"
 ---
 # <a name="snapshots-overview-preview"></a>Visão geral de instantâneos (versão preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Os instantâneos permitem que as organizações editem e salvem informações sobre sua posição de caixa e previsões de dinheiro em um ponto no tempo. Você pode comparar o instantâneo com os financeiros reais, examinar a variação e usar essas informações para melhorar as previsões de fluxo de caixa ao longo do tempo. Mais especificamente, os instantâneos podem ser usados das seguintes formas:
 

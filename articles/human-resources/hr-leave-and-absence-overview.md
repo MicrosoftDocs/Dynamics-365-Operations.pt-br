@@ -2,7 +2,7 @@
 title: Visão geral de licença e ausência
 description: No Dynamics 365 Human Resources, o espaço de trabalho de licença e ausência fornece uma estrutura flexível para a criação de novos planos de licença. Ele também fornece fluxos de trabalho para gerenciar solicitações e uma página intuitiva de autoatendimento para que os funcionários solicitem folga.
 author: andreabichsel
-ms.date: 06/01/2020
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: b41838b447dcbffc656ab759fcc4746abb620661
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 7a3c305910f41ebd775292dee91a6044c2cdb244
+ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339706"
+ms.lasthandoff: 07/19/2021
+ms.locfileid: "6639477"
 ---
 # <a name="leave-and-absence-overview"></a>Visão geral de licença e ausência
 
@@ -35,6 +35,7 @@ Antes de criar planos de licença para seus funcionários, você precisará exec
 - [Configurar parâmetros de licença e ausência](hr-leave-and-absence-parameters.md)
 - [Criar um calendário de horas úteis](hr-leave-and-absence-working-time-calendar.md)
 - [Criar um fluxo de trabalho de solicitação de licença](hr-leave-and-absence-workflow.md)
+- [Configurar a função de Gerente de ausências](hr-configure-absence-manager.md)
 
 ## <a name="create-and-manage-leave-plans"></a>Criar e gerenciar planos de licenças
 
@@ -50,8 +51,9 @@ Antes de criar planos de licença para seus trabalhadores, você precisará cria
 
 Seus funcionários podem enviar solicitações de folga e você pode gerenciá-los no espaço de trabalho **Autoatendimento para funcionários**.
 
-[Solicitar folga](hr-employee-self-service-request-time-off.md)
-[Gerenciar solicitações de licença e ausência](hr-employee-self-service-manage-requests.md)
+- [Solicitar folga](hr-employee-self-service-request-time-off.md)
+- [Gerenciar solicitações de licença e ausência](hr-employee-self-service-manage-requests.md)
+- [Configurar função de gerente de ausências](hr-configure-absence-manager.md)
 
 
 
