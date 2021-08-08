@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2c53d28192c5bf673baccd76e4cfb6e0453fe29d
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e155263daf2f33531abefdc45c5046a5ab5bca11
+ms.sourcegitcommit: 787c94b35f343f4c38fc8efaaa0cfaf20a846368
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337920"
+ms.lasthandoff: 07/21/2021
+ms.locfileid: "6647197"
 ---
 # <a name="procurement-and-sourcing-home-page"></a>Página inicial de compras
 
@@ -76,11 +76,10 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Criar uma ordem de compra repetida](tasks/create-repeat-purchase-order.md)
 -   [Criar uma ordem de compra de uma ordem de venda](../sales-marketing/tasks/create-purchase-order-sales-order.md)
 -   [Criar itens suplementares para uma ordem de compra](tasks/create-purchase-order-one-time-supplier.md)
--   [Criar uma ordem de compra com um agendamento de entrega](tasks/create-purchase-order-delivery-schedule.md)
--   [Criar uma ordem de compra de devolução](tasks/create-purchase-return-order.md)
--   [Criar uma ordem de liberação de compra de um contrato de compra](tasks/create-purchase-release-order-purchase-agreement.md)
--   [Criar uma ordem de liberação de compra durante a criação da ordem de compra](tasks/create-purchase-release-order-creating-purchase-order.md)
--   [Criar nova ordem de reabastecimento de consignação](../inventory/tasks/create-consignment-replenishment-order.md)
+-   [Criar uma ordem de compra com uma agenda de entrega](tasks/create-purchase-order-delivery-schedule.md)
+-   [Criar uma ordem de devolução de compra](tasks/create-purchase-return-order.md)
+-   [Aplicar um contrato de compra ao criar uma ordem de compra](tasks/create-purchase-release-order-purchase-agreement.md)
+-   [Criar uma ordem de reabastecimento de consignação](../inventory/tasks/create-consignment-replenishment-order.md)
 
 ## <a name="prices-and-discounts"></a>Preços e descontos
 -   [Contratos de compra](purchase-agreements.md)

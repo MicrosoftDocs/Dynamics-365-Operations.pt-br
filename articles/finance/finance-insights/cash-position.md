@@ -2,7 +2,7 @@
 title: Posição de pagamento à vista (Versão preliminar)
 description: Este tópico descreve como o recurso de previsão de fluxo de caixa prevê a posição de pagamento à vista de uma organização para horários específicos. Também descreve as opções disponíveis para mostrar previsões para períodos diferentes.
 author: ShivamPandey-msft
-ms.date: 06/03/2021
+ms.date: 07/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2019-11-06
 ms.dyn365.ops.version: AX 10.0.8
-ms.openlocfilehash: b3b32bac436dc0be7ae4c072f4e560ad6d8b6d81
-ms.sourcegitcommit: ebcd9019cbb88a7f2afd9e701812e222566fd43d
+ms.openlocfilehash: 1935be3b2d52e19b764e6afdf00a8bc546f801df
+ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6186483"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "6638743"
 ---
 # <a name="cash-position-preview"></a>Posição de pagamento à vista (versão preliminar)
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 Posição de pagamento à vista é a projeção do fluxo de caixa que é a previsão para o próximo termo. Ele se baseia na projeção de recebimentos à vista de clientes que pagam faturas e ordens pendentes, e também na projeção de pagamentos à vista que são pagos para fornecedores para faturas e ordens de compra.
 

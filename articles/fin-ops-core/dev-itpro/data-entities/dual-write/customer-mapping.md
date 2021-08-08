@@ -4,24 +4,17 @@ description: Este tópico descreve a integração de dados de cliente entre o Fi
 author: RamaKrishnamoorthy
 ms.date: 07/15/2019
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 5af584eb0bdb65942921847219b46b8f93dae79d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8f85759f650e1c0e2a1d228b6429d218edac8ef4
+ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350902"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6542530"
 ---
 # <a name="integrated-customer-master"></a>Cliente mestre integrado
 
@@ -29,8 +22,7 @@ ms.locfileid: "6350902"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-
-Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365. Por exemplo, uma linha de cliente pode se originar durante a atividade de vendas no Dynamics 365 Sales (um aplicativo baseado em modelo no Dynamics 365) ou uma linha pode se originar por meio da atividade de varejo no Dynamics 365 Commerce (um aplicativo Finance and Operations). Não importa onde os dados do cliente se originam, eles são integrados em segundo plano. O cliente mestre integrado oferece a flexibilidade para os dados principais do cliente em qualquer aplicativo Dynamics 365 e fornece uma visão abrangente do cliente no pacote de aplicativos do Dynamics 365.
+Os dados do cliente podem ser dominados em mais de um aplicativo do Dynamics 365. Por exemplo, uma linha de cliente pode se originar durante a atividade de vendas no Dynamics 365 Sales (um aplicativo de engajamento do cliente) ou uma linha pode se originar por meio da atividade de varejo no Dynamics 365 Commerce (um aplicativo de finanças e operações). Não importa onde os dados do cliente se originam, eles são integrados em segundo plano. O cliente mestre integrado oferece a flexibilidade para os dados principais do cliente em qualquer aplicativo Dynamics 365 e fornece uma visão abrangente do cliente no pacote de aplicativos do Dynamics 365.
 
 ## <a name="customer-data-flow"></a>Fluxo de dados do cliente
 
@@ -50,43 +42,18 @@ Quando um contato não comercializável participar de uma cotação ou processo 
 
 Os dados do cliente incluem todas as informações sobre ele, como o grupo de clientes, os endereços, as informações de contato, o perfil do pagamento, o perfil da fatura e o status de fidelidade. Diversos mapas de tabelas trabalham juntos durante a interação de dados do cliente, conforme mostrado na tabela a seguir.
 
-Aplicativos Finance and Operations | Outros aplicativos do Dynamics 365         | Descrição
+Aplicativos do Finance and Operations | Aplicativos do Customer Engagement         | descrição
 ----------------------------|---------------------------------|------------
-Contatos do CDS V2             | contatos                        | Este modelo sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores.
-Grupos de clientes             | msdyn_customergroups            | Este modelo sincroniza informações do grupo de clientes.
-Método de pagamento do cliente     | msdyn_customerpaymentmethods    | Este modelo sincroniza informações sobre o método de pagamento dos clientes.
-Clientes V3                | contas                        | Este modelo sincroniza informações mestre de clientes relacionadas a clientes comerciais e organizacionais.
-Clientes V3                | contatos                        | Este modelo sincroniza dados mestres de clientes relacionados a clientes e usuários finais.
-Afixos de nome                | msdyn_nameaffixes               | Este modelo sincroniza dados de referência de afixos de nome de clientes e fornecedores.
-Linhas de dia de pagamento CDS V2    | msdyn_paymentdaylines           | Este modelo sincroniza dados de referência de linhas de pagamento de clientes e fornecedores.
-Dias de pagamento CDS            | msdyn_paymentdays               | Este modelo sincroniza dados de referência de dias de pagamento de clientes e fornecedores.
-Linhas de plano de pagamento      | msdyn_paymentschedulelines      | Sincroniza dados de referência de linhas de plano de pagamento de clientes e fornecedores.
-Agenda de pagamento            | msdyn_paymentschedules          | Este modelo sincroniza dados de referência de planos de pagamento de clientes e fornecedores.
-Condições de pagamento            | msdyn_paymentterms              | Este modelo sincroniza dados de referência de condições de pagamento (condições de pagamento) de clientes e fornecedores.
-
-[!include [banner](../../includes/dual-write-symbols.md)]
-
-[!include [mapping contacts contacts](includes/CDSContactsV2-contacts.md)]
-
-[!include [mapping customer group](includes/CustCustomerGroup-msdyn-customergroups.md)]
-
-[!include [mapping customer payment method](includes/CustomerPaymentMethod-msdyn-customerpaymentmethods.md)]
-
-[!include [mapping customer accounts](includes/CustomersV3-accounts.md)]
-
-[!include [mapping customer contacts](includes/CustomersV3-contacts.md)]
-
-[!include [mapping name affixes](includes/NameAffixes-msdyn-nameaffixes.md)]
-
-[!include [mapping payment day lines](includes/PaymentDayLinesCdsV2-msdyn-paymentdaylines.md)]
-
-[!include [mapping payment days](includes/PaymentDaysCds-msdyn-paymentdays.md)]
-
-[!include [mapping payment schedule lines](includes/PaymentScheduleLines-msdyn-paymentschedulelines.md)]
-
-[!include [mapping payment schedules](includes/PaymentSchedules-msdyn-paymentschedules.md)]
-
-[!include [mapping terms of payment](includes/TermsofPayment-msdyn-paymentterms.md)]
-
+[Contatos do CDS V2](mapping-reference.md#115) | contatos | Este modelo sincroniza todas as informações de contato principais, secundárias e terciárias de clientes e fornecedores.
+[Grupos de clientes](mapping-reference.md#126) | msdyn_customergroups | Este modelo sincroniza informações do grupo de clientes.
+[Método de pagamento do cliente](mapping-reference.md#127) | msdyn_customerpaymentmethods | Este modelo sincroniza informações sobre o método de pagamento dos clientes.
+[Clientes V3](mapping-reference.md#101) | contas | Este modelo sincroniza informações mestre de clientes relacionadas a clientes comerciais e organizacionais.
+[Clientes V3](mapping-reference.md#116) | contatos | Este modelo sincroniza dados mestres de clientes relacionados a clientes e usuários finais.
+[Afixos de nome](mapping-reference.md#155) | msdyn_nameaffixes | Este modelo sincroniza dados de referência de afixos de nome de clientes e fornecedores.
+[Linhas de dia de pagamento CDS V2](mapping-reference.md#157) | msdyn_paymentdaylines | Este modelo sincroniza dados de referência de linhas de pagamento de clientes e fornecedores.
+[Dias de pagamento CDS](mapping-reference.md#158) | msdyn_paymentdays | Este modelo sincroniza dados de referência de dias de pagamento de clientes e fornecedores.
+[Linhas de plano de pagamento](mapping-reference.md#159) | msdyn_paymentschedulelines | Sincroniza dados de referência de linhas de plano de pagamento de clientes e fornecedores.
+[Agenda de pagamento](mapping-reference.md#160) | msdyn_paymentschedules | Este modelo sincroniza dados de referência de planos de pagamento de clientes e fornecedores.
+[Condições de pagamento](mapping-reference.md#161) | msdyn_paymentterms | Este modelo sincroniza dados de referência de condições de pagamento (condições de pagamento) de clientes e fornecedores.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
