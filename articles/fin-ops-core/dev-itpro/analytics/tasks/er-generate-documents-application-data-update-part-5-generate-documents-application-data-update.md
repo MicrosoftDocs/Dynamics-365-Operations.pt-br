@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2591f5b32417dd7517f76fc237d2337af64b3f61
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0166e0afb542baea063f2d563e1eaeb0cdbfd6f62d77898fd9916afbeca90e48
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745026"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726228"
 ---
 # <a name="generate-documents-that-have-application-data"></a>Gerar documentos com dados do aplicativo
 
@@ -35,7 +35,7 @@ Este procedimento é criado para usuários com a função atribuída de administ
 
 
 ## <a name="set-up-foreign-trade-parameters"></a>Configurar parâmetros de comércio exterior
-1. Vá para Imposto > Configuração > Comércio exterior > Parâmetros de comércio exterior.
+1. Acesse Imposto > Configuração > Comércio exterior > Parâmetros de comércio exterior.
 2. Clique na aba Sequências numéricas.
 
     Arquivando detalhes de processo de relatório Intrastat, precisamos identificar registros de cada arquivo morto que criamos. Uma sequência numérica especial deve ser configurada para isso.  
@@ -50,7 +50,7 @@ Este procedimento é criado para usuários com a função atribuída de administ
 7. Feche a página.
 
 ## <a name="run-modified-er-format"></a>Execute o formato de ER modificado
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Intrastat (model)'.
 3. Na árvore, selecione 'Intrastat (modelo)\Intrastat (formato)'.
 4. Clique em Executar.
@@ -60,7 +60,7 @@ Este procedimento é criado para usuários com a função atribuída de administ
 ## <a name="review-er-format-executions-results"></a>Revise os resultados de execução de formato do ER
 Revise o arquivo XML gerado.  
 1. Feche a página.
-2. Vá para Imposto > Declarações > Comércio exterior > Intrastat.
+2. Acesse Imposto > Declarações > Comércio exterior > Intrastat.
 
     Abra este formulário que contém as transações Intrastat que foram incluídas no documento eletrônico gerado.  
 

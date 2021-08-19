@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-09
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 8f86f3603b64093214bb7cf7d165ba0fc2229ca3
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c13102ac1c852aabd25c54e4b51d2f14548290a3d6b90090425aa37e5bde110b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727885"
 ---
 # <a name="shipping-container-setup"></a>Configuração de contêineres de remessa
 
@@ -31,7 +31,7 @@ Este tópico descreve como configurar contêineres de remessa para o módulo **C
 
 Os tipos de contêineres de remessa definem os tipos de contêineres de remessa disponíveis para uso durante remessas e viagens.
 
-Para trabalhar com os tipos de contêineres de remessa, vá para **Custo de entrega \> Configuração de contêineres \> Tipos de contêineres de remessa**. Lá, você pode exibir, adicionar e remover registros para os seus tipos de contêineres. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com os tipos de contêineres de remessa, Acesse **Custo de entrega \> Configuração de contêineres \> Tipos de contêineres de remessa**. Lá, você pode exibir, adicionar e remover registros para os seus tipos de contêineres. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -49,7 +49,7 @@ Não é necessário inserir números de contêineres de remessa para contêinere
 
 Os registros dos contêineres de remessa são usados somente no Custo de entrega. Eles não estão disponíveis no módulo **Gerenciamento de transporte** (TMS) padrão.
 
-Para trabalhar com contêineres de remessa, vá para **Custo de entrega \> Configuração de contêineres \> Contêineres de remessa**. Lá, você pode exibir, adicionar e remover registros para os seus contêineres de remessa. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com contêineres de remessa, Acesse **Custo de entrega \> Configuração de contêineres \> Contêineres de remessa**. Lá, você pode exibir, adicionar e remover registros para os seus contêineres de remessa. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -66,7 +66,7 @@ Os tipos de unidades estabelecem agrupamentos e métodos de identificação adic
 
 Os tipos de unidades são usados somente no Custo de entrega. Eles não estão disponíveis no TMS.
 
-Para trabalhar com tipos de unidades, vá para **Custo de entrega \> Configuração de contêineres \> Tipos de unidades**. Lá, você pode exibir, adicionar e remover registros para os seus tipos de unidades. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com tipos de unidades, Acesse **Custo de entrega \> Configuração de contêineres \> Tipos de unidades**. Lá, você pode exibir, adicionar e remover registros para os seus tipos de unidades. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -77,7 +77,7 @@ Para trabalhar com tipos de unidades, vá para **Custo de entrega \> Configuraç
 
 Os tipos de refrigeração estabelecem agrupamentos e métodos de identificação adicionais para contêineres de remessa (normalmente contêineres refrigerados). Você pode selecionar um tipo de refrigeração ao configurar um contêiner na página **Todos os contêineres de remessa**.
 
-Para trabalhar com tipos de refrigeração, vá para **Custo de entrega \> Configuração de contêineres \> Tipos de refrigeração**. Lá, você pode exibir, adicionar e remover registros para os seus tipos de refrigeração. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com tipos de refrigeração, Acesse **Custo de entrega \> Configuração de contêineres \> Tipos de refrigeração**. Lá, você pode exibir, adicionar e remover registros para os seus tipos de refrigeração. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|

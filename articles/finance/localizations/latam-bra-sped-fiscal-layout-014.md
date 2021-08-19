@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 20635804e7fa24f6d18bdbcff5537fd832acda06
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 37b913236f12b357b5f2b51dc2dfd84122cb700f9a44e662329d9ed431d0547c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346429"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723741"
 ---
 # <a name="sped-fiscal-icms-ipi-layout-014"></a>SPED fiscal ICMS-IPI layout 014 
 
@@ -25,11 +25,11 @@ ms.locfileid: "6346429"
 
 Este tópico explica como configurar e gerar o layout de demonstrativo 014 do SPED fiscal. Este layout é aplicável a partir de janeiro de 2020, no guia prático, **EFD-ICMS/IPI – versão 3.0.3**.
 
-Para exibir o novo layout, vá para **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED Fiscal** \> **Parâmetros do SPED Fiscal** \> **Versão do layout**.
+Para exibir o novo layout, Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED Fiscal** \> **Parâmetros do SPED Fiscal** \> **Versão do layout**.
 
 ## <a name="record-0002-classification-of-fiscal-establishment"></a>Registro 0002: classificação do estabelecimento fiscal
 
-O registro 0002 é gerado quando o campo **IND\_ATIV** do registro 0000 é definido como **0** (zero) e a classificação do estabelecimento fiscal é configurada e atribuída. Para configurar a classificação e atribuí-la ao estabelecimento fiscal, vá para **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED fiscal** \> **Parâmetros do SPED Fiscal** \> **Classificação**.
+O registro 0002 é gerado quando o campo **IND\_ATIV** do registro 0000 é definido como **0** (zero) e a classificação do estabelecimento fiscal é configurada e atribuída. Para configurar a classificação e atribuí-la ao estabelecimento fiscal, Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros das extensões de obrigações fiscais** \> **SPED fiscal** \> **Parâmetros do SPED Fiscal** \> **Classificação**.
 
 Se mais de um tipo de classificação se aplicar ao estabelecimento fiscal, selecione a classificação mais relevante.
 
@@ -59,7 +59,7 @@ Antes de habilitar a geração dos registros C180, C185, 1010 e 1250, você deve
 
 Em seguida, siga as etapas abaixo para configurar a regra que permitirá a geração dos registros. A regra deve ser configurada para cada estado.
 
-1. Vá para **Livros fiscais** \> **Configurar** \> **Parâmetros de livros fiscais por estado**.
+1. Acesse **Livros fiscais** \> **Configurar** \> **Parâmetros de livros fiscais por estado**.
 2. Selecione o estado relacionado. Por exemplo, para o estado de São Paulo, selecione **SP**.
 3. Defina a opção **Habilitar registro C180 e C185** como **Sim** para gerar os registros relacionados. Além disso, também serão geradas instâncias do registro H030 com o campo **MOT\_INV** definido como **06**, H005, 1010, 1250 e 1255.
 4. No campo **Algoritmo de cálculo de impostos presumidos do SPED**, selecione o método de cálculo. Os valores calculados no processo de imposto presumido serão relatados no registro C185.
@@ -68,7 +68,7 @@ Em seguida, siga as etapas abaixo para configurar a regra que permitirá a gera�
 
 ### <a name="table-57--reason-code-table-for-complement-and-restitution"></a>Tabela 5.7 – Tabela de códigos de motivo para complemento e restituição
 
-A Tabela 5.7 representa a classificação para complemento e restituição (remuneração) dos valores do ICMS-ST. Essa tabela é implementada por cada estado. Para configurá-la, vá para **Livros fiscais** \> **Configuração** \> **Código de motivo para complemento e restituição**.
+A Tabela 5.7 representa a classificação para complemento e restituição (remuneração) dos valores do ICMS-ST. Essa tabela é implementada por cada estado. Para configurá-la, Acesse **Livros fiscais** \> **Configuração** \> **Código de motivo para complemento e restituição**.
 
 ![Página Código de motivo para complemento e restituição.](media/bra-sped-fiscal014-table57-setup.png)
 

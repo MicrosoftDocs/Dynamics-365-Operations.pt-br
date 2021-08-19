@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c7937402f63db23c2b42d61c584c17dce5e1bf10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: baa9fd8be3b1a46c4b8e4316fdc096f6917fa8a36d77f0d1914b2174aa9f5086
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723686"
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Criar um orçamento preliminar para o setor público
 
@@ -27,7 +27,7 @@ ms.locfileid: "5811206"
 
 Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão. Depois que o orçamento real for aprovado, você pode criar entradas de registro do orçamento original. Este procedimento foi criado usando os dados da empresa de demonstração PSUS na partição do setor público.
 
-1. Vá para Orçamento > Entradas de registro de orçamento.
+1. Acesse Orçamento > Entradas de registro de orçamento.
 2. Clique em Novo.
 3. No campo Modelo de orçamento, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.

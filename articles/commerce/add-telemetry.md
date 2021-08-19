@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: fb1773ab10b23a586eb6a8286f145181818585b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e3916b18c797222c300957fb25cabad78c4fcb9744a29d611a81b0bda3e9834d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724595"
 ---
 # <a name="add-script-code-to-site-pages-to-support-telemetry"></a>Adicionar o código de script a páginas do site para oferecer suporte à telemetria
 
@@ -40,7 +40,7 @@ Um fragmento permite reutilizar o código de script embutido ou externo em todas
 
 Para criar um fragmento reutilizável para o código de script embutido no construtor de sites, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo**.
+1. Acesse **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento**, selecione **Script embutido**.
 1. Em **Nome do fragmento**, digite um nome para o fragmento e, em seguida, selecione **OK**.
 1. No fragmento criado, selecione o módulo **Script embutido padrão**.
@@ -52,7 +52,7 @@ Para criar um fragmento reutilizável para o código de script embutido no const
 
 Para criar um fragmento reutilizável para o código de script externo no construtor de sites, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo**.
+1. Acesse **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento**, selecione **Script externo**.
 1. Em **Nome do fragmento**, digite um nome para o fragmento e, em seguida, selecione **OK**.
 1. No fragmento criado, selecione o módulo **Script externo padrão**.
@@ -67,7 +67,7 @@ Para criar um fragmento reutilizável para o código de script externo no constr
 
 Para adicionar um fragmento que inclua código de script a um modelo no construtor de sites, siga estas etapas.
 
-1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
+1. Acesse **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
 1. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
 1. No slot **Head do HTML**, selecione o botão de reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
 1. Selecione o fragmento que você criou para o seu código de script.
@@ -82,7 +82,7 @@ Se você deseja inserir um script embutido ou externo diretamente em um conjunto
 
 Para adicionar um script embutido diretamente a um modelo no site Builder, siga estas etapas.
 
-1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
+1. Acesse **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
 1. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
 1. No slot **Head do HTML**, selecione o botão de reticências (**...**) e depois selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar módulo**, selecione **Script embutido**.
@@ -94,7 +94,7 @@ Para adicionar um script embutido diretamente a um modelo no site Builder, siga 
 
 Para adicionar um script externo diretamente a um modelo no site Builder, siga estas etapas.
 
-1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
+1. Acesse **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu código de script.
 1. No painel esquerdo, expanda a hierarquia do modelo para mostrar o slot **Head do HTML**.
 1. No slot **Head do HTML**, selecione o botão de reticências (**...**) e depois selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar módulo**, selecione **Script externo**.

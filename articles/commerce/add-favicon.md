@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 9268bc74a4131256f5a2e88df833104db271b56a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 41beef346744dc93be3f2d83e660a96e27562f3da933363a1f99144e34060d9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724619"
 ---
 # <a name="add-a-favicon"></a>Adicionar um favicon
 
@@ -57,7 +57,7 @@ Para criar o HTML do favicon, use a seguinte cadeia de caracteres de código de 
 
 Para criar um fragmento que contenha uma marca meta para o seu favicon, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo**.
+1. Acesse **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento**, selecione **Marcas meta** como o módulo no qual o fragmento se baseia.
 1. Informe um nome para o fragmento e selecione **OK**.
 1. Na árvore de hierarquia de fragmento, selecione o filho **Padrão de marcas meta**.
@@ -68,7 +68,7 @@ Para criar um fragmento que contenha uma marca meta para o seu favicon, siga est
 
 Para adicionar o fragmento da marca meta à seção **head** do HTML de suas páginas, siga estas etapas.
 
-1. Vá para **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu favicon e seleciona **Editar**.
+1. Acesse **Modelos** e abra o modelo para as páginas às quais você deseja adicionar seu favicon e seleciona **Editar**.
 1. Na árvore de hierarquia de modelos, selecione o botão de reticências (**...**) à direita do contêiner **Head do HTML** e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento da marca meta criado anteriormente e, em seguida, selecione **OK**.
 1. Selecione **Concluir edição** e depois selecione **Publicar** para publicar o modelo.

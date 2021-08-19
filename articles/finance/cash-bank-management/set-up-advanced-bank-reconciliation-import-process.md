@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 22d173f6ced2af3e8023bd40f70ca70728c3a0a7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0efe960bee8f5c2c0b683ad641379345ce6d470180d29893b373acc6e1de8aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726029"
 ---
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>Configurar o processo de importação de reconciliação bancária avançada
 
@@ -78,7 +78,7 @@ Estes são exemplos das definições avançadas de layout técnico do arquivo de
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>Configurar a importação de extratos bancários ISO20022
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários ISO20022 utilizando a estrutura de entidade de dados.
 
-1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
+1.  Acesse **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique em **Importar**.
 3.  Insira um nome para o formato, como **ISO20022**.
 4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
@@ -94,7 +94,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários ISO20022.
 
-1.  Vá para **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
+1.  Acesse **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
 2.  Clique em **Novo**.
 3.  Especifique um formato de extrato, tal como **ISO20022**.
 4.  Digite um nome para o formato.
@@ -103,7 +103,7 @@ Assim que o grupo de processamento do formato for configurado, a próxima etapa 
 
 A última etapa é habilitar a Reconciliação bancária avançada e definir o formato do extrato na conta bancária.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
 3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Defina o campo **Formato do extrato** como o formato criado anteriormente, tal como **ISO20022**.
@@ -111,7 +111,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Configurar a importação de extratos bancários MT940
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários MT940 utilizando a estrutura de entidade de dados.
 
-1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
+1.  Acesse **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique em **Importar**.
 3.  Insira um nome para o formato, como **MT940**.
 4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
@@ -129,7 +129,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários MT940.
 
-1.  Vá para **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
+1.  Acesse **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
 2.  Clique em **Novo**.
 3.  Especifique um formato de extrato, tal como **MT940**.
 4.  Digite um nome para o formato.
@@ -138,7 +138,7 @@ Assim que o grupo de processamento do formato for configurado, a próxima etapa 
 
 A última etapa é habilitar a Reconciliação bancária avançada e definir o formato do extrato na conta bancária.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
 3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Quando for solicitada a confirmação e permissão para habilitar a Reconciliação bancária avançada, clique em **OK**.
@@ -147,7 +147,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 ## <a name="set-up-the-import-of-bai2-bank-statements"></a>Configurar a importação de extratos bancários BAI2
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários BAI2 utilizando a estrutura de entidade de dados.
 
-1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
+1.  Acesse **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique **Importar**.
 3.  Insira um nome para o formato, como **BAI2**.
 4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
@@ -165,7 +165,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários BAI2.
 
-1.  Vá para **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
+1.  Acesse **Gerenciamento de banco e caixa** &gt; **Configuração** &gt; **Configuração avançada de reconciliação bancária** &gt; **Formato do extrato bancário**.
 2.  Clique em **Novo**.
 3.  Especifique um formato de extrato, tal como **BAI2**.
 4.  Digite um nome para o formato.
@@ -174,7 +174,7 @@ Assim que o grupo de processamento do formato for configurado, a próxima etapa 
 
 A última etapa é habilitar a Reconciliação bancária avançada e definir o formato do extrato na conta bancária.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
 3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Quando for solicitada a confirmação e permissão para habilitar a Reconciliação bancária avançada, clique em **OK**.
@@ -183,7 +183,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 ## <a name="test-the-bank-statement-import"></a>Testar o arquivo de importação de extrato bancário
 A etapa final é testar se é possível importar seu extrato bancário.
 
-1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
+1.  Acesse **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária para a qual a funcionalidade Reconciliação bancária avançada está ativada.
 3.  Na guia **Reconciliar**, clique em **Extratos bancários**.
 4.  Na página **Extrato bancário**, clique em **Importar extrato**.

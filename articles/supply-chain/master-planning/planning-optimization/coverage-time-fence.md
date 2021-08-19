@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-18
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: dcb35eda718ea9b7573d8e994aa45216f8bd30a5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f32c3fd523c3272665b4b45b6d3e136591d12cda191766970ebfaf74b81f0558
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726843"
 ---
 # <a name="coverage-time-fences"></a>Limites de tempo de cobertura
 
@@ -43,7 +43,7 @@ Ao especificar um limite de tempo de cobertura para um grupo de cobertura, a con
 
 Para especificar um limite de tempo de cobertura para um grupo de cobertura, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
+1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
 1. Selecione um grupo de cobertura existente na lista ou crie um novo grupo de cobertura.
 1. Na guia rápida **Geral**, defina o campo **Limite de tempo de cobertura (dias)** como o número de dias que você deseja usar de limite de tempo de cobertura para o grupo de cobertura.
 
@@ -53,7 +53,7 @@ Cada item (produto) pertence a um grupo de cobertura. Se nenhum grupo de cobertu
 
 Para especificar um limite de tempo de cobertura para um item específico, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione um produto na grade.
 1. Selecione o item e, depois, no Painel de Ações, na guia **Plano**, clique em **Cobertura** e selecione **Cobertura do item**.
 1. Na página **Cobertura do item**, na guia **Visão geral**, selecione ou crie uma linha para o site em que você deseja definir um limite de tempo de cobertura.
@@ -67,7 +67,7 @@ Você pode especificar um limite de tempo de cobertura no nível do plano mestre
 
 Para especificar um limite de tempo de cobertura para um plano mestre específico, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione um plano mestre existente na lista ou crie um novo plano mestre.
 1. Na guia rápida **Limites de tempo em dias**, defina a opção **Cobertura** como *Sim*. No campo abaixo da opção, insira o número de dias que você deseja usar de limite de tempo de cobertura para o plano mestre.
 

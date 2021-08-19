@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 0a93429e836d818458f11f6f6821fda237edc291
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 2f4e93b7ece7652b72ae2067be4de73f45a8261ada1b0bc731e2bd2147dcccc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936971"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728282"
 ---
 # <a name="configure-optional-features-for-a-dynamics-365-commerce-evaluation-environment"></a>Configurar recursos opcionais para um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -58,7 +58,7 @@ Se quiser avaliar os recursos transacionais de email, os seguintes pré-requisit
 ### <a name="update-the-media-base-url"></a>Atualize a URL base da mídia
 
 1. Entre na sede do Commerce.
-1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
+1. Use o menu à esquerda, Acesse **Módulos \> Varejo e comércio \> Configuração do Canal \> Perfis do canal**.
 1. Selecione **Editar**.
 1. Em **Propriedades do perfil**, substitua o valor da propriedade da **URL Base do Servidor de Mídia** com a URL Base de Mídia que você criou anteriormente.
 1. Selecione o canal chamado **scXXXXXXXXX**.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d3f528d48f345ec4b5cc2a46d7740cb6d0a36cd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 3f335721ee97919af20e73fc9da6c9bf07dcae50aca8f8904d144d75c2f4d7b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726252"
 ---
 # <a name="design-configurations-to-generate-documents-that-have-application-data"></a>Criar configurações para gerar documentos com dados da solicitação de emprego
 
@@ -39,7 +39,7 @@ Antes de começar, altere o contexto de país para a empresa de DEMF de DEU (Ale
 
 
 ## <a name="run-imported-er-format"></a>Execute o formato de ER importado
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Intrastat (model)'.
 3. Na árvore, selecione 'Intrastat (modelo)\Intrastat (formato)'.
 4. Clique em Executar.
@@ -49,7 +49,7 @@ Antes de começar, altere o contexto de país para a empresa de DEMF de DEU (Ale
 6. Clique em OK.
     * Revise o arquivo XML gerado.  
 7. Feche a página.
-8. Vá para Imposto > Declarações > Comércio exterior > Intrastat.
+8. Acesse Imposto > Declarações > Comércio exterior > Intrastat.
     * Abra este formulário para exibir as transações Intrastat que são incluídas no documento eletrônico gerado.  
 9. Clique em Arquivo morto Intrastat.
     * Como o formato de ER executado não contém qualquer configuração para a atualização de dados do aplicativo, os detalhes de relatório Intrastat concluídos não foram arquivados.  

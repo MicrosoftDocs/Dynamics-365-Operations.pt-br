@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 93e8f933524b34116987c9e0d91d226e21d98f4d
-ms.sourcegitcommit: 5c9a5bfef507ed36f0f849ab56fa0aa8abb78d54
+ms.openlocfilehash: 757d2103bd629c0107a3f29599196a56ea56d431a66cf1e69c7b3cf3d817c087
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/20/2021
-ms.locfileid: "6646478"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724811"
 ---
 # <a name="view-plan-history-and-planning-logs"></a>Exibir logs de histórico de plano e de planejamento
 
@@ -39,7 +39,7 @@ Se a opção **Processamento em lotes** na Guia Rápida **Executar em segundo pl
 
 Para exibir erros de confirmação automática e outros avisos ou erros ocorridos durante a execução de um planejamento mestre, siga estas etapas:
 
-1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**.
+1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**.
 1. Encontre e selecione o registro que representa o planejamento mestre executado no qual você está interessado. (Por exemplo, o valor do campo **Descrição do trabalho** pode começar com *Planejamento mestre*.)
 1. Siga uma destas etapas, dependendo se você estiver usando o *formulário avançado* ou o *formulário herdado (não avançado)* para a página **Trabalhos em lotes**:
 

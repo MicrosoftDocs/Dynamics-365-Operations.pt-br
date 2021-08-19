@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 241be956fb5026fdbf65d4a24aa7f0202b654189
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: fb076882e20e7c94bf0a95f3a5365b5fe8c25cedd431fb07d6e0dc5950ebb688
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728982"
 ---
 # <a name="optimization-advisor-overview"></a>Visão geral do Supervisor de otimização
 
@@ -49,9 +49,9 @@ Para saber mais sobre o Assistente de otimização, assista ao vídeo curto [Ass
 
 ## <a name="optimization-rules"></a>Regras de otimização
 
-Para exibir a lista completa de regras do orientador de otimização e ver com que frequência as regras são avaliadas, vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Manter regra de validação de diagnóstico**. Somente as regras que têm um status **Ativo** são avaliadas. A frequência de avaliação pode ser definida como **Diária**, **Semanal**, **Mensal** ou **Não programada**.
+Para exibir a lista completa de regras do orientador de otimização e ver com que frequência as regras são avaliadas, Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Manter regra de validação de diagnóstico**. Somente as regras que têm um status **Ativo** são avaliadas. A frequência de avaliação pode ser definida como **Diária**, **Semanal**, **Mensal** ou **Não programada**.
 
-Para acionar a avaliação de regras não programadas ou reavaliar as regras periódicas fora de sua programação predefinida, vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Agendar regra validação de diagnóstico**. Em seguida, na caixa de diálogo **Validação de regra de diagnóstico**, selecione uma frequência de avaliação. Todas as regras com a frequência especificada serão reavaliadas.
+Para acionar a avaliação de regras não programadas ou reavaliar as regras periódicas fora de sua programação predefinida, Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Agendar regra validação de diagnóstico**. Em seguida, na caixa de diálogo **Validação de regra de diagnóstico**, selecione uma frequência de avaliação. Todas as regras com a frequência especificada serão reavaliadas.
 
 O conjunto de regras de otimização atual pode ser dividido nas seguintes categorias.
 

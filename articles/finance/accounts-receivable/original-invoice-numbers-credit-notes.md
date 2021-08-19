@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: ilyako
 ms.search.validFrom: 2021-03-19
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 798e38d7fea53a13d713734dd0521552974176ea
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6a5ac50c996f92f5cfa569ad00fa4b911827fd4ec8bddb2442bbd6ac67d1f33f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723838"
 ---
 # <a name="references-to-original-invoices-in-credit-notes"></a>Referências a faturas originais em notas de crédito
 
@@ -48,7 +48,7 @@ A funcionalidade descrita neste tópico aplica-se aos seguintes documentos:
 
 Siga estas etapas para definir o parâmetro que controla se as referências às faturas originais são impressas em notas de crédito relacionadas.
 
-1. Vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
+1. Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
 2. Na guia **Atualizações**, na FastTab **Fatura**, defina a opção **Aplicar o layout de faturamento de crédito para vendas e relatórios de faturas de projetos** como **Sim**.
 
 ![Configurar Parâmetros de contas a receber.](media/original-invoice-number-in-credit-note.jpg)

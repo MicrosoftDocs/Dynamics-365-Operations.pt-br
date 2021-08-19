@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 217c5d6d6df88eccf377fbf604eb0a1eb0ba7c9c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f407d42fe624206e32a2f58fe8c7fcaf2df52c729a1d945d3d801f450b6ed129
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722758"
 ---
 # <a name="invoice-automation-for-scanned-documents"></a>Automação de fatura para documentos digitalizados
 
@@ -63,7 +63,7 @@ Para obter informações detalhadas sobre pacotes de dados, consulte [Visão ger
 Para gerar rapidamente dados de teste que incluem faturas e anexos, siga estas etapas.
 
 1. Entre na sua instância.
-1. Vá para **Contas a pagar** > **Faturas** > **Faturas de fornecedor em aberto**.
+1. Acesse **Contas a pagar** > **Faturas** > **Faturas de fornecedor em aberto**.
 1. Crie faturas com linhas e anexos.
 
     > [!NOTE]

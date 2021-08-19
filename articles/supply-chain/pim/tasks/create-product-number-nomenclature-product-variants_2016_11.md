@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7ea30dc107213b1a2c6b2a109188066a6ea82159
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: da52385f60b2522cf358e0ceb70448479a1e5dc714ef15ba361611ed404ed852
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921002"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726816"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>Criar uma nomenclatura de produtos de grades de produto configuradas
 
@@ -28,7 +28,7 @@ Este procedimento mostra como configurar uma nomenclatura de número de produto 
 
 ## <a name="create-a-product-number-nomenclature"></a>Criar uma nomenclatura de número de produto
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Nomenclatura de produto**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Nomenclatura de produto**.
 1. Selecione **Novo**.
 1. No campo **Nome**, digite um valor.
 1. No campo **Descrição**, digite um valor.
@@ -44,7 +44,7 @@ Este procedimento mostra como configurar uma nomenclatura de número de produto 
 
 ## <a name="assign-the-product-number-nomenclature-to-a-product-master"></a>Atribuir a nomenclatura de número de produto a um produto mestre
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
 1. Use o Filtro Rápido para localizar registros. Por exemplo, filtre no campo **Número do produto** com um valor de 'D'.
 1. Na lista, selecione o link na linha selecionada.
 1. Selecione **Editar**.
@@ -55,7 +55,7 @@ Este procedimento mostra como configurar uma nomenclatura de número de produto 
 
 ## <a name="create-nomenclature-for-a-product-configuration-model-component"></a>Criar nomenclatura para um componente de modelo de configuração de produto
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Na lista, localize e selecione o registro desejado.
 1. Na lista, selecione o link na linha selecionada.
 1. Selecione **Editar**.

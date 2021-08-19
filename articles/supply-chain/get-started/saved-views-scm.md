@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-02-03
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 1b1077fdb4707bf2c019e86cb073b30465817577
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 2544591773bea7d54b4da4ac25ed3fed3f9e3594c5f791a0975c0349583b695c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270650"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728618"
 ---
 # <a name="standard-saved-views-for-supply-chain-management"></a>Exibições salvas padrão para o Supply Chain Management
 
@@ -77,6 +77,18 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Com
 | Detalhes da ordem de compra | Gerenciamento financeiro | Esta exibição simplificada é otimizada para executar atividades relacionadas às finanças, como faturamento e verificação de preços, totais e encargos. | Exibições salvas para ordens de compra |
 | Detalhes da ordem de compra | Aprovação de ordens | Esta exibição simplificada é otimizada para a aprovação de ordens de compra. | Exibições salvas para ordens de compra |
 
+## <a name="saved-views-for-the-product-information-management-module"></a>Exibições salvas para o módulo Gerenciamento de informações do produto
+
+A tabela a seguir descreve as exibições salvas disponíveis para o módulo Gerenciamento de informações do produto.
+
+| Página | Nome da exibição | Descrição da exibição | Nome do recurso |
+|---|---|---|---|
+| Lista de produtos liberados | Criação do produto | Uma exibição de página simplificada que só inclui os campos mais usados ao criar produtos. | Exibições salvas para produtos liberados |
+| Detalhes do produto liberado | Criação do produto | Uma exibição de página simplificada que só inclui os campos mais usados ao criar produtos. | Exibições salvas para produtos liberados |
+| Detalhes do produto liberado | Gerenciamento de informações logísticas | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações logísticas para produtos. | Exibições salvas para produtos liberados |
+| Detalhes do produto liberado | Gerenciamento de informações de compra | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações de compra de produtos. | Exibições salvas para produtos liberados |
+| Detalhes do produto liberado | Gerenciamento de informações de venda | Uma exibição de página simplificada que só inclui os campos mais usados ao gerenciar informações relativas a vendas de produtos. | Exibições salvas para produtos liberados |
+
 ## <a name="saved-views-for-the-production-control-module"></a>Exibições salvas para o módulo Controle de produção
 
 A tabela a seguir descreve as exibições salvas disponíveis para o módulo Controle de produção.
@@ -110,7 +122,7 @@ A tabela a seguir descreve as exibições salvas disponíveis para o módulo Ger
 | Todas as remessas | Processamento de entrada | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar remessas de entrada. | Exibições salvas para o processamento de remessa |
 | Todas as remessas | Processamento de saída | Esta exibição simplificada inclui somente os campos usados com mais frequência para processar remessas de saída. | Exibições salvas para o processamento de remessa |
 | Todas as ondas | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva para o processamento de ciclo |
-| Bancada do planejamento de carga | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva para a bancada de planejamento de trabalho |
+| Bancada do planejamento de carga | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da bancada de planejamento da carga |
 | Detalhes do trabalho | Simplificado | Esta exibição simplificada inclui somente os campos usados com mais frequência. Dessa forma, ela fornece uma visão geral mais rápida e um processo de trabalho simplificado. | Exibição salva da página de detalhes do trabalho |
 
 

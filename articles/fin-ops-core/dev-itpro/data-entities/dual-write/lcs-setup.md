@@ -1,8 +1,8 @@
 ---
 title: Configuração da gravação dupla do Lifecycle Services
 description: Este tópico explica como configurar uma conexão de gravação dupla do Microsoft Dynamics Lifecycle Services (LCS).
-author: RamaKrishnamoorthy
-ms.date: 05/11/2021
+author: laneswenka
+ms.date: 08/03/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
@@ -10,12 +10,12 @@ ms.search.region: global
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: e604e1491bbafa041fa3f52ad0f8b454c63d47de
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359354"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729034"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
@@ -66,5 +66,18 @@ Para configurar a gravação dupla para um ambiente do Dataverse existente, voc�
 
 > [!NOTE]
 > Não é possível desvincular ambientes usando o LCS. Para desvincular um ambiente, abra o espaço de trabalho da **Integração de dados** no ambiente do Finance and Operations e selecione **Desvincular**.
+
+## <a name="linking-mismatch"></a>Incompatibilidade de vinculação
+
+É possível que o ambiente do LCS esteja vinculado a uma instância do Dataverse e o ambiente de gravação dupla esteja vinculado a outra instância do Dataverse. Essa incompatibilidade de vinculação pode causar um comportamento inesperado e acabar enviando dados ao ambiente errado. O ambiente recomendado para a gravação dupla é aquele criado como parte da integração do Power Platform e, no longo prazo, essa será a única maneira de estabelecer um vínculo entre ambientes.
+
+Se o ambiente tiver uma incompatibilidade de vinculação, o LCS exibirá um aviso na página de detalhes do ambiente, semelhante a "A Microsoft detectou que seu ambiente está vinculado por meio de gravação dupla a um destino diferente do especificado na integração do Power Platform, o que não é recomendado":
+
+:::image type="content" source="media/powerplat_integration_mismatchLink.png" alt-text="Vínculo de integração do Power Platform incompatível.":::
+
+Se você encontrar esse erro, há duas opções, com base nas suas necessidades:
+
++ [Desvincular e vincular novamente os ambientes de gravação dupla (redefinir ou alterar a vinculação)](relink-environments.md#scenario-reset-or-change-linking) conforme especificado na página de detalhes do ambiente do LCS. Essa é a opção ideal, pois você pode executá-la sem o suporte da Microsoft.  
++ Se quiser manter seu vínculo em gravação dupla, você pode pedir ajuda ao suporte da Microsoft para alterar a integração do Power Platform a fim de usar o ambiente do Dataverse existente, conforme documentado na seção anterior.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

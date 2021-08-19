@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d788aaf3dc45542e20745cb295d77efdc277a4be
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c965d686f7d8ee426d7ab09d107bfd2782c9fe40feaf8b9a6b5eca1f61cf7198
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812341"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6725713"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Criar uma ordem de compra com uma agenda de entrega
 
@@ -27,7 +27,7 @@ ms.locfileid: "5812341"
 Este tópico demonstra como criar uma agenda de entrega para uma ordem de compra. Um plano de entrega é usado quando uma quantidade em uma ordem ou diário for exigido para ser entregue em várias remessas. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF. Esse procedimento seria feito normalmente por um agente de compras.
 
 ## <a name="create-a-delivery-schedule"></a>Criar uma agenda de entrega
-1. No painel de navegação, vá para **Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
+1. No painel de navegação, Acesse **Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **Conta de fornecedor**, insira `US-101`.
 4. Selecione **OK**.

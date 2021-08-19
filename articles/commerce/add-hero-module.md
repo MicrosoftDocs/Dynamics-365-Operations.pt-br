@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 026a549bfb856abc56eeaab21c681a8271ce4f44
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0b5ec0a75c613cedcee9d156d81380d679224ea476af4f4745a30040f257fed8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347494"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726430"
 ---
 # <a name="content-block-module"></a>Módulo de bloco de conteúdo
 
@@ -73,7 +73,7 @@ A imagem a seguir mostra um exemplo de módulo de bloco de conteúdo com layout 
 
 Para adicionar um módulo de hero a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e crie um modelo de página chamado **Modelo de bloco de conteúdo**.
+1. Acesse **Modelos** e crie um modelo de página chamado **Modelo de bloco de conteúdo**.
 1. No slot **Principal** da página padrão, adicione um módulo de hero.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
 1. Use o modelo de hero recém-criado para criar uma página chamada **Página de bloco de conteúdo**.

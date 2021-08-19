@@ -14,12 +14,12 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3963b4ed63021dd3c84a0d87b768486dcb0f386d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 89ea19753abdc4e5d4219a123a832bb3606515a43b439d5f94a9619857b6c7d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722686"
 ---
 # <a name="set-up-default-descriptions-for-automatic-posting"></a>Configurar descrições padrão para lançamento automático
 
@@ -32,7 +32,7 @@ Este tópico explica como configurar o texto padrão que é usado para descrever
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
 
-1. Vá para **Administração da organização** \> **Configuração** \> **Descrições padrão**.
+1. Acesse **Administração da organização** \> **Configuração** \> **Descrições padrão**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **Descrição**, selecione o tipo de transação para o qual uma descrição padrão será criada.
 4. No campo **Idioma**, selecione o idioma para o qual esta descrição será aplicada.

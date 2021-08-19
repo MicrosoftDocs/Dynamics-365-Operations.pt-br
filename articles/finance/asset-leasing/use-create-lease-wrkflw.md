@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: b4926ee45841c9fdd5a3cf7d12452e1f06d868c6
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 33faf7aa6bc9e5df4b8b0f004692b2c1803c6994264c7b9a8e3eb404387f6800
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880705"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726077"
 ---
 # <a name="use-lease-approval-workflows"></a>Usar fluxos de trabalho de aprovação de arrendamento
 
@@ -32,7 +32,7 @@ Antes de usar esse procedimento, certifique-se de que pelo menos o fluxo de trab
 
 1. Envie um arrendamento para aprovação. Na página **Detalhes do registro** do arrendamento, selecione **Fluxo de trabalho** e, em seguida, selecione **Enviar**.
 2. Na caixa de diálogo exibida, você pode adicionar um comentário. O aprovador designado verá esse comentário juntamente com o arrendamento. Ao terminar de inserir o comentário, selecione **Enviar**. O arrendamento é enviado para o sistema de fluxo de trabalho e o aprovador o recebe para aprovação.
-3. Para exibir os arrendamentos designados para aprovação, vá para **Módulos \> Comum \> Itens de trabalho \> Itens de trabalho atribuídos a mim**.
+3. Para exibir os arrendamentos designados para aprovação, Acesse **Módulos \> Comum \> Itens de trabalho \> Itens de trabalho atribuídos a mim**.
 4. Na página **Itens de trabalho atribuídos a mim**, selecione o link **ID do Arrendamento** para o arrendamento que você deseja exibir. A página exibida depende dos registros de arrendamento e dos detalhes do arrendamento aos quais você tem acesso.
 5. Quando terminar de exibir o arrendamento, selecione **Fluxo de trabalho** e decida qual ação deve ser executada. As opções incluem **Aprovar**, **Rejeitar**, **Solicitar alteração**, **Delegar** e **Cancelado**. Você também pode selecionar **Exibir histórico** para exibir o histórico de aprovação para o arrendamento selecionado.
 6. Depois de selecionar uma ação, insira um comentário para descrever a ação. Quando tiver terminado de inserir o comentário, selecione a ação **Aprovado** na lista.

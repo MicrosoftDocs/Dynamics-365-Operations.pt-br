@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: ecffbfa00aee1dd3197aeeab3b292aba8aafd82f
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723542"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
@@ -74,7 +74,7 @@ Para localizar as verificações de preparação aberta para uma versão do prod
 Para exibir as verificações de preparação de abertura atribuídas a você, siga uma destas etapas.
 
 - Acesse **Gerenciamento de alteração de engenharia \> Comum \> Prontidão do produto \> Minhas verificações de prontidão abertas**.
-- Vá para **Gerenciamento de informações de produto \> Espaços de trabalho \> Prontidão de produto para fabricação discreta**.
+- Acesse **Gerenciamento de informações de produto \> Espaços de trabalho \> Prontidão de produto para fabricação discreta**.
 
 A configuração que especifica a quem uma verificação de prontidão é atribuída é realizada para a política de preparação. As verificações de preparação podem ser atribuídas a uma pessoa ou a uma equipe. Se uma verificação de prontidão for atribuída a uma equipe, há uma pessoa na equipe que deve processar a verificação de preparação.
 
@@ -103,7 +103,7 @@ Quando todas as verificações de preparação abertas para um novo produto, gra
 
 Use as diretivas de preparação do produto para gerenciar as verificações de preparação que se aplicam a um produto. Cada política de prontidão contém um conjunto de verificações de preparação. Quando uma política de preparação é atribuída a uma categoria de produto de engenharia ou um produto compartilhado, todos os produtos relacionados a essa categoria ou produto compartilhado terão as verificações de preparação incluídas na política de preparação.
 
-Para trabalhar com diretivas de prontidão de produtos, vá para **Gerenciamento de alteração de engenharia \> Configuração \> Políticas de prontidão de produtos**. Siga uma destas etapas.
+Para trabalhar com diretivas de prontidão de produtos, Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Políticas de prontidão de produtos**. Siga uma destas etapas.
 
 - Para criar uma nova política, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
 - Para editar uma política existente, selecione-o no painel de listas, selecione **Editar** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.

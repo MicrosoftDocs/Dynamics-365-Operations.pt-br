@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-03-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e39e0c55fddffa99b0a86dba52da120b1ba0d1b6
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: e2c6b54638a6541e4d3c802accb1440a754edd94b4a23336d799c4e6f4e61e09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051128"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722574"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-march-3-2020"></a>Novidades ou alterações no Dynamics 365 Human Resources (3 de março de 2020)
 
@@ -47,7 +47,7 @@ Uma nova solução de Dataverse estará disponível em breve com as seguintes al
 
 Nas próximas semanas, essas alterações de entidade estarão disponíveis em todos os ambientes. Para instalar manualmente a solução Dataverse mais recente para recursos humanos:
 
-1.  Vá para [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
+1.  Acesse [Centro de administração do Power Platform](https://admin.powerplatform.microsoft.com).
 
 2.  Selecione **Ambientes**.
 

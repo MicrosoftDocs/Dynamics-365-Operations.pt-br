@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 8b6e81e47cd781bbe856676b1cecb50b8ee1adfc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d437bed9b9873f82bcd047e85245bd2a8c66fb3572c06660f29fc19f66aebae1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723132"
 ---
 # <a name="er-migration-cleanup"></a>Limpeza de migração ER 
 
@@ -38,7 +38,7 @@ Você receberá um erro semelhante se navegar até a página **Configurações**
 
 Conclua as etapas a seguir para solucionar problemas com modelos ER que não podem ser acessados.
 
-1.  Vá para a página **Administração da organização** \> **Periódico** \> **Limpeza de migração**.
+1.  Acesse a página **Administração da organização** \> **Periódico** \> **Limpeza de migração**.
 2.  Selecione uma configuração de formato ER que não pode ser executada ou excluída.
 3.  Selecione **Excluir**.
 4.  Confirme a exclusão da configuração de formato ER selecionado.

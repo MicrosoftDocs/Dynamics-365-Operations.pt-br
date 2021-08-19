@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b62d47f52da7f9e18bce401578a5e2a629ac5eb8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 470a8e0d2bbec53c8b9e24ca63bce72eca1886715e1c1d439d873a7f4fc62bea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728546"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>Criar um estado do ciclo de vida do produto padrão
 
@@ -27,7 +27,7 @@ Este procedimento mostra como criar um estado do ciclo de vida do produto padrã
 
 
 ## <a name="create-a-default-lifecycle-state"></a>Crie um estado do ciclo de vida padrão
-1. Vá para Gerenciamento de informações de produto > Configuração > Estado do ciclo de vida do produto.
+1. Acesse Gerenciamento de informações de produto > Configuração > Estado do ciclo de vida do produto.
 2. Clique em Novo.
 3. No campo Estado, digite um valor.
 4. Selecione Sim no campo Padrão quando liberado para entidade legal.
@@ -39,7 +39,7 @@ Este procedimento mostra como criar um estado do ciclo de vida do produto padrã
 
 ## <a name="create-a-new-released-product"></a>Crie um novo produto liberado
 1. Feche a página.
-2. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
+2. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
 3. Clique em Novo.
 4. No campo Número do produto, digite um valor.
 5. No campo Nome do produto, digite um valor.

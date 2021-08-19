@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f7a7c9705d8b53ef13cd3faf13290f3f1b1d1c43
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 11b446d21a7ae57ffa2cccf983777beb882bf77de6b54c2d1aef810028a6d343
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749108"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727452"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-4---run-format"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 4 - executar formato)
 
@@ -32,7 +32,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 
 
 ## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a>Adicionar os anexos necessários para a ordem de venda de uma única fatura
-1. Vá para Contas recebíveis > Faturas > Faturas de cliente abertas.
+1. Acesse Contas recebíveis > Faturas > Faturas de cliente abertas.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Fatura com um valor de 'CIV-000148'.
     * CIV-000148  
 3. Clique para seguir o link da fatura selecionada.
@@ -53,7 +53,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 14. Feche a página.
 
 ## <a name="run-the-designed-report-for-the-selected-invoice"></a>Executar relatório criado para a fatura selecionada
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Modelo de fatura de cliente'.
 3. Na árvore, expanda 'Modelo de fatura de cliente\Modelo de fatura de cliente (personalizada)'.
 4. Na árvore, selecione 'Modelo de fatura de cliente\Modelo de fatura de cliente (personalizada)\Mensagem de exemplo da fatura eletrônica'.

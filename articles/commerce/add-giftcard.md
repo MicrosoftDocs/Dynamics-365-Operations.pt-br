@@ -2,7 +2,7 @@
 title: Módulo do vale-presente
 description: Este tópico abrange os módulos de cartão-presente e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/29/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7fc35c67a2d9b641f03f11ed5d06913e10d8e25b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a4aaf8e072f6547fe1dcf6fa156d2e144fd03ed806a2dc809a2cedb991461f7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728330"
 ---
 # <a name="gift-card-module"></a>Módulo de cartão-presente
 
@@ -48,11 +48,17 @@ A imagem a seguir mostra um exemplo de um módulo de cartão-presente em uma pá
 
 - **Mostrar campos adicionais**- Essa propriedade define quais campos devem ser exibidos para cartões-presente além do número do cartão-presente, que é sempre exibido por padrão. Por exemplo, alguns cartões-presente suportam a exibição de um PIN (número de identificação pessoal) e outros suportam a exibição de um PIN e uma data de validade. Como alternativa, essa propriedade pode ser definida como "Nenhum", que exibiria somente o número do cartão-presente e nenhum outro campo.
 
-Valores com suporte:
--   PIN
--   Data de validade
--   PIN e data de vencimento 
--   Nemhum(a)
+    Os seguintes valores são compatíveis:
+
+    - PIN
+    - Data de expiração
+    - PIN e data de vencimento 
+    - Nenhuma
+
+- **Habilitar para usuários convidados**: quando esta propriedade estiver habilitada, os usuários convidados podem resgatar ou consultar os saldos nos vales-presentes. Esta propriedade requer que o acesso anônimo (convidado) a vales-presentes seja habilitado no Commerce Headquarters. Para obter mais informações, consulte [Habilitar pagamentos de vale-presente para finalização do convidado](#enable-gift-card-payments-for-guest-checkout).
+
+> [!IMPORTANT]
+> A propriedade **Habilitar para usuários convidados** está disponível a partir da versão 10.0.21 do Commerce. Ela requer que o pacote de biblioteca do módulo da versão 9.31 do Commerce esteja instalado.
 
 ## <a name="site-settings-for-gift-card-modules"></a>Configurações do site para módulos de cartão-presente
 
@@ -76,7 +82,7 @@ Por padrão, os cartões de presente internos não são otimizados para uso em l
 
 Por padrão, os pagamentos de vale-presente são habilitados para finalização de compra de convidado (anônimo). Para habilitá-los, siga estas etapas.
 
-1. No Commerce headquarters, vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
+1. No Commerce headquarters, Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
 1. Selecione e segure (ou clique com o botão direito do mouse) no cabeçalho da grade e, em seguida, selecione **Inserir colunas**.
 1. Na caixa de diálogo **Inserir colunas**, marque a caixa de seleção **AllowAnonymousAccess**.
 1. Selecione **Atualizar**.

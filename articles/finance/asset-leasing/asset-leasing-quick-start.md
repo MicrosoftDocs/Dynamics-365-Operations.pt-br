@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-09-24
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 0f0d39e5a3a1a70f57d305da67e160b0b20cedf4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 40e2bb78e6a4db51f61f4197a9cd444226e7f71b012468274b85306bb8f185d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360727"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726125"
 ---
 # <a name="asset-leasing-get-started"></a>Introdução ao arrendamento de ativos
 
@@ -210,7 +210,7 @@ Isso representa a redução de saldo acumulado do ativo de direito de uso. Ident
 Conclua as etapas a seguir para criar um novo arrendamento. 
 
 1. Para usar o **Arrendamento de ativo**, você deverá habilitá-lo no espaço de trabalho **Gerenciamento de recursos**. No espaço de trabalho **Gerenciamento de recursos**, selecione **Tudo** para que todos os recursos estejam listados na página. Selecione **Arrendamento de ativo** e selecione **Habilitar agora**.
-2. Vá para **Arrendamento de ativo > Comum > Resumo do arrendamento**. Insira nos campos necessários na Guia Rápida **Geral**. 
+2. Acesse **Arrendamento de ativo > Comum > Resumo do arrendamento**. Insira nos campos necessários na Guia Rápida **Geral**. 
    - **Detalhes do arrendamento**
    - **Vida útil do ativo (meses)**
    - **Grupo de arrendamento**
@@ -226,11 +226,11 @@ Conclua as etapas a seguir para criar um novo arrendamento.
 
 5. Alterne para a Guia Rápida **Geral**. O **Ativo de direito de uso inicial** e a **responsabilidade com arrendamento** são calculados. 
 
-6. Vá para a Guia Rápida **Teste de classificação de arrendamento** para verificar o valor no campo **Tipo de arrendamento**. 
+6. Acesse a Guia Rápida **Teste de classificação de arrendamento** para verificar o valor no campo **Tipo de arrendamento**. 
 
    O **Tipo de arrendamento** é classificado com base nos critérios definidos na página **Registros**.
 
-7.  Vá para **Plano de pagamento** na seção **Função**.  
+7.  Acesse **Plano de pagamento** na seção **Função**.  
 
    A página **Plano de pagamento** lista futuros planos de pagamento para uma ID de arrendamento. Selecione **Confirmar plano** para poder lançar as transações de **Reconhecimento inicial**. 
 
@@ -244,7 +244,7 @@ Conclua as etapas a seguir para criar um novo arrendamento.
  
    O **Plano de amortização da responsabilidade com arrendamento** mostra o valor dos juros calculado para cada período.
    
-10. Crie o diário e vá para **Diários de arrendamento de ativo**. O **Plano de amortização de responsabilidade com arrendamento** também é exibido nas transações de juros.
+10. Crie o diário e Acesse **Diários de arrendamento de ativo**. O **Plano de amortização de responsabilidade com arrendamento** também é exibido nas transações de juros.
 
    A página **Plano de depreciação de ativos** mostra as transações de depreciação para a ID do arrendamento selecionada. 
 

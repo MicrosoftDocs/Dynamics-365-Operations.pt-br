@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: de8840b92307ba63d6d0c2cfa90536bd00696ec3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d9b0e66397d132315ee8a8d9c4b051b5012df8027b8060d0237ade16d65d703c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349665"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724547"
 ---
 # <a name="change-the-sort-order-for-merchandising-entities"></a>Alterar a ordem de classificação das entidades de venda
 
@@ -41,7 +41,7 @@ Nas versões do Retail anteriores à versão 10.0.5, a ordem de classificação 
 
 Antes de concluir esse procedimento, os dados de demonstração devem estar instalados no seu ambiente.
 
-1. Vá para **Varejo e Comércio \> Produtos e categorias \> Hierarquia de produtos de comércio**.
+1. Acesse **Varejo e Comércio \> Produtos e categorias \> Hierarquia de produtos de comércio**.
 2. Clique em **Editar hierarquia de categoria**.
 3. Clique em **Editar**.
 4. Na árvore, expanda **ALL (TUDO) \> Action Sports (Esportes de ação)**.
@@ -59,7 +59,7 @@ A ordem de exibição da hierarquia de navegação do canal será refletida no H
 
 Antes de concluir esse procedimento, os dados de demonstração devem estar instalados no seu ambiente.
 
-1. Vá para **Varejo e Comércio \> Produtos e categorias \> Categorias de navegação de canal**.
+1. Acesse **Varejo e Comércio \> Produtos e categorias \> Categorias de navegação de canal**.
 2. Na lista, selecione a hierarquia **Navegação de moda**.
 3. Clique em **Editar hierarquia de categoria**.
 4. Clique em **Editar**.

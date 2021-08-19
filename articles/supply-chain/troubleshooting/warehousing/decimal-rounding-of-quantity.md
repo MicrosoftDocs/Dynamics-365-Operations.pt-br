@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1e63440834f516879aa8ad711bd789e62b0ee993
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: ddfac7106eb0e8b934516ca10e3950891d10910a2ccdef1868faf25812243159
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248767"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726552"
 ---
 # <a name="decimal-rounding-of-the-physical-updating-quantity-is-incorrect"></a>O arredondamento decimal da quantidade de atualização física está incorreto
 
@@ -62,6 +62,6 @@ Use o seguinte procedimento para revisar suas linhas de carga e fazer ajustes pa
 1. Acesse **Gerenciamento de depósito \> Cargas \> Todas as cargas**.
 1. Selecione a carga para a qual a guia de remessa não pode ser gerada.
 1. Na FastTab **Linhas de carga**, selecione a linha de carga para o item que causa um problema. Anote o valor dos campos **Quantidade** e **Unidade**.
-1. Vá para **Administração de organização \> Unidades \> Unidades**.
+1. Acesse **Administração de organização \> Unidades \> Unidades**.
 1. Selecione a unidade para a qual a guia de remessa não pode ser gerada.
 1. Ajuste o valor do campo **Precisão decimal** conforme necessário.

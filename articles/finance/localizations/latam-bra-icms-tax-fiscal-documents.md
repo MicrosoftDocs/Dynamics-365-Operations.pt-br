@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 34fd94360140e21985339bb2b5fb5c3958fcbe3f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9e07ea18ac3e0f48ccac80714f1741e53b3477ee212bad245c30314429849151
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813986"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728704"
 ---
 # <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 

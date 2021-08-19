@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 92a95e5a0f603eb5f9afbf14ba924df168e44203
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5a68e17e3bce4efdd1a10f8f8319ff996690604572d57e9f8232f5ec45fa39e7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728154"
 ---
 # <a name="troubleshoot-issues-from-upgrades-of-finance-and-operations-apps"></a>Solucionar problemas causados por atualizações de aplicativos do Finance and Operations
 
@@ -74,7 +74,7 @@ Para corrigir o problema, primeiro siga estas etapas para verificar se as coluna
 
 1. Faça login na VM para o aplicativo Finance and Operations.
 2. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione o bloco **Parâmetros de estrutura** e, em seguida, na guia **Configurações da tabela**, selecione **Atualizar lista de tabelas** para atualizar as tabelas.
-3. Vá para **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a tabela esteja listada. Se a tabela não estiver listada, faça login na VM para o aplicativo Finance and Operations e certifique-se de que a tabela esteja disponível.
+3. Acesse **Espaços de trabalho \> Gerenciamento de dados**, selecione a guia **Tabelas de dados** e certifique-se de que a tabela esteja listada. Se a tabela não estiver listada, faça login na VM para o aplicativo Finance and Operations e certifique-se de que a tabela esteja disponível.
 4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo Finance and Operations.
 5. Selecione **Atualizar lista de tabelas** para preencher automaticamente as colunas nos mapeamentos de tabela.
 
@@ -83,7 +83,7 @@ Se o problema ainda não for solucionado, siga estas etapas.
 > [!IMPORTANT]
 > Essas etapas o orientam no processo de exclusão de uma tabela e, em seguida, a adiciona novamente. Para evitar problemas, certifique-se de seguir as etapas exatamente.
 
-1. No aplicativo Finance and Operations, vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Tabelas de dados**.
+1. No aplicativo Finance and Operations, Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Tabelas de dados**.
 2. Encontre a tabela que está sem o atributo. Clique em **Modificar mapeamento de destino** na barra de ferramentas.
 3. No painel **Mapear preparo para destino**, clique em **gerar mapeamento**.
 4. Abra a página **Mapeamento da tabela** na página **Gravação dupla** no aplicativo Finance and Operations.

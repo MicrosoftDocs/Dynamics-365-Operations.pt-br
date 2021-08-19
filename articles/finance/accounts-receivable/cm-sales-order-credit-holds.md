@@ -1,8 +1,8 @@
 ---
 title: Retenções de crédito de ordens de venda
 description: Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito.
-author: mikefalkner
-ms.date: 01/25/2019
+author: JodiChristiansen
+ms.date: 07/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,16 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d94b19061838f9bb2552c3c91c6b3591040ccf52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 14cafa69e75d7e8a0f08fb385a8c364c0162da1ec609a4e0b3cad6178ec3f716
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827641"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723958"
 ---
 # <a name="credit-holds-for-sales-orders"></a>Retenções de crédito de ordens de venda
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve a configuração das regras usadas para colocar uma ordem de venda em bloqueio de crédito. As regras de bloqueio de gerenciamento de crédito podem ser aplicadas a um cliente individual ou a um grupo de clientes. As regras de bloqueio definem respostas para as seguintes circunstâncias:
 
@@ -41,6 +42,11 @@ Além disso, há dois parâmetros que controlam outros cenários que bloquearão
 
 Quando um cliente inicia uma transação de venda, as informações na ordem de venda são revisadas em relação a um conjunto de regras de bloqueio que orientam a decisão de estender ou não o crédito ao cliente e permitir que a venda avance. Você também pode definir exclusões que substituirão as regras de bloqueio e permitirão que uma ordem de venda seja processada. Você pode configurar regras de bloqueio e de exclusão na página **Gerenciamento de crédito > Configuração > Configuração de gerenciamento de crédito > Regras de bloqueio**.
 
+A partir da versão 10.0.21, as regras de bloqueio no Gerenciamento de crédito foram rearquitetadas das seguintes maneiras, para fornecer mais flexibilidade:
+
+- As solicitações de extensibilidade foram habilitadas para que você possa criar suas próprias regras de bloqueio.
+- A caixa de seleção **Liberar ordem de venda** agora está disponível para todas as regras de bloqueio. Anteriormente, ele estava disponível apenas para a regra de bloqueio de Ordens de venda. Quando esta caixa de seleção estiver marcada, a regra de exclusão liberará a ordem de venda sem considerar quaisquer outras regras que possam bloquear ordens de venda. Essa caixa de seleção está disponível apenas para o tipo de regra **Exclusão**.
+
 ### <a name="days-overdue"></a>Dias vencidos
 
 Abra a guia **Dias vencidos** se a regra de bloqueio se aplicar ao cliente com uma ou mais faturas vencidas há um determinado número de dias.
@@ -57,7 +63,7 @@ Abra a guia **Dias vencidos** se a regra de bloqueio se aplicar ao cliente com u
 5. Selecione um **Tipo de valor**. A entrada padrão é um número fixo de dias. Se você estiver criando uma exclusão, poderá especificar um número fixo de dias ou um valor em vez disso. 
 6. Digite o número de dias de **Atraso** que será permitido para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito para revisão. O número de dias vencidos representa um número de dias de carência a mais que são adicionados ao número de dias além da data de vencimento do pagamento que a fatura pode ter antes de ser considerada vencida. Se você especificou o **Tipo de valor** como um valor para uma exclusão, insira um valor e uma moeda para esse valor.
 
-### <a name="accounts-status"></a>Status da conta
+### <a name="account-status"></a>Status da conta
 
 Abra a guia **Status da conta** se a regra de bloqueio se aplica a um cliente com o status de conta selecionado.
 1. Selecione o tipo de regra que você está configurando.  **Bloqueio** criará uma regra que bloqueia uma ordem. **Exclusão** cria uma regra que impedirá que uma regra bloqueie uma ordem. 
@@ -102,7 +108,7 @@ Abra a guia **Valor vencido** se a regra de bloqueio se aplica a clientes com va
    - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
    - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
 5. Insira o **Valor vencido** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito para revisão. 
-6. Selecione o **Tipo de valor** que define o tipo de valor a ser usado para também testar quanto do limite de crédito foi usado. As regras de bloqueio exigem uma porcentagem, mas uma exclusão pode ter um valor fixo ou uma porcentagem. O limite está relacionado ao limite de crédito.
+6. Selecione o **Tipo de valor** que define o tipo de valor a ser usado para também testar quanto do limite de crédito foi usado. As regras de bloqueio e de exclusão permitem uma porcentagem somente para o **Valor vencido**. O limite está relacionado ao limite de crédito.
 7. Insira o valor de **Limite de limite de crédito** para a regra selecionada antes que um cliente seja colocado em bloqueio de gerenciamento de crédito. Pode ser um valor ou uma porcentagem com base no tipo de valor selecionado.
 8. A regra verifica se o **Valor vencido** foi excedido e se o **Limite de limite de crédito** foi excedido. 
 
@@ -122,8 +128,6 @@ Selecione **Ordem de venda** se a regra de bloqueio se aplica ao valor da ordem 
    - Selecione **Bloqueio** para criar uma regra que bloqueie uma ordem. 
    - Selecione **Exclusão** para criar uma regra que impedirá que outra regra bloqueie uma ordem. 
 5. Insira o **Valor da ordem de venda** para a regra de bloqueio selecionada antes que uma ordem seja colocada em bloqueio de gerenciamento de crédito. 
-
-A regra de ordem de venda inclui uma configuração adicional que substitui todas as outras regras. Para criar uma exclusão que liberará a ordem de venda sem aplicar nenhuma outra regra, marque a caixa de seleção **Liberar ordem de venda** na linha de exclusão.
 
 ### <a name="credit-limit-used"></a>Limite de crédito usado
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: a67199663a65ea0184b4feadb4036351a81abc87
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 0e508a0a4d89f91ef76cbf2724c7b77510a8ef028dde0c4e1c2a4200b96e39fa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727128"
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrever e remover benefícios de trabalhadores
 
@@ -30,7 +30,7 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 
 
 ## <a name="enroll-a-single-worker-in-benefits"></a>Inscrever um trabalhador único nos benefícios
-1. Vá para Recursos humanos > Trabalhadores > Funcionários
+1. Acesse Recursos humanos > Trabalhadores > Funcionários
 2. Na lista, localize e selecione o PDV desejado.
 3. Clique em Benefícios.
 4. Clique em Novo.
@@ -42,7 +42,7 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 
 ## <a name="enroll-multiple-workers-in-a-benefit"></a>Inscrever vários trabalhadores em um benefício
 1. Feche a página.
-2. Vá para Recursos humanos > Trabalhadores > Funcionários
+2. Acesse Recursos humanos > Trabalhadores > Funcionários
 3. Na lista, marque a linha selecionada.
 4. Na lista, localize e selecione o PDV desejado.
 5. Na lista, localize e selecione o registro desejado.
@@ -52,7 +52,7 @@ Este procedimento demonstra como um único trabalhador pode ser inserido em um o
 9. No campo Data final da cobertura, insira uma data e hora.
 10. Clique em Inscrever-se.
 11. Feche a página.
-12. Vá para Recursos humanos > Benefícios > Inscrição > Resultados da inscrição no benefício
+12. Acesse Recursos humanos > Benefícios > Inscrição > Resultados da inscrição no benefício
 13. Localize o registro dos resultados de benefícios que você está procurando.
 14. Na lista, clique no link na linha selecionada.
 15. Esta página permite exibir os funcionários que foram inscritos no benefício, bem como alguns funcionários que não foram inscritos.

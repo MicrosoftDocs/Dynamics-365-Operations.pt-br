@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 47735d41fde4c5f71ec1c3209446a593e1f4180c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f7a901591f9f3d1a892c29f92e59dc96c1f172143cae6bec571da33b4a50d274
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813410"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723710"
 ---
 # <a name="set-up-vendors-and-vendor-bank-accounts-for-iso20022-credit-transfers"></a>Configurar fornecedores e contas bancárias de fornecedor para transferências de crédito de ISO20022
 
@@ -31,7 +31,7 @@ Este é o quarto dos cinco procedimentos que ilustram o processo de pagamento de
 
 
 ## <a name="set-up-bank-details"></a>Configurar detalhes do banco
-1. Vá para Contas a pagar > Fornecedores > Todos os fornecedores.
+1. Acesse Contas a pagar > Fornecedores > Todos os fornecedores.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, no campo Conta de fornecedor, filtre com um valor de 'DE-001'.
 3. Clique em DE-001 para abrir detalhes de fornecedor.
 4. No Painel de Ação, clique em Fornecedor.

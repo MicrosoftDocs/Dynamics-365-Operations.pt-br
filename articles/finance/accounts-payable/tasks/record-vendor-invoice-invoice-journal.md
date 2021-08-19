@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35862195f3c2c13711157be919956f40fea0989b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9742d8ab3e84b8f9443c7f44a5ffbabdc90a62dc19e523acd0b3b2ffa0c75880
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820632"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722950"
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>Registrar uma fatura de fornecedor no diário de faturas
 
@@ -26,7 +26,7 @@ ms.locfileid: "5820632"
 
 Este guia de tarefa mostrará como registrar as notas fiscais de fornecedor que não estão associadas às ordens de compra. Exemplos deste tipo de nota fiscal incluem despesas de fornecimentos ou serviços.  Este registro usa a empresa de dados de demonstração USMF.
 
-1. Vá para **Painel de navegação > Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
+1. Acesse **Painel de navegação > Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
 2. No **Painel de ação**, clique em **Diário de nova fatura**.
 3. Clique em **Novo**.
 4. No campo **Nome**, insira o nome do diário ou clique no botão suspenso para abrir a pesquisa.

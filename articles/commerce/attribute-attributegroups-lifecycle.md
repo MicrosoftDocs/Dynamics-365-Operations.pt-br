@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: dce26087a81e38c5618b07a9341fee195e3c98c9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b3960f0877bdf68dd2f511ad283961b2a92db6a60078e84be55f071a00eae927
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727645"
 ---
 # <a name="manage-attributes-and-attribute-groups"></a>Gerenciar atributos e grupos de atributos
 
@@ -64,7 +64,7 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 ### <a name="set-up-attribute-types"></a>Configurar tipos de atributos
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Tipos de atributos**.
+2. Acesse **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Tipos de atributos**.
 3. Crie dois tipos de atributos do tipo **Texto**, defina a opção **Lista fixa** como **Sim** e adicione uma lista de valores:
 
     - Nomeie um tipo de atributo **Formato de lente** e adicione os seguintes valores: **Oval**, **Quadrado** e **Retangular**.
@@ -75,7 +75,7 @@ Os atributos são baseados nos *tipos de atributos*. O tipo de atributo identifi
 ### <a name="set-up-an-attribute"></a>Configurar um atributo
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Atributos**.
+2. Acesse **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Atributos**.
 3. Crie um atributo chamado **Lente**.
 4. Defina o campo **Tipo de atributo** como **Formato de lente**.
 
@@ -147,7 +147,7 @@ Você também pode definir valores padrão para atributos que estejam incluídos
 ### <a name="create-an-attribute-group"></a>Criar um grupo de atributos
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Grupos de atributos**.
+2. Acesse **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Categorias e atributos** &gt; **Grupos de atributos**.
 3. Crie um grupo de atributos chamado **Óculos escuros**.
 4. Adicione os seguintes atributos: **Formato de lente** e **Marca de óculos escuros**.
 
@@ -160,7 +160,7 @@ Um ou mais grupos de atributo podem ser associados a nós de categoria nos segui
 Siga estas etapas para atribuir grupos de atributo a categorias na Hierarquia de produtos de comércio.
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Hierarquia de produtos de comércio**.
+2. Acesse **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Hierarquia de produtos de comércio**.
 3. Selecione **Hierarquia de navegação de moda**.
 4. Em **Menswear**, selecione a categoria **Calças** e, em seguida, na Guia Rápida **Grupos de atributo de produto**, adicione um grupo de atributos chamado **Cintos masculinos**.
 5. Selecione a categoria **Óculos escuros** e verifique os novos atributos no grupo de atributos **Óculos escuros** selecionando **Exibir atributos**.
@@ -182,7 +182,7 @@ Siga estas etapas para atribuir grupos de atributo a categorias na Hierarquia de
 Um ou mais grupos de atributo podem ser associados a uma ou mais lojas na hierarquia de lojas. Assim, quando os produtos são enriquecidos para lojas específicas, eles herdam os atributos incluídos nos grupos de atributo.
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
+2. Acesse **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
 3. Atribuir grupos de atributos ao canal Houston:
 
     1. Selecione o canal **Houston**.
@@ -209,7 +209,7 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 ### <a name="override-the-attribute-values-of-an-individual-product"></a>Substituir os valores de atributo de um produto individual
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Produtos liberados por categoria**.
+2. Acesse **Varejo e Comércio** &gt; **Gerenciamento de categorias e produtos** &gt; **Produtos liberados por categoria**.
 3. Selecione o nó de categoria **Moda** &gt; **Acessórios de moda** &gt; **Óculos escuros**.
 4. Selecione o produto obrigatório na grade. Em seguida, no Painel de Ação, na guia **Produto**, no grupo **Configurar**, selecione **Atributos de produto**.
 5. Selecione um atributo no painel esquerdo e atualize seu valor no painel direito.
@@ -219,7 +219,7 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 ### <a name="override-the-attribute-values-of-products-in-a-catalog"></a>Substituir os valores de atributo de produtos em um catálogo
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Varejo e Comércio** &gt; **Gerenciamento de catálogo** &gt; **Todos os catálogos**.
+2. Acesse **Varejo e Comércio** &gt; **Gerenciamento de catálogo** &gt; **Todos os catálogos**.
 3. Selecione o catálogo **Fabrikam Base Catalog**.
 4. Selecione o nó de categoria **Moda** &gt; **Acessórios de moda** &gt; **Óculos escuros**.
 5. Na Guia Rápida **Produtos**, selecione o produto obrigatório e, em seguida, selecione **Atributos** acima da grade do produto.
@@ -238,7 +238,7 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 ### <a name="override-the-attribute-values-of-products-in-a-channel"></a>Substituir os valores de atributo de produtos em um canal
 
 1. Entre no cliente de back office como gerente de mercadorias.
-2. Vá para **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
+2. Acesse **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Categorias do canal e atributos de produto**.
 3. Selecione o canal **Houston**.
 4. Na Guia Rápida **Produtos**, selecione o produto obrigatório e, em seguida, selecione **Atributos** acima da grade do produto.
 

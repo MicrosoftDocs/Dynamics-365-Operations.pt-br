@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: e6386fc9aea2961b4a5e86a75d301a6ad9d6317a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e358e36fafd791932a215e0f746bc139440673550fd9e710b681cf3559880105
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814008"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722656"
 ---
 # <a name="cancel-a-customer-fiscal-document-brazil"></a>Cancelar uma nota fiscal do cliente (Brasil)
 

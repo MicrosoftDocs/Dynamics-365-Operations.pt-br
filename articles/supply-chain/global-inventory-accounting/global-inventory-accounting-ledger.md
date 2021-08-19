@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: ea3434675aa3b7f2304be93ef9b489747994fa9d
-ms.sourcegitcommit: eceae470f4ae58000ec33fea34db34b7a7a1af43
+ms.openlocfilehash: e956bac61df4b694ef347b804fed139e9e22e6f95d1bac7ea483a07946cb110f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "6273112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722430"
 ---
 # <a name="global-inventory-accounting-ledger"></a>Razão do Contabilidade de estoque global
 
@@ -26,7 +26,7 @@ A Contabilidade de estoque global tem seu próprio conjunto de razões. Toda vez
 
 Um razão é um registro de medidas de débito e crédito. Essas medidas são classificadas usando elementos de custo e contas de sub-razão. Um razão da Contabilidade de estoque global é definido por sua combinação de uma moeda, um calendário, uma convenção e uma associação com uma entidade legal.
 
-Para configurar os razões contábeis de estoque global, vá para **Contabilidade de estoque global \> configuração \> Razões do Contabilidade de estoque global**. Em cada razão, defina os seguintes campos:
+Para configurar os razões contábeis de estoque global, Acesse **Contabilidade de estoque global \> configuração \> Razões do Contabilidade de estoque global**. Em cada razão, defina os seguintes campos:
 
 - **Nome** – Digite o nome do razão.
 - **Descrição** – Digite uma descrição do razão.
