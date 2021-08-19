@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b053ea3a5792d016cfe4850f07c65de97fbfc9e
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 444ffddab3df2d937725b9e1f3145eaece3db12844f4fb464f06a82db366579d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802686"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716800"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>Criar canais de call center e definir atributos de canal
 
@@ -27,7 +27,7 @@ Este procedimento orienta como criar um novo canal de comércio e definir atribu
 
 
 ## <a name="create-new-store"></a>Criar nova loja
-1. Vá para Todos os espaços de trabalho > Implementação do canal.
+1. Acesse Todos os espaços de trabalho > Implementação do canal.
 2. Clique em Novo canal.
 3. Clique em Loja.
 4. No campo Nome, digite um valor.

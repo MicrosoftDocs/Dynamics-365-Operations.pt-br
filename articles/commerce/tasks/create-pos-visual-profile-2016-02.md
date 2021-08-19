@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41b5e25c6e4569d72124bff55781dba16227861a
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 09dd2b88c3c27f5908d98139ab07308268f93f6a5c9ac5fe658bb288d2b1822e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716824"
 ---
 # <a name="create-point-of-sale-pos-visual-profiles"></a>Criar perfis visuais de ponto de venda (PDV)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5802734"
 
 Este procedimento orienta na criação de um novo perfil visual de ponto de venda (PDV). Um perfil visual contém informações básicas que determinam a aparência dos terminais de PDV. Você pode criar vários perfis visuais e atribuir perfis específicos para executar em registradoras específicas. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Varejo e Comércio > Configuração de canal > Configuração do PDV > Perfis de PDV > Perfis visuais.
+1. Acesse Varejo e Comércio > Configuração de canal > Configuração do PDV > Perfis de PDV > Perfis visuais.
 2. Clique em Novo.
 3. No campo número do perfil, digite um valor.
 4. No campo Descrição, digite um valor.

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 57f5d23533c2fd17593648a15745fa770fc01dc4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7166afdb43c7e835170c5768a0767f2943222b19c00c7d0aaf067263845651f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345199"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714129"
 ---
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>Mostrar notificações de ordem no ponto de venda (PDV)
 
@@ -33,9 +33,9 @@ O sistema pode mostrar notificações para a operação *atendimento da ordem* e
 
 Para habilitar notificações para as operações de atendimento da ordem ou para cancelar a ordem, consulte as seguintes etapas:
 
-1. Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações**.
+1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Operações**.
 1. Procure a operação **Atendimento da ordem** ou **Cancelar ordem** e selecione **Habilitar notificações** para que a operação especifique que a estrutura de notificação deve detectar o manipulador para essa operação. Se o manipulador for implementado, as notificações para essa operação serão mostradas no PDV.
-1. Vá para **Varejo e Comércio \> Funcionários \> Trabalhadores**.
+1. Acesse **Varejo e Comércio \> Funcionários \> Trabalhadores**.
 1. Selecione a guia **Commerce**, selecione uma linha de trabalhador e, em seguida, selecione **Permissões de PDV**. Selecione a guia rápida **Notificações** para expandi-la e adicione as operações para as quais você habilitou notificações. Se estiver configurando uma única notificação para um trabalhador, verifique se o valor **Ordem de exibição** está definido como **1**. Se estiver configurando mais de uma operação, defina os valores da **Ordem de exibição** para indicar a ordem em que as notificações devem ser exibidas. 
 
       As notificações são mostradas somente para as operações adicionadas na guia rápida **Notificações**. Você só poderá adicionar operações ali se as caixas de seleção **Habilitar notificações** para essas operações tiverem sido selecionadas na página **Operações de PDV**. Além disso, as notificações para uma operação são mostradas aos trabalhadores somente se a operação for adicionada às permissões de PDV para esses trabalhadores.
@@ -43,8 +43,8 @@ Para habilitar notificações para as operações de atendimento da ordem ou par
     > [!NOTE]
     > As notificações podem ser substituídas no nível do usuário. Para fazer isso, abra o registro do trabalhador, selecione **Permissões do PDV** e, em seguida, edite a subscrição de notificação do usuário.
 
-1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**. No campo **Intervalo de notificação**, especifique a frequência de recebimento de notificações. Para algumas notificações, o PDV deve fazer chamadas em tempo real para o aplicativo de back office. Essas chamadas consomem a capacidade de computação do seu aplicativo de back office. Portanto, ao definir o intervalo de notificação, você deve considerar suas necessidades comerciais e o impacto de chamadas em tempo real no aplicativo de back office. Um valor de **0** (zero) desativa as notificações.
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**. Selecione a agenda **1060** (**Equipe**) para sincronizar as configurações de subscrição de notificação e, em seguida, selecione **Executar agora**. Em seguida, selecione a agenda **1070** (**Configuração do canal**) para sincronizar o intervalo de permissão e, em seguida, selecione **Executar agora**.
+1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**. No campo **Intervalo de notificação**, especifique a frequência de recebimento de notificações. Para algumas notificações, o PDV deve fazer chamadas em tempo real para o aplicativo de back office. Essas chamadas consomem a capacidade de computação do seu aplicativo de back office. Portanto, ao definir o intervalo de notificação, você deve considerar suas necessidades comerciais e o impacto de chamadas em tempo real no aplicativo de back office. Um valor de **0** (zero) desativa as notificações.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**. Selecione a agenda **1060** (**Equipe**) para sincronizar as configurações de subscrição de notificação e, em seguida, selecione **Executar agora**. Em seguida, selecione a agenda **1070** (**Configuração do canal**) para sincronizar o intervalo de permissão e, em seguida, selecione **Executar agora**.
 
 ## <a name="view-notifications-in-the-pos"></a>Exibir notificações no PDV
 
@@ -74,7 +74,7 @@ A ilustração a seguir mostra as configurações de conteúdo ao vivo no design
 
 ![Configurações de conteúdo dinâmico no designer de grade de botões.](./media/ButtonGridDesigner.png "Configurações de conteúdo dinâmico no designer de grade de botões")
 
-Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Microsoft Edge, acesse a página **Layout da tela**, encontre a **ID do layout da tela** e a **Resolução do layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ativo**. Vá para **Retail e Commerce \> TI de Retail e Commerce \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
+Para mostrar a contagem de notificação em um botão, você deve garantir que o layout de tela correto está sendo atualizado. Para determinar o layout de tela que está sendo usado pelo POS, selecione o ícone **Configurações** no canto superior direito e anote a **ID de layout de tela** e **Resolução de tela**. Agora, usando o navegador Microsoft Edge, acesse a página **Layout da tela**, encontre a **ID do layout da tela** e a **Resolução do layout** identificadas acima e marque a caixa de seleção **Habilitar conteúdo ativo**. Acesse **Retail e Commerce \> TI de Retail e Commerce \> Agenda de distribuição** e execute o trabalho 1090 (Registros) para sincronizar as alterações de layout.
 
 ![Localizar o layout de tela usado pelo PDV.](./media/Choose_screen_layout.png "Localizar o layout de tela")
 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-27
-ms.openlocfilehash: 0fcbc5b0f571e9f2cf7f1ad7c1e976d022199b47
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 03bfb5f97b332abb7f34e179d7b294ed2228ab474825a76271f42cc60971a645
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716085"
 ---
 # <a name="prospect-to-cash-in-dual-write"></a>Cliente potencial com pagamento à vista em gravação dupla
 
@@ -37,7 +37,7 @@ Para sincronizar votações de venda, você deve atualizar as seguintes configur
 
 ### <a name="setup-in-sales"></a>Configuração no Sales
 
-Em Vendas, vá para **Configurações \> Administração \> Configurações do sistema \> Vendas** e certifique-se de que as seguintes configurações sejam usadas:
+Em Vendas, Acesse **Configurações \> Administração \> Configurações do sistema \> Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
 - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
 - A coluna **Método de cálculo de desconto** está definida como **Item de linha**.

@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 83434816a1cc128360344f8f41c6fb1ba30e6b0c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4fc91c71bdce9436db9dc1315dbc253f1e3eee0fcfd3052eb7063de17ec6f00d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714419"
 ---
 # <a name="issue-customer-fiscal-documents-for-end-users-brazil"></a>Emitir notas fiscais para clientes (para usuários finais) (Brasil)
 
@@ -35,7 +35,7 @@ ms.locfileid: "5834355"
 7. Clique em Salvar.
 8. Feche a página.
 9. Feche a página.
-10. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+10. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 11. Clique em Novo.
 12. No campo Conta de cliente, insira ou selecione um valor.
 13. Clique em OK.
@@ -58,7 +58,7 @@ ms.locfileid: "5834355"
 30. Feche a página.
 31. Feche a página.
 32. Feche a página.
-33. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+33. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 34. Clique em OK.
 
 

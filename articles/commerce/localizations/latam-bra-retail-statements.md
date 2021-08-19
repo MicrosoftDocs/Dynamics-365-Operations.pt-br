@@ -1,7 +1,7 @@
 ---
 title: Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce
 description: Este tópico descreve como lançar documentos fiscais brasileiros por meio de demonstrativos de varejo no Microsoft Dynamics 365 Commerce.
-author: v-ankvik
+author: akviklis
 manager: annbe
 ms.date: 06/10/2021
 ms.topic: article
@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: v-chgri
 ms.search.region: Brazil
 ms.search.industry: Retail
-ms.author: v-ankvik
+ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4839280a8b1c07804b9373a77f8dfd4c3375d4a8
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 89a2fa3364f42f0711becbad4e78c3b3e47390a187c328bc7274c1b21c5bbe91
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303526"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713404"
 ---
 # <a name="post-brazilian-fiscal-documents-via-retail-statements-in-commerce-headquarters"></a>Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce 
 
@@ -36,13 +36,13 @@ Os documentos NFC-e que são emitidos em PDV são publicados na sede do Commerce
 
 Para lançar um documento NFC-e que foi emitido em PDV, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Execute o **P-job** para o banco de dados do canal.
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Lançamento do PDV**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Lançamento do PDV**.
 1. Execute o trabalho em lote de **Validar transações da loja**.
 1. Execute o trabalho em lote **Calcular demonstrativos transacionais em lote**.
 1. Execute o trabalho em lote **Lançar demonstrativos transacionais em lote**.
-1. Vá para **Varejo e Comércio \> Consultas e relatórios \> demonstrativos lançados** e verifique se o demonstrativo foi lançado.
+1. Acesse **Varejo e Comércio \> Consultas e relatórios \> demonstrativos lançados** e verifique se o demonstrativo foi lançado.
 
 > [!NOTE]
 > Esse procedimento faz um lançamento baseado em feed, conforme descrito em [Criação de ordens baseadas em feeds do Trickle para transações de lojas de varejo](../trickle-feed.md). Para obter mais informações, consulte [Demonstrativos de varejo](../retail-statements.md).
@@ -71,6 +71,6 @@ Para ver detalhes do documento fiscal na sede do Commerce, siga estas etapas.
 
 [Gerenciar informações do cliente no PDV para o Brasil](latam-bra-customer-information.md)
 
-[Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
+[Cancelamento e devolução de notas NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
 
 [Registro adiado de documentos NFC-e emitidos no modo de contingência offline](latam-bra-nfce-contingency-mode.md)

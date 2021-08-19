@@ -15,12 +15,12 @@ ms.search.industry: retail
 ms.author: rubendel
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: db2e9d8b4b0f5102418d842788d220a5099b831a
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 67a0199cd15e0a10b41ed3ab288951f86c9790ba0499fee0754f05876faf4843
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338294"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714057"
 ---
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
@@ -62,7 +62,7 @@ Se várias linhas forem selecionadas, o menu suspenso de detalhes da linha da or
 
 ## <a name="pending-order-lines"></a>Linhas de ordem pendentes
 
-O atendimento unificado da ordem inclui a capacidade de aceitar as ordens manualmente. Por padrão, as ordens para atendimento na loja já foram aceitas. Porém, se os processos comerciais indicam que o trabalhador em nível de loja deve aceitar as ordens, a aceitação manual pode ser ativada em nível de loja de varejo. Para habilitar a aceitação da ordem, vá para **Varejo e Comércio** \> **Canais** \> **Lojas** \> **Todas as lojas**. Abra a loja desejada e na guia **Geral**, localize o subcabeçalho **Atendimento da ordem**. Este subcabeçalho tem uma opção **Aceitação manual** definida como **Não**, por padrão. Definindo esta opção como **Sim** e sincronizando as alterações para o banco de dados do canal, as linhas de ordem podem passar pelo processo de aceitação.
+O atendimento unificado da ordem inclui a capacidade de aceitar as ordens manualmente. Por padrão, as ordens para atendimento na loja já foram aceitas. Porém, se os processos comerciais indicam que o trabalhador em nível de loja deve aceitar as ordens, a aceitação manual pode ser ativada em nível de loja de varejo. Para habilitar a aceitação da ordem, Acesse **Varejo e Comércio** \> **Canais** \> **Lojas** \> **Todas as lojas**. Abra a loja desejada e na guia **Geral**, localize o subcabeçalho **Atendimento da ordem**. Este subcabeçalho tem uma opção **Aceitação manual** definida como **Não**, por padrão. Definindo esta opção como **Sim** e sincronizando as alterações para o banco de dados do canal, as linhas de ordem podem passar pelo processo de aceitação.
 
 Os trabalhadores com a permissão **Permitir ordem de aceitação** podem abrir o atendimento da ordem e selecionar linhas para aceitação. Depois que as linhas forem aceitas, as alterações de status de **Pendente** para **Aceitas** e o restante do processo de atendimento de ordem podem continuar. Quando a **Aceitação manual** for ativada, as ordens não serão processadas enquanto não forem aceitas.
 

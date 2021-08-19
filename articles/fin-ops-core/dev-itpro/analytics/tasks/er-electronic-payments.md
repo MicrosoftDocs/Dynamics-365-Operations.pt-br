@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f62d7cd690406647886f9d6d1cb1491b691d4159
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 05295ff36ffd194b3f50fcdd9d7528c787c80f39104f46f9c51890a75a852735
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752475"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712655"
 ---
 # <a name="er-generate-electronic-documents-for-payments-using-a-format-configuration"></a>Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato
 
@@ -30,7 +30,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "Cri
 
 
 ## <a name="change-the-configuration-of-the-electronic-payment-method"></a>Alterar a configuração do método do pagamento eletrônico
-1. Vá para Contas a pagar > Configurar pagamento > Métodos de pagamento.
+1. Acesse Contas a pagar > Configurar pagamento > Métodos de pagamento.
 2. Ativar/desativar a seção Formato de arquivo para expandi-la, se necessário.
 3. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Método de pagamento com um valor de "Electronic".
 4. Clique em Editar.
@@ -42,7 +42,7 @@ Para concluir estas etapas, primeiramente conclua as etapas no procedimento "Cri
 9. Feche a página.
 
 ## <a name="test-the-format-of-generated-payment-files"></a>Testar o formato de arquivo de pagamento gerado
-1. Vá para Contas a pagar > Pagamentos > Diário de pagamentos.
+1. Acesse Contas a pagar > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, clique no botão suspenso para abrir a pesquisa.

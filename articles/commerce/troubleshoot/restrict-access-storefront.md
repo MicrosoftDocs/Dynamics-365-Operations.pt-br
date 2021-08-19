@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: cdc9b6af55bcba98f5ea7607bb1847f61a707778
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: db3317c01cab2e123f3c2927c359f9e00b98bd8a2d5e851c2c20cb4763db1c49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018329"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716774"
 ---
 # <a name="restrict-access-to-a-storefront-during-testing-or-development"></a>Restringir o acesso a uma vitrine durante o teste ou o desenvolvimento
 
@@ -42,7 +42,7 @@ Para obter informações sobre como configurar o Azure Active Directory B2C (Azu
 
 Para restringir o acesso de usuários a páginas da vitrine do criador de sites do eCommerce, siga estas etapas.
 
-1. Vá para seu site.
+1. Acesse seu site.
 1. Selecione **Página** e, em seguida, selecione a página para restringir o acesso de usuários.
 1. Selecione o módulo ou o slot do fragmento e, em seguida, clique em **Editar**.
 1. No painel Propriedades, selecione **Requer entrada?** e, em seguida, selecione **Concluir edição**.
@@ -50,7 +50,7 @@ Para restringir o acesso de usuários a páginas da vitrine do criador de sites 
 
 Para bloquear a criação de novos usuários no Azure AD, siga estas etapas.
 
-1. Vá para o [portal do Azure](https://portal.azure.com/).
+1. Acesse o [portal do Azure](https://portal.azure.com/).
 1. Selecione o aplicativo Azure AD B2C criado para acesso ao site.
 1. No painel de navegação à esquerda, selecione **Fluxos do usuário**.
 1. Na parte superior da página **Fluxos de Usuário**, selecione **Novo fluxo do usuário**.

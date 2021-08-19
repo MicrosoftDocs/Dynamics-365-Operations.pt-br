@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: e924b3ce737925303e5123ca8102c7867bd81f2c
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 77c5b2e40c3dd16b95afe421d4515c45af0e81358940c29a14c03754c39a076e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716267"
 ---
 # <a name="accessibility-features-and-capabilities"></a>Recursos e funcionalidades de acessibilidade
 
@@ -66,7 +66,7 @@ Para carregar manualmente um arquivo de legendas ocultas quando você carregar u
 Para carregar arquivos de áudio ou descritivos regulares para o vídeo, use o seletor de arquivos na caixa de diálogo **Carregar ativo**.
 
 > [!NOTE]
-> Legendas ocultas, áudio regular e ativos de áudio descritivos também podem ser adicionados depois que um ativo de vídeo for carregado. Vá para **Biblioteca de Mídia**, selecione o ativo de vídeo e depois **Editar** para finalizar a compra. Em seguida, no painel de propriedades do ativo de vídeo, carregue os ativos adicionais.
+> Legendas ocultas, áudio regular e ativos de áudio descritivos também podem ser adicionados depois que um ativo de vídeo for carregado. Acesse **Biblioteca de Mídia**, selecione o ativo de vídeo e depois **Editar** para finalizar a compra. Em seguida, no painel de propriedades do ativo de vídeo, carregue os ativos adicionais.
 
 #### <a name="edit-cc-and-audio-transcript-files"></a>Editar arquivos de transcrição de áudio e CC
 
@@ -74,7 +74,7 @@ Os arquivos de transcrição de CC e de áudio podem ser editados diretamente na
 
 Para editar os arquivos de transcrição de áudio e de CC, siga estas etapas.
 
-1. Vá para **Biblioteca de Mídia** e selecione o nome do arquivo do ativo do vídeo. O editor de conteúdo de transcrição e legendas ocultas é exibido.
+1. Acesse **Biblioteca de Mídia** e selecione o nome do arquivo do ativo do vídeo. O editor de conteúdo de transcrição e legendas ocultas é exibido.
 1. Selecione **Editar**.
 1. Edite as legendas ocultas ou o texto da transcrição.
 1. Quando terminar, selecione **Salvar** e depois **Concluir a edição**.
@@ -86,7 +86,7 @@ Um atributo de metadados de **Idade mínima** pode ser associado a ativos de ví
 
 Para definir o atributo de **Idade mínima** de um ativo de vídeo, siga estas etapas.
 
-1. Vá para **Biblioteca de Mídia** e selecione o ativo de vídeo.
+1. Acesse **Biblioteca de Mídia** e selecione o ativo de vídeo.
 1. Selecione **Editar**.
 1. No painel de propriedades do ativo de vídeo, defina o atributo **Idade mínima**.
 

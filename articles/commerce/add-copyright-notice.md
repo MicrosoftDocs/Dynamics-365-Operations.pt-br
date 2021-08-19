@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 11195cc4e792820d88f820c7365a803ac75b5704
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 89f1716cd71d191f419dfd1fb1db887af62335504724b4f08ead701d7f57efc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5797734"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715423"
 ---
 # <a name="add-a-copyright-notice"></a>Adicionar um aviso de direitos autorais
 
@@ -38,7 +38,7 @@ Antes de adicionar um aviso de direitos autorais ao seu site, você deve ter os 
 
 Para adicionar um aviso de direitos autorais na parte inferior de cada página que usa um modelo específico, siga as etapas a seguir.
 
-1. Vá para **Fragmentos** e selecione **Novo**.
+1. Acesse **Fragmentos** e selecione **Novo**.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Rodapé** e nomeie o fragmento. Por exemplo, insira **Footer-Copyright**.
 1. Selecione **OK**.
 1. No painel de navegação, selecione o botão de reticências (**...**) ao lado de **Rodapé** e depois **Adicionar módulo**.
@@ -48,7 +48,7 @@ Para adicionar um aviso de direitos autorais na parte inferior de cada página q
 1. No painel de navegação, selecione **Bloco de texto**.
 1. No painel de propriedades à direita, no campo **Parágrafo**, adicione sua mensagem de direitos autorais. Por exemplo, insira **(C) Fabrikam 2019**.
 1. Selecione **Salvar**, **Concluir a edição** e depois **Publicar**.
-1. Vá para **Modelos**, selecione o modelo e depois **Editar**.
+1. Acesse **Modelos**, selecione o modelo e depois **Editar**.
 1. Em **Estrutura de Tópicos da Página**, expanda **Corpo** e depois **Página Padrão**.
 1. Selecione o botão de reticências ao lado de **Slot de rodapé** e depois escolha **Adicionar fragmento**.
 1. Selecione o fragmento que você criou antes e escolha **Selecionar**.

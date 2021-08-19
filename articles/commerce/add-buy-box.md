@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: ac29180dbffac4d7db27856b801647aac878bc99
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 4f49c7a1519744cda9cfba31a3938fd23e692841a851a52ec9d18a241f8c0458
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638016"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717786"
 ---
 # <a name="buy-box-module"></a>Módulo de caixa de compra
 
@@ -86,7 +86,7 @@ O módulo de caixa de compra recupera informações do produto usando as interfa
 
 Para adicionar um módulo de caixa de compra a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Caixa de compra**.
 1. Em **Nome do fragmento**, digite o nome **Fragmento de caixa de compra** e selecione **OK**.
 1. No slot **Galeria de Mídia** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
@@ -94,14 +94,14 @@ Para adicionar um módulo de caixa de compra a uma nova página e definir as pro
 1. No slot **Seletor de loja** do módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo PDP** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de PDP**. Em **Nome da página**, insira **Página PDP** e selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de caixa de compra** criado anteriormente e, em seguida, selecione **OK**.

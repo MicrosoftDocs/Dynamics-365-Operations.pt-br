@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: ddee15c28455dc1736e37ff6132e1360e2d135ac
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 58d7a936f94e1cd453c904ef6404e0db65083c54235c8420b9cfa561bcde1584
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351931"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714650"
 ---
 # <a name="electronic-reporting-advanced-formula-editor"></a>Editor de fórmula avançado do Relatório eletrônico
 
@@ -41,7 +41,7 @@ Além do [editor de fórmula](general-electronic-reporting-formula-designer.md) 
 
 Conclua as etapas a seguir para começar a usar o editor de fórmula avançado em sua instância do Microsoft Dynamics 365 Finance.
 
-1.  Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1.  Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2.  Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3.  Na caixa de diálogo **Parâmetro de usuário**, na seção **Rastreamento de execução**, defina o parâmetro **Habilitar editor de fórmula avançado** como **Sim**.
 
@@ -54,7 +54,7 @@ A partir da versão 10.0.19 do Microsoft Dynamics 365 Finance, você pode contro
 
 1.  Abra o espaço de trabalho **Gerenciamento de recursos**.
 2.  Encontre e selecione o recurso **Configurar o editor de fórmula avançado de ER como o padrão para todos os usuários** na lista e selecione **Ativar agora**.
-3.  Vá para **Administração da organização** > **Relatório eletrônico** > **Configurações**.
+3.  Acesse **Administração da organização** > **Relatório eletrônico** > **Configurações**.
 4.  Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 5.  Na caixa de diálogo de **Parâmetros do usuário**, encontre o parâmetro **Desativar editor de fórmula avançado** e verifique se ele está definido como **Não**.
 

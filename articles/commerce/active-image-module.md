@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 5375a9fc4b168addadadb457b89f5c3ac2ab2746
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 36b7d6dea87c7f309c07608794d443a0ae19be211847d2cddcad95f2d933a8db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638064"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716899"
 ---
 # <a name="active-image-module"></a>Módulo de imagem ativa
 
@@ -56,11 +56,11 @@ A ilustração a seguir mostra um exemplo de uma janela pop-up de versão prelim
 
 Para adicionar um módulo de imagem ativa a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
+1. Acesse **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Imagem ativa** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
+1. Acesse **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
 1. No slot **Principal** da página padrão, selecione o botão de reticências (**...**) e, em seguida, selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Imagem ativa** e, depois, **OK**.
 1. No painel de propriedades do módulo de imagem ativa, adicione uma imagem e defina a largura da tela como o tamanho da imagem.

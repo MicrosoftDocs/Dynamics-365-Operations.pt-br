@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: Version 10.0.13
-ms.openlocfilehash: e0ba43ff1bab391d141f28289144cc552ee28609
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 973e46d5e5e7e9efb3037757ccb2b30f319ad13fd92261d58fde10fe0c235f9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351809"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714602"
 ---
 # <a name="use-barcode-data-sources-to-generate-bar-code-images"></a>Usar fontes de dados de Códigos de Barras para gerar imagens de código de barras
 
@@ -127,14 +127,14 @@ Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado p
 
 ### <a name="activate-a-configuration-provider"></a><a name="ExampleProvider"></a>Ativar um provedor de configuração
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo **Litware, Inc.** está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ![Configuração da empresa de exemplo a ser ativada na página Configurações de localização.](./media/er-barcode-data-source-active-provider.png)
 
 ### <a name="import-the-provided-er-solution"></a><a name="ExampleImportSolution"></a>Importar a solução de ER fornecida
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, se a configuração **Modelo para cheques** não estiver disponível na árvore de configuração, siga estas etapas para importar a configuração do modelo de dados de ER:
 
@@ -151,7 +151,7 @@ Além disso, baixe o seguinte arquivo do Excel que contém o modelo modificado p
 
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque"></a>Gerar um cheque de pagamento
 
-1. Vá para **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
+1. Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
 2. Na página **Contas bancárias**, selecione a conta **USMF OPER**.
 3. Na página de detalhes da conta bancária, no Painel de Ação, na guia **Configurar**, no grupo **Layout**, selecione **Cheque**.
 4. Na página **Layout do cheque**, selecione **Editar**.
@@ -179,7 +179,7 @@ Você pode usar o aplicativo de área de trabalho do Excel para abrir o arquivo 
 
 Agora, você deve modificar a solução de ER e [reaplicar](modify-electronic-reporting-format-reapply-excel-template.md) o modelo modificado.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo para cheques** e selecione **Formato de impressão de cheques**.
 4. No Painel de Ação, selecione **Designer**.
@@ -246,7 +246,7 @@ Se você deseja continuar a trabalhar com a versão de rascunho atual, mas preci
 
 ##### <a name="complete-the-modified-format-version"></a><a name="CompleteToRun"></a>Concluir a versão de formato modificada
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo para cheques** e selecione **Formato de impressão de cheques**.
 4. Na Guia Rápida **Versões**, selecione o registro com o status **Concluído**.
@@ -257,7 +257,7 @@ O status da versão atual é alterado de **Rascunho** para **Concluído**, e uma
 
 ##### <a name="make-the-draft-version-available-for-use"></a><a name="MarkToRun"></a>Disponibilizar a versão de rascunho para uso
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione **Configurações de relatórios**.
 3. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 4. Na caixa de diálogo, defina a opção **Executar configuração** como **Sim** e, em seguida, selecione **OK**.
@@ -269,7 +269,7 @@ A versão de rascunho do formato selecionado é marcada como disponível para us
 
 ### <a name="generate-a-payment-check"></a><a name="ExampleGenerateCheque2"></a>Gerar um cheque de pagamento
 
-1. Vá para **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
+1. Acesse **Gerenciamento de caixa e bancos** \> **Contas bancárias** \> **Contas bancárias**.
 2. Na página **Contas bancárias**, selecione a conta **USMF OPER**.
 3. Na página de detalhes da conta bancária, no Painel de Ação, na guia **Configurar**, no grupo **Layout**, selecione **Cheque**.
 4. Na página **Layout do cheque**, no Painel de Ação, selecione **Imprimir teste**.

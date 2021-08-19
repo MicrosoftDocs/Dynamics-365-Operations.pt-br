@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2454749dcc33a8d9326be885be68883cebae7611
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: df326550fe049cf30c4dcf1af95283c3b41b8d1fdf8d322b51e9bf0a4c7ddf5f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716608"
 ---
 # <a name="create-and-post-a-sales-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de venda (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5821857"
 
 Use este procedimento para criar uma nota fiscal complementar de vendas para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços). Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Contas a receber > Notas fiscais > Todas as notas fiscais.
+1. Acesse Contas a receber > Notas fiscais > Todas as notas fiscais.
 2. Na lista, clique no link na linha selecionada.
 3. Clique em Nota fiscal complementar.
 4. Clique em Preço.
@@ -37,7 +37,7 @@ Use este procedimento para criar uma nota fiscal complementar de vendas para aju
 9. Feche a página.
 10. Feche a página.
 11. Feche a página.
-12. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+12. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 13. Clique em OK.
 
 

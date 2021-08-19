@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 45df6566a24cd519ccaad67c5d47abd9b7af7aee
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d6dcbb5b9ea01035396e90a6809cb1568c3a4fc86def41cf36732588b5046da7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353027"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716185"
 ---
 # <a name="create-an-online-functionality-profile"></a>Criar um perfil de funcionalidade online
 
@@ -33,7 +33,7 @@ O perfil de funcionalidade online fornece várias configurações usadas em cana
 
 O procedimento a seguir explica como criar um perfil de funcionalidade online no aplicativo da sede do Commerce.
 
-1. No painel de navegação, vá para **Módulos \> Configuração de canal \> Configuração de loja online \> Perfis de funcionalidade**.
+1. No painel de navegação, Acesse **Módulos \> Configuração de canal \> Configuração de loja online \> Perfis de funcionalidade**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Perfil**, insira uma ID para o perfil.
 1. No campo **Descrição**, insira um valor ("perfil da Adventure Works" no exemplo da imagem abaixo).

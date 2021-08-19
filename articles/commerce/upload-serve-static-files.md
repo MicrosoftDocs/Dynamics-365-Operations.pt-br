@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: d5f092042b3dda65b041ab2f25f7319dd8e158d1
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 389d33189644241dcf98da0c7f3b841e82a4430ac459dc8027284cecc299b4b1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801376"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714674"
 ---
 # <a name="upload-and-serve-static-files"></a>Carregar e fornecer arquivos estáticos
 
@@ -34,7 +34,7 @@ Alguns conectores de terceiros exigem que um arquivo seja hospedado e fornecido 
 Para criar uma URL de site que retorna um arquivo estático no assistente de criação de sites do Commerce, siga estas etapas:
 
 1. Acesse a Biblioteca de Mídia do seu site e carregue o arquivo que deve ser fornecido por solicitações para a URL que você definirá. Se você já carregou o arquivo, pode ignorar essa etapa.
-1. Vá para **URLs** do seu site.
+1. Acesse **URLs** do seu site.
 1. Selecione **Novo \> Nova URL**.
 1. Na caixa de diálogo **Nova URL**, selecione **Ativo de biblioteca de mídia**.
 1. No campo **Caminho da URL**, insira o caminho da URL. Inclua o nome do arquivo no caminho.

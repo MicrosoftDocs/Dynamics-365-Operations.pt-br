@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: Version 10.0.7
-ms.openlocfilehash: 598145bccadbeb44d33adb96388f6af5a8a45f5d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9342ab8121b41aa98d93d80198296f721d6e080182e432ead0f84ac7b051fc06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352679"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717738"
 ---
 # <a name="clienteling-overview"></a>Visão geral de clientes
 
@@ -110,13 +110,13 @@ Siga estas etapas para configurar a integração.
     > [!IMPORTANT]
     > Execute as etapas para lembrar de mudar o segredo antes que ele expire. Do contrário, a integração será interrompida inesperadamente.
 
-2. Vá para a instância do Customer Insights e procure o nome do aplicativo criado acima (neste exemplo, "CI_Access_name").
+2. Acesse a instância do Customer Insights e procure o nome do aplicativo criado acima (neste exemplo, "CI_Access_name").
 3. Crie um Azure Key Vault e anote o nome e a URL (neste exemplo, "keyvaultname", "KeyVaultURL"). Para obter instruções, consulte [Início rápido: Definir e recuperar um segredo do Azure Key Vault usando o portal do Azure](/azure/key-vault/quick-create-portal).
 4. Salve o segredo (neste exemplo, "CI_Access_Secret") no cofre. Quando esse segredo é armazenado no cofre, o segredo recebe um nome. Observe o nome do segredo (neste exemplo, 'SecretName').
 5. Para acessar o segredo do Azure Key Vault, você precisará criar outro aplicativo com uma ID e um segredo do aplicativo (neste exemplo, "KeyVault_Access_AppID" e "KeyVault_Access_Secret"). Observe o segredo com segurança, pois ele não será exibido novamente.
-6. Em seguida, você precisará conceder permissões ao aplicativo para acessar o Key Vault do Commerce usando APIs. Vá para página de aplicativo no portal do Azure. Na seção **Gerenciar**, selecione **Permissões de API**. Adicione a permissão para acessar o **Azure Key Vault**. Para essa permissão, selecione **Política de acesso**. Selecione o modelo como **Gerenciamento secreto** e selecione as opções **Obter**, **Listar**, **Descriptografar** e **Criptografar**. 
-5. Na sede do Commerce, vá para **Administração do sistema \> Configuração \> Parâmetros do Key Vault** e insira as informações necessárias para o Key Vault. Em seguida, no campo **Cliente do Key Vault**, insira a ID do aplicativo usado na etapa 4 para que o Commerce possa acessar os segredos no Key Vault.
-6. Para adicionar o aplicativo criado na etapa 1 à lista de aplicativos seguros (também chamada de lista de confiança), vá para o Customer Insights e selecione **Exibir** ao aplicativo. Para obter instruções, consulte [Permissões](/dynamics365/ai/customer-insights/pm-permissions).
+6. Em seguida, você precisará conceder permissões ao aplicativo para acessar o Key Vault do Commerce usando APIs. Acesse página de aplicativo no portal do Azure. Na seção **Gerenciar**, selecione **Permissões de API**. Adicione a permissão para acessar o **Azure Key Vault**. Para essa permissão, selecione **Política de acesso**. Selecione o modelo como **Gerenciamento secreto** e selecione as opções **Obter**, **Listar**, **Descriptografar** e **Criptografar**. 
+5. Na sede do Commerce, Acesse **Administração do sistema \> Configuração \> Parâmetros do Key Vault** e insira as informações necessárias para o Key Vault. Em seguida, no campo **Cliente do Key Vault**, insira a ID do aplicativo usado na etapa 4 para que o Commerce possa acessar os segredos no Key Vault.
+6. Para adicionar o aplicativo criado na etapa 1 à lista de aplicativos seguros (também chamada de lista de confiança), Acesse o Customer Insights e selecione **Exibir** ao aplicativo. Para obter instruções, consulte [Permissões](/dynamics365/ai/customer-insights/pm-permissions).
 7. Na página **Administração do sistema > Configuração > Parâmetros de Key Vault** do Commerce HQ, atualize os campos como descrito a seguir: 
 
 - **URL do Key Vault**: "KeyVaultURL" (da etapa 3 acima).

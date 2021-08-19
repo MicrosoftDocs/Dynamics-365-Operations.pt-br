@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1de0afb5e21234e2f88edc4aa987510587fb940f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0199d040099c6780001a1abce126b722369e44c74028bac056b86df2badbcf14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712135"
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5813939"
 
 É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal. Nesse caso, a nota fiscal é emitida a partir da fatura de texto livre. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.
+1. Acesse Contas recebíveis > Faturas > Todas faturas de texto livre.
 2. Clique em Novo.
 3. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Conta de cliente, insira ou selecione um valor.
@@ -53,7 +53,7 @@ ms.locfileid: "5813939"
 25. Clique em OK.
 26. Feche a página.
 27. Feche a página.
-28. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+28. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 29. Clique em OK.
 
 

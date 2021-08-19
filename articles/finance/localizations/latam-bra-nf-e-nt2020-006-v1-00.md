@@ -2,7 +2,7 @@
 title: NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 description: Este tópico explica como marcar vendas digitais intermediárias para NF-e.
 author: gionoder
-ms.date: 03/12/2021
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2021-02-05
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: ed509fe35cff5b836e8da01bf80d910190b277ec
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5602ad3450bf17639922b664d16e27602f3b35411612ded14e37ab7aadaba8f4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019508"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715003"
 ---
 # <a name="nt2020006--intermediary-sales-digital-platform-for-nf-e"></a>NT 2020.006 – plataforma digital de vendas intermediárias para NF-e
 
@@ -44,19 +44,33 @@ Esse recurso oferece suporte a cenários em que uma plataforma ou um mercado dig
 
 A nota técnica NT 2020.006 apresentou novos códigos de rejeição de NF-e. Conclua as etapas a seguir para adicionar os códigos.
 
-1. Vá para **Administração da organização** \> **Organizações** \> **Documentos eletrônicos** \> **Parâmetros federais de NF-e**.
+1. Acesse **Administração da organização** \> **Organizações** \> **Documentos eletrônicos** \> **Parâmetros federais de NF-e**.
 2. Na guia **Códigos de rejeição**, selecione **Novo** para inserir os novos códigos de rejeição. Para a lista de novos códigos de rejeição, consulte a documentação da nota técnica NT2020.006 disponível no [Portal da NF-e](http://www.nfe.fazenda.gov.br/portal/principal.aspx).
 
-## <a name="sales-that-are-intermediated-by-the-taxpayers-own-sales-digital-platform"></a>Vendas que são intermediárias pela plataforma digital de vendas própria do contribuinte
+## <a name="scope-from-version-100-of-the-technical-note"></a>Escopo da versão 1.00 da Nota técnica
+
+### <a name="new-tag-ltindintermedgt"></a>Nova marca &lt;indintermed&gt;
 
 Quando uma plataforma digital que é de propriedade do contribuinte serve como o intermediário para uma venda, se o tipo de presença for definido como um dos valores a seguir no cabeçalho da ordem de venda criada para a venda, a marca **&lt;indintermed&gt;** será adicionada ao XML da NF-e. O valor é definido como **0** (zero).
 
-- Presencial
 - Internet
 - Teleatendimento
 - Diversos
 
 Se o tipo de presença for diferente dos listados, a marca **&lt;indintermed&gt;** não será colocada no XML.
+
+## <a name="scope-from-version-110-of-the-technical-note"></a>Escopo da versão 1.10 da Nota técnica
+
+- Atualização na regra de validação B25c-10: adicionada a opção "Em pessoa" para gerar a marca **&lt;indintermed&gt;**
+
+## <a name="scope-from-version-120-of-the-technical-note"></a>Escopo da versão 1.20 da Nota técnica
+
+- YA02: Adicionando opções à marca **&lt;tPag&gt;**
+- 2.2.1, B25c-10: reversão da opção "Em pessoa" para gerar a marca **&lt;indintermed&gt;**
+- YB01-10: Atualização das regras quando o nó **&lt;infIntermed&gt;** tiver que existir
+- YB01-20: Atualização das regras quando o nó **&lt;infIntermed&gt;** não tiver que existir
+- YA02a, YA02a-10, YA02a-20: nova marca **&lt;xPag&gt;** adicionada quando **&lt;tPag&gt;** = 99
+
 
 ## <a name="out-of-scope-for-the-feature"></a>Fora do escopo do recurso
 

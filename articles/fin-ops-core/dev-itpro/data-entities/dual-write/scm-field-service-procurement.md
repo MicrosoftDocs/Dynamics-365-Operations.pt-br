@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-11-11
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: c29efb885babea833e3c3fde0155e3722f8b77e9
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 4a2420981553957b6b234fe56747bc6f3568acf6b8ad77366c33caeae63b4faf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716750"
 ---
 # <a name="integrate-procurement-between-supply-chain-management-and-field-service"></a>Integrar as compras entre o Supply Chain Management e o Field Service
 
@@ -171,7 +171,7 @@ O Supply Chain Management inclui dados de compras que tratam de contratos comerc
 
 ## <a name="sync-the-procurement-data-from-supply-chain-management"></a>Sincronizar os dados de compras do Supply Chain Management
 
-1. No Dataverse, vá para **Estoque \> Ordem de Compra**.
+1. No Dataverse, Acesse **Estoque \> Ordem de Compra**.
 2. Selecione **Novo** para criar uma nova ordem de compra ou selecione a linha de uma ordem de compra existente.
 3. Da ordem de compra ou da linha da ordem de compra.
 4. No Painel de Ações, selecione **Sincronizar**.

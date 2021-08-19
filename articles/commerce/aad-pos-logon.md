@@ -13,12 +13,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: 63121a9b5f1b062b7ca927f6b9eb1689ce8aa698
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 14d8ac93241d05245ad989bcb3cb35aaf8969164d6cfc6010a8e9d426987a1ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270674"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716291"
 ---
 # <a name="configure-azure-active-directory-authentication-for-pos-sign-in"></a>Configurar autenticação do Azure Active Directory para entrada de PDV
 
@@ -32,7 +32,7 @@ Os varejistas que usam o Dynamics 365 Commerce junto com outros serviços em nuv
 
 Para configurar o método de autenticação do PDV no Commerce headquarters, siga estas etapas.
     
-1. Vá para **Varejo e Comércio \> Configuração do canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil de funcionalidade a ser alterado.
+1. Acesse **Varejo e Comércio \> Configuração do canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil de funcionalidade a ser alterado.
 1. Na seção **Logon da equipe de PDV** da FastTab **Funções**, selecione uma opção do método de autenticação desejado na lista suspensa **Método de autenticação de logon**.
 
     O **Método de autenticação de logon** tem três opções:
@@ -41,7 +41,7 @@ Para configurar o método de autenticação do PDV no Commerce headquarters, sig
     - **Azure AD sem o logon único** - essa opção exige que os usuários do PDV usem as credenciais do Azure AD para entrar no PDV e acessar a funcionalidade de substituição gerenciador. Quando o cliente de PDV for atualizado ou reaberto, o usuário de PDV deverá fornecer credenciais do Azure AD para entrar novamente.
     - **Azure AD com o logon único** - quando essa opção é selecionada, os usuários do PDV podem entrar no PDV em Nuvem (CPOs) usando credenciais ativas do Azure AD, que estão sendo usadas por outros aplicativos Web no mesmo navegador da Web, ou entrar no Modern PDV (MPOs) usando credenciais do Azure AD registradas no Windows. Os dois métodos permitem entrada sem a necessidade de inserir credenciais do Azure AD na tela de entrada do PDV. No entanto, o acesso à funcionalidade de substituição do gerenciador PDV ainda exigirá entrada usando credenciais do Azure AD.
 
-1. Vá para **Varejo e Comércio > TI de Varejo e Comércio> Agenda de distribuição** e execute o trabalho **1070 (Configuração do canal)** para sincronizar as configurações de perfil de funcionalidade mais recente para clientes de PDV.
+1. Acesse **Varejo e Comércio > TI de Varejo e Comércio> Agenda de distribuição** e execute o trabalho **1070 (Configuração do canal)** para sincronizar as configurações de perfil de funcionalidade mais recente para clientes de PDV.
 
 > [!NOTE]
 > - A opção do método de autenticação **Azure AD sem logon único** substitui a opção **Azure Active Directory** na versão 10.0.18 e anterior do Commerce.
@@ -53,7 +53,7 @@ Para usar o Azure AD como o método de autenticação de PDV, você deve associa
 
 Para associar contas do Azure AD a usuários do PDV no Commerce Headquarters, siga estas etapas.
     
-1. Vá para **Varejo e Comércio > Funcionários > Trabalhadores** e abra um registro de trabalhador.
+1. Acesse **Varejo e Comércio > Funcionários > Trabalhadores** e abra um registro de trabalhador.
 1. No Painel de Ações, selecione a guia **Commerce**, em **Identidade externa**, selecione **Associar identidade existente**. 
 1. Na caixa de diálogo **Usar identidade externa existente**, selecione **Pesquisar usando email**, insira um endereço de email do Azure AD e depois selecione **Pesquisar**.
 1. Selecione a conta do Azure AD retornada, em seguida, selecione **OK**.

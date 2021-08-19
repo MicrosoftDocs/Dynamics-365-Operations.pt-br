@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2021-1-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 003eaa3f9e5ad653daed2e973044f384972b0331
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 657bd2aa32179941e4103fea31f813688ad478ac6e9902212c976a92620b2e67
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638479"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717488"
 ---
 # <a name="propose-a-lease-for-termination"></a>Propor a rescisão de um arrendamento
 
@@ -58,7 +58,7 @@ Para obter informações sobre a forma correta de descartar um ativo DDU, consul
 
 ## <a name="propose-a-lease-for-termination"></a>Propor a rescisão de um arrendamento
 
-1. Vá para o arrendamento que deve ser encerrado e, no Painel de Ações, selecione **Proposta de rescisão**.
+1. Acesse o arrendamento que deve ser encerrado e, no Painel de Ações, selecione **Proposta de rescisão**.
 
     > [!NOTE]
     > O botão **Proposta de rescisão** não estará disponível se houver entradas de diário não lançadas em um registro. Antes de rescindir o arrendamento, você deve lançar ou excluir todas as entradas de diário que foram criadas no arrendamento.
@@ -121,13 +121,13 @@ As tabelas a seguir mostram os valores definidos nas guias **Geral** e **Linhas 
 
 ### <a name="steps-for-terminating-the-lease"></a>Etapas para rescindir o arrendamento
 
-1. Depois de criar o arrendamento conforme descrito anteriormente neste tópico, vá para o registro de arrendamento e confirme a agenda de pagamento. Em seguida, lance a entrada do diário de reconhecimento inicial. O ativo DDU inicial é de US$ 71.235,81 e a responsabilidade com arrendamento deve ser de US$ 70.235,81. Para este exemplo, o arrendamento foi classificado como um arrendamento operacional sob o ASC 842 (Tópico 842 da Codificação de Padrões Contábeis).
+1. Depois de criar o arrendamento conforme descrito anteriormente neste tópico, Acesse o registro de arrendamento e confirme a agenda de pagamento. Em seguida, lance a entrada do diário de reconhecimento inicial. O ativo DDU inicial é de US$ 71.235,81 e a responsabilidade com arrendamento deve ser de US$ 70.235,81. Para este exemplo, o arrendamento foi classificado como um arrendamento operacional sob o ASC 842 (Tópico 842 da Codificação de Padrões Contábeis).
 2. Execute o processo de diário de lotes três vezes para simular a passagem de três anos para pagamentos de arrendamento, despesas de juros e despesas de depreciação.
 3. Ao concluir a execução de todos os três trabalhos em lote, volte para o registro de arrendamento e abra as tabelas de transações Responsabilidade e Ativo para exibir o valor atual de carregamento do ativo DDU e a responsabilidade com arrendamento. Depois de três anos, o valor da obrigação deve ser de aproximadamente US$ -53.893,00 e o valor do ativo deve ser de aproximadamente US$ 54.593,00.
 
     Passados os três anos, a empresa e o arrendador acordam mutuamente em rescindir o arrendamento. Portanto, o arrendamento deve ser rescindido agora.
 
-4. Vá para o arrendamento que deve ser encerrado e, no Painel de Ações, selecione **Proposta de rescisão**. 
+4. Acesse o arrendamento que deve ser encerrado e, no Painel de Ações, selecione **Proposta de rescisão**. 
 5. Na caixa de diálogo exibida, no campo **Data de efetivação** e **Data de lançamento**, insira **1/1/2021**.
 6. Selecione **Proposta de rescisão** para propor a rescisão de um arrendamento.
 

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 79054573fa6f86bea5c4fe014233d71c01020348
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3cf29bd423a2475b77e9076024b4da6864a31065da81de49f1b9a0f639243f1d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713983"
 ---
 # <a name="configure-a-channel-to-use-a-channel-navigation-hierarchy"></a>Configurar um canal para usar uma hierarquia de navegação de canal
 
@@ -36,7 +36,7 @@ As hierarquias de navegação de canal organizam os produtos em categorias para 
 
 Para configurar um canal para usar uma hierarquia de navegação de canal, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
 1. Selecione o canal a configurar.
 1. No painel de ação, selecione **Definir metadados de atributo**.
 1. Na lista suspensa **Hierarquia de categoria**, selecione a hierarquia de navegação de canal apropriada.

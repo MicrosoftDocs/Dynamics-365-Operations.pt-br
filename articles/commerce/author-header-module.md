@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: e99b50bd563af885c40713f60a0cbbb21d15e0c4
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: afdc12230ebad3d5db59c384b2f1066d2c7929339f282ed4880ff967b1fd2d8b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638234"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712781"
 ---
 # <a name="header-module"></a>Módulo de cabeçalho
 
@@ -73,7 +73,7 @@ No tema Adventure Works, o módulo de cabeçalho oferece suporte à propriedade 
 
 Para criar um fragmento de cabeçalho, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Contêiner**, insira um nome para o fragmento e, em seguida, selecione **OK**.
 1. Selecione o slot **Contêiner padrão** e, no painel de propriedades à direita, defina a propriedade **Largura** como **Preencher Tela**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.

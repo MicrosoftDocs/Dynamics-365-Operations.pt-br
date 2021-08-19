@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e28e717dcf594c5079b4b6987331115356b6bdbc
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 98d218a2d4f3b31084adfbc013dd0999f459dc1572e29a6470edc7cb899809c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713357"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>Criar canal online e definir atributos do canal
 
@@ -29,7 +29,7 @@ Este procedimento orienta na criação de um novo canal online e sua adição à
 
 
 ## <a name="create-a-new-online-channel"></a>Criar um novo canal online
-1. Vá para Varejo e Comércio > Canais > Lojas online.
+1. Acesse Varejo e Comércio > Canais > Lojas online.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Depósito, insira ou selecione um valor.
@@ -46,7 +46,7 @@ Este procedimento orienta na criação de um novo canal online e sua adição à
 
 ## <a name="add-the-online-channel-to-organization-hierarchy"></a>Adicionar o canal online à hierarquia da organização
 1. Feche a página.
-2. Vá para Administração da organização > Organizações > Hierarquias da organização.
+2. Acesse Administração da organização > Organizações > Hierarquias da organização.
 3. Na lista, localize e selecione o PDV desejado.
 4. Clique em Exibir.
 5. Clique em Editar.
@@ -59,7 +59,7 @@ Este procedimento orienta na criação de um novo canal online e sua adição à
 11. Clique em Publicar.
 
 ## <a name="configure-orders-for-near-real-time-notification"></a>Configurar ordens para notificação quase em tempo real
-1. Vá para Varejo e Comércio > Configuração da sede > Parâmetros > Parâmetros de comércio.
+1. Acesse Varejo e Comércio > Configuração da sede > Parâmetros > Parâmetros de comércio.
 2. Definir Usar serviço em tempo real para criação de ordens de comércio eletrônico como "Sim".
 3. Execute a agenda de distribuição 1070 para sincronizar alterações no banco de dados do canal. 
 

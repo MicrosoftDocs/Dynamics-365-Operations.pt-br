@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 04ffa8e56b72727c079db07f38bfae675ae2abb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c3fce73b1827de12bc8d40e1abb43ad000b8aa1c38812221dfae95010513ede1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712396"
 ---
 # <a name="search-results-module"></a>Módulo de resultados de pesquisa
 
@@ -67,7 +67,7 @@ O módulo de resultados de pesquisa oferece suporte ao [módulo de exibição r�
 
 Para adicionar um módulo de resultados de pesquisa a uma página de categoria, siga estas etapas.
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo modelo**, digite o nome **Resultados de pesquisa** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (...) e, depois, **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
@@ -80,7 +80,7 @@ Para adicionar um módulo de resultados de pesquisa a uma página de categoria, 
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Resultados de pesquisa** e, depois, **OK**.
 1. No painel **Propriedades de resultados da pesquisa**, digite o valor **1** para **Mínimo ocorrer** e, em seguida, defina outras propriedades necessárias para o módulo de resultados da pesquisa. Ao definir essas propriedades no modelo, você garante que todas as personalizações em uma página de categoria específica incluam automaticamente essas configurações.
 1. Selecione **Concluir edição** e depois selecione **Publicar** para publicar o modelo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Resultados de pesquisa** que você criou, digite **Página da categoria** para **Nome da página** e selecione **OK**. Como todos os valores são definidos no modelo, a página está pronta para ser publicada.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 

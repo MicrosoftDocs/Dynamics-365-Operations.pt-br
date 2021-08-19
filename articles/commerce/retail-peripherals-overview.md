@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: df7cb4810b83d74725df3d59b7b08da1e8cf4a53
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715325"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -126,12 +126,12 @@ Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o 
 > [!NOTE]
 > O suporte do OPOS não garante suporte para todos os dispositivos com drivers OPOS. O Commerce deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
 
-### <a name="windows&quot;></a>Windows
+### <a name="windows"></a>Windows
 
 A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito mais rápido que a impressão com Windows. Portanto, é recomendável usar o OPOS, especialmente em ambientes onde recibos de 40 colunas são impressos e os tempos de transação devem ser curtos. Para a maioria de dispositivos, você usará controles OPOS. Entretanto, algumas impressoras de recibo OPOS também oferece suporte a drivers do Windows. Usando um driver do Windows, você pode acessar as fontes mais recentes e vincular uma impressora para várias registradoras. Contudo, há inconvenientes em usar os drivers do Windows. Veja aqui alguns exemplos desses inconvenientes:
 
 -   Quando os drivers do Windows são usados, imagens são renderizadas antes que a impressão ocorra. Portanto, a impressão tende a ser mais lenta do que em impressoras que utilizam controles OPOS.
--   Os dispositivos conectados através da impressora (&quot;encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
+-   Os dispositivos conectados através da impressora ("encadeado") podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
 -   O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo, como corte de papéis ou impressão de guias.
 -   As impressoras do Windows não oferecem suporte por meio da estação de hardware IIS. 
 
@@ -793,7 +793,7 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 **Solução:** Verifique a lista a seguir com os possíveis pontos de falha:
 
 -   O computador que esta executando o PDV moderno confia no certificado usado no computador que executa a estação de hardware.
-    -   Para verificar essa configuração, em um navegador de Web, vá para o seguinte URL: https://&lt;Nome do Computador&gt;:&lt;Número da Porta&gt;/HardwareStation/ping.
+    -   Para verificar essa configuração, em um navegador de Web, Acesse o seguinte URL: https://&lt;Nome do Computador&gt;:&lt;Número da Porta&gt;/HardwareStation/ping.
     -   Este URL usa um ping para verificar se o computador pode ser acessado, o navegador e indica se o certificado é confiável. (Por exemplo, no Internet Explorer, um ícone de bloqueio é exibido na barra de endereços. Quando você clica nesse ícone, o Internet Explorer verifica se o certificado é confiável atualmente. Você pode instalar o certificado no computador local exibindo os detalhes do certificado que será exibido.)
 -   No computador que executa a estação de hardware, a porta que será usada pela estação de hardware é aberta no firewall.
 -   A estação de hardware instalou corretamente as informações de conta mercante através da ferramenta de instalação de informações de mercante que é executada no final do instalador de estação de hardware.

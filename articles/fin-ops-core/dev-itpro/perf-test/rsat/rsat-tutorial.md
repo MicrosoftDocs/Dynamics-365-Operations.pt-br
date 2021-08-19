@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: d932a0c10df72dbadcc65d7ef78eb8ad05645bd5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d70b2e7cf497fbf165a452f7977a14a98b9e1956e5a964d42c7bf8a6c3abe0bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357509"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714540"
 ---
 # <a name="regression-suite-automation-tool-tutorial"></a>Tutorial sobre a Regression Suite Automation Tool
 
@@ -39,7 +39,7 @@ O exemplo a seguir mostra como é possível usar este recurso para validar se o 
 
 1. Nos dados de demonstração da empresa **USMF**, crie uma gravação de tarefas que tenha as seguintes etapas:
 
-    1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+    1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
     2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre um valor de **1000** para o campo **Número do item**.
     3. Selecione **Estoque disponível**.
     4. Use o Filtro Rápido para localizar registros. Por exemplo, filtro em um valor **1** para o campo **Local**.
@@ -48,8 +48,8 @@ O exemplo a seguir mostra como é possível usar este recurso para validar se o 
 
 2. Salve a gravação de tarefas como uma **gravação do desenvolvedor** e anexe-a ao caso de teste no Azure DevOps.
 3. Adicione o caso de teste ao plano de teste e carregue o caso de teste no RSAT.
-4. Abra o arquivo de parâmetros do Excel e vá para a guia **TestCaseSteps**.
-5. Para validar se o estoque disponível sempre será maior do que **0**, vá para a etapa **Validar total disponível** e altere seu valor de **411** para **0**. Altere o valor do campo **Operador** de um sinal de igualdade (**=**) para um sinal de maior que (**\>**).
+4. Abra o arquivo de parâmetros do Excel e Acesse a guia **TestCaseSteps**.
+5. Para validar se o estoque disponível sempre será maior do que **0**, Acesse a etapa **Validar total disponível** e altere seu valor de **411** para **0**. Altere o valor do campo **Operador** de um sinal de igualdade (**=**) para um sinal de maior que (**\>**).
 6. Salve e feche o arquivo de parâmetro do Excel.
 7. Selecione **Carregar** para salvar as alterações feitas no arquivo de parâmetros do Excel para o Azure DevOps.
 

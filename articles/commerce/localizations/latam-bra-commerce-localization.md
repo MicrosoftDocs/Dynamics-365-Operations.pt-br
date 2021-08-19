@@ -1,7 +1,7 @@
 ---
 title: Localização do Commerce para o Brasil
 description: Este tópico fornece uma visão geral da localização do Microsoft Dynamics 365 Commerce para o Brasil.
-author: v-ankvik
+author: akviklis
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ audience: Application User
 ms.reviewer: v-chgri
 ms.search.region: Brazil
 ms.search.industry: Retail
-ms.author: v-ankvik
+ms.author: akviklis
 ms.search.validFrom: 2020-8-03
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 02b5f06f93fb1dc19a9a203cfc3b51d14086da05
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: b85f66b8b85f741b12bf162cc35f87f13aadfa270adb9f070c01e4f83c014737
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303400"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712419"
 ---
 # <a name="commerce-localization-for-brazil"></a>Localização do Commerce para o Brasil
 
@@ -134,9 +134,9 @@ Os seguintes recursos de POS específicos ao Brasil são habilitados após a loc
 
 [Gerenciar informações do cliente no PDV para o Brasil](latam-bra-customer-information.md)
 
-[Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
+[Cancelamento e devolução de notas NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
 
-[Registro adiado de documentos NFC-e emitidos no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
+[Registro adiado de notas NFC-e emitidas no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
 
 [Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce](latam-bra-retail-statements.md)
 

@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: d562f97ecc3c442be4231470167a0aae86f84fe5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 043a630408d6b03e528f0afd5443de73ad5f3802c968b9d9bd7a5c51bfe1fb03
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345151"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716380"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>Pesquisa de produto e de cliente no ponto de venda (PDV)
 
@@ -123,10 +123,10 @@ A demonstração pública do recurso de pesquisa do cliente usando o serviço de
 
 Para habilitar o recurso de recurso de pesquisa habilitada para a nuvem na matriz do Commerce, siga estas etapas.
 
-1. Vá para **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
+1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 1. Localize e selecione o recurso **Pesquisa do cliente habilitada para a nuvem (visualização)** e, em seguida, selecione **Habilitar agora**.
-1. Vá para **Varejo e Comércio > Configuração da matriz > Agendador do Commerce > Inicializar agendador do Commerce** e selecione **OK** para exibir a nova tarefa **1010_CustomerSearch** no formulário **Agenda de distribuição**.
-1. Vá para **Varejo e Comércio > TI de Varejo e Comércio > Agenda de distribuição**.
+1. Acesse **Varejo e Comércio > Configuração da matriz > Agendador do Commerce > Inicializar agendador do Commerce** e selecione **OK** para exibir a nova tarefa **1010_CustomerSearch** no formulário **Agenda de distribuição**.
+1. Acesse **Varejo e Comércio > TI de Varejo e Comércio > Agenda de distribuição**.
 1. Execute o trabalho **1010_CustomerSearch**. Este trabalho publica a data para o índice de pesquisa do Azure. Quando a publicação do índice for concluída, o status do trabalho será definido como **Aplicado**.
 1. Depois que o status do trabalho **1010_CustomerSearch** for definido como **Aplicado**, execute o trabalho **1110 - Configuração global** para atualizar os canais de PDV do recurso mais recente habilitado no **Gerenciamento de recursos**.
 1. Em seguida, execute o trabalho **1010_CustomerSearch** em intervalos regulares para enviar as atualizações do cliente para o índice de pesquisa.

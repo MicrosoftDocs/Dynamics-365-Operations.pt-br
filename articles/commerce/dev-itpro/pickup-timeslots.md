@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.15 update
-ms.openlocfilehash: e2369b17244525023541cdbd0a0da3f2a2a09b30
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a9ee1356bfcaeee881c28cf0361b34b2c65acbc7a3b57347fa2581a8a935da42
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355442"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713412"
 ---
 # <a name="create-and-update-time-slots-for-customer-pickup"></a>Criar e atualizar os intervalos de tempo para retirada pelo cliente
 
@@ -74,7 +74,7 @@ Os intervalos de tempo devem ser definidos para cada modo de entrega de retirada
 
 Para configurar o recurso de intervalos de tempo na sede do Commerce, siga estas etapas.
 
-1. Vá para **Commerce** \> **Configuração de canal** \> **Intervalo de tempo para retirada na loja**.
+1. Acesse **Commerce** \> **Configuração de canal** \> **Intervalo de tempo para retirada na loja**.
 1. Selecione **Novo** para criar um novo modelo de intervalo de tempo. Para usar um modelo existente, selecione o modelo no painel esquerdo.
 1. Insira os valores nos campos **ID do Intervalo de Tempo** e **Descrição**.
 1. Na FastTab **Retirada de Ordens - Configurações de Tempo**, selecione **Adicionar**.

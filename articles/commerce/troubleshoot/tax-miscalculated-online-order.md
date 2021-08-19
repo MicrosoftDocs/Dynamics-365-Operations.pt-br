@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f7cef533d76bdddfbad2e8c5f84f81ef62bccc38
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e51ae789dad2c7b5118be2cf8a88f4e4090a8c74c8259b4eaaddad1a134af80a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021094"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715251"
 ---
 # <a name="taxes-on-online-orders-are-incorrectly-calculated"></a>Os impostos sobre ordens online são calculados incorretamente
 
@@ -38,7 +38,7 @@ Quando uma ordem de comércio eletrônico é realizada, os impostos são calcula
 
 Para configurar o imposto de uma loja de varejo na matriz do Commerce, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Canais \> Todas as lojas**.
+1. Acesse **Varejo e Comércio \> Canais \> Todas as lojas**.
 1. Selecione a loja para configurar o imposto.
 1. Na guia rápida **Geral**, na seção **Imposto**, configure as informações sobre o imposto para a loja.
 
@@ -62,7 +62,7 @@ Para configurar o imposto de um endereço do cliente na matriz do Commerce, siga
 
 Para configurar grupos de impostos gerais na matriz do Commerce, siga estas etapas:
 
-1. Vá para **Imposto \> Impostos indiretos \> Imposto \> Grupo de impostos**.
+1. Acesse **Imposto \> Impostos indiretos \> Imposto \> Grupo de impostos**.
 1. Na navegação à esquerda, selecione o grupo de impostos a ser configurado.
 1. Na guia rápida **Imposto baseado no destino de varejo**, configure os impostos para o grupo de impostos.
 
