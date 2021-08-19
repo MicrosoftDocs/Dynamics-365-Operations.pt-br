@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 88e38989e3d3e46d0c43779659bc6ea2e29f08e2
-ms.sourcegitcommit: 8e846b52763f90d2232ec7d427839f4722570bce
+ms.openlocfilehash: d831c6fe4c28674a1a8419459f15c2879c29c8d5d81f87d22b34c67771eaac7b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6292728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734982"
 ---
 # <a name="containerization"></a>Transporte em contêineres
 
@@ -50,7 +50,7 @@ Use tipos de contêiner para criar as descrições de contêineres, incluindo va
 
 Para configurar um tipo de contêiner, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Tipo de contêiner**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Tipo de contêiner**.
 1. Selecione **Novo** para criar um novo tipo de contêiner.
 1. Insira um identificador exclusivo (ID) e uma descrição para o tipo de contêiner.
 1. No campo **Peso da tara**, insira o peso real ou previsto do contêiner.
@@ -68,7 +68,7 @@ Você pode configurar grupos lógicos de tipos de contêiner. Para cada grupo, v
 
 Para configurar um grupo de contêineres, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Grupos de contêineres**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Grupos de contêineres**.
 1. Selecione **Novo** para criar um grupo de contêineres.
 1. Insira uma ID exclusiva e uma descrição para o grupo de contêineres.
 1. Na Guia Rápida **Detalhes**, selecione **Novo** para adicionar um tipo de contêiner ao grupo.
@@ -81,7 +81,7 @@ Você pode configurar regras para o processo de transporte em contêineres, como
 
 Para configurar um modelo de criação de contêiner, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Modelo de criação de contêiner**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Modelo de criação de contêiner**.
 1. Crie um novo modelo de criação de contêiner.
 1. Nos campos **Nome do transporte em contêineres** e **Número de sequência**, insira o nome do modelo de transporte em contêineres e a ordem que corresponde às linhas de alocação.
 

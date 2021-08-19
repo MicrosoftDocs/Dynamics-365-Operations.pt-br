@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 69f6b0c6dab5dd5a9e15e2b7ec2a6301d13ab810
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cfbe254d225366f89779ffeef410bb0b1a29056e51a4719106e9bc495b898161
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721046"
 ---
 # <a name="carousel-module"></a>Módulo do carrossel
 
@@ -56,7 +56,7 @@ A imagem a seguir mostra um exemplo de um módulo de carrossel que é usado em u
 
 Para adicionar um módulo de carrossel a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo de carrossel** e selecione **OK**.
 1. No slot **Corpo**, adicione um módulo **Página padrão**.
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.  

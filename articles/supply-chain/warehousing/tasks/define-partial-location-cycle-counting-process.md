@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fcda301934c6ccc06f17ed8ae13c52754336d2ce
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2d3362aed9627d30f8c117e303e1124fa1dd2069e8629e55325c6ff21fe51c01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830897"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722094"
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>Definir processo de contagem cíclica de localização parcial  
 
@@ -28,7 +28,7 @@ Quando você usa planos de contagem cíclica para criar trabalhos de contagem, v
 
 
 ## <a name="create-a-cycle-counting-work-template"></a>Criar um modelo de trabalho de contagem cíclica
-1. Vá para Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho.
+1. Acesse Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho.
 2. No campo Tipo de ordem de trabalho, selecione "Contagem cíclica".
 3. Clique em Novo.
 4. No campo de número de sequência, insira um número.
@@ -53,7 +53,7 @@ Quando você usa planos de contagem cíclica para criar trabalhos de contagem, v
 21. Feche a página.
 
 ## <a name="create-a-cycle-counting-plan"></a>Criar um plano de contagem cíclica
-1. Vá para Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica.
+1. Acesse Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica.
 2. Clique em Novo.
 3. No campo ID do plano de contagem cíclica, digite um valor.
 4. No campo Descrição, digite um valor.

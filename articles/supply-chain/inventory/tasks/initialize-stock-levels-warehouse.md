@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0746b799c701c569f0ae5c657ac3302ab6626287
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6a49a217b2da36c39f82ecb5ec8100e3222108b1e20bfb1640f83c9fe2123f1e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823472"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721352"
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Inicializar níveis de estoque no depósito
 
@@ -27,7 +27,7 @@ ms.locfileid: "5823472"
 
 Esse procedimento mostra como obter o estoque disponível atualizado manualmente usando um diário de movimentação de estoque. (Também é possível atualizar o estoque disponível importando transações em entidades de dados.) Você pode executar esse guia na empresa de dados de demonstração USMF na qual estão disponíveis todos os pré-requisitos, como nome do diário, configuração do item, perfis de lançamento e contas. Esse guia sugere valores específicos para o item e as dimensões que são usados. Se selecionar um item diferente, você talvez precise inserir valores para diferentes dimensões.
 
-1. Vá para Gerenciamento de estoque > Entradas de diário > Itens > Movimento.
+1. Acesse Gerenciamento de estoque > Entradas de diário > Itens > Movimento.
 2. Clique em Novo.
 3. No campo Nome, clique no botão suspenso para abrir a pesquisa.
 4. Selecione IMov.

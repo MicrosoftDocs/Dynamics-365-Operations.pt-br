@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d8dc9e19ecd6b835569ba80563bce33134895cb
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 78cccabb206d938b850e70b7e8057e20cc6158e1d154fc4876de7918dbe44d87
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791646"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730650"
 ---
 # <a name="create-call-center-orders"></a>Criar ordens de call center
 
@@ -27,7 +27,7 @@ ms.locfileid: "5791646"
 
 Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesquisar por um produto e coletar os pagamentos do cliente. Este procedimento usa a empresa de dados de demonstração USRT e destina-se ao funcionário de ordens de venda. Pré-requisitos: O usuário que conclui o procedimento é configurado como usuário do call center e o catálogo semestral da Fabrikam é publicado com pelo menos um código fonte nele.
 
-1. Vá para **Retail e Commerce \> Clientes \> Customer service**.
+1. Acesse **Retail e Commerce \> Clientes \> Customer service**.
 2. Para **Texto da Pesquisa**, insira os critérios de pesquisa para pesquisar o cliente.
     * Para este procedimento de exemplo, insira "Karen" e selecione **Tab**.  
 3. Selecione Pesquisar.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: de378edbd7d13626302c7129c605b1837ffb579e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ff9e5665ffd82982e09f63e34b30ae6937666231855587ad2f27c5231ead8419
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349593"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720950"
 ---
 # <a name="create-a-default-customer"></a>Criar um cliente padrão
 
@@ -35,7 +35,7 @@ Se ainda não existe nenhum grupo de clientes, você pode criar um. Exemplos pod
 
 Para criar um grupo de clientes, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Clientes \> Grupos de clientes**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Clientes \> Grupos de clientes**.
 1. No painel de ação, selecione **Novo**.
 1. Na caixa **Grupo de clientes**, insira uma ID de grupo de clientes.
 1. Na caixa **Descrição**, insira uma descrição apropriada.
@@ -55,7 +55,7 @@ Um cliente precisa estar associado a um catálogo de endereços. Caso um catálo
 
 Para criar um catálogo de endereços do cliente, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Catálogos de Endereços**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Catálogos de Endereços**.
 1. No painel de ação, selecione **Novo**.
 1. Na caixa **Nome**, insira um nome.
 1. Na caixa **Descrição**, insira uma descrição.
@@ -69,7 +69,7 @@ A imagem a seguir mostra um exemplo de catálogo de endereços.
 
 Para criar um cliente padrão, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Clientes \> Todos os clientes**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Clientes \> Todos os clientes**.
 1. No painel de ação, selecione **Novo**.
 1. Na lista suspensa **Tipo**, selecione &quot;Pessoa&quot;.
 1. Na lista suspensa **Conta de cliente**, selecione ou insira um número de conta (por exemplo, &quot;100001").

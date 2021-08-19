@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-03
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 24e41e35b3e810c509a16b91fffd1e796ab9d134
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1198bc12830afa2ae2c5eb8e77413a9d8ef70c625823f676ab1965ff250c2443
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730377"
 ---
 # <a name="troubleshoot-inventory-operations"></a>Solucionar problemas de operações de estoque
 
@@ -37,7 +37,7 @@ Esse problema pode ocorrer por três motivos, conforme descrito nas subseções 
 
 Se o problema se aplica a todos os usuários, ele pode estar ocorrendo porque o fluxo de trabalho de aprovação não foi atribuído ao nome de diário. Para corrigir o problema, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque &gt; Configuração &gt; Nomes de diário &gt; Estoque**.
+1. Acesse **Gerenciamento de estoque &gt; Configuração &gt; Nomes de diário &gt; Estoque**.
 1. No painel de lista, selecione um nome de diário para abrir suas configurações.
 1. Na FastTab **Geral**, defina a opção **Fluxo de trabalho de aprovação** como *Sim*. Se você for solicitado a confirmar a alteração, selecione **Sim**.
 1. No campo **Fluxo de trabalho**, selecione o fluxo de trabalho que você deseja usar para o nome de diário selecionado.
@@ -85,7 +85,7 @@ Após o envio de um fluxo de trabalho de aprovação de diário, o processamento
 
 Há vários motivos pelos quais o processamento do fluxo de trabalho pode não ser concluído. Verifique se há os seguintes problemas:
 
-- Vá para **Gerenciamento de estoque &gt; Configuração &gt; Fluxos de trabalho de gerenciamento de estoque** e revise a configuração do fluxo de trabalho afetado. Para obter mais informações, consulte [Fluxos de trabalho de aprovação de diário de estoque](inventory-journal-workflow.md).
+- Acesse **Gerenciamento de estoque &gt; Configuração &gt; Fluxos de trabalho de gerenciamento de estoque** e revise a configuração do fluxo de trabalho afetado. Para obter mais informações, consulte [Fluxos de trabalho de aprovação de diário de estoque](inventory-journal-workflow.md).
 - O fluxo de trabalho pode estar encontrando uma exceção ou um erro. Analise o histórico do item de trabalho do fluxo de trabalho afetado para ver se ele inclui um erro de aplicativo que encerra o fluxo de trabalho.
 - O diário de estoque pode ser atualizado ou editado somente se for aprovado. Se o cancelamento estiver ativo, você poderá tentar cancelar o diário. A execução do trabalho em lotes do fluxo de trabalho pode ser suspensa por vários motivos. Alguns desses motivos podem ser causados pelo problema de estrutura do fluxo de trabalho.
 
@@ -103,7 +103,7 @@ Na versão atual, as condições de fluxo de trabalho de estoque se aplicam apen
 
 ### <a name="issue-description"></a>Descrição do problema
 
-Os filtros no painel de filtros na página **Lista disponível** não filtram os resultados conforme o esperado.
+Os filtros no painel de filtros na página **Lista disponível**  não filtram os resultados conforme o esperado.
 
 ### <a name="issue-resolution"></a>Resolução do problema
 

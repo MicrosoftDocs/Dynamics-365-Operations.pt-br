@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ad0f8e2fa6b3767c6b5d5549a36d52990f871531
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2da0421bdb1496d51c807e51a26a980238886a42dfec167dac95611cc3df97bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808837"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730025"
 ---
 # <a name="cluster-position-full"></a>Posição de cluster completa
 
@@ -49,7 +49,7 @@ Você também pode usar o cenário de exemplo como orientação para trabalhar c
 
 Você deve especificar se as IDs de cluster são geradas automaticamente, quantas posições são usadas, quando os clusters são divididos e como o trabalho de separação é sequenciado e verificado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
 1. No painel de lista, selecione o registro **Criar Cluster**.
 1. Na FastTab **Geral**, verifique os valores a seguir:
 
@@ -66,7 +66,7 @@ Você deve especificar se as IDs de cluster são geradas automaticamente, quanta
 
 Você deve definir como o trabalho de separação para a separação de cluster é criado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Na parte superior da página, defina o campo **Tipo de ordem de serviço** como *Ordens de venda*.
 1. Verifique se os seguintes modelos de trabalho dos dados de demonstração estão listados. Se eles não estiverem disponíveis, não será possível concluir o cenário.
 
@@ -77,7 +77,7 @@ Você deve definir como o trabalho de separação para a separação de cluster 
 
 Você deve especificar de onde os itens são separados e onde eles são colocados.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No cabeçalho da lista, defina o campo **Tipo de ordem de serviço** como *Ordens de venda*.
 1. Verifique se as seguintes diretivas de ordens de venda dos dados de demonstração estão listadas. Se eles não estiverem disponíveis, não será possível concluir o cenário.
 
@@ -88,7 +88,7 @@ Você deve especificar de onde os itens são separados e onde eles são colocado
 
 Você deve configurar um item de menu do dispositivo móvel para usar o trabalho existente que é direcionado pela separação de cluster. No item de menu do dispositivo móvel para separação de cluster, o parâmetro **Permitir divisão de trabalho** deve ser ativado e a classe de trabalho *Separação de OV* deve ser adicionada.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No painel de lista, selecione o registro **Criar Separação de Cluster**.
 1. Selecione **Editar** no Painel de Ações.
 1. Na FastTab **Geral**, defina os seguintes valores:
@@ -112,7 +112,7 @@ Você deve configurar um item de menu do dispositivo móvel para usar o trabalho
         - **ID da classe de trabalho:** *Separação de OV*
         - **Tipo de ordem de serviço:** *Ordens de venda*
 
-1. Vá para **Configuração de confirmação de trabalho** no Painel de Ações.
+1. Acesse **Configuração de confirmação de trabalho** no Painel de Ações.
 1. Selecione **Editar**.
 1. Insira os seguintes valores na linha da grade.
     - **Tipo de trabalho** - *Separar*
@@ -126,7 +126,7 @@ Antes de iniciar a separação de cluster, você deve criar um trabalho de saíd
 
 ### <a name="create-sales-order-1"></a>Criar ordem de venda 1
 
-1. Vá para **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar a ordem de venda 1.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -159,7 +159,7 @@ Antes de iniciar a separação de cluster, você deve criar um trabalho de saíd
 
 ### <a name="create-sales-order-2"></a>Criar ordem de venda 2
 
-1. Vá para **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e Marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar a ordem de venda 2.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -194,10 +194,10 @@ Antes de iniciar a separação de cluster, você deve criar um trabalho de saíd
 
 Duas IDs de trabalho devem ter sido criadas, cada uma com duas linhas de separação. Siga estas etapas para localizar as IDs de trabalho e as atribuições das placas de licença.
 
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Na grade **Visão geral**, procure na coluna **Número da ordem** as duas ordens de venda recém-criadas. Para cada ordem de venda, anote a ID de trabalho correspondente.
 1. Selecione a linha de cada ordem de venda para mostrar as informações relacionadas na grade **Linhas**. Anote o local de onde cada item será separado.
-1. Vá para **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível**.
+1. Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível**.
 1. No Painel de Ações, selecione **Dimensões** para abrir a caixa de diálogo **Exibição de dimensão**.
 1. Verifique se as caixas de seleção **Placa de licença**, **Depósito** e **Número do item** estão marcadas e, em seguida, selecione **OK**.
 1. No painel **Filtro**, defina os seguintes filtros:
@@ -212,7 +212,7 @@ Duas IDs de trabalho devem ter sido criadas, cada uma com duas linhas de separa�
 ### <a name="mobile-device-flow-execution--work-confirmation-setup-for-the-product"></a>Execução do fluxo do dispositivo móvel – Configuração de confirmação de trabalho para o produto
 
 1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário no depósito *61*.
-1. Vá para **Saída \> Criar separação de cluster**.
+1. Acesse **Saída \> Criar separação de cluster**.
 
     A página **TAREFA: Atribuir Trabalho ao Cluster** será exibida.
 

@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fdb24238bf8c0cfea0006aa0aa0217de9d3f1bc2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: be542d7db3a1b2f2a0a5ffc5390be2718aa2ea76ef0e662add540f6ff195a6ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831929"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731190"
 ---
 # <a name="report-as-finished-to-a-non-license-plate-controlled-location--application-may-2016"></a>Relatar como concluído para um local não controlado por placa de licença (solicitação de emprego, maio de 2016)
 
@@ -31,7 +31,7 @@ Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local
 
 
 ## <a name="set-up-an-output-location"></a>Configurar uma localização de saída
-1. Vá para Administração da organização > Recursos > Grupos de recursos.
+1. Acesse Administração da organização > Recursos > Grupos de recursos.
 2. Na lista, selecione grupo de recurso "5102".
 3. Clique em Editar.
 4. No campo Depósito de saída, insira "51".
@@ -40,7 +40,7 @@ Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local
 
 ## <a name="create-a-production-order-and-report-it-as-finished"></a>Criar uma ordem de produção e relatar quando estiver concluída
 1. Feche a página.
-2. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+2. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
 3. Clique em Nova ordem de produção.
 4. No campo Número do item, insira "L0101".
 5. Clique em Criar.
