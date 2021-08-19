@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: niholman
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 7279b52f801c2cb2f156d220d1a456b773d10f33
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7857920a04faaebaee44d5485f7b2ffc2e675f59e7c9dc15b2b86376207e3a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5791742"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772121"
 ---
 # <a name="work-with-style-presets"></a>Trabalhar com predefinições de estilo
 
@@ -39,7 +39,7 @@ No construtor de sites, os autores podem selecionar entre as predefinições int
 
 Para visualizar uma predefinição de estilo no seu site no construtor de sites, siga estas etapas.
 
-1. No painel de navegação esquerdo do site, vá para **Configurações do Site \> Design**.
+1. No painel de navegação esquerdo do site, Acesse **Configurações do Site \> Design**.
 1. Na guia **Predefinições de estilo** na parte superior do editor de design, na lista **Predefinições disponíveis**, selecione uma predefinição e, em seguida, selecione **Exibir** para ir para o editor de predefinições.
 
     No momento, se não houver predefinições na lista **Predefinições disponíveis**, consulte [Criar uma predefinição de estilo personalizada](#create-a-custom-style-preset) para obter informações sobre como criar uma predefinição de estilo personalizada.
@@ -61,7 +61,7 @@ Para visualizar uma predefinição de estilo no seu site no construtor de sites,
 
 Para criar uma predefinição de estilo personalizada no construtor de sites, siga estas etapas.
 
-1. No painel de navegação esquerdo do site, vá para **Configurações do Site \> Design**.
+1. No painel de navegação esquerdo do site, Acesse **Configurações do Site \> Design**.
 1. Na guia **Predefinições de estilo** na parte superior do editor de design, na barra de comandos, selecione **Nova predefinição**.
 1. Insira um nome e um descrição para a nova predefinição e selecione **Salvar**. É criada uma nova predefinição personalizável que usa os valores padrão do tema como ponto de partida.
 
@@ -81,7 +81,7 @@ Alguns valores de estilo podem ser exclusivos para um tipo de módulo, ou talvez
 
 Para alterar os valores de tipo global ou de módulo de uma predefinição de estilo no construtor de sites, siga estas etapas.
 
-1. No painel de navegação esquerdo do site, vá para **Configurações do Site \> Design**.
+1. No painel de navegação esquerdo do site, Acesse **Configurações do Site \> Design**.
 1. Na guia **Predefinições de estilo** na parte superior do editor de design, selecione **Exibir** para qualquer predefinição de estilo para ir para o editor de predefinições.
 1. Selecione **Visualização** e, em seguida, siga as etapas de seleção da URL para abrir uma visualização de janela inteira do navegador para a predefinição. Deixe esta janela de visualização do navegador aberta.
 1. No editor de predefinições, selecione **Editar** no canto superior direito.

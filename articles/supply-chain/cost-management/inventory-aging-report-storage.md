@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2019-01-10
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 17ca0a105521f3216dfefcc170d60c1eb7137bf6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ddddb0b1e377ed525b7c17fec5a4b3305573d0eba551bc03f075109a2ed769b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781101"
 ---
 # <a name="inventory-aging-report-storage"></a>Armazenamento de relatório de classificação por vencimento do estoque
 
@@ -40,7 +40,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 ## <a name="run-an-inventory-aging-report-storage"></a>Executar um armazenamento de classificação por vencimento de estoque
 
-1. Vá para **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de classificação por vencimento de estoque**.
+1. Acesse **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de classificação por vencimento de estoque**.
 1. Selecione **Novo**.
 1. No campo **Identificador do Processo – Nome**, insira um nome exclusivo para o relatório.
 1. Selecione o relatório **Identificação – ID** e filtre-o como necessário.

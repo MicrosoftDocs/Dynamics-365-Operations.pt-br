@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2843c42474fcd4afbbc2cd7753c0d06cfe467dbe
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 44067dedab189d1d7b008ad4e620a3cc652dbc48b5771900df972020096d1a40
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810357"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780885"
 ---
 # <a name="set-up-manual-packing-february-2016--may-2016"></a>Configurar embalagem manual (fevereiro de 2016 e maio de 2016)
 
@@ -29,7 +29,7 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 
 
 ## <a name="set-up-location-profiles"></a>Configurar perfis de localização
-1. Vá para Gerenciamento de depósito > Configuração > Depósito > Perfis de localização.
+1. Acesse Gerenciamento de depósito > Configuração > Depósito > Perfis de localização.
 2. Clique em Novo.
     * O perfil de local é usado para estações de embalagem e contém informações e as regras para um local.  
 3. No campo ID do perfil de localização, digite um valor.
@@ -42,14 +42,14 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 10. Feche a página.
 
 ## <a name="set-up-warehouse-management-parameters"></a>Configurar parâmetros para gerenciamento de depósito 
-1. Vá para Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito.
+1. Acesse Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito.
 2. Clique na guia Pacote.
 3. No campo ID de perfil para local de pacote, insira ou selecione um valor.
     * Selecione o perfil de local que deseja usar para separação.  
 4. Feche a página.
 
 ## <a name="set-up-container-types"></a>Configure tipos de contêiner
-1. Vá para Gerenciamento de depósito > Configuração > Recipientes > Tipos de recipiente.
+1. Acesse Gerenciamento de depósito > Configuração > Recipientes > Tipos de recipiente.
 2. Clique em Novo.
     * É possível definir os tipos de contêineres a serem usados. Você pode especificar as dimensões físicas do contêiner, incluindo o peso de tara, o peso máximo, o volume máximo, o tamanho, a largura, e o peso.  Os Atributos são campos personalizáveis que permitem adicionar dimensões extra no tipo de contêiner.     
 3. No campo Código de tipo de contêiner, digite um valor.
@@ -64,7 +64,7 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 12. Feche a página.
 
 ## <a name="set-up-packing-profiles"></a>Configurar perfis de embalagem
-1. Vá para Gerenciamento de depósito > Configuração > Empacotamento > Perfis de empacotamento.
+1. Acesse Gerenciamento de depósito > Configuração > Empacotamento > Perfis de empacotamento.
 2. Clique em Novo.
 3. No campo ID de perfil de pacote, insira um valor.
 4. No campo Descrição, digite um valor.
@@ -79,7 +79,7 @@ O processo de embalagem permite que você valide e empacote produtos em contêin
 10. Feche a página.
 
 ## <a name="set-up-container-closing-profiles"></a>Configurar perfis de fechamento de contêiner
-1. Vá para Gerenciamento de depósito > Configuração > Recipientes > Perfis de fechamento de recipientes.
+1. Acesse Gerenciamento de depósito > Configuração > Recipientes > Perfis de fechamento de recipientes.
     * Os perfis de fechamento de contêiner definem o que acontece quando um contêiner é fechado. Você pode configurar perfis de contêiner múltiplos próximos.       
 2. Clique em Novo.
 3. No campo ID de perfil de fechamento de Contêiner, insira um valor.

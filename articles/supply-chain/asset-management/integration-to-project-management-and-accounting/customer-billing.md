@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 5532f1ce14239002022f487f227286efe10abf12
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a48e681da1801ef3c0d1c9c03cebaa5eecd37d76349a7b1c3cfe53e892fae489
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813788"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774936"
 ---
 # <a name="bill-for-maintenance-on-customer-owned-assets"></a>Cobrança por manutenção sobre ativos de propriedade do cliente
 
@@ -55,7 +55,7 @@ Você também pode usar este cenário como orientação para usar o recurso ao t
 
 ### <a name="step-1-create-a-new-project-contract-for-the-customer"></a>Etapa 1: criar um novo contrato de projeto para o cliente
 
-1. Vá para **Gerenciamento e contabilidade de projeto \> Projetos \> Contratos do projeto**.
+1. Acesse **Gerenciamento e contabilidade de projeto \> Projetos \> Contratos do projeto**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Novo contrato de projeto**, defina os seguintes valores:
 
@@ -69,7 +69,7 @@ Você também pode usar este cenário como orientação para usar o recurso ao t
 
 O projeto pai que você criar aqui será usado quando as ordens de serviços do cliente forem criadas.
 
-1. Vá para **Gerenciamento e contabilidade de projeto \> Projetos \> Todos os projetos**.
+1. Acesse **Gerenciamento e contabilidade de projeto \> Projetos \> Todos os projetos**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Novo projeto**, defina os seguintes valores:
 
@@ -84,7 +84,7 @@ O projeto pai que você criar aqui será usado quando as ordens de serviços do 
 
 ### <a name="step-3-create-a-new-work-order-type-in-asset-management"></a>Etapa 3: criar um novo tipo de ordem de serviço no Gerenciamento de ativos
 
-1. Vá para **Gerenciamento de Ativos \> Configuração \> Ordens de serviço \> Tipos de ordem de serviço**.
+1. Acesse **Gerenciamento de Ativos \> Configuração \> Ordens de serviço \> Tipos de ordem de serviço**.
 1. No Painel de Ações, selecione **Novo**.
 1. Um novo registro é adicionada à lista. Defina os seguintes valores para ele:
 
@@ -96,7 +96,7 @@ O projeto pai que você criar aqui será usado quando as ordens de serviços do 
 
 Agora, você deve vincular a conta de cliente ao projeto pai na configuração do projeto no Gerenciamento de ativos.
 
-1. Vá para **Gerenciamento de ativos \> Configuração \> Ordens de serviço \> Configuração de projeto**.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Ordens de serviço \> Configuração de projeto**.
 1. Na guia **Projeto pai**, selecione **Adicionar** para adicionar uma linha.
 1. Na nova linha, defina os valores a seguir:
 
@@ -118,7 +118,7 @@ Você ainda deve estar na página **Configuração do projeto** (**Gerenciamento
 
 ### <a name="step-6-link-an-asset-to-the-customer-id"></a>Etapa 6: vincular um ativo ao ID do cliente
 
-1. Vá para **Gerenciamento de ativos \> Ativos \> Ativos ativos**.
+1. Acesse **Gerenciamento de ativos \> Ativos \> Ativos ativos**.
 1. No campo **Filtro**, digite *VE-102* e selecione para filtrar por **Ativo**.
 1. Selecione o ativo para abrir suas configurações.
 1. Na guia rápida **Cliente**, defina o campo **Conta do cliente** como *US-013* (*Atacados Pelican*).
@@ -127,7 +127,7 @@ Você ainda deve estar na página **Configuração do projeto** (**Gerenciamento
 
 ### <a name="step-7-create-a-new-work-order-on-the-asset"></a>Etapa 7: criar uma nova ordem de serviço no ativo
 
-1. Vá para **Gerenciamento de Ativos \> Ordens de serviço \> Ordens de serviço ativas**.
+1. Acesse **Gerenciamento de Ativos \> Ordens de serviço \> Ordens de serviço ativas**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de serviço**, defina os seguintes valores:
 

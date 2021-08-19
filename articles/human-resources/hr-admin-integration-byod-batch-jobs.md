@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-08-10
 ms.dyn365.ops.version: Platform update 36
-ms.openlocfilehash: ed3ebbf09403090a1173c3cda1a4b11b74419b90
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: ec2847a55dfdf1d3fabc10898f29f73a96749244ef30bf5c31d3769b6d9024de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052664"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775786"
 ---
 # <a name="optimize-byod-scheduled-batch-jobs"></a>Otimizar trabalhos em lote agendados de BYOD
 
@@ -71,7 +71,7 @@ Estes são os tempos limite padrão para exportações de BYOD:
 - Dez minutos para operações de truncamento
 - Uma hora para operações de inserção em massa
 
-Quando os volumes são altos, essas configurações de tempo limite podem não ser suficientes. Para atualizá-los, vá para **Gerenciamento de dados \> Parâmetros de estrutura \> Trazer seu próprio banco de dados**. Esses tempos limites são específicos da empresa e devem ser definidos separadamente para cada empresa.
+Quando os volumes são altos, essas configurações de tempo limite podem não ser suficientes. Para atualizá-los, Acesse **Gerenciamento de dados \> Parâmetros de estrutura \> Trazer seu próprio banco de dados**. Esses tempos limites são específicos da empresa e devem ser definidos separadamente para cada empresa.
 
 ## <a name="known-limitations"></a>Limitações conhecidas
 

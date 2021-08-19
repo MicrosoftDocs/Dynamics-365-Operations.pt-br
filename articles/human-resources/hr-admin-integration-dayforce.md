@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 6d150daa92fe79cf6620ce5ddf1a01f369c64053
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 961d3bd61e85549f4124391389682bb24aceae3e16e52dc8111a44c365a8c081
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6051488"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782722"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurar integração com o Dayforce
 
@@ -59,7 +59,7 @@ Para obter mais informações sobre as contas de armazenamento do Azure e as cad
 
 A ativação da integração da folha de pagamento tem dois efeitos principais:
 
-- Um projeto de exportação de dados denominado "Exportação de integração da folha de pagamento" é criado. Este projeto contém as entidades e os campos necessários para a integração da folha de pagamento. Para revisar o projeto, vá para **Administração do sistema**, selecione o bloco **Gerenciamento de dados** e abra o projeto de dados da lista de projetos.
+- Um projeto de exportação de dados denominado "Exportação de integração da folha de pagamento" é criado. Este projeto contém as entidades e os campos necessários para a integração da folha de pagamento. Para revisar o projeto, Acesse **Administração do sistema**, selecione o bloco **Gerenciamento de dados** e abra o projeto de dados da lista de projetos.
 - Esse trabalho em lotes executa o projeto de exportação de dados, criptografa o pacote de dados resultante e transfere o arquivo do pacote de dados para a empresa de SFTP configurada na tela **Configuração de integração**.
 
 > [!NOTE]

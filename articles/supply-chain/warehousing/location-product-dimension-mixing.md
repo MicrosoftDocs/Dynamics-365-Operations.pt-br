@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 28f59052a74b6d8b263c7a8a8b6061f2c4b34c89
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4906fa0459c12594fe0473158784d4c929d8644413091a122808b57fd27c18af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831281"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778473"
 ---
 # <a name="location-product-dimension-mixing"></a>Combinação de dimensões do produto de localização
 
@@ -39,7 +39,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="configure-location-profiles-to-allow-product-dimension-mixing"></a>Configurar perfis de localização para permitir a combinação de dimensões do produto
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização, selecione **MASSA**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Geral**, defina a opção **Habilitar a combinação específica de dimensões do produto de localização** como *Sim*.
@@ -52,7 +52,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="create-a-new-product-master-and-product-variants"></a>Criar um novo produto mestre e grades de produtos
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
 1. No Painel de Ação, selecione **Novo** para criar um produto mestre.
 1. Na caixa de diálogo **Novo produto**, defina os seguintes valores:
 
@@ -86,7 +86,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 ### <a name="update-a-released-product-in-the-usmf-company"></a>Atualizar um produto liberado na empresa USMF
 
 1. Entre na empresa **USMF**.
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** para concluir a criação do produto liberado.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** para concluir a criação do produto liberado.
 1. Localize e selecione o item de número *B0001* para abrir a página **Detalhes do produto liberado**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Geral**, verifique se o campo **Grupo de modelo do item** está definido como *PEPS*.
@@ -108,7 +108,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="create-a-location-directive"></a>Criar uma diretiva de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, no campo **Tipo de ordem de serviço**, selecione *Ordens de compra*.
 1. Na lista, selecione a diretiva de localização chamada *24 PO Direct*.
 1. Na FastTab **Ações de Diretiva de Localização**, selecione **Novo** para adicionar uma linha à grade.
@@ -141,7 +141,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ação, selecione **Novo** para criar um item de menu a ser usado para classificação.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -159,7 +159,7 @@ Cada local no depósito precisa ter um perfil de localização associado a ele q
 
 ### <a name="configure-the-mobile-device-menu"></a>Configurar o menu do dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Na lista de menus, selecione **Entrada**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione o item de menu **Recebimento da linha da OC**.
@@ -176,7 +176,7 @@ Antes de começar, verifique se há locais vazios no depósito *24* que usem o p
 
 Você criará uma ordem de compra com três linhas: duas linhas para o mesmo número de produto, mas diferentes grades de **Tamanho**, e uma terceira linha para um produto diferente que não tem grades.
 
-1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
+1. Acesse **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
 

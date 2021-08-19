@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6385fba0b6288416a85f1b7de73d3bb4972a852a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f31397c980f1f46f22979cf0b754eeaf4baf3e6eb7cafc53a6a9acdc482743e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834112"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780593"
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>Alterar a propriedade de estoque de consignação com base na demanda de produção
 
@@ -31,7 +31,7 @@ Este procedimento mostra como alterar o proprietário de estoque de remessa do f
 > Além de os processos de consignação de saída não receberem suporte imediato, o processamento automático do diário de propriedade não é compatível.
 
 ## <a name="create-an-inventory-ownership-journal"></a>Criar um diário de propriedade de estoque
-1. Vá para Gerenciamento de estoque > Entradas de diário > Itens > Alteração de propriedade de estoque.
+1. Acesse Gerenciamento de estoque > Entradas de diário > Itens > Alteração de propriedade de estoque.
 2. Clique em Novo.
     * O diário da alteração de propriedade de estoque é usado para alterar o proprietário de estoque de remessa do fornecedor à entidade legal atual. Esta alteração de propriedade é feita liberando o estoque disponível que pertence o fornecedor e em seguida recebimento do estoque na entidade legal atual.  
 3. No campo Nome, insira ou selecione um valor.

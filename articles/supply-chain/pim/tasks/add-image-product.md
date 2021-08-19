@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 99a097c2f0e1717be2354329026ccdaf35a07db6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c0f0ece7426b9bcec90816fe32c7b3488723bacec06260020b915ec4814631f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776377"
 ---
 # <a name="add-an-image-to-a-product"></a>Adicionar uma imagem a um produto
 
@@ -26,7 +26,7 @@ ms.locfileid: "5812610"
 
 Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF.
 
-1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
+1. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
 2. Expanda a imagem do produto FactBox.
 3. Na lista, localize e selecione o PDV desejado.
     * Por exemplo, selecione o número de item C0002.  

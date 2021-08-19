@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ece72971d2bc67482cbdda4fb0d1b3176a3f3071
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7a2edce5ac4506dead8d150e9f332e00817f35ce7a16910d30b9c77203518b07
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829177"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775546"
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Criar uma regra kanban de quantidade fixa para fabricação
 
@@ -29,7 +29,7 @@ Este procedimento tem como foco a configuração necessária para criar uma regr
 
 
 ## <a name="create-new-kanban-rule"></a>Criar regra kanban
-1. Vá para Regras kanban.
+1. Acesse Regras kanban.
 2. Clique em Novo.
     * Observe que o tipo padrão é fabricação e a estratégia de reabastecimento é fixa. Você não precisa alterar esses parâmetros.  
 3. No campo Primeira atividade do plano, insira ou selecione um valor.

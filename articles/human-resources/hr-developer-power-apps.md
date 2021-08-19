@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b1ebe17063d954b52a0607d39e3ea08518adb89
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: a466ef2d2002ebc9d35b33571009727626cd5c678e995d42a00dbe64a2806729
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6057589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778046"
 ---
 # <a name="extend-with-power-apps-and-power-automate"></a>Estender com o Power Apps e o Power Automate
 
@@ -44,7 +44,7 @@ O aplicativo **Integração com o Microsoft 365** pode ser usado para extrair in
 
 Você pode estender esse aplicativo para outros cenários. Por exemplo, você pode usá-lo para mostrar informações de férias da equipe, eventos do calendário e todos os eventos específicos da equipe.
 
-Para baixar o aplicativo **Integração com o Microsoft 365, Power Automate**, vá para [Integração com o Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) no Centro de Download da Microsoft.
+Para baixar o aplicativo **Integração com o Microsoft 365, Power Automate**, Acesse [Integração com o Microsoft 365](https://go.microsoft.com/fwlink/?linkid=2081787) no Centro de Download da Microsoft.
 
 ## <a name="power-automate--sql-connect-and-execute"></a>Power Automate – Conectar ao SQL e executar
 

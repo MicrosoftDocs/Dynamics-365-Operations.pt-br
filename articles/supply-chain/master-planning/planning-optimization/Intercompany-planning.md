@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: a3b48667bb266fec082c48e777fd71d8e5ef6dae
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2bf69a5d0d6e070374277e2d82d5fbf6eb4b8704895ffe31aa7e2d2d3546bb16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357014"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777902"
 ---
 # <a name="intercompany-planning"></a>Planejamento intercompanhia
 
@@ -53,7 +53,7 @@ Para usar o planejamento intercompanhia, você deve preparar o sistema da seguin
 
 Siga estas etapas para configurar seu plano mestre de forma que inclua a demanda downstream planejada.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione ou crie um plano mestre.
 1. Na FastTab **Planejamento intercompanhia**, defina os seguintes campos:
 
@@ -66,7 +66,7 @@ Na vinculação de vários níveis, você pode exibir a vinculação entre empre
 
 Para exibir informações de vinculação de vários níveis, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**.
+1. Acesse **Planejamento mestre \> Planejamento mestre \> Ordens planejadas**.
 1. Selecione ou abra uma ordem planejada.
 1. No Painel de Ações, na guia **Exibir**, no grupo **Requisitos**, selecione **Vinculação de vários níveis**.
 

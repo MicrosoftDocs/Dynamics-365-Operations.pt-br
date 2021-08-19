@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: d39283dea37c0e0fbf432aae8b1a30a87198f9f0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4158fa93d9e424e796c038d0c907ea155868440bfcb79666c3e13fa997d4834b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343715"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774720"
 ---
 # <a name="container-packing-strategies"></a>Estratégias de embalagem de contêineres
 
@@ -85,7 +85,7 @@ O cenário deste tópico faz referência a valores e registros incluídos nos da
 
 Para inspecionar seus tipos de contêineres ou criar novos tipos de contêineres, se necessário, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Tipos de contêiner**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Tipos de contêiner**.
 1. Certifique-se de que cada um destes tipos de contêiner esteja disponível em seus dados de demonstração. Edite ou crie tipos de contêineres conforme necessário.
 
     - Tipo de contêiner 1:
@@ -122,7 +122,7 @@ Para inspecionar seus tipos de contêineres ou criar novos tipos de contêineres
 
 Para inspecionar seus grupos de contêineres ou criar novos grupos de contêineres, se necessário, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Grupos de contêineres**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Grupos de contêineres**.
 1. Certifique-se de que o seguinte grupo de contêiner esteja disponível em seus dados de demonstração. Se ele não estiver disponível, selecione **Novo** para criá-lo.
 
     - **ID do grupo de contêineres:** *Caixas*
@@ -152,7 +152,7 @@ Para inspecionar seus grupos de contêineres ou criar novos grupos de contêiner
 
 Para criar um novo modelo de criação de contêiner, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Modelo de criação de contêiner**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Contêineres** \> **Modelo de criação de contêiner**.
 1. Selecione **Novo** para criar um modelo de criação de contêiner que tenha as seguintes configurações:
 
     - **Número de sequência:** *1*
@@ -192,7 +192,7 @@ Para criar um novo modelo de criação de contêiner, siga estas etapas.
 
 Para configurar um modelo de ciclo, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. No painel de lista, defina o campo **Tipo de modelo de onda** como *Remessa*.
 1. Selecione o modelo **63 Conteinerização** na lista.
 1. No Painel de Ações, selecione **Editar**.
@@ -207,7 +207,7 @@ Para configurar um modelo de ciclo, siga estas etapas.
 
 Para configurar um modelo de trabalho, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Defina o campo **Tipo de ordem de serviço** como *Ordens de venda*.
 1. Na grade **Visão geral**, localize e selecione o modelo de trabalho que deve ser usado para embalar ordens únicas por contêiner. Para esse cenário, selecione o modelo **63 Separar para contêiner**.
 1. No Painel de Ações, selecione **Editar consulta**.
@@ -247,7 +247,7 @@ Para configurar um modelo de trabalho, siga estas etapas.
 
 Para configurar uma política de consolidação de remessa, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Liberar para depósito \> Políticas de consolidação de remessa**.
 1. No painel de lista, defina o campo **Tipo de política** como *Ordens de venda*.
 1. Selecione a política **Padrão** na lista.
 1. No Painel de Ações, selecione **Editar**.
@@ -259,7 +259,7 @@ Para configurar uma política de consolidação de remessa, siga estas etapas.
 
 Para configurar dimensões físicas para os produtos que serão utilizados nesse cenário, siga essas etapas.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o produto no qual o campo **Número do item** esteja definido como *A0001*.
 1. No Painel de Ação, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Dimensões físicas**.
 1. Na página **Dimensões físicas**, você deve ver a seguinte linha na grade:
@@ -287,7 +287,7 @@ Para configurar dimensões físicas para os produtos que serão utilizados nesse
 
 Para criar uma ordem de venda, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Uma caixa de diálogo para criar uma nova ordem de venda aparece. Defina os seguintes valores:
 
@@ -316,7 +316,7 @@ Para criar uma ordem de venda, siga estas etapas.
 
 Siga estas etapas para criar uma segunda ordem de venda.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Uma caixa de diálogo para criar uma nova ordem de venda aparece. Defina os seguintes valores:
 
@@ -345,7 +345,7 @@ Siga estas etapas para criar uma segunda ordem de venda.
 
 Para criar uma carga para cada ordem que você criou para esse cenário e, em seguida, liberá-lo para o depósito, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. Na guia **Linhas de venda**, localize e selecione todas as linhas da ordem de venda nas ordens criadas para esse cenário.
 1. No Painel de Ação, na guia **Oferta e demanda** , no grupo **Adicionar** , selecione **Para nova carga**. As linhas de ordem selecionadas são adicionadas a uma nova carga.
 1. Na caixa de diálogo **Atribuição de modelo de carga**, no campo **ID do modelo de carga**, selecione um modelo de carga, como *Contêiner de 40"*.

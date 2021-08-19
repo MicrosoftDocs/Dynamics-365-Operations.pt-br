@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aece2b79633802d28ba3b4fd8b51788e26c17a67
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 93cc2e9ceb15070491bb3d0a790367e6d5bf8c4a30cd7efa690fd825963165b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779532"
 ---
 # <a name="create-account-structures"></a>Criar estruturas de conta
 
@@ -26,7 +26,7 @@ ms.locfileid: "5815155"
 
 Este guia de tarefas aborda a criação de uma estrutura de conta. As etapas usam a empresa USMF de dados de demonstração.
 
-1. Vá para **Painel de Navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta**.
+1. Acesse **Painel de Navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta**.
 2. No **Painel de Ações**, clique em **Novo** para abrir a caixa de diálogo suspensa.
 3. No campo **Estrutura de conta**, digite um nome para descrever a finalidade da estrutura de conta.
 4. No campo **Descrição**, digite uma descrição para especificar a finalidade da estrutura de conta.

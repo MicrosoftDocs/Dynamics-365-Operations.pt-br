@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8688fcdcaaacc1e3d817604860ee138f206f20d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6ab19212e191288cedf07748615b3ea29ed9a4e97bcb908d5736f6b2323a334
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832514"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781156"
 ---
 # <a name="set-up-legal-entity-parameters-brazil"></a>Configurar parâmetros de entidade legal (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5832514"
 
 Configurar parâmetros de entidade legal do Brasil. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Administração da organização > Configuração > Parâmetros brasileiros.
+1. Acesse Administração da organização > Configuração > Parâmetros brasileiros.
 2. Selecione Sim no campo Habilitar código CFPS.
 3. Selecione a dimensão financeira que será usada para o centro de custos durante o cálculo de custos de absorção.
 4. Selecione a dimensão financeira que será usada para o estabelecimento fiscal durante o cálculo de custos de absorção.

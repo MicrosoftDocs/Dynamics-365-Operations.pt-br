@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-08-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: b579ebff28e01caa727a22b01ae636ff713a27aa
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d61087d21035e532ad86b6669626f55e8411a6f421bf69f817199e9063417761
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359948"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779605"
 ---
 # <a name="purchasing-cxml-enhancements"></a>Aprimoramentos ao cXML de compra
 
@@ -48,7 +48,7 @@ Use a página **Parâmetros cXML** para fazer algumas configurações globais qu
 
 ![Página Parâmetros cXML.](media/cxml-parameters.png "Página Parâmetros cXML")
 
-Vá para **Compras e fornecimento \> Configuração \> Gerenciamento de cXML \> Parâmetros cXML** e defina os seguintes parâmetros:
+Acesse **Compras e fornecimento \> Configuração \> Gerenciamento de cXML \> Parâmetros cXML** e defina os seguintes parâmetros:
 
 - **Modo de teste cXML** – Este parâmetro global afeta a maneira como as ordens de compra são fisicamente enviadas do trabalho em lotes. Selecione um dos seguintes valores:
 
@@ -65,13 +65,13 @@ Vá para **Compras e fornecimento \> Configuração \> Gerenciamento de cXML \> 
 Sempre que você confirma uma ordem de compra em que a opção **Enviar ordem de compra via cXML** está definida como _Sim_, o sistema gera automaticamente a mensagem de cXML e a entrega ao fornecedor associado a essa ordem de compra. Existem duas maneiras de controlar essa opção para suas ordens de compra:
 
 - Para configurar um fornecedor para que ele use a cXML automaticamente em todas as novas ordens de compra criadas por meio de uma requisição, acesse **Compras e fornecimento \> Fornecedores \> Todos os fornecedores** e selecione ou crie um fornecedor para abrir sua página de detalhes. Depois, na Guia Rápida **Padrões da ordem de compra**, defina a opção **Enviar ordem de compra via cXML** como _Sim_. Se a cXML também tiver que ser usada automaticamente em novas ordens de compra que são **não** criadas por meio de uma requisição, você também deve definir a propriedade da pedido **ENABLEMANUALPO** como _True_ para o catálogo externo relacionado, conforme descrito na seção [Definir as propriedades da ordem](#set-order-properties) posteriormente neste tópico.
-- Para ordens de compra individuais, vá para **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e selecione ou crie uma ordem de compra para abrir sua página de detalhes. Alterne para a exibição **Cabeçalho** e, na Guia Rápida **Configuração**, defina a opção **Enviar ordem de compra via cXML** conforme necessário.
+- Para ordens de compra individuais, Acesse **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e selecione ou crie uma ordem de compra para abrir sua página de detalhes. Alterne para a exibição **Cabeçalho** e, na Guia Rápida **Configuração**, defina a opção **Enviar ordem de compra via cXML** conforme necessário.
 
 ![Configurações padrão para ordens de compra do fornecedor.](media/cxml-order-defaults.png "Configurações padrão para ordens de compra do fornecedor")
 
 ## <a name="set-up-an-external-catalog-to-use-cxml"></a><a name="external-catalog-setup"></a>Configurar um catálogo externo para usar cXML
 
-Na página **Catálogos externos**, para cada um de seus catálogos, você pode configurar a funcionalidade PunchOut e a funcionalidade para enviar ordens de compra. Para encontrar as configurações relevantes, vá para **Compras e fornecimento \> Catálogos \> Catálogos externos**. Comece [configurando cada catálogo como de costume](set-up-external-catalog-for-punchout.md). Esse processo inclui atribuir um fornecedor, selecionar as categorias que o fornecedor tem permissão para fornecer e ativar o catálogo. Em seguida, defina as configurações adicionais descritas nesta seção.
+Na página **Catálogos externos**, para cada um de seus catálogos, você pode configurar a funcionalidade PunchOut e a funcionalidade para enviar ordens de compra. Para encontrar as configurações relevantes, Acesse **Compras e fornecimento \> Catálogos \> Catálogos externos**. Comece [configurando cada catálogo como de costume](set-up-external-catalog-for-punchout.md). Esse processo inclui atribuir um fornecedor, selecionar as categorias que o fornecedor tem permissão para fornecer e ativar o catálogo. Em seguida, defina as configurações adicionais descritas nesta seção.
 
 > [!NOTE]
 > Quando você confirma uma ordem de compra que pode ser enviada via cXML, o sistema procura o fornecedor associado à ordem de compra e, em seguida, encontra o primeiro catálogo externo ativo associado a esse fornecedor. Depois, o sistema usa as configurações desse catálogo externo para enviar a ordem de compra. Se vários catálogos externos forem configurados, o sistema usará apenas o primeiro catálogo externo que encontrar, com base no fornecedor na ordem de compra. Portanto, recomendamos que você crie apenas um catálogo externo para cada fornecedor.
@@ -141,11 +141,11 @@ Quando você terminar de configurar todas as propriedades e definir outras confi
 
 Como foi mencionado na seção [Definir as propriedades da ordem](#set-order-properties), se desejar que seu cXML entregue inclua texto de notas anexadas à ordem de compra relevante e/ou registros do fornecedor, você pode definir a propriedade **POCOMMENTS** e/ou **VENDCOMMENTS** como _TRUE_ na configuração de catálogo externo. Esta seção fornece mais detalhes sobre como o sistema seleciona e processa esses anexos, se você usá-los.
 
-Para definir os tipos de notas que o sistema procurará, vá para **Compras e fornecimento \> Configuração \> Formulários \> A partir da configuração**. Em seguida, na guia **Ordem de compra**, defina o campo **Incluir documentos do tipo** para o tipo de nota que deseja incluir. Somente notas de texto serão incluídas, não anexos de documentos.
+Para definir os tipos de notas que o sistema procurará, Acesse **Compras e fornecimento \> Configuração \> Formulários \> A partir da configuração**. Em seguida, na guia **Ordem de compra**, defina o campo **Incluir documentos do tipo** para o tipo de nota que deseja incluir. Somente notas de texto serão incluídas, não anexos de documentos.
 
 ![Página de configuração de formulários.](media/cxml-form-setup.png "Página de configuração de formulários")
 
-Os anexos serão incluídos em uma ordem de compra apenas se o campo **Tipo** for definido com o valor que você selecionar no campo **Incluir documentos do tipo** e se o campo **Restrição** for definido como _Externo_. Para criar, exibir ou editar os anexos de uma ordem de compra, vá para **Compras e fornecimento \> Todas as ordens de compra**, selecione ou crie uma ordem de compra e selecione o botão **Anexos** (símbolo de clipe de papel) no canto superior direito.
+Os anexos serão incluídos em uma ordem de compra apenas se o campo **Tipo** for definido com o valor que você selecionar no campo **Incluir documentos do tipo** e se o campo **Restrição** for definido como _Externo_. Para criar, exibir ou editar os anexos de uma ordem de compra, Acesse **Compras e fornecimento \> Todas as ordens de compra**, selecione ou crie uma ordem de compra e selecione o botão **Anexos** (símbolo de clipe de papel) no canto superior direito.
 
 ![Nota anexada configurada para ser enviada a um fornecedor.](media/cxml-note-to-vendor.png "Nota anexada configurada para ser enviada a um fornecedor")
 
@@ -163,7 +163,7 @@ Ao definir o campo **Tipo de protocolo PunchOut** como *cXML* para um catálogo 
 
 Para adicionar elementos extrínsecos a um catálogo externo, siga as etapas a seguir.
 
-1. Vá para **Compras e fornecimento \> Catálogos \> Catálogos externos**.
+1. Acesse **Compras e fornecimento \> Catálogos \> Catálogos externos**.
 1. Selecione o catálogo relevante.
 1. Na Guia Rápida **Formato da mensagem**, na seção **Extrínsecos**, selecione **Adicionar** para adicionar uma linha à grade para cada elemento extrínseco que deseja incluir. Em cada linha, defina os seguintes campos:
 

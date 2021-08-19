@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c5049c6d1fc5fcfae3bb6c7da1dd8d078ce9c33e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39be90f458dcd5de8824389eb0837b402b5e11f12075f513e85e4ea895645cf4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777758"
 ---
 # <a name="set-up-disposition-codes"></a>Configurar códigos de disposição 
 
@@ -31,7 +31,7 @@ Você pode configurar códigos de disposição para especificar como processar u
 
 Você também pode configurar um código de motivo para ajudar a explicar por que um item foi devolvido. Para obter mais informações sobre como configurar os códigos de motivo, consulte [Configurar códigos de motivo de devolução](set-up-return-reason-code.md).
 
-1.  Vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
+1.  Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Devoluções** \> **Códigos de disposição**.
 
 2.  Selecione **Novo** para criar um novo código de disposição.
 

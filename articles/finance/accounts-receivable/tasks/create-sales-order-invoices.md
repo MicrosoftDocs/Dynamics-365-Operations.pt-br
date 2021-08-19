@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 984bb482f357e35dcfa4c08597a6be9e39817b98
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837096"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771815"
 ---
 # <a name="create-sales-order-invoices"></a>Criar faturas de ordem de venda
 
@@ -28,7 +28,7 @@ Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fis
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Criar uma fatura de uma ordem de venda
-1. Vá para **Painel de navegação > Módulos > Contas a receber > Ordens > ordens de vendas enviadas, mas não faturadas**.
+1. Acesse **Painel de navegação > Módulos > Contas a receber > Ordens > ordens de vendas enviadas, mas não faturadas**.
 2. Selecione uma ordem de venda na lista. 
 3. No **Painel de Ação**, clique em **Fatura > Gerar > Fatura**. Observe que a ordem de venda tem várias guias de remessa associadas a ela. Ela mostrará apenas a palavra <multiple>, em vez do número da guia de remessa.  
 4. Expanda a seção **Parâmetros**.
@@ -41,7 +41,7 @@ Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fis
 9. Clique em **Cancelar**.
 
 ## <a name="combine-orders-into-a-single-invoice"></a>Combinar ordens em uma única nota fiscal
-1. Vá para **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Localize um cliente que tem várias notas fiscais abertas.
 3. Selecione várias ordens de venda abertas do mesmo cliente.
 4. No **Painel de Ação**, clique em **Fatura > Gerar > Fatura**.
@@ -53,7 +53,7 @@ Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fis
 10. Clique em **Sim**.
 
 ## <a name="post-invoices-in-a-batch"></a>Lançar notas fiscais em um lote
-1. Vá para **Painel de Navegação > Módulos > Contas a receber > Faturas > Faturamento em lote > Fatura**.
+1. Acesse **Painel de Navegação > Módulos > Contas a receber > Faturas > Faturamento em lote > Fatura**.
 2. Clique em **Selecionar**.
 3. Clique em **OK**.
 4. Clique em **Lote**.

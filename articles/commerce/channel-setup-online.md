@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: dc76c3c8c3da11202ebb29f4c5c0df72892c094a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 11796d27a6071b180ad58c46ba2a521ecc238c6091517dbdc3a4f153b3d81749
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351167"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714702"
 ---
 # <a name="set-up-an-online-channel"></a>Configurar um canal online
 
@@ -40,7 +40,7 @@ Antes de criar um novo site, crie pelo menos uma loja online no Commerce. Para o
 
 Para criar e configurar um novo canal online, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Canais \> Lojas Online**.
+1. No painel de navegação, Acesse **Módulos \> Canais \> Lojas Online**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Nome**, forneça um nome para o novo canal.
 1. Na lista suspensa **Entidade legal**, insira a entidade legal apropriada.
@@ -98,7 +98,7 @@ Você pode ver os modos de entrega configurados selecionando **Modos de entrega*
 
 Para alterar ou adicionar um modo de entrega, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
+1. No painel de navegação, Acesse **Módulos \> Gerenciamento de estoque \> Modos de entrega**.
 1. No painel de ação, selecione **Novo** para criar um novo modo de entrega ou selecione um modo existente.
 1. Na seção **Canais de varejo**, selecione **Adicionar linha** para adicionar o canal. Adicionar canais usando nós de organização em vez de adicionar cada canal individualmente pode otimizar esse processo.
 

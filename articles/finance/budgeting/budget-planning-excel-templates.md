@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 7c94cdfda4bab43cfc753374d517e22fd21da4bd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8297548bee83d1e982f50c4e5adae748f9f40137362f4ad47ad837ea2af96c29
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343829"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775161"
 ---
 # <a name="budget-planning-templates-for-excel"></a>Modelos de plano de orçamento para Excel
 
@@ -44,8 +44,8 @@ Documentos de plano de orçamento podem ser exibidos e editados com um ou vário
    [![Adição de planos de orçamento.](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Você pode revisar a configuração do layout e ajustá-la quando necessário. 
-1. Vá para **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. 
-2. Após a criação do modelo, vá para **Modelo** &gt; **Exibir** para abrir ou revisar o modelo de documento de plano de orçamento. É possível salvar o arquivo do Excel na sua unidade local. 
+1. Acesse **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. 
+2. Após a criação do modelo, Acesse **Modelo** &gt; **Exibir** para abrir ou revisar o modelo de documento de plano de orçamento. É possível salvar o arquivo do Excel na sua unidade local. 
 
 [![Salvar como.](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
