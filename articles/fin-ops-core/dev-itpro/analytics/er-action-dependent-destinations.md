@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e9c9143bdbab450b1793b15937d123607361add6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 93adc5b91667fdcd5969439994170fe7d28258fc9f5762d1262d8e72862c4f5f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358660"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762239"
 ---
 # <a name="configure-action-dependent-er-destinations"></a>Configurar destinos de ER dependentes da ação
 
@@ -95,11 +95,11 @@ Você pode verificar qual ação do usuário, se houver, é fornecida para a exe
 
 Siga estas etapas para verificar o código de ação do usuário fornecido.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, [defina](er-trace-reports-compare-baseline.md#configure-er-parameters-to-use-the-baseline-feature) a opção **Executar no modo de depuração** como **Sim**.
 4. Realizar uma ação do usuário executando um formato de ER. Lembre-se de que os parâmetros de usuário de ER são específico do usuário e da empresa.
-5. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
+5. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 6. Na página **Logs de depuração de configuração**, filtre os logs de execução de ER para encontrar o log do formato de ER executado.
 7. Revise as entradas de log que devem conter o registro que apresenta o código de ação de usuário fornecido, caso alguma ação tenha sido fornecida para o formato de ER ser executado.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fd53d21f26596ac9ef394f61588b7778dc3de0fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 57d5bc5c93fa8f1aef58b9c346df06d17edef0d7cdd863f5e6ce2d42bc3d56aa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754647"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Adicionar uma política de cálculo de quantidade de kanbans a uma regra kanban
 
@@ -28,7 +28,7 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 
 
 ## <a name="create-a-kanban-quantity-calculation-policy"></a>Crie uma política de cálculo de quantidade kanban
-1. Vá para Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Políticas de cálculo da quantidade de kanbans.
+1. Acesse Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Políticas de cálculo da quantidade de kanbans.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
     * Por exemplo, tipo Speaker2016.  
@@ -48,7 +48,7 @@ Este procedimento foca na criação de uma política de cálculo da quantidade k
 12. Feche a página.
 
 ## <a name="add-the-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Adicione a política de cálculo da quantidade kanban à uma regra kanban
-1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione a regra kanban 000020 para esse procedimento.  
 3. Na lista, clique no link na linha selecionada.

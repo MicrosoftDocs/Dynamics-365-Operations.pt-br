@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f1f91a67ebac212f72b5524723ec0b8b4e0e3e99
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: d058401541d37dac55d0a500835ce9c357468656e467951f789207452f798d94
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6028266"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765209"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>Configurar análise de Recência, Frequência e Valor Monetário (RFM)
 
@@ -45,7 +45,7 @@ Se sua organização usar um número agregado para a pontuação, as classifica�
 
 ## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>Configurar a análise de RFM para clientes de sua organização
 
-1. Vá para **Call center** \> **Periódico** \> **Análise de RFM**.
+1. Acesse **Call center** \> **Periódico** \> **Análise de RFM**.
 2. Na página **Análise de RFM**, selecione **Novo**. No campo **Definição de RFM**, insira um nome para a definição de RFM. Por exemplo, seria possível chamar a definição de RFM-A.
 3. Insira uma data inicial e uma data final para a definição de RFM.
 4. Na Guia Rápida **Geral**, faça o seguinte:
@@ -79,7 +79,7 @@ Se sua organização usar um número agregado para a pontuação, as classifica�
 
 Siga este procedimento para exibir a pontuação RFM de um cliente.
 
-1. Vá para **Call center** \> **Diários** \> **Atendimento ao cliente**.
+1. Acesse **Call center** \> **Diários** \> **Atendimento ao cliente**.
 2. Na página **Atendimento ao cliente**, no painel **Atendimento ao cliente**, nos campos de pesquisa, selecione o tipo de palavra-chave a ser pesquisado e digite o texto da pesquisa.
 3. Selecione **Pesquisar**.
 4. Na **Pesquisa de cliente**, selecione o registro do cliente que você deseja, e clique em **Selecionar cliente**.
@@ -90,7 +90,7 @@ A contagem de RFM é exibida no grupo **Histórico da ordem** no lado direito da
 
 Use este procedimento para exibir ou apagar o histórico de um registro de análise de RFM.
 
-1. Vá para **Call center** \> **Periódico** \> **Análise de RFM**.
+1. Acesse **Call center** \> **Periódico** \> **Análise de RFM**.
 2. Na página **Análise de RFM**, selecione o registro que deseja exibir.
 3. Para exibir o histórico de registro, selecione a Guia Rápida **Histórico**.
 4. Para limpar o histórico do registro, selecione **Limpar histórico**.

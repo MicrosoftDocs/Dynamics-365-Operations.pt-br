@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rubendel
 ms.search.validFrom: 2020-04-20
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5f96302735e8aa1acf5c81992cb4cb49ff4a03ce
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1087e13da870a855c703cb87cc2327521acd19e4c205fbf75b343b9bbd8e81b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352485"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751592"
 ---
 # <a name="configure-bopis-in-a-dynamics-365-commerce-evaluation-environment"></a>Configurar BOPIS em um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -39,16 +39,16 @@ Depois que o ambiente do Commerce tiver sido provisionado e configurado de ponta
 
 Os cenários de BOPIS que envolvem um pagamento em cartão de crédito exigem uma estação de hardware. A estação de hardware é criada nos programas de PDV Moderno para clientes do Windows e Android. Se você estiver usando o PDV em Nuvem ou o PDV Moderno para iOS, o cliente do ponto de venda (PDV) deve ser emparelhado com uma estação de hardware compartilhada. Este tópico explica como configurar BOPIS para clientes do Windows e Android. Para mais informações sobre como configurar uma estação de hardware compartilhada, consulte [Configurar e instalar a estação de hardware do Retail](./retail-hardware-station-configuration-installation.md).
 
-1. Vá para **Varejo e comércio \> Configuração de canal \> Configuração do PDV \> Caixas registradoras**.
+1. Acesse **Varejo e comércio \> Configuração de canal \> Configuração do PDV \> Caixas registradoras**.
 2. Selecione registrar **SANFRAN-5** e, depois, **Editar**.
 3. Altere o valor do campo **Perfil do hardware** de **HW002** para **HW001** e selecione **Salvar**.
-4. Para sincronizar as alterações, vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+4. Para sincronizar as alterações, Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 5. Selecione a agenda de distribuição **1090** e selecione **Executar agora** no Painel de Ações.
 6. Selecione **Sim** e depois **OK** para iniciar a sincronização de dados. 
 
 ### <a name="install-modern-pos"></a>Instalar o PDV Moderno
 
-1. Vá para **Varejo e comércio \> Configuração de canal \> Configuração do PDV \> Dispositivos**.
+1. Acesse **Varejo e comércio \> Configuração de canal \> Configuração do PDV \> Dispositivos**.
 2. Selecione o dispositivo **SANFRANCIS-5**.
 3. No Painel de Ações, selecione **Download** e depois selecione **Arquivo de configuração**.
 4. Selecione **Download** e depois **Retail Modern POS**. 
@@ -87,7 +87,7 @@ Os cenários de BOPIS que envolvem um pagamento em cartão de crédito exigem um
 
 ### <a name="create-a-storefront-order-for-in-store-pickup"></a>Crie uma ordem da vitrine para retirada na loja
 
-1. Vá para a URL especificada na etapa [Inicializar o e-Commerce](./provisioning-guide.md#initialize-e-commerce) durante a configuração do ambiente.
+1. Acesse a URL especificada na etapa [Inicializar o e-Commerce](./provisioning-guide.md#initialize-e-commerce) durante a configuração do ambiente.
 2. Selecione um item e, depois, **Adicionar ao carrinho**.
 3. Na página da sacola de compras, selecione **Retirar este item** na linha da ordem que acabou de adicionar.
 4. Na caixa de diálogo **Selecionar uma loja**, insira **São Francisco** e, depois, selecione o botão **Pesquisar**.

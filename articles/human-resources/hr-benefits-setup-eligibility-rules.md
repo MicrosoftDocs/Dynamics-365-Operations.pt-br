@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25593bc4d136e403c7ba87e044c95f4fae1e7db9
-ms.sourcegitcommit: 08797bc43e93ea05711c5a70dd7cdb82cada667a
+ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6558360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756115"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação 
 
@@ -97,7 +97,7 @@ Durante a inscrição aberta, os funcionários poderão selecionar planos de ben
 
 [Campos personalizados](hr-developer-custom-fields.md) podem ser criados em Recursos Humanos para rastrear informações adicionais. Esses campos podem ser adicionados diretamente à interface do usuário, e uma coluna é dinamicamente adicionada à tabela base.  
 
-Os campos personalizados podem ser usados no processo de qualificação. As regras de qualificação podem usar um ou mais valores de campos personalizados para determinar a qualificação de um funcionário.  Para adicionar um campo personalizado a uma regra existente ou para criar uma nova regra, vá para **Gerenciamento de benefícios > Links > Configuração > Regras de qualificação > Qualificação de campo personalizado**. Nesta página, você pode criar uma regra que usa um ou vários campos personalizados, além de poder definir vários valores para cada campo personalizado, a fim de determinar a qualificação.
+Os campos personalizados podem ser usados no processo de qualificação. As regras de qualificação podem usar um ou mais valores de campos personalizados para determinar a qualificação de um funcionário.  Para adicionar um campo personalizado a uma regra existente ou para criar uma nova regra, Acesse **Gerenciamento de benefícios > Links > Configuração > Regras de qualificação > Qualificação de campo personalizado**. Nesta página, você pode criar uma regra que usa um ou vários campos personalizados, além de poder definir vários valores para cada campo personalizado, a fim de determinar a qualificação.
 
 As tabelas a seguir dão suporte a campos personalizados que podem ser usados no processamento de qualificação:
 

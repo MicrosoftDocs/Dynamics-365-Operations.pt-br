@@ -1,7 +1,7 @@
 ---
 title: Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil
 description: Este tópico dá uma visão geral da funcionalidade de cancelamento e devolução para documentos NFC-e no ponto de venda (PDV) do Microsoft Dynamics 365 Commerce para o Brasil.
-author: v-ankvik
+author: akviklis
 manager: annbe
 ms.date: 06/10/2021
 ms.topic: article
@@ -12,15 +12,15 @@ audience: Application User
 ms.reviewer: v-chgri
 ms.search.region: Brazil
 ms.search.industry: Retail
-ms.author: v-ankvik
+ms.author: akviklis
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 5b2ea57de34c22b1cc95318d2e73a376744a82b1
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 656f975c21d0efc4358b303f9a6d0d467bd1a019efbffbb00869e944f8b7ab2e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303527"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753094"
 ---
 # <a name="cancellation-and-return-of-nfc-e-documents-in-commerce-pos-for-brazil"></a>Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil
 

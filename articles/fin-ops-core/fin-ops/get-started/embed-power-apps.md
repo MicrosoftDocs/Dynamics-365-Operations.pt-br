@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 008344766969561417fef5a66faf2c8f0f88910b
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 4031be484c13136369803ad1c502c4998496143985d84835168a887bd474db0e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303403"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767666"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Inserir aplicativos de tela do Power Apps
 
@@ -46,7 +46,7 @@ Ao configurar seu aplicativo de tela inserido, você pode selecionar um único c
 
 O procedimento a seguir mostra como inserir um aplicativo de tela do Power Apps no cliente Web.
 
-1. Vá para a página onde deseja inserir o aplicativo de tela. Esta será a página que contém os dados que devem ser informados para o aplicativo como entrada.
+1. Acesse a página onde deseja inserir o aplicativo de tela. Esta será a página que contém os dados que devem ser informados para o aplicativo como entrada.
 2. Abra o painel **Adicionar aplicativo do Power Apps**:
 
     - Clique em **Opções** e selecione **Personalizar esta página**. No menu **Inserir**, selecione **Power Apps**. Por último, selecione a região na qual você quer adicionar o aplicativo. Se quiser inserir o aplicativo no botão do menu Power Apps, escolha o Painel de Ação. Se quiser inserir o aplicativo diretamente na página, escolha a guia apropriada, a guia rápida, folha ou seção (se estiver em um espaço de trabalho).
@@ -101,7 +101,7 @@ Depois que um aplicativo for inserido em uma página, será necessário fazer al
 
 Siga estas etapas para editar a configuração de um aplicativo inserido:
 
-1. Vá para o painel **Editar um aplicativo**.
+1. Acesse o painel **Editar um aplicativo**.
 
     - Se o aplicativo inserido for acessado usando o botão do menu Power Apps, clique com o botão direito do mouse no botão do menu Power Apps e selecione **Personalizar**. Selecione o aplicativo que você quer configurar no menu suspenso **Selecionar aplicativo**.
     - Se o aplicativo inserido aparecer diretamente na página, selecione **Opções** e, depois, **Personalizar esta página**. Usando a ferramenta **Selecionar**, clique no aplicativo inserido.
@@ -112,7 +112,7 @@ Siga estas etapas para editar a configuração de um aplicativo inserido:
 
 Depois que um aplicativo for inserido em uma página, há duas maneiras de removê-lo, se necessário:
 
-- Vá para o painel **Editar um aplicativo** usando as instruções da seção [Editando um aplicativo inserido](#editing-an-embedded-app) anteriormente neste tópico. Confirme se o painel exibe informações para o aplicativo inserido que você deseja remover e clique no botão **Excluir**.
+- Acesse o painel **Editar um aplicativo** usando as instruções da seção [Editando um aplicativo inserido](#editing-an-embedded-app) anteriormente neste tópico. Confirme se o painel exibe informações para o aplicativo inserido que você deseja remover e clique no botão **Excluir**.
 - Como um aplicativo inserido é salvo como dados de personalização, limpar a personalização da página também removerá todos os aplicativos inseridos nessa página. Observe que a remoção da personalização da página é permanente e não pode ser desfeita. Para remover as personalizações de uma página, selecione **Opções** e clique em **Personalizar esta página** e, por último, no botão **Limpar**. Após atualizar seu browser, todas as personalizações anteriores desta página serão removidas. Consulte [Personalizar a experiência do usuário](personalize-user-experience.md) para obter mais informações sobre como otimizar as páginas usando a personalização.
 
 ## <a name="appendix"></a>Anexo

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: myvakalo
 ms.search.validFrom: 2021-04-11
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1ad6efdced9bce924fbf5bc207c92fa2c3a6c79d
-ms.sourcegitcommit: c011a2ef66b38e71ddaf003f7d243677bb2707c5
+ms.openlocfilehash: 566686b6a86e67c87f75f9f2e397592174d3d749034f18997ca8ce651c2594a2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6026262"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760385"
 ---
 # <a name="you-cant-apply-a-template-to-create-a-released-product"></a>Não é possível aplicar um modelo para criar um produto liberado
 
@@ -34,5 +34,5 @@ Muitas páginas no Microsoft Dynamics 365 Supply Chain Management permitem que v
 
 Para criar um modelo de produto, use o menu **Modelo** da guia **Produto** do Painel de Ações, não o botão **Informações sobre registro** na guia **Opções**.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. No Painel de Ações, na guia **Produto**, no grupo **Novo**, selecione **Modelo** e selecione **Criar modelo pessoal** ou **Criar modelo compartilhado**, conforme apropriado.

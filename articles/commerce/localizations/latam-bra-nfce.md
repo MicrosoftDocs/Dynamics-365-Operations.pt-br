@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: v-ankvik
 ms.search.validFrom: 2019-06-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8ebc23bdd8eba9b1420c0005275bab5217c26066
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: 91a9d13413b7b89348c9cd85353900d63296a20b428a0219e83b665ae68ac904
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303525"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760812"
 ---
 # <a name="nfc-e-fiscal-document-functionality-in-commerce-pos-for-brazil"></a>Funcionalidade de documento fiscal NFC-e no Comércio POS para o Brasil
 
@@ -117,6 +117,6 @@ Os recibos fiscais DANFE podem implementar e usar os seguintes campos personaliz
 
 [Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
 
-[Registro adiado de documentos NFC-e emitidos no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
+[Registro adiado de notas NFC-e emitidas no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
 
 [Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce](latam-bra-retail-statements.md)

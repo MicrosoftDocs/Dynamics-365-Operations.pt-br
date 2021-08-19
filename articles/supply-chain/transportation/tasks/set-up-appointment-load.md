@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 356a939739642dde94adca788020b7decc5345ff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cf48c71ed99df1281d9c405a3e9094440a26dfc8fbfee568d2116f7247056049
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809005"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761677"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>Configurar um compromisso para uma carga
 
@@ -29,7 +29,7 @@ Este procedimento mostra como definir e planejar um compromisso para uma doca de
 
 
 ## <a name="select-the-load"></a>Selecione a carga
-1. Vá para Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
+1. Acesse Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
 2. Desmarque a caixa de seleção Esconder envio e recebido.
 3. Na lista, selecione custo indireto que tem um status Enviado.
 4. Clique em Transporte.

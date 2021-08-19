@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 79f969d0e63458b5327950cfed98e0f3ba2cd7ab
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9f84345aa8b157c5ca2a3025d4817af1fb1b1b2d009b3213d15a5b3daca8d763
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816307"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763253"
 ---
 # <a name="create-a-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre
 
@@ -27,7 +27,7 @@ Para este passo a passo, use a empresa de demonstração USMF. Este procedimento
 
 ## <a name="create-a-template"></a>Criar um modelo
 
-1. Vá para Contas a receber > Faturas > Faturas recorrentes > Modelos de fatura de texto livre.
+1. Acesse Contas a receber > Faturas > Faturas recorrentes > Modelos de fatura de texto livre.
     * Use este formulário para criar modelos de fatura de texto livre que podem incluir linhas da fatura, encargos, um modelo de distribuição contábil e informações da conta contábil.  
 2. Clique em 'Novo' para criar um novo modelo de fatura de texto livre.
 3. No campo Nome de modelo, digite um valor.

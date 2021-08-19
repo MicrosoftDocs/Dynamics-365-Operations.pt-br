@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2019-10-1
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 1c831030659b38b52932e504f744d24d999958a5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 74e26953fc964a3cfdee182433a017bb53fa45d62beab442b2c224e8365adef0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831425"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755945"
 ---
 # <a name="auto-release-shipment-for-cross-docking"></a>Remessa da versão automática para a distribuição integrada
 
@@ -80,7 +80,7 @@ Para este cenário, você deve ter os dados de demonstração instalados e deve 
 
 #### <a name="cross-docking-template"></a>Modelo de distribuição integrada
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração**  \> **Trabalho** \> **Modelos de distribuição integrada**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração**  \> **Trabalho** \> **Modelos de distribuição integrada**.
 2. Selecione **Novo**.
 3. No campo **Número de sequência**, insira **1**.
 4. No campo **ID do modelo de distribuição integrada** , insira um nome, como **XDock\_RAF**.
@@ -92,7 +92,7 @@ Para este cenário, você deve ter os dados de demonstração instalados e deve 
 
 #### <a name="work-classes"></a>Classes de trabalho
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Trabalho** \> **Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Trabalho** \> **Classes de trabalho**.
 2. Selecione **Novo**.
 3. No campo **ID da classe de trabalho**, insira um nome, como **CrossDock**.
 4. No campo **Tipo de ordem de serviço**, selecione **Distribuição integrada**.
@@ -101,7 +101,7 @@ Para limitar os tipos de local em que os bens acabados de distribuição integra
 
 #### <a name="work-templates"></a>Modelos do trabalho
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Trabalho** \> **Modelos de trabalho**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Trabalho** \> **Modelos de trabalho**.
 2. No campo **Tipo de ordem de serviço**, selecione **Distribuição integrada**.
 3. Selecione **Novo**.
 4. No campo **Número de sequência**, insira **1**.
@@ -118,7 +118,7 @@ Um processo padrão de armazenamento para bens acabados exige uma diretiva de lo
 
 Para a distribuição integrada, assim como para o armazenamento normal de bens acabados, você não precisa criar uma diretiva de localização para a ação de trabalho de separação porque o local de saída é fornecido. Adicionalmente, esse local de saída deve ser configurado como o local de saída padrão em um dos registros relacionados ao recurso (ou seja, o recurso, a relação do grupo de recursos ou o grupo de recursos) ou como um local de bens acabados de produção padrão para um depósito.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de localização**.
 2. No campo **Tipo de ordem de serviço**, selecione **Distribuição integrada**.
 3. Selecione **Novo**.
 4. No campo **Número de sequência**, insira **1**.
@@ -138,7 +138,7 @@ Para a distribuição integrada, assim como para o armazenamento normal de bens 
 
 Para fazer a distribuição cruzada da quantidade de bens acabados para o local de saída da ordem de venda associada, siga estas etapas.
 
-1. Vá para **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
+1. Acesse **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. Para o cabeçalho de ordem de venda, selecione a conta do cliente **US-001** e um depósito que esteja configurado para distribuição integrada usando o recurso de remessa de liberação automática.
 4. Adicione uma linha para um produto final e insira **10** como a quantidade.
@@ -162,13 +162,13 @@ Para fazer a distribuição cruzada da quantidade de bens acabados para o local 
 9. No Painel de Ação, na guia **Ordem de produção**, no grupo **Processar**, selecione **Liberar** e selecione **OK**. O trabalho de separação de depósito é criado para as matérias-primas.
 10. Abra e revise o trabalho. No Painel de Ação, na guia **Depósito**, no grupo **Geral**, selecione **Detalhes do trabalho**. Anote a ID do trabalho.
 11. Entre no aplicativo móvel do Gerenciamento de Depósito para executar o trabalho no depósito 51.
-12. Vá para **Produção** \> **Separação da produção**.
+12. Acesse **Produção** \> **Separação da produção**.
 13. Insira a ID do trabalho para iniciar e concluir a separação de matéria-prima. 
 
     Depois que o trabalho for relatado como concluído, a quantidade de matérias-primas estará disponível no local de entrada de produção (**005** em dados de demonstração de USMF) e a execução da ordem de produção poderá começar.
 
 14. Na página **Ordem de produção**, no Painel de Ação, na guia **Ordem de produção**, no grupo **Processar**, selecione **Iniciar** e selecione **OK**.
-15. No aplicativo, vá para **Produção** \> **RAF e armazenamento**.
+15. No aplicativo, Acesse **Produção** \> **RAF e armazenamento**.
 16. No campo **ID da Produção**, insira o número da ordem de produção e outros detalhes obrigatórios e selecione **OK**.
 
 Observe que ocorrerão os seguintes eventos:

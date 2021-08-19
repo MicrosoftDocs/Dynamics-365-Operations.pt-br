@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: e44b855165752baeb42d3c9952c35982ef24b0f5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f7f6bcb9085630966310efb5af2e7def23d919d6653376b8f6637a6da915a8d5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757136"
 ---
 # <a name="manage-international-bank-account-number-iban-account-validation"></a>Gerenciar a validação da conta do IBAN (número de conta bancária internacional)
 
@@ -29,14 +29,14 @@ As informações sobre a estrutura do IBAN são armazenadas no Microsoft Dynamic
 
 ## <a name="set-up-iban-structures"></a>Configurar estruturas IBAN
 
-1. Vá para **Gerenciamento de dinheiro e banco \> Configuração \> Estruturas IBAN**.
+1. Acesse **Gerenciamento de dinheiro e banco \> Configuração \> Estruturas IBAN**.
 2. Observe que as estruturas IBAN de cada país ou região foram configuradas automaticamente.
 3. Se desejar personalizar as estruturas de um país ou região específica, você poderá editá-las.
 4. As definições das estruturas farão parte de cada lançamento. Você pode usar o menu **Redefinir estruturas** para carregar as definições mais recentes após cada atualização.
 
 ## <a name="validate-the-iban-structure-in-a-bank-account"></a>Validar a estrutura IBAN em uma conta bancária
 
-1. Vá para **Gerenciamento de caixa e bancos \> Contas bancárias \> Contas bancárias**.
+1. Acesse **Gerenciamento de caixa e bancos \> Contas bancárias \> Contas bancárias**.
 2. Crie uma conta bancária.
 3. Na Guia Rápida **Informações adicionais**, insira um IBAN.
 

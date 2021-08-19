@@ -1,7 +1,7 @@
 ---
 title: Gerenciar informações do cliente no PDV para o Brasil
 description: Este tópico descreve como gerenciar informações do cliente no Ponto de Venda (PDV) do Commerce para o Brasil.
-author: v-ankvik
+author: akviklis
 manager: annbe
 ms.date: 06/10/2021
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: sepism
 ms.search.validFrom: 2021-01-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 2028c8b3f6cdd8818c90daad795d85d587e083d4
-ms.sourcegitcommit: cee7887282d372c756c5c11f76684315f249bba5
+ms.openlocfilehash: eaf1689746ece7e44da8f683467b748d2ccd00925f750a29681ec5f166490b9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6303524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755868"
 ---
 # <a name="manage-customer-information-in-pos-for-brazil"></a>Gerenciar informações do cliente no PDV para o Brasil
 
@@ -98,6 +98,6 @@ Para alterar as informações do cliente para uma venda para um cliente nomeado,
 
 [Cancelamento e devolução de documentos NFC-e no PDV do Commerce para o Brasil](latam-bra-nfce-cancel-return.md)
 
-[Registro adiado de documentos NFC-e emitidos no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
+[Registro adiado de notas NFC-e emitidas no modo de contingência offline](latam-bra-nfce-contingency-mode.md)
 
 [Lançar documentos fiscais brasileiros via demonstrativos de varejo na sede do Commerce](latam-bra-retail-statements.md)

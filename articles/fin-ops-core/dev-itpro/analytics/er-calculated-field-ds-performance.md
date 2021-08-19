@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: e3dc83b71300387c8123f5533522c5ead7d86333
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5fada2fc0b35e22da18f5d6a0505df077d5ada4e0221031d63c316d8c705bc79
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349175"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753661"
 ---
 # <a name="improve-the-performance-of-er-solutions-by-adding-parameterized-calculated-field-data-sources"></a>Melhorar o desempenho de soluções ER adicionando fontes de dados de CAMPOS CALCULADOS parametrizados
 
@@ -107,7 +107,7 @@ Imagine que você tenha terminado de criar a primeira versão da solução de ER
 
 ### <a name="run-the-er-format"></a><a id="run-format"></a>Executar o formato de ER
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração, selecione **Formato de aperfeiçoamento de desempenho**.
 3. No Painel de Ação, selecione **Executar**.
 
@@ -254,7 +254,7 @@ Antes de começar a usar a estrutura de ER para melhorar o desempenho da soluç�
 
 ### <a name="configure-er-parameters"></a><a id="ConfigureParameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, defina os seguintes parâmetros:
@@ -273,13 +273,13 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a id="ReviewProvidersList"></a>Examinar a lista de provedores de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Tabela de provedores de configuração**, cada registro de provedor tem um nome e uma URL exclusivos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Inc.**, ignore o próximo procedimento, [Adicionar um novo provedor de configuração ER](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="ActivateProvider"></a>Adicionar um novo provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, selecione **Novo**.
 4. No campo **Nome**, insira **Litware, Ltda.**
@@ -288,7 +288,7 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="activate-an-er-configuration-provider"></a><a id="ActivateAddedProvider"></a>Ativar um provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
 
 Para obter mais informações sobre provedores de configuração de ER, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).

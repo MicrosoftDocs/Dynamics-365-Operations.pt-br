@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-04-22
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 7d723e7468e42589b8b9a1ed3080c691ebc6bc8e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ff23d57a155d79b34074b4c13c8ec9c51fa54e37609d0d8920550bdf3eeb98a9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353905"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755194"
 ---
 # <a name="install-set-up-and-update-the-customer-portal"></a>Instalar, configurar e atualizar o portal do cliente
 
@@ -56,7 +56,7 @@ Após a conclusão dessa configuração, você poderá provisionar o modelo de p
 
 Antes de começar, verifique se você já concluiu a [configuração necessária](#required-setup). Em seguida, siga estas etapas para provisionar o portal do cliente.
 
-1. Vá para [make.powerapps.com](https://make.powerapps.com/).
+1. Acesse [make.powerapps.com](https://make.powerapps.com/).
 2. Verifique se você está usando o ambiente no qual ativou a gravação dupla.
 3. Na guia **Criar**, role para baixo até a seção **Iniciar do modelo** e selecione o modelo denominado **Portal do Cliente**.
 4. Siga as instruções na tela.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-21
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: bcb242214efab3fd632ea0b9e0f3329bb7821dc0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7906ac95a2421c9a974bb7f3c46ee5ee157a0b28d6e0327a139fc980cf6e9f19
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354752"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766089"
 ---
 # <a name="inventory-journal-approval-workflows"></a>Fluxos de trabalho de aprovação de diário de estoque
 
@@ -44,7 +44,7 @@ Os fluxos de trabalho dão suporte ao controle de versão, e cada um tem uma ID 
 
 Para criar seus fluxos de trabalho de aprovação de diário de estoque:
 
-1. Vá para **Gerenciamento de Estoque \> Configuração\> Fluxos de trabalho de gerenciamento de estoque**.
+1. Acesse **Gerenciamento de Estoque \> Configuração\> Fluxos de trabalho de gerenciamento de estoque**.
 1. Selecione **Novo** no Painel de Ações.
 1. Escolha o tipo de diário de estoque para o qual você deseja configurar um fluxo de trabalho:
     - **Diário de contagem de etiquetas de estoque**
@@ -69,7 +69,7 @@ A próxima etapa é atribuir um fluxo de trabalho de diário de estoque a cada n
 
 Para associar um fluxo de trabalho de diário de estoque a um nome de diário de estoque:
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Nomes do diário \> Estoque**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Nomes do diário \> Estoque**.
 1. Selecione um nome de diário na coluna da lista para abrir a página de configurações.
 1. Na guia rápida **Geral**, defina a opção **Workflow de aprovação** como **Sim**. Se for solicitado para você aprovar a ação, selecione **Sim**.
 

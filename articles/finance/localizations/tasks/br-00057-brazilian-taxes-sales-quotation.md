@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6733a01f8b2184e42f591f9d154d2c6eaad5430
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6caa12b1fa910b6167646b7f41d75997fec712fb641df302f4c470983bdd6208
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823627"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766262"
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a>Impostos brasileiros nas cotações de venda
 
@@ -26,7 +26,7 @@ ms.locfileid: "5823627"
 
 Use este procedimento para criar uma cotação de venda que usa impostos brasileiros. É possível criar uma cotação especificando as informações fiscais, como o tipo de operação e o CFOP (Código Fiscal de Operações e Prestações). Ao criar uma linha de cotação, é possível selecionar um código de CFOP no campo CFOP. Os códigos de CFOP disponíveis neste campo dependem do estabelecimento fiscal do site selecionado no campo Site. Os grupos de impostos nos campos Grupo de impostos sobre vendas e Imposto do item também são atualizados com base na matriz de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
+1. Acesse Vendas e marketing > Cotações de venda > Todas as cotações.
 2. Clique em Novo.
 3. No campo Tipo de conta, selecione uma opção.
 4. No campo Conta de cliente, insira ou selecione um valor.

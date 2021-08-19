@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: fc656c6339da92deceff2f8861fd8570171b7a2d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7d7688e757a3ab9746ae0307a7c15f0624c1d8aceeb0dc935b0da32d3ab2994b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752673"
 ---
 # <a name="synchronize-work-orders-in-field-service-to-sales-orders-in-supply-chain-management"></a>Sincronizar ordens de serviço no Field Service com ordens de venda no Supply Chain Management
 
@@ -231,7 +231,7 @@ A integração da ordem de trabalho exige que você configure a origem de venda.
 ### <a name="setup-in-data-integration"></a>Configurar em Integração de dados
 
 Verifique se **Chave de integração** existe para **msdyn_workorders**
-1. Vá para Integração de dados
+1. Acesse Integração de dados
 2. Selecione a guia **Conjunto de conexão**
 3. Selecione o Conjunto de conexão usado para sincronização da Ordem de trabalho
 4. Selecione a guia **Chave de integração**

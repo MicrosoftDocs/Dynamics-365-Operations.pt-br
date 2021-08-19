@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b51e4b4d00da2babb5128d8c4c22139b0c1853d4
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: d829687521c002a84de8f88caff22a8f0362c75e91ac355fd0b5002d0bd981c2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768062"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Criar um plano de materiais para coprodutos
 
@@ -28,7 +28,7 @@ O planejador de produção planeja os requisitos de materiais para itens que sã
 
 ## <a name="create-requirement-for-a-co-product"></a>Criar requisito para um coproduto
 
-1. Vá para **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
+1. Acesse **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
 1. Selecione **Novo**.
 1. Selecione **Ordem de venda**.
 1. No campo **Conta de cliente**, digite um valor.
@@ -69,7 +69,7 @@ O planejador de produção planeja os requisitos de materiais para itens que sã
 
 ## <a name="create-a-second-requirement-for-a-co-product"></a>Crie um segundo requisito para um coproduto
 
-1. Vá para **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
+1. Acesse **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
 1. Selecione **Novo**.
 1. Selecione **Ordem de venda**.
 1. No campo **Conta de cliente**, digite um valor.
@@ -105,7 +105,7 @@ O planejador de produção planeja os requisitos de materiais para itens que sã
     * A ordem planejada está vinculada a ordem de venda para o coproduto.  
 16. Feche a página.
 17. Selecione **Planejamento mestre**.
-18. Vá para **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**.
+18. Acesse **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**.
 19. Selecione *Não* no campo **Desabilitar todos os processos de planejamento**.
 20. Feche a página.
 

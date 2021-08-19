@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6426b5e655359788822f8dd5c554397ac715c5ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 743777fcf7abdb60aa48a3e08e364c1edca1d27d2d084a014d13f51e50f464e6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812149"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764050"
 ---
 # <a name="create-a-request-for-quotation"></a>Criar uma solicitação de cotação
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar uma solicitação de cotação. Isso seria f
 
 
 ## <a name="prepare-a-new-rfq"></a>Preparar uma nova RFQ
-1. Vá para **Painel de navegação > Módulos > Aquisição e fornecimento > Solicitações de cotação > Todas as solicitações de cotação**.
+1. Acesse **Painel de navegação > Módulos > Aquisição e fornecimento > Solicitações de cotação > Todas as solicitações de cotação**.
 2. Clique em **Novo**.
     Os seguintes tipos de compra estão disponíveis: Ordem de compra (este é o padrão): um documento que confirma a oferta para comprar produtos, ou a aceitação de uma oferta para vender produtos em troca de pagamento. Requisição de compra: esse tipo é selecionado automaticamente ao criar uma RFQ diretamente de uma requisição de compra. Se você selecionar essa opção manualmente, receberá uma mensagem de erro. Contrato de compra: um contrato para comprar uma quantidade ou um valor específico de produtos ao longo do tempo. Se você selecionar esta opção, selecione o intervalo de datas que se aplica ao contrato de compra.  
 3. No campo **Título do documento**, digite um valor.
@@ -72,7 +72,7 @@ Depois de ter especificado as informações básicas sobre sua RFQ, você especi
 6. Feche a página.
 
 ## <a name="view-the-rfq-journal"></a>Exibir o diário da RFQ
-1. Vá para **Aquisição e fornecimento > Solicitações de cotação > Acompanhamento de solicitações de cotação > Diários de solicitações de cotação**.
+1. Acesse **Aquisição e fornecimento > Solicitações de cotação > Acompanhamento de solicitações de cotação > Diários de solicitações de cotação**.
 2. Clique em **Visualizar/Imprimir**.
 3. Clique em **Exibição original**.
 4. Feche a página.

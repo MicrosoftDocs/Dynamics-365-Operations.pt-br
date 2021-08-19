@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 80d62b29fcc95a3153c604512e1ee6b3e55ba840
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8bd7a1bebd3d97923a9435d4cc96bfb69e326de8e50507eeae649834ce4c2b69
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760839"
 ---
 # <a name="generate-online-channel-reports"></a>Gerar relatórios do canal online
 
@@ -40,7 +40,7 @@ O relatório **Resumo de canal** mostra um resumo das transações de canal sele
 
 Para gerar um relatório **Resumo de canal**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de resumo de canal**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de resumo de canal**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -52,7 +52,7 @@ O relatório de **Vendas de canal por ano** mostra uma comparação de vendas ao
 
 Para gerar um relatório **Vendas de canal por ano**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas do canal por ano**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas do canal por ano**.
 1. No campo **Do ano civil**, insira um ano.
 1. No campo **Para ano civil**, insira um ano.
 1. No campo **Canal**, selecione o canal online.
@@ -64,7 +64,7 @@ O relatório **Canal de vendas por hora** mostra métricas de venda por hora par
 
 Para gerar um relatório **Vendas de canal por hora**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas do canal por hora**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas do canal por hora**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -76,7 +76,7 @@ O relatório **Principais clientes** mostra métricas de venda para os principai
 
 Para gerar um relatório **Principais clientes**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores clientes**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores clientes**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -88,7 +88,7 @@ O relatório **Principais descontos** mostra métricas de venda para os principa
 
 Para gerar um relatório **Principais descontos**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores descontos**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores descontos**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -100,7 +100,7 @@ O relatório **Principais produtos** mostra métricas de venda para os principai
 
 Para gerar um relatório **Principais produtos**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores produtos**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de melhores produtos**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -112,7 +112,7 @@ O relatório **Vendas de categoria** mostra métricas de venda em um período se
 
 Para gerar um relatório **Vendas de categoria**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas por categoria**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas por categoria**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. No campo **Canal**, selecione o canal online.
@@ -124,7 +124,7 @@ O relatório **Vendas da organização** mostra o desempenho das lojas por unida
 
 Para gerar um relatório **Vendas organizacional**, siga essas etapas.
 
-1. Vá para **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas da organização**.
+1. Acesse **Retail e Commerce \> Consultas e relatórios \> Relatórios de vendas \> Relatório de vendas da organização**.
 1. No campo **Data inicial**, insira uma data.
 1. No campo **Data final**, insira uma data.
 1. Selecione **OK**.

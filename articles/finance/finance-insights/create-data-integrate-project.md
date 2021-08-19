@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: bea1fe3df255bd07a205f90cff8c546cee422fa3
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: a32ad6eb1b1874a9f9ec452def3c213cd160c5faa2aec02b655a86e160e2b509
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638647"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768978"
 ---
 # <a name="create-a-data-integrator-project-preview"></a>Criar um projeto de integrador de dados (versão prévia)
 
@@ -29,7 +29,7 @@ ms.locfileid: "6638647"
 Este tópico explica como criar um projeto de integrador de dados.
 
 1. Entre no Microsoft Dynamics 365 Finance.
-2. Vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione **Entidades de dados**. Aguarde até que todas as entidades de dados tenham sido atualizadas antes de passar para a próxima etapa.
+2. Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione **Entidades de dados**. Aguarde até que todas as entidades de dados tenham sido atualizadas antes de passar para a próxima etapa.
 3. Abra o [portal do Power Apps](https://make.powerapps.com/) e siga estas etapas:
 
     1. Selecione o ambiente apropriado.
@@ -65,6 +65,6 @@ Este tópico explica como criar um projeto de integrador de dados.
     2. Defina o plano apropriado para cada projeto.
 
 > [!NOTE]
-> Se você não vir as entidades necessárias no CDS, vá para **Crédito e cobranças > Configuração > Insights do Finance > Parâmetros de insights do Finance**, habilite o recurso de previsões de pagamento de cliente e clique no botão **Criar modelo de previsão**. Quando a implantação do modelo de IA é concluída (bem ou mal sucedida), as entidades do CDS necessárias para criar a integração serão implantadas no CDS.
+> Se você não vir as entidades necessárias no CDS, Acesse **Crédito e cobranças > Configuração > Insights do Finance > Parâmetros de insights do Finance**, habilite o recurso de previsões de pagamento de cliente e clique no botão **Criar modelo de previsão**. Quando a implantação do modelo de IA é concluída (bem ou mal sucedida), as entidades do CDS necessárias para criar a integração serão implantadas no CDS.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

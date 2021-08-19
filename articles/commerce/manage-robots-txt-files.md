@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2019-12-18
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b9b832d6714447f8957095c8c87d48527087f12d
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: e1078de354a96cc50b7c1b79a864db5041ea5069df650670e65531faaeb32e0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794226"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754383"
 ---
 # <a name="manage-robotstxt-files"></a>Gerenciar arquivos robots.txt
 
@@ -60,7 +60,7 @@ Para baixar um arquivo robots. txt no Commerce, siga estas etapas.
 3. Em **Configurações do Locatário**, selecione **Robots.txt**. Uma lista de todos os domínios associados ao seu ambiente aparece na parte principal da janela.
 4. Selecione **Gerenciar** para baixar um arquivo robots. txt para um domínio no seu ambiente.
 5. No menu à direita, selecione o botão **Baixar** (a seta apontando para baixo) próximo ao domínio associado ao arquivo robots. txt. Uma caixa de diálogo do navegador de arquivos é exibida.
-6. Na caixa de diálogo, vá para o local desejado na unidade local, confirme ou insira um nome de arquivo e selecione **Salvar** para concluir o download.
+6. Na caixa de diálogo, Acesse o local desejado na unidade local, confirme ou insira um nome de arquivo e selecione **Salvar** para concluir o download.
 
 > [!NOTE]
 > Este procedimento pode ser usado para baixar somente os arquivos robots. txt que foram previamente carregados por meio das ferramentas de criação do Commerce.

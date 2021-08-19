@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 2066e0841658917cb0e6ddc0fbacf98d52098da8
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: f474b5936f2ae154ad54185becd91865642e8efe3cf10e7dcdbb650c6c833b21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762587"
 ---
 # <a name="configure-and-work-with-call-center-order-holds"></a>Configurar e trabalhar com bloqueios de ordem do call center
 
@@ -31,11 +31,11 @@ Este tópico descreve os recursos de bloqueio de ordem do Dynamics 365 Commerce 
 
 ## <a name="configuring-call-center-order-holds"></a>Como configurar bloqueios de ordem do call center
 
-Para usar os recursos de bloqueio de ordem do call center, primeiro defina códigos de bloqueio. Para criar um conjunto de códigos de bloqueio definidos pelo usuário, com base nas suas necessidades comerciais, vá para **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Códigos de bloqueio de ordem**. Opcionalmente, você pode sinalizar um dos códigos de bloqueio como o código de retenção padrão, definindo a opção **Padrão da ordem de venda** como **Sim** para ele. Esse código de bloqueio será usado a qualquer momento em que uma ordem de venda for colocada em espera. Se uma ordem de venda tiver reservado o estoque e as reservas precisarem ser removidas automaticamente se a ordem for colocada em espera por um motivo específico, defina a opção **Remover reservas de estoque** como **Sim** para os códigos de motivo.
+Para usar os recursos de bloqueio de ordem do call center, primeiro defina códigos de bloqueio. Para criar um conjunto de códigos de bloqueio definidos pelo usuário, com base nas suas necessidades comerciais, Acesse **Vendas e marketing** \> **Configuração** \> **Ordens de venda** \> **Códigos de bloqueio de ordem**. Opcionalmente, você pode sinalizar um dos códigos de bloqueio como o código de retenção padrão, definindo a opção **Padrão da ordem de venda** como **Sim** para ele. Esse código de bloqueio será usado a qualquer momento em que uma ordem de venda for colocada em espera. Se uma ordem de venda tiver reservado o estoque e as reservas precisarem ser removidas automaticamente se a ordem for colocada em espera por um motivo específico, defina a opção **Remover reservas de estoque** como **Sim** para os códigos de motivo.
 
-Para especificar o tipo de nota que será capturado quando usuários que colocam uma ordem de venda em espera inserirem notas opcionais, vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, na Guia Rápida **Configuração de vendas**, na guia **Geral**, defina o campo **Tipo de nota**. Use o campo **Status da ordem de venda Em Espera** para definir a cor que será usada para realçar ordens de venda que estão em espera quando são exibidas na página **Atendimento ao cliente**.
+Para especificar o tipo de nota que será capturado quando usuários que colocam uma ordem de venda em espera inserirem notas opcionais, Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, na Guia Rápida **Configuração de vendas**, na guia **Geral**, defina o campo **Tipo de nota**. Use o campo **Status da ordem de venda Em Espera** para definir a cor que será usada para realçar ordens de venda que estão em espera quando são exibidas na página **Atendimento ao cliente**.
 
-Para criar um conjunto opcional de códigos de motivo de bloqueio, vá para **Varejo e Comércio** \> **Configuração de canal** \> **Códigos informativos**. Esses códigos informativos podem ser usados como um código de motivo secundário para definir mais o código de bloqueio principal. Selecione **Novo** para criar um conjunto de códigos de motivo e selecione **Subcódigos** para definir a lista de motivos adicionais. Para vincular os códigos informativos que você definir para o canal de call center, vá para **Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers**. Na Guia Rápida **Geral**, defina o campo **Código de bloqueio**.
+Para criar um conjunto opcional de códigos de motivo de bloqueio, Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Códigos informativos**. Esses códigos informativos podem ser usados como um código de motivo secundário para definir mais o código de bloqueio principal. Selecione **Novo** para criar um conjunto de códigos de motivo e selecione **Subcódigos** para definir a lista de motivos adicionais. Para vincular os códigos informativos que você definir para o canal de call center, Acesse **Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers**. Na Guia Rápida **Geral**, defina o campo **Código de bloqueio**.
 
 ## <a name="putting-orders-on-hold"></a>Como colocar ordens em espera
 
@@ -70,7 +70,7 @@ Para exibir os detalhes de um bloqueio de ordem individual, os usuários podem a
 
 ### <a name="viewing-all-orders-that-are-on-hold"></a>Como exibir todas ordens que estão em espera
 
-Para exibir todas as ordens que foram colocadas em espera de forma manual ou automática, vá para **Varejo e Comércio** \> **Clientes** \> **Bloqueios de ordem**.
+Para exibir todas as ordens que foram colocadas em espera de forma manual ou automática, Acesse **Varejo e Comércio** \> **Clientes** \> **Bloqueios de ordem**.
 
 A bancada **Bloqueios de ordem** fornece uma exibição de lista de todas as ordens que estão em espera devido a ações de bloqueio manual ou relativo a fraudes. Aproveitando as opções padrão de filtragem e classificação na página, os usuários podem criar exibições que permitam gerenciar ou trabalhar com códigos de bloqueio específicos cuja revisão esteja sob sua responsabilidade. A bancada **Bloqueios de ordem** também indica o número de dias em que uma ordem está em espera. Essas informações podem ajudar os usuários a priorizarem a fila.
 
@@ -99,7 +99,7 @@ Se os usuários quiserem liberar um bloqueio, mas fazer alterações adicionais 
 
 ## <a name="reporting-options"></a>Opções de relatório
 
-Vá para **Varejo e Comércio** \> **Consultas e relatórios** \> **Relatórios de call center** \> **Relatório de bloqueios de ordem** para executar um relatório sobre os bloqueios de ordem por intervalo de datas, código de bloqueio ou outros critérios relacionados.
+Acesse **Varejo e Comércio** \> **Consultas e relatórios** \> **Relatórios de call center** \> **Relatório de bloqueios de ordem** para executar um relatório sobre os bloqueios de ordem por intervalo de datas, código de bloqueio ou outros critérios relacionados.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

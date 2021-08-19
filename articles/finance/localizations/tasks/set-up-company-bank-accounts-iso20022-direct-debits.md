@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 319bf71982987296a8270f596f8d2bb518dd1790
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a0f8ac369bb6b9a7a0f21c23aaddab2601ae3f8f37e2427cbb10b5509a7a2f23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819447"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768708"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Configurar contas bancárias de empresa para débitos diretos de ISO20022
 
@@ -36,7 +36,7 @@ Este é o segundo dos cinco procedimentos que demonstram o processo de pagamento
 
 
 ## <a name="set-up-the-iban-and-swift-codes"></a>Configurar códigos IBAN e SWIFT
-1. Vá para Gerenciamento de caixa e bancos > Contas bancárias.
+1. Acesse Gerenciamento de caixa e bancos > Contas bancárias.
 2. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'DEMF OPER'.
 3. Na lista, clique no link na linha selecionada.
     * Por exemplo, clique em 'DEMF OPER' para abrir os detalhes da conta bancária.  
@@ -49,7 +49,7 @@ Este é o segundo dos cinco procedimentos que demonstram o processo de pagamento
 8. Clique em Salvar.
 
 ## <a name="set-up-a-bank-account-for-the-legal-entity"></a>Configurar conta bancária da entidade legal
-1. Vá para Administração da organização > Organizações > Entidades legais.
+1. Acesse Administração da organização > Organizações > Entidades legais.
 2. Clique em Editar.
 3. Expandir ou recolher a seção Informações de conta bancária.
 4. No campo Conta bancária, clique no botão suspenso para abrir a pesquisa.

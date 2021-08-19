@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9325bbb8d28587baeb60cdf1fc37121c236f1a10
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3ed9df21e37a963d3f7dd22f111270ac3069463ba2a0592b8133cef919567f78
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828913"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751832"
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>Criar uma regra kanban de evento de vendas
 
@@ -31,7 +31,7 @@ Este procedimento tem como foco a configuração necessária para criar uma regr
 
 
 ## <a name="create-a-new-kanban-rule"></a>Criar uma nova regra kanban
-1. Vá para Regras kanban.
+1. Acesse Regras kanban.
 2. Clique em Novo.
 3. No campo Estratégia de reabastecimento, selecione 'Evento'.
     * Selecionar Evento significa que a regra kanban é ativada por um evento, como a criação de uma linha da ordem de venda.   Isso é aplicado a áreas nas quais cada kanban deve cobrir uma demanda específica.  

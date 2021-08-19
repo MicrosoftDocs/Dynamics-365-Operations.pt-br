@@ -15,12 +15,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e0ffcef15515a81aecbf1f1257f8fa7f46a2b876
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3de1316844451d2bbfd4c8a4d4f72d75bfd27b9a13d72ed8237e0e8066147add
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335441"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755290"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>Configurar um perfil de visão geral de entradas de item
 
@@ -28,7 +28,7 @@ ms.locfileid: "6335441"
 
 Esse tópico se concentra na configuração de um perfil de visão geral de entradas. O perfil de visão geral de entradas é um conjunto de regras que serão aplicadas quando a página de Visão geral de entradas for aberta por um usuário. Você pode usar este procedimento na empresa USMF de dados de demonstração. Este procedimento será geralmente executado por um auxiliar de recebimento.
 
-1. No painel de navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Distribuição > Perfis de visão geral de entrada**.
+1. No painel de navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Distribuição > Perfis de visão geral de entrada**.
 2. Selecione **Novo**. Considerando que você quase sempre irá trabalhar no mesmo depósito descarregando cargas de caminhões, você deve criar uma visão geral das chegadas para simplificar o processo de registro de itens recebidos.  
 3. No campo **Nome do perfil de visão geral de entradas**, digite um valor.
 4. No campo **Mostrar linhas**, selecione uma opção. Selecione quais linhas dos recibos devem ser exibidas:  

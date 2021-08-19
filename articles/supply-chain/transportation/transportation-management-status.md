@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-09-08
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f3a2b9e50dddf0f015cdd3f16d6d93fcc03d464d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5a2b114be69d5e2e26f1fc7e82a4332f343adbaa71d7b7cf8c6df8ce09b08642
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807599"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753171"
 ---
 # <a name="transportation-management-statuses"></a>Status de gerenciamento de transporte
 
@@ -29,7 +29,7 @@ Configure códigos mestre para status de transporte para interpretar códigos fo
 
 Para criar um status de transporte, siga estas etapas:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Mestres do status do transporte**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Mestres do status do transporte**.
 1. Selecione **Novo** para criar um mestre de status do transporte.
 1. No campo **Mestre do status do transporte**, insira um código exclusivo para o status de transporte.
 1. No campo **Tipo de transporte**, selecione *Transportadora* ou *Hub* como o tipo de transporte.
@@ -40,7 +40,7 @@ Para criar um status de transporte, siga estas etapas:
 
 Para mapear um status de transporte para um status de transportadora, siga estas etapas:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Status do transporte da transportadora**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Status do transporte da transportadora**.
 1. Selecione **Novo** para mapear um código de uma transportadora para um código mestre de status da transportadora.
 1. Selecione a ID exclusiva da transportadora e o serviço da transportadora.
 1. Selecione o código de status do transporte a ser mapeado para o código da transportadora selecionada.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0f23748f6f1d2c3045b1dc69d8e46821f67da593
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: c3dfe6ce9c918b5fccbd7097096fa359facdf41bbf6fd0fab6c61153171484cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753019"
 ---
 # <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER Projetar uma configuração para gerar relatórios no formato OPENXML (Novembro de 2016)
 
@@ -32,7 +32,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Carregar a configuração do modelo de dados de pagamentos
-1. No Painel de Navegação, vá para **Módulos > Administração da organização > Espaços de trabalho > Relatório eletrônico**.
+1. No Painel de Navegação, Acesse **Módulos > Administração da organização > Espaços de trabalho > Relatório eletrônico**.
 2. Na lista, marque o provedor de configuração para a empresa de exemplo, "Litware, Inc." Se você não visualizar o provedor de configuração, você deve primeiro concluir as etapas em [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Definir como ativo**.
 4. Selecione **Repositórios**. Selecione um repositório para o tipo Recursos de operações, se disponível. Se estiver disponível, pule as etapas a seguir sobre criar um novo repositório.  
@@ -119,7 +119,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 1. Selecione **Alterar status**.
 2. Selecione **Concluir**.
 3. Selecione **OK**.
-4. No Painel de Navegação, vá para **Módulos > Contas a pagar > Configuração de pagamento > Formas de pagamento**.
+4. No Painel de Navegação, Acesse **Módulos > Contas a pagar > Configuração de pagamento > Formas de pagamento**.
 5. Use o Filtro Rápido para filtrar o campo **Forma de pagamento** com o valor **Eletrônico**.
 6. Selecione **Editar**.
 7. Expanda a seção **Formatos de arquivo**.
@@ -129,7 +129,7 @@ Para completar essas etapas, você deve primeiro completar as etapas do procedim
 11. Feche a página.
 
 ## <a name="use-the-created-configuration-for-testing-of-payment-journals-processing"></a>Use a configuração criada para testar de processar diários de pagamentos
-1. No Painel de Navegação, vá para **Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
+1. No Painel de Navegação, Acesse **Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
 2. Selecione **Novo** para criar um novo diário de pagamentos.
 3. No campo **Nome**, digite **VendPay**.
 4. Selecione **Linhas**.

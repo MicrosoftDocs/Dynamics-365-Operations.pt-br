@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08669ceeca46ca415d9b0d19ddef3bc9b1100120
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 242dd46e8b54504924f5bd13404dd9780c112cff8339d0a645785b2d4243871a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760433"
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar políticas para hierarquias de categoria de compras
 
@@ -28,7 +28,7 @@ Use este procedimento para configurar regras para encomendar produtos em uma cat
 
 
 ## <a name="find-the-procurement-policy"></a>Encontre a política de obtenção
-1. No Painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+1. No Painel de navegação, Acesse **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
 2. Clique no link da política do 'USMF da política de aquisição'. Esta é a política que você adicionará a uma regra. Deve ser uma política ativa.  
 
 ## <a name="create-a-category-access-rule"></a>Criar uma regra de acesso de categoria

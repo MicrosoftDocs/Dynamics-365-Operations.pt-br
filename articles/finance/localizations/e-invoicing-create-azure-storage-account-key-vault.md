@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: d68587a88b52e95d1e11c64b9a2d51dbc8b70561
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a0fe265c75138f3ecfbf08de3c30b2c824463afc35414986e21c4a27bf84bb61
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770527"
 ---
 # <a name="create-an-azure-storage-account-and-a-key-vault"></a>Criar uma conta de armazenamento do Azure e um cofre de chaves
 
@@ -43,9 +43,9 @@ Neste tópico, você executará duas etapas principais:
 ## <a name="set-up-the-azure-storage-account-to-get-the-storage-account-uri"></a>Configure a conta de armazenamento do Azure para obter o URI da conta de armazenamento
 
 1. Abra a conta de armazenamento que você planeja usar com o Faturamento eletrônico.
-2. Vá para **Serviço Blob** \> **Contêineres** e crie um novo contêiner.
+2. Acesse **Serviço Blob** \> **Contêineres** e crie um novo contêiner.
 3. Digite um nome para o contêiner e defina o campo **Nível de acesso público** como **Privado (sem acesso anônimo)**.
-4. Abra o contêiner e vá para **Configurações \> Política de acesso**.
+4. Abra o contêiner e Acesse **Configurações \> Política de acesso**.
 5. Selecione **Adicionar política** para adicionar uma política de acesso armazenada.
 6. Defina os campos **Identificador** e **Permissões**, conforme apropriado. No campo **Permissões**, você deve selecionar todas as permissões.
 
@@ -62,11 +62,11 @@ Neste tópico, você executará duas etapas principais:
 ## <a name="set-up-the-key-vault-to-store-the-storage-account-uri"></a>Configure o cofre de chaves para armazenar o URI da conta de armazenamento
 
 1. Abra o cofre de chaves que você pretende usar com o Faturamento eletrônico.
-2. Vá para **Configurações** \> **Segredos** e selecione **Gerar/Importar** para criar um novo segredo.
+2. Acesse **Configurações** \> **Segredos** e selecione **Gerar/Importar** para criar um novo segredo.
 3. Na página **Criar um segredo**, no campo **Opções de carregamento**, selecione **Manual**.
 4. Insira o nome do segredo. Esse nome será usado durante a configuração do serviço no RCS (Regulatory Configuration Service) e será referenciado como *Nome secreto do cofre de chaves*.
 5. No campo **Valor**, selecione **URI de Assinatura de Acesso Compartilhado** e, em seguida, selecione **Criar**.
-6. Configure a política de acesso para conceder ao Faturamento eletrônico o nível correto de acesso seguro ao segredo criado. Vá para **Configurações \> Política de acesso** e selecione **Adicionar Política de Acesso**.
+6. Configure a política de acesso para conceder ao Faturamento eletrônico o nível correto de acesso seguro ao segredo criado. Acesse **Configurações \> Política de acesso** e selecione **Adicionar Política de Acesso**.
 7. Defina as permissões secretas para as operações **Obter** e **Lista**.
 
     ![Conceder acesso ao serviço.](media/e-Invoicing-services-create-azure-resources-grant-service-access.png)

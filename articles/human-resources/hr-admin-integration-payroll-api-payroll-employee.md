@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 672db002ddf8d12aaab5b97241390c036ad7ab5c
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: 20e74e97f98d0bc0fd454d54cbf969d4f1b46c7c98b2949b0ed8cfe671312dd2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538845"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768182"
 ---
 # <a name="payroll-employee"></a>Funcionário da folha de pagamento
 
@@ -33,27 +33,25 @@ Nome físico: mshr_payrollemployeeentity.
 Esta entidade fornece informações sobre o funcionário. Você deve definir os [parâmetros de integração de folha de pagamento](hr-admin-integration-payroll-api-parameters.md) antes de usar esta entidade.
 
 >[!IMPORTANT] 
->Os campos **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** e **NameValidTo** não estarão mais disponíveis nesta entidade. Isto acontece para garantir que haja apenas uma fonte de dados de data efetiva que faça o backup dessa entidade, que é **HcmEmployment** com os campos **EmploymentStartDate** e **EmploymentEndDate**.
-
->Estes campos estarão disponíveis na entidade **DirPersonNameHistoricalEntity**, que foi liberada na atualização 43 da plataforma. Há uma relação OData de **PayrollEmployeeEntity** para **DirPersonNameHistoricalEntity** no campo **Pessoa**. Como alternativa, a entidade **DirPersonNameHistoricalEntity** pode ser consultada diretamente por meio do OData usando o nome público, **PersonHistoricalNames**.
-
+>Os campos **FirstName**, **MiddleName**, **LastName**, **NameValidFrom** e **NameValidTo** não estão mais disponíveis nesta entidade. Isso garante que exista apenas uma fonte de dados de data efetiva que apoie a essa entidade.
+>Estes campos estarão disponíveis na entidade **DirPersonNameHistoricalEntity**, que foi liberada na atualização 43 da plataforma. Há um relacionamento OData de **PayrollEmployeeEntity** para **DirPersonNameHistoricalEntity** no campo **Pessoa**. 
 
 ## <a name="properties"></a>Propriedades
 
 | Propriedade<br>**Nome físico**<br>**_Tipo_** | Usar | descrição |
 | --- | --- | --- |
-| **Número da equipe**<br>mshr_personnelnumber<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório | O número da equipe exclusiva do funcionário. |
-| **Campo principal**<br>mshr_primaryfield<br>*Sequência de caracteres* | Obrigatório<br>Gerado pelo sistema |  |
-| **ID da entidade legal**<br>mshr_legalentityID<br>*Sequência de caracteres* | Somente leitura<br>Obrigatório | Especifica a entidade legal (empresa). |
-| **Sexo**<br>mshr_gender<br>[conjunto de opções mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Somente leitura<br>Obrigatório | O sexo do funcionário. |
+| **Número da equipe**<br>mshr_personnelnumber<br>*Sequência de caracteres* | Somente leitura | O número da equipe exclusiva do funcionário. |
+| **Campo principal**<br>mshr_primaryfield<br>*Sequência de caracteres* | Somente leitura<br>Gerado pelo sistema |  |
+| **ID da entidade legal**<br>mshr_legalentityID<br>*Sequência de caracteres* | Somente leitura | Especifica a entidade legal (empresa). |
+| **Sexo**<br>mshr_gender<br>[conjunto de opções mshr_hcmpersongender](hr-admin-integration-payroll-api-gender.md) | Somente leitura | O sexo do funcionário. |
 | **ID da entidade do funcionário da folha de pagamento**<br>mshr_payrollemployeeentityid<br>*GUID* | Obrigatório<br>Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o funcionário. |
-| **Data de início do emprego**<br>mshr_employmentstartdate<br>*Compensação de data/hora* | Somente leitura<br>Obrigatório | A data de início do emprego do funcionário. |
-| **ID de tipo de identificação**<br>mshr_identificationtypeid<br>*Sequência de caracteres* |Somente leitura<br>Obrigatório | O tipo de identificação definido para o funcionário. |
-| **Data final do emprego**<br>mshr_employmentenddate<br>*Compensação de data/hora* | Somente leitura<br>Obrigatório |O final do emprego do funcionário.  |
-| **ID da área de dados**<br>mshr_dataareaid_id<br>*GUID* | Obrigatório <br>Gerado pelo sistema | Valor GUID gerado pelo sistema identificando a entidade legal (empresa). |
-| **Válida até**<br>mshr_namevalidto<br>*Compensação de Data/Hora* |  Somente leitura<br>Obrigatório | Data até a qual as informações do funcionário são válidas. |
-| **Data de aniversário**<br>mshr_birthdate<br>*Compensação de Data/Hora* | Somente leitura <br>Obrigatório | A data de nascimento do funcionário |
-| **Número de identificação de**<br>mshr_identificationnumber<br>*Sequência de caracteres* | Somente leitura <br>Obrigatório |O número de identificação definido para o funcionário.  |
+| **Data de início do emprego**<br>mshr_employmentstartdate<br>*Compensação de data/hora* | Somente leitura | A data de início do emprego do funcionário. |
+| **ID de tipo de identificação**<br>mshr_identificationtypeid<br>*Sequência de caracteres* |Somente leitura | O tipo de identificação definido para o funcionário. |
+| **Data final do emprego**<br>mshr_employmentenddate<br>*Compensação de data/hora* | Somente leitura |O final do emprego do funcionário.  |
+| **ID da área de dados**<br>mshr_dataareaid_id<br>*GUID* | Somente leitura <br>Gerado pelo sistema | Valor GUID gerado pelo sistema identificando a entidade legal (empresa). |
+| **Válida até**<br>mshr_namevalidto<br>*Compensação de Data/Hora* |  Somente leitura | Data até a qual as informações do funcionário são válidas. |
+| **Data de aniversário**<br>mshr_birthdate<br>*Compensação de Data/Hora* | Somente leitura | A data de nascimento do funcionário |
+| **Número de identificação de**<br>mshr_identificationnumber<br>*Sequência de caracteres* | Somente leitura |O número de identificação definido para o funcionário.  |
 
 ## <a name="example-query-for-payroll-employee"></a>Exemplo de consulta para funcionário da folha de pagamento
 

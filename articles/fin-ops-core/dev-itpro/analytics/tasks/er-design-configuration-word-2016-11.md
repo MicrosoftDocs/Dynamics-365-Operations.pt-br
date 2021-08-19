@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d152449b55ab111cf5bac363b38d32c3658a56e3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 83e75eee54516539be939e9547a8b637bbf2ab107ae96c07c4bbefaad75f1022
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768432"
 ---
 # <a name="reuse-er-configurations-with-excel-templates-to-generate-reports-in-word-format"></a>Reutilizar configurações de ER com modelos do Excel para gerar relatórios no formatos Word
 
@@ -43,7 +43,7 @@ Esses procedimentos são para um recurso que foi adicionado no Dynamics 365 for 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selecionar a configuração de relatório de ER existente
 
-1. No Dynamics 365 Finance, vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. No Dynamics 365 Finance, Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Verifique se o provedor de configuração **Litware, Inc.** está selecionado como **Ativo**. Se não estiver, siga as etapas no guia de tarefas [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md).
 3. Selecione **Configurações de relatórios**. Você reutilizará a configuração de ER existente que foi criada para gerar a saída de relatório no formato OPENXML.
 4. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **Exemplo de relatório de planilha**.
@@ -139,7 +139,7 @@ Para executar a versão de rascunho do formato editável, você deve torná-la [
 
 ## <a name="run-the-format-to-create-output-in-word-format"></a>Executar o formato para criar saída no formato do Word
 
-1. No Finance, vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos**.
+1. No Finance, Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos**.
 2. Em um diário de pagamentos inserido anteriormente, selecione **Linhas**.
 3. Na página **Pagamentos do fornecedor**, selecione todas as linhas na grade.
 4. Selecione o **Status do pagamento** \> **Nenhum**.

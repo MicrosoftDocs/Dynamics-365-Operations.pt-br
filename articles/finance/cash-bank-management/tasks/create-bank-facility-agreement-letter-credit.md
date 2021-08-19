@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 582a41a0a4a3c509eae8a05c57b0910446addb26
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f978c02e269ca67f50af1d1588d765a9a986f66d7d76164d36f6aaece0e4b018
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754896"
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Criar um contrato de recursos bancários para uma carta de crédito
 
@@ -28,7 +28,7 @@ Essa tarefa caminha com a criação de um contrato de recursos bancários para p
 
 
 ## <a name="create-bank-facility-agreement"></a>Criar um Contrato de recursos bancários
-1. Vá para Gerenciamento de dinheiro e banco > Cartas de crédito > Contratos de facilidade do banco.
+1. Acesse Gerenciamento de dinheiro e banco > Cartas de crédito > Contratos de facilidade do banco.
 2. Clique em Novo.
 3. No campo Número do contrato, insira o número do contrato de acordo com o contrato com o banco.
 4. No campo Conta de banco, insira o número da conta do banco emissor.
