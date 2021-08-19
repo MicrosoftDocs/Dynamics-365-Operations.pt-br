@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: ankubik
 ms.search.validFrom: 2021-06-10
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 4f993c92ca0a2f8f79e4b0e0eda43904529163f8
-ms.sourcegitcommit: 18ca2df785e9656fdd4e8c0734eca2b2624fda10
+ms.openlocfilehash: a41cf955d151726348bea83e52a24bc8784352c2d07268ced944e4cc6bf35491
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "6294007"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712901"
 ---
 # <a name="selected-formula-number-isnt-approved-for-a-batch-order"></a>O número de fórmula selecionado não é aprovado para um pedido de lote
 
@@ -36,7 +36,7 @@ O sistema valida a operação de firmamento para garantir que uma fórmula aprov
 
 Para aprovar uma fórmula, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Lista de materiais e fórmulas \> Fórmulas**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Lista de materiais e fórmulas \> Fórmulas**.
 1. Selecione a fórmula relevante.
 1. No Painel de Ação, na guia **Fórmula**, no grupo **Manter**, selecione **Aprovar fórmula**.
 1. Na caixa de diálogo **Aprovar lista de materiais ou fórmula**, selecione um aprovador e selecione **OK**.

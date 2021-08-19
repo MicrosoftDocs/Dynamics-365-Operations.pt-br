@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 27c1f910fc9fa533877726562c45a9eaa13e2858
-ms.sourcegitcommit: 9283caad2d0636f98579c995784abec19fda2e3f
+ms.openlocfilehash: 45e77ee43f6f96edb29924fc420172525e95e46f98f19177ba7253a2119db9ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717283"
 ---
 # <a name="improve-master-planning-performance"></a>Melhorar o desempenho de planejamento mestre
 
@@ -39,7 +39,7 @@ Vários parâmetros influenciam o tempo de execução do planejamento mestre e d
 
 O parâmetro **Número de threads** permite ajustar o processo de agendamento do planejamento mestre para ajudá-lo a melhorar o desempenho no conjunto de dados específico. Este parâmetro especifica o número total de threads que serão usados para executar o planejamento mestre. Isso causa paralelização da execução do planejamento mestre que ajuda a reduzir o tempo de execução. 
 
-É possível definir o parâmetro **Número de threads** na caixa de diálogo **Execução do planejamento mestre**. Para abrir esta caixa de diálogo, vá para **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para determinar o melhor valor para este parâmetro, você terá que contar com um processo de tentativa e erro. Entretanto, você pode usar as seguintes fórmulas para calcular um valor inicial:
+É possível definir o parâmetro **Número de threads** na caixa de diálogo **Execução do planejamento mestre**. Para abrir esta caixa de diálogo, Acesse **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para determinar o melhor valor para este parâmetro, você terá que contar com um processo de tentativa e erro. Entretanto, você pode usar as seguintes fórmulas para calcular um valor inicial:
 
 - **Se seu setor for de fabricação:** (Número de threads) = (Número de ordens planejadas ÷ 1.000)
 - **Caso contrário:** (Número de threads) = (Número de itens ÷ 1.000)
@@ -124,7 +124,7 @@ Ao examinar o log da sessão, considere o seguinte:
 
 ## <a name="filtering-of-items"></a>Filtragem de itens
 
-Filtros que são aplicados na caixa de diálogo **Execução do planejamento mestre** afetam a duração da execução do planejamento mestre. Vá para **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para excluir os itens da execução, recomendamos que você filtre por estado do ciclo de vida do item (não por números do item). Ao filtrar por estado do ciclo de vida, o processo de atualização leva menos tempo do que quando você filtra por números de item.
+Filtros que são aplicados na caixa de diálogo **Execução do planejamento mestre** afetam a duração da execução do planejamento mestre. Acesse **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**. Para excluir os itens da execução, recomendamos que você filtre por estado do ciclo de vida do item (não por números do item). Ao filtrar por estado do ciclo de vida, o processo de atualização leva menos tempo do que quando você filtra por números de item.
 
 ## <a name="automatically-filter-by-items-with-direct-demand"></a>Filtrar automaticamente pelos itens com demanda direta
 

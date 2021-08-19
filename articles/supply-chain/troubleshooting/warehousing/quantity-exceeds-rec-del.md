@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 66d9cd80cc61e00d1d88ab4f59d03054d746cdd9
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: 25507a482b2db7c01f56679bf3e8454249de3a6b9965f9c359a2ebe2cc8445ce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6249061"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711678"
 ---
 # <a name="quantity-that-youre-trying-to-update-exceeds-the-receiveddelivered-quantity"></a>A quantidade que você está tentando atualizar excede a quantidade recebida/entregue
 
@@ -73,7 +73,7 @@ Se alguém tiver usado o registro de separação para fechar uma linha de carga 
 
 Use o procedimento a seguir para reverter o registro de escolha.
 
-1. Vá para **Contas a receber \> Ordens \> Todas as ordens**.
+1. Acesse **Contas a receber \> Ordens \> Todas as ordens**.
 1. Selecione a ordem de venda para a qual você não pode postar uma guia de remessa para a carga.
 1. Na guia  **Linhas de ordem de venda**, selecione a linha de ordem de venda para a qual o registro de escolha foi feito.
 1. Selecione **Atualizar linha \> Escolher** para cancelar a seleção dos itens.

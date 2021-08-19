@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 207c9dfe9e49b845d2c98040c1571099e01b43f7
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 87d705aaff0dca73812a444c003088fd9b8293f077d6f42f94812631f0887a54
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6337687"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718987"
 ---
 # <a name="get-started-with-the-cost-accounting-service-private-preview"></a>Introdução ao serviço de contabilidade de custos (versão prévia particular)
 
@@ -60,7 +60,7 @@ Para usar o serviço de contabilidade de custos, instale o complemento do servi�
 
 1. Entre no LCS.
 
-1. Vá para **Gerenciamento da versão prévia do recurso**.
+1. Acesse **Gerenciamento da versão prévia do recurso**.
 
 1. Selecione o sinal de mais (**+**).
 
@@ -70,7 +70,7 @@ Para usar o serviço de contabilidade de custos, instale o complemento do servi�
 
 1. Abra o ambiente LCS ao qual deseja adicionar o serviço.
 
-1. Vá para **Detalhes completos**.
+1. Acesse **Detalhes completos**.
 
 1. Role para baixo até a Guia Rápida **Suplementos de ambiente**.
 
@@ -88,7 +88,7 @@ Para usar o serviço de contabilidade de custos, instale o complemento do servi�
 
 Para configurar a integração entre o serviço de contabilidade de serviços e o Dynamics 365 Supply Chain Management:
 
-1. Vá para **Administração do sistema > Gerenciamento de Recursos**.
+1. Acesse **Administração do sistema > Gerenciamento de Recursos**.
 
 1. Selecione **Verificar se há atualizações**.
 
@@ -96,7 +96,7 @@ Para configurar a integração entre o serviço de contabilidade de serviços e 
 
 1. Selecione **Habilitar agora**.
 
-1. Vá para **Gerenciamento de custos > Serviço de contabilidade de custos > Configuração > Parâmetros do serviço de contabilidade de custos > Parâmetros de integrações**.
+1. Acesse **Gerenciamento de custos > Serviço de contabilidade de custos > Configuração > Parâmetros do serviço de contabilidade de custos > Parâmetros de integrações**.
 
 1. No campo **ID do aplicativo**, insira o seguinte código:<br> 08231eb2-a501-4edb-b3c5-aede5e5e0c3f
 

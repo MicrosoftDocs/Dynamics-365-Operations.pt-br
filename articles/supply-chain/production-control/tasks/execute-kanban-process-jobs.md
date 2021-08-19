@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0bccee458ee48c51bdeeb64cee1f62aac9bdf4f9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b6b74ea84ec403790c257ecfe8147a116cd97e9ff5a21b2cd7f649202771d07d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828529"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711750"
 ---
 # <a name="execute-kanban-process-jobs"></a>Executar trabalhos do processo kanban
 
@@ -29,7 +29,7 @@ Esse procedimento se concentra em executar trabalhos de processo do kanban. O pr
 
 
 ## <a name="select-a-kanban-job"></a>Selecionar trabalho kanban
-1. Vá para Controle de produção > Kanban > Quadro Kanban para trabalhos de processo.
+1. Acesse Controle de produção > Kanban > Quadro Kanban para trabalhos de processo.
 2. No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.
 3. Clique na linha com grupo de recursos 1250. Isso filtra a Lista de trabalhos para exibir somente os trabalhos para a célula de trabalho 1250.
     * Marque a linha que tem o status do trabalho planejado.  

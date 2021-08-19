@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 3522a024261ff6dfffb53f2101139460be7669e4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e85556c7b86cfc8c78d3bcd53a7b99bb0bbddf3a2a45e6fe6329560c834633af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718915"
 ---
 # <a name="troubleshoot-product-receipts-and-invoicing"></a>Solucionar problemas de recebimentos e faturamento de produtos
 
@@ -35,7 +35,7 @@ Uma quantidade será obrigatória se você quiser lançar faturas. Portanto, se 
 
 Esse problema pode ocorrer devido a inconsistências nas distribuições da ordem de compra.
 
-Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, vá para **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
+Para desbloquear esse problema e redefinir a ordem de compra para um estado *Rascunho*, Acesse **Compras e fornecimento \> Tarefas periódicas \> Limpar \> Redefinição de distribuição da ordem de compra**. Para obter mais informações, consulte a seguinte postagem de blog: [Resolver erros de distribuição de OC no Dynamics 365 Supply Chain Management](https://cloudblogs.microsoft.com/dynamics365/it/2020/08/12/resolve-po-distribution-errors-in-dynamics-365-supply-chain-management/).
 
 ## <a name="i-cant-consolidate-multiple-product-receipts-into-a-single-purchase-order"></a>Não consigo consolidar vários recebimentos de produtos em uma única ordem de compra.
 
@@ -85,9 +85,9 @@ O seguinte procedimento mostra uma forma de reproduzir o problema.
 
 1. Acesse **Contas a pagar \> Configuração \> Parâmetros de contas a pagar**.
 1. Na guia **Fatura**, configure a opção **Lançar na conta de encargos do razão** como *Sim*.
-1. Vá para **Gerenciamento de estoque \> Configurar \> Lançamento \> Lançamento**.
+1. Acesse **Gerenciamento de estoque \> Configurar \> Lançamento \> Lançamento**.
 1. Na guia **Ordem de compra**, certifique-se de ter excluído todas as linhas nas despesas de compra do produto.
-1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
+1. Acesse **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
 1. Criar uma ordem de compra. No campo **Conta de fornecedor**, selecione *1001 Suprimentos de Escritórios Acme*.
 1. Adicione uma linha da ordem de compra com as seguintes configurações:
 

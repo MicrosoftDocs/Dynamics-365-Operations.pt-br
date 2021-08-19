@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: d31c73964877aeb1556c93b03d276698e8d84d30
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6114990"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714321"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -127,7 +127,7 @@ Para revisar as transações afetadas, bloquear transações selecionadas e envi
 Você pode ler e processar as notificações de alteração recebidas das seguintes maneiras:
 
 - Exceto no caso de ordens de produção, altere as notificações para as transações que você é responsável por aparecer na Central de ações. O botão **Mostrar mensagens** (símbolo de sino) no lado direito da barra de navegação indica quando uma mensagem está disponível para você na Central de ações. Selecione o botão **Mostrar mensagens** para abrir a Central de ações e revisar as mensagens.
-- Para exibir todas as ordens de produção para as quais uma notificação de engenharia foi enviada, vá para **Ordens de produção \> Ordens de produção \> Todas as ordens de produção**. Em seguida, na Página de Ações na guia **Ordem de produção**, no grupo **Solicitação de alteração de engenharia**, selecione **Notificações de engenharia** para abrir a página **Notificações de engenharia**.
+- Para exibir todas as ordens de produção para as quais uma notificação de engenharia foi enviada, Acesse **Ordens de produção \> Ordens de produção \> Todas as ordens de produção**. Em seguida, na Página de Ações na guia **Ordem de produção**, no grupo **Solicitação de alteração de engenharia**, selecione **Notificações de engenharia** para abrir a página **Notificações de engenharia**.
 - Para ordens de produção, você pode optar por revisar somente as notificações de alteração que se aplicam aos recursos de produção que você gerencia. No espaço de trabalho **Gerenciamento de chão de fábrica**, no Painel de Ações, selecione **Configurar meu espaço de trabalho** para filtrar a página de forma que mostre apenas informações sobre as unidades de produção, grupos e/ou recursos que você gerencia. Na seção **Resumo**, um bloco denominado **Ordens de produção com produtos alterados** mostra uma contagem de notificações que correspondem às suas configurações de filtro. Selecione este bloco para abrir a página **Notificações de engenharia**, que mostra a lista completa de transações que atendem aos critérios do filtro.
 
 Ao revisar as notificações de ordem de produção na página **Notificações de engenharia**, você pode seguir links para ordens de alteração relacionadas ou ordens de produção selecionando valores de coluna ou usando os comandos relacionados no Painel de Ações. Depois de concluir a avaliação de uma alteração e depois de ter cancelado ou modificado as ordens de produção, conforme necessário, você poderá marcar uma notificação como resolvida. Selecione a notificação e, no Painel de Ações, selecione **Resolver**. A notificação é removida das exibições de todos os usuários.

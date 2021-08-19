@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 70567489e5a1b84677ee63c296d15f5bdeb728ca
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 8f2d577d9e48ced9d4c516a66e4f53671417875cbfb51bd6bdc2cb0938d83c01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338598"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714947"
 ---
 # <a name="engineering-change-management-overview"></a>Visão geral do gerenciamento de alterações de engenharia
 
@@ -57,7 +57,7 @@ Primeiro, ative os recursos seguindo estas etapas.
 Em seguida, ative as chaves de configuração seguindo estas etapas.
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Expanda o nó **Comércio**.
 1. Habilite a chave de configuração para o recurso principal, marcando a caixa de seleção **Gerenciamento de Alterações de Engenharia**.
 1. Expanda o nó **Gerenciamento de Alterações de Engenharia** e marque ou desmarque as seguintes caixas de seleção conforme necessário (dependendo dos recursos que deseja usar):

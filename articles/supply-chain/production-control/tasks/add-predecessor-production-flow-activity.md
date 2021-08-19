@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 968880db317f74db6bc6d92a4beca9136c0d8de4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9036c33cfea590148bb74de026410ecdb8ce9fbc516489ccb2f864ca8c0dd0bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715689"
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a>Adicionar um antecessor à atividade do fluxo de produção
 
@@ -35,7 +35,7 @@ Para saber mais, leia o white paper "Fluxos de produção e atividades em lean m
 
 
 ## <a name="find-the-production-flow-and-version"></a>Localizar o fluxo de produção e a versão
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Na lista, localize e selecione o PDV desejado.

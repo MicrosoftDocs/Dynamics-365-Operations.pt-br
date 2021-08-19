@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 19bfbe7bc78f08dbbc6f9924313749a46672e202
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8085f5d30e1fbbc11b3bc4f86899a54615b039bb3e72fbeafb9bd74e87c1fbfa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812317"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717187"
 ---
 # <a name="create-a-purchase-agreement"></a>Criar um contrato de compra
 
@@ -28,7 +28,7 @@ Neste tópico, você entenderá como criar um contrato de compra. Isso seria fei
 
 
 ## <a name="create-a-new-purchase-agreement"></a>Criar um novo contrato de compra
-1. Vá para **Painel de Navegação > Módulos > Compras e fornecimento > Contratos de compra > Contratos de compra**.
+1. Acesse **Painel de Navegação > Módulos > Compras e fornecimento > Contratos de compra > Contratos de compra**.
 2. Clique em **Novo**.
 3. No campo **Conta do fornecedor**, selecione o menu suspenso e selecione a linha do registro desejado.
 4. No campo **Classificação de contrato de compra**, selecione o menu suspenso e selecione a linha do registro desejado.

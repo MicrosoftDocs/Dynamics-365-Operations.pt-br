@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59ee63a634400ebe8446d9f78299966eaac37061
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 167f138e5088c0f0c5cac53057daf5a4776a779a45969338c0996947afe2d01c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819953"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712949"
 ---
 # <a name="create-a-dimension-based-product-master"></a>Criar um produto mestre baseado na dimensão
 
@@ -26,7 +26,7 @@ ms.locfileid: "5819953"
 
 Este procedimento mostra como criar um novo produto mestre com a tecnologia de configuração baseada em dimensão. A empresa de dados demo usada para criar este procedimento é USMF. Este é o primeiro procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão.
 
-1. Vá para Gerenciamento de informações sobre produtos > Produtos > Produtos mestres.
+1. Acesse Gerenciamento de informações sobre produtos > Produtos > Produtos mestres.
 2. Clique em Novo.
 3. No campo Número do produto, digite um valor.
     * Inserir um número de produto é obrigatório se nenhuma sequência numérica foi configurada para o campo número do produto.  

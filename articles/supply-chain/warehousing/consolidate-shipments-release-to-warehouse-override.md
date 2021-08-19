@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 6928375c88a199bd9c6b48f05b38343463762920
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 1f5d4752c3e3cc325972c6eacd293dc82512bf2eb465c7d06060bfc26327046c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717810"
 ---
 # <a name="consolidate-shipments-when-the-shipment-consolidation-policy-is-overridden"></a>Consolidar remessas quando a política de consolidação de remessa for substituída
 
@@ -38,7 +38,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 ## <a name="create-the-sales-orders-for-this-scenario"></a>Crie as ordens de venda para este cenário
 
-1. Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie três ordens de venda idênticas com as seguintes configurações:
+1. Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie três ordens de venda idênticas com as seguintes configurações:
 
     - **Conta de cliente:** *US-002*
 
@@ -53,7 +53,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Siga estas etapas para substituir a política de consolidação de remessa durante a liberação para o depósito.
 
-1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Liberar para depósito**.
+1. Acesse **Gerenciamento de depósito \> Liberar para depósito \> Liberar para depósito**.
 1. No painel superior, selecione a primeira ordem de venda criada para esse cenário.
 1. Selecione **Adicionar** para adicionar a linha à liberação para o depósito. Observe que a política de consolidação de remessa *padrão* é aplicada no painel inferior.
 1. No painel inferior, selecione **Selecionar nova política de consolidação de remessa**.

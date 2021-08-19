@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 03c9406d295fb0dbd22e8072c2695dbef419b706
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b9ad41395055d9f63aae8ffa869e0613be330051390955599a95a30869a145dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353531"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713629"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>Conversão de unidade de medida por grade de produto
 
@@ -33,7 +33,7 @@ Anteriormente, as conversões de unidades podiam ser configuradas somente no pro
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-Se você ainda não tiver visto esse recurso no sistema, vá para [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Conversões de unidade de medida para variantes de produtos*.
+Se você ainda não tiver visto esse recurso no sistema, Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Conversões de unidade de medida para variantes de produtos*.
 
 ## <a name="set-up-a-product-for-unit-conversion-per-variant"></a>Configurar um produto para a conversão de unidade por grade
 
@@ -41,7 +41,7 @@ Grades de produto só podem ser criadas para produtos que são produtos mestre. 
 
 Para configurar um produto mestre para oferecer suporte à conversão de unidades por grade, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Produtos \> Produtos mestre**.
 1. Crie ou abra um produto mestre para ir para a **Página detalhes do produto**.
 1. Defina a opção **Habilitar conversões de unidade de medida** como *Sim*.
 1. No Painel de Ações, na guia **Produto**, no grupo **Configuração**, selecione **Conversões de unidade**.

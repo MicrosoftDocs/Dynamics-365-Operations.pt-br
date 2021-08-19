@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 7b8633adbab43c95366d42cf409f5e508771c906
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5b1ab86be84f3ade58ea354417bfcc2dc0bd87e9e2cb8debb36ea43f7b877f54
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714249"
 ---
 # <a name="load-building-workbench"></a>Bancada de criação de carga
 
@@ -38,7 +38,7 @@ Para usar a estratégia pronta para uso *Estratégia de criação de carga com b
 
 Para elaborar uma estratégia de criação de carga, siga estas etapas.
 
-1. Vá para **Gerenciamento de transporte &gt; Configuração &gt; Criação de carga &gt; Estratégias de criação de carga**.
+1. Acesse **Gerenciamento de transporte &gt; Configuração &gt; Criação de carga &gt; Estratégias de criação de carga**.
 1. No Painel de Ações, selecione **Gerar lista de classes** para verificar se você tem as versões mais recentes de todas as classes disponíveis.
 1. No Painel de Ações, selecione **Novo**.
 1. Insira um nome exclusivo para a estratégia, selecione a classe de estratégia de criação de carga e insira uma descrição.
@@ -53,7 +53,7 @@ Agora você pode atribuir a estratégia de criação de carga a um modelo de cri
 
 ## <a name="use-a-load-building-strategy-in-the-load-building-workbench"></a>Usar uma estratégia de criação de carga na bancada de criação de carga
 
-1. Vá para **Gerenciamento de transporte &gt; Planejamento &gt; Bancada de criação de carga**.
+1. Acesse **Gerenciamento de transporte &gt; Planejamento &gt; Bancada de criação de carga**.
 1. Siga uma destas etapas:
 
     - Selecione uma estratégia no campo **Estratégia de criação de carga**.

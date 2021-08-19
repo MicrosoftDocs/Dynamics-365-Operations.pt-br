@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 93845129e057b8729e676123967efefb6bca66f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 96d68ca4440ac9eea4fa76a963adbe95bd69cf9e134daec64b39954837207eca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829321"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6711798"
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>Calcular sugestões de quantidade de kanbans
 
@@ -28,7 +28,7 @@ Este procedimento foca na otimização das quantidades e tamanho kanban para uma
 
 
 ## <a name="create-a-kanban-quantity-calculation"></a>Crie um cálculo da quantidade kanban
-1. Vá para Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Calcular quantidade kanban.
+1. Acesse Controle de produção > Tarefas periódicas > Cálculo da quantidade de kanbans > Calcular quantidade kanban.
 2. Clique em Novo.
 3. No campo Nome, digite 'Spearker2016'.
 4. No campo Nome, clique no botão suspenso para abrir a pesquisa.
@@ -72,7 +72,7 @@ Este procedimento foca na otimização das quantidades e tamanho kanban para uma
 4. Feche a página.
 
 ## <a name="validate-change-on-kanban-rule"></a>Valide a alteração na regra kanban
-1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Na lista, clique no link na linha selecionada.
     * Selecione a regra kanban que foi criada na subtarefa anterior. Esta deve ser a primeira regra kanban na lista classificada por número.  
 3. Ative a expansão da seção Detalhes.

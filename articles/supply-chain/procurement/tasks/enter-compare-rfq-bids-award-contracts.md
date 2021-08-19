@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0acff4165ef4d61fb0d14a8f365273ea43fac7d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: d0f1028211f3c9cc0082e127a24d10cd2fe9ab5ac903570664233b10e5737bee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920572"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717139"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Inserir e comparar lances RFQ e contratos de prêmio
 
@@ -49,8 +49,8 @@ Antes de iniciar esse procedimento, você deve ter uma RFQ com duas linhas que f
 
 ## <a name="enter-a-reply-from-a-vendor-as-a-procurement-professional"></a>Inserir a resposta de um fornecedor como profissional de compras
 
-1. Certifique-se de que a permissão para editar os lances de fornecedores esteja configurada. Vá para **Compras e fornecimento \> Configuração \> Parâmetros de compras**. Na guia **Solicitação de cotação**, defina a opção **O comprador pode editar o lance de fornecedores** como **Sim**.
-2. Vá para **Aquisição e fornecimento \> Solicitações de cotação \> Todas as solicitações de cotação**.
+1. Certifique-se de que a permissão para editar os lances de fornecedores esteja configurada. Acesse **Compras e fornecimento \> Configuração \> Parâmetros de compras**. Na guia **Solicitação de cotação**, defina a opção **O comprador pode editar o lance de fornecedores** como **Sim**.
+2. Acesse **Aquisição e fornecimento \> Solicitações de cotação \> Todas as solicitações de cotação**.
 3. Selecione uma RFQ com um status **Enviado** e depois o link no campo **Caso de solicitação de cotação**.
 4. Selecione **Gerenciar respostas**. A página que aparece mostra uma RFQ para cada fornecedor que foi convidado para o lance.
 5. Selecione uma RFQ que não foi respondido. (O campo **Andamento de resposta** deve ser definido como **Não iniciado**.)

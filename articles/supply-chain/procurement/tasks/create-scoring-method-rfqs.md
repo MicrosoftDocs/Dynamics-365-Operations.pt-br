@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2b098975f5557e9b99e7a951c0f8035bbaea5210
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee3ab9d3d7b3ccab537bbb1baaeafccf90282a9bcf9fa328935363c0c809f181
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812077"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713605"
 ---
 # <a name="create-a-scoring-method-for-rfqs"></a>Criar um método de avaliação para RFQs
 
@@ -26,7 +26,7 @@ ms.locfileid: "5812077"
 
 Este procedimento mostra como criar um método de avaliação. Um método de avaliação é um grupo de critérios que pode ser usado para comparar as ofertas que são enviadas em resposta a um pedido para a cotação (RFQ). Por exemplo, talvez você queira classificar o desempenho passado de um fornecedor, ou avaliar se a empresa é ambientalmente correta ou uma boa parceira, ou você pode querer comparar lances com base em preços. Se um método de pontuação estiver associado ao tipo de solicitação, esse será o método de pontuação padrão para a RFQs que você estiver criando. Essas tarefas são normalmente realizadas por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 
-1. Vá para Compras > Configuração > Solicitação de cotação > Método de pontuação.
+1. Acesse Compras > Configuração > Solicitação de cotação > Método de pontuação.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.

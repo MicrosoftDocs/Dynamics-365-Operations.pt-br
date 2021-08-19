@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c02c8b4cd43e17d6dcf34e1912dbc68c19e60694
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: dba864cd11ab9ae7a4ca4c2e2094cbdd066d9ba9a42ddd7d53eebf72955ec191
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6116942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716435"
 ---
 # <a name="consolidate-shipments-released-to-the-warehouse-using-automatic-release-of-sales-orders"></a>Consolidar remessas liberadas para o depósito usando a liberação automática de ordens de venda
 
@@ -40,7 +40,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-order-set-1"></a>Crie o conjunto de ordens 1
 
@@ -231,7 +231,7 @@ Para cada conjunto de ordens de venda criadas anteriormente, você concluirá os
 
 #### <a name="update-the-wave-template-that-will-be-used-during-release"></a>Atualize o modelo de onda que será usado durante a liberação
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. Defina o campo **Tipo de modelo de onda** como *Remessa*.
 1. Localize e selecione o modelo de onda associado ao depósito que você usou nos conjuntos de ordens criados para esse cenário. Por exemplo, se você usou depósito *24*, selecione o modelo de onda **Padrão de 24 remessas**. Se você usou depósito *61*, selecione o modelo de onda **61 remessas**.
 1. No Painel de Ações, selecione **Editar**.
@@ -239,7 +239,7 @@ Para cada conjunto de ordens de venda criadas anteriormente, você concluirá os
 
 #### <a name="release-to-the-warehouse"></a>Libere para o depósito
 
-1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de venda**.
+1. Acesse **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de venda**.
 1. Defina o campo **Quantidade para liberação** como *Todos*.
 1. Na Guia Rápida **Registros para incluir**, selecione **Filtro** para abrir a caixa de diálogo de consulta.
 1. Na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:

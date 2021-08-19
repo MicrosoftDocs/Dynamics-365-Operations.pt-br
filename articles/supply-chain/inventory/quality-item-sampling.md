@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ae8bfd329ca0d7c30adcd93a759ee6bea7b76278
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: dfdffc1ff0e0541cfad5669d0787abfafbd424ddf0807c61b957e7f330f21af7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022219"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717307"
 ---
 # <a name="quality-management-item-sampling"></a>Amostragem de item de gerenciamento de qualidade
 
@@ -29,7 +29,7 @@ A amostragem de item é usada como parte de uma associação de qualidade. Ela d
 
 Siga estas etapas para configurar a amostragem de item.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item**.
 1. Selecione **Novo**.
 1. No campo **Amostragem de item**, insira um valor.
 1. No campo **Descrição**, insira um valor.

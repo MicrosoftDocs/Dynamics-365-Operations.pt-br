@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fe4e195763f5329ee7732a2f087094acbad595a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dd1f191e3d1a0d5ba245082dbb56bb291236ed8d39c4ad0dd379a662ef3dfee7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810933"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717906"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>Configurar um trabalhador usando um dispositivo de trabalho móvel
 
@@ -31,14 +31,14 @@ Este tópico explica como atribuir as funções corretas na conta de usuário de
 
 Por exemplo, verifique se a usuária "SHANNON" obteve a função de operadora de máquina antes de configurar a conta de trabalhador.
 
-1. Vá para **Painel de navegação > Módulos > Administração do sistema > Usuários > Usuários**.
+1. Acesse **Painel de navegação > Módulos > Administração do sistema > Usuários > Usuários**.
 2. Procure um usuário no filtro rápido. Neste exemplo, insira `shannon`.
 3. Selecione o link na coluna **ID do usuário** da conta de usuário que aparece.
 4. Na árvore **Funções do usuário**, selecione **Funções > Operador de máquina**.
 5. Feche as páginas **detalhes do usuário** e **usuários** para retornar à home page.
 
 ## <a name="configure-worker-account"></a>Configurar a conta do trabalhador
-1. Vá para **Painel de navegação > Módulos > Recursos humanos > Trabalhadores > Trabalhadores**.
+1. Acesse **Painel de navegação > Módulos > Recursos humanos > Trabalhadores > Trabalhadores**.
 2. Procure um usuário no filtro rápido. Neste exemplo, insira `shannon`.
 3. Selecione o link na coluna **Nome** da conta de usuário que aparece.
 4. Selecione a guia **Registro de horas**.
@@ -57,7 +57,7 @@ Por exemplo, verifique se a usuária "SHANNON" obteve a função de operadora de
 10. Feche as páginas **Detalhes do trabalhador** e **Trabalhadores**.
 
 ## <a name="assign-worker-to-device-group"></a>Atribuir o trabalhador ao grupo de dispositivos
-1. Vá para **Controle de produção > Configuração > Execução de fabricação > Configurar cartão de trabalho para dispositivos**.
+1. Acesse **Controle de produção > Configuração > Execução de fabricação > Configurar cartão de trabalho para dispositivos**.
 2. Selecione **Adicionar**.
 3. Na lista, selecione o trabalhador desejado. Neste exemplo, selecione **SHANNON**.
 4. Selecione **OK**.

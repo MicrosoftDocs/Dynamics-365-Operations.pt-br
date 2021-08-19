@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 42d6349d4527d43c227fbac7e96c4e037fe575f8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e447cbf3d9780b3ccfccbbb065f9b6626d541dd119c733eb800ac285e1bbb0d3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713534"
 ---
 # <a name="fulfill-sales-agreements"></a>Cumprir contratos de venda
 
@@ -30,7 +30,7 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
 
 
 ## <a name="release-a-sales-order-from-the-agreement"></a>Liberar uma ordem de venda do contrato
-1. Vá para Vendas e marketing > Contratos de venda > Contratos de venda.
+1. Acesse Vendas e marketing > Contratos de venda > Contratos de venda.
 2. Na lista, abra o contrato com o qual você deseja liberar a ordem.
 3. No Painel de Ação, clique em Contrato de venda.
 4. Clique em Liberar ordem.
@@ -40,7 +40,7 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
     * A mensagem informa que a ordem de vendas foi criada. Como a ordem não contém nenhuma linha, você deve adicionar os detalhes da linha da ordem para concluir o processo de liberação.   
 6. Feche a página.
 7. Feche a página.
-8. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+8. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 9. Na lista, localize e abra a ordem que foi criada como resultado da versão da ordem na tarefa anterior.
 10. Clique em Adicionar nova linha.
 11. No campo Número de item, clique no botão suspenso para abrir a pesquisa.
@@ -62,7 +62,7 @@ Este procedimento mostra como atender a um contrato de venda associando ordens d
 23. Feche a página.
 
 ## <a name="apply-sales-agreement-in-the-order-process"></a>Aplicar contrato de venda no processo de ordem
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o cliente especificado no contrato de venda.

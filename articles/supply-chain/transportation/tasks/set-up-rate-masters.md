@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8cb25726e05f11420c7355c39f7e262abca5da62
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6533193ef598fa3bb1c067a8c504dfb2b4bee3252ee9d90a81110e1124c135cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808981"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6715593"
 ---
 # <a name="set-up-rate-masters"></a>Configurar mestres de taxa
 
@@ -29,7 +29,7 @@ Este procedimento mostra como configurar um mestre de taxa. O gerente logístico
 
 ## <a name="set-up-break-master"></a>Configurar mestre de interrupção
 
-1. Vá para **Gerenciamento de transporte > Configurar > Classificação > Mestre de quebra**. Mestres de interrupção são usados para definir a estrutura de definição de preços e seus pontos de interrupção. A estrutura de definição de preços usa definição de preços hierarquizada baseada em dimensões físicas.  
+1. Acesse **Gerenciamento de transporte > Configurar > Classificação > Mestre de quebra**. Mestres de interrupção são usados para definir a estrutura de definição de preços e seus pontos de interrupção. A estrutura de definição de preços usa definição de preços hierarquizada baseada em dimensões físicas.  
 1. Selecione **Novo**.
 1. No campo **Mestre de quebra**, insira um valor.
 1. No campo **Nome**, insira um valor.
@@ -41,7 +41,7 @@ Este procedimento mostra como configurar um mestre de taxa. O gerente logístico
 
 ## <a name="set-up-rate-master"></a>Configurar mestre de taxa
 
-1. Vá para **Gerenciamento de transporte > Configurar > Classificação > Mestre de taxa**.
+1. Acesse **Gerenciamento de transporte > Configurar > Classificação > Mestre de taxa**.
 1. Selecione **Novo**.
 1. No campo **Mestre de taxa**, digite um valor.
 1. No campo **Nome**, digite um valor.

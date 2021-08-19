@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e79c4e1810cf095a342a370018190fd0d587c15
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4fb9038a680bd804f12ea7debe1eb631f6631da1da9667e4c335ed8673a179f1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817284"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718819"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar um modelo de trabalho para ordens de compra
 
@@ -27,7 +27,7 @@ ms.locfileid: "5817284"
 
 Este tópico descreve como configurar um modelo de trabalho simples que será usado no armazenamento dos itens recebidos. Modelos de trabalho determinam o conjunto de instruções apresentadas ao trabalhador do depósito em um dispositivo móvel ao mover itens da área de recebimento. Você pode usar esse procedimento com os dados mencionados na empresa de dados de demonstração USMF. Antes de iniciar este guia, crie uma ID de grupo de trabalho. Neste exemplo, uma ID de grupo de trabalho chamada na Entrada é usada. Esse procedimento é destinado ao gerente do depósito.
 
-1. No painel de navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
+1. No painel de navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
 2. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.
 
 ## <a name="create-a-work-template-header"></a>Criar um cabeçalho do modelo de trabalho

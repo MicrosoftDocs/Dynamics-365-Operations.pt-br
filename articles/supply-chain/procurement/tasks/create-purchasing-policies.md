@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2cc64d0b9492a7bfcf0076ea74ca36a9a26ee6c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 06af7dd5d7c47267de3a91f13d6558c2a3b324794fc643f6cd3be9f0770ac7bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717163"
 ---
 # <a name="create-purchasing-policies"></a>Criar políticas de compras
 
@@ -28,11 +28,11 @@ Este tópico mostra como criar políticas de compra para alinhar com seus proces
 
 
 ## <a name="set-up-policy-parameters"></a>Configurar parâmetros de política
-1. No painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+1. No painel de navegação, Acesse **Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
 2. No Painel de Ações, selecione **Parâmetros**.
 - As regras de precedência da política aplicam-se aos níveis diferentes em sua organização. As unidades de organização em que são mostrados dependem de sua hierarquia de organização, e em que níveis na hierarquia foram atribuídos a finalidade do controle interno da obtenção. Por exemplo, sua organização pode ter entidades legais, centros de custo, regiões e departamentos, mas pode ser que somente alguma destes tenha uma finalidade da hierarquia do controle interno da obtenção. Como padrão, a organização do tipo empresa está disponível.  
 3. Selecione a guia **Parâmetros do tipo de regra de política**.
-4. Na árvore, vá para **Política de compras > Regra de controle de requisição de compra**.
+4. Na árvore, Acesse **Política de compras > Regra de controle de requisição de compra**.
 - Você define a ordem de precedência da resolução da política no nível da política. No entanto, para alguns tipos de política, você pode substituir a ordem de precedência para tipos de regras de política individuais. Por exemplo, você definiu precedência de políticas de compras nesta ordem: centro de custo, departamento, empresa. Para a regra de política de catálogo, você deseja que a ordem de precedência esteja nesta ordem: departamento, centro de custo, empresa. Você pode alterar a ordem de precedência para a regra de política de catálogo. Quando um trabalhador cria uma requisição, o catálogo que é indicado está determinado pelas políticas que são associadas com o departamento do trabalhador, então seu centro de custo, e então sua empresa.  
 - Se há mais de um nível de organização alistado, você pode usar as setas para cima/baixo para ajustar a ordem de precedência para a regra do controle da requisição da compra.  
 5. Feche a página.

@@ -94,6 +94,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Commerce
                       href: get-started/whats-new-home-page.md
+                    - name: Commerce 10.0.21 (outubro de 2021)
+                      href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
                     - name: Commerce 10.0.19 (junho de 2021)
@@ -516,8 +518,16 @@
                       href: tasks/configure-credit-card-processing.md
                     - name: Ignorar a caixa de diálogo de "troco devido" no PDV
                       href: dev-itpro/skip-change-due.md
-                    - name: Conector de pagamento Adyen
-                      href: dev-itpro/adyen-connector.md
+                    - name: Dynamics 365 Payment Connector para Adyen
+                      items:
+                        - name: Visão geral do Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector.md
+                        - name: Configurar o Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector-setup.md
+                        - name: Perguntas frequentes sobre o Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector-faq.md
+                        - name: Solucionar problemas do Dynamics 365 Payment Connector para Adyen
+                          href: dev-itpro/adyen-connector-troubleshoot.md
                     - name: Salvando meios de pagamento online com o conector para Adyen
                       href: dev-itpro/adyen-connector-listPI.md
                     - name: Autenticação de Cliente Forte (SCA) usando o conector para Adyen
@@ -1182,6 +1192,10 @@
               items:
                 - name: Gerar relatórios do canal online
                   href: generate-reports.md
+            - name: Direcionamento
+              items:
+                - name: 'Direcionamento de dispositivo, mercado e localização geográfica'
+                  href: targeting-overview.md
             - name: Experimentação
               items:
                 - name: Experimentação no Dynamics 365 Commerce
@@ -1336,6 +1350,10 @@
               items:
                 - name: Localização do Commerce para a Rússia
                   href: localizations/rus-commerce-localization.md
+                - name: Configuração do Commerce para a Rússia
+                  href: localizations/rus-commerce-setup.md
+                - name: Pagamentos antecipados no Commerce para a Rússia
+                  href: localizations/rus-commerce-prepayments.md
             - name: Suécia
               items:
                 - name: Funcionalidade de caixa registradora
@@ -2646,7 +2664,7 @@
                   href: troubleshoot/refund-declined.md
                 - name: Dynamics 365 Payment Connector para Adyen
                   items:
-                    - name: Solucionar Problemas do Conector de Pagamento do Dynamics 365 para Adyen
+                    - name: Solucionar Problemas do Dynamics 365 Payment Connector para Adyen
                       href: troubleshoot/adyen-support.md
                     - name: A opção Salvar para o próximo pagamento não é exibida
                       href: troubleshoot/next-payment-link-not-appearing.md

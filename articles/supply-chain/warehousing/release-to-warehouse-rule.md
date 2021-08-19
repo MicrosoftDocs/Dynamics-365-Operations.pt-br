@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 77714d6bda27d8d29b10177dd87e61839295e47e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2a9decad96f92450b9473ca10ccf7a98edf07a4316edd6d9ef92a70cc78c05ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823254"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716411"
 ---
 # <a name="release-to-warehouse-rule"></a>Regra de liberação para o depósito
 
@@ -44,7 +44,7 @@ Depois que o recurso for ativado no sistema, você deverá inicializá-lo para d
 
 Para inicializar o recurso e definir a regra de liberação para o depósito para todos os depósitos, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na página **Parâmetros de gerenciamento de depósito**, na guia **Geral**, na seção **Informações da empresa**, selecione o link para a regra **Inicializar liberação para o depósito**. (Se esse link não for exibido, o recurso não está ativado ou já foi inicializado.)
 1. Quando for solicitado a confirmar a ação, selecione **Sim** para inicializar o recurso.
 
@@ -52,7 +52,7 @@ Para inicializar o recurso e definir a regra de liberação para o depósito par
 
 Depois que o recurso for ativado e inicializado, todos os seus depósitos terão uma configuração inicial, conforme descrito na seção anterior. Você pode alterar essa configuração para depósitos individuais seguindo estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Selecione o depósito a ser configurado.
 1. Selecione **Editar** para colocar a página no modo de edição.
 1. Na FastTab **Depósito**, na seção **Reservas**, o campo **Requisito para reserva de estoque** controla se a liberação parcial das ordens é permitida. Selecione um dos seguintes valores:
@@ -77,9 +77,9 @@ Você também pode usar estes cenários como orientação para o recurso ao trab
 
 Este cenário mostra como o recurso funciona para depósitos que estão definidos como **Exigir reserva cheia**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Para o depósito _62_, defina o campo **Requisito para reserva de estoque** como **Exigir reserva cheia**, conforme descrito na seção [Definir a regra de liberação para o depósito para cada depósito](#set-option-warehouse) anteriormente neste tópico.
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -111,9 +111,9 @@ Este cenário mostra como o recurso funciona para depósitos que estão definido
 
 Este cenário mostra como o recurso funciona para depósitos que estão definidos como **Permitir liberação parcial**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Para o depósito _62_, defina o campo **Requisito para reserva de estoque** como **Permitir reserva parcial**, conforme descrito na seção [Definir a regra de liberação para o depósito para cada depósito](#set-option-warehouse) anteriormente neste tópico.
-1. Como você fez no [cenário anterior](#scenario1), vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda** e crie uma ordem de venda para a conta de cliente _US-004_ do depósito _62_. Adicione estas duas linhas de ordem:
+1. Como você fez no [cenário anterior](#scenario1), Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda** e crie uma ordem de venda para a conta de cliente _US-004_ do depósito _62_. Adicione estas duas linhas de ordem:
 
     - **Linha 1:** defina o campo **Número do item** como _A0001_, o campo **Quantidade** como _2_ e o campo **Unidade** como _Pçs._.
     - **Linha 2:** defina o campo **Número do item** como _A0002_, o campo **Quantidade** como _2_ e o campo **Unidade** como _Pçs._.

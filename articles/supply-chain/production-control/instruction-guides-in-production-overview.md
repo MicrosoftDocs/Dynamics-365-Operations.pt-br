@@ -18,12 +18,12 @@ ms.search.industry: Manufacturing
 ms.author: cabeln
 ms.search.validFrom: 2020-08-01
 ms.dyn365.ops.version: AX 10.0.15
-ms.openlocfilehash: d172e3dfcb9ca70e1047a174040e7940bdd25296
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 801d2671d238e2cd616bfc59448b2c91c7c1347de6066033a377a807a56bd633
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354003"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717115"
 ---
 # <a name="provide-mixed-reality-guides-for-workers-in-production"></a>Fornecer guias de realidade combinada para trabalhadores na produção
 
@@ -112,7 +112,7 @@ Para usar esse recurso, o sistema deve incluir o seguinte:
 Para disponibilizar o recurso no sistema, você deve habilitar suas chaves de configuração. Você precisa fazer isso apenas uma vez. Para isso, um administrador deve fazer o seguinte:
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Expanda a seção **Realidade misturada** e marque a caixa de seleção **Guia de realidade misturada**.
 1. Expanda a seção **Gerenciamento de produção** e marque a caixa de seleção **Instruções de produção**.
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
@@ -194,7 +194,7 @@ Os guias de nível de produto ajudam os trabalhadores do chão de fábrica com i
 
 Para adicionar um guia a um produto liberado:
 
-1. Vá para **Gerenciamento de informações de produção \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações de produção \> Produtos \> Produtos liberados**.
 1. Abra o produto ao qual você deseja atribuir um guia.
 1. No Painel de ações, abra a guia **Engenheiro** e, no grupo **Exibir**, selecione **Guias associados**.
 1. A página **Guias associados** é aberta para o produto selecionado.

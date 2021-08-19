@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b46e3983cc95062e1c2073bb649f60df64807b99
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13e7c816c5f5b4beb089f8ecf2217196f3179f04472d49a1a8d22997cde48147
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810959"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717930"
 ---
 # <a name="validate-a-production-flow-and-version"></a>Validar um fluxo de produção e versão
 
@@ -29,7 +29,7 @@ Este procedimento mostra como criar um fluxo de produção e uma primeira versã
 
 
 ## <a name="create-a-production-flow"></a>Criar um fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.

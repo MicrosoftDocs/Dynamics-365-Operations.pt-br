@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5e1eed14b7d38cf569af7192dec9580e771f06df
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 7676c6520fd7ed6e66dad11b23fae23f15ecba53c8bc4b62c193ee3643fb798e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718026"
 ---
 # <a name="quarantine-orders"></a>Ordens de quarentena
 
@@ -39,7 +39,7 @@ Ao colocar itens em quarentena, você pode criar as ordens de quarentena manualm
 
 Para configurar o sistema para gerar ordens de quarentena automaticamente, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Estoque \> Grupos de modelos de item**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Estoque \> Grupos de modelos de item**.
 1. Selecione um grupo de modelos relevante no painel de lista ou crie um novo grupo de modelos.
 1. Na FastTab **Políticas de estoque**, marque a caixa de seleção **Gerenciamento de quarentena**.
 1. Feche a página.

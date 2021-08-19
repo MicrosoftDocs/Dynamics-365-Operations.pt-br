@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d0408085d401a34a409bfe46bc6845a9c81a2eea
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b46f4c725f8f4fe2952b29a3ccd0d8e3912fd7fb3b6fddda5ac4a436ce9c1c77
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811885"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6714225"
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 
@@ -28,7 +28,7 @@ Este tópico explica como conceder a trabalhadores a permissão para preparar re
 
 
 ## <a name="grant-permission-to-enter-purchase-requisitions-on-behalf-of-another-worker"></a>Conceda permissões para inserir requisições de compra em nome de outro trabalhador
-1. No Painel de navegação, vá para **Módulos > Compras e fornecimento > Configuração > Políticas > Permissões de requisição de compra**. Certifique-se de que o campo **Exibição atual** está ajustado **Pelo preparador**. A lista no painel à esquerda mostra as pessoas que podem receber a permissão para preparar requisições em nome de outras pessoas.  
+1. No Painel de navegação, Acesse **Módulos > Compras e fornecimento > Configuração > Políticas > Permissões de requisição de compra**. Certifique-se de que o campo **Exibição atual** está ajustado **Pelo preparador**. A lista no painel à esquerda mostra as pessoas que podem receber a permissão para preparar requisições em nome de outras pessoas.  
 2. Selecione a pessoa para conceder a permissão (o preparador).
 3. Selecione **Adicionar**.
 4. Encontre e selecione a pessoa para adicionar como um solicitador.

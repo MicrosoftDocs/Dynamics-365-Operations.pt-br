@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 7ba42df021eddccbae389321b38828c7a92e50c8
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 5b8a1beae80ad63f26cd1b532d1d6026a5b38a8701c9c1d0aadfee5da8965477
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020498"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716483"
 ---
 # <a name="rebate-management-deals"></a>Acordos de gerenciamento de reembolso
 
@@ -102,6 +102,7 @@ Depois de criar um acordo conforme descrito na seção anterior, você poderá a
         - *Todos* — a linha de negócios se aplica a todos os itens.
 
     - **Relação de itens** – Se você selecionou *Tabela* no campo **Código do item**, selecione o item ao qual a linha de negócios se aplica. Se você tiver selecionado *Grupo*, escolha o grupo de itens. Se você selecionou *Tudo*, este campo ficará indisponível.
+    - **Tipo de unidade** – Selecione o tipo de unidade que se aplica à linha de negócio (*Unidade de estoque* ou *Unidade de peso variável*). Observe que este campo pode estar em branco em registros mais antigos. Nesse caso, pressupõe-se o valor da *Unidade de estoque*.
     - **(Parâmetros de gerenciamento de estoque)** – Nos campos restantes da linha de negócios, especifique valores para os parâmetros de gerenciamento de estoque que serão usados para definir os itens incluídos no acordo (como o tamanho, a cor, o estilo, o site e o depósito do item). Para adicionar ou remover as dimensões, selecione **Exibir dimensões** no Painel de Ações.
 
 1. No Painel de ações, selecione **Salvar**.
