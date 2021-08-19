@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c41e9e3267f72a2452eddfeb15f8f5cba79b0b98
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 370afb43d314915958b6e5377028f2ade2b9609cc6e365f0499a9f7c3373f9e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734154"
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Completar instalação básica de um produto mestre lançado
 
@@ -28,7 +28,7 @@ Este tópico mostra como concluir a configuração mínima necessária antes de 
 
 Este é o terceiro procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+1. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 2. Na lista, localize e selecione o PDV desejado. Selecione o produto mestre que você liberou no segundo procedimento. Esse produto mestre foi criado com a tecnologia de configuração baseada em dimensão.  
 3. No Painel de Ação, selecione **Produto**.
 4. Selecione **Grupos de dimensões** para abrir a caixa de diálogo suspensa.

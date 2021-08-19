@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 1dbd947f0740d22e0f79e6d5c272beb64715c8a5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60873cb76ee08dd5a4bd4ed8b38cc4845b500453bf34bd10708b105448b58c9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814383"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735078"
 ---
 # <a name="troubleshoot-warehouse-configuration"></a>Solucionar problemas de configuração do depósito
 
@@ -121,7 +121,7 @@ Para o perfil de gerenciamento de doca gerenciar com eficiência a combinação 
 
 Neste exemplo, nosso perfil de gerenciamento de doca está configurado de forma que a opção **Tipos de estoque que não devem ser combinados** seja definida como *ID da remessa*, e vamos configurar uma quebra de cabeçalho de trabalho para ele:
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Selecione o **Tipo de ordem de serviço** a ser editado (por exemplo, *Ordens de compra*).
 1. Selecione o modelo de trabalho a ser editado.
 1. No Painel de Ações, selecione **Editar consulta**.

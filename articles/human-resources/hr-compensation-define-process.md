@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b43b381ea13d6afc81ebd7bc6458a4bc17d69382
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: d8c6e8feed27e5777bcb9137836b7ce55a8939fb24b4dc43a902087edea30ac3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732552"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definir processo de remuneração e calcular resultados
 
@@ -28,7 +28,7 @@ Os processos de remuneração são usados para determinar os novos valores e pr�
 
 
 ## <a name="create-a-compensation-process"></a>Crie um processo de remuneração
-1. Vá para Recursos humanos > Remuneração > Processo > Processos de remuneração.
+1. Acesse Recursos humanos > Remuneração > Processo > Processos de remuneração.
 2. Clique em Novo.
 3. No campo Processo, digite um valor.
 4. No campo Descrição, digite um valor.

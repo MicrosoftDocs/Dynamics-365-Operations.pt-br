@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: sericks
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: d2a0d6d2e70bfb797de919b536fa1ca62fd181a8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: a65a71da066d70cafc641aafe21538830a9ebe56b607316570ea2435398cda1c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734655"
 ---
 # <a name="create-rules-for-optimization-advisor"></a>Criar regras para o Optimization advisor
 
@@ -190,7 +190,7 @@ class ScanNewRulesJob
 } 
 ```
 
-A regra será exibida no formulário **Regra validação de diagnóstico**, disponível em **Administração do sistema** > **Tarefas periódicas** > **Manter regra validação de diagnóstico**. Para avaliá-la, vá para **Administração do sistema** > **Tarefas periódicas** > **Agendar regra validação de diagnóstico**, selecione a frequência da regra, como **Diariamente**. Clique em **OK**. Vá para **Administração do sistema** > **Optimization advisor** para exibir a nova oportunidade. 
+A regra será exibida no formulário **Regra validação de diagnóstico**, disponível em **Administração do sistema** > **Tarefas periódicas** > **Manter regra validação de diagnóstico**. Para avaliá-la, Acesse **Administração do sistema** > **Tarefas periódicas** > **Agendar regra validação de diagnóstico**, selecione a frequência da regra, como **Diariamente**. Clique em **OK**. Acesse **Administração do sistema** > **Optimization advisor** para exibir a nova oportunidade. 
 
 Veja a seguir o exemplo de um trecho de código com o esqueleto de uma regra incluindo todos os métodos e atributos necessários. Ele ajuda você a começar a gravar novas regras. Os rótulos e itens do menu de ação usados no exemplo são somente para fins de demonstração.
 

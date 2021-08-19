@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: df4d0042e51524c1d50568e969b59923a7ba4a65
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 282cbe0cb115d6204137613f4754068b8a9a321400d24808eb67266a83d7bcc6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5789795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730722"
 ---
 # <a name="base-price-and-trade-agreements"></a>Preço base e contratos comerciais
 
@@ -27,7 +27,7 @@ ms.locfileid: "5789795"
 
 Este procedimento orienta na criação de contratos comerciais de preço de venda específicos para o canal. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. No **Painel de navegação**, vá para **Módulos > Varejo e Comércio > Gerenciamento de preços e descontos > Grupos de preços > Todos os grupos de preços**. Os grupos de preço são como os contratos comerciais são atribuídos a canais específicos. O uso de grupos de preços para atribuir contratos comerciais a um canal habilita a definição de preços específica para o canal.  
+1. No **Painel de navegação**, Acesse **Módulos > Varejo e Comércio > Gerenciamento de preços e descontos > Grupos de preços > Todos os grupos de preços**. Os grupos de preço são como os contratos comerciais são atribuídos a canais específicos. O uso de grupos de preços para atribuir contratos comerciais a um canal habilita a definição de preços específica para o canal.  
 2. Clique em **Novo**.
 3. No campo **Grupos de preços**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -43,7 +43,7 @@ Este procedimento orienta na criação de contratos comerciais de preço de vend
 14. Clique em **Salvar**.
 15. Feche a página.
 16. Feche a página.
-17. No **Painel de navegação**, vá para **Módulos > Varejo e Comércio > Produtos e categorias > Produtos lançados por categoria**.
+17. No **Painel de navegação**, Acesse **Módulos > Varejo e Comércio > Produtos e categorias > Produtos lançados por categoria**.
 18. Na lista, clique no link na linha selecionada.
 19. Clique em **Editar**.
 20. Expanda a Guia Rápida **Vender**.

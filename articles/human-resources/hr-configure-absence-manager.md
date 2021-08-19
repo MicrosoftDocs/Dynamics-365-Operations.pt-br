@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e8a8250b36d2774ac308637253b780592df316cd
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732336"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurar a função de Gerente de ausências
 
@@ -89,16 +89,21 @@ A função Gerente de ausências deve ser atribuída aos funcionários para perm
 
 ## <a name="absence-manager-workspace"></a>Espaço de trabalho do gerente de ausências
 
-No espaço de trabalho **Autoatendimento para funcionários**, a guia **Gerente de ausências** mostra as informações de ausência sobre os funcionários atribuídos ao gerente de ausências na hierarquia de licenças.
+No espaço de trabalho **Autoatendimento para Funcionários**, a guia **Gerenciamento de licenças** mostra as informações de ausência sobre os funcionários atribuídos ao gerente de ausências na hierarquia de licenças. Existem algumas opções disponíveis para o gerente de ausências: 
+ - Analisar solicitações de folga.</br>
+ - Envie uma solicitação de folga em nome de um funcionário.</br>
+ - Exiba todos os funcionários atribuídos ao gerente como parte da hierarquia de licenças.</br>
+ - Exibir o calendário do gerente de ausências.</br>
 
-Na guia **Licença e ausência**, as seguintes opções estão disponíveis para todos os funcionários:
-
-- **Folga** – exibe saldos, solicitações de folga e solicitações de folga aprovadas para o funcionário selecionado.
-- **Saldos de licença** – exibe uma lista dos saldos dos diferentes planos de licença para o funcionário selecionado.
+No espaço de trabalho **Gerenciamento de licenças**, há duas guias:
+ - **Solicitações de folga**: essa guia listará todas as solicitações de folga pendentes que o gerente de ausências pode aprovar. O gerente de ausências pode selecionar vários registros e executar uma ação em relação a eles ao mesmo tempo. Se a exibição de licença entre empresas estiver habilitada, essa lista mostrará solicitações de folga pendentes em todas as entidades legais às quais o gerente têm acesso. Caso contrário, ela mostrará as solicitações de folga pendentes da entidade legal selecionada no momento. </br>
+ - **Todos os funcionários**: essa guia listará todos os funcionários atribuídos ao gerente de ausências na hierarquia de licenças. Há várias opções disponíveis para cada funcionário:
+    - **Solicitar folga** - envie uma nova solicitação de folga para o funcionário selecionado.</br>
+    - **Folga** – exibe saldos, solicitações de folga e solicitações de folga aprovadas para o funcionário selecionado.</br>
 
 ## <a name="approve-time-off-requests"></a>Aprovar solicitações de folga
 
-Os gerentes de ausências podem aprovar ou negar solicitações de folga de funcionários. Eles também podem criar solicitações em nome dos funcionários, conforme a necessidade.
+Os gerentes de ausências podem aprovar ou negar solicitações de folga de funcionários. 
 
 > [!IMPORTANT]
 > Para que os gerentes de ausências possam aprovar ou negar solicitações de folga, o fluxo de trabalho de solicitação de licença deve ser configurado para atribuir itens de trabalho de solicitação de licença a eles para análise.
@@ -109,15 +114,13 @@ Os gerentes de ausências podem aprovar ou negar solicitações de folga de func
 >
 > Para obter informações sobre como criar o fluxo de trabalho de solicitações de licença, consulte [Criar um fluxo de trabalho de solicitações de licença](hr-leave-and-absence-workflow.md).
 
-1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione a guia **Gerente de ausências**.
+1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione a guia **Gerenciamento de licenças**.
 
-2. Na guia **Gerente de ausências**, selecione o funcionário desejado.
+2. Na guia **Solicitações de folga**, selecione as solicitações de folga para as quais você deseja executar ações. Você pode selecionar vários registros nessa exibição de lista.
 
-3. Selecione **Detalhes** e, em seguida, **Folga**.
+3. Use os botões de ação na parte superior da grade para Aprovar, Negar ou Delegar a solicitação de folga. 
 
-4. Localize a solicitação de folga e selecione a opção **Aprovação**. Em seguida, você poderá selecionar uma opção para aprovar ou cancelar a solicitação de folga.
-
-O status de **Cancelamento** indica que a solicitação foi negada. O status de **Concluído** indica que a solicitação foi aprovada.
+Como alternativa, o usuário também pode usar o bloco **Solicitações de folga** no lado esquerdo para navegar até a lista de todos os itens de trabalho de solicitação de folga. 
 
 ## <a name="view-time-off-in-the-calendar"></a>Exibir folga no calendário
 
@@ -126,7 +129,7 @@ Os usuários na função Gerente de ausências podem exibir solicitações de fo
 > [!IMPORTANT]
 > Um administrador do sistema deve configurar as opções de exibição para o calendário do gerente de ausências. Na página **Parâmetros de licença e ausência**, na guia **Calendário**, há opções para ocultar ou mostrar aniversários, ausências sem detalhes, licenças e solicitações de licença pendentes. Há também uma opção para filtrar a opção de exibição calendário por tipo de trabalhador.
 
-1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Gerente de ausências** e **Calendário do gerente de ausências**.
+1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
 
 2. No campo **Data**, insira as datas desejadas.
 

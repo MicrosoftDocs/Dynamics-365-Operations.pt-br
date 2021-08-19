@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 3dd4eb576f234e4d75c08b0b5e2fe967500c8c93
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 836f767caae8e32c156a1c13d1e2864a4d3cdd92e7a11814a2585c9e907575dd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347287"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733812"
 ---
 # <a name="pick-this-up-option-doesnt-appear-on-cart-or-product-details-pages"></a>A opção "Retirar este item" não aparece nas páginas de detalhes do carrinho ou do produto
 
@@ -50,9 +50,9 @@ Para habilitar a extensão "comprar online, retirar na Store" (BOPIS) no criador
 
 Para configurar modos de entrega na matriz do Commerce, siga estas etapas:
 
-1. Vá para **Compras e fornecimento \> Configuração \> Modos de entrega**.
+1. Acesse **Compras e fornecimento \> Configuração \> Modos de entrega**.
 1. Verifique se o modo de entrega **Retirada do cliente** foi criado e se os produtos e endereços estão atribuídos a ele.
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros**.
+1. Acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros**.
 1. No painel de navegação à esquerda, selecione **Ordens do cliente**.
 1. Verifique se o **Modo de entrega de retirada** está configurado corretamente.
 
@@ -60,7 +60,7 @@ Para configurar modos de entrega na matriz do Commerce, siga estas etapas:
 
 Para configurar pagamentos de ordens do cliente na matriz do Commerce, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Configuração da sede \> Parâmetros**.
+1. Acesse **Varejo e Comércio \> Configuração da sede \> Parâmetros**.
 1. No painel de navegação à esquerda, selecione **Ordens do cliente**.
 1. Na guia rápida **Pagamentos**, verifique se os campos **Condições de pagamento** e **Método de pagamento** estão definidos corretamente.
 

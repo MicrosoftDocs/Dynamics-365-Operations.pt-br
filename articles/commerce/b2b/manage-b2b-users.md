@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 88f613be59a0c7b0d5efcdc0bef2c5a54506f9eb
-ms.sourcegitcommit: 0c77dbb8547cd36fce3977ca9515fa1474efa77a
+ms.openlocfilehash: f6cc1d5dfeb48fd00216fc1908e9e8be24f07131b3e5f1eaeefb10396efbebc3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6655597"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734934"
 ---
 # <a name="manage-business-partner-users-on-b2b-e-commerce-websites"></a>Gerenciar usuários parceiros comerciais em sites de comércio eletrônico B2B
 
@@ -65,7 +65,7 @@ Para aprovar e configurar um usuário administrador de parceiro comercial na sed
 
     Depois que você aprovar a solicitação, o campo **Status** do registro de cliente potencial será definido como **Aprovado**. Além disso, dois novos registros de clientes são criados no sistema: um registro de cliente de **Tipo Organização** para a organização de parceiros comerciais e um registro de cliente de **Tipo Pessoa** para o solicitante. Também é criado um registro de hierarquia do cliente para o parceiro comercial. <!--(Please refer to the Org modeling of B2B customer section in this document for more information)-->
 
-1. Vá para **TI de Varejo e Comércio \> Agenda de distribuição** e execute o trabalho **1010** (**Clientes**) para enviar os registros de cliente recém-criado e de hierarquia cliente para o banco de dados do canal.
+1. Acesse **TI de Varejo e Comércio \> Agenda de distribuição** e execute o trabalho **1010** (**Clientes**) para enviar os registros de cliente recém-criado e de hierarquia cliente para o banco de dados do canal.
 
 Depois que a solicitação for aprovada, e os registros de cliente e de hierarquia do cliente forem sincronizados com o banco de dados do canal, o solicitante poderá entrar no site de comércio eletrônico B2B usando o endereço de email fornecido ao enviar a solicitação. Os usuários podem usar o fluxo de inscrição para definir a senha da conta. Para habilitar o registro de provedor de identidade (Azure AD B2C) a ser vinculado ao registro de cliente B2B criado na inscrição ou na entrada, siga as instruções em [Habilitar vinculação automática de registros de identidade a contas de clientes](../identity-record-linking.md).
 

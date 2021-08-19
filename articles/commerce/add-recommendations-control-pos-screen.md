@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 219b82809087e3f5f185bc92836ca300d064fc71
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: af76169455cef16467b1faa9eda92a969aa923e85750cf245b0a6bd071a092e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348335"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730998"
 ---
 # <a name="add-recommendations-to-the-transaction-screen"></a>Adicionar recomendações à tela de transações
 
@@ -35,7 +35,7 @@ Você pode exibir as recomendações de produtos no dispositivo do PDV ao usar o
 
 ## <a name="open-layout-designer"></a>Abrir o designer do layout
 
-1. Vá para **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
+1. Acesse **Varejo e Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
 2. Use o Filtro Rápido para localizar a tela à qual você deseja adicionar o controle. Por exemplo, filtre o campo **ID do layout da tela** usando um valor de **F2CP16:9M**.
 3. Na lista, localize e selecione o registro desejado. Por exemplo, selecione **Nome: F2CP16:9M ID do layout da tela: F2CP16:9M**.
 4. Clique em **Designer de layout**.
@@ -66,7 +66,7 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 
 
 3. Clique no **X** para salvar e sair do designer do layout.
-4. No Commerce, vá para **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
+4. No Commerce, Acesse **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
 5. Na lista, selecione **1090 Registros**.
 6. Clique em **Executar agora**.
 
@@ -89,7 +89,7 @@ Há duas opções de configurações disponíveis. Escolha a opção que funcion
 7. No campo **Imagem**, selecione a imagem que aparecerá na guia.
 8. Clique em **OK**. A nova guia aparecerá na grade de botões.
 9. Clique no **X** para salvar e sair do designer do layout.
-10. No Commerce, vá para **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
+10. No Commerce, Acesse **Varejo e Comércio** &gt; **TI de Varejo e Comércio** &gt; **Agendas de distribuição**.
 11. Na lista, selecione **1090 Registros**.
 12. Clique em **Executar agora**.
 

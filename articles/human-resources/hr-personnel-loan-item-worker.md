@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0b55d1031c72618fc1c5d2fd4c887950898deddb
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 09ed853cb4e937632015007886676542816094011aec8db87f89fdec3ad7f102
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734466"
 ---
 # <a name="loan-item-to-a-worker"></a>Item de empréstimo para um funcionário
 
@@ -30,7 +30,7 @@ Este procedimento mostra como emprestar um item a um funcionário e registrar o 
 
 
 ## <a name="loan-item-to-a-worker"></a>Item de empréstimo para um funcionário
-1. Vá para Recursos humanos > Trabalhadores > Itens emprestados > Equipamento emprestado.
+1. Acesse Recursos humanos > Trabalhadores > Itens emprestados > Equipamento emprestado.
 2. Clique em Novo.
 3. No campo Pessoa, insira ou selecione um valor.
 4. No campo Item de empréstimo, insira ou selecione um valor.
@@ -39,7 +39,7 @@ Este procedimento mostra como emprestar um item a um funcionário e registrar o 
 7. Feche a página.
 
 ## <a name="return-a-loan-item"></a>Devolver um item emprestado
-1. Vá para Recursos humanos > Trabalhadores > Itens emprestados > Equipamento emprestado.
+1. Acesse Recursos humanos > Trabalhadores > Itens emprestados > Equipamento emprestado.
 2. Clique em Editar.
 3. No campo Devolução real, insira uma data.
 

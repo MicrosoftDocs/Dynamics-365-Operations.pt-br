@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c6e329c2219c57f83ef02f9fa224bcac84fb83fa
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 6c068afed606c163da2bfd97d1653b8941aea20d3aca6ae08d6e8a11ef2355de
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055451"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732288"
 ---
 # <a name="create-a-goal"></a>Criar uma meta
 
@@ -26,7 +26,7 @@ ms.locfileid: "6055451"
 
 Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
-1. Vá para Todos os espaços de trabalho > Autoatendimento para funcionários.
+1. Acesse Todos os espaços de trabalho > Autoatendimento para funcionários.
 2. Clique em Exibir todas as metas.
 3. Clique em Novo.
 4. No campo Nome, digite "Concluir o projeto Contoso'.

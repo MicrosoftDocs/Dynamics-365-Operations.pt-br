@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9b5096ae7901a91f602f520e4e869ff67771c244
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 26d5590943ece1480e11a17a684cd7ec8cbaae451ddd5e0407bc72576ae53055
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842168"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731856"
 ---
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informações usadas em cálculos de BOM com custos padrão
 
@@ -63,7 +63,7 @@ As informações do roteiro usado em um cálculo de BOM de custo padrão incluem
 -   Categorias de custo para uma operação de roteiro − as informações de recurso de operações sobre categorias de custo são herdadas pelas operações, nas quais elas podem ser substituídas. Os cálculos de BOM usam as informações de categoria de custo especificadas nas operações de roteiro.
 
 As informações de custos gerais indiretos de fabricação usadas em um cálculo de BOM de custo padrão incluem:
--   Sobretaxa − uma fórmula de cálculo de sobretaxa reflete uma porcentagem de valor, como 100 por cento, associada a um grupo de custos específico, como mão-de-obra.
+-   Sobretaxa − uma fórmula de cálculo de sobretaxa reflete uma porcentagem de valor, como 100%, associada a um grupo de custos específico, como mão-de-obra.
 -   Taxa − uma fórmula de cálculo de taxa reflete uma quantidade unitária, como BRL 10,00 por hora, associada a um grupo de custos específico, como mão-de-obra.
 -   Custos gerais indiretos baseados em tempo versus baseado em material − os custos gerais indiretos de fabricação podem ser associados a operações de roteiro ou componentes de materiais.
 

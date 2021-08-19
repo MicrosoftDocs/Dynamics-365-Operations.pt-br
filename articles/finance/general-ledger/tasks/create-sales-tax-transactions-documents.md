@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 061949dedde763c188e13c07cec750895cbef175
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c60913bda66e5facdf05106f621005b06ac4cf9c2d13b9df36eef42615395fa9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836976"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729669"
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Criar transações de imposto em documentos
 
@@ -26,7 +26,7 @@ ms.locfileid: "5836976"
 
 Os impostos sobre vendas nos documentos são calculados fornecendo um grupo de impostos sobre vendas e um grupo de impostos sobre vendas de itens nas linhas do documento. Esses padrões derivam dos dados mestre, mas podem ser alterados manualmente, se necessário. Os impostos sobre vendas calculado podem ser feitos em um nível de linha e do documento. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o PDV desejado.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-03-21
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: e0b0eb1466d962fb04566b936322db1e4c28f830
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 23f63cca3ff080ad9113fdf0e2c74b0397c25a53fa44fb1c6dc1d0777dedffb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733363"
 ---
 # <a name="warehouse-handling-of-inbound-loads-for-purchase-orders"></a>Processamento de cargas de entrada das ordens de compra no depósito
 
@@ -400,7 +400,7 @@ Esse cenário também mostra como processar vários lançamentos de recebimento 
 
 Neste procedimento, você habilitará vários lançamentos de recebimento de produtos da mesma carga.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Cargas**, defina o campo **Permitir vários recebimentos de produtos por carga** como _Sim_.
 
 #### <a name="create-two-loads-to-plan-receipt-of-a-purchase-order"></a>Criar duas cargas para planejar o recebimento de uma ordem de compra

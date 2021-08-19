@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b8d065dd104df616ba8f10f7813e74c900fdcf77
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f551f94cec71ba7d740756c383b55741e9f8d42e20e63846ea6242383dc3ba32
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733884"
 ---
 # <a name="customer-records-dont-appear-in-commerce-headquarters"></a>Os registros de clientes não aparecem no Commerce Headquarters
 
@@ -41,7 +41,7 @@ Quando você cria um novo registro de cliente usando o fluxo de inscrição na v
 
 Para desabilitar a criação de clientes no modo assíncrono no Commerce Headquarters, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Configuração de canal \> Configuração da loja online \> Perfis de funcionalidade**.
+1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração da loja online \> Perfis de funcionalidade**.
 1. Se ainda não estiver usando um perfil de funcionalidade para seu canal online, crie um.
 1. Verifique se a opção **Criar cliente no modo assíncrono** foi definida como **Não**.
 1. Acesse **Varejo e Comércio \> Canais \> Lojas online**.

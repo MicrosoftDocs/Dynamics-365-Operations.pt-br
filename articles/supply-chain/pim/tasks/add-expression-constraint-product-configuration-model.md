@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9cd5475e48cbcd8dcee6b228297f58e364ac503d
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 859c25fd361063d4c5a8544c4b488adfab4238e6cc079fa96efe1c71777779e9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730313"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>Adicionar uma restrição de expressão para um modelo de configuração de produto
 
@@ -28,7 +28,7 @@ Este procedimento mostra como é possível adicionar uma nova expressão de rest
 
 ## <a name="create-an-expression-constraint"></a>Criar uma restrição de expressão
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 3. Na lista, localize e selecione o registro desejado.
     * Este exemplo usa o modelo de alto-falante avançado.  
 4. Na lista, selecione o link na linha selecionada.

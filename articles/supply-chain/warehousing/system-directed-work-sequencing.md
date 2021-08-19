@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-03
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5387aaf5a5e0d20ac22595fbea86a25fdf38a771
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e349df6b7e2a627562c65b961385625b0ad95b5423fa25b9139af3a8a227321b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831113"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733315"
 ---
 # <a name="system-directed-work-sequencing"></a>Sequenciamento do trabalho direcionado pelo sistema
 
@@ -53,7 +53,7 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
 
 ### <a name="set-up-a-mobile-device-menu-item"></a>Configurar um item de menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Na lista de itens de menu de dispositivo móvel, selecione **Separação de Vendas – Sistema**. O item de menu necessário já deve existir. 
 1. Confirme as seguintes configurações:
 
@@ -142,7 +142,7 @@ Para trabalhar com o cenário usando os valores apresentados neste tópico, voc�
 
 Se você estiver usando dados padrão da Contoso, a consulta para a ação diretiva de localização não exigirá alterações. No entanto, para verificar se as diretivas de localização capturarão os itens nas ordens de venda quando você aplicar o recurso em um ambiente que não seja da Contoso, crie uma nova diretiva de localização. Para verificar as configurações no ambiente de demonstração, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de localização**.
 1. No campo **Tipo de ordem de trabalho**, selecione *Ordens de compra*.
 1. Selecione a diretiva de localização chamada *Separação 51*.
 1. Na guia **Ações de Diretiva de Localização**, selecione a linha para a ação **Separação**.
@@ -164,7 +164,7 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 
 #### <a name="sales-order-1"></a>Ordem de venda 1
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo** para criar a ordem de venda 1.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -252,7 +252,7 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 
 ### <a name="get-work-ids-for-the-work-that-was-created"></a>Obter IDs de trabalho para o trabalho que foi criado
 
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Filtre o campo **Depósito** para que somente o trabalho do depósito *51* seja exibido.
 1. Quatro IDs de trabalho devem ter sido criadas. Anote a ID de trabalho de cada ordem de venda.
 
@@ -265,7 +265,7 @@ Você liberará cada ordem de venda para o depósito a fim de criar o trabalho d
 
 Antes de executar o fluxo no dispositivo móvel, verifique se somente o trabalho recém-criado está com o status *Aberto* para o depósito *51* e o tipo de ordem de trabalho de *Ordem de venda*. Caso contrário, os resultados do teste podem variar, pois a separação direta do sistema incluirá todo o trabalho elegível.
 
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Saída \> Trabalho de venda aberto**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Saída \> Trabalho de venda aberto**.
 1. Na grade **Trabalho de venda aberto**, filtre o campo **Depósito** para que somente o trabalho do depósito *51* seja exibido.
 1. Confirme se aparecem apenas as quatro IDs de trabalho criadas anteriormente.
 1. Feche a página **Trabalho**.
@@ -279,7 +279,7 @@ Lembre-se de que esta configuração capturará trabalhos com pelo menos uma lin
 #### <a name="mobile-app"></a>Aplicativo móvel
 
 1. Entre no aplicativo do depósito como um usuário no depósito *51*.
-1. Vá para **Saída \> Separação de Venda - Sistema**.
+1. Acesse **Saída \> Separação de Venda - Sistema**.
 
     A etapa de separação para a ID de trabalho *4* é apresentada. Essa ID de trabalho é apresentada primeiro por causa da configuração da ordem de consulta direcionada pelo sistema, na qual você especificou que o trabalho deve ser sequenciado com base na quantidade de linha de trabalho decrescente.
 

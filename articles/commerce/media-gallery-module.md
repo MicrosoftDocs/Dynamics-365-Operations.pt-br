@@ -2,7 +2,7 @@
 title: Módulo de galeria de mídia
 description: Este tópico abrange os módulos de galeria de mídia e descreve como adicioná-los a páginas de site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 04/23/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 1d8e8ce51d9e7f962a4d4e39db502089d846d748
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 328a56a6efbdd97c8dac32d65c65ad31953cdb4c3ce56ef818ebe8bf633f93a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733188"
 ---
 # <a name="media-gallery-module"></a>Módulo de galeria de mídia
 
@@ -56,6 +56,10 @@ No exemplo da ilustração a seguir, uma caixa de compra em uma PDP hospeda imag
 | Imagens | Imagens selecionadas na Biblioteca de Mídia do construtor de sites | Além de serem renderizadas de um produto, as imagens podem ser organizadas para um módulo de galeria de mídia. Essas imagens serão anexadas a qualquer imagem de produto disponível. Esse recurso está disponível no Commerce versão 10.0.12. |
 | Orientação de miniatura | **Vertical** ou **Horizontal** | Essa propriedade especifica se as imagens em miniatura devem ser exibidas em uma faixa vertical ou em uma faixa horizontal. |
 | Ocultar imagens de produto mestre para grade | **Verdadeiro** ou **Falso** | Se esta propriedade for definida como **Verdadeiro**, quando uma grade for selecionada, as imagens do produto mestre ficarão ocultas, a menos que a grade não tenha imagens. Esta propriedade não afeta produtos sem grades. |
+| Atualizar mídia na seleção de dimensão | **Verdadeiro** ou **Falso** | Se esta propriedade estiver definida como **Verdadeiro**, as imagens na biblioteca de mídia serão atualizadas quando qualquer dimensão (como cor, estilo ou tamanho) for selecionada, e se houver alguma imagem disponível. Esta propriedade ajuda a simplificar a experiência de navegação, porque nem todas as dimensões da grade de produto devem ser selecionadas para que a imagem correspondente seja atualizada. Esta propriedade está disponível na guia **Avançado**. |
+
+> [!IMPORTANT]
+> A propriedade **Atualizar mídia na seleção de dimensão** está disponível a partir da versão 10.0.21 do Commerce. Ela requer que o pacote de biblioteca do módulo da versão 9.31 do Commerce esteja instalado.
 
 A ilustração a seguir mostra um exemplo de um módulo de galeria de mídia no qual as opções de tela inteira e de zoom estão disponíveis.
 
@@ -73,14 +77,14 @@ Quando a origem da imagem é derivada do contexto da página, a ID do produto da
 
 Para adicionar um módulo de galeria de mídia a uma página de marketing, siga estas etapas:
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira **Modelo de marketing** e selecione **OK**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página Padrão** e, depois, **OK**.
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de marketing**. Em **Nome da página**, insira **Página de galeria de mídia** e selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.

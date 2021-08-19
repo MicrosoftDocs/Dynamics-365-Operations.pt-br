@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: d605ac0b6e4190f0c0f576d402c9b101d754b347
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a1d1ddf108e5e79ca7684ecc26df1c016a0362bbec43868c7dfed6970a097a76
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356667"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731419"
 ---
 # <a name="withholding-tax-in-purchase-transactions"></a>Imposto retido na fonte em transações de compra
 
 Para fornecedores que são responsáveis por retenção de imposto na fonte, você pode atribuir o **Grupo de imposto retido na fonte** padrão na página **Todos os fornecedores**.
 
-1. Vá para **Painel de navegação > Módulos > Contas a pagar > Fornecedores > Todos os fornecedores**.
+1. Acesse **Painel de navegação > Módulos > Contas a pagar > Fornecedores > Todos os fornecedores**.
 
 2. Clique na respectiva conta de fornecedor e clique em **Editar**.
 
@@ -41,7 +41,7 @@ Para fornecedores que são responsáveis por retenção de imposto na fonte, voc
 
 Para itens/serviços que são responsáveis por retenção de imposto, você pode atribuir o **Grupo de imposto retido na fonte** em **Produtos liberados**.
 
-1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+1. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 
 2. Clique no respectivo número do item e clique em **Editar**.
 

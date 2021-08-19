@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 20120-02-28
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 8f5c8f104d8304cf9a54efcdf6e22efbc3b356b3
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 515b8f6574f912440a99c55f70b0e66651c6ccf2ffaedd2456d87f4e799f8aac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348259"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731682"
 ---
 # <a name="seamless-offline-switch-for-gift-card-and-credit-memo-operations"></a>Alternância offline perfeita para operações de vale-presente e memorando de crédito
 
@@ -34,7 +34,7 @@ Os cartões-presente internos dependem do serviço em tempo real porque o saldo 
 
 No entanto, se o PDV perder conectividade depois que um vale-presente tiver sido adicionado a uma transação, o vale-presente poderá ficar inutilizado. Para ajudar a evitar essa situação, o Dynamics 365 Commerce tem um parâmetro que permite que as transações que incluem uma linha de vale-presente sejam concluídas enquanto o pos está off-line. Quando esse parâmetro é ativado, as transações de vale-presente forçadas a ficar off-line serão salvas juntamente com as transações offline e serão sincronizadas com a sede do Commerce quando as transações offline forem sincronizadas. A sincronização também desbloqueará o vale-presente para que possa ser usado em outro terminal.
 
-Para habilitar a funcionalidade para concluir transações de vale-presente depois de alternar para o modo offline, vá para a guia **Postar** na página **Parâmetros do Commerce**. Nessa guia, localize a Guia Rápida **Cartão presente** e defina **Permitir transações de vale-presente conclusivo no modo offline** como **Sim**.
+Para habilitar a funcionalidade para concluir transações de vale-presente depois de alternar para o modo offline, Acesse a guia **Postar** na página **Parâmetros do Commerce**. Nessa guia, localize a Guia Rápida **Cartão presente** e defina **Permitir transações de vale-presente conclusivo no modo offline** como **Sim**.
 
 ![Configuração de cartão de presente offline.](../media/gift.png)
 
@@ -44,7 +44,7 @@ Os parâmetros comerciais são normalmente armazenados em cache. Portanto, depoi
 
 Como vales-presentes internos, os memorandos de crédito são mantidos centralmente na sede do Commerce. O Commerce tem um parâmetro que permite que as transações de memorando de crédito sejam concluídas enquanto o PDV está off-line. Esse parâmetro funciona como o parâmetro de vale-presente mencionado na seção anterior. Quando o parâmetro é ativado, as transações de memorando de crédito que são forçadas offline são sincronizadas novamente com o banco de dados do canal, junto com outras transações que foram executadas enquanto o PDV estava off-line.
 
-Para habilitar a funcionalidade para concluir transações de memorando de crédito depois de alternar para o modo offline, vá para a guia **Postar** na página **Parâmetros do Commerce**. Nessa guia, localize a Guia Rápida **Memorando de crédito** e defina **Permitir transações de memorando de crédito conclusivo no modo offline** como **Sim**.
+Para habilitar a funcionalidade para concluir transações de memorando de crédito depois de alternar para o modo offline, Acesse a guia **Postar** na página **Parâmetros do Commerce**. Nessa guia, localize a Guia Rápida **Memorando de crédito** e defina **Permitir transações de memorando de crédito conclusivo no modo offline** como **Sim**.
 
 ![Configuração de memorando de crédito offline.](../media/creditmemo.png)
 

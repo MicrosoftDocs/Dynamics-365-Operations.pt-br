@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 77daf93e3f516bfddd383e5828159824b97ead8f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 7004ed901bd4bcac0dab4fede9cf793fd05c3af7796006fb5b089f257f81208e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804200"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731560"
 ---
 # <a name="set-up-bar-code-masks"></a>Configurar máscaras de código de barras
 
@@ -31,7 +31,7 @@ Este tópico descreve como configurar caracteres de máscara de código de barra
 
 ## <a name="set-up-bar-code-mask-characters"></a>Configurar caracteres da máscara do código de barras
 
-As máscaras de código de barras são usadas para criar códigos de barras e identificar rapidamente códigos de barras que são digitalizados para o ponto de venda (POS). As máscaras são compostas de caracteres que atuam como espaços reservados que indicam o formato dos códigos de barras que serão criados. Para configurar uma máscara de código de barras, é necessário configurar caracteres de máscara de código de barras. Vá para **Retail e Commerce** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e etiquetas** &gt; **Caracteres de máscara**. Clique em **Novo** para criar caracteres de máscara de código. Os caracteres de máscara podem ser criados para indicar os seguintes dados de código de barras.
+As máscaras de código de barras são usadas para criar códigos de barras e identificar rapidamente códigos de barras que são digitalizados para o ponto de venda (POS). As máscaras são compostas de caracteres que atuam como espaços reservados que indicam o formato dos códigos de barras que serão criados. Para configurar uma máscara de código de barras, é necessário configurar caracteres de máscara de código de barras. Acesse **Retail e Commerce** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e etiquetas** &gt; **Caracteres de máscara**. Clique em **Novo** para criar caracteres de máscara de código. Os caracteres de máscara podem ser criados para indicar os seguintes dados de código de barras.
 
 | Campo            | descrição |
 |------------------|-------------|
@@ -54,7 +54,7 @@ As máscaras de código de barras são usadas para criar códigos de barras e id
 
 ## <a name="define-bar-code-masks"></a>Definir máscaras de código de barras
 
-Depois que os caracteres de máscara de código de barras forem especificados para as máscaras de código de barras necessárias, vá para **Retail e Commerce** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e rótulos** &gt; **Configuração de máscara de código de barras**. Nesta página, é possível definir as máscaras de código de barras que usam os caracteres especificados anteriormente. Essas máscaras de código de barras serão usadas ao gerar códigos de barras e também ajudarão a identificar códigos de barras digitalizados no POS.
+Depois que os caracteres de máscara de código de barras forem especificados para as máscaras de código de barras necessárias, Acesse **Retail e Commerce** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e rótulos** &gt; **Configuração de máscara de código de barras**. Nesta página, é possível definir as máscaras de código de barras que usam os caracteres especificados anteriormente. Essas máscaras de código de barras serão usadas ao gerar códigos de barras e também ajudarão a identificar códigos de barras digitalizados no POS.
 
 1. Clique em **Novo** para criar uma nova máscara de código de barras.
 2. Insira valores nos campos **ID da máscara** e **Descrição**, e selecione uma máscara de código de barras no campo **Tipo**.
@@ -73,7 +73,7 @@ Como exemplo, crie uma máscara de código de barras com a ID de máscara “Pro
 
 As máscaras dos códigos de barras devem ser atribuídas aos códigos de barras antes de poderem ser utilizadas. Continuando com o exemplo anterior, para atribuir a máscara de código de barras a um código de barras, faça o seguinte:
 
-1. Vá para **Administração de organização** &gt; **Configuração** &gt; **Códigos de barras**. Clique em **Novo** para criar um novo código de barras.
+1. Acesse **Administração de organização** &gt; **Configuração** &gt; **Códigos de barras**. Clique em **Novo** para criar um novo código de barras.
 2. Insira valores nos campos **Configuração** **de código de barras** e **Configuração**.
 3. Na seção **Geral**, no campo **Tipo de código de barras**, selecione 'Código 39'. No campo **ID** **da Máscara**, selecione a máscara de 'Produto' criada anteriormente.
 4. Em **Tamanho**, digite '12'.

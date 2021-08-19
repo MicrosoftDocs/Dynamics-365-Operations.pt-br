@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c93a67d0c4a8443eaf40b094770ed6ce29da527b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1786bd141259f7c1ef273b6e9975a15d6e431da98ed3c891cefe5c0c4584f1bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834443"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729597"
 ---
 # <a name="define-financial-dimensions"></a>Definir dimensões financeiras
 
@@ -28,7 +28,7 @@ Este guia de tarefas demonstra como adicionar uma dimensão financeira apoiada p
 
 
 ## <a name="create-an-entity-backed-financial-dimension"></a>Criar uma dimensão financeira apoiada por entidade
-1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Dimensões > Dimensões financeiras**.
+1. Acesse **Painel de navegação > Módulos > Contabilidade > Plano de contas > Dimensões > Dimensões financeiras**.
 2. Clique em **Novo**.
 3. No campo **Usar valores de**, selecione uma entidade definida pelo sistema para basear a dimensão financeira. 
 4. No campo **Nome de dimensão**, digite um valor para descrever a dimensão financeira. O nome pode ser diferente da entidade definida pelo sistema, mas não pode conter espaços ou caracteres especiais.

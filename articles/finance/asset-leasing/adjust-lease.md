@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 1dce99e9fb553cce8de9cefc7e01c8755e9d2090
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1016b69fd59bbe90924996f5c931cb5d0f779253de66f5f3821a8c3001d3313b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729645"
 ---
 # <a name="adjust-leases"></a>Ajustar arrendamentos
 
@@ -41,7 +41,7 @@ Para ajustar um arrendamento, conclua as etapas a seguir. Os dados modificados a
 
 Para abrir o assistente de **Ajuste de arrendamento** no resumo de arrendamento, siga estas etapas.
 
-1. Vá para **Arrendamento de ativo \> Arrendamento \> Resumo de arrendamento**. 
+1. Acesse **Arrendamento de ativo \> Arrendamento \> Resumo de arrendamento**. 
 2. Selecione o arrendamento a ser ajustado e selecione **Assistente de ajuste**.
 3. Siga as instruções do assistente para inserir as alterações necessárias.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 74d53a850113c83979fba6baa4ff3c3e5d9ca02d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: f9abebbf8d6c5dd6695b9697361e1a9a9e6005dc3ded16c4211c9c5c9e34a0b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020618"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730866"
 ---
 # <a name="synchronize-task-management-between-microsoft-teams-and-dynamics-365-commerce-pos"></a>Sincronizar o gerenciamento de tarefas entre o Microsoft Teams e o PDV do Dynamics 365 Commerce
 
@@ -55,12 +55,12 @@ Para obter mais informações, consulte [Publicar listas de tarefas para criar e
 
 Para vincular os aplicativos de PDV e do Microsoft Teams para o gerenciamento de tarefas na sede do Commerce, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Gerenciamento de tarefas \> Integração de tarefas com o Microsoft Teams**.
+1. Acesse **Varejo e Comércio \> Gerenciamento de tarefas \> Integração de tarefas com o Microsoft Teams**.
 1. No Painel de Ações, selecione **Editar**.
 1. Defina a opção **Habilitar a Integração do Gerenciamento de Tarefas** como **Sim**.
 1. No Painel de ações, selecione **Salvar**.
 1. No Painel de Ações, selecione **Gerenciamento de tarefas de configuração**. Você deve receber uma notificação que indique que um trabalho em lotes chamado **Provisão do Teams** está sendo criado.
-1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**, e localize o trabalho mais recente com a descrição **Provisão do Teams**. Aguarde até que a execução do trabalho tenha sido concluída.
+1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**, e localize o trabalho mais recente com a descrição **Provisão do Teams**. Aguarde até que a execução do trabalho tenha sido concluída.
 1. Execute o **Trabalho CDX 1070** para publicar a ID do plano e as referências da loja no Retail Server.
 
 ## <a name="additional-resources"></a>Recursos adicionais

@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 080d45170c726cd0351ab344254aa36c1c56ba55
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271247"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731880"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Ordens de depósito para unidades de escala de nuvem e borda
 
@@ -41,7 +41,7 @@ Para criar uma ordem de depósito, siga estas etapas.
 1. Entre na instância do Microsoft Dynamics 365 Supply Chain Management que está em execução no hub. (É necessário iniciar o processo *Liberar para o depósito* enquanto você estiver conectado no hub.)
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.
 1. No Painel de Ação, na guia **Depósito**, no grupo **Ações**, selecione **Liberar para o depósito**.
-1. Para exibir as linhas de ordem de depósito relacionadas, abra a ordem de compra relevante, selecione uma linha na seção **Linhas da ordem de compra** e, na barra de ferramentas, selecione **Depósito \> Linhas da ordem de depósito**. Para exibir todas as linhas, vá para **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito**.
+1. Para exibir as linhas de ordem de depósito relacionadas, abra a ordem de compra relevante, selecione uma linha na seção **Linhas da ordem de compra** e, na barra de ferramentas, selecione **Depósito \> Linhas da ordem de depósito**. Para exibir todas as linhas, Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito**.
 
 Você também pode desencadear o processo *Liberar para o depósito* de um trabalho em lotes acessando **Gerenciamento de depósito > Liberar para o depósito > Liberação automática de ordens de compra**. Ao configurar o trabalho em lotes, você pode selecionar linhas específicas da ordem de compra com base em uma consulta. Um cenário típico seria configurar um trabalho em lotes recorrente que libera todas as linhas da ordem de compra confirmadas que devem chegar no dia seguinte.
 
@@ -52,7 +52,7 @@ Como parte do processo *Liberar para o depósito*, as transações de estoque da
 Para cancelar linhas de uma ordem de depósito, siga estas etapas.
 
 1. Entre na instância do Supply Chain Management que está em execução no hub.
-1. Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito**.
+1. Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito**.
 1. Selecione a linha relevante.
 1. No painel de ações, selecione **Cancelar linhas da ordem de depósito**.
 
@@ -63,8 +63,8 @@ Para cancelar linhas de uma ordem de depósito, siga estas etapas.
 
 Na exibição **Linhas da ordem de depósito**, você pode monitorar o andamento da remessa de entrada, revisando os valores na coluna **Quantidade restante para receber**. Para exibir detalhes relacionados ao trabalho feito usando o aplicativo móvel de Gerenciamento de Depósito, siga uma destas etapas.
 
-- Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito** e use o filtro para localizar as linhas que você está procurando.
-- Vá para **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e abra a ordem de compra relevante. Na seção **Linhas da ordem de compra**, selecione uma ou mais linhas e, em seguida, na barra de ferramentas, selecione **Depósito \> Entradas de recebimento de depósito**.
+- Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Linhas da ordem de depósito** e use o filtro para localizar as linhas que você está procurando.
+- Acesse **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e abra a ordem de compra relevante. Na seção **Linhas da ordem de compra**, selecione uma ou mais linhas e, em seguida, na barra de ferramentas, selecione **Depósito \> Entradas de recebimento de depósito**.
 
 [!INCLUDE [cloud-edge-privacy-notice](../../includes/cloud-edge-privacy-notice.md)]
 

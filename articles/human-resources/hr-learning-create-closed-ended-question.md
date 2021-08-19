@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b0316661d8be04cc5912e88bc50b3a1c7a73bbcb
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: b4daa277ba1b71238314de975c1e8a54f9ece408d6fc2a314828bc0592129af2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056675"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731952"
 ---
 # <a name="create-a-closed-ended-question"></a>Criar uma pergunta fechada
 
@@ -30,7 +30,7 @@ As perguntas fechadas permitem que você forneça opções para que o entrevista
 
 
 ## <a name="create-an-answer-group"></a>Crie um grupo de reposta
-1. Vá para Questionário > Design > Grupos de respostas.
+1. Acesse Questionário > Design > Grupos de respostas.
 2. Clique em Novo.
 3. No campo Grupo de resposta, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -59,7 +59,7 @@ As perguntas fechadas permitem que você forneça opções para que o entrevista
 22. Feche a página.
 
 ## <a name="create-the-question"></a>Crie a pergunta
-1. Vá para Questionário > Design > Perguntas.
+1. Acesse Questionário > Design > Perguntas.
 2. Clique em Novo.
 3. Use o campo Tipo para agrupar perguntas relacionadas.
     * Você pode usar os tipos de entrada de Caixa de seleção, Botão Alternativo, ou Caixa de combinação para perguntas fechadas.  

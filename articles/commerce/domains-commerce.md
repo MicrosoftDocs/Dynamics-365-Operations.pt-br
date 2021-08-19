@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: BrShoo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: fb010f5cb70668913b937b73ba05144f0b99549a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: bf96c47b8f5e940ffdd9241c3bdda4162a3101c42004c58c431f135f11c39d14
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733982"
 ---
 # <a name="domains-in-dynamics-365-commerce"></a>Domínios no Dynamics 365 Commerce
 
@@ -40,7 +40,7 @@ A ilustração a seguir mostra a tela de provisionamento de comércio eletrônic
 
 ![Tela de provisionamento de comércio eletrônico do LCS com a caixa **Nomes de host com suporte** realçada.](./media/Domains_ProvisioningeCommerceScreen_publish.png)
 
-Você pode criar uma solicitação de serviço para adicionar outros domínios a um ambiente se o provisionamento já tiver ocorrido. Para criar uma solicitação de serviço no LCS, no seu ambiente, vá para **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
+Você pode criar uma solicitação de serviço para adicionar outros domínios a um ambiente se o provisionamento já tiver ocorrido. Para criar uma solicitação de serviço no LCS, no seu ambiente, Acesse **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
 
 ## <a name="commerce-generated-urls"></a>URLs geradas pelo Commerce
 
@@ -117,7 +117,7 @@ Para usar a instância do Azure Front Door fornecida pelo Commerce, você deve c
 - Para um novo domínio, a verificação de domínio e o certificado SSL podem ser obtidos em uma única etapa. 
 - Para um domínio que atende a um site existente, há um processo de várias etapas necessário para estabelecer a verificação de domínio e o certificado SSL. Esse processo tem um contrato de nível de serviço (SLA) de 7 dias úteis para um domínio entrar no ar, pois ele inclui várias etapas sequenciais.
 
-Para criar uma solicitação de serviço no LCS, no seu ambiente, vá para **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
+Para criar uma solicitação de serviço no LCS, no seu ambiente, Acesse **Suporte \> Problemas de suporte** e selecione **Enviar um incidente**.
 
 > [!NOTE]
 > Os domínios personalizados com SSL só têm suporte em ambientes de produção. Para ambientes que não são de produção, como os de área restrita e de teste de aceitação do usuário (UAT), use a URL gerada pelo Commerce para acessar o conteúdo publicado em um navegador da Web.

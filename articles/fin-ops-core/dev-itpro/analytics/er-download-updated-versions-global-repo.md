@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 5f7ae0888656dd452af17e33d600f7894b801b1d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 712bccbd48775cadc069ef5e8a04f9aae3c9f223137bcd394ff1815a720393b5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734879"
 ---
 # <a name="import-updated-versions-of-er-configurations"></a>Importar versões atualizadas de configurações de ER
 
@@ -38,7 +38,7 @@ Este tópico explica como importar versões atualizadas de configurações de ER
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Importar atualizações de versões de configurações**.
 
     ![Página Configurações de localização.](./media/er-download-updated-versions-global-repo1.png)
@@ -67,7 +67,7 @@ Este tópico explica como importar versões atualizadas de configurações de ER
     - Consultor funcional de relatório eletrônico
     - Administrador do sistema
 
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Importar atualizações de versões de configurações**.
 4. Na caixa de diálogo **Importar atualizações de versões de configurações de relatório eletrônico**, no campo **Modo de execução**, selecione **Importar atualizações mais recentes** para importar as versões mais recentes das configurações de ER do repositório global para a instância atual do Finance.
 5. Para programar um trabalho em lotes para a importação, na FastTab **Executar em segundo plano**, defina a opção **Processamento em lotes** como **Sim**. Se quiser repetir a importação periodicamente, configure a recorrência necessária.
@@ -83,7 +83,7 @@ Este tópico explica como importar versões atualizadas de configurações de ER
 
     - Se você executar a importação no modo de lotes, siga estas etapas:
 
-        1. Vá para **Comum** \> **Consultas** \> **Trabalhos em lotes** \> **Meus trabalhos em lotes**.
+        1. Acesse **Comum** \> **Consultas** \> **Trabalhos em lotes** \> **Meus trabalhos em lotes**.
         2. Encontre e selecione o trabalho **Importar atualizações de versões de configurações de relatório eletrônico** e, no Painel de Ação, na guia **Trabalho em lotes**, selecione **Histórico de trabalho em lotes** para ver o histórico de trabalho.
         3. Na página **Histórico de trabalho em lotes**, selecione **Log**. Em seguida, na mensagem recebida, selecione o link **Detalhes da mensagem** para ver o log do trabalho.
 

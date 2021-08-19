@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6503452f1b933fc5b2e3e626bd429b3eae58ff3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 11a64bcc8779243c9768c04a36c364260b19dd3482f7f1e8ab025bb8c516dd30
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821859"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734496"
 ---
 # <a name="withholding-taxes-on-customer-payments-brazil"></a>Impostos retidos na fonte em pagamentos de clientes (Brasil)
 
@@ -36,7 +36,7 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 8. Clique em Salvar.
 9. Feche a página.
 10. Feche a página.
-11. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+11. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 12. Clique em Novo.
 13. No campo Conta de cliente, insira ou selecione um valor.
 14. Clique em OK.
@@ -60,7 +60,7 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 32. Feche a página.
 33. Feche a página.
 34. Feche a página.
-35. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
+35. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
 36. Clique em Novo.
 37. Na lista, marque a linha selecionada.
 38. No campo Nome, insira ou selecione um valor.

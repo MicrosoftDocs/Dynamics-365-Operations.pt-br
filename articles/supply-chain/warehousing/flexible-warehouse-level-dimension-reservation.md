@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-01-15
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: eca0b61e1fa6760bfed1a9f9979deddccf6fb1a5
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 32beabd40aa62cce832505edd56d92a8a8f12192b821f075e9b1f058d52bf8d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733435"
 ---
 # <a name="flexible-warehouse-level-dimension-reservation-policy"></a>Política flexível de reserva de dimensão no nível de depósito
 
@@ -97,7 +97,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
 ### <a name="set-up-an-inventory-reservation-hierarchy-to-allow-batch-specific-reservation"></a><a name="Example-batch-allocation"></a>Configurar uma hierarquia de reservas de estoque para permitir reserva específica de lote
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Estoque \> Hierarquia de reservas**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Estoque \> Hierarquia de reservas**.
 2. Selecione **Novo**.
 3. No campo **Nome**, insira um nome (por exemplo, **BatchFlex**).
 4. No campo **Descrição**, insira uma descrição (por exemplo, **Abaixo do lote flexível**).
@@ -125,7 +125,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
 
 ### <a name="enter-sales-order-details"></a><a name="sales-order-details"></a>Inserir detalhes da ordem de venda
 
-1. Vá para **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
+1. Acesse **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. No cabeçalho da ordem de venda, no campo **Conta de cliente**, digite **US-003**.
 4. Adicione uma linha para o novo item e insira **10** como a quantidade. Verifique se o campo **Depósito** está definido como **24**.
@@ -152,7 +152,7 @@ Para este exemplo, os dados de demonstração devem ser instalados, e você deve
     >
     > A reserva de um lote específico para a quantidade em uma linha da ordem de venda também pode ser parcial. Por exemplo, a quantidade total de 100 unidades pode ser reservada para que um lote específico seja confirmado em 20 unidades, enquanto 80 unidades são reservadas nos níveis de site e depósito para qualquer lote disponível. Nesse caso, o WMS manipulará as operações de separação usando duas linhas de trabalho separadas.
 
-7. Vá para **Gerenciamento de informações do produto** \> **Produtos** \> **Produtos liberados**. Selecione seu item e, em seguida , selecione **Gerenciar estoque** \> **Exibir** \> **Transações**.
+7. Acesse **Gerenciamento de informações do produto** \> **Produtos** \> **Produtos liberados**. Selecione seu item e, em seguida , selecione **Gerenciar estoque** \> **Exibir** \> **Transações**.
 
     ![Reserva confirmada na ordem como um tipo de transação de estoque.](media/Inventory-transactions-for-order-committed-reservation.png)
 
@@ -244,7 +244,7 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
 
 ### <a name="create-an-inventory-reservation-hierarchy-that-allows-for-license-plate-reservation"></a>Criar uma hierarquia de reserva de estoque que permite reservas de placas de licença
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Estoque \> Hierarquia da reserva**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Estoque \> Hierarquia da reserva**.
 1. Selecione **Novo**.
 1. No campo **Nome**, insira um valor (por exemplo, *FlexibleLP*).
 1. No campo **Descrição**, insira um valor (por exemplo, *Reserva de placa de licença flexível*).
@@ -256,7 +256,7 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
 
 ### <a name="create-two-released-products"></a>Crie dois produtos lançados
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Novo produto lançado**, defina os seguintes valores:
 
@@ -286,7 +286,7 @@ Este cenário faz referência a valores e registros incluídos nos dados de demo
 
 ### <a name="create-a-sales-order-and-reserve-a-specific-license-plate"></a>Criar uma ordem de venda e reservar uma placa de licença específica
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -370,7 +370,7 @@ A importante regra a seguir é aplicada a todas as ações de tratamento de exce
 
 Um exemplo desse cenário é uma situação em que o trabalho concluído anteriormente está sendo retirado usando a função **Reduzir quantidade separada**. Este exemplo supõe que você já tenha concluído as etapas descritas no [Exemplo de cenário: alocação de número de lote](#Example-batch-allocation). Ele continua com base nesse exemplo.
 
-1. Vá para **Gerenciamento de depósito** \> **Cargas** \> **Cargas ativas**.
+1. Acesse **Gerenciamento de depósito** \> **Cargas** \> **Cargas ativas**.
 2. Selecione a carga que foi criada em relação à remessa da ordem de venda.
 3. Na FastTab **Linhas de ordem da carga**, selecione **Reduzir quantidade separada**.
 4. Na página **Reduzir quantidade separada**, no campo **Mover para local**, selecione **FL-001**.

@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 1abcc4befd1277d7f08d3dfa89cb76b0ee4a6178
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0ae0f3bd58db587d9024beceedd790cc3d3e4ee990a2f4c727dfda96b2f0785c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354556"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730794"
 ---
 # <a name="configure-task-management"></a>Configurar gerenciamento de tarefas
 
@@ -34,7 +34,7 @@ Cada trabalhador em uma determinada loja pode exibir todas as tarefas atribuída
 
 Para configurar permissões de gerenciamento de tarefas para os gerentes de armazenamento, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Funcionários \> Grupos de permissão**.
+1. Acesse **Retail e Commerce \> Funcionários \> Grupos de permissão**.
 1. Selecione um grupo de permissões específico (por exemplo **Gerente**) e, em seguida, selecione **Editar**.
 1. Na guia **Permissões**, defina a opção **Permitir gerenciamento de tarefas** como **Sim**.
 1. Na Guia Rápida **Notificações**, adicione a operação **Gerenciamento de tarefas**, e insira um valor no campo **Exibir ordem**. Por exemplo, digite **2** se a operação **Preenchimento da ordem** já tiver um valor **Exibir ordem** como **1**.
@@ -52,7 +52,7 @@ Os funcionários devem ter permissões para criar listas de tarefas, gerenciar c
 
 Para configurar permissões para um funcionário, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Funcionários \> Usuários**.
+1. Acesse **Retail e Commerce \> Funcionários \> Usuários**.
 1. Selecione um funcionário.
 1. Na Guia Rápida **Funções do usuário**, selecione **Atribuir funções**.
 1. Na caixa de diálogo **Atribuir funções ao usuário**, selecione a função **Gerenciador de tarefas de varejo** e, em seguida, selecione **OK**.
@@ -63,7 +63,7 @@ Para que os funcionários possam usar clientes de PDV, as permissões devem ser 
 
 Para distribuir permissões para clientes de PDV, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Selecione a agenda de distribuição **1060** (**Equipe**) e selecione **Executar agora**.
 1. Selecione a agenda de distribuição **1070** (**Configuração de canal**) e selecione **Executar agora**.
 
@@ -73,7 +73,7 @@ O gerenciamento de tarefas deve ser configurado de forma que as notificações e
 
 Para configurar notificações de PDV para tarefas, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
+1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
 1. Encontre a operação **1400** (**Gerenciamento de tarefas**), e marque a caixa de seleção **Habilitar notificações** da operação.
 
 A ilustração a seguir mostra a operação **Gerenciamento de tarefas** na página **Operações de PDV**.
@@ -88,7 +88,7 @@ Antes de configurar o bloco **Tarefas** na página inicial de um aplicativo de P
 
 Para configurar o bloco **Tarefas** em uma página inicial do aplicativo de PDV, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Layouts da tela**.
+1. Acesse **Varejo e Comércio \> Configuração de canal \> Configuração do PDV \> PDV \> Layouts da tela**.
 1. Selecione um layout de tela, selecione um tamanho de layout e selecione uma grade de botões.
 1. Na Guia Rápida **Grades de botões**, selecione **Designer** para editar a grade de botões selecionada.
 1. Adicione um bloco de **Tarefas** à seção apropriada da página inicial.
