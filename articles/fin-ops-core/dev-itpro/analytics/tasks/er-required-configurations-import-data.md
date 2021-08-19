@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2194bdc918035bf3aebe9b90ddc8a30f9937bb0c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 7eaa35baae8e030d8a8b7ce903554c4876c874b48cfd72d6ac278cf4c0e8a6e8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751453"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720847"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
@@ -201,7 +201,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 27. Feche a página.
 28. Feche a página.
 29. Feche a página.
-30. Vá para Contas a pagar > Tarefas periódicas > Imposto 1099 > Liquidação de fornecedor para impostos 1099.
+30. Acesse Contas a pagar > Tarefas periódicas > Imposto 1099 > Liquidação de fornecedor para impostos 1099.
 
     Este formulário mostra as transações cumulativas na tabela de Tax1099Summary criadas com base nas transações importadas.  
 
@@ -249,7 +249,7 @@ Execute este mapeamento de formato para fins de teste. Use o arquivo 1099entries
 24. Clique em Mapear modelo para fonte de dados.
 25. Clique em Executar.
 
-    Se você instalou o hotfix KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), selecione o mapeamento de modelos preferencial no campo de pesquisa. Se você não tiver instalado o hotfix ainda, vá para a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
+    Se você instalou o hotfix KB 4012871 Suporte de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em diferentes versões do ([KB 4012871](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)), selecione o mapeamento de modelos preferencial no campo de pesquisa. Se você não tiver instalado o hotfix ainda, Acesse a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
     
     Se você não tiver instalado o hotfix, o KB 4012871, observe que a caixa de diálogo contém uma pergunta de mapeamento do modelo adicional que é usada para analisar o arquivo que você está importando. Em seguida, os dados são transferidos da caixa de diálogo para o modelo de dados. Atualmente, você pode escolher qual mapeamento de formato deve ser usado, dependendo do tipo de arquivo que você pretende importar.  
     

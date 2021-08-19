@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a62e8b12847f20cbea1eff7978fd5286c0750950
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5a6e544600521d8c3d09acbc17357b00f61c94aad38123447f42d68c117510d2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719161"
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a>Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5813437"
 
 Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de impostos PIS e COFINS usando os códigos de ajuste que são definidos pela autoridade fiscal. Depois que o ajuste for lançado, ele pode ser visualizado na apuração de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Livros fiscais > Diários > Ajuste geral de imposto/benefício/incentivo.
+1. Acesse Livros fiscais > Diários > Ajuste geral de imposto/benefício/incentivo.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, insira ou selecione um valor.
@@ -44,7 +44,7 @@ Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de
 17. Clique em Lançar.
 18. Feche a página.
 19. Feche a página.
-20. Vá para Livros fiscais > Comum > Apuração de imposto > PIS-COFINS.
+20. Acesse Livros fiscais > Comum > Apuração de imposto > PIS-COFINS.
 21. Clique em Ajuste.
 22. Feche a página.
 23. Feche a página.

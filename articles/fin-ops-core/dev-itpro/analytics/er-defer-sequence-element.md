@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-01
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 3a8d4c57ca6b1fee5f4eb1414bfb503470b5e570
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2af6c95e459246f25574860dc319928380d06cc9fd4fdb68f42203f943b4d386
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348082"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718406"
 ---
 # <a name="defer-the-execution-of-sequence-elements-in-er-formats"></a>Adiar a execução de elementos de sequência nos formatos de ER
 
@@ -68,7 +68,7 @@ Antes de começar, você também deve baixar e salvar a configuração a seguir 
 
 ### <a name="import-the-sample-er-configurations"></a>Importar o exemplo de configurações de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Na página **Configurações**, se a configuração **Modelo para conhecer elementos adiados** não estiver disponível na árvore de configuração, importe a configuração do modelo de dados do ER:
 
@@ -92,7 +92,7 @@ Antes de começar, você também deve baixar e salvar a configuração a seguir 
 
 ### <a name="activate-a-configurations-provider"></a>Ativar um provedor de configurações
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o [provedor de configuração](general-electronic-reporting.md#Provider) para a empresa de exemplo Litware, Inc. (`http://www.litware.com`) está listado e marcado como ativo. Se esse provedor de configuração não estiver listado, ou se ele não estiver marcado como ativo, siga as etapas no tópico [Criar um provedor de configuração e marcá-lo como ativo](./tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
     ![A empresa de exemplo Litware, Inc. na página Configurações de localização.](./media/ER-DeferredSequence-ElectronicReportingWorkspace.png)
@@ -101,7 +101,7 @@ Antes de começar, você também deve baixar e salvar a configuração a seguir 
 
 Examine as configurações do componente de mapeamento do modelo de ER que é configurado para acessar as transações de imposto e expor dados acessados na solicitação.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo para conhecer elementos adiados**.
 4. Selecione a configuração **Mapeamento para conhecer elemento adiados**.

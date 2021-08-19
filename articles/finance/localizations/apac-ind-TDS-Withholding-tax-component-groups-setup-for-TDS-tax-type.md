@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 9ececb030432028512ff2d75a772761df4d416a7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a5e627fcd8d25558d766cdf4d3b7c8d9c8544fb5476a978859e9e3ac83f6475c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356600"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718211"
 ---
 # <a name="set-up-withholding-tax-component-groups-for-the-tds-tax-type"></a>Configurar grupos de componentes de imposto retido na fonte para tipos de imposto TDS
 
@@ -29,7 +29,7 @@ ms.locfileid: "6356600"
 
 Este tópico explica como configurar grupos de componentes de imposto retido na fonte, como **Aluguel** e **Prestador de serviço**, para o tipo de Imposto Deduzido na Origem (TDS).
 
-1. Vá para **Imposto \> Configuração \> Imposto retido na fonte \> Grupos de componentes de imposto retido na fonte**.
+1. Acesse **Imposto \> Configuração \> Imposto retido na fonte \> Grupos de componentes de imposto retido na fonte**.
 
     [![Página grupos de componentes de imposto retido na fonte.](./media/apac-ind-TDS-8.png)](./media/apac-ind-TDS-8.png)
 

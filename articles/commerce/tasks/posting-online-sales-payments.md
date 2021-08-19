@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2e482b0fb5f2cf67e687c2b278bc5b54ad09839
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 58af31464768e988bfa8727bcd836032d06b3a9dcfb416c3b9ed274af3285c79
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802662"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720895"
 ---
 # <a name="posting-of-online-sales-and-payments"></a>Lançamento de vendas e pagamentos online
 
@@ -36,7 +36,7 @@ Receber os dados de transação online pode ser feito manualmente executando o t
 
 ### <a name="manually-running-the-p-job"></a>Executando o trabalho P manualmente
 
-1. Vá para Todos os espaços de trabalho > TI de Varejo e Comércio.
+1. Acesse Todos os espaços de trabalho > TI de Varejo e Comércio.
 2. Clique em Agenda de distribuição.
 3. Selecione P-0001.
 4. Ajuste os grupos do banco de dados do canal, se necessário.
@@ -45,7 +45,7 @@ Receber os dados de transação online pode ser feito manualmente executando o t
 
 ### <a name="scheduling-a-recurring-p-job"></a>Agendando um trabalho P recorrente
 
-1. Vá para Todos os espaços de trabalho > TI de Varejo e Comércio.
+1. Acesse Todos os espaços de trabalho > TI de Varejo e Comércio.
 2. Clique em Agenda de distribuição.
 3. Selecione P-0001.
 4. Clique em Criar trabalho em lotes.
@@ -63,7 +63,7 @@ As ordens podem ser sincronizadas manualmente, executando o trabalho "Sincroniza
 
 Siga estas etapas para executar manualmente o trabalho "Sincronizar ordens" uma vez.
 
-1. Vá para Todos os espaços de trabalho > Finanças da loja.
+1. Acesse Todos os espaços de trabalho > Finanças da loja.
 2. Clique em Sincronizar ordens.
 3. No campo Hierarquia da organização, selecione 'Lojas por região'.
     * Selecione uma loja online específica ou selecione um nó se você deseja criar o trabalho em lotes para um grupo de lojas.  
@@ -80,7 +80,7 @@ Siga estas etapas para executar manualmente o trabalho "Sincronizar ordens" uma 
 
 Este procedimento orienta como configurar e executar um trabalho em lotes periódico para criar ordens de venda e pagamentos para transações de lojas online. Este procedimento usa a empresa USRT nos dados de demonstração.
 
-1. Vá para Todos os espaços de trabalho > Finanças da loja.
+1. Acesse Todos os espaços de trabalho > Finanças da loja.
 2. Clique em Sincronizar ordens.
 3. No campo Hierarquia da organização, selecione 'Lojas por região'.
     * Selecione uma loja online específica ou selecione um nó se você deseja criar o trabalho em lotes para um grupo de lojas.  

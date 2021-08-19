@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: AX 10.0.9
-ms.openlocfilehash: 5b58a9345b83219296a3570e7bf653ef8624b7a1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7ef8f730f2e207a8fd28c2bf5167d14f57d6c607314bfc48d4358a59d3ef5c43
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357633"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718590"
 ---
 # <a name="compress-large-documents-that-are-generated-in-electronic-reporting"></a>Compactar documentos grandes que são gerados em relatórios eletrônicos 
 
@@ -59,7 +59,7 @@ Antes de concluir os procedimentos deste tópico, as etapas a seguir devem ser c
 
 ### <a name="modify-the-format-to-compress-the-generated-output"></a>Modificar o formato para compactar a saída gerada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração, expanda **Modelo para conhecer elementos adiados**.
 3. Selecione a configuração **Formato para conhecer elementos XML adiados**.
 4. Selecione **Designer** para modificar a estrutura do formato.

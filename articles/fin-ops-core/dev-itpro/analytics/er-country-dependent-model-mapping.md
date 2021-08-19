@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.2
-ms.openlocfilehash: ef74a446356eeeeb86829868043ca2dad4eff77d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 64963348ef2cf850477d03fcb9a40d3a167c715bea86eca1d756f01f54472d5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357585"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718542"
 ---
 # <a name="configure-country-context-dependent-er-model-mappings"></a>Configurar mapeamentos de modelo de ER dependente do contexto do país
 
@@ -192,7 +192,7 @@ Na tabela, um sinal de adição (+) indica a presença de uma configuração de 
 
 ### <a name="review-the-er-debug-log"></a>Revisar o log de depuração de ER
 
-1.  No painel de navegação, vá para **Módulos \> Administração da organização \> Relatórios eletrônicos \> Log de depuração de configuração**.
+1.  No painel de navegação, Acesse **Módulos \> Administração da organização \> Relatórios eletrônicos \> Log de depuração de configuração**.
 2.  Selecione o botão **Recarregar esta página**.
 
 ![Página de logs de execução de ER.](./media/RCS-Context-specific-mapping-DebugLog.PNG)

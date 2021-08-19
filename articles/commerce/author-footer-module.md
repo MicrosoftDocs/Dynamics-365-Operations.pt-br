@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 2768317092f43862f26847c4b4c57f5929d43912
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 0fdf183afe0df71e43a05b65fba06126f75f85b981b78afc4a543fb9310c6906
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346769"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719977"
 ---
 # <a name="footer-module"></a>Módulo de rodapé  
 
@@ -45,7 +45,7 @@ Como a maioria dos contêineres, o módulo de rodapé oferece suporte a propried
 
 ## <a name="create-a-footer-module"></a>Criar um módulo de rodapé
 
-1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Contêiner**, insira um nome para o fragmento e, em seguida, selecione **OK**.
 1. No slot **Contêiner padrão**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Categoria do rodapé** e, depois, **OK**.

@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 62f3bda29aadf5fed045c3c78673a38360eb2d7c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a8a86a1b2184155cf21f5e98ce6e3eb7228db525cd3b80f37ed8903e58767607
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822811"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720484"
 ---
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 

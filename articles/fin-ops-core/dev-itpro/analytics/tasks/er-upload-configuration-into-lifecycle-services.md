@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 41a8fcf2592bde4901aba703e0cd124b1155dac6
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: b480351875c7d300db790a68d61a402218f8ee36d8247188b912762f21d035b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270550"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720751"
 ---
 # <a name="upload-a-configuration-into-lifecycle-services"></a>Carregar uma configuração no Lifecycle Services
 
@@ -36,7 +36,7 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
     - Desenvolvedor de relatório eletrônico
     - Administrador do sistema
 
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. Selecione **Litware, Inc.** e marque-a como **Ativa**.
 4. Selecione **Configurações**.
 
@@ -48,7 +48,7 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
 
 ## <a name="create-a-new-data-model-configuration"></a>Criar uma nova configuração de modelo de dados
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, selecione **Criar configuração** para abrir a caixa de diálogo suspensa.
 
     Neste exemplo, você criará uma configuração contendo um modelo de dados de exemplo para documentos eletrônicos. Esta configuração do modelo de dados será carregada no LCS posteriormente.
@@ -106,7 +106,7 @@ Neste exemplo, você criará uma configuração e a carregará no LCS para uma e
 
 ## <a name="upload-a-configuration-into-lcs"></a>Carregar uma configuração no LCS
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Configuração do modelo de exemplo**.
 
     Selecione uma configuração criada que já esteja concluída.

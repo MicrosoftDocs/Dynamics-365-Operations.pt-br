@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4c0d3af96e6ef6735b01165a49c1450b3b633b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e67992c9e744b6337cf4921e06cc7886dead8021102d263022f67940c3e7669b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720123"
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a>Configurar encargos suplementares do hub e mestres suplementares
 
@@ -29,7 +29,7 @@ Este procedimento mostra como criar um mestre suplementar para um hub e usar ess
 
 
 ## <a name="set-up-a-hub-master"></a>Configurar um mestre de hub
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
 2. Clique em Novo.
 3. No campo Mestre suplementar, digite um valor.
 4. No campo Nome, digite um valor.
@@ -38,7 +38,7 @@ Este procedimento mostra como criar um mestre suplementar para um hub e usar ess
 7. Feche a página.
 
 ## <a name="set-up-a-hub-accessorial-charge"></a>Configurar um encargo suplementar do hub
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares do hub.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares do hub.
 2. Clique em Novo.
 3. No campo ID suplementar do hub, digite um valor.
 4. No campo Hub, clique no botão suspenso para abrir a pesquisa.

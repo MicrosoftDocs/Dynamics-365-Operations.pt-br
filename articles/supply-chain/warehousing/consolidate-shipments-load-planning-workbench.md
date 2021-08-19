@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 30824bf1c8e84bab08b6885ee812ed5e3e9937bb
-ms.sourcegitcommit: 53b797ff1b524f581046b48cdde42f50b37495bc
+ms.openlocfilehash: 2dda45f475f0119b202008f6f8d95c8ccc59a1e63108dbd766a49b3551cdf778
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6117172"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720099"
 ---
 # <a name="consolidate-shipments-by-releasing-to-warehouse-from-the-load-planning-workbench"></a>Consolide remessas liberando para o depósito da bancada de planejamento de carga
 
@@ -38,7 +38,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-order-set-1"></a>Crie o conjunto de ordens 1
 
@@ -207,7 +207,7 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 Siga estas etapas para criar uma carga para cada conjunto de ordens que você criou para esse cenário e, em seguida, liberá-lo para o depósito.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. Na guia **Linhas de venda**, localize e selecione todas as linhas da ordem de venda em um dos conjuntos de ordens criados para esse cenário.
 1. No Painel de Ações, na guia **Oferta e demanda**, selecione **Adicionar \> Para nova carga** para adicionar as linhas de ordem selecionadas a uma nova carga.
 1. Na caixa de diálogo **Atribuição de modelo de carga**, no campo **ID do modelo de carga**, selecione um modelo de carga, como *Modelo de Carga Padrão*.

@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: josaw
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e46b04005b03a2a4c1ce50650a51ba4e02d85111
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: d77e1f3b5f8d558643b078dbe8e829e62f85120e4931d60224116a33f171fab3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720998"
 ---
 # <a name="set-up-a-b2b-e-commerce-site"></a>Configurar um site de comércio eletrônico B2B
 
@@ -94,7 +94,7 @@ Para configurar a página de confirmação da solicitação no construtor de sit
 
 Para adicionar um link à página de confirmação da solicitação no construtor de sites, siga estas etapas.
 
-1. Vá para a página de **Solicitação de parceiro de negócios** que você criou anteriormente e selecione **Editar**. 
+1. Acesse a página de **Solicitação de parceiro de negócios** que você criou anteriormente e selecione **Editar**. 
 1. Selecione o slot do módulo de **Inscrição de parceiro**. No painel de propriedades, em **Vincular à página de confirmação de inscrição**, configure o link para a página de solicitação de parceiro de negócios criada anteriormente. 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -104,7 +104,7 @@ Depois de as páginas de solicitação de inscrição e confirmação de parceir
 
 Para adicionar um link de solicitação de parceiro de negócios na página inicial do construtor de sites, siga estas etapas.
 
-1. Vá para a página inicial do seu site e selecione **Editar**.
+1. Acesse a página inicial do seu site e selecione **Editar**.
 1. Selecione um slot do módulo de **Bloco de conteúdo**. No painel de propriedades do módulo, em **Links**, configure um link para a página de solicitação de parceiro de negócios que você criou anteriormente e digite **Inscrever-se como parceiro de negócios** ou um texto semelhante como o texto do link. Adicione uma imagem conforme apropriado.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -176,7 +176,7 @@ Para criar uma página de saldo do cliente no construtor de sites, siga estas et
 1. No slot do **Contêiner**, adicione um módulo de **Saldo da conta do cliente**. No painel de propriedades do módulo, em **Título**, digite **Saldo da conta**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel Propriedades do módulo de **Bloco de saldo do cliente da conta**, adicione um link à página de saldo do cliente. 
 1. Salve e publique a página.
 
@@ -210,7 +210,7 @@ Para criar uma página de modelos de ordem no construtor de sites, siga estas et
 1. No slot **Contêiner**, adicione um módulo de **Lista de modelos de ordem**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel de propriedades do módulo de **Bloco de modelos de ordem de conta**, em **Links**, configure um link para a página de lista de modelos de ordem que você acabou de criar.
 1. Salve e publique a página.
 
@@ -244,7 +244,7 @@ Para criar uma página de usuários da organização no construtor de sites, sig
 1. No painel de propriedades do módulo de **Lista de organizações de negócios**, habilite as Propriedades **Classificação em tabela** e **Paginação em tabela**. Defina a contagem de paginação como **5**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel de propriedades do módulo de **Bloco de usuários da organização**, em **Links**, configure um link para a página de usuários da organização que você acabou de criar. 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -266,7 +266,7 @@ Para criar uma página de lista de faturas no construtor de sites, siga estas et
 1. No slot **Contêiner**, adicione um módulo **InvoicesList**. No painel de propriedades do módulo, em **Título**, digite **Faturas**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 1. Publique o URL para a página.
-1. Vá para a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
+1. Acesse a página inicial de gerenciamento de conta (**Minha conta**) que você criou anteriormente.
 1. No painel de propriedades do módulo de **Bloco de faturas da conta**, em **Links**, configure um link para a página de lista de faturas que você acabou de criar. 
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.
 
@@ -289,14 +289,14 @@ O módulo de adição rápida oferece uma maneira de adicionar rapidamente vári
 
 Para adicionar um módulo de adição rápida a uma página de carrinho no construtor de sites do Commerce, siga estas etapas.
 
-1. Vá para **Modelos** e selecione o modelo da página de carrinho do seu site.
+1. Acesse **Modelos** e selecione o modelo da página de carrinho do seu site.
 1. Selecione **Editar**.
 1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No slot **Contêiner**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Adição rápida** e depois **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione a página de carrinho do seu site.
+1. Acesse **Páginas** e selecione a página de carrinho do seu site.
 1. No slot **Principal** do módulo **Página Padrão**, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.
 1. No painel de propriedades do módulo **Contêiner**, em **Largura**, selecione **Preencher Contêiner**.

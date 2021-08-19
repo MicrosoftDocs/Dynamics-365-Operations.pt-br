@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bfcbeaa64aa00f19dc72cf5256ead47654808ed9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2478d86a24bc6e41dd43b41c9e7062108c3122e8b5a3d699db2fc8243e8be5c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721286"
 ---
 # <a name="routes-and-operations"></a>Roteiros e operações
 
@@ -70,7 +70,7 @@ Normalmente, a operação primária representa o gargalo de recursos e impõe o 
 
 Tanto a operação primária como as secundárias devem possuir o mesmo número de operação (30 na ilustração anterior).  
 
-No exemplo anterior, o requisito de recurso para a operação primária (30) é a máquina, enquanto os requisitos de recursos para as operações secundárias (30' e 30'') são a ferramenta e o o trabalhador. Uma carga de cinquenta por cento ajuda a garantir que o trabalhador agendado possa supervisionar duas máquinas ao mesmo tempo.
+No exemplo anterior, o requisito de recurso para a operação primária (30) é a máquina, enquanto os requisitos de recursos para as operações secundárias (30' e 30'') são a ferramenta e o o trabalhador. Uma carga de 50% ajuda a garantir que o trabalhador agendado possa supervisionar duas máquinas ao mesmo tempo.
 
 ### <a name="approval-of-routes"></a>Aprovação de roteiros
 
@@ -242,7 +242,7 @@ Entre os tipos de trabalho está Sobreposição. A sobreposição permite que di
 Portanto, quando a ativação é selecionada para sobreposição, o restante das configurações (Gerenciamento de trabalho, Horário de trabalho e Capacidade) não afetam o grupo de roteiros. 
 
 > [!NOTE]
-> Quando você atualiza versões, pode se deparar com o seguinte erro: **“Erro de CRL ao invocar o mecanismo de planejamento”**. Se você receber esse erro, vá para a página **Grupos de roteiros** e, para todos os roteiros nos quais ativou **Sobreposição**, desmarque as opções **Gerenciamento de trabalho**, **Horário de trabalho** e **Capacidade**. 
+> Quando você atualiza versões, pode se deparar com o seguinte erro: **“Erro de CRL ao invocar o mecanismo de planejamento”**. Se você receber esse erro, Acesse a página **Grupos de roteiros** e, para todos os roteiros nos quais ativou **Sobreposição**, desmarque as opções **Gerenciamento de trabalho**, **Horário de trabalho** e **Capacidade**. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

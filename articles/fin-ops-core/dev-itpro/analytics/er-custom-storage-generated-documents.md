@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 424917f98ec7c4c044fb5cdae78133d1529aefd9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 61a1e46497d650e2c063a5fe7537d17cf7aa1828a5a4504bb781e84aeb88f04a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348155"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718492"
 ---
 # <a name="specify-a-custom-storage-location-for-generated-documents"></a>Especificar um local de armazenamento personalizado para os documentos gerados
 
@@ -166,7 +166,7 @@ O evento **AttachingFile()** é gerado quando os seguintes destinos de ER são p
 ## <a name="run-the-er-format-that-you-created-or-imported"></a>Executar o formato ER que você criou ou importou
 
 1. Execute o formato ER que você criou ou importou.
-2. Vá para **Administração da organização \> Relatório eletrônico \> Trabalhos de relatórios eletrônicos**. Localize o registro que foi criado para esse trabalho de execução e que tenha o arquivo gerado anexado a ele.
+2. Acesse **Administração da organização \> Relatório eletrônico \> Trabalhos de relatórios eletrônicos**. Localize o registro que foi criado para esse trabalho de execução e que tenha o arquivo gerado anexado a ele.
 3. Explore a pasta local **C:\\0** para encontrar o mesmo arquivo gerado.
 
 ## <a name="additional-resources"></a>Recursos adicionais

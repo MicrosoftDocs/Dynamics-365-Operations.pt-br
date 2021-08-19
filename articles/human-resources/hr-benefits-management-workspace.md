@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 45f776238fbb8e028e8d5b2f342b7d27009c686d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719083"
 ---
 # <a name="benefits-management-workspace"></a>Espaço de trabalho Gerenciamento de benefícios
 
@@ -51,7 +51,7 @@ Você pode exibir itens de ação selecionando um bloco ou uma guia. Se você se
 
 ![Itens de ação.](./media/hr-benefits-management-workspace-action-items.png)
 
-Se você selecionar um bloco, vá para a página dessa área. Por exemplo, a seleção de um desses blocos exibe a página **Planos de benefícios do trabalhador**, filtrada para os funcionários nos quais você precisa executar uma ação:
+Se você selecionar um bloco, Acesse a página dessa área. Por exemplo, a seleção de um desses blocos exibe a página **Planos de benefícios do trabalhador**, filtrada para os funcionários nos quais você precisa executar uma ação:
 
 - **Seleções não confirmadas**
 - **Abrir inscrições com planos sem check-out**

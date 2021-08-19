@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-04-01
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 86551cfeda1e4204c91b0534cda563012191e25c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ea8b99461ae741391198cc219651f6c2928f27daac94554ada3001f66674b78e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348107"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718444"
 ---
 # <a name="debug-data-sources-of-an-executed-er-format-to-analyze-data-flow-and-transformation"></a>Depurar fontes de dados de um formato de relatório eletrônico executado para analisar o fluxo de dados e a transformação
 
@@ -78,7 +78,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
 ## <a name="turn-on-data-source-debugging"></a>Ativar depuração da fonte de dados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Habilitar depuração de dados na execução do formato** como **Sim**.
 
@@ -150,7 +150,7 @@ As seguintes configurações de formatos de ER não estão acessíveis no moment
 
 ### <a name="review-the-format-transformations"></a>Revise as transformações de formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, selecione **Modelo de pagamento** \> **Transferência de crédito ISO20022**.
 3. Selecione **Designer** e expanda os elementos para selecionar **Documento** \> **CstmrCdtTrfInitn** \> **PmtInf** \> **CdtTrfTxInf** \> **CdtrAcct** \> **Id** \> **IBAN** \> **BankIBAN**.
 
@@ -205,7 +205,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 #### <a name="review-the-model-mapping"></a>Revisar o mapeamento de modelos
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Modelo de pagamento** \> **Mapeamento de modelos de pagamento 1611**.
 3. Selecione **Designer**.
 4. Selecione o registro de mapeamento **Mapeamento de modelos de pagamento ISO20022 CT**.
@@ -217,7 +217,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 #### <a name="review-the-format-mapping"></a>Revisar o mapeamento de formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Modelo de pagamento** \> **Transferência de crédito ISO20022**.
 3. Selecione **Designer**.
 4. Na guia **Mapeamento**, revise o mapeamento de formato exibido.
@@ -228,7 +228,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 #### <a name="review-the-format"></a>Revisar o formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Selecione **Modelo de pagamento** \> **Transferência de crédito ISO20022**.
 3. Selecione **Designer** e revise o formato de modelos aberto.
 
@@ -249,7 +249,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 ### <a name="set-up-a-method-of-payment"></a>Configurar um meio de pagamento
 
-1. Vá para **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
+1. Acesse **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
 2. Selecione o método de pagamento **SEPA CT**.
 3. Na FastTab **Formatos de arquivo**, na seção **Formatos de arquivo**, defina a opção **Formato de exportação eletrônico genérico** como **Sim**.
 4. No campo **Exportar configuração de formato**, selecione o formato de ER **Transferência de crédito ISO20022**.
@@ -259,7 +259,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 ### <a name="add-a-vendor-payment"></a>Adicionar um pagamento de fornecedor
 
-1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Adicione um novo diário de pagamento.
 3. Selecione **Linhas** e adicione uma nova linha de pagamento.
 4. No campo **Conta**, selecione o fornecedor **DE-01002**.
@@ -271,7 +271,7 @@ Se qualquer uma das configurações listadas estiver ausente na árvore de confi
 
 ## <a name="appendix-3-process-a-vendor-payment"></a><a name="appendix3"></a>Apêndice 3: Processar pagamento do fornecedor
 
-1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Na página **Diário de pagamentos do fornecedor**, selecione o diário de pagamento criado anteriormente e, em seguida, selecione **Linhas**.
 3. Selecione a linha de pagamento e, depois, **Status do pagamento** \> **Não**.
 4. Selecione **Gerar pagamentos**.

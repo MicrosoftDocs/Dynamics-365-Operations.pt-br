@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 5f4ae1c6759e283767a1980ab1cd91af1af7ad32
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1b9198772762ce3a9cafedbabfac5b4924c8dfcb8440195115a4ef5f8548c073
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718205"
 ---
 # <a name="set-up-create-and-manage-absorption-costs"></a>Configurar, criar e gerenciar custos de absorção 
 

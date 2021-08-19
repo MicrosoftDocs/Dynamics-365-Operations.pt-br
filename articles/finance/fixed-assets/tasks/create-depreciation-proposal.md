@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 013c768c8a016f399a27b1488ad0d5b339fdf7cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6cf285e8764af8c6525fb3f9cbec7306917e57e832777588e8c2c1d4aeed818
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813570"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719237"
 ---
 # <a name="create-a-depreciation-proposal"></a>Criar uma proposta de depreciação
 
@@ -28,7 +28,7 @@ Este tópico descreve como as propostas de depreciação em lote funcionam e exp
 
 
 ## <a name="create-a-depreciation-proposal"></a>Criar uma proposta de depreciação
-1. No Painel de Navegação, vá para **Módulos > Ativos fixos > Entradas de diário > Criar proposta de depreciação**.
+1. No Painel de Navegação, Acesse **Módulos > Ativos fixos > Entradas de diário > Criar proposta de depreciação**.
 2. No campo **Nome do diário**, selecione uma opção no menu suspenso.
 3. No campo **Data final**, insira uma data.
 
@@ -40,7 +40,7 @@ Este tópico descreve como as propostas de depreciação em lote funcionam e exp
 4. Selecione **Criar diário**.
 
 ## <a name="review-depreciation-entries"></a>Entradas de depreciação de revisão
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Entradas de diário > Diário de ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Entradas de diário > Diário de ativos fixos**.
 2. Na lista, localize e selecione o registro desejado.
 3. Selecione **Linhas**.
 4. Selecione **Lançar**.

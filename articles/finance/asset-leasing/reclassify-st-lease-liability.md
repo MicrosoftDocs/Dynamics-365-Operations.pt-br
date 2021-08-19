@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: ae5aebab507479775626579e8b08d68001326a06
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: 21cf81ce84d91d88a800cd250fca8fd5a9c876e66f506cd366b8d61ed480ea7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881557"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720613"
 ---
 # <a name="reclassify-the-short-term-portion-of-lease-liability"></a>Reclassificar a parte de curto prazo de uma responsabilidade com arrendamento
 
@@ -32,7 +32,7 @@ A parte de curto prazo da responsabilidade com arrendamento é mostrada no plano
 
 Para criar e lançar a entrada do diário de reclassificação de passivos de curto prazo, siga estas etapas.
 
-1. Vá para **Arrendamento de ativos \> Periódico \> Criação de diário em lote**.
+1. Acesse **Arrendamento de ativos \> Periódico \> Criação de diário em lote**.
 2. Na caixa de diálogo **Criação de diário de lotes**, no campo **Selecionar agenda**, selecione **Reclassificação de responsabilidade com arrendamento de curto prazo**.
 3. No campo **Grupo de arrendamento**, selecione um grupo de arrendamento. Como alternativa, no campo **ID do Registro**, selecione a ID do registro.
 4. Ative o parâmetro **Lançar**. Como alternativa, se a entrada tiver de ser criada mas não lançada, deixe esse parâmetro desativado.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11c81e37952c59325c4f7dd46fd19599fbf8390f
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5fb303015c3616bd2d033517bc21fda0834e9135b92e16374df26a98188c75ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056819"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718074"
 ---
 # <a name="create-loan-items"></a>Criar itens de empréstimo
 
@@ -30,7 +30,7 @@ Os itens de empréstimo são registros que ajudam a manter o controle dos itens 
 
 
 ## <a name="create-loan-types"></a>Criar Tipos de empréstimo
-1. Vá para Recursos humanos > Trabalhadores > Itens de empréstimo > Tipos de empréstimo.
+1. Acesse Recursos humanos > Trabalhadores > Itens de empréstimo > Tipos de empréstimo.
 2. Clique em Novo.
 3. No campo Tipo de empréstimo, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -40,7 +40,7 @@ Os itens de empréstimo são registros que ajudam a manter o controle dos itens 
 8. Atualize a página.
 
 ## <a name="create-loan-items"></a>Criar Itens de empréstimo
-1. Vá para Recursos humanos > Trabalhadores > Itens de empréstimo > Itens de empréstimo.
+1. Acesse Recursos humanos > Trabalhadores > Itens de empréstimo > Itens de empréstimo.
 2. Clique em Criar itens de empréstimo.
 3. Em Quantidade. insira um número.
 4. No campo Descrição, digite um valor.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 577d48e207c8ce5911d104e657101a8557100064
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 136e528093e6e73ffe090cea0c02a4cdbf787c5efc3d9c0664869c995a682daa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339985"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720243"
 ---
 # <a name="rebate-management-module-overview"></a>Visão geral do módulo de gerenciamento de reembolso
 
@@ -91,10 +91,9 @@ Os usuários não precisam mais lidar com acordos ou provisões em duas etapas. 
 
 Quando os reembolsos são calculados, o processo cria transações que podem ser analisadas antes do lançamento. Um processo separado lança transações de gerenciamento reembolso. Em seguida, é possível criar um diário, uma nota de crédito ou uma transação de débito durante o lançamento das transações propostas. É possível obter instruções de relatório e listagens de transações para garantir a conformidade, a eficácia e a transparência.
 
-
 ## <a name="guaranteed-royalty-payments"></a>Pagamentos de royalties garantidos
 
-No gerenciamento de reembolsos, a geração automática de pagamento permite que royalties sejam tratados de modo rápido e fácil, mesmo quando a garantia mínima se aplica. 
+No gerenciamento de reembolsos, a geração automática de pagamento permite que royalties sejam tratados de modo rápido e fácil, mesmo quando a garantia mínima se aplica.
 
 ## <a name="maximizing-spend-versus-rebates"></a>Maximização de gastos x reembolsos
 

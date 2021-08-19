@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 48c5b876108d877a03785f1ed1d48261f22b124b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 20e4e03a347cb046b58c4aceec8c473cf2aba6f50f09497b7bab2bcddc947cf2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718566"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>Configurar a importação de dados do SharePoint
 
@@ -76,7 +76,7 @@ Para armazenar arquivos de relatórios eletrônicos em um local do SharePoint, v
     - Pasta de avisos de arquivos - essa pasta seria para os arquivos que foram importados com um aviso.
     - Pasta de arquivos com erros - esta pasta seria para os arquivos que não foram importados.
 
-4. Vá para **Administração da organização > Gerenciamento de documentos > Tipos de documento**.
+4. Acesse **Administração da organização > Gerenciamento de documentos > Tipos de documento**.
 5. Crie os tipos de documento a seguir que serão usados para acessar as pastas do SharePoint recém-criadas. Para obter instruções, consulte [Configurar tipos de documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types).
 
 |Tipo de documento       | Agrupar              | Localização      | Pasta do SharePoint      |

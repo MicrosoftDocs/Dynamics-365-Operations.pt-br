@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 944290acac15a15e96974424a77a317c34dca7fe
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: f12140955edfc62a8335886c262d3a0c73b8f42894d5e0b668b76f770277dcce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339176"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721739"
 ---
 # <a name="brazil-overview"></a>Visão geral de Brasil
 

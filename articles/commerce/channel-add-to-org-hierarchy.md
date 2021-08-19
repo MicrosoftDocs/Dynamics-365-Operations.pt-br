@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: f20b5c36b45fc0d242edb4e5305a4195d6dfbe94
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 64d9c649212eca4dc703e5b80fdf2c3c6a57a61745fc440b0650d7796a4d06e3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720974"
 ---
 # <a name="add-a-channel-to-an-organizational-hierarchy"></a>Adicionar um canal a uma hierarquia organizacional
 
@@ -38,7 +38,7 @@ Consulte [Hierarquias organizacionais](channels-org-hierarchies.md) para obter m
 
 Para selecionar uma hierarquia, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de Canal \> Hierarquias da organização**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de Canal \> Hierarquias da organização**.
 1. Na lista, selecione a hierarquia da organização à qual você adicionará o canal.
 1. No painel de ação, selecione **Exibir** para ver detalhes de hierarquia.
 

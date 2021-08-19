@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 050ba58073d6e7e7710ab768e7ce3ea628440f4d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2ba857ef7a796336bab3709817b5ba48fd3fa845667e4b9c40596cfe450290f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346939"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720003"
 ---
 # <a name="breadcrumb-module"></a>Módulo de trilha de navegação
 
@@ -61,12 +61,12 @@ O módulo de trilha de navegação depende da configuração de **Tipo de exibi�
 
 Para adicionar um módulo de trilha de navegação a um PDP e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Configurações do Site \> Extensões**. Depois, para a configuração **Tipo de exibição de trilha de navegação em PDP**, selecione **Mostrar hierarquia de categoria**.
-1. Vá para **Modelos** e selecione o modelo PDP.
+1. Acesse **Configurações do Site \> Extensões**. Depois, para a configuração **Tipo de exibição de trilha de navegação em PDP**, selecione **Mostrar hierarquia de categoria**.
+1. Acesse **Modelos** e selecione o modelo PDP.
 1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e abra um PDP que utilize o modelo PDP. Se ainda não existir um PDP, crie um.
+1. Acesse **Páginas** e abra um PDP que utilize o modelo PDP. Se ainda não existir um PDP, crie um.
 1. No slot **Contêiner** que contém o módulo de caixa de compra, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Trilha de navegação** e, depois, **OK**.
 1. No painel de propriedades do slot **Trilha de navegação**, em **Raiz**, selecione **Texto do link**.

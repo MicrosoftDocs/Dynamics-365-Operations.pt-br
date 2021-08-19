@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 15616a9b3673a4c1842e389b976a80d599e2e77f
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 21919e0bf75a5a47fc64b87410ccd75ff34259fb1c8c2bc1aa82318dcd0572b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346313"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719107"
 ---
 # <a name="access-to-private-addresses-by-security-role"></a>Acesso a endereços privados por função de segurança
 
@@ -33,7 +33,7 @@ Depois que um cliente duplica uma função de segurança e entra com a nova fun�
 
 Para solucionar o problema, o cliente deve rastrear essas etapas para a função de segurança duplicada.
 
-1. Vá para **Administração da organização \> Catálogo de endereços global \> Parâmetros do catálogo de endereços global**.
+1. Acesse **Administração da organização \> Catálogo de endereços global \> Parâmetros do catálogo de endereços global**.
 2. Na guia **Segurança de local privado**, mova a nova opção de segurança da lista **Funções disponíveis** para a lista **Funções selecionadas**.
 3. Selecione **Salvar**.
 

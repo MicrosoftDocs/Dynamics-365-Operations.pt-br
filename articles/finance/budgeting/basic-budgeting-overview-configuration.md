@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9f79da43fa89fd98b3079dc69614553e74493376
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6338773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720589"
 ---
 # <a name="budgeting-overview"></a>Visão geral de orçamento 
 
@@ -68,7 +68,7 @@ Os códigos de orçamento permitem ter uma trilha de auditoria de alterações d
 
 Você também pode configurar as *regras de transferência de orçamento*. Para usar as regras de transferência de orçamento, selecione **Usar regras para transferências de orçamento** na página **Parâmetros de orçamento**. Quando as regras de transferência de orçamento são usadas, se um usuário cria um documento usando um código de orçamento do tipo **Transferência**, os saldos do orçamento não são atualizados se as regras de transferência de orçamento são violadas. Por exemplo, você pode permitir documentos de transferência de orçamento, onde o orçamento de despesas é transferido entre as contas principais para o departamento de vendas e marketing, mas pode proibir que o orçamento seja transferido de ou para esse departamento, a menos que a aprovação do fluxo de trabalho seja concedida para esse tipo de entrada de conta de orçamento.
 
-Funcionalidade introduzida no Microsoft Dynamics 365 Finance versão 10.0.7 (janeiro de 2020) com capacidade e flexibilidade adicionais para entradas de registro de orçamento. Para habilitar as melhorias, vá para o espaço de trabalho **Gerenciamento de recursos** e selecione **Entradas de registro de orçamento somente para quantidade** e/ou **Entradas de registro de orçamento com tipo de valor como padrão**.
+Funcionalidade introduzida no Microsoft Dynamics 365 Finance versão 10.0.7 (janeiro de 2020) com capacidade e flexibilidade adicionais para entradas de registro de orçamento. Para habilitar as melhorias, Acesse o espaço de trabalho **Gerenciamento de recursos** e selecione **Entradas de registro de orçamento somente para quantidade** e/ou **Entradas de registro de orçamento com tipo de valor como padrão**.
 
 O único recurso de **Entradas de registro de orçamento para quantidade** permite que você lance uma entrada de registro de orçamento com valores de somente quantidade. Por exemplo, você pode lançar uma entrada de orçamento com uma quantidade 32 e preço zero, o que resultará em um valor igual a zero. Você pode usar essa quantidade no contexto de um relatório financeiro para determinar um preço por quantidade. Observe que nenhum relatório ou consulta foi atualizado como parte desse recurso; o recurso só permite que você lance um valor igual a zero.
 

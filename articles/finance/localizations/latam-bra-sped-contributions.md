@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: c57a41350712056cccb94ead7b572b1e406967a7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 89c389c522a0ccc6889cc43cbdc669f136a4f53704d96e06bdec0177916471b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822797"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721703"
 ---
 # <a name="set-sped-efd-contributions"></a>Definir contribuições SPED EFD
 
@@ -93,7 +93,7 @@ A implementação do layout versão 006 altera a forma como o campo 02 (**NAT\_R
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de gerar as avaliações de imposto PIS e COFINS e habilitar a geração de registros M410 e M810 que têm a determinação da fonte de receita correta, vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Código de fontes de receita** e selecione os seguintes parâmetros.
+Antes de gerar as avaliações de imposto PIS e COFINS e habilitar a geração de registros M410 e M810 que têm a determinação da fonte de receita correta, Acesse **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Código de fontes de receita** e selecione os seguintes parâmetros.
 
 <table>
 <thead>
@@ -122,7 +122,7 @@ Antes de gerar as avaliações de imposto PIS e COFINS e habilitar a geração d
 </tbody>
 </table>
 
-Vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Fonte de receita por item** para configurar a determinação da fonte de receita.
+Acesse **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS** \> **Fonte de receita por item** para configurar a determinação da fonte de receita.
 
 <table>
 <thead>
@@ -151,7 +151,7 @@ Vá para **Livros fiscais** \> **Configuração** \> **Tabelas de PIS e COFINS**
 
 ## <a name="generate-a-sped-efd---contributions-text-file"></a>Gerar um arquivo de texto SPED EFD - Contribuições
 
-1. Vá para **Livros fiscais** \> **Comum** \> **Período de reserva**.
+1. Acesse **Livros fiscais** \> **Comum** \> **Período de reserva**.
 2. Selecione o período de reserva relacionado e selecione **Obrigações fiscais** \> **Contribuições EFD** \> **Executar**.
 3. No campo **Tipo de situação**, selecione o tipo de situação.
 4. No campo **Tipo de arquivo**, selecione **Original** ou **Substituto**.

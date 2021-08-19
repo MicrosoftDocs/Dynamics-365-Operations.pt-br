@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-07-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 77d637b2ec1deeabc04a6796644363b330f5756e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: f5674c418baaac7817c27780e2f0137ce6e7137eb3f1665f768ad843cc5b3114
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5744882"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720775"
 ---
 # <a name="er-import-configurations-from-rcs"></a>(ER) Importar configurações de RCS
 
@@ -26,7 +26,7 @@ ms.locfileid: "5744882"
 
 As etapas a seguir explicam como um usuário na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode importar uma nova versão de uma configuração de Relatório eletrônico (ER) do Regulatory Configuration Services (RCS) da Microsoft. Neste exemplo, você vai selecionar a versão da configuração de ER que foi definida em uma instância de RCS e importá-la para a instância atual da empresa de exemplo, Litware, Inc. Estas etapas podem ser executadas em qualquer empresa porque as configurações de ER são compartilhadas entre empresas. Para concluir estas etapas, primeiro conclua as etapas do tópico, [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Para concluir essas etapas, você também deve ter acesso a uma instância de RCS que contenha pelo menos uma configuração de ER no status **Concluído** ou **Compartilhado**.
 
-1. Vá para **Administração da organização** > **Espaços de trabalho** > **Relatório eletrônico**. 
+1. Acesse **Administração da organização** > **Espaços de trabalho** > **Relatório eletrônico**. 
 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). 
 3. Se não tiver o ambiente do RCS provisionado para sua empresa, selecione o link externo **Regulatory services – Configuração** e siga as instruções para provisionar um ambiente do RCS. 
 4. Selecione **Parâmetros de relatório eletrônico**. 

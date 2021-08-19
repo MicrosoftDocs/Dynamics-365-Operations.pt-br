@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2934e0a46fd3f0c89f8e1240f5722e9409ca2796
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5eaf5ba8b2c2b05d8ea92d2e1862155c4dda598ee2c041adbff7538a6e4a6e4d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811125"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722310"
 ---
 # <a name="submit-and-approve-project-budget-revision"></a>Enviar e aprovar revisão de orçamento de projeto
 
@@ -29,7 +29,7 @@ Este procedimento fornece informações sobre revisão de um orçamento do proje
 
 Essa tarefa usa o conjunto de dados de SSI.
 
-1. Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.
+1. Acesse Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. No Painel de Ação, clique em Plano.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 09930af8b6ce78a2a88382772a44de173875856a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fe40807338c32fbaff2df11975bbcb2d7fefeb842f5fd85d7421552556465178
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718747"
 ---
 # <a name="configure-ratings-and-reviews"></a>Configurar classificações e opiniões
 
@@ -37,7 +37,7 @@ Os valores de configuração de classificações e revisões, como ID de locatá
 
 Para configurar um site para exibir avaliações e opiniões, siga estas etapas. 
 
-1. Vá para **Início \> Sites**.
+1. Acesse **Início \> Sites**.
 1. Selecione o nome do site. 
 1. Acesse **Configurações do site \> Extensões**. 
 1. No campo **Revisar o tamanho máximo do texto**, insira o número máximo de caracteres que o texto de avaliação pode ter (por exemplo, **1000**). 
@@ -55,7 +55,7 @@ Uma classificação de produtos é exibida abaixo do título do produto na parte
 Para vincular um produto que avalie a seção **Avaliações** do PDP, rastreie essas etapas.
 
 1. Abra o modelo do PDP. 
-1. Vá para **Comprar configurações de módulo de contêiner de caixa**.
+1. Acesse **Comprar configurações de módulo de contêiner de caixa**.
 1. Em **Comprar uma caixa**, selecione **Classificações de produtos**, e selecione a caixa de seleção **Vincular o clique ao módulo inteiro de revisões de desempenho**.
 
 A ilustração a seguir mostra como essa configuração se parece no Dynamics 365 Commerce.
@@ -66,7 +66,7 @@ A ilustração a seguir mostra como essa configuração se parece no Dynamics 36
 
 Para configurar o link para a página de privacidade e política, siga estas etapas.
 
-1. Vá para **Início \> Sites**.
+1. Acesse **Início \> Sites**.
 1. Selecione o nome do site. 
 1. Acesse **Configurações do site \> Extensões**.
 1. Na guia **Roteiros**, em **Privacidade e política de RNR**, selecione **Adicionar um link**. Se um link já tiver sido inserido e você desejar substituí-lo, selecione o link. 

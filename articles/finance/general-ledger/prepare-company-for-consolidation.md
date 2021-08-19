@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 6f718bef3b1b07d3bb03dbf6acbf1cdf58aa7b8a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a1ffbf79cdccab457b1aee1bc0f1d963bca49b3e390187c6be5da475f278a3d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815467"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720493"
 ---
 # <a name="prepare-a-legal-entity-for-the-consolidation-process"></a>Preparar uma entidade legal para o processo de consolidação
 
@@ -35,12 +35,12 @@ Você pode consolidar dados das entidades legais que usam bancos de dados que n�
 
 A entidade legal consolidada coleta os resultados e saldos das subsidiárias. Para preparar uma entidade legal consolidada para uma consolidação, siga estas etapas.
 
-1. Vá para **Contabilidade \> Configuração \> Organização \> Entidades legais**.
+1. Acesse **Contabilidade \> Configuração \> Organização \> Entidades legais**.
 2. Selecione **Novo** para criar a entidade legal que será a entidade legal consolidada.
 3. Marque a caixa de seleção **Usar para processo de consolidação financeira** e insira informações sobre a entidade legal consolidada. Insira essas informações exatamente como deseja que apareçam nos demonstrativos financeiros da entidade legal consolidada.
 4. Feche a página.
 5. Selecione a entidade legal consolidada no campo do canto superior direito da página e, depois, selecione **OK**.
-6. Vá para **Contabilidade \> Configuração \> Razão**.
+6. Acesse **Contabilidade \> Configuração \> Razão**.
 7. Selecione o plano de contas, o calendário fiscal, a moeda contábil, uma moeda de relatório opcional e o tipo de taxa de câmbio padrão para a entidade legal consolidada. 
 8. Acesse **Contabilidade \> Configuração \> Moedas \> Taxas de câmbio de moedas**.
 9. Configure as taxas de câmbio de moedas nos períodos relevantes para as moedas das entidades legais de subsidiárias.

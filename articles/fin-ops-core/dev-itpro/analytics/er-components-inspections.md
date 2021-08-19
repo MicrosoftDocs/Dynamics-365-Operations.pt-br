@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 309e613b707222920936d5af995ac57c4c423b40
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357657"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718614"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -38,14 +38,14 @@ Por padrão, a validação é aplicada automaticamente nos seguintes casos para 
 
 - Opção 1:
 
-    1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+    1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente de mapeamento de formato ou modelo de ER.
     3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ações, selecione **Validar**.
 
 - Opção 2, para um formato de ER:
 
-    1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+    1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente do formato de ER.
     3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ação, selecione **Designer**.
@@ -53,7 +53,7 @@ Por padrão, a validação é aplicada automaticamente nos seguintes casos para 
 
 - Opção 3, para um mapeamento de modelo de ER:
 
-    1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+    1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente de mapeamento de modelo de ER.
     3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ação, selecione **Designer**.
@@ -62,13 +62,13 @@ Por padrão, a validação é aplicada automaticamente nos seguintes casos para 
 
 Para ignorar a validação quando a configuração for importada, siga estas etapas:
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Validar a configuração após a importação** como **Não**.
 
 Para ignorar a validação quando você alterar o status ou a base da versão, siga estas etapas:
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Ignorar validação na alteração e troca do status de configuração** como **Sim**.
 
