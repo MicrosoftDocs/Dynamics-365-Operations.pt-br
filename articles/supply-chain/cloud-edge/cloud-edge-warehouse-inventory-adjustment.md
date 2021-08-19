@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 1bf147ce430d84980516d8d4824081ee2a9321a2
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 3999c16cdf4fce342ce56ca3a459944566c6d0cb6a8460d30d2254356e5cba82
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748802"
 ---
 # <a name="warehouse-inventory-adjustment"></a>Ajuste de estoque do depósito
 
@@ -61,10 +61,10 @@ Depois que uma unidade de escala cria um **Diário de ajuste de estoque de depó
 Você pode revisar cada uma dessas entradas de diário e transações no Supply Chain Management seguindo estas etapas:
 
 1. Entre na unidade de escala.
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Diário de ajuste de estoque de depósito**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Diário de ajuste de estoque de depósito**.
 1. Na página **Diário de ajuste de estoque de depósito**, localize e abra o diário que gravou a alteração de estoque disponível. A seção **Linhas do diário** mostra cada ajuste registrado pelo diário.
 1. Entre no Hub.
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Diário de ajuste de estoque de depósito**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Diário de ajuste de estoque de depósito**.
 1. Na página **Diário de ajustes de estoque de depósito**, você deve ver o mesmo diário listado, se a unidade de escala e o hub foram sincronizados.
 1. Abrir o diário. Se as [mensagens do processador de mensagens](cloud-edge-message-processor-messages.md) tiverem sido processadas, você verá links para o **Diário de contagem** e o **Diário de compensação** no cabeçalho.
     - O **Diário de contagem** deve mostrar os mesmos valores de dimensão que as linhas do diário.

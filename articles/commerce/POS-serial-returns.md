@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: e53c8ceb91a007775fa74f0c9598a65745f01cec
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 179d66e19c7fa81d587ea920b1c71468ec070177d7e7e68e45c2b58da2f9f5af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716339"
 ---
 # <a name="return-serial-numbercontrolled-products-in-pos"></a>Devolver produtos controlados por número de série no POS
 
@@ -34,7 +34,7 @@ Este tópico descreve os recursos para validar itens serializados como parte do 
 
 Quando o recurso **Experiência de processamento de devolução unificado para POS** é ativado, as organizações podem realizar uma validação das devoluções de itens controlados por número de série no POS. Esta funcionalidade pode avisar os usuários se o número de série está sendo devolvido difere do número de série original que foi vendido. No Commerce versão 10.0.20 e posterior, a mensagem que os usuários recebem é somente uma mensagem de aviso. Os usuários podem continuar processando uma devolução com base em um número de série que seja diferente do número de série original que foi vendido.
 
-Para configurar a validação do número de série para uma organização após o recurso **Experiência de processamento de devolução unificado para POS** for ativado, vá para **Retail e Commerce \> Configurações da sede \> Parâmetros \> Parâmetros do CommerceParâmetros** na sede do Commerce. Na guia **Inventário**, na Guia Rápida **Armazenar operações de inventário**, defina a opção **Habilitar validar de números de série nas devoluções do POS** como **Sim**.
+Para configurar a validação do número de série para uma organização após o recurso **Experiência de processamento de devolução unificado para POS** for ativado, Acesse **Retail e Commerce \> Configurações da sede \> Parâmetros \> Parâmetros do CommerceParâmetros** na sede do Commerce. Na guia **Inventário**, na Guia Rápida **Armazenar operações de inventário**, defina a opção **Habilitar validar de números de série nas devoluções do POS** como **Sim**.
 
 ## <a name="process-returns-for-serialized-items-in-pos"></a>Processar devoluções para itens serializados no POS
 

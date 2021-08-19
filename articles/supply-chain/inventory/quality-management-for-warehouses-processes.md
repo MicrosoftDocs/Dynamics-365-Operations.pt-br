@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-04-02
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 79eb7d750869ef365ad117ecc024afc8db2edbf7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 241892e8f6ea04616aa9c605b4a2019d2de0ebe868ee7ebc1d5b56f5ce172bd5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348820"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723494"
 ---
 # <a name="quality-management-for-warehouse-processes"></a>Gestão de qualidade para processos de depósito
 
@@ -73,7 +73,7 @@ Para um exemplo passo a passo que mostra como concluir essa configuração, cons
 
 Antes que o recurso _Gestão de qualidade para processos de depósito_ possa ser aplicado a um depósito específico, você deve seguir as etapas a seguir para disponibilizar o recurso desse depósito.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Selecione o depósito para habilitar o gerenciamento de qualidade.
 1. Na FastTab **Depósito**, defina a opção **Habilitar ordem de qualidade para processos de depósito** como _Sim_. (Observe que essa opção pode ser definida como _Sim_ apenas para depósitos que usam processos de gerenciamento de depósito.)
 
@@ -87,7 +87,7 @@ O recurso _Gestão de qualidade para processos de depósito_ controla várias co
 
 Cada [registro de associação de qualidade](enable-quality-management.md) também define o conjunto de testes, o nível de qualidade aceitável (AQL) e o plano de amostragem que se aplicam às ordens de qualidade geradas. Para configurar um registro de associação de qualidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
 1. Crie ou selecione a entrada de associação de qualidade para o item ou grupo com o qual você está trabalhando ou para todos os itens.
 1. Na FastTab **Condições**, defina o campo **Tipo de depósito aplicável** para um dos seguintes valores:
 
@@ -103,8 +103,8 @@ Quando o recurso _Gestão de qualidade para processos de depósito_ é ativado, 
 
 | Grupo de pesquisa | descrição |
 |---|---|
-| Grupo 1 | Para cada associação de qualidade, verifique os valores **Tipo de referência**, **Tipo de evento** e **Correspondência de execução** em relação ao item. Se houver uma correspondência na linha do documento de origem, vá para o grupo 2. |
-| Grupo 2 | Para cada associação de qualidade, verifique o valor **Código do item** (_Tabela_, _Grupo_ ou _Todos_) em relação ao item. _Tabela_ é mais específica que _Grupo_ e _Grupo_ é mais específico que _Todos_. Se houver uma correspondência para _Tabela_ (um item específico), vá para o grupo 3. Se não houver correspondência para _Tabela_, procure uma correspondência para _Grupo_. Se não houver correspondência para _Grupo_, _Todos_ se aplica. Se houver uma correspondência, vá para o grupo 3. |
+| Grupo 1 | Para cada associação de qualidade, verifique os valores **Tipo de referência**, **Tipo de evento** e **Correspondência de execução** em relação ao item. Se houver uma correspondência na linha do documento de origem, Acesse o grupo 2. |
+| Grupo 2 | Para cada associação de qualidade, verifique o valor **Código do item** (_Tabela_, _Grupo_ ou _Todos_) em relação ao item. _Tabela_ é mais específica que _Grupo_ e _Grupo_ é mais específico que _Todos_. Se houver uma correspondência para _Tabela_ (um item específico), Acesse o grupo 3. Se não houver correspondência para _Tabela_, procure uma correspondência para _Grupo_. Se não houver correspondência para _Grupo_, _Todos_ se aplica. Se houver uma correspondência, Acesse o grupo 3. |
 | Grupo 3 | Para cada associação de qualidade, verifique os valores **Código da conta** e **Código do recurso** em relação ao item. A lógica aplicada é semelhante à lógica aplicada ao valor **Código do item**. |
 | Grupo 4 | Para cada associação de qualidade, verifique o valor **Tipo de depósito aplicável** (_Gestão de qualidade somente para processos de depósito_ ou _Todos_) em relação ao item. Se a opção **Habilitar ordem de qualidade para processos de depósito** estiver definida como _Sim_ para o depósito no documento de origem e o item na linha do documento de origem estiver definido como _Usar processos de gerenciamento de depósito_, as associações onde há correspondência para _Gestão de qualidade somente para processos de depósito_ e as associações onde há correspondência para _Todos_ serão aplicáveis em paralelo, se ambos os tipos existirem. Se a opção **Habilitar ordem de qualidade para processos de depósito** estiver definida como _Não_ para o depósito no documento de origem e o item na linha do documento de origem estiver definido como _Usar processos de gerenciamento de depósito_, somente o gerenciamento da qualidade será aplicável. |
 
@@ -143,7 +143,7 @@ Se você definir uma amostragem de item que use o tipo de depósito aplicável _
 
 A amostragem de item controla a frequência com que os itens são enviados para controle de qualidade. O recurso _Gestão de qualidade para processos de depósito_ apresenta o conceito de _escopo de amostragem de item_. O sistema usa o escopo de amostragem de item quando avalia se e como as ordens de qualidade e/ou a amostragem de item de qualidade e o trabalho da ordem de qualidade devem ser criados.
 
-Para configurar a amostragem de item, vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item** e defina o campo **Escopo de amostragem** para um dos seguintes valores:
+Para configurar a amostragem de item, Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item** e defina o campo **Escopo de amostragem** para um dos seguintes valores:
 
 - **Ordem** – A linha do documento de origem será a base para avaliar se e como os pedidos de qualidade e/ou a amostragem de item de qualidade funcionam e o trabalho da ordem de qualidade é criado. Esse valor é o valor padrão e, quando selecionado, o sistema funciona da mesma maneira que quando o recurso _Gestão de qualidade para processos de depósito_ não está ativado.
 - **Carga** – As cargas serão usadas como base para avaliar se e como uma ordem e/ou trabalho de qualidade é criado. Esse valor está disponível apenas quando o recurso _Gestão de qualidade para processos de depósito_ está ativado.
@@ -271,7 +271,7 @@ Quando as ordens de qualidade são validadas, o sistema tenta criar um trabalho 
 
 Você pode cancelar o trabalho criado para a amostragem de item de qualidade. Para controlar o que ocorre quando esse trabalho é cancelado, siga as etapas a seguir.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral**, na FastTab **Trabalho**, defina a opção **Cancelar registro do recebimento ao cancelar o trabalho** para um dos seguintes valores:
 
     - **Sim** – Quando o trabalho de amostragem de item de qualidade é cancelado, a ordem de qualidade associada é excluída e o estoque não é registrado.
@@ -295,7 +295,7 @@ Para solucionar esse cenário, você deve preparar seu sistema da seguinte manei
 - Ativar o recurso _Gestão de qualidade para processos de depósito_ no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 - Configure o depósito 51 para usar o recurso _Gestão de qualidade para processos de depósito_ seguindo estas etapas:
 
-    1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+    1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
     1. Selecione depósito 51.
     1. Na FastTab **Depósito**, defina a opção **Habilitar ordem de qualidade para processos de depósito** como *Sim*.
 
@@ -312,7 +312,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 #### <a name="work-class-for-quality-in"></a>Classe de trabalho dentro da qualidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. Crie uma classe de trabalho e defina os seguintes valores:
 
     - **ID da classe de trabalho:** _QualityIn_
@@ -321,7 +321,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 #### <a name="work-template"></a>Modelo do trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Defina o campo **Tipo de ordem de serviço** como _Amostragem de item de qualidade_.
 1. Crie um modelo de trabalho e defina os seguintes valores:
 
@@ -340,7 +340,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 #### <a name="location-directive"></a>Diretiva de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Defina o campo **Tipo de ordem de serviço** como _Amostragem de item de qualidade_.
 1. Crie uma diretiva de localização e defina os seguintes valores:
 
@@ -368,7 +368,7 @@ Agora você deve preparar uma configuração básica que permita a seu sistema o
 
 Em seguida, você deve alterar a sequência das diretivas de localização de ordens de compra existentes para o depósito 51. Os dados da demonstração incluem duas diretivas de localização que possuem um valor **Tipo de ordem de serviço** de _Compra_: uma é chamada de _51 QMS_ e a outra é chamada de _51 PO Direct_. Para garantir que o recurso *Gestão de qualidade para processos de depósito* seja aplicado ao depósito 51, verifique se a diretiva de localização _51 QMS_ não é aplicada. Contudo, em vez de excluir essa diretiva de localização (porque você pode querer usá-la no futuro), basta alterar a sequência.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Defina o campo **Tipo de ordem de serviço** como _Ordem de serviço_.
 1. Na lista de sequências, selecione o número de sequência 5, para a diretiva de localização _51 PO Direct_.
 1. Mova a sequência selecionada para o número de sequência 4.
@@ -378,7 +378,7 @@ Em seguida, você deve alterar a sequência das diretivas de localização de or
 
 O recurso _Gestão de qualidade para processos de depósito_ adiciona alguns novos recursos de amostragem de item. Agora o valor **Escopo de amostragem** pode ser _Ordem_, _Remessa_ ou _Carga_, e agora o valor **Quantidade de amostragem** pode ser _Placa de licença completa_.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Amostragem de item**.
 1. Crie um registro de amostra do item e defina os seguintes valores:
 
     - **Amostragem de item:** _3ª PL_
@@ -393,7 +393,7 @@ O recurso _Gestão de qualidade para processos de depósito_ adiciona alguns nov
 
 Crie uma associação de qualidade que usará a nova amostragem de item.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Associações de qualidade**.
 1. Crie um registro de associação de qualidade e defina os seguintes valores:
 
     - **Tipo de referência:** _Compra_
@@ -430,7 +430,7 @@ Crie uma associação de qualidade que usará a nova amostragem de item.
 
 Para concluir a configuração para mover mercadorias para o local de controle de qualidade, você deve disponibilizar a amostragem de item de qualidade em um item de menu do dispositivo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione o item de menu do dispositivo móvel **Armazenamento de compra**.
 1. Na FastTab **Classes de trabalho**, adicione a ID da classe de trabalho *QualityIn*.
 
@@ -487,7 +487,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="work-class-for-quality-out"></a>Classe de trabalho fora da qualidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. Crie uma classe de trabalho e defina os seguintes valores:
 
     - **ID da classe de trabalho:** *QualityOut*
@@ -496,7 +496,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="work-templates"></a>Modelos do trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Altere o valor **Tipo de ordem de serviço** para a *Ordem de qualidade*.
 1. Crie um modelo de trabalho e defina os seguintes valores:
 
@@ -515,7 +515,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="location-directives"></a>Diretivas de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Altere o valor **Tipo de ordem de serviço** para a *Ordem de qualidade*.
 1. Crie uma diretiva de localização e defina os seguintes valores:
 
@@ -586,7 +586,7 @@ Agora você continuará com a configuração básica necessária da classe de tr
 
 #### <a name="mobile-device-menu-items-for-quality-out"></a>Itens de menu do dispositivo móvel fora da qualidade
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione o item de menu do dispositivo móvel **Armazenamento de QMS**.
 1. Na FastTab **Classes de trabalho**, adicione a ID da classe de trabalho *QualityPut*.
 
@@ -598,10 +598,10 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
 
 ### <a name="process-quality-management-work"></a>Trabalho de gerenciamento da qualidade do processo
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione a primeira ordem de qualidade para as quantidades que foram registradas.
 1. Selecione **Validar**. O status do teste é atualizado para *Reprovado*.
-1. Vá para **Gerenciamento de depósito \> Todos os trabalhos**.
+1. Acesse **Gerenciamento de depósito \> Todos os trabalhos**.
 1. Abra o trabalho que você acabou de criar e observe que o valor **Tipo de ordem de serviço** é *Ordem de qualidade*. O trabalho inclui uma linha em que a localização de armazenamento é *Devolução* e o status é *Reprovado*. (Se o status da ordem de qualidade fosse *Aprovado*, o local da venda seria *Massa* em vez disso.)
 1. Retorne para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione a segunda ordem de qualidade para os itens que foram registrados.
@@ -612,7 +612,7 @@ Você configurou os dados de trabalho e localização para o depósito 51, para 
     > [!NOTE]
     > O evento de validação aciona a criação do trabalho da ordem de qualidade para mover a quantidade do local do controle de qualidade para um novo local.
 
-1. Vá para **Gerenciamento de depósito \> Todos os trabalhos**.
+1. Acesse **Gerenciamento de depósito \> Todos os trabalhos**.
 1. Selecione o trabalho que acabou de ser criado e observe que um cabeçalho de trabalho da segunda ordem de qualidade foi criado, em que a localização de armazenamento é *MASSA-001*.
 1. Acesse um dispositivo móvel ou emulador que esteja executando o aplicativo móvel do Gerenciamento de Depósito e entre no depósito 51 usando *51* como a ID de usuário e *1* como a senha.
 1. Acesse **Qualidade \> Armazenamento de QMS** e processe cada uma das duas placas de licença relacionadas aos dois trabalhos para que todo o trabalho seja fechado.

@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9a63533f3f82e428a24495dc0548e09a3da65600
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2f1f09f22f3bf8bb1b11d9869954f9be2aa090cb2a033ede0903e75ba1b72974
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347186"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6717449"
 ---
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 

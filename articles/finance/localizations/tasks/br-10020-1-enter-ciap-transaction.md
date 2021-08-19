@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2e9e82159f996c3cc7235727d532fb3ebabf934e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 000089367fdb889b1a6fb46736f041248106e3b4486605c402266eafb18f02b3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823615"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716606"
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a>Inserir uma transação CIAP (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5823615"
 
 Você pode inserir uma transação CIAP de duas maneiras: lançar um documento fiscal, ou inserir uma transação. Você pode vincular manualmente a uma nota fiscal, conforme necessário. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Livros fiscais > Comum > Ativos fixos > Todos os ativos fixos do CIAP.
+1. Acesse Livros fiscais > Comum > Ativos fixos > Todos os ativos fixos do CIAP.
 2. Clique em Novo.
 3. No campo Número de ativo fixo, insira ou selecione um valor.
 4. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
@@ -36,7 +36,7 @@ Você pode inserir uma transação CIAP de duas maneiras: lançar um documento f
 9. Clique em Salvar.
 10. Feche a página.
 11. Feche a página.
-12. Vá para Livros fiscais > Comum > Apuração de imposto > ICMS.
+12. Acesse Livros fiscais > Comum > Apuração de imposto > ICMS.
 13. Na lista, marque a linha selecionada.
 14. Clique em Apuração do CIAP.
 15. Clique em Adicionar linha.

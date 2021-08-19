@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-03-31
 ms.dyn365.ops.version: Release 10.0.11
-ms.openlocfilehash: 8c662da296bea7def443cb166bd3f7e501c9abcc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a6bfa77f6d55e3b0a7a678ec552040a47514e4872a0a05e9f6e522eab2a5c11f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823182"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735006"
 ---
 # <a name="license-plate-receiving-via-the-warehouse-management-mobile-app"></a>Recebimento da placa de licença por meio do aplicativo móvel Gerenciamento de Depósito
 
@@ -89,7 +89,7 @@ Para disponibilizar essa funcionalidade no seu sistema, você deverá ativar o r
 
 Para gerenciar a funcionalidade quando esse recurso estiver disponível, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral** no FastTab **Placas de licença**, defina o campo **Política da placa de licença do depósito de trânsito** com um dos seguintes valores:
 
     - **Permitir reutilização de placa de licença não rastreada** – O sistema funciona da mesma forma quando o recurso *Impedir que as placas de licença remetidas da ordem de transferência sejam usadas em depósitos diferentes do depósito de destino* não está disponível. Esse valor é a configuração padrão quando você ativa o recurso pela primeira vez.

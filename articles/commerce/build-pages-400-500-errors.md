@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6b35b3c07b1edd41e6a3763c0001529e125e4636
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 16cd6c3dab5502826119b6a517414d23e168e79708e306897b04c7ba8c80404b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799629"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741132"
 ---
 # <a name="build-custom-response-pages-for-4xx5xx-status-code-errors"></a>Criar páginas de resposta personalizadas para erros do código de status 4xx/5xx
 
@@ -40,7 +40,7 @@ Para começar a criar uma página de resposta de erro do código de status, siga
 
 Para criar o modelo para a página de resposta de erro do código de status, siga essas etapas.
 
-1. Vá para **Modelos**.
+1. Acesse **Modelos**.
 1. Selecione **Novo** para criar um modelo de página.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira um nome para o novo modelo e selecione **OK**.
 1. Crie modelo, com base na estrutura que deseja que a página de resposta de erro do código de status apareça.
@@ -50,7 +50,7 @@ Para criar o modelo para a página de resposta de erro do código de status, sig
 
 Para criar a página de resposta de erro do código de status, siga essas etapas.
 
-1. Vá para **Páginas**.
+1. Acesse **Páginas**.
 1. Selecione **Novo** para criar uma página.
 1. Na caixa de diálogo **Escolha um modelo**, selecione um modelo e, em **Nome da página**, insira um nome para a página da resposta do erro do código de status. Deixe o campo **URL da Página** em branco.
 1. Crie a página.
@@ -63,7 +63,7 @@ Para criar a página de resposta de erro do código de status, siga essas etapas
 
 Para configurar um redirecionamento para a página de resposta de erro do código de status, siga essas etapas.
 
-1. Vá para **URLs \> Novo \> Novo alias**, e selecione a página de resposta de erro do código de status que você compilou anteriormente.
+1. Acesse **URLs \> Novo \> Novo alias**, e selecione a página de resposta de erro do código de status que você compilou anteriormente.
 1. No campo **Alias**, **default-4xx** ou **default-5xx**, dependendo da página de resposta de erro do código de status para a qual você está configurando o redirecionamento. Essas alias devem ser publicados. Caso contrário, o redirecionamento não funcionará.
 1. Selecione **OK** para enviar o link.
 

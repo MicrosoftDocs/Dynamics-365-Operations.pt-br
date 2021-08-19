@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: 6b8e3d129c40e33aeb91e823528a3bc89d2d9568
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da69cc903197dbfae536c8494f126074c51aa77f9522d57f2673c97b1e682d9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749791"
 ---
 # <a name="automate-testing-with-electronic-reporting"></a>Automatizar testes com Relatório eletrônico
 
@@ -83,7 +83,7 @@ Antes de concluir as tarefas neste tópico, você precisa preencher os seguintes
 3. Selecione a empresa de dados de demonstração **GBSI**, que tem um contexto de país/região na Grã Bretanha.
 4. Configure parâmetros de Contas a pagar:
 
-    1. Vá para **Contas a pagar \> Configuração de pagamento \> Métodos de pagamento**.
+    1. Acesse **Contas a pagar \> Configuração de pagamento \> Métodos de pagamento**.
     2. Selecione o método de pagamento **Eletrônico"**.
     3. Configure o método de pagamento para que ele use o formato de ER **BACS (REINO UNIDO)** baixado anteriormente para o processamento de pagamento do fornecedor:
 
@@ -97,7 +97,7 @@ Antes de concluir as tarefas neste tópico, você precisa preencher os seguintes
 
 5. Crie um pagamento de fornecedor de exemplo:
 
-    1. Vá para **Contas a pagar \> Pagamentos \> Diário de pagamentos**.
+    1. Acesse **Contas a pagar \> Pagamentos \> Diário de pagamentos**.
     2. Verifique se você não lançou o diário de pagamento.
 
         ![Página Diário de pagamentos.](media/GER-APJournal.png "Captura de tela da página Diário de pagamentos")
@@ -119,14 +119,14 @@ Antes de concluir as tarefas neste tópico, você precisa preencher os seguintes
 
 ### <a name="configure-er-parameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Parâmetros de relatório eletrônico**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Parâmetros de relatório eletrônico**.
 2. Na guia **Anexos**, no campo **Linha de base**, selecione **Arquivo** como o tipo de documento que a estrutura DM (gerenciamento de documentos) usa para manter documentos relacionados ao recurso da linha de base como anexos de DM.
 
     ![Página de parâmetros de relatórios eletrônicos.](media/GER-ERParameters.png "Captura de tela da página Parâmetros de Relatórios eletrônicos")
 
 ### <a name="generate-baseline-copies-of-vendor-paymentrelated-documents"></a>Gerar cópias de linha de base de documentos relativos a pagamentos de fornecedor
 
-1. Vá para **Contas a pagar \> Pagamentos \> Diário de pagamentos**.
+1. Acesse **Contas a pagar \> Pagamentos \> Diário de pagamentos**.
 2. Selecione **Linhas**.
 3. Selecione **Gerar pagamentos**.
 4. Selecione o método de pagamento **Eletrônico"**.
@@ -143,7 +143,7 @@ Antes de concluir as tarefas neste tópico, você precisa preencher os seguintes
 
 ### <a name="turn-on-the-er-baseline-feature"></a>Ative o recurso de linha de base do ER
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. No Painel de Ações, na guia **Configurações**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Executar no modo de depuração** como **Sim**.
 
@@ -158,7 +158,7 @@ Ao ativar o parâmetro **Executar no modo de depuração**, você força a estru
 
 ### <a name="configure-er-baselines-for-vendor-payment-processing"></a>Configure as linhas de base de ER para o processamento de pagamentos de fornecedor
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Selecione **Linhas de base**.
 3. Selecione **Novo**.
 4. No campo **Referência**, selecione o formato **BACS (Reino Unido)**.
@@ -340,7 +340,7 @@ Observe que os resultados da execução de testes são enviados para o Azure Dev
 
 Este grupo de testes deve falhar quando pelo menos uma saída gerada não coincide com a linha de base correspondente. Para obter essa situação, você pode usar sua versão derivada do formato **BACS (REINO UNIDO)** que gerará um arquivo de pagamento com conteúdo diferente da linha de base correspondente. Para simular essa situação, você pode usar o mesmo formato **BACS (REINO UNIDO)** e alterar o valor do pagamento na linha de pagamento processado.
 
-1. Abra o aplicativo e vá para **Contas a pagar \> Pagamentos \> Diário de pagamentos**.
+1. Abra o aplicativo e Acesse **Contas a pagar \> Pagamentos \> Diário de pagamentos**.
 2. Selecione **Linhas**.
 3. Selecione a linha de pagamento e, depois, **Status do pagamento \> Não**.
 4. No campo **Débito**, altere o valor de **1.000,00** para **2.000,00**.

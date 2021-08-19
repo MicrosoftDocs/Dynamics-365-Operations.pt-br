@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 894233f28e84ed924ba7e22fdc0c8aaedf1b1ea1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b75d8414e40d65267494eb495bf99daa62b3e2d5850db27ecae99f30d543c870
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812173"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719590"
 ---
 # <a name="create-a-repeat-purchase-order"></a>Criar uma ordem de compra repetida
 
@@ -28,7 +28,7 @@ Este tópico mostra como criar uma ordem de compra (PO) da repetição copiando 
 
 
 ## <a name="create-a-new-repeat-purchase-order"></a>Criar uma nova ordem de devolução
-1. No painel de navegação, vá para **Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**. Primeiramente nós tentaremos a opção para copiar informação de uma ordem nova.  
+1. No painel de navegação, Acesse **Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**. Primeiramente nós tentaremos a opção para copiar informação de uma ordem nova.  
 2. Selecione **Novo**.
 3. No campo **Conta de fornecedor**, insira `US-101`.
 4. Selecione **OK**.

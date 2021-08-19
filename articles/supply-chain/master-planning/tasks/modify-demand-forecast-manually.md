@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1e12ccf90b9971379e8931bd48d6243a855bb795
-ms.sourcegitcommit: 15aacd0e109b05c7281407b5bba4e6cd99116c28
+ms.openlocfilehash: 83575da4d382743b45c2de7964a7cbf1cc366989955884100dcb766a67166cf1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "6224001"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741276"
 ---
 # <a name="guide-modify-a-demand-forecast-manually"></a>Guia: Modificar uma previsão de demanda manualmente
 
@@ -28,7 +28,7 @@ Este procedimento mostra como alterar a previsão para um item. Esse procediment
 
 Para modificar a previsão para um item selecionado:
 
-1. Vá para **Módulos \> Gerenciamento de informações do produto \> Produtos \> Produtos lançados**.
+1. Acesse **Módulos \> Gerenciamento de informações do produto \> Produtos \> Produtos lançados**.
 1. Na lista, localize e selecione o registro desejado. Selecione o item cujo tipo deseja alterar a previsão.
 1. No painel de ações, abra a guia **Planejar** e selecione **Previsão de demanda**.
 1. Na lista, selecione uma linha. Se não houver linhas de previsão, crie uma nova linha selecionando **Novo** no painel de ação.  

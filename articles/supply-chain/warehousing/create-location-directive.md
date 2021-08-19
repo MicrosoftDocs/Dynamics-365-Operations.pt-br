@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-11-13
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: a896953a5603d9766f2c4938158088fc9424d5bf
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 780902bf6abb0fe93ca9c57be6aa75ee5bc121b1779ea42effdaa0c7f08b5e1b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746834"
 ---
 # <a name="work-with-location-directives"></a>Trabalhar com diretivas de localização
 
@@ -40,8 +40,8 @@ As diretivas de localização são regras que ajudam a identificar locais de sep
 
 Antes de criar uma diretiva de localização, siga estas etapas para verificar se os pré-requisitos estão em vigor.
 
-1. Verifique se a chave de licença necessária está ativada. Vá para **Configuração do sistema \> Configuração \> Configuração de licença**, expanda a chave de licença **Comercial** e selecione a chave de configuração **Gerenciamento de Depósito e Transporte**. Observe que o acesso administrativo é necessário para esta etapa.
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Verifique se a chave de licença necessária está ativada. Acesse **Configuração do sistema \> Configuração \> Configuração de licença**, expanda a chave de licença **Comercial** e selecione a chave de configuração **Gerenciamento de Depósito e Transporte**. Observe que o acesso administrativo é necessário para esta etapa.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 1. Criar um depósito.
 1. Na FastTab **Depósito**, defina a opção **Usar processos de gerenciamento de depósito** como *Sim*.
 1. Criar localizações, tipos de localização, perfis de localização e formatos da localização. Para obter mais informações, consulte [Configurar localizações em um depósito habilitado para WMS](./tasks/configure-locations-wms-enabled-warehouse.md).
@@ -107,7 +107,7 @@ A tabela a seguir lista os campos que são específicos de tipos de ordem de ser
 
 ## <a name="open-the-location-directives-page"></a>Abrir a página Diretivas de localização
 
-Para abrir a página **Diretivas de localização**, vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+Para abrir a página **Diretivas de localização**, Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 
 A partir daí, você pode exibir, criar e editar diretivas de localização usando os comandos no Painel de Ações. Consulte as seções restantes deste tópico para obter informações sobre como usar todos os campos disponíveis na página.
 

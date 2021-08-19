@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f02ebbb22e11b116355be42325edd041b10c5cb4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b11d99f026f4c06b1e2c8b88acc1d9926bbc493bf1ebb851ef1b7b78daff2a9c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722214"
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar uma diretiva de localização para o registro da ordem de compra
 
@@ -27,7 +27,7 @@ ms.locfileid: "5831473"
 
 Este tópico explica como configurar uma diretiva simples de local. O exemplo mostrado cria uma diretiva de localização a ser usada para determinar onde colocar os itens recebidos para uma ordem de compra. Você pode executar esse guia de tarefas com os dados mencionados utilizando a empresa de dados de demonstração USMF. Pré-condições: Você deve criar um código de disposição. Nesse procedimento usamos um código de disposição chamado Relabel. Se estiver criando uma diretiva de localização em seus próprios dados, você precisará configurar o gerenciamento de depósito avançado para seu depósito e seus itens. Esse procedimento é destinado ao gerente do depósito.
 
-1. No painel de navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Diretivas de localização**.
+1. No painel de navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Diretivas de localização**.
 2. No campo **Tipo de ordem de trabalho**, selecione **Ordens de compra**.
 
 ## <a name="create-a-location-directive-header"></a>Criar um cabeçalho da diretiva de localização

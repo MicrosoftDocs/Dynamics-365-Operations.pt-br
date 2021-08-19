@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: c9dfad3615cfe4f9937f0dc30c4684cd14f420c1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 83b2d3c35e3e68aaad22bc03a46b17abc1526073895057717fd055dacdfbee5c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348131"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718468"
 ---
 # <a name="specify-custom-storage-locations-for-generated-documents"></a>Especificar locais de armazenamento personalizado para os documentos gerados
 
@@ -45,7 +45,7 @@ Para gerar os documentos aos quais você quer adicionar um local de armazenament
 
 ## <a name="run-the-fixed-asset-roll-forward-report"></a>Gerar o Relatório de roll forward de ativo fixo
 
-1. Vá para **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
+1. Acesse **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
 2. No campo **Data inicial**, insira **1/1/2017** (1º de janeiro de 2017).
 3. No campo **Data final**, insira **1/31/2017** (31 de janeiro de 2017).
 4. No **campo Moeda**, selecione a **Moeda contábil**.
@@ -324,7 +324,7 @@ class AssetRollForwardService extends SysOperationServiceBase
 
 ## <a name="re-run-the-fixed-asset-roll-forward-report"></a>Gerar novamente o Relatório de roll forward de ativo fixo
 
-1. Vá para **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
+1. Acesse **Ativos fixos** \> **Consultas e relatórios** \> **Relatórios de transações** \> **Roll forward de ativo fixo**.
 2. No campo **Data inicial**, insira **1/1/2017**.
 3. No campo **Data final**, insira **1/31/2017**.
 4. No **campo Moeda**, selecione a **Moeda contábil**.

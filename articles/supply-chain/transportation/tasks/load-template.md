@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 175c8017b14cc298cdaa00031f8450015a747786
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35e858970114224fe6c4dabf05675d1204b8fd49c3147dab5b8758ab3de47f5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831497"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745421"
 ---
 # <a name="load-templates"></a>Modelos de carga
 
@@ -29,7 +29,7 @@ Este tópico descreve como configurar modelos de carga e como associar um modelo
 
 ## <a name="set-up-a-load-template"></a>Configurar um modelo de carga
 
-1. Vá para **Gerenciamento de transporte \> Configuração \> Criação de carga \> Modelo de carga**.
+1. Acesse **Gerenciamento de transporte \> Configuração \> Criação de carga \> Modelo de carga**.
 1. No Painel de Ações, selecione **Novo** para adicionar um novo modelo ou **Editar** para editar um modelo existente.
 1. Na linha do modelo novo ou existente, defina os seguintes campos:
 
@@ -45,7 +45,7 @@ Este tópico descreve como configurar modelos de carga e como associar um modelo
 
 ## <a name="associate-a-load-template-with-a-new-load"></a>Associar um modelo de carga a uma nova carga
 
-1. Vá para **Gerenciamento de transporte \> Planejamento \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de transporte \> Planejamento \> Bancada de planejamento de carga**.
 1. Na parte superior da página, selecione uma das guias a seguir, dependendo do tipo de documento de origem para o qual você está criando uma carga: **Remessas**, **Linhas de venda**, **Linhas de transferência** ou **Linhas de ordem de compra**. 
 1. Selecione o documento específico para o qual planejar a carga.
 1. No Painel de Ação, na guia **Oferta e demanda** , no grupo **Adicionar** , selecione **Para nova carga**.

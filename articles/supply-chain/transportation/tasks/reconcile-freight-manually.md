@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a0a5450697a09e5e54e74b35b2576eb6bbd4cdf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ded0f19c8acb4cbd89978f2ae7ce296f54f03155c2eed7ad4b25d486c20cfeb9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838505"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740590"
 ---
 # <a name="reconcile-freight-manually"></a>Reconciliar frete manualmente
 
@@ -29,7 +29,7 @@ Este procedimento mostra como reconciliar manualmente o frete. Normalmente isso 
 
 
 ## <a name="select-a-load-to-reconcile"></a>Selecione uma carga para reconciliar
-1. Vá para Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
+1. Acesse Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
 2. Desmarque a caixa de seleção Esconder envio e recebido. 
 3. Na lista, selecione custo indireto que tem a identificação ID 00006 de carga.
 

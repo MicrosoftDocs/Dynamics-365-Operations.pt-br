@@ -9,12 +9,12 @@ ms.reviewer: kfend
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: a0f418aa18db99088db0b75df41f950e67160e3f
-ms.sourcegitcommit: 8fb79920bea14746a71551a4456236a6386bfcea
+ms.openlocfilehash: d38169d73caf93a0f81e832293916c9e54855a1848fe6ab409a670a4bf707b7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/12/2021
-ms.locfileid: "6538869"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6713127"
 ---
 # <a name="french-intrastat"></a>Intrastat francês
 
@@ -178,7 +178,7 @@ Você deve configurar os códigos NGP e atribuí-los a produtos relacionados. O 
 
 #### <a name="assign-an-ngp-code-to-a-product"></a>Atribuir um código NGP a um produto
 
-1.  Vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
+1.  Acesse **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
 
 2.  Na grade, selecione um produto.
 
@@ -277,7 +277,7 @@ O exemplo a seguir mostra como configurar e trabalhar com códigos NGP. Ele usa 
 
 6.  Atribua o código NGP a um produto:
 
-    1.  Vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
+    1.  Acesse **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados**.
 
     2.  Na grade, selecione **0001**.
 

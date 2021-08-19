@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 4ef27b53d2e2434b89db789c0fd2d4de9c348855
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e1a1dde844fce801a4b8ca27292438009a07420dde260c91b168e50a5ebfb8be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357402"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723743"
 ---
 # <a name="icms-st-complement-and-restitution-process-and-declaration-for-rs-sc-and-sp-states"></a>Processo e declaração de complemento e restituição do ICMS-ST para os Estados do RS, de SC e SP
 
@@ -248,7 +248,7 @@ Os registros a seguir fazem parte do escopo: 2112 (notas fiscais de saída gerad
 
 ### <a name="setup"></a>Configurar
 
-1. Vá para **Administração da organização** \> **Configuração** \> **Parâmetros brasileiros**.
+1. Acesse **Administração da organização** \> **Configuração** \> **Parâmetros brasileiros**.
 2. Na guia **Nota fiscal** , na seção **ICMS-ST** , defina as opções **Sim**:
 
     -  **Impostos presumidos do ICMS-ST** – Habilite esse processo para gerar marcas relacionadas no formato XML quando uma NF-e for emitida para autoridades fiscais.
@@ -256,7 +256,7 @@ Os registros a seguir fazem parte do escopo: 2112 (notas fiscais de saída gerad
 
     ![Página de parâmetros brasileiros, seção ISMS-ST.](media/brazil-icms-01.png)
 
-3. Vá para **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fiscais por Estado**, selecione o Estado adequado (**SP**, **SC**, ou **RS**).
+3. Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fiscais por Estado**, selecione o Estado adequado (**SP**, **SC**, ou **RS**).
 
 ### <a name="presumed-tax"></a>Imposto presumido
 
@@ -277,7 +277,7 @@ No FastTab **Impostos presumidos** da página **Parâmetros de livros fiscais po
 
 Para o Estado do RS, como os valores e os detalhes do cálculo das compensações e restituição do ICMS-ST são informados no SPED Fiscal no registro 1900 e outros registros relacionados, a configuração adicional é obrigatória para criar automaticamente as transações de ajuste estabelecidas pelo Decreto 54308/2018.
 
-Vá para **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fiscais por Estado**, selecione o Estado **RS** e, em seguida, no FastTab **Parâmetros do ICMS-ST da subapuração**, configure os parâmetros a seguir:
+Acesse **Livros fiscais** \> **Configuração** \> **Parâmetros de livros fiscais por Estado**, selecione o Estado **RS** e, em seguida, no FastTab **Parâmetros do ICMS-ST da subapuração**, configure os parâmetros a seguir:
 
 -  **Bloco 1900** – Defina esta opção como **Sim** para gerar os registros de subapuração de imposto ICMS-ST detalhados na sessão do escopo.
 -  **Indicador de subapuração de imposto** – Selecione o tipo de indicador usado para identificar a subapuração de imposto.
@@ -307,7 +307,7 @@ Antes de gerar um demonstrativo para cada Estado, é necessário criar um perío
 
 ![Página de apuração do imposto ICMS-ST.](media/brazil-icms-04.png)
 
-1. Vá para **Livros fiscais** \> **Comum** \> **Apuração de imposto** \> **ICMS-ST**.
+1. Acesse **Livros fiscais** \> **Comum** \> **Apuração de imposto** \> **ICMS-ST**.
 2. Na página **ICMS-ST**, no Painel de Ações, na guia **Geral**, no grupo **Exibir**, selecione **Saldo de impostos presumidos**.
 
     ![Página ICMS-ST, guia Geral no Painel de Ações.](media/brazil-icms-05.png)
@@ -391,7 +391,7 @@ Dependendo do tipo de negócio da empresa (varejo ou atacado), o Finance gera os
 
 #### <a name="sp-state"></a>Estado de SP
 
-1. Vá para **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **CAT 4218 SP**. Este demonstrativo também está disponível na apuração de imposto ICMS-ST do Estado de SP.
+1. Acesse **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **CAT 4218 SP**. Este demonstrativo também está disponível na apuração de imposto ICMS-ST do Estado de SP.
 2. No campo **Nome do arquivo**, insira o caminho completo no qual o arquivo de texto deve ser salvo. Incluir o nome do arquivo.
 3. No campo **Versão do layout**, selecione a versão.
 4. No campo **Tipo de arquivo**, selecione o tipo de arquivo:
@@ -404,7 +404,7 @@ O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de auto
 
 #### <a name="rs-state"></a>Estado do RS
 
-1. Vá para **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **SPED fiscal**. Este demonstrativo também está disponível na apuração do imposto ICMS-ST do Estado do RS.
+1. Acesse **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **SPED fiscal**. Este demonstrativo também está disponível na apuração do imposto ICMS-ST do Estado do RS.
 2. Defina os parâmetros geralmente configurados para gerar o demonstrativo do SPED Fiscal. Para gerar o registro 1900 e outros registros relacionados, é necessário definir os parâmetros obrigatórios para gerar o demonstrativo do SPED Fiscal. Para configurar esses parâmetros, siga as etapas:
 3. Crie e sincronize o período de escrituração relacionado.
 4. Sincronize o estoque. Se aplicável, use o crédito do saldo inicial do estoque.
@@ -417,18 +417,18 @@ O arquivo de texto gerado deve ser validado primeiro usando o aplicativo de auto
 
 #### <a name="sc-state"></a>Estado de SC
 
-1. Vá para **Livros fiscais \> Configuração \> Parâmetros de demonstrativos de imposto** e selecione **SPED DRCST**.
+1. Acesse **Livros fiscais \> Configuração \> Parâmetros de demonstrativos de imposto** e selecione **SPED DRCST**.
 2. Na FastTab **Parâmetros de configuração**, adicione o endereço na internet e o endereço do cabeçalho da solicitação, para que o arquivo XML relacionado possa ser enviado para as autoridades fiscais do governo.
 
     ![Página de parâmetros de demonstrativo de imposto, FastTab de parâmetros de configuração.](media/brazil-icms-09.png)
 
-3. Vá para **Administração da organização \> Configuração \> Parâmetros brasileiros**.
+3. Acesse **Administração da organização \> Configuração \> Parâmetros brasileiros**.
 4.  Na guia **Nota fiscal**, na seção, **ICMS-ST**, defina as opções como **Sim** para habilitar a funcionalidade para calcular impostos presumidos no processo de emissão de NF-e e na apuração de imposto ICMS-ST do SPED Fiscal:
 
     - ICMS-ST presumido
     - Imposto ICMS-ST presumido em livros fiscais
 
-5. Vá para **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **SPED DRCST**. Este demonstrativo também está disponível na apuração de imposto ICMS-ST do Estado de SC.
+5. Acesse **Livros fiscais** \> **Comum** \> **Período de escrituração** e, em seguida, na guia **Demonstrativos de imposto**, selecione **SPED DRCST**. Este demonstrativo também está disponível na apuração de imposto ICMS-ST do Estado de SC.
 6.  No campo **Nome do arquivo**, insira o caminho completo no qual o arquivo de texto deve ser salvo. Inclua o nome do arquivo.
 7.  No campo **Tipo de arquivo**, selecione o tipo de arquivo.
 

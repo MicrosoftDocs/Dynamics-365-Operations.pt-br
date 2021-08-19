@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 461893c355ac2ebf8124591f93d025cae49081fc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 880db0852f569c2d091b2906be9e370259c0d7d3fc8c977cf1e240e4b2f34128
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810958"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747808"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>Trabalhos de produção sequencial para manufatura de processos
 
@@ -28,7 +28,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 
 
 ## <a name="run-master-planning-for-uspi"></a>Executar planejamento mestre para USPI
-1. Vá para Planejamento mestre > Planejamento mestre > Executar > Planejamento mestre.
+1. Acesse Planejamento mestre > Planejamento mestre > Executar > Planejamento mestre.
 2. No campo Plano mestre, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, clique no link na linha selecionada.
     * Selecionar MasterPlan.  
@@ -36,7 +36,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
     * Isso inicia o planejamento mestre, incluindo o processo de sequência. Esse processo pode levar alguns minutos.  
 
 ## <a name="view-planned-orders-for-the-paint-products"></a>Exibir ordens planejadas para os produtos de pintura
-1. Vá para Planejamento mestre > Planejamento mestre > Ordens planejadas.
+1. Acesse Planejamento mestre > Planejamento mestre > Ordens planejadas.
 2. Expanda a FactBox detalhes do item.
 3. Expanda a FactBox detalhes da programação.
 4. No campo Plano, clique no botão suspenso para abrir a pesquisa.
@@ -48,7 +48,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 
 ## <a name="sequence-planned-orders-for-paint"></a>Ordens planejadas em sequência para pintura
 1. Feche a página.
-2. Vá para Planejamento mestre > Planejamento mestre > Ordens planejadas sequenciais.
+2. Acesse Planejamento mestre > Planejamento mestre > Ordens planejadas sequenciais.
 3. Expanda a FactBox detalhes do item.
 4. Expanda a FactBox detalhes da programação.
     * Observação: Aqui você verá que a data de início/hora das ordens planejadas é arranjada na sequência de acordo com a cor e tamanho da embalagem dentro de um período de classificação de 28 dias. Os períodos são definidos por um número no campo Campanha. O formulário de ordem planejada sequenciado atua como o formulário de ordem planejada típico, e o planejador de produção pode confirmar ordens planejadas aqui.  
@@ -58,7 +58,7 @@ Este procedimento usa produtos de pintura como um exemplo para mostrar como sequ
 
 ## <a name="verify-the-sequence-of-the-planned-orders"></a>Verifique a sequência das ordens planejadas
 1. Feche a página.
-2. Vá para Planejamento mestre > Planejamento mestre > Ordens planejadas.
+2. Acesse Planejamento mestre > Planejamento mestre > Ordens planejadas.
 3. Expanda a FactBox detalhes do item.
 4. Expanda a FactBox detalhes da programação.
 5. No campo Plano, clique no botão suspenso para abrir a pesquisa.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d529cd53b41827a78b282afd4d2c69d2f2db555e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 99202763ae32d02f94f1590783727d4f2cf7a7bbe45963d0e175bfc449b134d9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742920"
 ---
 # <a name="propose-fixed-asset-acquisitions"></a>Propor aquisições de ativo fixo
 
@@ -30,7 +30,7 @@ Este tópico descreve como adquirir um ativo fixo usando a proposta de aquisiç�
 
 Conclua estas etapas para criar uma proposta de aquisição de ativo. 
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Entradas de diário > Diário de ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Entradas de diário > Diário de ativos fixos**.
 2. Selecione **Novo**.
 3. No campo **Nome**, insira ou selecione um valor.
 4. No Painel de Ações, selecione **Linhas**.

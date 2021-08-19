@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2021-06-01
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: e67c10ecb9f297d1855a55431cd07c53ee87d40a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1115be8c33eeaf16c1a533e63b31d87b0fc5f68d6469ff075428f72ac146b2f4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361370"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746626"
 ---
 # <a name="design-an-er-format-to-generate-a-report-in-excel-format-with-embedded-images-in-page-headers-or-footers"></a>Criar um formato de ER para gerar um relatório no formato Excel com imagens incorporadas em cabeçalhos ou rodapés de página
 
@@ -76,7 +76,7 @@ Os procedimentos deste tópico podem ser concluídos na empresa **USMF**. Nenhum
 
 ## <a name="configure-the-legal-entity"></a><a id="ConfigureLegalEntity"></a>Configurar a entidade legal
 
-1. Vá para **Administração da organização** \> **Organizações** \> **Entidades legais**.
+1. Acesse **Administração da organização** \> **Organizações** \> **Entidades legais**.
 2. Na página **Entidades legais**, na Guia Rápida **Imagem do logotipo da empresa de relatório**, selecione **Alterar**.
 3. Na caixa de diálogo **Selecionar arquivo de imagem a ser carregado**, selecione **Pesquisar** e selecione o arquivo **Logotipo da empresa.png** que você baixou anteriormente.
 4. Selecione **Salvar** e feche a página **Entidades legais**.
@@ -89,7 +89,7 @@ Como usuário na função de Consultor Funcional de Relatório Eletrônico, voc�
 
 ### <a name="configure-er-parameters"></a><a id="ConfigureParameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, defina os seguintes parâmetros:
@@ -108,13 +108,13 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a id="ReviewProvidersList"></a>Examinar a lista de provedores de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Tabela de provedores de configuração**, cada registro de provedor tem um nome e uma URL exclusivos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Ltda.** (`https://www.litware.com`), ignore o próximo procedimento, [Adicionar um novo provedor de configuração de ER](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Adicionar um novo provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, selecione **Novo**.
 4. No campo **Nome**, insira **Litware, Ltda.**
@@ -123,7 +123,7 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="activate-the-new-er-configuration-provider"></a><a id="ActivateAddedProvider"></a>Ativar o novo provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
 
 Para obter mais informações sobre provedores de configuração de ER, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -134,7 +134,7 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 
 Para adicionar as configurações de ER padrão à instância atual do Dynamics 365 Finance, você deve importá-las do [repositório](general-electronic-reporting.md#Repository) de ER configurado para essa instância.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor **Microsoft**.
 3. Na página **Repositórios de configuração**, selecione o repositório do tipo **Global** e, depois, selecione **Abrir**. Se você precisar de autorização para se conectar ao [Regulatory Configuration Service](../../../finance/localizations/rcs-overview.md), siga as instruções de autorização.
 4. Na página **Repositório de configuração**, na árvore de configuração no painel esquerdo, selecione a configuração de formato **Fatura de texto livre (Excel)**.
@@ -148,7 +148,7 @@ Para adicionar as configurações de ER padrão à instância atual do Dynamics 
 
 ### <a name="review-the-imported-er-configurations"></a><a id="ReviewImportedERSolution"></a>Examinar as configurações de ER importadas
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura**.
 4. Além do formato de ER selecionado da **Fatura de texto livro (Excel)**, outras configurações de ER necessárias foram importadas. Verifique se as seguintes configurações de ER estão disponíveis na árvore de configuração:
@@ -187,7 +187,7 @@ Neste caso, como representante da Litware, Ltda., você deve criar (derivar) uma
 
 ### <a name="create-a-custom-format"></a><a id="DeriveProvidedFormat"></a>Criar uma formato personalizado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** e selecione **Fatura de texto livre (Excel)**. A Litware, Ltda. usará a versão importada (por exemplo, **240.112**) desta configuração do formato de ER como base para a versão personalizada.
 3. Selecione **Criar configuração** para abrir a caixa de diálogo suspensa. Use esta caixa de diálogo para criar uma nova configuração para um formato de pagamento personalizado.
 4. No grupo de campos **Novo**, selecione a opção **Derivar de Nome: Fatura de texto livre (Excel), Microsoft**.
@@ -204,7 +204,7 @@ A versão 240.112.1 da configuração de formato de ER **Fatura de texto livre (
 
 Configure seu formato personalizado para que a imagem do logotipo de uma empresa seja colocada no rodapé em todas as páginas do relatório.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **Fatura de texto livre (Excel) personalizada**.
 3. Na FastTab **Versões**, selecione a versão **240.112.1** da configuração selecionada.
 4. Selecione **Designer**.
@@ -248,7 +248,7 @@ Como a primeira versão do formato personalizado foi criada e tem o status de **
 
 Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER explicitamente.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, defina a opção **Executar configurações** como **Sim** e selecione **OK**.
 4. Selecione **Editar** para tornar a página atual editável e depois, na árvore de configuração no painel esquerdo, selecione **Fatura de texto livre (Excel) personalizada**.

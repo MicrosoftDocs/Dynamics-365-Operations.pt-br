@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 888ce67f1feba9876f71d2988268b47c9a4ca1dd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ca04760c682969a409943e66f246dfa8a3bf2872183a0197c8c460cf4398c483
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737274"
 ---
 # <a name="project-cost-accrual-on-purchase-receipts"></a>Despesas de custo de projeto sobre recebimentos de compra
 
@@ -68,7 +68,7 @@ Lançar um recebimento de produtos gerará e lançará um comprovante no razão.
 
 **Etapa 3:** Criar um rascunho da fatura de fornecedor. 
 
-Lançar um recibo de produto não afetará as informações de projeto. Como uma solução alternativa, você pode gerar um rascunho de fatura de fornecedor logo após o lançamento do recebimento de compra. Vá para a página **Ordem de compra** &gt; **Guia de fatura** &gt; **Gerar** &gt; **Fatura**. Essa ação cria um documento de fatura pendente que atualiza as informações do projeto. 
+Lançar um recibo de produto não afetará as informações de projeto. Como uma solução alternativa, você pode gerar um rascunho de fatura de fornecedor logo após o lançamento do recebimento de compra. Acesse a página **Ordem de compra** &gt; **Guia de fatura** &gt; **Gerar** &gt; **Fatura**. Essa ação cria um documento de fatura pendente que atualiza as informações do projeto. 
 
 Criar um rascunho da fatura de fornecedor gerará transações de projeto pendentes. 
 [![Minhas transações de projeto pendentes.](./media/accruals8-1024x225.png)](./media/accruals8.png) 

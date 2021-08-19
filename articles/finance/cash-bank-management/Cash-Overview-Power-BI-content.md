@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 19f07222a9d61cd153d4741f464009562340b939
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 59ef57d3684cfa3b7063af76cc7ee7b7f0eaceb5e1f1cceb0845ebd9057ded07
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336156"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728070"
 ---
 # <a name="cash-overview-power-bi-content"></a>Conteúdo de visão geral do caixa do Power BI
 
@@ -35,12 +35,12 @@ O conteúdo de **Visão geral do caixa** do Power BI foi criado para as pessoas 
 
 A configuração a seguir precisa ser concluída para que os dados sejam exibidos nos recursos visuais **Visão geral do caixa** e **Gerenciamento bancário** do Power BI .
 
-1. Vá para **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
-2. Vá para **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
-3. Vá para **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
-4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, vá para **Contabilidade > Moedas > Taxas de câmbio de moedas**.
+1. Acesse **Administração do sistema > Configuração > Parâmetros do Sistema** para definir **Moeda do sistema** e **Taxa de Câmbio do Sistema**.
+2. Acesse **Contabilidade > Calendários > Calendários fiscais** para validar as datas do calendário fiscal atribuídas ao período de tempo ativo.
+3. Acesse **Contabilidade > Configuração > Razão** para definir **Moeda Contábil** e **Tipo de Taxa de Câmbio**.
+4. Defina taxas de câmbio entre moedas de transação e moeda contábil, moeda contábil e moeda do sistema, moeda contábil e moedas de bancos. Para fazer isso, Acesse **Contabilidade > Moedas > Taxas de câmbio de moedas**.
 5. Configure e execute a previsão de fluxo de caixa. Para obter mais informações sobre como configurar a previsão de fluxo de caixa, consulte [Previsão de fluxo de caixa](./cash-flow-forecasting.md). 
-6. Vá para **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
+6. Acesse **Administração do sistema > Configuração > Repositório de Entidades** para atualizar a medida de agregação **LedgerCovLiquidityMeasurement**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 

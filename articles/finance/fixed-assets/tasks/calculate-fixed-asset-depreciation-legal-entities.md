@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 85a1e71967fb126be29a76a8a29ea5e4ae2b2199
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 769e271ec9bb202ca695e5430c79e66f7320838fdfd232bab7c72ce5816a7b05
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818455"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744321"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>Calcular depreciação de ativo fixo entre entidades legais
 
@@ -28,7 +28,7 @@ A depreciação de ativo fixo pode ser executada nas entidades legais em uma ún
 
 
 ## <a name="set-up-cross-company-depreciation-run-journals"></a>Configurar diários de execução de depreciação interempresariais
-1. Vá para Ativos fixos > Configuração > Parâmetros de ativos fixos.
+1. Acesse Ativos fixos > Configuração > Parâmetros de ativos fixos.
 2. Expanda a seção Propostas de ativos fixos.
 3. Clique em Adicionar.
 4. No campo Nível de lançamento, insira ou selecione um valor.

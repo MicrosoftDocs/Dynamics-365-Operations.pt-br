@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8488ec154412840bf88779eeffc3d4ff52aabd22
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ac72a1a0e4595f1767f6df8aabae52e062a794b1f3e16027af91dabc81d324ec
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818983"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750969"
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Configurar restrições de transporte para um item
 
@@ -29,7 +29,7 @@ Este procedimento configurará uma restrição de transporte para impedir que um
 
 
 ## <a name="create-an-item-constaint"></a>Criar uma restrição de item
-1. Vá para Restrições.
+1. Acesse Restrições.
 2. Clique em Novo.
 3. No campo Restrições de item, digite um valor.
 4. No campo Nome, digite um valor.

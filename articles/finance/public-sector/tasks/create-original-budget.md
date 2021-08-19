@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: af037db40b0df3eeea163953d27c211e609cc02b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f0120e4aa895d70da418c643a81bd0046a96c031de0ca660e31bb3e0d8f8c2df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744241"
 ---
 # <a name="create-an-original-budget-and-then-reverse-preliminary-budget-entries-in-the-public-sector"></a>Criar um orçamento original e depois reverter entradas de orçamento preliminar no setor público
 
@@ -27,7 +27,7 @@ ms.locfileid: "5811230"
 
 Quando você cria uma entrada de orçamento original e usa o modelo de orçamento e os valores de dimensão que contêm valores de orçamento preliminar, os valores de orçamento preliminar podem ser revertidos. Este procedimento foi criado usando os dados da empresa de demonstração PSUS na partição do setor público.
 
-1. Vá para Orçamento > Entradas de registro de orçamento.
+1. Acesse Orçamento > Entradas de registro de orçamento.
 2. Clique em Novo.
 3. No campo Modelo de orçamento, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.

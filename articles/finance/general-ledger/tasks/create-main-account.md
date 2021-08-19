@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 01483e6bd059520322d185c946222e35321072bb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 66e248d029063d4a465ad789e5eb193706b8a2351bf659306050c7ac7d1c950d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837000"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729621"
 ---
 # <a name="create-a-main-account"></a>Criar uma conta principal
 
@@ -26,7 +26,7 @@ ms.locfileid: "5837000"
 
 Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente. Este registro usa a empresa de dados de demonstração USMF.  
 
-1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
+1. Acesse **Painel de navegação > Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
 2. Clique em **Novo**.
 3. No campo **Conta principal**, digite um valor.
 4. No campo **Nome**, digite um valor.

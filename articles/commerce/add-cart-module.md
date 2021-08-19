@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 76d4bea9ad25494015a7bfeb324cb0e84dd024b7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: f2db61cf23c217365274297c6e9878a4eb5679f8d9502cb70484372ae43f6b18
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346843"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6716875"
 ---
 # <a name="cart-module"></a>Módulo de carrinho
 
@@ -74,7 +74,7 @@ O módulo de carrinho recupera informações do produto usando as APIs de Commer
 
 Para adicionar um módulo de carrinho a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento**, selecione o módulo **Carrinho**.
 1. Em **Nome do fragmento**, digite o nome **Fragmento de carrinho** e selecione **OK**.
 1. Selecione o slot **Carrinho**.
@@ -82,12 +82,12 @@ Para adicionar um módulo de carrinho a uma nova página e definir as propriedad
 1. No slot **Carrinho**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Seletor de loja** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do fragmento e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira um nome para o modelo.
 1. Na árvore de estrutura de tópicos, selecione o slot **Corpo**, as reticências (**...**) e, em seguida, selecione **Adicionar fragmento**.
 1. Na caixa de diálogo **Selecionar fragmento**, selecione o fragmento **Fragmento de carrinho** e, em seguida, selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo que você criou, insira um nome de página e selecione **OK**.
 1. Selecione **Salvar** e depois selecione **Visualizar** para visualizar a página.
 1. Selecione **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.

@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: AX 8.1.3
-ms.openlocfilehash: adab650451a4ff22fcba82b0aa053c923f5dc5ef
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 11198795ebc09acd740546e0b18260e8ea2ddfc1dcc2ff38feafecc220655f1f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339422"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743398"
 ---
 # <a name="omni-channel-payments-overview"></a>Visão geral de pagamentos de omni-channel
 
@@ -67,7 +67,7 @@ Os seguintes componentes e etapas de configuração são necessários:
 
 - **Integração de comércio eletrônico:** é necessária uma integração com o Commerce para dar suporte a cenários em que uma ordem se origina em uma vitrine online. Para obter mais informações sobre o SDK de comércio eletrônico do Retail, consulte [kit de desenvolvimento de software (SDK) da plataforma de comércio eletrônico](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk). Em um ambiente de demonstração, a vitrine de referência oferece suporte a cenários de pagamento de omni-channel. 
 - **Configuração de pagamentos online:** a configuração do canal online deve incluir um conector de pagamento que foi atualizado para oferecer suporte a pagamentos de omni-channel. Como alternativa, o conector de pagamento pronto para uso pode ser usado. Para obter informações sobre como configurar o conector de pagamento de Adyen para lojas online, consulte [Conector de pagamento de Adyen](/dynamics365/unified-operations/retail/dev-itpro/adyen-connector?tabs=8-1-3#e-commerce). Além das etapas de configuração do comércio eletrônico descritas neste tópico, o parâmetro **Permitir salvar informações de pagamento no comércio eletrônico** deve ser definido como **Verdadeiro** nas configurações do conector de Adyen. 
-- **Configuração de pagamentos de omni-channel:** no back office, vá para **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados do Commerce**. Depois, na guia **Pagamentos de omni-channel**, define a opção **Usar pagamentos de omni-channel** como **Sim**. No Commerce versões 10.0.12 e posterior, essa configuração está no espaço de trabalho **Gerenciamento de Recursos**. Selecione o recurso **Pagamentos de omnicanal** e clique em **Habilitar agora**. 
+- **Configuração de pagamentos de omni-channel:** no back office, Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros compartilhados do Commerce**. Depois, na guia **Pagamentos de omni-channel**, define a opção **Usar pagamentos de omni-channel** como **Sim**. No Commerce versões 10.0.12 e posterior, essa configuração está no espaço de trabalho **Gerenciamento de Recursos**. Selecione o recurso **Pagamentos de omnicanal** e clique em **Habilitar agora**. 
 - **Serviços de pagamento:** o call center usa o conector de pagamento padrão na página **Serviços de pagamento** para processar pagamentos. Para suportar cenários como "Comprar em uma call center, retirar na loja", esse conector de pagamento padrão deve ser o conector de pagamento de Adyen ou um conector de pagamento que atenda aos requisitos de implementação para pagamentos de omni-channel.
 - **Serviço de TEF:** os pagamentos por meio de um terminal de pagamento devem ser configurados na Guia Rápida **Serviço de TEF** do perfil de hardware. O conector de Adyen oferece suporte a cenários de pagamentos de omni-channel prontos para uso. Outros conectores de pagamento que oferecem suporte à interface **iNamedRequestHandler** também podem ser usados se permitirem pagamentos de omni-channel.
 - **Disponibilidade do conector de pagamento:** quando uma ordem é cancelada, as linhas de proposta de pagamento que são canceladas juntamente com a ordem incluem o nome do conector de pagamento que foi usado para criar as autorizações associadas a essa ordem. Quando a ordem é atendida, o SDK de pagamentos tenta usar o mesmo conector usado para criar a autorização original. Portanto, um conector de pagamento que tenha as mesmas propriedades do comerciante deve estar disponível para captura. 

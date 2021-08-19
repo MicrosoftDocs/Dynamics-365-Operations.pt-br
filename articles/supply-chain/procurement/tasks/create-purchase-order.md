@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4fca62bcfc1d6e15c8882bed32b82b63eb4c1666
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f55e7d59f0e228b5642148540946b2ed0a589fb842b60b7613e20ad893476ccc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812293"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720315"
 ---
 # <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
@@ -28,7 +28,7 @@ Este tópico mostra como criar uma ordem de compra manualmente. É mais comum pa
 
 
 ## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Ordens de compra > Todas as ordens de compra**.
 2. Selecione **Novo**.
 3. Selecione conta de fornecedor **US-101**. Quando você seleciona um fornecedor, os detalhes do registro de fornecedor como endereço, a conta de nota fiscal, condições de entrega, e o modo de entrega como os valores padrão serão copiados no cabeçalho da ordem. É possível alterar esses valores a qualquer momento.  
 4. Expanda a seção **Geral**.

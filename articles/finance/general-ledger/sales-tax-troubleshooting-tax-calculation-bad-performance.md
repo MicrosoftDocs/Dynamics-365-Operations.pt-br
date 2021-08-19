@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 2bb1f22c33de52f9a7bc00b450ce131d4d58d200
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da19a83945450c2d35f95be2241b84e407860fe7808ff83934686ca2e00859bc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748945"
 ---
 # <a name="tax-calculation-performance-affects-transactions"></a>O desempenho do cálculo de impostos afeta as transações
 
@@ -28,7 +28,7 @@ ms.locfileid: "6352825"
 
 ## <a name="review-the-transaction-line-count"></a>Revisar a contagem de linhas da transação
 
-Determine se a transação tem um grande número de linhas (por exemplo, mais de várias centenas). Se não tiver, vá para a próxima seção. Se a transação tiver várias centenas de linhas, adie o cálculo de impostos. Para obter mais informações, consulte [Habilitar o cálculo de impostos atrasados nos diários](enable-delayed-tax-calculation.md). 
+Determine se a transação tem um grande número de linhas (por exemplo, mais de várias centenas). Se não tiver, Acesse a próxima seção. Se a transação tiver várias centenas de linhas, adie o cálculo de impostos. Para obter mais informações, consulte [Habilitar o cálculo de impostos atrasados nos diários](enable-delayed-tax-calculation.md). 
 
 Em seguida, você pode determinar se alguma das seguintes condições é atendida:
 
@@ -42,7 +42,7 @@ Se qualquer uma dessas condições for atendida, adie o cálculo de impostos.
 
 ## <a name="review-the-call-stack"></a>Revisar a pilha de chamadas
 
-Revise a pilha de chamadas para determinar se o cálculo de impostos é chamado várias vezes. Se não for, vá para a próxima seção. Se a pilha de chamadas for chamada várias vezes, siga estas etapas para ajudar a reduzir os tempos de cálculo de impostos.
+Revise a pilha de chamadas para determinar se o cálculo de impostos é chamado várias vezes. Se não for, Acesse a próxima seção. Se a pilha de chamadas for chamada várias vezes, siga estas etapas para ajudar a reduzir os tempos de cálculo de impostos.
 
 1. Se o diário tiver considerado a transação, adie o cálculo de impostos. Para obter mais informações, consulte [Habilitar o cálculo de impostos atrasados nos diários](enable-delayed-tax-calculation.md).
 2. Se a transação for uma ordem de compra e a versão do aplicativo for posterior a 10.0.15, você poderá adiar o cálculo de impostos até o cálculo final habilitando a liberação de versões para **PurchTableChangeMgmtDistributionUpdateOnToggle_KillSwitch**.

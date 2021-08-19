@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-10
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: eb4200deed5407bef6861913cecdad7114ea68cc
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 959b8b85fe55ed5e0a93b5b614c3f6166bbd2bb6ef07e9d0f0f4c2b1ea3c4659
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270778"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6721310"
 ---
 # <a name="override-the-default-reservation-principle-for-materials-in-production"></a>Substituir o princípio de reserva padrão por materiais em produção
 
@@ -40,7 +40,7 @@ Para que você possa usar o recurso, ele deve estar ativado no sistema. Os admin
 
 ## <a name="assign-a-production-reservation-policy-to-an-item-model-group"></a>Atribuir uma política de reserva de produção a um grupo de modelos de item
 
-1. Vá para **Gerenciamento de custos \> Configuração das políticas contábeis de estoque \> Grupos de modelos de item**.
+1. Acesse **Gerenciamento de custos \> Configuração das políticas contábeis de estoque \> Grupos de modelos de item**.
 1. Crie ou selecione um grupo de modelos de item.
 1. Na FastTab **Políticas de estoque**, marque a caixa de seleção **Substituir reserva de produção de item**.
 1. No campo **Reserva**, selecione o princípio de reserva de itens que pertencem ao grupo de modelos selecionado. (Esses itens incluem itens que estão em uma linha da BOM ou da fórmula.)

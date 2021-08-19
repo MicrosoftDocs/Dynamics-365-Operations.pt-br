@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: b41692304635c968b02329adeab9145b3707dd6c
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: f781ed22852cb2108850e7dc6762aa6a9ba0db97574cb0dcc7959f8926e47a08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638040"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718771"
 ---
 # <a name="promo-banner-module"></a>Módulo de banner de promoção
 
@@ -68,7 +68,7 @@ A imagem a seguir mostra um exemplo de uma faixa promocional.
 
 Para adicionar um módulo de faixa promocional a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do Modelo**, insira **Modelo do banner da promoção** e selecione **OK**.
 1. Em **Estrutura de Tópicos de Página**, adicione um módulo **Página padrão** ao slot **Corpo**. 
 1. Selecione **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo. 

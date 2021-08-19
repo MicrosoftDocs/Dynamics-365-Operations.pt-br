@@ -2,7 +2,7 @@
 title: Criar modelos de email para eventos transacionais
 description: Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
 author: bicyclingfool
-ms.date: 03/01/2021
+ms.date: 05/28/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,20 +14,18 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: bfc773bec035ceee151e2e2dd8925aa772747452
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2da1044cd332d841a8c18f7139d0d8c09bad95f446494034060e59416b4018b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019874"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6718698"
 ---
 # <a name="create-email-templates-for-transactional-events"></a>Criar modelos de email para eventos transacionais
 
 [!include [banner](includes/banner.md)]
 
 Este tópico descreve como criar, carregar e configurar modelos de email para eventos transacionais no Microsoft Dynamics 365 Commerce.
-
-## <a name="overview"></a>Visão Geral
 
 O Dynamics 365 Commerce fornece uma solução pronta para enviar emails que alertam clientes sobre eventos transacionais (por exemplo, quando uma ordem é feita, uma ordem está pronta para ser retirada ou uma ordem é enviada). Este tópico descreve as etapas para criar, carregar e configurar os modelos de email usados para enviar emails transacionais.
 
@@ -79,26 +77,33 @@ Os espaços reservados a seguir recuperam e mostram dados definidos no nível de
 | Nome do espaço reservado     | Valor do espaço reservado                                            |
 | -------------------- | ------------------------------------------------------------ |
 | customername         | O nome do cliente que fez a ordem.               |
-| salesid              | A ID de vendas da ordem.                                   |
-| deliveryaddress      | O endereço de entrega para ordens remetidas.                     |
 | customeraddress      | O endereço do cliente.                                 |
 | customeremailaddress | O endereço de email inserido pelo cliente na finalização da compra.     |
+| salesid              | A ID de vendas da ordem.                                   |
+| orderconfirmationid  | A ID do canal cruzado que foi gerada na criação da ordem. |
+| channelid            | A ID do canal de varejo ou online para o qual a ordem foi feita. |
+| deliveryname         | O nome que é especificado para o endereço de entrega.        |
+| deliveryaddress      | O endereço de entrega para ordens remetidas.                     |
 | deliverydate         | A data de entrega.                                           |
 | shipdate             | A data de remessa.                                               |
 | modeofdelivery       | O modo de entrega da ordem.                              |
+| ordernetamount       | O valor total da ordem, menos o imposto total.         |
+| desconto             | O total de descontos da ordem.                            |
 | charges              | O total de encargos da ordem.                             |
 | imposto                  | O total de impostos da ordem.                                 |
 | total                | O valor total da ordem.                              |
-| ordernetamount       | O valor total da ordem, menos o imposto total.         |
-| desconto             | O total de descontos da ordem.                            |
 | storename            | O nome da loja em que foi feita a ordem.            |
 | storeaddress         | O endereço da loja que fez a ordem.              |
 | storeopenfrom        | O horário de abertura da loja que fez a ordem.         |
 | storeopento          | O horário de fechamento da loja que fez a ordem.         |
-| pickupstorename      | O nome da loja em que a ordem será retirada.     |
-| pickupstoreaddress   | O endereço da loja em que a ordem será retirada.  |
-| pickupopenstorefrom  | O horário de abertura da loja em que a ordem será retirada. |
-| pickupopenstoreto    | O horário de fechamento da loja em que a ordem será retirada. |
+| pickupstorename      | O nome da loja em que a ordem será retirada.\* |
+| pickupstoreaddress   | O endereço da loja em que a ordem será retirada.\* |
+| pickupopenstorefrom  | O horário de abertura da loja em que a ordem será retirada.\* |
+| pickupopenstoreto    | O horário de fechamento da loja em que a ordem será retirada.\* |
+| pickupchannelid      | A ID de canal do armazenamento especificado para um modo de entrega de retirada.\* |
+| packingslipid        | A ID da guia de remessa que foi gerada quando as linhas de uma ordem foram embaladas.\* |
+
+\*Estes espaços reservados retornam dados somente quando são usados para o tipo de notificação **Ordem pronta para retirada**. 
 
 ### <a name="order-line-placeholders-sales-line-level"></a>Espaços reservados da linha de ordem (nível da linha de venda)
 
@@ -106,7 +111,10 @@ Os espaços reservados a seguir recuperam e mostram dados de produtos individuai
 
 | Nome do espaço reservado               | Valor do espaço reservado |
 |--------------------------------|-------------------|
-| productid                      | A ID do produto da linha. |
+| productid                      | <p>A ID do produto. Esta ID é responsável por grades.</p><p><strong>Observação:</strong> Este espaço reservado foi preterido por **lineproductrecid**.</p> |
+| lineproductrecid               | A ID do produto. Esta ID é responsável por grades. Ele identifica exclusivamente um item no nível da grade. |
+| lineitemid                     | A ID do nível do produto. (Esta ID não é responsável por grades.) |
+| lineproductvariantid           | A ID da grade de produto. |
 | lineproductname                | O nome do produto. |
 | lineproductdescription         | A descrição do produto. |
 | linequantity                   | O número de unidades que foram solicitadas para a linha, mais a unidade de medida (por exemplo, **ea** ou **par**). |
@@ -125,6 +133,8 @@ Os espaços reservados a seguir recuperam e mostram dados de produtos individuai
 | linedeliverydate               | A data de entrega da linha. |
 | linedeliverymode               | O modo de entrega da linha. |
 | linedeliveryaddress            | O endereço de entrega da linha. |
+| linepickupdate                 | A data de retirada especificada pelo cliente para ordens que usam um modo de entrega de retirada. |
+| linepickuptimeslot             | O intervalo de tempo de retirada especificado pelo cliente para ordens que usam um modo de entrega de retirada. |
 | giftcardnumber                 | O número do cartão-presente para produtos do tipo de cartão-presente. |
 | giftcardbalance                | O saldo do cartão-presente para produtos do tipo de cartão-presente. |
 | giftcardmessage                | A mensagem do cartão-presente para produtos do tipo de cartão-presente. |
@@ -177,7 +187,7 @@ Depois de criar e testar o HTML para o corpo da mensagem, ele deverá ser carreg
 
 Para carregar um HTML de modelo de email novo ou editado, siga estas etapas.
 
-1. Em Commerce Headquarters, vá para **Varejo e Comércio \> Configuração da sede \> Modelos de email da organização**.
+1. Em Commerce Headquarters, Acesse **Varejo e Comércio \> Configuração da sede \> Modelos de email da organização**.
 1. Selecione a linha do idioma para o qual você deseja adicionar ou substituir o HTML. Outra opção é selecionar **Novo** para criar uma linha para um novo idioma.
 1. Selecione **Editar**.
 1. Na caixa de diálogo exibida, selecione **Navegar**. Navegue até o documento HTML a ser carregado, selecione-o e, depois, selecione **Abrir**.

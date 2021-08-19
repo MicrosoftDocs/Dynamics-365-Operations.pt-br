@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f47fc0cd67cddef3c73f9c4c6b8dd6f41bbe85ec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e70a68ab5e14e8dadfd8d61f696f5971c8e60262d0fd55c5de1589e572ff8085
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722974"
 ---
 # <a name="define-vendor-payment-terms"></a>Definir condições de pagamento de fornecedor
 
@@ -26,14 +26,14 @@ ms.locfileid: "5838900"
 
 Este tópico explica como configurar condições de pagamento para faturas de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para **Painel de navegação > Módulos > Contas a pagar > Configuração de pagamento > Condições de pagamento**.
+1. Acesse **Painel de navegação > Módulos > Contas a pagar > Configuração de pagamento > Condições de pagamento**.
 2. Selecione **Novo**. A página de condições de pagamento é usada para definir como a data de vencimento será calculada. Não é usada para definir como a data de desconto à vista será calculada.  
 3. No campo **Condições de pagamento**, digite um valor.
 4. No campo **Descrição**, digite um valor.
 5. No campo **Dias**, insira um número. O número inserido aqui será usado para adicionar à data de vencimento, ou ao final do período identificado no método de pagamento. Por exemplo, se você selecionar **Rede**, o número será adicionado à data de vencimento. Se você selecionar **Mês atual**, ele adicionará o número ao último dia do mês atual para calcular a data de vencimento.  
 6. Selecione **Salvar**.
 7. Feche a página.
-8. Vá para **Contas a pagar > Configuração de pagamento > Descontos à vista**.
+8. Acesse **Contas a pagar > Configuração de pagamento > Descontos à vista**.
 9. Selecione **Novo**.
 10. No campo **Desconto à vista**, insira uma ID.
 11. No campo **Descrição**, digite um valor.

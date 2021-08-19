@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 27764fb3190a5feda5e656c0b38ce527c8d7ceb9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4ac1f8c6dc5fcacb603aae53190418a10efb0651a3f52608cc58eb3866a8fcb5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743810"
 ---
 # <a name="define-cost-control-units"></a>Definir unidades de controle de custos
 
@@ -26,7 +26,7 @@ ms.locfileid: "5841084"
 
 Este procedimento mostra como definir unidades de controle de custo no razão da contabilização de custo. Você seleciona a dimensão de objeto de custo para a qual você quer controlar os custos do razão. Os membros da dimensão do objeto de custo são transformados em objetos de custo das unidades de controle de custo. A empresa de dados demonstrativos utilizada para criar esse procedimento é a USP2.
 
-1. Vá para Contabilização de custos > Configuração do razão > Razões de contabilização de custos.
+1. Acesse Contabilização de custos > Configuração do razão > Razões de contabilização de custos.
 2. Na lista, localize e selecione o PDV desejado.
 3. Clique em Unidades de controle.
 4. Clique em Novo.

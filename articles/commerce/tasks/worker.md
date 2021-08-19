@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 43e65de1fda223c2d0503848e7e57936898c1b73
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: a21d5f2d5963db2a92b653e8e520f96f11ba1bf6acbb238812211154d5b39fc0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804056"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726374"
 ---
 # <a name="configure-a-worker"></a>Configurar um trabalhador
 
@@ -29,7 +29,7 @@ Este procedimento demonstra como configurar um trabalhador como um representante
 
 
 ## <a name="create-a-commission-sales-group-for-the-worker"></a>Criar um grupo de comissão de venda para o trabalhador
-1. Vá para Vendas e marketing > Comissões > Grupos de vendas.
+1. Acesse Vendas e marketing > Comissões > Grupos de vendas.
     * Os trabalhadores podem ser atribuídos a um ou mais grupos de vendas. No PDV, você pode escolher qualquer grupo de vendas que contenha trabalhadores do catálogo de endereços da loja.  
 2. Clique em Novo.
 3. No campo Grupo, digite um valor.
@@ -45,7 +45,7 @@ Este procedimento demonstra como configurar um trabalhador como um representante
 12. Feche a página.
 
 ## <a name="assign-the-workers-default-sales-group"></a>Atribuir o grupo de vendas padrão do trabalhador
-1. Vá para Varejo e Comércio > Funcionários > Trabalhadores.
+1. Acesse Varejo e Comércio > Funcionários > Trabalhadores.
 2. Na lista, localize e selecione o registro desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique na guia Comércio.

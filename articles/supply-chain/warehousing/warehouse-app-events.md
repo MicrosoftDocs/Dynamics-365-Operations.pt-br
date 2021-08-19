@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: d63cdea8917bed762bf8d970a408e5931aec48b7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d1e648b5db9405e749fbd24502f65f344d0549b0f13b48e98c38d1476866db01
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729977"
 ---
 # <a name="warehouse-app-event-processing"></a>Processamento de eventos do aplicativo de depósito
 
@@ -39,7 +39,7 @@ Antes de poder usar esse recurso, ele deverá estar habilitado no seu sistema. O
 
 Configure um trabalho em lotes agendado para processar os eventos do aplicativo de depósito para a criação da ordem de transferência e as atualizações de linha.
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 1. A caixa de diálogo Processar eventos do aplicativo de depósito será aberta. Expanda a guia rápida **Executar em segundo plano** e defina **Processamento em lotes** como **Sim**.
 1. Na guia rápida **Executar em segundo plano**, selecione **Recorrência**.
 1. A caixa de diálogo **Definir recorrência** será aberta. Defina o plano de execução, conforme necessário para a sua empresa.
@@ -69,7 +69,7 @@ Para obter um exemplo detalhado, consulte [Criar ordem de transferência do apli
 
 Para redefinir uma mensagem do evento de aplicativo de depósito com falha:
 
-1. Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
+1. Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Logs do dispositivo móvel \> Eventos do aplicativo de depósito**.
 1. Na Guia Rápida **Mensagens de eventos do aplicativo de depósito**, localize e selecione um evento relevante que está mostrando **Com Falha** na coluna **Estado do evento**.
 1. Selecione **Redefinir** na barra de ferramentas **Mensagens de eventos do aplicativo de depósito**.
 1. Continue trabalhando até que todas as mensagens relevantes sejam redefinidas.

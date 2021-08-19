@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 945504cd73b743fb3711997274c537e51e5c6dec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9cdfceef4099a8f2ebfde22949d6439dfc623ac153578265da5bfb4052ee639d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834635"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743834"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>Configurar recursos bancários e perfis de lançamento para carta de crédito
 
@@ -34,7 +34,7 @@ Essas tarefas usam a empresa de demonstração 'USMF'.
 
 
 ## <a name="general-ledger-parameter"></a>Parâmetro da contabilidade
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
 2. Expanda a seção Documento bancário.
 3. Selecione a opção Habilitar importação de carta de crédito.
 4. Selecione a opção Habilitar exportação de carta de crédito.
@@ -42,7 +42,7 @@ Essas tarefas usam a empresa de demonstração 'USMF'.
 6. Feche a página.
 
 ## <a name="create-bank-facility"></a>Criar Recursos bancários
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Recursos bancários.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Recursos bancários.
 2. Clique em Novo.
 3. No campo Grupo de recursos, insira o nome do grupo de recursos bancários.
 4. No campo Descrição, insira a descrição do grupo de recursos bancários.
@@ -59,7 +59,7 @@ Essas tarefas usam a empresa de demonstração 'USMF'.
 15. Feche a página.
 
 ## <a name="bank-posting-profile"></a>Perfil de lançamento bancário
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Perfil de lançamento de documentos bancários.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Perfil de lançamento de documentos bancários.
 2. Clique em Novo.
 3. No campo Número de conta/grupo, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro desejado.

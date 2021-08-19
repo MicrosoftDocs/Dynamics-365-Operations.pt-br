@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: ab590c8e35403aed0a62ae6102b511a3d9598949
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3637aa049b1ed4061dfccf559b632afb4a01e80936a7838ac707d2e528534bd1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823629"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740865"
 ---
 # <a name="sped-fiscal-files"></a>Arquivos fiscais SPED 
 

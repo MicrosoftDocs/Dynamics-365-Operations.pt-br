@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7b5f8303ea23f4f38bf27d35de0fa91ab82f4b5b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: aedf18ef8b3d7266f3e5c7acd676241f9ec8b900f061f5363cd8d581062e83ed
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354460"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730746"
 ---
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefa e Ajuda do Retail Modern POS (MPOS) e Cloud POS
 
@@ -45,7 +45,7 @@ Para habilitar a gravação de tarefas no PDV, siga estas etapas.
 2. Clique em registro em que a gravação de tarefas será habilitada.
 3. Na guia **Registrar**, na Guia Rápida **Geral**, defina a opção **Habilitar gravação de tarefas** como **Sim**.
 4. Clique em **Salvar**.
-5. Vá para **Retail e Commerce** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**.
+5. Acesse **Retail e Commerce** &gt; **TI de Varejo e Comércio** &gt; **Agenda de distribuição**.
 6. Selecione o trabalho **Registros (1090)** e então clique em **Executar agora**.
 
 ## <a name="create-a-recording"></a>Criar uma gravação

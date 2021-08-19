@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 9c31b8dd7d69fee40ecefb6c6bc81c9c2dd17ef7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 81888e0703c53333ab9697c0445270f2f40c7b9ba02f3ba5fa728aef0b78b3a6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730001"
 ---
 # <a name="planned-cross-docking"></a>Distribuição integrada planejada
 
@@ -50,7 +50,7 @@ Se o sistema ainda não incluir os recursos descritos neste tópico, acesse [Ger
 
 A distribuição integrada planejada é implementada como um método de lançamento da carga. Depois de ativar o recurso, você deve regenerar os métodos.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Métodos de lançamento da carga**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Métodos de lançamento da carga**.
 1. No Painel de Ação, selecione **Regenerar métodos**.
 
     Após a conclusão da regeneração, você deverá ver um método com um valor *planCrossDocking* em **Nome do método**.
@@ -59,7 +59,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 ### <a name="create-a-cross-docking-template"></a>Criar um modelo de distribuição integrada
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelos de distribuição integrada**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelos de distribuição integrada**.
 1. No Painel de Ação, selecione **Novo** para criar um modelo.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -117,9 +117,12 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **Número de sequência:** *1*
     - **Fonte de fornecimento:** *Ordem de compra*
 
+> [!NOTE]
+> Você pode configurar uma consulta para determinar quando um modelo de distribuição integrada específico será usado. A consulta para modelos de distribuição integrada tem somente a tabela *InventTable* (itens) e a tabela interna conjunta *WHSInventTable* (itens WHS). Se quiser adicionar outras tabelas à consulta, você poderá associá-las usando somente *existir junções* ou *não existir junções*. Ao filtrar pelas tabelas conjuntas, um registro da tabela principal é recuperado para cada registro correspondente na tabela conjunta. Se o tipo de junção for *existir junções*, a pesquisa terminará depois que a primeira correspondência for encontrada. Por exemplo, se você unir a tabela de linha da ordem de venda à tabela de itens, o sistema validará e retornará os itens para os quais pelo menos uma linha da ordem de venda tem a condição definida. Basicamente, os dados são recuperados da tabela pai (itens), e não da tabela filho (linha da ordem de venda). Portanto, a filtragem por documentos de origem, como linhas de ordem de venda ou clientes, não pode ser realizada.
+
 ### <a name="create-a-work-class"></a>Criar uma classe de trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Classes de trabalho**.
 1. No Painel de Ação, selecione **Novo** para criar uma classe de trabalho.
 1. Defina os seguintes valores:
 
@@ -129,7 +132,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 ### <a name="create-a-work-template"></a>Criar um modelo de trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Defina o campo **Tipo de ordem de serviço** como *Distribuição integrada*.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à guia **Visão geral**.
 1. Na nova linha, defina os valores a seguir:
@@ -151,13 +154,16 @@ A distribuição integrada planejada é implementada como um método de lançame
     - **ID da classe de trabalho:** *CrossDock*
 
 1. Selecione **Salvar** e confirme se a caixa de seleção **Válido** está marcada para o modelo *Distribuição Integrada 51*.
+1. Opcional: selecione **Editar consulta** se quiser definir critérios para controlar quando e onde o modelo de trabalho será usado.
+
+    Você pode configurar uma consulta para determinar quando um modelo de trabalho em particular será usado. Por exemplo, você pode especificar que um modelo possa ser usado para trabalhar somente em um local específico. Se quiser que o modelo de trabalho de distribuição integrada seja aplicado em um local específico, você deverá filtrar o campo **Local inicial**, não o campo **Local**, porque a criação de trabalho para os processos de entrada (compra, distribuição integrada e reabastecimento) inicia a partir da linha put. Quando o trabalho é criado, a diretiva de localização define o campo **Local** para o local de put. No entanto, a localização de separação é armazenada no campo **Local inicial**.
 
 > [!NOTE]
 > As IDs de classe de trabalho dos tipos de trabalho *Separar* e *Colocar* devem ser as mesmas.
 
 ### <a name="create-location-directives"></a>Criar diretivas de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, defina o campo **Tipo de ordem de serviço** como *Distribuição integrada*.
 1. No Painel de Ação, selecione **Novo** e defina os valores a seguir:
 
@@ -203,7 +209,7 @@ A distribuição integrada planejada é implementada como um método de lançame
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Na lista de itens de menu no painel esquerdo, selecione **Armazenamento de compra**.
 1. Selecione **Editar**.
 1. Na FastTab **Classes de trabalho**, selecione **Novo** para adicionar uma linha à grade.
@@ -237,7 +243,7 @@ Siga estas etapas para criar uma ordem de compra como fonte de fornecimento.
 
 Siga estas etapas para criar uma ordem de venda como origem de demanda.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -278,7 +284,7 @@ Na primeira ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *
 Na segunda ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *Ordens de compra* e está vinculado à ordem de compra. Ela tem a quantidade restante de 2 que não passou por distribuição integrada e é direcionada para o armazenamento.
 
 1. Entre no dispositivo móvel como um usuário no depósito *51*.
-1. Vá para **Entrada \> Recebimento de Compra**.
+1. Acesse **Entrada \> Recebimento de Compra**.
 1. No campo **PONum**, insira o número da ordem de compra.
 1. No campo **Qtd.**, insira *5*.
 1. Selecione **OK**.
@@ -294,7 +300,7 @@ Na segunda ID de trabalho criada, o **Tipo de ordem de serviço** tem o valor *O
 
 No momento, ambas as IDs de trabalho têm a mesma placa de licença de destino. Para concluir as próximas etapas, você deve obter a ID de trabalho e a ID da placa de licença de destino. É possível obter essas informações nos detalhes do trabalho da linha de ordem de compra e da linha de ordem de venda. Como alternativa, você pode acessar **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho** e filtrar trabalhos em que o valor de **Depósito** seja *51*.
 
-1. No dispositivo móvel, vá para **Entrada \> Armazenamento de compra** e insira a placa de licença de destino do trabalho.
+1. No dispositivo móvel, Acesse **Entrada \> Armazenamento de compra** e insira a placa de licença de destino do trabalho.
 1. No campo **ID**, insira a ID da placa de licença de destino nos detalhes do trabalho.
 
     A página de separação da distribuição integrada mostra o local de separação (*RECV*), a placa de licença de destino (*placa de licença*), o item (*A0001*) e a quantidade (*3*).

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 1fce2570e1b0cc334fc0e92e5e83c53a4566b4a4
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6987263bfa83582f465e3b47c4f7b9d96cf087c814a1e002afd289852346975b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345975"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6734010"
 ---
 # <a name="warehouse-set-up"></a>Configuração do depósito
 
@@ -35,7 +35,7 @@ Antes de configurar um depósito, você precisa configurar um site de depósito.
 
 Para configurar um site de depósito, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Sites**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Sites**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Site**, insira um valor.
 1. No campo **Nome**, insira um valor.
@@ -51,7 +51,7 @@ A imagem a seguir mostra um exemplo de site de depósito.
 
 Para configurar um depósito, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **Depósito**, insira um valor.  No caso de um mapeamento 1:1 para uma loja, use o nome da loja ou o nome de um centro de distribuição regional.
 1. No campo **Nome**, insira um valor.
@@ -65,7 +65,7 @@ Para configurar um depósito, siga estas etapas.
 
 Para configurar corredores de estoque, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Configuração de localização \> Corredores de estoque**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Configuração de localização \> Corredores de estoque**.
 1. No painel de ação, selecione **Novo**.
 1. Na lista suspensa **Depósito**, selecione o depósito criado anteriormente.
 1. No campo **Corredor**, insira um nome (por exemplo, &quot;Padr").
@@ -76,7 +76,7 @@ Para configurar corredores de estoque, siga estas etapas.
 
 Para configurar localizações de estoque no depósito para estoque padrão, danificado e devolvido, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. Selecione o estoque criado anteriormente.
 1. No painel de ação, selecione **Editar**.
 1. No painel de ação, selecione **Depósito** e, depois, **Localização de estoque**.
@@ -104,7 +104,7 @@ A imagem a seguir mostra uma configuração de localização de estoque no depó
 
 Para concluir a configuração do depósito, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Configuração de canal \> Depósitos**.
 1. Selecione o estoque criado anteriormente.
 1. No painel de ação, selecione **Editar**.
 1. Em **Gerenciamento de estoque e depósito**:

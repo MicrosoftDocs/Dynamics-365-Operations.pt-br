@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-01-01
 ms.dyn365.ops.version: Version 10.0.6
-ms.openlocfilehash: e6ab75c970c6c14d4977b6c739ba46e33f4962e9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cfabd6f544dca6f48448da4ef9ff8383c6583f8488a718a7c971ff7b39c1f2cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348035"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737966"
 ---
 # <a name="suppress-word-content-controls-in-generated-reports"></a>Suprimir controles de conteúdo do Word em relatórios gerados
 
@@ -69,7 +69,7 @@ Você também precisa baixar e salvar o seguinte modelo para o relatório de exe
 
 Para as etapas a seguir, você reusará a configuração de ER existente que você definiu ao concluir as etapas nos guias de tarefas mencionadas anteriormente.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Selecione **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração, expanda **Modelo de pagamento** e selecione **Relatório de planilha de exemplo**.
 4. Selecione **Designer** para editar a versão de rascunho do formato ER selecionado.

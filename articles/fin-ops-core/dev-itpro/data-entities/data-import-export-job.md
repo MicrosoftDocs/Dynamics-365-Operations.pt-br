@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 12de6d70243bdcda5fc7887f24eecb462de23683
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d42f6af27ecb79e02a20516d58846e842d5960ce9363afcafbcbb487e60c0c38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351010"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723102"
 ---
 # <a name="data-import-and-export-jobs-overview"></a>Visão geral de trabalhos de importação e exportação de dados
 
@@ -153,7 +153,7 @@ A partir dos detalhes de execução, você também pode abrir este log de execu�
 ## <a name="parallel-imports"></a>Importações paralelas
 Para acelerar a importação de dados, o processamento paralelo da importação de um arquivo poderá ser habilitado se a entidade oferecer suporte a importações paralelas. Para configurar a importação paralela de uma entidade, execute as etapas a seguir.
 
-1. Vá para **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
+1. Acesse **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
 2. Na seção **Importar/Exportar**, selecione o bloco **Parâmetros da estrutura** para abrir a página **Parâmetros da estrutura de importação/exportação**.
 3. Na guia **Configurações da entidade**, selecione **Configurar parâmetros de execução da entidade** para abrir a página **Parâmetros de execução da importação da entidade**.
 4. Defina os seguintes campos para configurar a importação paralela de uma entidade:
@@ -214,12 +214,12 @@ A segunda alteração no processo de limpeza é o arquivamento do histórico de 
 ### <a name="changing-the-default-settings"></a>Alterar as configurações padrão
 No momento, essa funcionalidade está na versão prévia e deve ser explicitamente ativada habilitando a versão piloto DMFEnableExecutionHistoryCleanupSystemJob. O recurso de limpeza de preparo também deve ser ativado no gerenciamento de recursos.
 
-Para alterar a configuração padrão para a longevidade do item arquivado, vá para o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Defina **Dias para reter o pacote em blob** como um valor entre 7 e 90 (inclusos). Isso entrará em vigor nos arquivos criados depois que essa alteração tiver sido feita.
+Para alterar a configuração padrão para a longevidade do item arquivado, Acesse o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Defina **Dias para reter o pacote em blob** como um valor entre 7 e 90 (inclusos). Isso entrará em vigor nos arquivos criados depois que essa alteração tiver sido feita.
 
 ### <a name="downloading-the-archived-package"></a>Baixar o pacote arquivado
 No momento, essa funcionalidade está na versão prévia e deve ser explicitamente ativada habilitando a versão piloto DMFEnableExecutionHistoryCleanupSystemJob. O recurso de limpeza de preparo também deve ser ativado no gerenciamento de recursos.
 
-Para baixar o histórico de execução arquivado, vá para o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Selecione **Histórico de backup de pacote** para abrir o formulário histórico. Este formulário mostra a lista de todos os pacotes arquivados. É possível selecionar e baixar um arquivo morto ao selecionar o **Baixar pacote**. O pacote baixado estará no formato de pacote DIXF e contém os seguintes arquivos:
+Para baixar o histórico de execução arquivado, Acesse o espaço de trabalho gerenciamento de dados e selecione **Limpar histórico de trabalho**. Selecione **Histórico de backup de pacote** para abrir o formulário histórico. Este formulário mostra a lista de todos os pacotes arquivados. É possível selecionar e baixar um arquivo morto ao selecionar o **Baixar pacote**. O pacote baixado estará no formato de pacote DIXF e contém os seguintes arquivos:
 
 -   O arquivo da tabela de preparo da entidade
 -   DMFDEFINITIONGROUPEXECUTION

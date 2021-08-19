@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9a6cc88b80f82d77edac0341cb6a3c0db4b42ce
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fda4aaadd5a2d9e6093b767d83a9187a970bf14c60f089f43b1b98a26cf0ac76
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739817"
 ---
 # <a name="operations-for-nonconformances"></a>Operações para não conformidades
 
@@ -51,7 +51,7 @@ Neste exemplo, as seguintes operações podem ser criadas para representar o tra
 
 ## <a name="create-an-operation"></a>Criar uma operação
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Operações**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Operações**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Operação** – Insira um nome ou uma ID exclusiva para a operação.

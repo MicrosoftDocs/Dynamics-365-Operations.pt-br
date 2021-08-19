@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3fe76a3d481c3bc8dd3a3d45eda031df61ece4aa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e6c8283290564d930418c1832bbd285532445ff0e69db8f78d13542c8232e97
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6720291"
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Criar uma ordem de compra para um fornecedor ocasional
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar uma ordem de compra de um fornecedor ocasion
 
 
 ## <a name="create-a-purchase-order-for-a-one-time-supplier"></a>Criar uma ordem de compra para um fornecedor ocasional
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. Selecione Sim no campo Fornecedor ocasional.
     * Uma conta do vendedor automaticamente é criada e atribuída à ordem de compra. A conta do vendedor é criada com base no molde que é especificado na aba geral na página dos parâmetros das contas a pagar.  

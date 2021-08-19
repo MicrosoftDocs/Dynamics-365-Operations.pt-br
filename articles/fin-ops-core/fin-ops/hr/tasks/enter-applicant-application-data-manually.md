@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 08104729f5be15ef7e727102e7be731bdda1a38c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 52805c56ed5be13c9e940cf887ece55487060539c0cae97ae5a1bcecd491fbcb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751973"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6712500"
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>Inserir dados do candidato e da solicitação de emprego manualmente
 
@@ -28,7 +28,7 @@ Este procedimento mostra como manter manualmente as informações sobre os candi
 
 
 ## <a name="create-a-new-applicant-record"></a>Criar um novo registro de candidato
-1. Vá para Recursos humanos > Recrutamento > Candidatos > Candidatos.
+1. Acesse Recursos humanos > Recrutamento > Candidatos > Candidatos.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Sobrenome, digite um valor.

@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 20a2e0bc46e182172ccd96f556fd398e8bffc34b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9068c35eaeee68f97d81d168983d7281da09491cb0afd70cb8196010ce771b0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347533"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723302"
 ---
 # <a name="text-block-module"></a>Módulo de bloco de texto
 
@@ -56,12 +56,12 @@ A imagem a seguir mostra um exemplo de um módulo de bloco de texto que é usado
 
 Para adicionar um módulo de bloco de texto a uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e selecione **Novo** para criar um novo modelo.
+1. Acesse **Modelos** e selecione **Novo** para criar um novo modelo.
 1. Na caixa de diálogo **Novo Modelo**, em **Nome do modelo**, insira um **Modelo de conteúdo**.
 1. No slot **Corpo**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Página padrão** e, depois, **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo **Modelo de conteúdo**. Em **Nome da página**, insira **Página de conteúdo** e selecione **OK**.
 1. No slot **Principal** da nova página, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.

@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: cc9273cc46e2549765dec4b2bbc9a3030753791d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 89783eec7c6dea663b97ba50b72b4ee499d6044443bbb7e8df29ebdd16bc6c97
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353507"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748754"
 ---
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
@@ -41,7 +41,7 @@ No campo **Minimo**, insira o nível de estoque de segurança que você deseja m
 Você pode usar as chaves mínimas para tratar flutuações sazonais na demanda. Por exemplo, você pode diminuir o nível de estoque mínimo de um item na baixa temporada e aumentar gradualmente o nível durante os outros meses. Você cria uma chave mínima indo para **Planejamento mestre** > **Configuração** > **Cobertura** > **Chaves de mínimo/máximo**. Você especifica a chave mínima para ajustar o nível de estoque de segurança por sazonalidade no campo **Chave de mínimo** na página **Cobertura de item**. 
 
 ## <a name="example-minimum-key"></a>Exemplo: Chave de mínimo
-Se você deseja configurar uma chave mínima que considera o aumento da demanda sazonal durante os meses de primavera e verão, vá para **Planejamento mestre** > **Configuração** > **Cobertura** > **Chaves de mínimo/máximo** e siga estas etapas.
+Se você deseja configurar uma chave mínima que considera o aumento da demanda sazonal durante os meses de primavera e verão, Acesse **Planejamento mestre** > **Configuração** > **Cobertura** > **Chaves de mínimo/máximo** e siga estas etapas.
 
 1. Crie 12 linhas e atribua um número de 1 a 12 para as linhas no campo **Alterar**.
 2. No campo **Unidade**, selecione **Meses**.

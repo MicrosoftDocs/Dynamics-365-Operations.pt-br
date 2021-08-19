@@ -13,12 +13,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 85b021f99a1260e4ed640764e4a3e96a80197768
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 18f13fb1754b2740b8447a67f09320651b0ca4003c6f46c6d4668e5159ae1a2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354580"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6730818"
 ---
 # <a name="assign-task-lists-to-stores-or-employees"></a>Atribuir listas de tarefas a lojas ou funcionários
 
@@ -32,7 +32,7 @@ O gerenciamento de tarefas no Dynamics 365 Commerce permite atribuir uma lista d
 
 Para iniciar o processo de atribuição de uma lista de tarefas, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
+1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
 1. Selecione a lista de tarefas a ser atribuída.
 1. Selecione **Iniciar processo**.
 1. Na caixa de diálogo **Iniciar processo**, na guia **Geral**, no campo **Nome do processo**, digite um nome (por exemplo, **Lojas da região leste**).
@@ -51,7 +51,7 @@ A ilustração a seguir mostra um exemplo de como localizar e selecionar armazen
 
 Às vezes varejistas têm tarefas recorrentes, como "lista de verificação de feriados da quinta-feira" ou "primeiro dia do mês". Portanto, eles podem desejar atribuir a lista de tarefas em uma base recorrente.
 
-1. Vá para **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
+1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
 1. Selecione a lista de tarefas a ser atribuída.
 1. Selecione **Iniciar processo**.
 1. Na caixa de diálogo **Iniciar processo**, na guia **Geral**, no campo **Nome do processo**, digite um nome.
@@ -70,12 +70,12 @@ Se você for gerente regional ou gerente de armazenamento, talvez queira rastrea
 
 Para rastrear o status da lista de tarefas de todas as tarefas, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Gerenciamento de tarefas \> Processos de gerenciamento de tarefas**.
+1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Processos de gerenciamento de tarefas**.
 1. Selecione a guia **Todas as listas de tarefas** para exibir o status de todas as listas de tarefas atribuídas a vários armazenamentos.
 
 Para rastrear o status da lista de tarefas de todas as tarefas atribuídas a você, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Gerenciamento de tarefas \> Processos de gerenciamento de tarefas**.
+1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Processos de gerenciamento de tarefas**.
 1. Selecione a guia **Minhas tarefas** ou **Todas as tarefas** para exibir ou atualizar o status das tarefas atribuídas a você.
 
 ## <a name="additional-resources"></a>Recursos adicionais

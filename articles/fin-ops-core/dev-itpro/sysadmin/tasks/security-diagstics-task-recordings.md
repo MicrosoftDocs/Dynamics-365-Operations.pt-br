@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 10.0.9
-ms.openlocfilehash: cb14a22a231d3fcc139228b59af00d405626cd2c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 44af35f16f6e9ff89b30bc10eef3f16ecdfaf907c4c6e22aa5775d1941fb6a5d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358540"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745111"
 ---
 # <a name="security-diagnostics-for-task-recordings"></a>Diagnóstico de segurança de gravações de tarefas
 
@@ -30,7 +30,7 @@ Este tópico fornece informações sobre como analisar e gerenciar requisitos de
 
 ## <a name="manage-security-for-a-task-recording"></a>Gerenciar a segurança de um registro de tarefa
 
-1. Vá para **Administração do sistema** > **Segurança** > **Diagnóstico de segurança para registro de tarefa**.
+1. Acesse **Administração do sistema** > **Segurança** > **Diagnóstico de segurança para registro de tarefa**.
 2. Abra o registro de tarefa a partir da localização. Selecione **Abrir neste PC** ou **Abrir a partir do Lifecycle Services** e selecione **Fechar**.
 3. Isso abrirá a página **Detalhes do item de menu segurança** que lista os objetos de segurança necessários para o processo.
 

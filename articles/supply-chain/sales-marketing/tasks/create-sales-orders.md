@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a52c512d630e560afac998e1a35e71204d98f5d1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3bf52a90a709aa74c579aa0047a38c1f3c7a845711f61f07a491705c798f1c62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841350"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744073"
 ---
 # <a name="create-sales-orders"></a>Criar ordens de venda
 
@@ -27,7 +27,7 @@ ms.locfileid: "5841350"
 Este procedimento mostra como criar uma ordem de venda. Você pode usar o procedimento na empresa USMF de dados de demonstração. As ordens de venda são desenvolvidos tipicamente por um processador de ordens de venda. 
 
 ## <a name="enter-sales-order-header-details"></a>Insira detalhes do cabeçalho da ordem de venda
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. No campo **Conta do cliente**, selecione o botão suspenso para abrir a pesquisa.
 4. Na lista, localize e selecione o registro do cliente.

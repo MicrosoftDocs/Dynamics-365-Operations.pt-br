@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 411b5c3f1a486a30ec7d8d2c3896dacbf97b39ed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 39f3495f23ece2ea6989c3a6d74e8694789ea8dd1ae663fad85143c327cde407
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821023"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726720"
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Habilitar o processo de folha de pagamento para horário e presença
 
@@ -44,7 +44,7 @@ Este procedimento mostra como habilitar o processo de folha de pagamento de temp
 ## <a name="create-a-pay-agreement"></a>Criar um contrato de pagamento
 1. Feche a página.
 2. Feche a página.
-3. Vá para Contratos de pagamento.
+3. Acesse Contratos de pagamento.
     * Hora e atendimento > Configuração > Contratos de pagamento  
 4. Clique em Novo.
 5. No campo Contrato de pagamento, digite um valor.
@@ -59,7 +59,7 @@ Este procedimento mostra como habilitar o processo de folha de pagamento de temp
 ## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a>Configurar o contrato de pagamento do funcionário por tempo e registro
 1. Feche a página.
 2. Feche a página.
-3. Vá para Trabalhadores de registro de tempo.
+3. Acesse Trabalhadores de registro de tempo.
     * Hora e atendimento > Configuração > Tempo de registro dos trabalhadores  
 4. Na lista, clique no link na linha selecionada.
 5. Clique na guia Emprego.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8709b91b354fa4e1319b406c009bfdadeef48a41
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8faae53f66c069c53609dee72fa30ca18a22c9eb8a86b4669c745c00976af34d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358089"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742695"
 ---
 # <a name="inventory-visibility-add-in"></a>Suplemento Visibilidade de Estoque
 
@@ -103,7 +103,7 @@ Após preparar os pré-requisitos, use o seguinte procedimento se preferir confi
 
 1. Atribua direitos de acesso ao usuário do aplicativo.
     1. Abra a URL do ambiente do Dataverse.
-    1. Vá para **Configurações avançadas \> Sistema \> Segurança \> Usuários** e encontre o usuário chamado **# InventoryVisibility**.
+    1. Acesse **Configurações avançadas \> Sistema \> Segurança \> Usuários** e encontre o usuário chamado **# InventoryVisibility**.
     1. Selecione **Atribuir Função** e, depois, selecione **Administrador do Sistema**. Se houver uma função chamada **Usuário do Common Data Service**, selecione-a também.
 
 #### <a name="set-up-dataverse-manually-by-importing-solutions"></a>Configurar o Dataverse manualmente importando soluções

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 70008e903763fff35c6cff12c42396fe5fcabbee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f4140232da68dacde49e236e587110be4f3bbea11fd6c2deec29aaa7ee9e107f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832073"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722334"
 ---
 # <a name="create-a-product-master"></a>Criar um produto mestre
 
@@ -28,7 +28,7 @@ Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo 
 
 
 ## <a name="create-a-new-product-master"></a>Criar um novo produto mestre
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
 2. Clique em **Novo**.
 3. No campo **Número do produto**, digite um valor. O número deve ser exclusivo. É possível definir uma sequência numérica para o campo **Número do produto**. Nesse caso, o usuário não precisará inserir um valor.
 4. No campo **Nome do produto**, digite um valor. Insira um nome de produto descritivo. O valor será padronizada pelo nome de pesquisa, mas isso pode ser alterado pelo usuário.

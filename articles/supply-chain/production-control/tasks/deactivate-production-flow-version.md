@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e47cb950ce488d8b6170f829e1fedc664b921a1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 488f5d9e1137be2686f3f3056f4c4543766a16799a2f0484c3c4f0f9f3d456ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811549"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726768"
 ---
 # <a name="deactivate-a-production-flow-version"></a>Desativar uma versão de fluxo de produção
 
@@ -35,7 +35,7 @@ Para este procedimento, é necessário um fluxo de produção com uma versão qu
 
 
 ## <a name="deactivate-a-production-flow-version"></a>Desativar uma versão de fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Na lista, localize e selecione o PDV desejado.

@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5eea178a351716425706f481ae66c5b5183a52e5
-ms.sourcegitcommit: ab3f5d0da6eb0177bbad720e73c58926d686f168
+ms.openlocfilehash: 03a514c5b616d761ef3eb6347e67e645b23eaa1794911775835e77cded4500ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "5944548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6719336"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas
 
@@ -65,7 +65,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  4. Clique em OK.  
 
 ## <a name="configure-cash--bank-management-parameters"></a>Configurar parâmetros de gerenciamento de banco e caixa  
- 1. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.  
+ 1. Acesse Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.  
  2. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.  
  3. No Painel de Ação, clique em Configurar.  
  4. Clique em Verificar.  
@@ -93,7 +93,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  26. Feche a página.  
  27. Feche a página.  
  28. Feche a página.  
- 29. Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.  
+ 29. Acesse Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.  
  30. Selecione Sim no campo Permitir a criação do pré-registro em contas bancárias inativas:.  
  31. Clique em Salvar.  
  32. Feche a página.  

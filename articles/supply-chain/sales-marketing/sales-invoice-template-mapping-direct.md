@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 8941ca0d2b9599dabd05427949d72f55aae7d6bc
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9076d04e71ceae41a4fbdd09bebd2db8e9ed298c2a318a64f2fea6fb71447e5b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347629"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736638"
 ---
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales
 
@@ -80,7 +80,7 @@ Antes de sincronizar faturas de venda, é importante atualizar as configuraçõe
 
 ### <a name="setup-in-sales"></a>Configuração no Sales
 
-Vá para **Configurações** > **Administração** > **Configurações do sistema** > **Sales** e verifique se as seguintes configurações foram usadas:
+Acesse **Configurações** > **Administração** > **Configurações do sistema** > **Sales** e verifique se as seguintes configurações foram usadas:
 
 - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
 - O campo **Método de cálculo de desconto** está definido como **Item de linha**.

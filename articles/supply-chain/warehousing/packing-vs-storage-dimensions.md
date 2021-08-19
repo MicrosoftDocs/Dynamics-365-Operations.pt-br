@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-28
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e997f8bccde7856303d8b3c6407143598ccc6030
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c60d9d75124ba33e0613af22f8e9873ce6a1ab7052372448e73426e83cd8ebe1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818911"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722118"
 ---
 # <a name="set-different-dimensions-for-packing-and-storage"></a>Definir dimensões diferentes para embalagem e armazenamento
 
@@ -57,7 +57,7 @@ Para trabalhar nesse cenário usando os registros e valores de exemplo especific
 
 Adicione uma nova dimensão física a um produto da seguinte forma:
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o produto com **Número do item** *A0001*.
 1. No Painel de Ação, abra a guia **Gerenciar estoque** e, no grupo **Depósito**, selecione **Dimensões físicas do produto**.
 1. A página **Dimensões físicas do produto** é aberta. No Painel de Ações, selecione **Novo** para adicionar uma nova dimensão à grade com as seguintes configurações:
@@ -106,7 +106,7 @@ Depois de preparar o sistema conforme descrito na seção anterior, você estar�
 
 Neste processo, você criará uma remessa com base nas dimensões de *embalagem* do item, para o qual a altura é inferior a 3.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
