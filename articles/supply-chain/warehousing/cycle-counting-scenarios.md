@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 828954402d223c62f52d7a13fcc9efab84630c80
-ms.sourcegitcommit: 4cbd83e21a78459e4711a2dedba0f5a7acc3c841
+ms.openlocfilehash: 09ca57d6a3654e56e12240af73d6793002eb1794e4b41d25e182b9b1d3b66df5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/15/2021
-ms.locfileid: "6261763"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746786"
 ---
 # <a name="cycle-counting-example-scenarios"></a>Cenários de exemplo de contagem cíclica
 
@@ -41,7 +41,7 @@ Antes de usar o novo aplicativo móvel Warehouse Management, será necessário a
 
 Siga estas etapas para confirmar que todos os dados de demonstração necessários para os cenários estão disponíveis na empresa USMF em seu sistema. Crie todos os registros ou valores que estão faltando.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalhador**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalhador**.
 1. No painel da lista, selecione **Julia Funderburk**.
 1. Na Guia Rápida **Usuários**, selecione a linha que tem os valores a seguir. Se nenhuma linha existente tiver esses valores, crie-a.
 
@@ -57,13 +57,13 @@ Siga estas etapas para confirmar que todos os dados de demonstração necessári
     - **Limite máximo da quantidade:** *0*
     - **Limite máximo do valor:** *0*
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Pools de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Pools de trabalho**.
 1. Os pools de trabalho são usados para separar o trabalho de depósito com base no tipo de trabalho (nesse caso, trabalho de contagem cíclica). Verifique se existe um registro que tenha as seguintes configurações:
 
     - **ID do pool de trabalho:** *CycleCount*
     - **Descrição:** *Contagem cíclica*
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No painel da lista, selecione o registro chamado *Contagem Cíclica*. Se nenhum registro existente tiver esse nome, crie-o. Confirme ou defina os seguintes valores para o registro:
 
     - **Nome do item do menu:** *Contagem Cíclica*
@@ -105,28 +105,28 @@ Siga estas etapas para confirmar que todos os dados de demonstração necessári
     - **Usar trabalho existente:** *Não*
     - **Processo de criação de trabalho:** *Contagem cíclica pontual* (Este valor indica que o trabalhador pode contar itens em um local de depósito a qualquer momento, sem criar o trabalho de contagem cíclica. Para fazer a contagem cíclica pontual em um local, o trabalhador insere a ID do local.)
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. No painel da lista, selecione o registro chamado *Estoque*. Se nenhum registro existente tiver esse nome, crie-o. Confirme se os itens do menu de contagem cíclica a seguir aparecem na coluna **Estrutura de menu**:
 
     - Contagem Cíclica
     - Contagem Cíclica Cega
     - Contagem pontual
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Contagem cíclica**, defina os seguintes valores:
 
     - **Tipo de ajuste de contagem cíclica padrão:** *Contagem cíclica* (Este campo especifica o tipo de diário que é postado quando a contagem cíclica é feita.)
     - **ID da classe de trabalho de contagem cíclica padrão:** *CCount* (Este campo especifica a classe de trabalho que é usada para contagem cíclica.)
     - **Prioridade de trabalho de contagem cíclica padrão:** *50* (Este campo define a prioridade que o trabalho de contagem cíclica tem em relação a outros tipos de trabalho no depósito. Ao inserir um número menor que o número inserido para outros tipos de trabalho, você aumenta a prioridade do trabalho de contagem cíclica.)
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Estoque \> Tipos de ajuste**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Estoque \> Tipos de ajuste**.
 1. A página **Tipos de ajuste** permite criar códigos para os diferentes ajustes de entrada e saída que podem ocorrer. Confirme se existe um registro que tenha as seguintes configurações:
 
     - **Tipo de ajuste de estoque:** *Contagem Cíclica*
     - **Descrição:** *Contagem cíclica*
     - **Nome:** *ICnt*
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Configuração do depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Configuração do depósito \> Depósitos**.
 1. No painel da lista, selecione o depósito *61*. Se nenhum registro existente tiver esse nome, crie-o.
 1. Na Guia Rápida **Depósito**, defina os seguintes valores:
 
@@ -141,7 +141,7 @@ Antes que a contagem cíclica guiada possa ocorrer, será necessário criar algu
 
 Siga estas etapas para criar trabalhos de contagem cíclica para a localização do item *01A02R2S2B* (BULK-06) no depósito *61*.
 
-1. Vá para **Gerenciamento de depósito \> Contagem cíclica \> Trabalho de contagem cíclica por localização**.
+1. Acesse **Gerenciamento de depósito \> Contagem cíclica \> Trabalho de contagem cíclica por localização**.
 1. Na caixa de diálogo **Criar trabalho de contagem cíclica por localização**, defina o campo **ID do pool de trabalho** como *CycleCount*.
 1. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, siga estas etapas:
@@ -154,7 +154,7 @@ Siga estas etapas para criar trabalhos de contagem cíclica para a localização
 
     Quando o processo de criação do trabalho é concluído, uma mensagem é exibida no centro de ação.
 
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Encontre o trabalho recém-criado definindo um filtro na coluna **ID do pool de trabalho** para encontrar registros que tenham um valor de *CycleCount*.
 
 ### <a name="do-cycle-counting-work-for-scenario-1"></a>Fazer o trabalho de contagem cíclica para o cenário 1
@@ -177,7 +177,7 @@ Depois de criar o trabalho de contagem cíclica, faça o trabalho contando itens
 Siga estas etapas para revisar as diferenças de contagem cíclica.
 
 1. Retorne ao Supply Chain Management.
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Encontre e selecione o trabalho de contagem cíclica que você analisou anteriormente. (Por exemplo, defina um filtro na coluna **ID do pool de trabalho** para encontrar registros que tenham um valor de *CycleCount*.) Observe que o campo **Status de trabalho** para este trabalho está agora definido como *Revisão pendente*.
 
     > [!NOTE]
@@ -198,7 +198,7 @@ Este cenário requer que o cenário 1 já esteja concluído em seu sistema.
 
 Antes que a contagem cíclica cega possa ocorrer, será necessário criar algum trabalho. Siga estas etapas para criar trabalhos de contagem cíclica para a localização do item *01A02R2S2B* (BULK-06) no depósito *61*.
 
-1. Vá para **Gerenciamento de depósito \> Contagem cíclica \> Trabalho de contagem cíclica por item**.
+1. Acesse **Gerenciamento de depósito \> Contagem cíclica \> Trabalho de contagem cíclica por item**.
 1. Na caixa de diálogo **Criar trabalho de contagem cíclica por item**, defina o campo **ID do pool de trabalho** como *CycleCount*.
 1. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, adicione três linhas com as seguintes configurações:
@@ -248,7 +248,7 @@ Depois de criar o trabalho de contagem cíclica, siga estas etapas para fazer o 
 Siga estas etapas para revisar as diferenças de contagem cíclica.
 
 1. Retorne ao Supply Chain Management.
-1. Vá para **Gerenciamento de depósito \> Comum \> Trabalho \> Trabalho de contagem cíclica com revisão pendente**.
+1. Acesse **Gerenciamento de depósito \> Comum \> Trabalho \> Trabalho de contagem cíclica com revisão pendente**.
 1. No Painel de ações, na guia **Trabalho**, selecione **Contagem cíclica**.
 1. No Painel de Ação, selecione **Rejeitar contagem**.
 
@@ -283,7 +283,7 @@ Siga estas etapas para fazer o trabalho de contagem cíclica no aplicativo móve
 Siga estas etapas para revisar os resultados de contagem.
 
 1. Retorne ao Supply Chain Management.
-1. Vá para **Gerenciamento de depósito \> Comum \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Comum \> Detalhes do trabalho**.
 1. Marque a caixa de seleção **Mostrar fechado** na parte superior da grade.
 1. Defina o filtro para a coluna **Tipo de ordem de serviço** como *Movimentação de estoque*.
 
@@ -297,7 +297,7 @@ Por exemplo, há 60 itens em um local com um limite de contagem cíclica de 40. 
 
 Siga estas etapas para configurar os limites de contagem cíclica.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Contagem cíclica \> Limites de contagem cíclica**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Contagem cíclica \> Limites de contagem cíclica**.
 1. No Painel de Ação, selecione **Novo** para criar um limite e defina os seguintes valores:
 
     - **ID do limite de contagem cíclica:** *L0101*
@@ -324,7 +324,7 @@ Os planos de contagem cíclica permitem automatizar a criação do trabalho de c
 
 Siga estas etapas para configurar um plano de contagem cíclica.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Contagem cíclica \> Planos de contagem cíclica**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Contagem cíclica \> Planos de contagem cíclica**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha à grade e defina os seguintes valores:
 
     - **ID do plano de contagem cíclica:** *BULK06*
@@ -352,7 +352,7 @@ Siga estas etapas para configurar um plano de contagem cíclica.
 
     Uma mensagem informa que o trabalho foi adicionado à fila de lotes.
 
-1. Vá para **Gerenciamento de depósito \> Comum \> Agendamento de contagem cíclica**. O plano começa imediatamente e cria um trabalho de contagem. Como o trabalho de contagem não foi concluído, o campo **Status** é definido como *Em andamento*. Após um minuto, o valor na coluna **Total de contagens cíclicas** é alterado para *1*.
+1. Acesse **Gerenciamento de depósito \> Comum \> Agendamento de contagem cíclica**. O plano começa imediatamente e cria um trabalho de contagem. Como o trabalho de contagem não foi concluído, o campo **Status** é definido como *Em andamento*. Após um minuto, o valor na coluna **Total de contagens cíclicas** é alterado para *1*.
 
     > [!NOTE]
     > O trabalho de contagem cíclica não será criado se o número de dias desde a última contagem cíclica for menor que o valor definido para o campo **Dias entre a contagem cíclica** do plano de contagem cíclica. Por exemplo, se o campo **Dias entre a contagem cíclica** for *5*, o trabalho de contagem cíclica será criado a cada cinco dias. No entanto, se o trabalho de contagem cíclica for processado no dia três, o trabalho seguinte de contagem cíclica será criado cinco dias após a última contagem cíclica tiver sido processada, no dia oito.

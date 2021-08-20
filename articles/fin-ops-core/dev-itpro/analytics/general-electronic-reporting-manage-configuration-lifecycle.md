@@ -2,7 +2,7 @@
 title: Gerenciar o ciclo de vida da configuração de relatório eletrônico (ER)
 description: Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatório Eletrônico (ER) para o Dynamics 365 Finance.
 author: NickSelin
-ms.date: 04/13/2021
+ms.date: 07/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb7844a009bc35f7151827b8e675cb39f71459fd
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b8b61082cf17707c952b6e07613769a671c349bb8fa92c21e3fe8524ef62dcb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345729"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767770"
 ---
 # <a name="manage-the-electronic-reporting-er-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração de Relatório eletrônico (ER)
 
@@ -30,7 +30,7 @@ Este tópico descreve como gerenciar o ciclo de vida de configurações de Relat
 
 ## <a name="overview"></a>Visão Geral
 
-O relatório eletrônico (ER) é um mecanismo que oferece suporte a documentos eletrônicos específicos do país e exigidos pela regulamentação. Geralmente, o ER considera uma capacidade de executar as seguintes tarefas para um único documento eletrônico. Para obter mais detalhes, consulte [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md).
+O relatório eletrônico (ER) é um mecanismo que oferece suporte a documentos eletrônicos específicos do país/região e exigidos pela regulamentação. Geralmente, o ER considera uma capacidade de executar as seguintes tarefas para um único documento eletrônico. Para obter mais detalhes, consulte [Visão geral de ER (Relatórios eletrônicos)](general-electronic-reporting.md).
 
 - Projete um modelo para um documento eletrônico:
 
@@ -82,20 +82,34 @@ As configurações de ER criadas no ambiente de desenvolvimento podem ser [carre
 
 ![Ciclo de vida da configuração de ER.](./media/ger-configuration-lifecycle.png)
 
-## <a name="data-persistence-consideration"></a><a name="data-persistence-consideration" />Consideração de persistência de dados
+## <a name="data-persistence-consideration"></a>Consideração de persistência de dados
 
 Você pode [importar](tasks/er-import-configuration-lifecycle-services.md) individualmente [versões](general-electronic-reporting.md#component-versioning) diferentes de uma [configuração](general-electronic-reporting.md#Configuration) ER para sua instância do Finance. Quando uma nova versão de uma configuração ER é importada, o sistema controla o conteúdo da versão de rascunho dessa configuração:
 
-   - Quando a versão importada for anterior à versão mais atual dessa configuração na instância atual do Finance, o conteúdo da versão de rascunho dessa configuração permanecerá inalterado.
-   - Quando a versão importada for mais atual do que outras versões dessa configuração na instância atual do Finance, o conteúdo da versão importada será copiado para a versão de rascunho dessa configuração para que você continue editando a última versão concluída.
+- Quando a versão importada for anterior à versão mais atual dessa configuração na instância atual do Finance, o conteúdo da versão de rascunho dessa configuração permanecerá inalterado.
+- Quando a versão importada for mais atual do que outras versões dessa configuração na instância atual do Finance, o conteúdo da versão importada será copiado para a versão de rascunho dessa configuração para que você continue editando a última versão concluída.
 
 Se essa configuração pertencer ao [provedor](general-electronic-reporting.md#Provider) de configuração ativado no momento, a versão de rascunho dessa configuração ficará visível na FastTab **Versões** da página **Configurações** (**Administração organizacional** > **Relatório eletrônico** > **Configurações**). Você pode selecionar a versão de rascunho da configuração e [modificar](er-quick-start2-customize-report.md#ConfigureDerivedFormat) o conteúdo usando o designer de ER relevante. Após você editar a versão de rascunho de uma configuração ER, o conteúdo não coincidirá mais ao conteúdo da versão mais atual dessa configuração na instância atual do Finance. Para evitar a perda de alterações, o sistema exibe um erro informando que a importação não pode continuar porque a versão dessa configuração é posterior à versão mais atual dessa configuração na instância atual do Finance. Quando isso ocorre, por exemplo, com a configuração de formato **X**, o erro **A versão de formato 'X' não foi concluída** é exibido.
 
 Para desfazer as alterações apresentadas na versão de rascunho, selecione a versão concluída mais atual ou compartilhada da configuração ER no Finance na FastTab **Versões** e, depois, selecione a opção **Obter esta versão**. O conteúdo da versão selecionada é copiado na versão de rascunho.
 
+## <a name="applicability-consideration"></a>Consideração de aplicabilidade
+
+Ao criar uma versão de uma configuração ER, você pode definir sua [dependência](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md) em outros componentes de software. Essa etapa é considerada um pré-requisito para controlar o download desta versão da configuração de um repositório de ER ou um arquivo XML externo, e para qualquer outro uso da versão. Ao tentar importar uma nova versão de uma configuração ER, o sistema usa os pré-requisitos configurados para controlar se a versão pode ser importada.
+
+Em alguns casos, você pode exigir que o sistema ignore os pré-requisitos configurados ao importar novas versões das configurações ER. Para que o sistema ignore os pré-requisitos durante a importação, siga as etapas a seguir.
+
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
+3. Defina a opção **Ignorar atualizações de produto e verificação de pré-requisitos de versão durante importação** como **Sim**.
+
+    > [!NOTE]
+    > Esse parâmetro é específico do usuário e da empresa.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral de Relatório eletrônico (ER)](general-electronic-reporting.md)
+[Visão geral de Relatório Eletrônico (ER)](general-electronic-reporting.md)
 
+[Definir a dependência de configurações ER em outros componentes](tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

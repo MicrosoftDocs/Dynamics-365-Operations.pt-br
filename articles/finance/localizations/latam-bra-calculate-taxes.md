@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6095d1a64738f7ecefb91450706108613eb54634
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: dfe13674c6aa46da8000869d63abc138a2119fe15bff72b6d6721fb9b49180d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336586"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746301"
 ---
 # <a name="brazil-taxes-overview"></a>Visão geral de impostos do Brasil
 

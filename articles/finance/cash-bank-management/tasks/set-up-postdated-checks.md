@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d73a382f1786a73a5af917b28d00384ecc36aa8
-ms.sourcegitcommit: f6050b444e636ba662c00d0443c94a99f8ea0b0d
+ms.openlocfilehash: fc1798836d9b905d991adb4c87d55ddce41d260bdbfdad6bf0c4b4feb846ee57
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/28/2021
-ms.locfileid: "6309757"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743064"
 ---
 # <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
 
@@ -32,7 +32,7 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
 
 
 ## <a name="set-up-postdated-checks"></a>Configurar cheques pré-datados
-1. Vá para Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
+1. Acesse Gerenciamento de dinheiro e banco > Configuração > Parâmetros do gerenciamento de dinheiro e banco.
 2. Clique na aba Cheques pré-datados.
 3. Marque ou desmarque a caixa de seleção Habilitar cheques pré-datados.
 4. Marque ou desmarque a caixa de seleção Lançar entradas de diário para cheques pré-datados.
@@ -43,7 +43,7 @@ A função deste procedimento é Tesoureiro. Este procedimento usa a empresa de 
 9. No campo Conta de compensação de imposto retido na fonte, especifique os valores desejados.
 10. Clique em Salvar.
 11. Feche a página.
-12. Vá para Contas a pagar > Configurar pagamento > Métodos de pagamento.
+12. Acesse Contas a pagar > Configurar pagamento > Métodos de pagamento.
 13. Clique em Novo.
 14. No campo Método de pagamento, digite um valor.
 15. Selecione a opção de lançamento Compensação de cheque pré-datado para indicar que o valor do cheque está lançado em uma conta de compensação.

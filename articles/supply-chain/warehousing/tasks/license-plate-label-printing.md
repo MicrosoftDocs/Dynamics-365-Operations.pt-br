@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a608e9a2356f9dd49bbec1bcbe5489af5931d44
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fd79abfc1029c4e0ef41d0e9b0f33ff524f50e36b70cf4fa3ed50dcdc4cb7f03
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751656"
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar a impressão da etiqueta da placa de licença
 
@@ -29,13 +29,13 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 
 
 ## <a name="set-up-the-gs1-company-prefix"></a>Configurar o prefixo da empresa GS1
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito**.
 2. No campo **prefixo da empresa GS1**, insira os 7 números da empresa GS1.
 3. Selecione **Salvar**.
 4. Feche a página.
 
 ## <a name="setup-the-sscc-license-plate-number-sequence"></a>Configuração da sequência numérica de matrícula de SSCC
-1. Vá para **Painel de navegação > Módulos > Administração da organização > Sequências numéricas > Sequências numéricas**.
+1. Acesse **Painel de navegação > Módulos > Administração da organização > Sequências numéricas > Sequências numéricas**.
 2. No campo **Área**, selecione uma opção.
 3. No campo **Referência**, selecione uma opção.
 4. No campo **Empresa**, digite um valor.
@@ -48,7 +48,7 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 11. Feche a página.
 
 ## <a name="create-the-document-route-layout"></a>Crie o layout de roteiro do documento
-1. Vá para **painel de Navegação > Módulos > Gerenciamento de depósito > Configuração > Roteamento de documentos > Layouts de roteamento de documentos**. Habilitar o layout SSCC.  
+1. Acesse **painel de Navegação > Módulos > Gerenciamento de depósito > Configuração > Roteamento de documentos > Layouts de roteamento de documentos**. Habilitar o layout SSCC.  
 2. Selecione **Novo**.
 3. No campo **ID de Layout**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -57,7 +57,7 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 7. Feche a página.
 
 ## <a name="set-up-the-document-routing"></a>Configurar o roteamento de documentos
-1. Vá para **painel de Navegação > Módulos > Gerenciamento de depósito > Configuração > Roteamento de documentos > Roteamento de documentos**.
+1. Acesse **painel de Navegação > Módulos > Gerenciamento de depósito > Configuração > Roteamento de documentos > Roteamento de documentos**.
 2. No campo **Tipo de ordem de serviço**, selecione uma opção.
 3. Selecione **Novo**.
 4. No campo **Depósito**, digite um valor.
@@ -69,7 +69,7 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 10. Feche a página.
 
 ## <a name="create-mobile-device-menu"></a>Criar o menu de dispositivo móvel
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Dispositivo móvel > Itens de menu do dispositivo móvel**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Dispositivo móvel > Itens de menu do dispositivo móvel**.
 2. Selecione **Novo**.
 3. No campo **Nome do item de menu**, digite um valor.
 4. No campo **Título**, digite um valor.
@@ -81,7 +81,7 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 10. No campo **ID da classe de trabalho**, digite um valor.
 11. Selecione **Salvar**.
 12. Feche a página.
-13. Vá para **painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Dispositivo móvel > Menu do dispositivo móvel**.
+13. Acesse **painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Dispositivo móvel > Menu do dispositivo móvel**.
 14. Na árvore, selecione o item de menu que você criou antes.
 15. Selecione **Editar**.
 16. Selecione a seta para adicionar o item de menu ao menu.
@@ -89,7 +89,7 @@ Este tópico mostra como habilitar a impressão automática de um rótulo (SSCC)
 18. Feche a página.
 
 ## <a name="update-a-work-template"></a>Atualizar um modelo de trabalho
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**.
 2. Selecione **Editar**.
 3. Selecione **Novo**.
 4. No campo **Tipo de trabalho**, selecione **Imprimir**.

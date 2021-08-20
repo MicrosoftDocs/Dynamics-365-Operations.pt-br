@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: gmohanv
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: e7964181a739a8138011abca77d0321d819e0a98
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2e6bd69435ee8fe58dbbf66eb0c5eee3d2ec09ee1998ef0218cdef643522c5bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354484"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756516"
 ---
 # <a name="create-task-lists-and-add-tasks"></a>Criar listas de tarefas e adicionar tarefas
 
@@ -37,7 +37,7 @@ Os gerentes e trabalhadores podem criar listas de tarefas no back-office do Comm
 
 Para criar uma lista de tarefas, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
+1. Acesse **Retail e Commerce \> Gerenciamento de tarefas \> Administração de gerenciamento de tarefas**.
 1. Selecione **Novo**, e depois insira os valores nos campos **Nome**, **Descrição** e **Proprietário**.
 1. Selecione **Salvar**.
 
@@ -76,7 +76,7 @@ A ilustração a seguir mostra a seleção de links de tarefas na caixa de diál
 
 Para configurar uma operação de PDV para que possa ser vinculada a uma tarefa, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
+1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> PDV \> Operações de PDV**.
 1. Selecione **Editar**, localize a operação de PDV e marque a caixa de seleção **Habilitar gerenciamento de tarefas** para ela.
 
 ## <a name="additional-resources"></a>Recursos adicionais

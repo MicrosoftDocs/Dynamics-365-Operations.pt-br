@@ -15,12 +15,12 @@ ms.search.region: global
 ms.author: mafoge
 ms.search.validFrom: 2021-02-09
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 77b4276cec5e046a19d6d001acf41fc410052fba
-ms.sourcegitcommit: c53de2c09b9296b41653e739178edf29f79e0679
+ms.openlocfilehash: e20367f4261d0112855f36c69c25cd732c78be7bb23d7c6333aea84db437d735
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/17/2021
-ms.locfileid: "6049283"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769410"
 ---
 # <a name="mobile-device-user-settings"></a>Configurações do usuário do dispositivo móvel
 
@@ -54,7 +54,7 @@ Você também pode definir um perfil de configurações que se aplica a todas as
 
 Siga estas etapas para criar e gerenciar configurações de usuário para dispositivos móveis.
 
-1. Vá para **Gerenciamento de depósito \> Dispositivo móvel \> Configurações de usuário do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Dispositivo móvel \> Configurações de usuário do dispositivo móvel**.
 1. Selecione um perfil de configurações de usuário existente no painel de lista para abrir o registro. Como alternativa, selecione **Novo** no Painel de Ações para criar um perfil.
 
     Cada perfil no painel de lista é identificado para indicar a marca, o modelo e/ou a ID de usuário à qual o perfil se aplica. Perfis mais gerais têm um valor *Todos* para algumas ou todas essas características.
@@ -83,7 +83,7 @@ Use a página **Marcas de dispositivo móvel** para exibir, criar e gerenciar as
 
 Siga estas etapas para criar e gerenciar marcas e modelos de dispositivos móveis.
 
-1. Vá para **Gerenciamento de depósito \> Dispositivo móvel \> Marcas de dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Dispositivo móvel \> Marcas de dispositivo móvel**.
 1. No painel de lista, selecione uma marca de dispositivo móvel para abrir seu registro. Como alternativa, selecione **Novo** no Painel de Ações para criar uma marca.
 1. Na seção do cabeçalho do registro da marca do dispositivo novo ou selecionado, defina os seguintes campos:
 

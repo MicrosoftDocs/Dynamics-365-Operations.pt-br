@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c1f97612f308063edeaca2c31eafa3caa5c42a31
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4516d14d623e3302298bbecc92a18fd67f99336d472ab21374386f49462cf711
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838481"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755170"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrar check-in e check-out do motorista para um compromisso
 
@@ -29,7 +29,7 @@ Este procedimento mostra como registrar um check-in e o check-out do driver. Iss
 
 
 ## <a name="select-an-appointment"></a>Selecione um compromisso
-1. Vá para Gerenciamento de transporte > Planejamento > Agendamento de compromisso de doca > Check-in e check-out do motorista.
+1. Acesse Gerenciamento de transporte > Planejamento > Agendamento de compromisso de doca > Check-in e check-out do motorista.
 2. Selecione um compromisso.
 
 ## <a name="register-driver-check-in"></a>Registrar check-in do motorista

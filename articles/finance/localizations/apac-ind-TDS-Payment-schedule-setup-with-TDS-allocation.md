@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 27f6750dd91a211ad12a1bd5d9c4ab9a2e1e4a79
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 55bfdfb97c418ec9fd856a151da46c1bcf94aa2cb4df85185b47f722d8526ef2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358401"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769713"
 ---
 # <a name="set-up-payment-schedules-with-tds-allocation"></a>Configurar agendas de pagamento com alocação de TDS
 
@@ -29,7 +29,7 @@ ms.locfileid: "6358401"
 
 Este tópico explica como configurar planos de pagamento com alocação de Imposto Deduzido na Origem (TDS).
 
-1. Vá para **Contas a pagar \> Configurar pagamento \> Planos de pagamento**.
+1. Acesse **Contas a pagar \> Configurar pagamento \> Planos de pagamento**.
 
     [![Página Planos de pagamento.](./media/apac-ind-TDS-27.png)](./media/apac-ind-TDS-27.png)
 

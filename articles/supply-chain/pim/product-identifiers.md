@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
-ms.openlocfilehash: c3f82834fa7fc5eec6411d92729439dfd49a1fcc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1e706e184f0bdf3a44e69640a85a15d9cd3d0fb2ae097d6605a9a401d6da9051
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746954"
 ---
 # <a name="product-identifiers"></a>Identificadores do produto
 
@@ -89,8 +89,8 @@ Na página **Descrições externas de item**, você pode associar o número de i
 
 Se vários clientes ou fornecedores usarem os mesmos números de item (como uma associação de compra ou um grupo de comércio, por exemplo), você poderá criar grupos de clientes ou fornecedores para simplificar a manutenção de informações sobre produtos externos.
 
-- Para grupos de clientes, vá para **Vendas** &gt; **Configuração** &gt; **Itens** &gt; **Descrição externa de item** para criar e manter os grupos e os números de itens relacionados. Para associar clientes a um grupo, vá para **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes** e, em seguida, na Guia Rápida **Padrões da ordem de venda**, especifique um valor no campo **Item - Grupo de clientes**.
-- Para grupos de fornecedores, vá para **Compras e Fornecimento** &gt; **Configuração** &gt; **Grupo de descrições externas de item** para criar e manter os grupos e os números de itens relacionados. Para associar fornecedores a um grupo, vá para **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores** e, em seguida, na Guia Rápida **Padrões da ordem de compra**, especifique um valor no campo **Item - Grupo de fornecedores**.
+- Para grupos de clientes, Acesse **Vendas** &gt; **Configuração** &gt; **Itens** &gt; **Descrição externa de item** para criar e manter os grupos e os números de itens relacionados. Para associar clientes a um grupo, Acesse **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes** e, em seguida, na Guia Rápida **Padrões da ordem de venda**, especifique um valor no campo **Item - Grupo de clientes**.
+- Para grupos de fornecedores, Acesse **Compras e Fornecimento** &gt; **Configuração** &gt; **Grupo de descrições externas de item** para criar e manter os grupos e os números de itens relacionados. Para associar fornecedores a um grupo, Acesse **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores** e, em seguida, na Guia Rápida **Padrões da ordem de compra**, especifique um valor no campo **Item - Grupo de fornecedores**.
  
 ## <a name="bar-codes"></a>Códigos de Barra
 
@@ -174,7 +174,7 @@ Siga estas etapas para configurar o ambiente.
 
 1. Selecione a hierarquia de categoria para o Dataverse. Na página **Associações de funções de hierarquia de categoria**, se nenhuma hierarquia estiver associada à função **Common Data Service**, você deverá criar uma nova associação. Selecione a função **Common Data Service** e associe a hierarquia de categoria que representa o portfólio de produtos que deverá ser sincronizado com o Dataverse.
 2. Selecione a entidade legal para dados mestres globais do produto. Na página **Parâmetros de gerenciamento de informações do produto**, na guia **Atributos do produto**, selecione a empresa mestre na qual os identificadores do produto e do item são mantidos principalmente.
-3. Defina os tipos de código de identificadores e os códigos que devem ser exportados. Vá para **Gerenciamento de informações sobre produtos** &gt; **Configuração** &gt; **Códigos de identificador de produtos**. Para gerar os tipos de código de identificadores, selecione **Gerar códigos**. Uma entrada de tipo de código é gerada para cada tipo do identificador encontrado na entidade legal selecionada.
+3. Defina os tipos de código de identificadores e os códigos que devem ser exportados. Acesse **Gerenciamento de informações sobre produtos** &gt; **Configuração** &gt; **Códigos de identificador de produtos**. Para gerar os tipos de código de identificadores, selecione **Gerar códigos**. Uma entrada de tipo de código é gerada para cada tipo do identificador encontrado na entidade legal selecionada.
 
     Para códigos de barras, um tipo de código é gerado para cada configuração de código de barras. Para códigos externos, um tipo de código é gerado para cada classe de código externo.
 

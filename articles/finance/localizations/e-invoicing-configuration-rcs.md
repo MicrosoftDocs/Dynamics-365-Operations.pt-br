@@ -2,7 +2,7 @@
 title: Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 description: Este tópico explica como configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS) do Dynamics 365.
 author: gionoder
-ms.date: 05/19/2021
+ms.date: 07/29/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 6c1d309744c4c8dd0d17f5259551d31c257ede61
-ms.sourcegitcommit: 633d51834d7d29b745824924315a3898dc471f1a
+ms.openlocfilehash: 98ba40da7b365e46e1c624ba70c7dc048144e2c7137e8fd8eb5abe348028ce35
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/19/2021
-ms.locfileid: "6075134"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757965"
 ---
 # <a name="configure-electronic-invoicing-in-regulatory-configuration-services-rcs"></a>Configurar o Faturamento eletrônico no Regulatory Configuration Services (RCS)
 
@@ -46,21 +46,13 @@ Os recursos também dão suporte a cenários em que a conformidade com especific
 
 Finalmente, os recursos dão suporte à troca de mensagens com serviços Web externos que são hospedados pela autoridade fiscal ou por alguma parte credenciada, e solicitações para autorização ou um carimbo de aprovação na fatura eletrônica.
 
-### <a name="availability-of-electronic-invoicing-features"></a>Disponibilidade de recursos de faturamento eletrônico
+## <a name="availability-of-electronic-invoicing-features"></a>Disponibilidade de recursos de faturamento eletrônico
 
 A disponibilidade dos recursos de faturamento eletrônico depende do país ou região. Embora alguns recursos estejam geralmente disponíveis, outros estão na versão preliminar.
 
-#### <a name="generally-available-features"></a>Recursos geralmente disponíveis
+### <a name="generally-available-features"></a>Recursos geralmente disponíveis
 
 A tabela a seguir mostra os recursos de faturamento eletrônico que estão geralmente disponíveis.
-
-| País/região | Nome do recurso                         | Documento comercial |
-|----------------|--------------------------------------|-------------------|
-| Egito          | Fatura eletrônica egípcia (EG) | Faturas de vendas e de projetos |
-
-#### <a name="preview-features"></a>Recursos de versão preliminar
-
-A tabela a seguir mostra os recursos de faturamento eletrônico que estão atualmente na versão preliminar.
 
 | País/região | Nome do recurso                         | Documento comercial |
 |----------------|--------------------------------------|-------------------|
@@ -68,29 +60,39 @@ A tabela a seguir mostra os recursos de faturamento eletrônico que estão atual
 | Bélgica        | Fatura eletrônica belga (BE)      | Faturas de vendas e de projetos |
 | Brasil         | NF-e brasileira (BR)                  | Modelo de nota fiscal 55, cartas de correção, cancelamentos e descartes |
 | Brasil         | NFS-e ABRASF Curitiba brasileira (BR) | Notas fiscais de serviço |
+| Brasil         | Importação de NF-e brasileira de email (BR) | Modelo de nota fiscal 55 |
 | Dinamarca        | Fatura eletrônica dinamarquesa (DK)       | Faturas de vendas e de projetos |
+| Egito          | Fatura eletrônica egípcia (EG)     | Faturas de vendas e de projetos |
 | Estônia        | Fatura eletrônica estoniana (EE)     | Faturas de vendas e de projetos |
 | Finlândia        | Fatura eletrônica finlandesa (FI)      | Faturas de vendas e de projetos |
 | França         | Fatura eletrônica francesa (FR)       | Faturas de vendas e de projetos |
 | Alemanha        | Fatura eletrônica alemã (DE)       | Faturas de vendas e de projetos |
 | Itália          | FatturaPA (IT)                       | Faturas de vendas e de projetos |
-| México         | Mexicano CFDI (MX)                    | Faturas de venda, guias de remessa, transferências de estoque, complementos de pagamento e cancelamentos |
 | Países Baixos    | Fatura eletrônica holandesa (NL)        | Faturas de vendas e de projetos |
 | Noruega         | Fatura eletrônica norueguesa (NO)    | Faturas de vendas e de projetos |
 | Espanha          | Fatura eletrônica espanhola (ES)      | Faturas de vendas e de projetos |
 | Europa         | Fatura eletrônica PEPPOL            | Faturas de vendas e de projetos PEPPOL |
+| Europa         | Fatura de fornecedor PEPPOL                | Faturas de fornecedor de importação PEPPOL |
+
+### <a name="preview-features"></a>Recursos de versão preliminar
+
+A tabela a seguir mostra os recursos de faturamento eletrônico que estão atualmente na versão preliminar.
+
+| País/região | Nome do recurso                         | Documento comercial |
+|----------------|--------------------------------------|-------------------|
+| México         | Mexicano CFDI (MX)                    | Faturas de venda, guias de remessa, transferências de estoque, complementos de pagamento e cancelamentos |
 
 ### <a name="configurable-components-of-electronic-invoicing-features"></a>Componentes configuráveis de recursos de faturamento eletrônico
 
 Os recursos de faturamento eletrônico consistem nos seguintes grupos de componentes configuráveis:
 
-- **Formatos** – permitem que você configure o que o Faturamento eletrônico deve gerar quando um documento eletrônico se torna uma fatura eletrônica. Os formatos incluem a configuração de formato para a fatura eletrônica e para os arquivos e mensagens usados para enviar solicitações e receber respostas quando a comunicação com um serviço Web externo é necessária.
-- **Ações** – as ações permitem que você configure como o Faturamento eletrônico gera a transformação de um documento eletrônico que o Finance e o Supply Chain Management enviaram em uma fatura eletrônica.
-- **Regras de aplicabilidade** – permitem configurar o contexto que o Faturamento eletrônico deve considerar para processar um recurso de faturamento eletrônico.
-- **Variáveis** – as variáveis permitem que você configure o suporte para a construção da lógica de configuração. As variáveis podem funcionar como a entrada de valores para executar uma ação específica. Como alternativa, elas podem funcionar como uma troca de valores entre o Finance and o Supply Chain Management e o Faturamento eletrônico.
-- **Mapeamento de modelos de documento eletrônico** – o mapeamento de modelos de documento eletrônico permite configurar o mapeamento do modelo de ER. O mapeamento do modelo define o mapeamento de dados da fatura abstrata que está integrada no Faturamento eletrônico quando os documentos eletrônicos são enviados.
-- **Modelo de contexto de fatura** – o modelo de contexto de fatura permite configurar o modelo de contexto da fatura ER e definir o contexto de um recurso de faturamento eletrônico.
-- **Tipos de respostas** – permitem que você configure o que o Faturamento eletrônico deve atualizar no Finance e no Supply Chain Management como resultado do processamento de faturas eletrônicas.
+- **Formatos**: permitem que você configure o que o Faturamento eletrônico deve gerar quando um documento eletrônico se torna uma fatura eletrônica. Os formatos incluem a configuração de formato para a fatura eletrônica e para os arquivos e mensagens usados para enviar solicitações e receber respostas quando a comunicação com um serviço Web externo é necessária.
+- **Ações**: permitem que você configure como o Faturamento eletrônico gera a transformação de um documento eletrônico que o Finance e o Supply Chain Management enviaram em uma fatura eletrônica.
+- **Regras de aplicabilidade**: permitem configurar o contexto que o Faturamento eletrônico deve considerar para processar um recurso de faturamento eletrônico.
+- **Variáveis**: permitem que você configure o suporte para a construção da lógica de configuração. As variáveis podem funcionar como a entrada de valores para executar uma ação específica. Como alternativa, elas podem funcionar como uma troca de valores entre o Finance and o Supply Chain Management e o Faturamento eletrônico.
+- **Mapeamento de modelos de documento eletrônico**: o mapeamento de modelos de documento eletrônico permite configurar o mapeamento do modelo de ER. O mapeamento do modelo define o mapeamento de dados da fatura abstrata que está integrada no Faturamento eletrônico quando os documentos eletrônicos são enviados.
+- **Modelo de contexto de fatura**: permite configurar o modelo de contexto da fatura ER e definir o contexto de um recurso de faturamento eletrônico.
+- **Tipos de resposta**: permitem que você configure o que o Faturamento eletrônico deve atualizar no Finance e no Supply Chain Management como resultado do processamento de faturas eletrônicas.
 
 ### <a name="formats"></a>Formatos
 
@@ -204,10 +206,10 @@ A tabela a seguir lista as ações disponíveis e indica se elas estão disponí
 | Ação                                        | descrição                                                                  | Disponibilidade         |
 |-----------------------------------------------|------------------------------------------------------------------------------|----------------------|
 | Transformar documento                            | Execute formato do Relatório Eletrônico para transformar o documento.                   | Geralmente disponível  |
-| Assinar documento xml                             | Assine documentos xml com assinatura digital.                                   | Em versão preliminar           |
-| Assine documento json para autoridade fiscal egípcia | Assine documentos json com assinatura digital para autoridade fiscal egípcia.       | Geralmente disponível  |
+| Assinar documento xml                             | Assine documentos xml com assinatura digital.                                   | Geralmente disponível  |
+| Assinar documento JSON para a Autoridade Fiscal Egípcia | Assine documentos json com assinatura digital para autoridade fiscal egípcia.       | Geralmente disponível  |
 | Integrar com o serviço ETA egípcio           | Comunicar com a autoridade fiscal egípcia.                                     | Geralmente disponível  |
-| Chamar serviço brasileiro da SEFAZ                  | Integrar com serviço brasileiro da SEFAZ para o envio de documento fiscal.       | Em visualização           |
+| Chamar serviço brasileiro da SEFAZ                  | Integrar com serviço brasileiro da SEFAZ para o envio de documento fiscal.       | Geralmente disponível  |
 | Chamar serviço PAC mexicano                      | Integrar com serviço PAC mexicano para envio do CFDI.                      | Em versão preliminar           |
 | Processar resposta                              | Analise a resposta recebida da chamada do serviço Web.                     | Geralmente disponível  |
 | Usar o MS Power Automate                         | Integração ao fluxo interno do Microsoft Power Automate.                       | Em versão preliminar           |

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: bd33158514de149ecc7da5823c799dd567aeee13
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 71b90b1bc93c756731960871a0cb7b1e5f416a825399cd135dfbcc7656d6bf65
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357825"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755022"
 ---
 # <a name="set-up-and-manage-images-for-modern-pos-mpos"></a>Configurar e gerenciar imagens para Modern POS (MPOS)
 
@@ -72,7 +72,7 @@ Nos procedimentos a seguir, as imagens são configuradas para a entidade do cat�
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Visualização de uma imagem em nível de entidade
 
-1. Na página do item da entidade na matriz, você pode visualizar a imagem que usa a URL de imagem derivada do modelo da mídia. Neste exemplo, vá para o catálogo apropriado e, depois, no Painel de Ação, clique em **Mídia** &gt; **Imagens**. Use a lista suspensa para selecionar diferentes lojas que possam ter perfis de canal diferentes.
+1. Na página do item da entidade na matriz, você pode visualizar a imagem que usa a URL de imagem derivada do modelo da mídia. Neste exemplo, Acesse o catálogo apropriado e, depois, no Painel de Ação, clique em **Mídia** &gt; **Imagens**. Use a lista suspensa para selecionar diferentes lojas que possam ter perfis de canal diferentes.
 2. Para editar ou remover o modelo de mídia implícito, retorne à caixa de diálogo **Definir modelo de mídia** da página **Imagens do catálogo**.
 3. Você pode usar os botões **Adicionar** e **Remover** para alterar manualmente o caminho que se baseia no modelo implícito e é usado para uma imagem específica. Para obter mais informações, consulte a seção [Substituição do modelo da mídia para itens da entidade](#overwriting-the-media-template-for-entity-items), mais adiante neste artigo.
 4. Ao concluir a visualização de uma imagem e fazer as alterações necessárias, inicie a instância do MPOS para a loja adequada, e verifique se as imagens de catálogo são exibidas.
@@ -199,7 +199,7 @@ As imagens de produto que devem ser usadas no modo Offline podem ser configurada
 
 As imagens de catálogo, categoria, funcionário e cliente que devem ser usadas no modo Offline podem ser configuradas adicionando o link de destino da imagem necessária à galeria, e definindo a imagem como a imagem padrão da entidade selecionada.
 
-1. Vá para o catálogo e, no Painel de Ação, clique em **Mídia** &gt; **Imagens**.
+1. Acesse o catálogo e, no Painel de Ação, clique em **Mídia** &gt; **Imagens**.
 2. Siga as etapas na seção [Substituição da página Visualização em nível de entidade](#overwrite-from-the-entity-level-preview-page) para adicionar a URL externa de imagem.
 3. Marque esta imagem como a imagem padrão do catálogo, marcando a caixa de seleção em relação à imagem listada na grade.
 4. Execute o trabalho de Catálogo. Esta imagem será usada como a imagem Offline deste catálogo no MPOS.

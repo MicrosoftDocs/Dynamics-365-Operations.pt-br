@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: bcef859afac653973d543e22a54f268b762f8cb6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: cb1e0a4305ed04c1d2483f24cb93bc00e1b880d39dfe244ad9f0e7f9fc57a1ca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765005"
 ---
 # <a name="sped-reinf-events"></a>Eventos SPED-Reinf
 
@@ -330,7 +330,7 @@ O evento R-2060 inclui os totais de avaliação de imposto e os detalhes dos cá
 
 ### <a name="repro-step--create-a-tax-assessment-option-1"></a>Etapa Repro - Criar uma avaliação de imposto (opção 1)
 
-1. Vá para **Livros fiscais** \> **Comum** \> **Período de reserva**.
+1. Acesse **Livros fiscais** \> **Comum** \> **Período de reserva**.
 2. Selecione um período de escrituração.
 3. No Painel de Ação, selecione **INSS-CPRN** e, em seguida, selecione **Novo** para criar uma apuração de imposto. Uma avaliação de imposto para o período de reserva selecionado é criada automaticamente.
 

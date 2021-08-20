@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4960e8418de473d20c9a1948ca606ae76ad1ac19
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 5f282d26f4b2f607cf5f16cdf3dee4ad2c6b9c203973135f75db3f652fdd81c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746199"
 ---
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
@@ -36,7 +36,7 @@ Uma previsão de demanda será calculada para um item e suas dimensões somente 
 
 Um item e suas dimensões devem ser parte de apenas uma chave de alocação de item, caso a chave de alocação de item seja usada durante a criação da previsão. 
 
-Para adicionar uma SKU (unidade de manutenção de estoque) a uma chave de alocação de item, vá para **Planejamento mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Chaves de alocação de itens**. Use a página **Atribuir itens** para atribuir um item a uma chave de alocação.
+Para adicionar uma SKU (unidade de manutenção de estoque) a uma chave de alocação de item, Acesse **Planejamento mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Chaves de alocação de itens**. Use a página **Atribuir itens** para atribuir um item a uma chave de alocação.
 
 ## <a name="intercompany-planning-groups"></a>Grupos de planejamento intercompanhia
 A previsão de demanda gera previsões interempresariais. No Dynamics 365 Supply Chain Management, as empresas que são planejadas juntas são colocadas em um grupo de planejamento intercompanhia. Para especificar, por empresa, quais chaves de alocação de item devem ser consideradas para previsão de demanda, associe uma chave de alocação de item ao membro do grupo de planejamento intercompanhia, acessando **Planejamento mestre** &gt; **Configuração** &gt; **Grupos de planejamento intercompanhia**. 
@@ -46,7 +46,7 @@ Por padrão, se nenhuma chave de alocação de item for atribuída aos membros d
 Analise o número de itens previstos. Itens desnecessários podem ocasionar o aumento dos custos quando você usa o Aprendizado de Máquina do Microsoft Azure.
 
 ## <a name="demand-forecasting-parameters"></a>Parâmetros de previsão de demanda
-Para configurar os parâmetros de previsão de demanda, vá para **Planejamento mestre** &gt; **Configuração** &gt; **Parâmetros de previsão de demanda**. Como a previsão de demanda é realizada entre empresas, a configuração é global. Em outras palavras, a configuração se aplica a todas as empresas. 
+Para configurar os parâmetros de previsão de demanda, Acesse **Planejamento mestre** &gt; **Configuração** &gt; **Parâmetros de previsão de demanda**. Como a previsão de demanda é realizada entre empresas, a configuração é global. Em outras palavras, a configuração se aplica a todas as empresas. 
 
 A previsão de demanda gera a previsão de quantidades. Portanto, a unidade de medida em que a quantidade deve ser expressa deve ser especificada no campo **Unidade de previsão de demanda**. A unidade de medida deve ser exclusiva para garantir que a agregação e a distribuição percentual faça sentido. Para obter mais informações sobre agregação e distribuição percentual, consulte [Ajustes manuais na previsão estatística](manual-adjustments-baseline-forecast.md). Para cada unidade de medida usada nas SKUs incluídas na previsão de demanda, verifique se há uma regra de conversão para a unidade de medida e a unidade de medida de previsão geral. Quando a geração de previsão é executada, a lista de itens que não têm uma conversão de unidade de medida é registrada, para que você possa corrigir facilmente a configuração. 
 
@@ -73,7 +73,7 @@ Para gerar a previsão, o Supply Chain Management usa um serviço Web de Aprendi
 Para criar previsões de demanda, você pode implantar seu próprio serviço usando os experimentos de previsão de demanda do Estúdio de Aprendizado de Máquina ou do Supply Chain Management. As instruções para implantar os experimentos de previsão de demanda como um serviço Web estão disponíveis no Supply Chain Management. Na página **Parâmetros de previsão de demanda**, clique na guia **Aprendizado de Máquina do Azure**.
 
 ## <a name="settings-for-the-demand-forecasting-machine-learning-service"></a>Configurações do serviço de Aprendizado de Máquina da previsão de demanda.
-Para exibir os parâmetros que podem ser configurados para o serviço de previsão de demanda, vá para **Planejamento Mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Prevendo parâmetros de algoritmo**. A pagina **Parâmetros do algoritmo de previsão** mostra os valores padrão dos parâmetros. Você pode substituir os parâmetros na página **Parâmetros de previsão de demanda**. Use a guia **Geral** para substituir os parâmetros globalmente ou use a guia **Chaves de alocação de itens** para substituir os parâmetros por chave de alocação de item. Os parâmetros que são substituídos em uma chave de alocação de item afetam apenas a previsão dos itens associados a essa chave de alocação de item.
+Para exibir os parâmetros que podem ser configurados para o serviço de previsão de demanda, Acesse **Planejamento Mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Prevendo parâmetros de algoritmo**. A pagina **Parâmetros do algoritmo de previsão** mostra os valores padrão dos parâmetros. Você pode substituir os parâmetros na página **Parâmetros de previsão de demanda**. Use a guia **Geral** para substituir os parâmetros globalmente ou use a guia **Chaves de alocação de itens** para substituir os parâmetros por chave de alocação de item. Os parâmetros que são substituídos em uma chave de alocação de item afetam apenas a previsão dos itens associados a essa chave de alocação de item.
 
 ### <a name="forecast-algorithm-parameters"></a>Prever parâmetros de algoritmo
 

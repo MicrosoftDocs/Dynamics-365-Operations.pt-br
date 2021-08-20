@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 828b01fbb3b94b1fcb9fe8a565b1191a4f4bf630
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c5360b7a19a993debd5f50f9df300c7a8862f897920278e712022e1b16052e9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829105"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757605"
 ---
 # <a name="create-a-kanban-rule-for-multiple-activities"></a>Criar uma regra kanban para atividades múltiplas
 
@@ -29,7 +29,7 @@ Este procedimento mostra como criar uma regra kanban que inclua atividades múlt
 
 
 ## <a name="create-a-new-kanban-rule"></a>Criar uma nova regra kanban
-1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Clique em Novo.
 3. No campo Estratégia de reabastecimento, selecione 'Programado'.
 4. No campo Primeira atividade do plano, insira ou selecione um valor.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 309df56671bf258e1669ae6d5393de01e2b500f0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d337c9ab01f86fa7f1b2cbd80674ccf6783f637b98cd26c838a6e44e287b2c7e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823230"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744597"
 ---
 # <a name="replenishment-over-location-capacity"></a>Reabastecimento sobre a capacidade do local
 
@@ -47,7 +47,7 @@ Para trabalhar com o [cenário de exemplo](#example-scenario) usando os registro
 
 Habilite a funcionalidade de reabastecimento sobre capacidade no perfil de localização.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localizações**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localizações**.
 1. No painel esquerdo, selecione **PICK-06**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Reabastecimento**, defina os seguintes valores:
@@ -102,7 +102,7 @@ Habilite a funcionalidade de reabastecimento sobre capacidade no perfil de local
 > [!NOTE]
 > Para configurar um código de etapa de onda, conforme descrito aqui, você deve primeiro usar o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para ativar o recurso denominado *Código da etapa da onda em toda a organização*.
 
-1. Vá para **Gerenciamento de Depósito \> Configuração \> Ondas \> Códigos da etapa da onda**.
+1. Acesse **Gerenciamento de Depósito \> Configuração \> Ondas \> Códigos da etapa da onda**.
 1. Selecione **Novo** e defina os seguintes valores:
 
     - **Código da etapa da onda:** *Reabastecimento*
@@ -115,7 +115,7 @@ Habilite a funcionalidade de reabastecimento sobre capacidade no perfil de local
 
 Modelos de reabastecimento são um conjunto de regras que controlam como e quando um local é reabastecido.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na seção **Visão geral**, selecione a linha em que o campo **Modelo de reabastecimento** está definido como *Reabastecimento de demanda*.
 1. Defina os seguintes valores:
@@ -127,7 +127,7 @@ Modelos de reabastecimento são um conjunto de regras que controlam como e quand
 
 ### <a name="wave-template"></a>Modelo da onda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. No painel esquerdo, defina o campo **Tipo de modelo de onda** como *Remessa*.
 1. Selecione o modelo **Remessa 61** na lista.
 1. No Painel de Ações, selecione **Editar**.
@@ -151,7 +151,7 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
 
 #### <a name="create-sales-order-1"></a>Criar ordem de venda 1
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo** para abrir uma caixa de diálogo para criar uma nova ordem de venda.
 1. Na caixa de diálogo , defina os seguintes valores:
 
@@ -221,7 +221,7 @@ Após disponibilizar todos os dados de exemplo descritos anteriormente e configu
 
 #### <a name="view-work-details"></a>Exibir detalhes do trabalho
 
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Na seção **Visão geral**, filtre a coluna **Depósito** para o depósito *61*.
 1. Note que foram criadas sete IDs de trabalho para as três ordens de venda de demanda.
 
@@ -243,7 +243,7 @@ Posteriormente neste cenário, você usará o aplicativo móvel de gerenciamento
 
 Para localizar as IDs de placa de licença que serão necessárias posteriormente, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível**.
+1. Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Lista disponível**.
 1. Selecione o botão **Mostrar filtros** para abrir o painel de filtros.
 1. Insira os critérios de filtragem a seguir para obter as placas de licença do cenário. Use o filtro *começa com*.
 
@@ -265,7 +265,7 @@ Você executará o reabastecimento de localização de depósito para as duas pr
 #### <a name="replenishment"></a>Reabastecimento
 
 1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário no depósito *61*. (Insira *61* como a ID do usuário e *1* como a senha.)
-1. Vá para **Estoque \> Reabastecimento**.
+1. Acesse **Estoque \> Reabastecimento**.
 
     Você será solicitado a concluir o primeiro trabalho de reabastecimento. O número do item, a quantidade e o local de separação são mostrados.
 
@@ -295,7 +295,7 @@ Até que o estoque suficiente seja separado do local para deixá-lo abaixo do li
 Antes da conclusão da tarefa de trabalho de reabastecimento restante, o estoque do local de separação deve ser esgotado até um nível em que o trabalho de reabastecimento restante possa ser desbloqueado. Em outras palavras, a soma da quantidade de estoque disponível no local e a quantidade de reabastecimento não pode exceder o valor **Quantidade de excesso**. Quando essa soma for menor do que a quantidade de excesso, o trabalho de reabastecimento restante será desbloqueado.
 
 1. Entre no aplicativo móvel do Gerenciamento de Depósito como um usuário no depósito *61*. (Insira *61* como a ID do usuário e *1* como a senha.)
-1. Vá para **Saída \> Separação de Venda**.
+1. Acesse **Saída \> Separação de Venda**.
 1. Insira a primeira ID de trabalho para a ordem de venda 1.
 
     Consulte as IDs de trabalho para ordens de venda que você anotou, anteriormente, na página **Detalhes do trabalho**. A ID de trabalho inserida aqui gerará um trabalho de separação para uma quantidade de 10 cada de dois locais separados.
@@ -362,7 +362,7 @@ Retorne à página **Detalhes do trabalho** e observe que a disponibilidade do t
 
 Agora você pode processar este trabalho de reabastecimento por meio do dispositivo móvel.
 
-1. Vá para **Estoque \> Reabastecimento**.
+1. Acesse **Estoque \> Reabastecimento**.
 
     Você será solicitado a concluir o trabalho restante de reabastecimento. O número do item, a quantidade e o local de separação são mostrados.
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8d78ecd0606f3b1d5d7b5f3cd470beecfcdd5077
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 4075e47013bb6a3f42cb07f88df121cef8688463cab25c4a734c5363106ace4c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747336"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749523"
 ---
 # <a name="set-up-electronic-signatures"></a>Configurar assinaturas eletrônicas
 
@@ -28,14 +28,14 @@ Utilize esse procedimento para configurar assinaturas eletrônicas. Uma assinatu
 
 
 ## <a name="enable-the-electronic-signature-configuration-key"></a>Habilitar a chave de configuração da Assinatura eletrônica
-1. Vá para Administração de sistema > Configuração > Configuração de licença.
+1. Acesse Administração de sistema > Configuração > Configuração de licença.
 2. Na árvore, expanda 'Administração'.
     * Verifique se a caixa de seleção Assinatura eletrônica está selecionada.  
     * Se a caixa de seleção Assinatura eletrônica não estiver selecionada, você deve habilitar o modo de manutenção. O modo de manutenção pode ser habilitado nesse ambiente através da execução de um trabalho de manutenção da Lifecycle Services, ou utilizando a ferramenta Deployment.Setup localmente.  
 3. Feche a página.
 
 ## <a name="set-up-electronic-signature-parameters"></a>Configurar parâmetros de assinatura eletrônica
-1. Vá para Administração da organização > Configuração > Assinatura eletrônica > Parâmetros da assinatura eletrônica.
+1. Acesse Administração da organização > Configuração > Assinatura eletrônica > Parâmetros da assinatura eletrônica.
 2. Clique em Editar.
 3. No campo Aviso, digite um valor.
     * Insira o aviso que os signatários receberão quando uma assinatura for exigida. Você pode inserir qualquer texto. Normalmente, esse texto informa sobre o que significa assinar um documento eletronicamente.  
@@ -44,7 +44,7 @@ Utilize esse procedimento para configurar assinaturas eletrônicas. Uma assinatu
 5. Feche a página.
 
 ## <a name="set-up-reason-codes-for-electronic-signatures"></a>Configurar códigos de motivos para assinaturas eletrônicas
-1. Vá para Administração da organização > Configuração > Assinatura eletrônica > Códigos de motivo da assinatura eletrônica.
+1. Acesse Administração da organização > Configuração > Assinatura eletrônica > Códigos de motivo da assinatura eletrônica.
 2. Clique em Novo.
     * Você deve configurar códigos de motivos antes de usar assinaturas eletrônicas. Um código de motivo válido é necessário para assinar um documento.     Um signatário seleciona um código de motivo para indicar a finalidade da assinatura eletrônica. Por exemplo, um código de motivo pode ser usado para indicar aprovação legal.  
 3. No campo Código de motivo, digite um valor.
@@ -54,7 +54,7 @@ Utilize esse procedimento para configurar assinaturas eletrônicas. Uma assinatu
 6. Feche a página.
 
 ## <a name="require-electronic-signatures-for-existing-processes"></a>Solicitar assinaturas eletrônicas para processos existentes
-1. Vá para Administração da organização > Configuração > Assinatura eletrônica > Requisitos da assinatura eletrônica.
+1. Acesse Administração da organização > Configuração > Assinatura eletrônica > Requisitos da assinatura eletrônica.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione um processo que exija assinaturas eletrônicas.  
 3. Marque ou desmarque a caixa de seleção Assinatura necessária.

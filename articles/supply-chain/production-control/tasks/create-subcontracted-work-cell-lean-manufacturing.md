@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0dc1e28202c42502cbec0f0066863d24d4396c88
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: acb0adf3e53830f951ae6d1faefd3f30aa3a445e28dc1a08b76a408bdf9af810
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828889"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744669"
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Criar uma célula de trabalho subcontratada para lean manufacturing
 
@@ -27,7 +27,7 @@ Para modelar trabalho subcontratado para o lean manufacturing, você deve criar 
 
 
 ## <a name="create-a-vendor-resource"></a>Crie um recurso de fornecedor
-1. Vá para Recursos.
+1. Acesse Recursos.
 2. Clique em Novo.
 3. No campo Recurso, digite um valor.
 4. No campo Descrição, digite um valor.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9c186fdd6149f4e208bb89e1c3514e2a2ac0168c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8ecc775019445bbe97dd5a0e9198b9c605b1c65322006d912a95a5bb1fbdf879
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822072"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766925"
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>Configurar parâmetros de espaço de trabalho de controle de custo
 
@@ -26,7 +26,7 @@ ms.locfileid: "5822072"
 
 Use este procedimento para configurar o espaço de trabalho de controle de custo, de forma que os gerentes de vários níveis em uma organização possam se aprofundar nos seus objetos de custo, como centros de custos e grupos de produtos. A empresa de demonstração USP2 foi usada para criar esta gravação.
 
-1. Vá para Contabilização de custos > Configuração > Configuração de espaço de trabalho de controle de custo.
+1. Acesse Contabilização de custos > Configuração > Configuração de espaço de trabalho de controle de custo.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -50,7 +50,7 @@ Use este procedimento para configurar o espaço de trabalho de controle de custo
 21. Selecione Sim no campo Custo total.
 22. Clique em Salvar.
 23. Feche a página.
-24. Vá para Contabilização de custos > Espaços de trabalho > Controle de custo.
+24. Acesse Contabilização de custos > Espaços de trabalho > Controle de custo.
 25. Selecione um demonstrativo para exibir custos fixos, variáveis, totais e não classificados para os períodos fiscais selecionados.
 26. No campo Período do calendário fiscal, insira ou selecione um valor.
 27. No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.

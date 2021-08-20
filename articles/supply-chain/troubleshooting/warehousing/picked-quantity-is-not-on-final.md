@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: lbc
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: f3ebd47ffc85d4ca257b404579d60d679f7929b6
-ms.sourcegitcommit: f9b145ef4a81cec81f420871b4130b05db4f4500
+ms.openlocfilehash: 7b57d3151852c9a2880185b7d9414e4246b7efb6429fcfce04c7cdae4ee00e37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760915"
 ---
 # <a name="you-cant-confirm-a-shipment-because-items-havent-been-picked"></a>Não é possível confirmar uma remessa porque os itens não foram separados
 
@@ -61,7 +61,7 @@ Use o seguinte procedimento para revisar suas linhas de carga e verificar se tod
 
 Use o procedimento a seguir para cancelar os IDs de trabalho que possuem o local de embalagem como o local final de colocação com contêiner automatizado no local.
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Limpar \> Cancelar trabalho**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Limpar \> Cancelar trabalho**.
 1. A caixa de diálogo **cancelar trabalho** é aberta. No campo **ID do trabalho**, especifique a ID do trabalho que deseja cancelar. O ID de trabalho selecionado deve ter um valor **Status de trabalho** de *Aberto*, *Em andamento* *Cancelado*, *Combinado* ou *Fechado*.
 1. Selecione **OK**.
 1. Selecione **Sim** para confirmar que você deseja cancelar o trabalho.
@@ -71,7 +71,7 @@ Para obter mais informações, consulte [Cancelar trabalho de depósito para tra
 
 Use o procedimento a seguir para reconfigurar a diretiva de localização para que ela não use o local de embalagem como local final de envio quando a conteinerização automatizada for configurada para o modelo de ciclo.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No campo **Tipo de ordem de trabalho**, selecione *Ordens de compra*.
 1. Selecione a diretiva de localização que você está usando para a conteinerização automatizada.
 1. Na barra de ferramentas da FastTab **Ações de diretiva de localização**, selecione **Editar consulta**.
@@ -79,7 +79,7 @@ Use o procedimento a seguir para reconfigurar a diretiva de localização para q
 
 Use o procedimento a seguir para relançar a carga e criar IDs de trabalho com o local de envio final correto.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. Na seção **Cargas**, encontre a carga que precisa ser liberada.
 1. Na barra de ferramentas da seção **Cargas**, selecione **Liberar \> Liberar para depósito** para liberar a carga selecionada para o depósito.
 1. Repita este procedimento para as outras cargas conforme necessário.

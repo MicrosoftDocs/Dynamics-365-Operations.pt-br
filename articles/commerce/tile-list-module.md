@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 10bf7139ba89f5089d288e78fab9e3d63249aac9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 513775afe325008ebd6cd18d2d9485a972984090da3803d255a1584b16b1e014
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638895"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767842"
 ---
 # <a name="tile-list-module"></a>Módulo de lista de blocos
 
@@ -65,11 +65,11 @@ O módulo de lista de blocos pode oferecer suporte a vários layouts e estilos c
 
 Para adicionar um módulo de lista de blocos uma nova página e definir as propriedades necessárias, siga estas etapas.
 
-1. Vá para **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
+1. Acesse **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Lista de blocos** e depois **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
+1. Acesse **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
 1. No slot **Principal** da página padrão, selecione o botão de reticências (**...**) e, em seguida, selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Lista de blocos** e depois **OK**.
 1. No painel de propriedades do módulo de lista de blocos, adicione um cabeçalho.

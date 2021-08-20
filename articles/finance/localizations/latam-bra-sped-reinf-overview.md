@@ -14,12 +14,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 6d400cce2335e97eed2fe3f3068329558c230758
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 673f5e3ca3c6e3ffc16be6a91b02945b9d641ce1953dcb7e468fd5074f6f6e19
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336582"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767583"
 ---
 # <a name="sped-reinf-brazil"></a>SPED-Reinf (Brasil) 
 

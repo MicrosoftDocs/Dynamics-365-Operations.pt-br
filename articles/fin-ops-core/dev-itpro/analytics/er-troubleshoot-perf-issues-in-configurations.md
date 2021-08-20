@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: maximbel
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: d77c2aad904ba911ac19009d6a981ea4153aaa48
-ms.sourcegitcommit: 60afcd85b3b5b9e5e8981ebbb57c0161cf05e54b
+ms.openlocfilehash: b5f5308f171b6cd4224debec897dbde133e6d8424673aabfab51e6b83b9014e2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6216856"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744377"
 ---
 # <a name="troubleshooting-performance-issues-in-er-configurations"></a>Solução de problemas de desempenho nas configurações ER
 
@@ -150,7 +150,7 @@ Além disso, um ambiente de desenvolvimento fornece a você mais flexibilidade p
 
 O ER pode mostrar o tempo de execução da configuração na Central de ações. Essa opção funciona somente para um usuário específico e uma empresa específica, e somente para sessões interativas. Para disponibilizar esse recurso, siga estas etapas:
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros do usuário**, defina a opção **Mostrar tempo de geração do arquivo** como **Sim**.
 

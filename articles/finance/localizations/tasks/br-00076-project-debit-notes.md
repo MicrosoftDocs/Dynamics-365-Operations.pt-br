@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7ffc6bccb57253bb17a03c295f8994e037a8efe5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 41b6a2cade87b333c3c442e073576d8fcd320ba2b99a1d7a3678008543c7e4fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839731"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748925"
 ---
 # <a name="project-debit-notes-brazil"></a>Notas de débito do projeto (Brasil)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5839731"
 
 Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto. A empresa de dados demo usada para criar este procedimento é BRMF.
 
-1. Vá para Gerenciamento e contabilidade de projetos > Diários > Despesa.
+1. Acesse Gerenciamento e contabilidade de projetos > Diários > Despesa.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Nome, insira ou selecione um valor.
@@ -43,7 +43,7 @@ Você pode gerar notas de débito para projetos para obter reembolso de despesas
 15. Clique em Lançar.
 16. Feche a página.
 17. Feche a página.
-18. Vá para Gerenciamento e contabilidade de projetos > Notas de débito do projeto > Propostas de nota de débito do projeto.
+18. Acesse Gerenciamento e contabilidade de projetos > Notas de débito do projeto > Propostas de nota de débito do projeto.
 19. Clique em Novo.
 20. Clique em Proposta de nota de débito.
 21. No campo Contrato de Projeto, insira ou selecione um valor.

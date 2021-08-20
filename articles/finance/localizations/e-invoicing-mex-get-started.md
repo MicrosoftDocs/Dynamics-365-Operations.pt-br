@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 26091a068ed15ec9ff14c9194c3e0e0ad0779351
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4266d7bca163b1d6aa1261e086f10a4f0f5d7e360051db169fbcab34363c81c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344773"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742144"
 ---
 # <a name="get-started-with-electronic-invoicing-for-mexico"></a>Introdução ao Faturamento eletrônico para o México
 
@@ -170,7 +170,7 @@ Para configurar o Faturamento eletrônico no Finance, você executará estas tar
 
 ### <a name="turn-on-the-feature-for-processing-cfdi-invoices"></a>Ativar o recurso de processamento de faturas de CFDI
 
-1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
 2. Na guia **Recursos**, marque a caixa de seleção **Habilitar** nas linhas para referências do recurso **MX-00010** e **MX-00016**.
 
 ![Ativar os recursos de processamento de faturas de CFDI.](media/e-Invoicing-services-get-started-MEX-Enable-CFDI-feature.png)
@@ -186,7 +186,7 @@ Para configurar o Faturamento eletrônico no Finance, você executará estas tar
 
 #### <a name="set-up-the-response-types"></a>Configurar os tipos de resposta
 
-1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
 2. Na guia **Documento eletrônico**, selecione **Adicionar**.
 3. Insira o diário de faturas do cliente e, em seguida, no campo **Nome da tabela**, selecione a fatura do projeto.
 4. Para cada tabela, defina um contexto de documento relacionado:
@@ -219,7 +219,7 @@ Depois que você ativar o recurso **Integração do Faturamento eletrônico conf
 > [!NOTE]
 > Antes de usar o novo processo **Enviar documentos eletrônicos**, verifique se a configuração necessária para faturas eletrônicas mexicanas foi concluída. Para obter mais informações, consulte [Layout do CFDI versão 3.3](./latam-mex-cfdi-3-3.md).
 
-1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
+1. Acesse **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, sempre defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.
 3. Na Guia Rápida **Registros a serem incluídos**, selecione **Filtrar** para abrir a caixa de diálogo **Consulta**, na qual você pode criar uma consulta para selecionar documentos para envio.
 
@@ -236,7 +236,7 @@ Você pode exibir os logs de envio para todos os documentos enviados ou apenas p
 
 Depois que ativar o recurso **Integração do Faturamento eletrônico configurável**, uma nova página será disponibilizada, permitindo acompanhar o processo de envio do documento. Você pode usar esta página para exibir os logs de envio para todos os documentos enviados.
 
-1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
 2. No campo **Tipo de documento**, selecione **Diário de faturas de clientes** para filtrar os documentos eletrônicos necessários.
 
     ![Selecionar um tipo de documento para exibir os logs de envio.](media/e-Invoicing-services-get-started-MEX-Select-document-type-for-viewing-submission-log.png)
@@ -257,7 +257,7 @@ Quando a fatura de CFDI enviada é autorizada, o status é atualizado para **Apr
 
 Depois que ativar o recurso **Integração do Faturamento eletrônico configurável**, você também poderá exibir os logs de envio de faturas de CFDI.
 
-1. Vá para **Contas a receber \> Consultas e relatórios \> CFDI (faturas eletrônicas)**.
+1. Acesse **Contas a receber \> Consultas e relatórios \> CFDI (faturas eletrônicas)**.
 2. Selecione uma fatura de CFDI que foi enviada após a ativação do recurso **Integração do Faturamento eletrônico configurável**.
 3. No Painel de Ações, na guia **Histórico**, selecione **Registro de documento eletrônico**.
 
@@ -270,15 +270,15 @@ Depois que ativar o recurso **Integração do Faturamento eletrônico configurá
 
 Depois que você ativar o recurso **Integração do Faturamento eletrônico configurável**, o processo antigo de cancelamento de faturas de CFDI não poderá mais ser usado. Ele é substituído por um novo processo de cancelamento incorporado na página **Registro de envio de documentos eletrônicos**.
 
-1. Vá para **Contas a receber \> Consultas e relatórios \> CFDI (faturas eletrônicas)**.
+1. Acesse **Contas a receber \> Consultas e relatórios \> CFDI (faturas eletrônicas)**.
 2. Se a fatura de CFDI tiver um status **Aprovado**, selecione **Funções \> Cancelar CFDI**.
-3. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
+3. Acesse **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
 4. Selecione a fatura de CFDI e selecione **Funções \> Enviar envios relacionados**.
 5. Insira uma descrição do envio relacionado e selecione **OK**.
 
 #### <a name="view-cancellation-submission-logs"></a>Exibir logs de envio de cancelamento
 
-1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
 2. No campo **Tipo de documento**, selecione **Diário de faturas de clientes** para filtrar apenas por documentos do diário de faturas do cliente.
 3. Selecione a fatura de CFDI e, no Painel de Ações, selecione **Consultas \> Envio relacionado**.
 

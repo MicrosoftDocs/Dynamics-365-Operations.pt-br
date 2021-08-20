@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 6834b460d3a78e47edb2edb7a72651e8454bf0ac
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3d60265df7ff1f447e20866b8b8a447d88db8cc4b3dccedebc0f18ce8f0f70dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343805"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746311"
 ---
 # <a name="tax-is-posted-to-the-wrong-ledger-account-in-the-voucher"></a>O imposto é lançado na conta contábil errada no comprovante
 
@@ -38,7 +38,7 @@ Durante o lançamento, o imposto pode ser lançado na conta contábil errada no 
 
 ## <a name="check-the-ledger-posting-group-of-the-tax-code"></a>Verificar o grupo de lançamentos contábeis do código de imposto
 
-1. Vá para **Imposto** \> **Impostos indiretos** \> **Imposto** \> **Códigos de imposto**.
+1. Acesse **Imposto** \> **Impostos indiretos** \> **Imposto** \> **Códigos de imposto**.
 2. Localize e selecione o código de imposto e, em seguida, revise o valor no campo **Grupo de lançamentos contábeis**. Neste exemplo, é **IVA**.
 
     [![Campo Grupo de lançamentos contábeis na página Códigos de imposto.](./media/tax-posted-to-wrong-ledger-account-Picture3.png)](./media/tax-posted-to-wrong-ledger-account-Picture3.png)

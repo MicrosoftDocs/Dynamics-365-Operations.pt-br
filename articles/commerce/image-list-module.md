@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b7e070bfe562bb1a28b10d4632725b53a090cda4
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 7df62fe426799905f9d6d412c4c510b8ce021b7ddd768a98b8180ca7e9b467a7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638821"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742379"
 ---
 # <a name="image-list-module"></a>Módulo de lista de imagens
 
@@ -52,11 +52,11 @@ A ilustração a seguir mostra um exemplo em que um módulo de lista de imagens 
 
 Para adicionar um módulo de lista de imagens a uma nova página e definir as propriedades necessárias criador de sites do Commerce, siga as etapas a seguir.
 
-1. Vá para **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
+1. Acesse **Modelos** e abra o modelo de marketing para a página inicial do seu site (ou crie um novo modelo de marketing).
 1. No slot **Principal** da página padrão, selecione as reticências (**...**) e, em seguida, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Lista de imagens** e depois **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in do modelo e depois selecione **Publicar** para publicá-lo.
-1. Vá para **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
+1. Acesse **Páginas** e abra a página inicial do site (ou crie uma nova página inicial usando o modelo de marketing).
 1. No slot **Principal** da página padrão, selecione o botão de reticências (**...**) e, em seguida, selecione **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione **Lista de imagens** e depois **OK**.
 1. No painel de propriedades do módulo de lista de imagens, adicione um título (por exemplo, **Nossas marcas**).

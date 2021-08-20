@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-gfedorova
 ms.search.validFrom: 2021-05-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: bfd381160bcfd1e6e5489e16cc22178b8a5142ee
-ms.sourcegitcommit: e6437d994c3be0c5bb4a9263af3aa8351020d83a
+ms.openlocfilehash: 187363db3030ee0741f0c7e7746295b88320162c156120112332bb78593bb673
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "6248766"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744645"
 ---
 # <a name="physical-remaining-quantity-in-the-unit-must-not-be-zero"></a>A quantidade física remanescente na unidade não pode ser zero
 
@@ -76,7 +76,7 @@ Use o seguinte procedimento para revisar suas linhas de carga e fazer ajustes pa
 1. Acesse **Gerenciamento de depósito \> Cargas \> Todas as cargas**.
 1. Selecione a carga para a qual a guia de remessa não pode ser gerada.
 1. Na FastTab **Linhas de carga**, selecione a linha de carga para o item que causa um problema. Anote o valor dos campos **Quantidade** e **Unidade**.
-1. Vá para **Administração de organização \> Unidades \> Unidades**.
+1. Acesse **Administração de organização \> Unidades \> Unidades**.
 1. Selecione a unidade para a qual a guia de remessa não pode ser gerada.
 1. Ajuste o valor do campo **Precisão decimal** conforme necessário.
 

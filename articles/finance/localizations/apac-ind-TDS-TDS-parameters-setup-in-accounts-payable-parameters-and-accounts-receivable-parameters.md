@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ccf1557d3c95829421b26d5f84750e3d4236c9e0
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2205ddc1b651ff851a4285b1ded17106600e6058c719fecf0b447ac8c87d43cb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358209"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755607"
 ---
 # <a name="set-tds-parameters-in-accounts-payable-and-accounts-receivable"></a>Defina os parâmetros de TDS no Contas a pagar e no Contas a receber
 
@@ -29,7 +29,7 @@ ms.locfileid: "6358209"
 
 Este tópico explica como definir parâmetros no Contas a pagar e no Contas a receber para oferecer suporte a deduções de Imposto Deduzido na Origem (TDS).
 
-1. Vá para **Imposto \> Configuração \> Parâmetros \> Parâmetros de contas a receber**.
+1. Acesse **Imposto \> Configuração \> Parâmetros \> Parâmetros de contas a receber**.
 2. Na guia **Atualizações**, selecione **Atualizar linhas da ordem** para abrir a caixa de diálogo **Atualizar linhas da ordem**.
 3. Na seção **Grupo de TDS**, no campo **Atualizando grupo de TDS**, especifique o método a ser usado para atualizar o grupo de TDS no nível de linha. Esta configuração é usada quando o grupo de TDS é atualizado em um cabeçalho da ordem. As opções a seguir estão disponíveis:
 
@@ -40,7 +40,7 @@ Este tópico explica como definir parâmetros no Contas a pagar e no Contas a re
 
     [![Caixa de diálogo Atualizar linhas da ordem.](./media/apac-ind-TDS-26.PNG)](./media/apac-ind-TDS-26.PNG)
 
-5. Vá para **Imposto \> Configuração \> Parâmetros \> Parâmetros de contas a pagar**.
+5. Acesse **Imposto \> Configuração \> Parâmetros \> Parâmetros de contas a pagar**.
 6. Na guia **Geral**, na FastTab **Divisão com base nas informações de entrega**, defina a opção **Recebimento de produtos** como **Sim** para lançar e dividir um recebimento de um produto com endereços de entrega e números de conta de impostos (TANS) diferentes. Se esta opção estiver definida como **Não**, não será possível lançar uma guia de remessa de compra que tenha endereços de entrega e TANS diferentes.
 7. Defina a opção **Fatura** como **Sim** para lançar e dividir uma fatura de compra que tenha vários endereços de entrega e TANs.
 

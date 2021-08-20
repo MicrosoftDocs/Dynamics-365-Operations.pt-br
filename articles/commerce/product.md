@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c8a22a356053789f97fd4f3f9437d57978a67943
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 29f502df7c158611df4eb2ddd5ac0e6bd6b4fe628113b2c544e33ba9c41cbcc7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352123"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763731"
 ---
 # <a name="add-product-recommendations-on-pos"></a>Adicionar recomendações de produtos no PDV
 
@@ -56,8 +56,8 @@ Para configurar as recomendações de produtos, siga estas etapas:
 
 1. Verifique se o serviço foi atualizado para a **compilação 10.0.6.**
 2. Sigas as instruções sobre como [habilitar recomendações de produtos](../commerce/enable-product-recommendations.md) para sua empresa.
-3. Opcional: Para exibir recomendações na tela de transação, vá para **Layout de tela**, escolha seu layout de tela, inicie o **Designer do layout da tela** e depois deixe o controle de **recomendações** onde necessário.
-4. Vá para **Parâmetros de Commerce**, selecione **Aprendizado de máquina** e **Sim** em **Habilitar recomendações de PDV**.
+3. Opcional: Para exibir recomendações na tela de transação, Acesse **Layout de tela**, escolha seu layout de tela, inicie o **Designer do layout da tela** e depois deixe o controle de **recomendações** onde necessário.
+4. Acesse **Parâmetros de Commerce**, selecione **Aprendizado de máquina** e **Sim** em **Habilitar recomendações de PDV**.
 5. Para consultar recomendações no PDV, rode o trabalho de configuração global **1110**. Para refletir as alterações feitas ao designer de layout de tela do PDV, rode o trabalho de configuração de canal **1070**.
 
 ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Solucionar problemas em que as recomendações de produtos já estejam habilitadas

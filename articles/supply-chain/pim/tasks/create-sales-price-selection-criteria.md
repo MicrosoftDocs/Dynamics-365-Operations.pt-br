@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 69d22c3321beaa2667ee20bff00acd746714b993
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 47ea7ea2093c540a88d9fd7249b470009c7595d40e2a727d8fcd3bb4b5d74bac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5920522"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750067"
 ---
 # <a name="create-sales-price-selection-criteria"></a>Criar critérios de seleção de preço de venda
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar um critério de seleção preço de venda pa
 
 ## <a name="add-a-new-criterion-for-an-existing-sales-price-model"></a>Adicionar um novo critério para um modelo existente de preço de venda
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Na lista, selecione a linha do modelo de produto de solução do Palestrante, mas não selecione o link para o nome do modelo.
 1. No Painel de Ação, selecione **Modelo**.
 1. Selecione **Critérios de modelo de preço**.
