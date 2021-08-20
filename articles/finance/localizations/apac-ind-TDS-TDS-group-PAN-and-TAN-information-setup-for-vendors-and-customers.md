@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: f4add6d32c34993338b0e587723df12d0a33ce43
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b736838f1743a39d1f899f2679a31a2c0fe9a2b31e03b29d22af821314f329c9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358257"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745739"
 ---
 # <a name="tds-group-pan-and-tan-information-setup-for-vendors-and-customers"></a>Configuração de informações do grupo TDS, PAN e TAN para fornecedores e clientes
 
@@ -29,7 +29,7 @@ ms.locfileid: "6358257"
 
 Este tópico explica como configurar informações sobre grupos de Imposto Deduzido na Origem (TDS), número de conta permanente (PAN) e número de conta de imposto (TAN) para fornecedores e clientes.
 
-1. Vá para **Contas a pagar \> Fornecedores \> Todos os fornecedores** ou **Contas a receber \> Clientes \> Todos os clientes**.
+1. Acesse **Contas a pagar \> Fornecedores \> Todos os fornecedores** ou **Contas a receber \> Clientes \> Todos os clientes**.
 
     [![Página Todos os fornecedores.](./media/apac-ind-TDS-55.png)](./media/apac-ind-TDS-55.png)
 

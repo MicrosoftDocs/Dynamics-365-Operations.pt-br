@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a79b19ce4ff35ecc1f691edea1bdc5e30010b433
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f2da71b54022fccfee91f61e41239d11f0b4f9255192525719104c06b8f1af3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821360"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742719"
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Criar uma ordem de compra regida por orçamento
 
@@ -27,7 +27,7 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 
 
 ## <a name="review-the-budget-control-configuration"></a>Revise a configuração de controle de orçamento
-1. Vá para Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
+1. Acesse Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
 2. Clique na guia disponível dos fundos de orçamento.
 3. Clique na guia Documentos e diários.
 4. Clique na guia Definir regras de controle de orçamento.
@@ -35,7 +35,7 @@ Use este procedimento para criar uma ordem de compra que seja verificada para o 
 6. Feche a página.
 
 ## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, insira ou selecione um valor.
 4. Expanda a seção Geral.

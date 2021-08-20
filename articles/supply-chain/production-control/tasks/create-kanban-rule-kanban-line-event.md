@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fe92336c3f80909e5b0865b461e45d55bf08c4b4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3b6a589d95fde61cbd6743f9e3e3170a1b8d6f91613cde0df94037872b491018
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829129"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746882"
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a>Criar uma regra kanban usando um evento de linha de kanban
 
@@ -29,7 +29,7 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
 
 
 ## <a name="create-a-kanban-rule"></a>Criar uma regra kanban
-1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Clique em Novo.
 3. No campo Estratégia de reabastecimento, selecione 'Evento'.
     * Isto gera kanbans diretamente na procura. É usado para estabelecer as regras que definem uma encenação por encomenda.  
@@ -45,7 +45,7 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
 10. Clique em Salvar.
 
 ## <a name="create-sales-order-and-trigger-kanban-chain"></a>Crie a corrente kanban da ordem e do disparador de vendas
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
     * Selecione a conta de Cliente US-003, Forest Wholesales.  
@@ -60,7 +60,7 @@ Este procedimento cria uma regra kanban usando a linha kanban de evento que ajus
 9. Clique em Salvar.
 
 ## <a name="view-the-kanban-generated-by-the-kanban-rule"></a>Veja o kanban gerado pela regra kanban
-1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
+1. Acesse Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
 3. Expanda a seção kanbans.
     * Observe que um kanban de 27 foi criado para processar a atividade baseada na regra kanban criada.  

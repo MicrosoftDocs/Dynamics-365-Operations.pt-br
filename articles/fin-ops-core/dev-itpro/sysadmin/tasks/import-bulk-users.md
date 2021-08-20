@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e9f03ae7197790c1aac6ebf3cb94ff7963b1291e
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ce8c98add0c6d5fb07b3ba5338037d9a12b1d8e50a2d2039b0231d3d305c9ebe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5745780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748279"
 ---
 # <a name="import-users-from-azure-active-directory"></a>Importar usuários do Azure Active Directory
 
@@ -28,7 +28,7 @@ ms.locfileid: "5745780"
 Este procedimento pode ser usado por administradores de sistema para importar usuários selecionados do Azure Active Directory (Azure AD).
 
 1. O usuário será importado com a empresa da sessão atual como a empresa padrão. Altere a empresa atual, se aplicável, antes de importar usuários.
-2. Vá para **Administração do sistema > Usuários > Usuários**.
+2. Acesse **Administração do sistema > Usuários > Usuários**.
 3. Clique em **Importar usuários**.
 4. Selecione os usuários que devem ser importados e selecione **Importar usuários**.
 
@@ -41,7 +41,7 @@ Observe que não será possível selecionar usuários ao usar a opção Importa�
 
 ## <a name="run-the-import-as-a-batch-job"></a>Execute a importação como um trabalho em lotes
 1. O usuário será importado com a empresa da sessão atual como a empresa padrão. Altere a empresa atual, se aplicável, antes de importar usuários.
-2. Vá para **Administração do sistema > Usuários > Usuários**.
+2. Acesse **Administração do sistema > Usuários > Usuários**.
 3. Clique em **Importação em lote**.
 4. Expanda a seção **Executar em segundo plano**.
 4. Selecione **Sim** no campo **Processamento em lotes**.

@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6779b63c3bd5ccb41d82fe79ac51e212813a79fe
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0a378cf76d56502fdf1a8062c90d62a554d0db6dda6e4262fc62136dc82d8361
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5801858"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743326"
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>Executar autoatendimento para baixar a estação de hardware
 
@@ -27,7 +27,7 @@ ms.locfileid: "5801858"
 
 Este procedimento orienta como baixar uma estação de hardware predefinida. A empresa de dados de demonstração usada para este procedimento é a USRT. É preciso ter criado um novo perfil de estação de hardware e uma estação de hardware antes de iniciar a tarefa.
 
-1. Vá para Retail e Commerce > Canais > Todas as lojas.
+1. Acesse Retail e Commerce > Canais > Todas as lojas.
 2. Na lista, selecione a loja Houston.
 3. Na lista, clique no link na linha selecionada.
 4. Ative/desative a expansão da seção Estações de hardware.

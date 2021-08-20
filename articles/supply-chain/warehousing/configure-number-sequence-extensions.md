@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 930b4229ad7d96eef93937ef7dff2a23acbf74ee
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d93dd38acb9c25bde5aaacd74f68468864e77228f2463d492a7fb817c9ca2973
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808765"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751736"
 ---
 # <a name="configure-number-sequences-for-warehouse-flows"></a>Configurar sequências numéricas para fluxos de depósito
 
@@ -48,14 +48,14 @@ Para que você possa usar o recurso, ele deve estar ativado no sistema. Os admin
 
 Para configurar extensões de sequência numérica no sistema, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral**, no campo **Prefixo GS1 da empresa**, insira o prefixo GS1 da sua empresa. Esse valor afetará todas as sequências numéricas nas quais o prefixo GS1 está incluído como um segmento.
 1. Se você deseja gerar números de BOL para etiquetas de onda, na guia **Relatórios**, marque a caixa de seleção **Gerar um número de BOL durante a impressão de etiquetas de onda**.
 
     > [!NOTE]
     > Essa caixa de seleção só estará disponível se a funcionalidade para [impressão de etiquetas de onda](configure-wave-label-printing.md) estiver ativada.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**
 1. No Painel de Ação, selecione **Criar configuração padrão**. Uma sequência numérica de BOL em conformidade com o GS1 e três tipos de sequências numéricas de SSCC são criadas. Todas essas sequências numéricas levam em consideração o tamanho do prefixo GS1 da sua empresa.
 
     Para obter mais informações sobre como personalizar essas sequências numéricas padrão e/ou adicionar novas sequências, consulte a próxima seção. Você também pode remover qualquer uma dessas sequências se não precisar delas.
@@ -74,7 +74,7 @@ Na seção anterior, você gerou um conjunto padrão de sequências numéricas. 
 
 Para criar e editar sequências numéricas, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Extensões de sequência numérica**.
 1. No Painel de Ações, selecione **Novo**.
 1. No campo **Extensão de sequência numérica**, insira um nome para a nova sequência. No campo **Descrição**, insira uma descrição.
 1. Na FastTab **Segmentos**, use os botões na barra de ferramentas para montar o formato de numeração, adicionando, excluindo e organizando segmentos. No campo **Segmento** de cada linha, atribua um tipo de segmento para definir a finalidade e o conteúdo desse segmento. A tabela a seguir descreve os tipos de segmentos disponíveis.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 160b2507b7ca14ebab54b4775f29615c4aa5f8e0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cbfc2e1afc7109e70851cbb8b4cb17ce44b2fc4d1946f95f382185b6ae1bb3e4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815083"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752142"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Configurar autoridades de imposto sobre vendas
 
@@ -26,7 +26,7 @@ ms.locfileid: "5815083"
 
 As autoridades de impostos sobre vendas são as entidades que coletaram necessidades de impostos sobre vendas a serem informados e pagos. Você pode pagar impostos sobre vendas diretamente para a autoridade ou por meio de uma conta de fornecedor que você cria para a autoridade do imposto sobre vendas. Se você ficar isso, a empresa poderá usar suas rotinas de pagamento usuais para pagar a autoridade do imposto sobre vendas a tempo. Se você não configurar a autoridade fiscal como um fornecedor, alguém deve preparar um pagamento manual para a autoridade fiscal na data de vencimento apropriada. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para Imposto > Impostos indiretos > Imposto sobre vendas > Autoridades de impostos sobre vendas.
+1. Acesse Imposto > Impostos indiretos > Imposto sobre vendas > Autoridades de impostos sobre vendas.
 2. Clique em Novo.
 3. No campo Autoridade, digite um valor.
 4. No campo Nome, digite um valor.

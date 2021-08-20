@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2021-03-05
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 00212803c46d898a39eafbc5c62016eb829535e2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8ff8fae0bb20b11b15c7520fbb14727ff0372ca0255adc82599c6680a64671af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824932"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748706"
 ---
 # <a name="unified-number-sequence-for-job-ids"></a>Sequência numérica unificada para IDs de trabalho
 
@@ -35,6 +35,6 @@ Para configurar a sequência numérica unificada para IDs do trabalho:
 
 1. Ative o recurso conforme descrito na seção anterior.
 1. Identifique a sequência numérica que você deseja usar para as IDs do trabalho unificadas ou crie uma nova. Para obter mais informações, consulte [Visão geral de sequências numéricas](../../fin-ops-core/fin-ops/organization-administration/number-sequence-overview.md).
-1. Vá para a página **Parâmetros de controle de produção**, **Parâmetros de execução de fabricação** ou **Parâmetros de tempo e presença**. Não importa qual seja a escolha, já que quando você faz essa configuração em qualquer uma dessas páginas, todas as outras páginas são atualizadas automaticamente.
+1. Acesse a página **Parâmetros de controle de produção**, **Parâmetros de execução de fabricação** ou **Parâmetros de tempo e presença**. Não importa qual seja a escolha, já que quando você faz essa configuração em qualquer uma dessas páginas, todas as outras páginas são atualizadas automaticamente.
 1. Abra a guia **Sequências numéricas** na página de parâmetros selecionada.
 1. Atribua o **Código de sequência numérica** identificado anteriormente à linha **IDs do trabalho unificadas** da grade.

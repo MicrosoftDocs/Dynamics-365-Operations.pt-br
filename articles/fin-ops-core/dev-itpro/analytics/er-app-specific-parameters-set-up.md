@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 9276a633d560bc95c868b9c12438b4f625ed169a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749815"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar os parâmetros de um formato de ER por entidade legal
 
@@ -140,7 +140,7 @@ Você pode usar a estrutura de ER para configurar parâmetros específicos do ap
 
     Na instrução gerada, observe que o resumo do código de imposto **InVAT7** foi colocado no nível **Reduzido** e os resumos dos códigos de imposto **VAT19** e **InVA19** foram colocados no nível **Normal**. Esse comportamento é determinado pela configuração no conjunto de regras dependente da entidade legal.
     
-5.  Vá para **Imposto \> Impostos indiretos \> Impostos \> Códigos de imposto**.
+5.  Acesse **Imposto \> Impostos indiretos \> Impostos \> Códigos de imposto**.
 6.  Selecione o código de imposto **InVAT7**.
 7.  No Painel de Ação, na guia **Código de imposto**, no grupo **Consultas**, selecione **Imposto lançado** para exibir informações sobre o valor de impostos e as taxas de impostos aplicadas por código de imposto.
 
@@ -151,7 +151,7 @@ Você pode usar a estrutura de ER para configurar parâmetros específicos do ap
 ## <a name="set-up-parameters-for-the-usmf-company"></a>Configurar parâmetros para a empresa USMF
 
 1.  Selecione a entidade legal **USMF**.
-2.  Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+2.  Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 3.  Na árvore de configurações, expanda o item **Modelo para conhecer chamadas parametrizadas**, expanda o item **Formato para conhecer chamadas parametrizadas** e selecione o formato **Formato para saber como pesquisar dados de LE**.
 4.  No Painel de Ação, na guia **Configurações**, no grupo **Parâmetros específicos do aplicativo**, selecione **Configuração**.
 5.  Selecione a versão **1.1.1** do formato de ER selecionado.

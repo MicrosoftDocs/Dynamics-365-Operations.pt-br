@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: e69c35745959c6f3a90a7c597d37316e9da5358e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1b81ac630e83609b24b3d94863ae79580f59d4302a75f9aacccfcc69eafcb35f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359548"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743497"
 ---
 # <a name="synchronize-warehouses-from-supply-chain-management-to-field-service"></a>Sincronizar depósitos do Supply Chain Management com o Field Service
 
@@ -65,7 +65,7 @@ A coluna **É mantido externamente** ajuda a controlar a sincronização de nív
 Antes de sincronizar depósitos , verifique se você atualizou a Filtragem e consulta avançada no projeto para incluir apenas os depósitos que você deseja trazer do Supply Chain Management para o Field Service. Observe que você precisará do depósito no Field Service para aplicá-lo em ordens de trabalho, ajustes e transferências.  
 
 Para garantir que a **Chave de integração** exista para **msdyn_warehouses**:
-1. Vá para Integração de dados.
+1. Acesse Integração de dados.
 2. Selecione a guia **Conjunto de conexão**.
 3. Selecione o conjunto de conexão usado para a sincronização da ordem de trabalho.
 4. Selecione a guia **Chave de integração**.

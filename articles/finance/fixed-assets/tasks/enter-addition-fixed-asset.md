@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 38b37b5c5717146618d54bf552145c33d46308f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 966fd191ad876aae86ff2511d6981b0437679becbe4984b087c1975dece351b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817141"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742944"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>Digitar um acréscimo a um ativo fixo
 
@@ -28,7 +28,7 @@ Este procedimento mostra como adicionar um acréscimo a um ativo fixo existente.
 
 O procedimento usa a função de contador e os dados de demonstração da entidade legal de USMF.
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Na lista, localize e selecione o ativo fixo que você deseja adicionar.
 3. Na lista, clique no link na linha selecionada.
 4. No Painel de Ação, clique em **Ativo fixo**.

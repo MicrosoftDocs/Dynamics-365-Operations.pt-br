@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 428fdc1540da98642b81d3aff6a586d355715488
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2f8e5709639ac256a733546e54a49b11c4cae24e18577792a0c6cae45c8d517d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836928"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748153"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Manter modelos padrão de dimensão financeira
 
@@ -26,7 +26,7 @@ ms.locfileid: "5836928"
 
 Este tópico mostra como configurar modelos padrão da dimensão financeira. Os modelos podem ser usados para distribuir valores rapidamente em documentos de origem.
 
-1. No painel de navegação, vá para **Módulos > Contabilidade > Plano de contas > Dimensões > Modelos padrão de dimensão financeira**.
+1. No painel de navegação, Acesse **Módulos > Contabilidade > Plano de contas > Dimensões > Modelos padrão de dimensão financeira**.
 2. Selecione **Novo**.
 3. No campo **ID do Modelo**, insira um ID do Modelo.
 4. Insira o percentual para os primeiros valores de dimensão.

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0ff85acfbe16fc28afb2fbcee0baf4b12b1f3e9e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ef6396ec66a0f96ba97b176c46bf70d83a080883cf496312398f14dce3ad9758
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353051"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743422"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>Encargos automáticos avançados de omnicanal
 
@@ -41,7 +41,7 @@ Com o recurso avançado de encargos automáticos, os usuários do PDV podem ter 
 
 ## <a name="enable-advanced-auto-charges"></a>Habilitar cobranças automáticas avançadas
 
-Na página **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**, vá para a guia **Ordens do cliente**. Na guia rápida **Encargos**, defina **Usar Encargos Automáticos Avançados** como **Sim**.
+Na página **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**, Acesse a guia **Ordens do cliente**. Na guia rápida **Encargos**, defina **Usar Encargos Automáticos Avançados** como **Sim**.
 
 ![Parâmetro de Encargos automáticos avançados.](media/advancedchargesparameter.png)
 
@@ -80,7 +80,7 @@ Um varejista deseja adicionar encargos de frete automaticamente quando as transa
 
 Esse cenário requer a configuração de duas tabelas de encargos automáticos.
 
-Vá para **Contas a receber \> Configuração de encargos \> Encargos automáticos**.
+Acesse **Contas a receber \> Configuração de encargos \> Encargos automáticos**.
 
 Configurar dois encargos automáticos em nível de cabeçalho diferentes. Configure um para "Modo terrestre" e outro para "Modo aéreo" de entrega. Para este cenário, configure-s para serem usados para "Todos os clientes".
 
@@ -112,7 +112,7 @@ Um varejista quer adicionar uma cobrança extra ao cliente para taxas de configu
 
 Esse cenário requer a configuração de uma tabela de encargos automáticos em nível de linha.
 
-Vá para **Contas a Receber \> Configuração de encargos \> Encargos automáticos**.
+Acesse **Contas a Receber \> Configuração de encargos \> Encargos automáticos**.
 
 Defina o menu suspenso **Nível** como **Linha** e crie um novo registro de encargos automáticos para todos os clientes e para o produto específico ou grupo de produtos onde as taxas de instalação serão cobradas.
 

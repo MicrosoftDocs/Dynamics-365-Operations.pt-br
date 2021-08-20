@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 859f7b7c828dcdad1aa836044d2cc26847630f1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 24f40f1505f39889cf03b0a062cd254b10384374ab51e8b4aab59a7c0f92271c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746223"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>Calcular uma BOM usando uma estrutura de vários níveis (Fevereiro de 2016)
 
@@ -27,7 +27,7 @@ ms.locfileid: "5821408"
 
 Este procedimento mostra como calcular o custo de um produto finalizado usando detalhamento de vários níveis baseado na folha de custos. Trata-se da sétima tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 
-1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
+1. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione o produto BOM_1.  
 3. No Painel de Ação, clique em Gerenciar custos.

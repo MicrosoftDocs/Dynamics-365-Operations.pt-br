@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: a9e05dd582ed1bd2c242d3eeb77ca61203706e11
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7ef1537ea037f4738e9dea9f5f293e815c09a193f817dd6cb55e3f0719ffaeb4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813210"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744193"
 ---
 # <a name="compare-item-prices-storage-report"></a>Relatório de comparação de armazenamento de preços de item
 
@@ -87,7 +87,7 @@ Cada relatório que você gera é armazenado na entidade de dados **Comparar pre
 
 Veja a seguir um exemplo de como exportar um **Relatório de comparação de armazenamento de preços de item**:
 
-1. Acesse **Vá para Administração de sistema > Locais de trabalho > Gerenciamento de dados**.
+1. Acesse **Acesse Administração de sistema > Locais de trabalho > Gerenciamento de dados**.
 
 1. Selecione o botão **Exportar** na seção **Gerenciamento de dados**.
 

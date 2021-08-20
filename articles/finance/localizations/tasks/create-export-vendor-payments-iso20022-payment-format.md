@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 18c7d0b6c5c6a7f598f4b94f4dcf02df498d74cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c7bd5308e7589cb280244ea85e184422cbe2aa09f1cb548a81445defbd082e42
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822696"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752089"
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>Criar e exportar pagamentos de fornecedores usando o formato de pagamento ISO20022
 
@@ -30,7 +30,7 @@ Este é o quinto dos cinco procedimentos que ilustram o processo de pagamento de
 
 ## <a name="example"></a>Exemplo
 
-1.    Vá para **Contas a pagar > Pagamentos > Diário de pagamentos**.
+1.    Acesse **Contas a pagar > Pagamentos > Diário de pagamentos**.
 2.    Clique em **Novo**.
 3.    No campo **Nome**, insira ou selecione um valor.
 4.    Clique em **Linhas > Proposta de pagamento > Criar proposta de pagamento**.

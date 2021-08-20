@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 15dc99f6b355e71e9890ba78709e5959a32d35f2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3e69836ee13296f593c261c8f00bd9af2ac084d3c0cd369abb84dd17a2d6a448
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808957"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750945"
 ---
 # <a name="set-up-a-transportation-tender"></a>Configurar uma proposta de transporte
 
@@ -29,7 +29,7 @@ Este procedimento mostra como configurar um meio de pagamento do transporte. Nor
 
 
 ## <a name="select-a-route"></a>Selecione uma rota
-1. Vá para Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
+1. Acesse Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga.
 2. Desmarque a caixa de seleção Esconder envio e recebido.
 3. Selecione a linha com ID de carga 00006.
 4. Clique em Classificação e roteiro.
