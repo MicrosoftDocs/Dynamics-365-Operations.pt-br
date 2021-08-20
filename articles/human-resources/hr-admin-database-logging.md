@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jaredha
 ms.search.validFrom: 2020-06-10
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ae974436469c00a3df6fd40d9d60521a0883a917
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 4fd0f69df4a141e509c8c250f767cbbc3a20ef4ab7ac3dcec2bc6faa15eababb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6054803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781648"
 ---
 # <a name="configure-and-manage-database-logging"></a>Configurar e gerenciar o log de banco de dados
 
@@ -64,7 +64,7 @@ Para melhorar o desempenho, limite as entradas de log selecionando campos espec�
 
 Você pode usar o assistente **Registrando alterações do banco de dados** para configurar o log de banco de dados. O assistente fornece uma maneira flexível de configurar o log de tabelas ou campos.
 
-1. Vá para **Administração do sistema > Links > Banco de dados > Configuração do log de banco de dados**. Selecione **Novo** para iniciar o assistente **Registrando alterações do banco de dados**.
+1. Acesse **Administração do sistema > Links > Banco de dados > Configuração do log de banco de dados**. Selecione **Novo** para iniciar o assistente **Registrando alterações do banco de dados**.
 2. Selecione **Avançar**. 
 3. Na página **Tabelas e campos** do assistente, selecione as tabelas e os campos em que deseja habilitar o log de banco de dados e selecione **Avançar**.
 
@@ -92,7 +92,7 @@ Você pode excluir todos os logs de banco de dados ou parte deles, usando as seg
 
 Para configurar a limpeza do log de banco de dados, siga estas etapas: 
 
-1. Vá para **Administração do sistema > Links > Banco de dados > Log de banco de dados**. Selecione **Limpar log**.
+1. Acesse **Administração do sistema > Links > Banco de dados > Log de banco de dados**. Selecione **Limpar log**.
 
 2. Escolha um método de seleção de logs a serem excluídos, inserindo uma das seguintes opções:
 

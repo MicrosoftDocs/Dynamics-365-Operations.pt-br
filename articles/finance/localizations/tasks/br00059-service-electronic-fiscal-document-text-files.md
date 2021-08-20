@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f778daca39c986ad8f92aaae0e283a446e18264b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee14d448670672f7d032dfd45e278e9463a3371482801dde8d72e25f679f244c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823607"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781673"
 ---
 # <a name="service-electronic-fiscal-document-using-text-files-brazil"></a>Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5823607"
 
 Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo, é possível gerar o RPS (Recibo Provisório de Serviço) de uma nota fiscal de determinado serviço que foi lançada. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Contas a receber > Tarefas periódicas > Exportação e importação de RPS > Exportar arquivo de RPS.
+1. Acesse Contas a receber > Tarefas periódicas > Exportação e importação de RPS > Exportar arquivo de RPS.
 2. No campo De data, insira uma data.
 3. No campo Até, insira uma data.
 4. No campo Do cliente, insira ou selecione um valor.
