@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: ee5a195b3d2881ff70fb1f0d4063ed681e874648
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 10b5238f53f89dbd79e6a0fa4ef24ee92f0ae752f220c1f4d19ea629969a3049
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767379"
 ---
 # <a name="rebate-management-groups"></a>Grupos de gerenciamento de reembolsos
 
@@ -131,7 +131,7 @@ Para exibir, adicionar ou remover itens de um grupo selecionado, siga estas etap
 
 Para exibir, adicionar ou remover atribuições de grupo para um item selecionado, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o item com o qual deseja trabalhar.
 1. No Painel de Ações, na guia **Produto**, no grupo **Gerenciamento de reembolso**, selecione **Grupos de gerenciamento de reembolso**. A página **Grupos de gerenciamento de reembolso** aparece e mostra uma lista de grupos aos quais o item selecionado já pertence.
 1. Para adicionar o item a um novo grupo, selecione **Novo** no Painel de Ações para adicionar uma linha à grade. Defina o seguinte campo para a nova linha:

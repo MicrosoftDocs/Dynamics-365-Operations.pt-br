@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 070d8441700cd0051d421ea7e2210bcb668e8c22
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a2af6b4553592099919be19aab62875e43ffdb0838a7e32e90a72283044fa348
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820361"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770255"
 ---
 # <a name="create-a-schedule-for-a-site"></a>Criar uma agenda para um site
 
@@ -28,7 +28,7 @@ Este procedimento mostra como planejar ordens de produção que ainda não foram
 
 
 ## <a name="identify-production-orders-that-are-not-started"></a>Identificar ordem de produção que não foram iniciadas
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Site com um valor de '1'.
     * 1 representa um site em USMF. Se você não estiver usando USMF, selecione um site em sua própria empresa.  
 3. Abra o filtro da coluna Status.

@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 9e02e7883525306e302be19a67512cb534f66105
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 727d8b063bb173cbd1adcd7f4c98406622d083e6af1ed6c821569ad37064bd0d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813984"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771583"
 ---
 # <a name="brazil-nf-e-process-overview"></a>Visão geral do processo de NF-e do Brasil 
 

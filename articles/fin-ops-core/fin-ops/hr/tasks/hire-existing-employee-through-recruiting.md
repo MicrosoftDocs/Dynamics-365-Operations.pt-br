@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 057dfd841524ad331aadb2ceca762a867d47fa86
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: df23be9a657b7001b4974e7802a507c0c54a18dacb46354a68699d759827e941
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5751949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749571"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>Contratar funcionários existentes por meio de recrutamento
 
@@ -25,7 +25,7 @@ ms.locfileid: "5751949"
 
 As vezes, posições abertas podem ser preenchidas por candidatos que já são empregados da sua organização. Este procedimento apresenta as etapas para contratar um funcionário existente através do processo de recrutamento. Nesse procedimento, um projeto de recrutamento já foi estabelecido, e um funcionário existente já enviou uma solicitação de emprego ao projeto de recrutamento. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Vá para Recursos humanos > Recrutamento > Solicitações de emprego > Solicitações de emprego.
+1. Acesse Recursos humanos > Recrutamento > Solicitações de emprego > Solicitações de emprego.
 2. Na lista, encontre a solicitação de emprego do funcionário que você deseja contratar. Exemplo: 00002 John Emory
 3. Clique em Status de solicitação de emprego.
     * O status da solicitação de emprego indica onde uma solicitação está, dentro do processo de recrutamento.  Cada uma dessas etapas são opcionais. Normalmente, uma solicitação de emprego trocaria de status na seguinte ordem: recebida, confirmada, e entrevistada. Depois do processo de entrevista, uma decisão de contratação seria feita.  

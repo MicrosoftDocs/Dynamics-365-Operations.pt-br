@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-12-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5093e42b0b5247c24c271ad50c80889516586d58
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 4760a87bdcf0f109d5f78dae289446efa12bf359e7fe4b4beb0a983f68d95f34
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020878"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758607"
 ---
 # <a name="shipping-information-setup"></a>Configuração de informações de remessa
 
@@ -31,7 +31,7 @@ Este tópico descreve como configurar informações de remessa para o módulo **
 
 As descrições de mercadorias ajudam a identificar uma viagem, um contêiner de remessa ou um fólio de mercadorias e as mercadorias contidas nele. É possível selecionar uma descrição de mercadorias no cabeçalho do contêiner de remessa ou no cabeçalho do fólio.
 
-Para trabalhar com descrições de mercadorias, vá para **Custo de entrega \> Configuração de informações de remessa \> Descrição de mercadorias**. Lá, você pode exibir, abrir, criar e excluir registros de descrições de mercadorias. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com descrições de mercadorias, Acesse **Custo de entrega \> Configuração de informações de remessa \> Descrição de mercadorias**. Lá, você pode exibir, abrir, criar e excluir registros de descrições de mercadorias. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -42,7 +42,7 @@ Para trabalhar com descrições de mercadorias, vá para **Custo de entrega \> C
 
 Uma embarcação é o nome exclusivo de um navio ou embarcação que uma agência ou empresa de transporte usa. Ao criar uma viagem, você sempre deve selecionar ou inserir uma embarcação para ela. Se você costuma usar as mesmas embarcações, é possível agilizar e facilitar a criação de uma nova viagem criando um registro de embarcação para cada uma delas, permitindo, assim, que os usuários selecionem a embarcação em uma lista em vez de inserir o nome ou o número manualmente a cada vez.
 
-Para trabalhar com embarcações, vá para **Custo de entrega \> Configuração de informações de remessa \> Embarcações**. Lá, você pode exibir, abrir, criar e excluir registros de embarcações. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com embarcações, Acesse **Custo de entrega \> Configuração de informações de remessa \> Embarcações**. Lá, você pode exibir, abrir, criar e excluir registros de embarcações. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -54,7 +54,7 @@ Para trabalhar com embarcações, vá para **Custo de entrega \> Configuração 
 
 Cada registro de exportador identifica um fornecedor ou exportador que pode ser definido como o fornecedor de uma viagem. O exportador pode ser associado a uma viagem e usado para relatórios.
 
-Para trabalhar com exportadores, vá para **Custo de entrega \> Configuração de informações de remessa \> Exportadores**. Lá, você pode exibir, abrir, criar e excluir registros de exportadores. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com exportadores, Acesse **Custo de entrega \> Configuração de informações de remessa \> Exportadores**. Lá, você pode exibir, abrir, criar e excluir registros de exportadores. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -65,7 +65,7 @@ Para trabalhar com exportadores, vá para **Custo de entrega \> Configuração d
 
 Você usa códigos de mercadoria para ajudar na identificação alfandegária e no cálculo de taxas de imposto para mercadorias em uma viagem. Você pode selecionar códigos de mercadoria na página **Produtos liberados**.
 
-Para trabalhar com códigos de mercadoria, vá para **Custo de entrega \> Configuração de informações de remessa \> Códigos de mercadoria**. Lá, você pode exibir, abrir, criar e excluir registros de códigos de mercadoria. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com códigos de mercadoria, Acesse **Custo de entrega \> Configuração de informações de remessa \> Códigos de mercadoria**. Lá, você pode exibir, abrir, criar e excluir registros de códigos de mercadoria. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -76,7 +76,7 @@ Para trabalhar com códigos de mercadoria, vá para **Custo de entrega \> Config
 
 As descrições alfandegárias ajudam a identificar mercadorias para fins alfandegários. Você pode selecionar uma descrição alfandegária na página **Produtos liberados** ou nas linhas da ordem de compra.
 
-Para trabalhar com descrições alfandegárias, vá para **Custo de entrega \> Configuração de informações de remessa \> Descrição alfandegária**. Lá, você pode exibir, abrir, criar e excluir registros de descrições alfandegárias. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para trabalhar com descrições alfandegárias, Acesse **Custo de entrega \> Configuração de informações de remessa \> Descrição alfandegária**. Lá, você pode exibir, abrir, criar e excluir registros de descrições alfandegárias. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|

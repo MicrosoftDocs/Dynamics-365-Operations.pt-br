@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 33c28f8e7982c6ec9b892e975525de69fc637892
-ms.sourcegitcommit: d18d9cdb175c9d42eafbed66352c24b2aa94258b
+ms.openlocfilehash: b605f283bc53c1c5b87ad88d4f19aeba9737e00563290413f3cb75b4e20dbbde
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5881363"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774864"
 ---
 # <a name="set-up-azure-resources-for-iot-intelligence"></a>Configurar recursos do Azure para Inteligência de IoT
 
@@ -37,7 +37,7 @@ Para verificar se a ID do aplicativo para o aplicativo interno de microsserviço
 
 1. Entre no portal do Azure em <https://portal.azure.com>.
 2. Acesse **Azure Active Directory**.
-3. Vá para **Aplicativos corporativos**.
+3. Acesse **Aplicativos corporativos**.
 4. No campo **Tipo de aplicativo**, selecione **Aplicativos da Microsoft**.
 5. No campo de pesquisa, insira os **microsserviços do Microsoft Dynamics ERP**.
 6. Verifique se **microsserviços do Microsoft Dynamics ERP** estão na lista. Outros aplicativos têm nomes semelhantes. Portanto, certifique se você encontrou a aplicação correta. A ID do aplicativo é **0cdb527f-a8d1-4bf8-9436-b352c68682b2**.
@@ -69,7 +69,7 @@ O cofre de chaves é criado em segundo plano.
 
 Para criar um recurso de Hub IoT, siga estas etapas.
 
-1. Crie ou vá para um grupo de recursos.
+1. Crie ou Acesse um grupo de recursos.
 2. Selecione **Adicionar**.
 3. Na página **Novo**, no campo de pesquisa, insira o **Hub Iot**. Depois, selecione **Criar**.
 4. No campo **Nome de Hub IoT**, insira um nome.
@@ -85,7 +85,7 @@ O Hub IoT é criado em segundo plano.
 
 Para criar um recurso de cache Redis, siga estas etapas.
 
-1. Crie ou vá para um grupo de recursos.
+1. Crie ou Acesse um grupo de recursos.
 2. Selecione **Adicionar**.
 3. Na página **Novo**, no campo de pesquisa, insira **Cache do Azure para Redis**. Depois, selecione **Criar**.
 4. No campo **Nome do DNS**, insira um nome.
@@ -134,7 +134,7 @@ Para salvar o segredo da cadeia de conexão do Hub IoT, siga estas etapas.
 1. Em seus recursos, selecione o recurso de Hub IoT.
 2. No painel de navegação esquerdo, selecione **Empresas internas**.
 3. Copie o valor no campo **Ponto de extremidade compatível com Hub de eventos**.
-4. Vá para o recurso de cofre de chaves.
+4. Acesse o recurso de cofre de chaves.
 5. No painel de navegação à esquerda, selecione **Segredos**.
 6. Selecione **Gerar/Importar**.
 7. No campo **Nome**, insira um nome.
@@ -148,7 +148,7 @@ Para salvar o segredo da cadeia de conexão do cache Redis, siga estas etapas.
 1. Em seus recursos, selecione o recurso de cache Redis.
 2. Selecione **Chaves de acesso**.
 3. Copie o valor no campo **Sequência de conexão primária**.
-4. Vá para o recurso de cofre de chaves.
+4. Acesse o recurso de cofre de chaves.
 5. No painel de navegação à esquerda, selecione **Segredos**.
 6. Selecione **Gerar/Importar**.
 7. No campo **Nome**, insira um nome.

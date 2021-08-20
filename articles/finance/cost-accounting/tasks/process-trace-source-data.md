@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34612469f763cf1b30be46ff088605ae22883022
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa4daff2d35ecfc9d2be171167683679b1e6db5698f9d04c13edf773253590d2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840988"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775881"
 ---
 # <a name="process-and-trace-source-data"></a>Processar e rastrear dados de origem
 
@@ -25,7 +25,7 @@ ms.locfileid: "5840988"
 
 Todo o processamento de dados é executado por trabalhos. Para cada trabalho e provedor de dados, é criado um diário para documentar que o processo foi executado, e que as entradas foram processadas no trabalho atual. Use este procedimento para configurar uma fonte de dados e para rastrear a origem de uma entrada de custos específica. Esta gravação usa os dados da empresa de demonstração USP2. Antes de concluir esta tarefa, certifique-se de que executou os guias de tarefas "Criar um razão de contabilização de custos" e "Definir unidades de controle de custos".
 
-1. Vá para Contabilização de custos > Configuração do razão > Razões de contabilização de custos.
+1. Acesse Contabilização de custos > Configuração do razão > Razões de contabilização de custos.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione o razão de contabilização de custo criado anteriormente.  
 3. Clique em Versões reais.

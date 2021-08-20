@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0fa48d7cd1af289cf455ebd0e0c14b047b4f1a4
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 04b557c71859d598d502d16c9755cae4b38b91304bb4ddd03034b1c5b67c9b19
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802638"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763635"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>Mover produtos do centro de distribuição para a loja usando a compra centralizada
 
@@ -27,7 +27,7 @@ ms.locfileid: "5802638"
 
 Este procedimento orienta nas etapas para criar e processar uma compra centralizada para distribuir produtos de um localização para uma ou várias lojas. O usuário pode definir várias configurações e fazer com que o sistema sugira como distribuir os produtos ou inserir manualmente onde os produtos serão distribuídos e a quantidade distribuída em cada loja. Este procedimento não inclui a instalação de dados que possam ser usados na compra centralizada, como regras de reabastecimento, hierarquias das organizações e pesos das lojas. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Compra centralizada.
+1. Acesse Compra centralizada.
 2. Clique em Novo.
 3. No campo Descrição, digite um valor.
 4. No campo Local, insira ou selecione um valor.

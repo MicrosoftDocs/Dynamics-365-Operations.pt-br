@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5deb35028ee499633fb6b0bb5155df2fd91e643a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70141cfd6fd973038b2ac2aa51d1d6d5cc445b4c416d32a30dec120b0929b8da
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820097"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762881"
 ---
 # <a name="create-batch-attributes-for-a-product"></a>Criar atributos de lote para um produto
 
@@ -26,7 +26,7 @@ ms.locfileid: "5820097"
 
 Este procedimento mostra como criar um atributo de lote, atribuir faixas padrões de valores, e incluir o atributo em um grupo. A empresa de dados demonstrativos utilizada para criar este procedimento é a empresa USP2.
 
-1. Vá para Gerenciamento de estoque > Configuração > Lote > Atributos de lote.
+1. Acesse Gerenciamento de estoque > Configuração > Lote > Atributos de lote.
 2. Clique em Novo.
 3. No campo Atributo, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -38,7 +38,7 @@ Este procedimento mostra como criar um atributo de lote, atribuir faixas padrõe
 9. No campo Destino, digite um valor.
 10. Clique em Salvar.
 11. Feche a página.
-12. Vá para Gerenciamento de estoque > Configuração > Lote > Grupos de atributos de lote.
+12. Acesse Gerenciamento de estoque > Configuração > Lote > Grupos de atributos de lote.
 13. Clique em Novo.
 14. No campo Grupo de atributos, digite um valor.
 15. No campo Descrição, digite um valor.

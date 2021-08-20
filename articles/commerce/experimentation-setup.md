@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: sushmar
 ms.search.validFrom: 2020-09-30
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 7453f0780d46ec1b3a09fe122938c8729c35aef6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 870bcb9cc63fd4dbf6d7b40d730edfad7783540d5d943896e0129d29572fa875
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349223"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769386"
 ---
 # <a name="set-up-an-experiment"></a>Configurar um experimento
 
@@ -40,7 +40,7 @@ Cada experimento precisa de métricas para medir o impacto das variações e par
 Para configurar suas métricas de êxito, siga estas etapas:
 
 1. No construtor de sites do Commerce, selecione **Páginas** no painel de navegação esquerdo e, em seguida, selecione a página na qual deseja retirar métricas. 
-1. Vá para a seção **IDs de evento para rastrear** no painel de propriedades à direita da página ou do módulo que você deseja rastrear.
+1. Acesse a seção **IDs de evento para rastrear** no painel de propriedades à direita da página ou do módulo que você deseja rastrear.
 1. Selecione **Exibir**. Uma lista de todas as IDs de evento é exibida. Copie o evento que você deseja rastrear e cole a chave de evento no local designado no serviço de terceiros. Se você precisar de mais de um evento, copie as chaves uma de cada vez. 
     - Para saber como exibir todos os atributos e eventos disponíveis, incluindo exibições de página e controle de receita, consulte [Eventos de componente do Commerce para diagnóstico e solução de problemas](dev-itpro/retail-component-events-diagnostics-troubleshooting.md).
 1. Execute outras etapas para controlar as métricas necessárias no serviço de terceiros.

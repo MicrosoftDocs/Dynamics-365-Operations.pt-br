@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 803a95393958998b80c27146ac9d2fb8d6ef1523
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3cc8e2bd5d701c8f36614a3b1ade33060cc5fa2c85d7cd171159a2b8557f0541
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770207"
 ---
 # <a name="create-project-purchase-order"></a>Criar ordem de compra de projeto
 
@@ -27,7 +27,7 @@ ms.locfileid: "5812413"
 
 Este procedimento mostra como criar uma ordem de compra do projeto. Essa tarefa usa o conjunto de dados de USSI.
 
-1. Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.
+1. Acesse Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.
 4. Clique em Tarefa de item.

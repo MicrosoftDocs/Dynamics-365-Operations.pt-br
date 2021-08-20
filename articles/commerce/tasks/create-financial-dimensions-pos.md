@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eecb126ae550d67310ada22bd7d91438f7a20cf2
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 12206661c20c3029ca61c75f728fbd915706477be6f6ebf7abe8366ebda8980b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790949"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759252"
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros
 
@@ -26,7 +26,7 @@ ms.locfileid: "5790949"
 
 Este procedimento mostra a criação de dimensões financeiras para registros de (POS) do ponto de venda e demonstra como configurar valores de dimensão financeira nos registros. Este procedimento não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta. Essas tarefas podem ser encontradas em outros tópicos. Este registro usa a empresa de demonstração USRT.
 
-1. Vá para Contabilidade > Plano de contas > Dimensões > Dimensões financeiras.
+1. Acesse Contabilidade > Plano de contas > Dimensões > Dimensões financeiras.
 2. Clique em Novo.
 3. No campo Usar valores de, selecione uma opção.
 4. No campo Nome da dimensão, digite um valor.
@@ -37,7 +37,7 @@ Este procedimento mostra a criação de dimensões financeiras para registros de
 9. Feche a página.
 10. Clique em Salvar.
 11. Feche a página.
-12. Vá para Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.
+12. Acesse Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.
 13. Na lista, localize e selecione o registro desejado.
 14. Ative a expansão da seção Dimensões financeiras.
 15. Clique em Editar.

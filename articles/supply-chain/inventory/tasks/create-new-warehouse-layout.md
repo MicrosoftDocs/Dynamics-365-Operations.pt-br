@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3a329df85c339c90e4bdc620c8a63837ebc19a7c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7882d0eee1ff599ade2dacc27edaf53dc149b27f53bfe9ba490bf53fd9399a97
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833968"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759566"
 ---
 # <a name="create-a-new-warehouse-layout"></a>Criar um novo layout de depósito
 
@@ -29,7 +29,7 @@ Este tópico descreve como configurar informações sobre as localizações em u
 
 
 ## <a name="set-the-default-location-capacity"></a>Definir a capacidade do local padrão
-1. No Painel de Navegação, vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
+1. No Painel de Navegação, Acesse **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
 2. Selecione a guia **Localizações**.
 3. No campo **Largura padrão**, digite um número.
 4. No campo **Profundidade padrão**, insira um número.
@@ -38,7 +38,7 @@ Este tópico descreve como configurar informações sobre as localizações em u
 7. Feche a página.
 
 ## <a name="define-the-location-name-format"></a>Definir o formato do nome da localização
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Divisão de estoque > Depósitos**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Divisão de estoque > Depósitos**.
 2. Selecione **Novo**.
 3. No campo **Depósito**, digite um valor.
 4. No campo **Nome**, digite um valor.

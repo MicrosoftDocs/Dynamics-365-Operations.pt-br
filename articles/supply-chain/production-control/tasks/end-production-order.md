@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 577b026c950885524b726b09eb4df1ee7cf06837
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bb87a8df77ecced213b4bd61c40fa372b092ab765528e1cd96274cf79537d521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765945"
 ---
 # <a name="end-a-production-order"></a>Finalizar uma ordem de produção
 
@@ -28,7 +28,7 @@ Este procedimento mostra como finalizar uma ordem de produção. A empresa de da
 
 
 ## <a name="end-a-production-order"></a>Finalizar uma ordem de produção
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
     * Selecione uma ordem de produção com o status Relatada como concluída.  
 2. No Painel de Ação, clique em Ordem de produção.
 3. Clique em Finalizar.

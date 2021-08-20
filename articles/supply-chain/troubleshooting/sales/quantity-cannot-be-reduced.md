@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: hja
 ms.search.validFrom: 2021-05-17
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1a2cc9c9fd3d085508fc652bc9ee0a352d869dee
-ms.sourcegitcommit: a02d3d64c899f8554b74342d5a1856d824bf1abe
+ms.openlocfilehash: f3453c83b5e8ead4269a6054167d73a0cd12381ba374b98bc407c01edaa68a1c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "6230827"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752625"
 ---
 # <a name="the-quantity-cant-be-reduced-when-a-sales-order-is-canceled"></a>A quantidade não pode ser reduzida quando uma ordem de venda for cancelada
 
@@ -44,7 +44,7 @@ Para solucionar esse problema, conclua as seguintes tarefas:
 
 Siga estas etapas para cancelar o trabalho aberto.
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Limpar \> Cancelar trabalho**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Limpar \> Cancelar trabalho**.
 1. No campo **ID do trabalho**, especifique a ID do trabalho que deseja cancelar e que, atualmente, tem um valor **Status do trabalho** de *Aberto*, *Em andamento*, *Cancelado*, *Combinado* ou *Fechado*.
 1. Selecione **OK**.
 1. Selecione **Sim** para confirmar que você deseja cancelar o trabalho.
@@ -53,7 +53,7 @@ Siga estas etapas para cancelar o trabalho aberto.
 
 Para excluir uma carga, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Abra a ordem de venda relevante.
 1. Na FastTab **Linhas da ordem de venda**, selecione **Armazém \> Detalhes do trabalho**.
 1. Na página **Trabalho**, no Painel de Ações, na guia **Trabalho**, no grupo **Trabalho**, selecione **Cancelar trabalho**.
@@ -68,7 +68,7 @@ Para excluir uma carga, siga estas etapas.
 
 Após todo o trabalho ter sido cancelado, siga estas etapas para reduzir a quantidade selecionada.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Abra a ordem de venda relevante.
 1. Na FastTab **Linhas da ordem de venda**, selecione **Atualizar linha \> Selecionar** na barra de ferramentas.
 1. Na página **Selecionar**, na seção **Transações**, selecione a linha em que o campo **Status da emissão** está definido como *Selecionado*.

@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 74d99d3eefdcaaa7f6551668990b702396b32ffc
-ms.sourcegitcommit: eceae470f4ae58000ec33fea34db34b7a7a1af43
+ms.openlocfilehash: 2d629b082b423edf417714b8362be3364bc861e78f62d430a4d7083b8c49611a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2021
-ms.locfileid: "6273114"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773408"
 ---
 # <a name="conventions"></a>Convenções
 
@@ -24,7 +24,7 @@ ms.locfileid: "6273114"
 
 Uma convenção é um contêiner para um conjunto de políticas que afetam o comportamento do sistema. Com base nas suas necessidades comerciais, é necessário definir convenções usando uma combinação das diversas políticas que estabelecem como os custos devem ser contabilizados na Contabilidade de estoque global. É possível associar cada convenção a um ou mais razões para garantir a consistência nas políticas contábeis que são aplicadas nos razões.
 
-Para configurar suas convenções, vá para **Contabilidade de estoque global \> Configurar \> Convenções**. Em cada convenção, defina os seguintes campos:
+Para configurar suas convenções, Acesse **Contabilidade de estoque global \> Configurar \> Convenções**. Em cada convenção, defina os seguintes campos:
 
 - **Nome** – Insira o nome da convenção.
 - **Descrição** – Insira uma descrição da linha da convenção.

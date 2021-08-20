@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 020a610e6a7e4d4b35ceb176d542bae32503a615
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: fdd7c2eb452d7d34e05d9e067e61d6587e1fd4b67b22723ecef2832501be1eaf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021747"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774117"
 ---
 # <a name="quality-management-test-groups"></a>Grupos de teste de gerenciamento de qualidade
 
@@ -45,7 +45,7 @@ Uma fábrica define um grupo de testes para cada variação de suas diretrizes d
 
 Para criar um grupo de teste, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Grupos de teste**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Grupos de teste**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha à grade na parte superior da página. Defina os seguintes campos para a nova linha:
 
     - **Grupo de teste** – Insira um nome ou uma ID exclusiva para o grupo de teste.
@@ -68,7 +68,7 @@ Para criar um grupo de teste, siga estas etapas.
 
 Para adicionar um teste qualitativo a um grupo de teste, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Grupos de teste**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Grupos de teste**.
 1. Na guia **Visão geral** na parte superior da página, selecione o grupo de teste ao qual você deseja adicionar um teste.
 1. Na parte inferior da página, na guia **Visão geral**, selecione **Adicionar** na barra de ferramentas para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
@@ -102,7 +102,7 @@ Para adicionar um teste qualitativo a um grupo de teste, siga estas etapas.
 
 Para adicionar um teste quantitativo a um grupo de teste, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Grupos de teste**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Grupos de teste**.
 1. Na guia **Visão geral** na parte superior da página, selecione o grupo de teste ao qual você deseja adicionar um teste.
 1. Na parte inferior da página, na guia **Visão geral**, selecione **Adicionar** na barra de ferramentas para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 

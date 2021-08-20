@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 83ebcf96aa6a5b5c757285be1c5602ac4e8f50fc
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 50f7f42f3d24a608d43cf7469a7624efe09a74db8f1d0fcd2704dedbd8f503be
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5890849"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749499"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar sequências numéricas individualmente
 
@@ -26,7 +26,7 @@ ms.locfileid: "5890849"
 
 Este tópico explica como configurar sequências numéricas individualmente. Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem. Um registro de transação ou de dados mestres que exige um identificador é conhecido como referência. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência. É possível configurar todas as sequências numéricas necessárias ao mesmo tempo, usando o assistente **Configurar sequências numéricas**, ou você pode criar ou modificar sequências de número individuais usando a página **Sequências numéricas**.
 
-1. Vá para **Painel de navegação > Módulos > Administração da organização > Sequências numéricas > Sequências numéricas**.
+1. Acesse **Painel de navegação > Módulos > Administração da organização > Sequências numéricas > Sequências numéricas**.
 2. Selecionar **Sequência numérica**.
 3. No campo **Código de sequência numérica**, digite um valor.
 4. No campo **Nome**, digite um valor.

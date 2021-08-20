@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 780d1e1307b69ec9a31d032039970de454160d6f
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 5b196018f67a8ac991566a703ec091ae13f100a27dbb77b310d59c6e2a55bb40
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753978"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>​Gerar uma previsão estatística​
 
@@ -31,7 +31,7 @@ Este tópico fornece informações sobre os parâmetros e filtros usados no cál
 
 Ao criar uma previsão de baseline, primeiro você deve especificar os parâmetros e os filtros usados no cálculo. Por exemplo, você pode criar uma previsão de baseline que estima a demanda baseada nos dados de transação do ano passado para uma empresa específica, para o mês de entrada e para um grupo de itens selecionado. 
 
-Para gerar uma previsão de demanda, vá para **Planejamento mestre &gt; Previsão &gt; Previsão de demanda &gt; Gerar previsão estatística**. 
+Para gerar uma previsão de demanda, Acesse **Planejamento mestre &gt; Previsão &gt; Previsão de demanda &gt; Gerar previsão estatística**. 
 
 A classificação de previsão pode ser selecionada no momento da geração da previsão. Os valores disponíveis são: Dia, Semana e Mês. 
 

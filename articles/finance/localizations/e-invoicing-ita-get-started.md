@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8bbb78f0b20ec12fe59dfb3c656b3177b2464004
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 64da0fb70653f3a73d7a9f24c4f8ac6d4d0f2d8b42bc4ea5c7ff529d82d5f0c3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356068"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768282"
 ---
 # <a name="get-started-with-electronic-invoicing-for-italy"></a>Introdução ao Faturamento eletrônico para a Itália
 
@@ -169,14 +169,14 @@ Durante a configuração do Finance, você concluirá estas tarefas:
 
 #### <a name="turn-on-the-feature-for-exporting-customer-electronic-invoices-for-italy"></a>Ative o recurso para exportar faturas eletrônicas de clientes para a Itália
 
-1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
 2. Na guia **Recursos**, marque a caixa de seleção **Habilitado** na linha para a referência do recurso **IT00036**.
 
 ![Ativar o recurso FatturaPA.](media/e-Invoicing-services-get-started-ITA-Enable-FatturaPA-feature.png)
 
 #### <a name="configure-electronic-documents"></a>Configurar documentos eletrônicos
 
-1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
 2. Na guia **Documento eletrônico**, selecione **Adicionar** e insira as tabelas necessárias para gerar faturas eletrônicas italianas:
 
     - **Nome da tabela:** diário de fatura do cliente
@@ -205,7 +205,7 @@ Você pode enviar os documentos manualmente, com base na demanda de documentos d
 > [!NOTE]
 > Antes de continuar, verifique se a configuração necessária para as faturas eletrônicas italianas foi concluída. Para obter mais informações, consulte [Faturas eletrônicas do cliente](./emea-ita-e-invoices.md). Lembre-se de que algumas das etapas de configuração descritas nesse tópico podem não estar disponíveis devido à ativação do Faturamento eletrônico.
 
-1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
+1. Acesse **Administração da organização \> Periódico \> Documentos eletrônicos \> Enviar documentos eletrônicos**.
 2. Para o primeiro envio de qualquer documento, defina a opção **Reenviar documentos** como **Não**. Se você precisar reenviar um documento pelo serviço, defina esta opção como **Sim**.
 3. Na Guia Rápida **Registros a serem incluídos**, selecione **Filtrar** para abrir a caixa de diálogo **Consulta**, na qual você pode criar uma consulta para selecionar documentos para envio.
 
@@ -226,7 +226,7 @@ Você pode enviar os documentos manualmente, com base na demanda de documentos d
 
 Você pode exibir os logs de envio para todos os documentos enviados.
 
-1. Vá para **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Periódico \> Documentos eletrônicos \> Log de envio de documentos eletrônicos**.
 2. No campo **Tipo de documento**, selecione **Diário de faturas de clientes** ou **Fatura de projeto** para filtrar os documentos eletrônicos necessários.
 
     ![Selecionar um tipo de documento para exibir os logs de envio.](media/e-Invoicing-services-get-started-ITA-Select-Document-type-for-viewing-submission-log.png)

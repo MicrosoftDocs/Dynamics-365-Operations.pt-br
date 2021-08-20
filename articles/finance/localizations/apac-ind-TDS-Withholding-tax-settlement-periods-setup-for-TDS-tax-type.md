@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 12ba639ccf670997d4f16325172aa351732a5722
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 92c7c8f0df3e6acde7cd9b1299f799ace35ca6a86c801a0a333321c56d8502eb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348900"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778131"
 ---
 # <a name="set-up-withholding-tax-settlement-periods-for-the-tds-tax-type"></a>Configurar períodos de liquidação de imposto retido na fonte para o tipo de imposto TDS
 
@@ -29,7 +29,7 @@ ms.locfileid: "6348900"
 
 Este tópico explica como configurar períodos de liquidação do Imposto Deduzido na Origem (TDS).
 
-1. Vá para **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Períodos de liquidação de imposto retido na fonte**.
+1. Acesse **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Períodos de liquidação de imposto retido na fonte**.
 
     [![Página Períodos de liquidação de imposto retido na fonte.](./media/apac-ind-TDS-13.png)](./media/apac-ind-TDS-13.png)
 
@@ -45,7 +45,7 @@ Este tópico explica como configurar períodos de liquidação do Imposto Deduzi
 11. Para exibir os detalhes da liquidação de TDS durante a execução para um período de liquidação específico, selecione **Pagamentos de imposto retido na fonte** para abrir a página **Pagamento de imposto retido na fonte**.
 
     > [!NOTE]
-    > Para executar o processo de liquidação de TDS periódico, vá para **Contabilidade \> Periódico \> Imposto retido na fonte \> Pagamento de imposto retido na fonte**.
+    > Para executar o processo de liquidação de TDS periódico, Acesse **Contabilidade \> Periódico \> Imposto retido na fonte \> Pagamento de imposto retido na fonte**.
 
     [![Página Pagamento do imposto retido na fonte.](./media/apac-ind-TDS-15.png)](./media/apac-ind-TDS-15.png)
 

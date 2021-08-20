@@ -2,7 +2,7 @@
 title: Tipo de destino de ER do email
 description: Este tópico explica como configurar um destino de email para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
-ms.date: 12/03/2020
+ms.date: 07/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f2d8d441ad742252f3be7dc207544387f5224c37
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347987"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769310"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -42,23 +42,43 @@ Você também pode [agrupar](#grouping) vários componentes de **Pasta** ou **Ar
 
 Vários grupos de componentes podem ser configurados para uma única configuração de formato ER. Dessa forma, você pode configurar um destino de email para cada grupo de componentes e um destino de email para cada componente.
 
-## <a name="configure-an-email-destination"></a>Configurar um destino de email
+## <a name="enable-an-email-destination"></a>Habilitar um destino de email
 
-Para enviar um arquivo de saída ou vários arquivos de saída por email, na página **Destino do relatório eletrônico**, na FastTab **Destino do arquivo**, selecione um componente ou um grupo de componentes na grade e, em seguida, selecione **Configurações**. Na caixa de diálogo **Configurações de destino** que é exibida, na **Guia** email, defina a opção **Habilitado** como **Sim**. Em seguida, você pode especificar os destinatários do email, bem como editar o assunto e o corpo da mensagem de email. Você pode configurar textos constantes para o assunto e corpo de email, ou usar [fórmulas](er-formula-language.md) de ER para criar textos de email dinamicamente.
+Para enviar um ou mais arquivos de saída por email, siga estas etapas.
 
-Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso Gerenciamento de impressão a conclui, ou você pode resolver um endereço de email usando uma referência direta à configuração de ER por meio de uma fórmula.
+1. Na página **Destino do relatório eletrônico**, na FastTab **Destino do arquivo**, selecione um componente ou grupo de componentes na grade.
+2. Selecione **Configurações** e, na caixa de diálogo **Configurações de destino**, na guia **Email**, defina a opção **Habilitado** como **Sim**.
 
 [![Configurar a opção Habilitado como Sim para um destino de email.](./media/ER_Destinations-EnableSingleDestination.png)](./media/ER_Destinations-EnableSingleDestination.png)
 
+## <a name="configure-an-email-destination"></a>Configurar um destino de email
+
+Você pode especificar o remetente e os destinatários do email e pode editar o assunto e o corpo da mensagem de email. Você pode configurar um texto constante para o assunto e o corpo do email ou pode usar [fórmulas](er-formula-language.md) de ER para criar textos de email dinamicamente.
+
+Por padrão, é enviado um email em nome do usuário atual. Para especificar outro remetente de email, você deve configurar o campo **De**.
+
+> [!NOTE]
+> Quando um destino de email é configurado, o campo **De** só fica visível para os usuários que têm o `ERFormatDestinationSenderEmailConfigure` privilégio de segurança **Configurar o endereço de email do remetente para destinos de formato ER**.
+>
+> Quando um destino de email é oferecido para modificação em [tempo de execução](electronic-reporting-destinations.md#security-considerations), o campo **De** só fica visível para os usuários que têm o `ERFormatDestinationSenderEmailMaintain` privilégio de segurança **Manter o endereço de email do remetente para o destino do formato ER**.
+>
+> Quando o campo **De** é configurado para usar um endereço de email diferente do do usuário atual, a permissão **Enviar como** ou **Enviar em nome de** deve ser [definida](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) corretamente com antecedência. Do contrário, a exceção a seguir será gerada em tempo de execução: "Não é possível enviar email como \<from email account\> da conta \<current user account\>, verifique as permissões de 'Enviar como' em \<from email account\>".
+
+Você pode configurar o campo **De** para retornar mais de um endereço de email. Nesse caso, o primeiro endereço na lista é usado como endereço do remetente do email.
+
+Para especificar destinatários de email, você deve configurar os campos **Para** e **Cc** (opcional).
+
+Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que no recurso Gerenciamento de Impressão ou você pode resolver um endereço de email usando uma referência direta à configuração de ER por meio de uma fórmula.
+
 ## <a name="email-address-types"></a>Tipos de endereço de email
 
-Se você selecionar **Editar** ao lado do campo **Para** ou **Cc** na caixa de diálogo **Configurações de destino**, a caixa de diálogo **Email para** será exibida. Selecione **Adicionar** o tipo de endereço de email para uso. No momento, dois tipos são suportados: **Email de gerenciamento de impressão** e **Email de configuração**.
+Se você selecionar **Editar** ao lado do campo **De**, **Para** ou **Cc** na caixa de diálogo **Configurações de destino**, será exibida a caixa de diálogo **Email de**, **Email para** ou **Email Cc** apropriada. Nela, você pode configurar o remetente e os destinatários do email. Selecione **Adicionar** o tipo de endereço de email para uso. No momento, dois tipos são suportados: **Email de gerenciamento de impressão** e **Email de configuração**.
 
 [![Selecionar o tipo de endereço de email.](./media/ER_Destinations-EmailSelectAddressType.png)](./media/ER_Destinations-EmailSelectAddressType.png)
 
 ### <a name="print-management-email"></a>Imprimir email de gerenciamento
 
-Se você selecionar **Email de gerenciamento de impressão** como o tipo de endereço de email, poderá inserir endereços de email fixos na caixa de diálogo **Email** definindo os seguintes campos:
+Se você selecionar **Email de gerenciamento de impressão** como o tipo de endereço de email, poderá inserir endereços de email fixos na caixa de diálogo **Email de**, **Email para** ou **Email Cc** definindo os seguintes campos:
 
 - No campo **Origem de email**, selecione **Nenhum**.
 - No campo **Endereços de email adicionais, separados por ";"**, insira os endereços de email fixos.
@@ -74,6 +94,7 @@ Uma alternativa é obter os endereços de email a partir dos detalhes do contato
 - Candidato
 - Fornecedor potencial
 - Fornecedor não permitido
+- Pessoa jurídica em geral
 
 Por exemplo, para configurar um destino de email para um formato ER usado para processar pagamentos de fornecedor, selecione a função **Fornecedor**.
 
@@ -106,7 +127,7 @@ Para especificar o tipo de endereço de email que deve ser usado no tempo de exe
 
 ### <a name="configuration-email"></a>Email de configuração
 
-Selecione **Configuração de email** como o tipo de endereço de email se a configuração usada tiver um nó nas fontes de dados que retorna um único endereço de email ou vários endereços de email separados por ponto-e-vírgula (;). Você pode usar [fontes de dados](general-electronic-reporting.md#FormatComponentOutbound) e [funções](er-formula-language.md#functions) no designer de fórmulas para obter um endereço de email formatado corretamente ou endereços de email formatados corretamente, separados por ponto-e-vírgulas. Por exemplo, se você usar a configuração **Transferência de crédito ISO 20022**, o nó que representa o endereço de email principal de um fornecedor dos detalhes de contato do fornecedor para o qual a carta de material deve ser enviada é `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
+Selecione **Configuração de email** como o tipo de endereço de email se a configuração usada tiver um nó nas fontes de dados que retorna um único endereço de email ou vários endereços de email separados por ponto-e-vírgula (;). Você pode usar [fontes de dados](general-electronic-reporting.md#FormatComponentOutbound) e [funções](er-formula-language.md#Functions) no designer de fórmulas para obter um endereço de email formatado corretamente ou endereços de email formatados corretamente, separados por ponto-e-vírgulas. Por exemplo, se você usar a configuração **Transferência de crédito ISO 20022**, o nó que representa o endereço de email principal de um fornecedor dos detalhes de contato do fornecedor para o qual a carta de material deve ser enviada é `'$PaymentsForCoveringLetter'.Creditor.ContactDetails.Email`.
 
 [![Configurar uma fonte de endereço de email.](./media/ER_Destinations-EmailDefineAddressSource2.png)](./media/ER_Destinations-EmailDefineAddressSource2.png)
 

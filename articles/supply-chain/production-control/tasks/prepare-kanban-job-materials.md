@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 460d55a8c4b8a8401db7abc43721cf0d114c27c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6131d4c27a9ac4392f20e9350855cc2c026e554bcb192b5b0731268b192f07d6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807815"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781408"
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho
 
@@ -27,7 +27,7 @@ ms.locfileid: "5807815"
 
 Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho. A empresa de dados demo usada para criar esta tarefa é USMF. Essa tarefa é destinado ao operador da máquina.
 
-1. Vá para o quadro kanban para processar trabalhos.
+1. Acesse o quadro kanban para processar trabalhos.
 2. No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, clique no link na linha selecionada.
     * Selecione célula de trabalho 1250 e clique em OK.  

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0bba1df70cd23a29ddffad96a4a581154619dc74
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ee20fdcb1a0b28500f85cfe50eb942ac565a2960e5bceed7d4d4427bc9bd7218
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834136"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765505"
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajustar níveis de estoque no depósito (armazenamento básico)
 
@@ -29,7 +29,7 @@ Esse procedimento o orientará no processo de criação e lançamento de um diá
 
 
 ## <a name="create-an-inventory-adjustment-journal"></a>Criar um diário de ajuste de estoque
-1. Vá para Gerenciamento de estoque > Entradas de diário > Itens > Ajuste de estoque.
+1. Acesse Gerenciamento de estoque > Entradas de diário > Itens > Ajuste de estoque.
 2. Clique em Novo.
 3. No campo Nome, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no nome do diário de ajuste de estoque que deseja usar.
