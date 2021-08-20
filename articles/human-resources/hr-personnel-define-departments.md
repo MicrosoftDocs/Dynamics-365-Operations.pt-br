@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3c3149749568f07d68022066d7cc9964db5f2ffc
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 68e925e0aad2bc5e60bfef0479a6eb7247a1a186ebe25c1eaf6afc4715d163f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6726960"
 ---
 # <a name="define-new-departments"></a>Definir novos departamentos
 
@@ -28,7 +28,7 @@ ms.locfileid: "6058863"
 
 Os departamentos são unidades operacionais que representam uma área funcional de uma empresa, como vendas ou contabilidade. Muitas empresas têm as hierarquias da organização que exibem vários departamentos dentro de uma empresa. Este procedimento mostra o processo de criar departamentos e adicionar esses departamentos a uma hierarquia departamental de organizações. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Vá para Recursos humanos > Departamentos > Departamentos.
+1. Acesse Recursos humanos > Departamentos > Departamentos.
 2. Clique em Novo para abrir a caixa de diálogo suspensa.
 3. No campo Nome, digite um valor.
     * Exemplo: Cobrança do projeto  
@@ -38,7 +38,7 @@ Os departamentos são unidades operacionais que representam uma área funcional 
     * Exemplo: Jodi Christiansen  
 6. Clique em Salvar.
 7. Feche a página.
-8. Vá para Recursos humanos > Departamentos > Hierarquia de departamentos.
+8. Acesse Recursos humanos > Departamentos > Hierarquia de departamentos.
 9. Clique em Editar.
 10. Clique em Inserir.
 11. Clique em Departamento.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.6
-ms.openlocfilehash: 29dd403ce2378beb6f4ba71a0b3c0836eed7566a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 5c4234cbe591079daf45aef6309cc84da16246ba6461a513b93589b2e1e6bf28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6728426"
 ---
 # <a name="consolidate-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar remessas usando a bancada de consolidação de remessa
 
@@ -47,7 +47,7 @@ Como foi mencionado em [Configurar políticas de consolidação de remessa](conf
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-order-set-1"></a>Crie o conjunto de ordens 1
 
@@ -203,14 +203,14 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 Siga estas etapas para liberar cada ordem de venda criada para esse cenário para o depósito.
 
-1. Vá para **Contas a receber \> Ordens \> Todas as ordens de venda**.
+1. Acesse **Contas a receber \> Ordens \> Todas as ordens de venda**.
 1. Encontre e selecione a ordem de venda a ser liberada.
 1. No Painel de Ações, na guia **Depósito**, selecione **Ações \> Liberar para depósito** para liberar a ordem de venda selecionada.
 1. Repita este procedimento para todas as outras ordens de venda criadas para esse cenário.
 
 ## <a name="consolidate-the-shipments-by-using-the-shipment-consolidation-workbench"></a>Consolidar as remessas usando a bancada de consolidação de remessa
 
-1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Bancada de consolidação de remessa**.
+1. Acesse **Gerenciamento de depósito \> Liberar para depósito \> Bancada de consolidação de remessa**.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consulta, na guia **Intervalo**, selecione **Adicionar** para adicionar uma linha com as seguintes configurações à grade:
 

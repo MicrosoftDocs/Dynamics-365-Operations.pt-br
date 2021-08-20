@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 65944c3b73d5cecc8c86087729bcf8d2354c8f20
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6340144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732972"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introdução ao Faturamento eletrônico
 
@@ -212,7 +212,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 
 ## <a name="issue-electronic-invoices"></a>Emitir faturas eletrônicas
 
-1. Vá para **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Enviar documentos eletrônicos**.
+1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Enviar documentos eletrônicos**.
 2. Na FastTab **Registros a serem incluídos**, selecione **Filtro**.
 3. Selecione **Adicionar** para adicionar um nome de tabela ao filtro de consulta.
 4. Selecione a tabela que contém as faturas.
@@ -227,7 +227,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 
 ## <a name="view-submission-logs"></a>Exibir logs de envio
 
-1. Vá para **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Log de envio de documentos eletrônicos**.
+1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Log de envio de documentos eletrônicos**.
 2. No campo **Tipo de documento**, selecione a tabela que contém as faturas.
 
     > [!NOTE]

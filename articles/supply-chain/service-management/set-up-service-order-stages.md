@@ -15,19 +15,19 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4b6e245b351b66724eedf8e0d1a0ebf0202df857
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4e32687165fe7b81571f0103a7afa2bbae7cacb57b369d280e4cd544a561dd70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824405"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731166"
 ---
 # <a name="set-up-service-order-stages"></a>Configurar estágios da ordem de serviço 
 
 [!include [banner](../includes/banner.md)]
 
 
-1.  Vá para **Gerenciamento de serviços** \> **Configuração** \> **Ordens de serviço** \> **Fases de serviço**.
+1.  Acesse **Gerenciamento de serviços** \> **Configuração** \> **Ordens de serviço** \> **Fases de serviço**.
 
 2.  Selecione **Novo** para criar um novo registro.
 

@@ -12,12 +12,12 @@ ms.search.region: global
 ms.author: boycez
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.12
-ms.openlocfilehash: ca6cea9e0e7f1fd3eba3082c5a33e8b2d6dec878
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 842389811169f785235de7ac7d9a49ab903f99ddf7d43f139aba0873a2577d72
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727524"
 ---
 # <a name="configure-inventory-buffers-and-inventory-levels"></a>Configurar buffers de estoque e níveis de estoque
 
@@ -33,7 +33,7 @@ Em vez de mostrar valores de estoque reais em lojas de comércio eletrônico, mu
 
 O recurso para buffers de estoque e níveis de estoque é controlado pelo gerenciamento de recursos na sede do Commerce. Para ativar o recurso, siga estas etapas.
 
-1. Vá para **Administrador do sistema** \> **Espaços de trabalho** \> **Gerenciamento de recursos**.
+1. Acesse **Administrador do sistema** \> **Espaços de trabalho** \> **Gerenciamento de recursos**.
 1. Procure o recurso **Habilitar buffers de estoque e níveis de estoque**, selecione sua linha e, em seguida, selecione **Habilitar agora**.
 
 Depois que o recurso tiver sido ativado, você poderá encontrar os níveis de estoque em **Varejo e Comércio \> Gerenciamento de estoque**.
@@ -50,7 +50,7 @@ Um *perfil de nível de estoque* determina se um determinado status de quantidad
 
 Para criar um perfil de nível de estoque, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Gerenciamento de estoque** \> **Níveis de estoque**.
+1. Acesse **Retail e Commerce** \> **Gerenciamento de estoque** \> **Níveis de estoque**.
 1. No Painel de Ações, selecione **Novo** e insira os valores nos campos **ID do Perfil** e **Descrição**.
 1. Na Guia Rápida **Intervalos**, selecione **Adicionar** para adicionar um novo nível e insira os valores nas colunas **Quantidade inicial**, **Quantidade final**, **Código** e **Etiqueta** desse nível. Repita essa etapa para adicionar mais níveis. Conforme necessário, você pode editar os valores na grade de dados ou pode selecionar **Excluir** para remover um nível.
 1. No Painel de ações, selecione **Salvar**.
@@ -71,7 +71,7 @@ Você pode configurar um perfil de nível de estoque no nível de categoria de p
 
 Para configurar um perfil de nível de estoque para uma categoria, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Produtos e categorias** \> **Hierarquia de produtos do Commerce**.
+1. Acesse **Retail e Commerce** \> **Produtos e categorias** \> **Hierarquia de produtos do Commerce**.
 1. Selecione a categoria para a qual configurar um perfil de nível de estoque.
 1. Na Guia Rápida **Propriedades de produtos de venda**, selecione uma entidade legal.
 1. Na seção **Estoque do Commerce**, no campo **Perfil de nível de estoque**, selecione um dos perfis de nível de estoque predefinidos.
@@ -80,7 +80,7 @@ Você pode usar o botão **Atualizar produtos** no Painel de Ações para propag
 
 Para configurar um perfil de nível de estoque para um produto liberado, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Produtos e categorias** \> **Produtos liberados por categoria**.
+1. Acesse **Retail e Commerce** \> **Produtos e categorias** \> **Produtos liberados por categoria**.
 1. Selecione um produto e abra sua página de detalhes.
 1. Na Guia Rápida **Vender**, na seção **Estoque do Commerce**, no campo **Perfil de nível de estoque**, selecione um dos perfis de nível de estoque predefinidos.
 
@@ -91,7 +91,7 @@ Quando um novo produto é criado, o campo **Perfil de nível de estoque**, como 
 
 Para sincronizar as configurações de perfis de nível de estoque com os canais, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **TI de Varejo e Comércio** \> **Agenda de distribuição**.
+1. Acesse **Retail e Commerce** \> **TI de Varejo e Comércio** \> **Agenda de distribuição**.
 1. Execute a agenda de distribuição **1040** (**Produto**).
 
 ## <a name="configure-an-inventory-buffer"></a>Configurar um buffer de estoque
@@ -100,7 +100,7 @@ O *buffer de estoque* é um valor definido pelo usuário que subtrai a quantidad
 
 Para configurar o buffer de estoque para uma categoria, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Produtos e categorias** \> **Hierarquia de produtos do Commerce**.
+1. Acesse **Retail e Commerce** \> **Produtos e categorias** \> **Hierarquia de produtos do Commerce**.
 1. Selecione a categoria para a qual o buffer de estoque será configurado.
 1. Na Guia Rápida **Propriedades de produtos de venda**, selecione uma entidade legal.
 1. Na seção **Estoque do Commerce**, no campo **Buffer de estoque**, insira um valor positivo.
@@ -109,7 +109,7 @@ Você pode usar o botão **Atualizar produtos** no Painel de Ações para propag
 
 Para configurar o buffer de estoque para um produto liberado, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Produtos e categorias** \> **Produtos liberados por categoria**.
+1. Acesse **Retail e Commerce** \> **Produtos e categorias** \> **Produtos liberados por categoria**.
 1. Selecione um produto e abra sua página de detalhes.
 1. Na Guia Rápida **Venda**, na seção **Estoque do Commerce**, no campo **Buffer de estoque**, insira um valor positivo.
 
@@ -120,7 +120,7 @@ Quando um novo produto é criado, o campo **Buffer de estoque**, como muitos out
 
 Para sincronizar as configurações de buffers de estoque com os canais, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **TI de Varejo e Comércio** \> **Agenda de distribuição**.
+1. Acesse **Retail e Commerce** \> **TI de Varejo e Comércio** \> **Agenda de distribuição**.
 1. Execute a agenda de distribuição **1040** (**Produto**).
 
 ## <a name="use-inventory-buffers-and-inventory-levels-in-e-commerce-scenario"></a>Usar buffers de estoque e níveis de estoque no cenário de comércio eletrônico
@@ -133,7 +133,7 @@ A introdução de buffers de estoque e níveis de estoque permite que essas APIs
 
 Para configurar a resposta das APIs de disponibilidade do produto, siga estas etapas.
 
-1. Vá para **Retail e Commerce** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros do Commerce**.
+1. Acesse **Retail e Commerce** \> **Configuração da sede** \> **Parâmetros** \> **Parâmetros do Commerce**.
 1. Na seção **Estoque de loja**, na guia **Estoque**, no campo **APIs de disponibilidade do produto para comércio eletrônico**, selecione um valor.
 1. Para aplicar as configurações aos canais, execute o trabalho de agendamento de distribuição **1110** (**Configuração global**).
 

@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4c84c829ca1344d70dee294da35b659299d6fa37
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: fb10164be8d7a0828169cf3865f884afaa2e8408472edebe4cb0c7d4db059d8c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723228"
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Criar pacotes de produto para ordens de compra
 
@@ -28,7 +28,7 @@ Este procedimento mostra a criação de um pacote de produtos e a utilização d
 
 
 ## <a name="create-a-product-package"></a>Criar um pacote de produtos
-1. Vá para Varejo e Comércio > Gerenciamento de estoque > Reabastecimento > Pacotes de produto.
+1. Acesse Varejo e Comércio > Gerenciamento de estoque > Reabastecimento > Pacotes de produto.
 2. Clique em Novo.
 3. No campo Número do pacote, digite um valor.
 4. No campo Descrição, digite um valor.
@@ -51,7 +51,7 @@ Este procedimento mostra a criação de um pacote de produtos e a utilização d
 21. Feche a página.
 
 ## <a name="add-package-to-purchase-order"></a>Adicionar o pacote à ordem de compra
-1. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+1. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, selecione o mesmo fornecedor para o qual o pacote de produtos foi criado anteriormente, se um fornecedor foi selecionado.

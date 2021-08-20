@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: caba37d3e7bb5d2f08a8c10ff0f0e1bc886e5648
-ms.sourcegitcommit: 0cc89dd42c1924ca0ec735c6566bc56b39cc5f7d
+ms.openlocfilehash: c07bb53787ba49e4e6010802fc8c9b43ea6b2d6b3bec49096efd9832140d4d9e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/26/2021
-ms.locfileid: "6102749"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736494"
 ---
 # <a name="reprint-and-void-wave-labels"></a>Reimprimir e anular etiquetas de onda
 
@@ -49,7 +49,7 @@ Você pode exibir e reimprimir etiquetas de onda nas páginas a seguir. No Paine
 
 Para reimprimir uma etiqueta de onda por meio do cliente Web, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a onda da qual deseja reimprimir as etiquetas.
 1. No Painel de Ações, na guia **Onda**, no grupo **Imprimir**, selecione **Etiquetas de onda**.
 1. Siga uma ou ambas as etapas a seguir:
@@ -74,7 +74,7 @@ Antes que os trabalhadores possam reimprimir etiquetas por meio de um dispositiv
 
 Siga estas etapas para criar uma nova coleção de itens de menu para reimprimir etiquetas por meio do aplicativo de depósito.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Crie um item de menu e defina os seguintes valores para ele:
 
     - **Nome do item de menu:** *Reimprimir etiqueta de onda única*
@@ -135,7 +135,7 @@ Siga estas etapas para criar uma nova coleção de itens de menu para reimprimir
 
 Siga estas etapas para adicionar os novos itens de menu ao menu de aplicativo de depósito.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Selecione um menu de **Saída** existente.
 1. Na lista à esquerda, localize os itens de menu para reimpressão que você acabou de criar e use o botão de seta para a direita para adicioná-los à lista à direita.
 1. Feche a página.

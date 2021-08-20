@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: v-oloski
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2228f7354a91eda7e03ba4d3001265bfcbc20e90
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f4cd61ea5052c817e585252134dee717a376ad0371782d7382978d1742c2bbf2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6729503"
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>Configurar documentos de transferência para movimentação de mercadorias dentro de uma empresa
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar documentos de transferência para a moviment
 
 
 ## <a name="create-a-transfer-order"></a>Criar uma ordem de transferência
-1. Vá para Gerenciamento de estoque > Ordens de entrada > Ordem de transferência.
+1. Acesse Gerenciamento de estoque > Ordens de entrada > Ordem de transferência.
 2. Clique em Novo.
 3. No campo Depósito de origem, insira ou selecione um valor.
 4. No campo Depósito de destino, insira ou selecione um valor.

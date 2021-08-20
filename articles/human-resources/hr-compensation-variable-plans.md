@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Human Resources
-ms.openlocfilehash: 9fbdefcf50c77b1741564924606ff0823fb10ba5
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 5bceecbf0095eaac6c8cab3a954cd6d03fd380c66061b3996169fced7e14ca9d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6055499"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732312"
 ---
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
@@ -86,7 +86,7 @@ Na página **Planos de remuneração variável**, defina a opção **Habilitar i
 
 ### <a name="enroll-the-employee"></a>Inscrever o funcionário.
 
-Agora, você pode inscrever funcionários no plano de remuneração variável. Para inscrever um funcionário, vá para a página **Funcionários** e selecione o funcionário. Em seguida, no Painel de Ação, clique em **Remuneração** &gt; **Inscrição do plano variável**. 
+Agora, você pode inscrever funcionários no plano de remuneração variável. Para inscrever um funcionário, Acesse a página **Funcionários** e selecione o funcionário. Em seguida, no Painel de Ação, clique em **Remuneração** &gt; **Inscrição do plano variável**. 
 
 **Nota:** **Inscrição** deve estar definido como **Sim** no plano de remuneração variável. O campo **Plano** mostra somente os planos para os quais o funcionário estiver qualificado com base nas regras de qualificação que estão configuradas para esses planos. Se nenhuma regra de qualificação for configurada para um plano, nenhum funcionário será qualificado para o plano. 
 

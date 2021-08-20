@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 23b965bb51a4323164ae52bf70050133c9c9c9da
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 10eddf2f60db914e6451840d4d7aedb9dce7108874ea3ff45f375b85a55a694f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344873"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724384"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>Rastrear a execução dos formatos ER para solucionar problemas de desempenho
 
@@ -81,7 +81,7 @@ Para estar disponível no campo de pesquisa **Outros**, um tipo de documento DM 
 
 ## <a name="design-an-er-solution"></a>Criar uma solução de ER
 
-Suponha que você tenha começado a criar uma solução de ER para gerar um novo relatório que apresente transações de fornecedor. Atualmente, você pode encontrar as transações de um fornecedor selecionado na página **Transações do fornecedor** (vá para **Conta a pagar \> Fornecedores \> Todos os fornecedores**, selecione um fornecedor e, no Painel de Ação, na guia **Fornecedor**, no grupo **Transações**, selecione **Transações**). Contudo, você deseja ter todas as transações do fornecedor ao mesmo tempo em um documento eletrônico no formato XML. Essa solução consistirá em várias configurações de ER que contêm os modelos de dados, metadados, mapeamento de modelo e componentes de formato necessários.
+Suponha que você tenha começado a criar uma solução de ER para gerar um novo relatório que apresente transações de fornecedor. Atualmente, você pode encontrar as transações de um fornecedor selecionado na página **Transações do fornecedor** (Acesse **Conta a pagar \> Fornecedores \> Todos os fornecedores**, selecione um fornecedor e, no Painel de Ação, na guia **Fornecedor**, no grupo **Transações**, selecione **Transações**). Contudo, você deseja ter todas as transações do fornecedor ao mesmo tempo em um documento eletrônico no formato XML. Essa solução consistirá em várias configurações de ER que contêm os modelos de dados, metadados, mapeamento de modelo e componentes de formato necessários.
 
 1. Entre na instância do RCS que foi provisionada para sua empresa.
 2. Neste tutorial, você criará e modificará configurações para a empresa exemplo **Litware, Inc.**. Portanto, verifique se esse provedor de configuração foi adicionado ao RCS e selecionado como ativo. Para obter instruções, consulte o procedimento [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -115,7 +115,7 @@ As versões correspondentes do modelo de dados e as configurações de mapeament
 
 ### <a name="turn-on-the-er-performance-trace"></a>Ativar o rastreamento de desempenho de ER
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, na seção **Rastreamento de execução**, siga estas etapas:
 
@@ -161,7 +161,7 @@ As versões correspondentes do modelo de dados e as configurações de mapeament
 ### <a name="run-the-er-format"></a><a id='run-format'></a>Executar o formato de ER
 
 1. Selecione a empresa **DEMF**.
-2. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+2. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 3. Na página **Configurações**, na árvore de configuração, selecione o item **Formato de rastreamento de desempenho**.
 4. No Painel de Ação, selecione **Executar**.
 
@@ -173,7 +173,7 @@ Observe que o arquivo gerado apresenta informações sobre 265 transações de s
 
 Os rastreamentos de desempenho são desacoplados do formato ER de origem e podem ser serializados em um arquivo zip externo.
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Logs de depuração de configuração**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Logs de depuração de configuração**.
 2. Na página **Logs de execução de relatórios eletrônicos**, no painel esquerdo, no campo **Nome da configuração**, selecione **Formato de rastreamento de desempenho** para encontrar os registros de log que foram gerados pela execução da configuração **Formato de rastreamento de desempenho**.
 3. Selecione o botão **Anexos** (o símbolo de clipe de papel) no canto superior direito da página ou pressione **Ctrl+Shift+A**.
 
@@ -349,7 +349,7 @@ Se usar uma dessas versões, você poderá analisar os detalhes dos rastreamento
 
 ### <a name="configure-user-parameters"></a>Configurar parâmetros de usuário
 
-1. Vá para **Administração da organização \> Relatório eletrônico \> Configurações**.
+1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, na seção **Rastreamento de execução**, no campo **Formato de rastreamento de execução**, selecione **PerfView XML**.
 
@@ -367,7 +367,7 @@ Devido as melhorias feitas na estrutura de ER, o rastreamento de desempenho que 
 
 ### <a name="configure-user-parameters"></a>Configurar parâmetros de usuário
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, na seção **Rastreamento de execução**, defina os seguintes parâmetros:
 

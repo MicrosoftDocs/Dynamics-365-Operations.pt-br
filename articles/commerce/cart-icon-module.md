@@ -2,7 +2,7 @@
 title: Módulo de ícone de carrinho
 description: Este tópico abrange o módulo de ícone de carrinho e descreve como adicioná-lo às páginas do site no Microsoft Dynamics 365 Commerce.
 author: anupamar-ms
-ms.date: 07/08/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: d9e3850d98e716d1bbea2017f6e8c9d75f19adc9
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 5cf86876ba03d510b03237c9c89a1fc069a73482b755a1d72227037c91439e86
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6637992"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735669"
 ---
 # <a name="cart-icon-module"></a>Módulo de ícone de carrinho
 
@@ -35,9 +35,14 @@ A imagem a seguir mostra um exemplo de um módulo de ícone de carrinho que exib
 
 ## <a name="module-properties"></a>Propriedades do módulo
 
-- **Mostrar mini carrinho** – Quando verdadeiro, esta propriedade permite que um resumo do carrinho (mini carrinho) seja exibido quando o ícone do carrinho é focalizado. Essa funcionalidade só tem suporte em portas de exibição de desktop.
+- **Mostrar mini carrinho**: quando esta propriedade estiver configurada como **Verdadeiro**, um resumo do carrinho (mini carrinho) será exibido sempre que o usuário passar o mouse sobre o ícone do carrinho. Essa funcionalidade tem suporte apenas em portas de exibição de desktop.
+- **Permitir finalização anônima**: quando esta propriedade estiver configurada como **Verdadeiro**, o mini carrinho permitirá que os usuários que não fizeram login façam uma finalização de convidado. Essa propriedade está disponível na versão 10.0.21 do Commerce, como parte do pacote de biblioteca do módulo do Commerce.
+- **Ordem dos itens**: esta propriedade controla a ordem em que os itens são exibidos no mini carrinho. Quando a opção **Novos itens adicionados à parte superior da lista** estiver selecionada, novos itens adicionados ao carrinho serão exibidos na parte superior da lista de itens do mini carrinho. Quando a opção padrão **Novos itens adicionados à parte inferior da lista** estiver selecionada, novos itens adicionados ao carrinho serão exibidos na parte inferior da lista de itens do mini carrinho. Essa propriedade está disponível a partir da versão 10.0.21 do Commerce, como parte do pacote de biblioteca do módulo do Commerce.
 
-## <a name="module-properties-in-the-adventure-works-theme"></a>Propriedades do módulo no tema Adventure Works
+> [!IMPORTANT]
+> As propriedades **Permitir finalização anônima** e **Ordem dos itens** estão disponíveis na versão 10.0.21 do Commerce. Elas requerem que o pacote de biblioteca do módulo da versão 9.31 do Commerce esteja instalado.
+
+## <a name="module-properties-and-slots-in-the-adventure-works-theme"></a>Propriedades e slots do módulo no tema Adventure Works
 
 No tema Adventure Works, o módulo ícone de carrinho contém dois slots adicionais para o mini carrinho. Esses slots são incluídos como uma extensão de definição de módulo.
 

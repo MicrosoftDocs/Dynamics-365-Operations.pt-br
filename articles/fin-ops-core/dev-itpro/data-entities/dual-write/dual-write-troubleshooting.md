@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: ramasri
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: b4de461d26fc6d5c39c1ac0c49201f265f562f5a
-ms.sourcegitcommit: f65bde9ab0bf4c12a3250e7c9b2abb1555cd7931
+ms.openlocfilehash: 779cc80d4cb510e79885919f1c705824ab6ad58b3e2fe1bab7bbec0511d08951
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "6542482"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736293"
 ---
 # <a name="general-troubleshooting"></a>Solução de problemas gerais
 
@@ -104,7 +104,7 @@ Para exibir o log de rastreamento, siga estas etapas.
 **Função necessária para desvincular o ambiente:** administrador do sistema para os aplicativos Finance and Operations ou Dataverse.
 
 1. Entrar no aplicativo Finance and Operations.
-2. Vá para **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
+2. Acesse **Espaços de trabalho \> Gerenciamento de dados** e selecione o bloco **Gravação dupla**.
 3. Selecione todos os mapeamentos em execução e selecione **Parar**.
 4. Selecione **Desvincular ambiente**.
 5. Selecione **Sim** para confirmar a operação.

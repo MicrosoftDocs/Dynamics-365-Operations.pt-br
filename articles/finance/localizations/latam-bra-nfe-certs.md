@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e934855f2641820f89f0b4f7883ece3f102ced66
-ms.sourcegitcommit: 951393b05bf409333cb3c7ad977bcaa804aa801b
+ms.openlocfilehash: 81e7598e0d4c12c07e2f12a7bb9f39bc1e4d5fcf29e5d8096350d39c45df186b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5894850"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732920"
 ---
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 

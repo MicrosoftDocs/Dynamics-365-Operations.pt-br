@@ -2,7 +2,7 @@
 title: Perguntas frequentes sobre relatórios financeiros
 description: Este tópico fornece respostas a algumas perguntas frequentes sobre relatórios financeiros.
 author: jiwo
-ms.date: 01/13/2021
+ms.date: 07/07/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: e1b67f86446403933005008a9a1e2cc6739dc516
-ms.sourcegitcommit: ecabf43282a3e55f1db40341aa3f3c7950b9e94c
+ms.openlocfilehash: dd493e855e45362c1681dc9cdfbbcb71f7627d64624cd093eadab32fd966c174
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/16/2021
-ms.locfileid: "6266624"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733602"
 ---
 # <a name="financial-reporting-faq"></a>Perguntas frequentes sobre relatórios financeiros
 
@@ -77,5 +77,29 @@ A mensagem indica que ocorreu um problema quando o sistema tentou recuperar meta
 
 - Revise o status da integração dos dados em **Ferramentas \> Status da integração** no Report Designer. Se a integração estiver incompleta, aguarde sua conclusão. Em seguida, repita o que você estava fazendo quando recebeu a mensagem.
 - Contate o suporte para identificar e solucionar o problema. Pode haver dados inconsistentes no sistema. Os engenheiros de suporte podem ajudar você a identificar esse problema no servidor e encontrar os dados específicos que podem exigir uma atualização.
+
+## <a name="how-does-the-selection-of-historical-rate-translation-affect-report-performance"></a>Como a seleção da conversão da taxa histórica afeta o desempenho do relatório?
+
+A taxa histórica geralmente é usada com ganhos retidos, propriedades, plantas, equipamentos e contas de capital próprio. A taxa histórica pode ser necessária, com base nas diretrizes da Financial Accounting Standards Board (FASB) ou nos princípios contábeis geralmente aceitos (GAAP). Para obter mais informações, consulte [recursos de moeda em relatórios financeiros](financial-reporting-currency-capability.md).
+
+## <a name="how-many-types-of-currency-rate-are-there"></a>Quantos tipos de taxa de moeda existem?
+
+Há três tipos:
+
+- **Taxa atual** – esse tipo geralmente é usado com contas de balanço. Em geral, é conhecido como *taxa de câmbio pontual* e pode ser a taxa no último dia do mês ou em outra data predeterminada.
+- **Taxa média** – normalmente, este tipo é usado com contas de demonstrativo de renda (lucros/perdas). Você pode configurar a taxa média para fazer uma média simples ou uma média ponderada.
+- **Taxa histórica** – geralmente é usada com ganhos retidos, propriedades, plantas, equipamentos e contas de capital próprio. Essas contas podem ser necessárias, com base nas diretrizes FASB ou GAAP.
+
+## <a name="how-does-historical-currency-translation-work"></a>Como funcionam as conversões históricas da moeda?
+
+As taxas são específicas da data da transação. Portanto, cada transação é convertida individualmente, com base na taxa de câmbio mais próxima.
+
+Para a conversão de moeda histórica, os saldos do período previamente calculado podem ser usados em vez de detalhes da conversão individual. Esse comportamento é diferente do comportamento da conversão da taxa atual.
+
+## <a name="how-does-historical-currency-translation-affect-performance"></a>Como as conversões históricas da moeda afetam o desempenho?
+
+Quando os dados apresentados nos relatórios são atualizados, pode haver um atraso porque os valores devem ser recalculados com a verificação dos detalhes da transação. Esse atraso ocorre toda vez que as taxas são atualizadas ou mais transações são lançadas. Por exemplo, se milhares de contas estiverem configuradas para a conversão histórica uma vez por dia, pode haver um atraso de até uma hora antes que os dados no relatório sejam atualizados. Por outro lado, se houver um número menor de contas específicas, os tempos de processamento das atualizações para os dados do relatório podem ser reduzidos para minutos ou menos.
+
+Da mesma forma, quando os relatórios são gerados usando a conversão de moeda para contas de tipo históricas, haverá cálculos extra por transação. Dependendo do número de contas, o tempo de geração do relatório pode duplicar.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

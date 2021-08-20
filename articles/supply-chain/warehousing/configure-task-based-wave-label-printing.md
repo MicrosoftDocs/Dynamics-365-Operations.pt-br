@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: v-obaranov
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 32842c32599b3ca5d84cc9f715a1453d55e176dc
-ms.sourcegitcommit: cbbb35c71ab4ff1ae08fa4f7cc97019b207246be
+ms.openlocfilehash: 652e6fb3f586fc873ffabf2c741e5c99216931461f159a42f08f9922e756280f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/23/2021
-ms.locfileid: "6301877"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735887"
 ---
 # <a name="schedule-wave-label-printing-during-wave"></a>Agendar a impressão da etiqueta de ciclo durante o ciclo
 
@@ -40,7 +40,7 @@ Para usar os recursos que são descritos neste tópico, eles devem ser ativados 
 
 Primeiro, você deve criar o novo método de etapa de ciclo e habilitar para o processamento de tarefas assíncronas paralelas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
 1. No Painel de Ações, selecione **Regenerar método**. Observe que *waveLabelPrinting* é adicionado à lista de métodos de processo de ciclo que você pode usar em seus modelos de ciclo de envio.
 1. Selecione o registro em que o campo **Nome do método** esteja definido como *acenarLabelPrinting* e, em seguida, no Painel de Ações, selecione **Configuração de tarefa**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
@@ -51,7 +51,7 @@ Primeiro, você deve criar o novo método de etapa de ciclo e habilitar para o p
 
 Agora você pode atualizar um modelo de ciclo existente para que ele use o método de processamento *Impressão de etiqueta de ciclo*. Como alternativa, você pode criar um novo modelo de ciclo que o use.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ciclos \> Modelos de ciclo**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ciclos \> Modelos de ciclo**.
 1. No Painel de Ações, selecione **Editar**.
 1. No painel de lista, selecione o modelo de ciclo a ser atualizado. (Se você estiver usando dados de demonstração para fins de teste, você pode selecionar o *24 Padrão de envio*.)
 1. Na FastTab **Métodos**, na coluna **Métodos restantes**, selecione a linha na qual o campo **Nome** está definido como *waveLabelPrinting*.
@@ -70,7 +70,7 @@ Se o processamento da etiqueta de ciclo exceder o limite de processamento da tar
 
 Se a geração de etiquetas de ciclo falhar (por exemplo, se a conversão da quantidade de trabalho na quantidade de etiqueta de ciclo falhar e lançar um erro), apenas a transação apropriada falhará. O trabalho que foi criado anteriormente permanece congelado. Para corrigir erros e imprimir as etiquetas de ciclo, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione o ciclo relevante na grade.
 1. No Painel de Ações, na guia **Onda**, no grupo **Imprimir**, selecione **Etiquetas de onda**.
 1. Siga as instruções na tela para enviar as etiquetas para impressão.

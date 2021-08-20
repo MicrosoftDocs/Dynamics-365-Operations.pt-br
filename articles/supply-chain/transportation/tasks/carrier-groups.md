@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 9fe95ee9a0b6d69544f35ac6bc9cdf3dd00db291
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 96a0fe7d646d2d0d64d608a3bc105c06af3c810af8980cff95668601925ebb6c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809053"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731118"
 ---
 # <a name="carrier-groups"></a>Grupos de operadoras
 
@@ -29,7 +29,7 @@ Quando existem várias operadoras e serviços de operadoras para o mesmo segment
 
 ## <a name="create-a-carrier-group"></a>Criar um grupo de operadoras
 
-1. Vá para **Gerenciamento de transporte &gt; Configurar &gt; Operadoras &gt; Grupo de operadoras**.
+1. Acesse **Gerenciamento de transporte &gt; Configurar &gt; Operadoras &gt; Grupo de operadoras**.
 1. Selecione **Novo**.
 1. No campo **Grupo de operadoras**, insira um identificador exclusivo (ID) para o grupo.
 1. No campo **Nome**, insira um nome descritivo para o grupo.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jiwo
 ms.search.validFrom: 2020-10-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 15050310f355ece683b00a00be9552d32aded17b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fbec5ad8fa5e17b75859c07ee64a66c9568c97d3d18b6a7616a64303d3a33f10
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727950"
 ---
 # <a name="set-up-a-subsidiary-legal-entity-for-consolidation"></a>Configurar uma entidade legal subsidiária para consolidação
 
@@ -35,7 +35,7 @@ Antes de iniciar uma consolidação como parte do fechamento do período, execut
 
 Se o plano de contas da entidade legal subsidiária não seguir o plano de contas na entidade legal consolidada, você poderá mapear as contas principais na subsidiária para as contas principais na entidade legal consolidada.
 
-1. Na *Entidade legal subsidiária*, vá para **Contabilidade \> Configuração** \> **Plano de contas \> Plano de contas**.
+1. Na *Entidade legal subsidiária*, Acesse **Contabilidade \> Configuração** \> **Plano de contas \> Plano de contas**.
 2. Selecione um plano de contas. Na guia rápida **Contas principais**, selecione uma conta principal e então selecione **Editar**.
 3. Selecione cada conta principal subsidiária que deve ser mapeada para consolidar uma conta principal. Na guia rápida **Geral**, no campo **Conta de consolidação**, insira a conta da entidade legal consolidada para a qual o saldo ou as transações da conta principal subsidiária selecionada devem ser transferidos. Você pode inserir a mesma conta principal consolidada para várias contas subsidiárias.
 
@@ -44,13 +44,13 @@ Se o plano de contas da entidade legal subsidiária não seguir o plano de conta
 
 4. Prepare relatórios e demonstrativos financeiros para a entidade legal consolidada que se baseiem em dimensões financeiras. Siga estas etapas para mapear as dimensões financeiras usadas nas contas da subsidiária para as dimensões financeiras na entidade legal consolidada:
 
-    1. Na *Entidade legal subsidiária*, vá para **Contabilidade \> Configuração \> Dimensões financeiras \> Dimensões financeiras**, selecione uma dimensão financeira e selecione **Valores da dimensão financeira**.
+    1. Na *Entidade legal subsidiária*, Acesse **Contabilidade \> Configuração \> Dimensões financeiras \> Dimensões financeiras**, selecione uma dimensão financeira e selecione **Valores da dimensão financeira**.
     2. Selecione o valor da dimensão financeira para mapear para um valor da dimensão financeira na entidade legal consolidada.
     3. Na guia rápida **Geral**, no campo **Dimensão do grupo**, insira a dimensão financeira na entidade legal consolidada. Durante a consolidação, essa dimensão financeira será atribuída a transações e saldos que usem a dimensão financeira selecionada na entidade legal subsidiária. As dimensões financeiras que você inserir aqui devem ser usadas na entidade legal consolidada. Você pode atribuir a dimensão financeira que é usada como a dimensão financeira do grupo em várias dimensões financeiras subsidiárias.
 
 5. Se você estiver fazendo uma consolidação online, siga estas etapas para garantir que as transferências ocorram como pretendidas:
 
-    1. Na *Entidade legal consolidada*, vá para **Contabilidade \> Periódico \> Consolidar \> Consolidar \[Exportar para\]** para abrir a página **Consolidar \[Online\]**.
+    1. Na *Entidade legal consolidada*, Acesse **Contabilidade \> Periódico \> Consolidar \> Consolidar \[Exportar para\]** para abrir a página **Consolidar \[Online\]**.
     2. Na guia **Critérios**, marque a caixa de seleção **Usar conta de consolidação**.
     3. Na guia **Dimensões financeiras**, selecione as dimensões financeiras apropriadas.
     4. Para cada dimensão financeira que você selecionar, insira um número no campo **Ordem dos segmentos** para indicar a ordem em que as dimensões devem ser exibidas
@@ -61,7 +61,7 @@ As contas principais na entidade legal subsidiária podem ter o mesmo números d
 
 Antes de iniciar a consolidação, siga estas etapas.
 
-1. Na *Entidade legal consolidada*, vá para **Contabilidade \> Periódico \> Consolidar \> Consolidar \[Exportar para\]** para abrir a página **Consolidar \[Online\]**.
+1. Na *Entidade legal consolidada*, Acesse **Contabilidade \> Periódico \> Consolidar \> Consolidar \[Exportar para\]** para abrir a página **Consolidar \[Online\]**.
 2. Marque a caixa de seleção **Usar conta de consolidação**. Durante a consolidação, as transações e os saldos serão transferidos automaticamente para a conta corrente.
 
 > [!NOTE]

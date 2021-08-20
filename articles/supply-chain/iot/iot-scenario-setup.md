@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2020-04-04
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 36be4a85dbbd28839afd45b6ed167b4c8181ae72
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 9a45ed57f1fb5e4d508c30b2f3a83dafacfb7dd870701a8f519bbc1e807ed982
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909492"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736784"
 ---
 # <a name="scenario-setup-for-iot-intelligence"></a>Configuração do cenário de Inteligência de IoT
 
@@ -44,7 +44,7 @@ Para configurar o cenário, siga estas etapas.
 1. Entre no Supply Chain Management.
 2. Habilite o sinalizador de recurso de Inteligência de IoT. Para obter mais informações, consulte [Visão geral do Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md).
 3. Configurar as métricas. Para obter mais informações, consulte [Como configurar métricas](iot-metrics-setup.md#configure-metrics).
-4. Vá para **Controle de produção \> Configuração \> Inteligência da IoT \> Gerenciamento de cenário** .
+4. Acesse **Controle de produção \> Configuração \> Inteligência da IoT \> Gerenciamento de cenário** .
 6. No bloco **Tempo de inatividade do equipamento** , selecione **Configurar** para abrir o assistente de configuração.
 
    A primeira página no assistente é a página **Definição do esquema do sensor de equipamento**. Nesta página, sua meta é configurar o esquema no Supply Chain Management para que ele corresponda ao formato JSON (JavaScript Object Notation) das mensagens do Hub IoT. Vários esquemas de mensagens podem ser definidos. Para obter mais informações, consulte [Formatos de esquema de mensagens do Hub IoT](iot-schema-format.md). Neste exemplo, o conteúdo da mensagem inclui um lote de mensagens com o formato a seguir.

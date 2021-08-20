@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 88d3f1fba05d944e78e4595018d190c3dc41e076
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: e8ae7bc937e916195b49df91be73ba906bcd2e593c9222cdc07adfcbf2396c05
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6733676"
 ---
 # <a name="create-new-users"></a>Criar usuários
 
@@ -35,7 +35,7 @@ Os administradores do sistema podem [atribuir licenças a usuários](/office365/
 Os usuários externos devem ser representados no seu diretório de locatários (Azure Active Directory (Azure AD)) para poderem receber licenças. Esses usuários externos devem ser adicionados ao locatário no Azure AD como usuários convidados para depois poderem receber as licenças apropriadas. Um requisito para aplicativos do Finance and Operations é que a empresa do usuário convidado use o Azure AD. Para obter mais informações, consulte [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](/azure/active-directory/b2b/add-users-administrator).
 
 ## <a name="import-new-users-from-azure-ad"></a>Importar novos usuários do Azure AD 
-1. Vá para **Administração do sistema** \> **Usuários** \> **Usuários**.
+1. Acesse **Administração do sistema** \> **Usuários** \> **Usuários**.
 2. No Painel de Ação, selecione **Importar usuários**.
 3. Selecione os usuários que serão importados. A lista inclui usuários do Azure AD que atualmente não são usuários neste ambiente.
 4. Selecione **Importar usuários**.
@@ -45,7 +45,7 @@ Os usuários externos devem ser representados no seu diretório de locatários (
 > O valor do campo **Empresa** será definido com base na empresa da sessão atual para o administrador. Após a importação, você deve atribuir funções e organizações conforme necessário. Para obter mais informações, consulte [Atribuir usuários a funções de segurança](assign-users-security-roles.md). Também pode ser necessário associar o usuário a uma **Pessoa** e atualizar as opções do usuário, como idioma.
 
 ## <a name="manually-add-a-new-user"></a>Adicionar um novo usuário manualmente
-1. Vá para **Administração do sistema** \> **Usuários** \> **Usuários**.
+1. Acesse **Administração do sistema** \> **Usuários** \> **Usuários**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **ID do usuário**, insira um identificador exclusivo para o usuário.   
 4. No campo **Nome do usuário**, insira o nome do usuário.  
@@ -68,7 +68,7 @@ Para alterar um ID de usuário, você deve renomear a chave no banco de dados. Q
 > [!NOTE]
 > O ID de usuário é a chave primária da tabela de informações do usuário. Renomear a chave primária pode levar algum tempo para os usuários existentes porque todas as referências à chave também são atualizadas no banco de dados. 
 
-1. Vá para **Administração do sistema \> Usuários \> Usuários**.
+1. Acesse **Administração do sistema \> Usuários \> Usuários**.
 2. Selecione um usuário na lista e selecione **Opções\> Registrar informações**.
 3. Selecione **Renomear**.
 4. Insira um valor novo e exclusivo para o ID de usuário e selecione **OK**. 

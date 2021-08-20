@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e3c8b467f29037bbb869189e3607e11f40aad2c2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 58e9895afecf24a84281049c63d661e690fe2a2f7963d4711dc7cc4d5630322b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829851"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735222"
 ---
 # <a name="inventory-statuses"></a>Status do estoque
 
@@ -61,7 +61,7 @@ Para planejar a cobertura de itens com um status de estoque disponível, selecio
 Você pode alterar os status de estoque usando a página **Disponibilidade por localização** ou a tarefa periódica *Alteração de status do estoque*.
 
 - Ao usar a tarefa periódica *Alteração de status do estoque*, você pode selecionar os registros a serem incluídos e definir a tarefa a ser executada no lote no intervalo desejado.
-- Para alterar o status do estoque como um processo ad hoc, vá para a página **Disponibilidade por localização**, selecione os registros relevantes e, em seguida, selecione o botão **Alteração de status do estoque**.
+- Para alterar o status do estoque como um processo ad hoc, Acesse a página **Disponibilidade por localização**, selecione os registros relevantes e, em seguida, selecione o botão **Alteração de status do estoque**.
 
 > [!NOTE]
 > O recurso *Alterar o status de estoque de itens controlados por dimensões de rastreamento* permite alterar o status de estoque de itens controlados por dimensões de rastreamento, incluindo a capacidade de atualizar somente os registros selecionados. Use o [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para habilitar o recurso conforme necessário. Quando o recurso estiver habilitado, você poderá fazer o seguinte:

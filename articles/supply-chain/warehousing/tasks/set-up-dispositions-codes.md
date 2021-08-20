@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 16458f709788e538d036cc4d3b3239f4ffa3c42e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a0c7d4a6cc0b8850696f403e21e8dce5e0986c649f7a75d38be02fbee753f9e7
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830920"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6731736"
 ---
 # <a name="set-up-dispositions-codes"></a>Configurar códigos de disposições
 
@@ -27,7 +27,7 @@ ms.locfileid: "5830920"
 
 Este procedimento se concentra na configuração de um código de disposição que pode ser usado em um dispositivo móvel para o processo de recebimento da ordem de devolução. Códigos de disposição são um conjunto de regras que podem ser usadas quando itens são recebidos. Por exemplo, quando um usuário de trabalho utiliza um dispositivo móvel para receber itens que foram danificados, o usuário deve escanear um código de disposição para itens danificados. O status de estoque dos bens recebidos, o modelo de trabalho, e a diretiva de localização podem ser determinados a partir do código de disposição escaneado. Para os processos de recebimento da ordem de compra e de relatório de ordem de produção como concluída, o uso de um código de disposição é opcional. Para o processo de recebimento de devolução da ordem de venda, se os itens forem registrados utilizando um dispositivo móvel, o uso do código de disposição é obrigatório.  Esse guia foi criado usando a empresa de dados de demonstração USMF. Esse procedimento é destinado ao gerente do depósito. 
 
-1. Vá para Gerenciamento de depósito > Configuração > Dispositivo móvel > Códigos de disposição.
+1. Acesse Gerenciamento de depósito > Configuração > Dispositivo móvel > Códigos de disposição.
 2. Clique em Novo.
     * Crie um novo código de disposição a ser usado para devoluções de clientes.  
 3. No campo Código de descrição, digite um valor.

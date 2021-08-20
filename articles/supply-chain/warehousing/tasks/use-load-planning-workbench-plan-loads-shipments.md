@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0ef95dfc3dba8ef162d0be145a52b7153912cb77
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f5c343ac75d3f2d587dc3298adc2ba9f4b3d08a7ce87a0dd8dd0791cf4d4e050
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828241"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6723398"
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>Planejar cargas e remessas usando a Bancada de planejamento de carga
 
@@ -29,7 +29,7 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 
 
 ## <a name="create-a-sales-order"></a>Criar uma ordem de venda
-1. Vá para o **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Acesse o **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. No campo **Conta do cliente**, selecione o botão suspenso para abrir a pesquisa.
 4. Selecione a conta **US-004**.
@@ -43,7 +43,7 @@ Este tópico mostra como usar a bancada de planejamento de carga para criar uma 
 12. Feche a página.
 
 ## <a name="create-a-new-load"></a>Criar uma nova carga
-1. Vá para o **Painel de navegação > Módulos > Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga**.
+1. Acesse o **Painel de navegação > Módulos > Gerenciamento de transporte > Planejamento > Bancada de planejamento de carga**.
 2. Selecione a guia **Linhas de vendas**. Agora você irá montar a carga para a ordem de venda que você acabou de criar. Cargas podem ser montadas de acordo com a oferta e procura das ordens de compra, ordens de transferência, e ordens de venda.  
 3. No Painel de Ação, selecione **Oferta e demanda**.
 4. Selecione **Para nova carga**.

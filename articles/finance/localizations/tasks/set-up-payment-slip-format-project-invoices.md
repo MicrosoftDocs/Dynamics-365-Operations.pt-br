@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5f32975a9ad6887a4396bdceb37b27a6f08ca30c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cb0d1d95013b3eac3131064992920da5fa9bea5a1f6d554e6be1d5006a9b21fb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832435"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6732891"
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configurar um formato da guia de pagamento para faturas de projeto
 
@@ -32,7 +32,7 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
 
 
 ## <a name="set-up-a-creditor-id-number"></a>Configurar um número de identificação do credor
-1. Vá para Administração da organização > Organizações > Entidades legais.
+1. Acesse Administração da organização > Organizações > Entidades legais.
 2. Expandir ou recolher a seção Informações de conta bancária.
 3. Clique em Editar.
 4. No campo ID do FI-Credor, digite um valor.
@@ -40,7 +40,7 @@ Esta funcionalidade está disponível para entidades legais cujo endereço princ
 6. Feche a página.
 
 ## <a name="set-up-a-payment-slip-format-for-invoices-notes-letters-and-statements"></a>Configurar um formato da guia de pagamento para faturas, notas, letras e demonstrativos
-1. Vá para Contas a receber > Configuração > Formulários > Configuração de formulário.
+1. Acesse Contas a receber > Configuração > Formulários > Configuração de formulário.
 2. Clique na guia Fatura.
 3. No campo Anexo do pagamento associado na fatura de cliente, selecione uma opção.
     * Nenhum – Não imprime uma guia de pagamento. Escolha esta opção se o valor do pagamento estiver em uma moeda diferente da coroa dinamarquesa (DKK).   FIK 751 – Imprima uma guia de pagamento FIK 751, se você pretende gravar manualmente o valor de pagamento e a data de vencimento na guia de pagamento.   FIK 752 – imprime uma guia de pagamento FIK 752, se você pretende usar uma guia de pagamento gerada pelo computador com um valor de pagamento e uma data de vencimento pré-impressos.  

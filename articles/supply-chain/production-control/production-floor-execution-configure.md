@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: c1739c9b50cb3f09696bf95730cd62fc9960ed5d
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: f3a5777196317b59c67b872822594f776782b3dde890581723cfb9c292e3495d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641071"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735983"
 ---
 # <a name="configure-the-production-floor-execution-interface"></a>Configurar a interface de execução de piso de produção
 
@@ -77,7 +77,7 @@ Este recurso permite adicionar um campo de pesquisa à lista de trabalhos. Os tr
 
 ## <a name="work-with-production-floor-execution-configurations"></a>Trabalhar com configurações de execução de piso de produção
 
-Para criar e manter configurações de dispositivo, vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página , você pode executar as seguintes ações:
+Para criar e manter configurações de dispositivo, Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**. A página **Configurar execução de piso de produção** mostra uma lista das configurações existentes. Nessa página , você pode executar as seguintes ações:
 
 - Selecione qualquer configuração de piso de produção listada na coluna à esquerda para exibi-la e editá-la.
 - Selecione **Novo** no Painel de Ações para adicionar uma nova configuração de dispositivo à lista. Em seguida, no campo **Configuração**, insira um nome para identificar a nova configuração. O nome inserido deve ser exclusivo entre todas as configurações de dispositivo e você não poderá editá-lo posteriormente.
@@ -102,7 +102,7 @@ Quando o supervisor de chão de fábrica configura a interface de execução de 
 
 Um trabalho em lotes limpa periodicamente entradas na tabela de referências para dispositivos que não registraram nenhuma atividade nos últimos 60 dias. Você também pode limpar manualmente as entradas a qualquer momento seguindo essas etapas.
 
-1. Vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
+1. Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar execução de piso de produção**.
 1. No Painel de Ação, selecione **Limpar configurações de cliente**.
 1. Na caixa de diálogo **Limpar configuração do cliente**, defina o campo **Número de dias** como o número de dias de inatividade (antes de hoje) a ser considerado. Você removerá todas as configurações e os registros de entrada dos dispositivos que não estavam ativos durante esse tempo.
 1. Selecione **OK** para limpar as configurações relevantes, com base na configuração de **Número de dias**.

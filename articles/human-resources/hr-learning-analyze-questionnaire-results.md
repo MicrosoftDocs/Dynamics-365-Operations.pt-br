@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 135d74d70023fbe1f52b292c09733e77baa14003
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: c61fa41f5502750c07e773568e65cc03df86fa6af4878de7d2c956317a15d495
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052904"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6724979"
 ---
 # <a name="analyzing-questionnaire-results"></a>Analisar resultados de questionário
 
@@ -26,11 +26,11 @@ ms.locfileid: "6052904"
 
 
 
-As estatísticas do questionário podem ser usadas para calcular média, totais e porcentagens, com base em um conjunto de dados demográficos. Para iniciar este procedimento, vá para Questionário > Exibir e analisar resultados > Estatísticas de questionário. A empresa de dados demo usada para criar este procedimento é USMF.
+As estatísticas do questionário podem ser usadas para calcular média, totais e porcentagens, com base em um conjunto de dados demográficos. Para iniciar este procedimento, Acesse Questionário > Exibir e analisar resultados > Estatísticas de questionário. A empresa de dados demo usada para criar este procedimento é USMF.
 
 
 ## <a name="create-a-questionnaire-statistics-record"></a>Criar um registro de estatísticas de questionário
-1. Vá para Estatísticas do questionário.
+1. Acesse Estatísticas do questionário.
 2. Clique em Novo.
 3. Na lista, marque a linha selecionada.
 4. No campo Estatísticas, digite um valor.

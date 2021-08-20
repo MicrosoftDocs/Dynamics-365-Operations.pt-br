@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2020-03-01
 ms.dyn365.ops.version: 10.0.10
-ms.openlocfilehash: c38717ca9c57913ea22f2dd7712b49f39d2e556e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d905819d1e0c8223c74509bfb357b3aaa51d20305a2857061eadb0b0ff8f6b9b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349689"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6727621"
 ---
 # <a name="enable-and-configure-auto-charges-by-channel"></a>Habilitar e configurar encargos automáticos por canal
 
@@ -40,10 +40,10 @@ Para habilitar e configurar encargos automáticos por canal, você deve concluir
 
 Para habilitar os encargos automáticos por canal no Commerce, siga estas etapas.
 
-1. Vá para **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recurso**.
+1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recurso**.
 1. Na guia **Não habilitado**, na lista **Nome do recurso**, localize e selecione **Habilitar encargos automáticos do filtro por canal**.
 1. No canto inferior direito, selecione **Habilitar agora**. Depois que o recurso for ativado, ele será exibido na lista da guia **Tudo**.
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. No painel esquerdo, localize e selecione o trabalho **1110** (**Configuração global**).
 1. No painel de ações, selecione **Executar agora** para propagar as alterações de configuração.
 
@@ -56,12 +56,12 @@ Uma nova finalidade de hierarquia da organização chamada **Encargo automático
 
 Para atribuir uma hierarquia padrão a uma finalidade da hierarquia organizacional no Commerce, siga estas etapas.
         
-1. Vá para **Administração da organização \> Organizações \> Finalidades de hierarquias de organização**.
+1. Acesse **Administração da organização \> Organizações \> Finalidades de hierarquias de organização**.
 1. No painel esquerdo, selecione **Encargo automático de varejo**.
 1. Em **Hierarquias atribuídas**, selecione **Adicionar**.
 1. Na caixa de diálogo **Hierarquias da organização**, selecione uma hierarquia da organização (por exemple, **Lojas de varejo por região**), e selecione **OK**.
 1. Em **Hierarquias atribuídas**, selecione **Definir como padrão**.
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. No painel esquerdo, localize e selecione o trabalho **1040** (**Produtos**).
 1. No painel de ação, selecione **Executar Agora**.
 1. Repita as duas etapas anteriores para executar os trabalhos **1070** (**Configuração de canal**) e **1110** (**Configuração global**).
@@ -74,14 +74,14 @@ Depois que você ativou o recurso **Habilitar o filtro de encargos automáticos 
 
 Para definir os encargos automáticos por canal no Commerce, siga estas etapas.
 
-1. Vá para **Contas a receber \> Configuração de encargos \> Encargos automáticos**.
+1. Acesse **Contas a receber \> Configuração de encargos \> Encargos automáticos**.
 1. No painel à esquerda, no campo **Nível**, selecione **Cabeçalho** ou **Linha**, dependendo de seus requisitos empresariais.
 1. No campo **Código de canal de varejo**, selecione o código de canal apropriado (por exemplo **Tabela** ou **Grupo**). Se a configuração padrão, **Tudo** for usada, as regras de encargos serão aplicadas a todos os canais.
 
     - Se você selecionar **Grupo**, certifique-se de que o grupo de encargos de canal de varejo foi criado em **Varejo e Commerce \> Configuração do canal \> Encargos \> Grupos de encargo de canal de varejo**.
     - Se você selecionar **Tabela** poderá selecionar um canal específico (por exemplo, **San Francisco**) no campo **Relação de canal de varejo**.
 
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. No painel esquerdo, localize e selecione o trabalho **1040** (**Produtos**).
 1. No painel de ação, selecione **Executar Agora**.
 1. Repita as duas etapas anteriores para executar os trabalhos **1070** (**Configuração de canal**) e **1110** (**Configuração global**).

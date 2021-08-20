@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d01c04fcf707109cd7bc6f056846506914e96dec
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 72b2d7a5a554f46813fb31991ffb3df30742d01bf168b4180a1096970f60998f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838876"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6722926"
 ---
 # <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>Dados-chave de fatura em contas a pagar usando um diário de aprovações
 
@@ -27,7 +27,7 @@ ms.locfileid: "5838876"
 Este tópico explica como usar o registro de fatura para criar faturas e usar no diário de aprovações para atualizar as contas de despesas.
 
 ## <a name="create-and-post-and-invoice"></a>Criar e lançar e faturar
-1. No painel de navegação, vá para **Módulos > Contas a pagar > Faturas > Registro de faturas**.
+1. No painel de navegação, Acesse **Módulos > Contas a pagar > Faturas > Registro de faturas**.
 2. Selecione **Novo**.
 3. Selecione o nome do registro de fatura que você deseja usar.
 4. Selecione **Linhas** para abrir o registro e inserir as linhas de despesa.
@@ -39,7 +39,7 @@ Este tópico explica como usar o registro de fatura para criar faturas e usar no
 10. Selecione **Lançar**.
 
 ## <a name="approve-an-invoice"></a>Aprovar uma fatura
-1. No painel de navegação, vá para **Módulos > Contas a pagar > Faturas > Aprovação da fatura**.
+1. No painel de navegação, Acesse **Módulos > Contas a pagar > Faturas > Aprovação da fatura**.
 2. Selecione **Novo**.
 3. Selecione o nome do diário de aprovação de fatura que você deseja usar.
 4. Selecione **Linhas** para exibir a página na qual você poderá selecionar as faturas que deseja aprovar.

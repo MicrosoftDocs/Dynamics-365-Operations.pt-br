@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be1c389bc4193ef080dbeb1639b69acf466ef0de
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fa47510d84e5ee156d4f38a076ce17fad8359d147997349de023b64483d66160
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831857"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6735126"
 ---
 # <a name="start-a-production-order"></a>Começar uma ordem de produção
 
@@ -29,7 +29,7 @@ Esse procedimento mostra como iniciar uma ordem de produção no chão de fábri
 
 
 ## <a name="start-a-production-order"></a>Começar uma ordem de produção
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
     * Selecione uma ordem de produção com o status Liberada.  
 2. No Painel de Ação, clique em Ordem de produção.
 3. Clique em Iniciar.
