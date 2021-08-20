@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 971b30b61b45dba6c64db4a8577d80c22030a556
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a4d051121800b03f92b5a02ebe8a4c38b81ec1cd2609f252a69908a84a2b205a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832496"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762042"
 ---
 # <a name="issue-fiscal-documents-for-vendors-brazil"></a>Emitir notas fiscais para fornecedores (Brasil)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5832496"
 
 Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que não são contribuintes. Você deve atribuir um estabelecimento fiscal a um site. Você também deve configurar um tipo de documento fiscal para as ordens de compra que você criar e lançar no nome de fornecedores que não são contribuintes. Antes de criar e lançar faturas de fornecedores no nome de fornecedores que não são contribuintes, é necessário especificar o fornecedor como fornecedor que não é contribuinte. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Contas a pagar > Fornecedores > Todos os fornecedores.
+1. Acesse Contas a pagar > Fornecedores > Todos os fornecedores.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Expanda a seção Informações fiscais.
@@ -38,7 +38,7 @@ Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que n�
 9. Clique em Salvar.
 10. Feche a página.
 11. Feche a página.
-12. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+12. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 13. Clique em Novo.
 14. No campo Conta de fornecedor, insira ou selecione um valor.
     * Selecione uma conta de fornecedor que é classificada como não contribuinte.  
@@ -53,7 +53,7 @@ Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que n�
 23. Clique em Confirmar.
 24. Feche a página.
 25. Feche a página.
-26. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+26. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 27. Na lista, clique no link na linha selecionada.
 28. No Painel de Ação, clique em Fatura.
 29. Clique em Fatura.
@@ -63,7 +63,7 @@ Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que n�
 33. Clique em Lançar.
 34. Feche a página.
 35. Feche a página.
-36. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+36. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 37. Clique em OK.
 
 

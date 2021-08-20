@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2db0347b9da164b122082f26b668d681894e2241
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a2ffa73613bd90438b5b59a0f9da906b4bf118c77e2e82a387a0ebfec76f2b16
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359235"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769682"
 ---
 # <a name="set-up-electronic-messages-for-sped-reinf-events"></a>Definir mensagens eletrônicas para eventos do SPED-Reinf
 
@@ -34,7 +34,7 @@ Para configurar a funcionalidade de mensagem eletrônica para a comunicação de
 2. Selecione o bloco **Biblioteca compartilhada de ativos**.
 3. Selecione **Pacote de dados** como o tipo de ativo e selecione o pacote para as entidades de dados de comunicação do evento do SPED-Reinf. (O nome do arquivo é **SPEDReinf_EMSettings.zip**.)
 4. Salve o arquivo no local em que as entidades de dados devem ser armazenadas.
-5. Entre no Finance e vá para **Espaços de trabalho** \> **Gerenciamento de dados**.
+5. Entre no Finance e Acesse **Espaços de trabalho** \> **Gerenciamento de dados**.
 6. Selecione o bloco **Importação**.
 7. Insira uma descrição e um nome para identificar o trabalho, como **SpedReinf**.
 8. No campo **Formato de dados de origem**, selecione **Pacote**.
@@ -90,7 +90,7 @@ No Finance, você deve registrar o certificado do Key Vault no Azure.
 
 Para obter informações sobre como configurar um cliente do Key Vault, consulte [Configuração do Cliente do Azure Key Vault](https://support.microsoft.com/help/4040305).
 
-1. Vá para **Administração do sistema** \> **Configuração** \> **Parâmetros do Key Vault**.
+1. Acesse **Administração do sistema** \> **Configuração** \> **Parâmetros do Key Vault**.
 2. Digite as seguintes informações:
 
     - URL do Key Vault
@@ -123,21 +123,21 @@ Sempre que uma mensagem é criada, preparada, validada, entregue ou recebida, a 
 
 Antes de uma mensagem ser entregue, configure a validação do esquema XML para ajudar a evitar rejeições por parte do site do governo.
 
-1. Vá para **Administração da organização** \> **Gerenciamento de documentos** \> **Parâmetros de gerenciamento de documentos** e habilite arquivos .xsd adicionando **XSD** como um novo tipo de arquivo.
+1. Acesse **Administração da organização** \> **Gerenciamento de documentos** \> **Parâmetros de gerenciamento de documentos** e habilite arquivos .xsd adicionando **XSD** como um novo tipo de arquivo.
 
     ![Página Parâmetros de gerenciamento de documentos.](media/bra-document-management-parameters.png)
 
-2. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagem** e selecione **Novo** \> **Arquivo** para anexar os esquemas (arquivos .xsd) às seguintes ações:
+2. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagem** e selecione **Novo** \> **Arquivo** para anexar os esquemas (arquivos .xsd) às seguintes ações:
 
     - Validar
     - Re-Validar
     - Exclusão-Validar
 
-3. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagem**, selecione a ação **Preencher** (**Incluir**) e, no campo **Preencher ação de registro**, selecione **Registrar transacões**.
+3. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagem**, selecione a ação **Preencher** (**Incluir**) e, no campo **Preencher ação de registro**, selecione **Registrar transacões**.
 
     ![Página Ações de processamento de mensagem.](media/bra-message-processing-actions.png)
 
-4. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Configurações de serviços Web** e configure uma conexão de serviços Web e certificados para emitir e consultar eventos.
+4. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Configurações de serviços Web** e configure uma conexão de serviços Web e certificados para emitir e consultar eventos.
 
     ![Página Configurações de serviços Web.](media/bra-web-service-settings.png)
 

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-18
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 5da18ff1013f0e767ca64b090eb1559bf05cb056
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b2bebcc89c651c4beb0d3af7c2a454e2b3cf0bc625078476f44cad4fdee381cc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350513"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776281"
 ---
 # <a name="report-as-finished-from-the-job-card-device"></a>Relatar como concluído no dispositivo de ficha de trabalho
 
@@ -35,7 +35,7 @@ Os trabalhadores usam a página **Andamento do relatório** no dispositivo de fi
 
 Para controlar se e como as quantidades relatadas como concluídas na última operação devem ser adicionadas ao estoque, siga estas etapas.
 
-1. Vá para **Controle de produto \> Configuração \> Execução de fabricação \> Padrões de ordem de produção**.
+1. Acesse **Controle de produto \> Configuração \> Execução de fabricação \> Padrões de ordem de produção**.
 1. Na guia **Relatar como concluído**, defina o campo **Atualizar relatório de conclusão online** como um dos seguintes valores:
 
     - **Não** – nenhuma quantidade será adicionada ao estoque quando as quantidades forem relatadas na última operação. O status da ordem de produção nunca será alterado.
@@ -68,7 +68,7 @@ Para habilitar os dispositivos de fichas de trabalho para aceitar um número de 
 
 Para habilitar um produto para oferecer suporte a qualquer um dos cenários controlados por lote disponíveis, siga estas etapas:
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o produto a ser configurado.
 1. Na Guia Rápida **Gerenciar estoque**, no campo **Grupo de números de lote**, selecione o grupo de números de rastreamento que está configurado para oferecer suporte ao seu cenário.
 
@@ -81,7 +81,7 @@ As seções a seguir descrevem como configurar grupos de números de rastreament
 
 Para permitir números de lote atribuídos manualmente, siga estas etapas para configurar um grupo de números de rastreamento.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Manual** como **Sim**.
 
@@ -97,7 +97,7 @@ Quando você usa esse cenário, o campo **Número de lote** que a página **Anda
 
 Para fornecer uma lista de números de lote predefinidos, siga estas etapas para configurar um grupo de números de rastreamento.
 
-1. Vá para **Gerenciamento de estoque \> Configuração > Dimensões \> Grupos de números de rastreamento**.
+1. Acesse **Gerenciamento de estoque \> Configuração > Dimensões \> Grupos de números de rastreamento**.
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Sim**.
 1. Use o campo **Por qtd** para dividir os números de lote por quantidade com base no valor inserido. Por exemplo, você tem uma ordem de produção de dez peças e o campo **Por qtd** está definido como *2*. Nesse caso, cinco números de lote serão atribuídos à ordem de produção quando ela for criada.
@@ -114,7 +114,7 @@ Quando você usa esse cenário, o campo **Número de lote** que a página **Anda
 
 Se os números de lote tiverem de ser atribuídos automaticamente, sem a entrada do trabalhador, siga estas etapas para configurar um grupo de números de rastreamento.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Não**.
 1. Defina a opção **Manual** como **Não**.
@@ -148,7 +148,7 @@ Para habilitar um produto para oferecer suporte a qualquer um dos cenários cont
 
 Para habilitar cada cenário, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione o produto a ser configurado.
 1. Na Guia Rápida **Gerenciar estoque**, no campo **Grupo de números de série**, selecione o grupo de números de rastreamento que está configurado para oferecer suporte ao seu cenário.
 
@@ -161,7 +161,7 @@ As seções a seguir descrevem como configurar grupos de números de rastreament
 
 Para permitir números de série atribuídos manualmente, siga estas etapas para configurar um grupo de números de rastreamento.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Manual** como **Sim**.
 
@@ -180,7 +180,7 @@ Quando você usa esse cenário, o campo **Número de série** que a página **An
 
 Para fornecer uma lista de números de série, siga estas etapas para configurar um grupo de números de rastreamento.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Sim**.
 1. Use o campo **Por qtd** para dividir os números de série pela quantidade de um.
@@ -197,7 +197,7 @@ Quando você usa esse cenário, o campo **Número de série**, que a página **A
 
 Se um número de série tiver de ser atribuído automaticamente, sem a entrada do trabalhador, siga estas etapas para configurar um grupo de números de rastreamento.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Dimensões \> Grupos de números de rastreamento**.
 1. Crie ou selecione o grupo de números de rastreamento a ser configurado.
 1. Na Guia Rápida **Geral**, defina a opção **Somente para transações de estoque** como **Não**.
 1. Defina a opção **Manual** como **Não**.
@@ -226,7 +226,7 @@ Para usar os recursos descritos nesta seção, você deverá usar o [gerenciamen
 
 Para controlar se os trabalhadores devem reutilizar uma placa de licença existente ou gerar uma nova chapa de licença ao relatar quantidades como concluídas, siga estas etapas.
 
-1. Vá para **Controle de produção \> Configuração \> Execução de fabricação \> Configurar o cartão de trabalho para dispositivos**.
+1. Acesse **Controle de produção \> Configuração \> Execução de fabricação \> Configurar o cartão de trabalho para dispositivos**.
 2. Defina as seguintes opções para cada dispositivo:
 
     - **Gerar placa de licença** - defina essa opção como **Sim** para gerar uma nova placa de licença para cada relatar como concluído. Defina-a como **Não** se uma chapa de licença existente for usada para cada relatar como concluído.
@@ -235,7 +235,7 @@ Para controlar se os trabalhadores devem reutilizar uma placa de licença existe
 ![Página Configurar ficha de trabalho para dispositivos.](media/config-job-card-raf.png "Página Configurar ficha de trabalho para dispositivos")
 
 > [!NOTE]
-> Para configurar a etiqueta, vá para **Gerenciamento de depósito \> Configuração \> Roteiro de documento \> Roteiro de documento**. Para obter mais informações, consulte [Habilitar impressão de etiqueta de placa de licença](../warehousing/tasks/license-plate-label-printing.md).
+> Para configurar a etiqueta, Acesse **Gerenciamento de depósito \> Configuração \> Roteiro de documento \> Roteiro de documento**. Para obter mais informações, consulte [Habilitar impressão de etiqueta de placa de licença](../warehousing/tasks/license-plate-label-printing.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4d27bec86302f3e6cef8318a0d846f31d2d9c6a5
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0623f4e97514246c3fb04e7bfbfe1254e8e08847566282f9a28aa526c806aa47
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747384"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758960"
 ---
 # <a name="create-an-organization-hierarchy"></a>Criar uma hierarquia da organização
 
@@ -31,7 +31,7 @@ Antes de criar uma hierarquia organizacional, você deve criar organizações. P
 A empresa de dados demo usada para criar este procedimento é USMF.
 
 ## <a name="create-a-hierarchy"></a>Criar uma hierarquia
-1. Vá para **Painel de Navegação > Módulos > Administração da organização > Organizações > Hierarquias da organização**.
+1. Acesse **Painel de Navegação > Módulos > Administração da organização > Organizações > Hierarquias da organização**.
 2. No **Painel de Ações**, clique em **Novo**.
 3. No campo **Nome**, digite um valor.
 4. Na seção **Finalidade**, clique em **Atribuir finalidade**.

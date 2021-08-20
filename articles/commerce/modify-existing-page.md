@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b633965e45c16cb4e5991fab67783b867223f6ec
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 0039489c266840e5341f2e322fa7783216ac9bb3ebcecff840f591beec9f79c4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5803720"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751534"
 ---
 # <a name="modify-an-existing-site-page"></a>Modificar uma página de site existente
 
@@ -27,7 +27,7 @@ ms.locfileid: "5803720"
 
 Este tópico descreve como modificar uma página do site existente no Microsoft Dynamics 365 Commerce.
 
-Quando tiver que modificar uma página, a primeira etapa é abri-la no editor de páginas. Vá para o site que contém sua página e, em seguida, na lista de páginas, localize a página que você deseja. Se você não conseguir encontrar a página, use a funcionalidade de pesquisa sofisticada da ferramenta de criação. Digite o nome exato da página, ou digite as primeiras letras dela e um asterisco (\*). Uma lista filtrada de páginas é exibida. Você pode usar essa lista para localizar a página que deseja. Depois que você encontrar a página correta, selecione o nome da página para abrir a página no editor de páginas.
+Quando tiver que modificar uma página, a primeira etapa é abri-la no editor de páginas. Acesse o site que contém sua página e, em seguida, na lista de páginas, localize a página que você deseja. Se você não conseguir encontrar a página, use a funcionalidade de pesquisa sofisticada da ferramenta de criação. Digite o nome exato da página, ou digite as primeiras letras dela e um asterisco (\*). Uma lista filtrada de páginas é exibida. Você pode usar essa lista para localizar a página que deseja. Depois que você encontrar a página correta, selecione o nome da página para abrir a página no editor de páginas.
 
 > [!TIP]
 > Se sua página estiver visível no inspetor de páginas, você pode selecionar **Editar** e verificar a página antes de abri-la no editor de páginas. Dessa forma, você pode fazer check-out de várias páginas ao mesmo tempo.

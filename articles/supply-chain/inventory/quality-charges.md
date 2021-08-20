@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 382890232bff47a885840af1eb7e91d27bb46cae
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 2c062fecea23017e603c55d11de542942576dba74e0dda07452fd7a91109fe78
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022291"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771482"
 ---
 # <a name="charges-for-nonconformance-operations"></a>Encargos para operações de não conformidade
 
@@ -39,7 +39,7 @@ Uma estrutura de taxa é definida para cada circunstância e especificada no con
 
 ## <a name="create-a-quality-charge"></a>Criar um encargo de qualidade
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Encargos de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Encargos de qualidade**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Código de encargos** – Insira um nome ou uma ID exclusiva para o encargo de qualidade.

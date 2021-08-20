@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 58eca42634ad995f174350bc3a1996ddc4c449b9
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 2b8e3903aac99d32bbf4d065e6db1c3f3aab998c04d052d08338eb3f54ccc96f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804080"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761529"
 ---
 # <a name="using-continuity-program"></a>Usando programas de continuidade
 
@@ -27,7 +27,7 @@ ms.locfileid: "5804080"
 
 Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda. Para concluir o procedimento, o usuário precisa estar configurado como usuário de call center. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Varejo e Comércio > Clientes > SAC.
+1. Acesse Varejo e Comércio > Clientes > SAC.
 2. No campo SearchText, digite "Karen" e depois pressione a tecla Tab.
     * A caixa de diálogo de pesquisa avançada deve aparecer. Caso isso não ocorra, clique em Pesquisa à direita desse campo.  
 3. Na lista, marque a linha selecionada.
@@ -48,10 +48,10 @@ Este procedimento aborda a venda de um programa de continuidade e o processament
 13. Clique em Enviar.
     * Você acabou de criar uma ordem de continuidade. Em seguida, você executará dois processos de lote que serão usados para processar as ordens de continuidade.  
 14. Feche a página.
-15. Vá para Varejo e Comércio > Continuidade > Processar pagamentos de continuidade.
+15. Acesse Varejo e Comércio > Continuidade > Processar pagamentos de continuidade.
 16. No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.
 17. Clique em OK.
-18. Vá para Varejo e Comércio > Continuidade > Criar ordens filho de continuidade.
+18. Acesse Varejo e Comércio > Continuidade > Criar ordens filho de continuidade.
     * Esse processo criará ordens de venda com base nas configurações dos seus programas de continuidade.  
 19. No campo Item de continuidade, digite "88000" e depois pressione a tecla Tab.
     * O item "88000" é um item de continuidade nos dados de demonstração da USRT.  

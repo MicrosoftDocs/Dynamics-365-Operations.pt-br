@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 104c8bdf50bfcb7f598020f669a431d6e9d51c83
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9e69b4d9213e57e5a920c7adda934ba845d17410c17d9c8a6356d717870ac23
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5811813"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780067"
 ---
 # <a name="batch-balancing"></a>Balanceamento de lote
 
@@ -49,7 +49,7 @@ Para associar um atributo base a um produto, a seguinte configuração é necess
 - O atributo que indica os níveis do ingrediente deve ser definido como um atributo de lote específico ao produto.
 
 Para pesquisar e editar o valor real do princípio ativo de um lote:
-1. Vá para **Gerenciamento de estoque \> Consultas e relatórios \> Dimensões de rastreamento \> Lotes**.
+1. Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Dimensões de rastreamento \> Lotes**.
 1. Selecione um número de lote na grade.
 1. No painel de ações, abra a guia **Exibir** e selecione **Atributos de lote do estoque**.
 

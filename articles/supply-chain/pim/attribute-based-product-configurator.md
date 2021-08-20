@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sorenand
 ms.search.validFrom: 2020-08-17
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 1538b806a60a9a9950f54c29bd19447c66ac9ec2
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ab3559ad7daf093a19cf3ced6766e8d43b38cca6ccefb2a090cab62737c56ca4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771386"
 ---
 # <a name="attribute-based-sales-prices-for-constraint-based-product-configuration"></a>Preços de venda com base em atributo para a configuração de produtos baseada em restrição
 
@@ -29,7 +29,7 @@ Antes de começar a criar os modelos de preços, você deverá definir uma moeda
 
 Para definir a moeda padrão:
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Parâmetros de gerenciamento de informações do produto**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Parâmetros de gerenciamento de informações do produto**.
 1. Abra a guia **Modelos de configuração do produto com base em restrições**.
 1. Abra a lista suspensa **Moeda padrão** e selecione a sua moeda.
 
@@ -41,7 +41,7 @@ Para definir a moeda padrão:
 
 Para criar um modelo de preço de venda:
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Selecione o modelo de configuração de produto de destino.
 1. No Painel de Ação, abra a guia **Modelo** e, no grupo **Configurar**, selecione **Modelos de preço**.
 1. A página **Modelos de preço** é aberta.
@@ -105,7 +105,7 @@ Quando os modelos de preço estiverem em vigor, você deverá estabelecer pelo m
 
 Para configurar critérios de seleção para modelos de preço:
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Selecione o modelo de configuração de produto de destino.
 1. No Painel de Ação, abra a guia **Modelo** e, no grupo **Configurar**, selecione **Critérios de modelo de preço**. A página **Critérios do modelo de preço** é aberta.
 1. Se a linha de consulta necessária ainda não existir, selecione **Novo** no Painel de Ação para adicionar uma nova linha à grade e fazer as seguintes configurações:
@@ -133,7 +133,7 @@ Para configurar critérios de seleção para modelos de preço:
 
 A etapa final é especificar preços de venda com base no atributo para a versão do modelo de produto. Para fazer isto:
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Selecione o modelo de configuração de produto de destino.
 1. No Painel de Ação, abra a guia **Modelo** e, no grupo **Detalhes do modelo de produto**, selecione **Versões**.
 1. A página **Versões** é aberta. Certifique-se de que o **Método de preço** esteja definido como **Com base em atributo**.

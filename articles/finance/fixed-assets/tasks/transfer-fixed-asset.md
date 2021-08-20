@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7588e0058713d7facf053aa269210fc88e5a3ff2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c307568ab1cc064c27fa8d3e24756f564947e4716aaed1c280019c1283da1c93
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823875"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765683"
 ---
 # <a name="transfer-a-fixed-asset"></a>Transferir um ativo fixo
 
@@ -26,7 +26,7 @@ ms.locfileid: "5823875"
 
 Este guia da tarefa transfere as informações financeiras para um registro de ativo fixo de um conjunto de dimensões financeiras para um novo conjunto de dimensões financeiras.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Na lista, localize e selecione o ativo fixo que você deseja transferir.
 3. No Painel de Ação, clique em **Ativo fixo**.
 4. Clique em **Transferir ativos fixos**.

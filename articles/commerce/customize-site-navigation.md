@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 5bc50243ac3845adc60bfc173fc532fb28f3cdf6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 8af68fff17f2f92356ade356da0e75867ed54950d744c6cbe730ad8db4ac3975
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799340"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755873"
 ---
 # <a name="customize-site-navigation"></a>Personalizar a navegação do site
 
@@ -33,7 +33,7 @@ As lojas online normalmente permitem que os clientes descubram e naveguem entre 
 
 Para criar uma hierarquia de navegação de canal, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Produtos e categorias \> Gerenciamento de categorias e produtos**.
+1. Acesse **Varejo e Comércio \> Produtos e categorias \> Gerenciamento de categorias e produtos**.
 1. Selecione **Hierarquias de categoria** e depois **Novo**.
 1. Nomeie a hierarquia.
 
@@ -51,7 +51,7 @@ Por padrão, as categorias que você define em ordem alfabética aparecerão no 
 
 ## <a name="assign-a-category-hierarchy-type"></a>Atribuir um tipo de hierarquia de categoria
 
-1. Vá para **Varejo e Comércio \> Produtos e categorias \> Gerenciamento de categorias e produtos**.
+1. Acesse **Varejo e Comércio \> Produtos e categorias \> Gerenciamento de categorias e produtos**.
 1. Selecione **Hierarquias de categoria**.
 1. No Painel de Ação, na guia **Hierarquias de categoria**, no grupo **Configurar**, selecione **Associar tipo de hierarquia**.
 1. Selecione **Novo**.
@@ -62,10 +62,10 @@ Por padrão, as categorias que você define em ordem alfabética aparecerão no 
 
 Para tornar sua hierarquia de navegação disponível na loja online, siga essas etapas.
 
-1. Vá para **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
+1. Acesse **Varejo e Comércio \> Configuração de canal \> Categorias do canal e atributos de produto**.
 1. Na árvore a esquerda, selecione seu armazenamento online.
 1. Selecione **Publicar atualizações de canal**.
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Na lista, localize e selecione **Trabalho 1040**.
 1. Selecione **Executar agora**.
 1. Repita as etapas 5 e 6 para a trabalhos 1070 e 1150.

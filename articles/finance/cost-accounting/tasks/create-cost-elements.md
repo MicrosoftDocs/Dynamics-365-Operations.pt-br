@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c4c1e2aee7ba98c1cca378286afb643eaca1600
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ba36e8d2c5b1fc1df6e63e5eef20c465cbd0b693086eece4079ae2216d2c156e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810069"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762379"
 ---
 # <a name="create-cost-elements"></a>Criar elementos de custo   
 
@@ -28,7 +28,7 @@ Há várias maneiras de criar elementos de custo na Contabilização de custos. 
 
 
 ## <a name="create-new-cost-elements"></a>Criar novos elementos de custo
-1. Vá para Contabilização de custos > Dimensões > Dimensões do elemento de custo.
+1. Acesse Contabilização de custos > Dimensões > Dimensões do elemento de custo.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. No campo Conector de dados para membros de dimensões, insira ou selecione um valor.

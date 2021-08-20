@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-07-07
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 1e054c4010f730519532b67fe900573480ea2a67
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd90b3c8b84aa969f93015f8c953105db1636902c7dcf1d3150356284efa302b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825978"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780213"
 ---
 # <a name="inventory-on-hand-list"></a>Lista de estoque disponível
 
@@ -28,7 +28,7 @@ Este tópico descreve como usar a página de **listagem disponível** para inspe
 
 ## <a name="query-your-on-hand-inventory"></a>Consulte seu estoque disponível
 
-Para verificar a disponibilidade do estoque, vá para **Gerenciamento de estoque \> Consultas e relatórios \> Listagem disponível**.
+Para verificar a disponibilidade do estoque, Acesse **Gerenciamento de estoque \> Consultas e relatórios \> Listagem disponível**.
 
 A página **Listagem disponível** é atualizada automaticamente quando as transações são feitas no estoque. Essas transações podem ser previstas, físicas ou financeiras.
 

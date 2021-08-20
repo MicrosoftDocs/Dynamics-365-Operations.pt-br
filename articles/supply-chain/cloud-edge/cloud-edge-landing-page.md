@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: ffb1cedc08b033532580fda1349ade32b7dc1eb1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354800"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780665"
 ---
 # <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escala de nuvem e borda para cargas de trabalho de gerenciamento de fabricação e depósito
 
@@ -102,7 +102,7 @@ O ambiente de produção atual deve estar marcado com o tipo **Autoatendimento**
 > [!IMPORTANT]
 > Não há suporte para tipos de ambiente executados como infraestrutura como serviço (IaaS). Esses ambientes são geralmente marcados com o tipo **Gerenciado pela Microsoft** no LCS. Se você tiver ambientes desse tipo, trabalhe com o seu contato da Microsoft para entender a linha do tempo de migração para o tipo **Autoatendimento**.
 
-A Microsoft está no processo de transição de todos os ambientes de nuvem do Supply Chain Management do modelo IaaS para uma topologia hospedada no Service Fabric. Essa mudança apresenta melhor escalabilidade e facilita o gerenciamento de serviços. Portanto, as operações de implantação e manutenção são mais rápidas. Da mesma forma, os componentes de serviços estão sendo migrados para o conceito de microsserviços e o modelo de hospedagem de serviços [mudará](https://docs.microsoft.com/virtualization/windowscontainers/about/containers-vs-vm) de um modelo de máquina virtual (VM) para uma arquitetura conteinerizada leve.
+A Microsoft está no processo de transição de todos os ambientes de nuvem do Supply Chain Management do modelo IaaS para uma topologia hospedada no Service Fabric. Essa mudança apresenta melhor escalabilidade e facilita o gerenciamento de serviços. Portanto, as operações de implantação e manutenção são mais rápidas. Da mesma forma, os componentes de serviços estão sendo migrados para o conceito de microsserviços e o modelo de hospedagem de serviços [mudará](/virtualization/windowscontainers/about/containers-vs-vm) de um modelo de máquina virtual (VM) para uma arquitetura conteinerizada leve.
 
 Por fim, a mesma infraestrutura de serviço conteinerizada baseada em Service Fabric capacitará as instâncias de nuvem e borda do serviço, independentemente de uma instância ser um hub na nuvem ou uma unidade de escala na nuvem ou na borda.
 

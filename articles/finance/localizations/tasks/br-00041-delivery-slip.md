@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c862529ec5735cdcb9d8c0b6b04a1a299bb029d3
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4f4c857849c4303fd519f08b43015a636deca752ab4c6808627d92765e7db471
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821863"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770496"
 ---
 # <a name="delivery-slips-brazil"></a>Guias de entrega (Brasil)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5821863"
 
 Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações). Para cada linha de ordem de venda, você deve especificar o código CFOP que tem um código CFOP de entrega atribuído a ele. Uma guia de entrega é usada quando o cliente para o qual você entrega itens difere do cliente que é faturado. (Ou seja, a conta do cliente e a conta da fatura diferem.) As guias de entrega são lançadas em ordem cronológica. É preciso anexar referências fiscais a guias de entrega antes de lançá-las. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
+1. Acesse Vendas e marketing > Ordens de venda > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
 4. Clique em OK.
@@ -65,7 +65,7 @@ Você pode lançar uma guia de entrega para uma ordem de venda com várias linha
 31. Clique em OK.
 32. Feche a página.
 33. Feche a página.
-34. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+34. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 35. Clique em OK.
 
 

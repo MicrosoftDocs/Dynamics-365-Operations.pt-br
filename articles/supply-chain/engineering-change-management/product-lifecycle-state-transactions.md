@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8bb3d5848b7e2c50a8fdaba1c6a1a7c0087d1390
-ms.sourcegitcommit: b67665ed689c55df1a67d1a7840947c3977d600c
+ms.openlocfilehash: 099e8af88d7f6dfaf6268d0ca73a120487920c4c694dc3f540d7ef6a21ddd730
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6016947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744145"
 ---
 # <a name="product-lifecycle-states-and-transactions"></a>Estados e transações de ciclo de vida do produto
 
@@ -30,7 +30,7 @@ Para um produto de engenharia, as alterações no estado do ciclo de vida são a
 
 ## <a name="create-and-manage-product-lifecycle-states"></a>Criar e gerenciar estados do ciclo de vida do produto
 
-Para trabalhar com estados do ciclo de vida de produtos, vá para **Gerenciamento de alteração de engenharia \> Configuração \> Estado de ciclo de vida de produtos**. Siga uma destas etapas.
+Para trabalhar com estados do ciclo de vida de produtos, Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Estado de ciclo de vida de produtos**. Siga uma destas etapas.
 
 - Para criar um novo estado do ciclo de vida, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
 - Para editar um estado do ciclo de vida existente, selecione-o no painel de listas, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.

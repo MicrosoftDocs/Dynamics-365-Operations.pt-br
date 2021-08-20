@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f46344dfd816e0960a7a9d74089a493ca5237b95
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 07d52e1152275e05e0d4ccc2c8d88818a19866e154f52275a8370606414102af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816427"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774696"
 ---
 # <a name="set-up-sales-commission-rules"></a>Configurar regras de comissão de vendas
 
@@ -28,19 +28,19 @@ Este procedimento mostra como configurar e habilitar cálculo e controle de vend
 
 
 ## <a name="set-up-commission-groups-and-commission-rates"></a>Defina grupos de comissões e taxas de comissões.
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Comissões > Grupos de cliente para comissão**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Comissões > Grupos de cliente para comissão**.
 2. Selecione **Novo**.
 3. No campo **Grupo**, digite um valor.
 4. No campo **Nome**, digite um valor.
 5. Selecione **Salvar**.
 6. Feche a página.
-7. Vá para **Painel de navegação > Módulos > Vendas e marketing > Comissões > Grupos de itens**.
+7. Acesse **Painel de navegação > Módulos > Vendas e marketing > Comissões > Grupos de itens**.
 8. Selecione **Novo**.
 9. No campo **Grupo**, digite um valor.
 10. No campo **Nome**, digite um valor.
 11. Selecione **Salvar**.
 12. Feche a página.
-13. Vá para **Vendas e marketing > Comissões > Grupos de vendas**.
+13. Acesse **Vendas e marketing > Comissões > Grupos de vendas**.
     - Um grupo de vendas por comissão especifica os funcionários em funções de representante de vendas que têm o direito a receber uma comissão quando um cliente associado ao grupo de vendas relevante compra determinados itens.  
     - Na empresa de dados de demonstração USMF, há um grupo de vendas chamado "Reps de vendas EUA".  
 14. No **Painel de Ação**, selecione **Geral**.
@@ -54,7 +54,7 @@ Este procedimento mostra como configurar e habilitar cálculo e controle de vend
 22. Clique em **Selecionar**.
 23. Defina a **Cota de comissão** como "50".
 24. Clique em **Salvar**.
-25. Vá para **Vendas e marketing > Comissões > Cálculo de comissão**. Na página **Cálculo de comissão**, você define a taxa de comissão que o funcionário receberá por transações de vendas quando elas contêm a combinação predefinida de cliente e produto. Como parte da configuração da taxa de comissão, você precisa especificar a base do cálculo de comissões e se descontos devem ser incluídos ou excluídos. Você também pode inserir um período de validade para quando a comissão está ativa.  
+25. Acesse **Vendas e marketing > Comissões > Cálculo de comissão**. Na página **Cálculo de comissão**, você define a taxa de comissão que o funcionário receberá por transações de vendas quando elas contêm a combinação predefinida de cliente e produto. Como parte da configuração da taxa de comissão, você precisa especificar a base do cálculo de comissões e se descontos devem ser incluídos ou excluídos. Você também pode inserir um período de validade para quando a comissão está ativa.  
 26. Clique em **Novo**.
 27. No campo **Código de item**, selecione 'Grupo'.
 28. No campo **Relação do item**, clique no botão suspenso para abrir a pesquisa.
@@ -70,11 +70,11 @@ Este procedimento mostra como configurar e habilitar cálculo e controle de vend
 36. Clique em **Salvar**.
 
 ## <a name="setting-up-commission-posting"></a>Configuração de lançamento de comissões
-1. Vá para **Painel de navegação > Vendas e marketing > Comissões > Lançamento de comissão**. Taxas de comissão são pagáveis aos funcionários e, portanto, devem ser configuradas para assegurar um lançamento financeiro correto nas contas apropriadas da **Contabilidade**. Isso é feito na página **Lançamento de comissão**. Revise a configuração que está disponível para a empresa atual. Normalmente, os valores de comissão são lançados em uma conta de despesas exclusiva e são compensados em uma conta a pagar exclusiva. Se não houver regras de lançamento de comissão configuradas, o sistema não poderá concluir o faturamento de uma ordem de venda com comissões elegíveis.  
+1. Acesse **Painel de navegação > Vendas e marketing > Comissões > Lançamento de comissão**. Taxas de comissão são pagáveis aos funcionários e, portanto, devem ser configuradas para assegurar um lançamento financeiro correto nas contas apropriadas da **Contabilidade**. Isso é feito na página **Lançamento de comissão**. Revise a configuração que está disponível para a empresa atual. Normalmente, os valores de comissão são lançados em uma conta de despesas exclusiva e são compensados em uma conta a pagar exclusiva. Se não houver regras de lançamento de comissão configuradas, o sistema não poderá concluir o faturamento de uma ordem de venda com comissões elegíveis.  
 2. Feche a página.
 
 ## <a name="assign-a-commission-group-to-a-customer-and-a-product"></a>Atribua um grupo de comissões a um cliente e produto
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Clientes > Todos os clientes**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Clientes > Todos os clientes**.
 2. Na lista, localize e selecione o registro desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique em **Editar**.
@@ -84,7 +84,7 @@ Este procedimento mostra como configurar e habilitar cálculo e controle de vend
 8. No campo **Grupo de vendas**, clique no botão suspenso para abrir a pesquisa.
 9. Na lista, localize e selecione o registro desejado.
 10. Clique em **Salvar**.
-11. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+11. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 12. Use o **Filtro** para localizar registros. Por exemplo, filtre no campo Número do item com um valor de 'T0020'.
 13. Na lista, clique no link na linha selecionada.
 14. Clique em **Editar**.

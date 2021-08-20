@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: f44d500d58dffb37b27d230b0633336eb87996a6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 47ec1319c7d1dde151f63e7e37e86c0265d84089f4d0366dea9310bda49c859d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838049"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780425"
 ---
 # <a name="wave-step-codes"></a>Códigos da etapa da onda
 
@@ -43,7 +43,7 @@ Para esta demonstração, os dados de demonstração devem ser instalados, e voc
 
 Siga estas etapas para ativar o recurso de códigos da etapa da onda.
 
-1. Vá para **Gerenciamento de Recursos**.
+1. Acesse **Gerenciamento de Recursos**.
 2. Selecione para habilitar o recurso chamado **Código de Etapa de Onda para Toda a Organização**.
 
 Todos os textos livres da etapa da onda existentes em todas as entidades legais são atualizados para a nova estrutura. Depois que essa atualização for concluída para todas as entidades legais, o recurso será habilitado. Se o recurso não puder ser habilitado para uma ou mais entidades legais, o recurso não estará habilitado para nenhuma entidade legal.
@@ -68,7 +68,7 @@ Cada novo código da etapa e sua ID associada devem ser exclusivos em todos os t
 
 Depois de definir os códigos da etapa da onda apropriados, eles podem ser aplicados aos métodos da etapa da onda.
 
-Para aplicar códigos da etapa da onda, vá para o modelo apropriado de destino. Veja a seguir os modelos de destino para os quais os códigos da etapa da onda estão designados para apontar:
+Para aplicar códigos da etapa da onda, Acesse o modelo apropriado de destino. Veja a seguir os modelos de destino para os quais os códigos da etapa da onda estão designados para apontar:
 
 - **Modelos de reabastecimento:** Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento
 - **Modelos de criação de carga:** Gerenciamento de depósito \> Configuração \> Carga \> Modelos de criação de carga
@@ -82,10 +82,10 @@ Os modelos nesta lista são aplicados quando referidos em um método da etapa da
 
 O procedimento a seguir ajuda a garantir que o método de reabastecimento criado seja aplicado para o modelo da onda.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda** e crie um código da etapa da onda para o tipo **Reabastecimento**.
-2. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento** e crie o modelos de reabastecimento.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Códigos da etapa da onda** e crie um código da etapa da onda para o tipo **Reabastecimento**.
+2. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de reabastecimento** e crie o modelos de reabastecimento.
 3. No modelo de reabastecimento, selecione o código da etapa da onda criada para o tipo **Reabastecimento**.
-4. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos da onda** e selecione o modelo da onda que você deseja usar.
+4. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos da onda** e selecione o modelo da onda que você deseja usar.
 5. No modelo, na guia rápida **Métodos**, selecione o método **Reabastecimento**.
 6. No campo **Código da etapa da onda**, selecione o código da etapa da onda selecionada no modelo de reabastecimento.
 

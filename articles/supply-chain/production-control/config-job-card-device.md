@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 2ccfbadb48e2ecd274e68201bbbc7858ab01203a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9da14c22b0ab62a8384fbe76918cc19da0205cdbbf2f4fd2ef8e7aec57b264ee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836581"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781005"
 ---
 # <a name="configure-job-card-for-devices"></a>Configurar o cartão de trabalho para dispositivos
 
@@ -52,7 +52,7 @@ Para disponibilizar este recurso, habilite o seguinte recurso no [gerenciamento 
 
 ## <a name="manage-your-device-configurations"></a>Gerenciar suas configurações de dispositivo
 
-Para definir configurações de dispositivo, vá para **Controle de produção > Configuração > Execução de fabricação > Configurar ficha de trabalho para dispositivos**. A página **Configurar ficha de trabalho para dispositivos** é aberta, que mostra uma lista das configurações existentes. Aqui, você pode fazer o seguinte: 
+Para definir configurações de dispositivo, Acesse **Controle de produção > Configuração > Execução de fabricação > Configurar ficha de trabalho para dispositivos**. A página **Configurar ficha de trabalho para dispositivos** é aberta, que mostra uma lista das configurações existentes. Aqui, você pode fazer o seguinte: 
 
 - Selecione qualquer configuração de dispositivo listada na coluna à esquerda para exibi-la e editá-la.
 - Selecione **Novo** no Painel de Ações para adicionar uma nova configuração de dispositivo à lista. Insira um nome no campo **Configuração** para identificar a nova configuração. O valor inserido aqui deve ser exclusivo entre todas as configurações de dispositivo e você não poderá editá-lo posteriormente.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 39dabeb8bacc4ebc3376f53f15c7fb292c8d301c
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 715b18acb10edebafe60805393cbc16c5be513ef3605cf7a575ff98362443bb6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766424"
 ---
 # <a name="provision-microsoft-teams-from-dynamics-365-commerce"></a>Provisionar o Microsoft Teams a partir do Dynamics 365 Commerce
 
@@ -42,9 +42,9 @@ Antes de provisionar o Microsoft Teams, conclua estas tarefas:
 
 Para provisionar o Teams no Commerce headquarters, siga estas etapas:
 
-1. Vá para **Varejo e Comércio \> Configuração do canal \> Configuração de integração do Microsoft Teams**.
+1. Acesse **Varejo e Comércio \> Configuração do canal \> Configuração de integração do Microsoft Teams**.
 1. No Painel de Ações, selecione **Provisionar teams**. Um trabalho em lotes chamado **Provisão do Teams** é criado.
-1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**, e localize o trabalho mais recente com a descrição **Provisão do Teams**. Aguarde até que a execução do trabalho tenha sido concluída.
+1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**, e localize o trabalho mais recente com a descrição **Provisão do Teams**. Aguarde até que a execução do trabalho tenha sido concluída.
 
 > [!TIP]
 > Se nenhum dos gerentes regionais, gerentes de loja e trabalhadores de loja tiverem sido associados a uma licença do Teams, você poderá receber a seguinte mensagem de erro: "Falha ao recuperar as categorias de SKU aplicáveis ao usuário". Para corrigir o problema, selecione **Sincronizar equipes e membros** no Painel de Ações.
@@ -55,7 +55,7 @@ Para provisionar o Teams no Commerce headquarters, siga estas etapas:
 
 Para validar o provisionamento do Microsoft Teams no centro de administração do Microsoft Teams, siga estas etapas.
     
-1. Vá para o [centro de administração do Teams](https://admin.teams.microsoft.com/)e entre como administrador do seu locatário de comércio eletrônico.
+1. Acesse o [centro de administração do Teams](https://admin.teams.microsoft.com/)e entre como administrador do seu locatário de comércio eletrônico.
 1. No painel de navegação esquerdo, selecione **Teams** para expandi-lo e selecione **Gerenciar equipes**.
 1. Confirme se uma equipe foi criada para cada loja de varejo do Commerce.
 1. Selecione uma equipe e confirme se os trabalhadores da loja foram adicionados a ela como membros.
@@ -71,7 +71,7 @@ A hierarquia organizacional do Commerce pode ser usada no Microsoft Teams para p
 
 Para carregar uma hierarquia organizacional do Commerce no Teams, siga estas etapas.
     
-1. No Commerce headquarters, vá para **Varejo e Comércio \> Configuração do canal \> Configuração de integração do Microsoft Teams**.
+1. No Commerce headquarters, Acesse **Varejo e Comércio \> Configuração do canal \> Configuração de integração do Microsoft Teams**.
 1. Selecione **Baixar hierarquia de destino** e, em seguida, selecione **Lojas de Varejo por Região** para baixar um arquivo CSV (valores separados por vírgula) da hierarquia organizacional.
 1. Instale o módulo Microsoft Teams PowerShell seguindo as etapas em [Instalar o Microsoft Teams PowerShell](/microsoftteams/teams-powershell-install).
 1. Quando for solicitada na janela Teams PowerShell, entre usando a conta de administrador do seu locatário do Azure AD.

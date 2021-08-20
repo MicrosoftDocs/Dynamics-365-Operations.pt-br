@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4166ffd043db24e814bcb85df07f0b940d5328d9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 535fa6cfcf1f966b02ee7b391bb41dcbc2c2ac1fc85bcd09e3811fc027621cc4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833872"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755386"
 ---
 # <a name="define-inventory-counting-processes"></a>Definir processos de contagem de estoque
 
@@ -29,7 +29,7 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 
 
 ## <a name="create-a-counting-group"></a>Crie um grupo de contagem
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Estoque > Grupos de contagem**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Estoque > Grupos de contagem**.
 2. Selecione **Novo**.
 3. No campo **Grupo de contagem** da nova linha, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -45,7 +45,7 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 6. Selecione **Salvar**.
 
 ## <a name="create-a-counting-journal-name"></a>Criar um nome de diário de contabilidade
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de estoque > Configuração > Nomes de diário > Estoque**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de estoque > Configuração > Nomes de diário > Estoque**.
 2. Selecione **Novo**.
 3. No campo **Nome**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -61,13 +61,13 @@ Este tópico descreve a configuração dos processos de contagem básicos de est
 7. Selecione **Salvar**.
 
 ## <a name="set-standard-counting-journal-name"></a>Defina o nome de diário padrão de contagem
-1. No Painel de Navegação, vá para **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
+1. No Painel de Navegação, Acesse **Painel de navegação > Módulos > Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque**.
 2. Selecione a guia **Diários**.
 3. No menu suspenso do campo **Contagem**, selecione o diário que você criou anteriormente. Este diário será o diário padrão para diários de estoque do tipo **Contagem**.  
 4. Selecione a guia **Geral**. Opcional: Selecione esta opção para bloquear um item durante o processo de contagem para evitar atualizações para guias de remessa, listas de separação, ou registros de lista de separação.  
 
 ## <a name="set-the-counting-policy-for-an-item"></a>Configure a política de contabilidade para um item
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos liberados**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos liberados**.
 2. Na lista, selecione o link no número de item dos produtos que você deseja definir sobre diretivas de contagem. Você precisa selecionar um item que é rastreado por estoque. Um produto não estocado não pode ser contabilizado. Se você estiver usando dados de demonstração de USMF você pode selecionar o item A0001.  
 3. Selecione **Editar**.
 4. Alternar a expansão da seção **Gerenciar estoque**.

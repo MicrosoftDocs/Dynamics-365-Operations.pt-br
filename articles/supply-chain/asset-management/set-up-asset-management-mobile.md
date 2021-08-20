@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2020-12-22
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 9c8f202a813520129867b57e660e8d995c20ed87
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 04188a1b6c65fd2430b34aa6af464c76dbad25feb40f185c261e10896bb2396b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782602"
 ---
 # <a name="set-up-the-asset-management-mobile-workspace"></a>Configurar o espaço de trabalho móvel Gerenciamento de ativos
 
@@ -30,10 +30,10 @@ Este tópico descreve como configurar o Microsoft Dynamics 365 Supply Chain Mana
 
 Para cada usuário que precisar de acesso ao espaço de trabalho móvel **Gerenciamento de ativos**, siga estas etapas.
 
-1. No Supply Chain Management, vá para **Recursos humanos \> Trabalhadores** e verifique se há um registro de trabalhador para o usuário que você deseja configurar. Crie um novo registro de trabalhador conforme necessário.
-1. Vá para **Gerenciamento de ativos \> Configuração \> Trabalhadores \> Trabalhadores** e verifique se o registro de trabalhador que você identificou (ou criou) na etapa anterior foi mapeado para um registro de funcionário de manutenção. Crie um novo registro de funcionário de manutenção conforme necessário e defina o campo **Trabalhador** como o registro de trabalhador da etapa anterior.
-1. Vá para **Gerenciamento de ativos \> Configuração \> Trabalhadores \> Grupos de funcionários de manutenção** e verifique se o registro de funcionário de manutenção que você identificou (ou criou) na etapa anterior pertence a um grupo de funcionários de manutenção.
-1. Vá para **Administração do sistema \> Usuários**.
+1. No Supply Chain Management, Acesse **Recursos humanos \> Trabalhadores** e verifique se há um registro de trabalhador para o usuário que você deseja configurar. Crie um novo registro de trabalhador conforme necessário.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Trabalhadores \> Trabalhadores** e verifique se o registro de trabalhador que você identificou (ou criou) na etapa anterior foi mapeado para um registro de funcionário de manutenção. Crie um novo registro de funcionário de manutenção conforme necessário e defina o campo **Trabalhador** como o registro de trabalhador da etapa anterior.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Trabalhadores \> Grupos de funcionários de manutenção** e verifique se o registro de funcionário de manutenção que você identificou (ou criou) na etapa anterior pertence a um grupo de funcionários de manutenção.
+1. Acesse **Administração do sistema \> Usuários**.
 1. Selecione o usuário relevante na grade.
 1. Na FastTab **Detalhes do Usuário**, defina o campo **Pessoa** como a conta de trabalhador que você deseja associar à conta de usuário atual. Essa conta de trabalhador deve ser o registro de trabalhador que você identificou (ou criou) na etapa 1 e mapeou para um registro de funcionário de manutenção na etapa 2.
 

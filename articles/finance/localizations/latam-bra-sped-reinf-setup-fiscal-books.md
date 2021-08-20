@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 2efb6f9790d73037ec4fdc5fb004af38e26daa5b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9462d70b30595570b556efb1ee4e782e2c7e35a81edc83181f159bef508f1dcd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347178"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776458"
 ---
 # <a name="set-up-fiscal-books"></a>Configurar livros fiscais
 

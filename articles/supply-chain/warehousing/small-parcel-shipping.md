@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-08
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: d6b24446a5944eb82334dc5dc1f0b15656f83a12
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e4682674e6f61b9b75276df57afa522b29b5f052fd8a4c450c7fcfbe79654f90
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780449"
 ---
 # <a name="small-parcel-shipping"></a>Remessa de pacotes pequenos
 
@@ -66,7 +66,7 @@ Para obter mais informações sobre como criar um mecanismo de taxa de SPS, cons
 
 Depois de criar e implantar um mecanismo de taxa na SPS, siga estas etapas para configurá-lo.
 
-1. Vá para **Gerenciamento de transporte \> Configuração \> Mecanismos \> Mecanismo de taxa**.
+1. Acesse **Gerenciamento de transporte \> Configuração \> Mecanismos \> Mecanismo de taxa**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os seguintes campos:
 
@@ -92,7 +92,7 @@ Para este cenário de exemplo, você deve ter uma transportadora de demonstraç�
 
 Siga estas etapas para configurar uma transportadora.
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma transportadora.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -131,7 +131,7 @@ Para obter mais informações sobre como configurar transportadoras, consulte [C
 
 Siga estas etapas para configurar uma conta de serviço de transportadora.
 
-1. Vá para **Gerenciamento de transporte \> Configuração \> Classificação \> Conta de serviço de transportadora**.
+1. Acesse **Gerenciamento de transporte \> Configuração \> Classificação \> Conta de serviço de transportadora**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma conta de serviço de transportadora.
 1. Defina os seguintes valores para a nova conta:
 
@@ -149,7 +149,7 @@ Siga estas etapas para configurar uma conta de serviço de transportadora.
 Siga estas etapas para configurar uma política de embalagem de contêiner.
 
 1. Se você ainda não configurou uma definição de impressora ZPL, use o aplicativo Agente de Roteamento de Documentos para configurá-la. Para obter mais informações, consulte [Visão geral da impressão de documentos](../../fin-ops-core/dev-itpro/analytics/print-documents.md) e tópicos relacionados.
-1. Vá para **Gerenciamento de depósito \> Configuração \> Contêineres \> Políticas de embalagem de contêiner**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Contêineres \> Políticas de embalagem de contêiner**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma política de embalagem de contêiner.
 1. No cabeçalho da nova política, defina os seguintes valores:
 
@@ -179,7 +179,7 @@ Siga estas etapas para configurar uma política de embalagem de contêiner.
 
 Siga estas etapas para configurar um perfil de embalagem.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Embalagem \> Perfis de embalagem**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Embalagem \> Perfis de embalagem**.
 1. No Painel de Ações, selecione **Novo** para adicionar um perfil de embalagem à grade.
 1. Defina os seguintes valores para o novo perfil:
 
@@ -193,7 +193,7 @@ Siga estas etapas para configurar um perfil de embalagem.
 
 Siga estas etapas para configurar um cliente de modo que ele possa usar a transportadora que você criou.
 
-1. Vá para **Contas a receber \> Clientes \> Todos os clientes**.
+1. Acesse **Contas a receber \> Clientes \> Todos os clientes**.
 1. Na grade, localize e selecione o cliente *US-027*.
 1. No Painel de Ações, na guia **Geral**, no grupo **Configurar**, selecione **Contas de cliente de transportadora**.
 1. Na página **Contas de cliente de transportadora**, no Painel de Ações, selecione **Novo** para adicionar uma conta à grade.
@@ -210,7 +210,7 @@ Depois de configurar todos os dados de exemplo conforme descrito na seção ante
 
 Siga estas etapas para criar uma ordem de venda.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, defina o campo **Conta de cliente** como *US-027*.
 1. Selecione **OK** para criar a ordem de venda e fechar a caixa de diálogo.
@@ -239,7 +239,7 @@ Siga estas etapas para criar uma ordem de venda.
 1. Na seção **Linhas da ordem de venda**, selecione **Depósito \> Detalhes da remessa**.
 1. Na página **Detalhes da remessa**, anote a ID da remessa. Você precisará dela ao embalar a remessa na estação de embalagem.
 1. Feche a página **Detalhes da remessa** para retornar à ordem de venda.
-1. Anote o número da ordem de venda e, em seguida, vá para **Gerenciamento de depósito \> Trabalho \> Todos os trabalhos**.
+1. Anote o número da ordem de venda e, em seguida, Acesse **Gerenciamento de depósito \> Trabalho \> Todos os trabalhos**.
 1. Use o número da ordem de venda para localizar e selecionar o trabalho criado para a ordem.
 1. No Painel de Ações, na guia **Trabalho**, selecione **Concluir trabalho**.
 1. Na página **Conclusão do trabalho**, no campo **ID de Usuário**, selecione uma ID de usuário. Em seguida, no Painel de Ações, selecione **Validar trabalho**.
@@ -251,8 +251,8 @@ Siga estas etapas para criar uma ordem de venda.
 
 Siga estas etapas para embalar a remessa.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalhador** e verifique se a sua conta de usuário está associada a uma conta de trabalhador para gerenciamento de depósito.
-1. Vá para **Gerenciamento de depósito \> Separação e transporte em contêineres \> Embalar**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalhador** e verifique se a sua conta de usuário está associada a uma conta de trabalhador para gerenciamento de depósito.
+1. Acesse **Gerenciamento de depósito \> Separação e transporte em contêineres \> Embalar**.
 1. Na caixa de diálogo **Selecionar estação de embalagem**, defina os seguintes valores:
 
     - **Local:** *6*

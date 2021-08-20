@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 74c845cf5ce361b0e9594863cdfca98d9cb9b0ca
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 548eec45739a52d4eb168a80660540196225b2ed482d2104a4cd0d00503109dd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356310"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773779"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-3---design-the-report"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 3: Criar o relatório)
 
@@ -30,7 +30,7 @@ Para completar essas etapas, primeiro você deve concluir as etapas "Dimensões 
 
 
 ## <a name="design-a-report-to-present-financial-dimensions"></a>Criar um relatório para apresentar dimensões financeiras
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, selecione "Modelo de amostra de dimensão financeira".
 3. Clique em Criar configuração para abrir a caixa de diálogo suspensa.
 4. No campo Novo, insira 'Formato baseado no modelo de dados modelo de amostra de dimensões financeiras'.
