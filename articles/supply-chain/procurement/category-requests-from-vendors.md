@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-19
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1951f85f84c3b8b2d42f49d5f464d90d410ebfa2
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: f73e163084ec2870d01cc063c63246a4480fd3a056d04617771b955477325671
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015942"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782482"
 ---
 # <a name="category-requests-from-vendors"></a>Solicitações de categoria de fornecedores
 
@@ -28,7 +28,7 @@ As solicitações de categoria são iniciadas por fornecedores no espaço de tra
 
 ## <a name="turn-on-the-feature-in-your-system"></a>Ative o recurso no seu sistema
 
-Se o sistema ainda não incluir o recurso descrito neste tópico, vá para [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Permitir que os fornecedores se apliquem às categorias de compras por meio da colaboração do fornecedor*.
+Se o sistema ainda não incluir o recurso descrito neste tópico, Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Permitir que os fornecedores se apliquem às categorias de compras por meio da colaboração do fornecedor*.
 
 Depois que o recurso for ativado, você ainda poderá adicionar categorias de compras manualmente a contas de fornecedor. Para obter mais informações, consulte [Aprovar fornecedores para categorias específicas da compras](tasks/approve-vendors-specific-procurement-categories.md).
 
@@ -46,7 +46,7 @@ O fluxo de trabalho *Solicitação de categoria de fornecedor* deve ser configur
 
 O exemplo a seguir mostra como configurar um fluxo de trabalho de *Solicitação de categoria de fornecedor* simples que tenha um único aprovador. Você deve revisar seus processos internos para determinar a configuração de fluxo de trabalho apropriada para a sua agência.
 
-1. Vá para **Compras e fornecimento \> Configuração \> Fluxos de trabalho de compras e fornecimento**.
+1. Acesse **Compras e fornecimento \> Configuração \> Fluxos de trabalho de compras e fornecimento**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo, selecione **Fluxo de trabalho de solicitação de categoria de fornecedor** para abrir o editor de fluxo de trabalho.
 1. Efetue login no editor de fluxo de trabalho.
@@ -168,7 +168,7 @@ Esta seção explica como aprovar, rejeitar e delegar solicitações de categori
 
 Para exibir solicitações de categoria, siga estas etapas.
 
-1. Vá para **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
+1. Acesse **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
 
     A página **Solicitações de categoria** será exibida. A exibição de página padrão mostra solicitações de categoria que têm um status de *Ação Pendente*.
 
@@ -186,7 +186,7 @@ Para exibir solicitações de categoria, siga estas etapas.
 
 Para aprovar uma solicitação de categoria pendente, siga estas etapas.
 
-1. Vá para **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
+1. Acesse **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
 1. Selecione a solicitação pendente a ser aprovada.
 1. Revise a solicitação de categoria.
 1. Opcional: na FastTab **Geral**, no campo **Código de motivo**, selecione um código de motivo. Em seguida, no campo **Comentário do motivo**, insira um comentário sobre o código de motivo.
@@ -200,7 +200,7 @@ Para aprovar uma solicitação de categoria pendente, siga estas etapas.
 
 Para rejeitar uma solicitação de categoria pendente, siga estas etapas.
 
-1. Vá para **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
+1. Acesse **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
 1. Selecione a solicitação pendente a ser rejeitada.
 1. Revise a solicitação de categoria.
 1. No Painel de Ações, selecione **Editar**.
@@ -216,7 +216,7 @@ Para rejeitar uma solicitação de categoria pendente, siga estas etapas.
 
 Para delegar uma solicitação de categoria pendente a outro usuário, siga estas etapas.
 
-1. Vá para **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
+1. Acesse **Compras e fornecimento \> Fornecedores \> Solicitações de colaboração do fornecedor \> Solicitações de categoria**.
 1. Selecione a solicitação pendente que deseja aprovar.
 1. No Painel de Ações, selecione **Fluxo de Trabalho**.
 1. Nas opções de fluxo de trabalho, selecione **Mais** e depois **Delegar**.
@@ -228,7 +228,7 @@ Para delegar uma solicitação de categoria pendente a outro usuário, siga esta
 
 Para exibir as categorias de compras de um fornecedor após a aprovação de uma solicitação de categoria, siga estas etapas.
 
-1. Vá para **Aquisição e fornecimento \> Fornecedores \> Todos os fornecedores**.
+1. Acesse **Aquisição e fornecimento \> Fornecedores \> Todos os fornecedores**.
 1. Na página **Todos os fornecedores**, selecione o fornecedor para o qual você deseja exibir as categorias de compras.
 1. No Painel de Ações, abra a guia **Geral** e, no grupo **Configurar**, selecione **Categorias**.
 

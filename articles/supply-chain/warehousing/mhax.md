@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-04
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: db58e3d1a6665d15ad2f3ac25612ecbf448a9c17
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 418bca7795e545676a7afe1e9c4b5759d4b55a8ebeaaf3c36378831c55160820
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344187"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769482"
 ---
 # <a name="material-handling-equipment-interface-mhax"></a>Interface de equipamento de manuseio de materiais (MHAX)
 
@@ -42,10 +42,10 @@ Veja uma explicação das interações mostradas na ilustração anterior:
 
 Antes de usar o recurso de MHAX, é necessário ativar o recurso e a chave de configuração.
 
-1. Vá para **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
+1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
 2. No espaço de trabalho de **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)**, ative o recurso chamado de *Interface de equipamento de manuseio de materiais*.
 3. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-4. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+4. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
 5. Expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção **Interface de equipamento de manuseio de materiais**.
 6. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 

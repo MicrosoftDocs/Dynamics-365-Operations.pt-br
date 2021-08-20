@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 1beb706812aea0898b2bce9fc9aefa4541bb8924
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a39b6b5fff88a02b71d81fd870e8c92ab055bc4d257e14c9b84cac0deac2c5c8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360841"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771314"
 ---
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-supply-chain-management"></a>Sincronizar cabeçalhos e linhas da cotação de venda diretamente do Sales para o Supply Chain Management
 
@@ -93,9 +93,9 @@ Antes de as cotações de venda serem sincronizadas, é importante atualizar as 
 
 - Verifique se as permissões estão definidas para a equipe na qual o usuário da conexão configurada no Sales está atribuído. Se estiver usando os dados de demonstração, geralmente o usuário tem acesso admin, mas a equipe não tem acesso admin. Se a equipe não tiver acesso de administrador quando você executar o projeto na Integração de dados, você receberá uma mensagem de erro indicando que a Equipe principal está ausente.
 
-    Para configurar as permissões para a equipe, vá para **Configurações** &gt; **Segurança** &gt; **Equipes** e selecione a equipe relevante. Selecione **Gerenciar funções** e, em seguida, selecione a função que possui as permissões desejadas, como **Administrador do sistema**.
+    Para configurar as permissões para a equipe, Acesse **Configurações** &gt; **Segurança** &gt; **Equipes** e selecione a equipe relevante. Selecione **Gerenciar funções** e, em seguida, selecione a função que possui as permissões desejadas, como **Administrador do sistema**.
 
-- Vá para **Configurações** &gt; **Administração** &gt; **Configurações do sistema** &gt; **Vendas** e certifique-se de que as seguintes configurações sejam usadas:
+- Acesse **Configurações** &gt; **Administração** &gt; **Configurações do sistema** &gt; **Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
     - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
     - O campo **Método de cálculo de desconto** está definido como **Item de linha**.

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 570b0995821dcaa2e180b48c25facee01e98f8e3
-ms.sourcegitcommit: 51cad1ce3ed44ebf7eb9bdf553ee2df4c1f03135
+ms.openlocfilehash: 10b4f9f45899b808bd0baa73974a173cf120aa6c3fd33e10d0d79a59614f1f70
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015892"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757749"
 ---
 # <a name="master-planning-with-purchase-trade-agreements"></a>Planejamento mestre com contratos comerciais de compra
 
@@ -40,19 +40,19 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Siga estas etapas para configurar o sistema para aplicar a otimização de planejamento que avalia os contratos comerciais de compra.
 
-1. Vá para **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**. Na guia **Ordens planejadas**, na seção **Fornecedor**, defina os seguintes valores:
+1. Acesse **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**. Na guia **Ordens planejadas**, na seção **Fornecedor**, defina os seguintes valores:
 
     - **Localizar contrato comercial** – defina essa opção como **Sim** para incluir contratos comerciais de compra no planejamento mestre.
     - **Critérios de pesquisa** – selecione o fator que você deseja priorizar para cada contrato comercial de compra: **Prazo de entrega mínimo** ou **Preço unitário mínimo**.
 
 1. Ir para **Compras e fornecimento \> Configuração \> Preços e descontos \> Ativar preço/desconto** e verifique se a opção **Fornecedor** está definida como **Sim**.
-1. Vá para **Gerenciamento de informações do produto \> Configuração \> Grupos de dimensões e variantes \> Grupos de dimensões de armazenamento** e selecione um grupo de dimensões de armazenamento que se aplique aos produtos para os quais o planejamento mestre deve avaliar os contratos comerciais de compra. Verifique se cada dimensão de armazenamento relevante neste grupo tem uma marca de seleção na coluna **Para preços de compra**. Repita esta etapa para cada grupo de dimensões de armazenamento relevante.
+1. Acesse **Gerenciamento de informações do produto \> Configuração \> Grupos de dimensões e variantes \> Grupos de dimensões de armazenamento** e selecione um grupo de dimensões de armazenamento que se aplique aos produtos para os quais o planejamento mestre deve avaliar os contratos comerciais de compra. Verifique se cada dimensão de armazenamento relevante neste grupo tem uma marca de seleção na coluna **Para preços de compra**. Repita esta etapa para cada grupo de dimensões de armazenamento relevante.
 
 ## <a name="prepare-a-released-product-to-evaluate-purchase-trade-agreements-during-master-planning"></a>Preparar um produto lançado para avaliar contratos comerciais de compra durante o planejamento mestre
 
 Depois que o sistema for preparado conforme descrito na seção anterior, siga estas etapas para verificar se cada produto que você deseja usar com esse recurso está configurado corretamente.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** e abra um produto de destino.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados** e abra um produto de destino.
 1. Na Guia Rápida **Compra**, verifique se nenhum fornecedor foi atribuído no campo **Fornecedor**.
 1. No Painel de Ação, na guia **Plano**, no grupo **Cobertura**, selecione **Cobertura de item** para abrir a página **Cobertura de item** para o produto selecionado. Verifique as seguintes configurações:
 

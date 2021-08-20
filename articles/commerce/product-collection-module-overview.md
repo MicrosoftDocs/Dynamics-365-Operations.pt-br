@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 206f0096f481fc37d05a8258535c016e2834e732
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2ea2cd8c168cef40099f611a25367b13247a331b95deea12ff63ca5dd15bc4df
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352195"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763803"
 ---
 # <a name="product-collection-modules"></a>Módulos de coleção de produtos
 
@@ -70,7 +70,7 @@ O módulo de coleção de produtos oferece suporte ao [módulo de exibição rá
 
 Para adicionar um módulo de coleta de produtos a uma página de categoria, siga estas etapas.
 
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o mesmo modelo usado pela página de categoria padrão. Em **Nome da página**, insira um nome apropriado e selecione **OK**.
 1. No slot **Sub-rodapé**, selecione as reticências (**...**) e, depois, **Adicionar Módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Contêiner** e, depois, **OK**.

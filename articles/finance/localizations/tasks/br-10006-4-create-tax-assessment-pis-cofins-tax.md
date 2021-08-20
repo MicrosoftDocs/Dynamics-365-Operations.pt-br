@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2037cbd7e31dc39345d1fa0f97261715ba9ba3fa
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6edc25c5a65b549b8ef058c013e927a9a08b95425d43f5d1384b04e960d34d2a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813435"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782802"
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a>Criar uma apuração de imposto - PIS e COFINS (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5813435"
 
 Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico. A avaliação de imposto considera o valor da contribuição de PIS/COFINS para recuperar e o valor da contribuição de PIS/COFINS para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, crie o pagamento de impostos. Este registro usa a empresa de dados de demonstração BRMF.
 
-1. Vá para Livros fiscais > Comum > Período de escrituração.
+1. Acesse Livros fiscais > Comum > Período de escrituração.
 2. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 3. No campo Estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Mês, selecione uma opção.
@@ -34,7 +34,7 @@ Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS p
 7. Clique em Sincronizar.
 8. Clique em OK.
 9. Feche a página.
-10. Vá para Livros fiscais > Comum > Apuração de imposto > PIS-COFINS.
+10. Acesse Livros fiscais > Comum > Apuração de imposto > PIS-COFINS.
 11. Clique em Apuração de imposto PIS e COFINS para abrir a caixa de diálogo suspensa.
 12. No campo Período de escrituração, insira ou selecione um valor.
 13. Clique em OK.

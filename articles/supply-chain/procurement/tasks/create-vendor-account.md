@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 10012bfe46ed55431c2c4605760660ee156c74a2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 560fa38dbc1d38e49d76e70b0c9d3c13191745a28192cc5c815b6c172d390410
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758439"
 ---
 # <a name="create-a-vendor-account"></a>Criar uma conta de fornecedor
 
@@ -28,7 +28,7 @@ Este procedimento mostra como criar uma conta de fornecedor, e adicionar um ende
 
 
 ## <a name="create-a-vendor-account"></a>Criar uma conta de fornecedor
-1. Vá para **Painel de Navegação > Módulos > Compras e fornecimento > Fornecedores > Todos os fornecedores**.
+1. Acesse **Painel de Navegação > Módulos > Compras e fornecimento > Fornecedores > Todos os fornecedores**.
 2. Clique em **Novo**.
 3. No campo **Conta de fornecedor**, insira um valor.
     - O valor pode ser preenchido automaticamente. Nesse caso, é possível ignorar esta etapa.  

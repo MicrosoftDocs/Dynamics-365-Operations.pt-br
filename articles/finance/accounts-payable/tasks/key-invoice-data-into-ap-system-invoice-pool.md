@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9c54f610e45d288ed58fd209d290d73bfe1ff2f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dc8e8ec224208990563e7c0f5d354bb13bb45fbcd35821e7f980b6cfb2c5a379
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820656"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777255"
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>Dados-chave de fatura no sistema de AP usando grupo de faturas
 
@@ -27,7 +27,7 @@ Este tópico descreve como usar o registro de fatura para criar faturas. Use o g
 
 
 ## <a name="create-a-purchase-order"></a>Criar uma ordem de compra
-1. No painel de navegação, vá para **Módulos > Contas a pagar > Ordens de compra > Ordens de compra**.
+1. No painel de navegação, Acesse **Módulos > Contas a pagar > Ordens de compra > Ordens de compra**.
 2. Selecione **Novo** para criar uma ordem de compra.
 3. No campo **Conta do fornecedor**, selecione um fornecedor da lista suspensa. Por exemplo, selecione o fornecedor **1001**.
 4. Selecione **OK**.
@@ -36,7 +36,7 @@ Este tópico descreve como usar o registro de fatura para criar faturas. Use o g
 7. Selecione **Confirmar**.
 
 ## <a name="create-and-post-and-invoice"></a>Criar e lançar e faturar
-1. No painel de navegação, vá para **Módulos > Contas a pagar > Faturas > Registro de faturas**.
+1. No painel de navegação, Acesse **Módulos > Contas a pagar > Faturas > Registro de faturas**.
 2. Selecione **Novo**.
 3. Abra a busca para selecionar o nome do registro de fatura que você deseja usar.
 4. Selecione o nome do registro de fatura que você deseja usar.
@@ -50,7 +50,7 @@ Este tópico descreve como usar o registro de fatura para criar faturas. Use o g
 12. Selecione **Lançar**.
 
 ## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>Abra uma fatura do grupo e corresponda-a a ordem de compra para concluir o processo de fatura
-1. No painel de navegação, vá para **Módulos > Contas a pagar > Faturas > Grupo de faturas**.
+1. No painel de navegação, Acesse **Módulos > Contas a pagar > Faturas > Grupo de faturas**.
 2. Selecione **Ordem de compra** para criar uma fatura de fornecedor usando a fatura do grupo.
 3. Selecione a fatura que você deseja revisar.
 4. Selecione **Atualizar status de conciliação** para concluir a conciliação.
@@ -59,7 +59,7 @@ Este tópico descreve como usar o registro de fatura para criar faturas. Use o g
 7. Selecione **Exibição de grade**.
 8. Selecione **Lançar**.
 9. Feche o formulário.
-10. No painel de navegação, vá para **Módulos > Contas a pagar > Fornecedores > Fornecedores**.
+10. No painel de navegação, Acesse **Módulos > Contas a pagar > Fornecedores > Fornecedores**.
 11. Selecione o fornecedor que estava na ordem de compra. Por exemplo, selecione o fornecedor **1001**.
 12. No painel de ação, selecione **Fornecedor**.
 13. Selecione **Transações**.

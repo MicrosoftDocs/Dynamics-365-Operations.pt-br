@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b4ad73265e321b6339c061a7866b55cb2769954b
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 173022d40a5c1354cbe05c171a8921e733d908d065b10889f9cbe0e87f3e98fa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921308"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781456"
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>Manter BOM para um modelo de configuração de produtos
 
@@ -28,7 +28,7 @@ Executar este procedimento exige um modelo de configuração de produto existent
 
 ## <a name="add-a-bom-line"></a>Adicione uma linha da BOM
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Na lista, localize e selecione o registro desejado.
     * Selecione o alto-falante avançado para este procedimento.  
 1. Na lista, selecione o link na linha selecionada.

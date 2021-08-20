@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e681a822ae1ec628fd20931263a6115b998ffba9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ac5217ecd74e3a8d4dd6a82112788a7aaba4698857cd5854eed1f8c91aa97e73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779149"
 ---
 # <a name="confirm-sales-orders"></a>Confirmar ordens de venda
 
@@ -28,7 +28,7 @@ Este procedimento demonstra como confirmar ordens de venda. Será mostrado a voc
 
 
 ## <a name="confirm-a-single-sales-order"></a>Confirmar uma única ordem de venda
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Ordens de venda > Todas as ordens de venda**.
 2. Na lista, localize e selecione a ordem que você deseja confirmar.
 3. Clique no link no número da ordem de venda para abrir a ordem selecionada.
 4. No **Painel de Ações**, clique em **Vender**.
@@ -46,7 +46,7 @@ Este procedimento demonstra como confirmar ordens de venda. Será mostrado a voc
 16. Feche a página.
 
 ## <a name="confirm-multiple-sales-orders-at-once"></a>Confirmar várias ordens de venda de uma vez
-1. Vá para **Vendas e marketing > Ordens de venda > Confirmação da ordem > Confirmar ordem de venda**.
+1. Acesse **Vendas e marketing > Ordens de venda > Confirmação da ordem > Confirmar ordem de venda**.
 2. Clique em **Selecionar**.
 3. Na lista da guia **Intervalo**, localize e selecione o registro que faz referência ao campo **Conta de cliente**.
 4. No campo **Critérios**, clique no botão suspenso para abrir a pesquisa.

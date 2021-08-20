@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7901bcfc239885aa53863729e573d1f37ba67f81
-ms.sourcegitcommit: f21659f1c23bc2cd65bbe7fb7210910d5a8e1cb9
+ms.openlocfilehash: a0919706ddcc70fecd15df6bf1cbdd58fe9a8e337b2d45cd61a4fb9d821e4114
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6306406"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757797"
 ---
 # <a name="inventory-forecasts"></a>Previsões de estoque
 
@@ -47,15 +47,15 @@ Como a tabela da etapa 1 mostra, existem diferentes maneiras de acessar as pági
 
     | Entidade | Instruções |
     |---|---|
-    | Produtos liberados | <ol><li>Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.</li><li>Selecione o produto para o qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
-    | Grades de produtos liberadas | <ol><li>Vá para **Gerenciamento de informações do produto \> Produtos \> Grades de produtos liberadas**.</li><li>Selecione a grade para a qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
-    | Grupos de itens | <ol><li>Vá para **Gerenciamento de estoque \> Configuração \> Divisão de estoque \> Grupos de itens**.</li><li>Selecione o grupo de itens para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Previsão \> Demanda**, **Previsão \> Fornecimento** ou **Previsão \> Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
+    | Produtos liberados | <ol><li>Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.</li><li>Selecione o produto para o qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
+    | Grades de produtos liberadas | <ol><li>Acesse **Gerenciamento de informações do produto \> Produtos \> Grades de produtos liberadas**.</li><li>Selecione a grade para a qual será criada uma previsão.</li><li>No Painel de Ação, na guia **Plano**, no grupo **Previsão**, selecione **Previsão de demanda**, **Previsão de fornecimento** ou **Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
+    | Grupos de itens | <ol><li>Acesse **Gerenciamento de estoque \> Configuração \> Divisão de estoque \> Grupos de itens**.</li><li>Selecione o grupo de itens para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Previsão \> Demanda**, **Previsão \> Fornecimento** ou **Previsão \> Previsão de estoque**, dependendo do tipo de previsão com a qual deseja trabalhar.</li></ol> |
     | Chaves de alocação de itens | <ol><li>Acesse **Gerenciamento do estoque \> Configuração \> Previsão**.</li><li>Selecione a chave de alocação do item para a qual será criada uma previsão.</li><li>No Painel de Ações, selecione **Previsão de demanda**.</li></ol> |
     | Clientes | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Clientes**.</li><li>Selecione o cliente para o qual será criada uma previsão.</li><li>No Painel de Ações, selecione **Definir previsão de demanda**.</li></ol> |
     | Grupos de clientes | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Grupos de clientes**.</li><li>Selecione o grupo de clientes para o qual será criada uma previsão.</li><li>No Painel de Ações, selecione **Definir previsão de demanda**.</li></ol> |
     | Fornecedores | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Fornecedores**.</li><li>Selecione o fornecedor para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Entrada** para abrir a página **Previsão de fornecimento**.</li></ol> |
     | Grupos de fornecedores | <ol><li>Acesse **Planejamento mestre \> Previsão \> Entrada de previsão manual \> Grupos de fornecedores**.</li><li>Selecione o grupo de fornecedores para o qual será criada uma previsão.</li><li>No Painel de Ação, selecione **Entrada** para abrir a página **Previsão de fornecimento**.</li></ol> | 
-    | Todas as linhas | <ul><li>Vá para **Planejamento mestre \> Previsão \> Linhas de previsão de demanda** ou **Planejamento mestre \> Previsão \> Linhas de previsão de fornecimento**, dependendo do tipo de previsão com a qual você deseja trabalhar.</li></ul> |
+    | Todas as linhas | <ul><li>Acesse **Planejamento mestre \> Previsão \> Linhas de previsão de demanda** ou **Planejamento mestre \> Previsão \> Linhas de previsão de fornecimento**, dependendo do tipo de previsão com a qual você deseja trabalhar.</li></ul> |
 
     Dependendo da sua seleção, a página **Previsão de fornecimento** ou **Previsão de demanda** será exibida. Ela mostra todas as linhas de previsão existentes para o registro selecionado antes da abertura da página.
 
@@ -361,7 +361,7 @@ Depois de inserir sua previsão de demanda e/ou previsão de fornecimento, você
 
 Para configurar um plano mestre de forma que inclua uma previsão de estoque, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione um plano existente ou crie um novo plano.
 1. Na Guia Rápida **Geral**, defina os seguintes campos:
 
@@ -394,7 +394,7 @@ Para executar um plano mestre de forma que inclua uma previsão de estoque, siga
 
 Para exibir os requisitos calculados, abra a página **Requisitos brutos**. Por exemplo, na página **Produtos liberados**, no Painel de Ações, na guia **Plano**, no grupo **Requisitos**, selecione **Requisitos brutos**.
 
-Para exibir as ordens planejadas que são geradas, vá para **Planejamento mestre \> Comum \> Ordens planejadas** e selecione o plano de previsão apropriado.
+Para exibir as ordens planejadas que são geradas, Acesse **Planejamento mestre \> Comum \> Ordens planejadas** e selecione o plano de previsão apropriado.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

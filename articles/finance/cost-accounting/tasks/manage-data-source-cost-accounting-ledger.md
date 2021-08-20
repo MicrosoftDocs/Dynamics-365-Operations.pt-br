@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: da4d351f4bce6494a107a55895866e4d3d43953f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: da218df53fdca98ead748ce364c03502bd1f333959ebacab25339b665bcb9c66
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5841060"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771695"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gerenciar uma fonte de dados para o razão de contabilização de custos
 
@@ -26,7 +26,7 @@ ms.locfileid: "5841060"
 
 Use este procedimento para gerenciar a fonte de dados da contabilidade para um razão de contabilização de custos. Antes de concluir esta tarefa, certifique-se de que executou os guias de tarefas "Criar um razão de contabilização de custos" e "Definir unidades de controle de custos". Esta gravação usa os dados da empresa de demonstração USP2.
 
-1. Vá para Contabilização de custos > Configuração do razão > Razões de contabilização de custos.
+1. Acesse Contabilização de custos > Configuração do razão > Razões de contabilização de custos.
 2. Na lista, localize e selecione o PDV desejado.
 3. Clique em Versões reais.
 4. No Painel de Ação, clique em Gerenciar.

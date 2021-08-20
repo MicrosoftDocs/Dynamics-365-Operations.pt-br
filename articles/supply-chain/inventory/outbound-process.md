@@ -18,12 +18,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
-ms.openlocfilehash: 29029cfa032f36c4dc0590ff76f44417dc056ef8
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fa80610f35bd46ed130a99abd4448ab51ac6ccfd3fb77f55dbbab0cd1734446d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348796"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780617"
 ---
 # <a name="outbound-process-overview"></a>Visão geral do processo de saída
 
@@ -45,19 +45,19 @@ Você pode configurar regras de saída para definir como o programa deve tratar 
 
 ## <a name="picking-route-status-for-sales-and-transfer-orders"></a>Seleção do status do roteiro para vendas e ordens de transferência 
 
-Vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, em seguida, na guia **Atualizações**, selecione um valor no campo **Status do roteiro de separação**.
+Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber** e, em seguida, na guia **Atualizações**, selecione um valor no campo **Status do roteiro de separação**.
 
 [![Seleção do campo de status de roteiro para ordens de venda.](./media/picking-route-status-sales-order.png)](./media/picking-route-status-sales-order.png)
 
 Se o campo **Status do roteiro de separação** for definido como **Concluído**, o processo de separação ocorre automaticamente como parte do processo de geração das listas de separação. Se o campo for definido como **Ativado**, as linhas da lista de separação devem ser atualizadas manualmente.
 
-A mesma configuração se aplica a ordens de transferência. Vá para **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e, em seguida, na guia **Transporte**, selecione um valor no campo **Status do roteiro de separação**.
+A mesma configuração se aplica a ordens de transferência. Acesse **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e, em seguida, na guia **Transporte**, selecione um valor no campo **Status do roteiro de separação**.
 
 [![Seleção do campo de status de roteiro para ordens de transferência.](./media/picking-route-status-transfer-order.png)](./media/picking-route-status-transfer-order.png)
 
 ## <a name="end-output-inventory-orders"></a>Finalizar ordens de estoque de saída
 
-Vá para **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e na guia **Geral**, defina a opção **Finalizar ordem de estoque de saída**.
+Acesse **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de gerenciamento de estoque e depósito** e na guia **Geral**, defina a opção **Finalizar ordem de estoque de saída**.
 
 [![Opção Finalizar ordem de estoque de saída.](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 

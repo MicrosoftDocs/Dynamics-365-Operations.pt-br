@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6171f1ad3669ce26ca025aaf7e9c97dce1c3d9f5
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 41d32239bbadf5928524eaff38b6c3288230d55236fdd0f9cec7a5064f67d1a2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189908"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772759"
 ---
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 

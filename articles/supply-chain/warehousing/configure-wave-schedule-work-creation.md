@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-01-14
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: e4258c03b12a80a5bd81328ae7418835d68f82e7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2918d2cfa8792cc249e48990ccfa0dcf03e9b8c96f1264b48d3efd51f30cabd0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835693"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777638"
 ---
 # <a name="schedule-work-creation-during-wave"></a>Agendar a criação de trabalho durante o ciclo
 
@@ -53,9 +53,9 @@ As configurações de processamento de tarefas e de ciclo existentes também ser
 
 Se necessário, você pode reverter manualmente qualquer uma ou todas as configurações feitas automaticamente ao habilitar o recurso *Método do ciclo de Agendar criação de trabalho de toda a organização*, fazendo o seguinte:
 
-- Para modelos de ciclo, vá para **Gerenciamento de depósito \> Configuração \> Ciclos \> Modelos do ciclo**. Substitua o método *Agendar criação de trabalho* por *Criar trabalho*.
-- Para parâmetros de depósito, vá para **Gerenciamento de depósito \>Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Processamento do ciclo**, aplique os valores preferidos para **Processar ciclos em lotes** e **Aguardar bloqueio (ms)**.
-- Para métodos de ciclo, vá para **Gerenciamento de depósito \> Configuração \> Ciclos \> Métodos de processo do ciclo**. Selecione `WHSScheduleWorkCreationWaveStepMethod` e no Painel de Ação, selecione **Configuração da tarefa**. Modifique ou exclua o número de tarefas em lotes e o grupo de ciclos atribuído a cada depósito listado, conforme necessário.
+- Para modelos de ciclo, Acesse **Gerenciamento de depósito \> Configuração \> Ciclos \> Modelos do ciclo**. Substitua o método *Agendar criação de trabalho* por *Criar trabalho*.
+- Para parâmetros de depósito, Acesse **Gerenciamento de depósito \>Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Processamento do ciclo**, aplique os valores preferidos para **Processar ciclos em lotes** e **Aguardar bloqueio (ms)**.
+- Para métodos de ciclo, Acesse **Gerenciamento de depósito \> Configuração \> Ciclos \> Métodos de processo do ciclo**. Selecione `WHSScheduleWorkCreationWaveStepMethod` e no Painel de Ação, selecione **Configuração da tarefa**. Modifique ou exclua o número de tarefas em lotes e o grupo de ciclos atribuído a cada depósito listado, conforme necessário.
 
 ## <a name="manually-configure-scheduled-work-creation"></a>Configurar manualmente a criação do trabalho agendado
 
@@ -65,7 +65,7 @@ Se você não tiver habilitado o [*recurso de método do ciclo "Agendar criaçã
 
 Para aproveitar um método assíncrono paralelo para criar trabalho de depósito, o processo de ciclos deve estar sendo executado em lotes. Para fazer essa configuração:
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na guia **Geral**, defina a opção **Processar ciclos em lote** como *Sim*. Se preferir, você também pode selecionar um **Grupo de lotes de processamento em ciclos** dedicado para impedir que o processamento de fila em lotes seja executado ao mesmo tempo que outros processos.
 1. Defina o **Tempo de espera para o bloqueio (ms)**, que se aplica quando o sistema está processando vários ciclos ao mesmo tempo. Para a maioria dos processos em ciclos maiores, recomendamos um valor de *60.000*.
 
@@ -73,7 +73,7 @@ Para aproveitar um método assíncrono paralelo para criar trabalho de depósito
 
 Comece criando o novo método de etapa de ciclo e habilite-o para o processamento de tarefas assíncronas paralelas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**.
 1. Selecione  **Gerar método novamente** e observe que *WHSScheduleWorkCreationWaveStepMethod* foi adicionado à lista de métodos de processo de ciclo que podem ser usados nos modelos de ciclo de remessa.
 1. Selecione o registro com o **Nome do método** *WHSScheduleWorkCreationWaveStepMethod* e selecione **Configuração de tarefas**.
 1. Para adicionar uma nova linha à grade, selecione **Novo** no Painel de Ações e use as seguintes configurações:
@@ -84,7 +84,7 @@ Comece criando o novo método de etapa de ciclo e habilite-o para o processament
 
 Agora, você está pronto para atualizar um modelo de ciclo existente (ou criar um novo) para usar o método de processamento em ciclos *Agendar criação de trabalho*.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ciclos \> Modelos de ciclo**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ciclos \> Modelos de ciclo**.
 1. Selecione **Editar** no Painel de Ações.
 1. No painel de lista, selecione o modelo de ciclo que deseja atualizar (se você estiver testando com dados de demonstração, poderá usar *24 Padrão de remessa*).
 1. Expanda a guia rápida **Métodos** e selecione a linha com o **Nome** *Agendar criação de trabalho* na grade **Métodos restantes**.

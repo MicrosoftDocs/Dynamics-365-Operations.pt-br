@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: brshoo
 ms.search.validFrom: 2020-02-13
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 1351b9f22416e8ce6d90022997f0a15e9eb4042a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 13dad5f3b82914514688bfa0c7e4f82b8b85b8dd73458618d2fcfddb169927c9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344362"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772243"
 ---
 # <a name="set-up-a-b2c-tenant-in-commerce"></a>Configurar um locatário B2C do Commerce
 
@@ -42,7 +42,7 @@ O Dynamics 365 Commerce usa o B2C do Azure AD para oferecer suporte aos fluxos d
 
     ![Criar um Recurso no Portal do Azure.](./media/B2CImage_1.png)
 
-1. Vá para **Identidade \> B2C do Azure Active Directory**.
+1. Acesse **Identidade \> B2C do Azure Active Directory**.
 1. Na página **Criar Locatário B2C ou Vincular a um Locatário existente**, use uma das opções abaixo que melhor atende às necessidades da sua empresa:
 
     - **Criar Locatário B2C do Azure AD**: Use esta opção para criar um locatário B2C do AAD.
@@ -86,7 +86,7 @@ Para criar o aplicativo B2C, siga estas etapas.
 1. Selecione **Registrar**.
 1. Selecione o aplicativo recém-criado e navegue até o menu **Autenticação**. Aqui, é possível inserir **URIs de redirecionamento** adicionais, se necessário (agora ou posteriormente). Prossiga para a próxima etapa se isso não for necessário no momento.
 1. Em **Concessão implícita**, selecione **Tokens de acesso** e **Tokens de ID** para habilitá-los para o aplicativo. Selecione **Salvar**.
-1. Vá para o menu **Visão geral** do portal do Azure e copie a **ID do aplicativo (cliente)**. Anote essa ID para as etapas de configuração posteriores (mencionadas posteriormente como a **GUID do Cliente**).
+1. Acesse o menu **Visão geral** do portal do Azure e copie a **ID do aplicativo (cliente)**. Anote essa ID para as etapas de configuração posteriores (mencionadas posteriormente como a **GUID do Cliente**).
 
 Para obter referência adicional sobre os Registros de Aplicativo no Azure AD B2C, consulte [A nova experiência de Registros de aplicativos para o Azure Active Directory B2C](/azure/active-directory-b2c/app-registrations-training-guide)
 
@@ -195,7 +195,7 @@ Se a autenticação do provedor de identidade social for adicionada e um usuári
 > [!NOTE]
 > O logon do provedor de identidade cria um registro no locatário do B2C, mas em um formato diferente das contas locais, pois chamará a referência externa do provedor de identidade social para a autenticação. O usuário pode usar o mesmo endereço de email em todos os provedores de identidade social, indicando que o nome de usuário do email usado para a autenticação pode não ser exclusivo para o locatário. O B2C do Azure AD apenas irá impor que os usuários tenham um endereço de email exclusivo nas contas locais do B2C.
 
-Antes de adicionar um provedor de identidade social para autenticação, vá para o portal do provedor de identidade e configure um aplicativo de provedor de identidade conforme as orientações na documentação do B2C do Azure AD. Uma lista de links para a documentação é fornecida a seguir.
+Antes de adicionar um provedor de identidade social para autenticação, Acesse o portal do provedor de identidade e configure um aplicativo de provedor de identidade conforme as orientações na documentação do B2C do Azure AD. Uma lista de links para a documentação é fornecida a seguir.
 
 - [Amazon](/azure/active-directory-b2c/active-directory-b2c-setup-amzn-app)
 - [Azure AD (Único Locatário)](/azure/active-directory-b2c/active-directory-b2c-setup-oidc-azure-active-directory)
@@ -220,7 +220,7 @@ Para adicionar e configurar um provedor de identidade social, siga estas etapas.
 1. Em **ID do Cliente**, insira o ID do cliente obtido na configuração do aplicativo do provedor de identidade.
 1. Em **Segredo do cliente**, insira o segredo do cliente obtido na configuração do aplicativo do provedor de identidade.
 1. Anexe o fluxo de usuário para as políticas de inscrição e logon:
-1. Vá para **B2C do Azure AD – Fluxos de usuário (políticas) \> {sua política de inscrição e logon} \> Provedores de identidade**.
+1. Acesse **B2C do Azure AD – Fluxos de usuário (políticas) \> {sua política de inscrição e logon} \> Provedores de identidade**.
 1. Para anexar a política de fluxo de usuário de inscrição/logon, selecione os provedores de identidade configurados para a sua conta. Para testá-los, selecione **Executar fluxo de usuário** para cada provedor de identidade. Uma nova guia será exibida na página de logon mostrando a caixa de seleção do novo provedor de identidade.
 
 A imagem a seguir mostra exemplos das telas **Adicionar provedor de identidade** e **Configurar o provedor de identidade social** no B2C do Azure AD.
@@ -244,7 +244,7 @@ Depois que as etapas de provisionamento do B2C do Azure AD estiverem concluídas
 
 Para atualizar o headquarters com as novas informações do B2C do Azure AD, siga estas etapas.
 
-1. No Commerce, vá para **Parâmetros Compartilhados do Commerce** e selecione **Provedores de Identidade** no menu esquerdo.
+1. No Commerce, Acesse **Parâmetros Compartilhados do Commerce** e selecione **Provedores de Identidade** no menu esquerdo.
 1. Em **Provedores de Identidade**, faça o seguinte:
     1. Na caixa **Emissor**, insira o URL do emissor do provedor de identidade. Para encontrar o URL do emissor, consulte [Obter URL do emissor](#obtain-issuer-url) abaixo.
     1. Na caixa **Nome**, insira um nome para o registro do emissor.
@@ -283,11 +283,11 @@ Após configurar o locatário B2C do Azure AD, será necessário configurar o lo
 
 Para coletar as informações necessárias do aplicativo, siga estas etapas.
 
-1. No portal do Azure, vá para **Página Inicial \> B2C do Azure AD – Aplicativos**,
+1. No portal do Azure, Acesse **Página Inicial \> B2C do Azure AD – Aplicativos**,
 1. Selecione o aplicativo e, no painel de navegação à esquerda, selecione **Propriedades** para obter os detalhes do aplicativo.
 1. Na caixa **ID do Aplicativo**, colete a ID do aplicativo B2C criado no seu locatário B2C. Posteriormente, ela será inserida como **GUID do Cliente** no construtor de sites.
 1. Em **URL de resposta**, colete o URL de resposta.
-1. Vá para **Página Inicial \> B2C do Azure AD – Fluxos de usuário (políticas)** e colete os nomes de cada política de fluxo de usuário.
+1. Acesse **Página Inicial \> B2C do Azure AD – Fluxos de usuário (políticas)** e colete os nomes de cada política de fluxo de usuário.
 
 A imagem a seguir mostra um exemplo da página **B2C do Azure AD – Aplicativos**.
 

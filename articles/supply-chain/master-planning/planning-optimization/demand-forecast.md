@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 88e93e7a363bf5db3d25d7fe6a0ab390f79912b0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833296"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778667"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
@@ -36,7 +36,7 @@ Você pode usar uma previsão de demanda junto com a Otimização de Planejament
 
 Para configurar um plano mestre de forma que inclua uma previsão de demanda, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. Selecione um plano existente ou crie um novo plano.
 1. Na Guia Rápida **Geral**, defina os seguintes campos:
 
@@ -56,7 +56,7 @@ Para configurar um plano mestre de forma que inclua uma previsão de demanda, si
 
 Para configurar um grupo de cobertura para que inclua uma previsão de demanda, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Grupos de cobertura**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Grupos de cobertura**.
 1. Selecione um grupo de cobertura existente ou crie um novo grupo.
 1. Na FastTab **Outro**, defina os seguintes campos:
 
@@ -84,7 +84,7 @@ Esta seção fornece informações sobre os diferentes métodos usados para redu
 
 Quando você inclui uma previsão sobre um plano mestre, pode selecionar como os requisitos de previsão são reduzidos quando a demanda real é incluída. Observe que o planejamento mestre exclui os requisitos de previsão do passado, o que significa todos os requisitos de previsão antes da data atual.
 
-Para incluir uma previsão em um plano mestre e selecionar o método usado para reduzir os requisitos de previsão, vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**. No campo **Modelo de previsão**, selecione um modelo de previsão. No campo **Método usado para reduzir requisitos de previsão**, selecione um método. As opções a seguir estão disponíveis:
+Para incluir uma previsão em um plano mestre e selecionar o método usado para reduzir os requisitos de previsão, Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**. No campo **Modelo de previsão**, selecione um modelo de previsão. No campo **Método usado para reduzir requisitos de previsão**, selecione um método. As opções a seguir estão disponíveis:
 
 - Nenhuma
 - Percentual – chave de redução
@@ -246,7 +246,7 @@ Por isso, as ordens planejadas a seguir são criadas.
 
 Uma chave de redução da previsão é usada nos métodos **Transações - chave de redução** e **Percentual - chave de redução** para diminuir os requisitos de previsão. Siga estas etapas para criar e configurar uma chave de redução.
 
-1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
+1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Chaves de redução**.
 2. Selecione **Novo** para criar uma chave de redução.
 3. No campo **Chave de redução**, insira um identificador exclusivo para a chave de redução da previsão. Em seguida, no campo **Nome**, insira um nome. 
 4. Defina os períodos e o percentual da chave de redução em cada período:
@@ -259,9 +259,9 @@ Uma chave de redução da previsão é usada nos métodos **Transações - chave
 
 Uma chave de redução da previsão deve ser atribuída ao grupo de cobertura do item. Siga estas etapas para atribuir uma chave de redução ao grupo de cobertura de um item.
 
-1. Vá para **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
+1. Acesse **Planejamento mestre \> Configuração \> Cobertura \> Grupos de cobertura**.
 2. Na Guia Rápida **Outro**, no campo **Chave de redução**, selecione a chave de redução para atribuir ao grupo de cobertura. A chave de redução é aplicada a todos os itens que pertencem ao grupo de cobertura.
-3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Vá para um dos seguintes locais:
+3. Para usar uma chave de redução para calcular a redução da previsão durante o agendamento do planejamento mestre, você deve definir esse parâmetro na configuração do plano de previsão ou do plano mestre. Acesse um dos seguintes locais:
 
     - **Planejamento mestre \> Configuração \> Planos \> Planos de previsão**
     - **Planejamento mestre \> Configuração \> Planos \> Planos mestres**

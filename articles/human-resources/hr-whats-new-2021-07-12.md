@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-12
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: d2851c36594384dd62f4bb95263cfd4407aec104
-ms.sourcegitcommit: 71952e97774547230285026c6a3a6caea2512920
+ms.openlocfilehash: 4ebe5a6ae19d00b94247381c700ff21d31910fcac1968ab4f8a673f89ddd2f0f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/15/2021
-ms.locfileid: "6614824"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782626"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-human-resources-july-12-2021"></a>Novidades ou alterações no Dynamics 365 Human Resources – 12 de julho de 2021
 
@@ -61,7 +61,7 @@ As seguintes correções de bug estão incluídas nessa versão.
 | 593553 | O campo Data do Diário no diário de desempenho é exibido em UTC | O campo **Data do Diário** para diários de desempenho é exibido no fuso horário UTC em vez do fuso horário definido na configuração da data do sistema, fazendo com que a data fique incorreta para alguns fusos horários. |
 | 586930 | Abrir atividades para metas de desempenho abre um registro completamente diferente | Quando o recurso "Exibição de relatórios estendidos dos Diários de Desempenho" está habilitado no Gerenciamento de Recursos, a seleção das metas de desempenho para relatórios estendidos na guia **Minha equipe**, em **Autoatendimento para Funcionários**, abre as metas para um funcionário em vez do funcionário selecionado. |
 | 569959 |  A entidade HcmPositionWorkerAssignmentV2 não atribui um trabalhador a um cargo | Os usuários receberam um erro ao adicionar um registro de atribuição de cargo por meio da entidade, e a publicação falhou. |
-| 582259 | O relatório VETS 4212 usa o formulário 2017 em vez do formulário 2020 | Atualizado para o formato 2020.  Para carregar o novo formato, vá para **Configurações de relatório** e exclua o relatório VETS-4212 na coluna esquerda. Vá para **Relatório Eletrônico - Repositórios - Recursos de RH** e selecione **Aberto**.  Selecione **Impressão de PDF VETS-4212** e, em seguida, selecione **Importar**.|
+| 582259 | O relatório VETS 4212 usa o formulário 2017 em vez do formulário 2020 | Atualizado para o formato 2020.  Para carregar o novo formato, Acesse **Configurações de relatório** e exclua o relatório VETS-4212 na coluna esquerda. Acesse **Relatório Eletrônico - Repositórios - Recursos de RH** e selecione **Aberto**.  Selecione **Impressão de PDF VETS-4212** e, em seguida, selecione **Importar**.|
 
 
 ## <a name="in-preview"></a>Em versão preliminar

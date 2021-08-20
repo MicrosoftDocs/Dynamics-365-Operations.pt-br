@@ -72,6 +72,8 @@
                   items:
                     - name: Novidades ou alterações na home page do Supply Chain Management
                       href: get-started/whats-new-home-page.md
+                    - name: Supply Chain Management 10.0.21 (outubro de 2021)
+                      href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-scm-10-0-20.md
                     - name: Supply Chain Management 10.0.19 (junho de 2021)
@@ -1593,14 +1595,16 @@
           items:
             - name: Home page Planejamento mestre
               href: master-planning/master-planning-home-page.md
-            - name: Migração do planejamento mestre para Otimização do Planejamento
+            - name: Migração do planejamento mestre para Otimização de Planejamento
               href: master-planning/new-master-planning-engine.md
-            - name: Otimização do Planejamento
+            - name: Otimização de Planejamento
               items:
-                - name: Visão geral da Otimização do Planejamento
+                - name: Visão geral da Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Introdução à Otimização de Planejamento
                   href: master-planning/planning-optimization/get-started.md
+                - name: Processo de liberação de otimização de planejamento e histórico de versões
+                  href: master-planning/planning-optimization/release-process.md
                 - name: Análise de ajuste da Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
                 - name: Parâmetros não usados pela Otimização de Planejamento
@@ -1631,6 +1635,8 @@
                   href: master-planning/planning-optimization/replenishment-methods-quantity-modification.md
                 - name: Limites de tempo de cobertura
                   href: master-planning/planning-optimization/coverage-time-fence.md
+                - name: Requisitos líquidos e informações de vinculação com a Otimização de Planejamento
+                  href: master-planning/planning-optimization/net-requirements.md
                 - name: Aprovar ordens planejadas
                   href: master-planning/planning-optimization/approved-planned-order.md
                 - name: Confirmar ordens planejadas
@@ -1641,9 +1647,9 @@
                   href: master-planning/planning-optimization/plan-history-logs.md
                 - name: Cancelar um trabalho de planejamento
                   href: master-planning/planning-optimization/cancel-planning-job.md
-                - name: Solucionar Problemas da Otimização do Planejamento
+                - name: Solucionar Problemas da Otimização de Planejamento
                   href: master-planning/planning-optimization/planning-optimization-trouble-shooting.md
-                - name: Extensibilidade da Otimização do Planejamento
+                - name: Extensibilidade da Otimização de Planejamento
                   href: master-planning/planning-optimization/extensibility.md
             - name: Planos mestres
               items:
@@ -1709,6 +1715,8 @@
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
                 - name: Colaborar com clientes da cadeia de fornecimento interna
                   href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
+                - name: Requisitos líquidos e informações de vinculação com o planejamento mestre interno
+                  href: master-planning/net-requirements-built-in-master-planning.md
             - name: Previsão
               items:
                 - name: Previsão de demanda e fornecimento
@@ -1967,6 +1975,8 @@
                   href: procurement/request-quotations.md
                 - name: Criar uma solicitação de cotação
                   href: procurement/tasks/create-request-quotation.md
+                - name: Lance selado para RFQs
+                  href: procurement/sealed-bidding.md
                 - name: Criar uma requisição que use uma RFQ
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Criar um método de avaliação para RFQs
@@ -2281,6 +2291,8 @@
               href: engineering-change-management/product-readiness.md
             - name: Estrutura de liberação de produto
               href: engineering-change-management/release-product-structure.md
+            - name: Gerar grades para produtos de engenharia
+              href: engineering-change-management/engineering-variants.md
             - name: Perguntas frequentes sobre gerenciamento de alteração de engenharia
               href: engineering-change-management/change-management-faq.md
         - name: Controle de produção
@@ -2603,6 +2615,8 @@
               href: rebate-management/rebate-management-overview.md
             - name: Configurar e definir o módulo de gerenciamento de reembolsos
               items:
+                - name: Ativar o módulo de Gerenciamento de reembolsos para seu sistema
+                  href: rebate-management/rebate-management-enable.md
                 - name: Parâmetros de gerenciamento de reembolsos
                   href: rebate-management/rebate-management-parameters.md
                 - name: Fluxos de trabalho de negociações de gerenciamento de reembolsos
@@ -2619,6 +2633,8 @@
               href: rebate-management/rebate-management-deals.md
             - name: 'Processar, revisar e lançar reembolsos'
               href: rebate-management/process-review-post.md
+            - name: Gerenciar deduções usando o workbench de dedução
+              href: rebate-management/deduction-workbench.md
         - name: Vendas e marketing
           items:
             - name: Visão geral de vendas e marketing
@@ -3057,6 +3073,8 @@
               href: landed-cost/in-transit-processing.md
             - name: Processar transações a maior/a menor
               href: landed-cost/over-under-transactions.md
+            - name: Atualizar rastreamento a ser armazenado
+              href: landed-cost/update-tracking-putaway.md
             - name: Consultas de custo de entrega
               href: landed-cost/landed-cost-inquiries.md
             - name: Relatórios de custo de entrega
@@ -3117,6 +3135,8 @@
                       href: warehousing/cluster-position-full.md
                     - name: Separação de cluster direcionada pelo sistema
                       href: warehousing/system-directed-cluster-pick.md
+                    - name: Separação em excesso de ordens de venda e ordens de transferência
+                      href: warehousing/over-picking-for-sales-and-transfer-orders.md
                     - name: Definir dimensões diferentes para embalagem e armazenamento
                       href: warehousing/packing-vs-storage-dimensions.md
                     - name: Confirmação de lote e placa de licença
@@ -3509,6 +3529,12 @@
                   href: troubleshooting/transportation/reconciliation-reaso.md
             - name: Gerenciamento de depósito
               items:
+                - name: Não é possível confirmar uma remessa porque o cliente está em espera
+                  href: troubleshooting/warehousing/customer-is-on-hold.md
+                - name: Não é possível confirmar uma remessa porque as linhas de carga têm quantidade zero
+                  href: troubleshooting/warehousing/load-line-quantity-is-zero.md
+                - name: Não é possível atualizar uma linha de carga porque a quantidade liberada seria negativa
+                  href: troubleshooting/warehousing/released-qty-cannot-be-negative.md
                 - name: Recebimentos de produtos cancelados não atualizam o status de transações para registrado
                   href: troubleshooting/warehousing/canceled-product-receipts.md
                 - name: O arredondamento decimal da quantidade de atualização física está incorreto

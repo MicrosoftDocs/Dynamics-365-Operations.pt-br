@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: d3f3a02a369cab34b965b2443bb77053377a190e
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1d7f00891925a5c313d0d86dddaba4b7da335ad534b682473446abd2617e9937
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353363"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773072"
 ---
 # <a name="work-policies"></a>Políticas de trabalho
 
@@ -42,7 +42,7 @@ Para disponibilizar toda a funcionalidade descrita neste tópico no sistema, ati
 
 ## <a name="the-work-policies-page"></a>A página Políticas de trabalho
 
-Para configurar políticas de trabalho, vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**. Em seguida, em cada FastTab, defina os campos conforme descrito nas subseções a seguir.
+Para configurar políticas de trabalho, Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**. Em seguida, em cada FastTab, defina os campos conforme descrito nas subseções a seguir.
 
 ### <a name="the-work-order-types-fasttab"></a>A FastTab Tipos de ordem de trabalho
 
@@ -94,7 +94,7 @@ A configuração **Local de destino** para um item de menu substitui o local de 
 
 Para configurar um item de menu de dispositivo móvel para dar suporte ao recebimento em um local personalizado, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione ou crie um item de menu que use um dos processos de criação de trabalho listados anteriormente nesta seção.
 1. Na FastTab **Geral**, defina a opção **Usar dados padrão** como **Sim**.
 1. No Painel de Ações, selecione **Dados padrão**.
@@ -125,7 +125,7 @@ Este cenário usa os dados de demonstração padrão. Então, se desejar trabalh
 
 ### <a name="set-up-a-work-policy"></a>Configurar uma política de trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
 1. Selecione **Novo**.
 1. No campo **Nome da política de trabalho**, digite *Nenhum trabalho de armazenamento de item de compra*.
 1. Selecione **Salvar**.
@@ -146,7 +146,7 @@ Este cenário usa os dados de demonstração padrão. Então, se desejar trabalh
 
 ### <a name="set-up-a-mobile-device-menu-item-to-change-the-receiving-location"></a>Configurar um item de menu do dispositivo móvel para alterar o local de recebimento
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No painel esquerdo, selecione o item de menu **Recebimento de compra** existente.
 1. Na FastTab **Geral**, defina a opção **Usar dados padrão** como *Sim*.
 1. Selecione **Salvar**.
@@ -226,7 +226,7 @@ Este cenário usa os dados de demonstração padrão. Então, se desejar trabalh
 
 Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir uma política de trabalho, você pode impedir a criação de trabalho para a separação de matéria-prima e o armazenamento de mercadorias acabadas para um conjunto de produtos em locais específicos.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de trabalho**.
 1. Selecione **Novo**.
 1. No campo **Nome da política de trabalho**, insira *Nenhum trabalho de armazenamento*.
 1. No Painel de ações, selecione **Salvar**.
@@ -256,7 +256,7 @@ Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir
 
 ### <a name="set-up-an-output-location"></a>Configurar uma localização de saída
 
-1. Vá para **Administração da organização \> Recursos \> Grupos de recursos**.
+1. Acesse **Administração da organização \> Recursos \> Grupos de recursos**.
 1. No painel esquerdo, selecione o grupo de recursos **5102**.
 1. Na FastTab **Geral**, defina os seguintes valores:
 
@@ -270,7 +270,7 @@ Os processos de depósito nem sempre incluem o trabalho do depósito. Ao definir
 
 ### <a name="create-a-production-order-and-report-it-as-finished"></a>Criar uma ordem de produção e relatar quando estiver concluída
 
-1. Vá para **Controle de produção \> Ordens de produção \> Todas ordens de produção**.
+1. Acesse **Controle de produção \> Ordens de produção \> Todas ordens de produção**.
 1. No Painel de Ações, selecione **Nova ordem de produção**.
 1. Na caixa de diálogo **Criar ordem de produção**, defina o campo **Número do item** como *L0101*.
 1. Selecione **Criar** para criar a ordem e feche a caixa de diálogo.

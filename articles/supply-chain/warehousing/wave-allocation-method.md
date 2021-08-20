@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b01de3c9f1cbcb24abc2b5a0c91db7f0791020bf
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 9c534f5e10f5797543d56ff4a5a7ada937edcb017228ebe395ae8a45efa10886
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018994"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781312"
 ---
 # <a name="wave-allocation"></a>Alocação de ciclo
 
@@ -45,7 +45,7 @@ Os benefícios de desempenho do processamento paralelo recaem em duas categorias
 
 ### <a name="warehouse-management-parameters"></a>Parâmetros de gerenciamento de depósito
 
-Para usar o processamento de alocação paralela, vá para **Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito**, abra a guia **Processamento do ciclo** e faça as seguintes configurações:
+Para usar o processamento de alocação paralela, Acesse **Gerenciamento de depósito > Configuração > Parâmetros de gerenciamento de depósito**, abra a guia **Processamento do ciclo** e faça as seguintes configurações:
 
 - **Grupo de lotes de processamento do ciclo** – selecione o grupo de lotes que o processamento inicial do ciclo deve usar. O processamento subsequente da alocação pode ser feito usando diferentes grupos de lotes.
 - **Processar ciclos em lotes** – defina isso como *Sim* para usar o processamento paralelo.
@@ -57,7 +57,7 @@ Para obter informações sobre essas e outras opções de processamento do ciclo
 
 Para configurar o processamento paralelo:
 
-1. Vá para **Gerenciamento de depósito > Configuração > Ciclos > Métodos de processo do ciclo**.
+1. Acesse **Gerenciamento de depósito > Configuração > Ciclos > Métodos de processo do ciclo**.
 1. Selecione o método `allocateWave` na grade.
 1. No Painel de Ações, selecione **Configuração da tarefa**.
 1. A página **Configuração da tarefa do método de lançamento de ciclos** é aberta. Essa grade lista cada depósito no qual você configurou o método `allocateWave`. O processamento paralelo só será usado para os depósitos listados. Use os botões do Painel de Ação para adicionar ou remover depósitos da grade, conforme necessário. 
@@ -77,8 +77,8 @@ O processamento de alocação paralela exige que o processamento do ciclo seja e
 
 Se necessário, você poderá desfazer cada uma das configurações feitas por padrão quando o recurso *Paralelização do ciclo para o método Alocar Ciclo* estiver habilitado automaticamente para sua instância. Para fazer isto:
 
-- Vá para **Gerenciamento do depósito\> Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Processamento do ciclo**, aplique os valores preferidos para **Processar ciclos em lotes** e **Aguardar bloqueio (ms)**.
-- Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**. Selecione o método `allocateWave`. No Painel de Ações, selecione **Configuração da tarefa** para abrir uma página que liste cada depósito no qual o método está definido para ser executado em paralelo. Modifique ou exclua o número de tarefas em lotes e o grupo de ciclos atribuído a cada depósito listado, conforme necessário.
+- Acesse **Gerenciamento do depósito\> Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Processamento do ciclo**, aplique os valores preferidos para **Processar ciclos em lotes** e **Aguardar bloqueio (ms)**.
+- Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Métodos de processo de onda**. Selecione o método `allocateWave`. No Painel de Ações, selecione **Configuração da tarefa** para abrir uma página que liste cada depósito no qual o método está definido para ser executado em paralelo. Modifique ou exclua o número de tarefas em lotes e o grupo de ciclos atribuído a cada depósito listado, conforme necessário.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 
@@ -86,7 +86,7 @@ Se necessário, você poderá desfazer cada uma das configurações feitas por p
 
 Como a estrutura de lotes é usada, os erros que ocorrem durante o processamento do ciclo serão capturados como parte dos logs de informações de trabalhos em lotes. Para ler os trabalhos em lotes relacionados a um ciclo:
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione o ciclo que deseja inspecionar.
 1. No Painel de Ações, abra a guia **Ciclo** e, no grupo **Ciclo**, selecione **Trabalhos em lotes**.
 
@@ -100,7 +100,7 @@ Os erros das tarefas em lotes também fazem parte do log de trabalhos em lotes. 
 
 Em casos raros, por exemplo, se a conexão SQL tiver sido encerrada, é possível que o processamento do ciclo termine em um estado inconsistente no qual o trabalho em lotes parece estar em execução, mas o processamento é interrompido. O ciclo não pode manipular erros como esse e, portanto, ocorrerá uma tentativa de limpar os ciclos que falharam quando o próximo ciclo for executado. Como alternativa, se o ciclo atual estiver em um estado inconsistente, execute as seguintes etapas:
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione o ciclo que precisa ser limpo.
 1. No Painel de Ações, abra a guia **Ciclo** e, no grupo **Ciclo**, selecione **Limpar dados do ciclo**.
 
@@ -108,6 +108,6 @@ Em casos raros, por exemplo, se a conexão SQL tiver sido encerrada, é possíve
 
 Se a opção **Criar log de progresso do ciclo** estiver habilitada na página **Parâmetros de gerenciamento de depósito**, um registro de log será criado sempre que a alocação de um item e suas dimensões começar e terminar. Você só deverá habilitar esse log quando precisar dele, por exemplo, durante o teste inicial ou para solução de problemas. Quando esta opção estiver habilitada, você poderá exibir o log executando as seguintes etapas:
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione o ciclo que deseja inspecionar.
 1. No Painel de Ação, abra a guia **Ciclo** e, no grupo **Ciclo**, selecione **Progresso**.

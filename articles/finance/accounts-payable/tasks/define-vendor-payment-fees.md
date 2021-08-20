@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5e0871e0889b078c08e4bcbd86bf749bcfe39463
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f3a53124d021e35b05ce720c75924e136acdfadde8ddbad0d544d36662f45cb2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837245"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777305"
 ---
 # <a name="define-vendor-payment-fees"></a>Definir taxas de pagamento de fornecedor
 
@@ -26,7 +26,7 @@ ms.locfileid: "5837245"
 
 Configure taxas de pagamento de fornecedor. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para Contas a pagar > Configurar pagamento > Taxa de pagamento.
+1. Acesse Contas a pagar > Configurar pagamento > Taxa de pagamento.
 2. Clique em Novo.
 3. No campo ID da taxa, digite um valor.
     * A ID de taxa deve descrever quando essa taxa será usada, como "EFT_Fee".  

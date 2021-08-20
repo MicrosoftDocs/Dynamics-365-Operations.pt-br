@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: aba7627877cd9b79dce5930e528f892e2d80baac
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 9677d4b09246eec41dc4006c3617d4359b103f930d8289fad399d638203a4b81
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6058743"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759662"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>Usar fluxos de trabalho para gerenciar informações de funcionários
 
@@ -62,7 +62,7 @@ Para configurar um fluxo de trabalho básico que é iniciado quando os funcioná
 
 8.  Complete todas as instruções adicionais (não devem existir avisos adicionais).
 9.  Clique em **Salvar e fechar**. Ative o novo fluxo de trabalho quando a caixa de diálogo abrir e selecione **Ativar**.
-10. Vá para **Recursos humanos** &gt; **Posições** &gt; **Tipos de hierarquia de posição**.
+10. Acesse **Recursos humanos** &gt; **Posições** &gt; **Tipos de hierarquia de posição**.
 11. Selecione **Matriz**.
 12. Adicione o fluxo de trabalho **Número de identificação do trabalhador** à lista.
 

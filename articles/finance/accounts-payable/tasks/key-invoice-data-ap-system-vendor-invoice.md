@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5d3f9fc1fb7724632dbc9c4c3e1e28c6e85eaf61
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b3e27ed41ff1fa44d5e8779cb5e81e45d02110eb3b37be3a3b9938cabfc395bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5827785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777279"
 ---
 # <a name="key-invoice-data-in-ap-using-a-vendor-invoice"></a>Dados principais de fatura no AP usando uma fatura de fornecedor
 
@@ -28,7 +28,7 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 
 
 ## <a name="create-a-purchase-order"></a>Criar uma ordem de compra
-1. No Painel de navegação, vá para **Módulos > Contas a pagar > Ordens de compra > Todas as ordens de compra**.
+1. No Painel de navegação, Acesse **Módulos > Contas a pagar > Ordens de compra > Todas as ordens de compra**.
 2. Clique em **Novo**.
 3. No campo **Conta de fornecedor**, clique no botão suspenso para abrir a pesquisa.
 4. Localize um fornecedor para selecionar. Por exemplo, role para baixo ao US-104.
@@ -49,7 +49,7 @@ Este guia de tarefas ajudará você a criar uma fatura de fornecedor a partir de
 5. Feche a página.
 
 ## <a name="create-a-vendor-invoice"></a>Crie uma fatura de fornecedor
-1. No Painel de navegação, vá para **Módulos > Contas a pagar > Ordens de compra > Ordens de compra recebidas, mas não faturadas**.
+1. No Painel de navegação, Acesse **Módulos > Contas a pagar > Ordens de compra > Ordens de compra recebidas, mas não faturadas**.
 2. Selecione a ordem de compra que você criou.
 3. No Painel de Ação, clique em **Fatura**.
 4. Clique em **Fatura**.
