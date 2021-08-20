@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ff2d83a01f366517502bfc5c885b6f963bd945ca
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 13725f904c569be21bdc50c8dceea4275da1bae67415e4017842dd258f11b07a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829701"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768038"
 ---
 # <a name="define-coverage-rules-for-items"></a>Definir regras de cobertura para itens
 
@@ -28,7 +28,7 @@ A empresa de dados demo usada para criar este procedimento é USMF. Este procedi
 
 
 ## <a name="create-a-coverage-group"></a>Crie um grupo de cobertura.
-1. Vá para **Painel de navegação > Módulos > Planejamento mestre > Configuração > Grupos de cobertura**.
+1. Acesse **Painel de navegação > Módulos > Planejamento mestre > Configuração > Grupos de cobertura**.
 2. Clique em **Novo**.
 3. No campo **Grupo de cobertura**, digite um valor.
 4. No campo **Nome**, digite um valor.
@@ -44,7 +44,7 @@ A empresa de dados demo usada para criar este procedimento é USMF. Este procedi
 14. Clique em **Salvar**.
 
 ## <a name="create-a-new-product"></a>Criar um novo produto
-1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+1. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 2. Clique em **Novo**.
 3. No campo **Número do produto**, digite um valor.
 4. No campo **Nome do produto**, digite um valor.

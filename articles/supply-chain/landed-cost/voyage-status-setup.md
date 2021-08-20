@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: e19a54fc9de166c93fd68408ca8c8c692dc96cab
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 994ce5245ce36a3d063782aff738e752d33c8cc91b438b9dc683eedbd7f13a5a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022099"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760481"
 ---
 # <a name="voyage-status-setup"></a>Configuração de status de viagem
 
@@ -30,7 +30,7 @@ Na página **Status de viagem**, você estabelece o conjunto de valores de statu
 - Informar o usuário sobre o status da viagem, o contêiner de remessa, o fólio, a ordem de compra ou o item (linhas de compra e linhas de ordem de transferência).
 - Limitar o uso da área de custo impedindo a modificação ou a exclusão.
 
-Para configurar seus status de viagem, vá para **Custo de entrega \> Configuração \> Status de viagem**. Lá, você pode adicionar, remover e editar os status usando os botões no Painel de Ações.
+Para configurar seus status de viagem, Acesse **Custo de entrega \> Configuração \> Status de viagem**. Lá, você pode adicionar, remover e editar os status usando os botões no Painel de Ações.
 
 Cada área de custo tem seu próprio conjunto e hierarquia de status de viagem. Portanto, na página **Status de viagem**, no campo **Área de custo**, você deve primeiro selecionar a área de custo que deseja exibir ou para a qual deseja criar status de viagem. Em seguida, para cada status de viagem, defina os campos descritos na tabela a seguir, conforme necessário. Observe que o status de uma viagem também pode ser alterado automaticamente por eventos do sistema, como as regras que foram estabelecidas usando o centro de controle de acompanhamento.
 

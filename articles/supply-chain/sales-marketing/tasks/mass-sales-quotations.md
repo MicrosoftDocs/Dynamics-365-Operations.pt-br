@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0422817576d9d93d0ec6bbfb5f3777013ee09ece
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6cbeadb29c58f8ca77721c8f867836d8830803f2b89b82a544be4d2a03db750f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5817692"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756814"
 ---
 # <a name="mass-create-sales-quotations"></a>Criar cotações de venda em massa
 
@@ -28,13 +28,13 @@ Este procedimento demonstra como criar cotações de forma eficiente que oferece
 
 
 ## <a name="create-a-quotation-template"></a>Criar um modelo de cotação
-1. Vá para Vendas e marketing > Configuração > Cotações > Grupos de modelo.
+1. Acesse Vendas e marketing > Configuração > Cotações > Grupos de modelo.
 2. Clique em Novo.
 3. No campo de ID de grupo, digite uma ID de sua escolha.
 4. No campo Descrição, digite um valor.
 5. Clique em Salvar.
 6. Feche a página.
-7. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
+7. Acesse Vendas e marketing > Cotações de venda > Todas as cotações.
 8. Clique em Novo.
 9. No tipo Conta, selecione 'Cliente'.
 10. No campo Conta de cliente, insira ou selecione um valor.
@@ -69,7 +69,7 @@ Este procedimento demonstra como criar cotações de forma eficiente que oferece
 37. Clique em Salvar.
 
 ## <a name="apply-the-template-to-create-a-single-quotation"></a>Aplique o modelo para criar uma única cotação
-1. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
+1. Acesse Vendas e marketing > Cotações de venda > Todas as cotações.
     * Observe que a cotação que você acabou de criar está marcada como modelo.  
 2. Clique em Novo.
 3. No tipo Conta, selecione 'Cliente'.
@@ -84,7 +84,7 @@ Este procedimento demonstra como criar cotações de forma eficiente que oferece
 11. Feche a página.
 
 ## <a name="apply-the-template-to-mass-create-quotations"></a>Aplique o modelo para criar cotações em massa
-1. Vá para Vendas e marketing > Cotações de venda > Atualização da cotação > Criar cotações em massa.
+1. Acesse Vendas e marketing > Cotações de venda > Atualização da cotação > Criar cotações em massa.
 2. No tipo Conta, selecione 'Cliente'.
 3. No campo ID do Grupo, insira ou selecione um valor.
 4. No campo Nome do modelo, insira ou selecione um valor.
@@ -95,7 +95,7 @@ Este procedimento demonstra como criar cotações de forma eficiente que oferece
     * Por exemplo, você pode definir o filtro: US-001.US-004  
 9. Clique em OK.
 10. Clique em OK.
-11. Vá para Vendas e marketing > Cotações de venda > Todas as cotações.
+11. Acesse Vendas e marketing > Cotações de venda > Todas as cotações.
     * Verifique se as cotações foram criadas para todos os clientes especificados na rotina de atualização em massa, conforme baseado no modelo selecionado.  
 
 

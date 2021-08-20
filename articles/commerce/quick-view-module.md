@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anupamar
 ms.search.validFrom: 2020-01-08
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 5b9bb456659447697b685105fe64b083e01f690a
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 24b3a5552a83bfea52f6a274b836955e41acdb4281f7b7807acf040e9cd4af30
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351955"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777467"
 ---
 # <a name="quick-view-module"></a>Módulo de exibição rápida
 
@@ -59,8 +59,8 @@ Assim como o módulo de caixa de compra, o módulo de exibição rápida respeit
 
 Para adicionar um módulo de exibição rápida a um módulo de coleção de produtos no construtor de sites do Commerce, siga estas etapas.
 
-1. Vá para **Páginas** e selecione a página inicial do site da Fabrikam.
-1. Vá para qualquer módulo de **Coleção de produtos** na página inicial, selecione as reticências (**...**) e depois **Adicionar módulo**.
+1. Acesse **Páginas** e selecione a página inicial do site da Fabrikam.
+1. Acesse qualquer módulo de **Coleção de produtos** na página inicial, selecione as reticências (**...**) e depois **Adicionar módulo**.
 1. Na caixa de diálogo **Adicionar Módulo**, selecione o módulo **Exibição rápida** e depois **OK**.
 1. No painel propriedades do módulo **Exibição rápida**, selecione **Título**. Na caixa de diálogo **Título**, defina o campo **Nível do título** como **H2** e então selecione **OK**.
 1. Selecione **Salvar**, **Concluir edição** para fazer check-in da página e depois selecione **Publicar** para publicá-lo.

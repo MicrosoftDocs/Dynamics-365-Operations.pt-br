@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d6d33a13920e1881cdc69ad7c100180d3b3b441d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bab383e4e1b33cbeeb0bbd7712e4907301057fd293c8334b45888be8f3d97277
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5820025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761797"
 ---
 # <a name="create-a-new-product"></a>Criar um novo produto
 
@@ -28,7 +28,7 @@ Este tópico descreve como criar um novo produto compartilhado. Geralmente é re
 
 
 ## <a name="create-a-product"></a>Criar um produto
-1. No Painel de navegação, vá para **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos**.
+1. No Painel de navegação, Acesse **Módulos > Gerenciamento de informações sobre produtos > Produtos > Produtos**.
 2. Selecione **Novo**.
 3. No campo **Número do produto**, digite um valor. Se uma sequência numérica não foi configurada para o número do produto, deve ser inserida manualmente.  
 4. No campo **Nome do produto**, digite um valor. O Nome do produto padrão ao nome de pesquisa. Você pode mudar isso, se necessário.  

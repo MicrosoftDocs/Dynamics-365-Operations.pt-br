@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-08-28
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: acfde5961f481f5d939f0c6388b80edfd65ee339
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d6a131f53d6e44692bcdc5f3a196bb27e37fe73914a0adba1dcd7822f552d1f8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351408"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771098"
 ---
 # <a name="outbound-workload-visualization"></a>Visualização da carga de trabalho de saída
 
@@ -40,7 +40,7 @@ Para configurar suas visualizações, crie uma coleção de filtros (exibições
 
 Para configurar uma visualização de carga de trabalho de saída, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Relatórios de monitoramento de depósito \> Visualização de carga de trabalho de saída**.
+1. Acesse **Gerenciamento de depósito \> Relatórios de monitoramento de depósito \> Visualização de carga de trabalho de saída**.
 
     A página **Visualização de carga de trabalho de saída** será exibida. Depois que você criar alguns filtros, essa página mostrará sua visualização. Você pode criar quantos filtros desejar. Todos os filtros criados por você são salvos na sua conta de usuário, para que possa usá-los posteriormente. Em outras palavras, cada usuário terá seu próprio conjunto de filtros que criou. Esses filtros não serão compartilhados com outros usuários.
 

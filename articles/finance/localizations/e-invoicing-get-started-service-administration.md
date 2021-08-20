@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 8adbe577e5111a6a4afdba6aed32855b2e30b39b
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: feb8160cd920906765f7ef4a393e15c2be5d8c2cd60c3646e15648980ff27a06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335681"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6765635"
 ---
 # <a name="get-started-with-electronic-invoicing-service-administration"></a>Introdução à administração de serviço do Faturamento eletrônico
 
@@ -148,7 +148,7 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 
 ### <a name="set-up-the-service-endpoint-url"></a>Configurar a URL do ponto de extremidade de serviço
 
-1. Vá para **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
+1. Acesse **Administração da organização \> Configuração \> Parâmetros de documentos eletrônicos**.
 2. Na guia **Serviço de envio**, no campo **URL de ponto de extremidade de serviço**, insira o ponto de extremidade de serviço apropriado da geografia do Azure, conforme mostrado na tabela a seguir.
 
     | Geografia do data center Azure | URI do ponto de extremidade do serviço                                                       |

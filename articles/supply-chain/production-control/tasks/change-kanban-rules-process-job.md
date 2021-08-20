@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2bdbbbf8a8b3d1596c251224cba996c0631050c4
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a76d003b60f699e5e8315a4a61390443567cacb2a13bc3735da578c0d8bc26a4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829297"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772439"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>Alterar regras kanban para um trabalho de processamento
 
@@ -28,7 +28,7 @@ Esse procedimento se concentra em alterar a regra kanban usada para um kanban es
 
 
 ## <a name="copy-kanban-rule"></a>Copiar regra kanban
-1. Vá para Regras kanban.
+1. Acesse Regras kanban.
 2. Na lista, localize e selecione o PDV desejado.
     * Selecione a regra kanban de evento 000022 para L0001.  
 3. Clique em Duplicar regra kanban.
@@ -36,7 +36,7 @@ Esse procedimento se concentra em alterar a regra kanban usada para um kanban es
 
 ## <a name="change-kanban-rule"></a>Alterar a regra kanban
 1. Feche a página.
-2. Vá para Agendamento do trabalho kanban.
+2. Acesse Agendamento do trabalho kanban.
 3. Na lista, marque a linha selecionada.
     * Selecione a linha com kanban 000177.  
 4. Clique em Usar regra kanban alternativa.

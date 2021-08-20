@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0d203301737c03cb5db238f05c51f6df953d59bc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0115d58c059724fddc3d6232d341e10630229fa394e462af96176e75a2a8f86c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5816355"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773120"
 ---
 # <a name="advanced-load-building-during-wave"></a>Criação de carga avançada durante ondas
 
@@ -66,14 +66,14 @@ O **Item M9200** deve ser adicionado ao depósito. Execute os procedimentos nas 
 
 #### <a name="create-a-new-license-plate-id"></a>Criar uma nova ID de placa de licença
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Depósito** \> **Placas de licença**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Depósito** \> **Placas de licença**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na nova linha, no campo **Placa de licença**, digite *LP6203*.
 1. Selecione **Salvar**.
 
 #### <a name="create-a-standard-cost-for-item-m9200-in-site-6"></a>Criar um custo padrão para o item M9200 no site 6
 
-1. Vá para **Gerenciamento de informações do produto** \> **Produtos** \> **Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto** \> **Produtos** \> **Produtos liberados**.
 1. Pesquise **M9200**.
 1. Selecione a linha do item e, no Painel de Ação, na guia **Gerenciar custos**, no grupo **Configurar**, selecione **Preço do item**.
 1. Na página **Preço do item**, selecione a guia **Preços pendentes**.
@@ -92,7 +92,7 @@ O **Item M9200** deve ser adicionado ao depósito. Execute os procedimentos nas 
 
 #### <a name="create-inventory-in-warehouse-62"></a>Ciar estoque no depósito 62
 
-1. Vá para **Gerenciamento de estoque** \> **Entradas de diário** \> **Itens** \> **Ajuste de estoque**.
+1. Acesse **Gerenciamento de estoque** \> **Entradas de diário** \> **Itens** \> **Ajuste de estoque**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar diário do estoque**, na FastTab **Visão geral**, no campo **Depósito**, insira *62*. Aceite os valores padrão em todos os demais campos.
 1. Selecione **OK** para fechar a caixa de diálogo.
@@ -115,14 +115,14 @@ O **Item M9200** deve ser adicionado ao depósito. Execute os procedimentos nas 
 
 Pode ser necessário regenerar seus métodos do processo de onda para tornar o método de criação de carga (**buildLoads**) disponível.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Métodos do processo de onda**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Métodos do processo de onda**.
 2. Verifique se **buildLoads** está na lista. Se não estiver, selecione **Regenerar métodos** no Painel de Ação para adicioná-lo.
 
 ### <a name="set-up-wave-templates"></a>Configurar modelos de onda
 
 Para aproveitar as vantagens da criação avançada de carga de onda, você deve incluir o método **buildLoads** em cada [modelo de onda](tasks/configure-wave-processing.md) relevante.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Modelos de onda**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Ondas** \> **Modelos de onda**.
 1. Selecione um modelo de onda.
 
     Se você estiver trabalhando com os dados de demonstração da **USMF**, selecione o modelo **Padrão de Remessa 62**.
@@ -153,7 +153,7 @@ Para aproveitar as vantagens da criação avançada de carga de onda, você deve
 
 Os grupos mistos de carga estabelecem regras para os tipos de itens que podem ser combinados em uma única carga. É possível configurar quantos grupos mistos de carga forem necessários. No entanto, para usar a criação avançada de carga de onda, você deve ter pelo menos um. Siga estas etapas para criar um grupo misto de cargas.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Carga** \> **Grupos mistos de carga**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Carga** \> **Grupos mistos de carga**.
 1. No Painel de Ação, selecione **Novo** para criar um grupo de carga.
 1. No campo **ID de grupos mistos de carga**, insira um nome para o novo grupo.
 
@@ -185,7 +185,7 @@ Se estiver trabalhando com os dados de demonstração da **USMF**, agora você c
 
 É possível configurar quantos modelos de criação de carga forem necessários. No entanto, para usar a criação avançada de carga de onda, você deve ter pelo menos um. Siga estas etapas para criar um modelo de criação de carga.
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Carga** \> **Modelos de criação de carga de onda**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Carga** \> **Modelos de criação de carga de onda**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade.
 1. Na nova linha, defina os valores a seguir.
 
@@ -224,7 +224,7 @@ Este cenário mostra como as configurações descritas anteriormente neste tópi
 
 ### <a name="create-sales-orders"></a>Criar ordens de venda
 
-1. Vá para **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
+1. Acesse **Vendas e marketing** \> **Ordens de venda** \> **Todas as ordens de venda**.
 1. No Painel de Ação, selecione **Novo** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo , defina os seguintes valores:
 

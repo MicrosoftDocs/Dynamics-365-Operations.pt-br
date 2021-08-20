@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1d4634ec275d3d1c2a131c4c1d61cc983e485b14
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 362fbfb5f0cae7cc8583754b53a198eae90bc67f24a871523374c4b7997826eb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798480"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762287"
 ---
 # <a name="create-pos-permission-groups"></a>Criar grupos de permissões de PDV
 
@@ -27,7 +27,7 @@ ms.locfileid: "5798480"
 
 Este tópico explica como criar um grupo de permissões de PDV. A empresa de dados de demonstração usada para criar esta tarefa é USRT. Esta tarefa é destinada à função Gerente de operações de comércio.
 
-1. No painel de navegação, vá para **Módulos > Varejo e Comércio > Funcionários > Grupos de permissões**.
+1. No painel de navegação, Acesse **Módulos > Varejo e Comércio > Funcionários > Grupos de permissões**.
 2. Selecione **Novo**.
 3. No campo **ID do grupo de permissões de PDV**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -38,7 +38,7 @@ Este tópico explica como criar um grupo de permissões de PDV. A empresa de dad
 9. Selecione **Sim** no campo **Permitir alteração de senha**.
 10. Selecione **Sim** no campo **Permitir fechamento cego**.
 11. Selecione **Salvar**. Depois que as alterações forem salvas, será necessário executar a agenda de distribuição da equipe para enviar as alterações aos canais de comércio. 
-12. No Painel de Navegação, vá para **Módulos > Recursos humanos > Trabalhos > Trabalhos**.
+12. No Painel de Navegação, Acesse **Módulos > Recursos humanos > Trabalhos > Trabalhos**.
 13. A seguir, atribuiremos o grupo de permissões de PDV a um trabalho. Na lista, localize e selecione o registro desejado.
 14. Selecione **Editar**.
 15. Expanda a seção **Classificação do trabalho**.

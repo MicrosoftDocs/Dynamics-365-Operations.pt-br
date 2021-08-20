@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9c6a692553867d7e8679099210dc44b9d9e4d0f1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 127d5402abfedcce124b39b76a6c1036a6c818a7c1318aaeabdb0688b50f738e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838673"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779752"
 ---
 # <a name="setup-method-of-payment-for-iso20022-direct-debit"></a>Configurar método de pagamento para débito direto de ISO20022
 
@@ -38,7 +38,7 @@ Este procedimento foi criado usando a empresa de dados de demonstração DEMF.
 
 Este é o terceiro dos cinco procedimentos que demonstram o processo de pagamento de clientes usando as configurações de relatório eletrônico.
 
-1. Vá para Contas a receber > Configurar pagamentos > Métodos de pagamento.
+1. Acesse Contas a receber > Configurar pagamentos > Métodos de pagamento.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Método de pagamento com um valor de 'ELECTRONIC'.
 3. Clique em Editar.
 4. No campo Conta de pagamento, especifique os valores 'DEMF OPER'.

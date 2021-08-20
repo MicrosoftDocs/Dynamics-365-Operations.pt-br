@@ -2,7 +2,7 @@
 title: Configurar valores de dimensão de produto para serem exibidos como amostras
 description: Este tópico descreve como configurar valores de dimensão de produto como amostras no Microsoft Dynamics 365 Commerce headquarters.
 author: anupamar-ms
-ms.date: 05/28/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-09-20
 ms.dyn365.ops.version: Retail 10.0.20 update
-ms.openlocfilehash: 4ffbb6a162e87fd19cdb44224adc8c223ba8e903
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: b1cef992b3d4e3889dd1d5dcc21a0d1ba3f55acc166f5003fc79f64fc54a8754
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638285"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764605"
 ---
 # <a name="configure-product-dimension-values-to-appear-as-swatches"></a>Configurar valores de dimensão de produto para serem exibidos como amostras
 
@@ -46,7 +46,7 @@ A ilustração a seguir mostra um exemplo em que cores aparecem como amostras em
 
 ## <a name="enable-the-display-dimensions-as-swatches-feature-in-commerce-headquarters"></a>Habilitar as dimensões de exibição como um recurso de amostras no Commerce Headquarters
 
-Para habilitar o recurso Exibir dimensões como amostras no Commerce Headquarters, vá para **Espaços de trabalho \> Gerenciamento de recursos** e ative o recurso **Habilitar suporte de imagem para valores de dimensão do produto**. Quando esse sinalizador de recursos é habilitado, três novos campos são adicionados para cada dimensão nas tabelas apropriadas no Commerce Headquarters: **Hexcode**, **URL** (para imagens) e **RefinerGroup**.
+Para habilitar o recurso Exibir dimensões como amostras no Commerce Headquarters, Acesse **Espaços de trabalho \> Gerenciamento de recursos** e ative o recurso **Habilitar um mecanismo para representar dimensões como amostra**. Quando esse sinalizador de recursos é habilitado, três novos campos são adicionados para cada dimensão nas tabelas apropriadas no Commerce Headquarters: **Hexcode**, **URL** (para imagens) e **RefinerGroup**.
 
 ## <a name="configure-dimension-values-in-commerce-headquarters"></a>Configurar valores de dimensão no Commerce Headquarters
 
@@ -125,9 +125,22 @@ Antes que as amostras possam aparecer nas páginas do site de comércio eletrôn
 
 Além disso, você deve habilitar a propriedade **Incluir atributos de produtos em resultados de pesquisa** para módulos de resultados de pesquisa. Se o seu site usar páginas personalizadas de categoria, você deve atualizar os módulos de resultados de pesquisa usados nessas páginas, de forma que a propriedade **Incluir atributos de produto em resultados de pesquisa** esteja habilitada. Para obter mais informações, consulte [Módulo de resultados de pesquisa](../search-result-module.md).
 
+## <a name="inventory-awareness-on-swatches"></a>Reconhecimento de estoque em amostras
+
+As amostras têm um recurso opcional de mostrar a disponibilidade de estoque de uma cor ou dimensão da grade de produto. Por exemplo, um produto é vendido em vários tamanhos, mas alguns tamanhos estão sem estoque. Nesse caso, as amostras dos produtos sem estoque são renderizadas de forma diferente para indicar que não estão disponíveis. Esse recurso ajuda a reduzir o número de cliques do cliente que são necessários para determinar a disponibilidade do produto.
+
+O recurso de disponibilidade de estoque de amostra pode ser configurado para ser usado em páginas de PDPs e de lista de pesquisa ou de categoria em que as amostras são exibidas. Para ativá-lo, defina a propriedade **Atualizar mídia na seleção de dimensão** como **Verdadeiro** no [módulo da galeria de mídia](../media-gallery-module.md). Essa configuração permite que as imagens da galeria de mídia sejam atualizadas quando as dimensões são selecionadas. 
+
+> [!IMPORTANT]
+> O recurso de disponibilidade de estoque da amostra está disponível a partir da versão 10.0.21 do Commerce. Ela requer que o pacote de biblioteca do módulo da versão 9.31 do Commerce esteja instalado.
+
+A ilustração a seguir mostra um exemplo de reconhecimento de estoque nas amostras de tamanho de um PDP.
+
+![Exemplo de reconhecimento de estoque nas amostras de tamanho de um PDP](../dev-itpro/media/swatch_inventory.png)
+
 ## <a name="display-swatches-in-pos-and-other-channels"></a>Exibir amostras no PDV e em outros canais
 
-O Commerce não tem atualmente uma implementação pronta para uso com suporte para a exibição de amostras em pontos de venda (PDV) e outros canais. No entanto, você pode implementar a funcionalidade de exibição de amostra como uma extensão que faz com que as APIs de canal retornem os códigos hexadecimais e URLs de imagem que são necessários para processar amostras.
+O Commerce não tem atualmente uma implementação pronta para uso com suporte para a exibição de amostras no ponto de venda (PDV) e em outros canais. No entanto, você pode implementar a funcionalidade de exibição de amostra como uma extensão, porque as APIs de canal retornam os códigos hexadecimais e as URLs de imagem que são necessários para renderizar amostras.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
