@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-10-01
 ms.dyn365.ops.version: 10.0.7
-ms.openlocfilehash: af9f3dd81b0681579c14e0afb8281706e8aa534d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 57eebdc38fb3f74690b92c03fa60e10c7610db1fe413320a6d167f05b0658bf1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351785"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767233"
 ---
 # <a name="add-new-fields-to-a-business-document-template-in-microsoft-excel"></a>Adicionar novos campos a um modelo de documento comercial no Microsoft Excel
 
@@ -137,14 +137,14 @@ No espaço de trabalho **Gerenciamento de documentos comerciais**, a guia **Mode
 
 ## <a name="review-company-settings"></a>Revisar configurações da empresa
 
-1.  Vá para **Administração da organização \> Organizações \> Entidades legais**.
+1.  Acesse **Administração da organização \> Organizações \> Entidades legais**.
 2.  Na Guia Rápida **Informações de contato**, verifique se a URL da empresa foi inserida.
 
 ![URL da empresa inserida na página Entidades legais.](./media/BDM-AddFldExcel-CompanyInfo.png)
 
 ## <a name="generate-business-documents-to-test-the-updated-template"></a>Gerar documentos comerciais para testar o modelo atualizado
 
-1.  No aplicativo, altere a empresa para **USMF** e vá para **Contas a receber \> Faturas \> Todas as faturas de texto livre**.
+1.  No aplicativo, altere a empresa para **USMF** e Acesse **Contas a receber \> Faturas \> Todas as faturas de texto livre**.
 2.  Selecione a fatura **FTI-00000002** e depois **Gerenciamento de impressão**.
 3.  No painel esquerdo, expanda **Módulo - contas a receber \> Documentos \> Fatura de texto livre**.
 4.  Em **Fatura de texto livre**, selecione o nível **Documento original** para especificar o escopo de faturas para processamento.

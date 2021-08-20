@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9cb49ac6ebbd04e71215af010cb5a7b6302fe44e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: dcf1bc1620c5daa981c390e8cf7490d582d8d09c394663548e73ed0f98814b09
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764278"
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar e lançar um cheque pré-datado para um cliente
 
@@ -25,7 +25,7 @@ ms.locfileid: "5834683"
 
 É possível registrar os detalhes de um cheque pré-datado recebido de um cliente. Você também pode lançar o cheque pré-datado e gerar transações financeiras.   Conclua as seguintes tarefas antes de registrar e lançar um cheque pré-datado recebido de um cliente: * Configurar cheque pré-datado na página de Gerenciamento de dinheiro e banco * Configurar um método de pagamento para cheques pré-datados A função para esse procedimento é Tesoureiro. Este procedimento usa a empresa de dados de demonstração USMF.
 
-1. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
+1. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
 4. Clique em Linhas.

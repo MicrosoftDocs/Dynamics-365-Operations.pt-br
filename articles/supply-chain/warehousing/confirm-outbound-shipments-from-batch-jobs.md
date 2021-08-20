@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-07-31
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: 69e61e1c04dd72efbe1d2f028c078100e07176f6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 82945ac3426bb5e063006495a20463d204fb3c8c9dd90bb51a1f023edeaff728
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762737"
 ---
 # <a name="confirm-outbound-shipments-from-batch-jobs"></a>Confirmar remessas de saída de trabalhos em lote
 
@@ -36,7 +36,7 @@ Antes de poder usar esse recurso, ele deverá estar habilitado no seu sistema. O
 
 Para configurar um trabalho em lotes agendado para executar a confirmação de remessa de saída para cargas prontas para remessa:
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 1. A caixa de diálogo **Confirmar remessa** é aberta. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
 1. A caixa de diálogo do editor de consultas é aberta. Na guia **Intervalo**, adicione uma linha com os seguintes valores:
     - **Tabela** - *Cargas*

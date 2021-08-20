@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-05-01
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: e4e6dac1d1b4a304062e852526235eeee6579540
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cdeceb9457aa8706b57baa713ae18f892d4803b41859da0a01acb39ed262f67c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5840380"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773901"
 ---
 # <a name="consolidate-shipments-manually-by-using-the-consolidate-shipments-page"></a>Consolide as remessas manualmente usando a página Consolidar remessas
 
@@ -38,7 +38,7 @@ O cenário descrito aqui pressupõe que você já ativou o recurso, fez os exerc
 
 Comece criando uma coleção de ordens de venda com as quais possa trabalhar. Você deve trabalhar com um depósito habilitado para processos de depósito avançados (WMS). A menos que um depósito diferente seja explicitamente mencionado, esse mesmo depósito deve ser usado para cada um dos conjuntos de ordens a seguir.
 
-Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
+Acesse **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma coleção de ordens de venda que tenha as configurações descritas nas subseções a seguir.
 
 ### <a name="create-sales-orders-1-and-2"></a>Criar as ordens de venda 1 e 2
 
@@ -72,7 +72,7 @@ Vá para **Contas a receber \> Ordens \> Todas as ordens de venda** e crie uma c
 
 Siga estas etapas para liberar cada ordem de venda criada para esse cenário para o depósito.
 
-1. Vá para **Contas a receber \> Ordens \> Todas as ordens de venda**.
+1. Acesse **Contas a receber \> Ordens \> Todas as ordens de venda**.
 1. Encontre e selecione a ordem de venda a ser liberada.
 1. No Painel de Ações, na guia **Depósito**, selecione **Ações \> Liberar para depósito** para liberar a ordem de venda selecionada.
 1. Repita este procedimento para todas as outras ordens de venda criadas para esse cenário.

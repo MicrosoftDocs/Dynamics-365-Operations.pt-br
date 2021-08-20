@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a52e2ee3bf0c5dadeda375882d16de60b31d658
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3956be08b08e974f1cbd269d97699d60769d6eac28bd2700313cf587c25474ad
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773997"
 ---
 # <a name="schedule-a-production-order"></a>Agendar uma ordem de produção
 
@@ -29,7 +29,7 @@ Este procedimento mostra como agendar uma ordem de produção. A empresa de dado
 
 
 ## <a name="schedule-a-production-order"></a>Agendar uma ordem de produção
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
+1. Acesse Controle de produção > Ordens de produção > Todas as ordens de produção.
     * Selecione uma ordem de produção com o status Estimado.  
 2. No Painel de Ação, clique em Agenda.
 3. Clique em Agendar trabalhos.

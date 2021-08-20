@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 679712b2397f220e263da3df07ecd03c99bebf3f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4de6399f83eeb0b0e1ea6fb13e86fb6dca456ff1c9b113e024afec97cc5b68af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766718"
 ---
 # <a name="product-owners"></a>Proprietários de produto
 
@@ -32,7 +32,7 @@ Os proprietários de produtos são configurações globais. Portanto, estão dis
 
 Para criar um grupo de proprietários de produtos e adicionar membros a ele, siga estas etapas.
 
-1. Vá para **Gerenciamento de alteração de engenharia \> Configuração \> Proprietários de produto**.
+1. Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Proprietários de produto**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **Proprietário de produto**, insira um nome para o grupo.
 4. No campo **Nome**, insira uma descrição do grupo.

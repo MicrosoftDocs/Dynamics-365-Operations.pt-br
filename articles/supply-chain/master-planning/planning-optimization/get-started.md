@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: d64f8fd0f59581995866b5463682acdfb24e9bce
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 091c953146850166ef1c93749d9bc2ec0b6a80fe58bdcb3c3d3b00bf45e7b0fe
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335417"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6761821"
 ---
 # <a name="get-started-with-planning-optimization"></a>Introdução à Otimização de Planejamento
 
@@ -65,7 +65,7 @@ Antes de instalar o suplemento de otimização de planejamento, é preciso atend
 Para usar a otimização de planejamento, é necessário habilitar a chave de configuração. Para fazer isso:
 
 1. Coloque seu sistema em modo de manutenção, conforme descrito em [Modo de manutenção](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
-1. Vá para **Administração de sistema \> Configurar \> Configuração de licença**.
+1. Acesse **Administração de sistema \> Configurar \> Configuração de licença**.
 1. Na guia **Chaves de configuração**, marque a caixa de seleção **Otimização de planejamento**.
 1. Desative o modo de manutenção, conforme descrito em [Modo de manutenção](../../../fin-ops-core/dev-itpro/sysadmin/maintenance-mode.md).
 
@@ -76,7 +76,7 @@ Para usar a otimização de planejamento, é necessário habilitar a chave de co
 Para instalar o suplemento de otimização de planejamento:
 
 1. Entre no LCS e abra o ambiente desejado.
-1. Vá para **Detalhes completos**.
+1. Acesse **Detalhes completos**.
 1. Role para baixo até a Guia Rápida **Suplementos de ambiente**.
 1. Selecione **Instalar um novo suplemento**.
 1. Selecione **Otimização de Planejamento**.
@@ -89,7 +89,7 @@ A finalidade principal da instalação do suplemento de otimização de planejam
 
 ## <a name="integrate-planning-optimization-with-your-system"></a>Integrar a otimização de planejamento ao seu sistema
 
-Para configurar se o Suplemento Otimização do Planejamento deve ser usado para o planejamento mestre, vá para **Planejamento mestre** \> **Configuração** \> **Parâmetros de Otimização do Planejamento**.
+Para configurar se o Suplemento Otimização do Planejamento deve ser usado para o planejamento mestre, Acesse **Planejamento mestre** \> **Configuração** \> **Parâmetros de Otimização do Planejamento**.
 
 ### <a name="connection-status"></a>Status da conexão
 

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2020-06-15
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5735cbdd4c8b137d01a56be0009b60d32c21e94e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 957baba1364fbbd4a51c6f51b0fad5bf8db46680fa97b9d3d0474dc015064609
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823659"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776519"
 ---
 # <a name="allocation-terms"></a>Condições de Alocação
 
@@ -45,7 +45,7 @@ Na guia rápida **Conta contábil de destino**, a conta principal será a mesma 
 
 ## <a name="create-an-allocation-term-on-a-main-account"></a>Criar uma condição de alocação em uma conta principal
 
-1. No **Painel de navegação**, vá para **Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
+1. No **Painel de navegação**, Acesse **Módulos > Contabilidade > Plano de contas > Contas > Contas principais**.
 2. Na lista, localize e selecione o registro desejado.
 3. Na guia rápida **Substituições da entidade legal**, selecione **Adicionar**.
 4. Selecione a **Empresa** e, em seguida, selecione **Adicionar**.

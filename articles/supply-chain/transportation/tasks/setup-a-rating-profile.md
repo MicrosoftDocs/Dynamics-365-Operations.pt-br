@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: henrikan
 ms.search.validFrom: 2020-10-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: d359394ee0086edc5c8b9a3a0c48cf5933963ceb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: de5789e1b8e36fc52f308967961fe12389628209ff423e26928d1fb15395a08f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772367"
 ---
 # <a name="rating-profiles"></a>Perfis de classificação
 
@@ -33,7 +33,7 @@ Você pode configurar um perfil de classificação usando uma página genérica 
 
 Na página **Perfis de classificação**, você pode revisar todos os perfis de classificação disponíveis. Você também pode editar perfis existentes e criar outros.
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Classificação \> Perfil de classificação**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Classificação \> Perfil de classificação**.
 1. No Painel de Ações, selecione **Novo** para adicionar um novo perfil de classificação à grade ou selecione **Editar** para editar um perfil existente.
 1. Na linha do perfil de classificação novo ou existente, defina os seguintes campos:
 
@@ -51,7 +51,7 @@ Na página **Perfis de classificação**, você pode revisar todos os perfis de 
 
 ## <a name="create-a-rating-profile-directly-on-the-shipping-carriers-page"></a>Criar um perfil de classificação diretamente na página das transportadoras
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. Selecione uma transportadora na lista.
 1. Na FastTab **Perfis de classificação**, selecione **Novo** para criar um perfil de classificação.
 1. Defina os campos para o novo perfil de classificação. Esses campos correspondem aos campos da página **Perfis de classificação**, conforme descrito na seção anterior deste tópico.

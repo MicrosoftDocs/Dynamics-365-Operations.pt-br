@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c1e972f2ba8211c47b11a4b83dac9ff60f813b1a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 504c5143fac0e46f4d7be134d400ae53d999d25b1b364fe0278343b3d7664bf0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837565"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782314"
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Configurar um índice de combustível da transportadora
 
@@ -29,7 +29,7 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 
 
 ## <a name="create-a-fuel-index-region"></a>Crie uma região de índice de combustível
-1. Vá para Gerenciamento de transporte > Configurar > Índices de combustível > Regiões de índices de combustível.
+1. Acesse Gerenciamento de transporte > Configurar > Índices de combustível > Regiões de índices de combustível.
     * Primeiro você deve criar as diferentes regiões, onde você opera e calcula as diferentes sobretaxas de combustível.  
 2. Clique em Novo.
 3. No campo Região, digite um valor.
@@ -37,7 +37,7 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 5. Clique em Salvar.
 
 ## <a name="create-a-fuel-index"></a>Crie um índice de combustível
-1. Vá para Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível.
+1. Acesse Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível.
     * Para as regiões que você configurou é preciso inserir os preços atuais do combustível.  
 2. Clique em Novo.
 3. No campo Região, clique no botão suspenso para abrir a pesquisa.
@@ -47,7 +47,7 @@ Este guia mostra como criar uma região do índice de combustível, um índice d
 7. Clique em Salvar.
 
 ## <a name="create-a-carrier-fuel-index"></a>Crie um índice de combustível da transportadora
-1. Vá para Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível da transportadora.
+1. Acesse Gerenciamento de transporte > Configurar > Índices de combustível > Índices de combustível da transportadora.
 2. Clique em Novo.
 3. No campo Índice de combustível da transportadora, digite um valor.
 4. No campo Descrição, digite um valor.

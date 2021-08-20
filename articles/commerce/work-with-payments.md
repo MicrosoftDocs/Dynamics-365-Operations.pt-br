@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: f7ab0aadb9ef99e2a8f7263434ddbc2f4813926a
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: b89daf41c8a14f5e03dc2a67c95e9d1fed2d5cab891ae65e20655c285b1f6ac2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027423"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762563"
 ---
 # <a name="payment-methods-in-call-centers"></a>Métodos de pagamento em call centers
 
@@ -31,7 +31,7 @@ No Dynamics 365 Commerce, a configuração do canal de call center inclui uma co
 
 Como parte da configuração de canal, uma empresa pode definir métodos de pagamento permitidos para um canal de call center. O canal de call center usa os mesmos métodos de pagamento definidos para os canais de loja.
 
-Para configurar os métodos de pagamento para um canal de call center, vá para **Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers** e, então, no menu **Configurar** , selecione a opção **Métodos de pagamento**.
+Para configurar os métodos de pagamento para um canal de call center, Acesse **Varejo e Comércio** \> **Canais** \> **Call centers** \> **Todos os call centers** e, então, no menu **Configurar** , selecione a opção **Métodos de pagamento**.
 
 Quando você cria um método de pagamento, há cinco funções de método de pagamento que pode atribuir.
 
@@ -47,7 +47,7 @@ Quando você cria um método de pagamento, há cinco funções de método de pag
 
 ## <a name="refund-payment-methods"></a>Métodos de pagamento de reembolso
 
-Para os cenários de processamento de reembolso, o Call center também usa alguns dos métodos de pagamento definidos em Contas a receber. Para configurar esses métodos de pagamento, vá para **Varejo e Comércio** \> **Configuração de canal** \> **Configuração de call center** \> **Métodos de reembolso de call center**. Será necessário concluir essa configuração para processar os cheques de reembolso para os clientes. Por exemplo, se um cliente tiver originalmente pago por uma ordem com dinheiro ou cheque, o usuário poderá querer enviar para ele um cheque de reembolso por meio de Contas a receber. Nesse caso, os tipos de pagamento à vista e com cheque no call center devem ser mapeados para o método de pagamento correto em Contas a receber para ajudar a garantir que o desconto seja processado corretamente.
+Para os cenários de processamento de reembolso, o Call center também usa alguns dos métodos de pagamento definidos em Contas a receber. Para configurar esses métodos de pagamento, Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Configuração de call center** \> **Métodos de reembolso de call center**. Será necessário concluir essa configuração para processar os cheques de reembolso para os clientes. Por exemplo, se um cliente tiver originalmente pago por uma ordem com dinheiro ou cheque, o usuário poderá querer enviar para ele um cheque de reembolso por meio de Contas a receber. Nesse caso, os tipos de pagamento à vista e com cheque no call center devem ser mapeados para o método de pagamento correto em Contas a receber para ajudar a garantir que o desconto seja processado corretamente.
 
 Além disso, se um usuário estiver processando uma ordem de devolução como um usuário de call center no Commerce, mas não puder vincular a devolução a uma venda original, o método de pagamento **Devolução** deverá ser definido nos Parâmetros de call center. Acesse **Varejo e Comércio** \> **Configuração de canal** \> **Configuração de call center** \> **Parâmetros de call center** e, então, na guia **ADM/Devolução**, no campo **Método de pagamento**, verifique se um método de pagamento foi definido. O método de pagamento será aquele usado para reembolsos. Normalmente, será definido como um método de cheque ou um método de conta de cliente.
 

@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cbd70da144e726d9bbf425f9fc0c42b924ffb78
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 27c09262027b66c89800d9a721852ad7112260dabaf07ec13b40a184e2736dce
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832500"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781150"
 ---
 # <a name="cancel-a-purchase-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de compra (Brasil)
 
@@ -27,7 +27,7 @@ ms.locfileid: "5832500"
 
 
 
-1. Vá para Contas a pagar > Notas fiscais > Todas as notas fiscais de compra complementares.
+1. Acesse Contas a pagar > Notas fiscais > Todas as notas fiscais de compra complementares.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique em Cancelar nota fiscal para abrir a caixa de diálogo suspensa.

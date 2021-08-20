@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 09cdb039b9bde3f97db012f1aaaeaf4c8a7df944
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641047"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773504"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -47,7 +47,6 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 
 | Área de recursos | Nome&nbsp;do recurso&nbsp;no gerenciamento&nbsp;de recursos | Mais informações |
 |---|---|---|
-| Planejamento Mestre | Dias negativos para Otimização do Planejamento | Este recurso permite que o Planning Optimization considere a tolerância de atraso com base no parâmetro **Dias negativos** definido nos grupos de cobertura. |
 | Planejamento Mestre | Autorização paralela da previsão de demanda ajustada | Este recurso permite a autorização paralela da previsão de demanda ajustada da página **Previsão de demanda ajustada**. A intenção deste recurso é aumentar o desempenho quando um grande número de previsões está sendo autorizado. Ao autorizar, o usuário pode especificar o **Número de threads** na caixa de diálogo de autorização. |
 | Planejamento Mestre | (Versão preliminar) Consolidação executável em lote e consolidação para ordens planejadas em massa e em lote | Este recurso permite usar trabalhos em lotes para consolidar ordens planejadas em massa e em pacote. |
 | Controle de produção | Copiar roteiros genéricos | Este recurso aprimora a função de cópia de rota para permitir que os usuários copiem rotas que não são específicas do item. Permite que o sistema atualize todas as informações relevantes (como site, grupo de roteiros, requisitos de recursos e vários horários) após a função de cópia de roteiro ter sido usada para substituir um roteiro que ainda não foi atribuído a um item. |

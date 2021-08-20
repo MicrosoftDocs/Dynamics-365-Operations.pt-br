@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7254f4701d0839215e1a256aaa4ebd7ae56945ca
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 7412cd874d3dd5a816ff4681dcda7da37f90b8b8b55b545392d24e8ccce93c21
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774984"
 ---
 # <a name="create-a-mass-hire-project"></a>Criar um projeto de contratação em massa
 
@@ -26,7 +26,7 @@ ms.locfileid: "6056795"
 
 
 
-Este procedimento anda com o processo de configuração de um projeto de contratação em massa. Um recruta pode usar projetos de contratação em massa criar facilmente várias posições e contratar um número de funcionários nas posições. Para iniciar este procedimento, vá para Recursos humanos > Recrutamento > Projetos de contratação em massa. A empresa de dados demo usada para criar este procedimento é USMF.
+Este procedimento anda com o processo de configuração de um projeto de contratação em massa. Um recruta pode usar projetos de contratação em massa criar facilmente várias posições e contratar um número de funcionários nas posições. Para iniciar este procedimento, Acesse Recursos humanos > Recrutamento > Projetos de contratação em massa. A empresa de dados demo usada para criar este procedimento é USMF.
 
 1. Clique em Novo.
 2. No campo Projeto de contratação em massa, insira um valor.

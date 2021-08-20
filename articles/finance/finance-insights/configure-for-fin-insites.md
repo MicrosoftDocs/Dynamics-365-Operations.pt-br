@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 9f46fd95b516eeff4b716a0ecc093f94fac722af
-ms.sourcegitcommit: e42c7dd495829b0853cebdf827b86a7cf655cf86
+ms.openlocfilehash: 77d51302ee38c843a1988d9a65537015edb9b5159ed1e9f657a04b5e0fe72cea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/17/2021
-ms.locfileid: "6638719"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764325"
 ---
 # <a name="configuration-for-finance-insights-for-private-preview-preview---before-version-10019"></a>Configuração para o Finance Insights para versão prévia privada - Antes da versão 10.0.19
 
@@ -102,10 +102,10 @@ Um script do Windows PowerShell foi fornecido para que você possa facilmente co
 
 Siga estas etapas para configurar o Azure usando o script do Windows PowerShell. É necessário ter os direitos para criar um grupo de recursos do Azure, recursos do Azure e um aplicativo do Azure AD. Para obter informações sobre as permissões necessárias, consulte [Verificar permissões do Azure AD](/azure/active-directory/develop/howto-create-service-principal-portal#permissions-required-for-registering-an-app).
 
-1. No [portal do Azure](https://portal.azure.com), vá para a assinatura do Azure de destino. Selecione o botão **Cloud Shell** à direita do campo **Pesquisar**.
+1. No [portal do Azure](https://portal.azure.com), Acesse a assinatura do Azure de destino. Selecione o botão **Cloud Shell** à direita do campo **Pesquisar**.
 2. Selecione **PowerShell**.
 3. Crie o armazenamento, caso seja solicitado.
-4. Vá para a guia **CLI do Azure** e selecione **Copiar**.  
+4. Acesse a guia **CLI do Azure** e selecione **Copiar**.  
 5. Abra o Bloco de notas e cole o script do PowerShell. Salve o arquivo como ConfigureDataLake.ps1.
 6. Carregue o script do Windows PowerShell na sessão usando a opção de menu para carregar no Cloud Shell.
 7. Execute o script .\ConfigureDataLake.ps1.
@@ -117,7 +117,7 @@ Siga estas etapas para configurar o Azure usando o script do Windows PowerShell.
 
 #### <a name="add-applications-to-the-azure-ad-tenant"></a>Adicionar aplicativos ao locatário do Azure AD
 
-1. No [portal do Azure](https://portal.azure.com), vá para **Azure Active Directory**.
+1. No [portal do Azure](https://portal.azure.com), Acesse **Azure Active Directory**.
 2. Selecione **Gerenciar \> Aplicativos empresariais**.
 3. Procure os seguintes aplicativos por ID do aplicativo.
 
@@ -174,19 +174,19 @@ Caso não encontre nenhum dos aplicativos anteriores, tente executar as seguinte
     6. Digite um nome para o segredo. Anote o nome, pois ele será solicitado depois.
     7. No campo **Valor**, insira a cadeia de conexão obtida da conta de armazenamento no procedimento anterior.
     8. Selecione **Habilitado** e depois selecione **Criar**. O segredo é criado e adicionado ao Cofre de Chaves.
-    9. Vá para a **Visão Geral do Cofre de Chaves** e anote o nome DNS.
+    9. Acesse a **Visão Geral do Cofre de Chaves** e anote o nome DNS.
 
 3. Criar e registrar um aplicativo do Azure AD:
 
-    1. No [portal do Azure](https://portal.azure.com), vá para **Azure Active Directory** e selecione **Registros de aplicativo**.
+    1. No [portal do Azure](https://portal.azure.com), Acesse **Azure Active Directory** e selecione **Registros de aplicativo**.
     2. Selecione **Novo registro de aplicativo** e defina os campos a seguir:
 
         - **Nome** – Insira o nome do aplicativo.
         - **Tipo de aplicativo** – Selecione **API Web**.
         - **Redirecionar configuração de URI** – Insira a URL da instância do Dynamics 365, como `https://yourdynamicsinstance.dynamics.com/auth`.
 
-    3. Vá para o aplicativo recém-criado e copie e salve o valor da **ID (do cliente) do aplicativo**. Você terá que fornecer esse valor mais tarde, ao configurar o cofre de chaves.
-    4. Vá para **Permissões de API** e siga estas etapas:
+    3. Acesse o aplicativo recém-criado e copie e salve o valor da **ID (do cliente) do aplicativo**. Você terá que fornecer esse valor mais tarde, ao configurar o cofre de chaves.
+    4. Acesse **Permissões de API** e siga estas etapas:
 
         1. Selecione **Adicionar uma permissão**.
         2. Selecione **Azure Key Vault**.
@@ -202,7 +202,7 @@ Caso não encontre nenhum dos aplicativos anteriores, tente executar as seguinte
 
 4. Crie segredos do Key Vault:
 
-    1. Vá para o cofre de chaves criado anteriormente e selecione **Segredos**.
+    1. Acesse o cofre de chaves criado anteriormente e selecione **Segredos**.
     2. Para cada nome de segredo na seguinte tabela, siga estas etapas:
 
         1. Selecione **Gerar/Importar**.
@@ -768,7 +768,7 @@ Siga estas etapas para usar o LCS para adicionar o suplemento do Azure Data Lake
 
     | Alíquota                                                              | descrição |
     |--------------------------------------------------------------------|-------------|
-    | ID de Locatário da Assinatura do Azure em que o Key Vault está localizado | A ID de locatário onde a conta de armazenamento, os aplicativos e os cofres de chaves estão localizados. Para encontrar esse valor, abra o [portal do Azure](https://portal.azure.com), vá para o **Azure Active Directory** e copie o valor da **ID de Locatário**. |
+    | ID de Locatário da Assinatura do Azure em que o Key Vault está localizado | A ID de locatário onde a conta de armazenamento, os aplicativos e os cofres de chaves estão localizados. Para encontrar esse valor, abra o [portal do Azure](https://portal.azure.com), Acesse o **Azure Active Directory** e copie o valor da **ID de Locatário**. |
     | Forneça o nome DNS de seu Key Vault                             | O nome DNS do cofre de chaves, como `https://customkeyvault.vault.azure.net/`. (Esse valor corresponde ao nome DNS usado no repositório de entidades.) |
     | Forneça o segredo que contém o nome da conta de armazenamento   | **storage-account-name** |
     | Nome do Segredo da ID do Aplicativo que será usada para acessar o Data Lake          | **app-id** |
@@ -797,7 +797,7 @@ O suplemento pode demorar vários minutos para ser instalado.
 
 Siga estas etapas para configurar o repositório de entidades no ambiente do Finance.
 
-1. Vá para **Administração do sistema \> Configuração \> Parâmetros do sistema \> Conexões de dados**.
+1. Acesse **Administração do sistema \> Configuração \> Parâmetros do sistema \> Conexões de dados**.
 2. Defina os seguintes campos do Key Vault:
 
     - **ID (do cliente) do aplicativo** – Insira o ID do cliente do aplicativo criado anteriormente.

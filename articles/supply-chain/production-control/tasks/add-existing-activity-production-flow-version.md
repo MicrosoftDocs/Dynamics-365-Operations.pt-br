@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2fd6fe4ad25bde26a4212e236c9298a7ab832b66
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f36ace43c12563805e17c0dcc667f12c1befa74829c92a941999ec5ece819306
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5825101"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773192"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>Adicionar uma atividade existente a uma versão de fluxo de produção
 
@@ -31,7 +31,7 @@ Esta tarefa requer o fluxo de produção com a versão e as atividades já criad
 
 
 ## <a name="create-a-new-production-flow-version"></a>Criar uma nova versão de fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
+1. Acesse Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique em Editar.

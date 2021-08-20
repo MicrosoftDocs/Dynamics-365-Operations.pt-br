@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: stuharg
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: ac58ea4f1dfd8208c1c2f78e36d82d1375475413
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: a92c21a93766e6583882f50222837366ed4c9a24c2bbfd93933763bd4ffa46bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349511"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771022"
 ---
 # <a name="set-up-an-email-notification-profile"></a>Configurar perfil de notificação por email
 
@@ -35,7 +35,7 @@ Para obter informações adicionais sobre como configurar o email, consulte [Con
 
 Para criar um perfil de notificação por email, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Commerce**.
+1. No painel de navegação, Acesse **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Commerce**.
 1. No painel de ações, clique em **Novo**.
 1. No campo **Perfil de notificação por email**, insira um nome para identificar o perfil.
 1. No campo **Descrição**, insira uma descrição relevante.
@@ -47,7 +47,7 @@ Antes que um tipo de notificação por email possa ser habilitado, você deve cr
 
 Para criar um modelo de email, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Parâmetros \> Modelos de email da organização**.
+1. No painel de navegação, Acesse **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Parâmetros \> Modelos de email da organização**.
 1. No painel de ação, selecione **Novo**.
 1. No campo **ID do email**, insira uma ID para ajudar a identificar este modelo.
 1. No campo **Nome do remetente**, digite o nome do remetente.
@@ -65,7 +65,7 @@ A imagem a seguir mostra alguns exemplos de configurações de modelo de email.
 
 Para criar um evento de email, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Commerce**.
+1. No painel de navegação, Acesse **Módulos \> Retail e Commerce \> Configuração do Headquarters \> Perfil de notificação por email do Commerce**.
 1. Na lista, localize e selecione o registro desejado. 
 1. Selecione o modelo de email na lista suspensa **ID do Email**.
 1. Selecione o **Tipo de notificação por email** apropriado na lista suspensa.

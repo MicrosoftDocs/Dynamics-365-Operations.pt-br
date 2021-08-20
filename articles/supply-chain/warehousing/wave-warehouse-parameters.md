@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: b120c24ad3289f5f46119d70c8cb7124546e41b1
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e26c1b308242176e916d9e930f7eded5df49de6683af03dbdab42358c724831a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019169"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766526"
 ---
 # <a name="warehouse-parameters-for-wave-processing"></a>Parâmetros de depósito para o processamento do ciclo
 
@@ -35,15 +35,15 @@ Para usar o processamento do ciclo, especifique o seguinte na página **Parâmet
 
 Para configurar parâmetros de depósito para o processamento do ciclo, siga estas etapas:
 
-1. Vá para **Gerenciamento de depósito** \> **Configuração** \> **Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito** \> **Configuração** \> **Parâmetros de gerenciamento de depósito**.
 
 1. Na Guia Rápida **Processamento do ciclo**, faça as seguintes configurações:
 
     - **Grupo de lotes de processamento do ciclo** – selecione o grupo de lotes a ser usado ao processar ciclos usando trabalhos em lotes. O grupo de lotes especifica o servidor no qual o trabalho em lotes será executado.
     - **Processar ciclos em lotes** – escolha se os ciclos devem ser habilitados para serem processados automaticamente por um trabalho em lotes. Você deve definir isso como *Sim* para usar o processamento paralelo. Você configura o trabalho em lotes na página **Processar ciclos**. (Consulte também a observação no final desta lista).
     - **Criar log de progresso do ciclo** – escolha se o sistema deverá gerar um registro de log sempre que a alocação de um item e suas dimensões começarem e terminarem. Você só deverá habilitar esse log quando precisar dele, por exemplo, durante o teste inicial ou para solução de problemas. Para obter mais informações, consulte [Alocação do ciclo](wave-allocation-method.md).
-    - **Criar log de histórico de processamento do ciclo** – escolha se deseja salvar automaticamente as informações sobre um ciclo em um arquivo de log após o processamento do ciclo, incluindo durante o processamento paralelo de alocações pendentes. Normalmente, você deverá habilitá-lo apenas durante a solução de problemas, pois ele adiciona sobrecarga extra. Para exibir o log, vá para **Gerenciamento de depósito \> Ciclos de saída \> Log de histórico de processamento do ciclo**. Para obter mais informações, consulte [Criação e processamento do ciclo](wave-processing.md).
-    - **Criar log de histórico de transporte em contêineres** – escolha se deseja salvar automaticamente as informações sobre o transporte em contêineres para um ciclo em um arquivo de log depois que o ciclo for processada. Para exibir o log, vá para **Gerenciamento de depósito \> Embalagem e transporte em contêineres \> Histórico de transporte em contêineres**.
+    - **Criar log de histórico de processamento do ciclo** – escolha se deseja salvar automaticamente as informações sobre um ciclo em um arquivo de log após o processamento do ciclo, incluindo durante o processamento paralelo de alocações pendentes. Normalmente, você deverá habilitá-lo apenas durante a solução de problemas, pois ele adiciona sobrecarga extra. Para exibir o log, Acesse **Gerenciamento de depósito \> Ciclos de saída \> Log de histórico de processamento do ciclo**. Para obter mais informações, consulte [Criação e processamento do ciclo](wave-processing.md).
+    - **Criar log de histórico de transporte em contêineres** – escolha se deseja salvar automaticamente as informações sobre o transporte em contêineres para um ciclo em um arquivo de log depois que o ciclo for processada. Para exibir o log, Acesse **Gerenciamento de depósito \> Embalagem e transporte em contêineres \> Histórico de transporte em contêineres**.
     - **Aguardar bloqueio (ms)** – insira o tempo, em milissegundos, que uma etapa de alocação aguardará um recurso do sistema que está bloqueado por outra etapa de alocação. Quando esse tempo é excedido, a onda não é processada e uma mensagem de erro é exibida.
 
 1. Na Guia Rápida **Liberação para depósito**, faça a seguinte configuração:
@@ -64,5 +64,5 @@ Para ordens de venda e ordens de kanban, o estoque será reservado antes de a or
 
 Para exigir a reserva total ou permitir a reserva parcial, siga estas etapas:
 
-1. Vá para **Controle de produção** \> **Configuração** \> **Parâmetros de controle de produção**.
+1. Acesse **Controle de produção** \> **Configuração** \> **Parâmetros de controle de produção**.
 1. Na guia **Geral**, no campo **Liberar para depósito**, selecione a configuração padrão.

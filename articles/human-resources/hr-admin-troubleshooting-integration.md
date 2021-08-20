@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 946d0433df41ce7067b8b0673db680abb42b7792
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782135"
 ---
 # <a name="integration-with-finance-faq"></a>Integração com Perguntas frequentes do Finance
 
@@ -61,7 +61,7 @@ Para dados que residem no Finance mas que não existem no Human Resources, vincu
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-why"></a>Por vezes, quando importo funcionários, eles entram como trabalhadores inativos no Finance. Por quê?
 
-Esse erro pode ocorrer caso os funcionários não tenham um registro de detalhe de emprego ativo no Human Resources. Para resolver isso, vá para **Gerenciamento de pessoal \> Funcionários \> Histórico de emprego \> Gerenciador de data** e verifique se há um registro ativo de detalhe de emprego.
+Esse erro pode ocorrer caso os funcionários não tenham um registro de detalhe de emprego ativo no Human Resources. Para resolver isso, Acesse **Gerenciamento de pessoal \> Funcionários \> Histórico de emprego \> Gerenciador de data** e verifique se há um registro ativo de detalhe de emprego.
 
 ## <a name="if-i-select-to-map-only-a-subset-of-fields-will-changes-made-to-non-mapped-fields-trigger-a-sync"></a>Se eu selecionar mapear somente um subconjunto de campos, as alterações feitas nos campos não mapeados dispararão uma sincronização?
 

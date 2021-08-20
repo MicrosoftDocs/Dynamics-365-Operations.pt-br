@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 46009f09f6e843c45f50351963ad01419e24a878
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1d4e6d8bbdb50394ef575e1088dd238eb39170124854edb878f6dccb6c9e07d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831833"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771338"
 ---
 # <a name="transfer-materials-with-kanban-jobs"></a>Transferir materiais com trabalhos kanban
 
@@ -29,7 +29,7 @@ Esse procedimento se concentra na execução de um trabalho kanban de retirada p
 
 
 ## <a name="display-transfer-jobs"></a>Exibir trabalhos de transferência
-1. Vá para Controle de produção > Kanban > Quadro kanban para trabalhos de transferência.
+1. Acesse Controle de produção > Kanban > Quadro kanban para trabalhos de transferência.
 2. Expandir ou recolher a seção Filtros.
     * Na seção Filtros, você pode especificar quais trabalhos você deseja visualizar filtrando por Fluxo de produção, Nome da atividade, Do depósito e localização, e Para o depósito e localização.  
 3. No campo Do depósito, digite '11'.

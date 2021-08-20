@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 98f9fffcbf93871de302a0d8b4b9675889ef5e40
-ms.sourcegitcommit: 908a85987b604a7782407da70fb70ef75c07989f
+ms.openlocfilehash: c1930a47bc133c411a0e6054aa766322a261064a06ac4cec8dcdd12c126dc7cd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6641119"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773528"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.19 (junho de 2021)
 
@@ -35,6 +35,7 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 
 | Área de recursos | Recurso | Mais informações |
 |---|---|---|
+| Estoque&nbsp;e&nbsp;logística | [Aprovar e salvar dados bancários enviados pelo fornecedor](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/approve-save-vendor-submitted-bank-details) | [Manter informações de conta bancária de fornecedores](../../finance/accounts-payable/maintain-vendor-bank-info.md) |
 | Estoque e logística | [Otimização de exportação de entidade de dados da pessoa de contato](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/contact-person-data-entity-export-optimization)  | Quando este recurso está ativado, as alterações nos dados referenciados não farão com que os contatos relacionados sejam incluídos na próxima exportação incremental. Quando este recurso está desativado, as alterações nos dados referenciados farão com que os contatos relacionados sejam incluídos na próxima exportação incremental. |
 | Estoque e logística | [Aprimoramentos incrementais para recursos de execução de depósito com unidades de escala](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/incremental-enhancements-warehouse-execution-capabilities-scale-units) |[Mensagens do processador de mensagens](../cloud-edge/cloud-edge-message-processor-messages.md)<br><br>[Ajuste de estoque do depósito](../cloud-edge/cloud-edge-warehouse-inventory-adjustment.md)<br><br>[Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda](../cloud-edge/cloud-edge-workload-warehousing.md) |
 | Estoque e logística | [Funcionalidade de pesquisa para os campos Introdução do documento e Conclusão do documento na página Cotação de venda](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Este recurso adiciona funcionalidade de pesquisa para os campos **Introdução do documento** e **Conclusão do documento** na página **Cotação de venda**.<br><br>Esse recurso é habilitado por padrão. |
