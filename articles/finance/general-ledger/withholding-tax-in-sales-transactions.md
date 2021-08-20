@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2020-01-12
 ms.dyn365.ops.version: AX 10.0.16
-ms.openlocfilehash: 8e11ce10faa9b450b6f36a856b34b06b4ee1838d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b221fc04ef82f148846fc0c282f6c8601f0eb4759d99a8dee02256cc0d42417f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842335"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747074"
 ---
 # <a name="withholding-tax-in-sales-transactions"></a>Imposto retido na fonte em transações de venda
 
 Este tópico lista as etapas para evitar o cálculo da imposto retido na fonte para clientes selecionados. Para clientes que especificam o imposto retido na fonte em seus pagamentos, você pode atribuir o **Grupo de retenção de imposto na fonte** padrão na página **Clientes**. 
 
-1. Vá para **Painel de Navegação > Módulos > Contas a receber > Clientes > Todos os clientes**.
+1. Acesse **Painel de Navegação > Módulos > Contas a receber > Clientes > Todos os clientes**.
 
 2. Clique na respectiva conta de cliente e clique em **Editar**.
 
@@ -41,7 +41,7 @@ Este tópico lista as etapas para evitar o cálculo da imposto retido na fonte p
 
 Para itens/serviços que são responsáveis por retenção de imposto, você pode atribuir o **Grupo de imposto retido na fonte** em **Produtos liberados**.
 
-1. Vá para **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
+1. Acesse **Painel de Navegação > Módulos > Gerenciamento de informações do produto > Produtos > Produtos liberados**.
 
 2. Clique no respectivo número do item e clique em **Editar**.
 

@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: smnatara
 ms.search.validFrom: 2020-9-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: b5389b0d5a8ff68a3c16dedd2d8bb62f6e99af4f
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8f4a28b0cf47ec1c2534fc97c4dee6790fa6c51637bddf64caa7147e9ce6d6db
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824717"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746103"
 ---
 # <a name="troubleshoot-sales-orders"></a>Solucionar problemas de ordens de venda
 
@@ -63,7 +63,7 @@ Se o trabalho estiver associado a uma ordem de venda, não será possível cance
 
 Para corrigir esse problema, siga estas etapas.
 
-1. Cancele o trabalho e coloque o estoque novamente no local desejado. Vá para o carregamento relevante da ordem de venda e selecione **Reduzir quantidade separada** na linha de carga ou **Reverter trabalho** no Painel de Ações.
+1. Cancele o trabalho e coloque o estoque novamente no local desejado. Acesse o carregamento relevante da ordem de venda e selecione **Reduzir quantidade separada** na linha de carga ou **Reverter trabalho** no Painel de Ações.
 
     O trabalho agora tem um status *Cancelado* e o novo trabalho de movimentação de estoque é criado automaticamente e processado para colocar o estoque de volta ao local descrito no momento da reversão.
 
@@ -88,7 +88,7 @@ Uma ordem de venda faturada foi excluída por engano e você deseja restaurá-la
 
 ### <a name="issue-resolution"></a>Resolução do problema
 
-Se a ordem de venda excluída já foi faturada, vá para **Conta do cliente \> Transações \> Documento original \> Exibir detalhes**. Localize a fatura que você está procurando e selecione-a para exibir os detalhes. Esses detalhes incluem a referência da ordem de venda. Você também deve ser capaz de acessar os detalhes da ordem de venda nessa página.
+Se a ordem de venda excluída já foi faturada, Acesse **Conta do cliente \> Transações \> Documento original \> Exibir detalhes**. Localize a fatura que você está procurando e selecione-a para exibir os detalhes. Esses detalhes incluem a referência da ordem de venda. Você também deve ser capaz de acessar os detalhes da ordem de venda nessa página.
 
 ## <a name="the-deadline-of-a-sales-order-header-cant-be-found-in-the-salesorderheaderv2entity-data-entity"></a>O prazo final de um cabeçalho da ordem de venda não pode ser encontrado na entidade de dados SalesOrderHeaderV2Entity.
 

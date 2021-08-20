@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2021-04-27
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 54a202b7e6728bc83022851c901d3c5db17510bf
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: a15c913c876e961c6824c1e8812ab2be2d6ffa4333cd0d4e6f80cae8bac79394
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956544"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746738"
 ---
 # <a name="deferred-processing-of-manual-inventory-movement"></a>Processamento adiado de movimento de estoque manual
 
@@ -43,7 +43,7 @@ Para usar o processamento adiado, você deve configurar e utilizar uma política
 
 Para configurar uma política de processamento de trabalho, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de processamento de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Políticas de processamento de trabalho**.
 1. Selecione uma política existente na lista ou crie uma nova política, selecionando **Novo** no Painel de Ações. O cabeçalho de cada política tem os seguintes campos:
 
     - **Nome da política de processamento de trabalhos** - o nome da política de processamento de trabalhos.
@@ -65,7 +65,7 @@ Para obter detalhes sobre como atribuir uma política de criação de trabalho, 
 
 Para usar o processo *Processamento adiado de operação de movimento de estoque manual*, configure um trabalho em lotes agendado.
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 1. Na caixa de diálogo **Processar eventos do aplicativo de depósito**, na FastTab **Executar em segundo plano**, defina a opção **Processamento em lotes** como *Sim*.
 1. Selecione **Recorrência** e configure um plano de execução que atenda aos requisitos de sua empresa.
 1. Selecione **OK** em cada caixa de diálogo.

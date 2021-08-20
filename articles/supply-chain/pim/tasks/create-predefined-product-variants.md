@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 442a5f5b321833c170cfecc4069e62a1254605cd
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: a90e0eb469b823368c1140421fc9c92ccfe69a3b7bac73f762170c0da43e3eee
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6270471"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747880"
 ---
 # <a name="predefined-product-variants"></a>Grades de produtos predefinidas
 
@@ -36,7 +36,7 @@ Para seguir este cenário usando os valores sugeridos aqui, você deve ter dados
 
 Para criar um produto mestre:
 
-1. Vá para **Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
+1. Acesse **Gerenciamento de informações sobre produtos > Produtos > Produtos mestres**.
 1. Selecione **Novo**.
 1. Se o campo **Número do produto** ainda não mostrar um número, insira um valor. Isso só é necessário se nenhuma sequência numérica foi definida para este campo.
 1. Insira um nome no campo **Nome do produto**.

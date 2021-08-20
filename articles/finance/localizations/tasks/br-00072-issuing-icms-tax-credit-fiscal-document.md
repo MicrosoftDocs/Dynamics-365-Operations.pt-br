@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4585b63791d23f6d051cf07ebd969dc7cf039260
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 10d87cc10ac10e25d8be1926ceb73b142b10fd6839b631c8eed7ab0c2ebad349
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808706"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746299"
 ---
 # <a name="issue-icms-tax-credit-fiscal-documents-brazil"></a>Emitir notas fiscais de crédito de imposto ICMS (Brasil)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5808706"
 
 Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e). Quando você lança o documento, uma mensagem XML da NF-e é gerada e enviada para a Secretaria da Fazenda (SEFAZ). Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Contabilidade > Entradas de diário > Todas as notas fiscais de transferência ou apropriação de imposto.
+1. Acesse Contabilidade > Entradas de diário > Todas as notas fiscais de transferência ou apropriação de imposto.
 2. Clique em Novo.
 3. No campo Tipo de documento fiscal de transferência ou apropriação de imposto, selecione uma opção.
     * Selecione o tipo de nota fiscal de transferência de impostos, a transferência de imposto ICMS entre estabelecimentos fiscais ou prestação de crédito de importo de ICMS.  
