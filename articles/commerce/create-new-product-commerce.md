@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 057acf50f16bef3eea55e51571cb6f49b79c5ab1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 73911d9d8e3fdc6d72eadb8d071382e15dd5375eae8274f88d88b1078e7720f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753713"
 ---
 # <a name="create-a-new-product-in-commerce"></a>Criar um novo produto no Commerce
 
@@ -34,7 +34,7 @@ Um produto é definido principalmente por um número de produto, nome e descriç
 
 ## <a name="create-a-new-product"></a>Criar um novo produto
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Produtos por categoria**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Produtos por categoria**.
 1. No painel de ação, selecione **Novo**.
 1. Na lista suspensa **Tipo de produto**, selecione **Item** ou **Serviço**.
 1. Na lista suspensa **Subtipo de produto**, selecione **Produto** (se o produto não tiver grades) ou **Produto mestre** (se o produto tiver grades).
@@ -96,7 +96,7 @@ Para vender um produto, primeiro ele deve ser liberado para uma entidade legal.
 
 Depois que um produto é liberado, ele precisa de mais configurações, entre elas adicionar um preço ao produto.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e Comércio \> Produtos e categorias \> Produtos lançados por categoria**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e Comércio \> Produtos e categorias \> Produtos lançados por categoria**.
 1. Selecione o nó de categoria de produto do produto que foi liberado e, depois, escolha o produto na lista de produtos.
 1. No painel de ação, selecione **Editar**.
 1. Na seção **Compra**, configure todas as propriedades necessárias, inclusive **Unidade**, **Preço** e **Quantidade**.

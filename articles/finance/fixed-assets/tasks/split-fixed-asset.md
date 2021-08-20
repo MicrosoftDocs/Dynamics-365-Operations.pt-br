@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: aa21d5698275ff691ca83d29abd297a796b652d1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1ac7bc9ae9040f9668c36c570be795ebeb7c6970049ff911b1caeadd06f31d0a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823899"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6778981"
 ---
 # <a name="split-a-fixed-asset"></a>Dividir um ativo fixo
 
@@ -28,7 +28,7 @@ Este tópico explica como dividir uma porcentagem do registro de ativos em um no
 
 ## <a name="create-a-new-fixed-asset"></a>Criar um novo ativo fixo
 
-1. No painel de navegação, vá para **Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
+1. No painel de navegação, Acesse **Módulos \> Ativos fixos \> Ativos fixos \> Ativos fixos**.
 2. Selecione **Novo**.
 3. No campo **Grupo de ativo fixo**, insira ou selecione um valor. Anote o número do ativo fixo a ser usado posteriormente no processo de divisão.
 4. No campo **Nome**, insira um valor.
@@ -51,7 +51,7 @@ Antes que um ativo com depreciação total seja dividido, o status do registro d
 
 ## <a name="post-the-journal-transaction"></a>Lançar a transação de diário
 
-1. No Painel de navegação, vá para **Módulos \> Ativos fixos \> Entradas de diário \> Diário de ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos \> Ativos fixos \> Entradas de diário \> Diário de ativos fixos**.
 2. Na lista, selecione o diário criado com o processo de divisão.
 3. Selecione **Linhas**.
 

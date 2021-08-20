@@ -9,12 +9,12 @@ ms.reviewer: sericks
 ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: 2021-06-24
-ms.openlocfilehash: b0de3d9280c43fc7e2bb2568d4a57250da4dfebf
-ms.sourcegitcommit: 9f3b6c00f82694b5f8eb1bda75411801c0fccf4a
+ms.openlocfilehash: ceb0a60ccf3d1c989d8663e933faaa5e430d314695e20990c9086cd1b8325ff1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/29/2021
-ms.locfileid: "6315670"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773718"
 ---
 # <a name="configure-expenditure-reviewers"></a>Configurar revisores de despesas
 [!include[banner](../includes/banner.md)]
@@ -74,7 +74,7 @@ Quando a ordem de compra for criada, o campo **Projeto** deverá ser especificad
 
 Este exemplo mostra como você configura um revisor de despesas de requisição de ordem. Para configurar outros tipos de revisores de despesas, substitua o caminho de navegação da etapa 1 pelo caminho apropriado da tabela na seção [Tipos de revisores de despesas](configure-expenditure-reviewers.md#types-of-expenditure-reviewers), anterior a este tópico.
 
-1. Vá para **Aquisição e fornecimento \> Configuração \> Políticas \> Revisores de despesas de requisições de compra**.
+1. Acesse **Aquisição e fornecimento \> Configuração \> Políticas \> Revisores de despesas de requisições de compra**.
 2. Na página **Revisores de despesas de requisições de compra**, selecione **Novo**.
 3. No campo **Nome**, insira um nome para a configuração do revisor de despesas, como o **centro de custos**.
 4. Na guia rápida **Revisores de despesas por entidade legal**, selecione a entidade legal a ser configurada.
@@ -86,7 +86,7 @@ Este exemplo mostra como você configura um revisor de despesas de requisição 
 
 Para atribuir um proprietário a uma dimensão financeira, siga estas etapas.
 
-1. Vá para **Contabilidade \> Plano de contas \> Dimensões \> Dimensões financeiras**.
+1. Acesse **Contabilidade \> Plano de contas \> Dimensões \> Dimensões financeiras**.
 2. Na lista, selecione a dimensão financeira para a qual os proprietários serão atribuídos.
 3. Selecione **Valores de dimensão**.
 4. Selecione **Editar** para fazer alterações nos valores de dimensão.
@@ -97,7 +97,7 @@ Para atribuir um proprietário a uma dimensão financeira, siga estas etapas.
 
 Para atribuir autoridades de projeto a um projeto, siga estas etapas.
 
-1. Vá para **Gerenciamento e contabilidade de projeto \> Projetos \> Todos os projetos**.
+1. Acesse **Gerenciamento e contabilidade de projeto \> Projetos \> Todos os projetos**.
 2. Selecione o projeto para o qual serão atribuídas as autoridades.
 3. Selecione **Editar** para fazer alterações no projeto.
 4. Na guia rápida **Geral**, na seção **Responsável**, selecione um trabalhador para os campos **Gerente de vendas**, **Gerente do projeto** e **Controlador do projeto**, conforme necessário.
@@ -109,7 +109,7 @@ Este exemplo mostra como configurar um fluxo de trabalho de requisição de comp
 
 Para atribuir revisores de despesas de requisição de compra a uma tarefa de fluxo de trabalho, siga estas etapas.
 
-1. Vá para **Compras e fornecimento \> Configuração \> Fluxos de trabalho de compras e fornecimento**.
+1. Acesse **Compras e fornecimento \> Configuração \> Fluxos de trabalho de compras e fornecimento**.
 2. Toque duas vezes (ou clique duas vezes) em um fluxo de trabalho existente ou crie um novo fluxo de trabalho.
 3. No editor de fluxo de trabalho, no painel **Fluxo de trabalho**, selecione a tarefa à qual a configuração do revisor de despesas será atribuída. No **Painel de Ações**, no grupo **Exibir**, selecione **Propriedades**.
 4. No painel esquerdo da página **Propriedades**, selecione **Atribuição**.

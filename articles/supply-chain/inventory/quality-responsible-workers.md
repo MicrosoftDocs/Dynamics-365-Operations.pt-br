@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2d3f647de2c188661c2c9c5f31e2642c3f8ca0b5
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: b764baf0983dbca75d52ea9cdd063cebda80a08d39cf3a5c929f15858e2597c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021771"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768158"
 ---
 # <a name="workers-responsible-for-approving-nonconformances"></a>Trabalhadores responsáveis por aprovar não conformidades
 
@@ -35,7 +35,7 @@ As não conformidades devem ser aprovadas para que os usuários possam começar 
 
 Para que um usuário possa aprovar ou rejeitar não conformidades, você deve vincular seu registro de usuário a um registro de trabalhador. Os campos de aprovação podem então ser automaticamente definidos, e o usuário atual pode ser preenchido de forma automática na folha de ponto. Para que o usuário possa usar as notas do documento, é necessário ativar o manuseio de documentos nas opções do usuário.
 
-1. Vá para **Administração do sistema \> Usuários \> Usuários**.
+1. Acesse **Administração do sistema \> Usuários \> Usuários**.
 1. Localize e abra o usuário que deve ser capaz de aprovar ou rejeitar não conformidades.
 1. Defina o campo **Pessoa** como o nome do trabalhador relacionado ao registro de usuário atual.
 1. No Painel de Ações, selecione **Opções do usuário**.
@@ -44,7 +44,7 @@ Para que um usuário possa aprovar ou rejeitar não conformidades, você deve vi
 
 ## <a name="define-workers-that-are-responsible-for-quality"></a>Definir trabalhadores responsáveis pela qualidade
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Trabalhadores responsáveis pela qualidade**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Trabalhadores responsáveis pela qualidade**.
 2. No Painel de Ações, selecione **Novo**.
 3. No campo **Trabalhador**, selecione o trabalhador que insere os dados de qualidade.
 4. No campo **Trabalhador responsável**, selecione o trabalhador para o qual o trabalhador selecionado insere trabalhos. Quando as não conformidades forem criadas e atualizadas, esse trabalhador será inserido por padrão nos campos **Trabalhador**.

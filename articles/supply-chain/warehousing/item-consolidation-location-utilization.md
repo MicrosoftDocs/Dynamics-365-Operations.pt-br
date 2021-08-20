@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 892190ea7bad34dfd308796b93a1828e0e8e11b9
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 97ebc9ff9c50ec5e6bd7ee62b486ce453da420127f546b3199cfba4f3d610a07
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757533"
 ---
 # <a name="item-consolidation---location-utilization"></a>Consolidação de itens - utilização do local
 
@@ -55,7 +55,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 
 ### <a name="released-product"></a>Produto liberado
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. No campo **Número do item**, selecione *M9201* e abra a página de detalhes.
 1. No Painel de Ação, na guia **Gerenciar estoque**, no grupo **Depósito**, selecione **Dimensões físicas**.
 1. Na página **Dimensão Física**, no Painel de Ação, selecione **Novo**.
@@ -67,7 +67,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 
 ### <a name="location-profile"></a>Perfil de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização, selecione **FLOOR-05**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na FastTab **Geral**, verifique se as duas opções a seguir estão definidas como *Sim*:
@@ -78,9 +78,9 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 1. Selecione **Salvar**.
 
     > [!IMPORTANT]
-    > Se as opções **Habilitar o item no local** e **Habilitar o status do local** já tiverem sido definidas como *Sim*, vá para as instruções para configurar a FastTab **Dimensões** na etapa 10. Se as opções ainda não estiverem definidas como *Sim*, você deverá executar uma verificação de consistência do módulo **Gerenciamento de depósito** depois de defini-las manualmente. Nesse caso, vá para a próxima etapa.
+    > Se as opções **Habilitar o item no local** e **Habilitar o status do local** já tiverem sido definidas como *Sim*, Acesse as instruções para configurar a FastTab **Dimensões** na etapa 10. Se as opções ainda não estiverem definidas como *Sim*, você deverá executar uma verificação de consistência do módulo **Gerenciamento de depósito** depois de defini-las manualmente. Nesse caso, Acesse a próxima etapa.
 
-1. Para executar a verificação de consistência, vá para **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Verificação de consistência**.
+1. Para executar a verificação de consistência, Acesse **Administração do sistema \> Tarefas periódicas \> Banco de dados \> Verificação de consistência**.
 1. Na caixa de diálogo **Verificação de consistência**, defina os seguintes valores:
 
     - **Módulo:** *Gerenciamento de Depósito*
@@ -109,7 +109,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 
 ### <a name="mobile-device-menu-items"></a>Itens de menu do dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ação, selecione **Novo** para criar um item de menu para classificação.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -127,7 +127,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 
 ### <a name="mobile-device-menu"></a>Menu de dispositivos móveis
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Na lista de menus, selecione **Estoque**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione o item de menu **Ajustar em**.
@@ -136,7 +136,7 @@ Esta seção descreve como preparar o sistema para usar a consolidação de iten
 
 ### <a name="movement-types"></a>Tipos de movimento
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Estoque \> Tipos de movimento**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Estoque \> Tipos de movimento**.
 1. No Painel de Ação, selecione **Novo** e, depois, defina os seguintes valores:
 
     - **Código do tipo de movimento:** *CONSOLIDAR*
@@ -152,7 +152,7 @@ O cenário a seguir usa o aplicativo móvel do Gerenciamento de Depósito para f
 ### <a name="add-inventory-to-locations"></a>Adicionar estoque a locais
 
 1. Entre no dispositivo móvel como um usuário configurado para o depósito *51*.
-1. Vá para **Estoque \> Ajustar em**.
+1. Acesse **Estoque \> Ajustar em**.
 
     Agora você vai inserir o primeiro ajuste de local.
 
@@ -182,7 +182,7 @@ O cenário a seguir usa o aplicativo móvel do Gerenciamento de Depósito para f
 
 ### <a name="consolidate-locations"></a>Consolidar locais
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Consolidação de itens**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Consolidação de itens**.
 1. No cabeçalho, selecione um depósito para fazer a consolidação. No campo **Depósito**, insira *51*.
 
     É mostrado um registro para cada local onde o item *M9201* foi ajustado. A coluna **Porcentagem de utilização** mostra a utilização volumétrica de cada local.
@@ -198,7 +198,7 @@ O cenário a seguir usa o aplicativo móvel do Gerenciamento de Depósito para f
 
 ### <a name="view-movement-work"></a>Exibir trabalho de movimento
 
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Exiba o trabalho que foi criado. Use a ID do trabalho de movimento da consolidação do estoque para filtrar ou pesquisar a grade de trabalho.
 
     Nesse cenário, um local existente que tinha estoque foi usado como local da consolidação de estoque. Por isso apenas uma ID de trabalho foi criada.

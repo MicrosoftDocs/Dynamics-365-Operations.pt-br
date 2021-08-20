@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 126e9969f312ff7f6a6c64b733708754e7659214
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: a3542dda667a7ec6d8c7e74d8caafd1a8fc5cee322d85981f635a1add56152d1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909222"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775570"
 ---
 # <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 
@@ -56,7 +56,7 @@ Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
 
 ## <a name="creating-a-workflow"></a>Criação de um fluxo de trabalho
 
-Para criar um fluxo de trabalho, vá para Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar. 
+Para criar um fluxo de trabalho, Acesse Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar. 
 
 Na tela do fluxo de trabalho, você pode arrastar elementos de fluxo de trabalho para o designer e vincular os elementos a um fluxo. Os elementos de fluxo de trabalho devem ser configurados. Para os elementos do fluxo de trabalho de aprovação e de tarefa, você pode configurar qual participante deverá executar a ação.
 

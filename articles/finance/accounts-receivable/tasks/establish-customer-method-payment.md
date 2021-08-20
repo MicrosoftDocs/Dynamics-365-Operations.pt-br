@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a8c2095bba274ca5b19007b4abef743c908ba2b8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0dd9fb37c733730360c78b702c62adadfdc6bd476ba4c436da08c86a9ad7ff55
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822338"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6762130"
 ---
 # <a name="establish-customer-method-of-payment"></a>Estabelecer método de pagamento de cliente
 
@@ -26,7 +26,7 @@ ms.locfileid: "5822338"
 
 Este tópico explica como criar um método de pagamento para pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
 
-1. No Painel de Navegação, vá para **Módulos > Contas a receber > Configuração de pagamentos > Formas de pagamento**.
+1. No Painel de Navegação, Acesse **Módulos > Contas a receber > Configuração de pagamentos > Formas de pagamento**.
 2. Selecione **Novo**.
 3. No campo **Método de pagamento**, insira um ID para o método de pagamento. O método da ID de pagamento é mostrado nas notas fiscais e pagamentos, para que o torne descritivo suficiente para compreender o tipo de pagamento que está sendo registrado, e para a conta bancária.  
 4. No campo **Descrição**, insira uma descrição.

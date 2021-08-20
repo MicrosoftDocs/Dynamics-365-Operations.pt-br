@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f02aa936b7d485dd8c76225b5c4de02a238f9352
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a2708997848352205cab2e425c9ae1fb531b8a566ba86a65ba2cbeb7e0b5c2b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813546"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767614"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>Configurar perfis de lançamento de ativos fixos
 
@@ -26,7 +26,7 @@ ms.locfileid: "5813546"
 
 Este guia de tarefa definirá os perfis de postagem de ativo fixo.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.  Os exemplos dados no guia da tarefa são para um perfil de lançamentos básicos, embora os perfis de lançamento devam ser criados para seus requisitos do plano de contas e específico de relatórios financeiros.
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Configuração > Perfis de lançamento de ativo fixo**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Configuração > Perfis de lançamento de ativo fixo**.
 2. Clique em **Novo**.
 3. No campo **Perfil de lançamento**, insira um valor.
 4. No campo **Descrição**, digite um valor. Será necessário criar um perfil de lançamento para cada tipo de transação de ativo fixo que você utilizará ao trabalhar com ativos fixos. Esta guia será iniciada com tarefas com o tipo de transação de aquisição.  

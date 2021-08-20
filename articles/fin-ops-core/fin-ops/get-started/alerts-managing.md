@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: richdi
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
-ms.openlocfilehash: 471e7d32e3507fef7765adda105f203cb898346d
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: bc5366ea0e0a93cbd7806bb87608590f5304031a92751ff25a1531c2a3b135b6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749867"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764423"
 ---
 # <a name="batch-processing-of-alerts"></a>Processamento em lotes de alertas
 
@@ -52,7 +52,7 @@ Por exemplo, você cria um alerta para ser acionado quando o evento for **altera
 
 ### <a name="set-up-processing-for-change-based-alerts"></a>Configurar o processamento para alertas com base em alteração
 
-1. Vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas com base nas alterações**.
+1. Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas com base nas alterações**.
 2. Na caixa de diálogo **Alertas com base nas alterações** , insira as informações apropriadas.
 
 ## <a name="batch-processing-for-due-date-events"></a>Processamento de lotes de eventos com data de vencimento
@@ -78,7 +78,7 @@ Se você configurar uma janela de processamento em lotes, um alerta será enviad
 
 ### <a name="set-up-processing-for-due-date-alerts"></a>Configurar o processamento para alertas de data de vencimento
 
-1. Vá para **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas de data de vencimento**.
+1. Acesse **Administração do sistema** &gt; **Tarefas periódicas** &gt; **Alertas** &gt; **Alertas de data de vencimento**.
 2. Na caixa de diálogo **Alertas de data de vencimento** , insira as informações apropriadas.
 
 

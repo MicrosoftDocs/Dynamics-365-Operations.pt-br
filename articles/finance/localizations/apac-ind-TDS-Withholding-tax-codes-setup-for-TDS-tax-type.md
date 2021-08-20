@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: 57de382c6d363a6c1d87cf734e9aedb32d6009a9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: add91eaef2ad091df7fd45e3de2dfe3993e6d62fdcbbcfcf95a7fc4953189239
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349919"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754870"
 ---
 # <a name="set-up-withholding-tax-codes-for-the-tds-tax-type"></a>Configurar códigos de impostos retidos na fonte para o tipo de imposto TDS
 
@@ -29,7 +29,7 @@ ms.locfileid: "6349919"
 
 Este tópico explica como configurar códigos de impostos para Imposto Deduzido na Origem (TDS).
 
-1. Vá para **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Códigos de impostos retidos na fonte**.
+1. Acesse **Imposto \> Impostos indiretos \> Imposto retido na fonte \> Códigos de impostos retidos na fonte**.
 
     [![Página Códigos de impostos retidos na fonte.](./media/apac-ind-TDS-17.png)](./media/apac-ind-TDS-17.png)
 

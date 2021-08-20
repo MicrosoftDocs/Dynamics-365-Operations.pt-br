@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f714e41f47a31bce16424de18878d2f5acb5028d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ab591fc3ac529e65c15ee083377954a83363edd528861aff9bc449bfc10c7735
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834539"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771719"
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>Liquidar um cheque pré-datado de um cliente
 
@@ -40,7 +40,7 @@ A função desta guias de tarefas é Tesoureiro.
 
 Este procedimento usa a empresa de dados de demonstração USMF.
 
-1. Vá para Crédito e cobranças > Consultas e relatórios > Pagamentos > Cheques pré-datados do cliente.
+1. Acesse Crédito e cobranças > Consultas e relatórios > Pagamentos > Cheques pré-datados do cliente.
 2. Clique em Liquidar.
 3. Clique em Liquidar entradas de compensação.
     * Liquide a conta do cliente para a transação do cheque.  

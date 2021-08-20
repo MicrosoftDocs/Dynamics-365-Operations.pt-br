@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7a5c593f1d9e8f7a77f693f6e652e9355a985fb
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 560627bf5ecd38f3fc79448629390acb549e40fb1388958d9eac094517925039
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022267"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781504"
 ---
 # <a name="diagnostic-types-for-nonconformances"></a>Tipos de diagnóstico para não conformidades
 
@@ -41,7 +41,7 @@ Ao configurar os tipos de diagnóstico, você pode criar vários registros, cada
 
 ## <a name="create-a-diagnostic-type"></a>Criar um tipo de diagnóstico
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de diagnóstico**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de diagnóstico**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Diagnóstico** – Insira um nome ou uma ID exclusiva para o tipo de diagnóstico.

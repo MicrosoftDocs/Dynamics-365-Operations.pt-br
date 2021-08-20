@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5bd86a2ea2badd4506a1d54309fa4c39bbd0d66e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: cd8ebece99a233c32365f0c355434dcf9cf47ffa12aa046a2aadcb522b33f476
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823619"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6782184"
 ---
 # <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a>Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
 
@@ -37,7 +37,7 @@ Use esse procedimento para configurar isenções de impostos para a região da S
 9. Clique em Salvar.
 10. Feche a página.
 11. Feche a página.
-12. Vá para Imposto > Impostos indiretos > Impostos > Grupos de impostos.
+12. Acesse Imposto > Impostos indiretos > Impostos > Grupos de impostos.
 13. Na lista, localize e selecione o PDV desejado.
 14. Clique em Editar.
 15. Na lista, localize e selecione o PDV desejado.

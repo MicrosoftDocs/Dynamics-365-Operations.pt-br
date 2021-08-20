@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 6c99b9f2c6c3ab598eb792ee7b17d2a3873d4cff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 34325d2a2d87a4bb84acae53211db36468b7432a016eb24c0473358a40415426
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813594"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753762"
 ---
 # <a name="work-line-details"></a>Detalhes da linha de trabalho
 
@@ -75,7 +75,7 @@ Antes de começar a criar o trabalho, verifique se o depósito está configurado
 
 Siga estas etapas para criar alguns trabalhos de separação:
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Criar** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 

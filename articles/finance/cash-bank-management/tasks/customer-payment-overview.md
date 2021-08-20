@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b82742298937c55db13222e5f564f75066f9a212
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: 688fae26e556fcc7d41e5f79d7dcce3327094e62f4a82b9c802efac8072f47b9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6336036"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779005"
 ---
 # <a name="customer-payment-overview"></a>Visão geral de pagamentos do cliente
 
@@ -27,7 +27,7 @@ ms.locfileid: "6336036"
 
 Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
 
-1. Vá para **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
+1. Acesse **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
 2. Clique em **Novo**.
 3. Selecione o diário de pagamentos onde os pagamentos do cliente serão salvos.
 4. Selecione ou insira manualmente o diário.

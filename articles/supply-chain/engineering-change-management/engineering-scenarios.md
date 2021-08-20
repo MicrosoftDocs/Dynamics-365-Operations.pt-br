@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 9440471d6983136971878c8ee9e327d4dd407833
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: e95cb358b8e79ff091f428140e908be2ab3131f264e8cc43cd7de1f1745d8dfa
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755410"
 ---
 # <a name="engineering-change-management-feature-walkthrough"></a>Passo a passo do recurso Gerenciamento de alterações de engenharia
 
@@ -73,7 +73,7 @@ Uma organização de engenharia possui os dados de engenharia e é responsável 
 
 Conforme um produto de engenharia passa pelo ciclo de vida, é importante que você consiga controlar quais transações são permitidas para cada estado do ciclo de vida. Para configurar os estados de ciclo de vida do produto, siga estas etapas.
 
-1. Vá para **Gerenciamento de alteração de engenharia &gt; Configuração &gt; Estado de ciclo de vida do produto**.
+1. Acesse **Gerenciamento de alteração de engenharia &gt; Configuração &gt; Estado de ciclo de vida do produto**.
 1. Selecione **Novo** para adicionar um estado de ciclo de vida e defina os seguintes valores para ele:
 
     - **Estado:** *Operacional*
@@ -96,7 +96,7 @@ Conforme um produto de engenharia passa pelo ciclo de vida, é importante que vo
 
 ### <a name="set-up-a-version-number-rule"></a>Configurar uma regra de número de versão
 
-1. Vá para **Gerenciamento de alteração de engenharia &gt; Configuração &gt; Regra de número de versão do produto**.
+1. Acesse **Gerenciamento de alteração de engenharia &gt; Configuração &gt; Regra de número de versão do produto**.
 1. Selecione **Novo** para adicionar uma regra e defina os seguintes valores para ela:
 
     - **Nome:** *Automático*
@@ -107,7 +107,7 @@ Conforme um produto de engenharia passa pelo ciclo de vida, é importante que vo
 
 ### <a name="set-up-a-product-release-policy"></a>Configurar uma política de liberação do produto
 
-1. Vá para **Gerenciamento de alteração de engenharia &gt; Configuração &gt; Políticas de liberação do produto**.
+1. Acesse **Gerenciamento de alteração de engenharia &gt; Configuração &gt; Políticas de liberação do produto**.
 1. Selecione **Novo** para adicionar uma política de liberação e defina os seguintes valores para ela:
 
     - **Nome:** *Componentes*
@@ -177,8 +177,8 @@ Um produto de engenharia é um produto com versão e controlado pelo gerenciamen
 1. Verifique se você está na entidade legal da organização de engenharia (*DEMF*, por exemplo). Use o seletor da empresa no lado direito da barra de navegação, conforme necessário.
 1. Abra a página **Produtos liberados**, seguindo uma destas etapas:
 
-    - Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**.
-    - Vá para **Gerenciamento de alteração de engenharia &gt; Comum &gt; Produtos liberados**.
+    - Acesse **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**.
+    - Acesse **Gerenciamento de alteração de engenharia &gt; Comum &gt; Produtos liberados**.
 
 1. No Painel de Ações, na guia **Produto**, no grupo **Novo**, selecione **Produto de engenharia**.
 1. Na caixa de diálogo **Novo produto**, defina os seguintes valores:
@@ -239,7 +239,7 @@ Um produto de engenharia é um produto com versão e controlado pelo gerenciamen
 O produto foi criado pelo departamento de engenharia. Neste exemplo, o produto é um protótipo que a engenharia criou para um cliente. Como o cliente é um cliente da entidade legal *USMF*, o produto deve ser liberado para essa entidade legal.
 
 1. Mantenha a entidade legal definida como *DEMF*. (Use o seletor da empresa no lado direito da barra de navegação, conforme necessário.)
-1. Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**.
 1. Selecione o produto *Z0001*.
 1. No Painel de Ações, na guia **Produto**, no grupo **Manter**, selecione **Liberar a estrutura de produtos** para abrir o assistente para **Liberar produtos**.
 1. Na página **Selecionar produtos de engenharia a serem liberados**, marque a caixa de seleção **Selecionar** para o produto *Z0001*.
@@ -291,13 +291,13 @@ Para revisar o produto e liberá-lo na empresa *USMF*, siga estas etapas.
     ![Detalhes da liberação do produto.](media/product-release-details-2.png "Detalhes da liberação do produto")
 
 1. Ao concluir a revisão das informações, você estará pronto para aceitar o produto e, dessa forma, liberá-lo na empresa *USMF*. No Painel de Ações, selecione **Ações &gt; Aceitar**.
-1. O produto agora está liberado na empresa *USMF*. Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Você deve ver o item *Z0001*.
+1. O produto agora está liberado na empresa *USMF*. Acesse **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**. Você deve ver o item *Z0001*.
 
 ## <a name="use-the-product-in-transactions-in-the-local-company"></a>Usar o produto em transações na empresa local
 
 O gerente de dados mestres da empresa *USMF* deseja garantir que o produto esteja em estado de *Protótipo* para garantir que os usuários sejam avisados se eles o adicionarem acidentalmente aos processos executados.
 
-1. Vá para **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto &gt; Produtos &gt; Produtos liberados**.
 1. Selecione o produto *Z0001* para abrir a página de detalhes. (Você pode usar o filtro para localizar o produto.)
 1. No Painel de Ações, na guia **Engenheiro**, no grupo **Gerenciamento de alterações de engenharia**, selecione **Versões de engenharia**.
 1. Na página **Versões de engenharia**, selecione número da versão *V-01* para abrir a página de detalhes.
@@ -310,7 +310,7 @@ O gerente de dados mestres da empresa *USMF* deseja garantir que o produto estej
 
 O produto pode ser vendido agora para um cliente. Para adicionar o produto a uma ordem de venda, siga estas etapas:.
 
-1. Vá para **Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda**.
+1. Acesse **Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina o campo **Conta do cliente** como *US-0002* e selecione **OK**.
 1. A nova ordem de venda é aberta. Na FastTab **Linhas da ordem de venda**, adicione uma linha e defina o campo **Número do item** como *Z000*.
@@ -324,7 +324,7 @@ O produto pode ser vendido agora para um cliente. Para adicionar o produto a uma
 
 O produto foi enviado a um cliente, mas o cliente não ficou totalmente satisfeito e fornece comentários que incluem sugestões para melhoria. Enquanto o cliente fala com um auxiliar de vendas por telefone, o auxiliar de vendas pode solicitar as alterações que o cliente descreve.
 
-1. Vá para **Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda**.
+1. Acesse **Vendas e marketing &gt; Ordens de venda &gt; Todas as ordens de venda**.
 1. Localize e abra a ordem de venda criada no exercício anterior.
 1. Na FastTab **Linhas da ordem de venda**, selecione **Gerenciamento de alterações de engenharia &gt; Nova solicitação de alteração de engenharia**.
 

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: raprofit
 ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c3314803b994aed40e5b04d8546a45bd305d48b6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e83c8be1b397f90445230835e415ea4fcea5a8d0bf695e6cc5eadc55275ded7f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019411"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768954"
 ---
 # <a name="customer-prepayments"></a>Pagamentos antecipados do cliente
 
@@ -47,7 +47,7 @@ No geral, o processo para criar um perfil de postagem que pode ser usado para pa
 
 Há dois principais parâmetros de Contas a receber que você deve considerar ao configurar o sistema para pagamentos antecipados do cliente. Siga essas etapas para configurar os parâmetros.
 
-1. Vá para **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
+1. Acesse **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
 2. Opcional: na guia **Razão e imposto de vendas**, na FastTab **Pagamento**, defina a opção **Imposto de vendas no comprovante no diário do pagamento antecipado** como **Sim**.
 3. No campo **Perfil de postagem com comprovante no diário do pagamento antecipado**, selecione o perfil de postagem do cliente para usar quando pagamentos antecipados do cliente são postados.
 4. Feche a página.

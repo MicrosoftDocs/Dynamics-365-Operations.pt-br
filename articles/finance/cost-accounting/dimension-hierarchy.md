@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: b6feb5319290cc53d82feb28ffa8c049bfadd29b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 40ae7b61537cdcd1934056b9e289f342e96b57d3eebe5a6e713b2db91310ed9a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355074"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6766960"
 ---
 # <a name="dimension-hierarchy"></a>Hierarquia de dimensões
 
@@ -55,7 +55,7 @@ Uma hierarquia de dimensões pode ser criada para os seguintes tipos de dimensõ
 
 ## <a name="dimension-hierarchy-type"></a>Tipo de hierarquia de dimensões
 
-Ao criar uma nova hierarquia de dimensões, você deve selecionar o tipo de hierarquia. Vá para **Contabilização de custos** > **Dimensões** > **Hierarquias de dimensões**. Clique em **Novo** e selecione um tipo de hierarquia de dimensões. Você pode selecionar **Hierarquia de categorização de dimensões** ou **Hierarquia de classificação de dimensões**.
+Ao criar uma nova hierarquia de dimensões, você deve selecionar o tipo de hierarquia. Acesse **Contabilização de custos** > **Dimensões** > **Hierarquias de dimensões**. Clique em **Novo** e selecione um tipo de hierarquia de dimensões. Você pode selecionar **Hierarquia de categorização de dimensões** ou **Hierarquia de classificação de dimensões**.
 
 ### <a name="dimension-categorization-hierarchy"></a>Hierarquia de categorização de dimensões
 
@@ -313,7 +313,7 @@ Uma nova Guia Rápida **Usuários** está disponível no designer de hierarquia.
 > [!NOTE] 
 > Os contadores devem ser atribuídos ao nível de hierarquia superior para que possam consultar todas as entradas na contabilização de custo.
 
-Para habilitar a hierarquia da lista de acesso e as configurações de segurança, vá para **Contabilização de custos** > **Configuração** > **Parâmetros** > **Geral**. Selecione o parâmetro **Habilitar acesso de visualização para membros de dimensão de objeto de custo**.
+Para habilitar a hierarquia da lista de acesso e as configurações de segurança, Acesse **Contabilização de custos** > **Configuração** > **Parâmetros** > **Geral**. Selecione o parâmetro **Habilitar acesso de visualização para membros de dimensão de objeto de custo**.
 
 As configurações da hierarquia da lista de acesso são usadas para controlar os dados que são mostrados nas seguintes áreas:
 

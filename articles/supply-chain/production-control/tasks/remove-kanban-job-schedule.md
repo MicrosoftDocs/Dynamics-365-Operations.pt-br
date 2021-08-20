@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f3e9a512e7f391e08a35fd0eea449af12d81e644
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: eeedfad5f294f73097fc1b6a973d63125df72209227fc06470663665961af2d4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828577"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756910"
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>Remover um trabalho kanban da agenda
 
@@ -28,7 +28,7 @@ Esse procedimento se concentra em remover uns trabalhos kanban planejados do pro
 
 
 ## <a name="find-a-planned-kanban-job"></a>Escolha um trabalho kanban planejado
-1. Vá para Controle de produção > Kanban > Agendamento de trabalho Kanban.
+1. Acesse Controle de produção > Kanban > Agendamento de trabalho Kanban.
 2. No campo Célula de trabalho, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, clique no link na linha selecionada.
     * Selecione a célula de trabalho 1250.  

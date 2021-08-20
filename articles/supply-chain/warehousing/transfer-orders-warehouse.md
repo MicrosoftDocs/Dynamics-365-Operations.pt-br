@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.openlocfilehash: 9e4ea0f9720bd4e5d2724b507aa32525ac25fa52
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 6de9df2749836c68bc4e9f92a6934516ff9c1d469374f0d63173a209c841ba38
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823206"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756718"
 ---
 # <a name="set-up-warehouses-for-transfer-orders"></a>Configurar depósitos para ordens de transferência 
 
@@ -46,7 +46,7 @@ Você pode usar níveis de depósito para criar uma hierarquia que ofereça supo
 ## <a name="set-up-transport-lead-time"></a>Configurar o prazo de entrega de transporte
 
 Você também deve configurar o prazo de entrega de transporte entre os depósitos na página **Dias de transporte** . 
-1. Vá para **Gerenciamento de estoque > Configuração > Distribuição > Dias de transporte**.
+1. Acesse **Gerenciamento de estoque > Configuração > Distribuição > Dias de transporte**.
 2. No campo **Ponto de recebimento**, selecione **depósito**.
 3. Selecione **Depósito da remessa**, **Depósito de recebimento** e **Dias de transporte**. 
 4. (Opcional) você também pode definir o tempo de transporte, dependendo do modo de entrega, na guia **Dias de transporte por modo de entrega** .

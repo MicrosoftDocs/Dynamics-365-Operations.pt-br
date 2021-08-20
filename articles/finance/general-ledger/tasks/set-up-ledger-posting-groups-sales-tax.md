@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 509fb03708670d056edb97dcc1c656b9fcca9cac
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e779887a650f4ca79ea4c9f0d69a5abb5533ac69abab38e1fae38e745e4157bd
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5818359"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754161"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configurar grupos de lançamento contábil do imposto
 
@@ -26,7 +26,7 @@ ms.locfileid: "5818359"
 
 Os impostos são calculados e lançados nas contas principais que são especificadas nos grupos de lançamentos contábeis. Os grupos de lançamentos contábeis são associados a cada código de imposto sobre vendas. Você pode configurar grupos de lançamentos contábeis individuais para cada código de imposto sobre vendas; também pode usar um grupo para todos os códigos ou atribuir múltiplos grupos aos códigos. Este registro usa a empresa de dados de demonstração DEMF. 
 
-1. Vá para **Painel de Navegação > Módulos > Imposto > Configuração > Imposto sobre vendas > Grupos de lançamento do razão**.
+1. Acesse **Painel de Navegação > Módulos > Imposto > Configuração > Imposto sobre vendas > Grupos de lançamento do razão**.
 2. Clique em **Novo**.
 3. No campo grupo de **Lançamento do razão**, digite um valor.
 4. No campo **Descrição**, digite um valor.

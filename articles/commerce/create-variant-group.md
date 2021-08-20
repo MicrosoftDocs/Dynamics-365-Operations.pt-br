@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: b47f38375fc8925288db36f066ed7820bab3fe9b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 49e6860fa22bbfba8b86a8243fa29b831e22b489d967a45310648e5debd7512b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6353147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749922"
 ---
 # <a name="create-a-variant-group"></a>Criar um grupo de grades
 
@@ -39,7 +39,7 @@ Neste tópico, será criado e configurado um grupo de tamanhos. Procedimentos se
 
 Para criar um grupo de tamanhos, siga estas etapas.
  
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**.
 1. No painel de ação, selecione **Novo**.
 1. Na caixa **Grupo de tamanhos**, digite um nome para o grupo de tamanhos.
 1. Na caixa **Descrição**, insira uma descrição apropriada.
@@ -49,7 +49,7 @@ Para criar um grupo de tamanhos, siga estas etapas.
 
 Para adicionar atributos a um grupo de tamanhos, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Grupos de grades \> Grupos de tamanho**
 1. No painel de navegação, selecione um grupo de tamanhos.
 1. Em **Linhas de grupo de tamanhos**, selecione **Adicionar**.
 1. Na caixa **Tamanho**, insira uma sequência de caracteres que represente o tamanho (por exemplo, "GG").

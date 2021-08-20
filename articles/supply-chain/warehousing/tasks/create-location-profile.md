@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 101d80216f786eb8edb687031e4deac8cc3033ff
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8e06490761488881a7ea1c57cf9eb3d12dd7624753593e4aacd3c07b6a3f6998
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831017"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750019"
 ---
 # <a name="create-a-location-profile"></a>Criar um perfil de localização
 
@@ -28,7 +28,7 @@ ms.locfileid: "5831017"
 Este tópico explica como criar um perfil de localização no Dynamics 365 Supply Chain Management. Cada local no depósito precisa ter um perfil de local associado a ele, que descreve as propriedades do local, por exemplo, se o local permite itens mistos. Neste procedimento é criaremos um perfil para um local que não exija o controle de matrícula. Nós habilitaremos misturados itens, e o status de estoque e permitimos misturados, a contagem cíclica. Você pode usar este procedimento na empresa USMF de dados de demonstração.
 
 
-1. No Painel de Navegação, vá para **Módulos > Gerenciamento de depósito > Configuração > Depósito > Perfis de localização**.
+1. No Painel de Navegação, Acesse **Módulos > Gerenciamento de depósito > Configuração > Depósito > Perfis de localização**.
 2. Selecione **Novo**.
 3. No campo **ID do perfil de localização**, digite um valor.
 4. No campo **Nome**, digite um valor.

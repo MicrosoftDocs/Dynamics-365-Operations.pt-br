@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 877587601c780a2724517afe88f046ff11caf7d2
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: e67369fac733a7b0aa65ef5968d29320f119f6c1a79e5b0874d7fc61e0b2c700
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6335538"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759935"
 ---
 # <a name="create-workflows-overview"></a>Visão geral de criação de fluxos de trabalho
 
@@ -34,7 +34,7 @@ Este tópico explica como criar um fluxo de trabalho.
 
 O módulo em que você está trabalhando determina os tipos de fluxo de trabalho que você pode criar. Siga estas etapas para selecionar o tipo de fluxo de trabalho a ser criado e para abrir o editor de fluxo de trabalho.
 
-1. Vá para o módulo para o qual deseja criar um novo fluxo de trabalho. Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.
+1. Acesse o módulo para o qual deseja criar um novo fluxo de trabalho. Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.
 2. Clique em **Configuração** &gt; **\[nome do módulo\] fluxos de trabalho**.
 3. Na página de listagem que aparece, no Painel de ação, clique em **Novo**.
 4. Na página **Criar fluxo de trabalho**, selecione o tipo de fluxo de trabalho para criar, e então clique em **Criar fluxo de trabalho**. O editor de fluxo de trabalho aparece. Agora você pode usar os procedimentos a seguir para criar o fluxo de trabalho.
