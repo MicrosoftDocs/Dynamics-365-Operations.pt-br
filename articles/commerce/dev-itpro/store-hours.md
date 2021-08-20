@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2019-07-30
 ms.dyn365.ops.version: Retail 10.0.1 update
-ms.openlocfilehash: 6d8c1d4e7edc4b83e2489ac6a0bad18ab55c042b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 703087f5311205e18b6b8f99b847b539770160b91574b12d505822c8e16ca96c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6348233"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770085"
 ---
 # <a name="create-and-update-store-hours"></a>Criar e atualizar os horários das lojas
 
@@ -39,7 +39,7 @@ Esta funcionalidade ficará disponível em versões 8.1.2 do Microsoft Dynamics 
 
 Siga estas etapas para configurar os horários das lojas.
 
-1. Vá para **Retail e Commerce** \> **Configuração do canal** \> **Horários das lojas**.
+1. Acesse **Retail e Commerce** \> **Configuração do canal** \> **Horários das lojas**.
 2. Selecionar **Novo** para criar um novo modelo de horários das lojas. Para usar um modelo existente, selecione o modelo no painel esquerdo.
 3. Na caixa de diálogo **Adicionar intervalo**, defina o intervalo de data, o horário de funcionamento e todos os feriados necessários.
 

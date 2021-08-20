@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: chuzheng
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a0d2030277e0810bebef9356136b0e11effc6d5b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d18d0bcd5b12548aaf2c9f73afb9ab8766d3dd652bbb444fa7c643913e012b0c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834016"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759590"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>Criar uma ordem de reabastecimento de consignação
 
@@ -28,7 +28,7 @@ ms.locfileid: "5834016"
 Este tópico explica como criar uma ordem de reabastecimento de remessa que possa acompanhar a entrega esperada de um fornecedor no estoque de remessa. Também mostra como registrar o recebimento de produtos de modo que o estoque da remessa esteja registrado em um inventário disponível pertencido ao fornecedor. Esse procedimento seria feito normalmente por um profissional de compras. Você pode usar este guia na empresa USMF de dados de demonstração. Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynamics 365 for Operations.
 
 ## <a name="create-a-consignment-replenishment-order"></a>Criar uma ordem de reabastecimento de consignação
-1. No Painel de Navegação, vá para **Módulos > Compras e fornecimento > Consignação > Ordens de reabastecimento de consignação**.
+1. No Painel de Navegação, Acesse **Módulos > Compras e fornecimento > Consignação > Ordens de reabastecimento de consignação**.
 2. Selecione **Novo**.
 3. No campo **Conta de fornecedor**, selecione o fornecedor **US-104** (é preciso selecionar um fornecedor registrado como proprietário na página **proprietários de estoque**). 
 4. Selecione **OK**.

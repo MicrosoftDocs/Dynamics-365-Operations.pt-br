@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.openlocfilehash: e4245f5951cc4891b378f2343a1563ced33bc937
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: ecca65508c048e2946d912f2bf0292d811fb4eabac9602a35f1ce26f4ebe1da6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345831"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769915"
 ---
 # <a name="trace-generated-report-results-and-compare-them-with-baseline-values"></a>Rastrear resultados gerados de relatórios e compará-los com os valores de linha de base
 
@@ -43,12 +43,12 @@ Este processo explica como configurar a estrutura do ER para coletar informaçõ
 
 Para concluir as etapas deste exemplo, primeiro conclua as etapas em [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, verifique se o provedor de configuração para a empresa de exemplo Litware, Inc. está listado e marcado como **Ativo**. Caso não veja este provedor de configuração, siga as etapas de [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
 
 ### <a name="configure-document-management-parameters"></a>Configurar parâmetros de gerenciamento de documentos
 
-1. Vá para **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento** e crie um novo tipo de documento para armazenar arquivos de linha de base.
+1. Acesse **Administração da organização** \> **Gerenciamento de documentos** \> **Tipos de documento** e crie um novo tipo de documento para armazenar arquivos de linha de base.
 2. No campo **Classe**, insira **Anexar arquivo**.
 3. No campo **Grupo**, insira **Arquivo**.
 
@@ -167,7 +167,7 @@ Com base na estrutura criada, o formato configurado gerará um arquivo XML. Este
 
 ### <a name="add-a-new-baseline-for-designed-er-format"></a>Adicione uma nova linha base para formato de ER criado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. No Painel de Ações, selecione **Linhas de base**.
 
     ![Botão Linhas de base na página Configurações.](media/GER-BaselineSample-OpenBaselinePage.PNG "Captura de tela do botão Linhas de base na página Configurações")
@@ -205,12 +205,12 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Execute o formato de ER criado e verifique o log para analisar os resultados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na árvore, expanda **Modelo para aprender linhas de base de ER** e selecione **Modelo para aprender linhas de base de ER\\Formato para aprender linhas de base de ER**.
 3. Na Guia Rápida **Versões**, selecione **Executar**.
 4. No campo **Inserir ID**, digite **1**.
 5. Selecione **OK**.
-6. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
+6. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 
     ![Página Logs de execução de Relatórios eletrônicos.](media/GER-BaselineSample-ReviewBaselineComparison1.PNG "Captura de tela da página Logs de execução de Relatórios eletrônicos")
 
@@ -221,12 +221,12 @@ A linha de base será adicionada para o formato **Formato para aprender linhas d
 
 ### <a name="run-the-designed-er-format-and-review-the-log-to-analyze-the-results"></a>Execute o formato de ER criado e verifique o log para analisar os resultados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na árvore, expanda **Modelo para aprender linhas de base de ER** e selecione **Modelo para aprender linhas de base de ER\\Formato para aprender linhas de base de ER**.
 3. Na Guia Rápida **Versões**, selecione **Executar**.
 4. No campo **Inserir ID**, digite **2**.
 5. Selecione **OK**.
-6. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
+6. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Logs de depuração de configuração**.
 
     ![Página Logs de execução de Relatórios eletrônicos.](media/GER-BaselineSample-ReviewBaselineComparison2.PNG "Captura de tela da página Logs de execução de Relatórios eletrônicos")
 

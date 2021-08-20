@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: 71e37dcd4509813f930906ae3bb3d3b98c9100a0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2ce829f30ba4b71b598a69a71e9e0a8468b261c85512ba0f9dc97821770828d8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828290"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779101"
 ---
 # <a name="transportation-management-modes-and-methods"></a>Modos e métodos de gerenciamento de transporte
 
@@ -31,7 +31,7 @@ Os modos e métodos de transporte são usados em vários contextos. Somente modo
 
 Para criar um modo, siga estas etapas:
 
-1. Vá para **Gerenciamento de transporte \> Configuração \> Transportadoras \> Modo**.
+1. Acesse **Gerenciamento de transporte \> Configuração \> Transportadoras \> Modo**.
 1. Selecione **Novo** para criar um modo.
 1. Digite uma ID exclusiva e um nome descritivo para o modo.
 1. Feche a página.
@@ -40,7 +40,7 @@ Para criar um modo, siga estas etapas:
 
 Para criar um método de transporte, siga estas etapas:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Métodos de transporte**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Métodos de transporte**.
 1. Selecione **Novo** para criar um novo método de transporte.
 1. Digite uma ID exclusiva e um nome descritivo para o método de transporte.
 1. Feche a página.

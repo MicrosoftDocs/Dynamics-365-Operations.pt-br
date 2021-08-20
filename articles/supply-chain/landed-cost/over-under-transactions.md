@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 53b1ebf27a58b1c16c6c249ca044fd746cce1436
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ef9575d2b6dbb5c12912624544cb4a3508601237e6f49150d13b31786bb76877
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6020902"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777926"
 ---
 # <a name="overunder-transactions"></a>Transações excedentes/insuficientes
 
@@ -31,7 +31,7 @@ Quando as ordens em uma viagem são processadas, o sistema espera a quantidade d
 
 Você define as tolerâncias de entrega excedente e insuficiente para especificar as quantidades ou os volumes excedentes e insuficientes que podem ser processados em uma viagem sem causar erros. Se o recebimento da linha de viagem estiver fora dessas tolerâncias, ele deverá ser modificado e resolvido antes que a linha de viagem possa ser fechada para processamento adicional.
 
-Para configurar as tolerâncias, vá para **Custo de entrega \> Configuração excedente/insuficiente \> Tolerâncias excedentes/insuficientes**. Lá, você pode exibir, editar, adicionar e remover registros de tolerância. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para configurar as tolerâncias, Acesse **Custo de entrega \> Configuração excedente/insuficiente \> Tolerâncias excedentes/insuficientes**. Lá, você pode exibir, editar, adicionar e remover registros de tolerância. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -46,7 +46,7 @@ Para configurar as tolerâncias, vá para **Custo de entrega \> Configuração e
 
 Quando uma quantidade excedente ou insuficiente é associada a uma linha de viagem recebida, talvez seja necessário identificar o motivo da quantidade excedente ou insuficiente. Nesse caso, você pode selecionar o motivo de entrega excedente ou insuficiente na linha de recebimento quando as mercadorias forem recebidas.
 
-Para configurar motivos de entrega excedente e insuficiente, vá para **Custo de entrega \> Configuração excedente/insuficiente \> Motivos excedentes/insuficientes**. Lá, você pode exibir, editar, adicionar e remover os motivos de entrega excedente e insuficiente disponíveis. A tabela a seguir descreve os campos disponíveis para cada motivo.
+Para configurar motivos de entrega excedente e insuficiente, Acesse **Custo de entrega \> Configuração excedente/insuficiente \> Motivos excedentes/insuficientes**. Lá, você pode exibir, editar, adicionar e remover os motivos de entrega excedente e insuficiente disponíveis. A tabela a seguir descreve os campos disponíveis para cada motivo.
 
 | Campo | descrição |
 |---|---|
@@ -58,7 +58,7 @@ Para configurar motivos de entrega excedente e insuficiente, vá para **Custo de
 
 Os itens que têm tolerâncias semelhantes podem ser agrupados. Dessa forma, você pode definir a tolerância excedente/insuficiente para todos os itens do grupo ao mesmo tempo.
 
-Para configurar grupos de tolerâncias excedentes/insuficientes de item, vá para **Custo de entrega \> Configuração excedente/insuficiente \> Grupos de tolerâncias excedentes/insuficientes de item**. Lá, você pode exibir, editar, adicionar e remover registros de grupos de tolerâncias excedentes/insuficientes. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para configurar grupos de tolerâncias excedentes/insuficientes de item, Acesse **Custo de entrega \> Configuração excedente/insuficiente \> Grupos de tolerâncias excedentes/insuficientes de item**. Lá, você pode exibir, editar, adicionar e remover registros de grupos de tolerâncias excedentes/insuficientes. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -69,7 +69,7 @@ Para configurar grupos de tolerâncias excedentes/insuficientes de item, vá par
 
 É possível agrupar os fornecedores que realizam entregas excedentes ou insuficientes regularmente. Em seguida, você pode definir a tolerância excedente/insuficiente por grupo.
 
-Para configurar grupos de tolerâncias excedentes/insuficientes de fornecedor, vá para **Custo de entrega \> Configuração excedente/insuficiente \> Grupos de tolerâncias excedentes/insuficientes de fornecedor**. Lá, você pode exibir, editar, adicionar e remover registros de grupos de tolerâncias excedentes/insuficientes. A tabela a seguir descreve os campos disponíveis para cada registro.
+Para configurar grupos de tolerâncias excedentes/insuficientes de fornecedor, Acesse **Custo de entrega \> Configuração excedente/insuficiente \> Grupos de tolerâncias excedentes/insuficientes de fornecedor**. Lá, você pode exibir, editar, adicionar e remover registros de grupos de tolerâncias excedentes/insuficientes. A tabela a seguir descreve os campos disponíveis para cada registro.
 
 | Campo | descrição |
 |---|---|
@@ -86,7 +86,7 @@ Se um item recebido estiver dentro da tolerância, o sistema gerará um diário 
 
 Se um item recebido estiver fora da tolerância, o sistema gerará uma transação excedente/insuficiente para a diferença de quantidade.
 
-Para exibir e processar transações excedentes/insuficientes, vá para **Custo de entrega \> Consultas \> Transações excedentes/insuficientes**. Lá, uma transação excedente/insuficiente será associada a todos os itens em uma viagem com recebimento excedente ou insuficiente. É recomendável usar a página **Transações excedentes/insuficientes** para resolver todas as transações excedentes/insuficientes associadas a viagens. Também é recomendável **não** usar diários de movimentação ou de contagem para resolver manualmente transações de depósito com entrega insuficiente. Em vez disso, você deve usar a página **Transações excedentes/insuficientes** para gerenciar as quantidades de depósito com entrega insuficiente.
+Para exibir e processar transações excedentes/insuficientes, Acesse **Custo de entrega \> Consultas \> Transações excedentes/insuficientes**. Lá, uma transação excedente/insuficiente será associada a todos os itens em uma viagem com recebimento excedente ou insuficiente. É recomendável usar a página **Transações excedentes/insuficientes** para resolver todas as transações excedentes/insuficientes associadas a viagens. Também é recomendável **não** usar diários de movimentação ou de contagem para resolver manualmente transações de depósito com entrega insuficiente. Em vez disso, você deve usar a página **Transações excedentes/insuficientes** para gerenciar as quantidades de depósito com entrega insuficiente.
 
 ### <a name="upper-overview-tab"></a>Guia Visão geral superior
 

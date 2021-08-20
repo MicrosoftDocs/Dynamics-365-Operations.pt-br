@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cdbcf9b63f5277c0d2db8e3db62ca429700b5f71
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 12e5cc0bec937df45a3930aabeca0011723960e5532088c69a11074cf2d046a3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830801"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780861"
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar um processo de reabastecimento mínimo/máximo
 
@@ -29,7 +29,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 
 
 ## <a name="create-a-fixed-picking-location"></a>Criar um local de separação fixo
-1. Vá para **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito >> Localizações fixas**. Esta é uma tarefa opcional para o reabastecimento mínimo/máximo, mas se você usar local fixo de separação, isso permite que o estoque seja reabastecido mesmo se estiver abaixo do nível mínimo, pois o sistema pode determinar os itens que precisam ser reabastecidos, mesmo se não for deixado.
+1. Acesse **Painel de navegação > Módulos > Gerenciamento de depósito > Configuração > Depósito >> Localizações fixas**. Esta é uma tarefa opcional para o reabastecimento mínimo/máximo, mas se você usar local fixo de separação, isso permite que o estoque seja reabastecido mesmo se estiver abaixo do nível mínimo, pois o sistema pode determinar os itens que precisam ser reabastecidos, mesmo se não for deixado.
 2. Clique em **Novo**.
 3. No campo **Número do item**, insira ou selecione um valor. Se você estiver usando USMF, você pode o item A0001.  
 4. No campo **Local**, insira ou selecione um valor. Se você estiver usando USMF, você pode selecionar site 2.  
@@ -38,7 +38,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 7. Feche a página.
 
 ## <a name="create-a-replenishment-location-directive"></a>Criar uma diretiva de local de reabastecimento
-1. Vá para **Gerenciamento de depósito > Configuração > Diretivas de localização**. As diretivas de localização são usadas para determinar onde os itens deverão ser separados no processo de reabastecimento.
+1. Acesse **Gerenciamento de depósito > Configuração > Diretivas de localização**. As diretivas de localização são usadas para determinar onde os itens deverão ser separados no processo de reabastecimento.
 2. No campo **Tipo de ordem de serviço**, selecione "Reabastecimento".
 3. No **Painel de Ação**, clique em **Novo**.
 4. No campo **Nome**, digite um valor.
@@ -60,7 +60,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 20. Feche a página.
 
 ## <a name="create-a-replenishment-work-template"></a>Criar um modelo de trabalho de reabastecimento
-1. Vá para **Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**. O modelo de trabalho é usado para orientar o sistema como o trabalho de reabastecimento mínimo/máximo deve ser criado. No mínimo, deve haver uma linha de modelo de trabalho para separar e colocar. O modelo de trabalho dirá que não é válido até que todas as informações necessárias sejam preenchidas. 
+1. Acesse **Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho**. O modelo de trabalho é usado para orientar o sistema como o trabalho de reabastecimento mínimo/máximo deve ser criado. No mínimo, deve haver uma linha de modelo de trabalho para separar e colocar. O modelo de trabalho dirá que não é válido até que todas as informações necessárias sejam preenchidas. 
 2. No campo **Tipo de ordem de serviço**, selecione "Reabastecimento".
 3. No **Painel de Ação**, clique em **Novo**.
 4. No campo **Modelo de trabalho**, digite um valor.
@@ -76,7 +76,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 14. Feche a página.
 
 ## <a name="create-a-new-replenishment-template"></a>Crie um novo modelo de reabastecimento
-1. Vá para **Gerenciamento de depósito > Configuração > Reabastecimento > Modelos de reabastecimento**. O modelo de reabastecimento é usado para definir as quantidades e os itens, e o local para reabastecer.
+1. Acesse **Gerenciamento de depósito > Configuração > Reabastecimento > Modelos de reabastecimento**. O modelo de reabastecimento é usado para definir as quantidades e os itens, e o local para reabastecer.
 2. No **Painel de Ação**, clique em **Novo**.
 3. No campo **Modelo de reabastecimento**, digite um valor. Insira um nome para o modelo para indicar direcionamento de reabastecimento mínimo/máximo.  
 4. No campo **Descrição**, digite um valor.
@@ -104,7 +104,7 @@ Este procedimento mostra como configurar um novo processo de reabastecimento que
 26. Feche a página.
 
 ## <a name="set-the-replenishment-process-to-run-as-a-batch-job"></a>Configure o processo de reabastecimento para executar o trabalho em lotes
-1. Vá para **Gerenciamento de depósito > Reabastecimento > Reabastecimentos**. A página de reabastecimentos permite que você configure o reabastecimento para ser executado como um trabalho em lotes, ou para exigir que inicie manualmente.
+1. Acesse **Gerenciamento de depósito > Reabastecimento > Reabastecimentos**. A página de reabastecimentos permite que você configure o reabastecimento para ser executado como um trabalho em lotes, ou para exigir que inicie manualmente.
 2. Clique em **Filtrar**.
 3. Na lista, marque a linha selecionada.
 4. No campo **Critérios**, insira ou selecione um valor.
