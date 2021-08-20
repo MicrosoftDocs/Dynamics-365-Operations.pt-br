@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f6a2eec8d730cb4c63c854433cf6160c475ce660
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 72ffb6458ca3b10415d75fc835677ed2fa03e4197978ab648f2b244248f45058
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753955"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767716"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Criar um modelo de registro para facilitar a entrada de dados
 
@@ -26,7 +26,7 @@ ms.locfileid: "5753955"
 
 Este tópico demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro. Neste procedimento, você criará um novo registro para novos laptops que devem ser adicionados aos ativos fixos. Este procedimento usa a empresa exemplo USMF.
 
-1. No Painel de Navegação, vá para **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
+1. No Painel de Navegação, Acesse **Módulos > Ativos fixos > Ativos fixos > Ativos fixos**.
 2. Selecione **Novo**.
 3. No campo **Grupo de ativo fixo**, insira ou selecione um valor.
 4. No campo **Nome**, digite um valor. Por exemplo, insira **Laptop corporativo do cliente potencial**.  

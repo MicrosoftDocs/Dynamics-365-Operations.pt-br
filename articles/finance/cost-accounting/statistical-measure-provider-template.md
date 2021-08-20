@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: roschlom
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 330b7dfd3937d0d7c4a394b55972d75e876aea17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: c79451a5145a6e419ae0e332c67f06ca2df65996f959333a508dbf62dbf435ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5833057"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767638"
 ---
 # <a name="provider-templates-for-statistical-dimension-members-and-measure-providers"></a>Modelos do provedor para membros de dimensão estatística e provedores de medida
 
@@ -128,7 +128,7 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
+Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
 
 **Fonte de dados**
 
@@ -216,7 +216,7 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
+Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 Finance - Medidas estatísticas**, pois desejamos extrair dados do Finance.
 
 **Fonte de dados**
 
@@ -280,7 +280,7 @@ O consumo de eletricidade é registrado no Microsoft Excel usando o formato pred
 
 Se você importou seus dados através do gerenciamento de dados, os dados serão armazenados em uma tabela de teste de contabilidade de custos. Portanto, os dados importados podem ser usados em múltiplos livros de contabilidade. Não é necessário recarregar os dados.
 
-Para importar dados, vá para **Dados importados** \> **Entidade de dados** \> **Medidas estatísticas importadas**.
+Para importar dados, Acesse **Dados importados** \> **Entidade de dados** \> **Medidas estatísticas importadas**.
 
 | Identificador de origem | Data contábil | Magnitude  | Nome do membro da dimensão 1 | Nome do membro da dimensão 2 | Nome do membro da dimensão 5 |
 |-------------------|-----------------|------------|------------------------|------------------------|------------------------|
@@ -293,7 +293,7 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para este cenário, selecione o conector de dados **Medidas estatísticas importadas**, porque os dados foram importados de um sistema de terceiros para a contabilidade de custos via Excel.
+Acesse **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para este cenário, selecione o conector de dados **Medidas estatísticas importadas**, porque os dados foram importados de um sistema de terceiros para a contabilidade de custos via Excel.
 
 **Origem de dados**
 

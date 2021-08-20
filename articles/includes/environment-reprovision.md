@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f6bf4b6c946ebc63d3d84140f762cd4b789deb03
-ms.sourcegitcommit: 199848e78df5cb7c439b001bdbe1ece963593cdb
+ms.openlocfilehash: 22911afd3a3da0ce3bcaeb7e42ab0096c868be547d559f14a91e09d6e6e12c08
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/13/2020
-ms.locfileid: "4458437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6777055"
 ---
 Ao copiar um banco de dados entre ambientes, você precisará executar a ferramenta de reprovisionamento de ambiente para que o banco de dados copiado seja totalmente funcional, para garantir que todos os componentes do Commerce estejam atualizados.
 

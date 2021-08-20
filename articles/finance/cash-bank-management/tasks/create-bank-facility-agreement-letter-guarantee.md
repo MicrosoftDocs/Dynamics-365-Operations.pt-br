@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: panolte
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e01012df3a5d4b11f332048947ec83962c8b2efd
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b06cc46a6fd0c9125266092592b80b5b7d906fca87369f34be9bea29a1c9890c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834803"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776543"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Criar um contrato de recursos bancários para a carta de garantia
 
@@ -27,7 +27,7 @@ Essa tarefa cria um contrato de recursos bancários para processar uma carta de 
 
 
 ## <a name="create-bank-facility-agreement"></a>Criar um Contrato de recursos bancários
-1. Vá para Gerenciamento de dinheiro e banco > Cartas de garantia > Contratos de recursos bancários.
+1. Acesse Gerenciamento de dinheiro e banco > Cartas de garantia > Contratos de recursos bancários.
 2. Clique em Novo.
 3. No campo Número do contrato, insira o número do contrato do banco para a transação.
 4. No campo Conta bancária, selecione o número da conta bancária para a qual a carta de garantia é aberta. 

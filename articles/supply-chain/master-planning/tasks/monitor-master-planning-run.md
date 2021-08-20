@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a1733562768b3fe869f326bbfb47b6135a91b5cb
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b59e8590bf700b77a5e8021f9518f6d0cc6929acc0d9ea2723cef8b7a1971fd4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829633"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757725"
 ---
 # <a name="monitor-a-master-planning-run"></a>Monitorar a execução de um planejamento mestre
 
@@ -40,11 +40,11 @@ A página **Exibir andamento de planejamento mestre** pode exibir trabalhos de p
 Para exibir trabalhos históricos de planejamento, há duas opções. 
 
 1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres** e, depois, no Painel de Ação, selecione **Histórico**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
-1. Vá para **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Histórico**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Histórico**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
 
 Para exibir trabalhos de planejamento ativos, há duas opções. 
-1. Vá para **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no Painel de Ação, selecione **Processo de planejamento inacabado**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**.
-1. Vá para **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Exibir andamento**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no Painel de Ação, selecione **Processo de planejamento inacabado**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**.
+1. Acesse **Planejamento mestre \> Espaços de trabalho \> Planejamento mestre**, no bloco Planejamento mestre, clique em **Exibir andamento**. Com o trabalho desejado selecionado, selecione **Consultas** e depois selecione **Exibir andamento**
 
 Observe que você só poderá exibir os trabalhos ativos quando um trabalho de planejamento estiver em processamento.
 

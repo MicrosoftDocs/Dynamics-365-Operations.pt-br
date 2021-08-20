@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8cda1617a24e1b15227ff1280e114218069b38a3
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: dfd92c4dcd52c9d4e0cb9654b3340f49c8348e9658257eb0913a494fd4b3f6cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6052808"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6780737"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>Manter informações de ferimentos e doenças de funcionários
 
@@ -32,7 +32,7 @@ ms.locfileid: "6052808"
 
 Essa gravação de tarefa abrange as etapas básicas para criar um caso de ferimento ou de doença. Além de controlar os detalhes de ferimento ou de doença, há um status do caso que é rastreado também.  Os padrões do caso com um status 'em aberto'.  Os status podem ser gerenciados do item de menu "Status do caso" na parte superior da página.
 
-1. Vá para Recursos humanos > Trabalhadores > Lesão e doença > Incidentes de lesão ou doença.
+1. Acesse Recursos humanos > Trabalhadores > Lesão e doença > Incidentes de lesão ou doença.
 2. Clique em Novo.
 3. No campo Descrição do caso, digite um valor.
     * Exemplo: Ferimento de pulso  

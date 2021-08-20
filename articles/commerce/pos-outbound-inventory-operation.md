@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: 5a2c596293e632bb6c06af56f413fcee9e867563
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022722"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772269"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no PDV
 
@@ -46,7 +46,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 ### <a name="create-and-configure-a-number-sequence"></a>Criar e configurar uma sequência numérica
 
-1. Vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
+1. Acesse **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
 2. Na página **Sequências numéricas**, crie uma sequência numérica.
 3. Nos campos **Código de sequência numérica** e **Nome**, insira valores definidos pelo usuário.
 4. Na Guia Rápida **Referências**, selecione **Adicionar**.
@@ -61,7 +61,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 Os trabalhos em lotes que você criar serão usados para processar documentos que falharam ou expiram. Eles também serão usados quando o número de documentos de estoque ativos que estão sendo processados no PDV exceder um valor configurado pelo sistema.
 
-1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**.
+1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**.
 2. Na página **Trabalho em lotes**, crie dois trabalhos em lote:
 
     - Configure um trabalho para executar a classe **RetailDocumentOperationMonitorBatch**.
@@ -122,7 +122,7 @@ As validações ocorrem durante o processo de recebimento para as linhas do docu
 
 No Commerce versão 10.0.12, a funcionalidade foi adicionada, que permite aos usuários do PDV fechar ou cancelar quantidades restantes durante a remessa da ordem de saída se o depósito de saída determinar que ele não pode remeter a quantidade total solicitada. As quantidades também podem ser fechadas ou canceladas posteriormente. Para usar esse recurso, a empresa deve ser configurada para permitir a entrega de ordens de transferência. Além disso, uma porcentagem de entrega insuficiente deve ser definida para a linha da ordem de transferência.
 
-Para configurar a empresa para permitir a subentrega de ordens de transferência, na Sede do Commerce (HQ), vá para **Gerenciamento de estoque \> Configuração \> Parâmetros de gerenciamento de estoque e depósito**. Na página **Parâmetros de gerenciamento de estoque e de depósito**, na guia **Transferir pedidos**, ative o parâmetro **Aceitar entrega insuficiente**. Em seguida, execute o trabalho do agendador de distribuição **1070** para sincronizar as alterações de parâmetro no canal de armazenamento.
+Para configurar a empresa para permitir a subentrega de ordens de transferência, na Sede do Commerce (HQ), Acesse **Gerenciamento de estoque \> Configuração \> Parâmetros de gerenciamento de estoque e depósito**. Na página **Parâmetros de gerenciamento de estoque e de depósito**, na guia **Transferir pedidos**, ative o parâmetro **Aceitar entrega insuficiente**. Em seguida, execute o trabalho do agendador de distribuição **1070** para sincronizar as alterações de parâmetro no canal de armazenamento.
 
 As porcentagens de entrega insuficiente para uma linha da ordem de transferência podem ser predefinidas em produtos como parte da configuração do produto na Sede do Commerce. Como alternativa, eles podem ser definidos ou substituídos em uma linha de ordem de transferência específica por meio da Sede do Commerce (HQ).
 

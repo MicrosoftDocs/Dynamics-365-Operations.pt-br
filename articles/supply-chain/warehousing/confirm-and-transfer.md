@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 2ab2d720f7f0425f0c2fd5d79d684a02b452e4d7
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767942"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar e transferir
 
@@ -66,7 +66,7 @@ Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada model
 
 ### <a name="prepare-your-load-templates"></a>Preparar os modelos de carga
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Carga \> Modelos de carga**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Carga \> Modelos de carga**.
 1. No Painel de Ação, selecione **Editar** para colocar a página no modo de edição.
 1. Marque a caixa de seleção **Permitir divisão de carga durante confirmação de remessa** para cada modelo existente no qual você deseja ativar o recurso. Se preferir, selecione **Novo** para criar um novo modelo e configurá-lo conforme necessário. Todas as cargas criadas com esse modelo herdarão esta funcionalidade. (Se estiver trabalhando com os dados de demonstração da **USMF**, ative o recurso para o modelo de carga **Contêiner 20'**.)
 
@@ -74,7 +74,7 @@ Para usar o recurso *Confirmar e transferir*, você deve ativá-lo em cada model
 
 Esta configuração não é necessária em todas as situações. O exemplo mostrado aqui garante que o trabalho possa ser dividido por remessa para dar suporte ao cenário de exemplo apresentado mais adiante neste tópico. Também há outras maneiras de conseguir esse resultado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. Na grade na parte superior da página, selecione um modelo de trabalho existente no qual você deseja configurar o recurso *Confirmar e transferir*. (Se você estiver trabalhando com os dados de demonstração da **USMF**, selecione o modelo de trabalho **51 Estágio de separação**). Outra opção é criar um novo modelo de trabalho.
 1. No Painel de Ação, selecione **Editar consulta** para abrir a caixa de diálogo **Vendas**.
 1. Na caixa de diálogo **Vendas**, na guia **Classificação**, selecione **Adicionar** para adicionar uma linha à grade.
@@ -111,7 +111,7 @@ Para poder usar esta funcionalidade, você deve ter uma carga que contenha vári
 
 Para criar uma carga de qualificação, primeiro crie três ordens de venda seguindo essas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ação, selecione **Novo** para abrir a caixa de diálogo **Criar ordem de venda**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores (no mínimo):
 
@@ -144,7 +144,7 @@ Para criar uma carga de qualificação, primeiro crie três ordens de venda segu
 
 A bancada de planejamento de carga usará a ID do modelo de carga para criar as remessas e liberar as linhas de ordem de venda para o depósito.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. No campo **Depósito**, selecione *51*.
 
     Agora você irá montar a carga para as ordens de venda que acabou de criar.
@@ -199,7 +199,7 @@ Agora as duas IDs de trabalho serão fechadas (carregadas).
 
 Nesta etapa, você confirmará as duas ordens de venda e o trabalho que foram concluídos para a carga a fim de enviar os itens separados da carga e criar uma nova carga para os itens não separados. A confirmação da remessa de saída deve ser feita na página **Detalhes da carga**.
 
-1. Vá para **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
+1. Acesse **Gerenciamento de depósito \> Cargas \> Bancada de planejamento de carga**.
 1. Na seção **Cargas**, na grade, selecione a linha da ID da carga que você criou.
 1. Selecione o link da ID da carga para abrir a página **Detalhes da carga**.
 1. Na página **Detalhes da carga**, no Painel de Ação, na guia **Enviar e receber**, no grupo **Confirmar**, selecione **Remessa de saída** para iniciar a confirmação.

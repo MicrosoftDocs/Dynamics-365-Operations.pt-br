@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-06-28
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 88fb3a947dd15f80238baab5f315c889f47f5b3b
-ms.sourcegitcommit: 273903b7b73ac726d447c50f7086e6d8b0f0f74e
+ms.openlocfilehash: 6d99ca41a9a24ef8ac0fe31e703cad79d41216fa726fa1d354ac19db90706954
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/21/2021
-ms.locfileid: "6087006"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776015"
 ---
 # <a name="access-application-metadata-by-using-connected-applications"></a>Acessar metadados do aplicativo usando aplicativos conectados
 
@@ -27,7 +27,7 @@ ms.locfileid: "6087006"
 As etapas a seguir explicam como um usuário do Regulatory Configuration Service (RCS) na função de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar um novo mapeamento de modelo de relatório eletrônico (ER) por meio de metadados do Finance and Operations. Os metadados do aplicativo serão acessados online usando o aplicativo conectado de RCS. O mapeamento de modelo ER de exemplo será configurado para acessar transações de comércio exterior. Para concluir estas etapas, no RCS, primeiro conclua as etapas do tópico [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). Se você não concluiu as etapas do tópico [Acessar metadados do aplicativo usando a configuração do ER](access-application-metadata-er-configuration.md), faça download de [Exemplos de relatórios eletrônicos](https://download.microsoft.com/download/0/4/e/04e13839-e423-442b-a6c2-dd35b1045c2d/Dynamics%20365%20for%20Finance%20and%20Operations%208.1%20Electronic%20reporting%20task%20guides.zip) e salve as seguintes configurações de ER: Metadados de comércio exterior.xml; Modelo de comércio exterior.xml; Mapeamento de comércio exterior.xml e conclua as etapas no procedimento.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-1. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
+1. Acesse **Todos os espaços de trabalho** > **Relatório eletrônico**. 
 2. Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como **Ativo**. Se você não visualizar este provedor de configuração, conclua as etapas no procedimento [Criar provedores de configuração e marcá-los como ativos](er-configuration-provider-mark-it-active-2016-11.md). 
 
 ## <a name="get-required-er-configurations"></a>Obtenha configurações de ER necessárias
@@ -49,7 +49,7 @@ As etapas a seguir explicam como um usuário do Regulatory Configuration Service
 ## <a name="register-a-connected-application"></a>Registre um aplicativo conectado
 1. Feche a página. 
 2. Feche a página. 
-3. Vá para **Todos os espaços de trabalho** > **Relatório eletrônico**. 
+3. Acesse **Todos os espaços de trabalho** > **Relatório eletrônico**. 
 4. Clique em **Aplicativos conectados**. 
 5. Verifique se o aplicativo configurado é baseado em Azure e está disponível para o usuário do RCS atual. Também é necessário que o usuário do RCS atual tenha acesso ao aplicativo selecionado e esteja registrado como um usuário desse aplicativo com uma função que lhes concede privilégios para acessar metadados do aplicativo. 
 6. Clique em **Novo**. 

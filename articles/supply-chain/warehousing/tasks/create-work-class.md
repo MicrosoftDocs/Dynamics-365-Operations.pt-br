@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: be2c037ccc8f5cafc94d9fdee9647605889d0599
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: e423771bb252fda3c3ce763a0dcab1f34ca2d585c22bc052265a9ea44b5bbfb8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830969"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776695"
 ---
 # <a name="create-a-work-class"></a>Criar uma classe de trabalho
 
@@ -27,7 +27,7 @@ ms.locfileid: "5830969"
 
 Este procedimento mostra como configurar uma classe de trabalho. Classes de trabalho são usadas para direcionar e/ou limitar os tipos de linhas da ordem de trabalho que um funcionário do depósito pode processar em um dispositivo móvel. As linhas que um funcionário pode processar são determinadas pelas classes de trabalho nos itens de menu do dispositivo móvel aos quais o funcionário do depósito tem acesso e pela classe de trabalho que está especificada nas linhas de trabalho. Classes de trabalho também podem ser usadas para validar o local de colocação para uma linha da ordem de trabalho. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Esse procedimento é destinado ao gerente do depósito.
 
-1. Vá para Gerenciamento de depósito > Configuração > Trabalho > Classes de trabalho.
+1. Acesse Gerenciamento de depósito > Configuração > Trabalho > Classes de trabalho.
 2. Clique em Novo.
 3. No campo ID de classe de trabalho, digite um valor.
 4. No campo Descrição, digite um valor.

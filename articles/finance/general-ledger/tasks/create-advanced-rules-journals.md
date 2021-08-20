@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cd753d521dc4ad4c1e46bf51d9c1e4aa0ba02721
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fe26409ebaa83595885756056810a4a2037045f0f8ad312b52c507343dec3b2d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5832793"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6779461"
 ---
 # <a name="create-advanced-rules-for-journals"></a>Criar regras avançadas para diários
 
@@ -28,7 +28,7 @@ Este procedimento aborda a criação de regras avançadas para diários. Inclui 
 
 
 ## <a name="set-up-journal-control"></a>Configurar controle do diário
-1. No **Painel de Navegação**, vá para **Módulos > Contabilidade > Configuração do diário > Nomes de diário**.
+1. No **Painel de Navegação**, Acesse **Módulos > Contabilidade > Configuração do diário > Nomes de diário**.
 2. Na lista, localize e selecione o registro desejado.
 3. No **Painel de Ações**, clique em **Controle de diário**.
 4. Na Guia Rápida **Que tipos de conta podem ser lançados?**, clique em **Adicionar**.

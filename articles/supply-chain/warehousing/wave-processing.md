@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-03-08
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 76b11eaec0f22393e877c2837e2533a176018f2b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 5d3e8038c4651bb75b3d36ed0d398be0d032b591dedda757d2fc3a6399e512c6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6355473"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773048"
 ---
 # <a name="wave-creation-and-processing"></a>Criação e processamento de ciclo
 
@@ -61,9 +61,9 @@ Para criar manualmente um ciclo, siga estas etapas:
 1. Verifique se os [Modelos de ciclo](wave-templates.md) relevantes não foram definidos para criar automaticamente um ciclo para os tipos de depósito e ordem em que você deseja fazer isso manualmente.
 1. Dependendo do tipo de ciclo a ser criado, siga um destes procedimentos:
 
-    - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
-    - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
-    - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
+    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
 
 1. No campo **Descrição**, insira uma curta descrição do ciclo. Isso deve indicar o que você está processando no ciclo.
 
@@ -88,9 +88,9 @@ Quando um ciclo for criado , mas ainda não liberado, você poderá especificar 
 
 1. Dependendo do tipo de ciclo ao qual adicionar linhas, siga um destes procedimentos:
 
-    - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
-    - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
-    - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**. No Painel de Ações, selecione **Ciclo**.
+    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**. No Painel de Ações, selecione **Ciclo de produção**.
+    - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**. No Painel de Ações, selecione **Criar ciclo**.
 
 1. Selecione o ciclo. No Painel de Ações, selecione uma destas opções:
 
@@ -180,9 +180,9 @@ Se necessário, você pode cancelar um ciclo que foi processado. Para cancelar u
 
 1. Dependendo do tipo de ciclo a ser cancelado, siga um destes procedimentos:
 
-      - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**.
-      - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**.
-      - Vá para **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**.
+      - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de remessa** \> **Todos os ciclos**.
+      - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de produção** \> **Todos os ciclos de produção**.
+      - Acesse **Gerenciamento de depósito** \> **Comum** \> **Ciclos** \> **Ciclos de kanban** \> **Todos os ciclos de kanban**.
 
 1. Selecione o ciclo a ser cancelado. No Painel de Ações, na guia **Trabalho**, selecione **Cancelar**.
 
@@ -192,7 +192,7 @@ Use a página **Detalhes do trabalho em lotes do ciclo** para inspecionar os tra
 
 ### <a name="enable-the-wave-batch-job-details-page"></a>Habilitar a página Detalhes do trabalho em lotes do ciclo
 
-Se o sistema ainda não incluir a página **Detalhes do trabalho em lotes do ciclo**, vá para [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Detalhes do trabalho em lotes do ciclo*.
+Se o sistema ainda não incluir a página **Detalhes do trabalho em lotes do ciclo**, Acesse [Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Detalhes do trabalho em lotes do ciclo*.
 
 ### <a name="use-the-wave-batch-job-details-page"></a>Usar a página Detalhes do trabalho em lotes do ciclo
 
@@ -211,7 +211,7 @@ Em seguida, você poderá revisar o status final de cada linha de carga no ciclo
 A maneira como o sistema exibe as mensagens de status do processamento do ciclo depende de como você definiu a opção **Criar log de histórico de processamento do ciclo** na página **Parâmetros de gerenciamento de depósito**.
 
 - Quando **Criar log de histórico de processamento do ciclo** estiver definido como *Não*, as mensagens de status de linha de carga serão mostradas no **Log de Informações**.
-- Quando **Criar log de histórico de processamento do ciclo** estiver definido como *Sim*, as mensagens de status de linha de carga serão mostradas na página **Log de histórico de procedimento do ciclo**. Para exibir o log, vá para **Gerenciamento de depósito \> Ciclos de saída \> Log de histórico de processamento do ciclo**.
+- Quando **Criar log de histórico de processamento do ciclo** estiver definido como *Sim*, as mensagens de status de linha de carga serão mostradas na página **Log de histórico de procedimento do ciclo**. Para exibir o log, Acesse **Gerenciamento de depósito \> Ciclos de saída \> Log de histórico de processamento do ciclo**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

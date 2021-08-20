@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b2b22d6e18974ed600dae6501ec103a49876d2db
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b3c867af3b4d93e5a124d14e88eae60ff45987aebc639bd78806ff7a12009447
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345903"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769987"
 ---
 # <a name="customize-electronic-reporting-configurations-to-generate-an-electronic-document"></a>Personalizar configurações do relatório eletrônico para gerar um documento eletrônico
 
@@ -60,7 +60,7 @@ Como usuário na função de Consultor Funcional de Relatório Eletrônico ou De
 
 ### <a name="configure-er-parameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, no campo **Configurações**, selecione **Arquivo**.
@@ -77,13 +77,13 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="review-the-list-of-er-configuration-providers"></a>Examinar a lista de provedores de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Tabela de provedores de configuração**, cada registro de provedor tem um nome e uma URL exclusivos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Ltda.** (`https://www.litware.com`), ignore o próximo procedimento, [Adicionar um novo provedor de configuração de ER](#AddProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="AddProvider"></a>Adicionar um novo provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, selecione **Novo**.
 4. No campo **Nome**, insira **Litware, Ltda.**
@@ -92,7 +92,7 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="activate-an-er-configuration-provider"></a>Ativar um provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
 
 Para obter mais informações sobre provedores de configuração de ER, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -101,7 +101,7 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 
 Para adicionar as configurações de ER padrão à instância atual do Finance, você deve importá-las do [repositório](general-electronic-reporting.md#Repository) de ER configurado para essa instância.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor Microsoft.
 3. Na página **Repositórios de configuração**, selecione o repositório do tipo **Global** e, depois, selecione **Abrir**. Se você precisar de autorização para se conectar ao Regulatory Configuration Service, siga as instruções de autorização.
 4. Na página **Repositório de configuração**, na árvore de configuração no painel esquerdo, selecione a configuração de formato **Fatura de Venda Peppol**.
@@ -115,7 +115,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
 
 ### <a name="review-the-imported-er-configurations"></a>Examinar as configurações de ER importadas
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, expanda a FastTab **Componentes de configuração**.
 4. Na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** e depois **Fatura de Venda UBL**.
@@ -162,7 +162,7 @@ Em seguida, verifique se as seguintes configurações estão disponíveis na ár
 
 ## <a name="configure-the-accounts-receivable-parameters"></a><a name="ConfigureAR1"></a>Configurar os Parâmetros de contas a receber
 
-1. Vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
+1. Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
 2. Na guia **Documentos eletrônicos**, na FastTab **Relatório eletrônico**, no campo **Vendas e fatura de texto livre**, selecione **Fatura de Venda Peppol**.
 3. Selecione **Salvar**.
 
@@ -170,19 +170,19 @@ Em seguida, verifique se as seguintes configurações estão disponíveis na ár
 
 ## <a name="configure-the-legal-entity-parameters"></a><a name="ConfigureLE"></a>Configurar os parâmetros da entidade legal
 
-1. Vá para **Administração da organização** \> **Organizações** \> **Entidades legais**.
+1. Acesse **Administração da organização** \> **Organizações** \> **Entidades legais**.
 2. Para a empresa **DEMF** selecionada, na FastTab **Informações de conta bancária**, no campo **Número do banco**, insira **1234**.
 3. Selecione **Salvar**.
 4. Feche a página **Entidades legais**.
 
 ## <a name="prepare-a-customer-record"></a><a name="ConfigureCustomer1"></a>Preparar um registro de cliente
 
-1. Vá para **Contas a receber** \> **Clientes** \> **Todos os clientes**.
+1. Acesse **Contas a receber** \> **Clientes** \> **Todos os clientes**.
 2. Na página **Todos os clientes**, selecione o link de conta de cliente **DE-014**.
 
 ### <a name="add-a-customer-contact"></a>Adicionar um contato do cliente
 
-1. Vá para **Contas a receber** \> **Clientes** \> **Todos os clientes**.
+1. Acesse **Contas a receber** \> **Clientes** \> **Todos os clientes**.
 2. No Painel de Ações, na guia **Cliente**, no grupo **Contas**, selecione **Contatos**.
 3. Selecione **Adicionar contatos**.
 4. Na página **Contatos**, no campo **Nome**, abra a pesquisa, selecione **Adam Carter** e depois **Selecionar** para fechar a pesquisa.
@@ -191,12 +191,12 @@ Em seguida, verifique se as seguintes configurações estão disponíveis na ár
 
 ### <a name="define-a-primary-contact"></a>Definir um contato principal
 
-1. Vá para **Contas a receber** \> **Clientes** \> **Todos os clientes**.
+1. Acesse **Contas a receber** \> **Clientes** \> **Todos os clientes**.
 2. Na FastTab **Dados demográficos de vendas**, no campo **Contato principal**, selecione **Adam Carter**.
 
 ### <a name="set-the-e-invoicing-option"></a>Definir a opção de faturamento eletrônico
 
-1. Vá para **Contas a receber** \> **Clientes** \> **Todos os clientes**.
+1. Acesse **Contas a receber** \> **Clientes** \> **Todos os clientes**.
 2. Na FastTab **Fatura e entrega**, defina a opção **Fatura eletrônica** como **Sim**.
 3. Selecione **Salvar**.
 4. Feche a página **Todos os clientes**.
@@ -241,7 +241,7 @@ Para obter mais informações, consulte [Criar uma fatura de texto livre](../../
 
 ### <a name="analyze-a-generated-e-invoice"></a>Analisar uma fatura eletrônica gerada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
 2. Na página **Trabalhos de relatórios eletrônicos**, selecione o registro inicial que contém a descrição da tarefa **Enviar XML da fatura eletrônica**.
 3. Selecione **Mostrar arquivos** para acessar a lista de arquivos gerados.
 
@@ -261,7 +261,7 @@ Para obter mais informações, consulte [Criar uma fatura de texto livre](../../
 
 Siga estas etapas para personalizar.
 
-1. Vá para **Contas a receber** \> **Clientes** \> **Todos os clientes**.
+1. Acesse **Contas a receber** \> **Clientes** \> **Todos os clientes**.
 2. Na página **Todos os clientes**, selecione o link de conta de cliente **DE-014**.
 3. Na FastTab **Geral**, clique com o botão direito em qualquer área em branco no campo **Idioma** e selecione **Personalizar: UpperGroup**.
 
@@ -290,7 +290,7 @@ Siga estas etapas para personalizar.
 
 É necessário atualizar os metadados de ER para tornar o campo personalizado adicionado [visível](electronic-reporting-er-configure-parameters.md#frequently-asked-questions) no designer de mapeamento de modelo de ER.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Recriar referências de tabela**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Recriar referências de tabela**.
 2. Na caixa de diálogo **Atualizar modelo de dados**, selecione **OK**.
 
 ## <a name="design-the-custom-er-configurations"></a><a name="DesignCustomERConfigurations"></a>Criar configurações de ER personalizadas
@@ -303,7 +303,7 @@ Como usuário na função de Consultor Funcional de Relatório Eletrônico, é p
 
 #### <a name="add-a-custom-data-model-configuration"></a>Adicionar uma configuração de modelo de dados personalizada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, selecione **Modelo de fatura personalizado**.
 3. No Painel de Ações, selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, no campo **Novo**, selecione **Derivar do Nome: Modelo de fatura de cliente, Microsoft** para indicar que a nova configuração do modelo de dados de ER personalizada deve ser baseada na configuração do modelo de dados de ER.
@@ -339,7 +339,7 @@ Agora é possível usar o designer de modelo de dados de ER para editar a versã
 
 É necessário [concluir](general-electronic-reporting.md#component-versioning) seu trabalho com a versão 50.1 da sua configuração de modelo de dados de ER personalizada a fim de disponibilizá-lo para que outras configurações de ER personalizadas possam ser adicionadas.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** e selecione **Modelo de fatura (Litware)**.
 3. Na FastTab **Versões**, selecione **Alterar status** \> **Concluído** e clique em **OK**.
 
@@ -353,7 +353,7 @@ Como usuário na função de Desenvolvedor de Relatório Eletrônico, é possív
 
 #### <a name="add-a-custom-model-mapping-configuration"></a>Adicionar uma configuração de mapeamento de modelo personalizada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura de cliente** e selecione **Modelo de fatura de cliente**.
 3. No Painel de Ações, selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, no campo **Novo**, selecione **Derivar do Nome: Mapeamento de modelo de fatura de cliente, Microsoft** para indicar que a nova configuração de mapeamento de modelo de ER personalizada deve ser baseada na configuração de mapeamento de modelo de ER.
@@ -371,7 +371,7 @@ Como usuário na função de Desenvolvedor de Relatório Eletrônico, é possív
 
 É necessário modificar o mapeamento de modelo personalizado e especificar como o campo **FederalTaxID\_Litware** do modelo de dados personalizado deve ser preenchido com os dados de aplicativos no runtime.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura de cliente** \> **Mapeamento de modelo de fatura de cliente** e selecione **Mapeamento de modelo de fatura (Litware)**.
 3. No Painel de Ação, selecione **Designer**.
 4. Na página **Modelo para mapeamento de fonte de dados**, selecione o mapeamento da **Fatura de cliente**.
@@ -396,7 +396,7 @@ Como usuário na função de Desenvolvedor de Relatório Eletrônico, é possív
 
 É necessário [concluir](general-electronic-reporting.md#component-versioning) o trabalho com a versão 50.19.1 da configuração do mapeamento de modelo de ER personalizada para disponibilizá-lo para uso.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura de cliente** \> **Mapeamento de modelo de fatura de cliente** e selecione **Mapeamento de modelo de fatura (Litware)**.
 3. Na FastTab **Versões**, selecione **Alterar status** \> **Concluído** e clique em **OK**.
 
@@ -413,7 +413,7 @@ Como usuário na função de Consultor Funcional de Relatório Eletrônico, é p
 
 #### <a name="add-a-custom-format-configuration"></a>Adicionar uma configuração de formato personalizada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura de cliente** \> **Fatura de Venda UBL** e selecione **Modelo de fatura Peppol**.
 3. No Painel de Ações, selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, no campo **Novo**, selecione **Derivar do Nome: Fatura de Venda Peppol, Microsoft** para indicar que a nova configuração de formato de ER personalizada deve ser baseada na configuração de formato de ER.
@@ -436,7 +436,7 @@ Agora é possível usar o designer de Operações de ER para editar a versão 11
 
 É necessário modificar o formato personalizado adicionando um novo elemento de formato para preencher o valor de um código de identificação de imposto federal de um cliente faturado.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura de cliente** \> **Fatura de Venda UBL** \> **Fatura de Venda Peppol** e selecione **Fatura de Venda Peppol (Litware)**.
 3. No Painel de Ação, selecione **Designer**.
 4. Na árvore de formato, expanda **XMLHeader** \> **Fatura** \> **cac:AccountingCustomerParty** \> **cac:Party** \> **cac:PartyTaxScheme** \> **cac:TaxScheme** e selecione **cbc:ID**.
@@ -465,7 +465,7 @@ Agora é possível usar o designer de Operações de ER para editar a versão 11
 
 É necessário [concluir](general-electronic-reporting.md#component-versioning) o trabalho com a versão 11.2.2.1 da configuração de formato de ER personalizada para disponibilizá-lo para uso.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura de cliente** \> **Fatura de Venda UBL** \> **Fatura de Venda Peppol** e selecione **Fatura de Venda Peppol (Litware)**.
 3. Na FastTab **Versões**, selecione **Alterar status** \> **Concluído** e clique em **OK**.
 
@@ -475,7 +475,7 @@ O status da versão 11.2.2.1 muda de **Rascunho** para **Concluído** e a versã
 
 ## <a name="configure-the-accounts-receivable-parameters-to-start-to-use-custom-er-configurations"></a><a name="ConfigureAR2"></a>Configurar os parâmetros de Contas a receber para iniciar o uso de configurações de ER personalizadas
 
-1. Vá para **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
+1. Acesse **Contas a receber** \> **Configuração** \> **Parâmetros de contas a receber**.
 2. Na guia **Documentos eletrônicos**, na FastTab **Relatório eletrônico**, no campo **Vendas e fatura de texto livre**, selecione **Fatura de Venda Peppol (Litware)**.
 3. Selecione **Salvar**.
 
@@ -483,7 +483,7 @@ O status da versão 11.2.2.1 muda de **Rascunho** para **Concluído** e a versã
 
 ## <a name="update-a-customer-record-by-adding-a-federal-tax-identification-code"></a><a name="ConfigureCustomer2"></a>Atualizar registro de cliente adicionando um código de identificação de imposto federal
 
-1. Vá para **Contas a receber** \> **Clientes** \> **Todos os clientes**.
+1. Acesse **Contas a receber** \> **Clientes** \> **Todos os clientes**.
 2. Na página **Todos os clientes**, selecione o link de conta de cliente **DE-014**.
 3. Na FastTab **Geral**, no campo **ID de Imposto Federal**, insira **LITWARE-6789**.
 4. Selecione **Salvar**.
@@ -503,7 +503,7 @@ O status da versão 11.2.2.1 muda de **Rascunho** para **Concluído** e a versã
 
 ### <a name="analyze-a-generated-e-invoice"></a>Analisar uma fatura eletrônica gerada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
 2. Na página **Trabalhos de relatórios eletrônicos**, selecione o registro mais recente que contém a descrição da tarefa **Enviar XML da fatura eletrônica**.
 3. Selecione **Mostrar arquivos** para acessar a lista de arquivos gerados.
 4. Selecione **Abrir** para baixar o arquivo XML da fatura eletrônica gerada.
@@ -515,7 +515,7 @@ O status da versão 11.2.2.1 muda de **Rascunho** para **Concluído** e a versã
 
 Para manter o conjunto de configurações de ER padrão na instância do Finance [atualizado](general-electronic-reporting-manage-configuration-lifecycle.md), é necessário importar novas versões sempre que elas forem disponibilizadas no [repositório](general-electronic-reporting.md#Repository) de ER configurado para essa instância.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor Microsoft.
 3. Na página **Repositórios de configuração**, selecione o repositório do tipo **Global** e, depois, selecione **Abrir**. Se você precisar de autorização para se conectar ao Regulatory Configuration Service, siga as instruções de autorização.
 4. Na página **Repositório de configuração**, na árvore de configuração no painel esquerdo, selecione a configuração de formato **Fatura de Venda Peppol**.
@@ -528,7 +528,7 @@ Para obter mais informações sobre como esse processo pode ser automatizado, co
 
 ### <a name="review-the-imported-er-configurations"></a>Examinar as configurações de ER importadas
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Expanda a FastTab **Componentes de configuração**.
 4. Na árvore de configuração no painel esquerdo, expanda **Modelo de fatura**. Observe que o nome de **Modelo de fatura de cliente** foi alterado para **Modelo de fatura** em uma das configurações importadas de modelo de dados de ER.
@@ -565,7 +565,7 @@ Verifique se as seguintes configurações de ER estarão futuramente disponívei
 
 ### <a name="adopt-your-custom-er-data-model"></a>Adotar seu modelo de dados de ER personalizado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** e selecione **Modelo de fatura (Litware)**.
 3. Na FastTab **Versões**, para a versão de rascunho **50.2** da configuração de modelo de dados escolhida, selecione **Trocar base**.
 4. No campo **Versão de destino**, confirme a seleção da versão **206** da configuração do modelo de dados base de ER e selecione **OK**.
@@ -583,7 +583,7 @@ O status da versão 206.2 muda de **Rascunho** para **Concluído** e a versão s
 
 ### <a name="adopt-your-custom-er-model-mapping"></a>Adotar seu mapeamento de modelo de ER personalizado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** \> **Mapeamento de modelo de fatura** e selecione **Mapeamento de modelo de fatura (Litware)**.
 3. Na FastTab **Versões**, para a versão de rascunho **50.19.2** da configuração do mapeamento de modelo escolhido, selecione **Trocar base**.
 4. No campo **Versão de destino**, confirme a seleção da versão **206.132** da configuração do mapeamento de modelo de dados base de ER e selecione **OK**.
@@ -615,7 +615,7 @@ O status da versão 206.132.2 muda de **Rascunho** para **Concluído** e a vers�
 
 ### <a name="adopt-your-custom-er-format"></a>Adotar seu formato de ER personalizado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura** \> **Fatura de Venda UBL** \> **Fatura de Venda Peppol** e selecione **Fatura de Venda Peppol (Litware)**.
 3. Na FastTab **Versões**, para a versão de rascunho **11.2.2.2** da configuração de formato escolhida, selecione **Trocar base**.
 4. No campo da versão **Destino**, confirme a seleção da versão **32.6.7** da configuração de formato base de ER e selecione **OK**.
@@ -656,7 +656,7 @@ O status da versão 32.6.7.2 muda de **Rascunho** para **Concluído** e a versã
 
 ### <a name="analyze-a-generated-e-invoice"></a>Analisar uma fatura eletrônica gerada
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos**.
 2. Na página **Trabalhos de relatórios eletrônicos**, selecione o registro mais recente que contém a descrição da tarefa **Enviar XML da fatura eletrônica**.
 3. Selecione **Mostrar arquivos** para acessar a lista de arquivos gerados.
 4. Selecione **Abrir** para baixar o arquivo XML da fatura eletrônica gerada.

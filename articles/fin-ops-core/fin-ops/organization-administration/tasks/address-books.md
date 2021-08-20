@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 176492186a1b0dd589b284269656f8aa28e1eaec
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 1e9edd384cf8cc1373481fd47c040cdaeae7d050d2cdba5e0a9afb7c1d361362
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747504"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759104"
 ---
 # <a name="configure-address-books"></a>Configurar catálogos de endereços
 
@@ -30,7 +30,7 @@ A empresa de dados demo usada para criar esta tarefa é USMF. Esse registro é d
 
 
 ## <a name="configure-address-books"></a>Configurar catálogos de endereços
-1. No **Painel de navegação**, vá para **Módulos > Administração da organização > Catálogo de endereços global > Catálogos de endereços**.
+1. No **Painel de navegação**, Acesse **Módulos > Administração da organização > Catálogo de endereços global > Catálogos de endereços**.
 2. Clique em **Novo**.
 3. No campo **Nome**, digite um valor.
 4. No campo **Descrição**, digite um valor.

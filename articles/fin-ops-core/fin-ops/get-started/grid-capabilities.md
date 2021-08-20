@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 08/04/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: b7a1809a3012af86ad9ba39da8721c63b3c4b885
-ms.sourcegitcommit: 2f766e5bb8574d250f19180ff2e101e895097713
+ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "5923589"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6775233"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -158,6 +158,13 @@ Se a sua organização descobre uma página que tem algumas questões usando a n
  ```this.forceLegacyGrid();```
 
 Esta API será honrada até o lançamento de outubro de 2021, quando o novo controle de grade se torna obrigatório. Se algum problema exigir o uso dessa API, informe-o à Microsoft.
+
+### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forçar uma página a usar a nova grade depois de ter recusado anteriormente a grade
+Se você tiver recusado o uso da nova grade em uma página individual, convém reabilitar posteriormente a nova grade após os problemas subjacentes terem sido resolvidos. Para isso, você só precisa remover a chamada para `forceLegacyGrid()`. A alteração não terá efeito até que uma das seguintes ações ocorra:
+
+- **Reimplantação do ambiente**: quando um ambiente é atualizado e reimplantado, a tabela que armazena as páginas que recusaram a nova grade (FormControlReactGridState) é automaticamente limpa.
+
+- **Limpeza manual da tabela**: para cenários de desenvolvimento, será necessário usar SQL para limpar a tabela FormControlReactGridState e reiniciar o AOS. Essa combinação de ações redefinirá o armazenamento em cache de páginas que recusaram a nova grade.  
 
 ## <a name="developer-size-to-available-width-columns"></a>[Desenvolvedor] Colunas de tamanho para largura disponível
 Se um desenvolvedor definir a propriedade **WidthMode** como **SizeToAvailable** para colunas dentro da nova grade, essas colunas terão inicialmente a mesma largura que teriam se a propriedade fosse definida como **SizeToContent**. No entanto, elas se estendem para usar qualquer largura extra disponível dentro da grade. Se a propriedade for definida como **SizeToAvailable** para várias colunas, todas essas colunas compartilham qualquer largura extra disponível dentro da grade. No entanto, se um usuário redimensionar manualmente uma dessas colunas, a coluna se torna estática. Ele permanecerá nessa largura e não será mais esticado para ocupar a largura de grade disponível extra.  

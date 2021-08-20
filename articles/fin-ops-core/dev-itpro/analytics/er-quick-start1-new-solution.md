@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 35db2eb3e0da91207f08d16b8fb1bfa6a6bb8607
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: af610ae86e751ec4425f4c555cdf59c042fabcdb46e6a3a018b0d94a8926d92e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345951"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770059"
 ---
 # <a name="design-a-new-er-solution-to-print-a-custom-report"></a>Criar uma nova solução ER para imprimir um relatório personalizado
 
@@ -123,7 +123,7 @@ As etapas a seguir explicam como um usuário no administrador do sistema, no des
 
 Neste exemplo, você criará uma nova solução ER para o módulo [Questionário](../../../human-resources/hr-learning-questionnaires.md). Essa nova solução ER permite criar um relatório usando uma planilha do Microsoft Excel como modelo. Em seguida, você pode gerar o relatório **Questionário** no formato Excel ou PDF, além de gerar o relatório Serviços de Relatório do SQL Server (SSRS) existente. Você também pode modificar o novo relatório posteriormente, quando solicitado. Nenhum código é necessário.
 
-1. Para executar o relatório existente, vá para **Questionário** \> **Design** \> **Relatório Questionários**.
+1. Para executar o relatório existente, Acesse **Questionário** \> **Design** \> **Relatório Questionários**.
 
     ![Seleção do item de menu de relatório Questionários no módulo Questionário para executar o relatório SSRS existente.](./media/er-quick-start1-application-menu-origin.png)
 
@@ -141,7 +141,7 @@ Como usuário na função de Desenvolvedor de Relatório Eletrônico, você deve
 
 ### <a name="configure-er-parameters"></a><a name="ConfigureParameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, defina os seguintes parâmetros:
@@ -160,7 +160,7 @@ Toda configuração de ER é marcada como pertencente a um provedor de configura
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a name="ReviewProvidersList"></a>Examinar a lista de provedores de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, cada registro de provedor de configuração tem um nome e uma URL únicos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Ltda.** (`https://www.litware.com`), ignore o próximo procedimento, [Adicionar um novo provedor de configuração de ER](#ActivateProvider).
 
@@ -173,7 +173,7 @@ Toda configuração de ER é marcada como pertencente a um provedor de configura
 
 #### <a name="activate-an-er-configuration-provider"></a><a name="ActivateAddedProvider"></a>Ativar um provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, selecione o provedor de configuração **Litware, Inc.**.
 3. Selecione **Definir como ativo**.
 
@@ -188,7 +188,7 @@ Ao concluir as etapas na seção [Importar uma nova configuração do modelo de 
 ### <a name="import-a-new-data-model-configuration"></a><a name="ImportDataModel"></a>Importar uma nova configuração de modelo de dados
 
 1. Baixe o arquivo [Questionnaires model.version.1.xml](https://download.microsoft.com/download/b/6/3/b633bd34-d200-4422-96d9-8f62eb5218f8/Questionnaires_model.version.1.xml) e salve-o no computador local.
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ação, selecione **Câmbio** \> **Carregar de arquivo XML**.
 5. Selecione **Procurar** e, depois, localize e selecione o arquivo **Questionnaires model.version.1.xml**.
@@ -198,7 +198,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 ### <a name="create-a-new-data-model-configuration"></a><a name="DesignDataModel"></a>Criar uma nova configuração de modelo de dados
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 3. Selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, no campo **Nome**, insira **Modelo de questionário**.
@@ -280,7 +280,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 #### <a name="complete-the-design-of-the-data-model"></a><a name="CompleteDataModel"></a>Concluir o design do modelo de dados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Modelo de questionário**.
 3. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
 4. Selecione **Alterar status** \> **Concluir**.
@@ -303,7 +303,7 @@ Ao concluir as etapas na seção [Importar uma nova configuração de mapeamento
 ### <a name="import-a-new-model-mapping-configuration"></a><a name="ImportModelMapping"></a>Importar uma nova configuração de mapeamento de modelo
 
 1. Baixe o arquivo [Questionnaires mapping.version.1.1.xml](https://download.microsoft.com/download/7/b/2/7b258e4e-4bd5-46a4-8114-27419ae4acd8/Questionnaires_mapping.version.1.1.xml) e salve-o no computador local.
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ação, selecione **Câmbio** \> **Carregar de arquivo XML**.
 5. Selecione **Procurar** e, depois, localize e selecione o arquivo **Questionnaires mapping.version.1.1.xml**.
@@ -313,7 +313,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 ### <a name="create-a-new-model-mapping-configuration"></a><a name="CreateModelMapping"></a>Criar uma nova configuração de mapeamento de modelo
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Modelo de questionário**.
 3. Selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, siga estas etapas:
@@ -533,7 +533,7 @@ Você deve vincular fontes de dados configuradas aos campos do modelo de dados p
 
 #### <a name="complete-the-design-of-the-model-mapping"></a><a name="CompleteModelMapping"></a>Concluir o design de mapeamento de modelo
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Mapeamento de questionário**.
 3. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
 4. Selecione **Alterar status** \> **Concluir**.
@@ -575,7 +575,7 @@ Ao concluir as etapas na seção [Importar uma configuração de formato projeta
 ### <a name="import-a-designed-format-configuration"></a><a name="FormatImport"></a>Importar uma configuração de formato criado
 
 1. Baixe o arquivo [Questionnaires format.version.1.1.xml](https://download.microsoft.com/download/1/b/a/1ba39ec2-257a-44d8-972f-25bf7d18fb41/Questionnaires_format.version.1.1.xml) e salve-o no computador local.
-2. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+2. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 3. No espaço de trabalho **Relatório eletrônico**, selecione **Configurações de relatórios**.
 4. No Painel de Ações, selecione **Câmbio** \> **Carregar de arquivo XML**.
 5. Selecione **Procurar** e, depois, localize e selecione o arquivo **Questionnaires format.version.1.1.xml**.
@@ -585,7 +585,7 @@ Para continuar, ignore o próximo procedimento, [Criar uma nova configuração d
 
 ### <a name="create-a-new-format-configuration"></a><a name="FormatCreate"></a>Criar uma nova configuração de formato
  
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, selecione **Modelo de questionário**.
 3. Selecione **Criar configuração**.
 4. Na caixa de diálogo suspensa, siga estas etapas:
@@ -729,7 +729,7 @@ A ilustração a seguir mostra o estado final de associações de dados configur
 
 Agora você pode executar um formato criado para fins de teste na página **Configurações**.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configuração**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. Selecione **Designer** para a versão de formato que tem um status **Rascunho**.
 4. Na página **Designer de formato**, selecione **Executar**.
@@ -794,7 +794,7 @@ A ilustração a seguir mostra um relatório gerado no formato Excel, no qual as
 
 ### <a name="complete-the-format-design"></a><a name="CompleteFormat"></a>Concluir a criação do formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. Na FastTab **Versões**, selecione a versão de configuração com o status **Rascunho**.
 4. Selecione **Alterar status** \> **Concluir**.
@@ -1049,7 +1049,7 @@ Crie seu projeto para disponibilizar um novo item de menu para os usuários.
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp"></a>Executar um formato do aplicativo
 
-1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
+1. Acesse **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 
     ![Seleção do item de menu do relatório Questionários (alimentado pelo ER) no módulo Questionário para executar o formato de ER configurado.](./media/er-quick-start1-application-menu-modified.png)
 
@@ -1071,7 +1071,7 @@ Você pode modificar a solução de ER configurada de forma que use a classe de 
 
 #### <a name="add-data-sources-to-access-a-data-contract-object"></a><a name="AddDataSource1"></a>Adicionar fontes de dados para acessar um objeto de contrato de dados
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Mapeamento de questionário**.
 3. Selecione **Designer** para abrir a página **Modelo para mapeamento de fonte de dados**.
 4. Selecione **Designer** para abrir o mapeamento selecionado no designer de mapeamento de modelo.
@@ -1137,7 +1137,7 @@ Você pode modificar o formato de ER configurado de forma que o nome dele apare�
 
 #### <a name="add-a-new-format-element"></a><a name="AddFormatElement"></a>Adicionar um novo elemento de formato
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. Selecione **Designer**.
 4. Na página **Designer de formato**, selecione o item de raiz **Relatório**.
@@ -1168,7 +1168,7 @@ O status da versão 1.2 dessa configuração é alterado de **Rascunho** para **
 
 ### <a name="run-a-format-from-the-application"></a><a name="RunFormatFromApp2"></a>Executar um formato do aplicativo
 
-1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
+1. Acesse **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 2. Na caixa de diálogo, no campo **Mapeamento de formato**, selecione **relatório Questionários**.
 3. Selecione **OK**.
 4. Na caixa de diálogo **Parâmetros de ER**, na FastTab **Registros a serem incluídos**, configure a opção de filtragem para que somente o questionário **SBCCrsExam** seja incluído.
@@ -1182,7 +1182,7 @@ Observe que o rodapé do relatório gerado contém o nome do formato de ER que f
 
 ### <a name="run-a-format-from-er"></a><a name="RunFormatFromER3"></a>Executar um formato de ER
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configurações, expanda **Modelo de questionário** e selecione **Relatório de questionário**.
 3. No Painel de Ação, selecione **Executar**.
 4. Na caixa de diálogo **Parâmetros de relatório eletrônico**, na FastTab **Registros a serem incluídos**, configure a opção de filtragem para que somente o questionário **SBCCrsExam** seja incluído.
@@ -1194,7 +1194,7 @@ Observe que o rodapé do relatório gerado não contém o nome do formato de ER 
 
 ### <a name="configure-a-format-destination-for-on-screen-preview"></a><a name="ConfigureDestination"></a>Configurar um destino de formato para versão prévia na tela
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Destino de relatório eletrônico**.
 2. Na página **Destino do relatório eletrônico**, adicione um registro de destino para o formato de ER configurado para o formato de ER **Relatório de questionário**.
 3. Na FastTab **Destino do arquivo**, configure o [destino](er-destination-type-screen.md) da **Tela** para o componente de formato de **Relatório** que foi [adicionado](#AddFormatRootElement) como o elemento-raiz do formato de ER do **Relatório de questionário** configurado.
 4. Na FastTab **Configurações de conversão de PDF**, configure o destino para converter um relatório em [formato PDF](electronic-reporting-destinations.md#OutputConversionToPDF) que usa a orientação de página **Paisagem**.
@@ -1203,7 +1203,7 @@ Observe que o rodapé do relatório gerado não contém o nome do formato de ER 
 
 ### <a name="run-a-format-from-the-application-to-preview-it-as-a-pdf-document"></a><a name="RunFormatFromApp3"></a>Executar um formato do aplicativo para visualizá-lo como um documento PDF
 
-1. Vá para **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
+1. Acesse **Questionário** \> **Design** \> **Relatório Questionários (alimentado pelo ER)**.
 2. Na caixa de diálogo, no campo **Mapeamento de formato**, selecione **relatório Questionários**.
 3. Selecione **OK**.
 4. Na caixa de diálogo **Parâmetros de relatório eletrônico**, na FastTab **Registros a serem incluídos**, configure a opção de filtragem para que somente o questionário **SBCCrsExam** seja incluído.

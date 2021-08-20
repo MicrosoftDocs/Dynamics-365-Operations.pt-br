@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0c1b97193f09cfbb943522ca7af6bace9a14d9cf
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 04a054fb0233a9f47fd8df38cf0bd60d0662bae80c433d7f2f8ed21c0f1bfdf8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819545"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771671"
 ---
 # <a name="set-up-fixed-asset-groups"></a>Configurar grupos de ativos fixos
 
@@ -26,7 +26,7 @@ ms.locfileid: "5819545"
 
 Este tópico explica como criar um novo grupo de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 
-1. No Painel de navegação, vá para **Módulos > Ativos fixos > Configuração > Grupos de ativos fixos**.
+1. No Painel de navegação, Acesse **Módulos > Ativos fixos > Configuração > Grupos de ativos fixos**.
 2. Selecione **Novo**.
 3. No campo **Grupo de ativo fixo**, digite um valor.
 4. No campo **Nome**, digite um valor. Os ativos fixos e o código da sequência numérica de Autonumber no grupo de **Ativos fixos** substituirão as configurações nos parâmetros de ativos fixos. Você pode alterá-lo aqui se os ativos no grupo de ativos fixos forem diferentes da numeração de outros grupos.  

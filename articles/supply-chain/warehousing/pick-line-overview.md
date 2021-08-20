@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: Release 10.0.13
-ms.openlocfilehash: e6459620e0353e47d53445e54bddf08a2b7071af
-ms.sourcegitcommit: 92ff867a06ed977268ffaa6cc5e58b9dc95306bd
+ms.openlocfilehash: bec9c779399b252277c7688d4bdaf9794c050c18925eebaec0a8c0ffe2b3df28
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/03/2021
-ms.locfileid: "6339960"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763882"
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-provide-a-pick-line-overview"></a>Configurar um item de menu do dispositivo móvel para fornecer uma visão geral da linha de separação
 
@@ -39,7 +39,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Para configurar um item de menu do dispositivo móvel para fornecer uma visão geral da linha de separação, siga as etapas a seguir.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione ou crie um item de menu relacionado ao trabalho de seleção e defina os seguintes valores:
 
     - **Modo:** *Trabalho*

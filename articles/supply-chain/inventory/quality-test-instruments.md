@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3806ca26b8909b03768dad54ddad0084e1cea4a6
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 39624a9f00829e551fe3790a024155b6104318ef5cc1c582ab263c3868462063
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021723"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774093"
 ---
 # <a name="quality-management-test-instruments"></a>Instrumentos de teste de gerenciamento de qualidade
 
@@ -37,7 +37,7 @@ Você está executando vários testes em componentes elétricos. Alguns testes s
 
 ## <a name="create-a-test-instrument"></a>Criar um instrumento de teste
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Instrumentos de teste**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Controle de qualidade \> Instrumentos de teste**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Instrumento de teste** – Insira um nome ou uma ID exclusiva para o instrumento de teste.

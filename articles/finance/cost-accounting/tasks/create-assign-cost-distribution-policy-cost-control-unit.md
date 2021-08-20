@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 736b537958f65fb54d0829cfbcc819fd315b530c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 9230410d7b8cd4c94fdab5465e542e16fd286c530a8189d5cd1eca825bb1faf4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810117"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772842"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Criar e atribuir uma política de distribuição de custos para uma unidade de controle de custos
 
@@ -28,7 +28,7 @@ As regras de distribuição de custos são usadas para distribuir custos que for
 
 
 ## <a name="create-a-policy"></a>Criar uma política
-1. Vá para Contabilização de custos > Políticas > Políticas de distribuição de custos.
+1. Acesse Contabilização de custos > Políticas > Políticas de distribuição de custos.
 2. Clique em Novo.
 3. No campo Nome da política, digite um valor.
 4. No campo Descrição, digite um valor.

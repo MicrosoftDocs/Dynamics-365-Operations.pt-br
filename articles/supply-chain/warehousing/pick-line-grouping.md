@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: fe0e63ef742b7bfd09684a94d273a1841d24599c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 076a4dfdc49525eef616d1008073371be1dd4a248cd6f16d395b544ae70e7531
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828261"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757485"
 ---
 # <a name="pick-line-grouping"></a>Agrupamento de linhas de separação
 
@@ -39,7 +39,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 ### <a name="create-a-mobile-device-menu-item"></a>Criar um item de menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. No campo **Nome do item de menu** digite *Separação de linhas do grupo de vendas*.
 1. No campo **Título**, digite *Separação de linhas do grupo de vendas*. Esse título será exibido no menu do dispositivo móvel.
@@ -63,7 +63,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Siga estas etapas para adicionar o item de menu recém-criado ao menu **Saída**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Editar**.
 1. O painel de lista mostra todos os menus de dispositivos móveis existentes. Selecione *Saída* na lista.
 1. Na lista **Menus e itens de menu disponíveis**, localize e selecione o item de menu *Separação de linhas do grupo de vendas* que você criou.
@@ -73,7 +73,7 @@ Siga estas etapas para adicionar o item de menu recém-criado ao menu **Saída**
 
 ### <a name="set-up-a-work-template"></a>Configurar um modelo de trabalho
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No campo **Tipo de ordem de trabalho**, selecione *Ordens de compra*.
 1. Na grade **Visão geral**, localize e selecione o modelo de trabalho que deve ser usado com essa função. Para esse cenário, selecione o modelo *51 Estágio de separação*.
 1. No Painel de Ações, selecione **Editar consulta**.
@@ -96,7 +96,7 @@ Siga estas etapas para adicionar o item de menu recém-criado ao menu **Saída**
 
 Antes de configurar o agrupamento de linhas de separação, você deve criar algum trabalho de saída qualificado.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. No campo **Conta do cliente**, selecione *US-004*.
 1. Na Guia Rápida **Geral**, no campo **Depósito**, selecione *51*.
@@ -116,7 +116,7 @@ Antes de configurar o agrupamento de linhas de separação, você deve criar alg
     - **Item M9201:** *3* cada
     - **Item M9202:** *9* cada
 
-1. Antes de liberar as ordens para o depósito, você deve verificar se os locais de separação têm estoque suficiente para todos os itens em todas as ordens. Revise a configuração **Diretiva de localização** para determinar quais locais de separação são usadas para separação da ordem de venda. Se estiver usando o ambiente de dados de demonstração da Contoso para o depósito *51*, confirme se há estoque disponível.
+1. Antes de liberar as ordens para o depósito, você deve verificar se os locais de separação têm estoque suficiente para todos os itens em todas as ordens. Revise a configuração **Diretiva de localização** para determinar quais locais de separação são usadas para separação da ordem de venda. Se você estiver usando o ambiente de dados de demonstração da Contoso para o depósito *51*, confirme se há estoque disponível.
 
     Agora reserve o estoque para cada linha.
 
@@ -148,7 +148,7 @@ Antes de configurar o agrupamento de linhas de separação, você deve criar alg
     > No dispositivo móvel, o trabalho de separação para as três linhas de trabalho de separação foi agregado em uma etapa de separação para o usuário.
 
 1. Confirme a etapa de separação.
-1. Vá para a página do trabalho para obter a ID do trabalho e observe que todas as três linhas de separação do item *M9200* foram fechadas simultaneamente.
+1. Acesse a página do trabalho para obter a ID do trabalho e observe que todas as três linhas de separação do item *M9200* foram fechadas simultaneamente.
 1. Volte para o dispositivo móvel e continue separando. A linha de trabalho 4 do item *M9201* deve ser apresentada. Como havia apenas uma linha de trabalho na ordem, não há nada a ser agregado.
 1. Confirme a etapa de separação.
 1. A última etapa de separação no dispositivo móvel agrega as duas últimas linhas de separação da ordem de trabalho.

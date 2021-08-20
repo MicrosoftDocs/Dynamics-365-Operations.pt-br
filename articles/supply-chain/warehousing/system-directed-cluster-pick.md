@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-12-31
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: cc634b82a64b7774abc1538e034f1b8289176f4e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 3c474705e5260f4be62bc59d8d1d84a1ba597b6f96eafd8f673cc110285fc597
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831137"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6772343"
 ---
 # <a name="system-directed-cluster-picking"></a>Separação de cluster direcionada pelo sistema
 
@@ -59,7 +59,7 @@ Esse recurso também requer a habilitação de um recurso dependente. O recurso 
 
 Os perfis de cluster controlam como o sistema cria cada cluster. Se forem necessários diferentes clusters, um perfil de cluster diferente deverá ser criado para cada item de menu de dispositivo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
 2. Selecione **Novo**.
 3. No campo **ID do perfil de cluster**, informe **2 Posições**.
 4. No campo **Nome**, digite **2 Posições**.
@@ -82,7 +82,7 @@ Os perfis de cluster controlam como o sistema cria cada cluster. Se forem necess
 
 Para criar um novo item de menu de dispositivo móvel para a separação de cluster dirigida pelo sistema e vincular a ID do perfil de cluster ao item de menu do dispositivo móvel, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito > Configuração > Dispositivo móvel > Itens de menu de dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito > Configuração > Dispositivo móvel > Itens de menu de dispositivo móvel**.
 1. Selecione **Novo**.
 1. Na seção de cabeçalho, insira as seguintes informações:
     - **Nome do item de menu** - Cluster SD
@@ -121,7 +121,7 @@ Para criar um novo item de menu de dispositivo móvel para a separação de clus
 
 ### <a name="set-up-a-mobile-device-menu"></a>Configura um menu de dispositivo móvel
 
-1. Vá para **Gerenciamento de depósito > Configuração > Dispositivo móvel > Menu de dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito > Configuração > Dispositivo móvel > Menu de dispositivo móvel**.
 1. Adicione o item de menu **Cluster SD** que você acabou de criar a um menu Dispositivo móvel.
 1. Selecione o menu **Saída**.
 1. Selecione **Editar** no Painel de Ações.
@@ -136,7 +136,7 @@ Para criar um novo item de menu de dispositivo móvel para a separação de clus
 
 Antes de configurar a separação de cluster direcionada pelo sistema, você deverá criar trabalho de saída qualificado. O perfil de cluster criado anteriormente especifica duas posições de cluster. Portanto, você deve criar pelo menos duas IDs de trabalho. Neste cenário, você criará duas ordens de venda, reservar estoque, liberar as ordens de venda para o depósito e então processar manualmente a onda.
 
-1. Vá para **Vendas e Marketing > Ordens de venda > Todas as ordens de venda**.
+1. Acesse **Vendas e Marketing > Ordens de venda > Todas as ordens de venda**.
 1. Selecione **Nova** no Painel de Ações para criar a primeira ordem de venda.
     - O menu **Criar ordem de venda** será aberto, insira as seguintes informações:
         - Na Guia Rápida **Cliente**, insira **Conta do cliente** - **US-004**.
@@ -178,12 +178,12 @@ Antes de configurar a separação de cluster direcionada pelo sistema, você dev
 1. Quando o processo de liberação para depósito for concluído, será exibida uma mensagem informativa.
     - As remessas serão criadas para cada ordem de venda.
     - Uma onda será criada e ambas as remessas serão atribuídas à onda. Anote a **ID da Onda**.
-1. Vá para **Gerenciamento de depósito > Ondas de saída > Ondas de remessa > Todas as ondas**.
+1. Acesse **Gerenciamento de depósito > Ondas de saída > Ondas de remessa > Todas as ondas**.
     - Na lista **Todas as ondas**, localize e selecione a **ID da Onda** criada na etapa anterior.
     - No Painel de Ações, selecione a guia **Onda**.
     - No grupo **Ondas**, selecione **Processo** para processar a onda e criar **Trabalho**.
     - As mensagens informativas serão geradas quando o processamento tiver sido concluído, indicando que o trabalho foi criado e que a onda foi lançada.
-1. **Opcional**: vá para **Gerenciamento de depósito > Trabalho > Detalhes do trabalho** para exibir o trabalho criado. Duas IDs de trabalho diferentes serão criadas. Cada ID de trabalho tem duas linhas de separação.
+1. **Opcional**: Acesse **Gerenciamento de depósito > Trabalho > Detalhes do trabalho** para exibir o trabalho criado. Duas IDs de trabalho diferentes serão criadas. Cada ID de trabalho tem duas linhas de separação.
 
 ### <a name="run-the-mobile-device-flow"></a>Execute o fluxo do dispositivo móvel
 

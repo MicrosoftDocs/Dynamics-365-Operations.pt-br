@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 80f4b9dfc7882af4570bf1908784b8d114396402
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: c770da899f07597896d0d392b5192ddc4162bec6271d0e11c34797d7a15f857e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021795"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754026"
 ---
 # <a name="quarantine-zones-for-nonconformances"></a>Zonas de quarentena para não conformidades
 
@@ -47,7 +47,7 @@ Três compartimentos e dois racks são usados para armazenar itens que não est�
 
 ## <a name="create-a-quarantine-zone"></a>Criar uma zona de quarentena
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Zonas de quarentena**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Zonas de quarentena**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Zona de quarentena** – Insira um nome ou uma ID exclusiva para a zona de quarentena.

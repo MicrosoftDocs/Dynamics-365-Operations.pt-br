@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-03-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4162ae04c58a88c7c3aac56297a6c12db98b15c2
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8c68b8ed1703f2cd49d47fad73485e9e4093aa82b902a484fb79bad4dd2dcbfb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6019217"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6773552"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10018-may-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.18 (maio de 2021)
 
@@ -37,9 +37,11 @@ Os seguintes recursos estão incluídos nesta versão. Siga os links para o [pla
 
 - Liberação automática de ordens de compra (aprimoramento para [Execução de depósito com unidades de escala na nuvem](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-scale-units-cloud))<br> - Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-warehousing.md).
 
-- [Arquivamento e aprimoramentos no desempenho de estoque em escala empresarial](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Para obter mais informações, consulte [Arquivo-morto de transações de estoque](../inventory/archive-inventory-transactions.md)
+- [Criar e exibir certificações na interface de colaboração entre fornecedores](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/create-view-certifications-vendor-collaboration-interface)<br> - Para obter mais informações, consulte [Manter certificação do fornecedor](../../finance/public-sector/manage-vendor-certification.md).
 
-- [Gerenciamento de reembolsos](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Para obter mais informações, consulte [Visão geral do módulo Gerenciamento de reembolsos](../rebate-management/rebate-management-overview.md)
+- [Arquivamento e aprimoramentos no desempenho de estoque em escala empresarial](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enterprise-scale-inventory-performance-improvements-archiving)<br> - Para obter mais informações, consulte [Arquivo de transações de estoque](../inventory/archive-inventory-transactions.md).
+
+- [Gerenciamento de reembolsos](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/rebate-management)<br> - Para obter mais informações, consulte [Visão geral do módulo Gerenciamento de reembolsos](../rebate-management/rebate-management-overview.md).
 
 - [Política de configuração de exportação da entidade de dados de vendas](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-data-entity-export-setup-policy)
 

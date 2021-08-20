@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: cbb280ff5b9eaf4cca2ee97704de54735b49cc6d
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a718f3150e0ac8ca61dabbe85b080af7d89c565876ac0aa353dc8c935e178aa3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5814011"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6763067"
 ---
 # <a name="transfer-orders-brazil"></a>Ordens de transferência (Brasil)
 

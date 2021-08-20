@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5488ac6d29a99bcaa5ea29ea6da131858070011c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7eacd80f8f8b9b4a4c2a1e5e5b0da7f0c46e82166d1d02d15ce26dd641f7127f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824789"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781360"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>Enviar ordens como entregas diretas
 
@@ -27,7 +27,7 @@ ms.locfileid: "5824789"
 Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Você usa a entrega direta quando quiser enviar mercadorias para o cliente diretamente do fornecedor, em vez de enviá-las para seu próprio depósito primeiro. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Para concluir com êxito a segunda subtarefa “Criar entregas diretas de bancada”, certifique-se de que o item que você escolhe na ordem de venda tem um Fornecedor padrão especificado na Guia Rápida Compra do mestre do produto Liberado.
 
 ## <a name="set-an-individual-order-for-direct-delivery"></a>Defina uma ordem individual para a entrega direta
-1. Vá para **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Acesse **Painel de navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. Insira ou selecione um valor no campo **Conta de cliente** e então selecione **OK**
 4. Insira ou selecione valores nos campos **Número do item** e **Site**, então selecione **Salvar**.
@@ -65,7 +65,7 @@ Este tópico demonstra como criar uma entrega direta para uma ordem de venda. Vo
 26. Selecione **OK**. Feche as páginas e volte para a home page.
 
 ## <a name="create-direct-deliveries-from-the-workbench"></a>Criar entregas diretas de bancada.
-1. Vá para **Navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
+1. Acesse **Navegação > Módulos > Contas a receber > Ordens > Todas as ordens de venda**.
 2. Selecione **Novo**.
 3. Insira ou selecione um valor no campo **Conta de cliente** e então selecione **OK**.
 4. Insira ou selecione um valor nos campos **Número do item** e **site**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8607de5705354aa58c985fb536f3e1d52acd1f37
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: f128518af01911a29ae297670883ef425f9117d65cc952cc1ffdb044c4ce085f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921280"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6781893"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>Criar uma ordem de venda para um produto configurável
 
@@ -28,7 +28,7 @@ Esse procedimento aborda a aplicação de um modelo de configuração a um produ
 
 ## <a name="create-a-sales-order"></a>Criar uma ordem de venda
 
-1. Vá para **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
+1. Acesse **Vendas e marketing \> Espaços de trabalho \> Consulta e processamento de ordem de venda**.
 1. Selecione **Novo**.
 1. Selecione **Ordem de venda**.
 1. No campo **Conta do cliente**, selecione *US-001*. 

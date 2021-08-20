@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-9-14
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 428de5304b3f6f9b861e765d5084d5573b79df90
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 52740246f745272f238ec3dcf8e53f7310e4b24271da4a5d6388a1b9c4706521
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347725"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6774840"
 ---
 # <a name="safety-margins"></a>Margens de segurança
 
@@ -102,7 +102,7 @@ A capacidade para definir a margem no plano mestre pode ser útil quando quiser 
 
 Para aplicar uma margem de segurança a um grupo de cobertura, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Grupos de cobertura**.
+1. Acesse **Planejamento mestre \> Configuração \> Grupos de cobertura**.
 1. No painel de lista, selecione o grupo de cobertura desejado.
 1. Na Guia Rápida **Outro**, na seção **Margens de segurança em dias**, use os campos a seguir para definir as margens de segurança necessárias (em dias):
 
@@ -114,7 +114,7 @@ Para aplicar uma margem de segurança a um grupo de cobertura, siga estas etapas
 
 Para aplicar uma margem de segurança a um plano mestre, siga estas etapas.
 
-1. Vá para **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
+1. Acesse **Planejamento mestre \> Configuração \> Planos \> Planos mestres**.
 1. No painel de lista, selecione o plano mestre desejado.
 1. Na Guia Rápida **Margens de segurança em dias**, na seção Margens de segurança em dias, use os campos a seguir para definir as margens de segurança necessárias (em dias):
 
@@ -126,7 +126,7 @@ Para aplicar uma margem de segurança a um plano mestre, siga estas etapas.
 
 Você pode definir todas as margens de segurança para serem calculadas com base em dias do calendário ou dias úteis.
 
-1. Vá para **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**.
+1. Acesse **Planejamento mestre \> Configurar \> Parâmetros de planejamento mestre**.
 1. Na guia **Geral**, na seção **Margens de segurança em dias**, defina a opção **Dias úteis** como *Sim* para calcular margens com base em dias úteis. Defina a opção *Não* para calcular margens com base em dias do calendário.
 
 Por exemplo, um calendário é aberto de segunda a sexta e fechado de sábado a domingo. Se houver uma margem de recebimento de um dia, uma data obrigatória na segunda-feira gera uma data de entrega na sexta-feira anterior, porque sábado e domingo não são dias úteis.
