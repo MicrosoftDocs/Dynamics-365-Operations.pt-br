@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: e30b02a6f98f638954adc7ec335babd518b92bf4
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: c06e8cc3ba37baae803bfe8d79b8e111f9e53ac3576ed8004f592cff70a358ff
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5909394"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758559"
 ---
 # <a name="set-up-master-planning"></a>Configurar planejamento mestre
 
@@ -77,7 +77,7 @@ Você pode especificar quais planos serão usados para o plano estático e para 
 
 Três métodos de cálculo podem ser usados para executar o planejamento mestre: regeneração e alteração líquida Cada método gera um plano diferente quando é executado.
 
-Você especifica o método de planejamento na caixa de diálogo **Execução do planejamento mestre**. Para abrir esta caixa de diálogo, vá para **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**.
+Você especifica o método de planejamento na caixa de diálogo **Execução do planejamento mestre**. Para abrir esta caixa de diálogo, Acesse **Planejamento mestre \> Planejamento mestre \> Executar \> Planejamento mestre** ou selecione **Executar** no espaço de trabalho **Planejamento mestre**.
 
 ### <a name="regeneration"></a>Regeneração
 

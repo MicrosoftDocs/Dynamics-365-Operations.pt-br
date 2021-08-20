@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 45763d5e602946fc3328cc3b565777fb7e549c61
-ms.sourcegitcommit: 588f8343aaa654309d2ff735fd437dba6acd9d46
+ms.openlocfilehash: 1134b24aa3f7ada72ba837b525d2cea33b3e6287da0f8611f60152672c1ee6f4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115088"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743617"
 ---
 # <a name="release-product-structures"></a>Liberar estruturas de produtos
 
@@ -81,7 +81,7 @@ Durante o processo de liberação, você pode influenciar as configurações.
 
 ## <a name="create-and-manage-product-release-policies"></a>Criar e gerenciar políticas de preparação do produto
 
-Para trabalhar com diretivas de liberação de produtos, vá para **Gerenciamento de alteração de engenharia \> Configuração \> Políticas de liberação de produtos**. Siga uma destas etapas.
+Para trabalhar com diretivas de liberação de produtos, Acesse **Gerenciamento de alteração de engenharia \> Configuração \> Políticas de liberação de produtos**. Siga uma destas etapas.
 
 - Para criar uma nova política, selecione **Novo** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
 - Para editar uma política existente, selecione-o no painel de listas, selecione **Editar** no Painel de ações e defina os campos conforme descrito nas subseções a seguir.
@@ -96,7 +96,7 @@ Defina os campos a seguir no cabeçalho de uma política de versão do produto.
 | Organização | Digite um nome para a política. |
 | descrição | Insira uma descrição para a política. |
 
-### <a name="general-fasttab"></a>FastTab Geral
+### <a name="general-fasttab"></a>Guia Rápida Geral
 
 Defina os campos a seguir na Guia rápida **Geral** de uma política de versão do produto.
 

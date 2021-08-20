@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50a50dc359dc4c2741ac4d280a9f97c6a7f2c259
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fd7a390ced7b7b4997d9c86b9218f1fa83ee14729e450e1ae1cb53dbbd605edb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810004"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6755657"
 ---
 # <a name="create-a-cost-rollup-policy"></a>Criar uma política de acúmulo de custo
 
@@ -27,7 +27,7 @@ Este procedimento mostra como criar uma política de acúmulo de custo e criar r
 
 
 ## <a name="create-a-policy"></a>Criar uma política
-1. Vá para Contabilização de custos > Políticas > Políticas de acúmulo de custo.
+1. Acesse Contabilização de custos > Políticas > Políticas de acúmulo de custo.
 2. Clique em Novo.
 3. No campo Nome da política, digite um valor.
 4. No campo Descrição, digite um valor.

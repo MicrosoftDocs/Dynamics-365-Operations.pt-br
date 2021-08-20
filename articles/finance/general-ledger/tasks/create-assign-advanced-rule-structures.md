@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 4b81e3cc169bf0164af0b9c4de4faeb936df6784
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 769f3cb44830a4bc9ef48e5bcfda5a47b87954c20f65d1d3eef5d02af9ed5bd1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5837048"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750403"
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Criar e atribuir estruturas de regras avançadas
 
@@ -27,7 +27,7 @@ ms.locfileid: "5837048"
 Este tópico explica como criar e atribuir uma estrutura de regras avançada a uma estrutura de conta. Este guia usa a empresa de demonstração USMF.
 
 ## <a name="create-an-advanced-rule-structure"></a>Criar estrutura de regras avançada
-1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Estruturas de regras avançadas**.
+1. Acesse **Painel de navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Estruturas de regras avançadas**.
 2. Selecione **Novo** para abrir a caixa de diálogo suspensa.
 3. No campo **Estrutura de regras avançada**, digite um nome para descrever a estrutura de regras.
 4. Selecione **OK**.
@@ -37,7 +37,7 @@ Este tópico explica como criar e atribuir uma estrutura de regras avançada a u
 8. Selecione **Ativar**.
 
 ## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Aplicar estrutura de regra avançada a uma estrutura de conta
-1. Vá para **Painel de navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta**.
+1. Acesse **Painel de navegação > Módulos > Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta**.
 2. Na lista, localize e selecione a estrutura de conta à qual deseja aplicar a regra avançada.
 3. Selecione **Editar**. Você também pode selecionar **Regras avançadas** e será solicitado a colocar a estrutura de conta no **Modo de rascunho**.  
 4. Selecione **Regras avançadas**.

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: fa017b1d5cab377d1f36604cf54435beb6a4abb5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 0ecc28cb11b8c34a438bb47b1cfa9a37e17297e421020b32030261af95b86a49
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5822668"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757925"
 ---
 # <a name="create-payments-for-a-customer-who-have-direct-debit-mandates"></a>Criar pagamentos para um cliente que tenha cartas de ordem de débito direto
 
@@ -36,7 +36,7 @@ Este é o quinto dos cinco procedimentos que demonstram o processo de pagamento 
 
 
 ## <a name="post-a-free-text-invoice-with-direct-debit-information"></a>Lançar uma fatura de texto livre com informações de débito direto
-1. Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.
+1. Acesse Contas recebíveis > Faturas > Todas faturas de texto livre.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
     * Por exemplo, selecione DE-010.  
@@ -51,7 +51,7 @@ Este é o quinto dos cinco procedimentos que demonstram o processo de pagamento 
 11. Clique em OK.
 
 ## <a name="create-a-payment"></a>Criar um pagamento
-1. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
+1. Acesse Contas a receber > Pagamentos > Diário de pagamentos.
 2. Clique em Novo.
 3. No campo Nome, insira ou selecione um valor.
 4. Clique em Linhas.

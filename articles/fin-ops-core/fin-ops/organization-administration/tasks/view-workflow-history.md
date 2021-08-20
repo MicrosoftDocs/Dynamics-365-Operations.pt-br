@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 351f9c80eab8e9810fa6a4538f003eaef1a4a4fd
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0410e8cad5d18c3c8efd96d065967515a657f7edbd0256d148cdb6c6d0b7df41
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747216"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749403"
 ---
 # <a name="view-workflow-history"></a>Exibir histórico do fluxo de trabalho
 
@@ -26,7 +26,7 @@ ms.locfileid: "5747216"
 
 Este tópico descreve as etapas para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação. A empresa de dados demo usada para criar este procedimento é USMF.
 
-1. Vá para **Painel de navegação > Módulos > Comum > Consultas > Fluxo de trabalho > Histórico de fluxo de trabalho**.
+1. Acesse **Painel de navegação > Módulos > Comum > Consultas > Fluxo de trabalho > Histórico de fluxo de trabalho**.
     - Use este formulário para exibir o status de um documento que foi enviado ao sistema de fluxo de trabalho para processamento e aprovação.  
     - A **ID da instância** é o código de identificação da instância do fluxo de trabalho que está processando ou que processou o documento.  
     - O **Status** é o status do fluxo de trabalho do documento.  

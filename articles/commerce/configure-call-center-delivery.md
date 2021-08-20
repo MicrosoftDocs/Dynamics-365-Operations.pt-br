@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9636348e7840206ad1ef5669eae7f553231cadf1
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: bd763082969079de2d68e12483ec25871c332e4067f122c6a845d3acd477af62
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352605"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748562"
 ---
 # <a name="configure-call-center-delivery-modes-and-charges"></a>Configurar modos de entrega e encargos do call center
 
@@ -33,7 +33,7 @@ O Commerce tem recursos que permitem aos usuários limitar os modos de entrega q
 
 ## <a name="define-delivery-modes"></a>Definir modos de entrega
 
-Antes de especificar quais modos de entrega podem ser usados para as ordens do call center e definir as regras e encargos associados, você deve definir os modos de entrega. Vá para **Vendas e marketing \> Configuração \> Distribuição \> Modos de entrega**. Selecione **Novo** para criar um novo modo de entrega. Como alternativa, selecione um modo de entrega existente na lista e, em seguida, selecione **Editar** para fazer alterações.
+Antes de especificar quais modos de entrega podem ser usados para as ordens do call center e definir as regras e encargos associados, você deve definir os modos de entrega. Acesse **Vendas e marketing \> Configuração \> Distribuição \> Modos de entrega**. Selecione **Novo** para criar um novo modo de entrega. Como alternativa, selecione um modo de entrega existente na lista e, em seguida, selecione **Editar** para fazer alterações.
 
 No campo **Modo de entrega**, você pode inserir qualquer combinação de caracteres alfanuméricos, com base nos seus requisitos de negócios. Em seguida, você usar o campo **Descrição** para fornecer contexto adicional. Os campos **Grupo de encargos** e **Expedir** são opcionais e serão explicados em mais detalhes posteriormente neste tópico.
 
@@ -45,7 +45,7 @@ Na guia rápida **Endereços**, você pode especificar em quais países ou regi�
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Valide modos de entrega para uma ordem de call center
 
-Após os modos de entrega serem definidos, você deve executar o lote de processo **Processar modos de entrega**. Esse trabalho disponibiliza os modos de entrega para que possam ser usados em processos de ordem de venda para canais. Para executar o trabalho **Processar modos de entrega**, vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Processar modos de entrega**. Esse trabalho deve ser executado sempre que novos modos de entrega forem adicionados a um canal ou forem feitas alterações nos relacionamentos de modo/canal de entrega existentes.
+Após os modos de entrega serem definidos, você deve executar o lote de processo **Processar modos de entrega**. Esse trabalho disponibiliza os modos de entrega para que possam ser usados em processos de ordem de venda para canais. Para executar o trabalho **Processar modos de entrega**, Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Processar modos de entrega**. Esse trabalho deve ser executado sempre que novos modos de entrega forem adicionados a um canal ou forem feitas alterações nos relacionamentos de modo/canal de entrega existentes.
 
 Depois de executar o trabalho em lotes **Processar modos de entrega**, você pode ir para **Varejo e Comércio \> Canais \> Call centers \> Todos os call centers**. Na página **Todos os call centers**, na Página Ação, na guia **Configurar**, selecione **Modos de entrega**. A página **Modos de entrega** lista todos os modos de entrega válidos para o canal de call center selecionado. Para editar os modos de entrega existentes ou adicionar novos modos de entrega, selecione **Gerenciar modos de entrega**. Observe que o trabalho **Processar modos de entrega** deve ser executado sempre que forem feitas alterações.
 
@@ -53,7 +53,7 @@ Depois de executar o trabalho em lotes **Processar modos de entrega**, você pod
 
 Quando as ordens de venda são criadas para clientes, uma empresa pode querer adicionar cobranças que são calculadas automaticamente com base nos modos de entrega selecionados para a ordem. Esses encargos podem ser configurados para que sejam iguais para todos os clientes e modos de entrega. Como alternativa, encargos podem variar, dependendo do cliente e/ou os modos de entrega selecionados para a ordem de venda.
 
-Para definir os encargos, vá para **Varejo e Comércio \> Configuração de canal \> Encargos \> Encargos automáticos**. Selecione **Novo** para adicionar novos encargos. Como alternativa, selecione uma entrada existente, e selecione **Editar**.
+Para definir os encargos, Acesse **Varejo e Comércio \> Configuração de canal \> Encargos \> Encargos automáticos**. Selecione **Novo** para adicionar novos encargos. Como alternativa, selecione uma entrada existente, e selecione **Editar**.
 
 Os encargos podem ser definidos de modo que sejam calculados no nível do cabeçalho da ordem ou das linhas da ordem. Use o campo **Nível** para selecionar o nível desejado.
 
@@ -87,7 +87,7 @@ Se a configuração **Habilitar conclusão de ordem** for desativada, os usuári
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Use modos de entrega expedidos em ordens do call center
 
-Você também pode vincular um código de expedição a qualquer modo de entrega que você configurar. Esse código é usado como uma ferramenta de classificação e geração de relatórios de priorização. Atualmente, não é cobrada uma taxa adicional à ordem. Para configurar códigos de remessa, vá para **Vendas e marketing \> Configuração \> Distribuição \> Códigos de agilização**.
+Você também pode vincular um código de expedição a qualquer modo de entrega que você configurar. Esse código é usado como uma ferramenta de classificação e geração de relatórios de priorização. Atualmente, não é cobrada uma taxa adicional à ordem. Para configurar códigos de remessa, Acesse **Vendas e marketing \> Configuração \> Distribuição \> Códigos de agilização**.
 
 Por exemplo, para ordens que serão enviadas pelo ar no dia seguinte, a separação deverá ser feita no depósito às 13h todos os dias. Neste caso, um código de expedição pode ser criado, e o código pode ser vinculado no dia seguinte ao modo de entrega que é configurado no sistema. Quando o depósito criar sua onda de separação, o código de expedição apropriado no campo **Expedir** pode ser usado como filtro, de forma que a separação seja executada somente para ordens que tenham os modos de entrega vinculados ao código.
 

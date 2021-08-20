@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: a2d8e561273c2a573182259c2ceb45cebc072eca
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 776defca4a9d2a860901efe9e8890fd11ec8ce7302c53dc1507cc77ff501aded
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5804152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753043"
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
 
@@ -27,7 +27,7 @@ ms.locfileid: "5804152"
 
 Este procedimento demonstra as etapas para criar regras de reabastecimento. As regras de reabastecimento podem ser usadas para controlar como os produtos são distribuídos para as lojas ao usar a distribuição integrada e a compra centralizada. As regras de reabastecimento podem ser configuradas para lojas ou grupos de lojas. O peso definido para cada linha em uma regra controlará como as quantidades de produtos serão distribuídas entre as lojas ao usar regras de reabastecimento como o método de distribuição em distribuições integradas ou compras centralizadas. Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Regras de reabastecimento.
+1. Acesse Regras de reabastecimento.
 2. Clique em Novo.
 3. No campo Regra de reabastecimento, digite um valor.
 4. No campo Descrição, digite um valor.

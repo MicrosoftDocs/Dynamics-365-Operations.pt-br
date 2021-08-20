@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: fe5983d40033c0cd15674815067eaa969e97d38b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 986abfaef81474571de7db179253c4d76f65d4bec180fa9f355f3218ddbb96ba
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6343616"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746810"
 ---
 # <a name="create-transfer-orders-from-the-warehouse-app"></a>Criar ordens de transferência do aplicativo de depósito
 
@@ -44,7 +44,7 @@ Antes de poder usar esse recurso, ele e seus pré-requisitos deverão estar habi
 
 Aqui estão diretrizes gerais para configurar um item de menu de dispositivo móvel para criar uma ordem de transferência. Dependendo das necessidades comerciais do nível de automação a ser definido quando os usuários criarem ordens de transferência desde o início, as configurações diferentes serão habilitadas. O cenário neste documento descreverá uma dessas configurações.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione **Novo** para adicionar um novo item de menu. Em seguida, faça as seguintes configurações para começar:
 
     - **Nome do item de menu** - atribua um nome como deve aparecer no Supply Chain Management.
@@ -66,7 +66,7 @@ Aqui estão diretrizes gerais para configurar um item de menu de dispositivo mó
 
 ## <a name="add-the-mobile-device-menu-item-to-a-menu"></a>Adicionar o item de menu de dispositivo móvel a um menu
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**
 1. Selecione **Editar**.
 1. Selecione um menu existente após a seleção do novo item de menu , em **Menus disponíveis e itens de menu**. Adicione o item de menu selecionando o botão de seta para a direita.
 
@@ -101,7 +101,7 @@ Você é um varejista e tem várias placas de licença, cada uma contendo uma mi
 
 Esta seção explica como criar um novo item de menu de dispositivo móvel para criar ordens de transferência. Defina o **Modo** como *Indireto* e o **Código de atividade** como *Criar ordem de transferência das placas de licença*.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Selecione **Novo**.
 1. No campo **Nome do item de menu**, insira o nome *Criar PARA*.
 1. No campo **Título**, insira a descrição *Criar PARA*.
@@ -109,7 +109,7 @@ Esta seção explica como criar um novo item de menu de dispositivo móvel para 
 1. No **Código de atividade**, selecione *Criar ordem de transferência de placas de licença*
 1. Na **Política de criação de linha da ordem**, selecione *Placa de licença guiada com reserva de linha*.
 1. Na **Política de remessa de saída**, selecione *Confirmação de liberação e remessa*.
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. Selecione **Editar**.
 1. Selecione o menu **Estoque** existente e então selecione o novo item de menu em **Menus e itens de menu disponíveis**. Adicione o item de menu no menu **Estoque** selecionando o botão de seta para a direita.
 
@@ -117,7 +117,7 @@ Esta seção explica como criar um novo item de menu de dispositivo móvel para 
 
 Esta seção explica como habilitar um modelo de trabalho para processar automaticamente o trabalho criado pelo modelo quando um ciclo é liberado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No campo **Tipo de ordem de serviço**, selecione *Problema de transferência*.
 1. Selecione **Novo** para criar um novo modelo de trabalho.
 1. No campo **Modelo de trabalho**, digite *51 Processar PL automaticamente*.
@@ -149,7 +149,7 @@ Esta seção explica como habilitar um modelo de trabalho para processar automat
 
 Esta seção explica como configurar um processo de escolha de diretiva de localização para usar a estratégia **Placa de licença guiada**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. Selecione **Editar**.
 1. No cabeçalho da lista de navegação, selecione o **Tipo de ordem de trabalho** *Problema de transferência*.
 1. Na lista de navegação, selecione a diretiva de localização existente **51 A separar**.
@@ -169,7 +169,7 @@ Esta seção explica como configurar um processo de escolha de diretiva de local
 
 Esta seção explica como configurar um trabalho em lotes agendado para processar eventos de aplicativo de depósito.
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 2. Na caixa de diálogo, habilite **Processamento em lotes** na seção **Executar em segundo plano**.
 3. Selecione **Recorrência** e configure o trabalho em lotes para processar com base no intervalo necessário para a sua empresa.
 4. Selecione **OK** para retornar ao diálogo principal.
@@ -179,7 +179,7 @@ Esta seção explica como configurar um trabalho em lotes agendado para processa
 
 Esta seção explica como configurar um trabalho em lotes agendado para liberar as ordens de transferência que foram marcadas como "prontas para liberação".
 
-1. Vá para **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de transferência**.
+1. Acesse **Gerenciamento de depósito \> Liberar para depósito \> Liberação automática de ordens de transferência**.
 1. Na caixa de diálogo, expanda a seção **Registros a serem incluídos**.
 1. Selecione **Filtrar** na seção **Registros a serem incluídos**.
 1. Na página da consulta **WHSTransferAutoRTWQuery**, na guia **Intervalo**, selecione **Adicionar** para adicionar uma nova linha à consulta.
@@ -198,7 +198,7 @@ Esta seção explica como configurar um trabalho em lotes agendado para liberar 
 
 Esta seção explica como configurar um trabalho em lotes agendado para executar a confirmação de remessa de saída para cargas prontas para remessa relacionadas a linhas de ordem de transferência que estão "prontas para serem remetidas".
 
-1. Vá para **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
+1. Acesse **Gerenciamento de depósito \> Tarefas periódicas \> Processar remessas de saída**.
 1. Expanda a seção **Registros a serem incluídos**.
 1. Selecione **Filtro**.
 1. Na consulta **WHSLoadShipConfirm**, selecione a guia **Junções**.

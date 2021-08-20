@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: henrikan
 ms.search.validFrom: 2020-10-16
 ms.dyn365.ops.version: Release 10.0.14
-ms.openlocfilehash: f3da757cbf47e0e1af781b720d17a673e19aeb3b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: ac15eba28d777017e8a4f34ff16ec4ea8a1d645222f218aa5024d98ac547b3e5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807671"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753195"
 ---
 # <a name="transportation-management-number-sequence"></a>Sequência numérica de gerenciamento de transporte
 
@@ -29,7 +29,7 @@ Use a página **Sequências numéricas** no módulo de gerenciamento de transpor
 
 Para criar uma sequência numérica para um número progressivo, faça o seguinte:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Sequências numéricas**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Sequências numéricas**.
 1. Selecione **Novo** para criar uma sequência numérica.
 1. Digite uma ID exclusiva e um nome descritivo para a sequência numérica.
 1. No campo **Tipo de sequência numérica**, *Número progressivo* é a única opção.
@@ -41,7 +41,7 @@ Para criar uma sequência numérica para um número progressivo, faça o seguint
 
 Para vincular uma sequência numérica a uma transportadora, faça o seguinte:
 
-1. Vá para **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
+1. Acesse **Gerenciamento de transporte \> Configurar \> Transportadoras \> Transportadoras**.
 1. Selecione uma transportadora.
 1. Selecione **Editar**.
 1. Na FastTab **Visão geral**, selecione uma opção no campo **Sequência numérica progressiva**.

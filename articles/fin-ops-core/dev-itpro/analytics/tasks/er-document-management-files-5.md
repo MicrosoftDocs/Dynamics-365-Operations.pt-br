@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f954b76a09bf7c5edd4c608d400318fbd9386778
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 48175de4e58f9def15bf2bf8b10a1348036c88a1af284eb2a3e5f9fbefd649c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5749084"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6748391"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-5---modify-and-run-format"></a>ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 5 - Modificar e executar o formato)
 
@@ -32,7 +32,7 @@ Este procedimento é para um recurso que foi adicionado na versão 1611 do Dynam
 
 
 ## <a name="modify-the-format-to-populate-attachments-into-generating-messages-in-binary-format"></a>Modificar o formato para popular anexos para a geração de mensagens no formato binário
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
+1. Acesse Administração da organização > Relatório eletrônico > Configurações.
 2. Na árvore, expanda 'Modelo de fatura de cliente'.
 3. Na árvore, expanda 'Modelo de fatura de cliente\Modelo de fatura de cliente (personalizada)'.
 4. Na árvore, selecione 'Modelo de fatura de cliente\Modelo de fatura de cliente (personalizada)\Mensagem de exemplo da fatura eletrônica'.

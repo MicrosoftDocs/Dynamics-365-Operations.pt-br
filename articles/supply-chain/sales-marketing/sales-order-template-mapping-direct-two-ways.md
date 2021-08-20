@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 63363678cb34af97781830d36d94fac1a7415394
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9e95ba361bddf4e43b205fe580bb6f4a91dd88248a0c059ad65e66ef07de83c0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360865"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753219"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-supply-chain-management"></a>Sincronização de ordens de venda diretamente entre o Sales e o Supply Chain Management
 
@@ -134,17 +134,17 @@ Antes de sincronizar ordens de venda, é importante atualizar as configurações
 
 - Verifique se as permissões estão definidas para a equipe à qual foi atribuído o usuário da conexão do Sales definida. Se estiver usando os dados de demonstração, geralmente o usuário tem acesso admin, mas a equipe não tem acesso admin. Se a equipe não tiver acesso de administrador, quando você executar o projeto na Integração de dados, você receberá uma mensagem de erro indicando que a Equipe principal está ausente.
 
-    Vá para **Configurações** &gt; **Segurança** &gt; **Equipes**, selecione a equipe relevante, selecione **Gerenciar Funções** e selecione a função que tem as permissões desejadas, como **Administrador do Sistema**.
+    Acesse **Configurações** &gt; **Segurança** &gt; **Equipes**, selecione a equipe relevante, selecione **Gerenciar Funções** e selecione a função que tem as permissões desejadas, como **Administrador do Sistema**.
 
 - Para assegurar o cálculo correto de descontos no Sales e no Supply Chain Management, o **Método de cálculo de desconto** deve ser definido como **Item de linha**.
-- Vá para **Configurações** &gt; **Administração** &gt; **Configurações do sistema** &gt; **Vendas** e certifique-se de que as seguintes configurações sejam usadas:
+- Acesse **Configurações** &gt; **Administração** &gt; **Configurações do sistema** &gt; **Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
     - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
     - A coluna **Método de cálculo de desconto** está definida como **Item de linha**.
 
 ### <a name="setup-in-supply-chain-management"></a>Configuração no Supply Chain Management
 
-- Vá para **Vendas e marketing** &gt; **Tarefas periódicas** &gt; **Calcular totais de vendas**, e configure o trabalho para ser executado como um trabalho em lotes. Defina a opção **Calcular totais de ordens de venda** como **Sim**. Esta etapa é importante, pois somente as ordens de venda em que os totais de vendas são calculados serão sincronizadas para o Sales. A frequência do trabalho em lotes deve ser alinhada à frequência de sincronização da ordem de venda.
+- Acesse **Vendas e marketing** &gt; **Tarefas periódicas** &gt; **Calcular totais de vendas**, e configure o trabalho para ser executado como um trabalho em lotes. Defina a opção **Calcular totais de ordens de venda** como **Sim**. Esta etapa é importante, pois somente as ordens de venda em que os totais de vendas são calculados serão sincronizadas para o Sales. A frequência do trabalho em lotes deve ser alinhada à frequência de sincronização da ordem de venda.
 
 Se você também usa a integração da ordem de trabalho, você precisa configurar a origem de venda. A origem de venda é usada para diferenciar as ordens de venda no Supply Chain Management criadas com base em ordens de serviço no Field Service. Quando uma ordem de venda tiver uma origem de venda do tipo **Integração de ordem de trabalho**, o campo **Status de ordens de trabalho externas** será exibido no cabeçalho da ordem de venda. Além disso, a origem de venda garante que as ordens de venda criadas com base em ordens de serviço no Field Service sejam filtradas durante a sincronização da ordem de venda do Supply Chain Management para o Field Service.
 

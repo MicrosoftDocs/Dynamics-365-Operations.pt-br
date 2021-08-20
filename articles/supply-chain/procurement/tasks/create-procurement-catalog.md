@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 59117df519b7aa525713d3acd70195cc42614b9a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a9bec131798a67695bc3ea27cbbdea404d4494382e25e97b2931508ec7d52fca
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812389"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746906"
 ---
 # <a name="create-a-procurement-catalog"></a>Criar um catálogo de compras
 
@@ -28,11 +28,11 @@ Este tópico explica como criar um catálogo de compras. Essa tarefa é tipicame
 
 
 ## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Assegure-se de que uma hierarquia da categoria da obtenção exista
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Categorias de compras**. Uma hierarquia de categorias de compras está disponível na empresa de dados de demonstração de USMF e os produtos foram adicionados às **máquinas de escritório/categoria dos computadores**. Se você estiver executando este procedimento como um guia de tarefa você precisará desbloquear o guia se quiser pesquisar entre a categoria. Se uma hierarquia não estava disponível, você a criaria clicando em **Novo**. Isso só pode ser feito uma vez.  
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Categorias de compras**. Uma hierarquia de categorias de compras está disponível na empresa de dados de demonstração de USMF e os produtos foram adicionados às **máquinas de escritório/categoria dos computadores**. Se você estiver executando este procedimento como um guia de tarefa você precisará desbloquear o guia se quiser pesquisar entre a categoria. Se uma hierarquia não estava disponível, você a criaria clicando em **Novo**. Isso só pode ser feito uma vez.  
 2. Feche a página.
 
 ## <a name="create-a-catalog"></a>Criar um catálogo
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Catálogos > Catálogos de compras**.
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Catálogos > Catálogos de compras**.
 2. Selecione **Novo catálogo de compras** para abrir a caixa de diálogo suspensa.
 3. No campo **Nome**, digite um valor.
 4. Selecione **OK**.
@@ -48,13 +48,13 @@ Este tópico explica como criar um catálogo de compras. Essa tarefa é tipicame
 10. Feche a página.
 
 ## <a name="make-the-catalog-visible"></a>Tornar o catálogo visível
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Configuração > Políticas > Políticas de compras**.
 2. Selecione **USMF da Política de Aquisição**. Você precisa selecionar a política de compras para a entidade legal em que é permitido ao trabalhador conectado a seu perfil de usuário a pedir produtos. Nos dados de demonstração USMF, o usuário administrador é conectado ao trabalhador chamado **Julia Funderburk**; ela pede produtos em USMF por padrão.  
 3. Selecione o catálogo que você acabou de criar.
 4. Selecione **OK**.
 
 ## <a name="use-the-catalog"></a>Usar o catálogo
-1. Vá para **Painel de navegação > Módulos > Compras e fornecimento > Requisições de compras > Todas as requisições de compras**.
+1. Acesse **Painel de navegação > Módulos > Compras e fornecimento > Requisições de compras > Todas as requisições de compras**.
 2. Selecione **Novo**.
 3. No campo **Nome**, digite um valor.
 4. Selecione **OK**.

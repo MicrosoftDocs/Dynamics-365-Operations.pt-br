@@ -13,12 +13,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 06a56a694f7a80d65cb46d08744e78d8361cee3b
-ms.sourcegitcommit: 8362f3bd32ce8b9a5af93c8e57daef732a93b19e
+ms.openlocfilehash: 933efff1be545816504ab31f7a3135bf79996d7b8a50dac9fcc5b994e57a8965
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5956197"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6747952"
 ---
 # <a name="create-and-process-nonconformances"></a>Criar e processar não conformidades
 
@@ -32,7 +32,7 @@ Antes que um usuário possa processar a aprovação de uma não conformidade, um
 
 Para criar uma não conformidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar não conformidade**, no campo **Tipo de problema**, selecione o tipo de problema encontrado durante o processo de inspeção.
 1. Selecione **OK**.
@@ -41,7 +41,7 @@ Para criar uma não conformidade, siga estas etapas.
 
 Para aprovar ou rejeitar uma não conformidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -66,7 +66,7 @@ As demais configurações são opcionais. O custo de cada item, encargos de qual
 
 Para criar uma operação para uma não conformidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -86,7 +86,7 @@ Para criar uma operação para uma não conformidade, siga estas etapas.
 
 Para adicionar itens a uma operação, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -110,7 +110,7 @@ Para adicionar itens a uma operação, siga estas etapas.
 
 Para adicionar encargos de qualidade a uma operação, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -135,7 +135,7 @@ Para adicionar encargos de qualidade a uma operação, siga estas etapas.
 
 Para adicionar uma folha de ponto em uma operação, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -164,7 +164,7 @@ Para adicionar uma folha de ponto em uma operação, siga estas etapas.
 
 Para adicionar uma correção a uma não conformidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -186,7 +186,7 @@ Para adicionar uma correção a uma não conformidade, siga estas etapas.
 
 Para marcar uma correção de não conformidade como concluída, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 
     > [!NOTE]
@@ -202,7 +202,7 @@ Para marcar uma correção de não conformidade como concluída, siga estas etap
 
 Para reabrir uma correção concluída, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Não conformidades**.
 1. Na lista, selecione a não conformidade que deseja atualizar.
 1. No Painel de Ações, selecione **Correções**.
 1. Na página **Correções**, na grade, selecione a correção que deseja reabrir.
@@ -216,7 +216,7 @@ Agora você pode fazer edições adicionais ou atualizações na correção. Qua
 
 Para fechar uma não conformidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione uma ordem de qualidade na grade.
 1. No Painel de Ações, selecione **Consultas \> Não conformidades**.
 1. Na página **Não conformidades**, selecione a não conformidade de destino na grade.

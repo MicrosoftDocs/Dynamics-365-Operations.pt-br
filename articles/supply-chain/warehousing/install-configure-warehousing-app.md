@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 913b20d73b87f03b4b1f80efdcf6e60bd07ce270
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 8386adc3f0e9c9a782e6cd5d4ba770f9650583b8ff3f32c3ac23478475d085ae
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359476"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753786"
 ---
 # <a name="install-and-connect-the-warehouse-app"></a>Instalar e conectar o aplicativo de depósito
 
@@ -60,7 +60,7 @@ Para implantações menores, você pode instalar o aplicativo da loja relevante 
 
 Para permitir que o aplicativo de depósito interaja com um determinado servidor do Supply Chain Management, registre um aplicativo de serviço Web para o locatário do Supply Chain Management no Azure Active Directory (Azure AD). O seguinte procedimento mostra uma forma de concluir esta tarefa. Para obter informações detalhadas e alternativas, consulte os links após o procedimento.
 
-1. Em um navegador da Web, vá para [https://portal.azure.com](https://portal.azure.com/).
+1. Em um navegador da Web, Acesse [https://portal.azure.com](https://portal.azure.com/).
 1. Insira o nome e a senha do usuário que tem acesso à assinatura do Azure.
 1. No portal do Azure, no painel de navegação à esquerda, selecione **Azure Active Directory**.
 
@@ -101,7 +101,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
 
 1. Crie um usuário que corresponda às credenciais de usuário do aplicativo de depósito:
 
-    1. No Supply Chain Management, vá para **Administração do sistema \> Usuários \> Usuários**.
+    1. No Supply Chain Management, Acesse **Administração do sistema \> Usuários \> Usuários**.
     1. Crie um usuário.
     1. Atribua o usuário do dispositivo móvel do depósito.
 
@@ -109,7 +109,7 @@ Para habilitar o Supply Chain Management para usar o aplicativo do Azure AD, sig
 
 1. Associe o aplicativo Azure AD ao usuário do aplicativo de depósito:
 
-    1. Vá para **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
+    1. Acesse **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
     1. Criar uma linha.
     1. Insira a ID de cliente para a qual você criou uma nota na seção anterior, atribua um nome a ela e selecione o usuário que acabou de criar. Recomendamos marcar todos os dispositivos. Em seguida, se eles forem perdidos, você conseguirá remover facilmente o acesso ao Supply Chain Management nessa página.
 
@@ -198,7 +198,7 @@ Geralmente, os caminhos são criados automaticamente após a primeira execução
 Siga estas etapas para importar configurações de conexão de um arquivo ou código QR.
 
 1. Abra o aplicativo de depósito em seu dispositivo móvel.
-1. Vá para **Configurações da conexão**.
+1. Acesse **Configurações da conexão**.
 1. Defina a opção **Usar modo de demonstração** como _Não_.
 
     ![Opção Usar modo de demonstração.](media/app-connect-app-demo-mode.png "Opção Usar modo de demonstração")
@@ -227,7 +227,7 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
 É possível configurar o aplicativo manualmente no dispositivo para ele se conectar ao servidor do Supply Chain Management por meio do aplicativo do Azure AD.
 
 1. Abra o aplicativo de depósito em seu dispositivo móvel.
-1. Vá para **Configurações da conexão**.
+1. Acesse **Configurações da conexão**.
 1. Defina a opção **Usar modo de demonstração** como _Não_.
 
     ![Modo de demonstração desativado.](media/app-connect-app-select-file.png "Modo de demonstração desativado")
@@ -263,7 +263,7 @@ Siga estas etapas para importar configurações de conexão de um arquivo ou có
 
 Em caso de perda ou comprometimento do dispositivo, será necessário remover o acesso dele ao Supply Chain Management. As etapas a seguir descrevem o processo recomendado para remover o acesso.
 
-1. Vá para **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
+1. Acesse **Administração do sistema \> Configuração \> Aplicativos do Azure Active Directory**.
 1. Exclua a linha que corresponde ao dispositivo para o qual você deseja remover o acesso. Anote a ID do cliente usada para o dispositivo removido, pois precisará dela mais tarde.
 
     Se você tiver registrado somente uma ID de cliente e vários dispositivos usarem a mesma ID de cliente, será necessário enviar novas configurações de conexão para esses dispositivos. Caso contrário, eles perderão o acesso.

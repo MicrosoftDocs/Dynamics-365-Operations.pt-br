@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 11acedb719286cc6c9c79e22e8d0ceca2368baee
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ecbc35cabced37a51ecedcd3f37bff2f23c093e184607b0c4d57ae9e70ae2c75
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802590"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751510"
 ---
 # <a name="configure-and-run-job-to-calculate-statements"></a>Configurar e executar trabalho para calcular declarações
 
@@ -27,7 +27,7 @@ ms.locfileid: "5802590"
 
 Este procedimento orienta como configurar e executar trabalhos em lotes recorrentes para criar e calcular demonstrativos para uma loja ou grupo de lojas selecionado. Este procedimento usa a empresa USRT nos dados de demonstração.
 
-1. Vá para Todos os espaços de trabalho > Finanças da loja.
+1. Acesse Todos os espaços de trabalho > Finanças da loja.
 2. Clique em Calcular demonstrativos.
     * Selecione uma loja específica ou um nó se você deseja criar trabalho em lotes para um grupo de lojas.  
     * Clique na seta para adicionar sua seleção.  

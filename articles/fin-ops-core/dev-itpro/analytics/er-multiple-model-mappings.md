@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 595de6292b81ca78bf08a66f61850c3b5a537396
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 10363371713bd5a882b41900249e7061afc577ba6473fdb3356a822c8e48f8f3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354382"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743278"
 ---
 # <a name="manage-several-derived-mappings-for-a-single-model-root"></a>Gerenciar vários mapeamentos derivados para uma única raiz de modelo
 
@@ -51,7 +51,7 @@ Para adicionar as configurações de ER padrão à instância atual do Finance, 
 
 ## <a name="review-the-imported-er-configurations"></a>Examinar as configurações de ER importadas
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de fatura**.
 

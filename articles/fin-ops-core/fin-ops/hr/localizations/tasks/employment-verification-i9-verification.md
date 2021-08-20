@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 92480a8800571d477fcf00063e3303172274e595
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 0d2af12a41c587fd9b69874f087558d36f9b9a1d3491996a3ab931ae2c2591dc
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752095"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752266"
 ---
 # <a name="employment-verification-i9-verification"></a>Verificação de verificação i9 de emprego
 
@@ -26,7 +26,7 @@ ms.locfileid: "5752095"
 
 O Ato de Reforma e Controle de Imigração exige que os empregadores norte-americanos verifiquem o status de elegibilidade para emprego dos funcionários recém-contratados. Este procedimento irá apresentar as etapas que compõem o registro dos documentos necessários para verificação do I-9. Utilize a empresa USMF para esse procedimento.
 
-1. Vá para Recursos humanos > Trabalhadores > Funcionários.
+1. Acesse Recursos humanos > Trabalhadores > Funcionários.
 2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Nome com um valor de 'Vince'.
 3. Selecione o funcionário. Exemplo: Vince Prado
 4. Expanda a aba rápida Informações pessoais.

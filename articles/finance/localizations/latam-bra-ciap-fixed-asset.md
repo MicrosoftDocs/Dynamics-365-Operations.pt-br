@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 14809b17b87bfa3bca0c379f31425e4ecfb7aca6
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a07c256e80f0e2a07e8685a83e8280a50c39a1c97fa41fa9154587467f9e96a9
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819542"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752896"
 ---
 # <a name="acquire-and-dispose-a-ciap-fixed-asset"></a>Adquirir e alienar um ativo fixo do CIAP
 

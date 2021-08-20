@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 6b228babfd32a4191eeed2a6d924a8b99f1a5311
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: b4b54e10cb4bd897b4c0706a13eeaf32f8892a05f7a09f3b27dbdd3dcdad1606
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5936697"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750705"
 ---
 # <a name="deploy-a-new-e-commerce-tenant"></a>Implantar um novo locatário de comércio eletrônico
 
@@ -70,7 +70,7 @@ Após coletar as informações obrigatórias, siga estas etapas para inicializar
 1. Na seção **Ambientes**, selecione o ambiente.
 1. Em **Recursos de ambiente**, selecione o link **Gerente de retail**.
 1. Na guia **Comércio eletrônico**, selecione **Configuração**. É exibida uma caixa de diálogo, onde você pode inserir as informações que são necessárias para provisionamento.
-1. Preencha as informações necessárias, e vá para a próxima página.
+1. Preencha as informações necessárias, e Acesse a próxima página.
 1. Na página a seguir, preencha as informações necessárias e depois envie o formulário. Você volta para a guia **Comércio online**, onde você pode ver que a inicialização foi iniciada.
 1. Para exibir o status de inicialização, **Atualize** ou retorne para a guia **Comércio online** posteriormente.
     
@@ -78,7 +78,7 @@ Quando o comércio eletrônico é inicializado do LCS, o sistema provisiona vár
 
 ## <a name="access-commerce-site-builder"></a>Acessar o assistente para criação de sites do Commerce
 
-Para acessar o assistente para criação de sites do Commerce, vá para a guia **Comércio eletrônico** na página **Gerenciamento de varejo** no LCS e selecione o link **Ferramenta de gerenciamento de site de comércio eletrônico**. A página de aterrissagem do assistente para criação de sites mostra uma exibição no nível de locatário. Nesta página, você pode:
+Para acessar o assistente para criação de sites do Commerce, Acesse a guia **Comércio eletrônico** na página **Gerenciamento de varejo** no LCS e selecione o link **Ferramenta de gerenciamento de site de comércio eletrônico**. A página de aterrissagem do assistente para criação de sites mostra uma exibição no nível de locatário. Nesta página, você pode:
 
 - Modifique configurações no nível de locatário.
 - Navegar para qualquer site que você criou e tem permissão para exibir. 

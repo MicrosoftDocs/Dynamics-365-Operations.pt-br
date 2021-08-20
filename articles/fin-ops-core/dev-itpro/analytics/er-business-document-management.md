@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-08-01
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: bc6363a96d87bf280a34dda34533bc71e21eb6b2
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: b59f535e01de2ae30e6bbeb6d5ab97a415df6043233694d4feb1c48140a110f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344921"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753067"
 ---
 # <a name="business-document-management-overview"></a>Visão geral de gerenciamento de documentos comerciais
 
@@ -148,7 +148,7 @@ Os parâmetros básicos de gerenciamento de documentos comerciais podem ser conf
 Use o procedimento a seguir para configurar os parâmetros básicos de todas as entidades legais.
 
 1. Entre como um usuário com acesso à página **Parâmetros do documento comercial**.
-2. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Gerenciamento de documentos comerciais** \> **Parâmetros do documento comercial**.
+2. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Gerenciamento de documentos comerciais** \> **Parâmetros do documento comercial**.
 3. Na página **Parâmetros do documento comercial**, na guia **Anexos**, no campo **Tipo de documento do SharePoint**, defina o tipo de documento que deve ser usado para armazenar temporariamente modelos nos formatos do Office enquanto eles são editados usando os aplicativos da área de trabalho do Office. 
 
 > [!NOTE]
@@ -177,7 +177,7 @@ As permissões de acesso ao gerenciamento de documentos comerciais podem ser def
 Use o procedimento a seguir para configurar as permissões de gerenciamento de documentos comerciais de acesso para todas as entidades legais.
 
 1. Entre no como um usuário com acesso à página **Configurador de permissões de acesso**.
-2. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Gerenciamento de documentos comerciais** \> **Gerenciar permissões de acesso**.
+2. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Gerenciamento de documentos comerciais** \> **Gerenciar permissões de acesso**.
 
     Preste atenção na notificação informando que o uso de permissões de acesso para gerenciamento de documentos comerciais não está habilitado no momento.
 

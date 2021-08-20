@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2019-06-07
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0fd573ab1676af292174efce562b010bcbeb6514
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d5e86cc8abd4de1e23b1a7f7217bbb1fd5ea966b988a879e663b6f393e0d1204
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6354728"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756958"
 ---
 # <a name="negative-days-and-dynamic-negative-days"></a>Dias negativos e dias negativos dinâmicos
 
@@ -65,7 +65,7 @@ Para ajudar a melhorar o desempenho de MRP, você pode definir os dias negativos
 
 ### <a name="case-c-automatically-correlate-the-items-lead-time-to-the-negative-days-time-fence"></a>Caso C: Corrige automaticamente o prazo de entrega do item para o limite de tempo de dias negativos
 
-Para correlacionar automaticamente o prazo de entrega do item ao limite de tempo de dias negativos, use dias negativos dinâmicos. Para usar dias negativos dinâmicos, vá para **Planejamento mestre \> Configuração \> Parâmetros de planejamento mestre** e, em seguida, na guia **Geral**, na seção **Cobertura**, defina a opção **Usar dias negativos dinâmicos** como **Sim**. O MRP procura recibos dentro do limite de tempo de dias negativos dinâmicos. Esse limite de tempo é calculado usando a seguinte fórmula:
+Para correlacionar automaticamente o prazo de entrega do item ao limite de tempo de dias negativos, use dias negativos dinâmicos. Para usar dias negativos dinâmicos, Acesse **Planejamento mestre \> Configuração \> Parâmetros de planejamento mestre** e, em seguida, na guia **Geral**, na seção **Cobertura**, defina a opção **Usar dias negativos dinâmicos** como **Sim**. O MRP procura recibos dentro do limite de tempo de dias negativos dinâmicos. Esse limite de tempo é calculado usando a seguinte fórmula:
 
 Limite de tempo de dias negativos dinâmicos = Prazo de entrega da compra + Limite de tempo de dias negativos + (Data atual – Data da necessidade)
 

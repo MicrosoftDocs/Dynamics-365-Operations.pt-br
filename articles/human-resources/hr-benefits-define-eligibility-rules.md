@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Version 7.0.0, Human Resources
-ms.openlocfilehash: 046b045fbdda125c5a2259783c0347f687453528
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 57bcce908dec0b202880d865bbb6014ae13e385642dc2785b16c33abc4ab53bf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6053144"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752048"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Definir regras e políticas de qualificação para o benefício
 
@@ -28,7 +28,7 @@ O tópico mostra como é possível criar regras e políticas de qualificação p
 
 ## <a name="create-benefit-eligibility-policy-rule-type"></a>Crie tipos de regras de política de qualificação para benefícios
 
-1. Vá para **Recursos humanos > Benefícios > Qualificação > Tipos de regras de política de qualificação para o benefício**.
+1. Acesse **Recursos humanos > Benefícios > Qualificação > Tipos de regras de política de qualificação para o benefício**.
 2. Selecione **Novo**.
 3. No campo **Nome da regra**, insira um valor.
 4. No campo **Descrição**, insira um valor.
@@ -39,7 +39,7 @@ O tópico mostra como é possível criar regras e políticas de qualificação p
 
 ## <a name="benefit-eligibility-policy"></a>Política de qualificação para o benefício
 
-1. Vá para **Recursos humanos > Benefícios > Qualificação > Políticas de qualificação para o benefício**.
+1. Acesse **Recursos humanos > Benefícios > Qualificação > Políticas de qualificação para o benefício**.
 2. Selecione uma diretiva existente de benefício.
 3. Na lista, selecione o link na linha selecionada.
 4. Alterne a expansão das seções de **Organizações de política**. Você poderá adicionar ou remover as organizações que desejar incluir na política.

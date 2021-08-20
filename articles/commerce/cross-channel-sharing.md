@@ -14,12 +14,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: a5f35dc48dbdf89e963108e9e8ef6faec326f970
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 05614b3ec14bfca9551242e5cf31aee0cb21c39a85150114af446a187fac998a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6349713"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742407"
 ---
 # <a name="enable-and-use-cross-channel-sharing"></a>Habilitar e usar o compartilhamento entre canais
 
@@ -66,7 +66,7 @@ Você pode criar e usar conteúdo entre canais de várias maneiras. Por exemplo,
 
 Para criar um fragmento entre canais no construtor de sites do Commerce, siga estas etapas.
 
-1. Vá para **Fragmentos** e selecione **Novo** para criar um novo fragmento.
+1. Acesse **Fragmentos** e selecione **Novo** para criar um novo fragmento.
 1. Na caixa de diálogo **Novo fragmento de página**, selecione o módulo **Faixa promocional** e, em **Nome do fragmento**, insira um nome (por exemplo, **Faixa entre canais**). Em seguida, selecione **OK**.
 1. No painel de propriedades do módulo **Faixa promocional**, selecione **Adicionar Mensagem** e, em seguida, selecione **Mensagem** .
 1. Na caixa de diálogo **Mensagem**, em **Texto**, insira **Entre canais** e selecione **OK**. 
@@ -80,7 +80,7 @@ As páginas entre canais podem ser usadas em qualquer canal do site. Portanto, v
 
 Para criar uma página entre canais no construtor de sites do Commerce que usa conteúdo entre canais, siga estas etapas.
 
-1. Vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo, como **Marketing**.
 1. Em **Nome da página**, insira um nome para a página (por exemplo, **Página entre canais**).
 1. Em **URL da Página**, insira uma URL de página (por exemplo, **examplepage**) e, em seguida, selecione **OK**.
@@ -95,7 +95,7 @@ Usando o conteúdo entre canais em páginas específicas de canal, você pode cr
 
 Para criar uma página específica do canal no construtor de sites do Commerce que usa conteúdo entre canais, siga estas etapas.
 
-1. Em um canal específico, como a **loja online estendida da Fabrikam**, vá para **Páginas** e selecione **Novo** para criar uma nova página.
+1. Em um canal específico, como a **loja online estendida da Fabrikam**, Acesse **Páginas** e selecione **Novo** para criar uma nova página.
 1. Na caixa de diálogo **Escolher um modelo**, selecione o modelo, como **Marketing**.
 1. Em **Nome da página**, insira um nome para a página (por exemplo, **Página específica do canal**).
 1. Em **URL da Página**, insira uma URL de página (por exemplo, **channelspecificpage**) e, em seguida, selecione **OK**.

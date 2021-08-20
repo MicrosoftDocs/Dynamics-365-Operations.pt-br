@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: gmohanv
 ms.search.validFrom: 2021-01-15
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: c75525749d9015387cc112beda104238a93698e9
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6faba58304e1fe9e9ba2ce1a76fbf1cc783466bf01b0d4e3774e8ed090485bb1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346683"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757360"
 ---
 # <a name="map-stores-and-teams-if-there-are-pre-existing-teams-in-microsoft-teams"></a>Mapear armazenamentos e equipes, se houver equipes pré-existentes no Microsoft Teams
 
@@ -32,7 +32,7 @@ Sua organização pode ter equipes criadas para alguns ou todos os armazenamento
 
 Para mapear armazenamentos e equipes correspondentes no Commerce Headquarters, siga estas etapas.
 
-1. Vá para **Administração de Sistema \> Espaço de trabalho \> Gerenciamento de dados**.
+1. Acesse **Administração de Sistema \> Espaço de trabalho \> Gerenciamento de dados**.
 1. Selecione **Exportar**. 
 1. No Painel de Ações, selecione **Novo**.
 1. Em **Nome do grupo**, digite "Exportar mapeamento do Teams".
@@ -47,7 +47,7 @@ Para mapear armazenamentos e equipes correspondentes no Commerce Headquarters, s
     - Para **SOURCEID**, insira o número do armazenamento (por exemplo, "000135" para o armazenamento de San Francisco). Você pode encontrar números de armazenamento em **Varejo e Comércio \> Canais \> Armazenamentos**.
     - Para **TEAMID**, insira a ID da equipe correspondente do Microsoft Teams (por exemplo, "5f8bc92b-6aa8-451e-85d1-3949c01ddc6c"). Você pode encontrar informações de ID de equipe em [admin.teams.microsoft.com](https://admin.teams.microsoft.com).
 1. Salve o arquivo CSV no computador local.
-1. Vá para **Administração do Sistema \> Espaço de Trabalho \> Gerenciamento de dados** e selecione **Importar**.
+1. Acesse **Administração do Sistema \> Espaço de Trabalho \> Gerenciamento de dados** e selecione **Importar**.
 1. Na guia rápida **Entidades selecionadas**, selecione **Adicionar arquivo**. A caixa de diálogo **Adicionar arquivo** será exibida.
 1. Na lista suspensa **Nome da entidade**, selecione **Mapeamento do Teams entre a origem e a equipe**.
 1. Na lista suspensa **Formato de dados de origem**, selecione **CSV**.

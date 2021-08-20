@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 52ae36f499871087cc086bcaf8c345af41d06943
-ms.sourcegitcommit: 86d38cf57abe768e5bccde48b28280bc2224080c
+ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/19/2021
-ms.locfileid: "6639381"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744217"
 ---
 # <a name="view-team-and-company-calendars"></a>Exibir calendários da equipe e da empresa
 
@@ -47,7 +47,7 @@ Os gerentes também podem acessar o calendário da equipe de **Solicitações de
 
 Os usuários na função Gerente de ausências podem exibir solicitações de folga no calendário. Siga estas etapas para acessar o calendário de licenças.
 
-1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Gerente de ausências** e **Calendário do gerente de ausências**.
+1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
 
 2. No campo **Data**, insira as datas desejadas.
 

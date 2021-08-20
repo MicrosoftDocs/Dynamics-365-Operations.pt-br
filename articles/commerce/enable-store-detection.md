@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: brshoo
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 3e26c3130914ebef5a63b79c477d7d5846fd5b71
-ms.sourcegitcommit: cabd991fda2bfcabb55db84c225b24a7bb061631
+ms.openlocfilehash: 98aa781a42b1c82cc00c8a680007b7200e9c7413fb8e3a67b0c723ff62c1d8e1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6027591"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749867"
 ---
 # <a name="enable-location-based-store-detection"></a>Habilitar detecção de lojas com base na localização
 
@@ -37,7 +37,7 @@ Se você ativar o recurso de detecção de loja baseada em local, as informaçõ
 
 Para ativar a detecção de loja baseada em local no Comércio, siga estas etapas.
 
-1. Nas ferramentas de criação, vá para nosso site.
+1. Nas ferramentas de criação, Acesse nosso site.
 1. No painel de navegação à esquerda, selecione **Gerenciamento de sites**.
 1. Selecione **Configurações de site**.
 1. Defina a opção **Habilitar detecção de loja baseada em local** como **Ligado**.

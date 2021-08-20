@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-10-01
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 4e8d65cc1f946f921523607eff850b29f9ff9bf1
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 04e17947073fca63ab68f0b5d0d72eb8366a1600117f61851179e8b0ed2c8184
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5910152"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753930"
 ---
 # <a name="automatic-allocation-of-charges"></a>Alocação automática de encargos
 
@@ -78,7 +78,7 @@ Para criar grupos de encargos para ordens de compra, siga estas etapas:
 
 Para criar grupos de encargos para ordens de venda, siga estas etapas:
 
-1. Vá para **Contas a receber \> Configuração de encargos \> Grupos de encargos de cliente**.
+1. Acesse **Contas a receber \> Configuração de encargos \> Grupos de encargos de cliente**.
 1. No Painel de Ações, selecione **Novo** para adicionar uma linha à grade e, em seguida, defina os seguintes campos:
 
     - **Grupo de encargos** — insira o nome do grupo de encargos.

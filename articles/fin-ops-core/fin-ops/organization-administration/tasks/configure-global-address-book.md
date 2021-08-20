@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: brking
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6df76e19a6be5865cf875c742163f05273a16f0c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 34b0ab8b2d3ffa840e20d73716265c445e77189044840fd6850c5bffb3e3365b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5747456"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759056"
 ---
 # <a name="configure-the-global-address-book"></a>Configurar o catálogo de endereços global
 
@@ -28,7 +28,7 @@ Use este procedimento para definir os valores padrão e as políticas de seguran
 
 A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está direcionada para a equipe de Planejamento e configuração.
 
-1. No Painel de navegação, vá para **Módulos > Administração da organização > Catálogo de endereços global > Parâmetros do catálogo de endereços global**.
+1. No Painel de navegação, Acesse **Módulos > Administração da organização > Catálogo de endereços global > Parâmetros do catálogo de endereços global**.
 2. No campo **Sequência do nome**, selecione como os nomes devem ser mostrados.
 3. Em **Excluir participantes sem funções**, selecione se irá excluir participantes aos quais não foram atribuídas funções.
 4. Em **Usar verificação de duplicatas**, selecione se deve ou não verificar registros duplicados.

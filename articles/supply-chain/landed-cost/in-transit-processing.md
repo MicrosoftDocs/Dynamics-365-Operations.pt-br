@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: ecf8caa7f31c560af2cbc929a37f3ca02bd0da44
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6021191"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744789"
 ---
 # <a name="goods-in-transit-processing"></a>Processamento de mercadorias em trânsito
 
@@ -104,6 +104,7 @@ Você também pode receber mercadorias criando um diário de entrada. Você pode
 1. Abra a viagem, o contêiner ou o fólio.
 1. No Painel de Ações, na guia **Gerenciar**, no grupo **Funções**, selecione **Criar diário de entrada**.
 1. Na caixa de diálogo **Criar diário de entrada**, defina os seguintes valores:
+
     - **Inicializar quantidade** – defina esta opção como *Sim* para definir a quantidade a partir da quantidade em trânsito. Se esta opção for definida como *Não*, nenhuma quantidade padrão será definida a partir das linhas de mercadorias em trânsito.
     - **Criar a partir de mercadorias em trânsito** - defina esta opção como *Sim* para obter quantidades das linhas em trânsito selecionadas para a viagem, o contêiner ou o fólio selecionado.
     - **Criar a partir das linhas da ordem** – defina esta opção como *Sim* para definir a quantidade padrão no diário de entrada das linhas da ordem de compra. A quantidade padrão no diário de entrada poderá ser definida dessa forma somente se a quantidade na linha da ordem de compra coincidir com a quantidade na ordem de mercadorias em trânsito.
@@ -140,4 +141,21 @@ O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadori
 
 ### <a name="work-templates"></a>Modelos do trabalho
 
+Esta seção descreve recursos que o módulo **Custo Landed** adiciona a modelos de trabalho.
+
+#### <a name="goods-in-transit-work-order-type"></a>Tipo de ordem de trabalho de mercadoria em trânsito
+
 O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadorias em trânsito*  à página **Modelos de trabalho**. Esse tipo de ordem de trabalho deve ser configurado da mesma forma que os [Modelos de trabalho da ordem de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).
+
+#### <a name="work-header-breaks"></a>Quebras de cabeçalho de trabalho
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Os modelos de trabalho que têm um tipo de ordem de trabalho de *Mercadoria em trânsito* podem ser configurados para dividir os cabeçalhos de trabalho. Na página **Modelos de trabalho**, siga uma destas etapas:
+
+- Na guia **Geral** do modelo, defina os máximos de cabeçalho de trabalho. Esses máximos funcionam da mesma forma que para modelos de trabalho de ordem de compra. (Para obter mais informações, consulte [modelos de trabalho de ordem de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).)
+- Use o botão **Quebras de cabeçalho de trabalho** para definir quando o sistema deve criar novos cabeçalhos de trabalho, com base nos campos que são usados para separação. Por exemplo, para criar um cabeçalho de trabalho para cada ID de contêiner, selecione **Editar consulta** no Painel de Ações e, depois, adicione o campo **ID de contêiner** à guia **Classificação** do editor de consultas. Os campos adicionados à guia **Classificação** estão disponíveis para seleção como *campos de agrupamento*. Para configurar campos de agrupamento, selecione **Quebras de cabeçalho de trabalho** no Painel de Ações. Para cada campo a ser usado como um campo de agrupamento, marque a caixa de seleção na coluna **Agrupar por este campo**.
+
+O custo Landed [cria uma transação em excesso](over-under-transactions.md) se a quantidade registrada excede a quantidade original da ordem. Quando um cabeçalho de trabalho é concluído, o sistema atualiza o status das transações de estoque para a quantidade da ordem principal. No entanto, ele atualiza primeiro a quantidade vinculada à transação em excesso depois que o principal é completamente comprado.
+
+Se você cancelar um cabeçalho de trabalho para uma transação em excesso que já foi registrada, a transação em excesso será reduzida primeiro pela quantidade cancelada. Depois que a transação em excesso é reduzida a uma quantidade de 0 (zero), o registro é removido e todas as quantidades adicionais são canceladas em relação à quantidade da ordem principal.

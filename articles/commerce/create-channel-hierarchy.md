@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: samjar
 ms.search.validFrom: 2020-01-20
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: e43c4c00545dfecb2f9a2192f81cd25300e3d6e6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: d522838bdddf6cda6d7e451b27183f733e3de53df865d49cdadf846cf99cc953
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6352461"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6749946"
 ---
 # <a name="create-a-channel-navigation-hierarchy"></a>Criar uma hierarquia de navegação de canal
 
@@ -36,7 +36,7 @@ Uma hierarquia de navegação de canal é usada para agrupar e organizar os prod
 
 Para criar uma hierarquia de navegação de canal, siga estas etapas.
 
-1. No painel de navegação, vá para **Módulos \> Varejo e comércio \> Produtos e categorias \> Categorias de navegação de canal**.
+1. No painel de navegação, Acesse **Módulos \> Varejo e comércio \> Produtos e categorias \> Categorias de navegação de canal**.
 1. No painel de ação, selecione **Novo**.
 1. Na caixa **Nome**, insira um nome.
 1. Na caixa **Descrição**, insira uma descrição.

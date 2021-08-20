@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 5580e42f0b186ab3803558b76219f9056ab843eb
-ms.sourcegitcommit: ff09736563d3cd2bc74c7664edd1767b218401cb
+ms.openlocfilehash: 7ad390d146f20fed0ededf2abbe95ce2b03dcced397e849f2713dbe7bea3b2e0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "6189770"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752892"
 ---
 # <a name="tax-attributes-for-brazil"></a>Atributos de impostos do Brasil
 

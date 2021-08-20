@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 45c6b1e6e75645bb17ce4defa0bca0e6d2131b6e
-ms.sourcegitcommit: fa99a36c3d30d0c0577fd3f63ed6bf2f71599e40
+ms.openlocfilehash: 704a6b72c9eb8dc49ba9410ccd3689ba5ccfdd1f03e538b95ad174f6c1ee9796
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/20/2021
-ms.locfileid: "5921256"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6746127"
 ---
 # <a name="maintain-route-for-a-product-model"></a>Manter roteiro de um modelo de produto
 
@@ -28,7 +28,7 @@ Executar este procedimento exige que exista um modelo de configuração do produ
 
 ## <a name="add-a-route-operation"></a>Adicione uma operação de roteiro
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Modelos de configuração do produto**.
 1. Na lista, localize e selecione o registro desejado.
     * Selecione o modelo alto-falante avançado para este exercício.  
 1. Na lista, selecione o link na linha selecionada.

@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c46c573de2207333663912f8e61ddb16bd58820b
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 1f1f056bb188b9d2d0b24db2f3dc8da1ccd09e4b50b20b8566cf88a63667e34a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5813433"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6758780"
 ---
 # <a name="non-fiscal-operations-brazil"></a>Operações não fiscais (Brasil)
 
@@ -49,11 +49,11 @@ Use este procedimento para criar transações não fiscais de documentos que ser
 21. Clique em Lançar.
 22. Feche a página.
 23. Feche a página.
-24. Vá para Livros fiscais > Comum > Período de escrituração.
+24. Acesse Livros fiscais > Comum > Período de escrituração.
 25. Clique em Operações não fiscais.
 26. Feche a página.
 27. Feche a página.
-28. Vá para Livros fiscais > Comum > Todas as operações não fiscais.
+28. Acesse Livros fiscais > Comum > Todas as operações não fiscais.
 29. Feche a página.
 30. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 31. No campo Estabelecimento fiscal, insira ou selecione um valor.

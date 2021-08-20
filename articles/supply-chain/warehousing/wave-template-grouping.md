@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: a591624f6611148abe4888e67d8d3a9bbea9cd27
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fcfb266b7c8c7e7151a249e19f4fe2322352b21786d384dcd10bef88b6c1630d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838025"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751640"
 ---
 # <a name="wave-template-grouping"></a>Agrupamento de modelos de onda
 
@@ -40,7 +40,7 @@ Para você usar o recurso *Agrupamento de modelos de onda*, ele deve estar ativa
 
 Para disponibilizar o agrupamento de modelos de onda, siga estas etapas para configurar o [modelo de onda](tasks/configure-wave-processing.md).
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. No painel esquerdo, selecione o modelo de onda a ser configurado. Se você estiver se preparando para trabalhar no cenário mais adiante neste tópico usando dados de demonstração, selecione o modelo **Padrão de remessa 62**.
 1. Selecione **Editar** para colocar a página no modo de edição.
 1. Na FastTab **Geral**, defina os seguintes valores:
@@ -88,7 +88,7 @@ Antes de começar, prepare o modelo de onda, conforme descrito na seção [Defin
 
 #### <a name="create-sales-order-1"></a>Criar ordem de venda 1
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -118,14 +118,14 @@ Antes de começar, prepare o modelo de onda, conforme descrito na seção [Defin
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-1"></a>Exibir a onda que foi criada com base na ordem de venda 1
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a ID da onda que foi criada com base na ordem de venda.
 1. Selecione o link da ID da onda para abrir a página detalhes da onda.
 1. Observe que a remessa foi adicionada à FastTab **Linhas da onda**.
 
 #### <a name="create-sales-order-2"></a>Criar ordem de venda 2
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -155,7 +155,7 @@ Antes de começar, prepare o modelo de onda, conforme descrito na seção [Defin
 
 #### <a name="view-the-wave-that-was-created-from-sales-order-2"></a>Exibir a onda que foi criada com base na ordem de venda 2
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a ID da onda que foi criada com base na segunda ordem de venda.
 1. Selecione o link da ID da onda para abrir a página detalhes da onda.
 1. Observe que a remessa foi adicionada à FastTab **Linhas da onda**.
@@ -164,7 +164,7 @@ Uma nova onda foi criada para essa remessa, pois ela usa um serviço de operador
 
 #### <a name="create-sales-order-3"></a>Criar ordem de venda 3
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -194,7 +194,7 @@ Uma nova onda foi criada para essa remessa, pois ela usa um serviço de operador
 
 #### <a name="view-the-wave-for-sales-orders-1-and-3"></a>Exibir a onda para as ordens de venda 1 e 3
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 1. Selecione a ID da onda que foi criada com base na terceira ordem de venda.
 1. Selecione o link da ID da onda para abrir a página detalhes da onda.
 1. Observe que a remessa foi adicionada à FastTab **Linhas da onda**, junto com a remessa da primeira ordem de venda.

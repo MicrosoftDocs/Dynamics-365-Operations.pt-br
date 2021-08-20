@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 50d7cf7b765c27db5aa9ea50c8593132c68c850a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 8d5188c4a0e06f116e1fdcab33546e3e0745c4f483c72f954b65b2307a683080
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5824837"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6753882"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>Pesquisar preços e descontos aplicáveis
 
@@ -27,7 +27,7 @@ Este procedimento mostra como encontrar o preço e/ou desconto para um produto q
 
 
 ## <a name="find-the-applicable-price"></a>Localizar o preço aplicável
-1. Vá para Vendas e marketing > Preços e descontos > Encontrar preços.
+1. Acesse Vendas e marketing > Preços e descontos > Encontrar preços.
 2. No campo Conta do cliente, clique no botão suspenso para abrir a pesquisa.
 3. Na lista, localize e selecione o cliente US-001.
 4. Na lista, clique no link na linha selecionada.
@@ -51,10 +51,10 @@ Verifique se o campo Conta de cliente contém o número de cliente US-001
     * Verifique se o campo Quantidade está definido como 1.  
     * Os seguintes detalhes de definição de preços mostrados para o produto T0012 vêm de um ou mais contratos comerciais: O preço unitário é 1.000 CAD e a porcentagem de desconto é 5.  
 2. Defina a quantidade como '20'.
-    * A quantidade da ordem aumentada faz com que o desconto de linha que será oferecido ao cliente mude de 5 para 7 por cento.  
+    * A quantidade da ordem aumentada faz com que o desconto de linha que será oferecido ao cliente mude de 5 para 7%.  
     * O Valor líquido é calculado com base no preço unitário, desconto e na quantidade total.  
 3. Clique em Exibir desconto de linha.
-    * Existem dois contratos de linha de desconto para o produto T0012, especificando um desconto de 5 por cento para uma quantidade de linha de ordem de 1 a 10, e 7 por cento para quantidades de ordem acima de 10. Observe que os descontos estão aplicados a um grupo de produtos, neste exemplo, Grupo código 01, do qual o produto T0012 é membro.  
+    * Existem dois contratos de linha de desconto para o produto T0012, especificando um desconto de 5% para uma quantidade de linha de ordem de 1 a 10, e 7% para quantidades de ordem acima de 10. Observe que os descontos estão aplicados a um grupo de produtos, neste exemplo, Grupo código 01, do qual o produto T0012 é membro.  
 4. Feche a página.
 
 

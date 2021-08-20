@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 54a5b16f731e850b468ea2e05e47b47774e45838
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7dac267d2d4ce0824bc47b63b8d07913a8dd7f02bcccc025880701cb4d0bdd3d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5826489"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6751268"
 ---
 # <a name="mass-financial-period-close"></a>Fechamento em massa do período financeiro
 
@@ -26,7 +26,7 @@ ms.locfileid: "5826489"
 
 Este tópico mostra como colocar um período em espera ou fechar permanentemente um período ou mais de uma entidade legal de uma só vez. Além disso, ela mostra como restringir o grupo de usuários para lançar a módulos específicos.
 
-1. No painel de navegação, vá para **Módulos > Contabilidade > Fechamento de período > Calendários do razão**. Observe que a lista das entidades legais exibidas depende do calendário fiscal selecionado na página. Apenas as entidades legais que usam o calendário fiscal selecionado serão exibidas.
+1. No painel de navegação, Acesse **Módulos > Contabilidade > Fechamento de período > Calendários do razão**. Observe que a lista das entidades legais exibidas depende do calendário fiscal selecionado na página. Apenas as entidades legais que usam o calendário fiscal selecionado serão exibidas.
 2. Selecione **Editar**.
 3. Selecionar o período para o qual você deseja modificar o status.
 4. Selecionar as entidades legais para o qual você deseja atualizar o status. Você poderá selecionar todas as entidades legais rapidamente selecionando a marca de seleção do lado superior esquerdo da grade.  
