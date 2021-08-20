@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: damadipa
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-06-25
-ms.openlocfilehash: a1f85c100f1d062517c14d31a19838cc4af18f10
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6eafd9b14d02dec3455b73aeee1264629331a57b8ce760b7db6f6ddbaa7406b8
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6346561"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741645"
 ---
 # <a name="set-up-the-mapping-for-the-sales-order-status-columns"></a>Configurar o mapeamento das colunas de status da ordem de venda
 
@@ -97,7 +97,7 @@ Para configurar o mapeamento das colunas de status da ordem de venda, você deve
 
 Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
 
-1. Em um navegador, vá para `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Substitua **\<test-name\>** pelo link da sua empresa para Vendas.
+1. Em um navegador, Acesse `https://<test-name>.crm.dynamics.com/api/data/v9.0/organizations`. Substitua **\<test-name\>** pelo link da sua empresa para Vendas.
 2. Na página que está aberta, localize **organizationid** e anote o valor.
 
     ![Localizando organizationid.](media/sales-map-orgid.png)
@@ -127,7 +127,7 @@ Para habilitar o atributo **IsSOPIntegrationEnabled**, siga estas etapas.
 
 Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
 
-1. No Sales, vá para **Configuração \> Personalização \> Personalizar o Sistema**, selecione **Tabela do usuário** e abra **Formulário \> Usuário**.
+1. No Sales, Acesse **Configuração \> Personalização \> Personalizar o Sistema**, selecione **Tabela do usuário** e abra **Formulário \> Usuário**.
 
     ![Abrindo o formulário do usuário.](media/sales-map-user.png)
 
@@ -135,7 +135,7 @@ Para habilitar o atributo **isIntegrationUser**, siga estas etapas.
 
     ![Adicionar a coluna Modo de usuário de integração ao formulário.](media/sales-map-field-explorer.png)
 
-3. Em Vendas, vá para **Configuração \> Segurança \> Usuários** e altere a exibição de **Usuários Habilitados** para **Usuários do Aplicativo**.
+3. Em Vendas, Acesse **Configuração \> Segurança \> Usuários** e altere a exibição de **Usuários Habilitados** para **Usuários do Aplicativo**.
 
     ![Alterando a exibição de Usuários Habilitados para Usuários de Aplicativos.](media/sales-map-enabled-users.png)
 

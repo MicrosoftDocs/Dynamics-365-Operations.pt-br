@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8cf5612fcd237ebaaede3f8f70da5eb443a94c34
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 64d23d0875c5bb93ebe54fd40367f89574da87c72e90daab25a8828ec2158abb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5842409"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740065"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Criar uma sequência de cartas de cobrança
 
@@ -26,7 +26,7 @@ ms.locfileid: "5842409"
 
 Use esta guia para criar uma tarefa de sequência de cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
-1. No Painel de navegação, vá para **Módulos > Crédito e coleções > Configuração > Configurar sequência de cartas de cobrança**.
+1. No Painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Configurar sequência de cartas de cobrança**.
 2. Clique em **Novo**.
 3. No campo **Sequência de cartas de cobrança**, insira uma ID de sequência que representará a sequência. Será usada ao configurar um perfil de lançamento.
 4. No campo **Descrição**, digite um valor.  As condições de pagamento são opcionais. Se você inserir um valor aqui, a nota fiscal da taxa de carta de cobrança usará essas condições de pagamento em vez das condições de pagamento estocadas com o cliente.  

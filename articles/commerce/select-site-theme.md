@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: StuHarg
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 1e11e2ffafa29dfe4ad7a4a8e4d14e9d7c74c31f
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: cd110a94991659036ac5cee1cd5f77e0cd3ba7356be902bdae37e957247535ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5794058"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737521"
 ---
 # <a name="select-a-site-theme"></a>Selecionar um tema de site
 
@@ -35,8 +35,8 @@ Por padrão, quando você cria um site pela primeira vez, ele usa um tema chamad
 
 Para selecionar o tema que é aplicado ao seu site, siga estas etapas.
 
-1. No ambiente de criação do site, vá para seu site.
-1. Vá para **Gerenciamento de Sites** \> **Extensibilidade**.
+1. No ambiente de criação do site, Acesse seu site.
+1. Acesse **Gerenciamento de Sites** \> **Extensibilidade**.
 1. Em **Tema**, selecione um tema no menu suspenso.
 1. Para aplicar o tema selecionado ao site, selecione **Salve e publicar**.
 

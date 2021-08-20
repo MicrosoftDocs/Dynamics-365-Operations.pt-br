@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dc065684952cbbe2a324b766dc8c465371cdb49d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 725b6dea98805baaf3f4d60b3922543067a205bc7196a05f33af21a6cd680a37
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345491"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740686"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -61,7 +61,7 @@ As unidades de escala têm os seguintes dados:
 - **Dados da placa de licença** – as placas de licença podem ser criadas no hub e nas unidades de escala. O tratamento de conflitos dedicados foi fornecido. 
 
     > [!IMPORTANT]
-    > Os dados da placa de licença não são específicos do depósito. Se o mesmo número da chapa de licença for criado no hub e uma unidade de escala durante o mesmo ciclo de sincronização, ocorrerá falha na próxima sincronização. Se isso ocorrer, vá para **Administração do sistema > Consultas > Consultas de carga de trabalho > Registros duplicados**, no qual é possível exibir e mesclar os dados.
+    > Os dados da placa de licença não são específicos do depósito. Se o mesmo número da chapa de licença for criado no hub e uma unidade de escala durante o mesmo ciclo de sincronização, ocorrerá falha na próxima sincronização. Se isso ocorrer, Acesse **Administração do sistema > Consultas > Consultas de carga de trabalho > Registros duplicados**, no qual é possível exibir e mesclar os dados.
 
 ## <a name="outbound-process-flow"></a>Fluxo do processo de saída
 
@@ -121,7 +121,7 @@ Para facilitar esse processo, uma função de exemplo denominada *Gerente de dep
 
 As funções de usuário em uma unidade de escala são atribuídas como parte da sincronização de dados inicial do hub para a unidade de escala.
 
-Para modificar as funções atribuídas a um usuário, vá para **Administração do sistema \> Segurança \> Atribuir usuários a funções**. Os usuários que atuam como gerentes de depósito somente em unidades de escala devem receber apenas a função *Gerente de depósito na carga de trabalho*. Essa abordagem garantirá que esses usuários tenham acesso apenas à funcionalidade com suporte. Remova outras funções atribuídas a esses usuários.
+Para modificar as funções atribuídas a um usuário, Acesse **Administração do sistema \> Segurança \> Atribuir usuários a funções**. Os usuários que atuam como gerentes de depósito somente em unidades de escala devem receber apenas a função *Gerente de depósito na carga de trabalho*. Essa abordagem garantirá que esses usuários tenham acesso apenas à funcionalidade com suporte. Remova outras funções atribuídas a esses usuários.
 
 Os usuários que atuam como gerentes de depósito no hub e em unidades de escala devem receber a função existente de *Trabalhador de depósito*. Lembre-se de que essa função concede aos trabalhadores de depósito acesso a recursos (como processamento de recebimento de ordem de transferência) que aparece na interface do usuário (IU), mas sem suporte atual em unidades de escala.
 
@@ -142,7 +142,7 @@ Os seguintes tipos de ordem de serviço têm suporte no momento para cargas de t
 
 - Ordens de Venda
 - Transferir saída
-- Reabastecimento
+- Reabastecimento (não incluindo matérias-primas para produção)
 - Movimentação de estoque
 - Contagem cíclica
 - Ordens de compra (vinculadas a ordens de depósito)
@@ -298,6 +298,7 @@ A seguinte tabela resume quais cenários de produção do Warehouse Management s
 | Relatar como finalizado e guardar mercadorias finalizadas | Sim | Sim |
 | Armazenamento de coproduto e subproduto | Sim | Sim |
 | <p>Todos os outros processos do Warehouse Management que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Começar ordem de produção</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
+| Reabastecimento de matéria-prima | Não | Não |
 
 ## <a name="maintaining-scale-units-for-wes"></a>Manter unidades de escala para WES
 

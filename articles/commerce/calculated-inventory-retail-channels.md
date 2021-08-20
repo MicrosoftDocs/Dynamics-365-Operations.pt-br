@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: 2b6f9663ed08ab431ffc6ffe3154854250c1b092
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6350465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741803"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular disponibilidade de estoque para canais de varejo
 
@@ -51,14 +51,14 @@ Para usar o cálculo de estoque do canal, como um pré-requisito, um instantâne
 
 Para obter um instantâneo do estoque no Commerce headquarters, siga as etapas a seguir.
 
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque \> Disponibilidade do produto**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Produtos e estoque \> Disponibilidade do produto**.
 1. Selecione **OK** para executar o trabalho **Disponibilidade do produto**. Você também pode programar esse trabalho para que seja executado em lote.
 
 Após a execução do trabalho **Disponibilidade do produto**, os dados coletados devem ser enviados para os bancos de dados do canal de comércio eletrônico, a fim de que o último instantâneo do estoque do headquarters possa ser considerado no cálculo do canal do estoque disponível estimado.
 
 Para sincronizar os dados de instantâneo do headquarters com os bancos de dado de canal, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Execute o trabalho **1130** (**Disponibilidade do produto**) para sincronizar os dados do instantâneo que o trabalho **Disponibilidade do produto** criou do headquarters para os bancos de dados do canal.
 
 ## <a name="inventory-availability-apis-for-e-commerce"></a>APIs de disponibilidade de estoque para o comércio eletrônico
@@ -79,7 +79,7 @@ Para usar as duas APIs, você deve habilitar o recurso **Cálculo otimizado de d
 
 Para definir como a quantidade de produto deve ser retornada na saída da API, siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**.
+1. Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**.
 1. Selecione a guia **Estoque** e, em seguida, na FastTab **APIs de disponibilidade de estoque para comércio eletrônico** configure o valor da configuração **Quantidade na saída da API**.
 1. Execute o trabalho **1070** (**configuração do canal**) para sincronizar a última configuração para os canais.
 
@@ -107,13 +107,13 @@ Quando configurado e gerenciado corretamente, o cálculo de canal pode fornecer 
 
 Para configurar a operação do **Pesquisa de inventário** do PDV na matriz do Commerce para usar a lógica de cálculo no canal e desativar as chamadas de serviço em tempo real para pesquisas de estoque no aplicativo de PDV, primeiro você deve habilitar o recurso **Cálculo otimizado de disponibilidade de produtos** pelo espaço de trabalho **Gerenciamento de recursos na Matriz do Commerce** e siga estas etapas.
 
-1. Vá para **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
+1. Acesse **Retail e Commerce \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade**.
 1. Selecione um perfil de funcionalidade.
 1. Na FastTab **Funções**, na seção **Cálculo da disponibilidade de estoque**, altere o valor do campo **Modo de cálculo da disponibilidade de estoque** de **Serviço em tempo real** para **Canal**. Por padrão, todos os perfis de funcionalidade usam chamadas de serviço em tempo real. Você deve alterar o valor desse campo se quiser usar a lógica de cálculo do canal. Toda loja de varejo vinculada ao perfil de funcionalidade selecionado será afetada por essa alteração.
 
 Você deve sincronizar as alterações nos canais usando o processo de agenda de distribuição no headquarters executando as seguintes etapas:
 
-1. Vá para **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
+1. Acesse **Varejo e Comércio \> TI de Varejo e Comércio \> Agenda de distribuição**.
 1. Execute o trabalho **1070** (**Configuração do canal**).
 
 Após a conclusão da configuração, as informações fornecidas sobre o estoque disponível fisicamente não usam mais uma chamada de serviço em tempo real quando um usuário no aplicativo de PDV usa a operação **Pesquisa de estoque** (exibições padrão e matriciais). Em vez disso, os dados sobre o estoque disponível fisicamente da loja atual e de todas as lojas do grupo de atendimento são calculados com base no último instantâneo conhecido fornecido ao banco de dados do canal na sede do Commerce. O valor do instantâneo é refinado ainda mais pelo cálculo de canal para ajustar o valor disponível fisicamente, com base em vendas adicionais ou transações de retorno existentes do produto selecionado no banco de dados do canal que não foram incluídas no último instantâneo sincronizado do trabalho 1130. Se o banco de dados do canal não contiver dados transacionais de nenhum dos depósitos ou lojas do grupo de atendimento, ele não conterá transações adicionais que possam ser fatoradas em um recálculo do valor. Com isso, a melhor estimativa de estoque disponível a ser mostrada sobre esses depósitos ou lojas são os dados do último instantâneo conhecido da sede do Commerce.

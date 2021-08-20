@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 435e4c0b7aac8a8dc179ee8e74b985a4c434b7ea
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 7c74505c1771354aba42ddd9df2b7eaff8f5bc4653675244be99c4ef8afa73f6
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6361105"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740734"
 ---
 # <a name="maintenance-plans"></a>Planos de manutenção
 
@@ -46,7 +46,7 @@ Se você adicionar um plano de manutenção a tipos de ativos ou tipos de locais
 
 Esta seção descreve como configurar linhas do plano de manutenção e oferece exemplos de como elas podem ser usadas.
 
-1. Vá para **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
 
 1. Selecione **Novo** para criar uma nova sequência.
 
@@ -173,7 +173,7 @@ A ilustração a seguir mostra um exemplo de um plano de manutenção "Assistên
 
 ## <a name="add-a-maintenance-plan-to-an-asset"></a>Adicionar um plano de manutenção a um ativo
 
-1. Vá para **Gerenciamento de ativos \> Comum \> Ativos \> Todos os ativos** ou **Ativos ativos**.
+1. Acesse **Gerenciamento de ativos \> Comum \> Ativos \> Todos os ativos** ou **Ativos ativos**.
 
 1. Selecione o ativo no qual deseja configurar um plano de manutenção e selecione **Editar**.
 
@@ -227,7 +227,7 @@ Sempre que você criar um ativo, os contadores de ativos relacionados inicializa
 
 Você pode configurar o sistema para redefinir automaticamente um contador sempre que uma ordem de serviço relevante atingir um valor de status selecionado.
 
-1. Vá para **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
 1. No painel de lista, selecione um plano de manutenção. A redefinição do contador será aplicada a todos os ativos que usam esse plano.
 1. Na seção **Linhas**, encontre uma linha do contador de ativos para o qual deseja redefinir um contador e marque a caixa de seleção **Redefinir contador** para essa linha. (As linhas do contador de ativos têm um valor na coluna **Contador**. O contador especificado nessa coluna é o que será redefinido para o ativo relevante.)
 1. Acesse **Gerenciamento de ativos \> Configuração \> Ordens de serviço \> Estados de ciclo de vida**.

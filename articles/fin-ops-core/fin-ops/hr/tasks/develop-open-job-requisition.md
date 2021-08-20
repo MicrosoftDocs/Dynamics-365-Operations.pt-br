@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ca271450bfa534105caabbd45be98d929a3986b8
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: ae2e42627d7d3dbbc0bde2740e7c017c5858eab8cd825b77a1bc4611a3a4ab7b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5752021"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738471"
 ---
 # <a name="develop-and-open-job-requisition"></a>Desenvolver e abrir requisição de trabalho aberta
 
 [!include [banner](../../includes/banner.md)]
 
-Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento. Para cada projeto de recrutamento, você pode configurar informações, como o trabalho para o qual você está fazendo o recrutamento, o nome de recruta, o status do projeto e o departamento que o trabalho será encontrados em. Depois de criar um projeto de recrutamento, você pode criar um anúncio de emprego para o projeto, publicar o anúncio de emprego nas páginas de autoatendimento do funcionário, associar aplicações para emprego com o projeto, e rastrear atividades para aquele projeto. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar o procedimento, vá para Recursos humanos > Recrutamento > Projetos de recrutamento > Projetos de recrutamento
+Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento. Para cada projeto de recrutamento, você pode configurar informações, como o trabalho para o qual você está fazendo o recrutamento, o nome de recruta, o status do projeto e o departamento que o trabalho será encontrados em. Depois de criar um projeto de recrutamento, você pode criar um anúncio de emprego para o projeto, publicar o anúncio de emprego nas páginas de autoatendimento do funcionário, associar aplicações para emprego com o projeto, e rastrear atividades para aquele projeto. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar o procedimento, Acesse Recursos humanos > Recrutamento > Projetos de recrutamento > Projetos de recrutamento
 
 1. Clique em Novo.
 2. No campo Projeto de recrutamento, insira um valor.

@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2021-06-24
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 25721f1b79d8f0fbf8ca2112ed21fa2d8cd0bc84
-ms.sourcegitcommit: 73d320d2103f2b0c6ecbb2b9df746469bc544ea2
+ms.openlocfilehash: a5fd466c98e0855f7a33929eeee42b9147d26ba19780b4ae7c8eb895ac27ea5e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433762"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6737668"
 ---
 # <a name="set-up-and-run-processing-to-call-a-simple-exporting-er-format-to-generate-an-excel-report"></a>Configurar e executar processamento para chamar um formato de ER de exportação simples para gerar um relatório do Excel
 
@@ -41,7 +41,7 @@ Quando você criar o processamento, será útil principalmente se você definir 
 
 ## <a name="create-message-statuses"></a>Criar status da mensagem
 
-1. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Status da mensagem**.
+1. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Status da mensagem**.
 2. Crie os seguintes status da mensagem:
 
     - Nova
@@ -54,7 +54,7 @@ Quando você criar o processamento, será útil principalmente se você definir 
 
 ## <a name="create-additional-fields"></a>Criar campos adicionais
 
-1. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Campos adicionais**.
+1. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Campos adicionais**.
 2. Adicione outro campo e seus valores.
 3. Defina a opção **Edição do usuário** como **Sim** para permitir que os usuários editem o campo.
 
@@ -71,7 +71,7 @@ Para este exemplo, você criará as seguintes ações de processamento de mensag
 
 Siga estas etapas para criar as ações.
 
-1. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagens**.
+1. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Ações de processamento de mensagens**.
 2. Crie uma ação chamada **Criar mensagem**. Na FastTab **Geral**, no campo **Tipo de ação**, selecione **Criar mensagem**.
 3. Crie uma ação chamada **Atualizado para Preparado** e defina os seguintes campos:
 
@@ -97,10 +97,10 @@ Siga estas etapas para criar as ações.
 
 Para este exemplo, todas as ações devem ser configurados de forma que sejam executadas separadamente. A suposição é que cada usuário inicializará cada ação.
 
-1. Vá para **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Processamento de mensagens eletrônicas**.
+1. Acesse **Imposto** \> **Configuração** \> **Mensagens eletrônicas** \> **Processamento de mensagens eletrônicas**.
 2. Adicione um registro para o processamento e adicione todas as ações definidas anteriormente e um campo adicional.
 3. Opcional: na FastTab **Funções de segurança**, defina funções de segurança para que seu processamento limite o acesso para o relatório específico.
-4. Vá para **Imposto** \> **Consultas e relatórios** \> **Mensagens eletrônicas** \> **Mensagens eletrônicas**.
+4. Acesse **Imposto** \> **Consultas e relatórios** \> **Mensagens eletrônicas** \> **Mensagens eletrônicas**.
 5. Selecione **Nova** para criar uma mensagem. Nesse ponto, você pode adicionar datas e uma descrição. Você também pode atualizar o valor do campo adicional como necessário.
 
     ![Criar uma mensagem eletrônica](media/create-electronic-message.png)

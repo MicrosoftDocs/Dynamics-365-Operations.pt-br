@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 006160a3f7eada95ebdcdbf6694ee54be439f349
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15a3cc4c50e49a50c354834761425cd107c23a9d79677e022cb1d339bb48c918
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5835645"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741923"
 ---
 # <a name="immediate-replenishment"></a>Reabastecimento imediato
 
@@ -44,7 +44,7 @@ O reabastecimento imediato é usado durante a execução de onda se a alocação
 
 ## <a name="set-up-immediate-replenishment"></a>Configurar o reabastecimento imediato
 
-- Vá para **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de local** e, então, na guia **Linhas** , na lista **Modelo de reabastecimento imediato**, selecione um modelo de reabastecimento para demanda da onda.
+- Acesse **Gerenciamento de depósito** \> **Configuração** \> **Diretivas de local** e, então, na guia **Linhas** , na lista **Modelo de reabastecimento imediato**, selecione um modelo de reabastecimento para demanda da onda.
 
 O modelo de reabastecimento só será aplicado se a linha de diretiva de local falhar ao alocar uma unidade de medida dedicada.
 

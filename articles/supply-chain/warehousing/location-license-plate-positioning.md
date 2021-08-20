@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 1235f8fa64fbc87a4c22f4dcf0e9ddd4b4565b76
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4dc084e4ef568d97912bfa22657b616fd6e493e03ad95703db66584f03e5381e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6359754"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739673"
 ---
 # <a name="location-license-plate-positioning"></a>Posicionamento da placa de licença de localização
 
@@ -51,7 +51,7 @@ Execute os procedimentos a seguir para configurar o recurso *Posicionamento da p
 
 O recurso deve estar ativado no perfil de localização de cada localização onde ele será usado.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Perfis de localização**.
 1. Na lista de perfis de localização no painel esquerdo, selecione **MASSA-06**.
 1. Na FastTab **Geral**, duas novas opções foram adicionadas pelo recurso. Defina os seguintes valores:
 
@@ -67,7 +67,7 @@ O recurso deve estar ativado no perfil de localização de cada localização on
 
 #### <a name="location-directives"></a>Diretivas de localização
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, verifique se o campo **Tipo de ordem de trabalho** está definido como *Ordens de venda*.
 1. Na lista de diretivas de localização, selecione **Ordem de separação de OV 61**.
 1. No Painel de Ações, selecione **Editar**.
@@ -113,7 +113,7 @@ Como o recurso *Posicionamento da placa de licença de localização* adiciona u
 #### <a name="spot-count-the-first-location"></a>Contagem pontual da primeira localização
 
 1. Abra o aplicativo móvel de depósito e entre no depósito *61*.
-1. Vá para **Estoque \> Contagem Pontual**.
+1. Acesse **Estoque \> Contagem Pontual**.
 1. Na página **Contagem Pontual**, defina o campo **Localização** como *01A01R1S1B*.
 1. Selecione **OK**.
 
@@ -180,7 +180,7 @@ Agora o trabalho está concluído.
 > As contagens pontuais do aplicativo móvel criam um trabalho de contagem cíclica no Microsoft Dynamics 365. O trabalho exige que as contagens sejam aceitas antes de serem lançadas no estoque.
 
 1. Entre no Dynamics 365 Supply Chain Management.
-1. Vá para **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
+1. Acesse **Gerenciamento de depósito \> Trabalho \> Detalhes do trabalho**.
 1. Na guia **Visão geral**, procure as linhas com os seguintes valores:
 
     - **Tipo de ordem de trabalho:** *Contagem cíclica*
@@ -225,7 +225,7 @@ Agora o trabalho está concluído.
 
 #### <a name="on-hand-by-location"></a>Disponibilidade por localização
 
-1. Vá para **Gerenciamento de depósito \> Consultas e relatórios \> Disponível por local**.
+1. Acesse **Gerenciamento de depósito \> Consultas e relatórios \> Disponível por local**.
 1. Defina os seguintes valores:
 
     - **Local:** *6*
@@ -245,7 +245,7 @@ Agora o trabalho está concluído.
 
 Agora que o recurso *Posicionamento da placa de licença de localização* foi configurado e o estoque foi preparado, você deve criar uma ordem de venda para gerar um trabalho de separação que orientará o trabalhador do depósito a separar o item *A0002* da localização de estoque em que a ID do palete está na posição *1*.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de venda**, defina os seguintes valores:
 
@@ -271,7 +271,7 @@ Agora que o recurso *Posicionamento da placa de licença de localização* foi c
 ### <a name="sales-picking-scenario"></a>Cenário de separação de venda
 
 1. Abra o aplicativo móvel e entre no depósito *61*.
-1. Vá para **Saída \> Separação de venda**.
+1. Acesse **Saída \> Separação de venda**.
 1. Na página **Digitalizar uma ID de trabalho/ID de placa de licença**, selecione o campo **ID** e insira a ID de trabalho na linha de venda.
 1. Observe que o trabalho de separação leva você a selecionar o item *A0002* da localização *01A01R1S2B*. Você recebe essa instrução porque o item *A0002* está em uma placa de licença na posição *1* dessa localização.
 

@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cee2ac378cf90f43e36668b671a256b12203b1c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: afd0dc8596870c3d8fa6e58bce55f9b7513f29dcf1cfe136cd2bf211ac7bb663
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823613"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736896"
 ---
 # <a name="calculate-ciap-credit-amount-brazil"></a>Calcular o valor de crédito CIAP (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5823613"
 
 Cada mês, para cada estabelecimento fiscal, o valor de crédito de imposto é calculado para aquisições anteriores de ativo fixo de cada ativo fixo. O cálculo ocorre até que o número máximo de pagamentos de parcelas de crédito fiscal seja atingido, ou o ativo fixo não pertença à entidade legal. Cada pagamento de parcela de crédito fiscal do ativo fixo é usado para criar uma nota fiscal de transferência ou apropriação de imposto que faz parte da apuração do imposto ICMS da entidade legal. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Livros fiscais > Comum > Período de escrituração.
+1. Acesse Livros fiscais > Comum > Período de escrituração.
 2. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 3. No campo Estabelecimento fiscal, insira ou selecione um valor.
 4. No campo Mês, selecione uma opção.
@@ -41,7 +41,7 @@ Cada mês, para cada estabelecimento fiscal, o valor de crédito de imposto é c
 14. Feche a página.
 15. Feche a página.
 16. Feche a página.
-17. Vá para Contabilidade > Entradas de diário > Todas as notas fiscais de transferência ou apropriação de imposto.
+17. Acesse Contabilidade > Entradas de diário > Todas as notas fiscais de transferência ou apropriação de imposto.
 18. Clique em Novo.
 19. No campo Tipo de documento fiscal de transferência ou apropriação de imposto, selecione uma opção.
 20. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
@@ -59,9 +59,9 @@ Cada mês, para cada estabelecimento fiscal, o valor de crédito de imposto é c
 32. Clique em OK.
 33. Feche a página.
 34. Feche a página.
-35. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
+35. Acesse Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 36. Clique em OK.
-37. Vá para Livros fiscais > Comum > Período de escrituração.
+37. Acesse Livros fiscais > Comum > Período de escrituração.
 38. Na lista, marque a linha selecionada.
 39. Clique em Sincronizar.
 40. Clique em OK.

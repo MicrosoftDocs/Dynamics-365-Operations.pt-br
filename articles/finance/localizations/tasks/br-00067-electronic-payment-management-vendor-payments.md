@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fb4a23267647a456c5abdf0694ffd090f3c55a1e
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b9f99979786cafdc5e956174512442627f479fe572a4edfb49e4bd5acc83396f
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808710"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736898"
 ---
 # <a name="electronic-payment-management-for-vendor-payments-brazil"></a>Gerenciamento de pagamento eletrônico para pagamentos de fornecedores (Brasil)
 
@@ -26,7 +26,7 @@ ms.locfileid: "5808710"
 
 É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco. É possível gerar e enviar um arquivo de remessa eletrônica para um banco. Nesse caso, o arquivo de exportação contém informações sobre as faturas que devem ser recebidas ou pagas, as solicitações de faturas de devolução, ou as alterações nos endereços de cliente ou de fornecedor. Como alternativa, é possível importar um arquivo de devolução de um banco. Nesse caso, o arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Razão de compra > Pagamentos > Transferências de pagamento.
+1. Acesse Razão de compra > Pagamentos > Transferências de pagamento.
 2. Na lista, marque a linha selecionada.
 3. Clique em Arquivo retorno - Fornecedor.
 4. No campo Condições de pagamento, insira ou selecione um valor.

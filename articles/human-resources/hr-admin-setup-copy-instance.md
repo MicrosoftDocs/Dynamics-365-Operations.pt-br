@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd5a92470b711b9d316e4fe96aecadd7252ff807
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 48fef68dc3e5935f0032ca006840202b53d577e06e5376ead0b66eca2a9c36bb
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6360140"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740830"
 ---
 # <a name="copy-an-instance"></a>Copiar uma instância
 
@@ -52,9 +52,9 @@ Os seguintes eventos ocorrem ao copiar um banco de dados do Human Resources:
 
 - Os documentos do armazenamento em Microsoft Azure Blob não são copiados de um ambiente para outro. Como consequência, quaisquer documentos e modelos anexados não serão copiados e permanecerão no ambiente de origem.
 
-- Todos usuários, exceto o usuário Administrador e outras contas de usuário de serviço internas estarão indisponíveis. O usuário administrador pode excluir ou ofuscar dados antes que outros usuários tenham permissão de volta para o sistema.
+- Todos os usuários, exceto aqueles com a função de segurança "Administrador do Sistema" e outras contas de usuário de serviço interno, não estarão disponíveis. O usuário administrador pode excluir ou ofuscar dados antes que outros usuários tenham permissão de volta para o sistema.
 
-- O usuário administrador deve fazer as alterações de configuração necessárias, como reconectar empresas de integração a serviços ou URLs específicos.
+- Qualquer usuário com a função de segurança "Administrador do Sistema" deve fazer as alterações de configuração necessárias, como reconectar pontos de extremidade de integração a serviços ou URLs específicos.
 
 ## <a name="copy-the-human-resources-database"></a>Copiar o banco de dados do Human Resources
 
@@ -111,7 +111,7 @@ Alguns desses elementos não são copiados porque são específicos do ambiente.
 
 Além disso, os seguintes status são alterados ao copiar uma instância:
 
-- Todos os usuários, exceto o administrador, estão definidos como **Desabilitados**.
+- Todos os usuários, exceto aqueles com a função de segurança "Administrador do Sistema", são definidos como **Desabilitado**.
 
 - Todos os trabalhos em lotes, exceto para alguns trabalhos do sistema, são definidos como **Retenção**.
 
@@ -127,7 +127,7 @@ Se você copiar uma instância no ambiente de área restrita e quiser integrar s
 
 Para cada campo personalizado que é exposto em tabelas do Dataverse, siga estas etapas:
 
-1. Vá para o campo personalizado e selecione **Editar**.
+1. Acesse o campo personalizado e selecione **Editar**.
 
 2. Desmarque o campo **Habilitado** para cada entidade cdm_* na qual o campo personalizado está habilitado.
 

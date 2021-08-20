@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 2f97a003ab35192d164741ef2e6b6597d3df46b6
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: fde4211e4449c28eda8ac7a23ddfc346d2c7e8359d9e473821bdefe76db65616
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6358776"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739769"
 ---
 # <a name="country-of-origin"></a>País de origem
 
@@ -37,7 +37,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Antes de emitir um certificado para um produto, você deve vincular o produto ao país de destino e ao país de origem.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Regras do país de origem**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Regras do país de origem**.
 2. Selecione uma configuração de país existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova configuração de país.
 3. Defina os valores a seguir para o país novo ou selecionado.
 
@@ -57,7 +57,7 @@ Você deve decidir quais documentos de certificado está emitindo e como vai rel
 
 Para configurar as informações sobre o certificado, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Certificados de fornecedores do país de origem**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> País de origem \> Certificados de fornecedores do país de origem**.
 2. Selecione uma configuração de certificado existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova configuração de certificado.
 3. Defina as configurações a seguir para o certificado novo ou selecionado.
 
@@ -77,7 +77,7 @@ Para configurar as informações sobre o certificado, siga estas etapas.
 
 Ao gerar um relatório de BOM, você pode incluir o país de origem de cada peça para a qual especificou países de origem e de destino na página **Regras do país de origem**.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione ou crie um produto para abrir sua página **Detalhes do produto liberado**.
 1. No Painel de Ação, na guia **Engenharia**, no grupo **BOM**, selecione **Designer**.
 1. Na página exibida, no Painel de Ação, selecione **BOM \> Imprimir**.

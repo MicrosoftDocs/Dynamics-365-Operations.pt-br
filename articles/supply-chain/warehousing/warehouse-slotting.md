@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 0dd1f42b7bb337ccb65b7e4bdd9d307d074ae0d0
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 92e0d2ef468a47579d21428009f1fd2dfcb8b0c19874d1a8d44e638f9f0a7c89
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838145"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738116"
 ---
 # <a name="warehouse-slotting"></a>Slots de depósito
 
@@ -60,7 +60,7 @@ Para usar slots de depósito, é necessário configurar os elementos a seguir no
 
 Os níveis de unidade de medida permitem que várias unidades de medida sejam agrupadas para fins de slots. Por exemplo, se vários tamanhos de caixas são separados na mesma área de separação de caixa, um nível pode ser criado para todos os tamanhos. **Uma linha deve ser criada para cada unidade de medida que deve fazer parte do nível.**
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Slots de níveis da unidade de medida**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Slots de níveis da unidade de medida**.
 1. Selecione **Novo**.
 1. No cabeçalho, defina os seguintes valores:
 
@@ -95,7 +95,7 @@ Os níveis de unidade de medida permitem que várias unidades de medida sejam ag
 
 Você deve selecionar o código de diretiva que deve ser associado a um modelo.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Códigos de diretiva**.
 1. No Painel de Ações, selecione **Novo**.
 1. No campo **Código de diretiva**, insira *Slots*.
 1. No campo **Descrição de diretiva**, insira *Slots*.
@@ -104,7 +104,7 @@ Você deve selecionar o código de diretiva que deve ser associado a um modelo.
 
 Cada modelo de slots controla como o estoque é atribuído a locais para um depósito específico. Cada modelo deve incluir uma linha para cada especificação de slots. Use os procedimentos desta seção para configurar os modelos de slots.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de slots**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de slots**.
 1. Selecione **Novo** para criar um modelo.
 
 Em seguida, você deve configurar o cabeçalho do modelo, as especificações de slots e as diretivas de localização, conforme explicado nas subseções a seguir. A configuração para alocação para ordens de transferência é semelhante à configuração para alocação para ordens de venda, mas o campo **Ordens de transferência** é definido como *Ordens de transferência* em vez de *Ordem de venda*.
@@ -223,7 +223,7 @@ Para cada modelo de ordem de venda criado, siga estas etapas para adicionar uma 
 
 Pelo menos uma diretiva de localização deve ser configurada para dar suporte a seleções de slots. Use os procedimentos desta seção para configurar uma nova *diretiva de local de reabastecimento* para separações de slots.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Diretivas de localização**.
 1. No painel esquerdo, no campo **Tipo de ordem de serviço**, selecione *Reabastecimento*.
 1. No Painel de Ações, selecione **Novo**.
 1. No cabeçalho da nova diretiva de localização, no campo **Nome**, insira *Seleção de slots 61*.
@@ -290,7 +290,7 @@ Para trabalhar nesse cenário usando os registros e valores de exemplo especific
 
 Siga as etapas a seguir para criar a solicitação à qual você aplicará slots.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 1. Selecione **Novo** para criar uma ordem de venda.
 1. Na caixa de diálogo **Criar ordem de venda**, no campo **Conta do cliente**, selecione _US-007_.
 1. No campo **Depósito**, selecione _61_.
@@ -322,7 +322,7 @@ Depois que todos os elementos de pré-requisito estiverem em uso, conforme descr
 
 #### <a name="generate-demand"></a>Gerar demanda
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de slots** e selecione o modelo de slots que você criou antes.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Reabastecimento \> Modelos de slots** e selecione o modelo de slots que você criou antes.
 1. No Painel de Ações, selecione **Gerar demanda**. Este comando avalia toda a demanda que está no sistema e corresponde à consulta do modelo de slots. A demanda total em todas as ordens é consolidada em uma linha por quantidade/unidade de medida. Uma mensagem informativa é exibida quando o processo é concluído.
 
 #### <a name="slotting-demand"></a>Demanda de slots
@@ -367,7 +367,7 @@ As diretivas de localização que serão usadas são identificadas com base no c
 
 Quando todos os elementos necessários estiverem ativos, você poderá configurar slots para execução automática seguindo essas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Reabastecimento \> Executar slots**.
+1. Acesse **Gerenciamento de depósito \> Reabastecimento \> Executar slots**.
 1. Especifique as etapas de slots a serem executadas. Selecione uma ou mais das seguintes etapas de slots:
 
     - Gerar demanda

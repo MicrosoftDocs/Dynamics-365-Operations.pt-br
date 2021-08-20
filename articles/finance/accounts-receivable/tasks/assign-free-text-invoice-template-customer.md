@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0219521867d1cfb1fa4edcdf20dd70eea8a3d0e1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb8a683792051a95b443fac47b4670f37c12cc4b4142ee2290b89ee1845662cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819881"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740089"
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>Atribuir um modelo de fatura de texto livre a um cliente
 
@@ -26,7 +26,7 @@ ms.locfileid: "5819881"
 
 Essa tarefa demonstra como atribuir um modelo de nota fiscal de texto livre a um cliente. Esta tarefa usa a empresa de demonstração USMF e é direcionada para o usuário responsável por gerenciar e processar faturas A/R.
 
-1. No **Painel de Navegação**, vá para **Módulos > Contas a receber > Clientes > Todos os clientes**.
+1. No **Painel de Navegação**, Acesse **Módulos > Contas a receber > Clientes > Todos os clientes**.
 2. Na lista, localize e selecione o registro desejado.
 3. No **Painel de Ações**, clique em **Fatura**.
 4. Clique em **Faturas recorrentes**. Use esta página para atribuir modelos de fatura de texto livre para clientes e especificar quão frequentemente as faturas serão enviadas ao cliente.  

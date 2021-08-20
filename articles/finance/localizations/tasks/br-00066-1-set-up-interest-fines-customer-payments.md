@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd333ce2be08915df777a06eaf320ecd1ecd4a86
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: b575c3cc73ae525d4949b4aaf2775884fb9059729c5dd1466b296d5c8b671015
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823621"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739296"
 ---
 # <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a>Configurar juros e multas em pagamentos de clientes (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5823621"
 
 Use este procedimento para configurar juros e multas em pagamentos de clientes. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Contas a receber > Configuração > Perfis de lançamento do cliente.
+1. Acesse Contas a receber > Configuração > Perfis de lançamento do cliente.
 2. Clique para seguir o link no campo Perfil de lançamentos.
 3. Clique em Editar.
 4. No campo Juros financeiros, especifique os valores desejados.
@@ -33,7 +33,7 @@ Use este procedimento para configurar juros e multas em pagamentos de clientes. 
 6. Clique em Salvar.
 7. Feche a página.
 8. Feche a página.
-9. Vá para Contas a receber > Configuração de pagamentos > Calendário de pagamentos.
+9. Acesse Contas a receber > Configuração de pagamentos > Calendário de pagamentos.
 10. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Calendário de pagamentos com um valor de 'Brasil'.
 11. Clique em feriados do estado/província.
 12. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Estado/província com um valor de 'SP'.
@@ -50,14 +50,14 @@ Use este procedimento para configurar juros e multas em pagamentos de clientes. 
 23. Feche a página.
 24. Feche a página.
 25. Feche a página.
-26. Vá para Contas a receber > Configuração de pagamentos > Códigos de multa.
+26. Acesse Contas a receber > Configuração de pagamentos > Códigos de multa.
 27. Clique em Novo.
 28. No campo Código de multa, digite um valor.
 29. No campo Descrição, digite um valor.
 30. No campo % de multa, digite um número.
 31. Clique em Salvar.
 32. Feche a página.
-33. Vá para Contas a receber > Configuração de pagamentos > Códigos de juros.
+33. Acesse Contas a receber > Configuração de pagamentos > Códigos de juros.
 34. Clique em Novo.
 35. No campo Código de juros, digite um valor.
 36. No campo Descrição, digite um valor.

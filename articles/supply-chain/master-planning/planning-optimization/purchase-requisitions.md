@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 564f87fe78e79107feb103f953ed4769e4734aa1
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 62a42e2403fe024bd7ea49bff5bef139964e944727a245a480bc240c112154cf
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5808031"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738978"
 ---
 # <a name="purchase-requisitions"></a>Requisições de Compra
 
@@ -31,7 +31,7 @@ O planejamento mestre pode reabastecer requisições de compra aprovadas. Portan
 
 Para incluir requisições durante o cálculo de cobertura de um plano mestre, siga estas etapas.
 
-1. Vá para **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres**.
+1. Acesse **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres**.
 1. Crie ou selecione um plano mestre.
 1. Na FastTab **Geral**, defina a opção **Incluir requisições** como *Sim*.
 1. Repita as etapas 2 e 3 para cada plano mestre adicional no qual você deseja incluir requisições.
@@ -42,7 +42,7 @@ O *limite de tempo de requisições aprovadas* estabelece até quando (em dias) 
 
 ### <a name="set-the-approved-requisitions-time-fence-for-a-coverage-group"></a>Definir o limite de tempo de requisições aprovadas para um grupo de cobertura
 
-1. Vá para **Planejamento mestre** \> **Configuração** \> **Cobertura** \> **Grupos de cobertura**.
+1. Acesse **Planejamento mestre** \> **Configuração** \> **Cobertura** \> **Grupos de cobertura**.
 1. Crie ou selecione um grupo de cobertura.
 1. Na FastTab **Outro**, defina o campo **Limite de tempo de requisições aprovadas (dias)** como o número de dias a ser incluído no limite de tempo.
 1. Repita as etapas 2 e 3 para cada grupo de cobertura adicional no qual você deseja definir um limite de tempo de requisições aprovadas.
@@ -51,7 +51,7 @@ O *limite de tempo de requisições aprovadas* estabelece até quando (em dias) 
 
 Ao definir um limite de tempo de requisições aprovadas para um plano mestre individual, a configuração de limite de tempo é substituída para qualquer grupo de cobertura aplicável.
 
-1. Vá para **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres**.
+1. Acesse **Planejamento mestre** \> **Configuração** \> **Planos** \> **Planos mestres**.
 1. Crie ou selecione um plano mestre.
 1. Na FastTab **Limites de tempo em dias**, defina o campo **Limite de tempo de requisições aprovadas (dias)** como o número de dias a ser incluído no limite de tempo.
 1. Repita as etapas 2 e 3 para cada plano mestre adicional no qual você deseja definir um limite de tempo de requisições aprovadas.

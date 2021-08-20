@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: c263fdcf7fdf2888e1c66e7e2b67d8b26729128c
-ms.sourcegitcommit: 34b478f175348d99df4f2f0c2f6c0c21b6b2660a
+ms.openlocfilehash: 8e56688aac445b84d5a9c0df289d48ffefd5767f673f2329f69582e820c27820
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "5907610"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738140"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>Processamento de produtos de peso variável com gerenciamento de depósito
 
@@ -26,7 +26,7 @@ ms.locfileid: "5907610"
 
 ## <a name="feature-exposure"></a>Exposição de recurso
 
-Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Vá para **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
+Para usar o gerenciamento de depósito para processar produtos de peso variável, você deve usar uma chave de configuração de licença para ativar a funcionalidade. Acesse **Administração de sistema \> Configurar \> Configuração de licença**. Em seguida, na guia **Chaves de configuração**, expanda **Comércio \> Gerenciamento de Depósito e Transporte** e marque a caixa de seleção para **Peso variável para depósito**.
 
 > [!NOTE]
 > Tanto a chave de configuração de licença de **Gerenciamento de Depósito e Transporte** quanto as chaves de configuração de licença de **Peso variável \> da distribuição de processos** também devem ser ativadas. Para definir as chaves de configuração para peso variável, você também deve ativar o recurso usando o espaço de trabalho **Gerenciamento de recursos**. O principal recurso que deve ser ativado é **Processamento de produtos de peso variável com gerenciamento de depósito**. Dois recursos relacionados, mas opcionais, que talvez você queira ativar são **Alterações de status de estoque para produtos de peso variável** e **Usar as marcas de peso variável existentes ao relatar ordens de produção como concluídas**.
@@ -63,7 +63,7 @@ Em sua definição, um produto é configurado para tolerar um peso mínimo de 8 
 
 Você tem duas caixas do produto, e elas têm um peso registrado de 16 kg. Se um funcionário do depósito escolher e pesar uma das caixas, e o peso capturado for de 9 kg, a caixa restante pesará 7 kg. Porém, como 7 kg está abaixo do peso mínimo, o sistema faz um ajuste automático para aumentar o peso do estoque disponível em 1 kg.
 
-Para configurar as contas nas quais esses ajustes são lançados, vá para **Gerenciamento de custos \> Configuração das políticas de integração do razão \> Lançamento**. Depois, na guia **Estoque**, defina as seguintes contas:
+Para configurar as contas nas quais esses ajustes são lançados, Acesse **Gerenciamento de custos \> Configuração das políticas de integração do razão \> Lançamento**. Depois, na guia **Estoque**, defina as seguintes contas:
 
 - Conta de perda de peso variável
 - Conta de lucro de peso variável

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 844eee7f81c64eb50ada44cbc151c8aa00c5ae98
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 7c3bf881f0f11d6d21d5f2e9d3132c2bea00b982411c9c5d76ae617b00a69fda
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5815059"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739326"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>Configurar grupos de impostos e grupos de impostos do item
 
@@ -26,7 +26,7 @@ ms.locfileid: "5815059"
 
 Esta tarefa de registro mostra a instalação do imposto sobre vendas e grupos de impostos sobre vendas do item. Os grupos de imposto são grupos de códigos de imposto associados a clientes e fornecedores. Eles também são associados a contas contábeis para transações que não são lançadas para um fornecedor ou cliente específico.  Os grupos de impostos sobre vendas do item são grupos de códigos de impostos sobre vendas associados aos recursos de produtos.  Os impostos aplicáveis a uma transação específica são determinados pelos códigos de imposto incluídos no grupo de impostos e no grupo de impostos do item da transação.  Os impostos poderão ser calculados somente se um grupo de impostos e um grupo de impostos do item estiverem selecionados para cada transação cujo imposto precisar ser calculado ou registrado.  
 
-1. Vá para **Painel de navegação > Módulos > Imposto > Impostos indiretos > Imposto > Grupos de imposto**.
+1. Acesse **Painel de navegação > Módulos > Imposto > Impostos indiretos > Imposto > Grupos de imposto**.
 2. Clique em **Novo**.
 3. No campo **Grupo de Impostos**, digite um valor.
 4. No campo **Descrição**, digite um valor.
@@ -37,7 +37,7 @@ Esta tarefa de registro mostra a instalação do imposto sobre vendas e grupos d
 9. Na lista, clique no link na linha selecionada.
 10. Clique em **Salvar**.
 11. Feche a página.
-12. Vá para **Imposto > Impostos indiretos > Impostos > Grupos de impostos**.
+12. Acesse **Imposto > Impostos indiretos > Impostos > Grupos de impostos**.
 13. Clique em **Novo**.
 14. No campo **Grupo de Impostos de item**, digite um valor.
 15. No campo **Descrição**, digite um valor.

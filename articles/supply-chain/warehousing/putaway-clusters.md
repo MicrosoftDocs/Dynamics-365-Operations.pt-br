@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-10-19
 ms.dyn365.ops.version: Release 10.0.7
-ms.openlocfilehash: 5f681d08268bdf92212eb5e0c99532bb0827afe7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c2b12798a6ef9c2d4aa022e0c270d8191b2cf4e7fc844042ed88c4eb9f5b98a5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6344161"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741899"
 ---
 # <a name="putaway-clusters"></a>Clusters de armazenamento
 
@@ -38,7 +38,7 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 O perfil de cluster de armazenamento determina para onde um item irá, com base na localização atribuída ao item no momento do recebimento. Se forem necessários diferentes clusters, clusters de armazenamento diferentes deverão ser criados, um para cada item de menu de dispositivo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Perfis de cluster**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na exibição do **Cabeçalho**, defina os seguintes valores:
 
@@ -128,7 +128,7 @@ Criar um novo item de menu de dispositivo móvel para receber estoque e classifi
 > - Recebimento do item da ordem de compra
 > - Recebimento do item de carga
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na exibição do **Cabeçalho**, defina os seguintes valores:
 
@@ -154,7 +154,7 @@ Criar um novo item de menu de dispositivo móvel para receber estoque e classifi
 
 Crie um novo item de menu de dispositivo móvel para colocar o cluster fora depois que ele tiver sido atribuído.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na exibição do **Cabeçalho**, defina os seguintes valores:
 
@@ -175,7 +175,7 @@ Crie um novo item de menu de dispositivo móvel para colocar o cluster fora depo
 
 Adicione os itens de menu que acabou de criar ao menu de entrada do aplicativo móvel.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Menu do dispositivo móvel**.
 1. No Painel de Ações, selecione **Editar**.
 1. Na lista de menus, selecione **Entrada**.
 1. Na lista **Menus e Itens de Menu Disponíveis**, localize e selecione **Receber e classificar cluster**.
@@ -193,7 +193,7 @@ Esse cenário simula o processamento de cluster de armazenamento.
 
 ### <a name="create-a-purchase-order"></a>Criar uma ordem de compra
 
-1. Vá para **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
+1. Acesse **Contas a pagar \> Ordens de compra \> Todas as ordens de compra**.
 1. No Painel de Ações, selecione **Novo**.
 1. Na caixa de diálogo **Criar ordem de compra**, defina os seguintes valores:
 
@@ -256,12 +256,12 @@ Esse cenário simula o processamento de cluster de armazenamento.
 
 Antes que os itens no cluster possam ser descartados, o cluster deve ser fechado.
 
-1. No Supply Chain Management, vá para **Gerenciamento de depósito \> Trabalho \> Saída \> Clusters de trabalho**.
+1. No Supply Chain Management, Acesse **Gerenciamento de depósito \> Trabalho \> Saída \> Clusters de trabalho**.
 1. Na página **Clusters de trabalho**, na seção **Cluster de trabalho**, pesquise o campo **ID do cluster** para a ID do cluster inserida anteriormente.
 1. Se o cluster não for exibido, talvez ele já tenha sido fechado. Para determinar se o cluster foi fechado, marque a caixa de seleção **Mostrar trabalho fechado** e procure a ID do cluster inserida anteriormente. E então, siga uma destas etapas:
 
-    - Se o cluster tiver sido fechado, pule as etapas restantes deste procedimento e vá para o próximo procedimento, [Armazenar o cluster](#put-the-cluster-away).
-    - Se o cluster não tiver sido fechado, siga as etapas restantes deste procedimento para fechar o cluster manualmente. Em seguida, vá para o procedimento a seguir.
+    - Se o cluster tiver sido fechado, pule as etapas restantes deste procedimento e Acesse o próximo procedimento, [Armazenar o cluster](#put-the-cluster-away).
+    - Se o cluster não tiver sido fechado, siga as etapas restantes deste procedimento para fechar o cluster manualmente. Em seguida, Acesse o procedimento a seguir.
 
 1. Na seção **Cluster de trabalho**, selecione a ID de cluster inserida anteriormente.
 1. No Painel de Ação, selecione **Fechar cluster**.

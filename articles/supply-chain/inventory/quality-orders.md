@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 964f8a37ac9471b2eb6c9ec01fc0322a43cfea11
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: d06cd7766f4445a248e0394e75ae390314762cf211a2780da76b4f52aa5bccd4
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022171"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739793"
 ---
 # <a name="quality-orders"></a>Ordens de qualidade
 
@@ -37,7 +37,7 @@ Você pode configurar o sistema para que ele crie ordens de qualidade automatica
 
 Para criar uma ordem de qualidade manualmente, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione **Novo**.
 1. Na caixa de diálogo **Ordens de qualidade**, no campo **Tipo de referência**, selecione a referência de estoque à qual sua ordem de qualidade será relacionada. Para obter uma descrição dos tipos de referência disponíveis para seleção, consulte a seção [Tipos de referência de ordem de qualidade](#ref-types) posteriormente neste tópico.
 
@@ -88,11 +88,11 @@ Você pode usar a página de ordens de qualidade para criar manualmente uma nova
 
 ### <a name="from-the-quality-orders-page"></a>Na página Ordens de qualidade
 
-Para criar ordens de qualidade manualmente e exibir todas as ordens de qualidade existentes, vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**. As seções restantes deste tópico fornecem mais informações sobre como trabalhar com a página **Ordens de qualidade**.
+Para criar ordens de qualidade manualmente e exibir todas as ordens de qualidade existentes, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**. As seções restantes deste tópico fornecem mais informações sobre como trabalhar com a página **Ordens de qualidade**.
 
 ### <a name="from-sales-orders"></a>Nas ordens de venda
 
-Para trabalhar com ordens de qualidade relacionadas às suas ordens de venda, vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda** e siga qualquer uma destas etapas:
+Para trabalhar com ordens de qualidade relacionadas às suas ordens de venda, Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda** e siga qualquer uma destas etapas:
 
 - Abra uma ordem de venda ou selecione-a na grade. Em seguida, no Painel de Ações, na guia **Separar e empacotar**, no grupo **Gerenciamento de qualidade**, selecione **Ordens de qualidade** para abrir a página **Ordens de qualidade**. Nela, você poderá exibir, criar ou atualizar ordens de qualidade relacionadas à ordem de venda.
 - Abra uma ordem de venda e, na guia **Cabeçalho**, selecione a FastTab **Geral**. O campo **Status da ordem de qualidade** mostra o status geral de todas as ordens de qualidade relacionadas à ordem de venda.
@@ -100,7 +100,7 @@ Para trabalhar com ordens de qualidade relacionadas às suas ordens de venda, v�
 
 ### <a name="from-purchase-orders"></a>Nas ordens de compra
 
-Para trabalhar com ordens de qualidade relacionadas às suas ordens de compra, vá para **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e siga qualquer uma destas etapas:
+Para trabalhar com ordens de qualidade relacionadas às suas ordens de compra, Acesse **Compras e fornecimento \> Ordens de compra \> Todas as ordens de compra** e siga qualquer uma destas etapas:
 
 - Abra uma ordem de compra ou selecione-a na grade. Em seguida, no Painel de Ações, na guia **Receber**, no grupo **Gerenciamento de qualidade**, selecione **Ordens de qualidade** para abrir a página **Ordens de qualidade**. Nela, você poderá exibir, criar ou atualizar ordens de qualidade relacionadas à ordem de compra.
 - Abra uma ordem de compra e, na guia **Cabeçalho**, selecione a FastTab **Geral**. O campo **Status da ordem de qualidade** mostra o status geral de todas as ordens de qualidade relacionadas à ordem de compra.
@@ -108,7 +108,7 @@ Para trabalhar com ordens de qualidade relacionadas às suas ordens de compra, v
 
 ### <a name="from-production-orders"></a>Nas ordens de produção
 
-Para trabalhar com ordens de qualidade relacionadas às suas ordens de produção, vá para **Controle de produção \> Ordens de produção \> Todas as ordens de produção** e siga qualquer uma destas etapas:
+Para trabalhar com ordens de qualidade relacionadas às suas ordens de produção, Acesse **Controle de produção \> Ordens de produção \> Todas as ordens de produção** e siga qualquer uma destas etapas:
 
 - Abra uma ordem de produção ou selecione-a na grade. Em seguida, no Painel de Ações, na guia **Exibir**, no grupo **Gerenciar qualidade**, selecione **Ordens de qualidade** para abrir a página **Ordens de qualidade**. Nela, você poderá exibir, criar ou atualizar ordens de qualidade relacionadas à ordem de produção.
 - Abra uma ordem de produção ou selecione-a na grade. Em seguida, no Painel de Ações, na guia **Ordem de produção**, no grupo **Detalhes da produção**, selecione **Roteiro** para abrir a página **Roteiro de produção**. Para exibir as ordens de qualidade relacionadas a uma operação de roteiro, siga uma destas etapas:
@@ -120,7 +120,7 @@ Para trabalhar com ordens de qualidade relacionadas às suas ordens de produçã
 
 ### <a name="from-quarantine-orders"></a>Nas ordens de quarentena
 
-Para trabalhar com ordens de qualidade relacionadas às suas ordens de quarentena, vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de quarentena** e siga qualquer uma destas etapas:
+Para trabalhar com ordens de qualidade relacionadas às suas ordens de quarentena, Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de quarentena** e siga qualquer uma destas etapas:
 
 - Revise os valores na coluna **Status da ordem de qualidade**. Dessa forma, você pode conhecer o status geral de todas as ordens de qualidade relacionadas a cada ordem de quarentena na grade.
 - Selecione uma ordem de quarentena na grade e, no Painel de Ações, selecione **Ordens de qualidade** para exibir, criar ou atualizar ordens de qualidade relacionadas à ordem de quarentena.
@@ -135,7 +135,7 @@ Por padrão, não é mais possível editar ou atualizar uma ordem de qualidade d
 
 Para reabrir uma ordem de qualidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Abra a ordem de qualidade validada ou selecione-a na grade.
 1. No Painel de Ações, selecione **Reabrir ordem de qualidade**.
 
@@ -147,7 +147,7 @@ O Supply Chain Management permite gerar um CoA com base em uma ordem de qualidad
 
 Para gerar um CoA para uma ordem de qualidade, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
+1. Acesse **Gerenciamento de estoque \> Tarefas periódicas \> Gerenciamento de qualidade \> Ordens de qualidade**.
 1. Selecione a ordem de qualidade para a qual você deseja criar um CoA.
 1. No Painel de Ações, selecione **Consultas \> Certificado de análise**.
 1. Na página **Certificado de análise**, no Painel de Ações, selecione **Novo**.

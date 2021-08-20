@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d34dc520e70852f395c5a19b5347240f07ad1a2c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d720eb51abc6d524b3c58095555cb0940dd8cb962daf8b8e96bb66577aca327e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5839739"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6736900"
 ---
 # <a name="set-up-nf-e-federal-parameters-brazil"></a>Configurar parâmetros federais de NF-e (Brasil)
 
@@ -27,7 +27,7 @@ ms.locfileid: "5839739"
 
 
 
-1. Vá para Administração da organização > Organizações > Notas fiscais eletrônicas > Parâmetros federais de NF-e.
+1. Acesse Administração da organização > Organizações > Notas fiscais eletrônicas > Parâmetros federais de NF-e.
 2. Clique em Novo.
     * Uma autoridade de imposto deve ser criada por estado.  
 3. No campo Autoridade, digite um valor.

@@ -12,12 +12,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c9db2b47744b9e233349d70a6756252a830f0159
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 35adf84f79b0eaa2976b9984dac87aee300ec8daa9af5a2f3eb5fadacd082818
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823609"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6739912"
 ---
 # <a name="pis-and-cofins-fixed-assets-brazil"></a>Ativos fixos de PIS e COFINS (Brasil)
 
@@ -25,7 +25,7 @@ ms.locfileid: "5823609"
 
 Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFINS que é calculado sobre essa transação pode ser adquirido em um número de parcelas específico. Para ter o cálculo correto desta restituição do imposto, a entidade legal deve apresentar um livro fiscal específico ou relatar informações no arquivo Contribuições EFD SPED para demonstrar a apropriação correta do valor do crédito fiscal de PIS e COFINS. O controle de crédito apropriado no período de avaliação de imposto é detalhado em registros F120 e F130 de contribuições de EFD SPED. Esta tarefa usa a empresa de demonstração BRMF.
 
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
+1. Acesse Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
 2. Clique em Novo.
 3. No campo Conta de fornecedor, insira ou selecione um valor.
 4. Clique em OK.
@@ -46,7 +46,7 @@ Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFIN
 19. Clique em Confirmar.
 20. Feche a página.
 21. Feche a página.
-22. Vá para Contas a pagar > Ordens de compra > Todas as ordens de compra.
+22. Acesse Contas a pagar > Ordens de compra > Todas as ordens de compra.
 23. Na lista, clique no link na linha selecionada.
 24. No Painel de Ação, clique em Fatura.
 25. Clique em Fatura.
@@ -60,7 +60,7 @@ Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFIN
 33. Clique em Lançar.
 34. Feche a página.
 35. Feche a página.
-36. Vá para Livros fiscais > Comum > Período de escrituração.
+36. Acesse Livros fiscais > Comum > Período de escrituração.
 37. Clique em Criar novo período de escrituração para abrir a caixa de diálogo suspensa.
 38. No campo Estabelecimento fiscal, insira ou selecione um valor.
 39. No campo Mês, selecione uma opção.
@@ -73,7 +73,7 @@ Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFIN
 46. Clique em OK.
 47. Feche a página.
 48. Feche a página.
-49. Vá para Livros fiscais > Comum > Ativos fixos > Todos os ativos fixos com PIS e COFINS.
+49. Acesse Livros fiscais > Comum > Ativos fixos > Todos os ativos fixos com PIS e COFINS.
 50. Na lista, clique no link na linha selecionada.
 51. Expanda a seção de transações de ativo fixo de PIS e COFINS.
 52. Feche a página.

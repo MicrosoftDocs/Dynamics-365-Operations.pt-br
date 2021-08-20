@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 51e80cf500181601cf6e0d2910b91c429c404f01
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: fb9c0b3cfa34fc61bb568b7d2677647cef495d81c7bfc9521dba0fd5e43482e5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5836437"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738858"
 ---
 # <a name="create-and-edit-sales-quotations"></a>Criar e editar cotações de venda
 
@@ -28,7 +28,7 @@ Este procedimento demonstrativos como criar e atualizar uma cotação de venda. 
 
 
 ## <a name="create-a-sales-quotation"></a>Criar uma cotação de venda
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
 2. Clique em **Novo**.
 3. No campo **Tipo de conta**, selecione 'Cliente potencial'.
 4. No campo **Cliente potencial**, insira ou selecione um valor.
@@ -52,7 +52,7 @@ Este procedimento demonstrativos como criar e atualizar uma cotação de venda. 
 20. Clique em **OK**. O relatório pode levar um minuto para ser gerado. Não feche a página até que isso ocorra.
 
 ## <a name="update-a-sales-quotation"></a>Atualizar uma cotação de venda
-1. Vá para **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
+1. Acesse **Painel de navegação > Módulos > Vendas e marketing > Cotações de venda > Todas as cotações**.
 2. No **Painel de Ação**, clique em **Acompanhamento**.
 3. Clique em **Converter em cliente**.
 4. No campo **Conta de cliente**, digite um valor.
