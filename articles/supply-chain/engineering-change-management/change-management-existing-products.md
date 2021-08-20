@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: be7b17c1049f60379764c5424422ff1ac6ee1770
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5830091"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744169"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar gerenciamento de modificações em produtos existentes
 
@@ -64,7 +64,7 @@ Cada produto de engenharia convertido continuará sendo liberado nas mesmas empr
 
 Siga estas etapas para executar o assistente para **Converter em produto de engenharia** e converta um produto em um produto de engenharia.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Na grade, marque a caixa de seleção para cada produto que você deseja converter.
 1. No Painel de Ações, na guia **Engenharia**, no grupo **Gerenciamento de alterações de engenharia**, selecione **Converter em produto de engenharia** para abrir o assistente.
 1. A primeira página do assistente é a página de **Boas-vindas**. Se ainda não estiver familiarizado com o processo de conversão, leia atentamente as informações nesta página. Quando estiver pronto para continuar, selecione **Avançar**.

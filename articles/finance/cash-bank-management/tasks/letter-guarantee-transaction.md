@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 089515287fc5706983b10614f69b4b1cd90178c5
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 206050a2c60eaeff4776b534e3f366c6998f1756bf2734461fc10b9b83f4539a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5834707"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743088"
 ---
 # <a name="letter-of-guarantee-transaction"></a>Transação da carta de garantia
 
@@ -40,7 +40,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 
 
 ## <a name="create-sales-order-with-letter-of-guarantee"></a>Criar Ordem de venda com a Carta de garantia
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Clique em Novo.
 3. No campo Conta de cliente, insira ou selecione um valor.
 4. Expanda a seção Geral.
@@ -71,7 +71,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 10. Feche a página.
 
 ## <a name="process-letter-of-guarantee_submit-to-bank"></a>Processar carta de garantia ao banco_Enviar ao banco
-1. Vá para Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
+1. Acesse Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
 2. Na lista, localize e selecione o PDV desejado.
 3. Clique em Enviar ao banco para abrir a caixa de diálogo suspensa.
 4. No campo Conta bancária, insira ou selecione um valor.
@@ -91,14 +91,14 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 7. Feche a página.
 
 ## <a name="process-letter-of-guarantee_give-to-beneficiary"></a>Processar carta de garantia_Conceder ao beneficiário
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.
 4. Clique em Carta de garantia.
 5. No Painel de Ação, clique em Carta de garantia.
 6. Clique em Conceder ao beneficiário para abrir a caixa de diálogo suspensa.
 7. Clique em OK.
-8. Vá para Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
+8. Acesse Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
 9. Na lista, localize e selecione o PDV desejado.
 10. Clique em Conceder ao beneficiário para abrir a caixa de diálogo suspensa.
 11. Clique em OK.
@@ -106,7 +106,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
     * Valide o registro 'Conceder ao beneficiário'.  
 
 ## <a name="process-letter-of-guarantee_increase-value"></a>Processar carta de garantia_Aumentar valor
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.
 4. Clique em Carta de garantia.
@@ -114,7 +114,7 @@ Este procedimento usa a empresa de dados de demonstração USMF.
 6. Clique em Aumentar valor para abrir a caixa de diálogo suspensa.
 7. No campo Valor a ser adicionado, insira um número.
 8. Clique em OK.
-9. Vá para Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
+9. Acesse Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
 10. Na lista, localize e selecione o PDV desejado.
 11. Clique em Aumentar valor para abrir a caixa de diálogo suspensa.
 12. Clique em OK.
@@ -126,14 +126,14 @@ Este procedimento usa a empresa de dados de demonstração USMF.
     * Verifique as entradas de diário lançadas.  
 
 ## <a name="process-letter-of-guarantee_liquidate"></a>Processar carta de garantia_Liquidar
-1. Vá para Contas a receber > Ordens > Todas as ordens de venda.
+1. Acesse Contas a receber > Ordens > Todas as ordens de venda.
 2. Na lista, clique no link na linha selecionada.
 3. No Painel de Ação, clique em Gerenciar.
 4. Clique em Carta de garantia.
 5. No Painel de Ação, clique em Carta de garantia.
 6. Clique em Liquidar para abrir a caixa de diálogo suspensa.
 7. Clique em OK.
-8. Vá para Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
+8. Acesse Gerenciamento de caixa e bancos > Cartas de garantia > Cartas de garantia.
 9. Na lista, localize e selecione o PDV desejado.
 10. Clique em Liquidar para abrir a caixa de diálogo suspensa.
 11. Clique em OK.

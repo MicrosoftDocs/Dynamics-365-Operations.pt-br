@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: ba978a3d895394760687386197dbb3512c62ef98
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: ff6fb42cd0b080ff576aa3a784cfce985d69fe0347af44dfa9935b4e8e5ffe00
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5798552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743350"
 ---
 # <a name="create-and-associate-registers"></a>Criar e associar registros
 
@@ -27,7 +27,7 @@ ms.locfileid: "5798552"
 
 Este procedimento demonstra como criar um registro do ponto de venda (POS). Este procedimento usa a empresa de dados de demonstração USRT.
 
-1. Vá para Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.
+1. Acesse Varejo e Comércio > Configuração de canal > Configuração do PDV > Terminais.
 2. Clique em Novo.
 3. No campo Registrar número, digite uma ID para o novo registro.
     * A identificação do registro inclui tipicamente os códigos que ajudam a traçar o registro à loja que pertence e ao lugar dentro da loja.  

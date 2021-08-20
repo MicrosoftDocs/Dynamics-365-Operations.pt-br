@@ -3,7 +3,6 @@ title: Lista de funções ER na categoria contêiner
 description: Este tópico fornece informações sobre as funções de contêiner que são compatíveis no relatório eletrônico (ER).
 author: NickSelin
 ms.date: 12/14/2020
-ms.topic: article
 ms.prod: ''
 ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
@@ -15,18 +14,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2020-12-01
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: 95f207538ea4f0f7df775bf28d0dcf6529d1a91c
-ms.sourcegitcommit: 074b6e212d19dd5d84881d1cdd096611a18c207f
+ms.openlocfilehash: 522fc6b8ad414745c3949268d9690aa2d258b92971e7d7b4f82428398bfec170
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5753231"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760089"
 ---
 # <a name="list-of-er-functions-in-the-container-category"></a>Lista de funções ER na categoria contêiner
 
 [!include [banner](../includes/banner.md)]
 
-As [funções](er-formula-language.md#functions) de [relatório eletrônico (ER)](general-electronic-reporting.md) podem ser usadas para realizar operações em fontes de dados do tipo de dado *Contêiner*. Essas operações ocorrem quando os dados de processamento representam uma coleção de dados binários no formato de objeto binário grande (BLOB). Este tópico fornece um resumo dessas funções.
+As [funções](er-formula-language.md#Functions) de [relatório eletrônico (ER)](general-electronic-reporting.md) podem ser usadas para realizar operações em fontes de dados do tipo de dado *Contêiner*. Essas operações ocorrem quando os dados de processamento representam uma coleção de dados binários no formato de objeto binário grande (BLOB). Este tópico fornece um resumo dessas funções.
 
 ## <a name="list-of-supported-functions"></a>Lista de funções com suporte
 

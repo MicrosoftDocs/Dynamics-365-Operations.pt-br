@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kailiang
 ms.search.validFrom: 2021-02-12
 ms.dyn365.ops.version: AX 10.0.17
-ms.openlocfilehash: ea57963e41b90bbc11efa00b85aad8bc60c2357d
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 28afd04b1c341985f7ac15e05aba7a9039a59d869dd5bc60b4163d2ba1ae4ec0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6023030"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6750331"
 ---
 # <a name="tds-calculation-on-payments-and-promissory-notes"></a>Cálculo de TDS para pagamentos e notas promissórias
 
@@ -83,11 +83,11 @@ Siga estas etapas para gerar os pagamentos.
 
 1. Siga uma destas etapas:
 
-    - Vá para **Contas a pagar \> Pagamentos \> Diário de pagamentos do fornecedor**.
+    - Acesse **Contas a pagar \> Pagamentos \> Diário de pagamentos do fornecedor**.
     - Acesse **Contas a receber \> Pagamentos \> Diário de pagamento do cliente**.
-    - Vá para **Contas a pagar \> Pagamentos \> Notas promissórias \> Emitir diário de notas promissórias**.
-    - Vá para **Contas a receber \> Pagamentos \> Letra de câmbio \> Emitir diário de letras de câmbio**.
-    - Vá para **Contas a receber \> Pagamentos \> Letra de câmbio \> Reemitir diário de letras de câmbio**.
+    - Acesse **Contas a pagar \> Pagamentos \> Notas promissórias \> Emitir diário de notas promissórias**.
+    - Acesse **Contas a receber \> Pagamentos \> Letra de câmbio \> Emitir diário de letras de câmbio**.
+    - Acesse **Contas a receber \> Pagamentos \> Letra de câmbio \> Reemitir diário de letras de câmbio**.
 
 2. Selecione **Linhas**.
 3. Selecione **Funções \> Gerar pagamentos**.

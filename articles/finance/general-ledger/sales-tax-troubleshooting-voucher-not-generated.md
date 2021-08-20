@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: 82357b7fe00b93715f44eb024ac78d7cc1adca84
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 1fbd5b5bb4a1d2a0c498b2abac82bd6f5ff3f1d2ed9960885eb8f44cbb17884d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6356092"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759863"
 ---
 # <a name="voucher-isnt-generated"></a>O comprovante não é gerado
 
@@ -30,7 +30,7 @@ Se um comprovante deve ser gerado, mas a página **Transações de comprovante**
 
 ## <a name="check-the-tax-applicability"></a>Verificar a aplicabilidade do imposto
 
-1. Vá para **Imposto** \> **Tarefas periódicas** \> **Entradas no diário-razão auxiliar ainda não transferidas**.
+1. Acesse **Imposto** \> **Tarefas periódicas** \> **Entradas no diário-razão auxiliar ainda não transferidas**.
 2. Se houver um registro de diário, selecione-o e, em seguida, selecione **Transferir agora**.
 
     [![Botão Transferir agora na página Entradas no diário-razão auxiliar ainda não transferidas.](./media/voucher-not-generated-Picture2.png)](./media/voucher-not-generated-Picture2.png)

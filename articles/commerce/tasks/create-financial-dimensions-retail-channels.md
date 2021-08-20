@@ -13,12 +13,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0212d3bd808b2a46fa30e8b2bdaa3c0b52ca0dd6
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: b98c37ad7695e81dbbd9558217287c868e052d08415d6d5c5d6055b5f9755eac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5790923"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769334"
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 
@@ -26,7 +26,7 @@ ms.locfileid: "5790923"
 
 Este procedimento mostra como criar uma dimensão financeira de canal de comércio com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas. O tópico não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta. Este procedimento usa a empresa USRT nos dados de demonstração.
 
-1. Vá para Contabilidade > Plano de contas > Dimensões > Dimensões financeiras.
+1. Acesse Contabilidade > Plano de contas > Dimensões > Dimensões financeiras.
 2. Clique em Novo.
 3. No campo Usar valores de, selecione 'Canais de comércio'.
 4. No campo Nome da dimensão, digite um valor.
@@ -37,7 +37,7 @@ Este procedimento mostra como criar uma dimensão financeira de canal de comérc
 9. Feche a página.
 10. Clique em Salvar.
 11. Feche a página.
-12. Vá para Retail e Commerce > Canais > Lojas > Todas as lojas.
+12. Acesse Retail e Commerce > Canais > Lojas > Todas as lojas.
 13. Na lista, clique no link na linha selecionada.
 14. Ative a expansão da seção Dimensões financeiras.
 15. Clique em Editar.

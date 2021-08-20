@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 189a420089db7612a6f1b9f8a74b36b72a750c17
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345927"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770011"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar um formato de ER para gerar um documento eletrônico personalizado
 
@@ -92,7 +92,7 @@ Como usuário na função de Consultor Funcional de Relatório Eletrônico, voc�
 
 ### <a name="configure-er-parameters"></a><a id="ConfigureParameters"></a>Configurar parâmetros de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Parâmetros de relatório eletrônico**.
 3. Na página **Parâmetros de relatório eletrônico**, na guia **Geral**, defina a opção **Habilitar modo de design** como **Sim**.
 4. Na guia **Anexos**, defina os seguintes parâmetros:
@@ -111,13 +111,13 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="review-the-list-of-er-configuration-providers"></a><a id="ReviewProvidersList"></a>Examinar a lista de provedores de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Tabela de provedores de configuração**, cada registro de provedor tem um nome e uma URL exclusivos. Examine o conteúdo dessa página. Se já existir um registro para **Litware, Ltda.** (`https://www.litware.com`), ignore o próximo procedimento, [Adicionar um novo provedor de configuração de ER](#ActivateProvider).
 
 #### <a name="add-a-new-er-configuration-provider"></a><a id="ActivateProvider"></a>Adicionar um novo provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Links relacionados**, selecione **Provedores de configuração**.
 3. Na página **Provedores de configuração**, selecione **Novo**.
 4. No campo **Nome**, insira **Litware, Ltda.**
@@ -126,7 +126,7 @@ Toda configuração de ER adicionada é marcada como pertencente a um provedor d
 
 #### <a name="activate-an-er-configuration-provider"></a><a id="ActivateAddedProvider"></a>Ativar um provedor de configuração de ER
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Litware, Ltda.** e, depois, **Definir como ativo**.
 
 Para obter mais informações sobre provedores de configuração de ER, consulte [Criar provedores de configuração e marcá-los como ativos](tasks/er-configuration-provider-mark-it-active-2016-11.md).
@@ -137,7 +137,7 @@ Para obter mais informações sobre provedores de configuração de ER, consulte
 
 Para adicionar as configurações de ER padrão à instância atual do Microsoft Dynamics 365 Finance, você deve importá-las do [repositório](general-electronic-reporting.md#Repository) de ER configurado para essa instância.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor Microsoft.
 3. Na página **Repositórios de configuração**, selecione o repositório do tipo **Global** e, depois, selecione **Abrir**. Se você precisar de autorização para se conectar ao Regulatory Configuration Service, siga as instruções de autorização.
 4. Na página **Repositório de configuração**, na árvore de configuração no painel esquerdo, selecione a configuração de formato **BACS (Reino Unido)**.
@@ -151,7 +151,7 @@ Para adicionar as configurações de ER padrão à instância atual do Microsoft
 
 ### <a name="review-the-imported-er-configurations"></a><a id="ReviewImportedERSolution"></a>Examinar as configurações de ER importadas
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento**.
 4. Observe que, além do formato de ER **BACS (Reino Unido)** selecionado, outras configurações de ER necessárias foram importadas. Verifique se as seguintes configurações de ER estão disponíveis na árvore de configuração:
@@ -196,7 +196,7 @@ Você deve adicionar as informações bancárias de uma conta de fornecedor que 
 
 Você deve inserir um novo pagamento de fornecedor usando uma [proposta de pagamento](../../../finance/accounts-payable/create-vendor-payments-payment-proposal.md).
 
-1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Na página **Diário de pagamentos do fornecedor**, selecione **Novo**.
 3. No campo **Nome**, selecione **VendPay**.
 4. Selecione **Linhas**.
@@ -216,7 +216,7 @@ Você deve inserir um novo pagamento de fornecedor usando uma [proposta de pagam
 
 Você deve configurar o método de pagamento eletrônico para que ele use a configuração do formato de ER importado.
 
-1. Vá para **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
+1. Acesse **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
 2. Na página **Métodos de pagamento - Fornecedores**, selecione o método de pagamento **Eletrônico** no painel esquerdo.
 3. Selecione **Editar**.
 4. Na FastTab **Formatos de arquivo**, defina a opção **Formato de exportação eletrônico geral** como **Sim**.
@@ -228,7 +228,7 @@ Você deve configurar o método de pagamento eletrônico para que ele use a conf
 
 ### <a name="process-a-vendor-payment"></a><a id="ProcessPayment1"></a>Processar um pagamento de fornecedor
 
-1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Na página **Diário de pagamentos do fornecedor**, selecione o diário de pagamento adicionado inicialmente e, depois, **Linhas**.
 3. Na página **Pagamentos de fornecedores**, selecione **Gerar pagamentos**.
 4. Na caixa de diálogo **Gerar pagamentos**, insira as seguintes informações:
@@ -261,7 +261,7 @@ Neste caso, como representante da Litware, Ltda., você deve criar (derivar) uma
 
 ### <a name="create-a-custom-format"></a><a id="DeriveProvidedFormat"></a>Criar uma formato personalizado
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **BACS (Reino Unido)**. A Litware, Ltda. usará a versão 1.1 dessa configuração do formato de ER como base para a versão personalizada.
 3. Selecione **Criar configuração** para abrir a caixa de diálogo suspensa. Você pode usar essa caixa de diálogo para criar uma nova configuração para um formato de pagamento personalizado.
 4. No grupo de campos **Novo**, selecione a opção **Derivar de Nome: BACS (Reino Unido), Microsoft**.
@@ -279,7 +279,7 @@ A versão 1.1.1 da configuração do formato de ER **BACS (personalizado do Rein
 
 Você deve configurar um formato personalizado de modo que ele atenda a requisitos específicos do banco. Por exemplo, um banco pode exigir que os arquivos de pagamento gerados incluam o código SWIFT (Society for Worldwide Interbank Financial Telecommunication) de um banco que tem a função de agente no pagamento de fornecedor processado. Os códigos SWIFT são códigos bancários internacionais que identificam bancos específicos em todo o mundo. Também são conhecidos como códigos identificadores bancários (BICs). O código SWIFT deve ter 11 caracteres e deve ser inserido no início de cada linha de pagamento em um arquivo de pagamento gerado.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **BACS (personalizado do Reino Unido)**.
 3. Na FastTab **Versões**, selecione a versão **1.1.1** da configuração selecionada.
 4. Selecione **Designer**.
@@ -328,7 +328,7 @@ Agora que a primeira versão do formato personalizado foi criada e tem o status 
 
 Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER explicitamente.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Na caixa de diálogo **Parâmetros de usuário**, defina a opção **Executar configurações** como **Sim** e selecione **OK**.
 4. Selecione **Editar** para tornar a página atual editável, conforme necessário.
@@ -343,7 +343,7 @@ Para usar a versão de rascunho de um formato de ER, você deve marcar o formato
 
 Você deve configurar o método de pagamento eletrônico para que seu formato de ER personalizado seja usado para processar pagamentos de fornecedor.
 
-1. Vá para **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
+1. Acesse **Contas a pagar** \> **Configuração de pagamento** \> **Métodos de pagamento**.
 2. Na página **Métodos de pagamento - Fornecedores**, selecione o método de pagamento **Eletrônico** no painel esquerdo.
 3. Selecione **Editar**.
 4. Na FastTab **Formato de arquivo**, defina a opção **Formato de exportação eletrônico geral** como **Sim**.
@@ -355,7 +355,7 @@ Você deve configurar o método de pagamento eletrônico para que seu formato de
 
 ### <a name="process-a-vendor-payment"></a><a id="ProcessPayment2"></a>Processar um pagamento de fornecedor
 
-1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Na página **Diário de pagamentos do fornecedor**, selecione o diário de pagamento que você criou anteriormente.
 3. Selecione **Linhas**.
 4. Na página **Pagamentos de fornecedores**, acima da grade, selecione **Status do pagamento** \> **Nenhum**.
@@ -388,7 +388,7 @@ Para o exemplo mostrado nesta seção, você recebe uma notificação sobre o ar
 
 Para adicionar novas versões das configurações de ER à instância atual do Finance, você deve importá-las do [repositório](general-electronic-reporting.md#Repository) de ER que configurou.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Provedores de configuração**, selecione o bloco **Microsoft** e, depois, selecione **Repositórios** para ver a lista de repositórios do provedor Microsoft.
 3. Na página **Repositórios de configuração**, selecione o repositório do tipo **Global** e, depois, selecione **Abrir**. Se você precisar de autorização para se conectar ao Regulatory Configuration Service, siga as instruções de autorização.
 4. Na página **Repositório de configuração**, na árvore de configuração no painel esquerdo, selecione a configuração de formato **BACS (Reino Unido)**.
@@ -402,7 +402,7 @@ Para adicionar novas versões das configurações de ER à instância atual do F
 
 ### <a name="review-the-imported-er-format-configurations"></a><a id="ReviewImportedERFormat"></a>Examinar as configurações do formato de ER importado
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **BACS (Reino Unido)**.
 4. Na Guia Rápida **Versões**, selecione a versão **3.3**.
@@ -420,7 +420,7 @@ Para adicionar novas versões das configurações de ER à instância atual do F
 
 Se você quiser manter o estado atual do seu formato personalizado, conclua a versão de rascunho 1.1.1 alterando o status de **Rascunho** para **Concluído**.
 
-1. Vá para **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
+1. Acesse **Administração da organização** \> **Espaços de trabalho** \> **Relatório eletrônico**.
 2. Na página **Configurações de localização**, na seção **Configurações**, selecione o título **Configurações de relatórios**.
 3. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento**, expanda **BACS (Reino Unido)** e selecione **BACS (personalizado do Reino Unido)**.
 4. Na FastTab **Versões**, selecione **Alterar status** \> **Concluído** e clique em **OK**.
@@ -431,7 +431,7 @@ O status da versão 1.1.1 muda de **Rascunho** para **Concluído** e a versão s
 
 Para começar a usar a nova funcionalidade da versão 3.3 do formato **BACS (Reino Unido)** na sua personalização, você deve alterar a versão de configuração base da configuração personalizada, **BACS (personalizado do Reino Unido)**. Esse processo é conhecido como [troca de base](general-electronic-reporting.md#upgrading-a-format-selecting-a-new-version-of-base-format-rebase). Em vez da versão 1.1 de **BACS (Reino Unido)**, use a versão 3.3.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, na árvore de configuração no painel esquerdo, expanda **Modelo de pagamento** e selecione **BACS (personalizado do Reino Unido)**.
 3. Na FastTab **Versões**, selecione a versão **1.1.2** e, depois, **Trocar base**.
 4. Na caixa de diálogo **Trocar base**, no campo **Versão de destino**, selecione a versão **3.3** da configuração base para aplicá-la como a nova base e usá-la para atualizar a configuração.
@@ -474,7 +474,7 @@ Para começar a usar a nova funcionalidade da versão 3.3 do formato **BACS (Rei
 
 ### <a name="process-a-vendor-payment-by-using-a-rebased-er-format"></a><a id="ProcessPayment3"></a>Processar um pagamento de fornecedor usando o formato de ER com troca de base
 
-1. Vá para **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
+1. Acesse **Contas a pagar** \> **Pagamentos** \> **Diário de pagamentos do fornecedor**.
 2. Na página **Diário de pagamentos do fornecedor**, selecione o diário de pagamento que você criou anteriormente.
 3. Selecione **Linhas**.
 4. Na página **Pagamentos de fornecedores**, acima da grade, selecione **Status do pagamento** \> **Nenhum**.

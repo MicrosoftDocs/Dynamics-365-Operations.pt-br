@@ -14,12 +14,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 647e721a0616ceae387322517f2955d75c06bfd2
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 4187381b838825b21a354eeecdf48693d919975b07a881ba32d234135694ad06
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5828745"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6754575"
 ---
 # <a name="define-lean-schedule-groups"></a>Definir grupos de agendamento de lean manufacturing
 
@@ -29,7 +29,7 @@ Os grupos de agendamento de lean manufacturing são definidos para agrupar e dis
 
 
 ## <a name="define-lean-scheduling-group"></a>Definir grupo de agendamento de lean manufacturing
-1. Vá para Gerenciamento de informações do produto > Lean manufacturing > Grupos de agendamento de lean manufacturing.
+1. Acesse Gerenciamento de informações do produto > Lean manufacturing > Grupos de agendamento de lean manufacturing.
 2. Clique em Novo.
 3. No campo Grupo de agendamento, digite um valor.
     * Um grupo de agendamento pode ser definido como o grupo global ou específico para uma célula de trabalho. Neste exemplo simples, definimos um grupo global e a célula de trabalho é mantida em branco. As configurações deste grupo se aplicam a todas as células de trabalho que não tenham grupos de agendamento específicos.  

@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: damadipa
 ms.search.validFrom: 2020-07-15
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: 15e8696b2bfa9f1df3cecd2d98b9ad2f6c5d6000
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: a5e7386c900ff8879cc90e311dfc098a47e10acc414d9a1c5f39ada381850167
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5829465"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6767427"
 ---
 # <a name="dual-use-goods"></a>Mercadorias de uso duplo
 
@@ -50,7 +50,7 @@ Países diferentes têm requisitos diferentes para mercadorias de uso duplo. Use
 
 Para configurar as informações sobre requisitos de uso duplo para países diferentes, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Configuração de país de uso duplo**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Configuração de país de uso duplo**.
 2. Selecione uma configuração de país existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova configuração de país.
 3. Defina os valores a seguir para a configuração de país nova ou selecionada.
 
@@ -65,7 +65,7 @@ As mercadorias de uso duplo geralmente devem ser categorizadas de acordo com seu
 
 Para configurar categorias de uso duplo, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Categorias de uso duplo**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Categorias de uso duplo**.
 2. Selecione uma categoria existente para editá-la ou selecione **Novo** no Painel de Ação para criar uma nova categoria.
 3. Defina os valores a seguir para a categoria nova ou selecionada.
 
@@ -80,7 +80,7 @@ Para configurar categorias de uso duplo, siga estas etapas.
 
 Para identificar um produto como uma mercadoria de uso duplo e aplicar uma categoria de uso duplo a ele, siga estas etapas.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. Selecione ou crie um produto para abrir sua página **Detalhes do produto liberado**.
 1. Na Guia Rápida **Comércio exterior**, defina a opção **Produtos de uso duplo** como **Sim** para identificar o produto atual como uma mercadoria de uso duplo.
 1. Defina o campo **Código de uso duplo** como o código que se aplica ao produto atual. (Você definiu esse código na página **Categorias de uso duplo** .)
@@ -91,7 +91,7 @@ Essa configuração é verificada quando você cria uma ordem de venda.
 
 Use a página **Certificados de uso duplo** para configurar e gerenciar os certificados de uso duplo necessários para cada produto e país. Você pode acompanhar os detalhes de cada certificado, como o país e as datas de validade. Você também pode definir opções para especificar onde essas informações devem ser impressas. Por exemplo, as informações podem ser impressas na fatura, na guia de remessa e/ou na ordem de venda. Essa configuração é verificada quando você cria uma ordem de venda.
 
-1. Vá para **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Certificados de uso duplo**.
+1. Acesse **Gerenciamento de informações sobre produtos \> Configuração \> Conformidade de produtos \> Produtos de uso duplo \> Certificados de uso duplo**.
 2. Selecione um certificado existente para editá-lo ou selecione **Novo** no Painel de Ação para criar um novo certificado.
 3. Defina os valores a seguir para o certificado novo ou selecionado.
 

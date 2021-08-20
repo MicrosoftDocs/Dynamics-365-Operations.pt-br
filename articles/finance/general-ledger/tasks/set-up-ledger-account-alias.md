@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cf5a0f233971fd7b84bb85c43bb0c0d585f0945a
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 60e1dc0e61fd11e5498966031fbe7e6e65af2c6f57a820e1c99df05c6ad7f8f2
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5838780"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6745787"
 ---
 # <a name="set-up-a-ledger-account-alias"></a>Configurar um alias de conta contábil
 
@@ -26,7 +26,7 @@ ms.locfileid: "5838780"
 
 Este procedimento mostra como criar um apelido de conta que fornece um atalho para inserir um número de conta. Este procedimento usa a empresa de dados de demonstração USMF.
 
-1. Vá para Contabilidade > Plano de contas > Contas > Apelido da conta contábil.
+1. Acesse Contabilidade > Plano de contas > Contas > Apelido da conta contábil.
 2. Clique em Novo.
 3. No campo Apelido da conta contábil, digite um valor.
 4. No campo Estrutura de conta, selecione a estrutura à qual a conta e as dimensões pertencem.

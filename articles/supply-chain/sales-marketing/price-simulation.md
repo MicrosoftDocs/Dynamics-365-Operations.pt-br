@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1d2c6bf3d13f11482ab31d71e804144d0c5f54db
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: d2262e4149df88068e59567595b9c20812532370dcc25acf850a9e21fd5a6e4b
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5807791"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6738882"
 ---
 # <a name="price-simulation"></a>Simulação de preço
 
@@ -79,7 +79,7 @@ A tabela a seguir mostra as linhas de cotação.
 | Margem de contribuição em USD | 318,20 – 184,96                      | 133,24   |
 | Índice de contribuição         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
-Você executa uma simulação de preços e aplica um desconto total de 15 por cento em toda a cotação ou no cabeçalho da cotação. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço.
+Você executa uma simulação de preços e aplica um desconto total de 15% em toda a cotação ou no cabeçalho da cotação. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço.
 
 |     &nbsp;                                           | Cálculo                               | Resultado   |
 |------------------------------------------------------|-------------------------------------------|----------|
@@ -118,7 +118,7 @@ A tabela a seguir mostra as linhas de cotação.
 | Margem de contribuição total em USD     | 318,20 – 184,96                      | 133,24   |
 | Índice de contribuição total             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
-Você executa uma simulação de preços e aplica um desconto total de 10 por cento em unidades BR-12. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço para o item de única linha.
+Você executa uma simulação de preços e aplica um desconto total de 10% em unidades BR-12. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço para o item de única linha.
 
 |    &nbsp;                                         | Cálculo                             | Resultado   |
 |---------------------------------------------------|-----------------------------------------|----------|

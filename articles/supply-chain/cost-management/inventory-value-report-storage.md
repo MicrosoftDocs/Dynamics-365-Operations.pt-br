@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2020-04-17
 ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: f32e175319d93ed1323129f1ea2896a435d8081c
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 15c27696a7f810b275cc9daf155d030d01bb725c69ce1a05b2f3a2d0a52899ac
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5821552"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6764899"
 ---
 # <a name="inventory-value-storage-report"></a>Relatório de armazenamento de valor de estoque
 
@@ -44,7 +44,7 @@ Antes de gerar um relatório de **Armazenamento de valor de estoque**, você dev
 
 Siga estas etapas para gerar e armazenar um relatório de **Armazenamento de valor de estoque**.
 
-1. Vá para **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de valor de estoque**.
+1. Acesse **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de valor de estoque**.
 1. Selecione **Novo**.
 1. Na caixa de diálogo **Valor do estoque** que aparece, defina os valores a seguir para definir quais registros serão incluídos no relatório:
 
@@ -63,7 +63,7 @@ Depois que o trabalho em lotes for concluído, o relatório será listado na pá
 
 Depois de gerar um relatório, você pode visualizá-lo e explorá-lo a qualquer momento seguindo estas etapas.
 
-1. Vá para **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de valor de estoque**.
+1. Acesse **Gerenciamento de custos \> Consultas e relatórios \> Armazenamento do relatório de valor de estoque**.
 1. Selecione um relatório na lista.
 1. Selecione **Exibir detalhes** para mostrar o conteúdo do relatório.
 1. Explore o relatório seguindo estas etapas:
@@ -78,7 +78,7 @@ Todos relatórios que você gera é armazenado na entidade de dados **Valor do e
 
 O exemplo a seguir mostra como exportar um relatório **Relatório de valor de estoque**.
 
-1. Vá para **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
+1. Acesse **Administração de sistema \> Locais de trabalho \> Gerenciamento de dados**.
 1. Na seção **Importar/Exportar**, selecione o bloco **Exportar**. 
 1. Na página **Exportar** que aparece, você configurará o trabalho de exportação. Primeiro, insira um nome de grupo para o trabalho.
 1. Na seção **Entidades selecionadas**, selecione **Adicionar entidade**.

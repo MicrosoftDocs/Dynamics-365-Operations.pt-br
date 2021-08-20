@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: anupamar
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fcfed3ba6fe9cee225762e3b2ede4427c14cbc62
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: f97e5800785c84d7d804c7af8bffd7bfbccc95a5951d560996f4ca586069392e
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5799724"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6740446"
 ---
 # <a name="browser-requirements-for-dynamics-365-commerce-sites"></a>Requisitos de navegador para sites do Dynamics 365 Commerce
 
@@ -28,7 +28,7 @@ ms.locfileid: "5799724"
 
 Este tópico aborda os requisitos do navegador para sites do Microsoft Dynamics 365 Commerce.
 
-Os sites do Dynamics 365 Commerce têm melhor suporte dos navegadores da Web a seguir. Para localizar a versão mais recente de cada navegador, vá para o site do fabricante do software.
+Os sites do Dynamics 365 Commerce têm melhor suporte dos navegadores da Web a seguir. Para localizar a versão mais recente de cada navegador, Acesse o site do fabricante do software.
 
 - [Microsoft Edge](https://www.microsoft.com/edge) (até a versão atual menos 1)
 - [Mozilla Firefox](https://www.mozilla.org/firefox/new) (até a versão atual menos 1)

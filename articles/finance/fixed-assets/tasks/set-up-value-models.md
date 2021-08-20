@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1131af52749854347fb92ec578e79ea601b93aed
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5819569"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741527"
 ---
 # <a name="set-up-value-models"></a>Configurar modelos de depreciação
 
@@ -28,7 +28,7 @@ Este procedimento mostra a você como criar um novo registro de ativos fixos e a
 
 
 ## <a name="create-a-book"></a>Criar um registro
-1. Vá para Ativos fixos > Configuração > Registros.
+1. Acesse Ativos fixos > Configuração > Registros.
 2. Clique em Novo.
 3. No campo Registro, digite um valor.
 4. No campo Descrição, digite um valor.

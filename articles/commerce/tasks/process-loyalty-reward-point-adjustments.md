@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 7eae943985cc2bd706c0c3c4ec7b0470e3a54bff
-ms.sourcegitcommit: 3cdc42346bb653c13ab33a7142dbb7969f1f6dda
+ms.openlocfilehash: 07008234255102e6094e362edcadb116158e9ee770d782fbb654bfc1ce000285
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5802614"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6757336"
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a>Processar ajustes dos pontos de premiação de fidelidade
 
@@ -27,7 +27,7 @@ ms.locfileid: "5802614"
 
 Este procedimento demonstra como procurar informações de cartão-fidelidade e ajustar pontos de recompensa de fidelidade. A empresa de dados de demonstração usada para criar esta tarefa é USRT. Esta tarefa se destina à função Gerente de operações de comércio ou a uma função Gerente de atendimento ao consumidor.
 
-1. Vá para Cartões-fidelidade.
+1. Acesse Cartões-fidelidade.
 2. Na lista, localize e selecione o PDV desejado.
 3. Na lista, clique no link na linha selecionada.
 4. Clique em Transações de cartão.

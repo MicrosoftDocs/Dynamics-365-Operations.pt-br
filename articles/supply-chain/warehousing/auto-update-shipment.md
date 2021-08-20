@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: efa672bc264a39a4356e1581a6401cb331522c17
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 69d20615eb72b036659fe99b140ca18b1fb529bf5ec03bf9390615ea315e9202
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5810524"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6760241"
 ---
 # <a name="shipment-auto-updates"></a>Atualizações automáticas de remessas
 
@@ -55,7 +55,7 @@ Para este cenário, você deve ter os dados de demonstração instalados e deve 
 
 Para ativar a funcionalidade de atualização automática de remessas, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Depósito \> Depósitos**.
 2. Selecione o depósito **24**.
 3. Na Guia Rápida **Depósito**, no campo **Atualização automática de remessas**, altere o valor de **Em redução de quantidade** para **Sempre**.
 
@@ -65,7 +65,7 @@ Depois de alterar o valor para **Sempre**, qualquer aumento ou redução nas qua
 
 Para configurar o modelo da onda de modo que ele não processe as linhas de carga automaticamente, siga essas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 2. Selecione o modelo de onda **Padrão de remessa 24**.
 3. Selecione **Editar**.
 4. Na Guia Rápida **Geral**, defina a opção **Automatizar criação da onda** como **Sim** e verifique se todas as outras opções estão definidas como **Não**.
@@ -76,7 +76,7 @@ Para configurar o modelo da onda de modo que ele não processe as linhas de carg
 
 Para criar uma ordem de venda, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 2. Selecione o cliente **US-003**.
 3. Crie uma linha para o número de item **A0001**.
 4. Insira a quantidade **10**. (Verifique se você está usando o depósito **24**.)
@@ -89,7 +89,7 @@ Como você alterou o modelo de onda no procedimento anterior, nenhuma carga ou t
 
 Para reduzir a quantidade em uma linha da ordem de venda, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 2. Selecione a ordem de venda que você acabou de liberar para o depósito.
 3. Selecione a linha da ordem de venda. No campo **Quantidade**, altere o valor de **10** para **8**.
 4. Na linha da ordem de venda, selecione **Depósito \> Detalhes da remessa**. Na página **Detalhes da remessa**, na Guia Rápida **Linhas de carga**, a quantidade reflete a alteração na linha da ordem de venda.
@@ -98,7 +98,7 @@ Para reduzir a quantidade em uma linha da ordem de venda, siga estas etapas.
 
 Para aumentar a quantidade em uma linha da ordem de venda, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 2. Selecione a ordem de venda que você já liberou para o depósito.
 3. Altere a quantidade da linha de **8** para **12**.
 4. Selecione **Salvar**.
@@ -114,7 +114,7 @@ Embora a quantidade na linha de carga tenha aumentado de 8 para 12, apenas oito 
 
 Para adicionar uma linha da ordem de venda, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordens de venda \> Todas as ordens de venda**.
 2. Selecione a ordem de venda que você já liberou para o depósito.
 3. Crie uma linha para o número de item **A0002**.
 4. No campo **Quantidade**, insira **10**. (Verifique se você está usando o depósito **24**.) A nova linha é adicionada automaticamente à remessa existente.
@@ -128,7 +128,7 @@ Como a linha da ordem de venda que você acabou de adicionar à remessa existent
 
 Para processar a onda, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
+1. Acesse **Gerenciamento de depósito \> Ondas de saída \> Ondas de remessa \> Todas as ondas**.
 2. Selecione a onda que você já criou.
 3. No Painel de Ação, na guia **Onda**, no grupo **Onda**, selecione **Processar**.
 

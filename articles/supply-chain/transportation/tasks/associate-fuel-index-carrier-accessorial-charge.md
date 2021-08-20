@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf588517930260eaf23a2b917267a44aec479fcc
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: f1288867dbfee12f0fd50550aa8974d692ac271bb4b6bdbbd1e2423cd8d3413a
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5831521"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6756017"
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associar um índice de combustível a uma transportadora como um encargo suplementar
 
@@ -29,14 +29,14 @@ Este guia mostra como criar uma atribuição suplementar, um encargo suplementar
 
 
 ## <a name="create-an-accessorial-master"></a>Crie um mestre suplementar
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Mestres suplementares.
 2. Clique em Novo.
 3. No campo Mestre suplementar, digite um valor.
 4. No campo Nome, digite um valor.
 5. Clique em Salvar.
 
 ## <a name="create-a-carrier-accessorial-charge"></a>Crie um encargo suplementar da transportadora
-1. Vá para Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares da transportadora.
+1. Acesse Gerenciamento de transporte > Configurar > Classificação > Encargos suplementares da transportadora.
 2. Clique em Novo.
 3. No campo ID suplementar da transportadora, digite um valor.
 4. No campo Transportadora, clique no botão suspenso para abrir a pesquisa.
@@ -67,7 +67,7 @@ Este guia mostra como criar uma atribuição suplementar, um encargo suplementar
 12. Clique em Salvar.
 
 ## <a name="update-the-carrier-rating-profile"></a>Atualize o perfil de classificação da transportadora
-1. Vá para Gerenciamento de transporte > Configuração > Transportadoras > Transportadoras de envio.
+1. Acesse Gerenciamento de transporte > Configuração > Transportadoras > Transportadoras de envio.
 2. Na lista, localize e selecione o PDV desejado.
 3. Ative a expansão da seção Perfis de classificação.
 4. Clique em Editar.

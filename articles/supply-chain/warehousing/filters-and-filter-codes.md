@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-01-04
 ms.dyn365.ops.version: Release 10.0.16
-ms.openlocfilehash: 8c5574efeb1dee372a8ecf8ddb1d1710f63b73a7
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 6302d596245e058ae0c25fbd91333dbf050e21db5b48f6893131ec1a561e046d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6345225"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6768537"
 ---
 # <a name="configure-product-filters-for-warehouse-transactions"></a>Configurar filtros de produto para transações de depósito
 
@@ -34,14 +34,14 @@ A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes de
 
 | Pré-requisito | Instruções |
 |---|---|
-| Antes de começar a configurar produtos na página **Detalhes do produto liberado**, você deve ativar o processamento de depósito para o grupo de dimensões de armazenamento do produto. | Vá para **Gerenciamento de informações de produto \> Configuração \> Dimensões e grupos de variantes \> Grupos de dimensões de armazenamento** e selecione ou crie um grupo de dimensões de armazenamento em que a opção **Usar processos de gerenciamento de depósito** está definida como *Sim*. |
-| Se você usar filtros de cliente e/ou filtros de fornecedor, será necessário habilitar o uso deles nos parâmetros de gerenciamento de depósito. | Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Filtros de produto**, defina a opção **Habilitar filtros do cliente** e/ou **Habilitar filtros do fornecedor** como *Sim*. |
+| Antes de começar a configurar produtos na página **Detalhes do produto liberado**, você deve ativar o processamento de depósito para o grupo de dimensões de armazenamento do produto. | Acesse **Gerenciamento de informações de produto \> Configuração \> Dimensões e grupos de variantes \> Grupos de dimensões de armazenamento** e selecione ou crie um grupo de dimensões de armazenamento em que a opção **Usar processos de gerenciamento de depósito** está definida como *Sim*. |
+| Se você usar filtros de cliente e/ou filtros de fornecedor, será necessário habilitar o uso deles nos parâmetros de gerenciamento de depósito. | Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**. Na guia **Filtros de produto**, defina a opção **Habilitar filtros do cliente** e/ou **Habilitar filtros do fornecedor** como *Sim*. |
 
 ## <a name="set-up-product-filters"></a>Configurar os filtros de produto
 
 Os filtros de produto fornecem até 10 características de **Título do filtro**, que são valores de enumeração (enum). Esses valores de enumeração ficam disponíveis para seleção quando você cria um filtro de produto. Os valores de enumeração *Código 1* até *Código 10* são definidos pelo sistema e representam características ou atributos específicos de um item. Por exemplo, o *código 1* pode representar itens que têm uma classificação de material perigoso. O *código 2* pode representar itens que somente os fornecedores podem comprar. Os filtros de produto definem o valor de **Código de filtro** específico associado a um valor de **Título de filtro**.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Filtros de produto \> Filtros de produto**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Filtros de produto \> Filtros de produto**.
 1. No Painel de Ações, selecione **Novo** para adicionar um filtro de produto à grade.
 1. No campo **Título do filtro**, selecione um valor.
 1. No campo **Código do filtro**, insira um valor.
@@ -61,7 +61,7 @@ Os filtros de produto fornecem até 10 características de **Título do filtro**
 
 Para configurar os grupos de filtros, siga essas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Filtros de produto \> Grupos de filtros de produto**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Filtros de produto \> Grupos de filtros de produto**.
 1. No Painel de Ações, selecione **Novo**.
 1. Nos campos **Grupo 1** e **Grupo 2**, insira os nomes que serão usados para categorizar os itens.
 1. Na guia rápida **Detalhes**, selecione **Novo** para adicionar uma linha.
@@ -80,7 +80,7 @@ Ao configurar os códigos de filtros em um grupo de itens, é possível criar os
 
 Para configurar os códigos de filtros nos grupos de itens, siga estas etapas.
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Divisão de estoque \> Grupos de itens**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Divisão de estoque \> Grupos de itens**.
 1. No Painel de Ação, selecione **Novo** para criar um grupo de itens.
 1. No campo **Grupo de itens**, digite um nome.
 1. No campo **Nome**, insira uma descrição.
@@ -101,7 +101,7 @@ Para configurar os códigos de filtros nos grupos de itens, siga estas etapas.
 
 Siga estas etapas para especificar os códigos de filtros para produtos lançados. Por exemplo, você pode usar os códigos de filtro para agrupar produtos perigosos que os fornecedores específicos compram.
 
-1. Vá para **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
+1. Acesse **Gerenciamento de informações do produto \> Produtos \> Produtos liberados**.
 1. No Painel de Ação, selecione **Novo** para criar um produto.
 1. Na caixa de diálogo **Novo produto liberado**, insira os dados necessários para criar a base de um novo produto e selecione **OK**.
 
@@ -120,7 +120,7 @@ Siga estas etapas para especificar os códigos de filtros para produtos lançado
 
 Para configurar itens geralmente disponíveis, siga estas etapas.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Filtros de produto \> Produto geralmente disponíveis**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Filtros de produto \> Produto geralmente disponíveis**.
 1. No Painel de Ação, selecione **Novo** para criar um registro.
 1. No campo **Cliente ou fornecedor**, selecione *Cliente*, *Fornecedor* ou *Todos* para disponibilizar os itens para clientes, fornecedores ou ambos.
 1. No campo **Data/hora de início**, digite a data e a hora em que o item ficará disponível.
@@ -135,7 +135,7 @@ Você pode usar este procedimento para especificar os itens que devem ficar disp
 
 Para configurar códigos de filtros do cliente, siga estas etapas.
 
-1. Vá para **Vendas e marketing \> Clientes \> Todos os clientes**.
+1. Acesse **Vendas e marketing \> Clientes \> Todos os clientes**.
 1. Selecione um cliente.
 1. No Painel de Ação, na guia **Cliente**, no grupo **Configuração**, selecione **Filtros de produto**.
 1. Na página **Códigos de filtro de produto**, no Painel de Ação, selecione **Novo**.
@@ -149,7 +149,7 @@ Você pode usar este procedimento para especificar os itens que devem ficar disp
 
 Para configurar códigos de filtros do fornecedor, siga estas etapas.
 
-1. Vá para **Aquisição e fornecimento \> Fornecedores \> Todos os fornecedores**.
+1. Acesse **Aquisição e fornecimento \> Fornecedores \> Todos os fornecedores**.
 1. Selecione um fornecedor.
 1. No Painel de Ação, na guia **Fornecedor**, no grupo **Configuração**, selecione **Filtros de produto**.
 1. Na página **Códigos de filtro**, no Painel de Ação, selecione **Novo**.

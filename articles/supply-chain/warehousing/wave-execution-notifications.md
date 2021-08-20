@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.0
-ms.openlocfilehash: 47f270b5fff37e8e231d8a9c4a011172df3d9385
-ms.sourcegitcommit: dc4898aa32f381620c517bf89c7856e693563ace
+ms.openlocfilehash: 26810f6e21f9c8ba6e92621a8e1ddee17837b6048107b961afb0e428059051af
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "6271368"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6752575"
 ---
 # <a name="wave-execution-notifications"></a>Notificações de execução do ciclo
 
@@ -47,7 +47,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 ### <a name="make-sure-that-waves-are-run-in-batch-mode"></a>Verificar se os ciclos são executados no modo de lote
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
 1. Na Guia Rápida **Processamento do ciclo**, defina a opção **Processar ciclos em lotes** como *Sim*.
 
 > [!NOTE]
@@ -57,7 +57,7 @@ Para seguir este cenário, você deve ter dados de demonstração instalados e d
 
 As políticas de notificação do ciclo definem os tipos de notificação enviadas e os usuários notificados.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ciclos \> Políticas de notificação do ciclo**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ciclos \> Políticas de notificação do ciclo**.
 1. Crie um registro com as seguintes configurações:
 
     - **Política de notificação do ciclo:** *24BatchError*
@@ -74,7 +74,7 @@ As políticas de notificação do ciclo definem os tipos de notificação enviad
 
 Os modelos do ciclo permitem vincular instâncias específicas de métodos do ciclo a modelos de etiqueta do ciclo correspondentes.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Ondas \> Modelos de onda**.
 1. No painel de lista, defina o campo **Tipo de modelo do ciclo** como *Remessa* e selecione o modelo do ciclo *Remessa Padrão 24* para o depósito 24.
 1. Na Guia Rápida **Geral**, defina o campo **Política de notificação do ciclo** como *24BatchError*.
 
@@ -82,7 +82,7 @@ Os modelos do ciclo permitem vincular instâncias específicas de métodos do ci
 
 Os modelos de trabalho são usados durante a execução do ciclo para gerar trabalho. Para este cenário, a execução do ciclo deve disparar um erro. Ao configurar a consulta de modelo de trabalho para usar um depósito não existente, você garantirá que a execução do ciclo falhe e, dessa forma, envie uma notificação.
 
-1. Vá para **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
+1. Acesse **Gerenciamento de depósito \> Configuração \> Trabalho \> Modelo de trabalho**.
 1. No painel de lista, defina o campo **Tipo de modelo de trabalho** como *Ordens de venda* e selecione o modelo de trabalho *Preparo SO 24* para o depósito 24.
 1. No Painel de Ações, selecione **Editar consulta**.
 1. Na caixa de diálogo do editor de consultas, na guia **Intervalo**, edite a linha a seguir (ou adicione-a se ela não existir):
@@ -96,7 +96,7 @@ Os modelos de trabalho são usados durante a execução do ciclo para gerar trab
 
 ### <a name="create-a-sales-order-and-release-it-to-the-warehouse"></a>Criar uma ordem de venda e liberá-la para o depósito
 
-1. Vá para **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
+1. Acesse **Vendas e marketing \> Ordem de venda \> Todas as ordens de venda**.
 1. Crie uma ordem de venda com as seguintes configurações:
 
     - **Conta de cliente:** *US-001*

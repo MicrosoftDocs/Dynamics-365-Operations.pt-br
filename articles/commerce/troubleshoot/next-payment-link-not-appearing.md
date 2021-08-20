@@ -15,12 +15,12 @@ ms.search.industry: Retail
 ms.author: rassadi
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 679c2453068695caca03ac9618573eba0686b863
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 4887cde3e4243ae7a4da6402782e69e780ae20331ed80df63ba1239ef5187e41
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347311"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6769262"
 ---
 # <a name="save-for-my-next-payment-option-doesnt-appear"></a>A opção "Salvar para o próximo pagamento" não aparece
 
@@ -42,7 +42,7 @@ A ilustração a seguir mostra um exemplo de uma página de finalização de com
 
 Para verificar se o Conector de Pagamento do Dynamics 365 para Adyen está configurado corretamente na matriz do Commerce, siga estas etapas.
 
-1. Vá para **Varejo e Comércio \> Canais \> Lojas Online**.
+1. Acesse **Varejo e Comércio \> Canais \> Lojas Online**.
 1. Selecione a loja online.
 1. Na guia rápida **Contas de pagamento**, verifique se o campo **Permitir salvar informações de pagamento no comércio eletrônico** está definido como **Verdadeiro**.
 

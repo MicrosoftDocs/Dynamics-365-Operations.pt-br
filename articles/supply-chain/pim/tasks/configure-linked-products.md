@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 863108901516ddbcdd9bbe29785a6b163cd28492
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: bf4789a3ff05b9ae892af4aaa6eead08db8de957315aeed34059294b1a85619d
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5809413"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6759470"
 ---
 # <a name="configure-linked-products"></a>Configurar produtos vinculados
 
@@ -25,7 +25,7 @@ ms.locfileid: "5809413"
 
 Este procedimento orienta na configuração de produtos vinculados. Este procedimento usa os dados de demonstração da USRT, e presume-se que os produtos já tenham sido criados e liberados.
 
-1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
+1. Acesse Gerenciamento de informações do produto > Produtos > Produtos liberados.
 2. Na lista, localize e selecione o registro desejado.
 3. No Painel de Ação, clique em Varejo e Comércio.
 4. Clique em Produtos vinculados.

@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: a14b98cab78896d3a6c2e567cadc1ff9a991a278
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: 8848c10e9f8f931ee66414075d28b8910a02e5a000525a63bc38ab6851f11276
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6018945"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6741773"
 ---
 # <a name="inbound-inventory-operation-in-pos"></a>Operação de estoque de entrada no PDV
 
@@ -45,7 +45,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 ### <a name="create-and-configure-a-number-sequence"></a>Criar e configurar uma sequência numérica
 
-1. Vá para **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
+1. Acesse **Administração da organização \> Sequências numéricas \> Sequências numéricas**.
 2. Na página **Sequências numéricas**, crie uma sequência numérica.
 3. Nos campos **Código de sequência numérica** e **Nome**, insira valores definidos pelo usuário.
 4. Na Guia Rápida **Referências**, selecione **Adicionar**.
@@ -60,7 +60,7 @@ Para configurar uma estrutura de documento assíncrona, conclua os procedimentos
 
 Os trabalhos em lotes que você criar serão usados para processar documentos que falharam ou expiram. Eles também serão usados quando o número de documentos de estoque ativos que estão sendo processados no PDV exceder um valor configurado pelo sistema.
 
-1. Vá para **Administração do sistema \> Consultas \> Trabalhos em lotes**.
+1. Acesse **Administração do sistema \> Consultas \> Trabalhos em lotes**.
 2. Na página **Trabalho em lotes**, crie dois trabalhos em lote:
 
     - Configure um trabalho para executar a classe **RetailDocumentOperationMonitorBatch**.

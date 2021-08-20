@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: cef2de88827ccf33dafe2152238e4fe96dfda1ae
-ms.sourcegitcommit: 879ee8a10e6158885795dce4b3db5077540eec41
+ms.openlocfilehash: 0025fcc29eed31fb301052c1080b1631f9eb7ec5201d9d4b7ea8a825d14bf0c1
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/18/2021
-ms.locfileid: "6056555"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6770423"
 ---
 # <a name="enter-worker-information"></a>Inserir informações do trabalhador
 
@@ -26,7 +26,7 @@ ms.locfileid: "6056555"
 
 
 
-Depois que um recruta criou um projeto de contratação em massa e gerou posições, a próxima etapa é inserir as informações de trabalho para os contatos que estão sendo contratados. A empresa de dados demo usada para criar este procedimento é USMF. Os dados de demonstração contêm um projeto de contratação em massa aberto. Para iniciar este procedimento, vá para Recursos humanos > Recrutamento > Projetos de contratação em massa.
+Depois que um recruta criou um projeto de contratação em massa e gerou posições, a próxima etapa é inserir as informações de trabalho para os contatos que estão sendo contratados. A empresa de dados demo usada para criar este procedimento é USMF. Os dados de demonstração contêm um projeto de contratação em massa aberto. Para iniciar este procedimento, Acesse Recursos humanos > Recrutamento > Projetos de contratação em massa.
 
 1. Na lista, marque a linha selecionada.
 2. Clique em Detalhes da posição.

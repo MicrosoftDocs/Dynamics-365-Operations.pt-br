@@ -13,12 +13,12 @@ ms.search.region: Brazil
 ms.author: gionoder
 ms.search.validFrom: ''
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 0f50e3478f0513d03f1ffec7d402c086f050d045
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 84d474c5f60b315a6691fac0a9fc8014d35ea77665a9efead6b6213023491b64
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6347188"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6771581"
 ---
 # <a name="sped-fiscal-2020---complementary-information-of-the-icms-st-for-sped-fiscal-2020-layout-014"></a>SPED fiscal 2020 - informações complementares do ICMS-ST para o layout 014 do SPED fiscal 2020
 

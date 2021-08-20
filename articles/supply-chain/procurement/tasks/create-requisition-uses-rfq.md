@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: dabourq
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 6083afe0e2bfafd337d572863a198330e8cb6cc8
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 65c6c7b718b3538ebd0096cd173c933b9d750da1102b0c32d73200f4428026a5
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5812124"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6776329"
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Criar uma requisição que use um RFQ
 
@@ -28,7 +28,7 @@ Este tópico explica como adicionar o preço e a informação do vendedor a uma 
 
 
 ## <a name="create-a-requisition"></a>Criar um requisito
-1. No Painel de Navegação, vá para **Módulos > Aquisição e fornecimento > Requisições de compra > Requisições de compra preparadas por mim**.
+1. No Painel de Navegação, Acesse **Módulos > Aquisição e fornecimento > Requisições de compra > Requisições de compra preparadas por mim**.
 2. Selecione **Novo**.
 3. No campo **Nome**, digite um valor.
 4. No campo **Data solicitada**, insira uma data.
