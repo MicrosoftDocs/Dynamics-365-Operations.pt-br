@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2e3342c5e667ad3c8f3638afdcd9f3c15a815777
-ms.sourcegitcommit: 0e8db169c3f90bd750826af76709ef5d621fd377
+ms.openlocfilehash: 035fa86f0ff09faaa21c561cf7934455a6883cd8a7f917ac95bc7d096294d824
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "5823947"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742992"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>Criar e adquirir ativos de contas a pagar
 
@@ -28,13 +28,13 @@ Esta guia mostrará a criação e a aquisição de um ativo fixo com o processo 
 
 
 ## <a name="set-fixed-assets-parameters"></a>Definir parâmetros dos ativos fixos
-1. No **Painel de Navegação**, vá para **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.
+1. No **Painel de Navegação**, Acesse **Módulos > Ativos fixos > Configuração > Parâmetros de ativos fixos**.
 2. Expanda a Guia Rápida **Ordens de compra**.
 3. Marque a caixa de seleção **Permitir a aquisição de ativos de Compras**.
 4. Marque a caixa de seleção **Criar um ativo durante o recebimento de produtos ou o lançamento de fatura**.
 
 ## <a name="create-a-new-vendor-invoice"></a>Criar uma nova fatura de fornecedor
-1. No **Painel de Navegação**, vá para **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
+1. No **Painel de Navegação**, Acesse **Módulos > Contas a pagar > Espaços de trabalho > Entrada de fatura de fornecedor**.
 2. Clique em **Nova fatura de fornecedor**.
 3. No campo **Conta de fatura**, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.

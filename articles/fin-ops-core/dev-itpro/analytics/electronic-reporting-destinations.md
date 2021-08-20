@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 3774a6258fcefb361c5c2ed709dd7700b1dc071d
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: df617ad476d8210c658f60569656292df22670df44cc094bf0d61b4ee6a19775
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351143"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743302"
 ---
 # <a name="electronic-reporting-er-destinations"></a>Destinos de Relatório eletrônico (ER)
 
@@ -66,8 +66,8 @@ Se você definir a opção de **Processamento em lotes** como **Sim**, um format
 
 Você pode encontrar informações sobre esse trabalho em vários locais:
 
-- Vá para **Comum** \> **Consultas** \> **Trabalhos em lotes** \> **Meus trabalhos em lotes** para verificar o status da tarefa agendada.
-- Vá para **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos** para verificar o status do trabalho agendado e os resultados da execução do trabalho concluído. Quando a execução do trabalho for concluída com êxito, selecione **Mostrar arquivos** na página **Trabalhos de relatório eletrônicos** para obter um documento de saída gerado.
+- Acesse **Comum** \> **Consultas** \> **Trabalhos em lotes** \> **Meus trabalhos em lotes** para verificar o status da tarefa agendada.
+- Acesse **Administração da organização** \> **Relatório eletrônico** \> **Trabalhos de relatórios eletrônicos** para verificar o status do trabalho agendado e os resultados da execução do trabalho concluído. Quando a execução do trabalho for concluída com êxito, selecione **Mostrar arquivos** na página **Trabalhos de relatório eletrônicos** para obter um documento de saída gerado.
 
     > [!NOTE]
     > Este documento está armazenado como um anexo do registro de trabalho atual e é controlado pela estrutura [Gerenciamento de documentos](../../fin-ops/organization-administration/configure-document-management.md). O [tipo de documento](../../fin-ops/organization-administration/configure-document-management.md#configure-document-types) usado para armazenar artefatos ER deste tipo é configurado nos [parâmetros ER](electronic-reporting-er-configure-parameters.md#parameters-to-manage-documents).
@@ -124,7 +124,7 @@ Ao mesmo tempo, você pode ter várias [versões](general-electronic-reporting.m
 
 Por padrão, os destinos configurados são aplicados somente quando você executa uma versão do formato de ER que tem o status **Concluído** ou **Compartilhado**. No entanto, às vezes você deve usar destinos configurados quando a versão de rascunho de um formato de ER é executada. Por exemplo, você modifica uma versão de rascunho do seu formato e quer usar destinos configurados para testar como a saída gerada será entregue. Siga estas etapas para aplicar os destinos de um formato de ER quando a versão de rascunho for executada.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Usar destinos para status de rascunho** como **Sim**.
 
@@ -132,7 +132,7 @@ Por padrão, os destinos configurados são aplicados somente quando você execut
 
 Para usar a versão de rascunho de um formato de ER, você deve marcar o formato de ER adequadamente.
 
-1. Vá para **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
+1. Acesse **Administração da organização** \> **Relatório eletrônico** \> **Configurações**.
 2. Na página **Configurações**, no Painel Ação, na guia **Configurações**, no grupo **Configurações avançadas**, selecione **Parâmetros de usuário**.
 3. Defina a opção **Executar configuração** como **Sim**.
 

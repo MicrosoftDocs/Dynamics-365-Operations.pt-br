@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: b291a6515c6a3ae7382ea2ad8024ca036489de19
-ms.sourcegitcommit: 9eadc7ca08e2db3fd208f5fc835551abe9d06dc8
+ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5937029"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742431"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -34,7 +34,7 @@ Depois que o ambiente de avaliação do Commerce for provisionado de ponta a pon
 ## <a name="before-you-start"></a>Antes de começar
 
 1. Entre no [Portal de LCS](https://lcs.dynamics.com).
-1. Vá para seu projeto.
+1. Acesse seu projeto.
 1. No menu superior, selecione **Ambientes hospedados na nuvem**.
 1. Selecione seu ambiente na lista.
 1. Nas informações sobre o ambiente à direita, selecione **Fazer logon no ambiente**. Você será direcionado para a sede do Commerce.
@@ -48,7 +48,7 @@ Durante as atividades de pós-provisionamento na sede do Commerce, garanta que a
 
 Para associar um trabalhador à sua identidade, siga estas etapas na sede do Commerce.
 
-1. Use o menu à esquerda, vá para **Módulos \> Varejo e comércio \> Funcionários \> Trabalhadores**.
+1. Use o menu à esquerda, Acesse **Módulos \> Varejo e comércio \> Funcionários \> Trabalhadores**.
 1. Na lista, encontre e selecione o registro a seguir: **000713 - Andrew Collette**.
 1. No Painel de Ação, selecione **Commerce**.
 1. Selecione **Associar identidade existente**.
@@ -90,7 +90,7 @@ Para iniciar a configuração do seu site de avaliação no Commerce, siga estas
 Para habilitar trabalhos no Commerce, siga estas etapas.
 
 1. Entre no ambiente (Matriz).
-1. Use o menu à esquerda, vá para **Varejo e comércio \> Consultas e relatórios \> Trabalhos em lotes**.
+1. Use o menu à esquerda, Acesse **Varejo e comércio \> Consultas e relatórios \> Trabalhos em lotes**.
 
     As etapas restantes deste procedimento devem ser concluídas para cada um dos seguintes trabalhos:
 

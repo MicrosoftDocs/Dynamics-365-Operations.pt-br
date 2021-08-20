@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: rhaertle
 ms.search.validFrom: 2019-05-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: fc9b330926dfc12890d0bc32e68b4b531616fc2b
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: 9cab5d9c9daf80fe5d2a510d189e71993265aa278342d5a99666615303158f61
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6357543"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6742267"
 ---
 # <a name="set-up-and-install-regression-suite-automation-tool-tutorial"></a>Tutorial Configurar e instalar a Regression Suite Automation Tool
 
@@ -120,7 +120,7 @@ Para o projeto de LCS, você pode usar uma implementação do cliente existente 
 > [!NOTE]
 > Para a interface do usuário (IU) mostrar corretamente os processos empresariais, o idioma preferido de LCS deve ser definido como **Inglês (Estados Unidos)**.
 
-1. Vá para o projeto de implementação de LCS.
+1. Acesse o projeto de implementação de LCS.
 2. Selecione o botão **Configurações** (o símbolo de engrenagem) no canto superior direito e depois **Preferência de idioma**.
 
     ![Atualizar preferência de idioma.](./media/setup_rsa_tool_09.png)
@@ -133,7 +133,7 @@ Para o projeto de LCS, você pode usar uma implementação do cliente existente 
 
 Se você criou um novo projeto Azure DevOps anteriormente, configure o projeto LCS para conectar-se a ele. Caso contrário, se seu projeto LCS já estiver conectado ao seu projeto Azure DevOps, você pode continuar na próxima seção.
 
-1. Vá para o projeto de implementação de LCS.
+1. Acesse o projeto de implementação de LCS.
 2. Selecione o botão **Menu** e, em seguida, **Configurações do projeto**.
 
     ![Comando das configurações do projeto.](./media/setup_rsa_tool_11.png)
@@ -176,7 +176,7 @@ Se você criou um novo projeto Azure DevOps anteriormente, configure o projeto L
 
 ### <a name="create-a-new-bpm-library"></a>Criar uma nova biblioteca do BPM
 
-1. Vá para o projeto de implementação de LCS.
+1. Acesse o projeto de implementação de LCS.
 2. Selecione o botão **Menu** e, em seguida, **Modelador de processo de negócios**.
 
     ![Comando do Modelador de processo de negócios.](./media/setup_rsa_tool_20.png)
@@ -216,7 +216,7 @@ O usuário deve ter direitos de administrador neste ambiente.
 Esta etapa é necessária para a conexão com o LCS, de forma que as gravações de tarefas possam ser salvas na biblioteca do BPM apropriada no LCS, por meio do cliente.
 
 1. Abra o cliente.
-2. Vá para **Administração do Sistema \> Configuração \> Parâmetros do sistema**.
+2. Acesse **Administração do Sistema \> Configuração \> Parâmetros do sistema**.
 3. Na guia **Ajuda**, no campo **Configuração de ajuda do Lifecycle Services**, selecione o projeto LCS relevante (**RSAT** para este tutorial).
 
     ![Campo da ajuda do Lifecycle Services na guia Ajuda.](./media/setup_rsa_tool_25.png)
@@ -280,7 +280,7 @@ Crie uma gravação de tarefas correspondente que você possa anexar ao processo
 
         ![Barra de notificação.](./media/setup_rsa_tool_36.png)
 
-    3. Vá para a biblioteca **RSAT** do BPM e selecione o processo de negócios em que salvará a gravação de tarefas.
+    3. Acesse a biblioteca **RSAT** do BPM e selecione o processo de negócios em que salvará a gravação de tarefas.
     4. Na guia **Visão geral** , selecione **Carregar**.
 
         ![Botão Carregar.](./media/setup_rsa_tool_37.png)
@@ -296,7 +296,7 @@ Agora que uma gravação de tarefas está vinculada ao processo de negócios, vo
 > [!NOTE]
 > O tipo de item de trabalho correspondente que é criado no Azure DevOps irá variar, dependendo do modelo do processo selecionado quando você configurou o projeto LCS com o Azure DevOps, conforme descrito na seção [Criar um novo projeto do Azure DevOps](#create-a-new-azure-devops-project).
 
-1. Vá para a biblioteca BPM e abra a biblioteca **RSAT** criada anteriormente.
+1. Acesse a biblioteca BPM e abra a biblioteca **RSAT** criada anteriormente.
 2. Selecione o botão de reticências (**...**) e depois **Sincronização de VSTS**.
 
     ![Comando de sincronização de VSTS no menu de reticências.](./media/setup_rsa_tool_39.png)
@@ -314,7 +314,7 @@ Agora que uma gravação de tarefas está vinculada ao processo de negócios, vo
     ![Comando Sincronizar casos de teste no menu de reticências.](./media/setup_rsa_tool_41.png)
 
     > [!NOTE]
-    > Se a opção **Sincronizar casos de teste** não estiver disponível depois que você atualizar a página, vá para a página principal do BPM e selecione **Sincronizar casos de teste** para toda a biblioteca. Assim, você força eficientemente uma sincronização para toda a biblioteca.
+    > Se a opção **Sincronizar casos de teste** não estiver disponível depois que você atualizar a página, Acesse a página principal do BPM e selecione **Sincronizar casos de teste** para toda a biblioteca. Assim, você força eficientemente uma sincronização para toda a biblioteca.
     >
     > ![Selecionar Sincronizar casos de teste para toda a biblioteca.](./media/setup_rsa_tool_42.png)
 
@@ -322,7 +322,7 @@ Agora que uma gravação de tarefas está vinculada ao processo de negócios, vo
 
     ![Novo caso de teste na guia Requisitos.](./media/setup_rsa_tool_43.png)
 
-5. Vá para seu projeto do Azure DevOps e selecione **Quadros \> Itens de trabalho**.
+5. Acesse seu projeto do Azure DevOps e selecione **Quadros \> Itens de trabalho**.
 
     ![Comandos Itens de Trabalho nos Quadros.](./media/setup_rsa_tool_44.png)
 
@@ -357,7 +357,7 @@ Para habilitar a autenticação, você deve gerar e instalar um certificado no m
     ![Certificado de teste automatizado D365.](./media/setup_rsa_tool_46.png)
 
 3. Clique com o botão direito do mouse no certificado e, em seguida, selecione **Copiar**.
-4. Vá para **Autoridades de certificação raiz confiáveis \> Certificados**.
+4. Acesse **Autoridades de certificação raiz confiáveis \> Certificados**.
 
     ![Pasta Certificados na pasta Autoridades de certificação raiz confiáveis.](./media/setup_rsa_tool_47.png)
 
@@ -431,7 +431,7 @@ if ((Test-Path HKLM:\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319))
 
 ### <a name="install-rsat"></a>Instalar RSAT
 
-1. Vá para o <https://www.microsoft.com/download/details.aspx?id=57357> e selecione **Baixar**.
+1. Acesse o <https://www.microsoft.com/download/details.aspx?id=57357> e selecione **Baixar**.
 2. Selecione todos os arquivos e depois **Próximo**.
 
     ![Selecionando todos os arquivos.](./media/setup_rsa_tool_51.png)
@@ -451,7 +451,7 @@ Em versões anteriores do RSAT, você teve que instalar o Selenium e os drivers 
 
 ### <a name="create-a-test-plan-and-test-suites"></a>Crie um plano de teste e conjuntos de testes
 
-1. Vá para o projeto Azure DevOps e selecione **Planos de Teste**.
+1. Acesse o projeto Azure DevOps e selecione **Planos de Teste**.
 
     ![Comando Planos de teste.](./media/setup_rsa_tool_53.png)
 
@@ -546,7 +546,7 @@ Em versões anteriores do RSAT, você teve que instalar o Selenium e os drivers 
 
     Dessa forma, você pode selecionar **Carregar** para carregar os arquivos de parâmetro (e arquivos de automação) do caso de teste diretamente do Azure DevOps. Você não precisa gerar novamente os arquivos de parâmetro. Esta abordagem se tornará importante posteriormente, quando você quiser manter as alterações no arquivo de parâmetro e não quiser que elas sejam substituídas.
 
-4. Para verificar se os arquivos de automação e os arquivos de parâmetros foram salvos no Azure DevOps, vá para o projeto Azure DevOps, selecione **Quadros \> Itens de trabalho** e selecione o caso de teste **Criar um novo produto**. Na guia **Anexos** , você deverá visualizar quatro arquivos:
+4. Para verificar se os arquivos de automação e os arquivos de parâmetros foram salvos no Azure DevOps, Acesse o projeto Azure DevOps, selecione **Quadros \> Itens de trabalho** e selecione o caso de teste **Criar um novo produto**. Na guia **Anexos** , você deverá visualizar quatro arquivos:
 
     - **.cs** – C\# arquivo de automação
     - **.dll** – Arquivo de automação compilado como uma montagem
@@ -597,7 +597,7 @@ Em versões anteriores do RSAT, você teve que instalar o Selenium e os drivers 
 
     ![Mensagem de erro detalhada no Azure DevOps.](./media/setup_rsa_tool_75.png)
 
-4. Para exibir os resultados de teste diretamente no projeto do Azure DevOps , vá para **Planos de Teste \> Planos de Teste \> Execuções**. Clique duas vezes na execução do teste na qual você deseja ver mais detalhes.
+4. Para exibir os resultados de teste diretamente no projeto do Azure DevOps , Acesse **Planos de Teste \> Planos de Teste \> Execuções**. Clique duas vezes na execução do teste na qual você deseja ver mais detalhes.
 
     ![Lista de execuções de testes no Azure DevOps.](./media/setup_rsa_tool_76.png)
 
@@ -688,7 +688,7 @@ Nesta seção, você criará uma variável salva no primeiro caso de teste, cria
 
     ![Nome da gravação de tarefas no campo Nome da gravação.](./media/setup_rsa_tool_90.png)
 
-8. Vá para **Gerenciamento de informações do produto \> Produtos** e selecione **Novo** para abrir a página onde a gravação de tarefas original, **Criar um produto**, foi gravada.
+8. Acesse **Gerenciamento de informações do produto \> Produtos** e selecione **Novo** para abrir a página onde a gravação de tarefas original, **Criar um produto**, foi gravada.
 9. Selecione **Inserir etapa**.
 
     > [!NOTE]
@@ -706,7 +706,7 @@ Nesta seção, você criará uma variável salva no primeiro caso de teste, cria
 
 12. Selecione **Edição concluída**.
 13. Selecione **Salvar no Lifecycle Services** e associe a nova gravação de tarefas à mesma biblioteca de BPM e ao processo de negócios ao qual a gravação de tarefa original estava associada. Para obter mais informações, consulte a seção [Criar uma gravação de tarefas e salvá-la na biblioteca do BPM](#create-a-task-recording-and-save-it-to-the-bpm-library).
-14. Vá para a biblioteca BPM e selecione **Sincronizar casos de teste** para substituir a gravação de tarefas que está vinculada ao caso de teste no Azure DevOps, conforme descrito na seção [Testar a sincronização do BPM para o Azure DevOps](#test-the-synchronization-from-bpm-to-azure-devops).
+14. Acesse a biblioteca BPM e selecione **Sincronizar casos de teste** para substituir a gravação de tarefas que está vinculada ao caso de teste no Azure DevOps, conforme descrito na seção [Testar a sincronização do BPM para o Azure DevOps](#test-the-synchronization-from-bpm-to-azure-devops).
 15. Abra o RSAT e selecione **Carregar** para recarregar todos os casos de teste no conjunto de testes. Você deve gerar novamente os arquivos de parâmetro e automação para o caso de teste apropriado, selecionando o caso de teste e **Novo \> Gerar Arquivos de parâmetros e Execução de Teste**, conforme descrito na seção [Carregar e executar casos de teste](#load-and-run-test-cases).
 
     > [!NOTE]
@@ -718,7 +718,7 @@ Nesta seção, você criará uma variável salva no primeiro caso de teste, cria
 
 #### <a name="create-a-new-test-case"></a>Criar um novo caso de teste
 
-1. Vá para biblioteca **RSAT** do BPM.
+1. Acesse biblioteca **RSAT** do BPM.
 2. Selecione o processo **Processo de Negócios Suporte de Exemplo** e, em seguida, no lado direito selecione **Modo de edição**.
 3. Altere o valor do campo **Nome** e **Descrição** para **Liberar um produto**. Selecione **Salvar**.
 
@@ -751,14 +751,14 @@ Nesta seção, você criará uma variável salva no primeiro caso de teste, cria
 
 #### <a name="sync-bpm-to-azure-devops"></a>Sincronizar BPM ao Azure DevOps
 
-1. Vá para a biblioteca BPM e abra a biblioteca **RSAT**.
+1. Acesse a biblioteca BPM e abra a biblioteca **RSAT**.
 2. Selecione **Sincronização de VSTS** e, em seguida, **Sincronizar casos de teste**. Para obter mais informações, consulte a seção [Testar a sincronização do BPM para o Azure DevOps](#test-the-synchronization-from-bpm-to-azure-devops).
 
     Depois que a sincronização for concluída, o novo item de trabalho e o caso de teste correspondente para o processo de negócios **Liberar um produto** aparece no Azure DevOps em **Quadros \> Itens de Trabalho**.
 
 #### <a name="add-the-new-test-case-to-the-existing-test-suite"></a>Adicione o novo caso de teste ao conjunto de testes existente
 
-1. Vá para **Planos de teste \> Planos de teste** e selecione o **Plano de Teste de RSAT**.
+1. Acesse **Planos de teste \> Planos de teste** e selecione o **Plano de Teste de RSAT**.
 2. Selecione **Adicionar existente**.
 3. Na página **Adicionar casos de teste ao conjunto**, selecione **Executar consulta**.
 4. Selecione o novo caso de teste que foi criado para **Liberar um produto** e selecione **Adicionar casos de teste** no canto inferior direito da página (este botão não é mostrado na ilustração a seguir).

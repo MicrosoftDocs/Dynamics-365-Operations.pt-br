@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: raprofit
 ms.search.validFrom: 2020-06-17
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 742edec8570610efe41a2c627efd1df586e0733e
-ms.sourcegitcommit: 08ce2a9ca1f02064beabfb9b228717d39882164b
+ms.openlocfilehash: ded53fd273ace8a6ed7f37219ca50ade329d9f08249596b524b1e3673d6ad547
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "6022147"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6744813"
 ---
 # <a name="problem-types-for-nonconformances"></a>Tipos de problema para não conformidades
 
@@ -52,7 +52,7 @@ Veja alguns exemplos de cenários de tipos de problema que podem ser usados com 
 
 ## <a name="create-a-problem-type-and-assign-it-to-nonconformance-types"></a>Criar um tipo de problema e atribuí-lo a tipos de não conformidade
 
-1. Vá para **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de problema**.
+1. Acesse **Gerenciamento de estoque \> Configuração \> Gerenciamento de qualidade \> Tipos de problema**.
 1. No Painel de Ação, selecione **Novo** para adicionar uma linha à grade. Defina os seguintes campos para a nova linha:
 
     - **Tipo de problema** – Insira um nome ou uma ID exclusiva para o tipo de problema.

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2019-08-31
 ms.dyn365.ops.version: 10.0.17
-ms.openlocfilehash: d2fe07790f64f7e7f672980f80a3e56804cefd66
-ms.sourcegitcommit: c08a9d19eed1df03f32442ddb65a2adf1473d3b6
+ms.openlocfilehash: c1477e3c1b99172d84d2cdc64fc0ed01c057e0fa59422b30c17868ca400de4d0
+ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/06/2021
-ms.locfileid: "6351528"
+ms.lasthandoff: 08/05/2021
+ms.locfileid: "6743689"
 ---
 # <a name="creating-work-orders"></a>Criação de ordens de serviço
 
@@ -73,13 +73,13 @@ Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os adm
 
 Para configurar agrupamento para ordens de serviço geradas automaticamente, siga estas etapas.
 
-1. Vá para **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
+1. Acesse **Gerenciamento de ativos \> Configuração \> Manutenção preventiva \> Planos de manutenção**.
 1. Para cada plano em que você deseja gerar ordens de serviço agrupadas, siga estas etapas:
 
     1. No painel de lista, selecione o plano desejado.
     1. Na guia rápida **Linhas**, certifique-se de que a caixa de seleção **Criação automática** esteja marcada em todas as linhas.
 
-1. Vá para **Gerenciamento de ativos \> Periódico \> Manutenção preventiva \> Agendar planos de manutenção**.
+1. Acesse **Gerenciamento de ativos \> Periódico \> Manutenção preventiva \> Agendar planos de manutenção**.
 1. Na caixa de diálogo **Agendar planos de manutenção**, na seção **Período**, especifique o horizonte de tempo para o plano (até que ponto ele deve procurar ao localizar trabalhos de manutenção agendados para os quais gerar trabalho).
 1. Defina a opção **Criar ordem de serviço com base no agendamento automaticamente** como *Sim*.
 1. Na seção **Ordem de serviço**, selecione uma destas opções:
