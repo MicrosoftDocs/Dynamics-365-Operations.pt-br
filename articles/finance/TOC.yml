@@ -1170,6 +1170,8 @@
                   href: general-ledger/yec-mssng-open-blnces.md
                 - name: Abrir modelos de diário financeiro no Office
                   href: general-ledger/open-fincl-jrnls-in-office.md
+                - name: Falha no lançamento do diário por desequilíbrio
+                  href: general-ledger/posting-fail-imbalance.md
                 - name: Por que não posso reverter essa transação?
                   href: general-ledger/cant-reverse-transctns.md
         - name: Relatórios financeiros
@@ -1482,11 +1484,31 @@
                       href: localizations/rcs-delete-environment.md
                     - name: Regulatory Configuration Service – Substituição de armazenamento do Lifecycle Services
                       href: localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/finance/toc.json
+                    - name: Baixar configurações ER no Finance
+                      items:
+                        - name: Baixar configurações do RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Importar configurações do RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
+                    - name: Repositório global (GR)
+                      items:
+                        - name: Importar configurações do GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Importar versões atualizadas de configurações ER
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Filtragem avançada para encontrar configurações no GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
+                        - name: Carregar configurações no GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
+                        - name: Compartilhar configurações no GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
+                        - name: Descontinuar configurações no repositório global do RCS
+                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
                 - name: Faturamento Eletrônico
                   items:
                     - name: Visão geral do Faturamento Eletrônico
                       href: localizations/e-invoicing-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Componentes de administração do Faturamento Eletrônico
+                    - name: Componentes de administração do Faturamento eletrônico
                       href: localizations/e-invoicing-service-administration.md?toc=/dynamics365/finance/toc.json
                     - name: Configurar o Faturamento Eletrônico no Regulatory Configuration Services (RCS)
                       href: localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/finance/toc.json
@@ -1520,40 +1542,56 @@
                   items:
                     - name: Visão geral do Cálculo de Imposto
                       href: localizations/global-tax-calcuation-service-overview.md?toc=/dynamics365/finance/toc.json
-                    - name: Introdução ao Cálculo de Imposto
-                      href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
-                    - name: Aplicabilidade do imposto e lógica de determinação do grupo de impostos
-                      href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
-                    - name: Suporte a recursos de imposto para ordens de transferência
-                      href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
-                    - name: Calculando o imposto sobre o preço quando a opção Preços incluem impostos está habilitada
-                      href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
-                    - name: Adicionar campos de dados em configurações de imposto
-                      href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
-                    - name: Adicionar campos de dados à integração de imposto usando extensões
-                      href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
-                    - name: Configurar um ambiente para pesquisa de dados mestres
-                      href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
-                    - name: Vários números de registo de IVA
-                      href: localizations/emea-multiple-vat-registration-numbers.md
-                    - name: Relatórios de vários registros de IVA
+                    - name: Configurar
                       items:
+                        - name: Introdução ao Cálculo de Imposto
+                          href: localizations/global-get-started-with-tax-calculation-service.md?toc=/dynamics365/finance/toc.json
+                        - name: Configurar um ambiente para pesquisa de dados mestres
+                          href: localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/finance/toc.json
+                    - name: Determinação
+                      items:
+                        - name: Aplicabilidade do imposto e lógica de determinação do grupo de impostos
+                          href: localizations/global-sales-tax-group-determination.md?toc=/dynamics365/finance/toc.json
+                    - name: Cálculo
+                      items:
+                        - name: Calcular o imposto sobre os preços quando a opção Preços incluem impostos está habilitada
+                          href: localizations/global-exclude-from-tax-base-amount-calculation.md?toc=/dynamics365/finance/toc.json
+                        - name: Regras de arredondamento de cálculo de imposto
+                          href: localizations/tax-calculation-rounding-rules.md
+                    - name: Vários registros de IVA
+                      items:
+                        - name: Vários números de registro de IVA
+                          href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Relatórios de vários registros de IVA
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
                         - name: Relatórios da França
                           items:
                             - name: Declaração de IVA
-                          href: localizations/emea-fra-VAT-declaration-preview-France.md
-                        - name: Relatório dos Países Baixos
+                              href: localizations/emea-fra-VAT-declaration-preview-France.md
+                        - name: Relatórios dos Países Baixos
                           items:
                             - name: Declaração de IVA
                               href: localizations/emea-nl-vat-declaration-netherlands.md
                             - name: Lista de vendas da UE
                               href: localizations/emea-nl-eu-sales-list.md
+                        - name: Relatórios da Suíça
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-che-vat-declaration-switzerland.md
                         - name: Relatórios do Reino Unido
                           items:
                             - name: Preparar a integração com o MTD para IVA
                               href: localizations/emea-gbr-mtd-vat-integration.md
+                    - name: Habilitar cálculo de imposto para ordem de transferência
+                      items:
+                        - name: Suporte a recursos de imposto para ordens de transferência
+                          href: localizations/tasks/Tax-feature-support-for-transfer-order.md?toc=/dynamics365/finance/toc.json
+                    - name: Extensão
+                      items:
+                        - name: Adicionar campos de dados em configurações de imposto
+                          href: localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/finance/toc.json
+                        - name: Adicionar campos de dados à integração de imposto usando extensões
+                          href: localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/finance/toc.json
             - name: Atualizações regulatórias
               href: localizations/regulatory-updates.md
             - name: Austrália
@@ -1710,6 +1748,8 @@
                       href: localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
                     - name: Configurar parâmetros de NF-e para um estabelecimento fiscal
                       href: localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+                    - name: NT 2020.005 – atualizações de layout e validação na nota fiscal eletrônica (NF-e)
+                      href: localizations/latam-bra-nfe-nt2020.005.md
                     - name: NT2020.006 — plataforma digital de vendas intermediárias para NF-e
                       href: localizations/latam-bra-nf-e-nt2020-006-v1-00.md
                     - name: NT2019.001 — regras de benefícios e isenções fiscais para NF-e/NFC-e
@@ -2334,8 +2374,6 @@
                               href: localizations/apac-ind-gst-reference-groups.md
                         - name: Transações de imposto
                           items:
-                            - name: TDS do GST no pagamento de bens e serviços
-                              href: localizations/ind-gst-tds-payment-goods-services.md
                             - name: Transações de compra
                               items:
                                 - name: Compras de fornecedores não registrados
@@ -2370,6 +2408,10 @@
                                   href: localizations/apac-ind-GST-purchase-return-order.md
                                 - name: Pagamentos antecipados do fornecedor onde houver encargos revertidos
                                   href: localizations/apac-ind-GST-vendor-advance-payment-reverse-charges.md
+                                - name: TDS do GST no pagamento de bens e serviços
+                                  href: localizations/ind-gst-tds-payment-goods-services.md
+                                - name: TCS do GST no pagamento de bens e serviços
+                                  href: localizations/ind-gst-tcs-payment.md
                             - name: Transações de vendas
                               items:
                                 - name: Vendas de mercadorias tributáveis para consumidores
@@ -3132,14 +3174,16 @@
                           href: localizations/rus-post-budget-fixed-asset-acquisition.md
                         - name: Transferir ativos fixos
                           href: localizations/rus-fixed-asset-transfer.md
-                    - name: Ativos fixos não valiosos e roupas ou trabalho
+                        - name: Formulários de impressão unificados para ativos fixos
+                          href: localizations/printing-forms-fixed-assets.md
+                        - name: Consultas e relatórios
+                          href: localizations/rus-fa-inquiries-reports.md
+                    - name: Ativos fixos não valiosos e roupas de trabalho
                       items:
                         - name: Ativos fixos não valiosos (NVFAs) (Rússia)
                           href: localizations/rus-not-valuable-assets.md
-                        - name: Contabilidade de vestuário operacional e equipamentos especiais (Rússia)
+                        - name: Contabilidade de roupas de trabalho e equipamentos especiais (Rússia)
                           href: localizations/rus-working-clothes-instruments-accounting.md
-                        - name: Formulários de impressão unificados para ativos fixos
-                          href: localizations/printing-forms-fixed-assets.md
                 - name: Contas a pagar e a receber
                   items:
                     - name: Correções de nota de crédito (Rússia)
@@ -3330,6 +3374,8 @@
                   href: localizations/emea-che-esr-customer-payments-import.md
                 - name: Código QR das faturas suíças
                   href: localizations/emea-che-swiss-qr-bills.md
+                - name: Declaração de IVA
+                  href: localizations/emea-che-VAT-declaration-Switzerland.md
             - name: Tailândia
               items:
                 - name: Visão geral da Tailândia
@@ -4101,30 +4147,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/finance/toc.json
                     - name: Importar configurações (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/finance/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: Recursos de globalização no RCS
-                      href: localizations/rcs-globalization-feature.md?toc=dynamics365/finance/toc.json
-                    - name: Baixar configurações ER no Finance
-                      items:
-                        - name: Baixar configurações do RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/finance/toc.json
-                        - name: Importar configurações do RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/finance/toc.json
-                    - name: Repositório global (GR)
-                      items:
-                        - name: Importar configurações do GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Importar versões atualizadas de configurações ER
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Filtragem avançada para encontrar configurações no GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/finance/toc.json
-                        - name: Carregar configurações no GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/finance/toc.json
-                        - name: Compartilhar configurações no GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/finance/toc.json
-                        - name: Descontinuar configurações no repositório global do RCS
-                          href: localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/finance/toc.json
             - name: Guias de início rápido
               items:
                 - name: Ajustar um formato ER para gerar um documento eletrônico personalizado
@@ -4355,7 +4377,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/finance/toc.json
             - name: Abrir dados de entidade no Excel e atualizá-los usando o suplemento do Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/finance/toc.json
-            - name: Criar experiências  Abrir no Excel
+            - name: Perguntas frequentes sobre experiências Abrir no Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/finance/toc.json
             - name: Adicionar modelos ao menu Abrir linhas no Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/finance/toc.json

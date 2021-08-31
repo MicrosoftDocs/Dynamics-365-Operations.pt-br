@@ -2,7 +2,7 @@
 title: Home page do Finance
 description: Este tópico oferece uma lista de tópicos da Ajuda e outros recursos para o gerenciamento financeiro do Microsoft Dynamics 365 Finance.
 author: roschlom
-ms.date: 06/20/2018
+ms.date: 08/18/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85b93f43a599e2da17d873dbe5609347d53af03cbfcaaccde7963b2f1ee97f08
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ad6c671dd48ff482caf1b24a3842d8db0064dc18
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779413"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394554"
 ---
 # <a name="finance-home-page"></a>Home page do Finance
 
@@ -35,6 +35,7 @@ Escolha uma área de recursos para saber mais a respeito.
     :::column:::
         - [Contas a pagar](accounts-payable/accounts-payable.md) 
         - [Contas a receber](accounts-receivable/accounts-receivable.md)
+        - [Arrendamento de ativos](asset-leasing/asset-leasing-homepage.md)
         - [Orçamento](budgeting/budgeting-overview.md) 
         - [Gerenciamento de caixa e bancos](cash-bank-management/cash-bank-management.md)
         - [Contabilidade de custos](cost-accounting/cost-accounting-home-page.md)
@@ -42,7 +43,8 @@ Escolha uma área de recursos para saber mais a respeito.
     :::column:::
         - [Gerenciamento de despesas](/dynamics365/project-operations/prod-exp/expense-management)
         - [Relatórios financeiros](../fin-ops-core/dev-itpro/analytics/financial-reporting-intro.md?toc=%2ffin-and-ops%2ftoc.json)
-        - [Ativos Fixos](fixed-assets/fixed-assets.md)
+        - [Ativos fixos](fixed-assets/fixed-assets.md)
+        - [Finance Insights](finance-insights/finance-insights-home-page.md)
         - [Contabilidade e relatórios financeiros](general-ledger/general-ledger.md) 
         - [Gerenciamento e contabilidade do projeto](/dynamics365/project-operations/prod-pma/overview-project-management-accounting)
         - [Setor público](public-sector/public-sector-functionality.md) 
@@ -57,9 +59,6 @@ Escolha uma área de recursos para saber mais a respeito.
 - [Blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)
 - [Blog de finanças](https://community.dynamics.com/365/financeandoperations/b/financials) 
 - [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog)
-
-### <a name="task-guides"></a>Guias de tarefas
-Há ajuda adicional disponível como guias de tarefas no Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
 
 ### <a name="videos"></a>Vídeos
 

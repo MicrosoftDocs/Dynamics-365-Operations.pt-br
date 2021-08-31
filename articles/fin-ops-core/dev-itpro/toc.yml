@@ -332,8 +332,6 @@
                       href: database/api/v1/reference-create-export.md
                     - name: Obter o status da atividade da operação
                       href: database/api/v1/reference-get-status.md
-                    - name: Iniciar e interromper ambientes
-                      href: database/api/v1/reference-start-stop-environments.md
         - name: Dados de demonstração
           items:
             - name: Visão geral dos dados de demonstração
@@ -368,8 +366,10 @@
                       href: deployment/plannedmaintenance-selfservice.md
                     - name: Continuidade dos negócios e recuperação de desastres
                       href: sysadmin/business-continuity-disaster-recovery.md
-                - name: Integração completa do Azure Resource Manager
+                - name: Concluir o processo de integração do Azure Resource Manager
                   href: deployment/arm-onboarding.md
+                - name: Concluir o processo de integração do Azure Resource Manager para projetos do LCS do governo dos EUA
+                  href: deployment/arm-onbarding-us-goverment.md
                 - name: Azure ExpressRoute e Finance and Operations
                   href: deployment/expressroute.md
                 - name: Arquitetura do Finance and Operations
@@ -944,6 +944,16 @@
                   href: lifecycle-services/lcs-works-lcs.md
                 - name: LCS para parceiros
                   href: lifecycle-services/getting-started-lcs.md
+                - name: APIs RESTful
+                  items:
+                    - name: Iniciar e interromper ambientes
+                      href: lifecycle-services/api/v1/reference-start-stop-environments.md
+                    - name: Buscar metadados de ambiente
+                      href: lifecycle-services/api/v1/reference-environment-metadata.md
+                    - name: Buscar histórico de ambiente
+                      href: lifecycle-services/api/v1/reference-environment-history.md
+                    - name: Buscar ZIP de certificado de RSAT do ambiente
+                      href: lifecycle-services/api/v1/reference-download-rsat-certificate.md
                 - name: Novidades ou alterações no Lifecycle Services
                   href: lifecycle-services/whats-new-lcs.md
             - name: Guia do usuário do Lifecycle Services
@@ -1134,26 +1144,28 @@
                   items:
                     - name: Suporte para soluções Field Service e Project Service Automation
                       href: data-entities/dual-write/field-service-project-service-automation.md
-                    - name: Migrar Cliente potencial para dados de caixa do Integrador de Dados para gravação dupla
+                    - name: Migrar dados de Cliente potencial ao pagamento à vista do Integrador de Dados para gravação dupla
                       href: data-entities/dual-write/migrate-prospect-to-cash.md
                     - name: Solução de problemas
                       items:
-                        - name: Verifique a configuração da gravação dupla nos aplicativos Finance and Operations e Dataverse
-                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
+                        - name: Solução de problemas gerais
+                          href: data-entities/dual-write/dual-write-troubleshooting.md
                         - name: Solucionar problemas durante a configuração inicial
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-setup.md
                         - name: Solucionar problemas durante a sincronização inicial
                           href: data-entities/dual-write/dual-write-troubleshooting-initial-sync.md
+                        - name: Solucionar problemas de sincronização dinâmica
+                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
                         - name: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-dual-write-module.md
-                        - name: Solucionar problemas de sincronização ao vivo
-                          href: data-entities/dual-write/dual-write-troubleshooting-live-sync.md
+                        - name: Solucionar problemas de participantes e de catálogos de endereços globais
+                          href: data-entities/dual-write/dual-write-troubleshooting-party-gab.md
                         - name: Solucionar problemas relacionados ao reconhecimento da solução
                           href: data-entities/dual-write/dual-write-troubleshooting-solution-awareness.md
                         - name: Solucionar problemas de atualizações de aplicativos do Finance and Operations
                           href: data-entities/dual-write/dual-write-troubleshooting-finops-upgrades.md
-                        - name: Solução de problemas gerais
-                          href: data-entities/dual-write/dual-write-troubleshooting.md
+                        - name: Verificar a configuração da gravação dupla nos aplicativos do Finance and Operations e do Dataverse
+                          href: data-entities/dual-write/dual-write-troubleshooting-verify-config.md
                 - name: Perguntas frequentes sobre gravação dupla
                   href: data-entities/dual-write/dual-write-faq.md
             - name: Entidades virtuais

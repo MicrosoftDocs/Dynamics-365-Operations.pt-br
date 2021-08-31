@@ -220,13 +220,33 @@
                       href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Criar configurações ER no Regulatory Configuration Service e carregá-las no repositório Global
                       href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Regulatory Configuration Service — Substituição de armazenamento do Lifecycle Services
+                    - name: Regulatory Configuration Service – Substituição de armazenamento do Lifecycle Services
                       href: ../finance/localizations/rcs-lcs-repo-dep-faq.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Baixar configurações ER no Supply Chain Management
+                      items:
+                        - name: Baixar configurações do RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Importar configurações do RCS
+                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
+                    - name: Repositório global (GR)
+                      items:
+                        - name: Importar configurações do GR
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Importar versões atualizadas de configurações ER
+                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Filtragem avançada para encontrar configurações no GR
+                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Carregar configurações no GR
+                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
+                        - name: Compartilhar configurações no GR
+                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
+                        - name: Descontinuar configurações no repositório global do RCS
+                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
                 - name: Faturamento Eletrônico
                   items:
                     - name: Visão geral do Faturamento Eletrônico
                       href: ../finance/localizations/e-invoicing-service-overview.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Componentes de administração do Faturamento Eletrônico
+                    - name: Componentes de administração do Faturamento eletrônico
                       href: ../finance/localizations/e-invoicing-service-administration.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar o Faturamento Eletrônico no Regulatory Configuration Services (RCS)
                       href: ../finance/localizations/e-invoicing-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
@@ -264,7 +284,7 @@
                       href: ../finance/localizations/tax-service-add-data-fields-tax-configurations.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Adicionar campos de dados à integração de imposto usando extensões
                       href: ../finance/localizations/tax-service-add-data-fields-tax-integration-by-extension.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Vários números de registo de IVA
+                    - name: Vários números de registro de IVA
                       href: ../finance/localizations/emea-multiple-vat-registration-numbers.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Configurar um ambiente para pesquisa de dados mestres
                       href: ../finance/localizations/tax-service-set-up-environment-master-data-lookup.md?toc=/dynamics365/supply-chain/toc.json
@@ -1237,30 +1257,6 @@
                       href: ../fin-ops-core/dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/dynamics365/supply-chain/toc.json
                     - name: Importar configurações (LBD)
                       href: ../fin-ops-core/dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                - name: Regulatory services (RCS)
-                  items:
-                    - name: Recursos de globalização no RCS
-                      href: ../finance/localizations/rcs-globalization-feature.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Baixar configurações ER no Supply Chain Management
-                      items:
-                        - name: Baixar configurações do RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/rcs-download-configurations.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Importar configurações do RCS
-                          href: ../fin-ops-core/dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/dynamics365/supply-chain/toc.json
-                    - name: Repositório global (GR)
-                      items:
-                        - name: Importar configurações do GR
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-configurations-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Importar versões atualizadas de configurações ER
-                          href: ../fin-ops-core/dev-itpro/analytics/er-download-updated-versions-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Filtragem avançada para encontrar configurações no GR
-                          href: ../finance/localizations/enhanced-filtering-global-repo.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Carregar configurações no GR
-                          href: ../finance/localizations/rcs-global-repo-upload.md?toc=/dynamics365/fsupply-chain/toc.json
-                        - name: Compartilhar configurações no GR
-                          href: ../finance/localizations/rcs-global-repo-share-configuration.md?toc=/dynamics365/supply-chain/toc.json
-                        - name: Descontinuar configurações no repositório global do RCS
-                          href: ../finance/localizations/discontinuing-configurations-rcs-global-repo.md?toc=/dynamics365/supply-chain/toc.json
             - name: Guias de início rápido
               items:
                 - name: Ajustar um formato ER para gerar um documento eletrônico personalizado
@@ -1574,10 +1570,22 @@
             - name: Arquivar transações de estoque
               href: inventory/archive-inventory-transactions.md
             - name: Suplemento de Visibilidade de Estoque
-              href: inventory/inventory-visibility.md
+              items:
+                - name: Visão geral do Suplemento de Visibilidade de Estoque
+                  href: inventory/inventory-visibility.md
+                - name: Configurar Visibilidade de Estoque
+                  href: inventory/inventory-visibility-setup.md
+                - name: Configurar Visibilidade de Estoque
+                  href: inventory/inventory-visibility-configuration.md
+                - name: Reservas de Visibilidade de Estoque
+                  href: inventory/inventory-visibility-reservations.md
+                - name: O Power App de Visibilidade de Estoque
+                  href: inventory/inventory-visibility-power-platform.md
+                - name: APIs públicas de Visibilidade de Estoque
+                  href: inventory/inventory-visibility-api.md
         - name: Inteligência da IoT
           items:
-            - name: Home page de Inteligência da IoT
+            - name: Página inicial de Inteligência da IoT
               href: iot/iot-intelligence-home-page.md
             - name: Configurar recursos do Azure
               href: iot/iot-azure-setup.md
@@ -1603,10 +1611,12 @@
                   href: master-planning/planning-optimization/planning-optimization-overview.md
                 - name: Introdução à Otimização de Planejamento
                   href: master-planning/planning-optimization/get-started.md
-                - name: Processo de liberação de otimização de planejamento e histórico de versões
+                - name: Processo de liberação da Otimização de Planejamento e histórico de versões
                   href: master-planning/planning-optimization/release-process.md
-                - name: Análise de ajuste da Otimização de Planejamento
+                - name: Análise de ajuste da Otimização do Planejamento
                   href: master-planning/planning-optimization/planning-optimization-fit-analysis.md
+                - name: Diferenças entre planejamento mestre interno e Otimização de Planejamento
+                  href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Parâmetros não usados pela Otimização de Planejamento
                   href: master-planning/planning-optimization/not-used-parameters.md
                 - name: Aplicar filtros a um plano
@@ -1795,7 +1805,7 @@
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/supply-chain/toc.json
             - name: Abrir dados de entidade no Excel e atualizá-los usando o suplemento do Excel
               href: ../fin-ops-core/dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/supply-chain/toc.json
-            - name: Criar experiências  Abrir no Excel
+            - name: Perguntas frequentes sobre experiências Abrir no Excel
               href: ../fin-ops-core/dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/supply-chain/toc.json
             - name: Adicionar modelos ao menu Abrir linhas no Excel
               href: ../fin-ops-core/dev-itpro/user-interface/add-templates-open-lines-excel-menu.md?toc=/dynamics365/supply-chain/toc.json
@@ -1975,8 +1985,6 @@
                   href: procurement/request-quotations.md
                 - name: Criar uma solicitação de cotação
                   href: procurement/tasks/create-request-quotation.md
-                - name: Lance selado para RFQs
-                  href: procurement/sealed-bidding.md
                 - name: Criar uma requisição que use uma RFQ
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Criar um método de avaliação para RFQs
@@ -2481,7 +2489,7 @@
                       href: production-control/job-scheduling.md
                 - name: Operar trabalhos kanban
                   items:
-                    - name: ​Suporte a quadro de transferência kanban para scanners de código de barras​
+                    - name: Suporte a quadro de transferência kanban para scanners de código de barras
                       href: production-control/kanban-transfer-board-support-barcode-scanner.md
                     - name: ​Comentários da produção​
                       href: production-control/production-feedback.md
@@ -3301,6 +3309,8 @@
                       href: warehousing/install-configure-warehouse-management-app.md
                     - name: Instalar e conectar o aplicativo de depósito
                       href: warehousing/install-configure-warehousing-app.md
+                    - name: Suporte a leitor de código de barras móvel
+                      href: warehousing/mobile-barcode-support.md
                     - name: Digitalizar códigos de barras usando uma câmera no aplicativo móvel Warehouse Management
                       href: warehousing/scan-bar-codes-using-a-camera.md
                     - name: Solucionar problemas de conexão do aplicativo móvel Warehouse Management
@@ -3311,6 +3321,8 @@
                       href: warehousing/configure-app-field-names-priorities-warehouse.md
                     - name: Configurar dispositivos móveis para trabalho de depósito
                       href: warehousing/configure-mobile-devices-warehouse.md
+                    - name: Personalizar títulos e instruções de etapas para o aplicativo móvel Warehouse Management
+                      href: warehousing/mobile-app-titles-instructions.md
                     - name: Recebimento da placa de licença pelo aplicativo móvel Warehouse Management
                       href: warehousing/warehousing-mobile-device-app-license-plate-receiving.md
                     - name: Configurar um item de menu de dispositivo móvel para concluir trabalhos em uma ordem de compra
@@ -3331,7 +3343,7 @@
                   href: warehousing/mobile-device-user-settings.md
                 - name: Processamento de eventos do aplicativo de depósito
                   href: warehousing/warehouse-app-events.md
-                - name: Personalizar o aplicativo de depósito
+                - name: Estender processos móveis de depósito
                   items:
                     - name: Processar estrutura de guia
                       href: warehousing/process-guide-framework.md
@@ -3403,8 +3415,8 @@
                       href: warehousing/system-group-on-open-work-list.md
                     - name: Layout de roteiro de documentos para etiquetas de placa de licença
                       href: warehousing/document-routing-layout-for-license-plates.md
-                    - name: Suporte a leitor de código de barras móvel
-                      href: warehousing/mobile-barcode-support.md
+                    - name: Códigos de barras de GS1 e códigos QR
+                      href: warehousing/gs1-barcodes.md
                     - name: Configurar depósito para ordens de transferência
                       href: warehousing/transfer-orders-warehouse.md
                     - name: Solucionar problemas de configuração de depósito
