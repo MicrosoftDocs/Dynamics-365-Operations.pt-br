@@ -2,7 +2,7 @@
 title: Criar entradas de diário mensal em um lote
 description: Este tópico explica como criar entradas de diário em um lote para ajudar a aumentar a eficiência quando despesas mensais de arrendamento são registradas.
 author: moaamer
-ms.date: 04/12/2021
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: cb03ebe316b1655b1d0ad1d2b9108c4ead7fc61f7a25b4f554b574186efa03b7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 22e2892a6866123ecf0e72511bdce19fe12895df
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737716"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344844"
 ---
 # <a name="create-monthly-journal-entries-in-a-batch"></a>Criar entradas de diário mensal em um lote
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Este tópico explica como criar entradas de diário em um lote para ajudar a aumentar a eficiência quando despesas mensais de arrendamento são registradas. O processamento em lotes pode ser usado para criar entradas de diário a partir de vários agendamentos. Essas entradas de diário podem incluir pagamentos de arrendamento, amortização de passivos, amortização de ativos de direito de uso (DDU) e despesas de custo de execução. Você também pode usar o processamento em lotes para fazer o reconhecimento inicial de vários arrendamentos ao mesmo tempo ou para criar ajustes de transição para vários arrendamentos ao mesmo tempo.
 
@@ -35,5 +37,6 @@ Para configurar um trabalho em lotes ou para processar faturas de pagamento, dep
 >
 > As entradas de diário são criadas, mas não serão lançadas até que você selecione o comando **Executar**.
 
+Para lançar o diário de reconhecimento inicial em uma data diferente da data de início de arrendamento, selecione **Atribuindo data de lançamento de reconhecimento inicial**. Um campo de **Data** que permite especificar a data de lançamento correta.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

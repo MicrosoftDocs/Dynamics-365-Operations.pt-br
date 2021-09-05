@@ -1,8 +1,8 @@
 ---
 title: Provisionar o Human Resources
-description: Este tópico o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/14/2021
+description: Este tópico explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 58ffce072c8b73f4907b18c6c60b022f9a3b55f26cb785238367254021afdc28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
+ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756139"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7393514"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -28,9 +28,15 @@ ms.locfileid: "6756139"
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Este tópico o orienta através do processo de provisionar um novo ambiente de produção para Microsoft Dynamics 365 Human Resources. Este tópico pressupõe que você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Human Resources e não puder concluir as etapas deste artigo, entre em contato com o Suporte.
+Este tópico explica o processo de provisionar um novo ambiente de produção para o Microsoft Dynamics 365 Human Resources. 
 
-Para começar, o administrador global deve entrar no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e criar um novo projeto Human Resources. A assistência dos representantes de Suporte ou do Dynamics Service Engineering (DSE) não é necessária, a menos que um problema de licença o impeça de provisionar o Human Resources.
+## <a name="prerequisites"></a>Pré-requisitos
+
+Antes de começar o provisionamento de um novo ambiente de produção, os seguintes pré-requisitos devem estar em vigor:
+
+- Você adquiriu o Human Resources por meio de um Provedor de Soluções na Nuvem (CSP) ou de um contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Human Resources e não puder concluir as etapas deste tópico, entre em contato com o Suporte.
+
+- O administrador global deve ter entrado no [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) e criado um novo projeto Human Resources. 
 
 ## <a name="provision-a-human-resources-trial-environment"></a>Provisionamento de um ambiente de teste de Recursos Humanos
 
@@ -42,7 +48,7 @@ Ambientes de avaliação não devem ser usados como ambientes de produção. Ele
 
 Antes de criar seu primeiro ambiente do Human Resources, você deve planejar cuidadosamente as necessidades ambientais do seu projeto. Uma assinatura básica do Human Resources inclui dois ambientes: um ambiente de produção e um ambiente de área restrita. Dependendo da complexidade do projeto, talvez você precise comprar ambientes adicionais de área restrita para apoiar as atividades do projeto. 
 
-Considerações para ambientes adicionais incluem, mas não se limitam a:
+Considerações para ambientes adicionais:
 
 - **Migração de dados**: Talvez seja necessário considerar um ambiente adicional para atividades de migração de dados para permitir que o ambiente de área restrita seja usado para fins de teste durante todo o projeto. Ter um ambiente adicional permite que as atividades de migração de dados continuem, enquanto as atividades de teste e configuração ocorrem simultaneamente em um ambiente diferente.
 - **Integração**: Talvez seja preciso considerar um ambiente adicional para configurar e testar integrações. Isso pode incluir integrações nativas, como as integrações do Ceridian Dayforce LinkedIn Talent Hub, ou integrações personalizadas, como as de folha de pagamento, sistemas de rastreamento de candidatos ou sistemas e provedores de benefícios.
@@ -50,10 +56,11 @@ Considerações para ambientes adicionais incluem, mas não se limitam a:
 - **Projeto multi-fase**: Talvez precise de um ambiente adicional para dar suporte a configuração, migração de dados, testes ou outras atividades em uma fase de projeto que é planejada após a ativação inicial do projeto.
 
  > [!IMPORTANT]
- > Recomendamos que você use o ambiente de produção em todo o projeto como o ambiente de configuração OURO. Isso é importante porque você não pode copiar um ambiente de área restrita em um ambiente de produção. Portanto, ao ser ativado, seu ambiente OURO é o ambiente de produção. Você concluirá as atividades de substituição nesse ambiente.</br></br>
- > É recomendável usar a área restrita ou outro ambiente para realizar uma simulação de substituição antes da ativação. Você pode fazer isso atualizando o ambiente de produção com a configuração OURO no ambiente de área restrita.</br></br>
- > É recomendável manter uma lista de verificação detalhada de substituição que inclua cada um dos pacotes de dados necessários para migrar os dados finais para o ambiente de produção durante a substituição da ativação.</br></br>
- > Também é recomendável que você use o ambiente de área restrita em todo o projeto como o ambiente de TESTE. Se você precisar de ambientes adicionais, sua organização poderá comprá-los por um custo adicional.</br></br>
+ > Ao considerar seu ambiente, recomendamos o seguinte:
+ > - Use seu ambiente de produção em todo o projeto como o ambiente de configuração OURO. Isso é importante porque você não pode copiar um ambiente de área restrita em um ambiente de produção. Portanto, ao ser ativado, seu ambiente OURO é o ambiente de produção. Você concluirá as atividades de substituição nesse ambiente.</br></br>
+ > - Use sua área restrita ou outro ambiente para realizar uma simulação de substituição antes da ativação. Você pode fazer isso atualizando o ambiente de produção com a configuração OURO no ambiente de área restrita.</br></br>
+ > - Mantenha uma lista de verificação detalhada de substituição que inclua cada um dos pacotes de dados necessários para migrar os dados finais para o ambiente de produção durante a substituição da ativação.</br></br>
+ > - Use seu ambiente de área restrita em todo o projeto como o ambiente de configuração de TESTE. Se você precisar de ambientes adicionais, sua organização poderá comprá-los por um custo adicional.</br></br>
 
 ## <a name="create-an-lcs-project"></a>Criar um projeto LCS
 
@@ -86,7 +93,7 @@ Depois de criar um projeto de LCS, você pode provisionar o Human Resources em u
     > O tipo de instância do Human Resources não pode ser alterado após definido. Verifique se o tipo de instância correto está selecionado antes de continuar.</br></br>
     > O tipo de instância do Human Resources é separado do tipo de instância do ambiente do Microsoft Power Apps, que você definiu no centro de administração do Power Apps.
     
-3. Selecione a opção **Incluir Dados de Demonstração** se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência de test drive do Human Resources. Dados de demonstração são interessantes para ambientes de demonstração ou de treinamento de longo prazo, e nunca devem ser usados em ambientes de produção. Você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
+3. Selecione a opção **Incluir Dados de Demonstração**, se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado no ambiente de Avaliação do Human Resources. Dados de demonstração são interessantes para ambientes de demonstração ou de treinamento de longo prazo, e nunca devem ser usados em ambientes de produção. Você deve selecionar esta opção na implantação inicial. Não é possível atualizar uma implantação já existente depois.
 
 4. O Human Resources sempre é provisionado em um ambiente do Microsoft Power Apps para permitir a integração e extensibilidade do Power Apps. Leia a seção "Selecionando um ambiente do Power Apps" deste artigo antes de prosseguir. Se você ainda não tem um ambiente do Power Apps, selecione Gerenciar ambientes no LCS ou Acesse o Centro de administração do Power Apps. Em seguida, siga as etapas para [Criar um ambiente do Power Apps](/powerapps/administrator/create-environment).
 
@@ -115,7 +122,7 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
 
 4. Estratégias de teste e integração de dados devem ser consideradas, como Área restrita, UAT ou Produção. Leve em consideração as implicações para sua implantação, pois não será fácil alterar qual ambiente do Human Resources será mapeado para um ambiente do Power Apps.
 
-5. Você não pode usar os ambientes do Power Apps a seguir para Human Resources. Eles são filtrados a partir da lista de seleção dentro do LCS:
+5. Os seguintes ambientes do Power Apps não podem ser usados para o Human Resources. Eles são filtrados a partir da lista de seleção dentro do LCS:
  
     - Ambientes **do Power Apps padrão** - Enquanto cada locatário é provisionado automaticamente com um ambiente do Power Apps padrão, não recomendamos usá-los com Human Resources. Todos os usuários de locatários podem acessar o ambiente do Power Apps e podem acidentalmente danificar dados de produção ao testar e explorar com integrações Power Apps ou Power Automate.
    
@@ -147,7 +154,7 @@ Os dados para o ambiente de Recursos Humanos sempre estarão contidos na geograf
 
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente
 
-Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os usuários adicionais do aplicativo devem ter acesso explicitamente. Você deve adicionar usuários e atribuir a eles as funções adequadas no ambiente do Human Resources. O administrador global que implantou o Human Resources também deve iniciar o Attract e o Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário. Até que isso ocorra, outros usuários não poderão acessar o Attract e o Onboard e receberão erros de violação de acesso. Para obter mais informações, consulte [Criar novos usuários](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
+Por padrão, o administrador global que criou o ambiente tem acesso a ele. Os usuários adicionais do aplicativo devem ter acesso explicitamente. Você deve adicionar usuários e atribuir a eles as funções adequadas no ambiente do Human Resources. Para obter mais informações, consulte [Criar novos usuários](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [Atribuir usuários a funções de segurança](/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles). 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

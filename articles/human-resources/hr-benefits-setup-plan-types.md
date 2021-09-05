@@ -1,8 +1,8 @@
 ---
 title: Visão geral do tipo de plano
-description: Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Um tipo de plano no Microsoft Dynamics 365 Human Resources é um agrupamento de alto nível de tipos específicos de benefícios.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 8966b0aa01795ff00832e480a186c05fa129e7c728112f81cf4f78b6b0915463
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732720"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423335"
 ---
 # <a name="plan-type-overview"></a>Visão geral do tipo de plano
 
@@ -32,10 +32,10 @@ Cada tipo de plano indica se um funcionário pode se inscrever em um plano desse
 
 Se um tipo de plano envolver contatos, o tipo de plano indicará se os contatos são beneficiários ou dependentes. Por exemplo, um tipo de plano de vida básico teria os beneficiários, enquanto um tipo de plano médico básico teria dependentes. Em alguns casos, um plano pode não ter contatos pessoais. Por exemplo, uma conta de despesas flexível ou bonificação de estacionamento.
 
-Um tipo de plano pode definir opções de cobertura. As opções de cobertura são definidas no formulário opção de cobertura. Uma opção de cobertura pode especificar o valor do benefício ou os contatos qualificados para o tipo de plano. Por exemplo, se o tipo de contato for beneficiário, a opção de cobertura deverá definir os termos do que o beneficiário está qualificado para receber quando o benefício é utilizado. Se o tipo de contato for dependente, a opção de cobertura deverá definir o relacionamento entre o dependente e o funcionário. 
+Um tipo de plano pode definir opções de cobertura. As opções de cobertura são definidas na página **Opção de cobertura**. Uma opção de cobertura pode especificar o valor do benefício ou os contatos qualificados para o tipo de plano. Por exemplo, se o tipo de contato for beneficiário, a opção de cobertura deverá definir os termos do que o beneficiário está qualificado para receber quando o benefício é utilizado. Se o tipo de contato for dependente, a opção de cobertura deverá definir o relacionamento entre o dependente e o funcionário. 
 
 > [!IMPORTANT]
-> O formulário inclui dados-chave que afetam as opções disponíveis quando um novo plano de benefícios é criado:
+> A página inclui dados-chave que afetam as opções disponíveis quando um novo plano de benefícios é criado:
 >
 > - **Código de tipo de plano** – Este campo afeta o que é mostrado na guia **Configuração** quando o benefício real é configurado.  
 > - **Registro simultâneo** – Este campo determina se vários registros são permitidos. (Em um plano médico, este campo é tipicamente definido como **Um registro**.)

@@ -2,19 +2,19 @@
 title: Catálogo de endereços global e dos participantes
 description: Este tópico descreve o recurso Catálogo de endereços global e de participantes de gravação dupla.
 author: RamaKrishnamoorthy
-ms.date: 02/22/2021
+ms.date: 08/11/2021
 ms.topic: article
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2021-02-22
-ms.openlocfilehash: 3cb4cdaefe7bd82dec612a11d75aeedb77bce152a00ff90fb0095f75b23a4bbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: da5ca16ed87108f8046348c831d37085f6f780d7
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729767"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386676"
 ---
 # <a name="party-and-global-address-book"></a>Catálogo de endereços global e dos participantes
 
@@ -139,7 +139,10 @@ A grade inclui as seguintes colunas:
 
 Você pode usar o botão **Novo Endereço Eletrônico** acima da grade para criar o número de endereços desejados.
 
-Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximos lançamentos, todos os campos de endereço eletrônico e postal serão removidos de outras guias (por exemplo, as guias **Resumo** e **Detalhes**).
+Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximos lançamentos, todos os campos de endereço eletrônico e postal serão removidos de outras guias, por exemplo, as guias **Resumo** e **Detalhes**. Os detalhes de contato exibidos na guia **Detalhes** são cópias somente leitura do endereço eletrônico principal, como telefone principal, email principal, telefone principal, fax principal e ID do Twitter principal. Durante o processo de qualificação de clientes potenciais, você pode fornecer um telefone comercial e um número do telefone celular. O telefone comercial é considerado o telefone principal se **IsMobile=No** e o número do telefone celular é considerado o telefone secundário se **IsMobile=Yes**.
+
+> [!TIP]
+> Use as guias **Endereços** e **Endereços Eletrônicos** nos formulários de **Conta** e **Contato** para gerenciar os endereços postal e eletrônico. Isso garante que os dados de endereço sejam sincronizados com os aplicativos do Finance and Operations.
 
 ## <a name="setup"></a>Configurar
 
@@ -249,13 +252,11 @@ Os endereços eletrônicos estão disponíveis somente nesta grade. Nos próximo
     [Cabeçalhos de ordens de venda CDS](mapping-reference.md#217) | salesorders
     [Cabeçalhos de fatura de venda V2](mapping-reference.md#118) | faturas
 
-> [!Note]
+> [!NOTE]
 > O mapa `CDS Contacts V2 (contacts)` é o mapa interrompido na etapa 1. Ao tentar executar outros mapas, esses dois mapas podem aparecer na lista de dependentes. Não execute esses mapas.
-
-> [!Note]
+>
 > Se a solução de catálogo de endereços global e de participantes estiver instalada, você deverá desabilitar o plug-in denominado `Microsoft.Dynamics.SCMExtended.Plugins.Plugins.LeadPrimaryContactPostCreate: QualifyLead of lead`. Se você desinstalar a solução de catálogo de endereços global e de participantes, deverá reativar o plug-in.
-
-> [!Note]
+>
 > O campo `msdyn_*partynumber` (um campo de texto de linha única) incluído nas tabelas **Conta**, **Contato** e **Fornecedor** não devem ser usadas no futuro. O nome da etiqueta tem um prefixo **(Preterido)** para fins de clareza. Em vez disso, use o campo **msdyn_partyid**. O campo é uma pesquisa na tabela **msdyn_party**.
 
 > Nome da Tabela | Campo antigo | Novo campo
@@ -296,7 +297,6 @@ Para obter mais informações, consulte [Referência de mapeamento de gravação
 
 + Em aplicativos do Finance and Operations, quando você cria um cliente junto com o endereço e o salva, o endereço pode não ser sincronizado com a tabela **Endereço**. Isso ocorre devido a um problema de sequenciamento de plataforma de gravação dupla. Para solucionar o problema, crie o cliente primeiro e salve-o. Em seguida, adicione o endereço.
 + Em aplicativos dos Finance and Operations, quando um registro de cliente tem um endereço principal e você cria um novo contato para esse cliente, o registro de contato herda um endereço principal do registro de cliente associado. Isso ocorre para o contato do fornecedor. O Dataverse no momento não dá suporte a esse comportamento. Se a gravação dupla estiver habilitada, os contatos de clientes herdados com um endereço principal do aplicativo Finance and Operations serão sincronizados com o Dataverse junto com o endereço.
-+ Os endereços eletrônicos da tabela `msdyn_partyelectronicaddress` não fluem para os campos de endereço eletrônico nas tabelas **Conta** e **Contato**. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nas tabelas **Conta** e **Contato** não serão substituídos.
 + Os endereços eletrônicos definidos na guia endereço eletrônico dos formulários **Conta**, **Contato** e **Fornecedor** são obtidos da tabela `msdyn_partyelectronicaddress`. Essas informações não fluem para as transações associadas, como ordem de venda, cotação e ordem de compra. Pretendemos corrigir esse problema em uma versão incremental. Os dados existentes nos campos de endereço eletrônico nos registros de conta e contato continuarão a funcionar em transações como ordem de venda, cotação e ordem de compra.
 + Em aplicativos do Finance and Operations, você pode criar um registro de contato do formulário **Adicionar Contato**. Quando você tenta criar um novo contato no formulário **Exibir Contato**, a ação falha. Este é um problema conhecido.
 

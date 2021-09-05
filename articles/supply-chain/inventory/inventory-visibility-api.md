@@ -1,0 +1,518 @@
+---
+title: APIs públicas de Visibilidade de Estoque
+description: Este tópico descreve as APIs públicas fornecidas pela visibilidade do Estoque.
+author: yufeihuang
+ms.date: 08/02/2021
+ms.topic: article
+ms.search.form: ''
+audience: Application User
+ms.reviewer: kamaybac
+ms.search.region: Global
+ms.author: yufeihuang
+ms.search.validFrom: 2021-08-02
+ms.dyn365.ops.version: 10.0.21
+ms.openlocfilehash: 0aca5838ff6d7c9c4d881698be1e2da2e0e1c02e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343623"
+---
+# <a name="inventory-visibility-public-apis"></a>APIs públicas de Visibilidade de Estoque
+
+[!include [banner](../includes/banner.md)]
+[!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
+
+Este tópico descreve as APIs públicas fornecidas pela visibilidade do Estoque.
+
+A API REST pública do Suplemento Visibilidade de Estoque apresenta vários pontos de extremidade específicos para integração. Ela oferece suporte a quatro tipos de interação principais:
+
+- Lançar alterações de estoque disponíveis no suplemento a partir de um sistema externo
+- Configuração ou substituição de quantidades de estoque disponível no suplemento de um sistema externo
+- Lançamento de eventos de reserva no no suplemento desde um sistema externo
+- Consultar as quantidades disponíveis no momento a partir de um sistema externo
+
+A tabela a seguir lista as APIs disponíveis no momento:
+
+| Caminho | Método | descrição |
+|---|---|---|
+| /api/environment/{environmentId}/onhand | Lançar | [Criar um evento de alteração disponível](#create-one-onhand-change-event) |
+| /api/environment/{environmentId}/onhand/bulk | Lançar | [Criar vários eventos de alteração](#create-multiple-onhand-change-events) |
+| /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk | Lançar | [Definir/substituir quantidades disponíveis](#set-onhand-quantities) |
+| /api/environment/{environmentId}/onhand/reserve | Lançar | [Criar um evento de reserva](#create-one-reservation-event) |
+| /api/environment/{environmentId}/onhand/reserve/bulk | Lançar | [Criar vários eventos de reserva](#create-multiple-reservation-events) |
+| /api/environment/{environmentId}/onhand/indexquery | Obter | [Consultar usando o método post](#query-with-post-method) |
+| /api/environment/{environmentId}/onhand/indexquery | Lançar | [Consultar usando o método get](#query-with-get-method) |
+
+A Microsoft forneceu uma coleção de solicitações do *Postman* pronta para uso. Você pode importar essa coleção para o seu software *Postman* usando o seguinte link compartilhado: <https://www.getpostman.com/collections/90bd57f36a789e1f8d4c>.
+
+## <a name="find-the-endpoint-according-to-your-lifecycle-services-environment"></a>Localizar o ponto de extremidade de acordo com o seu ambiente do Lifecycle Services
+
+O microsserviço da Visibilidade de Estoque é implantado no Microsoft Azure Service Fabric, em várias geografias e regiões. No momento, não há um ponto de extremidade central que possa redirecionar automaticamente sua solicitação para a geografia e a região correspondentes. Portanto, você deve compor as partes das informações em uma URL usando o seguinte padrão:
+
+`https://inventoryservice.<RegionShortName>-il<IsLandNumber>.gateway.prod.island.powerapps.com`
+
+O nome curto da região pode ser encontrado no ambiente do LCS (Microsoft Dynamics Lifecycle Services). A tabela a seguir lista as regiões disponíveis no momento.
+
+| Região do Azure | Nome curto da região |
+|---|---|
+| Leste da Austrália | eau |
+| Sudeste da Austrália | seau |
+| Canadá Central | cca |
+| Leste do Canadá | eca |
+| Norte da Europa | neu |
+| Oeste da Europa | weu |
+| Leste dos EUA | eus |
+| Oeste dos EUA | wus |
+| Sul do Reino Unido | suk |
+| Oeste do Reino Unido | wuk |
+
+O número da ilha é onde seu ambiente do LCS é implantado no Service Fabric. No momento, não há como obter essas informações do lado do usuário.
+
+A Microsoft criou uma IU (interface do usuário) no Power Apps para que você possa obter o ponto de extremidade completo do microsserviço. Para obter mais informações, consulte [Localizar o ponto de extremidade de serviço](inventory-visibility-power-platform.md#get-service-endpoint).
+
+## <a name="authentication"></a><a name="inventory-visibility-authentication"></a>Autenticação
+
+O token de segurança da plataforma é usado para chamar a API pública da Visibilidade de Estoque. Portanto, você deve gerar um token _Azure Active Directory (Azure AD)_ usando o aplicativo Azure AD. Você deve usar o token Azure AD para obter o _token de acesso_ do serviço de segurança.
+
+Para obter um token de serviço de segurança, siga estas etapas.
+
+1. Entre no portal do Azure e use-o para localizar os valores de `clientId` e `clientSecret` para seu aplicativo Dynamics 365 Supply Chain Management.
+1. Busque um token do Azure AD (`aadToken`) ao enviar uma solicitação HTTP com as seguintes propriedades:
+
+    - **URL:** `https://login.microsoftonline.com/${aadTenantId}/oauth2/token`
+    - **Método:** `GET`
+    - **Conteúdo do corpo (dados de formulário):**
+
+        | Chave | Alíquota |
+        |---|---|
+        | client_id | ${aadAppId} |
+        | client_secret | ${aadAppSecret} |
+        | grant_type | client_credentials |
+        | resource | 0cdb527f-a8d1-4bf8-9436-b352c68682b2 |
+
+    Você deverá receber um token do Azure AD (`aadToken`) em resposta. Ela deve se assemelhar ao seguinte exemplo.
+
+    ```json
+    {
+        "token_type": "Bearer",
+        "expires_in": "3599",
+        "ext_expires_in": "3599",
+        "expires_on": "1610466645",
+        "not_before": "1610462745",
+        "resource": "0cdb527f-a8d1-4bf8-9436-b352c68682b2",
+        "access_token": "eyJ0eX...8WQ"
+    }
+    ```
+
+1. Formula uma solicitação JSON (JavaScript Object Notation) semelhante ao exemplo a seguir.
+
+    ```json
+    {
+        "grant_type": "client_credentials",
+        "client_assertion_type": "aad_app",
+        "client_assertion": "{Your_AADToken}",
+        "scope": "https://inventoryservice.operations365.dynamics.com/.default",
+        "context": "5dbf6cc8-255e-4de2-8a25-2101cd5649b4",
+        "context_type": "finops-env"
+    }
+    ```
+
+    Observe os seguintes pontos:
+
+    - O valor de `client_assertion` deverá ser o token do Azure AD (`aadToken`) que você recebeu na etapa anterior.
+    - O valor de `context` deve ser a ID do ambiente em que deseja implantar o suplemento.
+    - Defina todos os demais valores conforme mostrado no exemplo.
+
+1. Envie uma solicitação HTTP com as seguintes propriedades:
+
+    - **URL:** `https://securityservice.operations365.dynamics.com/token`
+    - **Método:** `POST`
+    - **Cabeçalho HTTP:** inclua a versão da API. (A chave é `Api-Version`, e o valor é `1.0`.)
+    - **Conteúdo do corpo:** inclua a solicitação JSON criada na etapa anterior.
+
+    Você deverá receber um token de acesso (`access_token`) em resposta. Você deverá usar esse token como um token de portador para chamar a API da Visibilidade de Estoque. Veja aqui um exemplo.
+
+    ```json
+    {
+        "access_token": "{Returned_Token}",
+        "token_type": "bearer",
+        "expires_in": 3600
+    }
+    ```
+
+Nas seções posteriores, você usará `$access_token` para representar o token buscado na última etapa.
+
+## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Criar eventos de alteração disponíveis
+
+Há duas APIs para a criação de eventos de alteração disponíveis:
+
+- Criar um registro: `/api/environment/{environmentId}/onhand`
+- Criar vários registros: `/api/environment/{environmentId}/onhand/bulk`
+
+A tabela a seguir resume o significado de cada campo no corpo do JSON.
+
+| ID do campo | descrição |
+|---|---|
+| `id` | Uma ID exclusiva para o evento de alteração específico. Essa ID é usada para garantir que, se a comunicação com o serviço falhar durante o lançamento, o mesmo evento não será contado duas vezes no sistema caso seja enviado novamente. |
+| `organizationId` | O identificador da organização vinculado ao evento. Esse valor é mapeado para uma ID da organização ou da área de dados no Supply Chain Management. |
+| `productId` | O identificador do produto. |
+| `quantities` | A quantidade pela qual a quantidade disponível deve ser alterada. Por exemplo, se 10 novos livros forem adicionados a uma prateleira, esse valor será `quantities:{ shelf:{ received: 10 }}`. Se três livros forem removidos da prateleira ou se forem vendidos, esse valor será `quantities:{ shelf:{ sold: 3 }}`. |
+| `dimensionDataSource` | A fonte de dados das dimensões usadas no evento e na consulta de alteração de lançamento. Se você especificar a fonte de dados, poderá usar as dimensões personalizadas da fonte de dados especificada. A Visibilidade de Estoque pode usar a configuração da dimensão para mapear as dimensões personalizadas para as dimensões padrão gerais. Se nenhum valor de `dimensionDataSource` for especificado, você só poderá usar as [dimensões base](inventory-visibility-configuration.md#data-source-configuration-dimension) gerais em suas consultas. |
+| `dimensions` | Um par de chave-valor dinâmico. Os valores são mapeados para algumas das dimensões no Supply Chain Management. No entanto, você também pode adicionar dimensões personalizadas (por exemplo, _Origem_) para indicar se o evento provém do Supply Chain Management ou de um sistema externo. |
+
+### <a name="create-one-on-hand-change-event"></a><a name="create-one-onhand-change-event"></a>Criar um evento de alteração disponível
+
+Essa API cria um único evento de alteração disponível.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string, # Optional
+        dimensions: {
+            [key:string]: string,
+        },
+        quantities: {
+            [dataSourceName:string]: {
+                [key:string]: number,
+            },
+        },
+    }
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo. Neste exemplo, você lança um evento de alteração para o produto *Camiseta*. Esse evento é do sistema de PDV (ponto de venda) e o cliente devolveu uma camiseta vermelha para sua loja. Esse evento aumentará a quantidade do produto *Camiseta* em 1.
+
+```json
+{
+    "id": "123456",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
+    "dimensionDataSource": "pos",
+    "dimensions": {
+        "ColorId": "Red"
+    },
+    "quantities": {
+        "pos": {
+            "inbound": 1
+        }
+    }
+}
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo sem `dimensionDataSource`.
+
+```json
+{
+    "id": "123456",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
+    "dimensions": {
+        "ColorId": "Red",
+        "SiteId": "1",
+        "LocationId": "11"
+    },
+    "quantities": {
+        "pos": {
+            "inbound": 1
+        }
+    }
+}
+```
+
+### <a name="create-multiple-change-events"></a><a name="create-multiple-onhand-change-events"></a>Criar vários eventos de alteração
+
+Essa API pode criar vários registros ao mesmo tempo. As únicas diferenças entre essa API e a [API de evento único ](#create-one-onhand-change-event) são os valores de `Path` e `Body`. Para essa API, `Body` fornece uma matriz de registros.
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string, # Optional
+            dimensions: {
+                [key:string]: string,
+            },
+            quantities: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+        },
+        ...
+    ]
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo.
+
+```json
+[
+    {
+        "id": "123456",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
+        "dimensionDataSource": "pos",
+        "dimensions": {
+            "PosMachineId&quot;: &quot;0001"
+        },
+        "quantities": {
+            "pos": { "inbound": 1 }
+        }
+    },
+    {
+        "id": "654321",
+        "organizationId": "usmf",
+        "productId": "@PRODUCT1",
+        "dimensionDataSource": "pos",
+        "dimensions": {
+            "PosMachineId&quot;: &quot;0001"
+        },
+        "quantities": {
+            "pos": { "outbound": 3 }
+        }
+    }
+]
+```
+
+## <a name="setoverride-on-hand-quantities"></a><a name="set-onhand-quantities"></a>Definir/substituir quantidades disponíveis
+
+A API _Definir disponível_ substitui os dados atuais do produto especificado.
+
+```txt
+Path:
+    /api/environment/{environmentId}/setonhand/{inventorySystem}/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string, # Optional
+            dimensions: {
+                [key:string]: string,
+            },
+            quantities: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+            modifiedDateTimeUTC: datetime,
+        },
+        ...
+    ]
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo. O comportamento dessa API difere do comportamento das APIs descritas na seção [Criar eventos de alteração disponíveis](#create-onhand-change-event), anteriormente neste tópico. Neste exemplo, a quantidade do produto *Camiseta* será definida como 1.
+
+```json
+[
+    {
+        "id": "123456",
+        "organizationId": "usmf",
+        "productId": "T-shirt",
+        "dimensionDataSource": "pos",
+        "dimensions": {
+            "PosMachineId": "0001"
+        },
+        "quantities": {
+            "pos": {
+                "inbound": 1
+            }
+        }
+    }
+]
+```
+
+## <a name="create-reservation-events"></a>Criar eventos de reserva
+
+[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
+
+Para usar a API *Reservar*, você deverá abrir o recurso de reserva e concluir a configuração da reserva. Para obter mais informações, consulte [Configuração da reserva (opcional)](inventory-visibility-configuration.md#reservation-configuration).
+
+### <a name="create-one-reservation-event"></a><a name="create-one-reservation-event"></a>Criar um evento de reserva
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/reserve
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        id: string,
+        organizationId: string,
+        productId: string,
+        dimensionDataSource: string,
+        dimensions: {
+            [key:string]: string,
+        },
+        quantityDataSource: string, # optional
+        quantities: {
+            [dataSourceName:string]: {
+                [key:string]: number,
+            },
+        },
+        modifier: string,
+        quantity: number,
+        ifCheckAvailForReserv: boolean,
+    }
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo.
+
+```json
+{
+    "id": "reserve-0",
+    "organizationId": "usmf",
+    "productId": "T-shirt",
+    "quantity": 1,
+    "quantityDataSource": "iv",
+    "modifier": "softreservordered",
+    "ifCheckAvailForReserv": true,
+    "dimensions": {
+        "SiteId": "1",
+        "LocationId": "11",
+        "ColorId": "Red",
+        "SizeId&quot;: &quot;Small"
+    }
+}
+```
+
+### <a name="create-multiple-reservation-events"></a><a name="create-multiple-reservation-events"></a>Criar vários eventos de reserva
+
+Essa API é uma versão em massa da [API de evento único](#create-one-reservation-event).
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/reserve/bulk
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    [
+        {
+            id: string,
+            organizationId: string,
+            productId: string,
+            dimensionDataSource: string,
+            dimensions: {
+                [key:string]: string,
+            },
+            quantityDataSource: string, # optional
+            quantities: {
+                [dataSourceName:string]: {
+                    [key:string]: number,
+                },
+            },
+            modifier: string,
+            quantity: number,
+            ifCheckAvailForReserv: boolean,
+        },
+        ...
+    ]
+```
+
+## <a name="query-on-hand"></a>Consultar disponíveis
+
+A API _Consultar disponíveis_ é usada para buscar dados de estoque disponível atuais para seus produtos.
+
+### <a name="query-by-using-the-post-method"></a><a name="query-with-post-method"></a>Consultar usando o método post
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Post
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Body:
+    {
+        organizationId: string,
+        filters: {
+            [dimensionKey:string]: string[],
+        },
+        groupByValues: string[],
+        returnNegative: boolean,
+    }
+```
+
+O exemplo a seguir mostra o conteúdo do corpo de exemplo.
+
+```json
+{
+    "dimensionDataSource": "pos",
+    "filters": {
+        "organizationId": ["usmf"],
+        "productId": ["T-shirt"],
+        "ColorId": ["Red"]
+    },
+    "groupByValues": ["ColorId", "SizeId"],
+    "returnNegative": true
+}
+```
+
+### <a name="query-by-using-the-get-method"></a><a name="query-with-get-method"></a>Consultar usando o método get
+
+```txt
+Path:
+    /api/environment/{environmentId}/onhand/indexquery
+Method:
+    Get
+Headers:
+    Api-Version="1.0"
+    Authorization="Bearer $access_token"
+ContentType:
+    application/json
+Query(Url Parameters):
+    groupBy
+    returnNegative
+    [Filters]
+```
+
+Este é um exemplo de obtenção de URL. Essa solicitação get é exatamente igual ao exemplo de lançamento fornecido anteriormente.
+
+```txt
+/api/environment/{environmentId}/onhand/indexquery?organizationId=usmf&productId=T-shirt&ColorId=Red&groupBy=ColorId,SizeId&returnNegative=true
+```
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

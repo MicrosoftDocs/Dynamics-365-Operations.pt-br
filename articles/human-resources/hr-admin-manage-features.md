@@ -1,8 +1,8 @@
 ---
 title: Gerenciar recursos em Recursos Humanos
-description: Saiba como habilitar ou desabilitar novos recursos no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a9c459b2b34164a9be3ed609a99deb4c5b710d340ef560e6f991e760375d6146
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 61e40f7177a1c8cf3d60a9a991ecbb0ed4d93aa1
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738358"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414624"
 ---
 # <a name="manage-features-in-human-resources"></a>Gerenciar recursos em Recursos Humanos
 
@@ -69,7 +69,7 @@ O gerenciamento de benefícios substitui a funcionalidade do espaço de trabalho
 - **Políticas de qualificação para benefícios**
 - **Eventos de qualificação**
 
-Você pode exibir as informações desses formulários no modo somente leitura. Se desejar editar as informações, você deve primeiro desabilitar o gerenciamento de benefícios (aplicável apenas a ambientes de **Área restrita**).
+Você pode exibir as informações destas páginas no modo somente leitura. Se desejar editar as informações, você deve primeiro desabilitar o gerenciamento de benefícios (aplicável apenas a ambientes de **Área restrita**).
 
 ## <a name="enable-or-disable-leave-and-absence"></a>Habilitar ou desabilitar a licença e a ausência
 

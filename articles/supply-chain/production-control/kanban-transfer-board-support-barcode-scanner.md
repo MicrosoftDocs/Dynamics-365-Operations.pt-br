@@ -1,5 +1,5 @@
 ---
-title: Suporte do quadro de transferência kanban para os scanners de código de barras
+title: Suporte a quadro de transferência kanban para scanners de código de barras
 description: O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban.
 author: ChristianRytt
 ms.date: 06/20/2017
@@ -16,14 +16,14 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 973c9f4c6960d5e263ee06bd665c94f770696d0dd5a7cdfad8471687054d57f6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1316c4f77cabf0184ec01b64d0c6a86830e2675d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736007"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343933"
 ---
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Suporte do quadro de transferência kanban para os scanners de código de barras
+# <a name="kanban-transfer-board-support-for-bar-code-scanners"></a>Suporte a quadro de transferência kanban para scanners de código de barras
 
 [!include [banner](../includes/banner.md)]
 

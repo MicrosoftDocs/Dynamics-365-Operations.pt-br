@@ -2,7 +2,7 @@
 title: Personalizar a experiência do usuário
 description: Este tópico explica como você pode personalizar o aplicativo.
 author: jasongre
-ms.date: 04/22/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f71a94a6a5780f8a59590008f6370cb6897fa644e7fd826bacd0fb6206d159c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e3d126bf9ec5687d97dacc8763a221da656fdef1
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344365"
 ---
 # <a name="personalize-the-user-experience"></a>Personalizar a experiência do usuário
 
@@ -169,7 +169,7 @@ Geralmente, o painel é a primeira página que você vê ao abrir o aplicativo. 
 Um recurso de personalização exclusivo disponível no painel é a possibilidade de adicionar blocos. 
 
 - Se o recurso **Aplicativos de página inteira** estiver desativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um espaço de trabalho**. Um novo bloco do espaço de trabalho será criado na parte inferior do painel. Você poderá renomear esse novo bloco do espaço de trabalho como desejar. Você também poderá adicionar listas, blocos e links ao espaço de trabalho, conforme descrito na seção [Adicionando blocos, listas e links a um espaço de trabalho](personalize-user-experience.md#adding-tiles-lists-and-links-to-a-workspace) deste tópico.
-- Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. 
+- Se o recurso **Aplicativos de página inteira** estiver ativado, você adicionará um novo bloco clicando com o botão direito do mouse em um elemento no painel e selecionando **Adicionar um aplicativo**. Na caixa de diálogo, selecione se você deseja adicionar um bloco para um novo espaço de trabalho ou um bloco que tenha conteúdo do Power Apps ou de um site. Em seguida, siga as etapas para configurar a opção selecionada. Um novo bloco será criado na parte inferior do painel. Para obter mais informações sobre como adicionar, editar, excluir e compartilhar esses aplicativos inseridos, consulte [Inserir aplicativos de tela do Power Apps](embed-power-apps.md) e [Inserir aplicativos de terceiros](embed-website.md).
 
 ## <a name="sharing-personalizations"></a>Como compartilhar personalizações
 

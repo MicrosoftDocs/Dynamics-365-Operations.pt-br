@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: ivanv
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 43d1381e73d5659bfd6ae6c6d944b7e6918b681a4f89df7ad23abbed5b4a0d3c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
+ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720075"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386090"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
 
@@ -23,7 +23,23 @@ ms.locfileid: "6720075"
 
 Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
 
-## <a name="2070"></a>2.0.7.0
+## <a name="version-2090"></a>Versão 2.0.9.0
+
+Esta versão corrige um problema em que o aplicativo pode parar de responder se os usuários sobem da parte superior de uma lista.
+
+## <a name="version-2080"></a>Versão 2.0.8.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Suporte adicionado para o [recurso de instruções de etaoa](mobile-app-titles-instructions.md) que foi introduzido no Supply Chain Management versão 10.0.21.
+- Adição de animação de dica para mostrar aos usuários que eles podem fechar as sobreposições deslizando o dedo para baixo.
+- Adição de suporte para teclas de função em listas de ações e menus. Os usuários podem manter pressionada qualquer tecla de função por três segundos para obter uma lista dos comandos disponíveis.
+- Correção de um problema que fazia com que a seguinte mensagem de erro fosse mostrada em alguns dispositivos: "Não é possível encontrar uma exibição adequada para o tamanho especificado".
+- Correção de um problema em que o modo de tela inteira nem sempre funcionava quando o teclado na tela era usado.
+- Correção de um problema em que a opção de deslizar o dedo na página não funcionava em dispositivos Windows.
+- Vários problemas que fizeram com que o sistema parasse de responder foram corrigidos.
+
+## <a name="version-2070"></a>Versão 2.0.7.0
 
 ### <a name="new-features-fixes-and-improvements-in-version-2070"></a>Novos recursos, correções e aprimoramentos na versão 2.0.7.0
 

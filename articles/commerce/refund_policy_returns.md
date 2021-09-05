@@ -14,12 +14,12 @@ ms.search.industry: Retail
 ms.author: rapraj
 ms.search.validFrom: 2020-01-21
 ms.dyn365.ops.version: Retail 10.0.9 update
-ms.openlocfilehash: 5c32156aea5f43d41b51f34b45b5b6dfedb5cad0f948924ecea9b3d89e6bb402
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4346f9eefa04688c80ce2512a7972bfd4627942c
+ms.sourcegitcommit: 53fad4d4b5fb67aa75550956ec205f456a5be01d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763683"
+ms.lasthandoff: 08/17/2021
+ms.locfileid: "7388924"
 ---
 # <a name="create-and-update-a-returns-and-refunds-policy-for-a-channel"></a>Criar e atualizar uma política de devolução e reembolso para um canal
 
@@ -42,15 +42,6 @@ Para habilitar a funcionalidade de política de devolução de canais na matriz 
 1. Procure o recurso **Habilitar políticas de devolução de canal** na lista de nomes de recursos.
 1. Selecione **Habilitar agora**.
 1. Na página **Agendamento de distribuição**, execute o trabalho de **1110** (configuração global) para distribuir a alteração do recurso.
-
-## <a name="initialize-the-commerce-scheduler"></a>Inicializar o agendador do Commerce
-
-Depois de habilitar o recurso **Habilitar políticas de devolução de canal**, você deve inicializar o agendador do Commerce para garantir que as alterações de banco de dados do novo recurso sejam adicionadas pela sincronização do Commerce Data Exchange (CDX). 
-
-Para inicializar a agendador do Commerce na matriz do Commerce, siga estas etapas:
-
-- Acesse **Retail e Commerce \> Configuração do Headquarters \> Agendador do Commerce \> Inicializar agendador do Commerce** Como alternativa, você pode procurar "Inicializar agendador do Commerce".
-- Na caixa de diálogo **Inicializar agendador do Commerce**, certifique-se de que a opção **Excluir configuração existente** esteja definida como **Não** e, em seguida, selecione **OK**.
 
 ## <a name="configure-return-policy"></a>Configurar política de devolução
 

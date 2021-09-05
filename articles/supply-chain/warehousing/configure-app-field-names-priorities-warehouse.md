@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 31b1d9e26a5c21a6be5fd89992316e1d6e657c183a71d5155d8d76e83362c845
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e9f9504ec87fd58bbf685519108477a48055da93
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721142"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344141"
 ---
 # <a name="configure-fields-for-the-warehouse-management-mobile-app"></a>Configurar campos para o aplicativo móvel do Gerenciamento de Depósito
 
@@ -50,7 +50,7 @@ Ao usar o Warehousing em seu dispositivo móvel, você pode configurar como os m
 <tbody>
 <tr class="odd">
 <td>Modo de entrada preferencial</td>
-<td>Essa opção define se um campo de digitalização ou um campo de saída de entrada manual deve ser mostrado para o nome de campo selecionado. Isso é útil para diferenciar campos, o que dependerá da utilidade dos códigos de barras para o campo. <strong>Observação:</strong> para nomes de campo com modo de saída preferencial definido como <strong>Digitalizando</strong>, você pode inserir informações manualmente se o código de barras for ilegível ou estiver danificado.</td>
+<td>Essa opção define se um campo de digitalização ou um campo de saída de entrada manual deve ser mostrado para o nome de campo selecionado. Isso é útil para diferenciar campos, dependendo se os códigos de barra são usados para o campo. <strong>Observação:</strong> para nomes de campo com modo de saída preferencial definido como <strong>Digitalizando</strong>, você pode inserir informações manualmente, se o código de barras for ilegível ou estiver danificado.</td>
 </tr>
 <tr class="even">
 <td>Tipo de Entrada</td>

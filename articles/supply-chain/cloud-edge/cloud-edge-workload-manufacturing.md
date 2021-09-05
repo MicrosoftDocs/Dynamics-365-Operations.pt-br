@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: cabeln
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: 958c7a8853e5ef0d7fb211225796d7808e4e7ae1afaf861cc6746157225c0dbb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 77e0a0e0eb47c331b2b219dc523ecd2c706a4638
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721454"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345289"
 ---
 # <a name="manufacturing-execution-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de execução de fabricação para unidades de escala de nuvem e borda
 
@@ -44,7 +44,7 @@ Este tópico descreve como cargas de trabalho de execução de fabricação func
 
 A ilustração a seguir mostra que o ciclo de vida da fabricação é dividido em três fases: *Planejar*, *Executar* e *Finalizar*.
 
-[![Fases de execução de fabricação quando um único ambiente é usado](media/mes-phases.png "Fases de execução de fabricação quando um único ambiente é usado."](media/mes-phases-large.png)
+[![Fases de execução de fabricação quando um único ambiente é usado](media/mes-phases.png "Fases de execução de fabricação quando um único ambiente é usado.")](media/mes-phases-large.png)
 
 A fase _Planejar_ inclui definição de produtos, planejamento, criação e agendamento de ordens e liberação. A etapa de liberação indica a transição da fase _Planejar_ para a fase _Executar_. Quando uma ordem de produção é liberada, os trabalhos de ordem de produção ficam visíveis no piso de produção e prontos para execução.
 
@@ -54,7 +54,7 @@ Quando um trabalho de produção é marcado como concluído, ele passa da fase _
 
 Conforme ilustrado a seguir, quando as unidades de escala são usadas, a fase _Executar_ é dividida como uma carga de trabalho separada.
 
-[![Fases de execução de fabricação quando as unidades de escala são usadas](media/mes-phases-workloads.png "Fases de execução de fabricação quando as unidades de escala são usadas."](media/mes-phases-workloads-large.png)
+[![Fases de execução de fabricação quando unidades de escala são usadas](media/mes-phases-workloads.png "Fases de execução de fabricação quando unidades de escala são usadas.")](media/mes-phases-workloads-large.png)
 
 O modelo passa de uma instalação de única instância para um modelo baseado no hub e em unidades de escala. As fases _Planejar_ e _Finalizar_ são executadas como operações back office no hub; a carga de trabalho de execução de fabricação é executada nas unidades de escala. Os dados são transferidos de forma assíncrona entre o hub e as unidades de escala.
 

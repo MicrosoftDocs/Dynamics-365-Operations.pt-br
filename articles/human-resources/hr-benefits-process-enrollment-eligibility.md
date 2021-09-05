@@ -1,8 +1,8 @@
 ---
 title: Processar qualificação da inscrição
-description: Este artigo explica como executar o processo de qualificação da inscrição.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Este tópico explica como executar o processo de qualificação da inscrição.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 989b493af6e8386f9517737c582150470a4e226d161e63c3f7a6088dbd3df903
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c83753c17721487ba6adbf822c994a71ae0a0e6
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782063"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417392"
 ---
 # <a name="process-enrollment-eligibility"></a>Processar qualificação da inscrição
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo explica como executar o processo de qualificação da inscrição.
+Este tópico explica como executar o processo de qualificação da inscrição.
 
 1. No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Processamento da qualificação da inscrição**.
 
@@ -53,11 +53,11 @@ Este artigo explica como executar o processo de qualificação da inscrição.
 
 ## <a name="view-process-results"></a>Exibir resultados do processo
 
-Este artigo explica como exibir os resultados de processo de qualificação.
+Este tópico explica como exibir os resultados do processo de qualificação.
 
 1.  No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Resultados do processo**.
 
-2.  No formulário **Resultados do processo**, os seguintes campos são especificados:
+2.  Na página **Resultados do processo**, os seguintes campos são especificados:
 
    | Campo | descrição |
    | --- | --- |

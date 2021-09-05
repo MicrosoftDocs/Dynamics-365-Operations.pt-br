@@ -1,8 +1,8 @@
 ---
 title: Integração com Perguntas frequentes do Finance
-description: Este artigo explica quais dados são sincronizados em uma de integração do Human Resources com o Finance.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Este tópico explica quais dados são sincronizados em uma de integração do Human Resources com o Finance.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3f6a3141f1c7f4e488af0318569118be10da106a035f29e1752f0a0da5a1637f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8c368f916a199c7472f6f886d143048487a38ecc
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782135"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413359"
 ---
 # <a name="integration-with-finance-faq"></a>Integração com Perguntas frequentes do Finance
 
@@ -158,8 +158,7 @@ Certifique-se de, ao criar suas conexões, escolher o Dynamics 365 Finance e o D
 
 ## <a name="when-syncing-employments-i-get-the-errors-companyinfo_fk-doesnt-exist-or-the-value-12312154-115959-pm-in-field-employment-end-date-is-not-found-in-the-related-table-employment-what-should-i-do"></a>Ao sincronizar empregos, recebo erros “CompanyInfo_FK não existe “ou “O valor '12/31/2154 11:59:59 pm' no campo 'Data final do emprego' não foi encontrado na tabela 'Emprego' relacionada'". O que devo fazer?
 
-Garanta que esteja mapeando para as entidades legais corretas. A sincronização da entidade legal não faz parte do modelo padrão. Por isso, espera-se que cada entidade legal presente no Human Resources e no Dataverse também esteja presente no Finance.
-Além disso, verifique se está selecionando as entidades legais corretas para o Conjunto de conexão associado.
+Garanta que esteja mapeando para as entidades legais corretas. A sincronização da entidade legal não faz parte do modelo padrão. Por isso, espera-se que cada entidade legal presente no Human Resources e no Dataverse também esteja presente no Finance. Além disso, verifique se está selecionando as entidades legais corretas para o Conjunto de conexão associado.
 
 ## <a name="after-setting-up-my-project-the-field-mapping-for-finance-appears-to-be-empty-what-should-i-do"></a>Depois de configurar meu projeto, o mapeamento de campos para o Finance parece estar vazio. O que devo fazer?
 

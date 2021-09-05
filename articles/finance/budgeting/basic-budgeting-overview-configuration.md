@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: panolte
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3f2144d2ca9b2f5e06f0a21f6f97b7ca6440ffe8ce300bdbf329279505059459
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 849b1202ea2c0080f5fc5bacba1f95180fc4008a
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720589"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343647"
 ---
 # <a name="budgeting-overview"></a>Visão geral de orçamento 
 
@@ -38,7 +38,7 @@ Há vários métodos para criar entradas de registro de orçamento:
 
 -   Inserir manualmente as informações de documentos na página **Entradas de registro de orçamento**.
 -   Usar o modelo do Microsoft Excel que pode ser aberto clicando no botão **Abrir no Excel** na página **Entradas de registro de orçamento**.
--   Use a entidade de dados **Entradas de Conta de Orçamento** no gerenciamento de dados para importar entradas de registro de orçamento. Considere o uso deste método e a ativação do parâmetro **Processamento** **baseado em conjunto** quando precisar importar várias entradas de conta de orçamento para o sistema.
+-   Use a entidade de dados **Entradas de Conta de Orçamento** no gerenciamento de dados para importar entradas de registro de orçamento. Considere o uso deste método e a ativação do parâmetro **Processamento baseado em conjunto** quando precisar importar várias entradas de conta de orçamento para o sistema.
 -   Se a empresa usa a funcionalidade Planejamento de orçamento para preparar dados de orçamento, você pode usar o processo periódico **Gerar a entrada de registro de orçamento**.
 
 A entrada de registro de orçamento é considerada concluída quando os saldos do orçamento são atualizados. Na página **Entradas de registro de orçamento**, clique em **Atualizar saldos de orçamentos** para uma entrada de registro de orçamento selecionada ou várias entradas. Após a atualização dos saldos do orçamento, o status da entrada de registro de orçamento muda para **Concluído**. A entrada de registro de orçamento concluído não pode ser reaberta para edições. Então, se os dados de orçamento devem ser ajustados, você precisa criar uma nova entrada de registro de orçamento em vez de corrigir dados na entrada de registro de orçamento concluído.
@@ -50,7 +50,7 @@ Em seguida, se houver políticas que orientem a aprovação das entradas de regi
 
 Na página **Dimensões de orçamento**, você deve selecionar as dimensões financeiras que são usadas para orçamento, com base nas dimensões que são usadas no plano de contas. Você pode selecionar todas as dimensões financeiras ou um subconjunto delas para orçamento.
 
-Defina um *modelo de orçamento* que corresponde a todos ou alguns dos orçamentos. Você pode usar um único modelo de orçamento para todas as entradas de registro de orçamento. Como alternativa, você pode criar módulos separados que se baseiam no tipo de orçamento, na localização geográfica ou em alguma outra forma de classificação de um orçamento. 
+Defina um *modelo de orçamento* que corresponda a todos ou alguns dos orçamentos. Você pode usar um único modelo de orçamento para todas as entradas de registro de orçamento. Como alternativa, você pode criar módulos separados que se baseiam no tipo de orçamento, na localização geográfica ou em alguma outra forma de classificação de um orçamento. 
 
 > [!NOTE] 
 > Se o controle de orçamento for usado, você poderá associar apenas um modelo de orçamento com um período de tempo específico do ciclo orçamentário. 

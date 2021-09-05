@@ -2,26 +2,19 @@
 title: Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 description: Este tópico fornece informações sobre como solucionar problemas que podem ajudá-lo a corrigir problemas no módulo de dupla gravação nos aplicativos Finance and Operations.
 author: RamaKrishnamoorthy
-ms.date: 03/16/2020
+ms.date: 08/10/2021
 ms.topic: article
-ms.prod: ''
-ms.technology: ''
-ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: rhaertle
-ms.custom: ''
-ms.assetid: ''
 ms.search.region: global
-ms.search.industry: ''
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-03-16
-ms.openlocfilehash: 6689fae215937f58c93cce72df3fa0a1b5aecd3a5ac9913981b253344a1ba13f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 90ff55540c153ef4f3ac07bf5316a3abb4755f2c
+ms.sourcegitcommit: caa41c076f731f1e02586bc129b9bc15a278d280
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720727"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7380131"
 ---
 # <a name="troubleshoot-dual-write-issues-in-finance-and-operations-apps"></a>Solucionar problemas de gravação dupla em aplicativos do Finance and Operations
 
@@ -44,8 +37,7 @@ Se você não conseguir abrir a página **Gravação dupla** selecionando o bloc
 
 A seguinte mensagem de erro poderá ser exibida quando você tentar configurar uma nova tabela para gravação dupla: O único usuário que poderá criar um mapa é o usuário que configurou a conexão de gravação dupla.
 
-*O código de status de resposta não indica êxito: 401 (Não autorizado)*
-
+*O código de status de resposta não indica êxito: 401 (Não autorizado).*
 
 ## <a name="error-when-you-open-the-dual-write-user-interface"></a>Erro ao abrir a interface do usuário de gravação dupla
 
@@ -61,7 +53,11 @@ Para corrigir o problema, faça login usando uma janela InPrivate no Microsoft E
 
 Você pode encontrar o seguinte erro ao vincular ou criar mapas:
 
-*O código de status de resposta não indica êxito: 403 (tokenexchange).<br> ID da sessão: \<your session id\><br> ID da atividade raiz: \<your root activity id\>*
+```dos
+Response status code does not indicate success: 403 (tokenexchange).
+Session ID: \<your session id\>
+Root activity ID: \<your root activity\> id
+```
 
 Este erro poderá ocorrer se você não tiver permissões suficientes para vincular duas gravações ou criar mapas. Esse erro também pode ocorrer se o ambiente do Dataverse foi redefinido sem desvincular a gravação dupla. Qualquer usuário com a função de administrador do sistema nos aplicativos Finance and Operations e Dataverse pode vincular os ambientes. Somente o usuário que configurou a conexão de gravação dupla poderá adicionar novos mapas de tabela. Após a configuração, qualquer usuário com a função de administrador do sistema poderá monitorar o status e editar os mapeamentos.
 
@@ -75,16 +71,29 @@ Este erro ocorre quando o ambiente Dataverse vinculado não está disponível.
 
 Para corrigir o problema, crie um tíquete para a equipe de integração de dados. Anexe o rastreamento de rede para que a equipe de integração de dados possa marcar os mapas como **Não executados** no back-end.
 
-## <a name="error-while-trying-to-start-a-table-mapping"></a>Erro ao tentar iniciar um mapeamento de tabela
+## <a name="errors-while-trying-to-start-a-table-mapping"></a>Erros ao tentar iniciar um mapeamento de tabela
 
-A seguinte mensagem de erro pode ser exibida ao tentar definir esse estado de um mapeamento como **Em execução**:
+### <a name="unable-to-complete-initial-data-sync"></a>Não é possível concluir a sincronização de dados inicial
+
+Talvez você recebe um erro como o seguinte ao tentar executar a sincronização de dados inicial:
 
 *Não é possível concluir a sincronização de dados inicial. Erro: falha de gravação dupla — falha no registro do plug-in: não é possível criar metadados de pesquisa da gravação dupla. A referência do objeto do erro não está definida como uma instância de objeto.*
 
-A correção desse erro depende da causa do erro:
+Quando você tenta definir esse estado de um mapeamento como **Em execução**, você pode receber este erro. A correção depende da causa do erro:
 
 + Se o mapeamento tiver mapeamentos dependentes, certifique-se de habilitar os mapeamentos dependentes deste mapeamento de tabela.
 + Pode haver colunas de origem ou de destino ausentes no mapeamento. Se um campo no aplicativo Finance and Operations estiver ausente, siga as etapas na seção [Problemas de campos de entidade ausentes nos mapas](dual-write-troubleshooting-finops-upgrades.md#missing-table-columns-issue-on-maps). Se a coluna no Dataverse estiver ausente, clique no botão **Atualizar tabelas** no mapeamento para que as colunas sejam automaticamente preenchidas no mapeamento.
 
+### <a name="version-mismatch-error-and-upgrading-dual-write-solutions"></a>Erro de incompatibilidade de versão e atualizando soluções de gravação dupla
+
+Talvez você receba as seguintes mensagens de erro ao tentar executar os mapeamentos de tabela:
+
++ *Grupos de clientes (msdyn_customergroups): falha de gravação dupla- a solução 'Dynamics365Company' do Dynamics 365 for Sales é incompatível com a versão. Versão: '2.0.2.10' versão necessária: '2.0.133'*
++ A solução 'Dynamics365FinanceExtended' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.227'*
++ A solução 'Dynamics365FinanceAndOperationsCommon' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.133'*
++ A solução 'CurrencyExchangeRates' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.133'*
++ A solução 'Dynamics365SupplyChainExtended' do *Dynamics 365 for Sales tem incompatibilidade de versão. Versão: '1.0.0.0' versão necessária: '2.0.227'*
+
+Para corrigir os problemas, atualize as soluções de gravação dupla no Dataverse. Certifique-se de atualizar para a última solução que corresponde à versão da solução necessária.
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

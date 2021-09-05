@@ -1,5 +1,5 @@
 ---
-title: Criar um projeto de integrador de dados (versão prévia)
+title: Criar um projeto integrador de dados
 description: Este tópico explica como criar um projeto de integrador de dados.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-24
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: a32ad6eb1b1874a9f9ec452def3c213cd160c5faa2aec02b655a86e160e2b509
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b08af906c18f6c0790ca56c69a833733f48cd88c
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768978"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386353"
 ---
-# <a name="create-a-data-integrator-project-preview"></a>Criar um projeto de integrador de dados (versão prévia)
+# <a name="create-a-data-integrator-project"></a>Criar um projeto integrador de dados
 
 [!include [banner](../includes/banner.md)]
 

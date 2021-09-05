@@ -1,8 +1,8 @@
 ---
 title: Configurar tabelas virtuais do Dataverse
-description: Este tópico mostra como configurar tabelas virtuais para o Dynamics 365 Human Resources. Gere e atualize tabelas virtuais existentes e analise as tabelas geradas e disponíveis.
-author: andreabichsel
-ms.date: 01/25/2021
+description: Este tópico mostra como configurar, gerar, atualizar tabelas virtuais existentes e analisar tabelas geradas e disponíveis para o Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-10-05
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 4461b072c12848220c48d3a711cc2d4991c98f068e1ba477becf6d0be068fca8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9e26a2fb65564cb4a1d2f9ba4b0d621177207545
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721598"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414655"
 ---
 # <a name="configure-dataverse-virtual-tables"></a>Configurar tabelas virtuais do Dataverse
 
@@ -140,6 +140,9 @@ A próxima etapa é configurar a fonte de dados de tabela virtual no ambiente do
 
      >[!NOTE]
      >Inclua o caractere "**/**" no final da URL para evitar o recebimento de um erro.
+
+     >[!NOTE]
+     >A URL de destino determina o ambiente de Recursos Humanos para o qual as tabelas virtuais apontarão para os dados. Se você criar um ambiente de área restrita criando uma cópia do ambiente de produção, atualize esse valor para a URL de namespace do seu novo ambiente de área restrita. Isso garante que as tabelas virtuais estão conectadas aos dados do ambiente de área restrita, em vez de continuarem a apontar para o ambiente de produção.
 
    - **ID do Locatário**: a ID do locatário do Azure Active Directory (Azure AD).
 

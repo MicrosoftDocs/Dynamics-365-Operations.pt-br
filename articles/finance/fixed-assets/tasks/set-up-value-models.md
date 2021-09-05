@@ -1,8 +1,8 @@
 ---
 title: Configurar modelos de depreciação
 description: Este procedimento mostra a você como criar um novo registro de ativos fixos e associá-lo a um grupo de ativos fixos.
-author: saraschi2
-ms.date: 08/29/2018
+author: moaamer
+ms.date: 08/12/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -13,19 +13,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 923c3d0c7a2d54f616452a8b927681603f4955c2d7e5ff306971561b73355743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 46c26e5fad3c5c60d87c2fea2b29043c69b82b5d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741527"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344649"
 ---
 # <a name="set-up-value-models"></a>Configurar modelos de depreciação
 
 [!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
+
 
 Este procedimento mostra a você como criar um novo registro de ativos fixos e associá-lo a um grupo de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
-
 
 ## <a name="create-a-book"></a>Criar um registro
 1. Acesse Ativos fixos > Configuração > Registros.
@@ -48,9 +49,10 @@ Este procedimento mostra a você como criar um novo registro de ativos fixos e a
 1. Clique em Grupos de ativos fixos.
 2. No campo Grupo de ativo fixo, insira ou selecione um valor.
 3. No campo Vida útil, insira um número.
-    * Observe que os períodos de depreciação são calculados depois de definir a vida útil.  
-    * Você pode definir a convenção de depreciação conforme necessário para fins tributários.  
 
+  - Os períodos de depreciação são calculados após a vida útil do ativo ser inserida.  
+  - A convenção de depreciação pode ser definida conforme necessário para fins fiscais.
+  - Para ativos fixos associados a arrendamentos, o valor no campo **Vida útil** será substituído pelo menor entre o prazo de arrendamento no livro de ativos ou a vida útil do ativo. Se o campo **Transferência de propriedade** estiver definido como **Sim** para o registro de arrendamento, o valor no campo **Vida útil** será sempre a vida útil do ativo.
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

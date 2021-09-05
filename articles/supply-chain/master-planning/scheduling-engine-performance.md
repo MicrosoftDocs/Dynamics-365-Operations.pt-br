@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.search.validFrom: 2020-09-03
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 223ad9b5a297a5bcdbb0314d406f64d5de2b239431c6df21299ddebd9e47b8a2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0a37e3463273d1ffd35b267b36dfbd6fd92bb255
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738260"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343468"
 ---
 # <a name="improve-scheduling-engine-performance"></a>Melhorar o desempenho do mecanismo de agendamento
 
@@ -70,7 +70,7 @@ Como exemplo, considere um roteiro mostrado na tabela e imagem a seguir, que par
 
 Ao enviá-lo para o mecanismo, ele é dividido em oito trabalhos, conforme mostrado na ilustração a seguir (selecione a imagem para ampliá-la).
 
-[![Trabalhos do mecanismo de agendamento](media/scheduling-engine-jobs.png "Trabalhos do mecanismo de agendamento."](media/scheduling-engine-jobs-large.png)
+[![Trabalhos do mecanismo de agendamento](media/scheduling-engine-jobs.png "Trabalhos do mecanismo de agendamento.")](media/scheduling-engine-jobs-large.png)
 
 O link padrão entre dois trabalhos é `FinishStart`, o que significa que a hora de término de um trabalho deve ser anterior à hora de início de outro trabalho. Como a configuração deve ser executada pelo mesmo recurso que posteriormente fará o processo, há restrições `OnSameResource` entre eles. Entre os trabalhos da operação principal e secundária para 10, há links `StartStart` e `FinishFinish`, o que significa que os trabalhos devem ser iniciados e concluídos na mesma hora, e há restrições `NotOnSameResource`, o que impedirá que o mesmo recurso seja principal e secundário.
 

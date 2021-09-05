@@ -2,7 +2,7 @@
 title: Análise financeira
 description: A análise financeira usa o Microsoft Power BI para reunir indicadores da chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros.
 author: kweekley
-ms.date: 04/22/2021
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 4937235dddaf5c1c8d6d504542f161fa232c86213eb6ac4274349e02d18fb8b3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dc6cb7c0d6c04371ada611626415d87e9f149f0
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767818"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416296"
 ---
 # <a name="financial-analysis"></a>Análise financeira
 
@@ -36,9 +36,9 @@ A **Análise financeira** combina dados da contabilidade e dos razões auxiliare
 > - **Página** – Uma guia em um arquivo .pbix único. Cada página pode conter um ou mais recursos visuais.
 > - **Recurso Visual** – Uma única fonte de dados, como um cartão, um KPI, um gráfico, um gráfico, uma matriz ou um demonstrativo financeiro. Uma página que tem um demonstrativo financeiro como um recurso visual não pode ter outros recursos visuais devido ao volume de dados que está sendo reportado.
 
-Atualmente, a **Análise financeira** é usada para exibir dados para a entidade legal ativa ou para todas as entidades legais. Em versões futuras, o espaço de trabalho se transformará no lugar onde você poderá usar o Power BI para editar e criar visuais.
+O espaço de trabalho **Análise financeira** se concentra em permitir que você exiba e filtre os dados em relatórios existentes. Você poderá adicionar novos recursos visuais ao espaço de trabalho **Análise financeira**. O espaço de trabalho **Análise financeira** está disponível para a empresa atual, bem como para todas as empresas para mostrar os dados de todas as entidades legais, independentemente das entidades legais às quais a função tem acesso.
 
-O espaço de trabalho **Visão geral de CFO** mostra os mesmos recursos visuais da **Análise financeira**, mas está focado em permitir que você visualize e filtre os dados em relatórios existentes. Em versões futuras você poderá adicionar novos recursos visuais ao espaço de trabalho **Análise financeira**. Os novos recursos visuais também podem estar disponíveis nos espaços de trabalho que estão concentrados em outras funções, como gerentes de projeto ou gerentes de contas a pagar. O espaço de trabalho **visão geral de CFO** continua mostrando dados de todas as entidades legais, independentemente das entidades legais às quais a função tem acesso.
+- [Adicionar ou editar visualizações do Power BI no painel](/powerapps-docs/user/add-powerbi-dashboards.md)
 
 ## <a name="dynamics-365-finance-setup"></a>Configuração do Dynamics 365 Finance
 **Contabilidade**

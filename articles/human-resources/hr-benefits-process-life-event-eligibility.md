@@ -1,8 +1,8 @@
 ---
 title: Processar qualificação para eventos de vida
-description: Este artigo mostra como executar o processo para qualificação de eventos de vida.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Este tópico explica como processar qualificação do evento de vida.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 825754d75dee5f8c86922e9e407fbc20f8ad125d1e91a4461218678001c569ec
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6cb4a8b815db561785ee56a0cd21376f1079cbd
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716557"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417420"
 ---
 # <a name="process-life-event-eligibility"></a>Processar qualificação para eventos de vida
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo mostra como executar o processo para qualificação de eventos de vida.
+Este tópico explica como processar qualificação do evento de vida.
 
 1. No espaço de trabalho **Gerenciamento de benefícios**, em **Processando**, selecione **Processamento da qualificação de eventos de vida**.
 

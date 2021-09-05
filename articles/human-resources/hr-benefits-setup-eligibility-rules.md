@@ -1,8 +1,8 @@
 ---
 title: Configurar regras e opções de qualificação
-description: Configure regras e opções de qualificação no gerenciamento de benefícios no Microsoft Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 06/25/2021
+description: Este tópico descreve como definir as opções e regras de qualificação no gerenciamento de Benefícios no Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 3aae50b8f7fac6991f187ced44f7d122eb7ed40824bd2d53265fa06bfa87dd6a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 034957628580c468ed00b14afeb7e49af15c45cc
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6756115"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423462"
 ---
 # <a name="configure-eligibility-rules-and-options"></a>Configurar regras e opções de qualificação 
 
@@ -217,13 +217,13 @@ Os períodos definem quando os benefícios estão em vigor e quando os funcioná
 
    | Campo | descrição |
    | --- | --- |
-   | ID do crédito do benefício | O identificador exclusivo do programa de crédito flexível. |
-   | Descrição | Uma descrição do programa de crédito flexível. | 
-   | Data Inicial | A data em que o programa de crédito flexível se torna ativo. |
-   | Data Final | A data final do programa de crédito flexível. Você pode deixar o valor padrão (31/12/2154) para indicar que o programa de crédito flexível não tem uma expiração programada. |
-   | Valor total do crédito | O número de créditos que cada funcionário precisará usar para seus benefícios. |
-   | Regra de rateio | A regra a ser usada para ratear créditos flexíveis quando um funcionário é contratado no meio do período do crédito flexível. </br></br><ul><li>**Nenhum** – O funcionário não recebe créditos flexíveis se for contratado após o início do período do programa.</li><li>**Crédito completo** – O funcionário recebe o valor total dos créditos flexíveis, independentemente de quando eles são contratados.</li><li>**Rateio** – O funcionário recebe um valor rateado de créditos flexíveis com base na data de início.</li></ul> |
-   | Fórmula de rateio do crédito flexível | A regra a ser usada para rateio de créditos flexíveis para funcionários contratados no meio de um período de benefício para o programa de crédito flexível. O rateio é baseado na data de início do emprego. Esse campo é usado apenas se você selecionar **Rateio** no campo **Regra de rateio**. </br></br><ul><li>**Diário** – Rateia o número de créditos flexíveis que um funcionário recebe diariamente. O número total de créditos flexíveis é dividido pelo número de dias no período. Por exemplo, se seu período de benefício for de 400 dias, o sistema dividirá o número total de créditos flexíveis por 400 para calcular o número de créditos flexíveis que os funcionários recebem por dia.</li><li>**Mês atual** – Rateia o número de créditos flexíveis que um funcionário recebe mensalmente, arredondado para o mês atual. O número total de créditos flexíveis é dividido pelo número de meses no período. Por exemplo, se seu período de benefício for de 15 meses, o sistema dividirá o número total de créditos flexíveis por 15 para calcular o número de créditos flexíveis que os funcionários recebem por mês.</li><li>**Mês seguinte** – Rateia o número de créditos flexíveis que um funcionário recebe mensalmente, arredondado para o próximo mês. O número total de créditos flexíveis é dividido pelo número de meses no período. Por exemplo, se seu período de benefício for de 15 meses, o sistema dividirá o número total de créditos flexíveis por 15 para calcular o número de créditos flexíveis que os funcionários recebem por mês.</li></ul> |
+   | **ID do crédito do benefício** | O identificador exclusivo do programa de crédito flexível. |
+   | **Descrição** | Uma descrição do programa de crédito flexível. | 
+   | **Data Inicial** | A data em que o programa de crédito flexível se torna ativo. |
+   | **Data Final** | A data final do programa de crédito flexível. Você pode deixar o valor padrão (31/12/2154) para indicar que o programa de crédito flexível não tem uma expiração programada. |
+   | **Valor total do crédito** | O número de créditos que cada funcionário precisará usar para seus benefícios. |
+   | **Regra de rateio** | A regra a ser usada para ratear créditos flexíveis quando um funcionário é contratado no meio do período do crédito flexível. </br></br><ul><li>**Nenhum** – O funcionário não recebe créditos flexíveis se for contratado após o início do período do programa.</li><li>**Crédito completo** – O funcionário recebe o valor total dos créditos flexíveis, independentemente de quando eles são contratados.</li><li>**Rateio** – O funcionário recebe um valor rateado de créditos flexíveis com base na data de início.</li></ul> |
+   | **Fórmula de rateio do crédito flexível** | A regra a ser usada para rateio de créditos flexíveis para funcionários contratados no meio de um período de benefício para o programa de crédito flexível. O rateio é baseado na data de início do emprego. Esse campo é usado apenas se você selecionar **Rateio** no campo **Regra de rateio**. </br></br><ul><li>**Diário** – Rateia o número de créditos flexíveis que um funcionário recebe diariamente. O número total de créditos flexíveis é dividido pelo número de dias no período. Por exemplo, se seu período de benefício for de 400 dias, o sistema dividirá o número total de créditos flexíveis por 400 para calcular o número de créditos flexíveis que os funcionários recebem por dia.</li><li>**Mês atual** – Rateia o número de créditos flexíveis que um funcionário recebe mensalmente, arredondado para o mês atual. O número total de créditos flexíveis é dividido pelo número de meses no período. Por exemplo, se seu período de benefício for de 15 meses, o sistema dividirá o número total de créditos flexíveis por 15 para calcular o número de créditos flexíveis que os funcionários recebem por mês.</li><li>**Mês seguinte** – Rateia o número de créditos flexíveis que um funcionário recebe mensalmente, arredondado para o próximo mês. O número total de créditos flexíveis é dividido pelo número de meses no período. Por exemplo, se seu período de benefício for de 15 meses, o sistema dividirá o número total de créditos flexíveis por 15 para calcular o número de créditos flexíveis que os funcionários recebem por mês.</li></ul> |
    
    Certifique-se de que cada plano de benefício esteja inscrito em apenas um programa de crédito flexível por período de benefício. Caso contrário, o sistema não saberá qual programa de crédito flexível usar para conceder créditos flexíveis, e você encontrará problemas. 
 

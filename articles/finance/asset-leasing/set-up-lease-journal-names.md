@@ -15,18 +15,23 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 7caabeaf92bbce63cc30b2fb76111b33455af1910c2ea822453c550c61e02dd9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1ea35ec40ddd459e1a9e7641557147e23fe45d3e
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740875"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343205"
 ---
 # <a name="set-up-lease-journal-names"></a>Configurar nomes de diário de arrendamento
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Os nomes de diários de arrendamento especificam os diários em que transações de Arrendamento de ativo são lançadas. Somente os nomes de diário atribuídos ao tipo de diário **Arrendamento de ativo** aparecem nos campos **Reconhecimento Inicial** e **Nome de Diário Mensal** na página **Parâmetros de arrendamento de ativos**. Somente o tipo de diário de **registro de fatura de fornecedor** pode ser atribuído ao campo **Nome do diário de fatura**.
+
+O sistema bloqueia certos campos financeiros da edição para evitar variações entre as transações e os agendamentos. Alguns campos bloqueados incluem: **Conta**, **Valores**, **Dimensões financeiras**, **Moeda** e **Tipo de transação**. Além disso, não será possível adicionar ou excluir linhas de entrada de diário em qualquer entrada de diário de leasing de Ativo, pois isso poderá causar variações entre as agendas e as transações.
+
 
 Para configurar nomes de diário de arrendamento, siga estas etapas.
 

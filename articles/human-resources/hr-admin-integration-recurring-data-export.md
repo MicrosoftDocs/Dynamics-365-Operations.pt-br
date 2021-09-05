@@ -1,8 +1,8 @@
 ---
 title: Criar um aplicativo de exportação de dados recorrente
-description: Este artigo mostra como criar um aplicativo lógico de Microsoft Azure que exporta dados da Microsoft Dynamics 365 Human Resources em um plano recorrente.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Este tópico descreve como criar um aplicativo lógico do Microsoft Azure que exporta dados do Microsoft Dynamics 365 Human Resources em um agendamento recorrente.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cef9e7f78646a4a5794eb14a9f1ad355768480644504c548afbb32e23fff4cd5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0ce9fe4e77fa968463052e037ca767ed38e72796
+ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744861"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7414753"
 ---
 # <a name="create-a-recurring-data-export-app"></a>Criar um aplicativo de exportação de dados recorrente
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-Este artigo mostra como criar um aplicativo lógico de Microsoft Azure que exporta dados da Microsoft Dynamics 365 Human Resources em um plano recorrente. O tutorial tira proveito da interface de programação de aplicativo (API) REST de recursos humanos para exportar os dados. Depois que os dados tiverem sido exportados, o aplicativo lógico salva o pacote de dados exportados em uma pasta Microsoft OneDrive for Business.
+Este tópico descreve como criar um aplicativo lógico do Microsoft Azure que exporta dados do Microsoft Dynamics 365 Human Resources em um agendamento recorrente. O tutorial tira proveito da interface de programação de aplicativo (API) REST de recursos humanos para exportar os dados. Depois que os dados tiverem sido exportados, o aplicativo lógico salva o pacote de dados exportados em uma pasta Microsoft OneDrive for Business.
 
 ## <a name="business-scenario"></a>Cenário de negócios
 

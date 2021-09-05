@@ -2,7 +2,7 @@
 title: Inserir aplicativos de tela do Power Apps
 description: Este tópico explica como inserir aplicativos de tela do Microsoft Power Apps no cliente para aumentar a funcionalidade do produto.
 author: jasongre
-ms.date: 04/23/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 4031be484c13136369803ad1c502c4998496143985d84835168a887bd474db0e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767666"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344520"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Inserir aplicativos de tela do Power Apps
 
@@ -31,49 +31,79 @@ Para saber mais sobre como incorporar aplicativos de tela, assista ao breve víd
 
 ## <a name="adding-an-embedded-canvas-app-from-power-apps-to-a-page"></a>Adicionando um aplicativo de tela do Power Apps inserido em uma página
 
-### <a name="overview"></a>Visão Geral
-
 Antes de inserir um aplicativo de tela do Power Apps no cliente, você deve encontrar ou criar um aplicativo que tenha os recursos visuais ou funcionalidades desejados. Este tópico não inclui uma descrição detalhada do processo de criação de aplicativos. Se você está começando a usar o Power Apps, consulte a [documentação do Power Apps](/powerapps/).
 
-Há duas formas de acessar um aplicativo de tela específico em uma página quando você estiver pronto para inserir o aplicativo. Você pode escolher qualquer abordagem que se ajuste melhor ao seu cenário. A primeira abordagem usa o botão **Power Apps** que foi adicionado ao Painel de Ações padrão. Os aplicativos que você adiciona usando essa abordagem aparecem como itens no botão de menu **Power Apps**. Quando você seleciona um desses itens, aparecerá um painel lateral que contém o aplicativo inserido. Se preferir, você pode inserir um aplicativo diretamente em uma página como uma nova guia, guia rápida, folha ou uma nova seção em um espaço de trabalho.
+Há três maneiras de incorporar um aplicativo de tela a um aplicativo do Finance and Operations. Você pode usar a abordagem que melhor atende ao seu cenário. 
+
+- Insira o aplicativo de tela no botão do **Power Apps** no Painel de Ação padrão de uma página. Os aplicativos que você adiciona dessa maneira aparecem como itens no botão de menu do **Power Apps** e os aplicativos abertos em painéis laterais. 
+- Insira o aplicativo de tela diretamente em uma página existente como uma nova página de guia (guia dinâmica, FastTab, folha ou seção de espaço de trabalho).
+- Crie uma nova experiência de página inteira para o aplicativo de tela ou o painel.
 
 Ao configurar seu aplicativo de tela inserido, você pode selecionar um único campo que deseja enviar como contexto para o aplicativo. Essa etapa permite que o aplicativo responda com base nos dados que você está exibindo atualmente.
 
 > [!NOTE]
-> Atualmente, não é possível usar esse mecanismo para inserir aplicativos baseados em modelo.  
+> Não é possível usar esse mecanismo para inserir aplicativos baseados em modelo.
 
-### <a name="details"></a>Detalhes
+### <a name="embedding-a-canvas-app-on-an-existing-page"></a>Incorporando um aplicativo de tela em uma página existente
 
-O procedimento a seguir mostra como inserir um aplicativo de tela do Power Apps no cliente Web.
+O procedimento a seguir mostra como inserir um aplicativo de tela em uma página existente do Power Apps.
 
-1. Acesse a página onde deseja inserir o aplicativo de tela. Esta será a página que contém os dados que devem ser informados para o aplicativo como entrada.
+1. Acesse a página onde deseja inserir o aplicativo de tela. Esta página conterá os dados que devem ser informados para o aplicativo como entrada.
 2. Abra o painel **Adicionar aplicativo do Power Apps**:
 
-    - Clique em **Opções** e selecione **Personalizar esta página**. No menu **Inserir**, selecione **Power Apps**. Por último, selecione a região na qual você quer adicionar o aplicativo. Se quiser inserir o aplicativo no botão do menu Power Apps, escolha o Painel de Ação. Se quiser inserir o aplicativo diretamente na página, escolha a guia apropriada, a guia rápida, folha ou seção (se estiver em um espaço de trabalho).
-    - Se o aplicativo for acessado usando o botão do menu Power Apps, você poderá clicar no botão de menu **Power Apps** no Painel da Ação padrão e, depois, selecionar **Adicionar um aplicativo**.
+    - Se o aplicativo for inserido diretamente na página, selecione **Opções** \> **Personalizar esta página** \> **Mais** e siga uma destas etapas:
 
-3. Configurar o aplicativo inserido:
+        - Se o recurso **Aplicativos de página inteira** estiver ativado, selecione **Adicionar uma página** e selecione a região na qual você deseja adicionar o aplicativo. Para inserir o aplicativo no botão do menu do **Power Apps**, selecione o Painel de Ação. Para inserir o aplicativo diretamente na página, seleciona a guia apropriada, FastTab, folha ou seção (se estiver em um espaço de trabalho). Em seguida, no painel **Adicionar um aplicativo**, selecione **Power Apps**.
+        - Se o recurso **Aplicativos de página inteira** estiver desativado, selecione **Adicionar um aplicativo do Power Apps** e depois selecione a região na qual você deseja adicionar o aplicativo. Para inserir o aplicativo no botão do menu do **Power Apps**, selecione o Painel de Ação. Para inserir o aplicativo diretamente na página, seleciona a guia apropriada, FastTab, folha ou seção (se estiver em um espaço de trabalho).
 
-    - O campo **Nome** indica o texto mostrado para o botão ou a guia que conterá o aplicativo inserido. Muitas vezes, convém repetir o nome do aplicativo neste campo.
-    - O campo **ID do Aplicativo** indica o identificador global exclusivo (GUID) para o aplicativo de tela que você deseja inserir. Para recuperar este valor, localize o aplicativo no [make.powerapps.com](https://make.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
-    - Para **Dados de contexto para o aplicativo**, você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Para obter detalhes sobre como o aplicativo pode acessar os dados enviados de aplicativos do Finance and Operations, consulte a seção posterior deste tópico intitulada [Criar um aplicativo que aproveita dados enviados de aplicativos do Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps). 
-        - A partir da versão 10.0.19, a entidade legal atual também será passada como contexto para o aplicativo de tela por meio do parâmetro da URL **cmp**. Isso não terá impacto no aplicativo de tela de destino até que esse aplicativo use essas informações. 
-    - Selecione o **Tamanho do aplicativo** que corresponde ao tipo de aplicativo que você está inserindo. Selecione **Fino** para aplicativos criados para dispositivos móveis e **Largo** para aplicativos criados para tablets. Isso garantirá que uma quantidade suficiente de espaço seja alocada para o aplicativo inserido.
-    - A guia rápida **Entidades legais** fornece a capacidade de escolher para quais entidades legais o aplicativo está disponível. O padrão é tornar o aplicativo acessível para todas as entidades legais. Esta opção está disponível somente quando o recurso [Exibições salvas](saved-views.md) estiver desabilitado. 
+    - Se o aplicativo for acessado usando o botão do menu **Power Apps**, selecione o botão de menu do **Power Apps** no Painel de Ação padrão e, em seguida, selecione **Adicionar um aplicativo**.
 
-4. Depois de confirmar que a configuração está correta, clique em **Inserir** para inserir o Power App na página. Será solicitado que você atualize o navegador para ver o aplicativo inserido.
+3. Configurar o aplicativo inserido. Para obter mais informações, consulte a seção [Configurando um aplicativo de tela](#configuring-a-canvas-app) posteriormente neste tópico.
+4. Depois de confirmar que a configuração está correta, selecione **Inserir**.
+
+    - Se o recurso **Exibições salvas** estiver desativado, será solicitado que você atualize o navegador para ver o aplicativo inserido.
+    - Se o recurso **Exibições salvas** estiver ativado, você deverá salvar a exibição para que a alteração seja persistida.
+
+### <a name="embedding-a-canvas-app-as-a-full-page-experience-from-the-dashboard"></a>Inserindo um aplicativo de tela como uma experiência de página inteira do painel
+
+Você pode querer inserir um aplicativo de tela do painel, se o aplicativo não estiver relacionado a uma página existente ou se você quiser destacar o aplicativo como uma experiência de página inteira no aplicativo Finance and Operations.
+
+> [!NOTE]
+> Para disponibilizar esse recurso, você deve ativar o recurso **Aplicativos de página inteira** no gerenciamento de Recursos. 
+
+1. Abra o painel.
+2. Selecione e segure (ou clique com o botão direito do mouse) na página, selecione **Personalizar** e, depois, **Adicionar uma página**.
+3. No painel **Adicionar uma página**, selecione **Power Apps**.
+4. Configurar o aplicativo inserido. Para obter mais informações, consulte a seção [Configurando um aplicativo de tela](#configuring-a-canvas-app) posteriormente neste tópico.
+5. Selecione **Salvar** para adicionar o aplicativo ao painel como um novo bloco.
+6. Selecione o novo bloco no painel e confirme que o aplicativo de tela aparece como esperado.
+
+### <a name="configuring-a-canvas-app"></a>Configurando um aplicativo de tela
+
+Ao incorporar um aplicativo de tela, você deve definir os seguintes parâmetros:
+
+- **Nome** – insira o texto que deve ser mostrado para o botão ou guia que conterá o aplicativo inserido. Geralmente, convém repetir o nome do aplicativo neste campo.
+- **ID do Aplicativo** - especifica o identificador global exclusivo (GUID) para o aplicativo de tela que você deseja inserir. Para recuperar este valor, localize o aplicativo no [make.powerapps.com](https://make.powerapps.com) e localize o campo **ID do Aplicativo** em **Detalhes**.
+- **Contexto de entrada para o aplicativo** – você pode selecionar o campo contendo os dados que você quer informar para o aplicativo como entrada. Para obter informações sobre como o aplicativo pode acessar os dados enviados de aplicativos do Finance and Operations, consulte a seção posterior deste tópico intitulada [Criar um aplicativo que aproveita dados enviados de aplicativos do Finance and Operations](#building-a-canvas-app-that-uses-data-that-is-sent-from-finance-and-operations-apps).
+
+    A partir da versão 10.0.19, a entidade legal atual também será passada como contexto para o aplicativo de tela por meio do parâmetro da URL **cmp**. Esse comportamento não afetará no aplicativo de tela de destino até que o aplicativo use essas informações.
+
+- **Tamanho do aplicativo** – Selecione o tipo de aplicativo que você está inserindo. Selecione **Pequeno** para aplicativos criados para dispositivos móveis e **Grande** para aplicativos criados para tablets. Esse parâmetro garantirá que uma quantidade suficiente de espaço seja alocada para o aplicativo inserido.
+- **Entidades legais** – você pode selecionar as entidades legais para as quais o aplicativo deve estar disponível. Por padrão, o aplicativo está disponível para todas as entidades legais. Esta opção está disponível somente quando você insere diretamente em uma página existente e o recurso **[Exibições salvas](saved-views.md)** está desativado.
 
 ## <a name="sharing-an-embedded-app"></a>Compartilhando um aplicativo inserido
 
 Depois de inserir um aplicativo de tela em uma página e confirmar que ele está funcionando corretamente com qualquer contexto de dados informado dessa página, talvez você queira compartilhar o aplicativo com outros usuários do sistema. Para compartilhar um aplicativo de tela inserido, siga as etapas a seguir.
 
-1. [Compartilhe o aplicativo de tela](/powerapps/maker/canvas-apps/share-app) com os usuários apropriados para que eles possam acessar o aplicativo no Power Apps. 
+1. [Compartilhar o aplicativo de tela no Power Apps](/powerapps/maker/canvas-apps/share-app) com os usuários apropriados para que eles possam acessar o aplicativo no Power Apps.
+2. Compartilhe as personalizações associadas ao aplicativo inserido com os usuários desejados. É possível usar uma das seguintes abordagens:
 
-2. Verifique se os usuários específicos tenham as personalizações adequadas para que o aplicativo inserido apareça quando esses usuários exibirem a página. É possível usar uma das seguintes abordagens:
+    - **Publicar o modo de exibição (recomendado):** se o recurso **[Exibições salvas](saved-views.md)** estiver ativado, a abordagem recomendada e preferida é criar um modo de exibição que inclua o aplicativo de tela incorporado e, em seguida, publicar essa exibição para os usuários desejados. Essa abordagem garante que todos os usuários que possuem as funções de segurança que são direcionadas pela exibição publicada verão o aplicativo de tela na página.
 
-    - Recomendado: use o recurso [Exibições salvas](saved-views.md) para criar e publicar uma exibição que inclui o aplicativo inserido. Essa abordagem garante que todos os usuários que possuem as funções de segurança que são direcionadas pela exibição publicada verão o aplicativo nos aplicativos do Finance and Operations. 
-    - Se o recurso Exibições salvas não estiver ativado, você pode fazer com que o administrador do sistema envie uma personalização que inclua o aplicativo inserido para todos os usuários ou um subconjunto de usuários. Como alternativa, você pode exportar as personalizações de sua página e enviá-las a um ou mais usuários. Cada um desses usuários pode então importar as personalizações. A barra de ferramentas contém ações que permitem exportar e importar personalizações. 
-    
+        Você também pode publicar um aplicativo de tela que foi inserido como uma experiência de página inteira a partir do painel. No painel, selecione e segure (ou clique com o botão direito do mouse) no bloco associado ao aplicativo, selecione **Personalizar** e, depois, **Publicar página**. Uma experiência semelhante à experiência de *Publicação de exibições* é mostrada e você pode selecionar os direitos de acesso a serem publicados. Na atualização 10.0.21 ou posterior, se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, você também poderá publicar o aplicativo nas entidades legais desejadas.
+
+    - Se o recurso **Exibições salvas** estiver desativado, o administrador do sistema poderá fornecer uma personalização que inclui o aplicativo de tela para o conjunto apropriado de usuários por meio da página **Personalização**. Como alternativa, você pode exportar as personalizações de sua página e enviá-las a um ou mais usuários. Cada um desses usuários pode então importar a personalização. A barra de ferramentas contém botões que permitem exportar e importar personalizações.
+
 > [!NOTE]
 > Se o aplicativo de tela foi compartilhado com usuários externos, esses usuários não podem usar o aplicativo inserido dentro dos aplicativos do Finance and Operations. No entanto, eles podem acessar o aplicativo diretamente no Power Apps. Os usuários externos incluem convidados e usuários que não pertencem ao Microsoft 365 Azure Directory onde o aplicativo do Finance and Operations é implantado.
 
@@ -103,16 +133,18 @@ Siga estas etapas para editar a configuração de um aplicativo inserido:
 
 1. Acesse o painel **Editar um aplicativo**.
 
-    - Se o aplicativo inserido for acessado usando o botão do menu Power Apps, clique com o botão direito do mouse no botão do menu Power Apps e selecione **Personalizar**. Selecione o aplicativo que você quer configurar no menu suspenso **Selecionar aplicativo**.
+    - Se o aplicativo inserido for acessado usando o botão do menu do Power Apps, selecione e segure (ou clique com o botão direito do mouse) no botão do menu do Power Apps e selecione **Personalizar**. Selecione o aplicativo que você quer configurar no menu suspenso **Selecionar aplicativo**.
     - Se o aplicativo inserido aparecer diretamente na página, selecione **Opções** e, depois, **Personalizar esta página**. Usando a ferramenta **Selecionar**, clique no aplicativo inserido.
+    - Se o aplicativo incorporado tiver sido adicionado usando o painel, abra o painel, selecione e segure (ou clique com o botão direito do mouse) no bloco associado ao aplicativo de tela, selecione **Personalizar** e, em seguida, selecione **Editar página**.
 
 2. Faça as alterações necessárias na configuração do aplicativo e clique em **Salvar**.
 
 ## <a name="removing-an-app"></a>Removendo um aplicativo
 
-Depois que um aplicativo for inserido em uma página, há duas maneiras de removê-lo, se necessário:
+Depois que um aplicativo for inserido em uma página, há algumas maneiras de removê-lo, se necessário:
 
 - Acesse o painel **Editar um aplicativo** usando as instruções da seção [Editando um aplicativo inserido](#editing-an-embedded-app) anteriormente neste tópico. Confirme se o painel exibe informações para o aplicativo inserido que você deseja remover e clique no botão **Excluir**.
+- Se o aplicativo incorporado tiver sido adicionado usando o painel, abra o painel, selecione e segure (ou clique com o botão direito do mouse) no bloco associado ao aplicativo de tela, selecione **Personalizar** e, em seguida, selecione **Remover página**. 
 - Como um aplicativo inserido é salvo como dados de personalização, limpar a personalização da página também removerá todos os aplicativos inseridos nessa página. Observe que a remoção da personalização da página é permanente e não pode ser desfeita. Para remover as personalizações de uma página, selecione **Opções** e clique em **Personalizar esta página** e, por último, no botão **Limpar**. Após atualizar seu browser, todas as personalizações anteriores desta página serão removidas. Consulte [Personalizar a experiência do usuário](personalize-user-experience.md) para obter mais informações sobre como otimizar as páginas usando a personalização.
 
 ## <a name="appendix"></a>Anexo
@@ -120,7 +152,6 @@ Depois que um aplicativo for inserido em uma página, há duas maneiras de remov
 ### <a name="developer-modeling-a-canvas-app-on-a-form"></a>[Desenvolvedor] Modelar um aplicativo de tela em um formulário
 
 Embora este tópico se concentre na incorporação de aplicativos de tela por meio de personalização, os desenvolvedores também têm a opção de adicionar um aplicativo de tela a um formulário usando a experiência de desenvolvimento do Visual Studio. Para isso, basta adicionar um PowerAppsHostControl ao formulário. As propriedades de metadados disponíveis no controle fornecem os mesmos recursos que a experiência de personalização.
-
 
 ### <a name="developer-specifying-where-an-app-can-be-embedded"></a>[Desenvolvedor] Especificando onde um aplicativo pode ser inserido
 
@@ -149,6 +180,5 @@ public final class ClassTest_Extension
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

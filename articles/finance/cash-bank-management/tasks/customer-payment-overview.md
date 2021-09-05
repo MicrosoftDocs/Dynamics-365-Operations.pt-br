@@ -1,6 +1,6 @@
 ---
-title: Visão geral de pagamentos do cliente
-description: Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes.
+title: Visão geral de pagamentos de cliente
+description: Este procedimento orienta por vários métodos utilizados para inserir pagamentos de clientes.
 author: kweekley
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 688fae26e556fcc7d41e5f79d7dcce3327094e62f4a82b9c802efac8072f47b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f3782c1dd5e326bfc8ae5c005b58d4039f32b021
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779005"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394480"
 ---
-# <a name="customer-payment-overview"></a>Visão geral de pagamentos do cliente
+# <a name="customer-payment-overview"></a>Visão geral de pagamentos de cliente
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
+Este procedimento orienta por vários métodos utilizados para inserir pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
 
 1. Acesse **Painel de Navegação > Módulos > Contas a receber > Pagamentos > Diário de pagamentos**.
 2. Clique em **Novo**.

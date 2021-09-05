@@ -1,6 +1,6 @@
 ---
 title: Visão geral de pagamentos de fornecedor
-description: Este guia de tarefas irá apresentar vários métodos utilizados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único.
+description: Este procedimento orienta você ao longo de vários métodos usados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único.
 author: kweekley
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 997d505cc89eaa39b2bac273a5ae381c1c892a9537cbaa9b45156ecbb6fd237c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 73fd1b46bbf73bb3e65f381289e0b3efa12392b4
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721818"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394416"
 ---
 # <a name="vendor-payment-overview"></a>Visão geral de pagamentos de fornecedor
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia de tarefas irá apresentar vários métodos utilizados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único. Este procedimento usa a empresa de dados de demonstração USMF.
+Este procedimento orienta você ao longo de vários métodos usados para criar pagamentos de fornecedor, incluindo como usar uma proposta de pagamento ou inserir manualmente um pagamento único. Este procedimento usa a empresa de dados de demonstração USMF.
 
 1. Acesse **Painel de Navegação > Módulos > Contas a pagar > Pagamentos > Diário de pagamentos**.
 2. Clique em **Novo**.

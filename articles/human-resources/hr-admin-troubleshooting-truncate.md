@@ -1,8 +1,8 @@
 ---
 title: Evitar o truncamento de texto na hierarquia de posições e exportar para o Visio
-description: Este artigo explica como resolver um problema em que os nomes de pessoas e cargos estão truncados quando os clientes exibem a hierarquia de cargos no Microsoft Dynamics 365 Human Resources. Texto truncado pode tornar difícil realizar um screenshot ou imprimir a hierarquia.
-author: andreabichsel
-ms.date: 02/03/2020
+description: Este tópico explica como corrigir o problema de nomes truncados de pessoas e posições na hierarquia de posições no Microsoft Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/19/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,17 +11,17 @@ ms.search.scope: Human Resources
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 36fc7684cf0351a10ab5910d46f6d56d46d78921143c537269699c11a38ae12b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a9a8d22df0416ef417a6216c3131bfb6d40d200
+ms.sourcegitcommit: 7e32e5e39e762a4b1606161cb603a450d13b5251
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779317"
+ms.lasthandoff: 08/23/2021
+ms.locfileid: "7413526"
 ---
-# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evite texto truncado na hierarquia de posição e exporte para Visio
+# <a name="avoid-text-truncation-on-the-position-hierarchy-and-export-to-visio"></a>Evitar o truncamento de texto na hierarquia de posições e exportar para o Visio
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -43,7 +43,7 @@ Rastrear essas etapas para exportar para Visio.
 
 1. No Human Resources, abra a página de lista **Posições**.
 
-    Para incluir mais informações no diagrama de estrutura organizacional, adicione os campos à lista **Posições**, de forma que esteja disponível quando você usar o assistente posteriormente neste procedimento.
+    Para incluir mais informações no diagrama de estrutura organizacional, adicione os campos à lista **Posições**, de forma que esteja disponível quando você usar o **Assistente de cronograma organizacional** posteriormente neste procedimento.
 
 2. No Painel de Ação, selecione o botão **Abrir no Microsoft Office** e, em **Exportar para o Excel**, selecione **Cargos**. Alternativamente, pressione Ctrl+T.
 

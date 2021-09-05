@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25b3a9271dd3a906c5077f2e509cacf37ce1eb9ccb37131bb7ea31fa72ddd57f
-ms.sourcegitcommit: fa5ff2a0822aac16b518a2aea0d3389f79793390
+ms.openlocfilehash: 18c0ea18ff8ec79501d39a93ad68aa8a706ad1fc
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/07/2021
-ms.locfileid: "7011970"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394379"
 ---
 # <a name="human-resources-home-page"></a>Home page do Human Resources
 
@@ -91,7 +91,7 @@ O Human Resources conecta dados de pessoas e operações para ajudar a otimizar 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="elearning-courses"></a>Cursos de eLearning
-Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources no Microsoft Learn](//learn/browse/?products=dynamics-human-resources&resource_type=learning%20path).
+Para saber sobre cursos e treinamentos online, confira [Dynamics 365 Human Resources no Microsoft Learn](//learn/browse/?products=dynamics-human-resources&expanded=dynamics-365).
 
 ### <a name="videos"></a>Vídeos
 

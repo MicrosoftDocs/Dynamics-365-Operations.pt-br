@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 8.0.2
-ms.openlocfilehash: 08ece85c773538283fa31ed72e8af61e2da03845fbaa4e6b0507a65626bce803
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 978d0dc28f86860335a782bd2ddaa141ed639fe5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6720517"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344049"
 ---
 # <a name="one-voucher"></a>Um comprovante
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 
 ## <a name="what-is-one-voucher"></a>O que é "Um comprovante único"?
@@ -81,7 +82,7 @@ Com base em conversas com clientes, a Microsoft compilou a seguinte lista de cen
 
 Os cenários a seguir podem ser realizados apenas usando a funcionalidade Um comprovante único. Se sua organização tem algum desses cenários, você deve habilitar várias transações a serem inseridas em um comprovante mudando a alteração do parâmetro **Permitir várias transações em um comprovante** na página **Parâmetros de contabilidade**. Essas lacunas funcionais serão preenchidas por outros recursos nas versões posteriores.
 
-> [!Note]
+> [!NOTE]
 > [Para cada um dos seguintes cenários, o campo **Permitir várias transações em um comprovante** deve ser definido como Sim na Guia Rápida **Geral** na página **Parâmetros de contabilidade**].
 
 ### <a name="post-vendor-or-customer-payments-in-summary-form-to-a-bank-account"></a>Lançar pagamentos do fornecedor ou do cliente em um formulário de resumo para uma conta bancária
@@ -115,15 +116,7 @@ Neste cenário, os clientes do comprovante único são os mesmos clientes porque
 Se a tarefa periódica de reembolso é executada a partir do Módulo de contas a receber, ela cria uma transação para mover o balanço de um cliente para um fornecedor. Para esse cenário, Um comprovante deve ser usado para reembolsar o cliente.
 
 ### <a name="fixed-asset-maintenance-catch-up-depreciation-split-asset-calculate-depreciation-on-disposal"></a>Manutenção de ativo fixo: atualizar depreciação, dividir ativo, calcular depreciação na alienação
-As seguintes transações de ativo fixo também criam várias transações dentro de apenas um comprovante:
-
-- Uma aquisição adicional é feita em um ativo e a depreciação de "atualização" é calculada.
-- Um ativo é dividido.
-- Um parâmetro para calcular a depreciação na alienação é habilitado e, em seguida, o ativo é descartado.
-- A data de serviço de um ativo é anterior à data de aquisição. Portanto, um ajuste de depreciação é lançado.
-
-> [!Note]
-> Quando estiver inserindo transações, verifique se todas as transações se aplicam ao mesmo ativo fixo. O comprovante não será lançado se incluir mais de um ativo fixo, mesmo se o campo **Novo Comprovante** tiver sido definido como Apenas um número de comprovante na página **Nomes de diários** em Contabilidade. Se você incluir mais de um ativo fixo no comprovante, a mensagem **Só pode haver uma transação de ativo fixo por comprovante** será exibida e você não poderá lançar o comprovante.  
+Com a versão 10.0.21 e posterior, as transações de ativos fixos para atualizar a depreciação, dividir um ativo e calcular a depreciação para a alienação de um ativo serão criadas usando diferentes números de comprovante.
 
 ### <a name="bills-of-exchange-and-promissory-notes"></a>Notas promissórias e letras de câmbio
 Letras de câmbio e notas promissórias requerem que Um comprovante seja usado, porque as transações movem o saldo do cliente e do fornecedor de um Contas a receber/Contas a pagar contáveis a outro, com base no estado do pagamento.

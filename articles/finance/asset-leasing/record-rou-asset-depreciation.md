@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: moaamer
 ms.search.validFrom: 2020-10-28
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 40af957582f9cdf4e1caf3ab03ead41f2823b42d59d427c7e7623cd8688e1827
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 02364a0871e9a54f52c7c526cd1897165d52ec68
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778353"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345361"
 ---
 # <a name="record-right-of-use-asset-depreciation-preview"></a>Registrar depreciação de ativo de direito de uso (versão preliminar)
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
+
 
 Para arrendamentos reconhecidos no balanço de uma organização, o ativo de direito de uso (DDU) é amortizado mensalmente. Este tópico explica como criar a entrada de diário para a amortização. A amortização debita da conta contábil de despesas e credita na conta contábil de depreciação acumulada, com base na configuração do seu perfil de lançamento e do tipo de arrendamento. Essas entradas podem ser criadas para cada arrendamento ou podem ser criadas para vários arrendamentos usando a funcionalidade de diário de lote.
 
@@ -36,6 +38,9 @@ Para arrendamentos reconhecidos no balanço de uma organização, o ativo de dir
 
 2. Selecione o período de depreciação e, em seguida, selecione **Criar diário**. Você recebe uma mensagem que indica que o diário que será usado para registrar a depreciação foi criado.
 3. Selecione **Diários \> Diários de arrendamento de ativos** para abrir a página **Diário de arrendamento de ativos**, onde você pode exibir a entrada de diário de despesas de depreciação que foi criada.
+
+   O sistema bloqueia certos campos financeiros da edição para evitar variações entre as transações e os agendamentos. Alguns campos bloqueados incluem: **Conta**, **Valores**, **Dimensões financeiras**, **Moeda** e **Tipo de transação**. Além disso, não será possível adicionar ou excluir linhas de entrada de diário em qualquer entrada de diário de leasing de Ativo, pois isso poderá causar variações entre as agendas e as transações.
+
 4. Selecione a entrada de diário e, em seguida, selecione **Lançar** para registrar a entrada de depreciação na Contabilidade.
 
 ## <a name="calculation-of-rou-asset-amortization-expense-for-operating-leases"></a>Cálculo de despesas de amortização de ativos DDU para arrendamentos operacionais

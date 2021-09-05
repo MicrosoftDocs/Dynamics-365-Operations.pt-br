@@ -1,8 +1,8 @@
 ---
 title: Configurar autoatendimento para funcionários
 description: No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para navegação de alto nível no autoatendimento para funcionários.
-author: andreabichsel
-ms.date: 04/06/2020
+author: twheeloc
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,21 +12,21 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: cafd89d30ca3876953df099e2e7b7cc9c3e1fdc0f69bb039310434f8d770f6f1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 92a788dd436f4efc16946a47731c9dbce36ab0e9
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721574"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423295"
 ---
 # <a name="configure-employee-self-service"></a>Configurar autoatendimento para funcionários
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
-No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para navegação de alto nível no autoatendimento para funcionários. Os blocos do plano de benefícios direcionam os usuários a planos de benefícios para os quais eles são qualificados.
+No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para navegação de alto nível no **Autoatendimento para funcionários**. Os blocos do plano de benefícios direcionam os usuários a planos de benefícios para os quais eles são qualificados.
 
 ## <a name="set-up-a-benefit-plans-tile"></a>Configurar um bloco de planos de benefícios
 
@@ -39,9 +39,9 @@ No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para nav
    | Campo | Descrição |
    | --- | --- |
    | **ID do bloco** | O identificador exclusivo para o bloco. |
-   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no autoatendimento. |
+   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no **Autoatendimento do funcionário**. |
    | **Descrição** | Uma descrição do bloco. |
-   | **Endereço na Internet** | Digite a URL para a página de autoatendimento para funcionários. |
+   | **Endereço na Internet** | Digite a URL para a página de **Autoatendimento do funcionário**. |
    | **Tamanho do arquivo** | O tamanho do bloco: pequeno, médio ou grande. |
    | **Alvo** | Especifica se a página deve abrir em uma nova janela ou na janela atual. |
    | **Imagem de plano de fundo de bloco** | A URL da imagem a ser usada para o bloco (opcional). |
@@ -61,9 +61,9 @@ No Microsoft Dynamics 365 Human Resources, você pode configurar blocos para nav
    | Campo | Descrição |
    | --- | --- |
    | **ID do bloco** | O identificador exclusivo para o bloco. |
-   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no autoatendimento. |
+   | **Texto de rótulo de bloco** | O texto que aparecerá para o bloco no **Autoatendimento do funcionário**. |
    | **Descrição** | Uma descrição do bloco. |
-   | **Endereço na Internet** | Digite a URL para a página de autoatendimento para funcionários. |
+   | **Endereço na Internet** | Digite a URL para a página de **Autoatendimento do funcionário**. |
    | **Tamanho do arquivo** | O tamanho do bloco: pequeno, médio ou grande. |
    | **Alvo** | Especifica se a página deve abrir em uma nova janela ou na janela atual. |
    | **Imagem de plano de fundo de bloco** | A URL da imagem a ser usada para o bloco (opcional). |

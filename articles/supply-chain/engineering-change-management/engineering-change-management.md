@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 55952a9b1c25b806ee4a21ef1982c5b15a41adeb9c9bfdf2fccb8c9da242ffdb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb6fd57f200b101cb2df396cb10417feaa9425c1
+ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6714321"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7384576"
 ---
 # <a name="manage-changes-to-engineering-products"></a>Gerenciar alterações em produtos de engenharia
 
@@ -113,16 +113,16 @@ Para revisar as transações afetadas, bloquear transações selecionadas e envi
     - **Exibir transação** – abra o registro de transação selecionado.
     - **Ordem de bloqueio** – este botão está disponível apenas na guia **Ordens de venda**. Selecione-o para bloquear a ordem de venda selecionada.
     - **Linha de bloqueio** – este botão está disponível apenas na guia **Ordens de venda**. Selecione-o para bloquear a linha da ordem de compra selecionada.
-    - **Notificar responsável** – este botão só está disponível na **guia ordens de venda**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada.
-    - **Notificar responsável** – este botão só está disponível na guia **Ordens de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada.
-    - **Notificar produção** – este botão está disponível apenas na guia **Ordens de produção**. Diferentemente das ordens de venda e ordens de compra, as ordens de produção não têm um único usuário definido como responsável por eles de ponta a ponta. Em vez disso, vários supervisores ou planejadores geralmente se apropriam de um site específico ou de uma parte específica da produção (por exemplo, para recursos ou grupos de recursos específicos). Portanto, quando você seleciona este botão, todos os usuários responsáveis por qualquer recurso relacionado à ordem de produção selecionada recebem uma notificação de alteração.
-    - **Notificar preparador** – este botão só está disponível na guia **Requisição de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como preparador pela requisição de compra selecionada.
-    - **Notificar responsável pela venda** – este botão só está disponível na guia **Cotações**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela cotação selecionada.
+    - **Notificar responsável** – este botão só está disponível na **guia ordens de venda**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar responsável** – este botão só está disponível na guia **Ordens de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela ordem de venda selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar produção** – este botão está disponível apenas na guia **Ordens de produção**. Diferentemente das ordens de venda e ordens de compra, as ordens de produção não têm um único usuário definido como responsável por eles de ponta a ponta. Em vez disso, vários supervisores ou planejadores geralmente se apropriam de um site específico ou de uma parte específica da produção (por exemplo, para recursos ou grupos de recursos específicos). Portanto, quando você seleciona este botão, todos os usuários responsáveis por qualquer recurso relacionado à ordem de produção selecionada recebem uma notificação de alteração. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar preparador** – este botão só está disponível na guia **Requisição de compra**. Selecione-o para enviar uma notificação de alteração para o usuário definido como preparador pela requisição de compra selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
+    - **Notificar responsável pela venda** – este botão só está disponível na guia **Cotações**. Selecione-o para enviar uma notificação de alteração para o usuário definido como responsável pela cotação selecionada. Para obter mais informações sobre quem pode ver as notificações e como, consulte [Revisar e processar notificações de alteração para transações](#review-notifications).
     - **Sucata** – este botão só está disponível na guia **Estoque**. Selecione-o para sucatear o estoque selecionado.
     - **Exibir histórico** – abre um histórico de ações que foram executadas na transação selecionada usando a caixa de diálogo **Impacto comercial para transações abertas**. (Por exemplo, o histórico mostra se as notificações foram enviadas ou as transações foram bloqueadas.) 
     - **Exibir todas as transações** – abre a lista completa de todas as transações, não apenas as transações abertas.
 
-#### <a name="review-and-process-change-notifications-for-transactions"></a>Analisar e processar notificações de alteração para transações
+#### <a name="review-and-process-change-notifications-for-transactions"></a><a name="review-notifications"></a>Analisar e processar notificações de alteração para transações
 
 Você pode ler e processar as notificações de alteração recebidas das seguintes maneiras:
 

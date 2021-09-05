@@ -1,8 +1,8 @@
 ---
-title: Visão geral do Gerenciamento de benefícios
-description: Visão geral do recurso de Gerenciamento de benefícios no Dynamics 365 Human Resources. Ofereça opções de benefícios estendidos aos seus funcionários com uma experiência online fácil de usar.
-author: andreabichsel
-ms.date: 07/13/2021
+title: Visão geral do gerenciamento de benefícios
+description: Este tópico fornece uma visão geral do recurso de gerenciamento de Benefícios no Dynamics 365 Human Resources.
+author: twheeloc
+ms.date: 08/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,17 +12,17 @@ ms.search.scope: Human Resources
 ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: a1e00bb3fa227eab62b6e530a32f0eae0bd871c1cfe5bb3d29e09a06a707ce17
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7c4709a63201dd1a02c8879151762886f644ce22
+ms.sourcegitcommit: 4f9c889e5cf72f34dd9746a322f8c0d6b983037b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719134"
+ms.lasthandoff: 08/25/2021
+ms.locfileid: "7417383"
 ---
-# <a name="benefits-management-overview"></a>Visão geral do Gerenciamento de benefícios
+# <a name="benefits-management-overview"></a>Visão geral do gerenciamento de benefícios
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
 
@@ -37,13 +37,13 @@ Para permanecer em um mercado competitivo, é necessário oferecer um conjunto a
 Se deseja acessar os dados de demonstração, será necessário implementar novamente o ambiente de área restrita.
 
 > [!NOTE]
-> Agora você pode personalizar formulários de gerenciamento de benefícios. Agora você pode adicionar campos personalizados relacionados a taxas de cobertura ao formulário **Opção cobertura** para planos de benefício. Para obter mais informações sobre como trabalhar com campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
+> Agora você pode personalizar as páginas de gerenciamento de Benefícios. Campos personalizados relacionados a taxas de cobertura podem ser adicionados à página **Opção de cobertura** para planos de benefício. Para obter mais informações sobre como trabalhar com campos personalizados, consulte [Campos personalizados](hr-developer-custom-fields.md).
 >
 > ![Campos personalizados de gerenciamento de benefícios](media/hr-benefits-management-custom-fields.png)
 
 ## <a name="enable-benefits-management"></a>Habilitar o Gerenciamento de benefícios
 
-Este tópico descreve como acionar os recursos no Human Resources. Ele também informa quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios ou quais recursos são desabilitados após ativar o Gerenciamento de recursos.
+Este tópico descreve como acionar os recursos no Human Resources. Ele também explica quais recursos existentes no Human Resources são substituídos pelo Gerenciamento de benefícios e quais recursos são desabilitados após ativar o Gerenciamento de benefícios.
 
 > [!IMPORTANT]
 > Depois de habilitar o gerenciamento de benefícios em um ambiente de **Produção** você pode desativá-lo. É recomendável habilitar e testar o gerenciamento de benefícios em um ambiente de **Área restrita** antes de ativá-lo em um ambiente de **Produção**. Há diferenças significativas entre a funcionalidade de benefício herdada e a nova funcionalidade de gerenciamento de benefícios que exigem configuração adicional e devem ser testadas antes de serem colocadas em produção.

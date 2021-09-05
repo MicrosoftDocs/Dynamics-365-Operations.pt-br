@@ -8,14 +8,13 @@ audience: Application User, IT Pro
 ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
-ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: 060734154607263b5fed80b21fc9355b513ea26e3b1be88498310905531dceaa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2cfe6d882c5de763164ddb4a344cba2991c88783
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729034"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416642"
 ---
 # <a name="dual-write-setup-from-lifecycle-services"></a>Configuração da gravação dupla do Lifecycle Services
 
@@ -78,6 +77,6 @@ Se o ambiente tiver uma incompatibilidade de vinculação, o LCS exibirá um avi
 Se você encontrar esse erro, há duas opções, com base nas suas necessidades:
 
 + [Desvincular e vincular novamente os ambientes de gravação dupla (redefinir ou alterar a vinculação)](relink-environments.md#scenario-reset-or-change-linking) conforme especificado na página de detalhes do ambiente do LCS. Essa é a opção ideal, pois você pode executá-la sem o suporte da Microsoft.  
-+ Se quiser manter seu vínculo em gravação dupla, você pode pedir ajuda ao suporte da Microsoft para alterar a integração do Power Platform a fim de usar o ambiente do Dataverse existente, conforme documentado na seção anterior.  
++ Se quiser manter seu vínculo em gravação dupla, você poderá pedir ajuda ao suporte da Microsoft para alterar a integração do Power Platform a fim de usar o ambiente do Dataverse existente, conforme documentado na seção anterior.  
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

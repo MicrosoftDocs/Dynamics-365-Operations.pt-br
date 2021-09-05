@@ -2,7 +2,7 @@
 title: Configurar fontes de dados de pesquisa para usar parâmetros específicos do aplicativo ER
 description: Este tópico explica como configurar fontes de dados de pesquisa em formatos de relatório eletrônico (ER) para usar parâmetros especificados específicos de aplicativo ER.
 author: NickSelin
-ms.date: 04/02/2021
+ms.date: 08/11/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 2849df85c37c4ed00754be91b9a9708db1bb16b7d0eb49d3a61d169037687196
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c028b01aa2889a517bee69de46411ada12d6fe25
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723180"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343420"
 ---
 # <a name="configure-lookup-data-sources-to-use-er-application-specific-parameters"></a>Configurar fontes de dados de pesquisa para usar parâmetros específicos do aplicativo ER 
 
@@ -69,7 +69,7 @@ Você pode configurar as regras de pesquisa para o formato ER selecionado, usand
 A ilustração a seguir mostra como a fonte de dados `Model.Data.Summary.LevelByLookup` do tipo **Campo calculado** pode ser configurada para chamar a fonte de dados de **Pesquisa** configurada fornecendo os parâmetros necessários. Para processar essa chamada em tempo de execução, o ER passa pela lista de regras configuradas na sequência definida para localizar a primeira regra que satisfaça as condições fornecidas. Neste exemplo, esta é a regra que contém o código de imposto correspondente ao fornecido. Como resultado, a regra mais apropriada é encontrada e o valor de enumeração configurado para a regra encontrada é retornado por essa fonte de dados.
 
 > [!NOTE]
-> Uma exceção é lançada quando nenhuma regra aplicável é encontrada. Para evitar essas exceções, configure regras adicionais no final da lista de regras para manipular casos quando um valor não configurado ou nenhum valor for fornecido. Use as opções **\*Não vazio\*** e **\*Em branco\*** adequadamente.  
+> Uma exceção é lançada quando nenhuma regra aplicável é encontrada. Para evitar essas exceções, configure regras adicionais no final da lista de regras para manipular casos quando um valor não configurado ou nenhum valor for fornecido. Use as opções **\*Não vazio**\* e **\*Em branco**\* adequadamente.  
 >
 > ![Adicionar uma fonte de dados para chamar a fonte de dados de pesquisa configurada.](./media/er-lookup-data-sources-img7.png)
 

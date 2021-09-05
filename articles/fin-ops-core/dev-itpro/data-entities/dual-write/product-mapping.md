@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2019-07-15
-ms.openlocfilehash: 328791cc321eeaf8f032a1eecedbe50cf9498eccd442c718d2e44e246915bc9d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2f4aeefe5fe7698d9dfaf80619102f2b753e52b
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6726178"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423438"
 ---
 # <a name="unified-product-experience"></a>Experiência unificada de produto
 
@@ -81,9 +81,9 @@ Como o produto é representados como uma SKU, os conceitos de produtos distintos
 
 ![Modelo de dados de produtos.](media/dual-write-product.png)
 
-Com a funcionalidade de gravação dupla habilitada, os produtos do Finance and Operations serão sincronizados em outros produtos do Dynamics 365 no estado **Rascunho**. Eles são adicionados à primeira lista de preços com a mesma moeda. Ou seja, eles são adicionados à primeira lista de preços em um aplicativo do Dynamics 365 que corresponda à moeda da tabela legal em que o produto é lançado em um aplicativo do Finance and Operations. Se não houver uma lista de preços para a moeda especificada, uma lista de preços será criada automaticamente e o produto será atribuído a ela.
+Com a funcionalidade de gravação dupla habilitada, os produtos do Finance and Operations serão sincronizados em outros produtos do Dynamics 365 no estado **Rascunho**. Eles são adicionados à primeira lista de preços com a mesma moeda usada no aplicativo de participação do cliente e usando a classificação alfabética no nome da lista de preços. Ou seja, eles são adicionados à primeira lista de preços em um aplicativo do Dynamics 365 que corresponda à moeda da tabela legal em que o produto é lançado em um aplicativo do Finance and Operations. Se não houver uma lista de preços para a moeda especificada, uma lista de preços será criada automaticamente e o produto será atribuído a ela.
 
-A implementação atual dos plug-ins de gravação dupla que associam a lista de preços padrão à unidade faz a pesquisa da moeda associada ao aplicativo Finance and Operations e localiza a primeira lista de preços no aplicativo de engajamento do cliente, usando classificação alfabética no nome da lista de preços. Para definir uma lista de preços padrão para uma moeda específica na qual você tem várias listas de preços para essa moeda, você deve atualizar o nome da lista de preços para um nome mais antigo em ordem alfabética do que qualquer outra lista de preços para aquela mesma moeda.
+A implementação atual dos plug-ins de gravação dupla que associam a lista de preços padrão à unidade faz a pesquisa da moeda associada ao aplicativo Finance and Operations e localiza a primeira lista de preços no aplicativo de engajamento do cliente, usando classificação alfabética no nome da lista de preços. Para definir uma lista de preços padrão para uma moeda específica na qual você tem várias listas de preços para essa moeda, você deve atualizar o nome da lista de preços para um nome mais antigo em ordem alfabética do que qualquer outra lista de preços para aquela mesma moeda. Se não houver uma lista de preços para a moeda fornecida, uma nova será criada.
 
 Por padrão, os produtos de aplicativos do Finance and Operations são sincronizados com outros aplicativos do Dynamics 365 no estado **Rascunho**. Para sincronizar o produto com estado **Ativo** para poder usá-lo diretamente em cotações de ordens de venda, por exemplo, é necessário escolher a seguinte configuração: **Sistema > Administração > Administração do sistema > Configurações do sistema > guia Vendas** e selecione **Criar produtos em estado ativo = sim**.
 

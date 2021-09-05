@@ -12,12 +12,12 @@ ms.reviewer: margoc
 ms.search.region: Global
 ms.search.validFrom: 2020-07-23
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 3fee88c9822956672469968c3f4fa171a65e1cf301d61d48d5d31e08949797a3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ff9d4d0c1d72d3002f84f895f67d3c9cb347f1e8
+ms.sourcegitcommit: dca3279a8b7cd5d0bcd4e4a3aa9938b337aa8849
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764875"
+ms.lasthandoff: 08/19/2021
+ms.locfileid: "7402216"
 ---
 # <a name="learning-catalog-for-dynamics-365-supply-chain-management-administrators"></a>Catálogo de aprendizagem para administradores do Dynamics 365 Supply Chain Management
 
@@ -61,14 +61,23 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | [Finance and Operations: Atualizar de 7.x para 8+ (DYN519PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-upgrading-from-7-x-to-8-10-30-18) | Participe do nosso próximo TechTalk, no qual abordaremos o processo de upgrade de 7.X para 8.X. Discutiremos sobre diversos casos e etapas para executar a atualização de código e de dados. Também abordaremos cenários de solicitação de extensibilidade e como criá-las quando apropriado. | Gravação gratuita de uma webconferência | 61 minutos |
 | [Como atualizar para 7.2 (julho de 2017) de 7.0 (RTW)/7.1 (Versão 1611) (DYN338PAL2)](https://community.dynamics.com/365/b/techtalks/posts/how-to-upgrade-to-7-2-july-2017-from-7-0-rtw-7-1-release-1611-august-3-2017) | Nesta seção é explicaremos como atualizar do aplicativo Dynamics 365 Finance and Operations v7.0 (RTW) e v7.1 (1611) para v7.2 (julho de 2017). Há uma clara diferença entre clientes Live e projetos em andamento (ainda inativos). | Gravação gratuita de uma webconferência | 58 minutos |
 | [Atualizar para o Dynamics 365 for Operations (VIR817PAL2)](https://community.dynamics.com/365/b/techtalks/posts/ax2012-to-dynamics-365-for-operations-upgrade-april-20-2017) | Esta Tech Talk apresentará uma visão geral de como atualizar códigos e dados do Dynamics AX 2012 para o Dynamics 365 for Operations. | Gravação gratuita de uma webconferência | 45 minutos |
+| [Ferramentas de migração do AX2009 para o Dynamics 365 for Operations (VIR809PAL)](https://community.dynamics.com/365/b/techtalks/posts/ax2009-to-dynamics-365-for-operations-migration-tools-march-2-2017) | Esta sessão abrangerá as ferramentas disponíveis para ajudar você a migrar do AX2009 para o D365 for Operations. | Gravação gratuita de uma webconferência | 55 minutos |
+| [AX2009_Migration_Tool](https://community.dynamics.com/365/b/techtalks/posts/ax2009-migration-tool-may-11-2017) | Esta sessão abrangerá as ferramentas disponíveis para ajudar você a migrar do AX2009 para o D365 for Operations. | Gravação gratuita de uma webconferência | 55 minutos |
 
-## <a name="servicing"></a>Atendimento<a name="servicing"></a>
+## <a name="supply-chain-management"></a>Supply Chain Management<a name="scm"></a>
+
+| Conteúdo | descrição | Formatar | Extensão |
+|---------|-------------|--------|--------|
+| [Configurar o gerenciamento de alterações de engenharia para o Dynamics 365 Supply Chain Management](/learn/paths/set-up-engineering-change-management/) | Os fabricantes de hoje precisam de um forte gerenciamento de dados de produtos, controle de versão e gerenciamento de alterações de engenharia para serem bem-sucedidos em um mundo com ciclos de vida de produtos cada vez menores, requisitos de qualidade e confiabilidade maiores e um foco maior na segurança dos produtos. Saiba como configurar o gerenciamento de alterações de engenharia neste roteiro de aprendizagem. | Caminho de aprendizado online, gratuito, baseado no seu ritmo | 4 horas |
+
+## <a name="servicing"></a>Manutenção<a name="servicing"></a>
 
 | Conteúdo  | descrição   | Formatar  | Extensão    |
 |----------|---------------|---------|-----------|
 | [Finance and Operations: Gerenciamento de recursos (DYN641PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-feature-management-may-17-2019) | Tech Talk sobre a experiência de gerenciamento de recursos. Fornece um espaço de trabalho onde poderá exibir, habilitar, desabilitar e programar recursos que foram entregues em cada versão. Por padrão, os novos recurso estão desativados. Você pode usar o espaço de trabalho para ativá-los e exibir a documentação deles. Participe desta reunião para ver o que foi entregue em 10.0.3 e em nossos planos para as versões futuras. | Gravação gratuita de uma webconferência | 47 minutos |
 | [Finance and Operations: Manutenção, suporte e manutenção de produção (DYN651PAL2)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-servicing-supporting-and-maintaining-production-june-27-2019) | Tech Talk sobre como oferecer suporte, manter e atender de forma eficiente seu ambiente de produção do Dynamics 365 for Finance and Operations. | Gravação gratuita de uma webconferência | 53 minutos |
 | [Finance And Operations: Atualizações contínuas gerenciadas da Microsoft (DYN610PAL)](https://community.dynamics.com/365/b/techtalks/posts/finance-and-operations-microsoft-managed-continuous-updates-april-2-2019) | A cadência de Atualização contínua do Finance and Operations foi iniciada! Junte-se a nós para discutir sobre as atualizações contínuas gerenciadas da Microsoft, a experiência de usuário já disponível no Lifecycle Services e as atualizações previstas. | Gravação gratuita de uma webconferência | 61 minutos |
+| [Finance And Operations: Atualizações contínuas gerenciadas da Microsoft: Novidades - 1º de novembro de 2018 (DYN533cust)](https://community.dynamics.com/Techtalks-FinOps-Videos/MicrosoftManagedContinuousUpdates-WhatsNew-DYN533cust.mp4) | Nesse momento, discutiremos as atualizações da cadência de atualização contínua gerenciada Microsoft, bem como a experiência de usuário em Lifecycle Services. | Gravação gratuita de uma webconferência | 59 minutos |
 | [Atualizações contínuas gerenciadas da Microsoft: Novidades (DYN543PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-what-39-s-new-12-13-18) | Nesse momento, explicaremos quais são as novidades desde as primeiras notificações sobre as atualizações contínuas gerenciadas da Microsoft. Discutiremos sobre a cadência das atualizações, como nós respondemos ao seu feedback ao longo do processo e observaremos a experiência de usuário prevista do Lifecycle Services, através do qual será possível gerenciar suas atualizações. | Gravação gratuita de uma webconferência | 56 minutos |
 | [Atualizações contínuas gerenciadas da Microsoft (DYN474PAL2)](https://community.dynamics.com/365/b/techtalks/posts/microsoft-managed-continuous-updates-september-5-2018) | Discutiremos os planos da Microsoft para manter seu sistema atualizado com a versão mais recente. Abordaremos os cronogramas, a cadência para atualizações principais e secundárias, os procedimentos planejados, as implicações e o que você deve fazer para obter resultados ideais. | Gravação gratuita de uma webconferência | 62 minutos |
 | [Monitoramento, Assistente de otimização e KBs críticos (DYN456PAL2)](https://community.dynamics.com/365/b/techtalks/posts/monitoring-optimization-advisor-amp-critical-kbs-july-13-2018) | Discutiremos sobre recursos de monitoramento e o que é monitorado pela Microsoft em seu ambiente de produção, o assistente de otimização e como isso pode ser estendido, a experiência de "atualizações X++ críticas" e as melhores práticas para a opção de "Relatar interrupção de produção no LCS. | Gravação gratuita de uma webconferência | 40 minutos |
@@ -86,6 +95,5 @@ O catálogo a seguir é organizado com base no conhecimento fundamental para dom
 | Conteúdo  | descrição  | Formatar  |
 |----------|--------------|---------|
 | [Conceitos básicos do Dynamics 365](/learn/certifications/d365-fundamentals?wt.mc_id=learningredirect_certs-web-wwl) | Prove que você entende sobre o Microsoft Dynamics 365; os conceitos de nuvem; opções de licenciamento; e opções de implantação e liberação do Power Platform. | O custo do teste varia de acordo com a região |
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

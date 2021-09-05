@@ -16,12 +16,12 @@ ms.search.industry: ''
 ms.author: kamaybac
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2019-12-1
-ms.openlocfilehash: f40b4157520a399f1c2971a425e47b904b3b2f5eb30b87e54f8b810647bcdaeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: cf23284729cd10569ceb320d5fd30f8429974c3d
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6747904"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344749"
 ---
 # <a name="product-data-entities"></a>Entidades de dados do produto
 
@@ -42,7 +42,7 @@ Para importar e exportar dados de produto, você deve usar entidades de dados. A
 | Produtos distintos liberados V2 | `EcoResDistinctProductV2Entity` | Esta entidade é usada para exportar produtos distintos. Esses produtos distintos podem ser produtos, produtos de subtipo e grades de produto. |
 | Produtos mestres liberados V2 | `EcoResProductMasterV2Entity` | Esta entidade é usada para importar e exportar produtos mestre. Ela não está habilitada para o gerenciamento de dados. |
 | Item - código de barras | `EcoResProductBarcodeEntityV3` | Esta entidade é usada para exportar produtos e códigos de barras. Esta entidade não permite controle de alterações, atualizações ou exclusões. Para usar o controle de alterações, atualizações ou exclusões em códigos de barras, use a entidade **Associação entre item e código de barras**. |
-| Associação entre item e código de barras | `EcoResProductBarcodeAssociationEntity` | Esta entidade é usada para exportar produtos e códigos de barras. Ela permite controle de alterações, atualizações e exclusões. Para usar a entidade, o recurso *Aprimoramentos de itens e códigos de barras* deve estar habilitado no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Sua chave de entidade é `AssociationID`, que cria a associação entre o código de barras e o produto. Para adicionar suporte a essa chave, a tabela `InventitemBarcodeAssociation` será preenchida para os dados existentes de código de barras do item quando você ativar o recurso. A tabela é preenchida por meio de um trabalho em lotes. Se a sua tabela de código de barras tiver muitos registros, talvez seja necessário um tempo significativo para executar o trabalho em lotes. Portanto, é recomendável planejar a habilitação do recurso (e, portanto, executar o trabalho em lotes) em um momento adequado à agenda de trabalho. |
+| Associação entre item e código de barras | `EcoResProductBarcodeAssociationEntity` | Esta entidade é usada para exportar produtos e códigos de barras. Ela permite controle de alterações, atualizações e exclusões. Para usar a entidade, o recurso *Aprimoramentos de itens e códigos de barras* deve estar habilitado no [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md). Sua chave de entidade é `AssociationID`, que cria a associação entre o código de barras e o produto. Para adicionar suporte a essa chave, a tabela `InventitemBarcodeAssociation` será preenchida para os dados existentes de código de barras do item quando você ativar o recurso. A tabela é preenchida por meio de um trabalho em lotes e se a sua tabela de código de barras tiver muitos registros, talvez seja necessário um tempo significativo para executar o trabalho em lotes. Portanto, é recomendável planejar a habilitação do recurso (e, portanto, executar o trabalho em lotes) em um momento adequado à agenda de trabalho. |
 | Estados do ciclo de vida de produto | `EcoResProductLifecycleSateEntity` | Esta entidade é usada para importar e exportar os diferentes estados do ciclo de vida do produto que podem ser atribuídos a um produto. |
 
 > [!NOTE]

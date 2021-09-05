@@ -2,7 +2,7 @@
 title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
-ms.date: 05/17/2021
+ms.date: 08/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,17 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: dd658aeb8964907fe9f950fe2a6474c5df7e80b74986ddf332286a2f89bc0aeb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6752292"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344335"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
 [!include [banner](../includes/banner.md)]
-
+[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introdução
 
@@ -48,6 +48,8 @@ Existem duas variações de tamanho para o seletor de exibição:
  
 Se você selecionar o nome da exibição, o seletor de exibição será aberto e mostrará a lista de exibições disponíveis para a página.
 
+**Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibições mostrará as exibições disponíveis em duas seções. A primeira seção mostra todas as exibições específicas da entidade legal atual, e a segunda mostra as exibições disponíveis para todas as entidades legais. A primeira seção será visível apenas se houver exibições específicas da entidade legal para a página.
+
 - **Exibição padrão** – a exibição **padrão** é a exibição pronta para uso da página, em que nenhuma personalização é aplicada.
 - **Exibições pessoais** – as exibições sem cadeados representam as exibições pessoais. São exibições que você criou ou que um administrador forneceu a você.
 - **Exibições bloqueadas** – algumas exibições (como a exibição **Padrão** e todas as exibições publicadas na sua função) têm um símbolo de cadeado ao lado no seletor de exibição. Este símbolo indica que não é possível editar essas exibições. No entanto, as alterações que refletem o uso da página são salvas automaticamente. Essas alterações incluem alterações na largura de uma coluna de grade e alterações no estado expandido ou recolhido de uma FastTab. Entretanto, se você tiver privilégios de personalização, você pode usar a ação **Salvar como** para criar uma exibição pessoal baseada em uma exibição bloqueada.
@@ -68,15 +70,18 @@ Se você quiser salvar essas alterações, siga as etapas a seguir.
 3. Para criar uma exibição:
 
     1. Selecione **Salvar como**. 
-    2. Insira um nome e (opcionalmente) uma descrição para a exibição.
-    3. Selecione **Salvar**.
+    2. No painel **Salvar exibição como**, insira um nome e, opcionalmente, uma descrição para a exibição.
+    3. Se desejar que essa seja sua exibição padrão, selecione **Fixar como padrão**. Para obter mais informações sobre as exibições padrão, consulte a seção [Alterar a exibição padrão](#changing-the-default-view) a seguir. 
+    4. **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, você poderá selecionar se deseja que essa exibição esteja disponível para todas as entidades legais ou apenas um subconjunto delas.
+    5. Selecione **Salvar**.
 
 ## <a name="changing-the-default-view"></a>Alteração da exibição padrão
 
 A exibição padrão é aquela que o sistema tenta abrir quando você abre a página pela primeira vez. Você deve definir a exibição padrão como a exibição que você espera usar com mais frequência. 
 
 > [!NOTE]
-> Há uma única exibição padrão global entre empresas. Se você alterar a exibição padrão, essa exibição será aberta por padrão, seja qual for a entidade legal utilizada no momento. 
+> - No recurso de base **Exibições salvas**, há uma exibição padrão global única em todas as entidades legais. Se você alterar a exibição padrão, essa exibição será aberta por padrão, seja qual for a entidade legal utilizada no momento.
+> - **Versão 10.0.21 ou posterior:** quando o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** está ativado, cada entidade legal pode ter sua própria exibição padrão por página.
 
 Para alterar a exibição padrão de uma página, siga estas etapas:
 
@@ -86,20 +91,23 @@ Para alterar a exibição padrão de uma página, siga estas etapas:
 
 Como alternativa, ao criar uma exibição (ao usar a ação **Salvar como**), você pode tornar essa nova exibição a exibição padrão, definindo a opção **Fixar como padrão** antes de salvar a exibição.
 
-Observe que, em alguns casos, a consulta que é associada à exibição padrão não é executada quando você abre uma página pela primeira vez. Por exemplo, se você abrir a página por meio de um bloco, a consulta do bloco será executada, independentemente da consulta que estiver associada à exibição padrão. Além disso, se você abrir uma página com uma exibição **Padrão** que já tenha uma consulta definida, a consulta original será executada em vez da consulta da exibição padrão. Nesse caso, você receberá uma mensagem informativa quando a exibição for carregada. Se você alternar exibições depois que a página for carregada, a consulta de exibição deverá poder ser executada conforme esperado. Na versão 10.0.10 e posterior, a mensagem informativa recebida terá uma ação incorporada que permite carregar diretamente a consulta da exibição padrão.
+> [!WARNING]
+> Em alguns casos, a consulta que é associada à exibição padrão não é executada quando você abre uma página pela primeira vez. Por exemplo, se você abrir a página por meio de um bloco, a consulta do bloco será executada, independentemente da consulta que estiver associada à exibição padrão. Além disso, se você abrir uma página com uma exibição **padrão** que já tenha uma consulta definida, a consulta original será executada em vez da consulta da exibição padrão. Nesse caso, você receberá uma mensagem informativa quando a exibição for carregada. Se você alternar exibições depois que a página for carregada, a consulta de exibição deverá poder ser executada conforme esperado. Na versão 10.0.10 e posterior, a mensagem informativa recebida terá uma ação incorporada que permite carregar diretamente a consulta da exibição padrão.
 
 ## <a name="managing-personal-views"></a>Gerenciamento de exibições pessoais
 
 A caixa de diálogo **Gerenciar minhas exibições** oferece recursos básicos de manutenção sobre suas exibições pessoais e a ordem das exibições no seletor de exibição. Para abrir essa página, selecione o nome da exibição para abrir o menu suspenso do seletor de exibição, selecione **Mais** e depois selecione **Gerenciar minhas exibições**.
 
+**Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, a seção **Minhas exibições** da caixa de diálogo **Gerenciar minhas exibições** mostrará as exibições disponíveis para a página em seções. Todas as exibições específicas da entidade legal atual são mostradas em sua própria seção. A seção **Exibições globais** sempre é mostrada, para que você possa gerenciar as exibições que estão disponíveis para a página em todas as entidades legais. 
+
 Para obter uma lista de exibições disponíveis dessa página, o conjunto de ações a seguir está disponível.
 
-- **Alterar a exibição padrão** – use a ação **Fixar como padrão** para tornar a exibição selecionada no momento a exibição padrão dessa página.
+- **Alterar a exibição padrão** – use a ação **Fixar como padrão** para tornar a exibição selecionada no momento a exibição padrão dessa página. Se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, a seção **Exibições globais** permitirá que você torne uma exibição o padrão para a entidade legal atual ou todas as entidades legais.
 - **Reordenar suas exibições** – use as ações **Mover para cima** e **Mover para baixo** para reorganizar exibições em uma ordem específica.
 - **Renomear uma exibição** – use a ação **Renomear** para alterar o nome da exibição pessoal selecionada no momento. Essa ação está desativada para exibições bloqueadas. 
 - **Excluir uma exibição** – use a ação **Excluir** para excluir permanentemente a exibição selecionada no momento da página. Não há como recuperar uma exibição depois de removê-la.
 
-Quaisquer alterações feitas nessa caixa de diálogo entrarão em vigor após você selecionar o botão **Salvar**.
+Todas as alterações feitas nessa caixa de diálogo entrarão em vigor após você selecionar o botão **Atualizar**.
 
 ## <a name="managing-personalizations-at-an-organizational-level-with-views"></a>Gerenciamento de personalizações em nível organizacional com exibições
 
@@ -128,24 +136,28 @@ Para publicar uma exibição, siga estas etapas:
 6. Determine se a exibição deve ser publicada como a exibição padrão para os usuários selecionados. Quando uma exibição se tornar padrão, os usuários a exibirão na próxima vez em que abrirem a página de destino. A única exibição padrão global de cada usuário direcionado será alterada. No entanto, os usuários ainda podem alterar a exibição padrão após a publicação.
 
     > [!NOTE]
-    > Lembre-se do seguinte ao publicar uma exibição como a exibição padrão: 
-    > -  Se você publicar uma exibição como padrão para algumas ou todas entidades legais, altere a exibição padrão única e **global** de cada usuário direcionado. 
-    > -  Se um usuário tiver funções em que várias exibições sejam publicadas como exibição padrão, a última exibição publicada será usada como a exibição padrão do usuário. 
+    > Lembre-se do seguinte comportamento ao publicar uma exibição como o padrão:
+    >
+    > - Se você publicar uma exibição como o padrão para algumas das entidades legais ou todas elas, ocorrerá o seguinte comportamento:
+    >
+    >    - Se apenas o recurso de base **Exibições salvas** estiver ativado, a exibição padrão global única será alterada para cada usuário direcionado. 
+    >    - **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado e você publicar a exibição em um subconjunto de entidades legais, a exibição padrão dessas entidades legais será alterada para cada usuário direcionado.
+    >
+    > - Se um usuário tiver funções em que várias exibições sejam publicadas como exibição padrão, a última exibição publicada será usada como a exibição padrão do usuário. 
 
 8. Adicione as funções de segurança que correspondem aos usuários que receberão essa exibição. 
 9. Determine se você deseja publicar a exibição para as funções filho de cada função de segurança selecionada. Se fizer isso, marque a caixa de seleção **Incluir funções filho** na linha para as funções de segurança apropriadas. Observe que esta caixa de seleção não está disponível para funções sem funções filho.
 10. Adicione as entidades legais para as quais essa exibição deve estar disponível. 
 
     > [!NOTE]
-    > Lembre-se das seguintes expectativas ao publicar uma exibição para uma entidade legal.
-    > 
-    > Se você publicar uma exibição em uma entidade legal, mas não publicá-la como a exibição padrão, os usuários verão inicialmente a exibição no seletor de exibição somente para as entidades legais especificadas. No entanto, após o primeiro carregamento da exibição, ela sempre estará no seletor de exibição do usuário para essa página, independentemente da entidade legal.
+    > Lembre-se do seguinte comportamento se você publicar uma exibição para uma entidade legal específica, mas não publicar essa exibição como o padrão:
+    >
+    > - Se apenas o recurso de base **Exibições salvas** estiver ativado, o seletor de exibição do usuário para a página mostrará inicialmente a exibição apenas para as entidades legais especificadas. No entanto, depois que a exibição for carregada pela primeira vez, o seletor de exibição da página sempre a mostrará, independentemente da entidade legal.
+    > - **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas.
 
 11. Selecione **Publicar**.
 
 Observe que, em alguns ambientes, pode levar algum tempo (até uma hora) para que os usuários vejam a exibição publicada.
-
- 
 
 ## <a name="modifying-a-published-view"></a>Modificação de uma exibição publicada
 
@@ -193,6 +205,7 @@ Embora alguns recursos de gerenciamento sejam reproduzidos em todas as páginas,
 Os usuários com acesso à página **Personalização** também podem importar exibições pessoais ou de organização usando o botão **Importar exibições** no Painel de Ações. Para exibições da organização, você pode selecionar **Publicar imediatamente** a fim de disponibilizá-las aos usuários sem uma publicação explícita adicional.
 
 ## <a name="known-issues"></a>Problemas conhecidos
+
 Para obter uma lista de problemas conhecidos com exibições salvas, consulte os [Criar formulários que utilizam totalmente as exibições salvas](../../dev-itpro/user-interface/understanding-saved-views.md).
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
@@ -232,5 +245,11 @@ Para páginas com seletores de exibição grandes (personalizações e consultas
 - Se você navegar até uma página de um bloco, a consulta do bloco será executada independentemente da consulta associada à exibição padrão. Se você criou esse bloco após habilitar as exibições, selecionar um bloco abrirá a página com a exibição associada a ele.
 - Se você navegar até uma página e esse ponto de entrada incluir uma consulta, a consulta original será executada originalmente no lugar da consulta da exibição padrão. Quando isso acontecer, você será alertado por uma mensagem informativa quando a exibição estiver sendo carregada. Você também pode confirmar alternando para essa exibição após o carregamento da página, já que isso deve permitir que a consulta da exibição seja executada independentemente.
 
+### <a name="why-is-a-view-that-was-published-for-a-specific-legal-entity-visible-in-all-legal-entities"></a>Por que uma exibição publicada para uma entidade legal específica é visível em todas as entidades legais?
+
+Se você publicar uma exibição para uma entidade legal específica, mas não publicar essa exibição como o padrão, ocorrerá o seguinte comportamento:
+
+- Se apenas o recurso de base **Exibições salvas** estiver ativado, o seletor de exibição do usuário para a página mostrará inicialmente a exibição apenas para as entidades legais especificadas. No entanto, depois que a exibição for carregada pela primeira vez, o seletor de exibição da página sempre a mostrará, independentemente da entidade legal. Esse comportamento ocorre porque os usuários obtêm sua própria cópia pessoal da exibição publicada quando ela é carregada, e as exibições pessoais são globais.
+- **Versão 10.0.21 ou posterior:** se o recurso **Suporte à entidade legal aperfeiçoado para exibições salvas** estiver ativado, o seletor de exibição só mostrará a exibição para as entidades legais especificadas. Esse comportamento ocorre porque o recurso permite que as exibições (inclusive exibições pessoais) sejam vinculadas a entidades legais específicas.
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

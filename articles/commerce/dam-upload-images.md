@@ -2,7 +2,7 @@
 title: Carregar imagens
 description: Este tópico descreve como carregar imagens no construtor de sites do Microsoft Dynamics 365 Commerce.
 author: psimolin
-ms.date: 03/03/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.industry: ''
 ms.author: psimolin
 ms.search.validFrom: 2019-10-31
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5f4f84c41e6af23483ccb74a9189cb713016f4ac9d0d9981bf918ca8a71743eb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a5607fa70f5d5d28d10bcbd50da11bb96cbf75de
+ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6757389"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7423246"
 ---
 # <a name="upload-images"></a>Carregar imagens
 
@@ -52,10 +52,17 @@ A convenção de nomenclatura padrão varia de acordo com a categoria:
 - As imagens da categoria devem ser nomeadas como "**/Categories/\{CategoryName\}.png**"
 - As imagens do cliente devem ser nomeadas como "**/Customers/\{CustomerNumber\}.jpg**"
 - As imagens dos funcionários devem ser nomeadas como "**/Workers/\{WorkerNumber\}.jpg**"
-- As imagens do produto devem ser nomeadas como "**/Products/\{ProductNumber\}_000_001.png**"
+- As imagens do produto devem ser nomeadas como "**/Products/\{ProductNumber\}\_000_001.png**"
     - 001 é a sequência da imagem e pode ser 001, 002, 003, 004 ou 005
 - As imagens da grade de produto devem ser nomeadas como "**/Products/\{ProductNumber\} \^ \{Style\} \^ \{Size\} \^ \{Color\} \^\_000_001.png**"
-    - Por exemplo: 93039 \^ \^ 2 \^ Black \^_000_001.png
+    - Por exemplo: 93039 \^ &nbsp;\^ 2 \^ Black \^\_000_001.png
+- As imagens de grade de produto com dimensões de configuração devem ser nomeadas "**/Products/\{ProductNumber\} \^ \{Configuration\}\_000_001.png**"
+    - Por exemplo: 93039 \^ LB8017_000_001.png
+
+> [!NOTE]
+> Para imagens de grade de produto, se o valor de dimensão estiver vazio, deve haver dois espaços em branco entre os acentos no nome do arquivo.
+
+Os exemplos acima usam a configuração padrão. O caractere separador e as dimensões são configuráveis e o nome exato necessário pode variar entre as implantações. Um método para identificar a convenção de nomenclatura exata necessária é usar o console do desenvolvedor do navegador para inspecionar as solicitações de imagem de grade do produto ao alterar as dimensões do produto na página detalhes do produto da vitrine (PDP).
 
 ## <a name="upload-an-image"></a>Carregar uma imagem
 

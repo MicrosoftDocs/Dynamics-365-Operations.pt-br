@@ -1,5 +1,5 @@
 ---
-title: Manter tipos de código de barras
+title: Manter tipos de códigos de barra
 description: Este procedimento mostra como configurar a definição de um novo código de barras que pode ser usado como parte do relatório da lista de separação.
 author: perlynne
 ms.date: 08/29/2018
@@ -14,34 +14,34 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 60fa8051ebe71c2606a5d6d3d1e22ec852023dd47301a008c98e9f4d7deaad29
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 052311e15aeb20b927cbed217a2bda600dad60a5
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755338"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7345641"
 ---
-# <a name="maintain-barcode-types"></a>Manter tipos de código de barras
+# <a name="maintain-bar-code-types"></a>Manter tipos de códigos de barra
 
 [!include [banner](../../includes/banner.md)]
 
 Este procedimento mostra como configurar a definição de um novo código de barras que pode ser usado como parte do relatório da lista de separação. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se você estiver usando USMF você pode usar os valores de exemplo mostrados. Essas tarefas normalmente seriam realizadas por um gerente do depósito.
 
-1. Acesse Códigos de barras.
-2. Clique em Novo.
-3. No campo Configuração de código de barras, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Tipo de código de barras, selecione uma opção.
+1. Acesse **Códigos de barras**.
+1. Selecione **Novo**.
+1. No campo **Configuração de código de barras**, digite um valor.
+1. No campo **Descrição**, digite um valor.
+1. No campo **Tipo de código de barras**, selecione uma opção.
     * Se você estiver usando USMF, você pode selecionar 'Código 39'.  
-6. No campo Tamanho, insira um número.
-7. No campo Comprimento máximo, insira um número.
-8. Clique em Salvar.
-9. Feche a página.
-10. Acesse Parâmetros de gerenciamento de estoque e depósito.
-11. No campo Configuração de código de barras, insira ou selecione um valor.
+1. No campo **Tamanho**, insira um número.
+1. No campo **Comprimento máximo**, insira um número.
+1. Selecione **Salvar**.
+1. Feche a página.
+1. Acesse **Parâmetros de gerenciamento de estoque e depósito**.
+1. No campo **Configuração de código de barras**, insira ou selecione um valor.
     * Selecione a configuração de código de barras que você criou antes, mas esteja ciente de que o formato do código de barras deve corresponder ao formato do identificador exclusivo para o tipo de registro usado no processo. Por exemplo, para roteiros de separação, o formato do código de barras deve corresponder ao formato da referência do roteiro de separação, que normalmente é uma sequência numérica.  
-12. Clique em Salvar.
-13. Feche a página.
+1. Selecione **Salvar**.
+1. Feche a página.
 
 
 

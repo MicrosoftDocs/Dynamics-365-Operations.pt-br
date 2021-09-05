@@ -2,7 +2,7 @@
 title: Configurar um ambiente de avaliação do Dynamics 365 Commerce
 description: Este tópico explica como configurar um ambiente de avaliação do Microsoft Dynamics 365 Commerce após ter sido provisionado.
 author: psimolin
-ms.date: 07/16/2020
+ms.date: 08/24/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: psimolin
 ms.search.validFrom: 2019-12-10
 ms.dyn365.ops.version: Release 10.0.5
-ms.openlocfilehash: 87933c57ee5f626b224b1edc92da13906e3edc2613f61c5b4a917d8cc5d1dcd3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2e98ea9e98380ee63f6cc1eb6dfc7b84d38c7dbb
+ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6742431"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7416470"
 ---
 # <a name="configure-a-dynamics-365-commerce-evaluation-environment"></a>Configurar um ambiente de avaliação do Dynamics 365 Commerce
 
@@ -128,7 +128,7 @@ Para executar a sincronização completa dos dados no Commerce, siga estas etapa
 Para realizar transações de teste no site, você pode usar as informações do cartão de crédito de teste a seguir:
 
 - **Número do cartão:** 4111-1111-1111-1111
-- **Data de vencimento:** 20/10
+- **Data de vencimento:** 30/10
 - **Código do valor de verificação do cartão (CVV):** 737
 
 > [!IMPORTANT]
@@ -139,6 +139,9 @@ Para realizar transações de teste no site, você pode usar as informações do
 Depois que as etapas de provisionamento e configuração forem concluídas, você poderá começar a usar seu ambiente de avaliação. Use a URL do construtor de sites do Commerce para acessar a experiência de criação. Use a URL do site do Commerce para acessar a experiência de site do cliente de varejo.
 
 Para configurar recursos opcionais para seu ambiente de avaliação do Commerce, consulte [Configurar recursos opcionais para um ambiente de avaliação do Commerce](cpe-optional-features.md).
+
+> [!NOTE]
+> Os ambientes de avaliação do Commerce vêm com um locatário do business-to-consumer B2C pré-carregado do Azure Active Directory (Azure AD) para fins de demonstração. Configurar seu próprio locatário do Azure AD B2C não é necessário para os ambientes de avaliação. No entanto, se você estiver configurando o ambiente de avaliação para usar seu próprio locatário do Azure AD B2C, certifique-se de adicionar ``https://login.commerce.dynamics.com/_msdyn365/authresp`` como uma URL de resposta no aplicativo do Azure AD B2C por meio do Portal do Azure.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
@@ -159,6 +162,8 @@ Para configurar recursos opcionais para seu ambiente de avaliação do Commerce,
 [Portal do Microsoft Azure](https://azure.microsoft.com/features/azure-portal)
 
 [Site do Dynamics 365 Commerce](https://aka.ms/Dynamics365CommerceWebsite)
+
+[Configurar um locatário de B2C no Commerce](set-up-B2C-tenant.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

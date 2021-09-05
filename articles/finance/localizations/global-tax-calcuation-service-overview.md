@@ -1,12 +1,12 @@
 ---
-title: Cálculo de Imposto (Versão preliminar)
+title: Visão geral do Cálculo de Imposto
 description: Este tópico explica o escopo geral e os recursos do recurso Cálculo de Imposto.
 author: wangchen
-ms.date: 06/03/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
-ms.search.form: ''
+ms.search.form: TaxIntegrationTaxServiceParameters
 audience: Application user
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -15,14 +15,14 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 4e01247cddad4201760fd56e00e05a8373a1ca6ef7c26ae5e1f5cca63bd8a456
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72895cc18368ebf38818f30510cec999391c7910
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775085"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394577"
 ---
-# <a name="tax-calculation-preview"></a>Cálculo de Imposto (Versão preliminar)
+# <a name="tax-calculation-overview"></a>Visão geral do Cálculo de Imposto
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,44 +33,59 @@ O Cálculo de Imposto é um serviço multilocatário hiperescalável que permite
 O Cálculo de Imposto é integrado ao Dynamics 365 Finance e ao Dynamics 365 Supply Chain Management. Futuramente, também será integrado ao Dynamics 365 Project Operations, Dynamics 365 Commerce e a outros aplicativos próprios e de terceiros.
 
 > [!IMPORTANT]
-> Ao habilitar o serviço de cálculo de imposto, algumas operações em dados relacionados podem ser executadas em um data center diferente do data center que mantém os dados do serviço. Revise os [Termos e Condições](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) antes de habilitar o serviço de cálculo de imposto. Sua privacidade é importante para nós. Para saber mais, leia nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=521839).
+> Ao habilitar o Cálculo de Imposto, algumas operações em dados relacionados podem ser executadas em um data center diferente do data center que mantém os dados do serviço. Revise os [Termos e Condições](../../fin-ops-core/fin-ops/get-started/public-preview-terms.md) antes de habilitar o Cálculo de Imposto. Sua privacidade é importante para nós. Para saber mais, leia nossa [política de privacidade](https://go.microsoft.com/fwlink/?LinkId=521839).
 
-O Cálculo de Imposto é um mecanismo de cálculo de imposto baseado em microsserviço que oferece escalabilidade exponencial. Ele pode ajudar você a executar as seguintes tarefas:
+O Cálculo de Imposto é um mecanismo de imposto baseado em microsserviço que oferece escalabilidade exponencial e pode ajudá-lo a executar as seguintes tarefas:
 
-- Configure o Cálculo de Imposto com o Regulatory Configuration Service (RCS). O RCS é uma versão aprimorada do designer do Relatório eletrônico (ER) e está disponível como serviço autônomo.
-- Configure a matriz de impostos para determinar os códigos e as taxas de impostos automaticamente.
-- Configure a matriz de impostos para determinar o número de registro do imposto.
-- Configure o designer de cálculo de imposto para definir fórmulas e condições.
-- Compartilhe a determinação e solução de cálculo de imposto nas entidades legais.
+- Determinar automaticamente o grupo de impostos sobre vendas, o grupo de impostos sobre vendas do item e os códigos de imposto corretos por meio de um mecanismo de determinação aprimorado.
+- Suportar vários números de registro de imposto em uma entidade legal e determine automaticamente o número de registro de imposto correto em transações tributáveis.
+- Dar suporte a determinação, cálculo, lançamento e liquidação de impostos para ordens de transferência.
+- Definir fórmulas e condições de cálculo de imposto configuráveis para suas necessidades comerciais específicas.
+- Compartilhar a determinação de imposto e a solução de cálculo em entidades legais para economizar esforços de manutenção e evitar erros.
+- Dar suporte à determinação de número de registro de imposto do cliente e do fornecedor.
+- Suportar a determinação de código de lista.
+- Dar suporte a parâmetros de cálculo de imposto no nível da jurisdição de impostos.
 
-Para usar o serviço de cálculo de imposto, instale o suplemento do serviço de cálculo de imposto do projeto no Microsoft Dynamics Lifecycle Services (LCS). Em seguida, conclua a configuração no RCS e habilite o serviço de cálculo de imposto no Finance e no Supply Chain Management. Para obter mais informações, consulte [Introdução ao serviço de imposto](./global-get-started-with-tax-calculation-service.md).
+Para usar o Cálculo de Imposto, instale o suplemento de Cálculo de Imposto do projeto no Microsoft Dynamics Lifecycle Services. Em seguida, conclua a configuração no [Regulatory Configuration Service](https://marketing.configure.global.dynamics.com/) e habilite o Cálculo de Imposto no Finance and Supply Chain Management. Para obter mais informações, consulte [Introdução ao serviço de imposto](global-get-started-with-tax-calculation-service.md).
 
 ## <a name="availability"></a>Disponibilidade
 
-O Cálculo de Imposto está disponível somente em ambientes de área restrita e para alguns clientes, por meio de um programa de versão preliminar pública. Futuramente, ele será disponibilizado de modo geral para todos os clientes e em ambientes de produção.
+O Cálculo de Imposto está geralmente disponível em ambientes de produção para todos os clientes a partir da versão 10.0.21.
 
-Novos recursos continuarão a ser entregues; portanto, verifique a documentação mais recente para saber mais sobre a cobertura e o escopo dos recursos compatíveis.
+Novos recursos continuarão sendo entregues. Verifique frequentemente o plano de versão mais atualizado para aprender sobre a cobertura e o escopo dos recursos com suporte.
 
-O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Ele também será implantado em mais regiões do Azure, de acordo com as necessidades dos clientes:
+O Cálculo de Imposto é implantado nas regiões do Azure a seguir. Mais regiões do Azure serão adicionadas, de acordo com as necessidades dos clientes.
 
-- Estados Unidos
+- Pacífico Asiático
+- Austrália
+- Canadá
 - Europa
+- Japão
+- Reino Unido
+- Estados Unidos
 
 > [!NOTE]
-> O Cálculo de Imposto não é compatível com implantações locais do Dynamics 365. Ele também não oferece suporte a versões anteriores, como o Dynamics AX 2012.
+> O Cálculo de Imposto não oferece suporte à versões anteriores do Dynamics 365, como Dynamics AX 2012 ou implantações locais do Dynamics 365.
 
-## <a name="feature-highlights"></a>Destaques do recurso
+## <a name="data-flow"></a>Fluxo de dados
 
-- Uma matriz de impostos configurável para determinar e calcular impostos automaticamente
-- Suporte para vários números de registro de imposto
-- Suporte para ordem de transferência de determinação e cálculo de imposto
-- Suporte para ordem de transferência para a determinação de vários números de registro de imposto
+Aqui está uma descrição do processo de fluxo de dados para o Cálculo de Imposto. 
+
+1. No RCS, exiba e importe configurações de modelo de documento tributável e configurações de mapeamento de modelos. Se você deve estender as configurações para um cenário avançado, consulte [Adicionar campos de dados em configurações de imposto](tax-service-add-data-fields-tax-configurations.md).
+2. No RCS, crie ou mantenha os recursos de imposto. Você pode usar os recursos de imposto para manter taxas de imposto e regras de aplicabilidade de imposto.
+3. Depois que a configuração do recurso de imposto for concluída, publique as configurações de imposto e os recursos de imposto do RCS para o repositório Global.
+4. No Finance, selecione a versão de configuração do recurso de imposto a ser usada para uma entidade legal específica.
+5. No Finance and Supply Chain Management, opere as transações como de costume. Quando o Cálculo de Imposto é necessário, o cliente coleta informações da transação, como a ordem de venda ou a ordem de compra, e empacota as informações como conteúdo. Uma solicitação será enviada para calcular o imposto.
+6. A solicitação de cálculo de imposto é recebida do cliente e o cálculo é concluído. O resultado do imposto será devolvido para o cliente.
+7. O cliente do Dynamics 365 recebe o resultado do imposto e apresenta o resultado do cálculo de imposto em uma página de imposto.
 
 ## <a name="supported-transactions"></a>Transações com suporte
 
-O Cálculo de Imposto pode ser habilitado por entidade legal e transação. As seguintes transações são compatíveis:
+O Cálculo de Imposto pode ser habilitado por transações. 
 
-- Processo de Vendas
+As seguintes transações são compatíveis na versão 10.0.21: 
+
+- Vendas
 
     - Cotação de Venda
     - Ordem de Venda
@@ -83,7 +98,7 @@ O Cálculo de Imposto pode ser habilitado por entidade legal e transação. As s
     - Encargos diversos do cabeçalho
     - Encargos diversos da linha
 
-- Processo de compra
+- Compra
 
     - Ordem de Compra
     - Confirmação
@@ -100,10 +115,36 @@ O Cálculo de Imposto pode ser habilitado por entidade legal e transação. As s
     - Encargos diversos do cabeçalho da solicitação de cotação
     - Encargos diversos da linha da solicitação de cotação
 
-- Processo de estoque
+- Inventário
 
     - Ordem de transferência – enviar
     - Ordem de transferência – receber
+
+## <a name="supported-countriesregions"></a>Países/regiões com suporte
+
+O Cálculo de Imposto pode ser habilitado por entidade legal. 
+
+Os seguintes países/regiões do endereço principal de uma entidade legal têm suporte na versão 10.0.21:
+
+- Áustria
+- Bélgica
+- Dinamarca
+- Estônia
+- Finlândia
+- França
+- Alemanha
+- Hungria
+- Islândia
+- Itália
+- Letônia
+- Lituânia
+- Países Baixos
+- Noruega
+- Polônia
+- Suécia
+- Suíça
+- Reino Unido
+- Estados Unidos
 
 ## <a name="related-resources"></a>Recursos relacionados
 

@@ -2,7 +2,7 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Commerce
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Commerce.
 author: josaw
-ms.date: 01/11/2021
+ms.date: 08/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: aa6030468259069cf031feb8df48d6710e1160f310a1d82c1034afe69249f00f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740398"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386732"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou obsoletos do Dynamics 365 Commerce
 
@@ -32,6 +32,55 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!NOTE]
 > Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
+
+## <a name="features-removed-or-deprecated-in-the-commerce-10021-release"></a>Recursos removidos ou substituídos na versão 10.0.21 do Commerce
+
+[!include [banner](../includes/preview-banner.md)]
+
+### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK do Retail distribuído usando Lifecycle Services
+
+O SDK do Retail é fornecido no LCS (Lifecycle Services). Esse modo de distribuição foi preterido na versão 10.0.21. No futuro, os pacotes de referência, bibliotecas e exemplos do SDK do Retail serão publicados em repositórios públicos no GitHub.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O SDK do Retail é fornecido no LCS. O processo do LCS leva algumas horas para terminar e deve ser repetido a cada atualização. No futuro, os pacotes de referência, bibliotecas e exemplos do SDK do Retail serão publicados em repositórios públicos no GitHub. Exemplos de extensão e pacotes de referência podem ser consumidos facilmente, e as atualizações são concluídas em alguns minutos. |
+| **Substituída por outro recurso?**   |  [Baixar exemplos de SDK do Retail e pacotes de referência do GitHub e NuGet](../dev-itpro/retail-sdk/sdk-github.md) |
+| **Áreas afetadas do produto**         | SDK do Retail |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: a partir da versão 10.0.21, o SDK enviado por meio das VMs do LCS será removido em outubro de 2022. |
+
+### <a name="retail-deployable-package-and-combined-pos-hardware-station-and-cloud-scale-unit-installers"></a>Pacote implantável do Retail e PDV combinados, Estação de hardware e instaladores do Cloud Scale Unit
+
+Os pacotes implantáveis do Retail gerados usando o MSBuild do SDK do Retail foram preteridos em 10.0.21. No futuro, use o pacote do CSU (Cloud Scale Unit) para extensões do Cloud Scale Unit (Commerce Runtime, banco de dados de canal, APIs do Commerce sem periféricos, pagamentos e POS (Cloud Point of Sale)). Use instaladores somente de extensão para POS, Estação de hardware e Cloud Scale Unit auto-hospedado.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Um pacote implantável do Retail é um pacote combinado que contém um conjunto completo de pacotes de extensão e instaladores. Esse pacote combinado torna a implantação complexa, pois as extensões de CSU vão para o Cloud Scale Unit e os instaladores são implantados nas lojas. Os instaladores incluem a extensão e o produto base, o que torna as atualizações difíceis. Com cada atualização, uma mesclagem de código e uma geração de pacote são necessárias. Para simplificar o processo, agora os pacotes de extensão são separados em componentes para fácil implantação e gerenciamento. Com a nova abordagem, as extensões e os instaladores do produto base são separados e podem ser atendidos e atualizados de forma independente, sem mesclagem de código ou reempacotamento.|
+| **Substituída por outro recurso?**   | Extensões de CSU, instaladores de extensão de POS, instaladores de extensão de Estação de hardware |
+| **Áreas afetadas do produto**         | Extensão e implantação do Dynamics 365 Commerce |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: a partir da versão 10.0.21, o suporte para implantação de RetailDeployablePackage no LCS será removido em outubro de 2022. |
+
+Para obter mais informações, consulte:
+
++ [Gerar um pacote separado para o CSU (Commerce Cloud Scale Unit)](../dev-itpro/retail-sdk/retail-sdk-packaging.md#generate-a-separate-package-for-commerce-cloud-scale-unit-csu)
++ [Criar um pacote de extensão do Modern POS](../dev-itpro/pos-extension/mpos-extension-packaging.md)
++ [Integrar o POS a um novo dispositivo de hardware](../dev-itpro/hardware-device-extension.md)
++ Exemplos de código
+    + [Cloud Scale Unit](https://github.com/microsoft/Dynamics365Commerce.ScaleUnit)
+    + [PDV, CSU e Estação de hardware](https://github.com/microsoft/Dynamics365Commerce.InStore)
+
+### <a name="modernpossln-and-cloudpossln-in-the-retail-sdk"></a>ModernPos.Sln e CloudPOs.sln no SDK do Retail
+
+O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPOs.sln, POS.Extension.csproj e a pasta PDV foi preterido na versão 10.0.21. No futuro, use o SDK de empacotamento independente de PDV para extensões de PDV.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Em versões anteriores do SDK do Retail, se houver extensões de PDV, uma mesclagem de código e um novo empacotamento serão necessários para atualizar para a versão mais recente do PDV. A mesclagem de código era um processo de atualização demorado, e você tinha que manter o SDK do Retail completo no repositório. Você também precisava compilar o projeto POS.App principal. Usando o modelo de empacotamento independente, você precisa manter apenas sua extensão. O processo de atualização para a última versão das extensões de PDV é tão fácil quanto atualizar a versão do pacote NuGet que seu projeto consome. As extensões podem ser implantadas de forma independente, e os serviços usam os instaladores de extensão. O PDV base pode ser implantado e mantido separadamente, e não são necessários mesclagem de código ou reempacotamento com o código ou instalador base. |
+| **Substituída por outro recurso?**   | [SDK de empacotamento independente de PDV](../dev-itpro/pos-extension/pos-extension-getting-started.md) |
+| **Áreas afetadas do produto**         | Implantação e extensão de PDV do Dynamics 365 Commerce |
+| **Opção de implantação**              | Todas |
+| **Status**                         | Preterido: a partir da versão 10.0.21, o suporte para pacotes de PDV combinados e modelo de extensão usando ModernPos.Sln, CloudPOs.sln e POS.Extensons.csproj no SDK do Retail será removido em outubro de 2022. |
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10017-release"></a>Recursos removidos ou substituídos na versão 10.0.17 do Commerce
 

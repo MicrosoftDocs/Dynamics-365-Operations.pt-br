@@ -2,7 +2,7 @@
 title: Tipo de destino de ER do email
 description: Este tópico explica como configurar um destino de email para cada componente de PASTA ou ARQUIVO de um formato de relatório eletrônico (ER).
 author: NickSelin
-ms.date: 07/27/2021
+ms.date: 08/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 46817197f3b0938fb325b2b3ebefbee41b5e4583092e521e6a8dae70d78b0970
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6769310"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7343851"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -53,9 +53,22 @@ Para enviar um ou mais arquivos de saída por email, siga estas etapas.
 
 ## <a name="configure-an-email-destination"></a>Configurar um destino de email
 
-Você pode especificar o remetente e os destinatários do email e pode editar o assunto e o corpo da mensagem de email. Você pode configurar um texto constante para o assunto e o corpo do email ou pode usar [fórmulas](er-formula-language.md) de ER para criar textos de email dinamicamente.
+### <a name="email-content"></a>Conteúdo do email
 
-Por padrão, é enviado um email em nome do usuário atual. Para especificar outro remetente de email, você deve configurar o campo **De**.
+Você pode editar o assunto e o corpo da mensagem de email.
+
+No campo **Assunto**, insira o texto do assunto de email que deve aparecer no campo assunto de uma mensagem eletrônica que é gerada no tempo de execução. No campo **Assunto**, insira o texto do corpo do email que deve aparecer no campo do corpo de uma mensagem eletrônica. Você pode configurar um texto constante para o assunto e o corpo do email ou pode usar [fórmulas](er-formula-language.md) de ER para criar textos de email no tempo de execução. A fórmula configurada deve retornar um valor do tipo [String](er-formula-supported-data-types-primitive.md#string).
+
+O corpo do seu email é composto no formato de TEXTO ou HTML, dependendo do cliente de email. Você pode usar qualquer layout, estilo e marca permitidos por HTML e CSS (Folhas de Estilos em Cascata).
+
+> [!NOTE]
+> Os clientes de email impõem limitações de estilo e layout que podem exigir ajustes no HTML e CSS que você usa para o corpo da mensagem. Recomendamos que você se familiarize com as práticas recomendadas para criar HTML que receberá suporte dos clientes de email mais conhecidos.
+>
+> Use a codificação correta para implementar um retorno de carro, dependendo da formatação do texto. Para obter mais informações, consulte a definição do tipo de dados [String](er-formula-supported-data-types-primitive.md#string).
+
+### <a name="email-addresses"></a>Endereços de email
+
+Você pode especificar o remetente e os destinatários do email. Por padrão, é enviado um email em nome do usuário atual. Para especificar outro remetente de email, você deve configurar o campo **De**.
 
 > [!NOTE]
 > Quando um destino de email é configurado, o campo **De** só fica visível para os usuários que têm o `ERFormatDestinationSenderEmailConfigure` privilégio de segurança **Configurar o endereço de email do remetente para destinos de formato ER**.

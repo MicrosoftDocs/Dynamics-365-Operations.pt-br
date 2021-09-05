@@ -1,8 +1,8 @@
 ---
 title: Opções de transação de ativo fixo
 description: Este tópico descreve os diferentes métodos disponíveis para criar transações de ativo fixo.
-author: ShylaThompson
-ms.date: 02/07/2019
+author: moaamer
+ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,17 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1857d68a0dfaa25386f19344e4cb3ddc9ffd39b8a75860a1642773d6bd59cce
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9e2d7f21d8c88185383e252f8f6324208493c81
+ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6764254"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7344681"
 ---
 # <a name="fixed-asset-transaction-options"></a>Opções de transação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
+[!include [preview banner](../includes/preview-banner.md)]
 
 Este tópico descreve os diferentes métodos disponíveis para criar transações de ativo fixo.
 
@@ -58,14 +59,16 @@ Qualquer tipo de transação de ativo fixo pode ser lançado na página Diário 
 | Depreciação                        | Ativos fixos             | Ativos fixos                              |
 |                                     | Contabilidade           | Diário geral                           |
 | Alienação                            | Ativos Fixos             | Ativos Fixos                              |
-| ** **                               | Contabilidade           | Diário geral                           |
-| ** **                               | Contas a Receber      | Fatura de texto livre                         |
+|                                     | Contabilidade           | Diário geral                           |
+|                                     | Contas a Receber      | Fatura de texto livre                         |
 
-O valor restante dos períodos de depreciação do ativo fixo não é atualizado quando uma linha de diário do tipo de transação de depreciação é criada manualmente ou importada por meio de uma entidade de dados. Este valor é atualizado quando o processo de proposta de depreciação é usado para criar a linha do diário.
+O valor restante não é atualizado para os períodos de depreciação de um ativo fixo quando a linha de diário do tipo de transação de depreciação é criada manualmente ou importada por meio de uma entidade de dados. O valor restante é atualizado quando o processo de proposta de depreciação é usado para criar a linha do diário.
 
 Para obter mais informações, consulte [Integração de ativos fixos](fixed-asset-integration.md).
 
-### <a name="transactions-that-require-different-voucher-numbers"></a>Transações que exigem números de comprovante diferentes
+O sistema evita a depreciação de lançamento no mesmo período duas vezes. Por exemplo, se dois usuários criarem propostas de depreciação separadamente para Janeiro, a depreciação do primeiro usuário será lançada no primeiro diário. Quando o segundo usuário lança a depreciação no segundo diário, o sistema verifica a data da última vez em que a depreciação foi executada e não lança a depreciação para o mesmo período uma segunda vez.
+
+### <a name="transactions-that-require-a-different-voucher-number"></a>Transações que exigem um número de comprovante diferente
 
 As transações de ativos fixos a seguir usarão números de comprovante diferentes:
 

@@ -1,5 +1,5 @@
 ---
-title: Página inicial do Finance insights (versão prévia)
+title: Home page do Finance Insights
 description: O Finance Insights fornece modelos configuráveis e extensíveis para ajudar você a prever de forma precisa e inteligente o fluxo de caixa da sua empresa, prever quando receberá o pagamento de contas a receber pendentes e gerar uma proposta de orçamento que pode acelerar o processo de orçamento. Todos esses recursos se baseiam nos modelos inteligentes de aprendizado de máquina.
 author: ShivamPandey-msft
 ms.date: 07/16/2021
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-07-20
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 8c9d5b9857e978eb5e591f4d854d687f33b438025e81fe2c827ab7ecdb2be4e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4b77b7872ed163a94ab57e4efea8fe0fbca22156
+ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768810"
+ms.lasthandoff: 08/16/2021
+ms.locfileid: "7386377"
 ---
-# <a name="finance-insights-home-page-preview"></a>Página inicial do Finance insights (versão prévia)
+# <a name="finance-insights-home-page"></a>Home page do Finance Insights
 
 [!include [banner](../includes/banner.md)]
 

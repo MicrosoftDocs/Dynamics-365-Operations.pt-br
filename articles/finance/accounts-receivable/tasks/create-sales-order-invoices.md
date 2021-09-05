@@ -1,6 +1,6 @@
 ---
 title: Criar faturas de ordem de venda
-description: Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fiscais e processamento em lotes.
+description: Este tópico descreve como faturar uma ordem de venda, incluindo mesclagem de faturas e processamento em lotes.
 author: ShivamPandey-msft
 ms.date: 06/25/2019
 ms.topic: business-process
@@ -13,24 +13,24 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 8a6556838a2843f961e1538947a6eda090b94894ed4df8476ea60abeda8056b6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b6712779ca64f5934edd37730597541679b86e43
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771815"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394601"
 ---
 # <a name="create-sales-order-invoices"></a>Criar faturas de ordem de venda
 
 [!include [banner](../../includes/banner.md)]
 
-Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fiscais e processamento em lotes. Este procedimento usa a empresa de dados de demonstração USMF.
+Este tópico descreve como faturar uma ordem de venda, incluindo mesclagem de faturas e processamento em lotes. Este procedimento usa a empresa de dados de demonstração USMF.
 
 
 ## <a name="create-an-invoice-from-a-sales-order"></a>Criar uma fatura de uma ordem de venda
 1. Acesse **Painel de navegação > Módulos > Contas a receber > Ordens > ordens de vendas enviadas, mas não faturadas**.
 2. Selecione uma ordem de venda na lista. 
-3. No **Painel de Ação**, clique em **Fatura > Gerar > Fatura**. Observe que a ordem de venda tem várias guias de remessa associadas a ela. Ela mostrará apenas a palavra <multiple>, em vez do número da guia de remessa.  
+3. No **Painel de Ação**, clique em **Fatura > Gerar > Fatura**. Observe que a ordem de venda tem várias guias de remessa associadas a ela. Só mostrará a palavra *múltiplo* em vez do número de guia de remessa.  
 4. Expanda a seção **Parâmetros**.
     - O lançamento deve ser definido como Sim para lançar a fatura. Também é possível desativar o lançamento e imprimir apenas a nota fiscal. No entanto, você pode realizar o mesmo resultado criando uma nota fiscal do formulário em vez de uma nota fiscal.  
     - Essa opção é usada para trabalhos em lotes. A consulta será executada quando o trabalho em lotes for executado.

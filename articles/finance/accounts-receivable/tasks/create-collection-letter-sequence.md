@@ -1,6 +1,6 @@
 ---
 title: Criar uma sequência de cartas de cobrança
-description: Use esta guia para criar uma tarefa de sequência de cartas de cobrança.
+description: Use este procedimento para criar uma sequência de cartas de cobrança.
 author: mikefalkner
 ms.date: 07/22/2019
 ms.topic: business-process
@@ -13,18 +13,18 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 64d23d0875c5bb93ebe54fd40367f89574da87c72e90daab25a8828ec2158abb
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3b3062390da10f344c354cd2cc5cd7fb73623570
+ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6740065"
+ms.lasthandoff: 08/18/2021
+ms.locfileid: "7394673"
 ---
 # <a name="create-a-collection-letter-sequence"></a>Criar uma sequência de cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
 
-Use esta guia para criar uma tarefa de sequência de cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
+Use este procedimento para criar uma sequência de cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
 1. No Painel de navegação, Acesse **Módulos > Crédito e coleções > Configuração > Configurar sequência de cartas de cobrança**.
 2. Clique em **Novo**.

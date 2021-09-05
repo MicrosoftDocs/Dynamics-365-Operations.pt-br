@@ -1,6 +1,6 @@
 ---
 title: Preparação do produto
-description: Estes tópicos explicam como você pode usar as verificações de prontidão para garantir que os dados mestre necessários sejam preenchidos para um produto antes de usá-los em transações.
+description: Este tópico explica como você pode usar as verificações de preparação para garantir que os dados mestre necessários sejam preenchidos para um produto antes de usá-los em transações.
 author: t-benebo
 ms.date: 09/28/2020
 ms.topic: article
@@ -12,20 +12,20 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 8cbeba336438d5ad6365e26500ca8c53edd9fb829a30c075c34674b49cdf1946
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
+ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6723542"
+ms.lasthandoff: 08/24/2021
+ms.locfileid: "7415312"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar as verificações de prontidão para garantir que todos os dados mestre tenham sido especificados para um produto antes de usá-los em transações. Quando os cheques de preparação são usados, um usuário ou uma equipe é responsável pela validação de dados predefinidos específicos relacionados a produtos. Se houver uma verificação de preparação aberta para um produto, o produto não poderá ser liberado nem usado em transações.
+Você pode usar as verificações de prontidão para garantir que todos os dados mestre tenham sido especificados para um produto antes de usá-los em transações. Quando os cheques de preparação são usados, um usuário ou uma equipe é responsável pela validação de dados predefinidos específicos relacionados a produtos. Se houver uma verificação de preparação aberta para um produto, o produto não poderá ser usado em transações.
 
-A caixa de seleção **Ativo** de um produto de engenharia, grade ou versão só estará disponível depois que todos os dados necessários tiverem sido inseridos e verificados, e depois que todas as verificações de preparação tiverem sido processadas. Nesse ponto, o produto, a versão ou a variante podem ser liberados para outras empresas e usados em transações. Você pode criar cheques de preparação para novos produtos, novas grades e novas versões de engenharia.
+A caixa de seleção **Ativo** de um produto de engenharia, grade ou versão só estará disponível depois que todos os dados necessários tiverem sido inseridos e verificados, e depois que todas as verificações de preparação tiverem sido processadas. Nesse ponto, o produto, a versão ou a variante podem ser usados em transações. Você pode criar cheques de preparação para novos produtos, novas grades e novas versões de engenharia.
 
 Você também pode aplicar verificações de preparação a produtos padrão (não de engenharia). Para obter mais informações, consulte a seção [Verificações de preparação em produtos padrão](#standard-products) posteriormente neste tópico.
 
