@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2020-12-02
 ms.dyn365.ops.version: AX 10.0.13
-ms.openlocfilehash: 71e651afc83e0c2ea147a4657c0f2ce1865ec50efcd932127b4918266d3d7cd8
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0f322dd63cb2dee6a9048e6ed086dc075cc0e1b9
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6778667"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474835"
 ---
 # <a name="master-planning-with-demand-forecasts"></a>Planejamento mestre com previsões de demanda
 
@@ -137,32 +137,85 @@ Nesse caso, se você executar o plano de previsão em 1º de janeiro, os requisi
 
 #### <a name="transactions--reduction-key"></a>Transações – chave de redução
 
-Se você seleciona **Transações - chave de redução**, os requisitos de previsão são reduzidos pelas transações que ocorrem durante os períodos definidos pela chave de redução.
+Se você definir o campo **Método usado para reduzir requisitos de previsão** como *Transações – chave de redução*, os requisitos de previsão serão reduzidos pelas transações de demanda qualificada que ocorrem durante os períodos definidos pela chave de redução.
+
+A demanda qualificada é definida pelo campo **Reduzir previsão por** na página **Grupos de cobertura**. Se você definir o campo **Reduzir previsão por** como *Ordens*, somente transações de ordem de venda serão consideradas demanda qualificada. Se você defini-lo como *Todas as transações*, todas as transações de estoque de saída intercompanhia serão consideradas demanda qualificada. Se ordens de venda intercompanhia também devem ser consideradas demanda qualificada, defina a opção **Incluir ordens intercompanhia** como *Sim*.
+
+A redução da previsão começa com o primeiro (mais antigo) registro de previsão de demanda no período da chave de redução. Se a quantidade de transações de estoque qualificado for maior do que a quantidade de linhas de previsão de demanda no mesmo período da chave de redução, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade de demanda no período anterior (se houver uma previsão não consumida).
+
+Se nenhuma previsão não consumida continuar no período da chave de redução anterior, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade no mês seguinte (se houver uma previsão não consumida).
+
+O valor do campo **Porcentagem** nas linhas da chave de redução não é usado quando o campo **Método usado para reduzir requisitos de previsão** é definido como *Transações – chave de redução*. Somente as datas são usadas para definir o período da chave de redução.
+
+> [!NOTE]
+> Qualquer previsão lançada em ou antes da data de hoje será ignorada e não será usada para criar ordens planejadas. Por exemplo, se a sua previsão de demanda para o mês for gerada em 1º de janeiro e você executar o planejamento mestre que inclui a previsão de demanda em 2 de janeiro, o cálculo ignorará a linha de previsão de demanda com a data de 1º de janeiro.
 
 ##### <a name="example-transactions--reduction-key"></a>Exemplo: Transações – chave de redução
 
 Este exemplo mostra como as ordens reais que ocorrem durante os períodos definidos pela chave de redução reduzem requisitos de previsão de demanda.
 
-Para este exemplo, você seleciona **Transações - chave de redução** no campo **Método usado para reduzir requisitos de previsão** da página **Planos mestre**.
+[![Ordens reais e previsão antes da execução do planejamento mestre.](media/forecast-reduction-keys-1-small.png)](media/forecast-reduction-keys-1.png)
 
-As ordens de venda a seguir existem em 1º de janeiro.
+Para este exemplo, você seleciona *Transações - chave de redução* no campo **Método usado para reduzir requisitos de previsão** da página **Planos mestre**.
 
-| Mês    | Número de peças pedidas |
-|----------|--------------------------|
-| Janeiro  | 956                      |
-| Fevereiro | 1.176                    |
-| Março    | 451                      |
-| Abril    | 119                      |
+As seguintes linhas de previsão de demanda existem em 1º de abril.
 
-Se você usar a mesma previsão de demanda de 1.000 peças por mês que foi usada no exemplo anterior, as quantidades da requisição a seguir serão transferidas para o plano mestre.
+| Data      | Número de peças previstas |
+|----------|-----------------------------|
+| 5 de abril  | 100                         |
+| 12 de abril | 100                         |
+| 19 de abril | 100                         |
+| 26 de abril | 100                         |
+| Maio de 3    | 100                         |
+| Maio de 10   | 100                         |
+| Maio de 17   | 100                         |
 
-| Mês                | Número de peças necessárias |
-|----------------------|---------------------------|
-| Janeiro              | 44                        |
-| Fevereiro             | 0                         |
-| Março                | 549                       |
-| Abril                | 881                       |
-| Maio até dezembro | 1.000                     |
+As seguintes linhas da ordem de venda existem em abril.
+
+| Data      | Número de peças solicitadas |
+|----------|----------------------------|
+| 27 de abril | 240                        |
+
+[![Fornecimento planejado gerado com base nas ordens de abril.](media/forecast-reduction-keys-2-small.png)](media/forecast-reduction-keys-2.png)
+
+As quantidades da requisição a seguir são transferidas para o planejamento mestre quando ele é executado em 1º de abril. Como você pode ver, as transações de previsão de abril foram reduzidas pela quantidade de demanda de 240 em uma sequência, começando pela primeira dessas transações.
+
+| Data      | Número de peças necessárias |
+|----------|---------------------------|
+| 5 de abril  | 0                         |
+| 12 de abril | 0                         |
+| 19 de abril | 60                        |
+| 26 de abril | 100                       |
+| 27 de abril | 240                       |
+| Maio de 3    | 100                       |
+| Maio de 10   | 100                       |
+| Maio de 17   | 100                       |
+
+Agora, suponha que novas ordens foram importadas para o período de maio.
+
+As seguintes linhas da ordem de venda existem em maio.
+
+| Data    | Número de peças solicitadas |
+|--------|----------------------------|
+| Maio de 4  | 80                         |
+| Maio de 11 | 130                        |
+
+[![Fornecimento planejado gerado com base nas ordens de abril e maio.](media/forecast-reduction-keys-3-small.png)](media/forecast-reduction-keys-3.png)
+
+As quantidades da requisição a seguir são transferidas para o planejamento mestre quando ele é executado em 1º de abril. Como você pode ver, as transações de previsão de abril foram reduzidas pela quantidade de demanda de 240 em uma sequência, começando pela primeira dessas transações. No entanto, as transações previstas de maio foram reduzidas por um total de 210, a partir da primeira transação de previsão de demanda em maio. No entanto, os totais por período são preservados (400 em abril e 300 em maio).
+
+| Data      | Número de peças necessárias |
+|----------|---------------------------|
+| 5 de abril  | 0                         |
+| 12 de abril | 0                         |
+| 19 de abril | 60                        |
+| 26 de abril | 100                       |
+| 27 de abril | 240                       |
+| Maio de 3    | 0                         |
+| Maio de 4    | 80                        |
+| Maio de 10   | 0                         |
+| Maio de 11   | 130                       |
+| Maio de 17   | 90                        |
 
 #### <a name="transactions--dynamic-period"></a>Transações – período dinâmico
 

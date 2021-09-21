@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: e5d66d205d2a987310cd592a00feb10ad0dcd90e
-ms.sourcegitcommit: 8592c661b41f9cef8b7ef2863a3b97bf49a4e6f9
+ms.openlocfilehash: 2eb8ecdd849aa2f583202ac2ec7c3e1bb06698a1
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7423335"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431383"
 ---
 # <a name="plan-type-overview"></a>Visão geral do tipo de plano
 
@@ -28,14 +28,15 @@ ms.locfileid: "7423335"
 
 Um tipo de plano é um agrupamento de alto nível de tipos específicos de benefícios. Cada tipo de plano tem um código de tipo de plano que determina as regras para o tipo de plano. Por exemplo, o tipo de plano **Vida básica** terá o código de tipo de plano **Vida** porque é um tipo de plano de seguro de vida e deve seguir as regras que foram estabelecidas para o código de tipo de plano **Vida**. Outro tipo de plano pode ser **Vida complementar**. Este tipo de plano também terá o código de tipo de plano **Vida**.
 
-Cada tipo de plano indica se um funcionário pode se inscrever em um plano desse tipo ou em vários. Por exemplo, um funcionário provavelmente poderá registrar tanto a vida básica quanto as políticas de vida suplementares do tipo de plano Vida. Um funcionário provavelmente terá permissão para inscrever-se em apenas uma política do tipo médico.
+Cada tipo de plano indica se um funcionário pode se inscrever em um plano desse tipo ou em vários. Por exemplo, um funcionário provavelmente poderá registrar tanto as políticas de **Vida básico** quanto as de **Vida suplementar** do tipo de plano Vida. Um funcionário provavelmente terá permissão para inscrever-se em apenas uma política do tipo médico.
 
-Se um tipo de plano envolver contatos, o tipo de plano indicará se os contatos são beneficiários ou dependentes. Por exemplo, um tipo de plano de vida básico teria os beneficiários, enquanto um tipo de plano médico básico teria dependentes. Em alguns casos, um plano pode não ter contatos pessoais. Por exemplo, uma conta de despesas flexível ou bonificação de estacionamento.
+Se um tipo de plano envolver contatos, o tipo de plano indicará se os contatos são beneficiários ou dependentes. Por exemplo, um tipo de plano **Vida básico** teria os beneficiários, enquanto um tipo Plano médico básico teria dependentes. Em alguns casos, um plano pode não ter contatos pessoais. Por exemplo, uma conta de despesas flexível ou bonificação de estacionamento.
 
-Um tipo de plano pode definir opções de cobertura. As opções de cobertura são definidas na página **Opção de cobertura**. Uma opção de cobertura pode especificar o valor do benefício ou os contatos qualificados para o tipo de plano. Por exemplo, se o tipo de contato for beneficiário, a opção de cobertura deverá definir os termos do que o beneficiário está qualificado para receber quando o benefício é utilizado. Se o tipo de contato for dependente, a opção de cobertura deverá definir o relacionamento entre o dependente e o funcionário. 
+
+Um tipo de plano pode definir opções de cobertura. As opções de cobertura são definidas na página **Opções de cobertura**. Uma opção de cobertura pode especificar o valor do benefício ou os contatos qualificados para o tipo de plano. Por exemplo, se o tipo de contato for **Beneficiário**, a opção de cobertura deverá definir os termos do que o beneficiário está qualificado para receber quando o benefício é utilizado. Se o tipo de contato for **Dependente**, a opção de cobertura deverá definir o relacionamento entre o dependente e o funcionário. 
 
 > [!IMPORTANT]
-> A página inclui dados-chave que afetam as opções disponíveis quando um novo plano de benefícios é criado:
+> A página **Tipos de plano** inclui dados-chave que afetam as opções disponíveis quando um novo plano de benefícios é criado:
 >
 > - **Código de tipo de plano** – Este campo afeta o que é mostrado na guia **Configuração** quando o benefício real é configurado.  
 > - **Registro simultâneo** – Este campo determina se vários registros são permitidos. (Em um plano médico, este campo é tipicamente definido como **Um registro**.)

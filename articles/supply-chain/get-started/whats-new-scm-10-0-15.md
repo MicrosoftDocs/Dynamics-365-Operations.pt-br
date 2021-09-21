@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-10-09
 ms.dyn365.ops.version: 10.0.15
-ms.openlocfilehash: da097f99eda239377b56e9ad35f658b3b408b5d588d82e0ec2759e6fbe72b4b1
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 18408e64bd06db2e05038d14f284b799b6c19e68
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6751137"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471803"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10015-january-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.15 (janeiro de 2021)
 
@@ -35,7 +35,7 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 
 Os seguintes recursos estão incluídos nesta versão. Siga os links para o [plano de versão](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/planned-features) para ver as datas de lançamento oficiais de cada recurso.
 
-- Gerenciamento de unidade de escala de nuvem e de borda com cargas de trabalho de execução de fabricação e depósito<br> - Para obter mais informações, consulte [Unidades de escala de nuvem e de borda para cargas de trabalho de gerenciamento de fabricação e depósito](../cloud-edge/cloud-edge-landing-page.md).
+- Gerenciamento de unidade de escala de nuvem e de borda com cargas de trabalho de execução de fabricação e depósito<br> - Para obter mais informações, consulte [Unidades de escala em uma topologia híbrida distribuída](../cloud-edge/cloud-edge-landing-page.md).
 
 - [Criar e processar ordens de transferência do aplicativo de depósito](/dynamics365-release-plan/2020wave2/finance-operations/dynamics365-supply-chain-management/ad-hoc-transfer-order-creation-warehousing-mobile-app)<br> - Para obter mais informações, consulte [Criar ordens de transferência do aplicativo de depósito](../warehousing/create-transfer-order-from-warehouse-app.md).
 

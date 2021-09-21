@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 4a77b157e9dd5ee1f551cbb59abbc89aaa28d325cc74a77e6624f25902c5b19e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bd3c72f2c008b936ceda53a3fcdde79df1e6b1b7
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731880"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471683"
 ---
 # <a name="warehouse-orders-for-cloud-and-edge-scale-units"></a>Ordens de depósito para unidades de escala de nuvem e borda
 
@@ -27,16 +27,18 @@ ms.locfileid: "6731880"
 
 ## <a name="what-are-warehouse-orders"></a>O que são ordens de depósito?
 
-As *ordens de depósito* são um tipo de ordem que foi criado para oferecer suporte a implantações de depósito e unidade de escala. Eles permitem que você receba estoque quando estiver executando uma carga de trabalho de depósito em uma unidade de escala. No momento, eles são usados com ordens de compra.
+As *Ordens de depósito* são um tipo de ordem usado para oferecer suporte a implantações de depósito e unidade de escala. Elas permitem que você receba e envie estoque quando estiver executando uma carga de trabalho de depósito em uma unidade de escala.
 
-As ordens de depósito são usadas como parte do processamento de gerenciamento de depósito, por exemplo, quando o aplicativo móvel de Gerenciamento de Depósito é usado para registrar o estoque físico disponível durante o processamento de uma ordem de compra de entrada. As ordens de depósito são criadas como parte do processo de *Liberação para depósito* que está disponível para ordens de compra que especificam um depósito de unidades de escala e itens habilitados para usar os processos de gerenciamento de depósito.
+As ordens de depósito são usadas como parte do processamento de gerenciamento de depósito de entrada e saída. Elas são criadas como parte do processo *Liberar para o depósito*, que é inicializado no hub.
+Para o processamento de entrada, o aplicativo móvel de depósito é usado para registrar o estoque físico disponível durante o processamento de ordens de entrada. Isso está disponível para ordens de compra e de produção que especificam um depósito de unidade de escala e itens habilitados para usar os processos de gerenciamento de depósito.
+As ordens de depósito de saída são usadas como parte do processo cíclico de remessa para ordens de venda e de transferência.
 
 > [!IMPORTANT]
 > As ordens de depósito estão disponíveis somente em implantações que usam [cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](cloud-edge-workload-warehousing.md).
 
-## <a name="create-a-warehouse-order"></a>Criar uma ordem de depósito
+## <a name="create-an-inbound-warehouse-order"></a>Criar uma ordem de depósito de entrada
 
-Para criar uma ordem de depósito, siga estas etapas.
+Para criar uma ordem de depósito de entrada para um processo de ordem de compra, siga estas etapas.
 
 1. Entre na instância do Microsoft Dynamics 365 Supply Chain Management que está em execução no hub. (É necessário iniciar o processo *Liberar para o depósito* enquanto você estiver conectado no hub.)
 1. Acesse **Compras \> Ordens de compra \> Todas ordens de compra**.

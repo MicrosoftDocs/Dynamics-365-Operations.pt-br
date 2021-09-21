@@ -2,7 +2,7 @@
 title: Calcular disponibilidade de estoque para canais de varejo
 description: Este tópico descreve como uma empresa pode usar o Microsoft Dynamics 365 Commerce para verificar a disponibilidade estimada de produtos nos canais online e na loja.
 author: hhainesms
-ms.date: 04/23/2021
+ms.date: 09/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,16 +14,17 @@ ms.search.region: Global
 ms.author: hhaines
 ms.search.validFrom: 2020-02-11
 ms.dyn365.ops.version: Release 10.0.10
-ms.openlocfilehash: da79aadace09ad480fa34bc03220831023e469645bb7d53af1647bd2d35af0ea
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d3cfd8c2f0b88a4e634cee0398283a51eddf60b2
+ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741803"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7472162"
 ---
 # <a name="calculate-inventory-availability-for-retail-channels"></a>Calcular disponibilidade de estoque para canais de varejo
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 Este tópico descreve como uma empresa pode usar o Microsoft Dynamics 365 Commerce para verificar a disponibilidade estimada de produtos nos canais online e na loja.
 
@@ -43,6 +44,21 @@ As alterações de estoque a seguir são consideradas atualmente na lógica de c
 - Estoque vendido por meio de ordens de cliente na loja ou no canal online
 - Estoque devolvido para loja
 - Estoque atendido (separação, embalagem, remessa) do depósito da loja
+
+Para usar o cálculo de estoque do canal, você precisa habilitar o recurso **Cálculo de disponibilidade de produto otimizado**.
+
+Se o ambiente do Commerce for versão **10.0.8 até a 10.0.11**, siga estas etapas.
+
+1. Na matriz do Commerce, vá para **Retail e Commerce** \> **Parâmetros compartilhados com o Commerce**.
+1. Na guia **Estoque**, no campo **Trabalho de disponibilidade do produto**, selecione **Usar processo otimizado para trabalho de disponibilidade do produto**.
+
+Se o ambiente do Commerce for versão **10.0.12 ou posterior**, siga estas etapas.
+
+1. Na matriz do Commerce, vá para **Espaços de trabalho \> Gerenciamento de recursos** e habilite o recurso **Cálculo de disponibilidade de produto otimizado**.
+1. Se os canais online e de armazenamento usarem os mesmos depósitos de atendimento, você também precisará habilitar o recurso **Lógica de cálculo de estoque do canal de comércio eletrônico avançado**. Dessa forma, a lógica de cálculo do canal levará em consideração as transações lançadas criadas no canal de armazenamento. (Essas transações podem ser transações de cash and carry, ordens de cliente e devoluções.)
+1. Execute o trabalho **1070** (**Configuração do canal**).
+
+Se seu ambiente do Commerce foi atualizado de uma versão anterior à 10.0.8, após habilitar o recurso **Cálculo de disponibilidade de produto otimizado**, você também deverá executar **Iniciar agendador do Commerce** para que o recurso tenha efeito. Para executar a inicialização, vá para **Retail e Commerce** \> **Configuração da matriz** \> **Agendador do Commerce**.
 
 Para usar o cálculo de estoque do canal, como um pré-requisito, um instantâneo periódico de dados de estoque do headquarters criado pelo trabalho **Disponibilidade do produto** deve ser enviado aos bancos de dados de canais. O instantâneo representa as informações que o headquarters tem sobre a disponibilidade de estoque quanto a uma combinação específica de um produto ou variante de produto e um depósito. Ele inclui somente as transações de estoque que foram processadas e lançadas no headquarters no momento em que o instantâneo foi obtido e talvez não seja 100% preciso em tempo real devido ao processamento de vendas constante que ocorre entre os servidores distribuídos.
 
@@ -75,8 +91,6 @@ Ambas as APIs usam internamente a lógica de cálculo do canal e retornam a quan
 
 Embora outras APIs disponíveis no Commerce possam ser utilizadas diretamente no headquarters para buscar as quantidades de produtos disponíveis, não recomendamos que elas sejam usadas em um ambiente de comércio eletrônico por causa de possíveis problemas de desempenho e impacto relacionado que essas solicitações frequentes podem ter nos servidores da sede do headquarters. Além disso, com o cálculo do canal, as duas APIs mencionadas acima podem fornecer uma estimativa mais precisa da disponibilidade de um produto ao levar em conta as transações criadas nos canais que ainda não foram conhecidas pela matriz.
 
-Para usar as duas APIs, você deve habilitar o recurso **Cálculo otimizado de disponibilidade de produtos** pelo espaço de trabalho **Gerenciamento de recursos** no headquarters. Se os canais online e de armazenamento usarem os mesmos depósitos de atendimento, você também deverá habilitar o recurso **Lógica de cálculo de estoque do canal de comércio eletrônico avançado** para ter a lógica de cálculo do canal dentro das duas APIs para levar em consideração nas transações não lançadas (cash-and-carry, ordens do cliente, devoluções) criadas no canal da loja. Será necessário executar o trabalho **1070** (**Configuração do canal**) após habilitar esses recursos.
-
 Para definir como a quantidade de produto deve ser retornada na saída da API, siga estas etapas.
 
 1. Acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**.
@@ -85,17 +99,17 @@ Para definir como a quantidade de produto deve ser retornada na saída da API, s
 
 A configuração **Quantidade na saída da API** fornece três opções:
 
-- **Devolver quantidade de estoque** -quantidade disponível total e disponível física de um produto solicitado são devolvidas na saída da API.
-- **Devolver quantidade de estoque subtraindo buffer de estoque** - A quantidade devolvida na saída da API é ajustada subtraindo-se o valor do buffer de estoque. Para obter mais informações sobre o buffer de estoque, consulte [Configurar buffers de estoque e níveis de estoque](inventory-buffers-levels.md).
-- **Não devolver quantidade de estoque** - Somente o nível de estoque é retornado na saída da API. Para obter mais informações sobre os níveis de estoque, consulte [Configurar buffers de estoque e níveis de estoque](inventory-buffers-levels.md).
+- **Devolver quantidade de estoque** – quantidade disponível total e física de um produto solicitado é devolvida na saída da API.
+- **Devolver quantidade de estoque subtraindo buffer de estoque** – a quantidade devolvida na saída da API é ajustada subtraindo-se o valor do buffer de estoque. Para obter mais informações sobre o buffer de estoque, consulte [Configurar buffers de estoque e níveis de estoque](inventory-buffers-levels.md).
+- **Não devolver quantidade de estoque** – somente o nível de estoque é retornado na saída da API. Para obter mais informações sobre os níveis de estoque, consulte [Configurar buffers de estoque e níveis de estoque](inventory-buffers-levels.md).
 
 Você pode usar o parâmetro da API `QuantityUnitTypeValue` para especificar o tipo de unidade no qual você deseja que as APIs devolvam a quantidade. Esse parâmetro oferece suporte a opções de **unidade de estoque** (padrão), **unidade de compra** e **unidade de venda**. A quantidade devolvida é arredondada para a precisão definida da unidade de medida (UOM) correspondente na matriz.
 
 A API **GetEstimatedAvailability** oferece os seguintes parâmetros de entrada para oferecer suporte a diferentes cenários de consulta:
 
-- `DefaultWarehouseOnly` - Use este parâmetro para consultar o estoque de um produto no depósito padrão do canal online. 
-- `FilterByChannelFulfillmentGroup` e `SearchArea` - Use esses dois parâmetros para consultar o estoque de um produto de todos os locais de retirada em uma área de pesquisa específica, com base em `longitude`, `latitude` e `radius`. 
-- `FilterByChannelFulfillmentGroup` e `DeliveryModeTypeFilterValue` - Use esses dois parâmetros para consultar o estoque de um produto de depósitos específicos vinculados ao grupo de preenchimento do canal online e são configurados para dar suporte a certos modos de entrega. O parâmetro `DeliveryModeTypeFilterValue` oferece suporte às opções **tudo** (padrão), **remessa** e **retirada**. Por exemplo, em um cenário no qual uma ordem online pode ser executada a partir de vários depósitos de remessa, você pode usar esses dois parâmetros para consultar a disponibilidade de estoque de um produto em todos esses depósitos de remessa. Nesse caso, a API retorna a quantidade disponível e o nível de estoque do produto em cada depósito de remessa, além de uma quantidade agregada e um nível de estoque agregado de todos os depósitos de remessa no escopo da consulta.
+- `DefaultWarehouseOnly` – use este parâmetro para consultar o estoque de um produto no depósito padrão do canal online. 
+- `FilterByChannelFulfillmentGroup` e `SearchArea` – use estes dois parâmetros para consultar o estoque de um produto de todos os locais de retirada em uma área de pesquisa específica, com base em `longitude`, `latitude` e `radius`. 
+- `FilterByChannelFulfillmentGroup` e `DeliveryModeTypeFilterValue` – use estes dois parâmetros para consultar o estoque de um produto de depósitos específicos que são vinculados ao grupo de preenchimento do canal online e configurados para dar suporte a certos modos de entrega. O parâmetro `DeliveryModeTypeFilterValue` oferece suporte às opções **tudo** (padrão), **remessa** e **retirada**. Por exemplo, em um cenário no qual uma ordem online pode ser executada a partir de vários depósitos de remessa, você pode usar esses dois parâmetros para consultar a disponibilidade de estoque de um produto em todos esses depósitos de remessa. Nesse caso, a API retorna a quantidade disponível e o nível de estoque do produto em cada depósito de remessa, além de uma quantidade agregada e um nível de estoque agregado de todos os depósitos de remessa no escopo da consulta.
  
 Os módulos do ícone do carrinho, caixa de compra, seletor de armazenamento, lista de desejos e carrinho do Commerce consomem as APIs e os parâmetros mencionados acima para exibir mensagens no nível de estoque no site de comércio eletrônico. O construtor de sites do Commerce fornece várias configurações de estoque para controlar o comportamento de compras e merchandising. Para obter mais informações, consulte [aplicar configurações de estoque](inventory-settings.md).
 
@@ -136,6 +150,5 @@ Para garantir a melhor estimativa de estoque possível, é essencial que você u
 > - Por motivos de desempenho, quando os cálculos de disponibilidade de estoque de canal são usados para fazer uma solicitação de disponibilidade de estoque usando a API de comércio eletrônico ou a lógica de estoque do canal de PDV, o cálculo usa um cache para determinar se já passou tempo suficiente para justificar a execução da lógica de cálculo novamente. O cache padrão é definido como 60 segundos. Por exemplo, você ativou o cálculo do canal da sua loja e exibiu o estoque disponível de um produto na página **Pesquisa de estoque**. Se uma unidade do produto for vendida, a página **Pesquisa de estoque** não mostrará o estoque reduzido até que o cache tenha sido limpo. Depois que os usuários lançam transações no PDV, eles devem esperar 60 segundos antes de verificar se o estoque disponível foi reduzido.
 
 Se o seu cenário comercial exigir um tempo de cache menor, entre em contato com o representante de suporte do produto para obter ajuda.
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

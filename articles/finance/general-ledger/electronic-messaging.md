@@ -2,7 +2,7 @@
 title: Sistema de mensagens eletrônicas
 description: Este tópico contém uma visão geral e informações de configuração de mensagens eletrônicas no Microsoft Dynamics 365 Finance.
 author: liza-golub
-ms.date: 06/29/2021
+ms.date: 08/20/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: elgolu
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 191abc37b7c349aaf3c9e871fe2f1885eec9fc896271d6fac27e5caa0b0fe3b0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 16b0e0fa74109f1c63ed47606bebe2fefc604fc5
+ms.sourcegitcommit: efcb853a68a77037cca23582d9f6f96ea573727a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6768330"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7478714"
 ---
 # <a name="electronic-messaging"></a>Mensagens eletrônicas
 
@@ -57,6 +57,16 @@ A funcionalidade de EM dá suporte aos seguintes cenários:
 - Armazene e analise todos os relatórios gerados.
 - Armazene e analise todas as informações de log relacionadas a ações executadas para uma mensagem ou um item de mensagem.
 - Controle o processamento entre vários status de mensagens e status de itens de mensagem.
+
+## <a name="security-privileges"></a>Privilégios de segurança
+
+Os privilégios de segurança a seguir estão disponíveis para mensagens eletrônicas.
+
+| Privilégios de segurança           | Nível de acesso | Associação |
+|------------------------------|--------------|-------------|
+| Manter mensagens eletrônicas | Esse privilégio concede acesso total à funcionalidade de EM. Se você tiver esse privilégio, poderá configurar mensagens eletrônicas e executar todo o processamento. | Esse privilégio está incluído na obrigação de segurança **Manter transações de imposto**. Essa obrigação, por sua vez, é incluída na função de segurança **Contador**. |
+| Exibir mensagens eletrônicas     | Esse privilégio concede acesso somente leitura à funcionalidade de EM. Se você tiver esse privilégio, poderá exibir as configurações de mensagens eletrônicas e as mensagens. No entanto, não é possível configurar nem executar nada. | Esse privilégio está incluído na obrigação de segurança **Consultar no status de transação do imposto**. Essa obrigação, por sua vez, é incluída nas seguintes funções de segurança.<ul><li>Gerenciador de cobranças</li><li>Auxiliar de contas a receber</li><li>Gerente de contas a receber</li><li>Contador tributário</li><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Gerente de vendas</li><li>Auxiliar de contas a pagar</li></ul> |
+| Operar mensagens eletrônicas  | Esse privilégio fornece acesso somente às páginas **Mensagens eletrônicas** e **Itens de mensagens eletrônicas**. Se você tiver esse privilégio, poderá executar todo o processamento chamado nessas páginas. | Esse privilégio está incluído na obrigação de segurança **Operar mensagens eletrônicas**. Essa obrigação, por sua vez, é incluída na função de segurança **Operador de mensagens eletrônicas**. |
 
 ## <a name="country-specific-regulatory-features-supported-by-the-em-functionality"></a>Recursos regulatórios específicos do país/região para os quais a funcionalidade de EM oferece suporte
 

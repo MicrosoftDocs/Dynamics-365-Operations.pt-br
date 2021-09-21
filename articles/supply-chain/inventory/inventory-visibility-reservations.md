@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6c87018cbfbe22fbbc441a1a23aee0ac44af9ddc
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: acc5d5f93f3f625892aac37780a44e221b6eb5ac
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345140"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7475027"
 ---
 # <a name="inventory-visibility-reservations"></a>Reservas de Visibilidade de Estoque
 
@@ -32,19 +32,20 @@ Opcionalmente, você pode configurar o Microsoft Dynamics 365 Supply Chain Manag
 
 Quando você ativa o recurso de reserva, o Supply Chain Management fica automaticamente pronto para compensar as reservas feitas usando o Visibilidade de Estoque.
 
-> [!NOTE]
-> A funcionalidade de compensação requer o Supply Chain Management versão 10.0.22 ou posterior. Se você deseja usar reservas do Visibilidade de Estoque, recomendamos que espere até ter atualizado o Supply Chain Management para a versão 10.0.22 ou posterior.
-
-## <a name="turn-on-the-reservation-feature"></a>Ativar o recurso de reserva
+## <a name="turn-on-and-set-up-the-reservation-feature"></a><a name="turn-on"></a>Ativar e configurar o recurso de reserva
 
 Para ativar o recurso de reserva, siga estas etapas.
 
-1. No Power Apps, abra **Visibilidade de Estoque**.
+1. Entre no Power Apps e abra **Visibilidade de Estoque**.
 1. Abra a página **Configuração**.
 1. Na guia **Gerenciamento de Recursos**, ative o recurso *OnHandReservation*.
 1. Entre no Supply Chain Management.
-1. Acesse **Gerenciamento de Estoque \> Configuração \> Parâmetros de integração de Visibilidade de Estoque**.
-1. Em **Em Compensação de reserva**, defina a opção **Habilitar compensação de reserva** como *Sim*.
+1. Acesse o espaço de trabalho **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e habilite o recurso *Integração de Visibilidade de Estoque com compensação de reserva* (exige a versão 10.0.22 ou posterior).
+1. Acesse **Gerenciamento de estoque \> Configuração \> Parâmetros de integração de Visibilidade de Estoque**, abra a guia **Compensação de reserva** e defina as seguintes configurações:
+    - **Habilitar compensação de reserva** – Defina como *Sim* para habilitar essa funcionalidade.
+    - **Modificador de compensação de reserva** – Selecione o status da transação de estoque que compensará as reservas feitas em Visibilidade de Estoque. Essa configuração determina a fase de processamento da ordem que dispara compensações. O estágio é rastreado pelo status de transação do estoque da ordem. Selecione uma das seguintes opções:
+        - *Em ordem* — para o status *Na transação*, uma ordem enviará uma solicitação de compensação quando for criada. A quantidade de compensação será a quantidade da ordem criada.
+        - *Reserva* — para o status de *Transação com solicitação de reserva*, uma ordem enviará uma solicitação de compensação quando for reservada, retirada, quando a guia de remessa for postada ou quando for faturada. A solicitação será disparada apenas uma vez, para a primeira etapa quando ocorrer o referido processo. A quantidade de compensação será a quantidade na qual o status da transação de estoque é alterado de *Em ordem* para *Qtd. encomendada* (ou status posterior) na linha da ordem correspondente.
 
 ## <a name="use-the-reservation-feature-in-inventory-visibility"></a>Usar o recurso de reserva no Visibilidade de Estoque
 
@@ -56,13 +57,21 @@ A hierarquia de reservas descreve a sequência de dimensões que deve ser especi
 
 A hierarquia de reserva pode ser diferente da hierarquia de índice. Essa independência permite implementar o gerenciamento de categorias, no qual os usuários podem dividir as dimensões em detalhes para especificar os requisitos para fazer reservas mais precisas.
 
-Para configurar uma hierarquia de reserva flexível no Power Apps, abra a página **Configuração** e, na guia **Mapeamento de reserva flexível**, configure a hierarquia de reserva adicionando e/ou modificando dimensões e seus níveis de hierarquia.
+Para configurar uma hierarquia de reserva flexível no Power Apps, abra a página **Configuração** e, na guia **Hierarquia de reserva flexível**, configure a hierarquia de reserva adicionando e/ou modificando dimensões e seus níveis de hierarquia.
+
+A hierarquia de reserva reversível deve conter `SiteId` e `LocationId` como componentes, pois eles constroem a configuração da partição.
+
+Para obter mais informações sobre como configurar reservas, consulte [Configuração de reserva](inventory-visibility-configuration.md#reservation-configuration).
 
 ### <a name="call-the-reservation-api"></a>Chamar a API de reserva
 
 As reservas são feitas no serviço de Visibilidade de Estoque enviando uma solicitação POST para a URL do serviço, como `/api/environment/{environment-ID}/onhand/reserve`.
 
 Para uma reserva, o corpo da solicitação deve conter uma ID da organização, uma ID do produto, quantidades reservadas e dimensões. A solicitação gera uma ID de reserva exclusiva para cada registro de reserva. O registro de reserva contém a combinação única de ID do produto e dimensões.
+
+Ao chamar a API de reserva, você pode controlar a validação da reserva especificando o parâmetro booliano `ifCheckAvailForReserv` no corpo da solicitação. Um valor `True` significa que a validação é necessária, enquanto um valor `False` significa que a validação não é necessária. O valor padrão é `True`.
+
+Se você deseja cancelar uma reserva ou cancelar a reserva de quantidades de estoque especificadas, defina a quantidade como um valor negativo e defina o parâmetro `ifCheckAvailForReserv` como `False` para ignorar a validação.
 
 Aqui está um exemplo do corpo da solicitação, para referência.
 
@@ -108,18 +117,9 @@ Para status de transação de estoque que incluir um modificador de compensaçã
 
 A quantidade de compensação segue a quantidade de estoque que é especificada nas transações de estoque. A compensação não terá efeito se nenhuma quantidade reservada permanecer no serviço Visibilidade de Estoque.
 
-> [!NOTE]
-> A funcionalidade de compensação está disponível a partir da versão 10.0.
+### <a name="set-up-the-reservation-offset-modifier"></a>Configurar o modificador de compensação de reserva
 
-### <a name="set-up-the-reserve-offset-modifier"></a>Configurar o modificador de compensação de reserva
-
-O modificador de compensação de reserva determina o estágio de processamento de ordem que dispara as compensações. O estágio é rastreado pelo status de transação do estoque da ordem. Para configurar o modificador de compensação de reserva, siga estas etapas.
-
-1. Acesse **Gerenciamento de Estoquet \> Configuração \> Parâmetros de integração de Visibilidade de Estoque \> Compensação de reserva**.
-1. Defina o campo **Modificador de compensação de reserva** com um dos seguintes valores:
-
-    - *Em ordem* — para o status *Na transação*, uma ordem enviará uma solicitação de compensação quando for criada.
-    - *Reserva* — para o status de *Transação com solicitação de reserva*, uma ordem enviará uma solicitação de compensação quando for reservada, retirada, quando a guia de remessa for postada ou quando for faturada. A solicitação será disparada apenas uma vez, para a primeira etapa quando ocorrer o referido processo.
+Se ainda não fez isso, configure o modificador de reserva conforme descrito em [Ativar e configurar o recurso de reserva](#turn-on).
 
 ### <a name="set-up-reservation-ids"></a>Configurar IDs de reserva
 

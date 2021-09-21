@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: c9f94ec35ebed5a14252377fb543de09cb994ffd
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
+ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7416171"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7481306"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
 
@@ -41,7 +41,7 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
     + Total de Impostos
     + Valor total do CF -e-SAT
     
-5. Para garantir que o sistema considera os contratos comerciais e de venda para calcular o preço:
+5. Para garantir que o sistema considere os contratos comerciais para calcular o preço:
     1. Navegue até o ambiente Supply Chain Management.
     2. Navegue até **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
     3. Selecione a guia **Preços** na barra de navegação lateral.
@@ -51,7 +51,7 @@ O Microsoft Dynamics 365 Supply Chain Management inclui um mecanismo de preços 
 
 Ao selecionar **Ordem de preço** no Sales, a função **Totais** na guia **Ordem de venda \> Exibir** no Supply Chain Management é chamada para a ordem de venda associada. Os valores no total da ordem no Sales são usados para preencher as colunas correspondentes no Supply Chain Management.
 
-Quando o total das ordens do cliente é calculado no Supply Chain Management, o cálculo avalia os acordos comerciais e contratos de vendas existentes para o cliente e os produtos listados na ordem de venda. Essas informações são usadas para calcular os totais. Quando a **Ordem de preço** é selecionada, o Sales reflete automaticamente toda a configuração que foi feita no Supply Chain Management.
+Quando o total das ordens do cliente é calculado no Supply Chain Management, o cálculo avalia os acordos comerciais existentes para o cliente e os produtos listados na ordem de venda. Essas informações são usadas para calcular os totais. Quando a **Ordem de preço** é selecionada, o Sales reflete automaticamente toda a configuração que foi feita no Supply Chain Management.
 
 ## <a name="limitations"></a>Limitações
 

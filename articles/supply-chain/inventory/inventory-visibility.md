@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2020-10-26
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: defbcdc7ada4471345f8c728522e15f16a8bec8f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 644eb0d682c35bd604c188aa02e4a6c69b3ff209
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344279"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474979"
 ---
 # <a name="inventory-visibility-add-in-overview"></a>Visão geral do Suplemento Visibilidade de Estoque
 
@@ -31,22 +31,20 @@ Como um microsserviço fundamentado no Microsoft Dataverse, o Visibilidade de Es
 
 Você pode integrar o Visibilidade de Estoque com vários sistemas de terceiros, definindo opções de configuração para dimensões de estoque padronizadas e configurando tipos de transação. O Visibilidade de Estoque também dá suporte à extensibilidade personalizada por meio de quantidades calculadas configuráveis.
 
-## <a name="supported-features"></a>Recursos com suporte
+## <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integração do Visibilidade de Estoque com o Dynamics 365 Supply Chain Management
 
-### <a name="inventory-visibility-integration-with-dynamics-365-supply-chain-management"></a>Integração do Visibilidade de Estoque com o Dynamics 365 Supply Chain Management
+A solução integrada extrai dados de estoque do Dynamics 365 Supply Chain Management e acompanha continuamente as alterações de estoque. Para obter mais informações, consulte [Instalar e configurar Visibilidade do Estoque](inventory-visibility-setup.md) e [Configurar Visibilidade do Estoque](inventory-visibility-configuration.md).
 
-A solução integrada extrai dados de estoque do Dynamics 365 Supply Chain Management e acompanha continuamente as alterações de estoque. Para obter mais informações, consulte [Configurar o Visibilidade de Estoque](inventory-visibility-setup.md).
+## <a name="get-a-global-view-of-inventory"></a>Obter uma exibição global do estoque
 
-### <a name="get-a-global-view-of-inventory"></a>Obter uma exibição global do estoque
-
-A solução integrada permite definir suas próprias fontes de dados e centralizar os dados de estoque. Para obter mais informações, consulte [Configuração do Visibilidade de Estoque](inventory-visibility-configuration.md).
+A solução integrada permite definir suas próprias fontes de dados e centralizar os dados de estoque. Para obter mais informações, consulte [Configurar Visibilidade de Estoque](inventory-visibility-configuration.md).
 
 Existem duas abordagens para exibir seu estoque:
 
 - Enviar uma consulta por meio da API de alto desempenho. Essa API pode retornar dados de estoque quase em tempo real diretamente de uma instância em cache. Você pode encontrar contratos e exemplos em [APIs públicas de Visibilidade de Estoque](inventory-visibility-api.md).
 - Exibir a lista bruta disponível. Essa lista é sincronizada periodicamente de uma instância em cache e é visível no Dataverse. Para obter mais informações, consulte [Aplicativo Visibilidade de Estoque](inventory-visibility-power-platform.md).
 
-### <a name="soft-reservations"></a>Reservas flexíveis
+## <a name="soft-reservations"></a>Reservas flexíveis
 
 [!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 

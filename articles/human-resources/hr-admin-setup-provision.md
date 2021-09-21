@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 5b0f04f27c95b2498ea2b5ad66c3df19bc8df0d9
-ms.sourcegitcommit: 49f7528d3268abe15e40f719956e1ec8696a6f4e
+ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
+ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7393514"
+ms.lasthandoff: 08/28/2021
+ms.locfileid: "7441156"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -43,6 +43,11 @@ Antes de começar o provisionamento de um novo ambiente de produção, os seguin
 Antes de provisionar sua primeira área restrita ou ambiente de produção, pode ser interessante provisionar um [ambiente de teste de Recursos Humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar a funcionalidade de Recursos Humanos. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. 
 
 Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 60 dias. Quando um ambiente de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+
+Ao criar um ambiente de avaliação do Human Resources, um ambiente de avaliação do Power Apps também é criado no locatário e vinculado ao ambiente do Human Resources. O ambiente do Power Apps, chamado de "TestDrive", tem o mesmo período de avaliação do ambiente do Human Resources.
+
+> [!NOTE]
+> O provisionamento de um ambiente de avaliação do Human Resources falhará se o usuário autenticado não tiver permissão para criar ambientes de avaliação do Power Apps. O usuário precisa ser incluído no grupo de usuários que pode criar ambientes de avaliação no centro de administração do Power Platform. Para obter mais informações, consulte [Controlar quem pode criar e gerenciar ambientes no centro de administração do Power Platform](//power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planejar ambientes do Human Resources
 
@@ -69,7 +74,7 @@ Para usar o LCS para gerenciar seus ambientes do Human Resources, você deve cri
 1. Entre no [LCS](https://lcs.dynamics.com/Logon/Index) usando a conta utilizada para inscrever-se no Human Resources.
 
    > [!NOTE]
-   > Para garantir o provisionamento com êxito, a conta usada para provisionar o ambiente de Recursos Humanos deve ser atribuída à função **Administrador do Sistema** ou **Personalizador do Sistema** no ambiente Power Apps associado ao ambiente de Recursos Humanos. Consulte [Configurar segurança do usuário para recursos](/power-platform/admin/database-security) para obter mais informações sobre como atribuir funções de segurança a usuários no Power Platform.
+   > Para garantir o provisionamento com êxito, a conta usada para provisionar o ambiente de Recursos Humanos deve ser atribuída à função **Administrador do Sistema** ou **Personalizador do Sistema** no ambiente Power Apps associado ao ambiente de Recursos Humanos. Para obter mais informações sobre atribuição de funções de segurança no Power Platform, consulte [Configurar segurança do usuário para recursos](/power-platform/admin/database-security).
 
 2. Selecione o sinal de adição (**+**) para criar um projeto.
 

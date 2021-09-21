@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2020-11-30
 ms.dyn365.ops.version: 10.0.16
-ms.openlocfilehash: 58a69907bdd1b03ea2e025b736dbbf84eed73c76d54bd5c93386ba8a627f095f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4c5c8e1d13a58b5ebc68315c75e5245cb10377f3
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712040"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474907"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10016-february-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.16 (Fevereiro de 2021)
 
@@ -54,32 +54,8 @@ Recentemente, adicionamos ou atualizamos significativamente os seguintes tópico
 - [Preços de venda com base em atributo para a configuração de produtos baseada em restrição](../pim/attribute-based-product-configurator.md)
 - [Alocação automática de encargos](../procurement/automatic-charges-allocation.md)
 - [Visão geral de materiais perigosos](../pim/hazmat-overview.md) (e tópicos relacionados)
-- [Migração para a Otimização de Planejamento para o planejamento mestre](../master-planning/new-master-planning-engine.md)
+- [Migração do planejamento mestre para Otimização de Planejamento](../master-planning/new-master-planning-engine.md)
 - [Aprimoramentos ao cXML de compra](../procurement/purchasing-cxml-enhancements.md)
-- [Solucionar problemas de gerenciamento de custos](../cost-management/troubleshoot-costmanagement.md)
-- [Resolver problemas de operações de depósito de entrada](../warehousing/troubleshoot-warehouse-inbound.md)
-- [Solucionar problemas de criação de carga e remessas](../warehousing/troubleshoot-warehouse-loads-shipments.md)
-- [Solucionar problemas de planejamento mestre](../master-planning/troubleshoot-masterplanning.md)
-- [Resolver problemas de operações de depósito de saída](../warehousing/troubleshoot-warehouse-outbound.md)
-- [Solucionar problemas de liberações e remessas parciais](../warehousing/troubleshoot-warehouse-partial-release-shipment.md)
-- [Solucionar problemas do configurador de produto](../pim/troubleshooting-productconfigurator.md)
-- [Solucionar problemas de informações do produto](../pim/troubleshooting-productinformation.md)
-- [Solucionar problemas de fluxos de trabalho de compras e fornecimento](../procurement/troubleshoot-procurementworkflows.md)
-- [Solucionar problemas de ordens de compra](../procurement/troubleshoot-purchaseorders.md)
-- [Solucionar problemas de preços, descontos, contratos e reembolsos](../procurement/troubleshooting-pricediscountagreements.md)
-- [Solucionar problemas de recebimentos e faturamento de produtos](../procurement/troubleshooting-productreceiptinvoicing.md)
-- [Solucionar problemas de fabricação discreta](../production-control/troubleshoot-discretemanufacturing.md)
-- [Resolver problemas de separação e embalagem](../warehousing/troubleshoot-warehouse-picking-packing.md)
-- [Solucionar problemas de fabricação de processo](../production-control/troubleshoot-processmanufacturing.md)
-- [Solucionar problemas de reservas no gerenciamento de depósito](../warehousing/troubleshoot-warehouse-reservations.md)
-- [Solucionar problemas de ordens de venda](../sales-marketing/troubleshooting-sales.md)
-- [Solucionar problemas de cotações de venda](../sales-marketing/troubleshooting-salesquotation.md)
-- [Solucionar problemas de atualização e migração para gerenciamento de depósito avançado](../warehousing/troubleshoot-warehouse-upgrade-migration.md)
-- [Solucionar problemas de conexão do aplicativo móvel Gerenciamento de Depósito](../warehousing/troubleshoot-warehouse-app-connection.md)
-- [Solucionar problemas de configuração do depósito](../warehousing/troubleshoot-warehouse-configuration.md)
-- [Solucionar problemas de reabastecimento de depósito](../warehousing/troubleshoot-warehouse-replenishment.md)
-- [Solucionar problemas de configuração do depósito](../warehousing/troubleshoot-warehouse-setup.md)
-- [Solucionar problemas de trabalho do depósito](../warehousing/troubleshoot-warehouse-work.md)
 - [Clusters de armazenamento](../warehousing/putaway-clusters.md)
 - [Estratégias de reabastecimento](../warehousing/replenishment-strategies.md)
 - [Divisão do trabalho](../warehousing/work-split.md)

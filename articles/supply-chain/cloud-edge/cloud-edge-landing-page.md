@@ -1,5 +1,5 @@
 ---
-title: Unidades de escala de nuvem e de borda para cargas de trabalho de fabricação e depósito
+title: Unidades de escala em uma topologia híbrida distribuída
 description: Este tópico oferece informações sobre unidades de escala de nuvem e de borda para cargas de trabalho de gerenciamento de fabricação e depósito.
 author: cabeln
 ms.date: 04/22/2021
@@ -10,14 +10,14 @@ ms.search.region: Global
 ms.author: cabeln
 ms.search.validFrom: 2021-04-13
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: dbe5833d4c9d8038fcebf1d9d446af757c834e42a2f77f10c7eb7268e738ed28
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 59d246dd348bca6c00dc90b19353a382986841f2
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780665"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471731"
 ---
-# <a name="cloud-and-edge-scale-units-for-manufacturing-and-warehouse-management-workloads"></a>Unidades de escala de nuvem e borda para cargas de trabalho de gerenciamento de fabricação e depósito
+# <a name="scale-units-in-a-distributed-hybrid-topology"></a>Unidades de escala em uma topologia híbrida distribuída
 
 [!include [banner](../includes/banner.md)]
 
@@ -26,11 +26,11 @@ ms.locfileid: "6780665"
 >
 > Quando você habilita unidades de escala de nuvem e de borda, você será solicitado a afirmar que entendeu que alguns dados relacionados à configuração e ao processamento de unidades de escala de nuvem e de borda podem ser armazenados em um data center localizado nos Estados Unidos. Para saber mais sobre o processamento de dados para unidades de escala de nuvem e de borda, consulte a seção [Processamento de dados durante o gerenciamento de unidades de escala](#data-processing-management) posteriormente neste tópico.
 
-## <a name="core-value-proposition-for-scale-units"></a>Proposta de valor principal para unidades de escala
+## <a name="core-value-proposition-for-a-distributed-hybrid-topology"></a>Principal proposta de valor para uma topologia híbrida distribuída
 
-As empresas que trabalham com fabricação e distribuição devem ser capazes de executar os principais processos comerciais 24/7, sem interrupção e em grande escala. As unidades de escala de nuvem e de borda permitem que as empresas executem os principais processos de fabricação e de depósito de missão crítica sem interrupção, mesmo quando enfrentam problemas ocasionais de conectividade de rede ou de latência.
+As empresas que trabalham com fabricação e distribuição devem ser capazes de executar os principais processos comerciais 24/7, sem interrupção e em grande escala. Uma topologia híbrida distribuída permite que as empresas executem os principais processos de fabricação e de depósito de missão crítica sem interrupção, mesmo quando enfrentam problemas ocasionais de conectividade de rede ou de latência.
 
-As unidades de escala de nuvem e de borda permitem a distribuição de cargas de trabalho de chão de fábrica e de execução de depósito entre diferentes ambientes. Essa funcionalidade pode ajudar a melhorar o desempenho, prevenir interrupções de serviço e maximizar o tempo de atividade. As unidades de escala são fornecidas pelos seguintes suplementos para a assinatura do Supply Chain Management:
+Uma topologia híbrida distribuída introduz o conceito de *unidades de escala*, que permite a distribuição de cargas de trabalho de chão de fábrica e de execução de depósito em diferentes ambientes. Essa funcionalidade pode ajudar a melhorar o desempenho, prevenir interrupções de serviço e maximizar o tempo de atividade. As unidades de escala são fornecidas pelos seguintes suplementos para a assinatura do Supply Chain Management:
 
 - Suplemento da Unidade de Escala de Nuvem para Dynamics 365 Supply Chain Management (*disponível em abril de 2021*)
 - Suplemento da Unidade de Escala de Borda para Dynamics 365 Supply Chain Management (*disponível em breve*)

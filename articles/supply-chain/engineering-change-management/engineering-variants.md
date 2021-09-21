@@ -10,18 +10,29 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-06-08
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 57eda6a833df6ff8e91c006bbc5096554eff6c503a8b7ba2bd0b13e2f8e98f56
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4e2133263f4bee09a3365236601e0d2fdd08a7ae
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766137"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471827"
 ---
 # <a name="generate-variants-for-engineering-products"></a>Gerar grades para produtos de engenharia
 
 [!include [banner](../includes/banner.md)]
+[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Este tópico descreve como gerar grades para produtos de engenharia.
+
+## <a name="turn-on-variant-generation-for-engineering-products"></a>Ativar a geração de grades para produtos de engenharia
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Gerenciamento de alteração de engenharia*
+- **Nome do recurso:** *Geração de grades para produtos de engenharia*
+
+> [!IMPORTANT]
+> O recurso *Geração de grade para produtos de engenharia* ficará visível no seu sistema somente depois que você habilitar a chave de configuração *Gerenciamento de alterações de engenharia* . Para obter instruções, consulte [Visão geral do gerenciamento de alteração de engenharia](product-engineering-overview.md).
 
 ## <a name="generate-one-or-more-new-variants-of-an-engineering-product"></a>Gerar uma ou mais variantes novas de um produto de engenharia
 
@@ -38,10 +49,15 @@ O procedimento a seguir fornece um exemplo de como criar várias grades que incl
 1. Adicione uma BOM (lista de materiais) e um roteiro para a grade, conforme necessário.
 1. No Painel de Ações, abra a guia **Produto**, no grupo **Produto mestre**, selecione **Dimensões do produto**.
 1. A página **Dimensões do produto** é aberta. Esta página inclui uma guia para cada dimensão disponível. Em cada guia, adicione uma linha para cada valor que terá suporte para cada dimensão relevante. (Neste exemplo, você pode adicionar linhas na guia **Cor** para *Branco*, *Amarelo* e *Verde*).
-1. Feche a página e selecione **Variantes de produtos liberados**. Observe que a primeira grade criada (V-1 branco) é exibida.
-1. Selecione **Sugestões de variações**.
-1. O sistema sugere variantes com os valores de cor criados (por exemplo, V-1 branco, V-1 amarelo e verde V-1).
-1. Selecione as variantes sugeridas e selecione **OK** para liberar as variantes para a empresa de engenharia. As seguintes condições se aplicam: 
+1. Feche a página e, em seguida, selecione **Grades de produtos liberadas**. Observe que a primeira grade criada (azul V-1) é exibida.
+1. No Painel de Ações, na guia **Grade de produto**, selecione **Sugestões de grades**.
+1. Na caixa de diálogo **Sugestões de grade** , siga uma destas etapas:
+
+    - Na parte superior da caixa de diálogo, há uma seção para cada dimensão disponível. Para cada dimensão, marque a caixa de seleção de cada valor para o qual você deseja gerar uma sugestão de grade e, em seguida, selecione **Sugerir** na barra de ferramentas. As sugestões relevantes são adicionadas à seção **Grades sugeridas**.
+    - Selecione **Sugerir tudo** na barra de ferramentas para gerar sugestões de grade para todas as combinações disponíveis de valores de dimensão. As sugestões são adicionadas à seção **Grades sugeridas**.
+
+1. Na seção **Grades sugeridas**, marque a caixa de seleção de cada grade que deseja criar. Em seguida, selecione **Criar** para gerar e liberar as grades selecionadas para a empresa de engenharia. As seguintes condições se aplicam:
+
     - Nenhuma das variantes criadas terá uma BOM ou um roteiro.
     - Os atributos dessas variantes serão padronizados a partir da categoria de engenharia e não serão copiados da variante anterior.
 

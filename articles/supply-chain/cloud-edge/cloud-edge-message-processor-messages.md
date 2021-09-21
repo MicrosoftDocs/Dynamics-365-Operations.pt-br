@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2021-04-21
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: 76a3cc316da322c7997072c00780f2fc133bfd2a02274b1e53f5cd06cfb1277e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 685c8951b7c0d8524091cf06306388736d894f58
+ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748850"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7471635"
 ---
 # <a name="message-processor-messages"></a>Mensagens do processador de mensagens
 
@@ -44,7 +44,7 @@ Você pode usar os campos na parte superior da página **Mensagens do processado
   - *Enfileirado* – a mensagem está pronta para ser processada pelo processador de mensagens.
   - *Processado* – a mensagem foi processada com sucesso pelo processador de mensagens.
   - *Cancelado* – a mensagem foi processada, mas o processamento falhou.
-- **Conteúdo da mensagem** – este filtro faz uma pesquisa de texto completo do conteúdo da mensagem. (O conteúdo da mensagem não é mostrado na grade). O filtro trata a maioria dos símbolos especiais (como "-") como espaços e trata todos os caracteres de espaço como operadores booliano OU. T = por exemplo, isso significa que, se você procurar um valor `journalid` específico igual a "USMF-123456", o sistema encontrará todas as mensagens que contêm "USMF" ou "123456", que provavelmente será uma lista longa. Portanto, seria melhor inserir apenas "123456", pois isso retornará resultados mais específicos.
+- **Conteúdo da mensagem** – este filtro faz uma pesquisa de texto completo do conteúdo da mensagem. (O conteúdo da mensagem não é mostrado na grade). O filtro trata a maioria dos símbolos especiais (como "-") como espaços e trata todos os caracteres de espaço como operadores booliano OU. Por exemplo, isso significa que, se você procurar um valor `journalid` específico igual a "USMF-123456", o sistema encontrará todas as mensagens que contêm "USMF" ou "123456", o que provavelmente será uma lista longa. Portanto, seria melhor inserir apenas "123456", pois isso retornará resultados mais específicos.
 
 ## <a name="example-message-type-request-inventory-adjustment-financial-update"></a>Exemplo de tipo de mensagem: solicitação de atualização financeira de ajuste de estoque
 
@@ -65,7 +65,7 @@ A barra de ferramentas na guia **Log** tem os seguintes botões:
 
 ## <a name="message-processor-batch-job"></a>Trabalho em lotes do processador de mensagens
 
-Ao executar uma implantação de nuvem e de borda, o trabalho em lotes *Processador de mensagens* será automaticamente revogado quando uma nova mensagem for criada para processamento, de forma que você não precisará agendar esse trabalho manualmente.
+Ao executar uma topologia híbrida distribuída com unidades de escala, o trabalho em lotes *Processador de mensagens* será automaticamente invocado quando uma nova mensagem for criada para processamento. Assim, você não precisará agendar esse trabalho manualmente.
 
 Se necessário, você pode acessar o trabalho em lotes indo para **Administração do sistema > Processador de mensagens > Processador de mensagens**.
 

@@ -1,5 +1,5 @@
 ---
-title: Configurar Visibilidade de Estoque
+title: Instalar o Suplemento Visibilidade de Estoque
 description: Este tópico descreve como instalar o Suplemento Visibilidade de Estoque para Microsoft Dynamics 365 Supply Chain Management.
 author: yufeihuang
 ms.date: 08/02/2021
@@ -11,14 +11,14 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 8573fe01abb1c6092012baf85e8b7df40b74a31f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343575"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474811"
 ---
-# <a name="set-up-inventory-visibility"></a>Configurar Visibilidade de Estoque
+# <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Visibilidade de Estoque
 
 [!include [banner](../includes/banner.md)]
 [!INCLUDE [cc-data-platform-banner](../../includes/cc-data-platform-banner.md)]
@@ -41,7 +41,7 @@ Antes de instalar o Visibilidade de Estoque, você deve concluir as seguintes ta
     - `Inventory Visibility Integration.zip` (se a versão do Supply Chain Management que você está executando for anterior à versão 10.0.18)
 
 > [!NOTE]
-> Os países/regiões com suporte no momento incluem Canadá (CCA, ECA), Estados Unidos (WUS, EUS), União Europeia (NEU, WEU), Reino Unido (SUK, WUK) e Austrália (EAU, SEAU).
+> Os países/regiões com suporte no momento incluem Canadá (CCA, ECA), Estados Unidos (WUS, EUS), União Europeia (NEU, WEU), Reino Unido (SUK, WUK), Austrália (EAU, SEAU), Japão (EJP, WJP) e Brasil (SBR, SCUS).
 
 Se você tiver alguma dúvida sobre esses pré-requisitos, entre em contato com a equipe de produto do Visibilidade de Estoque.
 
@@ -119,6 +119,9 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 1. Concorde com os termos e condições marcando a caixa de seleção **Termos e condições**.
 1. Selecione **Instalar**. O status do suplemento é mostrado como **Instalando**. Quando a instalação for concluída, atualize a página. O status deve mudar para **Instalado**.
 
+> [!IMPORTANT]
+> Se você tiver mais de um ambiente LCS, crie um aplicativo Azure AD diferente para cada ambiente. Se você usar a mesma ID de aplicativo e ID de locatário para instalar o Suplemento de Visibilidade de Estoque para ambientes diferentes, ocorrerá uma saída de token para ambientes mais antigos. Somente o último que foi instalado será válido.
+
 ## <a name="uninstall-the-inventory-visibility-add-in"></a><a name="uninstall-add-in"></a>Desinstalar o suplemento Visibilidade de Estoque
 
 Para desinstalar o suplemento Visibilidade de Estoque, selecione **Desinstalar** na página do LCS. O processo de desinstalação encerra o suplemento Visibilidade de Estoque, cancela o registro do suplemento do LCS e exclui todos os dados temporários armazenados no cache de dados do Suplemento Visibilidade de Estoque. No entanto, os dados de estoque principal armazenados na assinatura do Dataverse não são excluídos.
@@ -133,7 +136,7 @@ Para desinstalar os dados de estoque armazenados em sua assinatura do Dataverse,
 
 Depois que você excluir essas soluções, os dados armazenados nas tabelas também serão excluídos.
 
-## <a name="set-up-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurar o Supply Chain Management
+## <a name="set-up-inventory-visibility-in-supply-chain-management"></a><a name="setup-dynamics-scm"></a>Configurar Visibilidade de Estoque no Supply Chain Management
 
 ### <a name="deploy-the-inventory-visibility-integration-package"></a><a name="deploy-inventory-visibility-package"></a>Implantar o pacote de integração de Visibilidade de Estoque
 
@@ -153,8 +156,23 @@ Verifique se os recursos a seguir estão ativados no ambiente do Supply Chain Ma
 
 ### <a name="set-up-inventory-visibility-integration"></a><a name="setup-inventory-visibility-integration"></a>Configurar a integração da Visibilidade de Estoque
 
-1. No Supply Chain Management, abra o espaço de trabalho **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e ative o recurso *Integração da Visibilidade de Estoque*.
-1. Acesse **Gerenciamento de Estoque \> Configuração \> Parâmetros de Integração da Visibilidade de Estoque** e insira a URL do ambiente em que você está executando a Visibilidade de Estoque. Para obter mais informações, consulte [Localizar o ponto de extremidade de serviço](inventory-visibility-power-platform.md#get-service-endpoint).
+Depois de instalar o suplemento, prepare o sistema do Supply Chain Management para trabalhar com ele seguindo as etapas abaixo.
+
+1. No Supply Chain Management, abra o espaço de trabalho **[Gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md)** e ative os seguintes recursos:
+    - *Integração de Visibilidade de Estoque* – Obrigatório.
+    - *Integração de Visibilidade de Estoque com compensação de reserva* – Recomendado, mas opcional. Exige a versão 10.0.22 ou posterior. Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](inventory-visibility-reservations.md).
+
+1. Acesse **Gerenciamento de Estoque \> Configurar \> Parâmetros de Integração de Visibilidade de Estoque**.
+1. Abra a guia **Geral** e defina as seguintes configurações:
+    - **Ponto de extremidade de Visibilidade de Estoque** – Insira a URL do ambiente em que Visibilidade de Estoque está sendo executada. Para obter mais informações, consulte [Localizar o ponto de extremidade de serviço](inventory-visibility-configuration.md#get-service-endpoint).
+    - **Número máximo de registros em uma única solicitação** – Defina como o número máximo de registros a serem incluídos em uma única solicitação. Você deve inserir um inteiro positivo, menor ou igual a 1.000. O valor padrão é 512. É recomendável manter o valor padrão, a menos que você tenha recebido orientações do suporte da Microsoft ou tiver certeza de que precisa alterá-lo.
+
+1. Se você ativou a recurso opcional *Integridade de Visibilidade de Estoque com compensação de reserva*, abra a guia **Compensação de reserva** e defina as seguintes configurações:
+    - **Habilitar compensação de reserva** – Defina como *Sim* para habilitar essa funcionalidade.
+    - **Modificador de compensação de reserva** – Selecione o status da transação de estoque que compensará as reservas feitas em Visibilidade de Estoque. Essa configuração determina a fase de processamento da ordem que dispara compensações. O estágio é rastreado pelo status de transação do estoque da ordem. Selecione uma das seguintes opções:
+        - *Em ordem* — para o status *Na transação*, uma ordem enviará uma solicitação de compensação quando for criada. A quantidade de compensação será a quantidade da ordem criada.
+        - *Reserva* — para o status de *Transação com solicitação de reserva*, uma ordem enviará uma solicitação de compensação quando for reservada, retirada, quando a guia de remessa for postada ou quando for faturada. A solicitação será disparada apenas uma vez, para a primeira etapa quando ocorrer o referido processo. A quantidade de compensação será a quantidade na qual o status da transação de estoque é alterado de *Em ordem* para *Qtd. encomendada* (ou status posterior) na linha da ordem correspondente.
+
 1. Acesse **Gerenciamento de Estoque \> Periódico \> Integração de Visibilidade de Estoque** e habilite o trabalho. Todos os eventos de alteração de inventário do Supply Chain Management serão lançados na Visibilidade de Estoque.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

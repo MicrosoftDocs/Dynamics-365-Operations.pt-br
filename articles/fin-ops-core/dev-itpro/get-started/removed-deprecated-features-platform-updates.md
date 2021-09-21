@@ -2,7 +2,7 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-ms.date: 05/26/2021
+ms.date: 08/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 7bd5a64553afa04517633ed03d8bbd6077208c0b511d8fa131dc9a2849998708
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6774400"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463605"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -32,7 +32,29 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
-## <a name="feature-deprecation-notice-effective-may-2021"></a>Aviso de substituição de recurso em maio de 2021
+## <a name="feature-deprecation-effective-august-2021"></a>Substituição de recurso efetiva em agosto de 2021
+
+### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Relatórios SQL do Microsoft Azure no LCS (Lifecycle Services)
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos substituindo alguns relatórios SQL no LCS. Não será mais necessário monitorar os relatórios, pois esse recurso foi substituído por outros serviços. |
+| **Substituída por outro recurso?**   | Não |
+| **Áreas afetadas do produto**         | Relatórios SQL: DTU Atual, Detalhes de DTU Atuais, Obter Detalhes de Bloqueio, Lista de Guias de Plano Atual, Obter Lista de IDs de Consulta, Obter plano de consulta SQL para uma ID de plano específica, Obter planos de consulta e status de execução, Obter configuração de restrição, Obter estatísticas de espera, Listar consultas mais caras |
+| **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
+| **Status**                         | Preterido: data de remoção planejada para outubro de 2021. |
+
+### <a name="azure-sql-actions-in-lcs"></a>Ações do SQL do Azure no LCS
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos substituindo algumas ações SQL no LCS.  |
+| **Substituída por outro recurso?**   | Não |
+| **Áreas afetadas do produto**         | Ações SQL: Criar um guia de plano para impor a ID do Plano, Criar um guia de plano para adicionar dicas de tabela, Remover guia de Plano, Desabilitar/Habilitar bloqueios de página e escalonamento de bloqueio, Atualizar estatísticas em uma tabela, Recriar Índice, Criar Índice |
+| **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
+| **Status**                         | Preterido: data de remoção planejada para outubro de 2021. |
+
+## <a name="feature-deprecation-effective-may-2021"></a>Substituição de recurso efetiva em maio de 2021
 
 ### <a name="globalization-portal-in-lifecycle-services-lcs"></a>Portal de globalização no Lifecycle Services (LCS)
 

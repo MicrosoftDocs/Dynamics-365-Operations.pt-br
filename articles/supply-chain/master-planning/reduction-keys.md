@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 555f75df1b28d374f2a46481857902c2f9315809c082699355190c54e856899b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32d1c7efaefaecae12031073d67b0e4c2cf78a78
+ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6736614"
+ms.lasthandoff: 09/07/2021
+ms.locfileid: "7474763"
 ---
 # <a name="forecast-reduction-keys"></a>Chaves de redução da previsão
 
@@ -86,7 +86,18 @@ Nesse caso, se você executar o plano de previsão em 1º de janeiro, os requisi
 
 ### <a name="transactions--reduction-key"></a>Transações – chave de redução
 
-Se você seleciona **Transações - chave de redução**, os requisitos de previsão são reduzidos pelas transações que ocorrem durante os períodos definidos pela chave de redução.
+Se você definir o campo **Método usado para reduzir requisitos de previsão** como *Transações – chave de redução*, os requisitos de previsão serão reduzidos pelas transações de demanda qualificada que ocorrem durante os períodos definidos pela chave de redução.
+
+A demanda qualificada é definida pelo campo **Reduzir previsão por** na página **Grupos de cobertura**. Se você definir o campo **Reduzir previsão por** como *Ordens*, somente transações de ordem de venda serão consideradas demanda qualificada. Se você defini-lo como *Todas as transações*, todas as transações de estoque de saída intercompanhia serão consideradas demanda qualificada. Se ordens de venda intercompanhia também devem ser consideradas demanda qualificada, defina a opção **Incluir ordens intercompanhia** como *Sim*.
+
+A redução da previsão começa com o primeiro (mais antigo) registro de previsão de demanda no período da chave de redução. Se a quantidade de transações de estoque qualificado for maior do que a quantidade de linhas de previsão de demanda no mesmo período da chave de redução, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade de demanda no período anterior (se houver uma previsão não consumida).
+
+Se nenhuma previsão não consumida continuar no período da chave de redução anterior, o saldo da quantidade de transações de estoque será usado para reduzir a previsão de quantidade no mês seguinte (se houver uma previsão não consumida).
+
+O valor do campo **Porcentagem** nas linhas da chave de redução não é usado quando o campo **Método usado para reduzir requisitos de previsão** é definido como *Transações – chave de redução*. Somente as datas são usadas para definir o período da chave de redução.
+
+> [!NOTE]
+> Qualquer previsão lançada em ou antes da data de hoje será ignorada e não será usada para criar ordens planejadas. Por exemplo, se a sua previsão de demanda para o mês for gerada em 1º de janeiro e você executar o planejamento mestre que inclui a previsão de demanda em 2 de janeiro, o cálculo ignorará a linha de previsão de demanda com a data de 1º de janeiro.
 
 #### <a name="example-transactions--reduction-key"></a>Exemplo: Transações – chave de redução
 

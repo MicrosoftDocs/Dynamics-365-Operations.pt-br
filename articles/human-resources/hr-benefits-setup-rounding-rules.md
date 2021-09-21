@@ -1,8 +1,8 @@
 ---
 title: Configurar regras de arredondamento
-description: Você pode configurar regras de arredondamento no Dynamics 365 Human Resources para atender às necessidades da sua organização.
-author: andreabichsel
-ms.date: 04/06/2020
+description: Este tópico descreve como configurar regras de arredondamento no Dynamics 365 Human Resources para atender às necessidades da sua organização.
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 65747211c8503445fff8c6816e4ca1e705b1369ee27772c13bf3df373a2015e4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4d2dce1aa7784091a142f6d52bd5d9433b1ee40a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732648"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431100"
 ---
 # <a name="set-up-rounding-rules"></a>Configurar regras de arredondamento
 

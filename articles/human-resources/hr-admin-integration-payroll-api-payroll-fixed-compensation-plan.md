@@ -2,7 +2,7 @@
 title: Plano de remuneração fixa da folha de pagamento
 description: Este tópico fornece detalhes e um exemplo de consulta da entidade Plano de remuneração fixa da folha de pagamento no Dynamics 365 Human Resources.
 author: jcart
-ms.date: 04/07/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: f1e5345d9f27106bdf3a3a60cb0480a9b072e340c01236e4d48c5e2ae592ddbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
+ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6738382"
+ms.lasthandoff: 08/26/2021
+ms.locfileid: "7429210"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Plano de remuneração fixa da folha de pagamento
 
@@ -34,18 +34,27 @@ Nome físico: mshr_payrollfixedcompensationplanentity.
 
 ## <a name="properties"></a>Propriedades
 
-| Propriedade<br>**Nome físico**<br>**_Tipo_** | Usar | descrição |
+| Propriedade</br>**Nome físico**</br>**_Tipo_** | Usar | descrição |
 | --- | --- | --- |
-| **ID do Funcionário**<br>mshr_fk_employee_id_value<br>*GUID* | Somente leitura<br>Obrigatório<br>Chave estrangeira: mshr_Employee_id da entidade mshr_payrollemployeeentity  | ID do Funcionário |
-| **Taxa de pagamento**<br>mshr_payrate<br>*Decimal* | Somente leitura<br>Obrigatório | A taxa de pagamento definida no plano de remuneração fixa. |
-| **ID do Plano**<br>mshr_planid<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório |Especifica o plano da remuneração.  |
-| **Válido a partir de**<br>mshr_validfrom<br>*Compensação de Data/Hora* |  Somente leitura<br>Obrigatório |Data a partir da qual a remuneração fixa do funcionário é válida.  |
-| **Entidade Plano de remuneração fixa da folha de pagamento**<br>mshr_payrollfixedcompensationplanentityid<br>*GUID* | Obrigatório<br>Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o plano de remuneração. |
-| **Frequência de pagamento**<br>mshr_payfrequency<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório |A frequência com que o funcionário será pago.  |
-| **Válida até**<br>mshr_validto<br>*Compensação de Data/Hora* | Somente leitura <br>Obrigatório | Data até a qual a remuneração fixa do funcionário é válida. |
-| **ID da posição**<br>mshr_positionid<br>*Sequência de caracteres* | Somente leitura <br>Obrigatório | ID do cargo associada ao funcionário e ao registro do plano de remuneração fixa. |
-| **Moeda**<br>mshr_currency<br>*Cadeia de caracteres* | Somente leitura <br>Obrigatório |A moeda definida para o plano de remuneração fixa   |
-| **Número da equipe**<br>mshr_personnelnumber<br>*Cadeia de caracteres* | Somente leitura<br>Obrigatório |O número da equipe exclusiva do funcionário.  |
+| **ID do Plano**</br>mshr_planid</br>*Sequência de caracteres* | Somente leitura | Especifica o plano da remuneração.  |
+| **Número da equipe**</br>mshr_personnelnumber</br>*Sequência de caracteres* | Somente leitura | O número da equipe exclusiva do funcionário. |
+| **Taxa de pagamento**</br>mshr_payrate</br>*Decimal* | Somente leitura | A taxa de pagamento definida no plano de remuneração fixa. |
+| **ID da posição**</br>mshr_positionid</br>*Sequência de caracteres* | Somente leitura | ID do cargo associada ao funcionário e ao registro do plano de remuneração fixa. |
+| **Válido a partir de**</br>mshr_validfrom</br>*Compensação de Data/Hora* |  Somente leitura | Data a partir da qual a remuneração fixa do funcionário é válida.  |
+| **Válida até**</br>mshr_validto</br>*Compensação de Data/Hora* | Somente leitura | Data até a qual a remuneração fixa do funcionário é válida. |
+| **Frequência de pagamento**</br>mshr_payfrequency</br>*Sequência de caracteres* | Somente leitura | A frequência com que o funcionário será pago.  |
+| **Moeda**</br>mshr_currency</br>*Sequência de caracteres* | Somente leitura | A moeda definida para o plano de remuneração fixa. |
+| **Entidade Plano de remuneração fixa da folha de pagamento**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o plano de remuneração. |
+
+## <a name="relations"></a>Relações
+
+|Valor de propriedade | Entidade relacionada | Propriedade Navegação | Tipo de coleção |
+| --- | --- | --- | --- |
+| _mshr_fk_employee_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Employee_id | mshr_FK_PayrollEmployeeEntity_FixedCompPlan |
+| _mshr_fk_job_id_value | [mshr_payrollpositionjobentity](hr-admin-integration-payroll-api-payroll-position-job.md) | mshr_FK_Job_id | mshr_FK_PayrollPositionJobEntity_FixedCompPlan |
+| _mshr_fk_payrollposition_id_value | [mshr_payrollpositionentity](hr-admin-integration-payroll-api-payroll-position.md) | mshr_FK_PayrollPosition_id | mshr_FK_PayrollPositionEntity_FixedCompPlan |
+| _mshr_fk_plan_id_value | mshr_hcmcompfixedplantableentity | mshr_FK_Plan_id | - |
+| _mshr_fk_variablecompaward_id_value | [mshr_payrollvariablecompensationawardentity](hr-admin-integration-payroll-api-payroll-variable-compensation-plan.md) | mshr_FK_VariableCompAward_id | mshr_FK_PayrollVariableCompensationAwardEntity_FixedComp |
 
 ## <a name="example-query"></a>Exemplo de consulta
 

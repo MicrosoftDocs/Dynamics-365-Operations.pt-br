@@ -1,8 +1,8 @@
 ---
 title: Configurar códigos de motivo
 description: O Dynamics 365 Human Resources usa códigos de motivo para explicar por que os benefícios de um funcionário estão mudando.
-author: andreabichsel
-ms.date: 01/25/2021
+author: twheeloc
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: bd7c5a35a6d4b40eb376eee2580af681f7bfd7f8f93aab8aad67f238fc40470b
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 5f89d6158f351e30376fc3f80c793f29734cdcbb
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732672"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431333"
 ---
 # <a name="set-up-reason-codes"></a>Configurar códigos de motivo
 
@@ -29,11 +29,11 @@ ms.locfileid: "6732672"
 O Dynamics 365 Human Resources usa códigos de motivo para explicar por que os benefícios de um funcionário estão mudando.
 
 > [!NOTE]
-> Desde janeiro de 2021, os códigos de motivo estão migrando para o espaço de trabalho **Gerenciamento de pessoal** em vez do espaço de trabalho **Gerenciamento de benefícios**. Para obter mais informações, consulte [Migrar manualmente códigos de motivo para gerenciamento de pessoal](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
+> A partir de janeiro de 2021, os códigos de motivo foram migrados para o espaço de trabalho **Gerenciamento de pessoal** em vez do espaço de trabalho **Gerenciamento de benefícios**. Para obter mais informações, consulte [Migrar manualmente códigos de motivo para gerenciamento de pessoal](hr-benefits-setup-reason-codes.md#manually-migrate-reason-codes-to-personnel-management).
 
 ## <a name="create-reason-codes"></a>Criar códigos de motivo
 
-1. No espaço de trabalho **Gerenciamento de pessoal** (ou espaço de trabalho **Gerenciamento de benefícios** se os códigos de motivo ainda não tiverem sido migrados), selecione **Links** e, depois, **Códigos de motivo**.
+1. No espaço de trabalho **Gerenciamento de pessoal** (ou espaço de trabalho **Gerenciamento de benefícios** se os códigos de motivo não tiverem sido migrados), selecione **Links** e, depois, **Códigos de motivo**.
 
 2. Selecione **Novo**.
 
@@ -44,13 +44,13 @@ O Dynamics 365 Human Resources usa códigos de motivo para explicar por que os b
    | **Código de motivo** | Um nome exclusivo para identificar o motivo pelo qual um funcionário alteraria um registro de plano de benefícios. |
    | **Descrição** | Uma descrição do código de motivo. |
 
-4. Em **Cenários aplicáveis**, defina **Gerenciamento de benefícios** como **Sim**. (Não aplicável se os códigos de motivo ainda não tiverem migrado para o espaço de trabalho **Gerenciamento de pessoal**.)
+4. Em **Cenários aplicáveis**, defina **Gerenciamento de benefícios** como **Sim**. (Não aplicável se os códigos de motivo não tiverem sido migrados para o espaço de trabalho **Gerenciamento de pessoal**.)
 
 5. Selecione **Salvar**.
 
 ## <a name="manually-migrate-reason-codes-to-personnel-management"></a>Migrar manualmente códigos de motivo para Gerenciamento de pessoal
 
-Em janeiro de 2021, os códigos de motivo migraram para o espaço de trabalho **Gerenciamento de pessoal** em vez do espaço de trabalho **Gerenciamento de benefícios**. A maioria dos dados de código de motivo migrarão automaticamente no seu ambiente. Alguns dados do código de motivo talvez não migrem. Por exemplo, os códigos de motivo agora têm no máximo 15 caracteres; portanto, qualquer código de motivo com mais de 15 caracteres não migrará automaticamente.
+Em janeiro de 2021, os códigos de motivo foram migrados para o espaço de trabalho **Gerenciamento de pessoal** em vez do espaço de trabalho **Gerenciamento de benefícios**. A maioria dos dados de código de motivo migrarão automaticamente no seu ambiente. Alguns dados do código de motivo talvez não migrem. Por exemplo, os códigos de motivo agora têm no máximo 15 caracteres; portanto, qualquer código de motivo com mais de 15 caracteres não migrará automaticamente.
 
 Você verá uma faixa na página **Links** do espaço de trabalho **Gerenciamento de benefícios** informando sobre a migração e se algum código de motivo não foi migrado.
 

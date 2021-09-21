@@ -2,7 +2,7 @@
 title: Introdução ao Faturamento eletrônico
 description: Este tópico fornece informações que ajudarão você a começar a usar o Faturamento eletrônico no Microsoft Dynamics 365 Finance e no Dynamics 365 Supply Chain Management.
 author: gionoder
-ms.date: 03/29/2021
+ms.date: 08/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: janeaug
 ms.search.validFrom: 2020-07-08
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 3a62f68718a9bd46cdf15146bbb6a4e5166bfcc7abcf99b24d3fbc7e3e6c94ab
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3ba0b68ee61b130b8d0304d0bac6d1d720af8139
+ms.sourcegitcommit: baf82100f0aa7d5f5f47c7f54bc155d8a07beab5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732972"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463825"
 ---
 # <a name="get-started-with-electronic-invoicing"></a>Introdução ao Faturamento eletrônico
 
@@ -40,14 +40,14 @@ Antes de concluir os procedimentos neste tópico, é preciso ter os seguintes pr
 ## <a name="import-an-electronic-invoicing-feature-from-the-microsoft-configuration-provider"></a>Importar um recurso de faturamento eletrônico do provedor de configuração da Microsoft 
 
 1. Entre na conta RCS (serviço de configuração regulatória).
-2. No espaço de trabalho **Recurso de globalização** na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
+2. No espaço de trabalho **Recursos de globalização** na seção **Recursos**, selecione o bloco **Faturamento eletrônico**.
 3. Selecione **Importar** e, em seguida, **Sincronizar**.
 4. Filtre a coluna **Provedor de configuração** pelo termo **Microsoft**.
-5. Selecione o nome de um recurso de faturamento eletrônico na tabela no início deste tópico e selecione **Importar**.
+5. Selecione o nome de um recurso de Faturamento eletrônico na tabela e, em seguida, **Importar**.
 
 ## <a name="create-an-electronic-invoicing-feature-under-your-organization-provider"></a>Crie um recurso Faturamento eletrônico para o provedor da sua organização
 
-1. No RCS, na seção **Recursos** do espaço de trabalho **Recurso de globalização**, selecione o bloco **Faturamento eletrônico**.
+1. No RCS, na seção **Recursos** do espaço de trabalho **Recursos de globalização**, selecione o bloco **Faturamento eletrônico**.
 2. Selecione **Adicionar** > **Baseado em recurso existente** e, no campo **Nome**, insira o nome do recurso de faturamento eletrônico.
 3. No campo **Descrição**, insira uma descrição do recurso.
 4. No campo **Recurso base**, selecione o recurso de faturamento eletrônico importado do provedor de configuração da Microsoft.
@@ -113,7 +113,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
     | Fatura eletrônica espanhola (ES)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
     | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Diário de faturas de clientes</p><p>Fatura de projeto</p> |
 
-7. Para cada nome de tabela criado, selecione e insira um valor de contexto de acordo com a seguinte tabela.
+6. Para cada nome de tabela criado, selecione e insira um valor de contexto de acordo com a seguinte tabela.
 
     | Nome do recurso                         | Documento comercial | Contexto |
     |--------------------------------------|-------------------|---------|
@@ -134,7 +134,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
     | Fatura eletrônica espanhola (ES)      | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
     | Fatura eletrônica PEPPOL            | <p>Fatura de venda</p><p>Fatura de projeto</p> | <p>Modelo de contexto de fatura de cliente – contexto de fatura de cliente</p><p>Modelo de contexto de fatura de cliente – contexto de fatura de projeto</p> |
 
-8. Para cada nome e contexto de tabela, selecione e insira um valor para o mapeamento de documentos comerciais de acordo com a tabela a seguir.
+7. Para cada nome e contexto de tabela, selecione e insira um valor para o mapeamento de documentos comerciais de acordo com a tabela a seguir.
 
     | Nome do recurso                         | Documento comercial | Mapeamento de documento comercial |
     |--------------------------------------|-------------------|---------------------------|
@@ -177,11 +177,11 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 ## <a name="deploy-the-electronic-invoicing-feature-to-connected-application"></a>Implantar o recurso de Faturamento eletrônico ao aplicativo Conectado
 
 1. Na guia **Versões**, selecione uma versão do recurso de faturamento eletrônico que você deseja implantar.
-4. Selecione **Implantar**.
-5. Defina a opção **Implantar para aplicativo conectado** como **Sim**.
-6. No campo **Conectar aplicativo**, selecione a conexão que está associada à sua instância do Finance ou Supply Chain Management.
-7. Defina a opção **Implantar no ambiente de serviço** como **Não**.
-10. Selecione **OK**.
+2. Selecione **Implantar**.
+3. Defina a opção **Implantar para aplicativo conectado** como **Sim**.
+4. No campo **Conectar aplicativo**, selecione a conexão que está associada à sua instância do Finance ou Supply Chain Management.
+5. Defina a opção **Implantar no ambiente de serviço** como **Não**.
+6. Selecione **OK**.
 
 ## <a name="turn-on-the-electronic-invoicing-feature-in-finance-or-supply-chain-management"></a>Ative o recurso de faturamento eletrônico no Finance ou no Supply Chain Management
 
@@ -213,7 +213,7 @@ Para obter as etapas específicas, consulte a documentação "Introdução" que 
 ## <a name="issue-electronic-invoices"></a>Emitir faturas eletrônicas
 
 1. Acesse **Administração da organização** \> **Periódico** \> **Documentos eletrônicos** \> **Enviar documentos eletrônicos**.
-2. Na FastTab **Registros a serem incluídos**, selecione **Filtro**.
+2. Na Guia Rápida **Registros a incluir**, selecione **Filtro**.
 3. Selecione **Adicionar** para adicionar um nome de tabela ao filtro de consulta.
 4. Selecione a tabela que contém as faturas.
 

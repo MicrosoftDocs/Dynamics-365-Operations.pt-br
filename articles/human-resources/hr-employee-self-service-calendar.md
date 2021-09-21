@@ -1,8 +1,8 @@
 ---
 title: Criar um calendário de equipe
 description: Exibir e criar calendários de equipe no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: ccbf12d4dcc75e22fc62c356653a91b9a8a8d1761ccefb18c93e65f343250830
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: eacf2dc460367ebefb7e9f4d9e301ec719cd2317
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744217"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431477"
 ---
 # <a name="view-team-and-company-calendars"></a>Exibir calendários da equipe e da empresa
 
@@ -47,7 +47,7 @@ Os gerentes também podem acessar o calendário da equipe de **Solicitações de
 
 Os usuários na função Gerente de ausências podem exibir solicitações de folga no calendário. Siga estas etapas para acessar o calendário de licenças.
 
-1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
 
 2. No campo **Data**, insira as datas desejadas.
 
@@ -75,7 +75,7 @@ Os calendários agora contêm filtros e opções adicionais. Todos os calendári
 - Solicitações de folga 
 - Solicitações de licença
 
-A configuração de calendário em parâmetros de licença e ausência determinará as opções de exibição disponíveis.
+A configuração de calendário na página **Parâmetros de licença e ausência** determina as opções de exibição disponíveis.
 
 Também é possível filtrar calendários por gerente ou departamento. A atribuição de posição principal determina os funcionários exibidos quando esses filtros são definidos. 
 

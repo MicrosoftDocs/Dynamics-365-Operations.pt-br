@@ -2,7 +2,7 @@
 title: Projetar relatórios multilíngues em Relatórios eletrônicos
 description: Este tópico explica como você pode usar etiquetas de Relatório eletrônico (ER) para criar e gerar relatórios multilíngues.
 author: NickSelin
-ms.date: 04/21/2021
+ms.date: 09/03/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,16 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 86facc26f57b3ab166d6274689d774adbac50e46aa7759cfd079a0ef5a45456e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e199b350101e10ba3e424894f4dc9881d05c9558
+ms.sourcegitcommit: 81bc42551e6c9af6ad38908afb606ee1f8d3c44b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718396"
+ms.lasthandoff: 09/03/2021
+ms.locfileid: "7473396"
 ---
 # <a name="design-multilingual-reports-in-electronic-reporting"></a>Projetar relatórios multilíngues em Relatórios eletrônicos
 
 [!include[banner](../includes/banner.md)]
+
+[!include[banner](../includes/preview-banner.md)]
 
 ## <a name="overview"></a>Visão Geral
 
@@ -229,10 +231,14 @@ Conforme descrito anteriormente neste tópico, os atributos **Etiqueta** e **Des
 - O valor de uma etiqueta de ER vinculado aos atributos **Etiqueta** é armazenado no campo **Etiqueta** do registro retornado.
 - O valor de uma etiqueta de ER vinculada aos atributos **Descrição** é armazenado no campo **Descrição** do registro retornado.
 
+## <a name="performance"></a><a name=performance></a>Desempenho
+
+Ao configurar um componente de formato ER para gerar um relatório no seu [idioma](#language) preferencial ou para importar um documento de entrada no qual o conteúdo é analisado pelo seu idioma preferencial, recomendamos que você habilite o recurso **Armazenar em cache o idioma preferencial do usuário atual para execuções de ER** no espaço de trabalho [Gerenciamento de recursos](../../fin-ops/get-started/feature-management/feature-management-overview.md). Esse recurso ajuda a melhorar o desempenho, especialmente para componentes de formato ER que contêm várias referências a etiquetas em associações e fórmulas ER, e várias regras de [validação](general-electronic-reporting-formula-designer.md#TestFormula) para gerar mensagens de usuário no seu idioma preferencial.
+
 ## <a name="additional-resources"></a>Recursos adicionais
 
 - [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
-- [Funções do Relatório eletrônico](er-formula-language.md#functions)
+- [Funções do Relatório eletrônico](er-formula-language.md#Functions)
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

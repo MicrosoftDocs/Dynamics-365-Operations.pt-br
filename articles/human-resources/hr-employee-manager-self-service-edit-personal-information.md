@@ -1,8 +1,8 @@
 ---
 title: Editar informações pessoais
-description: Este artigo descreve como editar informações pessoais no autoatendimento para funcionários e gerentes.
-author: andreabichsel
-ms.date: 03/19/2020
+description: Este artigo descreve como editar informações pessoais no autoatendimento para Funcionários e Gerentes.
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-03-19
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80b4537601491c97c24cfa1fef5088cbf1ac276df76534034117161b0fe79dc2
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bb827e17dcfc63031d0edcb5f447e70f03e8ac3c
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715886"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431453"
 ---
 # <a name="edit-personal-information"></a>Editar informações pessoais
 
@@ -40,7 +40,7 @@ As informações pessoais que você pode editar incluem:
 >[!NOTE]
 >Talvez não seja possível editar certos tipos de informações pessoais, como detalhes do contato comercial. Para obter mais informações, consulte [Restringir a edição de informações pessoais](hr-employee-self-service-restrict-editing.md).
 
-Os parâmetros definidos no catálogo de endereços global determinam as funções que podem ver suas informações pessoais.
+Os parâmetros definidos na página **Parâmetros de catálogo de endereços global** determinam quais funções podem ver suas informações pessoais.
 
 1. No Human Resources, selecione **Autoatendimento para funcionários**.
 

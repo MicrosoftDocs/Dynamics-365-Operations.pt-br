@@ -1,8 +1,8 @@
 ---
 title: Alterar o nome do espaço de trabalho Autoatendimento para funcionários
 description: Este tópico descreve como alterar o nome de exibição do espaço de trabalho Autoatendimento para funcionários no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/09/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-07-09
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 25b5b1d94dc6379516fa74819499fe6792ff90230222a398bebfa427ad7ee25c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 483b870dc73a9248d5c0c1c215533162f1314419
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6763001"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431357"
 ---
 # <a name="change-employee-self-service-workspace-name"></a>Alterar o nome do espaço de trabalho Autoatendimento para funcionários
 
@@ -37,13 +37,13 @@ Se você tem voluntários ou outras pessoas que não são funcionários, convém
 
 3. Em **Nome de exibição**, selecione **Autoatendimento**.
 
-   ![Alterar o nome do espaço de trabalho Autoatendimento para funcionários para Autoatendimento.](./media/hr-employee-self-service-workspace-name.png)
+   ![Altere o nome do espaço de trabalho Autoatendimento para funcionários para Autoatendimento.](./media/hr-employee-self-service-workspace-name.png)
 
 4. Selecione **Salvar**.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-- [Visão geral do autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md)
+- [Visão geral de Autoatendimento para funcionários e gerentes](hr-employee-manager-self-service-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 1ddbb22d4f7c6108ca93b415276c53794b5450dd
-ms.sourcegitcommit: 03f53980a4bc67b73ac2be76a3b3e7331d0db705
+ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
+ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/18/2021
-ms.locfileid: "7394500"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7465068"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
@@ -49,13 +49,9 @@ Para um ambiente de produção, os seguintes pré-requisitos devem ser atendidos
 - Você deve criar um ambiente de RCS para sua organização e deve ter acesso à sua conta. Para obter mais informações sobre como criar um ambiente de RCS, consulte [Visão geral do Regulatory Configuration Service](rcs-overview.md).
 - Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** de seu ambiente do Finance ou Supply Chain Management com base em suas necessidades de negócios:
 
-    - Cálculo de Imposto
+    - Serviço de Cálculo de Imposto
     - Oferecer suporte a vários números de inscrição de IVA
     - Imposto na ordem de transferência
-    - Transferência da lista de vendas da UE com base apenas em transações de imposto
-    - Relatório intrastat por ID de Imposto Múltiplo
-    - Relatórios da lista de Vendas da UE por ID de Imposto Múltiplo
-    - Declaração de impostos por ID de Imposto Múltiplo
 
 - Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** do seu ambiente RCS implantado.
 
@@ -65,18 +61,14 @@ Para um ambiente de produção, os seguintes pré-requisitos devem ser atendidos
 
 Para um ambiente de teste, os seguintes pré-requisitos devem ser atendidos:
 
-- Você deve ter acesso à conta do LCS e deve ter um projeto do LCS implantado com ambiente com Camada 2 ou superior que executa o Dynamics 365 versão 10.0.18 com KB4616360 ou uma versão posterior.
+- Você precisa ter acesso à conta do LCS e deve um projeto do LCS implantado com ambiente com Camada 2 ou superior que executa o Dynamics 365 versão 10.0.21 ou uma versão posterior.
 - Você deve criar um ambiente de RCS para sua organização e deve ter acesso à sua conta. Para obter mais informações sobre como criar um ambiente de RCS, consulte [Visão geral do Regulatory Configuration Service](rcs-overview.md).
 - Você deve entrar em contato com a Microsoft, enviando email para <taxcalc@microsoft.com> para habilitar a liberação de versões no ambiente do Finance ou Supply Chain Management implantado.
 - Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** de seu ambiente do Finance ou Supply Chain Management com base em suas necessidades de negócios:
 
-    - Cálculo de Imposto
+    - Serviço de Cálculo de Imposto
     - Oferecer suporte a vários números de inscrição de IVA
     - Imposto na ordem de transferência
-    - Transferência da lista de vendas da UE com base apenas em transações de imposto
-    - Relatório intrastat por ID de Imposto Múltiplo
-    - Relatórios da lista de Vendas da UE por ID de Imposto Múltiplo
-    - Declaração de impostos por ID de Imposto Múltiplo
 
 - Os recursos a seguir devem ser ativados no espaço de trabalho **Gerenciamento de recursos** do seu ambiente RCS implantado.
 
@@ -103,12 +95,12 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
 7. Acesse o **Modelo de Dados do Imposto**, expanda a árvore de arquivos e selecione **Configuração de Imposto**.
 8. Selecione a versão de configuração de imposto correta, com base na sua versão do Finance, e selecione **Importar**.
 
-    | Versão de lançamento | Configuração de imposto                       | Mapeamento de modelo                   |
-    | --------------- | --------------------------------------- | ------------------------------- |
-    | 10.0.18         | Configuração de Imposto - Europa 30.12.82     |                                 |
-    | 10.0.19         | Configuração de Cálculo do Imposto 36.38.193 |                                 |
-    | 10.0.20         | Configuração de Cálculo do Imposto 40.43.208 |                                 |
-    | 10.0.21         | Configuração de Cálculo do Imposto 40.46.212 | Mapeamento de Modelo do Dataverse 40.46.9 |
+    | Versão de lançamento | Configuração de imposto                       |
+    | --------------- | --------------------------------------- |
+    | 10.0.18         | Configuração de Imposto - Europa 30.12.82     |
+    | 10.0.19         | Configuração de Cálculo do Imposto 36.38.193 |
+    | 10.0.20         | Configuração de Cálculo do Imposto 40.43.208 |
+    | 10.0.21         | Configuração de Cálculo do Imposto 40.46.212 |
 
 9. No espaço de trabalho **Recursos de globalização**, selecione **Recursos**, selecione o bloco **Cálculo de Imposto** e, em seguida, selecione **Adicionar**.
 10. Selecione um dos seguintes tipos de recurso:

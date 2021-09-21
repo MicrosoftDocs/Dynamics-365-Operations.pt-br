@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: roschlom
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae4e25874488890f0eeb601038e308fdc7e89485b5f6a8cf5d5fab713107dfcf
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 8a4fd7c242fc2d857cb35f8ef8c08567c758b768
+ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6753471"
+ms.lasthandoff: 08/31/2021
+ms.locfileid: "7463580"
 ---
 # <a name="reverse-journal-posting"></a>Reverter lançamento no diário
 
@@ -28,13 +28,17 @@ ms.locfileid: "6753471"
 
 Este tópico descreve recursos do Microsoft Dynamics 365 Finance que permitem reverter um diário inteiro, ou reverter um ou mais comprovantes da lista de transações de comprovante, independentemente da origem. 
 
+Para poder usar um dos recursos descritos neste tópico, ele deverá estar ativado no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+ - Módulo: Contabilidade
+ - Nome do recurso: **Reversões em massa para vários documentos**
+
 ## <a name="reversing-journals"></a>Revertendo diários
 
 Você pode reverter linhas de diário individualmente. Com a reversão de lançamento no diário, também é possível reverter um diário financeiro inteiro. Para reverter um diário: 
 
-- Abra o diário financeiro e filtre por diários lançados.
+- Filtre os diários lançados e abra a exibição **Linhas** no diário.
 - Selecione o menu **Reverter** na parte superior da página.
-- Você verá o número total de comprovantes e linhas de comprovante, além da quantidade total de linhas que estão sendo revertidas
+- Você verá o número total de comprovantes e linhas de comprovante, além da quantidade total de linhas que estão sendo revertidas.
 - Selecione **Sim** para usar as datas de transação existentes ou **Não** para inserir uma nova. Em alguns casos, o período da transação original pode ser fechado e você deve inserir uma nova data de transação para a reversão.
 - Caso selecione **Não**, insira uma data de transação para a reversão. 
 - Insira um comentário a ser adicionado à transação de reversão.
@@ -52,8 +56,8 @@ Você também pode reverter comprovantes da **Lista de transações de comprovan
 
 Para reverter um ou vários comprovantes: 
 
-- Selecione o menu **Reverter** na parte superior da página
-- Você verá o número total de comprovantes e linhas de comprovante, além da quantidade total de linhas que estão sendo revertidas.
+- Selecione o menu suspenso **Reverter todo o diário** na parte superior da página.
+- O número total de comprovantes e linhas de comprovante são exibidos, além da quantidade total de linhas que estão sendo revertidas.
 - Selecione **Sim** para usar as datas de transação existentes ou **Não** para inserir uma nova. Em alguns casos, o período da transação original pode ser fechado e você deve inserir uma nova data de transação para revertê-lo.
 - Caso selecione **Não**, insira uma data de transação para a reversão. 
 - Insira um comentário para descrever a transação de reversão.

@@ -1,8 +1,8 @@
 ---
 title: Criar avaliações de desempenho
 description: Este tópico explica como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão.
-author: andreabichsel
-ms.date: 05/05/2020
+author: twheeloc
+ms.date: 08/26/2021
 ms.topic: business-process
 ms.prod: ''
 ms.technology: ''
@@ -10,15 +10,15 @@ ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscu
 audience: Application User
 ms.search.scope: Human Resources
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 0a4a9f83c2b6cb30888ed5a797fb72b9f382187cb8f119d15a5fa437ed5aba1f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1340653c1e9a21d41743b8e3c0b81a4285245d5a
+ms.sourcegitcommit: a8ac6d9b63eb67d14dd17a086ef4f1eccd7f9fc1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732240"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7431151"
 ---
 # <a name="create-performance-reviews"></a>Criar avaliações de desempenho
 
@@ -65,17 +65,17 @@ Este tópico explica como criar uma previsão dos resultados e descreve a finali
 30. Selecione a guia **Classificações**.  
 
     - A Guia Rápida **Detalhes de classificação** permite que os funcionários se avaliem e que o gerente avalie os funcionários. Se pesos forem usados, o valor do peso dos pontos será calculado automaticamente.  
-    - Para exibir essa seção, habilite as configurações de parâmetro para exibição das classificações do funcionário.  
+    - Para exibir esta seção, habilite as configurações de parâmetro para mostrar as classificações de funcionário na página **Parâmetros compartilhados de recursos humanos**.  
 
-31. Selecione a guia **Aprovações**. Se a revisão usar um fluxo de trabalho, as aprovações aparecerão só depois da conclusão do fluxo de trabalho. Se nenhum fluxo de trabalho for usado, o trabalhador e o gerente estarão listados aqui. A caixa de seleção necessária é selecionada com base nas configurações do tipo de revisão.  
+31. Selecione a guia **Aprovações**. Se a revisão usar um fluxo de trabalho, as aprovações aparecerão só depois da conclusão do fluxo de trabalho. Se nenhum fluxo de trabalho for usado, o trabalhador e o gerente estarão listados aqui. A caixa de seleção **Necessário** para **Aprovações** é selecionada com base nas configurações do tipo de revisão.  
 32. Selecione a guia **Geral**.
 
     - O período de desempenho cria datas inicial e final padrão. Essas datas são editáveis.  
-    - Os status controlam o acesso à revisão. O status **Não iniciado** permite que todos editem a revisão. O status **Em andamento** permite que o funcionário só exiba e edite a revisão. **Aprontar para revisão** permite que somente o gerenciador exiba e edite a revisão. Status **final da revisão** permite que o funcionário e gerente exibam a revisão e também editá-la configuração se o tipo de análise. Os status **Concluído** e **Cancelado** deixam a revisão apenas leitura. Se uma revisão for **Rejeitada** e enviada de volta ao funcionário, o funcionário e o gerente poderão fazer as edições necessárias para que o funcionário possa reenviar.
+    - Os status controlam o acesso à revisão. O status **Não iniciado** permite que todos editem a revisão. O status **Em andamento** permite que o funcionário só exiba e edite a revisão. **Aprontar para revisão** permite que somente o gerenciador exiba e edite a revisão. O status **Revisão final** permite que o funcionário e o gerente exibam e editem a revisão se a opção **Permitir edição na revisão final** estiver selecionada no tipo de revisão. Os status **Concluído** e **Cancelado** deixam a revisão apenas leitura. Se uma revisão for **Rejeitada** e enviada de volta ao funcionário, o funcionário e o gerente poderão fazer as edições necessárias para que o funcionário possa reenviar.
 
 33. No campo **Visão geral**, digite um valor.
 34. Selecione a guia **Revisão**. Como revisão se move com o status, o funcionário e gerente podem adicionar comentários ou para cada meta competência.  
-35. Selecione a guia **Aprovações**. O trabalhador e o gerente podem aprovar a revisão. Quando todos os prazos de conexão exigidos for concluído, o status será alterado para **Concluído** e não poderá mais alteração ser feita.  
+35. Selecione a guia **Aprovações**. O trabalhador e o gerente podem aprovar a revisão. Quando todas as aprovações necessárias forem concluídas, o status será alterado para **Concluído** e nenhuma outra alteração poderá ser feita.  
 
 
 
