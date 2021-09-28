@@ -80,8 +80,6 @@
                       href: get-started/whats-new-changed-10-0-21.md
                     - name: Finance 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-changed-10-0-20.md
-                    - name: Finance 10.0.19 (junho de 2021)
-                      href: get-started/whats-new-changed-10-0-19.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -450,6 +448,8 @@
                   href: accounts-receivable/tasks/review-collections-information.md
                 - name: Automação do processo de cobranças
                   href: accounts-receivable/collections-process-automate.md
+                - name: Configurar parâmetros para a automação do processo de cobranças
+                  href: accounts-receivable/config-paramtrs-collections-proc-automate.md
                 - name: Configuração de gerenciamento de crédito
                   href: accounts-receivable/cm-credit-mgmt-setup.md
                 - name: Informações de gerenciamento de crédito
@@ -1635,7 +1635,9 @@
                 - name: Demonstrativo de IVA
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Relatório de serviços internacionais
-                  href: localizations/emea-aut-cross-border-services-report.md
+                  href: localizations/emea-aut-vat-statement-details.md
+                - name: Relatório intrastats
+                  href: localizations/emea-aut-intrastat.md
                 - name: Impostos de compra
                   href: localizations/emea-aut-purchase-duties.md
             - name: Bahrein
@@ -1668,6 +1670,8 @@
                   href: localizations/tasks/be-00011-set-up-payment-balance-reporting.md
                 - name: Configurar e manter PRODCOM
                   href: localizations/emea-bel-prodcom-report.md
+                - name: Listagem anual de IVA das vendas domésticas
+                  href: localizations/emea-bel-annual-vat-listing-of-domestic-sales.md
             - name: Brasil
               items:
                 - name: Visão geral de Brasil
@@ -2968,13 +2972,15 @@
                   href: localizations/latam-mex-cfdi-3-3.md
                 - name: IDs de registro do cliente e outras informações
                   href: localizations/tasks/mx-00007-customer-registration-ids-other-information.md
-                - name: ​Demonstrativo de declaração DIOT​
+                - name: Demonstrativo de declaração DIOT
                   href: localizations/latam-mex-diot-declaration-statement.md
                 - name: Faturamento eletrônico CFDI
                   href: localizations/tasks/mx-00010-e-invoicing-cfdi.md
                 - name: Faturas eletrônicas
                   href: localizations/latam-mex-CFDI-electronic-invoices.md
-                - name: ​Demonstrativos contábeis do razão eletrônico​
+                - name: Complemento do conhecimento de embarque (Carta de Porte) (versão 1.0)
+                  href: localizations/latam-mex-carta-de-porte.md
+                - name: Demonstrativos contábeis do razão eletrônico
                   href: localizations/latam-mex-electronic-ledger-accounting-statements.md
                 - name: Inserir IDs de registro de impostos para entidades legais mexicanas
                   href: localizations/tasks/mx-00010-enter-tax-registration-ids-mexican-legal-entities.md
@@ -2994,12 +3000,6 @@
                   href: localizations/tasks/mx-00020-specify-rfc-registration-id-mexican-bank-accounts.md
                 - name: IDs de registro de fornecedor
                   href: localizations/tasks/mx-00008-vendor-registration-ids.md
-            - name: Omã
-              items:
-                - name: Visão geral de Omã
-                  href: localizations/oman.md
-                - name: Declaração de IVA para Omã (OM-00003)
-                  href: localizations/emea-oma-vat-declaration.md
             - name: Países Baixos
               items:
                 - name: Visão geral dos Países Baixos
@@ -3016,6 +3016,10 @@
                   href: localizations/emea-nl-vat-declaration-netherlands.md
                 - name: Lista de vendas da UE
                   href: localizations/emea-nl-EU-sales-list.md
+            - name: Nova Zelândia
+              items:
+                - name: Formulário GST101A para declaração GST para a Nova Zelândia (NZ-00003)
+                  href: localizations/apac-nzl-gst-declaration.md
             - name: Noruega
               items:
                 - name: Visão geral da Noruega
@@ -3032,6 +3036,12 @@
                   href: localizations/emea-nor-satndard-audit-file-for-tax.md
                 - name: Faturas eletrônicas do cliente na Noruega
                   href: localizations/emea-nor-e-invoices.md
+            - name: Omã
+              items:
+                - name: Visão geral de Omã
+                  href: localizations/oman.md
+                - name: Declaração de IVA para Omã (OM-00003)
+                  href: localizations/emea-oma-vat-declaration.md
             - name: Polônia
               items:
                 - name: Visão geral da Polônia
@@ -3450,20 +3460,20 @@
                           href: localizations/emea-gbr-mtd-vat-integration.md
                         - name: Prepare seu ambiente para interoperar com o serviço Web de IVA MTD do HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-setup.md
-                        - name: Autorizar seu ambiente do Finance para interoperar com o serviço Web de MTD do HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
-                        - name: Testar interoperabilidade com a área restrita de IVA MTD
-                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
-                        - name: Enviar uma restituição de IVA para o serviço Web MTD do HMRC
-                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Lista de verificação de configuração de mensagens eletrônicas para IVA MTD
                           href: localizations/emea-gbr-mtd-vat-integration-em-setup-checklist.md
-                        - name: Gerar uma declaração de IVA em papel (relatório IVA 100)
-                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
-                        - name: Detalhes da configuração de IVA para declarações de IVA no Reino Unido
-                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Testar interoperabilidade com a área restrita de IVA MTD
+                          href: localizations/emea-gbr-mtd-vat-integration-sandbox.md
+                        - name: Autorizar seu ambiente do Finance para interoperar com o serviço Web de MTD do HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-authorization.md
+                        - name: Enviar uma restituição de IVA para o serviço Web MTD do HMRC
+                          href: localizations/emea-gbr-mtd-vat-integration-submission.md
                         - name: Recuperar informações sobre passivos e pagamentos de IVA do HMRC
                           href: localizations/emea-gbr-mtd-vat-integration-optional-scenarios.md
+                        - name: Detalhes da configuração de IVA para declarações de IVA no Reino Unido
+                          href: localizations/emea-gbr-mtd-vat-integration-declaration.md
+                        - name: Gerar uma declaração de IVA em papel (relatório IVA 100)
+                          href: localizations/emea-gbr-mtd-vat-integration-vat100.md
                 - name: Estatísticas sobre o relatório de práticas de pagamento
                   href: localizations/emea-gbr-statistics-on-payment-practices-report.md
             - name: Estados Unidos
@@ -4119,6 +4129,8 @@
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/dynamics365/finance/toc.json
                         - name: Executar formatos para adicionar colunas a relatórios do Excel dinamicamente
                           href: ../fin-ops-core/dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/dynamics365/finance/toc.json
+                    - name: Criar um formato ER para paginar documentos gerados no Excel
+                      href: ../fin-ops-core/dev-itpro/analytics/er-paginate-excel-reports.md?toc=/dynamics365/finance/toc.json
                 - name: Criar configurações para gerar relatórios no formato Word
                   items:
                     - name: Criar uma configuração ER para gerar relatórios no formato Word

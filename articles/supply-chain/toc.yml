@@ -80,8 +80,6 @@
                       href: get-started/whats-new-scm-10-0-21.md
                     - name: Supply Chain Management 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-scm-10-0-20.md
-                    - name: Supply Chain Management 10.0.19 (junho de 2021)
-                      href: get-started/whats-new-scm-10-0-19.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -1669,6 +1667,8 @@
                   href: master-planning/planning-optimization/production-planning.md
                 - name: Agendamento com capacidade infinita
                   href: master-planning/planning-optimization/infinite-capacity-planning.md
+                - name: Agendamento com seleção de recursos com base na capacidade
+                  href: master-planning/planning-optimization/capability-based-scheduling.md
                 - name: Marca de estoque com Otimização de Planejamento
                   href: master-planning/planning-optimization/marking.md
                 - name: Planejamento intercompanhia
@@ -2017,6 +2017,8 @@
                   href: procurement/request-quotations.md
                 - name: Criar uma solicitação de cotação
                   href: procurement/tasks/create-request-quotation.md
+                - name: Lance selado para RFQs
+                  href: procurement/sealed-bidding.md
                 - name: Criar uma requisição que use uma RFQ
                   href: procurement/tasks/create-requisition-uses-rfq.md
                 - name: Criar um método de avaliação para RFQs

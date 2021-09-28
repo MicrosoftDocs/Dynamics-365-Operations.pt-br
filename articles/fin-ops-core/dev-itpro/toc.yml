@@ -1004,10 +1004,14 @@
                   href: lifecycle-services/cloud-operations-servicing.md
                 - name: Enviar solicitações de manutenção à equipe de engenharia de manutenção do Dynamics
                   href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-                - name: Perguntas frequentes sobre o período de manutenção planejada
+                - name: Perguntas frequentes sobre a janela de manutenção planejada
                   href: lifecycle-services/planned-maintenance-window-faq.md
             - name: Monitoramento e diagnóstico
-              href: lifecycle-services/monitoring-diagnostics.md
+              items:
+                - name: Ferramentas de monitoramento e diagnóstico
+                  href: lifecycle-services/monitoring-diagnostics.md
+                - name: Usar o Azure Data Explorer para consultar logs de informações brutas
+                  href: lifecycle-services/azure-data-explorer.md
             - name: Reiniciar serviços de ambiente
               href: lifecycle-services/restart-environment-services.md
             - name: Relatar uma interrupção de produção

@@ -102,8 +102,6 @@
                       href: get-started/whats-new-commerce-10-0-21.md
                     - name: Commerce 10.0.20 (agosto de 2021)
                       href: get-started/whats-new-commerce-10-0-20.md
-                    - name: Commerce 10.0.19 (junho de 2021)
-                      href: get-started/whats-new-commerce-10-0-19.md
                 - name: Recursos removidos ou preteridos
                   items:
                     - name: Home page de recursos removidos ou preteridos
@@ -554,7 +552,7 @@
                       href: dev-itpro/commerce-payments.md
                     - name: Arquivar dados de transações de cartão de crédito
                       href: dev-itpro/archive-cc-data.md
-                    - name: Processar cartões de crédito sem uma estação de hardware
+                    - name: Processar cartões de crédito sem uma hardware station
                       href: dev-itpro/cnp-pos.md
                     - name: Dynamics 365 Payment Connector para PayPal
                       href: paypal.md
@@ -668,6 +666,8 @@
                   href: tasks/base-price-trade-agreements.md
                 - name: Criar contratos comerciais usando regras de precificação por categoria
                   href: tasks/category-pricing-rules-trade-agreements.md
+                - name: Cálculo de atraso do preço exato e cálculo de desconto
+                  href: delayed-price-calculation.md
             - name: Recomendações
               items:
                 - name: Visão geral das recomendações de produtos
@@ -1328,6 +1328,8 @@
                   href: localizations/latam-bra-nfce-contingency-mode.md
                 - name: Lançar notas fiscais brasileiras via demonstrativos de varejo no Commerce Headquarters
                   href: localizations/latam-bra-retail-statements.md
+                - name: Dynamics 365 Payment Connector para Adyen no PDV do Commerce para o Brasil
+                  href: localizations/latam-bra-adyen.md
             - name: Europa Oriental
               items:
                 - name: Comum
@@ -2436,7 +2438,7 @@
                       href: e-commerce-extensibility/event-based-data-actions.md
                     - name: Ações de dados principais
                       href: e-commerce-extensibility/core-data-actions.md
-                    - name: Chamar APIs do Retail Server
+                    - name: Chamar APIs da Commerce Scale Unit
                       href: e-commerce-extensibility/call-retail-server-apis.md
                     - name: Chamar APIs de extensão do Retail Server
                       href: e-commerce-extensibility/call-retail-extension-api.md
@@ -2514,8 +2516,6 @@
                   href: dev-itpro/retail-sdk/retail-sdk-overview.md
                 - name: Configurar um pipeline de build para o SDK de compactação independente
                   href: dev-itpro/build-pipeline.md
-                - name: Mesclar os sistemas de build para o Commerce e o Finance and Operations
-                  href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
                 - name: Migrar o SDK do Retail do Visual Studio 2015 para o Visual Studio 2017
                   href: dev-itpro/retail-sdk/migrate-sdk.md
                 - name: Exemplos de extensibilidade do SDK do Retail
@@ -2628,8 +2628,6 @@
                               href: dev-itpro/pos-extension/consume-apis-pos.md
             - name: Extensibilidade do Hardware Station
               items:
-                - name: Hardware Station e extensibilidade
-                  href: dev-itpro/hardware-station-extensibility.md
                 - name: Integrar o PDV a um novo dispositivo de hardware
                   href: dev-itpro/hardware-device-extension.md
             - name: Extensibilidade do Retail Server

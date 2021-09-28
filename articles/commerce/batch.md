@@ -1,8 +1,8 @@
 ---
 title: Manuseio aprimorado de itens de lote rastreados
-description: Este tópico descreve os aprimoramentos feitos no manuseio de lotes para itens de lote rastreados durante o processo de lançamento de demonstrativo.
+description: Este tópico descreve os itens de lote aprimorados rastreados durante o processo de lançamento de demonstrativo no Microsoft Dynamics 365 Commerce.
 author: josaw1
-ms.date: 11/04/2019
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -15,34 +15,41 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-28
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: e3bea1d73325596458bafd9f952e69809b174c386eb2c053daa0a2b5b4bed4de
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 513b6ca84fa71e851a5a3e4275e0b6572789e1eb
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739553"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485774"
 ---
 # <a name="improved-handling-of-batch-tracked-items"></a>Manuseio aprimorado de itens de lote rastreados
 
-
 [!include [banner](includes/banner.md)]
 
+Este tópico descreve os itens de lote aprimorados rastreados durante o processo de lançamento de demonstrativo no Microsoft Dynamics 365 Commerce.
 
-No ponto de venda (PDV), os números de lote não podem ser capturados para itens de lote rastreados no momento da venda. No entanto, para configurações específicas, quando as vendas lançadas na matriz por meio de ordens de cliente ou lançamento de demonstrativo, o sistema do Microsoft Dynamics espera que existam números de lote válidos para itens de lote rastreados e que eles sejam usados durante o processo de faturamento.
+No ponto de venda (PDV) do Dynamics 365 Commerce, os números de lote não podem ser capturados para itens de lote rastreados no momento da venda. No entanto, para configurações específicas, quando as vendas lançadas na matriz do Commerce por meio de ordens de cliente ou lançamento de demonstrativo, o Commerce espera que existam números de lote válidos para itens de lote rastreados e que eles sejam usados durante o processo de faturamento.
 
-Se os números de lote válidos estiverem disponíveis para os produtos, eles serão usados pelo processo de faturamento da ordem do cliente e pelo processo de faturamento da ordem de venda do lançamento de demonstrativo. Caso contrário, processo de faturamento da ordem do cliente não poderá fazer o lançamento e o usuário do PDV receberá uma mensagem de erro. O lançamento do demonstrativo entrará então em um estado de erro. Esse estado de erro ocorrerá mesmo quando o estoque negativo tiver sido ativado para os produtos.
+Se os números de lote válidos estiverem disponíveis para os produtos, eles serão usados pelo processo de faturamento da ordem do cliente e pelo processo de faturamento da ordem de venda do lançamento de demonstrativo. Se os números de lote válidos não estiverem disponíveis para os produtos, o processo de faturamento da ordem do cliente não será lançado e o usuário do PDV receberá uma mensagem de erro. O lançamento do demonstrativo entrará em um estado de erro, mesmo se o estoque negativo tiver sido ativado para os produtos.
 
-Os aprimoramentos feitos no Retail versão 10.0.4 e posterior ajudam a garantir que, quando o estoque negativo for ativado para itens de lote rastreados, o faturamento da ordem do cliente e o faturamento da ordem venda por meio do lançamento de demonstrativo não serão bloqueados para esses itens se o estoque for 0 (zero) ou se um número de lote não estiver disponível. A nova funcionalidade usa uma ID de lote padrão para as linhas de venda quando os números de lotes não estão disponíveis.
+Os aprimoramentos feitos no Commerce ajudam a garantir que, quando o estoque negativo for ativado para itens de lote rastreados, o faturamento da ordem do cliente e o faturamento da ordem venda por meio do lançamento de demonstrativo não serão bloqueados para esses itens se o estoque for 0 (zero) ou se um número de lote não estiver disponível. A funcionalidade aprimorada usa uma ID de lote padrão para as linhas de venda quando os números de lotes não estão disponíveis.
 
-Para definir a ID padrão do lote usada para ordens de cliente, na página **Parâmetros do Commerce**, na guia **Ordens do cliente**, na FastTab **Ordem**, defina o campo **ID de lote padrão**.
+## <a name="define-the-default-batch-id-that-is-used-for-customer-orders"></a>Definir a ID de lote padrão que é usada para ordens do cliente
 
-Para definir a ID de lote padrão usada para o faturamento da ordem de venda por meio do lançamento de demonstrativo, na página **Parâmetros do Commerce**, na guia **Lançamento**, na FastTab **Atualização de estoque**, defina o campo **ID de lote padrão**.
+Para definir a ID de lote padrão que é usada para ordens do cliente, siga estas etapas:
+
+1. Na matriz do Commerce, acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**.
+1. Na guia **Ordens do cliente**, na Guia Rápida **Ordem**, insira um valor no campo **ID de lote padrão**.
+
+## <a name="define-the-default-batch-id-that-is-used-for-sales-order-invoicing-through-statement-posting"></a>Definir a ID de lote padrão que é usada para o faturamento da ordem de venda por meio do lançamento de demonstrativos
+
+Para definir a ID de lote padrão que é usada para o faturamento da ordem de venda por meio do lançamento de demonstrativos, siga estas etapas:
+
+1. Na matriz do Commerce, acesse **Retail e Commerce \> Configuração da sede \> Parâmetros \> Parâmetros do Commerce**.
+1. Na guia **Lançamento**, na Guia Rápida **Atualização de estoque**, insira um valor no campo **ID de lote padrão**.
 
 > [!NOTE]
-> Esta funcionalidade ficará disponível somente quando o armazenamento avançado for ativado para os depósitos e o itens de específicos da loja. Em uma versão posterior, a funcionalidade também terá suporte para cenários em que o gerenciamento de armazenamento não é usado.
-
-> [!NOTE]
-> O suporte ao manuseio aprimorado de itens de lote rastreados durante o lançamento de demonstrativo a cenários de gerenciamento de depósito não avançado foi apresentado no Retail versão 10.0.5.
-
+> - A funcionalidade ID de lote padrão ficará disponível somente quando o armazenamento avançado estiver habilitado para os depósitos e o itens de específicos da loja. Em uma versão futura, a funcionalidade ID de lote padrão também terá suporte para cenários em que o gerenciamento de depósito avançado não esteja habilitado.
+> - O suporte ao manuseio aprimorado de itens de lote rastreados durante o lançamento de demonstrativo para cenários de gerenciamento de depósito não avançado foi apresentado no Commerce versão 10.0.5.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

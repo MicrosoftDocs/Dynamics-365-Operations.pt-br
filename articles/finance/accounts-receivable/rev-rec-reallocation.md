@@ -2,7 +2,7 @@
 title: Realocação de reconhecimento de receita
 description: Este tópico fornece informações sobre a realocação, que permite que as organizações recalculem os preços de receita quando os termos de uma venda contratual são alterados. Ele inclui links para outros tópicos que descrevem como reconhecer a receita em vários cenários.
 author: kweekley
-ms.date: 12/21/2020
+ms.date: 09/09/2021
 ms.topic: index-page
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2020-12-21
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 50ae395c370947e348714ce5685123328849966f3a67903e9ddf8c27dee42f5f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 53304842bdbe7dadb435ab3a0381f3835c2c443a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745028"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7487009"
 ---
 # <a name="revenue-recognition-reallocation"></a>Realocação de reconhecimento de receita
 
@@ -35,10 +35,22 @@ Sua organização deve determinar se a realocação em si é necessária. A adi�
 Existem algumas limitações importantes no processo de realocação:
 
 - O processo só pode ser executado uma vez. Portanto, é importante executá-lo somente após a finalização de todas as alterações.
+
+    - Essa limitação foi removida na versão 10.0.17 e posterior.
+
 - O processo não pode ser executado em ordens de venda do projeto.
+
+    - Essa limitação foi removida na versão 10.0.17 e posterior.
+
 - Se várias ordens de venda estiverem envolvidas, elas deverão ser para a mesma conta de cliente.
 - Todas as ordens de venda realocadas devem estar na mesma moeda da transação.
 - O processo não pode ser revertido nem desfeito após a execução.
+
+    - Essa limitação foi removida na versão 10.0.17 e posterior.
+
+- A realocação poderá ser feita somente para as ordens de venda ou para as ordens de venda do projeto. Não é possível fazer a realocação para uma combinação de ordens de venda e ordens de venda do projeto.
+
+    - Essa limitação foi removida na versão 10.0.17 e posterior.
 
 ## <a name="set-up-reallocation"></a>Configurar realocação
 
@@ -78,7 +90,7 @@ Para iniciar o processo de realocação, selecione **Realocar o preço com as no
 
 [![Página Realocar o preço com novas linhas da ordem.](./media/02_RevRecScenarios.png)](./media/02_RevRecScenarios.png)
 
-A grade superior da página **Realocar o preço com novas linhas da ordem** é chamada **Vendas**. Ela lista as ordens de venda para o cliente. Selecione as ordens de venda que devem ser realocadas. Não é possível selecionar ordens de venda do projeto porque as ordens de venda do projeto não podem ser realocadas. Também não é possível selecionar ordens de venda que já tenham uma ID de realocação, porque as ordens de venda não relacionadas ao projeto só podem ser realocadas uma vez. Se uma ordem de venda tiver uma ID de realocação, ela já foi marcada para realocação por outro usuário.
+A grade superior da página **Realocar o preço com novas linhas da ordem** é chamada **Vendas**. Ela lista as ordens de venda para o cliente. Selecione as ordens de venda que devem ser realocadas. Se uma ordem de venda tiver uma ID de realocação, ela já foi marcada para realocação por outro usuário. Se uma ou mais ordens de venda foram alocadas anteriormente e devem ser incluídas em outra realocação, a realocação dessas ordens de venda deve ser desfeita primeiro. Elas poderão então ser incluídas em uma nova realocação. Para obter mais informações detalhadas, consulte as seções [Desfazer uma realocação](#undo-a-reallocation) e [Realocar várias vezes](#reallocate-multiple-times) neste tópico.
 
 A grade inferior na página é chamada **Linhas**. Depois que selecionar uma ou mais ordens de venda na grade de **Vendas**, a grade de **Linhas** mostrará as linhas da ordem de venda. Selecione as linhas da ordem de venda que devem ser realocadas. Se você selecionou somente uma ordem de venda, as linhas na mesma ordem de venda deverão ser realocadas. Essa situação pode ocorrer quando uma das linhas da ordem de venda foi faturada anteriormente e uma nova linha foi adicionada ou quando uma linha existente foi removida ou cancelada. Se uma linha foi removida, ela não aparecerá na grade. Portanto, ela não pode ser selecionada. No entanto, ela ainda será considerada quando o processo de realocação for executado.
 
@@ -104,6 +116,26 @@ Depois que concluir a seleção das linhas de ordem de venda necessárias, use o
 
 - **Redefinir dados para o cliente selecionado** — se o processo de realocação foi iniciado mas não foi concluído, limpa os dados na tabela de realocação somente para o cliente selecionado. Por exemplo, você marca várias linhas de ordem de venda para realocação, deixa a página aberta sem selecionar **Processar** e, em seguida, a página expira. Nesse caso, as linhas da ordem de venda permanecerão marcadas e não estarão disponíveis para que outro usuário conclua o processo de realocação. A página pode estar em branco ao ser aberta. Nesse caso, o botão **Redefinir dados do cliente selecionado** pode ser usado para limpar ordens de venda não processadas para que outro usuário possa concluir o processo de realocação.
 
+## <a name="undo-a-reallocation"></a>Desfazer uma realocação
+
+É possível desfazer uma realocação fazendo outra realocação. A realocação é feita novamente, e o usuário seleciona diferentes linhas da ordem de venda para incluir no segundo processo de realocação.
+
+Se uma realocação foi feita em duas ou mais ordens de venda separadas, ela pode ser desfeita selecionado **Realocar o preço com novas linhas da ordem** a partir de qualquer ordem de venda que esteja incluída na realocação. Não é possível acessar **Reconhecimento de receita \> Tarefas periódicas \> Realocar o preço com novas linhas da ordem** para desfazer a realocação porque a página que é aberta dessa forma exibe somente as ordens de venda sem ID de realocação. A ID de realocação será atribuída depois que o documento for realocado.
+
+Na página **Realocar o preço com novas linhas da ordem**, desmarque as ordens de venda que devem ser excluídas do acordo contratual. Use os botões apropriados no Painel de Ações, como **Atualizar realocação** e **Processar**, para processar a realocação. Se todas as ordens de venda, exceto as ordens de venda ativas forem desmarcadas, a ID de realocação será removida quando a alteração for processada.
+
+Se uma realocação foi feita adicionando uma nova linha a uma ordem de venda faturada total ou parcialmente, a realocação poderá ser desfeita somente pela remoção dessa linha da ordem de venda e pela execução da realocação novamente. A linha da ordem de venda deve ser removida porque presume-se que todas as linhas em uma ordem de venda sejam parte do mesmo contrato. Não é possível desmarcar uma linha da ordem de venda enquanto você estiver na página **Realocar o preço com novas linhas da ordem**.
+
+## <a name="reallocate-multiple-times"></a>Realocar várias vezes
+
+É possível fazer várias realocações em relação à mesma ordem de venda se foram feitas várias alterações no contrato. Cada realocação aciona a atribuição de uma ID de realocação à ordem de venda ou ao grupo de ordens de venda, para agrupar as alterações. Se várias realocações forem feitas, cada realocação adicional usará a mesma ID de realocação que a primeira.
+
+Por exemplo, o número da ordem de venda SO-00045 foi inserido e tem várias linhas. Depois que a ordem de venda foi totalmente faturada, uma nova linha da ordem de venda é adicionada a ela. A realocação então é feita abrindo a página **Realocar o preço com novas linhas da ordem** a partir da ordem de venda 00045 ou acessando **Reconhecimento de receita \> Tarefas periódicas \> Realocar o preço com novas linhas da ordem**. A ID de realocação **Reall000001** é atribuída à ordem de venda.
+
+Uma segunda ordem de venda, 00052, é criada para o mesmo contrato. A realocação pode ser executada novamente abrindo a página **Realocar o preço com novas linhas da ordem** a partir da ordem de venda 00045, mas não a partir da ordem 00052. Se você abrir a página **Realocar o preço com novas linhas da ordem** a partir da ordem de venda 00052, a ordem de venda 00045 não será exibida, porque a ID de realocação foi atribuída a ela. A página mostra somente as ordens de venda que não tenham nenhuma ID de realocação.
+
+Há duas maneiras de fazer a segunda realocação. Você pode desfazer a realocação da ordem de venda 00045. Nesse caso, a ID de realocação será removida e você poderá fazer a realocação a partir da ordem de venda 00045 ou da 00052. Como alternativa, você pode abrir a página **Realocar o preço com novas linhas da ordem** a partir da ordem de venda 00045 e adicionar a segunda ordem de venda. Quando a realocação for processada, a ID de realocação **Reall000001** será atribuída às ordens de venda 00045 e 00052.
+
 ## <a name="scenarios-for-reallocation"></a>Cenários para realocação
 
 Os tópicos a seguir passam por vários cenários de reconhecimento de receita:
@@ -112,6 +144,5 @@ Os tópicos a seguir passam por vários cenários de reconhecimento de receita:
 - [Realocação de reconhecimento de receita — cenário 2](rev-rec-reallocation-scenario-2.md) — duas ordens de venda são inseridas e o cliente adiciona um item ao contrato depois que a primeira ordem de venda foi faturada.
 - [Realocação de reconhecimento de receita — cenário 3](rev-rec-reallocation-scenario-3.md) — uma nova linha é adicionada a uma ordem de venda faturada existente.
 - [Realocação de reconhecimento de receita — cenário 4](rev-rec-reallocation-scenario-4.md) — uma linha é removida de uma ordem de venda existente faturada parcialmente.
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
