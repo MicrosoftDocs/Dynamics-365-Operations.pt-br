@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 95f7ceb39d2afef1871f395ed562632865022b39
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 4c178ddf342b13a0ef8fee8b8b958554a9a31069
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345257"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500581"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>Códigos de motivo de contagem de estoque
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Os códigos de motivo permitem analisar os resultados de um processo de contagem e quaisquer discrepâncias que ocorrem durante esse processo. Você pode especificar o motivo da contagem como um palete quebrado ou um ajuste de estoque que é baseado nas amostras de estoque. Ao mesmo tempo, você pode usar a funcionalidade de ajuste para lançar o valor de ajustes de estoque disponível na contrapartida apropriada, com base no motivo para cada ajuste de estoque.
 
@@ -43,11 +42,9 @@ Antes de você configurar o sistema, recomendamos que você defina uma estratég
 
 ## <a name="turn-on-reason-code-features-in-your-system"></a>Ativar recursos de código de motivo no seu sistema
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Se você não vir todos os recursos descritos neste tópico no seu sistema, provavelmente precisará ativar o recurso *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo se necessário. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Ajustes de lançamento disponível usando códigos de motivo configuráveis associados a contrapartidas*
 
 ## <a name="set-up-reason-codes"></a>Configurar códigos de motivo
@@ -167,7 +164,7 @@ Para configurar um item de menu do dispositivo móvel para ajuste de entrada e d
 1. Defina o campo **Modo** como *Trabalho*.
 1. Defina a opção **Usar trabalho existente** como *Não*.
 1. No campo **Processo de criação de trabalho**, selecione *Ajuste de entrada* ou *Ajuste de saída*.
-1. Na FastTab **Geral**, defina os seguintes campos. (Todos esses campos são adicionados quando você seleciona *Ajuste de entrada* ou *Ajuste de saída* no campo **Processo de criação de trabalho**.)
+1. Na Guia Rápida **Geral**, defina os seguintes campos. (Todos esses campos são adicionados quando você seleciona *Ajuste de entrada* ou *Ajuste de saída* no campo **Processo de criação de trabalho**.)
 
     - **Usar guia de processos** – Se você estiver criando um processo de *Ajuste de saída*, certifique-se de definir esta opção como *Sim*. Se você estiver criando um processo de *Ajuste de saída*, esta opção será sempre definida como *Sim*.
     - **Código de motivo de contagem padrão** - Defina o código de motivo padrão que deve ser registrado quando o item de menu de dispositivo móvel é usado para fazer a contagem.
@@ -182,7 +179,7 @@ Para configurar um item de menu do dispositivo móvel para ajuste de entrada e d
 > [!NOTE]
 > Quando você atribui um grupo de códigos de motivo para contagem aos itens de menu *Ajuste de entrada* e *Ajuste de saída* em que a opção **Usar guia de processos** esteja definida como *Sim*, você pode obter uma lista limitada dos códigos de motivo para contagem como parte do processamento no aplicativo móvel Warehouse Management.
 >
-> A opção **Usar guia de processos** também pode ajudar a evitar que grandes quantidades de ajuste ocorram por engano. (Por exemplo, um trabalhador pode digitalizar acidentalmente um código de barras de um número de item em vez de um valor de quantidade.) Para definir essa funcionalidade, defina a opção **Usar guia de processos** como *Sim* para cada item de menu relevante. Em seguida, Acesse **Warehouse Management \> Configuração \> Trabalhador** e defina o campo **Limite de quantidade do ajuste** para cada trabalhador de depósito relevante para especificar a quantidade de ajuste máximo que o trabalhador pode registrar.
+> A opção **Usar guia de processos** também pode ajudar a evitar que grandes quantidades de ajuste ocorram por engano. (Por exemplo, um trabalhador pode digitalizar acidentalmente um código de barras de um número de item em vez de um valor de quantidade.) Para definir essa funcionalidade, defina a opção **Usar guia de processos** como *Sim* para cada item de menu relevante. Em seguida, Acesse **Gerenciamento de depósito \> Configuração \> Trabalhador** e defina o campo **Limite de quantidade do ajuste** para cada trabalhador de depósito relevante para especificar a quantidade de ajuste máximo que o trabalhador pode registrar.
 
 ## <a name="processing-that-uses-counting-reason-codes"></a>Processamento que usa códigos de motivo para contagem
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar tipos de licença e ausência
 description: Configurar tipos de licença que os funcionários podem executar no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 07/16/2021
+author: twheeloc
+ms.date: 09/09/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 0ca474fe12867ae767db936ad0b2995c4437bdf0ee94831450fda825b9e075dc
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b616d1f2c8b0bc8131045424b01dbfaa82f41f84
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6730409"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485798"
 ---
 # <a name="configure-leave-and-absence-types"></a>Configurar tipos de licença e ausência
 
@@ -65,9 +65,9 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 
 1. Defina as opções de arredondamento para o tipo de licença. As opções incluem **Nenhum**, **Para cima**, **Para baixo** e **Mais próximo**. Você também pode definir a precisão de arredondamento para o tipo de licença.
 
-2. Defina a **Correção de feriado** para o tipo de licença. Quando você seleciona esta opção, o Human Resources usa o número de feriados que caem em um dia útil para determinar como acumular folgas para o tipo de licença. Por exemplo, se o dia de Natal cair na segunda-feira, o Human Resources subtrairá um dia do tipo de licença ao processar competências.
+2. Defina a **Correção de feriado** para o tipo de licença. Quando você selecionar esta opção, o número de feriados que caem em um dia útil será usado para determinar como acumular folgas para o tipo de licença. Por exemplo, se o dia de Natal cair na segunda-feira, o Human Resources subtrairá um dia do tipo de licença ao processar competências.
 
-   Você pode definir feriados no calendário de horário de trabalho. Para obter mais informações, consulte [Criar um calendário de horário de trabalho](hr-leave-and-absence-working-time-calendar.md)
+   Você pode definir feriados no calendário de horário de trabalho. Para obter mais informações, consulte [Criar um calendário de horário de trabalho](hr-leave-and-absence-working-time-calendar.md).
    
  3. Defina **Postergar tipo de licença** para o tipo de licença. Quando você selecionar esta opção, qualquer saldo de postergação será transferido para o tipo de licença especificado. O tipo de licença de postergação também precisa ser incluído no plano de licença e ausência. 
  
@@ -76,7 +76,7 @@ Os tipos de licenças no Dynamics 365 Human Resources definem os tipos de ausên
 ## <a name="configure-the-required-attachment-per-leave-type"></a>Configurar o anexo necessário por tipo de licença
 
 > [!NOTE]
-> Para usar o campo **Anexo necessário**, é necessário primeiro ativar o recurso **(Versão preliminar) Configurar o anexo necessário para solicitações de licença** no gerenciamento de recursos. Para obter mais informações sobre como ativar a versão prévia dos recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+> Para usar o campo **Anexo necessário**, primeiro ative o recurso **Configurar o anexo necessário para solicitações de licença** no gerenciamento de recursos. Para obter mais informações sobre como ativar recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
 
 1. Na página **Licença e ausência**, na guia **Links**, em **Configuração**, selecione **Tipos de licença e ausência**.
 
@@ -87,7 +87,7 @@ Os funcionários serão solicitados a carregar um anexo quando enviarem uma nova
 ## <a name="configure-leave-units-hoursdays-per-leave-type"></a>Configurar unidades de licença (horas/dias) por tipo de licença
 
 > [!NOTE]
-> Para usar a funcionalidade de unidades de licença por tipo de licença, é necessário primeiro ativar o recurso **(Versão preliminar) Configurar unidades de licença por tipo de licença** no gerenciamento de recursos. Para obter mais informações sobre como ativar a versão prévia dos recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
+> Para usar a funcionalidade de unidades de licença por tipo de licença, primeiro ative o recurso **Configurar unidades de licença por tipo de licença** no gerenciamento de recursos. Para obter mais informações sobre como ativar recursos, consulte [Gerenciar recursos](hr-admin-manage-features.md).
 
 > [!IMPORTANT]
 > Por padrão, os tipos de licença em uma entidade legal usam as unidades de licença da configuração de parâmetros de licença no nível da entidade legal.

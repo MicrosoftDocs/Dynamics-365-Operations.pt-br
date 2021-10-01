@@ -1,27 +1,39 @@
 ---
 title: O que há de novo ou mudou no aplicativo móvel Warehouse Management
 description: Este tópico lista os recursos novos e alterados para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
-author: ivanv-microsoft
-ms.date: 07/30/2021
+author: MarkusFogelberg
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: ivanv
+ms.author: mafoge
 ms.search.validFrom: 2021-06-07
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6d98cea29f4c25319caed6680966f61c660778f0
-ms.sourcegitcommit: 3d05bb2a423fe130700686ff73daa355d15b0e09
+ms.openlocfilehash: ac3ea6a088b2086054eb692cd0688b269dafca51
+ms.sourcegitcommit: e7eeca05d738e9e46d6185d1ba349836ebafc1a4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386090"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485613"
 ---
 # <a name="whats-new-or-changed-in-the-warehouse-management-mobile-app"></a>O que há de novo ou mudou no aplicativo móvel Warehouse Management
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico lista recursos novos, correções, aprimoramentos e problemas conhecidos para cada versão lançada do aplicativo móvel Warehouse Management para o Microsoft Dynamics 365 Supply Chain Management.
+
+## <a name="version-20100"></a>Versão 2.0.10.0
+
+Esta versão introduz os novos recursos, correções e aprimoramentos a seguir:
+
+- Animação adicionada ao passar por listas e páginas.
+- O texto agora quebra corretamente na página de erro da conexão.
+- As caixas de combinação sem valores padrão agora são exibidas corretamente.
+- As informações na área do subcabeçalho são exibidas somente na página detalhes completos.
+- Os campos de entrada vazios não são mais mostrados no cartão de detalhes.
+- Os valores de confirmação não são mais duplicados no cartão de detalhes.
+- Vários problemas que fizeram com que o sistema parasse de responder foram corrigidos.
 
 ## <a name="version-2090"></a>Versão 2.0.9.0
 

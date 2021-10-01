@@ -2,7 +2,7 @@
 title: Configurar a função de Gerente de ausências
 description: Este tópico explica como configurar a função Gerente de ausências para o gerenciamento de licenças de funcionários.
 author: hasrivas
-ms.date: 07/19/2021
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: hasrivas
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 050874628388629569751afae201ef346af020da09c81d24a69e1a4b5eb41b6f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7f2a2fd0a1ad1cca19625ff1029962f608251f1d
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732336"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485745"
 ---
 # <a name="configure-the-absence-manager-role"></a>Configurar a função de Gerente de ausências
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 Em algumas organizações, é possível que os gerentes de pessoal não gerenciem as licenças das equipes. Em vez disso, um gerente de ausências pode lidar com esse processo para membros da equipe em vários departamentos e equipes. Os gerentes de ausências têm os seguintes recursos para o gerenciamento de licenças:
 
@@ -38,7 +36,7 @@ Em algumas organizações, é possível que os gerentes de pessoal não gerencie
 
 1. No espaço de trabalho **Administração do sistema**, selecione **Gerenciamento de recursos**.
 
-2. Na guia **Gerenciamento de recursos**, habilite o recurso **(Versão preliminar) Gerente de ausências para gerenciar a licença**.
+2. Na guia **Gerenciamento de recursos**, habilite o recurso **Gerente de ausências para gerenciar a licença**.
 
 ## <a name="define-a-custom-hierarchy"></a>Definir uma hierarquia personalizada
 
@@ -89,7 +87,7 @@ A função Gerente de ausências deve ser atribuída aos funcionários para perm
 
 ## <a name="absence-manager-workspace"></a>Espaço de trabalho do gerente de ausências
 
-No espaço de trabalho **Autoatendimento para Funcionários**, a guia **Gerenciamento de licenças** mostra as informações de ausência sobre os funcionários atribuídos ao gerente de ausências na hierarquia de licenças. Existem algumas opções disponíveis para o gerente de ausências: 
+No espaço de trabalho **Autoatendimento para funcionários**, a guia **Gerenciamento de licenças** mostra as informações de ausência sobre os funcionários atribuídos ao gerente de ausências na hierarquia de licenças. Existem algumas opções disponíveis para o gerente de ausências: 
  - Analisar solicitações de folga.</br>
  - Envie uma solicitação de folga em nome de um funcionário.</br>
  - Exiba todos os funcionários atribuídos ao gerente como parte da hierarquia de licenças.</br>
@@ -106,7 +104,7 @@ No espaço de trabalho **Gerenciamento de licenças**, há duas guias:
 Os gerentes de ausências podem aprovar ou negar solicitações de folga de funcionários. 
 
 > [!IMPORTANT]
-> Para que os gerentes de ausências possam aprovar ou negar solicitações de folga, o fluxo de trabalho de solicitação de licença deve ser configurado para atribuir itens de trabalho de solicitação de licença a eles para análise.
+> Para que gerentes de ausências possam aprovar ou negar solicitações de folga, o fluxo de trabalho de solicitação de licença deve ser configurado para atribuir itens de trabalho de solicitação de licença para análise.
 >
 > 1. Na página **Fluxos de trabalho de recursos humanos**, selecione ou crie o fluxo de trabalho de solicitação de licença.
 > 2. Selecione a opção **Associar hierarquia** e, em seguida, no campo **Nome da hierarquia**, selecione **Licença**.
@@ -114,7 +112,7 @@ Os gerentes de ausências podem aprovar ou negar solicitações de folga de func
 >
 > Para obter informações sobre como criar o fluxo de trabalho de solicitações de licença, consulte [Criar um fluxo de trabalho de solicitações de licença](hr-leave-and-absence-workflow.md).
 
-1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione a guia **Gerenciamento de licenças**.
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione a guia **Gerenciamento de licenças**.
 
 2. Na guia **Solicitações de folga**, selecione as solicitações de folga para as quais você deseja executar ações. Você pode selecionar vários registros nessa exibição de lista.
 
@@ -129,7 +127,7 @@ Os usuários na função Gerente de ausências podem exibir solicitações de fo
 > [!IMPORTANT]
 > Um administrador do sistema deve configurar as opções de exibição para o calendário do gerente de ausências. Na página **Parâmetros de licença e ausência**, na guia **Calendário**, há opções para ocultar ou mostrar aniversários, ausências sem detalhes, licenças e solicitações de licença pendentes. Há também uma opção para filtrar a opção de exibição calendário por tipo de trabalhador.
 
-1. No espaço de trabalho **Autoatendimento para Funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
+1. No espaço de trabalho **Autoatendimento para funcionários**, selecione **Gerenciamento de licenças** e **Calendário do gerente de ausências**.
 
 2. No campo **Data**, insira as datas desejadas.
 

@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: d2e1e4596a6052ea80d6e578dccf2564269d97444cd5b302acb5968cca2c884f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d8e2a42d8e12a5a9cf18e876b6f9e45ecb877881
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6782578"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500014"
 ---
 # <a name="update-tracking-for-put-away"></a>Atualizar rastreamento a ser armazenado
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 A tarefa periódica *Acompanhamento de atualizações para armazenamento* foi criada para ser executada como um lote recorrente noturno. Ela identifica quais viagens receberam todas as transações de estoque e quais viagens não têm um valor para a data de término real. Em seguida, ela define a data final real como a data atual, conforme necessário.
 
@@ -37,6 +36,6 @@ Para configurar e executar a tarefa periódica *Acompanhamento de atualizações
     - **Trecho** – Selecione o nome/número de identificação exclusivo para a parte de uma jornada para a qual você deseja atualizar o rastreamento. O valor selecionado deve representar a chegada da viagem no depósito.
     - **Atividade** – Selecione a atividade que foi realizada durante o trecho selecionado. Esses valores são atribuídos por linha de modelo de jornada no centro de controle de rastreamento.
 
-1. Para limitar o conjunto de registros que deve ser incluído na atualização, selecione o botão **Filtrar** na FastTab **Registros a serem incluídos**. Uma caixa de diálogo de consulta padrão é exibida, na qual você pode definir critérios de seleção, critérios de classificação e junções. Os campos funcionam da mesma forma que em outros tipos de consultas no Supply Chain Management. Os campos aqui são somente leitura e mostram os valores relacionados à sua consulta.
+1. Para limitar o conjunto de registros que deve ser incluído na atualização, selecione o botão **Filtrar** na Guia Rápida **Registros a serem incluídos**. Uma caixa de diálogo de consulta padrão é exibida, na qual você pode definir critérios de seleção, critérios de classificação e junções. Os campos funcionam da mesma forma que em outros tipos de consultas no Supply Chain Management. Os campos aqui são somente leitura e mostram os valores relacionados à sua consulta.
 1. Na guia rápida **Executar em segundo plano**, configure as opções de lote e de agendamento conforme necessário, da mesma forma que em outros tipos de trabalho no Supply Chain Management.
 1. Selecione **OK** para aplicar suas configurações e para executar ou agendar a atualização.

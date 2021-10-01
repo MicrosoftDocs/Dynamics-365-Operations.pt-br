@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2021-05-02
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: 2fd3d2e4f4c3e53913bd811728b0950c63b38bc5afe6fe5282b4cfb05f414619
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 45c5774ac1f6db5845d6be6bf2f5d8f99063ea07
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744169"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488193"
 ---
 # <a name="enable-change-management-on-existing-products"></a>Habilitar gerenciamento de modificações em produtos existentes
 
@@ -47,7 +47,9 @@ Portanto, se tiver um produto distinto, você poderá alterá-lo somente para um
 
 Uma *categoria de produto de engenharia* deve ser atribuída a todos os produtos de engenharia. Você fará essa atribuição quando executar o assistente para **Converter em produto de engenharia**. As categorias de produtos de engenharia devem existir para todos os produtos padrão relevantes *antes* que eles possam ser convertidos.
 
-A categoria de produto de engenharia fornecem a base para a criação de um produto de engenharia e estabelece um conjunto de valores e políticas padrão. A categoria de produto de engenharia deve corresponder ao produto ao qual ela foi atribuída. Por exemplo, o tipo de produto e o grupo de dimensões devem corresponder com o produto e com sua categoria de produto de engenharia. Para obter mais informações, consulte [Versões de engenharia e categorias de produto de engenharia](engineering-versions-product-category.md).
+A categoria de produto de engenharia fornecem a base para a criação de um produto de engenharia e estabelece um conjunto de valores e políticas padrão. Os atributos de engenharia e seus valores padrão (conforme definido para a categoria de engenharia) também são aplicados ao produto de engenharia resultante. Você pode editar os valores de atributo e/ou adicionar mais atributos de engenharia ao produto resultante, conforme necessário.
+
+A categoria de produto de engenharia deve corresponder ao produto ao qual ela foi atribuída. Por exemplo, o tipo de produto e o grupo de dimensões devem corresponder com o produto e com sua categoria de produto de engenharia. Para obter mais informações, consulte [Versões de engenharia e categorias de produto de engenharia](engineering-versions-product-category.md).
 
 > [!IMPORTANT]
 > O assistente para **Converter em produto de engenharia** pode converter o produto somente em produtos de engenharia nos quais a versão não é rastreada nas transações. Portanto, a opção **Rastrear versão nas transações** deve ser definida como *Não* para as categorias de produtos de engenharia que você cria para converter os produtos existentes.

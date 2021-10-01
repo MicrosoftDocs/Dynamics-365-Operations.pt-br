@@ -2,7 +2,7 @@
 title: Pronto para Pagar
 description: Este tópico mostra como marcar um funcionário como pronto para pagar no Dynamics 365 Human Resources.
 author: marcelbf
-ms.date: 07/13/2020
+ms.date: 08/25/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 70b3f31db459fe021caf08fe09b2e44a597294d1992ee16a69efd8745941a4bd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6732408"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483773"
 ---
 # <a name="ready-to-pay"></a>Pronto para Pagar
 
@@ -39,7 +39,7 @@ Coletar e validar as informações dos funcionários pode ser demorado e propens
 
 Como marcar um funcionário como pronto para pagar:
 
-1. Abra **Gerenciamento de remuneração**. Há dois blocos no espaço de trabalho 
+1. Abra **Gerenciamento de remuneração**. Há dois blocos no espaço de trabalho: 
     - **Funcionários que estão prontos para pagar**
     - **Funcionários que não estão prontos para pagar**
     ![Espaço de trabalho de gerenciamento de remuneração.](./media/hr-ready-to-pay-1-workspace.png)
@@ -53,22 +53,20 @@ Como marcar um funcionário como pronto para pagar:
 
 ## <a name="validation"></a>Validação
 
-Antes de marcar um funcionário como pronto para pagar, o sistema fará uma validação básica sobre a integridade do perfil.
+Antes de marcar um funcionário como pronto para pagar, o perfil do funcionário será validado para integridade.
 
 ![Valide os resultados.](./media/hr-ready-to-pay-3-results.png)
 
-A tabela a seguir fornece informações sobre cada uma das validações realizadas. 
-
 | Validação | Detalhes |
 | --- | --- |
-| Parâmetro de finalidade do endereço | Valida se o parâmetro **Usar a finalidade do endereço da folha de pagamento** estiver ativo. |
-| Endereço da folha de pagamento | Valida se o perfil do trabalhador tiver pelo menos um endereço com a finalidade "Localização da residência de folha de pagamento" ou "Localização do trabalho da folha de pagamento" e se houver apenas um endereço por finalidade. |
-| Emprego | Verifique se o trabalhador tem pelo menos um emprego (atual, anterior ou futuro). |
-| Número de identificação | Valida se o parâmetro "Usar os tipos de identificação no processamento da folha de pagamento" for sim, e se o tipo de identificação indicado no parâmetro for preenchido no perfil do trabalhador. |
-| Nome e sobrenome | Valida se o perfil do trabalhador for válido, verificando se os campos **Nome** e **Sobrenome** estão preenchidos.|
-| Cargo | Verifique se o trabalhador tem um cargo atribuído. |
-| Data de aniversário | Valida se o perfil do trabalhador for válido, verificando se o campo **Data de nascimento** está preenchido. |
-| Remuneração | Verifique se o trabalhador está inscrito em um plano de remuneração fixa. |
+| **Parâmetro de finalidade do endereço** | Confirme que o parâmetro **Usar a finalidade do endereço da folha de pagamento** está selecionado. |
+| **Endereço da folha de pagamento** | Confirme que o perfil do trabalhador tem pelo menos um endereço com a finalidade **Localização da residência de folha de pagamento** ou **Localização do trabalho da folha de pagamento** e se há apenas um endereço por finalidade. |
+| **Emprego** | Confirme que o trabalhador tem pelo menos um emprego (atual, anterior ou futuro). |
+| **Número de identificação** | Confirme que o campo **Usar os tipos de identificação no processamento da folha de pagamento** é **Sim** na página **Parâmetros de recursos humanos**, e se o tipo de identificação indicado no parâmetro é preenchido no perfil do trabalhador. |
+| **Nome e sobrenome** | Confirma que os campos **Nome** e **Sobrenome** são preenchidos.|
+| **Cargo** | Confirma que o trabalhador tem um cargo atribuído. |
+| **Data de aniversário** | Confirma que o campo **Aniversário** está preenchido. |
+| **Remuneração** | Confirma que o trabalhador está inscrito em um plano de remuneração fixa. |
 
 Se uma dessas validações falhar, não será possível marcar o funcionário como pronto para pagar.
 
@@ -77,7 +75,7 @@ Se o campo **Pronto para pagar** for **Não**, isso é um indício de que você 
 ## <a name="known-issues"></a>Problemas conhecidos
 
 - É necessário desativar o recurso **Entrada simplificada de funcionários** no gerenciamento de recursos. Os blocos no espaço de trabalho de gerenciamento de remuneração não funcionarão corretamente se você usar esse recurso.
-- No formulário do trabalhador, na guia **Folha de Pagamento**, o grupo **Prontos para pagar** está disponível para qualquer função do usuário. 
+- Na página **Trabalhador**, na guia **Folha de pagamento**, o grupo **Pronto para pagar** está disponível para qualquer função do usuário. 
 
 ## <a name="see-also"></a>Consulte também
 

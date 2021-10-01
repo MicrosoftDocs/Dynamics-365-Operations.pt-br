@@ -2,7 +2,7 @@
 title: Exibições salvas
 description: Este tópico descreve como usar os recursos de exibições salvas.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2019-07-31
 ms.dyn365.ops.version: Platform update 28
-ms.openlocfilehash: 9cca56a108177520f4aebea03f7f4d776f46fa3f
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: d6a7b1b21816db43a92364584e15ec04b891c611
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344335"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487832"
 ---
 # <a name="saved-views"></a>Exibições salvas
 
 [!include [banner](../includes/banner.md)]
-[!include [preview banner](../includes/preview-banner.md)]
 
 ## <a name="introduction"></a>Introdução
 
@@ -52,7 +51,7 @@ Se você selecionar o nome da exibição, o seletor de exibição será aberto e
 
 - **Exibição padrão** – a exibição **padrão** é a exibição pronta para uso da página, em que nenhuma personalização é aplicada.
 - **Exibições pessoais** – as exibições sem cadeados representam as exibições pessoais. São exibições que você criou ou que um administrador forneceu a você.
-- **Exibições bloqueadas** – algumas exibições (como a exibição **Padrão** e todas as exibições publicadas na sua função) têm um símbolo de cadeado ao lado no seletor de exibição. Este símbolo indica que não é possível editar essas exibições. No entanto, as alterações que refletem o uso da página são salvas automaticamente. Essas alterações incluem alterações na largura de uma coluna de grade e alterações no estado expandido ou recolhido de uma FastTab. Entretanto, se você tiver privilégios de personalização, você pode usar a ação **Salvar como** para criar uma exibição pessoal baseada em uma exibição bloqueada.
+- **Exibições bloqueadas** – algumas exibições (como a exibição **Padrão** e todas as exibições publicadas na sua função) têm um símbolo de cadeado ao lado no seletor de exibição. Este símbolo indica que não é possível editar essas exibições. No entanto, as alterações que refletem o uso da página são salvas automaticamente. Essas alterações incluem alterações na largura de uma coluna de grade e alterações no estado expandido ou recolhido de uma Guia Rápida. Entretanto, se você tiver privilégios de personalização, você pode usar a ação **Salvar como** para criar uma exibição pessoal baseada em uma exibição bloqueada.
 - **Novas exibições** – as exibições publicadas que ainda não foram abertas têm um símbolo de spark à esquerda do nome da exibição.
 
 Para alternar para uma exibição diferente, primeiro abra o seletor de exibição e selecione a exibição que deseja carregar. 

@@ -9,12 +9,12 @@ ms.reviewer: rhaertle
 ms.search.region: global
 ms.author: ramasri
 ms.search.validFrom: 2020-01-06
-ms.openlocfilehash: f84a81444e6d5ce9a0d2da4c9a60b1ae3478ee2f
-ms.sourcegitcommit: 2d8035f8bb75957c793c0d293c079a792595eeaf
+ms.openlocfilehash: 4467d313aa2518b23434ec05989eb3e87cd35dfa
+ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7481306"
+ms.lasthandoff: 09/09/2021
+ms.locfileid: "7485725"
 ---
 # <a name="sync-on-demand-with-the-supply-chain-management-pricing-engine"></a>Sincronizar sob demanda com o mecanismo de preços do Supply Chain Management
 
@@ -60,6 +60,7 @@ Quando as colunas no Sales são preenchidas, as seguintes limitações se aplica
 + A configuração de encargos e alocações de encargos no Supply Chain Management não é replicada no Sales.
 + Os preços não consideram os preços especiais de varejo especificados na coluna **Canal de Varejo** na página da linha de ordem de venda no Supply Chain Management.
 + Os descontos definidos na seção **Gerenciamento de bonificação comercial** do Supply Chain Management não são considerados.
++ O preço não considera os contratos de venda.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

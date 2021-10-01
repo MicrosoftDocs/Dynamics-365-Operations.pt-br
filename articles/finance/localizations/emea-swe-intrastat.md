@@ -9,12 +9,12 @@ ms.reviewer: kfender
 ms.search.region: Global
 ms.author: v-aosipov
 ms.search.validFrom: ''
-ms.openlocfilehash: 404fb8dff1519aefb2f4af25eb95dfa6fce75b7c
-ms.sourcegitcommit: 259ba130450d8a6d93a65685c22c7eb411982c92
+ms.openlocfilehash: 152bfd24843867685b1d303484ed61ad98ec652a
+ms.sourcegitcommit: 3f6cbf4fcbe0458b1515c98a1276b5d875c7eda7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7417073"
+ms.lasthandoff: 09/10/2021
+ms.locfileid: "7486937"
 ---
 # <a name="swedish-intrastat"></a>Intrastat Sueco
 
@@ -44,19 +44,19 @@ Para obter mais informações, consulte [Baixar configurações ER do repositór
 ## <a name="set-up-foreign-trade-parameters"></a>Configurar parâmetros de comércio exterior
 
 1. No Microsoft Dynamics 365 Finance, vá para **Imposto** > **Configuração** > **Parâmetros de comércio exterior**.
-2. Na guia **Intrastat**, na FastTab **Relatório eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **Intrastat (SE)**.
+2. Na guia **Intrastat**, na Guia Rápida **Relatório eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **Intrastat (SE)**.
 3. No campo **Mapeamento de formato de relatório**, selecione **Relatório Intrastat**.
 4. Na Guia Rápida **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, selecione **Intrastat**.
 5. No campo **Código da transação**, selecione o código da transação para transferências de propriedades. Você usa esse código para transações que produzem transferências reais ou planejadas da propriedade sobre compensação (financeira ou outra). Ele também é usado para correções. As empresas na Suécia usam códigos de transação de um dígito.
-6. No campo **Nota de crédito**, selecione o código de transação para a devolução de bens. Você usa esse código para a devolução de bens após a transação que foi originalmente registrada no código da transação. As empresas na Suécia usam códigos de transação de um dígito.
+6. No campo **Nota de crédito**, selecione o código de transação para a devolução de bens.
 7. Na guia **Propriedades de país/região**, no campo **País/região**, indique todos os países ou regiões com os quais sua empresa faz negócios. Para cada país que faz parte da UE, no campo **Tipo de país/região**, selecione **UE**, para que o país ou a região apareça no relatório Intrastat.
 
 ## <a name="set-up-the-product-parameters-for-the-intrastat-declaration"></a>Configurar os parâmetros de produto para a declaração Intrastat
 
 1. Acesse **Gerenciamento de informações do produto** > **Produtos** > **Produtos liberados**.
 2. Na grade, selecione um produto.
-3. Na FastTab **Comércio exterior**, na seção **Intrastat**, no campo **Mercadoria**, selecione o código da mercadoria.
-4. Na FastTab **Gerenciar estoque**, no campo **Peso líquido**, informe o peso do produto em quilogramas.
+3. Na Guia Rápida **Comércio exterior**, na seção **Intrastat**, no campo **Mercadoria**, selecione o código da mercadoria.
+4. Na Guia Rápida **Gerenciar estoque**, no campo **Peso líquido**, informe o peso do produto em quilogramas.
 5. Acesse **Imposto** > **Configuração** > **Comércio exterior** > **Compactação do Intrastat** e selecione os campos que podem ser comparados quando a informação do Intrastat é resumida. Para a Intrastat sueco, selecione os valores para os seguintes campos:
 
     - Mercadoria
@@ -97,7 +97,7 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 ### <a name="preliminary-setup"></a>Configuração preliminar
 
 1. Vá para **Administração da organização** > **Organização** > **Entidades legal** e selecione a entidade legal **DEMF**.
-2. Na FastTab **Endereços**, selecione **Editar** e, no campo **País/região**, selecione **SUE (Suécia)**.
+2. Na Guia Rápida **Endereços**, selecione **Editar** e, no campo **País/região**, selecione **SUE (Suécia)**.
 3. Importe a versão mais recente das seguintes configurações de relatório eletrônico (ER):
 
     - Módulo intrastat
@@ -115,10 +115,10 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 ### <a name="set-up-foreign-trade-parameters"></a>Configurar parâmetros de comércio exterior
 
 1. Acesse **Imposto** > **Configuração** > **Comércio exterior** > **Parâmetros de comércio exterior**.
-2. Na guia **Intrastat**, na FastTab **Geral**, no campo **Código** **de transação**, selecione **1**.
-3. Na FastTab **Relatório eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **Intrastat (SE)**.
+2. Na guia **Intrastat**, na Guia Rápida **Geral**, no campo **Código** **de transação**, selecione **1**.
+3. Na Guia Rápida **Relatório eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **Intrastat (SE)**.
 4. No campo **Mapeamento de formato de relatório**, selecione **Relatório Intrastat**.
-5. Na FastTab **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, certifique-se de que **Intrastat** esteja selecionado.
+5. Na Guia Rápida **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, certifique-se de que **Intrastat** esteja selecionado.
 6. Na guia **Propriedades de país/região**, selecione **Novo**.
 7. No campo **País/região do participante**, selecione **SWE**.
 8. No campo **Tipo de país/região**, selecione **Doméstico**.
@@ -128,15 +128,15 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 
 1. Vá para **Gerenciamento de informações do produto** > **Produtos** > **Produtos liberados**.
 2. Na grade, selecione **D0001**.
-3. Na FastTab **Comércio exterior**, na seção **Intrastat**, no campo **Mercadoria**, selecione **100 200 30**.
-4. Na FastTab **Gerenciar estoque**, na seção **Medidas de peso**, no campo **Peso líquido**, digite **5**.
+3. Na Guia Rápida **Comércio exterior**, na seção **Intrastat**, no campo **Mercadoria**, selecione **100 200 30**.
+4. Na Guia Rápida **Gerenciar estoque**, na seção **Medidas de peso**, no campo **Peso líquido**, digite **5**.
 5. No Painel de ações, selecione **Salvar**.
 
 ### <a name="change-the-site-address"></a>Altere o endereço do site
 
-1. Vá para **Gerenciamento do depósito** > **Configuração** > **Configuração** > **Locais**.
+1. Vá para **Gerenciamento de depósito** > **Configuração** > **Configuração** > **Locais**.
 2. Na grade, selecione **1**.
-3. Na FastTab **Endereços**, selecione **Editar**.
+3. Na Guia Rápida **Endereços**, selecione **Editar**.
 4. Na caixa de diálogo **Editar endereço**, no campo **País/região**, selecione **SWE**.
 5. Selecione **OK**.
 
@@ -144,12 +144,12 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 
 1. Acesse **Contas a receber** > **Ordens** > **Todas as ordens de venda**.
 2. No Painel de Ações, selecione **Novo**.
-3. Na caixa de diálogo **Criar ordem de venda**, na FastTab **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-015**.
-4. Na FastTab **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
+3. Na caixa de diálogo **Criar ordem de venda**, na Guia Rápida **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-015**.
+4. Na Guia Rápida **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
 5. No campo **Depósito**, selecione **11**.
 6. Selecione **OK**.
-7. Na guia **Linhas**, na FastTab **Linhas de ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **10**.
-8. Na FastTab **Detalhes da linha**, na guia **Comércio exterior**, certifique-se de que os campos **Código da transação** e **Mercadoria** são definidos automaticamente.
+7. Na guia **Linhas**, na Guia Rápida **Linhas de ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **10**.
+8. Na Guia Rápida **Detalhes da linha**, na guia **Comércio exterior**, certifique-se de que os campos **Código da transação** e **Mercadoria** são definidos automaticamente.
 9. No Painel de ações, selecione **Salvar**.
 10. No Painel de Ação, na guia **Fatura**, na seção **Gerar**, selecione **Fatura**.
 11. Na caixa de diálogo **Lançando fatura**, na Guia Rápida **Parâmetros**, na seção **Parâmetro**, no campo **Quantidade**, selecione **Tudo**.
@@ -194,11 +194,11 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 3. Na caixa de diálogo **Criar ordem de venda**, no campo **Conta do fornecedor**, selecione **DE-001**.
 4. Selecione **OK**.
 5. Na guia **Cabeçalho**, na FastTAb **Comércio** **exterior**, verifique se o campo **Código da transação** está definido como **1**.
-6. Na guia **Linhas**, na FastTab **Linhas de ordem de compra**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **6**.
+6. Na guia **Linhas**, na Guia Rápida **Linhas de ordem de compra**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **6**.
 7. No Painel de Ação, na guia **Compra**, no grupo **Ações**, selecione **Confirmar**.
 8. No Painel de Ação, na guia **Fatura**, no grupo **Gerar**, selecione **Fatura**.
 9. No Painel de Ações, selecione **Padrão de**. No campo **Quantidade padrão para linhas**, selecione **Quantidade encomendada**. Em seguida, selecione **OK**.
-10. Na FastTab **Cabeçalho da fatura de fornecedor**, na seção **Identificação da fatura**, no campo **Número**, digite **0001**.
+10. Na Guia Rápida **Cabeçalho da fatura de fornecedor**, na seção **Identificação da fatura**, no campo **Número**, digite **0001**.
 11. No Painel de Ações, selecione **Lançar** para lançar a fatura.
 
 ### <a name="create-an-intrastat-declaration-for-arrivals"></a>Criar uma declaração Intrastat para entradas

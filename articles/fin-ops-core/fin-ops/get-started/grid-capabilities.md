@@ -2,7 +2,7 @@
 title: Recursos de grade
 description: Este tópico descreve vários recursos avançados do controle de grade. É necessário habilitar o novo recurso de grade para ter acesso a esses recursos.
 author: jasongre
-ms.date: 08/04/2021
+ms.date: 09/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 9bdefeedf8bbbe60f3f76d234f9b393cc8e5dbe8ede7e320e00d0b8e20dbbf73
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 9aa79e6e61f3a53073dffa5f3030892cc921d246
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6775233"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7483845"
 ---
 # <a name="grid-capabilities"></a>Recursos de grade
 
@@ -30,7 +30,7 @@ O novo controle de grade fornece vários recursos úteis e eficientes que você 
 -  Calculando totais
 -  Digitação à frente do sistema
 -  Avaliação de expressões matemáticas 
--  Agrupando de dados tabulares (habilitados separadamente usando o recurso **Agrupamento (versão prévia) em grades**)
+-  Agrupar dados tabulares (habilitados separadamente com o recurso **Agrupamento em grades**)
 -  Congelar colunas
 
 ## <a name="calculating-totals"></a>Calculando totais
@@ -93,7 +93,7 @@ Como um acelerador de produtividade, os usuários podem inserir fórmulas matem�
 Para que o sistema reconheça um valor como uma expressão, inicie o valor com um sinal de igualdade (**=**). Para obter mais informações sobre os operadores e a sintaxe permitidos, consulte [Símbolos matemáticos permitidos](http://bugwheels94.github.io/math-expression-evaluator/#supported-maths-symbols).
 
 ## <a name="grouping-tabular-data"></a>Agrupando de dados tabulares
-Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento em grades**, que está disponível para o público em geral na versão 10.0.16/Atualização da plataforma 40 e depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos do Finance and Operations. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
+Geralmente, os usuários corporativos precisam executar análises ad hoc de dados. Embora isso possa ser feito por meio da exportação de dados do Microsoft Excel e usando tabelas dinâmicas, o recurso **Agrupamento em grandes**, que depende do novo recurso de controle de grade, permite que usuários organizem dados tabulares de forma interessante em aplicativos do Finance and Operations. Como esse recurso estende o recurso **Totais**, o **Agrupamento** permite obter insights significativos sobre os dados fornecendo subtotais no nível de grupo.
 
 Para usar esse recurso, clique com o botão direito do mouse na coluna a ser agrupada e selecione **Agrupar por esta coluna**. Essa ação classificará os dados pela coluna selecionada, adicionará nova coluna **Agrupar por** ao início da grade e inserirá "linhas de cabeçalho" no início de cada grupo. Essas linhas de cabeçalho fornecem as seguintes informações sobre cada grupo: 
 -  Valor de dados para o grupo 
@@ -108,9 +108,6 @@ Depois de agrupar os dados por uma única coluna, você poderá agrupar os dados
 
 A qualquer momento, você poderá remover o agrupamento em qualquer coluna clicando com o botão direito do mouse nessa coluna e selecionando **Desagrupar**. Você também pode remover o agrupamento de todas as colunas selecionando **Opções de grade** e **Desagrupar tudo**.   
 
-Observe, antes da versão 10.0.16/Atualização da plataforma 40, só havia suporte para um nível de agrupamento. Nessas versões, se os dados forem agrupados e você selecionar **Agrupar por esta coluna** para uma coluna diferente, o agrupamento original será substituído.  
-
-
 ### <a name="expanding-and-collapsing-groups"></a>Como expandir e recolher grupos
 O agrupamento inicial de dados terá todos os grupos expandidos. Você pode criar exibições resumidas dos dados recolhendo grupos individuais ou pode usar a expansão e o recolhimento de grupos para auxiliar na navegação pelos dados. Para expandir ou recolher um grupo, selecione o botão de divisa (>) na linha de cabeçalho de grupo correspondente. Observe que o estado de expandir/recolher de grupos individuais **não** é salvo na personalização.
 
@@ -118,10 +115,10 @@ O agrupamento inicial de dados terá todos os grupos expandidos. Você pode cria
 Da mesma forma que você pode selecionar (ou cancelar) todas as linhas na grade, marcando a caixa de seleção na parte superior da primeira coluna na grade, você também pode selecionar rapidamente (ou cancelar a seleção) todas as linhas de um grupo marcando a caixa de seleção na linha de cabeçalho de grupo correspondente. A caixa de seleção na linha de cabeçalho de grupo sempre refletirá o estado de seleção atual das linhas desse grupo, independentemente da seleção: todas as linhas, nenhuma linha apenas algumas linhas.
 
 ### <a name="hiding-column-names"></a>Ocultar nomes de coluna
-Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha de cabeçalho do grupo. A partir da versão 10.0.14/Platform update 38, você pode optar por suprimir o nome da coluna nas linhas do cabeçalho de grupo, selecionando **Opções de grade** > **Ocultar nome da coluna do grupo**.
+Ao agrupar dados, o comportamento padrão é mostrar o nome da coluna na linha de cabeçalho do grupo. Você pode optar por suprimir o nome da coluna em linhas do cabeçalho de grupo, selecionando **Opções de grade** > **Ocultar nome da coluna do grupo**.
 
 ## <a name="freezing-columns"></a>Congelar colunas
-Algumas colunas em uma grade podem ser tão importantes para o contexto que você não quer que elas saiam de vista conforme a rolagem. Você quer que os valores dessas colunas fiquem sempre visíveis. Na versão 10.0.17, o recurso **Congelar colunas na grade** oferece essa flexibilidade aos usuários. 
+Algumas colunas em uma grade podem ser tão importantes para o contexto que você não quer que elas saiam de vista conforme a rolagem. Mas, talvez deseje que os valores dessas colunas fiquem sempre visíveis. O recurso **Congelar colunas na grade** oferece essa flexibilidade aos usuários. 
 
 Para congelar uma coluna, clique com o botão direito do mouse no cabeçalho da coluna e selecione **Congelar coluna**. Na primeira vez que você concluir esta etapa, a coluna selecionada se tornará a primeira coluna e não sairá mais de vista. Qualquer coluna subsequente que você congelar será adicionada à direita da última coluna congelada. Você pode usar a funcionalidade de movimentação padrão para reordenar colunas congeladas conforme necessário. No entanto, as colunas congeladas não podem ser movidas de forma que apareçam entre o conjunto de colunas descongeladas. Além disso, as colunas congeladas não podem ser movidas de forma que apareçam entre o conjunto de colunas congeladas.
 
@@ -132,32 +129,16 @@ Observe que a seleção de linha e as colunas de status de linha e status na nov
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="how-do-i-enable-the-new-grid-control-in-my-environment"></a>Como habilitar o novo controle de grade no meu ambiente? 
 
-**10.0.9/Platform update 33 e posterior**
+O recurso **Novo controle de grade** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Após habilitar o recurso no gerenciamento de recursos, todas as sessões de usuário subsequentes usarão o novo controle de grade. 
 
-O recurso **Novo controle de grade** está disponível diretamente em Gerenciamento de recursos em qualquer ambiente. Assim como outros recursos de versão prévia pública, a ativação deste recurso na produção está sujeita ao [Contrato de Termos de Uso Complementares](public-preview-terms.md).  
-
-**10.0.8/Platform update 32 e 10.0.7/Platform update 31**
-
-O recurso **Novo controle de grade** pode ser ativado nos ambientes da Camada 1 (Desenvolvimento/Teste) e da Camada 2 (Área Restrita) para fornecer testes adicionais e alterações de design seguindo as etapas abaixo.
-
-1.  **Habilitar a versão de pré-lançamento**: execute esta instrução SQL: 
-
-    `INSERT INTO SYSFLIGHTING (FLIGHTNAME, enabled, FLIGHTSERVICEID, PARTITION) VALUES('CLIReactGridEnableFeature', 1, 0, 5637144576);`
-
-2. **Redefinir o IIS** para liberar o cachê de liberação estático. 
-
-3.  **Localizar o recurso**: navegue até o espaço de trabalho **Gerenciamento de recursos**. Se **Novo controle de grade** não aparecer na lista de todos os recursos, selecione **Verificar por atualizações**.   
-
-4.  **Habilitar o recurso**: localize o recurso **Novo controle de grade** na lista de recursos e selecione **Habilitar agora** no painel de detalhes. Observe que uma atualização do navegador é necessária. 
-
-Todas as sessões de usuário subsequentes começarão com o novo controle de grade habilitado.
+Esse recurso é habilitado por padrão a partir da versão 10.0.21 e deve ser obrigatório na versão 10.0.25. 
 
 ## <a name="developer-opting-out-individual-pages-from-using-the-new-grid"></a>[Desenvolvedor] Impedir que páginas individuais use a nova grade 
-Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível a partir da versão 10.0.13/Platform update 37 para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
+Se a sua organização descobre uma página que tem algumas questões usando a nova grade, uma API está disponível para permitir que um formulário individual use o controle de grade herdado enquanto ainda permite que o restante do sistema utilize o novo controle de grade. Para recusar uma página individual da nova grade, adicione a seguinte postagem de chamada `super()` no método do formulário `run()`.
 
  ```this.forceLegacyGrid();```
 
-Esta API será honrada até o lançamento de outubro de 2021, quando o novo controle de grade se torna obrigatório. Se algum problema exigir o uso dessa API, informe-o à Microsoft.
+Esta API será respeitada até que o novo controle de grade se torne obrigatório, previsto para abril de 2022. Se algum problema exigir o uso dessa API, informe-o à Microsoft.
 
 ### <a name="forcing-a-page-to-use-the-new-grid-after-previously-opting-out-the-grid"></a>Forçar uma página a usar a nova grade depois de ter recusado anteriormente a grade
 Se você tiver recusado o uso da nova grade em uma página individual, convém reabilitar posteriormente a nova grade após os problemas subjacentes terem sido resolvidos. Para isso, você só precisa remover a chamada para `forceLegacyGrid()`. A alteração não terá efeito até que uma das seguintes ações ocorra:

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: f3de160cb4e62f9b30c01c56fa6fe5a4dfad5229
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471707"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500418"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -91,7 +91,7 @@ Você deve entrar no hub para usar o processo *Liberar para o depósito*. Para o
 
 Ao usar a opção **Liberação automática de ordens de compra**, você pode selecionar linhas específicas da ordem de compra com base em uma consulta. Um cenário típico seria configurar um trabalho em lotes recorrente que libera todas as linhas da ordem de compra confirmadas que devem chegar no dia seguinte.
 
-O trabalhador pode executar o processo de recebimento usando um aplicativo móvel do Gerenciamento de Depósito conectado à unidade de escala. Os dados são gravados pela unidade de escala e relatados na ordem de depósito de entrada. A criação e o processamento do armazenamento subsequente também serão tratados pela unidade de escala.
+O trabalhador pode executar o processo de recebimento usando um aplicativo móvel do Warehouse Management conectado à unidade de escala. Os dados são gravados pela unidade de escala e relatados na ordem de depósito de entrada. A criação e o processamento do armazenamento subsequente também serão tratados pela unidade de escala.
 
 Se você não estiver usando o processo *liberar para depósito* e, portanto, não estiver usando *ordens de depósito*, o hub poderá processar o recebimento do depósito e o processamento do trabalho, independentemente das unidades de escala.
 
@@ -142,7 +142,7 @@ Os tipos de trabalho a seguir podem ser criados em uma unidade de escala e, port
 No momento, não há suporte para outros tipos de trabalho de depósito e processamento de documento de origem em unidades de escala. Por exemplo, para uma carga de trabalho de execução de depósito em uma unidade de escala, não é possível executar um processo de recebimento de ordem de transferência (recebimento de transferência). Isso precisa ser processado pela instância do hub.
 
 > [!NOTE]
-> Os botões e itens de menu de dispositivo móvel para funcionalidades sem suporte não são mostrados no _Aplicativo móvel do Gerenciamento de Depósito_ quando ele está conectado a uma implantação de unidade de escala.
+> Os botões e itens de menu de dispositivo móvel para funcionalidades sem suporte não são mostrados no _Aplicativo móvel Warehouse Management_ quando ele está conectado a uma implantação de unidade de escala.
 > 
 > Quando você executa uma carga de trabalho em uma unidade de escala, não pode executar processos sem suporte para o depósito específico no hub. As tabelas fornecidas posteriormente neste tópico documentam os recursos com suporte.
 >
@@ -157,6 +157,7 @@ Atualmente, não há suporte para a seguinte funcionalidade de gerenciamento de 
 
 - Processamento de entrada de linhas de ordem de compra atribuídas a uma carga.
 - Processamento de entrada de ordens de compra para um projeto.
+- Gerenciar o custo de entrega usando viagens e rastreando mercadorias em trânsito.
 - Processamento de entrada e saída para itens com as dimensões de rastreamento ativas **Proprietário** e/ou **Número de série**.
 - Processamento de estoque com um valor de status de bloqueio.
 - Alterar o status de um estoque durante qualquer processo de movimentação de trabalho.
@@ -187,6 +188,7 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 |--------------------------------------------------------------|-----|------------------------------|
 | Processamento de documento de origem                                   | Sim | Não |
 | Processamento de gerenciamento de transporte e carga                | Sim, mas somente os processos de planejamento de carga. O processamento de gerenciamento de transporte não é compatível  | Não |
+| Recebimento de custo de entrega de mercadorias em trânsito                                         | Sim | Não |
 | Liberar para o depósito                                         | Sim | Não |
 | Distribuição integrada planejada                                        | Não  | Não |
 | Consolidação da remessa                                       | Sim, ao usar planejamento de carga | Sim |
@@ -281,13 +283,13 @@ A tabela a seguir mostra quais recursos de operações de depósito e tratamento
 
 ### <a name="production"></a>Produção
 
-A seguinte tabela resume quais cenários de produção do Warehouse Management são compatíveis atualmente nas cargas de trabalho da unidade de escala.
+A seguinte tabela resume quais cenários de produção do gerenciamento de depósito são compatíveis atualmente nas cargas de trabalho da unidade de escala.
 
 | Processar | Hub | Carga de trabalho de execução de depósito em uma unidades de escala |
 |---------|-----|------------------------------|
 | Relatar como finalizado e guardar mercadorias finalizadas | Sim | Sim |
 | Armazenamento de coproduto e subproduto | Sim | Sim |
-| <p>Todos os outros processos do Warehouse Management que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Começar ordem de produção</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
+| <p>Todos os outros processos do gerenciamento de depósito que são relacionados à produção, incluindo:</p><li>Liberar para o depósito</li><li>Processamento de ciclos de produção</li><li>Separação de matéria-prima</li><li>Armazenamento kanban</li><li>Separação kanban</li><li>Começar ordem de produção</li><li>Sucata de produção</li><li>Último palete de produção</li><li>Registrar consumo de materiais</li><li>Kanban vazio</li></ul> | Sim | Não |
 | Reabastecimento de matéria-prima | Não | Não |
 
 ## <a name="maintaining-scale-units-for-warehouse-execution"></a>Manter unidades de escala para execução de depósito

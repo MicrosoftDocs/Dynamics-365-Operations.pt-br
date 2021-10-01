@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: ef28fcaf308225a78bcbac42f591e6b24b21b1b1
-ms.sourcegitcommit: 2b04b5a5c883d216072bb91123f9c7709a41f69a
+ms.openlocfilehash: 8f438e18356a6c16cc75bb59153ae7353d984a5a
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7384528"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500321"
 ---
 # <a name="gs1-bar-codes-and-qr-codes"></a>Códigos de barras de GS1 e códigos QR
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Geralmente, os trabalhadores de depósito precisam concluir várias tarefas quando usam um scanner de dispositivo móvel para registrar movimentos de um item, uma paleta ou um contêiner. Essas tarefas podem incluir os códigos de barra de verificação e a inserção manual das informações no dispositivo móvel. Os códigos de barras usam um formato específico da empresa que você define e gerencia usando o Microsoft Dynamics 365 Supply Chain Management.
 
@@ -37,7 +36,7 @@ A menos que especificado de outra forma, este tópico usa o termo *código de ba
 
 Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
 
-- **Módulo:** *Gerenciamento de Depósito*
+- **Módulo:** *Gerenciamento de depósito*
 - **Nome do recurso:** *Verificar códigos de barras de GS1*
 
 ## <a name="set-up-global-gs1-options"></a>Configurar opções de GS1 globais
@@ -47,7 +46,7 @@ A página **Parâmetros de gerenciamento de depósito** fornece algumas configur
 Para configurar as opções de GS1 globais, siga estas etapas.
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Parâmetros de gerenciamento de depósito**.
-1. Na FastTab **Códigos de barras**, defina os seguintes campos:
+1. Na Guia Rápida **Códigos de barras**, defina os seguintes campos:
 
     - **Caractere de FNC1** – especifique os caracteres que devem ser interpretados como um prefixo quando um código de barras é analisado.
     - **Caractere de datamatrix** – especifique os caracteres que devem ser interpretados como um prefixo quando um datamatrix é analisado.
@@ -169,7 +168,7 @@ Para configurar e personalizar suas políticas de GS1, siga estas etapas.
     - **Nome da política** – Insira um nome para a política.
     - **Descrição** – insira uma breve descrição da política.
 
-1. Na FastTab abaixo do cabeçalho, mapeie os nomes dos campos para os identificadores de aplicativo, conforme necessário para a política atual. Use os botões da barra de ferramentas para adicionar e remover linhas, conforme necessário. Para cada linha, defina os seguintes campos:
+1. Na Guia Rápida abaixo do cabeçalho, mapeie os nomes dos campos para os identificadores de aplicativo, conforme necessário para a política atual. Use os botões da barra de ferramentas para adicionar e remover linhas, conforme necessário. Para cada linha, defina os seguintes campos:
 
     - **Campo** – Selecione ou insira o campo de entrada do aplicativo móvel ao qual o valor de entrada deve ser atribuído. O valor não é o nome de exibição que os trabalhadores veem. Em vez disso, é o nome da chave que é atribuído ao campo no código subjacente. A configuração padrão fornece uma coleção de campos que provavelmente serão úteis e inclui nomes de chave intuitivos para cada campo e a funcionalidade programada correspondente. No entanto, você pode precisar conversar com seus parceiros de desenvolvimento para encontrar as seleções corretas para sua implementação.
     - **Identificador do aplicativo** – selecione o identificador de aplicativo aplicável, conforme definido na página **Identificadores de aplicativos de GS1**. O identificador estabelece como o código de barras será interpretado e armazenado como um valor para o campo nomeado. Depois de selecionar um identificador de aplicativo, o campo **Descrição** mostra a descrição dele.
@@ -184,7 +183,7 @@ Por padrão, todos os itens de menu de dispositivo móvel fornecem campos de ent
 
 1. Acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 1. Crie ou abra um item de menu.
-1. Na FastTab **Geral**, defina o campo **Política de GS1** como a política que se aplica ao item de menu.
+1. Na Guia Rápida **Geral**, defina o campo **Política de GS1** como a política que se aplica ao item de menu.
 
 ## <a name="gs1-setup-example"></a>Exemplo de configuração de GS1
 

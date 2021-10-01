@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: a102f1d77362f650c060ce5d0aee5b62d2102532
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 63f3bc6cb7563ee6ff719272a0795efffcb40bc8
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344945"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500187"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferenças entre planejamento mestre interno e Otimização de Planejamento
 
@@ -33,6 +33,8 @@ Os resultados da Otimização de Planejamento podem ser diferentes dos resultado
 | Planejar cópia, excluir plano e limpeza da versão do plano | <p>Os itens a seguir estão desabilitados em **Planejamento mestre: \> Planejamento mestre: \> Manter planos** no painel de navegação:</p><ul><li>Planejar cópia</li><li>Excluir plano</li><li>Planejar limpeza da versão</li></ul> |
 | Ordens de Devolução | As ordens de devolução não são consideradas. |
 | Recursos relacionados ao agendamento | Para obter detalhes, consulte [Agendamento com capacidade infinita](infinite-capacity-planning.md#limitations). |
+| Atendimento de estoque de segurança | A otimização de planejamento sempre usa a opção *Data atual + tempo de aquisição* para o campo **Mínimo de preenchimento** na página **Cobertura de item**. Isso ajuda a evitar ordens planejadas não desejadas e outros problemas porque, se o tempo de aquisição não for incluído no estoque de segurança, as ordens planejadas criadas para o estoque baixo sempre estarão atrasadas por conta do prazo de entrega. |
+| Vinculação e requisitos líquidos de estoque de segurança | O tipo de requisito *Estoque de segurança* não está incluído e não é exibido na página **Requisitos líquidos**. O estoque de segurança não representa a demanda e não tem uma data de requisito associada. Em vez disso, ele define uma restrição sobre a quantidade de estoque que deve estar sempre presente. No entanto, o valor do campo **Mínimo** ainda é considerado ao calcular ordens planejadas durante o planejamento mestre. Sugerimos que você inspecione a coluna **Quantidade acumulada** na página **Requisitos líquidos** para ver que esse valor foi considerado. |
 | Calendários de transporte | O valor na coluna **Calendário de transporte** na página **Modos de entrega** é ignorado. |
 
 ## <a name="additional-resources"></a>Recursos adicionais

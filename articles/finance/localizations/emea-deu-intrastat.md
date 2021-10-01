@@ -1,24 +1,26 @@
 ---
 title: Intrastat alemã
 description: Este tópico contém informações sobre a declaração Intrastat na Alemanha.
-author: andosip
-ms.date: 08/2/2021
+author: anasyash
+ms.date: 09/09/2021
 ms.topic: article
 audience: Application User
 ms.reviewer: kfend
 ms.search.region: Global
-ms.author: v-aosipov
+ms.author: anasyash
 ms.search.validFrom: ''
-ms.openlocfilehash: e1dbf0997417f9f1ad313e6a7b3c2c9cfae41efc6b1cfda60a5500ae0af94709
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 50c412fdfd7118843d285cbb70e8e44847c9d4a5
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6759834"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7487916"
 ---
 # <a name="german-intrastat"></a>Intrastat alemã
 
-A página **Intrastat** serve para gerar e relatar informações sobre o comércio entre os países da União Europeia (UE). A declaração Intrastat alemã contém informações sobre o comércio de mercadorias para relatórios.
+[!include [banner](../includes/banner.md)]
+
+A página **Intrastat** serve para gerar e relatar informações sobre o comércio entre os países da União Europeia (UE). A declaração Intrastat alemã contém informações sobre o comércio de mercadorias para relatórios. O relatório é formatado de acordo com as diretrizes das autoridades alemãs apresentadas nas [Declarações do arquivo 6.2 no formato do INSTAT/XML](https://www-idev.destatis.de/idev/doc/intra_en/hilfe6_2.html).
 
 A tabela abaixo mostra os campos que são incluídos na Declaração Intrastat alemã.
 
@@ -67,19 +69,20 @@ A tabela abaixo mostra os campos que são incluídos na Declaração Intrastat a
 3. Configure os parâmetros de comércio exterior:
 
     1. No Dynamics 365 Finance, acesse **Imposto** > **Configuração** > **Parâmetros de comércio estrangeiro**.
-    2. Na guia **Intrastat**, na FastTab **Relatório Eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **Intrastat XML (DE)**.
+    2. Na guia **Intrastat**, na Guia Rápida **Relatório Eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **Intrastat XML (DE)**.
     3. No campo **Mapeamento de formato de relatório**, selecione **Relatório Intrastat**.
     4. Na Guia Rápida **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, selecione **Intrastat**.
     5. No campo **Código da transação**, selecione o código da transação para transferências de propriedades. Você usa esse código para transações que produzem transferências reais ou planejadas da propriedade sobre compensação (financeira ou outra). Ele também é usado para correções.
-    6. No campo **Nota de crédito**, selecione o código de transação para a devolução de bens. Você usa esse código para a devolução de bens após a transação que foi originalmente registrada no código da transação.
-    7. No campo **Autoridade**, selecione a autoridade Intrastat.
-    8. Acesse **Imposto** > **Impostos indiretos** > **Imposto de venda** > **Autoridades de impostos de venda** e insira as seguintes informações para a autoridade Intrastat selecionada na etapa anterior:
+    6. No campo **Nota de crédito**, selecione o código de transação para a devolução de bens.
+    7. No campo **Trabalhador**, selecione a pessoa de contato para o relatório Intrastat. Alternativamente, na guia **Contato** insira ou selecione valores nos campos **Nome**, **Telefone**, **Fax**, **E-mail** e **Endereço da Internet**. Esses campos são incluídos no relatório.
+    8. No campo **Autoridade**, selecione a autoridade Intrastat.
+    9. Acesse **Imposto** > **Impostos indiretos** > **Imposto de venda** > **Autoridades de impostos de venda** e insira as seguintes informações para a autoridade Intrastat selecionada na etapa anterior:
 
        - Identificação de autoridade
        - Endereço
        - Informações do contato
 
-    9. Na guia **Propriedades de país/região**, no campo **País/região**, indique todos os países ou regiões com os quais sua empresa faz negócios. Para cada país ou região, no campo **Tipo de país/região**, selecione **UE**, para que o país ou a região apareça no relatório Intrastat.
+    10. Na guia **Propriedades de país/região**, no campo **País/região**, indique todos os países ou regiões com os quais sua empresa faz negócios. Para cada país ou região, no campo **Tipo de país/região**, selecione **UE**, para que o país ou a região apareça no relatório Intrastat.
 
 4. Configure os códigos de região.
 
@@ -91,7 +94,7 @@ A tabela abaixo mostra os campos que são incluídos na Declaração Intrastat a
 
     1. Acesse **Gerenciamento de informações do produto** > **Produtos** > **Produtos liberados**.
     2. Na grade, selecione o produto.
-    3. Na FastTab **Comércio exterior**, na seção **Intrastat**, no campo **País de origem**, selecione **DEU**.
+    3. Na Guia Rápida **Comércio exterior**, na seção **Intrastat**, no campo **País de origem**, selecione **DEU**.
 
 6. Acesse **Imposto** > **Configuração** > **Comércio exterior** > **Compactação do Intrastat** e selecione os campos que podem ser comparados quando a informação do Intrastat é resumida. Para a Intrastat alemã, selecione os valores para os seguintes campos:
 
@@ -167,12 +170,12 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 5. Configure os parâmetros de comércio exterior.
 
     1. Acesse **Imposto** > **Configuração** > **Comércio exterior** > **Parâmetros de comércio exterior**.
-    2. Na guia **Intrastat**, na FastTab **Geral**, no campo **Código** **de transação**, selecione **11**.
+    2. Na guia **Intrastat**, na Guia Rápida **Geral**, no campo **Código** **de transação**, selecione **11**.
     3. No campo **Nota de crédito**, selecione **21**.
     4. No campo **Autoridade**, selecione **TA**.
-    5. Na FastTab **Relatório Eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **INSTAT XML (DE)**.
+    5. Na Guia Rápida **Relatório Eletrônico**, no campo **Mapeamento de formato de arquivo**, selecione **INSTAT XML (DE)**.
     6. No campo **Mapeamento de formato de relatório**, selecione **Relatório Intrastat**.
-    7. Na FastTab **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, certifique-se de que **Intrastat** esteja selecionado.
+    7. Na Guia Rápida **Hierarquia de código de mercadoria**, no campo **Hierarquia de categoria**, certifique-se de que **Intrastat** esteja selecionado.
     8. Na guia **Propriedades de país/região**, selecione **Novo**.
     9. No campo **País/região do participante**, selecione **FRA**.
     10. No campo **Tipo de país/região**, selecione **EU**.
@@ -181,29 +184,29 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 
     1. Acesse **Gerenciamento de informações do produto** > **Produtos** > **Produtos liberados**.
     2. Na grade, selecione **D0001**.
-    3. Na FastTab **Comércio exterior**, na seção **Intrastat**, no campo **Mercadoria**, selecione **920 20 34**.
+    3. Na Guia Rápida **Comércio exterior**, na seção **Intrastat**, no campo **Mercadoria**, selecione **920 20 34**.
     4. Na seção **Origem**, no campo **País/região**, selecione **DEU**.
-    5. Na FastTab **Gerenciar estoque**, na seção **Medidas de peso**, no campo **Peso líquido**, digite **12**.
+    5. Na Guia Rápida **Gerenciar estoque**, na seção **Medidas de peso**, no campo **Peso líquido**, digite **12**.
     6. No Painel de ações, selecione **Salvar**.
 
 7. Atribua o transporte a um modo de entrega. O código de transporte será, então, automaticamente definido em ordens quando você selecionar o modo de entrega.
 
     1. Acesse **Compras e fornecimento** > **Configuração** > **Distribuição** > **Modos de entrega**.
     2. Na lista, selecione **10**.
-    3. Na FastTab **Comércio exterior**, no campo **Transporte**, selecione **01**.
+    3. Na Guia Rápida **Comércio exterior**, no campo **Transporte**, selecione **01**.
 
 8. Crie uma ordem de venda com um cliente da UE.
 
     1. Acesse **Contas a receber** > **Ordens** > **Todas as ordens de venda**.
     2. No Painel de Ações, selecione **Novo**.
-    3. Na caixa de diálogo **Criar ordem de venda**, na FastTab **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-012**.
-    4. Na FastTab **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
+    3. Na caixa de diálogo **Criar ordem de venda**, na Guia Rápida **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-012**.
+    4. Na Guia Rápida **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
     5. No campo **Depósito**, selecione **11**.
     6. Selecione **OK**.
-    7. Na guia **Cabeçalho**, na FastTab **Comércio exterior**, no campo **Porta**, selecione **53**.
+    7. Na guia **Cabeçalho**, na Guia Rápida **Comércio exterior**, no campo **Porta**, selecione **53**.
     8. No campo **Procedimento estatístico**, selecione **31710**.
-    9.  Na guia **Linhas**, na FastTab **Linhas** **da ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **10**.
-    10. Na FastTab **Detalhes da linha**, na guia **Comércio exterior**, verifique se os campos **Código de transação**, **Transporte**, **Mercadoria** e **País/região de origem** estão definidos automaticamente.
+    9.  Na guia **Linhas**, na Guia Rápida **Linhas** **da ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **10**.
+    10. Na Guia Rápida **Detalhes da linha**, na guia **Comércio exterior**, verifique se os campos **Código de transação**, **Transporte**, **Mercadoria** e **País/região de origem** estão definidos automaticamente.
     11. No Painel de ações, selecione **Salvar**.
     12. No Painel de Ação, na guia **Fatura**, na seção **Gerar**, selecione **Fatura**.
     13. Na caixa de diálogo **Lançando fatura**, na Guia Rápida **Parâmetros**, na seção **Parâmetro**, no campo **Quantidade**, selecione **Tudo**.
@@ -230,13 +233,13 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 
     1. Acesse **Contas a receber** > **Ordens** > **Todas as ordens de venda**.
     2. No Painel de Ações, selecione **Novo**.
-    3. Na caixa de diálogo **Criar ordem de venda**, na FastTab **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-012**.
-    4. Na FastTab **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
+    3. Na caixa de diálogo **Criar ordem de venda**, na Guia Rápida **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-012**.
+    4. Na Guia Rápida **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
     5. No campo **Depósito**, selecione **11**.
-    6. Na guia **Cabeçalho**, na FastTab **Comércio exterior**, no campo **Porta**, selecione **53**.
+    6. Na guia **Cabeçalho**, na Guia Rápida **Comércio exterior**, no campo **Porta**, selecione **53**.
     7. No campo **Procedimento estatístico**, selecione **31710**.
-    8. Na guia **Linhas**, na FastTab **Linhas** **da ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **-2**.
-    9. Na FastTab **Detalhes da linha**, na guia **Comércio exterior**, no campo **Código de transação**, selecione **21**.
+    8. Na guia **Linhas**, na Guia Rápida **Linhas** **da ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **-2**.
+    9. Na Guia Rápida **Detalhes da linha**, na guia **Comércio exterior**, no campo **Código de transação**, selecione **21**.
     10. Verifique se os campos **Transporte**, **Mercadoria** e **País/região de origem** estão definidos automaticamente.
     11. No Painel de ações, selecione **Salvar**.
     12. No Painel de Ação, na guia **Fatura**, na seção **Gerar**, selecione **Fatura**.
@@ -261,13 +264,13 @@ Este exemplo mostra como lançar entradas e expedições para o Intrastat. Ele u
 
     1. Acesse **Contas a receber** > **Ordens** > **Todas as ordens de venda**.
     2. No Painel de Ações, selecione **Novo**.
-    3. Na caixa de diálogo **Criar ordem de venda**, na FastTab **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-012**.
-    4. Na FastTab **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
+    3. Na caixa de diálogo **Criar ordem de venda**, na Guia Rápida **Cliente**, na seção **Cliente**, no campo **Conta do cliente**, selecione **DE-012**.
+    4. Na Guia Rápida **Geral**, na seção **Dimensões de armazenamento**, no campo **Site**, selecione **1**.
     5. No campo **Depósito**, selecione **11**.
-    6. Na guia **Cabeçalho**, na FastTab **Comércio exterior**, no campo **Porta**, selecione **53**.
+    6. Na guia **Cabeçalho**, na Guia Rápida **Comércio exterior**, no campo **Porta**, selecione **53**.
     7. No campo **Procedimento estatístico**, selecione **31710**.
-    8. Na guia **Linhas**, na FastTab **Linhas** **da ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **-3**.
-    9. Na FastTab **Detalhes da linha**, na guia **Comércio exterior**, no campo **Código de transação**, selecione **11**.
+    8. Na guia **Linhas**, na Guia Rápida **Linhas** **da ordem de venda**, no campo **Número do item**, selecione **D0001**. Depois, no campo **Quantidade**, insira **-3**.
+    9. Na Guia Rápida **Detalhes da linha**, na guia **Comércio exterior**, no campo **Código de transação**, selecione **11**.
     10. Verifique se os campos **Transporte**, **Mercadoria** e **País/região de origem** estão definidos automaticamente.
     11. No Painel de ações, selecione **Salvar**.
     12. Verifique se o campo **Código da transação** está definido como 11.

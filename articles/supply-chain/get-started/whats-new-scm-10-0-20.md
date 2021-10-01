@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-05-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 1aada0d3ebe80e1efb92815c6d429ed5638dabdbac165aa09be1ca281c51b255
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 99e95a7fbdce3d040ab7bf01474921ae1f616468
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773504"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506822"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10020-august-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.20 (agosto de 2021)
 
@@ -38,6 +38,7 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 | Estoque&nbsp;e&nbsp;logística | [Aprimoramento de desempenho dos detalhes da ordem de venda](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/sales-order-details-performance-enhancement) | Este recurso torna a interface do usuário mais ágil ao abrir ordens de vendas, especialmente aquelas que incluem muitas linhas. |
 | Fabricação | [Invocar fluxos de automação de processos para criar ordens de qualidade](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/invoke-process-automation-flows-create-quality-orders) | [Invocar fluxos de automação de processos para criar ordens de qualidade](../production-control/process-automation-quality-orders.md ) |
 | Fabricação | [Interface de execução de piso de produção aprimorada para fabricação](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/enhanced-production-floor-execution-interface-manufacturing) | [Configurar a interface de execução de piso de produção](../production-control/production-floor-execution-configure.md) |
+| Planejamento | [Agendamento da capacidade infinita para a Otimização do Planejamento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Agendamento com capacidade infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Gerenciamento de informações sobre o produto | [Gerenciar alterações nas fórmulas e seus ingredientes](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/engineering-change-management-support-process-manufacturing) | [Gerenciar alterações nas fórmulas e seus ingredientes](../engineering-change-management/manage-formula-changes.md) |
 | Gerenciamento de informações sobre o produto | [Verificações de preparação do produto](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/product-readiness-checks) | [Preparação do produto](../engineering-change-management/product-readiness.md) |
 

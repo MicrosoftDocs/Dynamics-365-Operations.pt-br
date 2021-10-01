@@ -2,7 +2,7 @@
 title: Configurar e criar formatos de recibo
 description: Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. O Dynamics 365 Commerce inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário.
 author: rubencdelgado
-ms.date: 06/20/2017
+ms.date: 09/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 7f70918e6fd274ac8e3476d6c309eac40744b0dd24a8b79f531d8627bb4a68e6
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a2107670cb5dbac3b8f28c4e3caa357102932291
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715349"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500160"
 ---
 # <a name="set-up-and-design-receipt-formats"></a>Configurar e criar formatos de recibo
 
@@ -46,7 +46,12 @@ Este artigo descreve como modificar layouts de formulário para controlar como o
 
 ## <a name="print-images"></a>Imprimir imagens
 
-O designer de recibos inclui a variável **Logotipo** que pode ser usada para especificar as imagens a serem impressas no recibo. As imagens incluídas nos recibos usando a variável **Logotipo** devem ser tipos de arquivo de bitmap monocromático (.bmp). Se uma imagem. bmp for especificada no designer de recibos, mas não estiver sendo impressa quando enviada para a impressora, talvez o tamanho do arquivo seja grande demais ou as dimensões de pixel na imagem não sejam compatíveis com a impressora. Se isso acontecer, tente reduzir a resolução do arquivo de imagem.   
+O criador de recibos inclui uma variável **Logotipo**. Você pode usar essa variável para especificar uma imagem que deve ser impressa em recibos. As imagens impressas em recibos usando a variável **Logotipo** devem ser tipos de arquivo de bitmap monocromático (.bmp). Se uma imagem de bitmap for especificada no designer de recibos e não for impressa quando o recibo for enviado à impressora, um dos seguintes problemas poderá ser a causa:
+
+- O tamanho do arquivo é muito grande ou as dimensões de pixel da imagem não são compatíveis com a impressora. Nesse caso, tente reduzir a resolução ou as dimensões do arquivo de imagem.
+- Alguns drivers de impressora de fixação e incorporação de objetos para ponto de venda (OPOS) não implementam o método **PrintMemoryBitmap** que as estações de hardware usam para imprimir imagens de logotipo. Nesse caso, tente adicionar o seguinte sinalizador ao arquivo **HardwareStation.Extension.config** da estação de hardware dedicada ou compartilhada:
+
+    `<add name="HardwareStation.UsePrintBitmapMethod" value="true"/>`
 
 ## <a name="design-a-receipt-format"></a>Criar um formato de recibo
 
@@ -68,7 +73,7 @@ Use o designer de layout de formulário para criar graficamente o layout do docu
     - **Alinhar** – defina o alinhamento do campo à **Esquerda** ou à **Direita**.
     - **Caractere de preenchimento** – Especifique o caractere de espaço em branco. Por padrão, um espaço em branco é usado, mas você pode inserir qualquer caractere.
     - **Prefixo** – Insira o valor que aparece no início do campo. Essa configuração se aplica apenas à seção **Linhas** do layout.
-    - **Caracteres** – Especifique o número máximo de caracteres que o campo poderá conter se o elemento tiver uma variável. Se o texto no campo for maior do que o número de caracteres que você especificar, o texto será truncado para se ajustar ao campo.
+    - **Caracteres** – Especifique o número máximo de caracteres que o campo poderá conter se o elemento tiver uma variável. Se o texto no campo for maior do que o número de caracteres especificado, o texto será truncado para se ajustar ao campo.
     - **Variável** – Esta caixa de seleção será marcada automaticamente se o elemento contiver uma variável e não puder ser personalizado.
     - **Tipo de fonte** – Defina o estilo de fonte como **Normal** ou **Negrito**. As letras em negrito usam duas vezes mais espaço que as letras normais. Portanto, alguns caracteres podem ser truncados.
     - **Tamanho de fonte** – Defina o estilo de fonte como **Normal** ou **Grande**. As letras grandes são duas vezes maiores do que as letras comuns. Portanto, o uso de letras grandes pode levar à sobreposição de texto no recibo.

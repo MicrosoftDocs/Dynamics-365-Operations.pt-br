@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a57b51870d5738d906ca779474e0591dc16395cc992b3f79d37d1f45782bf66a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7b240038a946a7f34a3c69df18329edbe1df6be0
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715325"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500294"
 ---
 # <a name="peripherals"></a>Periféricos
 
@@ -562,7 +562,7 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que com
 > Se dispositivos usarem frequentemente diferentes estações de hardware, é recomendável configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de meio de pagamento. Clique em **Varejo e Comércio** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**. Selecione a registradora e, em seguida, defina a opção **Selecionar após proposta** para **Sim**. Use a agenda de distribuição **1090** para sincronizar alterações no banco de dados do canal.
 
 ## <a name="extensibility"></a>Extensibilidade
-Para obter informações sobre cenários de extensibilidade da estação de hardware, consulte [Extensibilidade da estação de hardware](dev-itpro/hardware-station-extensibility.md).
+Para obter informações sobre cenários de extensibilidade para a estação de hardware, consulte [Integrar o PDV com um novo dispositivo de hardware e gerar o instalador de extensão](dev-itpro/hardware-device-extension.md).
 
 ## <a name="security"></a>Segurança
 De acordo com os padrões de segurança atuais, as seguintes configurações devem ser usadas em um ambiente de produção: 

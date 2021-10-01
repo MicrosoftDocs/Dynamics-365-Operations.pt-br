@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-02-19
 ms.dyn365.ops.version: Release 10.0.18
-ms.openlocfilehash: 1a9603df8fd3b2c81c37ca95fd1b13d0b6f4004a38b0cf86846486e3b5d41bfa
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: db3c7561a7249930def2e519f3b6718c429fa3ba
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6729396"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500466"
 ---
 # <a name="process-review-and-post-rebates"></a>Processar, revisar e lançar reembolsos
 
@@ -43,8 +43,6 @@ A tarefa periódica **Calcular preço de compra FIFO** deve ser executada para c
 Acesse **Gerenciamento de reembolso \> Tarefas periódicas \> Calcule o preço de compra PEPS**. Na caixa de diálogo exibida, selecione **OK** para executar o cálculo.
 
 ## <a name="create-source-transactions"></a>Criar transações de origem
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Você pode criar as ordens de venda ou de compra que têm transações de origem antes ou depois de criar uma oportunidade de gerenciamento de reembolso aplicável.
 
@@ -76,7 +74,7 @@ Para criar uma transação de origem, siga estas etapas.
     - **Site** – Selecione um site onde o produto está disponível e que seja qualificado para uma oportunidade de reembolso.
     - **Armazém** – Selecione um armazém onde o produto está disponível e que seja qualificado para uma oportunidade de reembolso.
 
-1. Na FastTab **Linhas da ordem de venda**, na barra de ferramentas, selecione **Linha da ordem de venda \> Detalhes de preço**. Este comando só ficará disponível se você tiver habilitado os detalhes de preço conforme descrito na seção anterior.
+1. Na Guia Rápida **Linhas da ordem de venda**, na barra de ferramentas, selecione **Linha da ordem de venda \> Detalhes de preço**. Este comando só ficará disponível se você tiver habilitado os detalhes de preço conforme descrito na seção anterior.
 1. Na página **Detalhes de preço**, selecione a Guia Rápida **Gerenciamento de reembolso**. A guia rápida lista todas as oportunidades de gerenciamento que são aplicáveis à linha de ordem atual e mostra o valor estimado do reembolso. Lembre-se de que os valores são apenas estimativas das futuras declarações de reembolso. Os valores de reembolso reais podem ser diferentes. Estes são alguns dos fatores que podem afetar os valores reais:
 
     - O volume de vendas total que o cliente obteve sob um contrato de reembolso periódico.
@@ -84,7 +82,7 @@ Para criar uma transação de origem, siga estas etapas.
     - Se a ordem de venda aplicável tiver obtido o tipo de transação (*Ordem, Entrega* ou *Fatura*) definido para o acordo de Gerenciamento de reembolso.
     - O valor de **Saída** da oportunidade. Um valor de reembolso em branco será mostrado para as oportunidades nas quais o campo **Saída** está definido como *Item*.
 
-1. Na FastTab **Detalhes**, observe que a seção **Estimativa de margem** inclui os campos a seguir. Esses campos são adicionados pelo Gerenciamento de reembolso. Todas elas mostram valores por unidade (enquanto os campos na FastTab **Gerenciamento de reembolso** mostram os valores totais da linha).
+1. Na Guia Rápida **Detalhes**, observe que a seção **Estimativa de margem** inclui os campos a seguir. Esses campos são adicionados pelo Gerenciamento de reembolso. Todas elas mostram valores por unidade (enquanto os campos na Guia Rápida **Gerenciamento de reembolso** mostram os valores totais da linha).
 
     - **Valor de reembolso do Gerenciamento de reembolso** (somente ordens de venda)
     - **Valor de royalty do Gerenciamento de reembolso** (somente ordens de venda)
@@ -93,15 +91,15 @@ Para criar uma transação de origem, siga estas etapas.
 1. Feche a página **Detalhes de preço**.
 1. Se a ordem de venda não deve ser qualificada para os reembolsos que você acabou de visualizar, siga estas etapas para excluir reembolsos. (No entanto, geralmente não é possível excluir reembolsos).
 
-    1. Na FastTab **Linhas de ordem de venda**, selecione a linha relevante.
-    1. Na FastTab **Detalhes da linha**, na guia **Preço e desconto**, defina a opção **Excluir do gerenciamento de reembolso** como *Sim*. Esta opção não se aplica a ordens de compra. Além disso, somente os reembolsos do cliente são excluídos quando essa opção é definida como *Sim*. Os reembolsos de royalty do cliente e reembolsos de fornecedor ainda se aplicam.
+    1. Na Guia Rápida **Linhas de ordem de venda**, selecione a linha relevante.
+    1. Na Guia Rápida **Detalhes da linha**, na guia **Preço e desconto**, defina a opção **Excluir do gerenciamento de reembolso** como *Sim*. Esta opção não se aplica a ordens de compra. Além disso, somente os reembolsos do cliente são excluídos quando essa opção é definida como *Sim*. Os reembolsos de royalty do cliente e reembolsos de fornecedor ainda se aplicam.
 
 1. No painel de ações, na guia **Separar e embalar**, no grupo **Gerar**, selecione **Lançar guia de remessa**.
-1. Na FastTab **Parâmetros**, no campo **Quantidade**, selecione *Tudo*.
+1. Na Guia Rápida **Parâmetros**, no campo **Quantidade**, selecione *Tudo*.
 1. Selecione **OK**.
 1. Se você for solicitado a confirmar a operação, selecione **OK**.
 1. No Painel de Ação, na guia **Fatura**, no grupo **Gerar**, selecione **Fatura**.
-1. Na FastTab **Parâmetros**, no campo **Quantidade**, selecione *Tudo* ou *Guia de remessa*.
+1. Na Guia Rápida **Parâmetros**, no campo **Quantidade**, selecione *Tudo* ou *Guia de remessa*.
 1. Selecione **OK**.
 1. Se você for solicitado a confirmar a operação, selecione **OK**.
 
@@ -158,8 +156,6 @@ Em vez de processar negociações ou linhas de negociações específicas, você
 
 ### <a name="process-deals-by-using-the-rebate-workbench"></a>Processar oportunidades usando a bancada de reembolso
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Em vez de processar negociações ou linhas de negociações específicas, você pode usar a *bancada de reembolso* para processar várias negociações ao mesmo tempo. Opcionalmente, você pode aplicar filtros de registro e/ou configurar um agendamento recorrente. Não é necessário selecionar linhas. O sistema processará todas as linhas que atenderem aos requisitos de data e de filtro configurados.
 
 Para processar as negociações usando a bancada de reembolso, siga estas etapas.
@@ -213,8 +209,6 @@ Para exibir e editar transações de gerenciamento de reembolsos usando a págin
 > Se você estiver usando um processo de declarações, quando processar o próximo período, a lista de transações incluirá todas as transações não reivindicadas do lançamento anterior, além de todas as novas transações do período selecionado.
 
 ### <a name="view-and-edit-rebate-management-transactions-by-using-the-rebate-workbench"></a>Exibir e editar transações de gerenciamento de reembolsos usando a bancada de reembolsos
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Para exibir e editar transações de gerenciamento de reembolsos usando a bancada de reembolsos, siga estas etapas.
 
@@ -295,8 +289,6 @@ Em vez de lançar transações para negociações específicas ou linhas da nego
 
 ### <a name="post-transactions-by-using-the-rebate-workbench"></a>Lançar transações usando a bancada de reembolso
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Depois de processar as transações de provisão, reembolso ou baixa, siga estas etapas para usar a bancada de reembolso para revisar e lançar as transações geradas para uma ou mais linhas de transação específicas para todas as negociações.
 
 1. Acesse **Gerenciamento de reembolso \> Acordos de gerenciamento de reembolso \> Bancada de reembolso**.
@@ -332,8 +324,6 @@ Para revisar as entradas de diário associadas a um acordo de gerenciamento de r
 
 ### <a name="review-journals-by-using-the-rebate-workbench"></a>Revisar diários usando a bancada de reembolso
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Para revisar diários usando a bancada de reembolso, siga estas etapas.
 
 1. Acesse **Gerenciamento de reembolso \> Acordos de gerenciamento de reembolso \> Bancada de reembolso**.
@@ -342,8 +332,6 @@ Para revisar diários usando a bancada de reembolso, siga estas etapas.
 1. Uma lista de diários, documentos ou itens relevantes é exibida. Para exibir mais informações sobre qualquer diário, documento ou item, selecione sua linha e, no Painel de Ação, selecione **Exibir detalhes**.
 
 ## <a name="rebate-management-transactions-on-the-deduction-workbench"></a>Transações de gerenciamento de reembolsos na bancada de dedução
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Quando você lança uma transação de gerenciamento de reembolso que tem um dos seguintes valores **Tipo de pagamento**, o sistema cria um diário de dedução de cliente ou uma fatura de texto livre para a conta de cliente relevante:
 
@@ -358,8 +346,6 @@ Para obter mais informações, consulte [Gerenciar deduções usando a bancada d
 
 ## <a name="purge-unposted-transactions"></a>Excluir transações não lançadas
 
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
-
 Depois de processar as transações de provisão, reembolso ou baixa, siga estas etapas para limpar as transações não lançadas selecionadas.
 
 1. Acesse **Gerenciamento de reembolso \> Acordos de gerenciamento de reembolso \> Bancada de reembolso**.
@@ -368,8 +354,6 @@ Depois de processar as transações de provisão, reembolso ou baixa, siga estas
 4. Selecione **OK** para excluir as transações não lançadas.
 
 ## <a name="cancel-a-posted-provision"></a>Cancelar uma provisão lançada
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Depois de ter processado e lançado uma provisão, siga estas etapas para cancelar as transações de provisão lançadas.
 

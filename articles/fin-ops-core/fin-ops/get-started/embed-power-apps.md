@@ -2,7 +2,7 @@
 title: Inserir aplicativos de tela do Power Apps
 description: Este tópico explica como inserir aplicativos de tela do Microsoft Power Apps no cliente para aumentar a funcionalidade do produto.
 author: jasongre
-ms.date: 08/09/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,17 +13,16 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
-ms.openlocfilehash: 37ef6101a5a69e9c820347dd6f61c987467d40b3
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 32bf477bb42657b06f22f7677dcb580b38f0a55c
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7344520"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488045"
 ---
 # <a name="embed-canvas-apps-from-power-apps"></a>Inserir aplicativos de tela do Power Apps
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 O Microsoft Power Apps é um serviço que permite que desenvolvedores e usuários não técnicos criem aplicativos de negócios personalizados para dispositivos móveis, tablets e a Web sem precisar escrever código. Os aplicativos do Finance and Operations oferecem suporte à integração com o Power Apps. Aplicativos de tela que você, sua organização ou o ecossistema mais amplo desenvolvem podem ser inseridos nos aplicativos do Finance and Operations para aumentar a funcionalidade do produto. Por exemplo, você pode criar um aplicativo de tela no Power Apps que complemente o Finance and Operations com informações recuperadas de outro sistema.
 
@@ -36,7 +35,7 @@ Antes de inserir um aplicativo de tela do Power Apps no cliente, você deve enco
 Há três maneiras de incorporar um aplicativo de tela a um aplicativo do Finance and Operations. Você pode usar a abordagem que melhor atende ao seu cenário. 
 
 - Insira o aplicativo de tela no botão do **Power Apps** no Painel de Ação padrão de uma página. Os aplicativos que você adiciona dessa maneira aparecem como itens no botão de menu do **Power Apps** e os aplicativos abertos em painéis laterais. 
-- Insira o aplicativo de tela diretamente em uma página existente como uma nova página de guia (guia dinâmica, FastTab, folha ou seção de espaço de trabalho).
+- Insira o aplicativo de tela diretamente em uma página existente como uma nova página de guia (guia dinâmica, Guia Rápida, folha ou seção de espaço de trabalho).
 - Crie uma nova experiência de página inteira para o aplicativo de tela ou o painel.
 
 Ao configurar seu aplicativo de tela inserido, você pode selecionar um único campo que deseja enviar como contexto para o aplicativo. Essa etapa permite que o aplicativo responda com base nos dados que você está exibindo atualmente.
@@ -53,8 +52,8 @@ O procedimento a seguir mostra como inserir um aplicativo de tela em uma página
 
     - Se o aplicativo for inserido diretamente na página, selecione **Opções** \> **Personalizar esta página** \> **Mais** e siga uma destas etapas:
 
-        - Se o recurso **Aplicativos de página inteira** estiver ativado, selecione **Adicionar uma página** e selecione a região na qual você deseja adicionar o aplicativo. Para inserir o aplicativo no botão do menu do **Power Apps**, selecione o Painel de Ação. Para inserir o aplicativo diretamente na página, seleciona a guia apropriada, FastTab, folha ou seção (se estiver em um espaço de trabalho). Em seguida, no painel **Adicionar um aplicativo**, selecione **Power Apps**.
-        - Se o recurso **Aplicativos de página inteira** estiver desativado, selecione **Adicionar um aplicativo do Power Apps** e depois selecione a região na qual você deseja adicionar o aplicativo. Para inserir o aplicativo no botão do menu do **Power Apps**, selecione o Painel de Ação. Para inserir o aplicativo diretamente na página, seleciona a guia apropriada, FastTab, folha ou seção (se estiver em um espaço de trabalho).
+        - Se o recurso **Aplicativos de página inteira** estiver ativado, selecione **Adicionar uma página** e selecione a região na qual você deseja adicionar o aplicativo. Para inserir o aplicativo no botão do menu do **Power Apps**, selecione o Painel de Ação. Para inserir o aplicativo diretamente na página, seleciona a guia apropriada, Guia Rápida, folha ou seção (se estiver em um espaço de trabalho). Em seguida, no painel **Adicionar um aplicativo**, selecione **Power Apps**.
+        - Se o recurso **Aplicativos de página inteira** estiver desativado, selecione **Adicionar um aplicativo do Power Apps** e depois selecione a região na qual você deseja adicionar o aplicativo. Para inserir o aplicativo no botão do menu do **Power Apps**, selecione o Painel de Ação. Para inserir o aplicativo diretamente na página, seleciona a guia apropriada, Guia Rápida, folha ou seção (se estiver em um espaço de trabalho).
 
     - Se o aplicativo for acessado usando o botão do menu **Power Apps**, selecione o botão de menu do **Power Apps** no Painel de Ação padrão e, em seguida, selecione **Adicionar um aplicativo**.
 

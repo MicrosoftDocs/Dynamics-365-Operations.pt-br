@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 6fc4b9d0a0f5319c8a75e7d687ee82ea81497844
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: c4aac62b36cd271e1c5fc3bcbbfdd785963fc368
+ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471851"
+ms.lasthandoff: 09/08/2021
+ms.locfileid: "7484063"
 ---
 # <a name="preview-of-dynamics-365-supply-chain-management-10022-november-2021"></a>Versão preliminar do Dynamics 365 Supply Chain Management 10.0.22 (novembro de 2021)
 
@@ -34,7 +34,7 @@ A tabela a seguir lista os recursos incluídos nesta versão. A coluna *Recurso*
 
 | Área de recursos | Recurso | Mais informações | Habilitado por   |
 |---|---|---|---|
-| Planejamento | [Suporte à Otimização de Planejamento para alocação de recursos baseada em recursos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Agendamento com capacidade infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) | Gerenciamento de recursos (*Agendamento da capacidade infinita para a Otimização de Planejamento*) |
+| Planejamento | [Suporte à Otimização de Planejamento para alocação de recursos baseada em recursos](/dynamics365-release-plan/2021wave2/finance-operations/dynamics365-supply-chain-management/planning-optimization-support-capability-based-resource-allocation) | [Agendamento com seleção de recursos com base na capacidade](../master-planning/planning-optimization/capability-based-scheduling.md) | Gerenciamento de recursos (*Agendamento da capacidade infinita para a Otimização de Planejamento*) |
 
 ## <a name="feature-enhancements-included-in-this-release"></a>Aprimoramentos de recursos incluídos nesta versão
 
@@ -45,7 +45,7 @@ A tabela a seguir lista os aprimoramentos de recursos incluídos nesta versão. 
 | Gerenciamento de custo | Criar comprovantes relacionados para reavaliações de arredondamento de custo padrão | <p>Quando um lançamento financeiro de estoque (como uma fatura de ordem de venda ou transação de estoque) é feito, esse recurso faz com que o sistema crie um comprovante separado para quaisquer reavaliações de arredondamento de custo padrão relacionadas e o anexa ao comprovante de lançamento financeiro como um comprovante relacionado.</p><p>Sem esse recurso, o sistema registra reavaliações de arredondamento de custo padrão no mesmo lançamento do comprovante. Esse comportamento às vezes pode causar informações conflitantes da data, porque as reavaliações usam a sessão ou a data do sistema, enquanto as postagens financeiras usam a data de lançamento.</p> |
 | Topologia híbrida distribuída | *(O gerenciamento de recursos não é necessário).* | <p>Esta versão expande os recursos de planejamento de carga de saída da carga de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda.</p><p>Para obter mais informações, consulte [Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e de borda](../cloud-edge/cloud-edge-workload-warehousing.md).</p> |
 | Gerenciamento de alteração de engenharia | Geração de grades para produtos de engenharia | <p>Esse recurso permite gerar várias variantes para um produto de engenharia, com base na cor, no tamanho, no estilo ou nas dimensões de configuração.</p><p>Para obter mais informações, consulte [Gerar variantes para produtos de engenharia](../engineering-change-management/engineering-variants.md).</p> |
-| Gerenciamento de estoque e depósito | Integração da Visibilidade de Estoque com compensação da reserva | <p>Esse recurso só poderá ser habilitado após a habilitação do recurso *Integração da Visibilidade do Estoque*. Ele fornece funcionalidade para reservas compensadas criadas na Visibilidade do Estoque.</p><p>Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](../inventory/inventory-visibility-reservations.md).</p> |
+| Gerenciamento de depósito e estoque | Integração da Visibilidade de Estoque com compensação da reserva | <p>Esse recurso só poderá ser habilitado após a habilitação do recurso *Integração da Visibilidade do Estoque*. Ele fornece funcionalidade para reservas compensadas criadas na Visibilidade do Estoque.</p><p>Para obter mais informações, consulte [Reservas de Visibilidade de Estoque](../inventory/inventory-visibility-reservations.md).</p> |
 | Vendas e marketing | Limitar o número de ordens de venda que podem ser selecionadas para lançamento | <p>Esse recurso é habilitado automaticamente. Ele adiciona um campo **Número máx. de ordens de venda para lançamento** à página **Parâmetros de contas a receber**. Esse campo permite definir o número máximo de solicitações de venda que podem ser selecionados quando confirmações, listas de separação, guias de remessa e faturas são lançados da página de lista de ordens de venda. O valor padrão é *100*.</p><p>Esse recurso ajuda a melhorar o desempenho da página de lista de ordens de venda quando um número substancial de ordens de venda é selecionado. Não tem impacto no número de ordens de venda que podem ser processadas por uma tarefa periódica.</p> |
 
 ## <a name="new-and-updated-documentation-resources"></a>Recursos de documentação novos e atualizados

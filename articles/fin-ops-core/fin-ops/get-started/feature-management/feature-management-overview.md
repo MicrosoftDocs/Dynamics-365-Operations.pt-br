@@ -2,7 +2,7 @@
 title: Visão geral do gerenciamento de recursos
 description: Este tópico descreve o recurso de gerenciamento de recursos e como você pode usá-lo.
 author: Peakerbl
-ms.date: 07/30/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,17 +16,16 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: 9b51e848a965589ef0a14e5b880f213d18abc53097c18eed51320d7443a3b5f0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 1318093d66cfc30a04815311cce332df010d4b69
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6741599"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488169"
 ---
 # <a name="feature-management-overview"></a>Visão geral do gerenciamento de recursos
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Os recursos são adicionados e atualizados em cada versão. A experiência de gerenciamento de recursos fornece um espaço de trabalho em que você pode exibir uma lista dos recursos que foram entregues em cada versão. Você poderá usar o espaço de trabalho para visualizar a documentação de recursos e para habilitar ou desabilitar recursos.
 

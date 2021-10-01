@@ -2,7 +2,7 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-ms.date: 08/27/2021
+ms.date: 09/17/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 68114989ab96d175b534a31a7115420ee4adbcfb
-ms.sourcegitcommit: b294840b8e12aaa2775dd73b2ba9481ecc3d91d5
+ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7463605"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500100"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -38,7 +38,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Estamos substituindo alguns relatórios SQL no LCS. Não será mais necessário monitorar os relatórios, pois esse recurso foi substituído por outros serviços. |
+| **Motivo para a reprovação/remoção** |   Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual.|
 | **Substituída por outro recurso?**   | Não |
 | **Áreas afetadas do produto**         | Relatórios SQL: DTU Atual, Detalhes de DTU Atuais, Obter Detalhes de Bloqueio, Lista de Guias de Plano Atual, Obter Lista de IDs de Consulta, Obter plano de consulta SQL para uma ID de plano específica, Obter planos de consulta e status de execução, Obter configuração de restrição, Obter estatísticas de espera, Listar consultas mais caras |
 | **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
@@ -181,7 +181,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | **Substituída por outro recurso?**   | O [novo controle de grade](../..//fin-ops/get-started/grid-capabilities.md) |
 | **Áreas afetadas do produto**         | Cliente web |
 | **Opção de implantação**              | Todas |
-| **Status**                         | Na versão 10.0.13, o novo controle de grade está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O novo controle de grade se tornará obrigatório na versão de outubro de 2021. Quando o novo controle de grade se tornar obrigatório, a API **forceLegacyGrid()** não será mais respeitada. |
+| **Status**                         | Na versão 10.0.13, o novo controle de grade está geralmente disponível e os clientes podem ativar esse recurso opcionalmente. O novo controle de grade se tornará ativado, por padrão, com a versão de outubro de 2021. No momento, a intenção é que ele seja obrigatório em abril de 2022. Quando o novo controle de grade se tornar obrigatório, a API **forceLegacyGrid()** não será mais respeitada. |
 
 ### <a name="personalization-without-saved-views"></a>Personalização sem exibições salvas 
 

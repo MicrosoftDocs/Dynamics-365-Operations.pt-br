@@ -2,7 +2,7 @@
 title: Inspecionar o componente de ER configurado para evitar problemas de runtime
 description: Este tópico explica como inspecionar os componentes de Relatório Eletrônico (ER) configurados para evitar problemas de runtime.
 author: NickSelin
-ms.date: 03/04/2021
+ms.date: 08/26/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: dd4f2b00dd7634a44b75c76753f5d864b039391f4fcb29e750fb17e8a03e9b77
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: a855619ebd1c41dc3ca583912f758ed8a8f9ceef
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6718614"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488105"
 ---
 # <a name="inspect-the-configured-er-component-to-prevent-runtime-issues"></a>Inspecionar o componente de ER configurado para evitar problemas de runtime
 
@@ -40,14 +40,14 @@ Por padrão, a validação é aplicada automaticamente nos seguintes casos para 
 
     1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente de mapeamento de formato ou modelo de ER.
-    3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
+    3. Na Guia Rápida **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ações, selecione **Validar**.
 
 - Opção 2, para um formato de ER:
 
     1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente do formato de ER.
-    3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
+    3. Na Guia Rápida **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ação, selecione **Designer**.
     5. Na página **Designer de formato**, no Painel de Ações, selecione **Validar**.
 
@@ -55,7 +55,7 @@ Por padrão, a validação é aplicada automaticamente nos seguintes casos para 
 
     1. Acesse **Administração da organização \> Relatório eletrônico \> Configurações**.
     2. Na árvore de configurações no painel esquerdo, selecione a configuração de ER desejada que contém o componente de mapeamento de modelo de ER.
-    3. Na FastTab **Versões**, selecione a versão desejada da configuração de ER selecionada.
+    3. Na Guia Rápida **Versões**, selecione a versão desejada da configuração de ER selecionada.
     4. No Painel de Ação, selecione **Designer**.
     5. Na página **Modelo para mapeamento de fonte de dados**, no Painel de Ações, selecione **Designer**.
     6. Na página **Designer de mapeamento de modelo**, no Painel de Ações, selecione **Validar**.
@@ -229,6 +229,12 @@ A tabela a seguir fornece uma visão geral das inspeções fornecidas pelo ER. P
 <p>Cabeçalhos/rodapés (&lt;tipo de componente: Cabeçalho ou Rodapé&gt;) são inconsistentes</p>
 <p><b>Runtime:</b> o último componente configurado é usado no tempo de execução se a versão de rascunho do formato ER configurado for executada.</p>
 </td>
+</tr>
+<tr>
+<td><a href='#i17'>Configuração inconsistente do componente da Página</a></td>
+<td>Integridade dos dados</td>
+<td>Erro</td>
+<td>Há mais de dois componentes de intervalo sem replicação. Remova componentes desnecessários.</td>
 </tr>
 </tbody>
 </table>
@@ -866,6 +872,26 @@ Modifique o formato configurado excluindo um dos componentes **Excel\\Cabeçalho
 #### <a name="option-2"></a>Opção 2
 
 Modifique o valor da propriedade **Aparência de cabeçalho/rodapé** para um dos componentes **Excel\\Cabeçalho** ou **Excel\\Rodapé** inconsistentes.
+
+## <a name="inconsistent-setting-of-page-component"></a><a id="i17"></a>Configuração inconsistente do componente da Página
+
+Ao [configurar](er-fillable-excel.md) um componente de formato ER para usar um modelo do Excel para gerar um documento de saída, você pode adicionar a **Página\\do Excel** para paginar um documento gerado usando fórmulas de ER. Para cada componente da **Página\\do Excel** que você adicionar, você pode adicionar vários componentes do [Intervalo](er-fillable-excel.md#range-component) e ainda manter a conformidade com a seguinte [estrutura](er-fillable-excel.md#page-component-structure):
+
+- O primeiro componente do **Intervalo** aninhado pode ser configurado para que a propriedade **Direção da replicação** seja definida como **Sem replicação**. Esse intervalo é usado para criar cabeçalhos de página em documentos gerados.
+- Você pode adicionar muitos outros componentes do **Intervalo** aninhado onde a propriedade **Direção da replicação** é definida como **Vertical**. Esses intervalos são usados para preencher documentos gerados.
+- O último componente do **Intervalo** aninhado pode ser configurado para que a propriedade **Direção da replicação** seja definida como **Sem replicação**. Esse intervalo é usado para criar rodapés de página em documentos gerados e para adicionar as quebras de página necessárias.
+
+Se você não seguir a estrutura de um formato ER no designer de formato ER no tempo de design, ocorrerá um erro de validação e você receberá a seguinte mensagem de erro: "Há mais de dois componentes de intervalo sem replicação. Remova componentes desnecessários."
+
+### <a name="automatic-resolution"></a>Resolução automática
+
+Nenhuma opção para corrigir esse problema automaticamente está disponível.
+
+### <a name="manual-resolution"></a>Resolução manual
+
+#### <a name="option-1"></a>Opção 1
+
+Modifique o formato configurado alterando a propriedade **Direção da replicação** para todos os componentes do **Intervalo\\do Excel** inconsistentes.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

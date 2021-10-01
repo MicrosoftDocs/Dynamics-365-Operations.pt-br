@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-01-13
 ms.dyn365.ops.version: Release 10.0.17
-ms.openlocfilehash: d4503b6939e3d01ae5bcf1d79c1f85d39348fbb6233cfb7a965f84f3a3b0699a
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: af7ac416053a90766138f999ce69d9993ee2ff6c
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6744789"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500270"
 ---
 # <a name="goods-in-transit-processing"></a>Processamento de mercadorias em trânsito
 
@@ -39,7 +39,7 @@ Ao habilitar o módulo **Custo de entrega**, a entidade padrão *Condições de 
 
 Quando a opção **Gerenciamento de mercadorias em trânsito** estiver definida como *Sim* para o registro de condições de entrega aplicável, as mercadorias serão colocadas no depósito de mercadorias em trânsito. Esta ação será disparada somente se o recebimento do estoque não for processado antes de uma fatura ser processada. Quando as condições de entrega de uma ordem são definidas para usar mercadorias em trânsito, os usuários não podem mais lançar um recebimento de produtos para a ordem de compra. Se tentarem fazer isso, ocorrerá um erro. A mensagem de erro informa que eles devem usar a funcionalidade de mercadorias em trânsito para prosseguir.
 
-Para trabalhar com as informações de condições de entrega para mercadorias em trânsito, acesse **Compras e fornecimento \> Configuração \> Distribuição \> Condições de entrega**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Condições de entrega** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos estão na FastTab **Geral**. Para obter mais informações sobre os outros campos desta página, consulte [Condições de entrega (formulário)](/dynamicsax-2012//terms-of-delivery-form).
+Para trabalhar com as informações de condições de entrega para mercadorias em trânsito, acesse **Compras e fornecimento \> Configuração \> Distribuição \> Condições de entrega**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Condições de entrega** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos estão na Guia Rápida **Geral**. Para obter mais informações sobre os outros campos desta página, consulte [Condições de entrega (formulário)](/dynamicsax-2012//terms-of-delivery-form).
 
 | Campo | descrição |
 |---|---|
@@ -54,7 +54,7 @@ O custo de entrega adiciona dois novos tipos de depósito: *mercadorias em trân
 
 O tipo de depósito *Mercadorias em trânsito* será associado ao depósito de mercadorias em trânsito e o depósito será usado para processar as mercadorias em ordens de mercadorias em trânsito antes que elas sejam recebidas no depósito de destino final. Em geral, um depósito de mercadorias em trânsito será suficiente para cada site se o site e o depósito forem as únicas dimensões de estoque usadas para gerenciamento de estoque. Se a dimensão de estoque de local também for usada, um depósito de mercadorias em trânsito deverá ser configurado para cada combinação de site e depósito; assim, o local padrão também poderá ser especificado.
 
-Para trabalhar com configurações de mercadorias em trânsito para depósitos, acesse **Gerenciamento de estoque \> Configuração \> Divisão do estoque \> Depósitos**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Depósitos** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos aparecem na FastTab **Geral**. Para obter informações sobre outros campos na página, consulte [Depósitos (formulário)](/dynamicsax-2012//warehouses-form).
+Para trabalhar com configurações de mercadorias em trânsito para depósitos, acesse **Gerenciamento de estoque \> Configuração \> Divisão do estoque \> Depósitos**. A tabela a seguir descreve os campos que o módulo **Custo de entrega** adiciona à página **Depósitos** para dar suporte à funcionalidade de mercadorias em trânsito. Ambos os campos aparecem na Guia Rápida **Geral**. Para obter informações sobre outros campos na página, consulte [Depósitos (formulário)](/dynamicsax-2012//warehouses-form).
 
 | Campo | Descrição |
 |---|---|
@@ -124,7 +124,7 @@ Ao habilitar o módulo **Custo de entrega**, várias páginas no módulo **Geren
 
 É possível receber mercadorias usando um dispositivo móvel, desde que o menu do dispositivo móvel e o módulo **Gerenciamento de depósito** estejam configurados para receber mercadorias em uma ordem de mercadorias em trânsito. Esta seção descreve a configuração associada ao recebimento de mercadorias em trânsito.
 
-Para configurar dispositivos móveis para o processamento de mercadorias em trânsito, acesse **Configuração de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
+Para configurar dispositivos móveis para o processamento de mercadorias em trânsito, acesse **Gerenciamento de depósito \> Configuração \> Dispositivo móvel \> Itens de menu do dispositivo móvel**.
 
 O custo de entrega adiciona os seguintes processos de criação de trabalho aos itens de menu do dispositivo móvel para dar suporte ao processamento de mercadorias em trânsito:
 
@@ -133,7 +133,7 @@ O custo de entrega adiciona os seguintes processos de criação de trabalho aos 
 
 As definições de configuração para esses processos se assemelham às configurações de [processos de recebimento de ordens de compra e criação de trabalhos de armazenamento](/dynamicsax-2012/appuser-itpro/configure-mobile-devices-for-warehouse-work). No entanto, o processo *Recebimento e armazenamento de itens de mercadorias em trânsito* também adiciona o campo a seguir.
 
-- **Habilitar contêiner de remessa completo** – se essa opção for definida como *Sim*, quando o trabalho de armazenamento for concluído, o aplicativo móvel do Gerenciamento de Depósito fornecerá uma opção adicional chamada **Contêiner de remessa completo**. Quando essa opção for selecionada, o trabalhador será solicitado a confirmar que o contêiner está completo. Nesse ponto, todos os recebimentos curtos serão processados como uma transação.
+- **Habilitar contêiner de remessa completo** – se essa opção for definida como *Sim*, quando o trabalho de armazenamento for concluído, o aplicativo móvel Warehouse Management fornecerá uma opção adicional chamada **Contêiner de remessa completo**. Quando essa opção for selecionada, o trabalhador será solicitado a confirmar que o contêiner está completo. Nesse ponto, todos os recebimentos curtos serão processados como uma transação.
 
 ### <a name="location-directives"></a>Diretivas de localização
 
@@ -148,8 +148,6 @@ Esta seção descreve recursos que o módulo **Custo Landed** adiciona a modelos
 O custo de entrega adiciona um novo tipo de ordem de trabalho chamado *Mercadorias em trânsito*  à página **Modelos de trabalho**. Esse tipo de ordem de trabalho deve ser configurado da mesma forma que os [Modelos de trabalho da ordem de compra](/dynamicsax-2012/appuser-itpro/create-a-work-template).
 
 #### <a name="work-header-breaks"></a>Quebras de cabeçalho de trabalho
-
-[!INCLUDE [preview-banner-section](../../includes/preview-banner-section.md)]
 
 Os modelos de trabalho que têm um tipo de ordem de trabalho de *Mercadoria em trânsito* podem ser configurados para dividir os cabeçalhos de trabalho. Na página **Modelos de trabalho**, siga uma destas etapas:
 

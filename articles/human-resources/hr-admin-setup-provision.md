@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 2eb2f7c0f35eb05263644248ecf16c5874547de9
-ms.sourcegitcommit: 696796ca5635863850ae9ef16fc1fb0fc46ce8f0
+ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/28/2021
-ms.locfileid: "7441156"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488074"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -41,6 +41,8 @@ Antes de começar o provisionamento de um novo ambiente de produção, os seguin
 ## <a name="provision-a-human-resources-trial-environment"></a>Provisionamento de um ambiente de teste de Recursos Humanos
 
 Antes de provisionar sua primeira área restrita ou ambiente de produção, pode ser interessante provisionar um [ambiente de teste de Recursos Humanos](https://go.microsoft.com/fwlink/p/?LinkId=2115962) para validar a funcionalidade de Recursos Humanos. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Human Resources. 
+
+Os ambientes de avaliação fornecem a capacidade de avaliar a funcionalidade de recursos humanos para indivíduos que ainda não têm acesso a um ambiente de Recursos Humanos. Se você estiver provisionando um ambiente de avaliação e o usuário autenticado já tiver acesso a um ou mais ambientes de Recursos Humanos existentes, o usuário será redirecionado para o ambiente existente ou para a lista de ambientes.
 
 Ambientes de avaliação não devem ser usados como ambientes de produção. Eles estão limitados a um período de avaliação de 60 dias. Quando um ambiente de avaliação expirar, o ambiente e todos os dados que estão nele serão excluídos e não poderão ser recuperados. O ambiente não pode ser convertido em uma área restrita ou ambiente de produção. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
@@ -135,7 +137,12 @@ Use as seguintes orientações ao determinar para qual ambiente do Power Apps o 
    
     - **Geografias sem suporte** - o ambiente deve estar em uma geografia com suporte. Para obter mais informações, consulte [Geografias com suporte](hr-admin-setup-provision.md#supported-geographies).
 
-6. Depois de determinar o ambiente correto a ser usado, você poderá continuar com o processo de provisionamento. 
+6. Recursos de gravação dupla para a integração de dados de Recursos Humanos com o ambiente do Power Apps só poderão ser usados se a opção **Habilitar aplicativos do Dynamics 365** estiver selecionada para o ambiente. Consulte a [Home page da gravação dupla](../fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page.md) para obter mais informações sobre gravação dupla.
+
+    > [!NOTE]
+    > A opção **Habilitar aplicativos do Dynamics 365** deve ser selecionada quando o ambiente do Power Apps é criado. Se a opção não estiver selecionada no momento do provisionamento, não será possível usar a gravação dupla para integrar dados entre o Dynamics 365 Human Resources e o ambiente Power Apps ou instalar aplicativos do Dynamics 365, como o Dynamics 365 Sales e o Field Service, no ambiente. Esta opção não é reversível. Para obter mais informações, consulte [Algumas considerações importantes ao criar um novo ambiente](//power-platform/admin/create-environment#some-important-considerations-when-creating-a-new-environment) no site de documentação do Power Platform.
+
+7. Depois de determinar o ambiente correto a ser usado, você poderá continuar com o processo de provisionamento. 
 
 ### <a name="supported-geographies"></a>Geografias com suporte
 

@@ -2,7 +2,7 @@
 title: Agendamento com capacidade infinita
 description: Este tópico fornece informações sobre o agendamento de capacidade infinita para a Otimização de Planejamento. Ele também descreve as limitações atuais dos recursos.
 author: crytt
-ms.date: 09/02/2021
+ms.date: 09/21/2021
 ms.topic: article
 ms.search.form: RouteInventProd
 audience: Application User
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-06-09
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: 2e730340cddac107b04a6b5877e51b84f4dd7b21
-ms.sourcegitcommit: a21166da59675e37890786ebf7e0f198507f7c9b
+ms.openlocfilehash: 9e1e423aaed06f6bb2b42e27d41c2aef46ffe104
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7471659"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506798"
 ---
 # <a name="scheduling-with-infinite-capacity"></a>Agendamento com capacidade infinita
 
@@ -27,7 +27,12 @@ O recurso *Agendamento de capacidade infinita para Otimização de Planejamento*
 
 ## <a name="turn-on-the-infinite-capacity-scheduling-feature"></a>Ativar o recurso de agendamento de capacidade infinita
 
-Se o sistema ainda não incluir o recurso descrito neste tópico, abra o espaço de trabalho [Gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) e ative o recurso *Agendamento de capacidade infinita para a Otimização de Planejamento*.
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar as configurações de [gerenciamento de recursos](../../../fin-ops-core/fin-ops/get-started/feature-management/feature-management-overview.md) para verificar o status do recurso e ativá-lo. No espaço de trabalho **Gerenciamento de recursos**, o recurso está listado da seguinte forma:
+
+- **Módulo:** *Planejamento mestre*
+- **Nome do recurso:** *agendamento da capacidade infinita para a Otimização do Planejamento*
+
+Para obter mais informações sobre esse recurso, consulte [Agendamento com a seleção de recursos com base na capacidade](capability-based-scheduling.md).
 
 ## <a name="added-functionality"></a>Funcionalidade adicionada
 
@@ -42,7 +47,7 @@ Durante o processo de agendamento, o sistema também considera os *requisitos de
 - Tipo de recurso
 - Recurso
 - Grupo de recursos
-- Capacidade
+- Capacidade (Para obter mais informações, consulte [Agendamento com a seleção de recursos com base na capacidade](capability-based-scheduling.md).)
 
 > [!NOTE]
 > Ainda não há suporte para os requisitos relacionados a recursos humanos, como requisitos de habilidades ou certificados.
@@ -55,7 +60,6 @@ Em resumo, o agendamento para a Otimização de Planejamento oferece suporte aos
 
 As seguintes limitações aplicam-se quando você usa o agendamento para o Planejamento de Otimização:
 
-- O recurso oferece suporte somente ao agendamento de trabalhos. As configurações relacionadas ao agendamento de operações não são consideradas durante o agendamento, independentemente do método de agendamento em planos mestre.
 - O recurso oferece suporte apenas à capacidade infinita.
 - O recurso não oferece suporte à funcionalidade de carregamento de recursos.
 - O recurso não considera a sucata do roteiro.

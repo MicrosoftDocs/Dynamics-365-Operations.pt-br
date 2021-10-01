@@ -11,17 +11,16 @@ ms.search.region: Global
 ms.author: chuzheng
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 04d7c1de85978f7915246fd835a0866cefb6de310bba240ebcadc57089e10521
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf98529176fbed368708ea925f542a70f2936037
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6735102"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500393"
 ---
 # <a name="manage-deductions-using-the-deduction-workbench"></a>Gerenciar deduções usando a bancada de dedução
 
 [!include [banner](../includes/banner.md)]
-[!INCLUDE [preview-banner](../includes/preview-banner.md)]
 
 Este tópico descreve como usar a bancada de dedução de forma que seja possível processar pagamentos de clientes que incluem deduções.
 
@@ -63,8 +62,8 @@ Para configurar um novo diário de declarações para deduções, siga estas eta
     - **Série de comprovante** – Atribua uma sequência numérica existente. Outra opção é criar uma nova sequência numérica que tenha o escopo da empresa e atribuí-la ao nome do novo diário.
 
 1. Acesse **Contas a receber \> Configuração \> Parâmetros de contas a receber**.
-1. Na guia **Deduções**, na FastTab **Geral**, defina o campo **Nome do diário de declarações** como o nome do diário que você acabou de criar.
-1. Na FastTab **Ordem de devolução**, defina os seguintes campos:
+1. Na guia **Deduções**, na Guia Rápida **Geral**, defina o campo **Nome do diário de declarações** como o nome do diário que você acabou de criar.
+1. Na Guia Rápida **Ordem de devolução**, defina os seguintes campos:
 
     - **Criar ordem de devolução** – Defina esta opção para especificar o que o sistema deve fazer quando uma declaração baseada em quantidade for aprovada:
 
@@ -86,7 +85,7 @@ Quando o sistema cria um diário de declarações para uma nova dedução, ele t
 Para permitir que um único comprovante tenha várias linhas de cliente, siga estas etapas.
 
 1. Acesse **Contabilidade \> Configuração do razão \> Parâmetros da contabilidade**.
-1. Na guia **Razão**, na FastTab **Geral**, defina a opção **Permitir várias transações em um único comprovante** como *Sim*.
+1. Na guia **Razão**, na Guia Rápida **Geral**, defina a opção **Permitir várias transações em um único comprovante** como *Sim*.
 1. Se você receber uma mensagem de aviso, selecione **Fechar** para aceitar a alteração.
 
 ### <a name="create-deduction-reasons"></a><a name="deduction-reasons"></a>Criar motivos de dedução
@@ -344,13 +343,13 @@ Para aprovar uma dedução, siga estas etapas.
 
     - *Quantidade com base* – Se a dedução for baseada em quantidade, uma ordem de venda aberta ou uma ordem de devolução será criada. A configuração **Criar ordem de devolução** na página **[Parâmetros de contas a receber](#accounts-receivable-deductions)** determina se uma ordem de venda ou uma ordem de devolução é criada quando a dedução é aprovada. A página **Copiar ordens** exibida e filtrada para mostrar as linhas nas quais o campo **Conta da fatura** está definido como a conta de cliente da dedução. Execute estas etapas:
 
-        1. Na FastTab **Faturas**, a seção **Cabeçalhos** mostra as faturas de venda nas quais o valor **Conta da fatura** corresponde à conta de cliente da dedução. Selecione uma fatura de venda aplicável.
+        1. Na Guia Rápida **Faturas**, a seção **Cabeçalhos** mostra as faturas de venda nas quais o valor **Conta da fatura** corresponde à conta de cliente da dedução. Selecione uma fatura de venda aplicável.
         1. A seção **Linhas** mostra as linhas da fatura de venda selecionada. Marque a caixa de seleção **Selecionar** para cada linha que você deseja copiar. Como alternativa, na seção **Cabeçalhos**, marque a caixa de seleção **Selecionar tudo** para a ordem de venda para selecionar todas as linhas.
         1. Ajuste o valor **Quantidade** para uma ou mais linhas, conforme necessário.
 
-            Todas as linhas que você selecionou até agora são listadas na FastTab **Linhas selecionadas ou cabeçalho a serem copiados**.
+            Todas as linhas que você selecionou até agora são listadas na Guia Rápida **Linhas selecionadas ou cabeçalho a serem copiados**.
 
-        1. Repita as duas etapas anteriores, conforme necessário, até que todas as linhas obrigatórias sejam listadas na FastTab **Linhas selecionadas ou cabeçalho a serem copiados**.
+        1. Repita as duas etapas anteriores, conforme necessário, até que todas as linhas obrigatórias sejam listadas na Guia Rápida **Linhas selecionadas ou cabeçalho a serem copiados**.
         1. Selecione **OK**.
 
             A nova ordem de devolução é aberta e os seguintes campos são definidos automaticamente:
@@ -381,13 +380,13 @@ Siga estas etapas para criar uma ordem de devolução.
 1. Selecione a caixa de seleção **Marcar** ao lado da dedução a ser processada.
 1. No Painel de Ações, selecione **Manter \> Criar ordem de devolução**.
 1. Na caixa de diálogo **Aprovar dedução**, edite ou adicione informações ao valor **Notas** existente conforme necessário, e depois selecione **OK**.
-1. Na caixa de diálogo **Copiar ordens**, na FastTab **Faturas**, a seção **Cabeçalhos** mostra as faturas de venda nas quais o valor **Conta da fatura** corresponde à conta de cliente da dedução. Selecione uma fatura de venda aplicável.
+1. Na caixa de diálogo **Copiar ordens**, na Guia Rápida **Faturas**, a seção **Cabeçalhos** mostra as faturas de venda nas quais o valor **Conta da fatura** corresponde à conta de cliente da dedução. Selecione uma fatura de venda aplicável.
 1. A seção **Linhas** mostra as linhas da fatura de venda selecionada. Marque a caixa de seleção **Selecionar** para cada linha que você deseja copiar. Como alternativa, na seção **Cabeçalhos**, marque a caixa de seleção **Selecionar tudo** para a ordem de venda para selecionar todas as linhas.
 1. Ajuste o valor **Quantidade** para uma ou mais linhas, conforme necessário.
 
-    Todas as linhas que você selecionou até agora são listadas na FastTab **Linhas selecionadas ou cabeçalho a serem copiados**.
+    Todas as linhas que você selecionou até agora são listadas na Guia Rápida **Linhas selecionadas ou cabeçalho a serem copiados**.
 
-1. Repita as duas etapas anteriores, conforme necessário, até que todas as linhas obrigatórias sejam listadas na FastTab **Linhas selecionadas ou cabeçalho a serem copiados**.
+1. Repita as duas etapas anteriores, conforme necessário, até que todas as linhas obrigatórias sejam listadas na Guia Rápida **Linhas selecionadas ou cabeçalho a serem copiados**.
 1. Selecione **OK**.
 
     A nova ordem de devolução é aberta e os seguintes campos são definidos automaticamente:
@@ -558,7 +557,7 @@ Primeiro, você deve configurar um modelo que pode ser usado para criar o novo c
 1. Acesse **Vendas e marketing \> Bonificações comerciais \> Modelos**.
 1. No Painel de Ações, selecione **Novo**.
 1. Nos campos, insira as informações que devem aparecer nos contratos criados a partir do modelo.
-1. Na FastTab **Clientes**, no campo **Hierarquia**, selecione um nível de hierarquia.
+1. Na Guia Rápida **Clientes**, no campo **Hierarquia**, selecione um nível de hierarquia.
 1. Na lista de hierarquia, selecione o cliente que tem uma dedução incomparável e selecione o botão de seta para a direita (**\>**). O cliente é adicionado à lista **Clientes do contrato de bonificação comercial**.
 1. Defina os campos restantes conforme necessário e, em seguida, feche a página.
 1. Acesse **Vendas e marketing \> Configuração \> Bonificação comercial \> Parâmetros de gerenciamento da bonificação comercial**.

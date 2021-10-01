@@ -2,7 +2,7 @@
 title: Criar uma configuração para gerar documentos no formato Excel
 description: Este tópico descreve como criar um formato de relatório eletrônico (ER) para preencher um modelo do Excel e gerar documentos no formato Excel de saída.
 author: NickSelin
-ms.date: 03/10/2021
+ms.date: 09/14/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2d737c3a58bf94079b8b674238ed7dd651e238752a2bd992f57c9be4b95aedae
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: fd3171ad24f9c06f04372b30f2682b6da516bcb6
+ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748463"
+ms.lasthandoff: 09/15/2021
+ms.locfileid: "7488129"
 ---
 # <a name="design-a-configuration-for-generating-documents-in-excel-format"></a>Criar uma configuração para gerar documentos no formato Excel
 
@@ -138,6 +138,55 @@ Para saber mais sobre como incorporar imagens e formas, consulte [Incorporar ima
 
 O componente **PageBreak** força o Excel a iniciar uma nova página. Esse componente não é necessário quando você deseja usar a paginação padrão do Excel, mas você deve usá-lo quando deseja que o Excel siga o formato ER para a paginação da estrutura.
 
+## <a name="page-component"></a><a name="page-component"></a>Componente da página
+
+### <a name="overview"></a>Visão Geral
+
+Você pode usar o componente da **Página** quando quiser que o Excel siga o formato ER e a paginação da estrutura em um documento de saída gerado. Quando um formato ER executa componentes que estão sob o componente da **Página**, as quebras de página necessárias são adicionadas automaticamente. Durante esse processo, o tamanho do conteúdo gerado, a configuração de página do modelo do Excel e o tamanho do papel selecionado no modelo do Excel são considerados.
+
+Se você deve dividir um documento gerado em seções diferentes, cada um deles tem uma paginação diferente, é possível configurar vários componentes da **Página** em cada componente da [Planilha](er-fillable-excel.md#sheet-component).
+
+### <a name="structure"></a><a name="page-component-structure"></a>Estrutura
+
+Se o primeiro componente no componente da **Página** for um componente do [Intervalo](er-fillable-excel.md#range-component) no qual a propriedade **Direção da replicação** estiver definida como **Sem replicação**, esse intervalo será considerado o cabeçalho da página para paginação baseada nas configurações do componente da **Página** atual. O intervalo do Excel associado a esse componente de formato é repetido na parte superior de cada página gerada usando as configurações do componente da **Página** atual.
+
+> [!NOTE]
+> Para paginação correta, se as [Linhas a serem repetidas](https://support.microsoft.com/office/repeat-specific-rows-or-columns-on-every-printed-page-0d6dac43-7ee7-4f34-8b08-ffcc8b022409) no intervalo superior forem configuradas no seu modelo do Excel, o endereço desse intervalo do Excel deverá ser igual ao endereço do intervalo do Excel associado ao componente do **Intervalo** descrito anteriormente.
+
+Se o último componente no componente da **Página** for um componente do **Intervalo** no qual a propriedade **Direção da replicação** estiver definida como **Sem replicação**, esse intervalo será considerado o rodapé da página para paginação baseada nas configurações do componente da **Página** atual. O intervalo do Excel associado a esse componente de formato é repetido na parte inferior de cada página gerada usando as configurações do componente da **Página** atual.
+
+> [!NOTE]
+> Para a paginação correta, os intervalos do Excel associados aos componentes do **Intervalo** não devem ser redimensionados no tempo de execução. Não é recomendável formatar células deste intervalo usando as [opções](https://support.microsoft.com/office/wrap-text-in-a-cell-2a18cff5-ccc1-4bce-95e4-f0d4f3ff4e84) do Excel **Quebra automática de texto em uma célula** e **Ajustar altura da linha**.
+
+Você pode adicionar vários outros componentes do **Intervalo** entre os componentes do **Intervalo** para especificar como um documento gerado é preenchido.
+
+Se o conjunto de componentes do **Intervalo** aninhado no componente da **Página** não estiver de acordo com a estrutura descrita anteriormente, ocorre [erro](er-components-inspections.md#i17) no tempo de design no designer de formato do ER. A mensagem de erro informa que isso pode causar problemas durante o tempo de execução.
+
+> [!NOTE]
+> Para gerar a saída correta, não especifique uma associação para qualquer componente do **Intervalo** no componente da **Página**, se a propriedade **Direção da replicação** desse componente do **Intervalo** estiver definida como **Sem replicação** e o intervalo estiver configurado para gerar cabeçalhos de página ou rodapés de página.
+
+Se você desejar que a soma e a contagem relacionados à paginação calculem os totais de execução e totais por página, recomendamos que você configure as fontes de dados necessárias da [Coleta de dados](er-data-collection-data-sources.md). Para aprender a usar o componente da **Página** para paginar um documento do Excel gerado, conclua os procedimentos em [Criar um formato ER para paginar documentos gerados no Excel](er-paginate-excel-reports.md).
+
+### <a name="limitations"></a><a name="page-component-limitations"></a>Limitações
+
+Ao usar o componente da **Página** para paginação do Excel, você não saberá o número final de páginas em um documento gerado até que a paginação seja concluída. Portanto, não é possível calcular o número total de páginas usando fórmulas de ER e imprimir o número correto de páginas de um documento gerado em qualquer página antes da última página.
+
+> [!TIP]
+> Para obter esse resultado em um cabeçalho ou rodapé do Excel, usando a [formatação](/office/vba/excel/concepts/workbooks-and-worksheets/formatting-and-vba-codes-for-headers-and-footers) especial do Excel para cabeçalhos e rodapés.
+
+Componentes de **Página** configurados não são considerados quando você atualiza um modelo do Excel no formato editável na versão 10.0.22 do Dynamics 365 Finance. Essa funcionalidade é considerada para novas versões de Finanças.
+
+Se você configurar seu modelo do Excel para usar a [formatação condicional](/office/dev/add-ins/excel/excel-add-ins-conditional-formatting), talvez ele não funcione como esperado em alguns casos.
+
+### <a name="applicability"></a>Aplicabilidade
+
+O componente da **Página** funciona para o componente de formato do [arquivo do Excel](er-fillable-excel.md#excel-file-component) somente quando esse componente for configurado para usar um modelo no Excel. Se você [substituir](tasks/er-design-configuration-word-2016-11.md) o modelo do Excel por um modelo do Word e executar o formato de ER editável, o componente da **Página** será ignorado.
+
+O componente da **Página** funciona somente quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura eletrônica de relatórios** estiver habilitado. Uma exceção será lançada no tempo de execução, se o ER tentar processar o componente **Página** enquanto esse recurso estiver desabilitado.
+
+> [!NOTE]
+> Uma exceção é lançada no tempo de execução se um formato de ER processar o componente da **Página** para um modelo do Excel que contém pelo menos uma fórmula que se refere a uma célula que não é válida. Para ajudar a evitar erros de tempo de execução, corrija o modelo do Excel conforme descrito em [Como corrigir um erro de #REF!](https://support.microsoft.com/office/how-to-correct-a-ref-error-822c8e46-e610-4d02-bf29-ec4b8c5ff4be).
+
 ## <a name="footer-component"></a>Componente do rodapé
 
 O componente **Rodapé** é usado para preencher os rodapés na parte inferior de uma planilha gerada em uma pasta de trabalho do Excel.
@@ -197,9 +246,12 @@ Quando você valida um formato ER editável, uma verificação de consistência 
 Quando um documento de saída é gerado em um formato de pasta de trabalho do Microsoft Excel, algumas células deste documento podem conter fórmulas do Excel. Quando o recurso **Habilitar uso da biblioteca de EPPlus em estrutura eletrônica de relatórios** estiver habilitado, você pode controlar quando as fórmulas são calculadas alterando o valor do [parâmetro](https://support.microsoft.com/office/change-formula-recalculation-iteration-or-precision-in-excel-73fc7dac-91cf-4d36-86e8-67124f6bcce4#ID0EAACAAA=Windows)**Opções de cálculo** no modelo do Excel que está sendo usado:
 
 - Selecione **Automático** para recalcular todas as fórmulas dependentes toda vez que um documento gerado for acrescentado por novos intervalos, células etc.
+
     >[!NOTE]
     > Isso pode causar um problema de desempenho para os modelos do Excel que contêm várias fórmulas relacionadas.
+
 - Selecione **Manual** para evitar o recálculo de fórmulas quando um documento é gerado.
+
     >[!NOTE]
     > O recálculo da fórmula é forçado manualmente quando um documento gerado é aberto para visualização usando o Excel.
     > Não use esta opção se você configurar um destino ER que suponha o uso de um documento gerado sem sua visualização no Excel (conversão em PDF, email, etc.) como o documento gerado pode não conter valores nas células que contêm fórmulas.

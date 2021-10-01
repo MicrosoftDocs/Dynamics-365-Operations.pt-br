@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-04-23
 ms.dyn365.ops.version: 10.0.19
-ms.openlocfilehash: bd82ad9a0eb2f8f85bc7dad0ae174726234ad84f
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: 86735065864149df27cd3d8b03451ace773af048
+ms.sourcegitcommit: b5f2d88ff4e0a234fa6b9ee33516425e54ff2c3b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474883"
+ms.lasthandoff: 09/21/2021
+ms.locfileid: "7506846"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-version-10019-june-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management versão 10.0.19 (junho de 2021)
 
@@ -41,7 +41,6 @@ A maioria desses recursos deve ser habilitada usando [Gerenciamento de recursos]
 | Estoque e logística | [Funcionalidade de pesquisa para os campos Introdução do documento e Conclusão do documento na página Cotação de venda](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/lookup-functionality-document-introduction-document-conclusion-fields-sales-quotation-page) | Este recurso adiciona funcionalidade de pesquisa para os campos **Introdução do documento** e **Conclusão do documento** na página **Cotação de venda**.<br><br>Esse recurso é habilitado por padrão. |
 | Estoque e logística | [Execução de depósito com unidades de escala de borda em hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/warehouse-execution-edge-scale-units-custom-hardware) | [Implantar unidades de escala de borda em hardware personalizado usando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
 | Fabricação | [Execução de fabricação com unidades de escala de borda em hardware personalizado](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/manufacturing-execution-edge-scale-units-custom-hardware) | [Implantar unidades de escala de borda em hardware personalizado usando LBD](../cloud-edge/cloud-edge-edge-scale-units-lbd.md) |
-| Planejamento | [Agendamento da capacidade infinita para a Otimização do Planejamento](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/schedule-infinite-capacity-support-planning-optimization) | [Agendamento com capacidade infinita](../master-planning/planning-optimization/infinite-capacity-planning.md) |
 | Planejamento | Confirmação de ordens planejadas baseadas em consulta | [Confirmar ordens planejadas](../master-planning/planning-optimization/planned-order-firming.md) |
 | Gerenciamento de informações do produto | [Aprimoramentos na página de sugestões de grade](/dynamics365-release-plan/2021wave1/finance-operations/dynamics365-supply-chain-management/variant-suggestions-page-improvements) | [Criar grades de produtos predefinidas](../pim/tasks/create-predefined-product-variants.md) |
 

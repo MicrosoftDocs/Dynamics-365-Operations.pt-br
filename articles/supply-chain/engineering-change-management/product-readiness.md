@@ -12,22 +12,24 @@ ms.search.region: Global
 ms.author: benebotg
 ms.search.validFrom: 2020-09-28
 ms.dyn365.ops.version: Release 10.0.15
-ms.openlocfilehash: 96e2cf45296d937db9b136f1472374ae7254e10e
-ms.sourcegitcommit: 3d7905627ce5260ce1e6a6d5c9fdfc4c92c3163d
+ms.openlocfilehash: 12707774c780a0f805deed532af27c3705ea1f55
+ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7415312"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7500574"
 ---
 # <a name="product-readiness"></a>Preparação do produto
 
 [!include [banner](../includes/banner.md)]
 
-Você pode usar as verificações de prontidão para garantir que todos os dados mestre tenham sido especificados para um produto antes de usá-los em transações. Quando os cheques de preparação são usados, um usuário ou uma equipe é responsável pela validação de dados predefinidos específicos relacionados a produtos. Se houver uma verificação de preparação aberta para um produto, o produto não poderá ser usado em transações.
+Você pode usar verificações de prontidão para ajudar a garantir que todos os dados mestres tenham sido especificados para um produto antes de usá-los em transações. Quando os cheques de preparação são usados, um usuário ou uma equipe é responsável pela validação de dados predefinidos específicos relacionados a produtos.
 
-A caixa de seleção **Ativo** de um produto de engenharia, grade ou versão só estará disponível depois que todos os dados necessários tiverem sido inseridos e verificados, e depois que todas as verificações de preparação tiverem sido processadas. Nesse ponto, o produto, a versão ou a variante podem ser usados em transações. Você pode criar cheques de preparação para novos produtos, novas grades e novas versões de engenharia.
+Você poderá marcar a caixa de seleção **Ativo** de um produto de engenharia, grade ou versão depois que todos os dados necessários forem inseridos e verificados, e após todas as verificações de preparação serem processadas. Se uma ou mais verificações não forem processados para o produto, a versão ou a grade, ao tentar marcar a caixa de seleção **Ativo**, você receberá um aviso de que nem todas as verificações foram concluídas.
 
-Você também pode aplicar verificações de preparação a produtos padrão (não de engenharia). Para obter mais informações, consulte a seção [Verificações de preparação em produtos padrão](#standard-products) posteriormente neste tópico.
+Você pode criar verificações de preparação para novos produtos, grades e versões de engenharia. Também é possível aplicar verificações de preparação a produtos padrão (não engenharia) (consulte também [Verificações de preparação em produtos padrão](#standard-products)). 
+
+Você pode usar produtos padrão em transações, embora nem todas as verificações de preparação tenham sido concluídas. Se for necessário bloquear o uso de um produto em transações, use o estado de ciclo de vida. Você pode atribuir um estado de ciclo de vida que bloqueia o uso de um produto em transações e, depois, ao concluir todas as verificações de preparação, atribua um novo estado do ciclo de vida que permita as transações necessárias.
 
 ## <a name="types-of-readiness-checks"></a>Tipos de verificações de preparação
 
