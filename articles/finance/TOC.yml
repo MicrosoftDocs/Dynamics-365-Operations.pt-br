@@ -284,6 +284,8 @@
               href: accounts-payable/broker-contract.md
             - name: Gerenciamento de contratos de royalty
               href: accounts-payable/royalty-contract.md
+            - name: Fazer referência a faturas originais em notas de crédito (faturas de fornecedor)
+              href: accounts-payable/gbl-original-invoice-numbers-credit-notes-ap.md
             - name: Pagamentos e liquidações
               items:
                 - name: Pagamentos centralizados de Contas a pagar
@@ -1272,6 +1274,8 @@
                   href: finance-insights/use-customer-payment-predictions.md
                 - name: Visão geral de instantâneos
                   href: finance-insights/payment-snapshots.md
+            - name: Perguntas frequentes sobre solução de problemas do Finance Insights
+              href: finance-insights/finance-insights-troubleshooting-faq.md
         - name: Gerenciamento e contabilidade do projeto
           items:
             - name: Visão geral de gerenciamento e contabilidade do projeto
@@ -1574,6 +1578,10 @@
                           href: localizations/emea-multiple-vat-registration-numbers.md
                         - name: Relatórios de vários registros de IVA
                           href: localizations/emea-reporting-for-multiple-vat-registrations.md
+                        - name: Relatório da Áustria
+                          items:
+                            - name: Declaração de IVA
+                              href: localizations/emea-aut-vat-declaration-austria.md
                         - name: Relatórios da França
                           items:
                             - name: Declaração de IVA
@@ -1636,10 +1644,12 @@
                   href: localizations/emea-aut-vat-statement-details.md
                 - name: Relatório de serviços internacionais
                   href: localizations/emea-aut-vat-statement-details.md
-                - name: Relatório intrastats
+                - name: Intrastat austríaca
                   href: localizations/emea-aut-intrastat.md
                 - name: Impostos de compra
                   href: localizations/emea-aut-purchase-duties.md
+                - name: Declaração de IVA
+                  href: localizations/emea-aut-vat-declaration-austria.md
             - name: Bahrein
               items:
                 - name: Visão geral do Bahrein
@@ -2676,8 +2686,6 @@
                   href: localizations/emea-ita-vat-statements-details.md
                 - name: Relatório de comunicação de IVA trimestral
                   href: localizations/emea-ita-quarterly-vat-communication.md
-                - name: Relatório de lista de bloqueios
-                  href: localizations/emea-ita-black-list-report.md
                 - name: Data da competência e diário fiscal
                   href: localizations/emea-ita-competence-date.md
                 - name: Depreciação de ativos fixos
@@ -3801,6 +3809,8 @@
           items:
             - name: Visão geral de Relatório eletrônico
               href: ../fin-ops-core/dev-itpro/analytics/general-electronic-reporting.md?toc=/dynamics365/finance/toc.json
+            - name: Componentes de relatório eletrônico
+              href: ../fin-ops-core/dev-itpro/analytics/er-overview-components.md?toc=/dynamics365/finance/toc.json
             - name: Configurações
               items:
                 - name: Criar configurações
@@ -4509,6 +4519,8 @@
                   href: ../fin-ops-core/fin-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar o catálogo de endereços global
                   href: ../fin-ops-core/fin-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/finance/toc.json
+                - name: Configuração de endereço
+                  href: ../fin-ops-core/fin-ops/organization-administration/global-address-book-address-setup.md?toc=/dynamics365/finance/toc.json
                 - name: Perguntas frequentes sobre catálogos de endereços
                   href: ../fin-ops-core/fin-ops/organization-administration/qa-address-books.md?toc=/dynamics365/finance/toc.json
                 - name: Configurar catálogos de endereços

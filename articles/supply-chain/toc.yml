@@ -1651,6 +1651,8 @@
                   href: master-planning/planning-optimization/planning-optimization-differences-with-built-in.md
                 - name: Parâmetros não usados pela Otimização de Planejamento
                   href: master-planning/planning-optimization/not-used-parameters.md
+                - name: Plano de fornecimento
+                  href: master-planning/supply-schedule.md
                 - name: Aplicar filtros a um plano
                   href: master-planning/planning-optimization/plan-filters.md
                 - name: Planejamento mestre com previsão de demanda
@@ -1759,8 +1761,6 @@
                   href: master-planning/tasks/create-intercompany-plan.md
                 - name: Exibir planejamento de demanda intercompanhia de saída
                   href: master-planning/tasks/view-outbound-planned-intercompany-demand.md
-                - name: Colaborar com clientes da cadeia de fornecimento interna
-                  href: master-planning/tasks/collaborate-internal-supply-chain-customers.md
                 - name: Requisitos líquidos e informações de vinculação com o planejamento mestre interno
                   href: master-planning/net-requirements-built-in-master-planning.md
             - name: Previsão
@@ -2033,12 +2033,16 @@
               items:
                 - name: Visão geral de ordens de compra
                   href: procurement/purchase-order-overview.md
-                - name: ​Aprovar e confirmar ordens de compra​
+                - name: Aprovar e confirmar ordens de compra
                   href: procurement/purchase-order-approval-confirmation.md
-                - name: ​Espaço de trabalho móvel de aprovação de ordem de compra​
+                - name: Espaço de trabalho móvel de aprovação de ordem de compra
                   href: procurement/purchase-order-mobile-workspace.md
+                - name: Criar e faturar uma ordem de compra intercompanhia para uso interno
+                  href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                - name: Verificar as discrepâncias de preço da ordem intercompanhia
+                  href: sales-marketing/intercompany-check-price-discrepancies.md
                 - name: Registrar o recebimento de mercadorias na ordem de compra
-                  href: ../supply-chain/procurement/tasks/record-receipt-goods-purchase-order.md
+                  href: procurement/tasks/record-receipt-goods-purchase-order.md
             - name: Criação de ordem de compra
               items:
                 - name: Criar manualmente ordens de compra
@@ -2729,6 +2733,62 @@
                   href: sales-marketing/tasks/mass-sales-quotations.md
                 - name: Criar e editar cotações de venda
                   href: sales-marketing/tasks/create-edit-sales-quotations.md
+            - name: Comércio intercompanhia
+              items:
+                - name: Configurar comércio intercompanhia
+                  items:
+                    - name: Configurar comércio intercompanhia
+                      href: sales-marketing/intercompany-trade-set-up.md
+                    - name: Parâmetros intercompanhia
+                      href: sales-marketing/intercompany-parameters.md
+                    - name: 'Configurar fornecedores, clientes e itens para o comércio intercompanhia'
+                      href: sales-marketing/intercompany-set-up-vendors-customers-items.md
+                    - name: Configurar encargos em ordens intercompanhia
+                      href: sales-marketing/intercompany-set-up-charges.md
+                    - name: Configurar parâmetros para lançar uma ordem intercompanhia
+                      href: sales-marketing/intercompany-set-up-parameters-to-post-order.md
+                - name: Sincronizar informações intercompanhia
+                  items:
+                    - name: Sincronizar preços e descontos intercompanhia
+                      href: sales-marketing/intercompany-sync-prices-discounts.md
+                    - name: Sincronizar encargos intercompanhia
+                      href: sales-marketing/intercompany-sync-charges.md
+                    - name: Sincronizar informações de clientes intercompanhia
+                      href: sales-marketing/intercompany-synch-customer-information.md
+                    - name: Sincronizar códigos de disposição intercompanhia
+                      href: sales-marketing/intercompany-synchronize-disposition-codes.md
+                - name: Ordens de venda e faturas intercompanhia
+                  items:
+                    - name: Criando ordens de compra e de venda intercompanhia em várias empresas
+                      href: sales-marketing/intercompany-orders-in-several-companies.md
+                    - name: Ordens intercompanhia e ordens de devolução
+                      href: sales-marketing/intercompany-orders-and-return-orders.md
+                    - name: Criar uma ordem de venda intercompanhia para uso interno
+                      href: sales-marketing/intercompany-sales-order-for-internal-use.md
+                    - name: Criar e faturar uma ordem de venda intercompanhia para um cliente externo
+                      href: sales-marketing/intercompany-sales-order-for-external-customer.md
+                    - name: Reservas intercompanhia
+                      href: sales-marketing/intercompany-reservations.md
+                    - name: Alterar ou excluir uma ordem de venda intercompanhia original
+                      href: sales-marketing/intercompany-change-delete-original-sales-order.md
+                    - name: Alterar ordens intercompanhia
+                      href: sales-marketing/intercompany-change-orders.md
+                    - name: Números de lote e série intercompanhia
+                      href: sales-marketing/intercompany-batch-serial-numbers.md
+                    - name: Guias de remessa intercompanhia
+                      href: sales-marketing/intercompany-packing-slips.md
+                    - name: Registrar pagamentos automaticamente para faturas de clientes intercompanhia
+                      href: sales-marketing/intercompany-register-customer-payments-automatically.md
+                - name: Ordens de compra intercompanhia
+                  items:
+                    - name: Criar e faturar uma ordem de compra intercompanhia para uso interno
+                      href: sales-marketing/intercompany-purchase-order-for-internal-use.md
+                    - name: Verificar as discrepâncias de preço da ordem intercompanhia
+                      href: sales-marketing/intercompany-check-price-discrepancies.md
+                - name: Conversões de moeda intercompanhia
+                  href: sales-marketing/intercompany-currency-conversions.md
+                - name: Agendamento do planejamento mestre intercompanhia
+                  href: sales-marketing/intercompany-master-scheduling.md
             - name: Devoluções
               items:
                 - name: Devoluções de vendas
@@ -3067,9 +3127,11 @@
               href: landed-cost/landed-cost-vs-tms.md
             - name: Configurar e definir o módulo de custo de entrega
               items:
+                - name: Ativar o módulo de custo de entrega para seu sistema
+                  href: landed-cost/landed-cost-enable.md
                 - name: Parâmetros do custo de entrega
                   href: landed-cost/landed-cost-parameters.md
-                - name: Parâmetros de compras e de custo de entrega
+                - name: Parâmetros de compras e de fornecimento de custo de entrega
                   href: landed-cost/landed-cost-procurement-parameters.md
                 - name: Configuração do status de viagem
                   href: landed-cost/voyage-status-setup.md
@@ -3185,6 +3247,8 @@
                       href: warehousing/warehouse-slotting.md
                     - name: Classificação por vencimento de separação de estoque de diretiva de localização
                       href: warehousing/location-directive-inventory-picking-aging.md
+                    - name: Ancoragem
+                      href: warehousing/anchoring.md
                     - name: Classificação de saída
                       href: warehousing/outbound-sorting.md
                     - name: Colocar no mural/Colocar na loja
@@ -3337,10 +3401,12 @@
                       href: warehousing/tasks/create-mobile-device-license-plate-consolidation.md
                     - name: Recebimento de placa de licença mista em um dispositivo móvel
                       href: warehousing/mixed-license-plate-receiving.md
-                    - name: Configurar "Exibir lotes mais antigos no depósito" em um dispositivo móvel
+                    - name: Configurar Exibir lotes mais antigos no depósito em um dispositivo móvel
                       href: warehousing/display-older-batches-within-warehouses.md
                     - name: Escolher o lote mais antigo em um dispositivo móvel
                       href: warehousing/pick-oldest-batch.md
+                - name: Parâmetros de dispositivo móvel global
+                  href: warehousing/mobile-device-parameters.md
                 - name: Configurações do usuário do dispositivo móvel
                   href: warehousing/mobile-device-user-settings.md
                 - name: Processamento de eventos do aplicativo de depósito

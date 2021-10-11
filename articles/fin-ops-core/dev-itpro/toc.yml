@@ -20,8 +20,6 @@
                   href: get-started/whats-new-platform-updates-10-0-21.md
                 - name: Platform updates para a versão 10.0.20 (agosto de 2021)
                   href: get-started/whats-new-platform-updates-10-0-20.md
-                - name: Platform updates para 10.0.19 (junho de 2021)
-                  href: get-started/whats-new-platform-updates-10-0-19.md
             - name: Recursos removidos ou preteridos
               items:
                 - name: Home page de recursos removidos ou preteridos
@@ -1080,6 +1078,8 @@
                   items:
                     - name: Personalizar mapeamentos de entidades e campos
                       href: data-entities/dual-write/customizing-mappings.md
+                    - name: Orientações de personalização da gravação dupla
+                      href: data-entities/dual-write/custom-best-practices.md
                     - name: Manuseando múltiplos mapas de entidades
                       href: data-entities/dual-write/multiple-entity-maps.md
                     - name: Editar uma entidade legal após configuração de gravação dupla
