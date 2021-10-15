@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: wangchen
 ms.search.validFrom: 2021-04-01
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: b180a8cee1c5b7e9dda837915e6fdf94af30d06a
-ms.sourcegitcommit: 8246ba3872a1f3eaa18c8bb1ba86d3c2142a6e10
+ms.openlocfilehash: a849343cda54745f5ba3afc53e2082e79f71a29a
+ms.sourcegitcommit: 86f0574363fb869482ef73ff294f345f81d17c5b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/31/2021
-ms.locfileid: "7465068"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7562117"
 ---
 # <a name="get-started-with-tax-calculation"></a>Introdução ao Cálculo de Imposto
 
@@ -100,7 +100,7 @@ As etapas nesta seção não estão relacionadas a uma entidade legal específic
     | 10.0.18         | Configuração de Imposto - Europa 30.12.82     |
     | 10.0.19         | Configuração de Cálculo do Imposto 36.38.193 |
     | 10.0.20         | Configuração de Cálculo do Imposto 40.43.208 |
-    | 10.0.21         | Configuração de Cálculo do Imposto 40.46.212 |
+    | 10.0.21         | Configuração de Cálculo do Imposto 40.48.215 |
 
 9. No espaço de trabalho **Recursos de globalização**, selecione **Recursos**, selecione o bloco **Cálculo de Imposto** e, em seguida, selecione **Adicionar**.
 10. Selecione um dos seguintes tipos de recurso:

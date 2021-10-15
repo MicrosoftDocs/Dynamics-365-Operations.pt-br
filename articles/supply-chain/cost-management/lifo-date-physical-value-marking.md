@@ -13,15 +13,15 @@ ms.custom: 51592
 ms.assetid: d9f13274-3268-444f-85c8-b686fd39286d
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f033dee70f3423ec560885d59e2db1bc61cb6009e9c9c151c15c0ecd8d697862
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 72e1dab8bbbb830619629d1fb62a89413d388a7f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748000"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567550"
 ---
 # <a name="lifo-date-with-physical-value-and-marking"></a>Data UEPS com marcação e valor físico
 
@@ -48,14 +48,16 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 -   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
 -   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
 -   4a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
--   4a. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
+-   4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
 -   5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   6. O fechamento de estoque é executado. Com base no método da Data UEPS, a última saída atualizada financeiramente será liquidada com o último recebimento atualizado financeiramente por data. Um ajuste de BRL 5,00 será feito na transação de saída. Essas transações serão liquidadas entre si.
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 15,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque de Data UEPS quando a opção **Incluir valor físico** não for usada. ![Data UEPS com Incluir Valor Físico.](./media/lifodatewithoutincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque de Data UEPS quando a opção **Incluir valor físico** não for usada. 
+
+![Data UEPS sem a opção Incluir valor físico.](./media/lifodatewithoutincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 
@@ -83,14 +85,16 @@ A ilustração a seguir mostra estas transações:
 -   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
 -   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
 -   4a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
--   4a. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
+-   4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
 -   5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   6. O fechamento de estoque é executado. Com base no método da Data UEPS, a última saída atualizada será ajustada ou liquidada no último recebimento atualizado por data. Essas transações não serão liquidadas entre si porque a transação de recebimento financeiro será ajustada para uma transação de atualização física. Em vez disso, apenas um ajuste de BRL 6,67 será feito na transação de saída.
 
 O novo preço de custo médio reflete a média de transações atualizadas financeiramente em BRL 20,00. 
 
-A ilustração a seguir mostra os efeitos do modelo de estoque UEPS quando a opção **Incluir valor físico** for usada. ![Data UEPS com Incluir Valor Físico.](./media/lifodatewithincludephysicalvalue.gif) 
+A ilustração a seguir mostra os efeitos do modelo de estoque UEPS quando a opção **Incluir valor físico** for usada. 
+
+![Data UEPS com a opção Incluir valor físico.](./media/lifodatewithincludephysicalvalue.gif) 
 
 **Chave para o diagrama**
 

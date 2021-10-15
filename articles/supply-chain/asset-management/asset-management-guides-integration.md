@@ -1,7 +1,7 @@
 ---
 title: Integrar Dynamics 365 Supply Chain Management (Gerenciamento de ativos) com Dynamics 365 Guides
 description: Este tópico explica como integrar o módulo de gerenciamento de ativos no Microsoft Dynamics 365 Supply Chain Management com Dynamics 365 Guides para aproveitar guias de realidade combinada nos fluxos de trabalho de serviço e manutenção diários.
-author: kamaybac
+author: johanhoffmann
 ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
@@ -9,17 +9,19 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: johanho
 ms.search.validFrom: 2020-04-28
-ms.dyn365.ops.version: Release 10.0.12
-ms.openlocfilehash: 94d98aa011d0db3991c14596f5d6bdecc0fb6c831915ae124f623fa57277fcfe
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.12
+ms.openlocfilehash: 4132992eb5f4b42d43d9ff72cada616fe0573c2f
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6721526"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568246"
 ---
 # <a name="integrate-dynamics-365-supply-chain-management-asset-management-with-dynamics-365-guides"></a>Integrar Dynamics 365 Supply Chain Management (Gerenciamento de ativos) com Dynamics 365 Guides
+
+[!include [banner](../includes/banner.md)]
 
 Você pode integrar o módulo **Gerenciamento de ativos** no Microsoft Dynamics 365 Supply Chain Management com Dynamics 365 Guides para aproveitar guias de realidade combinada nos fluxos de trabalho de serviço e manutenção diários. Se uma guia estiver associada a uma ordem de trabalho de gerenciamento de ativos, um trabalhador que abre a lista de verificação de manutenção da ordem de trabalho no aplicativo móvel do Supply Chain Management (Dynamics 365) verá que um guia está disponível. Em seguida, o trabalhador pode encontrar e abrir o guia no aplicativo do Dynamics 365 Guides HoloLens.
 

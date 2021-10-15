@@ -2,7 +2,7 @@
 title: Recursos de plataforma removidos ou obsoletos
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção nas atualizações de plataforma do Finance and Operations apps.
 author: sericks007
-ms.date: 09/17/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2020-02-29
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 8910fc338f822e6b6b59acb0e6ee7a90db2b5007
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 956ead503d426bb6cdfd136957c7f9dfa157bc08
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500100"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595136"
 ---
 # <a name="removed-or-deprecated-platform-features"></a>Recursos de plataforma removidos ou obsoletos
 
@@ -32,14 +32,26 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 Informações detalhadas sobre objetos no Finance and Operations apps podem ser encontradas nos [Relatórios de referência técnica](/dynamics/s-e/global/axtechrefrep_61). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations apps.
 
+## <a name="platform-updates-for-version-10021-of-finance-and-operations-apps"></a>Atualizações de plataforma para a versão 10.0.21 dos aplicativos do Finance and Operations
+
+### <a name="skype-for-business-online-support"></a>Suporte do Skype for Business Online
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O Skype for Business Online foi desativado. Para obter mais informações, consulte [O serviço Skype for Business Online foi desativado](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/the-skype-for-business-online-service-has-retired/ba-p/2596601). |
+| **Substituída por outro recurso?**   | Atualmente não, embora possamos considerar adicionar a presença do Teams no futuro.|
+| **Áreas afetadas do produto**         | Cliente web |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Preterido. A configuração **Skype habilitado** foi desativada a partir da versão 10.0.21. A remoção dessa configuração está prevista para abril de 2022; no entanto, o recurso deixará de funcionar depois que a equipe do Skype encerrar o serviço. |
+ 
 ## <a name="feature-deprecation-effective-august-2021"></a>Substituição de recurso efetiva em agosto de 2021
 
 ### <a name="microsoft-azure-sql-reports-in-lifecycle-services-lcs"></a>Relatórios SQL do Microsoft Azure no LCS (Lifecycle Services)
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** |   Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual.|
-| **Substituída por outro recurso?**   | Não |
+| **Motivo para a reprovação/remoção** | Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual.|
+| **Substituída por outro recurso?**   | Sim, agora existe um sistema automatizado, o que torna esses recursos obsoletos. |
 | **Áreas afetadas do produto**         | Relatórios SQL: DTU Atual, Detalhes de DTU Atuais, Obter Detalhes de Bloqueio, Lista de Guias de Plano Atual, Obter Lista de IDs de Consulta, Obter plano de consulta SQL para uma ID de plano específica, Obter planos de consulta e status de execução, Obter configuração de restrição, Obter estatísticas de espera, Listar consultas mais caras |
 | **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
 | **Status**                         | Preterido: data de remoção planejada para outubro de 2021. |
@@ -48,8 +60,8 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Estamos substituindo algumas ações SQL no LCS.  |
-| **Substituída por outro recurso?**   | Não |
+| **Motivo para a reprovação/remoção** | Estamos substituindo algumas ações SQL no LCS. Todas as atividades e o monitoramento serão executados internamente pela plataforma, por meio da automação. Isso não exigirá intervenção manual. |
+| **Substituída por outro recurso?**   | Sim, agora existe um sistema automatizado, o que torna esses recursos obsoletos. |
 | **Áreas afetadas do produto**         | Ações SQL: Criar um guia de plano para impor a ID do Plano, Criar um guia de plano para adicionar dicas de tabela, Remover guia de Plano, Desabilitar/Habilitar bloqueios de página e escalonamento de bloqueio, Atualizar estatísticas em uma tabela, Recriar Índice, Criar Índice |
 | **Opção de implantação**              | Implantação na nuvem: afeta os ambientes de produção gerenciados pela Microsoft e os ambientes de área restrita da Camada 2 até a Camada 5. |
 | **Status**                         | Preterido: data de remoção planejada para outubro de 2021. |
@@ -158,7 +170,7 @@ Informações detalhadas sobre objetos no Finance and Operations apps podem ser 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | Em geral, o código personalizado oferece benefícios limitados enquanto que, ao mesmo tempo, requer recursos e uma computação significativos para o suporte. O código personalizado é usado principalmente pelos autores de relatórios para chamar métodos públicos a partir de um assembly de código personalizado. No entanto, o serviço hospedado na nuvem não oferece suporte a referências a assemblies personalizados para relatórios SSRS. |
-| **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs?view=sql-server-ver15).  |
+| **Substituída por outro recurso?**   | Autores de relatórios podem optar por continuar fazendo referência a APIs públicas do .NET para operações matemáticas, de conversão e de formatação de qualquer expressão de caixa de texto. Para obter mais informações, consulte [Adicionar código a um relatório (SSRS)](/sql/reporting-services/report-design/add-code-to-a-report-ssrs).  |
 | **Áreas afetadas do produto**         | Subconjunto de designs de relatórios de aplicativos definidos no RDL que contêm código personalizado. |
 | **Opção de implantação**              | Todas |
 | **Status**                         | Com a versão 10.0.13, o compilador começará a emitir um aviso para instâncias em que o código personalizado for detectado em uma definição de relatório SSRS. Para corrigir o problema, abra a definição do design do relatório e remova todos os artefatos de código personalizado. Este aviso será substituído por um erro do compilador em uma atualização futura.   |

@@ -1,8 +1,8 @@
 ---
 title: Previsão de fluxo de caixa
 description: Este tópico fornece uma visão geral do processo de previsão de fluxo de caixa. Também explica como a previsão de fluxo de caixa é integrada a outros módulos no sistema.
-author: JodiChristiansen
-ms.date: 12/16/2020
+author: panolte
+ms.date: 09/23/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: b9455d132a928185bdfeb49c01c141b4c9b2c52e3b3beb9f8a3c96a38238f296
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83f8e5b03a2222884758dc567688da2a756421da
+ms.sourcegitcommit: fcfd85a508c0de52cfe11d1986892219e39ef406
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6779437"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547946"
 ---
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
@@ -83,7 +83,10 @@ Você pode substituir a configuração padrão do campo **Conta de liquidez** pa
 
 ### <a name="budgeting"></a>Orçamento
 
-Os orçamentos criados a partir de modelos de orçamento podem ser incluídos nas previsões do fluxo de caixa. Na guia **Orçamento** da página **Configuração da previsão de fluxo de caixa**, selecione os modelos de orçamento para incluir na previsão. Por padrão, as novas entradas de registro de orçamento estão incluídas nas previsões depois que o modelo de orçamento é habilitado para a previsão de fluxo de caixa. A inclusão na previsão de fluxo de caixa pode ser substituída em entradas individuais do registro de orçamento.
+Os orçamentos criados a partir de modelos de orçamento podem ser incluídos nas previsões do fluxo de caixa. Na página **Configuração da previsão de fluxo de caixa**, na guia **Orçamento**, selecione os modelos de orçamento para incluir na previsão. Por padrão, as novas entradas de registro de orçamento estão incluídas nas previsões depois que o modelo de orçamento é habilitado para a previsão de fluxo de caixa.
+
+As entradas de registro de orçamento podem ser incluídas na previsão de fluxo de caixa individualmente por meio da personalização. Ao adicionar a coluna "Incluir nas previsões de fluxo de caixa" à página **Entrada de registro de orçamento**, o sistema substituirá as configurações na página **Configuração de previsão de fluxo de caixa** para incluir uma entrada de registro de orçamento individual na previsão.
+
 
 ### <a name="inventory-management"></a>Gerenciamento de estoque
 
@@ -144,7 +147,7 @@ O espaço de trabalho **Visão geral de caixa – todas as empresas** mostra a a
 
 O espaço de trabalho **Visão geral de caixa – empresa atual** mostra a análise da previsão de fluxo de caixa na moeda contábil definida da empresa. A moeda contábil usada para a análise é definida na página **Razão**. Este espaço de trabalho mostra uma visão geral dos saldos da conta bancária e de previsão de fluxo de caixa para a empresa atual. Um plano dos fluxos de entrada e de saída de caixa oferece uma visão geral dos movimentos futuros de caixa e os saldos na moeda contábil, com informações detalhadas sobre as transações de previsão. Você também pode consultar os saldos da moeda previstos.
 
-Para obter mais informações sobre a análise da previsão de fluxo de caixa, consulte o tópico [Visão geral do conteúdo do Power BI](./cash-overview-power-bi-content.md).
+Para obter mais informações sobre a análise da previsão de fluxo de caixa, consulte o tópico [Visão geral de caixa no conteúdo do Power BI](Cash-Overview-Power-BI-content.md).
 
 Além disso, é possível exibir dados de previsão de fluxo de caixa para contas, ordens e itens específicos nas páginas seguintes:
 

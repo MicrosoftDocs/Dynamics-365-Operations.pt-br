@@ -2,7 +2,7 @@
 title: Recursos removidos ou obsoletos do Dynamics 365 Commerce
 description: Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção de Dynamics 365 Commerce.
 author: josaw
-ms.date: 08/16/2021
+ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,12 +12,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2020-04-30
 ms.dyn365.ops.version: Platform update 33
-ms.openlocfilehash: 3ac08a409284681ba9bcc4825b936c0330d14e04
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b582b8b95fcf2ad45aa1bb49eb5594d30874e0f4
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386732"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559550"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-commerce"></a>Recursos removidos ou obsoletos do Dynamics 365 Commerce
 
@@ -37,6 +37,18 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 [!include [banner](../includes/preview-banner.md)]
 
+### <a name="overlapping-discounts-handling-setting-in-commerce-parameters"></a>Configuração de tratamento de descontos sobrepostos em parâmetros do Commerce
+
+A configuração **Tratamento de descontos sobrepostos**, na página **Parâmetros do Commerce**, é substituída na versão 10.0.21 do Commerce. No futuro, o mecanismo de preço do Commerce usará um único algoritmo para determinar a combinação ideal de descontos sobrepostos.
+
+| &nbsp;  | &nbsp; |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | <p>A configuração **Tratamento de descontos sobrepostos** nos parâmetros do Commerce controla como o mecanismo de preço do Commerce pesquisa e determina a combinação ideal de descontos sobrepostos. No momento, essa configuração oferece três opções:<p><ul><li> **Melhor desempenho**: esta opção usa um algoritmo de heurística avançado e um método de [classificação de valor marginal](../optimal-combination-overlapping-discounts.md) para priorizar, avaliar e determinar a melhor combinação de descontos de forma oportuna.</li><li>**Cálculo equilibrado**: na base de código atual, esta opção funciona exatamente como a opção **Melhor desempenho**. Portanto, é essencialmente uma opção duplicada.</li><li>**Cálculo exaustivo**: esta opção usa um algoritmo antigo que passa por todas as combinações de desconto possíveis durante o cálculo do preço. Para ordens com linhas e quantidades grandes, essa opção pode causar problemas de desempenho.</li></ul><p>Para ajudar a simplificar a configuração, melhorar o desempenho e reduzir os incidentes causados pelo algoritmo antigo, vamos remover completamente a configuração **Tratamento de descontos sobrepostos** e atualizar a lógica interna do mecanismo de preço do Commerce, de modo que ele use somente o algoritmo avançado (ou seja, o algoritmo por trás da opção **Melhor desempenho**).</p> |
+| **Substituída por outro recurso?**   | Não. Recomendamos que as organizações que usam o **Cálculo equilibrado** ou a opção **Cálculo exaustivo** alternem para a opção **Melhor desempenho** antes que este recurso seja removido. |
+| **Áreas afetadas do produto**         | Preços e descontos |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | A partir da versão do 10.0.21, a configuração **Tratamento de descontos sobrepostos** será removida dos parâmetros do Commerce em outubro de 2022. |
+
 ### <a name="retail-sdk-distributed-by-using-lifecycle-services"></a>SDK do Retail distribuído usando Lifecycle Services
 
 O SDK do Retail é fornecido no LCS (Lifecycle Services). Esse modo de distribuição foi preterido na versão 10.0.21. No futuro, os pacotes de referência, bibliotecas e exemplos do SDK do Retail serão publicados em repositórios públicos no GitHub.
@@ -55,7 +67,7 @@ Os pacotes implantáveis do Retail gerados usando o MSBuild do SDK do Retail for
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | Um pacote implantável do Retail é um pacote combinado que contém um conjunto completo de pacotes de extensão e instaladores. Esse pacote combinado torna a implantação complexa, pois as extensões de CSU vão para o Cloud Scale Unit e os instaladores são implantados nas lojas. Os instaladores incluem a extensão e o produto base, o que torna as atualizações difíceis. Com cada atualização, uma mesclagem de código e uma geração de pacote são necessárias. Para simplificar o processo, agora os pacotes de extensão são separados em componentes para fácil implantação e gerenciamento. Com a nova abordagem, as extensões e os instaladores do produto base são separados e podem ser atendidos e atualizados de forma independente, sem mesclagem de código ou reempacotamento.|
+| **Motivo para a reprovação/remoção** | Um pacote implantável do Retail é um pacote combinado que contém um conjunto completo de pacotes de extensão e instaladores. Esse pacote combinado torna a implantação complexa, pois as extensões de CSU vão para o Cloud Scale Unit e os instaladores são implantados nas lojas. Os instaladores incluem a extensão e o produto base, o que torna as atualizações difíceis. Em cada atualização, uma mesclagem de código e uma geração de pacote são necessárias. Para simplificar o processo, agora os pacotes de extensão são separados em componentes para fácil implantação e gerenciamento. Com a nova abordagem, as extensões e os instaladores do produto base são separados e podem ser atendidos e atualizados de forma independente, sem mesclagem de código ou reempacotamento.|
 | **Substituída por outro recurso?**   | Extensões de CSU, instaladores de extensão de POS, instaladores de extensão de Estação de hardware |
 | **Áreas afetadas do produto**         | Extensão e implantação do Dynamics 365 Commerce |
 | **Opção de implantação**              | Todas |
@@ -100,11 +112,11 @@ O desenvolvimento de extensão de PDV usando ModernPos.sln, CloudPOs.sln, POS.Ex
 
 | &nbsp;  | &nbsp; |
 |------------|--------------------|
-| **Motivo para a reprovação/remoção** | A partir de dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 é preterido e Internet Explorer 11 não receberá suporte depois de agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
+| **Motivo para a reprovação/remoção** | Desde dezembro de 2020, o suporte do Internet Explorer 11 da Microsoft para todos os produtos Dynamics 365 foi preterido e o Internet Explorer 11 não tem mais suporte desde agosto de 2021.<br><br>Isso afetará os clientes que usam os produtos do Dynamics 365 projetados para serem usados por meio de uma interface do Internet Explorer 11. Depois de agosto de 2021, o Internet Explorer 11 não terá suporte para esses produtos do Dynamics 365. |
 | **Substituída por outro recurso?**   | Recomendamos que os clientes façam a transição para o Microsoft Edge.|
 | **Áreas afetadas do produto**         | Todos os produtos do Dynamics 365 |
-| **Opção de implantação**              | Todas|
-| **Status**                         | Preterido. Internet Explorer 11 não terá suporte depois de agosto de 2021.|
+| **Opção de implantação**              | Tudo|
+| **Status**                         | Preterido. O Internet Explorer 11 não tem mais suporte desde agosto de 2021.|
 
 ## <a name="features-removed-or-deprecated-in-the-commerce-10011-release"></a>Recursos removidos ou substituídos na versão 10.0.11 do Commerce
 ### <a name="data-action-hooks"></a>Ganchos de ação de dados

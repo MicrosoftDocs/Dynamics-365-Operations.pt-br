@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: marcelbf
 ms.search.validFrom: 2021-07-13
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 80bba5446eb7a87d96a7da4ae856cb5ca114ce52
-ms.sourcegitcommit: 24e20b3b96834b23311f1bf5dbab28baf3323728
+ms.openlocfilehash: b9536a6e12b4037458910b7a2d27450ac175fd9d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7483773"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559598"
 ---
 # <a name="ready-to-pay"></a>Pronto para Pagar
 
 [!include [Applies to Human Resources](../includes/applies-to-hr.md)]
-
-[!include [preview feature](./includes/preview-feature.md)]
 
 > [!NOTE]
 > Se você quiser marcar um funcionário como pronto para pagar, será necessário primeiro habilitar a funcionalidade **integração de folha de pagamento (versão preliminar)** no gerenciamento de recursos. Para obter mais informações sobre como habilitar os recursos de visualização, consulte [Gerenciar recursos](hr-admin-manage-features.md).
@@ -72,10 +70,9 @@ Se uma dessas validações falhar, não será possível marcar o funcionário co
 
 Se o campo **Pronto para pagar** for **Não**, isso é um indício de que você deve realizar uma ação para garantir que o perfil do trabalhador esteja completo. Isto não impedirá que os dados sejam expostos nas entidades de dados. 
 
-## <a name="known-issues"></a>Problemas conhecidos
+## <a name="process-automation"></a>Automação de Processo
 
-- É necessário desativar o recurso **Entrada simplificada de funcionários** no gerenciamento de recursos. Os blocos no espaço de trabalho de gerenciamento de remuneração não funcionarão corretamente se você usar esse recurso.
-- Na página **Trabalhador**, na guia **Folha de pagamento**, o grupo **Pronto para pagar** está disponível para qualquer função do usuário. 
+Você pode automatizar a validação de todos os funcionários usando a [Automação de processos](/dynamics365/fin-ops-core/dev-itpro/sysadmin/process-automation). No espaço de trabalho **Gerenciamento de remuneração**, acesse **Links** \> **Parâmetros** \> **Automações de processo**.
 
 ## <a name="see-also"></a>Consulte também
 

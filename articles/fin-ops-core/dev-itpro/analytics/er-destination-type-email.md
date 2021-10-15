@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 4ee1ae4d8a106e467640a8cbcf5986e770395431
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: dc89e7ff43e5df358f6d41bd295e981c883085bc
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7343851"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595194"
 ---
 # <a name="email-er-destination-type"></a>Tipo de destino de ER do email
 
@@ -75,7 +75,7 @@ Você pode especificar o remetente e os destinatários do email. Por padrão, é
 >
 > Quando um destino de email é oferecido para modificação em [tempo de execução](electronic-reporting-destinations.md#security-considerations), o campo **De** só fica visível para os usuários que têm o `ERFormatDestinationSenderEmailMaintain` privilégio de segurança **Manter o endereço de email do remetente para o destino do formato ER**.
 >
-> Quando o campo **De** é configurado para usar um endereço de email diferente do do usuário atual, a permissão **Enviar como** ou **Enviar em nome de** deve ser [definida](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group?view=o365-worldwide) corretamente com antecedência. Do contrário, a exceção a seguir será gerada em tempo de execução: "Não é possível enviar email como \<from email account\> da conta \<current user account\>, verifique as permissões de 'Enviar como' em \<from email account\>".
+> Quando o campo **De** é configurado para usar um endereço de email diferente do do usuário atual, a permissão **Enviar como** ou **Enviar em nome de** deve ser [definida](/microsoft-365/solutions/allow-members-to-send-as-or-send-on-behalf-of-group) corretamente com antecedência. Do contrário, a exceção a seguir será gerada em tempo de execução: "Não é possível enviar email como \<from email account\> da conta \<current user account\>, verifique as permissões de 'Enviar como' em \<from email account\>".
 
 Você pode configurar o campo **De** para retornar mais de um endereço de email. Nesse caso, o primeiro endereço na lista é usado como endereço do remetente do email.
 

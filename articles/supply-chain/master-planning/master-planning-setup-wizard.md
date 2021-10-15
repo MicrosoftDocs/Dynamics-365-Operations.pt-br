@@ -1,7 +1,7 @@
 ---
 title: Assistente de configuração do planejamento mestre
-description: Este tópico descreve várias estratégias e parâmetros importantes que são usados para configurar o planejamento mestre.
-author: t-benebo
+description: Este tópico descreve como executar o assistente de configuração do planejamento mestre para configurar o planejamento mestre.
+author: ChristianRytt
 ms.date: 10/21/2019
 ms.topic: article
 ms.prod: ''
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: benebotg
 ms.search.validFrom: 2019-05-31
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 26dea90a208eddc39b9a92d534fbc3a5242da29f4839a7f0e427b0efb03701b9
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: b825858653599e8474a6fbd54b682c4fa0118053
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767451"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7577495"
 ---
 # <a name="master-planning-setup-wizard"></a>Assistente de configuração do planejamento mestre
 
@@ -135,7 +135,7 @@ A Contoso Manufacturer é uma fábrica que produz alto-falantes. Ela compra vár
 - A fábrica produz os itens finais. Ela tem um número definido de máquinas de trituração e perfuração usadas para processar os componentes. Os diversos componentes devem ser processados por essas máquinas.
 - Há vários fornecedores. O prazo de entrega médio de itens é de uma semana. Um grupo de itens do mesmo fornecedor terá um prazo de entrega de sete semanas.
 
-No assistente, os valores abaixo são inseridos para a Contoso Manufacturer:
+No assistente, os valores a seguir são inseridos para a Contoso Manufacturer:
 
 - **Cobertura:**
 
@@ -184,7 +184,7 @@ A Contoso Retailer é uma empresa de distribuição na indústria de moda. Ela u
 - As lojas usam requisições para o reabastecimento.
 - O prazo de entrega do depósito principal para cada loja é de aproximadamente duas semanas para todos os itens.
 
-No assistente, os valores abaixo são inseridos para a Contoso Retailer:
+No assistente, os valores a seguir são inseridos para a Contoso Retailer:
 
 - **Previsão de demanda:**
 
@@ -198,14 +198,14 @@ No assistente, os valores abaixo são inseridos para a Contoso Retailer:
     - **Pergunta:** "Você deseja que o planejamento mestre confirme automaticamente as ordens planejadas em documentos de ordem, por exemplo, ordens de produção ou de compra?"
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
-    Como a Contoso Retailer criará ordens de compra diretamente das ordens de compra planejadas, será útil se as ordens de compra planejadas forem confirmadas automaticamente. Como a empresa executa o planejamento mestre todos os dias, um limite de tempo de confirmação de um dia confirmará automaticamente todas as ordens necessárias para o dia seguinte.
+    Como o Contoso Retailer criará ordens de compra diretamente das ordens de compra planejadas, será útil se as ordens de compra planejadas forem confirmadas automaticamente. Como a empresa executa o planejamento mestre todos os dias, um limite de tempo de confirmação de um dia confirmará automaticamente todas as ordens necessárias para o dia seguinte.
 
 - **Requisições aprovadas:**
 
     - **Pergunta:** "Você deseja incluir a demanda das requisições aprovadas para reabastecer as lojas de varejo?"
     - **Resposta:** "Sim, como definido no plano mestre." **1 dia** é inserido.
 
-    A Contoso usa as exigências aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
+    A Contoso usa as requisições aprovadas de suas lojas para criar ordens de compra planejadas para reabastecer essas lojas. Como o planejamento mestre é executado todos os dias, as requisições do último dia serão incluídas no planejamento.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
