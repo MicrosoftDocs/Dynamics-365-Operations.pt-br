@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-16
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: d8c88b742c1dccb169e47fe96a5c9d9aac35e605be685cc1a0f010826c959db5
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: 372bb556ec1207096a8ff3c7df8bac9b7011b5c4
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6712853"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574128"
 ---
 # <a name="put-to-wall---put-to-store"></a>Colocar no mural - colocar na loja
 
@@ -42,7 +42,7 @@ O recurso *Classificação de saída* pode ser usado junto com o recurso *Códig
 - **Módulo:** *Gerenciamento de Depósito*
 - **Nome do recurso:** *Código da etapa da onda em toda a organização*
 
-## <a name="setup"></a>Configurar
+## <a name="setup"></a>Instalação
 
 Para esta demonstração, são usados os dados da Contoso e o depósito *62* como padrão. Alguns acréscimos observados posteriormente também são usados.
 

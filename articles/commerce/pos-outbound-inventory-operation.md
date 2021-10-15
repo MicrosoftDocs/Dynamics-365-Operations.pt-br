@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.9
-ms.openlocfilehash: e29a5295cd3c334aef88dc7a2a36b2eb8a6f636b159c0f69874fc51298a1ab7c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 3641e1974ffc277a690ca8b8d15399ac883b0132
+ms.sourcegitcommit: 89906aa2f18f16e622fd280433c8fc9fe74d2aec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6772269"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7581128"
 ---
 # <a name="outbound-inventory-operation-in-pos"></a>Operação de estoque de saída no PDV
 
@@ -116,7 +116,7 @@ Na exibição **Lista de ordem completa**, você pode selecionar manualmente uma
 
 ### <a name="over-delivery-shipping-validations"></a>Validações de remessa de entrega excedente
 
-As validações ocorrem durante o processo de recebimento para as linhas do documento. Eles incluem validações para entrega excedente. Se um usuário tentar receber um estoque maior que o solicitado na ordem de compra, mas a entrega excedida não tiver sido configurada ou se a quantidade recebida exceder a tolerância de entrega excedida configurada para a linha da ordem de compra, o usuário receberá uma mensagem de erro e não conseguirá receber a quantidade em excesso.
+As validações ocorrem durante o processo de atendimento para as linhas do documento. Eles incluem validações para entrega excedente. Se um usuário tentar remeter um estoque maior que o solicitado na ordem de transferência, mas a entrega excedida não tiver sido configurada ou se a quantidade recebida exceder a tolerância de entrega excedida configurada para a linha da ordem de transferência, o usuário receberá uma mensagem de erro e não conseguirá remeter a quantidade em excesso.
 
 ### <a name="underdelivery-close-lines"></a>Linhas de fechamento insuficiente
 

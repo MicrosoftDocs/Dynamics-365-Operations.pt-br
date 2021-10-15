@@ -2,7 +2,7 @@
 title: APIs públicas de Visibilidade de Estoque
 description: Este tópico descreve as APIs públicas fornecidas pela visibilidade do Estoque.
 author: yufeihuang
-ms.date: 08/02/2021
+ms.date: 09/30/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
@@ -10,13 +10,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
-ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 6dff54f54a495c2b4a7837f3a41f410d418cf12b
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.dyn365.ops.version: 10.0.22
+ms.openlocfilehash: 43fa94118c4d76e021bb635d720208d5f971db19
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474643"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592479"
 ---
 # <a name="inventory-visibility-public-apis"></a>APIs públicas de Visibilidade de Estoque
 
@@ -82,6 +82,8 @@ A Microsoft criou uma IU (interface do usuário) no Power Apps para que você po
 
 O token de segurança da plataforma é usado para chamar a API pública da Visibilidade de Estoque. Portanto, você deve gerar um token _Azure Active Directory (Azure AD)_ usando o aplicativo Azure AD. Você deve usar o token Azure AD para obter o _token de acesso_ do serviço de segurança.
 
+A Microsoft fornece uma coleção de obtenção de token do *Postman* pronta para uso. Você pode importar essa coleção para o seu software *Postman* usando o seguinte link compartilhado: <https://www.getpostman.com/collections/496645018f96b3f0455e>.
+
 Para obter um token de serviço de segurança, siga estas etapas.
 
 1. Entre no portal do Azure e use-o para localizar os valores de `clientId` e `clientSecret` para seu aplicativo Dynamics 365 Supply Chain Management.
@@ -131,7 +133,7 @@ Para obter um token de serviço de segurança, siga estas etapas.
    - O valor `context` deve ser a ID do ambiente LCS em que deseja implantar o suplemento.
    - Defina todos os demais valores conforme mostrado no exemplo.
 
-1. Envie uma solicitação HTTP com as seguintes propriedades:
+1. Busque um token de acesso (`access_token`) ao enviar uma solicitação HTTP com as seguintes propriedades:
 
    - **URL:** `https://securityservice.operations365.dynamics.com/token`
    - **Método:** `POST`
@@ -148,7 +150,8 @@ Para obter um token de serviço de segurança, siga estas etapas.
    }
    ```
 
-Nas seções posteriores, você usará `$access_token` para representar o token buscado na última etapa.
+> [!IMPORTANT]
+> Ao usar a coleção de solicitações *Postman* para chamar APIs públicas de Visibilidade de Estoque, você deverá adicionar um token de portador a cada solicitação. Para localizar o token de portador, selecione a guia **Autorização** na URL da solicitação, selecione o tipo **Token de Portador** e copie o token de acesso obtido na última etapa. Nas seções posteriores deste tópico, `$access_token` será usado para representar o token buscado na última etapa.
 
 ## <a name="create-on-hand-change-events"></a><a name="create-onhand-change-event"></a>Criar eventos de alteração disponíveis
 
@@ -508,7 +511,7 @@ Na parte do corpo desta solicitação, `dimensionDataSource` ainda é um parâme
 
 - `organizationId` deve conter apenas um valor, mas ainda é uma matriz.
 - `productId` pode conter um ou mais valores. Se for uma matriz vazia, todos os produtos serão retornados.
-- `siteId` e `locationId` são usados em Visibilidade de Estoque para particionamento.
+- `siteId` e `locationId` são usados para particionamento em Visibilidade de Estoque. Você pode especificar mais de um valor `siteId` e `locationId` em uma solicitação *Consulta disponível*. Na versão atual, você deve especificar os dois valores `siteId` e `locationId`.
 
 O parâmetro `groupByValues` deve seguir a configuração para indexação. Para obter mais informações, consulte [Configuração de hierarquia de índice de produto](./inventory-visibility-configuration.md#index-configuration).
 

@@ -1,7 +1,7 @@
 ---
 title: Definir processos de contagem de estoque
 description: Este tópico descreve a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem.
-author: MarkusFogelberg
+author: yufeihuang
 ms.date: 07/26/2019
 ms.topic: business-process
 ms.prod: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: mafoge
+ms.author: yufeihuang
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 535fa6cfcf1f966b02ee7b391bb41dcbc2c2ac1fc85bcd09e3811fc027621cc4
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ee47b04ba7ec9f3d74230b7a41b1c295eaea9313
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6755386"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7580831"
 ---
 # <a name="define-inventory-counting-processes"></a>Definir processos de contagem de estoque
 

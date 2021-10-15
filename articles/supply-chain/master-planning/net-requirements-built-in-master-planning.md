@@ -1,7 +1,7 @@
 ---
 title: Requisitos líquidos e informações de vinculação com o planejamento mestre interno
 description: Este tópico fornece informações sobre os requisitos líquidos e as informações de vinculação calculadas no planejamento mestre interno.
-author: crytt
+author: ChristianRytt
 ms.date: 7/28/2021
 ms.topic: article
 ms.search.form: ReqTransOverview
@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-28
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 6ace54dd3e1691013f7156b3bf315b5e35ca21bb
-ms.sourcegitcommit: b9c2798aa994e1526d1c50726f807e6335885e1a
+ms.openlocfilehash: 87ef928fddbc762e6090fee88c81818d07681790
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7345109"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568654"
 ---
 # <a name="net-requirements-and-pegging-information-with-built-in-master-planning"></a>Requisitos líquidos e informações de vinculação com o planejamento mestre interno
 

@@ -13,15 +13,15 @@ ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bb0a7ede00b129638d42ef3feb1cb683e844b048bf212efc17cf28b2eb76240f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6564df5bd9c768f647138714875c60ddd6df3c85
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6734346"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7568942"
 ---
 # <a name="inventory-object-values"></a>Valores de objeto de estoque
 
@@ -44,7 +44,7 @@ Os exemplos a seguir mostram como os valores de um objeto de estoque e de um obj
 
 A tabela a seguir mostra o resultado do cálculo para um objeto de custo. Você pode exibir o resultado na página **Objeto de custo**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="14%" />
 <col width="14%" />
@@ -80,7 +80,7 @@ A tabela a seguir mostra o resultado do cálculo para um objeto de custo. Você 
 
 A tabela a seguir mostra o resultado do cálculo para um objeto de estoque. Você pode exibir o resultado clicando em **Quantidade física** na página **Objeto de custo**.
 
-<table style="width:100%;">
+<table>
 <colgroup>
 <col width="11%" />
 <col width="11%" />

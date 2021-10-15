@@ -12,13 +12,13 @@ ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2020-07-01
-ms.dyn365.ops.version: Release 10.0.8
-ms.openlocfilehash: 70ebe47997f3b5945a433150ae66de6eb41ff12acf4f4f3c8268351116bdd313
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.8
+ms.openlocfilehash: 4c366d2f9091ee46ac3b1b6eff72e178932da18e
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6767942"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592619"
 ---
 # <a name="confirm-and-transfer"></a>Confirmar e transferir
 
@@ -45,8 +45,8 @@ Você só pode dividir cargas que atendam a todos os seguintes critérios:
 
 - Uma ou mais linhas de carga têm quantidades separadas.
 - O status da carga é menor do que o carregado.
-- Não há dados de linha de carga. (Esses dados são criados por meio da consolidação da placa de licença no local de preparo, e o recurso *Confirmar e transferir* não oferece suporte à consolidação de placas de licença.)
-- No momento, não há estoque aguardando para ser embalado em um local de embalagem. (O recurso *Confirmar e transferir* não oferece suporte para estoque que foi separado para a estação de embalagem, mas que ainda não foi embalado.)
+- Não há dados de linha de carga. (Esses dados são criados por meio da consolidação da placa de licença no local de preparo, e o recurso Confirmar e transferir não oferece suporte à consolidação de placas de licença.)
+- No momento, não há estoque aguardando para ser embalado em um local de embalagem. O recurso *Confirmar e transferir* não oferece suporte ao estoque que foi separado para a estação de pacote, mas ainda não foi embalado, a menos que os contêineres incluídos sejam colocados em locais de preparo com trabalho de carregamento criado.
 
 > [!NOTE]
 > Essa funcionalidade é diferente da funcionalidade de carga de transporte, que deve ser usada em depósitos que nunca podem planejar e criar cargas antes da separação, mas que, em vez disso, carregam o espaço de transporte disponível depois que a separação é finalizada.

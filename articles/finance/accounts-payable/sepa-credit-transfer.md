@@ -1,7 +1,7 @@
 ---
 title: Visão geral da transferência de crédito SEPA
 description: Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
-author: ShylaThompson
+author: sunfzam
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: c7d0d5cea3ee3a8476eeb99b99087f55a60306c4717b58403b3beb43ad84a2da
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 7bc62f6912433d698024b20e61f54b9a6aea2bbb
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6737200"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7594758"
 ---
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
 

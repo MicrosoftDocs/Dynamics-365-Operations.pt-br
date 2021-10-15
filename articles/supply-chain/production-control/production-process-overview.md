@@ -1,7 +1,7 @@
 ---
 title: Visão geral do processo de produção
 description: Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro.
-author: cvocph
+author: johanhoffmann
 ms.date: 09/13/2019
 ms.topic: article
 ms.prod: ''
@@ -15,15 +15,15 @@ ms.custom:
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 42a71d9f8a7229b147d5e322456c44c4d0d7b7f7303d8b13946eed7e68c75343
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 43530dceefa264755114d9a0e81c19682b1af20c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6776839"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7574512"
 ---
 # <a name="production-process-overview"></a>Visão geral do processo de produção
 

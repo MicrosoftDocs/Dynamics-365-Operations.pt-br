@@ -1,7 +1,7 @@
 ---
 title: Códigos da etapa da onda
 description: Este tópico fornece uma visão geral dos códigos da etapa da onda e como são usados.
-author: josaw1
+author: Mirzaab
 ms.date: 09/06/2019
 ms.topic: article
 ms.prod: ''
@@ -12,15 +12,15 @@ ms.reviewer: kamaybac
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: perlynne
+ms.author: mirzaab
 ms.search.validFrom: 2019-09-30
 ms.dyn365.ops.version: 10.0.5
-ms.openlocfilehash: 47ec1319c7d1dde151f63e7e37e86c0265d84089f4d0366dea9310bda49c859d
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c32e795fcb12be02d9c9324051101fa378935303
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6780425"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7572232"
 ---
 # <a name="wave-step-codes"></a>Códigos da etapa da onda
 

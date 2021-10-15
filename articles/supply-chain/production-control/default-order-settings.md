@@ -1,7 +1,7 @@
 ---
 title: Configurações de ordem padrão para dimensões e variantes de produto
 description: As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens.
-author: t-benebo
+author: johanhoffmann
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: benebotg
+ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 10.0.13
-ms.openlocfilehash: 5cdba1b3aaa121eed3b8f870d21aa7e58d2c7b14aa25563cd437d3769b35e872
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 2681a2a13754e240dcc4c99792dc47ae734f6e9e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6750043"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579415"
 ---
 # <a name="default-order-settings-for-dimensions-and-product-variants"></a>​Configurações de ordem padrão para dimensões e grades de produtos​
 

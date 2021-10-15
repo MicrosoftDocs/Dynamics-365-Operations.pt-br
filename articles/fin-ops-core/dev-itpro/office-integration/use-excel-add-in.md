@@ -2,7 +2,7 @@
 title: Exibir e atualizar dados da entidade com o Excel
 description: Este tópico explica como abrir dados da entidade no Microsoft Excel e, em seguida, exibir, atualizar e editar esses dados usando o suplemento do Excel do Microsoft Dynamics.
 author: jasongre
-ms.date: 01/22/2021
+ms.date: 10/01/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: aefebe094a0429f22a1a7038a55ab2190e41da6348447850148b8b98e082e743
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d1902e80313c5460ac38896bc2f46d83897e3a58
+ms.sourcegitcommit: 49f29aaa553eb105ddd5d9b42529f15b8e64007e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761345"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7592656"
 ---
 # <a name="view-and-update-entity-data-with-excel"></a>Exibir e atualizar dados da entidade com o Excel 
 
@@ -60,9 +60,9 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 
 6. Selecione **OK** e, depois, **Sim** para confirmar a alteração. O suplemento do Excel é reiniciado e carrega os metadados.
 
-    O botão **Design** agora está disponível. Se o suplemento do Excel possuir um botão **Carregar applets**, você provavelmente não está conectado como o usuário correto. Para obter mais informações, consulte "O botão Carregar applets está aparecendo" na seção [Solução de Problemas"](../office-integration/use-excel-add-in.md#troubleshooting) desse tópico.
+    O botão **Design** agora está disponível. Se o suplemento do Excel tiver um link **Carregar applets**, você provavelmente não será conectado como o usuário correto. Para obter mais informações sobre como resolver esse problema, consulte a entrada de solução de problemas [Carregar applets](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane).
 
-7. Selecionar **Design**. O suplemento do Excel recupera metadados da entidade.
+7. Selecione **Design**. O suplemento do Excel recupera metadados da entidade.
 8. Selecionar **Adicionar tabela**. Uma lista de entidades aparece. As entidades são listadas no formato "Nome - Rótulo".
 9. Selecionar uma entidade da lista, como **Cliente - Clientes** e selecionar **Próximo**.
 10. Para adicionar um campo da lista **Campos disponíveis** à lista **Campos selecionados**, selecione o campo e **Adicionar**. Outra opção é clicar duas vezes no campo na lista **Campos disponíveis**.
@@ -136,7 +136,7 @@ Os dados lidos na pasta de trabalho de um ambiente podem ser copiados para outro
 ## <a name="troubleshooting"></a>Solução de problemas
 Existem alguns problemas que podem ser resolvidos através de algumas etapas simples.
 
-- **O botão Carregar applets aparece** – Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
+- **O link "Carregar applets" é mostrado** – Para obter mais informações sobre como resolver esse problema, consulte a entrada de solução de problemas [Carregar applets](../office-integration/office-integration-troubleshooting.md#issue-the-excel-add-in-loads-but-instead-of-showing-data-it-displays-load-applets-in-the-task-pane). 
 - **Você recebe uma mensagem "Proibido"** – Se receber uma mensagem "Proibido" enquanto o suplemento do Excel estiver carregando metadados, a conta conectada no suplemento não terá permissão para usar o serviço, a instância ou o banco de dados escolhido. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, selecione-o, saia da sessão e entre novamente.
 - **Uma página da Web em branco aparece no Excel** – se uma página da Web em branco for aberta durante o processo de logon, a conta exigirá AD FS, mas a versão do Excel que estiver executando o suplemento do Excel não será recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](/deployoffice/overview-office-deployment-tool) para [mover do canal diferido para o canal atual](/deployoffice/overview-update-channels).
 - **Você recebe um tempo limite ao publicar alterações de dados** – Se você receber mensagens de tempo limite ao tentar publicar alterações de dados em uma entidade, considere a redução do tamanho do lote de publicação da pasta de trabalho afetada. As entidades que acionam quantidades maiores de lógica em alterações de registro podem exigir que atualizações sejam enviadas em lotes menores para ajudar a evitar tempos limites.

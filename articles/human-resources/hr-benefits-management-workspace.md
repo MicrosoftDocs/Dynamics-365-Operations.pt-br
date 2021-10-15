@@ -1,8 +1,8 @@
 ---
 title: Espaço de trabalho de gerenciamento de benefícios
 description: Este tópico descreve o espaço de trabalho Gerenciamento de benefícios no Dynamics 365 Human Resources.
-author: andreabichsel
-ms.date: 02/24/2021
+author: twheeloc
+ms.date: 09/21/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.search.scope: Human Resources
 ms.custom: 7521
 ms.assetid: ''
 ms.search.region: Global
-ms.author: anbichse
+ms.author: twheeloc
 ms.search.validFrom: 2020-02-24
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 49393ab65c2f0020af5b246f7c18a152d613725f5b31be89cb57f244b28003f3
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6cc1432e108c74706dea124a62024272e65b6c1
+ms.sourcegitcommit: 47a3ad71210c7ac84d0c25e913c440b5ba205282
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6719083"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7512464"
 ---
 # <a name="benefits-management-workspace"></a>Espaço de trabalho Gerenciamento de benefícios
 
@@ -60,7 +60,7 @@ Se você selecionar um bloco, Acesse a página dessa área. Por exemplo, a sele�
 
 ![Planos de benefícios para o trabalhador.](./media/hr-benefits-management-workspace-plans.png)
 
-A seleção do bloco **Eventos de vida ativos** ou **Eventos de vida futuros** leva você a uma lista de eventos de vida ativos ou futuros.
+A seleção de **Eventos de vida ativos** ou **Eventos de vida futuros** levará você a uma lista de eventos de vida ativos ou futuros.
 
 ![Eventos de vida.](./media/hr-benefits-management-workspace-life-events.png)
 
@@ -84,13 +84,46 @@ Para obter mais informações sobre o processamento de benefícios, consulte:
 
 ## <a name="change-period"></a>Alterar período
 
-Para exibir um período de benefícios diferente, selecione-o no menu suspenso **Período**.
+Para exibir um período de benefícios diferente, selecione-o na lista suspensa **Período**.
 
 ![Alterar período.](./media/hr-benefits-management-workspace-period.png)
 
+
+## <a name="open-enrollment-tab"></a>Guia Registro aberto
+
+Você pode exibir itens de ação selecionando um bloco ou uma guia. Se você selecionar uma guia, poderá exibir e selecionar trabalhadores na página do espaço de trabalho.
+A guia **Registro aberto** fornece métricas-chave para o processo de registro aberto. 
+
+As informações sobre o registro aberto serão exibidas 30 dias antes da **Data de início do registro**. Isso é definido na configuração de **Períodos** em **Gerenciamento de benefícios** > **Links** > **Períodos**, no campo **Data de início da inscrição**.  Para alterar essa configuração, acesse **Parâmetros compartilhados do Human Resources** > **Gerenciamento de benefícios** > **Opções de registro aberto** e atualize o campo **Número de**.  
+
+As informações a seguir estão disponíveis na guia **Registro aberto**:
+ - Funcionários que não iniciaram o processo de registro aberto
+ - Funcionários com eleições em processo
+ - Funcionários que concluíram o processo de eleição
+ - Seleções não confirmadas
+
+**Blocos do resumo**
+
+- **Não iniciado** – o bloco **Não iniciado** mostra uma contagem de funcionários que não iniciaram o processo de registro. O bloco **Não iniciado** é uma lista filtrada que mostra somente os funcionários que não têm planos selecionados, renunciados ou com check-out para o período de planejamento de registro aberto. Os planos obrigatórios são ignorados e não incluídos, pois são selecionados por padrão para o funcionário.  É possível fazer uma busca detalhada nesse bloco para ver uma lista de funcionários que não iniciaram o processo de registro aberto na página **Plano de benefícios do trabalhador**.
+
+  > [!NOTE]
+  > Se você não quiser rastrear o andamento do registro aberto para um **Tipo de plano**, será possível excluí-lo acessando **Gerenciamento de benefícios** > **Links** > **Parâmetros de autoatendimento para funcionários** > **Configuração do bloco de planos de benefícios** e atualizando o campo **Rastrear o progresso do registro aberto**.  Por exemplo, você pode ter planos criados em que **Tipo de plano** = **Outro**. Esses planos podem ser planos opcionais para os quais você não deseja rastrear o andamento do registro. Se você não selecionar esse tipo de plano, os planos desses tipos serão ignorados ao rastrear o andamento ou a conclusão do registro na guia **Registro aberto**. Essa configuração se aplica ao tipo de plano selecionado para todos os períodos e entidades legais.
+
+- **Em andamento** – o bloco **Em andamento** fornece uma contagem de funcionários com eleições em andamento. O bloco **Em andamento** é uma lista filtrada que mostra apenas funcionários com pelo menos um plano renunciado ou selecionado. Os planos obrigatórios são ignorados e não incluídos, pois são selecionados por padrão para o funcionário. Você pode resumir neste bloco para ver os planos selecionados e renunciados na página **Atualização em Massa dos Planos de Benefícios do Trabalhador**.
+
+- **Registrado em benefícios** – o bloco **Registrado em benefícios** oferece uma contagem de funcionários que são totalmente registrados em benefícios. O formulário **Registrado em benefícios** é uma lista filtrada que mostra os funcionários com todos os planos selecionados ou renunciados. A consulta excluirá planos que não estão sendo rastreados para registro aberto na página **Parâmetros de autoatendimento para funcionários**. Você pode detalhar esse bloco para ver uma lista de funcionários na página **Planos de benefícios do trabalhador**.
+
+- **Seleções não confirmadas** – o bloco **Seleções não confirmadas** mostra uma contagem de funcionários com planos selecionados ou renunciados e que precisam ser confirmados. Você pode detalhar esse bloco para exibir a página **Atualização em Massa dos Planos de Benefícios do Trabalhador**.
+
+**Atividade**
+
+- **Não iniciado** – a guia **Não iniciado** exibe uma lista de funcionários que não iniciaram o processo de registro. O bloco **Não iniciado** é uma lista filtrada que mostra somente os funcionários que não têm planos selecionados, renunciados ou com check-out para o período de planejamento de registro aberto. Os planos obrigatórios são ignorados e não incluídos, pois são selecionados por padrão para o funcionário. Você pode detalhar o trabalhador para exibir a página **Detalhe dos planos de benefícios do trabalhador**.
+
+- **Eleições em andamento** – a guia **Eleições em andamento** exibe uma lista de funcionários com eleições em andamento. **Eleições em andamento** é uma lista filtrada que mostra apenas funcionários com pelo menos um plano renunciado ou selecionado. Os planos obrigatórios são ignorados e não incluídos, pois são selecionados por padrão para o funcionário. Você pode detalhar o trabalhador para exibir a página **Detalhe dos planos de benefícios do trabalhador**.
+
 ## <a name="view-more-options"></a>Exibir mais opções
 
-Para exibir mais informações e ações que podem ser executadas, selecione **Links**.
+Para exibir mais informações e/ou ações adicionais, selecione **Links**.
 
 ![Links.](./media/hr-benefits-management-workspace-links.png)
 

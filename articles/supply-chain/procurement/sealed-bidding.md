@@ -1,22 +1,22 @@
 ---
 title: lances lacrados para RFQs
 description: Este tópico descreve como configurar lances lacrados para manter as respostas de lance de fornecedor em segredo até que eles sejam abertos pela equipe de compra.
-author: yanansong
+author: Henrikan
 ms.date: 08/02/2021
 ms.topic: article
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: yanansong
+ms.author: henrikan
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 02cbe9d6a6d157208d73ed756efae24df2a082de
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 96549b6053ba75f2d5b9a85bcd5b7feb006f0f1b
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500625"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7578071"
 ---
 # <a name="sealed-bidding-for-rfqs"></a>lances lacrados para RFQs
 
@@ -53,7 +53,11 @@ Para começar a configurar ou usar este recurso, você deve verificar se ele est
 O Supply Chain Management usa chaves de criptografia para proteger todos os lances lacrados e mantê-los secretos até o momento apropriado. Ele aproveita os recursos do Key Vault para gerar e gerenciar as chaves necessárias. Portanto, você deve configurar uma conexão do Supply Chain Management para um key vault para habilitar o sistema.
 
 > [!IMPORTANT]
-> O cofre de chaves deve ser criado em uma assinatura do Azure pertencente à sua organização (não na assinatura em que você está executando o Supply Chain Management).
+> Os cofres de chaves usados para lances lacrados devem atender aos seguintes requisitos:
+>
+> - Se você usar uma área restrita para desenvolvimento e teste, será necessário ter um cofre de chaves dedicado para a área restrita e outro para produção.
+> - Cada cofre de chaves deve ser criado em uma assinatura do Azure pertencente à sua organização (não na assinatura em que você está executando o Supply Chain Management).
+> - Cada cofre de chaves deve ser usado exclusivamente para lances lacrados. Não use os cofres de chaves de lances lacrados para qualquer outra finalidade.
 
 Cada lance recupera sua própria chave secreta. Essa chave é usada toda vez que um usuário exibe, atualiza ou abre o lance.
 

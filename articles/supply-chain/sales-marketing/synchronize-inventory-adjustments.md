@@ -1,7 +1,7 @@
 ---
 title: Sincronizar transferências e ajustes de estoque do Field Service com o Supply Chain Management
 description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar ajustes e transferências de estoque do Dynamics 365 Supply Chain Management com o Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: f1fc4b65fefcc050591f721cf5271fdd79f1b648d992be988af7ac02e220850c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 83ab46904815b177640c87fef58ce208d00d800a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6717882"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566374"
 ---
 # <a name="synchronize-inventory-transfers-and-adjustments-from-field-service-to-supply-chain-management"></a>Sincronizar transferências e ajustes de estoque do Field Service com o Supply Chain Management
 
@@ -72,12 +72,12 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 
 ### <a name="inventory-adjustment-field-service-to-supply-chain-management-inventory-adjustment"></a>Ajuste de estoque (Field Service com o Supply Chain Management): Ajuste de estoque
 
-[![Mapeamento de modelo na Integração de dados.](./media/FSAdj1.png)](./media/FSAdj1.png)
+[![Mapeamento de modelos na Integração de dados, Ajuste de estoque (Field Service para Supply Chain Management): Ajuste de estoque.](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
 ### <a name="inventory-transfer-field-service-to-supply-chain-management-inventory-transfer"></a>Transferência de estoque (Field Service com o Supply Chain Management): Transferência de estoque
 
-[![Mapeamento de modelo na Integração de dados.](./media/FSTrans1.png)](./media/FSTrans1.png)
+[![Mapeamento de modelos na Integração de dados, Transferência de estoque (Field Service para Supply Chain Management): Transferência de estoque.](./media/FSTrans1.png)](./media/FSTrans1.png)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

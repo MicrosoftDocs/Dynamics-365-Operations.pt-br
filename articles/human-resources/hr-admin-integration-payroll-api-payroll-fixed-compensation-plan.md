@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: dcb253fabbb183003048119c7a627bf0ab960050
-ms.sourcegitcommit: 4d11061f5de0ddba1f968bd5c3fd694a8b104ccc
+ms.openlocfilehash: a3cc431307d840d393a454e91f202c07c38d2512
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/26/2021
-ms.locfileid: "7429210"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559330"
 ---
 # <a name="payroll-fixed-compensation-plan"></a>Plano de remuneração fixa da folha de pagamento
 
@@ -42,7 +42,7 @@ Nome físico: mshr_payrollfixedcompensationplanentity.
 | **ID da posição**</br>mshr_positionid</br>*Sequência de caracteres* | Somente leitura | ID do cargo associada ao funcionário e ao registro do plano de remuneração fixa. |
 | **Válido a partir de**</br>mshr_validfrom</br>*Compensação de Data/Hora* |  Somente leitura | Data a partir da qual a remuneração fixa do funcionário é válida.  |
 | **Válida até**</br>mshr_validto</br>*Compensação de Data/Hora* | Somente leitura | Data até a qual a remuneração fixa do funcionário é válida. |
-| **Frequência de pagamento**</br>mshr_payfrequency</br>*Sequência de caracteres* | Somente leitura | A frequência com que o funcionário será pago.  |
+| **Frequência de pagamento**</br>mshr_payfrequency</br>*Sequência de caracteres* | Somente leitura | A ID da [frequência de pagamento de remuneração](hr-admin-integration-payroll-api-compensation-pay-frequency.md) para a taxa de pagamento especificada. |
 | **Moeda**</br>mshr_currency</br>*Sequência de caracteres* | Somente leitura | A moeda definida para o plano de remuneração fixa. |
 | **Entidade Plano de remuneração fixa da folha de pagamento**</br>mshr_payrollfixedcompensationplanentityid</br>*GUID* | Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o plano de remuneração. |
 

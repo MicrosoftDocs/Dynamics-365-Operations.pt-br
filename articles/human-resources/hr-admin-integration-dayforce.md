@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 255cc612ef727153be70b755745eed9ad679b839
-ms.sourcegitcommit: 72a82e9aeabbdecf57e1aee72975c63eba75143a
+ms.openlocfilehash: f92850a741f2a0d4d1c2636cbbdf21fe95f307df
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2021
-ms.locfileid: "7414575"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559452"
 ---
 # <a name="configure-integration-with-dayforce"></a>Configurar a integração com o Dayforce
 
@@ -64,7 +64,6 @@ A ativação da integração da folha de pagamento tem dois efeitos principais:
 
 > [!NOTE]
 > O pacote de dados transferido para a empresa de SFTP é criptografado usando uma chave exclusiva para o pacote. A chave é um Azure Key Vault acessível somente pelo Ceridian. Não é possível descriptografar e revisar o conteúdo do pacote de dados. Se você precisar examinar o conteúdo do pacote de dados, exporte manualmente o projeto de dados "Exportação de integração da folha de pagamento", baixe-o e abra-o A exportação manual não aplicará a criptografia nem transferirá o pacote.
-> Para instâncias em que os arquivos de integração são enviados de um ambiente de UAT ou de área restrita do Dynamics 365 Human Resources para um ambiente de teste Ceridian Dayforce, você pode usar a seguinte URL do cofre de chaves: https://payrollintegrationprod.vault.azure.net.
 
 ## <a name="configure-your-data"></a>Configurar seus dados 
 

@@ -1,7 +1,7 @@
 ---
 title: Planejamento mestre para cobertura de site e depósito, depósito não obrigatório
 description: Este tópico descreve como um item que tem o local e o depósito como dimensões da cobertura é planejado. A dimensão do depósito não é obrigatória.
-author: roxanadiaconu
+author: ChristianRytt
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: 2514
 ms.assetid: 92d47bdd-df68-4f60-ac9a-96aa08236c26
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: kamaybac
+ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: bf4cdf01e2cb86d65516d58c26b8c74a5fe3b4f0acbebe94ab4ac76497410f8c
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: e6d163a0a9fc98442f8717972445a1de6d35ca1c
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6766670"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573696"
 ---
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Planejamento mestre para cobertura de site e depósito, depósito não obrigatório
 

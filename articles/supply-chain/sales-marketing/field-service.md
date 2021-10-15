@@ -1,7 +1,7 @@
 ---
 title: Visão geral da integração com o Microsoft Dynamics 365 Field Service
 description: Este tópico fornece uma visão geral da Integração com o Microsoft Dynamics 365 Field Service.
-author: ChristianRytt
+author: Henrikan
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: intro-internal
 ms.assetid: ''
 ms.search.region: global
 ms.search.industry: ''
-ms.author: crytt
+ms.author: henrikan
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: ecfd19cf79b9547c67b5bb90cef451d4aeab8f5ee775e50578161783e370462f
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 23661bca91ccd7b7a04c763e60cfca9a99d62bfa
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761749"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566446"
 ---
 # <a name="integration-with-microsoft-dynamics-365-field-service-overview"></a>Visão geral da integração com o Microsoft Dynamics 365 Field Service
 
@@ -58,7 +58,7 @@ A funcionalidade adicional nesta segunda fase está centrada em fornecer aos té
 - Projetos do Supply Chain Management conectados a ordens de serviço do Dynamics 365 Field Service
 - Ordens de serviço do Dynamics 365 Field Service com links para projetos do Supply Chain Management, aplicar esse número de projeto à ordem de venda para permitir o faturamento do projeto. 
 
-![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service.](./media/FSv2overview.png)
+![Sincronização de processos empresariais entre o Supply Chain Management e o Field Service, incluindo informações de estoque e projeto.](./media/FSv2overview.png)
 
 ### <a name="the-second-phase-of-the-integration-between-field-service-and-supply-chain-management-enables-synchronization-with-the-following-templates"></a>O segunda fase da integração entre o Field Service e o Supply Chain Management permite a sincronização com os seguintes modelos:
 - Depósitos (Supply Chain Management para Field Service) - Depósitos do Supply Chain Management para o Field Service [Consulta Avançada] 

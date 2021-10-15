@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2021-04-07
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 898ca7b33e39ec33990fecc4c3a7229620fbfddd5ce8ad14423af38047187e55
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: bf3fc5f333333b9a832ecb9c185473e476ac231d
+ms.sourcegitcommit: 12e26ef25c492e5032260733b50cd642cbd6164d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6761965"
+ms.lasthandoff: 09/28/2021
+ms.locfileid: "7559500"
 ---
 # <a name="payroll-worker-address"></a>Endereço do trabalhador da folha de pagamento
 
@@ -34,26 +34,32 @@ Esta entidade fornece a localização da residência de folha de pagamento e a l
 
 ## <a name="properties"></a>Propriedades
 
-| Propriedade</br>**Nome físico**</br>**_Tipo_** | Usar | descrição |
+| Propriedade</br>**Nome físico**</br>**_Tipo_** | Usar | Descrição |
 | --- | --- | --- |
-| **Cidade**</br>mshr_city</br>*Sequência de caracteres* | Somente leitura</br>Obrigatório | A cidade definida para o endereço.   |
-| **Número da equipe**</br>mshr_personnelnumber</br>*Cadeia de caracteres* | Somente leitura</br>Obrigatório | O número da equipe exclusiva do funcionário.  |
-| **País/região**</br>mshr_countryregionid</br>*Cadeia de caracteres* | Somente leitura</br>Obrigatório | O país ou região definida para o endereço.  |
-| **Válido a partir de**</br>mshr_postaladdressvalidfrom</br>*Compensação de Data/Hora* | Somente leitura </br>Obrigatório | Data a partir da qual o endereço é válido. |
-| **Endereço em que trabalhou** </br> mshr_isworkedinaddressbr </br>*[conjunto de opções mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Somente leitura</br>Obrigatório | Indica se o endereço é onde o funcionário trabalha. |
-| **Município**</br>mshr_county</br>*Sequência de caracteres* | Somente leitura</br>Obrigatório | O município definido para o endereço.  |
-| **ID do endereço do trabalhador da folha de pagamento**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Obrigatório</br>Gerado pelo sistema | Um valor GUID gerado pelo sistema para identificar exclusivamente o endereço.  |
-| **Campo principal**</br>mshr_primaryfield</br>*Sequência de caracteres* | Somente leitura</br>Obrigatório |  |
-| **Rua**</br>mshr_street</br>*Sequência de caracteres* | Somente leitura</br>Obrigatório | A rua definida para o endereço. |
-| **Válida até**</br>mshr_postaladdressvalidto</br>*Compensação de Data/Hora* | Somente leitura </br>Obrigatório | Data até a qual o endereço é válido.  |
-| **ID da localização**</br>mshr_locationidbr>*Cadeia de caracteres* | Somente leitura <br>Obrigatório | A ID do endereço.  |
-| **CEP**</br>mshr_zipcode<br>*Sequência de caracteres* | Somente leitura <br>Obrigatório |O número de identificação definido para o funcionário.  |
-| **Endereço em que morou**</br>mshr_islivedinaddressbr </br> *[conjunto de opções mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Somente leitura</br>Obrigatório | Indica se o endereço é onde o funcionário mora. |
-| **Estado**</br>mshr_state</br>*Sequência de caracteres* | Somente leitura</br>Obrigatório | O estado definido para o endereço.  |
+| **Número da equipe**</br>mshr_personnelnumber</br>*Sequência de caracteres* | Somente leitura | O número da equipe exclusiva do funcionário. |
+| **ID da localização**</br>mshr_locationidbr>*Cadeia de caracteres* | Somente leitura | A ID do endereço. |
+| **Endereço em que morou**</br>mshr_islivedinaddressbr </br> *[conjunto de opções mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Somente leitura | Um valor que indica se o endereço é onde o funcionário reside. |
+| **Endereço em que trabalhou** </br> mshr_isworkedinaddressbr </br>*[conjunto de opções mshr_NoYes](hr-admin-integration-payroll-api-no-yes.md)* | Somente leitura | Um valor que indica se o endereço é onde o funcionário trabalha. |
+| **País/região**</br>mshr_countryregionid</br>*Sequência de caracteres* | Somente leitura</br>Obrigatório | O país ou região definido para o endereço. |
+| **CEP**</br>mshr_zipcode<br>*Sequência de caracteres* | Somente leitura | O número de identificação definido para o funcionário. |
+| **Rua**</br>mshr_street</br>*Sequência de caracteres* | Somente leitura | A rua definida para o endereço. |
+| **Cidade**</br>mshr_city</br>*Sequência de caracteres* | Somente leitura | A cidade definida para o endereço. |
+| **Estado**</br>mshr_state</br>*Sequência de caracteres* | Somente leitura | O estado ou província definido para o endereço. |
+| **Região**</br>mshr_county</br>*Sequência de caracteres* | Somente leitura | A região definida para o endereço. |
+| **Válido a partir de**</br>mshr_postaladdressvalidfrom</br>*Compensação de Data/Hora* | Somente leitura | A data a partir da qual o endereço é válido. |
+| **Válida até**</br>mshr_postaladdressvalidto</br>*Compensação de Data/Hora* | Somente leitura | A data até a qual o endereço é válido. |
+| **Campo principal**</br>mshr_primaryfield</br>*Sequência de caracteres* | Somente leitura | O campo principal. |
+| **ID do endereço do trabalhador da folha de pagamento**</br>mshr_payrollworkeraddressentityid</br>*GUID* | Gerado pelo sistema | Um valor de GUID (identificador global exclusivo) gerado pelo sistema para identificar de forma exclusiva o endereço. |
+
+## <a name="relations"></a>Relações
+
+| Valor de propriedade | Entidade relacionada | Propriedade Navegação | Tipo de coleção |
+| --- | --- | --- | --- |
+| _mshr_fk_worker_id_value | [mshr_payrollemployeeentity](hr-admin-integration-payroll-api-payroll-employee.md) | mshr_FK_Worker_id | mshr_FK_PayrollEmployeeEntity_Address |
 
 ## <a name="example-query"></a>Exemplo de consulta
 
-**Solicitar**
+**Solicitação**
 
 ```http
 GET [Organizaton URI]/api/data/v9.1/mshr_payrollworkeraddressentities?$filter=mshr_personnelnumber eq @personnelnumber and mshr_postaladdressvalidfrom le @asofdate and mshr_postaladdressvalidto ge @asofdate&@personnelnumber='000041'&@asofdate=2021-04-01

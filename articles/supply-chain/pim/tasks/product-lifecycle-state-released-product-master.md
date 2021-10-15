@@ -1,7 +1,7 @@
 ---
 title: Atribuir um estado do ciclo de vida do produto a um produto mestre liberado
 description: Este procedimento mostra como atribuir um estado do ciclo de vida do produto a um produto mestre liberado e suas grades.
-author: cvocph
+author: t-benebo
 ms.date: 12/05/2017
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 62078025623a0cfc1ed6797c84907c7872dfaf38095855240b306e08f3decca7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 217bab38544c2794d2e57410f8c2a979605106b0
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716507"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7566998"
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a>Atribuir um estado do ciclo de vida do produto a um produto mestre liberado
 

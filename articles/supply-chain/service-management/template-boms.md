@@ -1,7 +1,7 @@
 ---
 title: BOMs de modelo
 description: Uma BOM (lista de materiais) de modelo fornece uma lista padronizada de componentes de objetos de serviço que são atendidos regularmente.
-author: ShylaThompson
+author: kamaybac
 ms.date: 09/19/2018
 ms.topic: article
 ms.prod: ''
@@ -15,25 +15,23 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ab8586f81dc4a897d243b9d289109f039c390fcbf90c5c205125cf49eb5e8e39
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: d34502d74590595f26ba5aae78158ed893a095df
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724739"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7571296"
 ---
-# <a name="template-boms"></a>BOMs de modelo    
+# <a name="template-boms"></a>BOMs de modelo
 
 [!include [banner](../includes/banner.md)]
-
 
 Uma BOM (lista de materiais) de modelo fornece uma lista padronizada de componentes para objetos de serviço que são atendidos regularmente. Os componentes listados na BOM de modelo representam os subcomponentes individuais do objeto de serviço. Ao aplicar uma BOM de modelo a um objeto de serviço, você pode manter um registro dos subcomponentes que foram substituídos no objeto de serviço.
 
 Para aplicar uma BOM de modelo a um contrato de serviço ou uma ordem de serviço, anexe-a a uma relação de objeto de serviço.
 
-
 > [!NOTE]
-> <P>Você pode aplicar somente uma BOM de modelo a um objeto de serviço.</P>
+> Você pode aplicar somente uma BOM de modelo a um objeto de serviço.
 
 ## <a name="create-a-template-bom"></a>Criar uma BOM de modelo
 
@@ -41,8 +39,8 @@ A tabela a seguir contém informações sobre os vários métodos que podem ser 
 
 <table>
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col />
+<col />
 </colgroup>
 <thead>
 <tr class="header">
@@ -70,7 +68,6 @@ A tabela a seguir contém informações sobre os vários métodos que podem ser 
 </tbody>
 </table>
 
-
 ## <a name="apply-the-template-bom-to-a-service-agreement-or-service-order"></a>Aplicar a BOM de modelo a um contrato de serviço ou uma ordem de serviço
 
 Você pode aplicar uma BOM de modelo a um contrato de serviço, a uma ordem de serviço, ou a ambos. O contrato de serviço normalmente cobre um relacionamento de longo prazo com um cliente. O histórico de substituições registrado na BOM de serviço contém dados úteis para o contrato de serviço.
@@ -81,7 +78,7 @@ Também é possível aplicar uma BOM de modelo a uma ordem de serviço para regi
 
 Você pode copiar o histórico de uma linha de BOM de serviço de um contrato de serviço em outro. Ao copiar o histórico de serviço entre contratos, você pode preservar o registro de substituições de um item.
 
-**Exemplo**
+### <a name="example"></a>Exemplo
 
 Você configurou um contrato de serviço de três anos para o carro de um cliente. Durante esse período, o cliente se acostuma com o bom nível de serviço prestado pela empresa. Assim, após a expiração do contrato, o cliente quer firmar um novo. Agora você pode negociar um contrato mais favorável para a empresa. Como o registro dos componentes substituídos pode ser útil no futuro, você copia o histórico da BOM de serviço no novo contrato.
 
@@ -99,26 +96,18 @@ Ao substituir um item na BOM, você poderá registrar a substituição na linha 
 
 Para usar BOMs de modelo, você deve configurar duas sequências numéricas. Configure uma sequência numérica para a BOM de modelo e uma para o número da linha do histórico da BOM.
 
-
 > [!NOTE]
-> <P>As sequências numéricas são usadas para alocar identificadores para registros que os exigem. Para poder atribuir uma sequência numérica a uma BOM de modelo ou a um número da linha do histórico da BOM, você deve configurar códigos de sequências numéricas.</P>
-
+> As sequências numéricas são usadas para alocar identificadores para registros que os exigem. Para poder atribuir uma sequência numérica a uma BOM de modelo ou a um número da linha do histórico da BOM, você deve configurar códigos de sequências numéricas.
 
 ## <a name="set-up-number-sequences"></a>Configurar sequências numéricas
 
-1.  Na página de listagem **Sequências numéricas**, crie sequências numéricas para BOMs de modelo e para o número da linha do histórico da BOM. 
-
-2.  Clique em **Gerenciamento de serviços** \> **Configuração** \> **Parâmetros de gerenciamento de serviços**.
-
-3.  Clique em **Sequências numéricas** e selecione um código de sequência numérica para as referências de sequência numérica que você criou no formulário **Sequências numéricas**.
-
-4.  Feche o formulário para salvar suas alterações.
-
+1. Na página de listagem **Sequências numéricas**, crie sequências numéricas para BOMs de modelo e para o número da linha do histórico da BOM.
+1. Selecione **Gerenciamento de serviços** \> **Configuração** \> **Parâmetros de gerenciamento de serviços**.
+1. Selecione **Sequências numéricas** e, depois, um código de sequência numérica para as referências de sequência numérica criadas no formulário **Sequências numéricas**.
+1. Feche o formulário para salvar suas alterações.
 
 > [!NOTE]
-> <P>O número da linha do histórico da BOM é usado pelo sistema para associar as transações no histórico da BOM a um contrato de serviço ou a uma ordem de serviço. O número não é exibido na interface do usuário.</P>
-
-
+> O número da linha do histórico da BOM é usado pelo sistema para associar as transações no histórico da BOM a um contrato de serviço ou a uma ordem de serviço. O número não é exibido na interface do usuário.
 
 ## <a name="see-also"></a>Consulte também
 
@@ -127,10 +116,5 @@ Para usar BOMs de modelo, você deve configurar duas sequências numéricas. Con
 [Gerenciar BOMs de modelo nas relações de objeto](manage-template-boms-on-object-relations.md)
 
 [Modificar uma BOM de Serviço](modify-service-bom.md)
-
- 
-
-
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

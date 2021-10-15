@@ -4,18 +4,18 @@ description: Este tópico descreve recursos que são novos ou foram alterados no
 author: kamaybac
 ms.date: 08/09/2021
 ms.topic: article
-audience: Application User
+audience: Application User, Developer, IT Pro
 ms.reviewer: kamaybac
 ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 3f586a00943e23b458ede1470b353d7c018ba923
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 894686446436a390ec2d019672e3a2b8b0e5f5ef
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500546"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7579727"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-supply-chain-management-10021-october-2021"></a>Novidades ou alterações no Dynamics 365 Supply Chain Management 10.0.21 (outubro de 2021)
 
@@ -26,20 +26,6 @@ Este tópico lista os recursos novos ou alterados no Microsoft Dynamics 365 Supp
 - **Versão preliminar de teste:** agosto de 2021
 - **Disponibilidade geral da versão (atualização automática):** setembro de 2021
 - **Disponibilidade geral da versão (atualização automática):** outubro de 2021
-
-## <a name="known-deployment-issue"></a>Problema de implantação conhecido
-
-Ao implantar a versão 10.0.21 no IaaS, você pode receber o seguinte aviso de implantação:
-
-**Código de aviso:** 95017
-
-**Mensagem de aviso:** falha na execução do script \[SetupDiagnostics\] em relação à VM
-
-A implantação funcionará apesar do aviso. No entanto, os seguintes problemas conhecidos podem ocorrer nos LCS (Lifecycle Services):
-
-- Na página **Monitoramento do ambiente**, o link **Exibir informações da versão detalhada** não será exibido e, portanto, não será possível ver as versões específicas dos módulos instalados no seu ambiente. Sem esses dados, os hotfixes subsequentes talvez falhem porque o processo que aplica os hotfixes usa esses dados para verificar se os pré-requisitos de versão do módulo foram atendidos. Como não é possível usar a compilação PEAP/Preview na produção ou aplicar hotfixes, o impacto deve ser mínimo.
-- As guias **Desempenho métrico** e **Análise de índice** na página **Monitoramento de ambiente** no SQL Insights não exibirão dados. Todos os outros recursos de **Monitoramento de ambiente** funcionarão conforme o esperado.
-- A página **Diagnóstico completo do sistema** não estará acessível. Os dados associados sobre o status das execuções do coletor noturno e dos problemas detectados por suas regras também não serão exibidos.
 
 ## <a name="features-included-in-this-release"></a>Recursos incluídos nesta versão
 

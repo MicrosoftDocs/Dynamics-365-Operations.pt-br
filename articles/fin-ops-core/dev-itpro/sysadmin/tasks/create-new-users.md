@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e8ae7bc937e916195b49df91be73ba906bcd2e593c9222cdc07adfcbf2396c05
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 480d181e8abb3af5a7406efd13c8bd9961a7490a
+ms.sourcegitcommit: e40a9fac5bac9f57a6dcfe73a1f21856eab9b6a9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6733676"
+ms.lasthandoff: 10/02/2021
+ms.locfileid: "7595377"
 ---
 # <a name="create-new-users"></a>Criar usuários
 
@@ -29,7 +29,7 @@ Para poder acessar os aplicativos do Finance and Operations, você deve ser adic
 Para obter informações sobre como comprar e obter licença para aplicativos do Finance and Operations, consulte o [Guia de licenciamento do Microsoft Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544&amp;clcid=0x409).
 
 ## <a name="assign-a-license-to-a-user"></a>Atribuir uma licença a um usuário
-Os administradores do sistema podem [atribuir licenças a usuários](/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) no [Centro de administração do Microsoft 365](/office365/admin/admin-overview/about-the-admin-center?view=o365-worldwide).
+Os administradores do sistema podem [atribuir licenças a usuários](/office365/admin/subscriptions-and-billing/assign-licenses-to-users) no [Centro de administração do Microsoft 365](/office365/admin/admin-overview/about-the-admin-center).
 
 ## <a name="add-an-external-user-in-azure-ad-and-assign-a-license"></a>Adicionar um usuário externo no Azure AD e atribuir uma licença 
 Os usuários externos devem ser representados no seu diretório de locatários (Azure Active Directory (Azure AD)) para poderem receber licenças. Esses usuários externos devem ser adicionados ao locatário no Azure AD como usuários convidados para depois poderem receber as licenças apropriadas. Um requisito para aplicativos do Finance and Operations é que a empresa do usuário convidado use o Azure AD. Para obter mais informações, consulte [Adicionar usuários de colaboração B2B do Azure Active Directory no portal do Azure](/azure/active-directory/b2b/add-users-administrator).

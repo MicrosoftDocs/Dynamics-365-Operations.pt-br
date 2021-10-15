@@ -14,12 +14,12 @@ ms.search.industry: retail
 ms.author: shajain
 ms.search.validFrom: 2021-01-31
 ms.dyn365.ops.version: 10.0.14
-ms.openlocfilehash: 09caa7fa8f10d1afc44bb9343550bc633b8ec99a
-ms.sourcegitcommit: d420b96d37093c26f0e99c548f036eb49a15ec30
+ms.openlocfilehash: 4fd6039843be09ec706e45746d5724faa99a95e6
+ms.sourcegitcommit: 3f59b15ba7b4c3050f95f2b32f5ae6d7b96e1392
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/03/2021
-ms.locfileid: "7472216"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7563052"
 ---
 # <a name="customer-management-in-stores"></a>Gerenciamento de clientes em lojas
 
@@ -45,7 +45,8 @@ Os associados de vendas podem capturar vários endereços para um cliente. O nom
 
 ## <a name="sync-customers-and-async-customers"></a>Sincronizar clientes e clientes assíncronos
 
-> [IMPORTANTE] Sempre que o PDV ficar offline, o sistema cria automaticamente os clientes de forma assíncrona, mesmo se o modo de criação de cliente Assíncrono estiver desabilitado. Portanto, independentemente da seleção entre criação de clientes Síncrona e Assíncrona, os administradores da matriz do Commerce precisam criar e programar um trabalho em lotes recorrente para o **trabalho P**, o trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono** (anteriormente denominado trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono**) e o trabalho **1010**, para que todos os clientes Assíncronos sejam convertidos para clientes Síncronos na matriz do Commerce.
+> [!IMPORTANT]
+> Sempre que o PDV ficar offline, o sistema cria automaticamente os clientes de forma assíncrona, mesmo se o modo de criação de cliente Assíncrono estiver desabilitado. Portanto, independentemente da seleção entre criação de clientes Síncrona e Assíncrona, os administradores da matriz do Commerce precisam criar e programar um trabalho em lotes recorrente para o **trabalho P**, o trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono** (anteriormente denominado trabalho **Sincronizar clientes e parceiros comerciais do modo assíncrono**) e o trabalho **1010**, para que todos os clientes Assíncronos sejam convertidos para clientes Síncronos na matriz do Commerce.
 
 No Commerce, há dois modos de criação de clientes: Síncrono e Assíncrono. Por padrão, os clientes são criados de forma síncrona. Em outras palavras, eles são criados no Commerce Headquarters em tempo real. O modo Síncrono de criação de clientes é benéfico porque novos clientes são pesquisados imediatamente nos canais. No entanto, ele também tem uma desvantagem. Como ele gera chamadas do [Commerce Data Exchange: Serviço em tempo real](dev-itpro/define-retail-channel-communications-cdx.md#realtime-service) para o Commerce Headquarters, o desempenho poderá ser afetado se várias chamadas simultâneas de criação de clientes forem feitas.
 

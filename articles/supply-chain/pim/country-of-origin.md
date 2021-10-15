@@ -1,7 +1,7 @@
 ---
 title: País de origem
 description: Muitas organizações emitem certificados para seus fornecedores a fim de garantir que os produtos atendam a padrões de certificação específicos. Esses certificados geralmente dependem do país de origem. Este tópico fornece informações sobre o recurso de país de origem, que permite vincular um produto ao país de origem e monitorar as certificações de produtos.
-author: dasani-madipalli
+author: t-benebo
 ms.date: 07/15/2020
 ms.topic: article
 ms.prod: ''
@@ -10,15 +10,15 @@ ms.search.form: COOVendorCerts
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: damadipa
+ms.author: benebotg
 ms.search.validFrom: 2020-07-15
-ms.dyn365.ops.version: Release 10.0.9
-ms.openlocfilehash: fde4211e4449c28eda8ac7a23ddfc346d2c7e8359d9e473821bdefe76db65616
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.dyn365.ops.version: 10.0.9
+ms.openlocfilehash: e3b4a9dc25dc8130df7fa4799430c8358edcfe8e
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6739769"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7567118"
 ---
 # <a name="country-of-origin"></a>País de origem
 

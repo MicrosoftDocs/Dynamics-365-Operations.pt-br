@@ -1,7 +1,7 @@
 ---
 title: Cancelar uma ordem de devolução
 description: Você pode cancelar uma ordem de devolução, em vez de excluí-la, quando quiser salvar um registro da devolução planejada.
-author: ShylaThompson
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67f68bb1cc72ea16916297f0e9c44976262f565124ef663c8991d26a1344e9a0
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 4dac921804190a8f047adbdab290347d29f32cf5
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6716971"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7569206"
 ---
 # <a name="cancel-a-return-order"></a>Cancelar uma ordem de devolução 
 

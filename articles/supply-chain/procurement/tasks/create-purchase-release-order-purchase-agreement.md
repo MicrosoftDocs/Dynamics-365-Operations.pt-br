@@ -1,7 +1,7 @@
 ---
 title: Aplicar um contrato de compra ao criar uma ordem de compra
 description: Este procedimento mostra como utilizar um contrato de compra quando você cria uma ordem de compra.
-author: kamaybac
+author: Henrikan
 ms.date: 08/09/2019
 ms.topic: business-process
 ms.prod: ''
@@ -9,15 +9,15 @@ ms.technology: ''
 audience: Application User
 ms.reviewer: kamaybac
 ms.search.region: Global
-ms.author: dabourq
+ms.author: henrikan
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1913181e85929951ce240ac31a0ac3f1351f6ae51f6ed2790bae577b2100b308
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 130524dc8e0c8724e35bf13c6b250ab721383711
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6731238"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7570360"
 ---
 # <a name="apply-a-purchase-agreement-when-creating-a-purchase-order"></a>Aplicar um contrato de compra ao criar uma ordem de compra
 

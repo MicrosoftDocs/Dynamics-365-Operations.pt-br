@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 874fa7a04d872b411716f57b121ab24458245fa2
-ms.sourcegitcommit: a73df4ddc7f8ddc9e37269c0236dc1bb9b7c7966
+ms.openlocfilehash: 0ab7cfbb5591f68880354437cc4eebb666801a6b
+ms.sourcegitcommit: ba8ca42e43e1a5251cbbd6ddb292566164d735dd
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/09/2021
-ms.locfileid: "7485872"
+ms.lasthandoff: 09/25/2021
+ms.locfileid: "7556782"
 ---
 # <a name="whats-new-or-changed-in-human-resources"></a>Novidades ou alterações no Human Resources
 
@@ -40,6 +40,7 @@ Para obter mais informações sobre os recursos futuros ou o processo de atualiz
 
 Para descobrir as novidades ou o que foi alterado em cada versão quinzenal do Human Resources, consulte os seguintes tópicos:
 
+[20 de setembro de 2021](hr-whats-new-2021-09-20.md)</br>
 [6 de setembro de 2021](hr-whats-new-2021-09-06.md)</br>
 [23 de agosto de 2021](hr-whats-new-2021-08-23.md)</br>
 [9 de agosto de 2021](hr-whats-new-2021-08-09.md)</br>

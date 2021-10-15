@@ -1,7 +1,7 @@
 ---
 title: Estratégia do agente de resolução para configuração de produto
 description: Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
-author: cvocph
+author: t-benebo
 ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
@@ -13,15 +13,15 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: kamaybac
+ms.author: benebotg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 38755cc224ee2ae642d3caf7ad8ffea61f987206efc3ecd2ef81ecaf21cd6f4e
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 37e8f2c9557ee6fc827d60ca6dc83cd638b6378a
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6765969"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7565680"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 

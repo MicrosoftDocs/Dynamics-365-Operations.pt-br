@@ -1,7 +1,7 @@
 ---
-title: Requisições de itens da ordem de serviço
-description: Caso seja necessário reservar itens específicos para uma ordem de serviço, você poderá criar requisições de item de estoque para ele.
-author: ShylaThompson
+title: Requisições de itens de ordem de serviço
+description: Este tópico descreve os requisitos de itens da ordem de serviço.
+author: kamaybac
 ms.date: 05/01/2018
 ms.topic: article
 ms.prod: ''
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: kamaybac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2a57dc7f41e283d097daef1b92b6b22c093655ff48c7a3778f7ab541ebb24964
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ae211cb24e3ed0e9e54643448ee378a20658ad89
+ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6746079"
+ms.lasthandoff: 09/29/2021
+ms.locfileid: "7573192"
 ---
-# <a name="service-order-item-requirements"></a>Requisições de itens da ordem de serviço   
+# <a name="service-order-item-requirements"></a>Requisições de itens de ordem de serviço
 
 [!include [banner](../includes/banner.md)]
-
 
 Você pode criar uma ordem de serviço para rastrear e gerenciar os serviços que você presta para seus clientes. Caso seja necessário reservar itens específicos para uma ordem de serviço, você poderá criar requisições de item de estoque para ele. Uma requisição de item pode ser consumida imediatamente do estoque ou pode iniciar uma ordem de produção do item.
 
@@ -37,31 +36,24 @@ Assim que uma requisição de itens é criada para uma ordem de serviço, ela po
 
 ## <a name="view-an-item-requirement-from-a-service-order"></a>Exibir uma requisição de itens de uma ordem de serviço
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
-
-2.  Clique em **Expedição**, e depois clique em **Requisição de Itens** para abrir o formulário **Requisições de itens**.
-
-3.  Clique na guia **Projeto** e verifique o campo **Ordem de serviço** para visualizar as ordens de serviço da requisição do item.
+1. Acesse **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1. Selecione **Expedição** e **Requisição de Itens** para abrir o formulário **Requisições de itens**.
+1. Selecione a guia **Projeto** e verifique o campo **Ordem de serviço** para visualizar as ordens de serviço da requisição do item.
 
 ## <a name="delete-service-orders-with-item-requirements"></a>Excluir ordens de serviço com requisições de itens
 
 Se uma requisição de itens for criada em uma ordem de serviço, não será possível excluir essa ordem. Você deve excluir a requisição de item antes de excluir a ordem de serviço.
 
-1.  Clique em **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
-
-2.  Clique em **Expedição**, e depois clique em **Requisição de Itens** para abrir o formulário **Requisições de itens**. Este formulário lista as requisições de item que são criadas na ordem de serviço.
-
-3.  Selecione a requisição de item a ser excluída e clique em **Excluir**.
+1. Acesse **Gerenciamento de serviços** \> **Comum** \> **Ordens de serviço** \> **Ordens de serviço**.
+1. Selecione **Expedição** e **Requisição de Itens** para abrir o formulário **Requisições de itens**. Este formulário lista as requisições de item que são criadas na ordem de serviço.
+1. Selecione a requisição de item a ser excluída e selecione **Excluir**.
 
 –ou–
 
-1.  Clique em **Gerenciamento e contabilidade de projeto** \> **Comum** \> **Projetos** \> **Todos os projetos**.
-
-2.  Abra o projeto que possui a ordem de serviço na qual uma requisição de item é criada.
-
-3.  No formulário **Projetos**, no painel direito, clique em **Requisições de itens**. O formulário **Requisições de itens** será aberto e listará as requisições de itens associadas ao projeto selecionado.
-
-4.  Selecione a requisição de item a ser excluída e clique em **Excluir**.
+1. Acesse **Gerenciamento e contabilidade de projeto** \> **Comum** \> **Projetos** \> **Todos os projetos**.
+1. Abra o projeto que possui a ordem de serviço na qual uma requisição de item é criada.
+1. No formulário **Projetos**, no painel direito, selecione **Requisições de itens**. O formulário **Requisições de itens** será aberto e listará as requisições de itens associadas ao projeto selecionado.
+1. Selecione a requisição de item a ser excluída e selecione **Excluir**.
 
 ## <a name="see-also"></a>Consulte também
 

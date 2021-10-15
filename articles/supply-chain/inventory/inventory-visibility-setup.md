@@ -11,12 +11,12 @@ ms.search.region: Global
 ms.author: yufeihuang
 ms.search.validFrom: 2021-08-02
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: b2b85f533a3318701ed08857b899cf9bdd103863
-ms.sourcegitcommit: 2d6e31648cf61abcb13362ef46a2cfb1326f0423
+ms.openlocfilehash: d6f58eab38d1aee97a5d39704255bf06a168b36c
+ms.sourcegitcommit: 79d19924ed736c9210fa9ae4e0d4c41c53c27eb5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2021
-ms.locfileid: "7474811"
+ms.lasthandoff: 09/30/2021
+ms.locfileid: "7581856"
 ---
 # <a name="install-and-set-up-inventory-visibility"></a>Instalar e configurar Visibilidade de Estoque
 
@@ -35,63 +35,11 @@ Antes de instalar o Visibilidade de Estoque, você deve concluir as seguintes ta
 
 - Obter um projeto de implementação do LCS em que pelo menos um ambiente seja implantado.
 - Verificar se os pré-requisitos para configurar suplementos foram concluídos. Para obter informações sobre esses pré-requisitos, consulte [Visão geral de suplementos](../../fin-ops-core/dev-itpro/power-platform/add-ins-overview.md). A visibilidade de estoque não exige link de gravação dupla.
-- Entre em contato com a equipe de produto do Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para obter os seguintes arquivos necessários:
-
-    - `InventoryServiceApplication.PackageDeployer.zip`
-    - `Inventory Visibility Integration.zip` (se a versão do Supply Chain Management que você está executando for anterior à versão 10.0.18)
 
 > [!NOTE]
 > Os países/regiões com suporte no momento incluem Canadá (CCA, ECA), Estados Unidos (WUS, EUS), União Europeia (NEU, WEU), Reino Unido (SUK, WUK), Austrália (EAU, SEAU), Japão (EJP, WJP) e Brasil (SBR, SCUS).
 
-Se você tiver alguma dúvida sobre esses pré-requisitos, entre em contato com a equipe de produto do Visibilidade de Estoque.
-
-## <a name="set-up-dataverse"></a><a name="setup-microsoft-dataverse"></a>Configurar Dataverse
-
-Para configurar o Dataverse para que possa ser usado com o Visibilidade de Estoque, use a ferramenta de implantação de pacote para implantar o pacote do Visibilidade de Estoque. As subseções a seguir descrevem como concluir cada tarefa.
-
-> [!NOTE]
-> No momento, apenas os ambientes do Dataverse que foram criados usando o LCS têm suporte. Se seu ambiente do Dataverse foi criado de alguma outra forma (por exemplo, usando o centro de administração do Power Apps) e se ele está vinculado a seu ambiente do Supply Chain Management, primeiro você deve entrar em contato com a equipe de produto do Visibilidade de Estoque para corrigir o problema de mapeamento. Você pode então instalar o Visibilidade de Estoque.
-
-### <a name="migrate-from-an-old-version-of-the-dataverse-solution"></a>Migrar de uma versão antiga da solução Dataverse
-
-Se você instalou uma versão mais antiga da solução Dataverse Visibilidade de Estoque, use estas instruções para atualizar sua versão. Existem dois casos:
-
-- **Caso 1:** se você configurar manualmente o Dataverse importando a solução `Inventory Visibility Dataverse Solution_1_0_0_2_managed.zip`, siga estas etapas:
-
-    1. Baixe os três seguintes arquivos:
-
-        - `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip`
-        - `InventoryServiceBase_managed.cab`
-        - `InventoryServiceApplication.PackageDeployer.zip`
-
-    1. Importe manualmente `Inventory Visibility Dataverse Solution_1_0_0_3_managed.zip` e `InventoryServiceBase_managed.cab` para o Dataverse seguindo estas etapas:
-
-        1. Abra a URL do ambiente do Dataverse.
-        1. Abra a página **Soluções**.
-        1. Selecione **Importar**.
-
-    1. Use a ferramenta de implantação de pacote para implantar o pacote `InventoryServiceApplication.PackageDeployer.zip`. Para obter instruções, consulte a seção [Use a ferramenta de implantação de pacote para implantar o pacote](#deploy-package) posteriormente neste tópico.
-
-- **Caso 2:** se você configurar o Dataverse usando a ferramenta de implantação de pacote antes de instalar o pacote `.*PackageDeployer.zip` mais antigo, baixe o `InventoryServiceApplication.PackageDeployer.zip` e faça uma atualização. Para obter instruções, consulte a seção [Use a ferramenta de implantação de pacote para implantar o pacote](#deploy-package).
-
-### <a name="use-the-package-deployer-tool-to-deploy-the-package"></a><a name="deploy-package"></a>Use a ferramenta de implantação de pacote para implantar o pacote
-
-1. Instale as ferramentas para desenvolvedores, conforme descrito em [Baixar ferramentas do NuGet](/dynamics365/customerengagement/on-premises/developer/download-tools-nuget).
-1. Desbloqueie o arquivo `InventoryServiceApplication.PackageDeployer.zip` que você baixou do grupo do Teams seguindo estas etapas:
-
-    1. Selecione e segure (ou clique com o botão direito do mouse) no arquivo e selecione **Propriedades**.
-    1. Na caixa de diálogo **Propriedades**, na guia **Geral**, localize a seção **Segurança**, selecione **Desbloquear** e aplique a alteração. Se não houver uma seção **Segurança** na guia **Geral**, isso indicará que o arquivo não está bloqueado. Nesse caso, vá para a próxima etapa.
-
-    ![Desbloquear o arquivo baixado](media/unblock-file.png "Desbloquear o arquivo baixado")
-
-1. Descompacte `InventoryServiceApplication.PackageDeployer.zip` para encontrar os seguintes itens:
-
-    - Pasta do `InventoryServiceApplication`
-    - Arquivo `[Content_Types].xml`
-    - Arquivo `Microsoft.Dynamics.InventoryServiceApplication.PackageExtension.dll`
-
-1. Copie cada um desses itens para o diretório `.\Tools\PackageDeployment`. (Esse diretório foi criado quando você instalou as ferramentas de desenvolvedor.)
-1. Execute `.\Tools\PackageDeployment\PackageDeployer.exe` e siga as instruções na tela para importar as soluções.
+Caso tenha alguma dúvida sobre esses pré-requisitos, entre em contato com a equipe do produto Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 ## <a name="install-the-inventory-visibility-add-in"></a><a name="install-add-in"></a>Instalar o Suplemento Visibilidade de Estoque
 
@@ -102,7 +50,11 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 1. Entre no [LCS](https://lcs.dynamics.com/Logon/Index).
 1. Na home page, selecione o projeto no qual seu ambiente foi implantado.
 1. Na página do projeto, selecione o ambiente no qual você deseja instalar o suplemento.
-1. Na página do ambiente, role para baixo até encontrar a seção **Suplementos de ambiente** na seção **Integração do Power Platform**. Lá, você pode encontrar o nome do ambiente do Dataverse.
+1. Na página do ambiente, role para baixo até encontrar a seção **Suplementos de ambiente** na seção **Integração do Power Platform**. Lá, você pode encontrar o nome do ambiente do Dataverse. Confirme se o nome do ambiente do Dataverse é aquele que você deseja usar para Visibilidade de Estoque.
+
+    > [!NOTE]
+    > No momento, apenas os ambientes do Dataverse que foram criados usando o LCS têm suporte. Se seu ambiente do Dataverse foi criado de alguma outra forma (por exemplo, usando o centro de administração do Power Apps) e se ele estiver vinculado a seu ambiente do Supply Chain Management, primeiro você deverá entrar em contato com a equipe de produto do Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com) para corrigir o problema de mapeamento. Você pode então instalar o Visibilidade de Estoque.
+
 1. Na seção **Suplementos de ambiente**, selecione **Instalar um novo suplemento**.
 
     ![Página do ambiente no LCS](media/inventory-visibility-environment.png "Página do ambiente no LCS")
@@ -118,6 +70,7 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 
 1. Concorde com os termos e condições marcando a caixa de seleção **Termos e condições**.
 1. Selecione **Instalar**. O status do suplemento é mostrado como **Instalando**. Quando a instalação for concluída, atualize a página. O status deve mudar para **Instalado**.
+1. No Dataverse, selecione a seção **Aplicativos** na navegação à esquerda e verifique se o Power Apps **Visibilidade de Estoque** foi instalado com êxito. Se a seção **Aplicativos** não existir, entre em contato com a equipe de produto do Visibilidade de Estoque em [inventvisibilitysupp@microsoft.com](mailto:inventvisibilitysupp@microsoft.com).
 
 > [!IMPORTANT]
 > Se você tiver mais de um ambiente LCS, crie um aplicativo Azure AD diferente para cada ambiente. Se você usar a mesma ID de aplicativo e ID de locatário para instalar o Suplemento de Visibilidade de Estoque para ambientes diferentes, ocorrerá uma saída de token para ambientes mais antigos. Somente o último que foi instalado será válido.
@@ -126,13 +79,13 @@ Depois de registrar um aplicativo e adicionar um segredo de cliente ao Azure AD,
 
 Para desinstalar o suplemento Visibilidade de Estoque, selecione **Desinstalar** na página do LCS. O processo de desinstalação encerra o suplemento Visibilidade de Estoque, cancela o registro do suplemento do LCS e exclui todos os dados temporários armazenados no cache de dados do Suplemento Visibilidade de Estoque. No entanto, os dados de estoque principal armazenados na assinatura do Dataverse não são excluídos.
 
-Para desinstalar os dados de estoque armazenados em sua assinatura do Dataverse, abra o [Power Apps](https://make.powerapps.com), selecione **Ambiente** na barra de navegação e selecione o ambiente do Dataverse que está vinculado a seu ambiente do LCS. Em seguida, acesse **Soluções** e exclua as cinco seguintes soluções:
+Para desinstalar os dados de estoque armazenados em sua assinatura do Dataverse, abra o [Power Apps](https://make.powerapps.com), selecione **Ambiente** na barra de navegação e selecione o ambiente do Dataverse que está vinculado a seu ambiente do LCS. Em seguida, acesse **Soluções** e exclua as cinco seguintes soluções, nesta ordem:
 
-- Solução de ancoragem para aplicativo Visibilidade de Estoque em soluções do Dynamics 365
-- Solução de Aplicativos Visibilidade de Estoque do Dynamics 365 FNO SCM
-- Configuração de Serviço de Estoque
-- Visibilidade de Estoque Autônomo
-- Solução Base Visibilidade de Estoque do Dynamics 365 FNO SCM
+1. Solução de ancoragem para aplicativo Visibilidade de Estoque em soluções do Dynamics 365
+1. Solução de Aplicativos Visibilidade de Estoque do Dynamics 365 FNO SCM
+1. Configuração de Serviço de Estoque
+1. Visibilidade de Estoque Autônomo
+1. Solução Base Visibilidade de Estoque do Dynamics 365 FNO SCM
 
 Depois que você excluir essas soluções, os dados armazenados nas tabelas também serão excluídos.
 
