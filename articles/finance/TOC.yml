@@ -1194,6 +1194,8 @@
               href: ../fin-ops-core/dev-itpro/analytics/financial-report-components.md?toc=/dynamics365/finance/toc.json
             - name: Recursos de moeda em relatórios financeiros
               href: general-ledger/financial-reporting-currency-capability.md
+            - name: Cálculo de ganhos retidos em relatórios financeiros
+              href: general-ledger/retained-earnings-enhancements.md
             - name: Relatórios financeiros de balanço
               href: general-ledger/balance-sheet-financial-reports.md
             - name: Gerar relatórios financeiros

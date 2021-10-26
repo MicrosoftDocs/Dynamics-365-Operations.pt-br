@@ -2811,13 +2811,15 @@
                   href: sales-marketing/customer-portal-customize.md
             - name: Bonificação comercial
               href: sales-marketing/trade-allowance.md
-            - name: Criar um novo contrato comercial
+            - name: Criar um contrato comercial
               href: sales-marketing/tasks/create-new-trade-agreement.md
+            - name: Melhorias no desempenho de limpeza do histórico de vendas
+              href: sales-marketing/sales-update-history-cleanup-performance-improvements.md
         - name: Gerenciamento de serviços
           items:
             - name: Visão geral de gerenciamento de serviços
               href: service-management/service-management-home-page.md
-            - name: Configurar serviços de clientes
+            - name: Configurar o atendimento ao cliente
               items:
                 - name: Configurar contratos de serviço
                   items:
@@ -3711,6 +3713,8 @@
                   href: troubleshooting/rebates/cumulating-customer-.md
             - name: Vendas e marketing
               items:
+                - name: Falha no trabalho de limpeza do histórico de atualização de vendas ou problemas de desempenho
+                  href: troubleshooting/sales/sales-update-history-cleanup-job-performance-issues.md
                 - name: Não há suporte para um item de pacote em um processo intercompanhia
                   href: troubleshooting/sales/bundle-item-intercompany-process.md
                 - name: Não é possível cancelar uma ordem de compra intercompanhia vinculada a uma ordem de venda
