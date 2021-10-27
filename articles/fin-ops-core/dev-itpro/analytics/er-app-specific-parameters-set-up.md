@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2019-01-01
 ms.dyn365.ops.version: Release 8.1.3
-ms.openlocfilehash: 28fea4a09d7c105096859495d9b4a43f4c86c834184809827fe77ce1bbff5b84
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: baa3cab78574ac3779aaea000f0b2b88ff625c37
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6749815"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605246"
 ---
 # <a name="set-up-the-parameters-of-an-er-format-per-legal-entity"></a>Configurar os parâmetros de um formato de ER por entidade legal
 
@@ -58,8 +58,6 @@ Você pode usar a estrutura de ER para configurar parâmetros específicos do ap
 1.  Selecione a entidade legal **DEMF**.
 2.  Na árvore de configurações, selecione o formato **Formato para saber como pesquisar dados de LE**.
 3.  No Painel de Ação, na guia **Configurações**, no grupo **Parâmetros específicos do aplicativo**, selecione **Configuração**.
-
-    ![Página de parâmetros específicos do aplicativo do ER.](./media/GER-AppSpecParms-LookupForm.PNG)
     
     Na página **Parâmetros específicos do aplicativo**, você pode configurar as regras para a fonte de dados **Seletor** do formato **Formato para saber como pesquisar dados de LE**.
     
@@ -75,14 +73,14 @@ Você pode usar a estrutura de ER para configurar parâmetros específicos do ap
 
     A pesquisa apresenta a lista de códigos de imposto para seleção. Essa lista é retornada pela fonte de dados **Model.Data.Tax** configurada no formato de ER de base. Como essa fonte dados contém o campo **Nome**, o nome de cada código de imposto aparece na pesquisa.
 
-    ![Página de parâmetros específicos do aplicativo do ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
+    ![Página de parâmetros específicos do aplicativo do ER, pesquisa do campo Código.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker.PNG)
     
 7.  Selecione o código de imposto **VAT19**.
 8.  No campo **Resultado da pesquisa** do novo registro, selecione a seta suspensa para abrir a pesquisa. A pesquisa apresenta a lista de valores para a enumeração de formato TaxationLevel para seleção.
 
     Observe que, se alemão for selecionado como o idioma preferencial do usuário conectado, as etiquetas dos valores na pesquisa estarão em alemão, uma vez que foram traduzidos no formato de ER de base. Além disso, se a etiqueta de uma fonte de dados da pesquisa foi traduzida, será exibida no idioma preferencial do usuário na guia **Pesquisas**.
 
-    ![Página de parâmetros específicos do aplicativo do ER.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
+    ![Parâmetros específicos do aplicativo ER, resultados da pesquisa exibidos no idioma de preferência alemão.](./media/GER-AppSpecParms-LookupForm-LookupFldPicker.PNG)
 
 9.  Selecione o valor **Tributação normal**.
 
@@ -120,7 +118,7 @@ Você pode usar a estrutura de ER para configurar parâmetros específicos do ap
     
     Ao adicionar esse último registro, você define a seguinte regra: sempre que o código de imposto que é passado como argumento não atender a nenhuma das regras anteriores, a fonte de dados de pesquisa retornará **Outro** como o nível de tributação solicitado.
 
-    ![Página de parâmetros específicos do aplicativo do ER.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
+    ![Parâmetros específicos do aplicativo ER, FastTab Condições com o último registro de Outro.](./media/GER-AppSpecParms-LookupForm-RulesSet.PNG)
     
 16. No campo **Estado**, selecione **Concluído**.
 
@@ -160,7 +158,7 @@ Você pode usar a estrutura de ER para configurar parâmetros específicos do ap
 
     Agora a pesquisa apresenta a lista de códigos de imposto para o imposto da empresa **USMF** para seleção.
 
-    ![Página de parâmetros específicos do aplicativo do ER.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
+    ![Parâmetros específicos do aplicativo ER, pesquisa do campo Código mostrando a lista de códigos de imposto para a empresa USMF.](./media/GER-AppSpecParms-LookupForm-CodeFldPicker2.PNG)
     
 8.  Selecione o código de imposto **ISENTO**.
 9.  No campo **Resultado da pesquisa** do novo registro, selecione o valor **Sem tributação**.
@@ -225,13 +223,13 @@ No exemplo anterior, você acessou parâmetros específicos do aplicativo de um 
 
 1.  Reutilize um item de menu **ERSolutionAppSpecificParametersDesigner** existente ou implemente seu próprio item de menu **ERSolutionAppSpecificParametersDesigner**.
 
-    ![Página do Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
+    ![Página do Visual Studio, painel Propriedades.](./media/GER-AppSpecParms-LookupForm-Access1.PNG)
     
 2.  Siga uma destas etapas:
 
     1.  Crie um novo botão de item de menu e vincule-o ao registro correspondente da tabela **ERSolutionTable** definindo a propriedade **Fonte de dados** como **ERSolutionTable**.
     
-        ![Página do Visual Studio.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
+        ![Página do Visual Studio, painéis de Design.](./media/GER-AppSpecParms-LookupForm-Access2.PNG)
         
     2.  Crie um botão simples e substitua o método **Clicked** conforme mostrado no exemplo a seguir.
     

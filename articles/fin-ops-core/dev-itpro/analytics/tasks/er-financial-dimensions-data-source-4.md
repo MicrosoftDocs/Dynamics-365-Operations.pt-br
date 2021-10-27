@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 3bf58ec746fedb046b6014f5343d4ac92c2e6aba72882dec5b1f737aa1aaae46
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: f14be560ab014224e32169b4ac97682a669249b4
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6743204"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605296"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-4---run-the-report"></a>ER Usar dimensões financeiras como uma fonte de dados (Parte 4: Executar o relatório)
 
@@ -37,16 +37,16 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 ![Página de configurações de ER.](../media/er-financial-dimensions-guides-run1.png)
 5. No campo Nome da dimensão, insira ou selecione um valor.
     * Para selecionar todas as dimensões na empresa atual, insira as seguintes informações:  BusinessUnit;CostCenter;Department;ItemGroup;MainAccount;Project  
-![Página de configurações de ER.](../media/er-financial-dimensions-guides-run2.png)
+![Slide Parâmetros de relatório eletrônico, menu suspenso Nome da dimensão.](../media/er-financial-dimensions-guides-run2.png)
 6. Expanda os Registros para incluir a seção.
 7. Clique em Filtro.
 8. Selecione a linha para a tabela Diário-razão e o campo Número do lote do diário.
 9. No campo Critérios, digite "00057".
 10. Clique em OK.
 11. Clique em OK.
-![Página de configurações de ER.](../media/er-financial-dimensions-guides-run3.png)
+![Slide Parâmetros de relatório eletrônico, seção Relatórios a incluir.](../media/er-financial-dimensions-guides-run3.png)
     * Revise a saída gerada. Para cada transação do lote selecionado, as dimensões financeiras do conjunto de dimensões correspondentes são apresentadas. Execute esse relatório e selecione dimensões diferentes para verificar se o relatório não é dependente do número de dimensões selecionadas ou do número de dimensões configuradas para essa instância.  
-![Página de configurações de ER.](../media/er-financial-dimensions-guides-run4.png)
+![Saída gerada pelas configurações de ER.](../media/er-financial-dimensions-guides-run4.png)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

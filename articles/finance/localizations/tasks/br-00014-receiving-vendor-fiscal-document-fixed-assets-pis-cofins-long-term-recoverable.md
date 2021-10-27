@@ -1,6 +1,6 @@
 ---
 title: Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
-description: Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos.
+description: Este tópico explica como lançar uma nota fiscal recebida da aquisição de ativos fixos e recuperar os impostos PIS e COFINS.
 author: sndray
 ms.date: 06/24/2017
 ms.topic: business-process
@@ -13,12 +13,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: daefafbd42d9b085097d4749db8febb801e7aae7f2a0a248af540ff5857b4cbd
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: ddb5494a10ffbcaf0e62e634e5fb7681f2612e20
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6771577"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601466"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---pis-and-cofins-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
 

@@ -1,6 +1,6 @@
 ---
-title: Resolução do SPED fiscal 13/2019 RJ
-description: Este tópico explica como configurar e gerar arquivos de texto do SPED ECD.
+title: Resolução SPED fiscal 13/2019 RJ
+description: Este tópico fornece informações sobre a resolução 13/2019 e como uma nota fiscal eletrônica (NF-e) deve ser emitida e registrada.
 author: v-oloski
 ms.date: 10/22/2019
 ms.topic: article
@@ -12,14 +12,14 @@ ms.search.region: Brazil
 ms.author: roschlom
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7
-ms.openlocfilehash: 886dfae4ac179e458e1b862b619a246909b6388040f49e7fe80cf9fc1526ccb7
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 33897ecffe8a2d684029f3c8d882b4ef5bf8c8ec
+ms.sourcegitcommit: 2fba4f2ef7e513357366fc640befe0d2f7bc31f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6715001"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7601434"
 ---
-# <a name="sped-fiscal-resolution-132019-rj"></a>Resolução do SPED fiscal 13/2019 RJ
+# <a name="sped-fiscal-resolution-132019-rj"></a>Resolução SPED fiscal 13/2019 RJ
 
 [!include [banner](../includes/banner.md)]
 

@@ -16,12 +16,12 @@ ms.search.industry: SCM
 ms.author: perlynne
 ms.search.validFrom: 2020-10-06
 ms.dyn365.ops.version: 10.0.22
-ms.openlocfilehash: c3f703e39e5e9d475dcb4f96dfb400a961ae2dcf
-ms.sourcegitcommit: ecd4c148287892dcd45656f273401315adb2805e
+ms.openlocfilehash: 2c2d2604dc1948d067311a12d00422ef074ac61a
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7500418"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641151"
 ---
 # <a name="warehouse-management-workloads-for-cloud-and-edge-scale-units"></a>Cargas de trabalho de gerenciamento de depósito para unidades de escala de nuvem e borda
 
@@ -171,7 +171,8 @@ Atualmente, não há suporte para a seguinte funcionalidade de gerenciamento de 
 - Processar com estoque disponível negativo.
 - Processar trabalho de depósito com notas de remessa.
 - Processar trabalho de depósito com manuseio de material/automação do depósito.
-- Uso de imagem de dados de produto mestre (por exemplo, no aplicativo móvel Warehouse Management).
+- Imagens de dados de produto mestre (por exemplo, no aplicativo móvel Warehouse Management).
+- Compartilhamento de dados interempresarial para produtos.
 
 > [!WARNING]
 > Algumas funcionalidades de depósito não estarão disponíveis para depósitos que executam as cargas de trabalho de gerenciamento de depósito em uma unidade de escala e também não terão suporte no hub ou na carga de trabalho da unidade de escala.
@@ -188,7 +189,6 @@ A tabela a seguir mostra quais recursos de saída têm suporte e onde, quando as
 |--------------------------------------------------------------|-----|------------------------------|
 | Processamento de documento de origem                                   | Sim | Não |
 | Processamento de gerenciamento de transporte e carga                | Sim, mas somente os processos de planejamento de carga. O processamento de gerenciamento de transporte não é compatível  | Não |
-| Recebimento de custo de entrega de mercadorias em trânsito                                         | Sim | Não |
 | Liberar para o depósito                                         | Sim | Não |
 | Distribuição integrada planejada                                        | Não  | Não |
 | Consolidação da remessa                                       | Sim, ao usar planejamento de carga | Sim |
@@ -224,6 +224,7 @@ A tabela a seguir mostra quais recursos de entrada têm suporte e onde, quando a
 |------------------------------------------------------------------|-----|----------------------------------------------------------------------------------|
 | Processamento&nbsp;de documento&nbsp;de origem                             | Sim | Não |
 | Processamento de gerenciamento de transporte e carga                    | Sim | Não |
+| Recebimento de custo de entrega de mercadorias em trânsito                       | Sim | Não |
 | Confirmação de remessa de entrada                                    | Sim | Não |
 | Liberação da ordem de compra para depósito (processamento de ordem de depósito) | Sim | Não |
 | Cancelamento de linhas da ordem de depósito<p>Observe que só haverá suporte quando nenhum registro tiver ocorrido contra a linha</p> | Sim | Não |

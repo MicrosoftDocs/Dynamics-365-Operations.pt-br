@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 10.0.5
-ms.openlocfilehash: 6923954e2d287a16425a9f823e8f8800503735ec0b3837cff764cf8d6e752039
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 32eb5206fadefbd024f2dd2af888d166c81b950f
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6724408"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605322"
 ---
 # <a name="download-er-configurations-from-the-global-repository-of-configuration-service"></a>Baixar configurações ER do repositório global de serviço de configuração
 
@@ -63,7 +63,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
     > [!NOTE]
     > O botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância atual do Finance.
 
-    ![Página do repositório de configuração.](./media/er-download-configurations-global-repo-repository-content.png)
+    ![Página Repositório de configuração, FastTab Configurações.](./media/er-download-configurations-global-repo-repository-content.png)
 
 ## <a name="import-filtered-configurations"></a>Importar configurações filtradas
 
@@ -77,7 +77,7 @@ Este tópico explica como baixar as [configurações de relatório eletrônico (
 4. Na FastTab **Configurações**, selecione **Importar** para baixar as configurações filtradas do repositório global para a instância atual.
 5. Na guia **Configurações**, selecione **Redefinir filtro** para limpar as condições de seleção especificadas.
 
-    ![Página do repositório de configuração.](./media/er-download-configurations-global-repo-filtered-configurations.png)
+    ![Página Repositório de configuração, FastTab Versões, botão Importar.](./media/er-download-configurations-global-repo-filtered-configurations.png)
 
 > [!NOTE]
 > Dependendo das configurações de ER, as configurações são validadas depois que são importadas. Talvez você seja notificado sobre problemas de inconsistências descobertos. Antes de poder usar a versão de configuração importada, você precisa resolver os problemas. Para obter mais informações, consulte a lista de recursos relacionados deste tópico.

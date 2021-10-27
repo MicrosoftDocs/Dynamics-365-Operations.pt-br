@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2020-02-03
 ms.dyn365.ops.version: Human Resources
-ms.openlocfilehash: 766e807ee9061f52b692cf3436ba393b334e67c4
-ms.sourcegitcommit: 7a2001e4d01b252f5231d94b50945fd31562b2bc
+ms.openlocfilehash: c84fdb3c5c61598dfd0934e769f4a7262ce74052
+ms.sourcegitcommit: 8439ce2d4ad5ee5c1ec870640b52b5d2e947a671
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/15/2021
-ms.locfileid: "7488074"
+ms.lasthandoff: 10/14/2021
+ms.locfileid: "7644518"
 ---
 # <a name="provision-human-resources"></a>Provisionar o Human Resources
 
@@ -49,7 +49,7 @@ Ambientes de avaliação não devem ser usados como ambientes de produção. Ele
 Ao criar um ambiente de avaliação do Human Resources, um ambiente de avaliação do Power Apps também é criado no locatário e vinculado ao ambiente do Human Resources. O ambiente do Power Apps, chamado de "TestDrive", tem o mesmo período de avaliação do ambiente do Human Resources.
 
 > [!NOTE]
-> O provisionamento de um ambiente de avaliação do Human Resources falhará se o usuário autenticado não tiver permissão para criar ambientes de avaliação do Power Apps. O usuário precisa ser incluído no grupo de usuários que pode criar ambientes de avaliação no centro de administração do Power Platform. Para obter mais informações, consulte [Controlar quem pode criar e gerenciar ambientes no centro de administração do Power Platform](//power-platform/admin/control-environment-creation).
+> O provisionamento de um ambiente de avaliação do Human Resources falhará se o usuário autenticado não tiver permissão para criar ambientes de avaliação do Power Apps. O usuário precisa ser incluído no grupo de usuários que pode criar ambientes de avaliação no centro de administração do Power Platform. Para obter mais informações, consulte [Controlar quem pode criar e gerenciar ambientes no centro de administração do Power Platform](/power-platform/admin/control-environment-creation).
 
 ## <a name="plan-human-resources-environments"></a>Planejar ambientes do Human Resources
 

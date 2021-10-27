@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2020-05-29
 ms.dyn365.ops.version: AX 10.0.12
-ms.openlocfilehash: 0b324891b38f851f8cce9210e3d09a26d567a291
-ms.sourcegitcommit: 822aea26c5da259efe11ff3b3dc4cf1598425689
+ms.openlocfilehash: b1a40db34d42c3f25e910309a9e5ef7b0e7e0361
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/16/2021
-ms.locfileid: "7386578"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599365"
 ---
 # <a name="enable-customer-payment-predictions"></a>Habilitar previsões de pagamento do cliente
 
@@ -41,7 +41,7 @@ Este tópico explica como habilitar e configurar o recurso de previsões de paga
 2. Habilite o recurso de informações de pagamento do cliente:
 
     1. Acesse **Administrador do sistema \> Espaços de trabalho \> Gerenciamento de recursos**.
-    2. Localize o recurso que é chamado de **Informações de pagamento do cliente (versão prévia)**.
+    2. Localize o recurso que é chamado de **(Versão prévia) Informações de pagamento do cliente**.
     3. Selecione **Habilitar agora**.
 
     O recurso de insights de pagamento do cliente agora está ativado e pronto para ser configurado.

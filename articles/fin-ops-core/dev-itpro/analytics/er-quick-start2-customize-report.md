@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 2ec7f5bcf9f01512d22f502a4b512f2919b3caf348eb1f5c4365238d6fd3f476
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 47d8091e9199597857791f58f14587e2dea027e0
+ms.sourcegitcommit: 25b3dd639e41d040c2714f56deadaa0906e4b493
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6770011"
+ms.lasthandoff: 10/06/2021
+ms.locfileid: "7605221"
 ---
 # <a name="adjust-an-er-format-to-generate-a-custom-electronic-document"></a>Ajustar um formato de ER para gerar um documento eletrônico personalizado
 
@@ -160,7 +160,7 @@ Para adicionar as configurações de ER padrão à instância atual do Microsoft
     - **Mapeamento de modelos de pagamento 1611** – Esta configuração contém o componente de ER [mapeamento de modelos](general-electronic-reporting.md#data-model-and-model-mapping-components) que descreve como o modelo de dados é preenchido com dados de aplicativos em tempo de execução.
     - **BACS (Reino Unido)** – Esta configuração contém os componentes de ER [formato](general-electronic-reporting.md#FormatComponentOutbound) e mapeamento de formato. O componente de formato especifica o layout do relatório. O componente mapeamento de formato contém a fonte de dados do modelo e especifica como o layout do relatório é preenchido usando essa fonte de dados no tempo de execução.
 
-![Página Configurações.](./media/er-quick-start2-imported-solution1.png)
+![Página Configurações com as configurações de ER especificadas disponíveis na árvore.](./media/er-quick-start2-imported-solution1.png)
 
 ## <a name="prepare-a-vendor-payment-for-processing"></a><a id="PrepareVendorPayment"></a>Preparar um pagamento de fornecedor para processamento
 
@@ -222,7 +222,7 @@ Você deve configurar o método de pagamento eletrônico para que ele use a conf
 4. Na FastTab **Formatos de arquivo**, defina a opção **Formato de exportação eletrônico geral** como **Sim**.
 5. No campo **Exportar configuração de formato**, selecione a configuração de formato **BACS (Reino Unido)**.
 
-    ![Página Métodos de pagamento - Fornecedores.](./media/er-quick-start2-method-of-payment1.png)
+    ![Página Métodos de pagamento-fornecedores para configurar o método de pagamento eletrônico para processar pagamentos de fornecedores usando um formato padrão.](./media/er-quick-start2-method-of-payment1.png)
 
 6. Selecione **Salvar**.
 
@@ -273,7 +273,7 @@ Neste caso, como representante da Litware, Ltda., você deve criar (derivar) uma
 
 A versão 1.1.1 da configuração do formato de ER **BACS (personalizado do Reino Unido)** foi criada. Essa versão tem um [status](general-electronic-reporting.md#component-versioning) de **Rascunho** e pode ser editada. O conteúdo atual do formato de ER personalizado corresponde ao conteúdo do formato fornecido pela Microsoft.
 
-![Página Configurações.](./media/er-quick-start2-derived-format-configuration1.png)
+![Página Configurações com Versão 1.1.1 da configuração do formato de ER BACS (personalizado do Reino Unido).](./media/er-quick-start2-derived-format-configuration1.png)
 
 ### <a name="edit-a-custom-format"></a><a id="ConfigureDerivedFormat"></a>Editar uma formato personalizado
 
@@ -349,7 +349,7 @@ Você deve configurar o método de pagamento eletrônico para que seu formato de
 4. Na FastTab **Formato de arquivo**, defina a opção **Formato de exportação eletrônico geral** como **Sim**.
 5. No campo **Exportar configuração de formato**, selecione a configuração de formato **BACS (personalizado do Reino Unido)**.
 
-    ![Página Métodos de pagamento - Fornecedores.](./media/er-quick-start2-method-of-payment2.png)
+    ![Página Métodos de pagamento-fornecedores para configurar o método de pagamento eletrônico para processar pagamentos de fornecedores usando um formato personalizado.](./media/er-quick-start2-method-of-payment2.png)
 
 6. Selecione **Salvar**.
 
@@ -378,7 +378,7 @@ Você deve configurar o método de pagamento eletrônico para que seu formato de
 
         Observe que, de acordo com a estrutura do seu formato de ER personalizado, agora a linha de pagamento no arquivo gerado [começa](#PositionSWIFTCode) com o código Swift que foi [inserido](#DefineSWIFTCode) para a conta bancária do fornecedor cujo pagamento foi processado.
 
-        ![Arquivo de pagamento no formato TXT.](./media/er-quick-start2-payment-file2.png)
+        ![Arquivo de pagamento no formato TXT usado para processar o pagamento do fornecedor.](./media/er-quick-start2-payment-file2.png)
 
 ## <a name="import-new-versions-of-the-standard-er-format-configurations"></a><a id="ImportERSolution2"></a>Importar novas versões das configurações do formato de ER padrão
 
@@ -395,7 +395,7 @@ Para adicionar novas versões das configurações de ER à instância atual do F
 5. Na FastTab **Versões**, selecione a versão **3.3** da configuração do formato de ER selecionada.
 6. Selecione **Importar** para baixar a versão selecionada do repositório global para a instância atual do Finance.
 
-![Página do repositório de configuração.](./media/er-quick-start2-import-solution2.png)
+![Página Repositório de configuração, FastTab Versões, botão Importar.](./media/er-quick-start2-import-solution2.png)
 
 > [!TIP]
 > Se você tiver problemas para acessar o [repositório global](er-download-configurations-global-repo.md), poderá [baixar configurações](download-electronic-reporting-configuration-lcs.md) do LCS.
@@ -507,7 +507,7 @@ Para começar a usar a nova funcionalidade da versão 3.3 do formato **BACS (Rei
 
         Observe que a linha de pagamento no arquivo gerado começa com o código Swift que foi inserido para a conta bancária de um fornecedor cujo pagamento foi processado.
 
-        ![Arquivo de pagamento no formato TXT.](./media/er-quick-start2-payment-file3.png)
+        ![Arquivo de pagamento no formato TXT usado para processar o pagamento do fornecedor usando um formato de ER rebaseado.](./media/er-quick-start2-payment-file3.png)
 
 ## <a name="additional-resources"></a><a id="References"></a>Recursos adicionais
 

@@ -1,8 +1,8 @@
 ---
 title: Configurar cupons para vendas de varejo
-description: Este tópico fornece uma visão geral de cupons e explica como defini-los.
-author: scott-tucker
-ms.date: 06/04/2020
+description: Este tópico fornece uma visão geral de cupons e explica como defini-los no Dynamics 365 Commerce.
+author: josaw1
+ms.date: 10/05/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -12,15 +12,15 @@ ms.reviewer: josaw
 ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
-ms.author: scotttuc
+ms.author: josaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: bc79970528e23397b756fa15a715fba834edcc06e4522c6c35b64aede4976300
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 6a2ee38139f20b883bdfa5f0776951246f763f5f
+ms.sourcegitcommit: f699dbc21a06dbfb3fb299b789b428ea8d643868
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6745299"
+ms.lasthandoff: 10/05/2021
+ms.locfileid: "7603114"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>Configurar cupons para vendas de varejo
 
@@ -40,6 +40,8 @@ Para criar um cupom, você cria o desconto e o cupom separadamente. Em seguida, 
 > Depois que um cupom é vinculado a um desconto, vários campos na página de desconto do Commerce se tornam somente leitura, pois eles são gerenciados pelas configurações do cupom. Esses campos incluem os campos para o status e os intervalos de datas padrão.
 > 
 > Ao usar o cupom no canal de call center, você precisará selecionar o botão **Recalcular** **(guia Vender > Calcular > Recalcular)** para que o desconto associado ao cupom seja aplicado. Essa etapa adicional será removida em uma versão futura.
+
+Para aplicar um cupom a uma transação de venda no ponto de venda (POS), você pode usar o **Código do cupom** ou o **Código de barras do cupom**. Para usar o **Código de cupom**, a operação **Adicionar código de cupom** deve ser configurada no POS **Transação** [Layout da tela](pos-screen-layouts.md). Selecione **Adicionar código de cupom** e insira o código do cupom. Alternativamente, para usar o **Código de barras do cupom**, digitalize o código de barras ou insira o código de barras usando o teclado numérico na tela **Transação**.
 
 ### <a name="limited-use-coupons"></a>Cupons de uso limitado
 

@@ -14,12 +14,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7e4e3322bbeb64472bdcd27f9ff571fe45ef87d1
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: b5273a388b30a41b75bd76c92fa4b9ff05c8f8d6
+ms.sourcegitcommit: db80edbe0c32e3a5f22aae6154781f3ff8a2ab2a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7574104"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599339"
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar localizações em um depósito habilitado para WMS
 
@@ -33,7 +33,7 @@ Este guia mostra como definir a configuração da localização para um novo dep
 2. Clique em **Novo**.
 3. No campo **Depósito**, digite um valor.
 4. No campo **Nome**, digite um valor.
-5. No campo **Local**, digite um valor.
+5. No campo **Site**, selecione ou digite um valor de site existente.
 6. Expanda a seção **Depósito**.
 7. Defina a opção **Usar processos de gerenciamento de depósito** como Sim. Essa configuração permite que você execute processos de armazenamento avançados utilizando trabalho de depósito e dispositivos móveis.
 8. Feche a página.

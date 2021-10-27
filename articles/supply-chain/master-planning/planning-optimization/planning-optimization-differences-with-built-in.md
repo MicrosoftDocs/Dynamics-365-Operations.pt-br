@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2021-07-30
 ms.dyn365.ops.version: 10.0.21
-ms.openlocfilehash: 9972c5761a8445c6802f58b0ffad6226cf8ee38c
-ms.sourcegitcommit: 3b87f042a7e97f72b5aa73bef186c5426b937fec
+ms.openlocfilehash: 14f0e07913af708e9eb3491ab4bc99e85462e5dd
+ms.sourcegitcommit: fcb1aa39e933216dea9e586b552bce6057f416a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7568678"
+ms.lasthandoff: 10/15/2021
+ms.locfileid: "7645797"
 ---
 # <a name="differences-between-built-in-master-planning-and-planning-optimization"></a>Diferenças entre planejamento mestre interno e Otimização de Planejamento
 
@@ -29,7 +29,7 @@ Os resultados da Otimização de Planejamento podem ser diferentes dos resultado
 | Dimensões extensíveis | Dimensões extensíveis estão vazias em ordens planejadas, mesmo quando a caixa de seleção **Plano de cobertura por dimensão** é marcada na página **Grupos de dimensão de armazenamento** ou **Grupos de dimensão de rastreamento**. |
 | Execuções de produção filtradas | Para obter detalhes, consulte [Planejamento de produção — filtros](production-planning.md#filters). |
 | Planejamento de previsão | O planejamento de previsão não tem suporte. Recomendamos que você use o planejamento mestre em que um modelo de previsão é atribuído ao plano mestre. |
-| Sequências numéricas para ordens planejadas | Não há suporte para sequências numéricas para ordens planejadas. Os números de ordens planejadas são gerados no lado do serviço. |
+| Sequências numéricas para ordens planejadas | Não há suporte para sequências numéricas para ordens planejadas. Os números de ordens planejadas são gerados no lado do serviço. O número da ordem planejada normalmente é mostrado com 10 dígitos, mas a sequência é criada de fato em 20 caracteres, com 10 dígitos alocados para a contagem de execuções de planejamento e os outros 10 dígitos para a contagem de ordens planejadas. |
 | Planejar cópia, excluir plano e limpeza da versão do plano | <p>Os itens a seguir estão desabilitados em **Planejamento mestre: \> Planejamento mestre: \> Manter planos** no painel de navegação:</p><ul><li>Planejar cópia</li><li>Excluir plano</li><li>Planejar limpeza da versão</li></ul> |
 | Ordens de Devolução | As ordens de devolução não são consideradas. |
 | Recursos relacionados ao agendamento | Para obter detalhes, consulte [Agendamento com capacidade infinita](infinite-capacity-planning.md#limitations). |

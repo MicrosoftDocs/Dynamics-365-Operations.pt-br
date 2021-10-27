@@ -10,12 +10,12 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2021-06-18
 ms.dyn365.ops.version: 10.0.20
-ms.openlocfilehash: 562b56a85ad2f40cb673f8f2101bf92c39853d1f1a087d0498b6f7d19d1cca01
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: 0b00de29a4f12719e469c063861b52e0fc20c5f1
+ms.sourcegitcommit: 42bd701179e664947b6eafcd1804c83a5e64abcb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6773336"
+ms.lasthandoff: 10/13/2021
+ms.locfileid: "7641102"
 ---
 # <a name="enable-power-bi-for-global-inventory-accounting"></a>Habilitar o Power BI para Contabilidade de estoque global
 
@@ -49,7 +49,10 @@ Siga estas etapas para configurar a integração do Power BI.
 1. Configure o relatório do Power BI da **Contabilidade de estoque global** seguindo estas etapas:
 
     1. Acesse **Meu espaço de trabalho**, encontre o conjunto de dados para Contabilidade de estoque global e, em seguida, no menu **Opções**, selecione **Configurações**.
-    1. Em **Configurações da Contabilidade de estoque global**, expanda **Parâmetros** e atualize todos os parâmetros conforme necessário.
+    1. Em **Configurações da Contabilidade de estoque global**, expanda **Parâmetros** e atualize todos os parâmetros conforme necessário. Em particular, verifique as seguintes configurações:
+        1. Substitua os valores padrão de **URL do Dataverse** e **ID do ambiente** pelos valores da página **Detalhes do ambiente** no LCS (na seção **Integração do Power Platform**).
+        1. Selecione o link **Editar credenciais** ao lado da etiqueta **CDs** na seção **Credenciais da fonte de dados**. Em seguida, entre na sua conta do Dataverse usando o método de autenticação **OAuth2**.
+    1. Verifique se os relatórios do Power BI localizados em **Meu espaço de trabalho \> Relatórios \> Contabilidade de estoque global** agora estão funcionando corretamente e exibem o conteúdo do sistema.
 
 1. Registre o aplicativo conforme descrito em [Configurar integração do PowerBI.com](../../fin-ops-core/dev-itpro/analytics/configure-power-bi-integration.md#registration-process).
 1. Para integrar o arquivo de relatório do Power BI da **Contabilidade de estoque global** no Dynamics 365 Supply Chain Management, siga estas etapas:

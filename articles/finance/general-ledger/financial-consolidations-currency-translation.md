@@ -1,8 +1,8 @@
 ---
 title: Visão geral de consolidações financeiras e conversão de moeda
 description: Este tópico descreve as consolidações financeiras e a conversão de moeda na contabilidade.
-author: aprilolson
-ms.date: 07/25/2019
+author: jiwo
+ms.date: 10/07/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.openlocfilehash: 0df16db842c159b4db469139a0b5463a82e3fe07b4e23f8f7cf0272caaf23602
-ms.sourcegitcommit: 42fe9790ddf0bdad911544deaa82123a396712fb
+ms.openlocfilehash: c9ec8e6a371f08ad7eab0d133e1b71861943274e
+ms.sourcegitcommit: f76fecbc28c9a6048366e8ead70060b1f5d21a97
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/05/2021
-ms.locfileid: "6748971"
+ms.lasthandoff: 10/08/2021
+ms.locfileid: "7615926"
 ---
 # <a name="financial-consolidations-and-currency-translation-overview"></a>Visão geral de consolidações financeiras e conversão de moeda
 
@@ -182,5 +182,17 @@ Aqui estão alguns dos cenários de consolidação que o Relatório financeiro p
 ## <a name="generating-consolidated-financial-statements"></a>Criação de demonstrativos financeiros consolidados
 Para obter informações sobre os cenários onde você poderá gerar demonstrativos financeiros consolidados, consulte [Gerar demonstrativos financeiros consolidados](./generating-consolidated-financial-statements.md).
 
+## <a name="performance-enhancement-for-large-consolidations"></a>Aprimoramento de desempenho para consolidações grandes
+
+Ambientes que têm várias transações de contabilidade podem ser executadas mais lentamente do que o ideal. Para corrigir esse problema, você pode configurar o processamento paralelo de lotes que usa um número de datas definido pelo usuário. Para garantir que a solução funcione como pretendido, adicione um ponto de extensão à consolidação para retornar um contêiner de intervalos de datas. A implementação básica deve conter um intervalo de datas para o estado inicial e a data final da consolidação. Os intervalos de datas na implementação básica serão validados para garantir que não contenham lacunas ou sobreposições. Os intervalos de datas serão usados para criar pacotes de lote paralelo para cada empresa.
+
+Você pode personalizar o número de intervalos de datas de acordo com as necessidades de sua organização. Ao personalizar o número de intervalos de datas, você pode ajudar a simplificar os testes e minimizar o impacto no código existente, pois não há lógica de alocação. Os únicos testes novos que são necessários para validam a criação de conjuntos de lotes, validam intervalos de datas e testam um subconjunto de intervalos de datas para verificar se os lotes podem ser reunidos para a tarefa em lotes final. 
+
+Esse recurso melhora o processo de consolidação na contabilidade quando o processo é executado em um lote. Esse aprimoramento melhora o desempenho do processo de consolidação de contabilidade, dividindo a consolidação em várias tarefas que podem ser processadas em paralelo. No método padrão para executar uma consolidação, cada tarefa processa oito dias de atividade de contabilidade. No entanto, foi adicionado um ponto de extensão que permite personalizar o número de tarefas criadas.
+
+Antes de poder usar esse recurso, você deve habilitá-lo no seu sistema. Os administradores podem usar o espaço de trabalho **Gerenciamento de recursos** para verificar o status do recurso e ativá-lo, se necessário. Nesse caso, o recurso é listado da seguinte maneira:
+
+- **Módulo:** contabilidade
+- **Nome do recurso:** aprimoramento de desempenho para consolidações grandes
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
